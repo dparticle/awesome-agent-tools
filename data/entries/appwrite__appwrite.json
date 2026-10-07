@@ -39,7 +39,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 2738,
+  "age_days": 2739,
   "days_since_push": 0,
   "health_score": 70,
   "health_components": {
@@ -52,7 +52,7 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 57589,
-    "days_span": 2738,
+    "days_span": 2739,
     "stars_per_day": 21.03,
     "lifetime_stars_per_day": 21.03,
     "basis": "lifetime",
@@ -144,18 +144,26 @@
     "highlights": [
       "Appwrite Storage - Store files with compression, encryption, image transformations, and access control.",
       "Appwrite Databases - Model, query, and scale with Appwrite databases or managed PostgreSQL and MySQL, so you can match your use case and team needs."
-    ]
+    ],
+    "summary_zh_native": "Appwrite 是面向 MCP 与智能体的开源平台，用于构建和扩展应用。MCP 已包含在内，编程智能体可以直接操作线上的 Appwrite 项目。Appwrite 提供托管云服务，也可以在你自己控制的基础设施上自托管。",
+    "highlights_zh": [
+      "Appwrite MCP - 将智能体连接到你的 Appwrite 项目、API 和文档。",
+      "Appwrite Storage - 存储文件，支持压缩、加密、图像转换和访问控制。",
+      "Appwrite Sites - 从 Git 部署静态、SSR 和 CSR 前端，支持即时预览，并由 Appwrite 作为后端。",
+      "Appwrite Auth - 通过邮箱、短信、OAuth、匿名会话和 Magic URL 安全地验证用户。"
+    ],
+    "chinese_readme": "README-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:09+00:00",
+  "fetched_at": "2026-10-07T17:47:47+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -121,14 +121,17 @@
       "Multi-Source Aggregation: Fetches from 3-5 major AI news sites plus web search",
       "Smart Filtering: Keeps only recent news (24-48 hours) with major significance",
       "✅ Phase 3: JSON Generation (NodeId generation, auto-layout, reference handling)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "fetched_at": "2026-10-07T17:48:05+00:00",
   "categories": [
     "skills"
   ],
@@ -164,6 +167,7 @@
         "4.02x the star velocity (3.3/day vs 0.8/day)",
         "no harder to set up (21 vs 58 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "mcp-support",

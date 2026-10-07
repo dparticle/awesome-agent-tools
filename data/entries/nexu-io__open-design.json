@@ -175,19 +175,22 @@
       "external_link_ratio": 0.912
     },
     "highlights": [
-      "🤖 Agent-native, model-agnostic. We don't ship an agent. The claude / codex / cursor-agent / copilot / hermes / kimi already on your PATH are the design engine. Swap with one click.",
+      "🤖 Agent-native, model-agnostic.",
       "Hand off to engineering. The artifact is real HTML/CSS — drop it into Cursor, Codex, or Claude Code to keep building as code. Or export PPTX / PDF / MP4 straight to marketing.",
-      "The agent creates the first deliverable. Plugin + functional skill or design template + DESIGN.md are bound. Filesystem-backed CLI runs write canonical project files and the preview follows…"
-    ]
+      "The agent creates the first deliverable."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:06+00:00",
+  "fetched_at": "2026-10-07T17:47:44+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "model-routing",
     "sharing"
   ],

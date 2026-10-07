@@ -138,18 +138,21 @@
     "highlights": [
       "The model provider you choose. Gateway points a session at Ollama, LM Studio, vLLM, OpenRouter or z.ai, applied as real process environment so the request goes straight from the CLI to your…",
       "A git client, not just a diff. Commit, publish, switch branches, undo the last unpushed commit, and open a pull request from the issue panel.",
-      "Claude Code and Codex, first class. Lanes detects them, reads their state, resumes their sessions and lists their models. Anything else runs as a plain shell session.",
+      "Claude Code and Codex, first class.",
       "GitHub and Linear over OAuth. Import a whole sprint onto the board, and push results back as comments."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "fetched_at": "2026-10-07T17:48:05+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism"
   ],
   "primary_category": "isolation-parallelism",
@@ -187,6 +190,7 @@
         "56.73x the star velocity (78.3/day vs 1.4/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

@@ -126,18 +126,26 @@
       "The url-shortener example — fresh-context runs that never saw our list of known problems found 12 of 13 cross-document problems (/workflow-status) and 10 of 10 PRD problems (/verify-prd), p…",
       "Keep the rules in context. Reference RULES.md from your agent config (CLAUDE.md, AGENTS.md, or .cursor/rules/). /generate-rules suggests how.",
       "Review with fresh eyes. /review-rfc will not review code written in the same conversation. In Claude Code it runs in a separate context automatically."
-    ]
+    ],
+    "summary_zh_native": "想法或现有代码 → 经过验证的 PRD → 功能 → 规则 → 有序的 RFC → 经过评审和测试的代码",
+    "highlights_zh": [
+      "url-shortener 示例：在全新上下文中运行、从未看过我们问题清单的命令，找出了 13 个跨文档问题中的 12 个（/workflow-status）和 10 个 PRD 问题中的全部 10 个（/verify-prd），还发现了好几个我们漏掉的问题。",
+      "用新的眼光评审。 /review-rfc 不会评审在同一个对话中写出的代码；在 Claude Code 中，它会自动在独立的上下文里运行。",
+      "先计划，再批准，最后编码。 /implement-rfc 给出计划后会停下来等你。",
+      "文件之间有冲突时， PRD.md 优先于 FEATURES.md，其次是 RULES.md，最后是 RFC。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:27+00:00",
+  "fetched_at": "2026-10-07T17:48:04+00:00",
   "categories": [
-    "desktop-ui"
+    "agent-runtime-desktop-ui"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

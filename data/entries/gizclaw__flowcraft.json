@@ -126,18 +126,21 @@
       "Delegation — core/delegation: backend-neutral",
       "Subject-routed event bus — every step emits structured envelopes.",
       "backends/* — Platform-specific implementations: SQLite checkpoints"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "fetched_at": "2026-10-07T17:48:01+00:00",
   "categories": [
-    "sessions-memory"
+    "analytics"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

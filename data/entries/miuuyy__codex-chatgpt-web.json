@@ -117,18 +117,21 @@
     "highlights": [
       "Run Verify runtime to confirm that Codex Native2 is attached and available.",
       "Finish the required setup, open MCP, create the Tunnel and regular API key, then press"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "fetched_at": "2026-10-07T17:47:37+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

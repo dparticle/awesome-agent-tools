@@ -161,20 +161,28 @@
       "Protocol conformance — 46 read-only checks of the MCP wire surface;",
       "generating a deterministic plan, target set, and source SHA-256 values;",
       "A — API: which interfaces, commands, formats, or observable contracts it exposes."
-    ]
+    ],
+    "summary_zh_native": "AOCI-CODE 是一种为 AI Agent 建立软件项目全局认知的索引方法，可提供持久化、可治理的代码仓库认知地图。",
+    "highlights_zh": [
+      "一个受支持的 MCP 宿主，例如 Codex、Claude Code、Cursor 或 OpenCode；",
+      "协议一致性 —— 46 项只读检查，覆盖 MCP 线协议表面；",
+      "AI Agent 必须沿 next_cursor 自动读取到最后一个 Chunk；",
+      "故障注入场景 —— 65 个场景，在一次性夹具仓库上检验游标篡改、崩溃恢复与"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:16+00:00",
+  "fetched_at": "2026-10-07T17:47:54+00:00",
   "categories": [
-    "desktop-ui",
-    "model-routing",
-    "sessions-memory"
+    "agent-runtime-desktop-ui",
+    "analytics",
+    "model-routing"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

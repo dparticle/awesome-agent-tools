@@ -147,16 +147,24 @@
       "signals": [],
       "external_link_ratio": 0.61
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "deepseek harness, openclaw, hermes, claude code, codex, cursor, workbuddy, openCode, pi...都能用!",
+    "highlights_zh": [
+      "hermes-agent ——Nous Research 打造的自我进化 Agent，它在持久记忆与技能自学习上的实践让我们看到 Agent 可以「越用越懂你」。",
+      "nanobot ——从极简原型生长为功能完备的开源 Agent 平台，它对 Agent 循环与 MCP 集成的工程实践为 Memmy 的核心设计提供了重要参考。",
+      "OpenClaw ——开源个人 AI 助手的先行者，它对多平台消息渠道的探索直接启发了 Memmy 的渠道连接设计。",
+      "团队协作——规划中的 Agent 间协作能力，让团队成员的 AI 助手在隐私保护下共享知识。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "model-routing",
     "teams"
   ],
@@ -195,6 +203,7 @@
         "3.37x the star velocity (83.8/day vs 24.9/day)",
         "no harder to set up (26 vs 42 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

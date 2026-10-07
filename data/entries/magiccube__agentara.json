@@ -119,19 +119,22 @@
       "Agent-powered sessions — Interact with Claude Code and OpenAI Codex through managed sessions with full streaming support",
       "Web dashboard — React-based UI for managing sessions, tasks, and memory",
       "Session persistence — Sessions stored as JSONL files with full message history"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "fetched_at": "2026-10-07T17:47:58+00:00",
   "categories": [
-    "desktop-ui",
-    "sessions-memory"
+    "agent-runtime-desktop-ui",
+    "analytics"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by pacifio/atlas: covers 100% of capabilities (5/5).",
@@ -155,15 +158,16 @@
         "session-persistence"
       ],
       "star_ratio": 17.986,
-      "momentum_ratio": 26.84,
+      "momentum_ratio": 26.66,
       "setup_delta": -63,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "17.99x the stars (9,263 vs 515)",
-        "26.84x the star velocity (63.9/day vs 2.4/day)",
+        "26.66x the star velocity (63.5/day vs 2.4/day)",
         "no harder to set up (21 vs 84 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

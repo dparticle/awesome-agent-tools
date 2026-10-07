@@ -131,18 +131,21 @@
       "✨ Orchestrate cross-vendor LLM APIs through dynamic configuring",
       "✨ Global state management through the Pinia store",
       "✨ Accelerate AI tool integration via MCP"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:16+00:00",
+  "fetched_at": "2026-10-07T17:47:54+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
@@ -174,6 +177,7 @@
         "62.68x the star velocity (130.4/day vs 2.1/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "gui-desktop",

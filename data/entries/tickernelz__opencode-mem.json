@@ -124,24 +124,27 @@
       "external_link_ratio": 0.203
     },
     "highlights": [
-      "In later sessions, relevant memories are injected into context (see chatMessage / compaction settings). Browse or edit them in the web UI at http://127.0.0.1:4747.",
-      "orcarouter: OpenAI-compatible model gateway with namespaced model IDs. memoryApiUrl and memoryModel are optional — they default to https://api.orcarouter.ai/v1 and orcarouter/auto (a routin…",
-      "Unsupported platforms: Intel Mac (darwin/x64) is not supported — @tursodatabase/database and fixed onnxruntime-node releases (pinned 1.30.0) ship no x64 native binding. Use Apple Silicon, L…",
-      "atlas-cloud: OpenAI-compatible Chat Completions preset for Atlas Cloud. memoryApiUrl and memoryModel are optional — they default to https://api.atlascloud.ai/v1 and deepseek-ai/deepseek-v4-…"
-    ]
+      "In later sessions, relevant memories are injected into context (see chatMessage / compaction settings).",
+      "orcarouter: OpenAI-compatible model gateway with namespaced model IDs.",
+      "Unsupported platforms: Intel Mac (darwin/x64) is not supported — @tursodatabase/database and fixed onnxruntime-node releases (pinned 1.30.0) ship no x64 native binding.",
+      "atlas-cloud: OpenAI-compatible Chat Completions preset for Atlas Cloud."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "fetched_at": "2026-10-07T17:47:52+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "model-routing",
     "skills"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

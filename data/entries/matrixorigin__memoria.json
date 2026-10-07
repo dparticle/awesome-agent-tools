@@ -126,18 +126,21 @@
       "signals": [],
       "external_link_ratio": 1.015
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "fetched_at": "2026-10-07T17:47:58+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
@@ -171,6 +174,7 @@
         "363.93x the star velocity (1048.1/day vs 2.9/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",

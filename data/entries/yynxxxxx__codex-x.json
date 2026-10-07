@@ -122,17 +122,22 @@
     },
     "highlights": [
       "管理多个可命名的官方 Codex 登录与第三方 API，一键复制、切换，并从 cc-switch 导入现有供应商",
-      "在同一页面编辑 Base URL、API Key、Model、Wire API 和完整 TOML"
-    ]
+      "在同一页面编辑 Base URL、API Key、Model、Wire API 和完整 TOML",
+      "支持“保留原提示词”和“替换原提示词”两种模式，适合日常叠加或完整切换",
+      "支持同步 GitHub 模板、导入 Markdown、手动添加提示词、编辑标题 / 文件名 / 内容"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:40+00:00",
   "categories": [
-    "analytics",
+    "analytics-2",
     "billing",
     "providers"
   ],

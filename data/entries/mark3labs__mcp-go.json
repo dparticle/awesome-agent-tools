@@ -105,14 +105,17 @@
     "highlights": [
       "Complete*: MCP Go aims to provide a full implementation of the core MCP specification",
       "Simple: Build MCP servers with minimal boilerplate"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "fetched_at": "2026-10-07T17:47:49+00:00",
   "categories": [
     "quota"
   ],

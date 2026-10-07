@@ -127,16 +127,19 @@
       ],
       "external_link_ratio": 1.355
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:37+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "model-routing",
     "skills"
   ],

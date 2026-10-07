@@ -133,17 +133,25 @@
     },
     "highlights": [
       "UI — A Vue 3 design system for AI agent management interfaces, including a component library, design tokens, and skills that teach agents how to use them.",
-      "Twilight AI — A lightweight, idiomatic AI SDK for Go, inspired by Vercel AI SDK. Provider-agnostic (OpenAI, Anthropic, Google), with first-class streaming, tool calling, MCP, and embeddings."
-    ]
+      "Twilight AI — A lightweight, idiomatic AI SDK for Go, inspired by Vercel AI SDK."
+    ],
+    "summary_zh_native": "桌面、浏览器、网络与长期记忆 — 即使关上笔记本，Agent 也不会停",
+    "highlights_zh": [
+      "Twilight AI — 给 Go 用的轻量 AI SDK，风格参考 Vercel AI SDK",
+      "UI — 面向 AI Agent 管理界面的 Vue 3 设计系统，包含组件库、设计令牌，以及指导 Agent 正确使用它们的技能",
+      "Connect It — 自托管的连接器网关，安全保存 SaaS 凭据，并通过单个 MCP 端点让 Agent 使用各种集成",
+      "多用户、多机器人：给自己跑一个，给家人各部署一个，在一台机器上同时跑一群"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
-    "mcp-failover",
+    "security-self-hosting",
     "skills",
     "teams"
   ],

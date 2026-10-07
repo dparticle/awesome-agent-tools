@@ -151,24 +151,27 @@
       "external_link_ratio": 0.529
     },
     "highlights": [
-      "如果使用 SQLite，系统会在应用迁移之前自动备份你的数据库文件（如 yourdb.db.20260303143000.bak）。",
-      "Boot URIs：system://boot 启动时自动载入的记忆——你的 AI 的\"灵魂锚点\"。为 AI 建立了身份和关系记忆后，把 URI 加到这里即可自动唤醒。",
-      "使用命名空间时，可为每个 Agent 指定独立的启动记忆。未设置的 namespace 会降级到全局 Boot URIs。",
-      "如果是 Antigravity：args 必须指向 backend/mcp_wrapper.py（解决 Windows CRLF 问题）。"
-    ]
+      "Valid Domains：AI 可以创建记忆的命名空间（默认：core, writer, game, notes, narrative）。",
+      "Boot URIs：system://boot 启动时自动载入的记忆——你的 AI 的\"灵魂锚点\"。",
+      "使用命名空间时，可为每个 Agent 指定独立的启动记忆。",
+      "设置 API Token（点 Generate 自动生成）"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:15+00:00",
+  "fetched_at": "2026-10-07T17:47:52+00:00",
   "categories": [
+    "analytics",
     "isolation-parallelism",
-    "mobile",
-    "sessions-memory"
+    "mobile"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

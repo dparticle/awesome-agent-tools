@@ -24,7 +24,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 483,
+  "age_days": 484,
   "days_since_push": 13,
   "health_score": 49,
   "health_components": {
@@ -37,7 +37,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 556,
-    "days_span": 483,
+    "days_span": 484,
     "stars_per_day": 1.15,
     "lifetime_stars_per_day": 1.15,
     "basis": "lifetime",
@@ -155,16 +155,19 @@
     "highlights": [
       "2.5-Flash: gemini-2.0-flash, gemini-2.5-flash, gemini-2.5-flash-lite",
       "Set start command: uvicorn src.proxy_app.main:app --host 0.0.0.0 --port $PORT",
-      "Pro: gemini-2.5-pro, gemini-3-pro-preview",
-      "Anthropic API Compatible — Use Claude Code or any Anthropic SDK client with non-Anthropic providers like Gemini, OpenAI, or custom models"
-    ]
+      "Anthropic API Compatible — Use Claude Code or any Anthropic SDK client with non-Anthropic providers like Gemini, OpenAI, or custom models",
+      "Pro: gemini-2.5-pro, gemini-3-pro-preview"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "fetched_at": "2026-10-07T17:47:58+00:00",
   "categories": [
     "model-routing",
     "quota",

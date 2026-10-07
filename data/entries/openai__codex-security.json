@@ -113,15 +113,18 @@
       "cron: \"23 7 * * 1\" # Mondays at 07:23 UTC",
       "uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1",
       "Validate candidate findings, generate patches, and verify existing fixes.",
-      "Scan repositories, selected paths, or Git changes. Deep scans run parallel"
-    ]
+      "Scan repositories, selected paths, or Git changes."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "fetched_at": "2026-10-07T17:47:38+00:00",
   "categories": [
     "model-routing"
   ],

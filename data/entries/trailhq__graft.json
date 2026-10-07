@@ -144,19 +144,22 @@
     "highlights": [
       "Entry-point trace — Trace end-to-end what happens when a client creates a record via the REST API, from route handler to database write.",
       "Always fresh, automatically. Every query rebuilds the graph against the working tree first — structural, $0, ~3ms when nothing moved — so ask/grep/callers/skeleton/map describe the code as…",
-      "auto-sync — every graft query brings the graph up to date first, so an answer always describes the code as it is right now, uncommitted edits included. A query refreshes only what it reads;…",
+      "auto-sync — every graft query brings the graph up to date first, so an answer always describes the code as it is right now, uncommitted edits included.",
       "Public API — As an external app, how do I authenticate and then list and filter records over the REST API?"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "fetched_at": "2026-10-07T17:47:38+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "billing",
-    "desktop-ui",
     "model-routing"
   ],
   "primary_category": "model-routing",

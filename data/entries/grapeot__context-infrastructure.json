@@ -95,14 +95,17 @@
       "signals": [],
       "external_link_ratio": 1.021
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "fetched_at": "2026-10-07T17:47:57+00:00",
   "categories": [
     "billing"
   ],

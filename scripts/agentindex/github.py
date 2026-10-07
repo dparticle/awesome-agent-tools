@@ -17,10 +17,12 @@ from __future__ import annotations
 import base64
 import json
 import os
+import re
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any
@@ -45,6 +47,31 @@ README_CANDIDATES = (
     "docs/README.md",
     ".github/README.md",
 )
+
+#: Chinese README filenames, most common first. Measured against the indexed
+#: corpus, these three cover nearly every project that ships one; the rest of
+#: the list is kept for reference but not probed, because each miss is a wasted
+#: round trip and the probe runs for every candidate on every crawl.
+CHINESE_README_CANDIDATES = (
+    "README.zh-CN.md",
+    "README_CN.md",
+    "README.zh.md",
+    "README-CN.md",
+    "README.zh_CN.md",
+    "docs/README.zh-CN.md",
+    "README_CH.md",
+    "README.chs.md",
+    "README.zh-Hans.md",
+)
+
+#: Probed filenames, in order. Deliberately short.
+CHINESE_PROBE_CANDIDATES = CHINESE_README_CANDIDATES[:3]
+
+#: Branches tried when probing. ``HEAD`` resolves to the default branch on
+#: raw.githubusercontent.com, so trying ``main``/``master`` as well tripled the
+#: request count for no benefit — the first full crawl spent 29 minutes almost
+#: entirely on 404s.
+CHINESE_PROBE_BRANCHES = ("HEAD",)
 
 
 class RateLimitExhausted(RuntimeError):
@@ -295,6 +322,72 @@ class GitHubClient:
             return text, "contents-api"
         return "", "missing"
 
+    def get_chinese_readme(self, full_name: str, *, refresh: bool = False) -> tuple[str, str]:
+        """Return ``(text, source)`` for a repo's Chinese README, if it has one.
+
+        Used so the Chinese index quotes the project's *own* Chinese wording.
+        Machine-translating the English README would put claims in the project's
+        mouth that it never made, which is exactly the failure this list exists
+        to avoid.
+
+        Costs one request per candidate filename on a miss, so the probe list is
+        deliberately short and the result — including "no Chinese README" — is
+        cached.
+        """
+        cache_key = f"readme-zh::{full_name.lower()}"
+        if not refresh:
+            cached = self._cache_get(cache_key)
+            if isinstance(cached, dict):
+                return cached.get("text", ""), cached.get("source", "cache")
+        if self.offline:
+            return "", "offline"
+
+        # Probed concurrently: three sequential round trips per repo, for every
+        # repo, dominated the crawl's wall time. The requests are independent
+        # and the result is cached either way, so there is no reason to
+        # serialise them.
+        def fetch(name: str) -> tuple[str, str]:
+            url = f"{RAW_ROOT}/{full_name}/HEAD/{name}"
+            try:
+                req = urllib.request.Request(
+                    url, headers={"User-Agent": self._headers()["User-Agent"]}
+                )
+                with urllib.request.urlopen(req, timeout=15) as response:
+                    return response.read().decode("utf-8", "replace"), f"raw:HEAD/{name}"
+            except Exception:  # noqa: BLE001 - a miss is the common case
+                return "", ""
+
+        with ThreadPoolExecutor(max_workers=len(CHINESE_PROBE_CANDIDATES)) as pool:
+            results = list(pool.map(fetch, CHINESE_PROBE_CANDIDATES))
+
+        # Prefer the earliest candidate in preference order, not the fastest.
+        for text, source in results:
+            if text and _chinese_ratio(text) >= 0.15:
+                self._cache_put(cache_key, {"text": text, "source": source})
+                return text, source
+
+        self._cache_put(cache_key, {"text": "", "source": "missing"})
+        return "", "missing"
+
+    def prefetch_chinese_readmes(self, full_names: list[str], *, workers: int = 16) -> int:
+        """Warm the Chinese-README cache for many repos concurrently.
+
+        The main crawl loop is serial, so probing three filenames per repo inside
+        it added a per-repo round trip to every candidate and stretched a run
+        from ~35s to ~29min. Probing up front, concurrently, and letting the
+        loop read the cache removes that cost from the critical path.
+
+        Returns the number of repos that turned out to have Chinese docs.
+        """
+        if self.offline or not full_names:
+            return 0
+        found = 0
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for text, _source in pool.map(self.get_chinese_readme, full_names):
+                if text:
+                    found += 1
+        return found
+
     def rate_limit(self) -> dict[str, Any]:
         if self.offline:
             return {}
@@ -307,6 +400,22 @@ class GitHubClient:
 
 def now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+
+
+def _chinese_ratio(text: str) -> float:
+    """Share of characters that are CJK, ignoring markup and code.
+
+    Used to tell a genuine Chinese README from an English file with a
+    ``README.zh-CN.md`` name, or a stub that only links to the English version.
+    """
+    stripped = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)
+    stripped = re.sub(r"<[^>]+>", " ", stripped)
+    stripped = re.sub(r"https?://\S+", " ", stripped)
+    letters = [ch for ch in stripped if not ch.isspace()]
+    if len(letters) < 200:
+        return 0.0
+    cjk = sum(1 for ch in letters if "\u4e00" <= ch <= "\u9fff")
+    return cjk / len(letters)
 
 
 def parse_iso(value: str | None) -> datetime | None:

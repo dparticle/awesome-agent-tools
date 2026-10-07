@@ -13,7 +13,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**209 tools** across **15 categories** · **62 retired** into the [graveyard](#-the-graveyard) · last rebuilt **2026-10-07 16:31 UTC**
+**209 tools** across **15 categories** · **62 retired** into the [graveyard](#-the-graveyard) · last rebuilt **2026-10-07 17:48 UTC**
 
 ---
 
@@ -35,11 +35,11 @@ Every entry was scored from its **README**, not its tagline. The columns mean so
 
 ## Contents
 
-- [MCP & Failover](#mcp-failover) — 25 tools
+- [Security & Self-hosting](#security-self-hosting) — 25 tools
 - [Isolation & Parallelism](#isolation-parallelism) — 22 tools
 - [Skills](#skills) — 31 tools
-- [Sessions & Memory](#sessions-memory) — 23 tools
-- [Desktop UI](#desktop-ui) — 20 tools
+- [Analytics](#analytics) — 23 tools
+- [Agent Runtime & Desktop UI](#agent-runtime-desktop-ui) — 20 tools
 - [Teams](#teams) — 13 tools
 - [Accounts](#accounts) — 13 tools
 - [Model Routing](#model-routing) — 13 tools
@@ -57,7 +57,7 @@ Every entry was scored from its **README**, not its tagline. The columns mean so
 
 ---
 
-## MCP & Failover
+## Security & Self-hosting
 
 *Security & isolation*
 
@@ -65,66 +65,36 @@ Agents run arbitrary code and hold credentials; blast radius must be contained.
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| 🏆 **[xai-org/grok-build](https://github.com/xai-org/grok-build)** | SpaceXAI's coding agent harness and TUI. | 🟢 Turnkey | — | — | 27.2k 🚀 +324/d | **90** |
 | 🏆 **[affaan-m/ECC](https://github.com/affaan-m/ECC)** | AGENTS.md at root is the universal cross-tool file (read by Claude Code, Cursor, Codex, and OpenCode; GitHub Copilot uses .github/copilot-instructions.md instead) Available in release 2.2: guided package setup for Claud… | 🟡 Some setup | — | — | 274.6k (+1048/d) | **89** |
+| 🏆 **[xai-org/grok-build](https://github.com/xai-org/grok-build)** | SpaceXAI's coding agent harness and TUI. | 🟢 Turnkey | — | — | 27.2k 🚀 +324/d | **88** |
 | 🏆 **[rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** | name: mcp # extra MCP servers next to agentmemory's, same engine | 🟢 Easy | — | — | 29.2k (+130/d) | **88** |
-| 🏆 **[lexmount/moli](https://github.com/lexmount/moli)** | media="(prefers-color-scheme: dark)" srcset="assets/moli-browser-banner-dark.jpg" media="(prefers-color-scheme: light)" srcset="assets/moli-browser-banner.jpg" src="assets/moli-browser-banner.jpg" alt="Moli Browser — St… | 🟢 Turnkey · OOTB | ✅ | ✅ | 12k 🚀 +206/d | **87** |
-| 🏆 **[genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** | Word, Excel, PowerPoint and PDF files, edited by you and your AI, saved back in the real formats. Yours to run. Native apps for macOS, Windows and Linux; files stay on your | 🟢 Easy | — | — | 8.8k 🚀 +130/d | **85** |
-| 🏆 **[miuuyy/codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web)** | Use the ChatGPT Web models available on your account, including Pro, from Codex’s native model picker—with ChatGPT Web’s separate usage limits, without spending your Work or Codex quota. Run Verify runtime to confirm th… | 🟢 Easy | — | — | 13.6k 🚀 +187/d | **84** |
-| 🏆 **[CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)** | Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port. The supervisor binds there too, because it ho… Routines: ask a Bot to do so… | 🟡 Some setup | — | — | 6.2k 🚀 +121/d | **83** |
+| 🏆 **[lexmount/moli](https://github.com/lexmount/moli)** | Extraction-optimized outputs — the CLI directly produces HTML, Markdown, Unified automation binary — CDP, WebDriver Classic, and WebDriver BiDi | 🟢 Turnkey · OOTB | ✅ | ✅ | 12k 🚀 +206/d | **87** |
+| 🏆 **[genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** | Word, Excel, PowerPoint and PDF files, edited by you and your AI, saved back in the real formats. | 🟢 Easy | — | — | 8.8k 🚀 +130/d | **85** |
+| 🏆 **[miuuyy/codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web)** | Use the ChatGPT Web models available on your account, including Pro, from Codex’s native model picker—with ChatGPT Web’s separate usage limits, without spending your Work or Codex quota. | 🟢 Easy | — | — | 13.6k 🚀 +187/d | **84** |
+| 🏆 **[CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)** | Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port. Routines: ask a Bot to do something on a schedule and it does, running as y… | 🟡 Some setup | — | — | 6.2k 🚀 +121/d | **83** |
 | 🏆 **[spinabot/brigade](https://github.com/spinabot/brigade)** | Connectors: composio (1,000+ apps), oauth_authorize Reuse a CLI login — already signed into the Claude Code or Codex CLI on | 🟡 Some setup | — | — | 11.3k 🚀 +103/d | **80** |
 | 🏆 **[feder-cr/invisible_playwright_mcp](https://github.com/feder-cr/invisible_playwright_mcp)** | Other AI browser agents get captchas. | 🟢 Turnkey · OOTB | ✅ | — | 2.6k 🚀 +377/d | **80** |
 | 🏆 **[cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering)** | Lulla et al. 2026 — Building Blocks, Adoption, and Impact (this repo is the community reference they reviewed) | 🟢 Turnkey · OOTB | ✅ | — | 11.4k 🚀 +95/d | **79** |
-| ✅ **[totec448-spec/chat-on-steroids](https://github.com/totec448-spec/chat-on-steroids)** | Respect limits and access decisions. Workers, Goal/Loop, Compact & Resume and finish checkpoints organize work; they do not grant extra quota or model access and must not be used to evade r… Unsigned beta: Windows is no… | 🟢 Easy · OOTB | ✅ | — | 4.2k 🚀 +92/d | **75** |
-| ✅ **[appwrite/appwrite](https://github.com/appwrite/appwrite)** | Appwrite is an MCP and agent-first, open-source platform for building and scaling apps. Appwrite Storage - Store files with compression, encryption, image transformations, and access control. | 🟢 Easy | — | — | 57.6k (+21/d) | **70** |
-| ✅ **[larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts)** | Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。 | 🟢 Turnkey · OOTB | ✅ | — | 6k 🚀 +72/d | **69** |
+| ✅ **[totec448-spec/chat-on-steroids](https://github.com/totec448-spec/chat-on-steroids)** | Respect limits and access decisions. Unsigned beta: Windows is not publisher-signed; macOS is unsigned and unnotarized. | 🟢 Easy · OOTB | ✅ | — | 4.2k 🚀 +92/d | **75** |
+| ✅ **[appwrite/appwrite](https://github.com/appwrite/appwrite)** | Appwrite is an MCP and agent-first, open-source platform for building and scaling apps. | 🟢 Easy | — | — | 57.6k (+21/d) | **70** |
+| ✅ **[larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts)** | Basics（基础编辑型）：保留柱状图、折线图、环形图等熟悉轮廓，再用可数刻度、发丝线和编辑排版增加质感，适合结构简单或数据量较少的内容。 Glance（快速判断型）：用粗柱、大数字、色块和清晰排序提前聚合信息，让读者几秒内看懂高低、变化和异常，适合周报、汇报与 dashboard。 | 🟢 Turnkey · OOTB | ✅ | — | 6k 🚀 +72/d | **69** |
 | ✅ **[eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** | Self-Improving Sovereign Agents — voices: @tom_doerr, @AIDailyGems | 🟢 Easy | — | — | 4.7k (+24/d) | **65** |
-| ✅ **[zvec-ai/zvec-grep](https://github.com/zvec-ai/zvec-grep)** | zg (zvec-grep), powered by zvec, unifies ripgrep, BM25, and vector search behind one local-first interface. It was carnivorous because it climbed the curtain toward a canary's cage | 🟡 Some setup | — | — | 4k 🚀 +45/d | **64** |
-| ✅ **[getsentry/MobileBuildMCP](https://github.com/getsentry/MobileBuildMCP)** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. MCP clients: https://github.com/getsentry/xcodebuildmcp.com/blob/main/app/docs/_content/clients.mdx | 🟢 Turnkey · OOTB | ✅ | — | 6.5k (+11/d) | **63** |
+| ✅ **[zvec-ai/zvec-grep](https://github.com/zvec-ai/zvec-grep)** | zg (zvec-grep), powered by zvec, unifies ripgrep, BM25, and vector search behind one local-first interface. | 🟡 Some setup | — | — | 4k 🚀 +45/d | **64** |
+| ✅ **[getsentry/MobileBuildMCP](https://github.com/getsentry/MobileBuildMCP)** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | 🟢 Turnkey · OOTB | ✅ | — | 6.5k (+11/d) | **63** |
 | 🔹 **[Jia-Ethan/codex-keysmith](https://github.com/Jia-Ethan/codex-keysmith)** | Keysmith 给本机的 AI 编程工具装指令：先预览，再写入，能验证，能撤走。 | 🟡 Some setup | — | — | 4.7k 🚀 +47/d | **61** |
-| 🔹 **[kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** | Decay tied with decay switched off. On hippo's synthetic lifecycle test, full@365 minus decay-off is -0.7 points [-1.4, 0.1] on currentR5, no measurable effect. That test runs 20 sessions,… Sequential Learning Benchmark… | 🟡 Some setup | — | — | 773 | **56** |
-| 🔹 **[Lyellr88/marm-memory](https://github.com/Lyellr88/marm-memory)** | alt="marm-memory - persistent local memory server for AI agents (Model Context Protocol)" Concurrent recall: 10 gathered recalls completed in 151.5ms vs 176.0ms serial (gather/serial = 0.86). Do not read that as paralle… | 🟡 Some setup | — | — | 419 | **54** |
+| 🔹 **[kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** | Decay tied with decay switched off. Sequential Learning Benchmark. | 🟡 Some setup | — | — | 773 | **56** |
+| 🔹 **[Lyellr88/marm-memory](https://github.com/Lyellr88/marm-memory)** | Concurrent recall: 10 gathered recalls completed in 151.5ms vs 176.0ms serial (gather/serial = 0.86). Both HTTP and STDIO expose 16 tools: 8 core memory/logging/notebook/compaction tools, 6 bundled code-graph tools, and… | 🟡 Some setup | — | — | 419 | **54** |
 | 🔹 **[JuliusBrussee/cavemem](https://github.com/JuliusBrussee/cavemem)** | Cross-IDE installers. Claude Code, OpenCode, Codex, GitHub Copilot, Augment Code capture observations; Cursor, Gemini CLI, Antigravity, IBM Bob are query-only (MCP search over memory captur… Web viewer. Read-only UI at… | 🟢 Turnkey · OOTB | ✅ | — | 677 | **51** |
-| 🔹 **[pax-beehive/paxm](https://github.com/pax-beehive/paxm)** | PAXM carries decisions, conventions, and working context into later Codex, Claude Code, OpenCode, Pi, Cursor, TRAE, Kimi Code, ZCode, Kiro, Cline, and MCP sessions. Write-provider routes default to a 30-second timeout;… | 🟡 Some setup | — | — | 422 🚀 +5/d | **49** |
+| 🔹 **[pax-beehive/paxm](https://github.com/pax-beehive/paxm)** | PAXM carries decisions, conventions, and working context into later Codex, Claude Code, OpenCode, Pi, Cursor, TRAE, Kimi Code, ZCode, Kiro, Cline, and MCP sessions. | 🟡 Some setup | — | — | 422 🚀 +5/d | **49** |
 | 🔹 **[arinspunk/claude-talk-to-figma-mcp](https://github.com/arinspunk/claude-talk-to-figma-mcp)** | Enable your AI agents to read, analyze, and modify Figma designs. Get document information, current selection, styles | 🟢 Turnkey · OOTB | ✅ | — | 666 | **48** |
-| 🔹 **[IBM/mcp](https://github.com/IBM/mcp)** | A collection of Model Context Protocol (MCP) servers, MCP Clients and Developer Tools by IBM. IBM API Connect MCP Server - IBM APIC MCP server exposes API Connect capabilities to your MCP clients and AI Agent workflows. | 🟡 Some setup | — | — | 410 | **47** |
-| 🔹 **[metatool-ai/metamcp](https://github.com/metatool-ai/metamcp)** | 📢 Latest Update: This ai-dev branch will be the forward onging dev branch which contains ai agent changes. 🪪 MCP OAuth: Exposed endpoints have options to use standard OAuth in MCP Spec 2025-06-18, easy to connect. | 🔴 Involved | — | — | 2.7k | **46** |
+| 🔹 **[IBM/mcp](https://github.com/IBM/mcp)** | A collection of Model Context Protocol (MCP) servers, MCP Clients and Developer Tools by IBM. | 🟡 Some setup | — | — | 410 | **47** |
+| 🔹 **[metatool-ai/metamcp](https://github.com/metatool-ai/metamcp)** | 📢 Latest Update: This ai-dev branch will be the forward onging dev branch which contains ai agent changes. | 🔴 Involved | — | — | 2.7k | **46** |
 | 👀 **[kagisearch/kagimcp](https://github.com/kagisearch/kagimcp)** | An MCP server backed by the Kagi API. | 🟡 Some setup | — | — | 535 | **40** |
 
 **Also does this:** [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code), [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki), [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha), [getpaseo/paseo](https://github.com/getpaseo/paseo), [aipoch/open-science](https://github.com/aipoch/open-science), [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory), [topoteretes/cognee](https://github.com/topoteretes/cognee), [KunAgent/Kun](https://github.com/KunAgent/Kun), [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research), [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow), [butterbase-ai/butterbase](https://github.com/butterbase-ai/butterbase), [felinics/Memoh](https://github.com/felinics/Memoh) *(+11 more)*
 
 <details>
 <summary><b>Why these tools — 5 detailed breakdowns</b></summary>
-
-#### [xai-org/grok-build](https://github.com/xai-org/grok-build)
-
-> SpaceXAI's coding agent harness and TUI.
-
-**Core problems it solves**
-
-- **Automatic failover**
-- **Agent runtime**
-- **MCP support** — *ementations (terminal, file edit, search, ...)*
-- **Cross-agent support** — *Mentions Codex, OpenCode*
-
-**Getting it running**
-
-- Setup: 🟢 **Turnkey** (friction 7/100)
-- Out of the box: no
-- Non-programmer friendly: no
-- Quickest install: `curl -fsSL https://x.ai/cli/install.sh | bash   # macOS / Linux / Git Bash`
-- Platforms mentioned: macOS, Windows, Linux, Web
-- Turnkey. install via cargo install, curl | sh installer; needs cargo build
-
-**Facts**
-
-- Stars: **27,250** (~324.4/day lifetime average)
-- Health score: **90/100**
-- Documentation score: **60/100**
-- License: Apache-2.0
-- Language: Rust
-- Last push: 2026-09-29
-- Works with: Codex, OpenCode
 
 #### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 
@@ -159,6 +129,36 @@ Agents run arbitrary code and hold credentials; blast radius must be contained.
 - Language: JavaScript
 - Last push: 2026-10-05
 - Works with: Claude Code, Codex, Gemini CLI, OpenCode, Cursor, Copilot
+
+#### [xai-org/grok-build](https://github.com/xai-org/grok-build)
+
+> SpaceXAI's coding agent harness and TUI.
+
+**Core problems it solves**
+
+- **Automatic failover**
+- **Agent runtime**
+- **MCP support** — *ementations (terminal, file edit, search, ...)*
+- **Cross-agent support** — *Mentions Codex, OpenCode*
+
+**Getting it running**
+
+- Setup: 🟢 **Turnkey** (friction 7/100)
+- Out of the box: no
+- Non-programmer friendly: no
+- Quickest install: `curl -fsSL https://x.ai/cli/install.sh | bash   # macOS / Linux / Git Bash`
+- Platforms mentioned: macOS, Windows, Linux, Web
+- Turnkey. install via cargo install, curl | sh installer; needs cargo build
+
+**Facts**
+
+- Stars: **27,250** (~324.4/day lifetime average)
+- Health score: **88/100**
+- Documentation score: **60/100**
+- License: Apache-2.0
+- Language: Rust
+- Last push: 2026-09-29
+- Works with: Codex, OpenCode
 
 #### [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)
 
@@ -264,26 +264,26 @@ Parallel agents overwrite each other's files unless each gets its own checkout.
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| 🏆 **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** | We strongly recommend using Doubao-Seed-2.0-Code, DeepSeek v3.2 and Kimi 2.5 to run DeerFlow Outbound images/files enforce maxoutboundimagebytes / maxoutboundfilebytes (20 MiB / 50 MiB defaults) while reading, including… | 🟡 Some setup | — | — | 83.5k (+161/d) | **90** |
+| 🏆 **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** | English \| 中文 \| 日本語 \| Français \| Русский \| Português We strongly recommend using Doubao-Seed-2.0-Code, DeepSeek v3.2 and Kimi 2.5 to run DeerFlow | 🟡 Some setup | — | — | 83.5k (+161/d) | **90** |
 | 🏆 **[paperclipai/paperclip](https://github.com/paperclipai/paperclip)** | ✅ You have 20 simultaneous Claude Code terminals open and lose track of what everyone is doing ✅ You want agents running autonomously 24/7, but still want to audit work and chime in when needed | 🟡 Some setup | — | — | 98.3k (+449/d) | **89** |
 | 🏆 **[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | Persistent file-based planning for AI coding agents and long-running tasks. Host capability tiers: hard block on Claude Code, Codex, and Continue; follow-up injection on Cursor, Pi, Kiro, Hermes Agent, and OpenCode; not… | 🟢 Easy | — | — | 27.3k (+99/d) | **85** |
-| 🏆 **[iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** | 🎁 AionUi × Kimi Partnership : Free premium Kimi "Allegretto" plans ($39/mo · ¥199/mo value) for our contributors! Cron expression — standard 5-field cron with timezone support (e.g. 0 9 * * 1, Asia/Shanghai) | 🟢 Turnkey | — | — | 33.4k (+78/d) | **81** |
-| 🏆 **[NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)** | MCP 图形化管理：界面化增删改 MCP Server，支持 STDIO / Streamable HTTP / SSE 三种传输方式与项目私有、共享、全局三种作用域。 模型自选：Claude / ChatGPT / Grok 官方账号可直接登录；DeepSeek、Kimi、智谱 GLM 等第三方 API 有现成预设；LM Studio、Ollama 的本地模型也接得上。 | 🟢 Easy | — | ✅ | 14.9k (+79/d) | **78** |
-| ✅ **[getpaseo/paseo](https://github.com/getpaseo/paseo)** | Paseo is a desktop, mobile, web, and CLI app for coding agents. Cross-device: iOS, Android, desktop, web, and CLI. Start work at your desk, check in from your phone, script it from the terminal. | 🟢 Easy | — | ✅ | 20k (+56/d) | **73** |
+| 🏆 **[iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** | 🎁 AionUi × Kimi Partnership : Free premium Kimi "Allegretto" plans ($39/mo · ¥199/mo value) for our contributors! | 🟢 Turnkey | — | — | 33.4k (+78/d) | **81** |
+| ✅ **[NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)** | MCP 图形化管理：界面化增删改 MCP Server，支持 STDIO / Streamable HTTP / SSE 三种传输方式与项目私有、共享、全局三种作用域。 模型自选：Claude / ChatGPT / Grok 官方账号可直接登录；DeepSeek、Kimi、智谱 GLM 等第三方 API 有现成预设；LM Studio、Ollama 的本地模型也接得上。 | 🟢 Easy | — | ✅ | 14.9k (+78/d) | **77** |
+| ✅ **[getpaseo/paseo](https://github.com/getpaseo/paseo)** | Paseo is a desktop, mobile, web, and CLI app for coding agents. Cross-device: iOS, Android, desktop, web, and CLI. | 🟢 Easy | — | ✅ | 20k (+56/d) | **73** |
 | ✅ **[EverMind-AI/Raven](https://github.com/EverMind-AI/Raven)** | Website · Documentation · 中文 | 🟢 Turnkey | — | — | 5.3k (+38/d) | **70** |
 | ✅ **[max-sixty/worktrunk](https://github.com/max-sixty/worktrunk)** | PR checkout — wt switch pr:123 to jump straight to a PR's branch Dev server per worktree — hash_port template filter gives each worktree a unique port | 🟢 Turnkey · OOTB | ✅ | — | 8.9k (+25/d) | **68** |
-| ✅ **[rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes)** | request into a clear capability, a useful next step, and an honest record of what actually happened — strengthening the workflow you already use, never replacing Hermes or hiding a coding executor behind it. Mixture-of-… | 🟢 Turnkey · OOTB | ✅ | — | 3.2k (+25/d) | **67** |
+| ✅ **[rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes)** | request into a clear capability, a useful next step, and an honest record of what actually happened — strengthening the workflow you already use, never replacing Hermes or hiding a coding executor behind it. | 🟢 Turnkey · OOTB | ✅ | — | 3.2k (+25/d) | **67** |
 | ✅ **[redhat-et/ripwire](https://github.com/redhat-et/ripwire)** | module outlines: 7 of 12 modules with 3+ nodes in view (cap 12; 3 dropped as too thin to read as a region; 2 dropped as enclosing mostly other modules) — three separate truncations, each wi… PageRank is a bad co-change… | 🟢 Easy | — | — | 2.4k 🚀 +35/d | **66** |
-| ✅ **[maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** | Professional context and harness engineering around the coding agents you already use. Recover Claude Code and Codex sessions and search source-linked project knowledge. | 🟢 Turnkey | — | ✅ | 2.1k (+6/d) | **62** |
+| ✅ **[maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** | Professional context and harness engineering around the coding agents you already use. | 🟢 Turnkey | — | ✅ | 2.1k (+6/d) | **62** |
 | 🔹 **[pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** | Cost-Conscious Composition — prompt-cache TTL (5-min default on API keys; 1-hour automatic on Claude subscriptions), 70/20/10 model routing (Haiku/Sonnet/Opus), /cost + /usage monitoring, A… Worktree base ref (v1.9.0; A… | 🟢 Turnkey | — | — | 1.6k (+7/d) | **60** |
 | 🔹 **[Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)** | Command a team of AI agents from one desktop chat — not one chatbot. Go beyond code — video, slides, and more — the Commander drives open-source tools like HyperFrames and hands off to CLI agents — the coding agents Cla… | 🟡 Some setup | — | — | 2.2k (+13/d) | **58** |
-| 🔹 **[asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** | Codex forking requires a codex CLI with codex fork support (verified with codex-cli 0.137.0) Nothing is sent until you explicitly type y at the confirmation prompt. Before the prompt, the CLI shows (1) the public URL th… | 🟡 Some setup | — | — | 1k | **56** |
+| 🔹 **[asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** | Codex forking requires a codex CLI with codex fork support (verified with codex-cli 0.137.0) Nothing is sent until you explicitly type y at the confirmation prompt. | 🟡 Some setup | — | — | 1k | **56** |
 | 🔹 **[greenfield-inc/Pane](https://github.com/greenfield-inc/Pane)** | Developers on any OS: Mac, Windows, and Linux are all first-class citizens, with no "Mac-first with a Windows waitlist" Claude Code on Windows is non-functional when your Windows username contains a period — standard in… | 🟢 Easy | — | ✅ | 519 | **56** |
-| 🔹 **[h0x91b/dev-3.0](https://github.com/h0x91b/dev-3.0)** | Each task gets its own git worktree, its own terminal and its own agent — so a dozen of them can run at the same time without ever touching each other's files. Integrate through your agent. Claude Code, Codex & co. alre… | 🟢 Turnkey | — | — | 307 | **55** |
-| 🔹 **[rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow)** | Self-correcting memory + persistent FTS5-indexed wikis + auto-research loop, all on one SQLite store. playwright &mdash; browser automation (most token-efficient) | 🟡 Some setup | — | — | 2.9k (+12/d) | **54** |
+| 🔹 **[h0x91b/dev-3.0](https://github.com/h0x91b/dev-3.0)** | Each task gets its own git worktree, its own terminal and its own agent — so a dozen of them can run at the same time without ever touching each other's files. | 🟢 Turnkey | — | — | 307 | **55** |
+| 🔹 **[rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow)** | Self-correcting memory + persistent FTS5-indexed wikis + auto-research loop, all on one SQLite store. | 🟡 Some setup | — | — | 2.9k (+12/d) | **54** |
 | 🔹 **[tigicion/dao-code](https://github.com/tigicion/dao-code)** | Dao Code (command dao) is a terminal-native AI coding assistant: it reads code, writes code, runs commands, and fixes bugs right in your terminal — streaming its reasoning and tool calls while executing safely behind an… | 🟡 Some setup | — | — | 1.1k (+9/d) | **54** |
-| 🔹 **[cwinvestments/memstack](https://github.com/cwinvestments/memstack)** | The structured skill framework for Claude Code: 131 professional skills for deployment, security, databases, content, marketing, and more. TokenStack™ integration: Context compression proxy for token savings | 🟢 Easy | — | — | 423 | **52** |
-| 🔹 **[JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude)** | HeyClaude is a file-backed, human-reviewed directory for Claude agents, MCP servers, skills, hooks, commands, tools, prompts, rules, guides, templates, and statuslines. Claude Haiku 45 Speed Optimizer Agent - Agents - A… | 🟢 Easy | — | — | 299 | **49** |
+| 🔹 **[cwinvestments/memstack](https://github.com/cwinvestments/memstack)** | The structured skill framework for Claude Code: 131 professional skills for deployment, security, databases, content, marketing, and more. | 🟢 Easy | — | — | 423 | **52** |
+| 🔹 **[JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude)** | HeyClaude is a file-backed, human-reviewed directory for Claude agents, MCP servers, skills, hooks, commands, tools, prompts, rules, guides, templates, and statuslines. | 🟢 Easy | — | — | 299 | **49** |
 | 🔹 **[sahithvibudhi/vibe-tree](https://github.com/sahithvibudhi/vibe-tree)** | Run every AI coding agent in its own git worktree, in parallel. The desktop app embeds its server on 127.0.0.1 with a per-launch token; nothing is exposed to the network. | 🟢 Turnkey | — | ✅ | 267 | **47** |
 | 👀 **[owengretzinger/constellagent](https://github.com/owengretzinger/constellagent)** | A macOS desktop app for running multiple AI agents in parallel. Run separate agent sessions side-by-side, each in its own workspace with an isolated git worktree | 🟢 Easy | — | ✅ | 216 | **38** |
 
@@ -453,8 +453,8 @@ Parallel agents overwrite each other's files unless each gets its own checkout.
 
 **Facts**
 
-- Stars: **14,892** (~78.8/day lifetime average)
-- Health score: **78/100**
+- Stars: **14,892** (~78.4/day lifetime average)
+- Health score: **77/100**
 - Documentation score: **56/100**
 - License: MIT
 - Language: TypeScript
@@ -474,14 +474,14 @@ The base agent lacks your workflows; you need to extend it.
 | 🏆 **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** | English \| 简体中文 \| 日本語 \| 한국어 \| Русский | 🟡 Some setup | — | — | 44.2k (+311/d) | **89** |
 | 🏆 **[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | 🟢 Easy | — | — | 157.3k 🚀 +1344/d | **88** |
 | 🏆 **[phuryn/pm-skills](https://github.com/phuryn/pm-skills)** | monetization-strategy — Brainstorm 3–5 monetization strategies with validation experiments market-segments — Identify 3–5 customer segments with demographics, JTBD, and product fit | 🟢 Easy | — | — | 26.8k (+122/d) | **85** |
-| 🏆 **[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)** | Copy/paste into your CLI prompt: | 🟢 Easy | — | — | 54.8k (+375/d) | **84** |
-| 🏆 **[s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill)** | ip-as-logo is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. One dominant silhouette built from roughly 4–7 large basic shapes | 🟢 Turnkey · OOTB | ✅ | — | 5.8k 🚀 +116/d | **78** |
+| 🏆 **[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)** | A skill to stop your coding agent from burying the answer. ADHD-friendly output. | 🟢 Easy | — | — | 54.8k (+375/d) | **84** |
+| 🏆 **[s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill)** | ip-as-logo is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. | 🟢 Turnkey · OOTB | ✅ | — | 5.8k 🚀 +116/d | **78** |
 | ✅ **[tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness)** | autoharness is a self-learning skill layer for Claude Code. | 🟢 Easy | — | — | 9.2k 🚀 +77/d | **72** |
 | ✅ **[Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai)** | Your agent writes code, then forgets everything. | 🟢 Turnkey · OOTB | ✅ | — | 7.6k (+34/d) | **71** |
 | ✅ **[LiamGvchi/gc-minimal-zine-poster](https://github.com/LiamGvchi/gc-minimal-zine-poster)** | Keeps the callable Skill name gc-minimal-zine-poster-v0-3 for backward compatibility. a default 3:5 aged-paper canvas | 🟡 Some setup | — | — | 7.3k 🚀 +84/d | **66** |
-| 🔹 **[jiweiyeah/Skills-Manager](https://github.com/jiweiyeah/Skills-Manager)** | Skills Manager is a modern desktop application designed to solve the fragmentation of AI assistant skills configurations. ⚡ High Performance: Built with Rust and Tauri 2.0 for a lightweight, blazing-fast experience. | 🟢 Turnkey · OOTB | ✅ | ✅ | 1k | **59** |
+| 🔹 **[jiweiyeah/Skills-Manager](https://github.com/jiweiyeah/Skills-Manager)** | Skills Manager is a modern desktop application designed to solve the fragmentation of AI assistant skills configurations. | 🟢 Turnkey · OOTB | ✅ | ✅ | 1k | **59** |
 | 🔹 **[davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude)** | A plugin marketplace and discovery platform for Claude Code. Visual Index: Vexilo · A field guide to Claude Code — Interactive index of 31 agents · 99 commands · 123 skills · 13 rules, organized around the 5-step workfl… | 🟡 Some setup | — | — | 3.6k (+8/d) | **58** |
-| 🔹 **[data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development)** | The best source for Power BI AI skills and agentic development resources in one marketplace If it still fails, delete the plugin by hand: remove its folder under %USERPROFILE%\.copilot\installed-plugins\ (or %COPILOT_HO… | 🟢 Easy | — | — | 1k | **57** |
+| 🔹 **[data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development)** | The best source for Power BI AI skills and agentic development resources in one marketplace | 🟢 Easy | — | — | 1k | **57** |
 | 🔹 **[ScrapeCreators/social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills)** | Practical AI agent skills for social media research, powered by ScrapeCreators. | 🟢 Easy · OOTB | ✅ | — | 3.3k (+27/d) | **56** |
 | 🔹 **[jeremylongshore/tons-of-skills-marketplace](https://github.com/jeremylongshore/tons-of-skills-marketplace)** | By job to be done — tonsofskills.com/cowork, curated bundles as one-click downloads. | 🟢 Easy | — | — | 2.8k (+8/d) | **56** |
 | 🔹 **[FrancyJGLisboa/agent-skills-platform](https://github.com/FrancyJGLisboa/agent-skills-platform)** | Turn a real workflow into a tested, installable agent skill—then publish it safely to your team. | 🟢 Turnkey | — | — | 2.4k (+7/d) | **56** |
@@ -489,18 +489,18 @@ The base agent lacks your workflows; you need to extend it.
 | 🔹 **[numman-ali/n-skills](https://github.com/numman-ali/n-skills)** | Abandoned or unmaintained projects Clean, well-documented code | 🟢 Turnkey · OOTB | ✅ | — | 1.1k | **55** |
 | 🔹 **[hashicorp/agent-skills](https://github.com/hashicorp/agent-skills)** | HashiCorp Agent Skills for Terraform and Packer. | 🟢 Easy · OOTB | ✅ | — | 885 | **53** |
 | 🔹 **[athola/claude-night-market](https://github.com/athola/claude-night-market)** | Destructive-command blockers (conserve, hookify) | 🟢 Easy | — | — | 342 | **53** |
-| 🔹 **[Archive228/loopkit](https://github.com/Archive228/loopkit)** | 33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI). A wrapper CLI. No daemon, no server, no runtime state. run.sh is 8 lines. | 🟢 Easy | — | — | 756 🚀 +8/d | **52** |
-| 🔹 **[claesbackman/AI-research-feedback](https://github.com/claesbackman/AI-research-feedback)** | A collection of Claude Code skills for reviewing and understanding academic research. Claude Code. No subagents are used, so this skill runs in a single context. | 🟢 Turnkey | — | ✅ | 491 | **52** |
-| 🔹 **[zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills)** | 引文管理：DOI → BibTeX，文献元数据提取，引文验证 审稿意见回复（Rebuttal / Peer-review response） | 🟡 Some setup | — | — | 4.6k (+32/d) | **51** |
-| 🔹 **[wenfxl/openai-cpa](https://github.com/wenfxl/openai-cpa)** | An advanced Distributed Automation Platform for high-concurrency account registration and full-lifecycle inventory management. Docker-aware proxy adaptation: Rewrites 127.0.0.1 / localhost to host.docker.internal inside… | 🟡 Some setup | — | — | 1.4k (+7/d) | **51** |
+| 🔹 **[Archive228/loopkit](https://github.com/Archive228/loopkit)** | 33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI). | 🟢 Easy | — | — | 756 🚀 +8/d | **52** |
+| 🔹 **[claesbackman/AI-research-feedback](https://github.com/claesbackman/AI-research-feedback)** | A collection of Claude Code skills for reviewing and understanding academic research. | 🟢 Turnkey | — | ✅ | 491 | **52** |
+| 🔹 **[zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills)** | 审稿意见回复（Rebuttal / Peer-review response） 引文管理：DOI → BibTeX，文献元数据提取，引文验证 | 🟡 Some setup | — | — | 4.6k (+32/d) | **51** |
+| 🔹 **[wenfxl/openai-cpa](https://github.com/wenfxl/openai-cpa)** | An advanced Distributed Automation Platform for high-concurrency account registration and full-lifecycle inventory management. | 🟡 Some setup | — | — | 1.4k (+7/d) | **51** |
 | 🔹 **[binance/binance-skills-hub](https://github.com/binance/binance-skills-hub)** | Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto: both centralized and decentralized. | 🟢 Easy | — | — | 1.1k | **50** |
 | 🔹 **[neiii/bridle](https://github.com/neiii/bridle)** | Unified configuration manager for AI coding assistants. Thank you Kai for the help on GitHub Copilot CLI integration | 🟢 Easy | — | — | 440 | **48** |
 | 🔹 **[hoodini/ai-agents-skills](https://github.com/hoodini/ai-agents-skills)** | scripts/extract_frames.py — ffprobe + ffmpeg -q:v 2 extraction with auto-computed scrollBudget (≈26 px per frame, clamped to [2500, 8000]) Auto-routes the layout per archetype: screen-share footage shows the screen cont… | 🟢 Easy | — | — | 282 | **48** |
-| 🔹 **[Paramchoudhary/ResumeSkills](https://github.com/Paramchoudhary/ResumeSkills)** | A collection of AI agent skills focused on resume optimization, job applications, and career development. 75% of resumes rejected by ATS before humans see them | 🟢 Easy | — | — | 2.6k (+10/d) | **47** |
-| 🔹 **[JimLiu/baocut](https://github.com/JimLiu/baocut)** | Give your AI coding agent the power to drive BaoCut — transcribe, add and translate subtitles, review speakers, edit timelines and overlays, and export — all from natural language. Codex — reference the baocut skill in… | 🟢 Easy | — | — | 529 🚀 +6/d | **45** |
+| 🔹 **[Paramchoudhary/ResumeSkills](https://github.com/Paramchoudhary/ResumeSkills)** | A collection of AI agent skills focused on resume optimization, job applications, and career development. | 🟢 Easy | — | — | 2.6k (+10/d) | **47** |
+| 🔹 **[JimLiu/baocut](https://github.com/JimLiu/baocut)** | Give your AI coding agent the power to drive BaoCut — transcribe, add and translate subtitles, review speakers, edit timelines and overlays, and export — all from natural language. | 🟢 Easy | — | — | 529 🚀 +6/d | **45** |
 | 👀 **[osovv/grace-marketplace](https://github.com/osovv/grace-marketplace)** | GRACE means Graph-RAG Anchored Code Engineering: a contract-first AI engineering methodology built around semantic markup, .grace XML artifacts, knowledge-graph navigation, assertions, scopes, and log-driven verificatio… | 🟡 Some setup | — | — | 252 | **44** |
-| 👀 **[franklee16/academic-research-skills](https://github.com/franklee16/academic-research-skills)** | A curated collection of Claude Code skills for academic research in economics, finance, and the broader social sciences — organized by the common types of skills a researcher needs across a project's lifecycle. excalidr… | 🟡 Some setup | — | — | 223 | **44** |
-| 👀 **[alirezarezvani/claude-code-tresor](https://github.com/alirezarezvani/claude-code-tresor)** | Author: Alireza Rezvani Created: September 16, 2025 Updated: December 17, 2025 (v2.7.0 - Tresor Workflow Framework) Quality: 9.7/10 (Exceptional) Repository: https://github.com/alirezarezvani/claude-code-tresor Overall… | 🔴 Involved | — | — | 777 | **43** |
+| 👀 **[franklee16/academic-research-skills](https://github.com/franklee16/academic-research-skills)** | A curated collection of Claude Code skills for academic research in economics, finance, and the broader social sciences — organized by the common types of skills a researcher needs across a project's lifecycle. | 🟡 Some setup | — | — | 223 | **44** |
+| 👀 **[alirezarezvani/claude-code-tresor](https://github.com/alirezarezvani/claude-code-tresor)** | Author: Alireza Rezvani Created: September 16, 2025 Updated: December 17, 2025 (v2.7.0 - Tresor Workflow Framework) Quality: 9.7/10 (Exceptional) Repository: https://github.com/alirezarezvani/claude-code-tresor | 🔴 Involved | — | — | 777 | **43** |
 
 **Also does this:** [garrytan/gstack](https://github.com/garrytan/gstack), [affaan-m/ECC](https://github.com/affaan-m/ECC), [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files), [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill), [google/artemis](https://github.com/google/artemis), [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi), [spinabot/brigade](https://github.com/spinabot/brigade), [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven), [nexu-io/html-anything](https://github.com/nexu-io/html-anything), [UditAkhourii/adhd](https://github.com/UditAkhourii/adhd), [redhat-et/ripwire](https://github.com/redhat-et/ripwire), [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) *(+18 more)*
 
@@ -648,7 +648,7 @@ The base agent lacks your workflows; you need to extend it.
 
 </details>
 
-## Sessions & Memory
+## Analytics
 
 *Session persistence*
 
@@ -657,26 +657,26 @@ Closing the laptop or losing connection kills a long-running agent session.
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
 | ✅ **[shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi)** | 面向心动、暧昧、追求、冲突、分手与复合的 AI 恋爱军师， 结合情绪支持、关系科学、聊天记录分析和长期记忆，把复杂关系变成可执行的下一步。 | 🟢 Easy | — | — | 7.3k 🚀 +92/d | **74** |
-| ✅ **[helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)** | Ian Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。 Awesome Claude Code Skills — Claude Code Skills / Agents / Plugins 精选合集 | 🟡 Some setup | — | — | 12.4k (+94/d) | **72** |
-| ✅ **[pacifio/atlas](https://github.com/pacifio/atlas)** | Switching agents loses the thread. Claude Code cannot read Codex's history, and Codex cannot read Claude Code's. Changing agent mid-task means starting the explanation over. Nothing is locked in. Notes are markdown, can… | 🟢 Easy | — | — | 9.3k (+64/d) | **72** |
+| ✅ **[helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)** | Ian Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。 | 🟡 Some setup | — | — | 12.4k (+94/d) | **72** |
+| ✅ **[pacifio/atlas](https://github.com/pacifio/atlas)** | Switching agents loses the thread. Nothing is locked in. | 🟢 Easy | — | — | 9.3k (+63/d) | **72** |
 | ✅ **[topoteretes/cognee](https://github.com/topoteretes/cognee)** | v1.6.0 — Keyless workflows & pipeline reliability (September 18, 2026): build and search text memory with local models and no cloud LLM key; LLM-dependent improvement stages skip when no LL… Run the prebuilt API with Do… | 🟡 Some setup | — | — | 31.5k (+27/d) | **69** |
 | ✅ **[Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram)** | sealed_token is a GitHub fine-grained token encrypted against Star History's public key, so only the encrypted value is published here. | 🟢 Easy · OOTB | ✅ | — | 7.1k (+30/d) | **67** |
 | ✅ **[memvid/memvid](https://github.com/memvid/memvid)** | src="https://github.com/user-attachments/assets/cf66f045-c8be-494b-b696-b8d7e4fb709c" /> | 🟡 Some setup | — | — | 16.6k (+33/d) | **63** |
-| 🔹 **[aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code)** | A persistent, Git-versioned map of your entire codebase — written by your coding agent, governed by a local MCP server. Fault-injection scenarios — 64 scenarios covering cursor tampering, | 🔴 Involved | — | — | 1.2k 🚀 +21/d | **58** |
+| 🔹 **[aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code)** | A persistent, Git-versioned map of your entire codebase — written by your coding agent, governed by a local MCP server. | 🔴 Involved | — | — | 1.2k 🚀 +21/d | **58** |
 | 🔹 **[okf-memory/okf-agent-memory](https://github.com/okf-memory/okf-agent-memory)** | Conversations with AI agents reset when context windows close. Agent Action Grammar (AAG): Ultra-compact, deterministic ASCII micro-syntax saving ~78–85% tokens compared to natural language prompt instructions. | 🟡 Some setup | — | — | 757 🚀 +24/d | **58** |
 | 🔹 **[grpcer/ownmem](https://github.com/grpcer/ownmem)** | Decomposed retrieval evaluation: ARES (NAACL 2024), RAGChecker (2024) Memory and knowledge-base poisoning: AgentPoison (NeurIPS 2024), PoisonedRAG (USENIX Security 2025) | 🟢 Easy · OOTB | ✅ | — | 423 🚀 +8/d | **58** |
-| 🔹 **[GizClaw/flowcraft](https://github.com/GizClaw/flowcraft)** | A modular Go toolkit for extensible AI applications, long-term memory, provider backends, and local interactive workflows. Delegation — core/delegation: backend-neutral | 🟢 Easy | — | — | 416 | **54** |
-| 🔹 **[Dataojitori/nocturne_memory](https://github.com/Dataojitori/nocturne_memory)** | 如果使用 SQLite，系统会在应用迁移之前自动备份你的数据库文件（如 yourdb.db.20260303143000.bak）。 如果是 Antigravity：args 必须指向 backend/mcp_wrapper.py（解决 Windows CRLF 问题）。 | 🔴 Involved | — | — | 1.4k | **52** |
+| 🔹 **[GizClaw/flowcraft](https://github.com/GizClaw/flowcraft)** | A modular Go toolkit for extensible AI applications, long-term memory, provider backends, and local interactive workflows. | 🟢 Easy | — | — | 416 | **54** |
+| 🔹 **[Dataojitori/nocturne_memory](https://github.com/Dataojitori/nocturne_memory)** | 设置 API Token（点 Generate 自动生成） | 🔴 Involved | — | — | 1.4k | **52** |
 | 🔹 **[AVIDS2/memorix](https://github.com/AVIDS2/memorix)** | One project memory system for Claude Code, Codex, CodeBuddy Code, Cursor, Windsurf, Copilot, Gemini CLI, OpenCode, Grok Build, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Kiro, Antigravity, Trae, DeepSeek Harness, WorkBuddy,… | 🔴 Involved | — | — | 835 | **52** |
-| 🔹 **[LeoYeAI/talewell](https://github.com/LeoYeAI/talewell)** | Plugin-first long-term memory for every agent platform. Corrections that stick. Superseding a record retires the old value from recall and from prompt injection, while git keeps the history. | 🟢 Easy | — | ✅ | 547 | **52** |
+| 🔹 **[LeoYeAI/talewell](https://github.com/LeoYeAI/talewell)** | Plugin-first long-term memory for every agent platform. Corrections that stick. | 🟢 Easy | — | ✅ | 547 | **52** |
 | 🔹 **[elara-labs/code-context-engine](https://github.com/elara-labs/code-context-engine)** | Compress: Chunks are truncated to signatures + docstrings (or LLM-summarized if Ollama is running). | 🟡 Some setup | — | — | 427 | **52** |
 | 🔹 **[mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon)** | Runtime-native integration — runtime-specific SKILL.md, shared guide.md, and supported hooks or extensions Built-in deduplication — remember and import skip exact content repeats and preserve distinct facts; similarity… | 🔴 Involved | — | — | 611 | **51** |
-| 🔹 **[itechmeat/open-second-brain](https://github.com/itechmeat/open-second-brain)** | Open Second Brain is a memory layer for AI agents that lives in an Obsidian vault. MCP surface. Tools, tool profiles for hosts with tool limits, and the always-loaded writer server: docs/mcp.md. | 🟢 Easy | — | — | 430 | **51** |
-| 🔹 **[omega-memory/omega-memory](https://github.com/omega-memory/omega-memory)** | Intelligent LLM Routing (omega-pro) — Classifies tasks and routes to the optimal model. Coding → Claude Sonnet. Quick edit → Llama 8b at 1/60th the cost. 1M token context → Gemini Flash. 5… Secure Profile (omega-pro) —… | 🟡 Some setup | — | — | 219 | **51** |
+| 🔹 **[itechmeat/open-second-brain](https://github.com/itechmeat/open-second-brain)** | Open Second Brain is a memory layer for AI agents that lives in an Obsidian vault. | 🟢 Easy | — | — | 430 | **51** |
+| 🔹 **[omega-memory/omega-memory](https://github.com/omega-memory/omega-memory)** | Intelligent LLM Routing (omega-pro) — Classifies tasks and routes to the optimal model. Secure Profile (omega-pro) — AES-256 encrypted personal data storage with macOS Keychain integration. | 🟡 Some setup | — | — | 219 | **51** |
 | 🔹 **[LycheeMem/LycheeMem](https://github.com/LycheeMem/LycheeMem)** | LycheeMemory is a compact memory framework for LLM agents. GET /mcp exposes the SSE stream used by some MCP clients | 🟡 Some setup | — | — | 1.1k (+6/d) | **50** |
 | 🔹 **[chandra447/pi-hermes-memory](https://github.com/chandra447/pi-hermes-memory)** | Persistent memory + session search + secret scanning for Pi session-start.persistence-sync and session-start.load | 🔴 Involved | — | — | 473 | **49** |
-| 🔹 **[EliaAlberti/cpr-compress-preserve-resume](https://github.com/EliaAlberti/cpr-compress-preserve-resume)** | Three skills and two hooks that save, search, and restore your conversation context, so you can pick up exactly where you left off. 2026-03-05: api-auth-refactor, JWT + refresh tokens | 🔴 Involved | — | — | 514 | **46** |
-| 🔹 **[Eshaan-Nair/ArcRift](https://github.com/Eshaan-Nair/ArcRift)** | A local-first memory layer that captures your conversations, builds a searchable knowledge graph, and automatically injects the right context into every new prompt — no cloud, no subscriptions, no re-explaining yourself… | 🟢 Easy | — | — | 247 | **46** |
+| 🔹 **[EliaAlberti/cpr-compress-preserve-resume](https://github.com/EliaAlberti/cpr-compress-preserve-resume)** | Three skills and two hooks that save, search, and restore your conversation context, so you can pick up exactly where you left off. | 🔴 Involved | — | — | 514 | **46** |
+| 🔹 **[Eshaan-Nair/ArcRift](https://github.com/Eshaan-Nair/ArcRift)** | A local-first memory layer that captures your conversations, builds a searchable knowledge graph, and automatically injects the right context into every new prompt — no cloud, no subscriptions, no re-explaining yourself. | 🟢 Easy | — | — | 247 | **46** |
 | 👀 **[vercel-labs/personal-agent-template](https://github.com/vercel-labs/personal-agent-template)** | Internal API: Agent reads Slack and phone links via authenticated Nitro routes | 🔴 Involved | — | — | 474 | **42** |
 | 👀 **[jessepwj/CCteam-creator](https://github.com/jessepwj/CCteam-creator)** | Manages collaboration — agents communicate directly, persist state to files, follow built-in protocols Sets up everything — planning files, docs/ knowledge base, CLAUDE.md operations guide, agent onboarding | 🟡 Some setup | — | — | 307 | **39** |
 
@@ -760,7 +760,7 @@ Closing the laptop or losing connection kills a long-running agent session.
 
 **Facts**
 
-- Stars: **9,263** (~63.9/day lifetime average)
+- Stars: **9,263** (~63.5/day lifetime average)
 - Health score: **72/100**
 - Documentation score: **50/100**
 - License: Apache-2.0
@@ -832,7 +832,7 @@ Closing the laptop or losing connection kills a long-running agent session.
 
 </details>
 
-## Desktop UI
+## Agent Runtime & Desktop UI
 
 *Agent runtime*
 
@@ -843,22 +843,22 @@ This IS the agent — the thing you run and talk to — rather than an add-on bo
 | 🏆 **[anomalyco/opencode](https://github.com/anomalyco/opencode)** | The open source coding agent. | 🟢 Turnkey · OOTB | ✅ | ✅ | 212.1k (+405/d) | **90** |
 | 🏆 **[anthropics/claude-code](https://github.com/anthropics/claude-code)** | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natur… | 🟢 Turnkey · OOTB | ✅ | — | 149.7k (+253/d) | **90** |
 | 🏆 **[Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin)** | CDP binds 127.0.0.1 only, but it has no authentication; another process on the same computer may still connect and inspect or control the renderer. Mac: macos/README.md · Windows: windows/README.md · Windows EN | 🟢 Turnkey · OOTB | ✅ | ✅ | 14.9k 🚀 +178/d | **85** |
-| 🏆 **[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)** | An agent skill for crafting cinematic product videos: 157 shot recipe cards · 214 styles · 214 motion previews · a production-ready template 🌟 2026-08 · 48 new shot recipe cards — the library grows from 104 to | 🟢 Turnkey | — | ✅ | 10.6k 🚀 +132/d | **85** |
+| 🏆 **[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)** | An agent skill for crafting cinematic product videos: 157 shot recipe cards · 214 styles · 214 motion previews · a production-ready template | 🟢 Turnkey | — | ✅ | 10.6k 🚀 +132/d | **85** |
 | 🏆 **[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)** | A coding-agent skill that turns your agent into a security auditor. Coverage-led hunting -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps. | 🟢 Easy · OOTB | ✅ | — | 25.7k 🚀 +231/d | **83** |
 | ✅ **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)** | BrowserSkill connects your AI agent to Chrome or Microsoft Edge, using the accounts you are already signed into. | 🟢 Easy | — | — | 8.3k 🚀 +77/d | **75** |
-| ✅ **[nexu-io/html-anything](https://github.com/nexu-io/html-anything)** | The eight skills that surface at the top of the picker's Featured / 推荐 group — sorted by their recommended: rank in SKILL.md frontmatter (lower = higher). alchaincyf/huashu-md-html — the anti-AI-slop discipline that map… | 🔴 Involved | — | — | 9k (+61/d) | **69** |
+| ✅ **[nexu-io/html-anything](https://github.com/nexu-io/html-anything)** | The eight skills that surface at the top of the picker's Featured / 推荐 group — sorted by their recommended: rank in SKILL.md frontmatter (lower = higher). | 🔴 Involved | — | — | 9k (+61/d) | **69** |
 | ✅ **[zeronsh/zeron](https://github.com/zeronsh/zeron)** | Control your coding agents (Claude Code, Codex, Cursor, Devin, Grok, Hermes, Pi, Antigravity) locally by default, with optional multi-device sync. | 🟢 Turnkey · OOTB | ✅ | ✅ | 3.1k 🚀 +39/d | **65** |
 | ✅ **[diffusionstudio/lottie](https://github.com/diffusionstudio/lottie)** | Text-to-lottie is an open-source framework for generating production ready Lottie animations with claude code/codex or any other coding agent supporting skills. | 🟢 Turnkey · OOTB | ✅ | — | 5.5k (+44/d) | **64** |
 | 🔹 **[kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net)** | Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team Setup. Embeds in your own tools. Call checkCommand from Node.js without installing the hook. See Library API. | 🟢 Turnkey · OOTB | ✅ | ✅ | 1.6k (+6/d) | **60** |
 | 🔹 **[mco-org/mco](https://github.com/mco-org/mco)** | MCO is a lightweight, CLI-first orchestration layer for AI coding agents. | 🟢 Turnkey | — | — | 530 | **57** |
-| 🔹 **[RealZST/HarnessKit](https://github.com/RealZST/HarnessKit)** | A free, open-source app to manage all your AI coding agents — desktop, CLI, or web. Cross-agent deployment — See which agents have the extension and which don't — deploy to any missing agent with one click. HarnessKit h… | 🟢 Turnkey | — | — | 451 | **57** |
-| 🔹 **[tickernelz/opencode-mem](https://github.com/tickernelz/opencode-mem)** | A persistent memory system for AI coding agents that enables long-term context retention across sessions using local vector database technology. In later sessions, relevant memories are injected into context (see chatMe… | 🔴 Involved | — | — | 1.7k (+6/d) | **55** |
+| 🔹 **[RealZST/HarnessKit](https://github.com/RealZST/HarnessKit)** | A free, open-source app to manage all your AI coding agents — desktop, CLI, or web. | 🟢 Turnkey | — | — | 451 | **57** |
+| 🔹 **[tickernelz/opencode-mem](https://github.com/tickernelz/opencode-mem)** | A persistent memory system for AI coding agents that enables long-term context retention across sessions using local vector database technology. | 🔴 Involved | — | — | 1.7k (+6/d) | **55** |
 | 🔹 **[mindmuxai/brain.md](https://github.com/mindmuxai/brain.md)** | An open, agent-agnostic standard for capturing a project's durable knowledge as plain Markdown — read and written through one small CLI. | 🟢 Turnkey · OOTB | ✅ | ✅ | 564 🚀 +5/d | **55** |
-| 🔹 **[nurettincoban/ai-prd-workflow](https://github.com/nurettincoban/ai-prd-workflow)** | Idea or existing code → verified PRD → features → rules → sequenced RFCs → reviewed, tested code The url-shortener example — fresh-context runs that never saw our list of known problems found 12 of 13 cross-document pro… | 🟢 Easy | — | — | 298 | **52** |
+| 🔹 **[nurettincoban/ai-prd-workflow](https://github.com/nurettincoban/ai-prd-workflow)** | Idea or existing code → verified PRD → features → rules → sequenced RFCs → reviewed, tested code | 🟢 Easy | — | — | 298 | **52** |
 | 🔹 **[Deuz-AI/Deuz-SDK](https://github.com/Deuz-AI/Deuz-SDK)** | Evolve — evolutionary program search with a mandatory budget and zero-call resume. | 🟢 Easy · OOTB | ✅ | — | 687 (+5/d) | **51** |
 | 🔹 **[zhinkgit/embeddedskills](https://github.com/zhinkgit/embeddedskills)** | 让 AI 编码助手直接操控编译器、调试器和通信总线，实现从代码生成到硬件验证的完整闭环。 | 🟢 Turnkey | — | — | 731 | **50** |
-| 🔹 **[anymorph-ai/Claudable](https://github.com/anymorph-ai/Claudable)** | Claudable is a powerful Next.js-based web app builder that combines Claude Code's (Cursor CLI also supported!) advanced AI agent capabilities with Lovable's simple and intuitive app building experience. Features: 256K-1… | 🟡 Some setup | — | — | 4.1k (+10/d) | **49** |
-| 🔹 **[Autoloops/greplica](https://github.com/Autoloops/greplica)** | Does your coding agent spend 5 minutes just grepping around when you give it a complex task? flow.browser_identity: browser-specific identity API behavior. | 🟡 Some setup | — | — | 436 | **47** |
+| 🔹 **[anymorph-ai/Claudable](https://github.com/anymorph-ai/Claudable)** | Claudable is a powerful Next.js-based web app builder that combines Claude Code's (Cursor CLI also supported!) advanced AI agent capabilities with Lovable's simple and intuitive app building experience. | 🟡 Some setup | — | — | 4.1k (+10/d) | **49** |
+| 🔹 **[Autoloops/greplica](https://github.com/Autoloops/greplica)** | Does your coding agent spend 5 minutes just grepping around when you give it a complex task? | 🟡 Some setup | — | — | 436 | **47** |
 | 👀 **[wong2/diffx](https://github.com/wong2/diffx)** | A local code review tool designed for the coding agent workflow. Comment status tracker — Sidebar widget showing open, replied, and resolved comment counts with click-to-navigate links | 🟢 Turnkey · OOTB | ✅ | ✅ | 208 | **42** |
 
 **Also does this:** [nexu-io/open-design](https://github.com/nexu-io/open-design), [openai/codex](https://github.com/openai/codex), [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops), [alibaba/open-code-review](https://github.com/alibaba/open-code-review), [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory), [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files), [yetone/magpie](https://github.com/yetone/magpie), [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou), [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi), [TencentCloud/Octop](https://github.com/TencentCloud/Octop), [yc-software/qm](https://github.com/yc-software/qm), [trailhq/Graft](https://github.com/trailhq/Graft) *(+32 more)*
@@ -916,7 +916,7 @@ This IS the agent — the thing you run and talk to — rather than an add-on bo
 
 **Facts**
 
-- Stars: **149,710** (~253.3/day lifetime average)
+- Stars: **149,710** (~252.9/day lifetime average)
 - Health score: **90/100**
 - Documentation score: **36/100**
 - Language: TypeScript
@@ -1019,19 +1019,19 @@ Several people must share one agent setup, with roles and boundaries.
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| 🏆 **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** | Born from a Reddit thread and months of iteration, The Agency is a growing collection of meticulously crafted AI agent personalities. 👔 Senior Project Manager - Scope and task planning | 🟢 Turnkey | — | — | 158.1k (+440/d) | **98** |
+| 🏆 **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** | Born from a Reddit thread and months of iteration, The Agency is a growing collection of meticulously crafted AI agent personalities. | 🟢 Turnkey | — | — | 158.1k (+440/d) | **98** |
 | 🏆 **[omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** | Omnigent is an open-source meta-harness that gives you a common orchestration layer over Claude Code, Codex, Cursor, OpenCode, Hermes, Pi, and the agents you write yourself: swap or combine harnesses without rewriting,… | 🟢 Easy | — | — | 10.6k 🚀 +90/d | **80** |
 | 🏆 **[TencentCloud/Octop](https://github.com/TencentCloud/Octop)** | Desktop client — native apps for Windows / macOS / Linux; FnOS packages for NAS Developer boost — delegate coding tasks to OpenCode / Claude Code via ACP, or troubleshoot from the terminal with AI assistance. | 🟢 Easy | — | — | 7.6k 🚀 +84/d | **80** |
 | 🏆 **[yc-software/qm](https://github.com/yc-software/qm)** | Shared skills. Skills are scope-owned and shareable by grant, with admin-gated Background work. Crons, watches, and inbound webhooks work while you're away. | 🔴 Involved | — | — | 15.4k 🚀 +223/d | **79** |
 | ✅ **[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)** | Your coding agent already has a memory feature. | 🔴 Involved | — | — | 8.9k (+65/d) | **70** |
-| ✅ **[UditAkhourii/adhd](https://github.com/UditAkhourii/adhd)** | Linear Chain-of-Thought anchors on whatever it says first. A measured duel vs. single-shot by Shichinomiya (@shichinomiya_s) — independent blind-scored benchmark (2 problems, LLM-as-judge, A/B positions swapped). ADHD w… | 🟢 Turnkey · OOTB | ✅ | ✅ | 4.4k (+32/d) | **68** |
-| 🔹 **[felinics/Memoh](https://github.com/felinics/Memoh)** | Desktop, browser, network, and long-term memory — always on, even when your laptop is closed. UI — A Vue 3 design system for AI agent management interfaces, including a component library, design tokens, and skills that… | 🟡 Some setup | — | — | 2.6k (+10/d) | **57** |
-| 🔹 **[hex/claude-council](https://github.com/hex/claude-council)** | A Claude Code plugin that consults multiple AI coding agents in parallel and shows you their answers side-by-side. kimi-cli (Kimi Code CLI, kimi) shadows the kimi API provider, using the kimi CLI's own configured model… | 🟡 Some setup | — | — | 843 | **54** |
-| 🔹 **[marcusquinn/aidevops](https://github.com/marcusquinn/aidevops)** | aidevops.sh is an OpenCode plugin and AI DevOps framework for carrying work from intent to a verified outcome. 2,060+ production helpers and supporting modules, excluding tests | 🟡 Some setup | — | — | 406 | **54** |
+| ✅ **[UditAkhourii/adhd](https://github.com/UditAkhourii/adhd)** | Linear Chain-of-Thought anchors on whatever it says first. A measured duel vs. | 🟢 Turnkey · OOTB | ✅ | ✅ | 4.4k (+32/d) | **68** |
+| 🔹 **[felinics/Memoh](https://github.com/felinics/Memoh)** | Desktop, browser, network, and long-term memory — always on, even when your laptop is closed. | 🟡 Some setup | — | — | 2.6k (+10/d) | **57** |
+| 🔹 **[hex/claude-council](https://github.com/hex/claude-council)** | A Claude Code plugin that consults multiple AI coding agents in parallel and shows you their answers side-by-side. | 🟡 Some setup | — | — | 843 | **54** |
+| 🔹 **[marcusquinn/aidevops](https://github.com/marcusquinn/aidevops)** | aidevops.sh is an OpenCode plugin and AI DevOps framework for carrying work from intent to a verified outcome. | 🟡 Some setup | — | — | 406 | **54** |
 | 🔹 **[gary23w/nl-veil](https://github.com/gary23w/nl-veil)** | Hots are tater-tots now. v1.1.7 called them hots. The first time a newer veil runs while you are logged in Windows. The first time veil binds a port, Windows Defender Firewall pops up *"Allow this app | 🟢 Easy | — | — | 215 | **54** |
-| 🔹 **[withkynam/vibecode-pro-max-kit](https://github.com/withkynam/vibecode-pro-max-kit)** | Built by world-class engineers, for vibecoders at flowser.ai — AI Agents with computers for GTM It uses the premium AI model only where it matters. Code-writing uses the top model. Planning, research, review, and checki… | 🟢 Easy | — | — | 1.1k (+9/d) | **49** |
+| 🔹 **[withkynam/vibecode-pro-max-kit](https://github.com/withkynam/vibecode-pro-max-kit)** | Built by world-class engineers, for vibecoders at flowser.ai — AI Agents with computers for GTM | 🟢 Easy | — | — | 1.1k (+9/d) | **49** |
 | 🔹 **[Justin0504/Aegis](https://github.com/Justin0504/Aegis)** | Cost Tracking — token usage and USD cost across 40+ models SHA-256 hash-chained — each trace commits to the previous, tamper-evident | 🟡 Some setup | — | — | 503 | **47** |
-| 🔹 **[newsnowlabs/dockside](https://github.com/newsnowlabs/dockside)** | Dockside is a self-hosted platform for teams who want a devcontainer for every branch — isolated, browser-accessible, HTTPS-secured, and ready in seconds, on your own infrastructure. AI-ready devcontainers: Claude Code,… | 🔴 Involved | — | — | 322 | **47** |
+| 🔹 **[newsnowlabs/dockside](https://github.com/newsnowlabs/dockside)** | Dockside is a self-hosted platform for teams who want a devcontainer for every branch — isolated, browser-accessible, HTTPS-secured, and ready in seconds, on your own infrastructure. | 🔴 Involved | — | — | 322 | **47** |
 
 **Also does this:** [loopx-project/loopx](https://github.com/loopx-project/loopx), [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude)
 
@@ -1219,18 +1219,18 @@ One subscription's quota runs out; you need to rotate between several accounts w
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
 | 🏆 **[openai/codex](https://github.com/openai/codex)** | Lightweight coding agent that runs in your terminal | 🟢 Turnkey | — | ✅ | 128.1k (+236/d) | **89** |
-| 🏆 **[yetone/magpie](https://github.com/yetone/magpie)** | Claude Code on Kimi, Codex on DeepSeek, Gemini CLI on GLM, OpenCode on your ChatGPT plan. Share it on your network. Turn on Share on local network, then create a named gateway key for each client, each with its own dail… | 🟢 Turnkey | — | — | 5.7k 🚀 +405/d | **84** |
+| 🏆 **[yetone/magpie](https://github.com/yetone/magpie)** | Claude Code on Kimi, Codex on DeepSeek, Gemini CLI on GLM, OpenCode on your ChatGPT plan. | 🟢 Turnkey | — | — | 5.7k 🚀 +405/d | **84** |
 | 🏆 **[lidge-jun/opencodex](https://github.com/lidge-jun/opencodex)** | Two commands, and every one of them runs any LLM you point it at. 28 state-store registrations handle expiry sweeps (60 s interval) and | 🟡 Some setup | — | — | 17k 🚀 +155/d | **83** |
 | 🏆 **[decolua/9router](https://github.com/decolua/9router)** | glm/glm-4.7 (cheap backup, $0.6/1M) glm/glm-5.1 (Cheap backup, $0.6/1M) | 🔴 Involved | — | — | 30.4k (+111/d) | **81** |
 | ✅ **[jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** | Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth，以及 Grok apply_patch 协议兼容方向亦参考其开源实现：router-f… Grok CLI 凭据不加密：access token/… | 🟢 Easy | — | — | 18.7k (+71/d) | **77** |
-| 🔹 **[Loongphy/codex-auth](https://github.com/Loongphy/codex-auth)** | codex-auth is a command-line tool for switching Codex accounts. Local-only: With per-command --skip-api, the tool scans local ~/.codex/sessions//rollout-.jsonl files for usage data and skips team name refresh API calls.… | 🟢 Easy | — | ✅ | 2.8k (+12/d) | **58** |
-| 🔹 **[basketikun/chatgpt2api](https://github.com/basketikun/chatgpt2api)** | 支持网页端配置全局 HTTP / HTTPS / SOCKS5 / SOCKS5H 代理 支持四种导入方式：本地 CPA JSON 文件导入、远程 CPA 服务器导入、sub2api 服务器导入、access_token 导入 | 🔴 Involved | — | — | 6.5k (+38/d) | **56** |
-| 🔹 **[cita-777/metapi](https://github.com/cita-777/metapi)** | 多通道概率分摊，基于成本（40%）、余额（30%）、使用率（30%）加权分配 官方预设：阿里云 / 智谱 / 豆包 Coding Plan，DeepSeek，Moonshot(Kimi)，MiniMax，ModelScope，OrcaRouter，无限星河 | 🔴 Involved | — | — | 3.3k (+15/d) | **54** |
-| 🔹 **[ndycode/codex-multi-auth](https://github.com/ndycode/codex-multi-auth)** | codex-multi-auth is a multi-account OAuth manager for the official @openai/codex CLI. Account pool — OAuth login for multiple ChatGPT accounts, stored locally under ~/.codex/multi-auth (files 0600, directories 0700), wi… | 🟡 Some setup | — | ✅ | 534 | **54** |
-| 🔹 **[uwuclxdy/clauth](https://github.com/uwuclxdy/clauth)** | Juggle every Claude Code account from one terminal: switch in a keypress, track live 5h / 7d usage, auto-switch before a limit stops you, even hand a task to another account from inside Claude. 📊 Monitor live 5h / 7d ra… | 🟢 Easy | — | — | 271 | **52** |
-| 🔹 **[Lampese/codex-switcher](https://github.com/Lampese/codex-switcher)** | A Desktop Application for Managing Multiple OpenAI Codex Accounts Easily switch between accounts, monitor usage, schedule warm-ups, and stay in control of your quota Timed – pick specific times of day (e.g. 08:00, 13:00… | 🟢 Easy | — | ✅ | 881 | **51** |
-| 🔹 **[Dicklesworthstone/coding_agent_account_manager](https://github.com/Dicklesworthstone/coding_agent_account_manager)** | Automatic Token Refresh: Claude Code manages token refresh internally. CAAM cannot refresh Claude tokens—use /login in Claude Code if tokens expire. --max-retries N — Maximum retry attempts on rate limit (default: 1) | 🟡 Some setup | — | — | 208 | **51** |
-| 🔹 **[wangyunjeff/sub2api-state-kit](https://github.com/wangyunjeff/sub2api-state-kit)** | 为 Sub2API 增加 账号级 STATE 票据管理，尝试应对最近 ChatGPT / Codex 账号的模型降质和降并发：请求的模型被路由到其他模型，或 OpenAI 上游限制账号可同时处理的请求数量。 特别感谢 gylive/ccodex-sleep-state 带来的生命周期管理与状态展示思路参考。 | 🟡 Some setup | — | — | 214 🚀 +11/d | **48** |
+| 🔹 **[Loongphy/codex-auth](https://github.com/Loongphy/codex-auth)** | codex-auth is a command-line tool for switching Codex accounts. Local-only: With per-command --skip-api, the tool scans local ~/.codex/sessions//rollout-.jsonl files for usage data and skips team name refresh API calls. | 🟢 Easy | — | ✅ | 2.8k (+12/d) | **58** |
+| 🔹 **[basketikun/chatgpt2api](https://github.com/basketikun/chatgpt2api)** | 支持 gpt-image-2、codex-gpt-image-2、auto、gpt-5、gpt-5-1、gpt-5-2、gpt-5-3、gpt-5-3-mini、gpt-5-mini 模型选择 支持网页端配置全局 HTTP / HTTPS / SOCKS5 / SOCKS5H 代理 | 🔴 Involved | — | — | 6.5k (+38/d) | **56** |
+| 🔹 **[cita-777/metapi](https://github.com/cita-777/metapi)** | 多通道概率分摊，基于成本（40%）、余额（30%）、使用率（30%）加权分配 多站点多账号：每个站点可添加多个账号，每个账号可持有多个 API Token | 🔴 Involved | — | — | 3.3k (+15/d) | **54** |
+| 🔹 **[ndycode/codex-multi-auth](https://github.com/ndycode/codex-multi-auth)** | codex-multi-auth is a multi-account OAuth manager for the official @openai/codex CLI. | 🟡 Some setup | — | ✅ | 534 | **54** |
+| 🔹 **[uwuclxdy/clauth](https://github.com/uwuclxdy/clauth)** | Juggle every Claude Code account from one terminal: switch in a keypress, track live 5h / 7d usage, auto-switch before a limit stops you, even hand a task to another account from inside Claude. | 🟢 Easy | — | — | 271 | **52** |
+| 🔹 **[Lampese/codex-switcher](https://github.com/Lampese/codex-switcher)** | A Desktop Application for Managing Multiple OpenAI Codex Accounts Easily switch between accounts, monitor usage, schedule warm-ups, and stay in control of your quota | 🟢 Easy | — | ✅ | 881 | **51** |
+| 🔹 **[Dicklesworthstone/coding_agent_account_manager](https://github.com/Dicklesworthstone/coding_agent_account_manager)** | Automatic Token Refresh: Claude Code manages token refresh internally. --max-retries N — Maximum retry attempts on rate limit (default: 1) | 🟡 Some setup | — | — | 208 | **51** |
+| 🔹 **[wangyunjeff/sub2api-state-kit](https://github.com/wangyunjeff/sub2api-state-kit)** | 为 Sub2API 增加 账号级 STATE 票据管理，尝试应对最近 ChatGPT / Codex 账号的模型降质和降并发：请求的模型被路由到其他模型，或 OpenAI 上游限制账号可同时处理的请求数量。 | 🟡 Some setup | — | — | 214 🚀 +11/d | **48** |
 
 **Also does this:** [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents), [farion1231/cc-switch](https://github.com/farion1231/cc-switch), [stablyai/orca](https://github.com/stablyai/orca), [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api), [gary23w/nl-veil](https://github.com/gary23w/nl-veil), [yan-labs/yan-skills](https://github.com/yan-labs/yan-skills), [wenyi401/ikik-api](https://github.com/wenyi401/ikik-api)
 
@@ -1416,17 +1416,17 @@ You want one agent to run on a different model or provider than its default.
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
 | 🏆 **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** | Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so. Agent: AI coding CLI with shared skills and modes (AGENTS.md + CLI wrapper) | 🟡 Some setup | — | — | 73.7k (+398/d) | **89** |
-| 🏆 **[langchain-ai/openwiki](https://github.com/langchain-ai/openwiki)** | OpenWiki turns your codebase and knowledge sources into a linked Markdown wiki that you own. More coding-agent integrations: Oh My Pi, Antigravity, IBM Bob / Bob Shell, and Kiro join Codex, Claude Code, OpenCode, GitHub… | 🟡 Some setup | — | — | 17k 🚀 +160/d | **83** |
-| 🏆 **[openai/codex-security](https://github.com/openai/codex-security)** | @openai/codex-security is a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. cron: "23 7 * * 1" # Mondays at 07:23 UTC | 🟡 Some setup | — | — | 11k 🚀 +129/d | **81** |
+| 🏆 **[langchain-ai/openwiki](https://github.com/langchain-ai/openwiki)** | OpenWiki turns your codebase and knowledge sources into a linked Markdown wiki that you own. | 🟡 Some setup | — | — | 17k 🚀 +160/d | **83** |
+| 🏆 **[openai/codex-security](https://github.com/openai/codex-security)** | @openai/codex-security is a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. | 🟡 Some setup | — | — | 11k 🚀 +129/d | **81** |
 | 🏆 **[MDX-Tom/gpt-instruct](https://github.com/MDX-Tom/gpt-instruct)** | gpt-instruct 提供面向 Codex 的提示词与可复现评测工具链，重点改善复杂任务的首轮执行、过程连续性、工件验证和可运行回滚。 | 🟡 Some setup | — | — | 9.3k 🚀 +106/d | **80** |
 | 🏆 **[trailhq/Graft](https://github.com/trailhq/Graft)** | You correct it, and by the next session it has forgotten. Entry-point trace — Trace end-to-end what happens when a client creates a record via the REST API, from route handler to database write. | 🟡 Some setup | — | — | 9.7k 🚀 +101/d | **79** |
 | ✅ **[tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)** | Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. | 🟡 Some setup | — | — | 7.5k 🚀 +373/d | **75** |
-| ✅ **[teamchong/pxpipe](https://github.com/teamchong/pxpipe)** | Cut Claude Code's input tokens by rendering bulky context as images — the same system prompt, tool docs, and history, in a fraction of the tokens. Grok 4.5 / 4.6 (opt-in): native 14px / 84 cols / maxH 512 (100/100 arith… | 🟢 Easy · OOTB | ✅ | — | 7.5k (+54/d) | **71** |
-| 🔹 **[zhnt/loushang](https://github.com/zhnt/loushang)** | Loushang is a method-native AI work system for running complex work from intent to verified delivery. loushang code: a coding-focused CLI and terminal workbench. | 🟢 Easy | — | — | 1.7k (+13/d) | **56** |
+| ✅ **[teamchong/pxpipe](https://github.com/teamchong/pxpipe)** | Cut Claude Code's input tokens by rendering bulky context as images — the same system prompt, tool docs, and history, in a fraction of the tokens. | 🟢 Easy · OOTB | ✅ | — | 7.5k (+54/d) | **71** |
+| 🔹 **[zhnt/loushang](https://github.com/zhnt/loushang)** | Loushang is a method-native AI work system for running complex work from intent to verified delivery. | 🟢 Easy | — | — | 1.7k (+13/d) | **56** |
 | 🔹 **[Swival/swival](https://github.com/Swival/swival)** | A coding agent for any model. | 🟢 Turnkey · OOTB | ✅ | — | 342 | **53** |
 | 🔹 **[Socialpranker/deepdive](https://github.com/Socialpranker/deepdive)** | Evidence-фильтр (фаза 5.5) — CRAG-классификатор keep/drop по паре (тезис, источник) перед синтезом: наивная подача всего найденного снижает качество (Search-o1 33%→24%), в синтез идут тольк… Evidence filter (5.5) — a CR… | 🟡 Some setup | — | — | 372 | **52** |
 | 🔹 **[gmickel/flow-next](https://github.com/gmickel/flow-next)** | Review backends: Codex, Copilot, Cursor, Claude and host review, and why the reviewer must come from another family. | 🔴 Involved | — | — | 706 | **50** |
-| 🔹 **[deepagent-ltd/deepagent-code](https://github.com/deepagent-ltd/deepagent-code)** | DeepAgent Code is an AI coding workspace for work that lasts longer than one prompt. On the harder tasks, the average fix-to-pass rate rises from 71.8% to 98.4%. | 🟡 Some setup | — | — | 436 | **50** |
+| 🔹 **[deepagent-ltd/deepagent-code](https://github.com/deepagent-ltd/deepagent-code)** | DeepAgent Code is an AI coding workspace for work that lasts longer than one prompt. | 🟡 Some setup | — | — | 436 | **50** |
 | 🔹 **[MemTensor/MemOS-Cloud-OpenClaw-Plugin](https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin)** | Config UI: starting the gateway also starts a local plugin config page for editing plugins.entries.memos-cloud-openclaw-plugin.config Uses Token auth (Authorization: Token ) | 🟢 Easy | — | — | 367 | **47** |
 
 **Also does this:** [nexu-io/open-design](https://github.com/nexu-io/open-design), [bytedance/deer-flow](https://github.com/bytedance/deer-flow), [affaan-m/ECC](https://github.com/affaan-m/ECC), [alibaba/open-code-review](https://github.com/alibaba/open-code-review), [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory), [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice), [yetone/magpie](https://github.com/yetone/magpie), [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex), [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou), [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent), [TencentCloud/Octop](https://github.com/TencentCloud/Octop), [yc-software/qm](https://github.com/yc-software/qm) *(+17 more)*
@@ -1594,16 +1594,16 @@ You are away from the desk and want to keep the agent working from a phone.
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| 🏆 **[stablyai/orca](https://github.com/stablyai/orca)** | Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. Account switcher & usage tracking — See Claude and Codex usage and rate-limit resets, and hot-swap accounts without re… | 🟢 Turnkey · OOTB | ✅ | ✅ | 86.9k (+426/d) | **92** |
-| 🏆 **[google/artemis](https://github.com/google/artemis)** | Cross-App Automation: Executes testing workflows and everyday tasks on Android from natural language instructions. AndroidWorld Results: 99%+ task completion on Google Research's AndroidWorld benchmark (100+ multi-step… | 🟡 Some setup | — | — | 11.1k 🚀 +205/d | **83** |
-| 🏆 **[Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)** | A tiny friend that lives in your Mac's notch — or at the top of your screen on Windows and Linux — and keeps an eye on your AI coding agent sessions. 🤖 Claude Code, Cursor, Codex, Gemini CLI, Antigravity, Copilot CLI, M… | 🟢 Easy | — | — | 3.9k 🚀 +436/d | **83** |
-| ✅ **[slopus/happy](https://github.com/slopus/happy)** | End-to-end encrypted mobile app. Left your desk? The same sessions are Natively multiplayer. Invite a colleague or a friend into the session. | 🟢 Easy · OOTB | ✅ | ✅ | 24k (+54/d) | **71** |
-| ✅ **[JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)** | Run Claude Design on your own local agent — Cursor, Claude Code, Claude Desktop, or any file‑capable coding agent. Best with Opus 4.8. The skill is a long, demanding design brief; the stronger the model, the better the… | 🟢 Turnkey · OOTB | ✅ | — | 4.3k (+35/d) | **67** |
-| ✅ **[op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill)** | 一个适配 Claude Code / Codex 等 Agent 环境的图文卡片技能,用于从文章、文案、截图、产品笔记、字幕、照片或用户视频生成小红书 / Rednote 图文组图、Live Photo 动态卡与公众号 21:9 + 1:1 封面对。 📐 3 个画板尺寸:.poster.xhs 1080×1440(小红书 3:4)、.poster.wide 2100×900(公众号 21:9)、.poster.square 1080×… | 🟢 Easy | — | — | 7.4k (+56/d) | **62** |
+| 🏆 **[stablyai/orca](https://github.com/stablyai/orca)** | Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. | 🟢 Turnkey · OOTB | ✅ | ✅ | 86.9k (+426/d) | **92** |
+| 🏆 **[google/artemis](https://github.com/google/artemis)** | Cross-App Automation: Executes testing workflows and everyday tasks on Android from natural language instructions. | 🟡 Some setup | — | — | 11.1k 🚀 +205/d | **83** |
+| 🏆 **[Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)** | A tiny friend that lives in your Mac's notch — or at the top of your screen on Windows and Linux — and keeps an eye on your AI coding agent sessions. | 🟢 Easy | — | — | 3.9k 🚀 +436/d | **83** |
+| ✅ **[slopus/happy](https://github.com/slopus/happy)** | End-to-end encrypted mobile app. Natively multiplayer. Invite a colleague or a friend into the session. | 🟢 Easy · OOTB | ✅ | ✅ | 24k (+54/d) | **71** |
+| ✅ **[JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)** | Run Claude Design on your own local agent — Cursor, Claude Code, Claude Desktop, or any file‑capable coding agent. | 🟢 Turnkey · OOTB | ✅ | — | 4.3k (+35/d) | **67** |
+| ✅ **[op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill)** | 一个适配 Claude Code / Codex 等 Agent 环境的图文卡片技能,用于从文章、文案、截图、产品笔记、字幕、照片或用户视频生成小红书 / Rednote 图文组图、Live Photo 动态卡与公众号 21:9 + 1:1 封面对。 | 🟢 Easy | — | — | 7.4k (+56/d) | **62** |
 | 🔹 **[AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide)** | A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。 | 🟡 Some setup | — | — | 3.3k 🚀 +37/d | **60** |
-| 🔹 **[hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** | A professional dashboard to track and visualize Claude Code, Cursor, and Codex agent sessions, tool usage, conversation history, cost, and subagent orchestration in real time. Tray icon — always-on status surface (macOS… | 🟡 Some setup | — | — | 1k | **55** |
+| 🔹 **[hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** | A professional dashboard to track and visualize Claude Code, Cursor, and Codex agent sessions, tool usage, conversation history, cost, and subagent orchestration in real time. | 🟡 Some setup | — | — | 1k | **55** |
 | 🔹 **[superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli)** | An open-source terminal coding agent that connects to xAI’s Grok API — real-time X search, web search, the full Grok model lineup, sub-agents on by default, remote control via Telegram (pair once, drive the agent from y… | 🟢 Easy · OOTB | ✅ | — | 3.5k (+8/d) | **52** |
-| 🔹 **[yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** | Sonnet 4.6 as the new standard — SWE-bench 79.6%, only 1.2pp below Opus 4.6. Gunshi downgraded Opus → Sonnet 4.6. All Ashigaru default to Sonnet 4.6. One YAML line change, no restarts requi… Agent self-watch + escalatio… | 🟡 Some setup | — | — | 1.4k (+6/d) | **52** |
+| 🔹 **[yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** | Sonnet 4.6 as the new standard — SWE-bench 79.6%, only 1.2pp below Opus 4.6. Agent self-watch + escalation (v3.2) — Each agent monitors its own inbox file with inotifywait (zero-polling, instant wake-up). | 🟡 Some setup | — | — | 1.4k (+6/d) | **52** |
 | 🔹 **[BennyKok/omg.dev](https://github.com/BennyKok/omg.dev)** | Managed sessions keep running when the UI disconnects. Your existing agent subscriptions or API keys. | 🟢 Easy | — | — | 547 🚀 +5/d | **51** |
 
 **Also does this:** [paperclipai/paperclip](https://github.com/paperclipai/paperclip), [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent), [getpaseo/paseo](https://github.com/getpaseo/paseo), [nexu-io/html-anything](https://github.com/nexu-io/html-anything), [ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop), [h0x91b/dev-3.0](https://github.com/h0x91b/dev-3.0), [wwwzhouhui/skills_collection](https://github.com/wwwzhouhui/skills_collection), [Dataojitori/nocturne_memory](https://github.com/Dataojitori/nocturne_memory)
@@ -1786,18 +1786,18 @@ You cannot see how much quota is left, so you get blocked mid-task.
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| 🏆 **[XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)** | 中文 — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的 API 额度做规划和 Review。本项目把"思考"交给你已付费的网页版 ChatGPT， Codex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。 Knowing the URL grants nothing: the public MCP endpoint requires OAuth 2.1 | 🔴 Involved | — | — | 7.1k 🚀 +177/d | **78** |
+| 🏆 **[XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)** | 中文 — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的 API 额度做规划和 Review。 本项目把"思考"交给你已付费的网页版 ChatGPT， Codex 只负责执行。 | 🔴 Involved | — | — | 7.1k 🚀 +177/d | **78** |
 | 🏆 **[ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel)** | An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些… | 🟢 Turnkey | — | — | 3.2k 🚀 +80/d | **78** |
-| ✅ **[chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill)** | 一个真正适合职场人的 PPT Skill。把文档丢给你的 AI Agent，每一页都自带编辑控制台的 PPT Skill——不满意的地方直接在浏览器里改，改完还能一键导出成真实的、可编辑的 PPTX。 | 🟢 Turnkey · OOTB | ✅ | — | 9.2k 🚀 +77/d | **77** |
-| ✅ **[KunAgent/Kun](https://github.com/KunAgent/Kun)** | 让 AI 在真实项目中规划、执行、验证并交付。 | 🟢 Easy | — | ✅ | 6.3k (+45/d) | **67** |
-| ✅ **[eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills)** | AI 短剧制作的 skill 集合：从一本小说到直接喂生成管线的制作素材——拆角色、排大纲、出场景与道具设定、写剧本、切分镜。给 AI 编码 agent 用，Claude Code 和 codex 都能跑。 样式串味。五份报告共用 57 个类名，其中 13 个同名不同定义（.copy .kpis .badge .chip……），所以给每份样式的每条选择器加作用域前缀 | 🟡 Some setup | — | — | 4.2k 🚀 +68/d | **64** |
-| ✅ **[simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research)** | orchestrator：Node 26 串行 853 项：852 通过、1 项 Windows ACL 专项跳过；类型检查通过。历史并发测试的等待超时记录仍保留，不以串行结果抹掉。 desktop：84/84，类型检查与生产构建通过；Python（计算库、回测、数据脚本）：754/754。 | 🟢 Easy | — | — | 2.6k 🚀 +28/d | **64** |
+| ✅ **[chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill)** | 一个真正适合职场人的 PPT Skill。 把文档丢给你的 AI Agent，每一页都自带编辑控制台的 PPT Skill——不满意的地方直接在浏览器里改，改完还能一键导出成真实的、可编辑的 PPTX。 | 🟢 Turnkey · OOTB | ✅ | — | 9.2k 🚀 +77/d | **77** |
+| ✅ **[KunAgent/Kun](https://github.com/KunAgent/Kun)** | 人保留最终决策。 Agent 可以起草提案卡片——固定约定、请求执行、添加成员——但只有你能采纳或忽略。 执行隔离且有证据。 每个执行任务在独立 Git worktree 中运行，交付固定为不可变版本再交 Reviewer 评审；声明的验证检查、Diff、日志与集成面板都留在房间内。 | 🟢 Easy | — | ✅ | 6.3k (+45/d) | **67** |
+| ✅ **[eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills)** | AI 短剧制作的 skill 集合：从一本小说到直接喂生成管线的制作素材——拆角色、排大纲、出场景与道具设定、写剧本、切分镜。 给 AI 编码 agent 用，Claude Code 和 codex 都能跑。 | 🟡 Some setup | — | — | 4.2k 🚀 +68/d | **64** |
+| ✅ **[simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research)** | orchestrator：Node 26 串行 853 项：852 通过、1 项 Windows ACL 专项跳过；类型检查通过。 desktop：84/84，类型检查与生产构建通过；Python（计算库、回测、数据脚本）：754/754。 | 🟢 Easy | — | — | 2.6k 🚀 +28/d | **64** |
 | 🔹 **[mark3labs/mcp-go](https://github.com/mark3labs/mcp-go)** | Complete*: MCP Go aims to provide a full implementation of the core MCP specification Simple: Build MCP servers with minimal boilerplate | 🟡 Some setup | — | — | 9.2k (+13/d) | **59** |
 | 🔹 **[Appllama/appllama-skills](https://github.com/Appllama/appllama-skills)** | Agent skills that make AI agents genuinely good at building mobile apps — studied against the top-grossing apps, finished to a simulator-verified bar. | 🟢 Easy | — | — | 2.4k 🚀 +44/d | **57** |
-| 🔹 **[wwwzhouhui/skills_collection](https://github.com/wwwzhouhui/skills_collection)** | ✅ 三画幅封面一次出：同一个 coverLayout 出 4:3（1440×1080）／ 3:4（1080×1440）／ 9:16（1080×1920 抖音，内容压在中央安全区），标题 ≤2 行、钩子行自动马克笔高亮 github-trending-wan: v1.0.0 (2026-04-08) - 初始版本，GitHub Trending Top 5 中文信息图海报生成器，抓取热门项目→翻译中文摘要→生成 Wan 2.7 海报 P… | 🟡 Some setup | — | — | 282 | **55** |
+| 🔹 **[wwwzhouhui/skills_collection](https://github.com/wwwzhouhui/skills_collection)** | 个人开发的 Claude Code Skills 集合，提供实用的技能工具，助力提升开发效率和内容创作。 | 🟡 Some setup | — | — | 282 | **55** |
 | 🔹 **[Nanako0129/syrtis](https://github.com/Nanako0129/syrtis)** | Syrtis is a free, open-source macOS menu-bar app that reads the session logs your AI coding tools already write to disk and displays your tokens, costs, and subscription quotas. | 🟢 Easy | — | ✅ | 406 | **51** |
-| 🔹 **[CatCatUncle/openworkbuddy](https://github.com/CatCatUncle/openworkbuddy)** | 10-06 系统沙箱：AI 跑的命令和脚本在 macOS、Windows 上读不到 Key 和账本、改不了应用；设置 → 安全 能关，每条多花 7–16 毫秒 10-07 闲着更省电：没任务、没人用时，服务每秒醒来从约 40 次降到 2 次；窗口不在前台也不再盯卡顿 | 🟡 Some setup | — | — | 275 🚀 +5/d | **50** |
-| 🔹 **[yan-labs/yan-skills](https://github.com/yan-labs/yan-skills)** | 给做 SEO 和独立开发的人用的 Agent Skills。建站、选词、发外链、查数据、复盘迭代，一整条链路都在这个仓库里，装完就能跑。 aaron-he-zhu/seo-geo-claude-skills（Apache-2.0）——backlink/references/ 下的质量评分矩阵、分析模板与外联模板。 | 🟢 Easy | — | — | 208 | **50** |
+| 🔹 **[CatCatUncle/openworkbuddy](https://github.com/CatCatUncle/openworkbuddy)** | 交代一句话，它自己规划、动手、验收，把 PPT / Word / Excel / 网页落到你硬盘上。 10-06 系统沙箱：AI 跑的命令和脚本在 macOS、Windows 上读不到 Key 和账本、改不了应用；设置 → 安全 能关，每条多花 7–16 毫秒 | 🟡 Some setup | — | — | 275 🚀 +5/d | **50** |
+| 🔹 **[yan-labs/yan-skills](https://github.com/yan-labs/yan-skills)** | 给做 SEO 和独立开发的人用的 Agent Skills。建站、选词、发外链、查数据、复盘迭代，一整条链路都在这个仓库里，装完就能跑。 | 🟢 Easy | — | — | 208 | **50** |
 
 **Also does this:** [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools), [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API), [cita-777/metapi](https://github.com/cita-777/metapi), [Mirrowel/LLM-API-Key-Proxy](https://github.com/Mirrowel/LLM-API-Key-Proxy)
 
@@ -1963,14 +1963,14 @@ Many subscriptions and API keys are scattered; you want one endpoint for all of 
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| 🏆 **[farion1231/cc-switch](https://github.com/farion1231/cc-switch)** | Switch API providers in one click and manage MCP, Skills, and Prompts in one place — no more hand-editing JSON / TOML / YAML config files. Notes — Aggregation doesn't provide failover; Claude Code requires version 2.1.2… | 🟢 Easy | — | — | 140.7k (+328/d) | **93** |
+| 🏆 **[farion1231/cc-switch](https://github.com/farion1231/cc-switch)** | Switch API providers in one click and manage MCP, Skills, and Prompts in one place — no more hand-editing JSON / TOML / YAML config files. | 🟢 Easy | — | — | 140.7k (+328/d) | **93** |
 | ✅ **[HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API)** | 同花顺金融数据服务（hithink-finance） 是由同花顺官方提供和维护的 A 股金融数据服务，面向 AI Agent、量化研究者和应用开发者。 | 🟢 Easy | — | — | 4.1k 🚀 +34/d | **64** |
-| ✅ **[yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X)** | 管理多个可命名的官方 Codex 登录与第三方 API，一键复制、切换，并从 cc-switch 导入现有供应商 在同一页面编辑 Base URL、API Key、Model、Wire API 和完整 TOML | 🟢 Easy | — | — | 4.1k 🚀 +43/d | **63** |
-| 🔹 **[ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop)** | Claude Code / Codex 项目导入：只读发现项目和历史会话，预览后导入 Harness 工作区；敏感信息脱敏，历史工具调用不会重新执行。 模型接入更省步骤：bai 登录后优先选择真实目录中的 deepseek-flash，定期更新目录；缺少授权或密钥失效时引导浏览器登录，不自动充值、付费或重发消息。第三方 API 仍可独立接入。 | 🟢 Turnkey · OOTB | ✅ | — | 777 🚀 +14/d | **58** |
+| ✅ **[yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X)** | Codex 可视化提示词注入 · Provider · 会话 · Skills / MCP 管理工具 管理多个可命名的官方 Codex 登录与第三方 API，一键复制、切换，并从 cc-switch 导入现有供应商 | 🟢 Easy | — | — | 4.1k 🚀 +43/d | **63** |
+| 🔹 **[ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop)** | DSH 0.1.6 破坏性更新适配：精确锁定 @deepseek-ai/dsh@0.1.6-alpha.1，完成 Agent、Session、PTC、Workflow、Sandbox 与 Agent Team 新契约迁移。 工作台完整保留：任务看板、Git、文件交付、模型协作、桌宠、15 套皮肤、SSH 与远程访问继续提供；恢复 4.4.0 品牌图标。 | 🟢 Turnkey · OOTB | ✅ | — | 777 🚀 +14/d | **58** |
 | 🔹 **[erickochen/purple](https://github.com/erickochen/purple)** | purple is a free, open-source terminal SSH manager and SSH config editor in Rust for macOS and Linux that keeps ~/.ssh/config in sync with 18 cloud providers, monitors live SSH tunnels and manages Docker and Podman cont… | 🟢 Easy | — | ✅ | 722 | **54** |
-| 🔹 **[LnYo-Cly/ai4j](https://github.com/LnYo-Cly/ai4j)** | 面向 JDK 8+ 的 Java AI Agentic 开发套件：统一接入主流大模型服务，内置从工具调用、RAG、MCP、Skill、沙箱到 Agent 编排与长时任务治理的完整能力，支撑快速构建专属的 Agent 与 Harness 应用。 内置完整 RAG：文档加载（可选 Tika 解析 PDF/Word/Excel，或 MinerU 云端解析扫描件/公式/复杂版面为 Markdown）、切块、八大向量库适配（Pinecone /… | 🟢 Turnkey | — | — | 434 | **54** |
+| 🔹 **[LnYo-Cly/ai4j](https://github.com/LnYo-Cly/ai4j)** | 面向 JDK 8+ 的 Java AI Agentic 开发套件：统一接入主流大模型服务，内置从工具调用、RAG、MCP、Skill、沙箱到 Agent 编排与长时任务治理的完整能力，支撑快速构建专属的 Agent 与 Harness 应用。 | 🟢 Turnkey | — | — | 434 | **54** |
 | 🔹 **[cordum-io/cordum](https://github.com/cordum-io/cordum)** | The Source-Available Agent Control Plane for Governance, Safety, and Trust. Gateway HTTP/SSE mode via /mcp/message and /mcp/sse (when mcp.enabled=true) | 🔴 Involved | — | — | 509 | **52** |
-| 🔹 **[solo-agent/solo](https://github.com/solo-agent/solo)** | Coordinate multiple agents through channels, threaded conversations, task boards, and channel-scoped teams. Daemon (:8081) - registers the machine and manages agent subprocesses. | 🟡 Some setup | — | — | 697 🚀 +6/d | **49** |
+| 🔹 **[solo-agent/solo](https://github.com/solo-agent/solo)** | Coordinate multiple agents through channels, threaded conversations, task boards, and channel-scoped teams. | 🟡 Some setup | — | — | 697 🚀 +6/d | **49** |
 
 **Also does this:** [loopx-project/loopx](https://github.com/loopx-project/loopx)
 
@@ -2148,13 +2148,13 @@ When several people share capacity, usage must be measured and charged accuratel
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| 🏆 **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** | Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal. 🎯 Free tier: 60 requests/min and 1,000 requests/day with personal Google | 🟢 Easy | — | — | 107.2k (+200/d) | **91** |
+| 🏆 **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** | Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal. | 🟢 Easy | — | — | 107.2k (+199/d) | **91** |
 | 🏆 **[Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api)** | AI API Gateway Platform for Subscription Quota Distribution Public Responses targets: /v1/responses, /responses, and /backend-api/codex/responses, forwarded to the Grok subscription proxy for OAuth accounts or https://a… | 🟡 Some setup | — | — | 43.4k (+148/d) | **85** |
 | ✅ **[trycompai/crm](https://github.com/trycompai/crm)** | Comp AI CRM is an open source, CRM designed for AI agents. Under Authorised redirect URIs, add http://localhost:3001/api/auth/callback/google. | 🔴 Involved | — | — | 11.1k 🚀 +166/d | **74** |
 | ✅ **[aipoch/open-science](https://github.com/aipoch/open-science)** | AI research workbench for reproducible science — open-source, local-first, and model-agnostic. | 🟢 Easy | — | — | 5.4k 🚀 +57/d | **73** |
 | 🔹 **[butterbase-ai/butterbase](https://github.com/butterbase-ai/butterbase)** | Butterbase gives you the building blocks for AI-driven applications without lock-in: a Postgres-backed backend with row-level security, serverless functions, an LLM gateway, realtime subscriptions, key-value store, file… | 🔴 Involved | — | — | 3.7k (+26/d) | **59** |
 | 🔹 **[grapeot/context-infrastructure](https://github.com/grapeot/context-infrastructure)** | 这是一个运行了一年的 context infrastructure 系统的完整结构。主要价值是作为 reference implementation，让你看到系统长什么样、数据如何流动、记忆如何积累。 | 🟡 Some setup | — | — | 776 | **50** |
-| 🔹 **[ivnvxd/mcp-server-odoo](https://github.com/ivnvxd/mcp-server-odoo)** | An MCP server that enables AI assistants like Claude to interact with Odoo ERP systems. 📊 Server-side aggregation — group, sum, and count without pulling raw rows | 🟡 Some setup | — | — | 398 | **50** |
+| 🔹 **[ivnvxd/mcp-server-odoo](https://github.com/ivnvxd/mcp-server-odoo)** | An MCP server that enables AI assistants like Claude to interact with Odoo ERP systems. | 🟡 Some setup | — | — | 398 | **50** |
 | 🔹 **[intuit/quickbooks-online-mcp-server](https://github.com/intuit/quickbooks-online-mcp-server)** | A comprehensive Model Context Protocol (MCP) server for QuickBooks Online OAuth 2.0 Authentication - Secure token-based authentication | 🔴 Involved | — | — | 411 | **46** |
 
 **Also does this:** [farion1231/cc-switch](https://github.com/farion1231/cc-switch), [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice), [decolua/9router](https://github.com/decolua/9router), [trailhq/Graft](https://github.com/trailhq/Graft), [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha), [yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X), [ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop), [cita-777/metapi](https://github.com/cita-777/metapi), [marcusquinn/aidevops](https://github.com/marcusquinn/aidevops), [elara-labs/code-context-engine](https://github.com/elara-labs/code-context-engine), [cwinvestments/memstack](https://github.com/cwinvestments/memstack), [uwuclxdy/clauth](https://github.com/uwuclxdy/clauth) *(+5 more)*
@@ -2186,7 +2186,7 @@ When several people share capacity, usage must be measured and charged accuratel
 
 **Facts**
 
-- Stars: **107,242** (~199.7/day lifetime average)
+- Stars: **107,242** (~199.3/day lifetime average)
 - Health score: **91/100**
 - Documentation score: **69/100**
 - License: Apache-2.0
@@ -2336,7 +2336,7 @@ You want to know where tokens and money actually went.
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| ✅ **[loopx-project/loopx](https://github.com/loopx-project/loopx)** | Independent user · 7 merged PRs. A LoopX-attributed Engine refactor is continue across Codex, Claude Code, direct-model, and other registered Agent | 🟡 Some setup | — | — | 6.2k (+48/d) | **71** |
+| ✅ **[loopx-project/loopx](https://github.com/loopx-project/loopx)** | Independent user · 7 merged PRs. continue across Codex, Claude Code, direct-model, and other registered Agent | 🟡 Some setup | — | — | 6.2k (+48/d) | **71** |
 | 🔹 **[AgentOps-AI/agentops](https://github.com/AgentOps-AI/agentops)** | AgentOps helps developers build, evaluate, and monitor AI agents. Comprehensive Observability: Track your AI agents' performance, user interactions, and API usage. | 🟢 Easy · OOTB | ✅ | — | 5.9k (+5/d) | **51** |
 | 🔹 **[Piebald-AI/splitrail](https://github.com/Piebald-AI/splitrail)** | We've released Piebald, the ultimate agentic AI developer experience. Cline / Roo Code / Zoo Code / Kilo Code (VS Code extension + CLI) | 🟢 Turnkey · OOTB | ✅ | — | 222 | **50** |
 | 👀 **[nateherkai/token-dashboard](https://github.com/nateherkai/token-dashboard)** | A local dashboard that reads the JSONL transcripts Claude Code writes to ~/.claude/projects/ and turns them into per-prompt cost analytics, tool/file heatmaps, subagent attribution, cache analytics, project comparisons,… | 🟡 Some setup | — | — | 722 | **44** |
@@ -2474,7 +2474,7 @@ Typing long prompts on a phone is painful.
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| 🏆 **[garrytan/gstack](https://github.com/garrytan/gstack)** | When I heard Karpathy say this, I wanted to find out how. Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token. Optionally pai… | 🟡 Some setup | — | — | 135.6k (+649/d) | **90** |
+| 🏆 **[garrytan/gstack](https://github.com/garrytan/gstack)** | When I heard Karpathy say this, I wanted to find out how. Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token. | 🟡 Some setup | — | — | 135.6k (+649/d) | **90** |
 | 🏆 **[XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** | Cost tiers. OpenAI prices GPT-5.6 prompts above 272K input at 2x input and 1.5x output Controlled long-task cost: routes between standard and flagship models, edits only the required regions, and supports up to 99% same… | 🟢 Easy | — | — | 13.6k 🚀 +114/d | **84** |
 | ✅ **[HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** | Tickets with keys (0.5.3): every card gets a key like V53-299, each agent has a Tasks tab with what it did and when, and the Tasks screen filters by date. Local transcription and dictation (0.5.3): dictate into any app… | 🟢 Easy | — | — | 8.5k (+66/d) | **75** |
 
@@ -2594,9 +2594,9 @@ A subscription's capacity is larger than one person needs; share it safely with 
 
 | Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |
 | --- | --- | --- | --- | :---: | --- | :---: |
-| 🏆 **[nexu-io/open-design](https://github.com/nexu-io/open-design)** | 🤖 Agent-native, model-agnostic. We don't ship an agent. The claude / codex / cursor-agent / copilot / hermes / kimi already on your PATH are the design engine. Swap with one click. Hand off to engineering. The artifact… | 🟢 Easy | — | — | 99.8k (+616/d) | **95** |
+| 🏆 **[nexu-io/open-design](https://github.com/nexu-io/open-design)** | 🤖 Agent-native, model-agnostic. Hand off to engineering. | 🟢 Easy | — | — | 99.8k (+616/d) | **95** |
 | 🔹 **[Mirrowel/LLM-API-Key-Proxy](https://github.com/Mirrowel/LLM-API-Key-Proxy)** | 2.5-Flash: gemini-2.0-flash, gemini-2.5-flash, gemini-2.5-flash-lite Set start command: uvicorn src.proxy_app.main:app --host 0.0.0.0 --port $PORT | 🔴 Involved | — | — | 556 | **49** |
-| 👀 **[wenyi401/ikik-api](https://github.com/wenyi401/ikik-api)** | ikik-api is a self-hosted AI API gateway and subscription management platform based on Sub2API. Merged upstream sub2api v0.2.4 (519 commits / 876 files) and unified the frontend and backend versions at 1.0.4. | 🔴 Involved | — | — | 241 | **42** |
+| 👀 **[wenyi401/ikik-api](https://github.com/wenyi401/ikik-api)** | ikik-api is a self-hosted AI API gateway and subscription management platform based on Sub2API. | 🔴 Involved | — | — | 241 | **42** |
 
 **Also does this:** [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api), [decolua/9router](https://github.com/decolua/9router), [CatCatUncle/openworkbuddy](https://github.com/CatCatUncle/openworkbuddy), [yan-labs/yan-skills](https://github.com/yan-labs/yan-skills), [wangyunjeff/sub2api-state-kit](https://github.com/wangyunjeff/sub2api-state-kit)
 
@@ -2714,124 +2714,124 @@ These tools solve problems in more than one area, so they appear under several h
 | Tool | Primary | Also listed under |
 | --- | --- | --- |
 | **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** | Teams | Accounts, Voice |
-| **[nexu-io/open-design](https://github.com/nexu-io/open-design)** | Sharing | Desktop UI, Model Routing |
+| **[nexu-io/open-design](https://github.com/nexu-io/open-design)** | Sharing | Agent Runtime & Desktop UI, Model Routing |
 | **[farion1231/cc-switch](https://github.com/farion1231/cc-switch)** | Providers | Accounts, Billing |
 | **[stablyai/orca](https://github.com/stablyai/orca)** | Mobile | Accounts, Isolation & Parallelism |
-| **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** | Billing | Sessions & Memory |
-| **[garrytan/gstack](https://github.com/garrytan/gstack)** | Voice | Sessions & Memory, Skills |
-| **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** | Isolation & Parallelism | Model Routing, Sessions & Memory |
-| **[openai/codex](https://github.com/openai/codex)** | Accounts | Desktop UI |
-| **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** | Skills | Desktop UI, Model Routing |
-| **[affaan-m/ECC](https://github.com/affaan-m/ECC)** | MCP & Failover | Model Routing, Skills |
+| **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** | Billing | Analytics |
+| **[garrytan/gstack](https://github.com/garrytan/gstack)** | Voice | Analytics, Skills |
+| **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** | Isolation & Parallelism | Analytics, Model Routing |
+| **[openai/codex](https://github.com/openai/codex)** | Accounts | Agent Runtime & Desktop UI |
+| **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** | Skills | Agent Runtime & Desktop UI, Model Routing |
+| **[affaan-m/ECC](https://github.com/affaan-m/ECC)** | Security & Self-hosting | Model Routing, Skills |
 | **[paperclipai/paperclip](https://github.com/paperclipai/paperclip)** | Isolation & Parallelism | Analytics, Mobile |
-| **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** | Model Routing | Desktop UI |
-| **[rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** | MCP & Failover | Desktop UI, Model Routing |
+| **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** | Model Routing | Agent Runtime & Desktop UI |
+| **[rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** | Security & Self-hosting | Agent Runtime & Desktop UI, Model Routing |
 | **[Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api)** | Billing | Accounts, Sharing |
-| **[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | Isolation & Parallelism | Desktop UI, Skills |
-| **[genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** | MCP & Failover | Billing, Model Routing |
-| **[yetone/magpie](https://github.com/yetone/magpie)** | Accounts | Desktop UI, Model Routing |
-| **[XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** | Voice | Isolation & Parallelism, MCP & Failover |
-| **[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)** | Desktop UI | Skills |
+| **[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | Isolation & Parallelism | Agent Runtime & Desktop UI, Skills |
+| **[genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** | Security & Self-hosting | Billing, Model Routing |
+| **[yetone/magpie](https://github.com/yetone/magpie)** | Accounts | Agent Runtime & Desktop UI, Model Routing |
+| **[XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** | Voice | Isolation & Parallelism, Security & Self-hosting |
+| **[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)** | Agent Runtime & Desktop UI | Skills |
 | **[lidge-jun/opencodex](https://github.com/lidge-jun/opencodex)** | Accounts | Model Routing |
-| **[langchain-ai/openwiki](https://github.com/langchain-ai/openwiki)** | Model Routing | MCP & Failover |
+| **[langchain-ai/openwiki](https://github.com/langchain-ai/openwiki)** | Model Routing | Security & Self-hosting |
 | **[google/artemis](https://github.com/google/artemis)** | Mobile | Skills |
-| **[CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)** | MCP & Failover | Voice |
-| **[Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)** | Mobile | Desktop UI, Model Routing |
-| **[iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** | Isolation & Parallelism | Desktop UI, Skills |
+| **[CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)** | Security & Self-hosting | Voice |
+| **[Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)** | Mobile | Agent Runtime & Desktop UI, Model Routing |
+| **[iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** | Isolation & Parallelism | Agent Runtime & Desktop UI, Skills |
 | **[decolua/9router](https://github.com/decolua/9router)** | Accounts | Billing, Sharing |
-| **[spinabot/brigade](https://github.com/spinabot/brigade)** | MCP & Failover | Sessions & Memory, Skills |
+| **[spinabot/brigade](https://github.com/spinabot/brigade)** | Security & Self-hosting | Analytics, Skills |
 | **[omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** | Teams | Mobile, Model Routing |
-| **[TencentCloud/Octop](https://github.com/TencentCloud/Octop)** | Teams | Desktop UI, Model Routing |
-| **[yc-software/qm](https://github.com/yc-software/qm)** | Teams | Desktop UI, Model Routing |
-| **[trailhq/Graft](https://github.com/trailhq/Graft)** | Model Routing | Billing, Desktop UI |
-| **[XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)** | Quota | Desktop UI |
-| **[s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill)** | Skills | Desktop UI |
-| **[ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel)** | Quota | Desktop UI |
-| **[NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)** | Isolation & Parallelism | Billing, MCP & Failover |
+| **[TencentCloud/Octop](https://github.com/TencentCloud/Octop)** | Teams | Agent Runtime & Desktop UI, Model Routing |
+| **[yc-software/qm](https://github.com/yc-software/qm)** | Teams | Agent Runtime & Desktop UI, Model Routing |
+| **[trailhq/Graft](https://github.com/trailhq/Graft)** | Model Routing | Agent Runtime & Desktop UI, Billing |
+| **[XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)** | Quota | Agent Runtime & Desktop UI |
+| **[s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill)** | Skills | Agent Runtime & Desktop UI |
+| **[ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel)** | Quota | Agent Runtime & Desktop UI |
 | **[jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** | Accounts | Model Routing, Quota |
-| **[HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** | Voice | Desktop UI, Sessions & Memory |
-| **[getpaseo/paseo](https://github.com/getpaseo/paseo)** | Isolation & Parallelism | MCP & Failover, Mobile |
-| **[aipoch/open-science](https://github.com/aipoch/open-science)** | Billing | Desktop UI, MCP & Failover |
-| **[pacifio/atlas](https://github.com/pacifio/atlas)** | Sessions & Memory | Desktop UI |
+| **[NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)** | Isolation & Parallelism | Billing, Security & Self-hosting |
+| **[HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** | Voice | Agent Runtime & Desktop UI, Analytics |
+| **[getpaseo/paseo](https://github.com/getpaseo/paseo)** | Isolation & Parallelism | Mobile, Security & Self-hosting |
+| **[aipoch/open-science](https://github.com/aipoch/open-science)** | Billing | Agent Runtime & Desktop UI, Security & Self-hosting |
+| **[pacifio/atlas](https://github.com/pacifio/atlas)** | Analytics | Agent Runtime & Desktop UI |
 | **[loopx-project/loopx](https://github.com/loopx-project/loopx)** | Analytics | Providers, Teams |
 | **[EverMind-AI/Raven](https://github.com/EverMind-AI/Raven)** | Isolation & Parallelism | Model Routing, Skills |
-| **[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)** | Teams | MCP & Failover, Model Routing |
-| **[nexu-io/html-anything](https://github.com/nexu-io/html-anything)** | Desktop UI | Mobile, Skills |
-| **[topoteretes/cognee](https://github.com/topoteretes/cognee)** | Sessions & Memory | MCP & Failover |
-| **[UditAkhourii/adhd](https://github.com/UditAkhourii/adhd)** | Teams | Desktop UI, Skills |
-| **[KunAgent/Kun](https://github.com/KunAgent/Kun)** | Quota | MCP & Failover |
-| **[JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)** | Mobile | Desktop UI |
+| **[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)** | Teams | Model Routing, Security & Self-hosting |
+| **[nexu-io/html-anything](https://github.com/nexu-io/html-anything)** | Agent Runtime & Desktop UI | Mobile, Skills |
+| **[topoteretes/cognee](https://github.com/topoteretes/cognee)** | Analytics | Security & Self-hosting |
+| **[UditAkhourii/adhd](https://github.com/UditAkhourii/adhd)** | Teams | Agent Runtime & Desktop UI, Skills |
+| **[KunAgent/Kun](https://github.com/KunAgent/Kun)** | Quota | Security & Self-hosting |
+| **[JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)** | Mobile | Agent Runtime & Desktop UI |
 | **[rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes)** | Isolation & Parallelism | Model Routing |
-| **[redhat-et/ripwire](https://github.com/redhat-et/ripwire)** | Isolation & Parallelism | Desktop UI, Skills |
-| **[eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** | MCP & Failover | Model Routing, Skills |
-| **[eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills)** | Quota | Desktop UI |
+| **[redhat-et/ripwire](https://github.com/redhat-et/ripwire)** | Isolation & Parallelism | Agent Runtime & Desktop UI, Skills |
+| **[eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** | Security & Self-hosting | Model Routing, Skills |
+| **[eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills)** | Quota | Agent Runtime & Desktop UI |
 | **[HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API)** | Providers | Quota |
-| **[simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research)** | Quota | MCP & Failover, Skills |
+| **[simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research)** | Quota | Security & Self-hosting, Skills |
 | **[yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X)** | Providers | Analytics, Billing |
-| **[maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** | Isolation & Parallelism | Desktop UI, Skills |
-| **[pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** | Isolation & Parallelism | MCP & Failover, Skills |
-| **[butterbase-ai/butterbase](https://github.com/butterbase-ai/butterbase)** | Billing | MCP & Failover, Skills |
-| **[jiweiyeah/Skills-Manager](https://github.com/jiweiyeah/Skills-Manager)** | Skills | Desktop UI |
-| **[davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude)** | Skills | Desktop UI |
-| **[Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)** | Isolation & Parallelism | Desktop UI, Model Routing |
-| **[aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code)** | Sessions & Memory | Desktop UI, Model Routing |
+| **[maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** | Isolation & Parallelism | Agent Runtime & Desktop UI, Skills |
+| **[pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** | Isolation & Parallelism | Security & Self-hosting, Skills |
+| **[butterbase-ai/butterbase](https://github.com/butterbase-ai/butterbase)** | Billing | Security & Self-hosting, Skills |
+| **[jiweiyeah/Skills-Manager](https://github.com/jiweiyeah/Skills-Manager)** | Skills | Agent Runtime & Desktop UI |
+| **[davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude)** | Skills | Agent Runtime & Desktop UI |
+| **[Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)** | Isolation & Parallelism | Agent Runtime & Desktop UI, Model Routing |
+| **[aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code)** | Analytics | Agent Runtime & Desktop UI, Model Routing |
 | **[ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop)** | Providers | Billing, Mobile |
-| **[felinics/Memoh](https://github.com/felinics/Memoh)** | Teams | MCP & Failover, Skills |
-| **[data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development)** | Skills | Desktop UI |
-| **[FrancyJGLisboa/agent-skills-platform](https://github.com/FrancyJGLisboa/agent-skills-platform)** | Skills | Desktop UI |
-| **[asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** | Isolation & Parallelism | Desktop UI, Skills |
-| **[thedivergentai/GD-Agentic-Skills](https://github.com/thedivergentai/GD-Agentic-Skills)** | Skills | Desktop UI |
-| **[kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** | MCP & Failover | Isolation & Parallelism, Sessions & Memory |
-| **[greenfield-inc/Pane](https://github.com/greenfield-inc/Pane)** | Isolation & Parallelism | MCP & Failover, Voice |
-| **[tickernelz/opencode-mem](https://github.com/tickernelz/opencode-mem)** | Desktop UI | Model Routing, Skills |
-| **[numman-ali/n-skills](https://github.com/numman-ali/n-skills)** | Skills | Desktop UI |
-| **[hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** | Mobile | MCP & Failover, Sessions & Memory |
-| **[h0x91b/dev-3.0](https://github.com/h0x91b/dev-3.0)** | Isolation & Parallelism | Desktop UI, Mobile |
+| **[felinics/Memoh](https://github.com/felinics/Memoh)** | Teams | Security & Self-hosting, Skills |
+| **[data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development)** | Skills | Agent Runtime & Desktop UI |
+| **[FrancyJGLisboa/agent-skills-platform](https://github.com/FrancyJGLisboa/agent-skills-platform)** | Skills | Agent Runtime & Desktop UI |
+| **[asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** | Isolation & Parallelism | Agent Runtime & Desktop UI, Skills |
+| **[thedivergentai/GD-Agentic-Skills](https://github.com/thedivergentai/GD-Agentic-Skills)** | Skills | Agent Runtime & Desktop UI |
+| **[kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** | Security & Self-hosting | Analytics, Isolation & Parallelism |
+| **[greenfield-inc/Pane](https://github.com/greenfield-inc/Pane)** | Isolation & Parallelism | Security & Self-hosting, Voice |
+| **[tickernelz/opencode-mem](https://github.com/tickernelz/opencode-mem)** | Agent Runtime & Desktop UI | Model Routing, Skills |
+| **[numman-ali/n-skills](https://github.com/numman-ali/n-skills)** | Skills | Agent Runtime & Desktop UI |
+| **[hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** | Mobile | Analytics, Security & Self-hosting |
+| **[h0x91b/dev-3.0](https://github.com/h0x91b/dev-3.0)** | Isolation & Parallelism | Agent Runtime & Desktop UI, Mobile |
 | **[wwwzhouhui/skills_collection](https://github.com/wwwzhouhui/skills_collection)** | Quota | Mobile, Skills |
 | **[cita-777/metapi](https://github.com/cita-777/metapi)** | Accounts | Billing, Quota |
-| **[rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow)** | Isolation & Parallelism | MCP & Failover, Skills |
-| **[tigicion/dao-code](https://github.com/tigicion/dao-code)** | Isolation & Parallelism | Desktop UI, Skills |
-| **[hex/claude-council](https://github.com/hex/claude-council)** | Teams | Isolation & Parallelism, MCP & Failover |
-| **[erickochen/purple](https://github.com/erickochen/purple)** | Providers | MCP & Failover |
-| **[LnYo-Cly/ai4j](https://github.com/LnYo-Cly/ai4j)** | Providers | MCP & Failover, Sessions & Memory |
-| **[Lyellr88/marm-memory](https://github.com/Lyellr88/marm-memory)** | MCP & Failover | Model Routing, Sessions & Memory |
+| **[rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow)** | Isolation & Parallelism | Security & Self-hosting, Skills |
+| **[tigicion/dao-code](https://github.com/tigicion/dao-code)** | Isolation & Parallelism | Agent Runtime & Desktop UI, Skills |
+| **[hex/claude-council](https://github.com/hex/claude-council)** | Teams | Isolation & Parallelism, Security & Self-hosting |
+| **[erickochen/purple](https://github.com/erickochen/purple)** | Providers | Security & Self-hosting |
+| **[LnYo-Cly/ai4j](https://github.com/LnYo-Cly/ai4j)** | Providers | Analytics, Security & Self-hosting |
+| **[Lyellr88/marm-memory](https://github.com/Lyellr88/marm-memory)** | Security & Self-hosting | Analytics, Model Routing |
 | **[marcusquinn/aidevops](https://github.com/marcusquinn/aidevops)** | Teams | Billing, Voice |
 | **[gary23w/nl-veil](https://github.com/gary23w/nl-veil)** | Teams | Accounts, Model Routing |
 | **[superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli)** | Mobile | Isolation & Parallelism, Voice |
 | **[yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** | Mobile | Isolation & Parallelism, Skills |
-| **[Dataojitori/nocturne_memory](https://github.com/Dataojitori/nocturne_memory)** | Sessions & Memory | Isolation & Parallelism, Mobile |
-| **[AVIDS2/memorix](https://github.com/AVIDS2/memorix)** | Sessions & Memory | Desktop UI, Model Routing |
-| **[Archive228/loopkit](https://github.com/Archive228/loopkit)** | Skills | Desktop UI |
-| **[LeoYeAI/talewell](https://github.com/LeoYeAI/talewell)** | Sessions & Memory | Desktop UI |
-| **[cordum-io/cordum](https://github.com/cordum-io/cordum)** | Providers | MCP & Failover, Skills |
-| **[elara-labs/code-context-engine](https://github.com/elara-labs/code-context-engine)** | Sessions & Memory | Billing |
+| **[Dataojitori/nocturne_memory](https://github.com/Dataojitori/nocturne_memory)** | Analytics | Isolation & Parallelism, Mobile |
+| **[AVIDS2/memorix](https://github.com/AVIDS2/memorix)** | Analytics | Agent Runtime & Desktop UI, Model Routing |
+| **[Archive228/loopkit](https://github.com/Archive228/loopkit)** | Skills | Agent Runtime & Desktop UI |
+| **[LeoYeAI/talewell](https://github.com/LeoYeAI/talewell)** | Analytics | Agent Runtime & Desktop UI |
+| **[cordum-io/cordum](https://github.com/cordum-io/cordum)** | Providers | Security & Self-hosting, Skills |
+| **[elara-labs/code-context-engine](https://github.com/elara-labs/code-context-engine)** | Analytics | Billing |
 | **[cwinvestments/memstack](https://github.com/cwinvestments/memstack)** | Isolation & Parallelism | Billing, Skills |
 | **[Socialpranker/deepdive](https://github.com/Socialpranker/deepdive)** | Model Routing | Skills |
-| **[uwuclxdy/clauth](https://github.com/uwuclxdy/clauth)** | Accounts | Billing, Sessions & Memory |
-| **[mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon)** | Sessions & Memory | Skills |
-| **[BennyKok/omg.dev](https://github.com/BennyKok/omg.dev)** | Mobile | Desktop UI |
-| **[omega-memory/omega-memory](https://github.com/omega-memory/omega-memory)** | Sessions & Memory | Model Routing |
+| **[uwuclxdy/clauth](https://github.com/uwuclxdy/clauth)** | Accounts | Analytics, Billing |
+| **[mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon)** | Analytics | Skills |
+| **[BennyKok/omg.dev](https://github.com/BennyKok/omg.dev)** | Mobile | Agent Runtime & Desktop UI |
+| **[omega-memory/omega-memory](https://github.com/omega-memory/omega-memory)** | Analytics | Model Routing |
 | **[Dicklesworthstone/coding_agent_account_manager](https://github.com/Dicklesworthstone/coding_agent_account_manager)** | Accounts | Billing, Model Routing |
-| **[LycheeMem/LycheeMem](https://github.com/LycheeMem/LycheeMem)** | Sessions & Memory | Billing, Model Routing |
-| **[deepagent-ltd/deepagent-code](https://github.com/deepagent-ltd/deepagent-code)** | Model Routing | Desktop UI, Sessions & Memory |
-| **[CatCatUncle/openworkbuddy](https://github.com/CatCatUncle/openworkbuddy)** | Quota | MCP & Failover, Sharing |
-| **[Piebald-AI/splitrail](https://github.com/Piebald-AI/splitrail)** | Analytics | Billing, Desktop UI |
+| **[LycheeMem/LycheeMem](https://github.com/LycheeMem/LycheeMem)** | Analytics | Billing, Model Routing |
+| **[deepagent-ltd/deepagent-code](https://github.com/deepagent-ltd/deepagent-code)** | Model Routing | Agent Runtime & Desktop UI, Analytics |
+| **[CatCatUncle/openworkbuddy](https://github.com/CatCatUncle/openworkbuddy)** | Quota | Security & Self-hosting, Sharing |
+| **[Piebald-AI/splitrail](https://github.com/Piebald-AI/splitrail)** | Analytics | Agent Runtime & Desktop UI, Billing |
 | **[yan-labs/yan-skills](https://github.com/yan-labs/yan-skills)** | Quota | Accounts, Sharing |
-| **[anymorph-ai/Claudable](https://github.com/anymorph-ai/Claudable)** | Desktop UI | Skills |
+| **[anymorph-ai/Claudable](https://github.com/anymorph-ai/Claudable)** | Agent Runtime & Desktop UI | Skills |
 | **[withkynam/vibecode-pro-max-kit](https://github.com/withkynam/vibecode-pro-max-kit)** | Teams | Isolation & Parallelism, Skills |
 | **[Mirrowel/LLM-API-Key-Proxy](https://github.com/Mirrowel/LLM-API-Key-Proxy)** | Sharing | Model Routing, Quota |
-| **[pax-beehive/paxm](https://github.com/pax-beehive/paxm)** | MCP & Failover | Sessions & Memory, Voice |
-| **[JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude)** | Isolation & Parallelism | MCP & Failover, Teams |
-| **[hoodini/ai-agents-skills](https://github.com/hoodini/ai-agents-skills)** | Skills | Billing, Desktop UI |
+| **[pax-beehive/paxm](https://github.com/pax-beehive/paxm)** | Security & Self-hosting | Analytics, Voice |
+| **[JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude)** | Isolation & Parallelism | Security & Self-hosting, Teams |
+| **[hoodini/ai-agents-skills](https://github.com/hoodini/ai-agents-skills)** | Skills | Agent Runtime & Desktop UI, Billing |
 | **[wangyunjeff/sub2api-state-kit](https://github.com/wangyunjeff/sub2api-state-kit)** | Accounts | Model Routing, Sharing |
-| **[Justin0504/Aegis](https://github.com/Justin0504/Aegis)** | Teams | Billing, MCP & Failover |
+| **[Justin0504/Aegis](https://github.com/Justin0504/Aegis)** | Teams | Billing, Security & Self-hosting |
 | **[newsnowlabs/dockside](https://github.com/newsnowlabs/dockside)** | Teams | Isolation & Parallelism |
-| **[sahithvibudhi/vibe-tree](https://github.com/sahithvibudhi/vibe-tree)** | Isolation & Parallelism | Desktop UI |
-| **[Eshaan-Nair/ArcRift](https://github.com/Eshaan-Nair/ArcRift)** | Sessions & Memory | Desktop UI |
-| **[JimLiu/baocut](https://github.com/JimLiu/baocut)** | Skills | Desktop UI |
-| **[vercel-labs/personal-agent-template](https://github.com/vercel-labs/personal-agent-template)** | Sessions & Memory | MCP & Failover |
+| **[sahithvibudhi/vibe-tree](https://github.com/sahithvibudhi/vibe-tree)** | Isolation & Parallelism | Agent Runtime & Desktop UI |
+| **[Eshaan-Nair/ArcRift](https://github.com/Eshaan-Nair/ArcRift)** | Analytics | Agent Runtime & Desktop UI |
+| **[JimLiu/baocut](https://github.com/JimLiu/baocut)** | Skills | Agent Runtime & Desktop UI |
+| **[vercel-labs/personal-agent-template](https://github.com/vercel-labs/personal-agent-template)** | Analytics | Security & Self-hosting |
 | **[wenyi401/ikik-api](https://github.com/wenyi401/ikik-api)** | Sharing | Accounts, Model Routing |
-| **[jessepwj/CCteam-creator](https://github.com/jessepwj/CCteam-creator)** | Sessions & Memory | Skills |
+| **[jessepwj/CCteam-creator](https://github.com/jessepwj/CCteam-creator)** | Analytics | Skills |
 
 ---
 
@@ -2928,66 +2928,66 @@ There is always a dark horse. When a newer tool covers **every** capability of a
 
 | Tool | Category | Stars | Status | Note |
 | --- | --- | --- | --- | --- |
-| **[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** | mcp-failover | 40k | 🔻 Superseded | 6.87x the stars (274,608 vs 39,997) |
+| **[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** | security-self-hosting | 40k | 🔻 Superseded | 6.87x the stars (274,608 vs 39,997) |
 | **[MoonshotAI/kimi-code](https://github.com/MoonshotAI/kimi-code)** | isolation-parallelism | 7.8k | 🔻 Superseded | 4.28x the stars (33,351 vs 7,789) |
 | **[internet-court/internet-court-skill](https://github.com/internet-court/internet-court-skill)** | skills | 6.4k | 🔻 Superseded | 6.90x the stars (44,160 vs 6,400) |
-| **[oomol-lab/open-connector](https://github.com/oomol-lab/open-connector)** | mcp-failover | 6k | 🔻 Superseded | 4.90x the stars (29,204 vs 5,955) |
+| **[oomol-lab/open-connector](https://github.com/oomol-lab/open-connector)** | security-self-hosting | 6k | 🔻 Superseded | 4.90x the stars (29,204 vs 5,955) |
 | **[Waishnav/devspace](https://github.com/Waishnav/devspace)** | isolation-parallelism | 5.2k | 🔻 Superseded | 2.86x the stars (14,892 vs 5,208) |
-| **[breferrari/obsidian-mind](https://github.com/breferrari/obsidian-mind)** | mcp-failover | 4.9k | 🔻 Superseded | 5.92x the stars (29,204 vs 4,930) |
+| **[breferrari/obsidian-mind](https://github.com/breferrari/obsidian-mind)** | security-self-hosting | 4.9k | 🔻 Superseded | 5.92x the stars (29,204 vs 4,930) |
 | **[darrenhinde/OpenAgentsControl](https://github.com/darrenhinde/OpenAgentsControl)** | isolation-parallelism | 4.9k | 🔻 Superseded | 20.09x the stars (98,271 vs 4,891) |
-| **[superdesigndev/treg](https://github.com/superdesigndev/treg)** | mcp-failover | 4.7k | 🔻 Superseded | 6.26x the stars (29,204 vs 4,667) |
-| **[Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)** | mcp-failover | 4.4k | 🔻 Superseded | 61.75x the stars (274,608 vs 4,447) |
-| **[Pimzino/spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp)** | mcp-failover | 4.3k | 🔻 Superseded | 63.85x the stars (274,608 vs 4,301) |
+| **[superdesigndev/treg](https://github.com/superdesigndev/treg)** | security-self-hosting | 4.7k | 🔻 Superseded | 6.26x the stars (29,204 vs 4,667) |
+| **[Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)** | security-self-hosting | 4.4k | 🔻 Superseded | 61.75x the stars (274,608 vs 4,447) |
+| **[Pimzino/spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp)** | security-self-hosting | 4.3k | 🔻 Superseded | 63.85x the stars (274,608 vs 4,301) |
 | **[yetone/cumora](https://github.com/yetone/cumora)** | teams | 3.9k | 🔻 Superseded | 2.70x the stars (10,643 vs 3,939) |
 | **[tigerless-labs/cost-xray](https://github.com/tigerless-labs/cost-xray)** | isolation-parallelism | 3.8k | 🔻 Superseded | 8.70x the stars (33,351 vs 3,833) |
 | **[gotalab/cc-sdd](https://github.com/gotalab/cc-sdd)** | teams | 3.7k | 🔻 Superseded | 2.06x the stars (7,628 vs 3,708) |
-| **[fuxicodex/Fuxi](https://github.com/fuxicodex/Fuxi)** | mcp-failover | 3.4k | 🔻 Superseded | 8.72x the stars (29,204 vs 3,351) |
+| **[fuxicodex/Fuxi](https://github.com/fuxicodex/Fuxi)** | security-self-hosting | 3.4k | 🔻 Superseded | 8.72x the stars (29,204 vs 3,351) |
 | **[zilliztech/memsearch](https://github.com/zilliztech/memsearch)** | teams | 2.7k | 🔻 Superseded | 2.80x the stars (7,628 vs 2,725) |
 | **[tigerless-labs/agent-memory](https://github.com/tigerless-labs/agent-memory)** | isolation-parallelism | 2.4k | 🔻 Superseded | 41.31x the stars (98,271 vs 2,379) |
 | **[MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent)** | teams | 2.1k | 🔻 Superseded | 3.69x the stars (7,628 vs 2,066) |
-| **[AMAP-ML/LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness)** | mcp-failover | 1.7k | 🔻 Superseded | 17.48x the stars (29,204 vs 1,671) |
+| **[AMAP-ML/LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness)** | security-self-hosting | 1.7k | 🔻 Superseded | 17.48x the stars (29,204 vs 1,671) |
 | **[huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** | teams | 1.3k | 🔻 Superseded | 6.05x the stars (7,628 vs 1,261) |
 | **[michaelshimeles/skills](https://github.com/michaelshimeles/skills)** | isolation-parallelism | 1.3k | 🔻 Superseded | 26.49x the stars (33,351 vs 1,259) |
-| **[AI-QL/tuui](https://github.com/AI-QL/tuui)** | mcp-failover | 1.2k | 🔻 Superseded | 25.28x the stars (29,204 vs 1,155) |
+| **[AI-QL/tuui](https://github.com/AI-QL/tuui)** | security-self-hosting | 1.2k | 🔻 Superseded | 25.28x the stars (29,204 vs 1,155) |
 | **[abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection)** | mobile | 1.1k | 🔻 Superseded | 1.31x the stars (1,423 vs 1,090) |
 | **[routatic/proxy](https://github.com/routatic/proxy)** | providers | 980 | 🔻 Superseded | 143.56x the stars (140,685 vs 980) |
 | **[microsoft/power-platform-skills](https://github.com/microsoft/power-platform-skills)** | mobile | 969 | 🔻 Superseded | 1.47x the stars (1,423 vs 969) |
 | **[SethGammon/Citadel](https://github.com/SethGammon/Citadel)** | isolation-parallelism | 922 | 🔻 Superseded | 36.17x the stars (33,351 vs 922) |
-| **[0xK3vin/MegaMemory](https://github.com/0xK3vin/MegaMemory)** | sessions-memory | 713 | 🔻 Superseded | 9.92x the stars (7,070 vs 713) |
-| **[ruvnet/metaharness](https://github.com/ruvnet/metaharness)** | mcp-failover | 688 | 🔻 Superseded | 399.14x the stars (274,608 vs 688) |
-| **[Arvincreator/project-golem](https://github.com/Arvincreator/project-golem)** | mcp-failover | 639 | 🔻 Superseded | 45.70x the stars (29,204 vs 639) |
+| **[0xK3vin/MegaMemory](https://github.com/0xK3vin/MegaMemory)** | analytics | 713 | 🔻 Superseded | 9.92x the stars (7,070 vs 713) |
+| **[ruvnet/metaharness](https://github.com/ruvnet/metaharness)** | security-self-hosting | 688 | 🔻 Superseded | 399.14x the stars (274,608 vs 688) |
+| **[Arvincreator/project-golem](https://github.com/Arvincreator/project-golem)** | security-self-hosting | 639 | 🔻 Superseded | 45.70x the stars (29,204 vs 639) |
 | **[hkqr/my-free-code](https://github.com/hkqr/my-free-code)** | model-routing | 623 | 🔻 Superseded | 15.51x the stars (9,660 vs 623) |
-| **[matrixorigin/memoria](https://github.com/matrixorigin/memoria)** | mcp-failover | 607 | 🔻 Superseded | 452.40x the stars (274,608 vs 607) |
+| **[matrixorigin/memoria](https://github.com/matrixorigin/memoria)** | security-self-hosting | 607 | 🔻 Superseded | 452.40x the stars (274,608 vs 607) |
 | **[YoanWai/agent-manager](https://github.com/YoanWai/agent-manager)** | isolation-parallelism | 574 | 🔻 Superseded | 58.10x the stars (33,351 vs 574) |
 | **[rsmdt/the-startup](https://github.com/rsmdt/the-startup)** | isolation-parallelism | 544 | 🔻 Superseded | 9.66x the stars (5,257 vs 544) |
-| **[MagicCube/agentara](https://github.com/MagicCube/agentara)** | sessions-memory | 515 | 🔻 Superseded | 17.99x the stars (9,263 vs 515) |
-| **[linxidnju/OpenTag](https://github.com/linxidnju/OpenTag)** | mcp-failover | 502 | 🔻 Superseded | 58.18x the stars (29,204 vs 502) |
-| **[hkcanan/katmer-code](https://github.com/hkcanan/katmer-code)** | mcp-failover | 474 | 🔻 Superseded | 579.34x the stars (274,608 vs 474) |
-| **[josstei/maestro-orchestrate](https://github.com/josstei/maestro-orchestrate)** | mcp-failover | 465 | 🔻 Superseded | 24.26x the stars (11,280 vs 465) |
+| **[MagicCube/agentara](https://github.com/MagicCube/agentara)** | analytics | 515 | 🔻 Superseded | 17.99x the stars (9,263 vs 515) |
+| **[linxidnju/OpenTag](https://github.com/linxidnju/OpenTag)** | security-self-hosting | 502 | 🔻 Superseded | 58.18x the stars (29,204 vs 502) |
+| **[hkcanan/katmer-code](https://github.com/hkcanan/katmer-code)** | security-self-hosting | 474 | 🔻 Superseded | 579.34x the stars (274,608 vs 474) |
+| **[josstei/maestro-orchestrate](https://github.com/josstei/maestro-orchestrate)** | security-self-hosting | 465 | 🔻 Superseded | 24.26x the stars (11,280 vs 465) |
 | **[appautomaton/latex-arxiv-SKILL](https://github.com/appautomaton/latex-arxiv-SKILL)** | model-routing | 457 | 🔻 Superseded | 21.14x the stars (9,660 vs 457) |
-| **[oracle/mcp](https://github.com/oracle/mcp)** | mcp-failover | 454 | 🔻 Superseded | 10.33x the stars (4,691 vs 454) |
-| **[delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello)** | mcp-failover | 445 | 🔻 Superseded | 65.63x the stars (29,204 vs 445) |
+| **[oracle/mcp](https://github.com/oracle/mcp)** | security-self-hosting | 454 | 🔻 Superseded | 10.33x the stars (4,691 vs 454) |
+| **[delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello)** | security-self-hosting | 445 | 🔻 Superseded | 65.63x the stars (29,204 vs 445) |
 | **[jacobaraujo7/remote_pi](https://github.com/jacobaraujo7/remote_pi)** | mobile | 427 | 🔻 Superseded | 3.33x the stars (1,423 vs 427) |
 | **[glebis/claude-skills](https://github.com/glebis/claude-skills)** | voice | 389 | 🔻 Superseded | 34.97x the stars (13,603 vs 389) |
-| **[mcpware/cross-code-organizer](https://github.com/mcpware/cross-code-organizer)** | mcp-failover | 382 | 🔻 Superseded | 23.13x the stars (8,836 vs 382) |
+| **[mcpware/cross-code-organizer](https://github.com/mcpware/cross-code-organizer)** | security-self-hosting | 382 | 🔻 Superseded | 23.13x the stars (8,836 vs 382) |
 | **[Ibrahim-3d/orchestrator-supaconductor](https://github.com/Ibrahim-3d/orchestrator-supaconductor)** | isolation-parallelism | 380 | 🔻 Superseded | 6.36x the stars (2,417 vs 380) |
-| **[nwiizo/tfmcp](https://github.com/nwiizo/tfmcp)** | mcp-failover | 373 | 🔻 Superseded | 78.29x the stars (29,204 vs 373) |
+| **[nwiizo/tfmcp](https://github.com/nwiizo/tfmcp)** | security-self-hosting | 373 | 🔻 Superseded | 78.29x the stars (29,204 vs 373) |
 | **[giuseppe-trisciuoglio/developer-kit](https://github.com/giuseppe-trisciuoglio/developer-kit)** | skills | 355 | 🔻 Superseded | 2.26x the stars (804 vs 355) |
 | **[automagik-dev/genie](https://github.com/automagik-dev/genie)** | isolation-parallelism | 345 | 🔻 Superseded | 96.67x the stars (33,351 vs 345) |
-| **[AndrewDryga/emisar](https://github.com/AndrewDryga/emisar)** | mcp-failover | 337 | 🔻 Superseded | 13.92x the stars (4,691 vs 337) |
+| **[AndrewDryga/emisar](https://github.com/AndrewDryga/emisar)** | security-self-hosting | 337 | 🔻 Superseded | 13.92x the stars (4,691 vs 337) |
 | **[AlickH/Copool](https://github.com/AlickH/Copool)** | accounts | 327 | 🔻 Superseded | 57.16x the stars (18,691 vs 327) |
 | **[harishkotra/agent-office](https://github.com/harishkotra/agent-office)** | teams | 323 | 🔻 Superseded | 23.62x the stars (7,628 vs 323) |
-| **[Othmane-Khadri/YALC-the-GTM-operating-system](https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system)** | mcp-failover | 317 | 🔻 Superseded | 866.27x the stars (274,608 vs 317) |
-| **[AGI-is-going-to-arrive/Memory-Palace](https://github.com/AGI-is-going-to-arrive/Memory-Palace)** | mcp-failover | 313 | 🔻 Superseded | 93.30x the stars (29,204 vs 313) |
+| **[Othmane-Khadri/YALC-the-GTM-operating-system](https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system)** | security-self-hosting | 317 | 🔻 Superseded | 866.27x the stars (274,608 vs 317) |
+| **[AGI-is-going-to-arrive/Memory-Palace](https://github.com/AGI-is-going-to-arrive/Memory-Palace)** | security-self-hosting | 313 | 🔻 Superseded | 93.30x the stars (29,204 vs 313) |
 | **[WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills)** | skills | 306 | 🔻 Superseded | 2.63x the stars (804 vs 306) |
 | **[jtydhr88/comfyui-custom-node-skills](https://github.com/jtydhr88/comfyui-custom-node-skills)** | skills | 294 | 🔻 Superseded | 8.17x the stars (2,403 vs 294) |
 | **[YYH211/Claude-meta-skill](https://github.com/YYH211/Claude-meta-skill)** | skills | 282 | 🔻 Superseded | 2.85x the stars (804 vs 282) |
-| **[oleksiijko/pmb](https://github.com/oleksiijko/pmb)** | mcp-failover | 281 | 🔻 Superseded | 103.93x the stars (29,204 vs 281) |
+| **[oleksiijko/pmb](https://github.com/oleksiijko/pmb)** | security-self-hosting | 281 | 🔻 Superseded | 103.93x the stars (29,204 vs 281) |
 | **[nekocode/agent-worktree](https://github.com/nekocode/agent-worktree)** | isolation-parallelism | 279 | 🔻 Superseded | 8.66x the stars (2,417 vs 279) |
 | **[kerim0x1/bettercode](https://github.com/kerim0x1/bettercode)** | teams | 275 | 🔻 Superseded | 574.96x the stars (158,113 vs 275) |
 | **[lanes-sh/app](https://github.com/lanes-sh/app)** | isolation-parallelism | 273 | 🔻 Superseded | 122.16x the stars (33,351 vs 273) |
 | **[isxlan0/Codex_AccountSwitch](https://github.com/isxlan0/Codex_AccountSwitch)** | accounts | 252 | 🔻 Superseded | 22.49x the stars (5,667 vs 252) |
-| **[jdrhyne/agent-skills](https://github.com/jdrhyne/agent-skills)** | mcp-failover | 240 | 🔻 Superseded | 1144.20x the stars (274,608 vs 240) |
+| **[jdrhyne/agent-skills](https://github.com/jdrhyne/agent-skills)** | security-self-hosting | 240 | 🔻 Superseded | 1144.20x the stars (274,608 vs 240) |
 | **[Lling0000/Vibe_coding_guide](https://github.com/Lling0000/Vibe_coding_guide)** | isolation-parallelism | 231 | 🔻 Superseded | 9.02x the stars (2,083 vs 231) |
 | **[LerianStudio/ring](https://github.com/LerianStudio/ring)** | isolation-parallelism | 217 | 🔻 Superseded | 11.14x the stars (2,417 vs 217) |
 
@@ -3004,4 +3004,4 @@ The pipeline runs daily at 04:17 UTC ([workflow](.github/workflows/daily.yml)); 
 
 ---
 
-<sub>Generated by `agentindex` v1.0.0 on 2026-10-07 16:31 UTC. 209 live tools · 129 candidates rejected by the quality gates.</sub>
+<sub>Generated by `agentindex` v1.0.0 on 2026-10-07 17:48 UTC. 209 live tools · 129 candidates rejected by the quality gates.</sub>

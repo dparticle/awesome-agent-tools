@@ -136,14 +136,17 @@
       "odoo://res.partner/record/1/image_128 — Get partner 1's avatar image",
       "odoo://res.partner/record/1 — Get partner with ID 1",
       "👤 Personalized session context — the connected user, timezone, and company scope injected into the session instructions"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "fetched_at": "2026-10-07T17:48:01+00:00",
   "categories": [
     "billing"
   ],

@@ -119,18 +119,21 @@
     "highlights": [
       "Comprehensive Observability: Track your AI agents' performance, user interactions, and API usage.",
       "Cost Control: Monitor and manage your spend on LLM and API calls."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "fetched_at": "2026-10-07T17:47:49+00:00",
   "categories": [
-    "analytics"
+    "analytics-2"
   ],
-  "primary_category": "analytics",
+  "primary_category": "analytics-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

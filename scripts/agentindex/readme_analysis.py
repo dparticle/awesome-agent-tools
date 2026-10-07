@@ -388,6 +388,14 @@ class ReadmeAnalysis:
     list_assessment: ListAssessment = field(default_factory=ListAssessment)
     #: Concrete feature bullets mined from the README, most informative first.
     highlights: list[str] = field(default_factory=list)
+    #: The same for the project's own Chinese README, when it ships one. Kept
+    #: separate rather than translated: quoting a project's real Chinese wording
+    #: is honest, machine-translating its English wording is not.
+    summary_zh_native: str = ""
+    highlights_zh: list[str] = field(default_factory=list)
+    #: Filename the Chinese text came from, e.g. ``README.zh-CN.md``. Empty when
+    #: the project ships no Chinese documentation.
+    chinese_readme: str = ""
 
     def as_dict(self) -> dict[str, Any]:
         return {
@@ -406,6 +414,9 @@ class ReadmeAnalysis:
             "source": self.source,
             "list_assessment": self.list_assessment.as_dict(),
             "highlights": self.highlights,
+            "summary_zh_native": self.summary_zh_native,
+            "highlights_zh": self.highlights_zh,
+            "chinese_readme": self.chinese_readme,
         }
 
     @property
@@ -430,6 +441,9 @@ class ReadmeAnalysis:
             source=data.get("source", "missing"),
             list_assessment=ListAssessment.from_dict(data.get("list_assessment", {})),
             highlights=data.get("highlights", []),
+            summary_zh_native=data.get("summary_zh_native", ""),
+            highlights_zh=data.get("highlights_zh", []),
+            chinese_readme=data.get("chinese_readme", ""),
         )
 
 
@@ -896,8 +910,15 @@ def analyse(
     source: str = "raw",
     *,
     corpus: dict[str, int] | None = None,
+    chinese_body: str = "",
+    chinese_source: str = "",
 ) -> ReadmeAnalysis:
-    """Analyse one README into a :class:`ReadmeAnalysis`."""
+    """Analyse one README into a :class:`ReadmeAnalysis`.
+
+    ``chinese_body`` is the project's own Chinese README when it has one. It is
+    analysed separately so the Chinese index can quote the author's real
+    wording; nothing is translated.
+    """
     # Promotional sections describe the sponsor's product, not this one.
     body, sponsor_sections = strip_sponsor_sections(body)
     if sponsor_sections:
@@ -923,6 +944,19 @@ def analyse(
 
     highlight_list = [] if list_assessment.is_list else extract_highlights(body, corpus=corpus)
 
+    # The project's own Chinese documentation, if it ships any.
+    summary_zh_native = ""
+    highlights_zh: list[str] = []
+    chinese_readme = ""
+    if chinese_body and not list_assessment.is_list:
+        zh_plain = strip_markdown(chinese_body)
+        zh_summary, _ = summarise(chinese_body, "")
+        if zh_summary:
+            summary_zh_native = zh_summary
+        highlights_zh = extract_highlights(chinese_body, corpus=corpus)
+        if chinese_source:
+            chinese_readme = chinese_source.partition("/")[2] if "/" in chinese_source else chinese_source
+
     return ReadmeAnalysis(
         full_name=full_name,
         readme_chars=len(body),
@@ -939,4 +973,7 @@ def analyse(
         source=source,
         list_assessment=list_assessment,
         highlights=highlight_list,
+        summary_zh_native=summary_zh_native,
+        highlights_zh=highlights_zh,
+        chinese_readme=chinese_readme,
     )

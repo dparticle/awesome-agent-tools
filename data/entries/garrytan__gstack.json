@@ -161,20 +161,23 @@
       "external_link_ratio": 0.253
     },
     "highlights": [
-      "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token. Optionally pair with a local PGLite for sy…",
-      "Supabase, auto-provision — paste a Supabase Personal Access Token; the skill creates a new project, polls to healthy, fetches the pooler URL, hands it to gbrain init. ~90 seconds end-to-end.",
+      "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token.",
+      "Supabase, auto-provision — paste a Supabase Personal Access Token; the skill creates a new project, polls to healthy, fetches the pooler URL, hands it to gbrain init.",
       "read-only — agent can search but never writes (best for multi-client consultants: search the shared brain, don't contaminate it with Client A's work while in Client B's repo)",
-      "PGLite local — zero accounts, zero network, ~30 seconds. Isolated brain on this Mac only. Great for try-first; migrate to Supabase later with /setup-gbrain --switch."
-    ]
+      "PGLite local — zero accounts, zero network, ~30 seconds."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:05+00:00",
+  "fetched_at": "2026-10-07T17:47:43+00:00",
   "categories": [
-    "sessions-memory",
+    "analytics",
     "skills",
     "voice"
   ],

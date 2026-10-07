@@ -111,14 +111,22 @@
       "signals": [],
       "external_link_ratio": 2.939
     },
-    "highlights": []
+    "highlights": [
+      "导出PPTX：一键导出成真实的 PPTX——逐节点还原、文字保持可编辑",
+      "一键导出：HTML离线包 / PDF / 可编辑 PPTX",
+      "媒体替换：点击或拖拽替换媒体槽，文字资料也会自动预留图片占位符",
+      "左侧缩略图目录支持拖拽重排页面，页面可跳过 / 删除 / 复制"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "fetched_at": "2026-10-07T17:47:38+00:00",
   "categories": [
     "quota"
   ],

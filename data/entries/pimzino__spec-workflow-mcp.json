@@ -127,18 +127,26 @@
       "Multi-Language Support - Available in 11 languages",
       "Task Progress Tracking - Visual progress bars and detailed status",
       "Real-Time Web Dashboard - Monitor specs, tasks, and progress with live updates"
-    ]
+    ],
+    "summary_zh_native": "一个 Model Context Protocol (MCP) 服务器，用于结构化的规格驱动开发，配备实时仪表板和 VSCode 扩展。",
+    "highlights_zh": [
+      "VSCode 扩展 - 为 VSCode 用户提供集成侧边栏仪表板",
+      "实时 Web 仪表板 - 通过实时更新监控规格、任务和进度",
+      "实现日志 - 所有任务实现的可搜索日志，包含代码统计",
+      "结构化开发工作流 - 顺序规格创建（需求 → 设计 → 任务）"
+    ],
+    "chinese_readme": "README.zh.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "fetched_at": "2026-10-07T17:47:50+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
@@ -172,6 +180,7 @@
         "103.77x the star velocity (1048.1/day vs 10.1/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",

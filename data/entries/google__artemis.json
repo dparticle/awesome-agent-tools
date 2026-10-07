@@ -133,14 +133,17 @@
       "Flash Execution: A reactive observe-and-act loop with asynchronous history summaries, typically 3–5s per step.",
       "thirdparty/mobileuse – portions of mobile-use by Minitap, Inc., Apache License 2.0.",
       "Cross-App Automation: Executes testing workflows and everyday tasks on Android from natural language instructions."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "fetched_at": "2026-10-07T17:47:38+00:00",
   "categories": [
     "mobile",
     "skills"

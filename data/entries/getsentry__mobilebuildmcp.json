@@ -26,12 +26,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 576,
+  "age_days": 577,
   "days_since_push": 5,
   "health_score": 63,
   "health_components": {
     "popularity": 76.2,
-    "momentum": 9.4,
+    "momentum": 9.3,
     "maintenance": 100.0,
     "documentation": 48.0,
     "accessibility": 100.0
@@ -39,9 +39,9 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 6464,
-    "days_span": 576,
-    "stars_per_day": 11.22,
-    "lifetime_stars_per_day": 11.22,
+    "days_span": 577,
+    "stars_per_day": 11.2,
+    "lifetime_stars_per_day": 11.2,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -116,18 +116,21 @@
       "CLI usage: https://github.com/getsentry/xcodebuildmcp.com/blob/main/app/docs/_content/cli.mdx",
       "CLI Skill: Primes the agent with instructions on how to navigate the CLI (recommended when using the CLI).",
       "MCP Skill: Primes the agent with instructions on how to use the MCP server's tools (optional when using the MCP server)."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "fetched_at": "2026-10-07T17:47:49+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

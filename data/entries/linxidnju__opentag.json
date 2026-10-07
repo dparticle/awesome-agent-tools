@@ -119,18 +119,26 @@
       "signals": [],
       "external_link_ratio": 0.0
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "在 Slack thread 里发起任务，在你自己的机器/环境里执行，过程可见、权限可控、结果可审计。",
+    "highlights_zh": [
+      "把任务路由到不同 Agent 后端，例如 Codex、Claude Code、OpenCode、Docker Agent、HTTP Agent 或自研 CLI。",
+      "不绑定单一 Agent：可以根据任务选择适合的 Agent 后端。",
+      "可审计：session、message、approval、output 和 artifact 可以后续复盘。",
+      "Admin 与集成能力：方便团队后续构建更深的工作流。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "fetched_at": "2026-10-07T17:47:59+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
@@ -162,6 +170,7 @@
         "26.50x the star velocity (130.4/day vs 4.9/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

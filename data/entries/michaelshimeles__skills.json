@@ -27,7 +27,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 215,
+  "age_days": 216,
   "days_since_push": 3,
   "health_score": 53,
   "health_components": {
@@ -40,9 +40,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1259,
-    "days_span": 215,
-    "stars_per_day": 5.86,
-    "lifetime_stars_per_day": 5.86,
+    "days_span": 216,
+    "stars_per_day": 5.83,
+    "lifetime_stars_per_day": 5.83,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -120,16 +120,19 @@
       "You need a consistent branch-per-task convention with safe cleanup",
       "Multiple agents (or sessions) work the same repository concurrently",
       "Starting any new feature, fix, or task, before writing code"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:15+00:00",
+  "fetched_at": "2026-10-07T17:47:52+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
     "skills"
   ],
@@ -157,15 +160,16 @@
         "worktree-isolation"
       ],
       "star_ratio": 26.49,
-      "momentum_ratio": 13.36,
+      "momentum_ratio": 13.429,
       "setup_delta": -26,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "26.49x the stars (33,351 vs 1,259)",
-        "13.36x the star velocity (78.3/day vs 5.9/day)",
+        "13.43x the star velocity (78.3/day vs 5.8/day)",
         "no harder to set up (2 vs 28 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

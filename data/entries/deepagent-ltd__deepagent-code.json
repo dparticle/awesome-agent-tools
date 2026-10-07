@@ -142,21 +142,29 @@
     },
     "highlights": [
       "On the harder tasks, the average fix-to-pass rate rises from 71.8% to 98.4%.",
-      "Lower total input tokens: total input runs at roughly 40-80% of the baseline on DeepSWE. Old tool outputs are trimmed by fixed rules and past reasoning is never replayed, so the prompt pref…",
+      "Lower total input tokens: total input runs at roughly 40-80% of the baseline on DeepSWE.",
       "Output tokens drop to roughly a third of the baseline: structured tool calls replace long stretches of shell-output reasoning, and generated tokens are the most expensive part of the bill.",
       "About 10% fewer steps on average, with end-to-end wall time on par with the baseline."
-    ]
+    ],
+    "summary_zh_native": "DeepAgent Code 是一个面向长期任务的 AI 编程工作区。你可以让它改一个小地方，在任务运行中随时补充指令，把一场迁移交给带客观完成判据的目标回路，或者召集多位专家共同审阅一项决策——无论哪种，工作都会在多轮对话、进程重启、工具调用、团队成员和不同项目之间保持连贯。",
+    "highlights_zh": [
+      "较难的任务上修复通过率平均从 71.8% 提升到 98.4%。",
+      "事件溯源的历史。 会话活动是一份只追加的事件日志，与它所描述的状态在同一事务中写入，回放、审计与恢复读到的永远是同一份事实。",
+      "写隔离。 严格计划门默认开启：越出已批准计划的写入会被显式拒绝并报错，而不是静默落进你的代码树。",
+      "持久会话。 prompt 在执行开始前先保存为持久记录。进程中途崩溃，会话从断点精确恢复；重试接起的是同一项工作，而不是悄悄另起一份。"
+    ],
+    "chinese_readme": "README.zh.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "fetched_at": "2026-10-07T17:48:00+00:00",
   "categories": [
-    "desktop-ui",
-    "model-routing",
-    "sessions-memory"
+    "agent-runtime-desktop-ui",
+    "analytics",
+    "model-routing"
   ],
   "primary_category": "model-routing",
   "lifecycle": {

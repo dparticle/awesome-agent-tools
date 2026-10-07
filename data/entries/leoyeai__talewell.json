@@ -116,19 +116,27 @@
       "Deterministic recall. Relevance × recency decay × importance, computed locally. No model call, no network, no API key required to search your own memory.",
       "A link graph in plain files. Records reference each other with [[id]]; stable IDs and aliases make the corpus both navigable and greppable.",
       "Prompt injection built in. On OpenClaw, a companion plugin injects a compact index before every turn, so the agent starts already knowing what it knows."
-    ]
+    ],
+    "summary_zh_native": "面向所有 agent 平台的插件化长期记忆。",
+    "highlights_zh": [
+      "确定性召回。 相关度 × 时间衰减 × 重要度，全部在本地计算。检索自己的记忆不需要模型调用、不需要网络、不需要 API key。",
+      "内置 prompt 注入。 在 OpenClaw 上，伴生插件会在每一轮对话前注入一份紧凑索引，让 agent 开口时就已经知道它知道什么。",
+      "强制来源门控。 只有用户明说的（owner）或你从其中推导出的（agent）内容才可入库。网页、工具输出、他人言论（untrusted）被结构性拒绝 —— 这是安全属性，不是可调参数。",
+      "更正会真正生效。 取代一条记录后，旧值会从召回和 prompt 注入中退场，而 git 保留完整历史。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "fetched_at": "2026-10-07T17:47:58+00:00",
   "categories": [
-    "desktop-ui",
-    "sessions-memory"
+    "agent-runtime-desktop-ui",
+    "analytics"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

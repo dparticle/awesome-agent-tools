@@ -125,14 +125,17 @@
       "market-segments — Identify 3–5 customer segments with demographics, JTBD, and product fit",
       "How large a sample do I need for 95% confidence with a 2% MDE?",
       "review-resume — PM resume review and tailoring against 10 best practices (XYZ+S formula, keywords, structure)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "fetched_at": "2026-10-07T17:47:49+00:00",
   "categories": [
     "skills"
   ],

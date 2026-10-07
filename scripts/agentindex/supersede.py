@@ -83,6 +83,10 @@ class SupersedeEdge:
     setup_delta: int = 0
     dominance: float = 0.0
     reasons: list[str] = field(default_factory=list)
+    #: Chinese rendering of ``reasons``, positionally aligned with it. Empty
+    #: entries fall back to the English string rather than being machine
+    #: translated.
+    reasons_zh: list[str] = field(default_factory=list)
     evidence: dict[str, Any] = field(default_factory=dict)
 
     @property
@@ -123,6 +127,7 @@ class SupersedeEdge:
             "setup_delta": self.setup_delta,
             "dominance": round(self.dominance, 3),
             "reasons": self.reasons,
+            "reasons_zh": self.reasons_zh,
             "evidence": self.evidence,
         }
 
@@ -400,12 +405,14 @@ def apply_manual_overrides(
             continue
 
         note = item.get("note") or "curated relationship"
+        note_zh = item.get("note_zh") or ""
         coverage = 1.0
         covered: list[str] = []
         missing: list[str] = []
         kind = EDGE_SUPERSEDE
         confidence = "high"
         reasons = [note]
+        reasons_zh = [note_zh] if note_zh else []
 
         inc = (facts or {}).get(incumbent_key)
         cha = (facts or {}).get(challenger_key)
@@ -421,9 +428,15 @@ def apply_manual_overrides(
                     f"({len(covered)}/{len(inc.capabilities)})",
                     "not covered: " + ", ".join(missing) if missing else "partial overlap",
                 ]
+                reasons_zh = ([note_zh] if note_zh else []) + [
+                    f"覆盖 {inc.full_name} 的 {coverage:.0%} 能力"
+                    f"（{len(covered)}/{len(inc.capabilities)}）",
+                    ("未覆盖：" + "、".join(missing)) if missing else "部分重叠",
+                ]
             if inc.stars and cha.stars:
                 ratio = cha.stars / inc.stars
                 reasons.append(f"{ratio:.2f}x the stars ({cha.stars:,} vs {inc.stars:,})")
+                reasons_zh.append(f"star 数为 {ratio:.2f} 倍（{cha.stars:,} vs {inc.stars:,}）")
 
         curated.append(
             SupersedeEdge(
@@ -435,6 +448,7 @@ def apply_manual_overrides(
                 coverage=coverage,
                 covered=covered,
                 reasons=reasons,
+                reasons_zh=reasons_zh,
                 evidence={
                     "curated": True,
                     "note": item.get("note", ""),

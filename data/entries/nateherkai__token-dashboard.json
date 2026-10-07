@@ -111,20 +111,22 @@
     "highlights": [
       "Settings — switch pricing between API / Pro / Max / Max-20x so cost figures everywhere else reflect your actual plan.",
       "Overview — all-time input/output/cache tokens, sessions, turns, estimated cost on your chosen plan, daily work and cache-read charts, tokens-by-project, token share by model, top tools by c…",
-      "Spotting wasteful patterns — the same file read twenty times in a session, a tool call returning 80k tokens.",
-      "If you're on Pro or Max, confirming you're getting your money's worth in API-equivalent dollars."
-    ]
+      "Spotting wasteful patterns — the same file read twenty times in a session, a tool call returning 80k tokens."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "fetched_at": "2026-10-07T17:47:57+00:00",
   "categories": [
-    "analytics"
+    "analytics-2"
   ],
-  "primary_category": "analytics",
+  "primary_category": "analytics-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

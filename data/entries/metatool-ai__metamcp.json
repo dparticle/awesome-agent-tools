@@ -35,7 +35,7 @@
   "is_fork": false,
   "default_branch": "ai-dev",
   "age_days": 623,
-  "days_since_push": 106,
+  "days_since_push": 107,
   "health_score": 46,
   "health_components": {
     "popularity": 68.6,
@@ -144,18 +144,21 @@
       "Choose between API-Key Auth (in header or query param) or standard OAuth in MCP Spec 2025-06-18",
       "✅ OAuth-enabled MCP servers tested for 03-26 version",
       "Endpoint rate-limiting (Rate Limiting): applies simultaneously to all clients using the endpoint, sharing a unique counter."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

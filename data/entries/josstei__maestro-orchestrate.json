@@ -125,18 +125,21 @@
     "highlights": [
       "Express: For simple work. Maestro asks 1-2 clarifying questions, proposes a brief, delegates to one specialist, runs code review, and archives without a design doc or implementation plan.",
       "Full orchestration: /maestro:orchestrate Build a REST API for a task management system with user authentication"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "fetched_at": "2026-10-07T17:47:59+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by spinabot/brigade: covers 100% of capabilities (4/4).",
@@ -168,6 +171,7 @@
         "52.86x the star velocity (102.5/day vs 1.9/day)",
         "no harder to set up (39 vs 51 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",

@@ -125,18 +125,21 @@
       "external_link_ratio": 1.132
     },
     "highlights": [
-      "End-to-end encrypted mobile app. Left your desk? The same sessions are",
+      "End-to-end encrypted mobile app.",
       "Natively multiplayer. Invite a colleague or a friend into the session.",
       "Reuse current subscriptions. Sign in with the Claude, Codex, and Grok",
-      "Multi-provider within one session. Astra, Fable, and Grok in the same"
-    ]
+      "Multi-provider within one session."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:36+00:00",
   "categories": [
     "mobile"
   ],

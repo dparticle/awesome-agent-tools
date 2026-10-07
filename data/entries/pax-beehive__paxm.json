@@ -138,20 +138,23 @@
     "highlights": [
       "Write-provider routes default to a 30-second timeout; optional failures remain",
       "A 50-case conversation-to-write suite checks admission, recall, forbidden"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "fetched_at": "2026-10-07T17:48:00+00:00",
   "categories": [
-    "mcp-failover",
-    "sessions-memory",
+    "analytics",
+    "security-self-hosting",
     "voice"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

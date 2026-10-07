@@ -143,23 +143,26 @@
       "external_link_ratio": 0.425
     },
     "highlights": [
-      "Intelligent LLM Routing (omega-pro) — Classifies tasks and routes to the optimal model. Coding → Claude Sonnet. Quick edit → Llama 8b at 1/60th the cost. 1M token context → Gemini Flash. 5…",
+      "Intelligent LLM Routing (omega-pro) — Classifies tasks and routes to the optimal model.",
       "Secure Profile (omega-pro) — AES-256 encrypted personal data storage with macOS Keychain integration.",
       "Auto-relate: Creates related edges (similarity >= 0.45) to top-3 similar memories",
       "Vector similarity via sqlite-vec (cosine distance, 384-dim bge-small-en-v1.5)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:30+00:00",
+  "fetched_at": "2026-10-07T17:48:06+00:00",
   "categories": [
-    "model-routing",
-    "sessions-memory"
+    "analytics",
+    "model-routing"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

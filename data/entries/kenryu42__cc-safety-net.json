@@ -133,20 +133,23 @@
     "highlights": [
       "Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team Setup.",
       "Embeds in your own tools. Call checkCommand from Node.js without installing the hook. See Library API.",
-      "Blocks secret access to SSH keys, .env files, ~/.aws, and coding-CLI credentials, from the shell and from the agent's file tools. See Secret Protection.",
-      "Blocks destructive commands such as git reset --hard, git push --force, and rm -rf on dangerous targets, even inside bash -c or python -c. See Blocked Commands."
-    ]
+      "Blocks secret access to SSH keys, .env files, ~/.aws, and coding-CLI credentials, from the shell and from the agent's file tools.",
+      "Blocks destructive commands such as git reset --hard, git push --force, and rm -rf on dangerous targets, even inside bash -c or python -c."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "fetched_at": "2026-10-07T17:47:52+00:00",
   "categories": [
-    "desktop-ui"
+    "agent-runtime-desktop-ui"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

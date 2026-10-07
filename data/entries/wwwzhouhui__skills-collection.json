@@ -157,17 +157,20 @@
     },
     "highlights": [
       "✅ 三画幅封面一次出：同一个 coverLayout 出 4:3（1440×1080）／ 3:4（1080×1440）／ 9:16（1080×1920 抖音，内容压在中央安全区），标题 ≤2 行、钩子行自动马克笔高亮",
+      "✅ 项目统计：技能包 30 个文本文件，Python 2,915 行（ark_image 1,429 · narration 765 · video 678 · extract 43），TypeScript/TSX 1,257 行，6 篇参考文档",
       "github-trending-wan: v1.0.0 (2026-04-08) - 初始版本，GitHub Trending Top 5 中文信息图海报生成器，抓取热门项目→翻译中文摘要→生成 Wan 2.7 海报 Prompt→可视化海报，支持 10 种视觉风格，3 步引导式工作流",
-      "✅ 项目统计：技能包 ≈285 KB、文本文件 28 个、代码 ≈1,063 行（ts/tsx ≈403 · mjs 518 · py 142）、1920×1080@30fps、8 种动画模式",
-      "✅ 一条命令双画幅：16:9（1920×1080，B 站/课程）与 9:16（1080×1920，抖音/视频号/小红书）同时出片，另支持 1:1；crf、并行度可调"
-    ]
+      "✅ 项目统计：技能包 ≈285 KB、文本文件 28 个、代码 ≈1,063 行（ts/tsx ≈403 · mjs 518 · py 142）、1920×1080@30fps、8 种动画模式"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "fetched_at": "2026-10-07T17:48:05+00:00",
   "categories": [
     "mobile",
     "quota",

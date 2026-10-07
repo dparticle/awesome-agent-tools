@@ -40,7 +40,7 @@
   "is_fork": false,
   "default_branch": "master",
   "age_days": 215,
-  "days_since_push": 0,
+  "days_since_push": 1,
   "health_score": 55,
   "health_components": {
     "popularity": 60.4,
@@ -187,22 +187,30 @@
       "external_link_ratio": 0.326
     },
     "highlights": [
-      "Tray icon — always-on status surface (macOS menu bar / Windows notification area). Left-click toggles the dashboard window; right-click opens a context menu with Open Dashboard, Open in Bro…",
-      "Auto-start at login — toggle Open at Login from the tray or app menu. On macOS it registers through the modern SMAppService API, so the entry appears under System Settings → General → Login…",
+      "Tray icon — always-on status surface (macOS menu bar / Windows notification area).",
+      "Auto-start at login — toggle Open at Login from the tray or app menu.",
       "Payload guardrails: 50 MiB per uploaded history file, 100 MiB total per call, 10 MiB binary responses, and 25 MiB backup restore",
       "Logs — the main process writes to ~/Library/Logs/Claude Code Monitor/desktop.log (macOS) or %APPDATA%\\Claude Code Monitor\\logs\\desktop.log (Windows); reach it from the tray menu's Show Logs."
-    ]
+    ],
+    "summary_zh_native": "专业的 Dashboard，用于实时追踪和可视化 Claude Code、Cursor 与 Codex Agent 会话、工具使用、对话历史、成本和子 Agent 编排。基于 Node.js、Express、React 和 SQLite，结合原生 Hook 与按提供方识别的本地 transcript 发现。",
+    "highlights_zh": [
+      "错误检测看门狗 — 后台定时器每 15 秒运行一次，扫描没有近期 Hook 事件（>10 秒）的活跃会话。",
+      "周期性服务器清理捕获遗漏事件检测的废弃会话和新压缩(例如 /compact 不触发 Hook、会话创建后几秒内 /resume)。",
+      "负载防护：历史上传单文件 50 MiB、每次调用合计 100 MiB、二进制响应 10 MiB、备份恢复 25 MiB",
+      "全局突发预算——任意 1.2 秒窗口内最多启动 4 个提示音，因此导入历史或断线重连时，大量 WebSocket 消息不会变成一连串提示音。"
+    ],
+    "chinese_readme": "README-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:17+00:00",
+  "fetched_at": "2026-10-07T17:47:55+00:00",
   "categories": [
-    "mcp-failover",
+    "analytics",
     "mobile",
-    "sessions-memory"
+    "security-self-hosting"
   ],
   "primary_category": "mobile",
   "lifecycle": {

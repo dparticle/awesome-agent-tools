@@ -138,16 +138,19 @@
       "Big plans. Plan size predicts delivery. In an observational sample of 50 wishes, the share merged within 8h fell from 100% (n=9) for the smallest plans to 95% (n=19), 67% (n=12) and 30% (n=…",
       "Small, obvious edits. The run above asked 0 questions and, by its own genie wish report, took 19.9 min and 387,079 tokens to delete dead code. That is one sample. An edit you can make and c…",
       "Diffs you will not read. Agents miss things, reviewers included. The reviewer passed a wrong gate command in #3045, and #2935 met 68 of 86 blind criteria with 3 HIGH gaps. Read the diff and…"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:25+00:00",
+  "fetched_at": "2026-10-07T17:48:03+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
     "skills"
   ],
@@ -185,6 +188,7 @@
         "97.86x the star velocity (78.3/day vs 0.8/day)",
         "no harder to set up (2 vs 4 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

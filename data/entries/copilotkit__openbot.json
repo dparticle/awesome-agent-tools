@@ -130,23 +130,26 @@
       "external_link_ratio": 0.463
     },
     "highlights": [
-      "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port. The supervisor binds there too, because it ho…",
-      "Routines: ask a Bot to do something on a schedule and it does, running as you, in the channel you asked in. A 15-minute floor and a cap of 20 enabled routines keep a sentence from schedulin…",
+      "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
+      "Routines: ask a Bot to do something on a schedule and it does, running as you, in the channel you asked in.",
       "Credentials encrypted at rest: stored through /admin/credentials, never returned by an API, and redacted from audit events.",
       "Durable threads and memory: conversations survive restarts through CopilotKit Intelligence, and each deployment stamps the threads it owns."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "fetched_at": "2026-10-07T17:47:39+00:00",
   "categories": [
-    "mcp-failover",
+    "security-self-hosting",
     "voice"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

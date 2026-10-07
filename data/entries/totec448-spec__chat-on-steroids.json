@@ -111,20 +111,23 @@
       "external_link_ratio": 0.633
     },
     "highlights": [
-      "Respect limits and access decisions. Workers, Goal/Loop, Compact & Resume and finish checkpoints organize work; they do not grant extra quota or model access and must not be used to evade r…",
-      "Unsigned beta: Windows is not publisher-signed; macOS is unsigned and unnotarized. Verify the package against the release checksums. Because of that, macOS asks once after each update for y…"
-    ]
+      "Respect limits and access decisions.",
+      "Unsigned beta: Windows is not publisher-signed; macOS is unsigned and unnotarized."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:40+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

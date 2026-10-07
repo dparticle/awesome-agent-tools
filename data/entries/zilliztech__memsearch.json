@@ -145,18 +145,21 @@
     "highlights": [
       "🔍 Progressive retrieval, hybrid search, smart dedup, live sync — 3-layer recall (search → expand → transcript); dense vector + BM25 sparse + RRF reranking; SHA-256 content hashing skips unc…",
       "Resume debugging threads — ask how a similar Redis, Docker, database, or deployment issue was fixed last time.",
-      "🌐 All Platforms, One Memory — memories flow across Claude Code, Codex, DeepSeek Harness, OpenClaw, and OpenCode. A conversation in one agent becomes searchable context in all others — no ex…",
+      "🌐 All Platforms, One Memory — memories flow across Claude Code, Codex, DeepSeek Harness, OpenClaw, and OpenCode.",
       "DeepSeek Harness support — MemSearch now brings automatic capture, pre-step memory injection, native skill-based recall, background maintenance, and a read-only memory browser to DeepSeek H…"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "model-routing",
     "teams"
   ],
@@ -195,6 +198,7 @@
         "7.39x the star velocity (83.8/day vs 11.3/day)",
         "no harder to set up (26 vs 49 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

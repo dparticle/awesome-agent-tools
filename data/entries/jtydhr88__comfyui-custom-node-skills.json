@@ -106,16 +106,19 @@
       "Multi-agent — Same SKILL.md files work in Claude Code and Codex (open agentskills.io standard)",
       "Frontend Extensions — Full JavaScript extension system with 15+ lifecycle hooks",
       "Source-Verified — Cross-referenced against actual ComfyUI backend and frontend source code"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:27+00:00",
+  "fetched_at": "2026-10-07T17:48:04+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
   "primary_category": "skills",
@@ -150,6 +153,7 @@
         "4.99x the star velocity (6.8/day vs 1.4/day)",
         "no harder to set up (15 vs 50 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",

@@ -123,17 +123,20 @@
     },
     "highlights": [
       "Evidence-фильтр (фаза 5.5) — CRAG-классификатор keep/drop по паре (тезис, источник) перед синтезом: наивная подача всего найденного снижает качество (Search-o1 33%→24%), в синтез идут тольк…",
-      "Evidence filter (5.5) — a CRAG-style relevance classifier runs on every (claim, source) pair before synthesis and keeps only the quotes that actually support that specific claim. Dumping ev…",
+      "Evidence filter (5.5) — a CRAG-style relevance classifier runs on every (claim, source) pair before synthesis and keeps only the quotes that actually support that specific claim.",
       "Plan-review gate (фаза 3.7) — единственная human-in-the-loop точка перед дорогой Фазой 4: план (гипотезы, жанр, каналы) показывается и утверждается ДО поиска; жёсткость по режиму (deep — жд…",
       "29 каналов поиска с paywall fallback протоколом (включая api-direct)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "fetched_at": "2026-10-07T17:48:02+00:00",
   "categories": [
     "model-routing",
     "skills"

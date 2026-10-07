@@ -170,18 +170,21 @@
       "external_link_ratio": 0.224
     },
     "highlights": [
-      "Notes — Aggregation doesn't provide failover; Claude Code requires version 2.1.243 or later; Codex needs a restart after the aggregated list changes, while Claude Code doesn't. When you swi…",
+      "Notes — Aggregation doesn't provide failover; Claude Code requires version 2.1.243 or later; Codex needs a restart after the aggregated list changes, while Claude Code doesn't.",
       "API format conversion — Local routing converts requests between Anthropic Messages, OpenAI Chat Completions, OpenAI Responses, and Gemini Native: Claude Code and Claude Desktop can use Open…",
-      "Local Routing: CC Switch forwards requests on your machine and converts API formats; see Local Routing & Failover below. Claude Desktop providers can use \"Direct\" or \"Model Mapping\"; with \"…",
+      "Local Routing: CC Switch forwards requests on your machine and converts API formats; see Local Routing & Failover below.",
       "Universal providers — One config syncs to Claude Code, Codex, and Gemini CLI"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "The incumbent all-in-one provider/account switcher for Claude Code, Codex and friends.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:36+00:00",
   "categories": [
     "accounts",
     "billing",
@@ -222,6 +225,12 @@
         "covers 62% of farion1231/cc-switch's capabilities (8/13)",
         "not covered: billing-metering, parallel-execution, provider-aggregation, session-persistence, skills-plugins",
         "0.04x the stars (5,667 vs 140,685)"
+      ],
+      "reasons_zh": [
+        "两者都为 Claude Code 和 Codex 管理多账号与多供应商，而 magpie 还能让其他模型走同一套 Agent 流程。",
+        "覆盖 farion1231/cc-switch 的 62% 能力（8/13）",
+        "未覆盖：billing-metering、parallel-execution、provider-aggregation、session-persistence、skills-plugins",
+        "star 数为 0.04 倍（5,667 vs 140,685）"
       ],
       "evidence": {
         "curated": true,

@@ -121,14 +121,17 @@
       "Multi-threaded Clash proxy-pool mode: Multi-container / multi-port pool via clashproxypool.poolmode + warpproxy_list.",
       "\"host.docker.internal:host-gateway\"",
       "Packaging as closed-source, encrypting, or hiding the code for secondary reselling;"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "fetched_at": "2026-10-07T17:47:52+00:00",
   "categories": [
     "skills"
   ],

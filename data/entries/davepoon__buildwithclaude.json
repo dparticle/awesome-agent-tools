@@ -124,19 +124,22 @@
       "external_link_ratio": 2.169
     },
     "highlights": [
-      "Visual Index: Vexilo · A field guide to Claude Code — Interactive index of 31 agents · 99 commands · 123 skills · 13 rules, organized around the 5-step workflow. (companion repo)",
+      "Visual Index: Vexilo · A field guide to Claude Code — Interactive index of 31 agents · 99 commands · 123 skills · 13 rules, organized around the 5-step workflow.",
       "Discover MCP servers and community plugins",
       "Browse all plugin types with filtering"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "fetched_at": "2026-10-07T17:47:50+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
   "primary_category": "skills",

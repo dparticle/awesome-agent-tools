@@ -148,20 +148,28 @@
       "Model lanes: Qwen2.5-0.5B fixed-layer raw activations as the current warn/review candidate, Pythia-70M raw/SAE canary and explanation lane, Gemma 1B/4B optional deep-scan candidates",
       "v0.14.0: Extracted effective logic into shared module, 30 unit tests for effective rules and move destinations",
       "Per-item token counts (ai-tokenizer ~99.8% accuracy)"
-    ]
+    ],
+    "summary_zh_native": "English | 简体中文 | 繁體中文 | 廣東話 | 日本語 | 한국어 | Español | Bahasa Indonesia | Italiano | Português | Türkçe | Tiếng Việt | ไทย",
+    "highlights_zh": [
+      "逐项 token 计数（ai-tokenizer 准确度 ~99.8%）",
+      "扫描所选 harness — Claude Code 用 ~/.claude/，Codex CLI 用 ~/.codex/ 加 trusted project config",
+      "Skill：来自 personal、project 和 plugin 三个来源；v0.19.3 会扫描 plugin 提供给 user/project scope 的 skills",
+      "你不知道 harness 实际加载了什么。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "fetched_at": "2026-10-07T17:48:01+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "billing",
-    "desktop-ui",
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (6/6).",
@@ -195,6 +203,7 @@
         "68.75x the star velocity (129.9/day vs 1.9/day)",
         "no harder to set up (20 vs 20 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

@@ -137,16 +137,24 @@
       ],
       "external_link_ratio": 0.0
     },
-    "highlights": []
+    "highlights": [
+      "一个 Agent 贯穿完整链路：发现热点、评估选题、规划日历、生成文案与视觉、制作视频、发布和归因在同一个工作流中完成。",
+      "发布：按平台适配标题、正文、画幅和媒体要求，执行发布前检查并发送到已登录账号。",
+      "发现：聚合热榜、行业新闻、竞品动态和用户讨论，筛选真正适合账号的机会。",
+      "归因：读取播放、互动、评论和内容表现，把有效结构和偏好沉淀回账号画像。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:03+00:00",
+  "fetched_at": "2026-10-07T17:47:41+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "quota"
   ],
   "primary_category": "quota",

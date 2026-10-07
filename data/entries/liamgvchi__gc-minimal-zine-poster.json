@@ -89,14 +89,17 @@
     "highlights": [
       "Keeps the callable Skill name gc-minimal-zine-poster-v0-3 for backward compatibility.",
       "a default 3:5 aged-paper canvas"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "fetched_at": "2026-10-07T17:47:39+00:00",
   "categories": [
     "skills"
   ],

@@ -127,14 +127,17 @@
       "signals": [],
       "external_link_ratio": 0.577
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:40+00:00",
   "categories": [
     "mobile",
     "model-routing",
@@ -177,6 +180,7 @@
         "1.17x the star velocity (90.2/day vs 77.2/day)",
         "no harder to set up (25 vs 33 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",

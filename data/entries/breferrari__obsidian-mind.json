@@ -144,20 +144,28 @@
       "Subagents get sharper context. context-loader, review-prep, brag-spotter, and friends consult QMD first, then fall back to grep.",
       "James Bedford — Vault structure philosophy, separation of AI-generated content",
       "Detect your vault version (v1–v3.x, or identify it as a non-obsidian-mind vault)"
-    ]
+    ],
+    "summary_zh_native": "🌐 English | 日本語 | 中文 | 한국어",
+    "highlights_zh": [
+      "Node 22+ LTS（用于钩子脚本 — 通常与 Claude Code / Codex / Gemini CLI 一起已安装）",
+      "/om-review-brief 通过汇总所有内容生成完整的评估简报：成就记录、决策、事件、能力证据和 1:1 反馈",
+      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/",
+      "Competency Note（能力项笔记） — date、description、current-level、target-level、熟练度表格"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "fetched_at": "2026-10-07T17:47:50+00:00",
   "categories": [
-    "desktop-ui",
-    "mcp-failover",
+    "agent-runtime-desktop-ui",
+    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
@@ -192,6 +200,7 @@
         "5.82x the star velocity (130.4/day vs 22.4/day)",
         "no harder to set up (32 vs 52 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

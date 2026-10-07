@@ -144,23 +144,26 @@
       "external_link_ratio": 0.532
     },
     "highlights": [
-      "Dedup - four layers: exact text match -> cosine >= 0.92 auto-merge -> cosine 0.80-0.92 borderline (LLM verify later) -> manual review in the dashboard. Old values are archived, never delete…",
+      "Dedup - four layers: exact text match -> cosine >= 0.92 auto-merge -> cosine 0.80-0.92 borderline (LLM verify later) -> manual review in the dashboard.",
       "Your data, in the open. pmb export dumps everything to Markdown/JSON. Apache 2.0.",
       "Works on every host. Claude Code (hooks), Codex (pmb codex-notify), MCP-only hosts like Cursor/Zed/VS Code (git observer, pmb ambient-watch .). Check yours with pmb hooks capabilities.",
       "Apache 2.0 licensed. Forks welcome."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "fetched_at": "2026-10-07T17:48:05+00:00",
   "categories": [
-    "desktop-ui",
-    "mcp-failover"
+    "agent-runtime-desktop-ui",
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).",
@@ -194,6 +197,7 @@
         "62.68x the star velocity (130.4/day vs 2.1/day)",
         "slightly heavier setup (+10 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

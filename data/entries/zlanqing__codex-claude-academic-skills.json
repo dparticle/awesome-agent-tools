@@ -99,17 +99,21 @@
       "external_link_ratio": 0.854
     },
     "highlights": [
-      "引文管理：DOI → BibTeX，文献元数据提取，引文验证",
+      "保留原始代码结构，集中管理关键参数，添加物理意义注释",
       "审稿意见回复（Rebuttal / Peer-review response）",
-      "文献报告 PPT、组会 PPT、课程报告 PPT"
-    ]
+      "引文管理：DOI → BibTeX，文献元数据提取，引文验证",
+      "结构化 DOCX 生成：标题、表格、图表占位符、来源标注"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:40+00:00",
   "categories": [
     "skills"
   ],

@@ -135,14 +135,22 @@
     },
     "highlights": [
       "Mixture-of-Models Routing — each delegated lane is routed onto a"
-    ]
+    ],
+    "summary_zh_native": "中的普通请求，转化为合适的能力、明确的下一步，以及对“已经发生”和“尚未发生”的诚实状态。",
+    "highlights_zh": [
+      "Agent 看板与原生 Kanban 协作（agent/operator 参考）",
+      "Parallel Evals — 评审与验证 lane 作为独立子代理调度,交叉核验而非",
+      "Parallel Tool Calling — 批量工具调用在 Hermes 中并发执行,刚发生的",
+      "Phase-structured TODO — 工作在开始前以 phase 和 task 声明"
+    ],
+    "chinese_readme": "README.zh.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
     "isolation-parallelism",
     "model-routing"

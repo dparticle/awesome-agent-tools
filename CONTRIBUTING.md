@@ -89,6 +89,38 @@ does), the fix is usually to tighten a pattern — add a negative context, or
 require a more specific phrase. Patterns are regexes, matched
 case-insensitively against the plain-text README.
 
+### 3. Improve a Chinese description
+
+The Chinese README describes each tool using, in priority order:
+
+1. **The project's own Chinese README**, if it ships one — fetched from
+   `README.zh-CN.md`, `README_CN.md` and similar filenames. The author's own
+   words, and the best source.
+2. **A `summary_zh` note in [`config/overrides.json`](config/overrides.json)** —
+   add one for any tool you can describe accurately:
+
+   ```json
+   {
+     "notes": {
+       "owner/repo": {
+         "summary_zh": "一句话说明这个工具解决什么问题。"
+       }
+     }
+   }
+   ```
+
+3. **A summary generated from detected capabilities**, marked `‡`.
+4. **The English text, kept in English**, marked `†`.
+
+Adding a `summary_zh` is the single most useful contribution to the Chinese
+index: it takes a row from tier 3 or 4 to tier 2, and it is the only tier that
+adds knowledge the analyser does not already have.
+
+The English text is **never machine-translated**. A translation would put claims
+in a project's mouth that it never made, and the whole value of this list is
+that its conclusions can be checked. An honest English sentence marked `†` is
+more useful to a Chinese reader than a fluent fabrication.
+
 To see what the analyser currently believes and why:
 
 ```bash

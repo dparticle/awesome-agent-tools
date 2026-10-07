@@ -100,18 +100,21 @@
       "external_link_ratio": 0.827
     },
     "highlights": [
-      "Local-only: With per-command --skip-api, the tool scans local ~/.codex/sessions//rollout-.jsonl files for usage data and skips team name refresh API calls. This mode is safer, but it can be…",
+      "Local-only: With per-command --skip-api, the tool scans local ~/.codex/sessions//rollout-.jsonl files for usage data and skips team name refresh API calls.",
       "GET https://chatgpt.com/backend-api/wham/usage",
-      "API (default): The tool makes direct HTTPS requests to OpenAI's endpoints using your account's access token. This enables both usage refresh and team name refresh. curl must be available at…",
+      "API (default): The tool makes direct HTTPS requests to OpenAI's endpoints using your account's access token.",
       "GET https://chatgpt.com/backend-api/accounts"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
     "accounts"
   ],

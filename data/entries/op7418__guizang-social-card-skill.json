@@ -35,7 +35,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 133,
-  "days_since_push": 97,
+  "days_since_push": 98,
   "health_score": 62,
   "health_components": {
     "popularity": 77.4,
@@ -126,17 +126,20 @@
     },
     "highlights": [
       "📐 3 个画板尺寸:.poster.xhs 1080×1440(小红书 3:4)、.poster.wide 2100×900(公众号 21:9)、.poster.square 1080×1080(公众号 1:1)",
-      "🧰 截图美化资产:9 张 WebP 真实材质背景(Editorial 5 / Swiss 4),配套 .frame-shot / .device-browser / .device-phone 工具类",
+      "\"做一个公众号 21:9 头图 + 1:1 分享卡\"",
       "R5 4-Band Density — 1440 高画布切 4 横带,每带应有内容或主动留白理由",
       "🧩 28 个版式骨架:Editorial 16 个(M01-M16,含 Image-Led Cover、Pipeline、Before/After 等)+ Swiss 12 个(S01-S12,含 KPI Tower、H-Bar Chart、Matrix + Hero 等)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "fetched_at": "2026-10-07T17:47:39+00:00",
   "categories": [
     "mobile"
   ],

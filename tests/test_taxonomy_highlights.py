@@ -17,9 +17,14 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from agentindex.highlights import (  # noqa: E402
     best_description,
     build_corpus,
+    cjk_ratio,
+    effective_length,
     extract_highlights,
+    first_sentence,
+    has_cjk,
     is_descriptive,
 )
+from agentindex.readme_analysis import analyse  # noqa: E402
 from agentindex.taxonomy import (  # noqa: E402
     capability_tool_sets,
     cluster_tools,
@@ -165,6 +170,34 @@ class TestDiscovery(unittest.TestCase):
         clusters = discover_categories(entries)
         self.assertTrue(clusters)
 
+    def test_slugs_are_unique(self):
+        """Regression: two clusters could inherit the same previous slug.
+
+        When the taxonomy shifts, two different clusters can both match the same
+        previous category. The uniqueness check used to run only on freshly
+        generated slugs, so both inherited "billing" — producing a duplicate
+        section, one of them empty.
+        """
+        entries = [dict(e) for e in ECOSYSTEM]
+        clusters = discover_categories(entries)
+        slugs = [c.slug for c in clusters]
+        self.assertEqual(len(slugs), len(set(slugs)), f"duplicate slugs: {slugs}")
+
+    def test_no_empty_categories(self):
+        entries = [dict(e) for e in ECOSYSTEM]
+        clusters = discover_categories(entries)
+        for cluster in clusters:
+            self.assertTrue(
+                cluster.primary_tools, f"{cluster.slug} has no primary tools"
+            )
+
+    def test_tools_are_not_lost_across_categories(self):
+        entries = [dict(e) for e in ECOSYSTEM]
+        clusters = discover_categories(entries)
+        primaries = [t for c in clusters for t in c.primary_tools]
+        self.assertEqual(len(primaries), len(set(primaries)), "a tool has two primaries")
+        self.assertEqual(set(primaries), {e["full_name"].lower() for e in entries})
+
 
 class TestHighlights(unittest.TestCase):
     README = """
@@ -260,6 +293,124 @@ class TestBestDescription(unittest.TestCase):
     def test_never_returns_an_install_line(self):
         for summary in ("npm install -g x", "Download the .dmg installer today"):
             self.assertNotIn("install", best_description(summary, []).lower())
+
+
+class TestChineseHandling(unittest.TestCase):
+    """The Chinese index must quote real Chinese text, never a translation."""
+
+    ZH_README = """
+# 工具
+
+一个可以在多个账号之间自动切换的命令行工具，额度用完之前会提前提醒你。
+
+## 功能特性
+
+- 支持同时管理多个 Claude Code 账号，额度用完自动切换到下一个
+- 实时监控 5 小时和 7 天的额度窗口，快用完时提前预警
+- 所有凭据加密保存在本地，不会上传到任何服务器
+
+## 安装
+
+```bash
+npm install -g tool
+```
+
+- 下载 macOS 的 .dmg 安装包或 Windows 的 .exe
+"""
+
+    def test_extracts_chinese_highlights(self):
+        found = extract_highlights(self.ZH_README)
+        self.assertTrue(found, "expected Chinese bullets to be extracted")
+        joined = "".join(found)
+        self.assertIn("账号", joined)
+
+    def test_chinese_install_bullets_excluded(self):
+        found = "".join(extract_highlights(self.ZH_README))
+        self.assertNotIn(".dmg", found)
+        self.assertNotIn("npm install", found)
+
+    def test_has_cjk_detection(self):
+        self.assertTrue(has_cjk("自动切换账号"))
+        self.assertFalse(has_cjk("switch accounts"))
+
+    def test_cjk_ratio(self):
+        self.assertGreater(cjk_ratio("自动切换账号"), 0.9)
+        self.assertEqual(cjk_ratio("switch accounts"), 0.0)
+
+    def test_chinese_enumeration_rejected(self):
+        body = "## 功能\n\n- 支持模型：gpt-4o、gpt-4o-mini、o1、o3、o4-mini、gpt-5、gpt-5-mini、gpt-5-nano\n"
+        self.assertEqual(extract_highlights(body), [])
+
+    def test_chinese_short_bullet_rejected(self):
+        """Chinese has no spaces, so a word-count test would wrongly accept this."""
+        body = "## 功能\n\n- 支持多账号\n- 支持切换\n- 支持监控\n"
+        self.assertEqual(extract_highlights(body), [])
+
+    def test_analyse_prefers_native_chinese(self):
+        analysis = analyse("a/b", "English README about switching accounts", chinese_body=self.ZH_README)
+        self.assertTrue(analysis.summary_zh_native or analysis.highlights_zh)
+        self.assertTrue(analysis.highlights_zh)
+
+    def test_analyse_without_chinese_is_empty_not_translated(self):
+        analysis = analyse("a/b", "English README about switching accounts")
+        self.assertEqual(analysis.summary_zh_native, "")
+        self.assertEqual(analysis.highlights_zh, [])
+        self.assertEqual(analysis.chinese_readme, "")
+
+
+class TestChineseRatioGate(unittest.TestCase):
+    """A README.zh-CN.md that is actually English must not be treated as Chinese."""
+
+    def test_english_file_is_rejected(self):
+        from agentindex.github import _chinese_ratio
+
+        self.assertLess(_chinese_ratio("This is an English README. " * 50), 0.15)
+
+    def test_short_stub_is_rejected(self):
+        from agentindex.github import _chinese_ratio
+
+        self.assertEqual(_chinese_ratio("中文"), 0.0)
+
+    def test_real_chinese_passes(self):
+        from agentindex.github import _chinese_ratio
+
+        body = "这是一个中文说明文档，用来介绍工具的功能和使用方法。" * 20
+        self.assertGreaterEqual(_chinese_ratio(body), 0.15)
+
+
+class TestLanguageAwareLength(unittest.TestCase):
+    """Chinese text must not be measured with Latin character thresholds."""
+
+    def test_effective_length_counts_cjk_double(self):
+        self.assertEqual(effective_length("abcd"), 4)
+        self.assertEqual(effective_length("中文"), 4)
+
+    def test_complete_chinese_sentence_is_not_padded(self):
+        """A full Chinese sentence must not be treated as a short tagline.
+
+        Raw character count made "…用你的 ChatGPT 订阅。" (44 chars) look shorter
+        than the 80-char tagline threshold, so an unrelated feature bullet was
+        appended to it.
+        """
+        summary = "Claude Code 跑 Kimi，Codex 跑 DeepSeek，Gemini CLI 跑 GLM，OpenCode 用你的 ChatGPT 订阅。"
+        result = best_description(summary, ["局域网共享：打开「在局域网共享」，为每个客户端创建网关 key"])
+        self.assertEqual(result, summary)
+
+    def test_chinese_sentence_split_without_space(self):
+        """CJK sentences end with 。 and have no following space."""
+        text = "这是一个完整的句子，用来描述工具的核心功能。这是第二句话，也应该被保留。"
+        self.assertEqual(first_sentence(text), "这是一个完整的句子，用来描述工具的核心功能。")
+
+    def test_latin_sentence_split_still_works(self):
+        self.assertEqual(
+            first_sentence("This is the first sentence of the description. And more."),
+            "This is the first sentence of the description.",
+        )
+
+    def test_short_lead_is_not_used_alone(self):
+        """"Never stop coding." is too short to stand as the whole description."""
+        text = "Never stop coding. Routes every request through a local gateway."
+        self.assertEqual(first_sentence(text), text)
 
 
 class TestCorpus(unittest.TestCase):

@@ -134,16 +134,19 @@
       "Background work. Crons, watches, and inbound webhooks work while you're away.",
       "Admin control. Set org-level configuration, security and sharing postures. Choose which",
       "Personal and shared scopes. People customize the agent to be theirs, and still"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "fetched_at": "2026-10-07T17:47:37+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "model-routing",
     "teams"
   ],

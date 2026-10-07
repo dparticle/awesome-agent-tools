@@ -164,19 +164,22 @@
     "highlights": [
       "10-06 系统沙箱：AI 跑的命令和脚本在 macOS、Windows 上读不到 Key 和账本、改不了应用；设置 → 安全 能关，每条多花 7–16 毫秒",
       "10-07 闲着更省电：没任务、没人用时，服务每秒醒来从约 40 次降到 2 次；窗口不在前台也不再盯卡顿",
-      "10-02 Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法",
-      "toolward —— 给 agent 用的技能 / MCP 连接器静态安检：37 条规则分六族，零运行时依赖。npm i -g toolward 装上，OpenWorkBuddy 自动把它当第二把尺子用，不装也完全不影响。同样是 PolyForm Noncommercial。"
-    ]
+      "09-28 渠道能选接口格式：OpenAI / Responses / Anthropic / Gemini / Ollama 原生，本地部署都能接",
+      "09-28 授权写清楚了：个人非商用免费；公司使用（含只在内部用）和个人商用要向作者买商业授权，公司可先免费试用 30 天"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "fetched_at": "2026-10-07T17:48:05+00:00",
   "categories": [
-    "mcp-failover",
     "quota",
+    "security-self-hosting",
     "sharing"
   ],
   "primary_category": "quota",

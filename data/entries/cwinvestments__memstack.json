@@ -163,14 +163,17 @@
       "SessionStart context injection: Injects last 3 diary + observation summaries into .claude/session-context.md at session start for instant recall",
       "On-demand loading: Skills load from the catalog only when matched, no context bloat from 131 skills",
       "TTS notifications: Voice alerts when tasks complete, questions need attention, or errors occur"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "fetched_at": "2026-10-07T17:48:00+00:00",
   "categories": [
     "billing",
     "isolation-parallelism",

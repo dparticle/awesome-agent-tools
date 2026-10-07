@@ -163,15 +163,23 @@
       "glm/glm-4.7 (cheap backup, $0.6/1M)",
       "glm/glm-5.1 (Cheap backup, $0.6/1M)",
       "kr/claude-sonnet-4.5 (Claude 4.5 free via Kiro, ~50 credits/mo)",
-      "❌ Gemini CLI: Service fully shut down by Google on 2026-06-18 (replaced by the closed-source Antigravity CLI). Discontinued — do not use."
-    ]
+      "❌ Gemini CLI: Service fully shut down by Google on 2026-06-18 (replaced by the closed-source Antigravity CLI)."
+    ],
+    "summary_zh_native": "编程永不停歇。使用 RTK + 自动切换到免费/低价 AI 模型，节省 20-40% 的 tokens。",
+    "highlights_zh": [
+      "kr/claude-sonnet-4.5 (通过 Kiro 免费使用 Claude 4.5，约 50 积分/月)",
+      "kr/claude-sonnet-4.5 （通过 Kiro 免费使用 Claude 4.5，约 50 积分/月）",
+      "✅ RTK Token 节省器 - 自动压缩 tool_result 内容，每次请求节省 20-40% tokens",
+      "✅ 通用兼容 - 支持 Claude Code、Codex、Cursor、Cline 以及任何 CLI 工具"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:10+00:00",
+  "fetched_at": "2026-10-07T17:47:48+00:00",
   "categories": [
     "accounts",
     "billing",

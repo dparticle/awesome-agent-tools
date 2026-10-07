@@ -147,17 +147,25 @@
       "Share it on your network. Turn on Share on local network, then create a named gateway key for each client, each with its own daily, weekly or monthly token and cost limit.",
       "Docker. Run ghcr.io/yetone/magpie on a server or a NAS, and manage it from the web UI.",
       "Sync. Back up to a file, or keep machines in sync over WebDAV (Nutstore, Nextcloud…) or S3."
-    ]
+    ],
+    "summary_zh_native": "Claude Code 跑 Kimi，Codex 跑 DeepSeek，Gemini CLI 跑 GLM，OpenCode 用你的 ChatGPT 订阅。",
+    "highlights_zh": [
+      "token、缓存读写、推理 token 和调用次数，以及按官方价格估算的费用。",
+      "局域网共享：打开「在局域网共享」，为每个客户端创建一个命名的网关 key，每个 key 可以单独设置按日、周或月的 token 和费用上限。",
+      "Claude：调用本机真正的 claude 程序，通过 MCP 把你 Agent 的工具接进去",
+      "Codex / ChatGPT：ChatGPT 套餐里的模型，其他 Agent 都能用"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:36+00:00",
   "categories": [
     "accounts",
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "model-routing"
   ],
   "primary_category": "accounts",

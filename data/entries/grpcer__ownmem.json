@@ -134,18 +134,21 @@
       "Memory and knowledge-base poisoning: AgentPoison (NeurIPS 2024), PoisonedRAG (USENIX Security 2025)",
       "Agent memory and reflection: Reflexion (NeurIPS 2023), MemGPT (2023)",
       "Untrusted data separated from authority: CaMeL: Defeating Prompt Injections by Design (2025)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "fetched_at": "2026-10-07T17:48:00+00:00",
   "categories": [
-    "sessions-memory"
+    "analytics"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

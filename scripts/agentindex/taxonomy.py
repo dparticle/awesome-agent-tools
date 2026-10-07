@@ -499,17 +499,22 @@ def discover_categories(
 
         if prev_slug and stability >= 0.5:
             slug = prev_slug
-            taken.add(prev_slug)
             # Preserve a human-edited title across runs.
             title = (previous[prev_slug].get("title") or {})
             names["title_en"] = title.get("en") or names["title_en"]
             names["title_zh"] = title.get("zh") or names["title_zh"]
         else:
             slug = slugify(names["title_en"])
-            base, n = slug, 2
-            while slug in taken or slug in {c.slug for c in clusters}:
-                slug = f"{base}-{n}"
-                n += 1
+
+        # Uniqueness is enforced for inherited slugs too. Two different clusters
+        # can both match a previous category when the taxonomy shifts, and
+        # without this check they were both assigned the same slug — which
+        # produced a duplicate "billing" section, one of them empty.
+        base, n = slug, 2
+        while slug in taken:
+            slug = f"{base}-{n}"
+            n += 1
+        taken.add(slug)
 
         centre = centroid([vectors[m] for m in members])
         cohesion = sum(cosine(vectors[m], centre) for m in members) / len(members)
@@ -533,6 +538,11 @@ def discover_categories(
         return []
 
     assign_tools(clusters, membership, entries, vectors)
+    # A cluster that ends up with no primary members is not a section anyone
+    # lands on — every one of its tools belongs primarily somewhere else. It
+    # would render as an empty heading, so it is dropped. Its tools remain
+    # listed, cross-referenced from the categories that do own them.
+    clusters = [c for c in clusters if c.primary_tools]
     clusters.sort(key=lambda c: (-len(c.primary_tools), c.title_en))
     return clusters
 

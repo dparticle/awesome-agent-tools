@@ -126,14 +126,17 @@
       ],
       "external_link_ratio": 0.348
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "fetched_at": "2026-10-07T17:48:01+00:00",
   "categories": [
     "isolation-parallelism"
   ],
@@ -170,6 +173,7 @@
         "21.05x the star velocity (34.5/day vs 1.6/day)",
         "no harder to set up (34 vs 72 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

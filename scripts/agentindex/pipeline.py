@@ -126,6 +126,7 @@ class PipelineStats:
     rejected: int = 0
     readme_ok: int = 0
     readme_missing: int = 0
+    chinese_readmes: int = 0
     api_metadata_calls: int = 0
     supersede_edges: int = 0
     challenger_edges: int = 0
@@ -142,6 +143,7 @@ class PipelineStats:
             "rejected": self.rejected,
             "readme_ok": self.readme_ok,
             "readme_missing": self.readme_missing,
+            "chinese_readmes": self.chinese_readmes,
             "api_metadata_calls": self.api_metadata_calls,
             "supersede_edges": self.supersede_edges,
             "challenger_edges": self.challenger_edges,
@@ -210,6 +212,14 @@ def run_pipeline(
     if corpus:
         LOG.info("loaded corpus of %s documents", corpus.get("__documents__", 0))
 
+    # Warm the Chinese-README cache concurrently before the serial crawl loop.
+    # Doing this probe per-repo inside the loop cost a round trip for every
+    # candidate and turned a 35-second run into a 29-minute one.
+    if not dry_run and not client.offline:
+        known = sorted({c.full_name for c in candidates})
+        found = client.prefetch_chinese_readmes(known)
+        LOG.info("chinese readmes available for %d/%d candidates", found, len(known))
+
     for i, candidate in enumerate(candidates, 1):
         provisional = candidate.metadata or {}
 
@@ -257,8 +267,30 @@ def run_pipeline(
 
         # The corpus lets highlight extraction tell a concrete feature apart
         # from wording that appears in almost every README.
+        #
+        # Many projects in this space ship their own Chinese README. Fetching it
+        # lets the Chinese index quote the author's real words instead of a
+        # machine translation of their English ones, which would put claims in
+        # their mouth. The probe is cached, including misses.
+        chinese_body, chinese_source = "", ""
+        if body:
+            try:
+                chinese_body, chinese_source = client.get_chinese_readme(full_name, refresh=refresh)
+            except Exception:  # noqa: BLE001 - optional enrichment only
+                chinese_body, chinese_source = "", ""
+            if chinese_body:
+                stats.chinese_readmes += 1
+
         analysis = (
-            analyse(full_name, body, repo.get("description") or "", source, corpus=corpus)
+            analyse(
+                full_name,
+                body,
+                repo.get("description") or "",
+                source,
+                corpus=corpus,
+                chinese_body=chinese_body,
+                chinese_source=chinese_source,
+            )
             if body
             else None
         )
@@ -705,6 +737,11 @@ def _build_index(
                 "capabilities": e["analysis"]["capabilities"],
                 "agents": e["analysis"]["agents"],
                 "highlights": e["analysis"].get("highlights", []),
+                "summary_en": e["analysis"].get("summary_en", ""),
+                "summary_zh_native": e["analysis"].get("summary_zh_native", ""),
+                "highlights_zh": e["analysis"].get("highlights_zh", []),
+                "chinese_readme": e["analysis"].get("chinese_readme", ""),
+                "description": e.get("description", ""),
             }
             for name, e in entries.items()
         },

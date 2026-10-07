@@ -33,22 +33,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 189,
+  "age_days": 190,
   "days_since_push": 1,
-  "health_score": 78,
+  "health_score": 77,
   "health_components": {
     "popularity": 83.5,
-    "momentum": 65.7,
+    "momentum": 65.3,
     "maintenance": 100.0,
     "documentation": 56.0,
     "accessibility": 79.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
     "stars_gained": 14892,
-    "days_span": 189,
-    "stars_per_day": 78.79,
-    "lifetime_stars_per_day": 78.79,
+    "days_span": 190,
+    "stars_per_day": 78.38,
+    "lifetime_stars_per_day": 78.38,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -152,18 +152,21 @@
       "模型自选：Claude / ChatGPT / Grok 官方账号可直接登录；DeepSeek、Kimi、智谱 GLM 等第三方 API 有现成预设；LM Studio、Ollama 的本地模型也接得上。",
       "动态 Workflow 编排：模型当场编写并运行编排脚本，并发或流水线调度多个子代理，支持阶段视图、中断与断点续跑。",
       "分支 / Worktree 启动：新会话可以选择仓库分支，并决定用当前工作树还是隔离 Worktree。"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "fetched_at": "2026-10-07T17:47:49+00:00",
   "categories": [
     "billing",
     "isolation-parallelism",
-    "mcp-failover"
+    "security-self-hosting"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {

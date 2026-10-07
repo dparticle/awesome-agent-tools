@@ -168,16 +168,19 @@
     "highlights": [
       "Integrate through your agent. Claude Code, Codex & co. already speak MCP to Linear, Jira,",
       "The code is the agent's job. No embedded editor; one click to your real VS Code or Cursor"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "fetched_at": "2026-10-07T17:48:03+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
     "mobile"
   ],

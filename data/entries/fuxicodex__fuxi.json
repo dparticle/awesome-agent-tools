@@ -133,19 +133,22 @@
       "signals": [],
       "external_link_ratio": 0.705
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:41+00:00",
   "categories": [
-    "mcp-failover",
-    "model-routing"
+    "model-routing",
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
@@ -178,6 +181,7 @@
         "2.49x the star velocity (130.4/day vs 52.4/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

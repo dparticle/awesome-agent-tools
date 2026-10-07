@@ -169,20 +169,23 @@
       "external_link_ratio": 0.834
     },
     "highlights": [
-      "Cron expression — standard 5-field cron with timezone support (e.g. 0 9 * * 1, Asia/Shanghai)",
+      "Cron expression — standard 5-field cron with timezone support (e.g.",
       "Instant Preview: Built-in 10+ format preview panels, AI collaboration results instantly visible.",
       "File Management: Intelligently organize local folders and batch rename with one click.",
       "Document Generation: Automatically write and format PPT, Word, and Markdown documents."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:10+00:00",
+  "fetched_at": "2026-10-07T17:47:48+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
     "skills"
   ],

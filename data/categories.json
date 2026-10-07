@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-07T16:31:32+00:00",
+  "generated_at": "2026-10-07T17:48:09+00:00",
   "count": 15,
   "categories": [
     {
-      "id": "mcp-failover",
+      "id": "security-self-hosting",
       "title": {
-        "en": "MCP & Failover",
-        "zh": "MCP与故障转移"
+        "en": "Security & Self-hosting",
+        "zh": "安全与自托管"
       },
       "tagline": {
         "en": "Security & isolation",
@@ -101,7 +101,7 @@
         "waishnav/devspace",
         "xiaomimimo/mimo-code"
       ],
-      "stability": 0.714,
+      "stability": 1.0,
       "cohesion": 0.653
     },
     {
@@ -295,10 +295,10 @@
       "cohesion": 0.8
     },
     {
-      "id": "sessions-memory",
+      "id": "analytics",
       "title": {
-        "en": "Sessions & Memory",
-        "zh": "会话与记忆"
+        "en": "Analytics",
+        "zh": "用量分析"
       },
       "tagline": {
         "en": "Session persistence",
@@ -361,10 +361,10 @@
       "cohesion": 0.768
     },
     {
-      "id": "desktop-ui",
+      "id": "agent-runtime-desktop-ui",
       "title": {
-        "en": "Desktop UI",
-        "zh": "桌面端"
+        "en": "Agent Runtime & Desktop UI",
+        "zh": "运行时与桌面端"
       },
       "tagline": {
         "en": "Agent runtime",
@@ -527,7 +527,7 @@
         "jsonbored/awesome-claude",
         "loopx-project/loopx"
       ],
-      "stability": 0.714,
+      "stability": 1.0,
       "cohesion": 0.749
     },
     {
@@ -756,7 +756,7 @@
         "jlcodes99/cockpit-tools",
         "mirrowel/llm-api-key-proxy"
       ],
-      "stability": 0.714,
+      "stability": 1.0,
       "cohesion": 0.77
     },
     {
@@ -855,7 +855,7 @@
       "cohesion": 0.821
     },
     {
-      "id": "analytics",
+      "id": "analytics-2",
       "title": {
         "en": "Analytics",
         "zh": "用量分析"
@@ -926,7 +926,7 @@
         "pax-beehive/paxm",
         "superagent-ai/grok-cli"
       ],
-      "stability": 0.091,
+      "stability": 1.0,
       "cohesion": 0.933
     },
     {

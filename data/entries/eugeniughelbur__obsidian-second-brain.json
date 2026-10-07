@@ -169,20 +169,23 @@
     },
     "highlights": [
       "Self-Improving Sovereign Agents — voices: @tom_doerr, @AIDailyGems"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "fetched_at": "2026-10-07T17:47:50+00:00",
   "categories": [
-    "mcp-failover",
     "model-routing",
+    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -170,14 +170,17 @@
       "📝 10,000+ lines of personality, process, and code examples",
       "🧪 Experiment Tracker - A/B test planning",
       "🏔️ 3D & Scene Developer - Create immersive 3D scene with terrain, buildings, and flyover tour"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:05+00:00",
+  "fetched_at": "2026-10-07T17:47:43+00:00",
   "categories": [
     "accounts",
     "teams",

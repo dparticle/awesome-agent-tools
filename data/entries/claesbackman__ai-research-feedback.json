@@ -104,14 +104,17 @@
       "Skills/review-paper-checks/SKILL.md: Fast 3-agent mechanical check — spelling, internal consistency, unsupported claims.",
       "Skills/audit-analysis/SKILL.md: Adversarial audit of changed analysis code, run by an isolated subagent.",
       "Data-management plans, mentoring plans, and facilities statements"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "fetched_at": "2026-10-07T17:47:59+00:00",
   "categories": [
     "skills"
   ],

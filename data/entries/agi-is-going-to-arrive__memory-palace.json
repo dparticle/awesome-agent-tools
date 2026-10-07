@@ -19,7 +19,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 230,
-  "days_since_push": 139,
+  "days_since_push": 140,
   "health_score": 44,
   "health_components": {
     "popularity": 49.9,
@@ -142,23 +142,31 @@
     },
     "highlights": [
       "Cross-platform: ps1/sh parity for all scripts, CRLF defense, UTF-8 forced encoding, Windows mcp_wrapper.py as native stdio path.",
-      "HTTP/SSE auth is fail-closed: protected endpoints return 401 without a valid MCPAPIKEY. stdio is unaffected.",
+      "HTTP/SSE auth is fail-closed: protected endpoints return 401 without a valid MCPAPIKEY.",
       "Docker: deployment locks, runtime env injection (opt-in), loopback → host.docker.internal auto-rewrite, NFS/CIFS/SMB mount rejection.",
       "SSE Hardening: per-principal rate limiting (429 + Retry-After), idle watchdog, trusted proxy CIDR allowlist, graceful shutdown draining, loopback port auto-fallback."
-    ]
+    ],
+    "summary_zh_native": "Memory Palace 为 LLM Agent 提供持久化、可检索、可审计的外部记忆，让每次对话都能在之前的基础上继续，而不是从零开始。",
+    "highlights_zh": [
+      "HTTP/SSE 鉴权默认 fail-closed：未配置或未提供有效 MCPAPIKEY 时返回 401；stdio 不受影响。",
+      "Docker 一键部署在服务端代理转发鉴权头，浏览器不会直接拿到真实 key。",
+      "Docker 数据保存在 named volume data 和 snapshots 中。",
+      "Forgetting Engine：运行时活力值按 VITALITYDECAYHALFLIFEDAYS 衰减（.env.example 中为 30 天）。"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "fetched_at": "2026-10-07T17:48:03+00:00",
   "categories": [
-    "desktop-ui",
-    "mcp-failover",
-    "model-routing"
+    "agent-runtime-desktop-ui",
+    "model-routing",
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (9/9).",
@@ -195,6 +203,7 @@
         "95.87x the star velocity (130.4/day vs 1.4/day)",
         "no harder to set up (32 vs 47 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",

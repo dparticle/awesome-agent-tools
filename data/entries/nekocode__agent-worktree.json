@@ -116,16 +116,23 @@
     "highlights": [
       "Uncommitted changes → [r] reopen the agent / [q] keep worktree",
       "Only commits → [m] merge into base branch / [q] keep worktree"
-    ]
+    ],
+    "summary_zh_native": "为 AI 编程 agent 设计的 Git worktree 工作流工具。提供隔离的并行开发环境。",
+    "highlights_zh": [
+      "Run 引擎：\"即用即删\"工作流 — 创建 worktree、运行 agent、合并、清理。",
+      "只有 commits → [m] 合并到 base 分支 / [q] 保留 worktree",
+      "有未提交更改 → [r] 重开 agent / [q] 保留 worktree"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "fetched_at": "2026-10-07T17:48:05+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism"
   ],
   "primary_category": "isolation-parallelism",
@@ -162,6 +169,7 @@
         "30.29x the star velocity (34.5/day vs 1.1/day)",
         "no harder to set up (34 vs 40 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

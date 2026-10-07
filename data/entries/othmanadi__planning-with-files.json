@@ -40,7 +40,7 @@
   "is_fork": false,
   "default_branch": "master",
   "age_days": 277,
-  "days_since_push": 0,
+  "days_since_push": 1,
   "health_score": 85,
   "health_components": {
     "popularity": 88.7,
@@ -157,19 +157,22 @@
     },
     "highlights": [
       "Host capability tiers: hard block on Claude Code, Codex, and Continue; follow-up injection on Cursor, Pi, Kiro, Hermes Agent, and OpenCode; notify-only elsewhere.",
-      "Absolute plan-root pin (PWFPLANROOT, v3.9.0): binds a thread to a project root by absolute path, for agent threads whose cwd is a shared parent of the project they are actually working in.…",
+      "Absolute plan-root pin (PWFPLANROOT, v3.9.0): binds a thread to a project root by absolute path, for agent threads whose cwd is a shared parent of the project they are actually working in.",
       "SHA-256 plan attestation (/plan-attest): locks task_plan.md; a tampered plan body is refused at injection.",
       "Run ledger: an append-only JSONL record of phase transitions that replaces the raw progress.md tail in v3 modes with a fixed-shape summary."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "fetched_at": "2026-10-07T17:47:48+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
     "skills"
   ],

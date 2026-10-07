@@ -159,16 +159,24 @@
       "Go beyond code — video, slides, and more — the Commander drives open-source tools like HyperFrames and hands off to CLI agents — the coding agents Claude Code, Codex and OpenCode, plus the…",
       "Drives the open-source ecosystem — plug in external CLI agents as local sessions — the coding agents Claude Code, Codex and OpenCode, plus the personal agents OpenClaw and Hermes-Agent — an…",
       "Per-turn tool rounds — Commander 120, named agent 100, ephemeral worker the schema default (actor-budgets.ts), pinned by unit tests so they can't silently drift."
-    ]
+    ],
+    "summary_zh_native": "在一个桌面对话里指挥一支 AI 智能体团队 —— 而不是单个聊天机器人。",
+    "highlights_zh": [
+      "每回合工具轮数 —— 指挥官 120、具名智能体 100、临时 worker 用 schema 默认值（actor-budgets.ts），由单元测试钉死，不会悄悄漂移。",
+      "不止于代码 —— 视频、幻灯片等 —— 指挥官可驱动 HyperFrames 等开源工具，并把任务交接给 CLI 智能体——编程智能体 Claude Code、Codex、OpenCode，以及个人智能体 OpenClaw、Hermes-Agent——及其他本地智能体，于是一个对话就能产出代码、研究、视频与幻灯片。",
+      "驱动开源生态 —— 以本地会话接入外部 CLI 智能体——编程智能体 Claude Code、Codex、OpenCode，以及个人智能体 OpenClaw、Hermes-Agent——并把 HyperFrames 等开源项目作为本地工具接入，全部由同一个指挥官协调。",
+      "自动化周期性报告与市场调研 —— 一个专业智能体负责收集、汇总并产出每周报告。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
     "model-routing"
   ],

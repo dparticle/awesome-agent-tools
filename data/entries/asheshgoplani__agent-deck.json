@@ -37,7 +37,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 307,
+  "age_days": 308,
   "days_since_push": 1,
   "health_score": 56,
   "health_components": {
@@ -50,9 +50,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1030,
-    "days_span": 307,
-    "stars_per_day": 3.36,
-    "lifetime_stars_per_day": 3.36,
+    "days_span": 308,
+    "stars_per_day": 3.34,
+    "lifetime_stars_per_day": 3.34,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -190,19 +190,22 @@
     },
     "highlights": [
       "Codex forking requires a codex CLI with codex fork support (verified with codex-cli 0.137.0)",
-      "Nothing is sent until you explicitly type y at the confirmation prompt. Before the prompt, the CLI shows (1) the public URL the comment will land on, (2) that it posts via the gh CLI using…",
+      "Nothing is sent until you explicitly type y at the confirmation prompt.",
       "Or run agent-deck feedback from the CLI (rating 1-5)",
       "Budget limits — configurable daily/weekly/monthly/per-group/per-session limits with 80% warning and 100% hard stop (untested)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:18+00:00",
+  "fetched_at": "2026-10-07T17:47:55+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
     "skills"
   ],

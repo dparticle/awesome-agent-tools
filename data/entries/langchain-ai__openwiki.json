@@ -135,21 +135,24 @@
       "external_link_ratio": 0.183
     },
     "highlights": [
-      "More coding-agent integrations: Oh My Pi, Antigravity, IBM Bob / Bob Shell, and Kiro join Codex, Claude Code, OpenCode, GitHub Copilot and Cursor. Connect your agent →",
-      "index.md and log.md are reserved documents rather than concepts. The root index declares okf_version: \"0.2\".",
+      "More coding-agent integrations: Oh My Pi, Antigravity, IBM Bob / Bob Shell, and Kiro join Codex, Claude Code, OpenCode, GitHub Copilot and Cursor.",
+      "index.md and log.md are reserved documents rather than concepts.",
       "notion targets the hosted Notion MCP server, so authenticate through Notion OAuth rather than pasting a token.",
       "custom-mcp connects to any configured HTTP or stdio MCP server and permits only explicitly safe, read-only tools."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "fetched_at": "2026-10-07T17:47:37+00:00",
   "categories": [
-    "mcp-failover",
-    "model-routing"
+    "model-routing",
+    "security-self-hosting"
   ],
   "primary_category": "model-routing",
   "lifecycle": {

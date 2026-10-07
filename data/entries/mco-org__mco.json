@@ -128,18 +128,26 @@
       "signals": [],
       "external_link_ratio": 0.335
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "MCO 是一个轻量、CLI 优先的 AI Coding Agent 编排层。把同一个任务交给你明确选择的 Agent 和模型，并行执行，比较原始回答，再决定下一步。",
+    "highlights_zh": [
+      "MCO 不创建或管理 worktree。用户显式选择并行写入时，应通过不重叠的 --target-paths 划分范围，并提前提示编辑冲突风险。",
+      "--allow-paths 只校验 MCO 请求的作用域，不是操作系统级沙箱。",
+      "ACP terminal 属于可信 Agent 能力；不可信 Agent 或提示词应在隔离环境中运行。",
+      "实际沙箱强度取决于底层 Provider CLI。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "fetched_at": "2026-10-07T17:47:58+00:00",
   "categories": [
-    "desktop-ui"
+    "agent-runtime-desktop-ui"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

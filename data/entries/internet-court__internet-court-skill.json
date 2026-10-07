@@ -125,14 +125,17 @@
       "signals": [],
       "external_link_ratio": 2.688
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "fetched_at": "2026-10-07T17:47:39+00:00",
   "categories": [
     "skills"
   ],
@@ -168,6 +171,7 @@
         "5.49x the star velocity (311.0/day vs 56.6/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",

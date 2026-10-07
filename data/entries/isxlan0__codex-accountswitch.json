@@ -113,14 +113,22 @@
       "Import current login, manual token paste, and quick OAuth file import",
       "API Reverse Proxy - Codex Client Uses Local Reverse Proxy Mode",
       "Built-in OAuth login flow (callback listener + manual callback URL submit)"
-    ]
+    ],
+    "summary_zh_native": "基于 C++ / Win32 / WebView2 构建，强调稳定与效率。",
+    "highlights_zh": [
+      "支持导入当前登录账号、手动粘贴 Token、OAuth 文件快速导入",
+      "配额看板与自动刷新（5H / 7D）、低额度提醒与切换提示",
+      "API 反代服务（端口、超时、LAN、API Key、调度模式）",
+      "内置 OAuth 登录流程（含回调监听与手动粘贴回调链接）"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "fetched_at": "2026-10-07T17:48:05+00:00",
   "categories": [
     "accounts"
   ],
@@ -157,6 +165,7 @@
         "389.22x the star velocity (404.8/day vs 1.0/day)",
         "no harder to set up (18 vs 46 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",

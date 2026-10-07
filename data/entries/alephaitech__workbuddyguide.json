@@ -103,14 +103,22 @@
       ],
       "external_link_ratio": 1.389
     },
-    "highlights": []
+    "highlights": [
+      "第一次使用：从第 1 章开始，按顺序完成第一篇。",
+      "任务描述：在 WorkBuddy 中输入的提示词、步骤或自动化设置。",
+      "使用的 Skill：Skill 的作用、来源、安装方式和必要配置。",
+      "准备团队落地：重点阅读第三、四篇，并记录权限边界、验收标准和失败回退。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:41+00:00",
   "categories": [
     "mobile"
   ],

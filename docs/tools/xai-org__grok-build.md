@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 27,250 |
 | Star velocity | 324.4/day (lifetime basis, 84d span) |
-| Health score | 90/100 |
+| Health score | 88/100 |
 | Documentation | 60/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-07-14 |
-| Last push | 2026-09-29 (7 days ago) |
+| Last push | 2026-09-29 (8 days ago) |
 | Analyzed README | 5,724 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -72,7 +72,7 @@ Score **60/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 88.7 |
 | momentum | 100.0 |
-| maintenance | 100.0 |
+| maintenance | 92.0 |
 | documentation | 60.0 |
 | accessibility | 93.0 |
 

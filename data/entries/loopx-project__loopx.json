@@ -141,23 +141,25 @@
       "external_link_ratio": 0.877
     },
     "highlights": [
-      "Independent user · 7 merged PRs. A LoopX-attributed Engine refactor is",
-      "continue across Codex, Claude Code, direct-model, and other registered Agent",
-      "Shared Goal Authority and Cross-host Coordination: provider-neutral"
-    ]
+      "Independent user · 7 merged PRs.",
+      "continue across Codex, Claude Code, direct-model, and other registered Agent"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "fetched_at": "2026-10-07T17:47:39+00:00",
   "categories": [
-    "analytics",
+    "analytics-2",
     "providers",
     "teams"
   ],
-  "primary_category": "analytics",
+  "primary_category": "analytics-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

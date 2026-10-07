@@ -117,19 +117,22 @@
       "Rate limiting handled for you: respects Trello's API limits automatically (300 req/10s per key, 100 req/10s per token).",
       "Due Date (dueDate): Accepts full ISO 8601 format with time (e.g., 2023-12-31T12:00:00Z)",
       "Start Date (start): Accepts date only in YYYY-MM-DD format (e.g., 2025-08-05)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "fetched_at": "2026-10-07T17:48:00+00:00",
   "categories": [
-    "mcp-failover",
+    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
@@ -162,6 +165,7 @@
         "188.96x the star velocity (130.4/day vs 0.7/day)",
         "no harder to set up (32 vs 34 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "auto-failover",

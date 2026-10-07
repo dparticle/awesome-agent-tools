@@ -118,16 +118,19 @@
       "planner-spec-expand — 1–4 sentence brief → full ambitious spec with design language and ordered feature list → starting a fresh project or major feature",
       "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds",
       "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "fetched_at": "2026-10-07T17:47:57+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
   "primary_category": "skills",

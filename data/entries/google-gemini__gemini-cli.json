@@ -26,7 +26,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 537,
+  "age_days": 538,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
@@ -39,9 +39,9 @@
   "tier": "flagship",
   "momentum": {
     "stars_gained": 107242,
-    "days_span": 537,
-    "stars_per_day": 199.71,
-    "lifetime_stars_per_day": 199.71,
+    "days_span": 538,
+    "stars_per_day": 199.33,
+    "lifetime_stars_per_day": 199.33,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -135,17 +135,20 @@
       "🧠 Powerful Gemini 3 models: Access to improved reasoning and 1M token",
       "Conversation checkpointing to save and resume complex sessions",
       "Custom context files (GEMINI.md) to tailor behavior for your projects"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "Gemini's terminal agent, generous free tier.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:37+00:00",
   "categories": [
-    "billing",
-    "sessions-memory"
+    "analytics",
+    "billing"
   ],
   "primary_category": "billing",
   "lifecycle": {

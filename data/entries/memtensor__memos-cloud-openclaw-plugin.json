@@ -110,14 +110,17 @@
       "Config UI: starting the gateway also starts a local plugin config page for editing plugins.entries.memos-cloud-openclaw-plugin.config",
       "Uses Token auth (Authorization: Token )",
       "Recall: beforepromptbuild (beforeagentstart on older OpenClaw hosts) → /search/memory"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "fetched_at": "2026-10-07T17:48:02+00:00",
   "categories": [
     "model-routing"
   ],

@@ -136,8 +136,75 @@ ACTION_RE = re.compile(
 #: list), not a description.
 _ENUM_SPLIT_RE = re.compile(r",|、")
 
+#: Chinese enumeration separators. Chinese lists use 、 and ，rather than
+#: comma-space, so the ASCII heuristic alone does not catch them.
+_CJK_ENUM_SPLIT_RE = re.compile(r"[、，；]")
+
 _BULLET_RE = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s+(.*)$")
 _HEADING_LINE_RE = re.compile(r"^\s*#{1,6}\s+(.*)$")
+
+
+def has_cjk(text: str) -> bool:
+    return any("\u4e00" <= ch <= "\u9fff" for ch in (text or ""))
+
+
+def cjk_ratio(text: str) -> float:
+    letters = [ch for ch in (text or "") if ch.isalnum()]
+    if not letters:
+        return 0.0
+    return sum(1 for ch in letters if "\u4e00" <= ch <= "\u9fff") / len(letters)
+
+
+def effective_length(text: str) -> int:
+    """Length in "English-equivalent" characters.
+
+    A Chinese character carries roughly twice the information of a Latin one, so
+    a raw character count systematically under-rates Chinese text. Thresholds
+    phrased in characters — "is this summary substantial?", "is this bullet too
+    short?" — have to account for that, or a complete Chinese sentence gets
+    treated as a fragment and padded with an unrelated bullet.
+    """
+    text = text or ""
+    cjk = sum(1 for ch in text if "\u4e00" <= ch <= "\u9fff")
+    return len(text) + cjk
+
+
+def first_sentence(text: str, *, min_length: int = 30) -> str:
+    """Return the first complete sentence, if there is more than one.
+
+    CJK text ends sentences with 。！？ and puts **no space** after them, so a
+    split on whitespace finds nothing and Chinese descriptions ran on across
+    several sentences. Both conventions are handled here.
+
+    ``min_length`` is compared in English-equivalent characters, so a 21-character
+    Chinese sentence (≈42 English characters) is recognised as substantial
+    rather than dismissed as a fragment.
+
+    Falls back to the whole text when the first sentence is too short to stand
+    alone ("Never stop coding." says less than what follows it).
+    """
+    text = re.sub(r"\s+", " ", (text or "")).strip()
+    if not text:
+        return ""
+    # A CJK terminator needs no following space; a Latin one does.
+    match = re.search(r"[。！？]", text)
+    if match and effective_length(text[: match.start()]) >= min_length:
+        return text[: match.start() + 1].strip()
+    match = re.search(r"[.!?](?:\s|$)", text)
+    if match and effective_length(text[: match.start()]) >= min_length:
+        return text[: match.start() + 1].strip()
+    return text
+
+
+def _clean_highlight(text: str) -> str:
+    """Trim a bullet to a complete thought.
+
+    README bullets are often "Lead-in. Detail that continues across a line
+    break", and truncating one at 190 characters leaves a dangling fragment.
+    Where a bullet has a clear first sentence that is substantial on its own,
+    only that sentence is kept.
+    """
+    return first_sentence(re.sub(r"\s+", " ", text).strip())
 
 
 def extract_highlights(
@@ -192,11 +259,14 @@ def extract_highlights(
         candidates.append((_score(text, corpus, total_docs, in_features is True), text))
 
     candidates.sort(key=lambda pair: (-pair[0], pair[1]))
-    return [
-        truncate(text, MAX_LENGTH)
-        for score, text in candidates[:limit]
-        if score >= MIN_SCORE
-    ]
+    out: list[str] = []
+    for score, text in candidates:
+        if score < MIN_SCORE:
+            continue
+        out.append(truncate(_clean_highlight(text), MAX_LENGTH))
+        if len(out) >= limit:
+            break
+    return out
 
 
 def _is_candidate(text: str) -> bool:
@@ -211,8 +281,12 @@ def _is_candidate(text: str) -> bool:
         return False
     if LINKY_RE.match(text) or HEADING_RE.match(text):
         return False
-    # Needs some real words, not just punctuation or emoji.
-    if len(re.findall(r"[A-Za-z\u4e00-\u9fff]{2,}", text)) < 4:
+    # Needs some real words. Chinese has no spaces, so a CJK-aware minimum is
+    # used rather than a word count.
+    if has_cjk(text):
+        if len(re.findall(r"[\u4e00-\u9fff]", text)) < 6:
+            return False
+    elif len(re.findall(r"[A-Za-z]{2,}", text)) < 4:
         return False
     # A markdown table row or a stray separator.
     if text.count("|") >= 2:
@@ -230,10 +304,20 @@ def _is_candidate(text: str) -> bool:
 
 def _enumeration_penalty(text: str) -> float:
     """Detect bullets that are really a list of names rather than a claim."""
-    parts = [p.strip() for p in _ENUM_SPLIT_RE.split(text) if p.strip()]
+    # Chinese bullets separate items with 、/，/； and often contain no spaces,
+    # so both separators are considered.
+    parts = [
+        p.strip()
+        for p in _ENUM_SPLIT_RE.split(_CJK_ENUM_SPLIT_RE.sub(",", text))
+        if p.strip()
+    ]
     if len(parts) < 4:
         return 0.0
-    short = sum(1 for p in parts if len(p.split()) <= 2)
+    # For Chinese, "word count" is meaningless; use character length instead.
+    if has_cjk(text):
+        short = sum(1 for p in parts if len(p) <= 4)
+    else:
+        short = sum(1 for p in parts if len(p.split()) <= 2)
     if short / len(parts) >= 0.6:
         return 4.0 + min(len(parts), 12) * 0.25
     return 0.0
@@ -247,6 +331,7 @@ def _score(
 ) -> float:
     """How informative is this bullet as a one-line description?"""
     score = 0.0
+    cjk = has_cjk(text)
 
     # Bullets from a Features-style section are far more likely to be real
     # capabilities rather than install steps or credits.
@@ -274,8 +359,10 @@ def _score(
         score -= 3.0
     score -= _enumeration_penalty(text)
 
-    # Length: one comfortable line is ideal.
-    length = len(text)
+    # Length: one comfortable line is ideal. Chinese carries roughly twice the
+    # information per character, so the band is measured in English-equivalent
+    # characters rather than raw ones.
+    length = effective_length(text)
     if 45 <= length <= 150:
         score += 2.0
     elif length < 35:
@@ -284,9 +371,14 @@ def _score(
     # Distinctiveness against the corpus. A bullet made of words that appear in
     # most READMEs says nothing about this tool.
     if total_docs:
-        words = [w for w in re.findall(r"[a-z][a-z0-9+.#-]{2,}", text.lower())]
-        if words:
-            idf = [math.log(total_docs / max(corpus.get(w, 0), 1)) for w in set(words)]
+        if cjk:
+            # Bigrams stand in for words: Chinese has no spaces to split on.
+            chars = re.findall(r"[\u4e00-\u9fff]", text)
+            tokens = {"".join(chars[i : i + 2]) for i in range(len(chars) - 1)}
+        else:
+            tokens = set(re.findall(r"[a-z][a-z0-9+.#-]{2,}", text.lower()))
+        if tokens:
+            idf = [math.log(total_docs / max(corpus.get(t, 0), 1)) for t in tokens]
             score += 1.2 * (sum(idf) / len(idf))
 
     # A bullet describing an action the tool performs beats a noun phrase.
@@ -305,13 +397,22 @@ def is_descriptive(text: str) -> bool:
     saying nothing.
     """
     text = (text or "").strip()
-    if len(text) < 20:
+    if effective_length(text) < 20:
         return False
     # HTML entities and separator bullets only. READMEs that open with a
     # centred badge strip produce "&nbsp;&bull;&nbsp; &nbsp;&bull;&nbsp;".
     if text.count("&nbsp;") >= 2 or text.count("•") >= 2:
         return False
     if not re.search(r"[A-Za-z\u4e00-\u9fff]{3,}", text):
+        return False
+    # Raw markup that survived extraction: an <img> tag's attributes, a CSS
+    # media query, a stray attribute list. These are not prose.
+    if re.search(r"\b(?:srcset|media=|class=|style=|width=|height=|alt=)", text):
+        return False
+    if text.count("=") >= 2 and text.count(" ") <= 4:
+        return False
+    # A shell prompt or a "paste this into your terminal" instruction.
+    if re.match(r"^(?:copy|paste|run|type|enter|execute)\b.*\b(?:prompt|terminal|cli|command|shell)\b", text, re.I):
         return False
     if INSTALL_RE.search(text) or LAYOUT_RE.match(text):
         return False
@@ -340,12 +441,25 @@ def best_description(
     Prefers the README's own opening sentence when it is substantive and
     descriptive, otherwise the strongest highlight. This is the logic that keeps
     entries from restating their category name.
+
+    A highlight is appended to a substantive summary only when the summary is
+    short enough to be a tagline. Joining them unconditionally produced run-on
+    entries — "Claude Code on Kimi, Codex on DeepSeek... token, cache reads,
+    reasoning tokens and call counts, and estimates at official prices" — where
+    the second half is a sentence fragment lifted from a feature list.
     """
     summary = (summary or "").strip()
     usable = [h for h in (highlights or []) if is_descriptive(h)]
 
-    if is_descriptive(summary) and len(summary) >= min_summary:
-        lead, rest = summary, usable[:1]
+    # Thresholds are in English-equivalent characters; see effective_length.
+    length = effective_length(summary)
+    if is_descriptive(summary) and length >= min_summary:
+        # A tagline still benefits from one concrete feature; a full sentence
+        # does not. Without the language-aware length, a complete Chinese
+        # sentence ("…用你的 ChatGPT 订阅。") was treated as a tagline and had an
+        # unrelated feature bullet appended to it.
+        rest = usable[:1] if length < 80 else []
+        lead = summary
     elif usable:
         lead, rest = usable[0], usable[1:2]
     elif is_descriptive(summary):
@@ -357,7 +471,29 @@ def best_description(
         return ""
 
     parts = [p for p in [lead] + rest if p]
-    return re.sub(r"\s+", " ", " ".join(parts)).strip()
+    joined = re.sub(r"\s+", " ", " ".join(parts)).strip()
+    # Keep the first complete sentence plus, at most, the one that follows it.
+    # Summaries built from a README's opening paragraph otherwise run on for
+    # several sentences and dominate the table cell.
+    return _first_two_sentences(joined)
+
+
+def _first_two_sentences(text: str) -> str:
+    """Trim to at most two sentences, respecting CJK punctuation.
+
+    The budget is deliberately tight: these render into a table cell, and a
+    three-sentence entry wraps to four lines and drowns out the rows around it.
+    """
+    if effective_length(text) <= 150:
+        return text
+    first = first_sentence(text)
+    if first == text:
+        return text
+    remainder = text[len(first) :].strip()
+    if not remainder:
+        return first
+    second = first_sentence(remainder, min_length=0)
+    return f"{first} {second}".strip()
 
 
 # --------------------------------------------------------------------------

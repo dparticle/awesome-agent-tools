@@ -134,20 +134,23 @@
     },
     "highlights": [
       "MCP server — every capability above is exposed as MCP tools at /mcp (HTTP) or via stdio (@butterbase/mcp — npx @butterbase/mcp).",
-      "Key-Value store — regional, quota-protected KV with TTL, audit trail, and dashboard expose rules (/v1/:app/kv/). *New in v0.2.0.",
+      "Key-Value store — regional, quota-protected KV with TTL, audit trail, and dashboard expose rules (/v1/:app/kv/).",
       "CHANGELOG.md — release notes (latest: v0.3.0, 2026-06-08 — Agents)",
       "Claude Code plugin — packages/plugin (submodule of butterbase-skills) ships 39 guided skills and 34 slash commands (idea → plan → schema → auth → functions → deploy → submit) for agentic ap…"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:41+00:00",
   "categories": [
     "billing",
-    "mcp-failover",
+    "security-self-hosting",
     "skills"
   ],
   "primary_category": "billing",

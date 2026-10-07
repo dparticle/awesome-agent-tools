@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-07T16:31:32+00:00",
+  "generated_at": "2026-10-07T17:48:09+00:00",
   "count": 62,
   "tools": {
     "zhaoxuya520/reverse-skill": {
       "full_name": "zhaoxuya520/reverse-skill",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 39997,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
@@ -35,7 +35,7 @@
     },
     "oomol-lab/open-connector": {
       "full_name": "oomol-lab/open-connector",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 5955,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -55,7 +55,7 @@
     },
     "superdesigndev/treg": {
       "full_name": "superdesigndev/treg",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 4667,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -65,7 +65,7 @@
     },
     "ryze-ai-adgent/open-seo-mcp-skills": {
       "full_name": "Ryze-AI-Adgent/open-seo-mcp-skills",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 4447,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
@@ -95,7 +95,7 @@
     },
     "fuxicodex/fuxi": {
       "full_name": "fuxicodex/Fuxi",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 3351,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -105,7 +105,7 @@
     },
     "breferrari/obsidian-mind": {
       "full_name": "breferrari/obsidian-mind",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 4930,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -125,7 +125,7 @@
     },
     "pimzino/spec-workflow-mcp": {
       "full_name": "Pimzino/spec-workflow-mcp",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 4301,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
@@ -175,7 +175,7 @@
     },
     "amap-ml/longhorizon-harness": {
       "full_name": "AMAP-ML/LongHorizon-Harness",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 1671,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -205,7 +205,7 @@
     },
     "ai-ql/tuui": {
       "full_name": "AI-QL/tuui",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 1155,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -255,7 +255,7 @@
     },
     "0xk3vin/megamemory": {
       "full_name": "0xK3vin/MegaMemory",
-      "category": "sessions-memory",
+      "category": "analytics",
       "stars": 713,
       "state": "superseded",
       "superseded_by": "Gentleman-Programming/engram",
@@ -265,7 +265,7 @@
     },
     "ruvnet/metaharness": {
       "full_name": "ruvnet/metaharness",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 688,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
@@ -275,7 +275,7 @@
     },
     "arvincreator/project-golem": {
       "full_name": "Arvincreator/project-golem",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 639,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -295,7 +295,7 @@
     },
     "matrixorigin/memoria": {
       "full_name": "matrixorigin/memoria",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 607,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
@@ -325,7 +325,7 @@
     },
     "magiccube/agentara": {
       "full_name": "MagicCube/agentara",
-      "category": "sessions-memory",
+      "category": "analytics",
       "stars": 515,
       "state": "superseded",
       "superseded_by": "pacifio/atlas",
@@ -335,7 +335,7 @@
     },
     "linxidnju/opentag": {
       "full_name": "linxidnju/OpenTag",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 502,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -345,7 +345,7 @@
     },
     "hkcanan/katmer-code": {
       "full_name": "hkcanan/katmer-code",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 474,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
@@ -355,7 +355,7 @@
     },
     "josstei/maestro-orchestrate": {
       "full_name": "josstei/maestro-orchestrate",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 465,
       "state": "superseded",
       "superseded_by": "spinabot/brigade",
@@ -375,7 +375,7 @@
     },
     "oracle/mcp": {
       "full_name": "oracle/mcp",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 454,
       "state": "superseded",
       "superseded_by": "eugeniughelbur/obsidian-second-brain",
@@ -385,7 +385,7 @@
     },
     "delorenj/mcp-server-trello": {
       "full_name": "delorenj/mcp-server-trello",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 445,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -415,7 +415,7 @@
     },
     "mcpware/cross-code-organizer": {
       "full_name": "mcpware/cross-code-organizer",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 382,
       "state": "superseded",
       "superseded_by": "genspark-ai/genoffice",
@@ -435,7 +435,7 @@
     },
     "nwiizo/tfmcp": {
       "full_name": "nwiizo/tfmcp",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 373,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -465,7 +465,7 @@
     },
     "andrewdryga/emisar": {
       "full_name": "AndrewDryga/emisar",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 337,
       "state": "superseded",
       "superseded_by": "eugeniughelbur/obsidian-second-brain",
@@ -495,7 +495,7 @@
     },
     "othmane-khadri/yalc-the-gtm-operating-system": {
       "full_name": "Othmane-Khadri/YALC-the-GTM-operating-system",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 317,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
@@ -505,7 +505,7 @@
     },
     "agi-is-going-to-arrive/memory-palace": {
       "full_name": "AGI-is-going-to-arrive/Memory-Palace",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 313,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -545,7 +545,7 @@
     },
     "oleksiijko/pmb": {
       "full_name": "oleksiijko/pmb",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 281,
       "state": "superseded",
       "superseded_by": "rohitg00/agentmemory",
@@ -595,7 +595,7 @@
     },
     "jdrhyne/agent-skills": {
       "full_name": "jdrhyne/agent-skills",
-      "category": "mcp-failover",
+      "category": "security-self-hosting",
       "stars": 240,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
@@ -651,6 +651,7 @@
         "10.35x the star velocity (30.3/day vs 2.9/day)",
         "no harder to set up (22 vs 28 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -702,6 +703,7 @@
         "95.87x the star velocity (130.4/day vs 1.4/day)",
         "no harder to set up (32 vs 47 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",
@@ -762,6 +764,7 @@
         "45.38x the star velocity (70.8/day vs 1.6/day)",
         "no harder to set up (26 vs 41 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "billing-metering",
@@ -816,6 +819,7 @@
         "9.96x the star velocity (23.8/day vs 2.4/day)",
         "no harder to set up (24 vs 25 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -868,6 +872,7 @@
         "50.93x the star velocity (130.4/day vs 2.6/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "gui-desktop",
@@ -924,6 +929,7 @@
         "21.05x the star velocity (34.5/day vs 1.6/day)",
         "no harder to set up (34 vs 72 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -976,6 +982,7 @@
         "53.95x the star velocity (34.5/day vs 0.6/day)",
         "no harder to set up (34 vs 40 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -1019,15 +1026,16 @@
         "session-persistence"
       ],
       "star_ratio": 17.986,
-      "momentum_ratio": 26.84,
+      "momentum_ratio": 26.66,
       "setup_delta": -63,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "17.99x the stars (9,263 vs 515)",
-        "26.84x the star velocity (63.9/day vs 2.4/day)",
+        "26.66x the star velocity (63.5/day vs 2.4/day)",
         "no harder to set up (21 vs 84 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -1077,6 +1085,7 @@
         "911.41x the star velocity (1048.1/day vs 1.1/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -1134,6 +1143,7 @@
         "103.77x the star velocity (1048.1/day vs 10.1/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",
@@ -1190,6 +1200,7 @@
         "8.96x the star velocity (1048.1/day vs 117.0/day)",
         "no harder to set up (57 vs 57 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -1246,6 +1257,7 @@
         "17.06x the star velocity (78.3/day vs 4.6/day)",
         "no harder to set up (2 vs 25 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -1301,6 +1313,7 @@
         "11.46x the star velocity (78.3/day vs 6.8/day)",
         "no harder to set up (2 vs 13 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -1356,6 +1369,7 @@
         "97.86x the star velocity (78.3/day vs 0.8/day)",
         "no harder to set up (2 vs 4 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -1413,6 +1427,7 @@
         "5.82x the star velocity (130.4/day vs 22.4/day)",
         "no harder to set up (32 vs 52 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -1471,6 +1486,7 @@
         "38.35x the star velocity (448.7/day vs 11.7/day)",
         "no harder to set up (45 vs 50 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -1529,6 +1545,7 @@
         "188.96x the star velocity (130.4/day vs 0.7/day)",
         "no harder to set up (32 vs 34 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "auto-failover",
@@ -1588,6 +1605,7 @@
         "102.06x the star velocity (114.3/day vs 1.1/day)",
         "no harder to set up (30 vs 30 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -1649,6 +1667,7 @@
         "58.21x the star velocity (83.8/day vs 1.4/day)",
         "no harder to set up (26 vs 75 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",
@@ -1713,6 +1732,7 @@
         "23.75x the star velocity (83.8/day vs 3.5/day)",
         "no harder to set up (26 vs 31 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -1774,6 +1794,7 @@
         "389.22x the star velocity (404.8/day vs 1.0/day)",
         "no harder to set up (18 vs 46 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",
@@ -1829,6 +1850,7 @@
         "1127.01x the star velocity (1048.1/day vs 0.9/day)",
         "no harder to set up (57 vs 69 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -1887,6 +1909,7 @@
         "52.86x the star velocity (102.5/day vs 1.9/day)",
         "no harder to set up (39 vs 51 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -1943,6 +1966,7 @@
         "25.62x the star velocity (440.4/day vs 17.2/day)",
         "no harder to set up (1 vs 24 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2004,6 +2028,7 @@
         "56.73x the star velocity (78.3/day vs 1.4/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2059,6 +2084,7 @@
         "26.50x the star velocity (130.4/day vs 4.9/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2116,6 +2142,7 @@
         "68.75x the star velocity (129.9/day vs 1.9/day)",
         "no harder to set up (20 vs 20 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2161,15 +2188,16 @@
         "worktree-isolation"
       ],
       "star_ratio": 26.49,
-      "momentum_ratio": 13.36,
+      "momentum_ratio": 13.429,
       "setup_delta": -26,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "26.49x the stars (33,351 vs 1,259)",
-        "13.36x the star velocity (78.3/day vs 5.9/day)",
+        "13.43x the star velocity (78.3/day vs 5.8/day)",
         "no harder to set up (2 vs 28 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2225,6 +2253,7 @@
         "30.29x the star velocity (34.5/day vs 1.1/day)",
         "no harder to set up (34 vs 40 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2278,6 +2307,7 @@
         "200.58x the star velocity (130.4/day vs 0.7/day)",
         "no harder to set up (32 vs 52 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "gui-desktop",
@@ -2335,6 +2365,7 @@
         "57.94x the star velocity (327.9/day vs 5.7/day)",
         "no harder to set up (23 vs 33 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "auto-failover",
@@ -2389,6 +2420,7 @@
         "29.32x the star velocity (37.8/day vs 1.3/day)",
         "no harder to set up (13 vs 25 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "memory-context",
@@ -2440,6 +2472,7 @@
         "175.27x the star velocity (1048.1/day vs 6.0/day)",
         "no harder to set up (57 vs 58 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2496,6 +2529,7 @@
         "4.99x the star velocity (6.8/day vs 1.4/day)",
         "no harder to set up (15 vs 50 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -2542,6 +2576,7 @@
         "124.22x the star velocity (100.6/day vs 0.8/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2589,6 +2624,7 @@
         "6.60x the star velocity (448.7/day vs 68.0/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -2650,6 +2686,7 @@
         "4.99x the star velocity (130.4/day vs 26.1/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",
@@ -2709,6 +2746,7 @@
         "6.46x the star velocity (100.6/day vs 15.6/day)",
         "slightly heavier setup (+3 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2759,6 +2797,7 @@
         "7.39x the star velocity (83.8/day vs 11.3/day)",
         "no harder to set up (26 vs 49 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2820,6 +2859,7 @@
         "3.95x the star velocity (5.9/day vs 1.5/day)",
         "no harder to set up (12 vs 30 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -2872,6 +2912,7 @@
         "5.49x the star velocity (311.0/day vs 56.6/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -2920,6 +2961,7 @@
         "363.93x the star velocity (1048.1/day vs 2.9/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -2976,6 +3018,7 @@
         "4.02x the star velocity (3.3/day vs 0.8/day)",
         "no harder to set up (21 vs 58 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "mcp-support",
@@ -3025,6 +3068,7 @@
         "22.89x the star velocity (23.8/day vs 1.0/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -3080,6 +3124,7 @@
         "440.39x the star velocity (1048.1/day vs 2.4/day)",
         "slightly heavier setup (+9 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -3139,6 +3184,7 @@
         "3.37x the star velocity (83.8/day vs 24.9/day)",
         "no harder to set up (26 vs 42 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -3200,6 +3246,7 @@
         "62.68x the star velocity (130.4/day vs 2.1/day)",
         "slightly heavier setup (+10 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -3257,6 +3304,7 @@
         "62.68x the star velocity (130.4/day vs 2.1/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "gui-desktop",
@@ -3312,6 +3360,7 @@
         "3.85x the star velocity (1048.1/day vs 272.1/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -3367,6 +3416,7 @@
         "2.51x the star velocity (78.3/day vs 31.2/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -3421,6 +3471,7 @@
         "10.10x the star velocity (83.8/day vs 8.3/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -3479,6 +3530,7 @@
         "2.49x the star velocity (130.4/day vs 52.4/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -3535,6 +3587,7 @@
         "2.19x the star velocity (130.4/day vs 59.5/day)",
         "no harder to set up (32 vs 72 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "mcp-support",
@@ -3591,6 +3644,7 @@
         "3.31x the star velocity (3.3/day vs 1.0/day)",
         "no harder to set up (21 vs 66 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -3633,15 +3687,16 @@
         "worktree-isolation"
       ],
       "star_ratio": 2.859,
-      "momentum_ratio": 1.725,
+      "momentum_ratio": 1.731,
       "setup_delta": 1,
       "dominance": 0.852,
       "reasons": [
         "covers 100% of capabilities (6/6)",
         "2.86x the stars (14,892 vs 5,208)",
-        "1.72x the star velocity (78.8/day vs 45.7/day)",
+        "1.73x the star velocity (78.4/day vs 45.3/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "gui-desktop",
@@ -3667,7 +3722,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 66,
-        "challenger_health": 78,
+        "challenger_health": 77,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 29
       }
@@ -3701,6 +3756,7 @@
         "2.35x the star velocity (130.4/day vs 55.6/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "auto-failover",
@@ -3752,15 +3808,16 @@
         "skills-plugins"
       ],
       "star_ratio": 2.627,
-      "momentum_ratio": 1.786,
+      "momentum_ratio": 1.805,
       "setup_delta": -1,
-      "dominance": 0.842,
+      "dominance": 0.843,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "2.63x the stars (804 vs 306)",
-        "1.79x the star velocity (3.3/day vs 1.9/day)",
+        "1.81x the star velocity (3.3/day vs 1.9/day)",
         "no harder to set up (21 vs 22 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -3813,6 +3870,7 @@
         "1.39x the star velocity (78.3/day vs 56.4/day)",
         "no harder to set up (2 vs 43 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -3869,6 +3927,7 @@
         "1.81x the star velocity (5.6/day vs 3.1/day)",
         "slightly heavier setup (+10 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -3932,6 +3991,7 @@
         "1.17x the star velocity (90.2/day vs 77.2/day)",
         "no harder to set up (25 vs 33 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",
@@ -3991,6 +4051,7 @@
         "1.48x the star velocity (5.6/day vs 3.8/day)",
         "no harder to set up (46 vs 49 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",
@@ -4056,6 +4117,7 @@
         "1.81x the star velocity (5.6/day vs 3.1/day)",
         "no harder to set up (46 vs 46 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
@@ -4123,6 +4185,12 @@
         "covers 62% of farion1231/cc-switch's capabilities (8/13)",
         "not covered: billing-metering, parallel-execution, provider-aggregation, session-persistence, skills-plugins",
         "0.04x the stars (5,667 vs 140,685)"
+      ],
+      "reasons_zh": [
+        "两者都为 Claude Code 和 Codex 管理多账号与多供应商，而 magpie 还能让其他模型走同一套 Agent 流程。",
+        "覆盖 farion1231/cc-switch 的 62% 能力（8/13）",
+        "未覆盖：billing-metering、parallel-execution、provider-aggregation、session-persistence、skills-plugins",
+        "star 数为 0.04 倍（5,667 vs 140,685）"
       ],
       "evidence": {
         "curated": true,

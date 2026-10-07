@@ -140,16 +140,19 @@
       "🔬 An independent evidence-based research review (11 sources, 8 validation rounds) was published against the method — findings tracked openly as issues #16–#18.",
       "🔌 Adopted by repowire — the first OSS project to officially ship ADHD, ported onto its mesh-orchestrator primitives in PR #313 (merged).",
       "Plus shortlist: scout-fork to alternate endpoints at 30s; daemonize the CLI with ticket IDs; race 3 LLM replicas, cache the winner."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:40+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills",
     "teams"
   ],

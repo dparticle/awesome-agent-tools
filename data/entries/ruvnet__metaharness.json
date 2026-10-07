@@ -148,22 +148,25 @@
     "highlights": [
       "Run an experimental ARC-AGI-3 harness from the ChatGPT UI.",
       "a CI-passed aggregator; single-command releases (`node scripts/release.mjs",
-      "Run your harness on Prime Agent — and borrow its best ideas. The 10th host",
+      "Run your harness on Prime Agent — and borrow its best ideas.",
       "ruflo — the meta-harness this generator factors apart"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "fetched_at": "2026-10-07T17:47:57+00:00",
   "categories": [
-    "mcp-failover",
     "model-routing",
+    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
@@ -197,6 +200,7 @@
         "175.27x the star velocity (1048.1/day vs 6.0/day)",
         "no harder to set up (57 vs 58 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

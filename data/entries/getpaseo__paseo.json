@@ -155,22 +155,30 @@
       "external_link_ratio": 2.458
     },
     "highlights": [
-      "Cross-device: iOS, Android, desktop, web, and CLI. Start work at your desk, check in from your phone, script it from the terminal.",
+      "Cross-device: iOS, Android, desktop, web, and CLI.",
       "Built-in orchestration: Agents in Paseo can create worktrees, launch other agents, and talk to them, across providers.",
       "Privacy-first: Paseo doesn't have any telemetry, tracking, or forced log-ins.",
       "Parallel agents: Run many agents at once, each in its own worktree."
-    ]
+    ],
+    "summary_zh_native": "在你自己的机器上并行运行 agents。无论在手机上还是桌前，都能推进交付。",
+    "highlights_zh": [
+      "跨设备： 支持 iOS、Android、桌面端、Web 和 CLI。",
+      "多提供商： 通过同一个界面使用 Claude Code、Codex、Copilot、OpenCode 和 Pi。",
+      "packages/cli：用于 daemon 和 agent 工作流的 paseo CLI",
+      "/paseo-handoff — 在 agents 之间交接工作。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "Orchestrate several coding agents from desktop and mobile; easier on-ramp than Orca.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:36+00:00",
   "categories": [
     "isolation-parallelism",
-    "mcp-failover",
-    "mobile"
+    "mobile",
+    "security-self-hosting"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {

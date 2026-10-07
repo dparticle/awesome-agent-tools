@@ -195,21 +195,24 @@
     },
     "highlights": [
       "We strongly recommend using Doubao-Seed-2.0-Code, DeepSeek v3.2 and Kimi 2.5 to run DeerFlow",
-      "Outbound images/files enforce maxoutboundimagebytes / maxoutboundfilebytes (20 MiB / 50 MiB defaults) while reading, including files that grow after resolution. Oversize reads are rejected…",
+      "Outbound images/files enforce maxoutboundimagebytes / maxoutboundfilebytes (20 MiB / 50 MiB defaults) while reading, including files that grow after resolution.",
       "Docker Execution with Kubernetes (runs sandbox code in Kubernetes pods via provisioner service)",
-      "While this Gateway process's scheduler is not running, creating a task (including Duplicate) returns 409 schedulernotrunning, because the task would never run on schedule. GET /api/features…"
-    ]
+      "While this Gateway process's scheduler is not running, creating a task (including Duplicate) returns 409 schedulernotrunning, because the task would never run on schedule."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:08+00:00",
+  "fetched_at": "2026-10-07T17:47:46+00:00",
   "categories": [
+    "analytics",
     "isolation-parallelism",
-    "model-routing",
-    "sessions-memory"
+    "model-routing"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {

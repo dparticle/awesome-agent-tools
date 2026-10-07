@@ -28,7 +28,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 276,
-  "days_since_push": 47,
+  "days_since_push": 48,
   "health_score": 46,
   "health_components": {
     "popularity": 50.0,
@@ -134,19 +134,22 @@
       "Background agents — launchd-integrated for automated campaign tracking",
       "Swappable email providers — Instantly built in, plus drop-in MCP templates for Brevo, Mailgun, and SendGrid (provider:add --mcp then email:send --provider )",
       "Statistical significance — chi-squared testing to pick variant winners"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "fetched_at": "2026-10-07T17:48:03+00:00",
   "categories": [
-    "mcp-failover",
+    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
@@ -179,6 +182,7 @@
         "911.41x the star velocity (1048.1/day vs 1.1/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",

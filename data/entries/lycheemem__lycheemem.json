@@ -137,23 +137,26 @@
     },
     "highlights": [
       "GET /mcp exposes the SSE stream used by some MCP clients",
-      "Clustering — ANN search builds a similarity graph (cosine > 0.75) over surviving records. Union-Find finds connected components; each component containing at least one new record becomes a…",
-      "Deduplication — For each new record, ANN search finds existing records of the same memory_type with cosine similarity > 0.85. Near-duplicates are soft-expired; composites covering affected…",
+      "Clustering — ANN search builds a similarity graph (cosine > 0.75) over surviving records.",
+      "Deduplication — For each new record, ANN search finds existing records of the same memory_type with cosine similarity > 0.85.",
       "LycheeDecode (ICLR 2026, CCF-A): selective recall from massive KV-cache context memory"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:16+00:00",
+  "fetched_at": "2026-10-07T17:47:54+00:00",
   "categories": [
+    "analytics",
     "billing",
-    "model-routing",
-    "sessions-memory"
+    "model-routing"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

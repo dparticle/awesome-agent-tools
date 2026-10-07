@@ -158,18 +158,21 @@
     "highlights": [
       "🤖 Claude Code, Cursor, Codex, Gemini CLI, Antigravity, Copilot CLI, Muse Code, OpenCode, Amp and other agents, live — see every session in your notch: what it reads, edits and runs, step by…",
       "📋 Declare the tools you use — open Settings → Active pills and pick your main workspace tool (VS Code, Cursor, Codex or Antigravity), then toggle up to 4 more: Gemini CLI, Anthropic, Google…",
-      "💬 Chat with Claude, Gemini, OpenAI, or a local model (Ollama / LM Studio) — click the model name above the chat box to switch provider and pick a model. Cloud providers use your own API key…",
+      "💬 Chat with Claude, Gemini, OpenAI, or a local model (Ollama / LM Studio) — click the model name above the chat box to switch provider and pick a model.",
       "✅ Approve and answer from the notch — Claude Code permission requests show up with Allow / Deny / Always; AskUserQuestion prompts show the choices right in the notch (single or multi-select…"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:40+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "mobile",
     "model-routing"
   ],

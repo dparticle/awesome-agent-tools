@@ -13,10 +13,10 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 14,892 |
-| Star velocity | 78.8/day (lifetime basis, 189d span) |
-| Health score | 78/100 |
+| Star velocity | 78.4/day (lifetime basis, 190d span) |
+| Health score | 77/100 |
 | Documentation | 56/100 |
-| Tier | 🏆 Flagship |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
@@ -104,7 +104,7 @@ Score **56/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.5 |
-| momentum | 65.7 |
+| momentum | 65.3 |
 | maintenance | 100.0 |
 | documentation | 56.0 |
 | accessibility | 79.0 |

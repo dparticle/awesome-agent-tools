@@ -160,18 +160,21 @@
       "external_link_ratio": 1.951
     },
     "highlights": [
-      "WebSocket 默认仅本机访问：监听 127.0.0.1，默认端口 19528，可在设置中关闭或改端口。",
       "Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth，以及 Grok apply_patch 协议兼容方向亦参考其开源实现：router-f…",
-      "Grok CLI 凭据不加密：access token/refresh token 以明文 JSON 保存在本机，主要依赖操作系统账号隔离与本地文件权限保护；Unix 系统上凭据目录设为 0700、凭据文件设为 0600。脱敏导出不包含 token，不能作为登录备份",
+      "WebSocket 默认仅本机访问：监听 127.0.0.1，默认端口 19528，可在设置中关闭或改端口。",
+      "Grok CLI 凭据不加密：access token/refresh token 以明文 JSON 保存在本机，主要依赖操作系统账号隔离与本地文件权限保护；Unix 系统上凭据目录设为 0700、凭据文件设为 0600。",
       "Token 维护：支持 access token 自动刷新、refresh token rotation 与配额预警"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "fetched_at": "2026-10-07T17:47:49+00:00",
   "categories": [
     "accounts",
     "model-routing",

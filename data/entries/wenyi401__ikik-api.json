@@ -121,14 +121,22 @@
       "Upgraded the backend toolchain to Go 1.26.5 and refreshed vulnerable AWS SDK dependencies used by storage integrations.",
       "API key management with multi-group routing, IP access controls, quota controls, usage records, and billing metadata.",
       "Grok OAuth, Kiro OAuth, free-model provider onboarding, and configurable private-account access flows."
-    ]
+    ],
+    "summary_zh_native": "ikik-api 是基于 Sub2API 二次开发的自托管 AI API 网关与订阅管理平台，提供账号池、API Key 管理、多供应商请求转发、用量计费、订阅充值、风控审查和后台运营能力。",
+    "highlights_zh": [
+      "支持 Grok OAuth、Kiro OAuth、免费模型供应商接入和可配置的私有账号接入流程。",
+      "API Key 管理，支持多分组路由、IP 访问控制、额度控制、使用记录和计费元数据。",
+      "内置发布流程，支持标签构建、Docker 镜像、归档包和 GitHub Releases。",
+      "提供 OpenAI 兼容网关接口，支持 chat、responses、models、embeddings、image 和流式请求等场景。"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "fetched_at": "2026-10-07T17:48:06+00:00",
   "categories": [
     "accounts",
     "model-routing",

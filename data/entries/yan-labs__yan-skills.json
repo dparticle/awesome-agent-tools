@@ -136,18 +136,21 @@
       "external_link_ratio": 0.425
     },
     "highlights": [
+      "超标文档拆分（主文件留入口与判据，旧文件名都保留为入口）：lifecycle.md → lifecycle/stage-1…7，另有 provider-capabilities/、demand-sources/、playbooks/research/、playbooks/selection/、integrations/、cloudflare/ 子目录。",
       "aaron-he-zhu/seo-geo-claude-skills（Apache-2.0）——backlink/references/ 下的质量评分矩阵、分析模板与外联模板。",
-      "backlink-analyzer（外链质量、毒性与竞争缺口分析）本身是一套纯提示词模板，没有脚本也没有浏览器通道，能描述外链画像却拿不到画像。现为 backlink/references/ 下的 link-quality-rubric.md、analysis-templates.md、outreach-templates.md，保留上游 Apache-2.0 许可证与归属。",
-      "只用用户自己的浏览器。 通过 OpenCLI 复用已授权会话，脚本永远不输入密码。面板处于登出状态时，脚本报错让本人去登，而不是自作主张。",
-      "想查数据 ≠ 直接开浏览器。 关键词、趋势、竞品先看 rankup / backlink 里有没有"
-    ]
+      "backlink-analyzer（外链质量、毒性与竞争缺口分析）本身是一套纯提示词模板，没有脚本也没有浏览器通道，能描述外链画像却拿不到画像。",
+      "主文件 rankup/SKILL.md 从 979 行压到 300 行以内：只剩总路由表、七段各一节硬规则、红线速查与三个命令；执行纪律、红线细则、事故复盘全部搬到 references/discipline.md。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:30+00:00",
+  "fetched_at": "2026-10-07T17:48:07+00:00",
   "categories": [
     "accounts",
     "quota",

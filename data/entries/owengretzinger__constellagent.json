@@ -94,14 +94,17 @@
       "Sleep/wake recovery for automations (coalesces missed runs while app stays open)",
       "Keyboard-driven - Quick Open, tab switching, shortcuts",
       "Monaco code editor with syntax highlighting and diffs"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:30+00:00",
+  "fetched_at": "2026-10-07T17:48:06+00:00",
   "categories": [
     "isolation-parallelism"
   ],

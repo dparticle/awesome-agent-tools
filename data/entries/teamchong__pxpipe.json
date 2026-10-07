@@ -109,16 +109,19 @@
     "highlights": [
       "Grok 4.5 / 4.6 (opt-in): native 14px / 84 cols / maxH 512 (100/100 arith, 97/98 gist).",
       "claude-opus-5: weaker recall than Fable 5 (verbatim 2/15 vs 13/15), good",
-      "claude-opus-5-5: on by default. Uses 5×8 with 2px extra row height",
+      "claude-opus-5-5: on by default.",
       "Real work: SWE-bench Lite pilot 10/10 both arms at −65% request"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "fetched_at": "2026-10-07T17:47:39+00:00",
   "categories": [
     "model-routing"
   ],

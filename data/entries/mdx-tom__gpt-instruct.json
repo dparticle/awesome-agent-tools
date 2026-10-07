@@ -100,14 +100,22 @@
       ],
       "external_link_ratio": 0.082
     },
-    "highlights": []
+    "highlights": [
+      "测试只在一次性 HOME / CODEX_HOME / XDG / TMPDIR 和合成夹具中运行。",
+      "不以单条 case 文案或一次性答案污染通用提示词。",
+      "保留历史原始输出、方法 SHA、模型、推理等级和 transport，禁止跨身份拼接成绩。",
+      "每个修改型候选都要有修改件、diff、验证记录和可运行回滚。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "fetched_at": "2026-10-07T17:47:38+00:00",
   "categories": [
     "model-routing"
   ],

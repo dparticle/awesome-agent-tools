@@ -141,21 +141,24 @@
       "external_link_ratio": 0.215
     },
     "highlights": [
-      "orchestrator：Node 26 串行 853 项：852 通过、1 项 Windows ACL 专项跳过；类型检查通过。历史并发测试的等待超时记录仍保留，不以串行结果抹掉。",
+      "orchestrator：Node 26 串行 853 项：852 通过、1 项 Windows ACL 专项跳过；类型检查通过。",
       "本机 API 默认只绑定 127.0.0.1，写请求必须鉴权并使用 JSON。",
       "desktop：84/84，类型检查与生产构建通过；Python（计算库、回测、数据脚本）：754/754。",
-      "当前修复、浏览器验证和隐私检查见 v1.2.0 Issue / PR 处理记录。本轮未重跑真实模型、全部外部取数端点或 Windows 实机。"
-    ]
+      "Codex 订阅使用产品自己的 CODEX_HOME，不读写用户的 ~/.codex；Claude 与 CodeBuddy 订阅复用各自本机登录态。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:03+00:00",
+  "fetched_at": "2026-10-07T17:47:41+00:00",
   "categories": [
-    "mcp-failover",
     "quota",
+    "security-self-hosting",
     "skills"
   ],
   "primary_category": "quota",

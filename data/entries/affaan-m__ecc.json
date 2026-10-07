@@ -175,20 +175,28 @@
       "Available in release 2.2: guided package setup for Claude Code, Codex, and Kimi Code",
       "Skills format (SKILL.md with YAML frontmatter) works across Claude Code, Codex, and OpenCode",
       "DRY adapter pattern lets Cursor reuse Claude Code's hook scripts without duplication"
-    ]
+    ],
+    "summary_zh_native": "Language / 语言 / 語言 / Dil / Язык / Ngôn ngữ",
+    "highlights_zh": [
+      "ECC 2.0 alpha 已进入仓库 —— ecc2/ 下的 Rust 控制层现已可在本地构建，并提供 dashboard、start、sessions、status、stop、resume 与 daemon 命令。",
+      "框架与产品表面继续扩展 —— nestjs-patterns、更完整的 Codex/OpenCode 安装表面，以及跨 harness 打包改进，让仓库不再局限于 Claude Code。",
+      "SKILL.md 文件 - 可直接用于 Claude Code 的技能",
+      "公共表面已与真实仓库同步 —— 元数据、目录数量、插件清单以及安装文档现在都与实际开源表面保持一致。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:04+00:00",
+  "fetched_at": "2026-10-07T17:47:42+00:00",
   "categories": [
-    "mcp-failover",
     "model-routing",
+    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

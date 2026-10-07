@@ -160,14 +160,22 @@
       "Rate Limiting - Configurable request and token rate limits",
       "Multi-Account Management - Support multiple upstream account types (OAuth, API Key)",
       "API Key Distribution - Generate and manage API Keys for users"
-    ]
+    ],
+    "summary_zh_native": "AI API 网关平台 - 订阅配额分发管理",
+    "highlights_zh": [
+      "多账号管理 - 支持多种上游账号类型（OAuth、API Key）",
+      "内置支付系统 - 支持 EasyPay 易支付、支付宝官方、微信官方、Stripe，用户自助充值，无需独立部署支付服务（配置指南）",
+      "外部系统集成 - 支持通过 iframe 嵌入外部系统（如工单等），扩展管理后台功能",
+      "API Key 分发 - 为用户生成和管理 API Key"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "Turn upstream AI subscriptions into a metered, rate-limited, billable relay.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:36+00:00",
   "categories": [
     "accounts",
     "billing",

@@ -105,21 +105,24 @@
     },
     "highlights": [
       "IBM API Connect MCP Server - IBM APIC MCP server exposes API Connect capabilities to your MCP clients and AI Agent workflows.",
-      "MCP Composer - FastMCP based library to manages multiple MCP servers & tools with dynamic registration, authentication, and unified interface.. Supports multiple tool types, such as OpenAPI…",
+      "MCP Composer - FastMCP based library to manages multiple MCP servers & tools with dynamic registration, authentication, and unified interface..",
       "WxMCPServer - IBM webMethods Hybrid Integration (IWHI) based MCP server, that enables existing APIs to be used as MCP tools.",
       "Langflow - Langflow is an open-source visual builder that lets developers rapidly prototype and build AI applications, it integrates with the Model Context Protocol (MCP) as both an MCP ser…"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "fetched_at": "2026-10-07T17:48:01+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

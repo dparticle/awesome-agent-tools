@@ -136,17 +136,25 @@
       "signals": [],
       "external_link_ratio": 0.346
     },
-    "highlights": []
+    "highlights": [
+      "人保留最终决策。 Agent 可以起草提案卡片——固定约定、请求执行、添加成员——但只有你能采纳或忽略。",
+      "执行隔离且有证据。 每个执行任务在独立 Git worktree 中运行，交付固定为不可变版本再交 Reviewer 评审；声明的验证检查、Diff、日志与集成面板都留在房间内。",
+      "选择语言并配置一个模型订阅、计划、API 或自定义 Provider。",
+      "以证据完成交付。 回看 Diff、测试、审查和产物；需求变化后可以继续、分叉、归档或重新规划。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "fetched_at": "2026-10-07T17:47:39+00:00",
   "categories": [
-    "mcp-failover",
-    "quota"
+    "quota",
+    "security-self-hosting"
   ],
   "primary_category": "quota",
   "lifecycle": {

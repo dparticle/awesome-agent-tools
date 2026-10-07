@@ -132,16 +132,24 @@
     "highlights": [
       "🔄 Multi-CLI Support — Works with Claude Code, GitHub Copilot CLI, OpenCode CLI, and Codex CLI.",
       "📚 150+ Skills — Reusable capabilities from Spring Boot CRUD generation to CloudFormation templates, all with best practices built-in."
-    ]
+    ],
+    "summary_zh_native": "🌐 语言: English | Italiano | 中文 | Español",
+    "highlights_zh": [
+      "🔄 多 CLI 支持 — 兼容 Claude Code、GitHub Copilot CLI、OpenCode CLI 和 Codex CLI。",
+      "🎯 领域专家 — 45+ 个专业代理，涵盖代码审查、重构、安全审计、架构设计和测试，支持 7+ 种语言。",
+      "⚡ 自动激活 — 基于路径的规则会在您打开相关文件时自动激活。",
+      "📚 150+ 技能 — 从 Spring Boot CRUD 生成到 CloudFormation 模板的可复用能力，全部内置最佳实践。"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:25+00:00",
+  "fetched_at": "2026-10-07T17:48:02+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
   "primary_category": "skills",
@@ -177,6 +185,7 @@
         "3.31x the star velocity (3.3/day vs 1.0/day)",
         "no harder to set up (21 vs 66 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 221,
+  "age_days": 222,
   "days_since_push": 30,
   "health_score": 54,
   "health_components": {
     "popularity": 70.4,
-    "momentum": 12.5,
+    "momentum": 12.4,
     "maintenance": 92.0,
     "documentation": 66.0,
     "accessibility": 19.0
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 3304,
-    "days_span": 221,
-    "stars_per_day": 14.95,
-    "lifetime_stars_per_day": 14.95,
+    "days_span": 222,
+    "stars_per_day": 14.88,
+    "lifetime_stars_per_day": 14.88,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -132,18 +132,21 @@
       "external_link_ratio": 2.144
     },
     "highlights": [
-      "单 Docker 容器，默认本地数据目录部署，支持外接 MySQL / PostgreSQL 运行时数据库",
       "多通道概率分摊，基于成本（40%）、余额（30%）、使用率（30%）加权分配",
-      "官方预设：阿里云 / 智谱 / 豆包 Coding Plan，DeepSeek，Moonshot(Kimi)，MiniMax，ModelScope，OrcaRouter，无限星河",
-      "通用兼容接口：OpenAI / Claude / Gemini compatible endpoints，以及 cliproxyapi / CPA、OrcaRouter"
-    ]
+      "单 Docker 容器，默认本地数据目录部署，支持外接 MySQL / PostgreSQL 运行时数据库",
+      "多站点多账号：每个站点可添加多个账号，每个账号可持有多个 API Token",
+      "完整的 SSE 流式传输支持，自动格式转换（OpenAI ⇄ Claude）"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
     "accounts",
     "billing",

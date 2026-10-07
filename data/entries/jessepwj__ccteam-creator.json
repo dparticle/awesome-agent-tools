@@ -113,19 +113,27 @@
       "Sets up everything — planning files, docs/ knowledge base, CLAUDE.md operations guide, agent onboarding",
       "Consults with you — explains how agent teams work, understands your project, recommends a team",
       "After 3+ occurrences, custodian encodes it into golden_rules.py as an automated check"
-    ]
+    ],
+    "summary_zh_native": "一个技能，一支完整的工程团队。",
+    "highlights_zh": [
+      "Skill 文件未变 → 直接用缓存的 prompt 生成 agent，跳过重新读取所有 skill 参考文件（~2500 行 → ~200 行）",
+      "先沟通 — 介绍团队机制，了解项目需求，推荐团队配置",
+      "完成搭建 — 创建规划文件、docs/ 知识库、CLAUDE.md 运营手册、智能体入职",
+      "管理协作 — 智能体直接沟通，状态持久化到文件，遵循内置协议"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "fetched_at": "2026-10-07T17:48:03+00:00",
   "categories": [
-    "sessions-memory",
+    "analytics",
     "skills"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

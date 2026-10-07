@@ -137,22 +137,30 @@
       "external_link_ratio": 0.271
     },
     "highlights": [
-      "Cross-agent deployment — See which agents have the extension and which don't — deploy to any missing agent with one click. HarnessKit handles the format differences between agents (JSON, TO…",
-      "Portable bundles — Export any Kit as a self-contained .hk-kit.zip to share with teammates or carry across machines. Import is one click.",
+      "Cross-agent deployment — See which agents have the extension and which don't — deploy to any missing agent with one click.",
+      "Portable bundles — Export any Kit as a self-contained .hk-kit.zip to share with teammates or carry across machines.",
       "Agent-first CLI — Discover CLI tools built specifically for agents — the newest frontier of the agent extension ecosystem.",
-      "Effortless management — Enable or disable right from the list. Check for updates across all extensions with one click."
-    ]
+      "Effortless management — Enable or disable right from the list."
+    ],
+    "summary_zh_native": "免费、开源的一站式平台，统一管理你所有的 AI 编程 Agent —— 覆盖桌面、CLI、Web 三端。",
+    "highlights_zh": [
+      "Agent-first CLI —— 发现专为 Agent 打造的 CLI 工具，这是 Agent 扩展生态的新兴方向。",
+      "一键审计 —— 一键对全部扩展执行完整安全扫描。",
+      "跨 Agent 部署 —— 清晰显示该扩展在哪些 Agent 上已安装、哪些缺失，可一键补齐。",
+      "随装随卸 —— 卸载 HarnessKit 后一切原封不动，无需迁移，也无需清理。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "fetched_at": "2026-10-07T17:47:59+00:00",
   "categories": [
-    "desktop-ui"
+    "agent-runtime-desktop-ui"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

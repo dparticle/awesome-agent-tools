@@ -356,7 +356,7 @@ Reasons:
 
 - covers 100% of capabilities (5/5)
 - 17.99x the stars (9,263 vs 515)
-- 26.84x the star velocity (63.9/day vs 2.4/day)
+- 26.66x the star velocity (63.5/day vs 2.4/day)
 - no harder to set up (21 vs 84 friction)
 
 Evidence:
@@ -1282,7 +1282,7 @@ Reasons:
 
 - covers 100% of capabilities (5/5)
 - 26.49x the stars (33,351 vs 1,259)
-- 13.36x the star velocity (78.3/day vs 5.9/day)
+- 13.43x the star velocity (78.3/day vs 5.8/day)
 - no harder to set up (2 vs 28 friction)
 
 Evidence:
@@ -2480,7 +2480,7 @@ Reasons:
 
 - covers 100% of capabilities (6/6)
 - 2.86x the stars (14,892 vs 5,208)
-- 1.72x the star velocity (78.8/day vs 45.7/day)
+- 1.73x the star velocity (78.4/day vs 45.3/day)
 - slightly heavier setup (+1 friction, within tolerance)
 
 Evidence:
@@ -2511,7 +2511,7 @@ Evidence:
     "worktree-isolation"
   ],
   "incumbent_health": 66,
-  "challenger_health": 78,
+  "challenger_health": 77,
   "incumbent_setup_score": 28,
   "challenger_setup_score": 29
 }
@@ -2570,13 +2570,13 @@ Evidence:
 ### WenyuChiou/ai-research-skills → thedivergentai/GD-Agentic-Skills
 
 - **Source:** automatic (high confidence)
-- **Dominance:** 0.842
+- **Dominance:** 0.843
 
 Reasons:
 
 - covers 100% of capabilities (5/5)
 - 2.63x the stars (804 vs 306)
-- 1.79x the star velocity (3.3/day vs 1.9/day)
+- 1.81x the star velocity (3.3/day vs 1.9/day)
 - no harder to set up (21 vs 22 friction)
 
 Evidence:

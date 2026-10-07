@@ -18,7 +18,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 591,
+  "age_days": 592,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -31,9 +31,9 @@
   "tier": "flagship",
   "momentum": {
     "stars_gained": 149710,
-    "days_span": 591,
-    "stars_per_day": 253.32,
-    "lifetime_stars_per_day": 253.32,
+    "days_span": 592,
+    "stars_per_day": 252.89,
+    "lifetime_stars_per_day": 252.89,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -98,18 +98,21 @@
       "signals": [],
       "external_link_ratio": 2.436
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "The reference agentic coding tool.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:37+00:00",
   "categories": [
-    "desktop-ui"
+    "agent-runtime-desktop-ui"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

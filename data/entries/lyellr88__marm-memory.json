@@ -182,24 +182,27 @@
       "external_link_ratio": 0.175
     },
     "highlights": [
-      "Concurrent recall: 10 gathered recalls completed in 151.5ms vs 176.0ms serial (gather/serial = 0.86). Do not read that as parallelism: repeated runs of this same benchmark land anywhere fro…",
+      "Concurrent recall: 10 gathered recalls completed in 151.5ms vs 176.0ms serial (gather/serial = 0.86).",
       "Both HTTP and STDIO expose 16 tools: 8 core memory/logging/notebook/compaction tools, 6 bundled code-graph tools, and 2 concept-graph tools",
       "Layered recall depth: detail=1 returns a short summary view (~200 chars), detail=2 a larger context view (~500 chars), detail=3 full memory content",
       "Verify port 8001 isn't in use: lsof -i :8001 (macOS/Linux) or netstat -ano | findstr :8001 (Windows)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "fetched_at": "2026-10-07T17:48:01+00:00",
   "categories": [
-    "mcp-failover",
+    "analytics",
     "model-routing",
-    "sessions-memory"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

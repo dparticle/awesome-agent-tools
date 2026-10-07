@@ -118,16 +118,21 @@
       "external_link_ratio": 0.923
     },
     "highlights": [
-      "特别感谢 gylive/ccodex-sleep-state 带来的生命周期管理与状态展示思路参考。",
-      "业务成功响应触发模型不符或 312 信号时，守护程序作废本次使用的票据并重新采集。旧请求不会作废更新后的票据，并发异常会合并处理。"
-    ]
+      "自动维护票据：动态 IP 采集，同账号业务出口复验，自动续期与异常重采。",
+      "业务成功响应触发模型不符或 312 信号时，守护程序作废本次使用的票据并重新采集。",
+      "「自动续期与补票」 开启后按设定提前续期，并在模型不符等异常后重新获取；关闭后只手动操作，修改后保存。",
+      "按账号开启：需要处理哪个账号，就给哪个账号开；支持手动选择 Pro / Team。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:30+00:00",
+  "fetched_at": "2026-10-07T17:48:07+00:00",
   "categories": [
     "accounts",
     "model-routing",

@@ -180,17 +180,20 @@
       "Local transcription and dictation (0.5.3): dictate into any app (Option on the Mac,",
       "More than one floor (0.5.3). File, New Floor opens another office on its own folder, in its own window, with its own agents, board and memory. A folder only ever opens in one floor, and one…",
       "Slack & webhooks: message a channel or POST a webhook; Michael can spawn an ephemeral worker, reply in-thread, and tear it down."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "fetched_at": "2026-10-07T17:47:39+00:00",
   "categories": [
-    "desktop-ui",
-    "sessions-memory",
+    "agent-runtime-desktop-ui",
+    "analytics",
     "voice"
   ],
   "primary_category": "voice",

@@ -160,20 +160,23 @@
       "mode — prototype (web / SaaS landing / dashboard / data report / résumé / doc) · deck (20 horizontal-swipe presentations) · frame (10 Hyperframes motion frames) · social (4 social-card form…",
       "8 px baseline grid — every spacing, line-height, font-size is a multiple of 8.",
       "X / Weibo / Xiaohongshu — modern-screenshot renders the iframe to a 2× PNG → ClipboardItem → drop straight into the composer."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "fetched_at": "2026-10-07T17:47:38+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "mobile",
     "skills"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -17,11 +17,11 @@ Capabilities claimed by more than 60% of tools are excluded from clustering: the
 
 | Category | Tools | Also in | Cohesion | Defining capabilities |
 | --- | ---: | ---: | ---: | --- |
-| **MCP & Failover** | 49 | 24 | 0.65 | Security & isolation, Self-hostable, MCP support, Automatic failover |
+| **Security & Self-hosting** | 49 | 24 | 0.65 | Security & isolation, Self-hostable, MCP support, Automatic failover |
 | **Isolation & Parallelism** | 37 | 9 | 0.69 | Workspace isolation, Parallel execution, Remote control, Voice input |
 | **Skills** | 36 | 50 | 0.80 | Skills & plugins, Multi-agent orchestration, Notifications, MCP support |
-| **Sessions & Memory** | 25 | 12 | 0.77 | Session persistence, Memory & context, Usage analytics, MCP support |
-| **Desktop UI** | 20 | 70 | 0.73 | Agent runtime, GUI / desktop app, Skills & plugins, Multi-agent orchestration |
+| **Analytics** | 25 | 12 | 0.77 | Session persistence, Memory & context, Usage analytics, MCP support |
+| **Agent Runtime & Desktop UI** | 20 | 70 | 0.73 | Agent runtime, GUI / desktop app, Skills & plugins, Multi-agent orchestration |
 | **Teams** | 20 | 2 | 0.75 | Team collaboration, Billing & metering, Mobile access, Voice input |
 | **Accounts** | 15 | 7 | 0.80 | Multi-account switching, Quota & usage management, Billing & metering, Usage analytics |
 | **Model Routing** | 15 | 37 | 0.75 | Model / provider routing, API gateway / proxy, Agent runtime, Multi-agent orchestration |

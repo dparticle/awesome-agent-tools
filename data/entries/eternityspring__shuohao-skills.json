@@ -107,17 +107,21 @@
     "highlights": [
       "样式串味。五份报告共用 57 个类名，其中 13 个同名不同定义（.copy .kpis .badge .chip……），所以给每份样式的每条选择器加作用域前缀",
       "图片路径。各报告的图相对自己那份 json 的目录（images/…、E01-01/f1.png），合成后按输出文件的位置重算",
+      "每个 skill 必须有 scripts/selftest.mjs，不调用模型、不花额度，覆盖全部确定性逻辑",
       "脚本串味。各报告的脚本都是 document.querySelector('.expo') 这种全局查询，合成一页后只会命中第一个——五个导出按钮会全废。做法是给每份脚本套一层作用域代理"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "fetched_at": "2026-10-07T17:47:40+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "quota"
   ],
   "primary_category": "quota",

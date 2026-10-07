@@ -116,17 +116,20 @@
       ],
       "external_link_ratio": 0.9
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "OpenAI's local coding agent.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:37+00:00",
   "categories": [
     "accounts",
-    "desktop-ui"
+    "agent-runtime-desktop-ui"
   ],
   "primary_category": "accounts",
   "lifecycle": {

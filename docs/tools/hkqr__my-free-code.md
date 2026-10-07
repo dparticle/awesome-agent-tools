@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-08-27 |
-| Last push | 2026-10-03 (3 days ago) |
+| Last push | 2026-10-03 (4 days ago) |
 | Analyzed README | 6,950 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [trailhq/Graft](https://github.com/trailhq/Graft)** — Superseded by trailhq/Graft: covers 100% of capabilities (4/4).

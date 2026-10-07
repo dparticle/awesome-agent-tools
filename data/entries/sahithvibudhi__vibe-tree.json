@@ -133,16 +133,19 @@
     },
     "highlights": [
       "The desktop app embeds its server on 127.0.0.1 with a per-launch token; nothing is exposed to the network."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "fetched_at": "2026-10-07T17:48:05+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism"
   ],
   "primary_category": "isolation-parallelism",

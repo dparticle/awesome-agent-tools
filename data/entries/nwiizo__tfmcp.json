@@ -120,23 +120,26 @@
       "external_link_ratio": 0.068
     },
     "highlights": [
-      "MCPRATELIMITSESSION: Maximum HTTP requests per minute per Mcp-Session-Id (0 or unset disables). Clients negotiating 2026-07-28 send no session header, so only MCPRATELIMITGLOBAL bounds them.",
-      "MCPSESSIONMODE: stateful for normal MCP clients or stateless for CI-style JSON responses (default: stateful). Applies only to clients negotiating a protocol version before 2026-07-28; that…",
+      "MCPRATELIMITSESSION: Maximum HTTP requests per minute per Mcp-Session-Id (0 or unset disables).",
+      "MCPSESSIONMODE: stateful for normal MCP clients or stateless for CI-style JSON responses (default: stateful).",
       "RMCP 3.5.0, updated dependencies and images, with the Rust 1.88 MSRV retained",
       "TRANSPORT_HOST: HTTP bind host for streamable HTTP mode (default: 127.0.0.1)."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "fetched_at": "2026-10-07T17:48:01+00:00",
   "categories": [
-    "desktop-ui",
-    "mcp-failover"
+    "agent-runtime-desktop-ui",
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
@@ -169,6 +172,7 @@
         "200.58x the star velocity (130.4/day vs 0.7/day)",
         "no harder to set up (32 vs 52 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "gui-desktop",

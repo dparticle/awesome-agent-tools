@@ -39,12 +39,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 130,
+  "age_days": 131,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 64.5,
-    "momentum": 10.8,
+    "momentum": 10.7,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 66.0
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1684,
-    "days_span": 130,
-    "stars_per_day": 12.95,
-    "lifetime_stars_per_day": 12.95,
+    "days_span": 131,
+    "stars_per_day": 12.85,
+    "lifetime_stars_per_day": 12.85,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -121,14 +121,22 @@
     },
     "highlights": [
       "loushang code: a coding-focused CLI and terminal workbench."
-    ]
+    ],
+    "summary_zh_native": "Loushang 是一个把复杂工作变成可运行流程的智能工作系统。",
+    "highlights_zh": [
+      "会话：可恢复、可分叉、可导出、可检查的 coding 对话与执行记录。",
+      "扩展：项目级 Python 代码，可贡献 hooks、工具、资源、命令和 flags。",
+      "模型 provider：通过模型 catalog 解析的具体 AI provider endpoint 与模型。",
+      "工具：在策略约束下提供给 agent 的可执行能力。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "fetched_at": "2026-10-07T17:47:52+00:00",
   "categories": [
     "model-routing"
   ],

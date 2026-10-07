@@ -155,16 +155,19 @@
       "Recover Claude Code and Codex sessions and search source-linked project knowledge.",
       "One system for Claude Code and Codex — platform-specific adapters preserve one engineering standard while the underlying models continue to improve",
       "Runtime verification — tests, builds, real CLI/API execution, browser automation, and device checks turn completion claims into evidence"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
     "skills"
   ],

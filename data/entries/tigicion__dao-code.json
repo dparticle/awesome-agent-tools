@@ -158,19 +158,27 @@
     },
     "highlights": [
       "Cost vs Claude Code — pricing the same token trace of these 7 tasks under each vendor's official rates (and crediting Dao Code's high hit rate to Claude too, in its favor), total cost is st…",
-      "Cache cuts it further — DeepSeek's prefix-cache hit price is ≈ 1/120 of a miss (~two orders of magnitude). Dao Code keeps the system prefix / tool table / memory byte-stable, and runs refle…",
+      "Cache cuts it further — DeepSeek's prefix-cache hit price is ≈ 1/120 of a miss (~two orders of magnitude).",
       "redis-rs — a Redis-compatible server in Rust (RESP2, ~80 commands), completed from scratch autonomously in dao --goal long-task mode.",
       "On a SWE-bench-style benchmark drawn from recent real-world open-source bug fixes (dual-track fail2pass + pass2pass judging, with test files hidden from the agent to prevent reward-hacking)…"
-    ]
+    ],
+    "summary_zh_native": "Dao Code(命令 dao)是终端原生的 AI 编码助手:在你的终端里读代码、写代码、跑命令、修 bug,边流式展示推理与工具调用,边在审批门下安全执行,直到任务做完。它面向 DeepSeek V4(1M 上下文),中文优先,灵感来自 Claude Code,但走的是另一条路——不靠贵模型堆体验,而是充分发挥 DeepSeek 的高性价比与极低缓存定价:通过工程化的字节稳定前缀与缓存复用 fork,让跨会话记忆与全程自我纠错几乎不增加 token 开销。",
+    "highlights_zh": [
+      "实测(真实开源 bug-fix,非玩具演示) —— 7 道 SWE-bench 风格任务(valibot / date-fns / es-toolkit / sqlglot / hono),合计 389 万输入 tok,聚合缓存命中 95.8%(单任务 85.4%–97.7%)。",
+      "在 Terminal-Bench 2.1(第三方基准,89 道题,经 Harbor 跑,覆盖系统管理、安全、数据科学、科学计算、调试、机器学习等领域)上:deepseek-v4-pro、官方 1× 超时口径下通过 70/89(78.7%)。",
+      "对标 Claude Code 的成本 —— 把这 7 个任务的同一 token 轨迹按各家官方单价各算一遍(并把 Dao Code 的高命中率一并算给 Claude、对它有利),总成本仍 比 Claude Opus 4.8 省 ~30×、比 Sonnet 4.6 省 ~18×。",
+      "redis-rs —— Rust 写的 Redis 兼容服务器(RESP2、~80 命令),在 dao --goal 长任务自主模式下从零完成。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:17+00:00",
+  "fetched_at": "2026-10-07T17:47:54+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
     "skills"
   ],

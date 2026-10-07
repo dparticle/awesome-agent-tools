@@ -178,18 +178,21 @@
       "external_link_ratio": 0.261
     },
     "highlights": [
-      "Sonnet 4.6 as the new standard — SWE-bench 79.6%, only 1.2pp below Opus 4.6. Gunshi downgraded Opus → Sonnet 4.6. All Ashigaru default to Sonnet 4.6. One YAML line change, no restarts requi…",
-      "Agent self-watch + escalation (v3.2) — Each agent monitors its own inbox file with inotifywait (zero-polling, instant wake-up). Fallback: tmux send-keys short nudge (text/Enter sent separat…",
-      "Separate rate limit — Spark runs on its own rate limit quota, independent of GPT-5.3-Codex. Run both models in parallel across different Ashigaru to double your effective throughput",
+      "Sonnet 4.6 as the new standard — SWE-bench 79.6%, only 1.2pp below Opus 4.6.",
+      "Agent self-watch + escalation (v3.2) — Each agent monitors its own inbox file with inotifywait (zero-polling, instant wake-up).",
+      "Separate rate limit — Spark runs on its own rate limit quota, independent of GPT-5.3-Codex.",
       "OpenCode agent generation — scripts/build_instructions.sh generates .opencode/agents/*.md for Shogun, Karo, Ashigaru 1-7, and Gunshi from the same shared instruction source used by other CL…"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "fetched_at": "2026-10-07T17:47:52+00:00",
   "categories": [
     "isolation-parallelism",
     "mobile",

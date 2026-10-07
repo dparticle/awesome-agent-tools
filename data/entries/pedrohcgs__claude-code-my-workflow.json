@@ -29,12 +29,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 242,
+  "age_days": 243,
   "days_since_push": 9,
   "health_score": 60,
   "health_components": {
     "popularity": 64.3,
-    "momentum": 5.7,
+    "momentum": 5.6,
     "maintenance": 92.0,
     "documentation": 76.0,
     "accessibility": 85.0
@@ -42,9 +42,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1643,
-    "days_span": 242,
-    "stars_per_day": 6.79,
-    "lifetime_stars_per_day": 6.79,
+    "days_span": 243,
+    "stars_per_day": 6.76,
+    "lifetime_stars_per_day": 6.76,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -145,17 +145,20 @@
       "Worktree base ref (v1.9.0; Anthropic Apr 2026) — worktree.baseRef setting controls fresh (default; remote default-branch) vs head (local HEAD) for new worktrees",
       "Hook handler types — command, prompt, and HTTP handlers with 20+ hook events; hooks see effort.level and $CLAUDE_EFFORT (Apr 2026 Week 19)",
       "claude agents dashboard (v1.9.0; Anthropic May 2026) — single screen for parallel review work (/review-paper --peer, /slide-excellence)."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "fetched_at": "2026-10-07T17:47:52+00:00",
   "categories": [
     "isolation-parallelism",
-    "mcp-failover",
+    "security-self-hosting",
     "skills"
   ],
   "primary_category": "isolation-parallelism",

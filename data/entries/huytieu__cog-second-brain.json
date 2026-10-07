@@ -154,16 +154,19 @@
       "Tier 2 (Moderate) — 3+ mentions: executive snapshot, working style, strengths",
       "Tier 3 (Stub) — 1 mention: name, role, one-line context",
       "Tier 1 (Full) — 8+ mentions or direct meeting: complete profile with all sections"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:15+00:00",
+  "fetched_at": "2026-10-07T17:47:52+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills",
     "teams"
   ],
@@ -203,6 +206,7 @@
         "23.75x the star velocity (83.8/day vs 3.5/day)",
         "no harder to set up (26 vs 31 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",

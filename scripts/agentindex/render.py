@@ -15,12 +15,14 @@ Design rules that keep the generated output readable:
 from __future__ import annotations
 
 import re
+from collections import Counter
 from datetime import datetime, timezone
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
-from .highlights import best_description, is_descriptive
+from .highlights import best_description, cjk_ratio, has_cjk, is_descriptive
 from .readme_analysis import capability_label
 from .scoring import TIER_ICON, TIER_LABEL, tier_rank
 from .supersede import STATE_ICON, STATE_LABEL
@@ -114,6 +116,208 @@ def _capability_summary(entry: dict[str, Any], limit: int = 4) -> str:
     extra = len(caps) - len(labels)
     text = ", ".join(labels)
     return f"{text} +{extra} more" if extra > 0 else text
+
+
+#: Where a Chinese description came from. Rendered as a marker so a reader can
+#: tell the author's own words from ours.
+ZH_NATIVE = "native"  # the project's own Chinese README
+ZH_CURATED = "curated"  # a maintainer-written note in config/overrides.json
+ZH_DERIVED = "derived"  # our summary of capabilities we detected ourselves
+ZH_ENGLISH = "english"  # kept in English rather than machine-translated
+
+ZH_MARKER = {
+    ZH_NATIVE: "",
+    ZH_CURATED: "",
+    ZH_DERIVED: " ‡",
+    ZH_ENGLISH: " †",
+}
+
+
+def _zh_capability_summary(
+    tool: dict[str, Any],
+    entry: dict[str, Any],
+    category_caps: set[str],
+) -> str:
+    """Compose a Chinese one-liner from capabilities we detected ourselves.
+
+    This is **not** a translation of the project's English README — it is a
+    summary built from this project's own bilingual capability taxonomy, which
+    already carries Chinese labels for every capability. Two properties make it
+    worth showing:
+
+    * It is honest. Every clause traces to a pattern matched in the README and
+      recorded as evidence, and the legend tells the reader the sentence is ours
+      rather than the author's.
+    * It is specific. Capabilities that merely *define the category* are
+      filtered out, so the line describes what distinguishes this tool instead
+      of restating the heading above it — the exact failure the first version of
+      this list had.
+
+    Returns an empty string when there is nothing distinctive to say, so the
+    caller can fall back to the English text instead of padding the cell.
+    """
+    analysis = entry.get("analysis") or {}
+    hits = analysis.get("capability_hits") or {}
+    caps = tool.get("capabilities") or analysis.get("capabilities") or []
+    agents = tool.get("agents") or analysis.get("agents") or []
+
+    # Most-emphasised first: a capability the README documents repeatedly is
+    # more central than one it mentions once.
+    ranked = sorted(caps, key=lambda c: (-int(hits.get(c, 1)), c))
+    distinctive = [c for c in ranked if c not in category_caps][:3]
+
+    # The capability labels are already noun phrases ("跨 Agent 支持",
+    # "自动故障转移"), so they are listed bare. Prefixing them with 支持 produced
+    # "支持跨 Agent 支持".
+    if not distinctive:
+        # Nothing beyond what the heading already says. Better to show the
+        # project's English than to pad the cell with a restatement.
+        return ""
+
+    clauses = ["、".join(capability_label(c, "zh") for c in distinctive)]
+    if agents:
+        clauses.append("兼容 " + "、".join(agents[:4]))
+    return "；".join(clauses) + "。"
+
+
+def _zh_description(
+    tool: dict[str, Any],
+    entry: dict[str, Any],
+    analysis: dict[str, Any],
+    highlights: list[str],
+    category_caps: set[str] | None = None,
+) -> tuple[str, str]:
+    """Chinese description for a tool, plus which tier produced it.
+
+    Four tiers, ordered by how much of the text is the project's own:
+
+    1. ``native`` — the project's own Chinese README. The author's actual
+       wording, and the best possible source.
+    2. ``curated`` — a maintainer-written Chinese note in
+       ``config/overrides.json``.
+    3. ``derived`` — our own Chinese summary built from detected capabilities
+       (see ``_zh_capability_summary``). Ours, not the author's, and marked.
+    4. ``english`` — the English text, kept in English. Machine translating it
+       would attribute claims to the project that it never made, and a Chinese
+       reader is better served by an honest English sentence than by a fluent
+       fabrication.
+
+    Returns ``(text, tier)``.
+    """
+    # Tier 1: the author's own Chinese documentation.
+    native_summary = (analysis.get("summary_zh_native") or "").strip()
+    native_highlights = analysis.get("highlights_zh") or []
+    # Thresholds are English-equivalent characters, so a complete Chinese
+    # sentence is not mistaken for a fragment and padded with a bullet.
+    text = best_description(native_summary, native_highlights, min_summary=45)
+    if text:
+        return truncate(text, 200), ZH_NATIVE
+
+    # Tier 2: a maintainer-written Chinese note.
+    curated = _curated_note(tool["full_name"], "zh")
+    if curated:
+        return truncate(curated, 200), ZH_CURATED
+
+    # Tier 3: our own Chinese summary, derived from detected capabilities.
+    derived = _zh_capability_summary(tool, entry, category_caps or set())
+    if derived:
+        return truncate(derived, 200), ZH_DERIVED
+
+    # Tier 4: keep the English rather than invent a translation.
+    summary = analysis.get("summary_en") or entry.get("description") or ""
+    english = best_description(summary, highlights)
+    if not english:
+        english = (entry.get("description") or "").strip()
+
+    # English that is clearly not prose — a stray HTML attribute, a CLI prompt
+    # snippet — is worse than a plain statement of what we do know.
+    if not english or not is_descriptive(english):
+        fallback = _zh_minimal(tool, entry, category_caps or set())
+        if fallback:
+            return fallback, ZH_DERIVED
+        if english:
+            return truncate(english, 200), ZH_ENGLISH
+        return (
+            "、".join(capability_label(c, "zh") for c in (tool.get("capabilities") or [])[:3]),
+            ZH_DERIVED,
+        )
+    # Some projects write Chinese in their main README without naming the file
+    # README.zh-CN.md, so "summary_en" holds Chinese. Marking that with † would
+    # tell the reader it is untranslated English when it is the author's own
+    # words.
+    if has_cjk(english) and cjk_ratio(english) >= 0.3:
+        return truncate(english, 200), ZH_NATIVE
+    return truncate(english, 200), ZH_ENGLISH
+
+
+def _zh_minimal(
+    tool: dict[str, Any],
+    entry: dict[str, Any],
+    category_caps: set[str],
+) -> str:
+    """A last-resort Chinese line when the tool has nothing distinctive.
+
+    Says what the tool is *for* — its category's purpose — plus the interfaces
+    it offers. Deliberately modest: it is better to state the obvious in Chinese
+    than to show a reader a broken HTML fragment because the README had no
+    usable prose.
+    """
+    analysis = entry.get("analysis") or {}
+    caps = set(tool.get("capabilities") or analysis.get("capabilities") or [])
+    agents = tool.get("agents") or analysis.get("agents") or []
+    if not caps:
+        return ""
+
+    clauses: list[str] = []
+    # Capabilities this tool has that its category is not already about.
+    extra = sorted(caps - category_caps)
+    if extra:
+        clauses.append("、".join(capability_label(c, "zh") for c in extra[:3]))
+    if agents:
+        clauses.append("兼容 " + "、".join(agents[:4]))
+    if not clauses:
+        return ""
+    return "；".join(clauses) + "。"
+
+
+def _reason(edge: dict[str, Any], lang: str = "en", keyword: str = "") -> str:
+    """Pick an edge's explanation in the requested language.
+
+    Chinese reasons are positionally aligned with the English ones; a missing
+    Chinese entry falls back to the English string rather than being machine
+    translated, matching how tool descriptions are handled.
+    """
+    en = edge.get("reasons") or []
+    if lang == "zh":
+        zh = edge.get("reasons_zh") or []
+        pairs = list(zip(en, zh + [""] * max(0, len(en) - len(zh))))
+        if keyword:
+            for english, chinese in pairs:
+                if keyword in english:
+                    return chinese or english
+            return ""
+        if pairs:
+            english, chinese = pairs[0]
+            return chinese or english
+        return ""
+    if keyword:
+        return next((r for r in en if keyword in r), "")
+    return en[0] if en else ""
+
+
+def _curated_note(full_name: str, lang: str) -> str:
+    """A human-written description from ``config/overrides.json``, if present."""
+    overrides = _overrides()
+    notes = overrides.get("notes") or {}
+    spec = notes.get(full_name) or notes.get(full_name.lower()) or {}
+    return (spec.get(f"summary_{lang}") or "").strip()
+
+
+@lru_cache(maxsize=1)
+def _overrides() -> dict[str, Any]:
+    from .util import CONFIG_DIR, read_json
+
+    return read_json(CONFIG_DIR / "overrides.json", default={}) or {}
 
 
 def _anchor(title: str) -> str:
@@ -681,6 +885,49 @@ def render_readme_zh(index: dict[str, Any]) -> str:
             live_by_category.setdefault(tool["category"], []).append(name)
     total_live = sum(len(v) for v in live_by_category.values())
 
+    # Compute every Chinese description up front. The legend states how many
+    # entries are quoted in Chinese versus left in English, so the counts have
+    # to come from the same function that renders the rows — deriving them
+    # separately produced a legend claiming 25 while 185 rows carried the
+    # marker.
+    descriptions: dict[str, tuple[str, str]] = {}
+    # Only the top capabilities define a category; filtering the whole signature
+    # would leave too little for a useful derived summary.
+    category_caps_by_id = {
+        c["id"]: set((c.get("capabilities") or [])[:3]) for c in categories
+    }
+
+    # Work out which rows will actually be rendered before writing the legend.
+    # Categories are capped at MAX_CATEGORY_ROWS, so counting every live tool
+    # made the legend claim one more Chinese entry than the reader could find.
+    displayed: list[str] = []
+    for category in categories:
+        names = live_by_category.get(category["id"], [])
+        if not names:
+            continue
+        ranked = sorted(
+            names,
+            key=lambda n: (
+                tier_rank(tools[n].get("tier", "watchlist")),
+                -int(tools[n].get("health_score", 0)),
+            ),
+        )
+        displayed.extend(ranked[:MAX_CATEGORY_ROWS])
+
+    for name in displayed:
+        tool = tools[name]
+        entry = _load_entry(tool["full_name"])
+        analysis = entry.get("analysis") or {}
+        descriptions[name] = _zh_description(
+            tool,
+            entry,
+            analysis,
+            analysis.get("highlights") or [],
+            category_caps_by_id.get(tool.get("category", ""), set()),
+        )
+    tiers = Counter(tier for _text, tier in descriptions.values())
+    native_zh_count = tiers[ZH_NATIVE] + tiers[ZH_CURATED]
+
     out: list[str] = []
     add = out.append
 
@@ -722,6 +969,35 @@ def render_readme_zh(index: dict[str, Any]) -> str:
     add("| **Star** | 总 star 数，括号内是观测到的日均增长。🚀 表示近期涨得很快 |")
     add("| **评分** | 0-100 健康分：流行度、增长势头、维护活跃度、文档质量、上手难度。详见[方法论](docs/METHODOLOGY.md) |")
     add("")
+    add(
+        f"**关于「解决什么问题」这一列：** 尽量用中文说明。来源分三档，"
+        f"标记不同，可信度也不同："
+    )
+    add("")
+    add("| 标记 | 来源 | 数量 |")
+    add("| --- | --- | ---: |")
+    add(
+        f"| （无） | 项目**自带的中文 README**原文，作者自己的措辞 | {native_zh_count} |"
+    )
+    add(
+        f"| ‡ | 我们**根据检测到的能力生成**的中文说明（能力名称本身有官方中文名） | {tiers[ZH_DERIVED]} |"
+    )
+    add(
+        f"| † | 项目只写了英文，**保留英文原文，不做机器翻译** | {tiers[ZH_ENGLISH]} |"
+    )
+    add("")
+    add(
+        "带 † 的条目我们**不会**把它翻成中文。翻译会让项目「说出」它从没说过的话，"
+        "而这个仓库的全部价值就在于结论可核查——一句诚实的英文，比一段流畅的杜撰更有用。"
+        "带 ‡ 的条目是**我们自己写的**概括，每条结论都能在项目 README 里找到对应证据。"
+    )
+    add("")
+    add(
+        "如果你想补齐某个工具的中文说明，欢迎在 "
+        "[`config/overrides.json`](config/overrides.json) 里加一条 `summary_zh`，"
+        "它会以最高优先级显示。"
+    )
+    add("")
     add("---")
     add("")
 
@@ -762,35 +1038,18 @@ def render_readme_zh(index: dict[str, Any]) -> str:
             icon = TIER_ICON.get(tier, "")
             analysis = entry.get("analysis") or {}
             highlights = analysis.get("highlights") or []
-
-            # Prefer a Chinese highlight — many tools in this space document in
-            # Chinese, and a Chinese reader should get those words rather than a
-            # machine label. Otherwise fall back to the same descriptive-text
-            # logic the English README uses, so an install command never appears
-            # in the description column here either.
-            solves = ""
-            for highlight in highlights:
-                if re.search(r"[\u4e00-\u9fff]", highlight) and is_descriptive(highlight):
-                    solves = highlight
-                    break
-            if not solves:
-                summary = analysis.get("summary_en") or entry.get("description") or ""
-                solves = best_description(summary, highlights)
-            if not solves:
-                # Nothing descriptive in either language: state what it is via
-                # the repo description, which is at least written by the author.
-                solves = truncate((entry.get("description") or "").strip(), 110)
-            if not solves:
-                solves = "、".join(
-                    capability_label(c, "zh") for c in (tool.get("capabilities") or [])[:3]
-                )
-
+            solves, tier = descriptions.get(
+                name, _zh_description(tool, entry, analysis, highlights)
+            )
+            # A marker tells the reader where the sentence came from: ours, or
+            # the project's English kept untranslated.
+            marker = ZH_MARKER.get(tier, "")
             friction = analysis.get("friction") or {}
             level = friction.get("level", "unknown")
             setup = f"{SETUP_ICON.get(level, '⚪')} {SETUP_LABEL.get(level, SETUP_LABEL['unknown'])['zh']}"
             add(
                 f"| {icon} **[{tool['full_name']}]({entry.get('url', '#')})** "
-                f"| {escape_table_cell(solves)} "
+                f"| {escape_table_cell(solves)}{marker} "
                 f"| {setup} "
                 f"| {'✅' if tool.get('out_of_the_box') else '—'} "
                 f"| {_friendly_cell(entry)} "
@@ -831,7 +1090,7 @@ def render_readme_zh(index: dict[str, Any]) -> str:
         for edge in challengers:
             inc = edge.get("incumbent_name") or edge["incumbent"]
             cha = edge.get("challenger_name") or edge["challenger"]
-            gap = next((r for r in edge.get("reasons", []) if "stars" in r), "尚未测算")
+            gap = _reason(edge, "zh", "stars") or "尚未测算"
             add(
                 f"| **[{inc}](https://github.com/{edge['incumbent']})** "
                 f"| **[{cha}](https://github.com/{edge['challenger']})** "
@@ -844,7 +1103,7 @@ def render_readme_zh(index: dict[str, Any]) -> str:
             missing = (edge.get("evidence") or {}).get("missing_capabilities") or []
             add(f"<details><summary><b>{cha} 对比 {inc}</b></summary>")
             add("")
-            note = (edge.get("reasons") or [""])[0]
+            note = _reason(edge, "zh")
             if note:
                 add(note)
                 add("")

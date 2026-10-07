@@ -141,19 +141,22 @@
       "Run the prebuilt API with Docker Compose or use the deployment templates.",
       "Build a Company Brain from a database, a ticket export, and meeting notes, then browse it in the UI and query it from Claude Code or Codex.",
       "Run with local Ollama models, including a local embedding model."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:10+00:00",
+  "fetched_at": "2026-10-07T17:47:48+00:00",
   "categories": [
-    "mcp-failover",
-    "sessions-memory"
+    "analytics",
+    "security-self-hosting"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

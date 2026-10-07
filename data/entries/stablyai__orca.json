@@ -164,14 +164,17 @@
     },
     "highlights": [
       "Account switcher & usage tracking — See Claude and Codex usage and rate-limit resets, and hot-swap accounts without re-logging in."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "fetched_at": "2026-10-07T17:47:36+00:00",
   "categories": [
     "accounts",
     "isolation-parallelism",

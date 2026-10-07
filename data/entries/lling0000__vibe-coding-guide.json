@@ -131,15 +131,26 @@
       "external_link_ratio": 1.711
     },
     "highlights": [
-      "读第 1-2 章，理解“写字符”到“管理 Agent 注意力”的角色变化。"
-    ]
+      "读第 1-2 章，理解“写字符”到“管理 Agent 注意力”的角色变化。",
+      "浏览第 3 章，给一个真实仓库写一个极简 AGENTS.md / CLAUDE.md。",
+      "把大范围搜索、审查或对比交给 subagent / 独立 session。",
+      "用 git worktree 隔离并行 Agent 开发"
+    ],
+    "summary_zh_native": "把 AI Coding 从 prompt 实验，升级为可审查、可验证、可交付的工程工作流。",
+    "highlights_zh": [
+      "读第 1-2 章，理解“写字符”到“管理 Agent 注意力”的角色变化。",
+      "浏览第 3 章，给一个真实仓库写一个极简 AGENTS.md / CLAUDE.md。",
+      "把大范围搜索、审查或对比交给 subagent / 独立 session。",
+      "用 git worktree 隔离并行 Agent 开发"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "fetched_at": "2026-10-07T17:48:06+00:00",
   "categories": [
     "isolation-parallelism"
   ],
@@ -177,6 +188,7 @@
         "3.95x the star velocity (5.9/day vs 1.5/day)",
         "no harder to set up (12 vs 30 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

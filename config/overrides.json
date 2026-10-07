@@ -7,6 +7,7 @@
       "incumbent": "farion1231/cc-switch",
       "challenger": "yetone/magpie",
       "note": "Both manage multiple accounts and providers for Claude Code and Codex, and magpie additionally routes other models through the same agent loop.",
+      "note_zh": "两者都为 Claude Code 和 Codex 管理多账号与多供应商，而 magpie 还能让其他模型走同一套 Agent 流程。",
       "since": "2026-10-07"
     }
   ],

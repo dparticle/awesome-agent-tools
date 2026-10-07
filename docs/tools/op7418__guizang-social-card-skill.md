@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | HTML |
 | Created | 2026-05-27 |
-| Last push | 2026-07-01 (97 days ago) |
+| Last push | 2026-07-01 (98 days ago) |
 | Analyzed README | 13,913 chars from `raw:HEAD/README.md` |
 
 ## What it solves

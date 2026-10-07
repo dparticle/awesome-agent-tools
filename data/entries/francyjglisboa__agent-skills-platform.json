@@ -30,7 +30,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 354,
-  "days_since_push": 21,
+  "days_since_push": 22,
   "health_score": 56,
   "health_components": {
     "popularity": 67.6,
@@ -121,16 +121,19 @@
       "signals": [],
       "external_link_ratio": 0.684
     },
-    "highlights": []
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "fetched_at": "2026-10-07T17:47:51+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
   "primary_category": "skills",

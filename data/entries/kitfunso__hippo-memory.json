@@ -177,24 +177,27 @@
       "external_link_ratio": 0.433
     },
     "highlights": [
-      "Decay tied with decay switched off. On hippo's synthetic lifecycle test, full@365 minus decay-off is -0.7 points [-1.4, 0.1] on currentR5, no measurable effect. That test runs 20 sessions,…",
+      "Decay tied with decay switched off.",
       "Sequential Learning Benchmark. benchmarks/sequential-learning/. 50 tasks, 10 buried traps. Measures whether agents learn from past mistakes, not just retrieve text. v0.11.0 informal magnitu…",
-      "Sleep lowered LongMemEval recall. The slept store loses 3.6 points of hit@5 [-5.8, -1.4] to the never-slept one under the audit's declared scorer, and no scorer there shows sleep helping re…",
-      "Outcome marks helped on the synthetic test. Plain BM25 plus the fast outcome nudge drops trap persistence from 71.9% to 0.0% (round 2). Round 1 found outcome feedback and retrieval strength…"
-    ]
+      "Sleep lowered LongMemEval recall.",
+      "Outcome marks helped on the synthetic test."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "fetched_at": "2026-10-07T17:47:57+00:00",
   "categories": [
+    "analytics",
     "isolation-parallelism",
-    "mcp-failover",
-    "sessions-memory"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

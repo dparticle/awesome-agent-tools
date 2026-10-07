@@ -115,14 +115,17 @@
     "highlights": [
       "Execute the work — phase-by-phase with approval gates (Incremental), parallel units with information barriers and holdout scenarios (Factory), or lightweight 1–3 unit orchestration (Direct)",
       "At startup — Only skill names and descriptions are loaded (~100 tokens each)"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "fetched_at": "2026-10-07T17:47:58+00:00",
   "categories": [
     "isolation-parallelism",
     "skills"
@@ -159,6 +162,7 @@
         "29.32x the star velocity (37.8/day vs 1.3/day)",
         "no harder to set up (13 vs 25 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "memory-context",

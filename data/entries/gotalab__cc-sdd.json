@@ -128,16 +128,22 @@
       ],
       "external_link_ratio": 0.56
     },
-    "highlights": []
+    "highlights": [
+      "Claude Codeは仕様駆動の夢を見ない (Speaker Deck, Japanese)",
+      "Kiroの仕様書駆動開発プロセスをClaude Codeで徹底的に再現した (Zenn, Japanese)"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "fetched_at": "2026-10-07T17:47:50+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills",
     "teams"
   ],
@@ -174,6 +180,7 @@
         "10.10x the star velocity (83.8/day vs 8.3/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",

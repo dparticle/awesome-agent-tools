@@ -148,16 +148,19 @@
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
       "Agent: AI coding CLI with shared skills and modes (AGENTS.md + CLI wrapper)",
       "Scanner: Playwright + Greenhouse API + WebSearch"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:08+00:00",
+  "fetched_at": "2026-10-07T17:47:46+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "model-routing"
   ],
   "primary_category": "model-routing",

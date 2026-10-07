@@ -119,14 +119,21 @@
     },
     "highlights": [
       "Daemon (:8081) - registers the machine and manages agent subprocesses."
-    ]
+    ],
+    "summary_zh_native": "通过频道、讨论串、任务看板和频道团队协调多个智能体。",
+    "highlights_zh": [
+      "Server（:8080）- Go API、WebSocket hub、认证和 PostgreSQL 持久化。",
+      "Daemon（:8081）- 注册当前机器并管理智能体子进程。",
+      "Agent CLI - 已安装的编码智能体通过 stdin/stdout 运行，Solo 提供提示词、记忆和协作工具。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "fetched_at": "2026-10-07T17:47:57+00:00",
   "categories": [
     "providers"
   ],

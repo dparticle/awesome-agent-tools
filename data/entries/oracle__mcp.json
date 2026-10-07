@@ -117,22 +117,25 @@
       "external_link_ratio": 0.626
     },
     "highlights": [
-      "Verify the ollama server has started with curl http://localhost:11434. A successful response will typically be \"Ollama is running\".",
-      "Fetch the large language model, where is the name of your desired model (e.g. llama3.2), with ollama pull . For more options, check Ollama's list of models that support tool calling.",
-      "Add your desired server to the mcpServers object. Below is an example for for the compute OCI MCP server. Make sure to save the file after editing.",
+      "Verify the ollama server has started with curl http://localhost:11434.",
+      "Fetch the large language model, where is the name of your desired model (e.g.",
+      "Add your desired server to the mcpServers object.",
       "Click the MCP Servers button near the top of the the extension's panel."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "fetched_at": "2026-10-07T17:47:59+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
@@ -165,6 +168,7 @@
         "22.89x the star velocity (23.8/day vs 1.0/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",

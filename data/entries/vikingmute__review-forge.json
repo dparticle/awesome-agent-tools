@@ -94,14 +94,17 @@
       "Reviews local changes, branches, PRs, or commit ranges.",
       "Synthesizes multiple review perspectives into one fix checklist.",
       "Uses checkboxes as the human approval boundary for fixes."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "fetched_at": "2026-10-07T17:48:06+00:00",
   "categories": [
     "skills"
   ],

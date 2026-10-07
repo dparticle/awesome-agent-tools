@@ -164,19 +164,22 @@
     "highlights": [
       "Cost tiers. OpenAI prices GPT-5.6 prompts above 272K input at 2x input and 1.5x output",
       "Controlled long-task cost: routes between standard and flagship models, edits only the required regions, and supports up to 99% same-session and 95% cross-session cache hit rates.",
-      "@ai-sdk/openai-compatible is for OpenAI-compatible APIs. Services using a different wire protocol require their provider-specific adapter.",
+      "@ai-sdk/openai-compatible is for OpenAI-compatible APIs.",
       "Budgeted injection — uses a token budget to control how much checkpoint, memory, and notes content enters context, with importance ranking"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "fetched_at": "2026-10-07T17:47:37+00:00",
   "categories": [
     "isolation-parallelism",
-    "mcp-failover",
+    "security-self-hosting",
     "voice"
   ],
   "primary_category": "voice",

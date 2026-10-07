@@ -39,12 +39,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 164,
+  "age_days": 165,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 1.6,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 306,
-    "days_span": 164,
-    "stars_per_day": 1.87,
-    "lifetime_stars_per_day": 1.87,
+    "days_span": 165,
+    "stars_per_day": 1.85,
+    "lifetime_stars_per_day": 1.85,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -139,20 +139,23 @@
       "external_link_ratio": 0.1
     },
     "highlights": [
-      "codex-delegate — Claude → Codex CLI handoff for code-heavy / mechanical work. (Cross-cutting, also Stages 4, 6)",
-      "antigravity-delegate — Claude → Antigravity CLI handoff for bounded non-honesty-critical mechanical work. (Cross-cutting, also Stages 4, 6)",
-      "research-context-compressor — .research/ manifests so future AI sessions skip the rescan. (Stages 3b, 5, 8)",
-      "research-hub — search, ingest, organise papers across Zotero / Obsidian / NotebookLM. (Stages 1, 2)"
-    ]
+      "codex-delegate — Claude → Codex CLI handoff for code-heavy / mechanical work.",
+      "antigravity-delegate — Claude → Antigravity CLI handoff for bounded non-honesty-critical mechanical work.",
+      "research-context-compressor — .research/ manifests so future AI sessions skip the rescan.",
+      "research-hub — search, ingest, organise papers across Zotero / Obsidian / NotebookLM."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "fetched_at": "2026-10-07T17:48:03+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
   "primary_category": "skills",
@@ -179,15 +182,16 @@
         "skills-plugins"
       ],
       "star_ratio": 2.627,
-      "momentum_ratio": 1.786,
+      "momentum_ratio": 1.805,
       "setup_delta": -1,
-      "dominance": 0.842,
+      "dominance": 0.843,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "2.63x the stars (804 vs 306)",
-        "1.79x the star velocity (3.3/day vs 1.9/day)",
+        "1.81x the star velocity (3.3/day vs 1.9/day)",
         "no harder to set up (21 vs 22 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "cross-agent-support",

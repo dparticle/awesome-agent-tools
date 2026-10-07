@@ -164,23 +164,31 @@
     },
     "highlights": [
       "memorix background start / memorix serve-http run the HTTP service for a shared endpoint, dashboard, VPS Docker deployment, or multiple clients.",
-      "Gemini CLI: installs the extension package, GEMINI.md context, hooks, and skills. Antigravity CLI has an official Gemini CLI migration path, but Gemini CLI remains an active standalone targ…",
-      "memorix serve is the stdio MCP bridge used by IDEs and coding agents. Its default tool profile is micro, so agents see only the compact core tool set.",
-      "Codex: installs one user-level Memorix plugin with bundled stdio MCP, skills, and lifecycle hooks. It does not write project-local .codex config or change your model, approval, or sandbox s…"
-    ]
+      "Gemini CLI: installs the extension package, GEMINI.md context, hooks, and skills.",
+      "memorix serve is the stdio MCP bridge used by IDEs and coding agents.",
+      "Codex: installs one user-level Memorix plugin with bundled stdio MCP, skills, and lifecycle hooks."
+    ],
+    "summary_zh_native": "让 Claude Code、Codex、CodeBuddy Code、Cursor、Windsurf、Copilot、Gemini CLI、OpenCode、Grok Build、OpenClaw、Hermes Agent、Oh-my-Pi、Pi、Kiro、Antigravity、Trae、DeepSeek Harness、WorkBuddy 和任何 MCP Agent 共用同一套项目记忆。",
+    "highlights_zh": [
+      "memorix background start / memorix serve-http 是 HTTP 服务，用于共享端点、Dashboard、VPS Docker 部署或多客户端。",
+      "Codex：安装包含 stdio MCP、skills 和生命周期 hooks 的 Memorix 插件包，并写入 AGENTS.md 使用规范。",
+      "Windsurf、Kiro、Trae：写入目标支持的 MCP / rules / hooks 文件。",
+      "memorix CLI 用于直接操作：setup、记忆搜索/写入、Git Memory、导入导出、Dashboard、编排、诊断和自动化。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "fetched_at": "2026-10-07T17:47:56+00:00",
   "categories": [
-    "desktop-ui",
-    "model-routing",
-    "sessions-memory"
+    "agent-runtime-desktop-ui",
+    "analytics",
+    "model-routing"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

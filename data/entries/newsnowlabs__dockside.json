@@ -134,18 +134,21 @@
       "external_link_ratio": 1.396
     },
     "highlights": [
-      "AI-ready devcontainers: Claude Code, OpenAI Codex, GitHub Copilot and other AI tools and CLIs run natively inside every devcontainer's integrated IDE. Isolate each AI agent session in its o…",
+      "AI-ready devcontainers: Claude Code, OpenAI Codex, GitHub Copilot and other AI tools and CLIs run natively inside every devcontainer's integrated IDE.",
       "Runtime agnostic: use runC (Docker's default), Sysbox (for Docker-in-Dockside devtainers), gVisor (for sandboxed kernel isolation), or RunCVM (for full KVM VMs on amd64); see Alternative ru…",
-      "Run AI coding agents — Claude Code, Codex, GitHub Copilot — safely inside isolated devcontainers. Each agent session is self-contained, and coming-soon firewall controls let you define exac…",
+      "Run AI coding agents — Claude Code, Codex, GitHub Copilot — safely inside isolated devcontainers.",
       "SSH access facilitates use of any terminal editor or command line tool and seamless VS Code remote development via the Remote SSH extension."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "fetched_at": "2026-10-07T17:48:03+00:00",
   "categories": [
     "isolation-parallelism",
     "teams"

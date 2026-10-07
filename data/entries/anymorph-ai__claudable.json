@@ -140,19 +140,22 @@
       "Pricing: Starting from $3/month (GLM Coding Lite) to $30/month (GLM Coding Max), with 50% off first month",
       "Desktop App: Available as Electron desktop application for Mac, Windows, and Linux",
       "Z.AI GLM-4.6 - Zhipu AI's coding agent"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "fetched_at": "2026-10-07T17:47:50+00:00",
   "categories": [
-    "desktop-ui",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

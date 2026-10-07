@@ -132,14 +132,17 @@
       "Runtime rotation — a default-on, loopback-only proxy that forwards Responses API and model-discovery traffic through the best available account during wrapper-launched Codex sessions.",
       "Switching and selection — pin an account, pick the forecast-best one, or let health- and quota-aware hybrid selection rotate for you.",
       "Local governance — file-backed usage ledger, budget guards, account tags/weights/pause/drain policies, routing profiles, and an optional loopback bridge with bearer tokens for local OpenAI-…"
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "fetched_at": "2026-10-07T17:47:58+00:00",
   "categories": [
     "accounts"
   ],

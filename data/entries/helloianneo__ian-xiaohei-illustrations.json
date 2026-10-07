@@ -103,19 +103,25 @@
       "external_link_ratio": 1.651
     },
     "highlights": [
-      "Awesome Claude Code Skills — Claude Code Skills / Agents / Plugins 精选合集"
-    ]
+      "用 Codex 做内容生产，希望稳定复用一套视觉语言的人",
+      "AI 图像模型可能出现错字、幻觉标签、风格漂移或多余标题，生成后需要检查。",
+      "Ian Handdrawn PPT — 中文手绘技术 PPT-style 页面图生成 Skill",
+      "Obsidian + Claude AI Second Brain — Obsidian + Claude AI 个人知识库搭建指南"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "fetched_at": "2026-10-07T17:47:37+00:00",
   "categories": [
-    "sessions-memory"
+    "analytics"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

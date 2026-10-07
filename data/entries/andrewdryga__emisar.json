@@ -125,20 +125,23 @@
       "external_link_ratio": 0.491
     },
     "highlights": [
-      "Open AI agents and connect your client. Remote MCP clients use OAuth;",
+      "Open AI agents and connect your client.",
       "The runner opens an outbound TLS WebSocket and exposes no inbound listener."
-    ]
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T16:31:25+00:00",
+  "fetched_at": "2026-10-07T17:48:03+00:00",
   "categories": [
-    "mcp-failover"
+    "security-self-hosting"
   ],
-  "primary_category": "mcp-failover",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).",
@@ -170,6 +173,7 @@
         "9.96x the star velocity (23.8/day vs 2.4/day)",
         "no harder to set up (24 vs 25 friction)"
       ],
+      "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
