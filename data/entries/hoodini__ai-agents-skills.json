@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "full_name": "hoodini/ai-agents-skills",
+  "name": "ai-agents-skills",
+  "owner": "hoodini",
+  "url": "https://github.com/hoodini/ai-agents-skills",
+  "description": "🧠 AI Agent Skills Repository - A curated collection of specialized skills for AI coding agents (Claude Code, GitHub Copilot, Cursor, Windsurf). Created by Yuval Avidani using GitHub Copilot via VS Code Insiders.",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 16.0,
+  "stars": 282,
+  "forks": 68,
+  "open_issues": 4,
+  "language": "Python",
+  "license": "",
+  "topics": [],
+  "created_at": "2026-01-07T15:25:35Z",
+  "updated_at": "2026-10-07T00:00:18Z",
+  "pushed_at": "2026-07-11T22:17:31Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 272,
+  "days_since_push": 87,
+  "health_score": 48,
+  "health_components": {
+    "popularity": 49.0,
+    "momentum": 0.9,
+    "maintenance": 78.0,
+    "documentation": 58.0,
+    "accessibility": 76.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 282,
+    "days_span": 272,
+    "stars_per_day": 1.04,
+    "lifetime_stars_per_day": 1.04,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "hoodini/ai-agents-skills",
+    "readme_chars": 49137,
+    "capabilities": [
+      "multi-account-switching",
+      "multi-agent-orchestration",
+      "model-routing",
+      "billing-metering",
+      "usage-analytics",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "and examples with real JSON payloads",
+      "multi-agent-orchestration": "Installs 16 skills as one package: director (award-winning film + AI-production Bible, story-first workflow) · yuv-pilot (top-of-pyramid orchestrator) · yuv-design-system (brand) · yuv-decks (cinematic presentations) ·…",
+      "model-routing": "kflow that locks the IDEA and SCRIPT before generating a single pixel, then plans shots/camera/light/sound, then generates.",
+      "billing-metering": "write agent logic, tools & multi-agent systems; deploy via aws-harness Strands, agent framework, agents as tools, Swarm, Graph, BedrockModel",
+      "usage-analytics": "",
+      "memory-context": "agement** AWS Organizations, IAM, billing & multi-account AWS Organizations, IAM, SCPs, Cost Explorer",
+      "skills-plugins": "Installs 16 skills as one package: director (award-winning film + AI-production Bible, story-first workflow) · yuv-pilot (top-of-pyramid orchestrator) · yuv-design-system (brand) · yuv-decks (cinematic presentations) ·…",
+      "agent-runtime": "service accounts, and multi-account support",
+      "mcp-support": "asks, Meet, Forms, Admin, Keep, Apps Script, and more",
+      "cross-agent-support": "Mentions Aider, Claude Code, Cline, Continue"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "multi-agent-orchestration": 2,
+      "model-routing": 1,
+      "billing-metering": 1,
+      "usage-analytics": 1,
+      "memory-context": 1,
+      "skills-plugins": 12,
+      "agent-runtime": 9,
+      "mcp-support": 3,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 24,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "beginner-friendly"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via curl | sh installer; needs git clone (build from source); configure server/reverse-proxy setup; beginner-friendly",
+      "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 git clone (build from source)；需配置 server/reverse-proxy setup；beginner-friendly"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Gemini CLI",
+      "Cursor",
+      "Copilot",
+      "Aider",
+      "Cline / Roo"
+    ],
+    "summary_en": "curl -sSL https://raw.githubusercontent.com/hoodini/ai-agents-skills/master/install.sh | bash",
+    "summary_zh": "",
+    "install_hint": "curl -sSL https://raw.githubusercontent.com/hoodini/ai-agents-skills/master/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.122
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

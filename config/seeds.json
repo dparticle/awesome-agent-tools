@@ -1,0 +1,17 @@
+{
+  "$comment": "Hand-picked seeds. These are ALWAYS evaluated, whatever the search API returns, because they are the tools readers actually ask about. Membership still has to pass the quality gates in thresholds.json — seeding guarantees evaluation, not inclusion. Add repos here via PR.",
+  "version": 1,
+
+  "seeds": [
+    { "repo": "slopus/happy", "category": "remote-control", "why": "Drive Claude Code / Codex from a phone with end-to-end encryption." },
+    { "repo": "getpaseo/paseo", "category": "orchestration", "why": "Orchestrate several coding agents from desktop and mobile; easier on-ramp than Orca." },
+    { "repo": "stablyai/orca", "category": "orchestration", "why": "Run a fleet of parallel agents, each on your own subscription." },
+    { "repo": "yetone/magpie", "category": "quota-account-ops", "why": "One place for every agent's model; pools accounts and reroutes models." },
+    { "repo": "farion1231/cc-switch", "category": "quota-account-ops", "why": "The incumbent all-in-one provider/account switcher for Claude Code, Codex and friends." },
+    { "repo": "Wei-Shaw/sub2api", "category": "sharing-gateway", "why": "Turn upstream AI subscriptions into a metered, rate-limited, billable relay." },
+    { "repo": "anomalyco/opencode", "category": "agent-runtimes", "why": "Open-source terminal agent with broad provider support." },
+    { "repo": "anthropics/claude-code", "category": "agent-runtimes", "why": "The reference agentic coding tool." },
+    { "repo": "openai/codex", "category": "agent-runtimes", "why": "OpenAI's local coding agent." },
+    { "repo": "google-gemini/gemini-cli", "category": "agent-runtimes", "why": "Gemini's terminal agent, generous free tier." }
+  ]
+}

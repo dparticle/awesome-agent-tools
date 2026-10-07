@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "full_name": "JimLiu/baocut",
+  "name": "baocut",
+  "owner": "JimLiu",
+  "url": "https://github.com/JimLiu/baocut",
+  "description": "Open-source Agent Skill that drives the BaoCut macOS app CLI (transcribe · subtitle · translate · cut) from Claude Code, Codex, and other agents",
+  "homepage": "https://baocut.app",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "cross-agent-support",
+    "skills-plugins"
+  ],
+  "category_score": 20.0,
+  "stars": 529,
+  "forks": 37,
+  "open_issues": 9,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skill",
+    "claude-code",
+    "codex",
+    "macos",
+    "skills",
+    "subtitles",
+    "transcription"
+  ],
+  "created_at": "2026-07-13T07:06:42Z",
+  "updated_at": "2026-10-06T16:01:11Z",
+  "pushed_at": "2026-08-30T15:35:18Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 86,
+  "days_since_push": 37,
+  "health_score": 45,
+  "health_components": {
+    "popularity": 54.5,
+    "momentum": 5.1,
+    "maintenance": 78.0,
+    "documentation": 26.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 529,
+    "days_span": 86,
+    "stars_per_day": 6.15,
+    "lifetime_stars_per_day": 6.15,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "JimLiu/baocut",
+    "readme_chars": 2926,
+    "capabilities": [
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "I coding agent the power to drive BaoCut —",
+      "agent-runtime": "",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "skills-plugins": 2,
+      "agent-runtime": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source)",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 26,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Give your AI coding agent the power to drive BaoCut — transcribe, add and translate subtitles, review speakers, edit timelines and overlays, and export — all from natural language.",
+    "summary_zh": "",
+    "install_hint": "npx skills add JimLiu/baocut -g -a claude-code codex -y",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.392
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (3/3).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (3/3)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "supersede": {
+      "incumbent": "jimliu/baocut",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "JimLiu/baocut",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "skills-plugins"
+      ],
+      "star_ratio": 63.045,
+      "momentum_ratio": 12.73,
+      "setup_delta": -23,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (3/3)",
+        "63.05x the stars (33,351 vs 529)",
+        "12.73x the star velocity (78.3/day vs 6.2/day)",
+        "no harder to set up (2 vs 25 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 45,
+        "challenger_health": 81,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

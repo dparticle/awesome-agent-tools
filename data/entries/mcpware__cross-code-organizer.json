@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "full_name": "mcpware/cross-code-organizer",
+  "name": "cross-code-organizer",
+  "owner": "mcpware",
+  "url": "https://github.com/mcpware/cross-code-organizer",
+  "description": "Cross-Code Organizer (formerly Claude Code Organizer): cross-harness config dashboard for Claude Code, Codex CLI, MCP servers, skills, memories, agents, sessions, security scanning, context budget, and backups.",
+  "homepage": "https://www.npmjs.com/package/@mcpware/cross-code-organizer",
+  "category": "agent-runtimes",
+  "also_in": [
+    "memory-context"
+  ],
+  "matched_capabilities": [
+    "cross-agent-support",
+    "skills-plugins"
+  ],
+  "category_score": 24.0,
+  "stars": 382,
+  "forks": 33,
+  "open_issues": 12,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "ai-coding-tools",
+    "ai-config-dashboard",
+    "ai-tools",
+    "claude",
+    "claude-code",
+    "claude-code-organizer",
+    "claude-code-plugin",
+    "claude-memory",
+    "claude-skills",
+    "codex-cli",
+    "context-budget",
+    "cross-code-organizer",
+    "cross-harness",
+    "dashboard",
+    "mcp",
+    "mcp-security",
+    "mcp-server",
+    "model-context-protocol",
+    "security-scanner",
+    "tool-poisoning"
+  ],
+  "created_at": "2026-03-18T21:50:10Z",
+  "updated_at": "2026-10-07T12:07:13Z",
+  "pushed_at": "2026-10-06T12:36:53Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 202,
+  "days_since_push": 1,
+  "health_score": 55,
+  "health_components": {
+    "popularity": 51.6,
+    "momentum": 1.6,
+    "maintenance": 100.0,
+    "documentation": 64.0,
+    "accessibility": 80.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 382,
+    "days_span": 202,
+    "stars_per_day": 1.89,
+    "lifetime_stars_per_day": 1.89,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "mcpware/cross-code-organizer",
+    "readme_chars": 42102,
+    "capabilities": [
+      "usage-analytics",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "usage-analytics": "es and expanded related work section (Kiji Inspector, Safe-SAIL, CC-Delta, MCP Threat Modeling)",
+      "skills-plugins": "or inspect its config — without switching tools.",
+      "agent-runtime": "",
+      "mcp-support": "nd every module, how they connect, and where to look before making any claim about the code.",
+      "gui-desktop": "to-installs a /cco skill for Claude Code.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "usage-analytics": 1,
+      "skills-plugins": 2,
+      "agent-runtime": 1,
+      "mcp-support": 65,
+      "gui-desktop": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 20,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "config file",
+        "database migration",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; configure config file, database migration; one-click setup",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 config file、database migration；one-click setup"
+    },
+    "doc_score": 64,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Aider"
+    ],
+    "summary_en": "English | 简体中文 | 繁體中文 | 廣東話 | 日本語 | 한국어 | Español | Bahasa Indonesia | Italiano | Português | Türkçe | Tiếng Việt | ไทย",
+    "summary_zh": "",
+    "install_hint": "npx @mcpware/cross-code-organizer --distill <session.jsonl>",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.499
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "genspark-ai/genoffice",
+    "supersede": {
+      "incumbent": "mcpware/cross-code-organizer",
+      "challenger": "genspark-ai/genoffice",
+      "incumbent_name": "mcpware/cross-code-organizer",
+      "challenger_name": "genspark-ai/genoffice",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "skills-plugins",
+        "usage-analytics"
+      ],
+      "star_ratio": 23.131,
+      "momentum_ratio": 68.751,
+      "setup_delta": 0,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "23.13x the stars (8,836 vs 382)",
+        "68.75x the star velocity (129.9/day vs 1.9/day)",
+        "no harder to set up (20 vs 20 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 55,
+        "challenger_health": 85,
+        "incumbent_setup_score": 20,
+        "challenger_setup_score": 20
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "full_name": "phuryn/pm-skills",
+  "name": "pm-skills",
+  "owner": "phuryn",
+  "url": "https://github.com/phuryn/pm-skills",
+  "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+  "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 13.0,
+  "stars": 26818,
+  "forks": 2841,
+  "open_issues": 43,
+  "language": "",
+  "license": "MIT",
+  "topics": [
+    "agent-skill-repository",
+    "agent-skills",
+    "agentic-skills",
+    "claude-code-marketplace",
+    "claude-code-plugins",
+    "claude-cowork-plugin",
+    "product-management"
+  ],
+  "created_at": "2026-03-01T23:33:44Z",
+  "updated_at": "2026-10-07T13:27:20Z",
+  "pushed_at": "2026-09-14T21:15:33Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 219,
+  "days_since_push": 22,
+  "health_score": 85,
+  "health_components": {
+    "popularity": 88.6,
+    "momentum": 100.0,
+    "maintenance": 92.0,
+    "documentation": 56.0,
+    "accessibility": 73.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 26818,
+    "days_span": 219,
+    "stars_per_day": 122.46,
+    "lifetime_stars_per_day": 122.46,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "phuryn/pm-skills",
+    "readme_chars": 27379,
+    "capabilities": [
+      "usage-analytics",
+      "skills-plugins",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "usage-analytics": "gles that differentiate us from Notion",
+      "skills-plugins": "edge), you can force loading skills with /plugin-name:skill-name or /skill-name (Claude will add the prefix).",
+      "notifications": "framework should I use for a 50-item backlog?",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "usage-analytics": 1,
+      "skills-plugins": 7,
+      "notifications": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 27,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "beginner-friendly"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via native installer / package; configure database dependency, database migration; beginner-friendly",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 database dependency、database migration；beginner-friendly"
+    },
+    "doc_score": 56,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "Designed for Claude Code and Cowork.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.877
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

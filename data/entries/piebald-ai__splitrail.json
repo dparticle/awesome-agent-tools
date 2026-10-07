@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "full_name": "Piebald-AI/splitrail",
+  "name": "splitrail",
+  "owner": "Piebald-AI",
+  "url": "https://github.com/Piebald-AI/splitrail",
+  "description": "Fast, cross-platform, real-time token usage tracker and cost monitor for Claude Code / Codex CLI / Antigravity CLI / Qwen Code / Cline / Zoo Code / Kilo Code / GitHub Copilot / OpenCode / Pi Agent / Piebald.",
+  "homepage": "https://splitrail.dev",
+  "category": "observability",
+  "also_in": [],
+  "matched_capabilities": [
+    "usage-analytics"
+  ],
+  "category_score": 11.5,
+  "stars": 222,
+  "forks": 25,
+  "open_issues": 8,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "agentic",
+    "analyzer",
+    "antigravity-cli",
+    "blazing-fast",
+    "ccusage",
+    "claude-code",
+    "cline",
+    "codex",
+    "gcusage",
+    "kilo-code",
+    "opencode",
+    "pi-agent",
+    "piebald",
+    "qwen",
+    "qwen-code",
+    "ravishing",
+    "rust",
+    "splitrail",
+    "usage",
+    "zoo-code"
+  ],
+  "created_at": "2025-07-12T22:04:15Z",
+  "updated_at": "2026-10-04T16:17:44Z",
+  "pushed_at": "2026-10-04T16:17:40Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 451,
+  "days_since_push": 2,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 46.9,
+    "momentum": 0.4,
+    "maintenance": 100.0,
+    "documentation": 32.0,
+    "accessibility": 100.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 222,
+    "days_span": 451,
+    "stars_per_day": 0.49,
+    "lifetime_stars_per_day": 0.49,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Piebald-AI/splitrail",
+    "readme_chars": 5093,
+    "capabilities": [
+      "usage-analytics",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "usage-analytics": "",
+      "agent-runtime": "e / Zoo Code / Kilo Code (VS Code extension + CLI)",
+      "mcp-support": "epository to show your support!** ⭐",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
+    },
+    "capability_hits": {
+      "usage-analytics": 2,
+      "agent-runtime": 1,
+      "mcp-support": 2,
+      "gui-desktop": 1,
+      "cross-agent-support": 9
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 0,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "winget install",
+        "download a release binary",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via winget install, download a release binary",
+      "note_zh": "开箱即用。可通过 winget install、download a release binary 安装"
+    },
+    "doc_score": 32,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Copilot",
+      "Cline / Roo",
+      "Qwen Code"
+    ],
+    "summary_en": "We've released Piebald, the ultimate agentic AI developer experience.",
+    "summary_zh": "",
+    "install_hint": "winget install --id LLVM.LLVM",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 4.123
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:26+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

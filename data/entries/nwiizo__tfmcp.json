@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "full_name": "nwiizo/tfmcp",
+  "name": "tfmcp",
+  "owner": "nwiizo",
+  "url": "https://github.com/nwiizo/tfmcp",
+  "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️",
+  "homepage": "https://crates.io/crates/tfmcp",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 14.0,
+  "stars": 373,
+  "forks": 31,
+  "open_issues": 0,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "mcp",
+    "mcp-server",
+    "terraform"
+  ],
+  "created_at": "2025-03-08T14:10:29Z",
+  "updated_at": "2026-10-03T08:48:35Z",
+  "pushed_at": "2026-10-02T15:11:07Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 577,
+  "days_since_push": 4,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 51.4,
+    "momentum": 0.5,
+    "maintenance": 100.0,
+    "documentation": 73.0,
+    "accessibility": 48.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 373,
+    "days_span": 577,
+    "stars_per_day": 0.65,
+    "lifetime_stars_per_day": 0.65,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "nwiizo/tfmcp",
+    "readme_chars": 29300,
+    "capabilities": [
+      "model-routing",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "skills-plugins": "sed user interface for easier local usage and debugging.",
+      "mcp-support": ". While the security system provides robust protection, please review all operations carefully in production environments. ⚠️",
+      "security-isolation": "ue to enable auto-approve for dangerous operations (default: false)",
+      "gui-desktop": ""
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "skills-plugins": 2,
+      "mcp-support": 22,
+      "security-isolation": 6,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 52,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "cargo install"
+      ],
+      "hard_signals": [
+        "docker run",
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API token/secret",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via cargo install; needs docker run, git clone (build from source); configure environment variables, API token/secret",
+      "note_zh": "需要一些配置。可通过 cargo install 安装；需要 docker run、git clone (build from source)；需配置 environment variables、API token/secret"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has a task checklist",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "⚠️ This project includes production-ready security features but is still under active development.",
+    "summary_zh": "",
+    "install_hint": "cargo install tfmcp --version 0.2.4",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.068
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

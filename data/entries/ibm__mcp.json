@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "full_name": "IBM/mcp",
+  "name": "mcp",
+  "owner": "IBM",
+  "url": "https://github.com/IBM/mcp",
+  "description": "A collection of Model Context Protocol (MCP) servers, clients and developer tools by IBM.",
+  "homepage": "https://www.ibm.com/think/topics/model-context-protocol",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 10.0,
+  "stars": 410,
+  "forks": 93,
+  "open_issues": 3,
+  "language": "",
+  "license": "Apache-2.0",
+  "topics": [
+    "agents",
+    "llm",
+    "mcp",
+    "modelcontextprotocol",
+    "toolcalling",
+    "tools"
+  ],
+  "created_at": "2025-04-02T23:35:03Z",
+  "updated_at": "2026-10-04T19:42:38Z",
+  "pushed_at": "2026-10-01T16:12:12Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 552,
+  "days_since_push": 5,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 52.3,
+    "momentum": 0.6,
+    "maintenance": 100.0,
+    "documentation": 36.0,
+    "accessibility": 52.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 410,
+    "days_span": 552,
+    "stars_per_day": 0.74,
+    "lifetime_stars_per_day": 0.74,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "IBM/mcp",
+    "readme_chars": 21729,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "agent-runtime",
+      "mcp-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "and analyze security information using natural language.",
+      "agent-runtime": "",
+      "mcp-support": "This collection of IBM MCP services focuses on both production-ready and experimental MCP servers that enhance AI capabilities by providing file access, database connections, API integrations, and additional contextual…"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "agent-runtime": 1,
+      "mcp-support": 30
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 48,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "OAuth login flow",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. configure OAuth login flow, database dependency",
+      "note_zh": "需要一些配置。需配置 OAuth login flow、database dependency"
+    },
+    "doc_score": 36,
+    "doc_signals": [
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "links to dedicated docs",
+      "long, detailed README"
+    ],
+    "agents": [],
+    "summary_en": "A collection of Model Context Protocol (MCP) servers, MCP Clients and Developer Tools by IBM.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 2.899
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:21+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by arinspunk/claude-talk-to-figma-mcp: covers 100% of capabilities (3/3).",
+    "note_zh": "已被 arinspunk/claude-talk-to-figma-mcp 取代：covers 100% of capabilities (3/3)。",
+    "superseded_by": "arinspunk/claude-talk-to-figma-mcp",
+    "supersede": {
+      "incumbent": "ibm/mcp",
+      "challenger": "arinspunk/claude-talk-to-figma-mcp",
+      "incumbent_name": "IBM/mcp",
+      "challenger_name": "arinspunk/claude-talk-to-figma-mcp",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "mcp-support",
+        "multi-agent-orchestration"
+      ],
+      "star_ratio": 1.624,
+      "momentum_ratio": 1.635,
+      "setup_delta": -32,
+      "dominance": 0.722,
+      "reasons": [
+        "covers 100% of capabilities (3/3)",
+        "1.62x the stars (666 vs 410)",
+        "1.64x the star velocity (1.2/day vs 0.7/day)",
+        "no harder to set up (16 vs 48 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "mcp-support",
+          "multi-agent-orchestration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "parallel-execution"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 48,
+        "incumbent_setup_score": 48,
+        "challenger_setup_score": 16
+      }
+    }
+  }
+}

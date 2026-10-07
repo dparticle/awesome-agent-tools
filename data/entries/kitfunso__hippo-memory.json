@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "full_name": "kitfunso/hippo-memory",
+  "name": "hippo-memory",
+  "owner": "kitfunso",
+  "url": "https://github.com/kitfunso/hippo-memory",
+  "description": "Stop re-teaching your agent. Make your agent's memory work like a brain. Hippo is long-term memory for coding agents. It's a critical layer for your AI harness that connects across your different tools (Cursor, Claude Code, Codex). It keeps your proprietary data completely local, and it actually learns over time.",
+  "homepage": "https://hippo-memory.com",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 773,
+  "forks": 45,
+  "open_issues": 8,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-memory",
+    "ai-agents",
+    "ai-memory",
+    "claude-code",
+    "claude-code-plugin",
+    "codex",
+    "coding-agent",
+    "cursor",
+    "llm",
+    "llm-memory",
+    "local-first",
+    "long-term-memory",
+    "mcp",
+    "mcp-server",
+    "memory",
+    "model-context-protocol",
+    "openclaw",
+    "opencode",
+    "persistent-memory",
+    "sqlite"
+  ],
+  "created_at": "2026-03-15T10:40:26Z",
+  "updated_at": "2026-10-07T12:19:24Z",
+  "pushed_at": "2026-10-07T12:19:34Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 206,
+  "days_since_push": 0,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 57.8,
+    "momentum": 3.1,
+    "maintenance": 100.0,
+    "documentation": 84.0,
+    "accessibility": 45.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 773,
+    "days_span": 206,
+    "stars_per_day": 3.75,
+    "lifetime_stars_per_day": 3.75,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "kitfunso/hippo-memory",
+    "readme_chars": 90171,
+    "capabilities": [
+      "auto-failover",
+      "remote-control",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "session-persistence",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "remote-control": "POAGENTMEMORYTOOLS=claude-code,codex in the environment (none turns it off), which wins over config.",
+      "multi-agent-orchestration": "nscript and records the re-read tokens for the per-prompt hook's",
+      "worktree-isolation": "removal and junk cleanup still",
+      "session-persistence": "",
+      "memory-context": ", and Cascade reached end of life on 1 July 2026); Cursor, Copilot CLI and GitHub's Copilot Memory (the memories live on the vendor's servers); Kiro (the local store is not documented); Cline and Roo memory banks (files…",
+      "agent-runtime": "ries each time they are recalled, Hippo preserves what works, lets mistakes decay, and continuously compounds your agents' intelligence.",
+      "mcp-support": "ode, adds 2 hooks to Codex's hooks.json when Codex is installed (Codex runs them once you trust them in /hooks), and adds instructions to an existing AGENTS.md for Codex, Cursor, OpenClaw and Pi.",
+      "security-isolation": "ue that tied with the others, and on that test decay made no measurable difference to recall.",
+      "self-hosted": "ession for semantic memories.",
+      "gui-desktop": "runs score 86.8 to 88.5% against gbrain's 95.53%.",
+      "notifications": "the same .hippo/ store, so the memories come with you.",
+      "cross-agent-support": "Mentions Aider, Amp, Claude Code, Cline"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "remote-control": 1,
+      "multi-agent-orchestration": 1,
+      "worktree-isolation": 2,
+      "session-persistence": 1,
+      "memory-context": 4,
+      "agent-runtime": 6,
+      "mcp-support": 28,
+      "security-isolation": 7,
+      "self-hosted": 1,
+      "gui-desktop": 1,
+      "notifications": 2,
+      "cross-agent-support": 10
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 55,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config file",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs npm install/build; configure environment variables, API key configuration",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 84,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider",
+      "Cline / Roo",
+      "Qwen Code"
+    ],
+    "summary_en": "Stop re-teaching your agent.",
+    "summary_zh": "",
+    "install_hint": "npm install -g hippo-memory && hippo init",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.433
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:17+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

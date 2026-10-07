@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "full_name": "Archive228/loopkit",
+  "name": "loopkit",
+  "owner": "Archive228",
+  "url": "https://github.com/Archive228/loopkit",
+  "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
+  "homepage": "",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "cross-agent-support",
+    "skills-plugins"
+  ],
+  "category_score": 23.0,
+  "stars": 756,
+  "forks": 124,
+  "open_issues": 0,
+  "language": "Shell",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-06-30T08:46:55Z",
+  "updated_at": "2026-10-07T12:13:35Z",
+  "pushed_at": "2026-07-14T21:10:06Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 99,
+  "days_since_push": 84,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 57.6,
+    "momentum": 6.4,
+    "maintenance": 78.0,
+    "documentation": 54.0,
+    "accessibility": 81.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 756,
+    "days_span": 99,
+    "stars_per_day": 7.64,
+    "lifetime_stars_per_day": 7.64,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Archive228/loopkit",
+    "readme_chars": 15078,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "spec-expand, sprint-contract load here.",
+      "skills-plugins": "A drop-in .claude/ harness + 49 battle-tested skills for coding agents.",
+      "agent-runtime": "A drop-in .claude/ harness + 49 battle-tested skills for coding agents.",
+      "mcp-support": "# .claude/skills/ — the 49-skill library",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 8,
+      "skills-plugins": 5,
+      "agent-runtime": 1,
+      "mcp-support": 2,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 19,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner, curl | sh installer; needs git clone (build from source); configure database migration, server/reverse-proxy setup",
+      "note_zh": "较易上手。可通过 npx one-liner、curl | sh installer 安装；需要 git clone (build from source)；需配置 database migration、server/reverse-proxy setup"
+    },
+    "doc_score": 54,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/Archive228/loopkit/main/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.597
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "supersede": {
+      "incumbent": "archive228/loopkit",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "Archive228/loopkit",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 44.115,
+      "momentum_ratio": 10.247,
+      "setup_delta": -17,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "44.12x the stars (33,351 vs 756)",
+        "10.25x the star velocity (78.3/day vs 7.6/day)",
+        "no harder to set up (2 vs 19 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 81,
+        "incumbent_setup_score": 19,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

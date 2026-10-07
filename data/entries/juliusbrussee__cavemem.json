@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "full_name": "JuliusBrussee/cavemem",
+  "name": "cavemem",
+  "owner": "JuliusBrussee",
+  "url": "https://github.com/JuliusBrussee/cavemem",
+  "description": "Frozen — cross-agent persistent memory for coding assistants. Still works; the compressed-memory core now ships inside JuliusBrussee/caveman.",
+  "homepage": "https://caveman.so/",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.5,
+  "stars": 677,
+  "forks": 61,
+  "open_issues": 12,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "caveman",
+    "claude",
+    "claude-code",
+    "compress",
+    "memory",
+    "rag",
+    "rag-chatbot"
+  ],
+  "created_at": "2026-04-18T00:21:39Z",
+  "updated_at": "2026-10-06T18:00:28Z",
+  "pushed_at": "2026-08-14T22:08:06Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 172,
+  "days_since_push": 53,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 56.6,
+    "momentum": 3.3,
+    "maintenance": 78.0,
+    "documentation": 43.0,
+    "accessibility": 99.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 677,
+    "days_span": 172,
+    "stars_per_day": 3.94,
+    "lifetime_stars_per_day": 3.94,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "JuliusBrussee/cavemem",
+    "readme_chars": 13207,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "memory-context",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "verify those fields against every Claude Code version in the wild, and the",
+      "multi-agent-orchestration": "",
+      "memory-context": "lls and works, but expect no new features or",
+      "mcp-support": "n boundaries, compress observations with the caveman grammar (~75% fewer prose tokens, code and paths preserved byte-for-byte), and write to local SQLite.",
+      "gui-desktop": "octor/status keep reporting healthy because the failure never reaches the CLI.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 1,
+      "memory-context": 2,
+      "mcp-support": 6,
+      "gui-desktop": 1,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 13,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "scoop install",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via scoop install, global npm install; needs npm install/build; configure database dependency",
+      "note_zh": "开箱即用。可通过 scoop install、global npm install 安装；需要 npm install/build；需配置 database dependency"
+    },
+    "doc_score": 43,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "why agent forget when agent can remember",
+    "summary_zh": "",
+    "install_hint": "npm install -g cavemem",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.909
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

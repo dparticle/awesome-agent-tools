@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "full_name": "uwuclxdy/clauth",
+  "name": "clauth",
+  "owner": "uwuclxdy",
+  "url": "https://github.com/uwuclxdy/clauth",
+  "description": "Claude Code multi-account manager, usage monitor (CLI, TUI & cross-account delegation via MCP)",
+  "homepage": "",
+  "category": "quota-account-ops",
+  "also_in": [],
+  "matched_capabilities": [
+    "multi-account-switching"
+  ],
+  "category_score": 16.0,
+  "stars": 271,
+  "forks": 31,
+  "open_issues": 20,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "account-manager",
+    "account-switcher",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "claude-code-multi-accounts",
+    "cli",
+    "herdr-plugin",
+    "oauth",
+    "ratatui",
+    "rate-limits",
+    "rust",
+    "terminal",
+    "tui",
+    "usage-monitor",
+    "vibecoded"
+  ],
+  "created_at": "2026-04-28T12:20:42Z",
+  "updated_at": "2026-10-07T04:47:59Z",
+  "pushed_at": "2026-10-07T05:02:35Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "mommy",
+  "age_days": 162,
+  "days_since_push": 0,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 48.7,
+    "momentum": 1.4,
+    "maintenance": 100.0,
+    "documentation": 57.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 271,
+    "days_span": 162,
+    "stars_per_day": 1.67,
+    "lifetime_stars_per_day": 1.67,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "uwuclxdy/clauth",
+    "readme_chars": 15462,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "parallel-execution",
+      "model-routing",
+      "usage-analytics",
+      "session-persistence",
+      "skills-plugins",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "r CLAUDE.md, plugins, hooks, skills, MCP servers and tools, leaving a clean session for headless work or blind evals.",
+      "quota-management": "or delegate a headless prompt to another account without leaving the chat.",
+      "parallel-execution": "auth or a single keypress in the TUI.",
+      "model-routing": "ve usage monitor, then wires the two together so a fallback chain moves you off an exhausted account before Claude Code ever blocks.",
+      "usage-analytics": "e and rate limits? The Overview tab shows color-coded 5h (and 7-day) bars per account with reset times; the Usage tab breaks down every rate-limit window the API reports; the Tokens tab adds a global token dashboard wit…",
+      "session-persistence": "ns the refresh and auto-switch loop with no TUI and publishes status.json for a menu-bar app to read, or serves that feed, the account switch, the herdr panes with their terminal streams, Claude Code session history, an…",
+      "skills-plugins": "",
+      "mcp-support": "Claude Code multi-account manager & MCP Plugin",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-account-switching": 3,
+      "quota-management": 1,
+      "parallel-execution": 1,
+      "model-routing": 2,
+      "usage-analytics": 2,
+      "session-persistence": 1,
+      "skills-plugins": 1,
+      "mcp-support": 10,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "cargo install",
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "cargo build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via cargo install, curl | sh installer; needs cargo build; configure API key configuration, OAuth login flow",
+      "note_zh": "较易上手。可通过 cargo install、curl | sh installer 安装；需要 cargo build；需配置 API key configuration、OAuth login flow"
+    },
+    "doc_score": 57,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Juggle every Claude Code account from one terminal: switch in a keypress, track live 5h / 7d usage, auto-switch before a limit stops you, even hand a task to another account from inside Claude.",
+    "summary_zh": "",
+    "install_hint": "cargo install clauth",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.488
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

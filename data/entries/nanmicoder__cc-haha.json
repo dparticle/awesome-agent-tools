@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "full_name": "NanmiCoder/cc-haha",
+  "name": "cc-haha",
+  "owner": "NanmiCoder",
+  "url": "https://github.com/NanmiCoder/cc-haha",
+  "description": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
+  "homepage": "cchaha.ai",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 17.0,
+  "stars": 14892,
+  "forks": 8596,
+  "open_issues": 191,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "ai",
+    "ai-agent",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "coding-agent",
+    "computer-use",
+    "desktop-app",
+    "electron",
+    "llm",
+    "mcp",
+    "react",
+    "typescript"
+  ],
+  "created_at": "2026-03-31T17:30:14Z",
+  "updated_at": "2026-10-07T13:15:46Z",
+  "pushed_at": "2026-10-05T21:21:08Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 189,
+  "days_since_push": 1,
+  "health_score": 78,
+  "health_components": {
+    "popularity": 83.5,
+    "momentum": 65.7,
+    "maintenance": 100.0,
+    "documentation": 57.0,
+    "accessibility": 79.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 14892,
+    "days_span": 189,
+    "stars_per_day": 78.79,
+    "lifetime_stars_per_day": 78.79,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "NanmiCoder/cc-haha",
+    "readme_chars": 8293,
+    "capabilities": [
+      "quota-management",
+      "auto-failover",
+      "remote-control",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "billing-metering",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "",
+      "auto-failover": "图片生成：聊天中直接生成和编辑图片——ChatGPT / Grok 授权登录即可使用，也支持接入任意 OpenAI 兼容的 Images API。",
+      "remote-control": "de Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、H5 远程访问、IM 接入和定时任务，集中在…",
+      "multi-agent-orchestration": "GitHub Pull Requests License 中文 English Docs 简体中文 · English cc-haha 是一个桌面端 Claude Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Team…",
+      "worktree-isolation": "cc-haha 是一个桌面端 Claude Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、H5…",
+      "billing-metering": "",
+      "usage-analytics": "",
+      "session-persistence": "/ Agent 定制需求，请联系作者 NanmiCoder。",
+      "memory-context": "端功能 功能总览 · Computer Use · 桌面宠物 · 手机 H5 与 IM 接力",
+      "skills-plugins": "-haha 是一个桌面端 Claude Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、H5 远程…",
+      "mcp-support": "- 模型自选：Claude / ChatGPT / Grok 官方账号可直接登录；DeepSeek、Kimi、智谱 GLM 等第三方 API 有现成预设；LM Studio、Ollama 的本地模型也接得上。",
+      "security-isolation": "图、点击、输入并控制桌面应用；macOS 原生运行时不占用你的真实鼠标和键盘。",
+      "self-hosted": "",
+      "gui-desktop": "cc-haha 是一个桌面端 Claude Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "auto-failover": 1,
+      "remote-control": 2,
+      "multi-agent-orchestration": 3,
+      "worktree-isolation": 3,
+      "billing-metering": 1,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "skills-plugins": 2,
+      "mcp-support": 3,
+      "security-isolation": 3,
+      "self-hosted": 1,
+      "gui-desktop": 12,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 29,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. configure API key configuration; GUI application",
+      "note_zh": "较易上手。需配置 API key configuration；GUI application"
+    },
+    "doc_score": 57,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "cc-haha 是一个桌面端 Claude Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、H5 远程访问、IM 接入和定时任务，集中在一…",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.05
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

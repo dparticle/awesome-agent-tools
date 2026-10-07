@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "full_name": "oracle/mcp",
+  "name": "mcp",
+  "owner": "oracle",
+  "url": "https://github.com/oracle/mcp",
+  "description": "Repository containing MCP (Model Context Protocol) servers that provides a suite of tools for managing and interacting with Oracle products.",
+  "homepage": "",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 13.0,
+  "stars": 454,
+  "forks": 147,
+  "open_issues": 47,
+  "language": "Python",
+  "license": "UPL-1.0",
+  "topics": [],
+  "created_at": "2025-07-27T08:02:34Z",
+  "updated_at": "2026-10-07T11:39:18Z",
+  "pushed_at": "2026-10-07T00:37:40Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 437,
+  "days_since_push": 0,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 53.1,
+    "momentum": 0.9,
+    "maintenance": 100.0,
+    "documentation": 58.0,
+    "accessibility": 84.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 454,
+    "days_span": 437,
+    "stars_per_day": 1.04,
+    "lifetime_stars_per_day": 1.04,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "oracle/mcp",
+    "readme_chars": 23959,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "mcp-support",
+      "security-isolation",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "model-routing": "CLI-backed option when you specifically need OCI CLI commands:",
+      "mcp-support": "# Oracle MCP Server Repository",
+      "security-isolation": "",
+      "cross-agent-support": "Mentions Cline, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "model-routing": 3,
+      "mcp-support": 64,
+      "security-isolation": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 16,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "uvx one-liner",
+        "go install",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via npx one-liner, uvx one-liner; configure API key configuration, config file",
+      "note_zh": "开箱即用。可通过 npx one-liner、uvx one-liner 安装；需配置 API key configuration、config file"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "Repository containing reference implementations of MCP (Model Context Protocol) servers for managing and interacting with Oracle products.",
+    "summary_zh": "",
+    "install_hint": "uvx oracle.oci-cloud-mcp-server@latest",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "has an index/catalogue section"
+      ],
+      "external_link_ratio": 0.626
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

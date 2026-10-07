@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "full_name": "slopus/happy",
+  "name": "happy",
+  "owner": "slopus",
+  "url": "https://github.com/slopus/happy",
+  "description": "Happy is the open-source desktop app for Claude Code, Codex, and Grok, with an iOS and Android app to control your coding agents from anywhere.",
+  "homepage": "https://happy.engineering/",
+  "category": "remote-control",
+  "also_in": [],
+  "matched_capabilities": [
+    "mobile-access",
+    "remote-control"
+  ],
+  "category_score": 25.5,
+  "stars": 24042,
+  "forks": 2053,
+  "open_issues": 1069,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "claude-code",
+    "claude-desktop",
+    "claude-mobile",
+    "codex",
+    "codex-cli",
+    "hacktoberfest"
+  ],
+  "created_at": "2025-07-18T05:53:18Z",
+  "updated_at": "2026-10-07T11:45:17Z",
+  "pushed_at": "2026-10-07T09:28:34Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 446,
+  "days_since_push": 0,
+  "health_score": 71,
+  "health_components": {
+    "popularity": 87.6,
+    "momentum": 44.9,
+    "maintenance": 100.0,
+    "documentation": 29.0,
+    "accessibility": 96.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 24042,
+    "days_span": 446,
+    "stars_per_day": 53.91,
+    "lifetime_stars_per_day": 53.91,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "slopus/happy",
+    "readme_chars": 4418,
+    "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "model-routing",
+      "security-isolation",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "lopus/slopus.github.io The website and docs at happy.engineering",
+      "mobile-access": "Happy adds a harness, not another bill.",
+      "multi-agent-orchestration": "",
+      "model-routing": ".com/user-attachments/assets/b3580704-f9e0-441e-80be-3f83f6a08ab5",
+      "security-isolation": "",
+      "gui-desktop": "Android, web), the original CLI, and the relay server",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "mobile-access": 2,
+      "multi-agent-orchestration": 1,
+      "model-routing": 1,
+      "security-isolation": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 24,
+      "out_of_the_box": true,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Easy. install via global npm install; needs npm install/build; configure sign-in required; GUI application",
+      "note_zh": "较易上手。可通过 global npm install 安装；需要 npm install/build；需配置 sign-in required；GUI application"
+    },
+    "doc_score": 29,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Multi-provider within one session.",
+    "summary_zh": "",
+    "install_hint": "npm install -g happy",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.132
+    }
+  },
+  "discovery": {
+    "source": "seed",
+    "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
+    "metadata_source": "api"
+  },
+  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

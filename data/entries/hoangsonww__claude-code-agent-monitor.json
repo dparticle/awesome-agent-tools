@@ -1,0 +1,208 @@
+{
+  "schema": 1,
+  "full_name": "hoangsonww/Claude-Code-Agent-Monitor",
+  "name": "Claude-Code-Agent-Monitor",
+  "owner": "hoangsonww",
+  "url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
+  "description": "🚀 A real-time monitoring dashboard for Claude Code & Codex, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, & WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, & an interactive web UI/MacOS/Windows native app.",
+  "homepage": "https://hoangsonww.github.io/Claude-Code-Agent-Monitor/",
+  "category": "observability",
+  "also_in": [],
+  "matched_capabilities": [
+    "usage-analytics"
+  ],
+  "category_score": 17.0,
+  "stars": 1049,
+  "forks": 245,
+  "open_issues": 44,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "claude-agents",
+    "claude-code",
+    "claude-skills",
+    "express",
+    "expressjs",
+    "macos-app",
+    "node",
+    "nodejs",
+    "python",
+    "react",
+    "rest-api",
+    "rfc-6455",
+    "sqlite",
+    "sqlite3",
+    "tailwind",
+    "tailwindcss",
+    "typescript",
+    "vite",
+    "websocket"
+  ],
+  "created_at": "2026-03-05T18:52:21Z",
+  "updated_at": "2026-10-07T05:22:00Z",
+  "pushed_at": "2026-10-06T16:46:34Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 215,
+  "days_since_push": 0,
+  "health_score": 55,
+  "health_components": {
+    "popularity": 60.4,
+    "momentum": 4.1,
+    "maintenance": 100.0,
+    "documentation": 72.0,
+    "accessibility": 48.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1049,
+    "days_span": 215,
+    "stars_per_day": 4.88,
+    "lifetime_stars_per_day": 4.88,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "hoangsonww/Claude-Code-Agent-Monitor",
+    "readme_chars": 226882,
+    "capabilities": [
+      "auto-failover",
+      "remote-control",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "model-routing",
+      "billing-metering",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "terse follow-up never hides the active task.",
+      "remote-control": ", sync manually or on a background poller, and switch the global data scope between local, all sources, or a specific machine, with per-session source badges",
+      "mobile-access": "tifications arrive even if the browser is closed, as the Service Worker operates in the background.",
+      "multi-agent-orchestration": "g platform for Claude Code, Cursor & Codex agent activity 🚀",
+      "model-routing": "restart The database persists across restarts.",
+      "billing-metering": "hole session and shows the session total, while a subagent card shows only what that subagent spent, so a subagent card no longer misleadingly reads as if it cost the entire session.",
+      "usage-analytics": "ion flow is based on token usage and model pricing rules.",
+      "session-persistence": "his handles /resume inside a session, Ctrl+C, and other scenarios where a session is orphaned without a clean SessionEnd",
+      "memory-context": "h unset options shown as defaults, plus the per-file structured key-value view + raw JSON toggle, secret-key redaction), memory (the user + project CLAUDE.md files **plus** the per-project file-based memory store — ever…",
+      "skills-plugins": "ashboard itself, making it easy to integrate dashboard operations directly into your Claude Code & Codex workflows.",
+      "mcp-support": "alized documentation with region-specific tips and best practices.",
+      "security-isolation": "— kept tooltip-only on the compact cards so titles keep their space; wider surfaces (Sessions table, session-detail header) additionally show the reason inline as a nested chip, with urgent reasons (permission prompts,…",
+      "self-hosted": "bsolute working directory and canonicalizes it before use, so home and recent-project launches remain supported.",
+      "gui-desktop": "ion, transport details, safety flags, and tool catalog.",
+      "notifications": "ly JSONL incrementally, prioritizes the newest rollouts, and isolates a bad historical file for retry, so sessions, tokens, costs, conversation rows, and WebSocket updates stay current even if a hook notification is mis…",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 2,
+      "remote-control": 1,
+      "mobile-access": 2,
+      "multi-agent-orchestration": 23,
+      "model-routing": 1,
+      "billing-metering": 1,
+      "usage-analytics": 3,
+      "session-persistence": 2,
+      "memory-context": 1,
+      "skills-plugins": 2,
+      "mcp-support": 30,
+      "security-isolation": 1,
+      "self-hosted": 2,
+      "gui-desktop": 15,
+      "notifications": 21,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 52,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)",
+        "npm install/build",
+        "make build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "config.json/yaml/toml",
+        "sign-in required",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "no-code positioning",
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner, native installer / package; needs docker compose up, git clone (build from source); configure environment variables, config.json/yaml/toml; no-code positioning",
+      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 docker compose up、git clone (build from source)；需配置 environment variables、config.json/yaml/toml；no-code positioning"
+    },
+    "doc_score": 72,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "A professional dashboard to track and visualize Claude Code, Cursor, and Codex agent sessions, tool usage, conversation history, cost, and subagent orchestration in real time.",
+    "summary_zh": "",
+    "install_hint": "docker compose up -d --build",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.326
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:15+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

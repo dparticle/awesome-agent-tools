@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "full_name": "Wei-Shaw/sub2api",
+  "name": "sub2api",
+  "owner": "Wei-Shaw",
+  "url": "https://github.com/Wei-Shaw/sub2api",
+  "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+  "homepage": "",
+  "category": "sharing-gateway",
+  "also_in": [],
+  "matched_capabilities": [
+    "billing-metering"
+  ],
+  "category_score": 21.0,
+  "stars": 43392,
+  "forks": 9293,
+  "open_issues": 3574,
+  "language": "Go",
+  "license": "LGPL-3.0",
+  "topics": [
+    "2api",
+    "antigravity2api",
+    "cc2api",
+    "claude",
+    "claude-code",
+    "codex",
+    "crs",
+    "crs2",
+    "gemini"
+  ],
+  "created_at": "2025-12-18T02:26:18Z",
+  "updated_at": "2026-10-07T12:08:03Z",
+  "pushed_at": "2026-10-07T02:03:02Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 293,
+  "days_since_push": 0,
+  "health_score": 85,
+  "health_components": {
+    "popularity": 92.7,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 64.0,
+    "accessibility": 43.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 43392,
+    "days_span": 293,
+    "stars_per_day": 148.1,
+    "lifetime_stars_per_day": 148.1,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Wei-Shaw/sub2api",
+    "readme_chars": 53522,
+    "capabilities": [
+      "multi-account-switching",
+      "auto-failover",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "billing-metering",
+      "usage-analytics",
+      "memory-context",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "Sub2API: it features a built-in native Roxy AI Agent and high-quality native residential IPs, supports batch automation via simple commands, and significantly boosts security and efficiency for multi-account management!…",
+      "auto-failover": ", and more affordable AI API access.",
+      "mobile-access": "oject! AxisNow protects and accelerates websites and APIs, delivering an optimal access experience across mainland China and globally, while extending acceleration and security capabilities to native/mobile apps through…",
+      "multi-agent-orchestration": "targets and bridged to xAI HTTP/SSE Responses upstream",
+      "model-routing": "is makes AI usage more reliable and manageable across individual development, team collaboration, and production environments.",
+      "api-gateway": "es, and legal liabilities shall be borne solely by the party conducting such activity.",
+      "billing-metering": "r sponsoring this project! PatewayAI is a premium API relay built for heavy AI developers, offering the full Claude and Codex series sourced 100% from official providers, with transparent token-level billing.",
+      "usage-analytics": "",
+      "memory-context": "ing available — start your free test now !",
+      "security-isolation": "",
+      "self-hosted": "rates websites and APIs, delivering an optimal access experience across mainland China and globally, while extending acceleration and security capabilities to native/mobile apps through client SDKs — self-hosted private…",
+      "team-collaboration": ", transparent pricing, and consolidated billing, along with budget management, rate limiting, and concurrency controls.",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Gemini CLI, OpenCode"
+    },
+    "capability_hits": {
+      "multi-account-switching": 7,
+      "auto-failover": 4,
+      "mobile-access": 1,
+      "multi-agent-orchestration": 1,
+      "model-routing": 6,
+      "api-gateway": 7,
+      "billing-metering": 13,
+      "usage-analytics": 1,
+      "memory-context": 1,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "team-collaboration": 2,
+      "gui-desktop": 2,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 57,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "global npm install",
+        "download a release binary"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)",
+        "pnpm install/build",
+        "npm install/build",
+        "go build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Some setup. install via curl | sh installer, global npm install; needs docker compose up, git clone (build from source); configure environment variables, API key configuration; one-click setup",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、global npm install 安装；需要 docker compose up、git clone (build from source)；需配置 environment variables、API key configuration；one-click setup"
+    },
+    "doc_score": 64,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode"
+    ],
+    "summary_en": "AI API Gateway Platform for Subscription Quota Distribution",
+    "summary_zh": "",
+    "install_hint": "curl -sSL https://raw.githubusercontent.com/Wei-Shaw/sub2api/main/deploy/install.sh | sudo bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.149
+    }
+  },
+  "discovery": {
+    "source": "seed",
+    "seed_reason": "Turn upstream AI subscriptions into a metered, rate-limited, billable relay.",
+    "metadata_source": "api"
+  },
+  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

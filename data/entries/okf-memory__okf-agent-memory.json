@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "full_name": "okf-memory/okf-agent-memory",
+  "name": "okf-agent-memory",
+  "owner": "okf-memory",
+  "url": "https://github.com/okf-memory/okf-agent-memory",
+  "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
+  "homepage": "https://okf-memory.dev",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 757,
+  "forks": 59,
+  "open_issues": 4,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "agent-memory",
+    "ai-agents",
+    "bm25",
+    "coding-agents",
+    "developer-tools",
+    "git-native",
+    "go",
+    "golang",
+    "knowledge-base",
+    "knowledge-graph",
+    "llm-memory",
+    "markdown",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "okf",
+    "open-knowledge-format",
+    "persistent-memory"
+  ],
+  "created_at": "2026-09-05T21:26:04Z",
+  "updated_at": "2026-10-07T04:54:11Z",
+  "pushed_at": "2026-10-04T21:10:46Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "develop",
+  "age_days": 31,
+  "days_since_push": 2,
+  "health_score": 58,
+  "health_components": {
+    "popularity": 57.6,
+    "momentum": 20.3,
+    "maintenance": 100.0,
+    "documentation": 63.0,
+    "accessibility": 55.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 757,
+    "days_span": 31,
+    "stars_per_day": 24.42,
+    "lifetime_stars_per_day": 24.42,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "okf-memory/okf-agent-memory",
+    "readme_chars": 19491,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "memory-context": "Syntax Canonical URN Storage Location Priority Precedence & Rules",
+      "agent-runtime": ".2 compliant persistent memory bundle (index.md, log.md)",
+      "mcp-support": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "memory-context": 2,
+      "agent-runtime": 1,
+      "mcp-support": 4,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 45,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "make build"
+      ],
+      "config_signals": [
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Some setup. needs make build; configure server/reverse-proxy setup",
+      "note_zh": "需要一些配置。需要 make build；需配置 server/reverse-proxy setup"
+    },
+    "doc_score": 63,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "Conversations with AI agents reset when context windows close.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.462
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:17+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "supersede": {
+      "incumbent": "okf-memory/okf-agent-memory",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "okf-memory/okf-agent-memory",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration"
+      ],
+      "star_ratio": 38.579,
+      "momentum_ratio": 5.339,
+      "setup_delta": -13,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "38.58x the stars (29,204 vs 757)",
+        "5.34x the star velocity (130.4/day vs 24.4/day)",
+        "no harder to set up (32 vs 45 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 58,
+        "challenger_health": 88,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

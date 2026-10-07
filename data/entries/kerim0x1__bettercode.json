@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "full_name": "kerim0x1/bettercode",
+  "name": "bettercode",
+  "owner": "kerim0x1",
+  "url": "https://github.com/kerim0x1/bettercode",
+  "description": "Every coding agent in one desktop workspace. Run Claude Code, OpenAI Codex, Cursor Agent and Grok side by side. Bring your own CLI. Free during beta. Open source as of 21 September 2026 (MIT).",
+  "homepage": "https://betterc0de.com",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "agent-runtime",
+    "cross-agent-support"
+  ],
+  "category_score": 25.0,
+  "stars": 275,
+  "forks": 4,
+  "open_issues": 7,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-coding-agent",
+    "claude-code",
+    "codex",
+    "cursor",
+    "desktop-app",
+    "developer-tools",
+    "electron",
+    "grok"
+  ],
+  "created_at": "2026-09-20T22:48:35Z",
+  "updated_at": "2026-10-04T15:55:41Z",
+  "pushed_at": "2026-10-05T08:39:13Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 16,
+  "days_since_push": 2,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 48.8,
+    "momentum": 14.3,
+    "maintenance": 100.0,
+    "documentation": 61.0,
+    "accessibility": 84.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 275,
+    "days_span": 16,
+    "stars_per_day": 17.19,
+    "lifetime_stars_per_day": 17.19,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "kerim0x1/bettercode",
+    "readme_chars": 12627,
+    "capabilities": [
+      "mobile-access",
+      "billing-metering",
+      "agent-runtime",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mobile-access": "name, logo, visual direction, and reusable product descriptions.",
+      "billing-metering": "or read the terms and data information.",
+      "agent-runtime": "project files, terminals, and live previews together.",
+      "team-collaboration": "nd live previews together.",
+      "gui-desktop": "ws: SmartScreen shows \"Windows protected your PC\".",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "mobile-access": 1,
+      "billing-metering": 1,
+      "agent-runtime": 2,
+      "team-collaboration": 2,
+      "gui-desktop": 5,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 24,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "winget install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via winget install, native installer / package; needs git clone (build from source), npm install/build; configure environment variables; GUI application",
+      "note_zh": "较易上手。可通过 winget install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables；GUI application"
+    },
+    "doc_score": 61,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "Bring your AI conversations, project files, terminals, and live previews together.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.871
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

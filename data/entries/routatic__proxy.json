@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "full_name": "routatic/proxy",
+  "name": "proxy",
+  "owner": "routatic",
+  "url": "https://github.com/routatic/proxy",
+  "description": "route Claude Code requests through multiple upstream providers (OpenCode Go, OpenCode Zen, and AWS Bedrock) with automatic model selection and format transformation.",
+  "homepage": "https://deepwiki.com/routatic/proxy/1-overview",
+  "category": "model-routing",
+  "also_in": [],
+  "matched_capabilities": [
+    "model-routing"
+  ],
+  "category_score": 17.0,
+  "stars": 980,
+  "forks": 134,
+  "open_issues": 12,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "topics": [
+    "aws-bedrock",
+    "claude",
+    "claude-code",
+    "claude-code-cli",
+    "opencode",
+    "opencode-ai",
+    "opencode-go",
+    "opencode-zen"
+  ],
+  "created_at": "2026-04-17T00:55:43Z",
+  "updated_at": "2026-10-07T03:48:46Z",
+  "pushed_at": "2026-10-02T07:54:04Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 173,
+  "days_since_push": 5,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 59.8,
+    "momentum": 4.7,
+    "maintenance": 100.0,
+    "documentation": 65.0,
+    "accessibility": 67.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 980,
+    "days_span": 173,
+    "stars_per_day": 5.66,
+    "lifetime_stars_per_day": 5.66,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "routatic/proxy",
+    "readme_chars": 9593,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "provider-aggregation",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "Routing** — Configurable routing for streaming requests (see CONFIGURATION.md)",
+      "model-routing": "enCode Go, OpenCode Zen, AWS Bedrock, or OpenRouter from a single config",
+      "provider-aggregation": "ng Claude/GPT/Gemini access without multiple API keys",
+      "gui-desktop": "ch config file for changes and reload automatically",
+      "cross-agent-support": "Mentions Claude Code, OpenCode"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "model-routing": 2,
+      "provider-aggregation": 1,
+      "gui-desktop": 5,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 33,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "environment variables",
+        "config file",
+        "config.json/yaml/toml",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via Homebrew install; configure environment variables, config file; GUI application",
+      "note_zh": "较易上手。可通过 Homebrew install 安装；需配置 environment variables、config file；GUI application"
+    },
+    "doc_score": 65,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "OpenCode"
+    ],
+    "summary_en": "route Claude Code requests through multiple upstream providers (OpenCode Go, OpenCode Zen, and AWS Bedrock) with automatic model selection and format transformation.",
+    "summary_zh": "",
+    "install_hint": "brew tap routatic/tap && brew install routatic-proxy",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.042
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:16+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

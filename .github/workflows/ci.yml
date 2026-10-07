@@ -1,0 +1,53 @@
+name: CI
+
+# Guards the pipeline itself: config validity, the analyser's behaviour on
+# fixture READMEs, and the integrity of the committed data.
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate JSON config
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          bad = 0
+          for path in sorted(pathlib.Path("config").glob("*.json")):
+              try:
+                  json.loads(path.read_text(encoding="utf-8"))
+                  print(f"ok   {path}")
+              except json.JSONDecodeError as exc:
+                  print(f"FAIL {path}: {exc}")
+                  bad += 1
+          sys.exit(1 if bad else 0)
+          PY
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate the committed index
+        run: python scripts/agentindex.py validate
+
+      - name: Verify generated files are in sync
+        run: |
+          python scripts/agentindex.py render --check
+          if ! git diff --quiet -- README.md README.zh-CN.md docs; then
+            echo "::error::Generated files are out of date. Run 'python scripts/agentindex.py render' and commit the result."
+            git diff --stat -- README.md README.zh-CN.md docs
+            exit 1
+          fi
+          echo "Generated files are in sync."

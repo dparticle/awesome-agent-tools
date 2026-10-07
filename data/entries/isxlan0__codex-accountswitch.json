@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "full_name": "isxlan0/Codex_AccountSwitch",
+  "name": "Codex_AccountSwitch",
+  "owner": "isxlan0",
+  "url": "https://github.com/isxlan0/Codex_AccountSwitch",
+  "description": "Manage and switch multiple AI coding accounts locally without restarting development tools.",
+  "homepage": "",
+  "category": "quota-account-ops",
+  "also_in": [],
+  "matched_capabilities": [
+    "multi-account-switching"
+  ],
+  "category_score": 13.0,
+  "stars": 252,
+  "forks": 37,
+  "open_issues": 6,
+  "language": "C++",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-02-06T12:39:33Z",
+  "updated_at": "2026-10-04T04:52:03Z",
+  "pushed_at": "2026-07-24T10:34:49Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 243,
+  "days_since_push": 75,
+  "health_score": 41,
+  "health_components": {
+    "popularity": 48.0,
+    "momentum": 0.9,
+    "maintenance": 78.0,
+    "documentation": 32.0,
+    "accessibility": 54.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 252,
+    "days_span": 243,
+    "stars_per_day": 1.04,
+    "lifetime_stars_per_day": 1.04,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "isxlan0/Codex_AccountSwitch",
+    "readme_chars": 4144,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "api-gateway",
+      "usage-analytics",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "",
+      "quota-management": "",
+      "api-gateway": "",
+      "usage-analytics": "nual callback URL submit)",
+      "gui-desktop": ""
+    },
+    "capability_hits": {
+      "multi-account-switching": 6,
+      "quota-management": 1,
+      "api-gateway": 1,
+      "usage-analytics": 1,
+      "gui-desktop": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 46,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "note_en": "Some setup. install via native installer / package; configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需配置 API key configuration、config.json/yaml/toml"
+    },
+    "doc_score": 32,
+    "doc_signals": [
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "explains architecture"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "Built with C++ / Win32 / WebView2 for stability and speed.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.483
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by yetone/magpie: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 yetone/magpie 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "yetone/magpie",
+    "supersede": {
+      "incumbent": "isxlan0/codex_accountswitch",
+      "challenger": "yetone/magpie",
+      "incumbent_name": "isxlan0/Codex_AccountSwitch",
+      "challenger_name": "yetone/magpie",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "gui-desktop",
+        "multi-account-switching",
+        "quota-management",
+        "usage-analytics"
+      ],
+      "star_ratio": 22.488,
+      "momentum_ratio": 419.154,
+      "setup_delta": -28,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "22.49x the stars (5,667 vs 252)",
+        "419.15x the star velocity (435.9/day vs 1.0/day)",
+        "no harder to set up (18 vs 46 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "gui-desktop",
+          "multi-account-switching",
+          "quota-management",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-account-switching",
+          "quota-management",
+          "usage-analytics"
+        ],
+        "incumbent_health": 41,
+        "challenger_health": 84,
+        "incumbent_setup_score": 46,
+        "challenger_setup_score": 18
+      }
+    }
+  }
+}

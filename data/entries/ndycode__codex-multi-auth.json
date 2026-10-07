@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "full_name": "ndycode/codex-multi-auth",
+  "name": "codex-multi-auth",
+  "owner": "ndycode",
+  "url": "https://github.com/ndycode/codex-multi-auth",
+  "description": "Codex CLI multi-account OAuth manager with account switching, health checks, runtime rotation, diagnostics, and recovery tools for @openai/codex",
+  "homepage": "https://www.npmjs.com/package/codex-multi-auth",
+  "category": "quota-account-ops",
+  "also_in": [],
+  "matched_capabilities": [
+    "multi-account-switching"
+  ],
+  "category_score": 15.0,
+  "stars": 534,
+  "forks": 67,
+  "open_issues": 1,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "account-health",
+    "account-switching",
+    "chatgpt",
+    "codex",
+    "codex-auth",
+    "codex-cli",
+    "codex-multi-account",
+    "diagnostics",
+    "multi-account",
+    "nodejs",
+    "oauth",
+    "oauth2",
+    "openai",
+    "pkce",
+    "quota-management",
+    "recovery-tools",
+    "responses-api",
+    "runtime-rotation",
+    "terminal-ui",
+    "typescript"
+  ],
+  "created_at": "2026-02-22T22:37:04Z",
+  "updated_at": "2026-10-07T06:55:11Z",
+  "pushed_at": "2026-10-06T13:30:30Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 226,
+  "days_since_push": 1,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 54.6,
+    "momentum": 2.0,
+    "maintenance": 100.0,
+    "documentation": 61.0,
+    "accessibility": 67.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 534,
+    "days_span": 226,
+    "stars_per_day": 2.36,
+    "lifetime_stars_per_day": 2.36,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "ndycode/codex-multi-auth",
+    "readme_chars": 9969,
+    "capabilities": [
+      "multi-account-switching",
+      "api-gateway",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "OpenAI install keeps owning that command.",
+      "api-gateway": "multi-auth login ≡ codex-multi-auth auth login.",
+      "cross-agent-support": "Mentions Codex, OpenCode"
+    },
+    "capability_hits": {
+      "multi-account-switching": 3,
+      "api-gateway": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 41,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "OAuth login flow",
+        "sign-in required",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. configure OAuth login flow, sign-in required; GUI application",
+      "note_zh": "需要一些配置。需配置 OAuth login flow、sign-in required；GUI application"
+    },
+    "doc_score": 61,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "codex-multi-auth is a multi-account OAuth manager for the official @openai/codex CLI.",
+    "summary_zh": "",
+    "install_hint": "npm i -g codex-multi-auth",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.502
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by yetone/magpie: covers 100% of capabilities (3/3).",
+    "note_zh": "已被 yetone/magpie 取代：covers 100% of capabilities (3/3)。",
+    "superseded_by": "yetone/magpie",
+    "supersede": {
+      "incumbent": "ndycode/codex-multi-auth",
+      "challenger": "yetone/magpie",
+      "incumbent_name": "ndycode/codex-multi-auth",
+      "challenger_name": "yetone/magpie",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "cross-agent-support",
+        "multi-account-switching"
+      ],
+      "star_ratio": 10.612,
+      "momentum_ratio": 184.712,
+      "setup_delta": -23,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (3/3)",
+        "10.61x the stars (5,667 vs 534)",
+        "184.71x the star velocity (435.9/day vs 2.4/day)",
+        "no harder to set up (18 vs 41 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "multi-account-switching"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-account-switching",
+          "quota-management",
+          "usage-analytics"
+        ],
+        "incumbent_health": 54,
+        "challenger_health": 84,
+        "incumbent_setup_score": 41,
+        "challenger_setup_score": 18
+      }
+    }
+  }
+}

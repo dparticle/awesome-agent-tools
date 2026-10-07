@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "full_name": "harishkotra/agent-office",
+  "name": "agent-office",
+  "owner": "harishkotra",
+  "url": "https://github.com/harishkotra/agent-office",
+  "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
+  "homepage": "",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 10.0,
+  "stars": 323,
+  "forks": 103,
+  "open_issues": 1,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-02-25T04:43:02Z",
+  "updated_at": "2026-10-06T17:59:56Z",
+  "pushed_at": "2026-09-25T04:17:56Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 224,
+  "days_since_push": 12,
+  "health_score": 45,
+  "health_components": {
+    "popularity": 50.2,
+    "momentum": 1.2,
+    "maintenance": 92.0,
+    "documentation": 57.0,
+    "accessibility": 25.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 323,
+    "days_span": 224,
+    "stars_per_day": 1.44,
+    "lifetime_stars_per_day": 1.44,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "harishkotra/agent-office",
+    "readme_chars": 9768,
+    "capabilities": [
+      "mobile-access",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "memory-context",
+      "skills-plugins",
+      "team-collaboration"
+    ],
+    "capability_evidence": {
+      "mobile-access": "",
+      "multi-agent-orchestration": "nderer, React overlay (Chat, TaskBoard, Inspector, SystemLog, LayoutEditor)",
+      "worktree-isolation": "ments/assets/da76e31d-ff34-4ce1-9092-5bf9e6ee2058",
+      "model-routing": "ach other, execute code, search the web, and grow their team — all rendered in real-time pixel art with persistent memory across sessions.",
+      "api-gateway": "ach other, execute code, search the web, and grow their team — all rendered in real-time pixel art with persistent memory across sessions.",
+      "memory-context": "",
+      "skills-plugins": "",
+      "team-collaboration": "k any agent sprite to have the camera smoothly track them"
+    },
+    "capability_hits": {
+      "mobile-access": 1,
+      "multi-agent-orchestration": 1,
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "memory-context": 2,
+      "skills-plugins": 1,
+      "team-collaboration": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 75,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs docker compose up, git clone (build from source); configure database dependency",
+      "note_zh": "配置较重。需要 docker compose up、git clone (build from source)；需配置 database dependency"
+    },
+    "doc_score": 57,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [
+      "Droid"
+    ],
+    "summary_en": "Self-growing AI teams in a pixel-art virtual office — powered by local LLMs.",
+    "summary_zh": "",
+    "install_hint": "npm install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.205
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:23+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

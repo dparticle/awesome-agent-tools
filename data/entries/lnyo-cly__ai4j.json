@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "full_name": "LnYo-Cly/ai4j",
+  "name": "ai4j",
+  "owner": "LnYo-Cly",
+  "url": "https://github.com/LnYo-Cly/ai4j",
+  "description": "Java 8+ agentic SDK: unified LLM access (OpenAI/Anthropic/DashScope/Doubao/DeepSeek...),unified AI service(image/video/audio...), Tool Calling, MCP, RAG, SKILLS,Agent Runtime, A2A, agent blueprint, agent harness, and a built-in Coding Agent CLI/TUI/ACP.",
+  "homepage": "https://lnyo-cly.github.io/ai4j/",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "agent-runtime"
+  ],
+  "category_score": 13.0,
+  "stars": 434,
+  "forks": 56,
+  "open_issues": 3,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent",
+    "anthropic",
+    "chatglm",
+    "chatgpt",
+    "coding-agent",
+    "dashscope",
+    "deepseek",
+    "embedding",
+    "function-calling",
+    "hunyuan",
+    "java",
+    "mcp",
+    "ollama",
+    "openai",
+    "rag",
+    "runtime",
+    "sdk",
+    "spring-boot",
+    "vector-database"
+  ],
+  "created_at": "2024-08-17T08:59:56Z",
+  "updated_at": "2026-10-05T03:12:04Z",
+  "pushed_at": "2026-10-02T07:22:15Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 781,
+  "days_since_push": 5,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 52.7,
+    "momentum": 0.5,
+    "maintenance": 100.0,
+    "documentation": 56.0,
+    "accessibility": 88.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 434,
+    "days_span": 781,
+    "stars_per_day": 0.56,
+    "lifetime_stars_per_day": 0.56,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "LnYo-Cly/ai4j",
+    "readme_chars": 10270,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "provider-aggregation",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "team-collaboration"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "eepSeek、智谱、豆包、Ollama 等由同一工厂提供服务；Chat / Responses / Messages 三套协议完整支持，Function Calling、SSE 流式原生具备；Embedding、Rerank、图像/音频/视频/音乐生成、实时对话等十类服务接口按需取用；切换平台仅需修改 PlatformType，多组 API Key 可并存并按名称路由。",
+      "worktree-isolation": "nMemory）、混合检索、重排、引用标注，整条链路在 SDK 内实现，无需外挂检索框架。",
+      "provider-aggregation": "- 统一接入 12+ 模型平台：OpenAI、Anthropic、DeepSeek、智谱、豆包、Ollama 等由同一工厂提供服务；Chat / Responses / Messages 三套协议完整支持，Function Calling、SSE 流式原生具备；Embedding、Rerank、图像/音频/视频/音乐生成、实时对话等十类服务接口按需取用；切换平台仅需修改 PlatformType，多组 API",
+      "session-persistence": "真实密钥即可回归 Agent 行为）、TypeSafe System One（Jev）决策模型接入（choice/score/noul 并行求值，置信度门控路由与 Noul 护栏）、FlowGram 可视化工作流集成等——完整能力清单见能力地图。",
+      "memory-context": "整的 Agent 编排能力：ReAct、CodeAct、Deep Research 三种执行模式，StateGraph 图编排支持条件分支与循环，subagent 委派与多智能体团队协作——从简单问答到多步研究型 Agent 均有现成实现。",
+      "skills-plugins": "",
+      "agent-runtime": "/ Coze / n8n 已有的 AgentFlow 编排，附带联网搜索增强。",
+      "mcp-support": "可选 Tika 解析 PDF/Word/Excel，或 MinerU 云端解析扫描件/公式/复杂版面为 Markdown）、切块、八大向量库适配（Pinecone / Qdrant / pgvector / Milvus / Redis / Elasticsearch / Chroma / InMemory）、混合检索、重排、引用标注，整条链路在 SDK 内实现，无需外挂检索框架。",
+      "security-isolation": "）、混合检索、重排、引用标注，整条链路在 SDK 内实现，无需外挂检索框架。",
+      "team-collaboration": "lling、SSE 流式原生具备；Embedding、Rerank、图像/音频/视频/音乐生成、实时对话等十类服务接口按需取用；切换平台仅需修改 PlatformType，多组 API Key 可并存并按名称路由。"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 5,
+      "worktree-isolation": 3,
+      "provider-aggregation": 2,
+      "session-persistence": 3,
+      "memory-context": 4,
+      "skills-plugins": 1,
+      "agent-runtime": 7,
+      "mcp-support": 4,
+      "security-isolation": 3,
+      "team-collaboration": 1
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 12,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "PowerShell irm | iex installer"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "Chinese: beginner/one-click framing"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via curl | sh installer, PowerShell irm | iex installer; configure API key configuration, database dependency; Chinese: beginner/one-click framing",
+      "note_zh": "开箱即用。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需配置 API key configuration、database dependency；Chinese: beginner/one-click framing"
+    },
+    "doc_score": 56,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "面向 JDK 8+ 的 Java AI Agentic 开发套件：统一接入主流大模型服务，内置从工具调用、RAG、MCP、Skill、沙箱到 Agent 编排与长时任务治理的完整能力，支撑快速构建专属的 Agent 与 Harness 应用。",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://lnyo-cly.github.io/ai4j/install.sh | sh    # Linux / macOS / Git Bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.682
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

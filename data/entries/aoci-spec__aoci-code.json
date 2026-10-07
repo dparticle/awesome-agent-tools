@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "full_name": "aoci-spec/aoci-code",
+  "name": "aoci-code",
+  "owner": "aoci-spec",
+  "url": "https://github.com/aoci-spec/aoci-code",
+  "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
+  "homepage": "",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 1243,
+  "forks": 157,
+  "open_issues": 15,
+  "language": "Go",
+  "license": "NOASSERTION",
+  "topics": [
+    "agent-memory",
+    "agents-md",
+    "ai-coding",
+    "ai-context",
+    "claude-code",
+    "code-indexing",
+    "code-intelligence",
+    "codex",
+    "coding-agent",
+    "context-engineering",
+    "cursor",
+    "database-schema",
+    "golang",
+    "llm",
+    "local-first",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "opencode",
+    "repo-map"
+  ],
+  "created_at": "2026-08-08T11:33:08Z",
+  "updated_at": "2026-10-07T12:58:06Z",
+  "pushed_at": "2026-10-07T07:56:10Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 60,
+  "days_since_push": 0,
+  "health_score": 58,
+  "health_components": {
+    "popularity": 61.9,
+    "momentum": 17.3,
+    "maintenance": 100.0,
+    "documentation": 74.0,
+    "accessibility": 36.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1243,
+    "days_span": 60,
+    "stars_per_day": 20.72,
+    "lifetime_stars_per_day": 20.72,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "aoci-spec/aoci-code",
+    "readme_chars": 76759,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "api-gateway",
+      "session-persistence",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "model-routing": "CP host, such as Codex, Claude Code, Cursor, or OpenCode.",
+      "api-gateway": "",
+      "session-persistence": "",
+      "memory-context": "isting authoritative assets and require no graph database, vector database, or remote graph service.",
+      "agent-runtime": "AOCI-CODE logo — AI-Oriented Cognition Infrastructure",
+      "mcp-support": "AOCI-CODE logo — AI-Oriented Cognition Infrastructure",
+      "gui-desktop": "ou only need a direct build, run:",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "session-persistence": 1,
+      "memory-context": 3,
+      "agent-runtime": 3,
+      "mcp-support": 30,
+      "gui-desktop": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "high",
+      "score": 64,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "download a release binary",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "make build",
+        "go build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "config.json/yaml/toml",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. install via download a release binary, native installer / package; needs git clone (build from source), make build; configure environment variables, config.json/yaml/toml",
+      "note_zh": "配置较重。可通过 download a release binary、native installer / package 安装；需要 git clone (build from source)、make build；需配置 environment variables、config.json/yaml/toml"
+    },
+    "doc_score": 74,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "A persistent, Git-versioned map of your entire codebase — written by your coding agent, governed by a local MCP server.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.091
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:14+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "full_name": "openai/codex",
+  "name": "codex",
+  "owner": "openai",
+  "url": "https://github.com/openai/codex",
+  "description": "Lightweight coding agent that runs in your terminal",
+  "homepage": "",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "agent-runtime",
+    "cross-agent-support"
+  ],
+  "category_score": 24.0,
+  "stars": 128146,
+  "forks": 20077,
+  "open_issues": 21106,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [],
+  "created_at": "2025-04-13T05:37:54Z",
+  "updated_at": "2026-10-07T13:25:48Z",
+  "pushed_at": "2026-10-07T13:25:45Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 542,
+  "days_since_push": 0,
+  "health_score": 89,
+  "health_components": {
+    "popularity": 100.0,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 37.0,
+    "accessibility": 96.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 128146,
+    "days_span": 542,
+    "stars_per_day": 236.43,
+    "lifetime_stars_per_day": 236.43,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "openai/codex",
+    "readme_chars": 3334,
+    "capabilities": [
+      "multi-account-switching",
+      "auto-failover",
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "inux-musl), so you likely want to rename it to codex after extracting it.",
+      "auto-failover": "the following on Mac or Linux to install Codex CLI:",
+      "agent-runtime": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
+      "gui-desktop": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
+      "cross-agent-support": "Mentions Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "auto-failover": 1,
+      "agent-runtime": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 12,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "Homebrew install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via Homebrew install, curl | sh installer; needs npm install/build; configure API key configuration, sign-in required; GUI application",
+      "note_zh": "开箱即用。可通过 Homebrew install、curl | sh installer 安装；需要 npm install/build；需配置 API key configuration、sign-in required；GUI application"
+    },
+    "doc_score": 37,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "If you want Codex in your code editor (VS Code, Cursor, Windsurf), install in your IDE.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://chatgpt.com/codex/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.9
+    }
+  },
+  "discovery": {
+    "source": "seed",
+    "seed_reason": "OpenAI's local coding agent.",
+    "metadata_source": "api"
+  },
+  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

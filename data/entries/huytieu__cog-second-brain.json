@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "full_name": "huytieu/COG-second-brain",
+  "name": "COG-second-brain",
+  "owner": "huytieu",
+  "url": "https://github.com/huytieu/COG-second-brain",
+  "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
+  "homepage": "",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "cross-agent-support",
+    "skills-plugins"
+  ],
+  "category_score": 21.0,
+  "stars": 1261,
+  "forks": 151,
+  "open_issues": 11,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-loop",
+    "agent-plugins",
+    "agent-skills",
+    "agentic",
+    "ai-agents",
+    "claude-code",
+    "closed-loop",
+    "cursor",
+    "garry-tan",
+    "gbrain",
+    "gstack",
+    "knowledge-management",
+    "loop-engineering",
+    "obsidian",
+    "people-crm",
+    "productivity",
+    "second-brain",
+    "self-evolving",
+    "verification-harness",
+    "worker-agents"
+  ],
+  "created_at": "2025-10-15T03:50:52Z",
+  "updated_at": "2026-10-07T09:25:29Z",
+  "pushed_at": "2026-10-02T14:09:34Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 357,
+  "days_since_push": 4,
+  "health_score": 58,
+  "health_components": {
+    "popularity": 62.0,
+    "momentum": 2.9,
+    "maintenance": 100.0,
+    "documentation": 70.0,
+    "accessibility": 69.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1261,
+    "days_span": 357,
+    "stars_per_day": 3.53,
+    "lifetime_stars_per_day": 3.53,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "huytieu/COG-second-brain",
+    "readme_chars": 21032,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "deep dive — comprehensive analysis for board prep, retros, and strategic planning",
+      "model-routing": "Kiro, Gemini CLI, OpenAI Codex, and Obsidian.",
+      "memory-context": "orm a complete product management lifecycle: **Research** (/auto-research) → **PRD** (/generate-prd) → **Stories** (/create-user-story) → Development → **Release Notes** (/generate-release-notes) → **Knowledge Base** (/…",
+      "skills-plugins": "> **PM Workflow:** These skills form a complete product management lifecycle: **Research** (/auto-research) → **PRD** (/generate-prd) → **Stories** (/create-user-story) → Development → **Release Notes** (/generate-relea…",
+      "mcp-support": "ger, Engineering Lead, Engineer, Designer, Founder, Marketer — or create your own from the template.",
+      "team-collaboration": "iene, post-condition checks, verifier pass, content factory~~ (shipped in v3.7)",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "model-routing": 1,
+      "memory-context": 4,
+      "skills-plugins": 4,
+      "mcp-support": 1,
+      "team-collaboration": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 31,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source); configure server/reverse-proxy setup",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)；需配置 server/reverse-proxy setup"
+    },
+    "doc_score": 70,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "Cursor",
+      "Droid"
+    ],
+    "summary_en": "Cognition + Obsidian + Git — A self-evolving second brain powered by AI agents, markdown files, and version control.",
+    "summary_zh": "",
+    "install_hint": "npx skills add huytieu/COG-second-brain",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.236
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:13+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

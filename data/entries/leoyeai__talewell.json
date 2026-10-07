@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "full_name": "LeoYeAI/talewell",
+  "name": "talewell",
+  "owner": "LeoYeAI",
+  "url": "https://github.com/LeoYeAI/talewell",
+  "description": "Plugin-first long-term memory for agent platforms — reference implementation of AMP (Agent Memory Protocol).",
+  "homepage": "https://myclaw.ai",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 547,
+  "forks": 27,
+  "open_issues": 0,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agent",
+    "auto-dream",
+    "llm",
+    "memory",
+    "memory-management",
+    "myclaw",
+    "openclaw"
+  ],
+  "created_at": "2026-03-28T06:38:18Z",
+  "updated_at": "2026-10-06T18:00:12Z",
+  "pushed_at": "2026-10-01T16:15:03Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 193,
+  "days_since_push": 5,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 54.8,
+    "momentum": 2.4,
+    "maintenance": 100.0,
+    "documentation": 36.0,
+    "accessibility": 85.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 547,
+    "days_span": 193,
+    "stars_per_day": 2.83,
+    "lifetime_stars_per_day": 2.83,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "LeoYeAI/talewell",
+    "readme_chars": 8208,
+    "capabilities": [
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "memory-context": "uccessor: the same idea, rebuilt as a portable plugin framework.",
+      "skills-plugins": "call, supersession, git-backed forget, graph traversal, rollback, gated consolidation, and the host-file adapter.",
+      "agent-runtime": "nClaw native, mcp, file, cli AGENTS.md yes",
+      "mcp-support": "that reads a project instruction file can use Talewell with no plugin and no protocol support.",
+      "cross-agent-support": "Mentions Amp, Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "memory-context": 2,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "mcp-support": 2,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 23,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. one-click setup",
+      "note_zh": "较易上手。one-click setup"
+    },
+    "doc_score": 36,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "Plugin-first long-term memory for every agent platform.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.122
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "supersede": {
+      "incumbent": "leoyeai/talewell",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "incumbent_name": "LeoYeAI/talewell",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "kind": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "skills-plugins"
+      ],
+      "star_ratio": 8.576,
+      "momentum_ratio": 8.413,
+      "setup_delta": 1,
+      "dominance": 0.995,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "8.58x the stars (4,691 vs 547)",
+        "8.41x the star velocity (23.8/day vs 2.8/day)",
+        "slightly heavier setup (+1 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 66,
+        "incumbent_setup_score": 23,
+        "challenger_setup_score": 24
+      }
+    }
+  }
+}

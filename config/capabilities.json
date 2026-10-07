@@ -1,0 +1,390 @@
+{
+  "$comment": "Capability taxonomy. A tool's capabilities are derived by matching these patterns against the README BODY (not the GitHub 'About' field), so a repo is credited for what it actually documents. Patterns must be SPECIFIC: bare words like 'provider', 'memory' or 'proxy' appear in almost every README and caused severe over-detection (tools matching 20+ of 25 capabilities, which then made the elimination engine mark 147 of 255 tools as superseded). Prefer a phrase over a word; drop a pattern entirely if it cannot distinguish a real feature from background prose.",
+  "version": 2,
+
+  "capabilities": [
+    {
+      "id": "multi-account-switching",
+      "label": { "en": "Multi-account switching", "zh": "多账号切换" },
+      "problem": {
+        "en": "One subscription's quota runs out; you need to rotate between several accounts without re-logging-in by hand.",
+        "zh": "单个订阅额度会用完，需要在多个账号之间轮换，而不必手动重新登录。"
+      },
+      "patterns": [
+        "switch(ing)? between (multiple |several |different )?accounts",
+        "switch accounts?", "account switch(er|ing)?", "multi[- ]?account",
+        "multiple (chatgpt |github |xai |openai |claude |grok )?accounts",
+        "(several|multiple|more) accounts (per|for|under)",
+        "(sign in|login|log in) to (multiple|several|more) accounts",
+        "account (pool|manager|management|rotation|to use|selector)",
+        "pool of accounts", "rotate (between )?accounts", "add (multiple|more) accounts",
+        "choose an .{0,20}account", "per[- ]account",
+        "move[sd]? to (another|the next|a different) account",
+        "fail(s|over)? (over )?between (them|accounts)",
+        "轮换账号", "多账号", "多账户", "账号切换", "切换账号", "号池", "账户切换", "多个账号", "账号管理"
+      ]
+    },
+    {
+      "id": "quota-management",
+      "label": { "en": "Quota & usage management", "zh": "额度与用量管理" },
+      "problem": {
+        "en": "You cannot see how much quota is left, so you get blocked mid-task.",
+        "zh": "看不到剩余额度，任务做到一半就被限流。"
+      },
+      "patterns": [
+        "remaining (quota|usage|credits?)", "quota (left|remaining|tracking|monitor|dashboard)",
+        "(usage|rate)[- ]limit (reached|hit|reset|tracking|monitor)",
+        "when (your|the) (quota|limit|usage)", "quota (exhausted|runs? out|is gone|depleted)",
+        "out of quota", "reset (time|at|in)", "5[- ]hour limit", "weekly limit",
+        "额度", "剩余额度", "用量监控", "配额", "限流", "额度用完", "重置时间"
+      ]
+    },
+    {
+      "id": "auto-failover",
+      "label": { "en": "Automatic failover", "zh": "自动故障转移" },
+      "problem": {
+        "en": "When one account or provider dies, work should continue on the next one instead of stopping.",
+        "zh": "某个账号或供应商不可用时，任务应自动切到下一个而不是中断。"
+      },
+      "patterns": [
+        "auto[- ]?switch(es|ing)? (to|between)", "automatically switch(es)? to",
+        "automatic (switch|failover|rotation)", "failover", "falls? back to",
+        "fallback (provider|account|model)", "seamless(ly)? switch",
+        "自动切换", "自动轮换", "故障转移", "自动降级", "无感切换", "自动切换账号"
+      ]
+    },
+    {
+      "id": "remote-control",
+      "label": { "en": "Remote control", "zh": "远程控制" },
+      "problem": {
+        "en": "Your agent runs on a desktop, but you want to drive it from somewhere else.",
+        "zh": "Agent 跑在电脑上，但你想在别处操控它。"
+      },
+      "patterns": [
+        "remote control", "remote(ly)? (access|connect|control) (your|the|to)",
+        "control (it|your (agent|session)) from", "from (your )?(phone|mobile|tablet|anywhere|another device)",
+        "remote session", "connect to your (machine|computer|desktop)",
+        "远程控制", "远程访问", "远程会话", "远程连接", "随时随地"
+      ]
+    },
+    {
+      "id": "mobile-access",
+      "label": { "en": "Mobile access", "zh": "手机端访问" },
+      "problem": {
+        "en": "You are away from the desk and want to keep the agent working from a phone.",
+        "zh": "人不在电脑旁，想用手机继续让 Agent 干活。"
+      },
+      "patterns": [
+        "mobile (app|client|companion)", "ios (app|client)", "android (app|client)",
+        "(iphone|ipad|android) app", "on your phone", "from your phone",
+        "(available|download(able)?) on (the )?(app store|google play)",
+        "progressive web app|\\bpwa\\b",
+        "手机 ?(app|客户端|端)", "移动端", "手机端", "安卓", "苹果 ?app", "手机应用"
+      ]
+    },
+    {
+      "id": "multi-agent-orchestration",
+      "label": { "en": "Multi-agent orchestration", "zh": "多智能体编排" },
+      "problem": {
+        "en": "One agent is not enough; several must be planned, dispatched and supervised together.",
+        "zh": "单个 Agent 不够用，需要把多个 Agent 统一规划、派发和监管。"
+      },
+      "patterns": [
+        "orchestrat(e|es|ing|ion|or)", "multi[- ]agent", "agent (fleet|swarm|team)",
+        "supervise (multiple|several|other) agents", "spawn (sub)?agents?",
+        "delegate (tasks? )?to (other )?(sub)?agents?", "sub[- ]?agents?",
+        "coordinate (multiple|several) agents", "agents? working together",
+        "编排", "多智能体", "多代理", "子代理", "调度多个", "协同工作", "智能体团队"
+      ]
+    },
+    {
+      "id": "parallel-execution",
+      "label": { "en": "Parallel execution", "zh": "并行执行" },
+      "problem": {
+        "en": "Tasks run one at a time and you wait; parallelism cuts wall-clock time.",
+        "zh": "任务串行执行、只能干等；并行能压缩总耗时。"
+      },
+      "patterns": [
+        "run (multiple|several|many) agents", "(agents?|tasks?) in parallel",
+        "parallel (execution|agents|tasks|sessions|work)", "concurrent(ly)? (run|agents|tasks|sessions)",
+        "simultaneously", "at the same time",
+        "并行(执行|运行|任务)", "同时运行", "并发执行", "多个任务同时"
+      ]
+    },
+    {
+      "id": "worktree-isolation",
+      "label": { "en": "Workspace isolation", "zh": "工作区隔离" },
+      "problem": {
+        "en": "Parallel agents overwrite each other's files unless each gets its own checkout.",
+        "zh": "并行 Agent 会互相覆盖文件，除非各自有独立工作副本。"
+      },
+      "patterns": [
+        "git worktree", "worktree", "isolated (branch|workspace|environment|checkout)",
+        "each agent (gets|has) (its|their) own", "separate (branch|workspace|checkout) for each",
+        "sandbox(ed)? (environment|container|execution)", "container(ized)? (environment|sandbox)",
+        "工作树", "隔离(环境|工作区|分支)", "独立分支", "互不干扰", "沙箱"
+      ]
+    },
+    {
+      "id": "model-routing",
+      "label": { "en": "Model / provider routing", "zh": "模型与供应商路由" },
+      "problem": {
+        "en": "You want one agent to run on a different model or provider than its default.",
+        "zh": "想让 Agent 跑在非默认的模型或供应商上。"
+      },
+      "patterns": [
+        "(custom|third[- ]party|alternative|other) (model|provider|endpoint|api)",
+        "(switch|choose|select|change) (the )?(model|provider)",
+        "model (routing|selection|switching)", "provider (routing|configuration|switching)",
+        "route (requests? )?to (a )?(different|another|any)", "bring your own (model|key)|\\bbyok\\b",
+        "base ?url", "openai[- ]compatible (endpoint|api|provider)",
+        "run .{0,20} on (deepseek|kimi|qwen|glm|local model|ollama)",
+        "自定义(模型|供应商)", "模型切换", "供应商切换", "接入第三方"
+      ]
+    },
+    {
+      "id": "provider-aggregation",
+      "label": { "en": "Multi-provider aggregation", "zh": "多供应商聚合" },
+      "problem": {
+        "en": "Many subscriptions and API keys are scattered; you want one endpoint for all of them.",
+        "zh": "订阅和 API Key 散落各处，希望统一到一个入口。"
+      },
+      "patterns": [
+        "aggregat(e|es|ing|or) (multiple|all|different) (providers|models|apis|accounts)",
+        "unified (endpoint|api|interface|gateway) for", "all[- ]in[- ]one (tool|app|manager|assistant)",
+        "(manage|support) (multiple|many|all) (providers|models|accounts|platforms)",
+        "one place for (all|every)", "single (entry|place|point) for",
+        "聚合(多个|所有|多家)", "一站式", "统一(管理|入口|接入)", "多平台支持", "多个供应商"
+      ]
+    },
+    {
+      "id": "api-gateway",
+      "label": { "en": "API gateway / proxy", "zh": "API 网关与中转" },
+      "problem": {
+        "en": "Client tools speak one protocol but the upstream speaks another, or you must hide keys.",
+        "zh": "客户端与上游协议不一致，或需要隐藏密钥、统一出口。"
+      },
+      "patterns": [
+        "(reverse )?prox(y|ies) (server|for|requests)", "api gateway", "llm gateway",
+        "openai[- ]compatible (api|endpoint|interface|server)", "anthropic[- ]compatible",
+        "protocol (translation|conversion|compatib)", "convert .{0,20} (requests?|api) to",
+        "(relay|forward) (requests?|api calls?)",
+        "网关", "反代", "中转服务", "接口转换", "协议兼容", "代理服务器"
+      ]
+    },
+    {
+      "id": "quota-distribution",
+      "label": { "en": "Quota sharing / splitting", "zh": "配额共享与分发" },
+      "problem": {
+        "en": "A subscription's capacity is larger than one person needs; share it safely with others.",
+        "zh": "订阅容量超过个人所需，想安全地分给他人共用。"
+      },
+      "patterns": [
+        "share (your |the )?(subscription|quota|account|plan|api)",
+        "shar(e|ing) (it|capacity|access) with", "split (the )?(cost|quota|bill|subscription)",
+        "(car[- ]?pool|carpooling|group buy)", "sub[- ]?accounts?", "invite (members|users|others)",
+        "(multiple|several) users (can )?(use|share)",
+        "拼车", "共享(订阅|额度|账号)", "分摊(成本|费用)", "分发额度", "子账号", "合租", "多人共用"
+      ]
+    },
+    {
+      "id": "billing-metering",
+      "label": { "en": "Billing & metering", "zh": "计费与计量" },
+      "problem": {
+        "en": "When several people share capacity, usage must be measured and charged accurately.",
+        "zh": "多人共用容量时，必须精确计量并结算。"
+      },
+      "patterns": [
+        "billing", "metered (billing|usage)", "(usage|token) (accounting|metering|charging)",
+        "charge (users|per|by)", "account balance", "recharge", "top[- ]?up",
+        "invoice", "payment (gateway|integration|method)",
+        "计费", "计量", "余额", "充值", "账单", "扣费", "套餐", "支付"
+      ]
+    },
+    {
+      "id": "usage-analytics",
+      "label": { "en": "Usage analytics", "zh": "用量分析" },
+      "problem": {
+        "en": "You want to know where tokens and money actually went.",
+        "zh": "想知道 token 和钱到底花在哪里。"
+      },
+      "patterns": [
+        "(usage|cost|token|spending) (dashboard|analytics|statistics|charts?|tracking|report)",
+        "track (your )?(usage|cost|spend|tokens)", "visuali[sz]e (your )?(usage|cost|data)",
+        "analytics dashboard", "cost breakdown", "per[- ]project (cost|usage)",
+        "用量(分析|统计|看板)", "成本(分析|统计|追踪)", "消费统计", "数据看板", "图表展示"
+      ]
+    },
+    {
+      "id": "session-persistence",
+      "label": { "en": "Session persistence", "zh": "会话持久化" },
+      "problem": {
+        "en": "Closing the laptop or losing connection kills a long-running agent session.",
+        "zh": "合上笔记本或断网就会中断长时间运行的会话。"
+      },
+      "patterns": [
+        "(session|conversation)s? (persist|history|resume|restore)",
+        "persist(ent)? (session|state|history)", "resume (a |your )?(previous |earlier )?(session|conversation)",
+        "reconnect (automatically|to)", "keep running (in the background|after)",
+        "survive (a )?(restart|disconnect|reboot)", "detach(ed)? from",
+        "会话(持久|历史|恢复)", "断线重连", "后台持续运行", "不中断", "持久化"
+      ]
+    },
+    {
+      "id": "memory-context",
+      "label": { "en": "Memory & context", "zh": "记忆与上下文" },
+      "problem": {
+        "en": "Every new session starts from zero and forgets your project's conventions.",
+        "zh": "每次新会话都从零开始，记不住项目约定。"
+      },
+      "patterns": [
+        "(persistent|long[- ]term|project|shared|cross[- ]session) memory",
+        "memory (system|layer|bank|management|across)", "remember (your|the|previous|past)",
+        "(knowledge|memory) (base|graph|store)", "context (management|engineering|window management)",
+        "retrieval[- ]augmented|\\brag\\b",
+        "记忆(系统|库|管理)", "长期记忆", "上下文管理", "知识库", "记住(之前|历史|项目)", "跨会话"
+      ]
+    },
+    {
+      "id": "skills-plugins",
+      "label": { "en": "Skills & plugins", "zh": "技能与插件" },
+      "problem": {
+        "en": "The base agent lacks your workflows; you need to extend it.",
+        "zh": "基础 Agent 不具备你的工作流，需要扩展。"
+      },
+      "patterns": [
+        "\\bskills?\\b.{0,30}(collection|library|marketplace|pack|system|for)",
+        "(install|add|create|custom) (a )?(skill|plugin|extension|command)",
+        "plugin (marketplace|system|architecture|manager)", "extend (the )?agent",
+        "custom (slash )?commands?", "hooks? (and|&) (skills|commands)",
+        "技能(库|市场|包|集合)", "插件(市场|系统|管理)", "扩展能力", "自定义命令", "工作流扩展"
+      ]
+    },
+    {
+      "id": "agent-runtime",
+      "label": { "en": "Agent runtime", "zh": "Agent 运行时" },
+      "problem": {
+        "en": "This IS the agent — the thing you run and talk to — rather than an add-on bolted onto somebody else's agent.",
+        "zh": "它本身就是那个 Agent——你直接运行和对话的东西——而不是挂在别人 Agent 上的插件。"
+      },
+      "patterns": [
+        "(ai |open[- ]?source |terminal |autonomous )?coding agent",
+        "agentic (coding|cli|assistant|tool)",
+        "(terminal|cli|command[- ]line) (ai )?(agent|assistant|coding)",
+        "ai (assistant|agent) (for|in) (your )?terminal",
+        "open[- ]source ai coding agent",
+        "the (ai )?coding agent that",
+        "编码 ?agent", "编码助手", "终端 ?agent", "开源 ?ai ?编程", "编程 ?agent", "命令行 ?ai"
+      ]
+    },
+    {
+      "id": "mcp-support",
+      "label": { "en": "MCP support", "zh": "MCP 支持" },
+      "problem": {
+        "en": "The agent needs access to external tools and data through a standard protocol.",
+        "zh": "Agent 需要通过标准协议访问外部工具与数据。"
+      },
+      "patterns": ["\\bmcp\\b", "model context protocol", "mcp (server|client|tool|gateway|proxy)"]
+    },
+    {
+      "id": "security-isolation",
+      "label": { "en": "Security & isolation", "zh": "安全与隔离" },
+      "problem": {
+        "en": "Agents run arbitrary code and hold credentials; blast radius must be contained.",
+        "zh": "Agent 会执行任意代码并持有凭据，必须控制影响范围。"
+      },
+      "patterns": [
+        "end[- ]to[- ]end encrypt", "\\be2ee\\b", "(encrypt|encrypted) (your |the )?(data|messages|traffic|session)",
+        "permission (prompt|request|system|model)", "(require|ask for) (user )?(approval|confirmation)",
+        "audit (log|trail)", "secret (redaction|masking|management)",
+        "credential (management|storage|isolation)", "zero[- ]trust",
+        "端到端加密", "权限(控制|管理|确认)", "审批", "审计日志", "密钥管理", "安全隔离", "脱敏"
+      ]
+    },
+    {
+      "id": "self-hosted",
+      "label": { "en": "Self-hostable", "zh": "可自托管" },
+      "problem": {
+        "en": "You do not want your code or keys flowing through someone else's server.",
+        "zh": "不希望代码或密钥经过他人的服务器。"
+      },
+      "patterns": [
+        "self[- ]host(ed|ing)?", "deploy (it )?(yourself|on your own)", "host it yourself",
+        "docker compose up", "on[- ]premise", "your own (server|infrastructure)",
+        "run (it )?locally", "fully local",
+        "自托管", "自己部署", "私有部署", "本地部署", "私有化部署", "本地运行"
+      ]
+    },
+    {
+      "id": "team-collaboration",
+      "label": { "en": "Team collaboration", "zh": "团队协作" },
+      "problem": {
+        "en": "Several people must share one agent setup, with roles and boundaries.",
+        "zh": "多人需要共用一套 Agent 环境，还要有角色与边界。"
+      },
+      "patterns": [
+        "team (member|management|workspace|collaboration|plan)",
+        "collaborat(e|ion|ive) (with|on|workspace)", "multi[- ]user",
+        "role[- ]based (access|permission)|\\brbac\\b", "invite (team )?members",
+        "shared workspace", "organization (account|settings)",
+        "团队协作", "多用户", "角色权限", "成员管理", "共享工作区", "组织管理"
+      ]
+    },
+    {
+      "id": "gui-desktop",
+      "label": { "en": "GUI / desktop app", "zh": "图形界面与桌面端" },
+      "problem": {
+        "en": "Terminal-only tools shut out people who do not live in a shell.",
+        "zh": "纯终端工具把不熟悉命令行的人挡在门外。"
+      },
+      "patterns": [
+        "(desktop|native|menubar|menu bar|tray) (app|application|client|icon)",
+        "graphical (user )?interface|\\bgui\\b", "\\btauri\\b|\\belectron\\b",
+        "\\.dmg\\b|\\.exe\\b|\\.msi\\b|appimage|\\.deb\\b|\\.apk\\b",
+        "web (ui|interface|dashboard)", "point[- ]and[- ]click",
+        "图形界面", "桌面端", "桌面应用", "客户端下载", "可视化界面", "无需命令行"
+      ]
+    },
+    {
+      "id": "notifications",
+      "label": { "en": "Notifications", "zh": "通知提醒" },
+      "problem": {
+        "en": "A long task finishes or blocks, and nobody notices.",
+        "zh": "长任务完成或卡住了，却没人知道。"
+      },
+      "patterns": [
+        "(push |desktop |browser )?notifications?", "notify (you|me|when)",
+        "get (a )?(push|alert|notification) when", "telegram (bot|notification)",
+        "slack (notification|integration|webhook)", "discord (bot|notification)",
+        "\\bwebhooks?\\b", "alert(s|ing)? (you|when)",
+        "通知", "提醒", "推送", "告警", "消息推送"
+      ]
+    },
+    {
+      "id": "voice-input",
+      "label": { "en": "Voice input", "zh": "语音输入" },
+      "problem": {
+        "en": "Typing long prompts on a phone is painful.",
+        "zh": "在手机上敲长提示词很痛苦。"
+      },
+      "patterns": ["voice (input|control|command|message)", "speech[- ]to[- ]text", "dictat(e|ion)", "语音(输入|控制|消息)", "口述", "听写"]
+    },
+    {
+      "id": "cross-agent-support",
+      "label": { "en": "Cross-agent support", "zh": "跨 Agent 支持" },
+      "problem": {
+        "en": "You use more than one agent and refuse to keep separate setups for each.",
+        "zh": "同时使用多个 Agent，不想为每个都维护一套配置。"
+      },
+      "$comment": "Requires mentions of at least 2 distinct agents: every README in this space name-drops Claude Code once, so a single match proves nothing.",
+      "requires_distinct_agents": 2,
+      "patterns": [
+        "claude code", "codex", "gemini cli", "opencode", "cursor", "copilot",
+        "aider", "cline", "roo code", "qwen code", "\\bgoose\\b", "\\bcrush\\b",
+        "\\bamp\\b", "\\bdroid\\b", "kilo code", "continue\\.dev",
+        "supports? (multiple|many|any|all) (agents?|clis?|tools?)",
+        "agent[- ]agnostic", "works with any agent", "多种 ?agent", "支持多个 ?agent", "兼容多种"
+      ]
+    }
+  ]
+}

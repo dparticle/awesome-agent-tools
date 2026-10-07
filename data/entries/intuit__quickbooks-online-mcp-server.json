@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "full_name": "intuit/quickbooks-online-mcp-server",
+  "name": "quickbooks-online-mcp-server",
+  "owner": "intuit",
+  "url": "https://github.com/intuit/quickbooks-online-mcp-server",
+  "description": "The QuickBooks MCP Server lets AI assistants access QuickBooks data via a standard interface. It uses the Model Context Protocol to expose QBO features as callable tools, enabling developers to build AI apps that fetch real-time QBO data through MCP.",
+  "homepage": "",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 11.0,
+  "stars": 411,
+  "forks": 257,
+  "open_issues": 31,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [],
+  "created_at": "2025-10-06T17:17:39Z",
+  "updated_at": "2026-10-07T03:59:10Z",
+  "pushed_at": "2026-09-15T17:56:34Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 365,
+  "days_since_push": 21,
+  "health_score": 46,
+  "health_components": {
+    "popularity": 52.3,
+    "momentum": 0.9,
+    "maintenance": 92.0,
+    "documentation": 63.0,
+    "accessibility": 22.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 411,
+    "days_span": 365,
+    "stars_per_day": 1.13,
+    "lifetime_stars_per_day": 1.13,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "intuit/quickbooks-online-mcp-server",
+    "readme_chars": 18775,
+    "capabilities": [
+      "billing-metering",
+      "mcp-support"
+    ],
+    "capability_evidence": {
+      "billing-metering": "te CRUD operations are available for all entity types:",
+      "mcp-support": "# QuickBooks Online MCP Server"
+    },
+    "capability_hits": {
+      "billing-metering": 1,
+      "mcp-support": 9
+    },
+    "friction": {
+      "level": "high",
+      "score": 78,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "OAuth login flow",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source), npm install/build; configure environment variables, OAuth login flow",
+      "note_zh": "配置较重。需要 git clone (build from source)、npm install/build；需配置 environment variables、OAuth login flow"
+    },
+    "doc_score": 63,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "A comprehensive Model Context Protocol (MCP) server for QuickBooks Online",
+    "summary_zh": "",
+    "install_hint": "npm install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.586
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:21+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

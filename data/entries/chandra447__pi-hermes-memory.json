@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "full_name": "chandra447/pi-hermes-memory",
+  "name": "pi-hermes-memory",
+  "owner": "chandra447",
+  "url": "https://github.com/chandra447/pi-hermes-memory",
+  "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
+  "homepage": "",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 14.0,
+  "stars": 473,
+  "forks": 123,
+  "open_issues": 31,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "context-engineering",
+    "harness",
+    "harness-engineering",
+    "memory",
+    "pi"
+  ],
+  "created_at": "2026-04-23T12:03:56Z",
+  "updated_at": "2026-10-07T03:53:11Z",
+  "pushed_at": "2026-10-03T11:00:23Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 167,
+  "days_since_push": 4,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 53.5,
+    "momentum": 2.4,
+    "maintenance": 100.0,
+    "documentation": 71.0,
+    "accessibility": 16.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 473,
+    "days_span": 167,
+    "stars_per_day": 2.83,
+    "lifetime_stars_per_day": 2.83,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "chandra447/pi-hermes-memory",
+    "readme_chars": 43571,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "auto-failover": "irely on the common path.",
+      "model-routing": "ages matching the -oauth-adapter/-auth-adapter naming convention (including scoped packages, via their package.json pi.extensions manifest) are detected automatically.",
+      "session-persistence": "operators like OR still work when you need them.",
+      "memory-context": "n (production install for Pi).",
+      "skills-plugins": "do something, reusable across sessions Unlimited Discoverable by Pi + manageable via the skillmanage tool"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "model-routing": 1,
+      "session-persistence": 3,
+      "memory-context": 5,
+      "skills-plugins": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 84,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source), npm install/build; configure config.json/yaml/toml, OAuth login flow",
+      "note_zh": "配置较重。需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、OAuth login flow"
+    },
+    "doc_score": 71,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [],
+    "summary_en": "Persistent memory + session search + secret scanning for Pi",
+    "summary_zh": "",
+    "install_hint": "npm install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "has an index/catalogue section"
+      ],
+      "external_link_ratio": 0.069
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

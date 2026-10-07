@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "full_name": "aaronsb/obsidian-mcp-plugin",
+  "name": "obsidian-mcp-plugin",
+  "owner": "aaronsb",
+  "url": "https://github.com/aaronsb/obsidian-mcp-plugin",
+  "description": "High-performance Model Context Protocol (MCP) server for Obsidian that provides AI tools with direct vault access through semantic operations and HTTP transport.",
+  "homepage": "",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 13.0,
+  "stars": 463,
+  "forks": 54,
+  "open_issues": 7,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "claude",
+    "knowledge-graph",
+    "mcp",
+    "model-context-protocol",
+    "obsidian",
+    "obsidian-plugin",
+    "semantic-search"
+  ],
+  "created_at": "2025-06-27T15:59:38Z",
+  "updated_at": "2026-10-04T12:45:21Z",
+  "pushed_at": "2026-10-05T09:09:03Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 466,
+  "days_since_push": 2,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 53.3,
+    "momentum": 0.8,
+    "maintenance": 100.0,
+    "documentation": 55.0,
+    "accessibility": 59.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 463,
+    "days_span": 466,
+    "stars_per_day": 0.99,
+    "lifetime_stars_per_day": 0.99,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "aaronsb/obsidian-mcp-plugin",
+    "readme_chars": 11455,
+    "capabilities": [
+      "memory-context",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "memory-context": "w note linking my ideas about Y\"",
+      "mcp-support": "# Semantic Notes Vault MCP",
+      "cross-agent-support": "Mentions Claude Code, Cline, Continue"
+    },
+    "capability_hits": {
+      "memory-context": 1,
+      "mcp-support": 16,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 41,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. configure API key configuration, config file; one-click setup",
+      "note_zh": "需要一些配置。需配置 API key configuration、config file；one-click setup"
+    },
+    "doc_score": 55,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cline / Roo"
+    ],
+    "summary_en": "📦 Available in the Obsidian Community Plugin directory →",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.135
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

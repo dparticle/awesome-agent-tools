@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "full_name": "rlaope/oh-my-hermes",
+  "name": "oh-my-hermes",
+  "owner": "rlaope",
+  "url": "https://github.com/rlaope/oh-my-hermes",
+  "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+  "homepage": "https://rlaope.github.io/oh-my-hermes/",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 15.5,
+  "stars": 3202,
+  "forks": 244,
+  "open_issues": 15,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "ai",
+    "ai-agent",
+    "ai-tools",
+    "claude-code",
+    "codex",
+    "hermes-agent",
+    "hermes-skill",
+    "skills"
+  ],
+  "created_at": "2026-06-03T13:00:34Z",
+  "updated_at": "2026-10-07T13:28:58Z",
+  "pushed_at": "2026-10-07T12:12:21Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 126,
+  "days_since_push": 0,
+  "health_score": 67,
+  "health_components": {
+    "popularity": 70.1,
+    "momentum": 21.2,
+    "maintenance": 100.0,
+    "documentation": 65.0,
+    "accessibility": 99.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3202,
+    "days_span": 126,
+    "stars_per_day": 25.41,
+    "lifetime_stars_per_day": 25.41,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "rlaope/oh-my-hermes",
+    "readme_chars": 35810,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "memory-context",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "tched tool calls run concurrently in Hermes,",
+      "parallel-execution": "D (live rows with category, turns, cost, cache), the phase todo above the prompt, parallel shot ×N, full-row diff bands, and managed skins — installed beside Hermes, never patching it.",
+      "worktree-isolation": "",
+      "model-routing": "",
+      "memory-context": "s such as reconciling a --full install back to core live in",
+      "agent-runtime": "ork run, as it reads in a Slack thread (illustration): one row per lane with its routed category and model, colored by model vendor",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "memory-context": 4,
+      "agent-runtime": 2,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 13,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via Homebrew install, curl | sh installer; needs npm install/build; configure sign-in required",
+      "note_zh": "开箱即用。可通过 Homebrew install、curl | sh installer 安装；需要 npm install/build；需配置 sign-in required"
+    },
+    "doc_score": 65,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "request into a clear capability, a useful next step, and an honest record of what actually happened — strengthening the workflow you already use, never replacing Hermes or hiding a coding executor behind it.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/rlaope/oh-my-hermes/main/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.112
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "full_name": "jtydhr88/comfyui-custom-node-skills",
+  "name": "comfyui-custom-node-skills",
+  "owner": "jtydhr88",
+  "url": "https://github.com/jtydhr88/comfyui-custom-node-skills",
+  "description": "A curated collection of [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code/skills) for developing ComfyUI custom nodes. These skills give Claude comprehensive knowledge of the ComfyUI node system, covering both the V3 (recommended) and V1 (legacy) APIs.",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 13.0,
+  "stars": 294,
+  "forks": 28,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-03-05T15:48:21Z",
+  "updated_at": "2026-10-03T21:26:24Z",
+  "pushed_at": "2026-07-27T12:15:09Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 215,
+  "days_since_push": 72,
+  "health_score": 41,
+  "health_components": {
+    "popularity": 49.4,
+    "momentum": 1.1,
+    "maintenance": 78.0,
+    "documentation": 32.0,
+    "accessibility": 50.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 294,
+    "days_span": 215,
+    "stars_per_day": 1.37,
+    "lifetime_stars_per_day": 1.37,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "jtydhr88/comfyui-custom-node-skills",
+    "readme_chars": 5568,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "skills-plugins": "",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 2,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 50,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [],
+      "note_en": "Some setup. needs git clone (build from source); configure database migration; GUI application",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；需配置 database migration；GUI application"
+    },
+    "doc_score": 32,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "mentions licensing",
+      "links to dedicated docs"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "A curated collection of agent skills (for Claude Code and OpenAI Codex) for developing ComfyUI custom nodes.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.078
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 NanmiCoder/cc-haha 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "NanmiCoder/cc-haha",
+    "supersede": {
+      "incumbent": "jtydhr88/comfyui-custom-node-skills",
+      "challenger": "nanmicoder/cc-haha",
+      "incumbent_name": "jtydhr88/comfyui-custom-node-skills",
+      "challenger_name": "NanmiCoder/cc-haha",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "gui-desktop",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 50.653,
+      "momentum_ratio": 57.511,
+      "setup_delta": -21,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "50.65x the stars (14,892 vs 294)",
+        "57.51x the star velocity (78.8/day vs 1.4/day)",
+        "no harder to set up (29 vs 50 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "gui-desktop",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "quota-management",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 41,
+        "challenger_health": 78,
+        "incumbent_setup_score": 50,
+        "challenger_setup_score": 29
+      }
+    }
+  }
+}

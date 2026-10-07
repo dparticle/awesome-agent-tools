@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "full_name": "anymorph-ai/Claudable",
+  "name": "Claudable",
+  "owner": "anymorph-ai",
+  "url": "https://github.com/anymorph-ai/Claudable",
+  "description": "Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.",
+  "homepage": "",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "agent-runtime",
+    "cross-agent-support"
+  ],
+  "category_score": 24.0,
+  "stars": 4052,
+  "forks": 623,
+  "open_issues": 45,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "claude",
+    "claude-code",
+    "codex",
+    "codingagent",
+    "free",
+    "gemini",
+    "local",
+    "lovable",
+    "qwen",
+    "web-builder"
+  ],
+  "created_at": "2025-08-20T05:15:16Z",
+  "updated_at": "2026-10-06T17:59:22Z",
+  "pushed_at": "2026-04-11T03:03:40Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 413,
+  "days_since_push": 179,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 72.2,
+    "momentum": 8.2,
+    "maintenance": 55.0,
+    "documentation": 60.0,
+    "accessibility": 56.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 4052,
+    "days_span": 413,
+    "stars_per_day": 9.81,
+    "lifetime_stars_per_day": 9.81,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "anymorph-ai/Claudable",
+    "readme_chars": 11391,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "skills-plugins": "o database errors, reset the Prisma database so it matches the latest schema:",
+      "agent-runtime": "top application for Mac, Windows, and Linux",
+      "mcp-support": "Anon Key: Public key for client-side",
+      "gui-desktop": "le click, no configuration needed",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Qwen Code"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 8,
+      "mcp-support": 1,
+      "gui-desktop": 4,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 44,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs git clone (build from source), npm install/build; configure API key configuration, sign-in required; one-click setup",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、sign-in required；one-click setup"
+    },
+    "doc_score": 60,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "links to dedicated docs"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Qwen Code"
+    ],
+    "summary_en": "Claudable is a powerful Next.js-based web app builder that combines Claude Code's (Cursor CLI also supported!) advanced AI agent capabilities with Lovable's simple and intuitive app building experience.",
+    "summary_zh": "",
+    "install_hint": "npm install -g @anthropic-ai/claude-code",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.053
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "supersede": {
+      "incumbent": "anymorph-ai/claudable",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "anymorph-ai/Claudable",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 8.231,
+      "momentum_ratio": 7.981,
+      "setup_delta": -42,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "8.23x the stars (33,351 vs 4,052)",
+        "7.98x the star velocity (78.3/day vs 9.8/day)",
+        "no harder to set up (2 vs 44 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 49,
+        "challenger_health": 81,
+        "incumbent_setup_score": 44,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

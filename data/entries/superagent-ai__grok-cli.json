@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "full_name": "superagent-ai/grok-cli",
+  "name": "grok-cli",
+  "owner": "superagent-ai",
+  "url": "https://github.com/superagent-ai/grok-cli",
+  "description": "An open-source coding agent for the Grok API",
+  "homepage": "",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "agent-runtime"
+  ],
+  "category_score": 11.5,
+  "stars": 3487,
+  "forks": 424,
+  "open_issues": 35,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agents",
+    "ai",
+    "cli",
+    "code",
+    "coding-agent",
+    "grok",
+    "xai"
+  ],
+  "created_at": "2025-07-14T07:57:39Z",
+  "updated_at": "2026-10-06T13:23:18Z",
+  "pushed_at": "2026-07-06T14:05:33Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 450,
+  "days_since_push": 92,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 70.8,
+    "momentum": 6.5,
+    "maintenance": 55.0,
+    "documentation": 57.0,
+    "accessibility": 90.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3487,
+    "days_span": 450,
+    "stars_per_day": 7.75,
+    "lifetime_stars_per_day": 7.75,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "superagent-ai/grok-cli",
+    "readme_chars": 18781,
+    "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "model-routing",
+      "session-persistence",
+      "agent-runtime",
+      "mcp-support",
+      "notifications",
+      "voice-input"
+    ],
+    "capability_evidence": {
+      "remote-control": "ool uses the publicly available Grok API.",
+      "mobile-access": "e terminal coding agent that connects to xAI’s Grok API — real-time X search, web search, the full Grok model lineup, sub-agents on by default, remote control via Telegram (pair once, drive the agent from your phone whi…",
+      "multi-agent-orchestration": ".ai and a modern terminal emulator for the interactive OpenTUI experience.",
+      "worktree-isolation": "uter) plus background delegate for read-only deep dives—parallelize like you mean it.",
+      "model-routing": "A, FLAC, AAC) directly — no local model download, whisper-cli, or ffmpeg required.",
+      "session-persistence": "",
+      "agent-runtime": "# grok-cli: an open-source coding agent for the Grok API",
+      "mcp-support": "tchy thing you’re thinking of.",
+      "notifications": "d events: PreToolUse, PostToolUse, PostToolUseFailure, UserPromptSubmit, SessionStart, SessionEnd, Stop, StopFailure, SubagentStart, SubagentStop, TaskCreated, TaskCompleted, PreCompact, PostCompact, Notification, Instr…",
+      "voice-input": ""
+    },
+    "capability_hits": {
+      "remote-control": 3,
+      "mobile-access": 1,
+      "multi-agent-orchestration": 9,
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "session-persistence": 1,
+      "agent-runtime": 3,
+      "mcp-support": 1,
+      "notifications": 1,
+      "voice-input": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via curl | sh installer; configure API key configuration",
+      "note_zh": "较易上手。可通过 curl | sh installer 安装；需配置 API key configuration"
+    },
+    "doc_score": 57,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "An open-source terminal coding agent that connects to xAI’s Grok API — real-time X search, web search, the full Grok model lineup, sub-agents on by default, remote control via Telegram (pair once, drive the agent from your phone while the…",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/superagent-ai/grok-cli/main/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.639
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

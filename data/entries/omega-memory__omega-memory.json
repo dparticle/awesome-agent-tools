@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "full_name": "omega-memory/omega-memory",
+  "name": "omega-memory",
+  "owner": "omega-memory",
+  "url": "https://github.com/omega-memory/omega-memory",
+  "description": "Persistent memory for AI coding agents",
+  "homepage": "https://omegamax.co",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 219,
+  "forks": 32,
+  "open_issues": 8,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agent",
+    "ai-memory",
+    "claude",
+    "claude-code",
+    "coding-agent",
+    "context-engineering",
+    "cursor",
+    "knowledge-graph",
+    "llm",
+    "local-first",
+    "mcp",
+    "mcp-server",
+    "memory",
+    "model-context-protocol",
+    "persistent-memory",
+    "semantic-search",
+    "windsurf"
+  ],
+  "created_at": "2026-02-13T03:28:56Z",
+  "updated_at": "2026-10-06T13:25:08Z",
+  "pushed_at": "2026-09-30T00:44:46Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 236,
+  "days_since_push": 7,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 46.8,
+    "momentum": 0.8,
+    "maintenance": 100.0,
+    "documentation": 67.0,
+    "accessibility": 60.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 219,
+    "days_span": 236,
+    "stars_per_day": 0.93,
+    "lifetime_stars_per_day": 0.93,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "omega-memory/omega-memory",
+    "readme_chars": 16458,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "session-persistence",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "- **Multi-Agent Coordination** *(omega-pro)* — File and branch locking, session management, task queues with dependencies, intent broadcasting, and agent-to-agent messaging, so agents don't overwrite each other's wo",
+      "model-routing": "they change pricing, get acquired, or go down, your agent's accumulated intelligence disappears.",
+      "session-persistence": "capture, which runs on its own; none of them blocks Claude Code.",
+      "memory-context": "and routes to the optimal model.",
+      "agent-runtime": "Claude, GPT, Gemini, Cursor, Claw Code, and any MCP client.",
+      "mcp-support": "laude Code gets no OMEGA tools and no hooks.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "model-routing": 1,
+      "session-persistence": 1,
+      "memory-context": 3,
+      "agent-runtime": 2,
+      "mcp-support": 13,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 40,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "Homebrew install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via pip install, Homebrew install; needs git clone (build from source); configure API key configuration, config file",
+      "note_zh": "需要一些配置。可通过 pip install、Homebrew install 安装；需要 git clone (build from source)；需配置 API key configuration、config file"
+    },
+    "doc_score": 67,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "Cross-model memory for AI agents.",
+    "summary_zh": "",
+    "install_hint": "pipx install \"omega-memory[server]\"",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.425
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:26+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

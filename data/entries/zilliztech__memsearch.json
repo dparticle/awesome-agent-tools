@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "full_name": "zilliztech/memsearch",
+  "name": "memsearch",
+  "owner": "zilliztech",
+  "url": "https://github.com/zilliztech/memsearch",
+  "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
+  "homepage": "https://zilliztech.github.io/memsearch/",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 14.0,
+  "stars": 2725,
+  "forks": 265,
+  "open_issues": 273,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "agent-memory",
+    "claude-code",
+    "claude-code-plugin",
+    "codex",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "embeddings",
+    "hybrid-search",
+    "jev",
+    "long-term-memory",
+    "memory",
+    "milvus",
+    "openclaw",
+    "opencode",
+    "rag",
+    "semantic-search",
+    "skills"
+  ],
+  "created_at": "2026-02-09T02:29:16Z",
+  "updated_at": "2026-10-07T13:13:49Z",
+  "pushed_at": "2026-09-24T08:08:09Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 240,
+  "days_since_push": 13,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 68.7,
+    "momentum": 9.5,
+    "maintenance": 92.0,
+    "documentation": 68.0,
+    "accessibility": 51.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2725,
+    "days_span": 240,
+    "stars_per_day": 11.35,
+    "lifetime_stars_per_day": 11.35,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "zilliztech/memsearch",
+    "readme_chars": 29322,
+    "capabilities": [
+      "model-routing",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "self-hosted",
+      "team-collaboration",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "nd they are **off by default**.",
+      "memory-context": "s Claude Code, Codex, DeepSeek Harness, OpenClaw, and OpenCode.",
+      "skills-plugins": "y** — memories flow across Claude Code, Codex, DeepSeek Harness, OpenClaw, and OpenCode.",
+      "agent-runtime": "",
+      "self-hosted": "— fully managed, free tier available — sign up 👇:",
+      "team-collaboration": "n up for a free Zilliz Cloud cluster",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "memory-context": 2,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "self-hosted": 1,
+      "team-collaboration": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 49,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via pip install; needs git clone (build from source); configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 git clone (build from source)；需配置 API key configuration、config.json/yaml/toml"
+    },
+    "doc_score": 68,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "Optional Jev reranking — rerank memory search results with Jev through the TypeSafe API, with no local model download.",
+    "summary_zh": "",
+    "install_hint": "pipx install memsearch          # via pipx",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.057
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "supersede": {
+      "incumbent": "zilliztech/memsearch",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "zilliztech/memsearch",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "memory-context",
+        "model-routing",
+        "self-hosted",
+        "skills-plugins",
+        "team-collaboration"
+      ],
+      "star_ratio": 10.717,
+      "momentum_ratio": 11.487,
+      "setup_delta": -17,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "10.72x the stars (29,204 vs 2,725)",
+        "11.49x the star velocity (130.4/day vs 11.3/day)",
+        "no harder to set up (32 vs 49 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "model-routing",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 88,
+        "incumbent_setup_score": 49,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

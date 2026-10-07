@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "full_name": "yohey-w/multi-agent-shogun",
+  "name": "multi-agent-shogun",
+  "owner": "yohey-w",
+  "url": "https://github.com/yohey-w/multi-agent-shogun",
+  "description": "Samurai-inspired multi-agent system for Claude Code. Orchestrate parallel AI tasks via tmux with shogun → karo → ashigaru hierarchy.",
+  "homepage": "",
+  "category": "orchestration",
+  "also_in": [],
+  "matched_capabilities": [
+    "multi-agent-orchestration",
+    "parallel-execution"
+  ],
+  "category_score": 24.0,
+  "stars": 1423,
+  "forks": 292,
+  "open_issues": 7,
+  "language": "Shell",
+  "license": "MIT",
+  "topics": [
+    "ai-agent",
+    "anthropic",
+    "automation",
+    "claude-code",
+    "llm",
+    "multi-agent",
+    "parallel-processing",
+    "samurai",
+    "shogun",
+    "tmux"
+  ],
+  "created_at": "2026-01-25T09:29:19Z",
+  "updated_at": "2026-10-05T00:55:29Z",
+  "pushed_at": "2026-08-06T08:08:18Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 255,
+  "days_since_push": 62,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 63.1,
+    "momentum": 4.7,
+    "maintenance": 78.0,
+    "documentation": 72.0,
+    "accessibility": 54.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1423,
+    "days_span": 255,
+    "stars_per_day": 5.58,
+    "lifetime_stars_per_day": 5.58,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "yohey-w/multi-agent-shogun",
+    "readme_chars": 84736,
+    "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "billing-metering",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop",
+      "notifications",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "— you won't need to do it again.",
+      "mobile-access": "Transfer your private key to the phone, or use password authentication",
+      "multi-agent-orchestration": "Zero wait time — give your next order while tasks run in the background",
+      "parallel-execution": "ocumented in detail: docs/philosophy.md",
+      "worktree-isolation": "",
+      "model-routing": "out restarting the entire system.",
+      "billing-metering": "→ Karo → Ashigaru chain of command prevents conflicts by design: clear ownership, dedicated files per agent, event-driven communication, no polling.",
+      "session-persistence": "ead of direct messaging between agents?",
+      "memory-context": "knowledge sharing through a four-layer context system:",
+      "skills-plugins": "nking is enabled (e.g., Sonnet+T, Opus+T).",
+      "agent-runtime": "ut, codex exec headless mode, per-model --model flag gpt-5.3-codex / gpt-5.3-codex-spark",
+      "mcp-support": "One command spawns 7 AI workers + 1 strategist executing in parallel",
+      "self-hosted": "automatically with shutsujindeparture.sh.",
+      "gui-desktop": "",
+      "notifications": "same network (LAN or Tailscale)",
+      "voice-input": "turing the thought before it disappears.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "remote-control": 4,
+      "mobile-access": 7,
+      "multi-agent-orchestration": 9,
+      "parallel-execution": 5,
+      "worktree-isolation": 1,
+      "model-routing": 10,
+      "billing-metering": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "mcp-support": 15,
+      "self-hosted": 2,
+      "gui-desktop": 1,
+      "notifications": 22,
+      "voice-input": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 46,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "curl | sh installer",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        ".env file",
+        "sign-in required",
+        "API token/secret",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner, curl | sh installer; needs git clone (build from source), npm install/build; configure environment variables, API key configuration",
+      "note_zh": "需要一些配置。可通过 npx one-liner、curl | sh installer 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 72,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "Command your AI army like a feudal warlord.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://tailscale.com/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.26
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:13+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

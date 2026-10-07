@@ -1,0 +1,101 @@
+name: Daily crawl
+
+# Rebuilds the index every day: discover new repositories, re-analyse READMEs,
+# re-score every tool, re-evaluate the elimination engine, and regenerate
+# README.md plus docs/. The job commits only when something actually changed.
+
+on:
+  schedule:
+    # 04:17 UTC — off the hour so we do not queue behind the world's cron jobs.
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max candidates to process (blank = all discovered)"
+        required: false
+        default: ""
+      refresh:
+        description: "Ignore the on-disk API cache"
+        type: boolean
+        required: false
+        default: false
+      verify_metadata:
+        description: "Force a /repos call for every candidate (uses more API budget)"
+        type: boolean
+        required: false
+        default: false
+
+# Needed so the job can push the regenerated files back to the repository.
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          # No dependency install step: the pipeline is standard library only.
+
+      - name: Show version
+        run: python --version
+
+      - name: Crawl, analyse and score
+        env:
+          # Raises the API budget from 60 core / 10 search per hour to
+          # 5000 core / 30 search per minute. Falls back gracefully if absent.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AGENTINDEX_LOG: INFO
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.limit }}" ]; then ARGS="$ARGS --limit ${{ inputs.limit }}"; fi
+          if [ "${{ inputs.refresh }}" = "true" ]; then ARGS="$ARGS --refresh"; fi
+          python scripts/agentindex.py crawl $ARGS
+
+      - name: Validate the generated index
+        run: python scripts/agentindex.py validate
+
+      - name: Render README and docs
+        run: python scripts/agentindex.py render
+
+      - name: Print summary
+        run: python scripts/agentindex.py stats
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A README.md README.zh-CN.md docs data
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            SUMMARY=$(python scripts/agentindex.py stats | tr '\n' ' ' | cut -c1-200)
+            git commit -m "chore(data): daily crawl $(date -u +%Y-%m-%d)" \
+                       -m "$SUMMARY"
+            git push
+          fi
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## Daily crawl"
+            echo ""
+            echo '```'
+            python scripts/agentindex.py stats || echo "stats unavailable"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

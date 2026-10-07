@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "full_name": "appautomaton/latex-arxiv-SKILL",
+  "name": "latex-arxiv-SKILL",
+  "owner": "appautomaton",
+  "url": "https://github.com/appautomaton/latex-arxiv-SKILL",
+  "description": "A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.",
+  "homepage": "https://appautomaton.com/latex-arxiv-SKILL/",
+  "category": "agent-runtimes",
+  "also_in": [
+    "workflow-ux"
+  ],
+  "matched_capabilities": [
+    "cross-agent-support"
+  ],
+  "category_score": 10.0,
+  "stars": 457,
+  "forks": 40,
+  "open_issues": 1,
+  "language": "TeX",
+  "license": "MIT",
+  "topics": [
+    "academic-writing",
+    "agent-skill",
+    "agentic",
+    "agentic-ai",
+    "ai-agents",
+    "anthropic",
+    "arxiv",
+    "bibtex",
+    "citations",
+    "claude-code",
+    "codex",
+    "ieeetran",
+    "latex",
+    "literature-review",
+    "llm",
+    "openai",
+    "paper-generation",
+    "research-paper",
+    "review-paper",
+    "scientific-writing"
+  ],
+  "created_at": "2025-03-18T17:58:07Z",
+  "updated_at": "2026-10-07T07:03:23Z",
+  "pushed_at": "2026-09-13T16:17:03Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 567,
+  "days_since_push": 23,
+  "health_score": 48,
+  "health_components": {
+    "popularity": 53.2,
+    "momentum": 0.7,
+    "maintenance": 92.0,
+    "documentation": 43.0,
+    "accessibility": 64.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 457,
+    "days_span": 567,
+    "stars_per_day": 0.81,
+    "lifetime_stars_per_day": 0.81,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "appautomaton/latex-arxiv-SKILL",
+    "readme_chars": 7515,
+    "capabilities": [
+      "model-routing",
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "Post-processes prose for readable sentence and paragraph rhythm while preserving every citation.",
+      "skills-plugins": "# arXiv Review Paper Harness",
+      "agent-runtime": "You give your coding agent a topic, and the harness drives it through a disciplined pipeline: literature discovery, a human approval gate, an issue-by-issue writing loop, citation verification, prose refinement, and com…",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 36,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. configure database dependency",
+      "note_zh": "较易上手。需配置 database dependency"
+    },
+    "doc_score": 43,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "has troubleshooting/FAQ",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "arXiv Review Paper Harness is an agentic harness for writing machine-learning and AI review papers in LaTeX.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.065
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "nexu-io/open-design",
+    "supersede": {
+      "incumbent": "appautomaton/latex-arxiv-skill",
+      "challenger": "nexu-io/open-design",
+      "incumbent_name": "appautomaton/latex-arxiv-SKILL",
+      "challenger_name": "nexu-io/open-design",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "model-routing",
+        "skills-plugins"
+      ],
+      "star_ratio": 218.405,
+      "momentum_ratio": 760.642,
+      "setup_delta": -7,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "218.40x the stars (99,811 vs 457)",
+        "760.64x the star velocity (616.1/day vs 0.8/day)",
+        "no harder to set up (29 vs 36 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "model-routing",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "model-routing",
+          "quota-distribution",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 95,
+        "incumbent_setup_score": 36,
+        "challenger_setup_score": 29
+      }
+    }
+  }
+}

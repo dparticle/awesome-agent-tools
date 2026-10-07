@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "full_name": "rohitg00/agentmemory",
+  "name": "agentmemory",
+  "owner": "rohitg00",
+  "url": "https://github.com/rohitg00/agentmemory",
+  "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+  "homepage": "https://agent-memory.dev",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 29204,
+  "forks": 2556,
+  "open_issues": 596,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "agentmemory",
+    "agents",
+    "ai",
+    "claude",
+    "claudecode",
+    "codex",
+    "copilot",
+    "cursor",
+    "genai",
+    "harness",
+    "hermes",
+    "memory",
+    "openclaw"
+  ],
+  "created_at": "2026-02-25T07:32:52Z",
+  "updated_at": "2026-10-07T13:29:37Z",
+  "pushed_at": "2026-10-06T18:00:18Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 224,
+  "days_since_push": 0,
+  "health_score": 88,
+  "health_components": {
+    "popularity": 89.3,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 70.0,
+    "accessibility": 68.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 29204,
+    "days_span": 224,
+    "stars_per_day": 130.38,
+    "lifetime_stars_per_day": 130.38,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "rohitg00/agentmemory",
+    "readme_chars": 126575,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "billing-metering",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "y, paste the block inside { \"mcpServers\": { ...",
+      "multi-agent-orchestration": "ep / vector / agentmemory adapters score side-by-side, NDJSON output, published scorecards land in docs/benchmarks/.",
+      "model-routing": "inference is on-device afterward.",
+      "api-gateway": "",
+      "billing-metering": "",
+      "memory-context": "By default, agentmemory stores iii-engine state outside the repository you start it from: ~/Library/Application Support/agentmemory on macOS, $XDGDATAHOME/agentmemory or ~/.local/share/agentmemory on Linux, and %APPDATA…",
+      "skills-plugins": "agentmemory ships 17 skills in the Claude-Code-style /SKILL.md format: 9 invocable action skills (remember, recall, recap, handoff, forget, lesson, commit-context, commit-history, session-history) and 8 reference skills…",
+      "agent-runtime": "Your coding agent remembers everything.",
+      "mcp-support": "earch: agentmemory is the implementation.",
+      "security-isolation": "ays the same, and what differs.",
+      "self-hosted": "autostopmachines = \"stop\"; cheapest idle.",
+      "team-collaboration": "",
+      "gui-desktop": "acOS/Linux automatic iii-engine installation also needs curl, a POSIX sh, and tar.",
+      "notifications": "hook engine injects CLAUDEPLUGINROOT into hook subprocesses (per codex-rs/hooks/src/engine/discovery.rs), so the same hook scripts work across both hosts without duplication.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Cline, Codex"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 5,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "memory-context": 4,
+      "skills-plugins": 2,
+      "agent-runtime": 4,
+      "mcp-support": 62,
+      "security-isolation": 2,
+      "self-hosted": 1,
+      "team-collaboration": 1,
+      "gui-desktop": 5,
+      "notifications": 1,
+      "cross-agent-support": 14
+    },
+    "friction": {
+      "level": "low",
+      "score": 32,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "pip install",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config file",
+        "config.json/yaml/toml",
+        "config file",
+        "sign-in required",
+        "database dependency",
+        "database migration",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "no code needed",
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, pip install; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; no code needed",
+      "note_zh": "较易上手。可通过 npx one-liner、pip install 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、API key configuration；no code needed"
+    },
+    "doc_score": 70,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider",
+      "Cline / Roo",
+      "Qwen Code",
+      "Goose",
+      "Droid"
+    ],
+    "summary_en": "Your coding agent remembers everything.",
+    "summary_zh": "",
+    "install_hint": "npx -y @agentmemory/agentmemory@latest",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.166
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

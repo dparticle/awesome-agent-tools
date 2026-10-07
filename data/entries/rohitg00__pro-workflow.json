@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "full_name": "rohitg00/pro-workflow",
+  "name": "pro-workflow",
+  "owner": "rohitg00",
+  "url": "https://github.com/rohitg00/pro-workflow",
+  "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
+  "homepage": "https://rohitg00.github.io/pro-workflow/infographic.html",
+  "category": "orchestration",
+  "also_in": [
+    "memory-context"
+  ],
+  "matched_capabilities": [
+    "multi-agent-orchestration"
+  ],
+  "category_score": 10.0,
+  "stars": 2907,
+  "forks": 295,
+  "open_issues": 31,
+  "language": "JavaScript",
+  "license": "",
+  "topics": [
+    "agent-orchestration",
+    "ai-agents",
+    "ai-coding",
+    "ai-workflow",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "context-engineering",
+    "cursor",
+    "developer-tools",
+    "gemini-cli",
+    "hooks",
+    "productivity",
+    "self-correction",
+    "workflow",
+    "worktrees"
+  ],
+  "created_at": "2026-02-01T19:47:29Z",
+  "updated_at": "2026-10-07T07:53:42Z",
+  "pushed_at": "2026-09-29T10:12:13Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 247,
+  "days_since_push": 8,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 69.3,
+    "momentum": 9.8,
+    "maintenance": 92.0,
+    "documentation": 46.0,
+    "accessibility": 51.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2907,
+    "days_span": 247,
+    "stars_per_day": 11.77,
+    "lifetime_stars_per_day": 11.77,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "rohitg00/pro-workflow",
+    "readme_chars": 26932,
+    "capabilities": [
+      "remote-control",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "usage-analytics",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "+ Cursor together, skills add cross-agent",
+      "multi-agent-orchestration": "ences/system-one-classifiers.md.",
+      "parallel-execution": "search / /list Search and list stored learnings",
+      "worktree-isolation": "hase Research → Plan → Implement → Review",
+      "model-routing": "",
+      "usage-analytics": "on disk + FTS5 shadow index, queryable from any session, optionally grown by an auto-research loop.",
+      "memory-context": "",
+      "skills-plugins": "",
+      "agent-runtime": "iciency Anti-sycophancy + tool-call budgets + read-before-write",
+      "mcp-support": "as Devin Desktop, which speaks the Agent Client Protocol (ACP); gemini-cli was superseded by the Antigravity CLI for consumers.",
+      "security-isolation": "",
+      "notifications": "Stop, PreCompact, PostCompact, SubagentStart, SubagentStop, TaskCreated, TaskCompleted, PermissionRequest, PermissionDenied, PostToolUseFailure, TeammateIdle, StopFailure, FileChanged, ConfigChange, Notification, Setup,…",
+      "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "multi-agent-orchestration": 3,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "usage-analytics": 1,
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "mcp-support": 5,
+      "security-isolation": 1,
+      "notifications": 1,
+      "cross-agent-support": 11
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 49,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, database dependency",
+      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、database dependency"
+    },
+    "doc_score": 46,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Cline / Roo",
+      "Goose",
+      "Crush",
+      "Droid"
+    ],
+    "summary_en": "Self-correcting memory + persistent FTS5-indexed wikis + auto-research loop, all on one SQLite store.",
+    "summary_zh": "",
+    "install_hint": "npx skills add rohitg00/pro-workflow",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "self-describes as a maintained list"
+      ],
+      "external_link_ratio": 0.557
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

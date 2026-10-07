@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "full_name": "grpcer/ownmem",
+  "name": "ownmem",
+  "owner": "grpcer",
+  "url": "https://github.com/grpcer/ownmem",
+  "description": "Open-source, Git-native memory for AI coding agents — deterministic local recall for Claude Code, Codex, Cursor, Gemini CLI, and compatible tools.",
+  "homepage": "https://www.npmjs.com/package/ownmem",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "agent-runtime",
+    "cross-agent-support"
+  ],
+  "category_score": 22.5,
+  "stars": 423,
+  "forks": 7,
+  "open_issues": 0,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-memory",
+    "ai-agent-memory",
+    "ai-memory",
+    "bm25",
+    "claude-code",
+    "claude-code-memory",
+    "codex",
+    "codex-memory",
+    "coding-agent-memory",
+    "coding-agents",
+    "cursor",
+    "cursor-memory",
+    "deterministic-retrieval",
+    "developer-tools",
+    "gemini-cli",
+    "gemini-cli-memory",
+    "git-native",
+    "llm-memory",
+    "local-first",
+    "project-memory"
+  ],
+  "created_at": "2026-08-16T12:45:36Z",
+  "updated_at": "2026-10-06T05:46:53Z",
+  "pushed_at": "2026-10-06T05:48:22Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 52,
+  "days_since_push": 1,
+  "health_score": 58,
+  "health_components": {
+    "popularity": 52.5,
+    "momentum": 6.8,
+    "maintenance": 100.0,
+    "documentation": 69.0,
+    "accessibility": 87.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 423,
+    "days_span": 52,
+    "stars_per_day": 8.13,
+    "lifetime_stars_per_day": 8.13,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "grpcer/ownmem",
+    "readme_chars": 14672,
+    "capabilities": [
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "memory-context": "e, and you review it like code:",
+      "agent-runtime": "AI agent memory systems optimize for remembering more.",
+      "mcp-support": "has confirmed it, and it cites no authority document or code anchor — so it arrives as a lead to re-check rather than as an established fact.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "memory-context": 2,
+      "agent-runtime": 3,
+      "mcp-support": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs npm install/build",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 npm install/build"
+    },
+    "doc_score": 69,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "Cursor"
+    ],
+    "summary_en": "Git-native memory for AI coding agents",
+    "summary_zh": "",
+    "install_hint": "npm install --save-dev ownmem",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.091
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

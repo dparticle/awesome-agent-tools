@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "full_name": "delorenj/mcp-server-trello",
+  "name": "mcp-server-trello",
+  "owner": "delorenj",
+  "url": "https://github.com/delorenj/mcp-server-trello",
+  "description": "A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards.",
+  "homepage": "",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 14.0,
+  "stars": 445,
+  "forks": 147,
+  "open_issues": 26,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2025-01-03T14:54:10Z",
+  "updated_at": "2026-10-07T10:52:16Z",
+  "pushed_at": "2026-09-23T19:51:44Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 641,
+  "days_since_push": 13,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 53.0,
+    "momentum": 0.6,
+    "maintenance": 92.0,
+    "documentation": 64.0,
+    "accessibility": 66.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 445,
+    "days_span": 641,
+    "stars_per_day": 0.69,
+    "lifetime_stars_per_day": 0.69,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "delorenj/mcp-server-trello",
+    "readme_chars": 27969,
+    "capabilities": [
+      "auto-failover",
+      "skills-plugins",
+      "mcp-support",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "kill, it follows skill/SKILL.md.",
+      "skills-plugins": "MCP Registry as io.github.delorenj/mcp-server-trello, so registry-aware clients can discover and install it directly.",
+      "mcp-support": "A Model Context Protocol (MCP) server that gives AI agents full access to your Trello boards — cards, lists, checklists, attachments, comments, custom fields, and workspaces — with built-in rate limiting, type safety, a…",
+      "notifications": "getacceptancecriteria pulls a card's AC checklist straight into your agent's context — no competitor offers it.",
+      "cross-agent-support": "Mentions Claude Code, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "skills-plugins": 3,
+      "mcp-support": 23,
+      "notifications": 2,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "bunx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config.json/yaml/toml"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. install via bunx one-liner, native installer / package; needs git clone (build from source); configure environment variables, API key configuration",
+      "note_zh": "较易上手。可通过 bunx one-liner、native installer / package 安装；需要 git clone (build from source)；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 64,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor"
+    ],
+    "summary_en": "A Model Context Protocol (MCP) server that gives AI agents full access to your Trello boards — cards, lists, checklists, attachments, comments, custom fields, and workspaces — with built-in rate limiting, type safety, and workflow-level to…",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.393
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

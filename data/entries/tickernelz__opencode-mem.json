@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "full_name": "tickernelz/opencode-mem",
+  "name": "opencode-mem",
+  "owner": "tickernelz",
+  "url": "https://github.com/tickernelz/opencode-mem",
+  "description": "OpenCode plugin that gives coding agents persistent memory using local vector database",
+  "homepage": "",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 14.0,
+  "stars": 1719,
+  "forks": 173,
+  "open_issues": 6,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-01-10T08:13:56Z",
+  "updated_at": "2026-10-07T09:27:07Z",
+  "pushed_at": "2026-10-06T19:00:02Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 270,
+  "days_since_push": 0,
+  "health_score": 55,
+  "health_components": {
+    "popularity": 64.7,
+    "momentum": 5.3,
+    "maintenance": 100.0,
+    "documentation": 69.0,
+    "accessibility": 40.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1719,
+    "days_span": 270,
+    "stars_per_day": 6.37,
+    "lifetime_stars_per_day": 6.37,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "tickernelz/opencode-mem",
+    "readme_chars": 39385,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "memory-context",
+      "agent-runtime",
+      "security-isolation",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "tured in the current session are excluded, and an optional age cutoff in days.",
+      "model-routing": "d, confirm the provider name with opencode providers list and configure that provider in opencode first.",
+      "memory-context": "the API after authenticating.",
+      "agent-runtime": "er out — using these helpers avoids that pitfall.",
+      "security-isolation": ", chmod 600) and migrates existing plaintext shards.",
+      "gui-desktop": "artup resumes from the backup automatically.",
+      "notifications": "and an optional age cutoff in days.",
+      "cross-agent-support": "Mentions Claude Code, Copilot, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "model-routing": 2,
+      "memory-context": 4,
+      "agent-runtime": 2,
+      "security-isolation": 1,
+      "gui-desktop": 9,
+      "notifications": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "high",
+      "score": 60,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "OAuth login flow",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. configure API key configuration, config file",
+      "note_zh": "配置较重。需配置 API key configuration、config file"
+    },
+    "doc_score": 69,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "OpenCode",
+      "Copilot"
+    ],
+    "summary_en": "A persistent memory system for AI coding agents that enables long-term context retention across sessions using local vector database technology.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.203
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "supersede": {
+      "incumbent": "tickernelz/opencode-mem",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "tickernelz/opencode-mem",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "notifications",
+        "security-isolation"
+      ],
+      "star_ratio": 16.989,
+      "momentum_ratio": 20.468,
+      "setup_delta": -28,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "16.99x the stars (29,204 vs 1,719)",
+        "20.47x the star velocity (130.4/day vs 6.4/day)",
+        "no harder to set up (32 vs 60 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 55,
+        "challenger_health": 88,
+        "incumbent_setup_score": 60,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

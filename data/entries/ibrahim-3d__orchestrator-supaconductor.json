@@ -1,0 +1,206 @@
+{
+  "schema": 1,
+  "full_name": "Ibrahim-3d/orchestrator-supaconductor",
+  "name": "orchestrator-supaconductor",
+  "owner": "Ibrahim-3d",
+  "url": "https://github.com/Ibrahim-3d/orchestrator-supaconductor",
+  "description": "Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills",
+  "homepage": "",
+  "category": "orchestration",
+  "also_in": [],
+  "matched_capabilities": [
+    "multi-agent-orchestration"
+  ],
+  "category_score": 11.0,
+  "stars": 380,
+  "forks": 39,
+  "open_issues": 2,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "topics": [
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "evaluate-loop",
+    "multi-agent",
+    "orchestration",
+    "parallel-execution",
+    "superpowers"
+  ],
+  "created_at": "2026-02-17T16:01:09Z",
+  "updated_at": "2026-09-30T14:53:28Z",
+  "pushed_at": "2026-09-27T19:18:53Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 231,
+  "days_since_push": 9,
+  "health_score": 48,
+  "health_components": {
+    "popularity": 51.6,
+    "momentum": 1.4,
+    "maintenance": 92.0,
+    "documentation": 69.0,
+    "accessibility": 28.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 380,
+    "days_span": 231,
+    "stars_per_day": 1.65,
+    "lifetime_stars_per_day": 1.65,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Ibrahim-3d/orchestrator-supaconductor",
+    "readme_chars": 20137,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "usly installed conductor-orchestrator-superpowers (the old name):",
+      "parallel-execution": "les; up to 3 plan revisions)",
+      "worktree-isolation": "",
+      "agent-runtime": "## What Does This Do? You tell your coding agent what you want.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 7,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "agent-runtime": 2,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "high",
+      "score": 72,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)",
+        "go build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source), go build; configure config.json/yaml/toml, database migration",
+      "note_zh": "配置较重。需要 git clone (build from source)、go build；需配置 config.json/yaml/toml、database migration"
+    },
+    "doc_score": 69,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "One command builds features, fixes bugs, and ships code — with automated planning, execution, and quality checks.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.348
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "yohey-w/multi-agent-shogun",
+    "supersede": {
+      "incumbent": "ibrahim-3d/orchestrator-supaconductor",
+      "challenger": "yohey-w/multi-agent-shogun",
+      "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
+      "challenger_name": "yohey-w/multi-agent-shogun",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "multi-agent-orchestration",
+        "parallel-execution",
+        "worktree-isolation"
+      ],
+      "star_ratio": 3.745,
+      "momentum_ratio": 3.382,
+      "setup_delta": -26,
+      "dominance": 0.951,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "3.74x the stars (1,423 vs 380)",
+        "3.38x the star velocity (5.6/day vs 1.6/day)",
+        "no harder to set up (46 vs 72 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 52,
+        "incumbent_setup_score": 72,
+        "challenger_setup_score": 46
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "full_name": "OthmanAdi/planning-with-files",
+  "name": "planning-with-files",
+  "owner": "OthmanAdi",
+  "url": "https://github.com/OthmanAdi/planning-with-files",
+  "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
+  "homepage": "https://gilded-laurel-c7nj.here.now/",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 14.0,
+  "stars": 27318,
+  "forks": 2269,
+  "open_issues": 6,
+  "language": "Shell",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "autonomous-agents",
+    "claude",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "coding-agent",
+    "context-engineering",
+    "context-rot",
+    "cursor",
+    "github-copilot",
+    "hermes-plugin",
+    "hermes-skill",
+    "llm-agents",
+    "long-running-agents",
+    "manus",
+    "multi-agent-systems",
+    "planning",
+    "session-recovery"
+  ],
+  "created_at": "2026-01-03T07:37:28Z",
+  "updated_at": "2026-10-07T13:27:18Z",
+  "pushed_at": "2026-10-06T16:31:38Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 277,
+  "days_since_push": 0,
+  "health_score": 85,
+  "health_components": {
+    "popularity": 88.7,
+    "momentum": 82.2,
+    "maintenance": 100.0,
+    "documentation": 73.0,
+    "accessibility": 73.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 27318,
+    "days_span": 277,
+    "stars_per_day": 98.62,
+    "lifetime_stars_per_day": 98.62,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "OthmanAdi/planning-with-files",
+    "readme_chars": 100651,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "security-isolation",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "plugins for Claude Code, Codex CLI, Pi, Hermes Agent, OpenCode and DeepSeek Harness.",
+      "parallel-execution": "ry mechanism below is a file on disk plus a hook, so it works the same on hour ten as on turn one.",
+      "worktree-isolation": "** One orchestrator owns taskplan.md and the shared summaries; every worker appends to its own ledger or assigned file.",
+      "memory-context": "",
+      "skills-plugins": "ackage, wired up for you (skill, extension, status bar):",
+      "agent-runtime": "s every turn, a plan on disk that survives /clear , and 3 out of 3 blind A/B wins to show it works.",
+      "security-isolation": "",
+      "cross-agent-support": "Mentions Amp, Claude Code, Codex, Continue"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 3,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "memory-context": 1,
+      "skills-plugins": 3,
+      "agent-runtime": 5,
+      "security-isolation": 1,
+      "cross-agent-support": 9
+    },
+    "friction": {
+      "level": "low",
+      "score": 27,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, native installer / package; needs npm install/build; configure environment variables, database dependency; one-click setup",
+      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 npm install/build；需配置 environment variables、database dependency；one-click setup"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Droid"
+    ],
+    "summary_en": "Planning with Files&nbsp;&nbsp;&nbsp;",
+    "summary_zh": "",
+    "install_hint": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.368
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

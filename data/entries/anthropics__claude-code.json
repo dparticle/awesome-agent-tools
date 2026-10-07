@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "full_name": "anthropics/claude-code",
+  "name": "claude-code",
+  "owner": "anthropics",
+  "url": "https://github.com/anthropics/claude-code",
+  "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+  "homepage": "https://code.claude.com/docs/en/overview",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "agent-runtime",
+    "skills-plugins"
+  ],
+  "category_score": 21.5,
+  "stars": 149710,
+  "forks": 25716,
+  "open_issues": 14470,
+  "language": "TypeScript",
+  "license": "",
+  "topics": [],
+  "created_at": "2025-02-22T17:41:21Z",
+  "updated_at": "2026-10-07T13:15:32Z",
+  "pushed_at": "2026-10-07T00:13:58Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 591,
+  "days_since_push": 0,
+  "health_score": 90,
+  "health_components": {
+    "popularity": 100.0,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 36.0,
+    "accessibility": 100.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 149710,
+    "days_span": 591,
+    "stars_per_day": 253.32,
+    "lifetime_stars_per_day": 253.32,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "anthropics/claude-code",
+    "readme_chars": 2873,
+    "capabilities": [
+      "skills-plugins",
+      "agent-runtime"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "",
+      "agent-runtime": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natu…"
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "agent-runtime": 1
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 7,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "winget install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via Homebrew install, winget install; needs npm install/build",
+      "note_zh": "开箱即用。可通过 Homebrew install、winget install 安装；需要 npm install/build"
+    },
+    "doc_score": 36,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has troubleshooting/FAQ"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://claude.ai/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.436
+    }
+  },
+  "discovery": {
+    "source": "seed",
+    "seed_reason": "The reference agentic coding tool.",
+    "metadata_source": "api"
+  },
+  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

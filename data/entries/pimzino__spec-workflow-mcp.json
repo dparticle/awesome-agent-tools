@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "full_name": "Pimzino/spec-workflow-mcp",
+  "name": "spec-workflow-mcp",
+  "owner": "Pimzino",
+  "url": "https://github.com/Pimzino/spec-workflow-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.",
+  "homepage": "",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 13.0,
+  "stars": 4301,
+  "forks": 355,
+  "open_issues": 10,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "topics": [],
+  "created_at": "2025-08-07T13:18:06Z",
+  "updated_at": "2026-10-06T13:23:28Z",
+  "pushed_at": "2026-07-03T19:19:12Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 426,
+  "days_since_push": 95,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 72.7,
+    "momentum": 8.4,
+    "maintenance": 55.0,
+    "documentation": 58.0,
+    "accessibility": 36.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 4301,
+    "days_span": 426,
+    "stars_per_day": 10.1,
+    "lifetime_stars_per_day": 10.1,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Pimzino/spec-workflow-mcp",
+    "readme_chars": 11227,
+    "capabilities": [
+      "worktree-isolation",
+      "api-gateway",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "worktree-isolation": "he as a reverse proxy with:",
+      "api-gateway": "",
+      "mcp-support": "KEN A SMALL BREAK FROM THIS REPO FOR PERSONAL REASONS BUT I WILL BE BACK WITH SOME UPDATES IN THE NEAR FUTURE",
+      "security-isolation": "",
+      "gui-desktop": "rogress, navigate documents, and monitor your development workflow.*",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "worktree-isolation": 2,
+      "api-gateway": 1,
+      "mcp-support": 9,
+      "security-isolation": 1,
+      "gui-desktop": 2,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "high",
+      "score": 64,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "docker run",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "config file",
+        "config.json/yaml/toml",
+        "config file",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "note_en": "Involved setup. install via npx one-liner, native installer / package; needs docker compose up, docker run; configure environment variables, config file",
+      "note_zh": "配置较重。可通过 npx one-liner、native installer / package 安装；需要 docker compose up、docker run；需配置 environment variables、config file"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "I HAVE TAKEN A SMALL BREAK FROM THIS REPO FOR PERSONAL REASONS BUT I WILL BE BACK WITH SOME UPDATES IN THE NEAR FUTURE THANK YOU FOR YOUR UNDERSTANDING",
+    "summary_zh": "",
+    "install_hint": "npx -y @pimzino/spec-workflow-mcp@latest --dashboard",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.267
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

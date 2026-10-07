@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "full_name": "Paramchoudhary/ResumeSkills",
+  "name": "ResumeSkills",
+  "owner": "Paramchoudhary",
+  "url": "https://github.com/Paramchoudhary/ResumeSkills",
+  "description": "A collection of AI agent skills focused on resume optimization, job applications, and career development. Built for job seekers, career changers, and professionals who want Claude Code to help with resume writing, ATS optimization, interview prep, and strategic job search.",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 13.0,
+  "stars": 2591,
+  "forks": 219,
+  "open_issues": 6,
+  "language": "",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-01-30T10:29:46Z",
+  "updated_at": "2026-10-07T12:17:12Z",
+  "pushed_at": "2026-06-19T07:20:29Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 250,
+  "days_since_push": 110,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 68.3,
+    "momentum": 8.6,
+    "maintenance": 55.0,
+    "documentation": 39.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2591,
+    "days_span": 250,
+    "stars_per_day": 10.36,
+    "lifetime_stars_per_day": 10.36,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Paramchoudhary/ResumeSkills",
+    "readme_chars": 8621,
+    "capabilities": [
+      "skills-plugins",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "# Resume Skills for Claude Code",
+      "cross-agent-support": "Mentions Amp, Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "skills-plugins": 3,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source)",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 39,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "Cursor"
+    ],
+    "summary_en": "A collection of AI agent skills focused on resume optimization, job applications, and career development.",
+    "summary_zh": "",
+    "install_hint": "npx skills add Paramchoudhary/ResumeSkills -g -y",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

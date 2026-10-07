@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "full_name": "franklee16/academic-research-skills",
+  "name": "academic-research-skills",
+  "owner": "franklee16",
+  "url": "https://github.com/franklee16/academic-research-skills",
+  "description": "Comprehensive collection of Claude Code skills for academic research in economics, finance, and social sciences",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 13.0,
+  "stars": 223,
+  "forks": 34,
+  "open_issues": 1,
+  "language": "Stata",
+  "license": "",
+  "topics": [],
+  "created_at": "2026-04-19T11:24:54Z",
+  "updated_at": "2026-10-03T06:22:27Z",
+  "pushed_at": "2026-09-18T12:12:00Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 171,
+  "days_since_push": 19,
+  "health_score": 44,
+  "health_components": {
+    "popularity": 47.0,
+    "momentum": 1.1,
+    "maintenance": 92.0,
+    "documentation": 28.0,
+    "accessibility": 63.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 223,
+    "days_span": 171,
+    "stars_per_day": 1.3,
+    "lifetime_stars_per_day": 1.3,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "franklee16/academic-research-skills",
+    "readme_chars": 19243,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "uite (humanities-report-writing-suite-main/)",
+      "skills-plugins": "# Academic Research Skills for Claude Code",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 8,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "pip install -r requirements"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via pip install; needs pip install -r requirements; configure API key configuration, database dependency",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 pip install -r requirements；需配置 API key configuration、database dependency"
+    },
+    "doc_score": 28,
+    "doc_signals": [
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "A curated collection of Claude Code skills for academic research in economics, finance, and the broader social sciences — organized by the common types of skills a researcher needs across a project's lifecycle.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:26+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (3/3).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (3/3)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
+    "supersede": {
+      "incumbent": "franklee16/academic-research-skills",
+      "challenger": "othmanadi/planning-with-files",
+      "incumbent_name": "franklee16/academic-research-skills",
+      "challenger_name": "OthmanAdi/planning-with-files",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 122.502,
+      "momentum_ratio": 75.862,
+      "setup_delta": -10,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (3/3)",
+        "122.50x the stars (27,318 vs 223)",
+        "75.86x the star velocity (98.6/day vs 1.3/day)",
+        "no harder to set up (27 vs 37 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 44,
+        "challenger_health": 85,
+        "incumbent_setup_score": 37,
+        "challenger_setup_score": 27
+      }
+    }
+  }
+}

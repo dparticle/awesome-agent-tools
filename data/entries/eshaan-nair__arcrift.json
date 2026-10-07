@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "full_name": "Eshaan-Nair/ArcRift",
+  "name": "ArcRift",
+  "owner": "Eshaan-Nair",
+  "url": "https://github.com/Eshaan-Nair/ArcRift",
+  "description": "Persistent local memory layer for AI. ArcRift uses a extension and a native MCP server to sync context and decisions from your browser chats (Claude, ChatGPT, DeepSeek) straight to your local IDE agents (Cursor, Claude Code, Windsurf)  powered by a local SQLite knowledge graph.",
+  "homepage": "https://arcrift.vercel.app/",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 247,
+  "forks": 35,
+  "open_issues": 1,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "ai-agents",
+    "ai-coding",
+    "browser-extension",
+    "chatgpt",
+    "claude",
+    "cursor",
+    "deepseek",
+    "developer-tools",
+    "gemini",
+    "llm",
+    "local-first",
+    "mcp",
+    "memory",
+    "productivity",
+    "rag",
+    "sqlite"
+  ],
+  "created_at": "2026-04-21T06:26:25Z",
+  "updated_at": "2026-10-06T07:42:53Z",
+  "pushed_at": "2026-07-07T12:52:48Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 169,
+  "days_since_push": 92,
+  "health_score": 46,
+  "health_components": {
+    "popularity": 47.9,
+    "momentum": 1.2,
+    "maintenance": 55.0,
+    "documentation": 71.0,
+    "accessibility": 80.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 247,
+    "days_span": 169,
+    "stars_per_day": 1.46,
+    "lifetime_stars_per_day": 1.46,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Eshaan-Nair/ArcRift",
+    "readme_chars": 33154,
+    "capabilities": [
+      "auto-failover",
+      "parallel-execution",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "tching sentences are precise, the noise penalty is near zero.",
+      "parallel-execution": "efore they reach any route handler.",
+      "memory-context": "you have already covered, and the AI gives you advice that contradicts decisions you made two weeks ago.",
+      "agent-runtime": "ck **Inject Context** in the popup.",
+      "mcp-support": "new prompt — no cloud, no subscriptions, no re-explaining yourself.",
+      "gui-desktop": "dow, it will minimize to your system tray.",
+      "cross-agent-support": "Mentions Claude Code, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "parallel-execution": 1,
+      "memory-context": 10,
+      "agent-runtime": 3,
+      "mcp-support": 21,
+      "gui-desktop": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 20,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, native installer / package; needs npm install/build; configure API key configuration, config file; one-click setup",
+      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 npm install/build；需配置 API key configuration、config file；one-click setup"
+    },
+    "doc_score": 71,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "A local-first memory layer that captures your conversations, builds a searchable knowledge graph, and automatically injects the right context into every new prompt — no cloud, no subscriptions, no re-explaining yourself.",
+    "summary_zh": "",
+    "install_hint": "npx arcrift-setup",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.633
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:26+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

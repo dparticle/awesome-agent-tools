@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "full_name": "0xK3vin/MegaMemory",
+  "name": "MegaMemory",
+  "owner": "0xK3vin",
+  "url": "https://github.com/0xK3vin/MegaMemory",
+  "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
+  "homepage": "",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 16.0,
+  "stars": 713,
+  "forks": 75,
+  "open_issues": 4,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agentic-coding",
+    "ai",
+    "ai-agents",
+    "claude-code",
+    "code-context",
+    "coding-agent",
+    "embeddings",
+    "knowledge-graph",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "opencode",
+    "persistent-memory",
+    "sqlite",
+    "typescript"
+  ],
+  "created_at": "2026-02-06T07:40:49Z",
+  "updated_at": "2026-10-07T13:27:05Z",
+  "pushed_at": "2026-05-03T00:22:07Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 243,
+  "days_since_push": 157,
+  "health_score": 43,
+  "health_components": {
+    "popularity": 57.1,
+    "momentum": 2.4,
+    "maintenance": 55.0,
+    "documentation": 44.0,
+    "accessibility": 72.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 713,
+    "days_span": 243,
+    "stars_per_day": 2.93,
+    "lifetime_stars_per_day": 2.93,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "0xK3vin/MegaMemory",
+    "readme_chars": 9017,
+    "capabilities": [
+      "session-persistence",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "session-persistence": "n ~/.config/opencode/AGENTS.md",
+      "memory-context": "re · module · pattern · config · decision · component",
+      "agent-runtime": "",
+      "mcp-support": "ig files after a successful read/merge, and it will not overwrite existing plugin/command files unless they are already marked as MegaMemory-managed.",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "session-persistence": 1,
+      "memory-context": 4,
+      "agent-runtime": 2,
+      "mcp-support": 9,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 28,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via global npm install, native installer / package; needs npm install/build; configure config.json/yaml/toml, database dependency",
+      "note_zh": "较易上手。可通过 global npm install、native installer / package 安装；需要 npm install/build；需配置 config.json/yaml/toml、database dependency"
+    },
+    "doc_score": 44,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "An MCP server that lets your coding agent build and query a graph of concepts, architecture, and decisions — so it remembers across sessions.",
+    "summary_zh": "",
+    "install_hint": "npm install -g megamemory",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.665
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by Gentleman-Programming/engram: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 Gentleman-Programming/engram 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "Gentleman-Programming/engram",
+    "supersede": {
+      "incumbent": "0xk3vin/megamemory",
+      "challenger": "gentleman-programming/engram",
+      "incumbent_name": "0xK3vin/MegaMemory",
+      "challenger_name": "Gentleman-Programming/engram",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "session-persistence"
+      ],
+      "star_ratio": 9.916,
+      "momentum_ratio": 10.355,
+      "setup_delta": -6,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "9.92x the stars (7,070 vs 713)",
+        "10.35x the star velocity (30.3/day vs 2.9/day)",
+        "no harder to set up (22 vs 28 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "session-persistence"
+        ],
+        "incumbent_health": 43,
+        "challenger_health": 67,
+        "incumbent_setup_score": 28,
+        "challenger_setup_score": 22
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "full_name": "paperclipai/paperclip",
+  "name": "paperclip",
+  "owner": "paperclipai",
+  "url": "https://github.com/paperclipai/paperclip",
+  "description": "The open-source app everyone uses to manage agents at work",
+  "homepage": "https://paperclip.ing",
+  "category": "remote-control",
+  "also_in": [],
+  "matched_capabilities": [
+    "remote-control"
+  ],
+  "category_score": 14.0,
+  "stars": 98271,
+  "forks": 16613,
+  "open_issues": 6210,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-03-02T15:01:51Z",
+  "updated_at": "2026-10-07T13:25:24Z",
+  "pushed_at": "2026-10-07T13:24:05Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 218,
+  "days_since_push": 0,
+  "health_score": 89,
+  "health_components": {
+    "popularity": 99.8,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 66.0,
+    "accessibility": 55.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 98271,
+    "days_span": 218,
+    "stars_per_day": 450.78,
+    "lifetime_stars_per_day": 450.78,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "paperclipai/paperclip",
+    "readme_chars": 33852,
+    "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "model-routing",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "",
+      "mobile-access": "",
+      "multi-agent-orchestration": "people use to manage AI agents for work.",
+      "worktree-isolation": "ounded recovery handles supported failures and surfaces cases that need human action.",
+      "model-routing": "",
+      "usage-analytics": "hard-stops, and agent pause/resume/terminate.",
+      "session-persistence": "",
+      "memory-context": "",
+      "skills-plugins": "ntelemetry/api is a normal server dependency; the SDK, auto-instrumentation, and exporter packages are optional peer dependencies — install them only if you want tracing.",
+      "agent-runtime": "delegation and supported managed connections.",
+      "mcp-support": "Novita, self-hosted Kubernetes)",
+      "security-isolation": "bility-gated host services, job scheduling, tool exposure, and UI contributions.",
+      "self-hosted": "ion sign-in also needs Python 3 and the",
+      "team-collaboration": "",
+      "gui-desktop": "",
+      "notifications": "ll or write shared skills , test them with saved inputs, inspect results, and restore earlier versions.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "remote-control": 2,
+      "mobile-access": 1,
+      "multi-agent-orchestration": 5,
+      "worktree-isolation": 3,
+      "model-routing": 1,
+      "usage-analytics": 2,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "skills-plugins": 2,
+      "agent-runtime": 1,
+      "mcp-support": 2,
+      "security-isolation": 1,
+      "self-hosted": 3,
+      "team-collaboration": 1,
+      "gui-desktop": 1,
+      "notifications": 3,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 45,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "pnpm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "config file",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner; needs git clone (build from source), pnpm install/build; configure environment variables, config file; GUI application",
+      "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 git clone (build from source)、pnpm install/build；需配置 environment variables、config file；GUI application"
+    },
+    "doc_score": 66,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "publishes a roadmap",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "Open-source orchestration for teams of AI agents.",
+    "summary_zh": "",
+    "install_hint": "npx paperclipai@latest onboard --yes",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.532
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:05+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "full_name": "neiii/bridle",
+  "name": "bridle",
+  "owner": "neiii",
+  "url": "https://github.com/neiii/bridle",
+  "description": "TUI / CLI config manager for agentic harnesses (Amp, Claude Code, Opencode, Goose, Copilot CLI, Crush, Droid)",
+  "homepage": "",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "cross-agent-support",
+    "skills-plugins"
+  ],
+  "category_score": 20.0,
+  "stars": 440,
+  "forks": 20,
+  "open_issues": 20,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "ampcode",
+    "claude-code",
+    "cli",
+    "configuration",
+    "copilot-cli",
+    "crush-cli",
+    "mcp",
+    "opencode",
+    "rust",
+    "terminal",
+    "tui"
+  ],
+  "created_at": "2025-12-27T19:02:08Z",
+  "updated_at": "2026-09-24T15:05:49Z",
+  "pushed_at": "2026-08-15T19:42:57Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 283,
+  "days_since_push": 52,
+  "health_score": 48,
+  "health_components": {
+    "popularity": 52.9,
+    "momentum": 1.3,
+    "maintenance": 78.0,
+    "documentation": 48.0,
+    "accessibility": 78.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 440,
+    "days_span": 283,
+    "stars_per_day": 1.55,
+    "lifetime_stars_per_day": 1.55,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "neiii/bridle",
+    "readme_chars": 6913,
+    "capabilities": [
+      "skills-plugins",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "",
+      "mcp-support": "gents ~/.claude/plugins//agents/ ~/.config/opencode/agent/ — ~/.copilot/agents/ —",
+      "cross-agent-support": "Mentions Amp, Claude Code, Copilot, Crush"
+    },
+    "capability_hits": {
+      "skills-plugins": 2,
+      "mcp-support": 1,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "bunx one-liner",
+        "Homebrew install",
+        "cargo install",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml"
+      ],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Easy. install via npx one-liner, bunx one-liner; needs git clone (build from source), npm install/build; configure config.json/yaml/toml",
+      "note_zh": "较易上手。可通过 npx one-liner、bunx one-liner 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml"
+    },
+    "doc_score": 48,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "OpenCode",
+      "Copilot",
+      "Goose",
+      "Crush"
+    ],
+    "summary_en": "Unified configuration manager for AI coding assistants.",
+    "summary_zh": "",
+    "install_hint": "brew install neiii/bridle/bridle",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.579
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (3/3).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (3/3)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "supersede": {
+      "incumbent": "neiii/bridle",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "neiii/bridle",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "skills-plugins"
+      ],
+      "star_ratio": 75.798,
+      "momentum_ratio": 50.51,
+      "setup_delta": -20,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (3/3)",
+        "75.80x the stars (33,351 vs 440)",
+        "50.51x the star velocity (78.3/day vs 1.6/day)",
+        "no harder to set up (2 vs 22 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 81,
+        "incumbent_setup_score": 22,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

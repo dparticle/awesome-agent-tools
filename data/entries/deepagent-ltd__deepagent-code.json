@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "full_name": "deepagent-ltd/deepagent-code",
+  "name": "deepagent-code",
+  "owner": "deepagent-ltd",
+  "url": "https://github.com/deepagent-ltd/deepagent-code",
+  "description": "DeepAgent Code: AI coding agent with persistent memory and control plane",
+  "homepage": "https://ai.deepagent.ltd/",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 16.0,
+  "stars": 436,
+  "forks": 3,
+  "open_issues": 2,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "topics": [
+    "ai-agent",
+    "coding-agent",
+    "deepagent",
+    "open-source"
+  ],
+  "created_at": "2026-06-23T12:41:42Z",
+  "updated_at": "2026-09-30T16:59:35Z",
+  "pushed_at": "2026-10-01T05:10:46Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "dev",
+  "age_days": 106,
+  "days_since_push": 6,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 52.8,
+    "momentum": 3.4,
+    "maintenance": 100.0,
+    "documentation": 46.0,
+    "accessibility": 58.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 436,
+    "days_span": 106,
+    "stars_per_day": 4.11,
+    "lifetime_stars_per_day": 4.11,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "deepagent-ltd/deepagent-code",
+    "readme_chars": 17424,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "worktree-isolation": "replay, audit, and recovery always agree on what actually happened.",
+      "model-routing": "ble models from the endpoint's /models list — nothing else to fill in.",
+      "api-gateway": "ned around, use the official",
+      "session-persistence": "very prompt, tool call, and event is written to the durable log before it happens.",
+      "memory-context": "connects four views of the project:",
+      "skills-plugins": "",
+      "agent-runtime": "The AI coding agent that remembers, plans, collaborates — and finishes the job",
+      "mcp-support": "Get definitions, references, call chains, type hierarchies, and diagnostics in one call.",
+      "security-isolation": "uture task when the instruction should begin after the current one instead of changing it.",
+      "gui-desktop": "s, inspect its artifacts, and keep the answer attached to the conversation that requested it.",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "worktree-isolation": 2,
+      "model-routing": 4,
+      "api-gateway": 2,
+      "session-persistence": 1,
+      "memory-context": 2,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "mcp-support": 2,
+      "security-isolation": 1,
+      "gui-desktop": 3,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 42,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config file",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via curl | sh installer; needs git clone (build from source); configure environment variables, API key configuration; GUI application",
+      "note_zh": "需要一些配置。可通过 curl | sh installer 安装；需要 git clone (build from source)；需配置 environment variables、API key configuration；GUI application"
+    },
+    "doc_score": 46,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "DeepAgent Code is an AI coding workspace for work that lasts longer than one prompt.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://ai.deepagent.ltd/download/install | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.459
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

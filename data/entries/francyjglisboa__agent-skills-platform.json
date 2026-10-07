@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "full_name": "FrancyJGLisboa/agent-skills-platform",
+  "name": "agent-skills-platform",
+  "owner": "FrancyJGLisboa",
+  "url": "https://github.com/FrancyJGLisboa/agent-skills-platform",
+  "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
+  "homepage": "https://francyjglisboa.github.io/agent-skills-platform/",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 16.0,
+  "stars": 2403,
+  "forks": 265,
+  "open_issues": 4,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "cursor",
+    "developer-tools",
+    "evals",
+    "github-copilot",
+    "governance",
+    "skill-marketplace"
+  ],
+  "created_at": "2025-10-18T15:01:46Z",
+  "updated_at": "2026-10-06T16:10:56Z",
+  "pushed_at": "2026-09-15T17:31:46Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 353,
+  "days_since_push": 21,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 67.6,
+    "momentum": 5.7,
+    "maintenance": 92.0,
+    "documentation": 42.0,
+    "accessibility": 85.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2403,
+    "days_span": 353,
+    "stars_per_day": 6.81,
+    "lifetime_stars_per_day": 6.81,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "FrancyJGLisboa/agent-skills-platform",
+    "readme_chars": 8769,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ity, and evaluation schema—run in parallel.",
+      "memory-context": "flow package that guides an agent from a",
+      "skills-plugins": "form: question to tested skill to governed marketplace",
+      "mcp-support": "ns only you can authorize, builds and tests",
+      "gui-desktop": "egistry files, or run marketplace commands.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "memory-context": 1,
+      "skills-plugins": 8,
+      "mcp-support": 4,
+      "gui-desktop": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 15,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "explicitly no coding required",
+        "no-code positioning",
+        "beginner-friendly",
+        "GUI application"
+      ],
+      "platforms": [],
+      "note_en": "Turnkey. configure database dependency; explicitly no coding required",
+      "note_zh": "开箱即用。需配置 database dependency；explicitly no coding required"
+    },
+    "doc_score": 42,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Copilot",
+      "Droid"
+    ],
+    "summary_en": "Turn a real workflow into a tested, installable agent skill—then publish it safely to your team.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.684
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

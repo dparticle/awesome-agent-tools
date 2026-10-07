@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "full_name": "google-gemini/gemini-cli",
+  "name": "gemini-cli",
+  "owner": "google-gemini",
+  "url": "https://github.com/google-gemini/gemini-cli",
+  "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+  "homepage": "https://geminicli.com",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 15.0,
+  "stars": 107242,
+  "forks": 14704,
+  "open_issues": 781,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai",
+    "ai-agents",
+    "cli",
+    "gemini",
+    "gemini-api",
+    "mcp-client",
+    "mcp-server"
+  ],
+  "created_at": "2025-04-17T17:04:31Z",
+  "updated_at": "2026-10-07T13:14:50Z",
+  "pushed_at": "2026-10-07T01:31:40Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 537,
+  "days_since_push": 0,
+  "health_score": 91,
+  "health_components": {
+    "popularity": 100.0,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 69.0,
+    "accessibility": 66.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 107242,
+    "days_span": 537,
+    "stars_per_day": 199.71,
+    "lifetime_stars_per_day": 199.71,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "google-gemini/gemini-cli",
+    "readme_chars": 13432,
+    "capabilities": [
+      "model-routing",
+      "billing-metering",
+      "usage-analytics",
+      "session-persistence",
+      "skills-plugins",
+      "mcp-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "billing-metering": "pers who need specific model control or paid tier access",
+      "usage-analytics": "",
+      "session-persistence": "",
+      "skills-plugins": "",
+      "mcp-support": "contributions! Gemini CLI is fully open source (Apache 2.0), and we"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "billing-metering": 2,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "skills-plugins": 2,
+      "mcp-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "Homebrew install",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, Homebrew install; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow",
+      "note_zh": "较易上手。可通过 npx one-liner、Homebrew install 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow"
+    },
+    "doc_score": 69,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [
+      "Gemini CLI"
+    ],
+    "summary_en": "Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "summary_zh": "",
+    "install_hint": "npx @google/gemini-cli",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 3.425
+    }
+  },
+  "discovery": {
+    "source": "seed",
+    "seed_reason": "Gemini's terminal agent, generous free tier.",
+    "metadata_source": "api"
+  },
+  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

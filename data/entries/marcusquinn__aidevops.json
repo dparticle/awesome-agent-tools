@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "full_name": "marcusquinn/aidevops",
+  "name": "aidevops",
+  "owner": "marcusquinn",
+  "url": "https://github.com/marcusquinn/aidevops",
+  "description": "Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, security, and 24/7 results. Open-source first. SOTA everything. The best AI harness for GitHub & teamwork.",
+  "homepage": "https://www.aidevops.sh",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "cross-agent-support"
+  ],
+  "category_score": 15.0,
+  "stars": 406,
+  "forks": 69,
+  "open_issues": 34,
+  "language": "Shell",
+  "license": "MIT",
+  "topics": [
+    "agents",
+    "agents-md",
+    "ai",
+    "ai-agents",
+    "ai-assistant",
+    "ai-assistants",
+    "ai-assisted-development",
+    "ai-code-review",
+    "ai-coding",
+    "ai-dev-ops",
+    "ai-devops",
+    "ai-system-admin",
+    "claude",
+    "devops",
+    "devops-tools",
+    "git-workflow",
+    "git-worktrees",
+    "opencode",
+    "opencode-plugin"
+  ],
+  "created_at": "2025-11-09T05:15:11Z",
+  "updated_at": "2026-10-07T13:21:22Z",
+  "pushed_at": "2026-10-07T13:25:34Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 332,
+  "days_since_push": 0,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 52.2,
+    "momentum": 1.0,
+    "maintenance": 100.0,
+    "documentation": 76.0,
+    "accessibility": 61.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 406,
+    "days_span": 332,
+    "stars_per_day": 1.22,
+    "lifetime_stars_per_day": 1.22,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "marcusquinn/aidevops",
+    "readme_chars": 41800,
+    "capabilities": [
+      "multi-account-switching",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "model-routing",
+      "billing-metering",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "team-collaboration",
+      "gui-desktop",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "ing, ecommerce, WordPress (including Rank Math SEO MCP), documents, OCR, browser automation, and creative applications.",
+      "multi-agent-orchestration": "AI DevOps — 17 main agents, 2,250+ sub agents, 2,210+ helper scripts, and 110+ slash commands",
+      "worktree-isolation": "s, rerun with --apply in an attached",
+      "model-routing": "e PRs, dispatches workers, diagnoses failures, and recovers stalled or orphaned activity within API and resource budgets.",
+      "billing-metering": "y sources: user guide, domain index, architecture, configuration",
+      "memory-context": "ed execution surfaces, not the sole",
+      "skills-plugins": "paths, issue authority, signatures, and exact-head merge evidence.",
+      "mcp-support": "component guidance, previews, and accessibility verification.",
+      "security-isolation": "e scanned before activation; high-severity findings block normal installation.",
+      "team-collaboration": "content, outreach, and operational checks into scheduled, evidence-bearing workflows.",
+      "gui-desktop": "and platform requirements. The framework is developed primarily on macOS and includes Linux support for documented workflows.",
+      "voice-input": "skills, private agent sources, MCPs, API helpers, OpenAPI exploration, and project bundles",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "multi-agent-orchestration": 4,
+      "worktree-isolation": 6,
+      "model-routing": 4,
+      "billing-metering": 2,
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "mcp-support": 4,
+      "security-isolation": 1,
+      "team-collaboration": 1,
+      "gui-desktop": 1,
+      "voice-input": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 39,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "sign-in required",
+        "database migration",
+        "server/reverse-proxy setup",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Some setup. install via Homebrew install, global npm install; needs git clone (build from source), npm install/build; configure environment variables, sign-in required; GUI application",
+      "note_zh": "需要一些配置。可通过 Homebrew install、global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、sign-in required；GUI application"
+    },
+    "doc_score": 76,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "aidevops.sh is an OpenCode plugin and AI DevOps framework for carrying work from intent to a verified outcome.",
+    "summary_zh": "",
+    "install_hint": "brew install marcusquinn/tap/aidevops && aidevops update   # macOS (Homebrew)",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.335
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:21+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

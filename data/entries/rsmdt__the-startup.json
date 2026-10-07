@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "full_name": "rsmdt/the-startup",
+  "name": "the-startup",
+  "owner": "rsmdt",
+  "url": "https://github.com/rsmdt/the-startup",
+  "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
+  "homepage": "https://www.r16t.com/agentic-startup",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 10.0,
+  "stars": 544,
+  "forks": 66,
+  "open_issues": 0,
+  "language": "Shell",
+  "license": "MIT",
+  "topics": [
+    "claude-code",
+    "claude-code-plugin",
+    "claude-marketplace",
+    "claude-plugin"
+  ],
+  "created_at": "2025-08-12T10:54:59Z",
+  "updated_at": "2026-10-07T12:41:51Z",
+  "pushed_at": "2026-08-03T13:21:33Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 421,
+  "days_since_push": 65,
+  "health_score": 48,
+  "health_components": {
+    "popularity": 54.7,
+    "momentum": 1.1,
+    "maintenance": 78.0,
+    "documentation": 51.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 544,
+    "days_span": 421,
+    "stars_per_day": 1.29,
+    "lifetime_stars_per_day": 1.29,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "rsmdt/the-startup",
+    "readme_chars": 27384,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "memory-context",
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ion where specialized agents coordinate and work together on complex tasks.",
+      "parallel-execution": "y more time during implementation.",
+      "memory-context": "",
+      "skills-plugins": "Moving on.\" \"Here's what failed and why...\""
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 5,
+      "parallel-execution": 2,
+      "memory-context": 1,
+      "skills-plugins": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "config file",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. install via curl | sh installer, native installer / package; configure config file, database migration",
+      "note_zh": "较易上手。可通过 curl | sh installer、native installer / package 安装；需配置 config file、database migration"
+    },
+    "doc_score": 51,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has a table of contents",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Droid"
+    ],
+    "summary_en": "Ship faster.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/rsmdt/the-startup/main/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.11
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
+    "supersede": {
+      "incumbent": "rsmdt/the-startup",
+      "challenger": "othmanadi/planning-with-files",
+      "incumbent_name": "rsmdt/the-startup",
+      "challenger_name": "OthmanAdi/planning-with-files",
+      "kind": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "memory-context",
+        "multi-agent-orchestration",
+        "parallel-execution",
+        "skills-plugins"
+      ],
+      "star_ratio": 50.217,
+      "momentum_ratio": 76.45,
+      "setup_delta": 2,
+      "dominance": 0.99,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "50.22x the stars (27,318 vs 544)",
+        "76.45x the star velocity (98.6/day vs 1.3/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "memory-context",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 85,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 27
+      }
+    }
+  }
+}

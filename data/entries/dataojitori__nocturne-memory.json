@@ -1,0 +1,172 @@
+{
+  "schema": 1,
+  "full_name": "Dataojitori/nocturne_memory",
+  "name": "nocturne_memory",
+  "owner": "Dataojitori",
+  "url": "https://github.com/Dataojitori/nocturne_memory",
+  "description": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw.",
+  "homepage": "https://misaligned.top/memory",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 20.0,
+  "stars": 1376,
+  "forks": 171,
+  "open_issues": 5,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agentic-ai",
+    "ai-identity",
+    "ai-memory",
+    "artificial-intelligence",
+    "claude",
+    "claude-code",
+    "digital-soul",
+    "gemini-cli",
+    "llm",
+    "long-term-memory",
+    "mcp",
+    "mcp-server",
+    "postgresql",
+    "python",
+    "rag",
+    "second-brain",
+    "sqlite"
+  ],
+  "created_at": "2025-12-25T08:45:54Z",
+  "updated_at": "2026-10-06T05:08:39Z",
+  "pushed_at": "2026-09-22T20:13:39Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 286,
+  "days_since_push": 14,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 62.8,
+    "momentum": 4.0,
+    "maintenance": 92.0,
+    "documentation": 66.0,
+    "accessibility": 40.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1376,
+    "days_span": 286,
+    "stars_per_day": 4.81,
+    "lifetime_stars_per_day": 4.81,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Dataojitori/nocturne_memory",
+    "readme_chars": 22681,
+    "capabilities": [
+      "remote-control",
+      "worktree-isolation",
+      "session-persistence",
+      "memory-context",
+      "mcp-support",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "",
+      "worktree-isolation": "Gemini CLI / OpenAI Codex / Cursor / OpenClaw / Antigravity / GitHub Copilot，以及任何支持 stdio 或 SSE 传输的 MCP 客户端。",
+      "session-persistence": "",
+      "memory-context": "",
+      "mcp-support": "# Nocturne Memory: Long-Term Memory Server for MCP Agents",
+      "notifications": "",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "worktree-isolation": 1,
+      "session-persistence": 2,
+      "memory-context": 5,
+      "mcp-support": 29,
+      "notifications": 2,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "high",
+      "score": 60,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "API token/secret",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "Chinese: beginner/one-click framing"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. install via pip install; needs docker compose up, git clone (build from source); configure config.json/yaml/toml, API token/secret; Chinese: beginner/one-click framing",
+      "note_zh": "配置较重。可通过 pip install 安装；需要 docker compose up、git clone (build from source)；需配置 config.json/yaml/toml、API token/secret；Chinese: beginner/one-click framing"
+    },
+    "doc_score": 66,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a table of contents",
+      "links to dedicated docs",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Cline / Roo"
+    ],
+    "summary_en": "English Version | 后端测试说明",
+    "summary_zh": "",
+    "install_hint": "pip install -r backend/requirements.txt",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.529
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:13+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

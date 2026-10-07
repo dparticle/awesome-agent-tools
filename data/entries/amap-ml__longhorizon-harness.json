@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "full_name": "AMAP-ML/LongHorizon-Harness",
+  "name": "LongHorizon-Harness",
+  "owner": "AMAP-ML",
+  "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+  "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
+  "homepage": "https://lh-harness.pages.dev",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "cross-agent-support"
+  ],
+  "category_score": 17.0,
+  "stars": 1671,
+  "forks": 183,
+  "open_issues": 43,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "claude",
+    "claude-code",
+    "claude-plugin",
+    "cli",
+    "codex",
+    "codex-desktop",
+    "codex-plugin",
+    "cua",
+    "deepseek-harness",
+    "gui",
+    "harness",
+    "long-horizon",
+    "long-horizon-agents",
+    "longhorizon-harness",
+    "loop",
+    "loop-engineering"
+  ],
+  "created_at": "2026-08-04T04:30:58Z",
+  "updated_at": "2026-10-07T11:53:14Z",
+  "pushed_at": "2026-08-20T12:36:03Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 64,
+  "days_since_push": 48,
+  "health_score": 59,
+  "health_components": {
+    "popularity": 64.5,
+    "momentum": 21.8,
+    "maintenance": 78.0,
+    "documentation": 71.0,
+    "accessibility": 70.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1671,
+    "days_span": 64,
+    "stars_per_day": 26.11,
+    "lifetime_stars_per_day": 26.11,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "AMAP-ML/LongHorizon-Harness",
+    "readme_chars": 32381,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "api-gateway",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "rs: a capable Manager and Auditor with a cheaper Executor, for example.",
+      "model-routing": "",
+      "api-gateway": "",
+      "mcp-support": "Seek API endpoint overrides, normalized JSONL results, and CLI/config/doctor integration.",
+      "security-isolation": "",
+      "self-hosted": "ping it out of the workspace.",
+      "gui-desktop": "ite permissions, DeepSeek API endpoint overrides, normalized JSONL results, and CLI/config/doctor integration.",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "mcp-support": 11,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "gui-desktop": 6,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config file",
+        "config.json/yaml/toml",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via pip install, global npm install; needs npm install/build; configure environment variables, API key configuration; GUI application",
+      "note_zh": "较易上手。可通过 pip install、global npm install 安装；需要 npm install/build；需配置 environment variables、API key configuration；GUI application"
+    },
+    "doc_score": 71,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "Give Claude Code, Codex, OpenCode, or DeepSeek Harness a goal once.",
+    "summary_zh": "",
+    "install_hint": "npm install -g @deepseek-ai/dsh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.525
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

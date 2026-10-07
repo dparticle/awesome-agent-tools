@@ -1,0 +1,199 @@
+{
+  "schema": 1,
+  "full_name": "Socialpranker/deepdive",
+  "name": "deepdive",
+  "owner": "Socialpranker",
+  "url": "https://github.com/Socialpranker/deepdive",
+  "description": "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints.",
+  "homepage": "https://socialpranker.github.io/deepdive/",
+  "category": "orchestration",
+  "also_in": [],
+  "matched_capabilities": [
+    "multi-agent-orchestration"
+  ],
+  "category_score": 11.0,
+  "stars": 372,
+  "forks": 3,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "agentic-workflow",
+    "ai-research-assistant",
+    "anthropic",
+    "citation-verification",
+    "claude",
+    "claude-code",
+    "deep-research",
+    "llm-research",
+    "markdown",
+    "meta-research",
+    "prompt-engineering",
+    "rag",
+    "research-automation",
+    "research-methodology"
+  ],
+  "created_at": "2026-05-21T11:43:13Z",
+  "updated_at": "2026-10-01T17:22:31Z",
+  "pushed_at": "2026-10-04T09:24:11Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 139,
+  "days_since_push": 3,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 51.4,
+    "momentum": 2.2,
+    "maintenance": 100.0,
+    "documentation": 72.0,
+    "accessibility": 49.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 372,
+    "days_span": 139,
+    "stars_per_day": 2.68,
+    "lifetime_stars_per_day": 2.68,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Socialpranker/deepdive",
+    "readme_chars": 32014,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "skills-plugins",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "For Claude Desktop (Skills enabled)",
+      "model-routing": "",
+      "skills-plugins": "The report isn't discussed, it's executed: the skill walks you through each fork one at a time (\"research showed X [s03][s11] — does fork A fire? your call?\") and logs the outcome — decided, blocked on missing data (one…",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 4,
+      "model-routing": 2,
+      "skills-plugins": 3,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. needs git clone (build from source)",
+      "note_zh": "需要一些配置。需要 git clone (build from source)"
+    },
+    "doc_score": 72,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Stop ad-hoc Googling.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.469
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "yohey-w/multi-agent-shogun",
+    "supersede": {
+      "incumbent": "socialpranker/deepdive",
+      "challenger": "yohey-w/multi-agent-shogun",
+      "incumbent_name": "Socialpranker/deepdive",
+      "challenger_name": "yohey-w/multi-agent-shogun",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "model-routing",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 3.825,
+      "momentum_ratio": 2.082,
+      "setup_delta": -5,
+      "dominance": 0.891,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "3.83x the stars (1,423 vs 372)",
+        "2.08x the star velocity (5.6/day vs 2.7/day)",
+        "no harder to set up (46 vs 51 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 52,
+        "incumbent_setup_score": 51,
+        "challenger_setup_score": 46
+      }
+    }
+  }
+}

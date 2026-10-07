@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "full_name": "Orkas-AI/Orkas",
+  "name": "Orkas",
+  "owner": "Orkas-AI",
+  "url": "https://github.com/Orkas-AI/Orkas",
+  "description": "Orkas is an open-source, local-first AI desktop app: a commander LLM directs specialist sub-agents, and runs your installed coding CLIs — Claude Code, Codex, OpenCode, OpenClaw, Hermes — as local sessions. Agents self-evolve via reflection and skill crystallization. BYO keys. macOS / Windows / Linux.",
+  "homepage": "https://orkas.ai?source=gh-orkas",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "agent-runtime",
+    "cross-agent-support",
+    "skills-plugins"
+  ],
+  "category_score": 34.0,
+  "stars": 2154,
+  "forks": 88,
+  "open_issues": 11,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-collaboration",
+    "agent-orchestration",
+    "agent-team",
+    "agentic-ai",
+    "ai-agents",
+    "ai-assistant",
+    "ai-team",
+    "ai-workflow",
+    "autonomous-agents",
+    "byo-llm",
+    "cross-platform",
+    "desktop-app",
+    "electron",
+    "llm",
+    "local-first",
+    "mcp",
+    "mcp-client",
+    "multi-agent",
+    "multi-agent-system",
+    "self-evolving-agents"
+  ],
+  "created_at": "2026-04-29T12:19:08Z",
+  "updated_at": "2026-10-07T13:29:30Z",
+  "pushed_at": "2026-10-07T08:20:59Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 161,
+  "days_since_push": 0,
+  "health_score": 58,
+  "health_components": {
+    "popularity": 66.7,
+    "momentum": 11.1,
+    "maintenance": 100.0,
+    "documentation": 58.0,
+    "accessibility": 58.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2154,
+    "days_span": 161,
+    "stars_per_day": 13.38,
+    "lifetime_stars_per_day": 13.38,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Orkas-AI/Orkas",
+    "readme_chars": 19473,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ibrary to embed in your own app.",
+      "parallel-execution": "ktop chat — not one chatbot.",
+      "worktree-isolation": "r machine to the provider — never through Orkas servers.",
+      "model-routing": "handles the general parts itself, and coordinates specialist agents in parallel or in sequence.",
+      "api-gateway": "rchestrates agents and tools — it is not itself a model.",
+      "memory-context": "l agents OpenClaw and Hermes-Agent — and onboard open-source projects like HyperFrames as local tools, all coordinated by the same Commander.",
+      "skills-plugins": "whisper.cpp, and multilingual speech model resources on first launch.",
+      "agent-runtime": "- Drives the open-source ecosystem — plug in external CLI agents as local sessions — the coding agents Claude Code, Codex and OpenCode, plus the personal agents OpenClaw and Hermes-Agent — and onboard open-source projec…",
+      "gui-desktop": "and keys stay local by default.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 4,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "model-routing": 2,
+      "api-gateway": 1,
+      "memory-context": 4,
+      "skills-plugins": 2,
+      "agent-runtime": 4,
+      "gui-desktop": 5,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 42,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, OAuth login flow; GUI application",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration、OAuth login flow；GUI application"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cline / Roo"
+    ],
+    "summary_en": "Command a team of AI agents from one desktop chat — not one chatbot.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.284
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "full_name": "wwwzhouhui/skills_collection",
+  "name": "skills_collection",
+  "owner": "wwwzhouhui",
+  "url": "https://github.com/wwwzhouhui/skills_collection",
+  "description": "本项目是个人开发的 Claude Code Skills 集合，提供实用的技能工具，助力提升开发效率和内容创作。  分享一些好用的 Claude Code Skills，自用、学习两相宜，适用于 Claude Code v2.0 及以上版本。",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 20.0,
+  "stars": 282,
+  "forks": 56,
+  "open_issues": 10,
+  "language": "HTML",
+  "license": "",
+  "topics": [],
+  "created_at": "2025-11-12T09:46:18Z",
+  "updated_at": "2026-10-06T03:06:14Z",
+  "pushed_at": "2026-10-06T03:06:10Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 329,
+  "days_since_push": 1,
+  "health_score": 55,
+  "health_components": {
+    "popularity": 49.0,
+    "momentum": 0.7,
+    "maintenance": 100.0,
+    "documentation": 91.0,
+    "accessibility": 56.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 282,
+    "days_span": 329,
+    "stars_per_day": 0.86,
+    "lifetime_stars_per_day": 0.86,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "wwwzhouhui/skills_collection",
+    "readme_chars": 99839,
+    "capabilities": [
+      "quota-management",
+      "auto-failover",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "model-routing",
+      "provider-aggregation",
+      "api-gateway",
+      "billing-metering",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "ion.mp3、.srt、.narrated.mp4、.final.mp4",
+      "auto-failover": "KEY 是 DashScope API 密钥，用于翻译和 Wan 2.7 生图",
+      "mobile-access": "参考链**：主视觉文生图定调，后续每张图都以它作图生图参考，人物、地理、服饰、色彩与镜头语言整套锁死",
+      "multi-agent-orchestration": "播 = 一个动画场景，底部字幕逐词卡拉OK高亮——声音念到哪，画面切到哪",
+      "model-routing": "",
+      "provider-aggregation": "",
+      "api-gateway": "**核心功能：** - ✅ **文学分镜**：按空间/时间/人物/动作/修辞/情绪转折拆 5–8 个视觉段落，不是机械地每两句配一张图 - ✅ **统一视觉圣经 + 参考链**：主视觉文生图定调，后续每张图都以它作图生图参考，人物、地理、服饰、色彩与镜头语言整套锁死 - ✅ **双服务商四档位**：火山引擎方舟 Doubao Seedream 5.0（pro/lite）与 GPT-Image 网关（gpt-2/gpt-2.5），可按段…",
+      "billing-metering": "高风险 诱导分享/关注 \"白嫖\"、\"薅羊毛\"、\"速转\"、\"分享给朋友\"等",
+      "memory-context": "",
+      "skills-plugins": "down 结构行、时间线/字幕/短场景淡入淡出健壮性加固，并新增 check-env.mjs 一键环境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）",
+      "mcp-support": "境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）",
+      "notifications": "纯文本配置文件，无需构建部署，直接复制到 Claude Code 的 skills 目录即可使用。",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "quota-management": 3,
+      "auto-failover": 3,
+      "mobile-access": 4,
+      "multi-agent-orchestration": 3,
+      "model-routing": 1,
+      "provider-aggregation": 1,
+      "api-gateway": 4,
+      "billing-metering": 3,
+      "memory-context": 2,
+      "skills-plugins": 9,
+      "mcp-support": 15,
+      "notifications": 3,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 44,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        ".env file",
+        "config.json/yaml/toml",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "Chinese: beginner/one-click framing",
+        "tutorial-style docs"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via pip install; needs git clone (build from source), npm install/build; configure API key configuration, .env file; Chinese: beginner/one-click framing",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、.env file；Chinese: beginner/one-click framing"
+    },
+    "doc_score": 91,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Cline / Roo",
+      "Droid"
+    ],
+    "summary_en": "个人开发的 Claude Code Skills 集合，提供实用的技能工具，助力提升开发效率和内容创作。",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links",
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.391
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

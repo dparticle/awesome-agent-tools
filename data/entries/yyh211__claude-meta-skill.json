@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "full_name": "YYH211/Claude-meta-skill",
+  "name": "Claude-meta-skill",
+  "owner": "YYH211",
+  "url": "https://github.com/YYH211/Claude-meta-skill",
+  "description": "A curated collection of reusable skills for Claude Code. Enhance Claude's capabilities with ready-to-use skill modules including comprehensive guides, templates, and best practices for creating your own skills.",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 17.0,
+  "stars": 282,
+  "forks": 28,
+  "open_issues": 2,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2025-10-31T08:41:30Z",
+  "updated_at": "2026-09-27T06:44:38Z",
+  "pushed_at": "2026-05-15T09:35:23Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 341,
+  "days_since_push": 145,
+  "health_score": 42,
+  "health_components": {
+    "popularity": 49.0,
+    "momentum": 0.7,
+    "maintenance": 55.0,
+    "documentation": 78.0,
+    "accessibility": 42.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 282,
+    "days_span": 341,
+    "stars_per_day": 0.83,
+    "lifetime_stars_per_day": 0.83,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "YYH211/Claude-meta-skill",
+    "readme_chars": 25252,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "json - Simple workflow (document processing)",
+      "memory-context": "",
+      "skills-plugins": "\", \"code duplication\", \"refactor repetitive code\", \"eliminate duplication\", \"magic numbers\", \"code smell\", \"extract function\"",
+      "mcp-support": "lity, responsive design, performance optimization"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "memory-context": 2,
+      "skills-plugins": 7,
+      "mcp-support": 10
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 58,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "sign-in required",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via pip install; needs git clone (build from source), npm install/build; configure environment variables, sign-in required",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、sign-in required"
+    },
+    "doc_score": 78,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "A curated collection of reusable skills for Claude Code.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links",
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.396
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 abubakarsiddik31/claude-skills-collection 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "abubakarsiddik31/claude-skills-collection",
+    "supersede": {
+      "incumbent": "yyh211/claude-meta-skill",
+      "challenger": "abubakarsiddik31/claude-skills-collection",
+      "incumbent_name": "YYH211/Claude-meta-skill",
+      "challenger_name": "abubakarsiddik31/claude-skills-collection",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 3.865,
+      "momentum_ratio": 3.723,
+      "setup_delta": -12,
+      "dominance": 0.963,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "3.87x the stars (1,090 vs 282)",
+        "3.72x the star velocity (3.1/day vs 0.8/day)",
+        "no harder to set up (46 vs 58 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "notifications",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 42,
+        "challenger_health": 53,
+        "incumbent_setup_score": 58,
+        "challenger_setup_score": 46
+      }
+    }
+  }
+}

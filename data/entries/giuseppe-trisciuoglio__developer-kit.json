@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "full_name": "giuseppe-trisciuoglio/developer-kit",
+  "name": "developer-kit",
+  "owner": "giuseppe-trisciuoglio",
+  "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
+  "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 13.0,
+  "stars": 355,
+  "forks": 41,
+  "open_issues": 17,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agentic-code",
+    "agentic-coding",
+    "agents",
+    "aws",
+    "aws-cloudformation",
+    "claude-code",
+    "claude-code-skill",
+    "claude-code-skills",
+    "claude-skills",
+    "claude-skills-creator",
+    "java",
+    "langchain4j",
+    "php",
+    "python",
+    "skills",
+    "spring-boot",
+    "typescript"
+  ],
+  "created_at": "2025-10-21T08:08:21Z",
+  "updated_at": "2026-10-07T01:19:47Z",
+  "pushed_at": "2026-09-10T11:05:54Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 351,
+  "days_since_push": 27,
+  "health_score": 46,
+  "health_components": {
+    "popularity": 51.0,
+    "momentum": 0.8,
+    "maintenance": 92.0,
+    "documentation": 59.0,
+    "accessibility": 34.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 355,
+    "days_span": 351,
+    "stars_per_day": 1.01,
+    "lifetime_stars_per_day": 1.01,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "giuseppe-trisciuoglio/developer-kit",
+    "readme_chars": 9755,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "memory-context": "ordPress, Sage, AWS Lambda",
+      "skills-plugins": "at supercharges your development workflow across languages and frameworks.",
+      "agent-runtime": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "memory-context": 1,
+      "skills-plugins": 4,
+      "agent-runtime": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "high",
+      "score": 66,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)",
+        "make build"
+      ],
+      "config_signals": [
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Involved setup. needs git clone (build from source), make build; configure server/reverse-proxy setup",
+      "note_zh": "配置较重。需要 git clone (build from source)、make build；需配置 server/reverse-proxy setup"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Copilot",
+      "Qwen Code"
+    ],
+    "summary_en": "🌐 Languages: English | Italiano | 中文 | Español",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.23
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:23+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
+    "supersede": {
+      "incumbent": "giuseppe-trisciuoglio/developer-kit",
+      "challenger": "othmanadi/planning-with-files",
+      "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
+      "challenger_name": "OthmanAdi/planning-with-files",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 76.952,
+      "momentum_ratio": 97.644,
+      "setup_delta": -39,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "76.95x the stars (27,318 vs 355)",
+        "97.64x the star velocity (98.6/day vs 1.0/day)",
+        "no harder to set up (27 vs 66 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 46,
+        "challenger_health": 85,
+        "incumbent_setup_score": 66,
+        "challenger_setup_score": 27
+      }
+    }
+  }
+}

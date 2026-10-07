@@ -1,0 +1,53 @@
+name: Challenge a verdict
+description: A tool was retired unfairly, or a capability was misdetected
+title: "[Verdict] "
+labels: ["verdict"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every claim in this repository is generated from the README, so it can
+        be wrong. The fastest fix is a PR to `config/overrides.json`; an issue
+        is fine too.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong?
+      options:
+        - A tool was retired (superseded/deprecated) but should not have been
+        - A capability was detected that the tool does not have
+        - A capability was missed that the tool does have
+        - The setup difficulty / out-of-the-box rating is wrong
+        - The category is wrong
+    validations:
+      required: true
+
+  - type: input
+    id: tool
+    attributes:
+      label: Which tool?
+      placeholder: "farion1231/cc-switch"
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: |
+        Quote the sentence from the README (or a commit, issue or release note)
+        that supports your correction. For capability problems, the tool page
+        under `docs/tools/` shows the evidence sentence the analyser used —
+        quoting it makes this much faster to review.
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix (optional)
+      description: |
+        A `config/overrides.json` entry, or a tightened regex for
+        `config/capabilities.json`.
+      render: json

@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "full_name": "davepoon/buildwithclaude",
+  "name": "buildwithclaude",
+  "owner": "davepoon",
+  "url": "https://github.com/davepoon/buildwithclaude",
+  "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
+  "homepage": "https://www.buildwithclaude.com",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 14.0,
+  "stars": 3604,
+  "forks": 565,
+  "open_issues": 17,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "claude",
+    "claude-code",
+    "claude-code-commands",
+    "claude-skills",
+    "cli-tool",
+    "commands",
+    "mcp",
+    "mcp-server",
+    "mcp-tools",
+    "openclaw",
+    "plugin-marketplace",
+    "subagents"
+  ],
+  "created_at": "2025-07-25T02:26:45Z",
+  "updated_at": "2026-10-07T09:00:21Z",
+  "pushed_at": "2026-10-06T12:39:52Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 439,
+  "days_since_push": 1,
+  "health_score": 58,
+  "health_components": {
+    "popularity": 71.1,
+    "momentum": 6.8,
+    "maintenance": 100.0,
+    "documentation": 63.0,
+    "accessibility": 50.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3604,
+    "days_span": 439,
+    "stars_per_day": 8.21,
+    "lifetime_stars_per_day": 8.21,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "davepoon/buildwithclaude",
+    "readme_chars": 6917,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "mcp-support",
+      "gui-desktop",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ations - DevOps, cloud, database optimization",
+      "skills-plugins": "Plugin Marketplaces from the community",
+      "mcp-support": "51 Bundled plugin packages by category",
+      "gui-desktop": "he broader Claude Code ecosystem:",
+      "notifications": ""
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 5,
+      "mcp-support": 3,
+      "gui-desktop": 2,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 50,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. needs git clone (build from source); configure database dependency; one-click setup",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；需配置 database dependency；one-click setup"
+    },
+    "doc_score": 63,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "A plugin marketplace and discovery platform for Claude Code.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.169
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

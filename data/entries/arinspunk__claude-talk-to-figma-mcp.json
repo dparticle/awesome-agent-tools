@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "full_name": "arinspunk/claude-talk-to-figma-mcp",
+  "name": "claude-talk-to-figma-mcp",
+  "owner": "arinspunk",
+  "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp",
+  "description": "A Model Context Protocol (MCP) that allows Claude Desktop and other AI tools (Claude Code, Cursor, Antigravity, etc.) to read, analyze, and modify Figma designs",
+  "homepage": "",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 15.5,
+  "stars": 666,
+  "forks": 131,
+  "open_issues": 8,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "antigravity",
+    "claude",
+    "claude-ai",
+    "claude-code",
+    "cursor",
+    "figma",
+    "githubcopilot",
+    "mcp",
+    "mcp-server",
+    "windsurf-ai"
+  ],
+  "created_at": "2025-04-04T21:38:32Z",
+  "updated_at": "2026-10-02T18:02:13Z",
+  "pushed_at": "2026-04-18T15:43:38Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 550,
+  "days_since_push": 171,
+  "health_score": 48,
+  "health_components": {
+    "popularity": 56.5,
+    "momentum": 1.0,
+    "maintenance": 55.0,
+    "documentation": 61.0,
+    "accessibility": 96.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 666,
+    "days_span": 550,
+    "stars_per_day": 1.21,
+    "lifetime_stars_per_day": 1.21,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "arinspunk/claude-talk-to-figma-mcp",
+    "readme_chars": 7932,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "parallel-execution": "it in your recent plugins list.",
+      "agent-runtime": "Claude Talk to Figma collage",
+      "mcp-support": "Claude Talk to Figma collage",
+      "cross-agent-support": "Mentions Claude Code, Cline, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "parallel-execution": 2,
+      "agent-runtime": 4,
+      "mcp-support": 13,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 16,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Turnkey. install via npx one-liner",
+      "note_zh": "开箱即用。可通过 npx one-liner 安装"
+    },
+    "doc_score": 61,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor",
+      "Copilot",
+      "Cline / Roo"
+    ],
+    "summary_en": "Enable your AI agents to read, analyze, and modify Figma designs.",
+    "summary_zh": "",
+    "install_hint": "npx claude-talk-to-figma-mcp",
+    "source": "raw:HEAD/readme.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 3.278
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

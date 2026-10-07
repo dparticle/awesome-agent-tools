@@ -1,0 +1,24 @@
+{
+  "$comment": "Human curation layer. The crawler writes data/curated.json automatically from `supersede` entries here plus `data/entries/*.json`; this file is the hand-edited source of truth for verdicts a machine should not make alone.",
+  "version": 1,
+
+  "supersede": [
+    {
+      "incumbent": "farion1231/cc-switch",
+      "challenger": "yetone/magpie",
+      "note": "magpie covers cc-switch's core job (multi-account / provider switching for Claude Code and Codex) and additionally routes other models through the same agent loop, so it strictly covers the older tool's feature set.",
+      "since": "2026-10-07"
+    }
+  ],
+
+  "states": {},
+
+  "notes": {
+    "$comment": "Free-form annotations shown on a tool's row when the crawler cannot infer them.",
+    "farion1231/cc-switch": {
+      "state": "superseded",
+      "note_en": "Still very popular and actively maintained, but magpie covers the same ground plus cross-model routing. Kept in the graveyard as the incumbent reference.",
+      "note_zh": "依然很流行且在持续维护，但 magpie 覆盖了同样的场景并额外支持跨模型路由。作为上一代参照保留在淘汰区。"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "full_name": "Gentleman-Programming/engram",
+  "name": "engram",
+  "owner": "Gentleman-Programming",
+  "url": "https://github.com/Gentleman-Programming/engram",
+  "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+  "homepage": "https://engram.gentlemanprogramming.com/",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 20.5,
+  "stars": 7070,
+  "forks": 728,
+  "open_issues": 92,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-02-16T13:38:41Z",
+  "updated_at": "2026-10-07T11:23:45Z",
+  "pushed_at": "2026-10-07T05:02:17Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 233,
+  "days_since_push": 0,
+  "health_score": 67,
+  "health_components": {
+    "popularity": 77.0,
+    "momentum": 25.3,
+    "maintenance": 100.0,
+    "documentation": 54.0,
+    "accessibility": 90.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7070,
+    "days_span": 233,
+    "stars_per_day": 30.34,
+    "lifetime_stars_per_day": 30.34,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Gentleman-Programming/engram",
+    "readme_chars": 14668,
+    "capabilities": [
+      "session-persistence",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "session-persistence": "ns, discoveries, accomplished work, next steps, and relevant files.",
+      "memory-context": "Persistent memory for AI coding agents",
+      "agent-runtime": "Persistent memory for AI coding agents",
+      "mcp-support": "ace of a memory in the brain.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "session-persistence": 2,
+      "memory-context": 2,
+      "agent-runtime": 2,
+      "mcp-support": 6,
+      "cross-agent-support": 8
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via Homebrew install; configure database dependency",
+      "note_zh": "较易上手。可通过 Homebrew install 安装；需配置 database dependency"
+    },
+    "doc_score": 54,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Qwen Code"
+    ],
+    "summary_en": "sealed_token is a GitHub fine-grained token encrypted against Star History's public key, so only the encrypted value is published here.",
+    "summary_zh": "",
+    "install_hint": "brew install gentleman-programming/tap/engram",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.136
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:10+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

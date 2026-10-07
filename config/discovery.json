@@ -1,0 +1,26 @@
+{
+  "$comment": "Discovery tuning. The crawler runs on a small unauthenticated API budget by default, so it must be frugal: search results already carry full repository metadata, which lets us pre-filter candidates BEFORE spending a 'core' API call on them.",
+  "version": 1,
+
+  "per_query": 30,
+
+  "prefilter": {
+    "$comment": "Applied to provisional metadata before any core API call. Deliberately looser than the real gates in thresholds.json — this only removes obvious noise.",
+    "min_stars": 60,
+    "max_days_since_push": 240,
+    "allow_archived": false
+  },
+
+  "rising": {
+    "$comment": "Dark-horse detection. Sorting every query by total stars hides new fast risers forever, so we additionally ask GitHub for recently-created repos with meaningful traction. This is what lets a newcomer overtake an incumbent.",
+    "enabled": true,
+    "recent_days": 150,
+    "min_stars": 40,
+    "queries": [
+      "agent created:>{since} stars:>{min_stars}",
+      "claude code created:>{since} stars:>{min_stars}",
+      "codex created:>{since} stars:>{min_stars}",
+      "mcp created:>{since} stars:>{min_stars}"
+    ]
+  }
+}

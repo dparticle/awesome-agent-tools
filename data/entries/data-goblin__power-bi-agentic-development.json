@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "full_name": "data-goblin/power-bi-agentic-development",
+  "name": "power-bi-agentic-development",
+  "owner": "data-goblin",
+  "url": "https://github.com/data-goblin/power-bi-agentic-development",
+  "description": "Power BI AI skills and Power BI agents for Claude Code and GitHub Copilot: a plugin marketplace of Power BI skills, subagents, and hooks for semantic models, DAX, TMDL, reports, and AI dashboards. Includes Microsoft Fabric skills and Fabric agents. Weekly updates.",
+  "homepage": "https://data-goblins.com",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 17.0,
+  "stars": 1028,
+  "forks": 148,
+  "open_issues": 0,
+  "language": "C#",
+  "license": "GPL-3.0",
+  "topics": [
+    "agentic-development",
+    "agents",
+    "ai",
+    "ai-agents",
+    "business-intelligence",
+    "claude",
+    "claude-code",
+    "copilot",
+    "dax",
+    "fabric",
+    "github-copilot",
+    "microsoft-fabric",
+    "pbip",
+    "plugin",
+    "power-bi",
+    "reporting",
+    "semantic-model",
+    "skills",
+    "tmdl"
+  ],
+  "created_at": "2026-01-15T09:26:29Z",
+  "updated_at": "2026-10-07T11:29:50Z",
+  "pushed_at": "2026-10-07T11:29:46Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 265,
+  "days_since_push": 0,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 60.2,
+    "momentum": 3.2,
+    "maintenance": 100.0,
+    "documentation": 74.0,
+    "accessibility": 66.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1028,
+    "days_span": 265,
+    "stars_per_day": 3.88,
+    "lifetime_stars_per_day": 3.88,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "data-goblin/power-bi-agentic-development",
+    "readme_chars": 28580,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": ":** glyphs forces an icon set; follow (Follow Claude) decides whether the tree scrolls to what Claude touches; fontHint turns off the one-line install hint Claude gets once per session when the icons fall back to plain…",
+      "multi-agent-orchestration": "sts *plugins* that you can install.",
+      "skills-plugins": "run this in the terminal to get the marketplace:",
+      "agent-runtime": "reports, and the things around them, like workspaces, deployment pipelines, and also processes.",
+      "mcp-support": "Agents use the .agent.md extension required by Copilot CLI's documented convention.",
+      "cross-agent-support": "Mentions Claude Code, Copilot"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 2,
+      "skills-plugins": 6,
+      "agent-runtime": 2,
+      "mcp-support": 4,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via native installer / package; configure config.json/yaml/toml, database migration",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 config.json/yaml/toml、database migration"
+    },
+    "doc_score": 74,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Copilot"
+    ],
+    "summary_en": "The best source for Power BI AI skills and agentic development resources in one marketplace",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.7
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:16+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

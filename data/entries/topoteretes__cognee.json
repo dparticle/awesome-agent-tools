@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "full_name": "topoteretes/cognee",
+  "name": "cognee",
+  "owner": "topoteretes",
+  "url": "https://github.com/topoteretes/cognee",
+  "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
+  "homepage": "https://www.cognee.ai",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 31529,
+  "forks": 3233,
+  "open_issues": 493,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-memory",
+    "agent-skills",
+    "ai",
+    "ai-agents",
+    "ai-memory",
+    "cognitive-architecture",
+    "cognitive-memory",
+    "context-engineering",
+    "contributions-welcome",
+    "good-first-issue",
+    "good-first-pr",
+    "graph-database",
+    "graph-rag",
+    "help-wanted",
+    "knowledge",
+    "knowledge-graph",
+    "memory-management",
+    "open-source",
+    "vector-database"
+  ],
+  "created_at": "2023-08-16T16:16:33Z",
+  "updated_at": "2026-10-07T13:16:51Z",
+  "pushed_at": "2026-10-07T13:31:14Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 1147,
+  "days_since_push": 0,
+  "health_score": 69,
+  "health_components": {
+    "popularity": 90.0,
+    "momentum": 22.9,
+    "maintenance": 100.0,
+    "documentation": 67.0,
+    "accessibility": 60.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 31529,
+    "days_span": 1147,
+    "stars_per_day": 27.49,
+    "lifetime_stars_per_day": 27.49,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "topoteretes/cognee",
+    "readme_chars": 18159,
+    "capabilities": [
+      "model-routing",
+      "memory-context",
+      "mcp-support",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "natively, create a .env file using our template.",
+      "memory-context": "ion, conversations, tickets, code, and agent work into shared memory.",
+      "mcp-support": "gins, and source connectors.",
+      "self-hosted": "",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "memory-context": 5,
+      "mcp-support": 3,
+      "self-hosted": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 40,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker run"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via pip install, native installer / package; needs docker run; configure config.json/yaml/toml, OAuth login flow",
+      "note_zh": "需要一些配置。可通过 pip install、native installer / package 安装；需要 docker run；需配置 config.json/yaml/toml、OAuth login flow"
+    },
+    "doc_score": 67,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "We rely on free small models that use your CPU.",
+    "summary_zh": "",
+    "install_hint": "docker run --rm -it -p 8000:8000 \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.707
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:08+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

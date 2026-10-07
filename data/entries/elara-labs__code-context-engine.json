@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "full_name": "elara-labs/code-context-engine",
+  "name": "code-context-engine",
+  "owner": "elara-labs",
+  "url": "https://github.com/elara-labs/code-context-engine",
+  "description": "Save 94% on AI coding tokens. Index your codebase, agents search instead of reading files. Works with Claude Code, Codex, Copilot, Cursor, Gemini CLI. Local MCP server, free, open source.",
+  "homepage": "https://elara-labs.github.io/code-context-engine/",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "cross-agent-support"
+  ],
+  "category_score": 14.0,
+  "stars": 427,
+  "forks": 67,
+  "open_issues": 21,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai-coding",
+    "claude",
+    "claude-code",
+    "code-indexing",
+    "codex",
+    "copilot",
+    "cursor",
+    "gemini-cli",
+    "github-copilot",
+    "llm-tools",
+    "mcp-server",
+    "multi-agent",
+    "open-source",
+    "openai-codex",
+    "save-tokens",
+    "token-savings"
+  ],
+  "created_at": "2026-04-27T11:22:39Z",
+  "updated_at": "2026-10-07T09:18:49Z",
+  "pushed_at": "2026-08-23T19:54:42Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 163,
+  "days_since_push": 44,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 52.6,
+    "momentum": 2.2,
+    "maintenance": 78.0,
+    "documentation": 89.0,
+    "accessibility": 57.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 427,
+    "days_span": 163,
+    "stars_per_day": 2.62,
+    "lifetime_stars_per_day": 2.62,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "elara-labs/code-context-engine",
+    "readme_chars": 28328,
+    "capabilities": [
+      "auto-failover",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "Remote Ollama:* If you run Ollama on another machine in your network, set compression.ollama_url (e.g.",
+      "usage-analytics": "",
+      "session-persistence": "94% (full files → relevant chunks)",
+      "memory-context": "a time, backs off under Linux memory pressure (PSI), and auto-shuts down idle servers after 30 minutes.",
+      "mcp-support": "multiple projects coexist; cce uninstall removes only",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "mcp-support": 13,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 43,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "cmake build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "config file",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via pip install; needs cmake build; configure config.json/yaml/toml, config file",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 cmake build；需配置 config.json/yaml/toml、config file"
+    },
+    "doc_score": 89,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider"
+    ],
+    "summary_en": "One command.",
+    "summary_zh": "",
+    "install_hint": "uvx --from \"code-context-engine[local]\" cce init    # install + index + configure, one shot",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.706
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

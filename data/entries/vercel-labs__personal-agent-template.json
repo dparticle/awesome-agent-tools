@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "full_name": "vercel-labs/personal-agent-template",
+  "name": "personal-agent-template",
+  "owner": "vercel-labs",
+  "url": "https://github.com/vercel-labs/personal-agent-template",
+  "description": "Open-source template for a durable personal AI agent — web chat, Slack, Linear, and long-term memory with user-approved saves. Eve, Nuxt, Better Auth, Vercel Connect.",
+  "homepage": "https://personal-agent-template.vercel.app",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 13.0,
+  "stars": 474,
+  "forks": 73,
+  "open_issues": 3,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "better-auth",
+    "eve",
+    "linear",
+    "memory",
+    "nuxt",
+    "personal-agent",
+    "slack",
+    "vercel-connect"
+  ],
+  "created_at": "2026-06-11T13:59:55Z",
+  "updated_at": "2026-10-06T13:26:33Z",
+  "pushed_at": "2026-09-02T13:12:29Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 117,
+  "days_since_push": 35,
+  "health_score": 42,
+  "health_components": {
+    "popularity": 53.5,
+    "momentum": 3.4,
+    "maintenance": 78.0,
+    "documentation": 50.0,
+    "accessibility": 22.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 474,
+    "days_span": 117,
+    "stars_per_day": 4.05,
+    "lifetime_stars_per_day": 4.05,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "vercel-labs/personal-agent-template",
+    "readme_chars": 7559,
+    "capabilities": [
+      "memory-context",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "memory-context": "",
+      "mcp-support": "ories, pull requests, issues, and workflows — the agent mounts the @github-tools/eve-extension tools with durable approval on writes.",
+      "self-hosted": "",
+      "gui-desktop": "For the full technical deep-dive, see Architecture.",
+      "notifications": "uxt — Full-stack Vue framework"
+    },
+    "capability_hits": {
+      "memory-context": 2,
+      "mcp-support": 2,
+      "self-hosted": 1,
+      "gui-desktop": 1,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 78,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)",
+        "pnpm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Web"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source), pnpm install/build; configure environment variables, sign-in required",
+      "note_zh": "配置较重。需要 git clone (build from source)、pnpm install/build；需配置 environment variables、sign-in required"
+    },
+    "doc_score": 50,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "Template.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.984
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "supersede": {
+      "incumbent": "vercel-labs/personal-agent-template",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "vercel-labs/personal-agent-template",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "notifications",
+        "self-hosted"
+      ],
+      "star_ratio": 61.612,
+      "momentum_ratio": 32.193,
+      "setup_delta": -46,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "61.61x the stars (29,204 vs 474)",
+        "32.19x the star velocity (130.4/day vs 4.0/day)",
+        "no harder to set up (32 vs 78 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "notifications",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 42,
+        "challenger_health": 88,
+        "incumbent_setup_score": 78,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

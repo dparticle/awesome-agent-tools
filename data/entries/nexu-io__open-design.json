@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "full_name": "nexu-io/open-design",
+  "name": "open-design",
+  "owner": "nexu-io",
+  "url": "https://github.com/nexu-io/open-design",
+  "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+  "homepage": "https://open-design.ai",
+  "category": "agent-runtimes",
+  "also_in": [
+    "remote-control"
+  ],
+  "matched_capabilities": [
+    "agent-runtime",
+    "cross-agent-support",
+    "skills-plugins"
+  ],
+  "category_score": 38.0,
+  "stars": 99811,
+  "forks": 11525,
+  "open_issues": 1160,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-skills",
+    "ai-design",
+    "byok",
+    "claude-code-for-design",
+    "claude-design",
+    "codex-design",
+    "coding-agents",
+    "cursor-design",
+    "deepseek",
+    "deepseek-harness",
+    "design-systems",
+    "desktop-app",
+    "dsh",
+    "dsh-plugin",
+    "figma-alternative",
+    "hermes-agent",
+    "local-first",
+    "prototyping",
+    "ui-generator",
+    "vibe-coding"
+  ],
+  "created_at": "2026-04-28T04:25:20Z",
+  "updated_at": "2026-10-07T13:24:11Z",
+  "pushed_at": "2026-10-07T11:04:22Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 162,
+  "days_since_push": 0,
+  "health_score": 95,
+  "health_components": {
+    "popularity": 100.0,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 92.0,
+    "accessibility": 71.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 99811,
+    "days_span": 162,
+    "stars_per_day": 616.12,
+    "lifetime_stars_per_day": 616.12,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "nexu-io/open-design",
+    "readme_chars": 55907,
+    "capabilities": [
+      "mobile-access",
+      "model-routing",
+      "api-gateway",
+      "quota-distribution",
+      "billing-metering",
+      "session-persistence",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mobile-access": "read your DESIGN.md and render in a sandboxed iframe.",
+      "model-routing": "No CLI installed? The BYOK proxy at POST /api/proxy/{anthropic,openai,azure,google,ollama,senseaudio}/stream gives you the same loop (no process spawn) — paste baseUrl + apiKey + model, with presets for OpenAI, Atlas Cl…",
+      "api-gateway": "udio}/stream gives you the same loop (no process spawn) — paste baseUrl + apiKey + model, with presets for OpenAI, Atlas Cloud, Anthropic, Azure OpenAI, Google Gemini, Ollama, LM Studio, vLLM, or any OpenAI-compatible e…",
+      "quota-distribution": "## What is OpenDesign OpenDesign is a collaborative design agent workspace.",
+      "billing-metering": "0+ functional skills · rendering templates · 277 plugins",
+      "session-persistence": "ive runtime adapters for agents that OD launches directly.",
+      "skills-plugins": "eedback, and let your agent refine it in the same project.",
+      "agent-runtime": "ais · 简体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Українська · Türkçe · ภาษาไทย",
+      "mcp-support": "s — create motion graphics with your agent and export to MP4.",
+      "self-hosted": "started delivering design artifacts directly.",
+      "gui-desktop": "may be DESIGN.md-only, while newer packages can add manifest.json, tokens.css, components, assets, and provenance.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
+    },
+    "capability_hits": {
+      "mobile-access": 1,
+      "model-routing": 7,
+      "api-gateway": 1,
+      "quota-distribution": 1,
+      "billing-metering": 1,
+      "session-persistence": 3,
+      "skills-plugins": 6,
+      "agent-runtime": 7,
+      "mcp-support": 16,
+      "self-hosted": 1,
+      "gui-desktop": 5,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "low",
+      "score": 29,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)",
+        "pnpm install/build"
+      ],
+      "config_signals": [
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, curl | sh installer; needs docker compose up, git clone (build from source); configure database dependency, database migration; one-click setup",
+      "note_zh": "较易上手。可通过 npx one-liner、curl | sh installer 安装；需要 docker compose up、git clone (build from source)；需配置 database dependency、database migration；one-click setup"
+    },
+    "doc_score": 92,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Cline / Roo"
+    ],
+    "summary_en": "OpenDesign is a collaborative design agent workspace.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://open-design.ai/install.sh | sh -s <agent>",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.912
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:04+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "full_name": "greenfield-inc/Pane",
+  "name": "Pane",
+  "owner": "greenfield-inc",
+  "url": "https://github.com/greenfield-inc/Pane",
+  "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
+  "homepage": "https://runpane.com/",
+  "category": "agent-runtimes",
+  "also_in": [
+    "orchestration"
+  ],
+  "matched_capabilities": [
+    "agent-runtime",
+    "cross-agent-support"
+  ],
+  "category_score": 28.0,
+  "stars": 519,
+  "forks": 224,
+  "open_issues": 205,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "topics": [
+    "agent-manager",
+    "agentic-ai",
+    "agents",
+    "ai",
+    "aider",
+    "claude-code",
+    "cli",
+    "codex",
+    "coding-agents",
+    "cursor-ai",
+    "desktop",
+    "developer",
+    "electron",
+    "git",
+    "opencode",
+    "orchestration",
+    "parallel-agents",
+    "terminal",
+    "windows",
+    "worktree-manager"
+  ],
+  "created_at": "2026-02-27T01:34:13Z",
+  "updated_at": "2026-10-07T06:28:18Z",
+  "pushed_at": "2026-10-07T06:28:16Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 222,
+  "days_since_push": 0,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 54.3,
+    "momentum": 1.9,
+    "maintenance": 100.0,
+    "documentation": 65.0,
+    "accessibility": 85.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 519,
+    "days_span": 222,
+    "stars_per_day": 2.34,
+    "lifetime_stars_per_day": 2.34,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "greenfield-inc/Pane",
+    "readme_chars": 31320,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "session-persistence",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop",
+      "notifications",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "rectory, reads a generated local runtime context, and uses the runpane CLI to inspect and operate the workspace.",
+      "parallel-execution": "know how git worktrees work?\"",
+      "worktree-isolation": "ack of which agent is on which branch.",
+      "session-persistence": "",
+      "agent-runtime": "Pane — a pixel-art terminal workshop with separate agent workspaces",
+      "mcp-support": "s only command names, arguments, and safe usage notes.",
+      "self-hosted": "dinate Claude, Codex, or Cursor across repositories, panes, tabs, worktrees, and review loops.",
+      "gui-desktop": "with one agent, is a terminal hack that requires tmux, treats Windows as an afterthought, or wants to be your editor, your terminal, and your agent all at once.",
+      "notifications": "y notes, and security model, or docs/SELFHOSTEDREMOTEDAEMON.md in this repo.",
+      "voice-input": "structions, API key notes, and security model, or docs/SELFHOSTEDREMOTEDAEMON.md in this repo.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 7,
+      "parallel-execution": 1,
+      "worktree-isolation": 18,
+      "session-persistence": 1,
+      "agent-runtime": 5,
+      "mcp-support": 4,
+      "self-hosted": 1,
+      "gui-desktop": 3,
+      "notifications": 1,
+      "voice-input": 1,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "low",
+      "score": 23,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "pip install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "global npm install",
+        "download a release binary",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "pnpm install/build",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Easy. install via pip install, curl | sh installer; needs git clone (build from source), pnpm install/build; configure API key configuration, sign-in required; one-click setup",
+      "note_zh": "较易上手。可通过 pip install、curl | sh installer 安装；需要 git clone (build from source)、pnpm install/build；需配置 API key configuration、sign-in required；one-click setup"
+    },
+    "doc_score": 65,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Aider",
+      "Goose"
+    ],
+    "summary_en": "Appearance follows your OS — see Appearance.",
+    "summary_zh": "",
+    "install_hint": "npx --yes runpane@latest",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.575
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

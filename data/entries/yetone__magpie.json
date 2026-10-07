@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "full_name": "yetone/magpie",
+  "name": "magpie",
+  "owner": "yetone",
+  "url": "https://github.com/yetone/magpie",
+  "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+  "homepage": "https://usemagpie.ai",
+  "category": "quota-account-ops",
+  "also_in": [
+    ""
+  ],
+  "matched_capabilities": [
+    "multi-account-switching"
+  ],
+  "category_score": 21.0,
+  "stars": 5667,
+  "forks": 407,
+  "open_issues": 266,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "claude-code",
+    "codex",
+    "deepseek",
+    "gemini-cli",
+    "llm",
+    "macos"
+  ],
+  "created_at": "2026-09-23T16:22:35Z",
+  "updated_at": "2026-10-07T13:23:01Z",
+  "pushed_at": "2026-10-07T12:20:37Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 13,
+  "days_since_push": 0,
+  "health_score": 84,
+  "health_components": {
+    "popularity": 75.1,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 58.0,
+    "accessibility": 82.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 5667,
+    "days_span": 13,
+    "stars_per_day": 435.92,
+    "lifetime_stars_per_day": 435.92,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "yetone/magpie",
+    "readme_chars": 18637,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "auto-failover",
+      "model-routing",
+      "api-gateway",
+      "usage-analytics",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "",
+      "quota-management": "",
+      "auto-failover": "",
+      "model-routing": "sonix planner default restores Plan.",
+      "api-gateway": "ncent Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI-compatible or Anthropic-compatibl…",
+      "usage-analytics": "in magpie as they do in their own apps.",
+      "agent-runtime": "",
+      "mcp-support": "magpie offers it as a provider.",
+      "gui-desktop": "every agent under one name (\"Budget\", \"Focus\") and switch them all at once.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "quota-management": 1,
+      "auto-failover": 1,
+      "model-routing": 3,
+      "api-gateway": 1,
+      "usage-analytics": 2,
+      "agent-runtime": 1,
+      "mcp-support": 3,
+      "gui-desktop": 2,
+      "cross-agent-support": 10
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 18,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "go install",
+        "curl | sh installer"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "config file",
+        "sign-in required",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via go install, curl | sh installer; configure config file, sign-in required; one-click setup",
+      "note_zh": "开箱即用。可通过 go install、curl | sh installer 安装；需配置 config file、sign-in required；one-click setup"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Cline / Roo",
+      "Goose",
+      "Crush",
+      "Droid"
+    ],
+    "summary_en": "Claude Code on Kimi, Codex on DeepSeek, Gemini CLI on GLM, OpenCode on your ChatGPT plan.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://usemagpie.ai/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.556
+    }
+  },
+  "discovery": {
+    "source": "seed",
+    "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
+    "metadata_source": "api"
+  },
+  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

@@ -1,0 +1,220 @@
+# Contributing
+
+Thanks for helping. This repository is **generated**, so the most useful
+contributions change the *inputs* — the config and the code — rather than the
+output files.
+
+> ⚠️ **Never hand-edit `README.md`, `README.zh-CN.md` or `docs/`.** They are
+> rebuilt from `data/index.json` on every run and your edit will be
+> overwritten. CI fails if generated files are out of sync.
+
+---
+
+## The three ways to contribute
+
+### 1. Nominate a tool
+
+Add an entry to [`config/seeds.json`](config/seeds.json):
+
+```json
+{
+  "repo": "owner/repo",
+  "category": "quota-account-ops",
+  "why": "One sentence on the core problem it solves."
+}
+```
+
+Then run the pipeline locally so the tool gets analysed:
+
+```bash
+python scripts/agentindex.py crawl --limit 40
+python scripts/agentindex.py render
+```
+
+Seeding guarantees **evaluation**, not inclusion. Your nominee still has to
+clear the same quality gates as everything else (see
+[docs/METHODOLOGY.md](docs/METHODOLOGY.md)). If it fails a gate, the reason is
+recorded in `data/index.json` under `rejected` — that is the best place to look
+if you are wondering why a tool did not show up.
+
+**Before nominating, check it passes the gates:**
+
+| Gate | Threshold |
+| --- | --- |
+| Stars | ≥ 120, **or** a fast riser (≥ 60 stars projected per 14 days) |
+| Recency | pushed within 180 days |
+| Age | at least 14 days old |
+| Documentation | doc score ≥ 22/100 |
+| README | at least 900 characters |
+| Archived | must not be archived |
+
+A tool that fails the star gate but is genuinely rising is still welcome — the
+rising pass in [`config/discovery.json`](config/discovery.json) exists exactly
+to catch those before they are popular.
+
+### 2. Challenge a verdict
+
+Two kinds of verdict can be wrong, and both are fixed in
+[`config/overrides.json`](config/overrides.json):
+
+**A tool was retired unfairly.** Add a `states` entry to force a lifecycle
+state, or remove/correct the `supersede` edge:
+
+```json
+{
+  "states": {
+    "owner/repo": {
+      "state": "active",
+      "note_en": "Not actually superseded: the newer tool cannot do X.",
+      "note_zh": "并未真正被取代：新工具做不到 X。"
+    }
+  }
+}
+```
+
+**A capability was misdetected.** The analyser matches patterns from
+[`config/capabilities.json`](config/capabilities.json) against the README body.
+If a tool is credited with something it does not do (or misses something it
+does), the fix is usually to tighten a pattern — add a negative context, or
+require a more specific phrase. Patterns are regexes, matched
+case-insensitively against the plain-text README.
+
+To see what the analyser currently believes and why:
+
+```bash
+python scripts/agentindex.py stats
+python - <<'PY'
+import json, pathlib
+entry = json.loads(pathlib.Path("data/entries/owner__repo.json").read_text(encoding="utf-8"))
+print(json.dumps(entry["analysis"], indent=2, ensure_ascii=False))
+PY
+```
+
+Every detected capability carries an `evidence` string — the sentence from the
+README that triggered it. Quote that in your issue or PR; it makes review fast.
+
+### 3. Improve the engine
+
+The pipeline is standard-library Python 3.11+ with no dependencies. That is a
+deliberate constraint: it keeps the daily job fast and means contributors can
+run it without setting up an environment.
+
+```
+scripts/
+  agentindex.py            CLI entry point
+  agentindex/
+    util.py                IO, text normalisation, table escaping
+    github.py              cached, budget-aware GitHub REST client
+    discover.py            candidate discovery + category assignment
+    readme_analysis.py     README -> capabilities, setup friction, doc score
+    scoring.py             health score, quality gates, tiers, momentum
+    supersede.py           the elimination engine
+    pipeline.py            orchestration and persistence
+    render.py              README / docs generation
+config/                    all tunable behaviour (no logic lives here)
+data/                      generated state, committed on purpose
+tests/                     unit tests over the analyser and the rules
+```
+
+**Run the tests before opening a PR:**
+
+```bash
+python -m unittest discover -s tests -v
+python scripts/agentindex.py validate
+python scripts/agentindex.py render --check
+```
+
+---
+
+## Adding a category
+
+Categories live in [`config/categories.json`](config/categories.json). Each one
+needs:
+
+- `id`, `order`, `title` (en + zh), `tagline` (en + zh), `problem` (en + zh)
+- `queries` — GitHub search queries used for discovery
+- `required_any` — capabilities a tool **must** have to belong here
+- `any_capabilities` / `boost_capabilities` — used for ranking within the category
+
+Keep `queries` narrow. A broad query burns search budget and floods the gates
+with noise; the pre-filter in `config/discovery.json` catches the worst of it,
+but precision at discovery time is cheaper than filtering later.
+
+If your category needs a capability that does not exist yet, add it to
+[`config/capabilities.json`](config/capabilities.json) first — with a `problem`
+statement, since that text is what readers see.
+
+---
+
+## Adding a capability
+
+A capability is a *problem a tool solves*, not a feature name. Good:
+
+```json
+{
+  "id": "auto-failover",
+  "label": { "en": "Automatic failover", "zh": "自动故障转移" },
+  "problem": {
+    "en": "When one account or provider dies, work should continue on the next one instead of stopping.",
+    "zh": "某个账号或供应商不可用时，任务应自动切到下一个而不是中断。"
+  },
+  "patterns": ["auto[- ]?switch", "failover", "自动切换", "故障转移"]
+}
+```
+
+Write `patterns` for both English and Chinese — many tools in this space
+document only in Chinese. Include negative-context handling where it matters:
+the analyser already skips a match that appears only inside "not supported" or
+"planned" phrasing, but a more specific pattern is always better than relying
+on that.
+
+---
+
+## Local development notes
+
+**API budget.** Without a token, GitHub allows 60 core requests and 10 searches
+per hour. The client caches every response in `data/cache/` (gitignored) and
+enforces its own ceiling. For a comfortable local run:
+
+```bash
+export GITHUB_TOKEN=ghp_...        # PowerShell: $env:GITHUB_TOKEN="ghp_..."
+python scripts/agentindex.py crawl --limit 100
+```
+
+**Useful flags:**
+
+| Flag | Effect |
+| --- | --- |
+| `--limit N` | Process at most N candidates (seeds are prioritised) |
+| `--dry-run` | Analyse and score without writing `data/` |
+| `--offline` | Use only cached API responses — great for iterating on rendering |
+| `--refresh` | Ignore the cache and re-fetch |
+| `--check` | With `render`: report drift without writing |
+
+**Iterating on rendering is free:**
+
+```bash
+python scripts/agentindex.py render --check   # what would change?
+python scripts/agentindex.py render           # write it
+```
+
+No network calls, no API budget.
+
+---
+
+## Pull request checklist
+
+- [ ] `python -m unittest discover -s tests -v` passes
+- [ ] `python scripts/agentindex.py validate` passes
+- [ ] Generated files are committed if the data changed (`render`, not hand-edits)
+- [ ] Config changes are valid JSON
+- [ ] New capabilities or categories include both English and Chinese text
+- [ ] The PR explains **why**, with the README evidence sentence where relevant
+
+## Code of conduct
+
+Be decent. Disagreements about whether a tool is good are welcome and should be
+argued with evidence — stars, commit recency, capability coverage, an actual
+try. Personal attacks on maintainers of listed tools are not acceptable, and
+issues that are really about a tool's politics rather than its engineering will
+be closed.

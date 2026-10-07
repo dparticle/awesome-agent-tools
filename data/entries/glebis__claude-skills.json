@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "full_name": "glebis/claude-skills",
+  "name": "claude-skills",
+  "owner": "glebis",
+  "url": "https://github.com/glebis/claude-skills",
+  "description": "Collection of Claude Code skills for enhanced AI workflows",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 13.0,
+  "stars": 389,
+  "forks": 59,
+  "open_issues": 11,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2025-10-25T14:58:50Z",
+  "updated_at": "2026-10-07T13:19:44Z",
+  "pushed_at": "2026-09-26T13:31:57Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 346,
+  "days_since_push": 11,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 51.8,
+    "momentum": 0.9,
+    "maintenance": 92.0,
+    "documentation": 51.0,
+    "accessibility": 70.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 389,
+    "days_span": 346,
+    "stars_per_day": 1.12,
+    "lifetime_stars_per_day": 1.12,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "glebis/claude-skills",
+    "readme_chars": 15258,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "memory-context",
+      "skills-plugins",
+      "security-isolation",
+      "gui-desktop",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "JTBD client portrait before a paid consulting hour",
+      "memory-context": "",
+      "skills-plugins": "",
+      "security-isolation": "nd sourced markdown reports",
+      "gui-desktop": "with a tiered compatibility policy (COMPATIBILITY.md)",
+      "voice-input": "Demo mode — redact PII from outputs in real time while screen-sharing",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "memory-context": 1,
+      "skills-plugins": 3,
+      "security-isolation": 1,
+      "gui-desktop": 1,
+      "voice-input": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source); configure database dependency, server/reverse-proxy setup; GUI application",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)；需配置 database dependency、server/reverse-proxy setup；GUI application"
+    },
+    "doc_score": 51,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "reports benchmarks"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Droid"
+    ],
+    "summary_en": "~100 skills for Claude Code — meeting pipelines, research, image generation, TDD, publishing, personal analytics, and Claude Code ops.",
+    "summary_zh": "",
+    "install_hint": "npx skills add glebis/claude-skills --skill tdd",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.786
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

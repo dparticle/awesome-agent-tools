@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "full_name": "tigicion/dao-code",
+  "name": "dao-code",
+  "owner": "tigicion",
+  "url": "https://github.com/tigicion/dao-code",
+  "description": "Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous self-correction layer add almost no token cost; 1M context, Skills/MCP/Hooks, Claude Code config compatible.",
+  "homepage": "https://www.npmjs.com/package/dao-code",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 1082,
+  "forks": 44,
+  "open_issues": 12,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agent",
+    "cli",
+    "coding-agent",
+    "deepseek",
+    "llm",
+    "terminal",
+    "typescript"
+  ],
+  "created_at": "2026-06-08T08:10:42Z",
+  "updated_at": "2026-10-05T22:22:08Z",
+  "pushed_at": "2026-09-22T08:14:19Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 121,
+  "days_since_push": 15,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 60.7,
+    "momentum": 7.5,
+    "maintenance": 92.0,
+    "documentation": 67.0,
+    "accessibility": 54.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1082,
+    "days_span": 121,
+    "stars_per_day": 8.94,
+    "lifetime_stars_per_day": 8.94,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "tigicion/dao-code",
+    "readme_chars": 27703,
+    "capabilities": [
+      "multi-account-switching",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "usage-analytics",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "",
+      "multi-agent-orchestration": "your .git); todo list survives compaction to prevent goal drift; Definition-of-Done verification (/dod + verifydone); stuck detection with a circuit breaker; parallel / background / worktree-isolated subagents with two-…",
+      "parallel-execution": "- **Subagent orchestration**: parallel tasks[], async background:true, isolate:true git-worktree isolation, tasksend to append instructions to a running task, foreground timeout auto-converts to background, transcripts…",
+      "worktree-isolation": "hat never touches your .git); todo list survives compaction to prevent goal drift; Definition-of-Done verification (/dod + verifydone); stuck detection with a circuit breaker; parallel / background / worktree-isolated s…",
+      "model-routing": "mmon slash commands (full list via /help):",
+      "usage-analytics": "",
+      "memory-context": "oad: rather than buying experience with an expensive model, it builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memor…",
+      "skills-plugins": "llback to a plain-text REPL.",
+      "agent-runtime": "ricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous self-correction layer add almost no token cost.",
+      "mcp-support": "s · layered allow/ask/deny permissions + auto smart approval + defense-in-depth (secret scanning / SSRF / sandbox / keychain) · Skills (incl.",
+      "security-isolation": "ty **deny > dangerous commands > bypass > sensitive targets > ask > allow > mode/capability default** (deny is a hard blacklist, blocking even under YOLO; dangerous commands like rm -rf / also always require confirmatio…",
+      "gui-desktop": "eleases: macOS dao-darwin-arm64 (Apple silicon) / dao-darwin-x64 (Intel), Linux dao-linux-arm64/dao-linux-x64, Windows dao-windows-x64.exe.",
+      "notifications": "- **Parallel / background subagents + notification queue**: pass tasks[] to run in parallel, or background:true to run in the background (returns immediately, doesn't block the main loop); on completion the result is au…",
+      "cross-agent-support": "Mentions Claude Code, Cursor"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "multi-agent-orchestration": 7,
+      "parallel-execution": 1,
+      "worktree-isolation": 2,
+      "model-routing": 1,
+      "usage-analytics": 1,
+      "memory-context": 4,
+      "skills-plugins": 1,
+      "agent-runtime": 2,
+      "mcp-support": 7,
+      "security-isolation": 1,
+      "gui-desktop": 2,
+      "notifications": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 46,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner, curl | sh installer; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 npx one-liner、curl | sh installer 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、config.json/yaml/toml"
+    },
+    "doc_score": 67,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor"
+    ],
+    "summary_en": "Dao Code (command dao) is a terminal-native AI coding assistant: it reads code, writes code, runs commands, and fixes bugs right in your terminal — streaming its reasoning and tool calls while executing safely behind an approval gate, unti…",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/tigicion/dao-code/master/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.361
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:15+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "full_name": "claesbackman/AI-research-feedback",
+  "name": "AI-research-feedback",
+  "owner": "claesbackman",
+  "url": "https://github.com/claesbackman/AI-research-feedback",
+  "description": "A collection of Claude Code skills for academic research review. These tools were developed by Claes Bäckman.",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 11.0,
+  "stars": 491,
+  "forks": 89,
+  "open_issues": 0,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-03-01T11:37:44Z",
+  "updated_at": "2026-10-05T05:57:47Z",
+  "pushed_at": "2026-09-25T18:28:01Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 220,
+  "days_since_push": 11,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 53.8,
+    "momentum": 1.9,
+    "maintenance": 92.0,
+    "documentation": 43.0,
+    "accessibility": 90.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 491,
+    "days_span": 220,
+    "stars_per_day": 2.23,
+    "lifetime_stars_per_day": 2.23,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "claesbackman/AI-research-feedback",
+    "readme_chars": 26286,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ves a short prioritized report to reviews/QUICKREVIEW[YYYY-MM-DD].md, automatically versioning the filename if one already exists.",
+      "skills-plugins": "# Using AI to get feedback on your research"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 10,
+      "skills-plugins": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 18,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "Homebrew install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [
+        "no-code positioning"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via Homebrew install; needs git clone (build from source); no-code positioning",
+      "note_zh": "开箱即用。可通过 Homebrew install 安装；需要 git clone (build from source)；no-code positioning"
+    },
+    "doc_score": 43,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "A collection of Claude Code skills for reviewing and understanding academic research.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.571
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

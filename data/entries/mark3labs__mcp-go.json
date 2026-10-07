@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "full_name": "mark3labs/mcp-go",
+  "name": "mcp-go",
+  "owner": "mark3labs",
+  "url": "https://github.com/mark3labs/mcp-go",
+  "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
+  "homepage": "http://mcp-go.dev/",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 10.0,
+  "stars": 9153,
+  "forks": 895,
+  "open_issues": 80,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2024-11-27T12:38:33Z",
+  "updated_at": "2026-10-05T12:18:27Z",
+  "pushed_at": "2026-09-23T13:17:58Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 679,
+  "days_since_push": 14,
+  "health_score": 59,
+  "health_components": {
+    "popularity": 79.2,
+    "momentum": 11.2,
+    "maintenance": 92.0,
+    "documentation": 58.0,
+    "accessibility": 52.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 9153,
+    "days_span": 679,
+    "stars_per_day": 13.48,
+    "lifetime_stars_per_day": 13.48,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "mark3labs/mcp-go",
+    "readme_chars": 36709,
+    "capabilities": [
+      "quota-management",
+      "parallel-execution",
+      "mcp-support",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "quota-management": "nously (without task parameter) or asynchronously (with task parameter):",
+      "parallel-execution": "sends task status notifications on completion",
+      "mcp-support": "tation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
+      "notifications": "calls tool with task parameter"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "parallel-execution": 2,
+      "mcp-support": 20,
+      "notifications": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 48,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "OAuth login flow",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Web"
+      ],
+      "note_en": "Some setup. configure OAuth login flow, database dependency",
+      "note_zh": "需要一些配置。需配置 OAuth login flow、database dependency"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has a table of contents",
+      "long, detailed README"
+    ],
+    "agents": [],
+    "summary_en": "Discuss the SDK on Discord",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "link-directory table of contents",
+        "invites project submissions"
+      ],
+      "external_link_ratio": 0.409
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

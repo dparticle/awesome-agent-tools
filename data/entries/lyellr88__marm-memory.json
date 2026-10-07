@@ -1,0 +1,203 @@
+{
+  "schema": 1,
+  "full_name": "Lyellr88/marm-memory",
+  "name": "marm-memory",
+  "owner": "Lyellr88",
+  "url": "https://github.com/Lyellr88/marm-memory",
+  "description": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indexing & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall, supports multi-agent swarms.",
+  "homepage": "https://lyellr88.github.io/marm-memory",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 17.0,
+  "stars": 419,
+  "forks": 90,
+  "open_issues": 22,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-memory",
+    "ai-agents",
+    "ai-memory",
+    "claude-code",
+    "codex-cli",
+    "developer-tools",
+    "embeddings",
+    "indexing-engine",
+    "knowledge-graph",
+    "llm",
+    "local-first",
+    "long-term-memory",
+    "mcp",
+    "mcp-servers",
+    "model-context-protocol",
+    "persistent-memory",
+    "rag",
+    "self-hosted",
+    "sematic-search",
+    "sqlite"
+  ],
+  "created_at": "2025-06-10T06:36:49Z",
+  "updated_at": "2026-10-07T07:43:16Z",
+  "pushed_at": "2026-10-07T07:43:40Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "MARM-main",
+  "age_days": 484,
+  "days_since_push": 0,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 52.4,
+    "momentum": 0.7,
+    "maintenance": 100.0,
+    "documentation": 82.0,
+    "accessibility": 52.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 419,
+    "days_span": 484,
+    "stars_per_day": 0.87,
+    "lifetime_stars_per_day": 0.87,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Lyellr88/marm-memory",
+    "readme_chars": 114561,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "session-persistence",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "ores if a single keyword match should not count as a perfect one.",
+      "multi-agent-orchestration": "rofile swarm (200 RPM) or --profile swarm-max (600 RPM).",
+      "model-routing": "tch optional local generation on.",
+      "api-gateway": "tch optional local generation on.",
+      "session-persistence": "ext Logs - Auto-classified conversation memories",
+      "memory-context": "local control plane for memory, graphs, code context, distillation, runtime controls, and the integrated terminal.",
+      "agent-runtime": "antic lane; set MARMRECALLREFERENCETIME on the server so two runs rank near-ties identically.",
+      "mcp-support": "marm-memory v2.59.3 - Give your AI Agents a permanent memory in 60 seconds",
+      "security-isolation": "a permanent, graph-linked doc action=\"add\"\\ \"use\"\\ \"show\"\\ \"status\"\\ \"clear\"\\ \"save\", name, data, sessionname, project, platform",
+      "self-hosted": "rvice (embedded SQLite) Vector DB (Qdrant/pgvector) Postgres + vector DB Neo4j Separate iii-engine runtime",
+      "notifications": "ne runs as a supervised child process, not an import:",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 4,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "session-persistence": 1,
+      "memory-context": 8,
+      "agent-runtime": 2,
+      "mcp-support": 61,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "notifications": 1,
+      "cross-agent-support": 8
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 48,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "docker run",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config.json/yaml/toml",
+        "config file",
+        "OAuth login flow",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "explicitly no coding required"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Some setup. install via pip install, global npm install; needs docker run, npm install/build; configure environment variables, API key configuration; explicitly no coding required",
+      "note_zh": "需要一些配置。可通过 pip install、global npm install 安装；需要 docker run、npm install/build；需配置 environment variables、API key configuration；explicitly no coding required"
+    },
+    "doc_score": 82,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Cline / Roo",
+      "Qwen Code"
+    ],
+    "summary_en": "alt=\"marm-memory - persistent local memory server for AI agents (Model Context Protocol)\"",
+    "summary_zh": "",
+    "install_hint": "pip install marm-mcp-server",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.175
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:21+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

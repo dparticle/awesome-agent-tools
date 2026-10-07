@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "full_name": "max-sixty/worktrunk",
+  "name": "worktrunk",
+  "owner": "max-sixty",
+  "url": "https://github.com/max-sixty/worktrunk",
+  "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+  "homepage": "https://worktrunk.dev",
+  "category": "orchestration",
+  "also_in": [],
+  "matched_capabilities": [
+    "parallel-execution"
+  ],
+  "category_score": 14.5,
+  "stars": 8939,
+  "forks": 323,
+  "open_issues": 60,
+  "language": "Rust",
+  "license": "NOASSERTION",
+  "topics": [
+    "agents",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "git",
+    "worktrees"
+  ],
+  "created_at": "2025-10-17T22:13:14Z",
+  "updated_at": "2026-10-07T13:06:14Z",
+  "pushed_at": "2026-10-07T08:14:08Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 354,
+  "days_since_push": 0,
+  "health_score": 68,
+  "health_components": {
+    "popularity": 79.0,
+    "momentum": 21.0,
+    "maintenance": 100.0,
+    "documentation": 55.0,
+    "accessibility": 100.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 8939,
+    "days_span": 354,
+    "stars_per_day": 25.25,
+    "lifetime_stars_per_day": 25.25,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "max-sixty/worktrunk",
+    "readme_chars": 15143,
+    "capabilities": [
+      "parallel-execution",
+      "worktree-isolation",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "parallel-execution": "r worktree** — hashport template filter gives each worktree a unique port",
+      "worktree-isolation": "llent, and the biggest help is folks posting problems they perceive.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "parallel-execution": 2,
+      "worktree-isolation": 25,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 0,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "winget install",
+        "cargo install"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via Homebrew install, winget install",
+      "note_zh": "开箱即用。可通过 Homebrew install、winget install 安装"
+    },
+    "doc_score": 55,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "(renders \"CRATES.IO: INVALID\").",
+    "summary_zh": "",
+    "install_hint": "brew install worktrunk && wt config shell install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 3.17
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by stablyai/orca: covers 100% of capabilities (3/3).",
+    "note_zh": "已被 stablyai/orca 取代：covers 100% of capabilities (3/3)。",
+    "superseded_by": "stablyai/orca",
+    "supersede": {
+      "incumbent": "max-sixty/worktrunk",
+      "challenger": "stablyai/orca",
+      "incumbent_name": "max-sixty/worktrunk",
+      "challenger_name": "stablyai/orca",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "parallel-execution",
+        "worktree-isolation"
+      ],
+      "star_ratio": 9.718,
+      "momentum_ratio": 16.864,
+      "setup_delta": 0,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (3/3)",
+        "9.72x the stars (86,867 vs 8,939)",
+        "16.86x the star velocity (425.8/day vs 25.2/day)",
+        "no harder to set up (50 vs 50 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "parallel-execution",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mobile-access",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "quota-management",
+          "remote-control",
+          "self-hosted",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 68,
+        "challenger_health": 92,
+        "incumbent_setup_score": 50,
+        "challenger_setup_score": 50
+      }
+    }
+  }
+}

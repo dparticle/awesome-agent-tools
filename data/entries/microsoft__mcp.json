@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "full_name": "microsoft/mcp",
+  "name": "mcp",
+  "owner": "microsoft",
+  "url": "https://github.com/microsoft/mcp",
+  "description": "Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration",
+  "homepage": "",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 14.0,
+  "stars": 3741,
+  "forks": 636,
+  "open_issues": 313,
+  "language": "C#",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2025-04-09T04:12:30Z",
+  "updated_at": "2026-10-07T13:23:24Z",
+  "pushed_at": "2026-10-07T13:30:53Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 546,
+  "days_since_push": 0,
+  "health_score": 59,
+  "health_components": {
+    "popularity": 71.5,
+    "momentum": 5.7,
+    "maintenance": 100.0,
+    "documentation": 60.0,
+    "accessibility": 64.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3741,
+    "days_span": 546,
+    "stars_per_day": 6.85,
+    "lifetime_stars_per_day": 6.85,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "microsoft/mcp",
+    "readme_chars": 44163,
+    "capabilities": [
+      "skills-plugins",
+      "mcp-support",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "om your development environment using tools from the Azure MCP server and extended Azure knowledge skills.",
+      "mcp-support": "cations provide context to large language models (LLMs).",
+      "self-hosted": "",
+      "cross-agent-support": "Mentions Claude Code, Copilot, OpenCode"
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "mcp-support": 171,
+      "self-hosted": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 36,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. configure database dependency",
+      "note_zh": "较易上手。需配置 database dependency"
+    },
+    "doc_score": 60,
+    "doc_signals": [
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "OpenCode",
+      "Copilot"
+    ],
+    "summary_en": "Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to large language models (LLMs).",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 2.219
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

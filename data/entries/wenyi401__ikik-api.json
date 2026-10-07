@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "full_name": "wenyi401/ikik-api",
+  "name": "ikik-api",
+  "owner": "wenyi401",
+  "url": "https://github.com/wenyi401/ikik-api",
+  "description": "基于 Sub2API 二开的 AI API 网关与订阅管理平台，包含共享私有账号池、拼车池、免费模型清单、让Claude、Openai、Gemini、Grok、Kiro 订阅统一接入，原生工具无缝使用。",
+  "homepage": "",
+  "category": "sharing-gateway",
+  "also_in": [],
+  "matched_capabilities": [
+    "billing-metering",
+    "quota-distribution"
+  ],
+  "category_score": 23.0,
+  "stars": 241,
+  "forks": 22,
+  "open_issues": 1,
+  "language": "Go",
+  "license": "LGPL-3.0",
+  "topics": [],
+  "created_at": "2026-06-25T07:15:41Z",
+  "updated_at": "2026-10-03T06:38:06Z",
+  "pushed_at": "2026-09-17T15:21:06Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 104,
+  "days_since_push": 19,
+  "health_score": 42,
+  "health_components": {
+    "popularity": 47.6,
+    "momentum": 1.9,
+    "maintenance": 92.0,
+    "documentation": 41.0,
+    "accessibility": 31.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 241,
+    "days_span": 104,
+    "stars_per_day": 2.32,
+    "lifetime_stars_per_day": 2.32,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "wenyi401/ikik-api",
+    "readme_chars": 9127,
+    "capabilities": [
+      "multi-account-switching",
+      "model-routing",
+      "api-gateway",
+      "quota-distribution",
+      "billing-metering",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "",
+      "model-routing": "way endpoints for chat, responses, models, embeddings, image, and streaming workloads.",
+      "api-gateway": "",
+      "quota-distribution": "oarding, and configurable private-account access flows.",
+      "billing-metering": "a self-hosted AI API gateway and subscription management platform based on Sub2API.",
+      "self-hosted": "a resets, service interruptions, upstream policy changes, and billing errors are operational risks that must be handled by the deployer.",
+      "gui-desktop": "clients that send headers containing underscores, enable underscore headers in the Nginx http block:",
+      "cross-agent-support": "Mentions Codex, OpenCode"
+    },
+    "capability_hits": {
+      "multi-account-switching": 2,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "quota-distribution": 2,
+      "billing-metering": 4,
+      "self-hosted": 3,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "high",
+      "score": 69,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "make build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "OAuth login flow",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Involved setup. needs make build; configure API key configuration, config file",
+      "note_zh": "配置较重。需要 make build；需配置 API key configuration、config file"
+    },
+    "doc_score": 41,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "ikik-api is a self-hosted AI API gateway and subscription management platform based on Sub2API.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.986
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:26+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

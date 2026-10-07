@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "full_name": "binance/binance-skills-hub",
+  "name": "binance-skills-hub",
+  "owner": "binance",
+  "url": "https://github.com/binance/binance-skills-hub",
+  "description": "Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto",
+  "homepage": "",
+  "category": "skills-plugins",
+  "also_in": [],
+  "matched_capabilities": [
+    "skills-plugins"
+  ],
+  "category_score": 10.0,
+  "stars": 1054,
+  "forks": 236,
+  "open_issues": 72,
+  "language": "Python",
+  "license": "",
+  "topics": [
+    "agents",
+    "ai",
+    "crypto",
+    "skills"
+  ],
+  "created_at": "2026-03-03T08:15:46Z",
+  "updated_at": "2026-10-07T11:21:02Z",
+  "pushed_at": "2026-09-11T09:32:52Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 218,
+  "days_since_push": 26,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 60.5,
+    "momentum": 4.0,
+    "maintenance": 92.0,
+    "documentation": 34.0,
+    "accessibility": 66.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1054,
+    "days_span": 218,
+    "stars_per_day": 4.83,
+    "lifetime_stars_per_day": 4.83,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "binance/binance-skills-hub",
+    "readme_chars": 4430,
+    "capabilities": [
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "cute trades, track wallets, monitor signals, and interact with DeFi protocols, all through natural language."
+    },
+    "capability_hits": {
+      "skills-plugins": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "environment variables",
+        ".env file",
+        "API token/secret"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner; configure environment variables, .env file",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 environment variables、.env file"
+    },
+    "doc_score": 34,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto: both centralized and decentralized.",
+    "summary_zh": "",
+    "install_hint": "npx skills add https://github.com/binance/binance-skills-hub",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.451
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:15+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

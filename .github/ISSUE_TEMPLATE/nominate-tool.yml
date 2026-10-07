@@ -1,0 +1,90 @@
+name: Nominate a tool
+description: Suggest a tool that belongs in the index
+title: "[Tool] owner/repo"
+labels: ["nomination"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. The index is generated, so nominations are
+        normally merged by adding the repo to `config/seeds.json`.
+
+        Before filing, please check the tool clears the quality gates — the
+        crawler will reject it otherwise, and the reason will be recorded in
+        `data/index.json` under `rejected`.
+
+        | Gate | Threshold |
+        | --- | --- |
+        | Stars | ≥ 120, **or** a fast riser (≥ 60 stars per 14 days) |
+        | Recency | pushed within 180 days |
+        | Age | at least 14 days old |
+        | Documentation | doc score ≥ 22/100 |
+        | README | at least 900 characters |
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: "owner/repo"
+      placeholder: "yetone/magpie"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Pick the closest fit. A maintainer may move it.
+      options:
+        - remote-control (Remote & Mobile Control)
+        - quota-account-ops (Quota & Multi-Account Ops)
+        - orchestration (Multi-Agent Orchestration)
+        - model-routing (Model & Provider Routing)
+        - sharing-gateway (Subscription Sharing & Gateways)
+        - agent-runtimes (Agent Runtimes & Subscriptions)
+        - skills-plugins (Skills, Plugins & Prompts)
+        - memory-context (Memory & Context)
+        - observability (Observability, Analytics & Cost)
+        - security-sandbox (Sandboxing & Security)
+        - interop-mcp (Interop & MCP)
+        - workflow-ux (Workflow & Terminal UX)
+        - "not sure"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What core problem does it solve?
+      description: |
+        Not the feature list — the *problem*. One or two sentences.
+        Good: "Lets you keep driving Claude Code from your phone when you leave the desk."
+        Bad: "It is a CLI tool with a nice UI."
+    validations:
+      required: true
+
+  - type: textarea
+    id: setup
+    attributes:
+      label: How hard is it to get running?
+      description: |
+        Paste the install command from the README, and say whether a
+        non-programmer could realistically get there. This feeds the
+        "out of the box" and "non-dev friendly" columns.
+      placeholder: |
+        Install: npx superswitch@latest
+        Non-programmer friendly: yes — there is a desktop app and no config file.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The repository is not archived and has been pushed to recently.
+          required: true
+        - label: I have read the README, not just the repository description.
+          required: true
+        - label: This tool is not already in the index (I checked the README).
+          required: true

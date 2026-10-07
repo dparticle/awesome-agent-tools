@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "full_name": "Justin0504/Aegis",
+  "name": "Aegis",
+  "owner": "Justin0504",
+  "url": "https://github.com/Justin0504/Aegis",
+  "description": "Runtime policy enforcement for AI agents. Cryptographic audit trail, human-in-the-loop approvals, kill switch. Zero code changes.                                                                         ",
+  "homepage": "",
+  "category": "security-sandbox",
+  "also_in": [],
+  "matched_capabilities": [
+    "security-isolation"
+  ],
+  "category_score": 13.0,
+  "stars": 503,
+  "forks": 46,
+  "open_issues": 4,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "ai-safety",
+    "anthropic",
+    "audit-trail",
+    "langchain",
+    "llm-observability",
+    "mcp",
+    "policy-engine"
+  ],
+  "created_at": "2026-03-04T03:24:33Z",
+  "updated_at": "2026-10-07T11:56:27Z",
+  "pushed_at": "2026-09-06T03:16:51Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 217,
+  "days_since_push": 31,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 54.0,
+    "momentum": 1.9,
+    "maintenance": 78.0,
+    "documentation": 59.0,
+    "accessibility": 56.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 503,
+    "days_span": 217,
+    "stars_per_day": 2.32,
+    "lifetime_stars_per_day": 2.32,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Justin0504/Aegis",
+    "readme_chars": 40573,
+    "capabilities": [
+      "model-routing",
+      "billing-metering",
+      "usage-analytics",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "model-routing": "type, same decision merger, same audit / sink / transparency-log fan-out as built-ins.",
+      "billing-metering": "",
+      "usage-analytics": "d research assistant, fully integrated with AEGIS.",
+      "mcp-support": ", AEGIS provides two proxy modes:",
+      "security-isolation": "AEGIS is the missing layer: a pre-execution firewall that sits between your agent and its tools, classifies every call in real time, enforces policies, blocks violations, and writes a tamper-evident audit trail — with o…",
+      "self-hosted": "> Aojie Yuan, Zhiyuan Su, Yue Zhao",
+      "team-collaboration": "nce) via OpenAI/Anthropic/Gemini",
+      "gui-desktop": "",
+      "notifications": ""
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "billing-metering": 1,
+      "usage-analytics": 3,
+      "mcp-support": 4,
+      "security-isolation": 9,
+      "self-hosted": 1,
+      "team-collaboration": 2,
+      "gui-desktop": 4,
+      "notifications": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 44,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "kubectl apply",
+        "helm install",
+        "git clone (build from source)",
+        "npm install/build",
+        "pip install -r requirements"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "API token/secret",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "no code needed",
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Some setup. install via pip install, curl | sh installer; needs docker compose up, kubectl apply; configure environment variables, API key configuration; no code needed",
+      "note_zh": "需要一些配置。可通过 pip install、curl | sh installer 安装；需要 docker compose up、kubectl apply；需配置 environment variables、API key configuration；no code needed"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Every tool call.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://aegistraces.com/install | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.419
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

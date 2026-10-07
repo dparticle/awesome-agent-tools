@@ -1,0 +1,272 @@
+{
+  "$comment": "Category taxonomy. Each category declares how the daily crawler DISCOVERS candidates (search queries) and how it DECIDES membership (required/forbidden capability signals + name patterns). Keep `queries` narrow: a broad query burns the search budget and floods the gate with noise.",
+  "version": 1,
+
+  "categories": [
+    {
+      "id": "remote-control",
+      "order": 1,
+      "title": { "en": "Remote & Mobile Control", "zh": "远程与移动端控制" },
+      "tagline": {
+        "en": "Keep the agent working when you are not at the desk.",
+        "zh": "人不在电脑旁，也能让 Agent 继续干活。"
+      },
+      "problem": {
+        "en": "Your agent runs on a workstation, but you are on a train, in a meeting, or on the sofa. Without these tools the session simply stops when you walk away.",
+        "zh": "Agent 跑在工作站上，而你在地铁上、会议里或沙发上。没有这类工具，你一离开工位，会话就停了。"
+      },
+      "queries": [
+        "claude code mobile app in:name,description,readme",
+        "remote control coding agent phone in:name,description",
+        "codex remote mobile in:name,description",
+        "agent session remote access in:name,description"
+      ],
+      "any_capabilities": ["remote-control", "mobile-access", "session-persistence"],
+      "required_any": ["remote-control", "mobile-access"],
+      "boost_capabilities": ["voice-input", "notifications", "security-isolation"]
+    },
+    {
+      "id": "quota-account-ops",
+      "order": 2,
+      "title": { "en": "Quota & Multi-Account Ops", "zh": "额度与多账号运维" },
+      "tagline": {
+        "en": "Never stop because one account hit its limit.",
+        "zh": "不因某个账号额度耗尽而停工。"
+      },
+      "problem": {
+        "en": "Subscription quotas are finite and reset on their own schedule. These tools pool accounts, watch the remaining quota, and switch automatically so a long task never dies at the limit.",
+        "zh": "订阅额度有限，且重置时间不由你控制。这类工具把账号池化、监控剩余额度并自动切换，让长任务不会卡在限额上。"
+      },
+      "queries": [
+        "codex account switcher in:name,description",
+        "claude code account manager in:name,description",
+        "ai account pool quota in:name,description",
+        "multi account cli login switch in:name,description"
+      ],
+      "any_capabilities": ["multi-account-switching", "quota-management", "auto-failover"],
+      "required_any": ["multi-account-switching"],
+      "boost_capabilities": ["usage-analytics", "gui-desktop", "cross-agent-support"]
+    },
+    {
+      "id": "orchestration",
+      "order": 3,
+      "title": { "en": "Multi-Agent Orchestration", "zh": "多智能体编排" },
+      "tagline": {
+        "en": "One agent is a worker; several are a team.",
+        "zh": "单个 Agent 是工人，多个 Agent 才是团队。"
+      },
+      "problem": {
+        "en": "Serial work is slow and a single context window is small. These tools plan, dispatch, isolate and supervise several agents at once — often one git worktree per agent.",
+        "zh": "串行干活慢，单个上下文窗口也小。这类工具负责规划、派发、隔离与监管多个 Agent，通常每个 Agent 一个独立工作树。"
+      },
+      "queries": [
+        "orchestrate multiple coding agents in:name,description",
+        "multi agent coding parallel in:name,description",
+        "agent fleet manager in:name,description",
+        "parallel agents worktree in:name,description"
+      ],
+      "any_capabilities": ["multi-agent-orchestration", "parallel-execution"],
+      "required_any": ["multi-agent-orchestration", "parallel-execution"],
+      "boost_capabilities": ["worktree-isolation", "gui-desktop", "mobile-access"]
+    },
+    {
+      "id": "model-routing",
+      "order": 4,
+      "title": { "en": "Model & Provider Routing", "zh": "模型与供应商路由" },
+      "tagline": {
+        "en": "Run your favourite agent on somebody else's model.",
+        "zh": "让你惯用的 Agent 跑在别家的模型上。"
+      },
+      "problem": {
+        "en": "The agent loop you like is not tied to the model it ships with. These tools point Claude Code, Codex or Gemini CLI at DeepSeek, Kimi, Qwen or a local model — which is also how you keep working when one vendor's quota is gone.",
+        "zh": "你喜欢的 Agent 循环并不必然绑定它默认的模型。这类工具让 Claude Code、Codex、Gemini CLI 改跑 DeepSeek、Kimi、Qwen 或本地模型——这也是某个供应商额度用尽后的续命方式。"
+      },
+      "queries": [
+        "claude code router provider in:name,description",
+        "codex custom provider model in:name,description",
+        "llm api gateway openai compatible in:name,description",
+        "switch model provider cli agent in:name,description"
+      ],
+      "any_capabilities": ["model-routing", "provider-aggregation", "api-gateway"],
+      "required_any": ["model-routing", "provider-aggregation"],
+      "boost_capabilities": ["cross-agent-support", "gui-desktop", "self-hosted"]
+    },
+    {
+      "id": "sharing-gateway",
+      "order": 5,
+      "title": { "en": "Subscription Sharing & Gateways", "zh": "订阅共享与网关" },
+      "tagline": {
+        "en": "Turn one subscription into a metered, multi-tenant service.",
+        "zh": "把一份订阅变成可计量、可多租户的服务。"
+      },
+      "problem": {
+        "en": "A single subscription often has more capacity than one person uses. These tools redistribute it safely — with per-user keys, rate limits, quota accounting and billing — instead of sharing a password.",
+        "zh": "一份订阅的容量常超过个人所需。这类工具把它安全地再分发出去：独立密钥、限流、额度核算与计费，而不是共享一个密码。"
+      },
+      "queries": [
+        "sub2api in:name,description",
+        "api relay billing quota in:name,description",
+        "ai subscription share distribution in:name,description",
+        "one api gateway multi user in:name,description"
+      ],
+      "any_capabilities": ["quota-distribution", "billing-metering", "api-gateway"],
+      "required_any": ["quota-distribution", "billing-metering"],
+      "boost_capabilities": ["self-hosted", "team-collaboration", "usage-analytics"]
+    },
+    {
+      "id": "agent-runtimes",
+      "order": 6,
+      "title": { "en": "Agent Runtimes & Subscriptions", "zh": "Agent 运行时与订阅" },
+      "tagline": {
+        "en": "Alternatives to the agent you already pay for.",
+        "zh": "你已在付费的那个 Agent 之外的选择。"
+      },
+      "problem": {
+        "en": "Sometimes the model access is the point: a flat subscription that unlocks many models, or an open-source agent you can fork. These are the runtimes themselves, not add-ons.",
+        "zh": "有时重点在于模型访问权：一份订阅解锁多个模型，或一个可自由 fork 的开源 Agent。这类是运行时本体，而非插件。"
+      },
+      "queries": [
+        "open source coding agent cli in:name,description",
+        "ai coding agent subscription models in:name,description",
+        "terminal coding assistant llm in:name,description",
+        "agent harness coding cli in:name,description"
+      ],
+      "any_capabilities": ["agent-runtime", "cross-agent-support", "model-routing", "skills-plugins"],
+      "required_any": ["agent-runtime", "cross-agent-support", "skills-plugins"],
+      "min_stars_override": 800,
+      "boost_capabilities": ["mcp-support", "self-hosted", "gui-desktop"]
+    },
+    {
+      "id": "skills-plugins",
+      "order": 7,
+      "title": { "en": "Skills, Plugins & Prompts", "zh": "技能、插件与提示词" },
+      "tagline": {
+        "en": "Teach the agent your workflows.",
+        "zh": "把你的工作流教给 Agent。" 
+      },
+      "problem": {
+        "en": "A base agent knows nothing about your stack, your review checklist or your deploy process. These packages inject that knowledge as reusable skills, commands, subagents and hooks.",
+        "zh": "基础 Agent 不了解你的技术栈、评审清单或发布流程。这类包把这些知识以可复用的技能、命令、子代理和钩子注入进去。"
+      },
+      "queries": [
+        "claude code skills collection in:name,description",
+        "agent skills marketplace in:name,description",
+        "awesome claude code plugins in:name,description",
+        "subagents commands hooks in:name,description"
+      ],
+      "any_capabilities": ["skills-plugins"],
+      "required_any": ["skills-plugins"],
+      "boost_capabilities": ["mcp-support", "cross-agent-support", "memory-context"]
+    },
+    {
+      "id": "memory-context",
+      "order": 8,
+      "title": { "en": "Memory & Context", "zh": "记忆与上下文" },
+      "tagline": {
+        "en": "Stop re-explaining your project every session.",
+        "zh": "不必每次开会话都重新解释一遍项目。"
+      },
+      "problem": {
+        "en": "Context windows end and sessions reset, so the agent forgets decisions you already made. These tools persist project knowledge across sessions and agents.",
+        "zh": "上下文会耗尽、会话会重置，Agent 因此忘掉已经定好的决策。这类工具把项目知识跨会话、跨 Agent 持久化下来。"
+      },
+      "queries": [
+        "claude code memory context in:name,description",
+        "agent long term memory in:name,description",
+        "persistent memory coding agent in:name,description",
+        "context management llm agent in:name,description"
+      ],
+      "any_capabilities": ["memory-context"],
+      "required_any": ["memory-context"],
+      "boost_capabilities": ["cross-agent-support", "mcp-support", "session-persistence"]
+    },
+    {
+      "id": "observability",
+      "order": 9,
+      "title": { "en": "Observability, Analytics & Cost", "zh": "可观测、用量分析与成本" },
+      "tagline": {
+        "en": "Know where the tokens and the money went.",
+        "zh": "搞清楚 token 和钱都花到哪去了。"
+      },
+      "problem": {
+        "en": "Agents spend real money in the background. These tools record sessions, chart usage, attribute cost per project, and surface how much quota is left before it runs out.",
+        "zh": "Agent 在后台花的是真钱。这类工具记录会话、绘制用量曲线、按项目归集成本，并在额度耗尽前提示还剩多少。"
+      },
+      "queries": [
+        "claude code usage analytics dashboard in:name,description",
+        "llm cost tracking agent in:name,description",
+        "token usage monitor coding agent in:name,description",
+        "agent session logs viewer in:name,description"
+      ],
+      "any_capabilities": ["usage-analytics", "quota-management"],
+      "required_any": ["usage-analytics"],
+      "boost_capabilities": ["billing-metering", "gui-desktop", "notifications"]
+    },
+    {
+      "id": "security-sandbox",
+      "order": 10,
+      "title": { "en": "Sandboxing & Security", "zh": "沙箱与安全" },
+      "tagline": {
+        "en": "Let it run code without letting it run wild.",
+        "zh": "让它执行代码，但别让它失控。" 
+      },
+      "problem": {
+        "en": "Agents execute arbitrary commands with your credentials. These tools contain the blast radius with containers, permission prompts, secret redaction and audit trails.",
+        "zh": "Agent 用你的凭据执行任意命令。这类工具用容器、权限确认、密钥脱敏和审计日志把影响范围圈住。"
+      },
+      "queries": [
+        "claude code sandbox permission in:name,description",
+        "agent security secrets isolation in:name,description",
+        "codex sandbox container in:name,description",
+        "ai agent audit approval in:name,description"
+      ],
+      "any_capabilities": ["security-isolation", "worktree-isolation"],
+      "required_any": ["security-isolation"],
+      "boost_capabilities": ["self-hosted", "team-collaboration"]
+    },
+    {
+      "id": "interop-mcp",
+      "order": 11,
+      "title": { "en": "Interop & MCP", "zh": "互通与 MCP" },
+      "tagline": {
+        "en": "Give the agent hands and a common language.",
+        "zh": "给 Agent 一双手，以及一门通用语言。" 
+      },
+      "problem": {
+        "en": "An agent is only as capable as the tools it can call. MCP servers and interop bridges connect it to browsers, databases, issue trackers and other agents.",
+        "zh": "Agent 的能力上限取决于它能调用什么。MCP 服务与互通桥接让它接入浏览器、数据库、工单系统，以及别的 Agent。"
+      },
+      "queries": [
+        "mcp server awesome in:name,description",
+        "model context protocol tools in:name,description",
+        "agent interoperability bridge in:name,description",
+        "mcp gateway aggregator in:name,description"
+      ],
+      "any_capabilities": ["mcp-support"],
+      "required_any": ["mcp-support"],
+      "boost_capabilities": ["cross-agent-support", "self-hosted", "security-isolation"]
+    },
+    {
+      "id": "workflow-ux",
+      "order": 12,
+      "title": { "en": "Workflow & Terminal UX", "zh": "工作流与终端体验" },
+      "tagline": {
+        "en": "Small quality-of-life wins, every session.",
+        "zh": "每次会话都能省一点力的小改进。"
+      },
+      "problem": {
+        "en": "Statuslines, notifications, session browsers, prompt managers and review helpers. Individually minor; cumulatively they are the difference between using the agent daily and avoiding it.",
+        "zh": "状态栏、通知、会话浏览器、提示词管理与评审助手。单看都不起眼，加起来却决定了你是天天用还是躲着用。"
+      },
+      "queries": [
+        "claude code statusline notification in:name,description",
+        "agent session manager tui in:name,description",
+        "prompt manager coding agent in:name,description",
+        "code review agent workflow in:name,description"
+      ],
+      "any_capabilities": ["notifications", "gui-desktop", "skills-plugins"],
+      "required_any": ["notifications", "gui-desktop"],
+      "boost_capabilities": ["usage-analytics", "session-persistence", "cross-agent-support"]
+    }
+  ]
+}

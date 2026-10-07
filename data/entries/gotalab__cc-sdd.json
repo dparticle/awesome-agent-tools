@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "full_name": "gotalab/cc-sdd",
+  "name": "cc-sdd",
+  "owner": "gotalab",
+  "url": "https://github.com/gotalab/cc-sdd",
+  "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
+  "homepage": "",
+  "category": "agent-runtimes",
+  "also_in": [],
+  "matched_capabilities": [
+    "agent-runtime",
+    "cross-agent-support"
+  ],
+  "category_score": 21.0,
+  "stars": 3708,
+  "forks": 290,
+  "open_issues": 19,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "github-copilot",
+    "kiro",
+    "opencode",
+    "sdd",
+    "spec-driven-development",
+    "steering",
+    "subagents"
+  ],
+  "created_at": "2025-07-17T04:41:37Z",
+  "updated_at": "2026-10-07T12:49:28Z",
+  "pushed_at": "2026-09-23T07:26:39Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 447,
+  "days_since_push": 14,
+  "health_score": 59,
+  "health_components": {
+    "popularity": 71.4,
+    "momentum": 6.9,
+    "maintenance": 92.0,
+    "documentation": 62.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3708,
+    "days_span": 447,
+    "stars_per_day": 8.3,
+    "lifetime_stars_per_day": 8.3,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "gotalab/cc-sdd",
+    "readme_chars": 12500,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "agent-runtime",
+      "team-collaboration",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "eview and validation look for boundary violations, not just style issues.",
+      "skills-plugins": "",
+      "agent-runtime": "# cc-sdd: Long-running spec-driven implementation for AI coding agents",
+      "team-collaboration": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 8,
+      "skills-plugins": 1,
+      "agent-runtime": 4,
+      "team-collaboration": 1,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Easy. install via npx one-liner, native installer / package; configure database dependency, database migration",
+      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需配置 database dependency、database migration"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a Chinese translation",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Qwen Code"
+    ],
+    "summary_en": "Package README: English | 日本語 | 繁體中文",
+    "summary_zh": "",
+    "install_hint": "npx cc-sdd@latest",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.56
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "supersede": {
+      "incumbent": "gotalab/cc-sdd",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "gotalab/cc-sdd",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "multi-agent-orchestration",
+        "skills-plugins",
+        "team-collaboration"
+      ],
+      "star_ratio": 8.994,
+      "momentum_ratio": 9.433,
+      "setup_delta": -23,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "8.99x the stars (33,351 vs 3,708)",
+        "9.43x the star velocity (78.3/day vs 8.3/day)",
+        "no harder to set up (2 vs 25 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "multi-agent-orchestration",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 59,
+        "challenger_health": 81,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

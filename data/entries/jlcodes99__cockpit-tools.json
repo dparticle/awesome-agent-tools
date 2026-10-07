@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "full_name": "jlcodes99/cockpit-tools",
+  "name": "cockpit-tools",
+  "owner": "jlcodes99",
+  "url": "https://github.com/jlcodes99/cockpit-tools",
+  "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
+  "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
+  "category": "quota-account-ops",
+  "also_in": [],
+  "matched_capabilities": [
+    "multi-account-switching"
+  ],
+  "category_score": 21.0,
+  "stars": 18691,
+  "forks": 1664,
+  "open_issues": 845,
+  "language": "Rust",
+  "license": "",
+  "topics": [
+    "account-manager",
+    "ai",
+    "antigravity",
+    "codebuddy",
+    "codex",
+    "cursor",
+    "github-copilot",
+    "kiro",
+    "windsurf"
+  ],
+  "created_at": "2026-01-16T07:09:32Z",
+  "updated_at": "2026-10-07T13:06:40Z",
+  "pushed_at": "2026-10-01T17:54:44Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 264,
+  "days_since_push": 5,
+  "health_score": 77,
+  "health_components": {
+    "popularity": 85.4,
+    "momentum": 59.0,
+    "maintenance": 100.0,
+    "documentation": 61.0,
+    "accessibility": 74.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 18691,
+    "days_span": 264,
+    "stars_per_day": 70.8,
+    "lifetime_stars_per_day": 70.8,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "jlcodes99/cockpit-tools",
+    "readme_chars": 17781,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "auto-failover",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "model-routing",
+      "provider-aggregation",
+      "api-gateway",
+      "billing-metering",
+      "usage-analytics",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "surf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
+      "quota-management": "目前支持 Antigravity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
+      "auto-failover": "",
+      "multi-agent-orchestration": "测速与已有连接处理的设计也参考其源码，当前运行内核仍为 Mihomo，不代表官方合作关系。",
+      "parallel-execution": "ty IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
+      "model-routing": "",
+      "provider-aggregation": "的指纹浏览器，支持独立浏览器指纹环境、Cookie / 存储隔离、Roxy 原生住宅 IP、团队协作与 API / MCP 自动化能力，适合需要管理 AI 账号矩阵、降低账号关联风险、提升长期使用稳定性的用户。",
+      "api-gateway": "ity 账号切号逻辑参考：Antigravity-Manager",
+      "billing-metering": "从默认 ~/.grok/auth.json 或指定 JSON 导入官方凭据；账号页导出及通用账号备份均不含 access token/refresh token，不能用于恢复登录，迁移时需单独导入官方 auth.json",
+      "usage-analytics": "Claude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch",
+      "agent-runtime": "",
+      "mcp-support": "",
+      "security-isolation": ".jlcodes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入",
+      "team-collaboration": "",
+      "gui-desktop": "s: .msi（推荐）、.exe，或 x64-portable.zip（解压即用，无需安装）",
+      "cross-agent-support": "Mentions Codex, Copilot, Cursor, OpenCode"
+    },
+    "capability_hits": {
+      "multi-account-switching": 16,
+      "quota-management": 27,
+      "auto-failover": 1,
+      "multi-agent-orchestration": 1,
+      "parallel-execution": 4,
+      "model-routing": 2,
+      "provider-aggregation": 1,
+      "api-gateway": 2,
+      "billing-metering": 8,
+      "usage-analytics": 2,
+      "agent-runtime": 1,
+      "mcp-support": 1,
+      "security-isolation": 3,
+      "team-collaboration": 1,
+      "gui-desktop": 6,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 26,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "GUI application",
+        "Chinese: beginner/one-click framing"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, config.json/yaml/toml; GUI application",
+      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 npm install/build；需配置 API key configuration、config.json/yaml/toml；GUI application"
+    },
+    "doc_score": 61,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "English · Portuguese (BR) · 简体中文",
+    "summary_zh": "",
+    "install_hint": "brew tap jlcodes99/cockpit-tools https://github.com/jlcodes99/cockpit-tools",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 1.743
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

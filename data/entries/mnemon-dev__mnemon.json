@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "full_name": "mnemon-dev/mnemon",
+  "name": "mnemon",
+  "owner": "mnemon-dev",
+  "url": "https://github.com/mnemon-dev/mnemon",
+  "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
+  "homepage": "https://github.com/mnemon-dev/mnemon#readme",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 14.0,
+  "stars": 611,
+  "forks": 74,
+  "open_issues": 8,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-framework",
+    "agent-memory",
+    "ai-agent",
+    "ai-tools",
+    "claude",
+    "claude-code",
+    "cli",
+    "context-window",
+    "dsh",
+    "dsh-plugin",
+    "knowledge-graph",
+    "llm-agent",
+    "llm-memory",
+    "llm-supervised",
+    "memory",
+    "openclaw",
+    "persistent-memory"
+  ],
+  "created_at": "2026-02-20T02:26:17Z",
+  "updated_at": "2026-10-05T09:29:53Z",
+  "pushed_at": "2026-10-03T12:29:39Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 229,
+  "days_since_push": 4,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 55.7,
+    "momentum": 2.2,
+    "maintenance": 100.0,
+    "documentation": 64.0,
+    "accessibility": 36.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 611,
+    "days_span": 229,
+    "stars_per_day": 2.67,
+    "lifetime_stars_per_day": 2.67,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "mnemon-dev/mnemon",
+    "readme_chars": 25929,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "api-gateway",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "fig → Mnemon to pick a storage scope, and use the Memory System tab in a session to create or activate memory spaces.",
+      "api-gateway": "receipts — export hashed operation receipts for memory-boundary audits without raw memory contents or queries",
+      "memory-context": "o approve the installed shell",
+      "skills-plugins": "e extensions; MiniMax Code and Nanobot integrate via skill files; NanoClaw integrates",
+      "mcp-support": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 3,
+      "api-gateway": 2,
+      "memory-context": 4,
+      "skills-plugins": 1,
+      "mcp-support": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "high",
+      "score": 64,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "go install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build",
+        "make build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "config.json/yaml/toml",
+        "database dependency",
+        "database migration",
+        "process manager"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. install via Homebrew install, go install; needs git clone (build from source), npm install/build; configure environment variables, config.json/yaml/toml",
+      "note_zh": "配置较重。可通过 Homebrew install、go install 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、config.json/yaml/toml"
+    },
+    "doc_score": 64,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "LLM agents forget everything between sessions.",
+    "summary_zh": "",
+    "install_hint": "npm install --global @mnemon-dev/mnemon",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.926
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "supersede": {
+      "incumbent": "mnemon-dev/mnemon",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "mnemon-dev/mnemon",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 47.797,
+      "momentum_ratio": 48.831,
+      "setup_delta": -32,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "47.80x the stars (29,204 vs 611)",
+        "48.83x the star velocity (130.4/day vs 2.7/day)",
+        "no harder to set up (32 vs 64 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 88,
+        "incumbent_setup_score": 64,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

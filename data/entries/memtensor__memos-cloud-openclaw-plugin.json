@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "full_name": "MemTensor/MemOS-Cloud-OpenClaw-Plugin",
+  "name": "MemOS-Cloud-OpenClaw-Plugin",
+  "owner": "MemTensor",
+  "url": "https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin",
+  "description": "Official MemOS Cloud plugin for OpenClaw. Enables long-term memory for agents by recalling context before execution and saving conversations after each run.",
+  "homepage": "",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 10.0,
+  "stars": 367,
+  "forks": 56,
+  "open_issues": 16,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-memory",
+    "memos",
+    "memtensor",
+    "openclaw",
+    "openclaw-plugin"
+  ],
+  "created_at": "2026-02-02T12:24:44Z",
+  "updated_at": "2026-10-01T17:06:22Z",
+  "pushed_at": "2026-09-23T02:03:09Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 247,
+  "days_since_push": 14,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 51.3,
+    "momentum": 1.2,
+    "maintenance": 92.0,
+    "documentation": 38.0,
+    "accessibility": 66.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 367,
+    "days_span": 247,
+    "stars_per_day": 1.49,
+    "lifetime_stars_per_day": 1.49,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "MemTensor/MemOS-Cloud-OpenClaw-Plugin",
+    "readme_chars": 14445,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "model-routing",
+      "memory-context"
+    ],
+    "capability_evidence": {
+      "auto-failover": "SMAXMESSAGECHARS (default: 20000; max characters for message history)",
+      "multi-agent-orchestration": "ags for /add/message, default: \"openclaw\", e.g., \"openclaw, dev\")",
+      "model-routing": "ESETONNEW (default: true, requires hooks.internal.enabled)",
+      "memory-context": "D (default: false; when enabled, direct session keys like agent:main: :direct: use as MemOS userid)"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 6,
+      "model-routing": 3,
+      "memory-context": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config file"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via native installer / package; configure environment variables, API key configuration",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 38,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "Official plugin maintained by MemTensor.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.069
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "supersede": {
+      "incumbent": "memtensor/memos-cloud-openclaw-plugin",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "MemTensor/MemOS-Cloud-OpenClaw-Plugin",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration"
+      ],
+      "star_ratio": 79.575,
+      "momentum_ratio": 87.503,
+      "setup_delta": -2,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "79.57x the stars (29,204 vs 367)",
+        "87.50x the star velocity (130.4/day vs 1.5/day)",
+        "no harder to set up (32 vs 34 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 88,
+        "incumbent_setup_score": 34,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

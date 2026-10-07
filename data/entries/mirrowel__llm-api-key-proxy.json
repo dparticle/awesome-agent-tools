@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "full_name": "Mirrowel/LLM-API-Key-Proxy",
+  "name": "LLM-API-Key-Proxy",
+  "owner": "Mirrowel",
+  "url": "https://github.com/Mirrowel/LLM-API-Key-Proxy",
+  "description": "Universal LLM Gateway: One API, every LLM. OpenAI/Anthropic-compatible endpoints with multi-provider translation and intelligent load-balancing.",
+  "homepage": "",
+  "category": "model-routing",
+  "also_in": [],
+  "matched_capabilities": [
+    "model-routing"
+  ],
+  "category_score": 14.0,
+  "stars": 556,
+  "forks": 107,
+  "open_issues": 18,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "topics": [
+    "api-key",
+    "gemini-api",
+    "large-language-model",
+    "large-language-models",
+    "llm"
+  ],
+  "created_at": "2025-06-10T17:07:26Z",
+  "updated_at": "2026-10-02T15:30:04Z",
+  "pushed_at": "2026-09-23T21:06:19Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 483,
+  "days_since_push": 13,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 54.9,
+    "momentum": 1.0,
+    "maintenance": 92.0,
+    "documentation": 70.0,
+    "accessibility": 34.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 556,
+    "days_span": 483,
+    "stars_per_day": 1.15,
+    "lifetime_stars_per_day": 1.15,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Mirrowel/LLM-API-Key-Proxy",
+    "readme_chars": 29269,
+    "capabilities": [
+      "quota-management",
+      "auto-failover",
+      "model-routing",
+      "api-gateway",
+      "quota-distribution",
+      "usage-analytics",
+      "skills-plugins",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "",
+      "auto-failover": "cation providing universal /v1/chat/completions (OpenAI) and /v1/messages (Anthropic) endpoints",
+      "model-routing": "LiteLLM-supported provider once.",
+      "api-gateway": "",
+      "quota-distribution": "",
+      "usage-analytics": "",
+      "skills-plugins": "",
+      "security-isolation": "",
+      "self-hosted": "# Universal LLM API Proxy & Resilience Library",
+      "gui-desktop": "ludes custom providers not available elsewhere, including Gemini CLI",
+      "cross-agent-support": "Mentions Claude Code, Cursor, Gemini CLI, Kilo Code"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "auto-failover": 3,
+      "model-routing": 3,
+      "api-gateway": 1,
+      "quota-distribution": 1,
+      "usage-analytics": 1,
+      "skills-plugins": 1,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "high",
+      "score": 66,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "docker run",
+        "git clone (build from source)",
+        "pip install -r requirements"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        ".env file",
+        "config file",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "no-code positioning"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. install via pip install, native installer / package; needs docker compose up, docker run; configure environment variables, API key configuration; no-code positioning",
+      "note_zh": "配置较重。可通过 pip install、native installer / package 安装；需要 docker compose up、docker run；需配置 environment variables、API key configuration；no-code positioning"
+    },
+    "doc_score": 70,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "links to dedicated docs",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "One proxy.",
+    "summary_zh": "",
+    "install_hint": "docker run -d \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.239
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

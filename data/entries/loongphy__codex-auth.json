@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "full_name": "Loongphy/codex-auth",
+  "name": "codex-auth",
+  "owner": "Loongphy",
+  "url": "https://github.com/Loongphy/codex-auth",
+  "description": "A CLI tool to switch and manage Codex accounts",
+  "homepage": "",
+  "category": "quota-account-ops",
+  "also_in": [],
+  "matched_capabilities": [
+    "multi-account-switching"
+  ],
+  "category_score": 14.0,
+  "stars": 2782,
+  "forks": 164,
+  "open_issues": 39,
+  "language": "Zig",
+  "license": "MIT",
+  "topics": [
+    "codex",
+    "zig"
+  ],
+  "created_at": "2026-02-10T06:53:56Z",
+  "updated_at": "2026-10-07T08:52:58Z",
+  "pushed_at": "2026-10-06T14:09:30Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 239,
+  "days_since_push": 0,
+  "health_score": 58,
+  "health_components": {
+    "popularity": 68.9,
+    "momentum": 9.7,
+    "maintenance": 100.0,
+    "documentation": 37.0,
+    "accessibility": 87.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2782,
+    "days_span": 239,
+    "stars_per_day": 11.64,
+    "lifetime_stars_per_day": 11.64,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Loongphy/codex-auth",
+    "readme_chars": 7254,
+    "capabilities": [
+      "multi-account-switching",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "onfigure live TUI refresh interval",
+      "gui-desktop": "napshot from hours ago instead of your latest state."
+    },
+    "capability_hits": {
+      "multi-account-switching": 3,
+      "gui-desktop": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 21,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [],
+      "note_en": "Easy. install via npx one-liner, global npm install; needs npm install/build; configure environment variables, sign-in required; GUI application",
+      "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 npm install/build；需配置 environment variables、sign-in required；GUI application"
+    },
+    "doc_score": 37,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "codex-auth is a command-line tool for switching Codex accounts.",
+    "summary_zh": "",
+    "install_hint": "npm install -g @loongphy/codex-auth",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.827
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

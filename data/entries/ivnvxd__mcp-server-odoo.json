@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "full_name": "ivnvxd/mcp-server-odoo",
+  "name": "mcp-server-odoo",
+  "owner": "ivnvxd",
+  "url": "https://github.com/ivnvxd/mcp-server-odoo",
+  "description": "Model Context Protocol (MCP) server that enables AI assistants to securely interact with Odoo ERP systems through standardized resources and tools for data retrieval and manipulation.",
+  "homepage": "",
+  "category": "interop-mcp",
+  "also_in": [],
+  "matched_capabilities": [
+    "mcp-support"
+  ],
+  "category_score": 13.0,
+  "stars": 398,
+  "forks": 186,
+  "open_issues": 9,
+  "language": "Python",
+  "license": "MPL-2.0",
+  "topics": [
+    "ai",
+    "erp",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "mcp-servers",
+    "model-context-protocol",
+    "odoo",
+    "odoo-mcp"
+  ],
+  "created_at": "2025-03-22T20:45:03Z",
+  "updated_at": "2026-10-06T08:40:17Z",
+  "pushed_at": "2026-10-07T12:26:40Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 563,
+  "days_since_push": 0,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 52.0,
+    "momentum": 0.6,
+    "maintenance": 100.0,
+    "documentation": 58.0,
+    "accessibility": 54.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 398,
+    "days_span": 563,
+    "stars_per_day": 0.71,
+    "lifetime_stars_per_day": 0.71,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "ivnvxd/mcp-server-odoo",
+    "readme_chars": 31761,
+    "capabilities": [
+      "auto-failover",
+      "worktree-isolation",
+      "billing-metering",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "totals/counts/groupings\" rather than \"list of records\" — it pushes the work down to PostgreSQL instead of pulling raw rows.",
+      "worktree-isolation": "hows \"READ-ONLY\" indicators in responses",
+      "billing-metering": "any standard Odoo installation.",
+      "mcp-support": "ccess with any Odoo instance (no module required)",
+      "cross-agent-support": "Mentions Claude Code, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "worktree-isolation": 2,
+      "billing-metering": 3,
+      "mcp-support": 35,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 46,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "uvx one-liner",
+        "pip install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer"
+      ],
+      "hard_signals": [
+        "docker run",
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "OAuth login flow",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner, uvx one-liner; needs docker run, git clone (build from source); configure environment variables, API key configuration",
+      "note_zh": "需要一些配置。可通过 npx one-liner、uvx one-liner 安装；需要 docker run、git clone (build from source)；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "An MCP server that enables AI assistants like Claude to interact with Odoo ERP systems.",
+    "summary_zh": "",
+    "install_hint": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.283
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:21+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

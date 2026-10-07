@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "full_name": "felinics/Memoh",
+  "name": "Memoh",
+  "owner": "felinics",
+  "url": "https://github.com/felinics/Memoh",
+  "description": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory.  You can bring your own key, or host your coding agent like Claude Code, Codex and so on.",
+  "homepage": "https://memoh.ai",
+  "category": "memory-context",
+  "also_in": [],
+  "matched_capabilities": [
+    "memory-context"
+  ],
+  "category_score": 16.0,
+  "stars": 2649,
+  "forks": 252,
+  "open_issues": 84,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "topics": [
+    "agent",
+    "ai",
+    "ai-companion",
+    "ai-memory",
+    "personal-assistant"
+  ],
+  "created_at": "2026-01-12T09:27:39Z",
+  "updated_at": "2026-10-07T10:14:04Z",
+  "pushed_at": "2026-10-06T06:09:48Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 268,
+  "days_since_push": 1,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 68.5,
+    "momentum": 8.2,
+    "maintenance": 100.0,
+    "documentation": 53.0,
+    "accessibility": 63.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2649,
+    "days_span": 268,
+    "stars_per_day": 9.88,
+    "lifetime_stars_per_day": 9.88,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "felinics/Memoh",
+    "readme_chars": 6228,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "memory-context",
+      "mcp-support",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "wser, network, and long-term memory — always on, even when your laptop is closed.",
+      "worktree-isolation": "",
+      "memory-context": "",
+      "mcp-support": "aude Code and Codex agents inside Memoh workspaces.",
+      "self-hosted": "ols, and run scheduled tasks.",
+      "team-collaboration": "egram, Discord, Lark, WeChat, Web UI, and more.",
+      "gui-desktop": "",
+      "notifications": "xisting bare-metal install)? Leave internalrpc.shared_secret empty in config.toml: the server then embeds the channel runtime and keeps running as a single all-in-one process — external channels, and webhook endpoints i…",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "worktree-isolation": 1,
+      "memory-context": 2,
+      "mcp-support": 3,
+      "self-hosted": 5,
+      "team-collaboration": 1,
+      "gui-desktop": 1,
+      "notifications": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Web"
+      ],
+      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs docker compose up, git clone (build from source); configure config.json/yaml/toml, sign-in required",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 docker compose up、git clone (build from source)；需配置 config.json/yaml/toml、sign-in required"
+    },
+    "doc_score": 53,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Desktop, browser, network, and long-term memory — always on, even when your laptop is closed.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://memoh.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 2.408
+    }
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}

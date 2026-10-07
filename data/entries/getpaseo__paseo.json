@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "full_name": "getpaseo/paseo",
+  "name": "paseo",
+  "owner": "getpaseo",
+  "url": "https://github.com/getpaseo/paseo",
+  "description": "Orchestrate multiple coding agents from desktop and mobile",
+  "homepage": "https://paseo.sh",
+  "category": "orchestration",
+  "also_in": [],
+  "matched_capabilities": [
+    "multi-agent-orchestration",
+    "parallel-execution"
+  ],
+  "category_score": 30.0,
+  "stars": 19955,
+  "forks": 2338,
+  "open_issues": 1068,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "topics": [
+    "ade",
+    "agents",
+    "android",
+    "claude-code",
+    "codex",
+    "copilot",
+    "developer-tools",
+    "hermes",
+    "ios",
+    "linux",
+    "mobile",
+    "opencode",
+    "orchestration",
+    "pi",
+    "windows"
+  ],
+  "created_at": "2025-10-13T12:27:02Z",
+  "updated_at": "2026-10-07T13:16:24Z",
+  "pushed_at": "2026-10-07T13:13:00Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 359,
+  "days_since_push": 0,
+  "health_score": 73,
+  "health_components": {
+    "popularity": 86.0,
+    "momentum": 46.3,
+    "maintenance": 100.0,
+    "documentation": 51.0,
+    "accessibility": 84.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 19955,
+    "days_span": 359,
+    "stars_per_day": 55.58,
+    "lifetime_stars_per_day": 55.58,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "getpaseo/paseo",
+    "readme_chars": 8990,
+    "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "",
+      "mobile-access": "emon machine and inside connected clients; install only code you trust.",
+      "multi-agent-orchestration": "once, each in its own worktree, on one machine or several.",
+      "parallel-execution": "ull requests, and a browser in one window.",
+      "worktree-isolation": "ktop, mobile, web, and CLI app for coding agents.",
+      "agent-runtime": ", composer pills, attachment sources, timeline items, themes.",
+      "mcp-support": ": screens, sidebar items, workspace panels, Command Center items, slash commands, composer pills, attachment sources, timeline items, themes.",
+      "security-isolation": "en Settings → your host → Pair Device.",
+      "self-hosted": "can create worktrees, launch other agents, and talk to them, across providers.",
+      "gui-desktop": "One interface for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code agents.",
+      "voice-input": "Use your tools, your configs, and your skills.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, OpenCode"
+    },
+    "capability_hits": {
+      "remote-control": 2,
+      "mobile-access": 2,
+      "multi-agent-orchestration": 4,
+      "parallel-execution": 2,
+      "worktree-isolation": 4,
+      "agent-runtime": 3,
+      "mcp-support": 2,
+      "security-isolation": 1,
+      "self-hosted": 2,
+      "gui-desktop": 4,
+      "voice-input": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 24,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "docker run",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, global npm install; needs docker run, npm install/build; configure environment variables; GUI application",
+      "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 docker run、npm install/build；需配置 environment variables；GUI application"
+    },
+    "doc_score": 51,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Copilot"
+    ],
+    "summary_en": "Paseo is a desktop, mobile, web, and CLI app for coding agents.",
+    "summary_zh": "",
+    "install_hint": "npm install -g @getpaseo/cli",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 2.558
+    }
+  },
+  "discovery": {
+    "source": "seed",
+    "seed_reason": "Orchestrate several coding agents from desktop and mobile; easier on-ramp than Orca.",
+    "metadata_source": "api"
+  },
+  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": ""
+  }
+}
