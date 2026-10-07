@@ -1,0 +1,12 @@
+{
+  "$comment": "Project identity, used to build absolute URLs in generated files. This lives in config rather than being read from the git remote on purpose: rendering must be a pure function of version-controlled inputs. Reading the remote made output depend on local git state, so a fresh clone, a fork and CI would each render different badge URLs — and CI's `render --check` would fail depending on which machine ran it.",
+  "version": 1,
+
+  "repo": "dparticle/awesome-agent-tools",
+  "default_branch": "main",
+  "name": "Awesome Agent Tools",
+  "tagline": {
+    "en": "Building an \"AGI\" out of the tools we already have.",
+    "zh": "用现有工具拼出一个「AGI」。"
+  }
+}

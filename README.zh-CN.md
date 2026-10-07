@@ -6,7 +6,7 @@
 
 **[English](README.md)** · [方法论](docs/METHODOLOGY.md) · [淘汰规则](docs/SUPERSEDE.md) · [能力分类法](docs/TAXONOMY.md) · [机器可读索引](data/index.json)
 
-**108 个工具**，分 **12 个分类** · **38 个已淘汰**（见[淘汰区](#-淘汰区)） · 最近更新 **2026-10-07 14:00 UTC**
+**108 个工具**，分 **12 个分类** · **38 个已淘汰**（见[淘汰区](#-淘汰区)） · 最近更新 **2026-10-07 13:58 UTC**
 
 ---
 
@@ -341,4 +341,4 @@ Agent 的能力上限取决于它能调用什么。MCP 服务与互通桥接让�
 1. **推荐工具** —— 在 [`config/seeds.json`](config/seeds.json) 里加上仓库和分类，下次抓取会用同样的门槛评估它。
 2. **质疑结论** —— 如果某个工具被误淘汰、或某项能力识别错了，修改 [`config/overrides.json`](config/overrides.json)，或开 issue 并引用该工具页面上的证据句。
 
-<sub>由 `agentindex` 于 2026-10-07 14:00 UTC 生成，所有数字均为自动重建，不手工编辑。</sub>
+<sub>由 `agentindex` 于 2026-10-07 13:58 UTC 生成，所有数字均为自动重建，不手工编辑。</sub>
