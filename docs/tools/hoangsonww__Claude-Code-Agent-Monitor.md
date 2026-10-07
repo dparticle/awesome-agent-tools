@@ -4,7 +4,7 @@
 
 > A professional dashboard to track and visualize Claude Code, Cursor, and Codex agent sessions, tool usage, conversation history, cost, and subagent orchestration in real time.
 
-[Repository](https://github.com/hoangsonww/Claude-Code-Agent-Monitor) · [Back to index](../../README.md) · Category: **observability**
+[Repository](https://github.com/hoangsonww/Claude-Code-Agent-Monitor) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

@@ -6,12 +6,6 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 757,
   "forks": 59,
   "open_issues": 4,
@@ -64,7 +58,7 @@
   },
   "analysis": {
     "full_name": "okf-memory/okf-agent-memory",
-    "readme_chars": 19491,
+    "readme_chars": 19220,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -133,75 +127,30 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.462
-    }
+      "external_link_ratio": 0.416
+    },
+    "highlights": [
+      "Agent Action Grammar (AAG): Ultra-compact, deterministic ASCII micro-syntax saving ~78–85% tokens compared to natural language prompt instructions.",
+      "Layer 2: Semantic Domain Memory (Pull Layer): An OKF v0.2 knowledge bundle (knowledge/) that consumes 0 tokens at baseline and is queried on-demand in microseconds.",
+      "Zero API Costs for Memory Retrieval: Local lexical BM25 indexing eliminates recurring vector embedding API costs and network roundtrips.",
+      "Layer 1: Normative Working Memory (Push Layer): A permanent, ultra-compact behavioral codex (capped at 400 tokens) expressed in Agent Action Grammar (AAG). Loaded at session start, enforcin…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:17+00:00",
+  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "supersede": {
-      "incumbent": "okf-memory/okf-agent-memory",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "okf-memory/okf-agent-memory",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "multi-agent-orchestration"
-      ],
-      "star_ratio": 38.579,
-      "momentum_ratio": 5.339,
-      "setup_delta": -13,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "38.58x the stars (29,204 vs 757)",
-        "5.34x the star velocity (130.4/day vs 24.4/day)",
-        "no harder to set up (32 vs 45 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 58,
-        "challenger_health": 88,
-        "incumbent_setup_score": 45,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

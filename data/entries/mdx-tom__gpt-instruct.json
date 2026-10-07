@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "full_name": "MDX-Tom/gpt-instruct",
+  "name": "gpt-instruct",
+  "owner": "MDX-Tom",
+  "url": "https://github.com/MDX-Tom/gpt-instruct",
+  "description": "A Codex jailbreak prompt and test pack for gpt. 针对 gpt 系列的 Codex 破甲提示词与测试包。",
+  "homepage": "https://mdx-tom.github.io/gpt-instruct/",
+  "stars": 9298,
+  "forks": 1127,
+  "open_issues": 30,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-07-11T09:44:24Z",
+  "updated_at": "2026-10-07T13:10:45Z",
+  "pushed_at": "2026-10-04T08:41:44Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 88,
+  "days_since_push": 3,
+  "health_score": 80,
+  "health_components": {
+    "popularity": 79.4,
+    "momentum": 88.0,
+    "maintenance": 100.0,
+    "documentation": 59.0,
+    "accessibility": 60.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 9298,
+    "days_span": 88,
+    "stars_per_day": 105.66,
+    "lifetime_stars_per_day": 105.66,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "MDX-Tom/gpt-instruct",
+    "readme_chars": 12175,
+    "capabilities": [
+      "model-routing"
+    ],
+    "capability_evidence": {
+      "model-routing": "pt-6.1-sol-v1-rc2；被替换的 Astra v1 与 6.1 rc1 已归档到 historical-versions/。"
+    },
+    "capability_hits": {
+      "model-routing": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 40,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "pip install -r requirements"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via pip install; needs git clone (build from source), pip install -r requirements; configure config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 git clone (build from source)、pip install -r requirements；需配置 config.json/yaml/toml"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "gpt-instruct 提供面向 Codex 的提示词与可复现评测工具链，重点改善复杂任务的首轮执行、过程连续性、工件验证和可运行回滚。",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.082
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "categories": [
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

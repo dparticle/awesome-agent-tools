@@ -4,7 +4,7 @@
 
 > This repository is YALC 1.0, the first generation and the open-source one.
 
-[Repository](https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 46/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-01-04 |
 | Last push | 2026-08-20 (47 days ago) |
 | Analyzed README | 23,203 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
 
 ## What it solves
 

@@ -1,0 +1,199 @@
+{
+  "schema": 1,
+  "full_name": "affaan-m/ECC",
+  "name": "ECC",
+  "owner": "affaan-m",
+  "url": "https://github.com/affaan-m/ECC",
+  "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "homepage": "https://ecc.tools",
+  "stars": 274608,
+  "forks": 40977,
+  "open_issues": 365,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "developer-tools",
+    "llm",
+    "mcp",
+    "productivity"
+  ],
+  "created_at": "2026-01-18T00:51:51Z",
+  "updated_at": "2026-10-07T13:26:42Z",
+  "pushed_at": "2026-10-05T04:55:16Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 262,
+  "days_since_push": 2,
+  "health_score": 89,
+  "health_components": {
+    "popularity": 100.0,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 73.0,
+    "accessibility": 43.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 274608,
+    "days_span": 262,
+    "stars_per_day": 1048.12,
+    "lifetime_stars_per_day": 1048.12,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "affaan-m/ECC",
+    "readme_chars": 106535,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "s and evidence live under docs/releases/.",
+      "parallel-execution": "",
+      "worktree-isolation": "",
+      "model-routing": "shims such as /tdd and /eval live in legacy-command-shims/ for explicit opt-in only.",
+      "api-gateway": "eway remaps model names, configure that in Claude Code rather than in ECC.",
+      "memory-context": "r debugging, before continuing feature work",
+      "skills-plugins": "tokens use macOS Keychain by default; explicit file fallback must retain owner-only directory/file permissions.",
+      "agent-runtime": "te ECC, change scope, or change its hook profile.",
+      "mcp-support": "Current Codex releases can install ECC as a native repo-marketplace plugin.",
+      "security-isolation": "reSubmitPrompt: Detects secrets (sk-, ghp, AKIA patterns) in prompts",
+      "self-hosted": ". ECC's hooks, skills, commands, and rules are model-provider agnostic once the claude CLI is already working. See Anthropic's LLM gateway documentation and model configuration documentation.",
+      "gui-desktop": "",
+      "notifications": "uded in the repo and legacy configuration layer",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 3,
+      "parallel-execution": 1,
+      "worktree-isolation": 2,
+      "model-routing": 2,
+      "api-gateway": 1,
+      "memory-context": 1,
+      "skills-plugins": 8,
+      "agent-runtime": 1,
+      "mcp-support": 42,
+      "security-isolation": 1,
+      "self-hosted": 5,
+      "gui-desktop": 1,
+      "notifications": 1,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 57,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "bunx one-liner",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build",
+        "cmake build",
+        "go build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config.json/yaml/toml",
+        "sign-in required",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner, bunx one-liner; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; GUI application",
+      "note_zh": "需要一些配置。可通过 npx one-liner、bunx one-liner 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、API key configuration；GUI application"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "Use the guided setup or native plugin commands.",
+    "summary_zh": "",
+    "install_hint": "npx ecc-universal@2.2.3 setup",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.404
+    },
+    "highlights": [
+      "AGENTS.md at root is the universal cross-tool file (read by Claude Code, Cursor, Codex, and OpenCode; GitHub Copilot uses .github/copilot-instructions.md instead)",
+      "Available in release 2.2: guided package setup for Claude Code, Codex, and Kimi Code",
+      "Skills format (SKILL.md with YAML frontmatter) works across Claude Code, Codex, and OpenCode",
+      "DRY adapter pattern lets Cursor reuse Claude Code's hook scripts without duplication"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:04+00:00",
+  "categories": [
+    "mcp-failover",
+    "model-routing",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

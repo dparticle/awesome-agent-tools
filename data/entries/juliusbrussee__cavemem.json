@@ -6,12 +6,6 @@
   "url": "https://github.com/JuliusBrussee/cavemem",
   "description": "Frozen — cross-agent persistent memory for coding assistants. Still works; the compressed-memory core now ships inside JuliusBrussee/caveman.",
   "homepage": "https://caveman.so/",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.5,
   "stars": 677,
   "forks": 61,
   "open_issues": 12,
@@ -133,18 +127,28 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.909
-    }
+    },
+    "highlights": [
+      "Cross-IDE installers. Claude Code, OpenCode, Codex, GitHub Copilot, Augment Code capture observations; Cursor, Gemini CLI, Antigravity, IBM Bob are query-only (MCP search over memory captur…",
+      "Web viewer. Read-only UI at http://localhost:37777 for browsing sessions in human-readable form. Token-protected: the worker generates a local bearer token on first start and injects it int…",
+      "Revu — local-first macOS study app with FSRS spaced repetition. revu.cards"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

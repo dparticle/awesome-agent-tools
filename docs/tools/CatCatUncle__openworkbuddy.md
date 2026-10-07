@@ -4,7 +4,7 @@
 
 > 交代一句话，它自己规划、动手、验收，把 PPT / Word / Excel / 网页落到你硬盘上。
 
-[Repository](https://github.com/CatCatUncle/openworkbuddy) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/CatCatUncle/openworkbuddy) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

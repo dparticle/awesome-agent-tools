@@ -6,12 +6,6 @@
   "url": "https://github.com/decolua/9router",
   "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
   "homepage": "https://9router.com",
-  "category": "model-routing",
-  "also_in": [],
-  "matched_capabilities": [
-    "model-routing"
-  ],
-  "category_score": 17.0,
   "stars": 30405,
   "forks": 5779,
   "open_issues": 2397,
@@ -164,18 +158,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.559
-    }
+    },
+    "highlights": [
+      "glm/glm-4.7 (cheap backup, $0.6/1M)",
+      "glm/glm-5.1 (Cheap backup, $0.6/1M)",
+      "kr/claude-sonnet-4.5 (Claude 4.5 free via Kiro, ~50 credits/mo)",
+      "❌ Gemini CLI: Service fully shut down by Google on 2026-06-18 (replaced by the closed-source Antigravity CLI). Discontinued — do not use."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:08+00:00",
+  "fetched_at": "2026-10-07T16:31:10+00:00",
+  "categories": [
+    "accounts",
+    "billing",
+    "sharing"
+  ],
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

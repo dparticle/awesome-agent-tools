@@ -4,7 +4,7 @@
 
 > One skill, a full engineering team.
 
-[Repository](https://github.com/jessepwj/CCteam-creator) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/jessepwj/CCteam-creator) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 39/100 |
 | Documentation | 52/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-17 |
 | Last push | 2026-04-13 (177 days ago) |
 | Analyzed README | 27,770 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (6/6).
 
 ## What it solves
 

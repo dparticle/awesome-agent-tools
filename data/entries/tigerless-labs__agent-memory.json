@@ -1,0 +1,199 @@
+{
+  "schema": 1,
+  "full_name": "tigerless-labs/agent-memory",
+  "name": "agent-memory",
+  "owner": "tigerless-labs",
+  "url": "https://github.com/tigerless-labs/agent-memory",
+  "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
+  "homepage": "",
+  "stars": 2379,
+  "forks": 141,
+  "open_issues": 20,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-memory",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "llm",
+    "local-first",
+    "long-term-memory",
+    "markdown",
+    "mcp",
+    "python",
+    "retrieval",
+    "sqlite"
+  ],
+  "created_at": "2026-09-01T21:52:29Z",
+  "updated_at": "2026-10-07T10:38:44Z",
+  "pushed_at": "2026-10-07T08:09:04Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 35,
+  "days_since_push": 0,
+  "health_score": 69,
+  "health_components": {
+    "popularity": 67.5,
+    "momentum": 56.6,
+    "maintenance": 100.0,
+    "documentation": 61.0,
+    "accessibility": 57.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 2379,
+    "days_span": 35,
+    "stars_per_day": 67.97,
+    "lifetime_stars_per_day": 67.97,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "tigerless-labs/agent-memory",
+    "readme_chars": 17965,
+    "capabilities": [
+      "worktree-isolation",
+      "memory-context",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "worktree-isolation": "",
+      "memory-context": "### agent-memory: the long-term memory runtime for AI agents",
+      "mcp-support": "Existing files with status load without a reset.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "worktree-isolation": 1,
+      "memory-context": 1,
+      "mcp-support": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 43,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, database dependency",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration、database dependency"
+    },
+    "doc_score": 61,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "An agent that closes its session forgets everything it learned in it.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.111
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "isolation-parallelism"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "tigerless-labs/agent-memory",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "tigerless-labs/agent-memory",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "worktree-isolation"
+      ],
+      "star_ratio": 41.308,
+      "momentum_ratio": 6.602,
+      "setup_delta": 2,
+      "dominance": 0.99,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "41.31x the stars (98,271 vs 2,379)",
+        "6.60x the star velocity (448.7/day vs 68.0/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 69,
+        "challenger_health": 89,
+        "incumbent_setup_score": 43,
+        "challenger_setup_score": 45
+      }
+    }
+  }
+}

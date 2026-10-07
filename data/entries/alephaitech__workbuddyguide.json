@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "full_name": "AlephAITech/WorkBuddyGuide",
+  "name": "WorkBuddyGuide",
+  "owner": "AlephAITech",
+  "url": "https://github.com/AlephAITech/WorkBuddyGuide",
+  "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+  "homepage": "https://workbuddy.homes/",
+  "stars": 3333,
+  "forks": 478,
+  "open_issues": 10,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "automation",
+    "codex",
+    "guide",
+    "llm",
+    "multi-agent",
+    "workbuddy",
+    "workflow"
+  ],
+  "created_at": "2026-07-10T04:13:51Z",
+  "updated_at": "2026-10-07T12:47:11Z",
+  "pushed_at": "2026-09-18T15:22:08Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 89,
+  "days_since_push": 19,
+  "health_score": 60,
+  "health_components": {
+    "popularity": 70.5,
+    "momentum": 31.2,
+    "maintenance": 92.0,
+    "documentation": 42.0,
+    "accessibility": 61.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3333,
+    "days_span": 89,
+    "stars_per_day": 37.45,
+    "lifetime_stars_per_day": 37.45,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "AlephAITech/WorkBuddyGuide",
+    "readme_chars": 4321,
+    "capabilities": [
+      "mobile-access",
+      "memory-context",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "mobile-access": "",
+      "memory-context": "",
+      "notifications": ""
+    },
+    "capability_hits": {
+      "mobile-access": 1,
+      "memory-context": 1,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 39,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Some setup. needs npm install/build",
+      "note_zh": "需要一些配置。需要 npm install/build"
+    },
+    "doc_score": 42,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation"
+    ],
+    "agents": [],
+    "summary_en": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+    "summary_zh": "",
+    "install_hint": "npm install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 1.389
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "mobile"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

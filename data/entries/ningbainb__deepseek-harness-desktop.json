@@ -6,12 +6,6 @@
   "url": "https://github.com/ningbainb/deepseek-harness-desktop",
   "description": "Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, skills, SSH, mobile remote access, and 11 skins.",
   "homepage": "https://ningbainb.github.io/deepseek-harness-desktop/",
-  "category": "remote-control",
-  "also_in": [],
-  "matched_capabilities": [
-    "remote-control"
-  ],
-  "category_score": 14.5,
   "stars": 777,
   "forks": 24,
   "open_issues": 16,
@@ -170,18 +164,31 @@
         "Chinese: directory framing"
       ],
       "external_link_ratio": 0.758
-    }
+    },
+    "highlights": [
+      "Claude Code / Codex 项目导入：只读发现项目和历史会话，预览后导入 Harness 工作区；敏感信息脱敏，历史工具调用不会重新执行。",
+      "启动与插件稳定性继续加固：启动阶段可见、事务修复可回滚、第三方插件错误隔离，原有 DSH Home 与插件直接延续。",
+      "模型接入更省步骤：bai 登录后优先选择真实目录中的 deepseek-flash，定期更新目录；缺少授权或密钥失效时引导浏览器登录，不自动充值、付费或重发消息。第三方 API 仍可独立接入。",
+      "本项目代码及内置功能插件、主题皮肤与桌面端均遵循 BSD-3-Clause 开源协议。"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:17+00:00",
+  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "categories": [
+    "billing",
+    "mobile",
+    "providers"
+  ],
+  "primary_category": "providers",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

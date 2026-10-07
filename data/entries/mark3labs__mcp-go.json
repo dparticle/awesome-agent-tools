@@ -6,12 +6,6 @@
   "url": "https://github.com/mark3labs/mcp-go",
   "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
   "homepage": "http://mcp-go.dev/",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 10.0,
   "stars": 9153,
   "forks": 895,
   "open_issues": 80,
@@ -107,18 +101,27 @@
         "invites project submissions"
       ],
       "external_link_ratio": 0.409
-    }
+    },
+    "highlights": [
+      "Complete*: MCP Go aims to provide a full implementation of the core MCP specification",
+      "Simple: Build MCP servers with minimal boilerplate"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "categories": [
+    "quota"
+  ],
+  "primary_category": "quota",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

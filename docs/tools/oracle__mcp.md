@@ -4,7 +4,7 @@
 
 > Repository containing reference implementations of MCP (Model Context Protocol) servers for managing and interacting with Oracle products.
 
-[Repository](https://github.com/oracle/mcp) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/oracle/mcp) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 54/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | UPL-1.0 |
 | Language | Python |
 | Created | 2025-07-27 |
 | Last push | 2026-10-07 (0 days ago) |
 | Analyzed README | 23,959 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).
 
 ## What it solves
 

@@ -6,13 +6,6 @@
   "url": "https://github.com/gotalab/cc-sdd",
   "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
   "homepage": "",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support"
-  ],
-  "category_score": 21.0,
   "stars": 3708,
   "forks": 290,
   "open_issues": 19,
@@ -134,26 +127,35 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.56
-    }
+    },
+    "highlights": []
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "iOfficeAI/AionUi",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
     "supersede": {
       "incumbent": "gotalab/cc-sdd",
-      "challenger": "iofficeai/aionui",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "gotalab/cc-sdd",
-      "challenger_name": "iOfficeAI/AionUi",
-      "kind": "auto",
-      "confidence": "high",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -162,15 +164,15 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 8.994,
-      "momentum_ratio": 9.433,
-      "setup_delta": -23,
-      "dominance": 1.0,
+      "star_ratio": 2.057,
+      "momentum_ratio": 10.099,
+      "setup_delta": 1,
+      "dominance": 0.909,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "8.99x the stars (33,351 vs 3,708)",
-        "9.43x the star velocity (78.3/day vs 8.3/day)",
-        "no harder to set up (2 vs 25 friction)"
+        "2.06x the stars (7,628 vs 3,708)",
+        "10.10x the star velocity (83.8/day vs 8.3/day)",
+        "slightly heavier setup (+1 friction, within tolerance)"
       ],
       "evidence": {
         "incumbent_capabilities": [
@@ -183,21 +185,25 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
+          "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "remote-control",
+          "self-hosted",
           "skills-plugins",
           "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 59,
-        "challenger_health": 81,
+        "challenger_health": 80,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 2
+        "challenger_setup_score": 26
       }
     }
   }

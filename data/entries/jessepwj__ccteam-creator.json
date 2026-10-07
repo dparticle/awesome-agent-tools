@@ -6,12 +6,6 @@
   "url": "https://github.com/jessepwj/CCteam-creator",
   "description": "Multi-agent team orchestration skill for Claude Code. Set up parallel AI agent teams with file-based planning and role-based collaboration.",
   "homepage": "",
-  "category": "orchestration",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-agent-orchestration"
-  ],
-  "category_score": 10.0,
   "stars": 307,
   "forks": 48,
   "open_issues": 6,
@@ -113,78 +107,30 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.252
-    }
+    },
+    "highlights": [
+      "Manages collaboration — agents communicate directly, persist state to files, follow built-in protocols",
+      "Sets up everything — planning files, docs/ knowledge base, CLAUDE.md operations guide, agent onboarding",
+      "Consults with you — explains how agent teams work, understands your project, recommends a team",
+      "After 3+ occurrences, custodian encodes it into golden_rules.py as an automated check"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:23+00:00",
+  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "categories": [
+    "sessions-memory",
+    "skills"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "yohey-w/multi-agent-shogun",
-    "supersede": {
-      "incumbent": "jessepwj/ccteam-creator",
-      "challenger": "yohey-w/multi-agent-shogun",
-      "incumbent_name": "jessepwj/CCteam-creator",
-      "challenger_name": "yohey-w/multi-agent-shogun",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "memory-context",
-        "multi-agent-orchestration",
-        "notifications",
-        "parallel-execution",
-        "session-persistence",
-        "skills-plugins"
-      ],
-      "star_ratio": 4.635,
-      "momentum_ratio": 3.72,
-      "setup_delta": -11,
-      "dominance": 0.963,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "4.64x the stars (1,423 vs 307)",
-        "3.72x the star velocity (5.6/day vs 1.5/day)",
-        "no harder to set up (46 vs 57 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "memory-context",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 39,
-        "challenger_health": 52,
-        "incumbent_setup_score": 57,
-        "challenger_setup_score": 46
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

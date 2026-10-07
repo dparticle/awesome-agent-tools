@@ -4,7 +4,7 @@
 
 > LLM agents forget everything between sessions.
 
-[Repository](https://github.com/mnemon-dev/mnemon) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/mnemon-dev/mnemon) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 51/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-02-20 |
 | Last push | 2026-10-03 (4 days ago) |
 | Analyzed README | 25,929 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).
 
 ## What it solves
 

@@ -6,14 +6,6 @@
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
   "homepage": "",
-  "category": "memory-context",
-  "also_in": [
-    ""
-  ],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 8903,
   "forks": 622,
   "open_issues": 11,
@@ -148,18 +140,26 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.289
-    }
+    },
+    "highlights": []
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:10+00:00",
+  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "categories": [
+    "mcp-failover",
+    "model-routing",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

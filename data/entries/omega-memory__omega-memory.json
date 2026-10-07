@@ -6,12 +6,6 @@
   "url": "https://github.com/omega-memory/omega-memory",
   "description": "Persistent memory for AI coding agents",
   "homepage": "https://omegamax.co",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 219,
   "forks": 32,
   "open_issues": 8,
@@ -147,18 +141,30 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.425
-    }
+    },
+    "highlights": [
+      "Intelligent LLM Routing (omega-pro) — Classifies tasks and routes to the optimal model. Coding → Claude Sonnet. Quick edit → Llama 8b at 1/60th the cost. 1M token context → Gemini Flash. 5…",
+      "Secure Profile (omega-pro) — AES-256 encrypted personal data storage with macOS Keychain integration.",
+      "Auto-relate: Creates related edges (similarity >= 0.45) to top-3 similar memories",
+      "Vector similarity via sqlite-vec (cosine distance, 384-dim bge-small-en-v1.5)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:26+00:00",
+  "fetched_at": "2026-10-07T16:31:30+00:00",
+  "categories": [
+    "model-routing",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -4,7 +4,7 @@
 
 > Package README: English | 日本語 | 繁體中文
 
-[Repository](https://github.com/gotalab/cc-sdd) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/gotalab/cc-sdd) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -24,7 +24,7 @@
 | Last push | 2026-09-23 (14 days ago) |
 | Analyzed README | 12,500 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
 
 ## What it solves
 

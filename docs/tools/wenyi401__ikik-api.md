@@ -4,7 +4,7 @@
 
 > ikik-api is a self-hosted AI API gateway and subscription management platform based on Sub2API.
 
-[Repository](https://github.com/wenyi401/ikik-api) · [Back to index](../../README.md) · Category: **sharing-gateway**
+[Repository](https://github.com/wenyi401/ikik-api) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -21,7 +21,7 @@
 | License | LGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-25 |
-| Last push | 2026-09-17 (19 days ago) |
+| Last push | 2026-09-17 (20 days ago) |
 | Analyzed README | 9,127 chars from `raw:HEAD/README.md` |
 
 ## What it solves

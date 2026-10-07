@@ -4,7 +4,7 @@
 
 > A plugin marketplace and discovery platform for Claude Code.
 
-[Repository](https://github.com/davepoon/buildwithclaude) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/davepoon/buildwithclaude) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

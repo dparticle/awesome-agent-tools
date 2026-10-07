@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "full_name": "tamaratran/fast-jev-compaction",
+  "name": "fast-jev-compaction",
+  "owner": "tamaratran",
+  "url": "https://github.com/tamaratran/fast-jev-compaction",
+  "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+  "homepage": "",
+  "stars": 7458,
+  "forks": 511,
+  "open_issues": 105,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-09-17T05:57:20Z",
+  "updated_at": "2026-10-07T12:17:53Z",
+  "pushed_at": "2026-09-18T04:45:31Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 20,
+  "days_since_push": 19,
+  "health_score": 75,
+  "health_components": {
+    "popularity": 77.5,
+    "momentum": 100.0,
+    "maintenance": 92.0,
+    "documentation": 30.0,
+    "accessibility": 49.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7458,
+    "days_span": 20,
+    "stars_per_day": 372.9,
+    "lifetime_stars_per_day": 372.9,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "tamaratran/fast-jev-compaction",
+    "readme_chars": 8660,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "model-routing": "",
+      "skills-plugins": ""
+    },
+    "capability_hits": {
+      "auto-failover": 2,
+      "model-routing": 1,
+      "skills-plugins": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        ".env file"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS"
+      ],
+      "note_en": "Some setup. needs npm install/build; configure API key configuration, .env file",
+      "note_zh": "需要一些配置。需要 npm install/build；需配置 API key configuration、.env file"
+    },
+    "doc_score": 30,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+    "summary_zh": "",
+    "install_hint": "npm install fast-jev-compaction",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "categories": [
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

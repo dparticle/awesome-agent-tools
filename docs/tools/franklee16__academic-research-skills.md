@@ -4,7 +4,7 @@
 
 > A curated collection of Claude Code skills for academic research in economics, finance, and the broader social sciences — organized by the common types of skills a researcher needs across a project's lifecycle.
 
-[Repository](https://github.com/franklee16/academic-research-skills) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/franklee16/academic-research-skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 44/100 |
 | Documentation | 28/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Stata |
 | Created | 2026-04-19 |
 | Last push | 2026-09-18 (19 days ago) |
-| Analyzed README | 19,243 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (3/3).
+| Analyzed README | 19,099 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

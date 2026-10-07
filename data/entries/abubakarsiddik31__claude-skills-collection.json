@@ -6,12 +6,6 @@
   "url": "https://github.com/abubakarsiddik31/claude-skills-collection",
   "description": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 14.0,
   "stars": 1090,
   "forks": 199,
   "open_issues": 18,
@@ -24,7 +18,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 353,
+  "age_days": 354,
   "days_since_push": 25,
   "health_score": 53,
   "health_components": {
@@ -37,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1090,
-    "days_span": 353,
-    "stars_per_day": 3.09,
-    "lifetime_stars_per_day": 3.09,
+    "days_span": 354,
+    "stars_per_day": 3.08,
+    "lifetime_stars_per_day": 3.08,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -147,18 +141,102 @@
         "link-directory table of contents"
       ],
       "external_link_ratio": 1.614
-    }
+    },
+    "highlights": [
+      "name -- Use kebab-case, 1-64 characters (e.g., csv-data-summarizer, not CSV Data Summarizer).",
+      "Body length -- Keep the instruction body under 500 lines. Long skills should be split into focused sub-skills.",
+      "No secrets in source -- Never embed API keys, tokens, or credentials in SKILL.md. Use environment variables or MCP configuration instead.",
+      "description -- Write in third person. State what the skill does and when to use it. Keep it under 300 characters."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:15+00:00",
+  "fetched_at": "2026-10-07T16:31:17+00:00",
+  "categories": [
+    "desktop-ui",
+    "mobile",
+    "skills"
+  ],
+  "primary_category": "mobile",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (11/11).",
+    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (11/11)。",
+    "superseded_by": "yohey-w/multi-agent-shogun",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "abubakarsiddik31/claude-skills-collection",
+      "challenger": "yohey-w/multi-agent-shogun",
+      "incumbent_name": "abubakarsiddik31/claude-skills-collection",
+      "challenger_name": "yohey-w/multi-agent-shogun",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "billing-metering",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "mobile-access",
+        "multi-agent-orchestration",
+        "notifications",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 1.306,
+      "momentum_ratio": 1.812,
+      "setup_delta": 0,
+      "dominance": 0.655,
+      "reasons": [
+        "covers 100% of capabilities (11/11)",
+        "1.31x the stars (1,423 vs 1,090)",
+        "1.81x the star velocity (5.6/day vs 3.1/day)",
+        "no harder to set up (46 vs 46 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "notifications",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 52,
+        "incumbent_setup_score": 46,
+        "challenger_setup_score": 46
+      }
+    }
   }
 }

@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "full_name": "HarnessMD/munder-difflin",
+  "name": "munder-difflin",
+  "owner": "HarnessMD",
+  "url": "https://github.com/HarnessMD/munder-difflin",
+  "description": "an open-source alternative to the dots, bots and muses of the world, run an office of claude code/codex like agents on your laptop, sandboxes or anywhere, uses your existing subscriptions",
+  "homepage": "https://munderdiffl.in",
+  "stars": 8548,
+  "forks": 1203,
+  "open_issues": 232,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-harness",
+    "agent-orchestration",
+    "agents",
+    "ai-agents",
+    "autonomous-agents",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "desktop-app",
+    "developer-tools",
+    "electron",
+    "gemini-cli",
+    "harness",
+    "harness-engineering",
+    "local-first",
+    "memory",
+    "multi-agent",
+    "opencode",
+    "orchestration",
+    "typescript"
+  ],
+  "created_at": "2026-05-31T15:25:05Z",
+  "updated_at": "2026-10-07T12:36:24Z",
+  "pushed_at": "2026-10-07T07:43:29Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 129,
+  "days_since_push": 0,
+  "health_score": 75,
+  "health_components": {
+    "popularity": 78.6,
+    "momentum": 55.2,
+    "maintenance": 100.0,
+    "documentation": 74.0,
+    "accessibility": 68.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 8548,
+    "days_span": 129,
+    "stars_per_day": 66.26,
+    "lifetime_stars_per_day": 66.26,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "HarnessMD/munder-difflin",
+    "readme_chars": 32152,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "self-hosted",
+      "gui-desktop",
+      "notifications",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "Everything is visible: you watch avatars move, envelopes fly, and the live terminal stream;",
+      "parallel-execution": "A GOD orchestrator you talk to.",
+      "worktree-isolation": "d avatar state reflects real work.",
+      "model-routing": "led right, and you can add your own.",
+      "usage-analytics": "hareable hires and the Agent Gallery, observability and the circuit",
+      "session-persistence": "a built-in Monaco IDE with git rails, integrations registry + secret broker,",
+      "memory-context": "al-agent CLIs as fully-capable agents,",
+      "skills-plugins": "The floor - Every terminal is a real agent.",
+      "agent-runtime": "arness to run an office of your clones",
+      "self-hosted": "USD, adjusted for purchasing power in different",
+      "gui-desktop": "CLI, and Cursor, with bring-your-own keys and local LLMs.",
+      "notifications": "itor tabs, save, plus CHANGES · HISTORY · COMPARE git rails with commit graph, diffs, branch compare, and guarded checkout.",
+      "voice-input": "macOS builds are signed and notarized.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Crush"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 3,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "model-routing": 3,
+      "usage-analytics": 1,
+      "session-persistence": 2,
+      "memory-context": 2,
+      "skills-plugins": 2,
+      "agent-runtime": 1,
+      "self-hosted": 2,
+      "gui-desktop": 5,
+      "notifications": 4,
+      "voice-input": 7,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 32,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via native installer / package; needs git clone (build from source), npm install/build; configure sign-in required, database dependency; one-click setup",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 sign-in required、database dependency；one-click setup"
+    },
+    "doc_score": 74,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Crush"
+    ],
+    "summary_en": "Free, open source and performant.",
+    "summary_zh": "",
+    "install_hint": "npm install        # postinstall rebuilds node-pty against Electron's ABI",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.715
+    },
+    "highlights": [
+      "Tickets with keys (0.5.3): every card gets a key like V53-299, each agent has a Tasks tab with what it did and when, and the Tasks screen filters by date.",
+      "Local transcription and dictation (0.5.3): dictate into any app (Option on the Mac,",
+      "More than one floor (0.5.3). File, New Floor opens another office on its own folder, in its own window, with its own agents, board and memory. A folder only ever opens in one floor, and one…",
+      "Slack & webhooks: message a channel or POST a webhook; Michael can spawn an ephemeral worker, reply in-thread, and tear it down."
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "categories": [
+    "desktop-ui",
+    "sessions-memory",
+    "voice"
+  ],
+  "primary_category": "voice",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

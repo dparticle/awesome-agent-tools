@@ -4,7 +4,7 @@
 
 > 中转站的中转站 — 将分散的 AI 中转站聚合为一个统一网关
 
-[Repository](https://github.com/cita-777/metapi) · [Back to index](../../README.md) · Category: **sharing-gateway**
+[Repository](https://github.com/cita-777/metapi) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -22,21 +22,19 @@
 | Language | TypeScript |
 | Created | 2026-02-27 |
 | Last push | 2026-09-06 (30 days ago) |
-| Analyzed README | 17,101 chars from `raw:HEAD/README.md` |
+| Analyzed README | 15,860 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> Metapi 用户专属福利：通过 专属推广链接 注册即可领取 5 美元等值测试额度 / 首充专属优惠，快速添加上游并开始调用。
-
 ### Quota & usage management
 
-> i、Kimi、GLM、DeepSeek 等主流模型。
+> 代理入口 + 可选多下游 Key 策略**，模型自动聚合到 /v1/*
 
 ### Automatic failover
 
-> - 完整的 SSE 流式传输支持，自动格式转换（OpenAI ⇄ Claude）
+> E 流式传输支持，自动格式转换（OpenAI ⇄ Claude）
 
 ### Multi-provider aggregation
 
@@ -46,7 +44,7 @@
 
 ### Billing & metering
 
-> e、Gemini 兼容上游接入，配合 Metapi 的模型自动发现、成本优选与故障转移，为 Cursor、Claude Code、Codex、Open WebUI 等工具提供稳定模型服务。
+> / Embeddings / Images / Models，以及标准 /v1/files 文件接口
 
 ### Usage analytics
 

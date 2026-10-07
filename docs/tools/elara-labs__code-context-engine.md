@@ -4,7 +4,7 @@
 
 > One command.
 
-[Repository](https://github.com/elara-labs/code-context-engine) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/elara-labs/code-context-engine) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

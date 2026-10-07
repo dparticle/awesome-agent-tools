@@ -6,12 +6,6 @@
   "url": "https://github.com/linxidnju/OpenTag",
   "description": "Open-source, channel-native agent gateway for Slack. Route team threads to Claude Code, Codex, OpenCode, Docker, HTTP agents, and custom CLIs with policy, approvals, memory, audit logs, and artifacts.",
   "homepage": "",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "cross-agent-support"
-  ],
-  "category_score": 10.0,
   "stars": 502,
   "forks": 0,
   "open_issues": 1,
@@ -124,18 +118,79 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.0
-    }
+    },
+    "highlights": []
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "linxidnju/opentag",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "linxidnju/OpenTag",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "security-isolation"
+      ],
+      "star_ratio": 58.175,
+      "momentum_ratio": 26.5,
+      "setup_delta": -13,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "58.18x the stars (29,204 vs 502)",
+        "26.50x the star velocity (130.4/day vs 4.9/day)",
+        "no harder to set up (32 vs 45 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 88,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

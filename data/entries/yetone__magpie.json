@@ -6,14 +6,6 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "category": "quota-account-ops",
-  "also_in": [
-    ""
-  ],
-  "matched_capabilities": [
-    "multi-account-switching"
-  ],
-  "category_score": 21.0,
   "stars": 5667,
   "forks": 407,
   "open_issues": 266,
@@ -33,7 +25,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 13,
+  "age_days": 14,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
@@ -46,9 +38,9 @@
   "tier": "flagship",
   "momentum": {
     "stars_gained": 5667,
-    "days_span": 13,
-    "stars_per_day": 435.92,
-    "lifetime_stars_per_day": 435.92,
+    "days_span": 14,
+    "stars_per_day": 404.79,
+    "lifetime_stars_per_day": 404.79,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -150,18 +142,30 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 1.556
-    }
+    },
+    "highlights": [
+      "Share it on your network. Turn on Share on local network, then create a named gateway key for each client, each with its own daily, weekly or monthly token and cost limit.",
+      "Docker. Run ghcr.io/yetone/magpie on a server or a NAS, and manage it from the web UI.",
+      "Sync. Back up to a file, or keep machines in sync over WebDAV (Nutstore, Nextcloud…) or S3."
+    ]
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "categories": [
+    "accounts",
+    "desktop-ui",
+    "model-routing"
+  ],
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

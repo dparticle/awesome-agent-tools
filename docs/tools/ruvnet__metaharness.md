@@ -4,7 +4,7 @@
 
 > npx metaharness · open the Studio →
 
-[Repository](https://github.com/ruvnet/metaharness) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/ruvnet/metaharness) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 53/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-13 |
 | Last push | 2026-10-07 (0 days ago) |
 | Analyzed README | 30,014 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
 
 ## What it solves
 

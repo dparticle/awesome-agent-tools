@@ -6,12 +6,6 @@
   "url": "https://github.com/deepagent-ltd/deepagent-code",
   "description": "DeepAgent Code: AI coding agent with persistent memory and control plane",
   "homepage": "https://ai.deepagent.ltd/",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 16.0,
   "stars": 436,
   "forks": 3,
   "open_issues": 2,
@@ -145,18 +139,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.459
-    }
+    },
+    "highlights": [
+      "On the harder tasks, the average fix-to-pass rate rises from 71.8% to 98.4%.",
+      "Lower total input tokens: total input runs at roughly 40-80% of the baseline on DeepSWE. Old tool outputs are trimmed by fixed rules and past reasoning is never replayed, so the prompt pref…",
+      "Output tokens drop to roughly a third of the baseline: structured tool calls replace long stretches of shell-output reasoning, and generated tokens are the most expensive part of the bill.",
+      "About 10% fewer steps on average, with end-to-end wall time on par with the baseline."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing",
+    "sessions-memory"
+  ],
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

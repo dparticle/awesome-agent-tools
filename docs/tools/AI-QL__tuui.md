@@ -4,7 +4,7 @@
 
 > This repository is essentially an LLM chat desktop application based on MCP.
 
-[Repository](https://github.com/AI-QL/tuui) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/AI-QL/tuui) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 1,155 |
-| Star velocity | 2.1/day (lifetime basis, 553d span) |
+| Star velocity | 2.1/day (lifetime basis, 554d span) |
 | Health score | 47/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-04-01 |
 | Last push | 2026-05-14 (146 days ago) |
 | Analyzed README | 12,001 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 

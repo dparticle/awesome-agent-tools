@@ -6,12 +6,6 @@
   "url": "https://github.com/numman-ali/n-skills",
   "description": "Curated plugin marketplace for AI agents - works with Claude Code, Codex, and openskills",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 14.5,
   "stars": 1051,
   "forks": 109,
   "open_issues": 38,
@@ -113,18 +107,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 1.747
-    }
+    },
+    "highlights": [
+      "Abandoned or unmaintained projects",
+      "Clean, well-documented code",
+      "Genuine utility for developers"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:15+00:00",
+  "fetched_at": "2026-10-07T16:31:17+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

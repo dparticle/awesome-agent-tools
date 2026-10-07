@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "full_name": "mco-org/mco",
+  "name": "mco",
+  "owner": "mco-org",
+  "url": "https://github.com/mco-org/mco",
+  "description": "CLI-first orchestration for AI coding agents: run selected agents and models in parallel, compare raw answers, and coordinate review or implementation workflows.",
+  "homepage": "",
+  "stars": 530,
+  "forks": 57,
+  "open_issues": 0,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "ai-ide",
+    "claude",
+    "cli",
+    "code-review",
+    "codex",
+    "copilot",
+    "cursor",
+    "developer-tools",
+    "gemini",
+    "grok-build",
+    "hermes-agent",
+    "multi-agent",
+    "opencode",
+    "orchestration",
+    "pi-coding-agent",
+    "qwen",
+    "windsurf"
+  ],
+  "created_at": "2026-02-26T07:25:48Z",
+  "updated_at": "2026-10-07T10:57:55Z",
+  "pushed_at": "2026-10-07T10:58:03Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 223,
+  "days_since_push": 0,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 54.5,
+    "momentum": 2.0,
+    "maintenance": 100.0,
+    "documentation": 61.0,
+    "accessibility": 93.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 530,
+    "days_span": 223,
+    "stars_per_day": 2.38,
+    "lifetime_stars_per_day": 2.38,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "mco-org/mco",
+    "readme_chars": 8947,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "agent-runtime": "aw answers before you act.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "agent-runtime": 3,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 7,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Web"
+      ],
+      "note_en": "Turnkey. install via npx one-liner, pip install; needs git clone (build from source)",
+      "note_zh": "开箱即用。可通过 npx one-liner、pip install 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 61,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Qwen Code"
+    ],
+    "summary_en": "MCO is a lightweight, CLI-first orchestration layer for AI coding agents.",
+    "summary_zh": "",
+    "install_hint": "npx @tt-a1i/mco@latest install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.335
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

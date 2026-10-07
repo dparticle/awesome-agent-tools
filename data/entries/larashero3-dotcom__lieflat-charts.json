@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "full_name": "larashero3-dotcom/lieflat-charts",
+  "name": "lieflat-charts",
+  "owner": "larashero3-dotcom",
+  "url": "https://github.com/larashero3-dotcom/lieflat-charts",
+  "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
+  "homepage": "",
+  "stars": 5964,
+  "forks": 363,
+  "open_issues": 2,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "topics": [
+    "agent-skills",
+    "charts",
+    "claude-code",
+    "codex",
+    "data-visualization",
+    "html",
+    "moxt",
+    "svg"
+  ],
+  "created_at": "2026-07-16T11:17:49Z",
+  "updated_at": "2026-10-07T12:46:12Z",
+  "pushed_at": "2026-09-05T02:40:41Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 83,
+  "days_since_push": 32,
+  "health_score": 69,
+  "health_components": {
+    "popularity": 75.5,
+    "momentum": 59.9,
+    "maintenance": 78.0,
+    "documentation": 40.0,
+    "accessibility": 96.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 5964,
+    "days_span": 83,
+    "stars_per_day": 71.86,
+    "lifetime_stars_per_day": 71.86,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "larashero3-dotcom/lieflat-charts",
+    "readme_chars": 11455,
+    "capabilities": [
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 16,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Turnkey. install via npx one-liner",
+      "note_zh": "开箱即用。可通过 npx one-liner 安装"
+    },
+    "doc_score": 40,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "mentions licensing",
+      "has a table of contents"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Lieflat Charts 是一套遵循 Agent Skills 格式的数据可视化与报告生成 skill，可供 moxt、Claude Code、Codex 及其他兼容 SKILL.md 的 AI agent 使用。本 skill 在 moxt.ai 制作，默认把数据做成有编辑感的图表；只有用户明确要求报告、年报、月报、白皮书、海报或 brief 时，才从 12 套中英文整页模板生成可发布的 HTML 报告。",
+    "summary_zh": "",
+    "install_hint": "npx skills add https://github.com/larashero3-dotcom/lieflat-charts --skill lieflat-charts",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.262
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

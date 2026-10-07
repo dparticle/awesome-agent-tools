@@ -4,7 +4,7 @@
 
 > 🌐 Languages: English | Italiano | 中文 | Español
 
-[Repository](https://github.com/giuseppe-trisciuoglio/developer-kit) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/giuseppe-trisciuoglio/developer-kit) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -24,7 +24,7 @@
 | Last push | 2026-09-10 (27 days ago) |
 | Analyzed README | 9,755 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [thedivergentai/GD-Agentic-Skills](https://github.com/thedivergentai/GD-Agentic-Skills)** — Superseded by thedivergentai/GD-Agentic-Skills: covers 100% of capabilities (5/5).
 
 ## What it solves
 

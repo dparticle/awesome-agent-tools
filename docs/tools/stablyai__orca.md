@@ -4,7 +4,7 @@
 
 > Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place.
 
-[Repository](https://github.com/stablyai/orca) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/stablyai/orca) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

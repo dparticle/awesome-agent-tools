@@ -6,12 +6,6 @@
   "url": "https://github.com/Ibrahim-3d/orchestrator-supaconductor",
   "description": "Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills",
   "homepage": "",
-  "category": "orchestration",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-agent-orchestration"
-  ],
-  "category_score": 11.0,
   "stars": 380,
   "forks": 39,
   "open_issues": 2,
@@ -34,7 +28,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 231,
+  "age_days": 232,
   "days_since_push": 9,
   "health_score": 48,
   "health_components": {
@@ -47,9 +41,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 380,
-    "days_span": 231,
-    "stars_per_day": 1.65,
-    "lifetime_stars_per_day": 1.65,
+    "days_span": 232,
+    "stars_per_day": 1.64,
+    "lifetime_stars_per_day": 1.64,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,25 +125,32 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.348
-    }
+    },
+    "highlights": []
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "categories": [
+    "isolation-parallelism"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "yohey-w/multi-agent-shogun",
+    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "redhat-et/ripwire",
+    "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "yohey-w/multi-agent-shogun",
+      "challenger": "redhat-et/ripwire",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "yohey-w/multi-agent-shogun",
-      "kind": "auto",
+      "challenger_name": "redhat-et/ripwire",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [
@@ -159,15 +160,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 3.745,
-      "momentum_ratio": 3.382,
-      "setup_delta": -26,
-      "dominance": 0.951,
+      "star_ratio": 6.361,
+      "momentum_ratio": 21.055,
+      "setup_delta": -38,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "3.74x the stars (1,423 vs 380)",
-        "3.38x the star velocity (5.6/day vs 1.6/day)",
-        "no harder to set up (46 vs 72 friction)"
+        "6.36x the stars (2,417 vs 380)",
+        "21.05x the star velocity (34.5/day vs 1.6/day)",
+        "no harder to set up (34 vs 72 friction)"
       ],
       "evidence": {
         "incumbent_capabilities": [
@@ -179,27 +180,20 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "billing-metering",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "remote-control",
-          "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 52,
+        "challenger_health": 66,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 46
+        "challenger_setup_score": 34
       }
     }
   }

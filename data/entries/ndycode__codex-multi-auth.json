@@ -6,12 +6,6 @@
   "url": "https://github.com/ndycode/codex-multi-auth",
   "description": "Codex CLI multi-account OAuth manager with account switching, health checks, runtime rotation, diagnostics, and recovery tools for @openai/codex",
   "homepage": "https://www.npmjs.com/package/codex-multi-auth",
-  "category": "quota-account-ops",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-account-switching"
-  ],
-  "category_score": 15.0,
   "stars": 534,
   "forks": 67,
   "open_issues": 1,
@@ -132,65 +126,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.502
-    }
+    },
+    "highlights": [
+      "Account pool — OAuth login for multiple ChatGPT accounts, stored locally under ~/.codex/multi-auth (files 0600, directories 0700), with per-project pools under projects/ /.",
+      "Runtime rotation — a default-on, loopback-only proxy that forwards Responses API and model-discovery traffic through the best available account during wrapper-launched Codex sessions.",
+      "Switching and selection — pin an account, pick the forecast-best one, or let health- and quota-aware hybrid selection rotate for you.",
+      "Local governance — file-backed usage ledger, budget guards, account tags/weights/pause/drain policies, routing profiles, and an optional loopback bridge with bearer tokens for local OpenAI-…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "accounts"
+  ],
+  "primary_category": "accounts",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by yetone/magpie: covers 100% of capabilities (3/3).",
-    "note_zh": "已被 yetone/magpie 取代：covers 100% of capabilities (3/3)。",
-    "superseded_by": "yetone/magpie",
-    "supersede": {
-      "incumbent": "ndycode/codex-multi-auth",
-      "challenger": "yetone/magpie",
-      "incumbent_name": "ndycode/codex-multi-auth",
-      "challenger_name": "yetone/magpie",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "cross-agent-support",
-        "multi-account-switching"
-      ],
-      "star_ratio": 10.612,
-      "momentum_ratio": 184.712,
-      "setup_delta": -23,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (3/3)",
-        "10.61x the stars (5,667 vs 534)",
-        "184.71x the star velocity (435.9/day vs 2.4/day)",
-        "no harder to set up (18 vs 41 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "multi-account-switching"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "multi-account-switching",
-          "quota-management",
-          "usage-analytics"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 84,
-        "incumbent_setup_score": 41,
-        "challenger_setup_score": 18
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

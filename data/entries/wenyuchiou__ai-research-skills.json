@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "full_name": "WenyuChiou/ai-research-skills",
+  "name": "ai-research-skills",
+  "owner": "WenyuChiou",
+  "url": "https://github.com/WenyuChiou/ai-research-skills",
+  "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
+  "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
+  "stars": 306,
+  "forks": 21,
+  "open_issues": 3,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "academic-writing",
+    "agentic-ai",
+    "agentskills",
+    "ai-research",
+    "ai-skills",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "cursor",
+    "gemini",
+    "literature-review",
+    "marketplace",
+    "multi-agent",
+    "notebooklm",
+    "obsidian",
+    "openclaw",
+    "research",
+    "research-workflow",
+    "skill-md",
+    "zotero"
+  ],
+  "created_at": "2026-04-25T17:46:37Z",
+  "updated_at": "2026-10-07T03:48:20Z",
+  "pushed_at": "2026-10-07T04:58:19Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 164,
+  "days_since_push": 0,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 49.7,
+    "momentum": 1.6,
+    "maintenance": 100.0,
+    "documentation": 66.0,
+    "accessibility": 78.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 306,
+    "days_span": 164,
+    "stars_per_day": 1.87,
+    "lifetime_stars_per_day": 1.87,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "WenyuChiou/ai-research-skills",
+    "readme_chars": 30146,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "formed handoff — and does, when the schema",
+      "skills-plugins": ". The pipeline — what each stage delivers to the next",
+      "mcp-support": "chever subset you have (or even none, in",
+      "gui-desktop": "KILL.md when supported; not release-verified here yet.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 4,
+      "skills-plugins": 2,
+      "mcp-support": 5,
+      "gui-desktop": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via pip install, native installer / package; needs git clone (build from source); configure server/reverse-proxy setup",
+      "note_zh": "较易上手。可通过 pip install、native installer / package 安装；需要 git clone (build from source)；需配置 server/reverse-proxy setup"
+    },
+    "doc_score": 66,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "Cursor"
+    ],
+    "summary_en": "Built for graduate students, PhDs, postdocs, research support staff, and agent/harness builders who need inspectable research workflows rather than a black box.",
+    "summary_zh": "",
+    "install_hint": "pip install research-hub-pipeline",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.1
+    },
+    "highlights": [
+      "codex-delegate — Claude → Codex CLI handoff for code-heavy / mechanical work. (Cross-cutting, also Stages 4, 6)",
+      "antigravity-delegate — Claude → Antigravity CLI handoff for bounded non-honesty-critical mechanical work. (Cross-cutting, also Stages 4, 6)",
+      "research-context-compressor — .research/ manifests so future AI sessions skip the rescan. (Stages 3b, 5, 8)",
+      "research-hub — search, ingest, organise papers across Zotero / Obsidian / NotebookLM. (Stages 1, 2)"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by thedivergentai/GD-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/GD-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/GD-Agentic-Skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "wenyuchiou/ai-research-skills",
+      "challenger": "thedivergentai/gd-agentic-skills",
+      "incumbent_name": "WenyuChiou/ai-research-skills",
+      "challenger_name": "thedivergentai/GD-Agentic-Skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 2.627,
+      "momentum_ratio": 1.786,
+      "setup_delta": -1,
+      "dominance": 0.842,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "2.63x the stars (804 vs 306)",
+        "1.79x the star velocity (3.3/day vs 1.9/day)",
+        "no harder to set up (21 vs 22 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "skills-plugins"
+        ],
+        "incumbent_health": 54,
+        "challenger_health": 56,
+        "incumbent_setup_score": 22,
+        "challenger_setup_score": 21
+      }
+    }
+  }
+}

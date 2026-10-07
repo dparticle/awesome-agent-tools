@@ -6,13 +6,6 @@
   "url": "https://github.com/asheshgoplani/agent-deck",
   "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
   "homepage": "https://discord.gg/e4xSs6NBN8",
-  "category": "workflow-ux",
-  "also_in": [],
-  "matched_capabilities": [
-    "gui-desktop",
-    "notifications"
-  ],
-  "category_score": 31.0,
   "stars": 1030,
   "forks": 186,
   "open_issues": 29,
@@ -194,18 +187,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.326
-    }
+    },
+    "highlights": [
+      "Codex forking requires a codex CLI with codex fork support (verified with codex-cli 0.137.0)",
+      "Nothing is sent until you explicitly type y at the confirmation prompt. Before the prompt, the CLI shows (1) the public URL the comment will land on, (2) that it posts via the gh CLI using…",
+      "Or run agent-deck feedback from the CLI (rating 1-5)",
+      "Budget limits — configurable daily/weekly/monthly/per-group/per-session limits with 80% warning and 100% hard stop (untested)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:16+00:00",
+  "fetched_at": "2026-10-07T16:31:18+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

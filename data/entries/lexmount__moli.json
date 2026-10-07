@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "full_name": "lexmount/moli",
+  "name": "moli",
+  "owner": "lexmount",
+  "url": "https://github.com/lexmount/moli",
+  "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
+  "homepage": "https://browser.lexmount.com",
+  "stars": 11975,
+  "forks": 323,
+  "open_issues": 239,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "ai-tools",
+    "browser",
+    "browser-automation",
+    "cloud-browser",
+    "kitesurf",
+    "playwright",
+    "puppeteer",
+    "rust",
+    "servo",
+    "web-crawler",
+    "web-crawling",
+    "web-scraper",
+    "web-scraping"
+  ],
+  "created_at": "2026-08-10T13:20:30Z",
+  "updated_at": "2026-10-07T13:34:19Z",
+  "pushed_at": "2026-10-07T13:27:22Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 58,
+  "days_since_push": 0,
+  "health_score": 87,
+  "health_components": {
+    "popularity": 81.6,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 50.0,
+    "accessibility": 100.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 11975,
+    "days_span": 58,
+    "stars_per_day": 206.47,
+    "lifetime_stars_per_day": 206.47,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "lexmount/moli",
+    "readme_chars": 16358,
+    "capabilities": [
+      "mcp-support"
+    ],
+    "capability_evidence": {
+      "mcp-support": "dpoint serves all three protocols: CDP, WebDriver Classic, and"
+    },
+    "capability_hits": {
+      "mcp-support": 1
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 6,
+      "out_of_the_box": true,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "PowerShell irm | iex installer",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via PowerShell irm | iex installer, native installer / package; configure sign-in required; GUI application",
+      "note_zh": "开箱即用。可通过 PowerShell irm | iex installer、native installer / package 安装；需配置 sign-in required；GUI application"
+    },
+    "doc_score": 50,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "mentions licensing",
+      "has a Chinese translation",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "media=\"(prefers-color-scheme: dark)\" srcset=\"assets/moli-browser-banner-dark.jpg\" media=\"(prefers-color-scheme: light)\" srcset=\"assets/moli-browser-banner.jpg\" src=\"assets/moli-browser-banner.jpg\" alt=\"Moli Browser — Structure first.",
+    "summary_zh": "",
+    "install_hint": "curl --proto '=https' --tlsv1.2 -fsSL \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.122
+    },
+    "highlights": [
+      "Extraction-optimized outputs — the CLI directly produces HTML, Markdown,",
+      "Unified automation binary — CDP, WebDriver Classic, and WebDriver BiDi",
+      "Complete web runtime — streaming HTML parsing, native DOM, V8 JavaScript,",
+      "Real visual capabilities on demand — add --layout to enable complete box"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

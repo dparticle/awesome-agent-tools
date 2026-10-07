@@ -6,12 +6,6 @@
   "url": "https://github.com/LeoYeAI/talewell",
   "description": "Plugin-first long-term memory for agent platforms — reference implementation of AMP (Agent Memory Protocol).",
   "homepage": "https://myclaw.ai",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 547,
   "forks": 27,
   "open_issues": 0,
@@ -33,7 +27,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 193,
-  "days_since_push": 5,
+  "days_since_push": 6,
   "health_score": 52,
   "health_components": {
     "popularity": 54.8,
@@ -116,71 +110,30 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.122
-    }
+    },
+    "highlights": [
+      "Corrections that stick. Superseding a record retires the old value from recall and from prompt injection, while git keeps the history.",
+      "Deterministic recall. Relevance × recency decay × importance, computed locally. No model call, no network, no API key required to search your own memory.",
+      "A link graph in plain files. Records reference each other with [[id]]; stable IDs and aliases make the corpus both navigable and greppable.",
+      "Prompt injection built in. On OpenClaw, a companion plugin injects a compact index before every turn, so the agent starts already knowing what it knows."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "desktop-ui",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
-    "supersede": {
-      "incumbent": "leoyeai/talewell",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
-      "incumbent_name": "LeoYeAI/talewell",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
-      "kind": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "skills-plugins"
-      ],
-      "star_ratio": 8.576,
-      "momentum_ratio": 8.413,
-      "setup_delta": 1,
-      "dominance": 0.995,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "8.58x the stars (4,691 vs 547)",
-        "8.41x the star velocity (23.8/day vs 2.8/day)",
-        "slightly heavier setup (+1 friction, within tolerance)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 66,
-        "incumbent_setup_score": 23,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

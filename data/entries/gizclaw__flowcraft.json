@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "full_name": "GizClaw/flowcraft",
+  "name": "flowcraft",
+  "owner": "GizClaw",
+  "url": "https://github.com/GizClaw/flowcraft",
+  "description": "Production-grade Go SDK for building AI agents with long-term memory, knowledge retrieval, and voice — runnable as a library, a daemon, or a real-time pipeline.",
+  "homepage": "https://gizclaw.github.io/flowcraft/",
+  "stars": 416,
+  "forks": 11,
+  "open_issues": 7,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "agent-framework",
+    "agent-runtime",
+    "agents",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "go",
+    "golang",
+    "llm",
+    "llm-orchestration",
+    "memory",
+    "multi-agent",
+    "openai",
+    "rag",
+    "voice-agent"
+  ],
+  "created_at": "2026-04-14T07:49:44Z",
+  "updated_at": "2026-10-07T04:42:19Z",
+  "pushed_at": "2026-10-07T04:42:15Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 176,
+  "days_since_push": 0,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 52.4,
+    "momentum": 2.0,
+    "maintenance": 100.0,
+    "documentation": 66.0,
+    "accessibility": 72.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 416,
+    "days_span": 176,
+    "stars_per_day": 2.36,
+    "lifetime_stars_per_day": 2.36,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "GizClaw/flowcraft",
+    "readme_chars": 14462,
+    "capabilities": [
+      "memory-context",
+      "skills-plugins",
+      "mcp-support"
+    ],
+    "capability_evidence": {
+      "memory-context": "",
+      "skills-plugins": "kends live in core/sandbox) Versioned Go modules",
+      "mcp-support": ""
+    },
+    "capability_hits": {
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "mcp-support": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 28,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Easy. install via npx one-liner, native installer / package; needs git clone (build from source); configure database dependency, database migration",
+      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)；需配置 database dependency、database migration"
+    },
+    "doc_score": 66,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Codex",
+      "Droid"
+    ],
+    "summary_en": "A modular Go toolkit for extensible AI applications, long-term memory, provider backends, and local interactive workflows.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.484
+    },
+    "highlights": [
+      "Delegation — core/delegation: backend-neutral",
+      "Subject-routed event bus — every step emits structured envelopes.",
+      "backends/* — Platform-specific implementations: SQLite checkpoints"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -4,7 +4,7 @@
 
 > An MCP server that enables AI assistants like Claude to interact with Odoo ERP systems.
 
-[Repository](https://github.com/ivnvxd/mcp-server-odoo) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/ivnvxd/mcp-server-odoo) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

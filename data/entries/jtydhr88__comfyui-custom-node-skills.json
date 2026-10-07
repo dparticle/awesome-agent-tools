@@ -6,12 +6,6 @@
   "url": "https://github.com/jtydhr88/comfyui-custom-node-skills",
   "description": "A curated collection of [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code/skills) for developing ComfyUI custom nodes. These skills give Claude comprehensive knowledge of the ComfyUI node system, covering both the V3 (recommended) and V1 (legacy) APIs.",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 13.0,
   "stars": 294,
   "forks": 28,
   "open_issues": 1,
@@ -24,7 +18,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 215,
+  "age_days": 216,
   "days_since_push": 72,
   "health_score": 41,
   "health_components": {
@@ -37,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 294,
-    "days_span": 215,
-    "stars_per_day": 1.37,
-    "lifetime_stars_per_day": 1.37,
+    "days_span": 216,
+    "stars_per_day": 1.36,
+    "lifetime_stars_per_day": 1.36,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -106,25 +100,38 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 1.078
-    }
+    },
+    "highlights": [
+      "V3 API First — All examples use the modern V3 API (io.ComfyNode, io.Schema, io.NodeOutput)",
+      "Multi-agent — Same SKILL.md files work in Claude Code and Codex (open agentskills.io standard)",
+      "Frontend Extensions — Full JavaScript extension system with 15+ lifecycle hooks",
+      "Source-Verified — Cross-referenced against actual ComfyUI backend and frontend source code"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "fetched_at": "2026-10-07T16:31:27+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 NanmiCoder/cc-haha 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "NanmiCoder/cc-haha",
+    "note_en": "Superseded by FrancyJGLisboa/agent-skills-platform: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 FrancyJGLisboa/agent-skills-platform 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "FrancyJGLisboa/agent-skills-platform",
+    "challenger": "",
     "supersede": {
       "incumbent": "jtydhr88/comfyui-custom-node-skills",
-      "challenger": "nanmicoder/cc-haha",
+      "challenger": "francyjglisboa/agent-skills-platform",
       "incumbent_name": "jtydhr88/comfyui-custom-node-skills",
-      "challenger_name": "NanmiCoder/cc-haha",
-      "kind": "auto",
+      "challenger_name": "FrancyJGLisboa/agent-skills-platform",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [
@@ -133,15 +140,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 50.653,
-      "momentum_ratio": 57.511,
-      "setup_delta": -21,
+      "star_ratio": 8.173,
+      "momentum_ratio": 4.993,
+      "setup_delta": -35,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "50.65x the stars (14,892 vs 294)",
-        "57.51x the star velocity (78.8/day vs 1.4/day)",
-        "no harder to set up (29 vs 50 friction)"
+        "8.17x the stars (2,403 vs 294)",
+        "4.99x the star velocity (6.8/day vs 1.4/day)",
+        "no harder to set up (15 vs 50 friction)"
       ],
       "evidence": {
         "incumbent_capabilities": [
@@ -151,26 +158,17 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "auto-failover",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "multi-agent-orchestration",
-          "quota-management",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "usage-analytics",
-          "worktree-isolation"
+          "skills-plugins"
         ],
         "incumbent_health": 41,
-        "challenger_health": 78,
+        "challenger_health": 56,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 29
+        "challenger_setup_score": 15
       }
     }
   }

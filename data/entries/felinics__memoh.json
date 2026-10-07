@@ -6,12 +6,6 @@
   "url": "https://github.com/felinics/Memoh",
   "description": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory.  You can bring your own key, or host your coding agent like Claude Code, Codex and so on.",
   "homepage": "https://memoh.ai",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 16.0,
   "stars": 2649,
   "forks": 252,
   "open_issues": 84,
@@ -136,18 +130,29 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 2.408
-    }
+    },
+    "highlights": [
+      "UI — A Vue 3 design system for AI agent management interfaces, including a component library, design tokens, and skills that teach agents how to use them.",
+      "Twilight AI — A lightweight, idiomatic AI SDK for Go, inspired by Vercel AI SDK. Provider-agnostic (OpenAI, Anthropic, Google), with first-class streaming, tool calling, MCP, and embeddings."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "mcp-failover",
+    "skills",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

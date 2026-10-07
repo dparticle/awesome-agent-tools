@@ -6,14 +6,6 @@
   "url": "https://github.com/rohitg00/pro-workflow",
   "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
   "homepage": "https://rohitg00.github.io/pro-workflow/infographic.html",
-  "category": "orchestration",
-  "also_in": [
-    "memory-context"
-  ],
-  "matched_capabilities": [
-    "multi-agent-orchestration"
-  ],
-  "category_score": 10.0,
   "stars": 2907,
   "forks": 295,
   "open_issues": 31,
@@ -174,18 +166,28 @@
         "self-describes as a maintained list"
       ],
       "external_link_ratio": 0.557
-    }
+    },
+    "highlights": [
+      "playwright &mdash; browser automation (most token-efficient)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

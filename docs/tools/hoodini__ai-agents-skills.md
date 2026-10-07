@@ -4,7 +4,7 @@
 
 > curl -sSL https://raw.githubusercontent.com/hoodini/ai-agents-skills/master/install.sh | bash
 
-[Repository](https://github.com/hoodini/ai-agents-skills) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/hoodini/ai-agents-skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 282 |
-| Star velocity | 1.0/day (lifetime basis, 272d span) |
+| Star velocity | 1.0/day (lifetime basis, 273d span) |
 | Health score | 48/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |

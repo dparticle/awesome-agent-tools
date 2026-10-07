@@ -4,7 +4,7 @@
 
 > Bring your AI conversations, project files, terminals, and live previews together.
 
-[Repository](https://github.com/kerim0x1/bettercode) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/kerim0x1/bettercode) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 57/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-09-20 |
 | Last push | 2026-10-05 (2 days ago) |
 | Analyzed README | 12,627 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).
 
 ## What it solves
 

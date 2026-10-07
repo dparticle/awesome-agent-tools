@@ -6,12 +6,6 @@
   "url": "https://github.com/chandra447/pi-hermes-memory",
   "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
   "homepage": "",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 14.0,
   "stars": 473,
   "forks": 123,
   "open_issues": 31,
@@ -124,18 +118,29 @@
         "has an index/catalogue section"
       ],
       "external_link_ratio": 0.069
-    }
+    },
+    "highlights": [
+      "session-start.persistence-sync and session-start.load",
+      "Search guidance: The memory policy tells the agent when to search failures instead of injecting them by default",
+      "🛡️ Secret scanning — API keys and tokens are blocked from being saved",
+      "OR every 15 tool calls — catches complex tasks that involve many reads/edits/bash calls"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

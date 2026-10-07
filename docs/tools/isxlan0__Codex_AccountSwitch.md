@@ -4,7 +4,7 @@
 
 > Built with C++ / Win32 / WebView2 for stability and speed.
 
-[Repository](https://github.com/isxlan0/Codex_AccountSwitch) · [Back to index](../../README.md) · Category: **quota-account-ops**
+[Repository](https://github.com/isxlan0/Codex_AccountSwitch) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

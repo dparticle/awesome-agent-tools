@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "full_name": "tigerless-labs/cost-xray",
+  "name": "cost-xray",
+  "owner": "tigerless-labs",
+  "url": "https://github.com/tigerless-labs/cost-xray",
+  "description": "See what Claude Code and Codex actually send to the API — and what each part costs.",
+  "homepage": "",
+  "stars": 3833,
+  "forks": 315,
+  "open_issues": 11,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "claude-code",
+    "codex-cli",
+    "cost-tracking",
+    "observability",
+    "prompt-caching",
+    "proxy",
+    "token-counting"
+  ],
+  "created_at": "2026-06-06T04:30:36Z",
+  "updated_at": "2026-10-07T09:41:58Z",
+  "pushed_at": "2026-09-29T19:03:47Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 123,
+  "days_since_push": 7,
+  "health_score": 65,
+  "health_components": {
+    "popularity": 71.7,
+    "momentum": 26.0,
+    "maintenance": 100.0,
+    "documentation": 48.0,
+    "accessibility": 88.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3833,
+    "days_span": 123,
+    "stars_per_day": 31.16,
+    "lifetime_stars_per_day": 31.16,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "tigerless-labs/cost-xray",
+    "readme_chars": 11643,
+    "capabilities": [
+      "remote-control",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "l and run claude / codex exactly as before — capture is automatic, no flags and no base-URL change.",
+      "agent-runtime": "ent · project · session, with token and dollar totals",
+      "mcp-support": "but why it cost that much.",
+      "gui-desktop": "ound service (auto-start on boot, self-healing, port-adaptive) and doesn't change what your agent does, its results, or its cost — pause anytime with cx stop.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "remote-control": 2,
+      "agent-runtime": 2,
+      "mcp-support": 7,
+      "gui-desktop": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 12,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "server/reverse-proxy setup",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via curl | sh installer, native installer / package; configure server/reverse-proxy setup, process manager; GUI application",
+      "note_zh": "开箱即用。可通过 curl | sh installer、native installer / package 安装；需配置 server/reverse-proxy setup、process manager；GUI application"
+    },
+    "doc_score": 48,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "Most usage tools read local logs.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/tigerless-labs/cost-xray/master/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.859
+    },
+    "highlights": [
+      "Local & private. The proxy binds to 127.0.0.1 and sends no telemetry. Authorization, API keys, cookies, and secret-looking body fields are redacted before anything hits disk. Everything sta…",
+      "Capture. Claude Code uses reverse-proxy mode via a base-URL override — no certificate. Codex (locked HTTPS endpoint) uses a forward proxy plus a scoped local CA, trusted only by the codex c…"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "tigerless-labs/cost-xray",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "tigerless-labs/cost-xray",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "remote-control"
+      ],
+      "star_ratio": 8.701,
+      "momentum_ratio": 2.513,
+      "setup_delta": -10,
+      "dominance": 0.914,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "8.70x the stars (33,351 vs 3,833)",
+        "2.51x the star velocity (78.3/day vs 31.2/day)",
+        "no harder to set up (2 vs 12 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "remote-control"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 65,
+        "challenger_health": 81,
+        "incumbent_setup_score": 12,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

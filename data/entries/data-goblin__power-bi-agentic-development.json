@@ -6,12 +6,6 @@
   "url": "https://github.com/data-goblin/power-bi-agentic-development",
   "description": "Power BI AI skills and Power BI agents for Claude Code and GitHub Copilot: a plugin marketplace of Power BI skills, subagents, and hooks for semantic models, DAX, TMDL, reports, and AI dashboards. Includes Microsoft Fabric skills and Fabric agents. Weekly updates.",
   "homepage": "https://data-goblins.com",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 17.0,
   "stars": 1028,
   "forks": 148,
   "open_issues": 0,
@@ -141,18 +135,30 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.7
-    }
+    },
+    "highlights": [
+      "If it still fails, delete the plugin by hand: remove its folder under %USERPROFILE%\\.copilot\\installed-plugins\\ (or %COPILOT_HOME%\\installed-plugins\\) and restart Copilot CLI.",
+      "Mods add a pane to Claude Code itself; see Claude Code mods.",
+      "Skills load identically; Copilot CLI reads skills/ /SKILL.md.",
+      "Agents use the *.agent.md extension required by Copilot CLI's documented convention. Claude Code matches any *.md file in agents/, so the dual extension works in both tools."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:16+00:00",
+  "fetched_at": "2026-10-07T16:31:18+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

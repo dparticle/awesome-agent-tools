@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "full_name": "yc-software/qm",
+  "name": "qm",
+  "owner": "yc-software",
+  "url": "https://github.com/yc-software/qm",
+  "description": "Multiplayer agent harness for work.",
+  "homepage": "https://x.com/qm__dev",
+  "stars": 15359,
+  "forks": 1904,
+  "open_issues": 851,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "assistant",
+    "harness",
+    "qm"
+  ],
+  "created_at": "2026-07-29T20:03:08Z",
+  "updated_at": "2026-10-07T10:59:18Z",
+  "pushed_at": "2026-10-06T21:57:06Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 69,
+  "days_since_push": 0,
+  "health_score": 79,
+  "health_components": {
+    "popularity": 83.7,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 49.0,
+    "accessibility": 28.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 15359,
+    "days_span": 69,
+    "stars_per_day": 222.59,
+    "lifetime_stars_per_day": 222.59,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "yc-software/qm",
+    "readme_chars": 12626,
+    "capabilities": [
+      "worktree-isolation",
+      "model-routing",
+      "session-persistence",
+      "skills-plugins",
+      "agent-runtime",
+      "security-isolation",
+      "team-collaboration",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "worktree-isolation": "",
+      "model-routing": "- Work in an existing repository: run tests, open PRs, monitor CI, check system logs",
+      "session-persistence": "",
+      "skills-plugins": "",
+      "agent-runtime": "store, sandbox, memory) sits behind an interface.",
+      "security-isolation": "observe, or enforce, with securityScreen.classifier choosing the built-in",
+      "team-collaboration": "e designed like personal assistants.",
+      "gui-desktop": "is an optional in-process plugin that core starts",
+      "notifications": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "session-persistence": 1,
+      "skills-plugins": 2,
+      "agent-runtime": 2,
+      "security-isolation": 1,
+      "team-collaboration": 1,
+      "gui-desktop": 3,
+      "notifications": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "high",
+      "score": 72,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source), npm install/build; configure database dependency, database migration",
+      "note_zh": "配置较重。需要 git clone (build from source)、npm install/build；需配置 database dependency、database migration"
+    },
+    "doc_score": 49,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "A multiplayer agent harness for work.",
+    "summary_zh": "",
+    "install_hint": "npm install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.396
+    },
+    "highlights": [
+      "Shared skills. Skills are scope-owned and shareable by grant, with admin-gated",
+      "Background work. Crons, watches, and inbound webhooks work while you're away.",
+      "Admin control. Set org-level configuration, security and sharing postures. Choose which",
+      "Personal and shared scopes. People customize the agent to be theirs, and still"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing",
+    "teams"
+  ],
+  "primary_category": "teams",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

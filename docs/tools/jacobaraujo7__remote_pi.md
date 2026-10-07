@@ -4,7 +4,7 @@
 
 > Control your Pi coding agent from your phone.
 
-[Repository](https://github.com/jacobaraujo7/remote_pi) · [Back to index](../../README.md) · Category: **remote-control**
+[Repository](https://github.com/jacobaraujo7/remote_pi) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Dart |
 | Created | 2026-05-22 |
-| Last push | 2026-10-06 (0 days ago) |
+| Last push | 2026-10-06 (1 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).
 
 ## What it solves
 

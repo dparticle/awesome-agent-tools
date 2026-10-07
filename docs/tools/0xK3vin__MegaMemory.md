@@ -4,7 +4,7 @@
 
 > An MCP server that lets your coding agent build and query a graph of concepts, architecture, and decisions — so it remembers across sessions.
 
-[Repository](https://github.com/0xK3vin/MegaMemory) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/0xK3vin/MegaMemory) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

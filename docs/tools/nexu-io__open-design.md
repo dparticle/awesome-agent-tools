@@ -4,7 +4,7 @@
 
 > OpenDesign is a collaborative design agent workspace.
 
-[Repository](https://github.com/nexu-io/open-design) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/nexu-io/open-design) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

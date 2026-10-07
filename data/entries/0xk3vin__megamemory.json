@@ -6,12 +6,6 @@
   "url": "https://github.com/0xK3vin/MegaMemory",
   "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
   "homepage": "",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 16.0,
   "stars": 713,
   "forks": 75,
   "open_issues": 4,
@@ -131,25 +125,35 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.665
-    }
+    },
+    "highlights": [
+      "Merge — Two-way merge with conflict detection by concept ID, with AI-assisted conflict resolution via MCP tools.",
+      "If port 4321 is taken, you'll be prompted to pick another"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by Gentleman-Programming/engram: covers 100% of capabilities (5/5).",
     "note_zh": "已被 Gentleman-Programming/engram 取代：covers 100% of capabilities (5/5)。",
     "superseded_by": "Gentleman-Programming/engram",
+    "challenger": "",
     "supersede": {
       "incumbent": "0xk3vin/megamemory",
       "challenger": "gentleman-programming/engram",
       "incumbent_name": "0xK3vin/MegaMemory",
       "challenger_name": "Gentleman-Programming/engram",
-      "kind": "auto",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [

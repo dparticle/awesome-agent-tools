@@ -6,12 +6,6 @@
   "url": "https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin",
   "description": "Official MemOS Cloud plugin for OpenClaw. Enables long-term memory for agents by recalling context before execution and saving conversations after each run.",
   "homepage": "",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 10.0,
   "stars": 367,
   "forks": 56,
   "open_issues": 16,
@@ -111,72 +105,28 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.069
-    }
+    },
+    "highlights": [
+      "Config UI: starting the gateway also starts a local plugin config page for editing plugins.entries.memos-cloud-openclaw-plugin.config",
+      "Uses Token auth (Authorization: Token )",
+      "Recall: beforepromptbuild (beforeagentstart on older OpenClaw hosts) → /search/memory"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "categories": [
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "supersede": {
-      "incumbent": "memtensor/memos-cloud-openclaw-plugin",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "MemTensor/MemOS-Cloud-OpenClaw-Plugin",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration"
-      ],
-      "star_ratio": 79.575,
-      "momentum_ratio": 87.503,
-      "setup_delta": -2,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "79.57x the stars (29,204 vs 367)",
-        "87.50x the star velocity (130.4/day vs 1.5/day)",
-        "no harder to set up (32 vs 34 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 88,
-        "incumbent_setup_score": 34,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

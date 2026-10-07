@@ -4,7 +4,7 @@
 
 > One proxy.
 
-[Repository](https://github.com/Mirrowel/LLM-API-Key-Proxy) · [Back to index](../../README.md) · Category: **model-routing**
+[Repository](https://github.com/Mirrowel/LLM-API-Key-Proxy) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

@@ -6,13 +6,6 @@
   "url": "https://github.com/huytieu/COG-second-brain",
   "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
   "homepage": "",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "cross-agent-support",
-    "skills-plugins"
-  ],
-  "category_score": 21.0,
   "stars": 1261,
   "forks": 151,
   "open_issues": 11,
@@ -47,7 +40,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 357,
-  "days_since_push": 4,
+  "days_since_push": 5,
   "health_score": 58,
   "health_components": {
     "popularity": 62.0,
@@ -156,18 +149,94 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 1.236
-    }
+    },
+    "highlights": [
+      "Tier 2 (Moderate) — 3+ mentions: executive snapshot, working style, strengths",
+      "Tier 3 (Stub) — 1 mention: name, role, one-line context",
+      "Tier 1 (Full) — 8+ mentions or direct meeting: complete profile with all sections"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:13+00:00",
+  "fetched_at": "2026-10-07T16:31:15+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "huytieu/cog-second-brain",
+      "challenger": "tencentcloud/octop",
+      "incumbent_name": "huytieu/COG-second-brain",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "skills-plugins",
+        "team-collaboration"
+      ],
+      "star_ratio": 6.049,
+      "momentum_ratio": 23.745,
+      "setup_delta": -5,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "6.05x the stars (7,628 vs 1,261)",
+        "23.75x the star velocity (83.8/day vs 3.5/day)",
+        "no harder to set up (26 vs 31 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 58,
+        "challenger_health": 80,
+        "incumbent_setup_score": 31,
+        "challenger_setup_score": 26
+      }
+    }
   }
 }

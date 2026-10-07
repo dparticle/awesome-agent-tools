@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "full_name": "totec448-spec/chat-on-steroids",
+  "name": "chat-on-steroids",
+  "owner": "totec448-spec",
+  "url": "https://github.com/totec448-spec/chat-on-steroids",
+  "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
+  "homepage": "",
+  "stars": 4246,
+  "forks": 566,
+  "open_issues": 23,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "automation",
+    "chatgpt",
+    "chrome-extension",
+    "electron",
+    "linux",
+    "local-first",
+    "macos",
+    "mcp",
+    "multi-agent",
+    "windows"
+  ],
+  "created_at": "2026-08-22T14:16:24Z",
+  "updated_at": "2026-10-07T12:14:35Z",
+  "pushed_at": "2026-10-07T03:53:47Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 46,
+  "days_since_push": 0,
+  "health_score": 75,
+  "health_components": {
+    "popularity": 72.6,
+    "momentum": 76.9,
+    "maintenance": 100.0,
+    "documentation": 33.0,
+    "accessibility": 90.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 4246,
+    "days_span": 46,
+    "stars_per_day": 92.3,
+    "lifetime_stars_per_day": 92.3,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "totec448-spec/chat-on-steroids",
+    "readme_chars": 7904,
+    "capabilities": [
+      "auto-failover",
+      "mcp-support",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "auto-failover": "r, chats and the browser connection wait, and the app says so.",
+      "mcp-support": "n that the provider blocked for safety.",
+      "gui-desktop": ""
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "mcp-support": 4,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via native installer / package; configure sign-in required",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 sign-in required"
+    },
+    "doc_score": 33,
+    "doc_signals": [
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "Work on the real project.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.633
+    },
+    "highlights": [
+      "Respect limits and access decisions. Workers, Goal/Loop, Compact & Resume and finish checkpoints organize work; they do not grant extra quota or model access and must not be used to evade r…",
+      "Unsigned beta: Windows is not publisher-signed; macOS is unsigned and unnotarized. Verify the package against the release checksums. Because of that, macOS asks once after each update for y…"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

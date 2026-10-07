@@ -4,7 +4,7 @@
 
 > request into a clear capability, a useful next step, and an honest record of what actually happened — strengthening the workflow you already use, never replacing Hermes or hiding a coding executor behind it.
 
-[Repository](https://github.com/rlaope/oh-my-hermes) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/rlaope/oh-my-hermes) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

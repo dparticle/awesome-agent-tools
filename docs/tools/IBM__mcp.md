@@ -4,7 +4,7 @@
 
 > A collection of Model Context Protocol (MCP) servers, MCP Clients and Developer Tools by IBM.
 
-[Repository](https://github.com/IBM/mcp) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/IBM/mcp) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 47/100 |
 | Documentation | 36/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | n/a |
 | Created | 2025-04-02 |
-| Last push | 2026-10-01 (5 days ago) |
+| Last push | 2026-10-01 (6 days ago) |
 | Analyzed README | 21,729 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [arinspunk/claude-talk-to-figma-mcp](https://github.com/arinspunk/claude-talk-to-figma-mcp)** — Superseded by arinspunk/claude-talk-to-figma-mcp: covers 100% of capabilities (3/3).
 
 ## What it solves
 

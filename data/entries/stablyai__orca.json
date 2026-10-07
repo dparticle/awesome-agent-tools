@@ -6,15 +6,6 @@
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
   "homepage": "https://onOrca.dev",
-  "category": "orchestration",
-  "also_in": [
-    "remote-control"
-  ],
-  "matched_capabilities": [
-    "multi-agent-orchestration",
-    "parallel-execution"
-  ],
-  "category_score": 31.5,
   "stars": 86867,
   "forks": 5578,
   "open_issues": 8032,
@@ -170,18 +161,28 @@
         "list-maintenance framing"
       ],
       "external_link_ratio": 1.874
-    }
+    },
+    "highlights": [
+      "Account switcher & usage tracking — See Claude and Codex usage and rate-limit resets, and hot-swap accounts without re-logging in."
+    ]
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "categories": [
+    "accounts",
+    "isolation-parallelism",
+    "mobile"
+  ],
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

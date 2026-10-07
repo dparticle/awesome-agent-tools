@@ -2,9 +2,9 @@
 
 # OthmanAdi/planning-with-files
 
-> Planning with Files&nbsp;&nbsp;&nbsp;
+> Persistent file-based planning for AI coding agents and long-running tasks.
 
-[Repository](https://github.com/OthmanAdi/planning-with-files) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/OthmanAdi/planning-with-files) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

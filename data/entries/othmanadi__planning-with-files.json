@@ -6,12 +6,6 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
   "homepage": "https://gilded-laurel-c7nj.here.now/",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 14.0,
   "stars": 27318,
   "forks": 2269,
   "open_issues": 6,
@@ -151,7 +145,7 @@
       "Copilot",
       "Droid"
     ],
-    "summary_en": "Planning with Files&nbsp;&nbsp;&nbsp;",
+    "summary_en": "Persistent file-based planning for AI coding agents and long-running tasks.",
     "summary_zh": "",
     "install_hint": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
     "source": "raw:HEAD/README.md",
@@ -160,18 +154,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.368
-    }
+    },
+    "highlights": [
+      "Host capability tiers: hard block on Claude Code, Codex, and Continue; follow-up injection on Cursor, Pi, Kiro, Hermes Agent, and OpenCode; notify-only elsewhere.",
+      "Absolute plan-root pin (PWFPLANROOT, v3.9.0): binds a thread to a project root by absolute path, for agent threads whose cwd is a shared parent of the project they are actually working in.…",
+      "SHA-256 plan attestation (/plan-attest): locks task_plan.md; a tampered plan body is refused at injection.",
+      "Run ledger: an append-only JSONL record of phase transitions that replaces the raw progress.md tail in v3 modes with a fixed-shape summary."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

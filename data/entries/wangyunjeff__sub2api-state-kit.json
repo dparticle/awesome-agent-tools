@@ -6,12 +6,6 @@
   "url": "https://github.com/wangyunjeff/sub2api-state-kit",
   "description": "Sub2API 账号级 STATE 扩展：Pro/Team 选择、固定代理复验与 312 异常动态守护（实验版）",
   "homepage": "",
-  "category": "sharing-gateway",
-  "also_in": [],
-  "matched_capabilities": [
-    "billing-metering"
-  ],
-  "category_score": 11.0,
   "stars": 214,
   "forks": 61,
   "open_issues": 8,
@@ -24,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 18,
+  "age_days": 19,
   "days_since_push": 15,
   "health_score": 48,
   "health_components": {
     "popularity": 46.6,
-    "momentum": 9.9,
+    "momentum": 9.4,
     "maintenance": 92.0,
     "documentation": 51.0,
     "accessibility": 49.0
@@ -37,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 214,
-    "days_span": 18,
-    "stars_per_day": 11.89,
-    "lifetime_stars_per_day": 11.89,
+    "days_span": 19,
+    "stars_per_day": 11.26,
+    "lifetime_stars_per_day": 11.26,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -122,18 +116,29 @@
         "Chinese: directory framing"
       ],
       "external_link_ratio": 0.923
-    }
+    },
+    "highlights": [
+      "特别感谢 gylive/ccodex-sleep-state 带来的生命周期管理与状态展示思路参考。",
+      "业务成功响应触发模型不符或 312 信号时，守护程序作废本次使用的票据并重新采集。旧请求不会作废更新后的票据，并发异常会合并处理。"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:27+00:00",
+  "fetched_at": "2026-10-07T16:31:30+00:00",
+  "categories": [
+    "accounts",
+    "model-routing",
+    "sharing"
+  ],
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

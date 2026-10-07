@@ -6,12 +6,6 @@
   "url": "https://github.com/hkcanan/katmer-code",
   "description": "Multi-provider AI sidebar for Obsidian — Claude, Gemini, Codex, Antigravity. Per-tab routing, same-tab consult, inline diff, CLAUDE.md auto-mirror, academic research skills.",
   "homepage": "",
-  "category": "model-routing",
-  "also_in": [],
-  "matched_capabilities": [
-    "model-routing"
-  ],
-  "category_score": 13.0,
   "stars": 474,
   "forks": 33,
   "open_issues": 2,
@@ -140,18 +134,88 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.384
-    }
+    },
+    "highlights": [
+      "Per-model context tracking — Context strip shows real input tokens against the model's actual window (1M for Gemini 2.5 / 3.x family, 400K for Codex GPT-5.x, 200K-1M for Claude). Catalog-dr…",
+      "Reasoning effort — wired for Claude (SDK effort) and Codex (modelreasoningeffort). Gemini's thinking_level is API-only until the CLI exposes it; effort UI auto-hides where unsupported.",
+      "In-plugin login — If a provider isn't authenticated, click the picker chip and the plugin runs the CLI's login flow itself (Claude / Codex) or opens Terminal with the right command (Gemini…",
+      "Routes per tab to any provider — Claude SDK + Gemini/Codex/Antigravity CLIs behind one ProviderAdapter interface. Each tab keeps its own conversation, provider, and model independently."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "hkcanan/katmer-code",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "hkcanan/katmer-code",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "model-routing",
+        "multi-agent-orchestration",
+        "notifications",
+        "parallel-execution"
+      ],
+      "star_ratio": 579.342,
+      "momentum_ratio": 440.387,
+      "setup_delta": 9,
+      "dominance": 0.955,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "579.34x the stars (274,608 vs 474)",
+        "440.39x the star velocity (1048.1/day vs 2.4/day)",
+        "slightly heavier setup (+9 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 49,
+        "challenger_health": 89,
+        "incumbent_setup_score": 48,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

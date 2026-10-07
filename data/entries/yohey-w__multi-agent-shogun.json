@@ -6,13 +6,6 @@
   "url": "https://github.com/yohey-w/multi-agent-shogun",
   "description": "Samurai-inspired multi-agent system for Claude Code. Orchestrate parallel AI tasks via tmux with shogun → karo → ashigaru hierarchy.",
   "homepage": "",
-  "category": "orchestration",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-agent-orchestration",
-    "parallel-execution"
-  ],
-  "category_score": 24.0,
   "stars": 1423,
   "forks": 292,
   "open_issues": 7,
@@ -57,7 +50,7 @@
   },
   "analysis": {
     "full_name": "yohey-w/multi-agent-shogun",
-    "readme_chars": 84736,
+    "readme_chars": 84185,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -182,19 +175,32 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.26
-    }
+      "external_link_ratio": 0.261
+    },
+    "highlights": [
+      "Sonnet 4.6 as the new standard — SWE-bench 79.6%, only 1.2pp below Opus 4.6. Gunshi downgraded Opus → Sonnet 4.6. All Ashigaru default to Sonnet 4.6. One YAML line change, no restarts requi…",
+      "Agent self-watch + escalation (v3.2) — Each agent monitors its own inbox file with inotifywait (zero-polling, instant wake-up). Fallback: tmux send-keys short nudge (text/Enter sent separat…",
+      "Separate rate limit — Spark runs on its own rate limit quota, independent of GPT-5.3-Codex. Run both models in parallel across different Ashigaru to double your effective throughput",
+      "OpenCode agent generation — scripts/build_instructions.sh generates .opencode/agents/*.md for Shogun, Karo, Ashigaru 1-7, and Gunshi from the same shared instruction source used by other CL…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:13+00:00",
+  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mobile",
+    "skills"
+  ],
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

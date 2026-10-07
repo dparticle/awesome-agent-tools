@@ -4,7 +4,7 @@
 
 > Designed for Claude Code and Cowork.
 
-[Repository](https://github.com/phuryn/pm-skills) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/phuryn/pm-skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

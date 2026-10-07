@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "full_name": "fuxicodex/Fuxi",
+  "name": "Fuxi",
+  "owner": "fuxicodex",
+  "url": "https://github.com/fuxicodex/Fuxi",
+  "description": "FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
+  "homepage": "https://www.fuxicode.com",
+  "stars": 3351,
+  "forks": 227,
+  "open_issues": 0,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "topics": [
+    "agent",
+    "ai",
+    "ai-agent",
+    "ai-coding",
+    "autonomous-agent",
+    "cli",
+    "code-assistant",
+    "coding-agent",
+    "coding-assistant",
+    "developer-tool",
+    "developer-tools",
+    "go",
+    "golang",
+    "llm",
+    "mcp",
+    "openai-compatible",
+    "productivity",
+    "terminal",
+    "terminal-app",
+    "tui"
+  ],
+  "created_at": "2026-08-04T07:32:11Z",
+  "updated_at": "2026-10-06T12:15:39Z",
+  "pushed_at": "2026-09-29T01:25:48Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 64,
+  "days_since_push": 8,
+  "health_score": 67,
+  "health_components": {
+    "popularity": 70.5,
+    "momentum": 43.6,
+    "maintenance": 92.0,
+    "documentation": 63.0,
+    "accessibility": 69.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3351,
+    "days_span": 64,
+    "stars_per_day": 52.36,
+    "lifetime_stars_per_day": 52.36,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "fuxicodex/Fuxi",
+    "readme_chars": 5674,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "model-routing": "ad, set an API key via environment variable or",
+      "agent-runtime": "",
+      "mcp-support": "Full details: Privacy Policy · Security Whitepaper · Terms of Service. ## Documentation Guide What it covers --- --- Usage guide First session, permissions, sessions & memory, tools & MCP, CLI reference, troubleshooting…",
+      "security-isolation": "ands: /model switch models · /help browse all commands ·"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "model-routing": 1,
+      "agent-runtime": 1,
+      "mcp-support": 1,
+      "security-isolation": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 31,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "PowerShell irm | iex installer"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config.json/yaml/toml",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; configure environment variables, API key configuration",
+      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 63,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "FuXi is a fast, self-contained terminal AI coding agent.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://downloads.fuxicode.com/bootstrap.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.705
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "mcp-failover",
+    "model-routing"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "fuxicodex/fuxi",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "fuxicodex/Fuxi",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "mcp-support",
+        "model-routing",
+        "security-isolation"
+      ],
+      "star_ratio": 8.715,
+      "momentum_ratio": 2.49,
+      "setup_delta": 1,
+      "dominance": 0.908,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "8.72x the stars (29,204 vs 3,351)",
+        "2.49x the star velocity (130.4/day vs 52.4/day)",
+        "slightly heavier setup (+1 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "mcp-support",
+          "model-routing",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 67,
+        "challenger_health": 88,
+        "incumbent_setup_score": 31,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

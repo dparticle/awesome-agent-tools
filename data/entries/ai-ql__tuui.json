@@ -6,12 +6,6 @@
   "url": "https://github.com/AI-QL/tuui",
   "description": "A desktop MCP client designed as a tool unitary utility integration, accelerating AI adoption through the Model Context Protocol (MCP) and enabling cross-vendor LLM API orchestration.",
   "homepage": "https://www.tuui.com/",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 11.0,
   "stars": 1155,
   "forks": 107,
   "open_issues": 2,
@@ -45,7 +39,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 553,
+  "age_days": 554,
   "days_since_push": 146,
   "health_score": 47,
   "health_components": {
@@ -58,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1155,
-    "days_span": 553,
-    "stars_per_day": 2.09,
-    "lifetime_stars_per_day": 2.09,
+    "days_span": 554,
+    "stars_per_day": 2.08,
+    "lifetime_stars_per_day": 2.08,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,18 +125,84 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 2.333
-    }
+    },
+    "highlights": [
+      "Windows: The MCP SDK includes a workaround specifically for Windows systems, as documented in ISSUE 101.",
+      "✨ Orchestrate cross-vendor LLM APIs through dynamic configuring",
+      "✨ Global state management through the Pinia store",
+      "✨ Accelerate AI tool integration via MCP"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:14+00:00",
+  "fetched_at": "2026-10-07T16:31:16+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "ai-ql/tuui",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "AI-QL/tuui",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "self-hosted"
+      ],
+      "star_ratio": 25.285,
+      "momentum_ratio": 62.683,
+      "setup_delta": 11,
+      "dominance": 0.945,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "25.28x the stars (29,204 vs 1,155)",
+        "62.68x the star velocity (130.4/day vs 2.1/day)",
+        "slightly heavier setup (+11 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 88,
+        "incumbent_setup_score": 21,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

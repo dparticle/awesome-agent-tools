@@ -6,12 +6,6 @@
   "url": "https://github.com/routatic/proxy",
   "description": "route Claude Code requests through multiple upstream providers (OpenCode Go, OpenCode Zen, and AWS Bedrock) with automatic model selection and format transformation.",
   "homepage": "https://deepwiki.com/routatic/proxy/1-overview",
-  "category": "model-routing",
-  "also_in": [],
-  "matched_capabilities": [
-    "model-routing"
-  ],
-  "category_score": 17.0,
   "stars": 980,
   "forks": 134,
   "open_issues": 12,
@@ -130,18 +124,84 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 1.042
-    }
+    },
+    "highlights": [
+      "Multi-Provider — Route through OpenCode Go, OpenCode Zen, AWS Bedrock, or OpenRouter from a single config",
+      "Anthropic-First Failover — Keep Claude on Anthropic and use OpenCode only during rate limits or outages",
+      "Transparent Proxy — Claude Code sends Anthropic-format requests, proxy transforms to provider-native format and back",
+      "Version format: v{UPCOMING}-beta.{N} (e.g., v0.6.4-beta.1), where {N} is a sequential counter that restarts once that version ships as stable"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:16+00:00",
+  "fetched_at": "2026-10-07T16:31:18+00:00",
+  "categories": [
+    "providers"
+  ],
+  "primary_category": "providers",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by farion1231/cc-switch: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 farion1231/cc-switch 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "farion1231/cc-switch",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "routatic/proxy",
+      "challenger": "farion1231/cc-switch",
+      "incumbent_name": "routatic/proxy",
+      "challenger_name": "farion1231/cc-switch",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "model-routing",
+        "provider-aggregation"
+      ],
+      "star_ratio": 143.556,
+      "momentum_ratio": 57.94,
+      "setup_delta": -10,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "143.56x the stars (140,685 vs 980)",
+        "57.94x the star velocity (327.9/day vs 5.7/day)",
+        "no harder to set up (23 vs 33 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "model-routing",
+          "provider-aggregation"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-account-switching",
+          "parallel-execution",
+          "provider-aggregation",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 56,
+        "challenger_health": 93,
+        "incumbent_setup_score": 33,
+        "challenger_setup_score": 23
+      }
+    }
   }
 }

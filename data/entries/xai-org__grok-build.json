@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "full_name": "xai-org/grok-build",
+  "name": "grok-build",
+  "owner": "xai-org",
+  "url": "https://github.com/xai-org/grok-build",
+  "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+  "homepage": "",
+  "stars": 27250,
+  "forks": 5123,
+  "open_issues": 0,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [],
+  "created_at": "2026-07-14T20:04:23Z",
+  "updated_at": "2026-10-07T13:01:17Z",
+  "pushed_at": "2026-09-29T16:57:13Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 84,
+  "days_since_push": 7,
+  "health_score": 90,
+  "health_components": {
+    "popularity": 88.7,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 60.0,
+    "accessibility": 93.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 27250,
+    "days_span": 84,
+    "stars_per_day": 324.4,
+    "lifetime_stars_per_day": 324.4,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "xai-org/grok-build",
+    "readme_chars": 5724,
+    "capabilities": [
+      "auto-failover",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "agent-runtime": "",
+      "mcp-support": "ementations (terminal, file edit, search, ...)",
+      "cross-agent-support": "Mentions Codex, OpenCode"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "agent-runtime": 1,
+      "mcp-support": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 7,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "cargo install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer"
+      ],
+      "hard_signals": [
+        "cargo build"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via cargo install, curl | sh installer; needs cargo build",
+      "note_zh": "开箱即用。可通过 cargo install、curl | sh installer 安装；需要 cargo build"
+    },
+    "doc_score": 60,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes"
+    ],
+    "agents": [
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "SpaceXAI's coding agent harness and TUI.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://x.ai/cli/install.sh | bash   # macOS / Linux / Git Bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.874
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

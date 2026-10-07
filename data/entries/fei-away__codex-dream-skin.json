@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "full_name": "Fei-Away/Codex-Dream-Skin",
+  "name": "Codex-Dream-Skin",
+  "owner": "Fei-Away",
+  "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
+  "description": "Codex Dream Skin",
+  "homepage": "https://www.dreamskin.cc",
+  "stars": 14925,
+  "forks": 1368,
+  "open_issues": 53,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-07-15T12:34:51Z",
+  "updated_at": "2026-10-07T11:20:03Z",
+  "pushed_at": "2026-10-05T02:28:24Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 84,
+  "days_since_push": 2,
+  "health_score": 85,
+  "health_components": {
+    "popularity": 83.5,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 35.0,
+    "accessibility": 100.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 14925,
+    "days_span": 84,
+    "stars_per_day": 177.68,
+    "lifetime_stars_per_day": 177.68,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Fei-Away/Codex-Dream-Skin",
+    "readme_chars": 14311,
+    "capabilities": [
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "gui-desktop": ""
+    },
+    "capability_hits": {
+      "gui-desktop": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 2,
+      "out_of_the_box": true,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via native installer / package; one-click setup",
+      "note_zh": "开箱即用。可通过 native installer / package 安装；one-click setup"
+    },
+    "doc_score": 35,
+    "doc_signals": [
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "One image, one mood.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.048
+    },
+    "highlights": [
+      "CDP binds 127.0.0.1 only, but it has no authentication; another process on the same computer may still connect and inspect or control the renderer.",
+      "Mac: macos/README.md · Windows: windows/README.md · Windows EN",
+      "Copy-ready background prompt guide: docs/reference-background-prompt-guide.en.md · eight concept breakdowns: docs/background-generation-prompts.md",
+      "Windows: %LOCALAPPDATA%\\CodexDreamSkin\\themes\\"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

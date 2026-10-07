@@ -6,12 +6,6 @@
   "url": "https://github.com/farion1231/cc-switch",
   "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
   "homepage": "https://ccswitch.io",
-  "category": "quota-account-ops",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-account-switching"
-  ],
-  "category_score": 21.0,
   "stars": 140685,
   "forks": 9442,
   "open_issues": 2924,
@@ -45,7 +39,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 428,
+  "age_days": 429,
   "days_since_push": 0,
   "health_score": 93,
   "health_components": {
@@ -58,15 +52,15 @@
   "tier": "flagship",
   "momentum": {
     "stars_gained": 140685,
-    "days_span": 428,
-    "stars_per_day": 328.7,
-    "lifetime_stars_per_day": 328.7,
+    "days_span": 429,
+    "stars_per_day": 327.94,
+    "lifetime_stars_per_day": 327.94,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "farion1231/cc-switch",
-    "readme_chars": 66158,
+    "readme_chars": 35754,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -78,45 +72,39 @@
       "usage-analytics",
       "session-persistence",
       "skills-plugins",
-      "agent-runtime",
       "mcp-support",
-      "team-collaboration",
       "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "multi-account-switching": "For Codex, you can also sign in to multiple ChatGPT accounts inside CC Switch via \"Sign in with ChatGPT\" and choose an \"Account to use\" for each OpenAI Official card, so switching between multiple Plus, Pro, or Team acc…",
-      "auto-failover": "protocols, so Claude Code, Codex, Cursor and your existing SDKs work by simply changing the Base URL.",
-      "parallel-execution": "At the same time, ZetaAPI provides enterprise-grade SLA-backed stability, standard API compatibility, one API key for multiple models, fast integration, and pay-as-you-go billing, making it suitable for AI products,",
+      "auto-failover": "ools and Claude Desktop, so nothing you had configured is lost.",
+      "parallel-execution": "",
       "model-routing": "- **Third-party providers for Claude Desktop** — Connect directly to Anthropic-compatible endpoints; for non-Claude models, choose \"Model Mapping\" to map tiers like Sonnet, Opus, and Haiku to the provider's actual model…",
       "provider-aggregation": "",
-      "api-gateway": "credits (valid for 7 days), and earn up to 20% in referral rewards — invite more, earn more!",
-      "billing-metering": ". CC Switch makes it easy to configure and switch to Kimi across agentic tools.",
-      "usage-analytics": "cache hit rates that dramatically reduce token costs for long-running agent workflows.",
+      "api-gateway": "config file is written back to this direct provider's configuration.",
+      "billing-metering": "ch turn did, which files changed, and which step failed, all at a glance",
+      "usage-analytics": "can also be enabled or disabled all at once per tool; providers, MCP servers, and prompts are edited full-page in the content area, and you're warned before leaving with unsaved changes",
       "session-persistence": "er at the top → \"New project\" to save the current configuration; later, pick it from the switcher to switch the whole setup at once",
       "skills-plugins": "or upgrade all in one click, and diagnose duplicate installations; on Windows it can also manage tools inside WSL (see FAQ)",
-      "agent-runtime": ", ZetaAPI provides enterprise-grade SLA-backed stability, standard API compatibility, one API key for multiple models, fast integration, and pay-as-you-go billing, making it suitable for AI products, coding agents, inte…",
       "mcp-support": "** brings all of this into a single desktop app: pick a preset, enter your key, and switch in one click.",
-      "team-collaboration": "up to 5,000 QPM, and industry-leading cache hit rates that dramatically reduce token costs for long-running agent workflows.",
       "gui-desktop": "e latest CC-Switch-v{version}-Windows.msi installer or CC-Switch-v{version}-Windows-Portable.zip portable version from the Releases page.",
-      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Gemini CLI"
     },
     "capability_hits": {
       "multi-account-switching": 1,
-      "auto-failover": 8,
-      "parallel-execution": 2,
+      "auto-failover": 6,
+      "parallel-execution": 1,
       "model-routing": 6,
       "provider-aggregation": 1,
       "api-gateway": 1,
-      "billing-metering": 20,
-      "usage-analytics": 3,
+      "billing-metering": 2,
+      "usage-analytics": 2,
       "session-persistence": 2,
       "skills-plugins": 1,
-      "agent-runtime": 1,
       "mcp-support": 20,
-      "team-collaboration": 1,
       "gui-desktop": 10,
-      "cross-agent-support": 7
+      "cross-agent-support": 5
     },
     "friction": {
       "level": "low",
@@ -130,12 +118,10 @@
       "hard_signals": [],
       "config_signals": [
         "environment variables",
-        "API key configuration",
         "config file",
         "OAuth login flow",
         "sign-in required",
         "database dependency",
-        "database migration",
         "server/reverse-proxy setup"
       ],
       "friendliness_signals": [
@@ -148,8 +134,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via Homebrew install, native installer / package; configure environment variables, API key configuration; one-click setup",
-      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需配置 environment variables、API key configuration；one-click setup"
+      "note_en": "Easy. install via Homebrew install, native installer / package; configure environment variables, config file; one-click setup",
+      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需配置 environment variables、config file；one-click setup"
     },
     "doc_score": 73,
     "doc_signals": [
@@ -171,10 +157,7 @@
       "Codex",
       "Gemini CLI",
       "OpenCode",
-      "Cursor",
-      "Copilot",
-      "Cline / Roo",
-      "Droid"
+      "Copilot"
     ],
     "summary_en": "Switch API providers in one click and manage MCP, Skills, and Prompts in one place — no more hand-editing JSON / TOML / YAML config files.",
     "summary_zh": "",
@@ -184,39 +167,72 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.196
-    }
+      "external_link_ratio": 0.224
+    },
+    "highlights": [
+      "Notes — Aggregation doesn't provide failover; Claude Code requires version 2.1.243 or later; Codex needs a restart after the aggregated list changes, while Claude Code doesn't. When you swi…",
+      "API format conversion — Local routing converts requests between Anthropic Messages, OpenAI Chat Completions, OpenAI Responses, and Gemini Native: Claude Code and Claude Desktop can use Open…",
+      "Local Routing: CC Switch forwards requests on your machine and converts API formats; see Local Routing & Failover below. Claude Desktop providers can use \"Direct\" or \"Model Mapping\"; with \"…",
+      "Universal providers — One config syncs to Claude Code, Codex, and Gemini CLI"
+    ]
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "The incumbent all-in-one provider/account switcher for Claude Code, Codex and friends.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "categories": [
+    "accounts",
+    "billing",
+    "providers"
+  ],
+  "primary_category": "providers",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Still very popular and actively maintained, but magpie covers the same ground plus cross-model routing. Kept in the graveyard as the incumbent reference.",
-    "note_zh": "依然很流行且在持续维护，但 magpie 覆盖了同样的场景并额外支持跨模型路由。作为上一代参照保留在淘汰区。",
-    "superseded_by": "yetone/magpie",
-    "supersede": {
+    "state": "active",
+    "note_en": "Still the most widely used tool in this space and actively maintained.",
+    "note_zh": "仍是这一领域使用最广、维护活跃的工具。",
+    "superseded_by": "",
+    "challenger": "yetone/magpie",
+    "challenger_edge": {
       "incumbent": "farion1231/cc-switch",
       "challenger": "yetone/magpie",
       "incumbent_name": "farion1231/cc-switch",
       "challenger_name": "yetone/magpie",
-      "kind": "manual",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [],
+      "kind": "challenger",
+      "source": "curated",
+      "confidence": "medium",
+      "coverage": 0.615,
+      "covered": [
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "model-routing",
+        "multi-account-switching",
+        "usage-analytics"
+      ],
       "star_ratio": 0.0,
       "momentum_ratio": 0.0,
       "setup_delta": 0,
       "dominance": 0.0,
       "reasons": [
-        "magpie covers cc-switch's core job (multi-account / provider switching for Claude Code and Codex) and additionally routes other models through the same agent loop, so it strictly covers the older tool's feature set."
+        "Both manage multiple accounts and providers for Claude Code and Codex, and magpie additionally routes other models through the same agent loop.",
+        "covers 62% of farion1231/cc-switch's capabilities (8/13)",
+        "not covered: billing-metering, parallel-execution, provider-aggregation, session-persistence, skills-plugins",
+        "0.04x the stars (5,667 vs 140,685)"
       ],
       "evidence": {
-        "manual": true,
-        "note": "magpie covers cc-switch's core job (multi-account / provider switching for Claude Code and Codex) and additionally routes other models through the same agent loop, so it strictly covers the older tool's feature set."
+        "curated": true,
+        "note": "Both manage multiple accounts and providers for Claude Code and Codex, and magpie additionally routes other models through the same agent loop.",
+        "missing_capabilities": [
+          "billing-metering",
+          "parallel-execution",
+          "provider-aggregation",
+          "session-persistence",
+          "skills-plugins"
+        ]
       }
     }
   }

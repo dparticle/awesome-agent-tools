@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "full_name": "basketikun/chatgpt2api",
+  "name": "chatgpt2api",
+  "owner": "basketikun",
+  "url": "https://github.com/basketikun/chatgpt2api",
+  "description": "ChatGPT官网接口纯协议的逆向实现，支持GPT-Image-2模型、文本模型，兼容OpenAI接口协议，在线批量生图/编辑图，号池管理，支持可编辑PPT/PSD文件逆向，支持导入CPA、sub2api号池 、支持接入Cherry  Studio、New Api 等软件",
+  "homepage": "https://linux.do",
+  "stars": 6540,
+  "forks": 1659,
+  "open_issues": 30,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-04-19T14:53:01Z",
+  "updated_at": "2026-10-07T12:18:51Z",
+  "pushed_at": "2026-07-29T08:56:51Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 171,
+  "days_since_push": 70,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 76.3,
+    "momentum": 31.9,
+    "maintenance": 78.0,
+    "documentation": 52.0,
+    "accessibility": 22.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 6540,
+    "days_span": 171,
+    "stars_per_day": 38.25,
+    "lifetime_stars_per_day": 38.25,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "basketikun/chatgpt2api",
+    "readme_chars": 9739,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "model-routing",
+      "session-persistence",
+      "self-hosted"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "、codex-gpt-image-2、auto、gpt-5、gpt-5-1、gpt-5-2、gpt-5-3、gpt-5-3-mini、gpt-5-mini 模型选择",
+      "quota-management": "gpt-5-mini - 支持通过 n 返回多张生成结果 - 支持生成可编辑 PPT 文件 - 支持生成可编辑 PSD 文件 - 支持 Codex 中的画图接口逆向，仅 Plus / Team / Pro 订阅可用，模型别名为 codex-gpt-image-2，如有需要可自行在其他场景映射回 gpt-image-2，用于和官网画图区分；也就意味着同一账号会同时有官网和 Codex 两份生图额度 ### 在线画图功能 - 内置在线画图…",
+      "model-routing": "",
+      "session-persistence": "",
+      "self-hosted": ""
+    },
+    "capability_hits": {
+      "multi-account-switching": 2,
+      "quota-management": 2,
+      "model-routing": 1,
+      "session-persistence": 1,
+      "self-hosted": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 78,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs docker compose up, git clone (build from source); configure config.json/yaml/toml, OAuth login flow",
+      "note_zh": "配置较重。需要 docker compose up、git clone (build from source)；需配置 config.json/yaml/toml、OAuth login flow"
+    },
+    "doc_score": 52,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "has a table of contents"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "git clone git@github.com:basketikun/chatgpt2api.git docker compose up -d",
+    "summary_zh": "",
+    "install_hint": "docker compose up -d",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.205
+    },
+    "highlights": [
+      "支持网页端配置全局 HTTP / HTTPS / SOCKS5 / SOCKS5H 代理",
+      "支持四种导入方式：本地 CPA JSON 文件导入、远程 CPA 服务器导入、sub2api 服务器导入、access_token 导入",
+      "支持在设置页配置 sub2api 服务器，筛选并批量导入其中的 OpenAI OAuth 账号",
+      "支持 Codex 中的画图接口逆向，仅 Plus / Team / Pro 订阅可用，模型别名为 codex-gpt-image-2，如有需要可自行在其他场景映射回"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "categories": [
+    "accounts"
+  ],
+  "primary_category": "accounts",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

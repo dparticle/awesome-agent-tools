@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "full_name": "s1dashu/ip-as-logo-skill",
+  "name": "ip-as-logo-skill",
+  "owner": "s1dashu",
+  "url": "https://github.com/s1dashu/ip-as-logo-skill",
+  "description": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+  "homepage": "https://ipaslogo.com",
+  "stars": 5825,
+  "forks": 282,
+  "open_issues": 6,
+  "language": "",
+  "license": "MIT",
+  "topics": [
+    "codex",
+    "codex-skill",
+    "image-generation",
+    "logo-design",
+    "mascot-design"
+  ],
+  "created_at": "2026-08-18T13:59:23Z",
+  "updated_at": "2026-10-07T10:13:15Z",
+  "pushed_at": "2026-08-22T16:48:59Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 50,
+  "days_since_push": 45,
+  "health_score": 78,
+  "health_components": {
+    "popularity": 75.3,
+    "momentum": 97.1,
+    "maintenance": 78.0,
+    "documentation": 36.0,
+    "accessibility": 99.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 5825,
+    "days_span": 50,
+    "stars_per_day": 116.5,
+    "lifetime_stars_per_day": 116.5,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "s1dashu/ip-as-logo-skill",
+    "readme_chars": 7957,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "agent-runtime"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": ". Bottom or side cropping may strengthen the corner emergence, but the Skill does not prescribe exact edge contact or a fixed crop.",
+      "skills-plugins": "er falls back to SVG; another image model may be used only with explicit user consent, with no guarantee of equivalent quality.",
+      "agent-runtime": "d image without filtering or automatic retries"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 5,
+      "agent-runtime": 1
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 13,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Turnkey. install via npx one-liner, native installer / package; configure API key configuration",
+      "note_zh": "开箱即用。可通过 npx one-liner、native installer / package 安装；需配置 API key configuration"
+    },
+    "doc_score": 36,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "ip-as-logo is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots.",
+    "summary_zh": "",
+    "install_hint": "npx skills@latest add s1dashu/ip-as-logo-skill",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.251
+    },
+    "highlights": [
+      "One dominant silhouette built from roughly 4–7 large basic shapes",
+      "Thick, rounded forms without sharp or fragile details",
+      "Image-only generation prompts that never reveal logo, brand-mark, app-icon, or icon-asset use"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

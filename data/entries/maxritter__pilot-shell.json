@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "full_name": "maxritter/pilot-shell",
+  "name": "pilot-shell",
+  "owner": "maxritter",
+  "url": "https://github.com/maxritter/pilot-shell",
+  "description": "Professional context and harness engineering for Claude Code and OpenAI Codex. Build production-grade software with spec-driven development, TDD, persistent memory, quality gates, code intelligence, human oversight, and end-to-end verification.",
+  "homepage": "https://pilot-shell.com",
+  "stars": 2083,
+  "forks": 178,
+  "open_issues": 1,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "topics": [
+    "agent-skills",
+    "agentic-engineering",
+    "ai-coding",
+    "anthropic",
+    "claude-code",
+    "code-quality",
+    "code-review",
+    "codex",
+    "codex-cli",
+    "coding-agents",
+    "context-engineering",
+    "developer-tools",
+    "harness-engineering",
+    "mcp",
+    "openai",
+    "persistent-memory",
+    "software-engineering",
+    "spec-driven-development",
+    "tdd",
+    "test-driven-development"
+  ],
+  "created_at": "2025-10-18T08:30:23Z",
+  "updated_at": "2026-10-07T06:25:06Z",
+  "pushed_at": "2026-10-07T10:20:28Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 354,
+  "days_since_push": 0,
+  "health_score": 62,
+  "health_components": {
+    "popularity": 66.4,
+    "momentum": 4.9,
+    "maintenance": 100.0,
+    "documentation": 66.0,
+    "accessibility": 96.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 2083,
+    "days_span": 354,
+    "stars_per_day": 5.88,
+    "lifetime_stars_per_day": 5.88,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "maxritter/pilot-shell",
+    "readme_chars": 18226,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "parallel-execution": "",
+      "worktree-isolation": ".devcontainer folder from this repository into your project, adapt it to your needs (base image, extensions, dependencies), and run the installer inside the container.",
+      "memory-context": "g rules for ordinary requests",
+      "skills-plugins": "les · $setup-rules Generate modular project guidance from the real codebase",
+      "agent-runtime": "### How real engineers run Claude Code and Codex",
+      "mcp-support": "long work and compaction, with useful findings remembered automatically across Claude Code and Codex",
+      "gui-desktop": "e the npm or brew version, uninstall it first.",
+      "notifications": "buildouts, and diffs; feedback flows back into the work that owns them.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 3,
+      "mcp-support": 8,
+      "gui-desktop": 2,
+      "notifications": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 12,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via curl | sh installer, native installer / package; configure config.json/yaml/toml, database migration; GUI application",
+      "note_zh": "开箱即用。可通过 curl | sh installer、native installer / package 安装；需配置 config.json/yaml/toml、database migration；GUI application"
+    },
+    "doc_score": 66,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Professional context and harness engineering around the coding agents you already use.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/maxritter/pilot-shell/main/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.304
+    },
+    "highlights": [
+      "Recover Claude Code and Codex sessions and search source-linked project knowledge.",
+      "One system for Claude Code and Codex — platform-specific adapters preserve one engineering standard while the underlying models continue to improve",
+      "Runtime verification — tests, builds, real CLI/API execution, browser automation, and device checks turn completion claims into evidence"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

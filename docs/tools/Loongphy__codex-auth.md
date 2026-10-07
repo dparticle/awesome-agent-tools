@@ -4,7 +4,7 @@
 
 > codex-auth is a command-line tool for switching Codex accounts.
 
-[Repository](https://github.com/Loongphy/codex-auth) · [Back to index](../../README.md) · Category: **quota-account-ops**
+[Repository](https://github.com/Loongphy/codex-auth) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Zig |
 | Created | 2026-02-10 |
-| Last push | 2026-10-06 (0 days ago) |
+| Last push | 2026-10-06 (1 days ago) |
 | Analyzed README | 7,254 chars from `raw:HEAD/README.md` |
 
 ## What it solves

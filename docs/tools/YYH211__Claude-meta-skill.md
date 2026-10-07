@@ -4,7 +4,7 @@
 
 > A curated collection of reusable skills for Claude Code.
 
-[Repository](https://github.com/YYH211/Claude-meta-skill) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/YYH211/Claude-meta-skill) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -24,7 +24,7 @@
 | Last push | 2026-05-15 (145 days ago) |
 | Analyzed README | 25,252 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection)** — Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [thedivergentai/GD-Agentic-Skills](https://github.com/thedivergentai/GD-Agentic-Skills)** — Superseded by thedivergentai/GD-Agentic-Skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 

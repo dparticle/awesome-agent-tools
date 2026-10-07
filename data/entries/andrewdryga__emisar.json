@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "full_name": "AndrewDryga/emisar",
+  "name": "emisar",
+  "owner": "AndrewDryga",
+  "url": "https://github.com/AndrewDryga/emisar",
+  "description": "Let AI agents investigate and operate infrastructure through declared actions, bounded by policy and host-side checks. Approvals when required, with an audit trail. By Protectorate.",
+  "homepage": "https://emisar.dev/",
+  "stars": 337,
+  "forks": 33,
+  "open_issues": 13,
+  "language": "Elixir",
+  "license": "NOASSERTION",
+  "topics": [
+    "ai",
+    "ai-agents",
+    "devops",
+    "devsecops",
+    "elixir",
+    "go",
+    "infosec",
+    "infra",
+    "infrastructure",
+    "mcp",
+    "mcp-server",
+    "policy-as-code",
+    "remote-execution",
+    "security",
+    "self-hosted"
+  ],
+  "created_at": "2026-05-19T01:21:19Z",
+  "updated_at": "2026-10-07T06:07:25Z",
+  "pushed_at": "2026-10-07T06:07:21Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 141,
+  "days_since_push": 0,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 50.6,
+    "momentum": 2.0,
+    "maintenance": 100.0,
+    "documentation": 53.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 337,
+    "days_span": 141,
+    "stars_per_day": 2.39,
+    "lifetime_stars_per_day": 2.39,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "AndrewDryga/emisar",
+    "readme_chars": 10173,
+    "capabilities": [
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "agent-runtime": "",
+      "mcp-support": "er checks the action again on the host",
+      "security-isolation": "",
+      "cross-agent-support": "Mentions Codex, Cursor"
+    },
+    "capability_hits": {
+      "agent-runtime": 1,
+      "mcp-support": 7,
+      "security-isolation": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "OAuth login flow",
+        "database dependency",
+        "process manager"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via Homebrew install, native installer / package; configure OAuth login flow, database dependency",
+      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需配置 OAuth login flow、database dependency"
+    },
+    "doc_score": 53,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "Leave the agent working.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://emisar.dev/install.sh \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.491
+    },
+    "highlights": [
+      "Open AI agents and connect your client. Remote MCP clients use OAuth;",
+      "The runner opens an outbound TLS WebSocket and exposes no inbound listener."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:25+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "andrewdryga/emisar",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "incumbent_name": "AndrewDryga/emisar",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "security-isolation"
+      ],
+      "star_ratio": 13.92,
+      "momentum_ratio": 9.962,
+      "setup_delta": -1,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "13.92x the stars (4,691 vs 337)",
+        "9.96x the star velocity (23.8/day vs 2.4/day)",
+        "no harder to set up (24 vs 25 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 65,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 24
+      }
+    }
+  }
+}

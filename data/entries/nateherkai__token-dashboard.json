@@ -6,12 +6,6 @@
   "url": "https://github.com/nateherkai/token-dashboard",
   "description": "See where Claude Code is burning tokens - turn raw JSONL transcripts into local cost analytics, hotspot views, and session-level usage insight.",
   "homepage": "",
-  "category": "observability",
-  "also_in": [],
-  "matched_capabilities": [
-    "usage-analytics"
-  ],
-  "category_score": 10.0,
   "stars": 722,
   "forks": 196,
   "open_issues": 24,
@@ -113,18 +107,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.0
-    }
+    },
+    "highlights": [
+      "Settings — switch pricing between API / Pro / Max / Max-20x so cost figures everywhere else reflect your actual plan.",
+      "Overview — all-time input/output/cache tokens, sessions, turns, estimated cost on your chosen plan, daily work and cache-read charts, tokens-by-project, token share by model, top tools by c…",
+      "Spotting wasteful patterns — the same file read twenty times in a session, a tool call returning 80k tokens.",
+      "If you're on Pro or Max, confirming you're getting your money's worth in API-equivalent dollars."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "analytics"
+  ],
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

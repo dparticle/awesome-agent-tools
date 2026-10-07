@@ -4,7 +4,7 @@
 
 > Enable your AI agents to read, analyze, and modify Figma designs.
 
-[Repository](https://github.com/arinspunk/claude-talk-to-figma-mcp) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/arinspunk/claude-talk-to-figma-mcp) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-04-04 |
-| Last push | 2026-04-18 (171 days ago) |
+| Last push | 2026-04-18 (172 days ago) |
 | Analyzed README | 7,932 chars from `raw:HEAD/readme.md` |
 
 ## What it solves

@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "full_name": "oleksiijko/pmb",
+  "name": "pmb",
+  "owner": "oleksiijko",
+  "url": "https://github.com/oleksiijko/pmb",
+  "description": "Local-first persistent memory for AI coding agents (Claude Code, Cursor, Codex) over MCP. Decisions, lessons and facts live in one SQLite file on your disk. Offline, multilingual.",
+  "homepage": "https://pypi.org/project/pmb-ai/",
+  "stars": 281,
+  "forks": 28,
+  "open_issues": 8,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "ai-memory",
+    "bm25",
+    "claude-code",
+    "codex",
+    "cursor",
+    "knowledge-graph",
+    "lancedb",
+    "llm",
+    "local-first",
+    "mcp",
+    "memory",
+    "model-context-protocol",
+    "privacy",
+    "python",
+    "rag",
+    "semantic-search",
+    "sentence-transformers",
+    "sqlite",
+    "vector-search"
+  ],
+  "created_at": "2026-05-25T00:05:59Z",
+  "updated_at": "2026-10-02T14:09:20Z",
+  "pushed_at": "2026-09-23T18:04:47Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 135,
+  "days_since_push": 13,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 49.0,
+    "momentum": 1.7,
+    "maintenance": 92.0,
+    "documentation": 74.0,
+    "accessibility": 78.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 281,
+    "days_span": 135,
+    "stars_per_day": 2.08,
+    "lifetime_stars_per_day": 2.08,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "oleksiijko/pmb",
+    "readme_chars": 22549,
+    "capabilities": [
+      "auto-failover",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "memory-context": "",
+      "agent-runtime": "",
+      "mcp-support": "Your AI agent forgets everything between sessions.",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "memory-context": 1,
+      "agent-runtime": 1,
+      "mcp-support": 9,
+      "gui-desktop": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "create a Python venv"
+      ],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, pip install; needs git clone (build from source), create a Python venv; configure database dependency",
+      "note_zh": "较易上手。可通过 npx one-liner、pip install 安装；需要 git clone (build from source)、create a Python venv；需配置 database dependency"
+    },
+    "doc_score": 74,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "Local-first memory, visualized.",
+    "summary_zh": "",
+    "install_hint": "pip install pmb-ai                 # 1. install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.532
+    },
+    "highlights": [
+      "Dedup - four layers: exact text match -> cosine >= 0.92 auto-merge -> cosine 0.80-0.92 borderline (LLM verify later) -> manual review in the dashboard. Old values are archived, never delete…",
+      "Your data, in the open. pmb export dumps everything to Markdown/JSON. Apache 2.0.",
+      "Works on every host. Claude Code (hooks), Codex (pmb codex-notify), MCP-only hosts like Cursor/Zed/VS Code (git observer, pmb ambient-watch .). Check yours with pmb hooks capabilities.",
+      "Apache 2.0 licensed. Forks welcome."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "categories": [
+    "desktop-ui",
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "oleksiijko/pmb",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "oleksiijko/pmb",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context"
+      ],
+      "star_ratio": 103.929,
+      "momentum_ratio": 62.683,
+      "setup_delta": 10,
+      "dominance": 0.95,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "103.93x the stars (29,204 vs 281)",
+        "62.68x the star velocity (130.4/day vs 2.1/day)",
+        "slightly heavier setup (+10 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 54,
+        "challenger_health": 88,
+        "incumbent_setup_score": 22,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

@@ -6,13 +6,6 @@
   "url": "https://github.com/getpaseo/paseo",
   "description": "Orchestrate multiple coding agents from desktop and mobile",
   "homepage": "https://paseo.sh",
-  "category": "orchestration",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-agent-orchestration",
-    "parallel-execution"
-  ],
-  "category_score": 30.0,
   "stars": 19955,
   "forks": 2338,
   "open_issues": 1068,
@@ -62,7 +55,7 @@
   },
   "analysis": {
     "full_name": "getpaseo/paseo",
-    "readme_chars": 8990,
+    "readme_chars": 8543,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -159,19 +152,32 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.558
-    }
+      "external_link_ratio": 2.458
+    },
+    "highlights": [
+      "Cross-device: iOS, Android, desktop, web, and CLI. Start work at your desk, check in from your phone, script it from the terminal.",
+      "Built-in orchestration: Agents in Paseo can create worktrees, launch other agents, and talk to them, across providers.",
+      "Privacy-first: Paseo doesn't have any telemetry, tracking, or forced log-ins.",
+      "Parallel agents: Run many agents at once, each in its own worktree."
+    ]
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "Orchestrate several coding agents from desktop and mobile; easier on-ramp than Orca.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mcp-failover",
+    "mobile"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "full_name": "owengretzinger/constellagent",
+  "name": "constellagent",
+  "owner": "owengretzinger",
+  "url": "https://github.com/owengretzinger/constellagent",
+  "description": "Desktop app for running multiple AI agents in parallel. Each agent gets its own terminal, editor, and git worktree, all in one window.",
+  "homepage": "https://constellagent.vercel.app/",
+  "stars": 216,
+  "forks": 16,
+  "open_issues": 6,
+  "language": "TypeScript",
+  "license": "",
+  "topics": [],
+  "created_at": "2026-02-10T03:52:03Z",
+  "updated_at": "2026-10-07T02:47:39Z",
+  "pushed_at": "2026-05-05T23:34:13Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 239,
+  "days_since_push": 154,
+  "health_score": 38,
+  "health_components": {
+    "popularity": 46.7,
+    "momentum": 0.8,
+    "maintenance": 55.0,
+    "documentation": 24.0,
+    "accessibility": 85.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 216,
+    "days_span": 239,
+    "stars_per_day": 0.9,
+    "lifetime_stars_per_day": 0.9,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "owengretzinger/constellagent",
+    "readme_chars": 1295,
+    "capabilities": [
+      "parallel-execution",
+      "worktree-isolation",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "parallel-execution": "",
+      "worktree-isolation": "ach in its own workspace with an isolated git worktree",
+      "gui-desktop": ""
+    },
+    "capability_hits": {
+      "parallel-execution": 1,
+      "worktree-isolation": 3,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 23,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "note_en": "Easy. GUI application",
+      "note_zh": "较易上手。GUI application"
+    },
+    "doc_score": 24,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section"
+    ],
+    "agents": [],
+    "summary_en": "A macOS desktop app for running multiple AI agents in parallel.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.772
+    },
+    "highlights": [
+      "Run separate agent sessions side-by-side, each in its own workspace with an isolated git worktree",
+      "Sleep/wake recovery for automations (coalesces missed runs while app stays open)",
+      "Keyboard-driven - Quick Open, tab switching, shortcuts",
+      "Monaco code editor with syntax highlighting and diffs"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:30+00:00",
+  "categories": [
+    "isolation-parallelism"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

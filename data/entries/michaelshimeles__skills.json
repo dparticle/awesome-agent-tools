@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "full_name": "michaelshimeles/skills",
+  "name": "skills",
+  "owner": "michaelshimeles",
+  "url": "https://github.com/michaelshimeles/skills",
+  "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
+  "homepage": "",
+  "stars": 1259,
+  "forks": 199,
+  "open_issues": 3,
+  "language": "Python",
+  "license": "",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "code-review",
+    "codex",
+    "cursor",
+    "developer-workflow",
+    "greptile"
+  ],
+  "created_at": "2026-03-05T17:40:23Z",
+  "updated_at": "2026-10-07T13:27:42Z",
+  "pushed_at": "2026-10-04T00:03:25Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 215,
+  "days_since_push": 3,
+  "health_score": 53,
+  "health_components": {
+    "popularity": 62.0,
+    "momentum": 4.9,
+    "maintenance": 100.0,
+    "documentation": 38.0,
+    "accessibility": 72.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1259,
+    "days_span": 215,
+    "stars_per_day": 5.86,
+    "lifetime_stars_per_day": 5.86,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "michaelshimeles/skills",
+    "readme_chars": 7323,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "worktree-isolation": "files changed for review\".",
+      "skills-plugins": "to everything written for humans along the way.",
+      "agent-runtime": "for humans along the way.",
+      "cross-agent-support": "Mentions Claude Code, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "worktree-isolation": 2,
+      "skills-plugins": 2,
+      "agent-runtime": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 28,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; configure database migration, server/reverse-proxy setup",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database migration、server/reverse-proxy setup"
+    },
+    "doc_score": 38,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor"
+    ],
+    "summary_en": "A collection of agent skills for Claude Code.",
+    "summary_zh": "",
+    "install_hint": "npx skills add michaelshimeles/skills",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.683
+    },
+    "highlights": [
+      "You need a consistent branch-per-task convention with safe cleanup",
+      "Multiple agents (or sessions) work the same repository concurrently",
+      "Starting any new feature, fix, or task, before writing code"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:15+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "michaelshimeles/skills",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "michaelshimeles/skills",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "multi-agent-orchestration",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 26.49,
+      "momentum_ratio": 13.36,
+      "setup_delta": -26,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "26.49x the stars (33,351 vs 1,259)",
+        "13.36x the star velocity (78.3/day vs 5.9/day)",
+        "no harder to set up (2 vs 28 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "multi-agent-orchestration",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 81,
+        "incumbent_setup_score": 28,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

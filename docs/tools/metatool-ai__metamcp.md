@@ -4,7 +4,7 @@
 
 > 📢 Latest Update: This ai-dev branch will be the forward onging dev branch which contains ai agent changes.
 
-[Repository](https://github.com/metatool-ai/metamcp) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/metatool-ai/metamcp) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

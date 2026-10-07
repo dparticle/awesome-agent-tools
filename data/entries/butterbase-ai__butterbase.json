@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "full_name": "butterbase-ai/butterbase",
+  "name": "butterbase",
+  "owner": "butterbase-ai",
+  "url": "https://github.com/butterbase-ai/butterbase",
+  "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
+  "homepage": "",
+  "stars": 3686,
+  "forks": 171,
+  "open_issues": 9,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "baas",
+    "backend-as-a-service",
+    "mcp",
+    "open-source",
+    "postgres",
+    "supabase-alternative",
+    "typescript"
+  ],
+  "created_at": "2026-05-20T00:06:03Z",
+  "updated_at": "2026-10-06T13:46:27Z",
+  "pushed_at": "2026-10-06T13:46:24Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 140,
+  "days_since_push": 1,
+  "health_score": 59,
+  "health_components": {
+    "popularity": 71.3,
+    "momentum": 21.9,
+    "maintenance": 100.0,
+    "documentation": 63.0,
+    "accessibility": 33.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3686,
+    "days_span": 140,
+    "stars_per_day": 26.33,
+    "lifetime_stars_per_day": 26.33,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "butterbase-ai/butterbase",
+    "readme_chars": 19088,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "billing-metering",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "— full production-shaped apps: butterSupport, butterbaseCRM.",
+      "billing-metering": "ers, lease-based quota enforcement, and ops dashboards (those live in a private repo that consumes this one as a submodule).",
+      "memory-context": "AI-native, open-source backend-as-a-service.",
+      "skills-plugins": "QuotaEnforcer, and RouterAdapter interfaces in packages/shared.",
+      "mcp-support": "AI-native, open-source backend-as-a-service.",
+      "security-isolation": "endpoints (/auto-api), and migrations.",
+      "self-hosted": "AI-native, open-source backend-as-a-service.",
+      "notifications": ", GitHub, Apple, X, …), JWT tuning, post-login hooks, service keys (/auth, /oauth-config, /api-keys)."
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "billing-metering": 5,
+      "memory-context": 5,
+      "skills-plugins": 2,
+      "mcp-support": 10,
+      "security-isolation": 3,
+      "self-hosted": 12,
+      "notifications": 4
+    },
+    "friction": {
+      "level": "high",
+      "score": 67,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. install via npx one-liner; needs docker compose up, git clone (build from source); configure API key configuration, OAuth login flow",
+      "note_zh": "配置较重。可通过 npx one-liner 安装；需要 docker compose up、git clone (build from source)；需配置 API key configuration、OAuth login flow"
+    },
+    "doc_score": 63,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Butterbase gives you the building blocks for AI-driven applications without lock-in: a Postgres-backed backend with row-level security, serverless functions, an LLM gateway, realtime subscriptions, key-value store, file storage, RAG, durab…",
+    "summary_zh": "",
+    "install_hint": "curl -sf http://localhost:4000/health/ready",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.472
+    },
+    "highlights": [
+      "MCP server — every capability above is exposed as MCP tools at /mcp (HTTP) or via stdio (@butterbase/mcp — npx @butterbase/mcp).",
+      "Key-Value store — regional, quota-protected KV with TTL, audit trail, and dashboard expose rules (/v1/:app/kv/). *New in v0.2.0.",
+      "CHANGELOG.md — release notes (latest: v0.3.0, 2026-06-08 — Agents)",
+      "Claude Code plugin — packages/plugin (submodule of butterbase-skills) ships 39 guided skills and 34 slash commands (idea → plan → schema → auth → functions → deploy → submit) for agentic ap…"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "billing",
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

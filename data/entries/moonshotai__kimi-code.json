@@ -1,0 +1,209 @@
+{
+  "schema": 1,
+  "full_name": "MoonshotAI/kimi-code",
+  "name": "kimi-code",
+  "owner": "MoonshotAI",
+  "url": "https://github.com/MoonshotAI/kimi-code",
+  "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
+  "homepage": "https://www.kimi.com/code/docs/",
+  "stars": 7789,
+  "forks": 1279,
+  "open_issues": 1548,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-05-22T08:02:03Z",
+  "updated_at": "2026-10-07T13:19:51Z",
+  "pushed_at": "2026-10-02T12:24:22Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 138,
+  "days_since_push": 5,
+  "health_score": 69,
+  "health_components": {
+    "popularity": 77.8,
+    "momentum": 47.0,
+    "maintenance": 100.0,
+    "documentation": 56.0,
+    "accessibility": 57.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7789,
+    "days_span": 138,
+    "stars_per_day": 56.44,
+    "lifetime_stars_per_day": 56.44,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "MoonshotAI/kimi-code",
+    "readme_chars": 5316,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "config, without hand-editing JSON.",
+      "parallel-execution": "",
+      "skills-plugins": "",
+      "agent-runtime": "",
+      "mcp-support": "clip into the chat and let the agent watch what is hard to describe in words — turn a reference clip into a LUT, a long video into a short, a screen recording into working code, and more.",
+      "gui-desktop": "for Windows before first launch because Kimi Code CLI uses the bundled Git Bash as its shell environment.",
+      "notifications": "der, explore, and plan subagents in isolated contexts while keeping the main conversation clean."
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "parallel-execution": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "mcp-support": 3,
+      "gui-desktop": 1,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 43,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "pnpm install/build",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), pnpm install/build; configure API key configuration, OAuth login flow",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)、pnpm install/build；需配置 API key configuration、OAuth login flow"
+    },
+    "doc_score": 56,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [],
+    "summary_en": "Documentation · Issues · 中文",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 3.198
+    },
+    "highlights": [
+      "Editor & IDE integration (ACP). Drive a Kimi Code CLI session straight from Zed, JetBrains, or any Agent Client Protocol client with kimi acp.",
+      "AI-native MCP configuration. Add, edit, and authenticate Model Context Protocol servers conversationally with /mcp-config, without hand-editing JSON.",
+      "Subagents for focused, parallel work. Dispatch built-in coder, explore, and plan subagents in isolated contexts while keeping the main conversation clean.",
+      "Purpose-built TUI. A carefully tuned interface, optimized end to end for long, focused agent sessions."
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "moonshotai/kimi-code",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "MoonshotAI/kimi-code",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "gui-desktop",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "notifications",
+        "parallel-execution",
+        "skills-plugins"
+      ],
+      "star_ratio": 4.282,
+      "momentum_ratio": 1.387,
+      "setup_delta": -41,
+      "dominance": 0.841,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "4.28x the stars (33,351 vs 7,789)",
+        "1.39x the star velocity (78.3/day vs 56.4/day)",
+        "no harder to set up (2 vs 43 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 69,
+        "challenger_health": 81,
+        "incumbent_setup_score": 43,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

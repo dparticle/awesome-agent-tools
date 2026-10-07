@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "full_name": "pax-beehive/paxm",
+  "name": "paxm",
+  "owner": "pax-beehive",
+  "url": "https://github.com/pax-beehive/paxm",
+  "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
+  "homepage": "",
+  "stars": 422,
+  "forks": 21,
+  "open_issues": 3,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-memory",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "golang",
+    "local-first",
+    "mcp",
+    "opencode",
+    "sqlite"
+  ],
+  "created_at": "2026-07-09T02:40:57Z",
+  "updated_at": "2026-10-07T08:55:35Z",
+  "pushed_at": "2026-08-28T22:40:03Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 90,
+  "days_since_push": 39,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 52.5,
+    "momentum": 3.9,
+    "maintenance": 78.0,
+    "documentation": 64.0,
+    "accessibility": 60.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 422,
+    "days_span": 90,
+    "stars_per_day": 4.69,
+    "lifetime_stars_per_day": 4.69,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "pax-beehive/paxm",
+    "readme_chars": 22858,
+    "capabilities": [
+      "model-routing",
+      "session-persistence",
+      "memory-context",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "session-persistence": "led, paxm recalls relevant context before the",
+      "memory-context": "m mcp serve --agent codex; replace codex",
+      "mcp-support": "sions and one-command installs for DeepSeek Harness plugins.",
+      "security-isolation": "",
+      "self-hosted": "ce with top-level fields only when the server",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "mcp-support": 14,
+      "security-isolation": 1,
+      "self-hosted": 3,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 40,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "go build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "config.json/yaml/toml",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs go build; configure API key configuration, config file",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 go build；需配置 API key configuration、config file"
+    },
+    "doc_score": 64,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "PAXM carries decisions, conventions, and working context into later Codex, Claude Code, OpenCode, Pi, Cursor, TRAE, Kimi Code, ZCode, Kiro, Cline, and MCP sessions.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://github.com/pax-beehive/paxm/releases/latest/download/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.394
+    },
+    "highlights": [
+      "Write-provider routes default to a 30-second timeout; optional failures remain",
+      "A 50-case conversation-to-write suite checks admission, recall, forbidden"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "categories": [
+    "mcp-failover",
+    "sessions-memory",
+    "voice"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

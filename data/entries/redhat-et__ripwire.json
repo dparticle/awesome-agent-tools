@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "full_name": "redhat-et/ripwire",
+  "name": "ripwire",
+  "owner": "redhat-et",
+  "url": "https://github.com/redhat-et/ripwire",
+  "description": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant — blast radius, tests-to-run, quality deltas. Signatures at 74.7% fewer bytes than bodies; every guess labelled, every loss published. Paddle out with a map.",
+  "homepage": "",
+  "stars": 2417,
+  "forks": 150,
+  "open_issues": 62,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "call-graph",
+    "claude",
+    "claude-code",
+    "cli",
+    "code-navigation",
+    "codex",
+    "coding-agents",
+    "context-engineering",
+    "cpp",
+    "developer-tools",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "python",
+    "rust",
+    "static-analysis",
+    "swift",
+    "tree-sitter",
+    "typescript"
+  ],
+  "created_at": "2026-07-29T15:58:33Z",
+  "updated_at": "2026-10-07T13:21:10Z",
+  "pushed_at": "2026-10-04T23:17:04Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 70,
+  "days_since_push": 2,
+  "health_score": 66,
+  "health_components": {
+    "popularity": 67.7,
+    "momentum": 28.8,
+    "maintenance": 100.0,
+    "documentation": 74.0,
+    "accessibility": 66.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 2417,
+    "days_span": 70,
+    "stars_per_day": 34.53,
+    "lifetime_stars_per_day": 34.53,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "redhat-et/ripwire",
+    "readme_chars": 212433,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "the row fails as unverified, so compare the two with Get-FileHash.",
+      "multi-agent-orchestration": "mat, exit codes and limits.",
+      "parallel-execution": "",
+      "worktree-isolation": "l.** A structural capacity ceiling, a mis-derived",
+      "model-routing": "",
+      "skills-plugins": "hod, the wins named one by one and the losses included, is in",
+      "agent-runtime": "task names the ONE command a task wants, or abstains honestly when the evidence is too thin",
+      "mcp-support": "s** and **6.6–16.5 MB** against that server's **23–52 s** and",
+      "gui-desktop": "For a case-sensitive compare, use .Hash.ToLower() -ceq.",
+      "cross-agent-support": "Mentions Aider, Amp, Claude Code, Codex"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 12,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "skills-plugins": 7,
+      "agent-runtime": 9,
+      "mcp-support": 39,
+      "gui-desktop": 6,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "Homebrew install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "cmake build"
+      ],
+      "config_signals": [
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via pip install, Homebrew install; needs git clone (build from source), cmake build; configure database dependency, database migration",
+      "note_zh": "较易上手。可通过 pip install、Homebrew install 安装；需要 git clone (build from source)、cmake build；需配置 database dependency、database migration"
+    },
+    "doc_score": 74,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider",
+      "Droid"
+    ],
+    "summary_en": "The ripgrep of AI context.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.056
+    },
+    "highlights": [
+      "module outlines: 7 of 12 modules with 3+ nodes in view (cap 12; 3 dropped as too thin to read as a region; 2 dropped as enclosing mostly other modules) — three separate truncations, each wi…",
+      "PageRank is a bad co-change ranker — 3.8% recall@5 against 40.3% for plain lexical, and fusing",
+      "JSON files over 256 KB, and YAML files over 512 KB.",
+      "A multi-root run merges 2 to 16 checkouts into one graph, but --quality-delta, --test-gate,"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:03+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

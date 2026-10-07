@@ -6,14 +6,6 @@
   "url": "https://github.com/Orkas-AI/Orkas",
   "description": "Orkas is an open-source, local-first AI desktop app: a commander LLM directs specialist sub-agents, and runs your installed coding CLIs — Claude Code, Codex, OpenCode, OpenClaw, Hermes — as local sessions. Agents self-evolve via reflection and skill crystallization. BYO keys. macOS / Windows / Linux.",
   "homepage": "https://orkas.ai?source=gh-orkas",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "skills-plugins"
-  ],
-  "category_score": 34.0,
   "stars": 2154,
   "forks": 88,
   "open_issues": 11,
@@ -162,18 +154,30 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 1.284
-    }
+    },
+    "highlights": [
+      "Go beyond code — video, slides, and more — the Commander drives open-source tools like HyperFrames and hands off to CLI agents — the coding agents Claude Code, Codex and OpenCode, plus the…",
+      "Drives the open-source ecosystem — plug in external CLI agents as local sessions — the coding agents Claude Code, Codex and OpenCode, plus the personal agents OpenClaw and Hermes-Agent — an…",
+      "Per-turn tool rounds — Commander 120, named agent 100, ephemeral worker the schema default (actor-budgets.ts), pinned by unit tests so they can't silently drift."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism",
+    "model-routing"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

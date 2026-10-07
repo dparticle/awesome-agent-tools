@@ -6,12 +6,6 @@
   "url": "https://github.com/isxlan0/Codex_AccountSwitch",
   "description": "Manage and switch multiple AI coding accounts locally without restarting development tools.",
   "homepage": "",
-  "category": "quota-account-ops",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-account-switching"
-  ],
-  "category_score": 13.0,
   "stars": 252,
   "forks": 37,
   "open_issues": 6,
@@ -113,25 +107,37 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.483
-    }
+    },
+    "highlights": [
+      "Quota dashboard, auto-refresh (5H / 7D), low-quota alerts and switch prompts",
+      "Import current login, manual token paste, and quick OAuth file import",
+      "API Reverse Proxy - Codex Client Uses Local Reverse Proxy Mode",
+      "Built-in OAuth login flow (callback listener + manual callback URL submit)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "categories": [
+    "accounts"
+  ],
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by yetone/magpie: covers 100% of capabilities (5/5).",
     "note_zh": "已被 yetone/magpie 取代：covers 100% of capabilities (5/5)。",
     "superseded_by": "yetone/magpie",
+    "challenger": "",
     "supersede": {
       "incumbent": "isxlan0/codex_accountswitch",
       "challenger": "yetone/magpie",
       "incumbent_name": "isxlan0/Codex_AccountSwitch",
       "challenger_name": "yetone/magpie",
-      "kind": "auto",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [
@@ -142,13 +148,13 @@
         "usage-analytics"
       ],
       "star_ratio": 22.488,
-      "momentum_ratio": 419.154,
+      "momentum_ratio": 389.221,
       "setup_delta": -28,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "22.49x the stars (5,667 vs 252)",
-        "419.15x the star velocity (435.9/day vs 1.0/day)",
+        "389.22x the star velocity (404.8/day vs 1.0/day)",
         "no harder to set up (18 vs 46 friction)"
       ],
       "evidence": {

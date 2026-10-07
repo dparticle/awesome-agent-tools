@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "full_name": "cloudflare/security-audit-skill",
+  "name": "security-audit-skill",
+  "owner": "cloudflare",
+  "url": "https://github.com/cloudflare/security-audit-skill",
+  "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+  "homepage": "",
+  "stars": 25678,
+  "forks": 1547,
+  "open_issues": 55,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-06-18T14:08:44Z",
+  "updated_at": "2026-10-07T13:34:22Z",
+  "pushed_at": "2026-09-14T19:29:02Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 111,
+  "days_since_push": 22,
+  "health_score": 83,
+  "health_components": {
+    "popularity": 88.2,
+    "momentum": 100.0,
+    "maintenance": 92.0,
+    "documentation": 35.0,
+    "accessibility": 90.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 25678,
+    "days_span": 111,
+    "stars_per_day": 231.33,
+    "lifetime_stars_per_day": 231.33,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "cloudflare/security-audit-skill",
+    "readme_chars": 6946,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "agent-runtime",
+      "gui-desktop",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "d Setup, core principles, platform terminology, workflow overview, and audit anti-patterns",
+      "skills-plugins": "",
+      "agent-runtime": "directory defaults to ~/security-audit-skill/ /run- .",
+      "gui-desktop": "tor-spend hunting classes",
+      "notifications": "LOUD-AND-DEPLOYMENT.md IAM, infrastructure-as-code, container, serverless, ingress, and runtime-configuration hunting classes"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 2,
+      "gui-desktop": 1,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; configure database migration",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database migration"
+    },
+    "doc_score": 35,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "A coding-agent skill that turns your agent into a security auditor.",
+    "summary_zh": "",
+    "install_hint": "npx skills add https://github.com/cloudflare/security-audit-skill \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.288
+    },
+    "highlights": [
+      "Coverage-led hunting -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.",
+      "Target-neutral reporting -- derive REPORT.md, FINDINGS-DETAIL.md, and NEEDS-VALIDATION.md from the verified records and coverage ledger.",
+      "Independent record verification -- fresh agents verify final source claims. Material replacements receive another independent verifier.",
+      "Candidate validation -- give every unique candidate to a fresh verifier that tries to disprove it."
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

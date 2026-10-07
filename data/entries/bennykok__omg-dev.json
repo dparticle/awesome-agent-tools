@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "full_name": "BennyKok/omg.dev",
+  "name": "omg.dev",
+  "owner": "BennyKok",
+  "url": "https://github.com/BennyKok/omg.dev",
+  "description": "omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcocde with mobile client",
+  "homepage": "https://omg.dev",
+  "stars": 547,
+  "forks": 43,
+  "open_issues": 9,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-06-17T07:33:04Z",
+  "updated_at": "2026-10-07T12:07:51Z",
+  "pushed_at": "2026-10-07T12:07:47Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 112,
+  "days_since_push": 0,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 54.8,
+    "momentum": 4.1,
+    "maintenance": 100.0,
+    "documentation": 43.0,
+    "accessibility": 69.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 547,
+    "days_span": 112,
+    "stars_per_day": 4.88,
+    "lifetime_stars_per_day": 4.88,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "BennyKok/omg.dev",
+    "readme_chars": 5317,
+    "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "agent-runtime",
+      "self-hosted",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "",
+      "mobile-access": "",
+      "agent-runtime": "Build your ideas on the go. Give your agents a task from your phone.",
+      "self-hosted": "s for Claude Code, Codex, and other coding agents.",
+      "gui-desktop": "",
+      "notifications": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "mobile-access": 1,
+      "agent-runtime": 2,
+      "self-hosted": 1,
+      "gui-desktop": 1,
+      "notifications": 3,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 31,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Easy. install via native installer / package; needs git clone (build from source); configure sign-in required",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 sign-in required"
+    },
+    "doc_score": 43,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "Build your ideas on the go.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.633
+    },
+    "highlights": [
+      "Managed sessions keep running when the UI disconnects.",
+      "Your existing agent subscriptions or API keys.",
+      "Several coding-agent sessions in parallel.",
+      "Transcripts and follow-ups in the web UI."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "desktop-ui",
+    "mobile"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

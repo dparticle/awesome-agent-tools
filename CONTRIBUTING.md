@@ -72,6 +72,16 @@ state, or remove/correct the `supersede` edge:
 }
 ```
 
+> **A curated `supersede` entry is a nomination, not a verdict.** The pair is
+> re-checked against the same capability-coverage rule the automatic engine
+> uses. If the challenger genuinely covers the incumbent it is recorded as a
+> supersede and the incumbent retires; if it does not, the pair is reported as a
+> **challenger** — visible in the README under "Challengers", but nothing is
+> retired. That is why `magpie`/`cc-switch` is a challenger rather than an
+> elimination: magpie covers ~62% of cc-switch's capabilities and has ~4% of its
+> stars, so declaring the older tool replaced would contradict this project's
+> own methodology.
+
 **A capability was misdetected.** The analyser matches patterns from
 [`config/capabilities.json`](config/capabilities.json) against the README body.
 If a tool is credited with something it does not do (or misses something it
@@ -105,15 +115,17 @@ scripts/
   agentindex/
     util.py                IO, text normalisation, table escaping
     github.py              cached, budget-aware GitHub REST client
-    discover.py            candidate discovery + category assignment
+    discover.py            candidate discovery + relevance judgement
     readme_analysis.py     README -> capabilities, setup friction, doc score
+    highlights.py          README -> concrete feature bullets
+    taxonomy.py            category DISCOVERY by clustering capabilities
     scoring.py             health score, quality gates, tiers, momentum
-    supersede.py           the elimination engine
+    supersede.py           the elimination engine and lifecycle states
     pipeline.py            orchestration and persistence
     render.py              README / docs generation
 config/                    all tunable behaviour (no logic lives here)
 data/                      generated state, committed on purpose
-tests/                     unit tests over the analyser and the rules
+tests/                     unit tests over the analyser, taxonomy and rules
 ```
 
 **Run the tests before opening a PR:**
@@ -126,23 +138,42 @@ python scripts/agentindex.py render --check
 
 ---
 
-## Adding a category
+## Categories are discovered, not declared
 
-Categories live in [`config/categories.json`](config/categories.json). Each one
-needs:
+**There is no list of categories to edit.** No file enumerates them, and adding
+one by hand is not possible — deliberately.
 
-- `id`, `order`, `title` (en + zh), `tagline` (en + zh), `problem` (en + zh)
-- `queries` — GitHub search queries used for discovery
-- `required_any` — capabilities a tool **must** have to belong here
-- `any_capabilities` / `boost_capabilities` — used for ranking within the category
+Each run clusters the indexed tools by how prominently their READMEs document
+each capability, and the resulting groups become the sections you see. A tool
+that spans several problem areas appears under each of them. See
+[docs/TAXONOMY.md](docs/TAXONOMY.md) for the algorithm.
 
-Keep `queries` narrow. A broad query burns search budget and floods the gates
-with noise; the pre-filter in `config/discovery.json` catches the worst of it,
-but precision at discovery time is cheaper than filtering later.
+What this means for contributions:
 
-If your category needs a capability that does not exist yet, add it to
-[`config/capabilities.json`](config/capabilities.json) first — with a `problem`
-statement, since that text is what readers see.
+- **To add a category, add tools that share a problem.** If several tools
+  genuinely do something no current section covers, a section will appear for
+  it on the next run. That is the only mechanism, and it keeps the taxonomy
+  honest about what the ecosystem actually looks like.
+- **To influence naming**, edit `label` / `short` / `problem` on the relevant
+  capability in [`config/capabilities.json`](config/capabilities.json). Category
+  titles are composed from those strings, so renaming a capability renames any
+  category built on it.
+- **To widen discovery**, add queries to
+  [`config/queries.json`](config/queries.json). These are deliberately decoupled
+  from categories: they only decide what gets *looked at*, never how it is
+  grouped.
+- **A category that stops being distinct disappears on its own**, and its tools
+  move to whichever section now fits them best.
+
+Tuning knobs live at the top of `scripts/agentindex/taxonomy.py`:
+`DEFAULT_MERGE_THRESHOLD` (how similar two groups must be to merge),
+`MIN_CLUSTER_TOOLS` (how large a section must be to exist) and
+`UBIQUITY_CEILING` (how common a capability must be before it is treated as
+describing the whole field rather than any category).
+
+If you change the threshold, re-run the pipeline and **read the resulting
+sections** — the values in the file were chosen by sweeping and inspecting, and
+the comments record what the neighbours produce.
 
 ---
 
@@ -154,6 +185,7 @@ A capability is a *problem a tool solves*, not a feature name. Good:
 {
   "id": "auto-failover",
   "label": { "en": "Automatic failover", "zh": "自动故障转移" },
+  "short": { "en": "Failover", "zh": "故障转移" },
   "problem": {
     "en": "When one account or provider dies, work should continue on the next one instead of stopping.",
     "zh": "某个账号或供应商不可用时，任务应自动切到下一个而不是中断。"

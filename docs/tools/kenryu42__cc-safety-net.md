@@ -4,7 +4,7 @@
 
 > English · 简体中文 · 日本語
 
-[Repository](https://github.com/kenryu42/cc-safety-net) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/kenryu42/cc-safety-net) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 60/100 |
 | Documentation | 57/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-12-25 |
 | Last push | 2026-10-07 (0 days ago) |
 | Analyzed README | 8,171 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (3/3).
 
 ## What it solves
 

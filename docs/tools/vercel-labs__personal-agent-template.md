@@ -4,7 +4,7 @@
 
 > Template.
 
-[Repository](https://github.com/vercel-labs/personal-agent-template) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/vercel-labs/personal-agent-template) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,18 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 474 |
-| Star velocity | 4.0/day (lifetime basis, 117d span) |
+| Star velocity | 4.0/day (lifetime basis, 118d span) |
 | Health score | 42/100 |
 | Documentation | 50/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-11 |
 | Last push | 2026-09-02 (35 days ago) |
 | Analyzed README | 7,559 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -74,7 +72,7 @@ Score **50/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.5 |
-| momentum | 3.4 |
+| momentum | 3.3 |
 | maintenance | 78.0 |
 | documentation | 50.0 |
 | accessibility | 22.0 |

@@ -6,12 +6,6 @@
   "url": "https://github.com/Dataojitori/nocturne_memory",
   "description": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw.",
   "homepage": "https://misaligned.top/memory",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 20.0,
   "stars": 1376,
   "forks": 171,
   "open_issues": 5,
@@ -155,18 +149,31 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.529
-    }
+    },
+    "highlights": [
+      "如果使用 SQLite，系统会在应用迁移之前自动备份你的数据库文件（如 yourdb.db.20260303143000.bak）。",
+      "Boot URIs：system://boot 启动时自动载入的记忆——你的 AI 的\"灵魂锚点\"。为 AI 建立了身份和关系记忆后，把 URI 加到这里即可自动唤醒。",
+      "使用命名空间时，可为每个 Agent 指定独立的启动记忆。未设置的 namespace 会降级到全局 Boot URIs。",
+      "如果是 Antigravity：args 必须指向 backend/mcp_wrapper.py（解决 Windows CRLF 问题）。"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:13+00:00",
+  "fetched_at": "2026-10-07T16:31:15+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mobile",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

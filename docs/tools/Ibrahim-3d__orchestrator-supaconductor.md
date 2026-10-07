@@ -4,7 +4,7 @@
 
 > One command builds features, fixes bugs, and ships code — with automated planning, execution, and quality checks.
 
-[Repository](https://github.com/Ibrahim-3d/orchestrator-supaconductor) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/Ibrahim-3d/orchestrator-supaconductor) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 380 |
-| Star velocity | 1.6/day (lifetime basis, 231d span) |
+| Star velocity | 1.6/day (lifetime basis, 232d span) |
 | Health score | 48/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-09-27 (9 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [redhat-et/ripwire](https://github.com/redhat-et/ripwire)** — Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).
 
 ## What it solves
 

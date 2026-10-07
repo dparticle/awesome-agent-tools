@@ -4,7 +4,7 @@
 
 > Discuss the SDK on Discord
 
-[Repository](https://github.com/mark3labs/mcp-go) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/mark3labs/mcp-go) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

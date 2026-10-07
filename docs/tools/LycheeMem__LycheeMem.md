@@ -4,7 +4,7 @@
 
 > LycheeMemory is a compact memory framework for LLM agents.
 
-[Repository](https://github.com/LycheeMem/LycheeMem) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/LycheeMem/LycheeMem) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-03-23 |
-| Last push | 2026-08-06 (61 days ago) |
+| Last push | 2026-08-06 (62 days ago) |
 | Analyzed README | 36,490 chars from `raw:HEAD/README.md` |
 
 ## What it solves

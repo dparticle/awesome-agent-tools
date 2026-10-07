@@ -6,12 +6,6 @@
   "url": "https://github.com/Pimzino/spec-workflow-mcp",
   "description": "A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.",
   "homepage": "",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 13.0,
   "stars": 4301,
   "forks": 355,
   "open_issues": 10,
@@ -127,18 +121,87 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.267
-    }
+    },
+    "highlights": [
+      "Keep dashboard on localhost (127.0.0.1)",
+      "Multi-Language Support - Available in 11 languages",
+      "Task Progress Tracking - Visual progress bars and detailed status",
+      "Real-Time Web Dashboard - Monitor specs, tasks, and progress with live updates"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "pimzino/spec-workflow-mcp",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "Pimzino/spec-workflow-mcp",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "security-isolation",
+        "worktree-isolation"
+      ],
+      "star_ratio": 63.847,
+      "momentum_ratio": 103.774,
+      "setup_delta": -7,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "63.85x the stars (274,608 vs 4,301)",
+        "103.77x the star velocity (1048.1/day vs 10.1/day)",
+        "no harder to set up (57 vs 64 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "security-isolation",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 89,
+        "incumbent_setup_score": 64,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

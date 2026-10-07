@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "full_name": "sahithvibudhi/vibe-tree",
+  "name": "vibe-tree",
+  "owner": "sahithvibudhi",
+  "url": "https://github.com/sahithvibudhi/vibe-tree",
+  "description": "Run AI coding agents in parallel, one git worktree each. Desktop, web, and CLI.",
+  "homepage": "https://sahithvibudhi.github.io/vibe-tree/",
+  "stars": 267,
+  "forks": 31,
+  "open_issues": 13,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "claude",
+    "claude-code",
+    "desktop-app",
+    "gemini-cli",
+    "git-worktree",
+    "typescript",
+    "vibe-coding"
+  ],
+  "created_at": "2025-07-29T07:18:49Z",
+  "updated_at": "2026-10-04T23:12:37Z",
+  "pushed_at": "2026-07-25T19:30:49Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 435,
+  "days_since_push": 73,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 48.5,
+    "momentum": 0.5,
+    "maintenance": 78.0,
+    "documentation": 42.0,
+    "accessibility": 94.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 267,
+    "days_span": 435,
+    "stars_per_day": 0.61,
+    "lifetime_stars_per_day": 0.61,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "sahithvibudhi/vibe-tree",
+    "readme_chars": 4406,
+    "capabilities": [
+      "remote-control",
+      "parallel-execution",
+      "worktree-isolation",
+      "session-persistence",
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "s are detected and opened next to the terminal",
+      "parallel-execution": "f, and throw away failed experiments with one click.",
+      "worktree-isolation": "dex CLI, Gemini CLI, Aider, opencode, and any other terminal program.",
+      "session-persistence": "",
+      "agent-runtime": "Release CI Works with Claude Code, OpenAI Codex CLI, Gemini CLI, Aider, opencode, and any other terminal program. Website · Docs · Demo · Download --- VibeTree is mission control for parallel AI coding agents.",
+      "gui-desktop": "ed checkout with its own branch and a persistent terminal.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Gemini CLI"
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "parallel-execution": 1,
+      "worktree-isolation": 7,
+      "session-persistence": 1,
+      "agent-runtime": 2,
+      "gui-desktop": 2,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 14,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "Homebrew install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "pnpm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via Homebrew install, native installer / package; needs pnpm install/build; configure environment variables, sign-in required; one-click setup",
+      "note_zh": "开箱即用。可通过 Homebrew install、native installer / package 安装；需要 pnpm install/build；需配置 environment variables、sign-in required；one-click setup"
+    },
+    "doc_score": 42,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Aider"
+    ],
+    "summary_en": "Run every AI coding agent in its own git worktree, in parallel.",
+    "summary_zh": "",
+    "install_hint": "brew install --cask --no-quarantine sahithvibudhi/tap/vibetree",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.497
+    },
+    "highlights": [
+      "The desktop app embeds its server on 127.0.0.1 with a per-launch token; nothing is exposed to the network."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

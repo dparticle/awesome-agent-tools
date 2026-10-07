@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "full_name": "gmickel/flow-next",
+  "name": "flow-next",
+  "owner": "gmickel",
+  "url": "https://github.com/gmickel/flow-next",
+  "description": "Faster than your agent alone. And better. A workflow plugin that takes a bug, idea or ticket to a verified pull request: specs, cross-model review by risk, live QA, receipts in your repo. Claude Code · Codex · Cursor · Droid · Grok Build · OpenCode.",
+  "homepage": "https://flow-next.dev",
+  "stars": 706,
+  "forks": 59,
+  "open_issues": 13,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agentic-workflow",
+    "ai-agent",
+    "ai-workflow",
+    "anthropic",
+    "autonomous-agent",
+    "claude-code",
+    "claude-code-plugin",
+    "cli",
+    "code-review",
+    "codex",
+    "execution",
+    "factory-droid",
+    "marketplace",
+    "openai-codex",
+    "planning",
+    "plugin",
+    "sdlc",
+    "spec-driven-development",
+    "workflow"
+  ],
+  "created_at": "2025-12-26T22:27:07Z",
+  "updated_at": "2026-10-06T15:32:04Z",
+  "pushed_at": "2026-10-06T20:45:26Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 284,
+  "days_since_push": 0,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 57.0,
+    "momentum": 2.1,
+    "maintenance": 100.0,
+    "documentation": 58.0,
+    "accessibility": 37.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 706,
+    "days_span": 284,
+    "stars_per_day": 2.49,
+    "lifetime_stars_per_day": 2.49,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "gmickel/flow-next",
+    "readme_chars": 13848,
+    "capabilities": [
+      "model-routing",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "agent-runtime": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "agent-runtime": 1,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "high",
+      "score": 63,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source); configure config.json/yaml/toml, sign-in required",
+      "note_zh": "配置较重。需要 git clone (build from source)；需配置 config.json/yaml/toml、sign-in required"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Droid"
+    ],
+    "summary_en": "Agents generate.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 2.527
+    },
+    "highlights": [
+      "Review backends: Codex, Copilot, Cursor, Claude and host review, and why the reviewer must come from another family."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

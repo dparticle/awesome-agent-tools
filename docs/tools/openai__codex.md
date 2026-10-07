@@ -4,7 +4,7 @@
 
 > If you want Codex in your code editor (VS Code, Cursor, Windsurf), install in your IDE.
 
-[Repository](https://github.com/openai/codex) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/openai/codex) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

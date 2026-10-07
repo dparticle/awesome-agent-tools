@@ -1,12 +1,12 @@
 {
-  "$comment": "Human curation layer. The crawler writes data/curated.json automatically from `supersede` entries here plus `data/entries/*.json`; this file is the hand-edited source of truth for verdicts a machine should not make alone.",
-  "version": 1,
+  "$comment": "Human curation layer. Entries here are NOMINATIONS, not verdicts: each `supersede` pair is re-checked against the same capability-coverage rule the automatic engine uses (see scripts/agentindex/supersede.py). If the challenger genuinely covers the incumbent it is recorded as a supersede and the incumbent retires; if it does not, the pair is recorded as a 'challenger' — reported in the README, but nothing is retired.",
+  "version": 2,
 
   "supersede": [
     {
       "incumbent": "farion1231/cc-switch",
       "challenger": "yetone/magpie",
-      "note": "magpie covers cc-switch's core job (multi-account / provider switching for Claude Code and Codex) and additionally routes other models through the same agent loop, so it strictly covers the older tool's feature set.",
+      "note": "Both manage multiple accounts and providers for Claude Code and Codex, and magpie additionally routes other models through the same agent loop.",
       "since": "2026-10-07"
     }
   ],
@@ -14,11 +14,10 @@
   "states": {},
 
   "notes": {
-    "$comment": "Free-form annotations shown on a tool's row when the crawler cannot infer them.",
+    "$comment": "Free-form annotations shown on a tool's row. A note replaces the generated prose but never overrides the lifecycle state.",
     "farion1231/cc-switch": {
-      "state": "superseded",
-      "note_en": "Still very popular and actively maintained, but magpie covers the same ground plus cross-model routing. Kept in the graveyard as the incumbent reference.",
-      "note_zh": "依然很流行且在持续维护，但 magpie 覆盖了同样的场景并额外支持跨模型路由。作为上一代参照保留在淘汰区。"
+      "note_en": "Still the most widely used tool in this space and actively maintained.",
+      "note_zh": "仍是这一领域使用最广、维护活跃的工具。"
     }
   }
 }

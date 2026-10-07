@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "full_name": "Nanako0129/syrtis",
+  "name": "syrtis",
+  "owner": "Nanako0129",
+  "url": "https://github.com/Nanako0129/syrtis",
+  "description": "AI token usage & quota monitor for the macOS menu bar — native Swift, Liquid Glass, 3D contribution graph. Tracks Claude Code, Codex, Cursor, OpenCode & 25+ agents locally.",
+  "homepage": "https://syrtis.nyanako.com/",
+  "stars": 406,
+  "forks": 38,
+  "open_issues": 10,
+  "language": "Swift",
+  "license": "MIT",
+  "topics": [
+    "ai-usage",
+    "claude-code",
+    "codex",
+    "liquid-glass",
+    "macos",
+    "menu-bar",
+    "rust",
+    "sparkle",
+    "swiftui",
+    "token-tracking"
+  ],
+  "created_at": "2026-06-10T05:08:47Z",
+  "updated_at": "2026-10-07T07:25:40Z",
+  "pushed_at": "2026-10-07T10:16:56Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 119,
+  "days_since_push": 0,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 52.2,
+    "momentum": 2.8,
+    "maintenance": 100.0,
+    "documentation": 47.0,
+    "accessibility": 72.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 406,
+    "days_span": 119,
+    "stars_per_day": 3.41,
+    "lifetime_stars_per_day": 3.41,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Nanako0129/syrtis",
+    "readme_chars": 8164,
+    "capabilities": [
+      "quota-management",
+      "multi-agent-orchestration",
+      "memory-context",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "",
+      "multi-agent-orchestration": "",
+      "memory-context": "rsing, aggregation, and pricing; the app-owned crates/tbcoreffi adds quota fetching and exposes the C ABI.",
+      "gui-desktop": "pple Silicon Mac on macOS 14+ (Liquid Glass needs macOS 26 and the glass panel macOS 27; earlier systems get a vibrancy fallback).",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "multi-agent-orchestration": 1,
+      "memory-context": 1,
+      "gui-desktop": 2,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "low",
+      "score": 36,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "Homebrew install"
+      ],
+      "hard_signals": [
+        "cargo build"
+      ],
+      "config_signals": [
+        "OAuth login flow",
+        "sign-in required",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "note_en": "Easy. install via Homebrew install; needs cargo build; configure OAuth login flow, sign-in required; GUI application",
+      "note_zh": "较易上手。可通过 Homebrew install 安装；需要 cargo build；需配置 OAuth login flow、sign-in required；GUI application"
+    },
+    "doc_score": 47,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "Syrtis is a free, open-source macOS menu-bar app that reads the session logs your AI coding tools already write to disk and displays your tokens, costs, and subscription quotas.",
+    "summary_zh": "",
+    "install_hint": "brew install --cask nanako0129/tap/syrtis",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.347
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "categories": [
+    "quota"
+  ],
+  "primary_category": "quota",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

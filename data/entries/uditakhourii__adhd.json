@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "full_name": "UditAkhourii/adhd",
+  "name": "adhd",
+  "owner": "UditAkhourii",
+  "url": "https://github.com/UditAkhourii/adhd",
+  "description": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
+  "homepage": "https://divergent.sh",
+  "stars": 4359,
+  "forks": 294,
+  "open_issues": 12,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "adhd",
+    "agents",
+    "ai",
+    "ai-agents",
+    "brainstorm",
+    "chain-of-thought",
+    "claude",
+    "claude-agent-sdk",
+    "creativity",
+    "divergent-thinking",
+    "ideation",
+    "interdisciplinary",
+    "llm",
+    "llm-tools",
+    "nodejs",
+    "prompt-engineering",
+    "tree-of-thought",
+    "typescript"
+  ],
+  "created_at": "2026-05-25T11:06:35Z",
+  "updated_at": "2026-10-07T13:17:41Z",
+  "pushed_at": "2026-10-05T18:34:51Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 135,
+  "days_since_push": 1,
+  "health_score": 68,
+  "health_components": {
+    "popularity": 72.8,
+    "momentum": 26.9,
+    "maintenance": 100.0,
+    "documentation": 58.0,
+    "accessibility": 100.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 4359,
+    "days_span": 135,
+    "stars_per_day": 32.29,
+    "lifetime_stars_per_day": 32.29,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "UditAkhourii/adhd",
+    "readme_chars": 13410,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "billing-metering",
+      "skills-plugins",
+      "agent-runtime",
+      "team-collaboration",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "vs 6, novelty 8 vs 3, trap detection ~8 vs ~2.",
+      "billing-metering": "ndpoints at 30s; daemonize the CLI with ticket IDs; race 3 LLM replicas, cache the winner.",
+      "skills-plugins": "# ADHD — a skill for agents",
+      "agent-runtime": "zy debugging, naming, API surface design, strategy, and any prompt of the shape *\"give me a few ways to…\".",
+      "team-collaboration": "Open to collaboration with research labs and applied-AI teams working on reasoning, planning, and agentic systems.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "billing-metering": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "team-collaboration": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 9,
+      "out_of_the_box": true,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via npx one-liner, global npm install; needs npm install/build; one-click setup",
+      "note_zh": "开箱即用。可通过 npx one-liner、global npm install 安装；需要 npm install/build；one-click setup"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "Linear Chain-of-Thought anchors on whatever it says first.",
+    "summary_zh": "",
+    "install_hint": "npx skills add UditAkhourii/adhd",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.759
+    },
+    "highlights": [
+      "A measured duel vs. single-shot by Shichinomiya (@shichinomiya_s) — independent blind-scored benchmark (2 problems, LLM-as-judge, A/B positions swapped). ADHD won both, with the biggest gai…",
+      "🔬 An independent evidence-based research review (11 sources, 8 validation rounds) was published against the method — findings tracked openly as issues #16–#18.",
+      "🔌 Adopted by repowire — the first OSS project to officially ship ADHD, ported onto its mesh-orchestrator primitives in PR #313 (merged).",
+      "Plus shortlist: scout-fork to alternate endpoints at 30s; daemonize the CLI with ticket IDs; race 3 LLM replicas, cache the winner."
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills",
+    "teams"
+  ],
+  "primary_category": "teams",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

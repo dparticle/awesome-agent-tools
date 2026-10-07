@@ -4,7 +4,7 @@
 
 > Optional Jev reranking — rerank memory search results with Jev through the TypeSafe API, with no local model download.
 
-[Repository](https://github.com/zilliztech/memsearch) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/zilliztech/memsearch) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -24,7 +24,7 @@
 | Last push | 2026-09-24 (13 days ago) |
 | Analyzed README | 29,322 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).
 
 ## What it solves
 

@@ -4,7 +4,7 @@
 
 > Juggle every Claude Code account from one terminal: switch in a keypress, track live 5h / 7d usage, auto-switch before a limit stops you, even hand a task to another account from inside Claude.
 
-[Repository](https://github.com/uwuclxdy/clauth) · [Back to index](../../README.md) · Category: **quota-account-ops**
+[Repository](https://github.com/uwuclxdy/clauth) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

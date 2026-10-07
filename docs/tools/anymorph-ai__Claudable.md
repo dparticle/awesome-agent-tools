@@ -4,7 +4,7 @@
 
 > Claudable is a powerful Next.js-based web app builder that combines Claude Code's (Cursor CLI also supported!) advanced AI agent capabilities with Lovable's simple and intuitive app building experience.
 
-[Repository](https://github.com/anymorph-ai/Claudable) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/anymorph-ai/Claudable) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 49/100 |
 | Documentation | 60/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-20 |
 | Last push | 2026-04-11 (179 days ago) |
 | Analyzed README | 11,391 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).
 
 ## What it solves
 

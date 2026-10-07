@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "full_name": "MemTensor/memmy-agent",
+  "name": "memmy-agent",
+  "owner": "MemTensor",
+  "url": "https://github.com/MemTensor/memmy-agent",
+  "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
+  "homepage": "https://memmy.bot",
+  "stars": 2066,
+  "forks": 199,
+  "open_issues": 35,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "agentic-ai",
+    "ai-agents",
+    "chatgpt",
+    "claude-code",
+    "cli",
+    "codex",
+    "cursor",
+    "desktop-app",
+    "desktop-pet",
+    "dsh-plugin",
+    "hermes-agent",
+    "llm",
+    "long-term-memory",
+    "mcp",
+    "memory",
+    "openai-api",
+    "openclaw",
+    "personal-ai",
+    "tui"
+  ],
+  "created_at": "2026-07-16T07:57:45Z",
+  "updated_at": "2026-10-07T10:29:58Z",
+  "pushed_at": "2026-09-30T12:23:27Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 83,
+  "days_since_push": 7,
+  "health_score": 60,
+  "health_components": {
+    "popularity": 66.3,
+    "momentum": 20.7,
+    "maintenance": 100.0,
+    "documentation": 60.0,
+    "accessibility": 58.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2066,
+    "days_span": 83,
+    "stars_per_day": 24.89,
+    "lifetime_stars_per_day": 24.89,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "MemTensor/memmy-agent",
+    "readme_chars": 9833,
+    "capabilities": [
+      "model-routing",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "complete Memory + Agent Runtime.",
+      "memory-context": "assistants; its exploration of multi-platform messaging channels directly inspired Memmy's channel connection design.",
+      "agent-runtime": "details about the architecture, memory service, and integration methods, see the Memmy documentation.",
+      "mcp-support": "Agent can \"understand you better the more you use it\".",
+      "team-collaboration": "ory infrastructure, and its scope goes beyond coding Agents:",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
+    },
+    "capability_hits": {
+      "model-routing": 2,
+      "memory-context": 1,
+      "agent-runtime": 1,
+      "mcp-support": 1,
+      "team-collaboration": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 42,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        ".env file",
+        "config.json/yaml/toml",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, .env file; GUI application",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、.env file；GUI application"
+    },
+    "doc_score": 60,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "has a Chinese translation",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "DeepSeek Harness, OpenClaw, Hermes, Claude Code, Codex, Cursor, WorkBuddy, OpenCode, Pi...they all work!",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/MemTensor/memmy-agent/main/scripts/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.61
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing",
+    "teams"
+  ],
+  "primary_category": "teams",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "memtensor/memmy-agent",
+      "challenger": "tencentcloud/octop",
+      "incumbent_name": "MemTensor/memmy-agent",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "team-collaboration"
+      ],
+      "star_ratio": 3.692,
+      "momentum_ratio": 3.368,
+      "setup_delta": -16,
+      "dominance": 0.951,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "3.69x the stars (7,628 vs 2,066)",
+        "3.37x the star velocity (83.8/day vs 24.9/day)",
+        "no harder to set up (26 vs 42 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "team-collaboration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 60,
+        "challenger_health": 80,
+        "incumbent_setup_score": 42,
+        "challenger_setup_score": 26
+      }
+    }
+  }
+}

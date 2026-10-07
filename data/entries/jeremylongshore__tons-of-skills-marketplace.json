@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "full_name": "jeremylongshore/tons-of-skills-marketplace",
+  "name": "tons-of-skills-marketplace",
+  "owner": "jeremylongshore",
+  "url": "https://github.com/jeremylongshore/tons-of-skills-marketplace",
+  "description": "Model-agnostic agent-skills platform with a harness-free canonical layer, verified adapters, and the ccpi package manager. Explore at tonsofskills.com.",
+  "homepage": "https://tonsofskills.com",
+  "stars": 2819,
+  "forks": 413,
+  "open_issues": 23,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "automation",
+    "claude-code",
+    "claude-code-plugins",
+    "developer-tools",
+    "devops",
+    "llm",
+    "marketplace",
+    "mcp",
+    "plugin-marketplace",
+    "plugin-system",
+    "saas",
+    "skills"
+  ],
+  "created_at": "2025-10-10T01:01:00Z",
+  "updated_at": "2026-10-07T10:58:14Z",
+  "pushed_at": "2026-10-07T10:26:32Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 362,
+  "days_since_push": 0,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 69.0,
+    "momentum": 6.5,
+    "maintenance": 100.0,
+    "documentation": 41.0,
+    "accessibility": 71.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2819,
+    "days_span": 362,
+    "stars_per_day": 7.79,
+    "lifetime_stars_per_day": 7.79,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "jeremylongshore/tons-of-skills-marketplace",
+    "readme_chars": 12896,
+    "capabilities": [
+      "skills-plugins",
+      "mcp-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "",
+      "mcp-support": ""
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "mcp-support": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 29,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. configure database dependency; one-click setup",
+      "note_zh": "较易上手。需配置 database dependency；one-click setup"
+    },
+    "doc_score": 41,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "A model-agnostic agent-skills platform.",
+    "summary_zh": "",
+    "install_hint": "pnpm add -g @intentsolutionsio/ccpi",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 3.645
+    },
+    "highlights": [
+      "By job to be done — tonsofskills.com/cowork, curated bundles as one-click downloads."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

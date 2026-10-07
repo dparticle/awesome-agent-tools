@@ -6,12 +6,6 @@
   "url": "https://github.com/zilliztech/memsearch",
   "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
   "homepage": "https://zilliztech.github.io/memsearch/",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 14.0,
   "stars": 2725,
   "forks": 265,
   "open_issues": 273,
@@ -147,25 +141,39 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 1.057
-    }
+    },
+    "highlights": [
+      "🔍 Progressive retrieval, hybrid search, smart dedup, live sync — 3-layer recall (search → expand → transcript); dense vector + BM25 sparse + RRF reranking; SHA-256 content hashing skips unc…",
+      "Resume debugging threads — ask how a similar Redis, Docker, database, or deployment issue was fixed last time.",
+      "🌐 All Platforms, One Memory — memories flow across Claude Code, Codex, DeepSeek Harness, OpenClaw, and OpenCode. A conversation in one agent becomes searchable context in all others — no ex…",
+      "DeepSeek Harness support — MemSearch now brings automatic capture, pre-step memory injection, native skill-based recall, background maintenance, and a read-only memory browser to DeepSeek H…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
     "supersede": {
       "incumbent": "zilliztech/memsearch",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "zilliztech/memsearch",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "auto",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [
@@ -177,15 +185,15 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 10.717,
-      "momentum_ratio": 11.487,
-      "setup_delta": -17,
-      "dominance": 1.0,
+      "star_ratio": 2.799,
+      "momentum_ratio": 7.385,
+      "setup_delta": -23,
+      "dominance": 0.984,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "10.72x the stars (29,204 vs 2,725)",
-        "11.49x the star velocity (130.4/day vs 11.3/day)",
-        "no harder to set up (32 vs 49 friction)"
+        "2.80x the stars (7,628 vs 2,725)",
+        "7.39x the star velocity (83.8/day vs 11.3/day)",
+        "no harder to set up (26 vs 49 friction)"
       ],
       "evidence": {
         "incumbent_capabilities": [
@@ -206,18 +214,19 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
+          "parallel-execution",
           "self-hosted",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "worktree-isolation"
         ],
         "incumbent_health": 57,
-        "challenger_health": 88,
+        "challenger_health": 80,
         "incumbent_setup_score": 49,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 26
       }
     }
   }

@@ -4,7 +4,7 @@
 
 > Built by world-class engineers, for vibecoders at flowser.ai — AI Agents with computers for GTM
 
-[Repository](https://github.com/withkynam/vibecode-pro-max-kit) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/withkynam/vibecode-pro-max-kit) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

@@ -6,12 +6,6 @@
   "url": "https://github.com/hoodini/ai-agents-skills",
   "description": "🧠 AI Agent Skills Repository - A curated collection of specialized skills for AI coding agents (Claude Code, GitHub Copilot, Cursor, Windsurf). Created by Yuval Avidani using GitHub Copilot via VS Code Insiders.",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 16.0,
   "stars": 282,
   "forks": 68,
   "open_issues": 4,
@@ -24,7 +18,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 272,
+  "age_days": 273,
   "days_since_push": 87,
   "health_score": 48,
   "health_components": {
@@ -37,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 282,
-    "days_span": 272,
-    "stars_per_day": 1.04,
-    "lifetime_stars_per_day": 1.04,
+    "days_span": 273,
+    "stars_per_day": 1.03,
+    "lifetime_stars_per_day": 1.03,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -137,18 +131,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.122
-    }
+    },
+    "highlights": [
+      "scripts/extract_frames.py — ffprobe + ffmpeg -q:v 2 extraction with auto-computed scrollBudget (≈26 px per frame, clamped to [2500, 8000])",
+      "Auto-routes the layout per archetype: screen-share footage shows the screen content (top 2/3) with rounded speaker PIP at bottom 1/3; full-frame selfie shows the speaker prominently with ca…",
+      "Two-pass loudnorm to -14 LUFS / -1 dBTP / LRA 11 (TikTok / Reels / YouTube standard)",
+      "Word-by-word video-title karaoke: scale-pop entrance with \\fscx150\\fscy150\\t(0,140,\\fscx100\\fscy100), accent words get yellow + rotation jitter, English brand tokens auto-route to Anton upp…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "categories": [
+    "billing",
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

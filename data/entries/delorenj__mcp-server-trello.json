@@ -6,12 +6,6 @@
   "url": "https://github.com/delorenj/mcp-server-trello",
   "description": "A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards.",
   "homepage": "",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 14.0,
   "stars": 445,
   "forks": 147,
   "open_issues": 26,
@@ -24,7 +18,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 641,
+  "age_days": 642,
   "days_since_push": 13,
   "health_score": 52,
   "health_components": {
@@ -37,7 +31,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 445,
-    "days_span": 641,
+    "days_span": 642,
     "stars_per_day": 0.69,
     "lifetime_stars_per_day": 0.69,
     "basis": "lifetime",
@@ -117,18 +111,87 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.393
-    }
+    },
+    "highlights": [
+      "Built-in Rate Limiting: Respects Trello's API limits (300 requests/10s per API key, 100 requests/10s per token)",
+      "Rate limiting handled for you: respects Trello's API limits automatically (300 req/10s per key, 100 req/10s per token).",
+      "Due Date (dueDate): Accepts full ISO 8601 format with time (e.g., 2023-12-31T12:00:00Z)",
+      "Start Date (start): Accepts date only in YYYY-MM-DD format (e.g., 2025-08-05)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "delorenj/mcp-server-trello",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "delorenj/mcp-server-trello",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 65.627,
+      "momentum_ratio": 188.957,
+      "setup_delta": -2,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "65.63x the stars (29,204 vs 445)",
+        "188.96x the star velocity (130.4/day vs 0.7/day)",
+        "no harder to set up (32 vs 34 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 88,
+        "incumbent_setup_score": 34,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

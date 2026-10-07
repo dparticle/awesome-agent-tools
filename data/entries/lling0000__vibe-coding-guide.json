@@ -1,0 +1,208 @@
+{
+  "schema": 1,
+  "full_name": "Lling0000/Vibe_coding_guide",
+  "name": "Vibe_coding_guide",
+  "owner": "Lling0000",
+  "url": "https://github.com/Lling0000/Vibe_coding_guide",
+  "description": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
+  "homepage": "https://lling0000.github.io/Vibe_coding_guide/",
+  "stars": 231,
+  "forks": 22,
+  "open_issues": 4,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-workflows",
+    "agentic-engineering",
+    "ai-agents",
+    "ai-assisted-development",
+    "ai-coding",
+    "bilingual",
+    "codex",
+    "coding-agents",
+    "developer-productivity",
+    "developer-tools",
+    "documentation",
+    "engineering-workflow",
+    "english-chinese",
+    "git-worktrees",
+    "multi-agent",
+    "prompt-engineering",
+    "software-engineering",
+    "tutorial",
+    "vibe-coding",
+    "worktree"
+  ],
+  "created_at": "2026-05-05T14:19:27Z",
+  "updated_at": "2026-10-01T15:12:38Z",
+  "pushed_at": "2026-06-25T15:20:04Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 155,
+  "days_since_push": 104,
+  "health_score": 41,
+  "health_components": {
+    "popularity": 47.3,
+    "momentum": 1.2,
+    "maintenance": 55.0,
+    "documentation": 48.0,
+    "accessibility": 70.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 231,
+    "days_span": 155,
+    "stars_per_day": 1.49,
+    "lifetime_stars_per_day": 1.49,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Lling0000/Vibe_coding_guide",
+    "readme_chars": 5843,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "这个断层：把 AI Coding 当成一套工程工作流来管理，从 spec、上下文、计划、实现、review、测试、提交到交接，都要可重复、可审查、可恢复。",
+      "worktree-isolation": "、上下文、计划、实现、review、测试、提交到交接，都要可重复、可审查、可恢复。",
+      "memory-context": "",
+      "agent-runtime": "",
+      "mcp-support": "与判断 16-19 安全、高阶心法、完整工作流、反模式",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "worktree-isolation": 2,
+      "memory-context": 1,
+      "agent-runtime": 1,
+      "mcp-support": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. No setup signals found in the README.",
+      "note_zh": "较易上手。README 中没有找到安装/配置说明。"
+    },
+    "doc_score": 48,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "links to dedicated docs",
+      "publishes a roadmap"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Aider"
+    ],
+    "summary_en": "把 AI Coding 从 prompt 实验，升级为可审查、可验证、可交付的工程工作流。",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 1.711
+    },
+    "highlights": [
+      "读第 1-2 章，理解“写字符”到“管理 Agent 注意力”的角色变化。"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "categories": [
+    "isolation-parallelism"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 maxritter/pilot-shell 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "maxritter/pilot-shell",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "lling0000/vibe_coding_guide",
+      "challenger": "maxritter/pilot-shell",
+      "incumbent_name": "Lling0000/Vibe_coding_guide",
+      "challenger_name": "maxritter/pilot-shell",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "worktree-isolation"
+      ],
+      "star_ratio": 9.017,
+      "momentum_ratio": 3.946,
+      "setup_delta": -18,
+      "dominance": 0.971,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "9.02x the stars (2,083 vs 231)",
+        "3.95x the star velocity (5.9/day vs 1.5/day)",
+        "no harder to set up (12 vs 30 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 41,
+        "challenger_health": 62,
+        "incumbent_setup_score": 30,
+        "challenger_setup_score": 12
+      }
+    }
+  }
+}

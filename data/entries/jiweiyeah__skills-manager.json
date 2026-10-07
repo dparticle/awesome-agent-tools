@@ -6,13 +6,6 @@
   "url": "https://github.com/jiweiyeah/Skills-Manager",
   "description": "Free, open-source desktop manager for AI Agent Skills. Write a skill once, sync it to 32 AI coding tools (Claude Code, Codex, Cursor, Gemini CLI, and more) via symlinks. Local-first, MIT licensed. macOS, Windows, Linux.",
   "homepage": "https://skillsmanager.freeourdays.com/?ref=gh",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "cross-agent-support",
-    "skills-plugins"
-  ],
-  "category_score": 26.5,
   "stars": 1014,
   "forks": 63,
   "open_issues": 35,
@@ -40,7 +33,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 243,
-  "days_since_push": 26,
+  "days_since_push": 27,
   "health_score": 59,
   "health_components": {
     "popularity": 60.1,
@@ -60,31 +53,25 @@
   },
   "analysis": {
     "full_name": "jiweiyeah/Skills-Manager",
-    "readme_chars": 10677,
+    "readme_chars": 10228,
     "capabilities": [
-      "provider-aggregation",
-      "billing-metering",
       "skills-plugins",
       "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "provider-aggregation": "",
-      "billing-metering": "models from DeepSeek, Qwen, GLM, Kimi, OpenAI, and more.",
-      "skills-plugins": "ou get started without a credit card.",
+      "skills-plugins": "tarized by Apple, so the cask strips the quarantine attribute on install — see the tap README for what that means and how to opt out.",
       "gui-desktop": "ommand-line tool ships with every release for terminal-first workflows: SSH/headless machines, dotfiles setup scripts, and quick status checks.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
     },
     "capability_hits": {
-      "provider-aggregation": 1,
-      "billing-metering": 1,
       "skills-plugins": 6,
       "gui-desktop": 3,
       "cross-agent-support": 7
     },
     "friction": {
       "level": "turnkey",
-      "score": 6,
+      "score": 0,
       "out_of_the_box": true,
       "non_programmer_friendly": true,
       "easy_signals": [
@@ -92,9 +79,7 @@
         "native installer / package"
       ],
       "hard_signals": [],
-      "config_signals": [
-        "API key configuration"
-      ],
+      "config_signals": [],
       "friendliness_signals": [
         "GUI application"
       ],
@@ -103,8 +88,8 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Turnkey. install via Homebrew install, native installer / package; configure API key configuration; GUI application",
-      "note_zh": "开箱即用。可通过 Homebrew install、native installer / package 安装；需配置 API key configuration；GUI application"
+      "note_en": "Turnkey. install via Homebrew install, native installer / package; GUI application",
+      "note_zh": "开箱即用。可通过 Homebrew install、native installer / package 安装；GUI application"
     },
     "doc_score": 67,
     "doc_signals": [
@@ -129,7 +114,7 @@
       "Cline / Roo",
       "Goose"
     ],
-    "summary_en": "Y-API provides a unified API for models from DeepSeek, Qwen, GLM, Kimi, OpenAI, and more.",
+    "summary_en": "Skills Manager is a modern desktop application designed to solve the fragmentation of AI assistant skills configurations.",
     "summary_zh": "",
     "install_hint": "brew tap jiweiyeah/tap",
     "source": "raw:HEAD/README.md",
@@ -137,19 +122,31 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.499
-    }
+      "external_link_ratio": 1.467
+    },
+    "highlights": [
+      "⚡ High Performance: Built with Rust and Tauri 2.0 for a lightweight, blazing-fast experience.",
+      "🛡️ Cross-Platform: Native support for macOS, Windows, and Linux.",
+      "🎨 Modern UI: Beautiful Raycast-style interface built with React 19, Tailwind CSS v4, and Radix UI.",
+      "🎯 Unified Management: Centralize all your AI skills in one secure location."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:16+00:00",
+  "fetched_at": "2026-10-07T16:31:18+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

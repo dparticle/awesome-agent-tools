@@ -14,11 +14,13 @@ Design rules that keep the generated output readable:
 
 from __future__ import annotations
 
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
+from .highlights import best_description, is_descriptive
 from .readme_analysis import capability_label
 from .scoring import TIER_ICON, TIER_LABEL, tier_rank
 from .supersede import STATE_ICON, STATE_LABEL
@@ -112,6 +114,14 @@ def _capability_summary(entry: dict[str, Any], limit: int = 4) -> str:
     extra = len(caps) - len(labels)
     text = ", ".join(labels)
     return f"{text} +{extra} more" if extra > 0 else text
+
+
+def _anchor(title: str) -> str:
+    """GitHub's heading anchor for a category title."""
+    text = title.lower()
+    text = re.sub(r"[^\w\s-]", "", text)  # drop &, punctuation
+    text = re.sub(r"\s+", "-", text.strip())
+    return text
 
 
 def _tool_anchor(full_name: str) -> str:
@@ -255,8 +265,9 @@ def render_readme(index: dict[str, Any]) -> str:
         if not names:
             continue
         title = category.get("title", {}).get("en", cat_id)
-        anchor = f"#-{title.lower().replace(' ', '-').replace('&', '').replace('--', '-')}"
-        add(f"- [{title}](#{anchor.replace('#-', '').strip('-')}) — {len(names)} tools")
+        add(f"- [{title}](#{_anchor(title)}) — {len(names)} tools")
+    add("- [Cross-listed tools](#cross-listed-tools) — tools that span several categories")
+    add("- [Challengers](#-challengers) — newer tools that may overtake an incumbent")
     add("- [The Graveyard](#-the-graveyard) — retired tools and why")
     add("- [Contributing](#contributing)")
     add("")
@@ -292,7 +303,7 @@ def render_readme(index: dict[str, Any]) -> str:
         )
         shown = ranked[:MAX_CATEGORY_ROWS]
 
-        add("| Tool | What it solves | Setup | OOTB | Non-dev | Stars | Score |")
+        add("| Tool | What it does | Setup | OOTB | Non-dev | Stars | Score |")
         add("| --- | --- | --- | --- | :---: | --- | :---: |")
         for name in shown:
             tool = tools[name]
@@ -311,6 +322,19 @@ def render_readme(index: dict[str, Any]) -> str:
             )
         add("")
 
+        # Tools whose primary home is elsewhere but which genuinely do this job.
+        also_in = [
+            n for n in category.get("also_in", []) if tools.get(n, {}).get("state") == "active"
+        ]
+        if also_in:
+            links = ", ".join(
+                f"[{tools[n]['full_name']}]({_load_entry(tools[n]['full_name']).get('url', '#')})"
+                for n in also_in[:12]
+            )
+            extra = f" *(+{len(also_in) - 12} more)*" if len(also_in) > 12 else ""
+            add(f"**Also does this:** {links}{extra}")
+            add("")
+
         if len(ranked) > len(shown):
             add(f"*…and {len(ranked) - len(shown)} more in [the full index](data/index.json).*")
             add("")
@@ -327,6 +351,94 @@ def render_readme(index: dict[str, Any]) -> str:
                 add(_detail_card(entry, tool))
             add("</details>")
             add("")
+
+    # -- Cross-listed tools -----------------------------------------------
+    # A tool can genuinely belong to several problem areas — magpie does both
+    # account management and model routing — so membership is a set rather than
+    # a choice. This section makes that visible instead of hiding it.
+    cross_listed = {
+        name: tool
+        for name, tool in tools.items()
+        if tool.get("state") == "active" and len(tool.get("categories") or []) > 1
+    }
+    if cross_listed:
+        titles = {c["id"]: c.get("title", {}).get("en", c["id"]) for c in categories}
+        add("---")
+        add("")
+        add("## Cross-listed tools")
+        add("")
+        add(
+            "These tools solve problems in more than one area, so they appear under "
+            "several headings. Each is described in full only under its primary category."
+        )
+        add("")
+        add("| Tool | Primary | Also listed under |")
+        add("| --- | --- | --- |")
+        for name, tool in sorted(
+            cross_listed.items(), key=lambda kv: -int(kv[1].get("health_score", 0))
+        ):
+            entry = _load_entry(tool["full_name"])
+            primary = titles.get(tool.get("category", ""), tool.get("category", ""))
+            others = [
+                titles.get(c, c)
+                for c in tool.get("categories", [])
+                if c != tool.get("category")
+            ]
+            add(
+                f"| **[{tool['full_name']}]({entry.get('url', '#')})** "
+                f"| {primary} | {', '.join(others)} |"
+            )
+        add("")
+
+    # -- Challengers ------------------------------------------------------
+    challengers = index.get("challengers", [])
+    add("---")
+    add("")
+    add("## ⚔️ Challengers")
+    add("")
+    add(
+        "A challenger covers an incumbent's ground and is rising, but has **not** yet met "
+        "the bar for retirement — either it misses some of the incumbent's capabilities, or "
+        "its traction is still far behind. These are the pairs to watch: they are where the "
+        "next elimination is most likely to come from."
+    )
+    add("")
+    if challengers:
+        add("| Incumbent | Challenger | Coverage | Traction gap |")
+        add("| --- | --- | ---: | --- |")
+        for edge in challengers:
+            inc = edge.get("incumbent_name") or edge["incumbent"]
+            cha = edge.get("challenger_name") or edge["challenger"]
+            coverage = f"{edge.get('coverage', 0):.0%}"
+            gap = next(
+                (r for r in edge.get("reasons", []) if "stars" in r),
+                "not yet measured",
+            )
+            add(
+                f"| **[{inc}](https://github.com/{edge['incumbent']})** "
+                f"| **[{cha}](https://github.com/{edge['challenger']})** "
+                f"| {coverage} | {escape_table_cell(gap)} |"
+            )
+        add("")
+        for edge in challengers:
+            inc = edge.get("incumbent_name") or edge["incumbent"]
+            cha = edge.get("challenger_name") or edge["challenger"]
+            note = (edge.get("reasons") or [""])[0]
+            missing = (edge.get("evidence") or {}).get("missing_capabilities") or []
+            add(f"<details><summary><b>{cha} vs {inc}</b></summary>")
+            add("")
+            if note:
+                add(note)
+                add("")
+            if missing:
+                labels = ", ".join(capability_label(c) for c in missing)
+                add(f"**Not covered:** {labels}")
+                add("")
+            add("</details>")
+            add("")
+    else:
+        add("*No challengers recorded yet.*")
+        add("")
 
     # -- Graveyard --------------------------------------------------------
     add("---")
@@ -350,7 +462,7 @@ def render_readme(index: dict[str, Any]) -> str:
             incumbent_name = edge.get("incumbent_name") or edge["incumbent"]
             challenger_name = edge.get("challenger_name") or edge["challenger"]
             reason = _elimination_reason(edge)
-            kind = "👤 curated" if edge.get("kind") == "manual" else f"🤖 auto ({edge.get('confidence', '')})"
+            kind = "👤 curated" if edge.get("source") == "curated" else f"🤖 auto ({edge.get('confidence', '')})"
             add(
                 f"| **[{incumbent_name}](https://github.com/{edge['incumbent']})** "
                 f"| **[{challenger_name}](https://github.com/{edge['challenger']})** "
@@ -376,7 +488,7 @@ def render_readme(index: dict[str, Any]) -> str:
             # curated note; otherwise state the distinguishing fact.
             edge = lifecycle.get("supersede") or {}
             if not note or note.startswith("Superseded by"):
-                if edge.get("kind") == "manual":
+                if edge.get("source") == "curated":
                     note = edge.get("reasons", [""])[0]
                 else:
                     note = _elimination_reason(edge) or note
@@ -443,38 +555,30 @@ def _elimination_reason(edge: dict[str, Any]) -> str:
         for reason in reasons:
             if keyword in reason:
                 return reason
-    if edge.get("kind") == "manual":
+    if edge.get("source") == "curated":
         return reasons[0] if reasons else "curated supersede decision"
     return reasons[0] if reasons else ""
 
 
 def _solves_line(entry: dict[str, Any], tool: dict[str, Any]) -> str:
-    """One line answering 'what core problem does this solve?'
+    """One line answering 'what does this tool actually do?'
 
-    The README's own opening sentence is the most informative thing available,
-    so it leads. The tool's strongest capability is appended only when the
-    summary is too short to stand alone, and never when the summary already
-    contains that wording — otherwise every row reads
-    "… — Remote control" regardless of what the tool does.
+    Built from the tool's own README: its opening sentence when that is
+    substantive, otherwise its most concrete feature bullet. This deliberately
+    avoids restating the category name — a reader already knows which section
+    they are in, so an entry reading "multi-account switching" under a heading
+    called Accounts is noise.
+
+    The shape follows the conventions high-quality awesome lists converge on:
+    lead with what it is, then name the distinguishing mechanism.
     """
     analysis = entry.get("analysis") or {}
-    summary = (analysis.get("summary_en") or entry.get("description") or "").strip()
-    summary = truncate(summary, 150)
-
-    caps = tool.get("capabilities") or analysis.get("capabilities") or []
-    if not caps:
-        return summary
-
-    label = capability_label(caps[0])
-    # A 50-character summary already answers the question; appending a
-    # capability label to it just adds noise.
-    if len(summary) >= 40:
-        return summary
-    if summary and label.lower() in summary.lower():
-        return summary
-    if summary:
-        return truncate(f"{summary} — {label}", 150)
-    return label
+    summary = analysis.get("summary_en") or entry.get("description") or ""
+    highlights = analysis.get("highlights") or []
+    text = best_description(summary, highlights)
+    if not text:
+        text = (entry.get("description") or "").strip()
+    return truncate(text, 220)
 
 
 def _detail_card(entry: dict[str, Any], tool: dict[str, Any]) -> str:
@@ -656,11 +760,32 @@ def render_readme_zh(index: dict[str, Any]) -> str:
             entry = _load_entry(tool["full_name"])
             tier = tool.get("tier", "watchlist")
             icon = TIER_ICON.get(tier, "")
-            caps = tool.get("capabilities", [])
-            solves = "、".join(capability_label(c, "zh") for c in caps[:3]) or truncate(
-                entry.get("description", ""), 80
-            )
-            friction = (entry.get("analysis") or {}).get("friction") or {}
+            analysis = entry.get("analysis") or {}
+            highlights = analysis.get("highlights") or []
+
+            # Prefer a Chinese highlight — many tools in this space document in
+            # Chinese, and a Chinese reader should get those words rather than a
+            # machine label. Otherwise fall back to the same descriptive-text
+            # logic the English README uses, so an install command never appears
+            # in the description column here either.
+            solves = ""
+            for highlight in highlights:
+                if re.search(r"[\u4e00-\u9fff]", highlight) and is_descriptive(highlight):
+                    solves = highlight
+                    break
+            if not solves:
+                summary = analysis.get("summary_en") or entry.get("description") or ""
+                solves = best_description(summary, highlights)
+            if not solves:
+                # Nothing descriptive in either language: state what it is via
+                # the repo description, which is at least written by the author.
+                solves = truncate((entry.get("description") or "").strip(), 110)
+            if not solves:
+                solves = "、".join(
+                    capability_label(c, "zh") for c in (tool.get("capabilities") or [])[:3]
+                )
+
+            friction = analysis.get("friction") or {}
             level = friction.get("level", "unknown")
             setup = f"{SETUP_ICON.get(level, '⚪')} {SETUP_LABEL.get(level, SETUP_LABEL['unknown'])['zh']}"
             add(
@@ -676,6 +801,61 @@ def render_readme_zh(index: dict[str, Any]) -> str:
         if len(ranked) > len(shown):
             add(f"*还有 {len(ranked) - len(shown)} 个工具见[完整索引](data/index.json)。*")
             add("")
+
+        also_in = [
+            n for n in category.get("also_in", []) if tools.get(n, {}).get("state") == "active"
+        ]
+        if also_in:
+            links = "、".join(
+                f"[{tools[n]['full_name']}]({_load_entry(tools[n]['full_name']).get('url', '#')})"
+                for n in also_in[:10]
+            )
+            add(f"**也能做这件事：** {links}")
+            add("")
+
+    # -- 挑战者 -----------------------------------------------------------
+    challengers = index.get("challengers", [])
+    add("---")
+    add("")
+    add("## ⚔️ 挑战者")
+    add("")
+    add(
+        "挑战者已经覆盖了在位者的部分场景，且增长很快，但**尚未达到淘汰门槛**——"
+        "要么能力覆盖不全，要么热度差距仍然很大。这些组合最值得关注，"
+        "下一次真正的淘汰最可能从它们之中产生。"
+    )
+    add("")
+    if challengers:
+        add("| 在位者 | 挑战者 | 覆盖度 | 热度差距 |")
+        add("| --- | --- | ---: | --- |")
+        for edge in challengers:
+            inc = edge.get("incumbent_name") or edge["incumbent"]
+            cha = edge.get("challenger_name") or edge["challenger"]
+            gap = next((r for r in edge.get("reasons", []) if "stars" in r), "尚未测算")
+            add(
+                f"| **[{inc}](https://github.com/{edge['incumbent']})** "
+                f"| **[{cha}](https://github.com/{edge['challenger']})** "
+                f"| {edge.get('coverage', 0):.0%} | {escape_table_cell(gap)} |"
+            )
+        add("")
+        for edge in challengers:
+            inc = edge.get("incumbent_name") or edge["incumbent"]
+            cha = edge.get("challenger_name") or edge["challenger"]
+            missing = (edge.get("evidence") or {}).get("missing_capabilities") or []
+            add(f"<details><summary><b>{cha} 对比 {inc}</b></summary>")
+            add("")
+            note = (edge.get("reasons") or [""])[0]
+            if note:
+                add(note)
+                add("")
+            if missing:
+                add(f"**未覆盖：** {'、'.join(capability_label(c, 'zh') for c in missing)}")
+                add("")
+            add("</details>")
+            add("")
+    else:
+        add("*目前还没有记录挑战者。*")
+        add("")
 
     add("---")
     add("")
@@ -696,7 +876,7 @@ def render_readme_zh(index: dict[str, Any]) -> str:
             incumbent_name = edge.get("incumbent_name") or edge["incumbent"]
             challenger_name = edge.get("challenger_name") or edge["challenger"]
             reason = _elimination_reason(edge)
-            kind = "👤 人工" if edge.get("kind") == "manual" else f"🤖 自动（{edge.get('confidence', '')}）"
+            kind = "👤 人工" if edge.get("source") == "curated" else f"🤖 自动（{edge.get('confidence', '')}）"
             add(
                 f"| **[{incumbent_name}](https://github.com/{edge['incumbent']})** "
                 f"| **[{challenger_name}](https://github.com/{edge['challenger']})** "
@@ -875,34 +1055,70 @@ def render_taxonomy(index: dict[str, Any]) -> str:
     tools = index.get("tools", {})
     from .readme_analysis import capabilities as all_caps
 
-    out: list[str] = [GENERATED_BANNER, "", "# Capability taxonomy", ""]
+    out: list[str] = [GENERATED_BANNER, "", "# Category taxonomy", ""]
     out.append(
-        "Categories group tools by **the problem they solve**. Capabilities are the finer "
-        "grained, machine-detected features used for scoring and for the elimination engine. "
-        "Both are matched against the README body, with the triggering sentence kept as evidence."
+        "**Categories in this list are discovered, not declared.** No file lists them. "
+        "Every run clusters the indexed tools by how prominently their READMEs document "
+        "each capability, and the resulting groups become the sections you see. Adding a "
+        "tool can therefore change the taxonomy, and a section that stops being distinct "
+        "disappears on its own."
+    )
+    out.append("")
+    out.append("## How a category is derived")
+    out.append("")
+    out.append(
+        "1. Each capability is weighted by **inverse document frequency**, so a capability "
+        "that nearly every tool claims contributes almost nothing."
+    )
+    out.append(
+        "2. Each tool becomes a normalised vector of `idf × log(1 + mentions)` — what it "
+        "*emphasises*, not merely what it mentions."
+    )
+    out.append(
+        "3. Tools are clustered by cosine similarity using agglomerative average linkage, "
+        "stopping at a similarity threshold."
+    )
+    out.append(
+        "4. A cluster is named from the capabilities where it has the highest **lift** "
+        "against the corpus, so the title reflects what makes the group distinct."
+    )
+    out.append("")
+    out.append(
+        "Capabilities claimed by more than 60% of tools are excluded from clustering: they "
+        "describe the whole ecosystem, and including them collapsed every tool into a "
+        "single section during development."
     )
     out.append("")
     out.append("## Categories")
     out.append("")
+    out.append("| Category | Tools | Also in | Cohesion | Defining capabilities |")
+    out.append("| --- | ---: | ---: | ---: | --- |")
     for category in index.get("categories", []):
-        count = sum(1 for t in tools.values() if t.get("category") == category["id"])
         title = category.get("title", {}).get("en", category["id"])
-        zh = category.get("title", {}).get("zh", "")
-        out.append(f"### `{category['id']}` — {title} / {zh}")
-        out.append("")
-        problem = category.get("problem", {}).get("en", "")
-        if problem:
-            out.append(problem)
-            out.append("")
-        out.append(f"- Required capabilities: `{', '.join(category.get('required_any', [])) or 'any'}`")
-        out.append(f"- Tools currently listed: **{count}**")
-        out.append("")
-        out.append("Discovery queries:")
-        out.append("")
-        for query in category.get("queries", []):
-            out.append(f"- `{query}`")
-        out.append("")
-
+        caps = ", ".join(capability_label(c) for c in (category.get("capabilities") or [])[:4])
+        out.append(
+            f"| **{title}** | {len(category.get('tools', []))} "
+            f"| {len(category.get('also_in', []))} "
+            f"| {category.get('cohesion', 0):.2f} "
+            f"| {escape_table_cell(caps)} |"
+        )
+    out.append("")
+    out.append(
+        "*Cohesion* is the mean cosine similarity of a category's members to its centroid: "
+        "higher means a tighter, more coherent group."
+    )
+    out.append("")
+    out.append("## Multi-category membership")
+    out.append("")
+    cross = sum(1 for t in tools.values() if len(t.get("categories") or []) > 1)
+    out.append(
+        f"{cross} of {len(tools)} tools belong to more than one category. A tool is "
+        "cross-listed when it shares at least two of another category's defining "
+        "capabilities, capped at three categories so the signal stays meaningful. It is "
+        "described in full only under its primary category — the one whose centroid it is "
+        "closest to."
+    )
+    out.append("")
     out.append("## Capabilities")
     out.append("")
     out.append("| Capability | Problem it addresses | Patterns | Tools |")
@@ -1017,7 +1233,22 @@ def render_methodology(index: dict[str, Any]) -> str:
     )
     out.append("")
 
-    out.append("## 6. Elimination")
+    out.append("## 6. Category discovery")
+    out.append("")
+    out.append(
+        "Categories are **not declared anywhere**. Each run clusters the indexed tools by "
+        "how prominently their READMEs document each capability, and the clusters become "
+        "the sections. See [TAXONOMY.md](TAXONOMY.md) for the algorithm and why the obvious "
+        "approaches fail on this data."
+    )
+    out.append("")
+    out.append(
+        "A tool may belong to several categories at once, because tools genuinely span "
+        "problem areas. It is described in full only under its primary category."
+    )
+    out.append("")
+
+    out.append("## 7. Elimination")
     out.append("")
     out.append("See [SUPERSEDE.md](SUPERSEDE.md) for the full rule set.")
     out.append("")
@@ -1108,6 +1339,32 @@ def render_supersede_doc(index: dict[str, Any]) -> str:
     out.append("| 📦 Archived | The owner archived the repository. |")
     out.append("")
 
+    out.append("## Supersede vs. challenger")
+    out.append("")
+    out.append(
+        "A pair can be reported without anything being retired. That distinction matters, "
+        "because the obvious headline example in this space does not actually qualify:"
+    )
+    out.append("")
+    out.append(
+        "**`magpie` is a challenger to `cc-switch`, not its replacement.** They compete for "
+        "the same job, and magpie additionally routes other models through the same agent "
+        "loop. But magpie covers roughly 62% of cc-switch's capability set, and at the time "
+        "of writing has about 4% of its stars. Recording that as a retirement would mean "
+        "this list asserting something its own methodology contradicts — so the pair appears "
+        "under **Challengers**, cc-switch stays listed, and the engine keeps watching. If "
+        "magpie closes the capability gap and the traction gap, the automatic rules will "
+        "retire cc-switch on their own."
+    )
+    out.append("")
+    out.append(
+        "A curated entry in `config/overrides.json` is therefore a **nomination, not a "
+        "verdict**: the claim is re-checked against the same coverage rule the automatic "
+        "engine uses, and recorded as a `supersede` (retire) or a `challenger` (watch) "
+        "accordingly."
+    )
+    out.append("")
+
     out.append("## Recorded eliminations")
     out.append("")
     if edges:
@@ -1117,7 +1374,7 @@ def render_supersede_doc(index: dict[str, Any]) -> str:
                 f"→ {edge.get('challenger_name') or edge['challenger']}"
             )
             out.append("")
-            if edge.get("kind") == "manual":
+            if edge.get("source") == "curated":
                 source = "human curation"
             else:
                 source = f"automatic ({edge.get('confidence', '')} confidence)"
@@ -1148,12 +1405,13 @@ def render_supersede_doc(index: dict[str, Any]) -> str:
     out.append("## The canonical example")
     out.append("")
     out.append(
-        "**`magpie` retires `cc-switch`.** Both manage multiple accounts and providers for "
-        "Claude Code and Codex. `cc-switch` is enormously popular and still actively "
-        "maintained — but `magpie` covers the same ground *and* routes other models through "
-        "the same agent loop, so it strictly covers the older tool's feature set. The "
-        "elimination is recorded as **manual**, because a human read both READMEs and made "
-        "the call; the automatic rules then keep it consistent on later runs."
+        "**`magpie` vs `cc-switch` — reported as a challenger, not an elimination.** They "
+        "solve the same problem, and magpie goes further by routing other models through the "
+        "same agent loop. It is tempting to declare the older tool replaced. The rules "
+        "refuse: magpie covers ~62% of cc-switch's capabilities and has ~4% of its stars. "
+        "The pair is therefore surfaced under **Challengers**, which is where a reader "
+        "deciding what to install actually benefits from seeing it — and nothing is retired "
+        "on the strength of a claim the data does not support."
     )
     out.append("")
     out.append("## Challenging a verdict")
@@ -1220,8 +1478,13 @@ def validate_index(index: dict[str, Any]) -> list[str]:
         if name != tool.get("full_name", "").lower():
             problems.append(f"{name}: key does not match full_name {tool.get('full_name')}")
         if tool.get("category") not in category_ids:
-            problems.append(f"{name}: unknown category {tool.get('category')!r}")
+            problems.append(f"{name}: unknown primary category {tool.get('category')!r}")
         seen_categories.add(tool.get("category"))
+        for cat in tool.get("categories") or []:
+            if cat not in category_ids:
+                problems.append(f"{name}: unknown category {cat!r}")
+        if tool.get("category") and tool["category"] not in (tool.get("categories") or []):
+            problems.append(f"{name}: primary category is not in its own category list")
         if not isinstance(tool.get("health_score"), int):
             problems.append(f"{name}: health_score is not an int")
         if tool.get("health_score", 0) < 0 or tool.get("health_score", 0) > 100:
@@ -1229,22 +1492,31 @@ def validate_index(index: dict[str, Any]) -> list[str]:
         if not tool.get("capabilities"):
             problems.append(f"{name}: no capabilities detected")
 
-    # Every tool must appear in exactly one category listing.
-    listed: dict[str, int] = {}
+    # Every tool must be listed in full exactly once, and cross-listed only in
+    # the categories it actually claims.
+    primary_counts: dict[str, int] = {}
     for category in index.get("categories", []):
         for name in category.get("tools", []):
-            listed[name] = listed.get(name, 0) + 1
-    for name, count in listed.items():
+            primary_counts[name] = primary_counts.get(name, 0) + 1
+            if name not in tools:
+                problems.append(f"{name}: listed in a category but missing from tools")
+            elif tools[name].get("category") != category["id"]:
+                problems.append(
+                    f"{name}: listed as a primary member of {category['id']} "
+                    f"but its primary category is {tools[name].get('category')}"
+                )
+    for name, count in primary_counts.items():
         if count > 1:
-            problems.append(f"{name}: listed in {count} categories")
-        if name not in tools:
-            problems.append(f"{name}: listed in a category but missing from tools")
+            problems.append(f"{name}: listed as primary in {count} categories")
+    for name, tool in tools.items():
+        if tool.get("state") == "active" and primary_counts.get(name, 0) == 0:
+            problems.append(f"{name}: active tool is not listed in any category")
 
-    for edge in index.get("supersede", []):
+    for edge in index.get("supersede", []) + index.get("challengers", []):
         if edge.get("incumbent") not in tools:
-            problems.append(f"supersede edge references unknown incumbent {edge.get('incumbent')}")
+            problems.append(f"edge references unknown incumbent {edge.get('incumbent')}")
         if edge.get("challenger") not in tools:
-            problems.append(f"supersede edge references unknown challenger {edge.get('challenger')}")
+            problems.append(f"edge references unknown challenger {edge.get('challenger')}")
 
     return problems
 

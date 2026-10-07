@@ -55,6 +55,14 @@ STATE_ICON = {
 #: States whose tools are moved out of the live tables into the graveyard.
 RETIRED_STATES = {STATE_SUPERSEDED, STATE_DEPRECATED, STATE_ARCHIVED}
 
+#: Edge kinds.
+EDGE_SUPERSEDE = "supersede"
+#: A challenger covers an incumbent's ground and is rising, but has not yet
+#: matched its traction. Recorded as a *watch* signal rather than a retirement:
+#: claiming a two-week-old 5.6k-star project has replaced a 140k-star incumbent
+#: would not survive this project's own stated rules.
+EDGE_CHALLENGER = "challenger"
+
 
 @dataclass
 class SupersedeEdge:
@@ -62,7 +70,11 @@ class SupersedeEdge:
 
     incumbent: str  # full_name being superseded
     challenger: str  # full_name doing the superseding
-    kind: str = "auto"  # auto | manual
+    #: What the edge *means*: EDGE_SUPERSEDE (retire the incumbent) or
+    #: EDGE_CHALLENGER (report the pair, retire nothing).
+    kind: str = EDGE_SUPERSEDE
+    #: How it was decided: "auto" by the rules, or "curated" by a human.
+    source: str = "auto"
     confidence: str = "medium"  # high | medium | low
     coverage: float = 0.0
     covered: list[str] = field(default_factory=list)
@@ -102,6 +114,7 @@ class SupersedeEdge:
             "incumbent_name": self.incumbent,
             "challenger_name": self.challenger,
             "kind": self.kind,
+            "source": self.source,
             "confidence": self.confidence,
             "coverage": round(self.coverage, 3),
             "covered": self.covered,
@@ -280,7 +293,8 @@ def evaluate_pair(
     return SupersedeEdge(
         incumbent=incumbent.full_name,
         challenger=challenger.full_name,
-        kind="auto",
+        kind=EDGE_SUPERSEDE,
+        source="auto",
         confidence=confidence,
         coverage=coverage,
         covered=covered,
@@ -356,6 +370,7 @@ def build_edges(
 def apply_manual_overrides(
     edges: list[SupersedeEdge],
     overrides: dict[str, Any],
+    facts: dict[str, ToolFacts] | None = None,
 ) -> list[SupersedeEdge]:
     """Fold hand-curated verdicts into the automatic graph.
 
@@ -363,29 +378,77 @@ def apply_manual_overrides(
 
         {"incumbent": "owner/old", "challenger": "owner/new", "note": "..."}
 
-    A manual edge always wins over an automatic edge for the same incumbent,
-    because a human has read both READMEs.
+    A curated entry is a **nomination, not a verdict**. When ``facts`` is
+    supplied the claim is checked against the same coverage rule the automatic
+    engine uses, and the edge is recorded as one of two kinds:
+
+    * ``supersede`` — the challenger genuinely covers the incumbent's
+      capabilities. The incumbent is retired.
+    * ``challenger`` — it does not (yet). The pair is still reported, because it
+      is the interesting kind of finding, but nothing is retired.
+
+    This distinction exists because the project's own rules refused the
+    magpie/cc-switch pair: magpie covers only part of cc-switch's capability set
+    and has ~4% of its stars. Recording that as a retirement would have meant the
+    list asserting something its own methodology contradicts.
     """
-    manual: list[SupersedeEdge] = []
+    curated: list[SupersedeEdge] = []
     for item in overrides.get("supersede", []) or []:
-        incumbent = (item.get("incumbent") or "").lower()
-        challenger = (item.get("challenger") or "").lower()
-        if not incumbent or not challenger:
+        incumbent_key = (item.get("incumbent") or "").lower()
+        challenger_key = (item.get("challenger") or "").lower()
+        if not incumbent_key or not challenger_key:
             continue
-        manual.append(
+
+        note = item.get("note") or "curated relationship"
+        coverage = 1.0
+        covered: list[str] = []
+        missing: list[str] = []
+        kind = EDGE_SUPERSEDE
+        confidence = "high"
+        reasons = [note]
+
+        inc = (facts or {}).get(incumbent_key)
+        cha = (facts or {}).get(challenger_key)
+        if inc is not None and cha is not None:
+            coverage, covered = coverage_ratio(inc, cha)
+            missing = sorted(inc.capabilities - cha.capabilities)
+            if missing or coverage < 1.0:
+                kind = EDGE_CHALLENGER
+                confidence = "medium"
+                reasons = [
+                    note,
+                    f"covers {coverage:.0%} of {inc.full_name}'s capabilities "
+                    f"({len(covered)}/{len(inc.capabilities)})",
+                    "not covered: " + ", ".join(missing) if missing else "partial overlap",
+                ]
+            if inc.stars and cha.stars:
+                ratio = cha.stars / inc.stars
+                reasons.append(f"{ratio:.2f}x the stars ({cha.stars:,} vs {inc.stars:,})")
+
+        curated.append(
             SupersedeEdge(
-                incumbent=incumbent,
-                challenger=challenger,
-                kind="manual",
-                confidence="high",
-                coverage=1.0,
-                reasons=[item.get("note") or "manually curated supersede relationship"],
-                evidence={"manual": True, "note": item.get("note", "")},
+                incumbent=incumbent_key,
+                challenger=challenger_key,
+                kind=kind,
+                source="curated",
+                confidence=confidence,
+                coverage=coverage,
+                covered=covered,
+                reasons=reasons,
+                evidence={
+                    "curated": True,
+                    "note": item.get("note", ""),
+                    "missing_capabilities": missing,
+                },
             )
         )
 
     by_incumbent = {e.incumbent: e for e in edges}
-    for edge in manual:
+    for edge in curated:
+        # A challenger edge must not displace a genuine automatic supersede.
+        existing = by_incumbent.get(edge.incumbent)
+        if existing is not None and existing.source == "auto" and edge.kind == EDGE_CHALLENGER:
+            continue
         by_incumbent[edge.incumbent] = edge
     return sorted(by_incumbent.values(), key=lambda e: (-e.dominance, e.incumbent))
 
@@ -424,6 +487,7 @@ def resolve_states(
         note_en = ""
         note_zh = ""
         edge: SupersedeEdge | None = None
+        challenger_edge: SupersedeEdge | None = None
 
         if entry.get("archived"):
             state = STATE_ARCHIVED
@@ -435,11 +499,18 @@ def resolve_states(
             note_en = spec.get("note_en", "")
             note_zh = spec.get("note_zh", "")
         elif key in superseded_by:
-            edge = superseded_by[key]
-            state = STATE_SUPERSEDED
-            note_en = f"Superseded by {edge.challenger}: {edge.reasons[0]}."
-            note_zh = f"已被 {edge.challenger} 取代：{edge.reasons[0]}。"
-        else:
+            candidate = superseded_by[key]
+            if candidate.kind == EDGE_CHALLENGER:
+                # A challenger has not met the bar for retirement. Surface it as
+                # a signal on a live entry instead of moving the tool out.
+                challenger_edge = candidate
+            else:
+                edge = candidate
+                state = STATE_SUPERSEDED
+                note_en = f"Superseded by {edge.challenger}: {edge.reasons[0]}."
+                note_zh = f"已被 {edge.challenger} 取代：{edge.reasons[0]}。"
+
+        if state == STATE_ACTIVE:
             pushed = parse_iso(entry.get("pushed_at"))
             if pushed and (now - pushed).days > dormant_days:
                 state = STATE_DORMANT
@@ -464,6 +535,8 @@ def resolve_states(
             "note_zh": note_zh,
             "superseded_by": edge.challenger if edge else "",
             "supersede_edge": edge.as_dict() if edge else None,
+            "challenger": challenger_edge.challenger if challenger_edge else "",
+            "challenger_edge": challenger_edge.as_dict() if challenger_edge else None,
         }
     return out
 

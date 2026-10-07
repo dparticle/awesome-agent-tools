@@ -4,7 +4,7 @@
 
 > Memory Palace gives LLM agents a persistent, searchable, and auditable memory store, so each conversation can build on the last instead of starting from scratch.
 
-[Repository](https://github.com/AGI-is-going-to-arrive/Memory-Palace) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/AGI-is-going-to-arrive/Memory-Palace) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

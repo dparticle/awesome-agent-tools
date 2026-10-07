@@ -6,15 +6,6 @@
   "url": "https://github.com/mcpware/cross-code-organizer",
   "description": "Cross-Code Organizer (formerly Claude Code Organizer): cross-harness config dashboard for Claude Code, Codex CLI, MCP servers, skills, memories, agents, sessions, security scanning, context budget, and backups.",
   "homepage": "https://www.npmjs.com/package/@mcpware/cross-code-organizer",
-  "category": "agent-runtimes",
-  "also_in": [
-    "memory-context"
-  ],
-  "matched_capabilities": [
-    "cross-agent-support",
-    "skills-plugins"
-  ],
-  "category_score": 24.0,
   "stars": 382,
   "forks": 33,
   "open_issues": 12,
@@ -151,25 +142,39 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.499
-    }
+    },
+    "highlights": [
+      "Qwen external-transfer and threshold reports: research/ROUTEGUARDEXTERNALQWENFIXEDLAYERS2026-06-03.md and research/THRESHOLDCALIBRATIONQWENPOOLED_2026-06-03.md",
+      "Model lanes: Qwen2.5-0.5B fixed-layer raw activations as the current warn/review candidate, Pythia-70M raw/SAE canary and explanation lane, Gemma 1B/4B optional deep-scan candidates",
+      "v0.14.0: Extracted effective logic into shared module, 30 unit tests for effective rules and move destinations",
+      "Per-item token counts (ai-tokenizer ~99.8% accuracy)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "categories": [
+    "billing",
+    "desktop-ui",
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (6/6).",
     "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (6/6)。",
     "superseded_by": "genspark-ai/genoffice",
+    "challenger": "",
     "supersede": {
       "incumbent": "mcpware/cross-code-organizer",
       "challenger": "genspark-ai/genoffice",
       "incumbent_name": "mcpware/cross-code-organizer",
       "challenger_name": "genspark-ai/genoffice",
-      "kind": "auto",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [

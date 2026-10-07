@@ -4,7 +4,7 @@
 
 > 33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).
 
-[Repository](https://github.com/Archive228/loopkit) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/Archive228/loopkit) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 52/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Shell |
 | Created | 2026-06-30 |
 | Last push | 2026-07-14 (84 days ago) |
 | Analyzed README | 15,078 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
 
 ## What it solves
 

@@ -6,12 +6,6 @@
   "url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
   "description": "🚀 A real-time monitoring dashboard for Claude Code & Codex, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, & WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, & an interactive web UI/MacOS/Windows native app.",
   "homepage": "https://hoangsonww.github.io/Claude-Code-Agent-Monitor/",
-  "category": "observability",
-  "also_in": [],
-  "matched_capabilities": [
-    "usage-analytics"
-  ],
-  "category_score": 17.0,
   "stars": 1049,
   "forks": 245,
   "open_issues": 44,
@@ -191,18 +185,31 @@
         "link-directory table of contents"
       ],
       "external_link_ratio": 0.326
-    }
+    },
+    "highlights": [
+      "Tray icon — always-on status surface (macOS menu bar / Windows notification area). Left-click toggles the dashboard window; right-click opens a context menu with Open Dashboard, Open in Bro…",
+      "Auto-start at login — toggle Open at Login from the tray or app menu. On macOS it registers through the modern SMAppService API, so the entry appears under System Settings → General → Login…",
+      "Payload guardrails: 50 MiB per uploaded history file, 100 MiB total per call, 10 MiB binary responses, and 25 MiB backup restore",
+      "Logs — the main process writes to ~/Library/Logs/Claude Code Monitor/desktop.log (macOS) or %APPDATA%\\Claude Code Monitor\\logs\\desktop.log (Windows); reach it from the tray menu's Show Logs."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:15+00:00",
+  "fetched_at": "2026-10-07T16:31:17+00:00",
+  "categories": [
+    "mcp-failover",
+    "mobile",
+    "sessions-memory"
+  ],
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -4,7 +4,7 @@
 
 > (renders "CRATES.IO: INVALID").
 
-[Repository](https://github.com/max-sixty/worktrunk) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/max-sixty/worktrunk) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 68/100 |
 | Documentation | 55/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Rust |
 | Created | 2025-10-17 |
 | Last push | 2026-10-07 (0 days ago) |
 | Analyzed README | 15,143 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [stablyai/orca](https://github.com/stablyai/orca)** — Superseded by stablyai/orca: covers 100% of capabilities (3/3).
 
 ## What it solves
 

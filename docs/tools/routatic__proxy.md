@@ -4,7 +4,7 @@
 
 > route Claude Code requests through multiple upstream providers (OpenCode Go, OpenCode Zen, and AWS Bedrock) with automatic model selection and format transformation.
 
-[Repository](https://github.com/routatic/proxy) · [Back to index](../../README.md) · Category: **model-routing**
+[Repository](https://github.com/routatic/proxy) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 56/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-04-17 |
 | Last push | 2026-10-02 (5 days ago) |
 | Analyzed README | 9,593 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [farion1231/cc-switch](https://github.com/farion1231/cc-switch)** — Superseded by farion1231/cc-switch: covers 100% of capabilities (5/5).
 
 ## What it solves
 

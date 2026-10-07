@@ -4,7 +4,7 @@
 
 > Open-source orchestration for teams of AI agents.
 
-[Repository](https://github.com/paperclipai/paperclip) · [Back to index](../../README.md) · Category: **remote-control**
+[Repository](https://github.com/paperclipai/paperclip) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 98,271 |
-| Star velocity | 450.8/day (lifetime basis, 218d span) |
+| Star velocity | 448.7/day (lifetime basis, 219d span) |
 | Health score | 89/100 |
 | Documentation | 66/100 |
 | Tier | 🏆 Flagship |

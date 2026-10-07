@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "full_name": "Gentleman-Programming/gentle-ai",
+  "name": "gentle-ai",
+  "owner": "Gentleman-Programming",
+  "url": "https://github.com/Gentleman-Programming/gentle-ai",
+  "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+  "homepage": "https://gentle-ai.gentlemanprogramming.com/",
+  "stars": 7584,
+  "forks": 829,
+  "open_issues": 922,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-coding",
+    "claude-code",
+    "code-review",
+    "codex",
+    "coding-agents",
+    "copilot",
+    "cursor",
+    "developer-tools",
+    "golang",
+    "llm",
+    "mcp",
+    "opencode",
+    "persistent-memory",
+    "pi",
+    "spec-driven-development"
+  ],
+  "created_at": "2026-02-27T23:28:01Z",
+  "updated_at": "2026-10-07T13:06:54Z",
+  "pushed_at": "2026-10-07T13:09:02Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 221,
+  "days_since_push": 0,
+  "health_score": 71,
+  "health_components": {
+    "popularity": 77.6,
+    "momentum": 28.6,
+    "maintenance": 100.0,
+    "documentation": 62.0,
+    "accessibility": 100.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7584,
+    "days_span": 221,
+    "stars_per_day": 34.32,
+    "lifetime_stars_per_day": 34.32,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Gentleman-Programming/gentle-ai",
+    "readme_chars": 18280,
+    "capabilities": [
+      "skills-plugins",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "ntegration uses that agent's native capabilities, so available features such as delegation and RDD review can differ.",
+      "mcp-support": "uch as delegation and RDD review can differ.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "mcp-support": 1,
+      "cross-agent-support": 8
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 0,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "go install",
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Turnkey. install via Homebrew install, go install",
+      "note_zh": "开箱即用。可通过 Homebrew install、go install 安装"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Qwen Code"
+    ],
+    "summary_en": "Your agent writes code, then forgets everything.",
+    "summary_zh": "",
+    "install_hint": "brew install gentleman-programming/tap/gentle-ai",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.164
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

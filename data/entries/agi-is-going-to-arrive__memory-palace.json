@@ -6,12 +6,6 @@
   "url": "https://github.com/AGI-is-going-to-arrive/Memory-Palace",
   "description": "Memory Palace is a long-term memory operating system purpose-built for AI Agents.",
   "homepage": "",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 313,
   "forks": 27,
   "open_issues": 0,
@@ -145,25 +139,39 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.554
-    }
+    },
+    "highlights": [
+      "Cross-platform: ps1/sh parity for all scripts, CRLF defense, UTF-8 forced encoding, Windows mcp_wrapper.py as native stdio path.",
+      "HTTP/SSE auth is fail-closed: protected endpoints return 401 without a valid MCPAPIKEY. stdio is unaffected.",
+      "Docker: deployment locks, runtime env injection (opt-in), loopback → host.docker.internal auto-rewrite, NFS/CIFS/SMB mount rejection.",
+      "SSE Hardening: per-principal rate limiting (429 + Retry-After), idle watchdog, trusted proxy CIDR allowlist, graceful shutdown draining, loopback port auto-fallback."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:23+00:00",
+  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "categories": [
+    "desktop-ui",
+    "mcp-failover",
+    "model-routing"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (9/9).",
     "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (9/9)。",
     "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
     "supersede": {
       "incumbent": "agi-is-going-to-arrive/memory-palace",
       "challenger": "rohitg00/agentmemory",
       "incumbent_name": "AGI-is-going-to-arrive/Memory-Palace",
       "challenger_name": "rohitg00/agentmemory",
-      "kind": "auto",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [

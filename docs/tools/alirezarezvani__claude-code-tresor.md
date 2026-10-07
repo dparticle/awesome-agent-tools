@@ -4,7 +4,7 @@
 
 > Author: Alireza Rezvani Created: September 16, 2025 Updated: December 17, 2025 (v2.7.0 - Tresor Workflow Framework) Quality: 9.7/10 (Exceptional) Repository: https://github.com/alirezarezvani/claude-code-tresor
 
-[Repository](https://github.com/alirezarezvani/claude-code-tresor) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/alirezarezvani/claude-code-tresor) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

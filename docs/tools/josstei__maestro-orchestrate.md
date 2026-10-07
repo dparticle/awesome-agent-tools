@@ -4,7 +4,7 @@
 
 > Maestro is a multi-agent development orchestration platform with 39 specialists, an Express path for simple work, a 4-phase standard workflow for medium and complex work, persistent session state, and standalone review/debug/security/perf/…
 
-[Repository](https://github.com/josstei/maestro-orchestrate) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/josstei/maestro-orchestrate) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -24,7 +24,7 @@
 | Last push | 2026-10-06 (0 days ago) |
 | Analyzed README | 11,173 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [spinabot/brigade](https://github.com/spinabot/brigade)** — Superseded by spinabot/brigade: covers 100% of capabilities (4/4).
 
 ## What it solves
 

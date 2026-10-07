@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "full_name": "newsnowlabs/dockside",
+  "name": "dockside",
+  "owner": "newsnowlabs",
+  "url": "https://github.com/newsnowlabs/dockside",
+  "description": "Create dev containers that mirror your prod environment and sandbox your Claude/Codex CLIs. Develop with VS Code/Jet Brains, via SSH with e.g. Vim or VS Code in your browser. Unlimited staging for co-workers and clients. Dockside is an open source 'Codespaces' that runs on local machine, on prem, or in cloud",
+  "homepage": "https://dockside.io/",
+  "stars": 322,
+  "forks": 25,
+  "open_issues": 13,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "cloud-ide",
+    "code-editor",
+    "coding",
+    "docker",
+    "docker-ide",
+    "ide",
+    "online-ide",
+    "web-ide"
+  ],
+  "created_at": "2021-09-12T13:23:51Z",
+  "updated_at": "2026-09-07T22:50:53Z",
+  "pushed_at": "2026-09-27T19:27:04Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 1851,
+  "days_since_push": 9,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 50.2,
+    "momentum": 0.1,
+    "maintenance": 92.0,
+    "documentation": 62.0,
+    "accessibility": 35.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 322,
+    "days_span": 1851,
+    "stars_per_day": 0.17,
+    "lifetime_stars_per_day": 0.17,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "newsnowlabs/dockside",
+    "readme_chars": 26510,
+    "capabilities": [
+      "remote-control",
+      "parallel-execution",
+      "worktree-isolation",
+      "agent-runtime",
+      "self-hosted",
+      "team-collaboration",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "ploy-time errors and bugfixing.",
+      "parallel-execution": "t — Launch locally with integrated SSL certificate",
+      "worktree-isolation": "are development containers in the general sense.",
+      "agent-runtime": "",
+      "self-hosted": "d Dockside enforces the rules — without requiring elevated container capabilities or weakening isolation.",
+      "team-collaboration": "- Users and Roles: manage team members and roles through the Admin UI (/admin/users, /admin/roles, requires manageUsers) or the dockside user / dockside role CLI — assign a role (admin or a custom role) to control what…",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "remote-control": 2,
+      "parallel-execution": 1,
+      "worktree-isolation": 2,
+      "agent-runtime": 1,
+      "self-hosted": 1,
+      "team-collaboration": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "high",
+      "score": 65,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "docker compose up",
+        "docker run"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "sign-in required",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs docker compose up, docker run; configure config.json/yaml/toml, sign-in required; one-click setup",
+      "note_zh": "配置较重。需要 docker compose up、docker run；需配置 config.json/yaml/toml、sign-in required；one-click setup"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Copilot"
+    ],
+    "summary_en": "Dockside is a self-hosted platform for teams who want a devcontainer for every branch — isolated, browser-accessible, HTTPS-secured, and ready in seconds, on your own infrastructure.",
+    "summary_zh": "",
+    "install_hint": "curl -o docker-compose.yml https://raw.githubusercontent.com/newsnowlabs/dockside/refs/heads/main/docker-comp…",
+    "source": "raw:HEAD/docs/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.396
+    },
+    "highlights": [
+      "AI-ready devcontainers: Claude Code, OpenAI Codex, GitHub Copilot and other AI tools and CLIs run natively inside every devcontainer's integrated IDE. Isolate each AI agent session in its o…",
+      "Runtime agnostic: use runC (Docker's default), Sysbox (for Docker-in-Dockside devtainers), gVisor (for sandboxed kernel isolation), or RunCVM (for full KVM VMs on amd64); see Alternative ru…",
+      "Run AI coding agents — Claude Code, Codex, GitHub Copilot — safely inside isolated devcontainers. Each agent session is self-contained, and coming-soon firewall controls let you define exac…",
+      "SSH access facilitates use of any terminal editor or command line tool and seamless VS Code remote development via the Remote SSH extension."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "teams"
+  ],
+  "primary_category": "teams",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

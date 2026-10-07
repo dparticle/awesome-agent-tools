@@ -6,12 +6,6 @@
   "url": "https://github.com/gary23w/nl-veil",
   "description": "Open-source AI coding desktop app with parallel agents and persistent project memory. Local models, Ollama or cloud AI. Windows, macOS and Linux.",
   "homepage": "https://gary23w.github.io/nl-veil/",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 14.0,
   "stars": 215,
   "forks": 33,
   "open_issues": 1,
@@ -165,18 +159,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.274
-    }
+    },
+    "highlights": [
+      "Hots are tater-tots now. v1.1.7 called them hots. The first time a newer veil runs while you are logged in",
+      "Windows. The first time veil binds a port, Windows Defender Firewall pops up *\"Allow this app",
+      "Linux. Usually nothing blocks it, but if you run a firewall you'll need to open the port",
+      "It has a budget, and you set it. Each tater-tot has a pace - one iteration every N seconds, from 5 seconds up -"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:27+00:00",
+  "fetched_at": "2026-10-07T16:31:30+00:00",
+  "categories": [
+    "accounts",
+    "model-routing",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

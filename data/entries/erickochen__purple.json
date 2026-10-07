@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "full_name": "erickochen/purple",
+  "name": "purple",
+  "owner": "erickochen",
+  "url": "https://github.com/erickochen/purple",
+  "description": "Free, open-source terminal SSH manager and SSH config editor in Rust for macOS and Linux that keeps ~/.ssh/config in sync with 18 cloud providers, monitors live SSH tunnels and manages Docker and Podman containers fleet-wide. Plus scp, Vault SSH certs and an MCP server for AI agents.",
+  "homepage": "https://getpurple.sh",
+  "stars": 722,
+  "forks": 36,
+  "open_issues": 4,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "cli",
+    "cloud-sync",
+    "devops",
+    "docker",
+    "hashicorp-vault",
+    "homelab",
+    "mcp",
+    "podman",
+    "ratatui",
+    "rust",
+    "ssh",
+    "ssh-bookmarks",
+    "ssh-client",
+    "ssh-config",
+    "ssh-config-editor",
+    "ssh-manager",
+    "ssh-tunnel",
+    "terminal",
+    "termius-alternative",
+    "tui"
+  ],
+  "created_at": "2026-02-19T16:30:18Z",
+  "updated_at": "2026-10-06T13:25:42Z",
+  "pushed_at": "2026-10-02T11:58:38Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 230,
+  "days_since_push": 5,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 57.2,
+    "momentum": 2.6,
+    "maintenance": 100.0,
+    "documentation": 46.0,
+    "accessibility": 85.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 722,
+    "days_span": 230,
+    "stars_per_day": 3.14,
+    "lifetime_stars_per_day": 3.14,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "erickochen/purple",
+    "readme_chars": 9683,
+    "capabilities": [
+      "multi-account-switching",
+      "provider-aggregation",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "oment they boot, IPs follow instances as they move and decommissioned hosts gray out instead of lingering.",
+      "provider-aggregation": "ommand on ten hosts? Write a loop or boot up Ansible for a one-liner.",
+      "mcp-support": "Everything else you do over SSH lives in the same terminal: fuzzy search across hundreds of hosts, visual file transfer, multi-host SSH key push, short-lived HashiCorp Vault SSH certificates and an MCP server for AI age…",
+      "security-isolation": "",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Cursor"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "provider-aggregation": 1,
+      "mcp-support": 5,
+      "security-isolation": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 23,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "Homebrew install",
+        "cargo install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "cargo build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "API token/secret"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via Homebrew install, cargo install; needs git clone (build from source), cargo build; configure sign-in required, API token/secret; one-click setup",
+      "note_zh": "较易上手。可通过 Homebrew install、cargo install 安装；需要 git clone (build from source)、cargo build；需配置 sign-in required、API token/secret；one-click setup"
+    },
+    "doc_score": 46,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor"
+    ],
+    "summary_en": "purple is a free, open-source terminal SSH manager and SSH config editor in Rust for macOS and Linux that keeps ~/.ssh/config in sync with 18 cloud providers, monitors live SSH tunnels and manages Docker and Podman containers fleet-wide.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL getpurple.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 1.446
+    },
+    "highlights": [
+      "MCP server for AI agents like Claude Code and Cursor, with a read-only mode and a JSON Lines audit log.",
+      "Short-lived SSH certificates signed via the HashiCorp Vault SSH secrets engine.",
+      "Your own ssh wrapper for interactive logins, such as kitty's kitten ssh, via one preference or PURPLESSHCOMMAND."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "mcp-failover",
+    "providers"
+  ],
+  "primary_category": "providers",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

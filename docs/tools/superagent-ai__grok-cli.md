@@ -4,7 +4,7 @@
 
 > An open-source terminal coding agent that connects to xAI’s Grok API — real-time X search, web search, the full Grok model lineup, sub-agents on by default, remote control via Telegram (pair once, drive the agent from your phone while the…
 
-[Repository](https://github.com/superagent-ai/grok-cli) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/superagent-ai/grok-cli) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-07-14 |
-| Last push | 2026-07-06 (92 days ago) |
+| Last push | 2026-07-06 (93 days ago) |
 | Analyzed README | 18,781 chars from `raw:HEAD/README.md` |
 
 ## What it solves

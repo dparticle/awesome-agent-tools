@@ -4,7 +4,7 @@
 
 > ~100 skills for Claude Code — meeting pipelines, research, image generation, TDD, publishing, personal analytics, and Claude Code ops.
 
-[Repository](https://github.com/glebis/claude-skills) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/glebis/claude-skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 389 |
-| Star velocity | 1.1/day (lifetime basis, 346d span) |
+| Star velocity | 1.1/day (lifetime basis, 347d span) |
 | Health score | 50/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2025-10-25 |
 | Last push | 2026-09-26 (11 days ago) |
 | Analyzed README | 15,258 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (7/7).
 
 ## What it solves
 

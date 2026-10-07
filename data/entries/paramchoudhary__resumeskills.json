@@ -6,12 +6,6 @@
   "url": "https://github.com/Paramchoudhary/ResumeSkills",
   "description": "A collection of AI agent skills focused on resume optimization, job applications, and career development. Built for job seekers, career changers, and professionals who want Claude Code to help with resume writing, ATS optimization, interview prep, and strategic job search.",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 13.0,
   "stars": 2591,
   "forks": 219,
   "open_issues": 6,
@@ -101,18 +95,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.0
-    }
+    },
+    "highlights": [
+      "75% of resumes rejected by ATS before humans see them",
+      "resume-bullet-writer - Write achievement-focused bullets",
+      "resume-formatter - Clean, scannable formatting",
+      "cover-letter-generator - Personalized cover letters"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

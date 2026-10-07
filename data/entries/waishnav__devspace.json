@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "full_name": "Waishnav/devspace",
+  "name": "devspace",
+  "owner": "Waishnav",
+  "url": "https://github.com/Waishnav/devspace",
+  "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
+  "homepage": "",
+  "stars": 5208,
+  "forks": 587,
+  "open_issues": 67,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-orchestration",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "dyanmic-workflow",
+    "pi-coding-agent"
+  ],
+  "created_at": "2026-06-14T16:57:27Z",
+  "updated_at": "2026-10-07T10:06:59Z",
+  "pushed_at": "2026-10-05T12:03:47Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 114,
+  "days_since_push": 2,
+  "health_score": 66,
+  "health_components": {
+    "popularity": 74.3,
+    "momentum": 38.1,
+    "maintenance": 100.0,
+    "documentation": 46.0,
+    "accessibility": 72.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 5208,
+    "days_span": 114,
+    "stars_per_day": 45.68,
+    "lifetime_stars_per_day": 45.68,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Waishnav/devspace",
+    "readme_chars": 8868,
+    "capabilities": [
+      "remote-control",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "remote-control": "tions from AGENTS.md and CLAUDE.md",
+      "multi-agent-orchestration": "nteract with tools, workflows, and systems.",
+      "worktree-isolation": "worktree switching, ChatGPT, and database-migration workflows.",
+      "mcp-support": "Bring a Codex-style coding workflow to ChatGPT.",
+      "self-hosted": "",
+      "gui-desktop": "macOS Supported Requires Node, npm, Git, and Bash."
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "multi-agent-orchestration": 1,
+      "worktree-isolation": 2,
+      "mcp-support": 7,
+      "self-hosted": 1,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 28,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "pnpm install/build",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner, global npm install; needs pnpm install/build, npm install/build; configure database dependency, database migration",
+      "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 pnpm install/build、npm install/build；需配置 database dependency、database migration"
+    },
+    "doc_score": 46,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "Give ChatGPT a secure connection to your own machine and Turn ChatGPT into Codex",
+    "summary_zh": "",
+    "install_hint": "npm install -g @waishnav/devspace",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.226
+    },
+    "highlights": [
+      "Connect the MCP client to your public /mcp URL.",
+      "use isolated Git worktrees for parallel coding sessions"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mcp-failover"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 NanmiCoder/cc-haha 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "NanmiCoder/cc-haha",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "waishnav/devspace",
+      "challenger": "nanmicoder/cc-haha",
+      "incumbent_name": "Waishnav/devspace",
+      "challenger_name": "NanmiCoder/cc-haha",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "remote-control",
+        "self-hosted",
+        "worktree-isolation"
+      ],
+      "star_ratio": 2.859,
+      "momentum_ratio": 1.725,
+      "setup_delta": 1,
+      "dominance": 0.852,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "2.86x the stars (14,892 vs 5,208)",
+        "1.72x the star velocity (78.8/day vs 45.7/day)",
+        "slightly heavier setup (+1 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "remote-control",
+          "self-hosted",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "auto-failover",
+          "billing-metering",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 66,
+        "challenger_health": 78,
+        "incumbent_setup_score": 28,
+        "challenger_setup_score": 29
+      }
+    }
+  }
+}

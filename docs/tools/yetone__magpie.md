@@ -4,7 +4,7 @@
 
 > Claude Code on Kimi, Codex on DeepSeek, Gemini CLI on GLM, OpenCode on your ChatGPT plan.
 
-[Repository](https://github.com/yetone/magpie) · [Back to index](../../README.md) · Category: **quota-account-ops**
+[Repository](https://github.com/yetone/magpie) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 5,667 |
-| Star velocity | 435.9/day (lifetime basis, 13d span) |
+| Star velocity | 404.8/day (lifetime basis, 14d span) |
 | Health score | 84/100 |
 | Documentation | 58/100 |
 | Tier | 🏆 Flagship |

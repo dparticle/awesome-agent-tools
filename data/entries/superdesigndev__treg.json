@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "full_name": "superdesigndev/treg",
+  "name": "treg",
+  "owner": "superdesigndev",
+  "url": "https://github.com/superdesigndev/treg",
+  "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+  "homepage": "https://treg.to",
+  "stars": 4667,
+  "forks": 382,
+  "open_issues": 122,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "topics": [
+    "agents",
+    "api-keys",
+    "cli",
+    "credentials",
+    "developer-tools",
+    "dsh-plugin",
+    "mcp",
+    "proxy",
+    "python",
+    "registry",
+    "secrets"
+  ],
+  "created_at": "2026-07-15T13:38:07Z",
+  "updated_at": "2026-10-07T13:30:55Z",
+  "pushed_at": "2026-10-07T13:21:21Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 84,
+  "days_since_push": 0,
+  "health_score": 72,
+  "health_components": {
+    "popularity": 73.4,
+    "momentum": 46.3,
+    "maintenance": 100.0,
+    "documentation": 71.0,
+    "accessibility": 79.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 4667,
+    "days_span": 84,
+    "stars_per_day": 55.56,
+    "lifetime_stars_per_day": 55.56,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "superdesigndev/treg",
+    "readme_chars": 28556,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "billing-metering",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "auto-failover": "(secrets won't survive a restart)",
+      "model-routing": "# Treg (OpenRouter for Tools)",
+      "billing-metering": "e the code to third parties as a competing hosted/managed registry service without written",
+      "skills-plugins": "agent through the rest — the CLI, sign-in, then treg mcp install — so you end up with",
+      "mcp-support": "install it as a Claude Code plugin",
+      "security-isolation": "resolves the tool by host, injects the credential, and relays everything else faithfully",
+      "self-hosted": "need to know which vendor sells backlink data, or to",
+      "notifications": "lace a secret into a header/query"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "model-routing": 3,
+      "billing-metering": 1,
+      "skills-plugins": 2,
+      "mcp-support": 5,
+      "security-isolation": 2,
+      "self-hosted": 3,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 21,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "pip install",
+        "curl | sh installer"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, pip install; configure environment variables, API key configuration; one-click setup",
+      "note_zh": "较易上手。可通过 npx one-liner、pip install 安装；需配置 environment variables、API key configuration；one-click setup"
+    },
+    "doc_score": 71,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "OpenRouter, but for agent tools instead of models.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://treg.to/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.35
+    },
+    "highlights": [
+      "The API — everything the CLI does is plain HTTP; interactive OpenAPI docs live at /docs.",
+      "CLI — a vendor binary (stripe, gh, vercel, ...) run with the credential injected.",
+      "Your own tools — anything a teammate registered: a paid API account, an OAuth connection, a"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "billing",
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "superdesigndev/treg",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "superdesigndev/treg",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "billing-metering",
+        "mcp-support",
+        "model-routing",
+        "notifications",
+        "security-isolation",
+        "self-hosted",
+        "skills-plugins"
+      ],
+      "star_ratio": 6.258,
+      "momentum_ratio": 2.347,
+      "setup_delta": 11,
+      "dominance": 0.851,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "6.26x the stars (29,204 vs 4,667)",
+        "2.35x the star velocity (130.4/day vs 55.6/day)",
+        "slightly heavier setup (+11 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "billing-metering",
+          "mcp-support",
+          "model-routing",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 72,
+        "challenger_health": 88,
+        "incumbent_setup_score": 21,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

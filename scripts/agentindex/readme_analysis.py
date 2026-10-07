@@ -21,6 +21,7 @@ from typing import Any
 
 from .util import (
     CONFIG_DIR,
+    LOG,
     first_sentence,
     normalise,
     read_json,
@@ -169,6 +170,51 @@ AGENT_GROUP_PATTERNS: list[tuple[str, str]] = [
 ]
 
 FENCE_RE = re.compile(r"```[^\n]*\n(.*?)```", re.DOTALL)
+
+#: Headings whose entire section is promotional rather than descriptive.
+#: README sponsor blocks advertise *other* products ("ZetaAPI provides
+#: enterprise-grade SLA-backed stability... up to 5,000 QPM, and
+#: industry-leading cache hit rates"), and those claims were being attributed to
+#: the repository being analysed. cc-switch was credited with billing-metering,
+#: team-collaboration and parallel-execution purely from its sponsor's ad copy.
+SPONSOR_HEADING_RE = re.compile(
+    r"sponsor|backer|advertis|promo(?:tion)?\b|"
+    r"赞助|赞助商|鸣谢|广告|推广|合作伙伴",
+    re.IGNORECASE,
+)
+
+#: "Support" alone is ambiguous — it often means "how to get help" — so it only
+#: counts when paired with a commercial word.
+_HEADING_RE = re.compile(r"^(#{1,6})\s+(.*)$")
+
+
+def strip_sponsor_sections(body: str) -> tuple[str, int]:
+    """Remove sponsor/advertisement sections. Returns ``(cleaned, count)``.
+
+    A section runs from its heading to the next heading of the same or higher
+    level, which is how Markdown nests. Deliberately conservative: only sections
+    that announce themselves as promotional are dropped, so a "Support" section
+    documenting how to get help survives.
+    """
+    lines = body.split("\n")
+    kept: list[str] = []
+    skip_level: int | None = None
+    removed = 0
+
+    for line in lines:
+        heading = _HEADING_RE.match(line)
+        if heading:
+            level = len(heading.group(1))
+            if skip_level is not None and level <= skip_level:
+                skip_level = None  # left the sponsored subtree
+            if skip_level is None and SPONSOR_HEADING_RE.search(heading.group(2)):
+                skip_level = level
+                removed += 1
+                continue
+        if skip_level is None:
+            kept.append(line)
+
+    return "\n".join(kept), removed
 
 # --------------------------------------------------------------------------
 # Curated-list detection
@@ -340,6 +386,8 @@ class ReadmeAnalysis:
     install_hint: str = ""
     source: str = "missing"
     list_assessment: ListAssessment = field(default_factory=ListAssessment)
+    #: Concrete feature bullets mined from the README, most informative first.
+    highlights: list[str] = field(default_factory=list)
 
     def as_dict(self) -> dict[str, Any]:
         return {
@@ -357,6 +405,7 @@ class ReadmeAnalysis:
             "install_hint": self.install_hint,
             "source": self.source,
             "list_assessment": self.list_assessment.as_dict(),
+            "highlights": self.highlights,
         }
 
     @property
@@ -380,6 +429,7 @@ class ReadmeAnalysis:
             install_hint=data.get("install_hint", ""),
             source=data.get("source", "missing"),
             list_assessment=ListAssessment.from_dict(data.get("list_assessment", {})),
+            highlights=data.get("highlights", []),
         )
 
 
@@ -406,6 +456,17 @@ def capabilities() -> list[dict[str, Any]]:
 def capability_label(cap_id: str, lang: str = "en") -> str:
     for cap in capabilities():
         if cap["id"] == cap_id:
+            return cap.get("label", {}).get(lang) or cap_id
+    return cap_id
+
+
+def capability_short(cap_id: str, lang: str = "en") -> str:
+    """Compact form of a capability name, used to compose category titles."""
+    for cap in capabilities():
+        if cap["id"] == cap_id:
+            short = (cap.get("short") or {}).get(lang)
+            if short:
+                return short
             return cap.get("label", {}).get(lang) or cap_id
     return cap_id
 
@@ -819,6 +880,12 @@ def _is_useless_summary(text: str) -> bool:
     # No letters at all (e.g. only punctuation/emoji).
     if not re.search(r"[A-Za-z\u4e00-\u9fff]", text):
         return True
+    # HTML entities and separator bullets only — READMEs that open with a
+    # centred badge strip produce "&nbsp;&bull;&nbsp; &nbsp;&bull;&nbsp;".
+    if not re.search(r"[A-Za-z\u4e00-\u9fff]{3,}", text):
+        return True
+    if text.count("&nbsp;") >= 2 or text.count("•") >= 2:
+        return True
     return False
 
 
@@ -827,8 +894,15 @@ def analyse(
     body: str,
     description: str = "",
     source: str = "raw",
+    *,
+    corpus: dict[str, int] | None = None,
 ) -> ReadmeAnalysis:
     """Analyse one README into a :class:`ReadmeAnalysis`."""
+    # Promotional sections describe the sponsor's product, not this one.
+    body, sponsor_sections = strip_sponsor_sections(body)
+    if sponsor_sections:
+        LOG.debug("%s: dropped %d sponsor section(s)", full_name, sponsor_sections)
+
     plain = strip_markdown(body)
     repo_name = full_name.partition("/")[2] or full_name
     list_assessment = assess_list(repo_name, body)
@@ -844,6 +918,10 @@ def analyse(
     friction = assess_friction(body, plain)
     doc_score, doc_signals = score_docs(body)
     summary_en, _ = summarise(body, description)
+    # Feature bullets are what a reader actually scans for; see highlights.py.
+    from .highlights import extract_highlights
+
+    highlight_list = [] if list_assessment.is_list else extract_highlights(body, corpus=corpus)
 
     return ReadmeAnalysis(
         full_name=full_name,
@@ -860,4 +938,5 @@ def analyse(
         install_hint=extract_install_hint(body),
         source=source,
         list_assessment=list_assessment,
+        highlights=highlight_list,
     )

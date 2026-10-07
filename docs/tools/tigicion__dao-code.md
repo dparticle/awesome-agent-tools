@@ -4,7 +4,7 @@
 
 > Dao Code (command dao) is a terminal-native AI coding assistant: it reads code, writes code, runs commands, and fixes bugs right in your terminal — streaming its reasoning and tool calls while executing safely behind an approval gate, unti…
 
-[Repository](https://github.com/tigicion/dao-code) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/tigicion/dao-code) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

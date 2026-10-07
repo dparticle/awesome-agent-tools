@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "full_name": "athola/claude-night-market",
+  "name": "claude-night-market",
+  "owner": "athola",
+  "url": "https://github.com/athola/claude-night-market",
+  "description": "23 Claude Code plugins: TDD enforcement hooks, git/PR workflows, spec-driven development, code review, project lifecycle, fix-from-error, maintenance automation, context optimization, research, and multi-LLM delegation. 186 skills, 128 commands, 54 agents.",
+  "homepage": "https://athola.github.io/claude-night-market",
+  "stars": 342,
+  "forks": 37,
+  "open_issues": 22,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "architecture-patterns",
+    "awesome-claude-code",
+    "awesome-claude-skills",
+    "claude-agents",
+    "claude-code",
+    "claude-code-plugins",
+    "claude-code-plugins-marketplace",
+    "claude-commands",
+    "claude-hooks",
+    "claude-skills",
+    "code-review",
+    "gemini",
+    "git-workflow",
+    "memory-palace",
+    "python",
+    "qwen",
+    "resource-optimization",
+    "spec-driven-development",
+    "test-driven-development"
+  ],
+  "created_at": "2025-11-23T06:45:40Z",
+  "updated_at": "2026-10-02T09:21:52Z",
+  "pushed_at": "2026-10-06T06:26:21Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 318,
+  "days_since_push": 1,
+  "health_score": 53,
+  "health_components": {
+    "popularity": 50.7,
+    "momentum": 0.9,
+    "maintenance": 100.0,
+    "documentation": 64.0,
+    "accessibility": 72.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 342,
+    "days_span": 318,
+    "stars_per_day": 1.08,
+    "lifetime_stars_per_day": 1.08,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "athola/claude-night-market",
+    "readme_chars": 9221,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "skills-plugins": "",
+      "notifications": "n optimization), conjure (delegation to seven external"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "skills-plugins": 1,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 28,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner; configure config.json/yaml/toml, server/reverse-proxy setup",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 config.json/yaml/toml、server/reverse-proxy setup"
+    },
+    "doc_score": 64,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "A plugin marketplace for Claude Code.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.651
+    },
+    "highlights": [
+      "Destructive-command blockers (conserve, hookify)"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:25+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

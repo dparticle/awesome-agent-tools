@@ -33,13 +33,13 @@ from .discover import (
     EXCLUDED_REPOS,
     IDENTITY_PROSE_CHARS,
     Candidate,
-    assign_category,
     discover,
     is_on_topic,
-    load_categories,
     load_discovery_config,
+    load_queries,
 )
 from .github import GitHubClient, RateLimitExhausted, now_iso, parse_iso
+from .highlights import build_corpus, load_corpus, save_corpus
 from .readme_analysis import ReadmeAnalysis, analyse
 from .scoring import (
     assign_tier,
@@ -49,12 +49,15 @@ from .scoring import (
     load_thresholds,
 )
 from .supersede import (
+    EDGE_CHALLENGER,
+    EDGE_SUPERSEDE,
     STATE_ACTIVE,
     ToolFacts,
     apply_manual_overrides,
     build_edges,
     resolve_states,
 )
+from .taxonomy import Cluster, discover_categories, save_categories
 from .util import (
     CONFIG_DIR,
     DATA_DIR,
@@ -125,6 +128,7 @@ class PipelineStats:
     readme_missing: int = 0
     api_metadata_calls: int = 0
     supersede_edges: int = 0
+    challenger_edges: int = 0
     budget: dict[str, int] = field(default_factory=dict)
     duration_s: float = 0.0
     errors: list[str] = field(default_factory=list)
@@ -140,6 +144,7 @@ class PipelineStats:
             "readme_missing": self.readme_missing,
             "api_metadata_calls": self.api_metadata_calls,
             "supersede_edges": self.supersede_edges,
+            "challenger_edges": self.challenger_edges,
             "budget": self.budget,
             "duration_s": round(self.duration_s, 1),
             "errors": self.errors[:40],
@@ -164,9 +169,6 @@ def run_pipeline(
     stats = PipelineStats()
     thresholds = load_thresholds()
     discovery_cfg = load_discovery_config()
-    categories = load_categories()
-    categories_by_id = {c["id"]: c for c in categories}
-    all_category_ids = list(categories_by_id)
     overrides = read_json(CONFIG_DIR / "overrides.json", default={}) or {}
 
     # -- 1. discover ------------------------------------------------------
@@ -200,6 +202,13 @@ def run_pipeline(
     entries: dict[str, dict[str, Any]] = {}
     rejected: list[dict[str, Any]] = []
     prefilter = discovery_cfg.get("prefilter", {})
+    # Document frequencies from the previous run. Highlight extraction uses them
+    # to distinguish a concrete feature from wording common to every README; on
+    # a first run the corpus is empty and scoring falls back to its other
+    # signals, then the next run benefits.
+    corpus = load_corpus()
+    if corpus:
+        LOG.info("loaded corpus of %s documents", corpus.get("__documents__", 0))
 
     for i, candidate in enumerate(candidates, 1):
         provisional = candidate.metadata or {}
@@ -246,7 +255,13 @@ def run_pipeline(
         except Exception as exc:  # noqa: BLE001 - never let one README kill the run
             body, source = "", f"error:{type(exc).__name__}"
 
-        analysis = analyse(full_name, body, repo.get("description") or "", source) if body else None
+        # The corpus lets highlight extraction tell a concrete feature apart
+        # from wording that appears in almost every README.
+        analysis = (
+            analyse(full_name, body, repo.get("description") or "", source, corpus=corpus)
+            if body
+            else None
+        )
         if analysis and analysis.readme_chars:
             stats.readme_ok += 1
         else:
@@ -309,24 +324,14 @@ def run_pipeline(
             stats.rejected += 1
             continue
 
-        # A rising-pass candidate has no category yet: let every category
-        # compete for it on the strength of its README. Seeds are trusted, so
-        # they only need a single mention.
-        candidate_categories = candidate.categories or all_category_ids
-        cat_id, matched, cat_score = assign_category(
-            candidate_categories,
-            analysis,
-            categories_by_id,
-            min_hits=1 if candidate.source == "seed" else 2,
-        )
-        if not cat_id:
+        # Categories are discovered later, by clustering every accepted tool's
+        # capabilities. The only requirement here is that the README documents
+        # something we can cluster on.
+        if not analysis.capabilities:
             rejected.append(
                 {
                     "full_name": full_name,
-                    "reasons": [
-                        "no category matched the README's capabilities "
-                        f"(detected: {', '.join(analysis.capabilities[:6]) or 'none'})"
-                    ],
+                    "reasons": ["no capabilities could be detected from the README"],
                     "stars": repo.get("stargazers_count", 0),
                 }
             )
@@ -346,12 +351,8 @@ def run_pipeline(
             score=score,
             components=components,
             tier=tier,
-            category=cat_id,
-            matched_capabilities=matched,
-            category_score=cat_score,
             source=candidate.source,
             seed_reason=candidate.seed_reason,
-            also_in=[c for c in candidate.categories if c != cat_id],
             metadata_source=meta_source,
         )
         stats.accepted += 1
@@ -366,10 +367,21 @@ def run_pipeline(
                 client.budget.used_core,
             )
 
-    # -- 3. elimination ---------------------------------------------------
-    facts = [ToolFacts.from_entry(e, e.get("category", "")) for e in entries.values()]
-    edges = apply_manual_overrides(build_edges(facts, thresholds), overrides)
-    stats.supersede_edges = len(edges)
+    # -- 3. discover categories -------------------------------------------
+    # Categories come from the data: tools are clustered by how prominently
+    # their READMEs document each capability. Nothing here is declared by hand.
+    entry_list = list(entries.values())
+    clusters = discover_categories(entry_list) if entry_list else []
+    if not clusters:
+        LOG.error("category discovery produced nothing; the index would be empty")
+        stats.errors.append("category discovery produced no clusters")
+
+    # -- 4. elimination ---------------------------------------------------
+    facts = [ToolFacts.from_entry(e, e.get("primary_category", "")) for e in entries.values()]
+    facts_by_name = {f.full_name.lower(): f for f in facts}
+    edges = apply_manual_overrides(build_edges(facts, thresholds), overrides, facts_by_name)
+    stats.supersede_edges = len([e for e in edges if e.kind == EDGE_SUPERSEDE])
+    stats.challenger_edges = len([e for e in edges if e.kind == EDGE_CHALLENGER])
     states = resolve_states(entries, edges, overrides, thresholds)
 
     for full_name, entry in entries.items():
@@ -379,11 +391,14 @@ def run_pipeline(
             "note_en": info.get("note_en", ""),
             "note_zh": info.get("note_zh", ""),
             "superseded_by": info.get("superseded_by", ""),
+            "challenger": info.get("challenger", ""),
         }
         if info.get("supersede_edge"):
             entry["lifecycle"]["supersede"] = info["supersede_edge"]
+        if info.get("challenger_edge"):
+            entry["lifecycle"]["challenger_edge"] = info["challenger_edge"]
 
-    # -- 4. persist -------------------------------------------------------
+    # -- 5. persist -------------------------------------------------------
     stats.duration_s = time.time() - started
     stats.budget = client.budget.as_dict()
 
@@ -398,23 +413,30 @@ def run_pipeline(
             LOG.error("REFUSING TO WRITE: %s", refusal)
             LOG.error("the existing index (%d tools) was left untouched", previous_count)
             stats.errors.append(f"write refused: {refusal}")
-            return previous or _build_index(entries, edges, rejected, stats, categories), stats
+            return previous, stats
 
     if not dry_run:
         _prune_stale_entries(entries)
         for entry in entries.values():
             write_json(entry_path(entry["full_name"]), entry)
+        # Refresh the corpus from every README we have cached, so the next run's
+        # highlight scoring has current document frequencies.
+        _refresh_corpus(client, entries)
 
-    index = _build_index(entries, edges, rejected, stats, categories)
+    index = _build_index(entries, edges, rejected, stats, clusters)
     if not dry_run:
         write_json(INDEX_PATH, index)
         write_json(GRAVEYARD_PATH, _build_graveyard(entries, edges))
+        save_categories(clusters, generated_at=index["generated_at"])
 
     LOG.info(
-        "pipeline done: accepted=%d rejected=%d edges=%d core_calls=%d in %.1fs",
+        "pipeline done: accepted=%d rejected=%d categories=%d superseded=%d challengers=%d "
+        "core_calls=%d in %.1fs",
         stats.accepted,
         stats.rejected,
+        len(clusters),
         stats.supersede_edges,
+        stats.challenger_edges,
         stats.api_metadata_calls,
         stats.duration_s,
     )
@@ -496,6 +518,25 @@ def _prefilter_reason(repo: dict[str, Any], prefilter: dict[str, Any]) -> str:
     return ""
 
 
+def _refresh_corpus(client: GitHubClient, entries: dict[str, dict[str, Any]]) -> None:
+    """Rebuild ``data/corpus.json`` from cached READMEs.
+
+    Reads from the on-disk cache rather than re-downloading, so this costs no
+    API budget. Only the tools currently in the index contribute, which keeps
+    the statistics representative of the list being generated.
+    """
+    bodies: list[str] = []
+    for entry in entries.values():
+        body, _ = client.get_readme(entry["full_name"])
+        if body:
+            bodies.append(body)
+    if not bodies:
+        return
+    corpus = build_corpus(bodies)
+    save_corpus(corpus)
+    LOG.info("refreshed corpus: %d documents, %d terms", len(bodies), len(corpus))
+
+
 def _check_shrink_safety(accepted: int, previous_count: int, stats: PipelineStats) -> str:
     """Decide whether writing this run would destroy a good index.
 
@@ -547,12 +588,8 @@ def _build_entry(
     score: int,
     components: dict[str, float],
     tier: str,
-    category: str,
-    matched_capabilities: list[str],
-    category_score: float,
     source: str,
     seed_reason: str,
-    also_in: list[str],
     metadata_source: str = "api",
 ) -> dict[str, Any]:
     license_info = repo.get("license") or {}
@@ -570,10 +607,6 @@ def _build_entry(
         "url": repo.get("html_url") or f"https://github.com/{repo['full_name']}",
         "description": repo.get("description") or "",
         "homepage": repo.get("homepage") or "",
-        "category": category,
-        "also_in": also_in,
-        "matched_capabilities": matched_capabilities,
-        "category_score": round(category_score, 2),
         "stars": int(repo.get("stargazers_count") or 0),
         "forks": int(repo.get("forks_count") or 0),
         "open_issues": int(repo.get("open_issues_count") or 0),
@@ -607,22 +640,27 @@ def _build_index(
     edges: list[Any],
     rejected: list[dict[str, Any]],
     stats: PipelineStats,
-    categories: list[dict[str, Any]],
+    clusters: list[Cluster],
 ) -> dict[str, Any]:
     # Everything in the index is keyed by the lower-cased full name so that
     # ``categories[].tools``, ``supersede[]`` and ``tools{}`` all agree and no
     # consumer has to remember which casing it is holding. Display case lives in
     # ``tools[key].full_name`` (and ``*_name`` on supersede edges).
-    by_category: dict[str, list[str]] = {c["id"]: [] for c in categories}
-    for key, entry in entries.items():
-        by_category.setdefault(entry["category"], []).append(key)
+    #
+    # A tool appears under every category it belongs to (``also_in``), but is
+    # listed in full only under its primary one, so the index stays navigable.
+    def sort_key(name: str) -> tuple[int, int]:
+        entry = entries.get(name, {})
+        return (-int(entry.get("health_score", 0)), -int(entry.get("stars", 0)))
 
-    # Retired tools stay in the data but are excluded from the live tables.
     live = {
         name: e
         for name, e in entries.items()
         if e.get("lifecycle", {}).get("state") == STATE_ACTIVE
     }
+    retired = len(entries) - len(live)
+    supersede_edges = [e for e in edges if e.kind == EDGE_SUPERSEDE]
+    challenger_edges = [e for e in edges if e.kind == EDGE_CHALLENGER]
 
     return {
         "schema": SCHEMA_VERSION,
@@ -630,33 +668,32 @@ def _build_index(
         "generator": "agentindex",
         "counts": {
             "tools": len(live),
-            "retired": len(entries) - len(live),
-            "categories": len([c for c in categories if by_category.get(c["id"])]),
-            "supersede_edges": len(edges),
+            "retired": retired,
+            "categories": len([c for c in clusters if c.primary_tools]),
+            "supersede_edges": len(supersede_edges),
+            "challenger_edges": len(challenger_edges),
             "rejected": len(rejected),
         },
         "stats": stats.as_dict(),
         "categories": [
             {
-                "id": c["id"],
-                "order": c.get("order", 999),
-                "title": c.get("title", {}),
-                "tagline": c.get("tagline", {}),
-                "problem": c.get("problem", {}),
-                "tools": sorted(
-                    by_category.get(c["id"], []),
-                    key=lambda n: (
-                        -int(entries.get(n, {}).get("health_score", 0)),
-                        -int(entries.get(n, {}).get("stars", 0)),
-                    ),
-                ),
+                "id": c.slug,
+                "title": {"en": c.title_en, "zh": c.title_zh},
+                "tagline": {"en": c.tagline_en, "zh": c.tagline_zh},
+                "problem": {"en": c.problem_en, "zh": c.problem_zh},
+                "capabilities": c.capabilities,
+                "cohesion": round(c.cohesion, 3),
+                "tools": sorted(c.primary_tools, key=sort_key),
+                "also_in": sorted(set(c.tools) - set(c.primary_tools), key=sort_key),
             }
-            for c in categories
+            for c in clusters
+            if c.primary_tools
         ],
         "tools": {
             name: {
                 "full_name": e["full_name"],
-                "category": e["category"],
+                "category": e.get("primary_category", ""),
+                "categories": e.get("categories", []),
                 "stars": e["stars"],
                 "stars_per_day": e["momentum"]["stars_per_day"],
                 "health_score": e["health_score"],
@@ -667,10 +704,12 @@ def _build_index(
                 "setup_level": e["analysis"]["friction"]["level"],
                 "capabilities": e["analysis"]["capabilities"],
                 "agents": e["analysis"]["agents"],
+                "highlights": e["analysis"].get("highlights", []),
             }
             for name, e in entries.items()
         },
-        "supersede": [e.as_dict() for e in edges],
+        "supersede": [e.as_dict() for e in supersede_edges],
+        "challengers": [e.as_dict() for e in challenger_edges],
         "rejected": rejected,
     }
 
@@ -688,7 +727,7 @@ def _build_graveyard(entries: dict[str, dict[str, Any]], edges: list[Any]) -> di
         "tools": {
             name: {
                 "full_name": e["full_name"],
-                "category": e["category"],
+                "category": e.get("primary_category", ""),
                 "stars": e["stars"],
                 "state": e["lifecycle"]["state"],
                 "superseded_by": e["lifecycle"].get("superseded_by", ""),

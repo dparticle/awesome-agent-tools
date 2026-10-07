@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "full_name": "breferrari/obsidian-mind",
+  "name": "obsidian-mind",
+  "owner": "breferrari",
+  "url": "https://github.com/breferrari/obsidian-mind",
+  "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
+  "homepage": "",
+  "stars": 4930,
+  "forks": 551,
+  "open_issues": 6,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex-cli",
+    "gemini-cli",
+    "knowledge-management",
+    "obsidian",
+    "obsidian-vault",
+    "persistent-memory",
+    "second-brain",
+    "template"
+  ],
+  "created_at": "2026-02-28T21:41:41Z",
+  "updated_at": "2026-10-07T12:32:07Z",
+  "pushed_at": "2026-10-06T08:55:40Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 220,
+  "days_since_push": 1,
+  "health_score": 63,
+  "health_components": {
+    "popularity": 73.9,
+    "momentum": 18.7,
+    "maintenance": 100.0,
+    "documentation": 76.0,
+    "accessibility": 48.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 4930,
+    "days_span": 220,
+    "stars_per_day": 22.41,
+    "lifetime_stars_per_day": 22.41,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "breferrari/obsidian-mind",
+    "readme_chars": 45031,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "r goals (the ShardMind wizard does this for you).",
+      "multi-agent-orchestration": "e note is titled \"Redis Migration ADR.\"",
+      "memory-context": "",
+      "skills-plugins": "A custom skill in .claude/skills/qmd/ that teaches the agent to use QMD semantic search proactively — before reading files, before creating notes (to check for duplicates), and after creating notes (to find related",
+      "agent-runtime": "erything still works — the agent falls back to grep and the Obsidian CLI, and the MCP server entry is skipped with a harmless warning.",
+      "mcp-support": "en the conversation touches a listed topic.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 3,
+      "multi-agent-orchestration": 7,
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 3,
+      "mcp-support": 12,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 52,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs git clone (build from source), npm install/build; configure database dependency, database migration",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 database dependency、database migration"
+    },
+    "doc_score": 76,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "🌐 English | 日本語 | 中文 | 한국어",
+    "summary_zh": "",
+    "install_hint": "npm install -g shardmind",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.511
+    },
+    "highlights": [
+      "Subagents get sharper context. context-loader, review-prep, brag-spotter, and friends consult QMD first, then fall back to grep.",
+      "James Bedford — Vault structure philosophy, separation of AI-generated content",
+      "Detect your vault version (v1–v3.x, or identify it as a non-obsidian-mind vault)"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "categories": [
+    "desktop-ui",
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "breferrari/obsidian-mind",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "breferrari/obsidian-mind",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 5.924,
+      "momentum_ratio": 5.818,
+      "setup_delta": -20,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "5.92x the stars (29,204 vs 4,930)",
+        "5.82x the star velocity (130.4/day vs 22.4/day)",
+        "no harder to set up (32 vs 52 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 63,
+        "challenger_health": 88,
+        "incumbent_setup_score": 52,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@
 
 > A Desktop Application for Managing Multiple OpenAI Codex Accounts Easily switch between accounts, monitor usage, schedule warm-ups, and stay in control of your quota
 
-[Repository](https://github.com/Lampese/codex-switcher) · [Back to index](../../README.md) · Category: **quota-account-ops**
+[Repository](https://github.com/Lampese/codex-switcher) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 51/100 |
 | Documentation | 33/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-14 |
 | Last push | 2026-10-05 (2 days ago) |
 | Analyzed README | 9,104 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [yetone/magpie](https://github.com/yetone/magpie)** — Superseded by yetone/magpie: covers 100% of capabilities (3/3).
 
 ## What it solves
 

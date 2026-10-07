@@ -4,7 +4,7 @@
 
 > Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.
 
-[Repository](https://github.com/google-gemini/gemini-cli) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/google-gemini/gemini-cli) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

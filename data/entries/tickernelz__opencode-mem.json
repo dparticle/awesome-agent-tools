@@ -6,12 +6,6 @@
   "url": "https://github.com/tickernelz/opencode-mem",
   "description": "OpenCode plugin that gives coding agents persistent memory using local vector database",
   "homepage": "",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 14.0,
   "stars": 1719,
   "forks": 173,
   "open_issues": 6,
@@ -128,80 +122,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.203
-    }
+    },
+    "highlights": [
+      "In later sessions, relevant memories are injected into context (see chatMessage / compaction settings). Browse or edit them in the web UI at http://127.0.0.1:4747.",
+      "orcarouter: OpenAI-compatible model gateway with namespaced model IDs. memoryApiUrl and memoryModel are optional — they default to https://api.orcarouter.ai/v1 and orcarouter/auto (a routin…",
+      "Unsupported platforms: Intel Mac (darwin/x64) is not supported — @tursodatabase/database and fixed onnxruntime-node releases (pinned 1.30.0) ship no x64 native binding. Use Apple Silicon, L…",
+      "atlas-cloud: OpenAI-compatible Chat Completions preset for Atlas Cloud. memoryApiUrl and memoryModel are optional — they default to https://api.atlascloud.ai/v1 and deepseek-ai/deepseek-v4-…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing",
+    "skills"
+  ],
+  "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "supersede": {
-      "incumbent": "tickernelz/opencode-mem",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "tickernelz/opencode-mem",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration",
-        "notifications",
-        "security-isolation"
-      ],
-      "star_ratio": 16.989,
-      "momentum_ratio": 20.468,
-      "setup_delta": -28,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "16.99x the stars (29,204 vs 1,719)",
-        "20.47x the star velocity (130.4/day vs 6.4/day)",
-        "no harder to set up (32 vs 60 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 55,
-        "challenger_health": 88,
-        "incumbent_setup_score": 60,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

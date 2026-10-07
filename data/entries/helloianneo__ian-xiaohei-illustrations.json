@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "full_name": "helloianneo/ian-xiaohei-illustrations",
+  "name": "ian-xiaohei-illustrations",
+  "owner": "helloianneo",
+  "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+  "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+  "homepage": "https://www.ianneo.xyz",
+  "stars": 12397,
+  "forks": 1432,
+  "open_issues": 20,
+  "language": "",
+  "license": "MIT",
+  "topics": [
+    "ai-agent",
+    "chinese",
+    "codex-skill",
+    "handdrawn",
+    "illustration",
+    "image-generation",
+    "xiaohei"
+  ],
+  "created_at": "2026-05-27T22:47:56Z",
+  "updated_at": "2026-10-07T13:15:21Z",
+  "pushed_at": "2026-09-24T22:14:01Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 132,
+  "days_since_push": 12,
+  "health_score": 72,
+  "health_components": {
+    "popularity": 81.9,
+    "momentum": 78.3,
+    "maintenance": 92.0,
+    "documentation": 40.0,
+    "accessibility": 49.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 12397,
+    "days_span": 132,
+    "stars_per_day": 93.92,
+    "lifetime_stars_per_day": 93.92,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "helloianneo/ian-xiaohei-illustrations",
+    "readme_chars": 4846,
+    "capabilities": [
+      "memory-context",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "memory-context": "",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "memory-context": 2,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Some setup. needs git clone (build from source)",
+      "note_zh": "需要一些配置。需要 git clone (build from source)"
+    },
+    "doc_score": 40,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "mentions licensing",
+      "has a table of contents",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Ian Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links",
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 1.651
+    },
+    "highlights": [
+      "Awesome Claude Code Skills — Claude Code Skills / Agents / Plugins 精选合集"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

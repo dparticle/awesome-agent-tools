@@ -4,7 +4,7 @@
 
 > Desktop, browser, network, and long-term memory — always on, even when your laptop is closed.
 
-[Repository](https://github.com/felinics/Memoh) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/felinics/Memoh) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

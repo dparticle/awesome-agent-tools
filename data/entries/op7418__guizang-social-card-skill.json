@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "full_name": "op7418/guizang-social-card-skill",
+  "name": "guizang-social-card-skill",
+  "owner": "op7418",
+  "url": "https://github.com/op7418/guizang-social-card-skill",
+  "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
+  "homepage": "https://github.com/op7418/guizang-social-card-skill",
+  "stars": 7385,
+  "forks": 569,
+  "open_issues": 12,
+  "language": "HTML",
+  "license": "AGPL-3.0",
+  "topics": [
+    "agent-skill",
+    "ai-agent",
+    "anthropic",
+    "claude-code",
+    "claude-skill",
+    "codex",
+    "editorial-design",
+    "html-template",
+    "image-generation",
+    "playwright",
+    "rednote",
+    "social-cards",
+    "swiss-design",
+    "wechat",
+    "xiaohongshu"
+  ],
+  "created_at": "2026-05-27T12:05:05Z",
+  "updated_at": "2026-10-07T12:27:51Z",
+  "pushed_at": "2026-07-01T16:39:11Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 133,
+  "days_since_push": 97,
+  "health_score": 62,
+  "health_components": {
+    "popularity": 77.4,
+    "momentum": 46.3,
+    "maintenance": 55.0,
+    "documentation": 56.0,
+    "accessibility": 75.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7385,
+    "days_span": 133,
+    "stars_per_day": 55.53,
+    "lifetime_stars_per_day": 55.53,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "op7418/guizang-social-card-skill",
+    "readme_chars": 13913,
+    "capabilities": [
+      "mobile-access",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mobile-access": "Pexels / Wallhaven / Mapbox / OSM 等任意网络资源",
+      "gui-desktop": "",
+      "notifications": "eview — 先把 PNG 给用户看,询问\"你自己看还是我先帮你跑 validator\",默认不自动核查",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "mobile-access": 2,
+      "gui-desktop": 1,
+      "notifications": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source)",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 56,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "documents changes",
+      "publishes a roadmap"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "一个适配 Claude Code / Codex 等 Agent 环境的图文卡片技能,用于从文章、文案、截图、产品笔记、字幕、照片或用户视频生成小红书 / Rednote 图文组图、Live Photo 动态卡与公众号 21:9 + 1:1 封面对。",
+    "summary_zh": "",
+    "install_hint": "npx skills add https://github.com/op7418/guizang-social-card-skill --skill guizang-social-card-skill",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.791
+    },
+    "highlights": [
+      "📐 3 个画板尺寸:.poster.xhs 1080×1440(小红书 3:4)、.poster.wide 2100×900(公众号 21:9)、.poster.square 1080×1080(公众号 1:1)",
+      "🧰 截图美化资产:9 张 WebP 真实材质背景(Editorial 5 / Swiss 4),配套 .frame-shot / .device-browser / .device-phone 工具类",
+      "R5 4-Band Density — 1440 高画布切 4 横带,每带应有内容或主动留白理由",
+      "🧩 28 个版式骨架:Editorial 16 个(M01-M16,含 Image-Led Cover、Pipeline、Before/After 等)+ Swiss 12 个(S01-S12,含 KPI Tower、H-Bar Chart、Matrix + Hero 等)"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "categories": [
+    "mobile"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "full_name": "oomol-lab/open-connector",
+  "name": "open-connector",
+  "owner": "oomol-lab",
+  "url": "https://github.com/oomol-lab/open-connector",
+  "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+  "homepage": "https://oomol.com",
+  "stars": 5955,
+  "forks": 540,
+  "open_issues": 14,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-tools",
+    "ai-agents",
+    "api-gateway",
+    "automation",
+    "cli",
+    "cloudflare-workers",
+    "connectors",
+    "integration-platform",
+    "mcp",
+    "model-context-protocol",
+    "oauth",
+    "oomol",
+    "openapi",
+    "openconnector",
+    "saas-integrations",
+    "sdk",
+    "self-hosted",
+    "typescript"
+  ],
+  "created_at": "2026-06-29T10:49:36Z",
+  "updated_at": "2026-10-07T13:20:14Z",
+  "pushed_at": "2026-10-07T03:26:06Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 100,
+  "days_since_push": 0,
+  "health_score": 66,
+  "health_components": {
+    "popularity": 75.5,
+    "momentum": 49.6,
+    "maintenance": 100.0,
+    "documentation": 60.0,
+    "accessibility": 28.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 5955,
+    "days_span": 100,
+    "stars_per_day": 59.55,
+    "lifetime_stars_per_day": 59.55,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "oomol-lab/open-connector",
+    "readme_chars": 16630,
+    "capabilities": [
+      "model-routing",
+      "mcp-support",
+      "self-hosted",
+      "team-collaboration"
+    ],
+    "capability_evidence": {
+      "model-routing": "ecent run review, and access to the",
+      "mcp-support": "English 简体中文 繁體中文 日本語 한국어 Русский Français Español",
+      "self-hosted": "ojectConnector for OOMOL-hosted personal and SaaS end-user connections.",
+      "team-collaboration": "ld your own:** Fork Wanta and customize its prompts, tools, interface, models, and branding."
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "mcp-support": 6,
+      "self-hosted": 3,
+      "team-collaboration": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 72,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "docker compose up",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs docker compose up, npm install/build; configure API key configuration, OAuth login flow",
+      "note_zh": "配置较重。需要 docker compose up、npm install/build；需配置 API key configuration、OAuth login flow"
+    },
+    "doc_score": 60,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "OpenCode"
+    ],
+    "summary_en": "English | 简体中文 | 繁體中文 | 日本語 | 한국어 | Русский | Français | Español",
+    "summary_zh": "",
+    "install_hint": "docker compose up",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.022
+    },
+    "highlights": [
+      "Deployment options for local Docker or Node.js with SQLite or PostgreSQL state and local or",
+      "Connect your clients: MCP, CLI, and SDK",
+      "Credential handling for API keys, OAuth2, custom credentials, and no-auth providers."
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "oomol-lab/open-connector",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "oomol-lab/open-connector",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "mcp-support",
+        "model-routing",
+        "self-hosted",
+        "team-collaboration"
+      ],
+      "star_ratio": 4.904,
+      "momentum_ratio": 2.189,
+      "setup_delta": -40,
+      "dominance": 0.897,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "4.90x the stars (29,204 vs 5,955)",
+        "2.19x the star velocity (130.4/day vs 59.5/day)",
+        "no harder to set up (32 vs 72 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "mcp-support",
+          "model-routing",
+          "self-hosted",
+          "team-collaboration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 66,
+        "challenger_health": 88,
+        "incumbent_setup_score": 72,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

@@ -58,7 +58,13 @@ Tiers:
 
 Momentum is measured from `data/history/<tool>.json`, a rolling star snapshot taken once per day. On the very first run there is no history, so the crawler falls back to lifetime stars/day — a good proxy for young repos and a conservative one for old repos. From the second run onward, growth is **observed**, not inferred.
 
-## 6. Elimination
+## 6. Category discovery
+
+Categories are **not declared anywhere**. Each run clusters the indexed tools by how prominently their READMEs document each capability, and the clusters become the sections. See [TAXONOMY.md](TAXONOMY.md) for the algorithm and why the obvious approaches fail on this data.
+
+A tool may belong to several categories at once, because tools genuinely span problem areas. It is described in full only under its primary category.
+
+## 7. Elimination
 
 See [SUPERSEDE.md](SUPERSEDE.md) for the full rule set.
 

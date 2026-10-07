@@ -6,13 +6,6 @@
   "url": "https://github.com/jacobaraujo7/remote_pi",
   "description": "Control your Pi coding agent from your phone. Pair with a one-time QR code and chat with your local agent, even when you're away from your computer.",
   "homepage": "https://cockpit.jacobmoura.work",
-  "category": "remote-control",
-  "also_in": [],
-  "matched_capabilities": [
-    "mobile-access",
-    "remote-control"
-  ],
-  "category_score": 20.0,
   "stars": 427,
   "forks": 121,
   "open_issues": 66,
@@ -34,7 +27,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 138,
-  "days_since_push": 0,
+  "days_since_push": 1,
   "health_score": 50,
   "health_components": {
     "popularity": 52.6,
@@ -115,25 +108,32 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.593
-    }
+    },
+    "highlights": []
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "mobile"
+  ],
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "paperclipai/paperclip",
+    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "yohey-w/multi-agent-shogun",
+    "challenger": "",
     "supersede": {
       "incumbent": "jacobaraujo7/remote_pi",
-      "challenger": "paperclipai/paperclip",
+      "challenger": "yohey-w/multi-agent-shogun",
       "incumbent_name": "jacobaraujo7/remote_pi",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "auto",
+      "challenger_name": "yohey-w/multi-agent-shogun",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "medium",
       "coverage": 1.0,
       "covered": [
@@ -143,15 +143,15 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 230.143,
-      "momentum_ratio": 145.883,
-      "setup_delta": 9,
-      "dominance": 0.955,
+      "star_ratio": 3.333,
+      "momentum_ratio": 1.806,
+      "setup_delta": 10,
+      "dominance": 0.823,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "230.14x the stars (98,271 vs 427)",
-        "145.88x the star velocity (450.8/day vs 3.1/day)",
-        "slightly heavier setup (+9 friction, within tolerance)"
+        "3.33x the stars (1,423 vs 427)",
+        "1.81x the star velocity (5.6/day vs 3.1/day)",
+        "slightly heavier setup (+10 friction, within tolerance)"
       ],
       "evidence": {
         "incumbent_capabilities": [
@@ -163,6 +163,7 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -171,19 +172,18 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
+          "parallel-execution",
           "remote-control",
-          "security-isolation",
           "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
+          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 89,
+        "challenger_health": 52,
         "incumbent_setup_score": 36,
-        "challenger_setup_score": 45
+        "challenger_setup_score": 46
       }
     }
   }

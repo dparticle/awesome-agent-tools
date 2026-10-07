@@ -6,12 +6,6 @@
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
   "homepage": "https://paperclip.ing",
-  "category": "remote-control",
-  "also_in": [],
-  "matched_capabilities": [
-    "remote-control"
-  ],
-  "category_score": 14.0,
   "stars": 98271,
   "forks": 16613,
   "open_issues": 6210,
@@ -24,7 +18,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 218,
+  "age_days": 219,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -37,9 +31,9 @@
   "tier": "flagship",
   "momentum": {
     "stars_gained": 98271,
-    "days_span": 218,
-    "stars_per_day": 450.78,
-    "lifetime_stars_per_day": 450.78,
+    "days_span": 219,
+    "stars_per_day": 448.73,
+    "lifetime_stars_per_day": 448.73,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -162,18 +156,30 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.532
-    }
+    },
+    "highlights": [
+      "✅ You have 20 simultaneous Claude Code terminals open and lose track of what everyone is doing",
+      "✅ You want agents running autonomously 24/7, but still want to audit work and chime in when needed",
+      "✅ You coordinate many different agents (OpenClaw, Codex, Claude, Cursor) toward a common goal"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:05+00:00",
+  "fetched_at": "2026-10-07T16:31:06+00:00",
+  "categories": [
+    "analytics",
+    "isolation-parallelism",
+    "mobile"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

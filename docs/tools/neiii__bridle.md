@@ -4,7 +4,7 @@
 
 > Unified configuration manager for AI coding assistants.
 
-[Repository](https://github.com/neiii/bridle) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/neiii/bridle) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 48/100 |
 | Documentation | 48/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2025-12-27 |
 | Last push | 2026-08-15 (52 days ago) |
 | Analyzed README | 6,913 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (3/3).
 
 ## What it solves
 

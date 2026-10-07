@@ -6,12 +6,6 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://agent-memory.dev",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 29204,
   "forks": 2556,
   "open_issues": 596,
@@ -187,18 +181,28 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.166
-    }
+    },
+    "highlights": [
+      "name: mcp # extra MCP servers next to agentmemory's, same engine"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "fetched_at": "2026-10-07T16:31:10+00:00",
+  "categories": [
+    "desktop-ui",
+    "mcp-failover",
+    "model-routing"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

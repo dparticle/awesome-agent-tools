@@ -6,13 +6,6 @@
   "url": "https://github.com/grpcer/ownmem",
   "description": "Open-source, Git-native memory for AI coding agents — deterministic local recall for Claude Code, Codex, Cursor, Gemini CLI, and compatible tools.",
   "homepage": "https://www.npmjs.com/package/ownmem",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support"
-  ],
-  "category_score": 22.5,
   "stars": 423,
   "forks": 7,
   "open_issues": 0,
@@ -135,18 +128,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 1.091
-    }
+    },
+    "highlights": [
+      "Decomposed retrieval evaluation: ARES (NAACL 2024), RAGChecker (2024)",
+      "Memory and knowledge-base poisoning: AgentPoison (NeurIPS 2024), PoisonedRAG (USENIX Security 2025)",
+      "Agent memory and reflection: Reflexion (NeurIPS 2023), MemGPT (2023)",
+      "Untrusted data separated from authority: CaMeL: Defeating Prompt Injections by Design (2025)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

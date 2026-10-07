@@ -4,7 +4,7 @@
 
 > A local-first memory layer that captures your conversations, builds a searchable knowledge graph, and automatically injects the right context into every new prompt — no cloud, no subscriptions, no re-explaining yourself.
 
-[Repository](https://github.com/Eshaan-Nair/ArcRift) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/Eshaan-Nair/ArcRift) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

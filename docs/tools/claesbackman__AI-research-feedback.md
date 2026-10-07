@@ -4,7 +4,7 @@
 
 > A collection of Claude Code skills for reviewing and understanding academic research.
 
-[Repository](https://github.com/claesbackman/AI-research-feedback) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/claesbackman/AI-research-feedback) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

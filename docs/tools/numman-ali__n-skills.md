@@ -4,7 +4,7 @@
 
 > Curated by Numman Ali
 
-[Repository](https://github.com/numman-ali/n-skills) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/numman-ali/n-skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

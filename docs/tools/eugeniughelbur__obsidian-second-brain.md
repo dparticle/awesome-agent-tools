@@ -4,7 +4,7 @@
 
 > You use Claude every day.
 
-[Repository](https://github.com/eugeniughelbur/obsidian-second-brain) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/eugeniughelbur/obsidian-second-brain) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -14,15 +14,15 @@
 | --- | --- |
 | Stars | 4,691 |
 | Star velocity | 23.8/day (lifetime basis, 197d span) |
-| Health score | 66/100 |
-| Documentation | 73/100 |
+| Health score | 65/100 |
+| Documentation | 65/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-24 |
-| Last push | 2026-10-01 (5 days ago) |
-| Analyzed README | 74,474 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-01 (6 days ago) |
+| Analyzed README | 74,134 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -89,10 +89,9 @@
 
 ## Documentation quality
 
-Score **73/100**, based on these detected signals:
+Score **65/100**, based on these detected signals:
 
 - contains code blocks
-- contains screenshots/diagrams
 - has section headings
 - documents installation
 - documents configuration
@@ -112,7 +111,7 @@ Score **73/100**, based on these detected signals:
 | popularity | 73.4 |
 | momentum | 19.8 |
 | maintenance | 100.0 |
-| documentation | 73.0 |
+| documentation | 65.0 |
 | accessibility | 76.0 |
 
 ---

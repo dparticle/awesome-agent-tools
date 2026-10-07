@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "full_name": "alibaba/open-code-review",
+  "name": "open-code-review",
+  "owner": "alibaba",
+  "url": "https://github.com/alibaba/open-code-review",
+  "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+  "homepage": "https://open-codereview.ai",
+  "stars": 44160,
+  "forks": 3192,
+  "open_issues": 283,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent",
+    "agent-skills",
+    "code-review",
+    "code-review-assistant",
+    "harness",
+    "repository-level-context"
+  ],
+  "created_at": "2026-05-18T02:16:36Z",
+  "updated_at": "2026-10-07T13:33:59Z",
+  "pushed_at": "2026-10-05T06:43:52Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 142,
+  "days_since_push": 2,
+  "health_score": 89,
+  "health_components": {
+    "popularity": 92.9,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 70.0,
+    "accessibility": 63.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 44160,
+    "days_span": 142,
+    "stars_per_day": 310.99,
+    "lifetime_stars_per_day": 310.99,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "alibaba/open-code-review",
+    "readme_chars": 13289,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "no important change is missed.",
+      "model-routing": "",
+      "skills-plugins": "",
+      "agent-runtime": "",
+      "mcp-support": "forms and package managers",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "model-routing": 1,
+      "skills-plugins": 4,
+      "agent-runtime": 2,
+      "mcp-support": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs npm install/build; configure environment variables, API key configuration",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 70,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "English | 简体中文 | 日本語 | 한국어 | Русский",
+    "summary_zh": "",
+    "install_hint": "npm install -g @alibaba-group/open-code-review",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.355
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing",
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

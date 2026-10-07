@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "full_name": "zLanqing/codex-claude-academic-skills",
+  "name": "codex-claude-academic-skills",
+  "owner": "zLanqing",
+  "url": "https://github.com/zLanqing/codex-claude-academic-skills",
+  "description": "本仓库包含三个面向学术科研人员的Skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 PPT/Word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 MATLAB/Python 科学计算与期刊级图表生成。三个 Skill 专为中文科研用户设计，可在 Claude Code 和 codex 中一键调用。",
+  "homepage": "",
+  "stars": 4600,
+  "forks": 250,
+  "open_issues": 2,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-05-14T04:13:15Z",
+  "updated_at": "2026-10-07T12:45:54Z",
+  "pushed_at": "2026-05-14T09:08:48Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 146,
+  "days_since_push": 146,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 73.3,
+    "momentum": 26.3,
+    "maintenance": 55.0,
+    "documentation": 38.0,
+    "accessibility": 56.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 4600,
+    "days_span": 146,
+    "stars_per_day": 31.51,
+    "lifetime_stars_per_day": 31.51,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "zLanqing/codex-claude-academic-skills",
+    "readme_chars": 5854,
+    "capabilities": [
+      "skills-plugins",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "# Academic Skills for Claude Code & Codex",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 44,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [
+        "Chinese: beginner/one-click framing"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Some setup. needs git clone (build from source); Chinese: beginner/one-click framing",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；Chinese: beginner/one-click framing"
+    },
+    "doc_score": 38,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "三个 skill 设计为互补协作关系，可在同一任务中联动调用：",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.854
+    },
+    "highlights": [
+      "引文管理：DOI → BibTeX，文献元数据提取，引文验证",
+      "审稿意见回复（Rebuttal / Peer-review response）",
+      "文献报告 PPT、组会 PPT、课程报告 PPT"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

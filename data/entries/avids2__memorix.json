@@ -6,13 +6,6 @@
   "url": "https://github.com/AVIDS2/memorix",
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support"
-  ],
-  "category_score": 25.0,
   "stars": 835,
   "forks": 69,
   "open_issues": 6,
@@ -168,18 +161,31 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.049
-    }
+    },
+    "highlights": [
+      "memorix background start / memorix serve-http run the HTTP service for a shared endpoint, dashboard, VPS Docker deployment, or multiple clients.",
+      "Gemini CLI: installs the extension package, GEMINI.md context, hooks, and skills. Antigravity CLI has an official Gemini CLI migration path, but Gemini CLI remains an active standalone targ…",
+      "memorix serve is the stdio MCP bridge used by IDEs and coding agents. Its default tool profile is micro, so agents see only the compact core tool set.",
+      "Codex: installs one user-level Memorix plugin with bundled stdio MCP, skills, and lifecycle hooks. It does not write project-local .codex config or change your model, approval, or sandbox s…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:17+00:00",
+  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

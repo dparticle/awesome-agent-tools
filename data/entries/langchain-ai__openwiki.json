@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "full_name": "langchain-ai/openwiki",
+  "name": "openwiki",
+  "owner": "langchain-ai",
+  "url": "https://github.com/langchain-ai/openwiki",
+  "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+  "homepage": "",
+  "stars": 17006,
+  "forks": 1242,
+  "open_issues": 146,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-06-22T23:48:26Z",
+  "updated_at": "2026-10-07T13:16:51Z",
+  "pushed_at": "2026-10-07T09:10:04Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 106,
+  "days_since_push": 0,
+  "health_score": 83,
+  "health_components": {
+    "popularity": 84.6,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 64.0,
+    "accessibility": 45.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 17006,
+    "days_span": 106,
+    "stars_per_day": 160.43,
+    "lifetime_stars_per_day": 160.43,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "langchain-ai/openwiki",
+    "readme_chars": 49281,
+    "capabilities": [
+      "auto-failover",
+      "remote-control",
+      "model-routing",
+      "api-gateway",
+      "session-persistence",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "team-collaboration",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "remote-control": "ongs to multiple workspaces without an active selection, search returns workspacerequired and the agent asks which workspace to use.",
+      "model-routing": "MPATIBLEUSERESPONSESAPI=true is also set, the effort is sent through the Responses API reasoning field.",
+      "api-gateway": "mail, and plan in ~/.openwiki/.env.",
+      "session-persistence": "yourself, for example from CI so a run's thread can be found from the commit that triggered it.",
+      "agent-runtime": "ur code, your agents, and you.",
+      "mcp-support": "· Explore · Standalone CLI · Command reference",
+      "self-hosted": "",
+      "team-collaboration": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "remote-control": 1,
+      "model-routing": 10,
+      "api-gateway": 3,
+      "session-persistence": 1,
+      "agent-runtime": 8,
+      "mcp-support": 14,
+      "self-hosted": 1,
+      "team-collaboration": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 55,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs npm install/build; configure environment variables, API key configuration",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 64,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "OpenWiki turns your codebase and knowledge sources into a linked Markdown wiki that you own.",
+    "summary_zh": "",
+    "install_hint": "npm install -g openwiki",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.183
+    },
+    "highlights": [
+      "More coding-agent integrations: Oh My Pi, Antigravity, IBM Bob / Bob Shell, and Kiro join Codex, Claude Code, OpenCode, GitHub Copilot and Cursor. Connect your agent →",
+      "index.md and log.md are reserved documents rather than concepts. The root index declares okf_version: \"0.2\".",
+      "notion targets the hosted Notion MCP server, so authenticate through Notion OAuth rather than pasting a token.",
+      "custom-mcp connects to any configured HTTP or stdio MCP server and permits only explicitly safe, read-only tools."
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "mcp-failover",
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

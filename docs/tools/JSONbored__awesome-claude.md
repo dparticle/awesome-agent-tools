@@ -4,7 +4,7 @@
 
 > HeyClaude is a file-backed, human-reviewed directory for Claude agents, MCP servers, skills, hooks, commands, tools, prompts, rules, guides, templates, and statuslines.
 
-[Repository](https://github.com/JSONbored/awesome-claude) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/JSONbored/awesome-claude) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

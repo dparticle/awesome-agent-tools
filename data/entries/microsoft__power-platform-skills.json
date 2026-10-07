@@ -6,12 +6,6 @@
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
   "homepage": "https://aka.ms/ppskills",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 16.0,
   "stars": 969,
   "forks": 196,
   "open_issues": 172,
@@ -126,18 +120,85 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.718
-    }
+    },
+    "highlights": [
+      "Launch GitHub Copilot CLI or Claude Code with the plugin path:"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:16+00:00",
+  "fetched_at": "2026-10-07T16:31:18+00:00",
+  "categories": [
+    "mobile"
+  ],
+  "primary_category": "mobile",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "yohey-w/multi-agent-shogun",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "microsoft/power-platform-skills",
+      "challenger": "yohey-w/multi-agent-shogun",
+      "incumbent_name": "microsoft/power-platform-skills",
+      "challenger_name": "yohey-w/multi-agent-shogun",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "mobile-access",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 1.469,
+      "momentum_ratio": 1.484,
+      "setup_delta": -3,
+      "dominance": 0.686,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "1.47x the stars (1,423 vs 969)",
+        "1.48x the star velocity (5.6/day vs 3.8/day)",
+        "no harder to set up (46 vs 49 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "mobile-access",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 52,
+        "incumbent_setup_score": 49,
+        "challenger_setup_score": 46
+      }
+    }
   }
 }

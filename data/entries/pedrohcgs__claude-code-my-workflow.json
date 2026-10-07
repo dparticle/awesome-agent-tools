@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "full_name": "pedrohcgs/claude-code-my-workflow",
+  "name": "claude-code-my-workflow",
+  "owner": "pedrohcgs",
+  "url": "https://github.com/pedrohcgs/claude-code-my-workflow",
+  "description": "A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
+  "homepage": "https://psantanna.com/claude-code-my-workflow/",
+  "stars": 1643,
+  "forks": 3091,
+  "open_issues": 5,
+  "language": "HTML",
+  "license": "MIT",
+  "topics": [
+    "academic-writing",
+    "causal-inference",
+    "claude-code",
+    "claude-code-skills",
+    "econometrics",
+    "economics",
+    "latex",
+    "quarto",
+    "reproducible-research",
+    "research-workflow"
+  ],
+  "created_at": "2026-02-06T17:29:50Z",
+  "updated_at": "2026-10-07T11:59:47Z",
+  "pushed_at": "2026-09-27T22:26:46Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 242,
+  "days_since_push": 9,
+  "health_score": 60,
+  "health_components": {
+    "popularity": 64.3,
+    "momentum": 5.7,
+    "maintenance": 92.0,
+    "documentation": 76.0,
+    "accessibility": 85.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1643,
+    "days_span": 242,
+    "stars_per_day": 6.79,
+    "lifetime_stars_per_day": 6.79,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "pedrohcgs/claude-code-my-workflow",
+    "readme_chars": 49504,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "e first, then run ./scripts/validate-setup.sh — it reports exactly what's missing with install links.",
+      "parallel-execution": "ee / methods-referee / editor — manuscript peer-review pipeline (/review-paper --peer)",
+      "worktree-isolation": "ks see effort.level and $CLAUDEEFFORT (Apr 2026 Week 19)",
+      "model-routing": "een for parallel review work (/review-paper --peer, /slide-excellence).",
+      "memory-context": "",
+      "skills-plugins": "- **Real gates, not reminders.** One command — ./scripts/backtest.sh — runs **ten gates**: surface-sync, skill integrity, model currency against the SSoT, link and anchor resolution, Agent Skills spec conformance, stale…",
+      "mcp-support": "simulated peer review (/review-paper --peer [journal]), reviewer-disposition variance reporting (--variance N)",
+      "security-isolation": "**Bypass** mode skips permission prompts and safety checks (deny rules still apply), and Anthropic scopes it to isolated containers and VMs; it takes effect from the CLI flag, --settings, or user/managed settings (~/.cl…"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 6,
+      "parallel-execution": 1,
+      "worktree-isolation": 3,
+      "model-routing": 1,
+      "memory-context": 2,
+      "skills-plugins": 3,
+      "mcp-support": 1,
+      "security-isolation": 1
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 15,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "Homebrew install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "beginner-friendly"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via pip install, Homebrew install; needs git clone (build from source); configure server/reverse-proxy setup; beginner-friendly",
+      "note_zh": "开箱即用。可通过 pip install、Homebrew install 安装；需要 git clone (build from source)；需配置 server/reverse-proxy setup；beginner-friendly"
+    },
+    "doc_score": 76,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Live site: psantanna.com/claude-code-my-workflow",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links",
+        "self-describes as a maintained list"
+      ],
+      "external_link_ratio": 0.545
+    },
+    "highlights": [
+      "Cost-Conscious Composition — prompt-cache TTL (5-min default on API keys; 1-hour automatic on Claude subscriptions), 70/20/10 model routing (Haiku/Sonnet/Opus), /cost + /usage monitoring, A…",
+      "Worktree base ref (v1.9.0; Anthropic Apr 2026) — worktree.baseRef setting controls fresh (default; remote default-branch) vs head (local HEAD) for new worktrees",
+      "Hook handler types — command, prompt, and HTTP handlers with 20+ hook events; hooks see effort.level and $CLAUDE_EFFORT (Apr 2026 Week 19)",
+      "claude agents dashboard (v1.9.0; Anthropic May 2026) — single screen for parallel review work (/review-paper --peer, /slide-excellence)."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "full_name": "thedivergentai/GD-Agentic-Skills",
+  "name": "GD-Agentic-Skills",
+  "owner": "thedivergentai",
+  "url": "https://github.com/thedivergentai/GD-Agentic-Skills",
+  "description": "The official \"Long-Term Memory\" for Godot 4.7+ AI Agents. A high-density library of 99 expert skills and 27 genre blueprints, providing audited, strictly typed GDScript patterns, automated persona orchestration (Analyst, Auditor, Builder), and production-grade game engineering.",
+  "homepage": "",
+  "stars": 804,
+  "forks": 52,
+  "open_issues": 0,
+  "language": "GDScript",
+  "license": "LGPL-3.0",
+  "topics": [],
+  "created_at": "2026-02-07T18:06:05Z",
+  "updated_at": "2026-10-07T11:36:19Z",
+  "pushed_at": "2026-09-09T08:46:49Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 241,
+  "days_since_push": 28,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 58.1,
+    "momentum": 2.8,
+    "maintenance": 92.0,
+    "documentation": 73.0,
+    "accessibility": 79.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 804,
+    "days_span": 241,
+    "stars_per_day": 3.34,
+    "lifetime_stars_per_day": 3.34,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "thedivergentai/GD-Agentic-Skills",
+    "readme_chars": 40885,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ls to elevate the knowledge depth and execution quality to the highest agentic standard.",
+      "parallel-execution": "",
+      "memory-context": "e System Bite-Size Modules DIA Loop Growth Chart",
+      "skills-plugins": "# GD Agentic Skills: The Godot 4 Mastery Ecosystem",
+      "agent-runtime": "",
+      "mcp-support": "- **MCP Clean-up & Direct Building**: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing nativ",
+      "gui-desktop": "ents can actually **see** the work — the menus, the HUD, the assets — not just guess from file paths.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 9,
+      "parallel-execution": 1,
+      "memory-context": 1,
+      "skills-plugins": 8,
+      "agent-runtime": 3,
+      "mcp-support": 3,
+      "gui-desktop": 2,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "low",
+      "score": 21,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; configure database migration, server/reverse-proxy setup; GUI application",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database migration、server/reverse-proxy setup；GUI application"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "\"A skill forgotten is a power lost.\" — The Code Architect",
+    "summary_zh": "",
+    "install_hint": "npx skills add thedivergentai/gd-agentic-skills/skills/godot-master",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.294
+    },
+    "highlights": [
+      "Godot 4.7 Director's Cut: Full library upgrade to Godot 4.7+ — AreaLight3D, HDR output, Asset Store, built-in virtual joystick, and migration digest for 4.6→4.7 projects.",
+      "Migration Station: New Architecture skill — godot-version-migration — full-history engine upgrades from early Godot through 4.7 (legacy eras → official 3→4 → hop-by-hop 4.x).",
+      "godot-version-migration: Full-history engine upgrades (legacy eras → 3→4 → 4.x hops) with per-skill migration notes",
+      "Domain Skills: Renamed \"Micro-Skills\" to Domain Skills — 92 modular topic skills, each with 4.7 baseline and targeted migration deltas."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -6,12 +6,6 @@
   "url": "https://github.com/mnemon-dev/mnemon",
   "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
   "homepage": "https://github.com/mnemon-dev/mnemon#readme",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 14.0,
   "stars": 611,
   "forks": 74,
   "open_issues": 8,
@@ -148,76 +142,30 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.926
-    }
+    },
+    "highlights": [
+      "Runtime-native integration — runtime-specific SKILL.md, shared guide.md, and supported hooks or extensions",
+      "Built-in deduplication — remember and import skip exact content repeats and preserve distinct facts; similarity suggestions guide review",
+      "Retention lifecycle — importance decay, access-count boosting, and garbage collection",
+      "LLM-supervised — the host LLM decides what to remember, update, and forget; no embedded LLM, no API keys"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "sessions-memory",
+    "skills"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "supersede": {
-      "incumbent": "mnemon-dev/mnemon",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "mnemon-dev/mnemon",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 47.797,
-      "momentum_ratio": 48.831,
-      "setup_delta": -32,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "47.80x the stars (29,204 vs 611)",
-        "48.83x the star velocity (130.4/day vs 2.7/day)",
-        "no harder to set up (32 vs 64 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 88,
-        "incumbent_setup_score": 64,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

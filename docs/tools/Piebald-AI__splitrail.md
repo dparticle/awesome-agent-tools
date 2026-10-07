@@ -4,7 +4,7 @@
 
 > We've released Piebald, the ultimate agentic AI developer experience.
 
-[Repository](https://github.com/Piebald-AI/splitrail) · [Back to index](../../README.md) · Category: **observability**
+[Repository](https://github.com/Piebald-AI/splitrail) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2025-07-12 |
-| Last push | 2026-10-04 (2 days ago) |
+| Last push | 2026-10-04 (3 days ago) |
 | Analyzed README | 5,093 chars from `raw:HEAD/README.md` |
 
 ## What it solves

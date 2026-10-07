@@ -6,12 +6,6 @@
   "url": "https://github.com/tigicion/dao-code",
   "description": "Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous self-correction layer add almost no token cost; 1M context, Skills/MCP/Hooks, Claude Code config compatible.",
   "homepage": "https://www.npmjs.com/package/dao-code",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 1082,
   "forks": 44,
   "open_issues": 12,
@@ -161,18 +155,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.361
-    }
+    },
+    "highlights": [
+      "Cost vs Claude Code — pricing the same token trace of these 7 tasks under each vendor's official rates (and crediting Dao Code's high hit rate to Claude too, in its favor), total cost is st…",
+      "Cache cuts it further — DeepSeek's prefix-cache hit price is ≈ 1/120 of a miss (~two orders of magnitude). Dao Code keeps the system prefix / tool table / memory byte-stable, and runs refle…",
+      "redis-rs — a Redis-compatible server in Rust (RESP2, ~80 commands), completed from scratch autonomously in dao --goal long-task mode.",
+      "On a SWE-bench-style benchmark drawn from recent real-world open-source bug fixes (dual-track fail2pass + pass2pass judging, with test files hidden from the agent to prevent reward-hacking)…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:15+00:00",
+  "fetched_at": "2026-10-07T16:31:17+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

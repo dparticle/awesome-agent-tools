@@ -4,7 +4,7 @@
 
 > A Git worktree workflow tool for AI coding agents.
 
-[Repository](https://github.com/nekocode/agent-worktree) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/nekocode/agent-worktree) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 47/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-02-05 |
 | Last push | 2026-08-25 (43 days ago) |
 | Analyzed README | 9,327 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [redhat-et/ripwire](https://github.com/redhat-et/ripwire)** — Superseded by redhat-et/ripwire: covers 100% of capabilities (6/6).
 
 ## What it solves
 

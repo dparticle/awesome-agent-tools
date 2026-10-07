@@ -6,12 +6,6 @@
   "url": "https://github.com/hashicorp/agent-skills",
   "description": "A collection of Agent skills and Claude Code plugins for HashiCorp products.",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 14.5,
   "stars": 885,
   "forks": 130,
   "open_issues": 11,
@@ -107,70 +101,24 @@
         "link-directory table of contents"
       ],
       "external_link_ratio": 0.0
-    }
+    },
+    "highlights": []
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:16+00:00",
+  "fetched_at": "2026-10-07T16:31:18+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (3/3).",
-    "note_zh": "已被 NanmiCoder/cc-haha 取代：covers 100% of capabilities (3/3)。",
-    "superseded_by": "NanmiCoder/cc-haha",
-    "supersede": {
-      "incumbent": "hashicorp/agent-skills",
-      "challenger": "nanmicoder/cc-haha",
-      "incumbent_name": "hashicorp/agent-skills",
-      "challenger_name": "NanmiCoder/cc-haha",
-      "kind": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "skills-plugins"
-      ],
-      "star_ratio": 16.827,
-      "momentum_ratio": 29.62,
-      "setup_delta": 7,
-      "dominance": 0.965,
-      "reasons": [
-        "covers 100% of capabilities (3/3)",
-        "16.83x the stars (14,892 vs 885)",
-        "29.62x the star velocity (78.8/day vs 2.7/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration",
-          "quota-management",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 53,
-        "challenger_health": 78,
-        "incumbent_setup_score": 22,
-        "challenger_setup_score": 29
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -4,7 +4,7 @@
 
 > cc-haha 是一个桌面端 Claude Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、H5 远程访问、IM 接入和定时任务，集中在一…
 
-[Repository](https://github.com/NanmiCoder/cc-haha) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/NanmiCoder/cc-haha) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -15,18 +15,16 @@
 | Stars | 14,892 |
 | Star velocity | 78.8/day (lifetime basis, 189d span) |
 | Health score | 78/100 |
-| Documentation | 57/100 |
+| Documentation | 56/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-31 |
 | Last push | 2026-10-05 (1 days ago) |
-| Analyzed README | 8,293 chars from `raw:HEAD/README.md` |
+| Analyzed README | 7,010 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Quota & usage management
 
 ### Automatic failover
 
@@ -45,6 +43,8 @@
 > cc-haha 是一个桌面端 Claude Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、H5…
 
 ### Billing & metering
+
+> 过程中有问题、想反馈 Bug，或者想看看别人怎么用，欢迎扫码加入 cc-haha 企业微信用户群。
 
 ### Usage analytics
 
@@ -74,10 +74,6 @@
 
 > cc-haha 是一个桌面端 Claude Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠
 
-### Cross-agent support
-
-> Mentions Claude Code, Codex
-
 ## Setup reality check
 
 - **Difficulty:** 🟢 Easy (friction score 29/100)
@@ -90,7 +86,7 @@
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **56/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -110,7 +106,7 @@ Score **57/100**, based on these detected signals:
 | popularity | 83.5 |
 | momentum | 65.7 |
 | maintenance | 100.0 |
-| documentation | 57.0 |
+| documentation | 56.0 |
 | accessibility | 79.0 |
 
 ---

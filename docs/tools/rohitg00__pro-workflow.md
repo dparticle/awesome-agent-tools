@@ -4,7 +4,7 @@
 
 > Self-correcting memory + persistent FTS5-indexed wikis + auto-research loop, all on one SQLite store.
 
-[Repository](https://github.com/rohitg00/pro-workflow) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/rohitg00/pro-workflow) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

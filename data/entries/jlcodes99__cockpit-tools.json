@@ -6,12 +6,6 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "category": "quota-account-ops",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-account-switching"
-  ],
-  "category_score": 21.0,
   "stars": 18691,
   "forks": 1664,
   "open_issues": 845,
@@ -41,7 +35,7 @@
     "popularity": 85.4,
     "momentum": 59.0,
     "maintenance": 100.0,
-    "documentation": 61.0,
+    "documentation": 60.0,
     "accessibility": 74.0
   },
   "tier": "recommended",
@@ -55,7 +49,7 @@
   },
   "analysis": {
     "full_name": "jlcodes99/cockpit-tools",
-    "readme_chars": 17781,
+    "readme_chars": 15888,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -68,9 +62,7 @@
       "billing-metering",
       "usage-analytics",
       "agent-runtime",
-      "mcp-support",
       "security-isolation",
-      "team-collaboration",
       "gui-desktop",
       "cross-agent-support"
     ],
@@ -81,14 +73,12 @@
       "multi-agent-orchestration": "测速与已有连接处理的设计也参考其源码，当前运行内核仍为 Mihomo，不代表官方合作关系。",
       "parallel-execution": "ty IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
       "model-routing": "",
-      "provider-aggregation": "的指纹浏览器，支持独立浏览器指纹环境、Cookie / 存储隔离、Roxy 原生住宅 IP、团队协作与 API / MCP 自动化能力，适合需要管理 AI 账号矩阵、降低账号关联风险、提升长期使用稳定性的用户。",
+      "provider-aggregation": "어 · 🇧🇷 Português · 🇷🇺 Русский · 🇹🇷 Türkçe · 🇵🇱 Polski · 🇨🇿 Čeština · 🇸🇦 العربية · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia",
       "api-gateway": "ity 账号切号逻辑参考：Antigravity-Manager",
       "billing-metering": "从默认 ~/.grok/auth.json 或指定 JSON 导入官方凭据；账号页导出及通用账号备份均不含 access token/refresh token，不能用于恢复登录，迁移时需单独导入官方 auth.json",
       "usage-analytics": "Claude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch",
       "agent-runtime": "",
-      "mcp-support": "",
       "security-isolation": ".jlcodes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入",
-      "team-collaboration": "",
       "gui-desktop": "s: .msi（推荐）、.exe，或 x64-portable.zip（解压即用，无需安装）",
       "cross-agent-support": "Mentions Codex, Copilot, Cursor, OpenCode"
     },
@@ -104,9 +94,7 @@
       "billing-metering": 8,
       "usage-analytics": 2,
       "agent-runtime": 1,
-      "mcp-support": 1,
       "security-isolation": 3,
-      "team-collaboration": 1,
       "gui-desktop": 6,
       "cross-agent-support": 4
     },
@@ -135,13 +123,12 @@
       "platforms": [
         "macOS",
         "Windows",
-        "Linux",
-        "Web"
+        "Linux"
       ],
       "note_en": "Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, config.json/yaml/toml; GUI application",
       "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 npm install/build；需配置 API key configuration、config.json/yaml/toml；GUI application"
     },
-    "doc_score": 61,
+    "doc_score": 60,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -170,19 +157,32 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 1.743
-    }
+      "external_link_ratio": 1.951
+    },
+    "highlights": [
+      "WebSocket 默认仅本机访问：监听 127.0.0.1，默认端口 19528，可在设置中关闭或改端口。",
+      "Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth，以及 Grok apply_patch 协议兼容方向亦参考其开源实现：router-f…",
+      "Grok CLI 凭据不加密：access token/refresh token 以明文 JSON 保存在本机，主要依赖操作系统账号隔离与本地文件权限保护；Unix 系统上凭据目录设为 0700、凭据文件设为 0600。脱敏导出不包含 token，不能作为登录备份",
+      "Token 维护：支持 access token 自动刷新、refresh token rotation 与配额预警"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:09+00:00",
+  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "categories": [
+    "accounts",
+    "model-routing",
+    "quota"
+  ],
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -6,12 +6,6 @@
   "url": "https://github.com/nekocode/agent-worktree",
   "description": "A Git worktree workflow tool for AI coding agents. Enables parallel development with isolated environments.",
   "homepage": "",
-  "category": "orchestration",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-agent-orchestration"
-  ],
-  "category_score": 14.5,
   "stars": 279,
   "forks": 18,
   "open_issues": 0,
@@ -118,18 +112,82 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.107
-    }
+    },
+    "highlights": [
+      "Uncommitted changes → [r] reopen the agent / [q] keep worktree",
+      "Only commits → [m] merge into base branch / [q] keep worktree"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "redhat-et/ripwire",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "nekocode/agent-worktree",
+      "challenger": "redhat-et/ripwire",
+      "incumbent_name": "nekocode/agent-worktree",
+      "challenger_name": "redhat-et/ripwire",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "gui-desktop",
+        "multi-agent-orchestration",
+        "parallel-execution",
+        "worktree-isolation"
+      ],
+      "star_ratio": 8.663,
+      "momentum_ratio": 30.289,
+      "setup_delta": -6,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "8.66x the stars (2,417 vs 279)",
+        "30.29x the star velocity (34.5/day vs 1.1/day)",
+        "no harder to set up (34 vs 40 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "gui-desktop",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 66,
+        "incumbent_setup_score": 40,
+        "challenger_setup_score": 34
+      }
+    }
   }
 }

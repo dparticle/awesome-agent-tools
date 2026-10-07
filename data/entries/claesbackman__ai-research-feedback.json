@@ -6,12 +6,6 @@
   "url": "https://github.com/claesbackman/AI-research-feedback",
   "description": "A collection of Claude Code skills for academic research review. These tools were developed by Claes Bäckman.",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 11.0,
   "stars": 491,
   "forks": 89,
   "open_issues": 0,
@@ -104,18 +98,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.571
-    }
+    },
+    "highlights": [
+      "Claude Code. No subagents are used, so this skill runs in a single context.",
+      "Skills/review-paper-checks/SKILL.md: Fast 3-agent mechanical check — spelling, internal consistency, unsupported claims.",
+      "Skills/audit-analysis/SKILL.md: Adversarial audit of changed analysis code, run by an isolated subagent.",
+      "Data-management plans, mentoring plans, and facilities statements"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

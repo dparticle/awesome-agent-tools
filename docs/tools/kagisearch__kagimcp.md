@@ -4,7 +4,7 @@
 
 > An MCP server backed by the Kagi API.
 
-[Repository](https://github.com/kagisearch/kagimcp) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/kagisearch/kagimcp) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 40/100 |
 | Documentation | 37/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2024-12-13 |
-| Last push | 2026-07-07 (91 days ago) |
+| Last push | 2026-07-07 (92 days ago) |
 | Analyzed README | 5,692 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [microsoft/mcp](https://github.com/microsoft/mcp)** — Superseded by microsoft/mcp: covers 100% of capabilities (3/3).
 
 ## What it solves
 

@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "full_name": "msitarzewski/agency-agents",
+  "name": "agency-agents",
+  "owner": "msitarzewski",
+  "url": "https://github.com/msitarzewski/agency-agents",
+  "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+  "homepage": "",
+  "stars": 158113,
+  "forks": 25476,
+  "open_issues": 166,
+  "language": "Shell",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2025-10-13T12:12:29Z",
+  "updated_at": "2026-10-07T13:26:36Z",
+  "pushed_at": "2026-10-06T17:53:59Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 359,
+  "days_since_push": 0,
+  "health_score": 98,
+  "health_components": {
+    "popularity": 100.0,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 86.0,
+    "accessibility": 99.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 158113,
+    "days_span": 359,
+    "stars_per_day": 440.43,
+    "lifetime_stars_per_day": 440.43,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "msitarzewski/agency-agents",
+    "readme_chars": 84778,
+    "capabilities": [
+      "multi-account-switching",
+      "auto-failover",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "api-gateway",
+      "billing-metering",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "team-collaboration",
+      "gui-desktop",
+      "notifications",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "ll social strategy, multi-platform campaigns",
+      "auto-failover": "atform Engineer API gateways & platforms Gateway design, versioning, rate limiting, developer portals",
+      "mobile-access": "rn web apps, pixel-perfect UIs, Core Web Vitals optimization",
+      "multi-agent-orchestration": "h agent becomes a skill in ~/.gemini/config/skills/agency- /.",
+      "parallel-execution": "plete example where 8 agents (Product Trend Researcher, Backend Architect, Brand Guardian, Growth Hacker, Support Responder, UX Researcher, Project Shepherd, and XR Interface Architect) were deployed simultaneously to e…",
+      "api-gateway": "allocation, rightsizing, unit economics, budget & anomaly control",
+      "billing-metering": "efronts Catalog, payments, checkout, orders on Drupal 10/11",
+      "memory-context": "",
+      "agent-runtime": "ts in first 12 hours on Reddit",
+      "mcp-support": "its, feature analysis, interpretability End-to-end QA for machine learning models",
+      "security-isolation": "Territory-based report distribution, scheduled sends",
+      "team-collaboration": "re Companion Family caregiver decision-support Appointment/medication coordination, care-team comms, caregiver wellbeing (HIPAA-aligned)",
+      "gui-desktop": "agent is a specialized expert with personality, processes, and proven deliverables.",
+      "notifications": "ronts Catalog, payments, checkout, conversion on WordPress",
+      "voice-input": "",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "auto-failover": 1,
+      "mobile-access": 1,
+      "multi-agent-orchestration": 4,
+      "parallel-execution": 1,
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "memory-context": 1,
+      "agent-runtime": 1,
+      "mcp-support": 1,
+      "security-isolation": 1,
+      "team-collaboration": 1,
+      "gui-desktop": 2,
+      "notifications": 1,
+      "voice-input": 1,
+      "cross-agent-support": 8
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 1,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "download a release binary",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "OAuth login flow",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "no-code positioning",
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via Homebrew install, download a release binary; configure OAuth login flow, database dependency; no-code positioning",
+      "note_zh": "开箱即用。可通过 Homebrew install、download a release binary 安装；需配置 OAuth login flow、database dependency；no-code positioning"
+    },
+    "doc_score": 86,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider",
+      "Qwen Code"
+    ],
+    "summary_en": "Born from a Reddit thread and months of iteration, The Agency is a growing collection of meticulously crafted AI agent personalities.",
+    "summary_zh": "",
+    "install_hint": "brew install --cask msitarzewski/agency-agents/agency-agents",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.59
+    },
+    "highlights": [
+      "👔 Senior Project Manager - Scope and task planning",
+      "📝 10,000+ lines of personality, process, and code examples",
+      "🧪 Experiment Tracker - A/B test planning",
+      "🏔️ 3D & Scene Developer - Create immersive 3D scene with terrain, buildings, and flyover tour"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:05+00:00",
+  "categories": [
+    "accounts",
+    "teams",
+    "voice"
+  ],
+  "primary_category": "teams",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

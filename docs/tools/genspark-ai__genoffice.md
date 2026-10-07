@@ -4,7 +4,7 @@
 
 > Word, Excel, PowerPoint and PDF files, edited by you and your AI, saved back in the real formats.
 
-[Repository](https://github.com/genspark-ai/genoffice) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/genspark-ai/genoffice) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

@@ -4,7 +4,7 @@
 
 > codex-multi-auth is a multi-account OAuth manager for the official @openai/codex CLI.
 
-[Repository](https://github.com/ndycode/codex-multi-auth) · [Back to index](../../README.md) · Category: **quota-account-ops**
+[Repository](https://github.com/ndycode/codex-multi-auth) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 54/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-22 |
 | Last push | 2026-10-06 (1 days ago) |
 | Analyzed README | 9,969 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [yetone/magpie](https://github.com/yetone/magpie)** — Superseded by yetone/magpie: covers 100% of capabilities (3/3).
 
 ## What it solves
 

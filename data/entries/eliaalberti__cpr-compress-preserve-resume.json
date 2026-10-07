@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "full_name": "EliaAlberti/cpr-compress-preserve-resume",
+  "name": "cpr-compress-preserve-resume",
+  "owner": "EliaAlberti",
+  "url": "https://github.com/EliaAlberti/cpr-compress-preserve-resume",
+  "description": "Persistent memory for Claude Code, packaged as a plugin. Save, search, and restore conversation context across sessions.",
+  "homepage": "",
+  "stars": 514,
+  "forks": 36,
+  "open_issues": 0,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-03-05T18:55:52Z",
+  "updated_at": "2026-10-07T12:09:13Z",
+  "pushed_at": "2026-09-09T08:46:17Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 215,
+  "days_since_push": 28,
+  "health_score": 46,
+  "health_components": {
+    "popularity": 54.2,
+    "momentum": 2.0,
+    "maintenance": 92.0,
+    "documentation": 49.0,
+    "accessibility": 37.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 514,
+    "days_span": 215,
+    "stars_per_day": 2.39,
+    "lifetime_stars_per_day": 2.39,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "EliaAlberti/cpr-compress-preserve-resume",
+    "readme_chars": 21073,
+    "capabilities": [
+      "auto-failover",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "auto-failover": "e with the plugin and need no setup.",
+      "usage-analytics": "hed when the next session would otherwise repeat ~2,400 tokens of context-rebuild work, which most multi-session projects cross by session #2.",
+      "session-persistence": "mmands/) and the ~/.claude/scripts/dumptranscript.py copy.",
+      "memory-context": "",
+      "skills-plugins": "reload-plugins or a restart."
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "skills-plugins": 2
+    },
+    "friction": {
+      "level": "high",
+      "score": 63,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "config file",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source); configure config file, database migration",
+      "note_zh": "配置较重。需要 git clone (build from source)；需配置 config file、database migration"
+    },
+    "doc_score": 49,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Three skills and two hooks that save, search, and restore your conversation context, so you can pick up exactly where you left off.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.142
+    },
+    "highlights": [
+      "2026-03-05: api-auth-refactor, JWT + refresh tokens",
+      "2026-02-28: oauth-google-setup, Google OAuth integration"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

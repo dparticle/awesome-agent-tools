@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "full_name": "shengjidaguai-china/goutoujunshi",
+  "name": "goutoujunshi",
+  "owner": "shengjidaguai-china",
+  "url": "https://github.com/shengjidaguai-china/goutoujunshi",
+  "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
+  "homepage": "",
+  "stars": 7257,
+  "forks": 729,
+  "open_issues": 6,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai-agent",
+    "chinese",
+    "codex",
+    "codex-skill",
+    "lgbtq",
+    "psychology",
+    "relationship-advice"
+  ],
+  "created_at": "2026-07-20T14:58:48Z",
+  "updated_at": "2026-10-07T13:21:12Z",
+  "pushed_at": "2026-09-20T12:23:53Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 79,
+  "days_since_push": 17,
+  "health_score": 74,
+  "health_components": {
+    "popularity": 77.2,
+    "momentum": 76.6,
+    "maintenance": 92.0,
+    "documentation": 42.0,
+    "accessibility": 70.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7257,
+    "days_span": 79,
+    "stars_per_day": 91.86,
+    "lifetime_stars_per_day": 91.86,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "shengjidaguai-china/goutoujunshi",
+    "readme_chars": 5921,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "memory-context"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "memory-context": "异地、再婚、跨文化关系，以及建立在知情同意基础上的非单偶关系。"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "memory-context": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Easy. No setup signals found in the README.",
+      "note_zh": "较易上手。README 中没有找到安装/配置说明。"
+    },
+    "doc_score": 42,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "面向心动、暧昧、追求、冲突、分手与复合的 AI 恋爱军师， 结合情绪支持、关系科学、聊天记录分析和长期记忆，把复杂关系变成可执行的下一步。",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.0
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -4,7 +4,7 @@
 
 > We rely on free small models that use your CPU.
 
-[Repository](https://github.com/topoteretes/cognee) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/topoteretes/cognee) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 31,529 |
-| Star velocity | 27.5/day (lifetime basis, 1147d span) |
+| Star velocity | 27.5/day (lifetime basis, 1148d span) |
 | Health score | 69/100 |
 | Documentation | 67/100 |
 | Tier | ✅ Recommended |

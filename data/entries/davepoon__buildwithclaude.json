@@ -6,12 +6,6 @@
   "url": "https://github.com/davepoon/buildwithclaude",
   "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
   "homepage": "https://www.buildwithclaude.com",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 14.0,
   "stars": 3604,
   "forks": 565,
   "open_issues": 17,
@@ -128,18 +122,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 2.169
-    }
+    },
+    "highlights": [
+      "Visual Index: Vexilo · A field guide to Claude Code — Interactive index of 31 agents · 99 commands · 123 skills · 13 rules, organized around the 5-step workflow. (companion repo)",
+      "Discover MCP servers and community plugins",
+      "Browse all plugin types with filtering"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

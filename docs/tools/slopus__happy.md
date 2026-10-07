@@ -4,7 +4,7 @@
 
 > Multi-provider within one session.
 
-[Repository](https://github.com/slopus/happy) · [Back to index](../../README.md) · Category: **remote-control**
+[Repository](https://github.com/slopus/happy) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

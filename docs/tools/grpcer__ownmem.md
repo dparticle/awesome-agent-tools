@@ -4,7 +4,7 @@
 
 > Git-native memory for AI coding agents
 
-[Repository](https://github.com/grpcer/ownmem) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/grpcer/ownmem) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

@@ -4,7 +4,7 @@
 
 > A persistent, Git-versioned map of your entire codebase — written by your coding agent, governed by a local MCP server.
 
-[Repository](https://github.com/aoci-spec/aoci-code) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/aoci-spec/aoci-code) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

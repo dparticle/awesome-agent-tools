@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "full_name": "nurettincoban/ai-prd-workflow",
+  "name": "ai-prd-workflow",
+  "owner": "nurettincoban",
+  "url": "https://github.com/nurettincoban/ai-prd-workflow",
+  "description": "RFC-driven development for AI coding agents: idea or existing codebase → verified PRD → features → rules → sequenced RFCs → reviewed code. Agent Skills for Claude Code, Codex, Copilot, Cursor, Gemini CLI, OpenCode, Devin.",
+  "homepage": "",
+  "stars": 298,
+  "forks": 33,
+  "open_issues": 0,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "agentic-coding",
+    "ai-tools",
+    "ai-workflow",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "codex",
+    "cursor-ai",
+    "gemini-cli",
+    "github-copilot",
+    "llm",
+    "prd",
+    "prompt-engineering",
+    "rfc",
+    "spec-driven-development",
+    "vibe-coding"
+  ],
+  "created_at": "2025-03-09T19:23:57Z",
+  "updated_at": "2026-10-06T17:28:43Z",
+  "pushed_at": "2026-10-01T18:57:18Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 576,
+  "days_since_push": 5,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 49.5,
+    "momentum": 0.4,
+    "maintenance": 100.0,
+    "documentation": 59.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 298,
+    "days_span": 576,
+    "stars_per_day": 0.52,
+    "lifetime_stars_per_day": 0.52,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "nurettincoban/ai-prd-workflow",
+    "readme_chars": 13537,
+    "capabilities": [
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "(/verify-prd), plus several we had missed.",
+      "agent-runtime": "- When files disagree, PRD.md wins over FEATURES.md, which wins over RULES.md, then the RFCs.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "agent-runtime": 3,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. install via curl | sh installer; needs git clone (build from source)",
+      "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "Idea or existing code → verified PRD → features → rules → sequenced RFCs → reviewed, tested code",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/nurettincoban/ai-prd-workflow/main/install.sh | bash -s -- /path…",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.443
+    },
+    "highlights": [
+      "The url-shortener example — fresh-context runs that never saw our list of known problems found 12 of 13 cross-document problems (/workflow-status) and 10 of 10 PRD problems (/verify-prd), p…",
+      "Keep the rules in context. Reference RULES.md from your agent config (CLAUDE.md, AGENTS.md, or .cursor/rules/). /generate-rules suggests how.",
+      "Review with fresh eyes. /review-rfc will not review code written in the same conversation. In Claude Code it runs in a separate context automatically."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:27+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

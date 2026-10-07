@@ -1,0 +1,187 @@
+{
+  "schema": 1,
+  "full_name": "cwinvestments/memstack",
+  "name": "memstack",
+  "owner": "cwinvestments",
+  "url": "https://github.com/cwinvestments/memstack",
+  "description": "Structured skill framework for Claude Code. 130 skills, persistent memory, TokenStack compression, localhost dashboard with 3-agent runner, real-time streaming, MCP tools.",
+  "homepage": "https://memstack.pro",
+  "stars": 423,
+  "forks": 45,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai-coding",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "developer-tools",
+    "mcp",
+    "skills",
+    "vibe-coding"
+  ],
+  "created_at": "2026-02-19T03:45:26Z",
+  "updated_at": "2026-10-06T03:01:10Z",
+  "pushed_at": "2026-09-26T19:30:36Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 230,
+  "days_since_push": 10,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 52.5,
+    "momentum": 1.5,
+    "maintenance": 92.0,
+    "documentation": 65.0,
+    "accessibility": 68.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 423,
+    "days_span": 230,
+    "stars_per_day": 1.84,
+    "lifetime_stars_per_day": 1.84,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "cwinvestments/memstack",
+    "readme_chars": 37835,
+    "capabilities": [
+      "mobile-access",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "billing-metering",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "mobile-access": "",
+      "multi-agent-orchestration": "ion, env-manager-pro, error-handler, frontend-design, git-worktrees, governor-pro, gtm-validator, hooks-integration, ios-app-store, log-analyzer, mcp-builder, meeting-insights-analyzer, model-router, multi-agent, nextjs…",
+      "parallel-execution": "rmance, maintainability, error handling, testing, and accessibility with severity-ranked findings and specific fixes.",
+      "worktree-isolation": "db, council, database-architect, database-migration, dependency-auditor, developer-growth-analysis, diagram-generator, doc-index, drift-detection, env-manager-pro, error-handler, frontend-design, git-worktrees, governor…",
+      "model-routing": "rn Report Token usage analytics",
+      "api-gateway": "",
+      "billing-metering": "",
+      "usage-analytics": "",
+      "session-persistence": "ade database migrations for PostgreSQL/Supabase with zero-downtime DDL, rollback strategies, data backfills, and Supabase-specific workflows.",
+      "memory-context": "immediate re-download, ask Claude to run the refreshproskills tool.",
+      "skills-plugins": "",
+      "agent-runtime": "ouncil [PRO] Run a structured multi-perspective debate with four voices analyzing tradeoffs before making significant technical decisions.",
+      "mcp-support": "d to reconnect\" error and activatelicense will be missing).",
+      "gui-desktop": "",
+      "notifications": "persistent memory with semantic vector search"
+    },
+    "capability_hits": {
+      "mobile-access": 1,
+      "multi-agent-orchestration": 2,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "skills-plugins": 6,
+      "agent-runtime": 1,
+      "mcp-support": 6,
+      "gui-desktop": 1,
+      "notifications": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 32,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "OAuth login flow",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application",
+        "tutorial-style docs"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Easy. install via pip install; configure environment variables, API key configuration; GUI application",
+      "note_zh": "较易上手。可通过 pip install 安装；需配置 environment variables、API key configuration；GUI application"
+    },
+    "doc_score": 65,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "The structured skill framework for Claude Code: 131 professional skills for deployment, security, databases, content, marketing, and more.",
+    "summary_zh": "",
+    "install_hint": "pip install memstack-skill-loader",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.159
+    },
+    "highlights": [
+      "TokenStack™ integration: Context compression proxy for token savings",
+      "SessionStart context injection: Injects last 3 diary + observation summaries into .claude/session-context.md at session start for instant recall",
+      "On-demand loading: Skills load from the catalog only when matched, no context bloat from 131 skills",
+      "TTS notifications: Voice alerts when tasks complete, questions need attention, or errors occur"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "categories": [
+    "billing",
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

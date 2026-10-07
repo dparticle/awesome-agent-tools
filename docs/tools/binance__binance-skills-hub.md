@@ -4,7 +4,7 @@
 
 > Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto: both centralized and decentralized.
 
-[Repository](https://github.com/binance/binance-skills-hub) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/binance/binance-skills-hub) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

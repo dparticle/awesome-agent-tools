@@ -4,7 +4,7 @@
 
 > AI API Gateway Platform for Subscription Quota Distribution
 
-[Repository](https://github.com/Wei-Shaw/sub2api) · [Back to index](../../README.md) · Category: **sharing-gateway**
+[Repository](https://github.com/Wei-Shaw/sub2api) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -15,28 +15,22 @@
 | Stars | 43,392 |
 | Star velocity | 148.1/day (lifetime basis, 293d span) |
 | Health score | 85/100 |
-| Documentation | 64/100 |
+| Documentation | 61/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | LGPL-3.0 |
 | Language | Go |
 | Created | 2025-12-18 |
 | Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 53,522 chars from `raw:HEAD/README.md` |
+| Analyzed README | 33,775 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> Sub2API: it features a built-in native Roxy AI Agent and high-quality native residential IPs, supports batch automation via simple commands, and significantly boosts security and efficiency for multi-account management!…
+> RS) with Codex CLI, add the following to the http block in your Nginx configuration:
 
 ### Automatic failover
-
-> , and more affordable AI API access.
-
-### Mobile access
-
-> oject! AxisNow protects and accelerates websites and APIs, delivering an optimal access experience across mainland China and globally, while extending acceleration and security capabilities to native/mobile apps through…
 
 ### Multi-agent orchestration
 
@@ -44,37 +38,23 @@
 
 ### Model / provider routing
 
-> is makes AI usage more reliable and manageable across individual development, team collaboration, and production environments.
+> .ai/v1 default are redirected to the subscription proxy at runtime.
 
 ### API gateway / proxy
 
-> es, and legal liabilities shall be borne solely by the party conducting such activity.
-
 ### Billing & metering
 
-> r sponsoring this project! PatewayAI is a premium API relay built for heavy AI developers, offering the full Claude and Codex series sourced 100% from official providers, with transparent token-level billing.
+> tform designed to distribute and manage API quotas from AI product subscriptions.
 
 ### Usage analytics
 
-### Memory & context
-
-> ing available — start your free test now !
-
 ### Security & isolation
-
-### Self-hostable
-
-> rates websites and APIs, delivering an optimal access experience across mainland China and globally, while extending acceleration and security capabilities to native/mobile apps through client SDKs — self-hosted private…
-
-### Team collaboration
-
-> , transparent pricing, and consolidated billing, along with budget management, rate limiting, and concurrency controls.
 
 ### GUI / desktop app
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Gemini CLI, OpenCode
+> Mentions Claude Code, Codex, OpenCode
 
 ## Setup reality check
 
@@ -93,7 +73,7 @@
 
 ## Documentation quality
 
-Score **64/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -101,7 +81,6 @@ Score **64/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
-- has contribution guidance
 - mentions licensing
 - explains architecture
 - long, detailed README
@@ -113,7 +92,7 @@ Score **64/100**, based on these detected signals:
 | popularity | 92.7 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 64.0 |
+| documentation | 61.0 |
 | accessibility | 43.0 |
 
 ---

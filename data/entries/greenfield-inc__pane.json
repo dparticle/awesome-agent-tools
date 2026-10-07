@@ -6,15 +6,6 @@
   "url": "https://github.com/greenfield-inc/Pane",
   "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
   "homepage": "https://runpane.com/",
-  "category": "agent-runtimes",
-  "also_in": [
-    "orchestration"
-  ],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support"
-  ],
-  "category_score": 28.0,
   "stars": 519,
   "forks": 224,
   "open_issues": 205,
@@ -178,18 +169,31 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.575
-    }
+    },
+    "highlights": [
+      "Developers on any OS: Mac, Windows, and Linux are all first-class citizens, with no \"Mac-first with a Windows waitlist\"",
+      "Claude Code on Windows is non-functional when your Windows username contains a period — standard in enterprise Active Directory environments.",
+      "Conductor is Mac-only. No Windows version exists. The founder publicly said Windows support is \"hopefully soon-ish.\"",
+      "Anyone tired of juggling terminal windows, alt-tabbing between diff viewers and git clients, or waiting for agents one at a time"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mcp-failover",
+    "voice"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -4,7 +4,7 @@
 
 > Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, skills, SSH, mobile remote access, and 11 skins.
 
-[Repository](https://github.com/ningbainb/deepseek-harness-desktop) · [Back to index](../../README.md) · Category: **remote-control**
+[Repository](https://github.com/ningbainb/deepseek-harness-desktop) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

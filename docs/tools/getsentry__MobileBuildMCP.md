@@ -4,7 +4,7 @@
 
 > A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
 
-[Repository](https://github.com/getsentry/MobileBuildMCP) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/getsentry/MobileBuildMCP) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

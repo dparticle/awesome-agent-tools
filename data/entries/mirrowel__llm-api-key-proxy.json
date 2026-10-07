@@ -6,12 +6,6 @@
   "url": "https://github.com/Mirrowel/LLM-API-Key-Proxy",
   "description": "Universal LLM Gateway: One API, every LLM. OpenAI/Anthropic-compatible endpoints with multi-provider translation and intelligent load-balancing.",
   "homepage": "",
-  "category": "model-routing",
-  "also_in": [],
-  "matched_capabilities": [
-    "model-routing"
-  ],
-  "category_score": 14.0,
   "stars": 556,
   "forks": 107,
   "open_issues": 18,
@@ -157,18 +151,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.239
-    }
+    },
+    "highlights": [
+      "2.5-Flash: gemini-2.0-flash, gemini-2.5-flash, gemini-2.5-flash-lite",
+      "Set start command: uvicorn src.proxy_app.main:app --host 0.0.0.0 --port $PORT",
+      "Pro: gemini-2.5-pro, gemini-3-pro-preview",
+      "Anthropic API Compatible — Use Claude Code or any Anthropic SDK client with non-Anthropic providers like Gemini, OpenAI, or custom models"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "model-routing",
+    "quota",
+    "sharing"
+  ],
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

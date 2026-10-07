@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "full_name": "solo-agent/solo",
+  "name": "solo",
+  "owner": "solo-agent",
+  "url": "https://github.com/solo-agent/solo",
+  "description": "Solo Agent — an open-source, local-first workspace where humans and AI coding agents collaborate through channels, tasks, teams, and persistent memory.",
+  "homepage": "https://soloagent.team",
+  "stars": 697,
+  "forks": 54,
+  "open_issues": 12,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "agent-orchestration",
+    "agent-workspace",
+    "ai-agents",
+    "ai-workspace",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "multi-agent",
+    "opencode",
+    "solo",
+    "solo-agent",
+    "soloagent"
+  ],
+  "created_at": "2026-06-12T01:13:02Z",
+  "updated_at": "2026-09-30T21:31:12Z",
+  "pushed_at": "2026-09-13T00:56:53Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 117,
+  "days_since_push": 24,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 56.9,
+    "momentum": 5.0,
+    "maintenance": 92.0,
+    "documentation": 48.0,
+    "accessibility": 49.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 697,
+    "days_span": 117,
+    "stars_per_day": 5.96,
+    "lifetime_stars_per_day": 5.96,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "solo-agent/solo",
+    "readme_chars": 6581,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "provider-aggregation",
+      "memory-context",
+      "agent-runtime",
+      "team-collaboration",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "agent with a supported backend.",
+      "provider-aggregation": "",
+      "memory-context": "",
+      "agent-runtime": "",
+      "team-collaboration": "I agents stop feeling like command-line tools and start working like human teammates.",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "provider-aggregation": 1,
+      "memory-context": 1,
+      "agent-runtime": 2,
+      "team-collaboration": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Some setup. needs git clone (build from source)",
+      "note_zh": "需要一些配置。需要 git clone (build from source)"
+    },
+    "doc_score": 48,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "mentions licensing",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "Coordinate multiple agents through channels, threaded conversations, task boards, and channel-scoped teams.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.304
+    },
+    "highlights": [
+      "Daemon (:8081) - registers the machine and manages agent subprocesses."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "providers"
+  ],
+  "primary_category": "providers",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

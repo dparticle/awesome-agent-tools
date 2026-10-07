@@ -6,12 +6,6 @@
   "url": "https://github.com/IBM/mcp",
   "description": "A collection of Model Context Protocol (MCP) servers, clients and developer tools by IBM.",
   "homepage": "https://www.ibm.com/think/topics/model-context-protocol",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 10.0,
   "stars": 410,
   "forks": 93,
   "open_issues": 3,
@@ -32,7 +26,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 552,
-  "days_since_push": 5,
+  "days_since_push": 6,
   "health_score": 47,
   "health_components": {
     "popularity": 52.3,
@@ -108,60 +102,29 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 2.899
-    }
+    },
+    "highlights": [
+      "IBM API Connect MCP Server - IBM APIC MCP server exposes API Connect capabilities to your MCP clients and AI Agent workflows.",
+      "MCP Composer - FastMCP based library to manages multiple MCP servers & tools with dynamic registration, authentication, and unified interface.. Supports multiple tool types, such as OpenAPI…",
+      "WxMCPServer - IBM webMethods Hybrid Integration (IWHI) based MCP server, that enables existing APIs to be used as MCP tools.",
+      "Langflow - Langflow is an open-source visual builder that lets developers rapidly prototype and build AI applications, it integrates with the Model Context Protocol (MCP) as both an MCP ser…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:21+00:00",
+  "fetched_at": "2026-10-07T16:31:23+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by arinspunk/claude-talk-to-figma-mcp: covers 100% of capabilities (3/3).",
-    "note_zh": "已被 arinspunk/claude-talk-to-figma-mcp 取代：covers 100% of capabilities (3/3)。",
-    "superseded_by": "arinspunk/claude-talk-to-figma-mcp",
-    "supersede": {
-      "incumbent": "ibm/mcp",
-      "challenger": "arinspunk/claude-talk-to-figma-mcp",
-      "incumbent_name": "IBM/mcp",
-      "challenger_name": "arinspunk/claude-talk-to-figma-mcp",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "mcp-support",
-        "multi-agent-orchestration"
-      ],
-      "star_ratio": 1.624,
-      "momentum_ratio": 1.635,
-      "setup_delta": -32,
-      "dominance": 0.722,
-      "reasons": [
-        "covers 100% of capabilities (3/3)",
-        "1.62x the stars (666 vs 410)",
-        "1.64x the star velocity (1.2/day vs 0.7/day)",
-        "no harder to set up (16 vs 48 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "mcp-support",
-          "multi-agent-orchestration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "parallel-execution"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 48,
-        "incumbent_setup_score": 48,
-        "challenger_setup_score": 16
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

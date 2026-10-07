@@ -6,12 +6,6 @@
   "url": "https://github.com/alirezarezvani/claude-code-tresor",
   "description": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow",
   "homepage": "https://alirezarezvani.com",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 11.0,
   "stars": 777,
   "forks": 169,
   "open_issues": 2,
@@ -125,18 +119,29 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.902
-    }
+    },
+    "highlights": [
+      "Overall Quality: 9.7/10 (Exceptional - up from 7.1/10 in v2.5.0)",
+      "🎨 Design Category Transformation - Improved from 4.0 to 8.0/10 (+100% quality boost)",
+      "⚡ Commands: 19 total (4 dev + 5 workflow + 10 orchestration) (v2.7+)",
+      "🤖 Agents: 133 total (8 core + 125 specialized) organized by team (v2.5+)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:17+00:00",
+  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -1,0 +1,72 @@
+{
+  "$comment": "Discovery query pool. Queries are intentionally DECOUPLED from categories: categories are now discovered by clustering tool capabilities (see scripts/agentindex/taxonomy.py), so nothing here has to be kept in sync with the rendered sections. The `topic` field is only a diagnostic hint. Add queries here to widen discovery; categorization happens later and automatically.",
+  "version": 2,
+
+  "queries": [
+    { "q": "claude code mobile app in:name,description,readme", "topic": "remote-control" },
+    { "q": "remote control coding agent phone in:name,description", "topic": "remote-control" },
+    { "q": "codex remote mobile in:name,description", "topic": "remote-control" },
+    { "q": "agent session remote access in:name,description", "topic": "remote-control" },
+
+    { "q": "codex account switcher in:name,description", "topic": "quota-account-ops" },
+    { "q": "claude code account manager in:name,description", "topic": "quota-account-ops" },
+    { "q": "ai account pool quota in:name,description", "topic": "quota-account-ops" },
+    { "q": "multi account cli login switch in:name,description", "topic": "quota-account-ops" },
+
+    { "q": "orchestrate multiple coding agents in:name,description", "topic": "orchestration" },
+    { "q": "multi agent coding parallel in:name,description", "topic": "orchestration" },
+    { "q": "agent fleet manager in:name,description", "topic": "orchestration" },
+    { "q": "parallel agents worktree in:name,description", "topic": "orchestration" },
+
+    { "q": "claude code router provider in:name,description", "topic": "model-routing" },
+    { "q": "codex custom provider model in:name,description", "topic": "model-routing" },
+    { "q": "llm api gateway openai compatible in:name,description", "topic": "model-routing" },
+    { "q": "switch model provider cli agent in:name,description", "topic": "model-routing" },
+
+    { "q": "sub2api in:name,description", "topic": "sharing-gateway" },
+    { "q": "api relay billing quota in:name,description", "topic": "sharing-gateway" },
+    { "q": "ai subscription share distribution in:name,description", "topic": "sharing-gateway" },
+    { "q": "one api gateway multi user in:name,description", "topic": "sharing-gateway" },
+
+    { "q": "open source coding agent cli in:name,description", "topic": "agent-runtimes" },
+    { "q": "ai coding agent subscription models in:name,description", "topic": "agent-runtimes" },
+    { "q": "terminal coding assistant llm in:name,description", "topic": "agent-runtimes" },
+    { "q": "agent harness coding cli in:name,description", "topic": "agent-runtimes" },
+
+    { "q": "claude code skills collection in:name,description", "topic": "skills-plugins" },
+    { "q": "agent skills marketplace in:name,description", "topic": "skills-plugins" },
+    { "q": "awesome claude code plugins in:name,description", "topic": "skills-plugins" },
+    { "q": "subagents commands hooks in:name,description", "topic": "skills-plugins" },
+
+    { "q": "claude code memory context in:name,description", "topic": "memory-context" },
+    { "q": "agent long term memory in:name,description", "topic": "memory-context" },
+    { "q": "persistent memory coding agent in:name,description", "topic": "memory-context" },
+    { "q": "context management llm agent in:name,description", "topic": "memory-context" },
+
+    { "q": "claude code usage analytics dashboard in:name,description", "topic": "observability" },
+    { "q": "llm cost tracking agent in:name,description", "topic": "observability" },
+    { "q": "token usage monitor coding agent in:name,description", "topic": "observability" },
+    { "q": "agent session logs viewer in:name,description", "topic": "observability" },
+
+    { "q": "claude code sandbox permission in:name,description", "topic": "security-sandbox" },
+    { "q": "agent security secrets isolation in:name,description", "topic": "security-sandbox" },
+    { "q": "codex sandbox container in:name,description", "topic": "security-sandbox" },
+    { "q": "ai agent audit approval in:name,description", "topic": "security-sandbox" },
+
+    { "q": "mcp server awesome in:name,description", "topic": "interop-mcp" },
+    { "q": "model context protocol tools in:name,description", "topic": "interop-mcp" },
+    { "q": "agent interoperability bridge in:name,description", "topic": "interop-mcp" },
+    { "q": "mcp gateway aggregator in:name,description", "topic": "interop-mcp" },
+
+    { "q": "claude code statusline notification in:name,description", "topic": "workflow-ux" },
+    { "q": "agent session manager tui in:name,description", "topic": "workflow-ux" },
+    { "q": "prompt manager coding agent in:name,description", "topic": "workflow-ux" },
+    { "q": "code review agent workflow in:name,description", "topic": "workflow-ux" },
+
+    { "q": "agent session persistence resume in:name,description", "topic": "session-persistence" },
+    { "q": "agent notifications when task completes in:name,description", "topic": "notifications" },
+    { "q": "voice input coding agent in:name,description", "topic": "voice-input" },
+    { "q": "team collaboration coding agent roles in:name,description", "topic": "team-collaboration" },
+    { "q": "self hosted ai agent gateway in:name,description", "topic": "self-hosted" }
+  ]
+}

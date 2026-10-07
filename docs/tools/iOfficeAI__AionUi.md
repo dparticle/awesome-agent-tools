@@ -4,7 +4,7 @@
 
 > 🎁 AionUi × Kimi Partnership : Free premium Kimi "Allegretto" plans ($39/mo · ¥199/mo value) for our contributors!
 
-[Repository](https://github.com/iOfficeAI/AionUi) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/iOfficeAI/AionUi) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

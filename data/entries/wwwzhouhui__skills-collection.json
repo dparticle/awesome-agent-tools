@@ -6,12 +6,6 @@
   "url": "https://github.com/wwwzhouhui/skills_collection",
   "description": "本项目是个人开发的 Claude Code Skills 集合，提供实用的技能工具，助力提升开发效率和内容创作。  分享一些好用的 Claude Code Skills，自用、学习两相宜，适用于 Claude Code v2.0 及以上版本。",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 20.0,
   "stars": 282,
   "forks": 56,
   "open_issues": 10,
@@ -160,18 +154,31 @@
         "Chinese: directory framing"
       ],
       "external_link_ratio": 0.391
-    }
+    },
+    "highlights": [
+      "✅ 三画幅封面一次出：同一个 coverLayout 出 4:3（1440×1080）／ 3:4（1080×1440）／ 9:16（1080×1920 抖音，内容压在中央安全区），标题 ≤2 行、钩子行自动马克笔高亮",
+      "github-trending-wan: v1.0.0 (2026-04-08) - 初始版本，GitHub Trending Top 5 中文信息图海报生成器，抓取热门项目→翻译中文摘要→生成 Wan 2.7 海报 Prompt→可视化海报，支持 10 种视觉风格，3 步引导式工作流",
+      "✅ 项目统计：技能包 ≈285 KB、文本文件 28 个、代码 ≈1,063 行（ts/tsx ≈403 · mjs 518 · py 142）、1920×1080@30fps、8 种动画模式",
+      "✅ 一条命令双画幅：16:9（1920×1080，B 站/课程）与 9:16（1080×1920，抖音/视频号/小红书）同时出片，另支持 1:1；crf、并行度可调"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "categories": [
+    "mobile",
+    "quota",
+    "skills"
+  ],
+  "primary_category": "quota",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

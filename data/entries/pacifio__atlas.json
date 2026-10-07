@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "full_name": "pacifio/atlas",
+  "name": "atlas",
+  "owner": "pacifio",
+  "url": "https://github.com/pacifio/atlas",
+  "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+  "homepage": "https://www.tryatlas.cc/",
+  "stars": 9263,
+  "forks": 359,
+  "open_issues": 31,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai",
+    "ai-coding-assistant",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "git",
+    "gitops",
+    "kilo-code",
+    "mcp",
+    "mcp-client",
+    "opencode",
+    "opencode-ai",
+    "opencode-skills",
+    "self-hosted",
+    "skills"
+  ],
+  "created_at": "2026-05-14T16:48:52Z",
+  "updated_at": "2026-10-07T13:12:48Z",
+  "pushed_at": "2026-10-07T13:31:29Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 145,
+  "days_since_push": 0,
+  "health_score": 72,
+  "health_components": {
+    "popularity": 79.3,
+    "momentum": 53.2,
+    "maintenance": 100.0,
+    "documentation": 50.0,
+    "accessibility": 79.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 9263,
+    "days_span": 145,
+    "stars_per_day": 63.88,
+    "lifetime_stars_per_day": 63.88,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "pacifio/atlas",
+    "readme_chars": 15668,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "cupy the context window for the rest of the session.",
+      "usage-analytics": "",
+      "session-persistence": "gent session produced which commit), which is SQLite in the project's gitignored .atlas/, because it is queried, not read.",
+      "memory-context": "ts, tool calls, and reasoning.",
+      "agent-runtime": "",
+      "gui-desktop": ". Code, notes, and sessions stay on your machine. Sign in and create an organisation when you want to sync across a team.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Kilo Code"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "memory-context": 2,
+      "agent-runtime": 2,
+      "gui-desktop": 2,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 21,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via Homebrew install, native installer / package; needs git clone (build from source); configure sign-in required, database dependency; GUI application",
+      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)；需配置 sign-in required、database dependency；GUI application"
+    },
+    "doc_score": 50,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "Source control for coding agents.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.042
+    },
+    "highlights": [
+      "Switching agents loses the thread. Claude Code cannot read Codex's history, and Codex cannot read Claude Code's. Changing agent mid-task means starting the explanation over.",
+      "Nothing is locked in. Notes are markdown, canvases are JSON, sessions are JSONL, and the editor is a file on disk. Close Atlas and pick up in vim. The one exception is the checkpoint record…",
+      "Run any agent, side by side. Claude Code, Codex, Atlas's own agent, and the wider ACP registry, all in the same window, against the same codebase. Switching agents mid-task doesn't mean sta…",
+      "One memory, every agent. A decision Claude Code made shows up in Codex's next prompt. Plans, file changes, failures, and architecture notes are shared automatically, matched on-device again…"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "categories": [
+    "desktop-ui",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

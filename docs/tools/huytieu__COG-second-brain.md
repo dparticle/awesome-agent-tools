@@ -4,7 +4,7 @@
 
 > Cognition + Obsidian + Git — A self-evolving second brain powered by AI agents, markdown files, and version control.
 
-[Repository](https://github.com/huytieu/COG-second-brain) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/huytieu/COG-second-brain) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 58/100 |
 | Documentation | 70/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2025-10-15 |
-| Last push | 2026-10-02 (4 days ago) |
+| Last push | 2026-10-02 (5 days ago) |
 | Analyzed README | 21,032 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).
 
 ## What it solves
 

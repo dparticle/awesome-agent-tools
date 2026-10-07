@@ -6,12 +6,6 @@
   "url": "https://github.com/getsentry/MobileBuildMCP",
   "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
   "homepage": "",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 14.5,
   "stars": 6464,
   "forks": 322,
   "open_issues": 26,
@@ -116,18 +110,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 1.418
-    }
+    },
+    "highlights": [
+      "MCP clients: https://github.com/getsentry/xcodebuildmcp.com/blob/main/app/docs/_content/clients.mdx",
+      "CLI usage: https://github.com/getsentry/xcodebuildmcp.com/blob/main/app/docs/_content/cli.mdx",
+      "CLI Skill: Primes the agent with instructions on how to navigate the CLI (recommended when using the CLI).",
+      "MCP Skill: Primes the agent with instructions on how to use the MCP server's tools (optional when using the MCP server)."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:10+00:00",
+  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

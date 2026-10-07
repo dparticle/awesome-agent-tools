@@ -6,12 +6,6 @@
   "url": "https://github.com/marcusquinn/aidevops",
   "description": "Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, security, and 24/7 results. Open-source first. SOTA everything. The best AI harness for GitHub & teamwork.",
   "homepage": "https://www.aidevops.sh",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "cross-agent-support"
-  ],
-  "category_score": 15.0,
   "stars": 406,
   "forks": 69,
   "open_issues": 34,
@@ -176,18 +170,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.335
-    }
+    },
+    "highlights": [
+      "2,060+ production helpers and supporting modules, excluding tests",
+      "Design: Google DESIGN.md conventions, brand identity, visual concepts, distinctive UI, component guidance, previews, and accessibility verification. On macOS, the Affinity Studio specialist…",
+      "Workers run issue-scoped tasks in isolated worktrees with scoped authority, model routing, runtime limits, and traceable Git outcomes.",
+      "3D/CAD: Blender and FreeCAD specialists, OpenSCAD script-based CAD guidance, dimensional truth, editable source models, configurable products, and rendered verification."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:21+00:00",
+  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "categories": [
+    "billing",
+    "teams",
+    "voice"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

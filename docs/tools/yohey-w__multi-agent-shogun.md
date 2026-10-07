@@ -4,7 +4,7 @@
 
 > Command your AI army like a feudal warlord.
 
-[Repository](https://github.com/yohey-w/multi-agent-shogun) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/yohey-w/multi-agent-shogun) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -22,7 +22,7 @@
 | Language | Shell |
 | Created | 2026-01-25 |
 | Last push | 2026-08-06 (62 days ago) |
-| Analyzed README | 84,736 chars from `raw:HEAD/README.md` |
+| Analyzed README | 84,185 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

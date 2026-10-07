@@ -6,12 +6,6 @@
   "url": "https://github.com/Justin0504/Aegis",
   "description": "Runtime policy enforcement for AI agents. Cryptographic audit trail, human-in-the-loop approvals, kill switch. Zero code changes.                                                                         ",
   "homepage": "",
-  "category": "security-sandbox",
-  "also_in": [],
-  "matched_capabilities": [
-    "security-isolation"
-  ],
-  "category_score": 13.0,
   "stars": 503,
   "forks": 46,
   "open_issues": 4,
@@ -149,18 +143,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.419
-    }
+    },
+    "highlights": [
+      "Cost Tracking — token usage and USD cost across 40+ models",
+      "SHA-256 hash-chained — each trace commits to the previous, tamper-evident",
+      "Alert Rules — Slack, PagerDuty, or webhook on violations/cost spikes",
+      "Anomaly Detection — automatic flagging of spikes, error bursts, unusual patterns"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:19+00:00",
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "billing",
+    "mcp-failover",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

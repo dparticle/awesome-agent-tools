@@ -6,12 +6,6 @@
   "url": "https://github.com/jdrhyne/agent-skills",
   "description": "A collection of AI agent skills for Clawdbot, Claude Code, Codex",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 16.0,
   "stars": 240,
   "forks": 31,
   "open_issues": 2,
@@ -143,18 +137,93 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.976
-    }
+    },
+    "highlights": [
+      "Nutrient DWS MCP Server — Cloud document workflow MCP for convert/OCR/redact/sign/extract operations.",
+      "Nutrient PDF MCP Server — Low-level PDF object-tree inspection/debugging MCP.",
+      "Nutrient DWS TypeScript Client — TypeScript workflow client for Nutrient DWS.",
+      "Nutrient DWS Python Client — Python workflow client for Nutrient DWS."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:26+00:00",
+  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "categories": [
+    "desktop-ui",
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "jdrhyne/agent-skills",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "jdrhyne/agent-skills",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "self-hosted",
+        "skills-plugins"
+      ],
+      "star_ratio": 1144.2,
+      "momentum_ratio": 1127.011,
+      "setup_delta": -12,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "1144.20x the stars (274,608 vs 240)",
+        "1127.01x the star velocity (1048.1/day vs 0.9/day)",
+        "no harder to set up (57 vs 69 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "self-hosted",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 41,
+        "challenger_health": 89,
+        "incumbent_setup_score": 69,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

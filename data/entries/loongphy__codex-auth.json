@@ -6,12 +6,6 @@
   "url": "https://github.com/Loongphy/codex-auth",
   "description": "A CLI tool to switch and manage Codex accounts",
   "homepage": "",
-  "category": "quota-account-ops",
-  "also_in": [],
-  "matched_capabilities": [
-    "multi-account-switching"
-  ],
-  "category_score": 14.0,
   "stars": 2782,
   "forks": 164,
   "open_issues": 39,
@@ -28,7 +22,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 239,
-  "days_since_push": 0,
+  "days_since_push": 1,
   "health_score": 58,
   "health_components": {
     "popularity": 68.9,
@@ -104,18 +98,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.827
-    }
+    },
+    "highlights": [
+      "Local-only: With per-command --skip-api, the tool scans local ~/.codex/sessions//rollout-.jsonl files for usage data and skips team name refresh API calls. This mode is safer, but it can be…",
+      "GET https://chatgpt.com/backend-api/wham/usage",
+      "API (default): The tool makes direct HTTPS requests to OpenAI's endpoints using your account's access token. This enables both usage refresh and team name refresh. curl must be available at…",
+      "GET https://chatgpt.com/backend-api/accounts"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "accounts"
+  ],
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

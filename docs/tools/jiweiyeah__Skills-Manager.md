@@ -2,9 +2,9 @@
 
 # jiweiyeah/Skills-Manager
 
-> Y-API provides a unified API for models from DeepSeek, Qwen, GLM, Kimi, OpenAI, and more.
+> Skills Manager is a modern desktop application designed to solve the fragmentation of AI assistant skills configurations.
 
-[Repository](https://github.com/jiweiyeah/Skills-Manager) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/jiweiyeah/Skills-Manager) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -21,20 +21,14 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-06 |
-| Last push | 2026-09-10 (26 days ago) |
-| Analyzed README | 10,677 chars from `raw:HEAD/README.md` |
+| Last push | 2026-09-10 (27 days ago) |
+| Analyzed README | 10,228 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Multi-provider aggregation
-
-### Billing & metering
-
-> models from DeepSeek, Qwen, GLM, Kimi, OpenAI, and more.
-
 ### Skills & plugins
 
-> ou get started without a credit card.
+> tarized by Apple, so the cask strips the quarantine attribute on install — see the tap README for what that means and how to opt out.
 
 ### GUI / desktop app
 
@@ -46,16 +40,14 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 6/100)
+- **Difficulty:** 🟢 Turnkey (friction score 0/100)
 - **Out of the box:** yes
 - **Non-programmer friendly:** yes
 - **Quickest install:** `brew tap jiweiyeah/tap`
 
 **Signals that make it easy:** Homebrew install, native installer / package
 
-**Configuration required:** API key configuration
-
-*Turnkey. install via Homebrew install, native installer / package; configure API key configuration; GUI application*
+*Turnkey. install via Homebrew install, native installer / package; GUI application*
 
 ## Documentation quality
 

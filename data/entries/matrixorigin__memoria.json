@@ -1,0 +1,206 @@
+{
+  "schema": 1,
+  "full_name": "matrixorigin/memoria",
+  "name": "memoria",
+  "owner": "matrixorigin",
+  "url": "https://github.com/matrixorigin/memoria",
+  "description": "Secure memory management for AI Agents • Ensures data integrity • Reduces hallucinations • Maintains consistent long-term context",
+  "homepage": "https://thememoria.ai/",
+  "stars": 607,
+  "forks": 77,
+  "open_issues": 56,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent",
+    "ai",
+    "database",
+    "llm",
+    "memory",
+    "storage"
+  ],
+  "created_at": "2026-03-09T23:44:24Z",
+  "updated_at": "2026-10-07T03:21:49Z",
+  "pushed_at": "2026-10-07T03:21:44Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 211,
+  "days_since_push": 0,
+  "health_score": 53,
+  "health_components": {
+    "popularity": 55.7,
+    "momentum": 2.4,
+    "maintenance": 100.0,
+    "documentation": 67.0,
+    "accessibility": 49.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 607,
+    "days_span": 211,
+    "stars_per_day": 2.88,
+    "lifetime_stars_per_day": 2.88,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "matrixorigin/memoria",
+    "readme_chars": 19708,
+    "capabilities": [
+      "worktree-isolation",
+      "memory-context",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "worktree-isolation": "",
+      "memory-context": "",
+      "mcp-support": "ferences, facts, and decisions persist across sessions",
+      "security-isolation": "",
+      "self-hosted": "ool? · database mode? · embedding service? (Self-Hosted only)",
+      "cross-agent-support": "Mentions Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "worktree-isolation": 1,
+      "memory-context": 1,
+      "mcp-support": 4,
+      "security-isolation": 2,
+      "self-hosted": 3,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "kubectl apply",
+        "git clone (build from source)",
+        "make build"
+      ],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via curl | sh installer; needs docker compose up, kubectl apply; configure database dependency; one-click setup",
+      "note_zh": "需要一些配置。可通过 curl | sh installer 安装；需要 docker compose up、kubectl apply；需配置 database dependency；one-click setup"
+    },
+    "doc_score": 67,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Codex",
+      "Gemini CLI",
+      "Cursor"
+    ],
+    "summary_en": "The World's First Git for AI Agent Memory",
+    "summary_zh": "",
+    "install_hint": "curl -sSL https://raw.githubusercontent.com/matrixorigin/Memoria/main/scripts/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.015
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "matrixorigin/memoria",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "matrixorigin/memoria",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "security-isolation",
+        "self-hosted",
+        "worktree-isolation"
+      ],
+      "star_ratio": 452.402,
+      "momentum_ratio": 363.931,
+      "setup_delta": 6,
+      "dominance": 0.97,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "452.40x the stars (274,608 vs 607)",
+        "363.93x the star velocity (1048.1/day vs 2.9/day)",
+        "slightly heavier setup (+6 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "security-isolation",
+          "self-hosted",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 89,
+        "incumbent_setup_score": 51,
+        "challenger_setup_score": 57
+      }
+    }
+  }
+}

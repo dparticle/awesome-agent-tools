@@ -6,13 +6,6 @@
   "url": "https://github.com/slopus/happy",
   "description": "Happy is the open-source desktop app for Claude Code, Codex, and Grok, with an iOS and Android app to control your coding agents from anywhere.",
   "homepage": "https://happy.engineering/",
-  "category": "remote-control",
-  "also_in": [],
-  "matched_capabilities": [
-    "mobile-access",
-    "remote-control"
-  ],
-  "category_score": 25.5,
   "stars": 24042,
   "forks": 2053,
   "open_issues": 1069,
@@ -130,18 +123,29 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 1.132
-    }
+    },
+    "highlights": [
+      "End-to-end encrypted mobile app. Left your desk? The same sessions are",
+      "Natively multiplayer. Invite a colleague or a friend into the session.",
+      "Reuse current subscriptions. Sign in with the Claude, Codex, and Grok",
+      "Multi-provider within one session. Astra, Fable, and Grok in the same"
+    ]
   },
   "discovery": {
     "source": "seed",
     "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T13:57:57+00:00",
+  "fetched_at": "2026-10-07T16:30:58+00:00",
+  "categories": [
+    "mobile"
+  ],
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

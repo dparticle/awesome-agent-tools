@@ -6,12 +6,6 @@
   "url": "https://github.com/JSONbored/awesome-claude",
   "description": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
   "homepage": "https://heyclau.de",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 20.0,
   "stars": 299,
   "forks": 149,
   "open_issues": 61,
@@ -230,18 +224,31 @@
         "name starts with a list-style word (awesome-claude)"
       ],
       "external_link_ratio": 3.354
-    }
+    },
+    "highlights": [
+      "Claude Haiku 45 Speed Optimizer Agent - Agents - An agent pattern for routing rapid-iteration work to Claude Haiku 4.5 — more than twice Sonnet's speed at one-third the cost ($1/$5 per mill…",
+      "REST API Client Harness Skill - Explore and script against REST APIs with comprehensive authentication support (API keys, OAuth 2.0, JWT Bearer tokens, Basic Auth), pagination utilities (cu…",
+      "Five Hour Window Tracker - Statuslines - A Claude Code statusline script (bash) that reads cost.totaldurationms from the statusline JSON on stdin via jq, converts it to elapsed minutes, and…",
+      "FilingFirehose MCP Server - Remote MCP server over US SEC EDGAR filings — parsed 8-K (with body-text detection of suspected misclassifications under Item 8.01), Schedule 13D/G with activist…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "fetched_at": "2026-10-07T16:31:27+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mcp-failover",
+    "teams"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

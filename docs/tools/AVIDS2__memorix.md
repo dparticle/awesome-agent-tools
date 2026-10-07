@@ -4,7 +4,7 @@
 
 > One project memory system for Claude Code, Codex, CodeBuddy Code, Cursor, Windsurf, Copilot, Gemini CLI, OpenCode, Grok Build, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Kiro, Antigravity, Trae, DeepSeek Harness, WorkBuddy, and any MCP-capable…
 
-[Repository](https://github.com/AVIDS2/memorix) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/AVIDS2/memorix) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

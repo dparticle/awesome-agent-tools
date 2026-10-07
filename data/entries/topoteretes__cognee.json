@@ -6,12 +6,6 @@
   "url": "https://github.com/topoteretes/cognee",
   "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
   "homepage": "https://www.cognee.ai",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 31529,
   "forks": 3233,
   "open_issues": 493,
@@ -44,7 +38,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1147,
+  "age_days": 1148,
   "days_since_push": 0,
   "health_score": 69,
   "health_components": {
@@ -57,9 +51,9 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 31529,
-    "days_span": 1147,
-    "stars_per_day": 27.49,
-    "lifetime_stars_per_day": 27.49,
+    "days_span": 1148,
+    "stars_per_day": 27.46,
+    "lifetime_stars_per_day": 27.46,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -141,18 +135,30 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 1.707
-    }
+    },
+    "highlights": [
+      "v1.6.0 — Keyless workflows & pipeline reliability (September 18, 2026): build and search text memory with local models and no cloud LLM key; LLM-dependent improvement stages skip when no LL…",
+      "Run the prebuilt API with Docker Compose or use the deployment templates.",
+      "Build a Company Brain from a database, a ticket export, and meeting notes, then browse it in the UI and query it from Claude Code or Codex.",
+      "Run with local Ollama models, including a local embedding model."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:08+00:00",
+  "fetched_at": "2026-10-07T16:31:10+00:00",
+  "categories": [
+    "mcp-failover",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

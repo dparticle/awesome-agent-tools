@@ -4,7 +4,7 @@
 
 > A Claude Code plugin that consults multiple AI coding agents in parallel and shows you their answers side-by-side.
 
-[Repository](https://github.com/hex/claude-council) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/hex/claude-council) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

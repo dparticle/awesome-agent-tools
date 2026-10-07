@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "full_name": "Tencent/BrowserSkill",
+  "name": "BrowserSkill",
+  "owner": "Tencent",
+  "url": "https://github.com/Tencent/BrowserSkill",
+  "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+  "homepage": "",
+  "stars": 8270,
+  "forks": 592,
+  "open_issues": 70,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "browser-use",
+    "dsh-plugin"
+  ],
+  "created_at": "2026-06-22T07:24:40Z",
+  "updated_at": "2026-10-07T13:29:40Z",
+  "pushed_at": "2026-10-06T13:45:15Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 107,
+  "days_since_push": 1,
+  "health_score": 75,
+  "health_components": {
+    "popularity": 78.4,
+    "momentum": 64.4,
+    "maintenance": 100.0,
+    "documentation": 56.0,
+    "accessibility": 72.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 8270,
+    "days_span": 107,
+    "stars_per_day": 77.29,
+    "lifetime_stars_per_day": 77.29,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Tencent/BrowserSkill",
+    "readme_chars": 20092,
+    "capabilities": [
+      "skills-plugins",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "",
+      "gui-desktop": "the last update attempt; update-state.json in the bsk home keeps its stage, result and error.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "gui-desktop": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 28,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "pnpm install/build",
+        "cargo build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "process manager"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, cargo build; configure sign-in required, process manager",
+      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 pnpm install/build、cargo build；需配置 sign-in required、process manager"
+    },
+    "doc_score": 56,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "BrowserSkill connects your AI agent to Chrome or Microsoft Edge, using the accounts you are already signed into.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.348
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

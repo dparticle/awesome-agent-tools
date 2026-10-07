@@ -4,7 +4,7 @@
 
 > 个人开发的 Claude Code Skills 集合，提供实用的技能工具，助力提升开发效率和内容创作。
 
-[Repository](https://github.com/wwwzhouhui/skills_collection) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/wwwzhouhui/skills_collection) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

@@ -6,13 +6,6 @@
   "url": "https://github.com/kerim0x1/bettercode",
   "description": "Every coding agent in one desktop workspace. Run Claude Code, OpenAI Codex, Cursor Agent and Grok side by side. Bring your own CLI. Free during beta. Open source as of 21 September 2026 (MIT).",
   "homepage": "https://betterc0de.com",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support"
-  ],
-  "category_score": 25.0,
   "stars": 275,
   "forks": 4,
   "open_issues": 7,
@@ -135,18 +128,88 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.871
-    }
+    },
+    "highlights": [
+      "The Release workflow checks Linux, Windows and both Mac architectures again, then publishes the GitHub release only when every platform passed."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "categories": [
+    "analytics",
+    "desktop-ui",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "msitarzewski/agency-agents",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "kerim0x1/bettercode",
+      "challenger": "msitarzewski/agency-agents",
+      "incumbent_name": "kerim0x1/bettercode",
+      "challenger_name": "msitarzewski/agency-agents",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "billing-metering",
+        "cross-agent-support",
+        "gui-desktop",
+        "mobile-access",
+        "team-collaboration"
+      ],
+      "star_ratio": 574.956,
+      "momentum_ratio": 25.621,
+      "setup_delta": -23,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "574.96x the stars (158,113 vs 275)",
+        "25.62x the star velocity (440.4/day vs 17.2/day)",
+        "no harder to set up (1 vs 24 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mobile-access",
+          "team-collaboration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "team-collaboration",
+          "voice-input"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 98,
+        "incumbent_setup_score": 24,
+        "challenger_setup_score": 1
+      }
+    }
   }
 }

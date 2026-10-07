@@ -4,7 +4,7 @@
 
 > ⚠️ This project includes production-ready security features but is still under active development.
 
-[Repository](https://github.com/nwiizo/tfmcp) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/nwiizo/tfmcp) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 373 |
-| Star velocity | 0.7/day (lifetime basis, 577d span) |
+| Star velocity | 0.7/day (lifetime basis, 578d span) |
 | Health score | 52/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Rust |
 | Created | 2025-03-08 |
-| Last push | 2026-10-02 (4 days ago) |
+| Last push | 2026-10-02 (5 days ago) |
 | Analyzed README | 29,300 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 

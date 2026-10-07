@@ -4,7 +4,7 @@
 
 > Self-growing AI teams in a pixel-art virtual office — powered by local LLMs.
 
-[Repository](https://github.com/harishkotra/agent-office) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/harishkotra/agent-office) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 45/100 |
 | Documentation | 57/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-25 |
 | Last push | 2026-09-25 (12 days ago) |
 | Analyzed README | 9,768 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).
 
 ## What it solves
 

@@ -4,7 +4,7 @@
 
 > Stop re-teaching your agent.
 
-[Repository](https://github.com/kitfunso/hippo-memory) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/kitfunso/hippo-memory) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

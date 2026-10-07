@@ -4,7 +4,7 @@
 
 > Conversations with AI agents reset when context windows close.
 
-[Repository](https://github.com/okf-memory/okf-agent-memory) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/okf-memory/okf-agent-memory) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 58/100 |
 | Documentation | 63/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-05 |
 | Last push | 2026-10-04 (2 days ago) |
-| Analyzed README | 19,491 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
+| Analyzed README | 19,220 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

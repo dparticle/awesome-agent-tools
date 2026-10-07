@@ -4,7 +4,7 @@
 
 > A persistent memory system for AI coding agents that enables long-term context retention across sessions using local vector database technology.
 
-[Repository](https://github.com/tickernelz/opencode-mem) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/tickernelz/opencode-mem) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 55/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-01-10 |
 | Last push | 2026-10-06 (0 days ago) |
 | Analyzed README | 39,385 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).
 
 ## What it solves
 

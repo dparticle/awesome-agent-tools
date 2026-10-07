@@ -4,7 +4,7 @@
 
 > A comprehensive Model Context Protocol (MCP) server for QuickBooks Online
 
-[Repository](https://github.com/intuit/quickbooks-online-mcp-server) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/intuit/quickbooks-online-mcp-server) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

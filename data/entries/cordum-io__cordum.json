@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "full_name": "cordum-io/cordum",
+  "name": "cordum",
+  "owner": "cordum-io",
+  "url": "https://github.com/cordum-io/cordum",
+  "description": "The action firewall for AI agents. Enforce policy and human approval before risky tool calls, shell commands, workflows, and production changes, with auditable evidence.",
+  "homepage": "",
+  "stars": 509,
+  "forks": 34,
+  "open_issues": 31,
+  "language": "Go",
+  "license": "NOASSERTION",
+  "topics": [
+    "agent-framework",
+    "agentic-ai",
+    "ai-agent",
+    "ai-governance",
+    "ai-orchestration",
+    "ai-safety",
+    "audit-trail",
+    "autonomous-agents",
+    "control-plane",
+    "devops",
+    "governance",
+    "human-in-the-loop",
+    "llm",
+    "llm-agents",
+    "mcp",
+    "model-context-protocol",
+    "nats",
+    "policy-engine",
+    "safety-kernel",
+    "workflow-engine"
+  ],
+  "created_at": "2026-01-11T16:56:02Z",
+  "updated_at": "2026-10-06T18:38:40Z",
+  "pushed_at": "2026-10-06T16:34:13Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 268,
+  "days_since_push": 0,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 54.1,
+    "momentum": 1.6,
+    "maintenance": 100.0,
+    "documentation": 80.0,
+    "accessibility": 30.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 509,
+    "days_span": 268,
+    "stars_per_day": 1.9,
+    "lifetime_stars_per_day": 1.9,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "cordum-io/cordum",
+    "readme_chars": 28489,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "provider-aggregation",
+      "api-gateway",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "provider-aggregation": "",
+      "api-gateway": "pre-built images? docker compose pull && docker compose up -d (Option B below)",
+      "mcp-support": "ed for distributed AI agent governance.",
+      "security-isolation": "doing until after they do it.",
+      "self-hosted": "## Contributing We welcome contributions! See CONTRIBUTING.md for guidelines.",
+      "team-collaboration": "- Email: See SECURITY.md for contact details ## Enterprise Cordum Enterprise features (shipped in core, unlocked by license entitlement): - SSO/SAML/OIDC integration + SCIM provisioning - Advanced RBAC with role hierarc…",
+      "notifications": ""
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "provider-aggregation": 1,
+      "api-gateway": 1,
+      "mcp-support": 11,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "team-collaboration": 1,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 70,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "helm install",
+        "git clone (build from source)",
+        "npm install/build",
+        "make build",
+        "go build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Involved setup. install via pip install; needs docker compose up, helm install; configure API key configuration, sign-in required",
+      "note_zh": "配置较重。可通过 pip install 安装；需要 docker compose up、helm install；需配置 API key configuration、sign-in required"
+    },
+    "doc_score": 80,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "The Source-Available Agent Control Plane for Governance, Safety, and Trust.",
+    "summary_zh": "",
+    "install_hint": "docker compose up -d        # starts the stack — no image build needed",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.842
+    },
+    "highlights": [
+      "Gateway HTTP/SSE mode via /mcp/message and /mcp/sse (when mcp.enabled=true)",
+      "Protocol Stability: CAP v2 wire format frozen until February 2027",
+      "SSO/SAML/OIDC integration + SCIM provisioning"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "mcp-failover",
+    "providers",
+    "skills"
+  ],
+  "primary_category": "providers",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

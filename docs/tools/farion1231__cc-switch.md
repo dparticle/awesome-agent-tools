@@ -4,7 +4,7 @@
 
 > Switch API providers in one click and manage MCP, Skills, and Prompts in one place — no more hand-editing JSON / TOML / YAML config files.
 
-[Repository](https://github.com/farion1231/cc-switch) · [Back to index](../../README.md) · Category: **quota-account-ops**
+[Repository](https://github.com/farion1231/cc-switch) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,18 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 140,685 |
-| Star velocity | 328.7/day (lifetime basis, 428d span) |
+| Star velocity | 327.9/day (lifetime basis, 429d span) |
 | Health score | 93/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2025-08-04 |
 | Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 66,158 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [yetone/magpie](https://github.com/yetone/magpie)** — Still very popular and actively maintained, but magpie covers the same ground plus cross-model routing. Kept in the graveyard as the incumbent reference.
+| Analyzed README | 35,754 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,11 +32,9 @@
 
 ### Automatic failover
 
-> protocols, so Claude Code, Codex, Cursor and your existing SDKs work by simply changing the Base URL.
+> ools and Claude Desktop, so nothing you had configured is lost.
 
 ### Parallel execution
-
-> At the same time, ZetaAPI provides enterprise-grade SLA-backed stability, standard API compatibility, one API key for multiple models, fast integration, and pay-as-you-go billing, making it suitable for AI products,
 
 ### Model / provider routing
 
@@ -48,15 +44,15 @@
 
 ### API gateway / proxy
 
-> credits (valid for 7 days), and earn up to 20% in referral rewards — invite more, earn more!
+> config file is written back to this direct provider's configuration.
 
 ### Billing & metering
 
-> . CC Switch makes it easy to configure and switch to Kimi across agentic tools.
+> ch turn did, which files changed, and which step failed, all at a glance
 
 ### Usage analytics
 
-> cache hit rates that dramatically reduce token costs for long-running agent workflows.
+> can also be enabled or disabled all at once per tool; providers, MCP servers, and prompts are edited full-page in the content area, and you're warned before leaving with unsaved changes
 
 ### Session persistence
 
@@ -66,17 +62,9 @@
 
 > or upgrade all in one click, and diagnose duplicate installations; on Windows it can also manage tools inside WSL (see FAQ)
 
-### Agent runtime
-
-> , ZetaAPI provides enterprise-grade SLA-backed stability, standard API compatibility, one API key for multiple models, fast integration, and pay-as-you-go billing, making it suitable for AI products, coding agents, inte…
-
 ### MCP support
 
 > ** brings all of this into a single desktop app: pick a preset, enter your key, and switch in one click.
-
-### Team collaboration
-
-> up to 5,000 QPM, and industry-leading cache hit rates that dramatically reduce token costs for long-running agent workflows.
 
 ### GUI / desktop app
 
@@ -84,7 +72,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Cline, Codex, Copilot
+> Mentions Claude Code, Codex, Copilot, Gemini CLI
 
 ## Setup reality check
 
@@ -95,9 +83,9 @@
 
 **Signals that make it easy:** Homebrew install, native installer / package
 
-**Configuration required:** environment variables, API key configuration, config file, OAuth login flow, sign-in required, database dependency, database migration, server/reverse-proxy setup
+**Configuration required:** environment variables, config file, OAuth login flow, sign-in required, database dependency, server/reverse-proxy setup
 
-*Easy. install via Homebrew install, native installer / package; configure environment variables, API key configuration; one-click setup*
+*Easy. install via Homebrew install, native installer / package; configure environment variables, config file; one-click setup*
 
 ## Documentation quality
 

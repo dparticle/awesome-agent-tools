@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "full_name": "TencentCloud/Octop",
+  "name": "Octop",
+  "owner": "TencentCloud",
+  "url": "https://github.com/TencentCloud/Octop",
+  "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+  "homepage": "https://octop.cloud",
+  "stars": 7628,
+  "forks": 922,
+  "open_issues": 747,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "agentic-ai",
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "local-first",
+    "long-term-memory"
+  ],
+  "created_at": "2026-07-08T12:54:20Z",
+  "updated_at": "2026-10-07T13:32:33Z",
+  "pushed_at": "2026-10-06T15:27:48Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 91,
+  "days_since_push": 1,
+  "health_score": 80,
+  "health_components": {
+    "popularity": 77.6,
+    "momentum": 69.9,
+    "maintenance": 100.0,
+    "documentation": 78.0,
+    "accessibility": 74.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 7628,
+    "days_span": 91,
+    "stars_per_day": 83.82,
+    "lifetime_stars_per_day": 83.82,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "TencentCloud/Octop",
+    "readme_chars": 28165,
+    "capabilities": [
+      "auto-failover",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "billing-metering",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "h OCTOPDEFAULTPASSWORD unset a strong random password is generated; a password you set must be ≥8 characters with letters and digits (weak/common passwords are rejected by the app password policy and fall back to a rand…",
+      "mobile-access": "Linux alongside the web dashboard and IM channels.",
+      "multi-agent-orchestration": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "parallel-execution": "",
+      "worktree-isolation": "dows scripts\\install.bat or install.ps1",
+      "model-routing": "ild / quality** hatchling · ruff · mypy · pytest",
+      "api-gateway": "ays back up first (octop backup) before a cross-version upgrade.",
+      "billing-metering": "Docker Any docker/docker-compose.yml",
+      "memory-context": "e notes, and manage your schedule; memory persists with the workspace.",
+      "skills-plugins": "",
+      "agent-runtime": "",
+      "mcp-support": "e experts, pick templates / MBTI personas, share or publish experts, configure providers",
+      "self-hosted": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "team-collaboration": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "gui-desktop": "machine — the fully self-hosted design means privacy is never a compromise, while single-process startup makes the powerful web console, CLI, and IM integrations readily accessible.",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "mobile-access": 2,
+      "multi-agent-orchestration": 2,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "memory-context": 4,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "mcp-support": 2,
+      "self-hosted": 4,
+      "team-collaboration": 3,
+      "gui-desktop": 8,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 26,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "pip install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker run",
+        "make build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, pip install; needs docker run, make build; configure config.json/yaml/toml, OAuth login flow; one-click setup",
+      "note_zh": "较易上手。可通过 npx one-liner、pip install 安装；需要 docker run、make build；需配置 config.json/yaml/toml、OAuth login flow；one-click setup"
+    },
+    "doc_score": 78,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "Octop is an open-source, self-hosted AI assistant.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.533
+    },
+    "highlights": [
+      "Desktop client — native apps for Windows / macOS / Linux; FnOS packages for NAS",
+      "Developer boost — delegate coding tasks to OpenCode / Claude Code via ACP, or troubleshoot from the terminal with AI assistance.",
+      "HTTP/SSE/WebSocket API — full programmatic access",
+      "Multi-user isolation: JWT auth with per-user agents and workspaces."
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing",
+    "teams"
+  ],
+  "primary_category": "teams",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

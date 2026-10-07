@@ -4,7 +4,7 @@
 
 > Your coding agent remembers everything.
 
-[Repository](https://github.com/rohitg00/agentmemory) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/rohitg00/agentmemory) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

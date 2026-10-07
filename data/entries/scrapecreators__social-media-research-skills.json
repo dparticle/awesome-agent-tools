@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "full_name": "ScrapeCreators/social-media-research-skills",
+  "name": "social-media-research-skills",
+  "owner": "ScrapeCreators",
+  "url": "https://github.com/ScrapeCreators/social-media-research-skills",
+  "description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
+  "homepage": "https://scrapecreators.com",
+  "stars": 3268,
+  "forks": 47,
+  "open_issues": 3,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "claude-skills",
+    "competitor-analysis",
+    "content-marketing",
+    "cursor",
+    "influencer-marketing",
+    "market-research",
+    "social-media",
+    "social-media-research",
+    "workflow-automation"
+  ],
+  "created_at": "2026-06-06T21:47:43Z",
+  "updated_at": "2026-10-07T13:25:46Z",
+  "pushed_at": "2026-08-26T17:26:01Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 122,
+  "days_since_push": 41,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 70.3,
+    "momentum": 22.3,
+    "maintenance": 78.0,
+    "documentation": 29.0,
+    "accessibility": 90.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3268,
+    "days_span": 122,
+    "stars_per_day": 26.79,
+    "lifetime_stars_per_day": 26.79,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "ScrapeCreators/social-media-research-skills",
+    "readme_chars": 5711,
+    "capabilities": [
+      "skills-plugins",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "# Social Media Research Skills for AI Agents",
+      "mcp-support": ", hooks, captions, and transcript quotes verbatim.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "skills-plugins": 2,
+      "mcp-support": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner; configure API key configuration",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 API key configuration"
+    },
+    "doc_score": 29,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "links to dedicated docs"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "Practical AI agent skills for social media research, powered by ScrapeCreators.",
+    "summary_zh": "",
+    "install_hint": "npx skills add ScrapeCreators/social-media-research-skills",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.226
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

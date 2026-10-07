@@ -4,7 +4,7 @@
 
 > arXiv Review Paper Harness is an agentic harness for writing machine-learning and AI review papers in LaTeX.
 
-[Repository](https://github.com/appautomaton/latex-arxiv-SKILL) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/appautomaton/latex-arxiv-SKILL) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TeX |
 | Created | 2025-03-18 |
-| Last push | 2026-09-13 (23 days ago) |
+| Last push | 2026-09-13 (24 days ago) |
 | Analyzed README | 7,515 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [nexu-io/open-design](https://github.com/nexu-io/open-design)** — Superseded by nexu-io/open-design: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [trailhq/Graft](https://github.com/trailhq/Graft)** — Superseded by trailhq/Graft: covers 100% of capabilities (4/4).
 
 ## What it solves
 

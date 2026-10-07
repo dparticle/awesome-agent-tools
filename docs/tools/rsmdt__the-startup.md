@@ -4,7 +4,7 @@
 
 > Ship faster.
 
-[Repository](https://github.com/rsmdt/the-startup) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/rsmdt/the-startup) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -24,7 +24,7 @@
 | Last push | 2026-08-03 (65 days ago) |
 | Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven)** — Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).
 
 ## What it solves
 

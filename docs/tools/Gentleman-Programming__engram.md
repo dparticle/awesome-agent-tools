@@ -4,7 +4,7 @@
 
 > sealed_token is a GitHub fine-grained token encrypted against Star History's public key, so only the encrypted value is published here.
 
-[Repository](https://github.com/Gentleman-Programming/engram) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/Gentleman-Programming/engram) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

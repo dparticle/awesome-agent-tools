@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "full_name": "MagicCube/agentara",
+  "name": "agentara",
+  "owner": "MagicCube",
+  "url": "https://github.com/MagicCube/agentara",
+  "description": "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally.",
+  "homepage": "",
+  "stars": 515,
+  "forks": 58,
+  "open_issues": 4,
+  "language": "TypeScript",
+  "license": "",
+  "topics": [],
+  "created_at": "2026-03-05T08:16:37Z",
+  "updated_at": "2026-10-01T05:24:34Z",
+  "pushed_at": "2026-05-11T11:48:15Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 216,
+  "days_since_push": 149,
+  "health_score": 38,
+  "health_components": {
+    "popularity": 54.2,
+    "momentum": 2.0,
+    "maintenance": 55.0,
+    "documentation": 60.0,
+    "accessibility": 16.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 515,
+    "days_span": 216,
+    "stars_per_day": 2.38,
+    "lifetime_stars_per_day": 2.38,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "MagicCube/agentara",
+    "readme_chars": 9208,
+    "capabilities": [
+      "session-persistence",
+      "memory-context",
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "session-persistence": "",
+      "memory-context": "",
+      "agent-runtime": "",
+      "gui-desktop": "n serial execution and cross-session concurrency",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "session-persistence": 1,
+      "memory-context": 1,
+      "agent-runtime": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "high",
+      "score": 84,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)",
+        "make build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "config file",
+        "config.json/yaml/toml",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source), make build; configure environment variables, config file",
+      "note_zh": "配置较重。需要 git clone (build from source)、make build；需配置 environment variables、config file"
+    },
+    "doc_score": 60,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Meet Tara, your 24/7 personal assistant powered by Claude Code and OpenAI Codex.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "has an index/catalogue section"
+      ],
+      "external_link_ratio": 2.281
+    },
+    "highlights": [
+      "RESTful API — Hono-based API server with type-safe RPC client",
+      "Agent-powered sessions — Interact with Claude Code and OpenAI Codex through managed sessions with full streaming support",
+      "Web dashboard — React-based UI for managing sessions, tasks, and memory",
+      "Session persistence — Sessions stored as JSONL files with full message history"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "desktop-ui",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by pacifio/atlas: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 pacifio/atlas 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "pacifio/atlas",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "magiccube/agentara",
+      "challenger": "pacifio/atlas",
+      "incumbent_name": "MagicCube/agentara",
+      "challenger_name": "pacifio/atlas",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "memory-context",
+        "session-persistence"
+      ],
+      "star_ratio": 17.986,
+      "momentum_ratio": 26.84,
+      "setup_delta": -63,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "17.99x the stars (9,263 vs 515)",
+        "26.84x the star velocity (63.9/day vs 2.4/day)",
+        "no harder to set up (21 vs 84 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "memory-context",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "memory-context",
+          "multi-agent-orchestration",
+          "session-persistence",
+          "usage-analytics"
+        ],
+        "incumbent_health": 38,
+        "challenger_health": 72,
+        "incumbent_setup_score": 84,
+        "challenger_setup_score": 21
+      }
+    }
+  }
+}

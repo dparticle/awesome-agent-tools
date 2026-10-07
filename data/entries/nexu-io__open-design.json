@@ -6,16 +6,6 @@
   "url": "https://github.com/nexu-io/open-design",
   "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
   "homepage": "https://open-design.ai",
-  "category": "agent-runtimes",
-  "also_in": [
-    "remote-control"
-  ],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "skills-plugins"
-  ],
-  "category_score": 38.0,
   "stars": 99811,
   "forks": 11525,
   "open_issues": 1160,
@@ -183,18 +173,30 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.912
-    }
+    },
+    "highlights": [
+      "🤖 Agent-native, model-agnostic. We don't ship an agent. The claude / codex / cursor-agent / copilot / hermes / kimi already on your PATH are the design engine. Swap with one click.",
+      "Hand off to engineering. The artifact is real HTML/CSS — drop it into Cursor, Codex, or Claude Code to keep building as code. Or export PPTX / PDF / MP4 straight to marketing.",
+      "The agent creates the first deliverable. Plugin + functional skill or design template + DESIGN.md are bound. Filesystem-backed CLI runs write canonical project files and the preview follows…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:04+00:00",
+  "fetched_at": "2026-10-07T16:31:06+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing",
+    "sharing"
+  ],
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

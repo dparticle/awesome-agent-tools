@@ -4,7 +4,7 @@
 
 > alt="marm-memory - persistent local memory server for AI agents (Model Context Protocol)"
 
-[Repository](https://github.com/Lyellr88/marm-memory) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/Lyellr88/marm-memory) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

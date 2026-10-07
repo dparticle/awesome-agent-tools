@@ -4,7 +4,7 @@
 
 > Never stop coding.
 
-[Repository](https://github.com/decolua/9router) · [Back to index](../../README.md) · Category: **model-routing**
+[Repository](https://github.com/decolua/9router) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

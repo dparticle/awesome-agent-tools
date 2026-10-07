@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "full_name": "trailhq/Graft",
+  "name": "Graft",
+  "owner": "trailhq",
+  "url": "https://github.com/trailhq/Graft",
+  "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
+  "homepage": "https://trailhq.com/graft",
+  "stars": 9660,
+  "forks": 882,
+  "open_issues": 229,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "anthropic",
+    "claude-code",
+    "cli",
+    "code-graph",
+    "codex",
+    "context-engineering",
+    "cursor",
+    "developer-tools",
+    "gemini",
+    "knowledge-graph",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "open-source",
+    "openai",
+    "tree-sitter"
+  ],
+  "created_at": "2026-07-03T13:44:21Z",
+  "updated_at": "2026-10-07T13:25:27Z",
+  "pushed_at": "2026-10-07T12:45:42Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 96,
+  "days_since_push": 0,
+  "health_score": 79,
+  "health_components": {
+    "popularity": 79.7,
+    "momentum": 83.9,
+    "maintenance": 100.0,
+    "documentation": 59.0,
+    "accessibility": 63.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 9660,
+    "days_span": 96,
+    "stars_per_day": 100.62,
+    "lifetime_stars_per_day": 100.62,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "trailhq/Graft",
+    "readme_chars": 43978,
+    "capabilities": [
+      "model-routing",
+      "api-gateway",
+      "billing-metering",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "mpatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPIKEY, GRAFTMODEL, and — for the openai wire format — GRAFTBASEURL to point at…",
+      "api-gateway": "graft is vendor-neutral: set GRAFTPROVIDER (openai for any OpenAI-compatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPIKEY, GRA…",
+      "billing-metering": "",
+      "skills-plugins": "gents get a marker-fenced Graft section in their shared instruction file — AGENTS.md (Codex, OpenCode and other CLIs that read it), GEMINI.md, .github/copilot-instructions.md — or a wholly-owned rule/skill file for the…",
+      "agent-runtime": "### Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
+      "mcp-support": "d artifact.** graft build writes graft/ and adds it to .gitignore — it's a regenerable local cache, like nodemodules.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "model-routing": 2,
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "skills-plugins": 3,
+      "agent-runtime": 5,
+      "mcp-support": 7,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via npx one-liner, global npm install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, database dependency",
+      "note_zh": "需要一些配置。可通过 npx one-liner、global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、database dependency"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "You correct it, and by the next session it has forgotten.",
+    "summary_zh": "",
+    "install_hint": "npm install -g @nanonets/graft   # install the CLI, once",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.136
+    },
+    "highlights": [
+      "Entry-point trace — Trace end-to-end what happens when a client creates a record via the REST API, from route handler to database write.",
+      "Always fresh, automatically. Every query rebuilds the graph against the working tree first — structural, $0, ~3ms when nothing moved — so ask/grep/callers/skeleton/map describe the code as…",
+      "auto-sync — every graft query brings the graph up to date first, so an answer always describes the code as it is right now, uncommitted edits included. A query refreshes only what it reads;…",
+      "Public API — As an external app, how do I authenticate and then list and filter records over the REST API?"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "categories": [
+    "billing",
+    "desktop-ui",
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

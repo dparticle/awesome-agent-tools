@@ -1,0 +1,208 @@
+{
+  "schema": 1,
+  "full_name": "YoanWai/agent-manager",
+  "name": "agent-manager",
+  "owner": "YoanWai",
+  "url": "https://github.com/YoanWai/agent-manager",
+  "description": "The fastest developer workflow for every AI coding agent. Live status, quick prompts, worktrees, and diff review from one tmux TUI.",
+  "homepage": "https://agent-manager.dev",
+  "stars": 574,
+  "forks": 58,
+  "open_issues": 58,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "bubbletea",
+    "claude-code",
+    "cli",
+    "code-review",
+    "codex",
+    "command-code",
+    "developer-tools",
+    "gemini-cli",
+    "golang",
+    "grok",
+    "hermes-agent",
+    "mcp-server",
+    "model-context-protocol",
+    "opencode",
+    "pi",
+    "terminal",
+    "tmux",
+    "tui",
+    "wsl"
+  ],
+  "created_at": "2026-07-15T16:27:33Z",
+  "updated_at": "2026-10-07T08:19:19Z",
+  "pushed_at": "2026-10-06T23:46:55Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 84,
+  "days_since_push": 0,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 55.2,
+    "momentum": 5.7,
+    "maintenance": 100.0,
+    "documentation": 46.0,
+    "accessibility": 99.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 574,
+    "days_span": 84,
+    "stars_per_day": 6.83,
+    "lifetime_stars_per_day": 6.83,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "YoanWai/agent-manager",
+    "readme_chars": 13637,
+    "capabilities": [
+      "worktree-isolation",
+      "agent-runtime",
+      "mcp-support",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "worktree-isolation": ", list density, mouse, review layout, desktop notifications, editor, keybindings)",
+      "agent-runtime": "The fastest developer workflow for every AI coding agent.",
+      "mcp-support": "own persistent tmux session.",
+      "notifications": "art a session on an empty context: same name, group, directory and tool, fresh conversation",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "worktree-isolation": 2,
+      "agent-runtime": 2,
+      "mcp-support": 2,
+      "notifications": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 13,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "curl | sh installer"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via Homebrew install, curl | sh installer; configure sign-in required",
+      "note_zh": "开箱即用。可通过 Homebrew install、curl | sh installer 安装；需配置 sign-in required"
+    },
+    "doc_score": 46,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "Claude Code, Codex, OpenCode, Grok, Gemini CLI, Antigravity CLI, Pi, Command Code, Hermes Agent, Muse Code, and Oh My Pi run side by side.",
+    "summary_zh": "",
+    "install_hint": "brew install agent-manager",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.293
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "isolation-parallelism"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "yoanwai/agent-manager",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "YoanWai/agent-manager",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "notifications",
+        "worktree-isolation"
+      ],
+      "star_ratio": 58.103,
+      "momentum_ratio": 11.463,
+      "setup_delta": -11,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "58.10x the stars (33,351 vs 574)",
+        "11.46x the star velocity (78.3/day vs 6.8/day)",
+        "no harder to set up (2 vs 13 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "notifications",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 56,
+        "challenger_health": 81,
+        "incumbent_setup_score": 13,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

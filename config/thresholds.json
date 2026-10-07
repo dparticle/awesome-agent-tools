@@ -48,8 +48,8 @@
     "min_dominance_score": 0.55,
     "max_challenger_capabilities": 18,
     "max_incumbent_capabilities": 18,
-    "min_incumbent_capabilities": 3,
-    "min_challenger_capabilities": 4,
+    "min_incumbent_capabilities": 4,
+    "min_challenger_capabilities": 5,
     "same_category_only": true
   }
 }

@@ -4,7 +4,7 @@
 
 > Turn a real workflow into a tested, installable agent skill—then publish it safely to your team.
 
-[Repository](https://github.com/FrancyJGLisboa/agent-skills-platform) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/FrancyJGLisboa/agent-skills-platform) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 2,403 |
-| Star velocity | 6.8/day (lifetime basis, 353d span) |
+| Star velocity | 6.8/day (lifetime basis, 354d span) |
 | Health score | 56/100 |
 | Documentation | 42/100 |
 | Tier | 🔹 Notable |

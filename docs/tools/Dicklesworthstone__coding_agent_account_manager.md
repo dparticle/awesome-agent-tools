@@ -4,7 +4,7 @@
 
 > curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/codingagentaccount_manager/main/install.sh?$(date +%s)" | bash
 
-[Repository](https://github.com/Dicklesworthstone/coding_agent_account_manager) · [Back to index](../../README.md) · Category: **quota-account-ops**
+[Repository](https://github.com/Dicklesworthstone/coding_agent_account_manager) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

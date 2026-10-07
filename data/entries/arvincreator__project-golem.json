@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "full_name": "Arvincreator/project-golem",
+  "name": "project-golem",
+  "owner": "Arvincreator",
+  "url": "https://github.com/Arvincreator/project-golem",
+  "description": "OS-level autonomous AI agent with long-term memory, multi-agent coordination, Titan Chronos scheduler & Moltbot Social Core",
+  "homepage": "",
+  "stars": 639,
+  "forks": 106,
+  "open_issues": 6,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "topics": [
+    "ai-agent",
+    "autonomous-agents",
+    "chatbot",
+    "discord-bot",
+    "golem",
+    "long-term-memory",
+    "multi-agent",
+    "nodejs",
+    "openclaw",
+    "telegram-bot-ai-assistant"
+  ],
+  "created_at": "2026-01-30T10:33:16Z",
+  "updated_at": "2026-10-02T15:14:16Z",
+  "pushed_at": "2026-06-22T05:35:37Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 250,
+  "days_since_push": 107,
+  "health_score": 39,
+  "health_components": {
+    "popularity": 56.1,
+    "momentum": 2.1,
+    "maintenance": 55.0,
+    "documentation": 30.0,
+    "accessibility": 55.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 639,
+    "days_span": 250,
+    "stars_per_day": 2.56,
+    "lifetime_stars_per_day": 2.56,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Arvincreator/project-golem",
+    "readme_chars": 6618,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "mcp-support",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "--- --- 多後端大腦 支援 gemini、ollama、lmstudio，可依成本、隱私、效能切換。",
+      "skills-plugins": "--- ## 快速開始 ### 1) 環境需求 - Node.js >=20 讓 Golem 嘗試學習或生成新技能 /stocks TSM NVDA 2330 建立即時股市分析上下文 /stockboard 開啟股市看板式分析上下文 /rpg start 啟動原生文字 RPG 模式 /rpg bind 產生會員/外部通道綁定碼 /install skill-gh 從 GitHub 安裝技能 /install mcp-url 從 HTT…",
+      "mcp-support": "English README · 貢獻指南 · 開發代理指南 --- ## Project Golem 是什麼 Project Golem 不是單純聊天機器人，而是一套可運行的 AI 工作系統。",
+      "gui-desktop": "絆日記、協作日曆，把 AI 從工具延伸成可共同規劃、共同記錄的互動角色。"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 1,
+      "mcp-support": 4,
+      "gui-desktop": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 45,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "docker compose up"
+      ],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Web"
+      ],
+      "note_en": "Some setup. needs docker compose up; configure database dependency",
+      "note_zh": "需要一些配置。需要 docker compose up；需配置 database dependency"
+    },
+    "doc_score": 30,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [],
+    "summary_en": "Project Golem 不是單純聊天機器人，而是一套可運行的 AI 工作系統。",
+    "summary_zh": "",
+    "install_hint": "docker compose up -d --build",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "desktop-ui",
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "arvincreator/project-golem",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "Arvincreator/project-golem",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 45.703,
+      "momentum_ratio": 50.93,
+      "setup_delta": -13,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "45.70x the stars (29,204 vs 639)",
+        "50.93x the star velocity (130.4/day vs 2.6/day)",
+        "no harder to set up (32 vs 45 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 39,
+        "challenger_health": 88,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@
 
 > Persistent memory + session search + secret scanning for Pi
 
-[Repository](https://github.com/chandra447/pi-hermes-memory) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/chandra447/pi-hermes-memory) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

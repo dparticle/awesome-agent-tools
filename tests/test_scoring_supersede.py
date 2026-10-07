@@ -18,6 +18,8 @@ from agentindex.scoring import (  # noqa: E402
     load_thresholds,
 )
 from agentindex.supersede import (  # noqa: E402
+    EDGE_CHALLENGER,
+    EDGE_SUPERSEDE,
     ToolFacts,
     apply_manual_overrides,
     build_edges,
@@ -322,11 +324,19 @@ class TestSupersede(unittest.TestCase):
         facts = self.facts("a/a", ["x", "y", "z"], 1000, 5.0)
         self.assertIsNone(evaluate_pair(facts, facts, self.cfg))
 
-    def test_magpie_eliminates_cc_switch(self):
-        """The canonical example from the project's requirements."""
+    def test_magpie_is_recorded_as_challenger_not_supersede(self):
+        """The canonical example, judged honestly.
+
+        cc-switch and magpie are both popular in the same space, and it is
+        tempting to record magpie as its replacement. The project's own rules
+        refuse it: magpie covers only part of cc-switch's capability set and has
+        ~4% of its stars. The pair is therefore reported as a *challenger* —
+        visible in the README, but nothing is retired.
+        """
         cc_switch = self.facts(
             "farion1231/cc-switch",
-            ["multi-account-switching", "quota-management", "model-routing", "gui-desktop"],
+            ["multi-account-switching", "quota-management", "model-routing",
+             "gui-desktop", "billing-metering", "provider-aggregation"],
             stars=140685,
             spd=300.0,
             setup=25,
@@ -334,16 +344,15 @@ class TestSupersede(unittest.TestCase):
         )
         magpie = self.facts(
             "yetone/magpie",
-            ["multi-account-switching", "quota-management", "model-routing", "gui-desktop", "provider-aggregation"],
-            stars=5666,
+            ["multi-account-switching", "quota-management", "model-routing", "gui-desktop"],
+            stars=5667,
             spd=400.0,
             setup=20,
             health=85,
         )
-        # Automatic rules correctly refuse: magpie has fewer stars.
+        # Automatic rules refuse on both coverage and traction.
         self.assertIsNone(evaluate_pair(cc_switch, magpie, self.cfg))
 
-        # The curated verdict is what records it.
         edges = apply_manual_overrides(
             [],
             {
@@ -351,45 +360,70 @@ class TestSupersede(unittest.TestCase):
                     {
                         "incumbent": "farion1231/cc-switch",
                         "challenger": "yetone/magpie",
-                        "note": "magpie covers cc-switch's core job and routes other models too.",
+                        "note": "Both manage accounts and providers; magpie also routes other models.",
                     }
                 ]
             },
+            {"farion1231/cc-switch": cc_switch, "yetone/magpie": magpie},
         )
         self.assertEqual(len(edges), 1)
-        self.assertEqual(edges[0].kind, "manual")
-        self.assertEqual(edges[0].confidence, "high")
-        self.assertEqual(edges[0].incumbent, "farion1231/cc-switch")
+        edge = edges[0]
+        self.assertEqual(edge.kind, EDGE_CHALLENGER)
+        self.assertEqual(edge.source, "curated")
+        self.assertLess(edge.coverage, 1.0)
+        self.assertIn("provider-aggregation", edge.evidence["missing_capabilities"])
+
+        # Crucially, the incumbent is NOT retired.
+        states = resolve_states(
+            {"farion1231/cc-switch": {"pushed_at": iso(1), "archived": False}},
+            edges,
+            {},
+            self.cfg,
+        )
+        self.assertEqual(states["farion1231/cc-switch"]["state"], "active")
+        self.assertEqual(states["farion1231/cc-switch"]["challenger"], "yetone/magpie")
+
+    def test_curated_full_coverage_is_a_real_supersede(self):
+        """A curated pair that genuinely covers everything does retire."""
+        old = self.facts("old/tool", ["a", "b", "c", "d"], 1000, 2.0, health=80)
+        new = self.facts("new/tool", ["a", "b", "c", "d", "e"], 5000, 20.0, health=85)
+        edges = apply_manual_overrides(
+            [],
+            {"supersede": [{"incumbent": "old/tool", "challenger": "new/tool", "note": "covers all"}]},
+            {"old/tool": old, "new/tool": new},
+        )
+        self.assertEqual(edges[0].kind, EDGE_SUPERSEDE)
+        states = resolve_states(
+            {"old/tool": {"pushed_at": iso(1), "archived": False}}, edges, {}, self.cfg
+        )
+        self.assertEqual(states["old/tool"]["state"], "superseded")
 
     def test_chain_keeps_strongest_edge(self):
-        a = self.facts("a/a", ["w", "x", "y", "z"], 100, 1.0)
-        b = self.facts("b/b", ["w", "x", "y", "z"], 5000, 50.0)
-        c = self.facts("c/c", ["w", "x", "y", "z"], 50000, 500.0)
+        a = self.facts("a/a", ["w", "x", "y", "z", "v"], 100, 1.0)
+        b = self.facts("b/b", ["w", "x", "y", "z", "v"], 5000, 50.0)
+        c = self.facts("c/c", ["w", "x", "y", "z", "v"], 50000, 500.0)
         edges = build_edges([a, b, c], self.cfg)
         incumbents = [e.incumbent for e in edges]
         # a is eliminated; the strongest single challenger is kept.
         self.assertIn("a/a", incumbents)
         self.assertEqual(len([e for e in edges if e.incumbent == "a/a"]), 1)
 
-    def test_manual_beats_automatic(self):
-        auto = [
-            type(
-                "E",
-                (),
-                {
-                    "incumbent": "a/a",
-                    "challenger": "b/b",
-                    "dominance": 0.9,
-                    "as_dict": lambda self: {},
-                },
-            )()
-        ]
+    def test_manual_challenger_does_not_displace_auto_supersede(self):
+        """A curated watch-note must not downgrade a real automatic verdict."""
+        auto_incumbent = self.facts("a/a", ["w", "x", "y", "z", "v"], 100, 1.0)
+        auto_challenger = self.facts("b/b", ["w", "x", "y", "z", "v"], 50000, 500.0)
+        auto = build_edges([auto_incumbent, auto_challenger], self.cfg)
+        self.assertTrue(auto, "expected an automatic supersede to exist")
+
+        curated_weak = self.facts("c/c", ["w", "x"], 50, 0.1)
         edges = apply_manual_overrides(
-            auto, {"supersede": [{"incumbent": "a/a", "challenger": "c/c", "note": "human call"}]}
+            auto,
+            {"supersede": [{"incumbent": "a/a", "challenger": "c/c", "note": "weak claim"}]},
+            {"a/a": auto_incumbent, "c/c": curated_weak},
         )
         self.assertEqual(len(edges), 1)
-        self.assertEqual(edges[0].challenger, "c/c")
-        self.assertEqual(edges[0].kind, "manual")
+        self.assertEqual(edges[0].challenger, "b/b", "auto supersede should survive")
+        self.assertEqual(edges[0].kind, EDGE_SUPERSEDE)
 
 
 class TestResolveStates(unittest.TestCase):

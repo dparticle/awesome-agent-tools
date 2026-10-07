@@ -4,7 +4,7 @@
 
 > Official agent skills/plugins for Power Platform development by Microsoft.
 
-[Repository](https://github.com/microsoft/power-platform-skills) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/microsoft/power-platform-skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 51/100 |
 | Documentation | 44/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-01-21 |
 | Last push | 2026-10-07 (0 days ago) |
 | Analyzed README | 15,318 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).
 
 ## What it solves
 

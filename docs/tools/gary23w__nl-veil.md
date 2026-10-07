@@ -4,7 +4,7 @@
 
 > An AI coding team that remembers your project.
 
-[Repository](https://github.com/gary23w/nl-veil) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/gary23w/nl-veil) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

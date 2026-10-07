@@ -4,7 +4,7 @@
 
 > src="https://github.com/user-attachments/assets/cf66f045-c8be-494b-b696-b8d7e4fb709c" />
 
-[Repository](https://github.com/memvid/memvid) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/memvid/memvid) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 16,582 |
-| Star velocity | 33.4/day (lifetime basis, 497d span) |
+| Star velocity | 33.3/day (lifetime basis, 498d span) |
 | Health score | 63/100 |
 | Documentation | 60/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2025-05-27 |
-| Last push | 2026-07-14 (84 days ago) |
+| Last push | 2026-07-14 (85 days ago) |
 | Analyzed README | 16,317 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -66,7 +66,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 84.4 |
-| momentum | 27.8 |
+| momentum | 27.7 |
 | maintenance | 78.0 |
 | documentation | 60.0 |
 | accessibility | 60.0 |

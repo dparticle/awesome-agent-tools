@@ -1,0 +1,160 @@
+{
+  "schema": 1,
+  "full_name": "ZJU-REAL/Easel",
+  "name": "Easel",
+  "owner": "ZJU-REAL",
+  "url": "https://github.com/ZJU-REAL/Easel",
+  "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
+  "homepage": "https://zju-real.github.io/Easel/",
+  "stars": 3190,
+  "forks": 489,
+  "open_issues": 19,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent",
+    "agent-skill",
+    "content-automation",
+    "content-creation",
+    "content-generation",
+    "mcp",
+    "openclaw",
+    "social-media",
+    "social-media-management"
+  ],
+  "created_at": "2026-08-28T02:22:27Z",
+  "updated_at": "2026-10-07T13:26:50Z",
+  "pushed_at": "2026-10-07T08:53:39Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 40,
+  "days_since_push": 0,
+  "health_score": 78,
+  "health_components": {
+    "popularity": 70.1,
+    "momentum": 66.5,
+    "maintenance": 100.0,
+    "documentation": 79.0,
+    "accessibility": 85.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 3190,
+    "days_span": 40,
+    "stars_per_day": 79.75,
+    "lifetime_stars_per_day": 79.75,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "ZJU-REAL/Easel",
+    "readme_chars": 18188,
+    "capabilities": [
+      "quota-management",
+      "provider-aggregation",
+      "api-gateway",
+      "memory-context",
+      "skills-plugins",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "平台适配的成品直接到对应平台，再通过**归因**分析表现并把有效经验沉淀回账号画像。",
+      "provider-aggregation": "",
+      "api-gateway": "装 OpenClaw，并创建独立的 easel profile，不覆盖用户已有的 ~/.openclaw/。",
+      "memory-context": "",
+      "skills-plugins": "布与归因** 发布质量门禁、敏感与版权风险检查、平台搜索优化、发布 Checklist、多平台格式适配；小红书、抖音、快手、知乎、B 站、微信视频号、微信公众号登录与发布；内容日历回写、账号数据、评论洞察、内容复盘、ROI 与画像记忆",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "provider-aggregation": 1,
+      "api-gateway": 2,
+      "memory-context": 1,
+      "skills-plugins": 2,
+      "gui-desktop": 2,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 15,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration"
+      ],
+      "friendliness_signals": [
+        "Chinese: beginner/one-click framing"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via pip install, native installer / package; needs git clone (build from source); configure API key configuration; Chinese: beginner/one-click framing",
+      "note_zh": "开箱即用。可通过 pip install、native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration；Chinese: beginner/one-click framing"
+    },
+    "doc_score": 79,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔…",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.0
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:03+00:00",
+  "categories": [
+    "desktop-ui",
+    "quota"
+  ],
+  "primary_category": "quota",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

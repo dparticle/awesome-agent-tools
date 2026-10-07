@@ -6,12 +6,6 @@
   "url": "https://github.com/harishkotra/agent-office",
   "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
   "homepage": "",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 10.0,
   "stars": 323,
   "forks": 103,
   "open_issues": 1,
@@ -123,18 +117,90 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.205
-    }
+    },
+    "highlights": []
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:23+00:00",
+  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "categories": [
+    "model-routing",
+    "skills",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "harishkotra/agent-office",
+      "challenger": "tencentcloud/octop",
+      "incumbent_name": "harishkotra/agent-office",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "memory-context",
+        "mobile-access",
+        "model-routing",
+        "multi-agent-orchestration",
+        "skills-plugins",
+        "team-collaboration",
+        "worktree-isolation"
+      ],
+      "star_ratio": 23.616,
+      "momentum_ratio": 58.208,
+      "setup_delta": -49,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "23.62x the stars (7,628 vs 323)",
+        "58.21x the star velocity (83.8/day vs 1.4/day)",
+        "no harder to set up (26 vs 75 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 45,
+        "challenger_health": 80,
+        "incumbent_setup_score": 75,
+        "challenger_setup_score": 26
+      }
+    }
   }
 }

@@ -6,12 +6,6 @@
   "url": "https://github.com/metatool-ai/metamcp",
   "description": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
   "homepage": "https://docs.metamcp.com",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 11.0,
   "stars": 2697,
   "forks": 436,
   "open_issues": 115,
@@ -144,18 +138,29 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.163
-    }
+    },
+    "highlights": [
+      "🪪 MCP OAuth: Exposed endpoints have options to use standard OAuth in MCP Spec 2025-06-18, easy to connect.",
+      "Choose between API-Key Auth (in header or query param) or standard OAuth in MCP Spec 2025-06-18",
+      "✅ OAuth-enabled MCP servers tested for 03-26 version",
+      "Endpoint rate-limiting (Rate Limiting): applies simultaneously to all clients using the endpoint, sharing a unique counter."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:12+00:00",
+  "fetched_at": "2026-10-07T16:31:13+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

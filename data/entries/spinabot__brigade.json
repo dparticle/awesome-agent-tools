@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "full_name": "spinabot/brigade",
+  "name": "brigade",
+  "owner": "spinabot",
+  "url": "https://github.com/spinabot/brigade",
+  "description": "Brigade — Your personal intelligence, built enterprise-grade",
+  "homepage": "https://www.brigade.spinabot.com",
+  "stars": 11280,
+  "forks": 68,
+  "open_issues": 33,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-runtime",
+    "ai",
+    "ai-crew",
+    "autonomous-agents",
+    "brigade",
+    "brigade-agent",
+    "chatgpt",
+    "clawdbot",
+    "codex",
+    "crustacean",
+    "hermes",
+    "hermes-agent",
+    "llm",
+    "moltbot",
+    "molty",
+    "multi-agent",
+    "openclaw",
+    "pride-of-agents",
+    "self-improving-ai",
+    "spinabot"
+  ],
+  "created_at": "2026-06-19T15:18:17Z",
+  "updated_at": "2026-10-07T12:15:21Z",
+  "pushed_at": "2026-10-03T08:46:07Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 110,
+  "days_since_push": 4,
+  "health_score": 80,
+  "health_components": {
+    "popularity": 81.0,
+    "momentum": 85.5,
+    "maintenance": 100.0,
+    "documentation": 62.0,
+    "accessibility": 61.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 11280,
+    "days_span": 110,
+    "stars_per_day": 102.55,
+    "lifetime_stars_per_day": 102.55,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "spinabot/brigade",
+    "readme_chars": 54587,
+    "capabilities": [
+      "multi-account-switching",
+      "remote-control",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "billing-metering",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "self-hosted",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "",
+      "remote-control": "",
+      "multi-agent-orchestration": "privileged tools are owner-gated",
+      "worktree-isolation": "nnect, walk away, reconnect",
+      "model-routing": "telligence, built on enterprise-grade tech: a crew of",
+      "api-gateway": "o an org chart that governs who can talk to whom.",
+      "billing-metering": "",
+      "session-persistence": "ns (with IANA timezones and",
+      "memory-context": "pose &nbsp;·&nbsp; brigade expose stop &nbsp;🩸",
+      "skills-plugins": "d from your watch, Meta smart glasses, and Meta Quest.",
+      "mcp-support": "heir own workspaces and credentials, persistent memory, a skill system, a cron",
+      "self-hosted": "ntrols and data sovereignty of enterprise",
+      "notifications": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "remote-control": 1,
+      "multi-agent-orchestration": 6,
+      "worktree-isolation": 1,
+      "model-routing": 2,
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "session-persistence": 1,
+      "memory-context": 7,
+      "skills-plugins": 1,
+      "mcp-support": 13,
+      "self-hosted": 5,
+      "notifications": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 39,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "OAuth login flow",
+        "sign-in required",
+        "API token/secret",
+        "database dependency",
+        "database migration",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), npm install/build; configure API key configuration, config file; GUI application",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、config file；GUI application"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Copilot",
+      "Droid"
+    ],
+    "summary_en": "🔐 No tokens to juggle.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://brigade.spinabot.com/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "link-directory table of contents",
+        "invites project submissions"
+      ],
+      "external_link_ratio": 0.055
+    },
+    "highlights": [
+      "Connectors: composio (1,000+ apps), oauth_authorize",
+      "Reuse a CLI login — already signed into the Claude Code or Codex CLI on",
+      "Clients are thin. The TUI (brigade/brigade tui), brigade connect, and",
+      "Sub-agents: spawnagent (sync), spawnagents (parallel fan-out)"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "mcp-failover",
+    "sessions-memory",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

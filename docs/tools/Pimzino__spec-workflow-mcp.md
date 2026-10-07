@@ -4,7 +4,7 @@
 
 > I HAVE TAKEN A SMALL BREAK FROM THIS REPO FOR PERSONAL REASONS BUT I WILL BE BACK WITH SOME UPDATES IN THE NEAR FUTURE THANK YOU FOR YOUR UNDERSTANDING
 
-[Repository](https://github.com/Pimzino/spec-workflow-mcp) · [Back to index](../../README.md) · Category: **interop-mcp**
+[Repository](https://github.com/Pimzino/spec-workflow-mcp) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 47/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | GPL-3.0 |
 | Language | TypeScript |
 | Created | 2025-08-07 |
 | Last push | 2026-07-03 (95 days ago) |
 | Analyzed README | 11,227 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
 
 ## What it solves
 

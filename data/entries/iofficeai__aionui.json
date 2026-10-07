@@ -6,14 +6,6 @@
   "url": "https://github.com/iOfficeAI/AionUi",
   "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
   "homepage": "https://www.aionui.com",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "skills-plugins"
-  ],
-  "category_score": 34.0,
   "stars": 33351,
   "forks": 3469,
   "open_issues": 940,
@@ -175,18 +167,31 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.834
-    }
+    },
+    "highlights": [
+      "Cron expression — standard 5-field cron with timezone support (e.g. 0 9 * * 1, Asia/Shanghai)",
+      "Instant Preview: Built-in 10+ format preview panels, AI collaboration results instantly visible.",
+      "File Management: Intelligently organize local folders and batch rename with one click.",
+      "Document Generation: Automatically write and format PPT, Word, and Markdown documents."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:08+00:00",
+  "fetched_at": "2026-10-07T16:31:10+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

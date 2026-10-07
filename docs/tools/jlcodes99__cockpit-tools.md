@@ -4,7 +4,7 @@
 
 > English · Portuguese (BR) · 简体中文
 
-[Repository](https://github.com/jlcodes99/cockpit-tools) · [Back to index](../../README.md) · Category: **quota-account-ops**
+[Repository](https://github.com/jlcodes99/cockpit-tools) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -15,14 +15,14 @@
 | Stars | 18,691 |
 | Star velocity | 70.8/day (lifetime basis, 264d span) |
 | Health score | 77/100 |
-| Documentation | 61/100 |
+| Documentation | 60/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
 | Last push | 2026-10-01 (5 days ago) |
-| Analyzed README | 17,781 chars from `raw:HEAD/README.md` |
+| Analyzed README | 15,888 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -48,7 +48,7 @@
 
 ### Multi-provider aggregation
 
-> 的指纹浏览器，支持独立浏览器指纹环境、Cookie / 存储隔离、Roxy 原生住宅 IP、团队协作与 API / MCP 自动化能力，适合需要管理 AI 账号矩阵、降低账号关联风险、提升长期使用稳定性的用户。
+> 어 · 🇧🇷 Português · 🇷🇺 Русский · 🇹🇷 Türkçe · 🇵🇱 Polski · 🇨🇿 Čeština · 🇸🇦 العربية · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia
 
 ### API gateway / proxy
 
@@ -64,13 +64,9 @@
 
 ### Agent runtime
 
-### MCP support
-
 ### Security & isolation
 
 > .jlcodes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入
-
-### Team collaboration
 
 ### GUI / desktop app
 
@@ -97,7 +93,7 @@
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -117,7 +113,7 @@ Score **61/100**, based on these detected signals:
 | popularity | 85.4 |
 | momentum | 59.0 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
+| documentation | 60.0 |
 | accessibility | 74.0 |
 
 ---

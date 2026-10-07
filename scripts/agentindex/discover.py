@@ -49,9 +49,21 @@ class Candidate:
         }
 
 
-def load_categories() -> list[dict[str, Any]]:
-    data = read_json(CONFIG_DIR / "categories.json", default={}) or {}
-    return sorted(data.get("categories", []), key=lambda c: c.get("order", 999))
+def load_queries() -> list[dict[str, str]]:
+    """The discovery query pool.
+
+    Queries are decoupled from categories on purpose: categorization now happens
+    *after* analysis, by clustering capabilities, so the query list does not have
+    to anticipate the taxonomy. Adding a query here widens discovery without any
+    change to how the results are grouped.
+    """
+    data = read_json(CONFIG_DIR / "queries.json", default={}) or {}
+    out: list[dict[str, str]] = []
+    for item in data.get("queries", []):
+        query = (item.get("q") or "").strip()
+        if query:
+            out.append({"q": query, "topic": item.get("topic", "")})
+    return out
 
 
 def load_seeds() -> list[dict[str, Any]]:
@@ -130,21 +142,22 @@ def discover(client: GitHubClient, *, per_query: int | None = None) -> list[Cand
         )
     LOG.info("seeded %d candidates", len(candidates))
 
-    # -- category crawl ----------------------------------------------------
-    for category in load_categories():
-        cat_id = category["id"]
-        for query in category.get("queries", []):
-            try:
-                items = client.search_repositories(query, per_page=per_query)
-            except RateLimitExhausted:
-                LOG.warning("search budget exhausted while crawling %s", cat_id)
-                return list(candidates.values())
-            except RuntimeError as exc:
-                LOG.warning("search %r failed: %s", query, exc)
-                continue
-            for item in items:
-                _merge(candidates, normalise_search_item(item), cat_id, "search")
-            LOG.info("  %-20s %-50s -> %2d hits", cat_id, query[:50], len(items))
+    # -- topical crawl -----------------------------------------------------
+    # Candidates are tagged with the query's topic only as a diagnostic hint;
+    # their final category is decided later by capability clustering.
+    for entry in load_queries():
+        query, topic = entry["q"], entry["topic"]
+        try:
+            items = client.search_repositories(query, per_page=per_query)
+        except RateLimitExhausted:
+            LOG.warning("search budget exhausted while crawling %r", query)
+            return list(candidates.values())
+        except RuntimeError as exc:
+            LOG.warning("search %r failed: %s", query, exc)
+            continue
+        for item in items:
+            _merge(candidates, normalise_search_item(item), topic, "search")
+        LOG.info("  %-22s %-48s -> %2d hits", topic, query[:48], len(items))
 
     # -- rising / dark-horse pass -----------------------------------------
     rising = cfg.get("rising", {})
@@ -279,7 +292,7 @@ MIN_PATTERN_HITS = 2
 AGENT_IDENTITY_RE = re.compile(
     r"coding agent|code agent|ai agent|agentic|agent (manager|orchestrat|harness|runtime|fleet|swarm|team)|"
     r"claude code|codex|gemini cli|opencode|cursor|copilot|aider|cline|roo code|qwen code|"
-    r"mcp server|model context protocol|subagent|sub-agent|"
+    r"subagent|sub-agent|"
     r"agent (skill|plugin|session|memory|workflow|personality)|"
     r"llm (gateway|router|proxy)|api (gateway|relay) for (llm|ai)|"
     r"ai (subscription|quota|account)|coding (assistant|agent)|"
@@ -287,14 +300,18 @@ AGENT_IDENTITY_RE = re.compile(
     re.IGNORECASE,
 )
 
+#: MCP alone is no longer evidence of being an agent tool: by the time of
+#: writing, a third of all indexed tools and plenty of unrelated utilities ship
+#: an MCP server. It counts only alongside a real agent signal above.
+MCP_IDENTITY_RE = re.compile(r"\bmcp\b|model context protocol", re.IGNORECASE)
+
 #: How much of the README's opening counts as "identity" prose.
 IDENTITY_PROSE_CHARS = 1200
 
 #: Repos that keyword search keeps surfacing and that are genuinely useful but
-#: are not agent tools. Playwright, for instance, says it is "a tool for AI
-#: agents" while being a browser-automation framework. Excluding them by name is
-#: honest: it is a curation decision, and it is visible in config rather than
-#: hidden inside a scoring heuristic.
+#: are not agent tools. Excluding them by name is honest: it is a curation
+#: decision, and it is visible in config rather than hidden inside a scoring
+#: heuristic.
 EXCLUDED_REPOS = {
     "microsoft/playwright",
     "microsoft/playwright-mcp",
@@ -305,6 +322,12 @@ EXCLUDED_REPOS = {
     "ripienaar/free-for-dev",
     "sindresorhus/awesome",
     "avelino/awesome-go",
+    # Domain data/automation tools that happen to expose an MCP server or a
+    # "skills" pack. Useful, but not agent tooling: they would occupy a
+    # category without belonging to the problem space this list covers.
+    "simonlin1212/a-stock-data",
+    "rehan-remade/universal-modder",
+    "hypit-ai/hypit",
 }
 
 
@@ -327,6 +350,12 @@ def is_on_topic(analysis: ReadmeAnalysis, identity_text: str = "") -> bool:
 
     identity = identity_text or (analysis.summary_en or "")
     if AGENT_IDENTITY_RE.search(identity):
+        return True
+
+    # MCP alone is not enough — most of the ecosystem ships an MCP server, and
+    # so do plenty of unrelated utilities. Require it alongside an agent-domain
+    # capability.
+    if MCP_IDENTITY_RE.search(identity) and set(analysis.capabilities) & STRONG_AGENT_CAPABILITIES:
         return True
 
     # Fall back to capability breadth for tools whose identity text is sparse

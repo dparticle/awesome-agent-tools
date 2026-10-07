@@ -6,12 +6,6 @@
   "url": "https://github.com/withkynam/vibecode-pro-max-kit",
   "description": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 15 agents, 33 skills working with /goal, agent-team, & workflow on autopilot loops with 0 need for human gate. Kills context rot, ships features, not spaghetti. Claude Code & Codex. Any stack",
   "homepage": "",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 14.0,
   "stars": 1144,
   "forks": 234,
   "open_issues": 23,
@@ -168,18 +162,30 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.073
-    }
+    },
+    "highlights": [
+      "It uses the premium AI model only where it matters. Code-writing uses the top model. Planning, research, review, and checking all use a cheaper, faster model. The result: roughly 60–70% low…",
+      "Build-test-and-fix loop — writes code, runs tests, fixes failures, re-runs. Up to 10 rounds on its own. It never trusts its own \"all green\" — a separate checker (vc-tester) independently re…",
+      "Plan-check-and-fix loop — finds gaps in the plan, fixes them, and re-checks. Up to 10 rounds on its own."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:14+00:00",
+  "fetched_at": "2026-10-07T16:31:16+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "skills",
+    "teams"
+  ],
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

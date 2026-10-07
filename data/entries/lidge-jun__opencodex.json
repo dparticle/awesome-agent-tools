@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "full_name": "lidge-jun/opencodex",
+  "name": "opencodex",
+  "owner": "lidge-jun",
+  "url": "https://github.com/lidge-jun/opencodex",
+  "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
+  "homepage": "https://opencodex.me/",
+  "stars": 17044,
+  "forks": 1288,
+  "open_issues": 112,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-gateway",
+    "ai-tools",
+    "anthropic",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "codex-cli",
+    "deepseek",
+    "developer-tools",
+    "gemini",
+    "grok",
+    "kiro",
+    "llm",
+    "llm-proxy",
+    "ollama",
+    "openai",
+    "openrouter",
+    "proxy",
+    "typescript"
+  ],
+  "created_at": "2026-06-18T23:03:18Z",
+  "updated_at": "2026-10-07T12:46:07Z",
+  "pushed_at": "2026-10-07T12:38:39Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 110,
+  "days_since_push": 0,
+  "health_score": 83,
+  "health_components": {
+    "popularity": 84.6,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 53.0,
+    "accessibility": 58.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 17044,
+    "days_span": 110,
+    "stars_per_day": 154.95,
+    "lifetime_stars_per_day": 154.95,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "lidge-jun/opencodex",
+    "readme_chars": 19229,
+    "capabilities": [
+      "multi-account-switching",
+      "auto-failover",
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "tokens, images, in both directions.",
+      "auto-failover": "",
+      "multi-agent-orchestration": "### Claude Desktop, running any model Opus answers, then hands the task to a GPT-5.6 Sol subagent. ### Grok Build, running any model Sol drives the session and calls a Kimi K3 subagent. English · Français · 한국어 · 简体中文 ·…",
+      "model-routing": "vision sidecars** — non-OpenAI models get real web search and image understanding",
+      "api-gateway": "ystem One-compatible server.",
+      "self-hosted": "e first currently eligible target; caller",
+      "gui-desktop": "t:10100 and configure everything in the web dashboard — add providers",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-account-switching": 4,
+      "auto-failover": 1,
+      "multi-agent-orchestration": 6,
+      "model-routing": 3,
+      "api-gateway": 2,
+      "self-hosted": 1,
+      "gui-desktop": 5,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 42,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; GUI application",
+      "note_zh": "需要一些配置。可通过 global npm install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；GUI application"
+    },
+    "doc_score": 53,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "Two commands, and every one of them runs any LLM you point it at.",
+    "summary_zh": "",
+    "install_hint": "npm install -g @bitkyc08/opencodex",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.832
+    },
+    "highlights": [
+      "28 state-store registrations handle expiry sweeps (60 s interval) and",
+      "4 observed buffers (translator accumulators, image/OAuth/Grok tails) are",
+      "Use any LLM with Codex, Claude Code, Claude Desktop, and Grok Build — 40+ providers out of",
+      "Pool ChatGPT accounts — thread affinity, quota-aware auto-switching, cooldown and"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "accounts",
+    "model-routing"
+  ],
+  "primary_category": "accounts",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

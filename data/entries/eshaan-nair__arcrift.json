@@ -6,12 +6,6 @@
   "url": "https://github.com/Eshaan-Nair/ArcRift",
   "description": "Persistent local memory layer for AI. ArcRift uses a extension and a native MCP server to sync context and decisions from your browser chats (Claude, ChatGPT, DeepSeek) straight to your local IDE agents (Cursor, Claude Code, Windsurf)  powered by a local SQLite knowledge graph.",
   "homepage": "https://arcrift.vercel.app/",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 247,
   "forks": 35,
   "open_issues": 1,
@@ -153,18 +147,28 @@
         "link-directory table of contents"
       ],
       "external_link_ratio": 0.633
-    }
+    },
+    "highlights": [
+      "Load the extension in Chrome (it talks to http://localhost:3001)",
+      "RAG Hallucination Fix: We caught a bug where out-of-context chats were injecting irrelevant project memory because the vector DB returned the top closest matches no matter how semantically…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:26+00:00",
+  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "categories": [
+    "desktop-ui",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

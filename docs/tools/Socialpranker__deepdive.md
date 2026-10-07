@@ -4,7 +4,7 @@
 
 > Stop ad-hoc Googling.
 
-[Repository](https://github.com/Socialpranker/deepdive) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/Socialpranker/deepdive) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 52/100 |
 | Documentation | 72/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-05-21 |
 | Last push | 2026-10-04 (3 days ago) |
 | Analyzed README | 32,014 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (4/4).
 
 ## What it solves
 

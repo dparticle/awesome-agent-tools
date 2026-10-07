@@ -4,7 +4,7 @@
 
 > A collection of AI agent skills focused on resume optimization, job applications, and career development.
 
-[Repository](https://github.com/Paramchoudhary/ResumeSkills) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/Paramchoudhary/ResumeSkills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

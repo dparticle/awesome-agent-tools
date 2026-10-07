@@ -6,12 +6,6 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
   "homepage": "https://career-ops.org",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "cross-agent-support"
-  ],
-  "category_score": 11.0,
   "stars": 73682,
   "forks": 13834,
   "open_issues": 429,
@@ -47,12 +41,12 @@
   "default_branch": "main",
   "age_days": 185,
   "days_since_push": 0,
-  "health_score": 90,
+  "health_score": 89,
   "health_components": {
     "popularity": 97.3,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 77.0,
+    "documentation": 74.0,
     "accessibility": 51.0
   },
   "tier": "flagship",
@@ -66,7 +60,7 @@
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 45974,
+    "readme_chars": 45287,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -116,7 +110,7 @@
       "note_en": "Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, config file",
       "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、config file"
     },
-    "doc_score": 77,
+    "doc_score": 74,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -128,7 +122,6 @@
       "has contribution guidance",
       "mentions licensing",
       "has a Chinese translation",
-      "publishes a roadmap",
       "explains architecture",
       "long, detailed README"
     ],
@@ -149,72 +142,30 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.522
-    }
+      "external_link_ratio": 0.53
+    },
+    "highlights": [
+      "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
+      "Agent: AI coding CLI with shared skills and modes (AGENTS.md + CLI wrapper)",
+      "Scanner: Playwright + Greenhouse API + WebSearch"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:07+00:00",
+  "fetched_at": "2026-10-07T16:31:08+00:00",
+  "categories": [
+    "desktop-ui",
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "nexu-io/open-design",
-    "supersede": {
-      "incumbent": "career-ops-hq/career-ops",
-      "challenger": "nexu-io/open-design",
-      "incumbent_name": "career-ops-hq/career-ops",
-      "challenger_name": "nexu-io/open-design",
-      "kind": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "cross-agent-support",
-        "gui-desktop",
-        "model-routing",
-        "skills-plugins"
-      ],
-      "star_ratio": 1.355,
-      "momentum_ratio": 1.547,
-      "setup_delta": -20,
-      "dominance": 0.673,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "1.35x the stars (99,811 vs 73,682)",
-        "1.55x the star velocity (616.1/day vs 398.3/day)",
-        "no harder to set up (29 vs 49 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "model-routing",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "quota-distribution",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "incumbent_health": 90,
-        "challenger_health": 95,
-        "incumbent_setup_score": 49,
-        "challenger_setup_score": 29
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

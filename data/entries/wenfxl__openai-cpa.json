@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "full_name": "wenfxl/openai-cpa",
+  "name": "openai-cpa",
+  "owner": "wenfxl",
+  "url": "https://github.com/wenfxl/openai-cpa",
+  "description": "Enterprise Distributed Automation Platform for massive concurrent workload execution. Unifies elastic cluster orchestration, multi-channel identity verification messaging, real-time ops telemetry, and multi-warehouse lifecycle control (CPA / Sub2API / Image2API) in one high-throughput control plane.",
+  "homepage": "",
+  "stars": 1404,
+  "forks": 442,
+  "open_issues": 12,
+  "language": "",
+  "license": "NOASSERTION",
+  "topics": [],
+  "created_at": "2026-03-23T05:59:01Z",
+  "updated_at": "2026-10-06T02:20:10Z",
+  "pushed_at": "2026-08-21T18:25:36Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 198,
+  "days_since_push": 46,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 62.9,
+    "momentum": 5.9,
+    "maintenance": 78.0,
+    "documentation": 67.0,
+    "accessibility": 43.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1404,
+    "days_span": 198,
+    "stars_per_day": 7.09,
+    "lifetime_stars_per_day": 7.09,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "wenfxl/openai-cpa",
+    "readme_chars": 25594,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "security-isolation",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "It serves as a centralized Web Orchestration Hub that seamlessly synchronizes distributed browser extension workers (Classic Mode), multi-backend mailbox engines, and enterprise-grade cloud warehouses (CPA/Sub2API) into…",
+      "skills-plugins": "ct Sub2API OAuth-style account import",
+      "security-isolation": "",
+      "notifications": "/ stop and automatically identifies normal, CPA, or Sub2API mode."
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 4,
+      "skills-plugins": 1,
+      "security-isolation": 1,
+      "notifications": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 57,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "pip install -r requirements"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via pip install; needs docker compose up, pip install -r requirements; configure config.json/yaml/toml, OAuth login flow; one-click setup",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 docker compose up、pip install -r requirements；需配置 config.json/yaml/toml、OAuth login flow；one-click setup"
+    },
+    "doc_score": 67,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "An advanced Distributed Automation Platform for high-concurrency account registration and full-lifecycle inventory management.",
+    "summary_zh": "",
+    "install_hint": "pip install -r requirements.txt",
+    "source": "raw:main/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.234
+    },
+    "highlights": [
+      "Docker-aware proxy adaptation: Rewrites 127.0.0.1 / localhost to host.docker.internal inside containers when needed.",
+      "Multi-threaded Clash proxy-pool mode: Multi-container / multi-port pool via clashproxypool.poolmode + warpproxy_list.",
+      "\"host.docker.internal:host-gateway\"",
+      "Packaging as closed-source, encrypting, or hiding the code for secondary reselling;"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:14+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

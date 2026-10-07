@@ -4,7 +4,7 @@
 
 > curl -fsSL https://opencode.ai/install | bash
 
-[Repository](https://github.com/anomalyco/opencode) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/anomalyco/opencode) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

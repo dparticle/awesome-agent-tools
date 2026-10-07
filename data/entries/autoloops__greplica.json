@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "full_name": "Autoloops/greplica",
+  "name": "greplica",
+  "owner": "Autoloops",
+  "url": "https://github.com/Autoloops/greplica",
+  "description": "Persistent, searchable engineering memory for AI coding agents. Saves ~50% tokens and ~30% time while planning",
+  "homepage": "https://autoloops.ai/greplica",
+  "stars": 436,
+  "forks": 74,
+  "open_issues": 50,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-05-21T17:34:38Z",
+  "updated_at": "2026-09-25T20:09:20Z",
+  "pushed_at": "2026-07-30T06:54:42Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 138,
+  "days_since_push": 69,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 52.8,
+    "momentum": 2.6,
+    "maintenance": 78.0,
+    "documentation": 50.0,
+    "accessibility": 63.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 436,
+    "days_span": 138,
+    "stars_per_day": 3.16,
+    "lifetime_stars_per_day": 3.16,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Autoloops/greplica",
+    "readme_chars": 16146,
+    "capabilities": [
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "memory-context": "Full prompt: docs/agent-install-prompt.md",
+      "skills-plugins": "hooks inject graph context guidance and trigger background working-memory updates; OpenHands must trust the repo hooks for the background save to run.",
+      "agent-runtime": "### Persistent, searchable engineering memory for AI coding agents",
+      "self-hosted": "d still misses important facts.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 3,
+      "self-hosted": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs npm install/build; configure sign-in required, database dependency",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 sign-in required、database dependency"
+    },
+    "doc_score": 50,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "Does your coding agent spend 5 minutes just grepping around when you give it a complex task?",
+    "summary_zh": "",
+    "install_hint": "npm install -g greplica@latest",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.248
+    },
+    "highlights": [
+      "flow.browser_identity: browser-specific identity API behavior.",
+      "flow.sync_startup: startup settings, auth checks, and sync-service initialization."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

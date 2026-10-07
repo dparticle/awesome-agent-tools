@@ -6,12 +6,6 @@
   "url": "https://github.com/YYH211/Claude-meta-skill",
   "description": "A curated collection of reusable skills for Claude Code. Enhance Claude's capabilities with ready-to-use skill modules including comprehensive guides, templates, and best practices for creating your own skills.",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 17.0,
   "stars": 282,
   "forks": 28,
   "open_issues": 2,
@@ -121,25 +115,37 @@
         "Chinese: directory framing"
       ],
       "external_link_ratio": 0.396
-    }
+    },
+    "highlights": [
+      "✅ Phase 2: Content Filtering (last 24-48 hours, deduplication)",
+      "Multi-Source Aggregation: Fetches from 3-5 major AI news sites plus web search",
+      "Smart Filtering: Keeps only recent news (24-48 hours) with major significance",
+      "✅ Phase 3: JSON Generation (NodeId generation, auto-layout, reference handling)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:25+00:00",
+  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 abubakarsiddik31/claude-skills-collection 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "abubakarsiddik31/claude-skills-collection",
+    "note_en": "Superseded by thedivergentai/GD-Agentic-Skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 thedivergentai/GD-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "thedivergentai/GD-Agentic-Skills",
+    "challenger": "",
     "supersede": {
       "incumbent": "yyh211/claude-meta-skill",
-      "challenger": "abubakarsiddik31/claude-skills-collection",
+      "challenger": "thedivergentai/gd-agentic-skills",
       "incumbent_name": "YYH211/Claude-meta-skill",
-      "challenger_name": "abubakarsiddik31/claude-skills-collection",
-      "kind": "auto",
+      "challenger_name": "thedivergentai/GD-Agentic-Skills",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [
@@ -148,15 +154,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 3.865,
-      "momentum_ratio": 3.723,
-      "setup_delta": -12,
-      "dominance": 0.963,
+      "star_ratio": 2.851,
+      "momentum_ratio": 4.024,
+      "setup_delta": -37,
+      "dominance": 0.961,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.87x the stars (1,090 vs 282)",
-        "3.72x the star velocity (3.1/day vs 0.8/day)",
-        "no harder to set up (46 vs 58 friction)"
+        "2.85x the stars (804 vs 282)",
+        "4.02x the star velocity (3.3/day vs 0.8/day)",
+        "no harder to set up (21 vs 58 friction)"
       ],
       "evidence": {
         "incumbent_capabilities": [
@@ -167,21 +173,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "multi-agent-orchestration",
-          "notifications",
-          "skills-plugins",
-          "worktree-isolation"
+          "parallel-execution",
+          "skills-plugins"
         ],
         "incumbent_health": 42,
-        "challenger_health": 53,
+        "challenger_health": 56,
         "incumbent_setup_score": 58,
-        "challenger_setup_score": 46
+        "challenger_setup_score": 21
       }
     }
   }

@@ -4,7 +4,7 @@
 
 > aidevops.sh is an OpenCode plugin and AI DevOps framework for carrying work from intent to a verified outcome.
 
-[Repository](https://github.com/marcusquinn/aidevops) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/marcusquinn/aidevops) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

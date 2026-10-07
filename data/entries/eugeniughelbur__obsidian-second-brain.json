@@ -6,12 +6,6 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault. Stop re-explaining your projects, decisions and people every session. 45 commands: hybrid semantic search, self-rewriting notes, key-less web research, and scheduled agents that maintain the vault while you sleep.",
   "homepage": "https://theaioperator.io",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 4691,
   "forks": 580,
   "open_issues": 11,
@@ -46,13 +40,13 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 197,
-  "days_since_push": 5,
-  "health_score": 66,
+  "days_since_push": 6,
+  "health_score": 65,
   "health_components": {
     "popularity": 73.4,
     "momentum": 19.8,
     "maintenance": 100.0,
-    "documentation": 73.0,
+    "documentation": 65.0,
     "accessibility": 76.0
   },
   "tier": "recommended",
@@ -66,7 +60,7 @@
   },
   "analysis": {
     "full_name": "eugeniughelbur/obsidian-second-brain",
-    "readme_chars": 74474,
+    "readme_chars": 74134,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -140,10 +134,9 @@
       "note_en": "Easy. install via npx one-liner, curl | sh installer; needs git clone (build from source); configure API key configuration, config file; no-code positioning",
       "note_zh": "较易上手。可通过 npx one-liner、curl | sh installer 安装；需要 git clone (build from source)；需配置 API key configuration、config file；no-code positioning"
     },
-    "doc_score": 73,
+    "doc_score": 65,
     "doc_signals": [
       "contains code blocks",
-      "contains screenshots/diagrams",
       "has section headings",
       "documents installation",
       "documents configuration",
@@ -172,19 +165,29 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.349
-    }
+      "external_link_ratio": 0.337
+    },
+    "highlights": [
+      "Self-Improving Sovereign Agents — voices: @tom_doerr, @AIDailyGems"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:11+00:00",
+  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "categories": [
+    "mcp-failover",
+    "model-routing",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

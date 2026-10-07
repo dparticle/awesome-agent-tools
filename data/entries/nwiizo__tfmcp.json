@@ -6,12 +6,6 @@
   "url": "https://github.com/nwiizo/tfmcp",
   "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️",
   "homepage": "https://crates.io/crates/tfmcp",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 14.0,
   "stars": 373,
   "forks": 31,
   "open_issues": 0,
@@ -28,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 577,
-  "days_since_push": 4,
+  "age_days": 578,
+  "days_since_push": 5,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -41,7 +35,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 373,
-    "days_span": 577,
+    "days_span": 578,
     "stars_per_day": 0.65,
     "lifetime_stars_per_day": 0.65,
     "basis": "lifetime",
@@ -124,18 +118,87 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.068
-    }
+    },
+    "highlights": [
+      "MCPRATELIMITSESSION: Maximum HTTP requests per minute per Mcp-Session-Id (0 or unset disables). Clients negotiating 2026-07-28 send no session header, so only MCPRATELIMITGLOBAL bounds them.",
+      "MCPSESSIONMODE: stateful for normal MCP clients or stateless for CI-style JSON responses (default: stateful). Applies only to clients negotiating a protocol version before 2026-07-28; that…",
+      "RMCP 3.5.0, updated dependencies and images, with the Rust 1.88 MSRV retained",
+      "TRANSPORT_HOST: HTTP bind host for streamable HTTP mode (default: 127.0.0.1)."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:22+00:00",
+  "fetched_at": "2026-10-07T16:31:24+00:00",
+  "categories": [
+    "desktop-ui",
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "nwiizo/tfmcp",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "nwiizo/tfmcp",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "model-routing",
+        "security-isolation",
+        "skills-plugins"
+      ],
+      "star_ratio": 78.295,
+      "momentum_ratio": 200.585,
+      "setup_delta": -20,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "78.29x the stars (29,204 vs 373)",
+        "200.58x the star velocity (130.4/day vs 0.7/day)",
+        "no harder to set up (32 vs 52 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 88,
+        "incumbent_setup_score": 52,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

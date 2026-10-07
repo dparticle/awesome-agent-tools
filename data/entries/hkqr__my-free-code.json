@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "full_name": "hkqr/my-free-code",
+  "name": "my-free-code",
+  "owner": "hkqr",
+  "url": "https://github.com/hkqr/my-free-code",
+  "description": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support",
+  "homepage": "",
+  "stars": 623,
+  "forks": 191,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "claude-code",
+    "free-claude-api",
+    "multi-provider",
+    "multi-provider-llm"
+  ],
+  "created_at": "2026-08-27T17:59:23Z",
+  "updated_at": "2026-10-06T08:39:26Z",
+  "pushed_at": "2026-10-03T16:39:18Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 40,
+  "days_since_push": 3,
+  "health_score": 52,
+  "health_components": {
+    "popularity": 55.9,
+    "momentum": 13.0,
+    "maintenance": 100.0,
+    "documentation": 35.0,
+    "accessibility": 66.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 623,
+    "days_span": 40,
+    "stars_per_day": 15.57,
+    "lifetime_stars_per_day": 15.57,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "hkqr/my-free-code",
+    "readme_chars": 6950,
+    "capabilities": [
+      "model-routing",
+      "api-gateway",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "LM7, Ollama Cloud, LM Studio, llama.cpp and Ollama.",
+      "api-gateway": "oints directly to the Internet",
+      "agent-runtime": "",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "api-gateway": 1,
+      "agent-runtime": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "pip install -r requirements",
+        "create a Python venv"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via pip install; needs pip install -r requirements, create a Python venv",
+      "note_zh": "较易上手。可通过 pip install 安装；需要 pip install -r requirements、create a Python venv"
+    },
+    "doc_score": 35,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cline / Roo"
+    ],
+    "summary_en": "A multi-provider gateway for Claude Code and other coding agents.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    },
+    "highlights": [
+      "Claude tier routing: Fable / Opus / Sonnet / Haiku",
+      "reasoning/thinking metadata pass-through"
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by trailhq/Graft: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 trailhq/Graft 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "trailhq/Graft",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "hkqr/my-free-code",
+      "challenger": "trailhq/graft",
+      "incumbent_name": "hkqr/my-free-code",
+      "challenger_name": "trailhq/Graft",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "cross-agent-support",
+        "model-routing"
+      ],
+      "star_ratio": 15.506,
+      "momentum_ratio": 6.462,
+      "setup_delta": 3,
+      "dominance": 0.985,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "15.51x the stars (9,660 vs 623)",
+        "6.46x the star velocity (100.6/day vs 15.6/day)",
+        "slightly heavier setup (+3 friction, within tolerance)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "model-routing"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "skills-plugins"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 79,
+        "incumbent_setup_score": 34,
+        "challenger_setup_score": 37
+      }
+    }
+  }
+}

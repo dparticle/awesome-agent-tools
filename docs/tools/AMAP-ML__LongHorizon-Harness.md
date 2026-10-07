@@ -4,7 +4,7 @@
 
 > Give Claude Code, Codex, OpenCode, or DeepSeek Harness a goal once.
 
-[Repository](https://github.com/AMAP-ML/LongHorizon-Harness) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/AMAP-ML/LongHorizon-Harness) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 59/100 |
 | Documentation | 71/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-08-04 |
 | Last push | 2026-08-20 (48 days ago) |
 | Analyzed README | 32,381 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).
 
 ## What it solves
 

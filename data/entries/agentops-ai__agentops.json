@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "full_name": "AgentOps-AI/agentops",
+  "name": "agentops",
+  "owner": "AgentOps-AI",
+  "url": "https://github.com/AgentOps-AI/agentops",
+  "description": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI",
+  "homepage": "https://agentops.ai",
+  "stars": 5886,
+  "forks": 645,
+  "open_issues": 192,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "agentops",
+    "agents-sdk",
+    "ai",
+    "anthropic",
+    "autogen",
+    "cost-estimation",
+    "crewai",
+    "evals",
+    "evaluation-metrics",
+    "groq",
+    "langchain",
+    "llm",
+    "mistral",
+    "ollama",
+    "openai",
+    "openai-agents"
+  ],
+  "created_at": "2023-08-15T23:26:23Z",
+  "updated_at": "2026-10-07T10:52:11Z",
+  "pushed_at": "2026-06-25T08:25:03Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 1148,
+  "days_since_push": 104,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 75.4,
+    "momentum": 4.3,
+    "maintenance": 55.0,
+    "documentation": 53.0,
+    "accessibility": 81.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 5886,
+    "days_span": 1148,
+    "stars_per_day": 5.13,
+    "lifetime_stars_per_day": 5.13,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "AgentOps-AI/agentops",
+    "readme_chars": 30999,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "usage-analytics",
+      "self-hosted"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "All decorators support: - Input/Output Recording - Exception Handling - Async/await functions - Generator functions - Custom attributes and names ## Integrations 🦾 ### OpenAI Agents SDK 🖇️ Build multi-agent systems with…",
+      "usage-analytics": "",
+      "self-hosted": "n replays in 2 lines of code"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 4,
+      "usage-analytics": 1,
+      "self-hosted": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 31,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Easy. install via pip install; needs npm install/build; configure API key configuration",
+      "note_zh": "较易上手。可通过 pip install 安装；需要 npm install/build；需配置 API key configuration"
+    },
+    "doc_score": 53,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "mentions licensing",
+      "links to dedicated docs",
+      "publishes a roadmap",
+      "long, detailed README"
+    ],
+    "agents": [],
+    "summary_en": "AgentOps helps developers build, evaluate, and monitor AI agents.",
+    "summary_zh": "",
+    "install_hint": "pip install agentops",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 2.323
+    },
+    "highlights": [
+      "Comprehensive Observability: Track your AI agents' performance, user interactions, and API usage.",
+      "Cost Control: Monitor and manage your spend on LLM and API calls."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "categories": [
+    "analytics"
+  ],
+  "primary_category": "analytics",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -6,12 +6,6 @@
   "url": "https://github.com/kitfunso/hippo-memory",
   "description": "Stop re-teaching your agent. Make your agent's memory work like a brain. Hippo is long-term memory for coding agents. It's a critical layer for your AI harness that connects across your different tools (Cursor, Claude Code, Codex). It keeps your proprietary data completely local, and it actually learns over time.",
   "homepage": "https://hippo-memory.com",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 773,
   "forks": 45,
   "open_issues": 8,
@@ -181,18 +175,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.433
-    }
+    },
+    "highlights": [
+      "Decay tied with decay switched off. On hippo's synthetic lifecycle test, full@365 minus decay-off is -0.7 points [-1.4, 0.1] on currentR5, no measurable effect. That test runs 20 sessions,…",
+      "Sequential Learning Benchmark. benchmarks/sequential-learning/. 50 tasks, 10 buried traps. Measures whether agents learn from past mistakes, not just retrieve text. v0.11.0 informal magnitu…",
+      "Sleep lowered LongMemEval recall. The slept store loses 3.6 points of hit@5 [-5.8, -1.4] to the never-slept one under the audit's declared scorer, and no scorer there shows sleep helping re…",
+      "Outcome marks helped on the synthetic test. Plain BM25 plus the fast outcome nudge drops trap persistence from 71.9% to 0.0% (round 2). Round 1 found outcome feedback and retrieval strength…"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:17+00:00",
+  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mcp-failover",
+    "sessions-memory"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

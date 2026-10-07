@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "full_name": "zvec-ai/zvec-grep",
+  "name": "zvec-grep",
+  "owner": "zvec-ai",
+  "url": "https://github.com/zvec-ai/zvec-grep",
+  "description": "Local-first search across your workspace, built for humans and AI agents.",
+  "homepage": "",
+  "stars": 3966,
+  "forks": 232,
+  "open_issues": 70,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "bm25",
+    "cli",
+    "code-search",
+    "full-text-search",
+    "local-first",
+    "mcp",
+    "ripgrep",
+    "semantic-search",
+    "vector-search"
+  ],
+  "created_at": "2026-07-10T02:58:07Z",
+  "updated_at": "2026-10-07T11:58:24Z",
+  "pushed_at": "2026-10-04T15:17:24Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 89,
+  "days_since_push": 3,
+  "health_score": 64,
+  "health_components": {
+    "popularity": 72.0,
+    "momentum": 37.1,
+    "maintenance": 100.0,
+    "documentation": 51.0,
+    "accessibility": 57.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3966,
+    "days_span": 89,
+    "stars_per_day": 44.56,
+    "lifetime_stars_per_day": 44.56,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "zvec-ai/zvec-grep",
+    "readme_chars": 15707,
+    "capabilities": [
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mcp-support": "environment-variable default, update its startup",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "mcp-support": 1,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 43,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs npm install/build; configure environment variables, database dependency",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 environment variables、database dependency"
+    },
+    "doc_score": 51,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Qwen Code"
+    ],
+    "summary_en": "zg (zvec-grep), powered by zvec, unifies ripgrep, BM25, and vector search behind one local-first interface.",
+    "summary_zh": "",
+    "install_hint": "npm install -g @zvec/zvec-grep",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "has an index/catalogue section"
+      ],
+      "external_link_ratio": 0.446
+    },
+    "highlights": [
+      "It was carnivorous because it climbed the curtain toward a canary's cage"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:02+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

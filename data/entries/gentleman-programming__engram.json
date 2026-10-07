@@ -6,12 +6,6 @@
   "url": "https://github.com/Gentleman-Programming/engram",
   "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
   "homepage": "https://engram.gentlemanprogramming.com/",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 20.5,
   "stars": 7070,
   "forks": 728,
   "open_issues": 92,
@@ -118,18 +112,24 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.136
-    }
+    },
+    "highlights": []
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:10+00:00",
+  "fetched_at": "2026-10-07T16:31:12+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

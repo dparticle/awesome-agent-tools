@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "full_name": "google/artemis",
+  "name": "artemis",
+  "owner": "google",
+  "url": "https://github.com/google/artemis",
+  "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
+  "homepage": "",
+  "stars": 11084,
+  "forks": 1131,
+  "open_issues": 129,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "android",
+    "google",
+    "test-automation",
+    "testing"
+  ],
+  "created_at": "2026-08-13T17:59:37Z",
+  "updated_at": "2026-10-07T13:19:02Z",
+  "pushed_at": "2026-10-01T21:37:15Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 54,
+  "days_since_push": 5,
+  "health_score": 83,
+  "health_components": {
+    "popularity": 80.9,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 68.0,
+    "accessibility": 44.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 11084,
+    "days_span": 54,
+    "stars_per_day": 205.26,
+    "lifetime_stars_per_day": 205.26,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "google/artemis",
+    "readme_chars": 17747,
+    "capabilities": [
+      "auto-failover",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "mcp-support",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "mobile-access": "standard Python library into existing automated testing frameworks (e.g., pytest) or CI/CD pipelines with strongly typed Pydantic structured outputs and assertion support.",
+      "multi-agent-orchestration": "or notes, no pre-execution safety net, no checkpoint verification or final report, and no ADB shell.",
+      "mcp-support": "Let AI assistants and test suites use real phones like a human.",
+      "notifications": "",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "mobile-access": 1,
+      "multi-agent-orchestration": 1,
+      "mcp-support": 15,
+      "notifications": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 56,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Some setup. needs git clone (build from source); configure config.json/yaml/toml, sign-in required; one-click setup",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；需配置 config.json/yaml/toml、sign-in required；one-click setup"
+    },
+    "doc_score": 68,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "Cross-App Automation: Executes testing workflows and everyday tasks on Android from natural language instructions.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.282
+    },
+    "highlights": [
+      "AndroidWorld Results: 99%+ task completion on Google Research's AndroidWorld benchmark (100+ multi-step tasks).",
+      "Flash Execution: A reactive observe-and-act loop with asynchronous history summaries, typically 3–5s per step.",
+      "thirdparty/mobileuse – portions of mobile-use by Minitap, Inc., Apache License 2.0.",
+      "Cross-App Automation: Executes testing workflows and everyday tasks on Android from natural language instructions."
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "mobile",
+    "skills"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

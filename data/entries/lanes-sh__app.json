@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "full_name": "lanes-sh/app",
+  "name": "app",
+  "owner": "lanes-sh",
+  "url": "https://github.com/lanes-sh/app",
+  "description": "Run many CLI (Coding) Agents in parallel lanes: issues, worktrees, sessions, and loops on one board. The agentic development environment.",
+  "homepage": "https://lanes.sh",
+  "stars": 273,
+  "forks": 16,
+  "open_issues": 11,
+  "language": "",
+  "license": "",
+  "topics": [
+    "agentic-coding",
+    "agentic-development-environment",
+    "antigravity",
+    "antigravity-cli",
+    "claude-code",
+    "claude-code-cli",
+    "cli",
+    "codex",
+    "codex-cli",
+    "coding-agents",
+    "desktop",
+    "ide",
+    "opencode",
+    "opencode-cli",
+    "orchestration",
+    "terminal",
+    "vibe-coding"
+  ],
+  "created_at": "2026-03-22T21:18:28Z",
+  "updated_at": "2026-10-06T05:34:28Z",
+  "pushed_at": "2026-10-06T13:17:12Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 198,
+  "days_since_push": 1,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 48.7,
+    "momentum": 1.1,
+    "maintenance": 100.0,
+    "documentation": 36.0,
+    "accessibility": 88.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 273,
+    "days_span": 198,
+    "stars_per_day": 1.38,
+    "lifetime_stars_per_day": 1.38,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "lanes-sh/app",
+    "readme_chars": 7721,
+    "capabilities": [
+      "parallel-execution",
+      "worktree-isolation",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "parallel-execution": "",
+      "worktree-isolation": "Join the Discord for updates and questions.",
+      "skills-plugins": "that came out of it, you can stop prompting and start looping.",
+      "agent-runtime": "",
+      "mcp-support": "s Link is one endpoint you run: Gmail, GitHub, Linear, Notion, Slack and over a hundred others, plus your memory, tasks and skills, behind one set of permissions.",
+      "gui-desktop": "or fill one in on someone's behalf.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "parallel-execution": 1,
+      "worktree-isolation": 4,
+      "skills-plugins": 2,
+      "agent-runtime": 1,
+      "mcp-support": 7,
+      "gui-desktop": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 12,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "Homebrew install"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "OAuth login flow",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via npx one-liner, Homebrew install; configure OAuth login flow, database dependency; GUI application",
+      "note_zh": "开箱即用。可通过 npx one-liner、Homebrew install 安装；需配置 OAuth login flow、database dependency；GUI application"
+    },
+    "doc_score": 36,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "Five agents, eight terminal tabs.",
+    "summary_zh": "",
+    "install_hint": "brew install --cask lanes-sh/lanes/lanes && open -a Lanes",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "invites project submissions"
+      ],
+      "external_link_ratio": 3.108
+    },
+    "highlights": [
+      "The model provider you choose. Gateway points a session at Ollama, LM Studio, vLLM, OpenRouter or z.ai, applied as real process environment so the request goes straight from the CLI to your…",
+      "A git client, not just a diff. Commit, publish, switch branches, undo the last unpushed commit, and open a pull request from the issue panel.",
+      "Claude Code and Codex, first class. Lanes detects them, reads their state, resumes their sessions and lists their models. Anything else runs as a plain shell session.",
+      "GitHub and Linear over OAuth. Import a whole sprint onto the board, and push results back as comments."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:28+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-parallelism"
+  ],
+  "primary_category": "isolation-parallelism",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "lanes-sh/app",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "lanes-sh/app",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "parallel-execution",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 122.165,
+      "momentum_ratio": 56.732,
+      "setup_delta": -10,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "122.16x the stars (33,351 vs 273)",
+        "56.73x the star velocity (78.3/day vs 1.4/day)",
+        "no harder to set up (2 vs 12 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "parallel-execution",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 50,
+        "challenger_health": 81,
+        "incumbent_setup_score": 12,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

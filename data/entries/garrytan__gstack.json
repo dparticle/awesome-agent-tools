@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "full_name": "garrytan/gstack",
+  "name": "gstack",
+  "owner": "garrytan",
+  "url": "https://github.com/garrytan/gstack",
+  "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+  "homepage": "",
+  "stars": 135636,
+  "forks": 20129,
+  "open_issues": 444,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-03-11T21:22:45Z",
+  "updated_at": "2026-10-07T13:26:09Z",
+  "pushed_at": "2026-10-07T03:13:55Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 209,
+  "days_since_push": 0,
+  "health_score": 90,
+  "health_components": {
+    "popularity": 100.0,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 81.0,
+    "accessibility": 43.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 135636,
+    "days_span": 209,
+    "stars_per_day": 648.98,
+    "lifetime_stars_per_day": 648.98,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "garrytan/gstack",
+    "readme_chars": 79185,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "notifications",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "and /diagram always use gstack's bundled browser.",
+      "multi-agent-orchestration": "the cause and re-verify before committing.",
+      "parallel-execution": "etext patterns depending on whether it's a landing page, dashboard, form, or card layout.",
+      "worktree-isolation": "hand, and gstack-uninstall",
+      "model-routing": "deterministic aside repl scripts.",
+      "usage-analytics": "try flows through validated edge functions that enforce schema checks, event type allowlists, and field length limits.",
+      "session-persistence": "Browse my kid's school parent portal and add all the other parents' names, phone numbers, and photos to my Google Contacts.\" Two ways to get authenticated: (1) log in once in the headed browser, your session persists, o…",
+      "memory-context": "Come work at YC — ycombinator.com/software",
+      "skills-plugins": "single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack f…",
+      "agent-runtime": "ding speed and help harden gstack?",
+      "mcp-support": "n/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing, never use mcp\\\\claude-in-chro…",
+      "security-isolation": "st, verify the chain with gstack-egress verify (exit 3 on tamper), see the standing consent settings with gstack-egress grants.",
+      "notifications": "office-hours — describe what you're building",
+      "voice-input": "nk, plan, build, review, test, ship — each agent knows exactly what to do and when to stop.",
+      "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 1,
+      "parallel-execution": 1,
+      "worktree-isolation": 2,
+      "model-routing": 2,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "skills-plugins": 5,
+      "agent-runtime": 1,
+      "mcp-support": 4,
+      "security-isolation": 1,
+      "notifications": 1,
+      "voice-input": 1,
+      "cross-agent-support": 8
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 57,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "go build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "config.json/yaml/toml",
+        "sign-in required",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source), go build; configure API key configuration, config file; one-click setup",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)、go build；需配置 API key configuration、config file；one-click setup"
+    },
+    "doc_score": 81,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Droid"
+    ],
+    "summary_en": "When I heard Karpathy say this, I wanted to find out how.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.253
+    },
+    "highlights": [
+      "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token. Optionally pair with a local PGLite for sy…",
+      "Supabase, auto-provision — paste a Supabase Personal Access Token; the skill creates a new project, polls to healthy, fetches the pooler URL, hands it to gbrain init. ~90 seconds end-to-end.",
+      "read-only — agent can search but never writes (best for multi-client consultants: search the shared brain, don't contaminate it with Client A's work while in Client B's repo)",
+      "PGLite local — zero accounts, zero network, ~30 seconds. Isolated brain on this Mac only. Great for try-first; migrate to Supabase later with /setup-gbrain --switch."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:05+00:00",
+  "categories": [
+    "sessions-memory",
+    "skills",
+    "voice"
+  ],
+  "primary_category": "voice",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

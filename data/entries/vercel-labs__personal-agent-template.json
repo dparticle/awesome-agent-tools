@@ -6,12 +6,6 @@
   "url": "https://github.com/vercel-labs/personal-agent-template",
   "description": "Open-source template for a durable personal AI agent — web chat, Slack, Linear, and long-term memory with user-approved saves. Eve, Nuxt, Better Auth, Vercel Connect.",
   "homepage": "https://personal-agent-template.vercel.app",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 13.0,
   "stars": 474,
   "forks": 73,
   "open_issues": 3,
@@ -34,12 +28,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 117,
+  "age_days": 118,
   "days_since_push": 35,
   "health_score": 42,
   "health_components": {
     "popularity": 53.5,
-    "momentum": 3.4,
+    "momentum": 3.3,
     "maintenance": 78.0,
     "documentation": 50.0,
     "accessibility": 22.0
@@ -47,9 +41,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 474,
-    "days_span": 117,
-    "stars_per_day": 4.05,
-    "lifetime_stars_per_day": 4.05,
+    "days_span": 118,
+    "stars_per_day": 4.02,
+    "lifetime_stars_per_day": 4.02,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -122,74 +116,27 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 1.984
-    }
+    },
+    "highlights": [
+      "Internal API: Agent reads Slack and phone links via authenticated Nitro routes"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "mcp-failover",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "supersede": {
-      "incumbent": "vercel-labs/personal-agent-template",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "vercel-labs/personal-agent-template",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "gui-desktop",
-        "mcp-support",
-        "memory-context",
-        "notifications",
-        "self-hosted"
-      ],
-      "star_ratio": 61.612,
-      "momentum_ratio": 32.193,
-      "setup_delta": -46,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "61.61x the stars (29,204 vs 474)",
-        "32.19x the star velocity (130.4/day vs 4.0/day)",
-        "no harder to set up (32 vs 78 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "notifications",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 42,
-        "challenger_health": 88,
-        "incumbent_setup_score": 78,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

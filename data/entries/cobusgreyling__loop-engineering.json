@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "full_name": "cobusgreyling/loop-engineering",
+  "name": "loop-engineering",
+  "owner": "cobusgreyling",
+  "url": "https://github.com/cobusgreyling/loop-engineering",
+  "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+  "homepage": "https://cobusgreyling.github.io/loop-engineering/",
+  "stars": 11435,
+  "forks": 1533,
+  "open_issues": 21,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agentic-ai",
+    "ai-agents",
+    "ai-coding",
+    "anthropic",
+    "automation",
+    "claude",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "devops-automation",
+    "devtools",
+    "github-actions",
+    "grok",
+    "llm",
+    "loop-engineering",
+    "mcp",
+    "prompt-engineering"
+  ],
+  "created_at": "2026-06-09T06:28:20Z",
+  "updated_at": "2026-10-07T10:35:19Z",
+  "pushed_at": "2026-10-07T08:02:16Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 120,
+  "days_since_push": 0,
+  "health_score": 79,
+  "health_components": {
+    "popularity": 81.2,
+    "momentum": 79.4,
+    "maintenance": 100.0,
+    "documentation": 36.0,
+    "accessibility": 96.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 11435,
+    "days_span": 120,
+    "stars_per_day": 95.29,
+    "lifetime_stars_per_day": 95.29,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "cobusgreyling/loop-engineering",
+    "readme_chars": 7057,
+    "capabilities": [
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 16,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Turnkey. install via npx one-liner",
+      "note_zh": "开箱即用。可通过 npx one-liner 安装"
+    },
+    "doc_score": 36,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "npx @cobusgreyling/loop init .",
+    "summary_zh": "",
+    "install_hint": "npx @cobusgreyling/loop init . --pattern daily-triage --tool claude",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links",
+        "invites project submissions"
+      ],
+      "external_link_ratio": 1.984
+    },
+    "highlights": [
+      "Lulla et al. 2026 — Building Blocks, Adoption, and Impact (this repo is the community reference they reviewed)"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

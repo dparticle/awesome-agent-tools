@@ -6,12 +6,6 @@
   "url": "https://github.com/ruvnet/metaharness",
   "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
   "homepage": "https://Cognitum.One",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "cross-agent-support"
-  ],
-  "category_score": 14.0,
   "stars": 688,
   "forks": 87,
   "open_issues": 140,
@@ -150,18 +144,89 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 1.466
-    }
+    },
+    "highlights": [
+      "Run an experimental ARC-AGI-3 harness from the ChatGPT UI.",
+      "a CI-passed aggregator; single-command releases (`node scripts/release.mjs",
+      "Run your harness on Prime Agent — and borrow its best ideas. The 10th host",
+      "ruflo — the meta-harness this generator factors apart"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "mcp-failover",
+    "model-routing",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "ruvnet/metaharness",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "ruvnet/metaharness",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "model-routing",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 399.14,
+      "momentum_ratio": 175.271,
+      "setup_delta": -1,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "399.14x the stars (274,608 vs 688)",
+        "175.27x the star velocity (1048.1/day vs 6.0/day)",
+        "no harder to set up (57 vs 58 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 89,
+        "incumbent_setup_score": 58,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

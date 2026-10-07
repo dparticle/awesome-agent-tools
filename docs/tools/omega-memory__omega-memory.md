@@ -4,7 +4,7 @@
 
 > Cross-model memory for AI agents.
 
-[Repository](https://github.com/omega-memory/omega-memory) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/omega-memory/omega-memory) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "full_name": "CopilotKit/OpenBot",
+  "name": "OpenBot",
+  "owner": "CopilotKit",
+  "url": "https://github.com/CopilotKit/OpenBot",
+  "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+  "homepage": "https://www.copilotkit.ai/openbot",
+  "stars": 6152,
+  "forks": 831,
+  "open_issues": 20,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ag-ui",
+    "agent-governance",
+    "ai-agents",
+    "browser-automation",
+    "copilotkit",
+    "generative-ui",
+    "mcp"
+  ],
+  "created_at": "2026-08-17T00:44:59Z",
+  "updated_at": "2026-10-07T12:41:04Z",
+  "pushed_at": "2026-10-07T12:36:18Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 51,
+  "days_since_push": 0,
+  "health_score": 83,
+  "health_components": {
+    "popularity": 75.8,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 73.0,
+    "accessibility": 51.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 6152,
+    "days_span": 51,
+    "stars_per_day": 120.63,
+    "lifetime_stars_per_day": 120.63,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "CopilotKit/OpenBot",
+    "readme_chars": 32405,
+    "capabilities": [
+      "auto-failover",
+      "mobile-access",
+      "model-routing",
+      "session-persistence",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted"
+    ],
+    "capability_evidence": {
+      "auto-failover": "somewhere else: a gateway, a proxy.",
+      "mobile-access": "",
+      "model-routing": "verything is on 3001 here, the app included, rather than the 3010 the clone uses.",
+      "session-persistence": "",
+      "mcp-support": "rouping customer feedback into themes it can cite.",
+      "security-isolation": "who gets in**: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.",
+      "self-hosted": "untime key, creates or reuses its"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "mobile-access": 1,
+      "model-routing": 1,
+      "session-persistence": 1,
+      "mcp-support": 3,
+      "security-isolation": 2,
+      "self-hosted": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 49,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "docker run"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database dependency",
+        "server/reverse-proxy setup",
+        "process manager"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner; needs docker run; configure sign-in required, database dependency",
+      "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 docker run；需配置 sign-in required、database dependency"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [],
+    "summary_en": "The AI assistant your company can actually own.",
+    "summary_zh": "",
+    "install_hint": "npx --yes copilotkit@latest login",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.463
+    },
+    "highlights": [
+      "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port. The supervisor binds there too, because it ho…",
+      "Routines: ask a Bot to do something on a schedule and it does, running as you, in the channel you asked in. A 15-minute floor and a cap of 20 enabled routines keep a sentence from schedulin…",
+      "Credentials encrypted at rest: stored through /admin/credentials, never returned by an API, and redacted from audit events.",
+      "Durable threads and memory: conversations survive restarts through CopilotKit Intelligence, and each deployment stamps the threads it owns."
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "categories": [
+    "mcp-failover",
+    "voice"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

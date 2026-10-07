@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "full_name": "zhinkgit/embeddedskills",
+  "name": "embeddedskills",
+  "owner": "zhinkgit",
+  "url": "https://github.com/zhinkgit/embeddedskills",
+  "description": "An open-source collection of embedded development and debugging skills for Claude Code, Copilot, TRAE, and other AI coding assistants that support the Skill protocol. Once installed, the AI assistant can directly operate compilers, debuggers, and communication buses, automating the full workflow from code generation to hardware verification.",
+  "homepage": "",
+  "stars": 731,
+  "forks": 94,
+  "open_issues": 0,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai-coding-assistant",
+    "automation",
+    "can-bus",
+    "can-fd",
+    "debugging",
+    "devtools",
+    "embedded",
+    "embedded-development",
+    "firmware",
+    "gcc",
+    "gdb",
+    "hardware-verification",
+    "jlink",
+    "keil",
+    "openocd",
+    "serial",
+    "skill-protocol",
+    "toolchain",
+    "workflow"
+  ],
+  "created_at": "2026-04-10T09:27:48Z",
+  "updated_at": "2026-10-05T13:41:17Z",
+  "pushed_at": "2026-09-03T05:51:15Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 180,
+  "days_since_push": 34,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 57.3,
+    "momentum": 3.4,
+    "maintenance": 78.0,
+    "documentation": 49.0,
+    "accessibility": 82.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 731,
+    "days_span": 180,
+    "stars_per_day": 4.06,
+    "lifetime_stars_per_day": 4.06,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "zhinkgit/embeddedskills",
+    "readme_chars": 7869,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "agent-runtime": "",
+      "gui-desktop": "be-rs 可自由正交组合，六种搭配均可开箱即用。",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "agent-runtime": 1,
+      "gui-desktop": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 18,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "cmake build"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [
+        "Chinese: beginner/one-click framing"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via npx one-liner, native installer / package; needs git clone (build from source), cmake build; Chinese: beginner/one-click framing",
+      "note_zh": "开箱即用。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、cmake build；Chinese: beginner/one-click framing"
+    },
+    "doc_score": 49,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "让 AI 编码助手直接操控编译器、调试器和通信总线，实现从代码生成到硬件验证的完整闭环。",
+    "summary_zh": "",
+    "install_hint": "npx skills add https://github.com/zhinkgit/embeddedskills -g -y",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.271
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

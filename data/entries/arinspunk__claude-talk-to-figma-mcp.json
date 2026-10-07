@@ -6,12 +6,6 @@
   "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp",
   "description": "A Model Context Protocol (MCP) that allows Claude Desktop and other AI tools (Claude Code, Cursor, Antigravity, etc.) to read, analyze, and modify Figma designs",
   "homepage": "",
-  "category": "interop-mcp",
-  "also_in": [],
-  "matched_capabilities": [
-    "mcp-support"
-  ],
-  "category_score": 15.5,
   "stars": 666,
   "forks": 131,
   "open_issues": 8,
@@ -36,7 +30,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 550,
-  "days_since_push": 171,
+  "days_since_push": 172,
   "health_score": 48,
   "health_components": {
     "popularity": 56.5,
@@ -124,18 +118,29 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 3.278
-    }
+    },
+    "highlights": [
+      "Get document information, current selection, styles",
+      "Auto-layout, advanced typography",
+      "Start the socket: In the terminal, enter the project folder your-project/claude-talk-to-figma-mcp and run bun run socket (or npm run socket).",
+      "Scan text, audit components, export assets"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "fetched_at": "2026-10-07T16:31:20+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -6,13 +6,6 @@
   "url": "https://github.com/RealZST/HarnessKit",
   "description": "More than a skill manager — manage skills, MCP servers, plugins, hooks, CLIs, configs, memory & rules across every AI coding agent. 🌟 Star if you like it!",
   "homepage": "",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support"
-  ],
-  "category_score": 26.0,
   "stars": 451,
   "forks": 46,
   "open_issues": 10,
@@ -34,7 +27,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 193,
+  "age_days": 194,
   "days_since_push": 3,
   "health_score": 57,
   "health_components": {
@@ -47,9 +40,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 451,
-    "days_span": 193,
-    "stars_per_day": 2.34,
-    "lifetime_stars_per_day": 2.34,
+    "days_span": 194,
+    "stars_per_day": 2.32,
+    "lifetime_stars_per_day": 2.32,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -142,73 +135,29 @@
         "invites project submissions"
       ],
       "external_link_ratio": 0.271
-    }
+    },
+    "highlights": [
+      "Cross-agent deployment — See which agents have the extension and which don't — deploy to any missing agent with one click. HarnessKit handles the format differences between agents (JSON, TO…",
+      "Portable bundles — Export any Kit as a self-contained .hk-kit.zip to share with teammates or carry across machines. Import is one click.",
+      "Agent-first CLI — Discover CLI tools built specifically for agents — the newest frontier of the agent extension ecosystem.",
+      "Effortless management — Enable or disable right from the list. Check for updates across all extensions with one click."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "iOfficeAI/AionUi",
-    "supersede": {
-      "incumbent": "realzst/harnesskit",
-      "challenger": "iofficeai/aionui",
-      "incumbent_name": "RealZST/HarnessKit",
-      "challenger_name": "iOfficeAI/AionUi",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "worktree-isolation"
-      ],
-      "star_ratio": 73.949,
-      "momentum_ratio": 33.457,
-      "setup_delta": 0,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "73.95x the stars (33,351 vs 451)",
-        "33.46x the star velocity (78.3/day vs 2.3/day)",
-        "no harder to set up (2 vs 2 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 57,
-        "challenger_health": 81,
-        "incumbent_setup_score": 2,
-        "challenger_setup_score": 2
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

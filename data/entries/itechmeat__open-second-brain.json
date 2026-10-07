@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "full_name": "itechmeat/open-second-brain",
+  "name": "open-second-brain",
+  "owner": "itechmeat",
+  "url": "https://github.com/itechmeat/open-second-brain",
+  "description": "Local-first 🧠 memory for Hermes Agent that lives in your Obsidian vault and remembers project context. Nightly 😴 dream passes turn repeat corrections into confirmed preferences with measurable confidence. Adapters ship for Claude Code, Codex, and OpenClaw, with an MCP server for anything else.",
+  "homepage": "https://dark-factory.techmeat.dev",
+  "stars": 430,
+  "forks": 49,
+  "open_issues": 3,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-05-06T07:40:41Z",
+  "updated_at": "2026-10-07T12:03:48Z",
+  "pushed_at": "2026-10-07T12:38:01Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 154,
+  "days_since_push": 0,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 52.7,
+    "momentum": 2.3,
+    "maintenance": 100.0,
+    "documentation": 51.0,
+    "accessibility": 64.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 430,
+    "days_span": 154,
+    "stars_per_day": 2.79,
+    "lifetime_stars_per_day": 2.79,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "itechmeat/open-second-brain",
+    "readme_chars": 9285,
+    "capabilities": [
+      "memory-context",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "memory-context": "",
+      "mcp-support": "inistic dream pass turns repeated signals into rules and retires the ones nothing uses; no model runs inside that algorithm.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "memory-context": 1,
+      "mcp-support": 5,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 36,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. configure database dependency",
+      "note_zh": "较易上手。需配置 database dependency"
+    },
+    "doc_score": 51,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider"
+    ],
+    "summary_en": "Open Second Brain is a memory layer for AI agents that lives in an Obsidian vault.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.323
+    },
+    "highlights": [
+      "MCP surface. Tools, tool profiles for hosts with tool limits, and the always-loaded writer server: docs/mcp.md.",
+      "Sharing and backup. Knowledge packs export a chosen subset; o2b brain bank-export writes a one-file backup bundle: knowledge packs.",
+      "Today view and note markers. o2b brain today, @osb loop and @osb set markers: Brain CLI.",
+      "Hygiene. o2b brain hygiene scan finds contested, duplicate, stale and unused memories; apply runs only the findings you pick: maintenance."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "full_name": "XiaomiMiMo/MiMo-Code",
+  "name": "MiMo-Code",
+  "owner": "XiaomiMiMo",
+  "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+  "description": "MiMo Code: Where Models and Agents Co-Evolve",
+  "homepage": "https://mimo.xiaomi.com/mimocode",
+  "stars": 13603,
+  "forks": 1421,
+  "open_issues": 1125,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "ai-agents",
+    "cli",
+    "mimo",
+    "mimo-code"
+  ],
+  "created_at": "2026-06-10T11:52:41Z",
+  "updated_at": "2026-10-07T13:29:32Z",
+  "pushed_at": "2026-10-03T11:46:21Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 119,
+  "days_since_push": 4,
+  "health_score": 84,
+  "health_components": {
+    "popularity": 82.7,
+    "momentum": 95.3,
+    "maintenance": 100.0,
+    "documentation": 63.0,
+    "accessibility": 70.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 13603,
+    "days_span": 119,
+    "stars_per_day": 114.31,
+    "lifetime_stars_per_day": 114.31,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "XiaomiMiMo/MiMo-Code",
+    "readme_chars": 28666,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "emory (MEMORY.md) — persistent project knowledge, rules, and architecture decisions",
+      "parallel-execution": "terminal-native intelligence to desktop workflows.",
+      "worktree-isolation": "",
+      "model-routing": "o/Plus) — OpenAI OAuth login",
+      "api-gateway": "separates the provider ID from the model ID.",
+      "session-persistence": "omatically by the checkpoint-writer subagent",
+      "memory-context": "e: Where Models and Agents Co-Evolve",
+      "skills-plugins": "ble/Sol-class), which internalize most of the workflow and work best from one compact contract.",
+      "mcp-support": "multi-select dialog that persists the setting to config without hand-editing.",
+      "security-isolation": "led via experimental.maxMode in the config.",
+      "self-hosted": "trol mode (mimo-v2.5) is available on OpenRouter and compatible relay platforms.",
+      "gui-desktop": "Xiaomi MiMo Desktop is built for real-world work: one conversation can handle office work, design, coding, and multimodal creation, while multiple conversations can divide work and collaborate.",
+      "voice-input": "agent's available skill list entirely — they will not appear in context and cannot be invoked.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 7,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "model-routing": 4,
+      "api-gateway": 3,
+      "session-persistence": 2,
+      "memory-context": 7,
+      "skills-plugins": 2,
+      "mcp-support": 2,
+      "security-isolation": 2,
+      "self-hosted": 1,
+      "gui-desktop": 1,
+      "voice-input": 6,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via Homebrew install, curl | sh installer; needs npm install/build; configure environment variables, API key configuration; GUI application",
+      "note_zh": "较易上手。可通过 Homebrew install、curl | sh installer 安装；需要 npm install/build；需配置 environment variables、API key configuration；GUI application"
+    },
+    "doc_score": 63,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "MiMoCode is a terminal-native AI coding assistant.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://mimo.xiaomi.com/install | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.14
+    },
+    "highlights": [
+      "Cost tiers. OpenAI prices GPT-5.6 prompts above 272K input at 2x input and 1.5x output",
+      "Controlled long-task cost: routes between standard and flagship models, edits only the required regions, and supports up to 99% same-session and 95% cross-session cache hit rates.",
+      "@ai-sdk/openai-compatible is for OpenAI-compatible APIs. Services using a different wire protocol require their provider-specific adapter.",
+      "Budgeted injection — uses a token budget to control how much checkpoint, memory, and notes content enters context, with importance ranking"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "mcp-failover",
+    "voice"
+  ],
+  "primary_category": "voice",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

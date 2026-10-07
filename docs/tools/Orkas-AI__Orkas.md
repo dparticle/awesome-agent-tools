@@ -4,7 +4,7 @@
 
 > Command a team of AI agents from one desktop chat — not one chatbot.
 
-[Repository](https://github.com/Orkas-AI/Orkas) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/Orkas-AI/Orkas) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

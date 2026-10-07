@@ -6,13 +6,6 @@
   "url": "https://github.com/neiii/bridle",
   "description": "TUI / CLI config manager for agentic harnesses (Amp, Claude Code, Opencode, Goose, Copilot CLI, Crush, Droid)",
   "homepage": "",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "cross-agent-support",
-    "skills-plugins"
-  ],
-  "category_score": 20.0,
   "stars": 440,
   "forks": 20,
   "open_issues": 20,
@@ -125,67 +118,26 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.579
-    }
+    },
+    "highlights": [
+      "Thank you Kai for the help on GitHub Copilot CLI integration"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:20+00:00",
+  "fetched_at": "2026-10-07T16:31:22+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (3/3).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (3/3)。",
-    "superseded_by": "iOfficeAI/AionUi",
-    "supersede": {
-      "incumbent": "neiii/bridle",
-      "challenger": "iofficeai/aionui",
-      "incumbent_name": "neiii/bridle",
-      "challenger_name": "iOfficeAI/AionUi",
-      "kind": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "skills-plugins"
-      ],
-      "star_ratio": 75.798,
-      "momentum_ratio": 50.51,
-      "setup_delta": -20,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (3/3)",
-        "75.80x the stars (33,351 vs 440)",
-        "50.51x the star velocity (78.3/day vs 1.6/day)",
-        "no harder to set up (2 vs 22 friction)"
-      ],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 48,
-        "challenger_health": 81,
-        "incumbent_setup_score": 22,
-        "challenger_setup_score": 2
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

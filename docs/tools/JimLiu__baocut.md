@@ -4,7 +4,7 @@
 
 > Give your AI coding agent the power to drive BaoCut — transcribe, add and translate subtitles, review speakers, edit timelines and overlays, and export — all from natural language.
 
-[Repository](https://github.com/JimLiu/baocut) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/JimLiu/baocut) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 45/100 |
 | Documentation | 26/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-07-13 |
-| Last push | 2026-08-30 (37 days ago) |
+| Last push | 2026-08-30 (38 days ago) |
 | Analyzed README | 2,926 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (3/3).
 
 ## What it solves
 

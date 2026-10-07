@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "full_name": "miuuyy/codex-chatgpt-web",
+  "name": "codex-chatgpt-web",
+  "owner": "miuuyy",
+  "url": "https://github.com/miuuyy/codex-chatgpt-web",
+  "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
+  "homepage": "",
+  "stars": 13629,
+  "forks": 1070,
+  "open_issues": 20,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "chatgpt",
+    "chatgpt-pro",
+    "codex",
+    "free-ai",
+    "mcp",
+    "openai",
+    "playwright",
+    "quickstart",
+    "responses-api",
+    "typescript"
+  ],
+  "created_at": "2026-07-26T13:04:44Z",
+  "updated_at": "2026-10-07T13:23:38Z",
+  "pushed_at": "2026-10-07T07:25:28Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 73,
+  "days_since_push": 0,
+  "health_score": 84,
+  "health_components": {
+    "popularity": 82.7,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 45.0,
+    "accessibility": 81.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 13629,
+    "days_span": 73,
+    "stars_per_day": 186.7,
+    "lifetime_stars_per_day": 186.7,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "miuuyy/codex-chatgpt-web",
+    "readme_chars": 10970,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "mcp-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "veloper mode and MCP apps.",
+      "mcp-support": "thout spending your Work or Codex quota."
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "mcp-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 19,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source); configure API key configuration, sign-in required",
+      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)；需配置 API key configuration、sign-in required"
+    },
+    "doc_score": 45,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "explains architecture"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "Use the ChatGPT Web models available on your account, including Pro, from Codex’s native model picker—with ChatGPT Web’s separate usage limits, without spending your Work or Codex quota.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://github.com/miuuyy/codex-chatgpt-web/releases/latest/download/install-launcher.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.638
+    },
+    "highlights": [
+      "Run Verify runtime to confirm that Codex Native2 is attached and available.",
+      "Finish the required setup, open MCP, create the Tunnel and regular API key, then press"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:30:59+00:00",
+  "categories": [
+    "mcp-failover"
+  ],
+  "primary_category": "mcp-failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -4,7 +4,7 @@
 
 > 为 Sub2API 增加 账号级 STATE 票据管理，尝试应对最近 ChatGPT / Codex 账号的模型降质和降并发：请求的模型被路由到其他模型，或 OpenAI 上游限制账号可同时处理的请求数量。
 
-[Repository](https://github.com/wangyunjeff/sub2api-state-kit) · [Back to index](../../README.md) · Category: **sharing-gateway**
+[Repository](https://github.com/wangyunjeff/sub2api-state-kit) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 214 |
-| Star velocity | 11.9/day (lifetime basis, 18d span) |
+| Star velocity | 11.3/day (lifetime basis, 19d span) |
 | Health score | 48/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
@@ -81,7 +81,7 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 46.6 |
-| momentum | 9.9 |
+| momentum | 9.4 |
 | maintenance | 92.0 |
 | documentation | 51.0 |
 | accessibility | 49.0 |

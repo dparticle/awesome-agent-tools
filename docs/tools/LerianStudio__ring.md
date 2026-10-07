@@ -4,7 +4,7 @@
 
 > Proven engineering practices, enforced through skills.
 
-[Repository](https://github.com/LerianStudio/ring) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/LerianStudio/ring) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -24,7 +24,7 @@
 | Last push | 2026-09-18 (18 days ago) |
 | Analyzed README | 34,653 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [redhat-et/ripwire](https://github.com/redhat-et/ripwire)** — Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).
 
 ## What it solves
 

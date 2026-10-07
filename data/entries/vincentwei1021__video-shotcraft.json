@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "full_name": "Vincentwei1021/video-shotcraft",
+  "name": "video-shotcraft",
+  "owner": "Vincentwei1021",
+  "url": "https://github.com/Vincentwei1021/video-shotcraft",
+  "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+  "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
+  "stars": 10576,
+  "forks": 940,
+  "open_issues": 6,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-video",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "motion-design",
+    "motion-graphics",
+    "product-video",
+    "promo-video",
+    "remotion",
+    "video-generation",
+    "video-production"
+  ],
+  "created_at": "2026-07-19T11:44:41Z",
+  "updated_at": "2026-10-07T13:27:14Z",
+  "pushed_at": "2026-10-05T09:12:26Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 80,
+  "days_since_push": 2,
+  "health_score": 85,
+  "health_components": {
+    "popularity": 80.5,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 50.0,
+    "accessibility": 90.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 10576,
+    "days_span": 80,
+    "stars_per_day": 132.2,
+    "lifetime_stars_per_day": 132.2,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Vincentwei1021/video-shotcraft",
+    "readme_chars": 15569,
+    "capabilities": [
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "",
+      "agent-runtime": "communities whose published principles (e.g.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 18,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via npx one-liner; needs git clone (build from source); one-click setup",
+      "note_zh": "开箱即用。可通过 npx one-liner 安装；需要 git clone (build from source)；one-click setup"
+    },
+    "doc_score": 50,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "mentions licensing",
+      "reports benchmarks"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "An agent skill for crafting cinematic product videos: 157 shot recipe cards · 214 styles · 214 motion previews · a production-ready template",
+    "summary_zh": "",
+    "install_hint": "npx skills add Vincentwei1021/video-shotcraft",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.156
+    },
+    "highlights": [
+      "🌟 2026-08 · 48 new shot recipe cards — the library grows from 104 to",
+      "🎞️ 2026-08 · JianYing (CapCut CN) project export — after final delivery"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:00+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

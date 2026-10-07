@@ -6,12 +6,6 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 10.0,
   "stars": 544,
   "forks": 66,
   "open_issues": 0,
@@ -117,26 +111,37 @@
         "link-directory table of contents"
       ],
       "external_link_ratio": 0.11
-    }
+    },
+    "highlights": [
+      "Execute the work — phase-by-phase with approval gates (Incremental), parallel units with information barriers and holdout scenarios (Factory), or lightweight 1–3 unit orchestration (Direct)",
+      "At startup — Only skill names and descriptions are loaded (~100 tokens each)"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:18+00:00",
+  "fetched_at": "2026-10-07T16:31:21+00:00",
+  "categories": [
+    "isolation-parallelism",
+    "skills"
+  ],
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "OthmanAdi/planning-with-files",
+    "note_en": "Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 EverMind-AI/Raven 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "EverMind-AI/Raven",
+    "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "othmanadi/planning-with-files",
+      "challenger": "evermind-ai/raven",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "OthmanAdi/planning-with-files",
-      "kind": "auto",
-      "confidence": "medium",
+      "challenger_name": "EverMind-AI/Raven",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "memory-context",
@@ -144,15 +149,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 50.217,
-      "momentum_ratio": 76.45,
-      "setup_delta": 2,
-      "dominance": 0.99,
+      "star_ratio": 9.664,
+      "momentum_ratio": 29.318,
+      "setup_delta": -12,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "50.22x the stars (27,318 vs 544)",
-        "76.45x the star velocity (98.6/day vs 1.3/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "9.66x the stars (5,257 vs 544)",
+        "29.32x the star velocity (37.8/day vs 1.3/day)",
+        "no harder to set up (13 vs 25 friction)"
       ],
       "evidence": {
         "incumbent_capabilities": [
@@ -162,19 +167,20 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
+          "gui-desktop",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
-          "security-isolation",
-          "skills-plugins",
-          "worktree-isolation"
+          "self-hosted",
+          "skills-plugins"
         ],
         "incumbent_health": 48,
-        "challenger_health": 85,
+        "challenger_health": 70,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 27
+        "challenger_setup_score": 13
       }
     }
   }

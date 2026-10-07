@@ -4,7 +4,7 @@
 
 > The best source for Power BI AI skills and agentic development resources in one marketplace
 
-[Repository](https://github.com/data-goblin/power-bi-agentic-development) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/data-goblin/power-bi-agentic-development) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

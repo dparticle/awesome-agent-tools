@@ -4,7 +4,7 @@
 
 > DeepAgent Code is an AI coding workspace for work that lasts longer than one prompt.
 
-[Repository](https://github.com/deepagent-ltd/deepagent-code) · [Back to index](../../README.md) · Category: **memory-context**
+[Repository](https://github.com/deepagent-ltd/deepagent-code) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

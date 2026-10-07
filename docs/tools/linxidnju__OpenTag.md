@@ -4,7 +4,7 @@
 
 > Tag local AI agents into Slack threads, with local execution, visible progress, approvals, audit trails, and pluggable agent runtimes.
 
-[Repository](https://github.com/linxidnju/OpenTag) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/linxidnju/OpenTag) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 47/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-27 |
 | Last push | 2026-07-10 (89 days ago) |
 | Analyzed README | 7,017 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 

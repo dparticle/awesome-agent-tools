@@ -6,12 +6,6 @@
   "url": "https://github.com/LycheeMem/LycheeMem",
   "description": "Lightweight Long-Term Memory for LLM Agents.",
   "homepage": "https://lycheemem.github.io",
-  "category": "memory-context",
-  "also_in": [],
-  "matched_capabilities": [
-    "memory-context"
-  ],
-  "category_score": 17.0,
   "stars": 1096,
   "forks": 18,
   "open_issues": 2,
@@ -40,7 +34,7 @@
   "is_fork": false,
   "default_branch": "master",
   "age_days": 198,
-  "days_since_push": 61,
+  "days_since_push": 62,
   "health_score": 50,
   "health_components": {
     "popularity": 60.8,
@@ -140,18 +134,31 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.329
-    }
+    },
+    "highlights": [
+      "GET /mcp exposes the SSE stream used by some MCP clients",
+      "Clustering — ANN search builds a similarity graph (cosine > 0.75) over surviving records. Union-Find finds connected components; each component containing at least one new record becomes a…",
+      "Deduplication — For each new record, ANN search finds existing records of the same memory_type with cosine similarity > 0.85. Near-duplicates are soft-expired; composites covering affected…",
+      "LycheeDecode (ICLR 2026, CCF-A): selective recall from massive KV-cache context memory"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:15+00:00",
+  "fetched_at": "2026-10-07T16:31:16+00:00",
+  "categories": [
+    "billing",
+    "model-routing",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

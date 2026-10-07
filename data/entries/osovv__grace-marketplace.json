@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "full_name": "osovv/grace-marketplace",
+  "name": "grace-marketplace",
+  "owner": "osovv",
+  "url": "https://github.com/osovv/grace-marketplace",
+  "description": " GRACE (Graph-RAG Anchored Code Engineering): open Agent Skills for contract-driven AI code generation with semantic markup, knowledge graphs, and support for Claude   Code, Codex CLI, and Kilo Code.",
+  "homepage": "",
+  "stars": 252,
+  "forks": 55,
+  "open_issues": 10,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-code-generation",
+    "ai-engineering",
+    "autonomous-agents",
+    "claude-code",
+    "codex-cli",
+    "contract-driven-development",
+    "developer-tools",
+    "grace",
+    "graph-rag",
+    "kilo-code",
+    "knowledge-graph",
+    "llm-agents",
+    "semantic-markup"
+  ],
+  "created_at": "2026-02-17T10:10:30Z",
+  "updated_at": "2026-10-07T03:52:50Z",
+  "pushed_at": "2026-09-24T06:54:46Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 232,
+  "days_since_push": 13,
+  "health_score": 44,
+  "health_components": {
+    "popularity": 48.0,
+    "momentum": 0.9,
+    "maintenance": 92.0,
+    "documentation": 44.0,
+    "accessibility": 43.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 252,
+    "days_span": 232,
+    "stars_per_day": 1.09,
+    "lifetime_stars_per_day": 1.09,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "osovv/grace-marketplace",
+    "readme_chars": 17146,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "memory-context",
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "such as tests, typecheck, build, format, or package checks.",
+      "memory-context": "GRACE means Graph-RAG Anchored Code Engineering: a contract-first AI engineering methodology built around semantic markup, .grace XML artifacts, knowledge-graph navigation, assertions, scopes, and log-driven verificatio…",
+      "skills-plugins": ""
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "memory-context": 1,
+      "skills-plugins": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 57,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Some setup. needs git clone (build from source); configure database migration",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；需配置 database migration"
+    },
+    "doc_score": 44,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "GRACE means Graph-RAG Anchored Code Engineering: a contract-first AI engineering methodology built around semantic markup, .grace XML artifacts, knowledge-graph navigation, assertions, scopes, and log-driven verification.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    },
+    "highlights": [
+      "Location: $XDGCACHEHOME/grace-cli/analysis, falling back to ~/.cache/grace-cli/analysis. Override the base directory with GRACECACHEDIR."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

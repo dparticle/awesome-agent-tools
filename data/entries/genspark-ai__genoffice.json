@@ -6,15 +6,6 @@
   "url": "https://github.com/genspark-ai/genoffice",
   "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
   "homepage": "https://genoffice.ai/",
-  "category": "agent-runtimes",
-  "also_in": [
-    ""
-  ],
-  "matched_capabilities": [
-    "agent-runtime",
-    "cross-agent-support"
-  ],
-  "category_score": 30.0,
   "stars": 8836,
   "forks": 1128,
   "open_issues": 94,
@@ -170,18 +161,29 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.902
-    }
+    },
+    "highlights": [
+      "Yours to run. Native apps for macOS, Windows and Linux; files stay on your",
+      "AI you can review. Edits land as tracked changes and diffs with one-click"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:10+00:00",
+  "fetched_at": "2026-10-07T16:31:11+00:00",
+  "categories": [
+    "billing",
+    "mcp-failover",
+    "model-routing"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

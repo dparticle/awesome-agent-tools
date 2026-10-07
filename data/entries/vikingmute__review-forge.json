@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "full_name": "vikingmute/review-forge",
+  "name": "review-forge",
+  "owner": "vikingmute",
+  "url": "https://github.com/vikingmute/review-forge",
+  "description": "review-forge is an Agent Skill for structured, auditable code review workflows",
+  "homepage": "",
+  "stars": 225,
+  "forks": 11,
+  "open_issues": 0,
+  "language": "",
+  "license": "",
+  "topics": [],
+  "created_at": "2026-05-29T02:25:53Z",
+  "updated_at": "2026-10-04T14:44:42Z",
+  "pushed_at": "2026-05-29T13:53:14Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 131,
+  "days_since_push": 131,
+  "health_score": 38,
+  "health_components": {
+    "popularity": 47.0,
+    "momentum": 1.4,
+    "maintenance": 55.0,
+    "documentation": 31.0,
+    "accessibility": 75.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 225,
+    "days_span": 131,
+    "stars_per_day": 1.72,
+    "lifetime_stars_per_day": 1.72,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "vikingmute/review-forge",
+    "readme_chars": 4475,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "skills-plugins": "velopment without publishing, clone it into the cross-client Agent"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source)",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 31,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "review-forge is an Agent Skill for structured, auditable code review workflows.",
+    "summary_zh": "",
+    "install_hint": "npx skills add vikingmute/review-forge",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.223
+    },
+    "highlights": [
+      "Keeps process artifacts isolated under code_review/.",
+      "Reviews local changes, branches, PRs, or commit ranges.",
+      "Synthesizes multiple review perspectives into one fix checklist.",
+      "Uses checkboxes as the human approval boundary for fixes."
+    ]
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

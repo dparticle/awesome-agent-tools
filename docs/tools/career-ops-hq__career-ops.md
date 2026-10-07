@@ -4,7 +4,7 @@
 
 > So I built the filter I&nbsp;needed.
 
-[Repository](https://github.com/career-ops-hq/career-ops) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/career-ops-hq/career-ops) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -14,17 +14,15 @@
 | --- | --- |
 | Stars | 73,682 |
 | Star velocity | 398.3/day (lifetime basis, 185d span) |
-| Health score | 90/100 |
-| Documentation | 77/100 |
+| Health score | 89/100 |
+| Documentation | 74/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-04-04 |
 | Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 45,974 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [nexu-io/open-design](https://github.com/nexu-io/open-design)** — Superseded by nexu-io/open-design: covers 100% of capabilities (5/5).
+| Analyzed README | 45,287 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -65,7 +63,7 @@
 
 ## Documentation quality
 
-Score **77/100**, based on these detected signals:
+Score **74/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -77,7 +75,6 @@ Score **77/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - has a Chinese translation
-- publishes a roadmap
 - explains architecture
 - long, detailed README
 
@@ -88,7 +85,7 @@ Score **77/100**, based on these detected signals:
 | popularity | 97.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 77.0 |
+| documentation | 74.0 |
 | accessibility | 51.0 |
 
 ---

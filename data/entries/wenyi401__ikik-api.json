@@ -6,13 +6,6 @@
   "url": "https://github.com/wenyi401/ikik-api",
   "description": "基于 Sub2API 二开的 AI API 网关与订阅管理平台，包含共享私有账号池、拼车池、免费模型清单、让Claude、Openai、Gemini、Grok、Kiro 订阅统一接入，原生工具无缝使用。",
   "homepage": "",
-  "category": "sharing-gateway",
-  "also_in": [],
-  "matched_capabilities": [
-    "billing-metering",
-    "quota-distribution"
-  ],
-  "category_score": 23.0,
   "stars": 241,
   "forks": 22,
   "open_issues": 1,
@@ -26,7 +19,7 @@
   "is_fork": false,
   "default_branch": "master",
   "age_days": 104,
-  "days_since_push": 19,
+  "days_since_push": 20,
   "health_score": 42,
   "health_components": {
     "popularity": 47.6,
@@ -122,18 +115,31 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 0.986
-    }
+    },
+    "highlights": [
+      "Merged upstream sub2api v0.2.4 (519 commits / 876 files) and unified the frontend and backend versions at 1.0.4.",
+      "Upgraded the backend toolchain to Go 1.26.5 and refreshed vulnerable AWS SDK dependencies used by storage integrations.",
+      "API key management with multi-group routing, IP access controls, quota controls, usage records, and billing metadata.",
+      "Grok OAuth, Kiro OAuth, free-model provider onboarding, and configurable private-account access flows."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:26+00:00",
+  "fetched_at": "2026-10-07T16:31:29+00:00",
+  "categories": [
+    "accounts",
+    "model-routing",
+    "sharing"
+  ],
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",
     "note_zh": "",
-    "superseded_by": ""
+    "superseded_by": "",
+    "challenger": ""
   }
 }

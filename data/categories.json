@@ -1,0 +1,970 @@
+{
+  "generated_at": "2026-10-07T16:31:32+00:00",
+  "count": 15,
+  "categories": [
+    {
+      "id": "mcp-failover",
+      "title": {
+        "en": "MCP & Failover",
+        "zh": "MCP与故障转移"
+      },
+      "tagline": {
+        "en": "Security & isolation",
+        "zh": "安全与隔离"
+      },
+      "problem": {
+        "en": "Agents run arbitrary code and hold credentials; blast radius must be contained.",
+        "zh": "Agent 会执行任意代码并持有凭据，必须控制影响范围。"
+      },
+      "capabilities": [
+        "security-isolation",
+        "self-hosted",
+        "mcp-support",
+        "auto-failover",
+        "model-routing",
+        "gui-desktop"
+      ],
+      "tools": [
+        "affaan-m/ecc",
+        "agi-is-going-to-arrive/memory-palace",
+        "ai-ql/tuui",
+        "amap-ml/longhorizon-harness",
+        "andrewdryga/emisar",
+        "appwrite/appwrite",
+        "arinspunk/claude-talk-to-figma-mcp",
+        "arvincreator/project-golem",
+        "breferrari/obsidian-mind",
+        "cobusgreyling/loop-engineering",
+        "copilotkit/openbot",
+        "delorenj/mcp-server-trello",
+        "eugeniughelbur/obsidian-second-brain",
+        "feder-cr/invisible_playwright_mcp",
+        "fuxicodex/fuxi",
+        "genspark-ai/genoffice",
+        "getsentry/mobilebuildmcp",
+        "hkcanan/katmer-code",
+        "ibm/mcp",
+        "jdrhyne/agent-skills",
+        "jia-ethan/codex-keysmith",
+        "josstei/maestro-orchestrate",
+        "juliusbrussee/cavemem",
+        "kagisearch/kagimcp",
+        "kitfunso/hippo-memory",
+        "larashero3-dotcom/lieflat-charts",
+        "lexmount/moli",
+        "linxidnju/opentag",
+        "lyellr88/marm-memory",
+        "matrixorigin/memoria",
+        "mcpware/cross-code-organizer",
+        "metatool-ai/metamcp",
+        "miuuyy/codex-chatgpt-web",
+        "nwiizo/tfmcp",
+        "oleksiijko/pmb",
+        "oomol-lab/open-connector",
+        "oracle/mcp",
+        "othmane-khadri/yalc-the-gtm-operating-system",
+        "pax-beehive/paxm",
+        "pimzino/spec-workflow-mcp",
+        "rohitg00/agentmemory",
+        "ruvnet/metaharness",
+        "ryze-ai-adgent/open-seo-mcp-skills",
+        "spinabot/brigade",
+        "superdesigndev/treg",
+        "totec448-spec/chat-on-steroids",
+        "xai-org/grok-build",
+        "zhaoxuya520/reverse-skill",
+        "zvec-ai/zvec-grep"
+      ],
+      "also_in": [
+        "aipoch/open-science",
+        "akitaonrails/ai-memory",
+        "butterbase-ai/butterbase",
+        "catcatuncle/openworkbuddy",
+        "cordum-io/cordum",
+        "erickochen/purple",
+        "felinics/memoh",
+        "getpaseo/paseo",
+        "greenfield-inc/pane",
+        "hex/claude-council",
+        "hoangsonww/claude-code-agent-monitor",
+        "jsonbored/awesome-claude",
+        "justin0504/aegis",
+        "kunagent/kun",
+        "langchain-ai/openwiki",
+        "lnyo-cly/ai4j",
+        "nanmicoder/cc-haha",
+        "pedrohcgs/claude-code-my-workflow",
+        "rohitg00/pro-workflow",
+        "simonlin1212/vibe-research",
+        "topoteretes/cognee",
+        "vercel-labs/personal-agent-template",
+        "waishnav/devspace",
+        "xiaomimimo/mimo-code"
+      ],
+      "stability": 0.714,
+      "cohesion": 0.653
+    },
+    {
+      "id": "isolation-parallelism",
+      "title": {
+        "en": "Isolation & Parallelism",
+        "zh": "隔离与并行"
+      },
+      "tagline": {
+        "en": "Workspace isolation",
+        "zh": "工作区隔离"
+      },
+      "problem": {
+        "en": "Parallel agents overwrite each other's files unless each gets its own checkout.",
+        "zh": "并行 Agent 会互相覆盖文件，除非各自有独立工作副本。"
+      },
+      "capabilities": [
+        "worktree-isolation",
+        "parallel-execution",
+        "remote-control",
+        "voice-input",
+        "multi-agent-orchestration",
+        "notifications"
+      ],
+      "tools": [
+        "asheshgoplani/agent-deck",
+        "automagik-dev/genie",
+        "bytedance/deer-flow",
+        "cwinvestments/memstack",
+        "darrenhinde/openagentscontrol",
+        "evermind-ai/raven",
+        "getpaseo/paseo",
+        "greenfield-inc/pane",
+        "h0x91b/dev-3.0",
+        "ibrahim-3d/orchestrator-supaconductor",
+        "iofficeai/aionui",
+        "jsonbored/awesome-claude",
+        "lanes-sh/app",
+        "lerianstudio/ring",
+        "lling0000/vibe_coding_guide",
+        "max-sixty/worktrunk",
+        "maxritter/pilot-shell",
+        "michaelshimeles/skills",
+        "moonshotai/kimi-code",
+        "nanmicoder/cc-haha",
+        "nekocode/agent-worktree",
+        "orkas-ai/orkas",
+        "othmanadi/planning-with-files",
+        "owengretzinger/constellagent",
+        "paperclipai/paperclip",
+        "pedrohcgs/claude-code-my-workflow",
+        "redhat-et/ripwire",
+        "rlaope/oh-my-hermes",
+        "rohitg00/pro-workflow",
+        "rsmdt/the-startup",
+        "sahithvibudhi/vibe-tree",
+        "sethgammon/citadel",
+        "tigerless-labs/agent-memory",
+        "tigerless-labs/cost-xray",
+        "tigicion/dao-code",
+        "waishnav/devspace",
+        "yoanwai/agent-manager"
+      ],
+      "also_in": [
+        "dataojitori/nocturne_memory",
+        "hex/claude-council",
+        "kitfunso/hippo-memory",
+        "newsnowlabs/dockside",
+        "stablyai/orca",
+        "superagent-ai/grok-cli",
+        "withkynam/vibecode-pro-max-kit",
+        "xiaomimimo/mimo-code",
+        "yohey-w/multi-agent-shogun"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.685
+    },
+    {
+      "id": "skills",
+      "title": {
+        "en": "Skills",
+        "zh": "技能"
+      },
+      "tagline": {
+        "en": "Skills & plugins",
+        "zh": "技能与插件"
+      },
+      "problem": {
+        "en": "The base agent lacks your workflows; you need to extend it.",
+        "zh": "基础 Agent 不具备你的工作流，需要扩展。"
+      },
+      "capabilities": [
+        "skills-plugins",
+        "multi-agent-orchestration",
+        "notifications",
+        "mcp-support",
+        "agent-runtime",
+        "multi-account-switching"
+      ],
+      "tools": [
+        "alibaba/open-code-review",
+        "alirezarezvani/claude-code-tresor",
+        "archive228/loopkit",
+        "athola/claude-night-market",
+        "ayghri/i-have-adhd",
+        "binance/binance-skills-hub",
+        "claesbackman/ai-research-feedback",
+        "data-goblin/power-bi-agentic-development",
+        "davepoon/buildwithclaude",
+        "dietrichgebert/ponytail",
+        "francyjglisboa/agent-skills-platform",
+        "franklee16/academic-research-skills",
+        "gentleman-programming/gentle-ai",
+        "giuseppe-trisciuoglio/developer-kit",
+        "hashicorp/agent-skills",
+        "hoodini/ai-agents-skills",
+        "internet-court/internet-court-skill",
+        "jeremylongshore/tons-of-skills-marketplace",
+        "jimliu/baocut",
+        "jiweiyeah/skills-manager",
+        "jtydhr88/comfyui-custom-node-skills",
+        "liamgvchi/gc-minimal-zine-poster",
+        "neiii/bridle",
+        "numman-ali/n-skills",
+        "osovv/grace-marketplace",
+        "paramchoudhary/resumeskills",
+        "phuryn/pm-skills",
+        "s1dashu/ip-as-logo-skill",
+        "scrapecreators/social-media-research-skills",
+        "thedivergentai/gd-agentic-skills",
+        "tigerless-labs/autoharness",
+        "vikingmute/review-forge",
+        "wenfxl/openai-cpa",
+        "wenyuchiou/ai-research-skills",
+        "yyh211/claude-meta-skill",
+        "zlanqing/codex-claude-academic-skills"
+      ],
+      "also_in": [
+        "abubakarsiddik31/claude-skills-collection",
+        "affaan-m/ecc",
+        "anymorph-ai/claudable",
+        "arvincreator/project-golem",
+        "asheshgoplani/agent-deck",
+        "automagik-dev/genie",
+        "breferrari/obsidian-mind",
+        "butterbase-ai/butterbase",
+        "cloudflare/security-audit-skill",
+        "cordum-io/cordum",
+        "cwinvestments/memstack",
+        "delorenj/mcp-server-trello",
+        "eugeniughelbur/obsidian-second-brain",
+        "evermind-ai/raven",
+        "felinics/memoh",
+        "garrytan/gstack",
+        "glebis/claude-skills",
+        "google/artemis",
+        "gotalab/cc-sdd",
+        "harishkotra/agent-office",
+        "hkcanan/katmer-code",
+        "huytieu/cog-second-brain",
+        "iofficeai/aionui",
+        "jdrhyne/agent-skills",
+        "jessepwj/ccteam-creator",
+        "lerianstudio/ring",
+        "maxritter/pilot-shell",
+        "michaelshimeles/skills",
+        "mnemon-dev/mnemon",
+        "moonshotai/kimi-code",
+        "nexu-io/html-anything",
+        "othmanadi/planning-with-files",
+        "othmane-khadri/yalc-the-gtm-operating-system",
+        "pedrohcgs/claude-code-my-workflow",
+        "redhat-et/ripwire",
+        "rohitg00/pro-workflow",
+        "rsmdt/the-startup",
+        "ruvnet/metaharness",
+        "sethgammon/citadel",
+        "simonlin1212/vibe-research",
+        "socialpranker/deepdive",
+        "spinabot/brigade",
+        "superdesigndev/treg",
+        "tickernelz/opencode-mem",
+        "tigicion/dao-code",
+        "uditakhourii/adhd",
+        "withkynam/vibecode-pro-max-kit",
+        "wwwzhouhui/skills_collection",
+        "yohey-w/multi-agent-shogun",
+        "zhaoxuya520/reverse-skill"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.8
+    },
+    {
+      "id": "sessions-memory",
+      "title": {
+        "en": "Sessions & Memory",
+        "zh": "会话与记忆"
+      },
+      "tagline": {
+        "en": "Session persistence",
+        "zh": "会话持久化"
+      },
+      "problem": {
+        "en": "Closing the laptop or losing connection kills a long-running agent session.",
+        "zh": "合上笔记本或断网就会中断长时间运行的会话。"
+      },
+      "capabilities": [
+        "session-persistence",
+        "memory-context",
+        "usage-analytics",
+        "mcp-support",
+        "auto-failover",
+        "agent-runtime"
+      ],
+      "tools": [
+        "0xk3vin/megamemory",
+        "aoci-spec/aoci-code",
+        "avids2/memorix",
+        "chandra447/pi-hermes-memory",
+        "dataojitori/nocturne_memory",
+        "elara-labs/code-context-engine",
+        "eliaalberti/cpr-compress-preserve-resume",
+        "eshaan-nair/arcrift",
+        "gentleman-programming/engram",
+        "gizclaw/flowcraft",
+        "grpcer/ownmem",
+        "helloianneo/ian-xiaohei-illustrations",
+        "itechmeat/open-second-brain",
+        "jessepwj/ccteam-creator",
+        "leoyeai/talewell",
+        "lycheemem/lycheemem",
+        "magiccube/agentara",
+        "memvid/memvid",
+        "mnemon-dev/mnemon",
+        "okf-memory/okf-agent-memory",
+        "omega-memory/omega-memory",
+        "pacifio/atlas",
+        "shengjidaguai-china/goutoujunshi",
+        "topoteretes/cognee",
+        "vercel-labs/personal-agent-template"
+      ],
+      "also_in": [
+        "bytedance/deer-flow",
+        "deepagent-ltd/deepagent-code",
+        "garrytan/gstack",
+        "google-gemini/gemini-cli",
+        "harnessmd/munder-difflin",
+        "hoangsonww/claude-code-agent-monitor",
+        "kitfunso/hippo-memory",
+        "lnyo-cly/ai4j",
+        "lyellr88/marm-memory",
+        "pax-beehive/paxm",
+        "spinabot/brigade",
+        "uwuclxdy/clauth"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.768
+    },
+    {
+      "id": "desktop-ui",
+      "title": {
+        "en": "Desktop UI",
+        "zh": "桌面端"
+      },
+      "tagline": {
+        "en": "Agent runtime",
+        "zh": "Agent 运行时"
+      },
+      "problem": {
+        "en": "This IS the agent — the thing you run and talk to — rather than an add-on bolted onto somebody else's agent.",
+        "zh": "它本身就是那个 Agent——你直接运行和对话的东西——而不是挂在别人 Agent 上的插件。"
+      },
+      "capabilities": [
+        "agent-runtime",
+        "gui-desktop",
+        "skills-plugins",
+        "multi-agent-orchestration",
+        "team-collaboration",
+        "self-hosted"
+      ],
+      "tools": [
+        "anomalyco/opencode",
+        "anthropics/claude-code",
+        "anymorph-ai/claudable",
+        "autoloops/greplica",
+        "cloudflare/security-audit-skill",
+        "deuz-ai/deuz-sdk",
+        "diffusionstudio/lottie",
+        "fei-away/codex-dream-skin",
+        "kenryu42/cc-safety-net",
+        "mco-org/mco",
+        "mindmuxai/brain.md",
+        "nexu-io/html-anything",
+        "nurettincoban/ai-prd-workflow",
+        "realzst/harnesskit",
+        "tencent/browserskill",
+        "tickernelz/opencode-mem",
+        "vincentwei1021/video-shotcraft",
+        "wong2/diffx",
+        "zeronsh/zeron",
+        "zhinkgit/embeddedskills"
+      ],
+      "also_in": [
+        "abubakarsiddik31/claude-skills-collection",
+        "agi-is-going-to-arrive/memory-palace",
+        "aipoch/open-science",
+        "alibaba/open-code-review",
+        "aoci-spec/aoci-code",
+        "appautomaton/latex-arxiv-skill",
+        "archive228/loopkit",
+        "arvincreator/project-golem",
+        "asheshgoplani/agent-deck",
+        "automagik-dev/genie",
+        "avids2/memorix",
+        "bennykok/omg.dev",
+        "breferrari/obsidian-mind",
+        "career-ops-hq/career-ops",
+        "data-goblin/power-bi-agentic-development",
+        "davepoon/buildwithclaude",
+        "deepagent-ltd/deepagent-code",
+        "eshaan-nair/arcrift",
+        "eternityspring/shuohao-skills",
+        "francyjglisboa/agent-skills-platform",
+        "giuseppe-trisciuoglio/developer-kit",
+        "glebis/claude-skills",
+        "gotalab/cc-sdd",
+        "h0x91b/dev-3.0",
+        "harnessmd/munder-difflin",
+        "hoodini/ai-agents-skills",
+        "huytieu/cog-second-brain",
+        "iofficeai/aionui",
+        "jdrhyne/agent-skills",
+        "jimliu/baocut",
+        "jimliu/baoyu-design",
+        "jiweiyeah/skills-manager",
+        "jtydhr88/comfyui-custom-node-skills",
+        "kerim0x1/bettercode",
+        "lanes-sh/app",
+        "leoyeai/talewell",
+        "louis-cfm/coucou",
+        "magiccube/agentara",
+        "maxritter/pilot-shell",
+        "mcpware/cross-code-organizer",
+        "memtensor/memmy-agent",
+        "michaelshimeles/skills",
+        "moonshotai/kimi-code",
+        "nekocode/agent-worktree",
+        "nexu-io/open-design",
+        "numman-ali/n-skills",
+        "nwiizo/tfmcp",
+        "oleksiijko/pmb",
+        "openai/codex",
+        "orkas-ai/orkas",
+        "othmanadi/planning-with-files",
+        "pacifio/atlas",
+        "piebald-ai/splitrail",
+        "redhat-et/ripwire",
+        "rohitg00/agentmemory",
+        "s1dashu/ip-as-logo-skill",
+        "sahithvibudhi/vibe-tree",
+        "sethgammon/citadel",
+        "tencentcloud/octop",
+        "thedivergentai/gd-agentic-skills",
+        "tigerless-labs/cost-xray",
+        "tigicion/dao-code",
+        "trailhq/graft",
+        "uditakhourii/adhd",
+        "wenyuchiou/ai-research-skills",
+        "xiaoduoya/codex-with-chatgpt",
+        "yc-software/qm",
+        "yetone/magpie",
+        "zilliztech/memsearch",
+        "zju-real/easel"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.733
+    },
+    {
+      "id": "teams",
+      "title": {
+        "en": "Teams",
+        "zh": "团队"
+      },
+      "tagline": {
+        "en": "Team collaboration",
+        "zh": "团队协作"
+      },
+      "problem": {
+        "en": "Several people must share one agent setup, with roles and boundaries.",
+        "zh": "多人需要共用一套 Agent 环境，还要有角色与边界。"
+      },
+      "capabilities": [
+        "team-collaboration",
+        "billing-metering",
+        "mobile-access",
+        "voice-input",
+        "api-gateway",
+        "model-routing"
+      ],
+      "tools": [
+        "akitaonrails/ai-memory",
+        "felinics/memoh",
+        "gary23w/nl-veil",
+        "gotalab/cc-sdd",
+        "harishkotra/agent-office",
+        "hex/claude-council",
+        "huytieu/cog-second-brain",
+        "justin0504/aegis",
+        "kerim0x1/bettercode",
+        "marcusquinn/aidevops",
+        "memtensor/memmy-agent",
+        "msitarzewski/agency-agents",
+        "newsnowlabs/dockside",
+        "omnigent-ai/omnigent",
+        "tencentcloud/octop",
+        "uditakhourii/adhd",
+        "withkynam/vibecode-pro-max-kit",
+        "yc-software/qm",
+        "yetone/cumora",
+        "zilliztech/memsearch"
+      ],
+      "also_in": [
+        "jsonbored/awesome-claude",
+        "loopx-project/loopx"
+      ],
+      "stability": 0.714,
+      "cohesion": 0.749
+    },
+    {
+      "id": "accounts",
+      "title": {
+        "en": "Accounts",
+        "zh": "账号"
+      },
+      "tagline": {
+        "en": "Multi-account switching",
+        "zh": "多账号切换"
+      },
+      "problem": {
+        "en": "One subscription's quota runs out; you need to rotate between several accounts without re-logging-in by hand.",
+        "zh": "单个订阅额度会用完，需要在多个账号之间轮换，而不必手动重新登录。"
+      },
+      "capabilities": [
+        "multi-account-switching",
+        "quota-management",
+        "billing-metering",
+        "usage-analytics",
+        "api-gateway",
+        "auto-failover"
+      ],
+      "tools": [
+        "alickh/copool",
+        "basketikun/chatgpt2api",
+        "cita-777/metapi",
+        "decolua/9router",
+        "dicklesworthstone/coding_agent_account_manager",
+        "isxlan0/codex_accountswitch",
+        "jlcodes99/cockpit-tools",
+        "lampese/codex-switcher",
+        "lidge-jun/opencodex",
+        "loongphy/codex-auth",
+        "ndycode/codex-multi-auth",
+        "openai/codex",
+        "uwuclxdy/clauth",
+        "wangyunjeff/sub2api-state-kit",
+        "yetone/magpie"
+      ],
+      "also_in": [
+        "farion1231/cc-switch",
+        "gary23w/nl-veil",
+        "msitarzewski/agency-agents",
+        "stablyai/orca",
+        "wei-shaw/sub2api",
+        "wenyi401/ikik-api",
+        "yan-labs/yan-skills"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.8
+    },
+    {
+      "id": "model-routing",
+      "title": {
+        "en": "Model Routing",
+        "zh": "模型路由"
+      },
+      "tagline": {
+        "en": "Model / provider routing",
+        "zh": "模型与供应商路由"
+      },
+      "problem": {
+        "en": "You want one agent to run on a different model or provider than its default.",
+        "zh": "想让 Agent 跑在非默认的模型或供应商上。"
+      },
+      "capabilities": [
+        "model-routing",
+        "api-gateway",
+        "agent-runtime",
+        "multi-agent-orchestration",
+        "billing-metering",
+        "skills-plugins"
+      ],
+      "tools": [
+        "appautomaton/latex-arxiv-skill",
+        "career-ops-hq/career-ops",
+        "deepagent-ltd/deepagent-code",
+        "gmickel/flow-next",
+        "hkqr/my-free-code",
+        "langchain-ai/openwiki",
+        "mdx-tom/gpt-instruct",
+        "memtensor/memos-cloud-openclaw-plugin",
+        "openai/codex-security",
+        "socialpranker/deepdive",
+        "swival/swival",
+        "tamaratran/fast-jev-compaction",
+        "teamchong/pxpipe",
+        "trailhq/graft",
+        "zhnt/loushang"
+      ],
+      "also_in": [
+        "affaan-m/ecc",
+        "agi-is-going-to-arrive/memory-palace",
+        "akitaonrails/ai-memory",
+        "alibaba/open-code-review",
+        "amap-ml/longhorizon-harness",
+        "aoci-spec/aoci-code",
+        "avids2/memorix",
+        "bytedance/deer-flow",
+        "dicklesworthstone/coding_agent_account_manager",
+        "eugeniughelbur/obsidian-second-brain",
+        "evermind-ai/raven",
+        "fuxicodex/fuxi",
+        "gary23w/nl-veil",
+        "genspark-ai/genoffice",
+        "harishkotra/agent-office",
+        "jlcodes99/cockpit-tools",
+        "lidge-jun/opencodex",
+        "louis-cfm/coucou",
+        "lycheemem/lycheemem",
+        "lyellr88/marm-memory",
+        "memtensor/memmy-agent",
+        "mirrowel/llm-api-key-proxy",
+        "nexu-io/open-design",
+        "omega-memory/omega-memory",
+        "omnigent-ai/omnigent",
+        "orkas-ai/orkas",
+        "rlaope/oh-my-hermes",
+        "rohitg00/agentmemory",
+        "ruvnet/metaharness",
+        "tencentcloud/octop",
+        "tickernelz/opencode-mem",
+        "wangyunjeff/sub2api-state-kit",
+        "wenyi401/ikik-api",
+        "yc-software/qm",
+        "yetone/cumora",
+        "yetone/magpie",
+        "zilliztech/memsearch"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.752
+    },
+    {
+      "id": "mobile",
+      "title": {
+        "en": "Mobile",
+        "zh": "移动端"
+      },
+      "tagline": {
+        "en": "Mobile access",
+        "zh": "手机端访问"
+      },
+      "problem": {
+        "en": "You are away from the desk and want to keep the agent working from a phone.",
+        "zh": "人不在电脑旁，想用手机继续让 Agent 干活。"
+      },
+      "capabilities": [
+        "mobile-access",
+        "remote-control",
+        "notifications",
+        "self-hosted",
+        "quota-management",
+        "voice-input"
+      ],
+      "tools": [
+        "abubakarsiddik31/claude-skills-collection",
+        "alephaitech/workbuddyguide",
+        "bennykok/omg.dev",
+        "google/artemis",
+        "hoangsonww/claude-code-agent-monitor",
+        "jacobaraujo7/remote_pi",
+        "jimliu/baoyu-design",
+        "louis-cfm/coucou",
+        "microsoft/power-platform-skills",
+        "op7418/guizang-social-card-skill",
+        "slopus/happy",
+        "stablyai/orca",
+        "superagent-ai/grok-cli",
+        "yohey-w/multi-agent-shogun"
+      ],
+      "also_in": [
+        "dataojitori/nocturne_memory",
+        "getpaseo/paseo",
+        "h0x91b/dev-3.0",
+        "nexu-io/html-anything",
+        "ningbainb/deepseek-harness-desktop",
+        "omnigent-ai/omnigent",
+        "paperclipai/paperclip",
+        "wwwzhouhui/skills_collection",
+        "yetone/cumora"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.782
+    },
+    {
+      "id": "quota",
+      "title": {
+        "en": "Quota",
+        "zh": "额度"
+      },
+      "tagline": {
+        "en": "Quota & usage management",
+        "zh": "额度与用量管理"
+      },
+      "problem": {
+        "en": "You cannot see how much quota is left, so you get blocked mid-task.",
+        "zh": "看不到剩余额度，任务做到一半就被限流。"
+      },
+      "capabilities": [
+        "quota-management",
+        "provider-aggregation",
+        "quota-distribution",
+        "api-gateway",
+        "billing-metering",
+        "self-hosted"
+      ],
+      "tools": [
+        "appllama/appllama-skills",
+        "catcatuncle/openworkbuddy",
+        "chuspeeism/dashi-ppt-skill",
+        "eternityspring/shuohao-skills",
+        "kunagent/kun",
+        "mark3labs/mcp-go",
+        "nanako0129/syrtis",
+        "simonlin1212/vibe-research",
+        "wwwzhouhui/skills_collection",
+        "xiaoduoya/codex-with-chatgpt",
+        "yan-labs/yan-skills",
+        "zju-real/easel"
+      ],
+      "also_in": [
+        "cita-777/metapi",
+        "hithink-tech/financial-api",
+        "jlcodes99/cockpit-tools",
+        "mirrowel/llm-api-key-proxy"
+      ],
+      "stability": 0.714,
+      "cohesion": 0.77
+    },
+    {
+      "id": "providers",
+      "title": {
+        "en": "Providers",
+        "zh": "供应商"
+      },
+      "tagline": {
+        "en": "Multi-provider aggregation",
+        "zh": "多供应商聚合"
+      },
+      "problem": {
+        "en": "Many subscriptions and API keys are scattered; you want one endpoint for all of them.",
+        "zh": "订阅和 API Key 散落各处，希望统一到一个入口。"
+      },
+      "capabilities": [
+        "provider-aggregation",
+        "team-collaboration",
+        "usage-analytics",
+        "security-isolation",
+        "session-persistence",
+        "auto-failover"
+      ],
+      "tools": [
+        "cordum-io/cordum",
+        "erickochen/purple",
+        "farion1231/cc-switch",
+        "hithink-tech/financial-api",
+        "lnyo-cly/ai4j",
+        "ningbainb/deepseek-harness-desktop",
+        "routatic/proxy",
+        "solo-agent/solo",
+        "yynxxxxx/codex-x"
+      ],
+      "also_in": [
+        "loopx-project/loopx"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.767
+    },
+    {
+      "id": "billing",
+      "title": {
+        "en": "Billing",
+        "zh": "计费"
+      },
+      "tagline": {
+        "en": "Billing & metering",
+        "zh": "计费与计量"
+      },
+      "problem": {
+        "en": "When several people share capacity, usage must be measured and charged accurately.",
+        "zh": "多人共用容量时，必须精确计量并结算。"
+      },
+      "capabilities": [
+        "billing-metering",
+        "usage-analytics",
+        "mcp-support",
+        "model-routing",
+        "self-hosted",
+        "session-persistence"
+      ],
+      "tools": [
+        "aipoch/open-science",
+        "butterbase-ai/butterbase",
+        "google-gemini/gemini-cli",
+        "grapeot/context-infrastructure",
+        "intuit/quickbooks-online-mcp-server",
+        "ivnvxd/mcp-server-odoo",
+        "trycompai/crm",
+        "wei-shaw/sub2api"
+      ],
+      "also_in": [
+        "cita-777/metapi",
+        "cwinvestments/memstack",
+        "decolua/9router",
+        "dicklesworthstone/coding_agent_account_manager",
+        "elara-labs/code-context-engine",
+        "farion1231/cc-switch",
+        "genspark-ai/genoffice",
+        "hoodini/ai-agents-skills",
+        "justin0504/aegis",
+        "lycheemem/lycheemem",
+        "marcusquinn/aidevops",
+        "mcpware/cross-code-organizer",
+        "nanmicoder/cc-haha",
+        "ningbainb/deepseek-harness-desktop",
+        "piebald-ai/splitrail",
+        "superdesigndev/treg",
+        "trailhq/graft",
+        "uwuclxdy/clauth",
+        "yynxxxxx/codex-x"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.821
+    },
+    {
+      "id": "analytics",
+      "title": {
+        "en": "Analytics",
+        "zh": "用量分析"
+      },
+      "tagline": {
+        "en": "Usage analytics",
+        "zh": "用量分析"
+      },
+      "problem": {
+        "en": "You want to know where tokens and money actually went.",
+        "zh": "想知道 token 和钱到底花在哪里。"
+      },
+      "capabilities": [
+        "usage-analytics",
+        "team-collaboration",
+        "mobile-access",
+        "quota-management",
+        "multi-agent-orchestration",
+        "parallel-execution"
+      ],
+      "tools": [
+        "agentops-ai/agentops",
+        "loopx-project/loopx",
+        "nateherkai/token-dashboard",
+        "piebald-ai/splitrail"
+      ],
+      "also_in": [
+        "kerim0x1/bettercode",
+        "paperclipai/paperclip",
+        "yynxxxxx/codex-x"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.833
+    },
+    {
+      "id": "voice",
+      "title": {
+        "en": "Voice",
+        "zh": "语音"
+      },
+      "tagline": {
+        "en": "Voice input",
+        "zh": "语音输入"
+      },
+      "problem": {
+        "en": "Typing long prompts on a phone is painful.",
+        "zh": "在手机上敲长提示词很痛苦。"
+      },
+      "capabilities": [
+        "voice-input",
+        "security-isolation",
+        "session-persistence",
+        "memory-context",
+        "api-gateway",
+        "parallel-execution"
+      ],
+      "tools": [
+        "garrytan/gstack",
+        "glebis/claude-skills",
+        "harnessmd/munder-difflin",
+        "xiaomimimo/mimo-code"
+      ],
+      "also_in": [
+        "copilotkit/openbot",
+        "greenfield-inc/pane",
+        "marcusquinn/aidevops",
+        "msitarzewski/agency-agents",
+        "pax-beehive/paxm",
+        "superagent-ai/grok-cli"
+      ],
+      "stability": 0.091,
+      "cohesion": 0.933
+    },
+    {
+      "id": "sharing",
+      "title": {
+        "en": "Sharing",
+        "zh": "共享"
+      },
+      "tagline": {
+        "en": "Quota sharing / splitting",
+        "zh": "配额共享与分发"
+      },
+      "problem": {
+        "en": "A subscription's capacity is larger than one person needs; share it safely with others.",
+        "zh": "订阅容量超过个人所需，想安全地分给他人共用。"
+      },
+      "capabilities": [
+        "quota-distribution",
+        "billing-metering",
+        "api-gateway",
+        "self-hosted",
+        "multi-account-switching",
+        "model-routing"
+      ],
+      "tools": [
+        "mirrowel/llm-api-key-proxy",
+        "nexu-io/open-design",
+        "wenyi401/ikik-api"
+      ],
+      "also_in": [
+        "catcatuncle/openworkbuddy",
+        "decolua/9router",
+        "wangyunjeff/sub2api-state-kit",
+        "wei-shaw/sub2api",
+        "yan-labs/yan-skills"
+      ],
+      "stability": 1.0,
+      "cohesion": 0.846
+    }
+  ]
+}

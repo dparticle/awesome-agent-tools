@@ -6,12 +6,6 @@
   "url": "https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system",
   "description": "YALC 1.0, the open-source Clay alternative. MIT, CLI-first, self-hosted, runs in Claude Code. Yalc today is an intelligent orchestration layer that runs pre configured GTM agents on your existing tech stack (CRM, sequencer and call recorder) → yalc.ai",
   "homepage": "https://www.yalc.ai",
-  "category": "agent-runtimes",
-  "also_in": [],
-  "matched_capabilities": [
-    "cross-agent-support"
-  ],
-  "category_score": 14.0,
   "stars": 317,
   "forks": 90,
   "open_issues": 8,
@@ -134,18 +128,86 @@
       "score": 0,
       "signals": [],
       "external_link_ratio": 0.388
-    }
+    },
+    "highlights": [
+      "Rate limiting — DB-backed token bucket on all external sends",
+      "Background agents — launchd-integrated for automated campaign tracking",
+      "Swappable email providers — Instantly built in, plus drop-in MCP templates for Brevo, Mailgun, and SendGrid (provider:add --mcp then email:send --provider )",
+      "Statistical significance — chi-squared testing to pick variant winners"
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:23+00:00",
+  "fetched_at": "2026-10-07T16:31:26+00:00",
+  "categories": [
+    "mcp-failover",
+    "skills"
+  ],
+  "primary_category": "mcp-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "othmane-khadri/yalc-the-gtm-operating-system",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "Othmane-Khadri/YALC-the-GTM-operating-system",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "self-hosted",
+        "skills-plugins"
+      ],
+      "star_ratio": 866.271,
+      "momentum_ratio": 911.409,
+      "setup_delta": -7,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "866.27x the stars (274,608 vs 317)",
+        "911.41x the star velocity (1048.1/day vs 1.1/day)",
+        "no harder to set up (57 vs 64 friction)"
+      ],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "self-hosted",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 46,
+        "challenger_health": 89,
+        "incumbent_setup_score": 64,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

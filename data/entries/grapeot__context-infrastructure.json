@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "full_name": "grapeot/context-infrastructure",
+  "name": "context-infrastructure",
+  "owner": "grapeot",
+  "url": "https://github.com/grapeot/context-infrastructure",
+  "description": "A context and memory system for AI coding agents. Persistent memory, personal rules, skills, and scheduled observations",
+  "homepage": "",
+  "stars": 776,
+  "forks": 177,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "",
+  "topics": [],
+  "created_at": "2026-03-16T05:12:45Z",
+  "updated_at": "2026-10-07T08:17:56Z",
+  "pushed_at": "2026-10-07T04:01:56Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 205,
+  "days_since_push": 0,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 57.8,
+    "momentum": 3.2,
+    "maintenance": 100.0,
+    "documentation": 42.0,
+    "accessibility": 56.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 776,
+    "days_span": 205,
+    "stars_per_day": 3.79,
+    "lifetime_stars_per_day": 3.79,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "grapeot/context-infrastructure",
+    "readme_chars": 2938,
+    "capabilities": [
+      "billing-metering",
+      "memory-context"
+    ],
+    "capability_evidence": {
+      "billing-metering": "",
+      "memory-context": ""
+    },
+    "capability_hits": {
+      "billing-metering": 1,
+      "memory-context": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 44,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [
+        "Chinese: beginner/one-click framing"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. needs git clone (build from source); Chinese: beginner/one-click framing",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；Chinese: beginner/one-click framing"
+    },
+    "doc_score": 42,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a table of contents"
+    ],
+    "agents": [
+      "OpenCode"
+    ],
+    "summary_en": "这是一个运行了一年的 context infrastructure 系统的完整结构。主要价值是作为 reference implementation，让你看到系统长什么样、数据如何流动、记忆如何积累。",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.021
+    },
+    "highlights": []
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:19+00:00",
+  "categories": [
+    "billing"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

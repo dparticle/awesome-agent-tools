@@ -6,12 +6,6 @@
   "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
   "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
   "homepage": "",
-  "category": "skills-plugins",
-  "also_in": [],
-  "matched_capabilities": [
-    "skills-plugins"
-  ],
-  "category_score": 13.0,
   "stars": 355,
   "forks": 41,
   "open_issues": 17,
@@ -134,25 +128,36 @@
         "bullet list of external links"
       ],
       "external_link_ratio": 1.23
-    }
+    },
+    "highlights": [
+      "🔄 Multi-CLI Support — Works with Claude Code, GitHub Copilot CLI, OpenCode CLI, and Codex CLI.",
+      "📚 150+ Skills — Reusable capabilities from Spring Boot CRUD generation to CloudFormation templates, all with best practices built-in."
+    ]
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T13:58:23+00:00",
+  "fetched_at": "2026-10-07T16:31:25+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "OthmanAdi/planning-with-files",
+    "note_en": "Superseded by thedivergentai/GD-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/GD-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/GD-Agentic-Skills",
+    "challenger": "",
     "supersede": {
       "incumbent": "giuseppe-trisciuoglio/developer-kit",
-      "challenger": "othmanadi/planning-with-files",
+      "challenger": "thedivergentai/gd-agentic-skills",
       "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
-      "challenger_name": "OthmanAdi/planning-with-files",
-      "kind": "auto",
+      "challenger_name": "thedivergentai/GD-Agentic-Skills",
+      "kind": "supersede",
+      "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [
@@ -162,15 +167,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 76.952,
-      "momentum_ratio": 97.644,
-      "setup_delta": -39,
-      "dominance": 1.0,
+      "star_ratio": 2.265,
+      "momentum_ratio": 3.307,
+      "setup_delta": -45,
+      "dominance": 0.885,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "76.95x the stars (27,318 vs 355)",
-        "97.64x the star velocity (98.6/day vs 1.0/day)",
-        "no harder to set up (27 vs 66 friction)"
+        "2.26x the stars (804 vs 355)",
+        "3.31x the star velocity (3.3/day vs 1.0/day)",
+        "no harder to set up (21 vs 66 friction)"
       ],
       "evidence": {
         "incumbent_capabilities": [
@@ -183,17 +188,17 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
           "memory-context",
           "multi-agent-orchestration",
           "parallel-execution",
-          "security-isolation",
-          "skills-plugins",
-          "worktree-isolation"
+          "skills-plugins"
         ],
         "incumbent_health": 46,
-        "challenger_health": 85,
+        "challenger_health": 56,
         "incumbent_setup_score": 66,
-        "challenger_setup_score": 27
+        "challenger_setup_score": 21
       }
     }
   }

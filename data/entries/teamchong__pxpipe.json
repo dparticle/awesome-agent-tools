@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "full_name": "teamchong/pxpipe",
+  "name": "pxpipe",
+  "owner": "teamchong",
+  "url": "https://github.com/teamchong/pxpipe",
+  "description": "cut Claude Code token usage by rendering text context as images",
+  "homepage": "",
+  "stars": 7503,
+  "forks": 653,
+  "open_issues": 64,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-05-20T12:39:42Z",
+  "updated_at": "2026-10-07T11:59:23Z",
+  "pushed_at": "2026-10-02T04:29:25Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 140,
+  "days_since_push": 5,
+  "health_score": 71,
+  "health_components": {
+    "popularity": 77.5,
+    "momentum": 44.7,
+    "maintenance": 100.0,
+    "documentation": 53.0,
+    "accessibility": 87.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7503,
+    "days_span": 140,
+    "stars_per_day": 53.59,
+    "lifetime_stars_per_day": 53.59,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "teamchong/pxpipe",
+    "readme_chars": 24667,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "okens, not every identifier.",
+      "model-routing": "pipe compresses the *request* only, never the model's output.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "model-routing": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "pnpm install/build"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs pnpm install/build",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 pnpm install/build"
+    },
+    "doc_score": 53,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "Cut Claude Code's input tokens by rendering bulky context as images — the same system prompt, tool docs, and history, in a fraction of the tokens.",
+    "summary_zh": "",
+    "install_hint": "npx pxpipe-proxy                                  # proxy on 127.0.0.1:47821",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.203
+    },
+    "highlights": [
+      "Grok 4.5 / 4.6 (opt-in): native 14px / 84 cols / maxH 512 (100/100 arith, 97/98 gist).",
+      "claude-opus-5: weaker recall than Fable 5 (verbatim 2/15 vs 13/15), good",
+      "claude-opus-5-5: on by default. Uses 5×8 with 2px extra row height",
+      "Real work: SWE-bench Lite pilot 10/10 both arms at −65% request"
+    ]
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-07T16:31:01+00:00",
+  "categories": [
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

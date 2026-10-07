@@ -4,7 +4,7 @@
 
 > Multi-provider AI chat inside Obsidian — Claude, Gemini, Codex, and Antigravity in one sidebar, with per-tab routing, inline diff editing, academic research skills, and MCP support.
 
-[Repository](https://github.com/hkcanan/katmer-code) · [Back to index](../../README.md) · Category: **model-routing**
+[Repository](https://github.com/hkcanan/katmer-code) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,12 +17,14 @@
 | Health score | 49/100 |
 | Documentation | 56/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-22 |
 | Last push | 2026-09-15 (22 days ago) |
 | Analyzed README | 18,239 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
 
 ## What it solves
 

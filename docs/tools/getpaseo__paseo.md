@@ -4,7 +4,7 @@
 
 > Paseo is a desktop, mobile, web, and CLI app for coding agents.
 
-[Repository](https://github.com/getpaseo/paseo) · [Back to index](../../README.md) · Category: **orchestration**
+[Repository](https://github.com/getpaseo/paseo) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -22,7 +22,7 @@
 | Language | TypeScript |
 | Created | 2025-10-13 |
 | Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 8,990 chars from `raw:HEAD/README.md` |
+| Analyzed README | 8,543 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

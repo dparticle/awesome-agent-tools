@@ -4,7 +4,7 @@
 
 > HashiCorp Agent Skills for Terraform and Packer.
 
-[Repository](https://github.com/hashicorp/agent-skills) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/hashicorp/agent-skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -17,14 +17,12 @@
 | Health score | 53/100 |
 | Documentation | 32/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MPL-2.0 |
 | Language | HCL |
 | Created | 2025-11-08 |
 | Last push | 2026-10-05 (2 days ago) |
 | Analyzed README | 3,405 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)** — Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (3/3).
 
 ## What it solves
 

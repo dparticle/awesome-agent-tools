@@ -4,7 +4,7 @@
 
 > A curated collection of agent skills (for Claude Code and OpenAI Codex) for developing ComfyUI custom nodes.
 
-[Repository](https://github.com/jtydhr88/comfyui-custom-node-skills) · [Back to index](../../README.md) · Category: **skills-plugins**
+[Repository](https://github.com/jtydhr88/comfyui-custom-node-skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 294 |
-| Star velocity | 1.4/day (lifetime basis, 215d span) |
+| Star velocity | 1.4/day (lifetime basis, 216d span) |
 | Health score | 41/100 |
 | Documentation | 32/100 |
 | Tier | 👀 Watchlist |
@@ -24,7 +24,7 @@
 | Last push | 2026-07-27 (72 days ago) |
 | Analyzed README | 5,568 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)** — Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [FrancyJGLisboa/agent-skills-platform](https://github.com/FrancyJGLisboa/agent-skills-platform)** — Superseded by FrancyJGLisboa/agent-skills-platform: covers 100% of capabilities (4/4).
 
 ## What it solves
 

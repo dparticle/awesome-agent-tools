@@ -4,7 +4,7 @@
 
 > A free, open-source app to manage all your AI coding agents — desktop, CLI, or web.
 
-[Repository](https://github.com/RealZST/HarnessKit) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/RealZST/HarnessKit) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -13,18 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 451 |
-| Star velocity | 2.3/day (lifetime basis, 193d span) |
+| Star velocity | 2.3/day (lifetime basis, 194d span) |
 | Health score | 57/100 |
 | Documentation | 59/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-27 |
 | Last push | 2026-10-04 (3 days ago) |
 | Analyzed README | 18,471 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).
 
 ## What it solves
 

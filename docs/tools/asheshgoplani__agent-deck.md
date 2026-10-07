@@ -4,7 +4,7 @@
 
 > Your AI agent command center
 
-[Repository](https://github.com/asheshgoplani/agent-deck) · [Back to index](../../README.md) · Category: **workflow-ux**
+[Repository](https://github.com/asheshgoplani/agent-deck) · [Back to index](../../README.md) · Category: **None**
 
 ---
 

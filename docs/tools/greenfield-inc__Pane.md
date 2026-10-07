@@ -4,7 +4,7 @@
 
 > Appearance follows your OS — see Appearance.
 
-[Repository](https://github.com/greenfield-inc/Pane) · [Back to index](../../README.md) · Category: **agent-runtimes**
+[Repository](https://github.com/greenfield-inc/Pane) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
