@@ -158,6 +158,7 @@ def run_pipeline(
     refresh: bool = False,
     dry_run: bool = False,
     verify_metadata: bool = False,
+    allow_shrink: bool = False,
 ) -> tuple[dict[str, Any], PipelineStats]:
     started = time.time()
     stats = PipelineStats()
@@ -386,6 +387,19 @@ def run_pipeline(
     stats.duration_s = time.time() - started
     stats.budget = client.budget.as_dict()
 
+    # Safety valve. If the network is down, a rate limit hit, or GitHub changes
+    # shape, the run finds nothing and would happily overwrite a good index with
+    # an empty one — and the daily workflow would commit that. Refuse instead.
+    previous = read_json(INDEX_PATH, default={}) or {}
+    previous_count = int((previous.get("counts") or {}).get("tools") or 0)
+    if not allow_shrink and not dry_run:
+        refusal = _check_shrink_safety(stats.accepted, previous_count, stats)
+        if refusal:
+            LOG.error("REFUSING TO WRITE: %s", refusal)
+            LOG.error("the existing index (%d tools) was left untouched", previous_count)
+            stats.errors.append(f"write refused: {refusal}")
+            return previous or _build_index(entries, edges, rejected, stats, categories), stats
+
     if not dry_run:
         _prune_stale_entries(entries)
         for entry in entries.values():
@@ -479,6 +493,34 @@ def _prefilter_reason(repo: dict[str, Any], prefilter: dict[str, Any]) -> str:
         days = (datetime.now(timezone.utc) - pushed).days
         if days > max_days:
             return f"no push in {days} days (> pre-filter {max_days})"
+    return ""
+
+
+def _check_shrink_safety(accepted: int, previous_count: int, stats: PipelineStats) -> str:
+    """Decide whether writing this run would destroy a good index.
+
+    Returns a refusal reason, or ``""`` to allow the write.
+
+    The scenario this exists for is mundane: GitHub is unreachable, every
+    metadata fetch fails, and the run produces zero tools. Without this check
+    the daily workflow would commit an empty index and the project would look
+    abandoned until someone noticed.
+    """
+    if previous_count <= 0:
+        return ""  # first run — nothing to protect
+    if accepted == 0:
+        return "this run produced 0 tools (network or API failure?)"
+    # A real crawl can legitimately lose tools, but not most of them at once.
+    floor = int(previous_count * 0.5)
+    if accepted < floor:
+        return (
+            f"this run produced {accepted} tools, less than half of the "
+            f"{previous_count} already indexed"
+        )
+    # A run that failed on most candidates is untrustworthy even if some passed.
+    attempted = stats.considered or 0
+    if attempted and len(stats.errors) >= max(5, attempted // 4):
+        return f"{len(stats.errors)} of {attempted} candidates errored"
     return ""
 
 

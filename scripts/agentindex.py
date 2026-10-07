@@ -42,10 +42,14 @@ def cmd_crawl(args: argparse.Namespace) -> int:
         limit=args.limit,
         refresh=args.refresh,
         dry_run=args.dry_run,
+        allow_shrink=args.allow_shrink,
     )
     LOG.info("stats: %s", json.dumps(stats.as_dict(), ensure_ascii=False))
     if args.dry_run:
         LOG.info("dry run: nothing written")
+    if any(str(e).startswith("write refused") for e in stats.errors):
+        LOG.error("the index was NOT updated — see the refusal above")
+        return 1
     return 0
 
 
@@ -136,6 +140,11 @@ def main(argv: list[str] | None = None) -> int:
         p.add_argument("--offline", action="store_true", help="use only cached API responses")
         p.add_argument("--core-budget", type=int, default=45, help="max core API calls")
         p.add_argument("--search-budget", type=int, default=25, help="max search API calls")
+        p.add_argument(
+            "--allow-shrink",
+            action="store_true",
+            help="write the index even if this run found far fewer tools than before",
+        )
 
     for name, help_text, fn in (
         ("crawl", "discover, analyse and persist", cmd_crawl),
