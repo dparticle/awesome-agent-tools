@@ -2,7 +2,7 @@
 
 # yetone/magpie
 
-> Claude Code on Kimi, Codex on DeepSeek, Gemini CLI on GLM, OpenCode on your ChatGPT plan.
+> Claude Code on Kimi.
 
 [Repository](https://github.com/yetone/magpie) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,667 |
-| Star velocity | 404.8/day (lifetime basis, 14d span) |
-| Health score | 84/100 |
-| Documentation | 58/100 |
+| Stars | 6,548 |
+| Star velocity | 467.7/day (lifetime basis, 14d span) |
+| Health score | 86/100 |
+| Documentation | 57/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-23 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 18,637 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 17,488 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,29 +30,21 @@
 
 ### Quota & usage management
 
-### Automatic failover
-
 ### Model / provider routing
 
-> sonix planner default restores Plan.
+> e · Pencil · T3 Code · OpenHanako · AtomCode · Alma · Cindy
 
 ### API gateway / proxy
 
-> ncent Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI-compatible or Anthropic-compatibl…
-
-### Usage analytics
-
-> in magpie as they do in their own apps.
-
-### Agent runtime
+> anfan · Tencent Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…
 
 ### MCP support
 
-> magpie offers it as a provider.
+> ind it, so magpie offers it as a provider.
 
 ### GUI / desktop app
 
-> every agent under one name ("Budget", "Focus") and switch them all at once.
+> n also have its own short list of models, so its picker shows only what you want there.
 
 ### Cross-agent support
 
@@ -60,20 +52,20 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 18/100)
+- **Difficulty:** 🟢 Turnkey (friction score 12/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 - **Quickest install:** `curl -fsSL https://usemagpie.ai/install.sh | sh`
 
 **Signals that make it easy:** go install, curl | sh installer
 
-**Configuration required:** config file, sign-in required, process manager
+**Configuration required:** config file, sign-in required
 
 *Turnkey. install via go install, curl | sh installer; configure config file, sign-in required; one-click setup*
 
 ## Documentation quality
 
-Score **58/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -88,11 +80,11 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.1 |
+| popularity | 76.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 58.0 |
-| accessibility | 82.0 |
+| documentation | 57.0 |
+| accessibility | 96.0 |
 
 ---
 

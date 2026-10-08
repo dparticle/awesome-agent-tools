@@ -6,34 +6,34 @@
   "url": "https://github.com/MoonshotAI/kimi-code",
   "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
   "homepage": "https://www.kimi.com/code/docs/",
-  "stars": 7789,
-  "forks": 1279,
-  "open_issues": 1548,
+  "stars": 7799,
+  "forks": 1280,
+  "open_issues": 1547,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-22T08:02:03Z",
-  "updated_at": "2026-10-07T13:19:51Z",
-  "pushed_at": "2026-10-02T12:24:22Z",
+  "updated_at": "2026-10-08T10:22:03Z",
+  "pushed_at": "2026-10-08T11:03:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 138,
-  "days_since_push": 5,
+  "age_days": 139,
+  "days_since_push": 0,
   "health_score": 69,
   "health_components": {
     "popularity": 77.8,
-    "momentum": 47.0,
+    "momentum": 46.8,
     "maintenance": 100.0,
     "documentation": 56.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 7789,
-    "days_span": 138,
-    "stars_per_day": 56.44,
-    "lifetime_stars_per_day": 56.44,
+    "stars_gained": 7799,
+    "days_span": 139,
+    "stars_per_day": 56.11,
+    "lifetime_stars_per_day": 56.11,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -128,16 +128,21 @@
       "Subagents for focused, parallel work.",
       "Purpose-built TUI. A carefully tuned interface, optimized end to end for long, focused agent sessions."
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "Documentation · Issues · English",
+    "highlights_zh": [
+      "AI-native 的 MCP 配置 通过 /mcp-config 对话式添加、编辑、认证 MCP 服务器，无需手写 JSON。",
+      "编辑器 / IDE 集成（ACP） 用 kimi acp 让 Zed、JetBrains 等任意 Agent Client Protocol 客户端直接驱动会话。",
+      "丰富的插件生态 从插件市场或任意 GitHub 仓库安装 skills、MCP 服务器和数据源，每次安装都会标明来源的信任级别。",
+      "极速启动 TUI 在毫秒级就绪，开一个新会话没有任何心智负担。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:39+00:00",
+  "fetched_at": "2026-10-08T11:23:53+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "isolation-parallelism",
@@ -145,69 +150,10 @@
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "iOfficeAI/AionUi",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "moonshotai/kimi-code",
-      "challenger": "iofficeai/aionui",
-      "incumbent_name": "MoonshotAI/kimi-code",
-      "challenger_name": "iOfficeAI/AionUi",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "notifications",
-        "parallel-execution",
-        "skills-plugins"
-      ],
-      "star_ratio": 4.282,
-      "momentum_ratio": 1.387,
-      "setup_delta": -41,
-      "dominance": 0.841,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "4.28x the stars (33,351 vs 7,789)",
-        "1.39x the star velocity (78.3/day vs 56.4/day)",
-        "no harder to set up (2 vs 43 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 69,
-        "challenger_health": 81,
-        "incumbent_setup_score": 43,
-        "challenger_setup_score": 2
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

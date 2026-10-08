@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 39,997 |
-| Star velocity | 272.1/day (lifetime basis, 147d span) |
+| Stars | 40,183 |
+| Star velocity | 273.4/day (lifetime basis, 147d span) |
 | Health score | 83/100 |
 | Documentation | 53/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | PowerShell |
 | Created | 2026-05-13 |
-| Last push | 2026-09-22 (15 days ago) |
+| Last push | 2026-09-22 (16 days ago) |
 | Analyzed README | 13,651 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -72,7 +70,7 @@ Score **53/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 92.0 |
+| popularity | 92.1 |
 | momentum | 100.0 |
 | maintenance | 92.0 |
 | documentation | 53.0 |

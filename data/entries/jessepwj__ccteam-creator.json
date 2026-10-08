@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 307,
   "forks": 48,
-  "open_issues": 6,
+  "open_issues": 5,
   "language": "Python",
   "license": "MIT",
   "topics": [],
@@ -19,7 +19,7 @@
   "is_fork": false,
   "default_branch": "master",
   "age_days": 204,
-  "days_since_push": 177,
+  "days_since_push": 178,
   "health_score": 39,
   "health_components": {
     "popularity": 49.7,
@@ -128,17 +128,77 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:03+00:00",
+  "fetched_at": "2026-10-08T11:25:07+00:00",
   "categories": [
     "analytics",
+    "isolation-parallelism",
     "skills"
   ],
-  "primary_category": "analytics",
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 HarnessMD/munder-difflin 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "HarnessMD/munder-difflin",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "jessepwj/ccteam-creator",
+      "challenger": "harnessmd/munder-difflin",
+      "incumbent_name": "jessepwj/CCteam-creator",
+      "challenger_name": "HarnessMD/munder-difflin",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "memory-context",
+        "multi-agent-orchestration",
+        "notifications",
+        "parallel-execution",
+        "session-persistence",
+        "skills-plugins"
+      ],
+      "star_ratio": 27.954,
+      "momentum_ratio": 44.353,
+      "setup_delta": -25,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "27.95x the stars (8,582 vs 307)",
+        "44.35x the star velocity (66.5/day vs 1.5/day)",
+        "no harder to set up (32 vs 57 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "memory-context",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "session-persistence",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 39,
+        "challenger_health": 75,
+        "incumbent_setup_score": 57,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

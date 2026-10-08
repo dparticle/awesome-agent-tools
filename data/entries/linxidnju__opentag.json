@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 102,
-  "days_since_push": 89,
+  "age_days": 103,
+  "days_since_push": 90,
   "health_score": 47,
   "health_components": {
     "popularity": 54.0,
@@ -46,9 +46,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 502,
-    "days_span": 102,
-    "stars_per_day": 4.92,
-    "lifetime_stars_per_day": 4.92,
+    "days_span": 103,
+    "stars_per_day": 4.87,
+    "lifetime_stars_per_day": 4.87,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -134,25 +134,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:59+00:00",
+  "fetched_at": "2026-10-08T11:24:52+00:00",
   "categories": [
-    "security-self-hosting"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "linxidnju/opentag",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "linxidnju/OpenTag",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +160,15 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 58.175,
-      "momentum_ratio": 26.5,
-      "setup_delta": -13,
-      "dominance": 1.0,
+      "star_ratio": 548.225,
+      "momentum_ratio": 214.871,
+      "setup_delta": 12,
+      "dominance": 0.94,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "58.18x the stars (29,204 vs 502)",
-        "26.50x the star velocity (130.4/day vs 4.9/day)",
-        "no harder to set up (32 vs 45 friction)"
+        "548.23x the stars (275,209 vs 502)",
+        "214.87x the star velocity (1046.4/day vs 4.9/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,8 +181,6 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -190,15 +188,16 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
+          "parallel-execution",
           "security-isolation",
           "self-hosted",
           "skills-plugins",
-          "team-collaboration"
+          "worktree-isolation"
         ],
         "incumbent_health": 47,
-        "challenger_health": 88,
+        "challenger_health": 89,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 57
       }
     }
   }

@@ -26,12 +26,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 450,
+  "age_days": 451,
   "days_since_push": 93,
   "health_score": 52,
   "health_components": {
     "popularity": 70.8,
-    "momentum": 6.5,
+    "momentum": 6.4,
     "maintenance": 55.0,
     "documentation": 57.0,
     "accessibility": 90.0
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 3487,
-    "days_span": 450,
-    "stars_per_day": 7.75,
-    "lifetime_stars_per_day": 7.75,
+    "days_span": 451,
+    "stars_per_day": 7.73,
+    "lifetime_stars_per_day": 7.73,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -144,11 +144,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:51+00:00",
+  "fetched_at": "2026-10-08T11:24:26+00:00",
   "categories": [
     "isolation-parallelism",
     "mobile",
-    "voice"
+    "security-self-hosting"
   ],
   "primary_category": "mobile",
   "lifecycle": {

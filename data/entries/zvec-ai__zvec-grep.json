@@ -6,9 +6,9 @@
   "url": "https://github.com/zvec-ai/zvec-grep",
   "description": "Local-first search across your workspace, built for humans and AI agents.",
   "homepage": "",
-  "stars": 3966,
-  "forks": 232,
-  "open_issues": 70,
+  "stars": 3990,
+  "forks": 233,
+  "open_issues": 71,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -24,27 +24,27 @@
     "vector-search"
   ],
   "created_at": "2026-07-10T02:58:07Z",
-  "updated_at": "2026-10-07T11:58:24Z",
-  "pushed_at": "2026-10-04T15:17:24Z",
+  "updated_at": "2026-10-08T10:10:04Z",
+  "pushed_at": "2026-10-08T09:19:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 89,
-  "days_since_push": 3,
+  "age_days": 90,
+  "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 72.0,
-    "momentum": 37.1,
+    "momentum": 36.9,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3966,
-    "days_span": 89,
-    "stars_per_day": 44.56,
-    "lifetime_stars_per_day": 44.56,
+    "stars_gained": 3990,
+    "days_span": 90,
+    "stars_per_day": 44.33,
+    "lifetime_stars_per_day": 44.33,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -124,16 +124,21 @@
     "highlights": [
       "It was carnivorous because it climbed the curtain toward a canary's cage"
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "zg（zvec-grep），由 zvec 驱动， 将 ripgrep、BM25 与向量检索统一在一个本地优先的检索入口中。",
+    "highlights_zh": [
+      "人与 Agent 开箱即用：安装一次、索引一次，即可在 macOS、Linux 和",
+      "更少搜索，更少上下文：经过排序并保留来源的结果，可以减少工具调用、",
+      "Matplotlib — 绘图与渲染库： 任务需要沿数学文本渲染的多个阶段追踪",
+      "Pylint — Python 静态分析器： 任务需要理解 AST 节点处理如何区分带标注与"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:40+00:00",
+  "fetched_at": "2026-10-08T11:23:59+00:00",
   "categories": [
     "security-self-hosting"
   ],

@@ -8,38 +8,38 @@
   "homepage": "https://dark-factory.techmeat.dev",
   "stars": 430,
   "forks": 49,
-  "open_issues": 3,
+  "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-06T07:40:41Z",
-  "updated_at": "2026-10-07T12:03:48Z",
-  "pushed_at": "2026-10-07T12:38:01Z",
+  "updated_at": "2026-10-08T09:31:52Z",
+  "pushed_at": "2026-10-08T09:31:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 154,
+  "age_days": 155,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 52.7,
     "momentum": 2.3,
     "maintenance": 100.0,
-    "documentation": 51.0,
+    "documentation": 48.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 430,
-    "days_span": 154,
-    "stars_per_day": 2.79,
-    "lifetime_stars_per_day": 2.79,
+    "days_span": 155,
+    "stars_per_day": 2.77,
+    "lifetime_stars_per_day": 2.77,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "itechmeat/open-second-brain",
-    "readme_chars": 9285,
+    "readme_chars": 8802,
     "capabilities": [
       "memory-context",
       "mcp-support",
@@ -52,7 +52,7 @@
     },
     "capability_hits": {
       "memory-context": 1,
-      "mcp-support": 5,
+      "mcp-support": 4,
       "cross-agent-support": 7
     },
     "friction": {
@@ -73,7 +73,7 @@
       "note_en": "Easy. configure database dependency",
       "note_zh": "较易上手。需配置 database dependency"
     },
-    "doc_score": 51,
+    "doc_score": 48,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -82,7 +82,6 @@
       "documents configuration",
       "mentions licensing",
       "documents changes",
-      "reports benchmarks",
       "explains architecture"
     ],
     "agents": [
@@ -102,7 +101,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.323
+      "external_link_ratio": 0.341
     },
     "highlights": [
       "MCP surface. Tools, tool profiles for hosts with tool limits, and the always-loaded writer server: docs/mcp.md.",
@@ -119,7 +118,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:00+00:00",
+  "fetched_at": "2026-10-08T11:24:57+00:00",
   "categories": [
     "analytics"
   ],

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,263 |
-| Star velocity | 63.5/day (lifetime basis, 146d span) |
-| Health score | 72/100 |
+| Stars | 9,359 |
+| Star velocity | 64.1/day (lifetime basis, 146d span) |
+| Health score | 73/100 |
 | Documentation | 50/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-05-14 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 15,668 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 15,678 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### GUI / desktop app
 
-> . Code, notes, and sessions stay on your machine. Sign in and create an organisation when you want to sync across a team.
+> . Code, notes, and sessions stay on your machine. Sign in and create an organization when you want to sync across a team.
 
 ### Cross-agent support
 
@@ -81,8 +81,8 @@ Score **50/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.3 |
-| momentum | 52.9 |
+| popularity | 79.4 |
+| momentum | 53.4 |
 | maintenance | 100.0 |
 | documentation | 50.0 |
 | accessibility | 79.0 |

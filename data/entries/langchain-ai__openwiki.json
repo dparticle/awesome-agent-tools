@@ -6,19 +6,19 @@
   "url": "https://github.com/langchain-ai/openwiki",
   "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
   "homepage": "",
-  "stars": 17006,
-  "forks": 1242,
-  "open_issues": 146,
+  "stars": 17024,
+  "forks": 1246,
+  "open_issues": 151,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-22T23:48:26Z",
-  "updated_at": "2026-10-07T13:16:51Z",
-  "pushed_at": "2026-10-07T09:10:04Z",
+  "updated_at": "2026-10-08T11:03:23Z",
+  "pushed_at": "2026-10-08T09:14:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 106,
+  "age_days": 107,
   "days_since_push": 0,
   "health_score": 83,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 17006,
-    "days_span": 106,
-    "stars_per_day": 160.43,
-    "lifetime_stars_per_day": 160.43,
+    "stars_gained": 17024,
+    "days_span": 107,
+    "stars_per_day": 159.1,
+    "lifetime_stars_per_day": 159.1,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "langchain-ai/openwiki",
-    "readme_chars": 49281,
+    "readme_chars": 49388,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -132,7 +132,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.183
+      "external_link_ratio": 0.182
     },
     "highlights": [
       "More coding-agent integrations: Oh My Pi, Antigravity, IBM Bob / Bob Shell, and Kiro join Codex, Claude Code, OpenCode, GitHub Copilot and Cursor.",
@@ -149,10 +149,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:37+00:00",
+  "fetched_at": "2026-10-08T11:23:47+00:00",
   "categories": [
     "model-routing",
-    "security-self-hosting"
+    "remote-control",
+    "self-hosting-security"
   ],
   "primary_category": "model-routing",
   "lifecycle": {

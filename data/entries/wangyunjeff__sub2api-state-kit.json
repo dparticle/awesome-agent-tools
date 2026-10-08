@@ -19,7 +19,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 19,
-  "days_since_push": 15,
+  "days_since_push": 16,
   "health_score": 48,
   "health_components": {
     "popularity": 46.6,
@@ -132,11 +132,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:07+00:00",
+  "fetched_at": "2026-10-08T11:25:22+00:00",
   "categories": [
     "accounts",
     "model-routing",
-    "sharing"
+    "self-hosting-security"
   ],
   "primary_category": "accounts",
   "lifecycle": {

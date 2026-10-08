@@ -12,21 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 157,284 |
-| Star velocity | 1344.3/day (lifetime basis, 117d span) |
-| Health score | 88/100 |
+| Stars | 158,103 |
+| Star velocity | 1339.9/day (lifetime basis, 118d span) |
+| Health score | 86/100 |
 | Documentation | 47/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-06-12 |
-| Last push | 2026-10-05 (1 days ago) |
-| Analyzed README | 11,216 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 11,912 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
+
+> , a parser, money or security leaves one small test behind.
 
 ### Cross-agent support
 
@@ -34,15 +36,13 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Difficulty:** 🟡 Some setup (friction score 42/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that make it easy:** npx one-liner
-
 **Configuration required:** config file, config.json/yaml/toml
 
-*Easy. install via npx one-liner; configure config file, config.json/yaml/toml*
+*Some setup. configure config file, config.json/yaml/toml*
 
 ## Documentation quality
 
@@ -65,7 +65,7 @@ Score **47/100**, based on these detected signals:
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 47.0 |
-| accessibility | 72.0 |
+| accessibility | 58.0 |
 
 ---
 

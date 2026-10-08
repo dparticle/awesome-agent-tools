@@ -6,7 +6,7 @@
   "url": "https://github.com/mco-org/mco",
   "description": "CLI-first orchestration for AI coding agents: run selected agents and models in parallel, compare raw answers, and coordinate review or implementation workflows.",
   "homepage": "",
-  "stars": 530,
+  "stars": 529,
   "forks": 57,
   "open_issues": 0,
   "language": "Python",
@@ -32,13 +32,13 @@
     "windsurf"
   ],
   "created_at": "2026-02-26T07:25:48Z",
-  "updated_at": "2026-10-07T10:57:55Z",
+  "updated_at": "2026-10-08T03:00:00Z",
   "pushed_at": "2026-10-07T10:58:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 223,
-  "days_since_push": 0,
+  "age_days": 224,
+  "days_since_push": 1,
   "health_score": 57,
   "health_components": {
     "popularity": 54.5,
@@ -49,10 +49,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 530,
-    "days_span": 223,
-    "stars_per_day": 2.38,
-    "lifetime_stars_per_day": 2.38,
+    "stars_gained": 529,
+    "days_span": 224,
+    "stars_per_day": 2.36,
+    "lifetime_stars_per_day": 2.36,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -143,11 +143,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:58+00:00",
+  "fetched_at": "2026-10-08T11:24:51+00:00",
   "categories": [
-    "agent-runtime-desktop-ui"
+    "agent-runtime-desktop-ui",
+    "skills"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",

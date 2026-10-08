@@ -6,15 +6,15 @@
   "url": "https://github.com/msitarzewski/agency-agents",
   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
   "homepage": "",
-  "stars": 158113,
-  "forks": 25476,
-  "open_issues": 166,
+  "stars": 158431,
+  "forks": 25527,
+  "open_issues": 178,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-10-13T12:12:29Z",
-  "updated_at": "2026-10-07T13:26:36Z",
-  "pushed_at": "2026-10-06T17:53:59Z",
+  "updated_at": "2026-10-08T11:17:27Z",
+  "pushed_at": "2026-10-07T16:45:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 158113,
+    "stars_gained": 158431,
     "days_span": 359,
-    "stars_per_day": 440.43,
-    "lifetime_stars_per_day": 440.43,
+    "stars_per_day": 441.31,
+    "lifetime_stars_per_day": 441.31,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -180,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:43+00:00",
+  "fetched_at": "2026-10-08T11:24:05+00:00",
   "categories": [
-    "accounts",
-    "teams",
-    "voice"
+    "agent-runtime-desktop-ui",
+    "security-self-hosting",
+    "teams"
   ],
   "primary_category": "teams",
   "lifecycle": {

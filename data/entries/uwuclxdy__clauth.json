@@ -6,9 +6,9 @@
   "url": "https://github.com/uwuclxdy/clauth",
   "description": "Claude Code multi-account manager, usage monitor (CLI, TUI & cross-account delegation via MCP)",
   "homepage": "",
-  "stars": 271,
-  "forks": 31,
-  "open_issues": 20,
+  "stars": 279,
+  "forks": 32,
+  "open_issues": 29,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -30,8 +30,8 @@
     "vibecoded"
   ],
   "created_at": "2026-04-28T12:20:42Z",
-  "updated_at": "2026-10-07T04:47:59Z",
-  "pushed_at": "2026-10-07T05:02:35Z",
+  "updated_at": "2026-10-08T10:32:21Z",
+  "pushed_at": "2026-10-08T08:05:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "mommy",
@@ -39,7 +39,7 @@
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
-    "popularity": 48.7,
+    "popularity": 48.9,
     "momentum": 1.4,
     "maintenance": 100.0,
     "documentation": 57.0,
@@ -47,10 +47,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 271,
+    "stars_gained": 279,
     "days_span": 162,
-    "stars_per_day": 1.67,
-    "lifetime_stars_per_day": 1.67,
+    "stars_per_day": 1.72,
+    "lifetime_stars_per_day": 1.72,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -158,11 +158,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:05+00:00",
+  "fetched_at": "2026-10-08T11:25:12+00:00",
   "categories": [
     "accounts",
     "analytics",
-    "billing"
+    "analytics-2"
   ],
   "primary_category": "accounts",
   "lifecycle": {

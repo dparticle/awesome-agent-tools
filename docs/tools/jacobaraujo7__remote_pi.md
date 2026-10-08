@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 427 |
-| Star velocity | 3.1/day (lifetime basis, 138d span) |
+| Stars | 430 |
+| Star velocity | 3.1/day (lifetime basis, 139d span) |
 | Health score | 50/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-10-06 (1 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -67,7 +67,7 @@ Score **46/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 52.6 |
+| popularity | 52.7 |
 | momentum | 2.6 |
 | maintenance | 100.0 |
 | documentation | 46.0 |

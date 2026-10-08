@@ -6,9 +6,9 @@
   "url": "https://github.com/YoanWai/agent-manager",
   "description": "The fastest developer workflow for every AI coding agent. Live status, quick prompts, worktrees, and diff review from one tmux TUI.",
   "homepage": "https://agent-manager.dev",
-  "stars": 574,
+  "stars": 577,
   "forks": 58,
-  "open_issues": 58,
+  "open_issues": 63,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,8 +34,8 @@
     "wsl"
   ],
   "created_at": "2026-07-15T16:27:33Z",
-  "updated_at": "2026-10-07T08:19:19Z",
-  "pushed_at": "2026-10-06T23:46:55Z",
+  "updated_at": "2026-10-08T09:57:49Z",
+  "pushed_at": "2026-10-08T01:01:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -51,10 +51,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 574,
+    "stars_gained": 577,
     "days_span": 84,
-    "stars_per_day": 6.83,
-    "lifetime_stars_per_day": 6.83,
+    "stars_per_day": 6.87,
+    "lifetime_stars_per_day": 6.87,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -142,71 +142,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:58+00:00",
+  "fetched_at": "2026-10-08T11:24:49+00:00",
   "categories": [
     "isolation-parallelism"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "iOfficeAI/AionUi",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "yoanwai/agent-manager",
-      "challenger": "iofficeai/aionui",
-      "incumbent_name": "YoanWai/agent-manager",
-      "challenger_name": "iOfficeAI/AionUi",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "notifications",
-        "worktree-isolation"
-      ],
-      "star_ratio": 58.103,
-      "momentum_ratio": 11.463,
-      "setup_delta": -11,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "58.10x the stars (33,351 vs 574)",
-        "11.46x the star velocity (78.3/day vs 6.8/day)",
-        "no harder to set up (2 vs 13 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "notifications",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 56,
-        "challenger_health": 81,
-        "incumbent_setup_score": 13,
-        "challenger_setup_score": 2
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

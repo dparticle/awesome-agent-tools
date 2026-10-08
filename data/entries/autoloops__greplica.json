@@ -19,7 +19,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 139,
-  "days_since_push": 69,
+  "days_since_push": 70,
   "health_score": 47,
   "health_components": {
     "popularity": 52.8,
@@ -124,11 +124,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:00+00:00",
+  "fetched_at": "2026-10-08T11:24:56+00:00",
   "categories": [
-    "agent-runtime-desktop-ui"
+    "self-hosting-security",
+    "skills"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

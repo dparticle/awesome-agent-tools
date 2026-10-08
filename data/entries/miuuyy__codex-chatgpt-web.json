@@ -6,9 +6,9 @@
   "url": "https://github.com/miuuyy/codex-chatgpt-web",
   "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
   "homepage": "",
-  "stars": 13629,
-  "forks": 1070,
-  "open_issues": 20,
+  "stars": 13729,
+  "forks": 1072,
+  "open_issues": 26,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,8 +24,8 @@
     "typescript"
   ],
   "created_at": "2026-07-26T13:04:44Z",
-  "updated_at": "2026-10-07T13:23:38Z",
-  "pushed_at": "2026-10-07T07:25:28Z",
+  "updated_at": "2026-10-08T10:57:17Z",
+  "pushed_at": "2026-10-08T04:12:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -33,7 +33,7 @@
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 82.7,
+    "popularity": 82.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 45.0,
@@ -41,16 +41,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 13629,
+    "stars_gained": 13729,
     "days_span": 73,
-    "stars_per_day": 186.7,
-    "lifetime_stars_per_day": 186.7,
+    "stars_per_day": 188.07,
+    "lifetime_stars_per_day": 188.07,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "miuuyy/codex-chatgpt-web",
-    "readme_chars": 10970,
+    "readme_chars": 11334,
     "capabilities": [
       "multi-agent-orchestration",
       "mcp-support"
@@ -112,22 +112,27 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.638
+      "external_link_ratio": 0.618
     },
     "highlights": [
       "Run Verify runtime to confirm that Codex Native2 is attached and available.",
       "Finish the required setup, open MCP, create the Tunnel and regular API key, then press"
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "在 Codex 原生模型选择器中使用账户可用的 ChatGPT 网页版模型，包括 Pro。使用 ChatGPT 网页版的独立额度，不消耗 Work 或 Codex 额度。保留原有的界面、任务、图片和流式输出。",
+    "highlights_zh": [
+      "在 Codex Native2 的 权限 中选择 允许所有操作；允许低风险操作 会在命令和",
+      "在启动器中打开 MCP。请在将使用 ChatGPT 连接器的同一个 OpenAI 账户中创建 Tunnel",
+      "粘贴 Tunnel ID 和 API 密钥，然后点击 连接 Harness。",
+      "运行 验证运行时，确认 Codex Native2 已连接并可用。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:37+00:00",
+  "fetched_at": "2026-10-08T11:23:48+00:00",
   "categories": [
     "security-self-hosting"
   ],

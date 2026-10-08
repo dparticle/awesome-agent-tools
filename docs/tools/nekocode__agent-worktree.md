@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 279 |
-| Star velocity | 1.1/day (lifetime basis, 244d span) |
+| Star velocity | 1.1/day (lifetime basis, 245d span) |
 | Health score | 47/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-08-25 (43 days ago) |
 | Analyzed README | 9,327 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [redhat-et/ripwire](https://github.com/redhat-et/ripwire)** — Superseded by redhat-et/ripwire: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** — Superseded by asheshgoplani/agent-deck: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -81,7 +81,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 48.9 |
-| momentum | 1.0 |
+| momentum | 0.9 |
 | maintenance | 78.0 |
 | documentation | 54.0 |
 | accessibility | 72.0 |

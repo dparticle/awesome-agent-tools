@@ -6,8 +6,8 @@
   "url": "https://github.com/google/artemis",
   "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
   "homepage": "",
-  "stars": 11084,
-  "forks": 1131,
+  "stars": 11137,
+  "forks": 1137,
   "open_issues": 129,
   "language": "Python",
   "license": "Apache-2.0",
@@ -19,13 +19,13 @@
     "testing"
   ],
   "created_at": "2026-08-13T17:59:37Z",
-  "updated_at": "2026-10-07T13:19:02Z",
+  "updated_at": "2026-10-08T10:12:20Z",
   "pushed_at": "2026-10-01T21:37:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 54,
-  "days_since_push": 5,
+  "age_days": 55,
+  "days_since_push": 6,
   "health_score": 83,
   "health_components": {
     "popularity": 80.9,
@@ -36,10 +36,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 11084,
-    "days_span": 54,
-    "stars_per_day": 205.26,
-    "lifetime_stars_per_day": 205.26,
+    "stars_gained": 11137,
+    "days_span": 55,
+    "stars_per_day": 202.49,
+    "lifetime_stars_per_day": 202.49,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -134,19 +134,24 @@
       "thirdparty/mobileuse – portions of mobile-use by Minitap, Inc., Apache License 2.0.",
       "Cross-App Automation: Executes testing workflows and everyday tasks on Android from natural language instructions."
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "跨 App 自动化：根据自然语言指令，在 Android 上执行测试流程和日常任务。",
+    "highlights_zh": [
+      "AndroidWorld 结果：在 Google Research AndroidWorld 基准评测（100+ 多步任务）中取得 99%+ 任务完成率。",
+      "全局挂载 MCP 服务与测试准则 (Rules)：主动引导并自动将全局 MCP 服务与 Artemis 移动端测试思维准则 (rules.md) 挂载至你使用的 AI IDE（支持 Antigravity、Cursor、Claude Code、Codex、Windsurf、VS Code、Cline/Roo、OpenClaw）。",
+      "Flash 执行：使用观察、执行循环和异步历史摘要，单步通常约 3–5 秒。",
+      "跨 App 自动化：根据自然语言指令，在 Android 上执行测试流程和日常任务。"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:38+00:00",
+  "fetched_at": "2026-10-08T11:23:49+00:00",
   "categories": [
     "mobile",
-    "skills"
+    "security-self-hosting"
   ],
   "primary_category": "mobile",
   "lifecycle": {

@@ -7,23 +7,23 @@
   "description": "omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcocde with mobile client",
   "homepage": "https://omg.dev",
   "stars": 547,
-  "forks": 43,
+  "forks": 42,
   "open_issues": 9,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-10-07T12:07:51Z",
-  "pushed_at": "2026-10-07T12:07:47Z",
+  "updated_at": "2026-10-08T11:17:57Z",
+  "pushed_at": "2026-10-08T11:17:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 112,
+  "age_days": 113,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 54.8,
-    "momentum": 4.1,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 43.0,
     "accessibility": 69.0
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 547,
-    "days_span": 112,
-    "stars_per_day": 4.88,
-    "lifetime_stars_per_day": 4.88,
+    "days_span": 113,
+    "stars_per_day": 4.84,
+    "lifetime_stars_per_day": 4.84,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -133,10 +133,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:58+00:00",
+  "fetched_at": "2026-10-08T11:24:50+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile"
+    "mobile",
+    "remote-control"
   ],
   "primary_category": "mobile",
   "lifecycle": {

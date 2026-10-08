@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "full_name": "future-agi/future-agi",
+  "name": "future-agi",
+  "owner": "future-agi",
+  "url": "https://github.com/future-agi/future-agi",
+  "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
+  "homepage": "https://futureagi.com",
+  "stars": 2124,
+  "forks": 669,
+  "open_issues": 1053,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-evaluation",
+    "ai-agents",
+    "ai-evals",
+    "ai-gateway",
+    "ai-observability",
+    "evals",
+    "evaluation-framework",
+    "guardrails",
+    "hallucination-detection",
+    "llm-evaluation",
+    "llm-observability",
+    "llm-tracing",
+    "llmops",
+    "model-evaluation",
+    "observability",
+    "opentelemetry",
+    "rag-evaluation",
+    "simulation",
+    "telemetry",
+    "tracing"
+  ],
+  "created_at": "2026-04-23T14:11:31Z",
+  "updated_at": "2026-10-08T08:55:09Z",
+  "pushed_at": "2026-10-08T11:13:33Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 167,
+  "days_since_push": 0,
+  "health_score": 61,
+  "health_components": {
+    "popularity": 66.5,
+    "momentum": 10.6,
+    "maintenance": 100.0,
+    "documentation": 80.0,
+    "accessibility": 55.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2124,
+    "days_span": 167,
+    "stars_per_day": 12.72,
+    "lifetime_stars_per_day": 12.72,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "future-agi/future-agi",
+    "readme_chars": 27493,
+    "capabilities": [
+      "api-gateway",
+      "billing-metering",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted"
+    ],
+    "capability_evidence": {
+      "api-gateway": "Self-host ✅ ✅ ✅ ❌ ✅ LLM tracing (OpenTelemetry) ✅ ✅ ✅ ✅ ⚠️ via OpenLLMetry Evaluation suites ✅ 50+ metrics ✅ ✅ ✅ ⚠️ Limited Agent simulation ✅ ❌ ❌ ❌ ❌ Voice agent eval ✅ ❌ ⚠️ Cookbook ❌ ❌ LLM gateway built in ✅ 100+ pro…",
+      "billing-metering": "",
+      "memory-context": "- *Customer Support:* Ship support AI that customers actually trust - *Voice Agents:* Test, evaluate, and improve voice AI end-to-end - *Internal Tools:* AI copilots your whole org can rely on - *RAG & Search:* Every an…",
+      "agent-runtime": "arch:* Every answer grounded, every citation verified",
+      "mcp-support": "raphs, latency, token cost, live dashboards.",
+      "self-hosted": "luations, tracing, simulations, guardrails, gateway, optimization."
+    },
+    "capability_hits": {
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "memory-context": 1,
+      "agent-runtime": 2,
+      "mcp-support": 2,
+      "self-hosted": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 45,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "helm install",
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "no-code positioning"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via pip install, native installer / package; needs docker compose up, helm install; configure API key configuration, sign-in required; no-code positioning",
+      "note_zh": "需要一些配置。可通过 pip install、native installer / package 安装；需要 docker compose up、helm install；需配置 API key configuration、sign-in required；no-code positioning"
+    },
+    "doc_score": 80,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [],
+    "summary_en": "╔═════════════════════════════════════════════════════════════════════════════╗ ║ MARKETING NOTES FOR IMAGE ASSETS ║ ║ All images below live under .github/assets/.",
+    "summary_zh": "",
+    "install_hint": "pip install fi-instrumentation-otel",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.528
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-08T11:24:29+00:00",
+  "categories": [
+    "billing",
+    "self-hosting-security"
+  ],
+  "primary_category": "self-hosting-security",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

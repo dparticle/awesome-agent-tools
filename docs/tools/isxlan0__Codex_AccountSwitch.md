@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 252 |
+| Stars | 251 |
 | Star velocity | 1.0/day (lifetime basis, 243d span) |
 | Health score | 41/100 |
 | Documentation | 32/100 |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | C++ |
 | Created | 2026-02-06 |
-| Last push | 2026-07-24 (75 days ago) |
+| Last push | 2026-07-24 (76 days ago) |
 | Analyzed README | 4,144 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [yetone/magpie](https://github.com/yetone/magpie)** — Superseded by yetone/magpie: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).
 
 ## What it solves
 

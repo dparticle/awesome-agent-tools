@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 18,691 |
-| Star velocity | 70.8/day (lifetime basis, 264d span) |
+| Stars | 18,720 |
+| Star velocity | 70.6/day (lifetime basis, 265d span) |
 | Health score | 77/100 |
 | Documentation | 60/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-10-01 (5 days ago) |
-| Analyzed README | 15,888 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-07 (0 days ago) |
+| Analyzed README | 16,669 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,7 @@
 
 ### API gateway / proxy
 
-> ity 账号切号逻辑参考：Antigravity-Manager
+> 和 JSON／纯文本返回，model 仅作为兼容字段，实际模型由 backend 决定；字幕时间戳、流式转写及其他音频操作需使用支持相应接口的 API Key 供应商。
 
 ### Billing & metering
 
@@ -63,6 +63,8 @@
 > Claude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch
 
 ### Agent runtime
+
+> 收规则、Agent Identity runtime 注册协议、Ed25519 密钥格式、Responses 客户端 freeform 工具调用（customtool_call）事件语义、Responses Lite 请求标记与并行工具约束，以及鹈鹕测智的响应生命周期与生成产物处理思路参考官方实现：openai/codex（Apache-2.0）；鹈鹕测智使用直接对话请求，不等同于官方客户端的完整编码 Agent 流程。
 
 ### Security & isolation
 
@@ -111,7 +113,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.4 |
-| momentum | 59.0 |
+| momentum | 58.9 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 74.0 |

@@ -6,9 +6,9 @@
   "url": "https://github.com/topoteretes/cognee",
   "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
   "homepage": "https://www.cognee.ai",
-  "stars": 31529,
-  "forks": 3233,
-  "open_issues": 493,
+  "stars": 31620,
+  "forks": 3254,
+  "open_issues": 538,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -33,8 +33,8 @@
     "vector-database"
   ],
   "created_at": "2023-08-16T16:16:33Z",
-  "updated_at": "2026-10-07T13:16:51Z",
-  "pushed_at": "2026-10-07T13:31:14Z",
+  "updated_at": "2026-10-08T11:20:03Z",
+  "pushed_at": "2026-10-08T10:23:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -43,23 +43,23 @@
   "health_score": 69,
   "health_components": {
     "popularity": 90.0,
-    "momentum": 22.9,
+    "momentum": 23.0,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 60.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 31529,
+    "stars_gained": 31620,
     "days_span": 1148,
-    "stars_per_day": 27.46,
-    "lifetime_stars_per_day": 27.46,
+    "stars_per_day": 27.54,
+    "lifetime_stars_per_day": 27.54,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "topoteretes/cognee",
-    "readme_chars": 18159,
+    "readme_chars": 18179,
     "capabilities": [
       "model-routing",
       "memory-context",
@@ -134,12 +134,11 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.707
+      "external_link_ratio": 1.705
     },
     "highlights": [
       "v1.6.0 — Keyless workflows & pipeline reliability (September 18, 2026): build and search text memory with local models and no cloud LLM key; LLM-dependent improvement stages skip when no LL…",
       "Run the prebuilt API with Docker Compose or use the deployment templates.",
-      "Build a Company Brain from a database, a ticket export, and meeting notes, then browse it in the UI and query it from Claude Code or Codex.",
       "Run with local Ollama models, including a local embedding model."
     ],
     "summary_zh_native": "",
@@ -151,10 +150,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:48+00:00",
+  "fetched_at": "2026-10-08T11:24:17+00:00",
   "categories": [
-    "analytics",
-    "security-self-hosting"
+    "analytics"
   ],
   "primary_category": "analytics",
   "lifecycle": {

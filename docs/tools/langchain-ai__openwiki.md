@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 17,006 |
-| Star velocity | 160.4/day (lifetime basis, 106d span) |
+| Stars | 17,024 |
+| Star velocity | 159.1/day (lifetime basis, 107d span) |
 | Health score | 83/100 |
 | Documentation | 64/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-22 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 49,281 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 49,388 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

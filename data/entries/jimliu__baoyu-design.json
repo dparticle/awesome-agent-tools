@@ -6,8 +6,8 @@
   "url": "https://github.com/JimLiu/baoyu-design",
   "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
   "homepage": "",
-  "stars": 4258,
-  "forks": 289,
+  "stars": 4261,
+  "forks": 291,
   "open_issues": 2,
   "language": "JavaScript",
   "license": "MIT",
@@ -22,27 +22,27 @@
     "ui-design"
   ],
   "created_at": "2026-06-07T01:16:18Z",
-  "updated_at": "2026-10-07T04:04:11Z",
+  "updated_at": "2026-10-08T08:48:29Z",
   "pushed_at": "2026-09-23T05:34:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 122,
-  "days_since_push": 14,
+  "age_days": 123,
+  "days_since_push": 15,
   "health_score": 67,
   "health_components": {
     "popularity": 72.6,
-    "momentum": 29.1,
+    "momentum": 28.9,
     "maintenance": 92.0,
     "documentation": 61.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4258,
-    "days_span": 122,
-    "stars_per_day": 34.9,
-    "lifetime_stars_per_day": 34.9,
+    "stars_gained": 4261,
+    "days_span": 123,
+    "stars_per_day": 34.64,
+    "lifetime_stars_per_day": 34.64,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -128,19 +128,24 @@
       "\"Make a 10‑slide deck from this PRD for an engineering all‑hands.\"",
       "\"Design 3 hi‑fi variations of a pricing page using the brand in this screenshot.\""
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "在你自己的本地 Agent 上运行 Claude Design —— Cursor、Claude Code、Claude Desktop，或任何能读写文件的编码 Agent。",
+    "highlights_zh": [
+      "一个本地 Agent —— Cursor、Claude Code、Codex，或安装器支持的其余 70+ 个 Agent（Cline、Roo Code、GitHub Copilot……）。",
+      "搭配 Opus 4.8 效果最佳。 这个技能本身是一份冗长且要求很高的设计指令，模型越强、效果越好。建议搭配 Claude Opus 4.8 获得最佳结果；在其他能力足够的模型上也能良好运行。",
+      "可编辑模式递归遍历活的 DOM，把每个元素序列化为 { tag, rect, style, children } 的 JSON 树，文本用 Range.getBoundingClientRect() 拿到精确行盒。",
+      "Figma .fig 文件 —— 完全离线解码。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:40+00:00",
+  "fetched_at": "2026-10-08T11:23:58+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "mobile"
+    "mobile",
+    "skills"
   ],
   "primary_category": "mobile",
   "lifecycle": {

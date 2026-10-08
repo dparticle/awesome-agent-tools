@@ -6,7 +6,7 @@
   "url": "https://github.com/appautomaton/latex-arxiv-SKILL",
   "description": "A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.",
   "homepage": "https://appautomaton.com/latex-arxiv-SKILL/",
-  "stars": 457,
+  "stars": 458,
   "forks": 40,
   "open_issues": 1,
   "language": "TeX",
@@ -34,12 +34,12 @@
     "scientific-writing"
   ],
   "created_at": "2025-03-18T17:58:07Z",
-  "updated_at": "2026-10-07T07:03:23Z",
+  "updated_at": "2026-10-08T07:31:39Z",
   "pushed_at": "2026-09-13T16:17:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 567,
+  "age_days": 568,
   "days_since_push": 24,
   "health_score": 48,
   "health_components": {
@@ -51,8 +51,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 457,
-    "days_span": 567,
+    "stars_gained": 458,
+    "days_span": 568,
     "stars_per_day": 0.81,
     "lifetime_stars_per_day": 0.81,
     "basis": "lifetime",
@@ -133,26 +133,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:59+00:00",
+  "fetched_at": "2026-10-08T11:24:55+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "model-routing"
+    "model-routing",
+    "skills"
   ],
   "primary_category": "model-routing",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by trailhq/Graft: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 trailhq/Graft 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "trailhq/Graft",
+    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "nexu-io/open-design",
     "challenger": "",
     "supersede": {
       "incumbent": "appautomaton/latex-arxiv-skill",
-      "challenger": "trailhq/graft",
+      "challenger": "nexu-io/open-design",
       "incumbent_name": "appautomaton/latex-arxiv-SKILL",
-      "challenger_name": "trailhq/Graft",
+      "challenger_name": "nexu-io/open-design",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +160,15 @@
         "model-routing",
         "skills-plugins"
       ],
-      "star_ratio": 21.138,
-      "momentum_ratio": 124.222,
-      "setup_delta": 1,
-      "dominance": 0.995,
+      "star_ratio": 218.275,
+      "momentum_ratio": 757.173,
+      "setup_delta": -7,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "21.14x the stars (9,660 vs 457)",
-        "124.22x the star velocity (100.6/day vs 0.8/day)",
-        "slightly heavier setup (+1 friction, within tolerance)"
+        "218.28x the stars (99,970 vs 458)",
+        "757.17x the star velocity (613.3/day vs 0.8/day)",
+        "no harder to set up (29 vs 36 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -183,14 +183,19 @@
           "api-gateway",
           "billing-metering",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
+          "mobile-access",
           "model-routing",
+          "quota-distribution",
+          "self-hosted",
+          "session-persistence",
           "skills-plugins"
         ],
         "incumbent_health": 48,
-        "challenger_health": 79,
+        "challenger_health": 95,
         "incumbent_setup_score": 36,
-        "challenger_setup_score": 37
+        "challenger_setup_score": 29
       }
     }
   }

@@ -134,26 +134,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:01+00:00",
+  "fetched_at": "2026-10-08T11:25:02+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "security-self-hosting"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "nwiizo/tfmcp",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "nwiizo/tfmcp",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "gui-desktop",
@@ -162,15 +161,15 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 78.295,
-      "momentum_ratio": 200.585,
-      "setup_delta": -20,
-      "dominance": 1.0,
+      "star_ratio": 737.826,
+      "momentum_ratio": 1609.877,
+      "setup_delta": 5,
+      "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "78.29x the stars (29,204 vs 373)",
-        "200.58x the star velocity (130.4/day vs 0.7/day)",
-        "no harder to set up (32 vs 52 friction)"
+        "737.83x the stars (275,209 vs 373)",
+        "1609.88x the star velocity (1046.4/day vs 0.7/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -184,8 +183,6 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -193,15 +190,16 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
+          "parallel-execution",
           "security-isolation",
           "self-hosted",
           "skills-plugins",
-          "team-collaboration"
+          "worktree-isolation"
         ],
         "incumbent_health": 52,
-        "challenger_health": 88,
+        "challenger_health": 89,
         "incumbent_setup_score": 52,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 57
       }
     }
   }

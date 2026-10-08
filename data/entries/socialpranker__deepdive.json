@@ -6,7 +6,7 @@
   "url": "https://github.com/Socialpranker/deepdive",
   "description": "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints.",
   "homepage": "https://socialpranker.github.io/deepdive/",
-  "stars": 372,
+  "stars": 371,
   "forks": 3,
   "open_issues": 1,
   "language": "Python",
@@ -29,13 +29,13 @@
     "research-methodology"
   ],
   "created_at": "2026-05-21T11:43:13Z",
-  "updated_at": "2026-10-01T17:22:31Z",
+  "updated_at": "2026-10-07T15:41:58Z",
   "pushed_at": "2026-10-04T09:24:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 139,
-  "days_since_push": 3,
+  "days_since_push": 4,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -46,10 +46,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 372,
+    "stars_gained": 371,
     "days_span": 139,
-    "stars_per_day": 2.68,
-    "lifetime_stars_per_day": 2.68,
+    "stars_per_day": 2.67,
+    "lifetime_stars_per_day": 2.67,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:02+00:00",
+  "fetched_at": "2026-10-08T11:25:02+00:00",
   "categories": [
     "model-routing",
     "skills"

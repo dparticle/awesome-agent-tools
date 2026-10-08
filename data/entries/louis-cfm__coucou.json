@@ -6,9 +6,9 @@
   "url": "https://github.com/Louis-CFM/coucou",
   "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
   "homepage": "https://louis-cfm.github.io/coucou/",
-  "stars": 3920,
-  "forks": 657,
-  "open_issues": 169,
+  "stars": 4138,
+  "forks": 689,
+  "open_issues": 158,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windows"
   ],
   "created_at": "2026-09-27T21:54:12Z",
-  "updated_at": "2026-10-07T13:33:53Z",
-  "pushed_at": "2026-10-07T13:31:19Z",
+  "updated_at": "2026-10-08T11:19:34Z",
+  "pushed_at": "2026-10-08T11:17:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 9,
+  "age_days": 10,
   "days_since_push": 0,
   "health_score": 83,
   "health_components": {
-    "popularity": 71.9,
+    "popularity": 72.3,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 59.0,
+    "documentation": 60.0,
     "accessibility": 77.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3920,
-    "days_span": 9,
-    "stars_per_day": 435.56,
-    "lifetime_stars_per_day": 435.56,
+    "stars_gained": 4138,
+    "days_span": 10,
+    "stars_per_day": 413.8,
+    "lifetime_stars_per_day": 413.8,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Louis-CFM/coucou",
-    "readme_chars": 23266,
+    "readme_chars": 25001,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -79,7 +79,7 @@
       "model-routing": "p to the right terminal — open the exact terminal window of a session (macOS).",
       "agent-runtime": "",
       "security-isolation": "See what Claude is editing, live in the notch: each file modification shows the file name and +N −M counts in the ticker, tap to read the full diff",
-      "gui-desktop": "out as a beta: download it from Coucou for Linux 0.1.1 (beta), x8664 only for now.",
+      "gui-desktop": "ting from 0.1.0? macOS may ask you, once for each key you saved, to let Coucou use it: enter your Mac password and click Always Allow.",
       "notifications": "your iPhone's Lock Screen and Dynamic Island with the agent's state, then comes back to the notch when you unlock.",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
     },
@@ -90,7 +90,7 @@
       "model-routing": 1,
       "agent-runtime": 1,
       "security-isolation": 2,
-      "gui-desktop": 4,
+      "gui-desktop": 6,
       "notifications": 3,
       "cross-agent-support": 7
     },
@@ -124,7 +124,7 @@
       "note_en": "Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, database dependency; one-click setup",
       "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、database dependency；one-click setup"
     },
-    "doc_score": 59,
+    "doc_score": 60,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -153,13 +153,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.547
+      "external_link_ratio": 1.6
     },
     "highlights": [
-      "🤖 Claude Code, Cursor, Codex, Gemini CLI, Antigravity, Copilot CLI, Muse Code, OpenCode, Amp and other agents, live — see every session in your notch: what it reads, edits and runs, step by…",
       "📋 Declare the tools you use — open Settings → Active pills and pick your main workspace tool (VS Code, Cursor, Codex or Antigravity), then toggle up to 4 more: Gemini CLI, Anthropic, Google…",
       "💬 Chat with Claude, Gemini, OpenAI, or a local model (Ollama / LM Studio) — click the model name above the chat box to switch provider and pick a model.",
-      "✅ Approve and answer from the notch — Claude Code permission requests show up with Allow / Deny / Always; AskUserQuestion prompts show the choices right in the notch (single or multi-select…"
+      "✅ Approve and answer from the notch — Claude Code permission requests show up with Allow / Deny / Always; AskUserQuestion prompts show the choices right in the notch (single or multi-select…",
+      "📊 Codex plan usage (macOS, GitHub build) — a Codex pill next to it shows your Codex limits and how many free resets you have left, read from the Codex CLI."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -170,11 +170,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:40+00:00",
+  "fetched_at": "2026-10-08T11:23:58+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile",
-    "model-routing"
+    "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {

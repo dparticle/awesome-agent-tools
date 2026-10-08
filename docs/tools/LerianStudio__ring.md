@@ -13,18 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 217 |
-| Star velocity | 0.6/day (lifetime basis, 341d span) |
-| Health score | 48/100 |
+| Star velocity | 0.6/day (lifetime basis, 342d span) |
+| Health score | 50/100 |
 | Documentation | 60/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | HTML |
 | Created | 2025-10-30 |
-| Last push | 2026-09-18 (18 days ago) |
+| Last push | 2026-10-07 (0 days ago) |
 | Analyzed README | 34,653 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [redhat-et/ripwire](https://github.com/redhat-et/ripwire)** — Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -83,7 +83,7 @@ Score **60/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 46.7 |
 | momentum | 0.5 |
-| maintenance | 92.0 |
+| maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 60.0 |
 

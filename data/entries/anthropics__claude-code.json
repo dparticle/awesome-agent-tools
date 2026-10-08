@@ -6,15 +6,15 @@
   "url": "https://github.com/anthropics/claude-code",
   "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
   "homepage": "https://code.claude.com/docs/en/overview",
-  "stars": 149710,
-  "forks": 25716,
-  "open_issues": 14470,
+  "stars": 149840,
+  "forks": 25725,
+  "open_issues": 14519,
   "language": "TypeScript",
   "license": "",
   "topics": [],
   "created_at": "2025-02-22T17:41:21Z",
-  "updated_at": "2026-10-07T13:15:32Z",
-  "pushed_at": "2026-10-07T00:13:58Z",
+  "updated_at": "2026-10-08T11:23:43Z",
+  "pushed_at": "2026-10-08T05:03:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 149710,
+    "stars_gained": 149840,
     "days_span": 592,
-    "stars_per_day": 252.89,
-    "lifetime_stars_per_day": 252.89,
+    "stars_per_day": 253.11,
+    "lifetime_stars_per_day": 253.11,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -108,11 +108,11 @@
     "seed_reason": "The reference agentic coding tool.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T17:47:37+00:00",
+  "fetched_at": "2026-10-08T11:23:45+00:00",
   "categories": [
-    "agent-runtime-desktop-ui"
+    "skills"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",

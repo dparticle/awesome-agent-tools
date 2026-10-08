@@ -2,7 +2,7 @@
 
 # Gentleman-Programming/engram
 
-> sealed_token is a GitHub fine-grained token encrypted against Star History's public key, so only the encrypted value is published here.
+> Your AI coding agent forgets everything when the session ends.
 
 [Repository](https://github.com/Gentleman-Programming/engram) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,070 |
-| Star velocity | 30.3/day (lifetime basis, 233d span) |
-| Health score | 67/100 |
-| Documentation | 54/100 |
+| Stars | 7,087 |
+| Star velocity | 30.4/day (lifetime basis, 233d span) |
+| Health score | 65/100 |
+| Documentation | 57/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-16 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 14,668 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 20,742 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,15 +32,13 @@
 
 ### Memory & context
 
-> Persistent memory for AI coding agents
+> ehavior, manual MCP setup, compaction resilience, and troubleshooting: Agent Setup → · Pi users can also find the package at gentle-engram.
 
 ### Agent runtime
 
-> Persistent memory for AI coding agents
-
 ### MCP support
 
-> ace of a memory in the brain.
+> any MCP-compatible agent · per-agent setup →
 
 ### Cross-agent support
 
@@ -48,20 +46,20 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 22/100)
-- **Out of the box:** yes
+- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install gentleman-programming/tap/engram`
 
 **Signals that make it easy:** Homebrew install
 
-**Configuration required:** database dependency
+**Configuration required:** environment variables, database dependency
 
-*Easy. install via Homebrew install; configure database dependency*
+*Easy. install via Homebrew install; configure environment variables, database dependency*
 
 ## Documentation quality
 
-Score **54/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -72,6 +70,7 @@ Score **54/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
@@ -80,8 +79,8 @@ Score **54/100**, based on these detected signals:
 | popularity | 77.0 |
 | momentum | 25.3 |
 | maintenance | 100.0 |
-| documentation | 54.0 |
-| accessibility | 90.0 |
+| documentation | 57.0 |
+| accessibility | 72.0 |
 
 ---
 

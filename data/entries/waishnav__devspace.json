@@ -6,9 +6,9 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "",
-  "stars": 5208,
+  "stars": 5209,
   "forks": 587,
-  "open_issues": 67,
+  "open_issues": 68,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,13 +21,13 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-10-07T10:06:59Z",
-  "pushed_at": "2026-10-05T12:03:47Z",
+  "updated_at": "2026-10-08T10:59:33Z",
+  "pushed_at": "2026-10-07T15:16:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 115,
-  "days_since_push": 2,
+  "days_since_push": 0,
   "health_score": 66,
   "health_components": {
     "popularity": 74.3,
@@ -38,10 +38,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5208,
+    "stars_gained": 5209,
     "days_span": 115,
-    "stars_per_day": 45.29,
-    "lifetime_stars_per_day": 45.29,
+    "stars_per_day": 45.3,
+    "lifetime_stars_per_day": 45.3,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -137,12 +137,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:40+00:00",
+  "fetched_at": "2026-10-08T11:23:57+00:00",
   "categories": [
-    "isolation-parallelism",
+    "agent-runtime-desktop-ui",
+    "remote-control",
     "security-self-hosting"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "remote-control",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (6/6).",
@@ -166,14 +167,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 2.859,
-      "momentum_ratio": 1.731,
+      "star_ratio": 2.862,
+      "momentum_ratio": 1.732,
       "setup_delta": 1,
-      "dominance": 0.852,
+      "dominance": 0.853,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.86x the stars (14,892 vs 5,208)",
-        "1.73x the star velocity (78.4/day vs 45.3/day)",
+        "2.86x the stars (14,910 vs 5,209)",
+        "1.73x the star velocity (78.5/day vs 45.3/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -202,7 +203,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 66,
-        "challenger_health": 77,
+        "challenger_health": 78,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 29
       }

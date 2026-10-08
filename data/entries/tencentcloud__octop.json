@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 7628,
-  "forks": 922,
-  "open_issues": 747,
+  "stars": 7918,
+  "forks": 951,
+  "open_issues": 700,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-10-07T13:32:33Z",
-  "pushed_at": "2026-10-06T15:27:48Z",
+  "updated_at": "2026-10-08T11:20:17Z",
+  "pushed_at": "2026-10-08T07:06:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 91,
-  "days_since_push": 1,
-  "health_score": 80,
+  "days_since_push": 0,
+  "health_score": 81,
   "health_components": {
-    "popularity": 77.6,
-    "momentum": 69.9,
+    "popularity": 78.0,
+    "momentum": 72.5,
     "maintenance": 100.0,
     "documentation": 78.0,
     "accessibility": 74.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7628,
+    "stars_gained": 7918,
     "days_span": 91,
-    "stars_per_day": 83.82,
-    "lifetime_stars_per_day": 83.82,
+    "stars_per_day": 87.01,
+    "lifetime_stars_per_day": 87.01,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "TencentCloud/Octop",
-    "readme_chars": 28165,
+    "readme_chars": 28166,
     "capabilities": [
       "auto-failover",
       "mobile-access",
@@ -177,19 +177,24 @@
       "HTTP/SSE/WebSocket API — full programmatic access",
       "Multi-user isolation: JWT auth with per-user agents and workspaces."
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "Octop 是一个开源、自托管的 AI 助手。它不仅是工具，更是可并行运作的数字生命体。通过多 Agent 架构，它为团队、家庭和个人构建了既独立又协作的智能环境。并且这一切都运行在你的机器上——完全自托管的设计让隐私不再是妥协，而单进程启动的便捷性，则让强大的 Web 控制台、CLI 与 IM 集成触手可及。",
+    "highlights_zh": [
+      "无需预先安装 Python — 安装脚本通过 uv 在 ~/.octop/ 下创建隔离的 Python 3.12 虚拟环境",
+      "Octop Browser — 基于 CDP 的浏览器自动化，支持持久化配置，用于网页类任务。",
+      "Octop Gateway — 多平台 IM 通道桥接，将各类入站消息归一为统一的处理管线。",
+      "Octop Harness — Agent 运行时：模型路由、工具、技能与对话检查点。"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:39+00:00",
+  "fetched_at": "2026-10-08T11:23:53+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "model-routing",
+    "security-self-hosting",
     "teams"
   ],
   "primary_category": "teams",

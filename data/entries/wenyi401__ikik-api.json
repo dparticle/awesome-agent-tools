@@ -18,7 +18,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 104,
+  "age_days": 105,
   "days_since_push": 20,
   "health_score": 42,
   "health_components": {
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 241,
-    "days_span": 104,
-    "stars_per_day": 2.32,
-    "lifetime_stars_per_day": 2.32,
+    "days_span": 105,
+    "stars_per_day": 2.3,
+    "lifetime_stars_per_day": 2.3,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -136,13 +136,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:06+00:00",
+  "fetched_at": "2026-10-08T11:25:16+00:00",
   "categories": [
     "accounts",
     "model-routing",
-    "sharing"
+    "self-hosting-security"
   ],
-  "primary_category": "sharing",
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5448,
-  "forks": 505,
-  "open_issues": 47,
+  "stars": 5486,
+  "forks": 508,
+  "open_issues": 46,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-10-07T13:32:11Z",
-  "pushed_at": "2026-10-07T12:49:58Z",
+  "updated_at": "2026-10-08T11:11:34Z",
+  "pushed_at": "2026-10-08T11:10:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 96,
+  "age_days": 97,
   "days_since_push": 0,
   "health_score": 73,
   "health_components": {
-    "popularity": 74.7,
-    "momentum": 47.3,
+    "popularity": 74.8,
+    "momentum": 47.1,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 71.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5448,
-    "days_span": 96,
-    "stars_per_day": 56.75,
-    "lifetime_stars_per_day": 56.75,
+    "stars_gained": 5486,
+    "days_span": 97,
+    "stars_per_day": 56.56,
+    "lifetime_stars_per_day": 56.56,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 32685,
+    "readme_chars": 32808,
     "capabilities": [
       "remote-control",
       "model-routing",
@@ -154,7 +154,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.459
+      "external_link_ratio": 0.457
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -166,13 +166,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:40+00:00",
+  "fetched_at": "2026-10-08T11:23:56+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "billing",
-    "security-self-hosting"
+    "remote-control"
   ],
-  "primary_category": "billing",
+  "primary_category": "remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

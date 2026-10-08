@@ -24,7 +24,7 @@
   "is_fork": false,
   "default_branch": "dev",
   "age_days": 106,
-  "days_since_push": 6,
+  "days_since_push": 7,
   "health_score": 50,
   "health_components": {
     "popularity": 52.8,
@@ -160,11 +160,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:00+00:00",
+  "fetched_at": "2026-10-08T11:24:57+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "analytics",
-    "model-routing"
+    "model-routing",
+    "skills"
   ],
   "primary_category": "model-routing",
   "lifecycle": {

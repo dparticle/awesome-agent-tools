@@ -6,20 +6,20 @@
   "url": "https://github.com/Pimzino/spec-workflow-mcp",
   "description": "A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.",
   "homepage": "",
-  "stars": 4301,
+  "stars": 4302,
   "forks": 355,
   "open_issues": 10,
   "language": "TypeScript",
   "license": "GPL-3.0",
   "topics": [],
   "created_at": "2025-08-07T13:18:06Z",
-  "updated_at": "2026-10-06T13:23:28Z",
+  "updated_at": "2026-10-07T15:29:28Z",
   "pushed_at": "2026-07-03T19:19:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 426,
-  "days_since_push": 95,
+  "days_since_push": 96,
   "health_score": 47,
   "health_components": {
     "popularity": 72.7,
@@ -30,7 +30,7 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4301,
+    "stars_gained": 4302,
     "days_span": 426,
     "stars_per_day": 10.1,
     "lifetime_stars_per_day": 10.1,
@@ -142,11 +142,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:50+00:00",
+  "fetched_at": "2026-10-08T11:24:24+00:00",
   "categories": [
-    "security-self-hosting"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
@@ -170,14 +170,14 @@
         "security-isolation",
         "worktree-isolation"
       ],
-      "star_ratio": 63.847,
-      "momentum_ratio": 103.774,
+      "star_ratio": 63.972,
+      "momentum_ratio": 103.606,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "63.85x the stars (274,608 vs 4,301)",
-        "103.77x the star velocity (1048.1/day vs 10.1/day)",
+        "63.97x the stars (275,209 vs 4,302)",
+        "103.61x the star velocity (1046.4/day vs 10.1/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],

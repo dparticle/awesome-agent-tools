@@ -6,20 +6,20 @@
   "url": "https://github.com/isxlan0/Codex_AccountSwitch",
   "description": "Manage and switch multiple AI coding accounts locally without restarting development tools.",
   "homepage": "",
-  "stars": 252,
+  "stars": 251,
   "forks": 37,
   "open_issues": 6,
   "language": "C++",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-06T12:39:33Z",
-  "updated_at": "2026-10-04T04:52:03Z",
+  "updated_at": "2026-10-07T20:35:39Z",
   "pushed_at": "2026-07-24T10:34:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 243,
-  "days_since_push": 75,
+  "days_since_push": 76,
   "health_score": 41,
   "health_components": {
     "popularity": 48.0,
@@ -30,10 +30,10 @@
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 252,
+    "stars_gained": 251,
     "days_span": 243,
-    "stars_per_day": 1.04,
-    "lifetime_stars_per_day": 1.04,
+    "stars_per_day": 1.03,
+    "lifetime_stars_per_day": 1.03,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -128,22 +128,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:05+00:00",
+  "fetched_at": "2026-10-08T11:25:14+00:00",
   "categories": [
-    "accounts"
+    "accounts",
+    "analytics-2"
   ],
   "primary_category": "accounts",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by yetone/magpie: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 yetone/magpie 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "yetone/magpie",
+    "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 jlcodes99/cockpit-tools 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "jlcodes99/cockpit-tools",
     "challenger": "",
     "supersede": {
       "incumbent": "isxlan0/codex_accountswitch",
-      "challenger": "yetone/magpie",
+      "challenger": "jlcodes99/cockpit-tools",
       "incumbent_name": "isxlan0/Codex_AccountSwitch",
-      "challenger_name": "yetone/magpie",
+      "challenger_name": "jlcodes99/cockpit-tools",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -155,15 +156,15 @@
         "quota-management",
         "usage-analytics"
       ],
-      "star_ratio": 22.488,
-      "momentum_ratio": 389.221,
-      "setup_delta": -28,
+      "star_ratio": 74.582,
+      "momentum_ratio": 68.583,
+      "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "22.49x the stars (5,667 vs 252)",
-        "389.22x the star velocity (404.8/day vs 1.0/day)",
-        "no harder to set up (18 vs 46 friction)"
+        "74.58x the stars (18,720 vs 251)",
+        "68.58x the star velocity (70.6/day vs 1.0/day)",
+        "no harder to set up (26 vs 46 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -178,18 +179,22 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
-          "mcp-support",
           "model-routing",
           "multi-account-switching",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "provider-aggregation",
           "quota-management",
+          "security-isolation",
           "usage-analytics"
         ],
         "incumbent_health": 41,
-        "challenger_health": 84,
+        "challenger_health": 77,
         "incumbent_setup_score": 46,
-        "challenger_setup_score": 18
+        "challenger_setup_score": 26
       }
     }
   }

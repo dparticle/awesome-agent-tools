@@ -6,9 +6,9 @@
   "url": "https://github.com/loopx-project/loopx",
   "description": "A control plane with a durable state kernel for long-horizon agents and teams. Keep work moving and improving across sessions, with less human attention.",
   "homepage": "https://loopx-project.github.io/loopx/",
-  "stars": 6171,
+  "stars": 6201,
   "forks": 596,
-  "open_issues": 143,
+  "open_issues": 151,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -27,8 +27,8 @@
     "workflow-automation"
   ],
   "created_at": "2026-05-31T14:58:56Z",
-  "updated_at": "2026-10-07T13:33:15Z",
-  "pushed_at": "2026-10-07T13:30:19Z",
+  "updated_at": "2026-10-08T10:58:18Z",
+  "pushed_at": "2026-10-08T10:58:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -37,17 +37,17 @@
   "health_score": 71,
   "health_components": {
     "popularity": 75.8,
-    "momentum": 39.9,
+    "momentum": 40.1,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 6171,
+    "stars_gained": 6201,
     "days_span": 129,
-    "stars_per_day": 47.84,
-    "lifetime_stars_per_day": 47.84,
+    "stars_per_day": 48.07,
+    "lifetime_stars_per_day": 48.07,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -144,16 +144,21 @@
       "Independent user · 7 merged PRs.",
       "continue across Codex, Claude Code, direct-model, and other registered Agent"
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "给 Agent 一个目标，让工作持续向前。",
+    "highlights_zh": [
+      "在 Codex、Claude Code、direct-model 等已注册 Agent 会话之间延续工作，",
+      "Shared Goal Authority 与跨 Host 协作：为显式共享 goal 提供",
+      "Agent 团队：共享目标，不抹平各自的工作责任。",
+      "Developer Guide：贡献者工作流、benchmark 开发、"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:39+00:00",
+  "fetched_at": "2026-10-08T11:23:55+00:00",
   "categories": [
     "analytics-2",
     "providers",

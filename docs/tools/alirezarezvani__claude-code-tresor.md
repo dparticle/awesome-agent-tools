@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 777 |
-| Star velocity | 2.0/day (lifetime basis, 386d span) |
+| Star velocity | 2.0/day (lifetime basis, 387d span) |
 | Health score | 43/100 |
 | Documentation | 75/100 |
 | Tier | 👀 Watchlist |

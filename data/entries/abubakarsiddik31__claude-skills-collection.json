@@ -6,14 +6,14 @@
   "url": "https://github.com/abubakarsiddik31/claude-skills-collection",
   "description": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
   "homepage": "",
-  "stars": 1090,
-  "forks": 199,
+  "stars": 1091,
+  "forks": 200,
   "open_issues": 18,
   "language": "",
   "license": "",
   "topics": [],
   "created_at": "2025-10-18T16:24:12Z",
-  "updated_at": "2026-10-07T12:22:04Z",
+  "updated_at": "2026-10-08T09:40:57Z",
   "pushed_at": "2026-09-12T11:58:10Z",
   "archived": false,
   "is_fork": false,
@@ -22,7 +22,7 @@
   "days_since_push": 25,
   "health_score": 53,
   "health_components": {
-    "popularity": 60.7,
+    "popularity": 60.8,
     "momentum": 2.6,
     "maintenance": 92.0,
     "documentation": 68.0,
@@ -30,7 +30,7 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1090,
+    "stars_gained": 1091,
     "days_span": 354,
     "stars_per_day": 3.08,
     "lifetime_stars_per_day": 3.08,
@@ -157,7 +157,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:54+00:00",
+  "fetched_at": "2026-10-08T11:24:37+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "mobile",
@@ -192,13 +192,13 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 1.306,
-      "momentum_ratio": 1.812,
+      "star_ratio": 1.304,
+      "momentum_ratio": 1.805,
       "setup_delta": 0,
-      "dominance": 0.655,
+      "dominance": 0.654,
       "reasons": [
         "covers 100% of capabilities (11/11)",
-        "1.31x the stars (1,423 vs 1,090)",
+        "1.30x the stars (1,423 vs 1,091)",
         "1.81x the star velocity (5.6/day vs 3.1/day)",
         "no harder to set up (46 vs 46 friction)"
       ],

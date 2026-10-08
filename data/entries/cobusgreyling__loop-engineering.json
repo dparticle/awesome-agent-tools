@@ -6,7 +6,7 @@
   "url": "https://github.com/cobusgreyling/loop-engineering",
   "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
   "homepage": "https://cobusgreyling.github.io/loop-engineering/",
-  "stars": 11435,
+  "stars": 11442,
   "forks": 1533,
   "open_issues": 21,
   "language": "TypeScript",
@@ -31,29 +31,29 @@
     "prompt-engineering"
   ],
   "created_at": "2026-06-09T06:28:20Z",
-  "updated_at": "2026-10-07T10:35:19Z",
-  "pushed_at": "2026-10-07T08:02:16Z",
+  "updated_at": "2026-10-08T11:09:17Z",
+  "pushed_at": "2026-10-08T08:04:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
+  "age_days": 121,
   "days_since_push": 0,
   "health_score": 79,
   "health_components": {
     "popularity": 81.2,
-    "momentum": 79.4,
+    "momentum": 78.8,
     "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 96.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 11435,
-    "days_span": 120,
-    "stars_per_day": 95.29,
-    "lifetime_stars_per_day": 95.29,
+    "stars_gained": 11442,
+    "days_span": 121,
+    "stars_per_day": 94.56,
+    "lifetime_stars_per_day": 94.56,
     "basis": "lifetime",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "cobusgreyling/loop-engineering",
@@ -112,20 +112,25 @@
     "highlights": [
       "Lulla et al. 2026 — Building Blocks, Adoption, and Impact (this repo is the community reference they reviewed)"
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "English README · 5 分钟快速开始 · 我想重构项目",
+    "highlights_zh": [
+      "每一项：worktree → implementer 改 → 独立 verifier 跑测试 → 你 审 PR。",
+      "Daily Triage 把「大重构」拆成 足够小、一个 PR 能做完 的 High Priority 行。",
+      "loop init 只搭治理框架（STATE.md、预算、约束），第一周只读扫描。",
+      "只对已经信任的路径（测试、文档）考虑自动合并 allowlist。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:37+00:00",
+  "fetched_at": "2026-10-08T11:23:49+00:00",
   "categories": [
-    "security-self-hosting"
+    "isolation-parallelism"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

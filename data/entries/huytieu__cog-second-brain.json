@@ -6,8 +6,8 @@
   "url": "https://github.com/huytieu/COG-second-brain",
   "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
   "homepage": "",
-  "stars": 1261,
-  "forks": 151,
+  "stars": 1266,
+  "forks": 152,
   "open_issues": 11,
   "language": "Python",
   "license": "MIT",
@@ -34,12 +34,12 @@
     "worker-agents"
   ],
   "created_at": "2025-10-15T03:50:52Z",
-  "updated_at": "2026-10-07T09:25:29Z",
+  "updated_at": "2026-10-08T10:15:19Z",
   "pushed_at": "2026-10-02T14:09:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 357,
+  "age_days": 358,
   "days_since_push": 5,
   "health_score": 58,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1261,
-    "days_span": 357,
-    "stars_per_day": 3.53,
-    "lifetime_stars_per_day": 3.53,
+    "stars_gained": 1266,
+    "days_span": 358,
+    "stars_per_day": 3.54,
+    "lifetime_stars_per_day": 3.54,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -164,7 +164,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:52+00:00",
+  "fetched_at": "2026-10-08T11:24:34+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "skills",
@@ -196,14 +196,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 6.049,
-      "momentum_ratio": 23.745,
+      "star_ratio": 6.254,
+      "momentum_ratio": 24.579,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "6.05x the stars (7,628 vs 1,261)",
-        "23.75x the star velocity (83.8/day vs 3.5/day)",
+        "6.25x the stars (7,918 vs 1,266)",
+        "24.58x the star velocity (87.0/day vs 3.5/day)",
         "no harder to set up (26 vs 31 friction)"
       ],
       "reasons_zh": [],
@@ -237,7 +237,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 58,
-        "challenger_health": 80,
+        "challenger_health": 81,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 26
       }

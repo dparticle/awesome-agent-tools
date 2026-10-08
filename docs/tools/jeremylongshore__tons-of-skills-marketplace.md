@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,819 |
-| Star velocity | 7.8/day (lifetime basis, 362d span) |
+| Stars | 2,822 |
+| Star velocity | 7.8/day (lifetime basis, 363d span) |
 | Health score | 56/100 |
 | Documentation | 41/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,12 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-10-10 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 12,896 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 12,920 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Multi-agent orchestration
 
 ### Skills & plugins
 

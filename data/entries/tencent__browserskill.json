@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/BrowserSkill",
   "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
   "homepage": "",
-  "stars": 8270,
-  "forks": 592,
-  "open_issues": 70,
+  "stars": 8416,
+  "forks": 598,
+  "open_issues": 71,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -17,27 +17,27 @@
     "dsh-plugin"
   ],
   "created_at": "2026-06-22T07:24:40Z",
-  "updated_at": "2026-10-07T13:29:40Z",
-  "pushed_at": "2026-10-06T13:45:15Z",
+  "updated_at": "2026-10-08T11:18:24Z",
+  "pushed_at": "2026-10-08T06:40:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 107,
-  "days_since_push": 1,
+  "age_days": 108,
+  "days_since_push": 0,
   "health_score": 75,
   "health_components": {
-    "popularity": 78.4,
-    "momentum": 64.4,
+    "popularity": 78.5,
+    "momentum": 64.9,
     "maintenance": 100.0,
     "documentation": 56.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 8270,
-    "days_span": 107,
-    "stars_per_day": 77.29,
-    "lifetime_stars_per_day": 77.29,
+    "stars_gained": 8416,
+    "days_span": 108,
+    "stars_per_day": 77.93,
+    "lifetime_stars_per_day": 77.93,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -116,16 +116,21 @@
       "external_link_ratio": 0.348
     },
     "highlights": [],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "BrowserSkill 把你的 AI Agent 连接到 Chrome 或 Microsoft Edge，直接使用你已有的登录状态。",
+    "highlights_zh": [
+      "展开请求看细节：读取已保留的请求头、提交数据、响应正文、耗时与错误，筛选流量或直接查看某个 JSON 字段。",
+      "验证并保留证据：配置任务内的请求修改、拦截、模拟响应或同源请求重放，导出 JSON，供后续复查和分享。",
+      "检查性能和接口：查看页面加载指标、接口耗时统计和疑似重复请求；缺失或不完整的数据会明确标记。",
+      "沿着操作找原因：查看一次操作关联的请求、控制台输出、表单字段值，以及即时或延后的页面变化；既记录 Agent 操作，也记录受支持的手动操作。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:39+00:00",
+  "fetched_at": "2026-10-08T11:23:52+00:00",
   "categories": [
     "agent-runtime-desktop-ui"
   ],

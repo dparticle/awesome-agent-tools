@@ -6,9 +6,9 @@
   "url": "https://github.com/aoci-spec/aoci-code",
   "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
   "homepage": "",
-  "stars": 1243,
-  "forks": 157,
-  "open_issues": 15,
+  "stars": 1315,
+  "forks": 164,
+  "open_issues": 17,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,8 +34,8 @@
     "repo-map"
   ],
   "created_at": "2026-08-08T11:33:08Z",
-  "updated_at": "2026-10-07T12:58:06Z",
-  "pushed_at": "2026-10-07T07:56:10Z",
+  "updated_at": "2026-10-08T10:35:10Z",
+  "pushed_at": "2026-10-08T07:35:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -43,18 +43,18 @@
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
-    "popularity": 61.9,
-    "momentum": 17.3,
+    "popularity": 62.4,
+    "momentum": 18.3,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1243,
+    "stars_gained": 1315,
     "days_span": 60,
-    "stars_per_day": 20.72,
-    "lifetime_stars_per_day": 20.72,
+    "stars_per_day": 21.92,
+    "lifetime_stars_per_day": 21.92,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -157,7 +157,7 @@
       "external_link_ratio": 0.091
     },
     "highlights": [
-      "Fault-injection scenarios — 64 scenarios covering cursor tampering,",
+      "Fault-injection scenarios — 65 scenarios covering cursor tampering,",
       "Protocol conformance — 46 read-only checks of the MCP wire surface;",
       "generating a deterministic plan, target set, and source SHA-256 values;",
       "A — API: which interfaces, commands, formats, or observable contracts it exposes."
@@ -176,11 +176,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:54+00:00",
+  "fetched_at": "2026-10-08T11:24:34+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "analytics",
-    "model-routing"
+    "model-routing",
+    "security-self-hosting"
   ],
   "primary_category": "analytics",
   "lifecycle": {

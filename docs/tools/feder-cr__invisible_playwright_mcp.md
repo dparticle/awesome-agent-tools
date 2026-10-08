@@ -2,7 +2,7 @@
 
 # feder-cr/invisible_playwright_mcp
 
-> Other AI browser agents get captchas.
+> This one is invisible to anti-bots.
 
 [Repository](https://github.com/feder-cr/invisible_playwright_mcp) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,642 |
-| Star velocity | 377.4/day (lifetime basis, 7d span) |
+| Stars | 2,651 |
+| Star velocity | 331.4/day (lifetime basis, 8d span) |
 | Health score | 80/100 |
-| Documentation | 32/100 |
+| Documentation | 33/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-29 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 7,411 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 7,887 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -57,7 +57,7 @@
 
 ## Documentation quality
 
-Score **32/100**, based on these detected signals:
+Score **33/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -69,10 +69,10 @@ Score **32/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 68.4 |
+| popularity | 68.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 32.0 |
+| documentation | 33.0 |
 | accessibility | 100.0 |
 
 ---

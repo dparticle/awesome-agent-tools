@@ -6,9 +6,9 @@
   "url": "https://github.com/zeronsh/zeron",
   "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
   "homepage": "https://zeron.sh",
-  "stars": 3076,
-  "forks": 291,
-  "open_issues": 288,
+  "stars": 3121,
+  "forks": 297,
+  "open_issues": 290,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -24,8 +24,8 @@
     "rust"
   ],
   "created_at": "2026-07-20T15:04:04Z",
-  "updated_at": "2026-10-07T10:17:27Z",
-  "pushed_at": "2026-10-07T06:50:51Z",
+  "updated_at": "2026-10-08T11:11:13Z",
+  "pushed_at": "2026-10-08T07:02:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -33,18 +33,18 @@
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
-    "popularity": 69.8,
-    "momentum": 32.4,
+    "popularity": 69.9,
+    "momentum": 32.9,
     "maintenance": 100.0,
     "documentation": 35.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3076,
+    "stars_gained": 3121,
     "days_span": 79,
-    "stars_per_day": 38.94,
-    "lifetime_stars_per_day": 38.94,
+    "stars_per_day": 39.51,
+    "lifetime_stars_per_day": 39.51,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -115,16 +115,16 @@
       "external_link_ratio": 0.638
     },
     "highlights": [],
-    "summary_zh_native": "",
+    "summary_zh_native": "在本地管理你的编码 agent（Claude Code、Codex、Cursor、Devin、Grok、Hermes、Pi、Antigravity），也可以打开多设备同步。",
     "highlights_zh": [],
-    "chinese_readme": ""
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:41+00:00",
+  "fetched_at": "2026-10-08T11:24:00+00:00",
   "categories": [
     "agent-runtime-desktop-ui"
   ],

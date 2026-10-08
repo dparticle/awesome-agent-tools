@@ -6,8 +6,8 @@
   "url": "https://github.com/Vincentwei1021/video-shotcraft",
   "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
   "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
-  "stars": 10576,
-  "forks": 940,
+  "stars": 10803,
+  "forks": 962,
   "open_issues": 6,
   "language": "TypeScript",
   "license": "Apache-2.0",
@@ -28,16 +28,16 @@
     "video-production"
   ],
   "created_at": "2026-07-19T11:44:41Z",
-  "updated_at": "2026-10-07T13:27:14Z",
+  "updated_at": "2026-10-08T11:14:08Z",
   "pushed_at": "2026-10-05T09:12:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 80,
-  "days_since_push": 2,
+  "days_since_push": 3,
   "health_score": 85,
   "health_components": {
-    "popularity": 80.5,
+    "popularity": 80.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 50.0,
@@ -45,10 +45,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 10576,
+    "stars_gained": 10803,
     "days_span": 80,
-    "stars_per_day": 132.2,
-    "lifetime_stars_per_day": 132.2,
+    "stars_per_day": 135.04,
+    "lifetime_stars_per_day": 135.04,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -121,20 +121,25 @@
       "🌟 2026-08 · 48 new shot recipe cards — the library grows from 104 to",
       "🎞️ 2026-08 · JianYing (CapCut CN) project export — after final delivery"
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "让 agent 帮你制作电影感产品视频的 skill：157 张镜头配方卡 · 214 个样式 · 214 条动态样片 · 已验收成片模板",
+    "highlights_zh": [
+      "Claude Code —— 本库自身的构建、迭代与验收全程由 AI coding agent",
+      "并发上限 —— 低核机器上 remotion still/render 会报",
+      "游戏手感与动画社区的公开方法论（如 Vlambeer 的 screenshake 演讲、",
+      "CDN 被墙 —— 如果 remotion.media 无法访问，headless-shell 的自动下载"
+    ],
+    "chinese_readme": "README_CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:38+00:00",
+  "fetched_at": "2026-10-08T11:23:50+00:00",
   "categories": [
-    "agent-runtime-desktop-ui"
+    "skills"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",

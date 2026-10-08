@@ -21,7 +21,7 @@
 | License | LGPL-3.0 |
 | Language | Go |
 | Created | 2026-09-18 |
-| Last push | 2026-09-22 (15 days ago) |
+| Last push | 2026-09-22 (16 days ago) |
 | Analyzed README | 14,092 chars from `raw:HEAD/README.md` |
 
 ## What it solves

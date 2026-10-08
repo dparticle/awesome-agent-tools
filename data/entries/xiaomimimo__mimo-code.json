@@ -6,9 +6,9 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13603,
-  "forks": 1421,
-  "open_issues": 1125,
+  "stars": 13612,
+  "forks": 1424,
+  "open_issues": 1130,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,14 +19,14 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-07T13:29:32Z",
+  "updated_at": "2026-10-08T09:51:45Z",
   "pushed_at": "2026-10-03T11:46:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 119,
   "days_since_push": 4,
-  "health_score": 84,
+  "health_score": 85,
   "health_components": {
     "popularity": 82.7,
     "momentum": 95.3,
@@ -36,10 +36,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 13603,
+    "stars_gained": 13612,
     "days_span": 119,
-    "stars_per_day": 114.31,
-    "lifetime_stars_per_day": 114.31,
+    "stars_per_day": 114.39,
+    "lifetime_stars_per_day": 114.39,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -167,22 +167,27 @@
       "@ai-sdk/openai-compatible is for OpenAI-compatible APIs.",
       "Budgeted injection — uses a token budget to control how much checkpoint, memory, and notes content enters context, with importance ranking"
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "MiMoCode 是一个终端原生的 AI 编程助手。它能读写代码、执行命令、管理 Git，通过持久化记忆系统，在多次会话间保持对你项目的深度理解，并自我进化。",
+    "highlights_zh": [
+      "计费档位。 OpenAI 对 GPT-5.6 超过 272K input 的请求按 2x input、1.5x output 计费，且作用于整个请求。",
+      "让长任务成本可控：标准与旗舰模型自动路由，局部编辑只修改需要的部分；同会话缓存命中率最高 99%，跨会话最高 95%。",
+      "@ai-sdk/openai-compatible 适用于 OpenAI 兼容 API；使用其他通信协议的服务需要对应 Provider 的专用适配器。",
+      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。"
+    ],
+    "chinese_readme": "README.zh.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:37+00:00",
+  "fetched_at": "2026-10-08T11:23:48+00:00",
   "categories": [
+    "analytics",
     "isolation-parallelism",
-    "security-self-hosting",
-    "voice"
+    "self-hosting-security"
   ],
-  "primary_category": "voice",
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

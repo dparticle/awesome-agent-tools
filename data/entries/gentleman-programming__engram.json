@@ -6,40 +6,40 @@
   "url": "https://github.com/Gentleman-Programming/engram",
   "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
   "homepage": "https://engram.gentlemanprogramming.com/",
-  "stars": 7070,
-  "forks": 728,
-  "open_issues": 92,
+  "stars": 7087,
+  "forks": 731,
+  "open_issues": 103,
   "language": "Go",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-16T13:38:41Z",
-  "updated_at": "2026-10-07T11:23:45Z",
-  "pushed_at": "2026-10-07T05:02:17Z",
+  "updated_at": "2026-10-08T08:13:07Z",
+  "pushed_at": "2026-10-08T05:20:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 233,
   "days_since_push": 0,
-  "health_score": 67,
+  "health_score": 65,
   "health_components": {
     "popularity": 77.0,
     "momentum": 25.3,
     "maintenance": 100.0,
-    "documentation": 54.0,
-    "accessibility": 90.0
+    "documentation": 57.0,
+    "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 7070,
+    "stars_gained": 7087,
     "days_span": 233,
-    "stars_per_day": 30.34,
-    "lifetime_stars_per_day": 30.34,
+    "stars_per_day": 30.42,
+    "lifetime_stars_per_day": 30.42,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Gentleman-Programming/engram",
-    "readme_chars": 14668,
+    "readme_chars": 20742,
     "capabilities": [
       "session-persistence",
       "memory-context",
@@ -49,28 +49,29 @@
     ],
     "capability_evidence": {
       "session-persistence": "ns, discoveries, accomplished work, next steps, and relevant files.",
-      "memory-context": "Persistent memory for AI coding agents",
-      "agent-runtime": "Persistent memory for AI coding agents",
-      "mcp-support": "ace of a memory in the brain.",
+      "memory-context": "ehavior, manual MCP setup, compaction resilience, and troubleshooting: Agent Setup → · Pi users can also find the package at gentle-engram.",
+      "agent-runtime": "",
+      "mcp-support": "any MCP-compatible agent · per-agent setup →",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
       "session-persistence": 2,
       "memory-context": 2,
       "agent-runtime": 2,
-      "mcp-support": 6,
+      "mcp-support": 8,
       "cross-agent-support": 8
     },
     "friction": {
       "level": "low",
-      "score": 22,
-      "out_of_the_box": true,
+      "score": 28,
+      "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "Homebrew install"
       ],
       "hard_signals": [],
       "config_signals": [
+        "environment variables",
         "database dependency"
       ],
       "friendliness_signals": [],
@@ -79,10 +80,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via Homebrew install; configure database dependency",
-      "note_zh": "较易上手。可通过 Homebrew install 安装；需配置 database dependency"
+      "note_en": "Easy. install via Homebrew install; configure environment variables, database dependency",
+      "note_zh": "较易上手。可通过 Homebrew install 安装；需配置 environment variables、database dependency"
     },
-    "doc_score": 54,
+    "doc_score": 57,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -92,7 +93,8 @@
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -103,7 +105,7 @@
       "Copilot",
       "Qwen Code"
     ],
-    "summary_en": "sealed_token is a GitHub fine-grained token encrypted against Star History's public key, so only the encrypted value is published here.",
+    "summary_en": "Your AI coding agent forgets everything when the session ends.",
     "summary_zh": "",
     "install_hint": "brew install gentleman-programming/tap/engram",
     "source": "raw:HEAD/README.md",
@@ -111,7 +113,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.136
+      "external_link_ratio": 0.145
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -123,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:49+00:00",
+  "fetched_at": "2026-10-08T11:24:22+00:00",
   "categories": [
     "analytics"
   ],

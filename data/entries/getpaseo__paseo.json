@@ -6,9 +6,9 @@
   "url": "https://github.com/getpaseo/paseo",
   "description": "Orchestrate multiple coding agents from desktop and mobile",
   "homepage": "https://paseo.sh",
-  "stars": 19955,
-  "forks": 2338,
-  "open_issues": 1068,
+  "stars": 20097,
+  "forks": 2360,
+  "open_issues": 1098,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -29,33 +29,33 @@
     "windows"
   ],
   "created_at": "2025-10-13T12:27:02Z",
-  "updated_at": "2026-10-07T13:16:24Z",
-  "pushed_at": "2026-10-07T13:13:00Z",
+  "updated_at": "2026-10-08T11:13:16Z",
+  "pushed_at": "2026-10-08T11:19:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 359,
   "days_since_push": 0,
-  "health_score": 73,
+  "health_score": 74,
   "health_components": {
-    "popularity": 86.0,
-    "momentum": 46.3,
+    "popularity": 86.1,
+    "momentum": 46.7,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 84.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 19955,
+    "stars_gained": 20097,
     "days_span": 359,
-    "stars_per_day": 55.58,
-    "lifetime_stars_per_day": 55.58,
+    "stars_per_day": 55.98,
+    "lifetime_stars_per_day": 55.98,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "getpaseo/paseo",
-    "readme_chars": 8543,
+    "readme_chars": 8591,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -74,13 +74,13 @@
       "remote-control": "",
       "mobile-access": "emon machine and inside connected clients; install only code you trust.",
       "multi-agent-orchestration": "once, each in its own worktree, on one machine or several.",
-      "parallel-execution": "ull requests, and a browser in one window.",
-      "worktree-isolation": "ktop, mobile, web, and CLI app for coding agents.",
+      "parallel-execution": "Paseo is an open source agentic development environment for desktop, mobile, web, and CLI.",
+      "worktree-isolation": "nt environment for desktop, mobile, web, and CLI.",
       "agent-runtime": ", composer pills, attachment sources, timeline items, themes.",
       "mcp-support": ": screens, sidebar items, workspace panels, Command Center items, slash commands, composer pills, attachment sources, timeline items, themes.",
       "security-isolation": "en Settings → your host → Pair Device.",
-      "self-hosted": "can create worktrees, launch other agents, and talk to them, across providers.",
-      "gui-desktop": "One interface for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code agents.",
+      "self-hosted": ", launch other agents, and talk to them, across providers.",
+      "gui-desktop": "e for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code agents.",
       "voice-input": "Use your tools, your configs, and your skills.",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, OpenCode"
     },
@@ -90,7 +90,7 @@
       "multi-agent-orchestration": 4,
       "parallel-execution": 2,
       "worktree-isolation": 4,
-      "agent-runtime": 3,
+      "agent-runtime": 2,
       "mcp-support": 2,
       "security-isolation": 1,
       "self-hosted": 2,
@@ -142,7 +142,7 @@
       "OpenCode",
       "Copilot"
     ],
-    "summary_en": "Paseo is a desktop, mobile, web, and CLI app for coding agents.",
+    "summary_en": "Paseo is an open source agentic development environment for desktop, mobile, web, and CLI.",
     "summary_zh": "",
     "install_hint": "npm install -g @getpaseo/cli",
     "source": "raw:HEAD/README.md",
@@ -152,7 +152,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.458
+      "external_link_ratio": 2.444
     },
     "highlights": [
       "Cross-device: iOS, Android, desktop, web, and CLI.",
@@ -174,13 +174,13 @@
     "seed_reason": "Orchestrate several coding agents from desktop and mobile; easier on-ramp than Orca.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T17:47:36+00:00",
+  "fetched_at": "2026-10-08T11:23:42+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
-    "mobile",
-    "security-self-hosting"
+    "mobile"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

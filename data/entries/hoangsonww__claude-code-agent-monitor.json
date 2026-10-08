@@ -6,9 +6,9 @@
   "url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
   "description": "🚀 A real-time monitoring dashboard for Claude Code & Codex, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, & WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, & an interactive web UI/MacOS/Windows native app.",
   "homepage": "https://hoangsonww.github.io/Claude-Code-Agent-Monitor/",
-  "stars": 1049,
+  "stars": 1052,
   "forks": 245,
-  "open_issues": 44,
+  "open_issues": 45,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "websocket"
   ],
   "created_at": "2026-03-05T18:52:21Z",
-  "updated_at": "2026-10-07T05:22:00Z",
-  "pushed_at": "2026-10-06T16:46:34Z",
+  "updated_at": "2026-10-07T22:57:09Z",
+  "pushed_at": "2026-10-08T07:20:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 215,
-  "days_since_push": 1,
+  "age_days": 216,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 60.4,
@@ -51,10 +51,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1049,
-    "days_span": 215,
-    "stars_per_day": 4.88,
-    "lifetime_stars_per_day": 4.88,
+    "stars_gained": 1052,
+    "days_span": 216,
+    "stars_per_day": 4.87,
+    "lifetime_stars_per_day": 4.87,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -192,21 +192,16 @@
       "Payload guardrails: 50 MiB per uploaded history file, 100 MiB total per call, 10 MiB binary responses, and 25 MiB backup restore",
       "Logs — the main process writes to ~/Library/Logs/Claude Code Monitor/desktop.log (macOS) or %APPDATA%\\Claude Code Monitor\\logs\\desktop.log (Windows); reach it from the tray menu's Show Logs."
     ],
-    "summary_zh_native": "专业的 Dashboard，用于实时追踪和可视化 Claude Code、Cursor 与 Codex Agent 会话、工具使用、对话历史、成本和子 Agent 编排。基于 Node.js、Express、React 和 SQLite，结合原生 Hook 与按提供方识别的本地 transcript 发现。",
-    "highlights_zh": [
-      "错误检测看门狗 — 后台定时器每 15 秒运行一次，扫描没有近期 Hook 事件（>10 秒）的活跃会话。",
-      "周期性服务器清理捕获遗漏事件检测的废弃会话和新压缩(例如 /compact 不触发 Hook、会话创建后几秒内 /resume)。",
-      "负载防护：历史上传单文件 50 MiB、每次调用合计 100 MiB、二进制响应 10 MiB、备份恢复 25 MiB",
-      "全局突发预算——任意 1.2 秒窗口内最多启动 4 个提示音，因此导入历史或断线重连时，大量 WebSocket 消息不会变成一连串提示音。"
-    ],
-    "chinese_readme": "README-CN.md"
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:55+00:00",
+  "fetched_at": "2026-10-08T11:24:39+00:00",
   "categories": [
     "analytics",
     "mobile",

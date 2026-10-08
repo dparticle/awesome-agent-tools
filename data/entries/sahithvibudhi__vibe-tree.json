@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 435,
-  "days_since_push": 73,
+  "age_days": 436,
+  "days_since_push": 74,
   "health_score": 47,
   "health_components": {
     "popularity": 48.5,
@@ -39,7 +39,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 267,
-    "days_span": 435,
+    "days_span": 436,
     "stars_per_day": 0.61,
     "lifetime_stars_per_day": 0.61,
     "basis": "lifetime",
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:05+00:00",
+  "fetched_at": "2026-10-08T11:25:14+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "isolation-parallelism"

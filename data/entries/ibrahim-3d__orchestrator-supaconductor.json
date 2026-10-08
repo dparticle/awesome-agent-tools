@@ -29,7 +29,7 @@
   "is_fork": false,
   "default_branch": "master",
   "age_days": 232,
-  "days_since_push": 9,
+  "days_since_push": 10,
   "health_score": 48,
   "health_components": {
     "popularity": 51.6,
@@ -136,22 +136,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:01+00:00",
+  "fetched_at": "2026-10-08T11:25:01+00:00",
   "categories": [
-    "isolation-parallelism"
+    "agent-runtime-desktop-ui",
+    "isolation-parallelism",
+    "skills"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "redhat-et/ripwire",
+    "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 HarnessMD/munder-difflin 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "HarnessMD/munder-difflin",
     "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "redhat-et/ripwire",
+      "challenger": "harnessmd/munder-difflin",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "redhat-et/ripwire",
+      "challenger_name": "HarnessMD/munder-difflin",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -163,15 +165,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 6.361,
-      "momentum_ratio": 21.055,
-      "setup_delta": -38,
+      "star_ratio": 22.584,
+      "momentum_ratio": 40.567,
+      "setup_delta": -40,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "6.36x the stars (2,417 vs 380)",
-        "21.05x the star velocity (34.5/day vs 1.6/day)",
-        "no harder to set up (34 vs 72 friction)"
+        "22.58x the stars (8,582 vs 380)",
+        "40.57x the star velocity (66.5/day vs 1.6/day)",
+        "no harder to set up (32 vs 72 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -184,20 +186,24 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
-          "mcp-support",
+          "memory-context",
           "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
+          "self-hosted",
+          "session-persistence",
           "skills-plugins",
+          "usage-analytics",
+          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 66,
+        "challenger_health": 75,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 34
+        "challenger_setup_score": 32
       }
     }
   }

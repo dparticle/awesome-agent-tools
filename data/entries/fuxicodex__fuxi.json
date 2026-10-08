@@ -6,7 +6,7 @@
   "url": "https://github.com/fuxicodex/Fuxi",
   "description": "FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
   "homepage": "https://www.fuxicode.com",
-  "stars": 3351,
+  "stars": 3350,
   "forks": 227,
   "open_issues": 0,
   "language": "Python",
@@ -34,27 +34,27 @@
     "tui"
   ],
   "created_at": "2026-08-04T07:32:11Z",
-  "updated_at": "2026-10-06T12:15:39Z",
+  "updated_at": "2026-10-07T13:59:34Z",
   "pushed_at": "2026-09-29T01:25:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 64,
-  "days_since_push": 8,
+  "age_days": 65,
+  "days_since_push": 9,
   "health_score": 67,
   "health_components": {
     "popularity": 70.5,
-    "momentum": 43.6,
+    "momentum": 42.9,
     "maintenance": 92.0,
     "documentation": 63.0,
     "accessibility": 69.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3351,
-    "days_span": 64,
-    "stars_per_day": 52.36,
-    "lifetime_stars_per_day": 52.36,
+    "stars_gained": 3350,
+    "days_span": 65,
+    "stars_per_day": 51.54,
+    "lifetime_stars_per_day": 51.54,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -134,84 +134,30 @@
       "external_link_ratio": 0.705
     },
     "highlights": [],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "FuXi 是一个快速、自包含的终端 AI 编程智能体。它在丰富的 TUI 中读代码、 改文件、运行命令、驱动工具，并在多个 LLM 提供商之间进行成本感知的路由与自动 故障转移。FuXi 使用 Go 语言开发，交付为单个静态二进制文件，无运行时依赖。",
+    "highlights_zh": [
+      "FuXi 为运行服务会处理有限的账户与技术信息；存在的分析均已披露且可关闭。",
+      "会话、检查点、记忆与审计日志都在你的设备上，随时可通过删除配置目录清除。",
+      "默认情况下，FuXi 不收集、不存储、不保留你的代码与对话。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:41+00:00",
+  "fetched_at": "2026-10-08T11:24:00+00:00",
   "categories": [
-    "model-routing",
-    "security-self-hosting"
+    "security-self-hosting",
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "fuxicodex/fuxi",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "fuxicodex/Fuxi",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "auto-failover",
-        "mcp-support",
-        "model-routing",
-        "security-isolation"
-      ],
-      "star_ratio": 8.715,
-      "momentum_ratio": 2.49,
-      "setup_delta": 1,
-      "dominance": 0.908,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "8.72x the stars (29,204 vs 3,351)",
-        "2.49x the star velocity (130.4/day vs 52.4/day)",
-        "slightly heavier setup (+1 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "mcp-support",
-          "model-routing",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 67,
-        "challenger_health": 88,
-        "incumbent_setup_score": 31,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

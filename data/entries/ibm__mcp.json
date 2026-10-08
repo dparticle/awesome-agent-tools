@@ -25,7 +25,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 552,
+  "age_days": 553,
   "days_since_push": 6,
   "health_score": 47,
   "health_components": {
@@ -38,7 +38,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 410,
-    "days_span": 552,
+    "days_span": 553,
     "stars_per_day": 0.74,
     "lifetime_stars_per_day": 0.74,
     "basis": "lifetime",
@@ -118,9 +118,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:01+00:00",
+  "fetched_at": "2026-10-08T11:25:00+00:00",
   "categories": [
-    "security-self-hosting"
+    "agent-runtime-desktop-ui",
+    "security-self-hosting",
+    "skills"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {

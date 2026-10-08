@@ -6,9 +6,9 @@
   "url": "https://github.com/redhat-et/ripwire",
   "description": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant — blast radius, tests-to-run, quality deltas. Signatures at 74.7% fewer bytes than bodies; every guess labelled, every loss published. Paddle out with a map.",
   "homepage": "",
-  "stars": 2417,
+  "stars": 2422,
   "forks": 150,
-  "open_issues": 62,
+  "open_issues": 61,
   "language": "C++",
   "license": "Apache-2.0",
   "topics": [
@@ -34,13 +34,13 @@
     "typescript"
   ],
   "created_at": "2026-07-29T15:58:33Z",
-  "updated_at": "2026-10-07T13:21:10Z",
-  "pushed_at": "2026-10-04T23:17:04Z",
+  "updated_at": "2026-10-08T10:54:46Z",
+  "pushed_at": "2026-10-08T10:39:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 70,
-  "days_since_push": 2,
+  "days_since_push": 0,
   "health_score": 66,
   "health_components": {
     "popularity": 67.7,
@@ -51,10 +51,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 2417,
+    "stars_gained": 2422,
     "days_span": 70,
-    "stars_per_day": 34.53,
-    "lifetime_stars_per_day": 34.53,
+    "stars_per_day": 34.6,
+    "lifetime_stars_per_day": 34.6,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -176,13 +176,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:41+00:00",
+  "fetched_at": "2026-10-08T11:24:02+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
+    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

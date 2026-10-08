@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 502 |
-| Star velocity | 4.9/day (lifetime basis, 102d span) |
+| Star velocity | 4.9/day (lifetime basis, 103d span) |
 | Health score | 47/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-27 |
-| Last push | 2026-07-10 (89 days ago) |
+| Last push | 2026-07-10 (90 days ago) |
 | Analyzed README | 7,017 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
 
 ## What it solves
 

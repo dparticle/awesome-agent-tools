@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "full_name": "schmitech/orbit",
+  "name": "orbit",
+  "owner": "schmitech",
+  "url": "https://github.com/schmitech/orbit",
+  "description": "Self-hosted AI gateway for private RAG, natural-language data access, and tool-calling agents.",
+  "homepage": "https://github.com/schmitech/orbit",
+  "stars": 353,
+  "forks": 58,
+  "open_issues": 0,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-assistant",
+    "ai-gateway",
+    "ai-safety",
+    "anthropic",
+    "chatbot",
+    "developer-tools",
+    "elasticsearch",
+    "llm",
+    "mongodb",
+    "natural-language-to-sql",
+    "ollama-client",
+    "openai",
+    "python",
+    "rag",
+    "retrieval-augmented-generation",
+    "self-hosted",
+    "speech-to-text",
+    "text-to-speech",
+    "vector-database"
+  ],
+  "created_at": "2025-03-10T02:30:21Z",
+  "updated_at": "2026-10-07T16:05:53Z",
+  "pushed_at": "2026-10-07T16:05:48Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 577,
+  "days_since_push": 0,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 51.0,
+    "momentum": 0.5,
+    "maintenance": 100.0,
+    "documentation": 46.0,
+    "accessibility": 57.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 353,
+    "days_span": 577,
+    "stars_per_day": 0.61,
+    "lifetime_stars_per_day": 0.61,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "schmitech/orbit",
+    "readme_chars": 7231,
+    "capabilities": [
+      "model-routing",
+      "api-gateway",
+      "usage-analytics",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "api-gateway": "",
+      "usage-analytics": "uild agents MCP tools · Automatic skill routing · A2A · Adapter creation",
+      "mcp-support": "private documents, an agent that calls your tools, or a triage workflow—with the same backend.",
+      "security-isolation": "behind one OpenAI-compatible API.",
+      "self-hosted": "vector stores, APIs, and MCP tools through YAML-configured adapters."
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "api-gateway": 1,
+      "usage-analytics": 1,
+      "mcp-support": 1,
+      "security-isolation": 1,
+      "self-hosted": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 43,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs npm install/build; configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 API key configuration、config.json/yaml/toml"
+    },
+    "doc_score": 46,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "The self-hosted AI backend for private data and tool-using agents.",
+    "summary_zh": "",
+    "install_hint": "curl -LO https://github.com/schmitech/orbit/releases/download/v2.18.1/orbit-2.18.1.tar.gz",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.691
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-08T11:25:04+00:00",
+  "categories": [
+    "billing",
+    "model-routing",
+    "self-hosting-security"
+  ],
+  "primary_category": "self-hosting-security",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

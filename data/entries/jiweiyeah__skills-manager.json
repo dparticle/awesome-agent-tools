@@ -6,7 +6,7 @@
   "url": "https://github.com/jiweiyeah/Skills-Manager",
   "description": "Free, open-source desktop manager for AI Agent Skills. Write a skill once, sync it to 32 AI coding tools (Claude Code, Codex, Cursor, Gemini CLI, and more) via symlinks. Local-first, MIT licensed. macOS, Windows, Linux.",
   "homepage": "https://skillsmanager.freeourdays.com/?ref=gh",
-  "stars": 1014,
+  "stars": 1015,
   "forks": 63,
   "open_issues": 35,
   "language": "TypeScript",
@@ -27,12 +27,12 @@
     "tauri-v2"
   ],
   "created_at": "2026-02-06T05:25:20Z",
-  "updated_at": "2026-10-07T08:08:16Z",
+  "updated_at": "2026-10-08T00:41:06Z",
   "pushed_at": "2026-09-10T16:28:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 243,
+  "age_days": 244,
   "days_since_push": 27,
   "health_score": 59,
   "health_components": {
@@ -44,10 +44,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1014,
-    "days_span": 243,
-    "stars_per_day": 4.17,
-    "lifetime_stars_per_day": 4.17,
+    "stars_gained": 1015,
+    "days_span": 244,
+    "stars_per_day": 4.16,
+    "lifetime_stars_per_day": 4.16,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -144,12 +144,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:55+00:00",
+  "fetched_at": "2026-10-08T11:24:40+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "skills"
+    "agent-runtime-desktop-ui"
   ],
-  "primary_category": "skills",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

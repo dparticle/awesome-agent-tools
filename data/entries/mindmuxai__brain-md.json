@@ -32,7 +32,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 111,
+  "age_days": 112,
   "days_since_push": 26,
   "health_score": 55,
   "health_components": {
@@ -45,9 +45,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 564,
-    "days_span": 111,
-    "stars_per_day": 5.08,
-    "lifetime_stars_per_day": 5.08,
+    "days_span": 112,
+    "stars_per_day": 5.04,
+    "lifetime_stars_per_day": 5.04,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -144,16 +144,75 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:58+00:00",
+  "fetched_at": "2026-10-08T11:24:49+00:00",
   "categories": [
-    "agent-runtime-desktop-ui"
+    "agent-runtime-desktop-ui",
+    "isolation-parallelism",
+    "skills"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 maxritter/pilot-shell 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "maxritter/pilot-shell",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "mindmuxai/brain.md",
+      "challenger": "maxritter/pilot-shell",
+      "incumbent_name": "mindmuxai/brain.md",
+      "challenger_name": "maxritter/pilot-shell",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 3.693,
+      "momentum_ratio": 1.165,
+      "setup_delta": 6,
+      "dominance": 0.789,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "3.69x the stars (2,083 vs 564)",
+        "1.16x the star velocity (5.9/day vs 5.0/day)",
+        "slightly heavier setup (+6 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 55,
+        "challenger_health": 62,
+        "incumbent_setup_score": 6,
+        "challenger_setup_score": 12
+      }
+    }
   }
 }

@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "full_name": "crshdn/mission-control",
+  "name": "mission-control",
+  "owner": "crshdn",
+  "url": "https://github.com/crshdn/mission-control",
+  "description": "The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted via OpenClaw Gateway.",
+  "homepage": "https://autensa.com",
+  "stars": 2147,
+  "forks": 439,
+  "open_issues": 19,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "aiagent",
+    "automation",
+    "openclaw"
+  ],
+  "created_at": "2026-01-31T13:27:48Z",
+  "updated_at": "2026-10-06T14:41:47Z",
+  "pushed_at": "2026-09-16T14:49:11Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 249,
+  "days_since_push": 21,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 66.6,
+    "momentum": 7.2,
+    "maintenance": 92.0,
+    "documentation": 73.0,
+    "accessibility": 33.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 2147,
+    "days_span": 249,
+    "stars_per_day": 8.62,
+    "lifetime_stars_per_day": 8.62,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "crshdn/mission-control",
+    "readme_chars": 37235,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "usage-analytics",
+      "memory-context",
+      "security-isolation",
+      "self-hosted",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "nd ideation agents on what to look for, what matters, and what to ignore.",
+      "parallel-execution": "il the model's context window was exhausted and the agent stalled.",
+      "worktree-isolation": "",
+      "model-routing": "",
+      "usage-analytics": "njected at dispatch as primary instructions",
+      "memory-context": "pend across all tasks for a product",
+      "security-isolation": "est external checks where GitHub supports it.",
+      "self-hosted": "no trackers, no centralized data collection",
+      "notifications": "aily/monthly cost tracking & caps"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 5,
+      "parallel-execution": 1,
+      "worktree-isolation": 2,
+      "model-routing": 1,
+      "usage-analytics": 5,
+      "memory-context": 3,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 67,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "docker run",
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. install via npx one-liner, global npm install; needs docker compose up, docker run; configure environment variables, API key configuration",
+      "note_zh": "配置较重。可通过 npx one-liner、global npm install 安装；需要 docker compose up、docker run；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Droid"
+    ],
+    "summary_en": "Research → Ideation → Swipe → Build → Test → Review → Pull Request — fully automated.",
+    "summary_zh": "",
+    "install_hint": "npm install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.618
+    },
+    "highlights": [
+      "Gateway catalog sync — Local agent role assignments are now preserved during gateway sync instead of being overwritten every 60 seconds.",
+      "🔒 Bearer token auth, HMAC webhooks, Zod validation",
+      "🔀 Workspace isolation (git worktrees + task sandboxes)",
+      "🎯 Kanban board with drag-and-drop across 7 status columns"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-08T11:24:28+00:00",
+  "categories": [
+    "analytics-2",
+    "isolation-parallelism",
+    "self-hosting-security"
+  ],
+  "primary_category": "analytics-2",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

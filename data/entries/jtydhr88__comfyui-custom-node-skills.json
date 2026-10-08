@@ -6,14 +6,14 @@
   "url": "https://github.com/jtydhr88/comfyui-custom-node-skills",
   "description": "A curated collection of [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code/skills) for developing ComfyUI custom nodes. These skills give Claude comprehensive knowledge of the ComfyUI node system, covering both the V3 (recommended) and V1 (legacy) APIs.",
   "homepage": "",
-  "stars": 294,
+  "stars": 295,
   "forks": 28,
   "open_issues": 1,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-05T15:48:21Z",
-  "updated_at": "2026-10-03T21:26:24Z",
+  "updated_at": "2026-10-08T06:19:11Z",
   "pushed_at": "2026-07-27T12:15:09Z",
   "archived": false,
   "is_fork": false,
@@ -30,10 +30,10 @@
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 294,
+    "stars_gained": 295,
     "days_span": 216,
-    "stars_per_day": 1.36,
-    "lifetime_stars_per_day": 1.36,
+    "stars_per_day": 1.37,
+    "lifetime_stars_per_day": 1.37,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -116,7 +116,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:04+00:00",
+  "fetched_at": "2026-10-08T11:25:11+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "skills"
@@ -143,14 +143,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 8.173,
-      "momentum_ratio": 4.993,
+      "star_ratio": 8.146,
+      "momentum_ratio": 4.956,
       "setup_delta": -35,
-      "dominance": 1.0,
+      "dominance": 0.999,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "8.17x the stars (2,403 vs 294)",
-        "4.99x the star velocity (6.8/day vs 1.4/day)",
+        "8.15x the stars (2,403 vs 295)",
+        "4.96x the star velocity (6.8/day vs 1.4/day)",
         "no harder to set up (15 vs 50 friction)"
       ],
       "reasons_zh": [],

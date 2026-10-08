@@ -17,12 +17,14 @@
 | Health score | 39/100 |
 | Documentation | 52/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-17 |
-| Last push | 2026-04-13 (177 days ago) |
+| Last push | 2026-04-13 (178 days ago) |
 | Analyzed README | 27,770 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** — Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (6/6).
 
 ## What it solves
 

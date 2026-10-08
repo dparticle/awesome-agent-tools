@@ -6,7 +6,7 @@
   "url": "https://github.com/darrenhinde/OpenAgentsControl",
   "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
   "homepage": "",
-  "stars": 4891,
+  "stars": 4892,
   "forks": 402,
   "open_issues": 71,
   "language": "TypeScript",
@@ -23,27 +23,27 @@
     "prompt-engineering"
   ],
   "created_at": "2025-08-14T21:44:01Z",
-  "updated_at": "2026-10-07T04:18:44Z",
+  "updated_at": "2026-10-08T08:59:46Z",
   "pushed_at": "2026-09-13T22:57:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 418,
-  "days_since_push": 23,
+  "age_days": 419,
+  "days_since_push": 24,
   "health_score": 65,
   "health_components": {
     "popularity": 73.8,
-    "momentum": 9.8,
+    "momentum": 9.7,
     "maintenance": 92.0,
     "documentation": 71.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4891,
-    "days_span": 418,
-    "stars_per_day": 11.7,
-    "lifetime_stars_per_day": 11.7,
+    "stars_gained": 4892,
+    "days_span": 419,
+    "stars_per_day": 11.68,
+    "lifetime_stars_per_day": 11.68,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -130,22 +130,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:50+00:00",
+  "fetched_at": "2026-10-08T11:24:23+00:00",
   "categories": [
     "isolation-parallelism"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "paperclipai/paperclip",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
     "challenger": "",
     "supersede": {
       "incumbent": "darrenhinde/openagentscontrol",
-      "challenger": "paperclipai/paperclip",
+      "challenger": "othmanadi/planning-with-files",
       "incumbent_name": "darrenhinde/OpenAgentsControl",
-      "challenger_name": "paperclipai/paperclip",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -156,15 +156,15 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 20.092,
-      "momentum_ratio": 38.353,
-      "setup_delta": -5,
+      "star_ratio": 5.587,
+      "momentum_ratio": 8.417,
+      "setup_delta": -23,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "20.09x the stars (98,271 vs 4,891)",
-        "38.35x the star velocity (448.7/day vs 11.7/day)",
-        "no harder to set up (45 vs 50 friction)"
+        "5.59x the stars (27,330 vs 4,892)",
+        "8.42x the star velocity (98.3/day vs 11.7/day)",
+        "no harder to set up (27 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -177,26 +177,17 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
           "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
+          "parallel-execution",
           "security-isolation",
-          "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
           "worktree-isolation"
         ],
         "incumbent_health": 65,
-        "challenger_health": 89,
+        "challenger_health": 85,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 45
+        "challenger_setup_score": 27
       }
     }
   }

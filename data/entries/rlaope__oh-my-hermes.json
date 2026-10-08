@@ -6,9 +6,9 @@
   "url": "https://github.com/rlaope/oh-my-hermes",
   "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
   "homepage": "https://rlaope.github.io/oh-my-hermes/",
-  "stars": 3202,
+  "stars": 3217,
   "forks": 244,
-  "open_issues": 15,
+  "open_issues": 13,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -23,8 +23,8 @@
     "skills"
   ],
   "created_at": "2026-06-03T13:00:34Z",
-  "updated_at": "2026-10-07T13:28:58Z",
-  "pushed_at": "2026-10-07T12:12:21Z",
+  "updated_at": "2026-10-08T10:45:10Z",
+  "pushed_at": "2026-10-08T10:09:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -33,17 +33,17 @@
   "health_score": 67,
   "health_components": {
     "popularity": 70.1,
-    "momentum": 21.2,
+    "momentum": 21.3,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 99.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3202,
+    "stars_gained": 3217,
     "days_span": 126,
-    "stars_per_day": 25.41,
-    "lifetime_stars_per_day": 25.41,
+    "stars_per_day": 25.53,
+    "lifetime_stars_per_day": 25.53,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -150,10 +150,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:51+00:00",
+  "fetched_at": "2026-10-08T11:24:26+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
-    "model-routing"
+    "skills"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {

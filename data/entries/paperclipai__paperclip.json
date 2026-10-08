@@ -6,15 +6,15 @@
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
   "homepage": "https://paperclip.ing",
-  "stars": 98271,
-  "forks": 16613,
-  "open_issues": 6210,
+  "stars": 98662,
+  "forks": 16650,
+  "open_issues": 6186,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-02T15:01:51Z",
-  "updated_at": "2026-10-07T13:25:24Z",
-  "pushed_at": "2026-10-07T13:24:05Z",
+  "updated_at": "2026-10-08T11:19:32Z",
+  "pushed_at": "2026-10-08T11:18:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
@@ -22,7 +22,7 @@
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
-    "popularity": 99.8,
+    "popularity": 99.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 66.0,
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 98271,
+    "stars_gained": 98662,
     "days_span": 219,
-    "stars_per_day": 448.73,
-    "lifetime_stars_per_day": 448.73,
+    "stars_per_day": 450.51,
+    "lifetime_stars_per_day": 450.51,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "paperclipai/paperclip",
-    "readme_chars": 33852,
+    "readme_chars": 34267,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -155,7 +155,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.532
+      "external_link_ratio": 0.525
     },
     "highlights": [
       "✅ You have 20 simultaneous Claude Code terminals open and lose track of what everyone is doing",
@@ -171,13 +171,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:44+00:00",
+  "fetched_at": "2026-10-08T11:24:08+00:00",
   "categories": [
-    "analytics-2",
-    "isolation-parallelism",
-    "mobile"
+    "analytics",
+    "remote-control",
+    "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -164,11 +164,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:58+00:00",
+  "fetched_at": "2026-10-08T11:24:52+00:00",
   "categories": [
     "providers",
     "security-self-hosting",
-    "skills"
+    "self-hosting-security"
   ],
   "primary_category": "providers",
   "lifecycle": {

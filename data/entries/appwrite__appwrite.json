@@ -6,10 +6,10 @@
   "url": "https://github.com/appwrite/appwrite",
   "description": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
   "homepage": "https://appwrite.io",
-  "stars": 57589,
-  "forks": 5764,
-  "open_issues": 764,
-  "language": "PHP",
+  "stars": 57596,
+  "forks": 5765,
+  "open_issues": 765,
+  "language": "TypeScript",
   "license": "BSD-3-Clause",
   "topics": [
     "android",
@@ -34,8 +34,8 @@
     "web"
   ],
   "created_at": "2019-04-08T16:36:25Z",
-  "updated_at": "2026-10-07T13:20:38Z",
-  "pushed_at": "2026-10-07T13:25:11Z",
+  "updated_at": "2026-10-08T11:03:04Z",
+  "pushed_at": "2026-10-08T11:17:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -51,7 +51,7 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 57589,
+    "stars_gained": 57596,
     "days_span": 2739,
     "stars_per_day": 21.03,
     "lifetime_stars_per_day": 21.03,
@@ -145,25 +145,20 @@
       "Appwrite Storage - Store files with compression, encryption, image transformations, and access control.",
       "Appwrite Databases - Model, query, and scale with Appwrite databases or managed PostgreSQL and MySQL, so you can match your use case and team needs."
     ],
-    "summary_zh_native": "Appwrite 是面向 MCP 与智能体的开源平台，用于构建和扩展应用。MCP 已包含在内，编程智能体可以直接操作线上的 Appwrite 项目。Appwrite 提供托管云服务，也可以在你自己控制的基础设施上自托管。",
-    "highlights_zh": [
-      "Appwrite MCP - 将智能体连接到你的 Appwrite 项目、API 和文档。",
-      "Appwrite Storage - 存储文件，支持压缩、加密、图像转换和访问控制。",
-      "Appwrite Sites - 从 Git 部署静态、SSR 和 CSR 前端，支持即时预览，并由 Appwrite 作为后端。",
-      "Appwrite Auth - 通过邮箱、短信、OAuth、匿名会话和 Magic URL 安全地验证用户。"
-    ],
-    "chinese_readme": "README-CN.md"
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:47+00:00",
+  "fetched_at": "2026-10-08T11:24:14+00:00",
   "categories": [
-    "security-self-hosting"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

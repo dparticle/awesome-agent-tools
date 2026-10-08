@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 777 |
-| Star velocity | 14.4/day (lifetime basis, 54d span) |
+| Stars | 783 |
+| Star velocity | 14.2/day (lifetime basis, 55d span) |
 | Health score | 58/100 |
 | Documentation | 43/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | BSD-3-Clause |
 | Language | JavaScript |
 | Created | 2026-08-13 |
-| Last push | 2026-10-06 (0 days ago) |
+| Last push | 2026-10-06 (1 days ago) |
 | Analyzed README | 13,188 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -113,8 +113,8 @@ Score **43/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 57.8 |
-| momentum | 12.0 |
+| popularity | 57.9 |
+| momentum | 11.9 |
 | maintenance | 100.0 |
 | documentation | 43.0 |
 | accessibility | 97.0 |

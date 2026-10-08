@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,891 |
-| Star velocity | 11.7/day (lifetime basis, 418d span) |
+| Stars | 4,892 |
+| Star velocity | 11.7/day (lifetime basis, 419d span) |
 | Health score | 65/100 |
 | Documentation | 71/100 |
 | Tier | ✅ Recommended |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-14 |
-| Last push | 2026-09-13 (23 days ago) |
+| Last push | 2026-09-13 (24 days ago) |
 | Analyzed README | 29,988 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -73,7 +73,7 @@ Score **71/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 73.8 |
-| momentum | 9.8 |
+| momentum | 9.7 |
 | maintenance | 92.0 |
 | documentation | 71.0 |
 | accessibility | 100.0 |

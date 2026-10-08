@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,955 |
-| Star velocity | 59.5/day (lifetime basis, 100d span) |
+| Stars | 5,965 |
+| Star velocity | 59.1/day (lifetime basis, 101d span) |
 | Health score | 66/100 |
 | Documentation | 60/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-06-29 |
-| Last push | 2026-10-07 (0 days ago) |
+| Last push | 2026-10-08 (0 days ago) |
 | Analyzed README | 16,630 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -76,7 +74,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 75.5 |
-| momentum | 49.6 |
+| momentum | 49.2 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 28.0 |

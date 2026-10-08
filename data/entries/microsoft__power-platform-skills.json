@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
   "homepage": "https://aka.ms/ppskills",
-  "stars": 969,
-  "forks": 196,
-  "open_issues": 172,
+  "stars": 973,
+  "forks": 197,
+  "open_issues": 173,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "power-platform"
   ],
   "created_at": "2026-01-21T18:25:14Z",
-  "updated_at": "2026-10-07T11:02:34Z",
-  "pushed_at": "2026-10-07T13:19:44Z",
+  "updated_at": "2026-10-08T11:15:14Z",
+  "pushed_at": "2026-10-08T11:14:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 258,
+  "age_days": 259,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 59.7,
+    "popularity": 59.8,
     "momentum": 3.1,
     "maintenance": 100.0,
     "documentation": 44.0,
@@ -38,8 +38,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 969,
-    "days_span": 258,
+    "stars_gained": 973,
+    "days_span": 259,
     "stars_per_day": 3.76,
     "lifetime_stars_per_day": 3.76,
     "basis": "lifetime",
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:56+00:00",
+  "fetched_at": "2026-10-08T11:24:41+00:00",
   "categories": [
     "mobile"
   ],
@@ -160,13 +160,13 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 1.469,
-      "momentum_ratio": 1.484,
+      "star_ratio": 1.462,
+      "momentum_ratio": 1.479,
       "setup_delta": -3,
-      "dominance": 0.686,
+      "dominance": 0.685,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.47x the stars (1,423 vs 969)",
+        "1.46x the stars (1,423 vs 973)",
         "1.48x the star velocity (5.6/day vs 3.8/day)",
         "no harder to set up (46 vs 49 friction)"
       ],

@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 341,
-  "days_since_push": 145,
+  "age_days": 342,
+  "days_since_push": 146,
   "health_score": 42,
   "health_components": {
     "popularity": 49.0,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 282,
-    "days_span": 341,
-    "stars_per_day": 0.83,
-    "lifetime_stars_per_day": 0.83,
+    "days_span": 342,
+    "stars_per_day": 0.82,
+    "lifetime_stars_per_day": 0.82,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,8 +131,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:05+00:00",
+  "fetched_at": "2026-10-08T11:25:11+00:00",
   "categories": [
+    "security-self-hosting",
     "skills"
   ],
   "primary_category": "skills",
@@ -157,14 +158,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.851,
-      "momentum_ratio": 4.024,
+      "star_ratio": 2.879,
+      "momentum_ratio": 4.098,
       "setup_delta": -37,
-      "dominance": 0.961,
+      "dominance": 0.966,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.85x the stars (804 vs 282)",
-        "4.02x the star velocity (3.3/day vs 0.8/day)",
+        "2.88x the stars (812 vs 282)",
+        "4.10x the star velocity (3.4/day vs 0.8/day)",
         "no harder to set up (21 vs 58 friction)"
       ],
       "reasons_zh": [],
@@ -186,7 +187,7 @@
           "skills-plugins"
         ],
         "incumbent_health": 42,
-        "challenger_health": 56,
+        "challenger_health": 57,
         "incumbent_setup_score": 58,
         "challenger_setup_score": 21
       }

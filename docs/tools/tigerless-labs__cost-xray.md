@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,833 |
-| Star velocity | 31.2/day (lifetime basis, 123d span) |
-| Health score | 65/100 |
+| Stars | 4,053 |
+| Star velocity | 32.7/day (lifetime basis, 124d span) |
+| Health score | 63/100 |
 | Documentation | 48/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-06-06 |
-| Last push | 2026-09-29 (7 days ago) |
+| Last push | 2026-09-29 (8 days ago) |
 | Analyzed README | 11,643 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
@@ -79,9 +79,9 @@ Score **48/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.7 |
-| momentum | 26.0 |
-| maintenance | 100.0 |
+| popularity | 72.2 |
+| momentum | 27.2 |
+| maintenance | 92.0 |
 | documentation | 48.0 |
 | accessibility | 88.0 |
 

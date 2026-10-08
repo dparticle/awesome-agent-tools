@@ -6,7 +6,7 @@
   "url": "https://github.com/KunAgent/Kun",
   "description": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.",
   "homepage": "https://www.kun-agent.com",
-  "stars": 6317,
+  "stars": 6319,
   "forks": 594,
   "open_issues": 6,
   "language": "TypeScript",
@@ -33,8 +33,8 @@
     "writing-assistant"
   ],
   "created_at": "2026-05-21T13:22:06Z",
-  "updated_at": "2026-10-07T12:28:10Z",
-  "pushed_at": "2026-10-07T12:57:11Z",
+  "updated_at": "2026-10-08T01:50:34Z",
+  "pushed_at": "2026-10-07T17:11:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
@@ -50,10 +50,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 6317,
+    "stars_gained": 6319,
     "days_span": 139,
-    "stars_per_day": 45.45,
-    "lifetime_stars_per_day": 45.45,
+    "stars_per_day": 45.46,
+    "lifetime_stars_per_day": 45.46,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -151,10 +151,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:39+00:00",
+  "fetched_at": "2026-10-08T11:23:55+00:00",
   "categories": [
     "quota",
-    "security-self-hosting"
+    "self-hosting-security"
   ],
   "primary_category": "quota",
   "lifecycle": {

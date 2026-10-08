@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 623 |
-| Star velocity | 15.6/day (lifetime basis, 40d span) |
+| Stars | 624 |
+| Star velocity | 15.2/day (lifetime basis, 41d span) |
 | Health score | 52/100 |
 | Documentation | 35/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-10-03 (4 days ago) |
 | Analyzed README | 6,950 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [trailhq/Graft](https://github.com/trailhq/Graft)** — Superseded by trailhq/Graft: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [nexu-io/open-design](https://github.com/nexu-io/open-design)** — Superseded by nexu-io/open-design: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -70,7 +70,7 @@ Score **35/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.9 |
-| momentum | 13.0 |
+| momentum | 12.7 |
 | maintenance | 100.0 |
 | documentation | 35.0 |
 | accessibility | 66.0 |

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,920 |
-| Star velocity | 435.6/day (lifetime basis, 9d span) |
+| Stars | 4,138 |
+| Star velocity | 413.8/day (lifetime basis, 10d span) |
 | Health score | 83/100 |
-| Documentation | 59/100 |
+| Documentation | 60/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Swift |
 | Created | 2026-09-27 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 23,266 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 25,001 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -48,7 +48,7 @@
 
 ### GUI / desktop app
 
-> out as a beta: download it from Coucou for Linux 0.1.1 (beta), x8664 only for now.
+> ting from 0.1.0? macOS may ask you, once for each key you saved, to let Coucou use it: enter your Mac password and click Always Allow.
 
 ### Notifications
 
@@ -75,7 +75,7 @@
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -92,10 +92,10 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.9 |
+| popularity | 72.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
+| documentation | 60.0 |
 | accessibility | 77.0 |
 
 ---

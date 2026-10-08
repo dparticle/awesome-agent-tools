@@ -6,7 +6,7 @@
   "url": "https://github.com/mnemon-dev/mnemon",
   "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
   "homepage": "https://github.com/mnemon-dev/mnemon#readme",
-  "stars": 611,
+  "stars": 612,
   "forks": 74,
   "open_issues": 8,
   "language": "Go",
@@ -31,12 +31,12 @@
     "persistent-memory"
   ],
   "created_at": "2026-02-20T02:26:17Z",
-  "updated_at": "2026-10-05T09:29:53Z",
+  "updated_at": "2026-10-08T09:32:08Z",
   "pushed_at": "2026-10-03T12:29:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 229,
+  "age_days": 230,
   "days_since_push": 4,
   "health_score": 51,
   "health_components": {
@@ -48,10 +48,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 611,
-    "days_span": 229,
-    "stars_per_day": 2.67,
-    "lifetime_stars_per_day": 2.67,
+    "stars_gained": 612,
+    "days_span": 230,
+    "stars_per_day": 2.66,
+    "lifetime_stars_per_day": 2.66,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -158,9 +158,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:58+00:00",
+  "fetched_at": "2026-10-08T11:24:49+00:00",
   "categories": [
     "analytics",
+    "security-self-hosting",
     "skills"
   ],
   "primary_category": "analytics",

@@ -7,7 +7,7 @@
   "description": "RFC-driven development for AI coding agents: idea or existing codebase → verified PRD → features → rules → sequenced RFCs → reviewed code. Agent Skills for Claude Code, Codex, Copilot, Cursor, Gemini CLI, OpenCode, Devin.",
   "homepage": "",
   "stars": 298,
-  "forks": 33,
+  "forks": 34,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -31,13 +31,13 @@
     "vibe-coding"
   ],
   "created_at": "2025-03-09T19:23:57Z",
-  "updated_at": "2026-10-06T17:28:43Z",
+  "updated_at": "2026-10-08T04:10:58Z",
   "pushed_at": "2026-10-01T18:57:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 576,
-  "days_since_push": 5,
+  "age_days": 577,
+  "days_since_push": 6,
   "health_score": 52,
   "health_components": {
     "popularity": 49.5,
@@ -49,7 +49,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 298,
-    "days_span": 576,
+    "days_span": 577,
     "stars_per_day": 0.52,
     "lifetime_stars_per_day": 0.52,
     "basis": "lifetime",
@@ -141,11 +141,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:04+00:00",
+  "fetched_at": "2026-10-08T11:25:10+00:00",
   "categories": [
-    "agent-runtime-desktop-ui"
+    "skills"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",

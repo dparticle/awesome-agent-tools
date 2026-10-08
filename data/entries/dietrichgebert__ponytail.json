@@ -6,9 +6,9 @@
   "url": "https://github.com/DietrichGebert/ponytail",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
   "homepage": "https://ponytail.dev",
-  "stars": 157284,
-  "forks": 8454,
-  "open_issues": 16,
+  "stars": 158103,
+  "forks": 8491,
+  "open_issues": 20,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -24,39 +24,39 @@
     "yagni"
   ],
   "created_at": "2026-06-12T00:52:37Z",
-  "updated_at": "2026-10-07T13:34:09Z",
-  "pushed_at": "2026-10-05T20:46:39Z",
+  "updated_at": "2026-10-08T11:19:48Z",
+  "pushed_at": "2026-10-08T03:51:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 117,
-  "days_since_push": 1,
-  "health_score": 88,
+  "age_days": 118,
+  "days_since_push": 0,
+  "health_score": 86,
   "health_components": {
     "popularity": 100.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 47.0,
-    "accessibility": 72.0
+    "accessibility": 58.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 157284,
-    "days_span": 117,
-    "stars_per_day": 1344.31,
-    "lifetime_stars_per_day": 1344.31,
+    "stars_gained": 158103,
+    "days_span": 118,
+    "stars_per_day": 1339.86,
+    "lifetime_stars_per_day": 1339.86,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "DietrichGebert/ponytail",
-    "readme_chars": 11216,
+    "readme_chars": 11912,
     "capabilities": [
       "skills-plugins",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "skills-plugins": "",
+      "skills-plugins": ", a parser, money or security leaves one small test behind.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
     },
     "capability_hits": {
@@ -64,22 +64,22 @@
       "cross-agent-support": 6
     },
     "friction": {
-      "level": "low",
-      "score": 28,
+      "level": "moderate",
+      "score": 42,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
-      "easy_signals": [
-        "npx one-liner"
-      ],
+      "easy_signals": [],
       "hard_signals": [],
       "config_signals": [
         "config file",
         "config.json/yaml/toml"
       ],
       "friendliness_signals": [],
-      "platforms": [],
-      "note_en": "Easy. install via npx one-liner; configure config file, config.json/yaml/toml",
-      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 config file、config.json/yaml/toml"
+      "platforms": [
+        "Web"
+      ],
+      "note_en": "Some setup. configure config file, config.json/yaml/toml",
+      "note_zh": "需要一些配置。需配置 config file、config.json/yaml/toml"
     },
     "doc_score": 47,
     "doc_signals": [
@@ -108,7 +108,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.357
+      "external_link_ratio": 0.0
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -120,7 +120,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:37+00:00",
+  "fetched_at": "2026-10-08T11:23:46+00:00",
   "categories": [
     "skills"
   ],

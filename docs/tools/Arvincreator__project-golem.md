@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 639 |
-| Star velocity | 2.6/day (lifetime basis, 250d span) |
+| Star velocity | 2.5/day (lifetime basis, 251d span) |
 | Health score | 39/100 |
 | Documentation | 30/100 |
 | Tier | 👀 Watchlist |
@@ -21,10 +21,10 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-01-30 |
-| Last push | 2026-06-22 (107 days ago) |
+| Last push | 2026-06-22 (108 days ago) |
 | Analyzed README | 6,618 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [redhat-et/ripwire](https://github.com/redhat-et/ripwire)** — Superseded by redhat-et/ripwire: covers 100% of capabilities (4/4).
 
 ## What it solves
 

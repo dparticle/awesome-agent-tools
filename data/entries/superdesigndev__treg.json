@@ -6,9 +6,9 @@
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
   "homepage": "https://treg.to",
-  "stars": 4667,
-  "forks": 382,
-  "open_issues": 122,
+  "stars": 4783,
+  "forks": 389,
+  "open_issues": 126,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -25,33 +25,33 @@
     "secrets"
   ],
   "created_at": "2026-07-15T13:38:07Z",
-  "updated_at": "2026-10-07T13:30:55Z",
-  "pushed_at": "2026-10-07T13:21:21Z",
+  "updated_at": "2026-10-08T11:23:33Z",
+  "pushed_at": "2026-10-08T10:04:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 84,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 73,
   "health_components": {
-    "popularity": 73.4,
-    "momentum": 46.3,
+    "popularity": 73.6,
+    "momentum": 47.5,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4667,
+    "stars_gained": 4783,
     "days_span": 84,
-    "stars_per_day": 55.56,
-    "lifetime_stars_per_day": 55.56,
+    "stars_per_day": 56.94,
+    "lifetime_stars_per_day": 56.94,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "superdesigndev/treg",
-    "readme_chars": 28556,
+    "readme_chars": 28762,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -139,7 +139,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.35
+      "external_link_ratio": 0.348
     },
     "highlights": [
       "The API — everything the CLI does is plain HTTP; interactive OpenAPI docs live at /docs.",
@@ -155,82 +155,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:40+00:00",
+  "fetched_at": "2026-10-08T11:23:57+00:00",
   "categories": [
     "billing",
     "security-self-hosting",
-    "skills"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "superdesigndev/treg",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "superdesigndev/treg",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "billing-metering",
-        "mcp-support",
-        "model-routing",
-        "notifications",
-        "security-isolation",
-        "self-hosted",
-        "skills-plugins"
-      ],
-      "star_ratio": 6.258,
-      "momentum_ratio": 2.347,
-      "setup_delta": 11,
-      "dominance": 0.851,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "6.26x the stars (29,204 vs 4,667)",
-        "2.35x the star velocity (130.4/day vs 55.6/day)",
-        "slightly heavier setup (+11 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "billing-metering",
-          "mcp-support",
-          "model-routing",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 72,
-        "challenger_health": 88,
-        "incumbent_setup_score": 21,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

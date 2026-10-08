@@ -6,34 +6,34 @@
   "url": "https://github.com/LiamGvchi/gc-minimal-zine-poster",
   "description": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
   "homepage": "",
-  "stars": 7278,
-  "forks": 319,
+  "stars": 7284,
+  "forks": 320,
   "open_issues": 0,
   "language": "",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-12T09:54:51Z",
-  "updated_at": "2026-10-07T11:08:08Z",
+  "updated_at": "2026-10-08T10:20:38Z",
   "pushed_at": "2026-08-13T15:12:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 87,
+  "age_days": 88,
   "days_since_push": 55,
   "health_score": 66,
   "health_components": {
     "popularity": 77.2,
-    "momentum": 69.7,
+    "momentum": 69.0,
     "maintenance": 78.0,
     "documentation": 40.0,
     "accessibility": 49.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 7278,
-    "days_span": 87,
-    "stars_per_day": 83.66,
-    "lifetime_stars_per_day": 83.66,
+    "stars_gained": 7284,
+    "days_span": 88,
+    "stars_per_day": 82.77,
+    "lifetime_stars_per_day": 82.77,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -90,16 +90,21 @@
       "Keeps the callable Skill name gc-minimal-zine-poster-v0-3 for backward compatibility.",
       "a default 3:5 aged-paper canvas"
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "English · 简体中文 · 日本語",
+    "highlights_zh": [
+      "Analyze + Generate：先提取视觉系统，再生成不复制原图构图的新作品。",
+      "Generate：内容 → 视觉隐喻 → Prompt → 位图生成 → 结果检查。",
+      "Photo Input：确定图片角色和保真等级，把真实目标图片传入生成，并检查主体保留情况。",
+      "Prompt-only：只返回四段式最终 Prompt 与 Recipe，不声称已经生成图片。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:39+00:00",
+  "fetched_at": "2026-10-08T11:23:54+00:00",
   "categories": [
     "skills"
   ],

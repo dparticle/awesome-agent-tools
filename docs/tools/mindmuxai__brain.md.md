@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 564 |
-| Star velocity | 5.1/day (lifetime basis, 111d span) |
+| Star velocity | 5.0/day (lifetime basis, 112d span) |
 | Health score | 55/100 |
 | Documentation | 52/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-06-18 |
 | Last push | 2026-09-11 (26 days ago) |
 | Analyzed README | 12,202 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** — Superseded by maxritter/pilot-shell: covers 100% of capabilities (7/7).
 
 ## What it solves
 

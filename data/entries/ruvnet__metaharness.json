@@ -6,9 +6,9 @@
   "url": "https://github.com/ruvnet/metaharness",
   "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
   "homepage": "https://Cognitum.One",
-  "stars": 688,
+  "stars": 691,
   "forks": 87,
-  "open_issues": 140,
+  "open_issues": 143,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "scaffolding"
   ],
   "created_at": "2026-06-13T18:29:11Z",
-  "updated_at": "2026-10-06T17:36:47Z",
-  "pushed_at": "2026-10-07T08:33:36Z",
+  "updated_at": "2026-10-08T05:01:20Z",
+  "pushed_at": "2026-10-08T08:33:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 115,
+  "age_days": 116,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 688,
-    "days_span": 115,
-    "stars_per_day": 5.98,
-    "lifetime_stars_per_day": 5.98,
+    "stars_gained": 691,
+    "days_span": 116,
+    "stars_per_day": 5.96,
+    "lifetime_stars_per_day": 5.96,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "ruvnet/metaharness",
-    "readme_chars": 30014,
+    "readme_chars": 33248,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -71,15 +71,15 @@
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "AI agent scaffold, AI agent generator, repo to agent, GitHub repo to AI agent, agent harness, agent harness generator, agent framework alternative, agentic AI, agentic workflow, autonomous AI agents, multi-agent framewo…",
-      "model-routing": "a docs site want very different harnesses.",
+      "model-routing": "pi.dev, Hermes, OpenClaw, RVM, or Prime Agent — pick one or all",
       "skills-plugins": "ss, npm create AI agent, Rust WASM agent kernel, NAPI-RS, wasm-bindgen, agent memory, ReasoningBank, HNSW vector search, emergent time, witness manifest, Ed25519 signed, provenance, SBOM, SPDX, SLSA, plugin marketplace,…",
-      "agent-runtime": "",
+      "agent-runtime": "ern Tools with explicit policy",
       "mcp-support": "## What it gives you In under 60 seconds, in your browser, with nothing leaving your machine: - A custom AI agent harness for your repo (or any repo) - Recommended agents, skills, slash commands, MCP tools - A scoped me…",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, OpenCode"
     },
     "capability_hits": {
       "multi-agent-orchestration": 3,
-      "model-routing": 1,
+      "model-routing": 2,
       "skills-plugins": 1,
       "agent-runtime": 1,
       "mcp-support": 13,
@@ -143,7 +143,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.466
+      "external_link_ratio": 1.353
     },
     "highlights": [
       "Run an experimental ARC-AGI-3 harness from the ChatGPT UI.",
@@ -160,24 +160,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:57+00:00",
+  "fetched_at": "2026-10-08T11:24:47+00:00",
   "categories": [
-    "model-routing",
+    "agent-runtime-desktop-ui",
     "security-self-hosting",
     "skills"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "redhat-et/ripwire",
     "challenger": "",
     "supersede": {
       "incumbent": "ruvnet/metaharness",
-      "challenger": "affaan-m/ecc",
+      "challenger": "redhat-et/ripwire",
       "incumbent_name": "ruvnet/metaharness",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "redhat-et/ripwire",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -190,15 +190,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 399.14,
-      "momentum_ratio": 175.271,
-      "setup_delta": -1,
+      "star_ratio": 3.505,
+      "momentum_ratio": 5.805,
+      "setup_delta": -24,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "399.14x the stars (274,608 vs 688)",
-        "175.27x the star velocity (1048.1/day vs 6.0/day)",
-        "no harder to set up (57 vs 58 friction)"
+        "3.51x the stars (2,422 vs 691)",
+        "5.81x the star velocity (34.6/day vs 6.0/day)",
+        "no harder to set up (34 vs 58 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -212,24 +212,20 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "security-isolation",
-          "self-hosted",
           "skills-plugins",
           "worktree-isolation"
         ],
         "incumbent_health": 53,
-        "challenger_health": 89,
+        "challenger_health": 66,
         "incumbent_setup_score": 58,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 34
       }
     }
   }

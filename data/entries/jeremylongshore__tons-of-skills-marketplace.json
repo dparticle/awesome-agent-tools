@@ -6,8 +6,8 @@
   "url": "https://github.com/jeremylongshore/tons-of-skills-marketplace",
   "description": "Model-agnostic agent-skills platform with a harness-free canonical layer, verified adapters, and the ccpi package manager. Explore at tonsofskills.com.",
   "homepage": "https://tonsofskills.com",
-  "stars": 2819,
-  "forks": 413,
+  "stars": 2822,
+  "forks": 415,
   "open_issues": 23,
   "language": "Python",
   "license": "MIT",
@@ -30,12 +30,12 @@
     "skills"
   ],
   "created_at": "2025-10-10T01:01:00Z",
-  "updated_at": "2026-10-07T10:58:14Z",
-  "pushed_at": "2026-10-07T10:26:32Z",
+  "updated_at": "2026-10-08T10:43:55Z",
+  "pushed_at": "2026-10-08T10:43:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 362,
+  "age_days": 363,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
@@ -47,25 +47,28 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2819,
-    "days_span": 362,
-    "stars_per_day": 7.79,
-    "lifetime_stars_per_day": 7.79,
+    "stars_gained": 2822,
+    "days_span": 363,
+    "stars_per_day": 7.77,
+    "lifetime_stars_per_day": 7.77,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "jeremylongshore/tons-of-skills-marketplace",
-    "readme_chars": 12896,
+    "readme_chars": 12920,
     "capabilities": [
+      "multi-agent-orchestration",
       "skills-plugins",
       "mcp-support"
     ],
     "capability_evidence": {
+      "multi-agent-orchestration": "",
       "skills-plugins": "",
       "mcp-support": ""
     },
     "capability_hits": {
+      "multi-agent-orchestration": 1,
       "skills-plugins": 1,
       "mcp-support": 1
     },
@@ -108,7 +111,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 3.645
+      "external_link_ratio": 3.638
     },
     "highlights": [
       "By job to be done — tonsofskills.com/cowork, curated bundles as one-click downloads."
@@ -122,8 +125,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:51+00:00",
+  "fetched_at": "2026-10-08T11:24:26+00:00",
   "categories": [
+    "security-self-hosting",
     "skills"
   ],
   "primary_category": "skills",

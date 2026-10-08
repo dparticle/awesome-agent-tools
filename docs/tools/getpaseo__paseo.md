@@ -2,7 +2,7 @@
 
 # getpaseo/paseo
 
-> Paseo is a desktop, mobile, web, and CLI app for coding agents.
+> Paseo is an open source agentic development environment for desktop, mobile, web, and CLI.
 
 [Repository](https://github.com/getpaseo/paseo) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,955 |
-| Star velocity | 55.6/day (lifetime basis, 359d span) |
-| Health score | 73/100 |
+| Stars | 20,097 |
+| Star velocity | 56.0/day (lifetime basis, 359d span) |
+| Health score | 74/100 |
 | Documentation | 51/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2025-10-13 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 8,543 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 8,591 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,11 +38,11 @@
 
 ### Parallel execution
 
-> ull requests, and a browser in one window.
+> Paseo is an open source agentic development environment for desktop, mobile, web, and CLI.
 
 ### Workspace isolation
 
-> ktop, mobile, web, and CLI app for coding agents.
+> nt environment for desktop, mobile, web, and CLI.
 
 ### Agent runtime
 
@@ -58,11 +58,11 @@
 
 ### Self-hostable
 
-> can create worktrees, launch other agents, and talk to them, across providers.
+> , launch other agents, and talk to them, across providers.
 
 ### GUI / desktop app
 
-> One interface for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code agents.
+> e for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code agents.
 
 ### Voice input
 
@@ -104,8 +104,8 @@ Score **51/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 86.0 |
-| momentum | 46.3 |
+| popularity | 86.1 |
+| momentum | 46.7 |
 | maintenance | 100.0 |
 | documentation | 51.0 |
 | accessibility | 84.0 |

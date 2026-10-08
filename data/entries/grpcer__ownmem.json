@@ -40,7 +40,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 52,
-  "days_since_push": 1,
+  "days_since_push": 2,
   "health_score": 58,
   "health_components": {
     "popularity": 52.5,
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:00+00:00",
+  "fetched_at": "2026-10-08T11:24:57+00:00",
   "categories": [
     "analytics"
   ],

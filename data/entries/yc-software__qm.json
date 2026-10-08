@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15359,
-  "forks": 1904,
-  "open_issues": 851,
+  "stars": 15362,
+  "forks": 1903,
+  "open_issues": 859,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,12 +18,12 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-10-07T10:59:18Z",
-  "pushed_at": "2026-10-06T21:57:06Z",
+  "updated_at": "2026-10-08T09:10:25Z",
+  "pushed_at": "2026-10-08T09:10:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 69,
+  "age_days": 70,
   "days_since_push": 0,
   "health_score": 79,
   "health_components": {
@@ -35,10 +35,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 15359,
-    "days_span": 69,
-    "stars_per_day": 222.59,
-    "lifetime_stars_per_day": 222.59,
+    "stars_gained": 15362,
+    "days_span": 70,
+    "stars_per_day": 219.46,
+    "lifetime_stars_per_day": 219.46,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -144,10 +144,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:37+00:00",
+  "fetched_at": "2026-10-08T11:23:47+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "model-routing",
+    "skills",
     "teams"
   ],
   "primary_category": "teams",

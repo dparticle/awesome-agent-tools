@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 275 |
-| Star velocity | 4.7/day (lifetime basis, 58d span) |
+| Stars | 277 |
+| Star velocity | 4.7/day (lifetime basis, 59d span) |
 | Health score | 50/100 |
 | Documentation | 52/100 |
 | Tier | 🔹 Notable |
@@ -22,7 +22,7 @@
 | Language | JavaScript |
 | Created | 2026-08-10 |
 | Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 16,978 chars from `raw:HEAD/README.md` |
+| Analyzed README | 17,487 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,6 +44,8 @@
 
 ### Billing & metering
 
+> 工具更靠谱：产物落在这趟任务的目录，资料库只看本人那份，插件带的连接器也挂上
+
 ### Skills & plugins
 
 ### MCP support
@@ -51,6 +53,8 @@
 > - 10-02 Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法 - 10-02 PPT 预览按每页真实版式画；画布按图片原比例摆，时间线改成胶片条；成果栏窄窗口也关得掉 - 10-02 模型渠道修一轮：火山方舟上的 GLM 不再被拦，挂错渠道会提示；通义国际站、万相出图修好 - 10-01 对话里说「装这个技能」直接装进技能库；接 MCP 直接跳连接器页 - 10-01…
 
 ### Security & isolation
+
+> -mode --perm -C -f --json 等全部参数 → 命令行用法
 
 ### Self-hostable
 
@@ -99,7 +103,7 @@ Score **52/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 48.8 |
-| momentum | 4.0 |
+| momentum | 3.9 |
 | maintenance | 100.0 |
 | documentation | 52.0 |
 | accessibility | 63.0 |

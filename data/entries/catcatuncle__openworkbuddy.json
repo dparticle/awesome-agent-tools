@@ -6,7 +6,7 @@
   "url": "https://github.com/CatCatUncle/openworkbuddy",
   "description": "Open-source Claude Cowork / Codex alternative — a local-first AI office agent that turns one request into real PPTX, DOCX, XLSX and HTML files. Runs DeepSeek, Qwen, Doubao, Claude or Ollama (BYOK), MCP, and can drive Claude Code / Codex CLI. 开源 AI 办公助理，豆包办公 / 千问办公替代。",
   "homepage": "https://catcatuncle.github.io/openworkbuddy/",
-  "stars": 275,
+  "stars": 277,
   "forks": 64,
   "open_issues": 6,
   "language": "JavaScript",
@@ -32,33 +32,33 @@
     "short-drama"
   ],
   "created_at": "2026-08-10T08:18:25Z",
-  "updated_at": "2026-10-07T08:19:21Z",
-  "pushed_at": "2026-10-07T07:28:14Z",
+  "updated_at": "2026-10-07T18:50:26Z",
+  "pushed_at": "2026-10-07T18:50:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 58,
+  "age_days": 59,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 48.8,
-    "momentum": 4.0,
+    "momentum": 3.9,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 275,
-    "days_span": 58,
-    "stars_per_day": 4.74,
-    "lifetime_stars_per_day": 4.74,
+    "stars_gained": 277,
+    "days_span": 59,
+    "stars_per_day": 4.69,
+    "lifetime_stars_per_day": 4.69,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CatCatUncle/openworkbuddy",
-    "readme_chars": 16978,
+    "readme_chars": 17487,
     "capabilities": [
       "quota-management",
       "remote-control",
@@ -82,10 +82,10 @@
       "worktree-isolation": "/ Anthropic / Gemini / Ollama 原生，本地部署都能接",
       "api-gateway": "",
       "quota-distribution": "",
-      "billing-metering": "",
+      "billing-metering": "工具更靠谱：产物落在这趟任务的目录，资料库只看本人那份，插件带的连接器也挂上",
       "skills-plugins": "",
       "mcp-support": "- 10-02 Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法 - 10-02 PPT 预览按每页真实版式画；画布按图片原比例摆，时间线改成胶片条；成果栏窄窗口也关得掉 - 10-02 模型渠道修一轮：火山方舟上的 GLM 不再被拦，挂错渠道会提示；通义国际站、万相出图修好 - 10-01 对话里说「装这个技能」直接装进技能库；接 MCP 直接跳连接器页 - 10-01…",
-      "security-isolation": "",
+      "security-isolation": "-mode --perm -C -f --json 等全部参数 → 命令行用法",
       "self-hosted": "",
       "gui-desktop": "skill.md ，存盘后下一条任务就生效——不改代码、不重启、不打包。",
       "notifications": "",
@@ -101,7 +101,7 @@
       "billing-metering": 3,
       "skills-plugins": 1,
       "mcp-support": 2,
-      "security-isolation": 1,
+      "security-isolation": 3,
       "self-hosted": 1,
       "gui-desktop": 2,
       "notifications": 1,
@@ -159,13 +159,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.589
+      "external_link_ratio": 0.572
     },
     "highlights": [
       "10-06 系统沙箱：AI 跑的命令和脚本在 macOS、Windows 上读不到 Key 和账本、改不了应用；设置 → 安全 能关，每条多花 7–16 毫秒",
       "10-07 闲着更省电：没任务、没人用时，服务每秒醒来从约 40 次降到 2 次；窗口不在前台也不再盯卡顿",
       "09-28 渠道能选接口格式：OpenAI / Responses / Anthropic / Gemini / Ollama 原生，本地部署都能接",
-      "09-28 授权写清楚了：个人非商用免费；公司使用（含只在内部用）和个人商用要向作者买商业授权，公司可先免费试用 30 天"
+      "10-08 本机 Claude Code / Codex 借去的生图、资料库等工具可改回主程序执行：审批卡处处看得到，账记在发起人名下；属主勾选，默认关"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -176,11 +176,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:05+00:00",
+  "fetched_at": "2026-10-08T11:25:13+00:00",
   "categories": [
     "quota",
-    "security-self-hosting",
-    "sharing"
+    "remote-control",
+    "self-hosting-security"
   ],
   "primary_category": "quota",
   "lifecycle": {

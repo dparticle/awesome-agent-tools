@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,782 |
-| Star velocity | 11.6/day (lifetime basis, 239d span) |
+| Stars | 2,786 |
+| Star velocity | 11.6/day (lifetime basis, 240d span) |
 | Health score | 58/100 |
 | Documentation | 37/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Zig |
 | Created | 2026-02-10 |
-| Last push | 2026-10-06 (1 days ago) |
+| Last push | 2026-10-08 (0 days ago) |
 | Analyzed README | 7,254 chars from `raw:HEAD/README.md` |
 
 ## What it solves

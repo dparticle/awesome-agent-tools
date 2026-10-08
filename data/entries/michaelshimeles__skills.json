@@ -6,8 +6,8 @@
   "url": "https://github.com/michaelshimeles/skills",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1259,
-  "forks": 199,
+  "stars": 1269,
+  "forks": 201,
   "open_issues": 3,
   "language": "Python",
   "license": "",
@@ -22,16 +22,16 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-10-07T13:27:42Z",
+  "updated_at": "2026-10-08T11:05:01Z",
   "pushed_at": "2026-10-04T00:03:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 216,
-  "days_since_push": 3,
+  "days_since_push": 4,
   "health_score": 53,
   "health_components": {
-    "popularity": 62.0,
+    "popularity": 62.1,
     "momentum": 4.9,
     "maintenance": 100.0,
     "documentation": 38.0,
@@ -39,10 +39,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1259,
+    "stars_gained": 1269,
     "days_span": 216,
-    "stars_per_day": 5.83,
-    "lifetime_stars_per_day": 5.83,
+    "stars_per_day": 5.88,
+    "lifetime_stars_per_day": 5.88,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:52+00:00",
+  "fetched_at": "2026-10-08T11:24:34+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "isolation-parallelism",
@@ -139,15 +139,15 @@
   "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "iOfficeAI/AionUi",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
     "challenger": "",
     "supersede": {
       "incumbent": "michaelshimeles/skills",
-      "challenger": "iofficeai/aionui",
+      "challenger": "othmanadi/planning-with-files",
       "incumbent_name": "michaelshimeles/skills",
-      "challenger_name": "iOfficeAI/AionUi",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -159,15 +159,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 26.49,
-      "momentum_ratio": 13.429,
-      "setup_delta": -26,
+      "star_ratio": 21.537,
+      "momentum_ratio": 16.719,
+      "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "26.49x the stars (33,351 vs 1,259)",
-        "13.43x the star velocity (78.3/day vs 5.8/day)",
-        "no harder to set up (2 vs 28 friction)"
+        "21.54x the stars (27,330 vs 1,269)",
+        "16.72x the star velocity (98.3/day vs 5.9/day)",
+        "no harder to set up (27 vs 28 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,22 +180,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
+          "memory-context",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "remote-control",
+          "security-isolation",
           "skills-plugins",
-          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 53,
-        "challenger_health": 81,
+        "challenger_health": 85,
         "incumbent_setup_score": 28,
-        "challenger_setup_score": 2
+        "challenger_setup_score": 27
       }
     }
   }

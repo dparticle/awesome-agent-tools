@@ -13,18 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 337 |
-| Star velocity | 2.4/day (lifetime basis, 141d span) |
+| Star velocity | 2.4/day (lifetime basis, 142d span) |
 | Health score | 52/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Elixir |
 | Created | 2026-05-19 |
-| Last push | 2026-10-07 (0 days ago) |
+| Last push | 2026-10-08 (0 days ago) |
 | Analyzed README | 10,173 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/oomol-lab/open-connector",
   "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 5955,
-  "forks": 540,
-  "open_issues": 14,
+  "stars": 5965,
+  "forks": 541,
+  "open_issues": 10,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -32,27 +32,27 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-10-07T13:20:14Z",
-  "pushed_at": "2026-10-07T03:26:06Z",
+  "updated_at": "2026-10-08T11:18:59Z",
+  "pushed_at": "2026-10-08T10:33:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 100,
+  "age_days": 101,
   "days_since_push": 0,
   "health_score": 66,
   "health_components": {
     "popularity": 75.5,
-    "momentum": 49.6,
+    "momentum": 49.2,
     "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 28.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5955,
-    "days_span": 100,
-    "stars_per_day": 59.55,
-    "lifetime_stars_per_day": 59.55,
+    "stars_gained": 5965,
+    "days_span": 101,
+    "stars_per_day": 59.06,
+    "lifetime_stars_per_day": 59.06,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -140,72 +140,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:40+00:00",
+  "fetched_at": "2026-10-08T11:23:55+00:00",
   "categories": [
-    "security-self-hosting"
+    "remote-control",
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "oomol-lab/open-connector",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "oomol-lab/open-connector",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "mcp-support",
-        "model-routing",
-        "self-hosted",
-        "team-collaboration"
-      ],
-      "star_ratio": 4.904,
-      "momentum_ratio": 2.189,
-      "setup_delta": -40,
-      "dominance": 0.897,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "4.90x the stars (29,204 vs 5,955)",
-        "2.19x the star velocity (130.4/day vs 59.5/day)",
-        "no harder to set up (32 vs 72 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "mcp-support",
-          "model-routing",
-          "self-hosted",
-          "team-collaboration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 66,
-        "challenger_health": 88,
-        "incumbent_setup_score": 72,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

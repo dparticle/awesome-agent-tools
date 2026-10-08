@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,379 |
-| Star velocity | 68.0/day (lifetime basis, 35d span) |
-| Health score | 69/100 |
-| Documentation | 61/100 |
+| Stars | 2,646 |
+| Star velocity | 73.5/day (lifetime basis, 36d span) |
+| Health score | 66/100 |
+| Documentation | 62/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-01 |
 | Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 17,965 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).
+| Analyzed README | 20,278 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,21 +42,19 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 43/100)
+- **Difficulty:** 🔴 Involved (friction score 81/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that make it easy:** native installer / package
-
 **Signals that add work:** git clone (build from source)
 
-**Configuration required:** API key configuration, database dependency, database migration
+**Configuration required:** API key configuration, config.json/yaml/toml, sign-in required, database dependency, database migration
 
-*Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, database dependency*
+*Involved setup. needs git clone (build from source); configure API key configuration, config.json/yaml/toml*
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **62/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -69,16 +65,17 @@ Score **61/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 67.5 |
-| momentum | 56.6 |
+| popularity | 68.5 |
+| momentum | 61.3 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
-| accessibility | 57.0 |
+| documentation | 62.0 |
+| accessibility | 19.0 |
 
 ---
 

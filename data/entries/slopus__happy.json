@@ -6,9 +6,9 @@
   "url": "https://github.com/slopus/happy",
   "description": "Happy is the open-source desktop app for Claude Code, Codex, and Grok, with an iOS and Android app to control your coding agents from anywhere.",
   "homepage": "https://happy.engineering/",
-  "stars": 24042,
-  "forks": 2053,
-  "open_issues": 1069,
+  "stars": 24053,
+  "forks": 2052,
+  "open_issues": 1064,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -20,27 +20,27 @@
     "hacktoberfest"
   ],
   "created_at": "2025-07-18T05:53:18Z",
-  "updated_at": "2026-10-07T11:45:17Z",
+  "updated_at": "2026-10-08T09:39:32Z",
   "pushed_at": "2026-10-07T09:28:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 446,
-  "days_since_push": 0,
+  "age_days": 447,
+  "days_since_push": 1,
   "health_score": 71,
   "health_components": {
     "popularity": 87.6,
-    "momentum": 44.9,
+    "momentum": 44.8,
     "maintenance": 100.0,
     "documentation": 29.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 24042,
-    "days_span": 446,
-    "stars_per_day": 53.91,
-    "lifetime_stars_per_day": 53.91,
+    "stars_gained": 24053,
+    "days_span": 447,
+    "stars_per_day": 53.81,
+    "lifetime_stars_per_day": 53.81,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -139,8 +139,9 @@
     "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-07T17:47:36+00:00",
+  "fetched_at": "2026-10-08T11:23:42+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "mobile"
   ],
   "primary_category": "mobile",

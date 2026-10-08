@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 135636,
-  "forks": 20129,
-  "open_issues": 444,
+  "stars": 135765,
+  "forks": 20145,
+  "open_issues": 278,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-10-07T13:26:09Z",
-  "pushed_at": "2026-10-07T03:13:55Z",
+  "updated_at": "2026-10-08T11:17:21Z",
+  "pushed_at": "2026-10-08T11:04:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 209,
+  "age_days": 210,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 135636,
-    "days_span": 209,
-    "stars_per_day": 648.98,
-    "lifetime_stars_per_day": 648.98,
+    "stars_gained": 135765,
+    "days_span": 210,
+    "stars_per_day": 646.5,
+    "lifetime_stars_per_day": 646.5,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 79185,
+    "readme_chars": 80617,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -158,7 +158,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.253
+      "external_link_ratio": 0.248
     },
     "highlights": [
       "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token.",
@@ -175,13 +175,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:43+00:00",
+  "fetched_at": "2026-10-08T11:24:06+00:00",
   "categories": [
     "analytics",
-    "skills",
-    "voice"
+    "isolation-parallelism",
+    "security-self-hosting"
   ],
-  "primary_category": "voice",
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

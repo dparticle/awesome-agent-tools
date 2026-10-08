@@ -6,9 +6,9 @@
   "url": "https://github.com/WenyuChiou/ai-research-skills",
   "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
   "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
-  "stars": 306,
+  "stars": 307,
   "forks": 21,
-  "open_issues": 3,
+  "open_issues": 2,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,8 +34,8 @@
     "zotero"
   ],
   "created_at": "2026-04-25T17:46:37Z",
-  "updated_at": "2026-10-07T03:48:20Z",
-  "pushed_at": "2026-10-07T04:58:19Z",
+  "updated_at": "2026-10-08T09:00:00Z",
+  "pushed_at": "2026-10-08T01:49:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
@@ -44,23 +44,23 @@
   "health_score": 54,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 1.5,
+    "momentum": 1.6,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 306,
+    "stars_gained": 307,
     "days_span": 165,
-    "stars_per_day": 1.85,
-    "lifetime_stars_per_day": 1.85,
+    "stars_per_day": 1.86,
+    "lifetime_stars_per_day": 1.86,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "WenyuChiou/ai-research-skills",
-    "readme_chars": 30146,
+    "readme_chars": 30465,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -76,7 +76,7 @@
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 4,
+      "multi-agent-orchestration": 5,
       "skills-plugins": 2,
       "mcp-support": 5,
       "gui-desktop": 1,
@@ -136,7 +136,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.1
+      "external_link_ratio": 0.098
     },
     "highlights": [
       "codex-delegate — Claude → Codex CLI handoff for code-heavy / mechanical work.",
@@ -153,26 +153,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:03+00:00",
+  "fetched_at": "2026-10-08T11:25:07+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
+    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "skills",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/GD-Agentic-Skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 thedivergentai/GD-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "thedivergentai/GD-Agentic-Skills",
+    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "redhat-et/ripwire",
     "challenger": "",
     "supersede": {
       "incumbent": "wenyuchiou/ai-research-skills",
-      "challenger": "thedivergentai/gd-agentic-skills",
+      "challenger": "redhat-et/ripwire",
       "incumbent_name": "WenyuChiou/ai-research-skills",
-      "challenger_name": "thedivergentai/GD-Agentic-Skills",
+      "challenger_name": "redhat-et/ripwire",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -181,15 +182,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.627,
-      "momentum_ratio": 1.805,
-      "setup_delta": -1,
-      "dominance": 0.843,
+      "star_ratio": 7.889,
+      "momentum_ratio": 18.602,
+      "setup_delta": 12,
+      "dominance": 0.94,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.63x the stars (804 vs 306)",
-        "1.81x the star velocity (3.3/day vs 1.9/day)",
-        "no harder to set up (21 vs 22 friction)"
+        "7.89x the stars (2,422 vs 307)",
+        "18.60x the star velocity (34.6/day vs 1.9/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -202,18 +203,20 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
-          "skills-plugins"
+          "skills-plugins",
+          "worktree-isolation"
         ],
         "incumbent_health": 54,
-        "challenger_health": 56,
+        "challenger_health": 66,
         "incumbent_setup_score": 22,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 34
       }
     }
   }

@@ -29,27 +29,27 @@
     "workflow-automation"
   ],
   "created_at": "2025-10-30T20:18:13Z",
-  "updated_at": "2026-10-01T12:26:00Z",
-  "pushed_at": "2026-09-18T21:35:36Z",
+  "updated_at": "2026-10-07T20:09:08Z",
+  "pushed_at": "2026-10-07T20:09:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 341,
-  "days_since_push": 18,
-  "health_score": 48,
+  "age_days": 342,
+  "days_since_push": 0,
+  "health_score": 50,
   "health_components": {
     "popularity": 46.7,
     "momentum": 0.5,
-    "maintenance": 92.0,
+    "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 60.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 217,
-    "days_span": 341,
-    "stars_per_day": 0.64,
-    "lifetime_stars_per_day": 0.64,
+    "days_span": 342,
+    "stars_per_day": 0.63,
+    "lifetime_stars_per_day": 0.63,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:06+00:00",
+  "fetched_at": "2026-10-08T11:25:20+00:00",
   "categories": [
     "isolation-parallelism",
     "skills"
@@ -158,15 +158,15 @@
   "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "redhat-et/ripwire",
+    "note_en": "Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 XiaomiMiMo/MiMo-Code 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "XiaomiMiMo/MiMo-Code",
     "challenger": "",
     "supersede": {
       "incumbent": "lerianstudio/ring",
-      "challenger": "redhat-et/ripwire",
+      "challenger": "xiaomimimo/mimo-code",
       "incumbent_name": "LerianStudio/ring",
-      "challenger_name": "redhat-et/ripwire",
+      "challenger_name": "XiaomiMiMo/MiMo-Code",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -178,15 +178,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 11.138,
-      "momentum_ratio": 53.953,
-      "setup_delta": -6,
+      "star_ratio": 62.728,
+      "momentum_ratio": 181.571,
+      "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "11.14x the stars (2,417 vs 217)",
-        "53.95x the star velocity (34.5/day vs 0.6/day)",
-        "no harder to set up (34 vs 40 friction)"
+        "62.73x the stars (13,612 vs 217)",
+        "181.57x the star velocity (114.4/day vs 0.6/day)",
+        "no harder to set up (30 vs 40 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -198,21 +198,25 @@
           "worktree-isolation"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
           "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
           "skills-plugins",
+          "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 48,
-        "challenger_health": 66,
+        "incumbent_health": 50,
+        "challenger_health": 85,
         "incumbent_setup_score": 40,
-        "challenger_setup_score": 34
+        "challenger_setup_score": 30
       }
     }
   }

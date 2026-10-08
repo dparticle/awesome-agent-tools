@@ -6,9 +6,9 @@
   "url": "https://github.com/EverMind-AI/Raven",
   "description": "The Harness of Harnesses • built for RSI: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration.",
   "homepage": "https://raven.evermind.ai",
-  "stars": 5257,
-  "forks": 151,
-  "open_issues": 97,
+  "stars": 5293,
+  "forks": 152,
+  "open_issues": 90,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -32,16 +32,16 @@
     "self-improving"
   ],
   "created_at": "2026-05-21T08:45:07Z",
-  "updated_at": "2026-10-07T13:26:28Z",
-  "pushed_at": "2026-10-07T07:40:50Z",
+  "updated_at": "2026-10-08T10:07:44Z",
+  "pushed_at": "2026-10-08T11:22:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 139,
+  "age_days": 140,
   "days_since_push": 0,
   "health_score": 70,
   "health_components": {
-    "popularity": 74.4,
+    "popularity": 74.5,
     "momentum": 31.5,
     "maintenance": 100.0,
     "documentation": 71.0,
@@ -49,16 +49,16 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5257,
-    "days_span": 139,
-    "stars_per_day": 37.82,
-    "lifetime_stars_per_day": 37.82,
+    "stars_gained": 5293,
+    "days_span": 140,
+    "stars_per_day": 37.81,
+    "lifetime_stars_per_day": 37.81,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "EverMind-AI/Raven",
-    "readme_chars": 27519,
+    "readme_chars": 27627,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -145,23 +145,23 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.509
+      "external_link_ratio": 0.507
     },
     "highlights": [],
     "summary_zh_native": "",
     "highlights_zh": [],
-    "chinese_readme": ""
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "rising",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:40+00:00",
+  "fetched_at": "2026-10-08T11:23:56+00:00",
   "categories": [
     "isolation-parallelism",
     "model-routing",
-    "skills"
+    "self-hosting-security"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {

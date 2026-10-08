@@ -6,8 +6,8 @@
   "url": "https://github.com/tigerless-labs/agent-memory",
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
-  "stars": 2379,
-  "forks": 141,
+  "stars": 2646,
+  "forks": 142,
   "open_issues": 20,
   "language": "Python",
   "license": "MIT",
@@ -26,33 +26,33 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-10-07T10:38:44Z",
-  "pushed_at": "2026-10-07T08:09:04Z",
+  "updated_at": "2026-10-08T09:17:30Z",
+  "pushed_at": "2026-10-07T15:28:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 35,
+  "age_days": 36,
   "days_since_push": 0,
-  "health_score": 69,
+  "health_score": 66,
   "health_components": {
-    "popularity": 67.5,
-    "momentum": 56.6,
+    "popularity": 68.5,
+    "momentum": 61.3,
     "maintenance": 100.0,
-    "documentation": 61.0,
-    "accessibility": 57.0
+    "documentation": 62.0,
+    "accessibility": 19.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 2379,
-    "days_span": 35,
-    "stars_per_day": 67.97,
-    "lifetime_stars_per_day": 67.97,
+    "stars_gained": 2646,
+    "days_span": 36,
+    "stars_per_day": 73.5,
+    "lifetime_stars_per_day": 73.5,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tigerless-labs/agent-memory",
-    "readme_chars": 17965,
+    "readme_chars": 20278,
     "capabilities": [
       "worktree-isolation",
       "memory-context",
@@ -68,22 +68,22 @@
     "capability_hits": {
       "worktree-isolation": 1,
       "memory-context": 1,
-      "mcp-support": 1,
+      "mcp-support": 13,
       "cross-agent-support": 2
     },
     "friction": {
-      "level": "moderate",
-      "score": 43,
+      "level": "high",
+      "score": 81,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
-      "easy_signals": [
-        "native installer / package"
-      ],
+      "easy_signals": [],
       "hard_signals": [
         "git clone (build from source)"
       ],
       "config_signals": [
         "API key configuration",
+        "config.json/yaml/toml",
+        "sign-in required",
         "database dependency",
         "database migration"
       ],
@@ -91,10 +91,10 @@
       "platforms": [
         "Linux"
       ],
-      "note_en": "Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, database dependency",
-      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration、database dependency"
+      "note_en": "Involved setup. needs git clone (build from source); configure API key configuration, config.json/yaml/toml",
+      "note_zh": "配置较重。需要 git clone (build from source)；需配置 API key configuration、config.json/yaml/toml"
     },
-    "doc_score": 61,
+    "doc_score": 62,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -104,7 +104,8 @@
       "documents configuration",
       "has contribution guidance",
       "mentions licensing",
-      "links to dedicated docs"
+      "links to dedicated docs",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -118,7 +119,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.111
+      "external_link_ratio": 0.099
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -130,74 +131,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:51+00:00",
+  "fetched_at": "2026-10-08T11:24:27+00:00",
   "categories": [
-    "isolation-parallelism"
+    "security-self-hosting"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "paperclipai/paperclip",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "tigerless-labs/agent-memory",
-      "challenger": "paperclipai/paperclip",
-      "incumbent_name": "tigerless-labs/agent-memory",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "worktree-isolation"
-      ],
-      "star_ratio": 41.308,
-      "momentum_ratio": 6.602,
-      "setup_delta": 2,
-      "dominance": 0.99,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "41.31x the stars (98,271 vs 2,379)",
-        "6.60x the star velocity (448.7/day vs 68.0/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 69,
-        "challenger_health": 89,
-        "incumbent_setup_score": 43,
-        "challenger_setup_score": 45
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

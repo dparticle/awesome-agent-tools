@@ -150,9 +150,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:48:06+00:00",
+  "fetched_at": "2026-10-08T11:25:19+00:00",
   "categories": [
-    "isolation-parallelism"
+    "isolation-parallelism",
+    "security-self-hosting",
+    "skills"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {
@@ -179,13 +181,13 @@
         "worktree-isolation"
       ],
       "star_ratio": 9.017,
-      "momentum_ratio": 3.946,
+      "momentum_ratio": 3.94,
       "setup_delta": -18,
-      "dominance": 0.971,
+      "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (6/6)",
         "9.02x the stars (2,083 vs 231)",
-        "3.95x the star velocity (5.9/day vs 1.5/day)",
+        "3.94x the star velocity (5.9/day vs 1.5/day)",
         "no harder to set up (12 vs 30 friction)"
       ],
       "reasons_zh": [],

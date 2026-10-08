@@ -6,8 +6,8 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 544,
-  "forks": 66,
+  "stars": 553,
+  "forks": 69,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
@@ -18,16 +18,16 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-10-07T12:41:51Z",
+  "updated_at": "2026-10-08T07:11:38Z",
   "pushed_at": "2026-08-03T13:21:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 421,
+  "age_days": 422,
   "days_since_push": 65,
   "health_score": 48,
   "health_components": {
-    "popularity": 54.7,
+    "popularity": 54.9,
     "momentum": 1.1,
     "maintenance": 78.0,
     "documentation": 51.0,
@@ -35,10 +35,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 544,
-    "days_span": 421,
-    "stars_per_day": 1.29,
-    "lifetime_stars_per_day": 1.29,
+    "stars_gained": 553,
+    "days_span": 422,
+    "stars_per_day": 1.31,
+    "lifetime_stars_per_day": 1.31,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:58+00:00",
+  "fetched_at": "2026-10-08T11:24:50+00:00",
   "categories": [
     "isolation-parallelism",
     "skills"
@@ -152,14 +152,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 9.664,
-      "momentum_ratio": 29.318,
+      "star_ratio": 9.571,
+      "momentum_ratio": 28.863,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "9.66x the stars (5,257 vs 544)",
-        "29.32x the star velocity (37.8/day vs 1.3/day)",
+        "9.57x the stars (5,293 vs 553)",
+        "28.86x the star velocity (37.8/day vs 1.3/day)",
         "no harder to set up (13 vs 25 friction)"
       ],
       "reasons_zh": [],

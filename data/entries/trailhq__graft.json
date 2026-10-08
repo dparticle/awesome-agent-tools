@@ -6,9 +6,9 @@
   "url": "https://github.com/trailhq/Graft",
   "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
   "homepage": "https://trailhq.com/graft",
-  "stars": 9660,
+  "stars": 9770,
   "forks": 882,
-  "open_issues": 229,
+  "open_issues": 232,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,27 +31,27 @@
     "tree-sitter"
   ],
   "created_at": "2026-07-03T13:44:21Z",
-  "updated_at": "2026-10-07T13:25:27Z",
-  "pushed_at": "2026-10-07T12:45:42Z",
+  "updated_at": "2026-10-08T11:09:21Z",
+  "pushed_at": "2026-10-08T04:47:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 96,
   "days_since_push": 0,
-  "health_score": 79,
+  "health_score": 80,
   "health_components": {
-    "popularity": 79.7,
-    "momentum": 83.9,
+    "popularity": 79.8,
+    "momentum": 84.8,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 63.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 9660,
+    "stars_gained": 9770,
     "days_span": 96,
-    "stars_per_day": 100.62,
-    "lifetime_stars_per_day": 100.62,
+    "stars_per_day": 101.77,
+    "lifetime_stars_per_day": 101.77,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -156,18 +156,77 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-07T17:47:38+00:00",
+  "fetched_at": "2026-10-08T11:23:51+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "billing",
-    "model-routing"
+    "model-routing",
+    "skills"
   ],
   "primary_category": "model-routing",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "nexu-io/open-design",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "trailhq/graft",
+      "challenger": "nexu-io/open-design",
+      "incumbent_name": "trailhq/Graft",
+      "challenger_name": "nexu-io/open-design",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "billing-metering",
+        "cross-agent-support",
+        "mcp-support",
+        "model-routing",
+        "skills-plugins"
+      ],
+      "star_ratio": 10.232,
+      "momentum_ratio": 6.026,
+      "setup_delta": -8,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "10.23x the stars (99,970 vs 9,770)",
+        "6.03x the star velocity (613.3/day vs 101.8/day)",
+        "no harder to set up (29 vs 37 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "model-routing",
+          "quota-distribution",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins"
+        ],
+        "incumbent_health": 80,
+        "challenger_health": 95,
+        "incumbent_setup_score": 37,
+        "challenger_setup_score": 29
+      }
+    }
   }
 }

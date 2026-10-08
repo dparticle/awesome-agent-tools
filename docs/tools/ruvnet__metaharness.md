@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 688 |
-| Star velocity | 6.0/day (lifetime basis, 115d span) |
+| Stars | 691 |
+| Star velocity | 6.0/day (lifetime basis, 116d span) |
 | Health score | 53/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-13 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 30,014 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 33,248 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [redhat-et/ripwire](https://github.com/redhat-et/ripwire)** — Superseded by redhat-et/ripwire: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -34,13 +34,15 @@
 
 ### Model / provider routing
 
-> a docs site want very different harnesses.
+> pi.dev, Hermes, OpenClaw, RVM, or Prime Agent — pick one or all
 
 ### Skills & plugins
 
 > ss, npm create AI agent, Rust WASM agent kernel, NAPI-RS, wasm-bindgen, agent memory, ReasoningBank, HNSW vector search, emergent time, witness manifest, Ed25519 signed, provenance, SBOM, SPDX, SLSA, plugin marketplace,…
 
 ### Agent runtime
+
+> ern Tools with explicit policy
 
 ### MCP support
 
