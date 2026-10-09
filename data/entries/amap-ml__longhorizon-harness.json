@@ -6,7 +6,7 @@
   "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
   "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
   "homepage": "https://lh-harness.pages.dev",
-  "stars": 1687,
+  "stars": 1706,
   "forks": 186,
   "open_issues": 43,
   "language": "Python",
@@ -31,27 +31,27 @@
     "loop-engineering"
   ],
   "created_at": "2026-08-04T04:30:58Z",
-  "updated_at": "2026-10-08T10:12:37Z",
+  "updated_at": "2026-10-09T11:13:12Z",
   "pushed_at": "2026-08-20T12:36:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 65,
-  "days_since_push": 48,
+  "age_days": 66,
+  "days_since_push": 49,
   "health_score": 59,
   "health_components": {
-    "popularity": 64.5,
-    "momentum": 21.6,
+    "popularity": 64.6,
+    "momentum": 21.5,
     "maintenance": 78.0,
     "documentation": 71.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1687,
-    "days_span": 65,
-    "stars_per_day": 25.95,
-    "lifetime_stars_per_day": 25.95,
+    "stars_gained": 1706,
+    "days_span": 66,
+    "stars_per_day": 25.85,
+    "lifetime_stars_per_day": 25.85,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -159,18 +159,81 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:30+00:00",
+  "fetched_at": "2026-10-09T11:22:17+00:00",
   "categories": [
-    "model-routing",
-    "security-self-hosting",
+    "billing",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "amap-ml/longhorizon-harness",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "AMAP-ML/LongHorizon-Harness",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "model-routing",
+        "security-isolation",
+        "self-hosted"
+      ],
+      "star_ratio": 17.149,
+      "momentum_ratio": 5.008,
+      "setup_delta": 2,
+      "dominance": 0.99,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "17.15x the stars (29,256 vs 1,706)",
+        "5.01x the star velocity (129.4/day vs 25.9/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "security-isolation",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 59,
+        "challenger_health": 88,
+        "incumbent_setup_score": 30,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

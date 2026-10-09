@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 204,
-  "days_since_push": 178,
+  "age_days": 205,
+  "days_since_push": 179,
   "health_score": 39,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 1.3,
+    "momentum": 1.2,
     "maintenance": 55.0,
     "documentation": 52.0,
     "accessibility": 43.0
@@ -31,7 +31,7 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 307,
-    "days_span": 204,
+    "days_span": 205,
     "stars_per_day": 1.5,
     "lifetime_stars_per_day": 1.5,
     "basis": "lifetime",
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:07+00:00",
+  "fetched_at": "2026-10-09T11:22:54+00:00",
   "categories": [
     "analytics",
     "isolation-parallelism",
@@ -137,15 +137,15 @@
   "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 HarnessMD/munder-difflin 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "HarnessMD/munder-difflin",
+    "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 garrytan/gstack 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "garrytan/gstack",
     "challenger": "",
     "supersede": {
       "incumbent": "jessepwj/ccteam-creator",
-      "challenger": "harnessmd/munder-difflin",
+      "challenger": "garrytan/gstack",
       "incumbent_name": "jessepwj/CCteam-creator",
-      "challenger_name": "HarnessMD/munder-difflin",
+      "challenger_name": "garrytan/gstack",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -158,15 +158,15 @@
         "session-persistence",
         "skills-plugins"
       ],
-      "star_ratio": 27.954,
-      "momentum_ratio": 44.353,
-      "setup_delta": -25,
+      "star_ratio": 441.974,
+      "momentum_ratio": 428.707,
+      "setup_delta": 0,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "27.95x the stars (8,582 vs 307)",
-        "44.35x the star velocity (66.5/day vs 1.5/day)",
-        "no harder to set up (32 vs 57 friction)"
+        "441.97x the stars (135,686 vs 307)",
+        "428.71x the star velocity (643.1/day vs 1.5/day)",
+        "no harder to set up (57 vs 57 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,14 +180,15 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "auto-failover",
           "cross-agent-support",
-          "gui-desktop",
+          "mcp-support",
           "memory-context",
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
           "parallel-execution",
-          "self-hosted",
+          "security-isolation",
           "session-persistence",
           "skills-plugins",
           "usage-analytics",
@@ -195,9 +196,9 @@
           "worktree-isolation"
         ],
         "incumbent_health": 39,
-        "challenger_health": 75,
+        "challenger_health": 90,
         "incumbent_setup_score": 57,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 57
       }
     }
   }

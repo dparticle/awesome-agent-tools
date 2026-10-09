@@ -6,9 +6,9 @@
   "url": "https://github.com/future-agi/future-agi",
   "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
   "homepage": "https://futureagi.com",
-  "stars": 2124,
-  "forks": 669,
-  "open_issues": 1053,
+  "stars": 2130,
+  "forks": 674,
+  "open_issues": 1046,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "tracing"
   ],
   "created_at": "2026-04-23T14:11:31Z",
-  "updated_at": "2026-10-08T08:55:09Z",
-  "pushed_at": "2026-10-08T11:13:33Z",
+  "updated_at": "2026-10-09T10:01:14Z",
+  "pushed_at": "2026-10-09T11:16:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 167,
+  "age_days": 168,
   "days_since_push": 0,
   "health_score": 61,
   "health_components": {
-    "popularity": 66.5,
+    "popularity": 66.6,
     "momentum": 10.6,
     "maintenance": 100.0,
-    "documentation": 80.0,
+    "documentation": 82.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2124,
-    "days_span": 167,
-    "stars_per_day": 12.72,
-    "lifetime_stars_per_day": 12.72,
+    "stars_gained": 2130,
+    "days_span": 168,
+    "stars_per_day": 12.68,
+    "lifetime_stars_per_day": 12.68,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "future-agi/future-agi",
-    "readme_chars": 27493,
+    "readme_chars": 30333,
     "capabilities": [
       "api-gateway",
       "billing-metering",
@@ -75,7 +75,7 @@
       "memory-context": "- *Customer Support:* Ship support AI that customers actually trust - *Voice Agents:* Test, evaluate, and improve voice AI end-to-end - *Internal Tools:* AI copilots your whole org can rely on - *RAG & Search:* Every an…",
       "agent-runtime": "arch:* Every answer grounded, every citation verified",
       "mcp-support": "raphs, latency, token cost, live dashboards.",
-      "self-hosted": "luations, tracing, simulations, guardrails, gateway, optimization."
+      "self-hosted": "acing, simulations, guardrails, gateway, optimization."
     },
     "capability_hits": {
       "api-gateway": 1,
@@ -83,7 +83,7 @@
       "memory-context": 1,
       "agent-runtime": 2,
       "mcp-support": 2,
-      "self-hosted": 5
+      "self-hosted": 6
     },
     "friction": {
       "level": "moderate",
@@ -113,7 +113,7 @@
       "note_en": "Some setup. install via pip install, native installer / package; needs docker compose up, helm install; configure API key configuration, sign-in required; no-code positioning",
       "note_zh": "需要一些配置。可通过 pip install、native installer / package 安装；需要 docker compose up、helm install；需配置 API key configuration、sign-in required；no-code positioning"
     },
-    "doc_score": 80,
+    "doc_score": 82,
     "doc_signals": [
       "contains code blocks",
       "has a task checklist",
@@ -140,7 +140,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.528
+      "external_link_ratio": 1.286
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -152,10 +152,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:29+00:00",
+  "fetched_at": "2026-10-09T11:22:15+00:00",
   "categories": [
     "billing",
-    "self-hosting-security"
+    "self-hosting-security",
+    "sharing"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {

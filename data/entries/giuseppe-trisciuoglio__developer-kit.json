@@ -6,7 +6,7 @@
   "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
   "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
   "homepage": "",
-  "stars": 355,
+  "stars": 356,
   "forks": 41,
   "open_issues": 17,
   "language": "Python",
@@ -31,13 +31,13 @@
     "typescript"
   ],
   "created_at": "2025-10-21T08:08:21Z",
-  "updated_at": "2026-10-07T01:19:47Z",
+  "updated_at": "2026-10-08T12:09:26Z",
   "pushed_at": "2026-09-10T11:05:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 352,
-  "days_since_push": 28,
+  "age_days": 353,
+  "days_since_push": 29,
   "health_score": 46,
   "health_components": {
     "popularity": 51.0,
@@ -48,8 +48,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 355,
-    "days_span": 352,
+    "stars_gained": 356,
+    "days_span": 353,
     "stars_per_day": 1.01,
     "lifetime_stars_per_day": 1.01,
     "basis": "lifetime",
@@ -147,9 +147,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:04+00:00",
+  "fetched_at": "2026-10-09T11:22:50+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
+    "model-routing",
     "skills"
   ],
   "primary_category": "skills",
@@ -175,13 +176,13 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.287,
+      "star_ratio": 2.295,
       "momentum_ratio": 3.327,
       "setup_delta": -45,
       "dominance": 0.888,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.29x the stars (812 vs 355)",
+        "2.29x the stars (817 vs 356)",
         "3.33x the star velocity (3.4/day vs 1.0/day)",
         "no harder to set up (21 vs 66 friction)"
       ],

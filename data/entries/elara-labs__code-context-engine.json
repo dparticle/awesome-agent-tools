@@ -6,7 +6,7 @@
   "url": "https://github.com/elara-labs/code-context-engine",
   "description": "Save 94% on AI coding tokens. Index your codebase, agents search instead of reading files. Works with Claude Code, Codex, Copilot, Cursor, Gemini CLI. Local MCP server, free, open source.",
   "homepage": "https://elara-labs.github.io/code-context-engine/",
-  "stars": 427,
+  "stars": 428,
   "forks": 67,
   "open_issues": 21,
   "language": "Python",
@@ -30,13 +30,13 @@
     "token-savings"
   ],
   "created_at": "2026-04-27T11:22:39Z",
-  "updated_at": "2026-10-07T09:18:49Z",
+  "updated_at": "2026-10-08T12:01:38Z",
   "pushed_at": "2026-08-23T19:54:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 164,
-  "days_since_push": 45,
+  "age_days": 165,
+  "days_since_push": 46,
   "health_score": 52,
   "health_components": {
     "popularity": 52.6,
@@ -47,10 +47,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 427,
-    "days_span": 164,
-    "stars_per_day": 2.6,
-    "lifetime_stars_per_day": 2.6,
+    "stars_gained": 428,
+    "days_span": 165,
+    "stars_per_day": 2.59,
+    "lifetime_stars_per_day": 2.59,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -159,11 +159,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:57+00:00",
+  "fetched_at": "2026-10-09T11:22:44+00:00",
   "categories": [
-    "analytics",
-    "billing",
-    "security-self-hosting"
+    "analytics"
   ],
   "primary_category": "analytics",
   "lifecycle": {

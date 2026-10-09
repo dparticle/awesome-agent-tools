@@ -12,27 +12,31 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 416 |
-| Star velocity | 2.4/day (lifetime basis, 177d span) |
-| Health score | 54/100 |
-| Documentation | 66/100 |
+| Stars | 417 |
+| Star velocity | 2.3/day (lifetime basis, 178d span) |
+| Health score | 55/100 |
+| Documentation | 69/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-04-14 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 14,462 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 21,152 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Memory & context
 
+> assembly: craft.yaml, capabilities, plugin host, host primitives, manager Versioned Go module
+
 ### Skills & plugins
 
-> kends live in core/sandbox) Versioned Go modules
+> et, the plugin manifest and permissions, the
 
 ### MCP support
+
+> rkspace, sandbox, deployment/resource assembly, runtime, sessions, and
 
 ## Setup reality check
 
@@ -50,7 +54,7 @@
 
 ## Documentation quality
 
-Score **66/100**, based on these detected signals:
+Score **69/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -63,6 +67,7 @@ Score **66/100**, based on these detected signals:
 - mentions licensing
 - documents changes
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
@@ -71,7 +76,7 @@ Score **66/100**, based on these detected signals:
 | popularity | 52.4 |
 | momentum | 2.0 |
 | maintenance | 100.0 |
-| documentation | 66.0 |
+| documentation | 69.0 |
 | accessibility | 72.0 |
 
 ---

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,548 |
-| Star velocity | 467.7/day (lifetime basis, 14d span) |
+| Stars | 7,237 |
+| Star velocity | 482.5/day (lifetime basis, 15d span) |
 | Health score | 86/100 |
 | Documentation | 57/100 |
 | Tier | 🏆 Flagship |
@@ -21,14 +21,18 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-23 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 17,488 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 16,335 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
+> count can go through a proxy of its own.
+
 ### Quota & usage management
+
+> one key that matters in the agent's own config.
 
 ### Model / provider routing
 
@@ -40,11 +44,11 @@
 
 ### MCP support
 
-> ind it, so magpie offers it as a provider.
+> ers it as a provider to every other agent.
 
 ### GUI / desktop app
 
-> n also have its own short list of models, so its picker shows only what you want there.
+> f you use more than one agent, more than one provider, or more than one account.
 
 ### Cross-agent support
 
@@ -52,16 +56,16 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 12/100)
+- **Difficulty:** 🟢 Turnkey (friction score 18/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
 - **Quickest install:** `curl -fsSL https://usemagpie.ai/install.sh | sh`
 
 **Signals that make it easy:** go install, curl | sh installer
 
-**Configuration required:** config file, sign-in required
+**Configuration required:** API key configuration, config file, sign-in required
 
-*Turnkey. install via go install, curl | sh installer; configure config file, sign-in required; one-click setup*
+*Turnkey. install via go install, curl | sh installer; configure API key configuration, config file; one-click setup*
 
 ## Documentation quality
 
@@ -80,11 +84,11 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 76.3 |
+| popularity | 77.2 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 57.0 |
-| accessibility | 96.0 |
+| accessibility | 90.0 |
 
 ---
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 6548,
-  "forks": 461,
-  "open_issues": 300,
+  "stars": 7237,
+  "forks": 499,
+  "open_issues": 359,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,33 +20,33 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-08T11:22:19Z",
-  "pushed_at": "2026-10-08T11:22:14Z",
+  "updated_at": "2026-10-09T11:18:09Z",
+  "pushed_at": "2026-10-09T11:17:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 14,
+  "age_days": 15,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
-    "popularity": 76.3,
+    "popularity": 77.2,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 57.0,
-    "accessibility": 96.0
+    "accessibility": 90.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 6548,
-    "days_span": 14,
-    "stars_per_day": 467.71,
-    "lifetime_stars_per_day": 467.71,
+    "stars_gained": 7237,
+    "days_span": 15,
+    "stars_per_day": 482.47,
+    "lifetime_stars_per_day": 482.47,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 17488,
+    "readme_chars": 16335,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -57,26 +57,26 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "",
-      "quota-management": "",
+      "multi-account-switching": "count can go through a proxy of its own.",
+      "quota-management": "one key that matters in the agent's own config.",
       "model-routing": "e · Pencil · T3 Code · OpenHanako · AtomCode · Alma · Cindy",
       "api-gateway": "anfan · Tencent Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…",
-      "mcp-support": "ind it, so magpie offers it as a provider.",
-      "gui-desktop": "n also have its own short list of models, so its picker shows only what you want there.",
+      "mcp-support": "ers it as a provider to every other agent.",
+      "gui-desktop": "f you use more than one agent, more than one provider, or more than one account.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
     },
     "capability_hits": {
       "multi-account-switching": 1,
-      "quota-management": 1,
+      "quota-management": 2,
       "model-routing": 2,
       "api-gateway": 1,
       "mcp-support": 3,
-      "gui-desktop": 2,
-      "cross-agent-support": 10
+      "gui-desktop": 1,
+      "cross-agent-support": 11
     },
     "friction": {
       "level": "turnkey",
-      "score": 12,
+      "score": 18,
       "out_of_the_box": false,
       "non_programmer_friendly": true,
       "easy_signals": [
@@ -85,6 +85,7 @@
       ],
       "hard_signals": [],
       "config_signals": [
+        "API key configuration",
         "config file",
         "sign-in required"
       ],
@@ -97,8 +98,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Turnkey. install via go install, curl | sh installer; configure config file, sign-in required; one-click setup",
-      "note_zh": "开箱即用。可通过 go install、curl | sh installer 安装；需配置 config file、sign-in required；one-click setup"
+      "note_en": "Turnkey. install via go install, curl | sh installer; configure API key configuration, config file; one-click setup",
+      "note_zh": "开箱即用。可通过 go install、curl | sh installer 安装；需配置 API key configuration、config file；one-click setup"
     },
     "doc_score": 57,
     "doc_signals": [
@@ -119,6 +120,7 @@
       "Cursor",
       "Copilot",
       "Cline / Roo",
+      "Qwen Code",
       "Goose",
       "Crush",
       "Droid"
@@ -131,20 +133,20 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.601
+      "external_link_ratio": 1.653
     },
     "highlights": [
-      "On your network. Turn on Share on local network and give each client a named gateway key, each with its own daily, weekly or monthly token and cost limit.",
-      "Docker. Run ghcr.io/yetone/magpie on a server or a NAS and manage it from the web UI.",
-      "Balances and quota windows for every key, plan and subscription account (magpie quota).",
-      "GitHub Copilot, Gemini (Code Assist), Antigravity, Grok (SuperGrok) and more"
+      "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
+      "Use one provider everywhere: an API key, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to.",
+      "GitHub Copilot, Gemini (Code Assist), Antigravity, Grok (SuperGrok) and more",
+      "Keep going when a quota runs out: a routing group moves to the next account or model, and the agent never sees the error."
     ],
     "summary_zh_native": "Claude Code 跑 Kimi，Codex 跑 DeepSeek，Gemini CLI 跑 GLM，OpenCode 用你的 ChatGPT 订阅。",
     "highlights_zh": [
-      "Claude：驱动本机真正的 claude 程序，通过 MCP 桥接你的 Agent 的工具",
-      "Codex / ChatGPT：你的 ChatGPT 订阅里的模型，给所有其他 Agent 用",
-      "Docker。在服务器或 NAS 上跑 ghcr.io/yetone/magpie，用 Web 界面管理。",
-      "token、缓存读写、推理和调用次数，以及按官方价格算的花费，美元或人民币都行。"
+      "WSL：在 Windows 上，WSL 发行版里的 Agent 一样能配置，会话也一样统计。",
+      "一个 provider 处处能用：API key、本地模型，或者你登录着的 Claude、ChatGPT、Copilot、Gemini、Grok 订阅。",
+      "Agent 保持最新：Agents 页显示每个 CLI 的版本，按当初的安装方式更新，没装的也给出安装命令。",
+      "Claude：驱动本机真正的 claude 程序，通过 MCP 桥接你的 Agent 的工具"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -153,10 +155,10 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-08T11:23:43+00:00",
+  "fetched_at": "2026-10-09T11:21:30+00:00",
   "categories": [
     "accounts",
-    "model-routing"
+    "billing"
   ],
   "primary_category": "accounts",
   "lifecycle": {

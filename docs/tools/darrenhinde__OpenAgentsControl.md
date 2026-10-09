@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,892 |
-| Star velocity | 11.7/day (lifetime basis, 419d span) |
+| Stars | 4,895 |
+| Star velocity | 11.7/day (lifetime basis, 420d span) |
 | Health score | 65/100 |
 | Documentation | 71/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-14 |
-| Last push | 2026-09-13 (24 days ago) |
+| Last push | 2026-09-13 (25 days ago) |
 | Analyzed README | 29,988 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).

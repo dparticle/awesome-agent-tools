@@ -6,9 +6,9 @@
   "url": "https://github.com/jacobaraujo7/remote_pi",
   "description": "Control your Pi coding agent from your phone. Pair with a one-time QR code and chat with your local agent, even when you're away from your computer.",
   "homepage": "https://cockpit.jacobmoura.work",
-  "stars": 430,
+  "stars": 434,
   "forks": 121,
-  "open_issues": 66,
+  "open_issues": 65,
   "language": "Dart",
   "license": "MIT",
   "topics": [
@@ -21,13 +21,13 @@
     "rust"
   ],
   "created_at": "2026-05-22T04:59:59Z",
-  "updated_at": "2026-10-08T05:10:05Z",
-  "pushed_at": "2026-10-06T15:38:10Z",
+  "updated_at": "2026-10-09T08:51:19Z",
+  "pushed_at": "2026-10-08T19:16:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 139,
-  "days_since_push": 1,
+  "age_days": 140,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 52.7,
@@ -38,10 +38,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 430,
-    "days_span": 139,
-    "stars_per_day": 3.09,
-    "lifetime_stars_per_day": 3.09,
+    "stars_gained": 434,
+    "days_span": 140,
+    "stars_per_day": 3.1,
+    "lifetime_stars_per_day": 3.1,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -119,10 +119,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:57+00:00",
+  "fetched_at": "2026-10-09T11:22:44+00:00",
   "categories": [
     "mobile",
-    "remote-control",
+    "model-routing",
     "skills"
   ],
   "primary_category": "mobile",
@@ -148,14 +148,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 46.737,
-      "momentum_ratio": 18.117,
+      "star_ratio": 46.599,
+      "momentum_ratio": 18.123,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "46.74x the stars (20,097 vs 430)",
-        "18.12x the star velocity (56.0/day vs 3.1/day)",
+        "46.60x the stars (20,224 vs 434)",
+        "18.12x the star velocity (56.2/day vs 3.1/day)",
         "no harder to set up (24 vs 36 friction)"
       ],
       "reasons_zh": [],

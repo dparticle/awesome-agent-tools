@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 507 |
-| Star velocity | 2.3/day (lifetime basis, 218d span) |
-| Health score | 47/100 |
+| Stars | 514 |
+| Star velocity | 2.4/day (lifetime basis, 219d span) |
+| Health score | 52/100 |
 | Documentation | 59/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-04 |
-| Last push | 2026-09-06 (32 days ago) |
-| Analyzed README | 40,573 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 42,149 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,7 +46,7 @@
 
 ### Self-hostable
 
-> > Aojie Yuan, Zhiyuan Su, Yue Zhao
+> Engineers Develop Tools to Audit and Monitor AI Agents (Aug 2026)
 
 ### Team collaboration
 
@@ -90,9 +90,9 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 54.1 |
-| momentum | 1.9 |
-| maintenance | 78.0 |
+| popularity | 54.2 |
+| momentum | 2.0 |
+| maintenance | 100.0 |
 | documentation | 59.0 |
 | accessibility | 56.0 |
 

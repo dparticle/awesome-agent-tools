@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 216,
-  "days_since_push": 72,
+  "age_days": 217,
+  "days_since_push": 73,
   "health_score": 41,
   "health_components": {
     "popularity": 49.4,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 295,
-    "days_span": 216,
-    "stars_per_day": 1.37,
-    "lifetime_stars_per_day": 1.37,
+    "days_span": 217,
+    "stars_per_day": 1.36,
+    "lifetime_stars_per_day": 1.36,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -116,64 +116,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:11+00:00",
+  "fetched_at": "2026-10-09T11:22:57+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "skills"
   ],
-  "primary_category": "skills",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by FrancyJGLisboa/agent-skills-platform: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 FrancyJGLisboa/agent-skills-platform 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "FrancyJGLisboa/agent-skills-platform",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "jtydhr88/comfyui-custom-node-skills",
-      "challenger": "francyjglisboa/agent-skills-platform",
-      "incumbent_name": "jtydhr88/comfyui-custom-node-skills",
-      "challenger_name": "FrancyJGLisboa/agent-skills-platform",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "gui-desktop",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 8.146,
-      "momentum_ratio": 4.956,
-      "setup_delta": -35,
-      "dominance": 0.999,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "8.15x the stars (2,403 vs 295)",
-        "4.96x the star velocity (6.8/day vs 1.4/day)",
-        "no harder to set up (15 vs 50 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "gui-desktop",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "incumbent_health": 41,
-        "challenger_health": 56,
-        "incumbent_setup_score": 50,
-        "challenger_setup_score": 15
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

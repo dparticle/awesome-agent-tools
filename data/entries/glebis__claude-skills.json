@@ -6,20 +6,20 @@
   "url": "https://github.com/glebis/claude-skills",
   "description": "Collection of Claude Code skills for enhanced AI workflows",
   "homepage": "",
-  "stars": 389,
+  "stars": 391,
   "forks": 59,
   "open_issues": 11,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-10-25T14:58:50Z",
-  "updated_at": "2026-10-08T09:21:23Z",
+  "updated_at": "2026-10-09T10:43:03Z",
   "pushed_at": "2026-10-08T09:21:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 347,
-  "days_since_push": 0,
+  "age_days": 348,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 51.8,
@@ -30,8 +30,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 389,
-    "days_span": 347,
+    "stars_gained": 391,
+    "days_span": 348,
     "stars_per_day": 1.12,
     "lifetime_stars_per_day": 1.12,
     "basis": "lifetime",
@@ -131,17 +131,79 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:01+00:00",
+  "fetched_at": "2026-10-09T11:22:48+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "skills"
+    "skills",
+    "teams"
   ],
-  "primary_category": "skills",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 XiaomiMiMo/MiMo-Code 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "XiaomiMiMo/MiMo-Code",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "glebis/claude-skills",
+      "challenger": "xiaomimimo/mimo-code",
+      "incumbent_name": "glebis/claude-skills",
+      "challenger_name": "XiaomiMiMo/MiMo-Code",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "gui-desktop",
+        "memory-context",
+        "multi-agent-orchestration",
+        "security-isolation",
+        "skills-plugins",
+        "voice-input"
+      ],
+      "star_ratio": 34.826,
+      "momentum_ratio": 101.312,
+      "setup_delta": 0,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "34.83x the stars (13,617 vs 391)",
+        "101.31x the star velocity (113.5/day vs 1.1/day)",
+        "no harder to set up (30 vs 30 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "gui-desktop",
+          "memory-context",
+          "multi-agent-orchestration",
+          "security-isolation",
+          "skills-plugins",
+          "voice-input"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 84,
+        "incumbent_setup_score": 30,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

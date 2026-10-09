@@ -8,7 +8,7 @@
   "homepage": "https://emisar.dev/",
   "stars": 337,
   "forks": 33,
-  "open_issues": 9,
+  "open_issues": 5,
   "language": "Elixir",
   "license": "NOASSERTION",
   "topics": [
@@ -29,12 +29,12 @@
     "self-hosted"
   ],
   "created_at": "2026-05-19T01:21:19Z",
-  "updated_at": "2026-10-08T11:00:59Z",
-  "pushed_at": "2026-10-08T11:12:58Z",
+  "updated_at": "2026-10-09T05:19:00Z",
+  "pushed_at": "2026-10-09T05:18:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
+  "age_days": 143,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
@@ -47,9 +47,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 337,
-    "days_span": 142,
-    "stars_per_day": 2.37,
-    "lifetime_stars_per_day": 2.37,
+    "days_span": 143,
+    "stars_per_day": 2.36,
+    "lifetime_stars_per_day": 2.36,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -137,16 +137,69 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:05+00:00",
+  "fetched_at": "2026-10-09T11:22:51+00:00",
   "categories": [
-    "security-self-hosting"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "andrewdryga/emisar",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "incumbent_name": "AndrewDryga/emisar",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "security-isolation"
+      ],
+      "star_ratio": 13.961,
+      "momentum_ratio": 10.068,
+      "setup_delta": -1,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "13.96x the stars (4,705 vs 337)",
+        "10.07x the star velocity (23.8/day vs 2.4/day)",
+        "no harder to set up (24 vs 25 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 65,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 24
+      }
+    }
   }
 }

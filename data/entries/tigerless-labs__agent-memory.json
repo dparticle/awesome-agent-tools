@@ -6,8 +6,8 @@
   "url": "https://github.com/tigerless-labs/agent-memory",
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
-  "stars": 2646,
-  "forks": 142,
+  "stars": 3387,
+  "forks": 143,
   "open_issues": 20,
   "language": "Python",
   "license": "MIT",
@@ -26,47 +26,53 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-10-08T09:17:30Z",
-  "pushed_at": "2026-10-07T15:28:41Z",
+  "updated_at": "2026-10-09T09:51:23Z",
+  "pushed_at": "2026-10-09T09:51:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 36,
+  "age_days": 37,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 70,
   "health_components": {
-    "popularity": 68.5,
-    "momentum": 61.3,
+    "popularity": 70.6,
+    "momentum": 76.3,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 19.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 2646,
-    "days_span": 36,
-    "stars_per_day": 73.5,
-    "lifetime_stars_per_day": 73.5,
+    "stars_gained": 3387,
+    "days_span": 37,
+    "stars_per_day": 91.54,
+    "lifetime_stars_per_day": 91.54,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tigerless-labs/agent-memory",
-    "readme_chars": 20278,
+    "readme_chars": 21194,
     "capabilities": [
       "worktree-isolation",
+      "model-routing",
+      "api-gateway",
       "memory-context",
       "mcp-support",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "worktree-isolation": "",
+      "model-routing": "rant the calling identity",
+      "api-gateway": "rant the calling identity",
       "memory-context": "### agent-memory: the long-term memory runtime for AI agents",
       "mcp-support": "Existing files with status load without a reset.",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
       "worktree-isolation": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
       "memory-context": 1,
       "mcp-support": 13,
       "cross-agent-support": 2
@@ -119,7 +125,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.099
+      "external_link_ratio": 0.094
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -131,16 +137,77 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:27+00:00",
+  "fetched_at": "2026-10-09T11:22:12+00:00",
   "categories": [
-    "security-self-hosting"
+    "analytics",
+    "billing",
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "tigerless-labs/agent-memory",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "tigerless-labs/agent-memory",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "worktree-isolation"
+      ],
+      "star_ratio": 81.384,
+      "momentum_ratio": 11.406,
+      "setup_delta": -24,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "81.38x the stars (275,647 vs 3,387)",
+        "11.41x the star velocity (1044.1/day vs 91.5/day)",
+        "no harder to set up (57 vs 81 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 70,
+        "challenger_health": 89,
+        "incumbent_setup_score": 81,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

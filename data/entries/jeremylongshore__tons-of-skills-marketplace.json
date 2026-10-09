@@ -6,8 +6,8 @@
   "url": "https://github.com/jeremylongshore/tons-of-skills-marketplace",
   "description": "Model-agnostic agent-skills platform with a harness-free canonical layer, verified adapters, and the ccpi package manager. Explore at tonsofskills.com.",
   "homepage": "https://tonsofskills.com",
-  "stars": 2822,
-  "forks": 415,
+  "stars": 2825,
+  "forks": 416,
   "open_issues": 23,
   "language": "Python",
   "license": "MIT",
@@ -30,12 +30,12 @@
     "skills"
   ],
   "created_at": "2025-10-10T01:01:00Z",
-  "updated_at": "2026-10-08T10:43:55Z",
-  "pushed_at": "2026-10-08T10:43:48Z",
+  "updated_at": "2026-10-09T10:48:50Z",
+  "pushed_at": "2026-10-09T10:48:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 363,
+  "age_days": 364,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
@@ -47,10 +47,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2822,
-    "days_span": 363,
-    "stars_per_day": 7.77,
-    "lifetime_stars_per_day": 7.77,
+    "stars_gained": 2825,
+    "days_span": 364,
+    "stars_per_day": 7.76,
+    "lifetime_stars_per_day": 7.76,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -125,9 +125,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:26+00:00",
+  "fetched_at": "2026-10-09T11:22:13+00:00",
   "categories": [
-    "security-self-hosting",
     "skills"
   ],
   "primary_category": "skills",

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 135,765 |
-| Star velocity | 646.5/day (lifetime basis, 210d span) |
+| Stars | 135,686 |
+| Star velocity | 643.1/day (lifetime basis, 211d span) |
 | Health score | 90/100 |
 | Documentation | 81/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 80,617 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 85,025 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,11 +32,11 @@
 
 ### Multi-agent orchestration
 
-> the cause and re-verify before committing.
+> use and re-verify before committing.
 
 ### Parallel execution
 
-> etext patterns depending on whether it's a landing page, dashboard, form, or card layout.
+> t patterns depending on whether it's a landing page, dashboard, form, or card layout.
 
 ### Workspace isolation
 

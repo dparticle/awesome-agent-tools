@@ -6,9 +6,9 @@
   "url": "https://github.com/Vincentwei1021/video-shotcraft",
   "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
   "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
-  "stars": 10803,
-  "forks": 962,
-  "open_issues": 6,
+  "stars": 10967,
+  "forks": 978,
+  "open_issues": 7,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -28,16 +28,16 @@
     "video-production"
   ],
   "created_at": "2026-07-19T11:44:41Z",
-  "updated_at": "2026-10-08T11:14:08Z",
+  "updated_at": "2026-10-09T11:11:17Z",
   "pushed_at": "2026-10-05T09:12:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 80,
-  "days_since_push": 3,
+  "age_days": 81,
+  "days_since_push": 4,
   "health_score": 85,
   "health_components": {
-    "popularity": 80.7,
+    "popularity": 80.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 50.0,
@@ -45,10 +45,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 10803,
-    "days_span": 80,
-    "stars_per_day": 135.04,
-    "lifetime_stars_per_day": 135.04,
+    "stars_gained": 10967,
+    "days_span": 81,
+    "stars_per_day": 135.4,
+    "lifetime_stars_per_day": 135.4,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -125,8 +125,8 @@
     "highlights_zh": [
       "Claude Code —— 本库自身的构建、迭代与验收全程由 AI coding agent",
       "并发上限 —— 低核机器上 remotion still/render 会报",
-      "游戏手感与动画社区的公开方法论（如 Vlambeer 的 screenshake 演讲、",
-      "CDN 被墙 —— 如果 remotion.media 无法访问，headless-shell 的自动下载"
+      "CDN 被墙 —— 如果 remotion.media 无法访问，headless-shell 的自动下载",
+      "旧版 Headless 被移除 —— 新版 Chrome/Chromium 已删除旧 headless 模式，"
     ],
     "chinese_readme": "README_CN.md"
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:50+00:00",
+  "fetched_at": "2026-10-09T11:21:38+00:00",
   "categories": [
     "skills"
   ],

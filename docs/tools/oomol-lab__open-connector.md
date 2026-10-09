@@ -12,23 +12,27 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,965 |
-| Star velocity | 59.1/day (lifetime basis, 101d span) |
+| Stars | 5,972 |
+| Star velocity | 58.5/day (lifetime basis, 102d span) |
 | Health score | 66/100 |
 | Documentation | 60/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-06-29 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 16,630 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 16,349 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
 
 ## What it solves
 
 ### Model / provider routing
 
 > ecent run review, and access to the
+
+### Memory & context
 
 ### MCP support
 
@@ -37,10 +41,6 @@
 ### Self-hostable
 
 > ojectConnector for OOMOL-hosted personal and SaaS end-user connections.
-
-### Team collaboration
-
-> ld your own:** Fork Wanta and customize its prompts, tools, interface, models, and branding.
 
 ## Setup reality check
 
@@ -74,7 +74,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 75.5 |
-| momentum | 49.2 |
+| momentum | 48.8 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 28.0 |

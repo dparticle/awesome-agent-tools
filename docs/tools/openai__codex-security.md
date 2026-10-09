@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,020 |
-| Star velocity | 128.1/day (lifetime basis, 86d span) |
+| Stars | 11,044 |
+| Star velocity | 126.9/day (lifetime basis, 87d span) |
 | Health score | 81/100 |
-| Documentation | 40/100 |
+| Documentation | 41/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-13 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 6,547 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 7,930 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -33,7 +33,7 @@
 - **Difficulty:** 🟡 Some setup (friction score 37/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npm install @openai/codex-security`
+- **Quickest install:** `npm install --global @openai/codex-security`
 
 **Signals that make it easy:** npx one-liner
 
@@ -45,7 +45,7 @@
 
 ## Documentation quality
 
-Score **40/100**, based on these detected signals:
+Score **41/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -58,10 +58,10 @@ Score **40/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.8 |
+| popularity | 80.9 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 40.0 |
+| documentation | 41.0 |
 | accessibility | 63.0 |
 
 ---

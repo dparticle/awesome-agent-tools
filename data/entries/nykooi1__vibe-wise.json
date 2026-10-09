@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "full_name": "nykooi1/vibe-wise",
+  "name": "vibe-wise",
+  "owner": "nykooi1",
+  "url": "https://github.com/nykooi1/vibe-wise",
+  "description": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
+  "homepage": "",
+  "stars": 3231,
+  "forks": 136,
+  "open_issues": 21,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-09-29T01:29:57Z",
+  "updated_at": "2026-10-09T10:55:37Z",
+  "pushed_at": "2026-10-09T09:37:21Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 10,
+  "days_since_push": 0,
+  "health_score": 79,
+  "health_components": {
+    "popularity": 70.2,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 35.0,
+    "accessibility": 79.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 3231,
+    "days_span": 10,
+    "stars_per_day": 323.1,
+    "lifetime_stars_per_day": 323.1,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "nykooi1/vibe-wise",
+    "readme_chars": 10798,
+    "capabilities": [
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 29,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "no-code positioning"
+      ],
+      "platforms": [],
+      "note_en": "Easy. configure sign-in required; no-code positioning",
+      "note_zh": "较易上手。需配置 sign-in required；no-code positioning"
+    },
+    "doc_score": 35,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "mentions licensing",
+      "has a table of contents",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "You build.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.37
+    },
+    "highlights": [
+      "“Pause learning.” Resume with /vibe-wise:learn."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-09T11:21:49+00:00",
+  "categories": [
+    "self-hosting-security"
+  ],
+  "primary_category": "self-hosting-security",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

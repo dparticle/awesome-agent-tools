@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 430 |
-| Star velocity | 3.1/day (lifetime basis, 139d span) |
+| Stars | 434 |
+| Star velocity | 3.1/day (lifetime basis, 140d span) |
 | Health score | 50/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Dart |
 | Created | 2026-05-22 |
-| Last push | 2026-10-06 (1 days ago) |
+| Last push | 2026-10-08 (0 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).

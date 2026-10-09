@@ -6,20 +6,20 @@
   "url": "https://github.com/xai-org/grok-build",
   "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
   "homepage": "",
-  "stars": 27273,
-  "forks": 5126,
+  "stars": 27296,
+  "forks": 5127,
   "open_issues": 0,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2026-07-14T20:04:23Z",
-  "updated_at": "2026-10-08T10:51:50Z",
+  "updated_at": "2026-10-09T10:44:24Z",
   "pushed_at": "2026-09-29T16:57:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 85,
-  "days_since_push": 8,
+  "age_days": 86,
+  "days_since_push": 9,
   "health_score": 88,
   "health_components": {
     "popularity": 88.7,
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 27273,
-    "days_span": 85,
-    "stars_per_day": 320.86,
-    "lifetime_stars_per_day": 320.86,
+    "stars_gained": 27296,
+    "days_span": 86,
+    "stars_per_day": 317.4,
+    "lifetime_stars_per_day": 317.4,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -119,11 +119,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:46+00:00",
+  "fetched_at": "2026-10-09T11:21:34+00:00",
   "categories": [
-    "security-self-hosting"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

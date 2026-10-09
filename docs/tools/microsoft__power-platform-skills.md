@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 973 |
-| Star velocity | 3.8/day (lifetime basis, 259d span) |
+| Stars | 978 |
+| Star velocity | 3.8/day (lifetime basis, 260d span) |
 | Health score | 51/100 |
 | Documentation | 44/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-01-21 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 15,318 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 17,063 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (5/5).
 
 ## What it solves
 

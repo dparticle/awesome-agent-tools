@@ -6,40 +6,40 @@
   "url": "https://github.com/yynxxxxx/Codex-X",
   "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
   "homepage": "https://codex-x.site",
-  "stars": 4103,
-  "forks": 501,
+  "stars": 4118,
+  "forks": 504,
   "open_issues": 9,
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-04T03:28:35Z",
-  "updated_at": "2026-10-08T10:27:56Z",
-  "pushed_at": "2026-10-06T16:13:23Z",
+  "updated_at": "2026-10-09T11:19:20Z",
+  "pushed_at": "2026-10-09T11:19:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 96,
-  "days_since_push": 1,
-  "health_score": 63,
+  "age_days": 97,
+  "days_since_push": 0,
+  "health_score": 62,
   "health_components": {
     "popularity": 72.3,
-    "momentum": 35.6,
+    "momentum": 35.4,
     "maintenance": 100.0,
     "documentation": 38.0,
     "accessibility": 64.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4103,
-    "days_span": 96,
-    "stars_per_day": 42.74,
-    "lifetime_stars_per_day": 42.74,
+    "stars_gained": 4118,
+    "days_span": 97,
+    "stars_per_day": 42.45,
+    "lifetime_stars_per_day": 42.45,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yynxxxxx/Codex-X",
-    "readme_chars": 12608,
+    "readme_chars": 12724,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -118,11 +118,11 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.159
+      "external_link_ratio": 0.157
     },
     "highlights": [
       "管理多个可命名的官方 Codex 登录与第三方 API，一键复制、切换，并从 cc-switch 导入现有供应商",
-      "在同一页面编辑 Base URL、API Key、Model、Wire API 和完整 TOML",
+      "在同一页面编辑 Base URL、API Key、Model、上游接口协议、Headers 和完整 TOML",
       "支持“保留原提示词”和“替换原提示词”两种模式，适合日常叠加或完整切换",
       "支持同步 GitHub 模板、导入 Markdown、手动添加提示词、编辑标题 / 文件名 / 内容"
     ],
@@ -135,11 +135,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:58+00:00",
+  "fetched_at": "2026-10-09T11:21:48+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "analytics-2",
-    "providers",
-    "security-self-hosting"
+    "providers"
   ],
   "primary_category": "providers",
   "lifecycle": {

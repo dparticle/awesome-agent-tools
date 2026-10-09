@@ -6,7 +6,7 @@
   "url": "https://github.com/Jia-Ethan/codex-keysmith",
   "description": "Versioned Codex instruction deployment with preview, ownership manifests, hook isolation, scenario evaluation, and recovery.",
   "homepage": "https://github.com/Jia-Ethan/codex-keysmith/releases/latest",
-  "stars": 4703,
+  "stars": 4713,
   "forks": 727,
   "open_issues": 2,
   "language": "Python",
@@ -22,27 +22,27 @@
     "python"
   ],
   "created_at": "2026-06-28T04:38:07Z",
-  "updated_at": "2026-10-08T08:30:04Z",
+  "updated_at": "2026-10-09T10:53:01Z",
   "pushed_at": "2026-09-27T15:12:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 102,
-  "days_since_push": 10,
+  "age_days": 103,
+  "days_since_push": 11,
   "health_score": 61,
   "health_components": {
-    "popularity": 73.4,
-    "momentum": 38.4,
+    "popularity": 73.5,
+    "momentum": 38.1,
     "maintenance": 92.0,
     "documentation": 43.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4703,
-    "days_span": 102,
-    "stars_per_day": 46.11,
-    "lifetime_stars_per_day": 46.11,
+    "stars_gained": 4713,
+    "days_span": 103,
+    "stars_per_day": 45.76,
+    "lifetime_stars_per_day": 45.76,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -114,11 +114,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:57+00:00",
+  "fetched_at": "2026-10-09T11:21:46+00:00",
   "categories": [
-    "isolation-parallelism"
+    "self-hosting-security"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

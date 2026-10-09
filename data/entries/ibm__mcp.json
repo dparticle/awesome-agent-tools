@@ -7,7 +7,7 @@
   "description": "A collection of Model Context Protocol (MCP) servers, clients and developer tools by IBM.",
   "homepage": "https://www.ibm.com/think/topics/model-context-protocol",
   "stars": 410,
-  "forks": 93,
+  "forks": 94,
   "open_issues": 3,
   "language": "",
   "license": "Apache-2.0",
@@ -25,8 +25,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 553,
-  "days_since_push": 6,
+  "age_days": 554,
+  "days_since_push": 7,
   "health_score": 47,
   "health_components": {
     "popularity": 52.3,
@@ -38,7 +38,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 410,
-    "days_span": 553,
+    "days_span": 554,
     "stars_per_day": 0.74,
     "lifetime_stars_per_day": 0.74,
     "basis": "lifetime",
@@ -118,13 +118,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:00+00:00",
+  "fetched_at": "2026-10-09T11:22:47+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "security-self-hosting",
+    "self-hosting-security",
     "skills"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

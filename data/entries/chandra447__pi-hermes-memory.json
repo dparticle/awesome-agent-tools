@@ -6,7 +6,7 @@
   "url": "https://github.com/chandra447/pi-hermes-memory",
   "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
   "homepage": "",
-  "stars": 473,
+  "stars": 476,
   "forks": 123,
   "open_issues": 31,
   "language": "TypeScript",
@@ -19,16 +19,16 @@
     "pi"
   ],
   "created_at": "2026-04-23T12:03:56Z",
-  "updated_at": "2026-10-07T03:53:11Z",
+  "updated_at": "2026-10-08T20:52:10Z",
   "pushed_at": "2026-10-03T11:00:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 167,
-  "days_since_push": 5,
+  "age_days": 168,
+  "days_since_push": 6,
   "health_score": 49,
   "health_components": {
-    "popularity": 53.5,
+    "popularity": 53.6,
     "momentum": 2.4,
     "maintenance": 100.0,
     "documentation": 71.0,
@@ -36,8 +36,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 473,
-    "days_span": 167,
+    "stars_gained": 476,
+    "days_span": 168,
     "stars_per_day": 2.83,
     "lifetime_stars_per_day": 2.83,
     "basis": "lifetime",
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:54+00:00",
+  "fetched_at": "2026-10-09T11:22:41+00:00",
   "categories": [
     "analytics"
   ],

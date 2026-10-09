@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 241,
-  "days_since_push": 1,
+  "age_days": 242,
+  "days_since_push": 2,
   "health_score": 50,
   "health_components": {
     "popularity": 53.3,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 465,
-    "days_span": 241,
-    "stars_per_day": 1.93,
-    "lifetime_stars_per_day": 1.93,
+    "days_span": 242,
+    "stars_per_day": 1.92,
+    "lifetime_stars_per_day": 1.92,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -135,16 +135,72 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:54+00:00",
+  "fetched_at": "2026-10-09T11:22:42+00:00",
   "categories": [
-    "security-self-hosting"
+    "analytics",
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by spinabot/brigade: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 spinabot/brigade 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "spinabot/brigade",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "josstei/maestro-orchestrate",
+      "challenger": "spinabot/brigade",
+      "incumbent_name": "josstei/maestro-orchestrate",
+      "challenger_name": "spinabot/brigade",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "session-persistence"
+      ],
+      "star_ratio": 24.301,
+      "momentum_ratio": 53.021,
+      "setup_delta": -12,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "24.30x the stars (11,300 vs 465)",
+        "53.02x the star velocity (101.8/day vs 1.9/day)",
+        "no harder to set up (39 vs 51 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 50,
+        "challenger_health": 80,
+        "incumbent_setup_score": 51,
+        "challenger_setup_score": 39
+      }
+    }
   }
 }

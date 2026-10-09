@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 568,
-  "days_since_push": 24,
+  "age_days": 569,
+  "days_since_push": 25,
   "health_score": 48,
   "health_components": {
     "popularity": 53.2,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 458,
-    "days_span": 568,
-    "stars_per_day": 0.81,
-    "lifetime_stars_per_day": 0.81,
+    "days_span": 569,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 0.8,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -133,70 +133,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:55+00:00",
+  "fetched_at": "2026-10-09T11:22:42+00:00",
   "categories": [
     "model-routing",
     "skills"
   ],
   "primary_category": "model-routing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "nexu-io/open-design",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "appautomaton/latex-arxiv-skill",
-      "challenger": "nexu-io/open-design",
-      "incumbent_name": "appautomaton/latex-arxiv-SKILL",
-      "challenger_name": "nexu-io/open-design",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "model-routing",
-        "skills-plugins"
-      ],
-      "star_ratio": 218.275,
-      "momentum_ratio": 757.173,
-      "setup_delta": -7,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "218.28x the stars (99,970 vs 458)",
-        "757.17x the star velocity (613.3/day vs 0.8/day)",
-        "no harder to set up (29 vs 36 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "model-routing",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "quota-distribution",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "incumbent_health": 48,
-        "challenger_health": 95,
-        "incumbent_setup_score": 36,
-        "challenger_setup_score": 29
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

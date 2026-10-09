@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,198 |
-| Star velocity | 119.2/day (lifetime basis, 52d span) |
+| Stars | 6,250 |
+| Star velocity | 117.9/day (lifetime basis, 53d span) |
 | Health score | 83/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 32,405 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 32,453 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### MCP support
 
-> rouping customer feedback into themes it can cite.
+> k into themes it can cite.
 
 ### Security & isolation
 
@@ -86,8 +86,8 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.8 |
-| momentum | 99.3 |
+| popularity | 75.9 |
+| momentum | 98.3 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 51.0 |

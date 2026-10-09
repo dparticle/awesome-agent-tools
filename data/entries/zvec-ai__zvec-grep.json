@@ -6,9 +6,9 @@
   "url": "https://github.com/zvec-ai/zvec-grep",
   "description": "Local-first search across your workspace, built for humans and AI agents.",
   "homepage": "",
-  "stars": 3990,
-  "forks": 233,
-  "open_issues": 71,
+  "stars": 4003,
+  "forks": 236,
+  "open_issues": 73,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -24,27 +24,27 @@
     "vector-search"
   ],
   "created_at": "2026-07-10T02:58:07Z",
-  "updated_at": "2026-10-08T10:10:04Z",
-  "pushed_at": "2026-10-08T09:19:37Z",
+  "updated_at": "2026-10-09T11:02:23Z",
+  "pushed_at": "2026-10-09T09:57:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 90,
+  "age_days": 91,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 72.0,
-    "momentum": 36.9,
+    "momentum": 36.7,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3990,
-    "days_span": 90,
-    "stars_per_day": 44.33,
-    "lifetime_stars_per_day": 44.33,
+    "stars_gained": 4003,
+    "days_span": 91,
+    "stars_per_day": 43.99,
+    "lifetime_stars_per_day": 43.99,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -128,8 +128,8 @@
     "highlights_zh": [
       "人与 Agent 开箱即用：安装一次、索引一次，即可在 macOS、Linux 和",
       "更少搜索，更少上下文：经过排序并保留来源的结果，可以减少工具调用、",
-      "Matplotlib — 绘图与渲染库： 任务需要沿数学文本渲染的多个阶段追踪",
-      "Pylint — Python 静态分析器： 任务需要理解 AST 节点处理如何区分带标注与"
+      "Django — Web 框架： 任务关联 username 唯一约束、ORM 事务和 formset",
+      "Matplotlib — 绘图与渲染库： 任务需要沿数学文本渲染的多个阶段追踪"
     ],
     "chinese_readme": "README_CN.md"
   },
@@ -138,11 +138,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:59+00:00",
+  "fetched_at": "2026-10-09T11:21:48+00:00",
   "categories": [
-    "security-self-hosting"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

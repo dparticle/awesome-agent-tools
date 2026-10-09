@@ -6,34 +6,34 @@
   "url": "https://github.com/diffusionstudio/lottie",
   "description": "Generate production-ready Lottie animations with Claude Code or Codex",
   "homepage": "https://diffusion.studio",
-  "stars": 5548,
+  "stars": 5555,
   "forks": 292,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-04T13:39:32Z",
-  "updated_at": "2026-10-08T09:06:22Z",
+  "updated_at": "2026-10-09T09:33:01Z",
   "pushed_at": "2026-07-25T07:22:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 125,
-  "days_since_push": 75,
+  "age_days": 126,
+  "days_since_push": 76,
   "health_score": 64,
   "health_components": {
     "popularity": 74.9,
-    "momentum": 37.0,
+    "momentum": 36.7,
     "maintenance": 78.0,
     "documentation": 44.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5548,
-    "days_span": 125,
-    "stars_per_day": 44.38,
-    "lifetime_stars_per_day": 44.38,
+    "stars_gained": 5555,
+    "days_span": 126,
+    "stars_per_day": 44.09,
+    "lifetime_stars_per_day": 44.09,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -104,11 +104,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:56+00:00",
+  "fetched_at": "2026-10-09T11:21:45+00:00",
   "categories": [
-    "agent-runtime-desktop-ui"
+    "isolation-parallelism"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

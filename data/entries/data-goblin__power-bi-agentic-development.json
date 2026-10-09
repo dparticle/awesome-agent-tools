@@ -6,7 +6,7 @@
   "url": "https://github.com/data-goblin/power-bi-agentic-development",
   "description": "Power BI AI skills and Power BI agents for Claude Code and GitHub Copilot: a plugin marketplace of Power BI skills, subagents, and hooks for semantic models, DAX, TMDL, reports, and AI dashboards. Includes Microsoft Fabric skills and Fabric agents. Weekly updates.",
   "homepage": "https://data-goblins.com",
-  "stars": 1033,
+  "stars": 1034,
   "forks": 148,
   "open_issues": 0,
   "language": "C#",
@@ -33,13 +33,13 @@
     "tmdl"
   ],
   "created_at": "2026-01-15T09:26:29Z",
-  "updated_at": "2026-10-08T11:09:54Z",
+  "updated_at": "2026-10-08T17:04:07Z",
   "pushed_at": "2026-10-07T11:29:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
-  "days_since_push": 0,
+  "age_days": 267,
+  "days_since_push": 1,
   "health_score": 57,
   "health_components": {
     "popularity": 60.3,
@@ -50,10 +50,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1033,
-    "days_span": 266,
-    "stars_per_day": 3.88,
-    "lifetime_stars_per_day": 3.88,
+    "stars_gained": 1034,
+    "days_span": 267,
+    "stars_per_day": 3.87,
+    "lifetime_stars_per_day": 3.87,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -151,10 +151,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:40+00:00",
+  "fetched_at": "2026-10-09T11:22:26+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "security-self-hosting",
+    "model-routing",
     "skills"
   ],
   "primary_category": "skills",

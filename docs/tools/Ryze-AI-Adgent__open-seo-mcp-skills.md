@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,553 |
-| Star velocity | 116.7/day (lifetime basis, 39d span) |
+| Stars | 4,612 |
+| Star velocity | 115.3/day (lifetime basis, 40d span) |
 | Health score | 74/100 |
 | Documentation | 43/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Shell |
 | Created | 2026-08-29 |
-| Last push | 2026-09-24 (14 days ago) |
+| Last push | 2026-09-24 (15 days ago) |
 | Analyzed README | 6,044 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -67,8 +69,8 @@ Score **43/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.2 |
-| momentum | 97.3 |
+| popularity | 73.3 |
+| momentum | 96.1 |
 | maintenance | 92.0 |
 | documentation | 43.0 |
 | accessibility | 43.0 |

@@ -6,8 +6,8 @@
   "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
   "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
   "homepage": "https://www.ianneo.xyz",
-  "stars": 12411,
-  "forks": 1433,
+  "stars": 12450,
+  "forks": 1435,
   "open_issues": 20,
   "language": "",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "xiaohei"
   ],
   "created_at": "2026-05-27T22:47:56Z",
-  "updated_at": "2026-10-08T11:22:44Z",
+  "updated_at": "2026-10-09T11:13:44Z",
   "pushed_at": "2026-09-24T22:14:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 133,
-  "days_since_push": 13,
+  "age_days": 134,
+  "days_since_push": 14,
   "health_score": 72,
   "health_components": {
     "popularity": 81.9,
-    "momentum": 77.8,
+    "momentum": 77.4,
     "maintenance": 92.0,
     "documentation": 40.0,
     "accessibility": 49.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 12411,
-    "days_span": 133,
-    "stars_per_day": 93.32,
-    "lifetime_stars_per_day": 93.32,
+    "stars_gained": 12450,
+    "days_span": 134,
+    "stars_per_day": 92.91,
+    "lifetime_stars_per_day": 92.91,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -117,7 +117,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:48+00:00",
+  "fetched_at": "2026-10-09T11:21:37+00:00",
   "categories": [
     "analytics"
   ],

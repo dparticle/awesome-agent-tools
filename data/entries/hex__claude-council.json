@@ -6,7 +6,7 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 850,
+  "stars": 853,
   "forks": 105,
   "open_issues": 1,
   "language": "Shell",
@@ -31,13 +31,13 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-08T08:07:44Z",
-  "pushed_at": "2026-10-06T13:09:09Z",
+  "updated_at": "2026-10-09T10:21:49Z",
+  "pushed_at": "2026-10-09T08:13:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 294,
-  "days_since_push": 1,
+  "age_days": 295,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 58.6,
@@ -48,8 +48,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 850,
-    "days_span": 294,
+    "stars_gained": 853,
+    "days_span": 295,
     "stars_per_day": 2.89,
     "lifetime_stars_per_day": 2.89,
     "basis": "lifetime",
@@ -57,7 +57,7 @@
   },
   "analysis": {
     "full_name": "hex/claude-council",
-    "readme_chars": 53955,
+    "readme_chars": 54819,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -156,13 +156,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.037
+      "external_link_ratio": 0.036
     },
     "highlights": [
       "kimi-cli (Kimi Code CLI, kimi) shadows the kimi API provider, using the kimi CLI's own configured model unless KIMICLIMODEL is set",
       "Use the codex, agy (Antigravity), grok, kimi (Kimi Code) and cursor-agent (Cursor) CLIs (subscription auth) when installed; the first four are preferred over their API siblings",
       "Debate mode round 2 rebuttals are not cached (they depend on round 1 content) — with one exception: if a CLI provider fails in round 2 and falls back to its API sibling, that fallback rebut…",
-      "Run a local ollama model as a council member — no key, no subscription, no network"
+      "Seat any model OpenRouter routes to — Anthropic's Claude by default, so the council"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -173,10 +173,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:43+00:00",
+  "fetched_at": "2026-10-09T11:22:29+00:00",
   "categories": [
-    "security-self-hosting",
-    "skills",
+    "billing",
+    "isolation-parallelism",
     "teams"
   ],
   "primary_category": "teams",

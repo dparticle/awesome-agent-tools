@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,052 |
-| Star velocity | 4.9/day (lifetime basis, 216d span) |
+| Stars | 1,054 |
+| Star velocity | 4.9/day (lifetime basis, 217d span) |
 | Health score | 55/100 |
 | Documentation | 72/100 |
 | Tier | 🔹 Notable |
@@ -22,33 +22,21 @@
 | Language | TypeScript |
 | Created | 2026-03-05 |
 | Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 226,882 chars from `raw:HEAD/README.md` |
+| Analyzed README | 160,949 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> terse follow-up never hides the active task.
-
-### Remote control
-
-> , sync manually or on a background poller, and switch the global data scope between local, all sources, or a specific machine, with per-session source badges
+> ailable under **Settings → Hook Configuration**.
 
 ### Mobile access
 
-> tifications arrive even if the browser is closed, as the Service Worker operates in the background.
+> cations arrive even if the browser is closed, as the Service Worker operates in the background.
 
 ### Multi-agent orchestration
 
 > g platform for Claude Code, Cursor & Codex agent activity 🚀
-
-### Model / provider routing
-
-> restart The database persists across restarts.
-
-### Billing & metering
-
-> hole session and shows the session total, while a subagent card shows only what that subagent spent, so a subagent card no longer misleadingly reads as if it cost the entire session.
 
 ### Usage analytics
 
@@ -56,23 +44,15 @@
 
 ### Session persistence
 
-> his handles /resume inside a session, Ctrl+C, and other scenarios where a session is orphaned without a clean SessionEnd
-
-### Memory & context
-
-> h unset options shown as defaults, plus the per-file structured key-value view + raw JSON toggle, secret-key redaction), memory (the user + project CLAUDE.md files **plus** the per-project file-based memory store — ever…
+> ens, costs, compactions, conversations, and WebSocket state current.
 
 ### Skills & plugins
 
-> ashboard itself, making it easy to integrate dashboard operations directly into your Claude Code & Codex workflows.
+> rchitecture tour; exact technical contracts stay in docs/.
 
 ### MCP support
 
 > alized documentation with region-specific tips and best practices.
-
-### Security & isolation
-
-> — kept tooltip-only on the compact cards so titles keep their space; wider surfaces (Sessions table, session-detail header) additionally show the reason inline as a nested chip, with urgent reasons (permission prompts,…
 
 ### Self-hostable
 
@@ -84,7 +64,7 @@
 
 ### Notifications
 
-> ly JSONL incrementally, prioritizes the newest rollouts, and isolates a bad historical file for retry, so sessions, tokens, costs, conversation rows, and WebSocket updates stay current even if a hook notification is mis…
+> · launch Claude Code or Codex with provider-native controls
 
 ### Cross-agent support
 
@@ -101,7 +81,7 @@
 
 **Signals that add work:** docker compose up, git clone (build from source), npm install/build, make build
 
-**Configuration required:** environment variables, config.json/yaml/toml, sign-in required, database dependency, database migration, server/reverse-proxy setup, process manager
+**Configuration required:** environment variables, config.json/yaml/toml, sign-in required, database dependency, server/reverse-proxy setup, process manager
 
 *Some setup. install via npx one-liner, native installer / package; needs docker compose up, git clone (build from source); configure environment variables, config.json/yaml/toml; no-code positioning*
 
@@ -126,8 +106,8 @@ Score **72/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 60.4 |
-| momentum | 4.1 |
+| popularity | 60.5 |
+| momentum | 4.0 |
 | maintenance | 100.0 |
 | documentation | 72.0 |
 | accessibility | 48.0 |

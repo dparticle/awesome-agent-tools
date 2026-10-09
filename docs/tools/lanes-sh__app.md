@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 273 |
-| Star velocity | 1.4/day (lifetime basis, 199d span) |
+| Star velocity | 1.4/day (lifetime basis, 200d span) |
 | Health score | 50/100 |
 | Documentation | 36/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | not declared |
 | Language | n/a |
 | Created | 2026-03-22 |
-| Last push | 2026-10-06 (1 days ago) |
+| Last push | 2026-10-06 (2 days ago) |
 | Analyzed README | 7,721 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** — Superseded by maxritter/pilot-shell: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).
 
 ## What it solves
 

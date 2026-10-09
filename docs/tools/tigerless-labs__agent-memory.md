@@ -12,21 +12,31 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,646 |
-| Star velocity | 73.5/day (lifetime basis, 36d span) |
-| Health score | 66/100 |
+| Stars | 3,387 |
+| Star velocity | 91.5/day (lifetime basis, 37d span) |
+| Health score | 70/100 |
 | Documentation | 62/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-01 |
-| Last push | 2026-10-07 (0 days ago) |
-| Analyzed README | 20,278 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 21,194 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
 
 ## What it solves
 
 ### Workspace isolation
+
+### Model / provider routing
+
+> rant the calling identity
+
+### API gateway / proxy
+
+> rant the calling identity
 
 ### Memory & context
 
@@ -71,8 +81,8 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 68.5 |
-| momentum | 61.3 |
+| popularity | 70.6 |
+| momentum | 76.3 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 19.0 |

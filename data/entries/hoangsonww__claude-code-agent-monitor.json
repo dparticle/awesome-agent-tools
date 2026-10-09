@@ -6,7 +6,7 @@
   "url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
   "description": "🚀 A real-time monitoring dashboard for Claude Code & Codex, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, & WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, & an interactive web UI/MacOS/Windows native app.",
   "homepage": "https://hoangsonww.github.io/Claude-Code-Agent-Monitor/",
-  "stars": 1052,
+  "stars": 1054,
   "forks": 245,
   "open_issues": 45,
   "language": "TypeScript",
@@ -34,85 +34,70 @@
     "websocket"
   ],
   "created_at": "2026-03-05T18:52:21Z",
-  "updated_at": "2026-10-07T22:57:09Z",
-  "pushed_at": "2026-10-08T07:20:14Z",
+  "updated_at": "2026-10-09T07:27:17Z",
+  "pushed_at": "2026-10-08T17:52:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 216,
+  "age_days": 217,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
-    "popularity": 60.4,
-    "momentum": 4.1,
+    "popularity": 60.5,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 48.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1052,
-    "days_span": 216,
-    "stars_per_day": 4.87,
-    "lifetime_stars_per_day": 4.87,
+    "stars_gained": 1054,
+    "days_span": 217,
+    "stars_per_day": 4.86,
+    "lifetime_stars_per_day": 4.86,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "hoangsonww/Claude-Code-Agent-Monitor",
-    "readme_chars": 226882,
+    "readme_chars": 160949,
     "capabilities": [
       "auto-failover",
-      "remote-control",
       "mobile-access",
       "multi-agent-orchestration",
-      "model-routing",
-      "billing-metering",
       "usage-analytics",
       "session-persistence",
-      "memory-context",
       "skills-plugins",
       "mcp-support",
-      "security-isolation",
       "self-hosted",
       "gui-desktop",
       "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "auto-failover": "terse follow-up never hides the active task.",
-      "remote-control": ", sync manually or on a background poller, and switch the global data scope between local, all sources, or a specific machine, with per-session source badges",
-      "mobile-access": "tifications arrive even if the browser is closed, as the Service Worker operates in the background.",
+      "auto-failover": "ailable under **Settings → Hook Configuration**.",
+      "mobile-access": "cations arrive even if the browser is closed, as the Service Worker operates in the background.",
       "multi-agent-orchestration": "g platform for Claude Code, Cursor & Codex agent activity 🚀",
-      "model-routing": "restart The database persists across restarts.",
-      "billing-metering": "hole session and shows the session total, while a subagent card shows only what that subagent spent, so a subagent card no longer misleadingly reads as if it cost the entire session.",
       "usage-analytics": "ion flow is based on token usage and model pricing rules.",
-      "session-persistence": "his handles /resume inside a session, Ctrl+C, and other scenarios where a session is orphaned without a clean SessionEnd",
-      "memory-context": "h unset options shown as defaults, plus the per-file structured key-value view + raw JSON toggle, secret-key redaction), memory (the user + project CLAUDE.md files **plus** the per-project file-based memory store — ever…",
-      "skills-plugins": "ashboard itself, making it easy to integrate dashboard operations directly into your Claude Code & Codex workflows.",
+      "session-persistence": "ens, costs, compactions, conversations, and WebSocket state current.",
+      "skills-plugins": "rchitecture tour; exact technical contracts stay in docs/.",
       "mcp-support": "alized documentation with region-specific tips and best practices.",
-      "security-isolation": "— kept tooltip-only on the compact cards so titles keep their space; wider surfaces (Sessions table, session-detail header) additionally show the reason inline as a nested chip, with urgent reasons (permission prompts,…",
       "self-hosted": "bsolute working directory and canonicalizes it before use, so home and recent-project launches remain supported.",
       "gui-desktop": "ion, transport details, safety flags, and tool catalog.",
-      "notifications": "ly JSONL incrementally, prioritizes the newest rollouts, and isolates a bad historical file for retry, so sessions, tokens, costs, conversation rows, and WebSocket updates stay current even if a hook notification is mis…",
+      "notifications": "· launch Claude Code or Codex with provider-native controls",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
       "auto-failover": 2,
-      "remote-control": 1,
-      "mobile-access": 2,
-      "multi-agent-orchestration": 23,
-      "model-routing": 1,
-      "billing-metering": 1,
+      "mobile-access": 1,
+      "multi-agent-orchestration": 9,
       "usage-analytics": 3,
       "session-persistence": 2,
-      "memory-context": 1,
       "skills-plugins": 2,
-      "mcp-support": 30,
-      "security-isolation": 1,
+      "mcp-support": 25,
       "self-hosted": 2,
-      "gui-desktop": 15,
-      "notifications": 21,
+      "gui-desktop": 11,
+      "notifications": 19,
       "cross-agent-support": 3
     },
     "friction": {
@@ -135,7 +120,6 @@
         "config.json/yaml/toml",
         "sign-in required",
         "database dependency",
-        "database migration",
         "server/reverse-proxy setup",
         "process manager"
       ],
@@ -184,13 +168,13 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.326
+      "external_link_ratio": 0.447
     },
     "highlights": [
-      "Tray icon — always-on status surface (macOS menu bar / Windows notification area).",
-      "Auto-start at login — toggle Open at Login from the tray or app menu.",
+      "CLI and logs: macOS restores the login-shell PATH so Finder/Dock launches can run claude; Windows uses the inherited user PATH.",
+      "Native menu: standard application menus and ⌘ / Ctrl shortcuts.",
       "Payload guardrails: 50 MiB per uploaded history file, 100 MiB total per call, 10 MiB binary responses, and 25 MiB backup restore",
-      "Logs — the main process writes to ~/Library/Logs/Claude Code Monitor/desktop.log (macOS) or %APPDATA%\\Claude Code Monitor\\logs\\desktop.log (Windows); reach it from the tray menu's Show Logs."
+      "Tray and window: left-click toggles the window; right-click offers Open Dashboard, Open in Browser, Restart Server, Show Logs, Open at Login, and Quit."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -201,11 +185,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:39+00:00",
+  "fetched_at": "2026-10-09T11:22:25+00:00",
   "categories": [
-    "analytics",
+    "agent-runtime-desktop-ui",
     "mobile",
-    "security-self-hosting"
+    "self-hosting-security"
   ],
   "primary_category": "mobile",
   "lifecycle": {

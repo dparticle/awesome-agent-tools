@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/cost-xray",
   "description": "See what Claude Code and Codex actually send to the API — and what each part costs.",
   "homepage": "",
-  "stars": 4053,
-  "forks": 316,
-  "open_issues": 11,
+  "stars": 4691,
+  "forks": 318,
+  "open_issues": 12,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "token-counting"
   ],
   "created_at": "2026-06-06T04:30:36Z",
-  "updated_at": "2026-10-08T10:54:29Z",
+  "updated_at": "2026-10-09T09:47:00Z",
   "pushed_at": "2026-09-29T19:03:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 124,
-  "days_since_push": 8,
-  "health_score": 63,
+  "age_days": 125,
+  "days_since_push": 9,
+  "health_score": 65,
   "health_components": {
-    "popularity": 72.2,
-    "momentum": 27.2,
+    "popularity": 73.4,
+    "momentum": 31.3,
     "maintenance": 92.0,
     "documentation": 48.0,
     "accessibility": 88.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4053,
-    "days_span": 124,
-    "stars_per_day": 32.69,
-    "lifetime_stars_per_day": 32.69,
+    "stars_gained": 4691,
+    "days_span": 125,
+    "stars_per_day": 37.53,
+    "lifetime_stars_per_day": 37.53,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -133,26 +133,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:59+00:00",
+  "fetched_at": "2026-10-09T11:21:46+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "remote-control"
+    "mobile"
   ],
-  "primary_category": "remote-control",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "iOfficeAI/AionUi",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "getpaseo/paseo",
     "challenger": "",
     "supersede": {
       "incumbent": "tigerless-labs/cost-xray",
-      "challenger": "iofficeai/aionui",
+      "challenger": "getpaseo/paseo",
       "incumbent_name": "tigerless-labs/cost-xray",
-      "challenger_name": "iOfficeAI/AionUi",
+      "challenger_name": "getpaseo/paseo",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -161,15 +161,15 @@
         "mcp-support",
         "remote-control"
       ],
-      "star_ratio": 8.236,
-      "momentum_ratio": 2.391,
-      "setup_delta": -10,
-      "dominance": 0.908,
+      "star_ratio": 4.311,
+      "momentum_ratio": 1.497,
+      "setup_delta": 12,
+      "dominance": 0.79,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "8.24x the stars (33,380 vs 4,053)",
-        "2.39x the star velocity (78.2/day vs 32.7/day)",
-        "no harder to set up (2 vs 12 friction)"
+        "4.31x the stars (20,224 vs 4,691)",
+        "1.50x the star velocity (56.2/day vs 37.5/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -182,22 +182,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "mobile-access",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
           "remote-control",
-          "skills-plugins",
-          "team-collaboration",
+          "security-isolation",
+          "self-hosted",
+          "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 63,
-        "challenger_health": 81,
+        "incumbent_health": 65,
+        "challenger_health": 74,
         "incumbent_setup_score": 12,
-        "challenger_setup_score": 2
+        "challenger_setup_score": 24
       }
     }
   }

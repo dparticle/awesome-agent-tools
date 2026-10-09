@@ -7,7 +7,7 @@
   "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
   "homepage": "https://francyjglisboa.github.io/agent-skills-platform/",
   "stars": 2403,
-  "forks": 265,
+  "forks": 264,
   "open_issues": 4,
   "language": "Python",
   "license": "MIT",
@@ -29,12 +29,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 354,
-  "days_since_push": 22,
+  "age_days": 355,
+  "days_since_push": 23,
   "health_score": 56,
   "health_components": {
     "popularity": 67.6,
-    "momentum": 5.7,
+    "momentum": 5.6,
     "maintenance": 92.0,
     "documentation": 42.0,
     "accessibility": 85.0
@@ -42,9 +42,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 2403,
-    "days_span": 354,
-    "stars_per_day": 6.79,
-    "lifetime_stars_per_day": 6.79,
+    "days_span": 355,
+    "stars_per_day": 6.77,
+    "lifetime_stars_per_day": 6.77,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,10 +131,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:28+00:00",
+  "fetched_at": "2026-10-09T11:22:15+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "security-self-hosting",
+    "analytics",
     "skills"
   ],
   "primary_category": "skills",

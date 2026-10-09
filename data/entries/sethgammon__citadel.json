@@ -6,9 +6,9 @@
   "url": "https://github.com/SethGammon/Citadel",
   "description": "The operating layer for Claude Code + OpenAI Codex: persistent project memory, intent routing, safety hooks, cost telemetry, and parallel agent fleets.",
   "homepage": "https://sethgammon.github.io/Citadel/",
-  "stars": 922,
+  "stars": 923,
   "forks": 82,
-  "open_issues": 1,
+  "open_issues": 3,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -22,13 +22,13 @@
     "mcp"
   ],
   "created_at": "2026-03-20T05:42:54Z",
-  "updated_at": "2026-10-07T23:22:21Z",
-  "pushed_at": "2026-10-01T18:08:45Z",
+  "updated_at": "2026-10-08T19:31:07Z",
+  "pushed_at": "2026-10-08T18:05:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 202,
-  "days_since_push": 6,
+  "age_days": 203,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 59.3,
@@ -39,10 +39,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 922,
-    "days_span": 202,
-    "stars_per_day": 4.56,
-    "lifetime_stars_per_day": 4.56,
+    "stars_gained": 923,
+    "days_span": 203,
+    "stars_per_day": 4.55,
+    "lifetime_stars_per_day": 4.55,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:41+00:00",
+  "fetched_at": "2026-10-09T11:22:27+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "isolation-parallelism",
@@ -142,18 +142,18 @@
   "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "OthmanAdi/planning-with-files",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "sethgammon/citadel",
-      "challenger": "othmanadi/planning-with-files",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "SethGammon/Citadel",
-      "challenger_name": "OthmanAdi/planning-with-files",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -163,15 +163,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 29.642,
-      "momentum_ratio": 21.559,
-      "setup_delta": 2,
-      "dominance": 0.99,
+      "star_ratio": 36.183,
+      "momentum_ratio": 17.149,
+      "setup_delta": -23,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "29.64x the stars (27,330 vs 922)",
-        "21.56x the star velocity (98.3/day vs 4.6/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "36.18x the stars (33,397 vs 923)",
+        "17.15x the star velocity (78.0/day vs 4.5/day)",
+        "no harder to set up (2 vs 25 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -185,18 +185,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
-          "memory-context",
+          "gui-desktop",
+          "mcp-support",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
-          "security-isolation",
+          "remote-control",
           "skills-plugins",
+          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 55,
-        "challenger_health": 85,
+        "challenger_health": 81,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 27
+        "challenger_setup_score": 2
       }
     }
   }

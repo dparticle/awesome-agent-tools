@@ -24,11 +24,11 @@
   ],
   "created_at": "2025-03-22T20:45:03Z",
   "updated_at": "2026-10-07T16:42:07Z",
-  "pushed_at": "2026-10-08T10:02:45Z",
+  "pushed_at": "2026-10-09T08:54:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 564,
+  "age_days": 565,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
@@ -41,7 +41,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 399,
-    "days_span": 564,
+    "days_span": 565,
     "stars_per_day": 0.71,
     "lifetime_stars_per_day": 0.71,
     "basis": "lifetime",
@@ -135,7 +135,7 @@
       "📊 Server-side aggregation — group, sum, and count without pulling raw rows",
       "odoo://res.partner/record/1/image_128 — Get partner 1's avatar image",
       "odoo://res.partner/record/1 — Get partner with ID 1",
-      "👤 Personalized session context — the connected user, timezone, and company scope injected into the session instructions"
+      "🔐 Secure access with API key or username/password authentication"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -146,10 +146,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:00+00:00",
+  "fetched_at": "2026-10-09T11:22:47+00:00",
   "categories": [
-    "billing",
-    "security-self-hosting"
+    "billing"
   ],
   "primary_category": "billing",
   "lifecycle": {

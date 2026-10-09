@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 273,
-  "days_since_push": 88,
+  "age_days": 274,
+  "days_since_push": 89,
   "health_score": 48,
   "health_components": {
     "popularity": 49.0,
@@ -31,7 +31,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 282,
-    "days_span": 273,
+    "days_span": 274,
     "stars_per_day": 1.03,
     "lifetime_stars_per_day": 1.03,
     "basis": "lifetime",
@@ -147,10 +147,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:12+00:00",
+  "fetched_at": "2026-10-09T11:22:58+00:00",
   "categories": [
-    "analytics",
     "billing",
+    "model-routing",
     "skills"
   ],
   "primary_category": "skills",

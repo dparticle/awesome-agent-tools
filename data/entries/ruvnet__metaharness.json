@@ -6,9 +6,9 @@
   "url": "https://github.com/ruvnet/metaharness",
   "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
   "homepage": "https://Cognitum.One",
-  "stars": 691,
-  "forks": 87,
-  "open_issues": 143,
+  "stars": 694,
+  "forks": 88,
+  "open_issues": 147,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "scaffolding"
   ],
   "created_at": "2026-06-13T18:29:11Z",
-  "updated_at": "2026-10-08T05:01:20Z",
-  "pushed_at": "2026-10-08T08:33:42Z",
+  "updated_at": "2026-10-08T22:04:31Z",
+  "pushed_at": "2026-10-09T08:44:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
+  "age_days": 117,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 56.8,
-    "momentum": 5.0,
+    "momentum": 4.9,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 42.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 691,
-    "days_span": 116,
-    "stars_per_day": 5.96,
-    "lifetime_stars_per_day": 5.96,
+    "stars_gained": 694,
+    "days_span": 117,
+    "stars_per_day": 5.93,
+    "lifetime_stars_per_day": 5.93,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -160,24 +160,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:47+00:00",
+  "fetched_at": "2026-10-09T11:22:33+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "security-self-hosting",
+    "model-routing",
+    "self-hosting-security",
     "skills"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "redhat-et/ripwire",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "ruvnet/metaharness",
-      "challenger": "redhat-et/ripwire",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "ruvnet/metaharness",
-      "challenger_name": "redhat-et/ripwire",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -190,15 +190,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 3.505,
-      "momentum_ratio": 5.805,
-      "setup_delta": -24,
+      "star_ratio": 397.186,
+      "momentum_ratio": 176.074,
+      "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "3.51x the stars (2,422 vs 691)",
-        "5.81x the star velocity (34.6/day vs 6.0/day)",
-        "no harder to set up (34 vs 58 friction)"
+        "397.19x the stars (275,647 vs 694)",
+        "176.07x the star velocity (1044.1/day vs 5.9/day)",
+        "no harder to set up (57 vs 58 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -212,20 +212,24 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "auto-failover",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
           "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
+          "security-isolation",
+          "self-hosted",
           "skills-plugins",
           "worktree-isolation"
         ],
         "incumbent_health": 53,
-        "challenger_health": 66,
+        "challenger_health": 89,
         "incumbent_setup_score": 58,
-        "challenger_setup_score": 34
+        "challenger_setup_score": 57
       }
     }
   }

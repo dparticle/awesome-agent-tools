@@ -2,7 +2,7 @@
 
 # eternityspring/shuohao-skills
 
-> AI 短剧制作的 skill 集合：从一本小说到直接喂生成管线的制作素材——拆角色、排大纲、出场景与道具设定、写剧本、切分镜。给 AI 编码 agent 用，Claude Code 和 codex 都能跑。
+> 🎬 AI Video Workspace
 
 [Repository](https://github.com/eternityspring/shuohao-skills) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,29 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,250 |
-| Star velocity | 67.5/day (lifetime basis, 63d span) |
-| Health score | 64/100 |
-| Documentation | 41/100 |
+| Stars | 4,293 |
+| Star velocity | 67.1/day (lifetime basis, 64d span) |
+| Health score | 68/100 |
+| Documentation | 40/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-08-06 |
-| Last push | 2026-09-26 (11 days ago) |
-| Analyzed README | 6,653 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-08 (0 days ago) |
+| Analyzed README | 10,692 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Quota & usage management
-
-> laude Code 还是 codex，把所有 skill 软链过去——git pull 之后立刻生效，不用重装。
-
 ### Skills & plugins
 
-> dex CLI 可选 只是一个能跑这些 skill 的运行环境，跟 Claude Code 等价。
-
-### Agent runtime
+> ce, built and battle-tested on real AI short-drama production.
 
 ### Cross-agent support
 
@@ -42,37 +36,38 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 57/100)
+- **Difficulty:** 🟢 Easy (friction score 31/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
+
+**Signals that make it easy:** native installer / package
 
 **Signals that add work:** git clone (build from source)
 
 **Configuration required:** API key configuration
 
-*Some setup. needs git clone (build from source); configure API key configuration*
+*Easy. install via native installer / package; needs git clone (build from source); configure API key configuration*
 
 ## Documentation quality
 
-Score **41/100**, based on these detected signals:
+Score **40/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - documents installation
 - mentions licensing
-- has a table of contents
 - reports benchmarks
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 72.6 |
-| momentum | 56.2 |
-| maintenance | 92.0 |
-| documentation | 41.0 |
-| accessibility | 43.0 |
+| popularity | 72.7 |
+| momentum | 55.9 |
+| maintenance | 100.0 |
+| documentation | 40.0 |
+| accessibility | 69.0 |
 
 ---
 

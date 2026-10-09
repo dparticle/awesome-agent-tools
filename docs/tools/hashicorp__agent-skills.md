@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 889 |
-| Star velocity | 2.7/day (lifetime basis, 334d span) |
+| Stars | 890 |
+| Star velocity | 2.7/day (lifetime basis, 335d span) |
 | Health score | 53/100 |
 | Documentation | 32/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MPL-2.0 |
 | Language | HCL |
 | Created | 2025-11-08 |
-| Last push | 2026-10-05 (3 days ago) |
+| Last push | 2026-10-05 (4 days ago) |
 | Analyzed README | 3,405 chars from `raw:HEAD/README.md` |
 
 ## What it solves

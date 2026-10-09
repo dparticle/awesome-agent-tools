@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1851,
-  "days_since_push": 10,
+  "age_days": 1852,
+  "days_since_push": 11,
   "health_score": 47,
   "health_components": {
     "popularity": 50.2,
@@ -40,7 +40,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 322,
-    "days_span": 1851,
+    "days_span": 1852,
     "stars_per_day": 0.17,
     "lifetime_stars_per_day": 0.17,
     "basis": "lifetime",
@@ -148,12 +148,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:06+00:00",
+  "fetched_at": "2026-10-09T11:22:53+00:00",
   "categories": [
     "isolation-parallelism",
-    "remote-control"
+    "mobile"
   ],
-  "primary_category": "remote-control",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,9 +6,9 @@
   "url": "https://github.com/Lampese/codex-switcher",
   "description": "A Desktop Application for Managing Multiple OpenAI Codex CLI Accounts",
   "homepage": "",
-  "stars": 882,
+  "stars": 884,
   "forks": 151,
-  "open_issues": 63,
+  "open_issues": 62,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -21,25 +21,25 @@
     "vibe-coding"
   ],
   "created_at": "2026-01-14T02:44:13Z",
-  "updated_at": "2026-10-08T05:45:18Z",
+  "updated_at": "2026-10-09T00:42:52Z",
   "pushed_at": "2026-10-05T13:25:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 267,
-  "days_since_push": 2,
+  "age_days": 268,
+  "days_since_push": 3,
   "health_score": 51,
   "health_components": {
     "popularity": 58.9,
-    "momentum": 2.8,
+    "momentum": 2.7,
     "maintenance": 100.0,
     "documentation": 33.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 882,
-    "days_span": 267,
+    "stars_gained": 884,
+    "days_span": 268,
     "stars_per_day": 3.3,
     "lifetime_stars_per_day": 3.3,
     "basis": "lifetime",
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:42+00:00",
+  "fetched_at": "2026-10-09T11:22:29+00:00",
   "categories": [
     "accounts"
   ],

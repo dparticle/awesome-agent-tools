@@ -6,9 +6,9 @@
   "url": "https://github.com/lidge-jun/opencodex",
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
   "homepage": "https://opencodex.me/",
-  "stars": 17103,
-  "forks": 1293,
-  "open_issues": 114,
+  "stars": 17163,
+  "forks": 1301,
+  "open_issues": 123,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "typescript"
   ],
   "created_at": "2026-06-18T23:03:18Z",
-  "updated_at": "2026-10-08T11:17:11Z",
-  "pushed_at": "2026-10-08T09:38:57Z",
+  "updated_at": "2026-10-09T10:14:07Z",
+  "pushed_at": "2026-10-09T11:18:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 111,
+  "age_days": 112,
   "days_since_push": 0,
   "health_score": 83,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 17103,
-    "days_span": 111,
-    "stars_per_day": 154.08,
-    "lifetime_stars_per_day": 154.08,
+    "stars_gained": 17163,
+    "days_span": 112,
+    "stars_per_day": 153.24,
+    "lifetime_stars_per_day": 153.24,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "lidge-jun/opencodex",
-    "readme_chars": 19229,
+    "readme_chars": 19264,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -147,10 +147,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.832
+      "external_link_ratio": 0.831
     },
     "highlights": [
-      "28 state-store registrations handle expiry sweeps (60 s interval) and",
+      "31 state-store registrations handle expiry sweeps (60 s interval) and",
       "4 observed buffers (translator accumulators, image/OAuth/Grok tails) are",
       "Use any LLM with Codex, Claude Code, Claude Desktop, and Grok Build — 40+ providers out of",
       "Pool ChatGPT accounts — thread affinity, quota-aware auto-switching, cooldown and"
@@ -164,7 +164,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:47+00:00",
+  "fetched_at": "2026-10-09T11:21:35+00:00",
   "categories": [
     "accounts",
     "agent-runtime-desktop-ui",

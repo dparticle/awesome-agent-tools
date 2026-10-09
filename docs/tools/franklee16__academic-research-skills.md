@@ -21,7 +21,7 @@
 | License | not declared |
 | Language | Stata |
 | Created | 2026-04-19 |
-| Last push | 2026-09-18 (19 days ago) |
+| Last push | 2026-09-18 (20 days ago) |
 | Analyzed README | 19,099 chars from `raw:HEAD/README.md` |
 
 ## What it solves

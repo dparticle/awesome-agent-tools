@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 485,
-  "days_since_push": 0,
+  "age_days": 486,
+  "days_since_push": 1,
   "health_score": 54,
   "health_components": {
     "popularity": 52.4,
@@ -52,7 +52,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 418,
-    "days_span": 485,
+    "days_span": 486,
     "stars_per_day": 0.86,
     "lifetime_stars_per_day": 0.86,
     "basis": "lifetime",
@@ -196,13 +196,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:59+00:00",
+  "fetched_at": "2026-10-09T11:22:46+00:00",
   "categories": [
     "analytics",
-    "security-self-hosting",
+    "model-routing",
     "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

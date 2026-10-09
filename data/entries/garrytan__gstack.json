@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 135765,
-  "forks": 20145,
-  "open_issues": 278,
+  "stars": 135686,
+  "forks": 20157,
+  "open_issues": 176,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-10-08T11:17:21Z",
-  "pushed_at": "2026-10-08T11:04:37Z",
+  "updated_at": "2026-10-09T11:17:21Z",
+  "pushed_at": "2026-10-09T05:32:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 210,
+  "age_days": 211,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 135765,
-    "days_span": 210,
-    "stars_per_day": 646.5,
-    "lifetime_stars_per_day": 646.5,
+    "stars_gained": 135686,
+    "days_span": 211,
+    "stars_per_day": 643.06,
+    "lifetime_stars_per_day": 643.06,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 80617,
+    "readme_chars": 85025,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -59,8 +59,8 @@
     ],
     "capability_evidence": {
       "auto-failover": "and /diagram always use gstack's bundled browser.",
-      "multi-agent-orchestration": "the cause and re-verify before committing.",
-      "parallel-execution": "etext patterns depending on whether it's a landing page, dashboard, form, or card layout.",
+      "multi-agent-orchestration": "use and re-verify before committing.",
+      "parallel-execution": "t patterns depending on whether it's a landing page, dashboard, form, or card layout.",
       "worktree-isolation": "hand, and gstack-uninstall",
       "model-routing": "deterministic aside repl scripts.",
       "usage-analytics": "try flows through validated edge functions that enforce schema checks, event type allowlists, and field length limits.",
@@ -83,9 +83,9 @@
       "usage-analytics": 1,
       "session-persistence": 1,
       "memory-context": 1,
-      "skills-plugins": 5,
+      "skills-plugins": 7,
       "agent-runtime": 1,
-      "mcp-support": 4,
+      "mcp-support": 5,
       "security-isolation": 1,
       "notifications": 1,
       "voice-input": 1,
@@ -158,7 +158,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.248
+      "external_link_ratio": 0.247
     },
     "highlights": [
       "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token.",
@@ -175,11 +175,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:06+00:00",
+  "fetched_at": "2026-10-09T11:21:55+00:00",
   "categories": [
     "analytics",
     "isolation-parallelism",
-    "security-self-hosting"
+    "skills"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {

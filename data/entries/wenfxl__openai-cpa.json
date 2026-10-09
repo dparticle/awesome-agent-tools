@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 199,
-  "days_since_push": 47,
+  "age_days": 200,
+  "days_since_push": 48,
   "health_score": 51,
   "health_components": {
     "popularity": 62.9,
-    "momentum": 5.9,
+    "momentum": 5.8,
     "maintenance": 78.0,
     "documentation": 67.0,
     "accessibility": 43.0
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1404,
-    "days_span": 199,
-    "stars_per_day": 7.06,
-    "lifetime_stars_per_day": 7.06,
+    "days_span": 200,
+    "stars_per_day": 7.02,
+    "lifetime_stars_per_day": 7.02,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,17 +131,75 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:33+00:00",
+  "fetched_at": "2026-10-09T11:22:20+00:00",
   "categories": [
     "mobile",
     "skills"
   ],
   "primary_category": "mobile",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "wenfxl/openai-cpa",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "wenfxl/openai-cpa",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "multi-agent-orchestration",
+        "notifications",
+        "security-isolation",
+        "skills-plugins"
+      ],
+      "star_ratio": 70.537,
+      "momentum_ratio": 64.124,
+      "setup_delta": -12,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "70.54x the stars (99,034 vs 1,404)",
+        "64.12x the star velocity (450.1/day vs 7.0/day)",
+        "no harder to set up (45 vs 57 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 89,
+        "incumbent_setup_score": 57,
+        "challenger_setup_score": 45
+      }
+    }
   }
 }

@@ -6,8 +6,8 @@
   "url": "https://github.com/oomol-lab/open-connector",
   "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 5965,
-  "forks": 541,
+  "stars": 5972,
+  "forks": 549,
   "open_issues": 10,
   "language": "TypeScript",
   "license": "Apache-2.0",
@@ -32,50 +32,50 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-10-08T11:18:59Z",
-  "pushed_at": "2026-10-08T10:33:13Z",
+  "updated_at": "2026-10-09T10:59:18Z",
+  "pushed_at": "2026-10-09T10:18:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 101,
+  "age_days": 102,
   "days_since_push": 0,
   "health_score": 66,
   "health_components": {
     "popularity": 75.5,
-    "momentum": 49.2,
+    "momentum": 48.8,
     "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 28.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5965,
-    "days_span": 101,
-    "stars_per_day": 59.06,
-    "lifetime_stars_per_day": 59.06,
+    "stars_gained": 5972,
+    "days_span": 102,
+    "stars_per_day": 58.55,
+    "lifetime_stars_per_day": 58.55,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "oomol-lab/open-connector",
-    "readme_chars": 16630,
+    "readme_chars": 16349,
     "capabilities": [
       "model-routing",
+      "memory-context",
       "mcp-support",
-      "self-hosted",
-      "team-collaboration"
+      "self-hosted"
     ],
     "capability_evidence": {
       "model-routing": "ecent run review, and access to the",
+      "memory-context": "",
       "mcp-support": "English 简体中文 繁體中文 日本語 한국어 Русский Français Español",
-      "self-hosted": "ojectConnector for OOMOL-hosted personal and SaaS end-user connections.",
-      "team-collaboration": "ld your own:** Fork Wanta and customize its prompts, tools, interface, models, and branding."
+      "self-hosted": "ojectConnector for OOMOL-hosted personal and SaaS end-user connections."
     },
     "capability_hits": {
       "model-routing": 1,
+      "memory-context": 1,
       "mcp-support": 6,
-      "self-hosted": 3,
-      "team-collaboration": 1
+      "self-hosted": 3
     },
     "friction": {
       "level": "high",
@@ -113,9 +113,7 @@
       "mentions licensing",
       "has a Chinese translation"
     ],
-    "agents": [
-      "OpenCode"
-    ],
+    "agents": [],
     "summary_en": "English | 简体中文 | 繁體中文 | 日本語 | 한국어 | Русский | Français | Español",
     "summary_zh": "",
     "install_hint": "docker compose up",
@@ -124,7 +122,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.022
+      "external_link_ratio": 0.979
     },
     "highlights": [
       "Deployment options for local Docker or Node.js with SQLite or PostgreSQL state and local or",
@@ -140,17 +138,73 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:55+00:00",
+  "fetched_at": "2026-10-09T11:21:44+00:00",
   "categories": [
-    "remote-control",
+    "analytics",
+    "billing",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "oomol-lab/open-connector",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "oomol-lab/open-connector",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "self-hosted"
+      ],
+      "star_ratio": 46.157,
+      "momentum_ratio": 17.833,
+      "setup_delta": -15,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "46.16x the stars (275,647 vs 5,972)",
+        "17.83x the star velocity (1044.1/day vs 58.5/day)",
+        "no harder to set up (57 vs 72 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 66,
+        "challenger_health": 89,
+        "incumbent_setup_score": 72,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

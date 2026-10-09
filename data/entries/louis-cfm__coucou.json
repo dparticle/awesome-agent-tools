@@ -6,9 +6,9 @@
   "url": "https://github.com/Louis-CFM/coucou",
   "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
   "homepage": "https://louis-cfm.github.io/coucou/",
-  "stars": 4138,
-  "forks": 689,
-  "open_issues": 158,
+  "stars": 4345,
+  "forks": 732,
+  "open_issues": 190,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "windows"
   ],
   "created_at": "2026-09-27T21:54:12Z",
-  "updated_at": "2026-10-08T11:19:34Z",
-  "pushed_at": "2026-10-08T11:17:38Z",
+  "updated_at": "2026-10-09T11:19:30Z",
+  "pushed_at": "2026-10-09T01:12:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 10,
+  "age_days": 11,
   "days_since_push": 0,
   "health_score": 83,
   "health_components": {
-    "popularity": 72.3,
+    "popularity": 72.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 60.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4138,
-    "days_span": 10,
-    "stars_per_day": 413.8,
-    "lifetime_stars_per_day": 413.8,
+    "stars_gained": 4345,
+    "days_span": 11,
+    "stars_per_day": 395.0,
+    "lifetime_stars_per_day": 395.0,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Louis-CFM/coucou",
-    "readme_chars": 25001,
+    "readme_chars": 27484,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -70,6 +70,7 @@
       "security-isolation",
       "gui-desktop",
       "notifications",
+      "voice-input",
       "cross-agent-support"
     ],
     "capability_evidence": {
@@ -81,6 +82,7 @@
       "security-isolation": "See what Claude is editing, live in the notch: each file modification shows the file name and +N −M counts in the ticker, tap to read the full diff",
       "gui-desktop": "ting from 0.1.0? macOS may ask you, once for each key you saved, to let Coucou use it: enter your Mac password and click Always Allow.",
       "notifications": "your iPhone's Lock Screen and Dynamic Island with the agent's state, then comes back to the notch when you unlock.",
+      "voice-input": "- 🎙️ Dictate in the chat (macOS, GitHub build) — click the mic next to the chat field and talk in any of your languages (Coucou picks the one you spoke, or right-click the mic to choose); speech recognition runs",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
     },
     "capability_hits": {
@@ -90,8 +92,9 @@
       "model-routing": 1,
       "agent-runtime": 1,
       "security-isolation": 2,
-      "gui-desktop": 6,
+      "gui-desktop": 10,
       "notifications": 3,
+      "voice-input": 1,
       "cross-agent-support": 7
     },
     "friction": {
@@ -153,7 +156,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.6
+      "external_link_ratio": 1.819
     },
     "highlights": [
       "📋 Declare the tools you use — open Settings → Active pills and pick your main workspace tool (VS Code, Cursor, Codex or Antigravity), then toggle up to 4 more: Gemini CLI, Anthropic, Google…",
@@ -170,10 +173,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:58+00:00",
+  "fetched_at": "2026-10-09T11:21:47+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile"
+    "mobile",
+    "model-routing"
   ],
   "primary_category": "mobile",
   "lifecycle": {

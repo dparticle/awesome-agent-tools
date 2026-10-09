@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
   "homepage": "https://aka.ms/ppskills",
-  "stars": 973,
-  "forks": 197,
-  "open_issues": 173,
+  "stars": 978,
+  "forks": 198,
+  "open_issues": 167,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -21,12 +21,12 @@
     "power-platform"
   ],
   "created_at": "2026-01-21T18:25:14Z",
-  "updated_at": "2026-10-08T11:15:14Z",
-  "pushed_at": "2026-10-08T11:14:48Z",
+  "updated_at": "2026-10-09T10:42:23Z",
+  "pushed_at": "2026-10-09T10:48:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 259,
+  "age_days": 260,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
@@ -38,8 +38,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 973,
-    "days_span": 259,
+    "stars_gained": 978,
+    "days_span": 260,
     "stars_per_day": 3.76,
     "lifetime_stars_per_day": 3.76,
     "basis": "lifetime",
@@ -47,7 +47,7 @@
   },
   "analysis": {
     "full_name": "microsoft/power-platform-skills",
-    "readme_chars": 15318,
+    "readme_chars": 17063,
     "capabilities": [
       "mobile-access",
       "worktree-isolation",
@@ -66,7 +66,7 @@
       "mobile-access": 3,
       "worktree-isolation": 1,
       "skills-plugins": 3,
-      "mcp-support": 14,
+      "mcp-support": 17,
       "cross-agent-support": 2
     },
     "friction": {
@@ -119,7 +119,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.718
+      "external_link_ratio": 0.645
     },
     "highlights": [
       "Launch GitHub Copilot CLI or Claude Code with the plugin path:"
@@ -133,25 +133,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:41+00:00",
+  "fetched_at": "2026-10-09T11:22:27+00:00",
   "categories": [
     "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "yohey-w/multi-agent-shogun",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "paperclipai/paperclip",
     "challenger": "",
     "supersede": {
       "incumbent": "microsoft/power-platform-skills",
-      "challenger": "yohey-w/multi-agent-shogun",
+      "challenger": "paperclipai/paperclip",
       "incumbent_name": "microsoft/power-platform-skills",
-      "challenger_name": "yohey-w/multi-agent-shogun",
+      "challenger_name": "paperclipai/paperclip",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -160,15 +160,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 1.462,
-      "momentum_ratio": 1.479,
-      "setup_delta": -3,
-      "dominance": 0.685,
+      "star_ratio": 101.262,
+      "momentum_ratio": 119.721,
+      "setup_delta": -4,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.46x the stars (1,423 vs 973)",
-        "1.48x the star velocity (5.6/day vs 3.8/day)",
-        "no harder to set up (46 vs 49 friction)"
+        "101.26x the stars (99,034 vs 978)",
+        "119.72x the star velocity (450.1/day vs 3.8/day)",
+        "no harder to set up (45 vs 49 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,7 +181,6 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -190,18 +189,19 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "parallel-execution",
           "remote-control",
+          "security-isolation",
           "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "voice-input",
+          "team-collaboration",
+          "usage-analytics",
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 52,
+        "challenger_health": 89,
         "incumbent_setup_score": 49,
-        "challenger_setup_score": 46
+        "challenger_setup_score": 45
       }
     }
   }

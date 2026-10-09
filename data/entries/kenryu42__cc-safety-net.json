@@ -4,9 +4,9 @@
   "name": "cc-safety-net",
   "owner": "kenryu42",
   "url": "https://github.com/kenryu42/cc-safety-net",
-  "description": "A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to access sensitive files, before a tool call runs. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Cursor, DeepSeek Harness, Gemini CLI, GitHub Copilot CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
+  "description": "A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to access sensitive files, before a tool call runs. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Cursor, DeepSeek Harness, Devin CLI, GitHub Copilot CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
   "homepage": "https://ccsafetynet.com",
-  "stars": 1582,
+  "stars": 1583,
   "forks": 84,
   "open_issues": 1,
   "language": "TypeScript",
@@ -34,12 +34,12 @@
     "security"
   ],
   "created_at": "2025-12-25T17:52:57Z",
-  "updated_at": "2026-10-08T11:14:00Z",
-  "pushed_at": "2026-10-08T11:13:54Z",
+  "updated_at": "2026-10-09T11:17:47Z",
+  "pushed_at": "2026-10-09T10:46:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 286,
+  "age_days": 287,
   "days_since_push": 0,
   "health_score": 60,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1582,
-    "days_span": 286,
-    "stars_per_day": 5.53,
-    "lifetime_stars_per_day": 5.53,
+    "stars_gained": 1583,
+    "days_span": 287,
+    "stars_per_day": 5.52,
+    "lifetime_stars_per_day": 5.52,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,8 +131,8 @@
       "external_link_ratio": 1.713
     },
     "highlights": [
-      "Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team Setup.",
       "Embeds in your own tools. Call checkCommand from Node.js without installing the hook. See Library API.",
+      "Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team Setup.",
       "Blocks secret access to SSH keys, .env files, ~/.aws, and coding-CLI credentials, from the shell and from the agent's file tools.",
       "Blocks destructive commands such as git reset --hard, git push --force, and rm -rf on dangerous targets, even inside bash -c or python -c."
     ],
@@ -145,7 +145,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:31+00:00",
+  "fetched_at": "2026-10-09T11:22:18+00:00",
   "categories": [
     "agent-runtime-desktop-ui"
   ],

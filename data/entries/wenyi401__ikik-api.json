@@ -7,7 +7,7 @@
   "description": "基于 Sub2API 二开的 AI API 网关与订阅管理平台，包含共享私有账号池、拼车池、免费模型清单、让Claude、Openai、Gemini、Grok、Kiro 订阅统一接入，原生工具无缝使用。",
   "homepage": "",
   "stars": 241,
-  "forks": 22,
+  "forks": 21,
   "open_issues": 1,
   "language": "Go",
   "license": "LGPL-3.0",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 105,
-  "days_since_push": 20,
+  "age_days": 106,
+  "days_since_push": 21,
   "health_score": 42,
   "health_components": {
     "popularity": 47.6,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 241,
-    "days_span": 105,
-    "stars_per_day": 2.3,
-    "lifetime_stars_per_day": 2.3,
+    "days_span": 106,
+    "stars_per_day": 2.27,
+    "lifetime_stars_per_day": 2.27,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -136,13 +136,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:16+00:00",
+  "fetched_at": "2026-10-09T11:23:02+00:00",
   "categories": [
     "accounts",
-    "model-routing",
-    "self-hosting-security"
+    "billing",
+    "sharing"
   ],
-  "primary_category": "accounts",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

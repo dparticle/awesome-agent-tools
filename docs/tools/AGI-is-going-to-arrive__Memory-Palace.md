@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 313 |
-| Star velocity | 1.4/day (lifetime basis, 231d span) |
+| Star velocity | 1.4/day (lifetime basis, 232d span) |
 | Health score | 44/100 |
 | Documentation | 76/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-02-19 |
-| Last push | 2026-05-20 (140 days ago) |
+| Last push | 2026-05-20 (141 days ago) |
 | Analyzed README | 25,251 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (9/9).
 
 ## What it solves
 

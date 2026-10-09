@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
   "homepage": "https://career-ops.org",
-  "stars": 73767,
-  "forks": 13858,
-  "open_issues": 456,
+  "stars": 73872,
+  "forks": 13865,
+  "open_issues": 406,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "terminal"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-10-08T11:21:53Z",
-  "pushed_at": "2026-10-08T07:28:51Z",
+  "updated_at": "2026-10-09T11:02:05Z",
+  "pushed_at": "2026-10-09T09:25:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 186,
+  "age_days": 187,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 73767,
-    "days_span": 186,
-    "stars_per_day": 396.6,
-    "lifetime_stars_per_day": 396.6,
+    "stars_gained": 73872,
+    "days_span": 187,
+    "stars_per_day": 395.04,
+    "lifetime_stars_per_day": 395.04,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 45287,
+    "readme_chars": 45245,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -158,71 +158,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:12+00:00",
+  "fetched_at": "2026-10-09T11:21:59+00:00",
   "categories": [
-    "model-routing"
+    "agent-runtime-desktop-ui"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "nexu-io/open-design",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "career-ops-hq/career-ops",
-      "challenger": "nexu-io/open-design",
-      "incumbent_name": "career-ops-hq/career-ops",
-      "challenger_name": "nexu-io/open-design",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "cross-agent-support",
-        "gui-desktop",
-        "model-routing",
-        "skills-plugins"
-      ],
-      "star_ratio": 1.355,
-      "momentum_ratio": 1.546,
-      "setup_delta": -20,
-      "dominance": 0.673,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "1.36x the stars (99,970 vs 73,767)",
-        "1.55x the star velocity (613.3/day vs 396.6/day)",
-        "no harder to set up (29 vs 49 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "model-routing",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "quota-distribution",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "incumbent_health": 89,
-        "challenger_health": 95,
-        "incumbent_setup_score": 49,
-        "challenger_setup_score": 29
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

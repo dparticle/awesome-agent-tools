@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,124 |
-| Star velocity | 12.7/day (lifetime basis, 167d span) |
+| Stars | 2,130 |
+| Star velocity | 12.7/day (lifetime basis, 168d span) |
 | Health score | 61/100 |
-| Documentation | 80/100 |
+| Documentation | 82/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-04-23 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 27,493 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 30,333 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,7 +46,7 @@
 
 ### Self-hostable
 
-> luations, tracing, simulations, guardrails, gateway, optimization.
+> acing, simulations, guardrails, gateway, optimization.
 
 ## Setup reality check
 
@@ -65,7 +65,7 @@
 
 ## Documentation quality
 
-Score **80/100**, based on these detected signals:
+Score **82/100**, based on these detected signals:
 
 - contains code blocks
 - has a task checklist
@@ -87,10 +87,10 @@ Score **80/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 66.5 |
+| popularity | 66.6 |
 | momentum | 10.6 |
 | maintenance | 100.0 |
-| documentation | 80.0 |
+| documentation | 82.0 |
 | accessibility | 55.0 |
 
 ---

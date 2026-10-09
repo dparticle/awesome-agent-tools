@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 44,463 |
-| Star velocity | 310.9/day (lifetime basis, 143d span) |
+| Stars | 44,783 |
+| Star velocity | 311.0/day (lifetime basis, 144d span) |
 | Health score | 89/100 |
 | Documentation | 70/100 |
 | Tier | 🏆 Flagship |
@@ -22,7 +22,7 @@
 | Language | Go |
 | Created | 2026-05-18 |
 | Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 13,289 chars from `raw:HEAD/README.md` |
+| Analyzed README | 13,323 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

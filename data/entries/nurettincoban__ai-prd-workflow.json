@@ -5,7 +5,7 @@
   "owner": "nurettincoban",
   "url": "https://github.com/nurettincoban/ai-prd-workflow",
   "description": "RFC-driven development for AI coding agents: idea or existing codebase → verified PRD → features → rules → sequenced RFCs → reviewed code. Agent Skills for Claude Code, Codex, Copilot, Cursor, Gemini CLI, OpenCode, Devin.",
-  "homepage": "",
+  "homepage": "https://nurettincoban.github.io/ai-prd-workflow/",
   "stars": 298,
   "forks": 34,
   "open_issues": 0,
@@ -31,13 +31,13 @@
     "vibe-coding"
   ],
   "created_at": "2025-03-09T19:23:57Z",
-  "updated_at": "2026-10-08T04:10:58Z",
-  "pushed_at": "2026-10-01T18:57:18Z",
+  "updated_at": "2026-10-08T15:20:21Z",
+  "pushed_at": "2026-10-08T15:19:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 577,
-  "days_since_push": 6,
+  "age_days": 578,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 49.5,
@@ -49,7 +49,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 298,
-    "days_span": 577,
+    "days_span": 578,
     "stars_per_day": 0.52,
     "lifetime_stars_per_day": 0.52,
     "basis": "lifetime",
@@ -57,7 +57,7 @@
   },
   "analysis": {
     "full_name": "nurettincoban/ai-prd-workflow",
-    "readme_chars": 13537,
+    "readme_chars": 13792,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -120,7 +120,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.443
+      "external_link_ratio": 0.508
     },
     "highlights": [
       "The url-shortener example — fresh-context runs that never saw our list of known problems found 12 of 13 cross-document problems (/workflow-status) and 10 of 10 PRD problems (/verify-prd), p…",
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:10+00:00",
+  "fetched_at": "2026-10-09T11:22:57+00:00",
   "categories": [
     "skills"
   ],

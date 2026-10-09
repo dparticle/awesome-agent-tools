@@ -5,16 +5,18 @@
   "owner": "Justin0504",
   "url": "https://github.com/Justin0504/Aegis",
   "description": "Runtime policy enforcement for AI agents. Cryptographic audit trail, human-in-the-loop approvals, kill switch. Zero code changes.                                                                         ",
-  "homepage": "",
-  "stars": 507,
+  "homepage": "https://aegistraces.com",
+  "stars": 514,
   "forks": 47,
   "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
+    "agent-security",
     "ai-agents",
     "ai-safety",
     "anthropic",
+    "arxiv",
     "audit-trail",
     "langchain",
     "llm-observability",
@@ -22,33 +24,33 @@
     "policy-engine"
   ],
   "created_at": "2026-03-04T03:24:33Z",
-  "updated_at": "2026-10-08T10:35:27Z",
-  "pushed_at": "2026-09-06T03:16:51Z",
+  "updated_at": "2026-10-09T08:34:18Z",
+  "pushed_at": "2026-10-09T00:15:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 218,
-  "days_since_push": 32,
-  "health_score": 47,
+  "age_days": 219,
+  "days_since_push": 0,
+  "health_score": 52,
   "health_components": {
-    "popularity": 54.1,
-    "momentum": 1.9,
-    "maintenance": 78.0,
+    "popularity": 54.2,
+    "momentum": 2.0,
+    "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 507,
-    "days_span": 218,
-    "stars_per_day": 2.33,
-    "lifetime_stars_per_day": 2.33,
+    "stars_gained": 514,
+    "days_span": 219,
+    "stars_per_day": 2.35,
+    "lifetime_stars_per_day": 2.35,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Justin0504/Aegis",
-    "readme_chars": 40573,
+    "readme_chars": 42149,
     "capabilities": [
       "model-routing",
       "billing-metering",
@@ -66,7 +68,7 @@
       "usage-analytics": "d research assistant, fully integrated with AEGIS.",
       "mcp-support": ", AEGIS provides two proxy modes:",
       "security-isolation": "AEGIS is the missing layer: a pre-execution firewall that sits between your agent and its tools, classifies every call in real time, enforces policies, blocks violations, and writes a tamper-evident audit trail — with o…",
-      "self-hosted": "> Aojie Yuan, Zhiyuan Su, Yue Zhao",
+      "self-hosted": "Engineers Develop Tools to Audit and Monitor AI Agents (Aug 2026)",
       "team-collaboration": "nce) via OpenAI/Anthropic/Gemini",
       "gui-desktop": "",
       "notifications": ""
@@ -142,13 +144,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.419
+      "external_link_ratio": 0.641
     },
     "highlights": [
       "Cost Tracking — token usage and USD cost across 40+ models",
+      "Press: USC Viterbi News — Giving AI Agents the Keys?",
       "SHA-256 hash-chained — each trace commits to the previous, tamper-evident",
-      "Alert Rules — Slack, PagerDuty, or webhook on violations/cost spikes",
-      "Agent Baseline — 7-day behavioral profile per agent"
+      "Alert Rules — Slack, PagerDuty, or webhook on violations/cost spikes"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -159,13 +161,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:52+00:00",
+  "fetched_at": "2026-10-09T11:22:38+00:00",
   "categories": [
     "billing",
     "self-hosting-security",
     "teams"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

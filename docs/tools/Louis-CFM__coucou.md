@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,138 |
-| Star velocity | 413.8/day (lifetime basis, 10d span) |
+| Stars | 4,345 |
+| Star velocity | 395.0/day (lifetime basis, 11d span) |
 | Health score | 83/100 |
 | Documentation | 60/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-09-27 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 25,001 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 27,484 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -53,6 +53,10 @@
 ### Notifications
 
 > your iPhone's Lock Screen and Dynamic Island with the agent's state, then comes back to the notch when you unlock.
+
+### Voice input
+
+> - 🎙️ Dictate in the chat (macOS, GitHub build) — click the mic next to the chat field and talk in any of your languages (Coucou picks the one you spoke, or right-click the mic to choose); speech recognition runs
 
 ### Cross-agent support
 
@@ -92,7 +96,7 @@ Score **60/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 72.3 |
+| popularity | 72.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 60.0 |

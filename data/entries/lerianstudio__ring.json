@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 342,
-  "days_since_push": 0,
+  "age_days": 343,
+  "days_since_push": 1,
   "health_score": 50,
   "health_components": {
     "popularity": 46.7,
@@ -47,7 +47,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 217,
-    "days_span": 342,
+    "days_span": 343,
     "stars_per_day": 0.63,
     "lifetime_stars_per_day": 0.63,
     "basis": "lifetime",
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:20+00:00",
+  "fetched_at": "2026-10-09T11:23:09+00:00",
   "categories": [
     "isolation-parallelism",
     "skills"
@@ -158,15 +158,15 @@
   "primary_category": "isolation-parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 XiaomiMiMo/MiMo-Code 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "XiaomiMiMo/MiMo-Code",
+    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "redhat-et/ripwire",
     "challenger": "",
     "supersede": {
       "incumbent": "lerianstudio/ring",
-      "challenger": "xiaomimimo/mimo-code",
+      "challenger": "redhat-et/ripwire",
       "incumbent_name": "LerianStudio/ring",
-      "challenger_name": "XiaomiMiMo/MiMo-Code",
+      "challenger_name": "redhat-et/ripwire",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -178,15 +178,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 62.728,
-      "momentum_ratio": 181.571,
-      "setup_delta": -10,
+      "star_ratio": 11.189,
+      "momentum_ratio": 54.286,
+      "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "62.73x the stars (13,612 vs 217)",
-        "181.57x the star velocity (114.4/day vs 0.6/day)",
-        "no harder to set up (30 vs 40 friction)"
+        "11.19x the stars (2,428 vs 217)",
+        "54.29x the star velocity (34.2/day vs 0.6/day)",
+        "no harder to set up (34 vs 40 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -198,25 +198,21 @@
           "worktree-isolation"
         ],
         "challenger_capabilities": [
-          "api-gateway",
+          "agent-runtime",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
           "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 85,
+        "challenger_health": 66,
         "incumbent_setup_score": 40,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 34
       }
     }
   }

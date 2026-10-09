@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "full_name": "Dicklesworthstone/coding_agent_account_manager",
+  "name": "coding_agent_account_manager",
+  "owner": "Dicklesworthstone",
+  "url": "https://github.com/Dicklesworthstone/coding_agent_account_manager",
+  "description": "Sub-100ms auth switching for AI coding CLIs (Claude Code, Codex, Gemini): swap subscription accounts instantly when you hit usage limits",
+  "homepage": "",
+  "stars": 209,
+  "forks": 35,
+  "open_issues": 2,
+  "language": "Go",
+  "license": "NOASSERTION",
+  "topics": [
+    "ai-agents",
+    "authentication",
+    "cli",
+    "developer-tools",
+    "go"
+  ],
+  "created_at": "2025-12-17T06:04:59Z",
+  "updated_at": "2026-10-08T22:40:34Z",
+  "pushed_at": "2026-10-08T18:47:35Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 296,
+  "days_since_push": 0,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 46.4,
+    "momentum": 0.6,
+    "maintenance": 100.0,
+    "documentation": 73.0,
+    "accessibility": 45.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 209,
+    "days_span": 296,
+    "stars_per_day": 0.71,
+    "lifetime_stars_per_day": 0.71,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Dicklesworthstone/coding_agent_account_manager",
+    "readme_chars": 95062,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "auto-failover",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "model-routing",
+      "billing-metering",
+      "usage-analytics",
+      "session-persistence",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "cost AI coding subscriptions (Claude Max, GPT Pro, Gemini Ultra).",
+      "quota-management": "th nothing cached reads no cached data, not 0%, and is",
+      "auto-failover": "okens rotated during a failed login are saved before returning to",
+      "multi-agent-orchestration": "",
+      "parallel-execution": "ymlink is created — no broken links for users who don't have a given tool installed.",
+      "model-routing": "so seeding stays an explicit",
+      "billing-metering": "claims that credentials were renewed.",
+      "usage-analytics": "Tracking — Database-backed tracking of rate limit hits with configurable cooldown windows",
+      "session-persistence": "e Code sessions in parallel and each one must hit a different account simultaneously.",
+      "agent-runtime": "# caam - Coding Agent Account Manager",
+      "mcp-support": "rted together, so a stale command/args pair cannot",
+      "gui-desktop": "",
+      "notifications": "after rate limit (default: 60m)",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "multi-account-switching": 3,
+      "quota-management": 4,
+      "auto-failover": 3,
+      "multi-agent-orchestration": 3,
+      "parallel-execution": 3,
+      "model-routing": 3,
+      "billing-metering": 1,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "agent-runtime": 1,
+      "mcp-support": 5,
+      "gui-desktop": 1,
+      "notifications": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 55,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "scoop install",
+        "go install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "pnpm install/build",
+        "go build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config file",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency",
+        "process manager"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via Homebrew install, scoop install; needs git clone (build from source), pnpm install/build; configure environment variables, API key configuration",
+      "note_zh": "需要一些配置。可通过 Homebrew install、scoop install 安装；需要 git clone (build from source)、pnpm install/build；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "curl -fsSL \"https://raw.githubusercontent.com/Dicklesworthstone/codingagentaccount_manager/main/install.sh?$(date +%s)\" | bash",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL \"https://raw.githubusercontent.com/Dicklesworthstone/coding_agent_account_manager/main/install.sh?…",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.116
+    },
+    "highlights": [
+      "Automatic Token Refresh: Claude Code manages token refresh internally.",
+      "--max-retries N — Maximum retry attempts on rate limit (default: 1)",
+      "Token expiry: How long until the OAuth token expires",
+      "--cooldown DURATION — Cooldown duration after rate limit (default: 60m)"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-09T11:23:10+00:00",
+  "categories": [
+    "accounts",
+    "billing",
+    "model-routing"
+  ],
+  "primary_category": "accounts",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

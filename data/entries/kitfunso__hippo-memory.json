@@ -6,9 +6,9 @@
   "url": "https://github.com/kitfunso/hippo-memory",
   "description": "Stop re-teaching your agent. Make your agent's memory work like a brain. Hippo is long-term memory for coding agents. It's a critical layer for your AI harness that connects across your different tools (Cursor, Claude Code, Codex). It keeps your proprietary data completely local, and it actually learns over time.",
   "homepage": "https://hippo-memory.com",
-  "stars": 773,
+  "stars": 774,
   "forks": 45,
-  "open_issues": 7,
+  "open_issues": 24,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "sqlite"
   ],
   "created_at": "2026-03-15T10:40:26Z",
-  "updated_at": "2026-10-07T22:03:27Z",
-  "pushed_at": "2026-10-07T22:03:37Z",
+  "updated_at": "2026-10-09T11:17:11Z",
+  "pushed_at": "2026-10-09T11:17:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 207,
+  "age_days": 208,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 773,
-    "days_span": 207,
-    "stars_per_day": 3.73,
-    "lifetime_stars_per_day": 3.73,
+    "stars_gained": 774,
+    "days_span": 208,
+    "stars_per_day": 3.72,
+    "lifetime_stars_per_day": 3.72,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "kitfunso/hippo-memory",
-    "readme_chars": 91104,
+    "readme_chars": 91582,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -174,7 +174,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.428
+      "external_link_ratio": 0.426
     },
     "highlights": [
       "Decay tied with decay switched off.",
@@ -191,10 +191,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:45+00:00",
+  "fetched_at": "2026-10-09T11:22:31+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "security-self-hosting",
+    "analytics",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",

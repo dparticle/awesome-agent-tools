@@ -6,9 +6,9 @@
   "url": "https://github.com/slopus/happy",
   "description": "Happy is the open-source desktop app for Claude Code, Codex, and Grok, with an iOS and Android app to control your coding agents from anywhere.",
   "homepage": "https://happy.engineering/",
-  "stars": 24053,
-  "forks": 2052,
-  "open_issues": 1064,
+  "stars": 24069,
+  "forks": 2057,
+  "open_issues": 1061,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -20,13 +20,13 @@
     "hacktoberfest"
   ],
   "created_at": "2025-07-18T05:53:18Z",
-  "updated_at": "2026-10-08T09:39:32Z",
-  "pushed_at": "2026-10-07T09:28:34Z",
+  "updated_at": "2026-10-09T10:52:18Z",
+  "pushed_at": "2026-10-09T08:00:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 447,
-  "days_since_push": 1,
+  "age_days": 448,
+  "days_since_push": 0,
   "health_score": 71,
   "health_components": {
     "popularity": 87.6,
@@ -37,10 +37,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 24053,
-    "days_span": 447,
-    "stars_per_day": 53.81,
-    "lifetime_stars_per_day": 53.81,
+    "stars_gained": 24069,
+    "days_span": 448,
+    "stars_per_day": 53.73,
+    "lifetime_stars_per_day": 53.73,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -126,8 +126,8 @@
     },
     "highlights": [
       "End-to-end encrypted mobile app.",
-      "Natively multiplayer. Invite a colleague or a friend into the session.",
       "Reuse current subscriptions. Sign in with the Claude, Codex, and Grok",
+      "Natively multiplayer. Invite a colleague or a friend into the session.",
       "Multi-provider within one session."
     ],
     "summary_zh_native": "",
@@ -139,10 +139,11 @@
     "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-08T11:23:42+00:00",
+  "fetched_at": "2026-10-09T11:21:29+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile"
+    "mobile",
+    "model-routing"
   ],
   "primary_category": "mobile",
   "lifecycle": {

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,256 |
-| Star velocity | 79.4/day (lifetime basis, 41d span) |
+| Stars | 3,325 |
+| Star velocity | 79.2/day (lifetime basis, 42d span) |
 | Health score | 78/100 |
 | Documentation | 79/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-08-28 |
-| Last push | 2026-10-07 (1 days ago) |
-| Analyzed README | 18,188 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 18,482 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,7 +34,7 @@
 
 ### API gateway / proxy
 
-> 装 OpenClaw，并创建独立的 easel profile，不覆盖用户已有的 ~/.openclaw/。
+> API 不提供向量模型，请单独配置 Embedding API；否则 OpenClaw 会默认请求 text-embedding-3-small，可能得到“模型不可用”。
 
 ### Memory & context
 
@@ -85,8 +85,8 @@ Score **79/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 70.3 |
-| momentum | 66.2 |
+| popularity | 70.4 |
+| momentum | 66.0 |
 | maintenance | 100.0 |
 | documentation | 79.0 |
 | accessibility | 85.0 |

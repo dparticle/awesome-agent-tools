@@ -6,7 +6,7 @@
   "url": "https://github.com/matrixorigin/memoria",
   "description": "Secure memory management for AI Agents • Ensures data integrity • Reduces hallucinations • Maintains consistent long-term context",
   "homepage": "https://thememoria.ai/",
-  "stars": 608,
+  "stars": 610,
   "forks": 77,
   "open_issues": 54,
   "language": "Rust",
@@ -20,12 +20,12 @@
     "storage"
   ],
   "created_at": "2026-03-09T23:44:24Z",
-  "updated_at": "2026-10-08T02:11:48Z",
-  "pushed_at": "2026-10-08T02:11:48Z",
+  "updated_at": "2026-10-09T10:57:06Z",
+  "pushed_at": "2026-10-09T10:10:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 212,
+  "age_days": 213,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
@@ -37,16 +37,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 608,
-    "days_span": 212,
-    "stars_per_day": 2.87,
-    "lifetime_stars_per_day": 2.87,
+    "stars_gained": 610,
+    "days_span": 213,
+    "stars_per_day": 2.86,
+    "lifetime_stars_per_day": 2.86,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "matrixorigin/memoria",
-    "readme_chars": 19708,
+    "readme_chars": 19838,
     "capabilities": [
       "worktree-isolation",
       "memory-context",
@@ -58,7 +58,7 @@
     "capability_evidence": {
       "worktree-isolation": "",
       "memory-context": "",
-      "mcp-support": "ferences, facts, and decisions persist across sessions",
+      "mcp-support": "rences, facts, and decisions persist across sessions",
       "security-isolation": "",
       "self-hosted": "ool? · database mode? · embedding service? (Self-Hosted only)",
       "cross-agent-support": "Mentions Codex, Cursor, Gemini CLI"
@@ -124,7 +124,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.015
+      "external_link_ratio": 1.008
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -136,8 +136,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:49+00:00",
+  "fetched_at": "2026-10-09T11:22:35+00:00",
   "categories": [
+    "analytics",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
@@ -164,14 +165,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 452.646,
-      "momentum_ratio": 364.606,
+      "star_ratio": 451.88,
+      "momentum_ratio": 365.077,
       "setup_delta": 6,
       "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "452.65x the stars (275,209 vs 608)",
-        "364.61x the star velocity (1046.4/day vs 2.9/day)",
+        "451.88x the stars (275,647 vs 610)",
+        "365.08x the star velocity (1044.1/day vs 2.9/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],

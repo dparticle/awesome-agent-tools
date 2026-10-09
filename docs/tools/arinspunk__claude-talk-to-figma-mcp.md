@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 667 |
-| Star velocity | 1.2/day (lifetime basis, 551d span) |
+| Star velocity | 1.2/day (lifetime basis, 552d span) |
 | Health score | 48/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-04-04 |
-| Last push | 2026-04-18 (172 days ago) |
+| Last push | 2026-04-18 (173 days ago) |
 | Analyzed README | 7,932 chars from `raw:HEAD/readme.md` |
+
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
 
 ## What it solves
 

@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 465 |
-| Star velocity | 1.9/day (lifetime basis, 241d span) |
+| Star velocity | 1.9/day (lifetime basis, 242d span) |
 | Health score | 50/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-10-06 (1 days ago) |
+| Last push | 2026-10-06 (2 days ago) |
 | Analyzed README | 11,173 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [spinabot/brigade](https://github.com/spinabot/brigade)** — Superseded by spinabot/brigade: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 155,
-  "days_since_push": 104,
+  "age_days": 156,
+  "days_since_push": 105,
   "health_score": 41,
   "health_components": {
     "popularity": 47.3,
@@ -52,9 +52,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 231,
-    "days_span": 155,
-    "stars_per_day": 1.49,
-    "lifetime_stars_per_day": 1.49,
+    "days_span": 156,
+    "stars_per_day": 1.48,
+    "lifetime_stars_per_day": 1.48,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -150,10 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:19+00:00",
+  "fetched_at": "2026-10-09T11:23:07+00:00",
   "categories": [
+    "analytics",
     "isolation-parallelism",
-    "security-self-hosting",
     "skills"
   ],
   "primary_category": "isolation-parallelism",
@@ -180,14 +180,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 9.017,
-      "momentum_ratio": 3.94,
+      "star_ratio": 9.026,
+      "momentum_ratio": 3.959,
       "setup_delta": -18,
-      "dominance": 0.97,
+      "dominance": 0.971,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "9.02x the stars (2,083 vs 231)",
-        "3.94x the star velocity (5.9/day vs 1.5/day)",
+        "9.03x the stars (2,085 vs 231)",
+        "3.96x the star velocity (5.9/day vs 1.5/day)",
         "no harder to set up (12 vs 30 friction)"
       ],
       "reasons_zh": [],

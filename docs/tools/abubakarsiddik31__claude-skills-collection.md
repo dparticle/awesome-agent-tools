@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,091 |
-| Star velocity | 3.1/day (lifetime basis, 354d span) |
+| Stars | 1,092 |
+| Star velocity | 3.1/day (lifetime basis, 355d span) |
 | Health score | 53/100 |
 | Documentation | 68/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | not declared |
 | Language | n/a |
 | Created | 2025-10-18 |
-| Last push | 2026-09-12 (25 days ago) |
+| Last push | 2026-09-12 (26 days ago) |
 | Analyzed README | 60,091 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (11/11).

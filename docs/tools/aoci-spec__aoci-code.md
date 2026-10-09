@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,315 |
-| Star velocity | 21.9/day (lifetime basis, 60d span) |
+| Stars | 1,386 |
+| Star velocity | 22.7/day (lifetime basis, 61d span) |
 | Health score | 58/100 |
 | Documentation | 74/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-08-08 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 76,759 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-09 (0 days ago) |
+| Analyzed README | 76,946 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -33,6 +33,8 @@
 > CP host, such as Codex, Claude Code, Cursor, or OpenCode.
 
 ### API gateway / proxy
+
+> The current host model reads evidence and writes the entries; AOCI-CODE does not require a second model API
 
 ### Session persistence
 
@@ -91,8 +93,8 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 62.4 |
-| momentum | 18.3 |
+| popularity | 62.8 |
+| momentum | 18.9 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
 | accessibility | 36.0 |

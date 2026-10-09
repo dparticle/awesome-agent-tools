@@ -6,9 +6,9 @@
   "url": "https://github.com/DietrichGebert/ponytail",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
   "homepage": "https://ponytail.dev",
-  "stars": 158103,
-  "forks": 8491,
-  "open_issues": 20,
+  "stars": 159112,
+  "forks": 8551,
+  "open_issues": 31,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -24,12 +24,12 @@
     "yagni"
   ],
   "created_at": "2026-06-12T00:52:37Z",
-  "updated_at": "2026-10-08T11:19:48Z",
-  "pushed_at": "2026-10-08T03:51:37Z",
+  "updated_at": "2026-10-09T11:19:12Z",
+  "pushed_at": "2026-10-08T16:19:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 118,
+  "age_days": 119,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
@@ -41,16 +41,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 158103,
-    "days_span": 118,
-    "stars_per_day": 1339.86,
-    "lifetime_stars_per_day": 1339.86,
+    "stars_gained": 159112,
+    "days_span": 119,
+    "stars_per_day": 1337.08,
+    "lifetime_stars_per_day": 1337.08,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "DietrichGebert/ponytail",
-    "readme_chars": 11912,
+    "readme_chars": 12182,
     "capabilities": [
       "skills-plugins",
       "cross-agent-support"
@@ -120,7 +120,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:46+00:00",
+  "fetched_at": "2026-10-09T11:21:34+00:00",
   "categories": [
     "skills"
   ],

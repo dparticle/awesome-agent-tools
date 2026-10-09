@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 922 |
-| Star velocity | 4.6/day (lifetime basis, 202d span) |
+| Stars | 923 |
+| Star velocity | 4.5/day (lifetime basis, 203d span) |
 | Health score | 55/100 |
 | Documentation | 56/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-03-20 |
-| Last push | 2026-10-01 (6 days ago) |
+| Last push | 2026-10-08 (0 days ago) |
 | Analyzed README | 14,664 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).
 
 ## What it solves
 

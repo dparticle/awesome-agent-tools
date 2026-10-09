@@ -6,9 +6,9 @@
   "url": "https://github.com/ayghri/i-have-adhd",
   "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
   "homepage": "",
-  "stars": 55580,
-  "forks": 3171,
-  "open_issues": 74,
+  "stars": 55983,
+  "forks": 3193,
+  "open_issues": 66,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "productivity"
   ],
   "created_at": "2026-05-13T20:42:06Z",
-  "updated_at": "2026-10-08T11:22:38Z",
+  "updated_at": "2026-10-09T11:20:23Z",
   "pushed_at": "2026-10-06T23:23:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 147,
-  "days_since_push": 1,
+  "age_days": 148,
+  "days_since_push": 2,
   "health_score": 84,
   "health_components": {
-    "popularity": 94.9,
+    "popularity": 95.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 31.0,
@@ -37,10 +37,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 55580,
-    "days_span": 147,
-    "stars_per_day": 378.1,
-    "lifetime_stars_per_day": 378.1,
+    "stars_gained": 55983,
+    "days_span": 148,
+    "stars_per_day": 378.26,
+    "lifetime_stars_per_day": 378.26,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -98,7 +98,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:46+00:00",
+  "fetched_at": "2026-10-09T11:21:34+00:00",
   "categories": [
     "skills"
   ],

@@ -39,12 +39,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 65,
-  "days_since_push": 9,
+  "age_days": 66,
+  "days_since_push": 10,
   "health_score": 67,
   "health_components": {
     "popularity": 70.5,
-    "momentum": 42.9,
+    "momentum": 42.3,
     "maintenance": 92.0,
     "documentation": 63.0,
     "accessibility": 69.0
@@ -52,9 +52,9 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 3350,
-    "days_span": 65,
-    "stars_per_day": 51.54,
-    "lifetime_stars_per_day": 51.54,
+    "days_span": 66,
+    "stars_per_day": 50.76,
+    "lifetime_stars_per_day": 50.76,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -147,17 +147,76 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:00+00:00",
+  "fetched_at": "2026-10-09T11:21:49+00:00",
   "categories": [
-    "security-self-hosting",
+    "billing",
+    "model-routing",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "fuxicodex/fuxi",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "fuxicodex/Fuxi",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "mcp-support",
+        "model-routing",
+        "security-isolation"
+      ],
+      "star_ratio": 8.733,
+      "momentum_ratio": 2.55,
+      "setup_delta": 1,
+      "dominance": 0.911,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "8.73x the stars (29,256 vs 3,350)",
+        "2.55x the star velocity (129.4/day vs 50.8/day)",
+        "slightly heavier setup (+1 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "mcp-support",
+          "model-routing",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 67,
+        "challenger_health": 88,
+        "incumbent_setup_score": 31,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

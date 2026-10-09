@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 251,
-  "days_since_push": 108,
+  "age_days": 252,
+  "days_since_push": 109,
   "health_score": 39,
   "health_components": {
     "popularity": 56.1,
@@ -42,9 +42,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 639,
-    "days_span": 251,
-    "stars_per_day": 2.55,
-    "lifetime_stars_per_day": 2.55,
+    "days_span": 252,
+    "stars_per_day": 2.54,
+    "lifetime_stars_per_day": 2.54,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -119,69 +119,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:48+00:00",
+  "fetched_at": "2026-10-09T11:22:35+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "redhat-et/ripwire",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "arvincreator/project-golem",
-      "challenger": "redhat-et/ripwire",
-      "incumbent_name": "Arvincreator/project-golem",
-      "challenger_name": "redhat-et/ripwire",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 3.79,
-      "momentum_ratio": 13.569,
-      "setup_delta": -11,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "3.79x the stars (2,422 vs 639)",
-        "13.57x the star velocity (34.6/day vs 2.5/day)",
-        "no harder to set up (34 vs 45 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 39,
-        "challenger_health": 66,
-        "incumbent_setup_score": 45,
-        "challenger_setup_score": 34
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

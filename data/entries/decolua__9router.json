@@ -6,9 +6,9 @@
   "url": "https://github.com/decolua/9router",
   "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
   "homepage": "https://9router.com",
-  "stars": 30453,
-  "forks": 5797,
-  "open_issues": 2400,
+  "stars": 30502,
+  "forks": 5808,
+  "open_issues": 2434,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "token-saver"
   ],
   "created_at": "2026-01-05T02:59:30Z",
-  "updated_at": "2026-10-08T11:21:45Z",
-  "pushed_at": "2026-10-01T03:46:37Z",
+  "updated_at": "2026-10-09T11:10:22Z",
+  "pushed_at": "2026-10-08T12:49:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 276,
-  "days_since_push": 7,
+  "age_days": 277,
+  "days_since_push": 0,
   "health_score": 81,
   "health_components": {
     "popularity": 89.7,
-    "momentum": 91.9,
+    "momentum": 91.8,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 27.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 30453,
-    "days_span": 276,
-    "stars_per_day": 110.34,
-    "lifetime_stars_per_day": 110.34,
+    "stars_gained": 30502,
+    "days_span": 277,
+    "stars_per_day": 110.12,
+    "lifetime_stars_per_day": 110.12,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -179,11 +179,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:17+00:00",
+  "fetched_at": "2026-10-09T11:22:04+00:00",
   "categories": [
     "accounts",
     "analytics-2",
-    "model-routing"
+    "sharing"
   ],
   "primary_category": "accounts",
   "lifecycle": {

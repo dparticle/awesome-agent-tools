@@ -6,9 +6,9 @@
   "url": "https://github.com/EverMind-AI/Raven",
   "description": "The Harness of Harnesses • built for RSI: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration.",
   "homepage": "https://raven.evermind.ai",
-  "stars": 5293,
-  "forks": 152,
-  "open_issues": 90,
+  "stars": 5325,
+  "forks": 155,
+  "open_issues": 77,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -32,12 +32,12 @@
     "self-improving"
   ],
   "created_at": "2026-05-21T08:45:07Z",
-  "updated_at": "2026-10-08T10:07:44Z",
-  "pushed_at": "2026-10-08T11:22:47Z",
+  "updated_at": "2026-10-09T09:39:39Z",
+  "pushed_at": "2026-10-09T10:59:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
+  "age_days": 141,
   "days_since_push": 0,
   "health_score": 70,
   "health_components": {
@@ -49,10 +49,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5293,
-    "days_span": 140,
-    "stars_per_day": 37.81,
-    "lifetime_stars_per_day": 37.81,
+    "stars_gained": 5325,
+    "days_span": 141,
+    "stars_per_day": 37.77,
+    "lifetime_stars_per_day": 37.77,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -157,11 +157,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:56+00:00",
+  "fetched_at": "2026-10-09T11:21:45+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "isolation-parallelism",
-    "model-routing",
-    "self-hosting-security"
+    "model-routing"
   ],
   "primary_category": "isolation-parallelism",
   "lifecycle": {

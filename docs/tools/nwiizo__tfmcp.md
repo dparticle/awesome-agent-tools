@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 373 |
-| Star velocity | 0.7/day (lifetime basis, 578d span) |
+| Star velocity | 0.6/day (lifetime basis, 579d span) |
 | Health score | 52/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2025-03-08 |
-| Last push | 2026-10-02 (5 days ago) |
+| Last push | 2026-10-08 (0 days ago) |
 | Analyzed README | 29,300 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 

@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 551,
-  "days_since_push": 172,
+  "age_days": 552,
+  "days_since_push": 173,
   "health_score": 48,
   "health_components": {
     "popularity": 56.5,
@@ -42,7 +42,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 667,
-    "days_span": 551,
+    "days_span": 552,
     "stars_per_day": 1.21,
     "lifetime_stars_per_day": 1.21,
     "basis": "lifetime",
@@ -134,18 +134,73 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:48+00:00",
+  "fetched_at": "2026-10-09T11:22:34+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "security-self-hosting",
+    "isolation-parallelism",
     "skills"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "isolation-parallelism",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "arinspunk/claude-talk-to-figma-mcp",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "arinspunk/claude-talk-to-figma-mcp",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "parallel-execution"
+      ],
+      "star_ratio": 50.07,
+      "momentum_ratio": 64.488,
+      "setup_delta": -14,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "50.07x the stars (33,397 vs 667)",
+        "64.49x the star velocity (78.0/day vs 1.2/day)",
+        "no harder to set up (2 vs 16 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "parallel-execution"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 81,
+        "incumbent_setup_score": 16,
+        "challenger_setup_score": 2
+      }
+    }
   }
 }

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,033 |
-| Star velocity | 3.9/day (lifetime basis, 266d span) |
+| Stars | 1,034 |
+| Star velocity | 3.9/day (lifetime basis, 267d span) |
 | Health score | 57/100 |
 | Documentation | 74/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | GPL-3.0 |
 | Language | C# |
 | Created | 2026-01-15 |
-| Last push | 2026-10-07 (0 days ago) |
+| Last push | 2026-10-07 (1 days ago) |
 | Analyzed README | 28,580 chars from `raw:HEAD/README.md` |
 
 ## What it solves

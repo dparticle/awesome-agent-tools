@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 282 |
-| Star velocity | 0.8/day (lifetime basis, 342d span) |
+| Star velocity | 0.8/day (lifetime basis, 343d span) |
 | Health score | 42/100 |
 | Documentation | 78/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-10-31 |
-| Last push | 2026-05-15 (146 days ago) |
+| Last push | 2026-05-15 (147 days ago) |
 | Analyzed README | 25,252 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [thedivergentai/GD-Agentic-Skills](https://github.com/thedivergentai/GD-Agentic-Skills)** — Superseded by thedivergentai/GD-Agentic-Skills: covers 100% of capabilities (4/4).

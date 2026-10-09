@@ -6,7 +6,7 @@
   "url": "https://github.com/darrenhinde/OpenAgentsControl",
   "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
   "homepage": "",
-  "stars": 4892,
+  "stars": 4895,
   "forks": 402,
   "open_issues": 71,
   "language": "TypeScript",
@@ -23,13 +23,13 @@
     "prompt-engineering"
   ],
   "created_at": "2025-08-14T21:44:01Z",
-  "updated_at": "2026-10-08T08:59:46Z",
+  "updated_at": "2026-10-09T10:21:28Z",
   "pushed_at": "2026-09-13T22:57:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 419,
-  "days_since_push": 24,
+  "age_days": 420,
+  "days_since_push": 25,
   "health_score": 65,
   "health_components": {
     "popularity": 73.8,
@@ -40,10 +40,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4892,
-    "days_span": 419,
-    "stars_per_day": 11.68,
-    "lifetime_stars_per_day": 11.68,
+    "stars_gained": 4895,
+    "days_span": 420,
+    "stars_per_day": 11.65,
+    "lifetime_stars_per_day": 11.65,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:23+00:00",
+  "fetched_at": "2026-10-09T11:22:10+00:00",
   "categories": [
     "isolation-parallelism"
   ],
@@ -156,14 +156,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 5.587,
-      "momentum_ratio": 8.417,
+      "star_ratio": 5.588,
+      "momentum_ratio": 8.416,
       "setup_delta": -23,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "5.59x the stars (27,330 vs 4,892)",
-        "8.42x the star velocity (98.3/day vs 11.7/day)",
+        "5.59x the stars (27,355 vs 4,895)",
+        "8.42x the star velocity (98.0/day vs 11.7/day)",
         "no harder to set up (27 vs 50 friction)"
       ],
       "reasons_zh": [],

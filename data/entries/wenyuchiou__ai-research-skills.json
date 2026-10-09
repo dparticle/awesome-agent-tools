@@ -39,12 +39,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 165,
-  "days_since_push": 0,
+  "age_days": 166,
+  "days_since_push": 1,
   "health_score": 54,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 1.6,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 307,
-    "days_span": 165,
-    "stars_per_day": 1.86,
-    "lifetime_stars_per_day": 1.86,
+    "days_span": 166,
+    "stars_per_day": 1.85,
+    "lifetime_stars_per_day": 1.85,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -153,27 +153,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:25:07+00:00",
+  "fetched_at": "2026-10-09T11:22:55+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "redhat-et/ripwire",
+    "note_en": "Superseded by thedivergentai/GD-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/GD-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/GD-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "wenyuchiou/ai-research-skills",
-      "challenger": "redhat-et/ripwire",
+      "challenger": "thedivergentai/gd-agentic-skills",
       "incumbent_name": "WenyuChiou/ai-research-skills",
-      "challenger_name": "redhat-et/ripwire",
+      "challenger_name": "thedivergentai/GD-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -182,15 +181,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 7.889,
-      "momentum_ratio": 18.602,
-      "setup_delta": 12,
-      "dominance": 0.94,
+      "star_ratio": 2.661,
+      "momentum_ratio": 1.816,
+      "setup_delta": -1,
+      "dominance": 0.847,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "7.89x the stars (2,422 vs 307)",
-        "18.60x the star velocity (34.6/day vs 1.9/day)",
-        "slightly heavier setup (+12 friction, within tolerance)"
+        "2.66x the stars (817 vs 307)",
+        "1.82x the star velocity (3.4/day vs 1.9/day)",
+        "no harder to set up (21 vs 22 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -203,20 +202,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "model-routing",
+          "memory-context",
           "multi-agent-orchestration",
           "parallel-execution",
-          "skills-plugins",
-          "worktree-isolation"
+          "skills-plugins"
         ],
         "incumbent_health": 54,
-        "challenger_health": 66,
+        "challenger_health": 57,
         "incumbent_setup_score": 22,
-        "challenger_setup_score": 34
+        "challenger_setup_score": 21
       }
     }
   }

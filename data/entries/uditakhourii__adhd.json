@@ -6,9 +6,9 @@
   "url": "https://github.com/UditAkhourii/adhd",
   "description": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
   "homepage": "https://divergent.sh",
-  "stars": 4367,
-  "forks": 295,
-  "open_issues": 12,
+  "stars": 4372,
+  "forks": 296,
+  "open_issues": 13,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -32,27 +32,27 @@
     "typescript"
   ],
   "created_at": "2026-05-25T11:06:35Z",
-  "updated_at": "2026-10-08T11:00:54Z",
+  "updated_at": "2026-10-09T11:17:20Z",
   "pushed_at": "2026-10-05T18:34:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 136,
-  "days_since_push": 2,
+  "age_days": 137,
+  "days_since_push": 3,
   "health_score": 68,
   "health_components": {
     "popularity": 72.8,
-    "momentum": 26.8,
+    "momentum": 26.6,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4367,
-    "days_span": 136,
-    "stars_per_day": 32.11,
-    "lifetime_stars_per_day": 32.11,
+    "stars_gained": 4372,
+    "days_span": 137,
+    "stars_per_day": 31.91,
+    "lifetime_stars_per_day": 31.91,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:23:57+00:00",
+  "fetched_at": "2026-10-09T11:21:46+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "skills",

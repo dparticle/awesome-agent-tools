@@ -6,8 +6,8 @@
   "url": "https://github.com/rlaope/oh-my-hermes",
   "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
   "homepage": "https://rlaope.github.io/oh-my-hermes/",
-  "stars": 3217,
-  "forks": 244,
+  "stars": 3234,
+  "forks": 245,
   "open_issues": 13,
   "language": "Python",
   "license": "MIT",
@@ -23,27 +23,27 @@
     "skills"
   ],
   "created_at": "2026-06-03T13:00:34Z",
-  "updated_at": "2026-10-08T10:45:10Z",
-  "pushed_at": "2026-10-08T10:09:11Z",
+  "updated_at": "2026-10-09T09:00:25Z",
+  "pushed_at": "2026-10-08T18:59:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 126,
+  "age_days": 127,
   "days_since_push": 0,
   "health_score": 67,
   "health_components": {
-    "popularity": 70.1,
-    "momentum": 21.3,
+    "popularity": 70.2,
+    "momentum": 21.2,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 99.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3217,
-    "days_span": 126,
-    "stars_per_day": 25.53,
-    "lifetime_stars_per_day": 25.53,
+    "stars_gained": 3234,
+    "days_span": 127,
+    "stars_per_day": 25.46,
+    "lifetime_stars_per_day": 25.46,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -139,9 +139,9 @@
     "summary_zh_native": "中的普通请求，转化为合适的能力、明确的下一步，以及对“已经发生”和“尚未发生”的诚实状态。",
     "highlights_zh": [
       "Agent 看板与原生 Kanban 协作（agent/operator 参考）",
+      "Mixture-of-Models Routing — 每条委派 lane 按类别(ultrabrain、deep、",
       "Parallel Evals — 评审与验证 lane 作为独立子代理调度,交叉核验而非",
-      "Parallel Tool Calling — 批量工具调用在 Hermes 中并发执行,刚发生的",
-      "Phase-structured TODO — 工作在开始前以 phase 和 task 声明"
+      "Parallel Tool Calling — 批量工具调用在 Hermes 中并发执行,刚发生的"
     ],
     "chinese_readme": "README.zh.md"
   },
@@ -150,10 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:26+00:00",
+  "fetched_at": "2026-10-09T11:22:13+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "isolation-parallelism",
+    "model-routing",
     "skills"
   ],
   "primary_category": "isolation-parallelism",

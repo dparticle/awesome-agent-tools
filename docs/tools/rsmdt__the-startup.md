@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 553 |
-| Star velocity | 1.3/day (lifetime basis, 422d span) |
+| Stars | 557 |
+| Star velocity | 1.3/day (lifetime basis, 423d span) |
 | Health score | 48/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-12 |
-| Last push | 2026-08-03 (65 days ago) |
+| Last push | 2026-08-03 (66 days ago) |
 | Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven)** — Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).

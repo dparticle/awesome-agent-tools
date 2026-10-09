@@ -6,19 +6,19 @@
   "url": "https://github.com/Gentleman-Programming/engram",
   "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
   "homepage": "https://engram.gentlemanprogramming.com/",
-  "stars": 7087,
-  "forks": 731,
+  "stars": 7101,
+  "forks": 734,
   "open_issues": 103,
   "language": "Go",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-16T13:38:41Z",
-  "updated_at": "2026-10-08T08:13:07Z",
-  "pushed_at": "2026-10-08T05:20:34Z",
+  "updated_at": "2026-10-09T08:13:52Z",
+  "pushed_at": "2026-10-09T07:20:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
+  "age_days": 234,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
@@ -30,10 +30,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 7087,
-    "days_span": 233,
-    "stars_per_day": 30.42,
-    "lifetime_stars_per_day": 30.42,
+    "stars_gained": 7101,
+    "days_span": 234,
+    "stars_per_day": 30.35,
+    "lifetime_stars_per_day": 30.35,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-08T11:24:22+00:00",
+  "fetched_at": "2026-10-09T11:22:08+00:00",
   "categories": [
     "analytics"
   ],
