@@ -6,7 +6,7 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 557,
+  "stars": 560,
   "forks": 70,
   "open_issues": 0,
   "language": "Shell",
@@ -18,16 +18,16 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-10-09T05:48:14Z",
+  "updated_at": "2026-10-09T21:12:46Z",
   "pushed_at": "2026-08-03T13:21:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 423,
-  "days_since_push": 66,
+  "days_since_push": 67,
   "health_score": 48,
   "health_components": {
-    "popularity": 54.9,
+    "popularity": 55.0,
     "momentum": 1.1,
     "maintenance": 78.0,
     "documentation": 51.0,
@@ -35,7 +35,7 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 557,
+    "stars_gained": 560,
     "days_span": 423,
     "stars_per_day": 1.32,
     "lifetime_stars_per_day": 1.32,
@@ -125,12 +125,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:36+00:00",
+  "fetched_at": "2026-10-10T10:39:25+00:00",
   "categories": [
-    "isolation-parallelism",
+    "mobile",
     "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).",
@@ -152,14 +152,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 9.56,
-      "momentum_ratio": 28.614,
+      "star_ratio": 9.557,
+      "momentum_ratio": 28.553,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "9.56x the stars (5,325 vs 557)",
-        "28.61x the star velocity (37.8/day vs 1.3/day)",
+        "9.56x the stars (5,352 vs 560)",
+        "28.55x the star velocity (37.7/day vs 1.3/day)",
         "no harder to set up (13 vs 25 friction)"
       ],
       "reasons_zh": [],

@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 327 |
-| Star velocity | 1.6/day (lifetime basis, 211d span) |
+| Star velocity | 1.5/day (lifetime basis, 212d span) |
 | Health score | 45/100 |
 | Documentation | 31/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-03-12 |
-| Last push | 2026-09-17 (22 days ago) |
+| Last push | 2026-09-17 (23 days ago) |
 | Analyzed README | 3,609 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (4/4).

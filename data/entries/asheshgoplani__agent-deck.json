@@ -6,9 +6,9 @@
   "url": "https://github.com/asheshgoplani/agent-deck",
   "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
   "homepage": "https://discord.gg/e4xSs6NBN8",
-  "stars": 1044,
-  "forks": 189,
-  "open_issues": 48,
+  "stars": 1051,
+  "forks": 191,
+  "open_issues": 21,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -32,13 +32,13 @@
     "tui"
   ],
   "created_at": "2025-12-03T17:08:12Z",
-  "updated_at": "2026-10-09T08:38:20Z",
-  "pushed_at": "2026-10-05T21:56:45Z",
+  "updated_at": "2026-10-10T09:36:46Z",
+  "pushed_at": "2026-10-10T09:37:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 309,
-  "days_since_push": 3,
+  "age_days": 310,
+  "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 60.4,
@@ -49,16 +49,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1044,
-    "days_span": 309,
-    "stars_per_day": 3.38,
-    "lifetime_stars_per_day": 3.38,
+    "stars_gained": 1051,
+    "days_span": 310,
+    "stars_per_day": 3.39,
+    "lifetime_stars_per_day": 3.39,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "asheshgoplani/agent-deck",
-    "readme_chars": 85946,
+    "readme_chars": 88401,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -109,7 +109,7 @@
       "agent-runtime": 1,
       "mcp-support": 12,
       "security-isolation": 2,
-      "gui-desktop": 5,
+      "gui-desktop": 6,
       "notifications": 6,
       "cross-agent-support": 7
     },
@@ -186,7 +186,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.326
+      "external_link_ratio": 0.317
     },
     "highlights": [
       "Codex forking requires a codex CLI with codex fork support (verified with codex-cli 0.137.0)",
@@ -203,11 +203,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:25+00:00",
+  "fetched_at": "2026-10-10T10:39:15+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
-    "mobile"
+    "mobile",
+    "skills"
   ],
   "primary_category": "mobile",
   "lifecycle": {

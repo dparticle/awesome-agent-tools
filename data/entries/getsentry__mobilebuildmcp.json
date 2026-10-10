@@ -6,8 +6,8 @@
   "url": "https://github.com/getsentry/MobileBuildMCP",
   "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
   "homepage": "",
-  "stars": 6471,
-  "forks": 322,
+  "stars": 6472,
+  "forks": 323,
   "open_issues": 25,
   "language": "TypeScript",
   "license": "MIT",
@@ -21,13 +21,13 @@
     "xcodebuild"
   ],
   "created_at": "2025-03-09T17:31:18Z",
-  "updated_at": "2026-10-09T10:14:26Z",
+  "updated_at": "2026-10-10T10:11:11Z",
   "pushed_at": "2026-10-09T03:47:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 578,
-  "days_since_push": 0,
+  "age_days": 579,
+  "days_since_push": 1,
   "health_score": 63,
   "health_components": {
     "popularity": 76.2,
@@ -38,10 +38,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 6471,
-    "days_span": 578,
-    "stars_per_day": 11.2,
-    "lifetime_stars_per_day": 11.2,
+    "stars_gained": 6472,
+    "days_span": 579,
+    "stars_per_day": 11.18,
+    "lifetime_stars_per_day": 11.18,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:09+00:00",
+  "fetched_at": "2026-10-10T10:39:01+00:00",
   "categories": [
     "self-hosting-security"
   ],

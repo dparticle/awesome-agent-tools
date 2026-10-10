@@ -13,16 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 353 |
-| Star velocity | 0.6/day (lifetime basis, 578d span) |
+| Star velocity | 0.6/day (lifetime basis, 579d span) |
 | Health score | 49/100 |
-| Documentation | 46/100 |
+| Documentation | 47/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-03-10 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 7,231 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 8,568 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### MCP support
 
-> private documents, an agent that calls your tools, or a triage workflow—with the same backend.
+> o voice assistants and tool-using agents.
 
 ### Security & isolation
 
@@ -63,7 +63,7 @@
 
 ## Documentation quality
 
-Score **46/100**, based on these detected signals:
+Score **47/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -81,7 +81,7 @@ Score **46/100**, based on these detected signals:
 | popularity | 51.0 |
 | momentum | 0.5 |
 | maintenance | 100.0 |
-| documentation | 46.0 |
+| documentation | 47.0 |
 | accessibility | 57.0 |
 
 ---

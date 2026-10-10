@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,387 |
-| Star velocity | 91.5/day (lifetime basis, 37d span) |
+| Stars | 3,394 |
+| Star velocity | 89.3/day (lifetime basis, 38d span) |
 | Health score | 70/100 |
-| Documentation | 62/100 |
+| Documentation | 63/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-01 |
 | Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 21,194 chars from `raw:HEAD/README.md` |
+| Analyzed README | 24,423 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
 
@@ -58,13 +58,13 @@
 
 **Signals that add work:** git clone (build from source)
 
-**Configuration required:** API key configuration, config.json/yaml/toml, sign-in required, database dependency, database migration
+**Configuration required:** environment variables, API key configuration, config.json/yaml/toml, sign-in required, database dependency, database migration
 
-*Involved setup. needs git clone (build from source); configure API key configuration, config.json/yaml/toml*
+*Involved setup. needs git clone (build from source); configure environment variables, API key configuration*
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **63/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -82,9 +82,9 @@ Score **62/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 70.6 |
-| momentum | 76.3 |
+| momentum | 74.4 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
+| documentation | 63.0 |
 | accessibility | 19.0 |
 
 ---

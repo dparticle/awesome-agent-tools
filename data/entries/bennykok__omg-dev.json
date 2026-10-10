@@ -6,23 +6,23 @@
   "url": "https://github.com/BennyKok/omg.dev",
   "description": "omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcocde with mobile client",
   "homepage": "https://omg.dev",
-  "stars": 547,
+  "stars": 546,
   "forks": 41,
   "open_issues": 8,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-10-09T10:52:51Z",
-  "pushed_at": "2026-10-09T10:52:47Z",
+  "updated_at": "2026-10-10T07:45:38Z",
+  "pushed_at": "2026-10-10T07:45:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
+  "age_days": 115,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 54.8,
+    "popularity": 54.7,
     "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 43.0,
@@ -30,10 +30,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 547,
-    "days_span": 114,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 4.8,
+    "stars_gained": 546,
+    "days_span": 115,
+    "stars_per_day": 4.75,
+    "lifetime_stars_per_day": 4.75,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -133,77 +133,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:37+00:00",
+  "fetched_at": "2026-10-10T10:39:25+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile"
+    "mobile-2"
   ],
-  "primary_category": "mobile",
+  "primary_category": "mobile-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 omnigent-ai/omnigent 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "omnigent-ai/omnigent",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "bennykok/omg.dev",
-      "challenger": "omnigent-ai/omnigent",
-      "incumbent_name": "BennyKok/omg.dev",
-      "challenger_name": "omnigent-ai/omnigent",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mobile-access",
-        "notifications",
-        "remote-control",
-        "self-hosted"
-      ],
-      "star_ratio": 19.558,
-      "momentum_ratio": 18.729,
-      "setup_delta": -6,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "19.56x the stars (10,698 vs 547)",
-        "18.73x the star velocity (89.9/day vs 4.8/day)",
-        "no harder to set up (25 vs 31 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mobile-access",
-          "notifications",
-          "remote-control",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "self-hosted",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 80,
-        "incumbent_setup_score": 31,
-        "challenger_setup_score": 25
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

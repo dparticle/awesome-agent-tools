@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,404 |
-| Star velocity | 7.0/day (lifetime basis, 200d span) |
-| Health score | 51/100 |
+| Stars | 1,403 |
+| Star velocity | 7.0/day (lifetime basis, 201d span) |
+| Health score | 50/100 |
 | Documentation | 67/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-03-23 |
-| Last push | 2026-08-21 (48 days ago) |
+| Last push | 2026-08-21 (49 days ago) |
 | Analyzed README | 25,594 chars from `raw:main/README.md` |
-
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 106,
-  "days_since_push": 21,
+  "age_days": 107,
+  "days_since_push": 22,
   "health_score": 42,
   "health_components": {
     "popularity": 47.6,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 241,
-    "days_span": 106,
-    "stars_per_day": 2.27,
-    "lifetime_stars_per_day": 2.27,
+    "days_span": 107,
+    "stars_per_day": 2.25,
+    "lifetime_stars_per_day": 2.25,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -136,10 +136,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:23:02+00:00",
+  "fetched_at": "2026-10-10T10:39:48+00:00",
   "categories": [
-    "accounts",
-    "billing",
+    "self-hosting-security",
     "sharing"
   ],
   "primary_category": "sharing",

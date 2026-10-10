@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "full_name": "zeronsh/zeron",
+  "name": "zeron",
+  "owner": "zeronsh",
+  "url": "https://github.com/zeronsh/zeron",
+  "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
+  "homepage": "https://zeron.sh",
+  "stars": 3145,
+  "forks": 306,
+  "open_issues": 296,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "claude-code",
+    "codex",
+    "coding-agent",
+    "cursor",
+    "developer-tools",
+    "gpui",
+    "local-first",
+    "open-source",
+    "rust"
+  ],
+  "created_at": "2026-07-20T15:04:04Z",
+  "updated_at": "2026-10-10T08:52:19Z",
+  "pushed_at": "2026-10-10T08:52:17Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 81,
+  "days_since_push": 0,
+  "health_score": 65,
+  "health_components": {
+    "popularity": 70.0,
+    "momentum": 32.4,
+    "maintenance": 100.0,
+    "documentation": 35.0,
+    "accessibility": 100.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3145,
+    "days_span": 81,
+    "stars_per_day": 38.83,
+    "lifetime_stars_per_day": 38.83,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "zeronsh/zeron",
+    "readme_chars": 1568,
+    "capabilities": [
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "agent-runtime": "",
+      "gui-desktop": "Control your coding agents (Claude Code, Codex, Cursor, Devin, Grok, Hermes, Pi, Antigravity) locally by default, with optional multi-device sync. English 简体中文 한국어 日本語 Zeron desktop app ## Desktop app Download the lates…",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "agent-runtime": 1,
+      "gui-desktop": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 0,
+      "out_of_the_box": true,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "curl | sh installer",
+        "download a release binary",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via curl | sh installer, download a release binary; configure sign-in required; GUI application",
+      "note_zh": "开箱即用。可通过 curl | sh installer、download a release binary 安装；需配置 sign-in required；GUI application"
+    },
+    "doc_score": 35,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "Control your coding agents (Claude Code, Codex, Cursor, Devin, Grok, Hermes, Pi, Antigravity) locally by default, with optional multi-device sync.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://zeron.sh/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.638
+    },
+    "highlights": [],
+    "summary_zh_native": "在本地管理你的编码 agent（Claude Code、Codex、Cursor、Devin、Grok、Hermes、Pi、Antigravity），也可以打开多设备同步。",
+    "highlights_zh": [],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-10T10:38:43+00:00",
+  "categories": [
+    "agent-runtime-desktop-ui"
+  ],
+  "primary_category": "agent-runtime-desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

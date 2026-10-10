@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-10-09T11:23:12+00:00",
-  "count": 14,
+  "generated_at": "2026-10-10T10:39:57+00:00",
+  "count": 12,
   "categories": [
+    {
+      "id": "mobile",
+      "title": {
+        "en": "Mobile",
+        "zh": "移动端"
+      },
+      "tagline": {
+        "en": "Voice input",
+        "zh": "语音输入"
+      },
+      "problem": {
+        "en": "Typing long prompts on a phone is painful.",
+        "zh": "在手机上敲长提示词很痛苦。"
+      },
+      "capabilities": [
+        "voice-input",
+        "parallel-execution",
+        "worktree-isolation",
+        "remote-control",
+        "mobile-access",
+        "multi-agent-orchestration"
+      ],
+      "tools": [
+        "arinspunk/claude-talk-to-figma-mcp",
+        "asheshgoplani/agent-deck",
+        "automagik-dev/genie",
+        "bytedance/deer-flow",
+        "cobusgreyling/loop-engineering",
+        "cwinvestments/memstack",
+        "darrenhinde/openagentscontrol",
+        "deepagent-ltd/deepagent-code",
+        "evermind-ai/raven",
+        "garrytan/gstack",
+        "getpaseo/paseo",
+        "greenfield-inc/pane",
+        "h0x91b/dev-3.0",
+        "harnessmd/munder-difflin",
+        "hex/claude-council",
+        "ibrahim-3d/orchestrator-supaconductor",
+        "iofficeai/aionui",
+        "jessepwj/ccteam-creator",
+        "jia-ethan/codex-keysmith",
+        "jsonbored/awesome-claude",
+        "kunchenguid/firstmate",
+        "lanes-sh/app",
+        "larashero3-dotcom/lieflat-charts",
+        "lerianstudio/ring",
+        "lling0000/vibe_coding_guide",
+        "marcusquinn/aidevops",
+        "max-sixty/worktrunk",
+        "maxritter/pilot-shell",
+        "michaelshimeles/skills",
+        "mindmuxai/brain.md",
+        "moonshotai/kimi-code",
+        "nanmicoder/cc-haha",
+        "nekocode/agent-worktree",
+        "nykooi1/vibe-wise",
+        "omnigent-ai/omnigent",
+        "orkas-ai/orkas",
+        "othmanadi/planning-with-files",
+        "owengretzinger/constellagent",
+        "paperclipai/paperclip",
+        "pedrohcgs/claude-code-my-workflow",
+        "rlaope/oh-my-hermes",
+        "rohitg00/pro-workflow",
+        "rsmdt/the-startup",
+        "sahithvibudhi/vibe-tree",
+        "sethgammon/citadel",
+        "stablyai/orca",
+        "superagent-ai/grok-cli",
+        "tigicion/dao-code",
+        "waishnav/devspace",
+        "xiaomimimo/mimo-code",
+        "yoanwai/agent-manager"
+      ],
+      "also_in": [
+        "crshdn/mission-control",
+        "msitarzewski/agency-agents",
+        "newsnowlabs/dockside",
+        "yohey-w/multi-agent-shogun"
+      ],
+      "stability": 0.5,
+      "cohesion": 0.665
+    },
     {
       "id": "self-hosting-security",
       "title": {
@@ -9,58 +93,54 @@
         "zh": "自托管与安全"
       },
       "tagline": {
-        "en": "Self-hostable",
-        "zh": "可自托管"
+        "en": "Security & isolation",
+        "zh": "安全与隔离"
       },
       "problem": {
-        "en": "You do not want your code or keys flowing through someone else's server.",
-        "zh": "不希望代码或密钥经过他人的服务器。"
+        "en": "Agents run arbitrary code and hold credentials; blast radius must be contained.",
+        "zh": "Agent 会执行任意代码并持有凭据，必须控制影响范围。"
       },
       "capabilities": [
-        "self-hosted",
-        "mcp-support",
         "security-isolation",
-        "auto-failover",
+        "self-hosted",
         "api-gateway",
-        "model-routing"
+        "mcp-support",
+        "model-routing",
+        "session-persistence"
       ],
       "tools": [
         "affaan-m/ecc",
-        "agi-is-going-to-arrive/memory-palace",
         "ai-ql/tuui",
         "amap-ml/longhorizon-harness",
         "andrewdryga/emisar",
         "appwrite/appwrite",
-        "breferrari/obsidian-mind",
-        "cobusgreyling/loop-engineering",
         "copilotkit/openbot",
         "delorenj/mcp-server-trello",
         "deuz-ai/deuz-sdk",
-        "eugeniughelbur/obsidian-second-brain",
+        "duty1g/x64dbg-mcp-server",
         "feder-cr/invisible_playwright_mcp",
         "future-agi/future-agi",
         "fuxicodex/fuxi",
         "genspark-ai/genoffice",
         "getsentry/mobilebuildmcp",
         "hkcanan/katmer-code",
+        "hoangsonww/claude-code-agent-monitor",
         "ibm/mcp",
-        "jdrhyne/agent-skills",
-        "jia-ethan/codex-keysmith",
         "josstei/maestro-orchestrate",
+        "justin0504/aegis",
         "kagisearch/kagimcp",
         "kitfunso/hippo-memory",
+        "kunagent/kun",
         "langchain-ai/openwiki",
-        "larashero3-dotcom/lieflat-charts",
         "lexmount/moli",
         "linxidnju/opentag",
-        "lyellr88/marm-memory",
+        "mark3labs/mcp-go",
         "matrixorigin/memoria",
         "mcpware/cross-code-organizer",
         "metatool-ai/metamcp",
         "miuuyy/codex-chatgpt-web",
+        "nexu-io/open-design",
         "nwiizo/tfmcp",
-        "nykooi1/vibe-wise",
-        "oleksiijko/pmb",
         "oomol-lab/open-connector",
         "oracle/mcp",
         "othmane-khadri/yalc-the-gtm-operating-system",
@@ -69,41 +149,37 @@
         "rohitg00/agentmemory",
         "ruvnet/metaharness",
         "ryze-ai-adgent/open-seo-mcp-skills",
+        "schmitech/orbit",
         "spinabot/brigade",
         "superdesigndev/treg",
         "tigerless-labs/agent-memory",
-        "totec448-spec/chat-on-steroids",
-        "xai-org/grok-build",
-        "zhaoxuya520/reverse-skill",
+        "tigerless-labs/cost-xray",
+        "trailhq/graft",
+        "vercel-labs/personal-agent-template",
         "zvec-ai/zvec-grep"
       ],
       "also_in": [
-        "aipoch/open-science",
+        "agi-is-going-to-arrive/memory-palace",
         "akitaonrails/ai-memory",
         "butterbase-ai/butterbase",
         "catcatuncle/openworkbuddy",
         "cordum-io/cordum",
         "crshdn/mission-control",
-        "erickochen/purple",
-        "felinics/memoh",
-        "getpaseo/paseo",
-        "greenfield-inc/pane",
-        "hoangsonww/claude-code-agent-monitor",
+        "evermind-ai/raven",
         "jsonbored/awesome-claude",
-        "justin0504/aegis",
-        "kunagent/kun",
+        "lyellr88/marm-memory",
+        "mirrowel/llm-api-key-proxy",
         "nanmicoder/cc-haha",
-        "nexu-io/open-design",
-        "paperclipai/paperclip",
-        "pedrohcgs/claude-code-my-workflow",
-        "schmitech/orbit",
         "simonlin1212/vibe-research",
-        "topoteretes/cognee",
-        "vercel-labs/personal-agent-template",
-        "waishnav/devspace"
+        "wangyunjeff/sub2api-state-kit",
+        "wei-shaw/sub2api",
+        "wenyi401/ikik-api",
+        "xiaomimimo/mimo-code",
+        "yan-labs/yan-skills",
+        "yetone/cumora"
       ],
-      "stability": 0.5,
-      "cohesion": 0.638
+      "stability": 0.714,
+      "cohesion": 0.654
     },
     {
       "id": "skills",
@@ -123,33 +199,36 @@
         "skills-plugins",
         "agent-runtime",
         "multi-agent-orchestration",
-        "notifications",
         "mcp-support",
-        "team-collaboration"
+        "notifications",
+        "memory-context"
       ],
       "tools": [
         "alibaba/open-code-review",
         "alirezarezvani/claude-code-tresor",
         "anthropics/claude-code",
         "archive228/loopkit",
-        "athola/claude-night-market",
         "autoloops/greplica",
-        "ayghri/i-have-adhd",
         "binance/binance-skills-hub",
         "claesbackman/ai-research-feedback",
         "data-goblin/power-bi-agentic-development",
         "davepoon/buildwithclaude",
         "dietrichgebert/ponytail",
+        "diffusionstudio/lottie",
         "eternityspring/shuohao-skills",
         "francyjglisboa/agent-skills-platform",
         "franklee16/academic-research-skills",
         "gentleman-programming/gentle-ai",
         "giuseppe-trisciuoglio/developer-kit",
+        "glebis/claude-skills",
         "hashicorp/agent-skills",
         "hoodini/ai-agents-skills",
         "internet-court/internet-court-skill",
+        "jdrhyne/agent-skills",
         "jeremylongshore/tons-of-skills-marketplace",
+        "jtydhr88/comfyui-custom-node-skills",
         "liamgvchi/gc-minimal-zine-poster",
+        "mco-org/mco",
         "neiii/bridle",
         "numman-ali/n-skills",
         "nurettincoban/ai-prd-workflow",
@@ -173,50 +252,58 @@
         "appautomaton/latex-arxiv-skill",
         "arinspunk/claude-talk-to-figma-mcp",
         "arvincreator/project-golem",
+        "asheshgoplani/agent-deck",
+        "athola/claude-night-market",
         "automagik-dev/genie",
         "avids2/memorix",
         "breferrari/obsidian-mind",
+        "butterbase-ai/butterbase",
+        "bytedance/deer-flow",
         "cloudflare/security-audit-skill",
         "cwinvestments/memstack",
         "eugeniughelbur/obsidian-second-brain",
         "garrytan/gstack",
-        "glebis/claude-skills",
+        "genspark-ai/genoffice",
         "gotalab/cc-sdd",
+        "harishkotra/agent-office",
+        "hex/claude-council",
+        "hoangsonww/claude-code-agent-monitor",
         "huytieu/cog-second-brain",
         "ibm/mcp",
         "ibrahim-3d/orchestrator-supaconductor",
         "iofficeai/aionui",
         "jacobaraujo7/remote_pi",
-        "jdrhyne/agent-skills",
         "jessepwj/ccteam-creator",
         "jimliu/baoyu-design",
-        "jtydhr88/comfyui-custom-node-skills",
         "lanes-sh/app",
         "leoyeai/talewell",
         "lerianstudio/ring",
         "lling0000/vibe_coding_guide",
         "lnyo-cly/ai4j",
         "maxritter/pilot-shell",
-        "mco-org/mco",
         "mcpware/cross-code-organizer",
         "michaelshimeles/skills",
+        "mindmuxai/brain.md",
         "mnemon-dev/mnemon",
         "moonshotai/kimi-code",
         "nekocode/agent-worktree",
         "okf-memory/okf-agent-memory",
+        "omega-memory/omega-memory",
         "othmanadi/planning-with-files",
         "othmane-khadri/yalc-the-gtm-operating-system",
         "pacifio/atlas",
+        "paperclipai/paperclip",
         "pedrohcgs/claude-code-my-workflow",
         "realzst/harnesskit",
-        "redhat-et/ripwire",
         "rlaope/oh-my-hermes",
+        "rohitg00/agentmemory",
         "rohitg00/pro-workflow",
         "rsmdt/the-startup",
         "ruvnet/metaharness",
         "sethgammon/citadel",
         "socialpranker/deepdive",
         "solo-agent/solo",
+        "tencentcloud/octop",
         "tickernelz/opencode-mem",
         "tigicion/dao-code",
         "trailhq/graft",
@@ -225,160 +312,11 @@
         "withkynam/vibecode-pro-max-kit",
         "xiaoduoya/codex-with-chatgpt",
         "yc-software/qm",
-        "zhaoxuya520/reverse-skill",
         "zhinkgit/embeddedskills",
         "zilliztech/memsearch"
       ],
-      "stability": 1.0,
-      "cohesion": 0.739
-    },
-    {
-      "id": "isolation-parallelism",
-      "title": {
-        "en": "Isolation & Parallelism",
-        "zh": "隔离与并行"
-      },
-      "tagline": {
-        "en": "Parallel execution",
-        "zh": "并行执行"
-      },
-      "problem": {
-        "en": "Tasks run one at a time and you wait; parallelism cuts wall-clock time.",
-        "zh": "任务串行执行、只能干等；并行能压缩总耗时。"
-      },
-      "capabilities": [
-        "parallel-execution",
-        "worktree-isolation",
-        "multi-agent-orchestration",
-        "agent-runtime",
-        "memory-context",
-        "notifications"
-      ],
-      "tools": [
-        "arinspunk/claude-talk-to-figma-mcp",
-        "automagik-dev/genie",
-        "darrenhinde/openagentscontrol",
-        "diffusionstudio/lottie",
-        "evermind-ai/raven",
-        "garrytan/gstack",
-        "greenfield-inc/pane",
-        "ibrahim-3d/orchestrator-supaconductor",
-        "iofficeai/aionui",
-        "jessepwj/ccteam-creator",
-        "kunchenguid/firstmate",
-        "lanes-sh/app",
-        "lerianstudio/ring",
-        "lling0000/vibe_coding_guide",
-        "max-sixty/worktrunk",
-        "maxritter/pilot-shell",
-        "mco-org/mco",
-        "michaelshimeles/skills",
-        "mindmuxai/brain.md",
-        "moonshotai/kimi-code",
-        "nekocode/agent-worktree",
-        "orkas-ai/orkas",
-        "othmanadi/planning-with-files",
-        "owengretzinger/constellagent",
-        "pedrohcgs/claude-code-my-workflow",
-        "redhat-et/ripwire",
-        "rlaope/oh-my-hermes",
-        "rohitg00/pro-workflow",
-        "rsmdt/the-startup",
-        "sahithvibudhi/vibe-tree",
-        "sethgammon/citadel",
-        "tigicion/dao-code",
-        "yoanwai/agent-manager"
-      ],
-      "also_in": [
-        "affaan-m/ecc",
-        "asheshgoplani/agent-deck",
-        "bytedance/deer-flow",
-        "crshdn/mission-control",
-        "cwinvestments/memstack",
-        "felinics/memoh",
-        "getpaseo/paseo",
-        "h0x91b/dev-3.0",
-        "harishkotra/agent-office",
-        "harnessmd/munder-difflin",
-        "hex/claude-council",
-        "hkcanan/katmer-code",
-        "marcusquinn/aidevops",
-        "metatool-ai/metamcp",
-        "nateherkai/token-dashboard",
-        "newsnowlabs/dockside",
-        "realzst/harnesskit",
-        "simonlin1212/vibe-research",
-        "stablyai/orca",
-        "superagent-ai/grok-cli",
-        "tencentcloud/octop",
-        "thedivergentai/gd-agentic-skills",
-        "waishnav/devspace",
-        "withkynam/vibecode-pro-max-kit",
-        "xiaomimimo/mimo-code",
-        "yohey-w/multi-agent-shogun"
-      ],
-      "stability": 0.5,
-      "cohesion": 0.737
-    },
-    {
-      "id": "mobile",
-      "title": {
-        "en": "Mobile",
-        "zh": "移动端"
-      },
-      "tagline": {
-        "en": "Mobile access",
-        "zh": "手机端访问"
-      },
-      "problem": {
-        "en": "You are away from the desk and want to keep the agent working from a phone.",
-        "zh": "人不在电脑旁，想用手机继续让 Agent 干活。"
-      },
-      "capabilities": [
-        "mobile-access",
-        "remote-control",
-        "notifications",
-        "voice-input",
-        "worktree-isolation",
-        "self-hosted"
-      ],
-      "tools": [
-        "abubakarsiddik31/claude-skills-collection",
-        "alephaitech/workbuddyguide",
-        "asheshgoplani/agent-deck",
-        "bennykok/omg.dev",
-        "cwinvestments/memstack",
-        "getpaseo/paseo",
-        "google/artemis",
-        "h0x91b/dev-3.0",
-        "hoangsonww/claude-code-agent-monitor",
-        "jacobaraujo7/remote_pi",
-        "jimliu/baoyu-design",
-        "louis-cfm/coucou",
-        "microsoft/power-platform-skills",
-        "nanmicoder/cc-haha",
-        "newsnowlabs/dockside",
-        "omnigent-ai/omnigent",
-        "op7418/guizang-social-card-skill",
-        "paperclipai/paperclip",
-        "slopus/happy",
-        "stablyai/orca",
-        "superagent-ai/grok-cli",
-        "tigerless-labs/cost-xray",
-        "waishnav/devspace",
-        "wenfxl/openai-cpa",
-        "wwwzhouhui/skills_collection",
-        "yohey-w/multi-agent-shogun"
-      ],
-      "also_in": [
-        "dataojitori/nocturne_memory",
-        "jsonbored/awesome-claude",
-        "msitarzewski/agency-agents",
-        "ningbainb/deepseek-harness-desktop",
-        "yetone/cumora"
-      ],
       "stability": 0.714,
-      "cohesion": 0.686
+      "cohesion": 0.746
     },
     {
       "id": "analytics",
@@ -387,30 +325,33 @@
         "zh": "用量分析"
       },
       "tagline": {
-        "en": "Session persistence",
-        "zh": "会话持久化"
+        "en": "Automatic failover",
+        "zh": "自动故障转移"
       },
       "problem": {
-        "en": "Closing the laptop or losing connection kills a long-running agent session.",
-        "zh": "合上笔记本或断网就会中断长时间运行的会话。"
+        "en": "When one account or provider dies, work should continue on the next one instead of stopping.",
+        "zh": "某个账号或供应商不可用时，任务应自动切到下一个而不是中断。"
       },
       "capabilities": [
-        "session-persistence",
-        "memory-context",
-        "mcp-support",
-        "usage-analytics",
         "auto-failover",
-        "agent-runtime"
+        "memory-context",
+        "session-persistence",
+        "mcp-support",
+        "agent-runtime",
+        "usage-analytics"
       ],
       "tools": [
         "0xk3vin/megamemory",
+        "agi-is-going-to-arrive/memory-palace",
         "aoci-spec/aoci-code",
         "avids2/memorix",
+        "breferrari/obsidian-mind",
         "chandra447/pi-hermes-memory",
         "dataojitori/nocturne_memory",
         "elara-labs/code-context-engine",
         "eliaalberti/cpr-compress-preserve-resume",
         "eshaan-nair/arcrift",
+        "eugeniughelbur/obsidian-second-brain",
         "gentleman-programming/engram",
         "gizclaw/flowcraft",
         "grpcer/ownmem",
@@ -418,105 +359,38 @@
         "itechmeat/open-second-brain",
         "juliusbrussee/cavemem",
         "leoyeai/talewell",
-        "lycheemem/lycheemem",
+        "lyellr88/marm-memory",
         "magiccube/agentara",
         "memvid/memvid",
         "mnemon-dev/mnemon",
         "okf-memory/okf-agent-memory",
+        "oleksiijko/pmb",
         "omega-memory/omega-memory",
         "pacifio/atlas",
         "shengjidaguai-china/goutoujunshi",
+        "tamaratran/fast-jev-compaction",
         "topoteretes/cognee",
-        "vercel-labs/personal-agent-template"
+        "totec448-spec/chat-on-steroids",
+        "xai-org/grok-build"
       ],
       "also_in": [
-        "agi-is-going-to-arrive/memory-palace",
-        "akitaonrails/ai-memory",
-        "breferrari/obsidian-mind",
-        "butterbase-ai/butterbase",
+        "affaan-m/ecc",
         "bytedance/deer-flow",
         "copilotkit/openbot",
-        "deepagent-ltd/deepagent-code",
-        "feder-cr/invisible_playwright_mcp",
-        "francyjglisboa/agent-skills-platform",
+        "farion1231/cc-switch",
         "garrytan/gstack",
-        "google-gemini/gemini-cli",
-        "huytieu/cog-second-brain",
         "jessepwj/ccteam-creator",
-        "josstei/maestro-orchestrate",
         "kitfunso/hippo-memory",
         "langchain-ai/openwiki",
-        "lling0000/vibe_coding_guide",
         "lnyo-cly/ai4j",
-        "lyellr88/marm-memory",
-        "matrixorigin/memoria",
-        "memtensor/memmy-agent",
-        "mindmuxai/brain.md",
+        "memtensor/memos-cloud-openclaw-plugin",
         "nanmicoder/cc-haha",
-        "oleksiijko/pmb",
-        "oomol-lab/open-connector",
-        "paperclipai/paperclip",
         "pax-beehive/paxm",
         "spinabot/brigade",
-        "tigerless-labs/agent-memory",
-        "uwuclxdy/clauth",
-        "xiaomimimo/mimo-code",
-        "yyh211/claude-meta-skill"
+        "xiaomimimo/mimo-code"
       ],
       "stability": 1.0,
-      "cohesion": 0.768
-    },
-    {
-      "id": "teams",
-      "title": {
-        "en": "Teams",
-        "zh": "团队"
-      },
-      "tagline": {
-        "en": "Voice input",
-        "zh": "语音输入"
-      },
-      "problem": {
-        "en": "Typing long prompts on a phone is painful.",
-        "zh": "在手机上敲长提示词很痛苦。"
-      },
-      "capabilities": [
-        "voice-input",
-        "team-collaboration",
-        "billing-metering",
-        "security-isolation",
-        "mobile-access",
-        "api-gateway"
-      ],
-      "tools": [
-        "akitaonrails/ai-memory",
-        "bytedance/deer-flow",
-        "deepagent-ltd/deepagent-code",
-        "felinics/memoh",
-        "gary23w/nl-veil",
-        "glebis/claude-skills",
-        "gotalab/cc-sdd",
-        "harishkotra/agent-office",
-        "harnessmd/munder-difflin",
-        "hex/claude-council",
-        "huytieu/cog-second-brain",
-        "jsonbored/awesome-claude",
-        "justin0504/aegis",
-        "kerim0x1/bettercode",
-        "marcusquinn/aidevops",
-        "memtensor/memmy-agent",
-        "msitarzewski/agency-agents",
-        "tencentcloud/octop",
-        "uditakhourii/adhd",
-        "withkynam/vibecode-pro-max-kit",
-        "xiaomimimo/mimo-code",
-        "yc-software/qm",
-        "yetone/cumora",
-        "zilliztech/memsearch"
-      ],
-      "also_in": [],
-      "stability": 0.714,
-      "cohesion": 0.707
+      "cohesion": 0.708
     },
     {
       "id": "accounts",
@@ -535,36 +409,194 @@
       "capabilities": [
         "multi-account-switching",
         "quota-management",
-        "billing-metering",
+        "provider-aggregation",
         "api-gateway",
         "usage-analytics",
-        "auto-failover"
+        "gui-desktop"
       ],
       "tools": [
         "alickh/copool",
         "basketikun/chatgpt2api",
-        "cita-777/metapi",
+        "chuspeeism/dashi-ppt-skill",
         "decolua/9router",
-        "dicklesworthstone/coding_agent_account_manager",
         "isxlan0/codex_accountswitch",
         "jlcodes99/cockpit-tools",
         "lampese/codex-switcher",
         "lidge-jun/opencodex",
         "loongphy/codex-auth",
+        "nanako0129/syrtis",
         "ndycode/codex-multi-auth",
         "openai/codex",
         "uwuclxdy/clauth",
         "wangyunjeff/sub2api-state-kit",
+        "xiaoduoya/codex-with-chatgpt",
         "yetone/magpie"
       ],
       "also_in": [
+        "catcatuncle/openworkbuddy",
+        "cita-777/metapi",
+        "erickochen/purple",
         "farion1231/cc-switch",
+        "wwwzhouhui/skills_collection",
+        "zju-real/easel"
+      ],
+      "stability": 0.5,
+      "cohesion": 0.746
+    },
+    {
+      "id": "mobile-2",
+      "title": {
+        "en": "Mobile",
+        "zh": "移动端"
+      },
+      "tagline": {
+        "en": "Mobile access",
+        "zh": "手机端访问"
+      },
+      "problem": {
+        "en": "You are away from the desk and want to keep the agent working from a phone.",
+        "zh": "人不在电脑旁，想用手机继续让 Agent 干活。"
+      },
+      "capabilities": [
+        "mobile-access",
+        "notifications",
+        "remote-control",
+        "voice-input",
+        "quota-management",
+        "gui-desktop"
+      ],
+      "tools": [
+        "abubakarsiddik31/claude-skills-collection",
+        "alephaitech/workbuddyguide",
+        "appllama/appllama-skills",
+        "athola/claude-night-market",
+        "bennykok/omg.dev",
+        "cloudflare/security-audit-skill",
+        "google/artemis",
+        "jacobaraujo7/remote_pi",
+        "jimliu/baoyu-design",
+        "louis-cfm/coucou",
+        "microsoft/power-platform-skills",
+        "op7418/guizang-social-card-skill",
+        "robzilla1738/harness-terminal",
+        "slopus/happy",
+        "wenfxl/openai-cpa",
+        "yohey-w/multi-agent-shogun"
+      ],
+      "also_in": [
+        "dataojitori/nocturne_memory",
+        "getpaseo/paseo",
+        "greenfield-inc/pane",
+        "h0x91b/dev-3.0",
+        "ningbainb/deepseek-harness-desktop",
+        "omnigent-ai/omnigent",
+        "paperclipai/paperclip",
+        "simonlin1212/vibe-research",
+        "spinabot/brigade",
+        "stablyai/orca",
+        "superagent-ai/grok-cli",
+        "wwwzhouhui/skills_collection",
+        "yetone/cumora"
+      ],
+      "stability": 0.2,
+      "cohesion": 0.706
+    },
+    {
+      "id": "sharing",
+      "title": {
+        "en": "Sharing",
+        "zh": "共享"
+      },
+      "tagline": {
+        "en": "Billing & metering",
+        "zh": "计费与计量"
+      },
+      "problem": {
+        "en": "When several people share capacity, usage must be measured and charged accurately.",
+        "zh": "多人共用容量时，必须精确计量并结算。"
+      },
+      "capabilities": [
+        "billing-metering",
+        "quota-distribution",
+        "quota-management",
+        "multi-account-switching",
+        "api-gateway",
+        "provider-aggregation"
+      ],
+      "tools": [
+        "aipoch/open-science",
+        "butterbase-ai/butterbase",
+        "catcatuncle/openworkbuddy",
+        "cita-777/metapi",
+        "google-gemini/gemini-cli",
+        "grapeot/context-infrastructure",
+        "intuit/quickbooks-online-mcp-server",
+        "ivnvxd/mcp-server-odoo",
+        "mirrowel/llm-api-key-proxy",
+        "simonlin1212/vibe-research",
+        "trycompai/crm",
         "wei-shaw/sub2api",
         "wenyi401/ikik-api",
-        "wwwzhouhui/skills_collection"
+        "wwwzhouhui/skills_collection",
+        "yan-labs/yan-skills"
       ],
-      "stability": 0.714,
-      "cohesion": 0.801
+      "also_in": [
+        "alickh/copool",
+        "decolua/9router",
+        "nexu-io/open-design",
+        "wangyunjeff/sub2api-state-kit"
+      ],
+      "stability": 0.5,
+      "cohesion": 0.706
+    },
+    {
+      "id": "teams",
+      "title": {
+        "en": "Teams",
+        "zh": "团队"
+      },
+      "tagline": {
+        "en": "Team collaboration",
+        "zh": "团队协作"
+      },
+      "problem": {
+        "en": "Several people must share one agent setup, with roles and boundaries.",
+        "zh": "多人需要共用一套 Agent 环境，还要有角色与边界。"
+      },
+      "capabilities": [
+        "team-collaboration",
+        "mobile-access",
+        "billing-metering",
+        "model-routing",
+        "memory-context",
+        "api-gateway"
+      ],
+      "tools": [
+        "akitaonrails/ai-memory",
+        "felinics/memoh",
+        "gotalab/cc-sdd",
+        "harishkotra/agent-office",
+        "huytieu/cog-second-brain",
+        "kerim0x1/bettercode",
+        "memtensor/memmy-agent",
+        "msitarzewski/agency-agents",
+        "newsnowlabs/dockside",
+        "tencentcloud/octop",
+        "uditakhourii/adhd",
+        "withkynam/vibecode-pro-max-kit",
+        "yc-software/qm",
+        "yetone/cumora",
+        "zilliztech/memsearch"
+      ],
+      "also_in": [
+        "jsonbored/awesome-claude",
+        "justin0504/aegis",
+        "loopx-project/loopx",
+        "marcusquinn/aidevops",
+        "nexu-io/open-design"
+      ],
+      "stability": 0.5,
+      "cohesion": 0.751
     },
     {
       "id": "agent-runtime-desktop-ui",
@@ -591,51 +623,61 @@
       "tools": [
         "anomalyco/opencode",
         "arvincreator/project-golem",
-        "career-ops-hq/career-ops",
-        "cloudflare/security-audit-skill",
         "fei-away/codex-dream-skin",
         "jiweiyeah/skills-manager",
-        "jtydhr88/comfyui-custom-node-skills",
         "kenryu42/cc-safety-net",
         "realzst/harnesskit",
         "tencent/browserskill",
         "tickernelz/opencode-mem",
+        "wong2/diffx",
+        "zeronsh/zeron",
         "zhinkgit/embeddedskills"
       ],
       "also_in": [
         "abubakarsiddik31/claude-skills-collection",
         "ai-ql/tuui",
+        "akitaonrails/ai-memory",
         "alibaba/open-code-review",
+        "aoci-spec/aoci-code",
         "archive228/loopkit",
         "arinspunk/claude-talk-to-figma-mcp",
         "asheshgoplani/agent-deck",
         "automagik-dev/genie",
         "bennykok/omg.dev",
+        "cloudflare/security-audit-skill",
+        "cwinvestments/memstack",
         "data-goblin/power-bi-agentic-development",
         "davepoon/buildwithclaude",
+        "deepagent-ltd/deepagent-code",
         "eshaan-nair/arcrift",
-        "evermind-ai/raven",
+        "felinics/memoh",
         "francyjglisboa/agent-skills-platform",
-        "gary23w/nl-veil",
+        "genspark-ai/genoffice",
+        "getpaseo/paseo",
         "giuseppe-trisciuoglio/developer-kit",
         "glebis/claude-skills",
         "greenfield-inc/pane",
         "h0x91b/dev-3.0",
         "harnessmd/munder-difflin",
         "hoangsonww/claude-code-agent-monitor",
+        "hoodini/ai-agents-skills",
         "ibm/mcp",
         "iofficeai/aionui",
         "jdrhyne/agent-skills",
         "jlcodes99/cockpit-tools",
+        "jtydhr88/comfyui-custom-node-skills",
         "juliusbrussee/cavemem",
         "kerim0x1/bettercode",
         "kitfunso/hippo-memory",
         "lanes-sh/app",
         "lidge-jun/opencodex",
+        "lling0000/vibe_coding_guide",
         "louis-cfm/coucou",
         "magiccube/agentara",
         "maxritter/pilot-shell",
+        "mco-org/mco",
         "mcpware/cross-code-organizer",
+        "memtensor/memmy-agent",
         "metatool-ai/metamcp",
         "michaelshimeles/skills",
         "mindmuxai/brain.md",
@@ -652,7 +694,7 @@
         "othmanadi/planning-with-files",
         "pacifio/atlas",
         "piebald-ai/splitrail",
-        "redhat-et/ripwire",
+        "robzilla1738/harness-terminal",
         "rohitg00/agentmemory",
         "s1dashu/ip-as-logo-skill",
         "sahithvibudhi/vibe-tree",
@@ -664,13 +706,13 @@
         "tigerless-labs/cost-xray",
         "tigicion/dao-code",
         "uditakhourii/adhd",
+        "waishnav/devspace",
         "wenyuchiou/ai-research-skills",
         "yc-software/qm",
-        "yetone/cumora",
         "yynxxxxx/codex-x"
       ],
       "stability": 1.0,
-      "cohesion": 0.85
+      "cohesion": 0.854
     },
     {
       "id": "model-routing",
@@ -696,6 +738,7 @@
       ],
       "tools": [
         "appautomaton/latex-arxiv-skill",
+        "career-ops-hq/career-ops",
         "gmickel/flow-next",
         "hkqr/my-free-code",
         "mdx-tom/gpt-instruct",
@@ -703,7 +746,6 @@
         "openai/codex-security",
         "socialpranker/deepdive",
         "swival/swival",
-        "tamaratran/fast-jev-compaction",
         "teamchong/pxpipe",
         "zhnt/loushang"
       ],
@@ -713,33 +755,38 @@
         "aoci-spec/aoci-code",
         "archive228/loopkit",
         "avids2/memorix",
-        "cloudflare/security-audit-skill",
+        "breferrari/obsidian-mind",
         "data-goblin/power-bi-agentic-development",
         "deepagent-ltd/deepagent-code",
-        "dicklesworthstone/coding_agent_account_manager",
         "eugeniughelbur/obsidian-second-brain",
         "evermind-ai/raven",
         "fuxicodex/fuxi",
         "giuseppe-trisciuoglio/developer-kit",
         "gotalab/cc-sdd",
         "harishkotra/agent-office",
+        "harnessmd/munder-difflin",
+        "hex/claude-council",
         "hkcanan/katmer-code",
         "hoodini/ai-agents-skills",
+        "huytieu/cog-second-brain",
         "ibrahim-3d/orchestrator-supaconductor",
         "jacobaraujo7/remote_pi",
+        "jdrhyne/agent-skills",
         "jlcodes99/cockpit-tools",
         "langchain-ai/openwiki",
         "lidge-jun/opencodex",
         "louis-cfm/coucou",
         "lyellr88/marm-memory",
+        "marcusquinn/aidevops",
         "mco-org/mco",
         "memtensor/memmy-agent",
         "numman-ali/n-skills",
         "okf-memory/okf-agent-memory",
         "omega-memory/omega-memory",
-        "omnigent-ai/omnigent",
         "oracle/mcp",
         "orkas-ai/orkas",
+        "pedrohcgs/claude-code-my-workflow",
+        "realzst/harnesskit",
         "rlaope/oh-my-hermes",
         "rohitg00/pro-workflow",
         "ruvnet/metaharness",
@@ -747,83 +794,17 @@
         "slopus/happy",
         "solo-agent/solo",
         "superagent-ai/grok-cli",
+        "thedivergentai/gd-agentic-skills",
         "tickernelz/opencode-mem",
         "trailhq/graft",
+        "wei-shaw/sub2api",
+        "withkynam/vibecode-pro-max-kit",
         "yohey-w/multi-agent-shogun",
         "zhinkgit/embeddedskills",
         "zilliztech/memsearch"
       ],
-      "stability": 0.333,
-      "cohesion": 0.836
-    },
-    {
-      "id": "billing",
-      "title": {
-        "en": "Billing",
-        "zh": "计费"
-      },
-      "tagline": {
-        "en": "Billing & metering",
-        "zh": "计费与计量"
-      },
-      "problem": {
-        "en": "When several people share capacity, usage must be measured and charged accurately.",
-        "zh": "多人共用容量时，必须精确计量并结算。"
-      },
-      "capabilities": [
-        "billing-metering",
-        "mcp-support",
-        "model-routing",
-        "usage-analytics",
-        "session-persistence",
-        "self-hosted"
-      ],
-      "tools": [
-        "aipoch/open-science",
-        "butterbase-ai/butterbase",
-        "google-gemini/gemini-cli",
-        "grapeot/context-infrastructure",
-        "intuit/quickbooks-online-mcp-server",
-        "ivnvxd/mcp-server-odoo",
-        "trailhq/graft",
-        "trycompai/crm",
-        "wei-shaw/sub2api"
-      ],
-      "also_in": [
-        "agi-is-going-to-arrive/memory-palace",
-        "amap-ml/longhorizon-harness",
-        "aoci-spec/aoci-code",
-        "copilotkit/openbot",
-        "dicklesworthstone/coding_agent_account_manager",
-        "farion1231/cc-switch",
-        "future-agi/future-agi",
-        "fuxicodex/fuxi",
-        "gary23w/nl-veil",
-        "genspark-ai/genoffice",
-        "hex/claude-council",
-        "hoodini/ai-agents-skills",
-        "justin0504/aegis",
-        "lycheemem/lycheemem",
-        "marcusquinn/aidevops",
-        "nexu-io/open-design",
-        "nwiizo/tfmcp",
-        "omega-memory/omega-memory",
-        "oomol-lab/open-connector",
-        "oracle/mcp",
-        "pax-beehive/paxm",
-        "rohitg00/agentmemory",
-        "ryze-ai-adgent/open-seo-mcp-skills",
-        "schmitech/orbit",
-        "spinabot/brigade",
-        "superdesigndev/treg",
-        "tigerless-labs/agent-memory",
-        "topoteretes/cognee",
-        "wenyi401/ikik-api",
-        "wwwzhouhui/skills_collection",
-        "yetone/magpie"
-      ],
-      "stability": 0.5,
-      "cohesion": 0.828
+      "stability": 1.0,
+      "cohesion": 0.841
     },
     {
       "id": "providers",
@@ -844,8 +825,8 @@
         "team-collaboration",
         "usage-analytics",
         "security-isolation",
-        "gui-desktop",
-        "auto-failover"
+        "auto-failover",
+        "multi-account-switching"
       ],
       "tools": [
         "cordum-io/cordum",
@@ -863,46 +844,7 @@
         "loopx-project/loopx"
       ],
       "stability": 0.714,
-      "cohesion": 0.769
-    },
-    {
-      "id": "quota",
-      "title": {
-        "en": "Quota",
-        "zh": "额度"
-      },
-      "tagline": {
-        "en": "Quota & usage management",
-        "zh": "额度与用量管理"
-      },
-      "problem": {
-        "en": "You cannot see how much quota is left, so you get blocked mid-task.",
-        "zh": "看不到剩余额度，任务做到一半就被限流。"
-      },
-      "capabilities": [
-        "quota-management",
-        "quota-distribution",
-        "security-isolation",
-        "worktree-isolation",
-        "self-hosted",
-        "gui-desktop"
-      ],
-      "tools": [
-        "appllama/appllama-skills",
-        "catcatuncle/openworkbuddy",
-        "chuspeeism/dashi-ppt-skill",
-        "kunagent/kun",
-        "mark3labs/mcp-go",
-        "nanako0129/syrtis",
-        "simonlin1212/vibe-research",
-        "xiaoduoya/codex-with-chatgpt"
-      ],
-      "also_in": [
-        "mirrowel/llm-api-key-proxy",
-        "wangyunjeff/sub2api-state-kit"
-      ],
-      "stability": 0.333,
-      "cohesion": 0.818
+      "cohesion": 0.779
     },
     {
       "id": "analytics-2",
@@ -931,57 +873,18 @@
         "crshdn/mission-control",
         "loopx-project/loopx",
         "nateherkai/token-dashboard",
-        "piebald-ai/splitrail",
-        "schmitech/orbit"
+        "piebald-ai/splitrail"
       ],
       "also_in": [
         "decolua/9router",
         "isxlan0/codex_accountswitch",
+        "justin0504/aegis",
         "mirrowel/llm-api-key-proxy",
         "uwuclxdy/clauth",
         "yynxxxxx/codex-x"
       ],
       "stability": 1.0,
-      "cohesion": 0.83
-    },
-    {
-      "id": "sharing",
-      "title": {
-        "en": "Sharing",
-        "zh": "共享"
-      },
-      "tagline": {
-        "en": "Quota sharing / splitting",
-        "zh": "配额共享与分发"
-      },
-      "problem": {
-        "en": "A subscription's capacity is larger than one person needs; share it safely with others.",
-        "zh": "订阅容量超过个人所需，想安全地分给他人共用。"
-      },
-      "capabilities": [
-        "quota-distribution",
-        "billing-metering",
-        "api-gateway",
-        "self-hosted",
-        "multi-account-switching",
-        "model-routing"
-      ],
-      "tools": [
-        "mirrowel/llm-api-key-proxy",
-        "nexu-io/open-design",
-        "wenyi401/ikik-api"
-      ],
-      "also_in": [
-        "catcatuncle/openworkbuddy",
-        "cita-777/metapi",
-        "decolua/9router",
-        "future-agi/future-agi",
-        "genspark-ai/genoffice",
-        "wangyunjeff/sub2api-state-kit",
-        "wei-shaw/sub2api"
-      ],
-      "stability": 0.2,
-      "cohesion": 0.843
+      "cohesion": 0.834
     }
   ]
 }

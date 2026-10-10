@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 83,573 |
-| Star velocity | 160.7/day (lifetime basis, 520d span) |
+| Stars | 83,629 |
+| Star velocity | 160.5/day (lifetime basis, 521d span) |
 | Health score | 90/100 |
 | Documentation | 80/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 257,651 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 265,891 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,11 +44,11 @@
 
 ### Model / provider routing
 
-> u configure an optional web search provider, or skip it for now.
+> or empty results keep the existing "No results found" response.
 
 ### API gateway / proxy
 
-> Optional per-model requestadmission paces requests to help stay within provider request-per-minute limits. It is disabled by default; see the linked guide to enable it. For Google's official Gemini OpenAI-compatible end…
+> es pass through request admission again.
 
 ### Usage analytics
 

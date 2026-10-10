@@ -6,7 +6,7 @@
   "url": "https://github.com/jacobaraujo7/remote_pi",
   "description": "Control your Pi coding agent from your phone. Pair with a one-time QR code and chat with your local agent, even when you're away from your computer.",
   "homepage": "https://cockpit.jacobmoura.work",
-  "stars": 434,
+  "stars": 438,
   "forks": 121,
   "open_issues": 65,
   "language": "Dart",
@@ -21,16 +21,16 @@
     "rust"
   ],
   "created_at": "2026-05-22T04:59:59Z",
-  "updated_at": "2026-10-09T08:51:19Z",
-  "pushed_at": "2026-10-08T19:16:55Z",
+  "updated_at": "2026-10-10T09:34:25Z",
+  "pushed_at": "2026-10-09T22:16:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
+  "age_days": 141,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
-    "popularity": 52.7,
+    "popularity": 52.8,
     "momentum": 2.6,
     "maintenance": 100.0,
     "documentation": 46.0,
@@ -38,10 +38,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 434,
-    "days_span": 140,
-    "stars_per_day": 3.1,
-    "lifetime_stars_per_day": 3.1,
+    "stars_gained": 438,
+    "days_span": 141,
+    "stars_per_day": 3.11,
+    "lifetime_stars_per_day": 3.11,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -119,27 +119,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:44+00:00",
+  "fetched_at": "2026-10-10T10:39:31+00:00",
   "categories": [
-    "mobile",
+    "mobile-2",
     "model-routing",
     "skills"
   ],
-  "primary_category": "mobile",
+  "primary_category": "mobile-2",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "getpaseo/paseo",
+    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "yohey-w/multi-agent-shogun",
     "challenger": "",
     "supersede": {
       "incumbent": "jacobaraujo7/remote_pi",
-      "challenger": "getpaseo/paseo",
+      "challenger": "yohey-w/multi-agent-shogun",
       "incumbent_name": "jacobaraujo7/remote_pi",
-      "challenger_name": "getpaseo/paseo",
+      "challenger_name": "yohey-w/multi-agent-shogun",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -148,15 +148,15 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 46.599,
-      "momentum_ratio": 18.123,
-      "setup_delta": -12,
-      "dominance": 1.0,
+      "star_ratio": 3.251,
+      "momentum_ratio": 1.775,
+      "setup_delta": 10,
+      "dominance": 0.821,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "46.60x the stars (20,224 vs 434)",
-        "18.12x the star velocity (56.2/day vs 3.1/day)",
-        "no harder to set up (24 vs 36 friction)"
+        "3.25x the stars (1,424 vs 438)",
+        "1.77x the star velocity (5.5/day vs 3.1/day)",
+        "slightly heavier setup (+10 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -169,22 +169,27 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
           "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
           "remote-control",
-          "security-isolation",
           "self-hosted",
+          "session-persistence",
+          "skills-plugins",
           "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 74,
+        "challenger_health": 52,
         "incumbent_setup_score": 36,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 46
       }
     }
   }

@@ -6,9 +6,9 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault. Stop re-explaining your projects, decisions and people every session. 45 commands: hybrid semantic search, self-rewriting notes, key-less web research, and scheduled agents that maintain the vault while you sleep.",
   "homepage": "https://theaioperator.io",
-  "stars": 4705,
-  "forks": 580,
-  "open_issues": 10,
+  "stars": 4717,
+  "forks": 581,
+  "open_issues": 9,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "second-brain"
   ],
   "created_at": "2026-03-24T11:58:12Z",
-  "updated_at": "2026-10-09T08:36:52Z",
+  "updated_at": "2026-10-10T09:37:15Z",
   "pushed_at": "2026-10-07T22:01:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 198,
-  "days_since_push": 1,
+  "age_days": 199,
+  "days_since_push": 2,
   "health_score": 65,
   "health_components": {
     "popularity": 73.5,
@@ -51,10 +51,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4705,
-    "days_span": 198,
-    "stars_per_day": 23.76,
-    "lifetime_stars_per_day": 23.76,
+    "stars_gained": 4717,
+    "days_span": 199,
+    "stars_per_day": 23.7,
+    "lifetime_stars_per_day": 23.7,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -168,8 +168,7 @@
       "external_link_ratio": 0.337
     },
     "highlights": [
-      "Self-Improving Sovereign Agents — voices: @tom_doerr, @AIDailyGems",
-      "\"Automation executes. Autonomy reasons.\" — @NVIDIAAP"
+      "Self-Improving Sovereign Agents — voices: @tom_doerr, @AIDailyGems"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -180,13 +179,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:10+00:00",
+  "fetched_at": "2026-10-10T10:39:02+00:00",
   "categories": [
+    "analytics",
     "model-routing",
-    "self-hosting-security",
     "skills"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,9 +6,9 @@
   "url": "https://github.com/greenfield-inc/Pane",
   "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
   "homepage": "https://runpane.com/",
-  "stars": 522,
+  "stars": 527,
   "forks": 225,
-  "open_issues": 223,
+  "open_issues": 213,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -34,34 +34,35 @@
     "worktree-manager"
   ],
   "created_at": "2026-02-27T01:34:13Z",
-  "updated_at": "2026-10-09T10:35:46Z",
-  "pushed_at": "2026-10-09T11:18:20Z",
+  "updated_at": "2026-10-10T08:45:08Z",
+  "pushed_at": "2026-10-10T08:45:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 224,
+  "age_days": 225,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 57,
   "health_components": {
     "popularity": 54.4,
-    "momentum": 1.9,
+    "momentum": 2.0,
     "maintenance": 100.0,
-    "documentation": 65.0,
+    "documentation": 70.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 522,
-    "days_span": 224,
-    "stars_per_day": 2.33,
-    "lifetime_stars_per_day": 2.33,
+    "stars_gained": 527,
+    "days_span": 225,
+    "stars_per_day": 2.34,
+    "lifetime_stars_per_day": 2.34,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "greenfield-inc/Pane",
-    "readme_chars": 31320,
+    "readme_chars": 32690,
     "capabilities": [
+      "mobile-access",
       "multi-agent-orchestration",
       "parallel-execution",
       "worktree-isolation",
@@ -75,6 +76,7 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
+      "mobile-access": "als so every pane can see its own running dev server without alt-tabbing.",
       "multi-agent-orchestration": "rectory, reads a generated local runtime context, and uses the runpane CLI to inspect and operate the workspace.",
       "parallel-execution": "know how git worktrees work?\"",
       "worktree-isolation": "ack of which agent is on which branch.",
@@ -88,6 +90,7 @@
       "cross-agent-support": "Mentions Aider, Claude Code, Codex, Cursor"
     },
     "capability_hits": {
+      "mobile-access": 1,
       "multi-agent-orchestration": 7,
       "parallel-execution": 1,
       "worktree-isolation": 18,
@@ -136,12 +139,13 @@
       "note_en": "Easy. install via pip install, curl | sh installer; needs git clone (build from source), pnpm install/build; configure API key configuration, sign-in required; one-click setup",
       "note_zh": "较易上手。可通过 pip install、curl | sh installer 安装；需要 git clone (build from source)、pnpm install/build；需配置 API key configuration、sign-in required；one-click setup"
     },
-    "doc_score": 65,
+    "doc_score": 70,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
       "documents installation",
+      "documents configuration",
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
@@ -168,7 +172,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.575
+      "external_link_ratio": 0.551
     },
     "highlights": [
       "Developers on any OS: Mac, Windows, and Linux are all first-class citizens, with no \"Mac-first with a Windows waitlist\"",
@@ -185,13 +189,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:38+00:00",
+  "fetched_at": "2026-10-10T10:39:26+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
-    "self-hosting-security"
+    "mobile",
+    "mobile-2"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,7 +6,7 @@
   "url": "https://github.com/Lling0000/Vibe_coding_guide",
   "description": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
   "homepage": "https://lling0000.github.io/Vibe_coding_guide/",
-  "stars": 231,
+  "stars": 232,
   "forks": 22,
   "open_issues": 4,
   "language": "JavaScript",
@@ -34,13 +34,13 @@
     "worktree"
   ],
   "created_at": "2026-05-05T14:19:27Z",
-  "updated_at": "2026-10-01T15:12:38Z",
+  "updated_at": "2026-10-09T12:24:17Z",
   "pushed_at": "2026-06-25T15:20:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 156,
-  "days_since_push": 105,
+  "age_days": 157,
+  "days_since_push": 106,
   "health_score": 41,
   "health_components": {
     "popularity": 47.3,
@@ -51,8 +51,8 @@
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 231,
-    "days_span": 156,
+    "stars_gained": 232,
+    "days_span": 157,
     "stars_per_day": 1.48,
     "lifetime_stars_per_day": 1.48,
     "basis": "lifetime",
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:23:07+00:00",
+  "fetched_at": "2026-10-10T10:39:53+00:00",
   "categories": [
-    "analytics",
-    "isolation-parallelism",
+    "agent-runtime-desktop-ui",
+    "mobile",
     "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (6/6).",
@@ -180,14 +180,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 9.026,
-      "momentum_ratio": 3.959,
+      "star_ratio": 8.987,
+      "momentum_ratio": 3.946,
       "setup_delta": -18,
       "dominance": 0.971,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "9.03x the stars (2,085 vs 231)",
-        "3.96x the star velocity (5.9/day vs 1.5/day)",
+        "8.99x the stars (2,085 vs 232)",
+        "3.95x the star velocity (5.8/day vs 1.5/day)",
         "no harder to set up (12 vs 30 friction)"
       ],
       "reasons_zh": [],

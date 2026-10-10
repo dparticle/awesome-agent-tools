@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "full_name": "yan-labs/yan-skills",
+  "name": "yan-skills",
+  "owner": "yan-labs",
+  "url": "https://github.com/yan-labs/yan-skills",
+  "description": "Yan's agent skills collection — Google Trends SEO workflows, AI news, autopilot, and more. For Claude Code / Codex / Cursor.",
+  "homepage": "",
+  "stars": 213,
+  "forks": 93,
+  "open_issues": 0,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "claude-code",
+    "google-trends",
+    "seo",
+    "skills"
+  ],
+  "created_at": "2026-07-05T07:14:39Z",
+  "updated_at": "2026-10-10T07:07:28Z",
+  "pushed_at": "2026-10-10T06:26:01Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 97,
+  "days_since_push": 0,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 46.6,
+    "momentum": 1.8,
+    "maintenance": 100.0,
+    "documentation": 55.0,
+    "accessibility": 64.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 213,
+    "days_span": 97,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 2.2,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "yan-labs/yan-skills",
+    "readme_chars": 28255,
+    "capabilities": [
+      "quota-management",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "api-gateway",
+      "billing-metering",
+      "memory-context",
+      "self-hosted",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "域名接入移到上线前最后一步（段 5），定稿前加黑历史裁决闸门；平台接入拆成「域名无关 / 域名相关」两批。",
+      "multi-agent-orchestration": "### skillsmp — 在 160 万份 SKILL.md 里搜技能",
+      "worktree-isolation": "up 和 backlink 的浏览器动作全部落在这一层，规则集中在这里，那两个 Skill 只留判据和指针。",
+      "api-gateway": "",
+      "billing-metering": "ycle.md → lifecycle/stage-1…7，另有 provider-capabilities/、demand-sources/、playbooks/research/、playbooks/selection/、integrations/、cloudflare/ 子目录。",
+      "memory-context": "cafe-forum.mjs（+ webcafe-transport.mjs / webcafe-rsc.mjs）—— 哥飞社区论坛全站取数，",
+      "self-hosted": "",
+      "notifications": "接入这一整段，配套 references/search-platforms.md。",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "quota-management": 4,
+      "multi-agent-orchestration": 2,
+      "worktree-isolation": 1,
+      "api-gateway": 2,
+      "billing-metering": 4,
+      "memory-context": 1,
+      "self-hosted": 1,
+      "notifications": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 36,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "Chinese: beginner/one-click framing"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source); configure API key configuration, OAuth login flow; Chinese: beginner/one-click framing",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)；需配置 API key configuration、OAuth login flow；Chinese: beginner/one-click framing"
+    },
+    "doc_score": 55,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "publishes a roadmap",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "给做 SEO 和独立开发的人用的 Agent Skills。建站、选词、发外链、查数据、复盘迭代，一整条链路都在这个仓库里，装完就能跑。",
+    "summary_zh": "",
+    "install_hint": "npx skills add yan-labs/yan-skills -g --all",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.425
+    },
+    "highlights": [
+      "超标文档拆分（主文件留入口与判据，旧文件名都保留为入口）：lifecycle.md → lifecycle/stage-1…7，另有 provider-capabilities/、demand-sources/、playbooks/research/、playbooks/selection/、integrations/、cloudflare/ 子目录。",
+      "aaron-he-zhu/seo-geo-claude-skills（Apache-2.0）——backlink/references/ 下的质量评分矩阵、分析模板与外联模板。",
+      "backlink-analyzer（外链质量、毒性与竞争缺口分析）本身是一套纯提示词模板，没有脚本也没有浏览器通道，能描述外链画像却拿不到画像。",
+      "主文件 rankup/SKILL.md 从 979 行压到 300 行以内：只剩总路由表、七段各一节硬规则、红线速查与三个命令；执行纪律、红线细则、事故复盘全部搬到 references/discipline.md。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-10T10:39:55+00:00",
+  "categories": [
+    "self-hosting-security",
+    "sharing"
+  ],
+  "primary_category": "sharing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

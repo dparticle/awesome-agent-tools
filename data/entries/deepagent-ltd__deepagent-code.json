@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 107,
-  "days_since_push": 8,
+  "age_days": 108,
+  "days_since_push": 9,
   "health_score": 48,
   "health_components": {
     "popularity": 52.8,
@@ -36,9 +36,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 436,
-    "days_span": 107,
-    "stars_per_day": 4.07,
-    "lifetime_stars_per_day": 4.07,
+    "days_span": 108,
+    "stars_per_day": 4.04,
+    "lifetime_stars_per_day": 4.04,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:44+00:00",
+  "fetched_at": "2026-10-10T10:39:31+00:00",
   "categories": [
-    "analytics",
-    "model-routing",
-    "teams"
+    "agent-runtime-desktop-ui",
+    "mobile",
+    "model-routing"
   ],
-  "primary_category": "teams",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

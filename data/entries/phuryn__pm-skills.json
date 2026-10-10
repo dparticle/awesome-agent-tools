@@ -6,8 +6,8 @@
   "url": "https://github.com/phuryn/pm-skills",
   "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
   "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
-  "stars": 26852,
-  "forks": 2844,
+  "stars": 26866,
+  "forks": 2843,
   "open_issues": 43,
   "language": "",
   "license": "MIT",
@@ -21,33 +21,33 @@
     "product-management"
   ],
   "created_at": "2026-03-01T23:33:44Z",
-  "updated_at": "2026-10-09T10:59:51Z",
-  "pushed_at": "2026-09-14T21:15:33Z",
+  "updated_at": "2026-10-10T09:51:29Z",
+  "pushed_at": "2026-10-10T09:51:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 221,
-  "days_since_push": 24,
-  "health_score": 85,
+  "age_days": 222,
+  "days_since_push": 0,
+  "health_score": 87,
   "health_components": {
     "popularity": 88.6,
     "momentum": 100.0,
-    "maintenance": 92.0,
+    "maintenance": 100.0,
     "documentation": 56.0,
     "accessibility": 73.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 26852,
-    "days_span": 221,
-    "stars_per_day": 121.5,
-    "lifetime_stars_per_day": 121.5,
+    "stars_gained": 26866,
+    "days_span": 222,
+    "stars_per_day": 121.02,
+    "lifetime_stars_per_day": 121.02,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "phuryn/pm-skills",
-    "readme_chars": 27379,
+    "readme_chars": 27470,
     "capabilities": [
       "usage-analytics",
       "skills-plugins",
@@ -118,7 +118,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.877
+      "external_link_ratio": 0.874
     },
     "highlights": [
       "monetization-strategy — Brainstorm 3–5 monetization strategies with validation experiments",
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:06+00:00",
+  "fetched_at": "2026-10-10T10:38:58+00:00",
   "categories": [
     "skills"
   ],

@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 246,
-  "days_since_push": 44,
+  "age_days": 247,
+  "days_since_push": 45,
   "health_score": 47,
   "health_components": {
     "popularity": 48.9,
@@ -36,7 +36,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 279,
-    "days_span": 246,
+    "days_span": 247,
     "stars_per_day": 1.13,
     "lifetime_stars_per_day": 1.13,
     "basis": "lifetime",
@@ -130,27 +130,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:59+00:00",
+  "fetched_at": "2026-10-10T10:39:45+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
+    "mobile",
     "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by redhat-et/ripwire: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 redhat-et/ripwire 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "redhat-et/ripwire",
+    "note_en": "Superseded by asheshgoplani/agent-deck: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 asheshgoplani/agent-deck 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "asheshgoplani/agent-deck",
     "challenger": "",
     "supersede": {
       "incumbent": "nekocode/agent-worktree",
-      "challenger": "redhat-et/ripwire",
+      "challenger": "asheshgoplani/agent-deck",
       "incumbent_name": "nekocode/agent-worktree",
-      "challenger_name": "redhat-et/ripwire",
+      "challenger_name": "asheshgoplani/agent-deck",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +160,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 8.703,
-      "momentum_ratio": 30.265,
-      "setup_delta": -6,
-      "dominance": 1.0,
+      "star_ratio": 3.767,
+      "momentum_ratio": 3.0,
+      "setup_delta": 8,
+      "dominance": 0.897,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "8.70x the stars (2,428 vs 279)",
-        "30.27x the star velocity (34.2/day vs 1.1/day)",
-        "no harder to set up (34 vs 40 friction)"
+        "3.77x the stars (1,051 vs 279)",
+        "3.00x the star velocity (3.4/day vs 1.1/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -187,15 +187,21 @@
           "gui-desktop",
           "mcp-support",
           "model-routing",
+          "multi-account-switching",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
+          "remote-control",
+          "security-isolation",
+          "session-persistence",
           "skills-plugins",
+          "usage-analytics",
           "worktree-isolation"
         ],
         "incumbent_health": 47,
-        "challenger_health": 66,
+        "challenger_health": 56,
         "incumbent_setup_score": 40,
-        "challenger_setup_score": 34
+        "challenger_setup_score": 48
       }
     }
   }

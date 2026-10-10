@@ -6,7 +6,7 @@
   "url": "https://github.com/AlephAITech/WorkBuddyGuide",
   "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
   "homepage": "https://workbuddy.homes/",
-  "stars": 3361,
+  "stars": 3371,
   "forks": 483,
   "open_issues": 10,
   "language": "TypeScript",
@@ -22,27 +22,27 @@
     "workflow"
   ],
   "created_at": "2026-07-10T04:13:51Z",
-  "updated_at": "2026-10-09T11:05:17Z",
+  "updated_at": "2026-10-10T10:08:09Z",
   "pushed_at": "2026-09-18T15:22:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 91,
-  "days_since_push": 20,
+  "age_days": 92,
+  "days_since_push": 21,
   "health_score": 60,
   "health_components": {
-    "popularity": 70.5,
-    "momentum": 30.8,
+    "popularity": 70.6,
+    "momentum": 30.5,
     "maintenance": 92.0,
     "documentation": 42.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3361,
-    "days_span": 91,
-    "stars_per_day": 36.93,
-    "lifetime_stars_per_day": 36.93,
+    "stars_gained": 3371,
+    "days_span": 92,
+    "stars_per_day": 36.64,
+    "lifetime_stars_per_day": 36.64,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -118,11 +118,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:49+00:00",
+  "fetched_at": "2026-10-10T10:38:43+00:00",
   "categories": [
-    "mobile"
+    "mobile-2"
   ],
-  "primary_category": "mobile",
+  "primary_category": "mobile-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

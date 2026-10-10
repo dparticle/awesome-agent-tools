@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 279 |
-| Star velocity | 1.1/day (lifetime basis, 246d span) |
+| Star velocity | 1.1/day (lifetime basis, 247d span) |
 | Health score | 47/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-02-05 |
-| Last push | 2026-08-25 (44 days ago) |
+| Last push | 2026-08-25 (45 days ago) |
 | Analyzed README | 9,327 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [redhat-et/ripwire](https://github.com/redhat-et/ripwire)** — Superseded by redhat-et/ripwire: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** — Superseded by asheshgoplani/agent-deck: covers 100% of capabilities (6/6).
 
 ## What it solves
 

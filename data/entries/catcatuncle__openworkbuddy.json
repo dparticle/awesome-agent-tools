@@ -6,7 +6,7 @@
   "url": "https://github.com/CatCatUncle/openworkbuddy",
   "description": "Open-source Claude Cowork / Codex alternative — a local-first AI office agent that turns one request into real PPTX, DOCX, XLSX and HTML files. Runs DeepSeek, Qwen, Doubao, Claude or Ollama (BYOK), MCP, and can drive Claude Code / Codex CLI. 开源 AI 办公助理，豆包办公 / 千问办公替代。",
   "homepage": "https://catcatuncle.github.io/openworkbuddy/",
-  "stars": 279,
+  "stars": 283,
   "forks": 66,
   "open_issues": 7,
   "language": "JavaScript",
@@ -32,34 +32,35 @@
     "short-drama"
   ],
   "created_at": "2026-08-10T08:18:25Z",
-  "updated_at": "2026-10-09T11:09:45Z",
-  "pushed_at": "2026-10-09T11:09:40Z",
+  "updated_at": "2026-10-10T10:17:31Z",
+  "pushed_at": "2026-10-10T10:17:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 60,
+  "age_days": 61,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 48.9,
+    "popularity": 49.0,
     "momentum": 3.9,
     "maintenance": 100.0,
-    "documentation": 52.0,
+    "documentation": 53.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 279,
-    "days_span": 60,
-    "stars_per_day": 4.65,
-    "lifetime_stars_per_day": 4.65,
+    "stars_gained": 283,
+    "days_span": 61,
+    "stars_per_day": 4.64,
+    "lifetime_stars_per_day": 4.64,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CatCatUncle/openworkbuddy",
-    "readme_chars": 17487,
+    "readme_chars": 18474,
     "capabilities": [
+      "multi-account-switching",
       "quota-management",
       "remote-control",
       "multi-agent-orchestration",
@@ -76,6 +77,7 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
+      "multi-account-switching": "",
       "quota-management": "铺满整张卡，地点浮在右边一栏；钉子带照片和地名，点卡片地图就滑过去；国内一天四站以上也能一键打开整条路线",
       "remote-control": "",
       "multi-agent-orchestration": "",
@@ -85,23 +87,24 @@
       "billing-metering": "工具更靠谱：产物落在这趟任务的目录，资料库只看本人那份，插件带的连接器也挂上",
       "skills-plugins": "",
       "mcp-support": "- 10-02 Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法 - 10-02 PPT 预览按每页真实版式画；画布按图片原比例摆，时间线改成胶片条；成果栏窄窗口也关得掉 - 10-02 模型渠道修一轮：火山方舟上的 GLM 不再被拦，挂错渠道会提示；通义国际站、万相出图修好 - 10-01 对话里说「装这个技能」直接装进技能库；接 MCP 直接跳连接器页 - 10-01…",
-      "security-isolation": "-mode --perm -C -f --json 等全部参数 → 命令行用法",
+      "security-isolation": "按重要程度排：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在",
       "self-hosted": "",
       "gui-desktop": "skill.md ，存盘后下一条任务就生效——不改代码、不重启、不打包。",
       "notifications": "",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
+      "multi-account-switching": 1,
       "quota-management": 3,
       "remote-control": 1,
       "multi-agent-orchestration": 1,
       "worktree-isolation": 2,
       "api-gateway": 1,
-      "quota-distribution": 1,
+      "quota-distribution": 2,
       "billing-metering": 3,
       "skills-plugins": 1,
       "mcp-support": 2,
-      "security-isolation": 3,
+      "security-isolation": 4,
       "self-hosted": 1,
       "gui-desktop": 2,
       "notifications": 1,
@@ -132,7 +135,7 @@
       "note_en": "Some setup. install via curl | sh installer, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml",
       "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、config.json/yaml/toml"
     },
-    "doc_score": 52,
+    "doc_score": 53,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -159,7 +162,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.572
+      "external_link_ratio": 0.541
     },
     "highlights": [
       "10-06 系统沙箱：AI 跑的命令和脚本在 macOS、Windows 上读不到 Key 和账本、改不了应用；设置 → 安全 能关，每条多花 7–16 毫秒",
@@ -176,13 +179,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:59+00:00",
+  "fetched_at": "2026-10-10T10:39:43+00:00",
   "categories": [
-    "quota",
+    "accounts",
     "self-hosting-security",
     "sharing"
   ],
-  "primary_category": "quota",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

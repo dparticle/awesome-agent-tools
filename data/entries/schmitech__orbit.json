@@ -5,7 +5,7 @@
   "owner": "schmitech",
   "url": "https://github.com/schmitech/orbit",
   "description": "Self-hosted AI gateway for private RAG, natural-language data access, and tool-calling agents.",
-  "homepage": "https://github.com/schmitech/orbit",
+  "homepage": "https://schmitech.ai",
   "stars": 353,
   "forks": 56,
   "open_issues": 0,
@@ -33,25 +33,25 @@
     "vector-database"
   ],
   "created_at": "2025-03-10T02:30:21Z",
-  "updated_at": "2026-10-08T12:52:12Z",
-  "pushed_at": "2026-10-08T12:52:08Z",
+  "updated_at": "2026-10-10T02:31:46Z",
+  "pushed_at": "2026-10-10T02:28:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 578,
+  "age_days": 579,
   "days_since_push": 0,
   "health_score": 49,
   "health_components": {
     "popularity": 51.0,
     "momentum": 0.5,
     "maintenance": 100.0,
-    "documentation": 46.0,
+    "documentation": 47.0,
     "accessibility": 57.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 353,
-    "days_span": 578,
+    "days_span": 579,
     "stars_per_day": 0.61,
     "lifetime_stars_per_day": 0.61,
     "basis": "lifetime",
@@ -59,7 +59,7 @@
   },
   "analysis": {
     "full_name": "schmitech/orbit",
-    "readme_chars": 7231,
+    "readme_chars": 8568,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -72,7 +72,7 @@
       "model-routing": "",
       "api-gateway": "",
       "usage-analytics": "uild agents MCP tools · Automatic skill routing · A2A · Adapter creation",
-      "mcp-support": "private documents, an agent that calls your tools, or a triage workflow—with the same backend.",
+      "mcp-support": "o voice assistants and tool-using agents.",
       "security-isolation": "behind one OpenAI-compatible API.",
       "self-hosted": "vector stores, APIs, and MCP tools through YAML-configured adapters."
     },
@@ -103,12 +103,13 @@
       "friendliness_signals": [],
       "platforms": [
         "Windows",
+        "Linux",
         "Web"
       ],
       "note_en": "Some setup. install via global npm install; needs npm install/build; configure API key configuration, config.json/yaml/toml",
       "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 API key configuration、config.json/yaml/toml"
     },
-    "doc_score": 46,
+    "doc_score": 47,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -126,9 +127,11 @@
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
-      "score": 0,
-      "signals": [],
-      "external_link_ratio": 0.691
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.634
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -140,13 +143,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:51+00:00",
+  "fetched_at": "2026-10-10T10:39:37+00:00",
   "categories": [
-    "analytics-2",
-    "billing",
     "self-hosting-security"
   ],
-  "primary_category": "analytics-2",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

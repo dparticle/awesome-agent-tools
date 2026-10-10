@@ -2,7 +2,7 @@
 
 # simonlin1212/Vibe-Research
 
-> Codex / Claude Code / WorkBuddy 订阅或模型 API 一次接入 · Agent 默认关闭 · 左上角一键开启
+> 自选与持仓 · 每日复盘 · 产业资讯 · 产业研究 · 个股深挖 · 回测 · 研报库 · 168 个数据端点
 
 [Repository](https://github.com/simonlin1212/Vibe-Research) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,47 +12,57 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,636 |
-| Star velocity | 27.5/day (lifetime basis, 96d span) |
-| Health score | 64/100 |
-| Documentation | 68/100 |
+| Stars | 2,642 |
+| Star velocity | 27.2/day (lifetime basis, 97d span) |
+| Health score | 63/100 |
+| Documentation | 72/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-05 |
-| Last push | 2026-10-07 (2 days ago) |
-| Analyzed README | 13,961 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 29,539 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Quota & usage management
 
-> 装并登录的 WorkBuddy，或腾讯官方 CodeBuddy Code CLI
+> fig.json 写 provider.profile（如 cli-claude），或者添加时带上环境变量，例如 claude mcp add vibe-research -e VRAPROVIDER=cli-claude -- node …、codex mcp add vibe-research --env VRAPROVIDER=cli-codex -- node …。
+
+### Remote control
 
 ### Multi-agent orchestration
 
-> 排层 orchestrator + validator + calc + gate 强制阶段、证据引用、确定性计算和合规边界
+> calculations.json：派生数字的输入、函数和计算 DAG。
 
-### Workspace isolation
+### API gateway / proxy
+
+> ；三家订阅直接调用使用者本机的官方 CLI，模型 API 直接走 Chat Completions
+
+### Billing & metering
+
+> 上的对话、研究、辩论和回测都允许 AI 联网和调用产品工具。
 
 ### MCP support
 
-> odex 订阅走 Codex Harness；Claude 订阅走 Claude Code Agent；WorkBuddy / CodeBuddy 走 CodeBuddy Code Agent，三者不会混叫。
+> gine、--codex-path 等）会报错并给出改法。
 
 ### Self-hostable
 
-> - API 模式的 key 会持久保存在当前浏览器的本机 localStorage，方便下次直接使用；它不是系统钥匙串，
+> 览器的本机 localStorage，方便下次直接使用；它不是系统钥匙串，也不承诺加密，只建议在可信的个人电脑上使用，共享电脑用完请主动清除。
 
 ### Notifications
 
+> 都标出来），勾选的行要么全写、要么全不写，写之前先备份到 ledger/持仓导入备份-日期/。
+
 ### Cross-agent support
 
-> Mentions Claude Code, Codex
+> Mentions Claude Code, Codex, Cursor
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 31/100)
+- **Difficulty:** 🟡 Some setup (friction score 43/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
@@ -60,13 +70,13 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration
+**Configuration required:** API key configuration, config.json/yaml/toml, sign-in required
 
-*Easy. install via global npm install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration*
+*Some setup. install via global npm install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml*
 
 ## Documentation quality
 
-Score **68/100**, based on these detected signals:
+Score **72/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -74,21 +84,22 @@ Score **68/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
-- has troubleshooting/FAQ
+- has contribution guidance
 - mentions licensing
 - has a table of contents
 - has a Chinese translation
 - documents changes
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 68.4 |
-| momentum | 22.9 |
+| momentum | 22.7 |
 | maintenance | 100.0 |
-| documentation | 68.0 |
-| accessibility | 69.0 |
+| documentation | 72.0 |
+| accessibility | 57.0 |
 
 ---
 

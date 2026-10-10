@@ -6,9 +6,9 @@
   "url": "https://github.com/YoanWai/agent-manager",
   "description": "The fastest developer workflow for every AI coding agent. Live status, quick prompts, worktrees, and diff review from one tmux TUI.",
   "homepage": "https://agent-manager.dev",
-  "stars": 578,
-  "forks": 58,
-  "open_issues": 64,
+  "stars": 580,
+  "forks": 59,
+  "open_issues": 68,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "wsl"
   ],
   "created_at": "2026-07-15T16:27:33Z",
-  "updated_at": "2026-10-09T00:00:59Z",
-  "pushed_at": "2026-10-09T00:16:09Z",
+  "updated_at": "2026-10-09T21:16:57Z",
+  "pushed_at": "2026-10-10T10:10:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 85,
+  "age_days": 86,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 55.2,
-    "momentum": 5.7,
+    "popularity": 55.3,
+    "momentum": 5.6,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 99.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 578,
-    "days_span": 85,
-    "stars_per_day": 6.8,
-    "lifetime_stars_per_day": 6.8,
+    "stars_gained": 580,
+    "days_span": 86,
+    "stars_per_day": 6.74,
+    "lifetime_stars_per_day": 6.74,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -142,11 +142,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:36+00:00",
+  "fetched_at": "2026-10-10T10:39:24+00:00",
   "categories": [
-    "isolation-parallelism"
+    "mobile"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
@@ -169,14 +169,14 @@
         "notifications",
         "worktree-isolation"
       ],
-      "star_ratio": 57.78,
-      "momentum_ratio": 11.475,
+      "star_ratio": 57.607,
+      "momentum_ratio": 11.555,
       "setup_delta": -11,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "57.78x the stars (33,397 vs 578)",
-        "11.47x the star velocity (78.0/day vs 6.8/day)",
+        "57.61x the stars (33,412 vs 580)",
+        "11.55x the star velocity (77.9/day vs 6.7/day)",
         "no harder to set up (2 vs 13 friction)"
       ],
       "reasons_zh": [],
@@ -203,7 +203,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 81,
+        "challenger_health": 78,
         "incumbent_setup_score": 13,
         "challenger_setup_score": 2
       }

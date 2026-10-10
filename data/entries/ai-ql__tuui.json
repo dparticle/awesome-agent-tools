@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 555,
-  "days_since_push": 148,
+  "age_days": 556,
+  "days_since_push": 149,
   "health_score": 47,
   "health_components": {
     "popularity": 61.3,
@@ -52,7 +52,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1155,
-    "days_span": 555,
+    "days_span": 556,
     "stars_per_day": 2.08,
     "lifetime_stars_per_day": 2.08,
     "basis": "lifetime",
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:22+00:00",
+  "fetched_at": "2026-10-10T10:39:13+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "self-hosting-security"
@@ -168,14 +168,14 @@
         "multi-agent-orchestration",
         "self-hosted"
       ],
-      "star_ratio": 25.33,
-      "momentum_ratio": 62.236,
+      "star_ratio": 25.348,
+      "momentum_ratio": 62.005,
       "setup_delta": 11,
       "dominance": 0.945,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "25.33x the stars (29,256 vs 1,155)",
-        "62.24x the star velocity (129.4/day vs 2.1/day)",
+        "25.35x the stars (29,277 vs 1,155)",
+        "62.00x the star velocity (129.0/day vs 2.1/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],

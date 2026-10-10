@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 381 |
-| Star velocity | 1.6/day (lifetime basis, 233d span) |
+| Star velocity | 1.6/day (lifetime basis, 234d span) |
 | Health score | 48/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | AGPL-3.0 |
 | Language | Python |
 | Created | 2026-02-17 |
-| Last push | 2026-09-27 (11 days ago) |
+| Last push | 2026-09-27 (12 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [redhat-et/ripwire](https://github.com/redhat-et/ripwire)** — Superseded by redhat-et/ripwire: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** — Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (5/5).
 
 ## What it solves
 

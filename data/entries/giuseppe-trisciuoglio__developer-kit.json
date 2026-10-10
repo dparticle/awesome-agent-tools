@@ -6,7 +6,7 @@
   "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
   "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
   "homepage": "",
-  "stars": 356,
+  "stars": 357,
   "forks": 41,
   "open_issues": 17,
   "language": "Python",
@@ -31,16 +31,16 @@
     "typescript"
   ],
   "created_at": "2025-10-21T08:08:21Z",
-  "updated_at": "2026-10-08T12:09:26Z",
+  "updated_at": "2026-10-09T20:36:03Z",
   "pushed_at": "2026-09-10T11:05:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 353,
+  "age_days": 354,
   "days_since_push": 29,
   "health_score": 46,
   "health_components": {
-    "popularity": 51.0,
+    "popularity": 51.1,
     "momentum": 0.8,
     "maintenance": 92.0,
     "documentation": 59.0,
@@ -48,8 +48,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 356,
-    "days_span": 353,
+    "stars_gained": 357,
+    "days_span": 354,
     "stars_per_day": 1.01,
     "lifetime_stars_per_day": 1.01,
     "basis": "lifetime",
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:50+00:00",
+  "fetched_at": "2026-10-10T10:39:37+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",
@@ -176,14 +176,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.295,
-      "momentum_ratio": 3.327,
+      "star_ratio": 2.305,
+      "momentum_ratio": 3.337,
       "setup_delta": -45,
-      "dominance": 0.888,
+      "dominance": 0.89,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.29x the stars (817 vs 356)",
-        "3.33x the star velocity (3.4/day vs 1.0/day)",
+        "2.31x the stars (823 vs 357)",
+        "3.34x the star velocity (3.4/day vs 1.0/day)",
         "no harder to set up (21 vs 66 friction)"
       ],
       "reasons_zh": [],
@@ -206,7 +206,7 @@
           "skills-plugins"
         ],
         "incumbent_health": 46,
-        "challenger_health": 57,
+        "challenger_health": 54,
         "incumbent_setup_score": 66,
         "challenger_setup_score": 21
       }

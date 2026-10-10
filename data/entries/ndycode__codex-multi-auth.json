@@ -6,9 +6,9 @@
   "url": "https://github.com/ndycode/codex-multi-auth",
   "description": "Codex CLI multi-account OAuth manager with account switching, health checks, runtime rotation, diagnostics, and recovery tools for @openai/codex",
   "homepage": "https://www.npmjs.com/package/codex-multi-auth",
-  "stars": 535,
+  "stars": 536,
   "forks": 68,
-  "open_issues": 2,
+  "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "typescript"
   ],
   "created_at": "2026-02-22T22:37:04Z",
-  "updated_at": "2026-10-07T22:43:00Z",
+  "updated_at": "2026-10-10T03:43:36Z",
   "pushed_at": "2026-10-06T13:30:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 228,
-  "days_since_push": 2,
+  "age_days": 229,
+  "days_since_push": 3,
   "health_score": 54,
   "health_components": {
     "popularity": 54.6,
@@ -51,10 +51,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 535,
-    "days_span": 228,
-    "stars_per_day": 2.35,
-    "lifetime_stars_per_day": 2.35,
+    "stars_gained": 536,
+    "days_span": 229,
+    "stars_per_day": 2.34,
+    "lifetime_stars_per_day": 2.34,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,7 +131,7 @@
       "Account pool — OAuth login for multiple ChatGPT accounts, stored locally under ~/.codex/multi-auth (files 0600, directories 0700), with per-project pools under projects/ /.",
       "Runtime rotation — a default-on, loopback-only proxy that forwards Responses API and model-discovery traffic through the best available account during wrapper-launched Codex sessions.",
       "Switching and selection — pin an account, pick the forecast-best one, or let health- and quota-aware hybrid selection rotate for you.",
-      "Local governance — file-backed usage ledger, budget guards, account tags/weights/pause/drain policies, routing profiles, and an optional loopback bridge with bearer tokens for local OpenAI-…"
+      "Desktop routing (optional) — a reversible bind of the packaged Codex app plus user-level launcher helpers; official app binaries are never patched."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:37+00:00",
+  "fetched_at": "2026-10-10T10:39:25+00:00",
   "categories": [
     "accounts"
   ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
   "homepage": "https://ecc.tools",
-  "stars": 275647,
-  "forks": 41142,
-  "open_issues": 272,
+  "stars": 276194,
+  "forks": 41206,
+  "open_issues": 227,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -22,13 +22,13 @@
     "productivity"
   ],
   "created_at": "2026-01-18T00:51:51Z",
-  "updated_at": "2026-10-09T11:17:32Z",
-  "pushed_at": "2026-10-05T04:55:16Z",
+  "updated_at": "2026-10-10T10:35:52Z",
+  "pushed_at": "2026-10-10T01:41:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 264,
-  "days_since_push": 4,
+  "age_days": 265,
+  "days_since_push": 0,
   "health_score": 89,
   "health_components": {
     "popularity": 100.0,
@@ -39,22 +39,24 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 275647,
-    "days_span": 264,
-    "stars_per_day": 1044.12,
-    "lifetime_stars_per_day": 1044.12,
+    "stars_gained": 276194,
+    "days_span": 265,
+    "stars_per_day": 1042.24,
+    "lifetime_stars_per_day": 1042.24,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "affaan-m/ECC",
-    "readme_chars": 106535,
+    "readme_chars": 112667,
     "capabilities": [
+      "auto-failover",
       "multi-agent-orchestration",
       "parallel-execution",
       "worktree-isolation",
       "model-routing",
       "api-gateway",
+      "session-persistence",
       "memory-context",
       "skills-plugins",
       "agent-runtime",
@@ -66,11 +68,13 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
+      "auto-failover": "",
       "multi-agent-orchestration": "s and evidence live under docs/releases/.",
       "parallel-execution": "",
       "worktree-isolation": "",
       "model-routing": "shims such as /tdd and /eval live in legacy-command-shims/ for explicit opt-in only.",
       "api-gateway": "eway remaps model names, configure that in Claude Code rather than in ECC.",
+      "session-persistence": "",
       "memory-context": "r debugging, before continuing feature work",
       "skills-plugins": "tokens use macOS Keychain by default; explicit file fallback must retain owner-only directory/file permissions.",
       "agent-runtime": "te ECC, change scope, or change its hook profile.",
@@ -82,11 +86,13 @@
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
+      "auto-failover": 1,
       "multi-agent-orchestration": 3,
       "parallel-execution": 1,
       "worktree-isolation": 2,
       "model-routing": 2,
       "api-gateway": 1,
+      "session-persistence": 1,
       "memory-context": 1,
       "skills-plugins": 8,
       "agent-runtime": 1,
@@ -168,12 +174,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.404
+      "external_link_ratio": 0.373
     },
     "highlights": [
+      "Skills format (SKILL.md with YAML frontmatter) works across Claude Code, Codex, OpenCode, and GitHub Copilot CLI",
       "AGENTS.md at root is the universal cross-tool file (read by Claude Code, Cursor, Codex, and OpenCode; GitHub Copilot uses .github/copilot-instructions.md instead)",
       "Available in release 2.2: guided package setup for Claude Code, Codex, and Kimi Code",
-      "Skills format (SKILL.md with YAML frontmatter) works across Claude Code, Codex, and OpenCode",
       "DRY adapter pattern lets Cursor reuse Claude Code's hook scripts without duplication"
     ],
     "summary_zh_native": "Language / 语言 / 語言 / Dil / Язык / Ngôn ngữ",
@@ -190,9 +196,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:53+00:00",
+  "fetched_at": "2026-10-10T10:38:46+00:00",
   "categories": [
-    "isolation-parallelism",
+    "analytics",
     "self-hosting-security",
     "skills"
   ],

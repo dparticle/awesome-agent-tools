@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 282,
   "forks": 28,
-  "open_issues": 2,
+  "open_issues": 1,
   "language": "Python",
   "license": "MIT",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 343,
-  "days_since_push": 147,
+  "age_days": 344,
+  "days_since_push": 148,
   "health_score": 42,
   "health_components": {
     "popularity": 49.0,
@@ -31,7 +31,7 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 282,
-    "days_span": 343,
+    "days_span": 344,
     "stars_per_day": 0.82,
     "lifetime_stars_per_day": 0.82,
     "basis": "lifetime",
@@ -131,9 +131,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:58+00:00",
+  "fetched_at": "2026-10-10T10:39:44+00:00",
   "categories": [
-    "analytics",
     "skills"
   ],
   "primary_category": "skills",
@@ -158,14 +157,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.897,
-      "momentum_ratio": 4.098,
+      "star_ratio": 2.918,
+      "momentum_ratio": 4.11,
       "setup_delta": -37,
-      "dominance": 0.967,
+      "dominance": 0.969,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.90x the stars (817 vs 282)",
-        "4.10x the star velocity (3.4/day vs 0.8/day)",
+        "2.92x the stars (823 vs 282)",
+        "4.11x the star velocity (3.4/day vs 0.8/day)",
         "no harder to set up (21 vs 58 friction)"
       ],
       "reasons_zh": [],
@@ -187,7 +186,7 @@
           "skills-plugins"
         ],
         "incumbent_health": 42,
-        "challenger_health": 57,
+        "challenger_health": 54,
         "incumbent_setup_score": 58,
         "challenger_setup_score": 21
       }

@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 27,355 |
-| Star velocity | 98.0/day (lifetime basis, 279d span) |
+| Stars | 27,370 |
+| Star velocity | 97.8/day (lifetime basis, 280d span) |
 | Health score | 85/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
-| Language | Shell |
+| Language | Python |
 | Created | 2026-01-03 |
-| Last push | 2026-10-06 (2 days ago) |
-| Analyzed README | 100,651 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 101,889 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> plugins for Claude Code, Codex CLI, Pi, Hermes Agent, OpenCode and DeepSeek Harness.
+> Claude Code, Codex CLI, Qoder CLI, Pi, Hermes Agent, OpenCode and DeepSeek Harness.
 
 ### Parallel execution
 
@@ -92,7 +92,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 88.7 |
-| momentum | 81.7 |
+| momentum | 81.5 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 73.0 |

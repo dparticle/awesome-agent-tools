@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 331,
-  "days_since_push": 3,
+  "age_days": 332,
+  "days_since_push": 4,
   "health_score": 55,
   "health_components": {
     "popularity": 49.0,
@@ -31,7 +31,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 283,
-    "days_span": 331,
+    "days_span": 332,
     "stars_per_day": 0.85,
     "lifetime_stars_per_day": 0.85,
     "basis": "lifetime",
@@ -170,13 +170,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:58+00:00",
+  "fetched_at": "2026-10-10T10:39:44+00:00",
   "categories": [
     "accounts",
-    "billing",
-    "mobile"
+    "mobile-2",
+    "sharing"
   ],
-  "primary_category": "mobile",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

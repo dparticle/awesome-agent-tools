@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
-  "days_since_push": 159,
+  "age_days": 246,
+  "days_since_push": 160,
   "health_score": 43,
   "health_components": {
     "popularity": 57.1,
@@ -47,9 +47,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 719,
-    "days_span": 245,
-    "stars_per_day": 2.93,
-    "lifetime_stars_per_day": 2.93,
+    "days_span": 246,
+    "stars_per_day": 2.92,
+    "lifetime_stars_per_day": 2.92,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -139,7 +139,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:33+00:00",
+  "fetched_at": "2026-10-10T10:39:22+00:00",
   "categories": [
     "analytics"
   ],
@@ -166,14 +166,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 9.876,
-      "momentum_ratio": 10.358,
+      "star_ratio": 9.9,
+      "momentum_ratio": 10.373,
       "setup_delta": 0,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "9.88x the stars (7,101 vs 719)",
-        "10.36x the star velocity (30.4/day vs 2.9/day)",
+        "9.90x the stars (7,118 vs 719)",
+        "10.37x the star velocity (30.3/day vs 2.9/day)",
         "no harder to set up (28 vs 28 friction)"
       ],
       "reasons_zh": [],

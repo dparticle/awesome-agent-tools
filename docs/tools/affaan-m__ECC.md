@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 275,647 |
-| Star velocity | 1044.1/day (lifetime basis, 264d span) |
+| Stars | 276,194 |
+| Star velocity | 1042.2/day (lifetime basis, 265d span) |
 | Health score | 89/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -21,10 +21,12 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-01-18 |
-| Last push | 2026-10-05 (4 days ago) |
-| Analyzed README | 106,535 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 112,667 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Automatic failover
 
 ### Multi-agent orchestration
 
@@ -41,6 +43,8 @@
 ### API gateway / proxy
 
 > eway remaps model names, configure that in Claude Code rather than in ECC.
+
+### Session persistence
 
 ### Memory & context
 

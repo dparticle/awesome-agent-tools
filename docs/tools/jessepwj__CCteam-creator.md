@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 307 |
-| Star velocity | 1.5/day (lifetime basis, 205d span) |
+| Star velocity | 1.5/day (lifetime basis, 206d span) |
 | Health score | 39/100 |
 | Documentation | 52/100 |
 | Tier | 👀 Watchlist |
@@ -24,7 +24,7 @@
 | Last push | 2026-04-13 (179 days ago) |
 | Analyzed README | 27,770 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** — Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (6/6).
 
 ## What it solves
 

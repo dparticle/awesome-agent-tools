@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11044,
-  "forks": 859,
-  "open_issues": 214,
+  "stars": 11053,
+  "forks": 858,
+  "open_issues": 216,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,12 +29,12 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-10-09T11:09:38Z",
-  "pushed_at": "2026-10-09T11:11:49Z",
+  "updated_at": "2026-10-10T09:25:15Z",
+  "pushed_at": "2026-10-10T10:30:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 87,
+  "age_days": 88,
   "days_since_push": 0,
   "health_score": 81,
   "health_components": {
@@ -46,16 +46,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 11044,
-    "days_span": 87,
-    "stars_per_day": 126.94,
-    "lifetime_stars_per_day": 126.94,
+    "stars_gained": 11053,
+    "days_span": 88,
+    "stars_per_day": 125.6,
+    "lifetime_stars_per_day": 125.6,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openai/codex-security",
-    "readme_chars": 7930,
+    "readme_chars": 7942,
     "capabilities": [
       "model-routing"
     ],
@@ -81,7 +81,9 @@
         "sign-in required"
       ],
       "friendliness_signals": [],
-      "platforms": [],
+      "platforms": [
+        "Web"
+      ],
       "note_en": "Some setup. install via npx one-liner; needs npm install/build; configure API key configuration, sign-in required",
       "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 npm install/build；需配置 API key configuration、sign-in required"
     },
@@ -124,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:38+00:00",
+  "fetched_at": "2026-10-10T10:38:32+00:00",
   "categories": [
     "model-routing"
   ],

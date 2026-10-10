@@ -8,17 +8,17 @@
   "homepage": "",
   "stars": 457,
   "forks": 147,
-  "open_issues": 57,
+  "open_issues": 50,
   "language": "Python",
   "license": "UPL-1.0",
   "topics": [],
   "created_at": "2025-07-27T08:02:34Z",
-  "updated_at": "2026-10-09T03:55:52Z",
-  "pushed_at": "2026-10-09T03:55:46Z",
+  "updated_at": "2026-10-09T17:04:22Z",
+  "pushed_at": "2026-10-09T20:42:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 439,
+  "age_days": 440,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
@@ -31,7 +31,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 457,
-    "days_span": 439,
+    "days_span": 440,
     "stars_per_day": 1.04,
     "lifetime_stars_per_day": 1.04,
     "basis": "lifetime",
@@ -131,73 +131,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:42+00:00",
+  "fetched_at": "2026-10-10T10:39:30+00:00",
   "categories": [
-    "billing",
     "model-routing",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "oracle/mcp",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
-      "incumbent_name": "oracle/mcp",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "model-routing",
-        "multi-agent-orchestration",
-        "security-isolation"
-      ],
-      "star_ratio": 10.295,
-      "momentum_ratio": 22.846,
-      "setup_delta": 8,
-      "dominance": 0.96,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "10.30x the stars (4,705 vs 457)",
-        "22.85x the star velocity (23.8/day vs 1.0/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "model-routing",
-          "multi-agent-orchestration",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 65,
-        "incumbent_setup_score": 16,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

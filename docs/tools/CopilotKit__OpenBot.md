@@ -12,25 +12,25 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,250 |
-| Star velocity | 117.9/day (lifetime basis, 53d span) |
-| Health score | 83/100 |
+| Stars | 6,288 |
+| Star velocity | 116.4/day (lifetime basis, 54d span) |
+| Health score | 82/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
 | Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 32,453 chars from `raw:HEAD/README.md` |
+| Analyzed README | 32,719 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).
 
 ## What it solves
 
 ### Automatic failover
 
 > somewhere else: a gateway, a proxy.
-
-### Mobile access
 
 ### Model / provider routing
 
@@ -40,7 +40,7 @@
 
 ### MCP support
 
-> k into themes it can cite.
+> ack into themes it can cite.
 
 ### Security & isolation
 
@@ -49,6 +49,8 @@
 ### Self-hostable
 
 > untime key, creates or reuses its
+
+### Notifications
 
 ## Setup reality check
 
@@ -86,8 +88,8 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.9 |
-| momentum | 98.3 |
+| popularity | 76.0 |
+| momentum | 97.0 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 51.0 |

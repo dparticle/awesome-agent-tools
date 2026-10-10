@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 474 |
-| Star velocity | 2.4/day (lifetime basis, 200d span) |
+| Stars | 475 |
+| Star velocity | 2.4/day (lifetime basis, 201d span) |
 | Health score | 49/100 |
 | Documentation | 56/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-22 |
-| Last push | 2026-09-15 (24 days ago) |
+| Last push | 2026-09-15 (25 days ago) |
 | Analyzed README | 18,239 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).

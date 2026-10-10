@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/agent-memory",
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
-  "stars": 3387,
+  "stars": 3394,
   "forks": 143,
-  "open_issues": 20,
+  "open_issues": 50,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,33 +26,33 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-10-09T09:51:23Z",
-  "pushed_at": "2026-10-09T09:51:18Z",
+  "updated_at": "2026-10-10T10:21:20Z",
+  "pushed_at": "2026-10-09T15:22:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 37,
+  "age_days": 38,
   "days_since_push": 0,
   "health_score": 70,
   "health_components": {
     "popularity": 70.6,
-    "momentum": 76.3,
+    "momentum": 74.4,
     "maintenance": 100.0,
-    "documentation": 62.0,
+    "documentation": 63.0,
     "accessibility": 19.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3387,
-    "days_span": 37,
-    "stars_per_day": 91.54,
-    "lifetime_stars_per_day": 91.54,
+    "stars_gained": 3394,
+    "days_span": 38,
+    "stars_per_day": 89.32,
+    "lifetime_stars_per_day": 89.32,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tigerless-labs/agent-memory",
-    "readme_chars": 21194,
+    "readme_chars": 24423,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -74,7 +74,7 @@
       "model-routing": 1,
       "api-gateway": 1,
       "memory-context": 1,
-      "mcp-support": 13,
+      "mcp-support": 14,
       "cross-agent-support": 2
     },
     "friction": {
@@ -87,6 +87,7 @@
         "git clone (build from source)"
       ],
       "config_signals": [
+        "environment variables",
         "API key configuration",
         "config.json/yaml/toml",
         "sign-in required",
@@ -97,10 +98,10 @@
       "platforms": [
         "Linux"
       ],
-      "note_en": "Involved setup. needs git clone (build from source); configure API key configuration, config.json/yaml/toml",
-      "note_zh": "配置较重。需要 git clone (build from source)；需配置 API key configuration、config.json/yaml/toml"
+      "note_en": "Involved setup. needs git clone (build from source); configure environment variables, API key configuration",
+      "note_zh": "配置较重。需要 git clone (build from source)；需配置 environment variables、API key configuration"
     },
-    "doc_score": 62,
+    "doc_score": 63,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -125,7 +126,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.094
+      "external_link_ratio": 0.082
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -137,10 +138,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:12+00:00",
+  "fetched_at": "2026-10-10T10:39:04+00:00",
   "categories": [
-    "analytics",
-    "billing",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
@@ -167,14 +166,14 @@
         "model-routing",
         "worktree-isolation"
       ],
-      "star_ratio": 81.384,
-      "momentum_ratio": 11.406,
+      "star_ratio": 81.377,
+      "momentum_ratio": 11.669,
       "setup_delta": -24,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "81.38x the stars (275,647 vs 3,387)",
-        "11.41x the star velocity (1044.1/day vs 91.5/day)",
+        "81.38x the stars (276,194 vs 3,394)",
+        "11.67x the star velocity (1042.2/day vs 89.3/day)",
         "no harder to set up (57 vs 81 friction)"
       ],
       "reasons_zh": [],
@@ -190,6 +189,7 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -200,6 +200,7 @@
           "parallel-execution",
           "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
           "worktree-isolation"
         ],

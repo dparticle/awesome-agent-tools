@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 200,
-  "days_since_push": 2,
+  "age_days": 201,
+  "days_since_push": 3,
   "health_score": 50,
   "health_components": {
     "popularity": 48.7,
@@ -49,7 +49,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 273,
-    "days_span": 200,
+    "days_span": 201,
     "stars_per_day": 1.36,
     "lifetime_stars_per_day": 1.36,
     "basis": "lifetime",
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:59+00:00",
+  "fetched_at": "2026-10-10T10:39:46+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
+    "mobile",
     "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.333,
-      "momentum_ratio": 57.375,
+      "star_ratio": 122.388,
+      "momentum_ratio": 57.265,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.33x the stars (33,397 vs 273)",
-        "57.38x the star velocity (78.0/day vs 1.4/day)",
+        "122.39x the stars (33,412 vs 273)",
+        "57.26x the star velocity (77.9/day vs 1.4/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -217,7 +217,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 81,
+        "challenger_health": 78,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2
       }

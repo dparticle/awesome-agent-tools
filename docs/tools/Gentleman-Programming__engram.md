@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,101 |
-| Star velocity | 30.4/day (lifetime basis, 234d span) |
+| Stars | 7,118 |
+| Star velocity | 30.3/day (lifetime basis, 235d span) |
 | Health score | 65/100 |
 | Documentation | 57/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-16 |
-| Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 20,742 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 21,301 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ### MCP support
 
-> any MCP-compatible agent · per-agent setup →
+> -response failures remain safely blocked with distinct diagnostics; read-only and non-Engram calls are unaffected.
 
 ### Cross-agent support
 
@@ -77,7 +77,7 @@ Score **57/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 77.0 |
-| momentum | 25.3 |
+| momentum | 25.2 |
 | maintenance | 100.0 |
 | documentation | 57.0 |
 | accessibility | 72.0 |

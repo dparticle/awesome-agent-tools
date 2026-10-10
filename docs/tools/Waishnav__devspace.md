@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,208 |
-| Star velocity | 44.9/day (lifetime basis, 116d span) |
+| Stars | 5,214 |
+| Star velocity | 44.6/day (lifetime basis, 117d span) |
 | Health score | 66/100 |
 | Documentation | 46/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-14 |
-| Last push | 2026-10-09 (0 days ago) |
+| Last push | 2026-10-09 (1 days ago) |
 | Analyzed README | 8,868 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)** — Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (6/6).
@@ -82,7 +82,7 @@ Score **46/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.3 |
-| momentum | 37.4 |
+| momentum | 37.1 |
 | maintenance | 100.0 |
 | documentation | 46.0 |
 | accessibility | 72.0 |

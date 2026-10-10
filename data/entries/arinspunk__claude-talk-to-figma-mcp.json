@@ -6,7 +6,7 @@
   "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp",
   "description": "A Model Context Protocol (MCP) that allows Claude Desktop and other AI tools (Claude Code, Cursor, Antigravity, etc.) to read, analyze, and modify Figma designs",
   "homepage": "",
-  "stars": 667,
+  "stars": 668,
   "forks": 131,
   "open_issues": 8,
   "language": "TypeScript",
@@ -24,13 +24,13 @@
     "windsurf-ai"
   ],
   "created_at": "2025-04-04T21:38:32Z",
-  "updated_at": "2026-10-08T10:31:23Z",
+  "updated_at": "2026-10-10T03:13:40Z",
   "pushed_at": "2026-04-18T15:43:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 552,
-  "days_since_push": 173,
+  "age_days": 553,
+  "days_since_push": 174,
   "health_score": 48,
   "health_components": {
     "popularity": 56.5,
@@ -41,8 +41,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 667,
-    "days_span": 552,
+    "stars_gained": 668,
+    "days_span": 553,
     "stars_per_day": 1.21,
     "lifetime_stars_per_day": 1.21,
     "basis": "lifetime",
@@ -134,13 +134,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:34+00:00",
+  "fetched_at": "2026-10-10T10:39:23+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
+    "mobile",
     "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
@@ -163,14 +163,14 @@
         "multi-agent-orchestration",
         "parallel-execution"
       ],
-      "star_ratio": 50.07,
-      "momentum_ratio": 64.488,
+      "star_ratio": 50.018,
+      "momentum_ratio": 64.364,
       "setup_delta": -14,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "50.07x the stars (33,397 vs 667)",
-        "64.49x the star velocity (78.0/day vs 1.2/day)",
+        "50.02x the stars (33,412 vs 668)",
+        "64.36x the star velocity (77.9/day vs 1.2/day)",
         "no harder to set up (2 vs 16 friction)"
       ],
       "reasons_zh": [],
@@ -197,7 +197,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 81,
+        "challenger_health": 78,
         "incumbent_setup_score": 16,
         "challenger_setup_score": 2
       }

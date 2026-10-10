@@ -6,7 +6,7 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 758,
+  "stars": 760,
   "forks": 58,
   "open_issues": 6,
   "language": "Go",
@@ -32,27 +32,27 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-10-09T10:31:50Z",
+  "updated_at": "2026-10-10T01:15:55Z",
   "pushed_at": "2026-10-04T21:10:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 33,
-  "days_since_push": 4,
+  "age_days": 34,
+  "days_since_push": 5,
   "health_score": 57,
   "health_components": {
     "popularity": 57.6,
-    "momentum": 19.1,
+    "momentum": 18.6,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 758,
-    "days_span": 33,
-    "stars_per_day": 22.97,
-    "lifetime_stars_per_day": 22.97,
+    "stars_gained": 760,
+    "days_span": 34,
+    "stars_per_day": 22.35,
+    "lifetime_stars_per_day": 22.35,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:32+00:00",
+  "fetched_at": "2026-10-10T10:39:21+00:00",
   "categories": [
     "analytics",
     "model-routing",
@@ -152,10 +152,65 @@
   ],
   "primary_category": "analytics",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "okf-memory/okf-agent-memory",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "incumbent_name": "okf-memory/okf-agent-memory",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration"
+      ],
+      "star_ratio": 6.207,
+      "momentum_ratio": 1.06,
+      "setup_delta": -21,
+      "dominance": 0.807,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "6.21x the stars (4,717 vs 760)",
+        "1.06x the star velocity (23.7/day vs 22.4/day)",
+        "no harder to set up (24 vs 45 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 65,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 24
+      }
+    }
   }
 }

@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 337 |
-| Star velocity | 2.4/day (lifetime basis, 143d span) |
+| Star velocity | 2.3/day (lifetime basis, 144d span) |
 | Health score | 52/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-10-09 (0 days ago) |
 | Analyzed README | 10,173 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/pacifio/atlas",
   "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
   "homepage": "https://www.tryatlas.cc/",
-  "stars": 9540,
-  "forks": 368,
-  "open_issues": 35,
+  "stars": 9583,
+  "forks": 369,
+  "open_issues": 36,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -29,27 +29,27 @@
     "skills"
   ],
   "created_at": "2026-05-14T16:48:52Z",
-  "updated_at": "2026-10-09T11:18:54Z",
-  "pushed_at": "2026-10-09T09:57:36Z",
+  "updated_at": "2026-10-10T08:42:31Z",
+  "pushed_at": "2026-10-10T07:09:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 147,
+  "age_days": 148,
   "days_since_push": 0,
   "health_score": 73,
   "health_components": {
     "popularity": 79.6,
-    "momentum": 54.1,
+    "momentum": 54.0,
     "maintenance": 100.0,
     "documentation": 50.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 9540,
-    "days_span": 147,
-    "stars_per_day": 64.9,
-    "lifetime_stars_per_day": 64.9,
+    "stars_gained": 9583,
+    "days_span": 148,
+    "stars_per_day": 64.75,
+    "lifetime_stars_per_day": 64.75,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:40+00:00",
+  "fetched_at": "2026-10-10T10:38:34+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "analytics",

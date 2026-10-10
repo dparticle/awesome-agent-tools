@@ -6,7 +6,7 @@
   "url": "https://github.com/Orkas-AI/Orkas",
   "description": "Orkas is an open-source, local-first AI desktop app: a commander LLM directs specialist sub-agents, and runs your installed coding CLIs — Claude Code, Codex, OpenCode, OpenClaw, Hermes — as local sessions. Agents self-evolve via reflection and skill crystallization. BYO keys. macOS / Windows / Linux.",
   "homepage": "https://orkas.ai?source=gh-orkas",
-  "stars": 2156,
+  "stars": 2159,
   "forks": 88,
   "open_issues": 11,
   "language": "JavaScript",
@@ -34,27 +34,27 @@
     "self-evolving-agents"
   ],
   "created_at": "2026-04-29T12:19:08Z",
-  "updated_at": "2026-10-09T03:17:16Z",
-  "pushed_at": "2026-10-09T03:17:11Z",
+  "updated_at": "2026-10-10T10:18:21Z",
+  "pushed_at": "2026-10-10T01:14:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 162,
+  "age_days": 163,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 66.7,
-    "momentum": 11.1,
+    "momentum": 11.0,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2156,
-    "days_span": 162,
-    "stars_per_day": 13.31,
-    "lifetime_stars_per_day": 13.31,
+    "stars_gained": 2159,
+    "days_span": 163,
+    "stars_per_day": 13.25,
+    "lifetime_stars_per_day": 13.25,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -174,13 +174,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:15+00:00",
+  "fetched_at": "2026-10-10T10:39:06+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
+    "mobile",
     "model-routing"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

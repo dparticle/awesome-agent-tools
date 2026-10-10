@@ -6,20 +6,20 @@
   "url": "https://github.com/intuit/quickbooks-online-mcp-server",
   "description": "The QuickBooks MCP Server lets AI assistants access QuickBooks data via a standard interface. It uses the Model Context Protocol to expose QBO features as callable tools, enabling developers to build AI apps that fetch real-time QBO data through MCP.",
   "homepage": "",
-  "stars": 416,
+  "stars": 417,
   "forks": 259,
   "open_issues": 31,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2025-10-06T17:17:39Z",
-  "updated_at": "2026-10-08T20:55:50Z",
+  "updated_at": "2026-10-09T21:56:16Z",
   "pushed_at": "2026-09-15T17:56:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 367,
-  "days_since_push": 23,
+  "age_days": 368,
+  "days_since_push": 24,
   "health_score": 46,
   "health_components": {
     "popularity": 52.4,
@@ -30,8 +30,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 416,
-    "days_span": 367,
+    "stars_gained": 417,
+    "days_span": 368,
     "stars_per_day": 1.13,
     "lifetime_stars_per_day": 1.13,
     "basis": "lifetime",
@@ -116,11 +116,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:46+00:00",
+  "fetched_at": "2026-10-10T10:39:33+00:00",
   "categories": [
-    "billing"
+    "sharing"
   ],
-  "primary_category": "billing",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

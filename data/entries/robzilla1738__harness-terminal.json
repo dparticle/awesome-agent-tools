@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "full_name": "robzilla1738/harness-terminal",
+  "name": "harness-terminal",
+  "owner": "robzilla1738",
+  "url": "https://github.com/robzilla1738/harness-terminal",
+  "description": "Native macOS terminal with GPU rendering, persistent sessions, coding-agent activity, and secure iPhone/iPad connections over SSH or Tailscale. CLI and daemon also run on Linux.",
+  "homepage": "https://thebestterminal.com",
+  "stars": 303,
+  "forks": 23,
+  "open_issues": 6,
+  "language": "Swift",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "coding-agents",
+    "developer-tools",
+    "gpu",
+    "ios",
+    "macos",
+    "metal",
+    "sparkle",
+    "ssh",
+    "swift",
+    "tailscale",
+    "terminal",
+    "terminal-emulator"
+  ],
+  "created_at": "2026-05-27T21:37:13Z",
+  "updated_at": "2026-10-09T16:45:17Z",
+  "pushed_at": "2026-10-09T16:45:13Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 135,
+  "days_since_push": 0,
+  "health_score": 53,
+  "health_components": {
+    "popularity": 49.6,
+    "momentum": 1.9,
+    "maintenance": 100.0,
+    "documentation": 61.0,
+    "accessibility": 78.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 303,
+    "days_span": 135,
+    "stars_per_day": 2.24,
+    "lifetime_stars_per_day": 2.24,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "robzilla1738/harness-terminal",
+    "readme_chars": 20633,
+    "capabilities": [
+      "remote-control",
+      "agent-runtime",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "le are macOS-only and are dropped from the Linux build)",
+      "agent-runtime": "",
+      "gui-desktop": "ts to surface requests for attention behind other tabs.",
+      "notifications": "l Terminal — everything: command prefix, status line, copy mode, paste buffers, panes, and the full harness-cli command set.",
+      "cross-agent-support": "Mentions Aider, Amp, Claude Code, Codex"
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "agent-runtime": 1,
+      "gui-desktop": 2,
+      "notifications": 6,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS"
+      ],
+      "note_en": "Easy. install via native installer / package; needs git clone (build from source); configure sign-in required, database migration; GUI application",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 sign-in required、database migration；GUI application"
+    },
+    "doc_score": 61,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider"
+    ],
+    "summary_en": "The native macOS terminal that keeps your sessions running and tells you the moment a coding agent needs you.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.194
+    },
+    "highlights": [
+      "harness-cli for automation and agent hooks: run --wait -- make test exits with the command's status, targets take names, positions, or ID fragments (--surface 2, --tab logs), and exit statu…",
+      "Lua 5.1 config at ~/.config/harness/init.lua (HARNESS_CONFIG overrides the path).",
+      "Session layout persists across quits (daemon-owned, attach from the CLI or over SSH); if the daemon restarts under a pane, a quiet \"Reconnecting…\" chip rides the ~1-minute automatic backoff…",
+      "Remote & headless daemon: run HarnessDaemon on a headless or remote box (Linux included) and drive it with harness-cli --host over your own SSH."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-10T10:39:42+00:00",
+  "categories": [
+    "agent-runtime-desktop-ui",
+    "mobile-2"
+  ],
+  "primary_category": "mobile-2",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by Louis-CFM/coucou: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 Louis-CFM/coucou 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "Louis-CFM/coucou",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "robzilla1738/harness-terminal",
+      "challenger": "louis-cfm/coucou",
+      "incumbent_name": "robzilla1738/harness-terminal",
+      "challenger_name": "Louis-CFM/coucou",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "notifications",
+        "remote-control"
+      ],
+      "star_ratio": 15.168,
+      "momentum_ratio": 170.982,
+      "setup_delta": -7,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "15.17x the stars (4,596 vs 303)",
+        "170.98x the star velocity (383.0/day vs 2.2/day)",
+        "no harder to set up (23 vs 30 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "notifications",
+          "remote-control"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mobile-access",
+          "model-routing",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "voice-input"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 83,
+        "incumbent_setup_score": 30,
+        "challenger_setup_score": 23
+      }
+    }
+  }
+}

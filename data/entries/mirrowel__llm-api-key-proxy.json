@@ -7,7 +7,7 @@
   "description": "Universal LLM Gateway: One API, every LLM. OpenAI/Anthropic-compatible endpoints with multi-provider translation and intelligent load-balancing.",
   "homepage": "",
   "stars": 556,
-  "forks": 106,
+  "forks": 105,
   "open_issues": 18,
   "language": "Python",
   "license": "NOASSERTION",
@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 485,
-  "days_since_push": 15,
+  "age_days": 486,
+  "days_since_push": 16,
   "health_score": 49,
   "health_components": {
     "popularity": 54.9,
@@ -37,9 +37,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 556,
-    "days_span": 485,
-    "stars_per_day": 1.15,
-    "lifetime_stars_per_day": 1.15,
+    "days_span": 486,
+    "stars_per_day": 1.14,
+    "lifetime_stars_per_day": 1.14,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -167,10 +167,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:36+00:00",
+  "fetched_at": "2026-10-10T10:39:25+00:00",
   "categories": [
     "analytics-2",
-    "quota",
+    "self-hosting-security",
     "sharing"
   ],
   "primary_category": "sharing",

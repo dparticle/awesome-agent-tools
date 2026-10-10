@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 101,
-  "days_since_push": 86,
+  "age_days": 102,
+  "days_since_push": 87,
   "health_score": 52,
   "health_components": {
     "popularity": 57.6,
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 755,
-    "days_span": 101,
-    "stars_per_day": 7.48,
-    "lifetime_stars_per_day": 7.48,
+    "days_span": 102,
+    "stars_per_day": 7.4,
+    "lifetime_stars_per_day": 7.4,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:32+00:00",
+  "fetched_at": "2026-10-10T10:39:21+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",

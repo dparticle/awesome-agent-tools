@@ -6,7 +6,7 @@
   "url": "https://github.com/metatool-ai/metamcp",
   "description": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
   "homepage": "https://docs.metamcp.com",
-  "stars": 2699,
+  "stars": 2700,
   "forks": 436,
   "open_issues": 118,
   "language": "TypeScript",
@@ -29,13 +29,13 @@
     "vibe-coding"
   ],
   "created_at": "2025-01-22T11:58:52Z",
-  "updated_at": "2026-10-09T02:46:35Z",
+  "updated_at": "2026-10-10T06:33:36Z",
   "pushed_at": "2026-06-22T16:50:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "ai-dev",
-  "age_days": 624,
-  "days_since_push": 108,
+  "age_days": 625,
+  "days_since_push": 109,
   "health_score": 46,
   "health_components": {
     "popularity": 68.6,
@@ -46,10 +46,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2699,
-    "days_span": 624,
-    "stars_per_day": 4.33,
-    "lifetime_stars_per_day": 4.33,
+    "stars_gained": 2700,
+    "days_span": 625,
+    "stars_per_day": 4.32,
+    "lifetime_stars_per_day": 4.32,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -154,10 +154,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:14+00:00",
+  "fetched_at": "2026-10-10T10:39:05+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",

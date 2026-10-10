@@ -12,19 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 522 |
-| Star velocity | 2.3/day (lifetime basis, 224d span) |
-| Health score | 56/100 |
-| Documentation | 65/100 |
+| Stars | 527 |
+| Star velocity | 2.3/day (lifetime basis, 225d span) |
+| Health score | 57/100 |
+| Documentation | 70/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-02-27 |
-| Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 31,320 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 32,690 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Mobile access
+
+> als so every pane can see its own running dev server without alt-tabbing.
 
 ### Multi-agent orchestration
 
@@ -85,12 +89,13 @@
 
 ## Documentation quality
 
-Score **65/100**, based on these detected signals:
+Score **70/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - documents installation
+- documents configuration
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
@@ -104,9 +109,9 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.4 |
-| momentum | 1.9 |
+| momentum | 2.0 |
 | maintenance | 100.0 |
-| documentation | 65.0 |
+| documentation | 70.0 |
 | accessibility | 85.0 |
 
 ---

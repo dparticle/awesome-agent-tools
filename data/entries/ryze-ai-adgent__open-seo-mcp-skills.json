@@ -6,8 +6,8 @@
   "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
   "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
   "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
-  "stars": 4612,
-  "forks": 365,
+  "stars": 4681,
+  "forks": 366,
   "open_issues": 1,
   "language": "Shell",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "seo-mcp-server"
   ],
   "created_at": "2026-08-29T23:37:01Z",
-  "updated_at": "2026-10-09T11:02:08Z",
+  "updated_at": "2026-10-10T10:35:57Z",
   "pushed_at": "2026-09-24T01:53:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 40,
-  "days_since_push": 15,
+  "age_days": 41,
+  "days_since_push": 16,
   "health_score": 74,
   "health_components": {
-    "popularity": 73.3,
-    "momentum": 96.1,
+    "popularity": 73.4,
+    "momentum": 95.1,
     "maintenance": 92.0,
     "documentation": 43.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4612,
-    "days_span": 40,
-    "stars_per_day": 115.3,
-    "lifetime_stars_per_day": 115.3,
+    "stars_gained": 4681,
+    "days_span": 41,
+    "stars_per_day": 114.17,
+    "lifetime_stars_per_day": 114.17,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -131,9 +131,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:46+00:00",
+  "fetched_at": "2026-10-10T10:38:40+00:00",
   "categories": [
-    "billing",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
@@ -158,14 +157,14 @@
         "model-routing",
         "skills-plugins"
       ],
-      "star_ratio": 59.767,
-      "momentum_ratio": 9.056,
+      "star_ratio": 59.003,
+      "momentum_ratio": 9.129,
       "setup_delta": 0,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "59.77x the stars (275,647 vs 4,612)",
-        "9.06x the star velocity (1044.1/day vs 115.3/day)",
+        "59.00x the stars (276,194 vs 4,681)",
+        "9.13x the star velocity (1042.2/day vs 114.2/day)",
         "no harder to set up (57 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -179,6 +178,7 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -189,6 +189,7 @@
           "parallel-execution",
           "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
           "worktree-isolation"
         ],

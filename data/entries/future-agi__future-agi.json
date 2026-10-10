@@ -6,9 +6,9 @@
   "url": "https://github.com/future-agi/future-agi",
   "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
   "homepage": "https://futureagi.com",
-  "stars": 2130,
+  "stars": 2133,
   "forks": 674,
-  "open_issues": 1046,
+  "open_issues": 1049,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "tracing"
   ],
   "created_at": "2026-04-23T14:11:31Z",
-  "updated_at": "2026-10-09T10:01:14Z",
-  "pushed_at": "2026-10-09T11:16:30Z",
+  "updated_at": "2026-10-09T19:02:44Z",
+  "pushed_at": "2026-10-10T09:24:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 168,
+  "age_days": 169,
   "days_since_push": 0,
   "health_score": 61,
   "health_components": {
     "popularity": 66.6,
-    "momentum": 10.6,
+    "momentum": 10.5,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2130,
-    "days_span": 168,
-    "stars_per_day": 12.68,
-    "lifetime_stars_per_day": 12.68,
+    "stars_gained": 2133,
+    "days_span": 169,
+    "stars_per_day": 12.62,
+    "lifetime_stars_per_day": 12.62,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -152,11 +152,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:15+00:00",
+  "fetched_at": "2026-10-10T10:39:07+00:00",
   "categories": [
-    "billing",
-    "self-hosting-security",
-    "sharing"
+    "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {

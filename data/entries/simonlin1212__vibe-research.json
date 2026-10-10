@@ -4,18 +4,18 @@
   "name": "Vibe-Research",
   "owner": "simonlin1212",
   "url": "https://github.com/simonlin1212/Vibe-Research",
-  "description": "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research 把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。",
+  "description": "Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A research workbench for China A-shares, US and HK stocks.",
   "homepage": "https://viberesearch.wiki",
-  "stars": 2636,
-  "forks": 540,
+  "stars": 2642,
+  "forks": 543,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
     "a-stock",
     "ai-agent",
+    "claude-code",
     "codex",
-    "codex-harness",
     "dashboard",
     "financial-research",
     "fintech",
@@ -28,66 +28,73 @@
     "react",
     "stock-market",
     "trading",
-    "us-stocks"
+    "us-stocks",
+    "workbuddy"
   ],
   "created_at": "2026-07-05T06:30:55Z",
-  "updated_at": "2026-10-08T17:01:52Z",
-  "pushed_at": "2026-10-07T01:41:04Z",
+  "updated_at": "2026-10-10T08:52:48Z",
+  "pushed_at": "2026-10-10T05:12:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 96,
-  "days_since_push": 2,
-  "health_score": 64,
+  "age_days": 97,
+  "days_since_push": 0,
+  "health_score": 63,
   "health_components": {
     "popularity": 68.4,
-    "momentum": 22.9,
+    "momentum": 22.7,
     "maintenance": 100.0,
-    "documentation": 68.0,
-    "accessibility": 69.0
+    "documentation": 72.0,
+    "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 2636,
-    "days_span": 96,
-    "stars_per_day": 27.46,
-    "lifetime_stars_per_day": 27.46,
+    "stars_gained": 2642,
+    "days_span": 97,
+    "stars_per_day": 27.24,
+    "lifetime_stars_per_day": 27.24,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "simonlin1212/Vibe-Research",
-    "readme_chars": 13961,
+    "readme_chars": 29539,
     "capabilities": [
       "quota-management",
+      "remote-control",
       "multi-agent-orchestration",
-      "worktree-isolation",
+      "api-gateway",
+      "billing-metering",
       "mcp-support",
       "self-hosted",
       "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "quota-management": "装并登录的 WorkBuddy，或腾讯官方 CodeBuddy Code CLI",
-      "multi-agent-orchestration": "排层 orchestrator + validator + calc + gate 强制阶段、证据引用、确定性计算和合规边界",
-      "worktree-isolation": "",
-      "mcp-support": "odex 订阅走 Codex Harness；Claude 订阅走 Claude Code Agent；WorkBuddy / CodeBuddy 走 CodeBuddy Code Agent，三者不会混叫。",
-      "self-hosted": "- API 模式的 key 会持久保存在当前浏览器的本机 localStorage，方便下次直接使用；它不是系统钥匙串，",
-      "notifications": "",
-      "cross-agent-support": "Mentions Claude Code, Codex"
+      "quota-management": "fig.json 写 provider.profile（如 cli-claude），或者添加时带上环境变量，例如 claude mcp add vibe-research -e VRAPROVIDER=cli-claude -- node …、codex mcp add vibe-research --env VRAPROVIDER=cli-codex -- node …。",
+      "remote-control": "",
+      "multi-agent-orchestration": "calculations.json：派生数字的输入、函数和计算 DAG。",
+      "api-gateway": "；三家订阅直接调用使用者本机的官方 CLI，模型 API 直接走 Chat Completions",
+      "billing-metering": "上的对话、研究、辩论和回测都允许 AI 联网和调用产品工具。",
+      "mcp-support": "gine、--codex-path 等）会报错并给出改法。",
+      "self-hosted": "览器的本机 localStorage，方便下次直接使用；它不是系统钥匙串，也不承诺加密，只建议在可信的个人电脑上使用，共享电脑用完请主动清除。",
+      "notifications": "都标出来），勾选的行要么全写、要么全不写，写之前先备份到 ledger/持仓导入备份-日期/。",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
-      "quota-management": 1,
-      "multi-agent-orchestration": 1,
-      "worktree-isolation": 2,
-      "mcp-support": 3,
+      "quota-management": 2,
+      "remote-control": 2,
+      "multi-agent-orchestration": 3,
+      "api-gateway": 1,
+      "billing-metering": 2,
+      "mcp-support": 8,
       "self-hosted": 1,
-      "notifications": 1,
-      "cross-agent-support": 2
+      "notifications": 7,
+      "cross-agent-support": 3
     },
     "friction": {
-      "level": "low",
-      "score": 31,
+      "level": "moderate",
+      "score": 43,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -99,7 +106,9 @@
         "npm install/build"
       ],
       "config_signals": [
-        "API key configuration"
+        "API key configuration",
+        "config.json/yaml/toml",
+        "sign-in required"
       ],
       "friendliness_signals": [],
       "platforms": [
@@ -107,10 +116,10 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Easy. install via global npm install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration",
-      "note_zh": "较易上手。可通过 global npm install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration"
+      "note_en": "Some setup. install via global npm install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 global npm install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、config.json/yaml/toml"
     },
-    "doc_score": 68,
+    "doc_score": 72,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -118,17 +127,19 @@
       "has a quick-start section",
       "documents installation",
       "documents configuration",
-      "has troubleshooting/FAQ",
+      "has contribution guidance",
       "mentions licensing",
       "has a table of contents",
       "has a Chinese translation",
-      "documents changes"
+      "documents changes",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
-      "Codex"
+      "Codex",
+      "Cursor"
     ],
-    "summary_en": "Codex / Claude Code / WorkBuddy 订阅或模型 API 一次接入 · Agent 默认关闭 · 左上角一键开启",
+    "summary_en": "自选与持仓 · 每日复盘 · 产业资讯 · 产业研究 · 个股深挖 · 回测 · 研报库 · 168 个数据端点",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -138,13 +149,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.215
+      "external_link_ratio": 0.237
     },
     "highlights": [
-      "orchestrator：Node 26 串行 853 项：852 通过、1 项 Windows ACL 专项跳过；类型检查通过。",
-      "本机 API 默认只绑定 127.0.0.1，写请求必须鉴权并使用 JSON。",
-      "desktop：84/84，类型检查与生产构建通过；Python（计算库、回测、数据脚本）：754/754。",
-      "Codex 订阅使用产品自己的 CODEX_HOME，不读写用户的 ~/.codex；Claude 与 CodeBuddy 订阅复用各自本机登录态。"
+      "历史情景回放：按现在的持仓比例，把几段历史大跌期重放一遍——A 股 5 段（2015 年股灾、2016 年熔断、2018 年、2020 年 3 月、2021–2024 年），港股、美股各 4 段，并排看组合涨跌、期间最大回撤、最差单日和同期指数，点开一段看走势图和每只的贡献。",
+      "内置四种规则：买入持有、均线交叉、RSI 均值回归、RSRS 择时。",
+      "中长线：八个主要指数的 5 / 20 / 60 / 250 日和年初至今涨跌、离一年高点多远、在 20 / 60 / 250 日线上方还是下方；两市成交额近 60 日柱图和均值线（盘中那根没收完，不和整天均值比）；两融余额走势；沪深300 股息率、盈利收益率和 10 年国债收益率的差。",
+      "提供源码和 Windows / macOS 免安装包，界面都是本地浏览器页面。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -155,13 +166,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:50+00:00",
+  "fetched_at": "2026-10-10T10:38:44+00:00",
   "categories": [
-    "isolation-parallelism",
-    "quota",
-    "self-hosting-security"
+    "mobile-2",
+    "self-hosting-security",
+    "sharing"
   ],
-  "primary_category": "quota",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

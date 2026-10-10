@@ -6,20 +6,20 @@
   "url": "https://github.com/abubakarsiddik31/claude-skills-collection",
   "description": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
   "homepage": "",
-  "stars": 1092,
+  "stars": 1094,
   "forks": 201,
   "open_issues": 19,
   "language": "",
   "license": "",
   "topics": [],
   "created_at": "2025-10-18T16:24:12Z",
-  "updated_at": "2026-10-08T20:37:31Z",
+  "updated_at": "2026-10-09T21:59:18Z",
   "pushed_at": "2026-09-12T11:58:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 355,
-  "days_since_push": 26,
+  "age_days": 356,
+  "days_since_push": 27,
   "health_score": 53,
   "health_components": {
     "popularity": 60.8,
@@ -30,10 +30,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1092,
-    "days_span": 355,
-    "stars_per_day": 3.08,
-    "lifetime_stars_per_day": 3.08,
+    "stars_gained": 1094,
+    "days_span": 356,
+    "stars_per_day": 3.07,
+    "lifetime_stars_per_day": 3.07,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -157,13 +157,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:23+00:00",
+  "fetched_at": "2026-10-10T10:39:14+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile",
+    "mobile-2",
     "skills"
   ],
-  "primary_category": "mobile",
+  "primary_category": "mobile-2",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (11/11).",
@@ -192,13 +192,13 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 1.304,
-      "momentum_ratio": 1.799,
+      "star_ratio": 1.302,
+      "momentum_ratio": 1.798,
       "setup_delta": 0,
       "dominance": 0.653,
       "reasons": [
         "covers 100% of capabilities (11/11)",
-        "1.30x the stars (1,424 vs 1,092)",
+        "1.30x the stars (1,424 vs 1,094)",
         "1.80x the star velocity (5.5/day vs 3.1/day)",
         "no harder to set up (46 vs 46 friction)"
       ],

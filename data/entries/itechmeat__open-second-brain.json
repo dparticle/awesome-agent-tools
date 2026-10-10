@@ -6,40 +6,40 @@
   "url": "https://github.com/itechmeat/open-second-brain",
   "description": "Local-first 🧠 memory for Hermes Agent that lives in your Obsidian vault and remembers project context. Nightly 😴 dream passes turn repeat corrections into confirmed preferences with measurable confidence. Adapters ship for Claude Code, Codex, and OpenClaw, with an MCP server for anything else.",
   "homepage": "https://dark-factory.techmeat.dev",
-  "stars": 445,
-  "forks": 53,
-  "open_issues": 0,
+  "stars": 468,
+  "forks": 58,
+  "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-06T07:40:41Z",
-  "updated_at": "2026-10-09T11:13:15Z",
-  "pushed_at": "2026-10-08T19:37:43Z",
+  "updated_at": "2026-10-10T07:34:32Z",
+  "pushed_at": "2026-10-10T08:05:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 156,
+  "age_days": 157,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 53.0,
-    "momentum": 2.4,
+    "popularity": 53.4,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 445,
-    "days_span": 156,
-    "stars_per_day": 2.85,
-    "lifetime_stars_per_day": 2.85,
+    "stars_gained": 468,
+    "days_span": 157,
+    "stars_per_day": 2.98,
+    "lifetime_stars_per_day": 2.98,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "itechmeat/open-second-brain",
-    "readme_chars": 10515,
+    "readme_chars": 10941,
     "capabilities": [
       "memory-context",
       "mcp-support",
@@ -101,13 +101,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.285
+      "external_link_ratio": 0.274
     },
     "highlights": [
+      "Secret custody. Credentials live encrypted in the vault's state dir behind a capability-gated store; $secret:NAME references resolve at the use sites, o2b brain secret unlock wraps the keyf…",
       "MCP surface. Tools, tool profiles for hosts with tool limits, and the always-loaded writer server: docs/mcp.md.",
       "Sharing and backup. Knowledge packs export a chosen subset; o2b brain bank-export writes a one-file backup bundle: knowledge packs.",
-      "Today view and note markers. o2b brain today, @osb loop and @osb set markers: Brain CLI.",
-      "Corrections. o2b brain lifecycle correct reports a correction's blast radius and retires the affected records - validity-closed by default, tombstoned with --flatly-wrong, dry run by defaul…"
+      "Today view and note markers. o2b brain today, @osb loop and @osb set markers: Brain CLI."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -118,7 +118,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:43+00:00",
+  "fetched_at": "2026-10-10T10:39:29+00:00",
   "categories": [
     "analytics"
   ],

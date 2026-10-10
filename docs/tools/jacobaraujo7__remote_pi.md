@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 434 |
-| Star velocity | 3.1/day (lifetime basis, 140d span) |
+| Stars | 438 |
+| Star velocity | 3.1/day (lifetime basis, 141d span) |
 | Health score | 50/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Dart |
 | Created | 2026-05-22 |
-| Last push | 2026-10-08 (0 days ago) |
+| Last push | 2026-10-09 (0 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -67,7 +67,7 @@ Score **46/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 52.7 |
+| popularity | 52.8 |
 | momentum | 2.6 |
 | maintenance | 100.0 |
 | documentation | 46.0 |

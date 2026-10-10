@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
   "homepage": "https://aka.ms/ppskills",
-  "stars": 978,
-  "forks": 198,
-  "open_issues": 167,
+  "stars": 984,
+  "forks": 204,
+  "open_issues": 154,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "power-platform"
   ],
   "created_at": "2026-01-21T18:25:14Z",
-  "updated_at": "2026-10-09T10:42:23Z",
-  "pushed_at": "2026-10-09T10:48:17Z",
+  "updated_at": "2026-10-09T20:42:36Z",
+  "pushed_at": "2026-10-09T23:07:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 260,
+  "age_days": 261,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 59.8,
+    "popularity": 59.9,
     "momentum": 3.1,
     "maintenance": 100.0,
     "documentation": 44.0,
@@ -38,10 +38,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 978,
-    "days_span": 260,
-    "stars_per_day": 3.76,
-    "lifetime_stars_per_day": 3.76,
+    "stars_gained": 984,
+    "days_span": 261,
+    "stars_per_day": 3.77,
+    "lifetime_stars_per_day": 3.77,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -133,25 +133,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:27+00:00",
+  "fetched_at": "2026-10-10T10:39:17+00:00",
   "categories": [
-    "mobile"
+    "mobile-2"
   ],
-  "primary_category": "mobile",
+  "primary_category": "mobile-2",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "paperclipai/paperclip",
+    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "yohey-w/multi-agent-shogun",
     "challenger": "",
     "supersede": {
       "incumbent": "microsoft/power-platform-skills",
-      "challenger": "paperclipai/paperclip",
+      "challenger": "yohey-w/multi-agent-shogun",
       "incumbent_name": "microsoft/power-platform-skills",
-      "challenger_name": "paperclipai/paperclip",
+      "challenger_name": "yohey-w/multi-agent-shogun",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -160,15 +160,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 101.262,
-      "momentum_ratio": 119.721,
-      "setup_delta": -4,
-      "dominance": 1.0,
+      "star_ratio": 1.447,
+      "momentum_ratio": 1.464,
+      "setup_delta": -3,
+      "dominance": 0.681,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "101.26x the stars (99,034 vs 978)",
-        "119.72x the star velocity (450.1/day vs 3.8/day)",
-        "no harder to set up (45 vs 49 friction)"
+        "1.45x the stars (1,424 vs 984)",
+        "1.46x the star velocity (5.5/day vs 3.8/day)",
+        "no harder to set up (46 vs 49 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,6 +181,7 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -189,19 +190,18 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
+          "parallel-execution",
           "remote-control",
-          "security-isolation",
           "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
+          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 89,
+        "challenger_health": 52,
         "incumbent_setup_score": 49,
-        "challenger_setup_score": 45
+        "challenger_setup_score": 46
       }
     }
   }

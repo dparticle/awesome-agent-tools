@@ -6,7 +6,7 @@
   "url": "https://github.com/butterbase-ai/butterbase",
   "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
   "homepage": "",
-  "stars": 3687,
+  "stars": 3688,
   "forks": 171,
   "open_issues": 9,
   "language": "TypeScript",
@@ -21,27 +21,27 @@
     "typescript"
   ],
   "created_at": "2026-05-20T00:06:03Z",
-  "updated_at": "2026-10-08T03:51:28Z",
+  "updated_at": "2026-10-09T13:20:11Z",
   "pushed_at": "2026-10-06T13:46:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
-  "days_since_push": 2,
+  "age_days": 143,
+  "days_since_push": 3,
   "health_score": 59,
   "health_components": {
     "popularity": 71.3,
-    "momentum": 21.6,
+    "momentum": 21.5,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 33.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3687,
-    "days_span": 142,
-    "stars_per_day": 25.96,
-    "lifetime_stars_per_day": 25.96,
+    "stars_gained": 3688,
+    "days_span": 143,
+    "stars_per_day": 25.79,
+    "lifetime_stars_per_day": 25.79,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -147,13 +147,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:48+00:00",
+  "fetched_at": "2026-10-10T10:38:42+00:00",
   "categories": [
-    "analytics",
-    "billing",
-    "self-hosting-security"
+    "self-hosting-security",
+    "sharing",
+    "skills"
   ],
-  "primary_category": "billing",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

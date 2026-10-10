@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 223,
-  "days_since_push": 32,
+  "age_days": 224,
+  "days_since_push": 33,
   "health_score": 51,
   "health_components": {
     "popularity": 70.4,
-    "momentum": 12.4,
+    "momentum": 12.3,
     "maintenance": 78.0,
     "documentation": 66.0,
     "accessibility": 19.0
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 3308,
-    "days_span": 223,
-    "stars_per_day": 14.83,
-    "lifetime_stars_per_day": 14.83,
+    "days_span": 224,
+    "stars_per_day": 14.77,
+    "lifetime_stars_per_day": 14.77,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -146,13 +146,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:13+00:00",
+  "fetched_at": "2026-10-10T10:39:04+00:00",
   "categories": [
     "accounts",
     "providers",
     "sharing"
   ],
-  "primary_category": "accounts",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

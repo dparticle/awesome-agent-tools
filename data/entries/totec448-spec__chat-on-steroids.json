@@ -6,9 +6,9 @@
   "url": "https://github.com/totec448-spec/chat-on-steroids",
   "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
   "homepage": "",
-  "stars": 4257,
-  "forks": 568,
-  "open_issues": 17,
+  "stars": 4453,
+  "forks": 581,
+  "open_issues": 23,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,27 +24,27 @@
     "windows"
   ],
   "created_at": "2026-08-22T14:16:24Z",
-  "updated_at": "2026-10-09T10:58:43Z",
-  "pushed_at": "2026-10-09T11:16:36Z",
+  "updated_at": "2026-10-10T10:28:41Z",
+  "pushed_at": "2026-10-10T10:29:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 47,
+  "age_days": 48,
   "days_since_push": 0,
   "health_score": 75,
   "health_components": {
-    "popularity": 72.6,
-    "momentum": 75.5,
+    "popularity": 73.0,
+    "momentum": 77.3,
     "maintenance": 100.0,
     "documentation": 33.0,
     "accessibility": 90.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4257,
-    "days_span": 47,
-    "stars_per_day": 90.57,
-    "lifetime_stars_per_day": 90.57,
+    "stars_gained": 4453,
+    "days_span": 48,
+    "stars_per_day": 92.77,
+    "lifetime_stars_per_day": 92.77,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -123,11 +123,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:47+00:00",
+  "fetched_at": "2026-10-10T10:38:41+00:00",
   "categories": [
-    "self-hosting-security"
+    "analytics"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

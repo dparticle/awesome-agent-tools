@@ -6,9 +6,9 @@
   "url": "https://github.com/Vincentwei1021/video-shotcraft",
   "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
   "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
-  "stars": 10967,
-  "forks": 978,
-  "open_issues": 7,
+  "stars": 11106,
+  "forks": 994,
+  "open_issues": 8,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -28,16 +28,16 @@
     "video-production"
   ],
   "created_at": "2026-07-19T11:44:41Z",
-  "updated_at": "2026-10-09T11:11:17Z",
+  "updated_at": "2026-10-10T10:34:33Z",
   "pushed_at": "2026-10-05T09:12:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 81,
-  "days_since_push": 4,
+  "age_days": 82,
+  "days_since_push": 5,
   "health_score": 85,
   "health_components": {
-    "popularity": 80.8,
+    "popularity": 80.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 50.0,
@@ -45,10 +45,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 10967,
-    "days_span": 81,
-    "stars_per_day": 135.4,
-    "lifetime_stars_per_day": 135.4,
+    "stars_gained": 11106,
+    "days_span": 82,
+    "stars_per_day": 135.44,
+    "lifetime_stars_per_day": 135.44,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:38+00:00",
+  "fetched_at": "2026-10-10T10:38:32+00:00",
   "categories": [
     "skills"
   ],

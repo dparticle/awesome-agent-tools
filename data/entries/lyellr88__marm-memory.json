@@ -6,7 +6,7 @@
   "url": "https://github.com/Lyellr88/marm-memory",
   "description": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indexing & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall, supports multi-agent swarms.",
   "homepage": "https://lyellr88.github.io/marm-memory",
-  "stars": 418,
+  "stars": 419,
   "forks": 90,
   "open_issues": 27,
   "language": "Python",
@@ -34,13 +34,13 @@
     "sqlite"
   ],
   "created_at": "2025-06-10T06:36:49Z",
-  "updated_at": "2026-10-07T19:37:48Z",
+  "updated_at": "2026-10-09T18:22:38Z",
   "pushed_at": "2026-10-08T01:26:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 486,
-  "days_since_push": 1,
+  "age_days": 487,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
     "popularity": 52.4,
@@ -51,8 +51,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 418,
-    "days_span": 486,
+    "stars_gained": 419,
+    "days_span": 487,
     "stars_per_day": 0.86,
     "lifetime_stars_per_day": 0.86,
     "basis": "lifetime",
@@ -196,13 +196,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:46+00:00",
+  "fetched_at": "2026-10-10T10:39:33+00:00",
   "categories": [
     "analytics",
     "model-routing",
     "self-hosting-security"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

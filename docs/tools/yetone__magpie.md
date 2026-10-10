@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,237 |
-| Star velocity | 482.5/day (lifetime basis, 15d span) |
+| Stars | 8,184 |
+| Star velocity | 511.5/day (lifetime basis, 16d span) |
 | Health score | 86/100 |
 | Documentation | 57/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-23 |
-| Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 16,335 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 17,062 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Model / provider routing
 
-> e · Pencil · T3 Code · OpenHanako · AtomCode · Alma · Cindy
+> &nbsp;·&nbsp; Plugins &nbsp;·&nbsp; Discord &nbsp;·&nbsp; English · 简体中文
 
 ### API gateway / proxy
 
@@ -84,7 +84,7 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 77.2 |
+| popularity | 78.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 57.0 |

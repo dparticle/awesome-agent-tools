@@ -8,7 +8,7 @@
   "homepage": "https://www.npmjs.com/package/dao-code",
   "stars": 1083,
   "forks": 43,
-  "open_issues": 12,
+  "open_issues": 13,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 123,
-  "days_since_push": 17,
+  "age_days": 124,
+  "days_since_push": 18,
   "health_score": 54,
   "health_components": {
     "popularity": 60.7,
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1083,
-    "days_span": 123,
-    "stars_per_day": 8.8,
-    "lifetime_stars_per_day": 8.8,
+    "days_span": 124,
+    "stars_per_day": 8.73,
+    "lifetime_stars_per_day": 8.73,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -176,13 +176,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:24+00:00",
+  "fetched_at": "2026-10-10T10:39:14+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
+    "mobile",
     "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

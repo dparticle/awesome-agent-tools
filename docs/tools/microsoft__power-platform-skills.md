@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 978 |
-| Star velocity | 3.8/day (lifetime basis, 260d span) |
+| Stars | 984 |
+| Star velocity | 3.8/day (lifetime basis, 261d span) |
 | Health score | 51/100 |
 | Documentation | 44/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-10-09 (0 days ago) |
 | Analyzed README | 17,063 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -77,7 +77,7 @@ Score **44/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 59.8 |
+| popularity | 59.9 |
 | momentum | 3.1 |
 | maintenance | 100.0 |
 | documentation | 44.0 |

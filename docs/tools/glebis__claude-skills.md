@@ -13,18 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 391 |
-| Star velocity | 1.1/day (lifetime basis, 348d span) |
+| Star velocity | 1.1/day (lifetime basis, 349d span) |
 | Health score | 51/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2025-10-25 |
-| Last push | 2026-10-08 (1 days ago) |
+| Last push | 2026-10-08 (2 days ago) |
 | Analyzed README | 15,386 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (7/7).
 
 ## What it solves
 

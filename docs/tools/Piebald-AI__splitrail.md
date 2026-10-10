@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 223 |
-| Star velocity | 0.5/day (lifetime basis, 453d span) |
+| Star velocity | 0.5/day (lifetime basis, 454d span) |
 | Health score | 50/100 |
 | Documentation | 32/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2025-07-12 |
-| Last push | 2026-10-07 (1 days ago) |
+| Last push | 2026-10-09 (0 days ago) |
 | Analyzed README | 5,093 chars from `raw:HEAD/README.md` |
 
 ## What it solves

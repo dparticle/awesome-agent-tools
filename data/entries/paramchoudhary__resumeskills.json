@@ -6,20 +6,20 @@
   "url": "https://github.com/Paramchoudhary/ResumeSkills",
   "description": "A collection of AI agent skills focused on resume optimization, job applications, and career development. Built for job seekers, career changers, and professionals who want Claude Code to help with resume writing, ATS optimization, interview prep, and strategic job search.",
   "homepage": "",
-  "stars": 2622,
+  "stars": 2633,
   "forks": 223,
   "open_issues": 6,
   "language": "",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-01-30T10:29:46Z",
-  "updated_at": "2026-10-09T09:49:24Z",
+  "updated_at": "2026-10-10T10:28:08Z",
   "pushed_at": "2026-06-19T07:20:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
-  "days_since_push": 112,
+  "age_days": 253,
+  "days_since_push": 113,
   "health_score": 47,
   "health_components": {
     "popularity": 68.4,
@@ -30,10 +30,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2622,
-    "days_span": 252,
-    "stars_per_day": 10.4,
-    "lifetime_stars_per_day": 10.4,
+    "stars_gained": 2633,
+    "days_span": 253,
+    "stars_per_day": 10.41,
+    "lifetime_stars_per_day": 10.41,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -111,7 +111,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:14+00:00",
+  "fetched_at": "2026-10-10T10:39:06+00:00",
   "categories": [
     "skills"
   ],

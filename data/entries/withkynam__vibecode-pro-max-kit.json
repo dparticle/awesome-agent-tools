@@ -6,7 +6,7 @@
   "url": "https://github.com/withkynam/vibecode-pro-max-kit",
   "description": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 15 agents, 33 skills working with /goal, agent-team, & workflow on autopilot loops with 0 need for human gate. Kills context rot, ships features, not spaghetti. Claude Code & Codex. Any stack",
   "homepage": "",
-  "stars": 1145,
+  "stars": 1147,
   "forks": 234,
   "open_issues": 23,
   "language": "JavaScript",
@@ -34,27 +34,27 @@
     "vibecoding"
   ],
   "created_at": "2026-05-27T05:46:25Z",
-  "updated_at": "2026-10-07T22:50:17Z",
+  "updated_at": "2026-10-09T22:19:22Z",
   "pushed_at": "2026-06-21T08:31:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
-  "days_since_push": 110,
+  "age_days": 136,
+  "days_since_push": 111,
   "health_score": 49,
   "health_components": {
     "popularity": 61.2,
-    "momentum": 7.1,
+    "momentum": 7.0,
     "maintenance": 55.0,
     "documentation": 60.0,
     "accessibility": 81.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1145,
-    "days_span": 135,
-    "stars_per_day": 8.48,
-    "lifetime_stars_per_day": 8.48,
+    "stars_gained": 1147,
+    "days_span": 136,
+    "stars_per_day": 8.43,
+    "lifetime_stars_per_day": 8.43,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -177,9 +177,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:23+00:00",
+  "fetched_at": "2026-10-10T10:39:13+00:00",
   "categories": [
-    "isolation-parallelism",
+    "model-routing",
     "skills",
     "teams"
   ],

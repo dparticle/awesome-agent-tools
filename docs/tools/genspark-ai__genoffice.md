@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,068 |
-| Star velocity | 129.5/day (lifetime basis, 70d span) |
+| Stars | 9,166 |
+| Star velocity | 129.1/day (lifetime basis, 71d span) |
 | Health score | 85/100 |
 | Documentation | 58/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-31 |
-| Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 45,437 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 45,476 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,11 +30,11 @@
 
 ### Model / provider routing
 
-> n in with Genspark and skip keys, or bring your own
+> spark and skip keys, or bring your own
 
 ### API gateway / proxy
 
-> n in with Genspark and skip keys, or bring your own
+> spark and skip keys, or bring your own
 
 ### Billing & metering
 
@@ -46,7 +46,7 @@
 
 ### Skills & plugins
 
-> Grok, Mistral, OpenRouter, Requesty, Opper, Cheaper Inference, or any OpenAI-compatible endpoint, local
+> l, OpenRouter, Requesty, Opper, Cheaper Inference, Atlas Cloud, or any OpenAI-compatible endpoint, local
 
 ### Agent runtime
 

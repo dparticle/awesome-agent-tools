@@ -6,7 +6,7 @@
   "url": "https://github.com/hashicorp/agent-skills",
   "description": "A collection of Agent skills and Claude Code plugins for HashiCorp products.",
   "homepage": "",
-  "stars": 890,
+  "stars": 892,
   "forks": 130,
   "open_issues": 12,
   "language": "HCL",
@@ -15,13 +15,13 @@
     "doormat-managed"
   ],
   "created_at": "2025-11-08T02:07:20Z",
-  "updated_at": "2026-10-08T18:02:14Z",
+  "updated_at": "2026-10-09T17:39:08Z",
   "pushed_at": "2026-10-05T01:21:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 335,
-  "days_since_push": 4,
+  "age_days": 336,
+  "days_since_push": 5,
   "health_score": 53,
   "health_components": {
     "popularity": 59.0,
@@ -32,10 +32,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 890,
-    "days_span": 335,
-    "stars_per_day": 2.66,
-    "lifetime_stars_per_day": 2.66,
+    "stars_gained": 892,
+    "days_span": 336,
+    "stars_per_day": 2.65,
+    "lifetime_stars_per_day": 2.65,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -112,7 +112,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:28+00:00",
+  "fetched_at": "2026-10-10T10:39:17+00:00",
   "categories": [
     "skills"
   ],

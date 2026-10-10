@@ -6,20 +6,20 @@
   "url": "https://github.com/isxlan0/Codex_AccountSwitch",
   "description": "Manage and switch multiple AI coding accounts locally without restarting development tools.",
   "homepage": "",
-  "stars": 251,
+  "stars": 250,
   "forks": 37,
   "open_issues": 6,
   "language": "C++",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-06T12:39:33Z",
-  "updated_at": "2026-10-07T20:35:39Z",
+  "updated_at": "2026-10-10T10:31:08Z",
   "pushed_at": "2026-07-24T10:34:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 244,
-  "days_since_push": 77,
+  "age_days": 245,
+  "days_since_push": 78,
   "health_score": 41,
   "health_components": {
     "popularity": 48.0,
@@ -30,10 +30,10 @@
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 251,
-    "days_span": 244,
-    "stars_per_day": 1.03,
-    "lifetime_stars_per_day": 1.03,
+    "stars_gained": 250,
+    "days_span": 245,
+    "stars_per_day": 1.02,
+    "lifetime_stars_per_day": 1.02,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:23:00+00:00",
+  "fetched_at": "2026-10-10T10:39:47+00:00",
   "categories": [
     "accounts",
     "analytics-2"
@@ -156,14 +156,14 @@
         "quota-management",
         "usage-analytics"
       ],
-      "star_ratio": 74.709,
-      "momentum_ratio": 68.447,
+      "star_ratio": 75.144,
+      "momentum_ratio": 68.98,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "74.71x the stars (18,752 vs 251)",
-        "68.45x the star velocity (70.5/day vs 1.0/day)",
+        "75.14x the stars (18,786 vs 250)",
+        "68.98x the star velocity (70.4/day vs 1.0/day)",
         "no harder to set up (26 vs 46 friction)"
       ],
       "reasons_zh": [],
@@ -192,7 +192,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 41,
-        "challenger_health": 77,
+        "challenger_health": 76,
         "incumbent_setup_score": 46,
         "challenger_setup_score": 26
       }

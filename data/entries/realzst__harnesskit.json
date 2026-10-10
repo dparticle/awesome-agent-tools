@@ -6,9 +6,9 @@
   "url": "https://github.com/RealZST/HarnessKit",
   "description": "More than a skill manager — manage skills, MCP servers, plugins, hooks, CLIs, configs, memory & rules across every AI coding agent. 🌟 Star if you like it!",
   "homepage": "",
-  "stars": 453,
+  "stars": 455,
   "forks": 46,
-  "open_issues": 8,
+  "open_issues": 6,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -22,16 +22,16 @@
     "skill-manager"
   ],
   "created_at": "2026-03-27T15:37:08Z",
-  "updated_at": "2026-10-08T03:33:50Z",
-  "pushed_at": "2026-10-08T03:33:45Z",
+  "updated_at": "2026-10-10T10:22:57Z",
+  "pushed_at": "2026-10-10T10:22:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 195,
-  "days_since_push": 1,
+  "age_days": 196,
+  "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 53.1,
+    "popularity": 53.2,
     "momentum": 1.9,
     "maintenance": 100.0,
     "documentation": 59.0,
@@ -39,8 +39,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 453,
-    "days_span": 195,
+    "stars_gained": 455,
+    "days_span": 196,
     "stars_per_day": 2.32,
     "lifetime_stars_per_day": 2.32,
     "basis": "lifetime",
@@ -48,7 +48,7 @@
   },
   "analysis": {
     "full_name": "RealZST/HarnessKit",
-    "readme_chars": 18471,
+    "readme_chars": 18544,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -134,7 +134,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.271
+      "external_link_ratio": 0.27
     },
     "highlights": [
       "Cross-agent deployment — See which agents have the extension and which don't — deploy to any missing agent with one click.",
@@ -156,10 +156,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:42+00:00",
+  "fetched_at": "2026-10-10T10:39:30+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
+    "model-routing",
     "skills"
   ],
   "primary_category": "agent-runtime-desktop-ui",

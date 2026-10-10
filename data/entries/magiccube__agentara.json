@@ -13,13 +13,13 @@
   "license": "",
   "topics": [],
   "created_at": "2026-03-05T08:16:37Z",
-  "updated_at": "2026-10-08T02:28:36Z",
+  "updated_at": "2026-10-10T03:22:18Z",
   "pushed_at": "2026-05-11T11:48:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 218,
-  "days_since_push": 150,
+  "age_days": 219,
+  "days_since_push": 151,
   "health_score": 38,
   "health_components": {
     "popularity": 54.3,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 516,
-    "days_span": 218,
-    "stars_per_day": 2.37,
-    "lifetime_stars_per_day": 2.37,
+    "days_span": 219,
+    "stars_per_day": 2.36,
+    "lifetime_stars_per_day": 2.36,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:38+00:00",
+  "fetched_at": "2026-10-10T10:39:27+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "analytics"
@@ -157,14 +157,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 18.488,
-      "momentum_ratio": 27.384,
+      "star_ratio": 18.572,
+      "momentum_ratio": 27.436,
       "setup_delta": -63,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "18.49x the stars (9,540 vs 516)",
-        "27.38x the star velocity (64.9/day vs 2.4/day)",
+        "18.57x the stars (9,583 vs 516)",
+        "27.44x the star velocity (64.8/day vs 2.4/day)",
         "no harder to set up (21 vs 84 friction)"
       ],
       "reasons_zh": [],

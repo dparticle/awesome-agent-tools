@@ -6,7 +6,7 @@
   "url": "https://github.com/vercel-labs/personal-agent-template",
   "description": "Open-source template for a durable personal AI agent — web chat, Slack, Linear, and long-term memory with user-approved saves. Eve, Nuxt, Better Auth, Vercel Connect.",
   "homepage": "https://personal-agent-template.vercel.app",
-  "stars": 476,
+  "stars": 477,
   "forks": 72,
   "open_issues": 3,
   "language": "TypeScript",
@@ -23,13 +23,13 @@
     "vercel-connect"
   ],
   "created_at": "2026-06-11T13:59:55Z",
-  "updated_at": "2026-10-09T00:07:29Z",
+  "updated_at": "2026-10-10T10:20:11Z",
   "pushed_at": "2026-09-02T13:12:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 119,
-  "days_since_push": 36,
+  "age_days": 120,
+  "days_since_push": 37,
   "health_score": 42,
   "health_components": {
     "popularity": 53.6,
@@ -40,10 +40,10 @@
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 476,
-    "days_span": 119,
-    "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 4.0,
+    "stars_gained": 477,
+    "days_span": 120,
+    "stars_per_day": 3.98,
+    "lifetime_stars_per_day": 3.98,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -129,17 +129,75 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:41+00:00",
+  "fetched_at": "2026-10-10T10:39:29+00:00",
   "categories": [
-    "analytics",
     "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "vercel-labs/personal-agent-template",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "vercel-labs/personal-agent-template",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "notifications",
+        "self-hosted"
+      ],
+      "star_ratio": 579.023,
+      "momentum_ratio": 261.869,
+      "setup_delta": -21,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "579.02x the stars (276,194 vs 477)",
+        "261.87x the star velocity (1042.2/day vs 4.0/day)",
+        "no harder to set up (57 vs 78 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "notifications",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 42,
+        "challenger_health": 89,
+        "incumbent_setup_score": 78,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

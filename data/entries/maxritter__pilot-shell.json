@@ -34,12 +34,12 @@
     "test-driven-development"
   ],
   "created_at": "2025-10-18T08:30:23Z",
-  "updated_at": "2026-10-08T14:37:08Z",
-  "pushed_at": "2026-10-09T11:08:40Z",
+  "updated_at": "2026-10-10T06:47:11Z",
+  "pushed_at": "2026-10-10T10:23:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 356,
+  "age_days": 357,
   "days_since_push": 0,
   "health_score": 62,
   "health_components": {
@@ -52,9 +52,9 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 2085,
-    "days_span": 356,
-    "stars_per_day": 5.86,
-    "lifetime_stars_per_day": 5.86,
+    "days_span": 357,
+    "stars_per_day": 5.84,
+    "lifetime_stars_per_day": 5.84,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -165,13 +165,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:16+00:00",
+  "fetched_at": "2026-10-10T10:39:07+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "isolation-parallelism",
+    "mobile",
     "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

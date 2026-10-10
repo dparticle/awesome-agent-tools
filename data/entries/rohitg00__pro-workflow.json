@@ -6,8 +6,8 @@
   "url": "https://github.com/rohitg00/pro-workflow",
   "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
   "homepage": "https://rohitg00.github.io/pro-workflow/infographic.html",
-  "stars": 2908,
-  "forks": 295,
+  "stars": 2910,
+  "forks": 294,
   "open_issues": 31,
   "language": "JavaScript",
   "license": "",
@@ -33,13 +33,13 @@
     "worktrees"
   ],
   "created_at": "2026-02-01T19:47:29Z",
-  "updated_at": "2026-10-09T08:28:38Z",
+  "updated_at": "2026-10-10T10:16:22Z",
   "pushed_at": "2026-09-29T10:12:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 249,
-  "days_since_push": 10,
+  "age_days": 250,
+  "days_since_push": 11,
   "health_score": 54,
   "health_components": {
     "popularity": 69.3,
@@ -50,10 +50,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2908,
-    "days_span": 249,
-    "stars_per_day": 11.68,
-    "lifetime_stars_per_day": 11.68,
+    "stars_gained": 2910,
+    "days_span": 250,
+    "stars_per_day": 11.64,
+    "lifetime_stars_per_day": 11.64,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -179,13 +179,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:13+00:00",
+  "fetched_at": "2026-10-10T10:39:05+00:00",
   "categories": [
-    "isolation-parallelism",
+    "mobile",
     "model-routing",
     "skills"
   ],
-  "primary_category": "isolation-parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

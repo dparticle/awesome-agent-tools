@@ -6,9 +6,9 @@
   "url": "https://github.com/mnemon-dev/mnemon",
   "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
   "homepage": "https://mnemon.dev",
-  "stars": 614,
-  "forks": 74,
-  "open_issues": 9,
+  "stars": 617,
+  "forks": 75,
+  "open_issues": 13,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -31,13 +31,13 @@
     "persistent-memory"
   ],
   "created_at": "2026-02-20T02:26:17Z",
-  "updated_at": "2026-10-09T05:58:03Z",
+  "updated_at": "2026-10-10T10:21:20Z",
   "pushed_at": "2026-10-08T12:52:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 231,
-  "days_since_push": 0,
+  "age_days": 232,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 55.8,
@@ -48,8 +48,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 614,
-    "days_span": 231,
+    "stars_gained": 617,
+    "days_span": 232,
     "stars_per_day": 2.66,
     "lifetime_stars_per_day": 2.66,
     "basis": "lifetime",
@@ -158,17 +158,74 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:35+00:00",
+  "fetched_at": "2026-10-10T10:39:24+00:00",
   "categories": [
     "analytics",
     "skills"
   ],
   "primary_category": "analytics",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "mnemon-dev/mnemon",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "incumbent_name": "mnemon-dev/mnemon",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 7.645,
+      "momentum_ratio": 8.91,
+      "setup_delta": -40,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "7.65x the stars (4,717 vs 617)",
+        "8.91x the star velocity (23.7/day vs 2.7/day)",
+        "no harder to set up (24 vs 64 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 65,
+        "incumbent_setup_score": 64,
+        "challenger_setup_score": 24
+      }
+    }
   }
 }

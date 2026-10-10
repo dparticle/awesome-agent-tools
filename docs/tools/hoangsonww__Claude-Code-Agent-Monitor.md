@@ -2,7 +2,7 @@
 
 # hoangsonww/Claude-Code-Agent-Monitor
 
-> A professional dashboard to track and visualize Claude Code, Cursor, and Codex agent sessions, tool usage, conversation history, cost, and subagent orchestration in real time.
+> Monitor Claude Code, Cursor, and Codex sessions in real time.
 
 [Repository](https://github.com/hoangsonww/Claude-Code-Agent-Monitor) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,59 +12,45 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,054 |
-| Star velocity | 4.9/day (lifetime basis, 217d span) |
+| Stars | 1,058 |
+| Star velocity | 4.8/day (lifetime basis, 218d span) |
 | Health score | 55/100 |
-| Documentation | 72/100 |
+| Documentation | 57/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-05 |
-| Last push | 2026-10-08 (0 days ago) |
-| Analyzed README | 160,949 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 14,791 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Automatic failover
-
-> ailable under **Settings → Hook Configuration**.
-
-### Mobile access
-
-> cations arrive even if the browser is closed, as the Service Worker operates in the background.
-
 ### Multi-agent orchestration
 
-> g platform for Claude Code, Cursor & Codex agent activity 🚀
-
-### Usage analytics
-
-> ion flow is based on token usage and model pricing rules.
+> st control room for AI coding agents
 
 ### Session persistence
 
-> ens, costs, compactions, conversations, and WebSocket state current.
+> ds, and no automatic self-update.
 
 ### Skills & plugins
 
-> rchitecture tour; exact technical contracts stay in docs/.
+> -driven dashboard queries and guarded operations MCP guide
+
+### Agent runtime
+
+> # Agent Dashboard for Claude Code, Cursor & Codex
 
 ### MCP support
 
-> alized documentation with region-specific tips and best practices.
-
-### Self-hostable
-
-> bsolute working directory and canonicalizes it before use, so home and recent-project launches remain supported.
+> ns, tool-flow graphs, concurrency, delegation, and compaction analysis.
 
 ### GUI / desktop app
 
-> ion, transport details, safety flags, and tool catalog.
-
 ### Notifications
 
-> · launch Claude Code or Codex with provider-native controls
+> thentication, guarded mutations, backup-first edits, bounded uploads, and no automatic self-update.
 
 ### Cross-agent support
 
@@ -72,22 +58,22 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 52/100)
+- **Difficulty:** 🟢 Easy (friction score 30/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `docker compose up -d --build`
+- **Quickest install:** `npx skills add hoangsonww/Claude-Code-Agent-Monitor --list`
 
 **Signals that make it easy:** npx one-liner, native installer / package
 
-**Signals that add work:** docker compose up, git clone (build from source), npm install/build, make build
+**Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** environment variables, config.json/yaml/toml, sign-in required, database dependency, server/reverse-proxy setup, process manager
+**Configuration required:** database dependency, server/reverse-proxy setup
 
-*Some setup. install via npx one-liner, native installer / package; needs docker compose up, git clone (build from source); configure environment variables, config.json/yaml/toml; no-code positioning*
+*Easy. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure database dependency, server/reverse-proxy setup; GUI application*
 
 ## Documentation quality
 
-Score **72/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -95,12 +81,9 @@ Score **72/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
-- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
-- has a table of contents
 - explains architecture
-- long, detailed README
 
 ## Score breakdown
 
@@ -109,8 +92,8 @@ Score **72/100**, based on these detected signals:
 | popularity | 60.5 |
 | momentum | 4.0 |
 | maintenance | 100.0 |
-| documentation | 72.0 |
-| accessibility | 48.0 |
+| documentation | 57.0 |
+| accessibility | 70.0 |
 
 ---
 

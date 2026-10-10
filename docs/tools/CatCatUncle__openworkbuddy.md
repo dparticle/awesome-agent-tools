@@ -12,19 +12,21 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 279 |
-| Star velocity | 4.7/day (lifetime basis, 60d span) |
+| Stars | 283 |
+| Star velocity | 4.6/day (lifetime basis, 61d span) |
 | Health score | 51/100 |
-| Documentation | 52/100 |
+| Documentation | 53/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
-| Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 17,487 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 18,474 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Multi-account switching
 
 ### Quota & usage management
 
@@ -54,7 +56,7 @@
 
 ### Security & isolation
 
-> -mode --perm -C -f --json 等全部参数 → 命令行用法
+> 按重要程度排：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在
 
 ### Self-hostable
 
@@ -85,7 +87,7 @@
 
 ## Documentation quality
 
-Score **52/100**, based on these detected signals:
+Score **53/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -102,10 +104,10 @@ Score **52/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 48.9 |
+| popularity | 49.0 |
 | momentum | 3.9 |
 | maintenance | 100.0 |
-| documentation | 52.0 |
+| documentation | 53.0 |
 | accessibility | 63.0 |
 
 ---

@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,826 |
-| Star velocity | 101.3/day (lifetime basis, 97d span) |
-| Health score | 80/100 |
+| Stars | 9,789 |
+| Star velocity | 99.9/day (lifetime basis, 98d span) |
+| Health score | 79/100 |
 | Documentation | 59/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-10-09 (0 days ago) |
+| Last push | 2026-10-10 (0 days ago) |
 | Analyzed README | 43,978 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [nexu-io/open-design](https://github.com/nexu-io/open-design)** — Superseded by nexu-io/open-design: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -87,7 +89,7 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 79.8 |
-| momentum | 84.4 |
+| momentum | 83.2 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
 | accessibility | 63.0 |

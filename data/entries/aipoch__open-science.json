@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5503,
+  "stars": 5496,
   "forks": 511,
-  "open_issues": 51,
+  "open_issues": 47,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-10-09T10:06:20Z",
-  "pushed_at": "2026-10-09T10:43:01Z",
+  "updated_at": "2026-10-10T10:29:03Z",
+  "pushed_at": "2026-10-10T10:28:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 98,
+  "age_days": 99,
   "days_since_push": 0,
   "health_score": 73,
   "health_components": {
     "popularity": 74.8,
-    "momentum": 46.8,
+    "momentum": 46.3,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 71.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5503,
-    "days_span": 98,
-    "stars_per_day": 56.15,
-    "lifetime_stars_per_day": 56.15,
+    "stars_gained": 5496,
+    "days_span": 99,
+    "stars_per_day": 55.52,
+    "lifetime_stars_per_day": 55.52,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 32808,
+    "readme_chars": 33313,
     "capabilities": [
       "remote-control",
       "model-routing",
@@ -75,10 +75,10 @@
       "remote-control": "greatly appreciate a star on GitHub.",
       "model-routing": "overview - Node.js quick start and package entry point",
       "billing-metering": "### Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.",
-      "skills-plugins": "nabled” refers to the skill, not to the availability of every registered host.",
+      "skills-plugins": "s to the skill, not to the availability of every registered host.",
       "mcp-support": "Marketplace contributions are published after review; local imports do not publish skills.",
-      "security-isolation": "",
-      "gui-desktop": "date active remote sessions.",
+      "security-isolation": "untime owns each data directory.",
+      "gui-desktop": "owser share that service.",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
@@ -87,8 +87,8 @@
       "billing-metering": 1,
       "skills-plugins": 1,
       "mcp-support": 1,
-      "security-isolation": 1,
-      "gui-desktop": 2,
+      "security-isolation": 2,
+      "gui-desktop": 3,
       "cross-agent-support": 3
     },
     "friction": {
@@ -154,7 +154,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.457
+      "external_link_ratio": 0.45
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -166,12 +166,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:21:45+00:00",
+  "fetched_at": "2026-10-10T10:38:39+00:00",
   "categories": [
-    "billing",
-    "self-hosting-security"
+    "sharing"
   ],
-  "primary_category": "billing",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

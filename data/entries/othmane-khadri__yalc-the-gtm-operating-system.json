@@ -6,7 +6,7 @@
   "url": "https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system",
   "description": "YALC 1.0, the open-source Clay alternative. MIT, CLI-first, self-hosted, runs in Claude Code. Yalc today is an intelligent orchestration layer that runs pre configured GTM agents on your existing tech stack (CRM, sequencer and call recorder) → yalc.ai",
   "homepage": "https://www.yalc.ai",
-  "stars": 317,
+  "stars": 318,
   "forks": 90,
   "open_issues": 8,
   "language": "TypeScript",
@@ -22,25 +22,25 @@
     "typescript"
   ],
   "created_at": "2026-01-04T10:21:22Z",
-  "updated_at": "2026-10-06T08:56:29Z",
+  "updated_at": "2026-10-09T19:07:39Z",
   "pushed_at": "2026-08-20T16:57:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 278,
-  "days_since_push": 49,
+  "age_days": 279,
+  "days_since_push": 50,
   "health_score": 46,
   "health_components": {
     "popularity": 50.0,
-    "momentum": 1.0,
+    "momentum": 0.9,
     "maintenance": 78.0,
     "documentation": 73.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 317,
-    "days_span": 278,
+    "stars_gained": 318,
+    "days_span": 279,
     "stars_per_day": 1.14,
     "lifetime_stars_per_day": 1.14,
     "basis": "lifetime",
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:54+00:00",
+  "fetched_at": "2026-10-10T10:39:40+00:00",
   "categories": [
     "self-hosting-security",
     "skills"
@@ -172,14 +172,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 869.549,
-      "momentum_ratio": 915.895,
+      "star_ratio": 868.535,
+      "momentum_ratio": 914.246,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "869.55x the stars (275,647 vs 317)",
-        "915.89x the star velocity (1044.1/day vs 1.1/day)",
+        "868.53x the stars (276,194 vs 318)",
+        "914.25x the star velocity (1042.2/day vs 1.1/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],
@@ -194,6 +194,7 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -204,6 +205,7 @@
           "parallel-execution",
           "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
           "worktree-isolation"
         ],

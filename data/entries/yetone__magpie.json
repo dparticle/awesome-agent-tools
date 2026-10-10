@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 7237,
-  "forks": 499,
-  "open_issues": 359,
+  "stars": 8184,
+  "forks": 549,
+  "open_issues": 410,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-09T11:18:09Z",
-  "pushed_at": "2026-10-09T11:17:40Z",
+  "updated_at": "2026-10-10T10:38:01Z",
+  "pushed_at": "2026-10-10T10:37:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 15,
+  "age_days": 16,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
-    "popularity": 77.2,
+    "popularity": 78.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 57.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7237,
-    "days_span": 15,
-    "stars_per_day": 482.47,
-    "lifetime_stars_per_day": 482.47,
+    "stars_gained": 8184,
+    "days_span": 16,
+    "stars_per_day": 511.5,
+    "lifetime_stars_per_day": 511.5,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 16335,
+    "readme_chars": 17062,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -59,7 +59,7 @@
     "capability_evidence": {
       "multi-account-switching": "count can go through a proxy of its own.",
       "quota-management": "one key that matters in the agent's own config.",
-      "model-routing": "e · Pencil · T3 Code · OpenHanako · AtomCode · Alma · Cindy",
+      "model-routing": "&nbsp;·&nbsp; Plugins &nbsp;·&nbsp; Discord &nbsp;·&nbsp; English · 简体中文",
       "api-gateway": "anfan · Tencent Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…",
       "mcp-support": "ers it as a provider to every other agent.",
       "gui-desktop": "f you use more than one agent, more than one provider, or more than one account.",
@@ -133,7 +133,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.653
+      "external_link_ratio": 1.876
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -155,10 +155,9 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-09T11:21:30+00:00",
+  "fetched_at": "2026-10-10T10:38:25+00:00",
   "categories": [
-    "accounts",
-    "billing"
+    "accounts"
   ],
   "primary_category": "accounts",
   "lifecycle": {

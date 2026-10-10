@@ -7,7 +7,7 @@
   "description": "Power BI AI skills and Power BI agents for Claude Code and GitHub Copilot: a plugin marketplace of Power BI skills, subagents, and hooks for semantic models, DAX, TMDL, reports, and AI dashboards. Includes Microsoft Fabric skills and Fabric agents. Weekly updates.",
   "homepage": "https://data-goblins.com",
   "stars": 1034,
-  "forks": 148,
+  "forks": 149,
   "open_issues": 0,
   "language": "C#",
   "license": "GPL-3.0",
@@ -38,8 +38,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 267,
-  "days_since_push": 1,
+  "age_days": 268,
+  "days_since_push": 2,
   "health_score": 57,
   "health_components": {
     "popularity": 60.3,
@@ -51,9 +51,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1034,
-    "days_span": 267,
-    "stars_per_day": 3.87,
-    "lifetime_stars_per_day": 3.87,
+    "days_span": 268,
+    "stars_per_day": 3.86,
+    "lifetime_stars_per_day": 3.86,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -151,7 +151,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-09T11:22:26+00:00",
+  "fetched_at": "2026-10-10T10:39:15+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",
