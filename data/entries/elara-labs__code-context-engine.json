@@ -7,7 +7,7 @@
   "description": "Save 94% on AI coding tokens. Index your codebase, agents search instead of reading files. Works with Claude Code, Codex, Copilot, Cursor, Gemini CLI. Local MCP server, free, open source.",
   "homepage": "https://elara-labs.github.io/code-context-engine/",
   "stars": 428,
-  "forks": 67,
+  "forks": 66,
   "open_issues": 21,
   "language": "Python",
   "license": "MIT",
@@ -35,12 +35,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 165,
-  "days_since_push": 47,
+  "age_days": 166,
+  "days_since_push": 48,
   "health_score": 52,
   "health_components": {
     "popularity": 52.6,
-    "momentum": 2.2,
+    "momentum": 2.1,
     "maintenance": 78.0,
     "documentation": 89.0,
     "accessibility": 57.0
@@ -48,9 +48,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 428,
-    "days_span": 165,
-    "stars_per_day": 2.59,
-    "lifetime_stars_per_day": 2.59,
+    "days_span": 166,
+    "stars_per_day": 2.58,
+    "lifetime_stars_per_day": 2.58,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -159,7 +159,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:32+00:00",
+  "fetched_at": "2026-10-11T10:52:54+00:00",
   "categories": [
     "analytics"
   ],

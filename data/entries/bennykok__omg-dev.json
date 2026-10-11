@@ -13,17 +13,17 @@
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-10-10T07:45:38Z",
-  "pushed_at": "2026-10-10T07:45:34Z",
+  "updated_at": "2026-10-11T10:18:22Z",
+  "pushed_at": "2026-10-11T10:18:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 115,
+  "age_days": 116,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 54.7,
-    "momentum": 4.0,
+    "momentum": 3.9,
     "maintenance": 100.0,
     "documentation": 43.0,
     "accessibility": 69.0
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 546,
-    "days_span": 115,
-    "stars_per_day": 4.75,
-    "lifetime_stars_per_day": 4.75,
+    "days_span": 116,
+    "stars_per_day": 4.71,
+    "lifetime_stars_per_day": 4.71,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:25+00:00",
+  "fetched_at": "2026-10-11T10:52:44+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "mobile-2"

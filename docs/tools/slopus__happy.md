@@ -2,7 +2,7 @@
 
 # slopus/happy
 
-> Multi-provider within one session.
+> Multi-provider.
 
 [Repository](https://github.com/slopus/happy) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 24,079 |
-| Star velocity | 53.6/day (lifetime basis, 449d span) |
+| Stars | 24,084 |
+| Star velocity | 53.5/day (lifetime basis, 450d span) |
 | Health score | 71/100 |
 | Documentation | 29/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-07-18 |
-| Last push | 2026-10-10 (0 days ago) |
-| Analyzed README | 4,418 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 4,511 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -35,10 +35,6 @@
 > Happy adds a harness, not another bill.
 
 ### Multi-agent orchestration
-
-### Model / provider routing
-
-> .com/user-attachments/assets/b3580704-f9e0-441e-80be-3f83f6a08ab5
 
 ### Security & isolation
 
@@ -80,7 +76,7 @@ Score **29/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 87.6 |
-| momentum | 44.7 |
+| momentum | 44.6 |
 | maintenance | 100.0 |
 | documentation | 29.0 |
 | accessibility | 96.0 |

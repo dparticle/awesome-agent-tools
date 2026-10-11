@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 373 |
-| Star velocity | 0.6/day (lifetime basis, 580d span) |
+| Star velocity | 0.6/day (lifetime basis, 581d span) |
 | Health score | 52/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2025-03-08 |
-| Last push | 2026-10-08 (1 days ago) |
+| Last push | 2026-10-08 (2 days ago) |
 | Analyzed README | 29,300 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [aipoch/open-science](https://github.com/aipoch/open-science)** — Superseded by aipoch/open-science: covers 100% of capabilities (5/5).
 
 ## What it solves
 

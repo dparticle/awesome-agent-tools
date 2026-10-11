@@ -7,7 +7,7 @@
   "description": "A collection of Claude Code skills for academic research review. These tools were developed by Claes Bäckman.",
   "homepage": "",
   "stars": 495,
-  "forks": 93,
+  "forks": 92,
   "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 222,
-  "days_since_push": 14,
+  "age_days": 223,
+  "days_since_push": 15,
   "health_score": 52,
   "health_components": {
     "popularity": 53.9,
-    "momentum": 1.9,
+    "momentum": 1.8,
     "maintenance": 92.0,
     "documentation": 43.0,
     "accessibility": 90.0
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 495,
-    "days_span": 222,
-    "stars_per_day": 2.23,
-    "lifetime_stars_per_day": 2.23,
+    "days_span": 223,
+    "stars_per_day": 2.22,
+    "lifetime_stars_per_day": 2.22,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -114,7 +114,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:28+00:00",
+  "fetched_at": "2026-10-11T10:52:49+00:00",
   "categories": [
     "skills"
   ],

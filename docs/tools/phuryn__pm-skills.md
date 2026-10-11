@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 26,866 |
-| Star velocity | 121.0/day (lifetime basis, 222d span) |
+| Stars | 26,878 |
+| Star velocity | 120.5/day (lifetime basis, 223d span) |
 | Health score | 87/100 |
-| Documentation | 56/100 |
+| Documentation | 57/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | n/a |
 | Created | 2026-03-01 |
 | Last push | 2026-10-10 (0 days ago) |
-| Analyzed README | 27,470 chars from `raw:HEAD/README.md` |
+| Analyzed README | 27,697 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@
 
 ## Documentation quality
 
-Score **56/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -76,7 +76,7 @@ Score **56/100**, based on these detected signals:
 | popularity | 88.6 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 56.0 |
+| documentation | 57.0 |
 | accessibility | 73.0 |
 
 ---

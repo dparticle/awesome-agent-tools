@@ -2,7 +2,7 @@
 
 # tickernelz/opencode-mem
 
-> A persistent memory system for AI coding agents that enables long-term context retention across sessions using local vector database technology.
+> Languages: 🇬🇧 | 🇩🇪 | 🇨🇳 | 🇸🇦 | 🇹🇷 | 🇳🇱
 
 [Repository](https://github.com/tickernelz/opencode-mem) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,725 |
-| Star velocity | 6.3/day (lifetime basis, 273d span) |
+| Stars | 1,732 |
+| Star velocity | 6.3/day (lifetime basis, 274d span) |
 | Health score | 55/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-01-10 |
-| Last push | 2026-10-06 (3 days ago) |
-| Analyzed README | 39,385 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-10 (0 days ago) |
+| Analyzed README | 41,858 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -88,7 +88,7 @@ Score **69/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 64.7 |
+| popularity | 64.8 |
 | momentum | 5.3 |
 | maintenance | 100.0 |
 | documentation | 69.0 |

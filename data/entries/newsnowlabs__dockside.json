@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1853,
-  "days_since_push": 12,
+  "age_days": 1854,
+  "days_since_push": 13,
   "health_score": 47,
   "health_components": {
     "popularity": 50.1,
@@ -40,7 +40,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 321,
-    "days_span": 1853,
+    "days_span": 1854,
     "stars_per_day": 0.17,
     "lifetime_stars_per_day": 0.17,
     "basis": "lifetime",
@@ -148,12 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:40+00:00",
+  "fetched_at": "2026-10-11T10:53:04+00:00",
   "categories": [
-    "mobile",
-    "teams"
+    "mobile"
   ],
-  "primary_category": "teams",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

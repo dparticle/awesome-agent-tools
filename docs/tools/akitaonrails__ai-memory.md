@@ -2,7 +2,7 @@
 
 # akitaonrails/ai-memory
 
-> Your coding agent already has a memory feature.
+> Your coding agent probably has a memory feature already.
 
 [Repository](https://github.com/akitaonrails/ai-memory) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,098 |
-| Star velocity | 64.5/day (lifetime basis, 141d span) |
+| Stars | 9,132 |
+| Star velocity | 64.3/day (lifetime basis, 142d span) |
 | Health score | 70/100 |
 | Documentation | 67/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-05-21 |
-| Last push | 2026-10-10 (0 days ago) |
-| Analyzed README | 34,603 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 35,003 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -48,11 +48,9 @@
 
 ### Security & isolation
 
-> t one server and what one
-
 ### Team collaboration
 
-> here reachable — a homelab box, a LAN host — and
+> chable, such as a homelab box or a LAN host, and
 
 ### GUI / desktop app
 
@@ -98,7 +96,7 @@ Score **67/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 79.2 |
-| momentum | 53.8 |
+| momentum | 53.6 |
 | maintenance | 100.0 |
 | documentation | 67.0 |
 | accessibility | 36.0 |

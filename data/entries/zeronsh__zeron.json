@@ -6,9 +6,9 @@
   "url": "https://github.com/zeronsh/zeron",
   "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
   "homepage": "https://zeron.sh",
-  "stars": 3145,
-  "forks": 306,
-  "open_issues": 296,
+  "stars": 3156,
+  "forks": 310,
+  "open_issues": 303,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "rust"
   ],
   "created_at": "2026-07-20T15:04:04Z",
-  "updated_at": "2026-10-10T08:52:19Z",
-  "pushed_at": "2026-10-10T08:52:17Z",
+  "updated_at": "2026-10-11T08:05:28Z",
+  "pushed_at": "2026-10-11T06:05:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 81,
+  "age_days": 82,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 70.0,
-    "momentum": 32.4,
+    "momentum": 32.1,
     "maintenance": 100.0,
     "documentation": 35.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3145,
-    "days_span": 81,
-    "stars_per_day": 38.83,
-    "lifetime_stars_per_day": 38.83,
+    "stars_gained": 3156,
+    "days_span": 82,
+    "stars_per_day": 38.49,
+    "lifetime_stars_per_day": 38.49,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zeronsh/zeron",
-    "readme_chars": 1568,
+    "readme_chars": 1594,
     "capabilities": [
       "agent-runtime",
       "gui-desktop",
@@ -58,7 +58,7 @@
     ],
     "capability_evidence": {
       "agent-runtime": "",
-      "gui-desktop": "Control your coding agents (Claude Code, Codex, Cursor, Devin, Grok, Hermes, Pi, Antigravity) locally by default, with optional multi-device sync. English 简体中文 한국어 日本語 Zeron desktop app ## Desktop app Download the lates…",
+      "gui-desktop": "your coding agents (Claude Code, Codex, Cursor, Devin, Grok, Hermes, Pi, Antigravity) locally by default, with optional multi-device sync.",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
@@ -112,7 +112,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.638
+      "external_link_ratio": 0.627
     },
     "highlights": [],
     "summary_zh_native": "在本地管理你的编码 agent（Claude Code、Codex、Cursor、Devin、Grok、Hermes、Pi、Antigravity），也可以打开多设备同步。",
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:38:43+00:00",
+  "fetched_at": "2026-10-11T10:51:40+00:00",
   "categories": [
     "agent-runtime-desktop-ui"
   ],

@@ -6,8 +6,8 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 859,
-  "forks": 105,
+  "stars": 865,
+  "forks": 106,
   "open_issues": 1,
   "language": "Shell",
   "license": "MIT",
@@ -31,13 +31,13 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-10T09:02:36Z",
+  "updated_at": "2026-10-11T02:59:23Z",
   "pushed_at": "2026-10-09T08:13:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 296,
-  "days_since_push": 1,
+  "age_days": 297,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
     "popularity": 58.7,
@@ -48,10 +48,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 859,
-    "days_span": 296,
-    "stars_per_day": 2.9,
-    "lifetime_stars_per_day": 2.9,
+    "stars_gained": 865,
+    "days_span": 297,
+    "stars_per_day": 2.91,
+    "lifetime_stars_per_day": 2.91,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -162,7 +162,7 @@
       "kimi-cli (Kimi Code CLI, kimi) shadows the kimi API provider, using the kimi CLI's own configured model unless KIMICLIMODEL is set",
       "Use the codex, agy (Antigravity), grok, kimi (Kimi Code) and cursor-agent (Cursor) CLIs (subscription auth) when installed; the first four are preferred over their API siblings",
       "Debate mode round 2 rebuttals are not cached (they depend on round 1 content) — with one exception: if a CLI provider fails in round 2 and falls back to its API sibling, that fallback rebut…",
-      "Run a local ollama model as a council member — no key, no subscription, no network"
+      "Seat any model OpenRouter routes to — Anthropic's Claude by default, so the council"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -173,11 +173,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:19+00:00",
+  "fetched_at": "2026-10-11T10:52:34+00:00",
   "categories": [
+    "analytics",
     "mobile",
-    "model-routing",
-    "skills"
+    "model-routing"
   ],
   "primary_category": "mobile",
   "lifecycle": {

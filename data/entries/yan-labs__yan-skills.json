@@ -19,12 +19,12 @@
     "skills"
   ],
   "created_at": "2026-07-05T07:14:39Z",
-  "updated_at": "2026-10-10T07:07:28Z",
-  "pushed_at": "2026-10-10T06:26:01Z",
+  "updated_at": "2026-10-10T13:05:17Z",
+  "pushed_at": "2026-10-10T13:05:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 97,
+  "age_days": 98,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
@@ -37,15 +37,15 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 213,
-    "days_span": 97,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 2.2,
+    "days_span": 98,
+    "stars_per_day": 2.17,
+    "lifetime_stars_per_day": 2.17,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "yan-labs/yan-skills",
-    "readme_chars": 28255,
+    "readme_chars": 28522,
     "capabilities": [
       "quota-management",
       "multi-agent-orchestration",
@@ -133,7 +133,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.425
+      "external_link_ratio": 0.421
     },
     "highlights": [
       "超标文档拆分（主文件留入口与判据，旧文件名都保留为入口）：lifecycle.md → lifecycle/stage-1…7，另有 provider-capabilities/、demand-sources/、playbooks/research/、playbooks/selection/、integrations/、cloudflare/ 子目录。",
@@ -150,12 +150,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:55+00:00",
+  "fetched_at": "2026-10-11T10:53:26+00:00",
   "categories": [
-    "self-hosting-security",
-    "sharing"
+    "accounts",
+    "security-self-hosting"
   ],
-  "primary_category": "sharing",
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",

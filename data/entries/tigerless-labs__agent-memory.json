@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/agent-memory",
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
-  "stars": 3394,
-  "forks": 143,
-  "open_issues": 50,
+  "stars": 3401,
+  "forks": 144,
+  "open_issues": 51,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,27 +26,27 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-10-10T10:21:20Z",
+  "updated_at": "2026-10-11T07:32:07Z",
   "pushed_at": "2026-10-09T15:22:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 38,
-  "days_since_push": 0,
+  "age_days": 39,
+  "days_since_push": 1,
   "health_score": 70,
   "health_components": {
     "popularity": 70.6,
-    "momentum": 74.4,
+    "momentum": 72.7,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 19.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3394,
-    "days_span": 38,
-    "stars_per_day": 89.32,
-    "lifetime_stars_per_day": 89.32,
+    "stars_gained": 3401,
+    "days_span": 39,
+    "stars_per_day": 87.21,
+    "lifetime_stars_per_day": 87.21,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -138,77 +138,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:04+00:00",
+  "fetched_at": "2026-10-11T10:52:11+00:00",
   "categories": [
-    "self-hosting-security"
+    "analytics",
+    "teams"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "tigerless-labs/agent-memory",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "tigerless-labs/agent-memory",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "worktree-isolation"
-      ],
-      "star_ratio": 81.377,
-      "momentum_ratio": 11.669,
-      "setup_delta": -24,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "81.38x the stars (276,194 vs 3,394)",
-        "11.67x the star velocity (1042.2/day vs 89.3/day)",
-        "no harder to set up (57 vs 81 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 70,
-        "challenger_health": 89,
-        "incumbent_setup_score": 81,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

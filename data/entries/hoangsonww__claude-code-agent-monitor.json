@@ -6,9 +6,9 @@
   "url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
   "description": "🚀 A real-time monitoring dashboard for Claude Code & Codex, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, & WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, & an interactive web UI/MacOS/Windows native app.",
   "homepage": "https://hoangsonww.github.io/Claude-Code-Agent-Monitor/",
-  "stars": 1058,
-  "forks": 246,
-  "open_issues": 44,
+  "stars": 1061,
+  "forks": 248,
+  "open_issues": 45,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "websocket"
   ],
   "created_at": "2026-03-05T18:52:21Z",
-  "updated_at": "2026-10-10T06:37:05Z",
-  "pushed_at": "2026-10-10T02:32:58Z",
+  "updated_at": "2026-10-11T05:03:01Z",
+  "pushed_at": "2026-10-11T05:59:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 218,
+  "age_days": 219,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1058,
-    "days_span": 218,
-    "stars_per_day": 4.85,
-    "lifetime_stars_per_day": 4.85,
+    "stars_gained": 1061,
+    "days_span": 219,
+    "stars_per_day": 4.84,
+    "lifetime_stars_per_day": 4.84,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -148,8 +148,7 @@
     },
     "highlights": [
       "Run and resume agents: Launch Claude Code or Codex, stream output, send follow-ups, resume previous work, and reattach to background runs.",
-      "One live fleet: Claude Code, Cursor, and Codex sessions appear in the same Dashboard, Sessions, Activity Feed, and Kanban views.",
-      "MCP: docs/MCP.md and mcp/README.md"
+      "One live fleet: Claude Code, Cursor, and Codex sessions appear in the same Dashboard, Sessions, Activity Feed, and Kanban views."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -160,13 +159,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:15+00:00",
+  "fetched_at": "2026-10-11T10:52:28+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "self-hosting-security",
+    "analytics",
     "skills"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

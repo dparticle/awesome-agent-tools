@@ -6,8 +6,8 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 560,
-  "forks": 70,
+  "stars": 563,
+  "forks": 71,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
@@ -18,13 +18,13 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-10-09T21:12:46Z",
+  "updated_at": "2026-10-11T06:55:27Z",
   "pushed_at": "2026-08-03T13:21:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 423,
-  "days_since_push": 67,
+  "age_days": 424,
+  "days_since_push": 68,
   "health_score": 48,
   "health_components": {
     "popularity": 55.0,
@@ -35,10 +35,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 560,
-    "days_span": 423,
-    "stars_per_day": 1.32,
-    "lifetime_stars_per_day": 1.32,
+    "stars_gained": 563,
+    "days_span": 424,
+    "stars_per_day": 1.33,
+    "lifetime_stars_per_day": 1.33,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:25+00:00",
+  "fetched_at": "2026-10-11T10:52:43+00:00",
   "categories": [
     "mobile",
     "skills"
@@ -133,15 +133,15 @@
   "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 EverMind-AI/Raven 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "EverMind-AI/Raven",
+    "note_en": "Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 pedrohcgs/claude-code-my-workflow 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "pedrohcgs/claude-code-my-workflow",
     "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "evermind-ai/raven",
+      "challenger": "pedrohcgs/claude-code-my-workflow",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "EverMind-AI/Raven",
+      "challenger_name": "pedrohcgs/claude-code-my-workflow",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -152,15 +152,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 9.557,
-      "momentum_ratio": 28.553,
-      "setup_delta": -12,
-      "dominance": 1.0,
+      "star_ratio": 2.947,
+      "momentum_ratio": 5.068,
+      "setup_delta": -10,
+      "dominance": 0.996,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "9.56x the stars (5,352 vs 560)",
-        "28.55x the star velocity (37.7/day vs 1.3/day)",
-        "no harder to set up (13 vs 25 friction)"
+        "2.95x the stars (1,659 vs 563)",
+        "5.07x the star velocity (6.7/day vs 1.3/day)",
+        "no harder to set up (15 vs 25 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -171,20 +171,19 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
+          "mcp-support",
           "memory-context",
           "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
-          "self-hosted",
-          "skills-plugins"
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 70,
+        "challenger_health": 60,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 13
+        "challenger_setup_score": 15
       }
     }
   }

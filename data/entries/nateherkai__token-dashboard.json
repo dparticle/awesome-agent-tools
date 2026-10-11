@@ -6,20 +6,20 @@
   "url": "https://github.com/nateherkai/token-dashboard",
   "description": "See where Claude Code is burning tokens - turn raw JSONL transcripts into local cost analytics, hotspot views, and session-level usage insight.",
   "homepage": "",
-  "stars": 723,
+  "stars": 724,
   "forks": 198,
   "open_issues": 25,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-04-20T01:10:22Z",
-  "updated_at": "2026-10-07T22:17:17Z",
+  "updated_at": "2026-10-11T10:02:57Z",
   "pushed_at": "2026-04-20T20:18:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 173,
-  "days_since_push": 172,
+  "age_days": 174,
+  "days_since_push": 173,
   "health_score": 44,
   "health_components": {
     "popularity": 57.2,
@@ -30,10 +30,10 @@
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 723,
-    "days_span": 173,
-    "stars_per_day": 4.18,
-    "lifetime_stars_per_day": 4.18,
+    "stars_gained": 724,
+    "days_span": 174,
+    "stars_per_day": 4.16,
+    "lifetime_stars_per_day": 4.16,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -111,7 +111,8 @@
     "highlights": [
       "Settings — switch pricing between API / Pro / Max / Max-20x so cost figures everywhere else reflect your actual plan.",
       "Overview — all-time input/output/cache tokens, sessions, turns, estimated cost on your chosen plan, daily work and cache-read charts, tokens-by-project, token share by model, top tools by c…",
-      "Spotting wasteful patterns — the same file read twenty times in a session, a tool call returning 80k tokens."
+      "Spotting wasteful patterns — the same file read twenty times in a session, a tool call returning 80k tokens.",
+      "If you're on Pro or Max, confirming you're getting your money's worth in API-equivalent dollars."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -122,7 +123,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:21+00:00",
+  "fetched_at": "2026-10-11T10:52:39+00:00",
   "categories": [
     "analytics-2"
   ],

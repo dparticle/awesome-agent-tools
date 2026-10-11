@@ -7,7 +7,7 @@
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
   "stars": 465,
-  "forks": 37,
+  "forks": 38,
   "open_issues": 6,
   "language": "JavaScript",
   "license": "Apache-2.0",
@@ -34,13 +34,13 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-06T21:24:27Z",
-  "pushed_at": "2026-10-06T21:42:19Z",
+  "updated_at": "2026-10-11T05:57:36Z",
+  "pushed_at": "2026-10-11T05:57:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 243,
-  "days_since_push": 3,
+  "age_days": 244,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 53.3,
@@ -52,7 +52,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 465,
-    "days_span": 243,
+    "days_span": 244,
     "stars_per_day": 1.91,
     "lifetime_stars_per_day": 1.91,
     "basis": "lifetime",
@@ -135,22 +135,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:29+00:00",
+  "fetched_at": "2026-10-11T10:52:51+00:00",
   "categories": [
-    "self-hosting-security"
+    "analytics"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by spinabot/brigade: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 spinabot/brigade 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "spinabot/brigade",
+    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
     "challenger": "",
     "supersede": {
       "incumbent": "josstei/maestro-orchestrate",
-      "challenger": "spinabot/brigade",
+      "challenger": "hoangsonww/claude-code-agent-monitor",
       "incumbent_name": "josstei/maestro-orchestrate",
-      "challenger_name": "spinabot/brigade",
+      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -161,15 +161,15 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 24.323,
-      "momentum_ratio": 52.869,
-      "setup_delta": -12,
-      "dominance": 1.0,
+      "star_ratio": 2.282,
+      "momentum_ratio": 2.534,
+      "setup_delta": -21,
+      "dominance": 0.853,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "24.32x the stars (11,310 vs 465)",
-        "52.87x the star velocity (101.0/day vs 1.9/day)",
-        "no harder to set up (39 vs 51 friction)"
+        "2.28x the stars (1,061 vs 465)",
+        "2.53x the star velocity (4.8/day vs 1.9/day)",
+        "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,25 +180,19 @@
           "session-persistence"
         ],
         "challenger_capabilities": [
-          "api-gateway",
-          "billing-metering",
+          "agent-runtime",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-account-switching",
           "multi-agent-orchestration",
           "notifications",
-          "remote-control",
-          "self-hosted",
           "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
+          "skills-plugins"
         ],
         "incumbent_health": 50,
-        "challenger_health": 80,
+        "challenger_health": 55,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 39
+        "challenger_setup_score": 30
       }
     }
   }

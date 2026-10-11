@@ -34,13 +34,13 @@
     "vibecoding"
   ],
   "created_at": "2026-05-27T05:46:25Z",
-  "updated_at": "2026-10-09T22:19:22Z",
+  "updated_at": "2026-10-10T18:03:07Z",
   "pushed_at": "2026-06-21T08:31:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 136,
-  "days_since_push": 111,
+  "age_days": 137,
+  "days_since_push": 112,
   "health_score": 49,
   "health_components": {
     "popularity": 61.2,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1147,
-    "days_span": 136,
-    "stars_per_day": 8.43,
-    "lifetime_stars_per_day": 8.43,
+    "days_span": 137,
+    "stars_per_day": 8.37,
+    "lifetime_stars_per_day": 8.37,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -177,13 +177,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:13+00:00",
+  "fetched_at": "2026-10-11T10:52:27+00:00",
   "categories": [
+    "accounts",
     "model-routing",
-    "skills",
-    "teams"
+    "skills"
   ],
-  "primary_category": "teams",
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,7 +6,7 @@
   "url": "https://github.com/zhinkgit/embeddedskills",
   "description": "An open-source collection of embedded development and debugging skills for Claude Code, Copilot, TRAE, and other AI coding assistants that support the Skill protocol. Once installed, the AI assistant can directly operate compilers, debuggers, and communication buses, automating the full workflow from code generation to hardware verification.",
   "homepage": "",
-  "stars": 734,
+  "stars": 736,
   "forks": 94,
   "open_issues": 0,
   "language": "Python",
@@ -33,13 +33,13 @@
     "workflow"
   ],
   "created_at": "2026-04-10T09:27:48Z",
-  "updated_at": "2026-10-09T17:12:11Z",
+  "updated_at": "2026-10-11T06:19:48Z",
   "pushed_at": "2026-09-03T05:51:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 183,
-  "days_since_push": 37,
+  "age_days": 184,
+  "days_since_push": 38,
   "health_score": 50,
   "health_components": {
     "popularity": 57.3,
@@ -50,10 +50,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 734,
-    "days_span": 183,
-    "stars_per_day": 4.01,
-    "lifetime_stars_per_day": 4.01,
+    "stars_gained": 736,
+    "days_span": 184,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 4.0,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:21+00:00",
+  "fetched_at": "2026-10-11T10:52:39+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",

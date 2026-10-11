@@ -4,54 +4,56 @@
   "name": "happy",
   "owner": "slopus",
   "url": "https://github.com/slopus/happy",
-  "description": "Happy is the open-source desktop app for Claude Code, Codex, and Grok, with an iOS and Android app to control your coding agents from anywhere.",
+  "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
   "homepage": "https://happy.engineering/",
-  "stars": 24079,
-  "forks": 2059,
+  "stars": 24084,
+  "forks": 2060,
   "open_issues": 1061,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
+    "agent-orchestration",
+    "ai-agents",
     "claude-code",
     "claude-desktop",
-    "claude-mobile",
     "codex",
     "codex-cli",
+    "coding-agents",
+    "grok",
     "hacktoberfest"
   ],
   "created_at": "2025-07-18T05:53:18Z",
-  "updated_at": "2026-10-10T07:45:16Z",
-  "pushed_at": "2026-10-10T01:22:40Z",
+  "updated_at": "2026-10-11T08:13:16Z",
+  "pushed_at": "2026-10-11T08:13:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 449,
+  "age_days": 450,
   "days_since_push": 0,
   "health_score": 71,
   "health_components": {
     "popularity": 87.6,
-    "momentum": 44.7,
+    "momentum": 44.6,
     "maintenance": 100.0,
     "documentation": 29.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 24079,
-    "days_span": 449,
-    "stars_per_day": 53.63,
-    "lifetime_stars_per_day": 53.63,
+    "stars_gained": 24084,
+    "days_span": 450,
+    "stars_per_day": 53.52,
+    "lifetime_stars_per_day": 53.52,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "slopus/happy",
-    "readme_chars": 4418,
+    "readme_chars": 4511,
     "capabilities": [
       "remote-control",
       "mobile-access",
       "multi-agent-orchestration",
-      "model-routing",
       "security-isolation",
       "gui-desktop",
       "cross-agent-support"
@@ -60,7 +62,6 @@
       "remote-control": "lopus/slopus.github.io The website and docs at happy.engineering",
       "mobile-access": "Happy adds a harness, not another bill.",
       "multi-agent-orchestration": "",
-      "model-routing": ".com/user-attachments/assets/b3580704-f9e0-441e-80be-3f83f6a08ab5",
       "security-isolation": "",
       "gui-desktop": "Android, web), the original CLI, and the relay server",
       "cross-agent-support": "Mentions Claude Code, Codex"
@@ -69,7 +70,6 @@
       "remote-control": 1,
       "mobile-access": 2,
       "multi-agent-orchestration": 1,
-      "model-routing": 1,
       "security-isolation": 1,
       "gui-desktop": 1,
       "cross-agent-support": 2
@@ -114,7 +114,7 @@
       "Claude Code",
       "Codex"
     ],
-    "summary_en": "Multi-provider within one session.",
+    "summary_en": "Multi-provider.",
     "summary_zh": "",
     "install_hint": "npm install -g happy",
     "source": "raw:HEAD/README.md",
@@ -122,13 +122,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.132
+      "external_link_ratio": 1.108
     },
     "highlights": [
       "End-to-end encrypted mobile app.",
       "Natively multiplayer. Invite a colleague or a friend into the session.",
-      "Reuse current subscriptions. Sign in with the Claude, Codex, and Grok",
-      "Multi-provider within one session."
+      "Reuse your subscriptions. Sign in with the Claude, Codex, and Grok",
+      "Multi-provider. Astra, Fable, and Grok in one app, each with its"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -139,11 +139,10 @@
     "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-10T10:38:24+00:00",
+  "fetched_at": "2026-10-11T10:51:08+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile-2",
-    "model-routing"
+    "mobile-2"
   ],
   "primary_category": "mobile-2",
   "lifecycle": {

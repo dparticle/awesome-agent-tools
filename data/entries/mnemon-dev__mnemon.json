@@ -6,7 +6,7 @@
   "url": "https://github.com/mnemon-dev/mnemon",
   "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
   "homepage": "https://mnemon.dev",
-  "stars": 617,
+  "stars": 620,
   "forks": 75,
   "open_issues": 13,
   "language": "Go",
@@ -31,13 +31,13 @@
     "persistent-memory"
   ],
   "created_at": "2026-02-20T02:26:17Z",
-  "updated_at": "2026-10-10T10:21:20Z",
-  "pushed_at": "2026-10-08T12:52:07Z",
+  "updated_at": "2026-10-11T06:45:31Z",
+  "pushed_at": "2026-10-11T06:45:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 232,
-  "days_since_push": 1,
+  "age_days": 233,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 55.8,
@@ -48,8 +48,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 617,
-    "days_span": 232,
+    "stars_gained": 620,
+    "days_span": 233,
     "stars_per_day": 2.66,
     "lifetime_stars_per_day": 2.66,
     "basis": "lifetime",
@@ -57,7 +57,7 @@
   },
   "analysis": {
     "full_name": "mnemon-dev/mnemon",
-    "readme_chars": 25929,
+    "readme_chars": 26101,
     "capabilities": [
       "multi-agent-orchestration",
       "api-gateway",
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.926
+      "external_link_ratio": 0.92
     },
     "highlights": [
       "Runtime-native integration — runtime-specific SKILL.md, shared guide.md, and supported hooks or extensions",
@@ -158,23 +158,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:24+00:00",
+  "fetched_at": "2026-10-11T10:52:42+00:00",
   "categories": [
-    "analytics",
-    "skills"
+    "skills",
+    "teams"
   ],
-  "primary_category": "analytics",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "mnemon-dev/mnemon",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "mnemon-dev/mnemon",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -187,15 +187,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 7.645,
-      "momentum_ratio": 8.91,
-      "setup_delta": -40,
+      "star_ratio": 13.863,
+      "momentum_ratio": 34.376,
+      "setup_delta": -38,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "7.65x the stars (4,717 vs 617)",
-        "8.91x the star velocity (23.7/day vs 2.7/day)",
-        "no harder to set up (24 vs 64 friction)"
+        "13.86x the stars (8,595 vs 620)",
+        "34.38x the star velocity (91.4/day vs 2.7/day)",
+        "no harder to set up (26 vs 64 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -211,20 +211,24 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "skills-plugins"
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 65,
+        "challenger_health": 82,
         "incumbent_setup_score": 64,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 26
       }
     }
   }

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 560 |
-| Star velocity | 1.3/day (lifetime basis, 423d span) |
+| Stars | 563 |
+| Star velocity | 1.3/day (lifetime basis, 424d span) |
 | Health score | 48/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-12 |
-| Last push | 2026-08-03 (67 days ago) |
+| Last push | 2026-08-03 (68 days ago) |
 | Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven)** — Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** — Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).
 
 ## What it solves
 

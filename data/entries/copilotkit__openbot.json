@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "https://www.copilotkit.ai/openbot",
-  "stars": 6288,
-  "forks": 856,
-  "open_issues": 23,
+  "stars": 6327,
+  "forks": 865,
+  "open_issues": 25,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-10-10T10:14:40Z",
+  "updated_at": "2026-10-11T10:50:54Z",
   "pushed_at": "2026-10-09T23:02:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 54,
-  "days_since_push": 0,
+  "age_days": 55,
+  "days_since_push": 1,
   "health_score": 82,
   "health_components": {
     "popularity": 76.0,
-    "momentum": 97.0,
+    "momentum": 95.9,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 51.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 6288,
-    "days_span": 54,
-    "stars_per_day": 116.44,
-    "lifetime_stars_per_day": 116.44,
+    "stars_gained": 6327,
+    "days_span": 55,
+    "stars_per_day": 115.04,
+    "lifetime_stars_per_day": 115.04,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -144,12 +144,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:38:37+00:00",
+  "fetched_at": "2026-10-11T10:51:31+00:00",
   "categories": [
     "analytics",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).",
@@ -174,14 +174,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 43.924,
-      "momentum_ratio": 8.951,
+      "star_ratio": 43.747,
+      "momentum_ratio": 9.045,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "43.92x the stars (276,194 vs 6,288)",
-        "8.95x the star velocity (1042.2/day vs 116.4/day)",
+        "43.75x the stars (276,790 vs 6,327)",
+        "9.05x the star velocity (1040.6/day vs 115.0/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,896 |
-| Star velocity | 11.6/day (lifetime basis, 421d span) |
+| Stars | 4,898 |
+| Star velocity | 11.6/day (lifetime basis, 422d span) |
 | Health score | 65/100 |
 | Documentation | 71/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-14 |
-| Last push | 2026-09-13 (26 days ago) |
+| Last push | 2026-09-13 (27 days ago) |
 | Analyzed README | 29,988 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).

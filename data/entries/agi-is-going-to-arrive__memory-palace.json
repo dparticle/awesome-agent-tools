@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
-  "days_since_push": 142,
+  "age_days": 234,
+  "days_since_push": 143,
   "health_score": 44,
   "health_components": {
     "popularity": 49.9,
@@ -31,7 +31,7 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 313,
-    "days_span": 233,
+    "days_span": 234,
     "stars_per_day": 1.34,
     "lifetime_stars_per_day": 1.34,
     "basis": "lifetime",
@@ -160,10 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:40+00:00",
+  "fetched_at": "2026-10-11T10:53:05+00:00",
   "categories": [
     "analytics",
-    "self-hosting-security"
+    "teams"
   ],
   "primary_category": "analytics",
   "lifecycle": {

@@ -6,9 +6,9 @@
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
   "homepage": "https://onOrca.dev",
-  "stars": 88902,
-  "forks": 5683,
-  "open_issues": 8287,
+  "stars": 89430,
+  "forks": 5718,
+  "open_issues": 8062,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -32,12 +32,12 @@
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-10-10T10:38:14Z",
-  "pushed_at": "2026-10-10T10:38:23Z",
+  "updated_at": "2026-10-11T10:51:04Z",
+  "pushed_at": "2026-10-11T10:50:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 207,
+  "age_days": 208,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
@@ -49,10 +49,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 88902,
-    "days_span": 207,
-    "stars_per_day": 429.48,
-    "lifetime_stars_per_day": 429.48,
+    "stars_gained": 89430,
+    "days_span": 208,
+    "stars_per_day": 429.95,
+    "lifetime_stars_per_day": 429.95,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -174,13 +174,13 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-10T10:38:25+00:00",
+  "fetched_at": "2026-10-11T10:51:10+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile",
+    "analytics-2",
     "mobile-2"
   ],
-  "primary_category": "mobile",
+  "primary_category": "mobile-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

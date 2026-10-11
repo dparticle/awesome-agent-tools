@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 212,
-  "days_since_push": 23,
+  "age_days": 213,
+  "days_since_push": 24,
   "health_score": 45,
   "health_components": {
     "popularity": 50.3,
@@ -31,7 +31,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 327,
-    "days_span": 212,
+    "days_span": 213,
     "stars_per_day": 1.54,
     "lifetime_stars_per_day": 1.54,
     "basis": "lifetime",
@@ -118,12 +118,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:38+00:00",
+  "fetched_at": "2026-10-11T10:53:02+00:00",
   "categories": [
     "accounts",
     "sharing"
   ],
-  "primary_category": "accounts",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (4/4).",
@@ -145,15 +145,15 @@
         "multi-account-switching",
         "quota-management"
       ],
-      "star_ratio": 57.45,
-      "momentum_ratio": 45.688,
-      "setup_delta": -15,
+      "star_ratio": 57.544,
+      "momentum_ratio": 45.591,
+      "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "57.45x the stars (18,786 vs 327)",
-        "45.69x the star velocity (70.4/day vs 1.5/day)",
-        "no harder to set up (26 vs 41 friction)"
+        "57.54x the stars (18,817 vs 327)",
+        "45.59x the star velocity (70.2/day vs 1.5/day)",
+        "no harder to set up (20 vs 41 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -164,7 +164,6 @@
           "quota-management"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
           "api-gateway",
           "auto-failover",
           "billing-metering",
@@ -180,9 +179,9 @@
           "usage-analytics"
         ],
         "incumbent_health": 45,
-        "challenger_health": 76,
+        "challenger_health": 78,
         "incumbent_setup_score": 41,
-        "challenger_setup_score": 26
+        "challenger_setup_score": 20
       }
     }
   }

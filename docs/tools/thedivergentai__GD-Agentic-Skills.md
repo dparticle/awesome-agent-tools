@@ -2,7 +2,7 @@
 
 # thedivergentai/GD-Agentic-Skills
 
-> "A skill forgotten is a power lost." — The Code Architect
+> Multi-engine agent skill library · Godot 4.x is the deep section today · Bevy on the road to parity
 
 [Repository](https://github.com/thedivergentai/GD-Agentic-Skills) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 823 |
-| Star velocity | 3.4/day (lifetime basis, 244d span) |
-| Health score | 54/100 |
+| Stars | 830 |
+| Star velocity | 3.4/day (lifetime basis, 245d span) |
+| Health score | 58/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | LGPL-3.0 |
 | Language | GDScript |
 | Created | 2026-02-07 |
-| Last push | 2026-09-09 (31 days ago) |
-| Analyzed README | 40,885 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 38,075 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,11 +34,11 @@
 
 ### Memory & context
 
-> e System Bite-Size Modules DIA Loop Growth Chart
+> ze Modules DIA Loop Growth Chart
 
 ### Skills & plugins
 
-> # GD Agentic Skills: The Godot 4 Mastery Ecosystem
+> # Game-Design Agentic Skills
 
 ### Agent runtime
 
@@ -47,8 +47,6 @@
 > - **MCP Clean-up & Direct Building**: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing nativ
 
 ### GUI / desktop app
-
-> ents can actually **see** the work — the menus, the HUD, the assets — not just guess from file paths.
 
 ### Cross-agent support
 
@@ -88,9 +86,9 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.3 |
+| popularity | 58.4 |
 | momentum | 2.8 |
-| maintenance | 78.0 |
+| maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 79.0 |
 

@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "ai-dev",
-  "age_days": 625,
-  "days_since_push": 109,
+  "age_days": 626,
+  "days_since_push": 110,
   "health_score": 46,
   "health_components": {
     "popularity": 68.6,
@@ -47,9 +47,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 2700,
-    "days_span": 625,
-    "stars_per_day": 4.32,
-    "lifetime_stars_per_day": 4.32,
+    "days_span": 626,
+    "stars_per_day": 4.31,
+    "lifetime_stars_per_day": 4.31,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -154,12 +154,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:05+00:00",
+  "fetched_at": "2026-10-11T10:52:13+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "self-hosting-security"
+    "analytics"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

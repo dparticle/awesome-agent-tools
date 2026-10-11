@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 477 |
-| Star velocity | 2.8/day (lifetime basis, 169d span) |
+| Stars | 479 |
+| Star velocity | 2.8/day (lifetime basis, 170d span) |
 | Health score | 49/100 |
 | Documentation | 71/100 |
 | Tier | 🔹 Notable |
@@ -21,18 +21,18 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-04-23 |
-| Last push | 2026-10-03 (6 days ago) |
-| Analyzed README | 43,571 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 44,160 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> irely on the common path.
+> d pi -p processes run with --tools memoryadd,memoryreplace,memoryremove and --exclude-tools mcp*, so a background child cannot edit files, run commands, touch skills, or reach MCP tools even when the fallback model is a…
 
 ### Model / provider routing
 
-> ages matching the -oauth-adapter/-auth-adapter naming convention (including scoped packages, via their package.json pi.extensions manifest) are detected automatically.
+> es matching the *-oauth-adapter/*-auth-adapter naming convention (including scoped packages, via their package.json pi.extensions manifest) are detected automatically.
 
 ### Session persistence
 
@@ -45,6 +45,10 @@
 ### Skills & plugins
 
 > do something, reusable across sessions Unlimited Discoverable by Pi + manageable via the skillmanage tool
+
+### MCP support
+
+> hout extension-runtime access.
 
 ## Setup reality check
 
@@ -81,7 +85,7 @@ Score **71/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.6 |
-| momentum | 2.4 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 16.0 |

@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
-  "days_since_push": 78,
+  "age_days": 246,
+  "days_since_push": 79,
   "health_score": 41,
   "health_components": {
     "popularity": 48.0,
-    "momentum": 0.9,
+    "momentum": 0.8,
     "maintenance": 78.0,
     "documentation": 32.0,
     "accessibility": 54.0
@@ -31,7 +31,7 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 250,
-    "days_span": 245,
+    "days_span": 246,
     "stars_per_day": 1.02,
     "lifetime_stars_per_day": 1.02,
     "basis": "lifetime",
@@ -128,12 +128,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:47+00:00",
+  "fetched_at": "2026-10-11T10:53:13+00:00",
   "categories": [
     "accounts",
-    "analytics-2"
+    "analytics-2",
+    "sharing"
   ],
-  "primary_category": "accounts",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).",
@@ -156,15 +157,15 @@
         "quota-management",
         "usage-analytics"
       ],
-      "star_ratio": 75.144,
-      "momentum_ratio": 68.98,
-      "setup_delta": -20,
+      "star_ratio": 75.268,
+      "momentum_ratio": 68.833,
+      "setup_delta": -26,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "75.14x the stars (18,786 vs 250)",
-        "68.98x the star velocity (70.4/day vs 1.0/day)",
-        "no harder to set up (26 vs 46 friction)"
+        "75.27x the stars (18,817 vs 250)",
+        "68.83x the star velocity (70.2/day vs 1.0/day)",
+        "no harder to set up (20 vs 46 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -176,7 +177,6 @@
           "usage-analytics"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
           "api-gateway",
           "auto-failover",
           "billing-metering",
@@ -192,9 +192,9 @@
           "usage-analytics"
         ],
         "incumbent_health": 41,
-        "challenger_health": 76,
+        "challenger_health": 78,
         "incumbent_setup_score": 46,
-        "challenger_setup_score": 26
+        "challenger_setup_score": 20
       }
     }
   }

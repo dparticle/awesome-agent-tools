@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 274 |
-| Star velocity | 14.4/day (lifetime basis, 19d span) |
+| Star velocity | 13.7/day (lifetime basis, 20d span) |
 | Health score | 56/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-09-20 |
-| Last push | 2026-10-05 (5 days ago) |
+| Last push | 2026-10-05 (6 days ago) |
 | Analyzed README | 12,627 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).
@@ -86,7 +86,7 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 48.8 |
-| momentum | 12.0 |
+| momentum | 11.4 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 84.0 |

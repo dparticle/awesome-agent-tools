@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,393 |
-| Star velocity | 78.9/day (lifetime basis, 43d span) |
+| Stars | 3,447 |
+| Star velocity | 78.3/day (lifetime basis, 44d span) |
 | Health score | 78/100 |
-| Documentation | 79/100 |
+| Documentation | 80/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-08-28 |
-| Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 18,482 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 21,021 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,11 +30,19 @@
 
 > 平台适配的成品直接到对应平台，再通过**归因**分析表现并把有效经验沉淀回账号画像。
 
+### Model / provider routing
+
+> odels.providers.local-api，主模型设为 local-api/ ，明确使用 OpenClaw 运行时并允许请求配置的私有网络地址；不会覆盖原有 openai provider 或改写 OPENAI*。
+
 ### Multi-provider aggregation
 
 ### API gateway / proxy
 
-> API 不提供向量模型，请单独配置 Embedding API；否则 OpenClaw 会默认请求 text-embedding-3-small，可能得到“模型不可用”。
+> hon 依赖和前端构建时，在项目 .env 中配置下面四项，然后运行 easel web：
+
+### Session persistence
+
+> 置 → 模型配置 → 连接方式」选择「API 直连」，填写独立「本地 / 内网 API 直连」通道的地址、模型与 Key 后保存。
 
 ### Memory & context
 
@@ -43,6 +51,8 @@
 > 布与归因** 发布质量门禁、敏感与版权风险检查、平台搜索优化、发布 Checklist、多平台格式适配；小红书、抖音、快手、知乎、B 站、微信视频号、微信公众号登录与发布；内容日历回写、账号数据、评论洞察、内容复盘、ROI 与画像记忆
 
 ### GUI / desktop app
+
+> 后安装器会创建项目内 .venv，安装 Python/Node 依赖、前端生产包和 Playwright Chromium，并使用独立的 easel OpenClaw profile。
 
 ### Cross-agent support
 
@@ -64,7 +74,7 @@
 
 ## Documentation quality
 
-Score **79/100**, based on these detected signals:
+Score **80/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -80,15 +90,16 @@ Score **79/100**, based on these detected signals:
 - publishes a roadmap
 - reports benchmarks
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 70.6 |
-| momentum | 65.8 |
+| popularity | 70.7 |
+| momentum | 65.3 |
 | maintenance | 100.0 |
-| documentation | 79.0 |
+| documentation | 80.0 |
 | accessibility | 85.0 |
 
 ---

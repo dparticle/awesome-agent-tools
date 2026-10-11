@@ -34,12 +34,12 @@
     "security"
   ],
   "created_at": "2025-12-25T17:52:57Z",
-  "updated_at": "2026-10-10T09:55:30Z",
-  "pushed_at": "2026-10-10T07:58:19Z",
+  "updated_at": "2026-10-11T01:29:40Z",
+  "pushed_at": "2026-10-11T03:31:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 288,
+  "age_days": 289,
   "days_since_push": 0,
   "health_score": 60,
   "health_components": {
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1583,
-    "days_span": 288,
-    "stars_per_day": 5.5,
-    "lifetime_stars_per_day": 5.5,
+    "days_span": 289,
+    "stars_per_day": 5.48,
+    "lifetime_stars_per_day": 5.48,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,8 +131,8 @@
       "external_link_ratio": 1.713
     },
     "highlights": [
-      "Embeds in your own tools. Call checkCommand from Node.js without installing the hook. See Library API.",
       "Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team Setup.",
+      "Embeds in your own tools. Call checkCommand from Node.js without installing the hook. See Library API.",
       "Blocks secret access to SSH keys, .env files, ~/.aws, and coding-CLI credentials, from the shell and from the agent's file tools.",
       "Blocks destructive commands such as git reset --hard, git push --force, and rm -rf on dangerous targets, even inside bash -c or python -c."
     ],
@@ -145,7 +145,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:09+00:00",
+  "fetched_at": "2026-10-11T10:52:18+00:00",
   "categories": [
     "agent-runtime-desktop-ui"
   ],

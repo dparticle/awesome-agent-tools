@@ -31,8 +31,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 286,
-  "days_since_push": 55,
+  "age_days": 287,
+  "days_since_push": 56,
   "health_score": 48,
   "health_components": {
     "popularity": 52.9,
@@ -44,9 +44,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 440,
-    "days_span": 286,
-    "stars_per_day": 1.54,
-    "lifetime_stars_per_day": 1.54,
+    "days_span": 287,
+    "stars_per_day": 1.53,
+    "lifetime_stars_per_day": 1.53,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:31+00:00",
+  "fetched_at": "2026-10-11T10:52:52+00:00",
   "categories": [
     "skills"
   ],

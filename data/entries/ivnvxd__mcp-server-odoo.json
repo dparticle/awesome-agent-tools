@@ -6,9 +6,9 @@
   "url": "https://github.com/ivnvxd/mcp-server-odoo",
   "description": "Model Context Protocol (MCP) server that enables AI assistants to securely interact with Odoo ERP systems through standardized resources and tools for data retrieval and manipulation.",
   "homepage": "",
-  "stars": 401,
-  "forks": 187,
-  "open_issues": 9,
+  "stars": 402,
+  "forks": 186,
+  "open_issues": 6,
   "language": "Python",
   "license": "MPL-2.0",
   "topics": [
@@ -23,13 +23,13 @@
     "odoo-mcp"
   ],
   "created_at": "2025-03-22T20:45:03Z",
-  "updated_at": "2026-10-09T20:33:40Z",
-  "pushed_at": "2026-10-09T08:54:38Z",
+  "updated_at": "2026-10-11T08:16:11Z",
+  "pushed_at": "2026-10-11T08:23:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 566,
-  "days_since_push": 1,
+  "age_days": 567,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 52.1,
@@ -40,8 +40,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 401,
-    "days_span": 566,
+    "stars_gained": 402,
+    "days_span": 567,
     "stars_per_day": 0.71,
     "lifetime_stars_per_day": 0.71,
     "basis": "lifetime",
@@ -49,26 +49,35 @@
   },
   "analysis": {
     "full_name": "ivnvxd/mcp-server-odoo",
-    "readme_chars": 31761,
+    "readme_chars": 43173,
     "capabilities": [
       "auto-failover",
       "worktree-isolation",
+      "model-routing",
       "billing-metering",
+      "skills-plugins",
       "mcp-support",
+      "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "auto-failover": "totals/counts/groupings\" rather than \"list of records\" — it pushes the work down to PostgreSQL instead of pulling raw rows.",
       "worktree-isolation": "hows \"READ-ONLY\" indicators in responses",
+      "model-routing": "",
       "billing-metering": "any standard Odoo installation.",
+      "skills-plugins": "",
       "mcp-support": "ccess with any Odoo instance (no module required)",
+      "notifications": "",
       "cross-agent-support": "Mentions Claude Code, Copilot, Cursor"
     },
     "capability_hits": {
       "auto-failover": 1,
       "worktree-isolation": 2,
+      "model-routing": 1,
       "billing-metering": 3,
-      "mcp-support": 35,
+      "skills-plugins": 1,
+      "mcp-support": 42,
+      "notifications": 1,
       "cross-agent-support": 3
     },
     "friction": {
@@ -129,13 +138,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.283
+      "external_link_ratio": 0.208
     },
     "highlights": [
-      "📊 Server-side aggregation — group, sum, and count without pulling raw rows",
-      "odoo://res.partner/record/1/image_128 — Get partner 1's avatar image",
-      "odoo://res.partner/record/1 — Get partner with ID 1",
-      "👤 Personalized session context — the connected user, timezone, and company scope injected into the session instructions"
+      "On a one2many field, a link ([4, id]) needs write access on the related model.",
+      "Nested x2many commands in values.",
+      "On Odoo 20, give the key the RPC scope (rpc).",
+      "📊 Server-side aggregation — group, sum, and count without pulling raw rows"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -146,11 +155,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:34+00:00",
+  "fetched_at": "2026-10-11T10:52:57+00:00",
   "categories": [
-    "sharing"
+    "accounts",
+    "analytics"
   ],
-  "primary_category": "sharing",
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",

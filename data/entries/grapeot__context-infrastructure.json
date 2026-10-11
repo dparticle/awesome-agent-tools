@@ -13,13 +13,13 @@
   "license": "",
   "topics": [],
   "created_at": "2026-03-16T05:12:45Z",
-  "updated_at": "2026-10-10T03:07:57Z",
-  "pushed_at": "2026-10-08T23:52:19Z",
+  "updated_at": "2026-10-11T04:14:23Z",
+  "pushed_at": "2026-10-11T04:14:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 208,
-  "days_since_push": 1,
+  "age_days": 209,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 57.8,
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 779,
-    "days_span": 208,
-    "stars_per_day": 3.75,
-    "lifetime_stars_per_day": 3.75,
+    "days_span": 209,
+    "stars_per_day": 3.73,
+    "lifetime_stars_per_day": 3.73,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -105,11 +105,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:20+00:00",
+  "fetched_at": "2026-10-11T10:52:36+00:00",
   "categories": [
-    "sharing"
+    "accounts"
   ],
-  "primary_category": "sharing",
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",

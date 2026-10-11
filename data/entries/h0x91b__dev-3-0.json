@@ -6,9 +6,9 @@
   "url": "https://github.com/h0x91b/dev-3.0",
   "description": "Mission control for the One Person Studio — run a fleet of AI coding agents in parallel without losing your mind. Kanban + git worktrees + tmux for Claude Code, Codex, Gemini CLI, OpenCode and any shell agent. Not an IDE.",
   "homepage": "https://dev3.h0x91b.com/",
-  "stars": 309,
+  "stars": 310,
   "forks": 36,
-  "open_issues": 21,
+  "open_issues": 20,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -28,12 +28,12 @@
     "tmux"
   ],
   "created_at": "2026-02-18T12:21:07Z",
-  "updated_at": "2026-10-10T08:46:39Z",
-  "pushed_at": "2026-10-10T09:27:04Z",
+  "updated_at": "2026-10-11T06:26:00Z",
+  "pushed_at": "2026-10-11T07:14:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
+  "age_days": 234,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
@@ -45,10 +45,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 309,
-    "days_span": 233,
-    "stars_per_day": 1.33,
-    "lifetime_stars_per_day": 1.33,
+    "stars_gained": 310,
+    "days_span": 234,
+    "stars_per_day": 1.32,
+    "lifetime_stars_per_day": 1.32,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -178,9 +178,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:41+00:00",
+  "fetched_at": "2026-10-11T10:53:05+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
+    "analytics-2",
     "mobile",
     "mobile-2"
   ],

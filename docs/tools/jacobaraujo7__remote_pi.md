@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 438 |
-| Star velocity | 3.1/day (lifetime basis, 141d span) |
+| Star velocity | 3.1/day (lifetime basis, 142d span) |
 | Health score | 50/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Dart |
 | Created | 2026-05-22 |
-| Last push | 2026-10-09 (0 days ago) |
+| Last push | 2026-10-11 (0 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [yohey-w/multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).

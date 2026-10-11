@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,145 |
-| Star velocity | 38.8/day (lifetime basis, 81d span) |
+| Stars | 3,156 |
+| Star velocity | 38.5/day (lifetime basis, 82d span) |
 | Health score | 65/100 |
 | Documentation | 35/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-07-20 |
-| Last push | 2026-10-10 (0 days ago) |
-| Analyzed README | 1,568 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 1,594 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,7 +30,7 @@
 
 ### GUI / desktop app
 
-> Control your coding agents (Claude Code, Codex, Cursor, Devin, Grok, Hermes, Pi, Antigravity) locally by default, with optional multi-device sync. English 简体中文 한국어 日本語 Zeron desktop app ## Desktop app Download the lates…
+> your coding agents (Claude Code, Codex, Cursor, Devin, Grok, Hermes, Pi, Antigravity) locally by default, with optional multi-device sync.
 
 ### Cross-agent support
 
@@ -64,7 +64,7 @@ Score **35/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 70.0 |
-| momentum | 32.4 |
+| momentum | 32.1 |
 | maintenance | 100.0 |
 | documentation | 35.0 |
 | accessibility | 100.0 |

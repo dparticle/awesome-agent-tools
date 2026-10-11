@@ -26,12 +26,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 143,
-  "days_since_push": 3,
+  "age_days": 144,
+  "days_since_push": 4,
   "health_score": 59,
   "health_components": {
     "popularity": 71.3,
-    "momentum": 21.5,
+    "momentum": 21.3,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 33.0
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 3688,
-    "days_span": 143,
-    "stars_per_day": 25.79,
-    "lifetime_stars_per_day": 25.79,
+    "days_span": 144,
+    "stars_per_day": 25.61,
+    "lifetime_stars_per_day": 25.61,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -147,13 +147,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:38:42+00:00",
+  "fetched_at": "2026-10-11T10:51:38+00:00",
   "categories": [
-    "self-hosting-security",
-    "sharing",
+    "security-self-hosting",
     "skills"
   ],
-  "primary_category": "sharing",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

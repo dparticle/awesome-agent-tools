@@ -6,9 +6,9 @@
   "url": "https://github.com/Lyellr88/marm-memory",
   "description": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indexing & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall, supports multi-agent swarms.",
   "homepage": "https://lyellr88.github.io/marm-memory",
-  "stars": 419,
+  "stars": 418,
   "forks": 90,
-  "open_issues": 27,
+  "open_issues": 17,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,13 +34,13 @@
     "sqlite"
   ],
   "created_at": "2025-06-10T06:36:49Z",
-  "updated_at": "2026-10-09T18:22:38Z",
-  "pushed_at": "2026-10-08T01:26:35Z",
+  "updated_at": "2026-10-11T09:28:38Z",
+  "pushed_at": "2026-10-11T09:28:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 487,
-  "days_since_push": 2,
+  "age_days": 488,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 52.4,
@@ -51,8 +51,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 419,
-    "days_span": 487,
+    "stars_gained": 418,
+    "days_span": 488,
     "stars_per_day": 0.86,
     "lifetime_stars_per_day": 0.86,
     "basis": "lifetime",
@@ -60,7 +60,7 @@
   },
   "analysis": {
     "full_name": "Lyellr88/marm-memory",
-    "readme_chars": 114561,
+    "readme_chars": 114877,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -83,7 +83,7 @@
       "session-persistence": "ext Logs - Auto-classified conversation memories",
       "memory-context": "local control plane for memory, graphs, code context, distillation, runtime controls, and the integrated terminal.",
       "agent-runtime": "antic lane; set MARMRECALLREFERENCETIME on the server so two runs rank near-ties identically.",
-      "mcp-support": "marm-memory v2.59.3 - Give your AI Agents a permanent memory in 60 seconds",
+      "mcp-support": "marm-memory v2.60.0 - Give your AI Agents a permanent memory in 60 seconds",
       "security-isolation": "a permanent, graph-linked doc action=\"add\"\\ \"use\"\\ \"show\"\\ \"status\"\\ \"clear\"\\ \"save\", name, data, sessionname, project, platform",
       "self-hosted": "rvice (embedded SQLite) Vector DB (Qdrant/pgvector) Postgres + vector DB Neo4j Separate iii-engine runtime",
       "notifications": "ne runs as a supervised child process, not an import:",
@@ -179,7 +179,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.175
+      "external_link_ratio": 0.174
     },
     "highlights": [
       "Concurrent recall: 10 gathered recalls completed in 151.5ms vs 176.0ms serial (gather/serial = 0.86).",
@@ -196,11 +196,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:33+00:00",
+  "fetched_at": "2026-10-11T10:52:55+00:00",
   "categories": [
     "analytics",
     "model-routing",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
   "primary_category": "analytics",
   "lifecycle": {

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 401 |
-| Star velocity | 0.7/day (lifetime basis, 566d span) |
+| Stars | 402 |
+| Star velocity | 0.7/day (lifetime basis, 567d span) |
 | Health score | 50/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MPL-2.0 |
 | Language | Python |
 | Created | 2025-03-22 |
-| Last push | 2026-10-09 (1 days ago) |
-| Analyzed README | 31,761 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 43,173 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,13 +34,19 @@
 
 > hows "READ-ONLY" indicators in responses
 
+### Model / provider routing
+
 ### Billing & metering
 
 > any standard Odoo installation.
 
+### Skills & plugins
+
 ### MCP support
 
 > ccess with any Odoo instance (no module required)
+
+### Notifications
 
 ### Cross-agent support
 

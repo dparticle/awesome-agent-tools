@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 307 |
-| Star velocity | 1.5/day (lifetime basis, 206d span) |
+| Star velocity | 1.5/day (lifetime basis, 207d span) |
 | Health score | 39/100 |
 | Documentation | 52/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-17 |
-| Last push | 2026-04-13 (179 days ago) |
+| Last push | 2026-04-13 (180 days ago) |
 | Analyzed README | 27,770 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** — Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (6/6).

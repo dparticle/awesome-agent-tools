@@ -6,9 +6,9 @@
   "url": "https://github.com/lexmount/moli",
   "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
   "homepage": "https://browser.lexmount.com",
-  "stars": 15272,
-  "forks": 375,
-  "open_issues": 289,
+  "stars": 15992,
+  "forks": 387,
+  "open_issues": 268,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -28,16 +28,16 @@
     "web-scraping"
   ],
   "created_at": "2026-08-10T13:20:30Z",
-  "updated_at": "2026-10-10T10:36:46Z",
-  "pushed_at": "2026-10-10T10:36:42Z",
+  "updated_at": "2026-10-11T10:50:17Z",
+  "pushed_at": "2026-10-11T10:44:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 60,
+  "age_days": 61,
   "days_since_push": 0,
-  "health_score": 87,
+  "health_score": 88,
   "health_components": {
-    "popularity": 83.7,
+    "popularity": 84.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 50.0,
@@ -45,16 +45,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 15272,
-    "days_span": 60,
-    "stars_per_day": 254.53,
-    "lifetime_stars_per_day": 254.53,
+    "stars_gained": 15992,
+    "days_span": 61,
+    "stars_per_day": 262.16,
+    "lifetime_stars_per_day": 262.16,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "lexmount/moli",
-    "readme_chars": 16358,
+    "readme_chars": 16938,
     "capabilities": [
       "mcp-support"
     ],
@@ -109,7 +109,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.122
+      "external_link_ratio": 0.118
     },
     "highlights": [
       "Extraction-optimized outputs — the CLI directly produces HTML, Markdown,",
@@ -126,11 +126,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:38:30+00:00",
+  "fetched_at": "2026-10-11T10:51:17+00:00",
   "categories": [
-    "self-hosting-security"
+    "analytics"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 237,
   "forks": 32,
-  "open_issues": 31,
+  "open_issues": 32,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -31,11 +31,11 @@
   ],
   "created_at": "2026-04-28T12:20:42Z",
   "updated_at": "2026-10-10T07:28:26Z",
-  "pushed_at": "2026-10-09T17:03:12Z",
+  "pushed_at": "2026-10-10T20:33:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "mommy",
-  "age_days": 164,
+  "age_days": 165,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
@@ -48,9 +48,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 237,
-    "days_span": 164,
-    "stars_per_day": 1.45,
-    "lifetime_stars_per_day": 1.45,
+    "days_span": 165,
+    "stars_per_day": 1.44,
+    "lifetime_stars_per_day": 1.44,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -158,12 +158,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:48+00:00",
+  "fetched_at": "2026-10-11T10:53:15+00:00",
   "categories": [
-    "accounts",
-    "analytics-2"
+    "analytics",
+    "analytics-2",
+    "sharing"
   ],
-  "primary_category": "accounts",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

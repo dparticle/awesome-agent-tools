@@ -31,12 +31,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 120,
-  "days_since_push": 27,
+  "age_days": 121,
+  "days_since_push": 28,
   "health_score": 49,
   "health_components": {
     "popularity": 56.9,
-    "momentum": 4.9,
+    "momentum": 4.8,
     "maintenance": 92.0,
     "documentation": 48.0,
     "accessibility": 49.0
@@ -44,11 +44,11 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 699,
-    "days_span": 120,
-    "stars_per_day": 5.83,
-    "lifetime_stars_per_day": 5.83,
+    "days_span": 121,
+    "stars_per_day": 5.78,
+    "lifetime_stars_per_day": 5.78,
     "basis": "lifetime",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "solo-agent/solo",
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:22+00:00",
+  "fetched_at": "2026-10-11T10:52:40+00:00",
   "categories": [
     "model-routing",
     "providers",

@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 644,
-  "days_since_push": 16,
+  "age_days": 645,
+  "days_since_push": 17,
   "health_score": 52,
   "health_components": {
     "popularity": 53.0,
@@ -31,7 +31,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 445,
-    "days_span": 644,
+    "days_span": 645,
     "stars_per_day": 0.69,
     "lifetime_stars_per_day": 0.69,
     "basis": "lifetime",
@@ -127,22 +127,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:31+00:00",
+  "fetched_at": "2026-10-11T10:52:52+00:00",
   "categories": [
-    "self-hosting-security"
+    "analytics"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "delorenj/mcp-server-trello",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
       "incumbent_name": "delorenj/mcp-server-trello",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -154,15 +154,15 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 65.791,
-      "momentum_ratio": 186.913,
-      "setup_delta": -2,
+      "star_ratio": 10.627,
+      "momentum_ratio": 34.261,
+      "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "65.79x the stars (29,277 vs 445)",
-        "186.91x the star velocity (129.0/day vs 0.7/day)",
-        "no harder to set up (32 vs 34 friction)"
+        "10.63x the stars (4,729 vs 445)",
+        "34.26x the star velocity (23.6/day vs 0.7/day)",
+        "no harder to set up (24 vs 34 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -177,23 +177,20 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
-          "billing-metering",
           "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
+          "quota-management",
           "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
+          "skills-plugins"
         ],
         "incumbent_health": 52,
-        "challenger_health": 88,
+        "challenger_health": 65,
         "incumbent_setup_score": 34,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 24
       }
     }
   }

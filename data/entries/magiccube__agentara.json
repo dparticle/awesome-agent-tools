@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 219,
-  "days_since_push": 151,
+  "age_days": 220,
+  "days_since_push": 152,
   "health_score": 38,
   "health_components": {
     "popularity": 54.3,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 516,
-    "days_span": 219,
-    "stars_per_day": 2.36,
-    "lifetime_stars_per_day": 2.36,
+    "days_span": 220,
+    "stars_per_day": 2.35,
+    "lifetime_stars_per_day": 2.35,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:27+00:00",
+  "fetched_at": "2026-10-11T10:52:47+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "analytics"
@@ -137,15 +137,15 @@
   "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by pacifio/atlas: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 pacifio/atlas 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "pacifio/atlas",
+    "note_en": "Superseded by aoci-spec/aoci-code: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 aoci-spec/aoci-code 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "aoci-spec/aoci-code",
     "challenger": "",
     "supersede": {
       "incumbent": "magiccube/agentara",
-      "challenger": "pacifio/atlas",
+      "challenger": "aoci-spec/aoci-code",
       "incumbent_name": "MagicCube/agentara",
-      "challenger_name": "pacifio/atlas",
+      "challenger_name": "aoci-spec/aoci-code",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -157,15 +157,15 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 18.572,
-      "momentum_ratio": 27.436,
-      "setup_delta": -63,
-      "dominance": 1.0,
+      "star_ratio": 2.849,
+      "momentum_ratio": 9.928,
+      "setup_delta": -20,
+      "dominance": 0.988,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "18.57x the stars (9,583 vs 516)",
-        "27.44x the star velocity (64.8/day vs 2.4/day)",
-        "no harder to set up (21 vs 84 friction)"
+        "2.85x the stars (1,470 vs 516)",
+        "9.93x the star velocity (23.3/day vs 2.4/day)",
+        "no harder to set up (64 vs 84 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -178,17 +178,19 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
+          "mcp-support",
           "memory-context",
-          "multi-agent-orchestration",
-          "session-persistence",
-          "usage-analytics"
+          "model-routing",
+          "session-persistence"
         ],
         "incumbent_health": 38,
-        "challenger_health": 73,
+        "challenger_health": 59,
         "incumbent_setup_score": 84,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 64
       }
     }
   }

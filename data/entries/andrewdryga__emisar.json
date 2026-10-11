@@ -8,7 +8,7 @@
   "homepage": "https://emisar.dev/",
   "stars": 337,
   "forks": 33,
-  "open_issues": 5,
+  "open_issues": 0,
   "language": "Elixir",
   "license": "NOASSERTION",
   "topics": [
@@ -29,17 +29,17 @@
     "self-hosted"
   ],
   "created_at": "2026-05-19T01:21:19Z",
-  "updated_at": "2026-10-09T18:57:25Z",
-  "pushed_at": "2026-10-09T18:57:20Z",
+  "updated_at": "2026-10-11T08:59:58Z",
+  "pushed_at": "2026-10-11T09:57:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 144,
+  "age_days": 145,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 50.6,
-    "momentum": 2.0,
+    "momentum": 1.9,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 75.0
@@ -47,9 +47,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 337,
-    "days_span": 144,
-    "stars_per_day": 2.34,
-    "lifetime_stars_per_day": 2.34,
+    "days_span": 145,
+    "stars_per_day": 2.32,
+    "lifetime_stars_per_day": 2.32,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -137,72 +137,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:38+00:00",
+  "fetched_at": "2026-10-11T10:53:02+00:00",
   "categories": [
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "andrewdryga/emisar",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "AndrewDryga/emisar",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "security-isolation"
-      ],
-      "star_ratio": 86.875,
-      "momentum_ratio": 55.115,
-      "setup_delta": 7,
-      "dominance": 0.965,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "86.88x the stars (29,277 vs 337)",
-        "55.12x the star velocity (129.0/day vs 2.3/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 88,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

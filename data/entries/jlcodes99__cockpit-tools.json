@@ -6,9 +6,9 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "stars": 18786,
-  "forks": 1673,
-  "open_issues": 828,
+  "stars": 18817,
+  "forks": 1674,
+  "open_issues": 830,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -23,33 +23,33 @@
     "windsurf"
   ],
   "created_at": "2026-01-16T07:09:32Z",
-  "updated_at": "2026-10-10T10:13:55Z",
-  "pushed_at": "2026-10-10T05:44:10Z",
+  "updated_at": "2026-10-11T10:17:11Z",
+  "pushed_at": "2026-10-11T09:19:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 267,
+  "age_days": 268,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 78,
   "health_components": {
     "popularity": 85.5,
-    "momentum": 58.6,
+    "momentum": 58.5,
     "maintenance": 100.0,
-    "documentation": 60.0,
-    "accessibility": 74.0
+    "documentation": 59.0,
+    "accessibility": 88.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 18786,
-    "days_span": 267,
-    "stars_per_day": 70.36,
-    "lifetime_stars_per_day": 70.36,
+    "stars_gained": 18817,
+    "days_span": 268,
+    "stars_per_day": 70.21,
+    "lifetime_stars_per_day": 70.21,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "jlcodes99/cockpit-tools",
-    "readme_chars": 16669,
+    "readme_chars": 14040,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -61,7 +61,6 @@
       "api-gateway",
       "billing-metering",
       "usage-analytics",
-      "agent-runtime",
       "security-isolation",
       "gui-desktop",
       "cross-agent-support"
@@ -69,15 +68,14 @@
     "capability_evidence": {
       "multi-account-switching": "surf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
       "quota-management": "目前支持 Antigravity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
-      "auto-failover": "",
-      "multi-agent-orchestration": "测速与已有连接处理的设计也参考其源码，当前运行内核仍为 Mihomo，不代表官方合作关系。",
+      "auto-failover": "aude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch",
+      "multi-agent-orchestration": "",
       "parallel-execution": "ty IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
       "model-routing": "",
       "provider-aggregation": "어 · 🇧🇷 Português · 🇷🇺 Русский · 🇹🇷 Türkçe · 🇵🇱 Polski · 🇨🇿 Čeština · 🇸🇦 العربية · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia",
       "api-gateway": "和 JSON／纯文本返回，model 仅作为兼容字段，实际模型由 backend 决定；字幕时间戳、流式转写及其他音频操作需使用支持相应接口的 API Key 供应商。",
       "billing-metering": "从默认 ~/.grok/auth.json 或指定 JSON 导入官方凭据；账号页导出及通用账号备份均不含 access token/refresh token，不能用于恢复登录，迁移时需单独导入官方 auth.json",
-      "usage-analytics": "Claude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch",
-      "agent-runtime": "收规则、Agent Identity runtime 注册协议、Ed25519 密钥格式、Responses 客户端 freeform 工具调用（customtool_call）事件语义、Responses Lite 请求标记与并行工具约束，以及鹈鹕测智的响应生命周期与生成产物处理思路参考官方实现：openai/codex（Apache-2.0）；鹈鹕测智使用直接对话请求，不等同于官方客户端的完整编码 Agent 流程。",
+      "usage-analytics": "",
       "security-isolation": ".jlcodes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入",
       "gui-desktop": "s: .msi（推荐）、.exe，或 x64-portable.zip（解压即用，无需安装）",
       "cross-agent-support": "Mentions Codex, Copilot, Cursor, OpenCode"
@@ -90,19 +88,18 @@
       "parallel-execution": 4,
       "model-routing": 2,
       "provider-aggregation": 1,
-      "api-gateway": 3,
+      "api-gateway": 2,
       "billing-metering": 8,
-      "usage-analytics": 2,
-      "agent-runtime": 1,
+      "usage-analytics": 1,
       "security-isolation": 3,
       "gui-desktop": 6,
       "cross-agent-support": 4
     },
     "friction": {
       "level": "low",
-      "score": 26,
+      "score": 20,
       "out_of_the_box": false,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [
         "Homebrew install",
         "native installer / package"
@@ -113,8 +110,7 @@
       "config_signals": [
         "API key configuration",
         "config.json/yaml/toml",
-        "OAuth login flow",
-        "database dependency"
+        "OAuth login flow"
       ],
       "friendliness_signals": [
         "GUI application",
@@ -123,13 +119,12 @@
       "platforms": [
         "macOS",
         "Windows",
-        "Linux",
-        "Web"
+        "Linux"
       ],
       "note_en": "Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, config.json/yaml/toml; GUI application",
       "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 npm install/build；需配置 API key configuration、config.json/yaml/toml；GUI application"
     },
-    "doc_score": 60,
+    "doc_score": 59,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -158,10 +153,10 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 1.98
+      "external_link_ratio": 0.926
     },
     "highlights": [
-      "Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth，以及 Grok apply_patch 协议兼容方向，以及账号池错误分类与状态恢复边界…",
+      "Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth、Grok apply_patch 协议兼容，以及账号池错误分类与状态恢复边界参考其开源…",
       "WebSocket 默认仅本机访问：监听 127.0.0.1，默认端口 19528，可在设置中关闭或改端口。",
       "Grok CLI 凭据不加密：access token/refresh token 以明文 JSON 保存在本机，主要依赖操作系统账号隔离与本地文件权限保护；Unix 系统上凭据目录设为 0700、凭据文件设为 0600。",
       "Token 维护：支持 access token 自动刷新、refresh token rotation 与配额预警"
@@ -175,13 +170,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:38:58+00:00",
+  "fetched_at": "2026-10-11T10:52:02+00:00",
   "categories": [
     "accounts",
-    "agent-runtime-desktop-ui",
-    "model-routing"
+    "analytics-2",
+    "sharing"
   ],
-  "primary_category": "accounts",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

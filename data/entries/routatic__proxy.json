@@ -7,7 +7,7 @@
   "description": "route Claude Code requests through multiple upstream providers (OpenCode Go, OpenCode Zen, and AWS Bedrock) with automatic model selection and format transformation.",
   "homepage": "https://deepwiki.com/routatic/proxy/1-overview",
   "stars": 985,
-  "forks": 134,
+  "forks": 133,
   "open_issues": 12,
   "language": "Go",
   "license": "AGPL-3.0",
@@ -27,12 +27,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 176,
-  "days_since_push": 1,
+  "age_days": 177,
+  "days_since_push": 2,
   "health_score": 56,
   "health_components": {
     "popularity": 59.9,
-    "momentum": 4.7,
+    "momentum": 4.6,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 67.0
@@ -40,9 +40,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 985,
-    "days_span": 176,
-    "stars_per_day": 5.6,
-    "lifetime_stars_per_day": 5.6,
+    "days_span": 177,
+    "stars_per_day": 5.56,
+    "lifetime_stars_per_day": 5.56,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:16+00:00",
+  "fetched_at": "2026-10-11T10:52:31+00:00",
   "categories": [
     "providers"
   ],
@@ -167,14 +167,14 @@
         "model-routing",
         "provider-aggregation"
       ],
-      "star_ratio": 144.436,
-      "momentum_ratio": 58.945,
+      "star_ratio": 144.825,
+      "momentum_ratio": 59.392,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "144.44x the stars (142,269 vs 985)",
-        "58.94x the star velocity (330.1/day vs 5.6/day)",
+        "144.83x the stars (142,653 vs 985)",
+        "59.39x the star velocity (330.2/day vs 5.6/day)",
         "no harder to set up (23 vs 33 friction)"
       ],
       "reasons_zh": [],

@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "full_name": "Nanako0129/sepia",
+  "name": "sepia",
+  "owner": "Nanako0129",
+  "url": "https://github.com/Nanako0129/sepia",
+  "description": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+  "homepage": "",
+  "stars": 3080,
+  "forks": 194,
+  "open_issues": 5,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-writing",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "fiction",
+    "grok",
+    "humanizer",
+    "llm",
+    "prompt-engineering",
+    "writing-tools"
+  ],
+  "created_at": "2026-08-28T05:56:49Z",
+  "updated_at": "2026-10-11T08:22:56Z",
+  "pushed_at": "2026-10-09T15:16:26Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 44,
+  "days_since_push": 1,
+  "health_score": 72,
+  "health_components": {
+    "popularity": 69.8,
+    "momentum": 58.3,
+    "maintenance": 100.0,
+    "documentation": 62.0,
+    "accessibility": 69.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3080,
+    "days_span": 44,
+    "stars_per_day": 70.0,
+    "lifetime_stars_per_day": 70.0,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Nanako0129/sepia",
+    "readme_chars": 20696,
+    "capabilities": [
+      "skills-plugins",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "load it, and the Skills CLI, which supports 77+ agents, installs it with one command.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
+    },
+    "capability_hits": {
+      "skills-plugins": 2,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 31,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source); configure server/reverse-proxy setup",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)；需配置 server/reverse-proxy setup"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Cline / Roo",
+      "Goose"
+    ],
+    "summary_en": "English | 繁體中文 | 简体中文",
+    "summary_zh": "",
+    "install_hint": "npx skills add Nanako0129/sepia -g     # -g = user scope; the default is project",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 1.16
+    },
+    "highlights": [],
+    "summary_zh_native": "English | 繁體中文 | 简体中文",
+    "highlights_zh": [],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-11T10:51:40+00:00",
+  "categories": [
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

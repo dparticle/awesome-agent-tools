@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 303 |
-| Star velocity | 2.2/day (lifetime basis, 135d span) |
-| Health score | 53/100 |
-| Documentation | 61/100 |
+| Stars | 304 |
+| Star velocity | 2.2/day (lifetime basis, 136d span) |
+| Health score | 54/100 |
+| Documentation | 62/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Swift |
 | Created | 2026-05-27 |
-| Last push | 2026-10-09 (0 days ago) |
-| Analyzed README | 20,633 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)** — Superseded by Louis-CFM/coucou: covers 100% of capabilities (5/5).
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 23,510 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,11 +30,23 @@
 
 > le are macOS-only and are dropped from the Linux build)
 
+### Workspace isolation
+
+> tic digests share the same activity ledger.
+
 ### Agent runtime
+
+### MCP support
+
+> reports to surface requests for attention behind other tabs.
+
+### Security & isolation
+
+> or iPad** in the command palette.
 
 ### GUI / desktop app
 
-> ts to surface requests for attention behind other tabs.
+> ional hooks and program reports to surface requests for attention behind other tabs.
 
 ### Notifications
 
@@ -62,7 +72,7 @@
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **62/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -80,10 +90,10 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 49.6 |
+| popularity | 49.7 |
 | momentum | 1.9 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
+| documentation | 62.0 |
 | accessibility | 78.0 |
 
 ---

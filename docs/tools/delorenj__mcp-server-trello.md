@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 445 |
-| Star velocity | 0.7/day (lifetime basis, 644d span) |
+| Star velocity | 0.7/day (lifetime basis, 645d span) |
 | Health score | 52/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-01-03 |
-| Last push | 2026-09-23 (16 days ago) |
+| Last push | 2026-09-23 (17 days ago) |
 | Analyzed README | 27,969 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).
 
 ## What it solves
 

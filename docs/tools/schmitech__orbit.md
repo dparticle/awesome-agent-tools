@@ -12,23 +12,27 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 353 |
-| Star velocity | 0.6/day (lifetime basis, 579d span) |
-| Health score | 49/100 |
-| Documentation | 47/100 |
+| Stars | 354 |
+| Star velocity | 0.6/day (lifetime basis, 580d span) |
+| Health score | 48/100 |
+| Documentation | 48/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-03-10 |
-| Last push | 2026-10-10 (0 days ago) |
-| Analyzed README | 8,568 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 10,558 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Model / provider routing
 
+> **Your data, connected** Files, SQL, NoSQL, vector stores, APIs, and MCP tools through YAML-configured adapters.
+
 ### API gateway / proxy
+
+> **Your data, connected** Files, SQL, NoSQL, vector stores, APIs, and MCP tools through YAML-configured adapters.
 
 ### Usage analytics
 
@@ -40,30 +44,32 @@
 
 ### Security & isolation
 
-> behind one OpenAI-compatible API.
+> ne OpenAI-compatible API.
 
 ### Self-hostable
 
-> vector stores, APIs, and MCP tools through YAML-configured adapters.
+> stores, APIs, and MCP tools through YAML-configured adapters.
+
+### GUI / desktop app
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 43/100)
+- **Difficulty:** 🟡 Some setup (friction score 52/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `curl -LO https://github.com/schmitech/orbit/releases/download/v2.18.1/orbit-2.18.1.tar.gz`
+- **Quickest install:** `docker run -d --name orbit \`
 
 **Signals that make it easy:** global npm install
 
-**Signals that add work:** npm install/build
+**Signals that add work:** docker run, npm install/build
 
 **Configuration required:** API key configuration, config.json/yaml/toml, sign-in required
 
-*Some setup. install via global npm install; needs npm install/build; configure API key configuration, config.json/yaml/toml*
+*Some setup. install via global npm install; needs docker run, npm install/build; configure API key configuration, config.json/yaml/toml*
 
 ## Documentation quality
 
-Score **47/100**, based on these detected signals:
+Score **48/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -81,8 +87,8 @@ Score **47/100**, based on these detected signals:
 | popularity | 51.0 |
 | momentum | 0.5 |
 | maintenance | 100.0 |
-| documentation | 47.0 |
-| accessibility | 57.0 |
+| documentation | 48.0 |
+| accessibility | 48.0 |
 
 ---
 

@@ -6,8 +6,8 @@
   "url": "https://github.com/appautomaton/latex-arxiv-SKILL",
   "description": "A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.",
   "homepage": "https://appautomaton.com/latex-arxiv-SKILL/",
-  "stars": 458,
-  "forks": 40,
+  "stars": 461,
+  "forks": 41,
   "open_issues": 1,
   "language": "TeX",
   "license": "MIT",
@@ -34,16 +34,16 @@
     "scientific-writing"
   ],
   "created_at": "2025-03-18T17:58:07Z",
-  "updated_at": "2026-10-08T07:31:39Z",
+  "updated_at": "2026-10-11T01:38:33Z",
   "pushed_at": "2026-09-13T16:17:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 570,
-  "days_since_push": 26,
+  "age_days": 571,
+  "days_since_push": 27,
   "health_score": 48,
   "health_components": {
-    "popularity": 53.2,
+    "popularity": 53.3,
     "momentum": 0.7,
     "maintenance": 92.0,
     "documentation": 43.0,
@@ -51,10 +51,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 458,
-    "days_span": 570,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 0.8,
+    "stars_gained": 461,
+    "days_span": 571,
+    "stars_per_day": 0.81,
+    "lifetime_stars_per_day": 0.81,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:30+00:00",
+  "fetched_at": "2026-10-11T10:52:51+00:00",
   "categories": [
     "model-routing",
     "skills"

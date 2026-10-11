@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 250 |
-| Star velocity | 1.0/day (lifetime basis, 245d span) |
+| Star velocity | 1.0/day (lifetime basis, 246d span) |
 | Health score | 41/100 |
 | Documentation | 32/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | C++ |
 | Created | 2026-02-06 |
-| Last push | 2026-07-24 (78 days ago) |
+| Last push | 2026-07-24 (79 days ago) |
 | Analyzed README | 4,144 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).
@@ -69,7 +69,7 @@ Score **32/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 48.0 |
-| momentum | 0.9 |
+| momentum | 0.8 |
 | maintenance | 78.0 |
 | documentation | 32.0 |
 | accessibility | 54.0 |

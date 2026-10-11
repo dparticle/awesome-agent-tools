@@ -24,12 +24,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 43,
-  "days_since_push": 0,
+  "age_days": 44,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 55.9,
-    "momentum": 12.1,
+    "momentum": 11.8,
     "maintenance": 100.0,
     "documentation": 35.0,
     "accessibility": 66.0
@@ -37,9 +37,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 624,
-    "days_span": 43,
-    "stars_per_day": 14.51,
-    "lifetime_stars_per_day": 14.51,
+    "days_span": 44,
+    "stars_per_day": 14.18,
+    "lifetime_stars_per_day": 14.18,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -124,16 +124,71 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:24+00:00",
+  "fetched_at": "2026-10-11T10:52:42+00:00",
   "categories": [
-    "model-routing"
+    "model-routing",
+    "teams"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 omnigent-ai/omnigent 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "omnigent-ai/omnigent",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "hkqr/my-free-code",
+      "challenger": "omnigent-ai/omnigent",
+      "incumbent_name": "hkqr/my-free-code",
+      "challenger_name": "omnigent-ai/omnigent",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "cross-agent-support",
+        "model-routing"
+      ],
+      "star_ratio": 17.208,
+      "momentum_ratio": 6.258,
+      "setup_delta": -9,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "17.21x the stars (10,738 vs 624)",
+        "6.26x the star velocity (88.7/day vs 14.2/day)",
+        "no harder to set up (25 vs 34 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "model-routing"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "self-hosted",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 80,
+        "incumbent_setup_score": 34,
+        "challenger_setup_score": 25
+      }
+    }
   }
 }

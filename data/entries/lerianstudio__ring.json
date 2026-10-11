@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 344,
-  "days_since_push": 2,
+  "age_days": 345,
+  "days_since_push": 3,
   "health_score": 50,
   "health_components": {
     "popularity": 46.7,
@@ -47,7 +47,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 217,
-    "days_span": 344,
+    "days_span": 345,
     "stars_per_day": 0.63,
     "lifetime_stars_per_day": 0.63,
     "basis": "lifetime",
@@ -137,8 +137,8 @@
     },
     "highlights": [
       "ring:running-dev-cycle - Lean backend development cycle orchestrator driven by a rolling-wave phased plan (phases → epics Epic N.M → tasks Task N.M.T): Gate 0 implementation-owned TDD/cover…",
-      "Providing 76 specialized skills (23 core + 35 dev-team + 14 product planning + 4 technical writing)",
       "ring:auditing-production-readiness - 44-dimension production readiness audit; runs explorers in batches of up to 10, appends incrementally to a single report; output: scored report (0-430,…",
+      "Providing 76 specialized skills (23 core + 35 dev-team + 14 product planning + 4 technical writing)",
       "33 specialized agents - 2 planning/analysis + 24 developer/reviewer + 4 product research + 3 technical writing"
     ],
     "summary_zh_native": "",
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:54+00:00",
+  "fetched_at": "2026-10-11T10:53:25+00:00",
   "categories": [
     "mobile",
     "skills"
@@ -178,14 +178,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 62.76,
-      "momentum_ratio": 178.651,
+      "star_ratio": 62.779,
+      "momentum_ratio": 177.238,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "62.76x the stars (13,619 vs 217)",
-        "178.65x the star velocity (112.5/day vs 0.6/day)",
+        "62.78x the stars (13,623 vs 217)",
+        "177.24x the star velocity (111.7/day vs 0.6/day)",
         "no harder to set up (30 vs 40 friction)"
       ],
       "reasons_zh": [],

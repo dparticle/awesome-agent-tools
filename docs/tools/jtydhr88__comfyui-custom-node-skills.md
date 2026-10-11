@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 296 |
-| Star velocity | 1.4/day (lifetime basis, 218d span) |
+| Stars | 295 |
+| Star velocity | 1.4/day (lifetime basis, 219d span) |
 | Health score | 41/100 |
 | Documentation | 32/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-05 |
-| Last push | 2026-07-27 (74 days ago) |
+| Last push | 2026-07-27 (75 days ago) |
 | Analyzed README | 5,568 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [FrancyJGLisboa/agent-skills-platform](https://github.com/FrancyJGLisboa/agent-skills-platform)** — Superseded by FrancyJGLisboa/agent-skills-platform: covers 100% of capabilities (4/4).

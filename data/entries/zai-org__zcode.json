@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "full_name": "zai-org/ZCode",
+  "name": "ZCode",
+  "owner": "zai-org",
+  "url": "https://github.com/zai-org/ZCode",
+  "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+  "homepage": "https://zcode.z.ai/",
+  "stars": 7666,
+  "forks": 2340,
+  "open_issues": 11,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [],
+  "created_at": "2026-09-20T12:01:16Z",
+  "updated_at": "2026-10-11T09:43:33Z",
+  "pushed_at": "2026-10-10T11:02:50Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 20,
+  "days_since_push": 0,
+  "health_score": 84,
+  "health_components": {
+    "popularity": 77.7,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 44.0,
+    "accessibility": 96.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 7666,
+    "days_span": 20,
+    "stars_per_day": 383.3,
+    "lifetime_stars_per_day": 383.3,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "zai-org/ZCode",
+    "readme_chars": 7585,
+    "capabilities": [
+      "remote-control",
+      "model-routing",
+      "session-persistence",
+      "agent-runtime",
+      "self-hosted",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "remote-control": "",
+      "model-routing": "",
+      "session-persistence": "",
+      "agent-runtime": "",
+      "self-hosted": "## 更新 - 2026-10-10：更新至 ZCode v3.15.1 版本。",
+      "gui-desktop": "pnpm --filter @zcode/cli..."
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "model-routing": 1,
+      "session-persistence": 1,
+      "agent-runtime": 1,
+      "self-hosted": 2,
+      "gui-desktop": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 24,
+      "out_of_the_box": true,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "pnpm install/build"
+      ],
+      "config_signals": [
+        "OAuth login flow"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via native installer / package; needs pnpm install/build; configure OAuth login flow; GUI application",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 pnpm install/build；需配置 OAuth login flow；GUI application"
+    },
+    "doc_score": 44,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "ZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-11T10:51:28+00:00",
+  "categories": [
+    "agent-runtime-desktop-ui",
+    "model-routing",
+    "security-self-hosting"
+  ],
+  "primary_category": "security-self-hosting",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

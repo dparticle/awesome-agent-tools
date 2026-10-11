@@ -6,9 +6,9 @@
   "url": "https://github.com/ZJU-REAL/Easel",
   "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
   "homepage": "https://zju-real.github.io/Easel/",
-  "stars": 3393,
-  "forks": 518,
-  "open_issues": 13,
+  "stars": 3447,
+  "forks": 525,
+  "open_issues": 3,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -23,37 +23,39 @@
     "social-media-management"
   ],
   "created_at": "2026-08-28T02:22:27Z",
-  "updated_at": "2026-10-10T10:33:36Z",
-  "pushed_at": "2026-10-09T10:59:29Z",
+  "updated_at": "2026-10-11T09:28:19Z",
+  "pushed_at": "2026-10-11T08:49:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 43,
+  "age_days": 44,
   "days_since_push": 0,
   "health_score": 78,
   "health_components": {
-    "popularity": 70.6,
-    "momentum": 65.8,
+    "popularity": 70.7,
+    "momentum": 65.3,
     "maintenance": 100.0,
-    "documentation": 79.0,
+    "documentation": 80.0,
     "accessibility": 85.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3393,
-    "days_span": 43,
-    "stars_per_day": 78.91,
-    "lifetime_stars_per_day": 78.91,
+    "stars_gained": 3447,
+    "days_span": 44,
+    "stars_per_day": 78.34,
+    "lifetime_stars_per_day": 78.34,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "ZJU-REAL/Easel",
-    "readme_chars": 18482,
+    "readme_chars": 21021,
     "capabilities": [
       "quota-management",
+      "model-routing",
       "provider-aggregation",
       "api-gateway",
+      "session-persistence",
       "memory-context",
       "skills-plugins",
       "gui-desktop",
@@ -61,20 +63,24 @@
     ],
     "capability_evidence": {
       "quota-management": "平台适配的成品直接到对应平台，再通过**归因**分析表现并把有效经验沉淀回账号画像。",
+      "model-routing": "odels.providers.local-api，主模型设为 local-api/ ，明确使用 OpenClaw 运行时并允许请求配置的私有网络地址；不会覆盖原有 openai provider 或改写 OPENAI*。",
       "provider-aggregation": "",
-      "api-gateway": "API 不提供向量模型，请单独配置 Embedding API；否则 OpenClaw 会默认请求 text-embedding-3-small，可能得到“模型不可用”。",
+      "api-gateway": "hon 依赖和前端构建时，在项目 .env 中配置下面四项，然后运行 easel web：",
+      "session-persistence": "置 → 模型配置 → 连接方式」选择「API 直连」，填写独立「本地 / 内网 API 直连」通道的地址、模型与 Key 后保存。",
       "memory-context": "",
       "skills-plugins": "布与归因** 发布质量门禁、敏感与版权风险检查、平台搜索优化、发布 Checklist、多平台格式适配；小红书、抖音、快手、知乎、B 站、微信视频号、微信公众号登录与发布；内容日历回写、账号数据、评论洞察、内容复盘、ROI 与画像记忆",
-      "gui-desktop": "",
+      "gui-desktop": "后安装器会创建项目内 .venv，安装 Python/Node 依赖、前端生产包和 Playwright Chromium，并使用独立的 easel OpenClaw profile。",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
       "quota-management": 1,
+      "model-routing": 3,
       "provider-aggregation": 1,
-      "api-gateway": 1,
+      "api-gateway": 11,
+      "session-persistence": 1,
       "memory-context": 1,
       "skills-plugins": 2,
-      "gui-desktop": 2,
+      "gui-desktop": 3,
       "cross-agent-support": 2
     },
     "friction": {
@@ -104,7 +110,7 @@
       "note_en": "Turnkey. install via pip install, native installer / package; needs git clone (build from source); configure API key configuration; Chinese: beginner/one-click framing",
       "note_zh": "开箱即用。可通过 pip install、native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration；Chinese: beginner/one-click framing"
     },
-    "doc_score": 79,
+    "doc_score": 80,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -119,7 +125,8 @@
       "has a Chinese translation",
       "publishes a roadmap",
       "reports benchmarks",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -139,9 +146,9 @@
     },
     "highlights": [
       "一个 Agent 贯穿完整链路：发现热点、评估选题、规划日历、生成文案与视觉、制作视频、发布和归因在同一个工作流中完成。",
+      "一份素材，多种平台形态：同一主题可以改写成小红书卡片、短视频、知乎长文或短帖，并遵循不同平台的格式和字数要求。",
       "发布：按平台适配标题、正文、画幅和媒体要求，执行发布前检查并发送到已登录账号。",
-      "发现：聚合热榜、行业新闻、竞品动态和用户讨论，筛选真正适合账号的机会。",
-      "归因：读取播放、互动、评论和内容表现，把有效结构和偏好沉淀回账号画像。"
+      "发现：聚合热榜、行业新闻、竞品动态和用户讨论，筛选真正适合账号的机会。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -152,12 +159,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:38:43+00:00",
+  "fetched_at": "2026-10-11T10:51:39+00:00",
   "categories": [
     "accounts",
-    "providers"
+    "teams"
   ],
-  "primary_category": "providers",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

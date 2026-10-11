@@ -6,20 +6,20 @@
   "url": "https://github.com/trycompai/crm",
   "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
   "homepage": "https://trycrm.ai",
-  "stars": 11196,
-  "forks": 1599,
+  "stars": 11215,
+  "forks": 1606,
   "open_issues": 51,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-31T21:38:51Z",
-  "updated_at": "2026-10-10T10:35:40Z",
+  "updated_at": "2026-10-11T04:23:29Z",
   "pushed_at": "2026-09-11T07:06:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "release",
-  "age_days": 70,
-  "days_since_push": 29,
+  "age_days": 71,
+  "days_since_push": 30,
   "health_score": 74,
   "health_components": {
     "popularity": 81.0,
@@ -30,10 +30,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 11196,
-    "days_span": 70,
-    "stars_per_day": 159.94,
-    "lifetime_stars_per_day": 159.94,
+    "stars_gained": 11215,
+    "days_span": 71,
+    "stars_per_day": 157.96,
+    "lifetime_stars_per_day": 157.96,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -117,11 +117,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:38:32+00:00",
+  "fetched_at": "2026-10-11T10:51:22+00:00",
   "categories": [
-    "sharing"
+    "accounts",
+    "security-self-hosting"
   ],
-  "primary_category": "sharing",
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",

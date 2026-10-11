@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,596 |
-| Star velocity | 383.0/day (lifetime basis, 12d span) |
-| Health score | 83/100 |
-| Documentation | 60/100 |
+| Stars | 4,747 |
+| Star velocity | 365.1/day (lifetime basis, 13d span) |
+| Health score | 84/100 |
+| Documentation | 61/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Swift |
 | Created | 2026-09-27 |
 | Last push | 2026-10-10 (0 days ago) |
-| Analyzed README | 27,484 chars from `raw:HEAD/README.md` |
+| Analyzed README | 28,360 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -79,7 +79,7 @@
 
 ## Documentation quality
 
-Score **60/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -96,10 +96,10 @@ Score **60/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.2 |
+| popularity | 73.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 60.0 |
+| documentation | 61.0 |
 | accessibility | 77.0 |
 
 ---

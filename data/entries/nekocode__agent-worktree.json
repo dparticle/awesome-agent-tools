@@ -6,7 +6,7 @@
   "url": "https://github.com/nekocode/agent-worktree",
   "description": "A Git worktree workflow tool for AI coding agents. Enables parallel development with isolated environments.",
   "homepage": "",
-  "stars": 279,
+  "stars": 280,
   "forks": 18,
   "open_issues": 0,
   "language": "Rust",
@@ -18,13 +18,13 @@
     "worktree"
   ],
   "created_at": "2026-02-05T03:46:15Z",
-  "updated_at": "2026-10-06T13:25:00Z",
+  "updated_at": "2026-10-11T04:16:04Z",
   "pushed_at": "2026-08-25T13:49:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
-  "days_since_push": 45,
+  "age_days": 248,
+  "days_since_push": 46,
   "health_score": 47,
   "health_components": {
     "popularity": 48.9,
@@ -35,8 +35,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 279,
-    "days_span": 247,
+    "stars_gained": 280,
+    "days_span": 248,
     "stars_per_day": 1.13,
     "lifetime_stars_per_day": 1.13,
     "basis": "lifetime",
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:45+00:00",
+  "fetched_at": "2026-10-11T10:53:11+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "mobile",
@@ -160,14 +160,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 3.767,
-      "momentum_ratio": 3.0,
+      "star_ratio": 3.779,
+      "momentum_ratio": 3.009,
       "setup_delta": 8,
       "dominance": 0.897,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "3.77x the stars (1,051 vs 279)",
-        "3.00x the star velocity (3.4/day vs 1.1/day)",
+        "3.78x the stars (1,058 vs 280)",
+        "3.01x the star velocity (3.4/day vs 1.1/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],

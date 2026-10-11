@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 135779,
-  "forks": 20159,
-  "open_issues": 187,
+  "stars": 135893,
+  "forks": 20178,
+  "open_issues": 189,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-10-10T10:26:49Z",
-  "pushed_at": "2026-10-09T15:07:05Z",
+  "updated_at": "2026-10-11T10:38:01Z",
+  "pushed_at": "2026-10-11T09:56:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 212,
+  "age_days": 213,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 135779,
-    "days_span": 212,
-    "stars_per_day": 640.47,
-    "lifetime_stars_per_day": 640.47,
+    "stars_gained": 135893,
+    "days_span": 213,
+    "stars_per_day": 638.0,
+    "lifetime_stars_per_day": 638.0,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 85025,
+    "readme_chars": 85421,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -158,7 +158,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.247
+      "external_link_ratio": 0.246
     },
     "highlights": [
       "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token.",
@@ -175,7 +175,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:38:48+00:00",
+  "fetched_at": "2026-10-11T10:51:47+00:00",
   "categories": [
     "analytics",
     "mobile",

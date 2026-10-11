@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 18,786 |
-| Star velocity | 70.4/day (lifetime basis, 267d span) |
-| Health score | 76/100 |
-| Documentation | 60/100 |
-| Tier | ✅ Recommended |
+| Stars | 18,817 |
+| Star velocity | 70.2/day (lifetime basis, 268d span) |
+| Health score | 78/100 |
+| Documentation | 59/100 |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-10-10 (0 days ago) |
-| Analyzed README | 16,669 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 14,040 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,9 +36,9 @@
 
 ### Automatic failover
 
-### Multi-agent orchestration
+> aude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch
 
-> 测速与已有连接处理的设计也参考其源码，当前运行内核仍为 Mihomo，不代表官方合作关系。
+### Multi-agent orchestration
 
 ### Parallel execution
 
@@ -60,12 +60,6 @@
 
 ### Usage analytics
 
-> Claude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch
-
-### Agent runtime
-
-> 收规则、Agent Identity runtime 注册协议、Ed25519 密钥格式、Responses 客户端 freeform 工具调用（customtool_call）事件语义、Responses Lite 请求标记与并行工具约束，以及鹈鹕测智的响应生命周期与生成产物处理思路参考官方实现：openai/codex（Apache-2.0）；鹈鹕测智使用直接对话请求，不等同于官方客户端的完整编码 Agent 流程。
-
 ### Security & isolation
 
 > .jlcodes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入
@@ -80,22 +74,22 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 26/100)
+- **Difficulty:** 🟢 Easy (friction score 20/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 - **Quickest install:** `brew tap jlcodes99/cockpit-tools https://github.com/jlcodes99/cockpit-tools`
 
 **Signals that make it easy:** Homebrew install, native installer / package
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow, database dependency
+**Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow
 
 *Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, config.json/yaml/toml; GUI application*
 
 ## Documentation quality
 
-Score **60/100**, based on these detected signals:
+Score **59/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -113,10 +107,10 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.5 |
-| momentum | 58.6 |
+| momentum | 58.5 |
 | maintenance | 100.0 |
-| documentation | 60.0 |
-| accessibility | 74.0 |
+| documentation | 59.0 |
+| accessibility | 88.0 |
 
 ---
 

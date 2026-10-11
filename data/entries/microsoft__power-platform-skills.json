@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
   "homepage": "https://aka.ms/ppskills",
-  "stars": 984,
+  "stars": 990,
   "forks": 204,
-  "open_issues": 154,
+  "open_issues": 155,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -21,12 +21,12 @@
     "power-platform"
   ],
   "created_at": "2026-01-21T18:25:14Z",
-  "updated_at": "2026-10-09T20:42:36Z",
-  "pushed_at": "2026-10-09T23:07:03Z",
+  "updated_at": "2026-10-11T08:26:55Z",
+  "pushed_at": "2026-10-10T23:06:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 261,
+  "age_days": 262,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
@@ -38,10 +38,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 984,
-    "days_span": 261,
-    "stars_per_day": 3.77,
-    "lifetime_stars_per_day": 3.77,
+    "stars_gained": 990,
+    "days_span": 262,
+    "stars_per_day": 3.78,
+    "lifetime_stars_per_day": 3.78,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:17+00:00",
+  "fetched_at": "2026-10-11T10:52:31+00:00",
   "categories": [
     "mobile-2"
   ],
@@ -160,13 +160,13 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 1.447,
-      "momentum_ratio": 1.464,
+      "star_ratio": 1.438,
+      "momentum_ratio": 1.455,
       "setup_delta": -3,
-      "dominance": 0.681,
+      "dominance": 0.679,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.45x the stars (1,424 vs 984)",
+        "1.44x the stars (1,424 vs 990)",
         "1.46x the star velocity (5.5/day vs 3.8/day)",
         "no harder to set up (46 vs 49 friction)"
       ],

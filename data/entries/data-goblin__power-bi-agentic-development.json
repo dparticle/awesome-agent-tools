@@ -6,7 +6,7 @@
   "url": "https://github.com/data-goblin/power-bi-agentic-development",
   "description": "Power BI AI skills and Power BI agents for Claude Code and GitHub Copilot: a plugin marketplace of Power BI skills, subagents, and hooks for semantic models, DAX, TMDL, reports, and AI dashboards. Includes Microsoft Fabric skills and Fabric agents. Weekly updates.",
   "homepage": "https://data-goblins.com",
-  "stars": 1034,
+  "stars": 1035,
   "forks": 149,
   "open_issues": 0,
   "language": "C#",
@@ -33,13 +33,13 @@
     "tmdl"
   ],
   "created_at": "2026-01-15T09:26:29Z",
-  "updated_at": "2026-10-08T17:04:07Z",
-  "pushed_at": "2026-10-07T11:29:46Z",
+  "updated_at": "2026-10-11T09:49:08Z",
+  "pushed_at": "2026-10-11T09:49:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 268,
-  "days_since_push": 2,
+  "age_days": 269,
+  "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 60.3,
@@ -50,16 +50,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1034,
-    "days_span": 268,
-    "stars_per_day": 3.86,
-    "lifetime_stars_per_day": 3.86,
+    "stars_gained": 1035,
+    "days_span": 269,
+    "stars_per_day": 3.85,
+    "lifetime_stars_per_day": 3.85,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "data-goblin/power-bi-agentic-development",
-    "readme_chars": 28580,
+    "readme_chars": 28627,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -134,7 +134,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.7
+      "external_link_ratio": 0.699
     },
     "highlights": [
       "If it still fails, delete the plugin by hand: remove its folder under %USERPROFILE%\\.copilot\\installed-plugins\\ (or %COPILOT_HOME%\\installed-plugins\\) and restart Copilot CLI.",
@@ -151,10 +151,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-10T10:39:15+00:00",
+  "fetched_at": "2026-10-11T10:52:30+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "model-routing",
+    "analytics",
     "skills"
   ],
   "primary_category": "skills",
