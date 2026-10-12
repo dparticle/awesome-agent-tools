@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 373 |
-| Star velocity | 0.6/day (lifetime basis, 581d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2025-03-08 |
-| Last push | 2026-10-08 (2 days ago) |
+| Last push | 2026-10-08 (3 days ago) |
 | Analyzed README | 29,300 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [aipoch/open-science](https://github.com/aipoch/open-science)** — Superseded by aipoch/open-science: covers 100% of capabilities (5/5).
@@ -82,7 +82,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.4 |
-| momentum | 0.5 |
+| momentum | 0.0 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 48.0 |

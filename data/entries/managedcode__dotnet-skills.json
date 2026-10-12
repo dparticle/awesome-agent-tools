@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "full_name": "managedcode/dotnet-skills",
+  "name": "dotnet-skills",
+  "owner": "managedcode",
+  "url": "https://github.com/managedcode/dotnet-skills",
+  "description": "One of the largest .NET-focused skill collections for AI coding assistants, with a catalog, CLI, and orchestration agents for Codex, Claude Code, GitHub Copilot, Gemini, and Junie.",
+  "homepage": "https://skills.managed-code.com",
+  "stars": 486,
+  "forks": 37,
+  "open_issues": 0,
+  "language": "C#",
+  "license": "MIT",
+  "topics": [
+    "claude-code",
+    "codex",
+    "copilot",
+    "dotnet",
+    "dotnet-skills",
+    "gemini",
+    "skills"
+  ],
+  "created_at": "2026-03-15T10:43:01Z",
+  "updated_at": "2026-10-12T11:27:19Z",
+  "pushed_at": "2026-10-12T11:28:32Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 211,
+  "days_since_push": 0,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 53.7,
+    "momentum": 1.9,
+    "maintenance": 100.0,
+    "documentation": 64.0,
+    "accessibility": 90.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 486,
+    "days_span": 211,
+    "stars_per_day": 2.3,
+    "lifetime_stars_per_day": 2.3,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "managedcode/dotnet-skills",
+    "readme_chars": 31683,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "automatic installs use its shared skills/ or agents/ directory.",
+      "multi-agent-orchestration": "or dotnet skills and dotnet agents.",
+      "skills-plugins": "r and Blazor WebAssembly aren't the same thing.",
+      "agent-runtime": "rce projects and their authors:",
+      "mcp-support": "It covers dotnet-diagnostics-mcp setup, CPU/allocation/GC capture, and the prompt: \"Profile all unit tests and identify bottlenecks in the code tested.\" It belongs to Diagnostics & Metrics, with test-host discovery and…",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 4,
+      "skills-plugins": 11,
+      "agent-runtime": 1,
+      "mcp-support": 4,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via native installer / package; configure database migration",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 database migration"
+    },
+    "doc_score": 64,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Copilot"
+    ],
+    "summary_en": "Stop explaining .NET to your AI.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.389
+    },
+    "highlights": [
+      "the current dotnet-skills CLI remains skill-first; repo-owned agents can evolve and ship on their own track."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-12T12:01:23+00:00",
+  "categories": [
+    "agent-runtime-desktop-ui",
+    "analytics",
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

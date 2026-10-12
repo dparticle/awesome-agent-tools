@@ -18,23 +18,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
-  "days_since_push": 73,
-  "health_score": 47,
+  "age_days": 143,
+  "days_since_push": 74,
+  "health_score": 46,
   "health_components": {
     "popularity": 52.8,
-    "momentum": 2.6,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 50.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 436,
-    "days_span": 142,
-    "stars_per_day": 3.07,
-    "lifetime_stars_per_day": 3.07,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 3.05,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -124,12 +124,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:53+00:00",
+  "fetched_at": "2026-10-12T12:01:27+00:00",
   "categories": [
-    "security-self-hosting",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",

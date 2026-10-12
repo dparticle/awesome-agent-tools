@@ -29,23 +29,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 202,
-  "days_since_push": 26,
+  "age_days": 203,
+  "days_since_push": 27,
   "health_score": 49,
   "health_components": {
     "popularity": 53.5,
-    "momentum": 2.0,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 56.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 475,
-    "days_span": 202,
-    "stars_per_day": 2.35,
-    "lifetime_stars_per_day": 2.35,
-    "basis": "lifetime",
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.34,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -150,12 +150,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:50+00:00",
+  "fetched_at": "2026-10-12T12:01:25+00:00",
   "categories": [
-    "analytics",
     "model-routing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

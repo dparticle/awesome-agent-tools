@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,130 |
-| Star velocity | 30.2/day (lifetime basis, 236d span) |
-| Health score | 65/100 |
-| Documentation | 57/100 |
+| Stars | 7,146 |
+| Star velocity | 15.2/day (history basis, 5d span) |
+| Health score | 62/100 |
+| Documentation | 58/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-16 |
-| Last push | 2026-10-10 (1 days ago) |
-| Analyzed README | 21,301 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 23,971 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,8 +31,6 @@
 > ns, discoveries, accomplished work, next steps, and relevant files.
 
 ### Memory & context
-
-> ehavior, manual MCP setup, compaction resilience, and troubleshooting: Agent Setup → · Pi users can also find the package at gentle-engram.
 
 ### Agent runtime
 
@@ -46,20 +44,20 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Difficulty:** 🟢 Easy (friction score 34/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install gentleman-programming/tap/engram`
 
 **Signals that make it easy:** Homebrew install
 
-**Configuration required:** environment variables, database dependency
+**Configuration required:** environment variables, database dependency, database migration
 
 *Easy. install via Homebrew install; configure environment variables, database dependency*
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **58/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -77,10 +75,10 @@ Score **57/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 77.1 |
-| momentum | 25.2 |
+| momentum | 12.7 |
 | maintenance | 100.0 |
-| documentation | 57.0 |
-| accessibility | 72.0 |
+| documentation | 58.0 |
+| accessibility | 66.0 |
 
 ---
 

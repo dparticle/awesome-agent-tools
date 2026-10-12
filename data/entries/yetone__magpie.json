@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 8842,
-  "forks": 582,
-  "open_issues": 470,
+  "stars": 10113,
+  "forks": 673,
+  "open_issues": 592,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-11T10:50:29Z",
-  "pushed_at": "2026-10-11T07:56:17Z",
+  "updated_at": "2026-10-12T11:58:35Z",
+  "pushed_at": "2026-10-12T11:52:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 17,
+  "age_days": 18,
   "days_since_push": 0,
-  "health_score": 86,
+  "health_score": 87,
   "health_components": {
-    "popularity": 78.9,
+    "popularity": 80.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 58.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 8842,
-    "days_span": 17,
-    "stars_per_day": 520.12,
-    "lifetime_stars_per_day": 520.12,
-    "basis": "lifetime",
+    "stars_gained": 4446,
+    "days_span": 5,
+    "stars_per_day": 889.2,
+    "lifetime_stars_per_day": 561.83,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 17743,
+    "readme_chars": 18021,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -133,7 +133,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.804
+      "external_link_ratio": 1.776
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -155,11 +155,10 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-11T10:51:10+00:00",
+  "fetched_at": "2026-10-12T11:59:55+00:00",
   "categories": [
     "accounts",
-    "sharing",
-    "teams"
+    "sharing"
   ],
   "primary_category": "sharing",
   "lifecycle": {

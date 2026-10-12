@@ -6,47 +6,46 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 135893,
-  "forks": 20178,
-  "open_issues": 189,
+  "stars": 136088,
+  "forks": 20207,
+  "open_issues": 62,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-10-11T10:38:01Z",
-  "pushed_at": "2026-10-11T09:56:19Z",
+  "updated_at": "2026-10-12T11:38:02Z",
+  "pushed_at": "2026-10-12T01:26:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 213,
+  "age_days": 214,
   "days_since_push": 0,
-  "health_score": 90,
+  "health_score": 84,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 100.0,
+    "momentum": 75.3,
     "maintenance": 100.0,
     "documentation": 81.0,
     "accessibility": 43.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 135893,
-    "days_span": 213,
-    "stars_per_day": 638.0,
-    "lifetime_stars_per_day": 638.0,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 452,
+    "days_span": 5,
+    "stars_per_day": 90.4,
+    "lifetime_stars_per_day": 635.93,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 85421,
+    "readme_chars": 88246,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
       "parallel-execution",
       "worktree-isolation",
       "model-routing",
-      "usage-analytics",
       "session-persistence",
       "memory-context",
       "skills-plugins",
@@ -63,13 +62,12 @@
       "parallel-execution": "t patterns depending on whether it's a landing page, dashboard, form, or card layout.",
       "worktree-isolation": "hand, and gstack-uninstall",
       "model-routing": "deterministic aside repl scripts.",
-      "usage-analytics": "try flows through validated edge functions that enforce schema checks, event type allowlists, and field length limits.",
       "session-persistence": "Browse my kid's school parent portal and add all the other parents' names, phone numbers, and photos to my Google Contacts.\" Two ways to get authenticated: (1) log in once in the headed browser, your session persists, o…",
       "memory-context": "Come work at YC — ycombinator.com/software",
       "skills-plugins": "single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack f…",
       "agent-runtime": "ding speed and help harden gstack?",
       "mcp-support": "n/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing, never use mcp\\\\claude-in-chro…",
-      "security-isolation": "st, verify the chain with gstack-egress verify (exit 3 on tamper), see the standing consent settings with gstack-egress grants.",
+      "security-isolation": "verify the chain with gstack-egress verify (exit 3 on tamper), and see the standing consent settings with gstack-egress grants.",
       "notifications": "office-hours — describe what you're building",
       "voice-input": "nk, plan, build, review, test, ship — each agent knows exactly what to do and when to stop.",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
@@ -80,7 +78,6 @@
       "parallel-execution": 1,
       "worktree-isolation": 2,
       "model-routing": 2,
-      "usage-analytics": 1,
       "session-persistence": 1,
       "memory-context": 1,
       "skills-plugins": 7,
@@ -104,7 +101,6 @@
         "go build"
       ],
       "config_signals": [
-        "API key configuration",
         "config file",
         "config.json/yaml/toml",
         "sign-in required",
@@ -121,8 +117,8 @@
         "iOS",
         "Web"
       ],
-      "note_en": "Some setup. install via native installer / package; needs git clone (build from source), go build; configure API key configuration, config file; one-click setup",
-      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)、go build；需配置 API key configuration、config file；one-click setup"
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source), go build; configure config file, config.json/yaml/toml; one-click setup",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)、go build；需配置 config file、config.json/yaml/toml；one-click setup"
     },
     "doc_score": 81,
     "doc_signals": [
@@ -158,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.246
+      "external_link_ratio": 0.238
     },
     "highlights": [
       "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token.",
@@ -175,13 +171,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:47+00:00",
+  "fetched_at": "2026-10-12T12:00:26+00:00",
   "categories": [
     "analytics",
-    "mobile",
-    "skills"
+    "skills",
+    "voice"
   ],
-  "primary_category": "mobile",
+  "primary_category": "voice",
   "lifecycle": {
     "state": "active",
     "note_en": "",

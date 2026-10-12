@@ -36,23 +36,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 355,
-  "days_since_push": 30,
-  "health_score": 46,
+  "age_days": 356,
+  "days_since_push": 32,
+  "health_score": 43,
   "health_components": {
     "popularity": 51.1,
-    "momentum": 0.8,
-    "maintenance": 92.0,
+    "momentum": 0.3,
+    "maintenance": 78.0,
     "documentation": 59.0,
     "accessibility": 34.0
   },
-  "tier": "notable",
+  "tier": "watchlist",
   "momentum": {
-    "stars_gained": 357,
-    "days_span": 355,
-    "stars_per_day": 1.01,
-    "lifetime_stars_per_day": 1.01,
-    "basis": "lifetime",
+    "stars_gained": 2,
+    "days_span": 5,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 1.0,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:01+00:00",
+  "fetched_at": "2026-10-12T12:01:36+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",
@@ -156,15 +156,15 @@
   "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 abubakarsiddik31/claude-skills-collection 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "abubakarsiddik31/claude-skills-collection",
+    "note_en": "Superseded by thedivergentai/Game-Design-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/Game-Design-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/Game-Design-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "giuseppe-trisciuoglio/developer-kit",
-      "challenger": "abubakarsiddik31/claude-skills-collection",
+      "challenger": "thedivergentai/game-design-agentic-skills",
       "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
-      "challenger_name": "abubakarsiddik31/claude-skills-collection",
+      "challenger_name": "thedivergentai/Game-Design-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -176,15 +176,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 3.067,
-      "momentum_ratio": 3.04,
-      "setup_delta": -20,
-      "dominance": 0.938,
+      "star_ratio": 2.345,
+      "momentum_ratio": 8.5,
+      "setup_delta": -45,
+      "dominance": 0.944,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "3.07x the stars (1,095 vs 357)",
-        "3.04x the star velocity (3.1/day vs 1.0/day)",
-        "no harder to set up (46 vs 66 friction)"
+        "2.34x the stars (837 vs 357)",
+        "8.50x the star velocity (3.4/day vs 0.4/day)",
+        "no harder to set up (21 vs 66 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -197,21 +197,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "multi-agent-orchestration",
-          "notifications",
-          "skills-plugins",
-          "worktree-isolation"
+          "parallel-execution",
+          "skills-plugins"
         ],
-        "incumbent_health": 46,
-        "challenger_health": 53,
+        "incumbent_health": 43,
+        "challenger_health": 58,
         "incumbent_setup_score": 66,
-        "challenger_setup_score": 46
+        "challenger_setup_score": 21
       }
     }
   }

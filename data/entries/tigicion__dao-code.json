@@ -26,23 +26,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 125,
-  "days_since_push": 19,
-  "health_score": 54,
+  "age_days": 126,
+  "days_since_push": 20,
+  "health_score": 53,
   "health_components": {
     "popularity": 60.7,
-    "momentum": 7.2,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 67.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1082,
-    "days_span": 125,
-    "stars_per_day": 8.66,
-    "lifetime_stars_per_day": 8.66,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 8.59,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -176,7 +176,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:28+00:00",
+  "fetched_at": "2026-10-12T12:01:04+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "mobile",

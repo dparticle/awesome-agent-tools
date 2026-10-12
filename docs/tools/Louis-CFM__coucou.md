@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,747 |
-| Star velocity | 365.1/day (lifetime basis, 13d span) |
+| Stars | 4,910 |
+| Star velocity | 198.0/day (history basis, 5d span) |
 | Health score | 84/100 |
-| Documentation | 61/100 |
+| Documentation | 62/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Swift |
 | Created | 2026-09-27 |
-| Last push | 2026-10-10 (0 days ago) |
-| Analyzed README | 28,360 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 32,643 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,6 +31,8 @@
 > e permission requests show up with Allow / Deny / Always; AskUserQuestion prompts show the choices right in the notch (single or multi-select, up to 4 questions).
 
 ### Remote control
+
+> hooting and build-it-yourself: docs/IPHONE.md.
 
 ### Mobile access
 
@@ -79,7 +81,7 @@
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **62/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -96,10 +98,10 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.5 |
+| popularity | 73.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
+| documentation | 62.0 |
 | accessibility | 77.0 |
 
 ---

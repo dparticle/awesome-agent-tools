@@ -6,8 +6,8 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13623,
-  "forks": 1427,
+  "stars": 13634,
+  "forks": 1428,
   "open_issues": 1146,
   "language": "TypeScript",
   "license": "MIT",
@@ -19,37 +19,36 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-11T10:44:07Z",
-  "pushed_at": "2026-10-09T08:50:06Z",
+  "updated_at": "2026-10-12T11:52:52Z",
+  "pushed_at": "2026-10-12T11:56:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 122,
-  "days_since_push": 2,
-  "health_score": 84,
+  "age_days": 124,
+  "days_since_push": 0,
+  "health_score": 63,
   "health_components": {
     "popularity": 82.7,
-    "momentum": 93.1,
+    "momentum": 5.2,
     "maintenance": 100.0,
-    "documentation": 63.0,
+    "documentation": 62.0,
     "accessibility": 70.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 13623,
-    "days_span": 122,
-    "stars_per_day": 111.66,
-    "lifetime_stars_per_day": 111.66,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 31,
+    "days_span": 5,
+    "stars_per_day": 6.2,
+    "lifetime_stars_per_day": 109.95,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "XiaomiMiMo/MiMo-Code",
-    "readme_chars": 28666,
+    "readme_chars": 27039,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
-      "worktree-isolation",
       "model-routing",
       "api-gateway",
       "session-persistence",
@@ -65,12 +64,11 @@
     "capability_evidence": {
       "multi-agent-orchestration": "emory (MEMORY.md) — persistent project knowledge, rules, and architecture decisions",
       "parallel-execution": "terminal-native intelligence to desktop workflows.",
-      "worktree-isolation": "",
       "model-routing": "o/Plus) — OpenAI OAuth login",
       "api-gateway": "separates the provider ID from the model ID.",
       "session-persistence": "omatically by the checkpoint-writer subagent",
       "memory-context": "e: Where Models and Agents Co-Evolve",
-      "skills-plugins": "ble/Sol-class), which internalize most of the workflow and work best from one compact contract.",
+      "skills-plugins": "h-paper-writing Write and polish academic papers (ML/CV/NLP style)",
       "mcp-support": "multi-select dialog that persists the setting to config without hand-editing.",
       "security-isolation": "led via experimental.maxMode in the config.",
       "self-hosted": "trol mode (mimo-v2.5) is available on OpenRouter and compatible relay platforms.",
@@ -79,14 +77,13 @@
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 7,
+      "multi-agent-orchestration": 6,
       "parallel-execution": 1,
-      "worktree-isolation": 1,
       "model-routing": 4,
       "api-gateway": 3,
       "session-persistence": 2,
       "memory-context": 7,
-      "skills-plugins": 2,
+      "skills-plugins": 1,
       "mcp-support": 2,
       "security-isolation": 2,
       "self-hosted": 1,
@@ -130,7 +127,7 @@
       "note_en": "Easy. install via Homebrew install, curl | sh installer; needs npm install/build; configure environment variables, API key configuration; GUI application",
       "note_zh": "较易上手。可通过 Homebrew install、curl | sh installer 安装；需要 npm install/build；需配置 environment variables、API key configuration；GUI application"
     },
-    "doc_score": 63,
+    "doc_score": 62,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -159,7 +156,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.14
+      "external_link_ratio": 0.148
     },
     "highlights": [
       "Cost tiers. OpenAI prices GPT-5.6 prompts above 272K input at 2x input and 1.5x output",
@@ -181,13 +178,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:20+00:00",
+  "fetched_at": "2026-10-12T12:00:02+00:00",
   "categories": [
-    "mobile",
+    "analytics",
     "security-self-hosting",
-    "teams"
+    "voice"
   ],
-  "primary_category": "mobile",
+  "primary_category": "voice",
   "lifecycle": {
     "state": "active",
     "note_en": "",

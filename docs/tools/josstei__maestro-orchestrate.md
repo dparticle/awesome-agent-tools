@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 465 |
-| Star velocity | 1.9/day (lifetime basis, 244d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 50/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-10-11 (0 days ago) |
+| Last push | 2026-10-11 (1 days ago) |
 | Analyzed README | 11,173 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
@@ -71,7 +71,7 @@ Score **58/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.3 |
-| momentum | 1.6 |
+| momentum | 0.0 |
 | maintenance | 100.0 |
 | documentation | 58.0 |
 | accessibility | 49.0 |

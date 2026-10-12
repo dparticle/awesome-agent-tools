@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 280 |
-| Star velocity | 1.1/day (lifetime basis, 248d span) |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 47/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-02-05 |
-| Last push | 2026-08-25 (46 days ago) |
+| Last push | 2026-08-25 (47 days ago) |
 | Analyzed README | 9,327 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** — Superseded by asheshgoplani/agent-deck: covers 100% of capabilities (6/6).
@@ -81,7 +81,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 48.9 |
-| momentum | 0.9 |
+| momentum | 0.2 |
 | maintenance | 78.0 |
 | documentation | 54.0 |
 | accessibility | 72.0 |

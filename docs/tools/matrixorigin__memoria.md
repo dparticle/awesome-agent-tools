@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 610 |
-| Star velocity | 2.8/day (lifetime basis, 215d span) |
-| Health score | 53/100 |
-| Documentation | 67/100 |
+| Stars | 611 |
+| Star velocity | 0.8/day (history basis, 5d span) |
+| Health score | 51/100 |
+| Documentation | 68/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-09 |
-| Last push | 2026-10-10 (1 days ago) |
-| Analyzed README | 19,838 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 20,682 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
 
@@ -40,7 +40,7 @@
 
 ### Self-hostable
 
-> ool? · database mode? · embedding service? (Self-Hosted only)
+> conversation and start a new one with hermes.
 
 ### Cross-agent support
 
@@ -48,7 +48,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 51/100)
+- **Difficulty:** 🔴 Involved (friction score 63/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -sSL https://raw.githubusercontent.com/matrixorigin/Memoria/main/scripts/install.sh | bash`
@@ -57,13 +57,13 @@
 
 **Signals that add work:** docker compose up, kubectl apply, git clone (build from source), make build
 
-**Configuration required:** database dependency
+**Configuration required:** API key configuration, sign-in required, database dependency
 
-*Some setup. install via curl | sh installer; needs docker compose up, kubectl apply; configure database dependency; one-click setup*
+*Involved setup. install via curl | sh installer; needs docker compose up, kubectl apply; configure API key configuration, sign-in required; one-click setup*
 
 ## Documentation quality
 
-Score **67/100**, based on these detected signals:
+Score **68/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -76,16 +76,17 @@ Score **67/100**, based on these detected signals:
 - links to dedicated docs
 - reports benchmarks
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 55.7 |
-| momentum | 2.4 |
+| momentum | 0.7 |
 | maintenance | 100.0 |
-| documentation | 67.0 |
-| accessibility | 49.0 |
+| documentation | 68.0 |
+| accessibility | 37.0 |
 
 ---
 

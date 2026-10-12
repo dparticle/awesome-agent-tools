@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 295 |
-| Star velocity | 1.4/day (lifetime basis, 219d span) |
+| Stars | 296 |
+| Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 41/100 |
 | Documentation | 32/100 |
 | Tier | 👀 Watchlist |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-05 |
-| Last push | 2026-07-27 (75 days ago) |
+| Last push | 2026-07-27 (76 days ago) |
 | Analyzed README | 5,568 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [FrancyJGLisboa/agent-skills-platform](https://github.com/FrancyJGLisboa/agent-skills-platform)** — Superseded by FrancyJGLisboa/agent-skills-platform: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [thedivergentai/Game-Design-Agentic-Skills](https://github.com/thedivergentai/Game-Design-Agentic-Skills)** — Superseded by thedivergentai/Game-Design-Agentic-Skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -65,7 +65,7 @@ Score **32/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 49.4 |
-| momentum | 1.1 |
+| momentum | 0.3 |
 | maintenance | 78.0 |
 | documentation | 32.0 |
 | accessibility | 50.0 |

@@ -12,19 +12,21 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 29,297 |
-| Star velocity | 128.5/day (lifetime basis, 228d span) |
-| Health score | 88/100 |
+| Stars | 29,337 |
+| Star velocity | 26.6/day (history basis, 5d span) |
+| Health score | 70/100 |
 | Documentation | 70/100 |
-| Tier | 🏆 Flagship |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-25 |
-| Last push | 2026-10-10 (1 days ago) |
-| Analyzed README | 126,926 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 128,426 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Quota & usage management
 
 ### Automatic failover
 
@@ -60,13 +62,15 @@
 
 ### Security & isolation
 
-> ays the same, and what differs.
+> s the same, and what differs.** Every agentmemory feature works on Redis: sessions, observations, memories (remember, supersede, evolve, forget), search and the index buckets, lessons, the graph, the audit log and its m…
 
 ### Self-hostable
 
 > autostopmachines = "stop"; cheapest idle.
 
 ### Team collaboration
+
+> ge** Read MEMORY.md and export project memories without replacing existing files
 
 ### GUI / desktop app
 
@@ -117,7 +121,7 @@ Score **70/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 89.3 |
-| momentum | 100.0 |
+| momentum | 22.2 |
 | maintenance | 100.0 |
 | documentation | 70.0 |
 | accessibility | 68.0 |

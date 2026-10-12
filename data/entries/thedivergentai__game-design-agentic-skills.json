@@ -1,28 +1,28 @@
 {
   "schema": 1,
-  "full_name": "thedivergentai/GD-Agentic-Skills",
-  "name": "GD-Agentic-Skills",
+  "full_name": "thedivergentai/Game-Design-Agentic-Skills",
+  "name": "Game-Design-Agentic-Skills",
   "owner": "thedivergentai",
-  "url": "https://github.com/thedivergentai/GD-Agentic-Skills",
-  "description": "The official \"Long-Term Memory\" for Godot 4.7+ AI Agents. A high-density library of 99 expert skills and 27 genre blueprints, providing audited, strictly typed GDScript patterns, automated persona orchestration (Analyst, Auditor, Builder), and production-grade game engineering.",
+  "url": "https://github.com/thedivergentai/Game-Design-Agentic-Skills",
+  "description": "Multi-engine long-term memory for game AI agents. Deep Godot 4.7+ (99 skills, 27 genre blueprints) + Bevy docs-first parity — audited patterns, persona orchestration (Analyst · Auditor · Builder), production-grade engineering.",
   "homepage": "",
-  "stars": 830,
+  "stars": 837,
   "forks": 53,
   "open_issues": 0,
   "language": "GDScript",
   "license": "LGPL-3.0",
   "topics": [],
   "created_at": "2026-02-07T18:06:05Z",
-  "updated_at": "2026-10-11T08:58:17Z",
-  "pushed_at": "2026-10-11T08:29:56Z",
+  "updated_at": "2026-10-12T11:22:39Z",
+  "pushed_at": "2026-10-12T06:00:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
+  "age_days": 246,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
-    "popularity": 58.4,
+    "popularity": 58.5,
     "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -30,16 +30,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 830,
-    "days_span": 245,
-    "stars_per_day": 3.39,
-    "lifetime_stars_per_day": 3.39,
+    "stars_gained": 837,
+    "days_span": 246,
+    "stars_per_day": 3.4,
+    "lifetime_stars_per_day": 3.4,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
-    "full_name": "thedivergentai/GD-Agentic-Skills",
-    "readme_chars": 38075,
+    "full_name": "thedivergentai/Game-Design-Agentic-Skills",
+    "readme_chars": 51863,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -51,12 +51,12 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "ls to elevate the knowledge depth and execution quality to the highest agentic standard.",
+      "multi-agent-orchestration": "skills to elevate the knowledge depth and execution quality to the highest agentic standard.",
       "parallel-execution": "",
-      "memory-context": "ze Modules DIA Loop Growth Chart",
+      "memory-context": "",
       "skills-plugins": "# Game-Design Agentic Skills",
-      "agent-runtime": "",
-      "mcp-support": "- **MCP Clean-up & Direct Building**: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing nativ",
+      "agent-runtime": "#### v0.0.1 — Initial Launch - The Foundation: Released the initial library of 80+ Godot 4.x Agentic Skills. - Agent-First Design: Established the DIA (Discovery-Ingestion-Application) loop for AI Coding Agents. - Core…",
+      "mcp-support": "- MCP Clean-up & Direct Building: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing native",
       "gui-desktop": "",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
@@ -64,8 +64,8 @@
       "multi-agent-orchestration": 9,
       "parallel-execution": 1,
       "memory-context": 1,
-      "skills-plugins": 7,
-      "agent-runtime": 2,
+      "skills-plugins": 8,
+      "agent-runtime": 1,
       "mcp-support": 3,
       "gui-desktop": 1,
       "cross-agent-support": 6
@@ -88,6 +88,7 @@
       ],
       "platforms": [
         "macOS",
+        "Windows",
         "Linux",
         "Web"
       ],
@@ -117,15 +118,15 @@
       "Cursor",
       "Copilot"
     ],
-    "summary_en": "Multi-engine agent skill library · Godot 4.x is the deep section today · Bevy on the road to parity",
+    "summary_en": "Game-Design Agentic Skills (GDAS) - agent library for Godot 4.7+ and Bevy 0.20+",
     "summary_zh": "",
-    "install_hint": "npx skills add thedivergentai/gd-agentic-skills/skills/godot-master",
+    "install_hint": "npx skills add thedivergentai/Game-Design-Agentic-Skills/skills/godot-master",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.341
+      "external_link_ratio": 0.251
     },
     "highlights": [
       "Godot 4.7 Director's Cut: Full library upgrade to Godot 4.7+ — AreaLight3D, HDR output, Asset Store, built-in virtual joystick, and migration digest for 4.6→4.7 projects.",
@@ -142,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:35+00:00",
+  "fetched_at": "2026-10-12T12:01:11+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",

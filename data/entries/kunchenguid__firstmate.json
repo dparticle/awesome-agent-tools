@@ -6,40 +6,40 @@
   "url": "https://github.com/kunchenguid/firstmate",
   "description": "Talk to one agent. Ship with a crew.",
   "homepage": "",
-  "stars": 7801,
-  "forks": 2509,
-  "open_issues": 2293,
+  "stars": 7831,
+  "forks": 2526,
+  "open_issues": 2345,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-12T03:21:10Z",
-  "updated_at": "2026-10-11T10:23:06Z",
-  "pushed_at": "2026-10-11T10:23:02Z",
+  "updated_at": "2026-10-12T11:57:22Z",
+  "pushed_at": "2026-10-12T06:22:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 121,
+  "age_days": 122,
   "days_since_push": 0,
   "health_score": 72,
   "health_components": {
-    "popularity": 77.8,
-    "momentum": 53.7,
+    "popularity": 77.9,
+    "momentum": 53.5,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 7801,
-    "days_span": 121,
-    "stars_per_day": 64.47,
-    "lifetime_stars_per_day": 64.47,
+    "stars_gained": 7831,
+    "days_span": 122,
+    "stars_per_day": 64.19,
+    "lifetime_stars_per_day": 64.19,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "kunchenguid/firstmate",
-    "readme_chars": 20570,
+    "readme_chars": 20729,
     "capabilities": [
       "auto-failover",
       "parallel-execution",
@@ -113,7 +113,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.097
+      "external_link_ratio": 0.096
     },
     "highlights": [
       "Disposable worktrees - each task runs in a clean treehouse git worktree, or an Orca-managed worktree when backend=orca, so parallel work on one repo never collides.",
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:27+00:00",
+  "fetched_at": "2026-10-12T12:00:08+00:00",
   "categories": [
     "mobile"
   ],

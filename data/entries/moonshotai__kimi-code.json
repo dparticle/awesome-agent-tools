@@ -6,36 +6,36 @@
   "url": "https://github.com/MoonshotAI/kimi-code",
   "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
   "homepage": "https://www.kimi.com/code/docs/",
-  "stars": 7832,
-  "forks": 1284,
-  "open_issues": 1552,
+  "stars": 7840,
+  "forks": 1283,
+  "open_issues": 1555,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-22T08:02:03Z",
-  "updated_at": "2026-10-11T10:13:34Z",
-  "pushed_at": "2026-10-11T10:39:45Z",
+  "updated_at": "2026-10-12T10:44:01Z",
+  "pushed_at": "2026-10-12T11:47:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
+  "age_days": 143,
   "days_since_push": 0,
-  "health_score": 69,
+  "health_score": 60,
   "health_components": {
     "popularity": 77.9,
-    "momentum": 46.0,
+    "momentum": 8.5,
     "maintenance": 100.0,
     "documentation": 56.0,
     "accessibility": 57.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 7832,
-    "days_span": 142,
-    "stars_per_day": 55.15,
-    "lifetime_stars_per_day": 55.15,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 51,
+    "days_span": 5,
+    "stars_per_day": 10.2,
+    "lifetime_stars_per_day": 54.83,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "MoonshotAI/kimi-code",
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:27+00:00",
+  "fetched_at": "2026-10-12T12:00:08+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "mobile",
@@ -174,13 +174,13 @@
         "skills-plugins"
       ],
       "star_ratio": 4.268,
-      "momentum_ratio": 1.409,
+      "momentum_ratio": 2.118,
       "setup_delta": -41,
-      "dominance": 0.843,
+      "dominance": 0.893,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.27x the stars (33,424 vs 7,832)",
-        "1.41x the star velocity (77.7/day vs 55.1/day)",
+        "4.27x the stars (33,459 vs 7,840)",
+        "2.12x the star velocity (21.6/day vs 10.2/day)",
         "no harder to set up (2 vs 43 friction)"
       ],
       "reasons_zh": [],
@@ -208,8 +208,8 @@
           "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 69,
-        "challenger_health": 78,
+        "incumbent_health": 60,
+        "challenger_health": 67,
         "incumbent_setup_score": 43,
         "challenger_setup_score": 2
       }

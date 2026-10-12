@@ -27,23 +27,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 280,
-  "days_since_push": 51,
+  "age_days": 281,
+  "days_since_push": 52,
   "health_score": 46,
   "health_components": {
     "popularity": 50.0,
-    "momentum": 0.9,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 73.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 318,
-    "days_span": 280,
-    "stars_per_day": 1.14,
-    "lifetime_stars_per_day": 1.14,
-    "basis": "lifetime",
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.13,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -144,11 +144,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:04+00:00",
+  "fetched_at": "2026-10-12T12:01:40+00:00",
   "categories": [
+    "analytics",
     "skills"
   ],
-  "primary_category": "skills",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

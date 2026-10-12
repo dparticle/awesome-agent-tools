@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,710 |
-| Star velocity | 57.8/day (lifetime basis, 116d span) |
-| Health score | 63/100 |
+| Stars | 6,723 |
+| Star velocity | 64.6/day (history basis, 5d span) |
+| Health score | 65/100 |
 | Documentation | 40/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-06-16 |
-| Last push | 2026-08-19 (52 days ago) |
+| Last push | 2026-08-19 (53 days ago) |
 | Analyzed README | 14,510 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [alibaba/open-code-review](https://github.com/alibaba/open-code-review)** — Superseded by alibaba/open-code-review: covers 100% of capabilities (4/4).
@@ -74,8 +74,8 @@ Score **40/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 76.5 |
-| momentum | 48.2 |
+| popularity | 76.6 |
+| momentum | 53.8 |
 | maintenance | 78.0 |
 | documentation | 40.0 |
 | accessibility | 69.0 |

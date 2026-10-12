@@ -6,9 +6,9 @@
   "url": "https://github.com/Vincentwei1021/video-shotcraft",
   "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
   "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
-  "stars": 11242,
-  "forks": 1000,
-  "open_issues": 9,
+  "stars": 11410,
+  "forks": 1020,
+  "open_issues": 7,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -28,46 +28,40 @@
     "video-production"
   ],
   "created_at": "2026-07-19T11:44:41Z",
-  "updated_at": "2026-10-11T10:50:14Z",
-  "pushed_at": "2026-10-05T09:12:26Z",
+  "updated_at": "2026-10-12T11:48:01Z",
+  "pushed_at": "2026-10-12T09:44:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 83,
-  "days_since_push": 6,
+  "age_days": 85,
+  "days_since_push": 0,
   "health_score": 85,
   "health_components": {
-    "popularity": 81.0,
+    "popularity": 81.1,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 50.0,
+    "documentation": 48.0,
     "accessibility": 90.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 11242,
-    "days_span": 83,
-    "stars_per_day": 135.45,
-    "lifetime_stars_per_day": 135.45,
-    "basis": "lifetime",
+    "stars_gained": 834,
+    "days_span": 5,
+    "stars_per_day": 166.8,
+    "lifetime_stars_per_day": 134.24,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Vincentwei1021/video-shotcraft",
-    "readme_chars": 15569,
+    "readme_chars": 18866,
     "capabilities": [
-      "skills-plugins",
-      "agent-runtime",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "skills-plugins": "",
-      "agent-runtime": "communities whose published principles (e.g.",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
-      "skills-plugins": 1,
-      "agent-runtime": 1,
       "cross-agent-support": 2
     },
     "friction": {
@@ -93,21 +87,21 @@
       "note_en": "Turnkey. install via npx one-liner; needs git clone (build from source); one-click setup",
       "note_zh": "开箱即用。可通过 npx one-liner 安装；需要 git clone (build from source)；one-click setup"
     },
-    "doc_score": 50,
+    "doc_score": 48,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
-      "has a quick-start section",
       "documents installation",
       "mentions licensing",
+      "links to dedicated docs",
       "reports benchmarks"
     ],
     "agents": [
       "Claude Code",
       "Codex"
     ],
-    "summary_en": "An agent skill for crafting cinematic product videos: 157 shot recipe cards · 214 styles · 214 motion previews · a production-ready template",
+    "summary_en": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
     "summary_zh": "",
     "install_hint": "npx skills add Vincentwei1021/video-shotcraft",
     "source": "raw:HEAD/README.md",
@@ -115,18 +109,20 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.156
+      "external_link_ratio": 1.06
     },
     "highlights": [
-      "🌟 2026-08 · 48 new shot recipe cards — the library grows from 104 to",
-      "🎞️ 2026-08 · JianYing (CapCut CN) project export — after final delivery"
+      "Real product, real pages. Your actual UI, captured and moved with 2.5D camera work, not a generated look-alike.",
+      "124 shot recipe cards, 150 tuned shots.",
+      "2026-09 · One-click film themes.",
+      "A finished film, not a clip. Storyboard, captions, beat-synced cuts, film-grade SFX and a final QA pass,"
     ],
-    "summary_zh_native": "让 agent 帮你制作电影感产品视频的 skill：157 张镜头配方卡 · 214 个样式 · 214 条动态样片 · 已验收成片模板",
+    "summary_zh_native": "",
     "highlights_zh": [
-      "Claude Code —— 本库自身的构建、迭代与验收全程由 AI coding agent",
-      "并发上限 —— 低核机器上 remotion still/render 会报",
-      "CDN 被墙 —— 如果 remotion.media 无法访问，headless-shell 的自动下载",
-      "旧版 Headless 被移除 —— 新版 Chrome/Chromium 已删除旧 headless 模式，"
+      "并发上限：低核机器上 remotion still/render 会报 \"Maximum for --concurrency is 2\"。",
+      "124 张镜头配方卡、150 个调校过的镜头：每张卡写明什么时候用、时长、缓动和已知的坑，并附可读的 Remotion 实现。",
+      "真实产品，真实页面：用的是你真实的界面截图，配 2.5D 运镜动起来，不是生成出来的「长得像」。",
+      "CDN 访问不了：remotion.media 访问不了时（国内常见），headless-shell 自动下载会失败。"
     ],
     "chinese_readme": "README_CN.md"
   },
@@ -135,11 +131,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:21+00:00",
+  "fetched_at": "2026-10-12T12:00:03+00:00",
   "categories": [
-    "skills"
+    "mobile"
   ],
-  "primary_category": "skills",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

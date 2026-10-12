@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 411 |
-| Star velocity | 3.3/day (lifetime basis, 123d span) |
+| Stars | 412 |
+| Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 47/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Swift |
 | Created | 2026-06-10 |
-| Last push | 2026-10-11 (0 days ago) |
+| Last push | 2026-10-12 (0 days ago) |
 | Analyzed README | 8,164 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -75,7 +77,7 @@ Score **47/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 52.3 |
-| momentum | 2.8 |
+| momentum | 1.0 |
 | maintenance | 100.0 |
 | documentation | 47.0 |
 | accessibility | 72.0 |

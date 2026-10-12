@@ -6,7 +6,7 @@
   "url": "https://github.com/op7418/guizang-social-card-skill",
   "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
   "homepage": "https://github.com/op7418/guizang-social-card-skill",
-  "stars": 7459,
+  "stars": 7473,
   "forks": 573,
   "open_issues": 12,
   "language": "HTML",
@@ -29,29 +29,29 @@
     "xiaohongshu"
   ],
   "created_at": "2026-05-27T12:05:05Z",
-  "updated_at": "2026-10-11T10:19:49Z",
+  "updated_at": "2026-10-12T10:24:28Z",
   "pushed_at": "2026-07-01T16:39:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 136,
-  "days_since_push": 101,
-  "health_score": 62,
+  "age_days": 137,
+  "days_since_push": 102,
+  "health_score": 54,
   "health_components": {
     "popularity": 77.5,
-    "momentum": 45.7,
+    "momentum": 14.7,
     "maintenance": 55.0,
     "documentation": 56.0,
     "accessibility": 75.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 7459,
-    "days_span": 136,
-    "stars_per_day": 54.85,
-    "lifetime_stars_per_day": 54.85,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 88,
+    "days_span": 5,
+    "stars_per_day": 17.6,
+    "lifetime_stars_per_day": 54.55,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "op7418/guizang-social-card-skill",
@@ -139,7 +139,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:29+00:00",
+  "fetched_at": "2026-10-12T12:00:10+00:00",
   "categories": [
     "mobile-2"
   ],

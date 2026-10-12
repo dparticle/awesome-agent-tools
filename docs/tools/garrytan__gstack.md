@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 135,893 |
-| Star velocity | 638.0/day (lifetime basis, 213d span) |
-| Health score | 90/100 |
+| Stars | 136,088 |
+| Star velocity | 90.4/day (history basis, 5d span) |
+| Health score | 84/100 |
 | Documentation | 81/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-10-11 (0 days ago) |
-| Analyzed README | 85,421 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 88,246 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,10 +46,6 @@
 
 > deterministic aside repl scripts.
 
-### Usage analytics
-
-> try flows through validated edge functions that enforce schema checks, event type allowlists, and field length limits.
-
 ### Session persistence
 
 > Browse my kid's school parent portal and add all the other parents' names, phone numbers, and photos to my Google Contacts." Two ways to get authenticated: (1) log in once in the headed browser, your session persists, o…
@@ -72,7 +68,7 @@
 
 ### Security & isolation
 
-> st, verify the chain with gstack-egress verify (exit 3 on tamper), see the standing consent settings with gstack-egress grants.
+> verify the chain with gstack-egress verify (exit 3 on tamper), and see the standing consent settings with gstack-egress grants.
 
 ### Notifications
 
@@ -96,9 +92,9 @@
 
 **Signals that add work:** git clone (build from source), go build
 
-**Configuration required:** API key configuration, config file, config.json/yaml/toml, sign-in required, database migration, server/reverse-proxy setup
+**Configuration required:** config file, config.json/yaml/toml, sign-in required, database migration, server/reverse-proxy setup
 
-*Some setup. install via native installer / package; needs git clone (build from source), go build; configure API key configuration, config file; one-click setup*
+*Some setup. install via native installer / package; needs git clone (build from source), go build; configure config file, config.json/yaml/toml; one-click setup*
 
 ## Documentation quality
 
@@ -124,7 +120,7 @@ Score **81/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 100.0 |
-| momentum | 100.0 |
+| momentum | 75.3 |
 | maintenance | 100.0 |
 | documentation | 81.0 |
 | accessibility | 43.0 |

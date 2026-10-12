@@ -13,18 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 357 |
-| Star velocity | 1.0/day (lifetime basis, 355d span) |
-| Health score | 46/100 |
+| Star velocity | 0.4/day (history basis, 5d span) |
+| Health score | 43/100 |
 | Documentation | 59/100 |
-| Tier | 🔹 Notable |
+| Tier | 👀 Watchlist |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2025-10-21 |
-| Last push | 2026-09-10 (30 days ago) |
+| Last push | 2026-09-10 (32 days ago) |
 | Analyzed README | 9,755 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection)** — Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [thedivergentai/Game-Design-Agentic-Skills](https://github.com/thedivergentai/Game-Design-Agentic-Skills)** — Superseded by thedivergentai/Game-Design-Agentic-Skills: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -76,8 +76,8 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.1 |
-| momentum | 0.8 |
-| maintenance | 92.0 |
+| momentum | 0.3 |
+| maintenance | 78.0 |
 | documentation | 59.0 |
 | accessibility | 34.0 |
 

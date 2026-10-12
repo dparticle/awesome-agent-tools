@@ -18,23 +18,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 174,
-  "days_since_push": 22,
+  "age_days": 176,
+  "days_since_push": 23,
   "health_score": 44,
   "health_components": {
     "popularity": 47.0,
-    "momentum": 1.1,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 28.0,
     "accessibility": 63.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 223,
-    "days_span": 174,
-    "stars_per_day": 1.28,
-    "lifetime_stars_per_day": 1.28,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.27,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -115,7 +115,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:24+00:00",
+  "fetched_at": "2026-10-12T12:01:57+00:00",
   "categories": [
     "skills"
   ],

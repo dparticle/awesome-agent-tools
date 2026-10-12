@@ -6,8 +6,8 @@
   "url": "https://github.com/CatCatUncle/openworkbuddy",
   "description": "Open-source Claude Cowork / Codex alternative — a local-first AI office agent that turns one request into real PPTX, DOCX, XLSX and HTML files. Runs DeepSeek, Qwen, Doubao, Claude or Ollama (BYOK), MCP, and can drive Claude Code / Codex CLI. 开源 AI 办公助理，豆包办公 / 千问办公替代。",
   "homepage": "https://catcatuncle.github.io/openworkbuddy/",
-  "stars": 286,
-  "forks": 66,
+  "stars": 308,
+  "forks": 67,
   "open_issues": 7,
   "language": "JavaScript",
   "license": "NOASSERTION",
@@ -32,33 +32,33 @@
     "short-drama"
   ],
   "created_at": "2026-08-10T08:18:25Z",
-  "updated_at": "2026-10-11T10:22:06Z",
-  "pushed_at": "2026-10-10T11:16:19Z",
+  "updated_at": "2026-10-12T11:31:11Z",
+  "pushed_at": "2026-10-12T06:54:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 62,
+  "age_days": 63,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 49.1,
-    "momentum": 3.8,
+    "popularity": 49.8,
+    "momentum": 5.5,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 286,
-    "days_span": 62,
-    "stars_per_day": 4.61,
-    "lifetime_stars_per_day": 4.61,
-    "basis": "lifetime",
+    "stars_gained": 33,
+    "days_span": 5,
+    "stars_per_day": 6.6,
+    "lifetime_stars_per_day": 4.89,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CatCatUncle/openworkbuddy",
-    "readme_chars": 18474,
+    "readme_chars": 18548,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -162,7 +162,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.541
+      "external_link_ratio": 0.539
     },
     "highlights": [
       "10-06 系统沙箱：AI 跑的命令和脚本在 macOS、Windows 上读不到 Key 和账本、改不了应用；设置 → 安全 能关，每条多花 7–16 毫秒",
@@ -179,7 +179,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:09+00:00",
+  "fetched_at": "2026-10-12T12:01:41+00:00",
   "categories": [
     "accounts",
     "security-self-hosting",

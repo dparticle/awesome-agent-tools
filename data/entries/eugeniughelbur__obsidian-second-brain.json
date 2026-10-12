@@ -6,8 +6,8 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault. Stop re-explaining your projects, decisions and people every session. 45 commands: hybrid semantic search, self-rewriting notes, key-less web research, and scheduled agents that maintain the vault while you sleep.",
   "homepage": "https://theaioperator.io",
-  "stars": 4729,
-  "forks": 581,
+  "stars": 4733,
+  "forks": 583,
   "open_issues": 11,
   "language": "Python",
   "license": "MIT",
@@ -34,29 +34,29 @@
     "second-brain"
   ],
   "created_at": "2026-03-24T11:58:12Z",
-  "updated_at": "2026-10-11T06:34:47Z",
+  "updated_at": "2026-10-12T01:29:41Z",
   "pushed_at": "2026-10-10T21:14:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 200,
-  "days_since_push": 0,
-  "health_score": 65,
+  "age_days": 202,
+  "days_since_push": 1,
+  "health_score": 62,
   "health_components": {
     "popularity": 73.5,
-    "momentum": 19.7,
+    "momentum": 7.0,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 76.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4729,
-    "days_span": 200,
-    "stars_per_day": 23.64,
-    "lifetime_stars_per_day": 23.64,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 42,
+    "days_span": 5,
+    "stars_per_day": 8.4,
+    "lifetime_stars_per_day": 23.43,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "eugeniughelbur/obsidian-second-brain",
@@ -168,8 +168,8 @@
       "external_link_ratio": 0.337
     },
     "highlights": [
-      "Self-Improving Sovereign Agents — voices: @tom_doerr, @AIDailyGems",
-      "\"Automation executes. Autonomy reasons.\" — @NVIDIAAP"
+      "\"Automation executes. Autonomy reasons.\" — @NVIDIAAP",
+      "Self-Improving Sovereign Agents — voices: @tom_doerr, @AIDailyGems"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -180,18 +180,91 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:08+00:00",
+  "fetched_at": "2026-10-12T12:00:47+00:00",
   "categories": [
-    "analytics",
+    "accounts",
     "model-routing",
     "skills"
   ],
-  "primary_category": "analytics",
+  "primary_category": "accounts",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (12/12).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (12/12)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "eugeniughelbur/obsidian-second-brain",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "eugeniughelbur/obsidian-second-brain",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "notifications",
+        "quota-management",
+        "security-isolation",
+        "skills-plugins"
+      ],
+      "star_ratio": 6.198,
+      "momentum_ratio": 3.167,
+      "setup_delta": 8,
+      "dominance": 0.903,
+      "reasons": [
+        "covers 100% of capabilities (12/12)",
+        "6.20x the stars (29,337 vs 4,733)",
+        "3.17x the star velocity (26.6/day vs 8.4/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 62,
+        "challenger_health": 70,
+        "incumbent_setup_score": 24,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

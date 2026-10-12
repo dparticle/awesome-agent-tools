@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,087 |
-| Star velocity | 24.0/day (lifetime basis, 87d span) |
-| Health score | 60/100 |
+| Stars | 2,091 |
+| Star velocity | 5.0/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 60/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-16 |
-| Last push | 2026-10-10 (1 days ago) |
+| Last push | 2026-10-12 (0 days ago) |
 | Analyzed README | 9,833 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -89,7 +89,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 66.4 |
-| momentum | 20.0 |
+| momentum | 4.2 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 58.0 |

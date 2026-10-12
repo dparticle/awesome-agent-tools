@@ -6,7 +6,7 @@
   "url": "https://github.com/cwinvestments/memstack",
   "description": "Structured skill framework for Claude Code. 130 skills, persistent memory, TokenStack compression, localhost dashboard with 3-agent runner, real-time streaming, MCP tools.",
   "homepage": "https://memstack.pro",
-  "stars": 424,
+  "stars": 425,
   "forks": 45,
   "open_issues": 1,
   "language": "Python",
@@ -22,28 +22,28 @@
     "vibe-coding"
   ],
   "created_at": "2026-02-19T03:45:26Z",
-  "updated_at": "2026-10-10T19:56:00Z",
+  "updated_at": "2026-10-12T09:02:51Z",
   "pushed_at": "2026-09-26T19:30:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 234,
-  "days_since_push": 14,
+  "age_days": 235,
+  "days_since_push": 15,
   "health_score": 52,
   "health_components": {
-    "popularity": 52.5,
-    "momentum": 1.5,
+    "popularity": 52.6,
+    "momentum": 0.3,
     "maintenance": 92.0,
     "documentation": 65.0,
     "accessibility": 68.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 424,
-    "days_span": 234,
-    "stars_per_day": 1.81,
+    "stars_gained": 2,
+    "days_span": 5,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 1.81,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -173,7 +173,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:54+00:00",
+  "fetched_at": "2026-10-12T12:01:29+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "mobile",

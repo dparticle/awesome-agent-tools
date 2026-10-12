@@ -6,9 +6,9 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "",
-  "stars": 5220,
-  "forks": 591,
-  "open_issues": 75,
+  "stars": 5232,
+  "forks": 592,
+  "open_issues": 76,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,28 +21,28 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-10-11T08:08:30Z",
-  "pushed_at": "2026-10-09T06:35:45Z",
+  "updated_at": "2026-10-12T11:47:41Z",
+  "pushed_at": "2026-10-12T03:45:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 118,
-  "days_since_push": 2,
-  "health_score": 66,
+  "age_days": 119,
+  "days_since_push": 0,
+  "health_score": 58,
   "health_components": {
     "popularity": 74.4,
-    "momentum": 36.9,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 72.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 5220,
-    "days_span": 118,
-    "stars_per_day": 44.24,
-    "lifetime_stars_per_day": 44.24,
-    "basis": "lifetime",
+    "stars_gained": 24,
+    "days_span": 5,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 43.97,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -137,26 +137,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:33+00:00",
+  "fetched_at": "2026-10-12T12:00:13+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 NanmiCoder/cc-haha 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "NanmiCoder/cc-haha",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "getpaseo/paseo",
     "challenger": "",
     "supersede": {
       "incumbent": "waishnav/devspace",
-      "challenger": "nanmicoder/cc-haha",
+      "challenger": "getpaseo/paseo",
       "incumbent_name": "Waishnav/devspace",
-      "challenger_name": "NanmiCoder/cc-haha",
+      "challenger_name": "getpaseo/paseo",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "gui-desktop",
@@ -166,15 +165,15 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 2.866,
-      "momentum_ratio": 1.752,
-      "setup_delta": 1,
-      "dominance": 0.854,
+      "star_ratio": 3.937,
+      "momentum_ratio": 26.792,
+      "setup_delta": -4,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.87x the stars (14,960 vs 5,220)",
-        "1.75x the star velocity (77.5/day vs 44.2/day)",
-        "slightly heavier setup (+1 friction, within tolerance)"
+        "3.94x the stars (20,598 vs 5,232)",
+        "26.79x the star velocity (128.6/day vs 4.8/day)",
+        "no harder to set up (24 vs 28 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -187,24 +186,23 @@
           "worktree-isolation"
         ],
         "challenger_capabilities": [
-          "auto-failover",
-          "billing-metering",
+          "agent-runtime",
+          "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
+          "mobile-access",
           "multi-agent-orchestration",
+          "parallel-execution",
           "remote-control",
           "security-isolation",
           "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "usage-analytics",
+          "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 66,
-        "challenger_health": 77,
+        "incumbent_health": 58,
+        "challenger_health": 86,
         "incumbent_setup_score": 28,
-        "challenger_setup_score": 29
+        "challenger_setup_score": 24
       }
     }
   }

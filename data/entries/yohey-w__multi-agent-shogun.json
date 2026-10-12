@@ -29,23 +29,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 259,
-  "days_since_push": 66,
-  "health_score": 52,
+  "age_days": 260,
+  "days_since_push": 67,
+  "health_score": 51,
   "health_components": {
     "popularity": 63.1,
-    "momentum": 4.6,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 72.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1424,
-    "days_span": 259,
-    "stars_per_day": 5.5,
-    "lifetime_stars_per_day": 5.5,
-    "basis": "lifetime",
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 5.48,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -192,7 +192,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:19+00:00",
+  "fetched_at": "2026-10-12T12:00:57+00:00",
   "categories": [
     "mobile",
     "mobile-2",

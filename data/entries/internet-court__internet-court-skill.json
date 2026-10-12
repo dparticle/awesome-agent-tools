@@ -6,7 +6,7 @@
   "url": "https://github.com/internet-court/internet-court-skill",
   "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
   "homepage": "",
-  "stars": 6710,
+  "stars": 6723,
   "forks": 114,
   "open_issues": 27,
   "language": "TypeScript",
@@ -34,28 +34,28 @@
     "x402"
   ],
   "created_at": "2026-06-16T13:20:01Z",
-  "updated_at": "2026-10-11T06:25:27Z",
+  "updated_at": "2026-10-12T04:18:41Z",
   "pushed_at": "2026-08-19T15:00:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
-  "days_since_push": 52,
-  "health_score": 63,
+  "age_days": 117,
+  "days_since_push": 53,
+  "health_score": 65,
   "health_components": {
-    "popularity": 76.5,
-    "momentum": 48.2,
+    "popularity": 76.6,
+    "momentum": 53.8,
     "maintenance": 78.0,
     "documentation": 40.0,
     "accessibility": 69.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 6710,
-    "days_span": 116,
-    "stars_per_day": 57.84,
-    "lifetime_stars_per_day": 57.84,
-    "basis": "lifetime",
+    "stars_gained": 323,
+    "days_span": 5,
+    "stars_per_day": 64.6,
+    "lifetime_stars_per_day": 57.46,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:30+00:00",
+  "fetched_at": "2026-10-12T12:00:11+00:00",
   "categories": [
     "skills"
   ],
@@ -161,14 +161,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 6.854,
-      "momentum_ratio": 5.446,
+      "star_ratio": 6.902,
+      "momentum_ratio": 6.932,
       "setup_delta": 6,
       "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "6.85x the stars (45,990 vs 6,710)",
-        "5.45x the star velocity (315.0/day vs 57.8/day)",
+        "6.90x the stars (46,399 vs 6,723)",
+        "6.93x the star velocity (447.8/day vs 64.6/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -187,7 +187,7 @@
           "multi-agent-orchestration",
           "skills-plugins"
         ],
-        "incumbent_health": 63,
+        "incumbent_health": 65,
         "challenger_health": 89,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 37

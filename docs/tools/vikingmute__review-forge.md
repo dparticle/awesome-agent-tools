@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 224 |
-| Star velocity | 1.7/day (lifetime basis, 135d span) |
+| Stars | 223 |
+| Star velocity | 1.6/day (lifetime basis, 136d span) |
 | Health score | 38/100 |
 | Documentation | 31/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | not declared |
 | Language | n/a |
 | Created | 2026-05-29 |
-| Last push | 2026-05-29 (134 days ago) |
+| Last push | 2026-05-29 (135 days ago) |
 | Analyzed README | 4,475 chars from `raw:HEAD/README.md` |
 
 ## What it solves

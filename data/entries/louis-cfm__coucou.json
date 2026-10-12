@@ -6,9 +6,9 @@
   "url": "https://github.com/Louis-CFM/coucou",
   "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
   "homepage": "https://louis-cfm.github.io/coucou/",
-  "stars": 4747,
-  "forks": 786,
-  "open_issues": 256,
+  "stars": 4910,
+  "forks": 818,
+  "open_issues": 303,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windows"
   ],
   "created_at": "2026-09-27T21:54:12Z",
-  "updated_at": "2026-10-11T10:32:35Z",
-  "pushed_at": "2026-10-10T23:26:51Z",
+  "updated_at": "2026-10-12T11:56:43Z",
+  "pushed_at": "2026-10-12T09:13:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 13,
+  "age_days": 14,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 73.5,
+    "popularity": 73.8,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 61.0,
+    "documentation": 62.0,
     "accessibility": 77.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4747,
-    "days_span": 13,
-    "stars_per_day": 365.15,
-    "lifetime_stars_per_day": 365.15,
-    "basis": "lifetime",
+    "stars_gained": 990,
+    "days_span": 5,
+    "stars_per_day": 198.0,
+    "lifetime_stars_per_day": 350.71,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Louis-CFM/coucou",
-    "readme_chars": 28360,
+    "readme_chars": 32643,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -75,7 +75,7 @@
     ],
     "capability_evidence": {
       "auto-failover": "e permission requests show up with Allow / Deny / Always; AskUserQuestion prompts show the choices right in the notch (single or multi-select, up to 4 questions).",
-      "remote-control": "",
+      "remote-control": "hooting and build-it-yourself: docs/IPHONE.md.",
       "mobile-access": "your macOS Keychain, Windows Credential Manager or Linux Secret Service (GNOME Keyring, KWallet).",
       "model-routing": "p to the right terminal — open the exact terminal window of a session (macOS).",
       "agent-runtime": "",
@@ -87,13 +87,13 @@
     },
     "capability_hits": {
       "auto-failover": 1,
-      "remote-control": 1,
-      "mobile-access": 3,
+      "remote-control": 2,
+      "mobile-access": 4,
       "model-routing": 1,
       "agent-runtime": 1,
-      "security-isolation": 2,
+      "security-isolation": 3,
       "gui-desktop": 10,
-      "notifications": 3,
+      "notifications": 4,
       "voice-input": 1,
       "cross-agent-support": 7
     },
@@ -123,12 +123,13 @@
         "Windows",
         "Linux",
         "iOS",
+        "Android",
         "Web"
       ],
       "note_en": "Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, database dependency; one-click setup",
       "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、database dependency；one-click setup"
     },
-    "doc_score": 61,
+    "doc_score": 62,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -157,7 +158,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.798
+      "external_link_ratio": 1.777
     },
     "highlights": [
       "📋 Declare the tools you use — open Settings → Active pills and pick your main workspace tool (VS Code, Cursor, Codex or Antigravity), then toggle up to 4 more: Gemini CLI, Anthropic, Google…",
@@ -174,11 +175,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:34+00:00",
+  "fetched_at": "2026-10-12T12:00:15+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "mobile-2",
-    "model-routing"
+    "security-self-hosting",
+    "voice"
   ],
   "primary_category": "mobile-2",
   "lifecycle": {

@@ -6,9 +6,9 @@
   "url": "https://github.com/MemTensor/memmy-agent",
   "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
   "homepage": "https://memmy.bot",
-  "stars": 2087,
-  "forks": 201,
-  "open_issues": 36,
+  "stars": 2091,
+  "forks": 202,
+  "open_issues": 42,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,28 +34,28 @@
     "tui"
   ],
   "created_at": "2026-07-16T07:57:45Z",
-  "updated_at": "2026-10-11T07:45:44Z",
-  "pushed_at": "2026-10-10T09:39:08Z",
+  "updated_at": "2026-10-12T11:35:45Z",
+  "pushed_at": "2026-10-12T11:41:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 87,
-  "days_since_push": 1,
-  "health_score": 60,
+  "age_days": 88,
+  "days_since_push": 0,
+  "health_score": 56,
   "health_components": {
     "popularity": 66.4,
-    "momentum": 20.0,
+    "momentum": 4.2,
     "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2087,
-    "days_span": 87,
-    "stars_per_day": 23.99,
-    "lifetime_stars_per_day": 23.99,
-    "basis": "lifetime",
+    "stars_gained": 25,
+    "days_span": 5,
+    "stars_per_day": 5.0,
+    "lifetime_stars_per_day": 23.76,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:15+00:00",
+  "fetched_at": "2026-10-12T12:00:53+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",
@@ -171,15 +171,15 @@
   "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "memtensor/memmy-agent",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "MemTensor/memmy-agent",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -193,15 +193,15 @@
         "model-routing",
         "team-collaboration"
       ],
-      "star_ratio": 14.038,
-      "momentum_ratio": 5.356,
-      "setup_delta": -10,
+      "star_ratio": 4.224,
+      "momentum_ratio": 48.2,
+      "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "14.04x the stars (29,297 vs 2,087)",
-        "5.36x the star velocity (128.5/day vs 24.0/day)",
-        "no harder to set up (32 vs 42 friction)"
+        "4.22x the stars (8,833 vs 2,091)",
+        "48.20x the star velocity (241.0/day vs 5.0/day)",
+        "no harder to set up (26 vs 42 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -223,18 +223,19 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
+          "parallel-execution",
           "self-hosted",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "worktree-isolation"
         ],
-        "incumbent_health": 60,
-        "challenger_health": 88,
+        "incumbent_health": 56,
+        "challenger_health": 87,
         "incumbent_setup_score": 42,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 26
       }
     }
   }

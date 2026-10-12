@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 563 |
-| Star velocity | 1.3/day (lifetime basis, 424d span) |
-| Health score | 48/100 |
+| Stars | 565 |
+| Star velocity | 4.2/day (history basis, 5d span) |
+| Health score | 49/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-12 |
-| Last push | 2026-08-03 (68 days ago) |
+| Last push | 2026-08-03 (69 days ago) |
 | Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** — Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -73,7 +73,7 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.0 |
-| momentum | 1.1 |
+| momentum | 3.5 |
 | maintenance | 78.0 |
 | documentation | 51.0 |
 | accessibility | 75.0 |

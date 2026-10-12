@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 13,623 |
-| Star velocity | 111.7/day (lifetime basis, 122d span) |
-| Health score | 84/100 |
-| Documentation | 63/100 |
-| Tier | 🏆 Flagship |
+| Stars | 13,634 |
+| Star velocity | 6.2/day (history basis, 5d span) |
+| Health score | 63/100 |
+| Documentation | 62/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-10 |
-| Last push | 2026-10-09 (2 days ago) |
-| Analyzed README | 28,666 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 27,039 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -33,8 +33,6 @@
 ### Parallel execution
 
 > terminal-native intelligence to desktop workflows.
-
-### Workspace isolation
 
 ### Model / provider routing
 
@@ -54,7 +52,7 @@
 
 ### Skills & plugins
 
-> ble/Sol-class), which internalize most of the workflow and work best from one compact contract.
+> h-paper-writing Write and polish academic papers (ML/CV/NLP style)
 
 ### MCP support
 
@@ -97,7 +95,7 @@
 
 ## Documentation quality
 
-Score **63/100**, based on these detected signals:
+Score **62/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -116,9 +114,9 @@ Score **63/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 82.7 |
-| momentum | 93.1 |
+| momentum | 5.2 |
 | maintenance | 100.0 |
-| documentation | 63.0 |
+| documentation | 62.0 |
 | accessibility | 70.0 |
 
 ---

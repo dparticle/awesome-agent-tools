@@ -28,24 +28,24 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 94,
-  "days_since_push": 43,
-  "health_score": 49,
+  "age_days": 95,
+  "days_since_push": 44,
+  "health_score": 48,
   "health_components": {
     "popularity": 52.5,
-    "momentum": 3.7,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 64.0,
     "accessibility": 60.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 422,
-    "days_span": 94,
-    "stars_per_day": 4.49,
-    "lifetime_stars_per_day": 4.49,
-    "basis": "lifetime",
-    "is_fast_riser": true
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 4.44,
+    "basis": "history",
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "pax-beehive/paxm",
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:54+00:00",
+  "fetched_at": "2026-10-12T12:01:29+00:00",
   "categories": [
     "analytics",
     "security-self-hosting"

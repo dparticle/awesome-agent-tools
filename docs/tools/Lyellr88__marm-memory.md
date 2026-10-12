@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 418 |
-| Star velocity | 0.9/day (lifetime basis, 488d span) |
+| Stars | 420 |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 82/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-06-10 |
-| Last push | 2026-10-11 (0 days ago) |
-| Analyzed README | 114,877 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 116,681 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@
 
 ### MCP support
 
-> marm-memory v2.60.0 - Give your AI Agents a permanent memory in 60 seconds
+> marm-memory v2.60.1 - Give your AI Agents a permanent memory in 60 seconds
 
 ### Security & isolation
 
@@ -113,8 +113,8 @@ Score **82/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 52.4 |
-| momentum | 0.7 |
+| popularity | 52.5 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
 | documentation | 82.0 |
 | accessibility | 52.0 |

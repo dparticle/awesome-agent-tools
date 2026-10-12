@@ -33,24 +33,24 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 106,
-  "days_since_push": 93,
-  "health_score": 42,
+  "age_days": 107,
+  "days_since_push": 94,
+  "health_score": 41,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 3.9,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 53.0,
     "accessibility": 55.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 502,
-    "days_span": 106,
-    "stars_per_day": 4.74,
-    "lifetime_stars_per_day": 4.74,
-    "basis": "lifetime",
-    "is_fast_riser": true
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 4.69,
+    "basis": "history",
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "linxidnju/OpenTag",
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:48+00:00",
+  "fetched_at": "2026-10-12T12:01:22+00:00",
   "categories": [
     "security-self-hosting"
   ],
@@ -160,14 +160,14 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 551.375,
-      "momentum_ratio": 219.527,
+      "star_ratio": 552.9,
+      "momentum_ratio": 11792.0,
       "setup_delta": 12,
       "dominance": 0.94,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "551.37x the stars (276,790 vs 502)",
-        "219.53x the star velocity (1040.6/day vs 4.7/day)",
+        "552.90x the stars (277,556 vs 502)",
+        "11792.00x the star velocity (589.6/day vs 0.0/day)",
         "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -196,7 +196,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 42,
+        "incumbent_health": 41,
         "challenger_health": 89,
         "incumbent_setup_score": 45,
         "challenger_setup_score": 57

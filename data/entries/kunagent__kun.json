@@ -6,8 +6,8 @@
   "url": "https://github.com/KunAgent/Kun",
   "description": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.",
   "homepage": "https://www.kun-agent.com",
-  "stars": 6320,
-  "forks": 594,
+  "stars": 6318,
+  "forks": 592,
   "open_issues": 5,
   "language": "TypeScript",
   "license": "NOASSERTION",
@@ -33,63 +33,63 @@
     "writing-assistant"
   ],
   "created_at": "2026-05-21T13:22:06Z",
-  "updated_at": "2026-10-11T06:26:02Z",
-  "pushed_at": "2026-10-07T17:11:08Z",
+  "updated_at": "2026-10-12T11:59:18Z",
+  "pushed_at": "2026-10-11T19:33:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 142,
-  "days_since_push": 3,
-  "health_score": 66,
+  "age_days": 143,
+  "days_since_push": 0,
+  "health_score": 58,
   "health_components": {
     "popularity": 76.0,
-    "momentum": 37.1,
+    "momentum": 0.2,
     "maintenance": 100.0,
-    "documentation": 41.0,
-    "accessibility": 81.0
+    "documentation": 45.0,
+    "accessibility": 75.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 6320,
-    "days_span": 142,
-    "stars_per_day": 44.51,
-    "lifetime_stars_per_day": 44.51,
-    "basis": "lifetime",
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 44.18,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "KunAgent/Kun",
-    "readme_chars": 5782,
+    "readme_chars": 5018,
     "capabilities": [
-      "quota-management",
-      "worktree-isolation",
+      "api-gateway",
+      "skills-plugins",
       "mcp-support",
       "security-isolation",
       "self-hosted",
       "gui-desktop",
-      "cross-agent-support"
+      "notifications"
     ],
     "capability_evidence": {
-      "quota-management": "，提示、附件和任务上下文会发送给所选 Provider；使用前请确认该服务的数据政策。",
-      "worktree-isolation": "建一个房间，为成员选择 Agent 档案、模型和授权的本地仓库，然后用 IM 式的私聊或群聊推进工作。",
-      "mcp-support": "arkdown，预览、引用和分析 PDF / Office 文档，分析电子表格，并从大纲创建演示文稿；Office 文件保持只读。",
-      "security-isolation": "esign 画布；Work 面向写作、资料整理、文档分析和演示产出；Rooms 把多个 Agent 放进同一个协作空间，用私聊和群聊完成讨论、分工、执行与评审。",
+      "api-gateway": "",
+      "skills-plugins": "",
+      "mcp-support": "独使用时先退出桌面应用，再运行 kun；TUI 会启动自己的运行时，退出时一并停止。",
+      "security-isolation": "** 会话、记忆、日志存在本地；用云端模型时，只有本次请求的上下文发给你选的 Provider。",
       "self-hosted": "",
-      "gui-desktop": "是把 AI 从“回答问题”推进到“完成工作”的本地优先工作台。",
-      "cross-agent-support": "Mentions Codex, Cursor"
+      "gui-desktop": "",
+      "notifications": ""
     },
     "capability_hits": {
-      "quota-management": 1,
-      "worktree-isolation": 1,
+      "api-gateway": 1,
+      "skills-plugins": 1,
       "mcp-support": 1,
       "security-isolation": 2,
       "self-hosted": 1,
-      "gui-desktop": 2,
-      "cross-agent-support": 2
+      "gui-desktop": 3,
+      "notifications": 1
     },
     "friction": {
       "level": "low",
-      "score": 27,
+      "score": 33,
       "out_of_the_box": false,
       "non_programmer_friendly": true,
       "easy_signals": [
@@ -99,7 +99,9 @@
         "git clone (build from source)",
         "npm install/build"
       ],
-      "config_signals": [],
+      "config_signals": [
+        "API key configuration"
+      ],
       "friendliness_signals": [
         "GUI application"
       ],
@@ -108,10 +110,10 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Easy. install via native installer / package; needs git clone (build from source), npm install/build; GUI application",
-      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)、npm install/build；GUI application"
+      "note_en": "Easy. install via native installer / package; needs git clone (build from source), npm install/build; configure API key configuration; GUI application",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration；GUI application"
     },
-    "doc_score": 41,
+    "doc_score": 45,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -120,13 +122,11 @@
       "has contribution guidance",
       "mentions licensing",
       "has a table of contents",
+      "documents changes",
       "explains architecture"
     ],
-    "agents": [
-      "Codex",
-      "Cursor"
-    ],
-    "summary_en": "让 AI 在真实项目中规划、执行、验证并交付。",
+    "agents": [],
+    "summary_en": "本地优先的 AI 工作台：写代码、做文档、和 Agent 一起推进事情。",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -134,13 +134,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.346
+      "external_link_ratio": 0.399
     },
     "highlights": [
-      "人保留最终决策。 Agent 可以起草提案卡片——固定约定、请求执行、添加成员——但只有你能采纳或忽略。",
-      "执行隔离且有证据。 每个执行任务在独立 Git worktree 中运行，交付固定为不可变版本再交 Reviewer 评审；声明的验证检查、Diff、日志与集成面板都留在房间内。",
-      "选择语言并配置一个模型订阅、计划、API 或自定义 Provider。",
-      "以证据完成交付。 回看 Diff、测试、审查和产物；需求变化后可以继续、分叉、归档或重新规划。"
+      "模型随你换。 DeepSeek、Kimi、GLM、Qwen、Ollama 等预设，也可自定义 Provider。",
+      "连接一个模型。 首次启动的引导里填 API Key，或登录已有订阅。支持 OpenAI / Anthropic 兼容接口与本地模型，见 Provider 文档。",
+      "GUI 与 TUI 共用。 同一个 kun serve 运行时，线程、计划和审批两边都能接着用。",
+      "动手先确认。 工具、目录和工作台权限默认需要批准；记忆和群聊不会扩大权限。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -151,9 +151,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:31+00:00",
+  "fetched_at": "2026-10-12T12:00:11+00:00",
   "categories": [
-    "security-self-hosting"
+    "agent-runtime-desktop-ui",
+    "security-self-hosting",
+    "voice"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {

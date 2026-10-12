@@ -28,23 +28,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 235,
-  "days_since_push": 13,
-  "health_score": 48,
+  "age_days": 236,
+  "days_since_push": 14,
+  "health_score": 47,
   "health_components": {
     "popularity": 51.6,
-    "momentum": 1.4,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 69.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 381,
-    "days_span": 235,
-    "stars_per_day": 1.62,
-    "lifetime_stars_per_day": 1.62,
-    "basis": "lifetime",
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.61,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:58+00:00",
+  "fetched_at": "2026-10-12T12:01:33+00:00",
   "categories": [
     "mobile",
     "model-routing",
@@ -145,15 +145,15 @@
   "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 HarnessMD/munder-difflin 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "HarnessMD/munder-difflin",
+    "note_en": "Superseded by bytedance/deer-flow: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 bytedance/deer-flow 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "bytedance/deer-flow",
     "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "harnessmd/munder-difflin",
+      "challenger": "bytedance/deer-flow",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "HarnessMD/munder-difflin",
+      "challenger_name": "bytedance/deer-flow",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -165,15 +165,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 22.719,
-      "momentum_ratio": 40.481,
-      "setup_delta": -40,
+      "star_ratio": 219.782,
+      "momentum_ratio": 273.0,
+      "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "22.72x the stars (8,656 vs 381)",
-        "40.48x the star velocity (65.6/day vs 1.6/day)",
-        "no harder to set up (32 vs 72 friction)"
+        "219.78x the stars (83,737 vs 381)",
+        "273.00x the star velocity (54.6/day vs 0.2/day)",
+        "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -186,8 +186,11 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
+          "mcp-support",
           "memory-context",
           "model-routing",
           "multi-agent-orchestration",
@@ -196,14 +199,15 @@
           "self-hosted",
           "session-persistence",
           "skills-plugins",
+          "team-collaboration",
           "usage-analytics",
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 48,
-        "challenger_health": 75,
+        "incumbent_health": 47,
+        "challenger_health": 76,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 57
       }
     }
   }

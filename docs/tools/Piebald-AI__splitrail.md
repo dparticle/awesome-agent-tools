@@ -13,18 +13,22 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 223 |
-| Star velocity | 0.5/day (lifetime basis, 455d span) |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 50/100 |
-| Documentation | 32/100 |
+| Documentation | 33/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Rust |
 | Created | 2025-07-12 |
-| Last push | 2026-10-09 (1 days ago) |
-| Analyzed README | 5,093 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 8,200 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (6/6).
 
 ## What it solves
+
+### Workspace isolation
 
 ### Usage analytics
 
@@ -34,7 +38,7 @@
 
 ### MCP support
 
-> epository to show your support!** ⭐
+> ows the system's light/dark appearance and adapts to phone widths, with horizontally scrollable charts and tables.
 
 ### GUI / desktop app
 
@@ -55,7 +59,7 @@
 
 ## Documentation quality
 
-Score **32/100**, based on these detected signals:
+Score **33/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -68,9 +72,9 @@ Score **32/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 47.0 |
-| momentum | 0.4 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
-| documentation | 32.0 |
+| documentation | 33.0 |
 | accessibility | 100.0 |
 
 ---

@@ -39,23 +39,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 206,
-  "days_since_push": 4,
-  "health_score": 55,
+  "age_days": 207,
+  "days_since_push": 5,
+  "health_score": 54,
   "health_components": {
     "popularity": 51.7,
-    "momentum": 1.6,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 80.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 384,
-    "days_span": 206,
-    "stars_per_day": 1.86,
+    "stars_gained": 2,
+    "days_span": 5,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 1.86,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -163,7 +163,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:58+00:00",
+  "fetched_at": "2026-10-12T12:01:33+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "analytics",

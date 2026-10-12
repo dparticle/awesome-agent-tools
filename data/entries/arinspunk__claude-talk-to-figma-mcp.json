@@ -29,23 +29,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 554,
-  "days_since_push": 175,
+  "age_days": 555,
+  "days_since_push": 176,
   "health_score": 48,
   "health_components": {
     "popularity": 56.5,
-    "momentum": 1.0,
+    "momentum": 0.3,
     "maintenance": 55.0,
     "documentation": 61.0,
     "accessibility": 96.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 668,
-    "days_span": 554,
-    "stars_per_day": 1.21,
-    "lifetime_stars_per_day": 1.21,
-    "basis": "lifetime",
+    "stars_gained": 2,
+    "days_span": 5,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 1.2,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -134,18 +134,73 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:41+00:00",
+  "fetched_at": "2026-10-12T12:01:16+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "analytics",
+    "mobile",
+    "model-routing",
     "skills"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "arinspunk/claude-talk-to-figma-mcp",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "arinspunk/claude-talk-to-figma-mcp",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "parallel-execution"
+      ],
+      "star_ratio": 50.088,
+      "momentum_ratio": 54.0,
+      "setup_delta": -14,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "50.09x the stars (33,459 vs 668)",
+        "54.00x the star velocity (21.6/day vs 0.4/day)",
+        "no harder to set up (2 vs 16 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "parallel-execution"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 67,
+        "incumbent_setup_score": 16,
+        "challenger_setup_score": 2
+      }
+    }
   }
 }

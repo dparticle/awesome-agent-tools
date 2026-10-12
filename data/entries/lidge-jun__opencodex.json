@@ -6,9 +6,9 @@
   "url": "https://github.com/lidge-jun/opencodex",
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
   "homepage": "https://opencodex.me/",
-  "stars": 17247,
-  "forks": 1309,
-  "open_issues": 110,
+  "stars": 17302,
+  "forks": 1314,
+  "open_issues": 118,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,28 +34,28 @@
     "typescript"
   ],
   "created_at": "2026-06-18T23:03:18Z",
-  "updated_at": "2026-10-11T09:36:26Z",
-  "pushed_at": "2026-10-11T02:13:03Z",
+  "updated_at": "2026-10-12T11:43:15Z",
+  "pushed_at": "2026-10-12T11:53:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
+  "age_days": 115,
   "days_since_push": 0,
-  "health_score": 83,
+  "health_score": 69,
   "health_components": {
-    "popularity": 84.7,
-    "momentum": 100.0,
+    "popularity": 84.8,
+    "momentum": 43.0,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 58.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 17247,
-    "days_span": 114,
-    "stars_per_day": 151.29,
-    "lifetime_stars_per_day": 151.29,
-    "basis": "lifetime",
+    "stars_gained": 258,
+    "days_span": 5,
+    "stars_per_day": 51.6,
+    "lifetime_stars_per_day": 150.45,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -164,11 +164,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:17+00:00",
+  "fetched_at": "2026-10-12T12:00:00+00:00",
   "categories": [
     "model-routing",
-    "sharing",
-    "teams"
+    "sharing"
   ],
   "primary_category": "sharing",
   "lifecycle": {

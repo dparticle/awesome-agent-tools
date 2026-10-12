@@ -18,23 +18,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 333,
-  "days_since_push": 5,
+  "age_days": 334,
+  "days_since_push": 6,
   "health_score": 55,
   "health_components": {
     "popularity": 49.0,
-    "momentum": 0.7,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 91.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 282,
-    "days_span": 333,
-    "stars_per_day": 0.85,
-    "lifetime_stars_per_day": 0.85,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 0.84,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -170,11 +170,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:09+00:00",
+  "fetched_at": "2026-10-12T12:01:46+00:00",
   "categories": [
     "accounts",
     "mobile-2",
-    "teams"
+    "providers"
   ],
   "primary_category": "accounts",
   "lifecycle": {

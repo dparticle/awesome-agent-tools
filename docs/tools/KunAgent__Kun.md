@@ -2,7 +2,7 @@
 
 # KunAgent/Kun
 
-> 让 AI 在真实项目中规划、执行、验证并交付。
+> 本地优先的 AI 工作台：写代码、做文档、和 Agent 一起推进事情。
 
 [Repository](https://github.com/KunAgent/Kun) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,49 +12,41 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,320 |
-| Star velocity | 44.5/day (lifetime basis, 142d span) |
-| Health score | 66/100 |
-| Documentation | 41/100 |
-| Tier | ✅ Recommended |
+| Stars | 6,318 |
+| Star velocity | 0.2/day (history basis, 5d span) |
+| Health score | 58/100 |
+| Documentation | 45/100 |
+| Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-05-21 |
-| Last push | 2026-10-07 (3 days ago) |
-| Analyzed README | 5,782 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-11 (0 days ago) |
+| Analyzed README | 5,018 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Quota & usage management
+### API gateway / proxy
 
-> ，提示、附件和任务上下文会发送给所选 Provider；使用前请确认该服务的数据政策。
-
-### Workspace isolation
-
-> 建一个房间，为成员选择 Agent 档案、模型和授权的本地仓库，然后用 IM 式的私聊或群聊推进工作。
+### Skills & plugins
 
 ### MCP support
 
-> arkdown，预览、引用和分析 PDF / Office 文档，分析电子表格，并从大纲创建演示文稿；Office 文件保持只读。
+> 独使用时先退出桌面应用，再运行 kun；TUI 会启动自己的运行时，退出时一并停止。
 
 ### Security & isolation
 
-> esign 画布；Work 面向写作、资料整理、文档分析和演示产出；Rooms 把多个 Agent 放进同一个协作空间，用私聊和群聊完成讨论、分工、执行与评审。
+> ** 会话、记忆、日志存在本地；用云端模型时，只有本次请求的上下文发给你选的 Provider。
 
 ### Self-hostable
 
 ### GUI / desktop app
 
-> 是把 AI 从“回答问题”推进到“完成工作”的本地优先工作台。
-
-### Cross-agent support
-
-> Mentions Codex, Cursor
+### Notifications
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 27/100)
+- **Difficulty:** 🟢 Easy (friction score 33/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
 
@@ -62,11 +54,13 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-*Easy. install via native installer / package; needs git clone (build from source), npm install/build; GUI application*
+**Configuration required:** API key configuration
+
+*Easy. install via native installer / package; needs git clone (build from source), npm install/build; configure API key configuration; GUI application*
 
 ## Documentation quality
 
-Score **41/100**, based on these detected signals:
+Score **45/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -75,6 +69,7 @@ Score **41/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - has a table of contents
+- documents changes
 - explains architecture
 
 ## Score breakdown
@@ -82,10 +77,10 @@ Score **41/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 76.0 |
-| momentum | 37.1 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
-| documentation | 41.0 |
-| accessibility | 81.0 |
+| documentation | 45.0 |
+| accessibility | 75.0 |
 
 ---
 

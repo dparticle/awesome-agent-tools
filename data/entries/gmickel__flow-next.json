@@ -33,28 +33,28 @@
     "workflow"
   ],
   "created_at": "2025-12-26T22:27:07Z",
-  "updated_at": "2026-10-10T22:12:50Z",
-  "pushed_at": "2026-10-10T22:23:11Z",
+  "updated_at": "2026-10-12T09:28:23Z",
+  "pushed_at": "2026-10-12T09:37:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 288,
+  "age_days": 289,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 57.0,
-    "momentum": 2.1,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 709,
-    "days_span": 288,
-    "stars_per_day": 2.46,
-    "lifetime_stars_per_day": 2.46,
-    "basis": "lifetime",
+    "stars_gained": 3,
+    "days_span": 5,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 2.45,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:40+00:00",
+  "fetched_at": "2026-10-12T12:01:15+00:00",
   "categories": [
     "model-routing"
   ],

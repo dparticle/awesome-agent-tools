@@ -39,23 +39,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 158,
-  "days_since_push": 107,
-  "health_score": 41,
+  "age_days": 159,
+  "days_since_push": 108,
+  "health_score": 40,
   "health_components": {
     "popularity": 47.3,
-    "momentum": 1.2,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 48.0,
     "accessibility": 70.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 231,
-    "days_span": 158,
-    "stars_per_day": 1.46,
-    "lifetime_stars_per_day": 1.46,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.45,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -150,10 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:23+00:00",
+  "fetched_at": "2026-10-12T12:01:56+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "mobile",
+    "model-routing",
     "skills"
   ],
   "primary_category": "mobile",
@@ -180,14 +180,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 9.026,
-      "momentum_ratio": 3.986,
+      "star_ratio": 9.03,
+      "momentum_ratio": 12.0,
       "setup_delta": -18,
-      "dominance": 0.972,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "9.03x the stars (2,085 vs 231)",
-        "3.99x the star velocity (5.8/day vs 1.5/day)",
+        "9.03x the stars (2,086 vs 231)",
+        "12.00x the star velocity (0.6/day vs 0.0/day)",
         "no harder to set up (12 vs 30 friction)"
       ],
       "reasons_zh": [],
@@ -212,8 +212,8 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 41,
-        "challenger_health": 62,
+        "incumbent_health": 40,
+        "challenger_health": 61,
         "incumbent_setup_score": 30,
         "challenger_setup_score": 12
       }

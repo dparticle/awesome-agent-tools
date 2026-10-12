@@ -6,9 +6,9 @@
   "url": "https://github.com/matrixorigin/memoria",
   "description": "Secure memory management for AI Agents • Ensures data integrity • Reduces hallucinations • Maintains consistent long-term context",
   "homepage": "https://thememoria.ai/",
-  "stars": 610,
+  "stars": 611,
   "forks": 78,
-  "open_issues": 47,
+  "open_issues": 44,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -20,33 +20,33 @@
     "storage"
   ],
   "created_at": "2026-03-09T23:44:24Z",
-  "updated_at": "2026-10-10T08:21:56Z",
-  "pushed_at": "2026-10-10T08:21:52Z",
+  "updated_at": "2026-10-12T11:20:23Z",
+  "pushed_at": "2026-10-12T11:20:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 215,
-  "days_since_push": 1,
-  "health_score": 53,
+  "age_days": 216,
+  "days_since_push": 0,
+  "health_score": 51,
   "health_components": {
     "popularity": 55.7,
-    "momentum": 2.4,
+    "momentum": 0.7,
     "maintenance": 100.0,
-    "documentation": 67.0,
-    "accessibility": 49.0
+    "documentation": 68.0,
+    "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 610,
-    "days_span": 215,
-    "stars_per_day": 2.84,
-    "lifetime_stars_per_day": 2.84,
-    "basis": "lifetime",
+    "stars_gained": 4,
+    "days_span": 5,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 2.83,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "matrixorigin/memoria",
-    "readme_chars": 19838,
+    "readme_chars": 20682,
     "capabilities": [
       "worktree-isolation",
       "memory-context",
@@ -60,7 +60,7 @@
       "memory-context": "",
       "mcp-support": "rences, facts, and decisions persist across sessions",
       "security-isolation": "",
-      "self-hosted": "ool? · database mode? · embedding service? (Self-Hosted only)",
+      "self-hosted": "conversation and start a new one with hermes.",
       "cross-agent-support": "Mentions Codex, Cursor, Gemini CLI"
     },
     "capability_hits": {
@@ -72,8 +72,8 @@
       "cross-agent-support": 3
     },
     "friction": {
-      "level": "moderate",
-      "score": 51,
+      "level": "high",
+      "score": 63,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -86,6 +86,8 @@
         "make build"
       ],
       "config_signals": [
+        "API key configuration",
+        "sign-in required",
         "database dependency"
       ],
       "friendliness_signals": [
@@ -94,10 +96,10 @@
       "platforms": [
         "Linux"
       ],
-      "note_en": "Some setup. install via curl | sh installer; needs docker compose up, kubectl apply; configure database dependency; one-click setup",
-      "note_zh": "需要一些配置。可通过 curl | sh installer 安装；需要 docker compose up、kubectl apply；需配置 database dependency；one-click setup"
+      "note_en": "Involved setup. install via curl | sh installer; needs docker compose up, kubectl apply; configure API key configuration, sign-in required; one-click setup",
+      "note_zh": "配置较重。可通过 curl | sh installer 安装；需要 docker compose up、kubectl apply；需配置 API key configuration、sign-in required；one-click setup"
     },
-    "doc_score": 67,
+    "doc_score": 68,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -109,7 +111,8 @@
       "mentions licensing",
       "links to dedicated docs",
       "reports benchmarks",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Codex",
@@ -124,7 +127,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.008
+      "external_link_ratio": 1.015
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -136,7 +139,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:43+00:00",
+  "fetched_at": "2026-10-12T12:01:17+00:00",
   "categories": [
     "security-self-hosting"
   ],
@@ -154,7 +157,7 @@
       "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -164,15 +167,15 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 453.754,
-      "momentum_ratio": 366.394,
-      "setup_delta": 6,
-      "dominance": 0.97,
+      "star_ratio": 454.265,
+      "momentum_ratio": 737.0,
+      "setup_delta": -6,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "453.75x the stars (276,790 vs 610)",
-        "366.39x the star velocity (1040.6/day vs 2.8/day)",
-        "slightly heavier setup (+6 friction, within tolerance)"
+        "454.27x the stars (277,556 vs 611)",
+        "737.00x the star velocity (589.6/day vs 0.8/day)",
+        "no harder to set up (57 vs 63 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -202,9 +205,9 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 53,
+        "incumbent_health": 51,
         "challenger_health": 89,
-        "incumbent_setup_score": 51,
+        "incumbent_setup_score": 63,
         "challenger_setup_score": 57
       }
     }

@@ -6,20 +6,20 @@
   "url": "https://github.com/vikingmute/review-forge",
   "description": "review-forge is an Agent Skill for structured, auditable code review workflows",
   "homepage": "",
-  "stars": 224,
+  "stars": 223,
   "forks": 11,
   "open_issues": 0,
   "language": "",
   "license": "",
   "topics": [],
   "created_at": "2026-05-29T02:25:53Z",
-  "updated_at": "2026-10-11T02:35:31Z",
+  "updated_at": "2026-10-11T12:37:10Z",
   "pushed_at": "2026-05-29T13:53:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
-  "days_since_push": 134,
+  "age_days": 136,
+  "days_since_push": 135,
   "health_score": 38,
   "health_components": {
     "popularity": 47.0,
@@ -30,10 +30,10 @@
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 224,
-    "days_span": 135,
-    "stars_per_day": 1.66,
-    "lifetime_stars_per_day": 1.66,
+    "stars_gained": 223,
+    "days_span": 136,
+    "stars_per_day": 1.64,
+    "lifetime_stars_per_day": 1.64,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -104,7 +104,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:24+00:00",
+  "fetched_at": "2026-10-12T12:01:58+00:00",
   "categories": [
     "skills"
   ],

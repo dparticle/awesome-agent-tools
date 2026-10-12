@@ -6,35 +6,35 @@
   "url": "https://github.com/Pimzino/spec-workflow-mcp",
   "description": "A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.",
   "homepage": "",
-  "stars": 4302,
+  "stars": 4304,
   "forks": 355,
   "open_issues": 10,
   "language": "TypeScript",
   "license": "GPL-3.0",
   "topics": [],
   "created_at": "2025-08-07T13:18:06Z",
-  "updated_at": "2026-10-10T14:56:08Z",
+  "updated_at": "2026-10-12T07:51:53Z",
   "pushed_at": "2026-07-03T19:19:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 429,
-  "days_since_push": 99,
-  "health_score": 47,
+  "age_days": 430,
+  "days_since_push": 100,
+  "health_score": 45,
   "health_components": {
     "popularity": 72.7,
-    "momentum": 8.4,
+    "momentum": 0.5,
     "maintenance": 55.0,
     "documentation": 58.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4302,
-    "days_span": 429,
-    "stars_per_day": 10.03,
-    "lifetime_stars_per_day": 10.03,
-    "basis": "lifetime",
+    "stars_gained": 3,
+    "days_span": 5,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 10.01,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -142,22 +142,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:09+00:00",
+  "fetched_at": "2026-10-12T12:00:47+00:00",
   "categories": [
-    "teams"
+    "security-self-hosting",
+    "voice"
   ],
-  "primary_category": "teams",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by akitaonrails/ai-memory: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 akitaonrails/ai-memory 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "akitaonrails/ai-memory",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "pimzino/spec-workflow-mcp",
-      "challenger": "akitaonrails/ai-memory",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "Pimzino/spec-workflow-mcp",
-      "challenger_name": "akitaonrails/ai-memory",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -170,15 +171,15 @@
         "security-isolation",
         "worktree-isolation"
       ],
-      "star_ratio": 2.123,
-      "momentum_ratio": 6.412,
-      "setup_delta": 0,
-      "dominance": 0.921,
+      "star_ratio": 64.488,
+      "momentum_ratio": 982.667,
+      "setup_delta": -7,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.12x the stars (9,132 vs 4,302)",
-        "6.41x the star velocity (64.3/day vs 10.0/day)",
-        "no harder to set up (64 vs 64 friction)"
+        "64.49x the stars (277,556 vs 4,304)",
+        "982.67x the star velocity (589.6/day vs 0.6/day)",
+        "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -193,19 +194,25 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
           "security-isolation",
-          "team-collaboration",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 47,
-        "challenger_health": 70,
+        "incumbent_health": 45,
+        "challenger_health": 89,
         "incumbent_setup_score": 64,
-        "challenger_setup_score": 64
+        "challenger_setup_score": 57
       }
     }
   }

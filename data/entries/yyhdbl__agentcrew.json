@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "full_name": "YYHDBL/AgentCrew",
+  "name": "AgentCrew",
+  "owner": "YYHDBL",
+  "url": "https://github.com/YYHDBL/AgentCrew",
+  "description": "Local-first desktop workspace for AI agents, with human approvals, persistent memory, scheduled tasks, and auditable execution.",
+  "homepage": "",
+  "stars": 251,
+  "forks": 50,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "",
+  "topics": [
+    "ai-agents",
+    "desktop",
+    "electron",
+    "local-first",
+    "productivity",
+    "python"
+  ],
+  "created_at": "2025-12-26T11:04:43Z",
+  "updated_at": "2026-10-12T07:32:55Z",
+  "pushed_at": "2026-10-12T07:32:39Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 290,
+  "days_since_push": 0,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 48.0,
+    "momentum": 0.7,
+    "maintenance": 100.0,
+    "documentation": 45.0,
+    "accessibility": 69.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 251,
+    "days_span": 290,
+    "stars_per_day": 0.87,
+    "lifetime_stars_per_day": 0.87,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "YYHDBL/AgentCrew",
+    "readme_chars": 5468,
+    "capabilities": [
+      "session-persistence",
+      "memory-context",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "session-persistence": "follow the steps, tool calls, and results as the work progresses.",
+      "memory-context": "onses, and queue or cancel instructions.",
+      "mcp-support": "ecords remain available for inspection.",
+      "security-isolation": ", follow streamed responses, and queue or cancel instructions.",
+      "gui-desktop": "ompleted work and its execution record.",
+      "notifications": "pted work and inspect recorded steps, tool results, approvals, and audit events in the Run Center."
+    },
+    "capability_hits": {
+      "session-persistence": 1,
+      "memory-context": 1,
+      "mcp-support": 1,
+      "security-isolation": 1,
+      "gui-desktop": 3,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 39,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, config file; GUI application",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、config file；GUI application"
+    },
+    "doc_score": 45,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "OpenCode"
+    ],
+    "summary_en": "AgentCrew brings task execution, human approvals, persistent memory, and scheduled work into one desktop application.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    },
+    "highlights": [],
+    "summary_zh_native": "AgentCrew 将任务执行、人工审批、持久记忆和定时任务整合到一个桌面应用。你可以交办任务、添加文件与文件夹材料，查看实时回复、执行步骤、工具调用和结果。新的指令可以进入队列，中断的任务可以恢复，运行中心保留完整的执行记录供你检查。",
+    "highlights_zh": [],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-12T12:01:49+00:00",
+  "categories": [
+    "analytics",
+    "security-self-hosting"
+  ],
+  "primary_category": "security-self-hosting",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

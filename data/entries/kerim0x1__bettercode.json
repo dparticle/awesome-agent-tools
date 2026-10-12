@@ -27,12 +27,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 20,
-  "days_since_push": 6,
+  "age_days": 21,
+  "days_since_push": 7,
   "health_score": 56,
   "health_components": {
     "popularity": 48.8,
-    "momentum": 11.4,
+    "momentum": 10.9,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 84.0
@@ -40,9 +40,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 274,
-    "days_span": 20,
-    "stars_per_day": 13.7,
-    "lifetime_stars_per_day": 13.7,
+    "days_span": 21,
+    "stars_per_day": 13.05,
+    "lifetime_stars_per_day": 13.05,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:11+00:00",
+  "fetched_at": "2026-10-12T12:01:47+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "teams"
@@ -149,18 +149,18 @@
   "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "msitarzewski/agency-agents",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "kerim0x1/bettercode",
-      "challenger": "msitarzewski/agency-agents",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "kerim0x1/bettercode",
-      "challenger_name": "msitarzewski/agency-agents",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -170,15 +170,15 @@
         "mobile-access",
         "team-collaboration"
       ],
-      "star_ratio": 579.96,
-      "momentum_ratio": 32.042,
-      "setup_delta": -23,
-      "dominance": 1.0,
+      "star_ratio": 32.237,
+      "momentum_ratio": 18.467,
+      "setup_delta": 2,
+      "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "579.96x the stars (158,909 vs 274)",
-        "32.04x the star velocity (439.0/day vs 13.7/day)",
-        "no harder to set up (1 vs 24 friction)"
+        "32.24x the stars (8,833 vs 274)",
+        "18.47x the star velocity (241.0/day vs 13.1/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -200,18 +200,18 @@
           "mcp-support",
           "memory-context",
           "mobile-access",
-          "multi-account-switching",
+          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
           "team-collaboration",
-          "voice-input"
+          "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 98,
+        "challenger_health": 87,
         "incumbent_setup_score": 24,
-        "challenger_setup_score": 1
+        "challenger_setup_score": 26
       }
     }
   }

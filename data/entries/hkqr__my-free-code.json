@@ -19,29 +19,29 @@
     "multi-provider-llm"
   ],
   "created_at": "2026-08-27T17:59:23Z",
-  "updated_at": "2026-10-09T21:23:56Z",
-  "pushed_at": "2026-10-09T15:31:25Z",
+  "updated_at": "2026-10-11T18:28:39Z",
+  "pushed_at": "2026-10-11T18:28:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 44,
-  "days_since_push": 1,
-  "health_score": 52,
+  "age_days": 45,
+  "days_since_push": 0,
+  "health_score": 49,
   "health_components": {
     "popularity": 55.9,
-    "momentum": 11.8,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 35.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 624,
-    "days_span": 44,
-    "stars_per_day": 14.18,
-    "lifetime_stars_per_day": 14.18,
-    "basis": "lifetime",
-    "is_fast_riser": true
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 13.87,
+    "basis": "history",
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "hkqr/my-free-code",
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:42+00:00",
+  "fetched_at": "2026-10-12T12:01:17+00:00",
   "categories": [
     "model-routing",
     "teams"
@@ -151,14 +151,14 @@
         "cross-agent-support",
         "model-routing"
       ],
-      "star_ratio": 17.208,
-      "momentum_ratio": 6.258,
+      "star_ratio": 17.242,
+      "momentum_ratio": 116.0,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "17.21x the stars (10,738 vs 624)",
-        "6.26x the star velocity (88.7/day vs 14.2/day)",
+        "17.24x the stars (10,759 vs 624)",
+        "116.00x the star velocity (23.2/day vs 0.2/day)",
         "no harder to set up (25 vs 34 friction)"
       ],
       "reasons_zh": [],
@@ -184,8 +184,8 @@
           "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 52,
-        "challenger_health": 80,
+        "incumbent_health": 49,
+        "challenger_health": 67,
         "incumbent_setup_score": 34,
         "challenger_setup_score": 25
       }

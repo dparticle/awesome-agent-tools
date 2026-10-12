@@ -6,8 +6,8 @@
   "url": "https://github.com/simonlin1212/Vibe-Research",
   "description": "Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A research workbench for China A-shares, US and HK stocks.",
   "homepage": "https://viberesearch.wiki",
-  "stars": 2652,
-  "forks": 544,
+  "stars": 2674,
+  "forks": 548,
   "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
@@ -32,33 +32,33 @@
     "workbuddy"
   ],
   "created_at": "2026-07-05T06:30:55Z",
-  "updated_at": "2026-10-11T10:36:36Z",
-  "pushed_at": "2026-10-11T10:39:33Z",
+  "updated_at": "2026-10-12T11:01:13Z",
+  "pushed_at": "2026-10-11T11:35:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 98,
-  "days_since_push": 0,
-  "health_score": 63,
+  "age_days": 99,
+  "days_since_push": 1,
+  "health_score": 59,
   "health_components": {
     "popularity": 68.5,
-    "momentum": 22.6,
+    "momentum": 7.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 57.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 2652,
-    "days_span": 98,
-    "stars_per_day": 27.06,
-    "lifetime_stars_per_day": 27.06,
-    "basis": "lifetime",
+    "stars_gained": 43,
+    "days_span": 5,
+    "stars_per_day": 8.6,
+    "lifetime_stars_per_day": 27.01,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "simonlin1212/Vibe-Research",
-    "readme_chars": 31091,
+    "readme_chars": 31184,
     "capabilities": [
       "quota-management",
       "remote-control",
@@ -149,13 +149,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.225
+      "external_link_ratio": 0.224
     },
     "highlights": [
+      "v2.2.0 发版前两轮独立只读审计（Codex 6.1 Sol、Opus 5.5），去重后 11 条真问题全部修复；v2.2.1 修的 4 处来自 Vibe AStock 合并 v2.2.0 时的发版审计，修复补丁另做了一次独立复核（Opus 5.5），找到的 6 处全部修掉。",
       "历史情景回放：按现在的持仓比例，把几段历史大跌期重放一遍——A 股 5 段（2015 年股灾、2016 年熔断、2018 年、2020 年 3 月、2021–2024 年），港股、美股各 4 段，并排看组合涨跌、期间最大回撤、最差单日和同期指数，点开一段看走势图和每只的贡献。",
       "内置四种规则：买入持有、均线交叉、RSI 均值回归、RSRS 择时。",
-      "中长线：八个主要指数的 5 / 20 / 60 / 250 日和年初至今涨跌、离一年高点多远、在 20 / 60 / 250 日线上方还是下方；两市成交额近 60 日柱图和均值线（盘中那根没收完，不和整天均值比）；两融余额走势；沪深300 股息率、盈利收益率和 10 年国债收益率的差。",
-      "提供源码和 Windows / macOS 免安装包，界面都是本地浏览器页面。"
+      "中长线：八个主要指数的 5 / 20 / 60 / 250 日和年初至今涨跌、离一年高点多远、在 20 / 60 / 250 日线上方还是下方；两市成交额近 60 日柱图和均值线（盘中那根没收完，不和整天均值比）；两融余额走势；沪深300 股息率、盈利收益率和 10 年国债收益率的差。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -166,7 +166,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:41+00:00",
+  "fetched_at": "2026-10-12T12:00:19+00:00",
   "categories": [
     "accounts",
     "mobile-2",

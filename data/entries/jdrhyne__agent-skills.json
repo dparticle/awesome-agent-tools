@@ -35,23 +35,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 262,
-  "days_since_push": 42,
+  "age_days": 263,
+  "days_since_push": 43,
   "health_score": 41,
   "health_components": {
     "popularity": 47.6,
-    "momentum": 0.8,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 53.0,
     "accessibility": 31.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 240,
-    "days_span": 262,
-    "stars_per_day": 0.92,
-    "lifetime_stars_per_day": 0.92,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 0.91,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:15+00:00",
+  "fetched_at": "2026-10-12T12:01:51+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",

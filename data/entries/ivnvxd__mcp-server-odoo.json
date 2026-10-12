@@ -6,7 +6,7 @@
   "url": "https://github.com/ivnvxd/mcp-server-odoo",
   "description": "Model Context Protocol (MCP) server that enables AI assistants to securely interact with Odoo ERP systems through standardized resources and tools for data retrieval and manipulation.",
   "homepage": "",
-  "stars": 402,
+  "stars": 403,
   "forks": 186,
   "open_issues": 6,
   "language": "Python",
@@ -23,28 +23,28 @@
     "odoo-mcp"
   ],
   "created_at": "2025-03-22T20:45:03Z",
-  "updated_at": "2026-10-11T08:16:11Z",
+  "updated_at": "2026-10-11T14:04:02Z",
   "pushed_at": "2026-10-11T08:23:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 567,
-  "days_since_push": 0,
-  "health_score": 50,
+  "age_days": 568,
+  "days_since_push": 1,
+  "health_score": 51,
   "health_components": {
     "popularity": 52.1,
-    "momentum": 0.6,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 402,
-    "days_span": 567,
-    "stars_per_day": 0.71,
+    "stars_gained": 5,
+    "days_span": 5,
+    "stars_per_day": 1.0,
     "lifetime_stars_per_day": 0.71,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -155,12 +155,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:57+00:00",
+  "fetched_at": "2026-10-12T12:01:32+00:00",
   "categories": [
-    "accounts",
-    "analytics"
+    "analytics",
+    "providers"
   ],
-  "primary_category": "accounts",
+  "primary_category": "providers",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -7,7 +7,7 @@
   "description": "CLI-first orchestration for AI coding agents: run selected agents and models in parallel, compare raw answers, and coordinate review or implementation workflows.",
   "homepage": "",
   "stars": 532,
-  "forks": 58,
+  "forks": 59,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -37,23 +37,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 227,
-  "days_since_push": 3,
-  "health_score": 57,
+  "age_days": 228,
+  "days_since_push": 5,
+  "health_score": 56,
   "health_components": {
     "popularity": 54.5,
-    "momentum": 2.0,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 93.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 532,
-    "days_span": 227,
-    "stars_per_day": 2.34,
-    "lifetime_stars_per_day": 2.34,
-    "basis": "lifetime",
+    "stars_gained": 2,
+    "days_span": 5,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 2.33,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -143,9 +143,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:45+00:00",
+  "fetched_at": "2026-10-12T12:01:20+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "model-routing",
     "skills"
   ],

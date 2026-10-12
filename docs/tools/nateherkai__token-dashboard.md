@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 724 |
-| Star velocity | 4.2/day (lifetime basis, 174d span) |
-| Health score | 44/100 |
+| Star velocity | 0.4/day (history basis, 5d span) |
+| Health score | 43/100 |
 | Documentation | 54/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-04-20 |
-| Last push | 2026-04-20 (173 days ago) |
+| Last push | 2026-04-20 (174 days ago) |
 | Analyzed README | 7,263 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** — Superseded by asheshgoplani/agent-deck: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -69,7 +71,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 57.2 |
-| momentum | 3.5 |
+| momentum | 0.3 |
 | maintenance | 55.0 |
 | documentation | 54.0 |
 | accessibility | 63.0 |

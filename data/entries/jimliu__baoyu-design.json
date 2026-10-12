@@ -6,8 +6,8 @@
   "url": "https://github.com/JimLiu/baoyu-design",
   "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
   "homepage": "",
-  "stars": 4285,
-  "forks": 292,
+  "stars": 4300,
+  "forks": 297,
   "open_issues": 2,
   "language": "JavaScript",
   "license": "MIT",
@@ -22,29 +22,29 @@
     "ui-design"
   ],
   "created_at": "2026-06-07T01:16:18Z",
-  "updated_at": "2026-10-11T07:49:10Z",
+  "updated_at": "2026-10-12T11:47:42Z",
   "pushed_at": "2026-09-23T05:34:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 126,
-  "days_since_push": 18,
-  "health_score": 67,
+  "age_days": 127,
+  "days_since_push": 19,
+  "health_score": 62,
   "health_components": {
-    "popularity": 72.6,
-    "momentum": 28.3,
+    "popularity": 72.7,
+    "momentum": 7.0,
     "maintenance": 92.0,
     "documentation": 61.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4285,
-    "days_span": 126,
-    "stars_per_day": 34.01,
-    "lifetime_stars_per_day": 34.01,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 42,
+    "days_span": 5,
+    "stars_per_day": 8.4,
+    "lifetime_stars_per_day": 33.86,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "JimLiu/baoyu-design",
@@ -142,8 +142,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:37+00:00",
+  "fetched_at": "2026-10-12T12:00:16+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "mobile-2",
     "skills"
   ],

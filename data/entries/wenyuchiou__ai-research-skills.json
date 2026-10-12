@@ -34,28 +34,28 @@
     "zotero"
   ],
   "created_at": "2026-04-25T17:46:37Z",
-  "updated_at": "2026-10-10T15:34:30Z",
-  "pushed_at": "2026-10-08T01:49:10Z",
+  "updated_at": "2026-10-12T00:31:14Z",
+  "pushed_at": "2026-10-12T00:44:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 168,
-  "days_since_push": 3,
+  "age_days": 169,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 49.9,
-    "momentum": 1.5,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 312,
-    "days_span": 168,
-    "stars_per_day": 1.86,
-    "lifetime_stars_per_day": 1.86,
-    "basis": "lifetime",
+    "stars_gained": 6,
+    "days_span": 5,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 1.85,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:05+00:00",
+  "fetched_at": "2026-10-12T12:01:41+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "skills"
@@ -161,15 +161,15 @@
   "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/GD-Agentic-Skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 thedivergentai/GD-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "thedivergentai/GD-Agentic-Skills",
+    "note_en": "Superseded by thedivergentai/Game-Design-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/Game-Design-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/Game-Design-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "wenyuchiou/ai-research-skills",
-      "challenger": "thedivergentai/gd-agentic-skills",
+      "challenger": "thedivergentai/game-design-agentic-skills",
       "incumbent_name": "WenyuChiou/ai-research-skills",
-      "challenger_name": "thedivergentai/GD-Agentic-Skills",
+      "challenger_name": "thedivergentai/Game-Design-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -181,14 +181,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.66,
-      "momentum_ratio": 1.823,
+      "star_ratio": 2.683,
+      "momentum_ratio": 2.833,
       "setup_delta": -1,
-      "dominance": 0.847,
+      "dominance": 0.904,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.66x the stars (830 vs 312)",
-        "1.82x the star velocity (3.4/day vs 1.9/day)",
+        "2.68x the stars (837 vs 312)",
+        "2.83x the star velocity (3.4/day vs 1.2/day)",
         "no harder to set up (21 vs 22 friction)"
       ],
       "reasons_zh": [],

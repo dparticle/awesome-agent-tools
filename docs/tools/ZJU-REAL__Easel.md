@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,447 |
-| Star velocity | 78.3/day (lifetime basis, 44d span) |
-| Health score | 78/100 |
-| Documentation | 80/100 |
-| Tier | 🏆 Flagship |
+| Stars | 3,541 |
+| Star velocity | 70.2/day (history basis, 5d span) |
+| Health score | 77/100 |
+| Documentation | 79/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-08-28 |
-| Last push | 2026-10-11 (0 days ago) |
-| Analyzed README | 21,021 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 19,372 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,17 +32,11 @@
 
 ### Model / provider routing
 
-> odels.providers.local-api，主模型设为 local-api/ ，明确使用 OpenClaw 运行时并允许请求配置的私有网络地址；不会覆盖原有 openai provider 或改写 OPENAI*。
-
 ### Multi-provider aggregation
 
 ### API gateway / proxy
 
-> hon 依赖和前端构建时，在项目 .env 中配置下面四项，然后运行 easel web：
-
-### Session persistence
-
-> 置 → 模型配置 → 连接方式」选择「API 直连」，填写独立「本地 / 内网 API 直连」通道的地址、模型与 Key 后保存。
+> API 不提供向量模型，请单独配置 Embedding API；否则 OpenClaw 会默认请求 text-embedding-3-small，可能得到“模型不可用”。
 
 ### Memory & context
 
@@ -74,7 +68,7 @@
 
 ## Documentation quality
 
-Score **80/100**, based on these detected signals:
+Score **79/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -90,16 +84,15 @@ Score **80/100**, based on these detected signals:
 - publishes a roadmap
 - reports benchmarks
 - explains architecture
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 70.7 |
-| momentum | 65.3 |
+| popularity | 71.0 |
+| momentum | 58.5 |
 | maintenance | 100.0 |
-| documentation | 80.0 |
+| documentation | 79.0 |
 | accessibility | 85.0 |
 
 ---

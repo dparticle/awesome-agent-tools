@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,220 |
-| Star velocity | 44.2/day (lifetime basis, 118d span) |
-| Health score | 66/100 |
+| Stars | 5,232 |
+| Star velocity | 4.8/day (history basis, 5d span) |
+| Health score | 58/100 |
 | Documentation | 46/100 |
-| Tier | ✅ Recommended |
+| Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-14 |
-| Last push | 2026-10-09 (2 days ago) |
+| Last push | 2026-10-12 (0 days ago) |
 | Analyzed README | 8,868 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)** — Superseded by NanmiCoder/cc-haha: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -82,7 +82,7 @@ Score **46/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.4 |
-| momentum | 36.9 |
+| momentum | 4.0 |
 | maintenance | 100.0 |
 | documentation | 46.0 |
 | accessibility | 72.0 |

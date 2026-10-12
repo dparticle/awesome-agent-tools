@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
   "homepage": "https://aka.ms/ppskills",
-  "stars": 990,
-  "forks": 204,
-  "open_issues": 155,
+  "stars": 996,
+  "forks": 203,
+  "open_issues": 156,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -21,29 +21,29 @@
     "power-platform"
   ],
   "created_at": "2026-01-21T18:25:14Z",
-  "updated_at": "2026-10-11T08:26:55Z",
-  "pushed_at": "2026-10-10T23:06:48Z",
+  "updated_at": "2026-10-12T10:37:40Z",
+  "pushed_at": "2026-10-12T10:25:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 262,
+  "age_days": 263,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 59.9,
-    "momentum": 3.1,
+    "popularity": 60.0,
+    "momentum": 4.5,
     "maintenance": 100.0,
     "documentation": 44.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 990,
-    "days_span": 262,
-    "stars_per_day": 3.78,
-    "lifetime_stars_per_day": 3.78,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 27,
+    "days_span": 5,
+    "stars_per_day": 5.4,
+    "lifetime_stars_per_day": 3.79,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "microsoft/power-platform-skills",
@@ -133,76 +133,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:31+00:00",
+  "fetched_at": "2026-10-12T12:01:07+00:00",
   "categories": [
     "mobile-2"
   ],
   "primary_category": "mobile-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by yohey-w/multi-agent-shogun: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 yohey-w/multi-agent-shogun 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "yohey-w/multi-agent-shogun",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "microsoft/power-platform-skills",
-      "challenger": "yohey-w/multi-agent-shogun",
-      "incumbent_name": "microsoft/power-platform-skills",
-      "challenger_name": "yohey-w/multi-agent-shogun",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "mobile-access",
-        "skills-plugins",
-        "worktree-isolation"
-      ],
-      "star_ratio": 1.438,
-      "momentum_ratio": 1.455,
-      "setup_delta": -3,
-      "dominance": 0.679,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "1.44x the stars (1,424 vs 990)",
-        "1.46x the star velocity (5.5/day vs 3.8/day)",
-        "no harder to set up (46 vs 49 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "mobile-access",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 52,
-        "incumbent_setup_score": 49,
-        "challenger_setup_score": 46
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

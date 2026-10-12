@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 83,677 |
-| Star velocity | 160.3/day (lifetime basis, 522d span) |
-| Health score | 90/100 |
+| Stars | 83,737 |
+| Star velocity | 54.6/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 80/100 |
-| Tier | 🏆 Flagship |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-11 (0 days ago) |
-| Analyzed README | 276,619 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 278,692 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@
 
 ### Session persistence
 
-> es to DeerFlow and get streaming responses
+> , and publish a new app version.
 
 ### Memory & context
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.5 |
-| momentum | 100.0 |
+| momentum | 45.5 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

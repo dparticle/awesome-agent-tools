@@ -31,23 +31,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 121,
-  "days_since_push": 28,
-  "health_score": 49,
+  "age_days": 122,
+  "days_since_push": 29,
+  "health_score": 48,
   "health_components": {
     "popularity": 56.9,
-    "momentum": 4.8,
+    "momentum": 0.3,
     "maintenance": 92.0,
     "documentation": 48.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 699,
-    "days_span": 121,
-    "stars_per_day": 5.78,
-    "lifetime_stars_per_day": 5.78,
-    "basis": "lifetime",
+    "stars_gained": 2,
+    "days_span": 5,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 5.73,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -133,13 +133,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:40+00:00",
+  "fetched_at": "2026-10-12T12:01:15+00:00",
   "categories": [
     "model-routing",
-    "providers",
+    "providers-2",
     "skills"
   ],
-  "primary_category": "providers",
+  "primary_category": "providers-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

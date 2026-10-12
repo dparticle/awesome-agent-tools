@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 423 |
-| Star velocity | 7.7/day (lifetime basis, 55d span) |
+| Stars | 422 |
+| Star velocity | 7.5/day (lifetime basis, 56d span) |
 | Health score | 58/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-08-16 |
 | Last push | 2026-10-11 (0 days ago) |
 | Analyzed README | 14,672 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -79,7 +77,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 52.5 |
-| momentum | 6.4 |
+| momentum | 6.3 |
 | maintenance | 100.0 |
 | documentation | 69.0 |
 | accessibility | 87.0 |

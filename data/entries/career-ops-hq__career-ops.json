@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
   "homepage": "https://career-ops.org",
-  "stars": 74018,
-  "forks": 13890,
-  "open_issues": 337,
+  "stars": 74127,
+  "forks": 13904,
+  "open_issues": 339,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "terminal"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-10-11T10:42:39Z",
-  "pushed_at": "2026-10-11T10:46:33Z",
+  "updated_at": "2026-10-12T11:56:58Z",
+  "pushed_at": "2026-10-12T10:32:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 189,
+  "age_days": 190,
   "days_since_push": 0,
-  "health_score": 89,
+  "health_score": 83,
   "health_components": {
     "popularity": 97.4,
-    "momentum": 100.0,
+    "momentum": 74.2,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 51.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 74018,
-    "days_span": 189,
-    "stars_per_day": 391.63,
-    "lifetime_stars_per_day": 391.63,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 445,
+    "days_span": 5,
+    "stars_per_day": 89.0,
+    "lifetime_stars_per_day": 390.14,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 45668,
+    "readme_chars": 45726,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -142,7 +142,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.526
+      "external_link_ratio": 0.525
     },
     "highlights": [
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
@@ -158,8 +158,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:51:53+00:00",
+  "fetched_at": "2026-10-12T12:00:32+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "teams"
   ],
   "primary_category": "teams",
@@ -185,14 +186,14 @@
         "model-routing",
         "skills-plugins"
       ],
-      "star_ratio": 1.357,
-      "momentum_ratio": 1.546,
+      "star_ratio": 1.358,
+      "momentum_ratio": 1.948,
       "setup_delta": -20,
-      "dominance": 0.674,
+      "dominance": 0.703,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.36x the stars (100,479 vs 74,018)",
-        "1.55x the star velocity (605.3/day vs 391.6/day)",
+        "1.36x the stars (100,678 vs 74,127)",
+        "1.95x the star velocity (173.4/day vs 89.0/day)",
         "no harder to set up (29 vs 49 friction)"
       ],
       "reasons_zh": [],
@@ -218,7 +219,7 @@
           "session-persistence",
           "skills-plugins"
         ],
-        "incumbent_health": 89,
+        "incumbent_health": 83,
         "challenger_health": 95,
         "incumbent_setup_score": 49,
         "challenger_setup_score": 29

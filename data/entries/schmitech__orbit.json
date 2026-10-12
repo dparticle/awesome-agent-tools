@@ -33,12 +33,12 @@
     "vector-database"
   ],
   "created_at": "2025-03-10T02:30:21Z",
-  "updated_at": "2026-10-11T00:51:13Z",
-  "pushed_at": "2026-10-11T00:51:10Z",
+  "updated_at": "2026-10-11T23:11:44Z",
+  "pushed_at": "2026-10-11T23:11:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 580,
+  "age_days": 581,
   "days_since_push": 0,
   "health_score": 48,
   "health_components": {
@@ -51,7 +51,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 354,
-    "days_span": 580,
+    "days_span": 581,
     "stars_per_day": 0.61,
     "lifetime_stars_per_day": 0.61,
     "basis": "lifetime",
@@ -147,10 +147,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:01+00:00",
+  "fetched_at": "2026-10-12T12:01:37+00:00",
   "categories": [
     "security-self-hosting",
-    "teams"
+    "voice"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {

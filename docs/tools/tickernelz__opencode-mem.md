@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,732 |
-| Star velocity | 6.3/day (lifetime basis, 274d span) |
+| Stars | 1,733 |
+| Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-01-10 |
-| Last push | 2026-10-10 (0 days ago) |
-| Analyzed README | 41,858 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 42,699 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -37,6 +37,10 @@
 ### Memory & context
 
 > the API after authenticating.
+
+### Skills & plugins
+
+> f thumb: lasting always-on project instructions → AGENTS.md; growing work context → memory; reusable on-demand procedures → Skills.
 
 ### Agent runtime
 
@@ -89,7 +93,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 64.8 |
-| momentum | 5.3 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 69.0 |
 | accessibility | 40.0 |

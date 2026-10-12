@@ -2,7 +2,7 @@
 
 # Vincentwei1021/video-shotcraft
 
-> An agent skill for crafting cinematic product videos: 157 shot recipe cards · 214 styles · 214 motion previews · a production-ready template
+> AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template
 
 [Repository](https://github.com/Vincentwei1021/video-shotcraft) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,25 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,242 |
-| Star velocity | 135.4/day (lifetime basis, 83d span) |
+| Stars | 11,410 |
+| Star velocity | 166.8/day (history basis, 5d span) |
 | Health score | 85/100 |
-| Documentation | 50/100 |
+| Documentation | 48/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-19 |
-| Last push | 2026-10-05 (6 days ago) |
-| Analyzed README | 15,569 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 18,866 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Skills & plugins
-
-### Agent runtime
-
-> communities whose published principles (e.g.
 
 ### Cross-agent support
 
@@ -51,24 +45,24 @@
 
 ## Documentation quality
 
-Score **50/100**, based on these detected signals:
+Score **48/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
-- has a quick-start section
 - documents installation
 - mentions licensing
+- links to dedicated docs
 - reports benchmarks
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.0 |
+| popularity | 81.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 50.0 |
+| documentation | 48.0 |
 | accessibility | 90.0 |
 
 ---

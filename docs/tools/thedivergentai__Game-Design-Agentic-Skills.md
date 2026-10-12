@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — do not edit by hand. Run `python scripts/agentindex.py build` (or wait for the daily workflow). -->
 
-# thedivergentai/GD-Agentic-Skills
+# thedivergentai/Game-Design-Agentic-Skills
 
-> Multi-engine agent skill library · Godot 4.x is the deep section today · Bevy on the road to parity
+> Game-Design Agentic Skills (GDAS) - agent library for Godot 4.7+ and Bevy 0.20+
 
-[Repository](https://github.com/thedivergentai/GD-Agentic-Skills) · [Back to index](../../README.md) · Category: **None**
+[Repository](https://github.com/thedivergentai/Game-Design-Agentic-Skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 830 |
-| Star velocity | 3.4/day (lifetime basis, 245d span) |
+| Stars | 837 |
+| Star velocity | 3.4/day (lifetime basis, 246d span) |
 | Health score | 58/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
@@ -21,20 +21,18 @@
 | License | LGPL-3.0 |
 | Language | GDScript |
 | Created | 2026-02-07 |
-| Last push | 2026-10-11 (0 days ago) |
-| Analyzed README | 38,075 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-12 (0 days ago) |
+| Analyzed README | 51,863 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> ls to elevate the knowledge depth and execution quality to the highest agentic standard.
+> skills to elevate the knowledge depth and execution quality to the highest agentic standard.
 
 ### Parallel execution
 
 ### Memory & context
-
-> ze Modules DIA Loop Growth Chart
 
 ### Skills & plugins
 
@@ -42,9 +40,11 @@
 
 ### Agent runtime
 
+> #### v0.0.1 — Initial Launch - The Foundation: Released the initial library of 80+ Godot 4.x Agentic Skills. - Agent-First Design: Established the DIA (Discovery-Ingestion-Application) loop for AI Coding Agents. - Core…
+
 ### MCP support
 
-> - **MCP Clean-up & Direct Building**: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing nativ
+> - MCP Clean-up & Direct Building: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing native
 
 ### GUI / desktop app
 
@@ -57,7 +57,7 @@
 - **Difficulty:** 🟢 Easy (friction score 21/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx skills add thedivergentai/gd-agentic-skills/skills/godot-master`
+- **Quickest install:** `npx skills add thedivergentai/Game-Design-Agentic-Skills/skills/godot-master`
 
 **Signals that make it easy:** npx one-liner
 
@@ -86,7 +86,7 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.4 |
+| popularity | 58.5 |
 | momentum | 2.8 |
 | maintenance | 100.0 |
 | documentation | 73.0 |

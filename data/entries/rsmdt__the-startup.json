@@ -6,7 +6,7 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 563,
+  "stars": 565,
   "forks": 71,
   "open_issues": 0,
   "language": "Shell",
@@ -18,28 +18,28 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-10-11T06:55:27Z",
+  "updated_at": "2026-10-12T10:33:36Z",
   "pushed_at": "2026-08-03T13:21:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 424,
-  "days_since_push": 68,
-  "health_score": 48,
+  "age_days": 426,
+  "days_since_push": 69,
+  "health_score": 49,
   "health_components": {
     "popularity": 55.0,
-    "momentum": 1.1,
+    "momentum": 3.5,
     "maintenance": 78.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 563,
-    "days_span": 424,
-    "stars_per_day": 1.33,
+    "stars_gained": 21,
+    "days_span": 5,
+    "stars_per_day": 4.2,
     "lifetime_stars_per_day": 1.33,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:43+00:00",
+  "fetched_at": "2026-10-12T12:01:18+00:00",
   "categories": [
     "mobile",
     "skills"
@@ -133,18 +133,18 @@
   "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 pedrohcgs/claude-code-my-workflow 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "pedrohcgs/claude-code-my-workflow",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
     "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "pedrohcgs/claude-code-my-workflow",
+      "challenger": "othmanadi/planning-with-files",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "pedrohcgs/claude-code-my-workflow",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "memory-context",
@@ -152,15 +152,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 2.947,
-      "momentum_ratio": 5.068,
-      "setup_delta": -10,
-      "dominance": 0.996,
+      "star_ratio": 48.508,
+      "momentum_ratio": 4.238,
+      "setup_delta": 2,
+      "dominance": 0.969,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.95x the stars (1,659 vs 563)",
-        "5.07x the star velocity (6.7/day vs 1.3/day)",
-        "no harder to set up (15 vs 25 friction)"
+        "48.51x the stars (27,407 vs 565)",
+        "4.24x the star velocity (17.8/day vs 4.2/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -171,19 +171,19 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "mcp-support",
+          "agent-runtime",
+          "cross-agent-support",
           "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
           "security-isolation",
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 48,
-        "challenger_health": 60,
+        "incumbent_health": 49,
+        "challenger_health": 69,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 15
+        "challenger_setup_score": 27
       }
     }
   }

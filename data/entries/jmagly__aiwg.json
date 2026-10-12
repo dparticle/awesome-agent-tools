@@ -1,0 +1,203 @@
+{
+  "schema": 1,
+  "full_name": "jmagly/aiwg",
+  "name": "aiwg",
+  "owner": "jmagly",
+  "url": "https://github.com/jmagly/aiwg",
+  "description": "Reusable project context and specialist workflows for the AI tools you already use. Agents, skills, rules and MCP tools for Claude Code, Codex, Copilot, Cursor and more, plus SDLC workflows, session memory, and Jev decision support that offloads bounded LLM decisions to save tokens.",
+  "homepage": "https://aiwg.io",
+  "stars": 223,
+  "forks": 34,
+  "open_issues": 24,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "agentic-ai",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "context-engineering",
+    "copilot",
+    "cursor",
+    "decision-engine",
+    "decision-support",
+    "developer-tools",
+    "jev",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "prompt-engineering",
+    "sdlc",
+    "token-optimization",
+    "workflow-automation"
+  ],
+  "created_at": "2025-08-14T17:52:47Z",
+  "updated_at": "2026-10-12T00:57:39Z",
+  "pushed_at": "2026-10-11T16:59:04Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 423,
+  "days_since_push": 0,
+  "health_score": 53,
+  "health_components": {
+    "popularity": 47.0,
+    "momentum": 0.4,
+    "maintenance": 100.0,
+    "documentation": 76.0,
+    "accessibility": 63.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 223,
+    "days_span": 423,
+    "stars_per_day": 0.53,
+    "lifetime_stars_per_day": 0.53,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "jmagly/aiwg",
+    "readme_chars": 137987,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "model-routing",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "artifact and check that it is still applicable, but the team has a concrete record to work from rather",
+      "parallel-execution": "skills, rules, and templates reference one another, while .aiwg/",
+      "model-routing": "pace needs them, and verify the connection.",
+      "session-persistence": "results to guide the next attempt.",
+      "memory-context": "- Anthropic Applied AI Team (2026).",
+      "skills-plugins": "tant interprets your intent, searches AIWG's capability graphs, reads the matching assets, and follows their",
+      "agent-runtime": "under the workspace, then deploys provider-specific adapters for Claude, Codex, Cursor, Windsurf, Warp, OpenCode, OpenClaw, OpenHuman, Hermes, DeepSeek Harness, Copilot, Devin, Factory, Oh My Pi, Pi Coding Agent, Antigr…",
+      "mcp-support": "text decomposition for tasks whose source material needs to be divided into smaller working sets.",
+      "security-isolation": "ions, legacy system migrations requiring phased rollback strategies, research projects needing literature review and reproducibility, compliance-heavy domains (healthcare, finance, aerospace) needing audit trails.",
+      "self-hosted": "context, verifies the resulting deployment,",
+      "team-collaboration": "",
+      "notifications": "evidence, and show progress.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 24,
+      "parallel-execution": 4,
+      "model-routing": 4,
+      "session-persistence": 4,
+      "memory-context": 5,
+      "skills-plugins": 4,
+      "agent-runtime": 3,
+      "mcp-support": 15,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "team-collaboration": 1,
+      "notifications": 1,
+      "cross-agent-support": 8
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup",
+        "process manager"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner, global npm install; needs npm install/build; configure sign-in required, database dependency",
+      "note_zh": "需要一些配置。可通过 npx one-liner、global npm install 安装；需要 npm install/build；需配置 sign-in required、database dependency"
+    },
+    "doc_score": 76,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Qwen Code",
+      "Droid"
+    ],
+    "summary_en": "source of truth; network connecting AI tools\" width=\"1000\">",
+    "summary_zh": "",
+    "install_hint": "npm i -g aiwg",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.877
+    },
+    "highlights": [
+      "Park, J.S. et al. (2023). Generative Agents: Interactive Simulacra of Human Behavior. UIST 2023. doi:10.1145/3586183.3606763",
+      "Liu, N.F. et al. (2024). Lost in the Middle: How Language Models Use Long Contexts. TACL 12, 157–173. doi:10.1162/tacla00638",
+      "Tang, R. et al. (2023). Large Language Models Can be Lazy Learners: Analyze Shortcuts in In-Context Learning. ACL 2023 Findings. doi:10.18653/v1/2023.findings-acl.284",
+      "Jacobs, R.A. et al. (1991). Adaptive Mixtures of Local Experts. Neural Computation, 3(1), 79–87. (Mixture-of-Experts foundation)"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-12T12:01:58+00:00",
+  "categories": [
+    "mobile",
+    "security-self-hosting",
+    "skills"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

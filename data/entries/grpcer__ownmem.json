@@ -6,9 +6,9 @@
   "url": "https://github.com/grpcer/ownmem",
   "description": "Open-source, Git-native memory for AI coding agents — deterministic local recall for Claude Code, Codex, Cursor, Gemini CLI, and compatible tools.",
   "homepage": "https://www.npmjs.com/package/ownmem",
-  "stars": 423,
+  "stars": 422,
   "forks": 7,
-  "open_issues": 0,
+  "open_issues": 1,
   "language": "JavaScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "project-memory"
   ],
   "created_at": "2026-08-16T12:45:36Z",
-  "updated_at": "2026-10-11T10:48:07Z",
-  "pushed_at": "2026-10-11T10:48:04Z",
+  "updated_at": "2026-10-11T18:29:25Z",
+  "pushed_at": "2026-10-11T15:34:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 55,
+  "age_days": 56,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 52.5,
-    "momentum": 6.4,
+    "momentum": 6.3,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 423,
-    "days_span": 55,
-    "stars_per_day": 7.69,
-    "lifetime_stars_per_day": 7.69,
+    "stars_gained": 422,
+    "days_span": 56,
+    "stars_per_day": 7.54,
+    "lifetime_stars_per_day": 7.54,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -144,69 +144,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:52:54+00:00",
+  "fetched_at": "2026-10-12T12:01:29+00:00",
   "categories": [
     "analytics"
   ],
   "primary_category": "analytics",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "grpcer/ownmem",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
-      "incumbent_name": "grpcer/ownmem",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context"
-      ],
-      "star_ratio": 11.18,
-      "momentum_ratio": 3.074,
-      "setup_delta": -1,
-      "dominance": 0.94,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "11.18x the stars (4,729 vs 423)",
-        "3.07x the star velocity (23.6/day vs 7.7/day)",
-        "no harder to set up (24 vs 25 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "incumbent_health": 58,
-        "challenger_health": 65,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

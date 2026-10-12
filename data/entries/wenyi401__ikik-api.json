@@ -18,23 +18,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 108,
-  "days_since_push": 23,
+  "age_days": 109,
+  "days_since_push": 24,
   "health_score": 42,
   "health_components": {
     "popularity": 47.6,
-    "momentum": 1.9,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 41.0,
     "accessibility": 31.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 241,
-    "days_span": 108,
-    "stars_per_day": 2.23,
-    "lifetime_stars_per_day": 2.23,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 2.21,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -136,13 +136,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-11T10:53:14+00:00",
+  "fetched_at": "2026-10-12T12:01:50+00:00",
   "categories": [
     "accounts",
-    "security-self-hosting",
-    "sharing"
+    "sharing",
+    "teams"
   ],
-  "primary_category": "accounts",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",
