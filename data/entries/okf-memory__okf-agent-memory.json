@@ -6,9 +6,9 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 764,
+  "stars": 770,
   "forks": 59,
-  "open_issues": 4,
+  "open_issues": 5,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -32,27 +32,27 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-10-12T10:08:32Z",
+  "updated_at": "2026-10-13T05:36:52Z",
   "pushed_at": "2026-10-12T10:08:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 36,
-  "days_since_push": 0,
+  "age_days": 37,
+  "days_since_push": 1,
   "health_score": 53,
   "health_components": {
     "popularity": 57.7,
-    "momentum": 1.2,
+    "momentum": 2.3,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 21.22,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 20.81,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:13+00:00",
+  "fetched_at": "2026-10-13T11:50:20+00:00",
   "categories": [
     "analytics",
     "model-routing",
@@ -153,18 +153,18 @@
   "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by breferrari/obsidian-mind: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 breferrari/obsidian-mind 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "breferrari/obsidian-mind",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "okf-memory/okf-agent-memory",
-      "challenger": "breferrari/obsidian-mind",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
       "incumbent_name": "okf-memory/okf-agent-memory",
-      "challenger_name": "breferrari/obsidian-mind",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -173,15 +173,15 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 6.844,
-      "momentum_ratio": 42.714,
-      "setup_delta": 7,
-      "dominance": 0.965,
+      "star_ratio": 6.158,
+      "momentum_ratio": 3.214,
+      "setup_delta": -21,
+      "dominance": 0.945,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "6.84x the stars (5,229 vs 764)",
-        "42.71x the star velocity (59.8/day vs 1.4/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
+        "6.16x the stars (4,742 vs 770)",
+        "3.21x the star velocity (9.0/day vs 2.8/day)",
+        "no harder to set up (24 vs 45 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -194,17 +194,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "auto-failover",
           "cross-agent-support",
           "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
           "skills-plugins"
         ],
         "incumbent_health": 53,
-        "challenger_health": 71,
+        "challenger_health": 62,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 52
+        "challenger_setup_score": 24
       }
     }
   }

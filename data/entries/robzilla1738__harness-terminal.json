@@ -29,13 +29,13 @@
     "terminal-emulator"
   ],
   "created_at": "2026-05-27T21:37:13Z",
-  "updated_at": "2026-10-11T16:04:33Z",
-  "pushed_at": "2026-10-11T07:47:10Z",
+  "updated_at": "2026-10-13T08:34:28Z",
+  "pushed_at": "2026-10-13T08:34:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 137,
-  "days_since_push": 1,
+  "age_days": 138,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 49.7,
@@ -47,15 +47,15 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 304,
-    "days_span": 137,
-    "stars_per_day": 2.22,
-    "lifetime_stars_per_day": 2.22,
+    "days_span": 138,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 2.2,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "robzilla1738/harness-terminal",
-    "readme_chars": 23510,
+    "readme_chars": 23688,
     "capabilities": [
       "remote-control",
       "worktree-isolation",
@@ -143,7 +143,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.213
+      "external_link_ratio": 0.211
     },
     "highlights": [
       "harness-cli for automation and agent hooks: run --wait -- make test exits with the command's status, targets take names, positions, or ID fragments (--surface 2, --tab logs), and exit statu…",
@@ -160,10 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:42+00:00",
+  "fetched_at": "2026-10-13T11:50:51+00:00",
   "categories": [
+    "agent-runtime-desktop-ui",
     "mobile",
-    "mobile-2",
     "security-self-hosting"
   ],
   "primary_category": "security-self-hosting",

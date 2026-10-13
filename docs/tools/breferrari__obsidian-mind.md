@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,229 |
-| Star velocity | 59.8/day (history basis, 5d span) |
-| Health score | 71/100 |
-| Documentation | 76/100 |
+| Stars | 5,282 |
+| Star velocity | 67.6/day (history basis, 5d span) |
+| Health score | 72/100 |
+| Documentation | 81/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-28 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 45,031 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 50,423 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Multi-agent orchestration
 
-> e note is titled "Redis Migration ADR."
+> /scripts/ and the commands in .claude/commands/ are agent-agnostic — pure Markdown, TypeScript, and shell with no SDK dependencies.
 
 ### Memory & context
 
@@ -54,7 +54,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 52/100)
+- **Difficulty:** 🟡 Some setup (friction score 58/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install -g shardmind`
@@ -63,13 +63,13 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** database dependency, database migration, server/reverse-proxy setup
+**Configuration required:** config.json/yaml/toml, database dependency, database migration, server/reverse-proxy setup
 
-*Some setup. install via global npm install; needs git clone (build from source), npm install/build; configure database dependency, database migration*
+*Some setup. install via global npm install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, database dependency*
 
 ## Documentation quality
 
-Score **76/100**, based on these detected signals:
+Score **81/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -77,6 +77,7 @@ Score **76/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
+- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
@@ -89,11 +90,11 @@ Score **76/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.4 |
-| momentum | 49.8 |
+| popularity | 74.5 |
+| momentum | 56.3 |
 | maintenance | 100.0 |
-| documentation | 76.0 |
-| accessibility | 48.0 |
+| documentation | 81.0 |
+| accessibility | 42.0 |
 
 ---
 

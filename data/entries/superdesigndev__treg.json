@@ -6,9 +6,9 @@
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
   "homepage": "https://treg.to",
-  "stars": 5005,
-  "forks": 408,
-  "open_issues": 139,
+  "stars": 5207,
+  "forks": 421,
+  "open_issues": 141,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -25,33 +25,33 @@
     "secrets"
   ],
   "created_at": "2026-07-15T13:38:07Z",
-  "updated_at": "2026-10-12T11:11:27Z",
-  "pushed_at": "2026-10-12T11:53:22Z",
+  "updated_at": "2026-10-13T11:41:15Z",
+  "pushed_at": "2026-10-13T11:47:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 88,
+  "age_days": 89,
   "days_since_push": 0,
-  "health_score": 75,
+  "health_score": 79,
   "health_components": {
-    "popularity": 74.0,
-    "momentum": 56.3,
+    "popularity": 74.3,
+    "momentum": 70.7,
     "maintenance": 100.0,
-    "documentation": 71.0,
+    "documentation": 72.0,
     "accessibility": 79.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 338,
+    "stars_gained": 424,
     "days_span": 5,
-    "stars_per_day": 67.6,
-    "lifetime_stars_per_day": 56.88,
+    "stars_per_day": 84.8,
+    "lifetime_stars_per_day": 58.51,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "superdesigndev/treg",
-    "readme_chars": 29095,
+    "readme_chars": 30248,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -65,7 +65,7 @@
     "capability_evidence": {
       "auto-failover": "(secrets won't survive a restart)",
       "model-routing": "# Treg (OpenRouter for Tools)",
-      "billing-metering": "e the code to third parties as a competing hosted/managed registry service without written",
+      "billing-metering": "e code to third parties as a competing hosted/managed registry service without written",
       "skills-plugins": "agent through the rest — the CLI, sign-in, then treg mcp install — so you end up with",
       "mcp-support": "install it as a Claude Code plugin",
       "security-isolation": "resolves the tool by host, injects the credential, and relays everything else faithfully",
@@ -111,7 +111,7 @@
       "note_en": "Easy. install via npx one-liner, pip install; configure environment variables, API key configuration; one-click setup",
       "note_zh": "较易上手。可通过 npx one-liner、pip install 安装；需配置 environment variables、API key configuration；one-click setup"
     },
-    "doc_score": 71,
+    "doc_score": 72,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -139,7 +139,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.344
+      "external_link_ratio": 0.331
     },
     "highlights": [
       "The API — everything the CLI does is plain HTTP; interactive OpenAPI docs live at /docs.",
@@ -155,9 +155,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:14+00:00",
+  "fetched_at": "2026-10-13T11:49:26+00:00",
   "categories": [
-    "analytics",
     "security-self-hosting"
   ],
   "primary_category": "security-self-hosting",

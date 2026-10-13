@@ -31,13 +31,13 @@
     "sqlite"
   ],
   "created_at": "2025-12-25T08:45:54Z",
-  "updated_at": "2026-10-11T10:41:31Z",
+  "updated_at": "2026-10-13T05:32:56Z",
   "pushed_at": "2026-09-22T20:13:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 291,
-  "days_since_push": 19,
+  "age_days": 292,
+  "days_since_push": 20,
   "health_score": 52,
   "health_components": {
     "popularity": 62.9,
@@ -51,7 +51,7 @@
     "stars_gained": 15,
     "days_span": 5,
     "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 4.78,
+    "lifetime_stars_per_day": 4.76,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,11 +165,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:59+00:00",
+  "fetched_at": "2026-10-13T11:50:07+00:00",
   "categories": [
     "analytics",
-    "mobile",
-    "mobile-2"
+    "mobile"
   ],
   "primary_category": "analytics",
   "lifecycle": {

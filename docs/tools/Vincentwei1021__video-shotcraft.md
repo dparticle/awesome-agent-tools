@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,410 |
-| Star velocity | 166.8/day (history basis, 5d span) |
-| Health score | 85/100 |
-| Documentation | 48/100 |
+| Stars | 11,644 |
+| Star velocity | 168.2/day (history basis, 5d span) |
+| Health score | 83/100 |
+| Documentation | 47/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-19 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 18,866 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 16,608 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,20 +32,20 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 18/100)
+- **Difficulty:** 🟢 Easy (friction score 25/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** yes
+- **Non-programmer friendly:** no
 - **Quickest install:** `npx skills add Vincentwei1021/video-shotcraft`
 
 **Signals that make it easy:** npx one-liner
 
 **Signals that add work:** git clone (build from source)
 
-*Turnkey. install via npx one-liner; needs git clone (build from source); one-click setup*
+*Easy. install via npx one-liner; needs git clone (build from source)*
 
 ## Documentation quality
 
-Score **48/100**, based on these detected signals:
+Score **47/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -59,11 +59,11 @@ Score **48/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.1 |
+| popularity | 81.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 48.0 |
-| accessibility | 90.0 |
+| documentation | 47.0 |
+| accessibility | 75.0 |
 
 ---
 

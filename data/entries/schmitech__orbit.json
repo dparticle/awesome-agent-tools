@@ -33,33 +33,33 @@
     "vector-database"
   ],
   "created_at": "2025-03-10T02:30:21Z",
-  "updated_at": "2026-10-11T23:11:44Z",
-  "pushed_at": "2026-10-11T23:11:41Z",
+  "updated_at": "2026-10-13T02:50:00Z",
+  "pushed_at": "2026-10-13T02:49:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 581,
+  "age_days": 582,
   "days_since_push": 0,
   "health_score": 48,
   "health_components": {
     "popularity": 51.0,
-    "momentum": 0.5,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 48.0,
     "accessibility": 48.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 354,
-    "days_span": 581,
-    "stars_per_day": 0.61,
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.61,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "schmitech/orbit",
-    "readme_chars": 10558,
+    "readme_chars": 10903,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -73,7 +73,7 @@
       "model-routing": "**Your data, connected** Files, SQL, NoSQL, vector stores, APIs, and MCP tools through YAML-configured adapters.",
       "api-gateway": "**Your data, connected** Files, SQL, NoSQL, vector stores, APIs, and MCP tools through YAML-configured adapters.",
       "usage-analytics": "uild agents MCP tools · Automatic skill routing · A2A · Adapter creation",
-      "mcp-support": "o voice assistants and tool-using agents.",
+      "mcp-support": "⭐ Building with private data or AI agents? Star ORBIT to bookmark it and help others discover it.",
       "security-isolation": "ne OpenAI-compatible API.",
       "self-hosted": "stores, APIs, and MCP tools through YAML-configured adapters.",
       "gui-desktop": ""
@@ -82,7 +82,7 @@
       "model-routing": 1,
       "api-gateway": 1,
       "usage-analytics": 1,
-      "mcp-support": 1,
+      "mcp-support": 2,
       "security-isolation": 1,
       "self-hosted": 1,
       "gui-desktop": 1
@@ -135,7 +135,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.61
+      "external_link_ratio": 1.559
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:37+00:00",
+  "fetched_at": "2026-10-13T11:50:46+00:00",
   "categories": [
     "security-self-hosting",
     "voice"

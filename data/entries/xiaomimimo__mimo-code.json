@@ -6,9 +6,9 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13634,
-  "forks": 1428,
-  "open_issues": 1146,
+  "stars": 13646,
+  "forks": 1430,
+  "open_issues": 1143,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,33 +19,33 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-12T11:52:52Z",
-  "pushed_at": "2026-10-12T11:56:43Z",
+  "updated_at": "2026-10-13T10:53:50Z",
+  "pushed_at": "2026-10-13T11:45:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 124,
   "days_since_push": 0,
-  "health_score": 63,
+  "health_score": 64,
   "health_components": {
     "popularity": 82.7,
-    "momentum": 5.2,
+    "momentum": 5.7,
     "maintenance": 100.0,
     "documentation": 62.0,
-    "accessibility": 70.0
+    "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 31,
+    "stars_gained": 34,
     "days_span": 5,
-    "stars_per_day": 6.2,
-    "lifetime_stars_per_day": 109.95,
+    "stars_per_day": 6.8,
+    "lifetime_stars_per_day": 110.05,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "XiaomiMiMo/MiMo-Code",
-    "readme_chars": 27039,
+    "readme_chars": 26906,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -71,7 +71,7 @@
       "skills-plugins": "h-paper-writing Write and polish academic papers (ML/CV/NLP style)",
       "mcp-support": "multi-select dialog that persists the setting to config without hand-editing.",
       "security-isolation": "led via experimental.maxMode in the config.",
-      "self-hosted": "trol mode (mimo-v2.5) is available on OpenRouter and compatible relay platforms.",
+      "self-hosted": "ode (mimo-v2.6-flash) is available on OpenRouter and compatible relay platforms.",
       "gui-desktop": "Xiaomi MiMo Desktop is built for real-world work: one conversation can handle office work, design, coding, and multimodal creation, while multiple conversations can divide work and collaborate.",
       "voice-input": "agent's available skill list entirely — they will not appear in context and cannot be invoked.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
@@ -93,18 +93,15 @@
     },
     "friction": {
       "level": "low",
-      "score": 30,
+      "score": 21,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "Homebrew install",
         "curl | sh installer",
-        "PowerShell irm | iex installer",
-        "global npm install"
+        "PowerShell irm | iex installer"
       ],
-      "hard_signals": [
-        "npm install/build"
-      ],
+      "hard_signals": [],
       "config_signals": [
         "environment variables",
         "API key configuration",
@@ -124,8 +121,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via Homebrew install, curl | sh installer; needs npm install/build; configure environment variables, API key configuration; GUI application",
-      "note_zh": "较易上手。可通过 Homebrew install、curl | sh installer 安装；需要 npm install/build；需配置 environment variables、API key configuration；GUI application"
+      "note_en": "Easy. install via Homebrew install, curl | sh installer; configure environment variables, API key configuration; GUI application",
+      "note_zh": "较易上手。可通过 Homebrew install、curl | sh installer 安装；需配置 environment variables、API key configuration；GUI application"
     },
     "doc_score": 62,
     "doc_signals": [
@@ -156,7 +153,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.148
+      "external_link_ratio": 0.149
     },
     "highlights": [
       "Cost tiers. OpenAI prices GPT-5.6 prompts above 272K input at 2x input and 1.5x output",
@@ -178,7 +175,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:02+00:00",
+  "fetched_at": "2026-10-13T11:49:17+00:00",
   "categories": [
     "analytics",
     "security-self-hosting",

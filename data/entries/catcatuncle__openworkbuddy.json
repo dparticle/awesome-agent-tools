@@ -6,9 +6,9 @@
   "url": "https://github.com/CatCatUncle/openworkbuddy",
   "description": "Open-source Claude Cowork / Codex alternative — a local-first AI office agent that turns one request into real PPTX, DOCX, XLSX and HTML files. Runs DeepSeek, Qwen, Doubao, Claude or Ollama (BYOK), MCP, and can drive Claude Code / Codex CLI. 开源 AI 办公助理，豆包办公 / 千问办公替代。",
   "homepage": "https://catcatuncle.github.io/openworkbuddy/",
-  "stars": 308,
-  "forks": 67,
-  "open_issues": 7,
+  "stars": 310,
+  "forks": 68,
+  "open_issues": 8,
   "language": "JavaScript",
   "license": "NOASSERTION",
   "topics": [
@@ -32,12 +32,12 @@
     "short-drama"
   ],
   "created_at": "2026-08-10T08:18:25Z",
-  "updated_at": "2026-10-12T11:31:11Z",
-  "pushed_at": "2026-10-12T06:54:17Z",
+  "updated_at": "2026-10-13T06:59:09Z",
+  "pushed_at": "2026-10-13T07:42:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 63,
+  "age_days": 64,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
@@ -52,13 +52,13 @@
     "stars_gained": 33,
     "days_span": 5,
     "stars_per_day": 6.6,
-    "lifetime_stars_per_day": 4.89,
+    "lifetime_stars_per_day": 4.84,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CatCatUncle/openworkbuddy",
-    "readme_chars": 18548,
+    "readme_chars": 18810,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -77,20 +77,20 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "",
-      "quota-management": "铺满整张卡，地点浮在右边一栏；钉子带照片和地名，点卡片地图就滑过去；国内一天四站以上也能一键打开整条路线",
+      "multi-account-switching": "- *10-10* 渠道能选生图、视频、配音各走哪种接口，中转也能选；千问生图点「测」不再误报 400，百炼生图被拒「不支持同步/异步」时自动换一种 - *10-10* 本回合产出按重要程度排：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在 - *10-10* 输入框字多跟着长高，最高约窗口三分之一；还有没露出来的字时那一边渐隐，滚动按钮不再压字 - *10-10* 多账号时成员和分公司账号的工作目录、成果…",
+      "quota-management": "*10-07* 行程卡换了个样：地图铺满整张卡，地点浮在右边一栏；钉子带照片和地名，点卡片地图就滑过去；国内一天四站以上也能一键打开整条路线",
       "remote-control": "",
       "multi-agent-orchestration": "",
-      "worktree-isolation": "/ Anthropic / Gemini / Ollama 原生，本地部署都能接",
+      "worktree-isolation": "- *10-07* 画布删了、清了都找得回来；撤销只撤你自己那一步；时间线拖格子换放映顺序，一键合成照这个顺序拼",
       "api-gateway": "",
       "quota-distribution": "",
-      "billing-metering": "工具更靠谱：产物落在这趟任务的目录，资料库只看本人那份，插件带的连接器也挂上",
-      "skills-plugins": "",
-      "mcp-support": "- 10-02 Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法 - 10-02 PPT 预览按每页真实版式画；画布按图片原比例摆，时间线改成胶片条；成果栏窄窗口也关得掉 - 10-02 模型渠道修一轮：火山方舟上的 GLM 不再被拦，挂错渠道会提示；通义国际站、万相出图修好 - 10-01 对话里说「装这个技能」直接装进技能库；接 MCP 直接跳连接器页 - 10-01…",
-      "security-isolation": "按重要程度排：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在",
+      "billing-metering": "",
+      "skills-plugins": "*10-02* Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法",
+      "mcp-support": "2* Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法",
+      "security-isolation": "：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在",
       "self-hosted": "",
       "gui-desktop": "skill.md ，存盘后下一条任务就生效——不改代码、不重启、不打包。",
-      "notifications": "",
+      "notifications": "册能直接填邮箱：自动取 @ 前面那段当用户名，登录时填邮箱也认；注册失败不再算进限流，填错不会被锁",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
@@ -98,7 +98,7 @@
       "quota-management": 3,
       "remote-control": 1,
       "multi-agent-orchestration": 1,
-      "worktree-isolation": 2,
+      "worktree-isolation": 3,
       "api-gateway": 1,
       "quota-distribution": 2,
       "billing-metering": 3,
@@ -162,13 +162,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.539
+      "external_link_ratio": 0.532
     },
     "highlights": [
+      "10-13 「本机/内网放行」支持通配符：192.168.1.: 放一整个网段，*.local:8080 放一类主机名",
       "10-06 系统沙箱：AI 跑的命令和脚本在 macOS、Windows 上读不到 Key 和账本、改不了应用；设置 → 安全 能关，每条多花 7–16 毫秒",
       "10-07 闲着更省电：没任务、没人用时，服务每秒醒来从约 40 次降到 2 次；窗口不在前台也不再盯卡顿",
-      "09-28 渠道能选接口格式：OpenAI / Responses / Anthropic / Gemini / Ollama 原生，本地部署都能接",
-      "10-08 本机 Claude Code / Codex 借去的生图、资料库等工具可改回主程序执行：审批卡处处看得到，账记在发起人名下；属主勾选，默认关"
+      "09-28 渠道能选接口格式：OpenAI / Responses / Anthropic / Gemini / Ollama 原生，本地部署都能接"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -179,9 +179,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:41+00:00",
+  "fetched_at": "2026-10-13T11:50:50+00:00",
   "categories": [
-    "accounts",
+    "accounts-quota",
     "security-self-hosting",
     "sharing"
   ],

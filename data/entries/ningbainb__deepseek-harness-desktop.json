@@ -6,7 +6,7 @@
   "url": "https://github.com/ningbainb/deepseek-harness-desktop",
   "description": "Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, skills, SSH, mobile remote access, and 11 skins.",
   "homepage": "https://ningbainb.github.io/deepseek-harness-desktop/",
-  "stars": 803,
+  "stars": 809,
   "forks": 24,
   "open_issues": 17,
   "language": "JavaScript",
@@ -33,16 +33,16 @@
     "windows-desktop"
   ],
   "created_at": "2026-08-13T19:50:01Z",
-  "updated_at": "2026-10-12T11:52:42Z",
+  "updated_at": "2026-10-13T08:11:01Z",
   "pushed_at": "2026-10-06T18:35:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 59,
-  "days_since_push": 5,
+  "age_days": 60,
+  "days_since_push": 6,
   "health_score": 56,
   "health_components": {
-    "popularity": 58.1,
+    "popularity": 58.2,
     "momentum": 4.3,
     "maintenance": 100.0,
     "documentation": 43.0,
@@ -53,7 +53,7 @@
     "stars_gained": 26,
     "days_span": 5,
     "stars_per_day": 5.2,
-    "lifetime_stars_per_day": 13.61,
+    "lifetime_stars_per_day": 13.48,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -180,10 +180,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:11+00:00",
+  "fetched_at": "2026-10-13T11:50:19+00:00",
   "categories": [
-    "mobile-2",
-    "providers",
+    "agent-runtime-desktop-ui",
+    "model-routing",
     "providers-2"
   ],
   "primary_category": "providers-2",

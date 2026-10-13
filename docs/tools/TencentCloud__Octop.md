@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,833 |
-| Star velocity | 241.0/day (history basis, 5d span) |
+| Stars | 9,053 |
+| Star velocity | 227.0/day (history basis, 5d span) |
 | Health score | 87/100 |
 | Documentation | 78/100 |
 | Tier | 🏆 Flagship |
@@ -21,14 +21,10 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-07-08 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 28,166 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 28,714 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Automatic failover
-
-> h OCTOPDEFAULTPASSWORD unset a strong random password is generated; a password you set must be ≥8 characters with letters and digits (weak/common passwords are rejected by the app password policy and fall back to a rand…
 
 ### Mobile access
 
@@ -66,7 +62,7 @@
 
 ### MCP support
 
-> e experts, pick templates / MBTI personas, share or publish experts, configure providers
+> Docs, Tencent Meeting, Notion, TickTick, OpenAlex, Feishu CLI, WeCom CLI, Agent Mail, Obsidian, WeKnora, Dify, and more.
 
 ### Self-hostable
 
@@ -86,7 +82,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 26/100)
+- **Difficulty:** 🟢 Easy (friction score 32/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash`
@@ -95,7 +91,7 @@
 
 **Signals that add work:** docker run, make build
 
-**Configuration required:** config.json/yaml/toml, OAuth login flow, database dependency, database migration
+**Configuration required:** config.json/yaml/toml, OAuth login flow, sign-in required, database dependency, database migration
 
 *Easy. install via npx one-liner, pip install; needs docker run, make build; configure config.json/yaml/toml, OAuth login flow; one-click setup*
 
@@ -122,11 +118,11 @@ Score **78/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.9 |
+| popularity | 79.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 78.0 |
-| accessibility | 74.0 |
+| accessibility | 68.0 |
 
 ---
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "https://www.copilotkit.ai/openbot",
-  "stars": 6372,
-  "forks": 870,
-  "open_issues": 18,
+  "stars": 6425,
+  "forks": 877,
+  "open_issues": 19,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-10-12T11:29:02Z",
-  "pushed_at": "2026-10-12T00:48:45Z",
+  "updated_at": "2026-10-13T11:23:38Z",
+  "pushed_at": "2026-10-13T04:55:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 56,
+  "age_days": 57,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
-    "popularity": 76.1,
-    "momentum": 36.7,
+    "popularity": 76.2,
+    "momentum": 37.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 51.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 220,
+    "stars_gained": 227,
     "days_span": 5,
-    "stars_per_day": 44.0,
-    "lifetime_stars_per_day": 113.79,
+    "stars_per_day": 45.4,
+    "lifetime_stars_per_day": 112.72,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 32719,
+    "readme_chars": 32842,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -63,7 +63,7 @@
       "session-persistence": "",
       "mcp-support": "ack into themes it can cite.",
       "security-isolation": "who gets in**: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.",
-      "self-hosted": "untime key, creates or reuses its",
+      "self-hosted": "Defaults to ../examples/fintech.",
       "notifications": ""
     },
     "capability_hits": {
@@ -127,7 +127,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.458
+      "external_link_ratio": 0.457
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -144,9 +144,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:11+00:00",
+  "fetched_at": "2026-10-13T11:49:24+00:00",
   "categories": [
     "analytics",
+    "providers",
     "security-self-hosting"
   ],
   "primary_category": "security-self-hosting",
@@ -174,14 +175,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 43.559,
-      "momentum_ratio": 13.4,
+      "star_ratio": 43.302,
+      "momentum_ratio": 13.233,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "43.56x the stars (277,556 vs 6,372)",
-        "13.40x the star velocity (589.6/day vs 44.0/day)",
+        "43.30x the stars (278,213 vs 6,425)",
+        "13.23x the star velocity (600.8/day vs 45.4/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],

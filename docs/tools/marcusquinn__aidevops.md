@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-11-09 |
-| Last push | 2026-10-12 (0 days ago) |
+| Last push | 2026-10-13 (0 days ago) |
 | Analyzed README | 41,800 chars from `raw:HEAD/README.md` |
 
 ## What it solves

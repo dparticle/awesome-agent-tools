@@ -6,8 +6,8 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5524,
-  "forks": 512,
+  "stars": 5534,
+  "forks": 515,
   "open_issues": 50,
   "language": "TypeScript",
   "license": "Apache-2.0",
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-10-12T11:51:20Z",
-  "pushed_at": "2026-10-12T11:45:18Z",
+  "updated_at": "2026-10-13T11:00:50Z",
+  "pushed_at": "2026-10-13T11:48:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 101,
+  "age_days": 102,
   "days_since_push": 0,
-  "health_score": 65,
+  "health_score": 64,
   "health_components": {
-    "popularity": 74.8,
-    "momentum": 12.7,
+    "popularity": 74.9,
+    "momentum": 8.0,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 71.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 76,
+    "stars_gained": 48,
     "days_span": 5,
-    "stars_per_day": 15.2,
-    "lifetime_stars_per_day": 54.69,
+    "stars_per_day": 9.6,
+    "lifetime_stars_per_day": 54.25,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 33787,
+    "readme_chars": 33608,
     "capabilities": [
       "remote-control",
       "model-routing",
@@ -154,7 +154,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.474
+      "external_link_ratio": 0.476
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -166,7 +166,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:13+00:00",
+  "fetched_at": "2026-10-13T11:49:25+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "security-self-hosting"

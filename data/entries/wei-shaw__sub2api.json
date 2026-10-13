@@ -6,9 +6,9 @@
   "url": "https://github.com/Wei-Shaw/sub2api",
   "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
   "homepage": "",
-  "stars": 43793,
-  "forks": 9392,
-  "open_issues": 3566,
+  "stars": 43875,
+  "forks": 9413,
+  "open_issues": 3565,
   "language": "Go",
   "license": "LGPL-3.0",
   "topics": [
@@ -23,27 +23,27 @@
     "gemini"
   ],
   "created_at": "2025-12-18T02:26:18Z",
-  "updated_at": "2026-10-12T11:55:37Z",
-  "pushed_at": "2026-10-12T09:18:51Z",
+  "updated_at": "2026-10-13T11:12:56Z",
+  "pushed_at": "2026-10-13T10:53:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 298,
+  "age_days": 299,
   "days_since_push": 0,
   "health_score": 77,
   "health_components": {
     "popularity": 92.8,
-    "momentum": 66.8,
+    "momentum": 66.3,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 401,
+    "stars_gained": 398,
     "days_span": 5,
-    "stars_per_day": 80.2,
-    "lifetime_stars_per_day": 146.96,
+    "stars_per_day": 79.6,
+    "lifetime_stars_per_day": 146.74,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -157,8 +157,8 @@
     },
     "highlights": [
       "Public Responses targets: /v1/responses, /responses, and /backend-api/codex/responses, forwarded to the Grok subscription proxy for OAuth accounts or https://api.x.ai/v1/responses for API-k…",
-      "Rate Limiting - Configurable request and token rate limits",
       "Multi-Account Management - Support multiple upstream account types (OAuth, API Key)",
+      "Rate Limiting - Configurable request and token rate limits",
       "API Key Distribution - Generate and manage API Keys for users"
     ],
     "summary_zh_native": "AI API 网关平台 - 订阅配额分发管理",
@@ -175,13 +175,13 @@
     "seed_reason": "Turn upstream AI subscriptions into a metered, rate-limited, billable relay.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-12T11:59:57+00:00",
+  "fetched_at": "2026-10-13T11:49:11+00:00",
   "categories": [
-    "model-routing",
+    "accounts-quota",
     "providers",
-    "teams"
+    "sharing"
   ],
-  "primary_category": "providers",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

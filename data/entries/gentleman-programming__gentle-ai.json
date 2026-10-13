@@ -6,9 +6,9 @@
   "url": "https://github.com/Gentleman-Programming/gentle-ai",
   "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
   "homepage": "https://gentle-ai.gentlemanprogramming.com/",
-  "stars": 7695,
-  "forks": 833,
-  "open_issues": 944,
+  "stars": 7725,
+  "forks": 835,
+  "open_issues": 957,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -31,51 +31,54 @@
     "spec-driven-development"
   ],
   "created_at": "2026-02-27T23:28:01Z",
-  "updated_at": "2026-10-12T11:03:01Z",
-  "pushed_at": "2026-10-12T11:03:42Z",
+  "updated_at": "2026-10-13T11:17:31Z",
+  "pushed_at": "2026-10-12T22:54:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 226,
+  "age_days": 227,
   "days_since_push": 0,
-  "health_score": 68,
+  "health_score": 69,
   "health_components": {
-    "popularity": 77.7,
-    "momentum": 18.5,
+    "popularity": 77.8,
+    "momentum": 21.0,
     "maintenance": 100.0,
-    "documentation": 62.0,
+    "documentation": 66.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 111,
+    "stars_gained": 126,
     "days_span": 5,
-    "stars_per_day": 22.2,
-    "lifetime_stars_per_day": 34.05,
+    "stars_per_day": 25.2,
+    "lifetime_stars_per_day": 34.03,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Gentleman-Programming/gentle-ai",
-    "readme_chars": 18648,
+    "readme_chars": 21929,
     "capabilities": [
+      "multi-agent-orchestration",
       "skills-plugins",
       "mcp-support",
       "cross-agent-support"
     ],
     "capability_evidence": {
+      "multi-agent-orchestration": "ec verbatim, and every handoff points at it instead of paraphrasing it.",
       "skills-plugins": "ntegration uses that agent's native capabilities, so available features such as delegation and RDD review can differ.",
       "mcp-support": "uch as delegation and RDD review can differ.",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
+      "multi-agent-orchestration": 1,
       "skills-plugins": 1,
       "mcp-support": 1,
       "cross-agent-support": 8
     },
     "friction": {
       "level": "turnkey",
-      "score": 0,
+      "score": 4,
       "out_of_the_box": true,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -85,13 +88,15 @@
         "native installer / package"
       ],
       "hard_signals": [],
-      "config_signals": [],
+      "config_signals": [
+        "database migration"
+      ],
       "friendliness_signals": [],
       "platforms": [],
-      "note_en": "Turnkey. install via Homebrew install, go install",
-      "note_zh": "开箱即用。可通过 Homebrew install、go install 安装"
+      "note_en": "Turnkey. install via Homebrew install, go install; configure database migration",
+      "note_zh": "开箱即用。可通过 Homebrew install、go install 安装；需配置 database migration"
     },
-    "doc_score": 62,
+    "doc_score": 66,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -102,7 +107,9 @@
       "has contribution guidance",
       "mentions licensing",
       "publishes a roadmap",
-      "explains architecture"
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -121,7 +128,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.161
+      "external_link_ratio": 0.365
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -133,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:43+00:00",
+  "fetched_at": "2026-10-13T11:49:51+00:00",
   "categories": [
     "skills"
   ],

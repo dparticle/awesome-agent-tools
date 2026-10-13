@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 764 |
-| Star velocity | 1.4/day (history basis, 5d span) |
+| Stars | 770 |
+| Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 53/100 |
 | Documentation | 63/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-05 |
-| Last push | 2026-10-12 (0 days ago) |
+| Last push | 2026-10-12 (1 days ago) |
 | Analyzed README | 19,220 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [breferrari/obsidian-mind](https://github.com/breferrari/obsidian-mind)** — Superseded by breferrari/obsidian-mind: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -77,7 +77,7 @@ Score **63/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 57.7 |
-| momentum | 1.2 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 63.0 |
 | accessibility | 55.0 |

@@ -6,8 +6,8 @@
   "url": "https://github.com/WenyuChiou/ai-research-skills",
   "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
   "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
-  "stars": 312,
-  "forks": 21,
+  "stars": 377,
+  "forks": 23,
   "open_issues": 2,
   "language": "Python",
   "license": "MIT",
@@ -34,29 +34,29 @@
     "zotero"
   ],
   "created_at": "2026-04-25T17:46:37Z",
-  "updated_at": "2026-10-12T00:31:14Z",
-  "pushed_at": "2026-10-12T00:44:20Z",
+  "updated_at": "2026-10-13T11:39:23Z",
+  "pushed_at": "2026-10-13T02:06:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 169,
+  "age_days": 170,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 57,
   "health_components": {
-    "popularity": 49.9,
-    "momentum": 1.0,
+    "popularity": 51.5,
+    "momentum": 11.7,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 70,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 1.85,
+    "stars_per_day": 14.0,
+    "lifetime_stars_per_day": 2.22,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "WenyuChiou/ai-research-skills",
@@ -153,68 +153,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:41+00:00",
+  "fetched_at": "2026-10-13T11:50:44+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "skills"
   ],
   "primary_category": "skills",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Design-Agentic-Skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 thedivergentai/Game-Design-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "thedivergentai/Game-Design-Agentic-Skills",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "wenyuchiou/ai-research-skills",
-      "challenger": "thedivergentai/game-design-agentic-skills",
-      "incumbent_name": "WenyuChiou/ai-research-skills",
-      "challenger_name": "thedivergentai/Game-Design-Agentic-Skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 2.683,
-      "momentum_ratio": 2.833,
-      "setup_delta": -1,
-      "dominance": 0.904,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "2.68x the stars (837 vs 312)",
-        "2.83x the star velocity (3.4/day vs 1.2/day)",
-        "no harder to set up (21 vs 22 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 58,
-        "incumbent_setup_score": 22,
-        "challenger_setup_score": 21
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

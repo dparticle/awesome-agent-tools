@@ -7,7 +7,7 @@
   "description": "Frozen — cross-agent persistent memory for coding assistants. Still works; the compressed-memory core now ships inside JuliusBrussee/caveman.",
   "homepage": "https://caveman.so/",
   "stars": 677,
-  "forks": 60,
+  "forks": 59,
   "open_issues": 12,
   "language": "TypeScript",
   "license": "MIT",
@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 177,
-  "days_since_push": 58,
+  "age_days": 178,
+  "days_since_push": 59,
   "health_score": 50,
   "health_components": {
     "popularity": 56.6,
@@ -42,7 +42,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.82,
+    "lifetime_stars_per_day": 3.8,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:16+00:00",
+  "fetched_at": "2026-10-13T11:50:23+00:00",
   "categories": [
     "analytics"
   ],

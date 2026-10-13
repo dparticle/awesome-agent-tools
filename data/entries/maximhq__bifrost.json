@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "full_name": "maximhq/bifrost",
+  "name": "bifrost",
+  "owner": "maximhq",
+  "url": "https://github.com/maximhq/bifrost",
+  "description": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing, semantic caching, virtual keys, budgets and MCP Code Mode. Works with any SDK or agent and adds under 200µs of overhead at 5k RPS.",
+  "homepage": "https://www.getmaxim.ai/bifrost",
+  "stars": 8746,
+  "forks": 1383,
+  "open_issues": 1208,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-gateway",
+    "ai-gateway",
+    "ai-governance",
+    "api-gateway",
+    "claude-code",
+    "coding-agents",
+    "failover",
+    "gateway",
+    "guardrails",
+    "llm-cost",
+    "llm-gateway",
+    "llm-observability",
+    "llm-proxy",
+    "llm-router",
+    "load-balancing",
+    "mcp-gateway",
+    "model-context-protocol",
+    "model-router",
+    "openai-compatible",
+    "semantic-cache"
+  ],
+  "created_at": "2025-03-19T07:21:26Z",
+  "updated_at": "2026-10-13T11:06:06Z",
+  "pushed_at": "2026-10-13T11:31:44Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "dev",
+  "age_days": 573,
+  "days_since_push": 0,
+  "health_score": 62,
+  "health_components": {
+    "popularity": 78.8,
+    "momentum": 12.7,
+    "maintenance": 100.0,
+    "documentation": 70.0,
+    "accessibility": 51.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 8746,
+    "days_span": 573,
+    "stars_per_day": 15.26,
+    "lifetime_stars_per_day": 15.26,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "maximhq/bifrost",
+    "readme_chars": 13421,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "api-gateway",
+      "usage-analytics",
+      "skills-plugins",
+      "mcp-support",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "auto-failover": "eway that unifies access to 23+ providers (OpenAI, Anthropic, AWS Bedrock, Google Vertex, and more) through a single OpenAI-compatible API.",
+      "model-routing": "",
+      "api-gateway": "y to build AI applications that never go down",
+      "usage-analytics": "pport - Support for text, images, audio, and streaming, all behind a common interface.",
+      "skills-plugins": "Caching - Intelligent response caching based on semantic similarity to reduce costs and latency",
+      "mcp-support": "s failover between providers and models with zero downtime",
+      "gui-desktop": "semantic caching, and enterprise-grade features."
+    },
+    "capability_hits": {
+      "auto-failover": 2,
+      "model-routing": 2,
+      "api-gateway": 2,
+      "usage-analytics": 1,
+      "skills-plugins": 2,
+      "mcp-support": 3,
+      "gui-desktop": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 49,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "docker run"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner; needs docker run; configure environment variables, API key configuration",
+      "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 docker run；需配置 environment variables、API key configuration"
+    },
+    "doc_score": 70,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "Bifrost is a high-performance AI gateway that unifies access to 23+ providers (OpenAI, Anthropic, AWS Bedrock, Google Vertex, and more) through a single OpenAI-compatible API.",
+    "summary_zh": "",
+    "install_hint": "npx -y @maximhq/bifrost",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 3.949
+    },
+    "highlights": [
+      "User Provisioning (OIDC) - OAuth 2.0 / OIDC login with background directory sync for teams, roles, and business units",
+      "Governance - Usage tracking, rate limiting, and fine-grained access control",
+      "Custom Plugins - Extensible middleware architecture for analytics, monitoring, and custom logic",
+      "Budget Management - Cost control and governance"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-13T11:49:50+00:00",
+  "categories": [
+    "agent-runtime-desktop-ui",
+    "providers",
+    "voice"
+  ],
+  "primary_category": "providers",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by farion1231/cc-switch: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 farion1231/cc-switch 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "farion1231/cc-switch",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "maximhq/bifrost",
+      "challenger": "farion1231/cc-switch",
+      "incumbent_name": "maximhq/bifrost",
+      "challenger_name": "farion1231/cc-switch",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "auto-failover",
+        "gui-desktop",
+        "mcp-support",
+        "model-routing",
+        "skills-plugins",
+        "usage-analytics"
+      ],
+      "star_ratio": 16.424,
+      "momentum_ratio": 29.672,
+      "setup_delta": -26,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "16.42x the stars (143,647 vs 8,746)",
+        "29.67x the star velocity (452.8/day vs 15.3/day)",
+        "no harder to set up (23 vs 49 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-account-switching",
+          "parallel-execution",
+          "provider-aggregation",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 62,
+        "challenger_health": 93,
+        "incumbent_setup_score": 49,
+        "challenger_setup_score": 23
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
   "url": "https://github.com/huytieu/COG-second-brain",
   "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
   "homepage": "",
-  "stars": 1274,
+  "stars": 1277,
   "forks": 154,
   "open_issues": 11,
   "language": "Python",
@@ -34,26 +34,26 @@
     "worker-agents"
   ],
   "created_at": "2025-10-15T03:50:52Z",
-  "updated_at": "2026-10-12T03:20:30Z",
+  "updated_at": "2026-10-13T09:58:01Z",
   "pushed_at": "2026-10-02T14:09:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 362,
-  "days_since_push": 9,
+  "age_days": 363,
+  "days_since_push": 10,
   "health_score": 56,
   "health_components": {
     "popularity": 62.1,
-    "momentum": 2.2,
+    "momentum": 1.8,
     "maintenance": 92.0,
     "documentation": 70.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 2.6,
+    "stars_per_day": 2.2,
     "lifetime_stars_per_day": 3.52,
     "basis": "history",
     "is_fast_riser": false
@@ -164,9 +164,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:00+00:00",
+  "fetched_at": "2026-10-13T11:50:08+00:00",
   "categories": [
-    "model-routing",
+    "analytics",
     "skills",
     "teams"
   ],
@@ -184,7 +184,7 @@
       "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -196,15 +196,15 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 6.933,
-      "momentum_ratio": 92.692,
-      "setup_delta": -5,
-      "dominance": 1.0,
+      "star_ratio": 7.089,
+      "momentum_ratio": 103.182,
+      "setup_delta": 1,
+      "dominance": 0.995,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "6.93x the stars (8,833 vs 1,274)",
-        "92.69x the star velocity (241.0/day vs 2.6/day)",
-        "no harder to set up (26 vs 31 friction)"
+        "7.09x the stars (9,053 vs 1,277)",
+        "103.18x the star velocity (227.0/day vs 2.2/day)",
+        "slightly heavier setup (+1 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -221,7 +221,6 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
@@ -239,7 +238,7 @@
         "incumbent_health": 56,
         "challenger_health": 87,
         "incumbent_setup_score": 31,
-        "challenger_setup_score": 26
+        "challenger_setup_score": 32
       }
     }
   }

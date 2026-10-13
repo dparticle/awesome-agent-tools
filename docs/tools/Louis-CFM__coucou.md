@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,910 |
-| Star velocity | 198.0/day (history basis, 5d span) |
+| Stars | 5,042 |
+| Star velocity | 180.8/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 62/100 |
 | Tier | 🏆 Flagship |
@@ -22,7 +22,7 @@
 | Language | Swift |
 | Created | 2026-09-27 |
 | Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 32,643 chars from `raw:HEAD/README.md` |
+| Analyzed README | 33,130 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Model / provider routing
 
-> p to the right terminal — open the exact terminal window of a session (macOS).
+> open the exact terminal window of a session (macOS).
 
 ### Agent runtime
 
@@ -98,7 +98,7 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.8 |
+| popularity | 74.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 62.0 |

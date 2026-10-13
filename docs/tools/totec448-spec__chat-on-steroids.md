@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,672 |
-| Star velocity | 85.2/day (history basis, 5d span) |
+| Stars | 4,726 |
+| Star velocity | 95.4/day (history basis, 5d span) |
 | Health score | 74/100 |
 | Documentation | 33/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-22 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 8,005 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 8,362 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,21 +32,21 @@
 
 ### MCP support
 
-> n that the provider blocked for safety.
+> tion that the provider blocked for safety.
 
 ### GUI / desktop app
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 22/100)
-- **Out of the box:** yes
+- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Out of the box:** no
 - **Non-programmer friendly:** no
 
 **Signals that make it easy:** native installer / package
 
-**Configuration required:** sign-in required
+**Configuration required:** API key configuration, sign-in required
 
-*Easy. install via native installer / package; configure sign-in required*
+*Easy. install via native installer / package; configure API key configuration, sign-in required*
 
 ## Documentation quality
 
@@ -63,11 +63,11 @@ Score **33/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.4 |
-| momentum | 71.0 |
+| popularity | 73.5 |
+| momentum | 79.5 |
 | maintenance | 100.0 |
 | documentation | 33.0 |
-| accessibility | 90.0 |
+| accessibility | 72.0 |
 
 ---
 

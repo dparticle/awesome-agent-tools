@@ -6,8 +6,8 @@
   "url": "https://github.com/Vincentwei1021/video-shotcraft",
   "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
   "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
-  "stars": 11410,
-  "forks": 1020,
+  "stars": 11644,
+  "forks": 1039,
   "open_issues": 7,
   "language": "TypeScript",
   "license": "Apache-2.0",
@@ -28,33 +28,33 @@
     "video-production"
   ],
   "created_at": "2026-07-19T11:44:41Z",
-  "updated_at": "2026-10-12T11:48:01Z",
-  "pushed_at": "2026-10-12T09:44:09Z",
+  "updated_at": "2026-10-13T11:48:21Z",
+  "pushed_at": "2026-10-13T07:09:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 85,
+  "age_days": 86,
   "days_since_push": 0,
-  "health_score": 85,
+  "health_score": 83,
   "health_components": {
-    "popularity": 81.1,
+    "popularity": 81.3,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 48.0,
-    "accessibility": 90.0
+    "documentation": 47.0,
+    "accessibility": 75.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 834,
+    "stars_gained": 841,
     "days_span": 5,
-    "stars_per_day": 166.8,
-    "lifetime_stars_per_day": 134.24,
+    "stars_per_day": 168.2,
+    "lifetime_stars_per_day": 135.4,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Vincentwei1021/video-shotcraft",
-    "readme_chars": 18866,
+    "readme_chars": 16608,
     "capabilities": [
       "cross-agent-support"
     ],
@@ -65,10 +65,10 @@
       "cross-agent-support": 2
     },
     "friction": {
-      "level": "turnkey",
-      "score": 18,
+      "level": "low",
+      "score": 25,
       "out_of_the_box": false,
-      "non_programmer_friendly": true,
+      "non_programmer_friendly": false,
       "easy_signals": [
         "npx one-liner"
       ],
@@ -76,18 +76,16 @@
         "git clone (build from source)"
       ],
       "config_signals": [],
-      "friendliness_signals": [
-        "one-click setup"
-      ],
+      "friendliness_signals": [],
       "platforms": [
         "macOS",
         "Linux",
         "Web"
       ],
-      "note_en": "Turnkey. install via npx one-liner; needs git clone (build from source); one-click setup",
-      "note_zh": "开箱即用。可通过 npx one-liner 安装；需要 git clone (build from source)；one-click setup"
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source)",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)"
     },
-    "doc_score": 48,
+    "doc_score": 47,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -109,20 +107,18 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.06
+      "external_link_ratio": 1.204
     },
     "highlights": [
-      "Real product, real pages. Your actual UI, captured and moved with 2.5D camera work, not a generated look-alike.",
-      "124 shot recipe cards, 150 tuned shots.",
-      "2026-09 · One-click film themes.",
-      "A finished film, not a clip. Storyboard, captions, beat-synced cuts, film-grade SFX and a final QA pass,"
+      "2026-08 · JianYing (CapCut CN) export.",
+      "2026-09 · Motion Workbench. Keep editing the delivered film in a CapCut-style browser editor.",
+      "2026-08 · video-talkcraft, the narration-video"
     ],
     "summary_zh_native": "",
     "highlights_zh": [
       "并发上限：低核机器上 remotion still/render 会报 \"Maximum for --concurrency is 2\"。",
-      "124 张镜头配方卡、150 个调校过的镜头：每张卡写明什么时候用、时长、缓动和已知的坑，并附可读的 Remotion 实现。",
-      "真实产品，真实页面：用的是你真实的界面截图，配 2.5D 运镜动起来，不是生成出来的「长得像」。",
-      "CDN 访问不了：remotion.media 访问不了时（国内常见），headless-shell 自动下载会失败。"
+      "CDN 访问不了：remotion.media 访问不了时（国内常见），headless-shell 自动下载会失败。",
+      "旧版 headless 被移除：新版 Chrome/Chromium 删了旧 headless 模式，让 Remotion 指向系统 chromium 会启动失败。"
     ],
     "chinese_readme": "README_CN.md"
   },
@@ -131,7 +127,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:03+00:00",
+  "fetched_at": "2026-10-13T11:49:18+00:00",
   "categories": [
     "mobile"
   ],

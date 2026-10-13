@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 251 |
-| Star velocity | 0.9/day (lifetime basis, 290d span) |
+| Star velocity | 0.9/day (lifetime basis, 291d span) |
 | Health score | 49/100 |
 | Documentation | 45/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | not declared |
 | Language | Python |
 | Created | 2025-12-26 |
-| Last push | 2026-10-12 (0 days ago) |
+| Last push | 2026-10-12 (1 days ago) |
 | Analyzed README | 5,468 chars from `raw:HEAD/README.md` |
 
 ## What it solves

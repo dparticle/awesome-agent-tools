@@ -4,11 +4,11 @@
   "name": "flow-next",
   "owner": "gmickel",
   "url": "https://github.com/gmickel/flow-next",
-  "description": "Faster than your agent alone. And better. A workflow plugin that takes a bug, idea or ticket to a verified pull request: specs, cross-model review by risk, live QA, receipts in your repo. Claude Code · Codex · Cursor · Droid · Grok Build · OpenCode.",
+  "description": "Faster than your agent alone. And better. A workflow plugin that takes a bug, idea or ticket to a verified pull request: specs, cross-model review by risk, live QA, receipts in your repo. Claude Code · Codex · Cursor · Droid · Grok Build · OpenCode · Muse Code.",
   "homepage": "https://flow-next.dev",
   "stars": 709,
   "forks": 59,
-  "open_issues": 13,
+  "open_issues": 14,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -25,6 +25,7 @@
     "execution",
     "factory-droid",
     "marketplace",
+    "muse-code",
     "openai-codex",
     "planning",
     "plugin",
@@ -33,33 +34,33 @@
     "workflow"
   ],
   "created_at": "2025-12-26T22:27:07Z",
-  "updated_at": "2026-10-12T09:28:23Z",
-  "pushed_at": "2026-10-12T09:37:14Z",
+  "updated_at": "2026-10-13T10:00:52Z",
+  "pushed_at": "2026-10-13T10:00:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 289,
+  "age_days": 290,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 57.0,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 2.45,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 2.44,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "gmickel/flow-next",
-    "readme_chars": 13848,
+    "readme_chars": 13875,
     "capabilities": [
       "model-routing",
       "agent-runtime",
@@ -126,7 +127,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.527
+      "external_link_ratio": 2.523
     },
     "highlights": [
       "Review backends: Codex, Copilot, Cursor, Claude and host review, and why the reviewer must come from another family."
@@ -140,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:15+00:00",
+  "fetched_at": "2026-10-13T11:50:22+00:00",
   "categories": [
     "model-routing"
   ],

@@ -23,28 +23,28 @@
   ],
   "created_at": "2026-09-20T22:48:35Z",
   "updated_at": "2026-10-07T15:42:02Z",
-  "pushed_at": "2026-10-05T08:39:13Z",
+  "pushed_at": "2026-10-13T01:00:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 21,
-  "days_since_push": 7,
-  "health_score": 56,
+  "age_days": 22,
+  "days_since_push": 0,
+  "health_score": 53,
   "health_components": {
     "popularity": 48.8,
-    "momentum": 10.9,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 84.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 274,
-    "days_span": 21,
-    "stars_per_day": 13.05,
-    "lifetime_stars_per_day": 13.05,
-    "basis": "lifetime",
-    "is_fast_riser": true
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 12.45,
+    "basis": "history",
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "kerim0x1/bettercode",
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:47+00:00",
+  "fetched_at": "2026-10-13T11:50:56+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "teams"
@@ -149,18 +149,18 @@
   "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "msitarzewski/agency-agents",
     "challenger": "",
     "supersede": {
       "incumbent": "kerim0x1/bettercode",
-      "challenger": "tencentcloud/octop",
+      "challenger": "msitarzewski/agency-agents",
       "incumbent_name": "kerim0x1/bettercode",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "msitarzewski/agency-agents",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -170,15 +170,15 @@
         "mobile-access",
         "team-collaboration"
       ],
-      "star_ratio": 32.237,
-      "momentum_ratio": 18.467,
-      "setup_delta": 2,
-      "dominance": 0.99,
+      "star_ratio": 582.869,
+      "momentum_ratio": 5100.0,
+      "setup_delta": -23,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "32.24x the stars (8,833 vs 274)",
-        "18.47x the star velocity (241.0/day vs 13.1/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "582.87x the stars (159,706 vs 274)",
+        "5100.00x the star velocity (255.0/day vs 0.0/day)",
+        "no harder to set up (1 vs 24 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -200,18 +200,18 @@
           "mcp-support",
           "memory-context",
           "mobile-access",
-          "model-routing",
+          "multi-account-switching",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
+          "security-isolation",
           "team-collaboration",
-          "worktree-isolation"
+          "voice-input"
         ],
-        "incumbent_health": 56,
-        "challenger_health": 87,
+        "incumbent_health": 53,
+        "challenger_health": 98,
         "incumbent_setup_score": 24,
-        "challenger_setup_score": 26
+        "challenger_setup_score": 1
       }
     }
   }

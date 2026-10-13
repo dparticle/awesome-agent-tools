@@ -34,44 +34,44 @@
     "typescript"
   ],
   "created_at": "2026-06-01T19:18:59Z",
-  "updated_at": "2026-10-10T12:51:55Z",
-  "pushed_at": "2026-09-26T18:59:22Z",
+  "updated_at": "2026-10-13T07:39:34Z",
+  "pushed_at": "2026-10-13T07:39:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 132,
-  "days_since_push": 15,
-  "health_score": 51,
+  "age_days": 133,
+  "days_since_push": 0,
+  "health_score": 53,
   "health_components": {
     "popularity": 56.7,
     "momentum": 4.3,
-    "maintenance": 92.0,
+    "maintenance": 100.0,
     "documentation": 38.0,
     "accessibility": 81.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 682,
-    "days_span": 132,
-    "stars_per_day": 5.17,
-    "lifetime_stars_per_day": 5.17,
+    "days_span": 133,
+    "stars_per_day": 5.13,
+    "lifetime_stars_per_day": 5.13,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Deuz-AI/Deuz-SDK",
-    "readme_chars": 2663,
+    "readme_chars": 3977,
     "capabilities": [
       "agent-runtime",
       "mcp-support"
     ],
     "capability_evidence": {
-      "agent-runtime": "e process; uncertain external effects require reconciliation before retry.",
-      "mcp-support": "oss-process cancel and recovery, persistent budgets, and schedules."
+      "agent-runtime": "service; it is tested offline.",
+      "mcp-support": "ersistent budgets, schedules, goal records, and a headless preview."
     },
     "capability_hits": {
       "agent-runtime": 1,
-      "mcp-support": 1
+      "mcp-support": 4
     },
     "friction": {
       "level": "low",
@@ -113,9 +113,11 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.878
+      "external_link_ratio": 1.257
     },
     "highlights": [
+      "Interop — the MCP 2026-07-28 client, an MCP server, and A2A in both directions.",
+      "Models — realtime voice on OpenAI Realtime and Gemini Live, provider batch requests, model profiles, a stable request prefix for Claude 5.x thinking, usage billed once, and models without a…",
       "Evolve — evolutionary program search with a mandatory budget and zero-call resume."
     ],
     "summary_zh_native": "",
@@ -127,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:15+00:00",
+  "fetched_at": "2026-10-13T11:50:22+00:00",
   "categories": [
     "analytics"
   ],

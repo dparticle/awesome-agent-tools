@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 29,337 |
-| Star velocity | 26.6/day (history basis, 5d span) |
+| Stars | 29,380 |
+| Star velocity | 28.8/day (history basis, 5d span) |
 | Health score | 70/100 |
 | Documentation | 70/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-25 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 128,426 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 128,858 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -58,7 +58,7 @@
 
 ### MCP support
 
-> earch: agentmemory is the implementation.
+> rch: agentmemory is the implementation.
 
 ### Security & isolation
 
@@ -120,8 +120,8 @@ Score **70/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 89.3 |
-| momentum | 22.2 |
+| popularity | 89.4 |
+| momentum | 24.0 |
 | maintenance | 100.0 |
 | documentation | 70.0 |
 | accessibility | 68.0 |

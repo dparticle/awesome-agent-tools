@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 273,
-  "days_since_push": 5,
+  "age_days": 274,
+  "days_since_push": 6,
   "health_score": 52,
   "health_components": {
     "popularity": 54.1,
@@ -164,11 +164,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:22+00:00",
+  "fetched_at": "2026-10-13T11:50:30+00:00",
   "categories": [
     "providers-2",
-    "security-self-hosting",
-    "teams"
+    "security-self-hosting"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

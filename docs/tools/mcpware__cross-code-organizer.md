@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-03-18 |
-| Last push | 2026-10-06 (5 days ago) |
+| Last push | 2026-10-06 (6 days ago) |
 | Analyzed README | 42,102 chars from `raw:HEAD/README.md` |
 
 ## What it solves

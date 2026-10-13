@@ -15,20 +15,16 @@
 | Stars | 476 |
 | Star velocity | 9.2/day (history basis, 5d span) |
 | Health score | 53/100 |
-| Documentation | 51/100 |
+| Documentation | 55/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-06 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 17,098 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 17,555 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Multi-agent orchestration
-
-> at its answer can be believed on.
 
 ### Memory & context
 
@@ -52,7 +48,7 @@
 
 ## Documentation quality
 
-Score **51/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -61,6 +57,7 @@ Score **51/100**, based on these detected signals:
 - documents configuration
 - mentions licensing
 - documents changes
+- reports benchmarks
 - explains architecture
 
 ## Score breakdown
@@ -70,7 +67,7 @@ Score **51/100**, based on these detected signals:
 | popularity | 53.6 |
 | momentum | 7.7 |
 | maintenance | 100.0 |
-| documentation | 51.0 |
+| documentation | 55.0 |
 | accessibility | 64.0 |
 
 ---

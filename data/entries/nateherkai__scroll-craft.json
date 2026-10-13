@@ -6,8 +6,8 @@
   "url": "https://github.com/nateherkai/scroll-craft",
   "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
   "homepage": "https://github.com/nateherkai/scroll-craft",
-  "stars": 3218,
-  "forks": 475,
+  "stars": 3312,
+  "forks": 490,
   "open_issues": 9,
   "language": "JavaScript",
   "license": "MIT",
@@ -29,27 +29,27 @@
     "web-design"
   ],
   "created_at": "2026-08-22T15:25:08Z",
-  "updated_at": "2026-10-12T11:55:45Z",
+  "updated_at": "2026-10-13T11:38:49Z",
   "pushed_at": "2026-09-30T13:31:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 50,
-  "days_since_push": 11,
+  "age_days": 51,
+  "days_since_push": 12,
   "health_score": 67,
   "health_components": {
-    "popularity": 70.2,
-    "momentum": 53.6,
+    "popularity": 70.4,
+    "momentum": 54.1,
     "maintenance": 92.0,
     "documentation": 47.0,
     "accessibility": 70.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3218,
-    "days_span": 50,
-    "stars_per_day": 64.36,
-    "lifetime_stars_per_day": 64.36,
+    "stars_gained": 3312,
+    "days_span": 51,
+    "stars_per_day": 64.94,
+    "lifetime_stars_per_day": 64.94,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -116,8 +116,8 @@
     "highlights": [
       "A typography floor. Two families maximum, tracking that tightens as size grows, 45 to 75ch measure, line height inverse to measure, and light-on-dark compensated on three axes.",
       "A fingerprint gate. A new build must differ from every page you have already made on at least 4 of 6 dimensions: grammar, nav, hero, act shape, close, signature move. Fail it and you change…",
-      "Choose photographic compositing or real 3D rendering to suit the subject.",
-      "Honor explicit creative delegation without forcing a redundant interview."
+      "Honor explicit creative delegation without forcing a redundant interview.",
+      "Choose photographic compositing or real 3D rendering to suit the subject."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:19+00:00",
+  "fetched_at": "2026-10-13T11:49:31+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "skills"

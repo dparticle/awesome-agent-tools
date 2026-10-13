@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 308 |
+| Stars | 310 |
 | Star velocity | 6.6/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 53/100 |
@@ -21,16 +21,18 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 18,548 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 18,810 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
+> - *10-10* 渠道能选生图、视频、配音各走哪种接口，中转也能选；千问生图点「测」不再误报 400，百炼生图被拒「不支持同步/异步」时自动换一种 - *10-10* 本回合产出按重要程度排：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在 - *10-10* 输入框字多跟着长高，最高约窗口三分之一；还有没露出来的字时那一边渐隐，滚动按钮不再压字 - *10-10* 多账号时成员和分公司账号的工作目录、成果…
+
 ### Quota & usage management
 
-> 铺满整张卡，地点浮在右边一栏；钉子带照片和地名，点卡片地图就滑过去；国内一天四站以上也能一键打开整条路线
+> *10-07* 行程卡换了个样：地图铺满整张卡，地点浮在右边一栏；钉子带照片和地名，点卡片地图就滑过去；国内一天四站以上也能一键打开整条路线
 
 ### Remote control
 
@@ -38,7 +40,7 @@
 
 ### Workspace isolation
 
-> / Anthropic / Gemini / Ollama 原生，本地部署都能接
+> - *10-07* 画布删了、清了都找得回来；撤销只撤你自己那一步；时间线拖格子换放映顺序，一键合成照这个顺序拼
 
 ### API gateway / proxy
 
@@ -46,17 +48,17 @@
 
 ### Billing & metering
 
-> 工具更靠谱：产物落在这趟任务的目录，资料库只看本人那份，插件带的连接器也挂上
-
 ### Skills & plugins
+
+> *10-02* Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法
 
 ### MCP support
 
-> - 10-02 Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法 - 10-02 PPT 预览按每页真实版式画；画布按图片原比例摆，时间线改成胶片条；成果栏窄窗口也关得掉 - 10-02 模型渠道修一轮：火山方舟上的 GLM 不再被拦，挂错渠道会提示；通义国际站、万相出图修好 - 10-01 对话里说「装这个技能」直接装进技能库；接 MCP 直接跳连接器页 - 10-01…
+> 2* Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法
 
 ### Security & isolation
 
-> 按重要程度排：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在
+> ：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在
 
 ### Self-hostable
 
@@ -65,6 +67,8 @@
 > skill.md ，存盘后下一条任务就生效——不改代码、不重启、不打包。
 
 ### Notifications
+
+> 册能直接填邮箱：自动取 @ 前面那段当用户名，登录时填邮箱也认；注册失败不再算进限流，填错不会被锁
 
 ### Cross-agent support
 

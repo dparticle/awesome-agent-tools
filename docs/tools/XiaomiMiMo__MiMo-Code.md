@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 13,634 |
-| Star velocity | 6.2/day (history basis, 5d span) |
-| Health score | 63/100 |
+| Stars | 13,646 |
+| Star velocity | 6.8/day (history basis, 5d span) |
+| Health score | 64/100 |
 | Documentation | 62/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-10 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 27,039 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 26,906 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -64,7 +64,7 @@
 
 ### Self-hostable
 
-> trol mode (mimo-v2.5) is available on OpenRouter and compatible relay platforms.
+> ode (mimo-v2.6-flash) is available on OpenRouter and compatible relay platforms.
 
 ### GUI / desktop app
 
@@ -80,18 +80,16 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 30/100)
+- **Difficulty:** 🟢 Easy (friction score 21/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://mimo.xiaomi.com/install | bash`
 
-**Signals that make it easy:** Homebrew install, curl | sh installer, PowerShell irm | iex installer, global npm install
-
-**Signals that add work:** npm install/build
+**Signals that make it easy:** Homebrew install, curl | sh installer, PowerShell irm | iex installer
 
 **Configuration required:** environment variables, API key configuration, config.json/yaml/toml, OAuth login flow, sign-in required, database dependency, database migration, server/reverse-proxy setup
 
-*Easy. install via Homebrew install, curl | sh installer; needs npm install/build; configure environment variables, API key configuration; GUI application*
+*Easy. install via Homebrew install, curl | sh installer; configure environment variables, API key configuration; GUI application*
 
 ## Documentation quality
 
@@ -114,10 +112,10 @@ Score **62/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 82.7 |
-| momentum | 5.2 |
+| momentum | 5.7 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
-| accessibility | 70.0 |
+| accessibility | 79.0 |
 
 ---
 

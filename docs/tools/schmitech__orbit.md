@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 354 |
-| Star velocity | 0.6/day (lifetime basis, 581d span) |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 48/100 |
 | Documentation | 48/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-03-10 |
-| Last push | 2026-10-11 (0 days ago) |
-| Analyzed README | 10,558 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 10,903 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### MCP support
 
-> o voice assistants and tool-using agents.
+> ⭐ Building with private data or AI agents? Star ORBIT to bookmark it and help others discover it.
 
 ### Security & isolation
 
@@ -85,7 +85,7 @@ Score **48/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.0 |
-| momentum | 0.5 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
 | documentation | 48.0 |
 | accessibility | 48.0 |

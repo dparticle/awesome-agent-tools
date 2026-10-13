@@ -6,35 +6,35 @@
   "url": "https://github.com/numman-ali/n-skills",
   "description": "Curated plugin marketplace for AI agents - works with Claude Code, Codex, and openskills",
   "homepage": "",
-  "stars": 1050,
+  "stars": 1051,
   "forks": 109,
   "open_issues": 38,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2026-01-02T13:14:28Z",
-  "updated_at": "2026-10-09T17:50:06Z",
+  "updated_at": "2026-10-13T05:46:05Z",
   "pushed_at": "2026-09-12T00:25:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 282,
-  "days_since_push": 30,
-  "health_score": 55,
+  "age_days": 283,
+  "days_since_push": 31,
+  "health_score": 52,
   "health_components": {
     "popularity": 60.4,
-    "momentum": 3.1,
-    "maintenance": 92.0,
+    "momentum": 0.0,
+    "maintenance": 78.0,
     "documentation": 47.0,
     "accessibility": 96.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1050,
-    "days_span": 282,
-    "stars_per_day": 3.72,
-    "lifetime_stars_per_day": 3.72,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 3.71,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -110,8 +110,8 @@
     },
     "highlights": [
       "Abandoned or unmaintained projects",
-      "Genuine utility for developers",
-      "Clean, well-documented code"
+      "Clean, well-documented code",
+      "Genuine utility for developers"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -122,7 +122,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:06+00:00",
+  "fetched_at": "2026-10-13T11:50:13+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",

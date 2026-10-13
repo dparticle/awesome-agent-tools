@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 223 |
-| Star velocity | 0.5/day (lifetime basis, 423d span) |
+| Stars | 224 |
+| Star velocity | 0.5/day (lifetime basis, 424d span) |
 | Health score | 53/100 |
 | Documentation | 76/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-14 |
-| Last push | 2026-10-11 (0 days ago) |
-| Analyzed README | 137,987 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 141,556 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,7 @@
 
 ### Agent runtime
 
-> under the workspace, then deploys provider-specific adapters for Claude, Codex, Cursor, Windsurf, Warp, OpenCode, OpenClaw, OpenHuman, Hermes, DeepSeek Harness, Copilot, Devin, Factory, Oh My Pi, Pi Coding Agent, Antigr…
+> vider deployment — Google Antigravity CLI, Claude Code, OpenAI Codex, GitHub Copilot, Cursor, DeepSeek
 
 ### MCP support
 

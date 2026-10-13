@@ -7,7 +7,7 @@
   "description": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow",
   "homepage": "https://alirezarezvani.com",
   "stars": 777,
-  "forks": 169,
+  "forks": 168,
   "open_issues": 2,
   "language": "Shell",
   "license": "MIT",
@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 391,
-  "days_since_push": 100,
+  "age_days": 392,
+  "days_since_push": 101,
   "health_score": 43,
   "health_components": {
     "popularity": 57.8,
@@ -41,7 +41,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.99,
+    "lifetime_stars_per_day": 1.98,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:12+00:00",
+  "fetched_at": "2026-10-13T11:50:19+00:00",
   "categories": [
     "skills"
   ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/agent-memory",
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
-  "stars": 3402,
-  "forks": 144,
-  "open_issues": 52,
+  "stars": 3405,
+  "forks": 147,
+  "open_issues": 55,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,33 +26,33 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-10-12T10:33:37Z",
-  "pushed_at": "2026-10-12T10:33:31Z",
+  "updated_at": "2026-10-13T11:42:13Z",
+  "pushed_at": "2026-10-12T16:28:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 40,
+  "age_days": 41,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 77,
   "health_components": {
     "popularity": 70.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 62.0,
-    "accessibility": 19.0
+    "accessibility": 31.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 1023,
+    "stars_gained": 759,
     "days_span": 5,
-    "stars_per_day": 204.6,
-    "lifetime_stars_per_day": 85.05,
+    "stars_per_day": 151.8,
+    "lifetime_stars_per_day": 83.05,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tigerless-labs/agent-memory",
-    "readme_chars": 21194,
+    "readme_chars": 22473,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -63,8 +63,8 @@
     ],
     "capability_evidence": {
       "worktree-isolation": "",
-      "model-routing": "rant the calling identity",
-      "api-gateway": "rant the calling identity",
+      "model-routing": "etup and mem doctor report configuration and live-preflight results separately as Write",
+      "api-gateway": "etup and mem doctor report configuration and live-preflight results separately as Write",
       "memory-context": "### agent-memory: the long-term memory runtime for AI agents",
       "mcp-support": "Existing files with status load without a reset.",
       "cross-agent-support": "Mentions Claude Code, Codex"
@@ -79,7 +79,7 @@
     },
     "friction": {
       "level": "high",
-      "score": 81,
+      "score": 69,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [],
@@ -88,8 +88,6 @@
       ],
       "config_signals": [
         "API key configuration",
-        "config.json/yaml/toml",
-        "sign-in required",
         "database dependency",
         "database migration"
       ],
@@ -97,8 +95,8 @@
       "platforms": [
         "Linux"
       ],
-      "note_en": "Involved setup. needs git clone (build from source); configure API key configuration, config.json/yaml/toml",
-      "note_zh": "配置较重。需要 git clone (build from source)；需配置 API key configuration、config.json/yaml/toml"
+      "note_en": "Involved setup. needs git clone (build from source); configure API key configuration, database dependency",
+      "note_zh": "配置较重。需要 git clone (build from source)；需配置 API key configuration、database dependency"
     },
     "doc_score": 62,
     "doc_signals": [
@@ -125,7 +123,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.094
+      "external_link_ratio": 0.089
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -137,11 +135,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:49+00:00",
+  "fetched_at": "2026-10-13T11:49:57+00:00",
   "categories": [
-    "analytics"
+    "analytics",
+    "voice"
   ],
-  "primary_category": "analytics",
+  "primary_category": "voice",
   "lifecycle": {
     "state": "active",
     "note_en": "",

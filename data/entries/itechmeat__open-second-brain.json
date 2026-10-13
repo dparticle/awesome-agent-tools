@@ -8,24 +8,24 @@
   "homepage": "https://dark-factory.techmeat.dev",
   "stars": 476,
   "forks": 62,
-  "open_issues": 3,
+  "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-06T07:40:41Z",
-  "updated_at": "2026-10-12T11:20:32Z",
-  "pushed_at": "2026-10-12T11:50:22Z",
+  "updated_at": "2026-10-13T06:10:41Z",
+  "pushed_at": "2026-10-13T06:47:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 159,
+  "age_days": 160,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 53.6,
     "momentum": 7.7,
     "maintenance": 100.0,
-    "documentation": 51.0,
+    "documentation": 55.0,
     "accessibility": 64.0
   },
   "tier": "notable",
@@ -33,27 +33,24 @@
     "stars_gained": 46,
     "days_span": 5,
     "stars_per_day": 9.2,
-    "lifetime_stars_per_day": 2.99,
+    "lifetime_stars_per_day": 2.98,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "itechmeat/open-second-brain",
-    "readme_chars": 17098,
+    "readme_chars": 17555,
     "capabilities": [
-      "multi-agent-orchestration",
       "memory-context",
       "mcp-support",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "at its answer can be believed on.",
       "memory-context": "",
       "mcp-support": "inistic dream pass turns repeated signals into rules and retires the ones nothing uses; no model runs inside that algorithm.",
       "cross-agent-support": "Mentions Aider, Claude Code, Codex, Copilot"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 1,
       "memory-context": 1,
       "mcp-support": 8,
       "cross-agent-support": 7
@@ -76,7 +73,7 @@
       "note_en": "Easy. configure database dependency",
       "note_zh": "较易上手。需配置 database dependency"
     },
-    "doc_score": 51,
+    "doc_score": 55,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -85,6 +82,7 @@
       "documents configuration",
       "mentions licensing",
       "documents changes",
+      "reports benchmarks",
       "explains architecture"
     ],
     "agents": [
@@ -104,7 +102,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.175
+      "external_link_ratio": 0.171
     },
     "highlights": [
       "Secret custody. Credentials live encrypted in the vault's state dir behind a capability-gated store; $secret:NAME references resolve at the use sites, o2b brain secret unlock wraps the keyf…",
@@ -121,7 +119,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:24+00:00",
+  "fetched_at": "2026-10-13T11:50:33+00:00",
   "categories": [
     "analytics"
   ],

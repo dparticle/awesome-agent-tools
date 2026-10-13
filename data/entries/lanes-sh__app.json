@@ -6,7 +6,7 @@
   "url": "https://github.com/lanes-sh/app",
   "description": "Run many CLI (Coding) Agents in parallel lanes: issues, worktrees, sessions, and loops on one board. The agentic development environment.",
   "homepage": "https://lanes.sh",
-  "stars": 273,
+  "stars": 274,
   "forks": 16,
   "open_issues": 11,
   "language": "",
@@ -31,26 +31,26 @@
     "vibe-coding"
   ],
   "created_at": "2026-03-22T21:18:28Z",
-  "updated_at": "2026-10-06T05:34:28Z",
+  "updated_at": "2026-10-13T02:24:24Z",
   "pushed_at": "2026-10-06T13:17:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 203,
-  "days_since_push": 5,
+  "age_days": 204,
+  "days_since_push": 6,
   "health_score": 50,
   "health_components": {
-    "popularity": 48.7,
-    "momentum": 0.0,
+    "popularity": 48.8,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 88.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.34,
     "basis": "history",
     "is_fast_riser": false
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:48+00:00",
+  "fetched_at": "2026-10-13T11:50:55+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "mobile",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.56,
-      "momentum_ratio": 432.0,
+      "star_ratio": 122.208,
+      "momentum_ratio": 105.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.56x the stars (33,459 vs 273)",
-        "432.00x the star velocity (21.6/day vs 0.0/day)",
+        "122.21x the stars (33,485 vs 274)",
+        "105.00x the star velocity (21.0/day vs 0.2/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],

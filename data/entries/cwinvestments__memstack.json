@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 235,
-  "days_since_push": 15,
+  "age_days": 236,
+  "days_since_push": 16,
   "health_score": 52,
   "health_components": {
     "popularity": 52.6,
@@ -42,7 +42,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.81,
+    "lifetime_stars_per_day": 1.8,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -173,13 +173,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:29+00:00",
+  "fetched_at": "2026-10-13T11:50:38+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "mobile",
+    "analytics",
+    "sharing",
     "skills"
   ],
-  "primary_category": "mobile",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

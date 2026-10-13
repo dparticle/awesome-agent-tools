@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 565 |
-| Star velocity | 4.2/day (history basis, 5d span) |
+| Star velocity | 2.4/day (history basis, 5d span) |
 | Health score | 49/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-12 |
-| Last push | 2026-08-03 (69 days ago) |
+| Last push | 2026-08-03 (70 days ago) |
 | Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).
@@ -73,7 +73,7 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.0 |
-| momentum | 3.5 |
+| momentum | 2.0 |
 | maintenance | 78.0 |
 | documentation | 51.0 |
 | accessibility | 75.0 |

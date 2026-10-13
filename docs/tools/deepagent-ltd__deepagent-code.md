@@ -14,15 +14,15 @@
 | --- | --- |
 | Stars | 436 |
 | Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 48/100 |
+| Health score | 49/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-06-23 |
-| Last push | 2026-10-01 (11 days ago) |
-| Analyzed README | 17,424 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 17,369 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -104,7 +104,7 @@ Score **46/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 52.8 |
 | momentum | 0.0 |
-| maintenance | 92.0 |
+| maintenance | 100.0 |
 | documentation | 46.0 |
 | accessibility | 58.0 |
 

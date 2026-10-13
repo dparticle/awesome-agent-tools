@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "full_name": "milind-soni/OpenMausBot",
+  "name": "OpenMausBot",
+  "owner": "milind-soni",
+  "url": "https://github.com/milind-soni/OpenMausBot",
+  "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+  "homepage": "https://www.openmausbot.com/",
+  "stars": 4703,
+  "forks": 794,
+  "open_issues": 390,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "computer-use",
+    "docker",
+    "electron",
+    "expo",
+    "grok",
+    "grok-bot",
+    "grok-bot-alternative",
+    "self-hosted",
+    "typescript"
+  ],
+  "created_at": "2026-08-11T18:58:55Z",
+  "updated_at": "2026-10-13T11:47:44Z",
+  "pushed_at": "2026-10-13T10:52:25Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 62,
+  "days_since_push": 0,
+  "health_score": 76,
+  "health_components": {
+    "popularity": 73.4,
+    "momentum": 63.2,
+    "maintenance": 100.0,
+    "documentation": 70.0,
+    "accessibility": 72.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 4703,
+    "days_span": 62,
+    "stars_per_day": 75.85,
+    "lifetime_stars_per_day": 75.85,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "milind-soni/OpenMausBot",
+    "readme_chars": 29388,
+    "capabilities": [
+      "mobile-access",
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop",
+      "notifications",
+      "voice-input",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mobile-access": "protected by pairing, an existing",
+      "multi-agent-orchestration": "n/ macOS, Windows, and Ubuntu shells with an embedded harness and platform capabilities; Apple speech stays macOS-only, Ubuntu Xorg has opt-in local control, and Wayland remains fail-closed.",
+      "model-routing": "rs can add their own MCP tool servers with zero code via docs/custom-mcp-servers.md.",
+      "api-gateway": "g — see docs/custom-engines.md.",
+      "skills-plugins": "skills switched off and routines paused.",
+      "mcp-support": "ure bots/channels/tasks, send work, wait for completion, switch models, and interrupt turns.",
+      "security-isolation": "ks before a potentially billable test message.",
+      "self-hosted": "",
+      "gui-desktop": "flow; microphone transcription remains unchanged.",
+      "notifications": "build an unbounded queue.",
+      "voice-input": "",
+      "cross-agent-support": "Mentions Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "mobile-access": 1,
+      "multi-agent-orchestration": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "skills-plugins": 1,
+      "mcp-support": 5,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "gui-desktop": 3,
+      "notifications": 5,
+      "voice-input": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 28,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "pnpm install/build",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "explicitly no coding required",
+        "no-code positioning",
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, global npm install; needs git clone (build from source), pnpm install/build; configure API key configuration, OAuth login flow; explicitly no coding required",
+      "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 git clone (build from source)、pnpm install/build；需配置 API key configuration、OAuth login flow；explicitly no coding required"
+    },
+    "doc_score": 70,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Codex",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "The open-source Grok Bot alternative: your own team of AI bots, in a chat app.",
+    "summary_zh": "",
+    "install_hint": "npm install -g openmausbot",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.701
+    },
+    "highlights": [
+      "Local first. One small harness server on 127.0.0.1 owns every agent process. Transcripts, keys, and",
+      "Bring your own agents. Bots run on the claude, codex, and grok CLIs installed on your own machine",
+      "Agents with hands. Each bot can use a cloud Linux desktop, an isolated Local VM, or—where the platform"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-13T11:49:27+00:00",
+  "categories": [
+    "mobile-2",
+    "security-self-hosting",
+    "voice"
+  ],
+  "primary_category": "voice",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

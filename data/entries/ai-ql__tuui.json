@@ -6,7 +6,7 @@
   "url": "https://github.com/AI-QL/tuui",
   "description": "A desktop MCP client designed as a tool unitary utility integration, accelerating AI adoption through the Model Context Protocol (MCP) and enabling cross-vendor LLM API orchestration.",
   "homepage": "https://www.tuui.com/",
-  "stars": 1156,
+  "stars": 1157,
   "forks": 107,
   "open_issues": 2,
   "language": "TypeScript",
@@ -34,26 +34,26 @@
     "testing"
   ],
   "created_at": "2025-04-01T15:09:38Z",
-  "updated_at": "2026-10-10T12:08:35Z",
+  "updated_at": "2026-10-13T02:45:00Z",
   "pushed_at": "2026-05-14T09:02:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 558,
-  "days_since_push": 151,
+  "age_days": 559,
+  "days_since_push": 152,
   "health_score": 47,
   "health_components": {
     "popularity": 61.3,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 55.0,
     "documentation": 53.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 2.07,
     "basis": "history",
     "is_fast_riser": false
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:02+00:00",
+  "fetched_at": "2026-10-13T11:50:09+00:00",
   "categories": [
     "analytics"
   ],

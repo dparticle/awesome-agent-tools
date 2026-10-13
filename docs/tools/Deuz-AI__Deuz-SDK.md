@@ -13,26 +13,26 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 682 |
-| Star velocity | 5.2/day (lifetime basis, 132d span) |
-| Health score | 51/100 |
+| Star velocity | 5.1/day (lifetime basis, 133d span) |
+| Health score | 53/100 |
 | Documentation | 38/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
-| Last push | 2026-09-26 (15 days ago) |
-| Analyzed README | 2,663 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 3,977 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Agent runtime
 
-> e process; uncertain external effects require reconciliation before retry.
+> service; it is tested offline.
 
 ### MCP support
 
-> oss-process cancel and recovery, persistent budgets, and schedules.
+> ersistent budgets, schedules, goal records, and a headless preview.
 
 ## Setup reality check
 
@@ -66,7 +66,7 @@ Score **38/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 56.7 |
 | momentum | 4.3 |
-| maintenance | 92.0 |
+| maintenance | 100.0 |
 | documentation | 38.0 |
 | accessibility | 81.0 |
 

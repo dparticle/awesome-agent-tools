@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 356,
-  "days_since_push": 32,
+  "age_days": 357,
+  "days_since_push": 33,
   "health_score": 43,
   "health_components": {
     "popularity": 51.1,
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:36+00:00",
+  "fetched_at": "2026-10-13T11:50:45+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "model-routing",
@@ -176,14 +176,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.345,
-      "momentum_ratio": 8.5,
+      "star_ratio": 2.367,
+      "momentum_ratio": 8.55,
       "setup_delta": -45,
-      "dominance": 0.944,
+      "dominance": 0.946,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.34x the stars (837 vs 357)",
-        "8.50x the star velocity (3.4/day vs 0.4/day)",
+        "2.37x the stars (845 vs 357)",
+        "8.55x the star velocity (3.4/day vs 0.4/day)",
         "no harder to set up (21 vs 66 friction)"
       ],
       "reasons_zh": [],

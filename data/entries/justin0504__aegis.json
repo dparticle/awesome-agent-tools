@@ -6,7 +6,7 @@
   "url": "https://github.com/Justin0504/Aegis",
   "description": "Runtime policy enforcement for AI agents. Cryptographic audit trail, human-in-the-loop approvals, kill switch. Zero code changes.                                                                         ",
   "homepage": "https://aegistraces.com",
-  "stars": 533,
+  "stars": 538,
   "forks": 49,
   "open_issues": 4,
   "language": "TypeScript",
@@ -24,27 +24,27 @@
     "policy-engine"
   ],
   "created_at": "2026-03-04T03:24:33Z",
-  "updated_at": "2026-10-12T10:09:40Z",
+  "updated_at": "2026-10-13T09:25:02Z",
   "pushed_at": "2026-10-09T00:15:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 222,
-  "days_since_push": 3,
+  "age_days": 223,
+  "days_since_push": 4,
   "health_score": 53,
   "health_components": {
-    "popularity": 54.5,
-    "momentum": 5.0,
+    "popularity": 54.6,
+    "momentum": 5.2,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 30,
+    "stars_gained": 31,
     "days_span": 5,
-    "stars_per_day": 6.0,
-    "lifetime_stars_per_day": 2.4,
+    "stars_per_day": 6.2,
+    "lifetime_stars_per_day": 2.41,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -161,9 +161,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:20+00:00",
+  "fetched_at": "2026-10-13T11:50:28+00:00",
   "categories": [
-    "providers",
+    "analytics-2",
     "security-self-hosting",
     "teams"
   ],

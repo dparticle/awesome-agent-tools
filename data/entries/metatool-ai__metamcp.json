@@ -6,8 +6,8 @@
   "url": "https://github.com/metatool-ai/metamcp",
   "description": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
   "homepage": "https://docs.metamcp.com",
-  "stars": 2701,
-  "forks": 436,
+  "stars": 2704,
+  "forks": 438,
   "open_issues": 118,
   "language": "TypeScript",
   "license": "MIT",
@@ -29,27 +29,27 @@
     "vibe-coding"
   ],
   "created_at": "2025-01-22T11:58:52Z",
-  "updated_at": "2026-10-12T05:40:01Z",
+  "updated_at": "2026-10-13T10:02:37Z",
   "pushed_at": "2026-06-22T16:50:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "ai-dev",
   "age_days": 628,
-  "days_since_push": 111,
+  "days_since_push": 112,
   "health_score": 45,
   "health_components": {
     "popularity": 68.6,
-    "momentum": 0.7,
+    "momentum": 1.0,
     "maintenance": 55.0,
     "documentation": 88.0,
     "accessibility": 8.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 4.3,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 4.31,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -154,7 +154,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:51+00:00",
+  "fetched_at": "2026-10-13T11:49:59+00:00",
   "categories": [
     "analytics"
   ],

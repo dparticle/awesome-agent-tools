@@ -6,9 +6,9 @@
   "url": "https://github.com/breferrari/obsidian-mind",
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
   "homepage": "",
-  "stars": 5229,
-  "forks": 591,
-  "open_issues": 12,
+  "stars": 5282,
+  "forks": 599,
+  "open_issues": 25,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "template"
   ],
   "created_at": "2026-02-28T21:41:41Z",
-  "updated_at": "2026-10-12T11:49:52Z",
-  "pushed_at": "2026-10-12T10:39:54Z",
+  "updated_at": "2026-10-13T11:47:01Z",
+  "pushed_at": "2026-10-13T11:22:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 225,
+  "age_days": 226,
   "days_since_push": 0,
-  "health_score": 71,
+  "health_score": 72,
   "health_components": {
-    "popularity": 74.4,
-    "momentum": 49.8,
+    "popularity": 74.5,
+    "momentum": 56.3,
     "maintenance": 100.0,
-    "documentation": 76.0,
-    "accessibility": 48.0
+    "documentation": 81.0,
+    "accessibility": 42.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 299,
+    "stars_gained": 338,
     "days_span": 5,
-    "stars_per_day": 59.8,
-    "lifetime_stars_per_day": 23.24,
+    "stars_per_day": 67.6,
+    "lifetime_stars_per_day": 23.37,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "breferrari/obsidian-mind",
-    "readme_chars": 45031,
+    "readme_chars": 50423,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -62,7 +62,7 @@
     ],
     "capability_evidence": {
       "auto-failover": "r goals (the ShardMind wizard does this for you).",
-      "multi-agent-orchestration": "e note is titled \"Redis Migration ADR.\"",
+      "multi-agent-orchestration": "/scripts/ and the commands in .claude/commands/ are agent-agnostic — pure Markdown, TypeScript, and shell with no SDK dependencies.",
       "memory-context": "",
       "skills-plugins": "A custom skill in .claude/skills/qmd/ that teaches the agent to use QMD semantic search proactively — before reading files, before creating notes (to check for duplicates), and after creating notes (to find related",
       "agent-runtime": "erything still works — the agent falls back to grep and the Obsidian CLI, and the MCP server entry is skipped with a harmless warning.",
@@ -71,16 +71,16 @@
     },
     "capability_hits": {
       "auto-failover": 3,
-      "multi-agent-orchestration": 7,
+      "multi-agent-orchestration": 8,
       "memory-context": 1,
       "skills-plugins": 1,
       "agent-runtime": 3,
-      "mcp-support": 12,
+      "mcp-support": 13,
       "cross-agent-support": 5
     },
     "friction": {
       "level": "moderate",
-      "score": 52,
+      "score": 58,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -91,6 +91,7 @@
         "npm install/build"
       ],
       "config_signals": [
+        "config.json/yaml/toml",
         "database dependency",
         "database migration",
         "server/reverse-proxy setup"
@@ -102,10 +103,10 @@
         "iOS",
         "Web"
       ],
-      "note_en": "Some setup. install via global npm install; needs git clone (build from source), npm install/build; configure database dependency, database migration",
-      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 database dependency、database migration"
+      "note_en": "Some setup. install via global npm install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, database dependency",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、database dependency"
     },
-    "doc_score": 76,
+    "doc_score": 81,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -113,6 +114,7 @@
       "has a quick-start section",
       "documents installation",
       "documents configuration",
+      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
@@ -138,9 +140,10 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.511
+      "external_link_ratio": 0.535
     },
     "highlights": [
+      "Each hook is approved. Codex stores each approval as a trusted_hash under [hooks.state]. Approving them in an interactive codex session is expected to write these (inferred: the #345 check…",
       "Subagents get sharper context. context-loader, review-prep, brag-spotter, and friends consult QMD first, then fall back to grep.",
       "James Bedford — Vault structure philosophy, separation of AI-generated content",
       "Detect your vault version (v1–v3.x, or identify it as a non-obsidian-mind vault)"
@@ -159,13 +162,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:45+00:00",
+  "fetched_at": "2026-10-13T11:49:53+00:00",
   "categories": [
     "analytics",
-    "model-routing",
+    "providers",
     "skills"
   ],
-  "primary_category": "analytics",
+  "primary_category": "providers",
   "lifecycle": {
     "state": "active",
     "note_en": "",

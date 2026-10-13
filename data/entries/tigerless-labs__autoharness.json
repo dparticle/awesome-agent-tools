@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/autoharness",
   "description": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates them as you work, and prunes the ones that stop getting used. No daemon, no benchmark.",
   "homepage": "https://github.com/tigerless-labs/autoharness",
-  "stars": 11013,
-  "forks": 615,
-  "open_issues": 66,
+  "stars": 11048,
+  "forks": 622,
+  "open_issues": 61,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -19,16 +19,16 @@
     "python"
   ],
   "created_at": "2026-06-09T21:05:42Z",
-  "updated_at": "2026-10-12T11:42:11Z",
-  "pushed_at": "2026-10-12T09:52:56Z",
+  "updated_at": "2026-10-13T11:08:07Z",
+  "pushed_at": "2026-10-13T09:27:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 124,
+  "age_days": 125,
   "days_since_push": 0,
   "health_score": 81,
   "health_components": {
-    "popularity": 80.8,
+    "popularity": 80.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 42.0,
@@ -36,16 +36,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1841,
+    "stars_gained": 1511,
     "days_span": 5,
-    "stars_per_day": 368.2,
-    "lifetime_stars_per_day": 88.81,
+    "stars_per_day": 302.2,
+    "lifetime_stars_per_day": 88.38,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tigerless-labs/autoharness",
-    "readme_chars": 22710,
+    "readme_chars": 22970,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -61,7 +61,7 @@
     "capability_hits": {
       "multi-agent-orchestration": 1,
       "skills-plugins": 3,
-      "mcp-support": 4,
+      "mcp-support": 3,
       "notifications": 1
     },
     "friction": {
@@ -104,7 +104,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.308
+      "external_link_ratio": 0.305
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -116,7 +116,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:05+00:00",
+  "fetched_at": "2026-10-13T11:49:19+00:00",
   "categories": [
     "skills"
   ],

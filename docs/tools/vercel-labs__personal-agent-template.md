@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-11 |
-| Last push | 2026-09-02 (39 days ago) |
+| Last push | 2026-09-02 (40 days ago) |
 | Analyzed README | 7,559 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).

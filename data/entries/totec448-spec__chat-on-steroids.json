@@ -6,9 +6,9 @@
   "url": "https://github.com/totec448-spec/chat-on-steroids",
   "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
   "homepage": "",
-  "stars": 4672,
-  "forks": 607,
-  "open_issues": 24,
+  "stars": 4726,
+  "forks": 623,
+  "open_issues": 33,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "windows"
   ],
   "created_at": "2026-08-22T14:16:24Z",
-  "updated_at": "2026-10-12T11:53:34Z",
-  "pushed_at": "2026-10-12T11:53:29Z",
+  "updated_at": "2026-10-13T11:38:40Z",
+  "pushed_at": "2026-10-13T11:27:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 50,
+  "age_days": 51,
   "days_since_push": 0,
   "health_score": 74,
   "health_components": {
-    "popularity": 73.4,
-    "momentum": 71.0,
+    "popularity": 73.5,
+    "momentum": 79.5,
     "maintenance": 100.0,
     "documentation": 33.0,
-    "accessibility": 90.0
+    "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 426,
+    "stars_gained": 477,
     "days_span": 5,
-    "stars_per_day": 85.2,
-    "lifetime_stars_per_day": 93.44,
+    "stars_per_day": 95.4,
+    "lifetime_stars_per_day": 92.67,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "totec448-spec/chat-on-steroids",
-    "readme_chars": 8005,
+    "readme_chars": 8362,
     "capabilities": [
       "auto-failover",
       "mcp-support",
@@ -58,7 +58,7 @@
     ],
     "capability_evidence": {
       "auto-failover": "r, chats and the browser connection wait, and the app says so.",
-      "mcp-support": "n that the provider blocked for safety.",
+      "mcp-support": "tion that the provider blocked for safety.",
       "gui-desktop": ""
     },
     "capability_hits": {
@@ -68,14 +68,15 @@
     },
     "friction": {
       "level": "low",
-      "score": 22,
-      "out_of_the_box": true,
+      "score": 28,
+      "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "native installer / package"
       ],
       "hard_signals": [],
       "config_signals": [
+        "API key configuration",
         "sign-in required"
       ],
       "friendliness_signals": [],
@@ -85,8 +86,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via native installer / package; configure sign-in required",
-      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 sign-in required"
+      "note_en": "Easy. install via native installer / package; configure API key configuration, sign-in required",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 API key configuration、sign-in required"
     },
     "doc_score": 33,
     "doc_signals": [
@@ -108,9 +109,11 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.625
+      "external_link_ratio": 0.598
     },
     "highlights": [
+      "Connect Core (steps 4–7): create a tunnel and a restricted API key at OpenAI, press Connect, then add the app in ChatGPT under Plugins → Add → Add custom MCP server.",
+      "Share a folder and choose access (steps 2–3): the folder ChatGPT may work in, and what it may do there.",
       "Respect limits and access decisions.",
       "Unsigned beta: Windows is not publisher-signed; macOS is unsigned and unnotarized."
     ],
@@ -123,11 +126,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:15+00:00",
+  "fetched_at": "2026-10-13T11:49:27+00:00",
   "categories": [
-    "analytics"
+    "providers"
   ],
-  "primary_category": "analytics",
+  "primary_category": "providers",
   "lifecycle": {
     "state": "active",
     "note_en": "",

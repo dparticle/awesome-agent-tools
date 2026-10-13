@@ -6,7 +6,7 @@
   "url": "https://github.com/Lling0000/Vibe_coding_guide",
   "description": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
   "homepage": "https://lling0000.github.io/Vibe_coding_guide/",
-  "stars": 231,
+  "stars": 232,
   "forks": 22,
   "open_issues": 4,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "worktree"
   ],
   "created_at": "2026-05-05T14:19:27Z",
-  "updated_at": "2026-10-11T10:15:27Z",
+  "updated_at": "2026-10-13T08:25:32Z",
   "pushed_at": "2026-06-25T15:20:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 159,
-  "days_since_push": 108,
+  "age_days": 160,
+  "days_since_push": 109,
   "health_score": 40,
   "health_components": {
     "popularity": 47.3,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 48.0,
     "accessibility": 70.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.45,
     "basis": "history",
     "is_fast_riser": false
@@ -150,10 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:56+00:00",
+  "fetched_at": "2026-10-13T11:51:06+00:00",
   "categories": [
+    "analytics",
     "mobile",
-    "model-routing",
     "skills"
   ],
   "primary_category": "mobile",
@@ -180,14 +180,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 9.03,
-      "momentum_ratio": 12.0,
+      "star_ratio": 8.991,
+      "momentum_ratio": 3.0,
       "setup_delta": -18,
-      "dominance": 1.0,
+      "dominance": 0.937,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "9.03x the stars (2,086 vs 231)",
-        "12.00x the star velocity (0.6/day vs 0.0/day)",
+        "8.99x the stars (2,086 vs 232)",
+        "3.00x the star velocity (0.6/day vs 0.2/day)",
         "no harder to set up (12 vs 30 friction)"
       ],
       "reasons_zh": [],

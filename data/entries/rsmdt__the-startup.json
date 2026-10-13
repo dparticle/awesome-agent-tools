@@ -7,7 +7,7 @@
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
   "stars": 565,
-  "forks": 71,
+  "forks": 70,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
@@ -23,22 +23,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 426,
-  "days_since_push": 69,
+  "age_days": 427,
+  "days_since_push": 70,
   "health_score": 49,
   "health_components": {
     "popularity": 55.0,
-    "momentum": 3.5,
+    "momentum": 2.0,
     "maintenance": 78.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 4.2,
-    "lifetime_stars_per_day": 1.33,
+    "stars_per_day": 2.4,
+    "lifetime_stars_per_day": 1.32,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:18+00:00",
+  "fetched_at": "2026-10-13T11:50:26+00:00",
   "categories": [
     "mobile",
     "skills"
@@ -152,14 +152,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.508,
-      "momentum_ratio": 4.238,
+      "star_ratio": 48.545,
+      "momentum_ratio": 8.167,
       "setup_delta": 2,
-      "dominance": 0.969,
+      "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.51x the stars (27,407 vs 565)",
-        "4.24x the star velocity (17.8/day vs 4.2/day)",
+        "48.55x the stars (27,428 vs 565)",
+        "8.17x the star velocity (19.6/day vs 2.4/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],

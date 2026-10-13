@@ -2,7 +2,7 @@
 
 # Ryze-AI-Adgent/open-seo-mcp-skills
 
-> Open-source SEO + GEO skills for Claude on a free SEO MCP server (the Ryze connector) — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility — running on your own Search Console, Analytics and ads data th…
+> Skip the setup: use the hosted Ryze MCP (Google sign-in, Search Console and GA4 connected in one step, approval-gated changes).
 
 [Repository](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,983 |
-| Star velocity | 107.2/day (history basis, 5d span) |
-| Health score | 73/100 |
+| Stars | 5,230 |
+| Star velocity | 135.4/day (history basis, 5d span) |
+| Health score | 78/100 |
 | Documentation | 43/100 |
-| Tier | ✅ Recommended |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Shell |
 | Created | 2026-08-29 |
-| Last push | 2026-09-24 (18 days ago) |
-| Analyzed README | 6,044 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 6,544 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,7 +42,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 57/100)
+- **Difficulty:** 🟡 Some setup (friction score 50/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
@@ -50,7 +50,7 @@
 
 **Configuration required:** sign-in required
 
-*Some setup. needs git clone (build from source); configure sign-in required*
+*Some setup. needs git clone (build from source); configure sign-in required; one-click setup*
 
 ## Documentation quality
 
@@ -67,11 +67,11 @@ Score **43/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.9 |
-| momentum | 89.3 |
-| maintenance | 92.0 |
+| popularity | 74.4 |
+| momentum | 100.0 |
+| maintenance | 100.0 |
 | documentation | 43.0 |
-| accessibility | 43.0 |
+| accessibility | 50.0 |
 
 ---
 

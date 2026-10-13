@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 8833,
-  "forks": 1085,
-  "open_issues": 765,
+  "stars": 9053,
+  "forks": 1118,
+  "open_issues": 783,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,35 +21,34 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-10-12T11:57:06Z",
-  "pushed_at": "2026-10-12T11:29:47Z",
+  "updated_at": "2026-10-13T11:45:35Z",
+  "pushed_at": "2026-10-13T11:39:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 95,
+  "age_days": 96,
   "days_since_push": 0,
   "health_score": 87,
   "health_components": {
-    "popularity": 78.9,
+    "popularity": 79.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 78.0,
-    "accessibility": 74.0
+    "accessibility": 68.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1205,
+    "stars_gained": 1135,
     "days_span": 5,
-    "stars_per_day": 241.0,
-    "lifetime_stars_per_day": 92.98,
+    "stars_per_day": 227.0,
+    "lifetime_stars_per_day": 94.3,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "TencentCloud/Octop",
-    "readme_chars": 28166,
+    "readme_chars": 28714,
     "capabilities": [
-      "auto-failover",
       "mobile-access",
       "multi-agent-orchestration",
       "parallel-execution",
@@ -67,7 +66,6 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "auto-failover": "h OCTOPDEFAULTPASSWORD unset a strong random password is generated; a password you set must be ≥8 characters with letters and digits (weak/common passwords are rejected by the app password policy and fall back to a rand…",
       "mobile-access": "Linux alongside the web dashboard and IM channels.",
       "multi-agent-orchestration": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "parallel-execution": "",
@@ -78,14 +76,13 @@
       "memory-context": "e notes, and manage your schedule; memory persists with the workspace.",
       "skills-plugins": "",
       "agent-runtime": "",
-      "mcp-support": "e experts, pick templates / MBTI personas, share or publish experts, configure providers",
+      "mcp-support": "Docs, Tencent Meeting, Notion, TickTick, OpenAlex, Feishu CLI, WeCom CLI, Agent Mail, Obsidian, WeKnora, Dify, and more.",
       "self-hosted": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "team-collaboration": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "gui-desktop": "machine — the fully self-hosted design means privacy is never a compromise, while single-process startup makes the powerful web console, CLI, and IM integrations readily accessible.",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
-      "auto-failover": 1,
       "mobile-access": 2,
       "multi-agent-orchestration": 2,
       "parallel-execution": 1,
@@ -96,7 +93,7 @@
       "memory-context": 4,
       "skills-plugins": 1,
       "agent-runtime": 1,
-      "mcp-support": 2,
+      "mcp-support": 5,
       "self-hosted": 4,
       "team-collaboration": 3,
       "gui-desktop": 8,
@@ -104,7 +101,7 @@
     },
     "friction": {
       "level": "low",
-      "score": 26,
+      "score": 32,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -121,6 +118,7 @@
       "config_signals": [
         "config.json/yaml/toml",
         "OAuth login flow",
+        "sign-in required",
         "database dependency",
         "database migration"
       ],
@@ -169,7 +167,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.533
+      "external_link_ratio": 0.557
     },
     "highlights": [
       "Desktop client — native apps for Windows / macOS / Linux; FnOS packages for NAS",
@@ -191,7 +189,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:07+00:00",
+  "fetched_at": "2026-10-13T11:49:21+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
     "skills",

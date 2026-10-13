@@ -12,19 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,695 |
-| Star velocity | 22.2/day (history basis, 5d span) |
-| Health score | 68/100 |
-| Documentation | 62/100 |
+| Stars | 7,725 |
+| Star velocity | 25.2/day (history basis, 5d span) |
+| Health score | 69/100 |
+| Documentation | 66/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-27 |
 | Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 18,648 chars from `raw:HEAD/README.md` |
+| Analyzed README | 21,929 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Multi-agent orchestration
+
+> ec verbatim, and every handoff points at it instead of paraphrasing it.
 
 ### Skills & plugins
 
@@ -40,18 +44,20 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 0/100)
+- **Difficulty:** 🟢 Turnkey (friction score 4/100)
 - **Out of the box:** yes
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install gentleman-programming/tap/gentle-ai`
 
 **Signals that make it easy:** Homebrew install, go install, curl | sh installer, native installer / package
 
-*Turnkey. install via Homebrew install, go install*
+**Configuration required:** database migration
+
+*Turnkey. install via Homebrew install, go install; configure database migration*
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **66/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -62,16 +68,18 @@ Score **62/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - publishes a roadmap
+- reports benchmarks
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 77.7 |
-| momentum | 18.5 |
+| popularity | 77.8 |
+| momentum | 21.0 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
+| documentation | 66.0 |
 | accessibility | 100.0 |
 
 ---

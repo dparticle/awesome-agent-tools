@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,503 |
-| Star velocity | 52.0/day (history basis, 5d span) |
-| Health score | 64/100 |
+| Stars | 1,520 |
+| Star velocity | 41.0/day (history basis, 5d span) |
+| Health score | 62/100 |
 | Documentation | 74/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-08-08 |
-| Last push | 2026-10-09 (2 days ago) |
-| Analyzed README | 76,946 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 77,692 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -93,8 +93,8 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 63.5 |
-| momentum | 43.3 |
+| popularity | 63.6 |
+| momentum | 34.2 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
 | accessibility | 36.0 |

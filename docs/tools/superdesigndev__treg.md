@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,005 |
-| Star velocity | 67.6/day (history basis, 5d span) |
-| Health score | 75/100 |
-| Documentation | 71/100 |
-| Tier | ✅ Recommended |
+| Stars | 5,207 |
+| Star velocity | 84.8/day (history basis, 5d span) |
+| Health score | 79/100 |
+| Documentation | 72/100 |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Python |
 | Created | 2026-07-15 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 29,095 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 30,248 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Billing & metering
 
-> e the code to third parties as a competing hosted/managed registry service without written
+> e code to third parties as a competing hosted/managed registry service without written
 
 ### Skills & plugins
 
@@ -73,7 +73,7 @@
 
 ## Documentation quality
 
-Score **71/100**, based on these detected signals:
+Score **72/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -92,10 +92,10 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.0 |
-| momentum | 56.3 |
+| popularity | 74.3 |
+| momentum | 70.7 |
 | maintenance | 100.0 |
-| documentation | 71.0 |
+| documentation | 72.0 |
 | accessibility | 79.0 |
 
 ---

@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 10113,
-  "forks": 673,
-  "open_issues": 592,
+  "stars": 11169,
+  "forks": 744,
+  "open_issues": 590,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,33 +20,33 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-12T11:58:35Z",
-  "pushed_at": "2026-10-12T11:52:43Z",
+  "updated_at": "2026-10-13T11:48:55Z",
+  "pushed_at": "2026-10-13T10:44:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 18,
+  "age_days": 19,
   "days_since_push": 0,
   "health_score": 87,
   "health_components": {
-    "popularity": 80.1,
+    "popularity": 81.0,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 58.0,
+    "documentation": 61.0,
     "accessibility": 90.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4446,
+    "stars_gained": 4621,
     "days_span": 5,
-    "stars_per_day": 889.2,
-    "lifetime_stars_per_day": 561.83,
+    "stars_per_day": 924.2,
+    "lifetime_stars_per_day": 587.84,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 18021,
+    "readme_chars": 17954,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -101,7 +101,7 @@
       "note_en": "Turnkey. install via go install, curl | sh installer; configure API key configuration, config file; one-click setup",
       "note_zh": "开箱即用。可通过 go install、curl | sh installer 安装；需配置 API key configuration、config file；one-click setup"
     },
-    "doc_score": 58,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -110,7 +110,8 @@
       "documents installation",
       "documents configuration",
       "mentions licensing",
-      "has a Chinese translation"
+      "has a Chinese translation",
+      "explains architecture"
     ],
     "agents": [
       "Claude Code",
@@ -133,7 +134,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.776
+      "external_link_ratio": 1.838
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -155,12 +156,12 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-12T11:59:55+00:00",
+  "fetched_at": "2026-10-13T11:49:09+00:00",
   "categories": [
-    "accounts",
-    "sharing"
+    "accounts-quota",
+    "voice"
   ],
-  "primary_category": "sharing",
+  "primary_category": "accounts-quota",
   "lifecycle": {
     "state": "active",
     "note_en": "",

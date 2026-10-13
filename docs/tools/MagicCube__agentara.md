@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 516 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 38/100 |
 | Documentation | 60/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-03-05 |
-| Last push | 2026-05-11 (154 days ago) |
+| Last push | 2026-05-11 (155 days ago) |
 | Analyzed README | 9,208 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code)** — Superseded by aoci-spec/aoci-code: covers 100% of capabilities (5/5).
@@ -74,7 +74,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.3 |
-| momentum | 0.2 |
+| momentum | 0.0 |
 | maintenance | 55.0 |
 | documentation | 60.0 |
 | accessibility | 16.0 |

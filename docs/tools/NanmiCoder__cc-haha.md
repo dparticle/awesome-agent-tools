@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,974 |
-| Star velocity | 16.4/day (history basis, 5d span) |
+| Stars | 14,985 |
+| Star velocity | 15.0/day (history basis, 5d span) |
 | Health score | 65/100 |
-| Documentation | 56/100 |
+| Documentation | 57/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-31 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 7,076 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 7,935 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,9 +44,11 @@
 
 ### Billing & metering
 
-> 过程中有问题、想反馈 Bug，或者想看看别人怎么用，欢迎扫码加入 cc-haha 企业微信用户群。
+> GPT、Claude、Gemini、Grok 等主流模型和常用兼容协议，还支持 40 多种图片和视频模型。
 
 ### Usage analytics
+
+> ：满血稳定不掺水，低成本享受全球 SOTA 模型。
 
 ### Session persistence
 
@@ -86,7 +88,7 @@
 
 ## Documentation quality
 
-Score **56/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -104,9 +106,9 @@ Score **56/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.5 |
-| momentum | 13.7 |
+| momentum | 12.5 |
 | maintenance | 100.0 |
-| documentation | 56.0 |
+| documentation | 57.0 |
 | accessibility | 79.0 |
 
 ---

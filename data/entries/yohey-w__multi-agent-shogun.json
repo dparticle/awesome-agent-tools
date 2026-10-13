@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 260,
-  "days_since_push": 67,
+  "age_days": 261,
+  "days_since_push": 68,
   "health_score": 51,
   "health_components": {
     "popularity": 63.1,
@@ -44,7 +44,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 5.48,
+    "lifetime_stars_per_day": 5.46,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -192,13 +192,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:57+00:00",
+  "fetched_at": "2026-10-13T11:50:04+00:00",
   "categories": [
+    "analytics",
     "mobile",
-    "mobile-2",
     "model-routing"
   ],
-  "primary_category": "mobile-2",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

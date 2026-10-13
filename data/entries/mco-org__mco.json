@@ -6,8 +6,8 @@
   "url": "https://github.com/mco-org/mco",
   "description": "CLI-first orchestration for AI coding agents: run selected agents and models in parallel, compare raw answers, and coordinate review or implementation workflows.",
   "homepage": "",
-  "stars": 532,
-  "forks": 59,
+  "stars": 536,
+  "forks": 60,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -32,27 +32,27 @@
     "windsurf"
   ],
   "created_at": "2026-02-26T07:25:48Z",
-  "updated_at": "2026-10-10T22:11:22Z",
+  "updated_at": "2026-10-13T09:51:18Z",
   "pushed_at": "2026-10-07T10:58:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 228,
-  "days_since_push": 5,
+  "age_days": 229,
+  "days_since_push": 6,
   "health_score": 56,
   "health_components": {
-    "popularity": 54.5,
-    "momentum": 0.3,
+    "popularity": 54.6,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 93.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.33,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 2.34,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:20+00:00",
+  "fetched_at": "2026-10-13T11:50:29+00:00",
   "categories": [
     "model-routing",
     "skills"

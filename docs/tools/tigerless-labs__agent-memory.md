@@ -12,9 +12,9 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,402 |
-| Star velocity | 204.6/day (history basis, 5d span) |
-| Health score | 76/100 |
+| Stars | 3,405 |
+| Star velocity | 151.8/day (history basis, 5d span) |
+| Health score | 77/100 |
 | Documentation | 62/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
@@ -22,7 +22,7 @@
 | Language | Python |
 | Created | 2026-09-01 |
 | Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 21,194 chars from `raw:HEAD/README.md` |
+| Analyzed README | 22,473 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,11 +30,11 @@
 
 ### Model / provider routing
 
-> rant the calling identity
+> etup and mem doctor report configuration and live-preflight results separately as Write
 
 ### API gateway / proxy
 
-> rant the calling identity
+> etup and mem doctor report configuration and live-preflight results separately as Write
 
 ### Memory & context
 
@@ -50,15 +50,15 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 81/100)
+- **Difficulty:** 🔴 Involved (friction score 69/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
 **Signals that add work:** git clone (build from source)
 
-**Configuration required:** API key configuration, config.json/yaml/toml, sign-in required, database dependency, database migration
+**Configuration required:** API key configuration, database dependency, database migration
 
-*Involved setup. needs git clone (build from source); configure API key configuration, config.json/yaml/toml*
+*Involved setup. needs git clone (build from source); configure API key configuration, database dependency*
 
 ## Documentation quality
 
@@ -83,7 +83,7 @@ Score **62/100**, based on these detected signals:
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
-| accessibility | 19.0 |
+| accessibility | 31.0 |
 
 ---
 

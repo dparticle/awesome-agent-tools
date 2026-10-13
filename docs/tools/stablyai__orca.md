@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 90,273 |
-| Star velocity | 681.2/day (history basis, 5d span) |
+| Stars | 91,150 |
+| Star velocity | 718.8/day (history basis, 5d span) |
 | Health score | 92/100 |
 | Documentation | 51/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-17 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 17,477 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 17,363 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,9 +44,11 @@
 
 ### Parallel execution
 
+> ### Mobile Companion Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. iOS App Store · Android APK · Docs → ### Parallel Worktrees Fan one prompt acro…
+
 ### Workspace isolation
 
-> agent finishes and send follow-ups from anywhere.
+> when an agent finishes and send follow-ups from anywhere.
 
 ### Usage analytics
 
@@ -98,7 +100,7 @@ Score **51/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 99.1 |
+| popularity | 99.2 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 51.0 |

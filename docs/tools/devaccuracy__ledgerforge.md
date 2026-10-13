@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 385 |
-| Star velocity | 2.5/day (lifetime basis, 155d span) |
+| Stars | 410 |
+| Star velocity | 2.6/day (lifetime basis, 156d span) |
 | Health score | 50/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-05-10 |
-| Last push | 2026-10-10 (2 days ago) |
+| Last push | 2026-10-10 (3 days ago) |
 | Analyzed README | 12,267 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -76,8 +76,8 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.7 |
-| momentum | 2.1 |
+| popularity | 52.3 |
+| momentum | 2.2 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 48.0 |

@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,970 |
+| Stars | 3,974 |
 | Star velocity | 6.2/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 34/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-10-06 (6 days ago) |
+| Last push | 2026-10-06 (7 days ago) |
 | Analyzed README | 8,664 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** — Superseded by omnigent-ai/omnigent: covers 100% of capabilities (9/9).
 
 ## What it solves
 

@@ -21,14 +21,14 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-04-14 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 21,637 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 21,861 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Memory & context
 
-> assembly: craft.yaml, capabilities, plugin host, host primitives, manager Versioned Go module
+> transcription, and the Wan
 
 ### Skills & plugins
 

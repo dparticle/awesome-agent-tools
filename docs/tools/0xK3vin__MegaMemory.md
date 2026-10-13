@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 723 |
-| Star velocity | 2.0/day (history basis, 5d span) |
+| Stars | 722 |
+| Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 43/100 |
 | Documentation | 44/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-06 |
-| Last push | 2026-05-03 (162 days ago) |
+| Last push | 2026-05-03 (163 days ago) |
 | Analyzed README | 9,017 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram)** — Superseded by Gentleman-Programming/engram: covers 100% of capabilities (5/5).
@@ -78,7 +78,7 @@ Score **44/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 57.2 |
-| momentum | 1.7 |
+| momentum | 1.0 |
 | maintenance | 55.0 |
 | documentation | 44.0 |
 | accessibility | 72.0 |

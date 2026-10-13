@@ -18,23 +18,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
-  "days_since_push": 80,
+  "age_days": 248,
+  "days_since_push": 81,
   "health_score": 41,
   "health_components": {
     "popularity": 48.0,
-    "momentum": 0.8,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 32.0,
     "accessibility": 54.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 251,
-    "days_span": 247,
-    "stars_per_day": 1.02,
-    "lifetime_stars_per_day": 1.02,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.01,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -128,12 +128,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:49+00:00",
+  "fetched_at": "2026-10-13T11:50:57+00:00",
   "categories": [
-    "accounts",
-    "sharing"
+    "accounts-quota",
+    "analytics-2"
   ],
-  "primary_category": "sharing",
+  "primary_category": "accounts-quota",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).",
@@ -156,14 +156,14 @@
         "quota-management",
         "usage-analytics"
       ],
-      "star_ratio": 75.159,
-      "momentum_ratio": 34.118,
+      "star_ratio": 75.327,
+      "momentum_ratio": 748.0,
       "setup_delta": -26,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "75.16x the stars (18,865 vs 251)",
-        "34.12x the star velocity (34.8/day vs 1.0/day)",
+        "75.33x the stars (18,907 vs 251)",
+        "748.00x the star velocity (37.4/day vs 0.0/day)",
         "no harder to set up (20 vs 46 friction)"
       ],
       "reasons_zh": [],

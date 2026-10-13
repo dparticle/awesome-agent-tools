@@ -6,7 +6,7 @@
   "url": "https://github.com/0xK3vin/MegaMemory",
   "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
   "homepage": "",
-  "stars": 723,
+  "stars": 722,
   "forks": 75,
   "open_issues": 4,
   "language": "TypeScript",
@@ -29,27 +29,27 @@
     "typescript"
   ],
   "created_at": "2026-02-06T07:40:49Z",
-  "updated_at": "2026-10-10T18:26:27Z",
+  "updated_at": "2026-10-13T06:15:43Z",
   "pushed_at": "2026-05-03T00:22:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 248,
-  "days_since_push": 162,
+  "age_days": 249,
+  "days_since_push": 163,
   "health_score": 43,
   "health_components": {
     "popularity": 57.2,
-    "momentum": 1.7,
+    "momentum": 1.0,
     "maintenance": 55.0,
     "documentation": 44.0,
     "accessibility": 72.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 2.0,
-    "lifetime_stars_per_day": 2.92,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 2.9,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,7 +139,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:14+00:00",
+  "fetched_at": "2026-10-13T11:50:21+00:00",
   "categories": [
     "analytics"
   ],
@@ -166,14 +166,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 9.884,
-      "momentum_ratio": 7.6,
+      "star_ratio": 9.918,
+      "momentum_ratio": 12.333,
       "setup_delta": 6,
       "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "9.88x the stars (7,146 vs 723)",
-        "7.60x the star velocity (15.2/day vs 2.0/day)",
+        "9.92x the stars (7,161 vs 722)",
+        "12.33x the star velocity (14.8/day vs 1.2/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],

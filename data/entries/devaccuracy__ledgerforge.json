@@ -6,7 +6,7 @@
   "url": "https://github.com/devaccuracy/ledgerforge",
   "description": "The ledger for AI-native money movement. An open-source double-entry ledger for wallets, payouts, marketplaces and billing, with exact integer money, a verifiable audit chain, server-enforced spending limits and approvals for AI agents, and an MCP server. Apache 2.0.",
   "homepage": "https://ledgerforge.io",
-  "stars": 385,
+  "stars": 410,
   "forks": 44,
   "open_issues": 0,
   "language": "Go",
@@ -21,27 +21,27 @@
     "wallet"
   ],
   "created_at": "2026-05-10T09:41:41Z",
-  "updated_at": "2026-10-12T11:55:21Z",
+  "updated_at": "2026-10-13T09:05:32Z",
   "pushed_at": "2026-10-10T09:36:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 155,
-  "days_since_push": 2,
+  "age_days": 156,
+  "days_since_push": 3,
   "health_score": 50,
   "health_components": {
-    "popularity": 51.7,
-    "momentum": 2.1,
+    "popularity": 52.3,
+    "momentum": 2.2,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 48.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 385,
-    "days_span": 155,
-    "stars_per_day": 2.48,
-    "lifetime_stars_per_day": 2.48,
+    "stars_gained": 410,
+    "days_span": 156,
+    "stars_per_day": 2.63,
+    "lifetime_stars_per_day": 2.63,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -120,7 +120,7 @@
       "Traceable releases: binaries for Linux, macOS and Windows, multi-platform",
       "A hardened API: owner-bound key management, constrained delegation,",
       "Deployment: secrets, TLS, limits and webhook verification",
-      "Usage-based billing: record metered charges in exact units, queue or"
+      "Security operations: API keys, delegation and rotation"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -131,12 +131,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:01:33+00:00",
+  "fetched_at": "2026-10-13T11:50:41+00:00",
   "categories": [
-    "providers",
-    "security-self-hosting"
+    "security-self-hosting",
+    "sharing"
   ],
-  "primary_category": "providers",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

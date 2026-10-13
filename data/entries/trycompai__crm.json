@@ -6,34 +6,34 @@
   "url": "https://github.com/trycompai/crm",
   "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
   "homepage": "https://trycrm.ai",
-  "stars": 11239,
-  "forks": 1609,
+  "stars": 11266,
+  "forks": 1613,
   "open_issues": 50,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-31T21:38:51Z",
-  "updated_at": "2026-10-12T11:39:14Z",
+  "updated_at": "2026-10-13T10:30:29Z",
   "pushed_at": "2026-09-11T07:06:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "release",
-  "age_days": 72,
-  "days_since_push": 31,
+  "age_days": 73,
+  "days_since_push": 32,
   "health_score": 52,
   "health_components": {
     "popularity": 81.0,
-    "momentum": 20.5,
+    "momentum": 21.3,
     "maintenance": 78.0,
     "documentation": 48.0,
     "accessibility": 10.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 123,
+    "stars_gained": 128,
     "days_span": 5,
-    "stars_per_day": 24.6,
-    "lifetime_stars_per_day": 156.1,
+    "stars_per_day": 25.6,
+    "lifetime_stars_per_day": 154.33,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -104,8 +104,8 @@
     },
     "highlights": [
       "Under Authorised redirect URIs, add http://localhost:3001/api/auth/callback/google.",
-      "API permissions → Add a permission → Microsoft Graph → **Delegated",
       "Intelligence never lives in the API (docs/api.md).",
+      "API permissions → Add a permission → Microsoft Graph → **Delegated",
       "Google Cloud console → Credentials → Create credentials → OAuth client ID → Web application."
     ],
     "summary_zh_native": "",
@@ -117,11 +117,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-12T12:00:04+00:00",
+  "fetched_at": "2026-10-13T11:49:18+00:00",
   "categories": [
-    "providers"
+    "sharing"
   ],
-  "primary_category": "providers",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",
