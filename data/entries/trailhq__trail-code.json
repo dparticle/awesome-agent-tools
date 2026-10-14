@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "full_name": "trailhq/Graft",
-  "name": "Graft",
+  "full_name": "trailhq/Trail-Code",
+  "name": "Trail-Code",
   "owner": "trailhq",
-  "url": "https://github.com/trailhq/Graft",
+  "url": "https://github.com/trailhq/Trail-Code",
   "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
   "homepage": "https://trailhq.com/graft",
-  "stars": 9944,
-  "forks": 879,
-  "open_issues": 241,
+  "stars": 9987,
+  "forks": 883,
+  "open_issues": 243,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,33 +31,33 @@
     "tree-sitter"
   ],
   "created_at": "2026-07-03T13:44:21Z",
-  "updated_at": "2026-10-13T11:46:51Z",
-  "pushed_at": "2026-10-13T11:47:51Z",
+  "updated_at": "2026-10-14T09:07:11Z",
+  "pushed_at": "2026-10-13T22:18:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 101,
+  "age_days": 102,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 78,
   "health_components": {
     "popularity": 80.0,
-    "momentum": 29.0,
+    "momentum": 81.6,
     "maintenance": 100.0,
     "documentation": 59.0,
-    "accessibility": 63.0
+    "accessibility": 57.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 174,
-    "days_span": 5,
-    "stars_per_day": 34.8,
-    "lifetime_stars_per_day": 98.46,
-    "basis": "history",
+    "stars_gained": 9987,
+    "days_span": 102,
+    "stars_per_day": 97.91,
+    "lifetime_stars_per_day": 97.91,
+    "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
-    "full_name": "trailhq/Graft",
-    "readme_chars": 43978,
+    "full_name": "trailhq/Trail-Code",
+    "readme_chars": 45778,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -87,7 +87,7 @@
     },
     "friction": {
       "level": "moderate",
-      "score": 37,
+      "score": 43,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -100,14 +100,15 @@
       ],
       "config_signals": [
         "config.json/yaml/toml",
+        "sign-in required",
         "database dependency"
       ],
       "friendliness_signals": [],
       "platforms": [
         "Linux"
       ],
-      "note_en": "Some setup. install via npx one-liner, global npm install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, database dependency",
-      "note_zh": "需要一些配置。可通过 npx one-liner、global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、database dependency"
+      "note_en": "Some setup. install via npx one-liner, global npm install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required",
+      "note_zh": "需要一些配置。可通过 npx one-liner、global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、sign-in required"
     },
     "doc_score": 59,
     "doc_signals": [
@@ -131,7 +132,7 @@
     ],
     "summary_en": "You correct it, and by the next session it has forgotten.",
     "summary_zh": "",
-    "install_hint": "npm install -g @nanonets/graft   # install the CLI, once",
+    "install_hint": "npm install -g @trailhq/trail",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
@@ -139,7 +140,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.136
+      "external_link_ratio": 0.131
     },
     "highlights": [
       "Entry-point trace — Trace end-to-end what happens when a client creates a record via the REST API, from route handler to database write.",
@@ -156,77 +157,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:20+00:00",
+  "fetched_at": "2026-10-14T09:32:54+00:00",
   "categories": [
-    "sharing",
+    "model-routing",
     "skills",
-    "voice"
+    "teams"
   ],
-  "primary_category": "sharing",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "nexu-io/open-design",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "trailhq/graft",
-      "challenger": "nexu-io/open-design",
-      "incumbent_name": "trailhq/Graft",
-      "challenger_name": "nexu-io/open-design",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "billing-metering",
-        "cross-agent-support",
-        "mcp-support",
-        "model-routing",
-        "skills-plugins"
-      ],
-      "star_ratio": 10.145,
-      "momentum_ratio": 5.213,
-      "setup_delta": -8,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "10.14x the stars (100,877 vs 9,944)",
-        "5.21x the star velocity (181.4/day vs 34.8/day)",
-        "no harder to set up (29 vs 37 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "mcp-support",
-          "model-routing",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "quota-distribution",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "incumbent_health": 66,
-        "challenger_health": 95,
-        "incumbent_setup_score": 37,
-        "challenger_setup_score": 29
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

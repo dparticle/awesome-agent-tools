@@ -6,9 +6,9 @@
   "url": "https://github.com/grpcer/ownmem",
   "description": "Open-source, Git-native memory for AI coding agents — deterministic local recall for Claude Code, Codex, Cursor, Gemini CLI, and compatible tools.",
   "homepage": "https://www.npmjs.com/package/ownmem",
-  "stars": 423,
-  "forks": 7,
-  "open_issues": 1,
+  "stars": 426,
+  "forks": 8,
+  "open_issues": 0,
   "language": "JavaScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "project-memory"
   ],
   "created_at": "2026-08-16T12:45:36Z",
-  "updated_at": "2026-10-12T12:02:22Z",
-  "pushed_at": "2026-10-11T15:34:33Z",
+  "updated_at": "2026-10-14T09:02:02Z",
+  "pushed_at": "2026-10-14T05:34:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 57,
-  "days_since_push": 1,
+  "age_days": 58,
+  "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 52.5,
-    "momentum": 0.0,
+    "popularity": 52.6,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 7.42,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 7.34,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:39+00:00",
+  "fetched_at": "2026-10-14T09:34:14+00:00",
   "categories": [
     "analytics"
   ],
@@ -170,14 +170,14 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 11.21,
-      "momentum_ratio": 180.0,
+      "star_ratio": 11.164,
+      "momentum_ratio": 17.0,
       "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "11.21x the stars (4,742 vs 423)",
-        "180.00x the star velocity (9.0/day vs 0.0/day)",
+        "11.16x the stars (4,756 vs 426)",
+        "17.00x the star velocity (10.2/day vs 0.6/day)",
         "no harder to set up (24 vs 25 friction)"
       ],
       "reasons_zh": [],

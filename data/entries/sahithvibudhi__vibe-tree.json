@@ -6,7 +6,7 @@
   "url": "https://github.com/sahithvibudhi/vibe-tree",
   "description": "Run AI coding agents in parallel, one git worktree each. Desktop, web, and CLI.",
   "homepage": "https://sahithvibudhi.github.io/vibe-tree/",
-  "stars": 269,
+  "stars": 268,
   "forks": 31,
   "open_issues": 13,
   "language": "TypeScript",
@@ -21,26 +21,26 @@
     "vibe-coding"
   ],
   "created_at": "2025-07-29T07:18:49Z",
-  "updated_at": "2026-10-11T07:42:17Z",
+  "updated_at": "2026-10-13T12:49:51Z",
   "pushed_at": "2026-07-25T19:30:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 441,
-  "days_since_push": 79,
+  "age_days": 442,
+  "days_since_push": 80,
   "health_score": 47,
   "health_components": {
     "popularity": 48.6,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 42.0,
     "accessibility": 94.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.61,
     "basis": "history",
     "is_fast_riser": false
@@ -143,79 +143,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:56+00:00",
+  "fetched_at": "2026-10-14T09:34:33+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile"
+    "analytics-2",
+    "desktop-ui"
   ],
-  "primary_category": "mobile",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by h0x91b/dev-3.0: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 h0x91b/dev-3.0 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "h0x91b/dev-3.0",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "sahithvibudhi/vibe-tree",
-      "challenger": "h0x91b/dev-3.0",
-      "incumbent_name": "sahithvibudhi/vibe-tree",
-      "challenger_name": "h0x91b/dev-3.0",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "parallel-execution",
-        "remote-control",
-        "session-persistence",
-        "worktree-isolation"
-      ],
-      "star_ratio": 1.152,
-      "momentum_ratio": 1.5,
-      "setup_delta": -2,
-      "dominance": 0.633,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "1.15x the stars (310 vs 269)",
-        "1.50x the star velocity (0.6/day vs 0.4/day)",
-        "no harder to set up (12 vs 14 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "parallel-execution",
-          "remote-control",
-          "session-persistence",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "quota-management",
-          "remote-control",
-          "session-persistence",
-          "skills-plugins",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 55,
-        "incumbent_setup_score": 14,
-        "challenger_setup_score": 12
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

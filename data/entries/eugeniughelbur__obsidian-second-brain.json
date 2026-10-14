@@ -6,8 +6,8 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault. Stop re-explaining your projects, decisions and people every session. 45 commands: hybrid semantic search, self-rewriting notes, key-less web research, and scheduled agents that maintain the vault while you sleep.",
   "homepage": "https://theaioperator.io",
-  "stars": 4742,
-  "forks": 583,
+  "stars": 4756,
+  "forks": 586,
   "open_issues": 11,
   "language": "Python",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "second-brain"
   ],
   "created_at": "2026-03-24T11:58:12Z",
-  "updated_at": "2026-10-13T11:47:03Z",
+  "updated_at": "2026-10-14T07:04:23Z",
   "pushed_at": "2026-10-10T21:14:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 202,
-  "days_since_push": 2,
+  "age_days": 203,
+  "days_since_push": 3,
   "health_score": 62,
   "health_components": {
     "popularity": 73.5,
-    "momentum": 7.5,
+    "momentum": 8.5,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 76.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 45,
+    "stars_gained": 51,
     "days_span": 5,
-    "stars_per_day": 9.0,
-    "lifetime_stars_per_day": 23.48,
+    "stars_per_day": 10.2,
+    "lifetime_stars_per_day": 23.43,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -179,10 +179,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:55+00:00",
+  "fetched_at": "2026-10-14T09:33:33+00:00",
   "categories": [
     "analytics",
-    "model-routing",
+    "self-hosting-security",
     "skills"
   ],
   "primary_category": "analytics",

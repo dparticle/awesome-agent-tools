@@ -6,9 +6,9 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 872,
+  "stars": 873,
   "forks": 106,
-  "open_issues": 1,
+  "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -31,117 +31,80 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-13T02:32:07Z",
-  "pushed_at": "2026-10-11T19:36:00Z",
+  "updated_at": "2026-10-14T09:24:01Z",
+  "pushed_at": "2026-10-14T09:24:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 299,
-  "days_since_push": 1,
-  "health_score": 54,
+  "age_days": 300,
+  "days_since_push": 0,
+  "health_score": 52,
   "health_components": {
     "popularity": 58.8,
-    "momentum": 3.7,
+    "momentum": 3.3,
     "maintenance": 100.0,
-    "documentation": 66.0,
-    "accessibility": 51.0
+    "documentation": 49.0,
+    "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 22,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 4.4,
-    "lifetime_stars_per_day": 2.92,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 2.91,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "hex/claude-council",
-    "readme_chars": 54819,
+    "readme_chars": 8208,
     "capabilities": [
-      "auto-failover",
       "multi-agent-orchestration",
       "parallel-execution",
-      "worktree-isolation",
-      "model-routing",
-      "billing-metering",
-      "session-persistence",
-      "skills-plugins",
       "agent-runtime",
-      "mcp-support",
-      "security-isolation",
-      "team-collaboration",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "auto-failover": "end much of the budget on thinking that never reaches the answer):",
-      "multi-agent-orchestration": "omplete digest says so where both",
-      "parallel-execution": "If you have no provider keys and no codex / agy / grok / kimi / cursor-agent CLI and no",
-      "worktree-isolation": "e inside a subagent the ambient session",
-      "model-routing": "r (codex, antigravity, grok-cli, kimi-cli, cursor-cli) it stays",
-      "billing-metering": "Grok's token accounting depends on the model: grok-build counts thinking tokens separately, so maxtokens caps only its visible output; the other reasoning models (grok-4*, *-reasoning, grok-3-mini-*) share one budget be…",
-      "session-persistence": "ence, so it gets the same prompt as every other seat and none of your setup: no CLAUDE.md, settings, plugins, hooks (this plugin's Stop gate included), MCP servers or tools, and nothing lands in your session history.",
-      "skills-plugins": "rectory, a run writes its watch directory there and does not open tmux.",
+      "multi-agent-orchestration": "",
+      "parallel-execution": "",
       "agent-runtime": "",
-      "mcp-support": "tting-sources \"\" --tools \"\" --no-session-persistence, so it gets the same prompt as every other seat and none of your setup: no CLAUDE.md, settings, plugins, hooks (this plugin's Stop gate included), MCP servers or tool…",
-      "security-isolation": "",
-      "team-collaboration": "",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
-      "auto-failover": 2,
-      "multi-agent-orchestration": 2,
-      "parallel-execution": 2,
-      "worktree-isolation": 2,
-      "model-routing": 2,
-      "billing-metering": 1,
-      "session-persistence": 1,
-      "skills-plugins": 1,
+      "multi-agent-orchestration": 1,
+      "parallel-execution": 1,
       "agent-runtime": 1,
-      "mcp-support": 2,
-      "security-isolation": 1,
-      "team-collaboration": 1,
       "cross-agent-support": 3
     },
     "friction": {
       "level": "moderate",
-      "score": 49,
+      "score": 42,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
-      "easy_signals": [
-        "native installer / package"
-      ],
-      "hard_signals": [
-        "git clone (build from source)"
-      ],
+      "easy_signals": [],
+      "hard_signals": [],
       "config_signals": [
         "environment variables",
-        "API key configuration",
-        "config.json/yaml/toml",
-        "sign-in required"
+        "API key configuration"
       ],
       "friendliness_signals": [],
       "platforms": [
         "macOS",
         "Windows",
-        "Linux",
-        "Web"
+        "Linux"
       ],
-      "note_en": "Some setup. install via native installer / package; needs git clone (build from source); configure environment variables, API key configuration",
-      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 environment variables、API key configuration"
+      "note_en": "Some setup. configure environment variables, API key configuration",
+      "note_zh": "需要一些配置。需配置 environment variables、API key configuration"
     },
-    "doc_score": 66,
+    "doc_score": 49,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
       "has a quick-start section",
       "documents installation",
-      "documents configuration",
-      "links to dedicated docs",
-      "reports benchmarks",
-      "explains architecture",
-      "long, detailed README"
+      "has troubleshooting/FAQ",
+      "explains architecture"
     ],
     "agents": [
       "Claude Code",
@@ -156,13 +119,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.036
+      "external_link_ratio": 0.0
     },
     "highlights": [
-      "kimi-cli (Kimi Code CLI, kimi) shadows the kimi API provider, using the kimi CLI's own configured model unless KIMICLIMODEL is set",
-      "Use the codex, agy (Antigravity), grok, kimi (Kimi Code) and cursor-agent (Cursor) CLIs (subscription auth) when installed; the first four are preferred over their API siblings",
-      "Debate mode round 2 rebuttals are not cached (they depend on round 1 content) — with one exception: if a CLI provider fails in round 2 and falls back to its API sibling, that fallback rebut…",
-      "Seat any model OpenRouter routes to — Anthropic's Claude by default, so the council"
+      "claude-cli seats Claude Code itself on your subscription, without your",
+      "CLIs come first. codex stands in for openai, antigravity for",
+      "OpenRouter seats any model it routes, Claude by default."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -173,18 +135,65 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:18+00:00",
+  "fetched_at": "2026-10-14T09:33:55+00:00",
   "categories": [
-    "mobile",
-    "model-routing",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
-  "primary_category": "mobile",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rlaope/oh-my-hermes: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 rlaope/oh-my-hermes 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "rlaope/oh-my-hermes",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "hex/claude-council",
+      "challenger": "rlaope/oh-my-hermes",
+      "incumbent_name": "hex/claude-council",
+      "challenger_name": "rlaope/oh-my-hermes",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "multi-agent-orchestration",
+        "parallel-execution"
+      ],
+      "star_ratio": 3.855,
+      "momentum_ratio": 6.55,
+      "setup_delta": -29,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "3.85x the stars (3,365 vs 873)",
+        "6.55x the star velocity (26.2/day vs 4.0/day)",
+        "no harder to set up (13 vs 42 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "multi-agent-orchestration",
+          "parallel-execution"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 67,
+        "incumbent_setup_score": 42,
+        "challenger_setup_score": 13
+      }
+    }
   }
 }

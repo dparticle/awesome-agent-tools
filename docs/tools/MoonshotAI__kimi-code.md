@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,851 |
-| Star velocity | 10.4/day (history basis, 5d span) |
+| Stars | 7,865 |
+| Star velocity | 10.8/day (history basis, 5d span) |
 | Health score | 60/100 |
 | Documentation | 56/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-22 |
-| Last push | 2026-10-13 (0 days ago) |
+| Last push | 2026-10-14 (0 days ago) |
 | Analyzed README | 5,316 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -84,7 +82,7 @@ Score **56/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 77.9 |
-| momentum | 8.7 |
+| momentum | 9.0 |
 | maintenance | 100.0 |
 | documentation | 56.0 |
 | accessibility | 57.0 |

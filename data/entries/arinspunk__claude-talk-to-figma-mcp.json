@@ -6,7 +6,7 @@
   "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp",
   "description": "A Model Context Protocol (MCP) that allows Claude Desktop and other AI tools (Claude Code, Cursor, Antigravity, etc.) to read, analyze, and modify Figma designs",
   "homepage": "",
-  "stars": 670,
+  "stars": 671,
   "forks": 131,
   "open_issues": 8,
   "language": "TypeScript",
@@ -24,27 +24,27 @@
     "windsurf-ai"
   ],
   "created_at": "2025-04-04T21:38:32Z",
-  "updated_at": "2026-10-13T09:15:31Z",
+  "updated_at": "2026-10-14T04:20:39Z",
   "pushed_at": "2026-04-18T15:43:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 556,
-  "days_since_push": 177,
+  "age_days": 557,
+  "days_since_push": 178,
   "health_score": 48,
   "health_components": {
     "popularity": 56.5,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 55.0,
     "documentation": 61.0,
     "accessibility": 96.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.21,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 1.2,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,13 +134,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:24+00:00",
+  "fetched_at": "2026-10-14T09:34:01+00:00",
   "categories": [
-    "analytics",
-    "model-routing",
+    "agent-runtime-desktop-ui",
     "skills"
   ],
-  "primary_category": "analytics",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

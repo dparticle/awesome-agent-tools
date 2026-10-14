@@ -2,7 +2,7 @@
 
 # nexu-io/open-design
 
-> OpenDesign is a collaborative design agent workspace.
+> OpenDesign is the 1st collaborative AI design agent workspace.
 
 [Repository](https://github.com/nexu-io/open-design) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 100,877 |
-| Star velocity | 181.4/day (history basis, 5d span) |
+| Stars | 101,051 |
+| Star velocity | 182.8/day (history basis, 5d span) |
 | Health score | 95/100 |
 | Documentation | 92/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-04-28 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 55,907 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 53,955 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,23 +40,17 @@
 
 ### Quota sharing / splitting
 
-> ## What is OpenDesign OpenDesign is a collaborative design agent workspace.
-
-### Billing & metering
-
-> 0+ functional skills · rendering templates · 277 plugins
-
 ### Session persistence
 
 > ive runtime adapters for agents that OD launches directly.
 
 ### Skills & plugins
 
-> eedback, and let your agent refine it in the same project.
+> cial plugins plus 183 remixable reference examples live in plugins/official/.
 
 ### Agent runtime
 
-> ais · 简体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Українська · Türkçe · ภาษาไทย
+> then download or open it.
 
 ### MCP support
 
@@ -64,7 +58,7 @@
 
 ### Self-hostable
 
-> started delivering design artifacts directly.
+> one can author and publish.
 
 ### GUI / desktop app
 

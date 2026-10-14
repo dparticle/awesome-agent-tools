@@ -6,8 +6,8 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
   "homepage": "https://gilded-laurel-c7nj.here.now/",
-  "stars": 27428,
-  "forks": 2269,
+  "stars": 27443,
+  "forks": 2272,
   "open_issues": 4,
   "language": "Python",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "session-recovery"
   ],
   "created_at": "2026-01-03T07:37:28Z",
-  "updated_at": "2026-10-13T11:36:17Z",
+  "updated_at": "2026-10-14T09:06:19Z",
   "pushed_at": "2026-10-12T08:07:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 283,
-  "days_since_push": 1,
+  "age_days": 284,
+  "days_since_push": 2,
   "health_score": 69,
   "health_components": {
     "popularity": 88.8,
-    "momentum": 16.3,
+    "momentum": 14.7,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 98,
+    "stars_gained": 88,
     "days_span": 5,
-    "stars_per_day": 19.6,
-    "lifetime_stars_per_day": 96.92,
+    "stars_per_day": 17.6,
+    "lifetime_stars_per_day": 96.63,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -170,13 +170,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:47+00:00",
+  "fetched_at": "2026-10-14T09:33:27+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile",
+    "analytics-2",
     "skills"
   ],
-  "primary_category": "mobile",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

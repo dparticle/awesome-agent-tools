@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,169 |
-| Star velocity | 924.2/day (history basis, 5d span) |
+| Stars | 12,298 |
+| Star velocity | 1012.2/day (history basis, 5d span) |
 | Health score | 87/100 |
 | Documentation | 61/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-23 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 17,954 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 18,363 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### API gateway / proxy
 
-> anfan · Tencent Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…
+> t Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · Nous Portal · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…
 
 ### MCP support
 
@@ -85,7 +85,7 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.0 |
+| popularity | 81.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 61.0 |

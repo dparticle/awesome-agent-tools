@@ -6,9 +6,9 @@
   "url": "https://github.com/Louis-CFM/coucou",
   "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
   "homepage": "https://louis-cfm.github.io/coucou/",
-  "stars": 5042,
-  "forks": 840,
-  "open_issues": 317,
+  "stars": 5152,
+  "forks": 860,
+  "open_issues": 326,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "windows"
   ],
   "created_at": "2026-09-27T21:54:12Z",
-  "updated_at": "2026-10-13T11:41:05Z",
-  "pushed_at": "2026-10-12T20:31:09Z",
+  "updated_at": "2026-10-14T09:21:15Z",
+  "pushed_at": "2026-10-14T02:13:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 15,
+  "age_days": 16,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 74.1,
+    "popularity": 74.2,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 62.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 904,
+    "stars_gained": 807,
     "days_span": 5,
-    "stars_per_day": 180.8,
-    "lifetime_stars_per_day": 336.13,
+    "stars_per_day": 161.4,
+    "lifetime_stars_per_day": 322.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Louis-CFM/coucou",
-    "readme_chars": 33130,
+    "readme_chars": 34068,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -80,7 +80,7 @@
       "model-routing": "open the exact terminal window of a session (macOS).",
       "agent-runtime": "",
       "security-isolation": "See what Claude is editing, live in the notch: each file modification shows the file name and +N −M counts in the ticker, tap to read the full diff",
-      "gui-desktop": "ting from 0.1.0? macOS may ask you, once for each key you saved, to let Coucou use it: enter your Mac password and click Always Allow.",
+      "gui-desktop": "Coucou on the iPhone, allow notifications, and start a Claude Code session on the Mac.",
       "notifications": "your iPhone's Lock Screen and Dynamic Island with the agent's state, then comes back to the notch when you unlock.",
       "voice-input": "- 🎙️ Dictate in the chat (macOS, GitHub build) — click the mic next to the chat field and talk in any of your languages (Coucou picks the one you spoke, or right-click the mic to choose); speech recognition runs",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
@@ -92,7 +92,7 @@
       "model-routing": 1,
       "agent-runtime": 1,
       "security-isolation": 3,
-      "gui-desktop": 10,
+      "gui-desktop": 11,
       "notifications": 4,
       "voice-input": 1,
       "cross-agent-support": 7
@@ -158,13 +158,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.751
+      "external_link_ratio": 1.849
     },
     "highlights": [
       "📋 Declare the tools you use — open Settings → Active pills and pick your main workspace tool (VS Code, Cursor, Codex or Antigravity), then toggle up to 4 more: Gemini CLI, Anthropic, Google…",
       "✅ Approve and answer from the notch — Claude Code permission requests show up with Allow / Deny / Always; AskUserQuestion prompts show the choices right in the notch (single or multi-select…",
       "📊 Codex plan usage (macOS, GitHub build) — a Codex pill next to it shows your Codex limits and how many free resets you have left, read from the Codex CLI.",
-      "🤖 Coucou for Android — your agents, approvals with your fingerprint, questions and chat on an Android phone, linked to Coucou on Windows or Linux over your Wi-Fi."
+      "🤖 Coucou for Android — your agents, approvals with your fingerprint, questions, chat and home-screen widgets on an Android phone, linked to Coucou on Windows or Linux over your Wi-Fi."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -175,13 +175,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:27+00:00",
+  "fetched_at": "2026-10-14T09:33:02+00:00",
   "categories": [
+    "desktop-ui",
     "mobile-2",
-    "security-self-hosting",
-    "voice"
+    "voice-remote-control"
   ],
-  "primary_category": "mobile-2",
+  "primary_category": "voice-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

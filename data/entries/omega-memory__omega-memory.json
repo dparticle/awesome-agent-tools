@@ -6,7 +6,7 @@
   "url": "https://github.com/omega-memory/omega-memory",
   "description": "Persistent memory for AI coding agents",
   "homepage": "https://omegamax.co",
-  "stars": 223,
+  "stars": 224,
   "forks": 32,
   "open_issues": 2,
   "language": "Python",
@@ -31,26 +31,26 @@
     "windsurf"
   ],
   "created_at": "2026-02-13T03:28:56Z",
-  "updated_at": "2026-10-12T09:04:33Z",
+  "updated_at": "2026-10-13T22:27:42Z",
   "pushed_at": "2026-10-09T16:23:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 242,
-  "days_since_push": 3,
+  "age_days": 243,
+  "days_since_push": 4,
   "health_score": 51,
   "health_components": {
     "popularity": 47.0,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 60.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.8,
     "lifetime_stars_per_day": 0.92,
     "basis": "history",
     "is_fast_riser": false
@@ -157,10 +157,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:51:08+00:00",
+  "fetched_at": "2026-10-14T09:34:42+00:00",
   "categories": [
     "analytics",
-    "model-routing",
+    "sessions",
     "skills"
   ],
   "primary_category": "analytics",

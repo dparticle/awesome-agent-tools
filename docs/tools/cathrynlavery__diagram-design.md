@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 53,385 |
-| Star velocity | 298.2/day (lifetime basis, 179d span) |
+| Stars | 54,852 |
+| Star velocity | 304.7/day (lifetime basis, 180d span) |
 | Health score | 90/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
@@ -22,13 +22,17 @@
 | Language | HTML |
 | Created | 2026-04-16 |
 | Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 50,838 chars from `raw:HEAD/README.md` |
+| Analyzed README | 51,523 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Parallel execution
 
 > board a brand once, save the result as a named profile, then add a .diagram-design marker containing profile: to each client project.
+
+### Billing & metering
+
+> atter covers bubble and beeswarm; Treemap covers marimekko.
 
 ### Skills & plugins
 
@@ -75,7 +79,7 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 94.5 |
+| popularity | 94.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 68.0 |

@@ -6,9 +6,9 @@
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
   "homepage": "https://diagramdesign.dev",
-  "stars": 53385,
-  "forks": 3382,
-  "open_issues": 44,
+  "stars": 54852,
+  "forks": 3462,
+  "open_issues": 46,
   "language": "HTML",
   "license": "MIT",
   "topics": [
@@ -22,16 +22,16 @@
     "svg"
   ],
   "created_at": "2026-04-16T18:01:16Z",
-  "updated_at": "2026-10-13T11:46:56Z",
-  "pushed_at": "2026-10-13T04:30:17Z",
+  "updated_at": "2026-10-14T09:29:58Z",
+  "pushed_at": "2026-10-13T21:48:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 179,
+  "age_days": 180,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
-    "popularity": 94.5,
+    "popularity": 94.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -39,30 +39,33 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 53385,
-    "days_span": 179,
-    "stars_per_day": 298.24,
-    "lifetime_stars_per_day": 298.24,
+    "stars_gained": 54852,
+    "days_span": 180,
+    "stars_per_day": 304.73,
+    "lifetime_stars_per_day": 304.73,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "cathrynlavery/diagram-design",
-    "readme_chars": 50838,
+    "readme_chars": 51523,
     "capabilities": [
       "parallel-execution",
+      "billing-metering",
       "skills-plugins",
       "team-collaboration",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "parallel-execution": "board a brand once, save the result as a named profile, then add a .diagram-design marker containing profile: to each client project.",
+      "billing-metering": "atter covers bubble and beeswarm; Treemap covers marimekko.",
       "skills-plugins": "skills/diagram-design/SKILL.md, and installs the whole skill (references/, assets/, scripts/) into every host root you select, including Cursor's:",
       "team-collaboration": "",
       "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
     },
     "capability_hits": {
       "parallel-execution": 1,
+      "billing-metering": 1,
       "skills-plugins": 4,
       "team-collaboration": 1,
       "cross-agent-support": 9
@@ -130,7 +133,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.354
+      "external_link_ratio": 0.349
     },
     "highlights": [
       "BestSelf.co: the SELF Journal and other paper tools for getting things done.",
@@ -145,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:44+00:00",
+  "fetched_at": "2026-10-14T09:33:23+00:00",
   "categories": [
     "teams"
   ],

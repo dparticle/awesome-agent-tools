@@ -6,9 +6,9 @@
   "url": "https://github.com/butterbase-ai/butterbase",
   "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
   "homepage": "",
-  "stars": 3684,
-  "forks": 172,
-  "open_issues": 20,
+  "stars": 3112,
+  "forks": 167,
+  "open_issues": 21,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -21,27 +21,27 @@
     "typescript"
   ],
   "created_at": "2026-05-20T00:06:03Z",
-  "updated_at": "2026-10-13T07:52:07Z",
-  "pushed_at": "2026-10-06T13:46:24Z",
+  "updated_at": "2026-10-13T19:13:32Z",
+  "pushed_at": "2026-10-13T14:32:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
-  "days_since_push": 6,
-  "health_score": 59,
+  "age_days": 147,
+  "days_since_push": 0,
+  "health_score": 58,
   "health_components": {
-    "popularity": 71.3,
-    "momentum": 21.0,
+    "popularity": 69.9,
+    "momentum": 17.6,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 33.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3684,
-    "days_span": 146,
-    "stars_per_day": 25.23,
-    "lifetime_stars_per_day": 25.23,
+    "stars_gained": 3112,
+    "days_span": 147,
+    "stars_per_day": 21.17,
+    "lifetime_stars_per_day": 21.17,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -147,13 +147,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:29+00:00",
+  "fetched_at": "2026-10-14T09:33:07+00:00",
   "categories": [
     "analytics",
-    "security-self-hosting",
-    "skills"
+    "self-hosting-security",
+    "teams"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
@@ -179,14 +179,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 7.975,
-      "momentum_ratio": 1.141,
+      "star_ratio": 9.449,
+      "momentum_ratio": 1.398,
       "setup_delta": -35,
-      "dominance": 0.816,
+      "dominance": 0.842,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "7.98x the stars (29,380 vs 3,684)",
-        "1.14x the star velocity (28.8/day vs 25.2/day)",
+        "9.45x the stars (29,404 vs 3,112)",
+        "1.40x the star velocity (29.6/day vs 21.2/day)",
         "no harder to set up (32 vs 67 friction)"
       ],
       "reasons_zh": [],
@@ -219,7 +219,7 @@
           "skills-plugins",
           "team-collaboration"
         ],
-        "incumbent_health": 59,
+        "incumbent_health": 58,
         "challenger_health": 70,
         "incumbent_setup_score": 67,
         "challenger_setup_score": 32

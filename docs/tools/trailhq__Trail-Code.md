@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — do not edit by hand. Run `python scripts/agentindex.py build` (or wait for the daily workflow). -->
 
-# trailhq/Graft
+# trailhq/Trail-Code
 
 > You correct it, and by the next session it has forgotten.
 
-[Repository](https://github.com/trailhq/Graft) · [Back to index](../../README.md) · Category: **None**
+[Repository](https://github.com/trailhq/Trail-Code) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,944 |
-| Star velocity | 34.8/day (history basis, 5d span) |
-| Health score | 66/100 |
+| Stars | 9,987 |
+| Star velocity | 97.9/day (lifetime basis, 102d span) |
+| Health score | 78/100 |
 | Documentation | 59/100 |
-| Tier | ✅ Recommended |
-| Lifecycle | 🔻 Superseded |
+| Tier | 🏆 Flagship |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-03 |
 | Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 43,978 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [nexu-io/open-design](https://github.com/nexu-io/open-design)** — Superseded by nexu-io/open-design: covers 100% of capabilities (7/7).
+| Analyzed README | 45,778 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,18 +54,18 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 37/100)
+- **Difficulty:** 🟡 Some setup (friction score 43/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npm install -g @nanonets/graft   # install the CLI, once`
+- **Quickest install:** `npm install -g @trailhq/trail`
 
 **Signals that make it easy:** npx one-liner, global npm install
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** config.json/yaml/toml, database dependency
+**Configuration required:** config.json/yaml/toml, sign-in required, database dependency
 
-*Some setup. install via npx one-liner, global npm install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, database dependency*
+*Some setup. install via npx one-liner, global npm install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required*
 
 ## Documentation quality
 
@@ -89,10 +87,10 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.0 |
-| momentum | 29.0 |
+| momentum | 81.6 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
-| accessibility | 63.0 |
+| accessibility | 57.0 |
 
 ---
 

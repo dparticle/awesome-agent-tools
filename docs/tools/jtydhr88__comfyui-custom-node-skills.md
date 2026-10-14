@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-05 |
-| Last push | 2026-07-27 (77 days ago) |
+| Last push | 2026-07-27 (78 days ago) |
 | Analyzed README | 5,568 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [thedivergentai/Game-Design-Agentic-Skills](https://github.com/thedivergentai/Game-Design-Agentic-Skills)** — Superseded by thedivergentai/Game-Design-Agentic-Skills: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 

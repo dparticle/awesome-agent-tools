@@ -8,7 +8,7 @@
   "homepage": "https://crates.io/crates/tfmcp",
   "stars": 373,
   "forks": 31,
-  "open_issues": 5,
+  "open_issues": 6,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 583,
-  "days_since_push": 4,
+  "age_days": 584,
+  "days_since_push": 5,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -134,26 +134,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:44+00:00",
+  "fetched_at": "2026-10-14T09:34:21+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "security-self-hosting"
+    "desktop-ui",
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by aipoch/open-science: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 aipoch/open-science 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "aipoch/open-science",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "nwiizo/tfmcp",
-      "challenger": "aipoch/open-science",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "nwiizo/tfmcp",
-      "challenger_name": "aipoch/open-science",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "gui-desktop",
@@ -162,15 +162,15 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 14.836,
-      "momentum_ratio": 192.0,
-      "setup_delta": -23,
-      "dominance": 1.0,
+      "star_ratio": 747.558,
+      "momentum_ratio": 12768.0,
+      "setup_delta": 5,
+      "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "14.84x the stars (5,534 vs 373)",
-        "192.00x the star velocity (9.6/day vs 0.0/day)",
-        "no harder to set up (29 vs 52 friction)"
+        "747.56x the stars (278,839 vs 373)",
+        "12768.00x the star velocity (638.4/day vs 0.0/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -182,19 +182,27 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "billing-metering",
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
           "model-routing",
-          "remote-control",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
           "security-isolation",
-          "skills-plugins"
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
         ],
         "incumbent_health": 52,
-        "challenger_health": 64,
+        "challenger_health": 89,
         "incumbent_setup_score": 52,
-        "challenger_setup_score": 29
+        "challenger_setup_score": 57
       }
     }
   }

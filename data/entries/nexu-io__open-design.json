@@ -4,11 +4,11 @@
   "name": "open-design",
   "owner": "nexu-io",
   "url": "https://github.com/nexu-io/open-design",
-  "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
   "homepage": "https://open-design.ai",
-  "stars": 100877,
-  "forks": 11622,
-  "open_issues": 1164,
+  "stars": 101051,
+  "forks": 11636,
+  "open_issues": 1155,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,12 +34,12 @@
     "vibe-coding"
   ],
   "created_at": "2026-04-28T04:25:20Z",
-  "updated_at": "2026-10-13T11:24:18Z",
-  "pushed_at": "2026-10-13T11:23:58Z",
+  "updated_at": "2026-10-14T09:29:20Z",
+  "pushed_at": "2026-10-14T09:27:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 168,
+  "age_days": 169,
   "days_since_push": 0,
   "health_score": 95,
   "health_components": {
@@ -51,22 +51,21 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 907,
+    "stars_gained": 914,
     "days_span": 5,
-    "stars_per_day": 181.4,
-    "lifetime_stars_per_day": 600.46,
+    "stars_per_day": 182.8,
+    "lifetime_stars_per_day": 597.93,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nexu-io/open-design",
-    "readme_chars": 55907,
+    "readme_chars": 53955,
     "capabilities": [
       "mobile-access",
       "model-routing",
       "api-gateway",
       "quota-distribution",
-      "billing-metering",
       "session-persistence",
       "skills-plugins",
       "agent-runtime",
@@ -79,13 +78,12 @@
       "mobile-access": "read your DESIGN.md and render in a sandboxed iframe.",
       "model-routing": "No CLI installed? The BYOK proxy at POST /api/proxy/{anthropic,openai,azure,google,ollama,senseaudio}/stream gives you the same loop (no process spawn) — paste baseUrl + apiKey + model, with presets for OpenAI, Atlas Cl…",
       "api-gateway": "udio}/stream gives you the same loop (no process spawn) — paste baseUrl + apiKey + model, with presets for OpenAI, Atlas Cloud, Anthropic, Azure OpenAI, Google Gemini, Ollama, LM Studio, vLLM, or any OpenAI-compatible e…",
-      "quota-distribution": "## What is OpenDesign OpenDesign is a collaborative design agent workspace.",
-      "billing-metering": "0+ functional skills · rendering templates · 277 plugins",
+      "quota-distribution": "",
       "session-persistence": "ive runtime adapters for agents that OD launches directly.",
-      "skills-plugins": "eedback, and let your agent refine it in the same project.",
-      "agent-runtime": "ais · 简体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Українська · Türkçe · ภาษาไทย",
+      "skills-plugins": "cial plugins plus 183 remixable reference examples live in plugins/official/.",
+      "agent-runtime": "then download or open it.",
       "mcp-support": "s — create motion graphics with your agent and export to MP4.",
-      "self-hosted": "started delivering design artifacts directly.",
+      "self-hosted": "one can author and publish.",
       "gui-desktop": "may be DESIGN.md-only, while newer packages can add manifest.json, tokens.css, components, assets, and provenance.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
     },
@@ -94,8 +92,7 @@
       "model-routing": 7,
       "api-gateway": 1,
       "quota-distribution": 1,
-      "billing-metering": 1,
-      "session-persistence": 3,
+      "session-persistence": 2,
       "skills-plugins": 6,
       "agent-runtime": 7,
       "mcp-support": 16,
@@ -164,7 +161,7 @@
       "Copilot",
       "Cline / Roo"
     ],
-    "summary_en": "OpenDesign is a collaborative design agent workspace.",
+    "summary_en": "OpenDesign is the 1st collaborative AI design agent workspace.",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://open-design.ai/install.sh | sh -s <agent>",
     "source": "raw:HEAD/README.md",
@@ -172,7 +169,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.912
+      "external_link_ratio": 0.927
     },
     "highlights": [
       "🤖 Agent-native, model-agnostic.",
@@ -188,13 +185,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:38+00:00",
+  "fetched_at": "2026-10-14T09:33:15+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "sharing",
-    "voice"
+    "desktop-ui",
+    "model-routing",
+    "sessions"
   ],
-  "primary_category": "sharing",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

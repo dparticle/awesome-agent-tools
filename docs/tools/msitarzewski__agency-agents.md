@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 159,706 |
-| Star velocity | 255.0/day (history basis, 5d span) |
+| Stars | 159,974 |
+| Star velocity | 310.8/day (history basis, 5d span) |
 | Health score | 98/100 |
 | Documentation | 86/100 |
 | Tier | 🏆 Flagship |

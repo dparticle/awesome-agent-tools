@@ -6,8 +6,8 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 770,
-  "forks": 59,
+  "stars": 778,
+  "forks": 60,
   "open_issues": 5,
   "language": "Go",
   "license": "MIT",
@@ -32,27 +32,27 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-10-13T05:36:52Z",
+  "updated_at": "2026-10-14T09:04:39Z",
   "pushed_at": "2026-10-12T10:08:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 37,
+  "age_days": 38,
   "days_since_push": 1,
-  "health_score": 53,
+  "health_score": 54,
   "health_components": {
-    "popularity": 57.7,
-    "momentum": 2.3,
+    "popularity": 57.8,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 20.81,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 20.47,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,10 +144,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:20+00:00",
+  "fetched_at": "2026-10-14T09:33:57+00:00",
   "categories": [
     "analytics",
-    "model-routing",
     "skills"
   ],
   "primary_category": "analytics",
@@ -173,14 +172,14 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 6.158,
-      "momentum_ratio": 3.214,
+      "star_ratio": 6.113,
+      "momentum_ratio": 2.55,
       "setup_delta": -21,
-      "dominance": 0.945,
+      "dominance": 0.916,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "6.16x the stars (4,742 vs 770)",
-        "3.21x the star velocity (9.0/day vs 2.8/day)",
+        "6.11x the stars (4,756 vs 778)",
+        "2.55x the star velocity (10.2/day vs 4.0/day)",
         "no harder to set up (24 vs 45 friction)"
       ],
       "reasons_zh": [],
@@ -206,7 +205,7 @@
           "security-isolation",
           "skills-plugins"
         ],
-        "incumbent_health": 53,
+        "incumbent_health": 54,
         "challenger_health": 62,
         "incumbent_setup_score": 45,
         "challenger_setup_score": 24

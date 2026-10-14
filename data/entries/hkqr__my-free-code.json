@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 625,
   "forks": 191,
-  "open_issues": 1,
+  "open_issues": 7,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -24,22 +24,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 46,
-  "days_since_push": 1,
+  "age_days": 47,
+  "days_since_push": 2,
   "health_score": 49,
   "health_components": {
     "popularity": 55.9,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 35.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 13.59,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 13.3,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -124,26 +124,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:24+00:00",
+  "fetched_at": "2026-10-14T09:34:02+00:00",
   "categories": [
-    "model-routing",
-    "voice"
+    "model-routing"
   ],
-  "primary_category": "voice",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by Orkas-AI/Orkas: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 Orkas-AI/Orkas 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "Orkas-AI/Orkas",
+    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "nexu-io/open-design",
     "challenger": "",
     "supersede": {
       "incumbent": "hkqr/my-free-code",
-      "challenger": "orkas-ai/orkas",
+      "challenger": "nexu-io/open-design",
       "incumbent_name": "hkqr/my-free-code",
-      "challenger_name": "Orkas-AI/Orkas",
+      "challenger_name": "nexu-io/open-design",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -151,15 +150,15 @@
         "cross-agent-support",
         "model-routing"
       ],
-      "star_ratio": 3.483,
-      "momentum_ratio": 21.0,
-      "setup_delta": 8,
-      "dominance": 0.96,
+      "star_ratio": 161.682,
+      "momentum_ratio": 457.0,
+      "setup_delta": -5,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.48x the stars (2,177 vs 625)",
-        "21.00x the star velocity (4.2/day vs 0.2/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
+        "161.68x the stars (101,051 vs 625)",
+        "457.00x the star velocity (182.8/day vs 0.4/day)",
+        "no harder to set up (29 vs 34 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -174,17 +173,18 @@
           "api-gateway",
           "cross-agent-support",
           "gui-desktop",
-          "memory-context",
+          "mcp-support",
+          "mobile-access",
           "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins",
-          "worktree-isolation"
+          "quota-distribution",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins"
         ],
         "incumbent_health": 49,
-        "challenger_health": 56,
+        "challenger_health": 95,
         "incumbent_setup_score": 34,
-        "challenger_setup_score": 42
+        "challenger_setup_score": 29
       }
     }
   }

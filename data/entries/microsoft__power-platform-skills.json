@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
   "homepage": "https://aka.ms/ppskills",
-  "stars": 998,
-  "forks": 204,
-  "open_issues": 159,
+  "stars": 1001,
+  "forks": 206,
+  "open_issues": 158,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "power-platform"
   ],
   "created_at": "2026-01-21T18:25:14Z",
-  "updated_at": "2026-10-13T07:35:02Z",
-  "pushed_at": "2026-10-13T09:46:48Z",
+  "updated_at": "2026-10-14T00:18:29Z",
+  "pushed_at": "2026-10-14T08:13:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 264,
+  "age_days": 265,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 60.0,
-    "momentum": 4.2,
+    "momentum": 3.8,
     "maintenance": 100.0,
-    "documentation": 44.0,
+    "documentation": 45.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 23,
     "days_span": 5,
-    "stars_per_day": 5.0,
+    "stars_per_day": 4.6,
     "lifetime_stars_per_day": 3.78,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "microsoft/power-platform-skills",
-    "readme_chars": 17063,
+    "readme_chars": 17821,
     "capabilities": [
       "mobile-access",
       "worktree-isolation",
@@ -59,7 +59,7 @@
       "mobile-access": "d versions of this project must not cause confusion or imply Microsoft sponsorship.",
       "worktree-isolation": "",
       "skills-plugins": ", manage tables and columns, and handle security, administration, and solutions.",
-      "mcp-support": "s for an app that already exists.",
+      "mcp-support": "PAC, and verifies registration and bindings.",
       "cross-agent-support": "Mentions Claude Code, Copilot"
     },
     "capability_hits": {
@@ -95,7 +95,7 @@
       "note_en": "Some setup. install via native installer / package; needs npm install/build; configure environment variables, config.json/yaml/toml",
       "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 npm install/build；需配置 environment variables、config.json/yaml/toml"
     },
-    "doc_score": 44,
+    "doc_score": 45,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -119,7 +119,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.645
+      "external_link_ratio": 0.617
     },
     "highlights": [
       "Launch GitHub Copilot CLI or Claude Code with the plugin path:"
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:14+00:00",
+  "fetched_at": "2026-10-14T09:33:52+00:00",
   "categories": [
     "mobile-2"
   ],

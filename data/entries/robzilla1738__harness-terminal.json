@@ -6,7 +6,7 @@
   "url": "https://github.com/robzilla1738/harness-terminal",
   "description": "Native macOS terminal with GPU rendering, durable sessions, coding-agent workflows, and SSH connectivity. Session host, daemon, and CLI support Linux; optional MCP and AI summaries.",
   "homepage": "https://thebestterminal.com",
-  "stars": 304,
+  "stars": 305,
   "forks": 23,
   "open_issues": 6,
   "language": "Swift",
@@ -29,12 +29,12 @@
     "terminal-emulator"
   ],
   "created_at": "2026-05-27T21:37:13Z",
-  "updated_at": "2026-10-13T08:34:28Z",
-  "pushed_at": "2026-10-13T08:34:23Z",
+  "updated_at": "2026-10-14T02:27:57Z",
+  "pushed_at": "2026-10-14T02:27:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 138,
+  "age_days": 139,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
@@ -46,16 +46,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 304,
-    "days_span": 138,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 2.2,
+    "stars_gained": 305,
+    "days_span": 139,
+    "stars_per_day": 2.19,
+    "lifetime_stars_per_day": 2.19,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "robzilla1738/harness-terminal",
-    "readme_chars": 23688,
+    "readme_chars": 23745,
     "capabilities": [
       "remote-control",
       "worktree-isolation",
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:51+00:00",
+  "fetched_at": "2026-10-14T09:34:27+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile",
-    "security-self-hosting"
+    "self-hosting-security",
+    "voice-remote-control"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "voice-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

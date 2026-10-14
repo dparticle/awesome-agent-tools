@@ -6,8 +6,8 @@
   "url": "https://github.com/pax-beehive/paxm",
   "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
   "homepage": "",
-  "stars": 422,
-  "forks": 21,
+  "stars": 285,
+  "forks": 11,
   "open_issues": 3,
   "language": "Go",
   "license": "Apache-2.0",
@@ -23,28 +23,28 @@
     "sqlite"
   ],
   "created_at": "2026-07-09T02:40:57Z",
-  "updated_at": "2026-10-07T08:55:35Z",
+  "updated_at": "2026-10-13T18:11:45Z",
   "pushed_at": "2026-08-28T22:40:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 96,
-  "days_since_push": 45,
-  "health_score": 48,
+  "age_days": 97,
+  "days_since_push": 46,
+  "health_score": 47,
   "health_components": {
-    "popularity": 52.5,
-    "momentum": 0.0,
+    "popularity": 49.1,
+    "momentum": 2.4,
     "maintenance": 78.0,
     "documentation": 64.0,
     "accessibility": 60.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 4.4,
-    "basis": "history",
+    "stars_gained": 285,
+    "days_span": 97,
+    "stars_per_day": 2.94,
+    "lifetime_stars_per_day": 2.94,
+    "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
@@ -148,12 +148,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:39+00:00",
+  "fetched_at": "2026-10-14T09:34:31+00:00",
   "categories": [
     "analytics",
-    "security-self-hosting"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

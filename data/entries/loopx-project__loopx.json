@@ -6,9 +6,9 @@
   "url": "https://github.com/loopx-project/loopx",
   "description": "A control plane with a durable state kernel for long-horizon agents and teams. Keep work moving and improving across sessions, with less human attention.",
   "homepage": "https://loopx-project.github.io/loopx/",
-  "stars": 6269,
-  "forks": 598,
-  "open_issues": 166,
+  "stars": 6295,
+  "forks": 599,
+  "open_issues": 173,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -27,33 +27,33 @@
     "workflow-automation"
   ],
   "created_at": "2026-05-31T14:58:56Z",
-  "updated_at": "2026-10-13T11:26:07Z",
-  "pushed_at": "2026-10-13T11:41:27Z",
+  "updated_at": "2026-10-14T09:12:04Z",
+  "pushed_at": "2026-10-14T09:21:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 134,
+  "age_days": 135,
   "days_since_push": 0,
-  "health_score": 64,
+  "health_score": 65,
   "health_components": {
-    "popularity": 75.9,
-    "momentum": 11.3,
+    "popularity": 76.0,
+    "momentum": 13.2,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 68,
+    "stars_gained": 79,
     "days_span": 5,
-    "stars_per_day": 13.6,
-    "lifetime_stars_per_day": 46.78,
+    "stars_per_day": 15.8,
+    "lifetime_stars_per_day": 46.63,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "loopx-project/loopx",
-    "readme_chars": 46756,
+    "readme_chars": 48149,
     "capabilities": [
       "quota-management",
       "mobile-access",
@@ -138,7 +138,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.877
+      "external_link_ratio": 0.914
     },
     "highlights": [
       "Independent user · 7 merged PRs.",
@@ -158,11 +158,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:25+00:00",
+  "fetched_at": "2026-10-14T09:33:00+00:00",
   "categories": [
     "analytics-2",
     "mobile-2",
-    "teams"
+    "providers-2"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

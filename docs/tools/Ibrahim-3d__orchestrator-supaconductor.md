@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 381 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 47/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | AGPL-3.0 |
 | Language | Python |
 | Created | 2026-02-17 |
-| Last push | 2026-09-27 (15 days ago) |
+| Last push | 2026-09-27 (16 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -81,7 +81,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.6 |
-| momentum | 0.2 |
+| momentum | 0.0 |
 | maintenance | 92.0 |
 | documentation | 69.0 |
 | accessibility | 28.0 |

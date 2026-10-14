@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 304 |
-| Star velocity | 2.2/day (lifetime basis, 138d span) |
+| Stars | 305 |
+| Star velocity | 2.2/day (lifetime basis, 139d span) |
 | Health score | 54/100 |
 | Documentation | 62/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-05-27 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 23,688 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 23,745 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 998 |
-| Star velocity | 5.0/day (history basis, 5d span) |
+| Stars | 1,001 |
+| Star velocity | 4.6/day (history basis, 5d span) |
 | Health score | 51/100 |
-| Documentation | 44/100 |
+| Documentation | 45/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-01-21 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 17,063 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 17,821 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ### MCP support
 
-> s for an app that already exists.
+> PAC, and verifies registration and bindings.
 
 ### Cross-agent support
 
@@ -61,7 +61,7 @@
 
 ## Documentation quality
 
-Score **44/100**, based on these detected signals:
+Score **45/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -76,9 +76,9 @@ Score **44/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 60.0 |
-| momentum | 4.2 |
+| momentum | 3.8 |
 | maintenance | 100.0 |
-| documentation | 44.0 |
+| documentation | 45.0 |
 | accessibility | 51.0 |
 
 ---

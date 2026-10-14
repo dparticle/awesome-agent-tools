@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 11169,
-  "forks": 744,
-  "open_issues": 590,
+  "stars": 12298,
+  "forks": 828,
+  "open_issues": 673,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-13T11:48:55Z",
-  "pushed_at": "2026-10-13T10:44:52Z",
+  "updated_at": "2026-10-14T09:32:11Z",
+  "pushed_at": "2026-10-14T09:29:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 19,
+  "age_days": 20,
   "days_since_push": 0,
   "health_score": 87,
   "health_components": {
-    "popularity": 81.0,
+    "popularity": 81.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4621,
+    "stars_gained": 5061,
     "days_span": 5,
-    "stars_per_day": 924.2,
-    "lifetime_stars_per_day": 587.84,
+    "stars_per_day": 1012.2,
+    "lifetime_stars_per_day": 614.9,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 17954,
+    "readme_chars": 18363,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -60,7 +60,7 @@
       "multi-account-switching": "count can go through a proxy of its own.",
       "quota-management": "one key that matters in the agent's own config.",
       "model-routing": "&nbsp;·&nbsp; Plugins &nbsp;·&nbsp; Discord &nbsp;·&nbsp; English · 简体中文",
-      "api-gateway": "anfan · Tencent Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…",
+      "api-gateway": "t Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · Nous Portal · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…",
       "mcp-support": "ers it as a provider to every other agent.",
       "gui-desktop": "f you use more than one agent, more than one provider, or more than one account.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
@@ -134,7 +134,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.838
+      "external_link_ratio": 1.797
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -146,8 +146,8 @@
     "highlights_zh": [
       "WSL：在 Windows 上，WSL 发行版里的 Agent 一样能配置，会话也一样统计。",
       "一个 provider 处处能用：API key、本地模型，或者你登录着的 Claude、ChatGPT、Copilot、Gemini、Grok 订阅。",
-      "Agent 保持最新：Agents 页显示每个 CLI 的版本，按当初的安装方式更新，没装的也给出安装命令。",
-      "Claude：驱动本机真正的 claude 程序，通过 MCP 桥接你的 Agent 的工具"
+      "任何模型都能联网搜索：不能搜索的模型由 magpie 代为搜索，用能搜索的 provider 或搜索 API（Tavily、Brave、Exa、Firecrawl、You.com、SearXNG）。",
+      "Agent 保持最新：Agents 页显示每个 CLI 的版本，按当初的安装方式更新，没装的也给出安装命令。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -156,12 +156,12 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-13T11:49:09+00:00",
+  "fetched_at": "2026-10-14T09:32:44+00:00",
   "categories": [
-    "accounts-quota",
-    "voice"
+    "model-routing",
+    "sharing"
   ],
-  "primary_category": "accounts-quota",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

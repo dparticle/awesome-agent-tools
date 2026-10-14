@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 461 |
-| Star velocity | 1.6/day (history basis, 5d span) |
+| Stars | 462 |
+| Star velocity | 1.8/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 59/100 |
 | Tier | 🔹 Notable |
@@ -21,14 +21,12 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-27 |
-| Last push | 2026-10-10 (2 days ago) |
-| Analyzed README | 18,544 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-13 (0 days ago) |
+| Analyzed README | 17,724 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
-
-> rmat differences between agents (JSON, TOML, hook conventions, MCP schemas) automatically.
 
 ### Workspace isolation
 
@@ -83,7 +81,7 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.3 |
-| momentum | 1.3 |
+| momentum | 1.5 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
 | accessibility | 98.0 |

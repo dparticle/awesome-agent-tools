@@ -6,8 +6,8 @@
   "url": "https://github.com/darrenhinde/OpenAgentsControl",
   "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
   "homepage": "",
-  "stars": 4900,
-  "forks": 401,
+  "stars": 4903,
+  "forks": 402,
   "open_issues": 71,
   "language": "TypeScript",
   "license": "MIT",
@@ -23,13 +23,13 @@
     "prompt-engineering"
   ],
   "created_at": "2025-08-14T21:44:01Z",
-  "updated_at": "2026-10-13T08:12:32Z",
+  "updated_at": "2026-10-14T06:33:21Z",
   "pushed_at": "2026-09-13T22:57:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 424,
-  "days_since_push": 29,
+  "age_days": 425,
+  "days_since_push": 30,
   "health_score": 63,
   "health_components": {
     "popularity": 73.8,
@@ -43,7 +43,7 @@
     "stars_gained": 8,
     "days_span": 5,
     "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 11.56,
+    "lifetime_stars_per_day": 11.54,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -130,22 +130,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:54+00:00",
+  "fetched_at": "2026-10-14T09:33:32+00:00",
   "categories": [
-    "mobile"
+    "agent-runtime-desktop-ui"
   ],
-  "primary_category": "mobile",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "paperclipai/paperclip",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
     "challenger": "",
     "supersede": {
       "incumbent": "darrenhinde/openagentscontrol",
-      "challenger": "paperclipai/paperclip",
+      "challenger": "othmanadi/planning-with-files",
       "incumbent_name": "darrenhinde/OpenAgentsControl",
-      "challenger_name": "paperclipai/paperclip",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -156,15 +156,15 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 20.666,
-      "momentum_ratio": 325.0,
-      "setup_delta": -5,
+      "star_ratio": 5.597,
+      "momentum_ratio": 11.0,
+      "setup_delta": -23,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "20.67x the stars (101,262 vs 4,900)",
-        "325.00x the star velocity (520.0/day vs 1.6/day)",
-        "no harder to set up (45 vs 50 friction)"
+        "5.60x the stars (27,443 vs 4,903)",
+        "11.00x the star velocity (17.6/day vs 1.6/day)",
+        "no harder to set up (27 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -177,26 +177,17 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
           "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
+          "parallel-execution",
           "security-isolation",
-          "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
           "worktree-isolation"
         ],
         "incumbent_health": 63,
-        "challenger_health": 89,
+        "challenger_health": 69,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 45
+        "challenger_setup_score": 27
       }
     }
   }

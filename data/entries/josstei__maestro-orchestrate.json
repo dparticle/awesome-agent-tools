@@ -6,7 +6,7 @@
   "url": "https://github.com/josstei/maestro-orchestrate",
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
-  "stars": 465,
+  "stars": 467,
   "forks": 38,
   "open_issues": 6,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-11T05:57:36Z",
+  "updated_at": "2026-10-14T07:13:17Z",
   "pushed_at": "2026-10-11T05:57:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 246,
-  "days_since_push": 2,
+  "age_days": 247,
+  "days_since_push": 3,
   "health_score": 50,
   "health_components": {
-    "popularity": 53.3,
-    "momentum": 0.0,
+    "popularity": 53.4,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 1.89,
     "basis": "history",
     "is_fast_riser": false
@@ -135,11 +135,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:34+00:00",
+  "fetched_at": "2026-10-14T09:34:10+00:00",
   "categories": [
-    "analytics"
+    "analytics",
+    "sessions"
   ],
-  "primary_category": "analytics",
+  "primary_category": "sessions",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
@@ -161,14 +162,14 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.301,
-      "momentum_ratio": 72.0,
+      "star_ratio": 2.298,
+      "momentum_ratio": 9.5,
       "setup_delta": -21,
-      "dominance": 0.94,
+      "dominance": 0.939,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.30x the stars (1,070 vs 465)",
-        "72.00x the star velocity (3.6/day vs 0.0/day)",
+        "2.30x the stars (1,073 vs 467)",
+        "9.50x the star velocity (3.8/day vs 0.4/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],

@@ -6,8 +6,8 @@
   "url": "https://github.com/ScrapeCreators/social-media-research-skills",
   "description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
   "homepage": "https://scrapecreators.com",
-  "stars": 3579,
-  "forks": 49,
+  "stars": 3643,
+  "forks": 50,
   "open_issues": 4,
   "language": "Python",
   "license": "MIT",
@@ -26,27 +26,27 @@
     "workflow-automation"
   ],
   "created_at": "2026-06-06T21:47:43Z",
-  "updated_at": "2026-10-13T11:46:04Z",
+  "updated_at": "2026-10-14T09:31:37Z",
   "pushed_at": "2026-08-26T17:26:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 128,
-  "days_since_push": 47,
-  "health_score": 61,
+  "age_days": 129,
+  "days_since_push": 48,
+  "health_score": 62,
   "health_components": {
-    "popularity": 71.1,
-    "momentum": 43.8,
+    "popularity": 71.2,
+    "momentum": 45.0,
     "maintenance": 78.0,
     "documentation": 29.0,
     "accessibility": 90.0
   },
-  "tier": "notable",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 263,
+    "stars_gained": 270,
     "days_span": 5,
-    "stars_per_day": 52.6,
-    "lifetime_stars_per_day": 27.96,
+    "stars_per_day": 54.0,
+    "lifetime_stars_per_day": 28.24,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -123,7 +123,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:30+00:00",
+  "fetched_at": "2026-10-14T09:33:06+00:00",
   "categories": [
     "skills"
   ],

@@ -6,33 +6,33 @@
   "url": "https://github.com/oracle/mcp",
   "description": "Repository containing MCP (Model Context Protocol) servers that provides a suite of tools for managing and interacting with Oracle products.",
   "homepage": "",
-  "stars": 459,
+  "stars": 460,
   "forks": 148,
-  "open_issues": 50,
+  "open_issues": 51,
   "language": "Python",
   "license": "UPL-1.0",
   "topics": [],
   "created_at": "2025-07-27T08:02:34Z",
-  "updated_at": "2026-10-12T17:53:41Z",
+  "updated_at": "2026-10-14T08:39:04Z",
   "pushed_at": "2026-10-09T20:42:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 443,
-  "days_since_push": 3,
+  "age_days": 444,
+  "days_since_push": 4,
   "health_score": 54,
   "health_components": {
-    "popularity": 53.2,
-    "momentum": 0.8,
+    "popularity": 53.3,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 84.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 1.0,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.04,
     "basis": "history",
     "is_fast_riser": false
@@ -131,72 +131,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:35+00:00",
+  "fetched_at": "2026-10-14T09:34:11+00:00",
   "categories": [
-    "analytics",
-    "model-routing"
+    "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "oracle/mcp",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
-      "incumbent_name": "oracle/mcp",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "model-routing",
-        "multi-agent-orchestration",
-        "security-isolation"
-      ],
-      "star_ratio": 10.331,
-      "momentum_ratio": 9.0,
-      "setup_delta": 8,
-      "dominance": 0.96,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "10.33x the stars (4,742 vs 459)",
-        "9.00x the star velocity (9.0/day vs 1.0/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "model-routing",
-          "multi-agent-orchestration",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 62,
-        "incumbent_setup_score": 16,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 565 |
-| Star velocity | 2.4/day (history basis, 5d span) |
+| Stars | 567 |
+| Star velocity | 2.0/day (history basis, 5d span) |
 | Health score | 49/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-12 |
-| Last push | 2026-08-03 (70 days ago) |
+| Last push | 2026-08-03 (71 days ago) |
 | Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven)** — Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -72,8 +72,8 @@ Score **51/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.0 |
-| momentum | 2.0 |
+| popularity | 55.1 |
+| momentum | 1.7 |
 | maintenance | 78.0 |
 | documentation | 51.0 |
 | accessibility | 75.0 |

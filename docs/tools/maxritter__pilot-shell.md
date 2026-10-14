@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,086 |
+| Stars | 2,088 |
 | Star velocity | 0.6/day (history basis, 5d span) |
 | Health score | 61/100 |
 | Documentation | 66/100 |

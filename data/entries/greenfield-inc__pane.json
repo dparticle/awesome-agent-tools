@@ -6,9 +6,9 @@
   "url": "https://github.com/greenfield-inc/Pane",
   "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
   "homepage": "https://runpane.com/",
-  "stars": 535,
-  "forks": 227,
-  "open_issues": 223,
+  "stars": 539,
+  "forks": 229,
+  "open_issues": 231,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -34,26 +34,26 @@
     "worktree-manager"
   ],
   "created_at": "2026-02-27T01:34:13Z",
-  "updated_at": "2026-10-13T08:28:31Z",
+  "updated_at": "2026-10-14T07:53:10Z",
   "pushed_at": "2026-10-12T03:50:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 228,
-  "days_since_push": 1,
+  "age_days": 229,
+  "days_since_push": 2,
   "health_score": 57,
   "health_components": {
     "popularity": 54.6,
-    "momentum": 2.7,
+    "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 17,
     "days_span": 5,
-    "stars_per_day": 3.2,
+    "stars_per_day": 3.4,
     "lifetime_stars_per_day": 2.35,
     "basis": "history",
     "is_fast_riser": false
@@ -189,13 +189,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:29+00:00",
+  "fetched_at": "2026-10-14T09:34:05+00:00",
   "categories": [
-    "mobile",
-    "mobile-2",
-    "security-self-hosting"
+    "agent-runtime-desktop-ui",
+    "sessions",
+    "voice-remote-control"
   ],
-  "primary_category": "mobile",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

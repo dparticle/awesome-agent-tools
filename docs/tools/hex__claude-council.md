@@ -12,61 +12,27 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 872 |
-| Star velocity | 4.4/day (history basis, 5d span) |
-| Health score | 54/100 |
-| Documentation | 66/100 |
+| Stars | 873 |
+| Star velocity | 4.0/day (history basis, 5d span) |
+| Health score | 52/100 |
+| Documentation | 49/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-12-17 |
-| Last push | 2026-10-11 (1 days ago) |
-| Analyzed README | 54,819 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 8,208 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes)** — Superseded by rlaope/oh-my-hermes: covers 100% of capabilities (4/4).
 
 ## What it solves
 
-### Automatic failover
-
-> end much of the budget on thinking that never reaches the answer):
-
 ### Multi-agent orchestration
-
-> omplete digest says so where both
 
 ### Parallel execution
 
-> If you have no provider keys and no codex / agy / grok / kimi / cursor-agent CLI and no
-
-### Workspace isolation
-
-> e inside a subagent the ambient session
-
-### Model / provider routing
-
-> r (codex, antigravity, grok-cli, kimi-cli, cursor-cli) it stays
-
-### Billing & metering
-
-> Grok's token accounting depends on the model: grok-build counts thinking tokens separately, so maxtokens caps only its visible output; the other reasoning models (grok-4*, *-reasoning, grok-3-mini-*) share one budget be…
-
-### Session persistence
-
-> ence, so it gets the same prompt as every other seat and none of your setup: no CLAUDE.md, settings, plugins, hooks (this plugin's Stop gate included), MCP servers or tools, and nothing lands in your session history.
-
-### Skills & plugins
-
-> rectory, a run writes its watch directory there and does not open tmux.
-
 ### Agent runtime
-
-### MCP support
-
-> tting-sources "" --tools "" --no-session-persistence, so it gets the same prompt as every other seat and none of your setup: no CLAUDE.md, settings, plugins, hooks (this plugin's Stop gate included), MCP servers or tool…
-
-### Security & isolation
-
-### Team collaboration
 
 ### Cross-agent support
 
@@ -74,42 +40,35 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 49/100)
+- **Difficulty:** 🟡 Some setup (friction score 42/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that make it easy:** native installer / package
+**Configuration required:** environment variables, API key configuration
 
-**Signals that add work:** git clone (build from source)
-
-**Configuration required:** environment variables, API key configuration, config.json/yaml/toml, sign-in required
-
-*Some setup. install via native installer / package; needs git clone (build from source); configure environment variables, API key configuration*
+*Some setup. configure environment variables, API key configuration*
 
 ## Documentation quality
 
-Score **66/100**, based on these detected signals:
+Score **49/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - has a quick-start section
 - documents installation
-- documents configuration
-- links to dedicated docs
-- reports benchmarks
+- has troubleshooting/FAQ
 - explains architecture
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 58.8 |
-| momentum | 3.7 |
+| momentum | 3.3 |
 | maintenance | 100.0 |
-| documentation | 66.0 |
-| accessibility | 51.0 |
+| documentation | 49.0 |
+| accessibility | 58.0 |
 
 ---
 

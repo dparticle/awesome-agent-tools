@@ -18,103 +18,101 @@
     "open-source"
   ],
   "created_at": "2026-06-23T12:41:42Z",
-  "updated_at": "2026-10-13T10:27:20Z",
-  "pushed_at": "2026-10-13T10:27:11Z",
+  "updated_at": "2026-10-13T16:39:08Z",
+  "pushed_at": "2026-10-14T09:26:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 111,
+  "age_days": 112,
   "days_since_push": 0,
-  "health_score": 49,
+  "health_score": 48,
   "health_components": {
     "popularity": 52.8,
     "momentum": 0.0,
     "maintenance": 100.0,
-    "documentation": 46.0,
-    "accessibility": 58.0
+    "documentation": 49.0,
+    "accessibility": 44.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.93,
+    "lifetime_stars_per_day": 3.89,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "deepagent-ltd/deepagent-code",
-    "readme_chars": 17369,
+    "readme_chars": 10173,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
       "model-routing",
-      "api-gateway",
       "session-persistence",
       "memory-context",
       "skills-plugins",
       "agent-runtime",
       "mcp-support",
       "security-isolation",
+      "team-collaboration",
       "gui-desktop",
-      "cross-agent-support"
+      "notifications"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "",
-      "worktree-isolation": "replay, audit, and recovery always agree on what actually happened.",
-      "model-routing": "ble models from the endpoint's /models list — nothing else to fill in.",
-      "api-gateway": "ned around, use the official",
-      "session-persistence": "very prompt, tool call, and event is written to the durable log before it happens.",
-      "memory-context": "connects four views of the project:",
-      "skills-plugins": "",
-      "agent-runtime": "The AI coding agent that remembers, plans, collaborates — and finishes the job",
-      "mcp-support": "Get definitions, references, call chains, type hierarchies, and diagnostics in one call.",
-      "security-isolation": "uture task when the instruction should begin after the current one instead of changing it.",
-      "gui-desktop": "s, inspect its artifacts, and keep the answer attached to the conversation that requested it.",
-      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+      "multi-agent-orchestration": "kept separate to support provider caching, without making a fixed token-saving promise.",
+      "worktree-isolation": "gate independent research, implementation, and review tasks to subagents.",
+      "model-routing": "ver guide for package-specific development and build commands.",
+      "session-persistence": "",
+      "memory-context": "An AI coding workspace for work that takes more than one prompt",
+      "skills-plugins": "wn local DAC, continuous follow-up in the same Session, and final answers returned to the original conversation.",
+      "agent-runtime": "g-running tasks, browser work, and personal agent messaging — in one workspace.",
+      "mcp-support": "ollow-up in the same Session, and final answers returned to the original conversation.",
+      "security-isolation": "s, configuration lives under %APPDATA%\\deepagent-code and data under %LOCALAPPDATA%\\deepagent-code.",
+      "team-collaboration": "ents, Skills, and domain knowledge are admitted as needed.",
+      "gui-desktop": "the Bun version pinned in the root package.json: Bun 1.4.2 for this source line.",
+      "notifications": ""
     },
     "capability_hits": {
       "multi-agent-orchestration": 1,
-      "worktree-isolation": 2,
-      "model-routing": 4,
-      "api-gateway": 2,
+      "worktree-isolation": 1,
+      "model-routing": 2,
       "session-persistence": 1,
       "memory-context": 2,
       "skills-plugins": 1,
       "agent-runtime": 1,
       "mcp-support": 2,
       "security-isolation": 1,
+      "team-collaboration": 1,
       "gui-desktop": 3,
-      "cross-agent-support": 3
+      "notifications": 1
     },
     "friction": {
       "level": "moderate",
-      "score": 42,
+      "score": 56,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
-      "easy_signals": [
-        "curl | sh installer"
-      ],
+      "easy_signals": [],
       "hard_signals": [
         "git clone (build from source)"
       ],
       "config_signals": [
-        "environment variables",
         "API key configuration",
-        "config file",
         "server/reverse-proxy setup"
       ],
       "friendliness_signals": [
         "GUI application"
       ],
       "platforms": [
+        "macOS",
+        "Windows",
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via curl | sh installer; needs git clone (build from source); configure environment variables, API key configuration; GUI application",
-      "note_zh": "需要一些配置。可通过 curl | sh installer 安装；需要 git clone (build from source)；需配置 environment variables、API key configuration；GUI application"
+      "note_en": "Some setup. needs git clone (build from source); configure API key configuration, server/reverse-proxy setup; GUI application",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；需配置 API key configuration、server/reverse-proxy setup；GUI application"
     },
-    "doc_score": 46,
+    "doc_score": 49,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -122,37 +120,26 @@
       "documents configuration",
       "has contribution guidance",
       "mentions licensing",
+      "has a Chinese translation",
       "documents changes",
       "explains architecture"
     ],
     "agents": [
-      "Claude Code",
-      "Codex",
       "OpenCode"
     ],
-    "summary_en": "DeepAgent Code is an AI coding workspace for work that lasts longer than one prompt.",
+    "summary_en": "DeepAgent Code (DAC) combines a desktop coding workspace and a terminal agent with a shared execution core.",
     "summary_zh": "",
-    "install_hint": "curl -fsSL https://ai.deepagent.ltd/download/install | bash",
+    "install_hint": "",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.461
+      "external_link_ratio": 0.393
     },
-    "highlights": [
-      "On the harder tasks, the average fix-to-pass rate rises from 71.8% to 98.4%.",
-      "Lower total input tokens: total input runs at roughly 40-80% of the baseline on DeepSWE.",
-      "Output tokens drop to roughly a third of the baseline: structured tool calls replace long stretches of shell-output reasoning, and generated tokens are the most expensive part of the bill.",
-      "About 10% fewer steps on average, with end-to-end wall time on par with the baseline."
-    ],
-    "summary_zh_native": "DeepAgent Code 是一个面向长期任务的 AI 编程工作区。你可以让它改一个小地方，在任务运行中随时补充指令，把一场迁移交给带客观完成判据的目标回路，或者召集多位专家共同审阅一项决策——无论哪种，工作都会在多轮对话、进程重启、工具调用、团队成员和不同项目之间保持连贯。",
-    "highlights_zh": [
-      "较难的任务上修复通过率平均从 71.8% 提升到 98.4%。",
-      "事件溯源的历史。 会话活动是一份只追加的事件日志，与它所描述的状态在同一事务中写入，回放、审计与恢复读到的永远是同一份事实。",
-      "写隔离。 严格计划门默认开启：越出已批准计划的写入会被显式拒绝并报错，而不是静默落进你的代码树。",
-      "持久会话。 prompt 在执行开始前先保存为持久记录。进程中途崩溃，会话从断点精确恢复；重试接起的是同一项工作，而不是悄悄另起一份。"
-    ],
+    "highlights": [],
+    "summary_zh_native": "DeepAgent Code（DAC） 将桌面编程工作区和终端智能体连接到同一个执行内核。面对跨文件、多轮对话、多种工具和多人讨论的工作，你可以保留项目上下文、维护可编辑的计划、委派独立子任务、查看执行过程，并让最终回答回到发起工作的对话中。",
+    "highlights_zh": [],
     "chinese_readme": "README.zh.md"
   },
   "discovery": {
@@ -160,18 +147,92 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:36+00:00",
+  "fetched_at": "2026-10-14T09:34:13+00:00",
   "categories": [
     "analytics",
-    "model-routing",
-    "voice"
+    "sessions",
+    "voice-remote-control"
   ],
-  "primary_category": "voice",
+  "primary_category": "voice-remote-control",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (12/12).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (12/12)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "deepagent-ltd/deepagent-code",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "deepagent-ltd/deepagent-code",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "notifications",
+        "security-isolation",
+        "session-persistence",
+        "skills-plugins",
+        "team-collaboration",
+        "worktree-isolation"
+      ],
+      "star_ratio": 233.495,
+      "momentum_ratio": 11080.0,
+      "setup_delta": -11,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (12/12)",
+        "233.50x the stars (101,804 vs 436)",
+        "11080.00x the star velocity (554.0/day vs 0.0/day)",
+        "no harder to set up (45 vs 56 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 89,
+        "incumbent_setup_score": 56,
+        "challenger_setup_score": 45
+      }
+    }
   }
 }

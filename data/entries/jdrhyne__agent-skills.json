@@ -35,8 +35,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 264,
-  "days_since_push": 44,
+  "age_days": 265,
+  "days_since_push": 45,
   "health_score": 41,
   "health_components": {
     "popularity": 47.6,
@@ -153,10 +153,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:59+00:00",
+  "fetched_at": "2026-10-14T09:34:36+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "analytics",
+    "desktop-ui",
+    "self-hosting-security",
     "skills"
   ],
   "primary_category": "skills",

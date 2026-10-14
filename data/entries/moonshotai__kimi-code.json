@@ -6,34 +6,34 @@
   "url": "https://github.com/MoonshotAI/kimi-code",
   "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
   "homepage": "https://www.kimi.com/code/docs/",
-  "stars": 7851,
-  "forks": 1286,
-  "open_issues": 1558,
+  "stars": 7865,
+  "forks": 1291,
+  "open_issues": 1565,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-22T08:02:03Z",
-  "updated_at": "2026-10-13T11:47:23Z",
-  "pushed_at": "2026-10-13T11:45:32Z",
+  "updated_at": "2026-10-14T09:23:22Z",
+  "pushed_at": "2026-10-14T09:21:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 144,
+  "age_days": 145,
   "days_since_push": 0,
   "health_score": 60,
   "health_components": {
     "popularity": 77.9,
-    "momentum": 8.7,
+    "momentum": 9.0,
     "maintenance": 100.0,
     "documentation": 56.0,
     "accessibility": 57.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 52,
+    "stars_gained": 54,
     "days_span": 5,
-    "stars_per_day": 10.4,
-    "lifetime_stars_per_day": 54.52,
+    "stars_per_day": 10.8,
+    "lifetime_stars_per_day": 54.24,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -142,77 +142,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:22+00:00",
+  "fetched_at": "2026-10-14T09:32:57+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile",
+    "desktop-ui",
     "skills"
   ],
-  "primary_category": "mobile",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "iOfficeAI/AionUi",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "moonshotai/kimi-code",
-      "challenger": "iofficeai/aionui",
-      "incumbent_name": "MoonshotAI/kimi-code",
-      "challenger_name": "iOfficeAI/AionUi",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "notifications",
-        "parallel-execution",
-        "skills-plugins"
-      ],
-      "star_ratio": 4.265,
-      "momentum_ratio": 2.019,
-      "setup_delta": -41,
-      "dominance": 0.887,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "4.27x the stars (33,485 vs 7,851)",
-        "2.02x the star velocity (21.0/day vs 10.4/day)",
-        "no harder to set up (2 vs 43 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 60,
-        "challenger_health": 67,
-        "incumbent_setup_score": 43,
-        "challenger_setup_score": 2
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -8,8 +8,8 @@
   "homepage": "https://lnyo-cly.github.io/ai4j/",
   "stars": 435,
   "forks": 55,
-  "open_issues": 5,
-  "language": "HTML",
+  "open_issues": 4,
+  "language": "Java",
   "license": "Apache-2.0",
   "topics": [
     "agent",
@@ -33,12 +33,12 @@
     "vector-database"
   ],
   "created_at": "2024-08-17T08:59:56Z",
-  "updated_at": "2026-10-12T03:23:00Z",
-  "pushed_at": "2026-10-13T10:36:02Z",
+  "updated_at": "2026-10-13T17:22:52Z",
+  "pushed_at": "2026-10-13T17:22:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 787,
+  "age_days": 788,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
@@ -160,7 +160,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:37+00:00",
+  "fetched_at": "2026-10-14T09:34:13+00:00",
   "categories": [
     "analytics",
     "providers-2",

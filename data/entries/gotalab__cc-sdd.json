@@ -6,7 +6,7 @@
   "url": "https://github.com/gotalab/cc-sdd",
   "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
   "homepage": "",
-  "stars": 3711,
+  "stars": 3712,
   "forks": 288,
   "open_issues": 21,
   "language": "TypeScript",
@@ -26,27 +26,27 @@
     "subagents"
   ],
   "created_at": "2025-07-17T04:41:37Z",
-  "updated_at": "2026-10-13T07:53:00Z",
+  "updated_at": "2026-10-14T07:37:22Z",
   "pushed_at": "2026-10-13T03:59:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 453,
-  "days_since_push": 0,
+  "age_days": 454,
+  "days_since_push": 1,
   "health_score": 59,
   "health_components": {
     "popularity": 71.4,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 8.19,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 8.18,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,76 +141,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:56+00:00",
+  "fetched_at": "2026-10-14T09:33:34+00:00",
   "categories": [
-    "model-routing",
-    "skills",
-    "teams"
+    "desktop-ui",
+    "skills"
   ],
-  "primary_category": "teams",
+  "primary_category": "skills",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "gotalab/cc-sdd",
-      "challenger": "tencentcloud/octop",
-      "incumbent_name": "gotalab/cc-sdd",
-      "challenger_name": "TencentCloud/Octop",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "multi-agent-orchestration",
-        "skills-plugins",
-        "team-collaboration"
-      ],
-      "star_ratio": 2.44,
-      "momentum_ratio": 378.333,
-      "setup_delta": 7,
-      "dominance": 0.918,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "2.44x the stars (9,053 vs 3,711)",
-        "378.33x the star velocity (227.0/day vs 0.6/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "multi-agent-orchestration",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 59,
-        "challenger_health": 87,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

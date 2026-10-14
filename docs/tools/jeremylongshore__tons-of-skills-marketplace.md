@@ -2,7 +2,7 @@
 
 # jeremylongshore/tons-of-skills-marketplace
 
-> A model-agnostic agent-skills platform.
+> Intent Solutions is a Claude Partner Network Select Services Partner.
 
 [Repository](https://github.com/jeremylongshore/tons-of-skills-marketplace) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,832 |
+| Stars | 2,835 |
 | Star velocity | 2.0/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 41/100 |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-10-10 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 12,896 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 13,181 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@ Score **41/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 69.0 |
+| popularity | 69.1 |
 | momentum | 1.7 |
 | maintenance | 100.0 |
 | documentation | 41.0 |

@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 278,
-  "days_since_push": 93,
+  "age_days": 279,
+  "days_since_push": 94,
   "health_score": 43,
   "health_components": {
     "popularity": 49.2,
@@ -147,10 +147,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:54+00:00",
+  "fetched_at": "2026-10-14T09:34:30+00:00",
   "categories": [
-    "accounts-quota",
-    "model-routing",
+    "analytics",
+    "desktop-ui",
     "skills"
   ],
   "primary_category": "skills",

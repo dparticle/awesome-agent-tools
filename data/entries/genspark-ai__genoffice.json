@@ -6,9 +6,9 @@
   "url": "https://github.com/genspark-ai/genoffice",
   "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
   "homepage": "https://genoffice.ai/",
-  "stars": 9523,
-  "forks": 1221,
-  "open_issues": 62,
+  "stars": 9639,
+  "forks": 1232,
+  "open_issues": 48,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,39 +34,40 @@
     "xlsx"
   ],
   "created_at": "2026-07-31T09:40:58Z",
-  "updated_at": "2026-10-13T11:37:46Z",
-  "pushed_at": "2026-10-13T09:03:03Z",
+  "updated_at": "2026-10-14T09:09:35Z",
+  "pushed_at": "2026-10-14T08:41:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 74,
   "days_since_push": 0,
-  "health_score": 85,
+  "health_score": 84,
   "health_components": {
-    "popularity": 79.6,
-    "momentum": 100.0,
+    "popularity": 79.7,
+    "momentum": 95.2,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 80.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 600,
+    "stars_gained": 571,
     "days_span": 5,
-    "stars_per_day": 120.0,
-    "lifetime_stars_per_day": 128.69,
+    "stars_per_day": 114.2,
+    "lifetime_stars_per_day": 130.26,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "genspark-ai/genoffice",
-    "readme_chars": 45476,
+    "readme_chars": 47073,
     "capabilities": [
       "parallel-execution",
       "model-routing",
       "api-gateway",
       "billing-metering",
       "usage-analytics",
+      "memory-context",
       "skills-plugins",
       "agent-runtime",
       "mcp-support",
@@ -80,9 +81,10 @@
       "api-gateway": "spark and skip keys, or bring your own",
       "billing-metering": "export as PDF or a native editable Word document.",
       "usage-analytics": "ub Copilot, OpenCode and Windsurf",
+      "memory-context": "he top hits leave the device; the index itself never does.",
       "skills-plugins": "l, OpenRouter, Requesty, Opper, Cheaper Inference, Atlas Cloud, or any OpenAI-compatible endpoint, local",
-      "agent-runtime": "hing that overflows or overlaps before genoffice create assembles the .pptx and slides render hands back a PNG per slide to look at.",
-      "mcp-support": "Brasil) · Deutsch · Français · 简体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Italiano · Nederlands · Polski · Čeština · Bahasa Indonesia · Bahasa Melayu · ไทย · हिन्दी · עברית",
+      "agent-runtime": "etails and requirements in Download.",
+      "mcp-support": "tsch · Français · 简体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Italiano · Nederlands · Polski · Čeština · Bahasa Indonesia · Bahasa Melayu · ไทย · हिन्दी · עברית · Tiếng Việt",
       "self-hosted": "he same entry exists in every app.",
       "gui-desktop": "MIT) — font parsing for metrics",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
@@ -93,6 +95,7 @@
       "api-gateway": 2,
       "billing-metering": 1,
       "usage-analytics": 1,
+      "memory-context": 1,
       "skills-plugins": 1,
       "agent-runtime": 5,
       "mcp-support": 16,
@@ -160,7 +163,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.902
+      "external_link_ratio": 0.871
     },
     "highlights": [
       "Yours to run. Native apps for macOS, Windows and Linux; files stay on your",
@@ -175,13 +178,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:49+00:00",
+  "fetched_at": "2026-10-14T09:33:28+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "sharing",
-    "voice"
+    "desktop-ui",
+    "self-hosting-security",
+    "teams"
   ],
-  "primary_category": "sharing",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

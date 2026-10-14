@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 624 |
-| Star velocity | 2.4/day (history basis, 5d span) |
+| Stars | 629 |
+| Star velocity | 3.0/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-02-20 |
-| Last push | 2026-10-11 (1 days ago) |
+| Last push | 2026-10-11 (2 days ago) |
 | Analyzed README | 26,101 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — Superseded by bytedance/deer-flow: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -85,8 +85,8 @@ Score **64/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.9 |
-| momentum | 2.0 |
+| popularity | 56.0 |
+| momentum | 2.5 |
 | maintenance | 100.0 |
 | documentation | 64.0 |
 | accessibility | 36.0 |

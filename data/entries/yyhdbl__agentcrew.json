@@ -26,7 +26,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 291,
-  "days_since_push": 1,
+  "days_since_push": 2,
   "health_score": 49,
   "health_components": {
     "popularity": 48.0,
@@ -129,12 +129,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:57+00:00",
+  "fetched_at": "2026-10-14T09:34:34+00:00",
   "categories": [
     "analytics",
-    "security-self-hosting"
+    "self-hosting-security",
+    "sessions"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "sessions",
   "lifecycle": {
     "state": "active",
     "note_en": "",

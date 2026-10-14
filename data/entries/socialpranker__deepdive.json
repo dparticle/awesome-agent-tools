@@ -6,7 +6,7 @@
   "url": "https://github.com/Socialpranker/deepdive",
   "description": "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints.",
   "homepage": "https://socialpranker.github.io/deepdive/",
-  "stars": 372,
+  "stars": 373,
   "forks": 3,
   "open_issues": 1,
   "language": "Python",
@@ -29,7 +29,7 @@
     "research-methodology"
   ],
   "created_at": "2026-05-21T11:43:13Z",
-  "updated_at": "2026-10-13T06:42:57Z",
+  "updated_at": "2026-10-13T16:06:04Z",
   "pushed_at": "2026-10-11T09:43:01Z",
   "archived": false,
   "is_fork": false,
@@ -39,16 +39,16 @@
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 2.57,
     "basis": "history",
     "is_fast_riser": false
@@ -136,17 +136,64 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:45+00:00",
+  "fetched_at": "2026-10-14T09:34:20+00:00",
   "categories": [
     "model-routing",
     "skills"
   ],
   "primary_category": "model-routing",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by ruvnet/metaharness: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 ruvnet/metaharness 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "ruvnet/metaharness",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "socialpranker/deepdive",
+      "challenger": "ruvnet/metaharness",
+      "incumbent_name": "Socialpranker/deepdive",
+      "challenger_name": "ruvnet/metaharness",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "model-routing",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 1.879,
+      "momentum_ratio": 3.5,
+      "setup_delta": 7,
+      "dominance": 0.814,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "1.88x the stars (701 vs 373)",
+        "3.50x the star velocity (1.4/day vs 0.4/day)",
+        "slightly heavier setup (+7 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 52,
+        "incumbent_setup_score": 51,
+        "challenger_setup_score": 58
+      }
+    }
   }
 }

@@ -6,45 +6,46 @@
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
   "homepage": "",
-  "stars": 9177,
-  "forks": 648,
-  "open_issues": 9,
+  "stars": 9241,
+  "forks": 654,
+  "open_issues": 17,
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-21T23:23:51Z",
-  "updated_at": "2026-10-13T11:00:04Z",
-  "pushed_at": "2026-10-13T09:36:29Z",
+  "updated_at": "2026-10-14T08:44:01Z",
+  "pushed_at": "2026-10-14T06:40:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 144,
+  "age_days": 145,
   "days_since_push": 0,
-  "health_score": 64,
+  "health_score": 65,
   "health_components": {
     "popularity": 79.3,
-    "momentum": 26.5,
+    "momentum": 27.3,
     "maintenance": 100.0,
     "documentation": 67.0,
-    "accessibility": 36.0
+    "accessibility": 45.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 159,
+    "stars_gained": 164,
     "days_span": 5,
-    "stars_per_day": 31.8,
+    "stars_per_day": 32.8,
     "lifetime_stars_per_day": 63.73,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "akitaonrails/ai-memory",
-    "readme_chars": 35003,
+    "readme_chars": 38008,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
       "api-gateway",
       "memory-context",
+      "skills-plugins",
       "agent-runtime",
       "mcp-support",
       "security-isolation",
@@ -54,11 +55,12 @@
     ],
     "capability_evidence": {
       "worktree-isolation": "box/queue plus the on-start \"you have mail\" notice.",
-      "model-routing": "",
-      "api-gateway": "",
+      "model-routing": "s session summaries and enables semantic search.",
+      "api-gateway": "s session summaries and enables semantic search.",
       "memory-context": "> Long-term memory for AI coding agents.",
+      "skills-plugins": "",
       "agent-runtime": "> Long-term memory for AI coding agents.",
-      "mcp-support": "unchd-without-the-app paths:",
+      "mcp-support": "links ~/.local/bin/ai-memory.",
       "security-isolation": "",
       "team-collaboration": "chable, such as a homelab box or a LAN host, and",
       "gui-desktop": "nstalls use /var/lib/ai-memory and /etc/ai-memory/ via the",
@@ -69,19 +71,21 @@
       "model-routing": 1,
       "api-gateway": 1,
       "memory-context": 3,
+      "skills-plugins": 1,
       "agent-runtime": 2,
-      "mcp-support": 6,
+      "mcp-support": 8,
       "security-isolation": 2,
       "team-collaboration": 3,
       "gui-desktop": 2,
-      "cross-agent-support": 7
+      "cross-agent-support": 8
     },
     "friction": {
-      "level": "high",
-      "score": 64,
+      "level": "moderate",
+      "score": 55,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
+        "curl | sh installer",
         "native installer / package"
       ],
       "hard_signals": [
@@ -89,6 +93,7 @@
         "git clone (build from source)"
       ],
       "config_signals": [
+        "environment variables",
         "config.json/yaml/toml",
         "OAuth login flow",
         "sign-in required",
@@ -105,8 +110,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Involved setup. install via native installer / package; needs docker run, git clone (build from source); configure config.json/yaml/toml, OAuth login flow",
-      "note_zh": "配置较重。可通过 native installer / package 安装；需要 docker run、git clone (build from source)；需配置 config.json/yaml/toml、OAuth login flow"
+      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 docker run、git clone (build from source)；需配置 environment variables、config.json/yaml/toml"
     },
     "doc_score": 67,
     "doc_signals": [
@@ -129,17 +134,18 @@
       "OpenCode",
       "Cursor",
       "Copilot",
-      "Crush"
+      "Crush",
+      "Droid"
     ],
-    "summary_en": "Your coding agent probably has a memory feature already.",
+    "summary_en": "Website: aimemory.sh",
     "summary_zh": "",
-    "install_hint": "curl -fsSL \"$wrapper_base\" -o \"$wrapper_tmp/ai-memory-wrapper\"",
+    "install_hint": "curl -fsSL https://github.com/akitaonrails/ai-memory/releases/latest/download/install.sh | sh",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.343
+      "external_link_ratio": 0.368
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -151,11 +157,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:50+00:00",
+  "fetched_at": "2026-10-14T09:33:28+00:00",
   "categories": [
-    "analytics",
-    "teams",
-    "voice"
+    "desktop-ui",
+    "self-hosting-security",
+    "teams"
   ],
   "primary_category": "teams",
   "lifecycle": {

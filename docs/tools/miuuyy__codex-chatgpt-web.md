@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,153 |
-| Star velocity | 84.8/day (history basis, 5d span) |
-| Health score | 77/100 |
+| Stars | 14,214 |
+| Star velocity | 82.8/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 45/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-26 |
-| Last push | 2026-10-11 (1 days ago) |
-| Analyzed README | 11,382 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 11,530 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,13 +30,17 @@
 
 > veloper mode and MCP apps.
 
+### API gateway / proxy
+
+> urrent Codex task through the official
+
 ### MCP support
 
 > thout spending your Work or Codex quota.
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 19/100)
+- **Difficulty:** 🟢 Easy (friction score 25/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://github.com/miuuyy/codex-chatgpt-web/releases/latest/download/install-launcher.sh | sh`
@@ -45,9 +49,9 @@
 
 **Signals that add work:** git clone (build from source)
 
-**Configuration required:** API key configuration, sign-in required
+**Configuration required:** environment variables, API key configuration, sign-in required
 
-*Easy. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source); configure API key configuration, sign-in required*
+*Easy. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source); configure environment variables, API key configuration*
 
 ## Documentation quality
 
@@ -66,11 +70,11 @@ Score **45/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 83.0 |
-| momentum | 70.7 |
+| popularity | 83.1 |
+| momentum | 69.0 |
 | maintenance | 100.0 |
 | documentation | 45.0 |
-| accessibility | 81.0 |
+| accessibility | 75.0 |
 
 ---
 

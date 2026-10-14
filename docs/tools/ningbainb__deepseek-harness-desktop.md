@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 809 |
+| Stars | 812 |
 | Star velocity | 5.2/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 43/100 |
@@ -21,7 +21,7 @@
 | License | BSD-3-Clause |
 | Language | JavaScript |
 | Created | 2026-08-13 |
-| Last push | 2026-10-06 (6 days ago) |
+| Last push | 2026-10-06 (7 days ago) |
 | Analyzed README | 13,188 chars from `raw:HEAD/README.md` |
 
 ## What it solves

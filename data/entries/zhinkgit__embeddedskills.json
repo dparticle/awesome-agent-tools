@@ -33,27 +33,27 @@
     "workflow"
   ],
   "created_at": "2026-04-10T09:27:48Z",
-  "updated_at": "2026-10-13T03:32:22Z",
+  "updated_at": "2026-10-14T08:50:54Z",
   "pushed_at": "2026-09-03T05:51:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 186,
-  "days_since_push": 40,
+  "age_days": 187,
+  "days_since_push": 41,
   "health_score": 50,
   "health_components": {
     "popularity": 57.4,
-    "momentum": 1.8,
+    "momentum": 1.7,
     "maintenance": 78.0,
     "documentation": 49.0,
     "accessibility": 82.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 4.0,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 3.98,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -140,13 +140,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:21+00:00",
+  "fetched_at": "2026-10-14T09:33:58+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "model-routing",
+    "desktop-ui",
+    "sessions",
     "skills"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

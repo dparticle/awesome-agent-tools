@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,355 |
-| Star velocity | 27.6/day (history basis, 5d span) |
-| Health score | 68/100 |
+| Stars | 3,365 |
+| Star velocity | 26.2/day (history basis, 5d span) |
+| Health score | 67/100 |
 | Documentation | 65/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-06-03 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 35,810 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 36,823 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Agent runtime
 
-> ork run, as it reads in a Slack thread (illustration): one row per lane with its routed category and model, colored by model vendor
+> to follow whichever Opus the
 
 ### Cross-agent support
 
@@ -86,7 +86,7 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 70.5 |
-| momentum | 23.0 |
+| momentum | 21.8 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 99.0 |

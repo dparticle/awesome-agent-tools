@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 141,
-  "days_since_push": 19,
+  "age_days": 142,
+  "days_since_push": 20,
   "health_score": 53,
   "health_components": {
     "popularity": 49.0,
@@ -54,7 +54,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.0,
+    "lifetime_stars_per_day": 1.99,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -158,10 +158,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:55+00:00",
+  "fetched_at": "2026-10-14T09:34:32+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "analytics",
+    "desktop-ui",
     "providers"
   ],
   "primary_category": "providers",

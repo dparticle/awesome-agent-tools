@@ -17,12 +17,14 @@
 | Health score | 50/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-05-10 |
 | Last push | 2026-10-10 (3 days ago) |
 | Analyzed README | 12,267 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (4/4).
 
 ## What it solves
 

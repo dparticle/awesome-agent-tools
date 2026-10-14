@@ -1,45 +1,45 @@
 {
   "schema": 1,
-  "full_name": "thedivergentai/Game-Design-Agentic-Skills",
-  "name": "Game-Design-Agentic-Skills",
+  "full_name": "thedivergentai/Game-Dev-Agentic-Skills",
+  "name": "Game-Dev-Agentic-Skills",
   "owner": "thedivergentai",
-  "url": "https://github.com/thedivergentai/Game-Design-Agentic-Skills",
+  "url": "https://github.com/thedivergentai/Game-Dev-Agentic-Skills",
   "description": "Multi-engine long-term memory for game AI agents. Deep Godot 4.7+ (99 skills, 27 genre blueprints) + Bevy docs-first parity — audited patterns, persona orchestration (Analyst · Auditor · Builder), production-grade engineering.",
   "homepage": "",
-  "stars": 845,
-  "forks": 53,
+  "stars": 850,
+  "forks": 54,
   "open_issues": 0,
   "language": "GDScript",
   "license": "LGPL-3.0",
   "topics": [],
   "created_at": "2026-02-07T18:06:05Z",
-  "updated_at": "2026-10-13T10:19:40Z",
-  "pushed_at": "2026-10-13T09:06:41Z",
+  "updated_at": "2026-10-14T07:59:17Z",
+  "pushed_at": "2026-10-14T07:59:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
+  "age_days": 248,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
-    "popularity": 58.5,
+    "popularity": 58.6,
     "momentum": 2.9,
     "maintenance": 100.0,
-    "documentation": 73.0,
+    "documentation": 69.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 845,
-    "days_span": 247,
-    "stars_per_day": 3.42,
-    "lifetime_stars_per_day": 3.42,
+    "stars_gained": 850,
+    "days_span": 248,
+    "stars_per_day": 3.43,
+    "lifetime_stars_per_day": 3.43,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
-    "full_name": "thedivergentai/Game-Design-Agentic-Skills",
-    "readme_chars": 51740,
+    "full_name": "thedivergentai/Game-Dev-Agentic-Skills",
+    "readme_chars": 54637,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -53,18 +53,18 @@
     "capability_evidence": {
       "multi-agent-orchestration": "skills to elevate the knowledge depth and execution quality to the highest agentic standard.",
       "parallel-execution": "",
-      "memory-context": "",
-      "skills-plugins": "# Game-Design Agentic Skills",
+      "memory-context": "Godot starts at godot-master.",
+      "skills-plugins": "# Game Dev Agentic Skills",
       "agent-runtime": "#### v0.0.1 — Initial Launch - The Foundation: Released the initial library of 80+ Godot 4.x Agentic Skills. - Agent-First Design: Established the DIA (Discovery-Ingestion-Application) loop for AI Coding Agents. - Core…",
       "mcp-support": "- MCP Clean-up & Direct Building: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing native",
       "gui-desktop": "",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 9,
+      "multi-agent-orchestration": 10,
       "parallel-execution": 1,
-      "memory-context": 1,
-      "skills-plugins": 8,
+      "memory-context": 2,
+      "skills-plugins": 7,
       "agent-runtime": 1,
       "mcp-support": 3,
       "gui-desktop": 1,
@@ -95,7 +95,7 @@
       "note_en": "Easy. install via npx one-liner; configure database migration, server/reverse-proxy setup; GUI application",
       "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database migration、server/reverse-proxy setup；GUI application"
     },
-    "doc_score": 73,
+    "doc_score": 69,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -106,7 +106,6 @@
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
-      "documents changes",
       "explains architecture",
       "long, detailed README"
     ],
@@ -118,19 +117,19 @@
       "Cursor",
       "Copilot"
     ],
-    "summary_en": "Game-Design Agentic Skills (GDAS) - agent library for Godot 4.7+ and Bevy 0.20+",
+    "summary_en": "Game Dev Agentic Skills (GDAS) - agent library for Godot 4.7+ and Bevy 0.20+",
     "summary_zh": "",
-    "install_hint": "npx skills add thedivergentai/Game-Design-Agentic-Skills/skills/godot-master",
+    "install_hint": "npx skills add thedivergentai/Game-Dev-Agentic-Skills/skills/godot-master",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.251
+      "external_link_ratio": 0.238
     },
     "highlights": [
-      "Godot 4.7 Director's Cut: Full library upgrade to Godot 4.7+ — AreaLight3D, HDR output, Asset Store, built-in virtual joystick, and migration digest for 4.6→4.7 projects.",
-      "Migration Station: New Architecture skill — godot-version-migration — full-history engine upgrades from early Godot through 4.7 (legacy eras → official 3→4 → hop-by-hop 4.x).",
+      "Godot 4.7 Director's Cut: Full library upgrade to Godot 4.7+ - AreaLight3D, HDR output, Asset Store, built-in virtual joystick, and a version digest for 4.6 to 4.7 projects.",
+      "Version Station: New Architecture skill - godot-version-migration - full-history engine upgrades from early Godot through 4.7 (legacy eras, official 3 to 4, then hop-by-hop 4.x).",
       "Two engines: Godot 4.7+ under godot-master and Bevy 0.20+ under bevy-master, each with its own hub and Domain Skills.",
       "godot-version-migration: Full-history engine upgrades (legacy eras → 3→4 → 4.x hops) with per-skill migration notes"
     ],
@@ -143,10 +142,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:18+00:00",
+  "fetched_at": "2026-10-14T09:33:55+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "analytics",
+    "desktop-ui",
     "skills"
   ],
   "primary_category": "skills",

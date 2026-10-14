@@ -2,7 +2,7 @@
 
 # akitaonrails/ai-memory
 
-> Your coding agent probably has a memory feature already.
+> Website: aimemory.sh
 
 [Repository](https://github.com/akitaonrails/ai-memory) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,177 |
-| Star velocity | 31.8/day (history basis, 5d span) |
-| Health score | 64/100 |
+| Stars | 9,241 |
+| Star velocity | 32.8/day (history basis, 5d span) |
+| Health score | 65/100 |
 | Documentation | 67/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-05-21 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 35,003 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 38,008 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,11 +32,17 @@
 
 ### Model / provider routing
 
+> s session summaries and enables semantic search.
+
 ### API gateway / proxy
+
+> s session summaries and enables semantic search.
 
 ### Memory & context
 
 > > Long-term memory for AI coding agents.
+
+### Skills & plugins
 
 ### Agent runtime
 
@@ -44,7 +50,7 @@
 
 ### MCP support
 
-> unchd-without-the-app paths:
+> links ~/.local/bin/ai-memory.
 
 ### Security & isolation
 
@@ -62,18 +68,18 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 64/100)
+- **Difficulty:** 🟡 Some setup (friction score 55/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `curl -fsSL "$wrapper_base" -o "$wrapper_tmp/ai-memory-wrapper"`
+- **Quickest install:** `curl -fsSL https://github.com/akitaonrails/ai-memory/releases/latest/download/install.sh | sh`
 
-**Signals that make it easy:** native installer / package
+**Signals that make it easy:** curl | sh installer, native installer / package
 
 **Signals that add work:** docker run, git clone (build from source)
 
-**Configuration required:** config.json/yaml/toml, OAuth login flow, sign-in required, API token/secret, database dependency, database migration, server/reverse-proxy setup, process manager
+**Configuration required:** environment variables, config.json/yaml/toml, OAuth login flow, sign-in required, API token/secret, database dependency, database migration, server/reverse-proxy setup, process manager
 
-*Involved setup. install via native installer / package; needs docker run, git clone (build from source); configure config.json/yaml/toml, OAuth login flow*
+*Some setup. install via curl | sh installer, native installer / package; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml*
 
 ## Documentation quality
 
@@ -96,10 +102,10 @@ Score **67/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 79.3 |
-| momentum | 26.5 |
+| momentum | 27.3 |
 | maintenance | 100.0 |
 | documentation | 67.0 |
-| accessibility | 36.0 |
+| accessibility | 45.0 |
 
 ---
 

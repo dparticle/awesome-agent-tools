@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | MDX |
 | Created | 2025-09-15 |
-| Last push | 2026-08-16 (57 days ago) |
+| Last push | 2026-08-16 (58 days ago) |
 | Analyzed README | 415,042 chars from `raw:HEAD/README.md` |
 
 ## What it solves

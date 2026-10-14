@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-09-20 |
-| Last push | 2026-10-13 (0 days ago) |
+| Last push | 2026-10-13 (1 days ago) |
 | Analyzed README | 12,627 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).

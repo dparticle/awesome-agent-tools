@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "full_name": "unicity-aos/aos-ce",
+  "name": "aos-ce",
+  "owner": "unicity-aos",
+  "url": "https://github.com/unicity-aos/aos-ce",
+  "description": "AOS Community Edition: the open agent operating system.",
+  "homepage": "",
+  "stars": 8461,
+  "forks": 24,
+  "open_issues": 44,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [],
+  "created_at": "2026-07-12T23:39:52Z",
+  "updated_at": "2026-10-14T09:15:14Z",
+  "pushed_at": "2026-10-14T09:15:50Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 93,
+  "days_since_push": 0,
+  "health_score": 75,
+  "health_components": {
+    "popularity": 78.5,
+    "momentum": 75.8,
+    "maintenance": 100.0,
+    "documentation": 28.0,
+    "accessibility": 90.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 8461,
+    "days_span": 93,
+    "stars_per_day": 90.98,
+    "lifetime_stars_per_day": 90.98,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "unicity-aos/aos-ce",
+    "readme_chars": 9398,
+    "capabilities": [
+      "mcp-support",
+      "security-isolation",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mcp-support": "les with explicit permissions and an audit trail.",
+      "security-isolation": "e the access it needs, and give it capabilities you can",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "mcp-support": 5,
+      "security-isolation": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via native installer / package; configure database migration",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 database migration"
+    },
+    "doc_score": 28,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "AOS gives AI agents a shared local environment for tools, permissions and services.",
+    "summary_zh": "",
+    "install_hint": "curl --proto '=https' --tlsv1.2 -fsSL https://aos.unicity.ai/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.106
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-14T09:32:56+00:00",
+  "categories": [
+    "self-hosting-security"
+  ],
+  "primary_category": "self-hosting-security",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

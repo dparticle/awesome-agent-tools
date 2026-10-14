@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,403 |
-| Star velocity | 8.2/day (history basis, 5d span) |
+| Stars | 15,408 |
+| Star velocity | 7.6/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-29 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 12,626 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 12,639 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).
 
 ## What it solves
 
@@ -38,7 +40,7 @@
 
 ### Agent runtime
 
-> store, sandbox, memory) sits behind an interface.
+> n harness and model and switch between
 
 ### Security & isolation
 
@@ -89,7 +91,7 @@ Score **49/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.8 |
-| momentum | 6.8 |
+| momentum | 6.3 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
 | accessibility | 28.0 |

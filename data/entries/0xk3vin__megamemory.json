@@ -6,7 +6,7 @@
   "url": "https://github.com/0xK3vin/MegaMemory",
   "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
   "homepage": "",
-  "stars": 722,
+  "stars": 724,
   "forks": 75,
   "open_issues": 4,
   "language": "TypeScript",
@@ -29,26 +29,26 @@
     "typescript"
   ],
   "created_at": "2026-02-06T07:40:49Z",
-  "updated_at": "2026-10-13T06:15:43Z",
+  "updated_at": "2026-10-13T19:26:53Z",
   "pushed_at": "2026-05-03T00:22:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 249,
-  "days_since_push": 163,
+  "age_days": 250,
+  "days_since_push": 164,
   "health_score": 43,
   "health_components": {
     "popularity": 57.2,
-    "momentum": 1.0,
+    "momentum": 0.8,
     "maintenance": 55.0,
     "documentation": 44.0,
     "accessibility": 72.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.2,
+    "stars_per_day": 1.0,
     "lifetime_stars_per_day": 2.9,
     "basis": "history",
     "is_fast_riser": false
@@ -139,7 +139,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:21+00:00",
+  "fetched_at": "2026-10-14T09:33:59+00:00",
   "categories": [
     "analytics"
   ],
@@ -166,14 +166,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 9.918,
-      "momentum_ratio": 12.333,
+      "star_ratio": 9.917,
+      "momentum_ratio": 15.8,
       "setup_delta": 6,
       "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "9.92x the stars (7,161 vs 722)",
-        "12.33x the star velocity (14.8/day vs 1.2/day)",
+        "9.92x the stars (7,180 vs 724)",
+        "15.80x the star velocity (15.8/day vs 1.0/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],

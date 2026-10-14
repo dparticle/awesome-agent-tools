@@ -6,8 +6,8 @@
   "url": "https://github.com/superagent-ai/grok-cli",
   "description": "An open-source coding agent for the Grok API",
   "homepage": "",
-  "stars": 3493,
-  "forks": 424,
+  "stars": 3495,
+  "forks": 426,
   "open_issues": 35,
   "language": "TypeScript",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "xai"
   ],
   "created_at": "2025-07-14T07:57:39Z",
-  "updated_at": "2026-10-13T08:03:49Z",
+  "updated_at": "2026-10-14T06:36:10Z",
   "pushed_at": "2026-07-06T14:05:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 456,
-  "days_since_push": 98,
+  "age_days": 457,
+  "days_since_push": 99,
   "health_score": 51,
   "health_components": {
     "popularity": 70.9,
-    "momentum": 1.0,
+    "momentum": 0.8,
     "maintenance": 55.0,
     "documentation": 57.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 7.66,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 7.65,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,13 +144,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:57+00:00",
+  "fetched_at": "2026-10-14T09:33:35+00:00",
   "categories": [
-    "mobile",
-    "model-routing",
-    "voice"
+    "agent-runtime-desktop-ui",
+    "sessions",
+    "voice-remote-control"
   ],
-  "primary_category": "mobile",
+  "primary_category": "voice-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

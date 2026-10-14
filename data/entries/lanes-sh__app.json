@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 204,
-  "days_since_push": 6,
+  "age_days": 205,
+  "days_since_push": 7,
   "health_score": 50,
   "health_components": {
     "popularity": 48.8,
@@ -150,24 +150,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:55+00:00",
+  "fetched_at": "2026-10-14T09:34:33+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile",
+    "desktop-ui",
     "skills"
   ],
-  "primary_category": "mobile",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "iOfficeAI/AionUi",
+    "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 maxritter/pilot-shell 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "maxritter/pilot-shell",
     "challenger": "",
     "supersede": {
       "incumbent": "lanes-sh/app",
-      "challenger": "iofficeai/aionui",
+      "challenger": "maxritter/pilot-shell",
       "incumbent_name": "lanes-sh/app",
-      "challenger_name": "iOfficeAI/AionUi",
+      "challenger_name": "maxritter/pilot-shell",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -181,15 +181,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.208,
-      "momentum_ratio": 105.0,
-      "setup_delta": -10,
-      "dominance": 1.0,
+      "star_ratio": 7.62,
+      "momentum_ratio": 3.0,
+      "setup_delta": 0,
+      "dominance": 0.937,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.21x the stars (33,485 vs 274)",
-        "105.00x the star velocity (21.0/day vs 0.2/day)",
-        "no harder to set up (2 vs 12 friction)"
+        "7.62x the stars (2,088 vs 274)",
+        "3.00x the star velocity (0.6/day vs 0.2/day)",
+        "no harder to set up (12 vs 12 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -204,22 +204,20 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
           "multi-agent-orchestration",
           "notifications",
           "parallel-execution",
-          "remote-control",
           "skills-plugins",
-          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 67,
+        "challenger_health": 61,
         "incumbent_setup_score": 12,
-        "challenger_setup_score": 2
+        "challenger_setup_score": 12
       }
     }
   }

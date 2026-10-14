@@ -6,19 +6,19 @@
   "url": "https://github.com/msitarzewski/agency-agents",
   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
   "homepage": "",
-  "stars": 159706,
-  "forks": 25817,
-  "open_issues": 204,
+  "stars": 159974,
+  "forks": 25874,
+  "open_issues": 207,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-10-13T12:12:29Z",
-  "updated_at": "2026-10-13T11:40:10Z",
-  "pushed_at": "2026-10-13T11:23:57Z",
+  "updated_at": "2026-10-14T09:27:33Z",
+  "pushed_at": "2026-10-13T21:01:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 364,
+  "age_days": 365,
   "days_since_push": 0,
   "health_score": 98,
   "health_components": {
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1275,
+    "stars_gained": 1554,
     "days_span": 5,
-    "stars_per_day": 255.0,
-    "lifetime_stars_per_day": 438.75,
+    "stars_per_day": 310.8,
+    "lifetime_stars_per_day": 438.28,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -180,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:36+00:00",
+  "fetched_at": "2026-10-14T09:33:12+00:00",
   "categories": [
-    "security-self-hosting",
+    "mobile-2",
     "teams",
-    "voice"
+    "voice-remote-control"
   ],
   "primary_category": "teams",
   "lifecycle": {

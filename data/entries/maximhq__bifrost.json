@@ -6,9 +6,9 @@
   "url": "https://github.com/maximhq/bifrost",
   "description": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing, semantic caching, virtual keys, budgets and MCP Code Mode. Works with any SDK or agent and adds under 200µs of overhead at 5k RPS.",
   "homepage": "https://www.getmaxim.ai/bifrost",
-  "stars": 8746,
-  "forks": 1383,
-  "open_issues": 1208,
+  "stars": 8774,
+  "forks": 1386,
+  "open_issues": 1207,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,16 +34,16 @@
     "semantic-cache"
   ],
   "created_at": "2025-03-19T07:21:26Z",
-  "updated_at": "2026-10-13T11:06:06Z",
-  "pushed_at": "2026-10-13T11:31:44Z",
+  "updated_at": "2026-10-14T08:55:28Z",
+  "pushed_at": "2026-10-14T08:34:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 573,
+  "age_days": 574,
   "days_since_push": 0,
   "health_score": 62,
   "health_components": {
-    "popularity": 78.8,
+    "popularity": 78.9,
     "momentum": 12.7,
     "maintenance": 100.0,
     "documentation": 70.0,
@@ -51,10 +51,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 8746,
-    "days_span": 573,
-    "stars_per_day": 15.26,
-    "lifetime_stars_per_day": 15.26,
+    "stars_gained": 8774,
+    "days_span": 574,
+    "stars_per_day": 15.29,
+    "lifetime_stars_per_day": 15.29,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -156,11 +156,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:50+00:00",
+  "fetched_at": "2026-10-14T09:33:29+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "providers",
-    "voice"
+    "desktop-ui",
+    "model-routing",
+    "providers"
   ],
   "primary_category": "providers",
   "lifecycle": {
@@ -187,14 +187,14 @@
         "skills-plugins",
         "usage-analytics"
       ],
-      "star_ratio": 16.424,
-      "momentum_ratio": 29.672,
+      "star_ratio": 16.42,
+      "momentum_ratio": 29.993,
       "setup_delta": -26,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "16.42x the stars (143,647 vs 8,746)",
-        "29.67x the star velocity (452.8/day vs 15.3/day)",
+        "16.42x the stars (144,070 vs 8,774)",
+        "29.99x the star velocity (458.6/day vs 15.3/day)",
         "no harder to set up (23 vs 49 friction)"
       ],
       "reasons_zh": [],

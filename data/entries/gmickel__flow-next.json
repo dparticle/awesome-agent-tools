@@ -6,8 +6,8 @@
   "url": "https://github.com/gmickel/flow-next",
   "description": "Faster than your agent alone. And better. A workflow plugin that takes a bug, idea or ticket to a verified pull request: specs, cross-model review by risk, live QA, receipts in your repo. Claude Code · Codex · Cursor · Droid · Grok Build · OpenCode · Muse Code.",
   "homepage": "https://flow-next.dev",
-  "stars": 709,
-  "forks": 59,
+  "stars": 708,
+  "forks": 58,
   "open_issues": 14,
   "language": "Python",
   "license": "MIT",
@@ -34,33 +34,33 @@
     "workflow"
   ],
   "created_at": "2025-12-26T22:27:07Z",
-  "updated_at": "2026-10-13T10:00:52Z",
-  "pushed_at": "2026-10-13T10:00:47Z",
+  "updated_at": "2026-10-14T07:20:00Z",
+  "pushed_at": "2026-10-14T07:29:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 290,
+  "age_days": 291,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 57.0,
-    "momentum": 0.3,
+    "momentum": 0.1,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
-    "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.44,
+    "stars_gained": 1,
+    "days_span": 6,
+    "stars_per_day": 0.17,
+    "lifetime_stars_per_day": 2.43,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "gmickel/flow-next",
-    "readme_chars": 13875,
+    "readme_chars": 14155,
     "capabilities": [
       "model-routing",
       "agent-runtime",
@@ -127,7 +127,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.523
+      "external_link_ratio": 2.543
     },
     "highlights": [
       "Review backends: Codex, Copilot, Cursor, Claude and host review, and why the reviewer must come from another family."
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:22+00:00",
+  "fetched_at": "2026-10-14T09:33:59+00:00",
   "categories": [
     "model-routing"
   ],

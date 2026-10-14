@@ -6,7 +6,7 @@
   "url": "https://github.com/Swival/swival",
   "description": "A small, powerful, open-source CLI coding agent that works with open models.",
   "homepage": "https://swival.dev",
-  "stars": 343,
+  "stars": 342,
   "forks": 26,
   "open_issues": 2,
   "language": "Python",
@@ -25,13 +25,13 @@
     "mcp"
   ],
   "created_at": "2026-02-24T23:57:47Z",
-  "updated_at": "2026-10-11T18:44:35Z",
-  "pushed_at": "2026-10-11T18:44:32Z",
+  "updated_at": "2026-10-13T20:42:37Z",
+  "pushed_at": "2026-10-13T20:42:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 230,
-  "days_since_push": 1,
+  "age_days": 231,
+  "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 50.7,
@@ -43,9 +43,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 7,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.49,
+    "lifetime_stars_per_day": 1.48,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -111,7 +111,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:47+00:00",
+  "fetched_at": "2026-10-14T09:34:23+00:00",
   "categories": [
     "model-routing"
   ],

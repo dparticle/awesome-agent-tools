@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "full_name": "Leonxlnx/taste-skill",
+  "name": "taste-skill",
+  "owner": "Leonxlnx",
+  "url": "https://github.com/Leonxlnx/taste-skill",
+  "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+  "homepage": "https://tasteskill.dev",
+  "stars": 95817,
+  "forks": 6516,
+  "open_issues": 0,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "anti-slop",
+    "claude-code",
+    "codex",
+    "cursor",
+    "design-system",
+    "frontend",
+    "landing-page",
+    "ui-design",
+    "web-design"
+  ],
+  "created_at": "2026-02-19T21:44:05Z",
+  "updated_at": "2026-10-14T09:29:37Z",
+  "pushed_at": "2026-10-13T21:50:35Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 236,
+  "days_since_push": 0,
+  "health_score": 88,
+  "health_components": {
+    "popularity": 99.6,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 41.0,
+    "accessibility": 79.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 95817,
+    "days_span": 236,
+    "stars_per_day": 406.0,
+    "lifetime_stars_per_day": 406.0,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Leonxlnx/taste-skill",
+    "readme_chars": 18441,
+    "capabilities": [
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "/plugin update upgrades it later. Codex plugin Start a new Codex session afterwards so the skills are loaded. From a clone, linked instead of copied ./install.sh symlinks the skills into Claude Code (--codex for Codex,…",
+      "agent-runtime": "ts for creative interfaces",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "skills-plugins": 5,
+      "agent-runtime": 2,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 21,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "no-code positioning"
+      ],
+      "platforms": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; configure API key configuration, server/reverse-proxy setup; no-code positioning",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 API key configuration、server/reverse-proxy setup；no-code positioning"
+    },
+    "doc_score": 41,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "documents changes"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Taste Skill is a set of Agent Skills that make coding agents design websites instead of assembling the average landing page.",
+    "summary_zh": "",
+    "install_hint": "npx skills add https://github.com/Leonxlnx/taste-skill",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.271
+    },
+    "highlights": [
+      "A script deals three of 20 researched directions and the agent picks one."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-14T09:33:17+00:00",
+  "categories": [
+    "desktop-ui",
+    "skills"
+  ],
+  "primary_category": "skills",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

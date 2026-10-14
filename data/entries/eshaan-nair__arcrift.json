@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 175,
-  "days_since_push": 97,
+  "age_days": 176,
+  "days_since_push": 98,
   "health_score": 46,
   "health_components": {
     "popularity": 47.8,
@@ -49,9 +49,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 246,
-    "days_span": 175,
-    "stars_per_day": 1.41,
-    "lifetime_stars_per_day": 1.41,
+    "days_span": 176,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 1.4,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -161,10 +161,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:58+00:00",
+  "fetched_at": "2026-10-14T09:34:35+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "analytics"
+    "analytics",
+    "desktop-ui"
   ],
   "primary_category": "analytics",
   "lifecycle": {

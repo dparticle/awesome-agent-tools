@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,042 |
-| Star velocity | 180.8/day (history basis, 5d span) |
+| Stars | 5,152 |
+| Star velocity | 161.4/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 62/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-09-27 |
-| Last push | 2026-10-12 (0 days ago) |
-| Analyzed README | 33,130 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 34,068 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -50,7 +50,7 @@
 
 ### GUI / desktop app
 
-> ting from 0.1.0? macOS may ask you, once for each key you saved, to let Coucou use it: enter your Mac password and click Always Allow.
+> Coucou on the iPhone, allow notifications, and start a Claude Code session on the Mac.
 
 ### Notifications
 
@@ -98,7 +98,7 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.1 |
+| popularity | 74.2 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 62.0 |

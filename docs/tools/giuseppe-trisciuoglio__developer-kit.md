@@ -12,9 +12,9 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 357 |
+| Stars | 358 |
 | Star velocity | 0.4/day (history basis, 5d span) |
-| Health score | 43/100 |
+| Health score | 44/100 |
 | Documentation | 59/100 |
 | Tier | 👀 Watchlist |
 | Lifecycle | 🔻 Superseded |
@@ -24,7 +24,7 @@
 | Last push | 2026-09-10 (33 days ago) |
 | Analyzed README | 9,755 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [thedivergentai/Game-Design-Agentic-Skills](https://github.com/thedivergentai/Game-Design-Agentic-Skills)** — Superseded by thedivergentai/Game-Design-Agentic-Skills: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).
 
 ## What it solves
 

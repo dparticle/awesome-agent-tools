@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 283,
-  "days_since_push": 31,
+  "age_days": 284,
+  "days_since_push": 32,
   "health_score": 52,
   "health_components": {
     "popularity": 60.4,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.71,
+    "lifetime_stars_per_day": 3.7,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -122,10 +122,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:13+00:00",
+  "fetched_at": "2026-10-14T09:33:51+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "model-routing",
+    "desktop-ui",
     "skills"
   ],
   "primary_category": "skills",

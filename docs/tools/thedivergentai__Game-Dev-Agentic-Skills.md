@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — do not edit by hand. Run `python scripts/agentindex.py build` (or wait for the daily workflow). -->
 
-# thedivergentai/Game-Design-Agentic-Skills
+# thedivergentai/Game-Dev-Agentic-Skills
 
-> Game-Design Agentic Skills (GDAS) - agent library for Godot 4.7+ and Bevy 0.20+
+> Game Dev Agentic Skills (GDAS) - agent library for Godot 4.7+ and Bevy 0.20+
 
-[Repository](https://github.com/thedivergentai/Game-Design-Agentic-Skills) · [Back to index](../../README.md) · Category: **None**
+[Repository](https://github.com/thedivergentai/Game-Dev-Agentic-Skills) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 845 |
-| Star velocity | 3.4/day (lifetime basis, 247d span) |
+| Stars | 850 |
+| Star velocity | 3.4/day (lifetime basis, 248d span) |
 | Health score | 58/100 |
-| Documentation | 73/100 |
+| Documentation | 69/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | LGPL-3.0 |
 | Language | GDScript |
 | Created | 2026-02-07 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 51,740 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 54,637 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,9 +34,11 @@
 
 ### Memory & context
 
+> Godot starts at godot-master.
+
 ### Skills & plugins
 
-> # Game-Design Agentic Skills
+> # Game Dev Agentic Skills
 
 ### Agent runtime
 
@@ -57,7 +59,7 @@
 - **Difficulty:** 🟢 Easy (friction score 21/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx skills add thedivergentai/Game-Design-Agentic-Skills/skills/godot-master`
+- **Quickest install:** `npx skills add thedivergentai/Game-Dev-Agentic-Skills/skills/godot-master`
 
 **Signals that make it easy:** npx one-liner
 
@@ -67,7 +69,7 @@
 
 ## Documentation quality
 
-Score **73/100**, based on these detected signals:
+Score **69/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -78,7 +80,6 @@ Score **73/100**, based on these detected signals:
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
-- documents changes
 - explains architecture
 - long, detailed README
 
@@ -86,10 +87,10 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.5 |
+| popularity | 58.6 |
 | momentum | 2.9 |
 | maintenance | 100.0 |
-| documentation | 73.0 |
+| documentation | 69.0 |
 | accessibility | 79.0 |
 
 ---

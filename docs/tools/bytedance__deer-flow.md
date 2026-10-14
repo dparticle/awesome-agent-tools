@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 83,795 |
-| Star velocity | 58.2/day (history basis, 5d span) |
-| Health score | 77/100 |
+| Stars | 83,841 |
+| Star velocity | 53.6/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 285,630 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 295,525 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Model / provider routing
 
-> or empty results keep the existing "No results found" response.
+> l, or empty Pages keep the existing "No results found" response.
 
 ### API gateway / proxy
 
@@ -76,7 +76,7 @@
 
 ### Team collaboration
 
-> o-test package summaries remain UNVERIFIED; failures still take precedence.
+> To request JSON syntax validation, explicitly set a task or batch_task item's
 
 ### GUI / desktop app
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.5 |
-| momentum | 48.5 |
+| momentum | 44.7 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

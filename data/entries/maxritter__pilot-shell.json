@@ -6,7 +6,7 @@
   "url": "https://github.com/maxritter/pilot-shell",
   "description": "Professional context and harness engineering for Claude Code and OpenAI Codex. Build production-grade software with spec-driven development, TDD, persistent memory, quality gates, code intelligence, human oversight, and end-to-end verification.",
   "homepage": "https://pilot-shell.com",
-  "stars": 2086,
+  "stars": 2088,
   "forks": 179,
   "open_issues": 0,
   "language": "JavaScript",
@@ -34,12 +34,12 @@
     "test-driven-development"
   ],
   "created_at": "2025-10-18T08:30:23Z",
-  "updated_at": "2026-10-13T07:26:15Z",
-  "pushed_at": "2026-10-13T07:26:13Z",
+  "updated_at": "2026-10-13T20:11:23Z",
+  "pushed_at": "2026-10-13T21:59:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 360,
+  "age_days": 361,
   "days_since_push": 0,
   "health_score": 61,
   "health_components": {
@@ -54,7 +54,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 5.79,
+    "lifetime_stars_per_day": 5.78,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,13 +165,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:02+00:00",
+  "fetched_at": "2026-10-14T09:33:40+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile",
+    "desktop-ui",
     "skills"
   ],
-  "primary_category": "mobile",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

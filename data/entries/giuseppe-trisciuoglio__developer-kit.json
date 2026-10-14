@@ -6,7 +6,7 @@
   "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
   "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
   "homepage": "",
-  "stars": 357,
+  "stars": 358,
   "forks": 41,
   "open_issues": 17,
   "language": "Python",
@@ -31,14 +31,14 @@
     "typescript"
   ],
   "created_at": "2025-10-21T08:08:21Z",
-  "updated_at": "2026-10-09T20:36:03Z",
+  "updated_at": "2026-10-13T15:15:47Z",
   "pushed_at": "2026-09-10T11:05:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 357,
+  "age_days": 358,
   "days_since_push": 33,
-  "health_score": 43,
+  "health_score": 44,
   "health_components": {
     "popularity": 51.1,
     "momentum": 0.3,
@@ -147,24 +147,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:45+00:00",
+  "fetched_at": "2026-10-14T09:34:21+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "model-routing",
+    "desktop-ui",
     "skills"
   ],
   "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Design-Agentic-Skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 thedivergentai/Game-Design-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "thedivergentai/Game-Design-Agentic-Skills",
+    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "giuseppe-trisciuoglio/developer-kit",
-      "challenger": "thedivergentai/game-design-agentic-skills",
+      "challenger": "thedivergentai/game-dev-agentic-skills",
       "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
-      "challenger_name": "thedivergentai/Game-Design-Agentic-Skills",
+      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -176,14 +175,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.367,
-      "momentum_ratio": 8.55,
+      "star_ratio": 2.374,
+      "momentum_ratio": 8.575,
       "setup_delta": -45,
-      "dominance": 0.946,
+      "dominance": 0.947,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.37x the stars (845 vs 357)",
-        "8.55x the star velocity (3.4/day vs 0.4/day)",
+        "2.37x the stars (850 vs 358)",
+        "8.57x the star velocity (3.4/day vs 0.4/day)",
         "no harder to set up (21 vs 66 friction)"
       ],
       "reasons_zh": [],
@@ -205,7 +204,7 @@
           "parallel-execution",
           "skills-plugins"
         ],
-        "incumbent_health": 43,
+        "incumbent_health": 44,
         "challenger_health": 58,
         "incumbent_setup_score": 66,
         "challenger_setup_score": 21

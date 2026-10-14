@@ -2,7 +2,7 @@
 
 # deepagent-ltd/deepagent-code
 
-> DeepAgent Code is an AI coding workspace for work that lasts longer than one prompt.
+> DeepAgent Code (DAC) combines a desktop coding workspace and a terminal agent with a shared execution core.
 
 [Repository](https://github.com/deepagent-ltd/deepagent-code) · [Back to index](../../README.md) · Category: **None**
 
@@ -14,80 +14,79 @@
 | --- | --- |
 | Stars | 436 |
 | Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 49/100 |
-| Documentation | 46/100 |
+| Health score | 48/100 |
+| Documentation | 49/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-06-23 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 17,369 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 10,173 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (12/12).
 
 ## What it solves
 
 ### Multi-agent orchestration
 
+> kept separate to support provider caching, without making a fixed token-saving promise.
+
 ### Workspace isolation
 
-> replay, audit, and recovery always agree on what actually happened.
+> gate independent research, implementation, and review tasks to subagents.
 
 ### Model / provider routing
 
-> ble models from the endpoint's /models list — nothing else to fill in.
-
-### API gateway / proxy
-
-> ned around, use the official
+> ver guide for package-specific development and build commands.
 
 ### Session persistence
 
-> very prompt, tool call, and event is written to the durable log before it happens.
-
 ### Memory & context
 
-> connects four views of the project:
+> An AI coding workspace for work that takes more than one prompt
 
 ### Skills & plugins
 
+> wn local DAC, continuous follow-up in the same Session, and final answers returned to the original conversation.
+
 ### Agent runtime
 
-> The AI coding agent that remembers, plans, collaborates — and finishes the job
+> g-running tasks, browser work, and personal agent messaging — in one workspace.
 
 ### MCP support
 
-> Get definitions, references, call chains, type hierarchies, and diagnostics in one call.
+> ollow-up in the same Session, and final answers returned to the original conversation.
 
 ### Security & isolation
 
-> uture task when the instruction should begin after the current one instead of changing it.
+> s, configuration lives under %APPDATA%\deepagent-code and data under %LOCALAPPDATA%\deepagent-code.
+
+### Team collaboration
+
+> ents, Skills, and domain knowledge are admitted as needed.
 
 ### GUI / desktop app
 
-> s, inspect its artifacts, and keep the answer attached to the conversation that requested it.
+> the Bun version pinned in the root package.json: Bun 1.4.2 for this source line.
 
-### Cross-agent support
-
-> Mentions Claude Code, Codex, OpenCode
+### Notifications
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 42/100)
+- **Difficulty:** 🟡 Some setup (friction score 56/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `curl -fsSL https://ai.deepagent.ltd/download/install | bash`
-
-**Signals that make it easy:** curl | sh installer
 
 **Signals that add work:** git clone (build from source)
 
-**Configuration required:** environment variables, API key configuration, config file, server/reverse-proxy setup
+**Configuration required:** API key configuration, server/reverse-proxy setup
 
-*Some setup. install via curl | sh installer; needs git clone (build from source); configure environment variables, API key configuration; GUI application*
+*Some setup. needs git clone (build from source); configure API key configuration, server/reverse-proxy setup; GUI application*
 
 ## Documentation quality
 
-Score **46/100**, based on these detected signals:
+Score **49/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -95,6 +94,7 @@ Score **46/100**, based on these detected signals:
 - documents configuration
 - has contribution guidance
 - mentions licensing
+- has a Chinese translation
 - documents changes
 - explains architecture
 
@@ -105,8 +105,8 @@ Score **46/100**, based on these detected signals:
 | popularity | 52.8 |
 | momentum | 0.0 |
 | maintenance | 100.0 |
-| documentation | 46.0 |
-| accessibility | 58.0 |
+| documentation | 49.0 |
+| accessibility | 44.0 |
 
 ---
 

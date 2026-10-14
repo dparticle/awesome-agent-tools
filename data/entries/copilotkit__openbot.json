@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "https://www.copilotkit.ai/openbot",
-  "stars": 6425,
-  "forks": 877,
-  "open_issues": 19,
+  "stars": 6464,
+  "forks": 883,
+  "open_issues": 21,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-10-13T11:23:38Z",
-  "pushed_at": "2026-10-13T04:55:44Z",
+  "updated_at": "2026-10-14T09:10:04Z",
+  "pushed_at": "2026-10-13T22:50:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 57,
+  "age_days": 58,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
     "popularity": 76.2,
-    "momentum": 37.8,
+    "momentum": 35.7,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 51.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 227,
+    "stars_gained": 214,
     "days_span": 5,
-    "stars_per_day": 45.4,
-    "lifetime_stars_per_day": 112.72,
+    "stars_per_day": 42.8,
+    "lifetime_stars_per_day": 111.45,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 32842,
+    "readme_chars": 33017,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -72,7 +72,7 @@
       "session-persistence": 1,
       "mcp-support": 3,
       "security-isolation": 2,
-      "self-hosted": 3,
+      "self-hosted": 4,
       "notifications": 1
     },
     "friction": {
@@ -127,7 +127,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.457
+      "external_link_ratio": 0.454
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -144,13 +144,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:24+00:00",
+  "fetched_at": "2026-10-14T09:32:59+00:00",
   "categories": [
     "analytics",
     "providers",
-    "security-self-hosting"
+    "self-hosting-security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).",
@@ -175,14 +175,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 43.302,
-      "momentum_ratio": 13.233,
+      "star_ratio": 43.137,
+      "momentum_ratio": 14.916,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "43.30x the stars (278,213 vs 6,425)",
-        "13.23x the star velocity (600.8/day vs 45.4/day)",
+        "43.14x the stars (278,839 vs 6,464)",
+        "14.92x the star velocity (638.4/day vs 42.8/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],

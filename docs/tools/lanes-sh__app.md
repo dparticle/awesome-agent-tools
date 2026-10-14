@@ -21,10 +21,10 @@
 | License | not declared |
 | Language | n/a |
 | Created | 2026-03-22 |
-| Last push | 2026-10-06 (6 days ago) |
+| Last push | 2026-10-06 (7 days ago) |
 | Analyzed README | 7,721 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** — Superseded by maxritter/pilot-shell: covers 100% of capabilities (7/7).
 
 ## What it solves
 

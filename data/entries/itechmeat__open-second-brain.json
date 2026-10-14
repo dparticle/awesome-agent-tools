@@ -6,40 +6,40 @@
   "url": "https://github.com/itechmeat/open-second-brain",
   "description": "Local-first 🧠 memory for Hermes Agent that lives in your Obsidian vault and remembers project context. Nightly 😴 dream passes turn repeat corrections into confirmed preferences with measurable confidence. Adapters ship for Claude Code, Codex, and OpenClaw, with an MCP server for anything else.",
   "homepage": "https://dark-factory.techmeat.dev",
-  "stars": 476,
+  "stars": 479,
   "forks": 62,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-06T07:40:41Z",
-  "updated_at": "2026-10-13T06:10:41Z",
-  "pushed_at": "2026-10-13T06:47:20Z",
+  "updated_at": "2026-10-14T08:08:36Z",
+  "pushed_at": "2026-10-13T22:42:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 160,
+  "age_days": 161,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 53.6,
-    "momentum": 7.7,
+    "momentum": 5.7,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 46,
+    "stars_gained": 34,
     "days_span": 5,
-    "stars_per_day": 9.2,
+    "stars_per_day": 6.8,
     "lifetime_stars_per_day": 2.98,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "itechmeat/open-second-brain",
-    "readme_chars": 17555,
+    "readme_chars": 18098,
     "capabilities": [
       "memory-context",
       "mcp-support",
@@ -52,7 +52,7 @@
     },
     "capability_hits": {
       "memory-context": 1,
-      "mcp-support": 8,
+      "mcp-support": 10,
       "cross-agent-support": 7
     },
     "friction": {
@@ -102,7 +102,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.171
+      "external_link_ratio": 0.166
     },
     "highlights": [
       "Secret custody. Credentials live encrypted in the vault's state dir behind a capability-gated store; $secret:NAME references resolve at the use sites, o2b brain secret unlock wraps the keyf…",
@@ -119,7 +119,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:33+00:00",
+  "fetched_at": "2026-10-14T09:34:09+00:00",
   "categories": [
     "analytics"
   ],

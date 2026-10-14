@@ -6,8 +6,8 @@
   "url": "https://github.com/michaelshimeles/skills",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1314,
-  "forks": 212,
+  "stars": 1319,
+  "forks": 215,
   "open_issues": 3,
   "language": "Python",
   "license": "",
@@ -22,27 +22,27 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-10-13T11:28:52Z",
+  "updated_at": "2026-10-14T08:13:03Z",
   "pushed_at": "2026-10-04T00:03:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 221,
-  "days_since_push": 9,
+  "age_days": 222,
+  "days_since_push": 10,
   "health_score": 52,
   "health_components": {
     "popularity": 62.4,
-    "momentum": 7.5,
+    "momentum": 7.3,
     "maintenance": 92.0,
     "documentation": 38.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 45,
+    "stars_gained": 44,
     "days_span": 5,
-    "stars_per_day": 9.0,
-    "lifetime_stars_per_day": 5.95,
+    "stars_per_day": 8.8,
+    "lifetime_stars_per_day": 5.94,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -130,24 +130,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:08+00:00",
+  "fetched_at": "2026-10-14T09:33:45+00:00",
   "categories": [
     "agent-runtime-desktop-ui",
-    "mobile",
+    "desktop-ui",
     "skills"
   ],
-  "primary_category": "mobile",
+  "primary_category": "agent-runtime-desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "iOfficeAI/AionUi",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
     "challenger": "",
     "supersede": {
       "incumbent": "michaelshimeles/skills",
-      "challenger": "iofficeai/aionui",
+      "challenger": "othmanadi/planning-with-files",
       "incumbent_name": "michaelshimeles/skills",
-      "challenger_name": "iOfficeAI/AionUi",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -159,15 +159,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 25.483,
-      "momentum_ratio": 2.333,
-      "setup_delta": -26,
-      "dominance": 0.905,
+      "star_ratio": 20.806,
+      "momentum_ratio": 2.0,
+      "setup_delta": -1,
+      "dominance": 0.886,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "25.48x the stars (33,485 vs 1,314)",
-        "2.33x the star velocity (21.0/day vs 9.0/day)",
-        "no harder to set up (2 vs 28 friction)"
+        "20.81x the stars (27,443 vs 1,319)",
+        "2.00x the star velocity (17.6/day vs 8.8/day)",
+        "no harder to set up (27 vs 28 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,22 +180,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
+          "memory-context",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "remote-control",
+          "security-isolation",
           "skills-plugins",
-          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 52,
-        "challenger_health": 67,
+        "challenger_health": 69,
         "incumbent_setup_score": 28,
-        "challenger_setup_score": 2
+        "challenger_setup_score": 27
       }
     }
   }

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,523 |
-| Star velocity | 120.0/day (history basis, 5d span) |
-| Health score | 85/100 |
+| Stars | 9,639 |
+| Star velocity | 114.2/day (history basis, 5d span) |
+| Health score | 84/100 |
 | Documentation | 58/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-31 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 45,476 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 47,073 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,17 +44,21 @@
 
 > ub Copilot, OpenCode and Windsurf
 
+### Memory & context
+
+> he top hits leave the device; the index itself never does.
+
 ### Skills & plugins
 
 > l, OpenRouter, Requesty, Opper, Cheaper Inference, Atlas Cloud, or any OpenAI-compatible endpoint, local
 
 ### Agent runtime
 
-> hing that overflows or overlaps before genoffice create assembles the .pptx and slides render hands back a PNG per slide to look at.
+> etails and requirements in Download.
 
 ### MCP support
 
-> Brasil) · Deutsch · Français · 简体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Italiano · Nederlands · Polski · Čeština · Bahasa Indonesia · Bahasa Melayu · ไทย · हिन्दी · עברית
+> tsch · Français · 简体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Italiano · Nederlands · Polski · Čeština · Bahasa Indonesia · Bahasa Melayu · ไทย · हिन्दी · עברית · Tiếng Việt
 
 ### Self-hostable
 
@@ -101,8 +105,8 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.6 |
-| momentum | 100.0 |
+| popularity | 79.7 |
+| momentum | 95.2 |
 | maintenance | 100.0 |
 | documentation | 58.0 |
 | accessibility | 80.0 |

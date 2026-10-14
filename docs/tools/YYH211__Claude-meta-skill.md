@@ -24,7 +24,7 @@
 | Last push | 2026-05-15 (151 days ago) |
 | Analyzed README | 25,252 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection)** — Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 

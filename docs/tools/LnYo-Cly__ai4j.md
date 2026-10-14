@@ -19,7 +19,7 @@
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
-| Language | HTML |
+| Language | Java |
 | Created | 2024-08-17 |
 | Last push | 2026-10-13 (0 days ago) |
 | Analyzed README | 10,270 chars from `raw:HEAD/README.md` |

@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "full_name": "410979729/scope-recall-hermes",
+  "name": "scope-recall-hermes",
+  "owner": "410979729",
+  "url": "https://github.com/410979729/scope-recall-hermes",
+  "description": "Local long-term memory for Hermes, Codex, Claude Code, WorkBuddy and dsh agents: one SQLite store, source-backed recall, and tools to inspect, correct or delete what is remembered.",
+  "homepage": "",
+  "stars": 318,
+  "forks": 38,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "ai-agent",
+    "ai-memory",
+    "claude-code",
+    "codex",
+    "hermes",
+    "hermes-agent",
+    "hermes-plugin",
+    "hybrid-retrieval",
+    "lancedb",
+    "llm-agent",
+    "mcp",
+    "memory",
+    "memory-plugin",
+    "python",
+    "scope-isolation",
+    "scope-recall",
+    "sqlite",
+    "vector-search"
+  ],
+  "created_at": "2026-05-15T10:56:00Z",
+  "updated_at": "2026-10-14T09:23:58Z",
+  "pushed_at": "2026-10-14T07:59:53Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 151,
+  "days_since_push": 0,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 50.0,
+    "momentum": 1.8,
+    "maintenance": 100.0,
+    "documentation": 36.0,
+    "accessibility": 76.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 318,
+    "days_span": 151,
+    "stars_per_day": 2.11,
+    "lifetime_stars_per_day": 2.11,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "410979729/scope-recall-hermes",
+    "readme_chars": 13550,
+    "capabilities": [
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mcp-support": "ite as the authority and rebuildable vector companions.",
+      "gui-desktop": "kspace is hermes to match the host memory-provider init contract; pass the same value on plan and apply if you override it.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "mcp-support": 8,
+      "gui-desktop": 2,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 24,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "sign-in required",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "note_en": "Easy. install via pip install, native installer / package; configure config.json/yaml/toml, sign-in required; GUI application",
+      "note_zh": "较易上手。可通过 pip install、native installer / package 安装；需配置 config.json/yaml/toml、sign-in required；GUI application"
+    },
+    "doc_score": 36,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "documents changes"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Scope Recall v3 is a bounded local memory core with SQLite as the authority and rebuildable vector companions.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.295
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-14T09:34:25+00:00",
+  "categories": [
+    "self-hosting-security"
+  ],
+  "primary_category": "self-hosting-security",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

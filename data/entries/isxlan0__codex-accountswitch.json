@@ -18,7 +18,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 248,
+  "age_days": 249,
   "days_since_push": 81,
   "health_score": 41,
   "health_components": {
@@ -128,12 +128,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:57+00:00",
+  "fetched_at": "2026-10-14T09:34:34+00:00",
   "categories": [
-    "accounts-quota",
-    "analytics-2"
+    "sharing"
   ],
-  "primary_category": "accounts-quota",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).",
@@ -156,14 +155,14 @@
         "quota-management",
         "usage-analytics"
       ],
-      "star_ratio": 75.327,
-      "momentum_ratio": 748.0,
+      "star_ratio": 75.518,
+      "momentum_ratio": 812.0,
       "setup_delta": -26,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "75.33x the stars (18,907 vs 251)",
-        "748.00x the star velocity (37.4/day vs 0.0/day)",
+        "75.52x the stars (18,955 vs 251)",
+        "812.00x the star velocity (40.6/day vs 0.0/day)",
         "no harder to set up (20 vs 46 friction)"
       ],
       "reasons_zh": [],
@@ -191,7 +190,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 41,
-        "challenger_health": 71,
+        "challenger_health": 72,
         "incumbent_setup_score": 46,
         "challenger_setup_score": 20
       }

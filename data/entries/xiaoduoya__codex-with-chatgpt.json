@@ -6,8 +6,8 @@
   "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
   "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
   "homepage": "",
-  "stars": 7334,
-  "forks": 685,
+  "stars": 7364,
+  "forks": 687,
   "open_issues": 16,
   "language": "TypeScript",
   "license": "MIT",
@@ -20,27 +20,27 @@
     "oauth"
   ],
   "created_at": "2026-08-28T12:57:24Z",
-  "updated_at": "2026-10-13T10:02:58Z",
+  "updated_at": "2026-10-14T08:45:35Z",
   "pushed_at": "2026-10-01T05:19:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 45,
-  "days_since_push": 12,
+  "age_days": 46,
+  "days_since_push": 13,
   "health_score": 61,
   "health_components": {
     "popularity": 77.3,
-    "momentum": 34.5,
+    "momentum": 34.2,
     "maintenance": 92.0,
     "documentation": 50.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 207,
+    "stars_gained": 205,
     "days_span": 5,
-    "stars_per_day": 41.4,
-    "lifetime_stars_per_day": 162.98,
+    "stars_per_day": 41.0,
+    "lifetime_stars_per_day": 160.09,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,13 +133,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:49:23+00:00",
+  "fetched_at": "2026-10-14T09:32:58+00:00",
   "categories": [
-    "accounts-quota",
-    "agent-runtime-desktop-ui",
+    "desktop-ui",
+    "sharing",
     "skills"
   ],
-  "primary_category": "accounts-quota",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

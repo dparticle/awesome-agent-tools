@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 393,
-  "days_since_push": 57,
+  "age_days": 394,
+  "days_since_push": 58,
   "health_score": 49,
   "health_components": {
     "popularity": 49.6,
@@ -54,7 +54,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 0.77,
+    "lifetime_stars_per_day": 0.76,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -240,13 +240,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:53+00:00",
+  "fetched_at": "2026-10-14T09:34:30+00:00",
   "categories": [
-    "mobile",
-    "security-self-hosting",
-    "teams"
+    "analytics-2",
+    "teams",
+    "voice-remote-control"
   ],
-  "primary_category": "mobile",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

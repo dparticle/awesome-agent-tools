@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2025-03-08 |
-| Last push | 2026-10-08 (4 days ago) |
+| Last push | 2026-10-08 (5 days ago) |
 | Analyzed README | 29,300 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [aipoch/open-science](https://github.com/aipoch/open-science)** — Superseded by aipoch/open-science: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
 
 ## What it solves
 

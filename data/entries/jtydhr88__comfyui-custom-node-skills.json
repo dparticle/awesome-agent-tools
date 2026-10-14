@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 221,
-  "days_since_push": 77,
+  "age_days": 222,
+  "days_since_push": 78,
   "health_score": 41,
   "health_components": {
     "popularity": 49.5,
@@ -33,7 +33,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.35,
+    "lifetime_stars_per_day": 1.34,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -116,23 +116,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-13T11:50:53+00:00",
+  "fetched_at": "2026-10-14T09:34:30+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
+    "desktop-ui",
+    "sessions",
     "skills"
   ],
   "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Design-Agentic-Skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 thedivergentai/Game-Design-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "thedivergentai/Game-Design-Agentic-Skills",
+    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "jtydhr88/comfyui-custom-node-skills",
-      "challenger": "thedivergentai/game-design-agentic-skills",
+      "challenger": "thedivergentai/game-dev-agentic-skills",
       "incumbent_name": "jtydhr88/comfyui-custom-node-skills",
-      "challenger_name": "thedivergentai/Game-Design-Agentic-Skills",
+      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -143,14 +144,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.836,
-      "momentum_ratio": 5.7,
+      "star_ratio": 2.852,
+      "momentum_ratio": 5.717,
       "setup_delta": -29,
-      "dominance": 0.987,
+      "dominance": 0.989,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.84x the stars (845 vs 298)",
-        "5.70x the star velocity (3.4/day vs 0.6/day)",
+        "2.85x the stars (850 vs 298)",
+        "5.72x the star velocity (3.4/day vs 0.6/day)",
         "no harder to set up (21 vs 50 friction)"
       ],
       "reasons_zh": [],
