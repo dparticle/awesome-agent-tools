@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 238,
-  "days_since_push": 20,
+  "age_days": 239,
+  "days_since_push": 21,
   "health_score": 44,
   "health_components": {
     "popularity": 48.1,
@@ -124,12 +124,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:34+00:00",
+  "fetched_at": "2026-10-15T09:12:03+00:00",
   "categories": [
-    "analytics",
-    "skills"
+    "desktop-ui"
   ],
-  "primary_category": "analytics",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

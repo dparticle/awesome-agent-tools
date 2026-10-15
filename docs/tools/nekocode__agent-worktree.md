@@ -17,12 +17,14 @@
 | Health score | 47/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-02-05 |
-| Last push | 2026-08-25 (49 days ago) |
+| Last push | 2026-08-25 (50 days ago) |
 | Analyzed README | 9,327 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** — Superseded by asheshgoplani/agent-deck: covers 100% of capabilities (6/6).
 
 ## What it solves
 

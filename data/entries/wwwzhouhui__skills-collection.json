@@ -7,7 +7,7 @@
   "description": "本项目是个人开发的 Claude Code Skills 集合，提供实用的技能工具，助力提升开发效率和内容创作。  分享一些好用的 Claude Code Skills，自用、学习两相宜，适用于 Claude Code v2.0 及以上版本。",
   "homepage": "",
   "stars": 284,
-  "forks": 56,
+  "forks": 57,
   "open_issues": 10,
   "language": "HTML",
   "license": "",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 335,
-  "days_since_push": 8,
+  "age_days": 336,
+  "days_since_push": 9,
   "health_score": 53,
   "health_components": {
     "popularity": 49.1,
@@ -170,10 +170,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:32+00:00",
+  "fetched_at": "2026-10-15T09:12:01+00:00",
   "categories": [
+    "analytics",
     "mobile-2",
-    "skills",
     "teams"
   ],
   "primary_category": "mobile-2",

@@ -6,9 +6,9 @@
   "url": "https://github.com/davepoon/buildwithclaude",
   "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
   "homepage": "https://www.buildwithclaude.com",
-  "stars": 3633,
-  "forks": 594,
-  "open_issues": 20,
+  "stars": 3637,
+  "forks": 599,
+  "open_issues": 22,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,27 +26,27 @@
     "subagents"
   ],
   "created_at": "2025-07-25T02:26:45Z",
-  "updated_at": "2026-10-14T06:33:22Z",
-  "pushed_at": "2026-10-14T06:33:18Z",
+  "updated_at": "2026-10-14T23:01:48Z",
+  "pushed_at": "2026-10-14T12:22:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 446,
+  "age_days": 447,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 71.2,
-    "momentum": 4.3,
+    "momentum": 4.5,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 50.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 26,
+    "stars_gained": 27,
     "days_span": 5,
-    "stars_per_day": 5.2,
-    "lifetime_stars_per_day": 8.15,
+    "stars_per_day": 5.4,
+    "lifetime_stars_per_day": 8.14,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -137,13 +137,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:35+00:00",
+  "fetched_at": "2026-10-15T09:11:12+00:00",
   "categories": [
     "desktop-ui",
-    "sessions",
-    "skills"
+    "desktop-ui-2",
+    "sessions"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

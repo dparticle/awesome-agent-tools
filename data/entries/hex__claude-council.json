@@ -6,9 +6,9 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 873,
+  "stars": 878,
   "forks": 106,
-  "open_issues": 0,
+  "open_issues": 1,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -31,27 +31,27 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-14T09:24:01Z",
+  "updated_at": "2026-10-15T03:31:13Z",
   "pushed_at": "2026-10-14T09:24:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 300,
+  "age_days": 301,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
-    "popularity": 58.8,
-    "momentum": 3.3,
+    "popularity": 58.9,
+    "momentum": 3.2,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 20,
+    "stars_gained": 19,
     "days_span": 5,
-    "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 2.91,
+    "stars_per_day": 3.8,
+    "lifetime_stars_per_day": 2.92,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,23 +135,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:55+00:00",
+  "fetched_at": "2026-10-15T09:11:30+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "skills"
+    "desktop-ui",
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rlaope/oh-my-hermes: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 rlaope/oh-my-hermes 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "rlaope/oh-my-hermes",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "getpaseo/paseo",
     "challenger": "",
     "supersede": {
       "incumbent": "hex/claude-council",
-      "challenger": "rlaope/oh-my-hermes",
+      "challenger": "getpaseo/paseo",
       "incumbent_name": "hex/claude-council",
-      "challenger_name": "rlaope/oh-my-hermes",
+      "challenger_name": "getpaseo/paseo",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -162,15 +163,15 @@
         "multi-agent-orchestration",
         "parallel-execution"
       ],
-      "star_ratio": 3.855,
-      "momentum_ratio": 6.55,
-      "setup_delta": -29,
+      "star_ratio": 23.849,
+      "momentum_ratio": 30.789,
+      "setup_delta": -18,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.85x the stars (3,365 vs 873)",
-        "6.55x the star velocity (26.2/day vs 4.0/day)",
-        "no harder to set up (13 vs 42 friction)"
+        "23.85x the stars (20,939 vs 878)",
+        "30.79x the star velocity (117.0/day vs 3.8/day)",
+        "no harder to set up (24 vs 42 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -183,16 +184,21 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
-          "memory-context",
-          "model-routing",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
           "multi-agent-orchestration",
           "parallel-execution",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 52,
-        "challenger_health": 67,
+        "challenger_health": 86,
         "incumbent_setup_score": 42,
-        "challenger_setup_score": 13
+        "challenger_setup_score": 24
       }
     }
   }

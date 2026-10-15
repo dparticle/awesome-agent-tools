@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,506 |
-| Star velocity | 16.2/day (history basis, 5d span) |
+| Stars | 7,534 |
+| Star velocity | 16.8/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 56/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | HTML |
 | Created | 2026-05-27 |
-| Last push | 2026-07-01 (104 days ago) |
+| Last push | 2026-07-01 (105 days ago) |
 | Analyzed README | 13,913 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -73,7 +73,7 @@ Score **56/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 77.5 |
-| momentum | 13.5 |
+| momentum | 14.0 |
 | maintenance | 55.0 |
 | documentation | 56.0 |
 | accessibility | 75.0 |

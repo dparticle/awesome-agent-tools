@@ -6,9 +6,9 @@
   "url": "https://github.com/Gentleman-Programming/gentle-ai",
   "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
   "homepage": "https://gentle-ai.gentlemanprogramming.com/",
-  "stars": 7750,
-  "forks": 839,
-  "open_issues": 963,
+  "stars": 7776,
+  "forks": 844,
+  "open_issues": 965,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -31,33 +31,33 @@
     "spec-driven-development"
   ],
   "created_at": "2026-02-27T23:28:01Z",
-  "updated_at": "2026-10-14T08:13:55Z",
-  "pushed_at": "2026-10-14T09:31:33Z",
+  "updated_at": "2026-10-15T03:50:39Z",
+  "pushed_at": "2026-10-15T04:39:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 228,
+  "age_days": 229,
   "days_since_push": 0,
-  "health_score": 69,
+  "health_score": 70,
   "health_components": {
     "popularity": 77.8,
-    "momentum": 21.0,
+    "momentum": 21.7,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 126,
+    "stars_gained": 130,
     "days_span": 5,
-    "stars_per_day": 25.2,
-    "lifetime_stars_per_day": 33.99,
+    "stars_per_day": 26.0,
+    "lifetime_stars_per_day": 33.96,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Gentleman-Programming/gentle-ai",
-    "readme_chars": 21929,
+    "readme_chars": 22374,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -128,7 +128,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.365
+      "external_link_ratio": 0.358
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -140,11 +140,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:29+00:00",
+  "fetched_at": "2026-10-15T09:11:08+00:00",
   "categories": [
-    "skills"
+    "desktop-ui"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

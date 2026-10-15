@@ -6,7 +6,7 @@
   "url": "https://github.com/JimLiu/baoyu-design",
   "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
   "homepage": "",
-  "stars": 4374,
+  "stars": 4386,
   "forks": 303,
   "open_issues": 3,
   "language": "JavaScript",
@@ -22,27 +22,27 @@
     "ui-design"
   ],
   "created_at": "2026-06-07T01:16:18Z",
-  "updated_at": "2026-10-14T09:12:28Z",
+  "updated_at": "2026-10-15T07:34:22Z",
   "pushed_at": "2026-09-23T05:34:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 129,
-  "days_since_push": 21,
+  "age_days": 130,
+  "days_since_push": 22,
   "health_score": 64,
   "health_components": {
     "popularity": 72.8,
-    "momentum": 17.5,
+    "momentum": 17.8,
     "maintenance": 92.0,
     "documentation": 61.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 105,
+    "stars_gained": 107,
     "days_span": 5,
-    "stars_per_day": 21.0,
-    "lifetime_stars_per_day": 33.91,
+    "stars_per_day": 21.4,
+    "lifetime_stars_per_day": 33.74,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -142,11 +142,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:05+00:00",
+  "fetched_at": "2026-10-15T09:10:46+00:00",
   "categories": [
     "desktop-ui",
-    "mobile-2",
-    "skills"
+    "mobile-2"
   ],
   "primary_category": "mobile-2",
   "lifecycle": {

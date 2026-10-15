@@ -7,7 +7,7 @@
   "description": "Every coding agent in one desktop workspace. Run Claude Code, OpenAI Codex, Cursor Agent and Grok side by side. Bring your own CLI. Free during beta. Open source as of 21 September 2026 (MIT).",
   "homepage": "https://betterc0de.com",
   "stars": 274,
-  "forks": 3,
+  "forks": 4,
   "open_issues": 7,
   "language": "TypeScript",
   "license": "MIT",
@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 23,
-  "days_since_push": 1,
+  "age_days": 24,
+  "days_since_push": 2,
   "health_score": 53,
   "health_components": {
     "popularity": 48.8,
@@ -42,7 +42,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 11.91,
+    "lifetime_stars_per_day": 11.42,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,26 +141,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:33+00:00",
+  "fetched_at": "2026-10-15T09:12:03+00:00",
   "categories": [
-    "desktop-ui",
+    "desktop-ui-2",
     "teams"
   ],
   "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "msitarzewski/agency-agents",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "kerim0x1/bettercode",
-      "challenger": "msitarzewski/agency-agents",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "kerim0x1/bettercode",
-      "challenger_name": "msitarzewski/agency-agents",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -170,15 +170,15 @@
         "mobile-access",
         "team-collaboration"
       ],
-      "star_ratio": 583.847,
-      "momentum_ratio": 6216.0,
-      "setup_delta": -23,
-      "dominance": 1.0,
+      "star_ratio": 34.453,
+      "momentum_ratio": 4076.0,
+      "setup_delta": 8,
+      "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "583.85x the stars (159,974 vs 274)",
-        "6216.00x the star velocity (310.8/day vs 0.0/day)",
-        "no harder to set up (1 vs 24 friction)"
+        "34.45x the stars (9,440 vs 274)",
+        "4076.00x the star velocity (203.8/day vs 0.0/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -193,25 +193,24 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "mobile-access",
-          "multi-account-switching",
+          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
           "team-collaboration",
-          "voice-input"
+          "worktree-isolation"
         ],
         "incumbent_health": 53,
-        "challenger_health": 98,
+        "challenger_health": 87,
         "incumbent_setup_score": 24,
-        "challenger_setup_score": 1
+        "challenger_setup_score": 32
       }
     }
   }

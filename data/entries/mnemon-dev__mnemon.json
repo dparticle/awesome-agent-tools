@@ -6,9 +6,9 @@
   "url": "https://github.com/mnemon-dev/mnemon",
   "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
   "homepage": "https://mnemon.dev",
-  "stars": 629,
+  "stars": 630,
   "forks": 76,
-  "open_issues": 11,
+  "open_issues": 13,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -31,27 +31,27 @@
     "persistent-memory"
   ],
   "created_at": "2026-02-20T02:26:17Z",
-  "updated_at": "2026-10-14T08:15:05Z",
+  "updated_at": "2026-10-14T13:59:31Z",
   "pushed_at": "2026-10-11T12:31:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 236,
-  "days_since_push": 2,
+  "age_days": 237,
+  "days_since_push": 3,
   "health_score": 51,
   "health_components": {
     "popularity": 56.0,
-    "momentum": 2.5,
+    "momentum": 2.2,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 13,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 2.67,
+    "stars_per_day": 2.6,
+    "lifetime_stars_per_day": 2.66,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,8 +146,8 @@
     "highlights": [
       "Runtime-native integration — runtime-specific SKILL.md, shared guide.md, and supported hooks or extensions",
       "Built-in deduplication — remember and import skip exact content repeats and preserve distinct facts; similarity suggestions guide review",
-      "LLM-supervised — the host LLM decides what to remember, update, and forget; no embedded LLM, no API keys",
-      "Retention lifecycle — importance decay, access-count boosting, and garbage collection"
+      "Retention lifecycle — importance decay, access-count boosting, and garbage collection",
+      "LLM-supervised — the host LLM decides what to remember, update, and forget; no embedded LLM, no API keys"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -158,10 +158,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:02+00:00",
+  "fetched_at": "2026-10-15T09:11:36+00:00",
   "categories": [
     "analytics",
-    "skills"
+    "desktop-ui"
   ],
   "primary_category": "analytics",
   "lifecycle": {
@@ -187,14 +187,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 7.561,
-      "momentum_ratio": 3.4,
+      "star_ratio": 7.568,
+      "momentum_ratio": 3.923,
       "setup_delta": -40,
-      "dominance": 0.952,
+      "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "7.56x the stars (4,756 vs 629)",
-        "3.40x the star velocity (10.2/day vs 3.0/day)",
+        "7.57x the stars (4,768 vs 630)",
+        "3.92x the star velocity (10.2/day vs 2.6/day)",
         "no harder to set up (24 vs 64 friction)"
       ],
       "reasons_zh": [],

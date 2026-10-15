@@ -6,9 +6,9 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 778,
-  "forks": 60,
-  "open_issues": 5,
+  "stars": 798,
+  "forks": 63,
+  "open_issues": 6,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -32,29 +32,29 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-10-14T09:04:39Z",
+  "updated_at": "2026-10-15T08:23:19Z",
   "pushed_at": "2026-10-12T10:08:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 38,
-  "days_since_push": 1,
+  "age_days": 39,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
-    "popularity": 57.8,
-    "momentum": 3.3,
+    "popularity": 58.0,
+    "momentum": 6.3,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 20,
+    "stars_gained": 38,
     "days_span": 5,
-    "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 20.47,
+    "stars_per_day": 7.6,
+    "lifetime_stars_per_day": 20.46,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "okf-memory/okf-agent-memory",
@@ -144,10 +144,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:57+00:00",
+  "fetched_at": "2026-10-15T09:11:31+00:00",
   "categories": [
     "analytics",
-    "skills"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "analytics",
   "lifecycle": {
@@ -172,14 +173,14 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 6.113,
-      "momentum_ratio": 2.55,
+      "star_ratio": 5.975,
+      "momentum_ratio": 1.342,
       "setup_delta": -21,
-      "dominance": 0.916,
+      "dominance": 0.837,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "6.11x the stars (4,756 vs 778)",
-        "2.55x the star velocity (10.2/day vs 4.0/day)",
+        "5.97x the stars (4,768 vs 798)",
+        "1.34x the star velocity (10.2/day vs 7.6/day)",
         "no harder to set up (24 vs 45 friction)"
       ],
       "reasons_zh": [],

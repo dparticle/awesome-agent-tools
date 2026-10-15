@@ -6,51 +6,54 @@
   "url": "https://github.com/claesbackman/AI-research-feedback",
   "description": "A collection of Claude Code skills for academic research review. These tools were developed by Claes Bäckman.",
   "homepage": "",
-  "stars": 499,
-  "forks": 92,
+  "stars": 502,
+  "forks": 93,
   "open_issues": 0,
-  "language": "JavaScript",
+  "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-01T11:37:44Z",
-  "updated_at": "2026-10-14T05:21:16Z",
-  "pushed_at": "2026-09-25T18:28:01Z",
+  "updated_at": "2026-10-14T18:32:03Z",
+  "pushed_at": "2026-10-14T18:31:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 226,
-  "days_since_push": 18,
-  "health_score": 51,
+  "age_days": 227,
+  "days_since_push": 0,
+  "health_score": 53,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 0.5,
-    "maintenance": 92.0,
-    "documentation": 43.0,
+    "momentum": 1.2,
+    "maintenance": 100.0,
+    "documentation": 41.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 1.4,
     "lifetime_stars_per_day": 2.21,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "claesbackman/AI-research-feedback",
-    "readme_chars": 26286,
+    "readme_chars": 21302,
     "capabilities": [
       "multi-agent-orchestration",
+      "parallel-execution",
       "skills-plugins"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "ves a short prioritized report to reviews/QUICKREVIEW[YYYY-MM-DD].md, automatically versioning the filename if one already exists.",
-      "skills-plugins": "# Using AI to get feedback on your research"
+      "multi-agent-orchestration": "ge well enough that a coauthor could defend it.",
+      "parallel-execution": "the old ~/.claude/commands/ .md file after installing the skill version.",
+      "skills-plugins": "rkdown: Convert a PDF to readable markdown, trimmed at the references."
     },
     "capability_hits": {
-      "multi-agent-orchestration": 10,
-      "skills-plugins": 3
+      "multi-agent-orchestration": 7,
+      "parallel-execution": 1,
+      "skills-plugins": 4
     },
     "friction": {
       "level": "turnkey",
@@ -76,7 +79,7 @@
       "note_en": "Turnkey. install via Homebrew install; needs git clone (build from source); no-code positioning",
       "note_zh": "开箱即用。可通过 Homebrew install 安装；需要 git clone (build from source)；no-code positioning"
     },
-    "doc_score": 43,
+    "doc_score": 41,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -89,7 +92,7 @@
     "agents": [
       "Claude Code"
     ],
-    "summary_en": "A collection of Claude Code skills for reviewing and understanding academic research.",
+    "summary_en": "A collection of Claude Code skills for academic research.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -97,13 +100,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.571
+      "external_link_ratio": 0.422
     },
     "highlights": [
-      "Claude Code. No subagents are used, so this skill runs in a single context.",
-      "Skills/review-paper-checks/SKILL.md: Fast 3-agent mechanical check — spelling, internal consistency, unsupported claims.",
-      "Skills/audit-analysis/SKILL.md: Adversarial audit of changed analysis code, run by an isolated subagent.",
-      "Data-management plans, mentoring plans, and facilities statements"
+      "audit-analysis: Adversarial audit of changed analysis code, run by an isolated subagent.",
+      "Python 3 and Google Chrome, for the screenshot check.",
+      "Claude Code with the general-purpose subagent for the review passes.",
+      "pdf-to-markdown: Convert a PDF to readable markdown, trimmed at the references."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -114,11 +117,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:07+00:00",
+  "fetched_at": "2026-10-15T09:11:41+00:00",
   "categories": [
-    "skills"
+    "desktop-ui"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

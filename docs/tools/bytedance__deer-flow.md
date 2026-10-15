@@ -2,7 +2,7 @@
 
 # bytedance/deer-flow
 
-> English | 中文 | 日本語 | Français | Русский | Português
+> English | 中文 | 日本語 | Français | Русский | Português | 한국어
 
 [Repository](https://github.com/bytedance/deer-flow) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 83,841 |
-| Star velocity | 53.6/day (history basis, 5d span) |
+| Stars | 83,890 |
+| Star velocity | 52.2/day (history basis, 5d span) |
 | Health score | 76/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 295,525 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-15 (0 days ago) |
+| Analyzed README | 303,609 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Model / provider routing
 
-> l, or empty Pages keep the existing "No results found" response.
+> empty containers keep the existing "No results found" response.
 
 ### API gateway / proxy
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.5 |
-| momentum | 44.7 |
+| momentum | 43.5 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

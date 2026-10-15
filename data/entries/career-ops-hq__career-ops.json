@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
   "homepage": "https://career-ops.org",
-  "stars": 74449,
-  "forks": 13958,
-  "open_issues": 382,
+  "stars": 74755,
+  "forks": 13991,
+  "open_issues": 390,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "terminal"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-10-14T09:30:32Z",
-  "pushed_at": "2026-10-14T09:03:09Z",
+  "updated_at": "2026-10-15T09:08:34Z",
+  "pushed_at": "2026-10-15T09:08:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 192,
+  "age_days": 193,
   "days_since_push": 0,
-  "health_score": 88,
+  "health_score": 89,
   "health_components": {
-    "popularity": 97.4,
-    "momentum": 96.2,
+    "popularity": 97.5,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 51.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 577,
+    "stars_gained": 821,
     "days_span": 5,
-    "stars_per_day": 115.4,
-    "lifetime_stars_per_day": 387.76,
+    "stars_per_day": 164.2,
+    "lifetime_stars_per_day": 387.33,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 45833,
+    "readme_chars": 45917,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -142,7 +142,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.524
+      "external_link_ratio": 0.523
     },
     "highlights": [
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
@@ -158,71 +158,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:20+00:00",
+  "fetched_at": "2026-10-15T09:10:59+00:00",
   "categories": [
-    "desktop-ui",
-    "model-routing"
+    "skills"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "skills",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "nexu-io/open-design",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "career-ops-hq/career-ops",
-      "challenger": "nexu-io/open-design",
-      "incumbent_name": "career-ops-hq/career-ops",
-      "challenger_name": "nexu-io/open-design",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "cross-agent-support",
-        "gui-desktop",
-        "model-routing",
-        "skills-plugins"
-      ],
-      "star_ratio": 1.357,
-      "momentum_ratio": 1.584,
-      "setup_delta": -20,
-      "dominance": 0.677,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "1.36x the stars (101,051 vs 74,449)",
-        "1.58x the star velocity (182.8/day vs 115.4/day)",
-        "no harder to set up (29 vs 49 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "model-routing",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "quota-distribution",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "incumbent_health": 88,
-        "challenger_health": 95,
-        "incumbent_setup_score": 49,
-        "challenger_setup_score": 29
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -6,9 +6,9 @@
   "url": "https://github.com/bytedance/deer-flow",
   "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
   "homepage": "https://deerflow.tech",
-  "stars": 83841,
-  "forks": 11676,
-  "open_issues": 926,
+  "stars": 83890,
+  "forks": 11688,
+  "open_issues": 928,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -32,33 +32,33 @@
     "typescript"
   ],
   "created_at": "2025-05-07T02:50:19Z",
-  "updated_at": "2026-10-14T09:24:42Z",
-  "pushed_at": "2026-10-14T09:24:33Z",
+  "updated_at": "2026-10-15T08:58:54Z",
+  "pushed_at": "2026-10-15T07:26:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 525,
+  "age_days": 526,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
     "popularity": 98.5,
-    "momentum": 44.7,
+    "momentum": 43.5,
     "maintenance": 100.0,
     "documentation": 80.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 268,
+    "stars_gained": 261,
     "days_span": 5,
-    "stars_per_day": 53.6,
-    "lifetime_stars_per_day": 159.7,
+    "stars_per_day": 52.2,
+    "lifetime_stars_per_day": 159.49,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "bytedance/deer-flow",
-    "readme_chars": 295525,
+    "readme_chars": 303609,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -84,7 +84,7 @@
       "multi-agent-orchestration": "llion to our incredible community — you made this happen! 💪🔥",
       "parallel-execution": "x plus Docker is the recommended deployment target for a persistent server.",
       "worktree-isolation": "ame matches the payload's type field.",
-      "model-routing": "l, or empty Pages keep the existing \"No results found\" response.",
+      "model-routing": "empty containers keep the existing \"No results found\" response.",
       "api-gateway": "es pass through request admission again.",
       "usage-analytics": "ent cards show the effective model and, when the provider returns usage metadata, a cumulative token total that updates after each completed sub-agent LLM call and persists after a reload.",
       "session-persistence": ", and publish a new app version.",
@@ -111,11 +111,11 @@
       "memory-context": 3,
       "skills-plugins": 14,
       "agent-runtime": 2,
-      "mcp-support": 59,
+      "mcp-support": 60,
       "self-hosted": 4,
       "team-collaboration": 2,
       "gui-desktop": 25,
-      "notifications": 21,
+      "notifications": 22,
       "voice-input": 2,
       "cross-agent-support": 3
     },
@@ -180,7 +180,7 @@
       "Cursor",
       "Droid"
     ],
-    "summary_en": "English | 中文 | 日本語 | Français | Русский | Português",
+    "summary_en": "English | 中文 | 日本語 | Français | Русский | Português | 한국어",
     "summary_zh": "",
     "install_hint": "npm install --global @minimax-ai/code",
     "source": "raw:HEAD/README.md",
@@ -191,7 +191,7 @@
         "bullet list of external links",
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.088
+      "external_link_ratio": 0.086
     },
     "highlights": [
       "We strongly recommend using Doubao-Seed-2.0-Code, DeepSeek v3.2 and Kimi 2.5 to run DeerFlow",
@@ -208,13 +208,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:19+00:00",
+  "fetched_at": "2026-10-15T09:10:59+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "providers",
-    "voice-remote-control"
+    "remote-control-isolation",
+    "sessions"
   ],
-  "primary_category": "voice-remote-control",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

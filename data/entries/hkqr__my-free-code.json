@@ -6,8 +6,8 @@
   "url": "https://github.com/hkqr/my-free-code",
   "description": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support",
   "homepage": "",
-  "stars": 625,
-  "forks": 191,
+  "stars": 624,
+  "forks": 190,
   "open_issues": 7,
   "language": "Python",
   "license": "MIT",
@@ -19,27 +19,27 @@
     "multi-provider-llm"
   ],
   "created_at": "2026-08-27T17:59:23Z",
-  "updated_at": "2026-10-13T06:49:16Z",
+  "updated_at": "2026-10-14T12:39:56Z",
   "pushed_at": "2026-10-11T18:28:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 47,
-  "days_since_push": 2,
+  "age_days": 48,
+  "days_since_push": 3,
   "health_score": 49,
   "health_components": {
     "popularity": 55.9,
-    "momentum": 0.3,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 35.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 13.3,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 13.0,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -124,68 +124,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:02+00:00",
+  "fetched_at": "2026-10-15T09:11:36+00:00",
   "categories": [
-    "model-routing"
+    "skills"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "skills",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "nexu-io/open-design",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "hkqr/my-free-code",
-      "challenger": "nexu-io/open-design",
-      "incumbent_name": "hkqr/my-free-code",
-      "challenger_name": "nexu-io/open-design",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "cross-agent-support",
-        "model-routing"
-      ],
-      "star_ratio": 161.682,
-      "momentum_ratio": 457.0,
-      "setup_delta": -5,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "161.68x the stars (101,051 vs 625)",
-        "457.00x the star velocity (182.8/day vs 0.4/day)",
-        "no harder to set up (29 vs 34 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "model-routing"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "quota-distribution",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "incumbent_health": 49,
-        "challenger_health": 95,
-        "incumbent_setup_score": 34,
-        "challenger_setup_score": 29
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

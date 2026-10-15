@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,869 |
-| Star velocity | 1773.8/day (lifetime basis, 5d span) |
-| Health score | 82/100 |
+| Stars | 11,616 |
+| Star velocity | 1936.0/day (lifetime basis, 6d span) |
+| Health score | 83/100 |
 | Documentation | 57/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-10-08 |
-| Last push | 2026-10-13 (1 days ago) |
-| Analyzed README | 24,456 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 24,666 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -39,7 +39,7 @@
 - **Difficulty:** 🟡 Some setup (friction score 40/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx skills add wheresryan22/anatomy -g -a claude-code`
+- **Quickest install:** `npx skills add wheresryan22/anatomy -g`
 
 **Signals that make it easy:** npx one-liner
 
@@ -68,7 +68,7 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.0 |
+| popularity | 81.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 57.0 |

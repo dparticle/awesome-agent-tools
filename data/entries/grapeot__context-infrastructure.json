@@ -6,33 +6,33 @@
   "url": "https://github.com/grapeot/context-infrastructure",
   "description": "A context and memory system for AI coding agents. Persistent memory, personal rules, skills, and scheduled observations",
   "homepage": "",
-  "stars": 792,
-  "forks": 183,
+  "stars": 797,
+  "forks": 184,
   "open_issues": 1,
   "language": "Python",
   "license": "",
   "topics": [],
   "created_at": "2026-03-16T05:12:45Z",
-  "updated_at": "2026-10-14T07:02:00Z",
+  "updated_at": "2026-10-15T07:01:13Z",
   "pushed_at": "2026-10-14T07:34:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 212,
-  "days_since_push": 0,
+  "age_days": 213,
+  "days_since_push": 1,
   "health_score": 50,
   "health_components": {
     "popularity": 58.0,
-    "momentum": 2.3,
+    "momentum": 3.0,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 2.8,
+    "stars_per_day": 3.6,
     "lifetime_stars_per_day": 3.74,
     "basis": "history",
     "is_fast_riser": false
@@ -105,11 +105,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:56+00:00",
+  "fetched_at": "2026-10-15T09:11:31+00:00",
   "categories": [
-    "teams"
+    "billing"
   ],
-  "primary_category": "teams",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

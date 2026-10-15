@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15408,
-  "forks": 1907,
-  "open_issues": 909,
+  "stars": 15419,
+  "forks": 1908,
+  "open_issues": 956,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,27 +18,27 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-10-14T08:59:50Z",
-  "pushed_at": "2026-10-14T08:59:45Z",
+  "updated_at": "2026-10-15T07:37:26Z",
+  "pushed_at": "2026-10-15T08:30:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 76,
+  "age_days": 77,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 83.8,
-    "momentum": 6.3,
+    "momentum": 7.7,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 38,
+    "stars_gained": 46,
     "days_span": 5,
-    "stars_per_day": 7.6,
-    "lifetime_stars_per_day": 202.74,
+    "stars_per_day": 9.2,
+    "lifetime_stars_per_day": 200.25,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -144,13 +144,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:32:50+00:00",
+  "fetched_at": "2026-10-15T09:10:34+00:00",
   "categories": [
-    "desktop-ui",
-    "sessions",
-    "voice-remote-control"
+    "desktop-ui-2",
+    "remote-control-isolation",
+    "sessions"
   ],
-  "primary_category": "voice-remote-control",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).",
@@ -178,14 +178,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 6.607,
-      "momentum_ratio": 72.895,
+      "star_ratio": 6.638,
+      "momentum_ratio": 63.261,
       "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "6.61x the stars (101,804 vs 15,408)",
-        "72.89x the star velocity (554.0/day vs 7.6/day)",
+        "6.64x the stars (102,352 vs 15,419)",
+        "63.26x the star velocity (582.0/day vs 9.2/day)",
         "no harder to set up (45 vs 72 friction)"
       ],
       "reasons_zh": [],

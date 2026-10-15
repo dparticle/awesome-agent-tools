@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 9260,
-  "forks": 1140,
-  "open_issues": 806,
+  "stars": 9440,
+  "forks": 1175,
+  "open_issues": 828,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-10-14T09:25:54Z",
-  "pushed_at": "2026-10-14T09:16:27Z",
+  "updated_at": "2026-10-15T08:59:10Z",
+  "pushed_at": "2026-10-15T08:57:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 97,
+  "age_days": 98,
   "days_since_push": 0,
   "health_score": 87,
   "health_components": {
-    "popularity": 79.3,
+    "popularity": 79.5,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 78.0,
@@ -38,16 +38,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1104,
+    "stars_gained": 1019,
     "days_span": 5,
-    "stars_per_day": 220.8,
-    "lifetime_stars_per_day": 95.46,
+    "stars_per_day": 203.8,
+    "lifetime_stars_per_day": 96.33,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "TencentCloud/Octop",
-    "readme_chars": 28714,
+    "readme_chars": 29942,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -69,10 +69,10 @@
       "mobile-access": "Linux alongside the web dashboard and IM channels.",
       "multi-agent-orchestration": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "parallel-execution": "",
-      "worktree-isolation": "dows scripts\\install.bat or install.ps1",
+      "worktree-isolation": "PyPI Any pip install octop (optional extras such as local-embedding)",
       "model-routing": "ild / quality** hatchling · ruff · mypy · pytest",
       "api-gateway": "ays back up first (octop backup) before a cross-version upgrade.",
-      "billing-metering": "Docker Any docker/docker-compose.yml",
+      "billing-metering": "hina mirror: docker/docker-compose.cn.yml",
       "memory-context": "e notes, and manage your schedule; memory persists with the workspace.",
       "skills-plugins": "",
       "agent-runtime": "",
@@ -167,7 +167,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.557
+      "external_link_ratio": 0.534
     },
     "highlights": [
       "Desktop client — native apps for Windows / macOS / Linux; FnOS packages for NAS",
@@ -189,10 +189,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:32:55+00:00",
+  "fetched_at": "2026-10-15T09:10:39+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "desktop-ui",
+    "desktop-ui-2",
+    "skills",
     "teams"
   ],
   "primary_category": "teams",

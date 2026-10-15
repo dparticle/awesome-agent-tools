@@ -12,27 +12,27 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 314 |
+| Stars | 318 |
 | Star velocity | 7.0/day (history basis, 5d span) |
 | Health score | 51/100 |
-| Documentation | 53/100 |
+| Documentation | 52/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
 | Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 18,913 chars from `raw:HEAD/README.md` |
+| Analyzed README | 15,961 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> - *10-10* 渠道能选生图、视频、配音各走哪种接口，中转也能选；千问生图点「测」不再误报 400，百炼生图被拒「不支持同步/异步」时自动换一种 - *10-10* 本回合产出按重要程度排：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在 - *10-10* 输入框字多跟着长高，最高约窗口三分之一；还有没露出来的字时那一边渐隐，滚动按钮不再压字 - *10-10* 多账号时成员和分公司账号的工作目录、成果…
+> 4 多人服务器上成员有自己的那份：模型渠道按需共享、能填自己的 Key，能建自己的专家，能起自己的助理名字和偏好
 
 ### Quota & usage management
 
-> *10-07* 行程卡换了个样：地图铺满整张卡，地点浮在右边一栏；钉子带照片和地名，点卡片地图就滑过去；国内一天四站以上也能一键打开整条路线
+> 一句话做出来的 AI 短剧：说一句「做一集《不烧心》竖屏短剧」，剧本、定妆、分镜、首帧、镜头视频、成片一路做到底，下面这集 75 秒就是这么出来的（点封面看成片）。
 
 ### Remote control
 
@@ -40,31 +40,23 @@
 
 ### Workspace isolation
 
-> - *10-07* 画布删了、清了都找得回来；撤销只撤你自己那一步；时间线拖格子换放映顺序，一键合成照这个顺序拼
+> 公众号、群机器人和邮箱：消息按本人跑，结果只推给本人
 
 ### API gateway / proxy
 
-### Quota sharing / splitting
-
-### Billing & metering
-
-### Skills & plugins
-
-> *10-02* Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法
-
 ### MCP support
 
-> 2* Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法
+> agent 主循环怎么转的 参与贡献 项目结构、测试、提 PR
 
 ### Security & isolation
 
-> ：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在
-
 ### Self-hostable
+
+> 未经许可删改版权声明，还可能单独构成侵权——依据和判例见 未授权商用的法律后果。
 
 ### GUI / desktop app
 
-> skill.md ，存盘后下一条任务就生效——不改代码、不重启、不打包。
+> 验收、记忆、权限、本地 Trace 全在同一个仓库里：一条真实任务，从它为什么这么做到最后交了什么，你都看得见。
 
 ### Notifications
 
@@ -91,7 +83,7 @@
 
 ## Documentation quality
 
-Score **53/100**, based on these detected signals:
+Score **52/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -108,10 +100,10 @@ Score **53/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 49.9 |
+| popularity | 50.0 |
 | momentum | 5.8 |
 | maintenance | 100.0 |
-| documentation | 53.0 |
+| documentation | 52.0 |
 | accessibility | 63.0 |
 
 ---

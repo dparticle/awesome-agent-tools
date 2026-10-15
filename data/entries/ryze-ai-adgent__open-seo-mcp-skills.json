@@ -6,8 +6,8 @@
   "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
   "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
   "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
-  "stars": 5304,
-  "forks": 367,
+  "stars": 5619,
+  "forks": 371,
   "open_issues": 2,
   "language": "Shell",
   "license": "MIT",
@@ -34,16 +34,16 @@
     "seo-mcp-server"
   ],
   "created_at": "2026-08-29T23:37:01Z",
-  "updated_at": "2026-10-14T09:24:01Z",
+  "updated_at": "2026-10-15T09:08:43Z",
   "pushed_at": "2026-10-13T03:37:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 45,
-  "days_since_push": 1,
+  "age_days": 46,
+  "days_since_push": 2,
   "health_score": 78,
   "health_components": {
-    "popularity": 74.5,
+    "popularity": 75.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 43.0,
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 692,
+    "stars_gained": 938,
     "days_span": 5,
-    "stars_per_day": 138.4,
-    "lifetime_stars_per_day": 117.87,
+    "stars_per_day": 187.6,
+    "lifetime_stars_per_day": 122.15,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:01+00:00",
+  "fetched_at": "2026-10-15T09:10:44+00:00",
   "categories": [
     "self-hosting-security"
   ],
@@ -159,14 +159,14 @@
         "model-routing",
         "skills-plugins"
       ],
-      "star_ratio": 52.571,
-      "momentum_ratio": 4.613,
+      "star_ratio": 49.789,
+      "momentum_ratio": 3.808,
       "setup_delta": 7,
-      "dominance": 0.955,
+      "dominance": 0.931,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "52.57x the stars (278,839 vs 5,304)",
-        "4.61x the star velocity (638.4/day vs 138.4/day)",
+        "49.79x the stars (279,766 vs 5,619)",
+        "3.81x the star velocity (714.4/day vs 187.6/day)",
         "slightly heavier setup (+7 friction, within tolerance)"
       ],
       "reasons_zh": [],

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,774 |
-| Star velocity | 15.3/day (lifetime basis, 574d span) |
+| Stars | 8,822 |
+| Star velocity | 15.3/day (lifetime basis, 575d span) |
 | Health score | 62/100 |
 | Documentation | 70/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2025-03-19 |
-| Last push | 2026-10-14 (0 days ago) |
+| Last push | 2026-10-15 (0 days ago) |
 | Analyzed README | 13,421 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [farion1231/cc-switch](https://github.com/farion1231/cc-switch)** — Superseded by farion1231/cc-switch: covers 100% of capabilities (7/7).
@@ -91,7 +91,7 @@ Score **70/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 78.9 |
-| momentum | 12.7 |
+| momentum | 12.8 |
 | maintenance | 100.0 |
 | documentation | 70.0 |
 | accessibility | 51.0 |

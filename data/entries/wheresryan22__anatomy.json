@@ -6,9 +6,9 @@
   "url": "https://github.com/wheresryan22/anatomy",
   "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
   "homepage": "https://skills.wheresryan.sh/anatomy",
-  "stars": 8869,
-  "forks": 643,
-  "open_issues": 6,
+  "stars": 11616,
+  "forks": 828,
+  "open_issues": 22,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -18,16 +18,16 @@
     "vizualization"
   ],
   "created_at": "2026-10-08T10:12:49Z",
-  "updated_at": "2026-10-14T09:31:47Z",
-  "pushed_at": "2026-10-13T08:19:55Z",
+  "updated_at": "2026-10-15T09:09:49Z",
+  "pushed_at": "2026-10-14T22:24:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 5,
-  "days_since_push": 1,
-  "health_score": 82,
+  "age_days": 6,
+  "days_since_push": 0,
+  "health_score": 83,
   "health_components": {
-    "popularity": 79.0,
+    "popularity": 81.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 57.0,
@@ -35,16 +35,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 8869,
-    "days_span": 5,
-    "stars_per_day": 1773.8,
-    "lifetime_stars_per_day": 1773.8,
+    "stars_gained": 11616,
+    "days_span": 6,
+    "stars_per_day": 1936.0,
+    "lifetime_stars_per_day": 1936.0,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "wheresryan22/anatomy",
-    "readme_chars": 24456,
+    "readme_chars": 24666,
     "capabilities": [
       "skills-plugins",
       "cross-agent-support"
@@ -102,7 +102,7 @@
     ],
     "summary_en": "Ask Claude for a figure that explains a technical idea, and Anatomy has it invent a physical thing whose working is the concept.",
     "summary_zh": "",
-    "install_hint": "npx skills add wheresryan22/anatomy -g -a claude-code",
+    "install_hint": "npx skills add wheresryan22/anatomy -g",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
@@ -110,7 +110,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.45
+      "external_link_ratio": 0.446
     },
     "highlights": [
       "It is slow on purpose. A figure takes a long session: the parts list, the geometry, the audit, and close-ups of every joint in both themes. The Raptor's build takes a few minutes, and a ful…",
@@ -125,11 +125,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:32:55+00:00",
+  "fetched_at": "2026-10-15T09:10:36+00:00",
   "categories": [
-    "skills"
+    "desktop-ui"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

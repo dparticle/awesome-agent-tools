@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 128,
-  "days_since_push": 22,
+  "age_days": 129,
+  "days_since_push": 23,
   "health_score": 53,
   "health_components": {
     "popularity": 57.9,
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 787,
-    "days_span": 128,
-    "stars_per_day": 6.15,
-    "lifetime_stars_per_day": 6.15,
+    "days_span": 129,
+    "stars_per_day": 6.1,
+    "lifetime_stars_per_day": 6.1,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -176,13 +176,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:56+00:00",
+  "fetched_at": "2026-10-15T09:11:31+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "analytics-2",
-    "skills"
+    "desktop-ui",
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

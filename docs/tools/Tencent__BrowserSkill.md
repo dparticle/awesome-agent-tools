@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,842 |
-| Star velocity | 67.8/day (history basis, 5d span) |
-| Health score | 73/100 |
-| Documentation | 56/100 |
+| Stars | 8,934 |
+| Star velocity | 75.4/day (history basis, 5d span) |
+| Health score | 74/100 |
+| Documentation | 57/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-22 |
-| Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 20,092 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-15 (0 days ago) |
+| Analyzed README | 22,755 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Difficulty:** 🟢 Easy (friction score 34/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh`
@@ -47,13 +47,13 @@
 
 **Signals that add work:** pnpm install/build, cargo build
 
-**Configuration required:** sign-in required, process manager
+**Configuration required:** sign-in required, database migration, process manager
 
-*Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, cargo build; configure sign-in required, process manager*
+*Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, cargo build; configure sign-in required, database migration*
 
 ## Documentation quality
 
-Score **56/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -70,11 +70,11 @@ Score **56/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.9 |
-| momentum | 56.5 |
+| popularity | 79.0 |
+| momentum | 62.8 |
 | maintenance | 100.0 |
-| documentation | 56.0 |
-| accessibility | 72.0 |
+| documentation | 57.0 |
+| accessibility | 66.0 |
 
 ---
 

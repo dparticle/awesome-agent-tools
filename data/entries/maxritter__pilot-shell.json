@@ -6,7 +6,7 @@
   "url": "https://github.com/maxritter/pilot-shell",
   "description": "Professional context and harness engineering for Claude Code and OpenAI Codex. Build production-grade software with spec-driven development, TDD, persistent memory, quality gates, code intelligence, human oversight, and end-to-end verification.",
   "homepage": "https://pilot-shell.com",
-  "stars": 2088,
+  "stars": 2091,
   "forks": 179,
   "open_issues": 0,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "test-driven-development"
   ],
   "created_at": "2025-10-18T08:30:23Z",
-  "updated_at": "2026-10-13T20:11:23Z",
-  "pushed_at": "2026-10-13T21:59:10Z",
+  "updated_at": "2026-10-15T09:05:11Z",
+  "pushed_at": "2026-10-15T08:08:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 361,
+  "age_days": 362,
   "days_since_push": 0,
   "health_score": 61,
   "health_components": {
     "popularity": 66.4,
-    "momentum": 0.5,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 96.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 1.2,
     "lifetime_stars_per_day": 5.78,
     "basis": "history",
     "is_fast_riser": false
@@ -165,13 +165,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:40+00:00",
+  "fetched_at": "2026-10-15T09:11:16+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "desktop-ui",
-    "skills"
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

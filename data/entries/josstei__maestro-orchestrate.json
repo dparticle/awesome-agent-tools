@@ -6,7 +6,7 @@
   "url": "https://github.com/josstei/maestro-orchestrate",
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
-  "stars": 467,
+  "stars": 476,
   "forks": 38,
   "open_issues": 6,
   "language": "JavaScript",
@@ -34,27 +34,27 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-14T07:13:17Z",
+  "updated_at": "2026-10-15T08:26:20Z",
   "pushed_at": "2026-10-11T05:57:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
-  "days_since_push": 3,
-  "health_score": 50,
+  "age_days": 248,
+  "days_since_push": 4,
+  "health_score": 51,
   "health_components": {
-    "popularity": 53.4,
-    "momentum": 0.3,
+    "popularity": 53.6,
+    "momentum": 1.8,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.89,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 1.92,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:10+00:00",
+  "fetched_at": "2026-10-15T09:11:42+00:00",
   "categories": [
     "analytics",
     "sessions"
@@ -162,14 +162,14 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.298,
-      "momentum_ratio": 9.5,
+      "star_ratio": 2.265,
+      "momentum_ratio": 1.818,
       "setup_delta": -21,
-      "dominance": 0.939,
+      "dominance": 0.81,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.30x the stars (1,073 vs 467)",
-        "9.50x the star velocity (3.8/day vs 0.4/day)",
+        "2.26x the stars (1,078 vs 476)",
+        "1.82x the star velocity (4.0/day vs 2.2/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],
@@ -190,7 +190,7 @@
           "session-persistence",
           "skills-plugins"
         ],
-        "incumbent_health": 50,
+        "incumbent_health": 51,
         "challenger_health": 55,
         "incumbent_setup_score": 51,
         "challenger_setup_score": 30

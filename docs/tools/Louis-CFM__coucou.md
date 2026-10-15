@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,152 |
-| Star velocity | 161.4/day (history basis, 5d span) |
+| Stars | 5,251 |
+| Star velocity | 131.0/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 62/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-09-27 |
-| Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 34,068 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-15 (0 days ago) |
+| Analyzed README | 38,332 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -58,7 +58,7 @@
 
 ### Voice input
 
-> - 🎙️ Dictate in the chat (macOS, GitHub build) — click the mic next to the chat field and talk in any of your languages (Coucou picks the one you spoke, or right-click the mic to choose); speech recognition runs
+> pops out of your notch, waves hello, follows your cursor with its eyes, gets annoyed when you poke it (and dizzy if you insist), and tells you the moment Claude Code needs you.
 
 ### Cross-agent support
 
@@ -98,7 +98,7 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.2 |
+| popularity | 74.4 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 62.0 |

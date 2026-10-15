@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/cost-xray",
   "description": "See what Claude Code and Codex actually send to the API — and what each part costs.",
   "homepage": "",
-  "stars": 4888,
-  "forks": 326,
-  "open_issues": 42,
+  "stars": 5046,
+  "forks": 334,
+  "open_issues": 38,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "token-counting"
   ],
   "created_at": "2026-06-06T04:30:36Z",
-  "updated_at": "2026-10-14T09:02:07Z",
-  "pushed_at": "2026-09-29T19:03:47Z",
+  "updated_at": "2026-10-15T09:02:16Z",
+  "pushed_at": "2026-10-14T12:13:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 130,
-  "days_since_push": 14,
-  "health_score": 65,
+  "age_days": 131,
+  "days_since_push": 0,
+  "health_score": 73,
   "health_components": {
-    "popularity": 73.8,
-    "momentum": 32.8,
-    "maintenance": 92.0,
+    "popularity": 74.1,
+    "momentum": 58.2,
+    "maintenance": 100.0,
     "documentation": 48.0,
     "accessibility": 88.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 197,
+    "stars_gained": 349,
     "days_span": 5,
-    "stars_per_day": 39.4,
-    "lifetime_stars_per_day": 37.6,
+    "stars_per_day": 69.8,
+    "lifetime_stars_per_day": 38.52,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,12 +133,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:03+00:00",
+  "fetched_at": "2026-10-15T09:10:45+00:00",
   "categories": [
-    "desktop-ui",
-    "voice-remote-control"
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "voice-remote-control",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).",
@@ -161,14 +161,14 @@
         "mcp-support",
         "remote-control"
       ],
-      "star_ratio": 4.263,
-      "momentum_ratio": 3.112,
+      "star_ratio": 4.15,
+      "momentum_ratio": 1.676,
       "setup_delta": 12,
-      "dominance": 0.881,
+      "dominance": 0.804,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "4.26x the stars (20,837 vs 4,888)",
-        "3.11x the star velocity (122.6/day vs 39.4/day)",
+        "4.15x the stars (20,939 vs 5,046)",
+        "1.68x the star velocity (117.0/day vs 69.8/day)",
         "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -194,7 +194,7 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 65,
+        "incumbent_health": 73,
         "challenger_health": 86,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 24

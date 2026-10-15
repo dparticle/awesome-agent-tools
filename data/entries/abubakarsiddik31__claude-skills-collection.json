@@ -6,20 +6,20 @@
   "url": "https://github.com/abubakarsiddik31/claude-skills-collection",
   "description": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
   "homepage": "",
-  "stars": 1097,
+  "stars": 1099,
   "forks": 203,
   "open_issues": 22,
   "language": "",
   "license": "",
   "topics": [],
   "created_at": "2025-10-18T16:24:12Z",
-  "updated_at": "2026-10-14T05:54:00Z",
+  "updated_at": "2026-10-15T00:09:12Z",
   "pushed_at": "2026-09-12T11:58:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 360,
-  "days_since_push": 31,
+  "age_days": 361,
+  "days_since_push": 32,
   "health_score": 50,
   "health_components": {
     "popularity": 60.8,
@@ -33,7 +33,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 3.05,
+    "lifetime_stars_per_day": 3.04,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -157,13 +157,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:49+00:00",
+  "fetched_at": "2026-10-15T09:11:25+00:00",
   "categories": [
     "desktop-ui",
-    "skills",
-    "teams"
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "teams",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

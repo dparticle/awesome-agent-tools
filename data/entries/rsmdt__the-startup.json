@@ -6,7 +6,7 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 567,
+  "stars": 568,
   "forks": 70,
   "open_issues": 0,
   "language": "Shell",
@@ -18,26 +18,26 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-10-13T19:52:21Z",
+  "updated_at": "2026-10-15T04:18:12Z",
   "pushed_at": "2026-08-03T13:21:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 427,
-  "days_since_push": 71,
+  "age_days": 428,
+  "days_since_push": 72,
   "health_score": 49,
   "health_components": {
     "popularity": 55.1,
-    "momentum": 1.7,
+    "momentum": 1.3,
     "maintenance": 78.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 2.0,
+    "stars_per_day": 1.6,
     "lifetime_stars_per_day": 1.33,
     "basis": "history",
     "is_fast_riser": false
@@ -125,23 +125,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:03+00:00",
+  "fetched_at": "2026-10-15T09:11:37+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "skills"
+    "desktop-ui"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 EverMind-AI/Raven 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "EverMind-AI/Raven",
+    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "evermind-ai/raven",
+      "challenger": "thedivergentai/game-dev-agentic-skills",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "EverMind-AI/Raven",
+      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -152,15 +151,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 9.575,
-      "momentum_ratio": 10.4,
-      "setup_delta": -12,
-      "dominance": 1.0,
+      "star_ratio": 1.504,
+      "momentum_ratio": 2.144,
+      "setup_delta": -4,
+      "dominance": 0.738,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "9.57x the stars (5,429 vs 567)",
-        "10.40x the star velocity (20.8/day vs 2.0/day)",
-        "no harder to set up (13 vs 25 friction)"
+        "1.50x the stars (854 vs 568)",
+        "2.14x the star velocity (3.4/day vs 1.6/day)",
+        "no harder to set up (21 vs 25 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -171,20 +170,19 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "api-gateway",
+          "agent-runtime",
           "cross-agent-support",
           "gui-desktop",
+          "mcp-support",
           "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
-          "self-hosted",
           "skills-plugins"
         ],
         "incumbent_health": 49,
-        "challenger_health": 67,
+        "challenger_health": 58,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 13
+        "challenger_setup_score": 21
       }
     }
   }

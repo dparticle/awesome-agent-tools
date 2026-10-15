@@ -6,9 +6,9 @@
   "url": "https://github.com/CatCatUncle/openworkbuddy",
   "description": "Open-source Claude Cowork / Codex alternative — a local-first AI office agent that turns one request into real PPTX, DOCX, XLSX and HTML files. Runs DeepSeek, Qwen, Doubao, Claude or Ollama (BYOK), MCP, and can drive Claude Code / Codex CLI. 开源 AI 办公助理，豆包办公 / 千问办公替代。",
   "homepage": "https://catcatuncle.github.io/openworkbuddy/",
-  "stars": 314,
-  "forks": 68,
-  "open_issues": 8,
+  "stars": 318,
+  "forks": 69,
+  "open_issues": 9,
   "language": "JavaScript",
   "license": "NOASSERTION",
   "topics": [
@@ -32,19 +32,19 @@
     "short-drama"
   ],
   "created_at": "2026-08-10T08:18:25Z",
-  "updated_at": "2026-10-14T08:28:59Z",
-  "pushed_at": "2026-10-14T08:51:13Z",
+  "updated_at": "2026-10-15T08:04:25Z",
+  "pushed_at": "2026-10-14T19:39:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 65,
+  "age_days": 66,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 49.9,
+    "popularity": 50.0,
     "momentum": 5.8,
     "maintenance": 100.0,
-    "documentation": 53.0,
+    "documentation": 52.0,
     "accessibility": 63.0
   },
   "tier": "notable",
@@ -52,13 +52,13 @@
     "stars_gained": 35,
     "days_span": 5,
     "stars_per_day": 7.0,
-    "lifetime_stars_per_day": 4.83,
+    "lifetime_stars_per_day": 4.82,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CatCatUncle/openworkbuddy",
-    "readme_chars": 18913,
+    "readme_chars": 15961,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -66,9 +66,6 @@
       "multi-agent-orchestration",
       "worktree-isolation",
       "api-gateway",
-      "quota-distribution",
-      "billing-metering",
-      "skills-plugins",
       "mcp-support",
       "security-isolation",
       "self-hosted",
@@ -77,37 +74,31 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "- *10-10* 渠道能选生图、视频、配音各走哪种接口，中转也能选；千问生图点「测」不再误报 400，百炼生图被拒「不支持同步/异步」时自动换一种 - *10-10* 本回合产出按重要程度排：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在 - *10-10* 输入框字多跟着长高，最高约窗口三分之一；还有没露出来的字时那一边渐隐，滚动按钮不再压字 - *10-10* 多账号时成员和分公司账号的工作目录、成果…",
-      "quota-management": "*10-07* 行程卡换了个样：地图铺满整张卡，地点浮在右边一栏；钉子带照片和地名，点卡片地图就滑过去；国内一天四站以上也能一键打开整条路线",
+      "multi-account-switching": "4 多人服务器上成员有自己的那份：模型渠道按需共享、能填自己的 Key，能建自己的专家，能起自己的助理名字和偏好",
+      "quota-management": "一句话做出来的 AI 短剧：说一句「做一集《不烧心》竖屏短剧」，剧本、定妆、分镜、首帧、镜头视频、成片一路做到底，下面这集 75 秒就是这么出来的（点封面看成片）。",
       "remote-control": "",
       "multi-agent-orchestration": "",
-      "worktree-isolation": "- *10-07* 画布删了、清了都找得回来；撤销只撤你自己那一步；时间线拖格子换放映顺序，一键合成照这个顺序拼",
+      "worktree-isolation": "公众号、群机器人和邮箱：消息按本人跑，结果只推给本人",
       "api-gateway": "",
-      "quota-distribution": "",
-      "billing-metering": "",
-      "skills-plugins": "*10-02* Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法",
-      "mcp-support": "2* Windows 起任务不再闪黑窗，中文路径、GBK 输出、高 DPI 显示都修好；拦删除的命令补上二十多种写法",
-      "security-isolation": "：成品排前面，做完自动在预览里打开；已删的标「已删除」沉底，点开前先确认还在",
-      "self-hosted": "",
-      "gui-desktop": "skill.md ，存盘后下一条任务就生效——不改代码、不重启、不打包。",
+      "mcp-support": "agent 主循环怎么转的 参与贡献 项目结构、测试、提 PR",
+      "security-isolation": "",
+      "self-hosted": "未经许可删改版权声明，还可能单独构成侵权——依据和判例见 未授权商用的法律后果。",
+      "gui-desktop": "验收、记忆、权限、本地 Trace 全在同一个仓库里：一条真实任务，从它为什么这么做到最后交了什么，你都看得见。",
       "notifications": "册能直接填邮箱：自动取 @ 前面那段当用户名，登录时填邮箱也认；注册失败不再算进限流，填错不会被锁",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
       "multi-account-switching": 1,
-      "quota-management": 3,
+      "quota-management": 1,
       "remote-control": 1,
       "multi-agent-orchestration": 1,
-      "worktree-isolation": 3,
+      "worktree-isolation": 2,
       "api-gateway": 1,
-      "quota-distribution": 2,
-      "billing-metering": 3,
-      "skills-plugins": 1,
-      "mcp-support": 2,
-      "security-isolation": 4,
+      "mcp-support": 1,
+      "security-isolation": 1,
       "self-hosted": 1,
       "gui-desktop": 2,
-      "notifications": 1,
+      "notifications": 2,
       "cross-agent-support": 2
     },
     "friction": {
@@ -135,7 +126,7 @@
       "note_en": "Some setup. install via curl | sh installer, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml",
       "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、config.json/yaml/toml"
     },
-    "doc_score": 53,
+    "doc_score": 52,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -162,13 +153,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.529
+      "external_link_ratio": 0.627
     },
     "highlights": [
       "10-13 「本机/内网放行」支持通配符：192.168.1.: 放一整个网段，*.local:8080 放一类主机名",
-      "10-06 系统沙箱：AI 跑的命令和脚本在 macOS、Windows 上读不到 Key 和账本、改不了应用；设置 → 安全 能关，每条多花 7–16 毫秒",
-      "10-07 闲着更省电：没任务、没人用时，服务每秒醒来从约 40 次降到 2 次；窗口不在前台也不再盯卡顿",
-      "09-28 渠道能选接口格式：OpenAI / Responses / Anthropic / Gemini / Ollama 原生，本地部署都能接"
+      "10-12 本机 Codex / Claude Code 读得到随消息传的文件了：粘贴的文字、图和文档都附上完整路径，不再只收到文件名",
+      "10-13 注册能直接填邮箱：自动取 @ 前面那段当用户名，登录时填邮箱也认；注册失败不再算进限流，填错不会被锁",
+      "toolward —— 给 agent 用的技能 / MCP 连接器静态安检：37 条规则分六族，零运行时依赖。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -179,11 +170,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:25+00:00",
+  "fetched_at": "2026-10-15T09:11:57+00:00",
   "categories": [
+    "remote-control-isolation",
     "self-hosting-security",
-    "sharing",
-    "teams"
+    "sharing"
   ],
   "primary_category": "sharing",
   "lifecycle": {

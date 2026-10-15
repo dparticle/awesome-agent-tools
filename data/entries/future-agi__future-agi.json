@@ -6,9 +6,9 @@
   "url": "https://github.com/future-agi/future-agi",
   "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
   "homepage": "https://futureagi.com",
-  "stars": 2147,
-  "forks": 679,
-  "open_issues": 1106,
+  "stars": 2149,
+  "forks": 681,
+  "open_issues": 1117,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "tracing"
   ],
   "created_at": "2026-04-23T14:11:31Z",
-  "updated_at": "2026-10-14T08:35:48Z",
-  "pushed_at": "2026-10-14T09:26:35Z",
+  "updated_at": "2026-10-15T07:35:07Z",
+  "pushed_at": "2026-10-15T09:09:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 173,
+  "age_days": 174,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
     "popularity": 66.6,
-    "momentum": 2.8,
+    "momentum": 2.7,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 3.4,
-    "lifetime_stars_per_day": 12.41,
+    "stars_per_day": 3.2,
+    "lifetime_stars_per_day": 12.35,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,78 +152,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:39+00:00",
+  "fetched_at": "2026-10-15T09:11:16+00:00",
   "categories": [
     "analytics",
     "self-hosting-security",
-    "teams"
+    "skills"
   ],
-  "primary_category": "teams",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "TencentCloud/Octop",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "future-agi/future-agi",
-      "challenger": "tencentcloud/octop",
-      "incumbent_name": "future-agi/future-agi",
-      "challenger_name": "TencentCloud/Octop",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "billing-metering",
-        "mcp-support",
-        "memory-context",
-        "self-hosted"
-      ],
-      "star_ratio": 4.313,
-      "momentum_ratio": 64.941,
-      "setup_delta": -13,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "4.31x the stars (9,260 vs 2,147)",
-        "64.94x the star velocity (220.8/day vs 3.4/day)",
-        "no harder to set up (32 vs 45 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "mcp-support",
-          "memory-context",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 59,
-        "challenger_health": 87,
-        "incumbent_setup_score": 45,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -7,7 +7,7 @@
   "description": "See where Claude Code is burning tokens - turn raw JSONL transcripts into local cost analytics, hotspot views, and session-level usage insight.",
   "homepage": "",
   "stars": 729,
-  "forks": 198,
+  "forks": 197,
   "open_issues": 25,
   "language": "Python",
   "license": "MIT",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 177,
-  "days_since_push": 176,
+  "age_days": 178,
+  "days_since_push": 177,
   "health_score": 43,
   "health_components": {
     "popularity": 57.3,
@@ -33,7 +33,7 @@
     "stars_gained": 6,
     "days_span": 5,
     "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 4.12,
+    "lifetime_stars_per_day": 4.1,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -122,7 +122,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:59+00:00",
+  "fetched_at": "2026-10-15T09:11:33+00:00",
   "categories": [
     "analytics-2",
     "providers"

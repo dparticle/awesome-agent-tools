@@ -7,8 +7,8 @@
   "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
   "homepage": "",
   "stars": 487,
-  "forks": 127,
-  "open_issues": 32,
+  "forks": 128,
+  "open_issues": 35,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,22 +24,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 173,
-  "days_since_push": 3,
+  "age_days": 174,
+  "days_since_push": 4,
   "health_score": 49,
   "health_components": {
     "popularity": 53.8,
-    "momentum": 1.8,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 16.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 2.82,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 2.8,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,7 +137,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:09+00:00",
+  "fetched_at": "2026-10-15T09:11:42+00:00",
   "categories": [
     "analytics",
     "providers"

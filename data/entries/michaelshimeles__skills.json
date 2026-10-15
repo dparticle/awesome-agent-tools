@@ -6,7 +6,7 @@
   "url": "https://github.com/michaelshimeles/skills",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1319,
+  "stars": 1321,
   "forks": 215,
   "open_issues": 3,
   "language": "Python",
@@ -22,27 +22,27 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-10-14T08:13:03Z",
+  "updated_at": "2026-10-15T03:55:56Z",
   "pushed_at": "2026-10-04T00:03:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 222,
-  "days_since_push": 10,
+  "age_days": 223,
+  "days_since_push": 11,
   "health_score": 52,
   "health_components": {
     "popularity": 62.4,
-    "momentum": 7.3,
+    "momentum": 6.8,
     "maintenance": 92.0,
     "documentation": 38.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 44,
+    "stars_gained": 41,
     "days_span": 5,
-    "stars_per_day": 8.8,
-    "lifetime_stars_per_day": 5.94,
+    "stars_per_day": 8.2,
+    "lifetime_stars_per_day": 5.92,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -130,24 +130,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:45+00:00",
+  "fetched_at": "2026-10-15T09:11:22+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "desktop-ui",
-    "skills"
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "OthmanAdi/planning-with-files",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "michaelshimeles/skills",
-      "challenger": "othmanadi/planning-with-files",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "michaelshimeles/skills",
-      "challenger_name": "OthmanAdi/planning-with-files",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -159,15 +159,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 20.806,
-      "momentum_ratio": 2.0,
-      "setup_delta": -1,
-      "dominance": 0.886,
+      "star_ratio": 25.394,
+      "momentum_ratio": 3.244,
+      "setup_delta": -26,
+      "dominance": 0.946,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "20.81x the stars (27,443 vs 1,319)",
-        "2.00x the star velocity (17.6/day vs 8.8/day)",
-        "no harder to set up (27 vs 28 friction)"
+        "25.39x the stars (33,545 vs 1,321)",
+        "3.24x the star velocity (26.6/day vs 8.2/day)",
+        "no harder to set up (2 vs 28 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,18 +180,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
-          "memory-context",
+          "gui-desktop",
+          "mcp-support",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
-          "security-isolation",
+          "remote-control",
           "skills-plugins",
+          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 52,
-        "challenger_health": 69,
+        "challenger_health": 73,
         "incumbent_setup_score": 28,
-        "challenger_setup_score": 27
+        "challenger_setup_score": 2
       }
     }
   }

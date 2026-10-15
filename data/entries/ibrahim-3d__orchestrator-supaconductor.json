@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 238,
-  "days_since_push": 16,
+  "age_days": 239,
+  "days_since_push": 17,
   "health_score": 47,
   "health_components": {
     "popularity": 51.6,
@@ -43,7 +43,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.6,
+    "lifetime_stars_per_day": 1.59,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,24 +136,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:18+00:00",
+  "fetched_at": "2026-10-15T09:11:50+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "analytics-2",
-    "skills"
+    "desktop-ui",
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "OthmanAdi/planning-with-files",
+    "note_en": "Superseded by bytedance/deer-flow: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 bytedance/deer-flow 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "bytedance/deer-flow",
     "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "othmanadi/planning-with-files",
+      "challenger": "bytedance/deer-flow",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "OthmanAdi/planning-with-files",
+      "challenger_name": "bytedance/deer-flow",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -165,15 +165,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 72.029,
-      "momentum_ratio": 352.0,
-      "setup_delta": -45,
+      "star_ratio": 220.184,
+      "momentum_ratio": 1044.0,
+      "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "72.03x the stars (27,443 vs 381)",
-        "352.00x the star velocity (17.6/day vs 0.0/day)",
-        "no harder to set up (27 vs 72 friction)"
+        "220.18x the stars (83,890 vs 381)",
+        "1044.00x the star velocity (52.2/day vs 0.0/day)",
+        "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -186,18 +186,28 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
-          "security-isolation",
+          "self-hosted",
+          "session-persistence",
           "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 47,
-        "challenger_health": 69,
+        "challenger_health": 76,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 27
+        "challenger_setup_score": 57
       }
     }
   }

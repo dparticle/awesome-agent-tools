@@ -2,7 +2,7 @@
 
 # trailhq/Trail-Code
 
-> You correct it, and by the next session it has forgotten.
+> Trail-code gives Claude Code, Cursor, Codex and other coding agents a map of your code, and what your team has learned about it.
 
 [Repository](https://github.com/trailhq/Trail-Code) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,41 +12,43 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,987 |
-| Star velocity | 97.9/day (lifetime basis, 102d span) |
-| Health score | 78/100 |
-| Documentation | 59/100 |
-| Tier | 🏆 Flagship |
+| Stars | 10,043 |
+| Star velocity | 97.5/day (lifetime basis, 103d span) |
+| Health score | 77/100 |
+| Documentation | 64/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 45,778 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-15 (0 days ago) |
+| Analyzed README | 59,349 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
+### Workspace isolation
+
 ### Model / provider routing
 
-> mpatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPIKEY, GRAFTMODEL, and — for the openai wire format — GRAFTBASEURL to point at…
+> compatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPIKEY, GRAFTMODEL, and, for the openai wire format, GRAFTBASEURL to point at…
 
 ### API gateway / proxy
 
-> graft is vendor-neutral: set GRAFTPROVIDER (openai for any OpenAI-compatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPIKEY, GRA…
+> The graft map is vendor-neutral: set GRAFTPROVIDER (openai for any OpenAI-compatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPI…
 
 ### Billing & metering
 
 ### Skills & plugins
 
-> gents get a marker-fenced Graft section in their shared instruction file — AGENTS.md (Codex, OpenCode and other CLIs that read it), GEMINI.md, .github/copilot-instructions.md — or a wholly-owned rule/skill file for the…
+> a marker-fenced Trail-code section in their shared instruction file (AGENTS.md for Codex, OpenCode and other CLIs that read it, GEMINI.md, .github/copilot-instructions.md), or a wholly-owned rule or skill file for the a…
 
 ### Agent runtime
 
-> ### Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.
+> ### The self-learning context layer for coding agents.
 
 ### MCP support
 
-> d artifact.** graft build writes graft/ and adds it to .gitignore — it's a regenerable local cache, like nodemodules.
+> ooks add the matching files and functions to each prompt, and show what depends on a file right after your agent edits it (the "blast radius").
 
 ### Cross-agent support
 
@@ -54,28 +56,29 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 43/100)
+- **Difficulty:** 🟡 Some setup (friction score 58/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npm install -g @trailhq/trail`
+- **Quickest install:** `npm install -g @trailhq/trail-code && trail init`
 
-**Signals that make it easy:** npx one-liner, global npm install
+**Signals that make it easy:** global npm install
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** config.json/yaml/toml, sign-in required, database dependency
+**Configuration required:** API key configuration, config.json/yaml/toml, sign-in required, database dependency
 
-*Some setup. install via npx one-liner, global npm install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required*
+*Some setup. install via global npm install; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml*
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **64/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - has a quick-start section
 - documents installation
 - documents configuration
+- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - reports benchmarks
@@ -87,10 +90,10 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.0 |
-| momentum | 81.6 |
+| momentum | 81.3 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
-| accessibility | 57.0 |
+| documentation | 64.0 |
+| accessibility | 42.0 |
 
 ---
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://agent-memory.dev",
-  "stars": 29404,
-  "forks": 2593,
-  "open_issues": 563,
+  "stars": 29482,
+  "forks": 2602,
+  "open_issues": 572,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,27 +27,27 @@
     "openclaw"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-10-14T08:54:59Z",
-  "pushed_at": "2026-10-13T15:25:09Z",
+  "updated_at": "2026-10-15T09:06:09Z",
+  "pushed_at": "2026-10-14T13:53:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 231,
+  "age_days": 232,
   "days_since_push": 0,
-  "health_score": 70,
+  "health_score": 73,
   "health_components": {
     "popularity": 89.4,
-    "momentum": 24.7,
+    "momentum": 34.2,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 148,
+    "stars_gained": 205,
     "days_span": 5,
-    "stars_per_day": 29.6,
-    "lifetime_stars_per_day": 127.29,
+    "stars_per_day": 41.0,
+    "lifetime_stars_per_day": 127.08,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -186,7 +186,8 @@
       "external_link_ratio": 0.163
     },
     "highlights": [
-      "name: mcp # extra MCP servers next to agentmemory's, same engine"
+      "name: mcp # extra MCP servers next to agentmemory's, same engine",
+      "Auth uses JWT middleware in src/middleware/auth.ts"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -197,13 +198,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:26+00:00",
+  "fetched_at": "2026-10-15T09:11:04+00:00",
   "categories": [
-    "self-hosting-security",
-    "skills",
-    "teams"
+    "desktop-ui",
+    "desktop-ui-2",
+    "self-hosting-security"
   ],
-  "primary_category": "teams",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

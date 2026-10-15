@@ -6,9 +6,9 @@
   "url": "https://github.com/trailhq/Trail-Code",
   "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
   "homepage": "https://trailhq.com/graft",
-  "stars": 9987,
-  "forks": 883,
-  "open_issues": 243,
+  "stars": 10043,
+  "forks": 889,
+  "open_issues": 248,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,34 +31,35 @@
     "tree-sitter"
   ],
   "created_at": "2026-07-03T13:44:21Z",
-  "updated_at": "2026-10-14T09:07:11Z",
-  "pushed_at": "2026-10-13T22:18:40Z",
+  "updated_at": "2026-10-15T08:41:31Z",
+  "pushed_at": "2026-10-15T09:02:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 102,
+  "age_days": 103,
   "days_since_push": 0,
-  "health_score": 78,
+  "health_score": 77,
   "health_components": {
     "popularity": 80.0,
-    "momentum": 81.6,
+    "momentum": 81.3,
     "maintenance": 100.0,
-    "documentation": 59.0,
-    "accessibility": 57.0
+    "documentation": 64.0,
+    "accessibility": 42.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 9987,
-    "days_span": 102,
-    "stars_per_day": 97.91,
-    "lifetime_stars_per_day": 97.91,
+    "stars_gained": 10043,
+    "days_span": 103,
+    "stars_per_day": 97.5,
+    "lifetime_stars_per_day": 97.5,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "trailhq/Trail-Code",
-    "readme_chars": 45778,
+    "readme_chars": 59349,
     "capabilities": [
+      "worktree-isolation",
       "model-routing",
       "api-gateway",
       "billing-metering",
@@ -68,30 +69,31 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "model-routing": "mpatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPIKEY, GRAFTMODEL, and — for the openai wire format — GRAFTBASEURL to point at…",
-      "api-gateway": "graft is vendor-neutral: set GRAFTPROVIDER (openai for any OpenAI-compatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPIKEY, GRA…",
+      "worktree-isolation": "",
+      "model-routing": "compatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPIKEY, GRAFTMODEL, and, for the openai wire format, GRAFTBASEURL to point at…",
+      "api-gateway": "The graft map is vendor-neutral: set GRAFTPROVIDER (openai for any OpenAI-compatible endpoint, anthropic for the native API, or litellm / orcarouter for a gateway that speaks the OpenAI-compatible format), your GRAFTAPI…",
       "billing-metering": "",
-      "skills-plugins": "gents get a marker-fenced Graft section in their shared instruction file — AGENTS.md (Codex, OpenCode and other CLIs that read it), GEMINI.md, .github/copilot-instructions.md — or a wholly-owned rule/skill file for the…",
-      "agent-runtime": "### Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
-      "mcp-support": "d artifact.** graft build writes graft/ and adds it to .gitignore — it's a regenerable local cache, like nodemodules.",
+      "skills-plugins": "a marker-fenced Trail-code section in their shared instruction file (AGENTS.md for Codex, OpenCode and other CLIs that read it, GEMINI.md, .github/copilot-instructions.md), or a wholly-owned rule or skill file for the a…",
+      "agent-runtime": "### The self-learning context layer for coding agents.",
+      "mcp-support": "ooks add the matching files and functions to each prompt, and show what depends on a file right after your agent edits it (the \"blast radius\").",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
+      "worktree-isolation": 1,
       "model-routing": 2,
       "api-gateway": 1,
       "billing-metering": 1,
-      "skills-plugins": 3,
-      "agent-runtime": 5,
+      "skills-plugins": 1,
+      "agent-runtime": 4,
       "mcp-support": 7,
-      "cross-agent-support": 5
+      "cross-agent-support": 6
     },
     "friction": {
       "level": "moderate",
-      "score": 43,
+      "score": 58,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
-        "npx one-liner",
         "global npm install"
       ],
       "hard_signals": [
@@ -99,6 +101,7 @@
         "npm install/build"
       ],
       "config_signals": [
+        "API key configuration",
         "config.json/yaml/toml",
         "sign-in required",
         "database dependency"
@@ -107,16 +110,17 @@
       "platforms": [
         "Linux"
       ],
-      "note_en": "Some setup. install via npx one-liner, global npm install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required",
-      "note_zh": "需要一些配置。可通过 npx one-liner、global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、sign-in required"
+      "note_en": "Some setup. install via global npm install; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、config.json/yaml/toml"
     },
-    "doc_score": 59,
+    "doc_score": 64,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
       "has a quick-start section",
       "documents installation",
       "documents configuration",
+      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
       "reports benchmarks",
@@ -126,13 +130,14 @@
     "agents": [
       "Claude Code",
       "Codex",
+      "Gemini CLI",
       "OpenCode",
       "Cursor",
       "Copilot"
     ],
-    "summary_en": "You correct it, and by the next session it has forgotten.",
+    "summary_en": "Trail-code gives Claude Code, Cursor, Codex and other coding agents a map of your code, and what your team has learned about it.",
     "summary_zh": "",
-    "install_hint": "npm install -g @trailhq/trail",
+    "install_hint": "npm install -g @trailhq/trail-code && trail init",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
@@ -140,13 +145,13 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.131
+      "external_link_ratio": 0.101
     },
     "highlights": [
-      "Entry-point trace — Trace end-to-end what happens when a client creates a record via the REST API, from route handler to database write.",
-      "Always fresh, automatically. Every query rebuilds the graph against the working tree first — structural, $0, ~3ms when nothing moved — so ask/grep/callers/skeleton/map describe the code as…",
-      "auto-sync — every graft query brings the graph up to date first, so an answer always describes the code as it is right now, uncommitted edits included.",
-      "Public API — As an external app, how do I authenticate and then list and filter records over the REST API?"
+      "Entry-point trace: Trace end-to-end what happens when a client creates a record via the REST API, from route handler to database write.",
+      "Keep defaultRetryMax = 4: ten retries with the default backoff can hold one Do() call for over an hour.",
+      "The right code with every prompt.",
+      "Raising the default to 10 for one customer: worst case, a single Do() call blocks for over an hour."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -157,13 +162,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:32:54+00:00",
+  "fetched_at": "2026-10-15T09:10:38+00:00",
   "categories": [
-    "model-routing",
-    "skills",
-    "teams"
+    "desktop-ui",
+    "skills"
   ],
-  "primary_category": "teams",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",

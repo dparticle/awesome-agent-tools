@@ -6,7 +6,7 @@
   "url": "https://github.com/tickernelz/opencode-mem",
   "description": "OpenCode plugin that gives coding agents persistent memory using local vector database",
   "homepage": "",
-  "stars": 1742,
+  "stars": 1745,
   "forks": 175,
   "open_issues": 5,
   "language": "TypeScript",
@@ -21,27 +21,27 @@
     "vector-database"
   ],
   "created_at": "2026-01-10T08:13:56Z",
-  "updated_at": "2026-10-14T08:34:07Z",
+  "updated_at": "2026-10-15T03:18:20Z",
   "pushed_at": "2026-10-13T10:18:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 277,
-  "days_since_push": 0,
+  "age_days": 278,
+  "days_since_push": 1,
   "health_score": 55,
   "health_components": {
     "popularity": 64.8,
-    "momentum": 3.2,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 19,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 3.8,
-    "lifetime_stars_per_day": 6.29,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 6.28,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -154,13 +154,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:41+00:00",
+  "fetched_at": "2026-10-15T09:11:17+00:00",
   "categories": [
     "desktop-ui",
-    "sessions",
+    "desktop-ui-2",
     "skills"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

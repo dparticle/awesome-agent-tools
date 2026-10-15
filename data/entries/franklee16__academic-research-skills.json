@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 177,
-  "days_since_push": 25,
+  "age_days": 178,
+  "days_since_push": 26,
   "health_score": 44,
   "health_components": {
     "popularity": 47.0,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.26,
+    "lifetime_stars_per_day": 1.25,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -115,11 +115,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:43+00:00",
+  "fetched_at": "2026-10-15T09:12:13+00:00",
   "categories": [
-    "skills"
+    "desktop-ui"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,19 +6,19 @@
   "url": "https://github.com/msitarzewski/agency-agents",
   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
   "homepage": "",
-  "stars": 159974,
-  "forks": 25874,
-  "open_issues": 207,
+  "stars": 160180,
+  "forks": 25898,
+  "open_issues": 210,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-10-13T12:12:29Z",
-  "updated_at": "2026-10-14T09:27:33Z",
-  "pushed_at": "2026-10-13T21:01:10Z",
+  "updated_at": "2026-10-15T09:04:13Z",
+  "pushed_at": "2026-10-15T05:33:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 365,
+  "age_days": 366,
   "days_since_push": 0,
   "health_score": 98,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1554,
+    "stars_gained": 1553,
     "days_span": 5,
-    "stars_per_day": 310.8,
-    "lifetime_stars_per_day": 438.28,
+    "stars_per_day": 310.6,
+    "lifetime_stars_per_day": 437.65,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "msitarzewski/agency-agents",
-    "readme_chars": 84778,
+    "readme_chars": 84972,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -163,7 +163,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.59
+      "external_link_ratio": 0.6
     },
     "highlights": [
       "👔 Senior Project Manager - Scope and task planning",
@@ -180,13 +180,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:12+00:00",
+  "fetched_at": "2026-10-15T09:10:54+00:00",
   "categories": [
-    "mobile-2",
+    "desktop-ui-2",
     "teams",
     "voice-remote-control"
   ],
-  "primary_category": "teams",
+  "primary_category": "voice-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

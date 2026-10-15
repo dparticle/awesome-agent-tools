@@ -6,9 +6,9 @@
   "url": "https://github.com/loopx-project/loopx",
   "description": "A control plane with a durable state kernel for long-horizon agents and teams. Keep work moving and improving across sessions, with less human attention.",
   "homepage": "https://loopx-project.github.io/loopx/",
-  "stars": 6295,
+  "stars": 6309,
   "forks": 599,
-  "open_issues": 173,
+  "open_issues": 150,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -27,27 +27,27 @@
     "workflow-automation"
   ],
   "created_at": "2026-05-31T14:58:56Z",
-  "updated_at": "2026-10-14T09:12:04Z",
-  "pushed_at": "2026-10-14T09:21:27Z",
+  "updated_at": "2026-10-15T08:57:40Z",
+  "pushed_at": "2026-10-15T09:01:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
+  "age_days": 136,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 76.0,
-    "momentum": 13.2,
+    "momentum": 13.0,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 79,
+    "stars_gained": 78,
     "days_span": 5,
-    "stars_per_day": 15.8,
-    "lifetime_stars_per_day": 46.63,
+    "stars_per_day": 15.6,
+    "lifetime_stars_per_day": 46.39,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -158,11 +158,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:00+00:00",
+  "fetched_at": "2026-10-15T09:10:43+00:00",
   "categories": [
     "analytics-2",
     "mobile-2",
-    "providers-2"
+    "teams"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

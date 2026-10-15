@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,365 |
-| Star velocity | 26.2/day (history basis, 5d span) |
+| Stars | 3,379 |
+| Star velocity | 27.2/day (history basis, 5d span) |
 | Health score | 67/100 |
 | Documentation | 65/100 |
 | Tier | ✅ Recommended |
@@ -21,18 +21,18 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-06-03 |
-| Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 36,823 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-15 (0 days ago) |
+| Analyzed README | 37,024 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> tched tool calls run concurrently in Hermes,
+> batched tool calls run concurrently in Hermes,
 
 ### Parallel execution
 
-> D (live rows with category, turns, cost, cache), the phase todo above the prompt, parallel shot ×N, full-row diff bands, and managed skins — installed beside Hermes, never patching it.
+> h category, turns, cost, cache), the phase todo above the prompt, parallel shot ×N, full-row diff bands, and a theme of your own — in the OMH TUI bare omh opens, never patching Hermes.
 
 ### Workspace isolation
 
@@ -85,8 +85,8 @@ Score **65/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 70.5 |
-| momentum | 21.8 |
+| popularity | 70.6 |
+| momentum | 22.7 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 99.0 |

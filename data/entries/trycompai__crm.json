@@ -6,34 +6,34 @@
   "url": "https://github.com/trycompai/crm",
   "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
   "homepage": "https://trycrm.ai",
-  "stars": 11287,
-  "forks": 1617,
+  "stars": 11321,
+  "forks": 1623,
   "open_issues": 50,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-31T21:38:51Z",
-  "updated_at": "2026-10-14T08:49:38Z",
+  "updated_at": "2026-10-15T08:34:35Z",
   "pushed_at": "2026-09-11T07:06:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "release",
-  "age_days": 74,
-  "days_since_push": 33,
+  "age_days": 75,
+  "days_since_push": 34,
   "health_score": 52,
   "health_components": {
     "popularity": 81.1,
-    "momentum": 20.0,
+    "momentum": 20.8,
     "maintenance": 78.0,
     "documentation": 48.0,
     "accessibility": 10.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 120,
+    "stars_gained": 125,
     "days_span": 5,
-    "stars_per_day": 24.0,
-    "lifetime_stars_per_day": 152.53,
+    "stars_per_day": 25.0,
+    "lifetime_stars_per_day": 150.95,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -104,8 +104,8 @@
     },
     "highlights": [
       "Under Authorised redirect URIs, add http://localhost:3001/api/auth/callback/google.",
-      "Intelligence never lives in the API (docs/api.md).",
       "API permissions → Add a permission → Microsoft Graph → **Delegated",
+      "Intelligence never lives in the API (docs/api.md).",
       "Google Cloud console → Credentials → Create credentials → OAuth client ID → Web application."
     ],
     "summary_zh_native": "",
@@ -117,11 +117,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:32:53+00:00",
+  "fetched_at": "2026-10-15T09:10:37+00:00",
   "categories": [
-    "teams"
+    "billing"
   ],
-  "primary_category": "teams",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

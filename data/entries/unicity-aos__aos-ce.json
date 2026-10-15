@@ -8,22 +8,22 @@
   "homepage": "",
   "stars": 8461,
   "forks": 24,
-  "open_issues": 44,
+  "open_issues": 47,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2026-07-12T23:39:52Z",
-  "updated_at": "2026-10-14T09:15:14Z",
-  "pushed_at": "2026-10-14T09:15:50Z",
+  "updated_at": "2026-10-15T02:46:24Z",
+  "pushed_at": "2026-10-15T02:46:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 93,
+  "age_days": 94,
   "days_since_push": 0,
   "health_score": 75,
   "health_components": {
     "popularity": 78.5,
-    "momentum": 75.8,
+    "momentum": 75.0,
     "maintenance": 100.0,
     "documentation": 28.0,
     "accessibility": 90.0
@@ -31,15 +31,15 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 8461,
-    "days_span": 93,
-    "stars_per_day": 90.98,
-    "lifetime_stars_per_day": 90.98,
+    "days_span": 94,
+    "stars_per_day": 90.01,
+    "lifetime_stars_per_day": 90.01,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "unicity-aos/aos-ce",
-    "readme_chars": 9398,
+    "readme_chars": 9701,
     "capabilities": [
       "mcp-support",
       "security-isolation",
@@ -95,7 +95,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.106
+      "external_link_ratio": 0.103
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -107,7 +107,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:32:56+00:00",
+  "fetched_at": "2026-10-15T09:10:39+00:00",
   "categories": [
     "self-hosting-security"
   ],

@@ -36,13 +36,13 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 205,
-  "days_since_push": 7,
-  "health_score": 50,
+  "age_days": 206,
+  "days_since_push": 8,
+  "health_score": 48,
   "health_components": {
     "popularity": 48.8,
     "momentum": 0.2,
-    "maintenance": 100.0,
+    "maintenance": 92.0,
     "documentation": 36.0,
     "accessibility": 88.0
   },
@@ -51,7 +51,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.34,
+    "lifetime_stars_per_day": 1.33,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,7 +139,7 @@
       "The model provider you choose. Gateway points a session at Ollama, LM Studio, vLLM, OpenRouter or z.ai, applied as real process environment so the request goes straight from the CLI to your…",
       "A git client, not just a diff. Commit, publish, switch branches, undo the last unpushed commit, and open a pull request from the issue panel.",
       "Claude Code and Codex, first class.",
-      "GitHub and Linear over OAuth. Import a whole sprint onto the board, and push results back as comments."
+      "A worktree per issue. Generated branch names, uncommitted state in the status bar, setup and teardown scripts, and auto-cleanup when the issue completes."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -150,24 +150,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:33+00:00",
+  "fetched_at": "2026-10-15T09:12:02+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "desktop-ui",
-    "skills"
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 maxritter/pilot-shell 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "maxritter/pilot-shell",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "lanes-sh/app",
-      "challenger": "maxritter/pilot-shell",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "lanes-sh/app",
-      "challenger_name": "maxritter/pilot-shell",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -181,15 +181,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 7.62,
-      "momentum_ratio": 3.0,
-      "setup_delta": 0,
-      "dominance": 0.937,
+      "star_ratio": 122.427,
+      "momentum_ratio": 133.0,
+      "setup_delta": -10,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "7.62x the stars (2,088 vs 274)",
-        "3.00x the star velocity (0.6/day vs 0.2/day)",
-        "no harder to set up (12 vs 12 friction)"
+        "122.43x the stars (33,545 vs 274)",
+        "133.00x the star velocity (26.6/day vs 0.2/day)",
+        "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -204,20 +204,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
           "multi-agent-orchestration",
           "notifications",
           "parallel-execution",
+          "remote-control",
           "skills-plugins",
+          "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 50,
-        "challenger_health": 61,
+        "incumbent_health": 48,
+        "challenger_health": 73,
         "incumbent_setup_score": 12,
-        "challenger_setup_score": 12
+        "challenger_setup_score": 2
       }
     }
   }

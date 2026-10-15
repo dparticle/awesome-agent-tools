@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 367 |
-| Star velocity | 0.0/day (history basis, 6d span) |
+| Star velocity | 0.0/day (history basis, 7d span) |
 | Health score | 47/100 |
 | Documentation | 38/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-02 |
-| Last push | 2026-09-23 (21 days ago) |
+| Last push | 2026-09-23 (22 days ago) |
 | Analyzed README | 14,445 chars from `raw:HEAD/README.md` |
 
 ## What it solves

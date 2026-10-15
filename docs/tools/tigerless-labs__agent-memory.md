@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,577 |
-| Star velocity | 38.0/day (history basis, 5d span) |
-| Health score | 61/100 |
-| Documentation | 62/100 |
-| Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Stars | 3,708 |
+| Star velocity | 62.8/day (history basis, 5d span) |
+| Health score | 70/100 |
+| Documentation | 64/100 |
+| Tier | ✅ Recommended |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-01 |
-| Last push | 2026-10-13 (0 days ago) |
-| Analyzed README | 22,473 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
+| Last push | 2026-10-14 (0 days ago) |
+| Analyzed README | 26,011 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,19 +50,21 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 69/100)
+- **Difficulty:** 🟡 Some setup (friction score 43/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
+
+**Signals that make it easy:** native installer / package
 
 **Signals that add work:** git clone (build from source)
 
 **Configuration required:** API key configuration, database dependency, database migration
 
-*Involved setup. needs git clone (build from source); configure API key configuration, database dependency*
+*Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, database dependency*
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **64/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -81,11 +81,11 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.1 |
-| momentum | 31.7 |
+| popularity | 71.4 |
+| momentum | 52.3 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
-| accessibility | 31.0 |
+| documentation | 64.0 |
+| accessibility | 57.0 |
 
 ---
 

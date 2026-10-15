@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/BrowserSkill",
   "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
   "homepage": "",
-  "stars": 8842,
-  "forks": 634,
-  "open_issues": 97,
+  "stars": 8934,
+  "forks": 646,
+  "open_issues": 93,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -17,33 +17,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-06-22T07:24:40Z",
-  "updated_at": "2026-10-14T09:22:40Z",
-  "pushed_at": "2026-10-14T09:31:07Z",
+  "updated_at": "2026-10-15T08:55:20Z",
+  "pushed_at": "2026-10-15T02:34:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
+  "age_days": 115,
   "days_since_push": 0,
-  "health_score": 73,
+  "health_score": 74,
   "health_components": {
-    "popularity": 78.9,
-    "momentum": 56.5,
+    "popularity": 79.0,
+    "momentum": 62.8,
     "maintenance": 100.0,
-    "documentation": 56.0,
-    "accessibility": 72.0
+    "documentation": 57.0,
+    "accessibility": 66.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 339,
+    "stars_gained": 377,
     "days_span": 5,
-    "stars_per_day": 67.8,
-    "lifetime_stars_per_day": 77.56,
+    "stars_per_day": 75.4,
+    "lifetime_stars_per_day": 77.69,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Tencent/BrowserSkill",
-    "readme_chars": 20092,
+    "readme_chars": 22755,
     "capabilities": [
       "skills-plugins",
       "gui-desktop",
@@ -61,7 +61,7 @@
     },
     "friction": {
       "level": "low",
-      "score": 28,
+      "score": 34,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -75,6 +75,7 @@
       ],
       "config_signals": [
         "sign-in required",
+        "database migration",
         "process manager"
       ],
       "friendliness_signals": [],
@@ -84,10 +85,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, cargo build; configure sign-in required, process manager",
-      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 pnpm install/build、cargo build；需配置 sign-in required、process manager"
+      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, cargo build; configure sign-in required, database migration",
+      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 pnpm install/build、cargo build；需配置 sign-in required、database migration"
     },
-    "doc_score": 56,
+    "doc_score": 57,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -113,7 +114,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.348
+      "external_link_ratio": 0.308
     },
     "highlights": [],
     "summary_zh_native": "BrowserSkill 把你的 AI Agent 连接到 Chrome 或 Microsoft Edge，直接使用你已有的登录状态。",
@@ -130,11 +131,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:32:55+00:00",
+  "fetched_at": "2026-10-15T09:10:39+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui-2"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

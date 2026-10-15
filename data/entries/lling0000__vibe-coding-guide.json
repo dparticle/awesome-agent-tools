@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 161,
-  "days_since_push": 110,
+  "age_days": 162,
+  "days_since_push": 111,
   "health_score": 40,
   "health_components": {
     "popularity": 47.3,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 48.0,
     "accessibility": 70.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.45,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.44,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:41+00:00",
+  "fetched_at": "2026-10-15T09:12:12+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "analytics",
-    "skills"
+    "desktop-ui",
+    "remote-control-isolation"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (6/6).",
@@ -180,14 +180,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 8.961,
-      "momentum_ratio": 1.5,
+      "star_ratio": 8.974,
+      "momentum_ratio": 6.0,
       "setup_delta": -18,
-      "dominance": 0.85,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "8.96x the stars (2,088 vs 233)",
-        "1.50x the star velocity (0.6/day vs 0.4/day)",
+        "8.97x the stars (2,091 vs 233)",
+        "6.00x the star velocity (1.2/day vs 0.2/day)",
         "no harder to set up (12 vs 30 friction)"
       ],
       "reasons_zh": [],

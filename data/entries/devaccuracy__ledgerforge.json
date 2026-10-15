@@ -6,8 +6,8 @@
   "url": "https://github.com/devaccuracy/ledgerforge",
   "description": "The ledger for AI-native money movement. An open-source double-entry ledger for wallets, payouts, marketplaces and billing, with exact integer money, a verifiable audit chain, server-enforced spending limits and approvals for AI agents, and an MCP server. Apache 2.0.",
   "homepage": "https://ledgerforge.io",
-  "stars": 410,
-  "forks": 44,
+  "stars": 408,
+  "forks": 42,
   "open_issues": 0,
   "language": "Go",
   "license": "Apache-2.0",
@@ -21,16 +21,16 @@
     "wallet"
   ],
   "created_at": "2026-05-10T09:41:41Z",
-  "updated_at": "2026-10-13T09:05:32Z",
+  "updated_at": "2026-10-14T14:45:22Z",
   "pushed_at": "2026-10-10T09:36:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 156,
-  "days_since_push": 3,
+  "age_days": 157,
+  "days_since_push": 4,
   "health_score": 50,
   "health_components": {
-    "popularity": 52.3,
+    "popularity": 52.2,
     "momentum": 2.2,
     "maintenance": 100.0,
     "documentation": 55.0,
@@ -38,10 +38,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 410,
-    "days_span": 156,
-    "stars_per_day": 2.63,
-    "lifetime_stars_per_day": 2.63,
+    "stars_gained": 408,
+    "days_span": 157,
+    "stars_per_day": 2.6,
+    "lifetime_stars_per_day": 2.6,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,74 +131,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:16+00:00",
+  "fetched_at": "2026-10-15T09:11:48+00:00",
   "categories": [
-    "self-hosting-security",
-    "teams"
+    "billing",
+    "self-hosting-security"
   ],
-  "primary_category": "teams",
+  "primary_category": "billing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "msitarzewski/agency-agents",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "devaccuracy/ledgerforge",
-      "challenger": "msitarzewski/agency-agents",
-      "incumbent_name": "devaccuracy/ledgerforge",
-      "challenger_name": "msitarzewski/agency-agents",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "billing-metering",
-        "mcp-support",
-        "notifications",
-        "security-isolation"
-      ],
-      "star_ratio": 390.18,
-      "momentum_ratio": 118.175,
-      "setup_delta": -51,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "390.18x the stars (159,974 vs 410)",
-        "118.17x the star velocity (310.8/day vs 2.6/day)",
-        "no harder to set up (1 vs 52 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "billing-metering",
-          "mcp-support",
-          "notifications",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "team-collaboration",
-          "voice-input"
-        ],
-        "incumbent_health": 50,
-        "challenger_health": 98,
-        "incumbent_setup_score": 52,
-        "challenger_setup_score": 1
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

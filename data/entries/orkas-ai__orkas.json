@@ -6,9 +6,9 @@
   "url": "https://github.com/Orkas-AI/Orkas",
   "description": "Orkas is an open-source, local-first AI desktop app: a commander LLM directs specialist sub-agents, and runs your installed coding CLIs — Claude Code, Codex, OpenCode, OpenClaw, Hermes — as local sessions. Agents self-evolve via reflection and skill crystallization. BYO keys. macOS / Windows / Linux.",
   "homepage": "https://orkas.ai?source=gh-orkas",
-  "stars": 2176,
-  "forks": 90,
-  "open_issues": 10,
+  "stars": 2183,
+  "forks": 91,
+  "open_issues": 11,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,29 +34,29 @@
     "self-evolving-agents"
   ],
   "created_at": "2026-04-29T12:19:08Z",
-  "updated_at": "2026-10-14T07:57:57Z",
-  "pushed_at": "2026-10-14T01:16:00Z",
+  "updated_at": "2026-10-15T08:44:32Z",
+  "pushed_at": "2026-10-15T02:37:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 167,
+  "age_days": 168,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 66.8,
-    "momentum": 3.3,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 20,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 13.03,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 12.99,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Orkas-AI/Orkas",
@@ -174,13 +174,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:33:38+00:00",
+  "fetched_at": "2026-10-15T09:11:15+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "desktop-ui",
+    "desktop-ui-2",
+    "remote-control-isolation",
     "skills"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

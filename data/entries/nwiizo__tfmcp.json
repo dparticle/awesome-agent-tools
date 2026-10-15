@@ -6,7 +6,7 @@
   "url": "https://github.com/nwiizo/tfmcp",
   "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️",
   "homepage": "https://crates.io/crates/tfmcp",
-  "stars": 373,
+  "stars": 372,
   "forks": 31,
   "open_issues": 6,
   "language": "Rust",
@@ -17,28 +17,28 @@
     "terraform"
   ],
   "created_at": "2025-03-08T14:10:29Z",
-  "updated_at": "2026-10-03T08:48:35Z",
+  "updated_at": "2026-10-15T02:04:02Z",
   "pushed_at": "2026-10-08T13:25:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 584,
-  "days_since_push": 5,
+  "age_days": 585,
+  "days_since_push": 6,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
-    "momentum": 0.0,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 48.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_gained": 372,
+    "days_span": 585,
+    "stars_per_day": 0.64,
     "lifetime_stars_per_day": 0.64,
-    "basis": "history",
+    "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
@@ -134,26 +134,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:21+00:00",
+  "fetched_at": "2026-10-15T09:11:52+00:00",
   "categories": [
-    "desktop-ui",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "nwiizo/tfmcp",
-      "challenger": "affaan-m/ecc",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "nwiizo/tfmcp",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "gui-desktop",
@@ -162,15 +161,15 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 747.558,
-      "momentum_ratio": 12768.0,
-      "setup_delta": 5,
-      "dominance": 0.975,
+      "star_ratio": 79.253,
+      "momentum_ratio": 64.062,
+      "setup_delta": -20,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "747.56x the stars (278,839 vs 373)",
-        "12768.00x the star velocity (638.4/day vs 0.0/day)",
-        "slightly heavier setup (+5 friction, within tolerance)"
+        "79.25x the stars (29,482 vs 372)",
+        "64.06x the star velocity (41.0/day vs 0.6/day)",
+        "no harder to set up (32 vs 52 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -185,6 +184,7 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -192,17 +192,16 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "parallel-execution",
+          "quota-management",
           "security-isolation",
           "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "worktree-isolation"
+          "team-collaboration"
         ],
         "incumbent_health": 52,
-        "challenger_health": 89,
+        "challenger_health": 73,
         "incumbent_setup_score": 52,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 32
       }
     }
   }

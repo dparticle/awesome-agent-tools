@@ -6,9 +6,9 @@
   "url": "https://github.com/automagik-dev/genie",
   "description": "Wishes in, PRs out. CLI agent that interviews you, plans the work, dispatches parallel agents in isolated worktrees, and reviews code before you see it.",
   "homepage": "https://docs.automagik.dev/genie",
-  "stars": 346,
+  "stars": 347,
   "forks": 57,
-  "open_issues": 10,
+  "open_issues": 11,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,26 +34,26 @@
     "worktrees"
   ],
   "created_at": "2025-08-01T02:00:02Z",
-  "updated_at": "2026-10-09T22:58:44Z",
-  "pushed_at": "2026-10-10T10:59:11Z",
+  "updated_at": "2026-10-14T23:43:01Z",
+  "pushed_at": "2026-10-14T23:42:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 439,
-  "days_since_push": 3,
+  "age_days": 440,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 50.8,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.79,
     "basis": "history",
     "is_fast_riser": false
@@ -148,27 +148,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:22+00:00",
+  "fetched_at": "2026-10-15T09:11:53+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
     "desktop-ui",
-    "skills"
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 maxritter/pilot-shell 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "maxritter/pilot-shell",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "automagik-dev/genie",
-      "challenger": "maxritter/pilot-shell",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "automagik-dev/genie",
-      "challenger_name": "maxritter/pilot-shell",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -178,15 +178,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 6.035,
-      "momentum_ratio": 12.0,
-      "setup_delta": 8,
-      "dominance": 0.96,
+      "star_ratio": 96.671,
+      "momentum_ratio": 133.0,
+      "setup_delta": -2,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "6.03x the stars (2,088 vs 346)",
-        "12.00x the star velocity (0.6/day vs 0.0/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
+        "96.67x the stars (33,545 vs 347)",
+        "133.00x the star velocity (26.6/day vs 0.2/day)",
+        "no harder to set up (2 vs 4 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -200,20 +200,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
           "multi-agent-orchestration",
           "notifications",
           "parallel-execution",
+          "remote-control",
           "skills-plugins",
+          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 55,
-        "challenger_health": 61,
+        "challenger_health": 73,
         "incumbent_setup_score": 4,
-        "challenger_setup_score": 12
+        "challenger_setup_score": 2
       }
     }
   }

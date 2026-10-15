@@ -7,7 +7,7 @@
   "description": "CLI-first orchestration for AI coding agents: run selected agents and models in parallel, compare raw answers, and coordinate review or implementation workflows.",
   "homepage": "",
   "stars": 536,
-  "forks": 61,
+  "forks": 60,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -37,8 +37,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 230,
-  "days_since_push": 6,
+  "age_days": 231,
+  "days_since_push": 7,
   "health_score": 56,
   "health_components": {
     "popularity": 54.6,
@@ -52,7 +52,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.33,
+    "lifetime_stars_per_day": 2.32,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -143,12 +143,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:06+00:00",
+  "fetched_at": "2026-10-15T09:11:39+00:00",
   "categories": [
-    "agent-runtime-desktop-ui",
-    "skills"
+    "desktop-ui",
+    "desktop-ui-2",
+    "remote-control-isolation"
   ],
-  "primary_category": "agent-runtime-desktop-ui",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

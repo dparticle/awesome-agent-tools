@@ -6,7 +6,7 @@
   "url": "https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system",
   "description": "YALC 1.0, the open-source Clay alternative. MIT, CLI-first, self-hosted, runs in Claude Code. Yalc today is an intelligent orchestration layer that runs pre configured GTM agents on your existing tech stack (CRM, sequencer and call recorder) → yalc.ai",
   "homepage": "https://www.yalc.ai",
-  "stars": 318,
+  "stars": 319,
   "forks": 90,
   "open_issues": 8,
   "language": "TypeScript",
@@ -22,16 +22,16 @@
     "typescript"
   ],
   "created_at": "2026-01-04T10:21:22Z",
-  "updated_at": "2026-10-14T09:04:43Z",
+  "updated_at": "2026-10-14T22:33:05Z",
   "pushed_at": "2026-08-20T16:57:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 282,
-  "days_since_push": 54,
+  "age_days": 283,
+  "days_since_push": 55,
   "health_score": 46,
   "health_components": {
-    "popularity": 50.0,
+    "popularity": 50.1,
     "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 73.0,
@@ -144,10 +144,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:25+00:00",
+  "fetched_at": "2026-10-15T09:11:56+00:00",
   "categories": [
-    "self-hosting-security",
-    "skills"
+    "desktop-ui",
+    "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
@@ -172,14 +172,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 876.852,
-      "momentum_ratio": 3192.0,
+      "star_ratio": 877.009,
+      "momentum_ratio": 3572.0,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "876.85x the stars (278,839 vs 318)",
-        "3192.00x the star velocity (638.4/day vs 0.2/day)",
+        "877.01x the stars (279,766 vs 319)",
+        "3572.00x the star velocity (714.4/day vs 0.2/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],

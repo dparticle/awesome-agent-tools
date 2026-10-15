@@ -24,12 +24,12 @@
     "tavily"
   ],
   "created_at": "2025-03-08T17:54:53Z",
-  "updated_at": "2026-10-13T20:30:15Z",
-  "pushed_at": "2026-10-13T20:30:13Z",
+  "updated_at": "2026-10-14T20:01:13Z",
+  "pushed_at": "2026-10-14T20:01:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 584,
+  "age_days": 585,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
@@ -42,7 +42,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 356,
-    "days_span": 584,
+    "days_span": 585,
     "stars_per_day": 0.61,
     "lifetime_stars_per_day": 0.61,
     "basis": "lifetime",
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:22+00:00",
+  "fetched_at": "2026-10-15T09:11:52+00:00",
   "categories": [
     "self-hosting-security"
   ],
@@ -155,14 +155,14 @@
         "security-isolation",
         "self-hosted"
       ],
-      "star_ratio": 14.823,
-      "momentum_ratio": 123.607,
+      "star_ratio": 14.913,
+      "momentum_ratio": 117.049,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "14.82x the stars (5,277 vs 356)",
-        "123.61x the star velocity (75.4/day vs 0.6/day)",
+        "14.91x the stars (5,309 vs 356)",
+        "117.05x the star velocity (71.4/day vs 0.6/day)",
         "no harder to set up (21 vs 31 friction)"
       ],
       "reasons_zh": [],
@@ -184,7 +184,7 @@
           "skills-plugins"
         ],
         "incumbent_health": 53,
-        "challenger_health": 77,
+        "challenger_health": 76,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 21
       }

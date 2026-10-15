@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 486 |
-| Star velocity | 2.3/day (lifetime basis, 212d span) |
+| Stars | 487 |
+| Star velocity | 2.3/day (lifetime basis, 213d span) |
 | Health score | 57/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | C# |
 | Created | 2026-03-15 |
 | Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 31,683 chars from `raw:HEAD/README.md` |
+| Analyzed README | 31,851 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development)** — Superseded by data-goblin/power-bi-agentic-development: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -81,7 +83,7 @@ Score **64/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.7 |
+| popularity | 53.8 |
 | momentum | 1.9 |
 | maintenance | 100.0 |
 | documentation | 64.0 |

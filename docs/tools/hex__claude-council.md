@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 873 |
-| Star velocity | 4.0/day (history basis, 5d span) |
+| Stars | 878 |
+| Star velocity | 3.8/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-10-14 (0 days ago) |
 | Analyzed README | 8,208 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes)** — Superseded by rlaope/oh-my-hermes: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -64,8 +64,8 @@ Score **49/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.8 |
-| momentum | 3.3 |
+| popularity | 58.9 |
+| momentum | 3.2 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
 | accessibility | 58.0 |

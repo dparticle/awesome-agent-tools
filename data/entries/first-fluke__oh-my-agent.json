@@ -1,0 +1,205 @@
+{
+  "schema": 1,
+  "full_name": "first-fluke/oh-my-agent",
+  "name": "oh-my-agent",
+  "owner": "first-fluke",
+  "url": "https://github.com/first-fluke/oh-my-agent",
+  "description": "A specialist team for the coding agent you already use: 12 roles, 21 workflows and 33 skills that plan, build in parallel, review and debug, leaving plans, ADRs and results as files. Gates wait for your own tests. Also research, slides and video. One .agents/ folder for Claude Code, Codex, Cursor and 11 more.",
+  "homepage": "https://firstfluke.com/oh-my-agent/",
+  "stars": 1344,
+  "forks": 151,
+  "open_issues": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-harness",
+    "agent-orchestration",
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "claude-code-hooks",
+    "cli",
+    "codex",
+    "cursor",
+    "developer-tools",
+    "github-copilot",
+    "multi-agent",
+    "opencode",
+    "slash-commands"
+  ],
+  "created_at": "2026-01-30T11:29:46Z",
+  "updated_at": "2026-10-15T06:24:17Z",
+  "pushed_at": "2026-10-15T06:07:08Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 257,
+  "days_since_push": 0,
+  "health_score": 58,
+  "health_components": {
+    "popularity": 62.6,
+    "momentum": 4.4,
+    "maintenance": 100.0,
+    "documentation": 69.0,
+    "accessibility": 70.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1344,
+    "days_span": 257,
+    "stars_per_day": 5.23,
+    "lifetime_stars_per_day": 5.23,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "first-fluke/oh-my-agent",
+    "readme_chars": 50961,
+    "capabilities": [
+      "quota-management",
+      "remote-control",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "",
+      "remote-control": "l (telemetry), and ~/.gemini/antigravity-cli/ (HUD), each only for a vendor you selected.",
+      "mobile-access": "ference-guided variations, and can compare AI vendors side by side.",
+      "multi-agent-orchestration": "nt runtimes to wire up, capability providers, a browser MCP, a model preset, and a skill preset.",
+      "parallel-execution": "",
+      "worktree-isolation": "e wires is in Host differences.",
+      "model-routing": "",
+      "api-gateway": "",
+      "session-persistence": "a-pm* Plans tasks, breaks down requirements, and defines API contracts.",
+      "memory-context": "",
+      "skills-plugins": "P installs through bash, so deselect it if you have no bash.",
+      "agent-runtime": "# oh-my-agent: A Specialist Team for the Coding Agent You Already Use",
+      "mcp-support": "he default Aside browser MCP installs through bash, so deselect it if you have no bash.",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "remote-control": 1,
+      "mobile-access": 1,
+      "multi-agent-orchestration": 11,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "skills-plugins": 5,
+      "agent-runtime": 2,
+      "mcp-support": 10,
+      "gui-desktop": 1,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "config file",
+        "config.json/yaml/toml",
+        "sign-in required",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "no-code positioning"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via Homebrew install, curl | sh installer; needs npm install/build; configure config file, config.json/yaml/toml; no-code positioning",
+      "note_zh": "较易上手。可通过 Homebrew install、curl | sh installer 安装；需要 npm install/build；需配置 config file、config.json/yaml/toml；no-code positioning"
+    },
+    "doc_score": 69,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Qwen Code"
+    ],
+    "summary_en": "한국어 | 中文 | Português | 日本語 | Français | Español | Nederlands | Polski | Русский | Deutsch | Tiếng Việt | ภาษาไทย",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/first-fluke/oh-my-agent/main/cli/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.314
+    },
+    "highlights": [
+      "oma dashboard terminal / oma dashboard web: live agent status (the web dashboard listens on 127.0.0.1 only).",
+      "mixed uses Claude for orchestrator, architecture, QA, PM, and docs, and Codex gpt-5.5 for implementation roles, so it needs both Claude Code and Codex CLI.",
+      "Orca IDE: OMA for Orca adds a sidebar panel and command-palette actions (Orca 1.4.197+ with experimental plugins).",
+      "13 project rules (backend, commit, database, debug, design, and more) load as native rules in Claude Code and Cursor, and are indexed in the managed AGENTS.md block written for Codex, Qwen…"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-15T09:11:22+00:00",
+  "categories": [
+    "desktop-ui",
+    "remote-control-isolation",
+    "sessions"
+  ],
+  "primary_category": "remote-control-isolation",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

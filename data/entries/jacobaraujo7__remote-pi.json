@@ -6,8 +6,8 @@
   "url": "https://github.com/jacobaraujo7/remote_pi",
   "description": "Control your Pi coding agent from your phone. Pair with a one-time QR code and chat with your local agent, even when you're away from your computer.",
   "homepage": "https://cockpit.jacobmoura.work",
-  "stars": 443,
-  "forks": 127,
+  "stars": 449,
+  "forks": 128,
   "open_issues": 73,
   "language": "Dart",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "rust"
   ],
   "created_at": "2026-05-22T04:59:59Z",
-  "updated_at": "2026-10-14T04:18:54Z",
+  "updated_at": "2026-10-15T07:38:14Z",
   "pushed_at": "2026-10-11T04:01:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 145,
-  "days_since_push": 3,
+  "age_days": 146,
+  "days_since_push": 4,
   "health_score": 50,
   "health_components": {
-    "popularity": 52.9,
-    "momentum": 1.5,
+    "popularity": 53.0,
+    "momentum": 1.8,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 3.06,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 3.08,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -119,11 +119,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:12+00:00",
+  "fetched_at": "2026-10-15T09:11:44+00:00",
   "categories": [
-    "mobile-2",
-    "skills",
-    "voice-remote-control"
+    "desktop-ui",
+    "desktop-ui-2",
+    "mobile-2"
   ],
   "primary_category": "mobile-2",
   "lifecycle": {

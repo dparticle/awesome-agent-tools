@@ -7,7 +7,7 @@
   "description": "A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards.",
   "homepage": "",
   "stars": 446,
-  "forks": 147,
+  "forks": 148,
   "open_issues": 26,
   "language": "TypeScript",
   "license": "MIT",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 648,
-  "days_since_push": 20,
+  "age_days": 649,
+  "days_since_push": 21,
   "health_score": 51,
   "health_components": {
     "popularity": 53.0,
@@ -127,11 +127,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-14T09:34:12+00:00",
+  "fetched_at": "2026-10-15T09:11:44+00:00",
   "categories": [
-    "self-hosting-security"
+    "providers"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "providers",
   "lifecycle": {
     "state": "active",
     "note_en": "",
