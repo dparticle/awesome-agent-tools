@@ -2,7 +2,7 @@
 
 # CatCatUncle/openworkbuddy
 
-> 交代一句话，它自己规划、动手、验收，把 PPT / Word / Excel / 网页落到你硬盘上。
+> 给经常做周报、PPT、表格和文档的人，也给需要自托管的团队。
 
 [Repository](https://github.com/CatCatUncle/openworkbuddy) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 318 |
-| Star velocity | 7.0/day (history basis, 5d span) |
-| Health score | 51/100 |
-| Documentation | 52/100 |
+| Stars | 324 |
+| Star velocity | 7.6/day (history basis, 5d span) |
+| Health score | 53/100 |
+| Documentation | 60/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
-| Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 15,961 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 17,094 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -50,17 +50,17 @@
 
 ### Security & isolation
 
-### Self-hostable
+> 10-15 顶栏新增收件箱：待审批和待答复优先，接着是出错、运行中和未读任务；独立定时任务的完成结果也会出现，点开可看完整执行过程
 
-> 未经许可删改版权声明，还可能单独构成侵权——依据和判例见 未授权商用的法律后果。
+### Self-hostable
 
 ### GUI / desktop app
 
-> 验收、记忆、权限、本地 Trace 全在同一个仓库里：一条真实任务，从它为什么这么做到最后交了什么，你都看得见。
+> 前置条件：一台能运行应用的电脑，以及一个可用的模型服务、已安装的本地模型或已登录的本机 CLI。
 
 ### Notifications
 
-> 册能直接填邮箱：自动取 @ 前面那段当用户名，登录时填邮箱也认；注册失败不再算进限流，填错不会被锁
+> 或任务报上游错误 核对服务商的 API 地址、型号、Key 和额度，见 模型配置
 
 ### Cross-agent support
 
@@ -68,25 +68,25 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 37/100)
+- **Difficulty:** 🟡 Some setup (friction score 45/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
-- **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/CatCatUncle/openworkbuddy/main/install-mac.sh | bash`
+- **Non-programmer friendly:** yes
 
-**Signals that make it easy:** curl | sh installer, native installer / package
+**Signals that make it easy:** native installer / package
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, config.json/yaml/toml
+**Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow
 
-*Some setup. install via curl | sh installer, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml*
+*Some setup. install via native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml; GUI application*
 
 ## Documentation quality
 
-Score **52/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
+- has a quick-start section
 - documents installation
 - documents configuration
 - has contribution guidance
@@ -100,10 +100,10 @@ Score **52/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.0 |
-| momentum | 5.8 |
+| popularity | 50.2 |
+| momentum | 6.3 |
 | maintenance | 100.0 |
-| documentation | 52.0 |
+| documentation | 60.0 |
 | accessibility | 63.0 |
 
 ---

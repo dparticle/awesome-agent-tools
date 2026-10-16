@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 113,
-  "days_since_push": 0,
+  "age_days": 114,
+  "days_since_push": 1,
   "health_score": 48,
   "health_components": {
     "popularity": 52.8,
@@ -38,7 +38,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.86,
+    "lifetime_stars_per_day": 3.82,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -147,92 +147,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:45+00:00",
+  "fetched_at": "2026-10-16T09:05:06+00:00",
   "categories": [
     "analytics",
-    "remote-control-isolation",
-    "sessions"
+    "desktop-ui",
+    "teams"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (12/12).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (12/12)。",
-    "superseded_by": "paperclipai/paperclip",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "deepagent-ltd/deepagent-code",
-      "challenger": "paperclipai/paperclip",
-      "incumbent_name": "deepagent-ltd/deepagent-code",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "gui-desktop",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration",
-        "notifications",
-        "security-isolation",
-        "session-persistence",
-        "skills-plugins",
-        "team-collaboration",
-        "worktree-isolation"
-      ],
-      "star_ratio": 234.752,
-      "momentum_ratio": 11640.0,
-      "setup_delta": -11,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (12/12)",
-        "234.75x the stars (102,352 vs 436)",
-        "11640.00x the star velocity (582.0/day vs 0.0/day)",
-        "no harder to set up (45 vs 56 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 48,
-        "challenger_health": 89,
-        "incumbent_setup_score": 56,
-        "challenger_setup_score": 45
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

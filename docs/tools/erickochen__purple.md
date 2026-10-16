@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-02-19 |
-| Last push | 2026-10-12 (2 days ago) |
+| Last push | 2026-10-12 (3 days ago) |
 | Analyzed README | 9,683 chars from `raw:HEAD/README.md` |
 
 ## What it solves

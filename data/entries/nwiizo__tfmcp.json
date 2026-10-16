@@ -8,7 +8,7 @@
   "homepage": "https://crates.io/crates/tfmcp",
   "stars": 372,
   "forks": 31,
-  "open_issues": 6,
+  "open_issues": 7,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -18,12 +18,12 @@
   ],
   "created_at": "2025-03-08T14:10:29Z",
   "updated_at": "2026-10-15T02:04:02Z",
-  "pushed_at": "2026-10-08T13:25:53Z",
+  "pushed_at": "2026-10-15T13:24:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 585,
-  "days_since_push": 6,
+  "age_days": 586,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -35,9 +35,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 372,
-    "days_span": 585,
-    "stars_per_day": 0.64,
-    "lifetime_stars_per_day": 0.64,
+    "days_span": 586,
+    "stars_per_day": 0.63,
+    "lifetime_stars_per_day": 0.63,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -134,22 +134,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:52+00:00",
+  "fetched_at": "2026-10-16T09:05:12+00:00",
   "categories": [
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by aipoch/open-science: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 aipoch/open-science 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "aipoch/open-science",
     "challenger": "",
     "supersede": {
       "incumbent": "nwiizo/tfmcp",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "aipoch/open-science",
       "incumbent_name": "nwiizo/tfmcp",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "aipoch/open-science",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -161,15 +161,15 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 79.253,
-      "momentum_ratio": 64.062,
-      "setup_delta": -20,
+      "star_ratio": 13.245,
+      "momentum_ratio": 74.476,
+      "setup_delta": -17,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "79.25x the stars (29,482 vs 372)",
-        "64.06x the star velocity (41.0/day vs 0.6/day)",
-        "no harder to set up (32 vs 52 friction)"
+        "13.24x the stars (4,927 vs 372)",
+        "74.48x the star velocity (46.9/day vs 0.6/day)",
+        "no harder to set up (35 vs 52 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,27 +181,19 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
           "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
+          "remote-control",
           "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
+          "skills-plugins"
         ],
         "incumbent_health": 52,
-        "challenger_health": 73,
+        "challenger_health": 71,
         "incumbent_setup_score": 52,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 35
       }
     }
   }

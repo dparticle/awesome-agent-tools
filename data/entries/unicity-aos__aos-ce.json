@@ -13,17 +13,17 @@
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2026-07-12T23:39:52Z",
-  "updated_at": "2026-10-15T02:46:24Z",
-  "pushed_at": "2026-10-15T02:46:22Z",
+  "updated_at": "2026-10-15T11:56:43Z",
+  "pushed_at": "2026-10-15T11:57:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 94,
+  "age_days": 95,
   "days_since_push": 0,
   "health_score": 75,
   "health_components": {
     "popularity": 78.5,
-    "momentum": 75.0,
+    "momentum": 74.2,
     "maintenance": 100.0,
     "documentation": 28.0,
     "accessibility": 90.0
@@ -31,9 +31,9 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 8461,
-    "days_span": 94,
-    "stars_per_day": 90.01,
-    "lifetime_stars_per_day": 90.01,
+    "days_span": 95,
+    "stars_per_day": 89.06,
+    "lifetime_stars_per_day": 89.06,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -107,7 +107,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:39+00:00",
+  "fetched_at": "2026-10-16T09:03:59+00:00",
   "categories": [
     "self-hosting-security"
   ],

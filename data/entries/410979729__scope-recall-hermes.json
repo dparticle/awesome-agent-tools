@@ -6,9 +6,9 @@
   "url": "https://github.com/410979729/scope-recall-hermes",
   "description": "Local long-term memory for Hermes, Codex, Claude Code, WorkBuddy and dsh agents: one SQLite store, source-backed recall, and tools to inspect, correct or delete what is remembered.",
   "homepage": "",
-  "stars": 338,
+  "stars": 366,
   "forks": 38,
-  "open_issues": 3,
+  "open_issues": 4,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -33,33 +33,33 @@
     "vector-search"
   ],
   "created_at": "2026-05-15T10:56:00Z",
-  "updated_at": "2026-10-15T09:00:11Z",
-  "pushed_at": "2026-10-14T10:54:03Z",
+  "updated_at": "2026-10-16T08:36:25Z",
+  "pushed_at": "2026-10-16T01:19:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 152,
+  "age_days": 153,
   "days_since_push": 0,
-  "health_score": 49,
+  "health_score": 50,
   "health_components": {
-    "popularity": 50.6,
-    "momentum": 1.9,
+    "popularity": 51.3,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 76.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 338,
-    "days_span": 152,
-    "stars_per_day": 2.22,
-    "lifetime_stars_per_day": 2.22,
+    "stars_gained": 366,
+    "days_span": 153,
+    "stars_per_day": 2.39,
+    "lifetime_stars_per_day": 2.39,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "410979729/scope-recall-hermes",
-    "readme_chars": 14284,
+    "readme_chars": 14417,
     "capabilities": [
       "mcp-support",
       "gui-desktop",
@@ -120,7 +120,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.28
+      "external_link_ratio": 0.277
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -132,11 +132,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:54+00:00",
+  "fetched_at": "2026-10-16T09:05:12+00:00",
   "categories": [
-    "self-hosting-security"
+    "analytics"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

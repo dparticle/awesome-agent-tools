@@ -6,40 +6,40 @@
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
   "homepage": "",
-  "stars": 9321,
-  "forks": 661,
-  "open_issues": 9,
+  "stars": 9473,
+  "forks": 675,
+  "open_issues": 3,
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-21T23:23:51Z",
-  "updated_at": "2026-10-15T08:32:25Z",
-  "pushed_at": "2026-10-15T06:09:08Z",
+  "updated_at": "2026-10-16T09:00:11Z",
+  "pushed_at": "2026-10-16T06:58:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
+  "age_days": 147,
   "days_since_push": 0,
-  "health_score": 67,
+  "health_score": 73,
   "health_components": {
-    "popularity": 79.4,
-    "momentum": 37.2,
+    "popularity": 79.5,
+    "momentum": 56.8,
     "maintenance": 100.0,
     "documentation": 67.0,
-    "accessibility": 45.0
+    "accessibility": 54.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 223,
+    "stars_gained": 341,
     "days_span": 5,
-    "stars_per_day": 44.6,
-    "lifetime_stars_per_day": 63.84,
+    "stars_per_day": 68.2,
+    "lifetime_stars_per_day": 64.44,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "akitaonrails/ai-memory",
-    "readme_chars": 38514,
+    "readme_chars": 41404,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -60,7 +60,7 @@
       "memory-context": "> Long-term memory for AI coding agents.",
       "skills-plugins": "",
       "agent-runtime": "> Long-term memory for AI coding agents.",
-      "mcp-support": "links ~/.local/bin/ai-memory.",
+      "mcp-support": "--features management-ui and start serve --transport http",
       "security-isolation": "",
       "team-collaboration": "chable, such as a homelab box or a LAN host, and",
       "gui-desktop": "nstalls use /var/lib/ai-memory and /etc/ai-memory/ via the",
@@ -73,7 +73,7 @@
       "memory-context": 3,
       "skills-plugins": 1,
       "agent-runtime": 2,
-      "mcp-support": 8,
+      "mcp-support": 9,
       "security-isolation": 2,
       "team-collaboration": 3,
       "gui-desktop": 2,
@@ -81,11 +81,12 @@
     },
     "friction": {
       "level": "moderate",
-      "score": 55,
+      "score": 46,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "curl | sh installer",
+        "PowerShell irm | iex installer",
         "native installer / package"
       ],
       "hard_signals": [
@@ -110,8 +111,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml",
-      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 docker run、git clone (build from source)；需配置 environment variables、config.json/yaml/toml"
+      "note_en": "Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 docker run、git clone (build from source)；需配置 environment variables、config.json/yaml/toml"
     },
     "doc_score": 67,
     "doc_signals": [
@@ -145,7 +146,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.364
+      "external_link_ratio": 0.338
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -157,9 +158,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:07+00:00",
+  "fetched_at": "2026-10-16T09:04:26+00:00",
   "categories": [
-    "self-hosting-security",
+    "analytics",
     "skills",
     "teams"
   ],

@@ -6,8 +6,8 @@
   "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
   "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
   "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
-  "stars": 5619,
-  "forks": 371,
+  "stars": 5802,
+  "forks": 372,
   "open_issues": 2,
   "language": "Shell",
   "license": "MIT",
@@ -34,16 +34,16 @@
     "seo-mcp-server"
   ],
   "created_at": "2026-08-29T23:37:01Z",
-  "updated_at": "2026-10-15T09:08:43Z",
+  "updated_at": "2026-10-16T08:54:26Z",
   "pushed_at": "2026-10-13T03:37:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 46,
-  "days_since_push": 2,
+  "age_days": 47,
+  "days_since_push": 3,
   "health_score": 78,
   "health_components": {
-    "popularity": 75.0,
+    "popularity": 75.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 43.0,
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 938,
+    "stars_gained": 1070,
     "days_span": 5,
-    "stars_per_day": 187.6,
-    "lifetime_stars_per_day": 122.15,
+    "stars_per_day": 214.0,
+    "lifetime_stars_per_day": 123.45,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,73 +133,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:44+00:00",
+  "fetched_at": "2026-10-16T09:04:03+00:00",
   "categories": [
-    "self-hosting-security"
+    "analytics"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "ryze-ai-adgent/open-seo-mcp-skills",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "Ryze-AI-Adgent/open-seo-mcp-skills",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "model-routing",
-        "skills-plugins"
-      ],
-      "star_ratio": 49.789,
-      "momentum_ratio": 3.808,
-      "setup_delta": 7,
-      "dominance": 0.931,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "49.79x the stars (279,766 vs 5,619)",
-        "3.81x the star velocity (714.4/day vs 187.6/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "model-routing",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 78,
-        "challenger_health": 89,
-        "incumbent_setup_score": 50,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "full_name": "Licoy/Quosparr",
+  "name": "Quosparr",
+  "owner": "Licoy",
+  "url": "https://github.com/Licoy/Quosparr",
+  "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude Code and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude Code、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
+  "homepage": "https://quosparr.com",
+  "stars": 291,
+  "forks": 17,
+  "open_issues": 0,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "topics": [
+    "anthropic",
+    "chatgpt",
+    "claude-code",
+    "codex-reset",
+    "developer-tools",
+    "grok",
+    "grok-build",
+    "linux",
+    "macos",
+    "menu-bar",
+    "openai",
+    "openai-codex",
+    "productivity",
+    "quota-monitor",
+    "statusbar",
+    "system-tray",
+    "windows"
+  ],
+  "created_at": "2026-06-29T00:39:56Z",
+  "updated_at": "2026-10-16T07:25:00Z",
+  "pushed_at": "2026-10-16T02:14:24Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 109,
+  "days_since_push": 0,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 49.3,
+    "momentum": 2.2,
+    "maintenance": 100.0,
+    "documentation": 52.0,
+    "accessibility": 54.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 291,
+    "days_span": 109,
+    "stars_per_day": 2.67,
+    "lifetime_stars_per_day": 2.67,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Licoy/Quosparr",
+    "readme_chars": 16568,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "model-routing",
+      "billing-metering",
+      "usage-analytics",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "atomically; Windows uses an ACL that only the current user can access).",
+      "quota-management": "",
+      "model-routing": "er sign-in, import local auth.json, paste token / JSON (including /auth/session), import files, or add an API key.",
+      "billing-metering": "epair of the local session index.",
+      "usage-analytics": "d whether it stays above full-screen apps are configurable.",
+      "mcp-support": "- On macOS the official credential stays in the Keychain and is read and written through /usr/bin/security.",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "quota-management": 2,
+      "model-routing": 5,
+      "billing-metering": 2,
+      "usage-analytics": 1,
+      "mcp-support": 2,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 46,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "go build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs go build; configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 go build；需配置 API key configuration、config.json/yaml/toml"
+    },
+    "doc_score": 52,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "English · 简体中文 · 繁體中文 · 한국어 · 日本語 · Русский · Français",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://x.ai/cli/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.362
+    },
+    "highlights": [
+      "Local token usage, API-equivalent cost (anthropic-builtin-2026-10-14), recent sessions, and output speed from Claude Code session logs.",
+      "Claude API-equivalent cost: local Claude Code session logs priced with anthropic-builtin-2026-10-14.",
+      "Claude Code subscription usage for the 5-hour window, the 7-day window, per-model weekly windows, and extra usage.",
+      "Remaining quota for the 5-hour, weekly, and additional windows, plus the current account, subscription tier, and expiration."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-16T09:05:20+00:00",
+  "categories": [
+    "analytics-2",
+    "billing",
+    "sharing"
+  ],
+  "primary_category": "sharing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

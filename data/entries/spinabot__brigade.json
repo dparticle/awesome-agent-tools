@@ -6,9 +6,9 @@
   "url": "https://github.com/spinabot/brigade",
   "description": "Brigade — Your personal intelligence, built enterprise-grade",
   "homepage": "https://www.brigade.spinabot.com",
-  "stars": 11331,
-  "forks": 82,
-  "open_issues": 37,
+  "stars": 11335,
+  "forks": 87,
+  "open_issues": 38,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "spinabot"
   ],
   "created_at": "2026-06-19T15:18:17Z",
-  "updated_at": "2026-10-15T08:29:10Z",
-  "pushed_at": "2026-10-12T03:30:08Z",
+  "updated_at": "2026-10-16T05:00:21Z",
+  "pushed_at": "2026-10-16T01:13:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 117,
-  "days_since_push": 3,
+  "age_days": 118,
+  "days_since_push": 0,
   "health_score": 61,
   "health_components": {
     "popularity": 81.1,
-    "momentum": 3.5,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 4.2,
-    "lifetime_stars_per_day": 96.85,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 96.06,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -193,13 +193,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:37+00:00",
+  "fetched_at": "2026-10-16T09:03:56+00:00",
   "categories": [
     "analytics",
-    "remote-control-isolation",
+    "desktop-ui",
     "self-hosting-security"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

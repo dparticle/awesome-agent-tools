@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2026-06-30 |
-| Last push | 2026-07-14 (92 days ago) |
+| Last push | 2026-07-14 (93 days ago) |
 | Analyzed README | 15,078 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [numman-ali/n-skills](https://github.com/numman-ali/n-skills)** — Superseded by numman-ali/n-skills: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).
 
 ## What it solves
 

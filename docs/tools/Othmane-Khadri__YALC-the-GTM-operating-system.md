@@ -17,14 +17,12 @@
 | Health score | 46/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-01-04 |
-| Last push | 2026-08-20 (55 days ago) |
+| Last push | 2026-08-20 (56 days ago) |
 | Analyzed README | 23,203 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
 
 ## What it solves
 

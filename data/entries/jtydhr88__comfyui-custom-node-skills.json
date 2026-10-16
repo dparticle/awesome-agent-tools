@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 223,
-  "days_since_push": 0,
+  "age_days": 224,
+  "days_since_push": 1,
   "health_score": 45,
   "health_components": {
     "popularity": 49.5,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 32.0,
     "accessibility": 50.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.34,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 1.33,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -117,24 +117,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:12:00+00:00",
+  "fetched_at": "2026-10-16T09:05:20+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "sessions"
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
+    "note_en": "Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 EverMind-AI/Raven 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "EverMind-AI/Raven",
     "challenger": "",
     "supersede": {
       "incumbent": "jtydhr88/comfyui-custom-node-skills",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
+      "challenger": "evermind-ai/raven",
       "incumbent_name": "jtydhr88/comfyui-custom-node-skills",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
+      "challenger_name": "EverMind-AI/Raven",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -145,15 +144,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.866,
-      "momentum_ratio": 8.575,
-      "setup_delta": -29,
-      "dominance": 0.99,
+      "star_ratio": 18.356,
+      "momentum_ratio": 31.667,
+      "setup_delta": -37,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.87x the stars (854 vs 298)",
-        "8.57x the star velocity (3.4/day vs 0.4/day)",
-        "no harder to set up (21 vs 50 friction)"
+        "18.36x the stars (5,470 vs 298)",
+        "31.67x the star velocity (19.0/day vs 0.6/day)",
+        "no harder to set up (13 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -164,19 +163,20 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
-          "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
+          "self-hosted",
           "skills-plugins"
         ],
         "incumbent_health": 45,
-        "challenger_health": 58,
+        "challenger_health": 67,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 13
       }
     }
   }

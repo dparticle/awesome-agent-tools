@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,616 |
-| Star velocity | 1936.0/day (lifetime basis, 6d span) |
-| Health score | 83/100 |
-| Documentation | 57/100 |
+| Stars | 13,351 |
+| Star velocity | 1907.3/day (lifetime basis, 7d span) |
+| Health score | 84/100 |
+| Documentation | 58/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-10-08 |
-| Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 24,666 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-15 (0 days ago) |
+| Analyzed README | 25,606 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -51,7 +51,7 @@
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **58/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -68,10 +68,10 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.3 |
+| popularity | 82.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 57.0 |
+| documentation | 58.0 |
 | accessibility | 60.0 |
 
 ---

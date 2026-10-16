@@ -6,8 +6,8 @@
   "url": "https://github.com/CatCatUncle/openworkbuddy",
   "description": "Open-source Claude Cowork / Codex alternative — a local-first AI office agent that turns one request into real PPTX, DOCX, XLSX and HTML files. Runs DeepSeek, Qwen, Doubao, Claude or Ollama (BYOK), MCP, and can drive Claude Code / Codex CLI. 开源 AI 办公助理，豆包办公 / 千问办公替代。",
   "homepage": "https://catcatuncle.github.io/openworkbuddy/",
-  "stars": 318,
-  "forks": 69,
+  "stars": 324,
+  "forks": 70,
   "open_issues": 9,
   "language": "JavaScript",
   "license": "NOASSERTION",
@@ -32,33 +32,33 @@
     "short-drama"
   ],
   "created_at": "2026-08-10T08:18:25Z",
-  "updated_at": "2026-10-15T08:04:25Z",
-  "pushed_at": "2026-10-14T19:39:05Z",
+  "updated_at": "2026-10-16T08:53:41Z",
+  "pushed_at": "2026-10-16T08:53:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 66,
+  "age_days": 67,
   "days_since_push": 0,
-  "health_score": 51,
+  "health_score": 53,
   "health_components": {
-    "popularity": 50.0,
-    "momentum": 5.8,
+    "popularity": 50.2,
+    "momentum": 6.3,
     "maintenance": 100.0,
-    "documentation": 52.0,
+    "documentation": 60.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 35,
+    "stars_gained": 38,
     "days_span": 5,
-    "stars_per_day": 7.0,
-    "lifetime_stars_per_day": 4.82,
+    "stars_per_day": 7.6,
+    "lifetime_stars_per_day": 4.84,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CatCatUncle/openworkbuddy",
-    "readme_chars": 15961,
+    "readme_chars": 17094,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -81,10 +81,10 @@
       "worktree-isolation": "公众号、群机器人和邮箱：消息按本人跑，结果只推给本人",
       "api-gateway": "",
       "mcp-support": "agent 主循环怎么转的 参与贡献 项目结构、测试、提 PR",
-      "security-isolation": "",
-      "self-hosted": "未经许可删改版权声明，还可能单独构成侵权——依据和判例见 未授权商用的法律后果。",
-      "gui-desktop": "验收、记忆、权限、本地 Trace 全在同一个仓库里：一条真实任务，从它为什么这么做到最后交了什么，你都看得见。",
-      "notifications": "册能直接填邮箱：自动取 @ 前面那段当用户名，登录时填邮箱也认；注册失败不再算进限流，填错不会被锁",
+      "security-isolation": "10-15 顶栏新增收件箱：待审批和待答复优先，接着是出错、运行中和未读任务；独立定时任务的完成结果也会出现，点开可看完整执行过程",
+      "self-hosted": "",
+      "gui-desktop": "前置条件：一台能运行应用的电脑，以及一个可用的模型服务、已安装的本地模型或已登录的本机 CLI。",
+      "notifications": "或任务报上游错误 核对服务商的 API 地址、型号、Key 和额度，见 模型配置",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
@@ -95,19 +95,18 @@
       "worktree-isolation": 2,
       "api-gateway": 1,
       "mcp-support": 1,
-      "security-isolation": 1,
+      "security-isolation": 3,
       "self-hosted": 1,
-      "gui-desktop": 2,
-      "notifications": 2,
+      "gui-desktop": 4,
+      "notifications": 1,
       "cross-agent-support": 2
     },
     "friction": {
       "level": "moderate",
-      "score": 37,
+      "score": 45,
       "out_of_the_box": false,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [
-        "curl | sh installer",
         "native installer / package"
       ],
       "hard_signals": [
@@ -116,20 +115,25 @@
       ],
       "config_signals": [
         "API key configuration",
-        "config.json/yaml/toml"
+        "config.json/yaml/toml",
+        "OAuth login flow"
       ],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
       "platforms": [
         "macOS",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
-      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml",
-      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、config.json/yaml/toml"
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml; GUI application",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、config.json/yaml/toml；GUI application"
     },
-    "doc_score": 52,
+    "doc_score": 60,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
+      "has a quick-start section",
       "documents installation",
       "documents configuration",
       "has contribution guidance",
@@ -143,9 +147,9 @@
       "Claude Code",
       "Codex"
     ],
-    "summary_en": "交代一句话，它自己规划、动手、验收，把 PPT / Word / Excel / 网页落到你硬盘上。",
+    "summary_en": "给经常做周报、PPT、表格和文档的人，也给需要自托管的团队。",
     "summary_zh": "",
-    "install_hint": "curl -fsSL https://raw.githubusercontent.com/CatCatUncle/openworkbuddy/main/install-mac.sh | bash",
+    "install_hint": "",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
@@ -153,13 +157,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.627
+      "external_link_ratio": 1.053
     },
     "highlights": [
       "10-13 「本机/内网放行」支持通配符：192.168.1.: 放一整个网段，*.local:8080 放一类主机名",
       "10-12 本机 Codex / Claude Code 读得到随消息传的文件了：粘贴的文字、图和文档都附上完整路径，不再只收到文件名",
       "10-13 注册能直接填邮箱：自动取 @ 前面那段当用户名，登录时填邮箱也认；注册失败不再算进限流，填错不会被锁",
-      "toolward —— 给 agent 用的技能 / MCP 连接器静态安检：37 条规则分六族，零运行时依赖。"
+      "10-16 OAuth 第二期：HTTP 连接器在服务商页面授权，令牌自动刷新，可移除本机授权"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -170,13 +174,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:57+00:00",
+  "fetched_at": "2026-10-16T09:05:15+00:00",
   "categories": [
     "remote-control-isolation",
     "self-hosting-security",
     "sharing"
   ],
-  "primary_category": "sharing",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

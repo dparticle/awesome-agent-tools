@@ -39,21 +39,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 561,
-  "days_since_push": 154,
+  "age_days": 562,
+  "days_since_push": 155,
   "health_score": 47,
   "health_components": {
     "popularity": 61.3,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 53.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 2.06,
     "basis": "history",
     "is_fast_riser": false
@@ -141,75 +141,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:24+00:00",
+  "fetched_at": "2026-10-16T09:04:43+00:00",
   "categories": [
-    "desktop-ui-2",
-    "self-hosting-security",
-    "sessions"
+    "analytics",
+    "desktop-ui-2"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "analytics",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "ai-ql/tuui",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "AI-QL/tuui",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "self-hosted"
-      ],
-      "star_ratio": 25.481,
-      "momentum_ratio": 102.5,
-      "setup_delta": 11,
-      "dominance": 0.945,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "25.48x the stars (29,482 vs 1,157)",
-        "102.50x the star velocity (41.0/day vs 0.4/day)",
-        "slightly heavier setup (+11 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 73,
-        "incumbent_setup_score": 21,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

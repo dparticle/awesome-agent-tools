@@ -6,9 +6,9 @@
   "url": "https://github.com/google-gemini/gemini-cli",
   "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
   "homepage": "https://geminicli.com",
-  "stars": 107379,
-  "forks": 14717,
-  "open_issues": 745,
+  "stars": 107398,
+  "forks": 14723,
+  "open_issues": 746,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp-server"
   ],
   "created_at": "2025-04-17T17:04:31Z",
-  "updated_at": "2026-10-15T08:49:58Z",
-  "pushed_at": "2026-10-14T19:37:03Z",
+  "updated_at": "2026-10-16T07:49:38Z",
+  "pushed_at": "2026-10-16T02:09:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 545,
+  "age_days": 546,
   "days_since_push": 0,
   "health_score": 71,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 18.5,
+    "momentum": 19.5,
     "maintenance": 100.0,
-    "documentation": 69.0,
+    "documentation": 68.0,
     "accessibility": 66.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 111,
+    "stars_gained": 117,
     "days_span": 5,
-    "stars_per_day": 22.2,
-    "lifetime_stars_per_day": 197.03,
+    "stars_per_day": 23.4,
+    "lifetime_stars_per_day": 196.7,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "google-gemini/gemini-cli",
-    "readme_chars": 13432,
+    "readme_chars": 12075,
     "capabilities": [
       "model-routing",
       "billing-metering",
@@ -57,8 +57,8 @@
       "mcp-support"
     ],
     "capability_evidence": {
-      "model-routing": "",
-      "billing-metering": "pers who need specific model control or paid tier access",
+      "model-routing": "ist License from your organization, remember to set the Google Cloud Project",
+      "billing-metering": "",
       "usage-analytics": "",
       "session-persistence": "",
       "skills-plugins": "",
@@ -70,7 +70,7 @@
       "usage-analytics": 1,
       "session-persistence": 1,
       "skills-plugins": 2,
-      "mcp-support": 7
+      "mcp-support": 6
     },
     "friction": {
       "level": "low",
@@ -100,7 +100,7 @@
       "note_en": "Easy. install via npx one-liner, Homebrew install; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow",
       "note_zh": "较易上手。可通过 npx one-liner、Homebrew install 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow"
     },
-    "doc_score": 69,
+    "doc_score": 68,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -128,13 +128,12 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 3.425
+      "external_link_ratio": 3.81
     },
     "highlights": [
-      "🎯 Free tier: 60 requests/min and 1,000 requests/day with personal Google",
-      "🧠 Powerful Gemini 3 models: Access to improved reasoning and 1M token",
-      "Conversation checkpointing to save and resume complex sessions",
-      "Custom context files (GEMINI.md) to tailor behavior for your projects"
+      "New stable releases will be published each week at UTC 20:00 on Tuesdays, this",
+      "New releases will be published each day at UTC 00:00.",
+      "Context Files (GEMINI.md) -"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -145,7 +144,7 @@
     "seed_reason": "Gemini's terminal agent, generous free tier.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-15T09:10:33+00:00",
+  "fetched_at": "2026-10-16T09:03:52+00:00",
   "categories": [
     "analytics",
     "billing",

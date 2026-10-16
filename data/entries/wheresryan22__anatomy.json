@@ -6,8 +6,8 @@
   "url": "https://github.com/wheresryan22/anatomy",
   "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
   "homepage": "https://skills.wheresryan.sh/anatomy",
-  "stars": 11616,
-  "forks": 828,
+  "stars": 13351,
+  "forks": 977,
   "open_issues": 22,
   "language": "JavaScript",
   "license": "MIT",
@@ -18,33 +18,33 @@
     "vizualization"
   ],
   "created_at": "2026-10-08T10:12:49Z",
-  "updated_at": "2026-10-15T09:09:49Z",
-  "pushed_at": "2026-10-14T22:24:32Z",
+  "updated_at": "2026-10-16T09:00:03Z",
+  "pushed_at": "2026-10-15T14:14:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 6,
+  "age_days": 7,
   "days_since_push": 0,
-  "health_score": 83,
+  "health_score": 84,
   "health_components": {
-    "popularity": 81.3,
+    "popularity": 82.5,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 57.0,
+    "documentation": 58.0,
     "accessibility": 60.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 11616,
-    "days_span": 6,
-    "stars_per_day": 1936.0,
-    "lifetime_stars_per_day": 1936.0,
+    "stars_gained": 13351,
+    "days_span": 7,
+    "stars_per_day": 1907.29,
+    "lifetime_stars_per_day": 1907.29,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "wheresryan22/anatomy",
-    "readme_chars": 24666,
+    "readme_chars": 25606,
     "capabilities": [
       "skills-plugins",
       "cross-agent-support"
@@ -82,7 +82,7 @@
       "note_en": "Some setup. install via npx one-liner; needs git clone (build from source), npm install/build; configure config.json/yaml/toml",
       "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml"
     },
-    "doc_score": 57,
+    "doc_score": 58,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -110,7 +110,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.446
+      "external_link_ratio": 0.469
     },
     "highlights": [
       "It is slow on purpose. A figure takes a long session: the parts list, the geometry, the audit, and close-ups of every joint in both themes. The Raptor's build takes a few minutes, and a ful…",
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:36+00:00",
+  "fetched_at": "2026-10-16T09:03:55+00:00",
   "categories": [
     "desktop-ui"
   ],

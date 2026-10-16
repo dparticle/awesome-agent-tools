@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 250,
-  "days_since_push": 82,
+  "age_days": 251,
+  "days_since_push": 83,
   "health_score": 41,
   "health_components": {
     "popularity": 48.0,
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:12:04+00:00",
+  "fetched_at": "2026-10-16T09:05:24+00:00",
   "categories": [
     "analytics-2",
     "sharing",
@@ -136,66 +136,10 @@
   ],
   "primary_category": "sharing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 jlcodes99/cockpit-tools 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "jlcodes99/cockpit-tools",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "isxlan0/codex_accountswitch",
-      "challenger": "jlcodes99/cockpit-tools",
-      "incumbent_name": "isxlan0/Codex_AccountSwitch",
-      "challenger_name": "jlcodes99/cockpit-tools",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "gui-desktop",
-        "multi-account-switching",
-        "quota-management",
-        "usage-analytics"
-      ],
-      "star_ratio": 75.705,
-      "momentum_ratio": 216.0,
-      "setup_delta": -26,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "75.71x the stars (19,002 vs 251)",
-        "216.00x the star velocity (43.2/day vs 0.2/day)",
-        "no harder to set up (20 vs 46 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "gui-desktop",
-          "multi-account-switching",
-          "quota-management",
-          "usage-analytics"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "model-routing",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "provider-aggregation",
-          "quota-management",
-          "security-isolation",
-          "usage-analytics"
-        ],
-        "incumbent_health": 41,
-        "challenger_health": 73,
-        "incumbent_setup_score": 46,
-        "challenger_setup_score": 20
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

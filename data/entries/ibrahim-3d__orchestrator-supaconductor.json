@@ -6,7 +6,7 @@
   "url": "https://github.com/Ibrahim-3d/orchestrator-supaconductor",
   "description": "Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills",
   "homepage": "",
-  "stars": 381,
+  "stars": 380,
   "forks": 38,
   "open_issues": 2,
   "language": "Python",
@@ -23,13 +23,13 @@
     "superpowers"
   ],
   "created_at": "2026-02-17T16:01:09Z",
-  "updated_at": "2026-10-08T17:38:10Z",
+  "updated_at": "2026-10-16T08:20:56Z",
   "pushed_at": "2026-09-27T19:18:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 239,
-  "days_since_push": 17,
+  "age_days": 240,
+  "days_since_push": 18,
   "health_score": 47,
   "health_components": {
     "popularity": 51.6,
@@ -41,9 +41,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 8,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.59,
+    "lifetime_stars_per_day": 1.58,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,24 +136,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:50+00:00",
+  "fetched_at": "2026-10-16T09:05:10+00:00",
   "categories": [
-    "desktop-ui",
     "desktop-ui-2",
     "remote-control-isolation"
   ],
   "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by bytedance/deer-flow: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 bytedance/deer-flow 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "bytedance/deer-flow",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "bytedance/deer-flow",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "bytedance/deer-flow",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -165,15 +164,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 220.184,
-      "momentum_ratio": 1044.0,
-      "setup_delta": -15,
+      "star_ratio": 88.35,
+      "momentum_ratio": 596.0,
+      "setup_delta": -70,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "220.18x the stars (83,890 vs 381)",
-        "1044.00x the star velocity (52.2/day vs 0.0/day)",
-        "no harder to set up (57 vs 72 friction)"
+        "88.35x the stars (33,573 vs 380)",
+        "596.00x the star velocity (29.8/day vs 0.0/day)",
+        "no harder to set up (2 vs 72 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -187,27 +186,21 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
           "notifications",
           "parallel-execution",
-          "self-hosted",
-          "session-persistence",
+          "remote-control",
           "skills-plugins",
           "team-collaboration",
-          "usage-analytics",
-          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 47,
-        "challenger_health": 76,
+        "challenger_health": 73,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 2
       }
     }
   }

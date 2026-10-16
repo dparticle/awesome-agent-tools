@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 336,
-  "days_since_push": 9,
+  "age_days": 337,
+  "days_since_push": 10,
   "health_score": 53,
   "health_components": {
     "popularity": 49.1,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 92.0,
     "documentation": 91.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 0.85,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 0.84,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -170,9 +170,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:12:01+00:00",
+  "fetched_at": "2026-10-16T09:05:22+00:00",
   "categories": [
-    "analytics",
+    "desktop-ui",
     "mobile-2",
     "teams"
   ],

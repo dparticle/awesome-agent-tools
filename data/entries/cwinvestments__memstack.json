@@ -7,8 +7,8 @@
   "description": "Structured skill framework for Claude Code. 130 skills, persistent memory, TokenStack compression, localhost dashboard with 3-agent runner, real-time streaming, MCP tools.",
   "homepage": "https://memstack.pro",
   "stars": 425,
-  "forks": 45,
-  "open_issues": 1,
+  "forks": 46,
+  "open_issues": 3,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -27,22 +27,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 238,
-  "days_since_push": 18,
+  "age_days": 239,
+  "days_since_push": 19,
   "health_score": 52,
   "health_components": {
     "popularity": 52.6,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 65.0,
     "accessibility": 68.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.79,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.78,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -173,13 +173,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:46+00:00",
+  "fetched_at": "2026-10-16T09:05:07+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "remote-control-isolation",
-    "sessions"
+    "skills"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

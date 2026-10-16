@@ -12,25 +12,25 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 107,379 |
-| Star velocity | 22.2/day (history basis, 5d span) |
+| Stars | 107,398 |
+| Star velocity | 23.4/day (history basis, 5d span) |
 | Health score | 71/100 |
-| Documentation | 69/100 |
+| Documentation | 68/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-04-17 |
-| Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 13,432 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 12,075 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Model / provider routing
 
-### Billing & metering
+> ist License from your organization, remember to set the Google Cloud Project
 
-> pers who need specific model control or paid tier access
+### Billing & metering
 
 ### Usage analytics
 
@@ -59,7 +59,7 @@
 
 ## Documentation quality
 
-Score **69/100**, based on these detected signals:
+Score **68/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -79,9 +79,9 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 100.0 |
-| momentum | 18.5 |
+| momentum | 19.5 |
 | maintenance | 100.0 |
-| documentation | 69.0 |
+| documentation | 68.0 |
 | accessibility | 66.0 |
 
 ---

@@ -6,9 +6,9 @@
   "url": "https://github.com/decolua/9router",
   "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
   "homepage": "https://9router.com",
-  "stars": 30830,
-  "forks": 5952,
-  "open_issues": 2520,
+  "stars": 30897,
+  "forks": 5994,
+  "open_issues": 2589,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "token-saver"
   ],
   "created_at": "2026-01-05T02:59:30Z",
-  "updated_at": "2026-10-15T08:58:53Z",
-  "pushed_at": "2026-10-08T12:49:04Z",
+  "updated_at": "2026-10-16T08:57:53Z",
+  "pushed_at": "2026-10-15T14:53:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 283,
-  "days_since_push": 6,
-  "health_score": 70,
+  "age_days": 284,
+  "days_since_push": 0,
+  "health_score": 72,
   "health_components": {
     "popularity": 89.8,
-    "momentum": 47.3,
+    "momentum": 50.3,
     "maintenance": 100.0,
-    "documentation": 66.0,
+    "documentation": 71.0,
     "accessibility": 27.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 284,
+    "stars_gained": 302,
     "days_span": 5,
-    "stars_per_day": 56.8,
-    "lifetime_stars_per_day": 108.94,
+    "stars_per_day": 60.4,
+    "lifetime_stars_per_day": 108.79,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "decolua/9router",
-    "readme_chars": 57249,
+    "readme_chars": 57907,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -125,7 +125,7 @@
       "note_en": "Involved setup. install via global npm install; needs docker run, git clone (build from source); configure environment variables, API key configuration",
       "note_zh": "配置较重。可通过 global npm install 安装；需要 docker run、git clone (build from source)；需配置 environment variables、API key configuration"
     },
-    "doc_score": 66,
+    "doc_score": 71,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -136,6 +136,7 @@
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
+      "links to dedicated docs",
       "long, detailed README"
     ],
     "agents": [
@@ -157,7 +158,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.559
+      "external_link_ratio": 0.57
     },
     "highlights": [
       "glm/glm-4.7 (cheap backup, $0.6/1M)",
@@ -179,7 +180,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:04+00:00",
+  "fetched_at": "2026-10-16T09:04:23+00:00",
   "categories": [
     "analytics-2",
     "billing",

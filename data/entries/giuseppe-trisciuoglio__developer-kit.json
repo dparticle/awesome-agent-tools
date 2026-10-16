@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 359,
-  "days_since_push": 34,
+  "age_days": 360,
+  "days_since_push": 35,
   "health_score": 44,
   "health_components": {
     "popularity": 51.1,
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:52+00:00",
+  "fetched_at": "2026-10-16T09:05:13+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -155,15 +155,15 @@
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "giuseppe-trisciuoglio/developer-kit",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
       "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -175,15 +175,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.379,
-      "momentum_ratio": 8.575,
-      "setup_delta": -45,
-      "dominance": 0.947,
+      "star_ratio": 13.312,
+      "momentum_ratio": 25.0,
+      "setup_delta": -42,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.38x the stars (854 vs 359)",
-        "8.57x the star velocity (3.4/day vs 0.4/day)",
-        "no harder to set up (21 vs 66 friction)"
+        "13.31x the stars (4,779 vs 359)",
+        "25.00x the star velocity (10.0/day vs 0.4/day)",
+        "no harder to set up (24 vs 66 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -196,18 +196,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
+          "notifications",
+          "quota-management",
+          "security-isolation",
           "skills-plugins"
         ],
         "incumbent_health": 44,
-        "challenger_health": 58,
+        "challenger_health": 62,
         "incumbent_setup_score": 66,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 24
       }
     }
   }

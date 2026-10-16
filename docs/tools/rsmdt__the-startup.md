@@ -13,18 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 568 |
-| Star velocity | 1.6/day (history basis, 5d span) |
-| Health score | 49/100 |
+| Star velocity | 1.0/day (history basis, 5d span) |
+| Health score | 48/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-12 |
-| Last push | 2026-08-03 (72 days ago) |
+| Last push | 2026-08-03 (73 days ago) |
 | Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven)** — Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -73,7 +73,7 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.1 |
-| momentum | 1.3 |
+| momentum | 0.8 |
 | maintenance | 78.0 |
 | documentation | 51.0 |
 | accessibility | 75.0 |

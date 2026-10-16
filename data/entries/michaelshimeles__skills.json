@@ -6,9 +6,9 @@
   "url": "https://github.com/michaelshimeles/skills",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1321,
-  "forks": 215,
-  "open_issues": 3,
+  "stars": 1331,
+  "forks": 216,
+  "open_issues": 2,
   "language": "Python",
   "license": "",
   "topics": [
@@ -22,33 +22,33 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-10-15T03:55:56Z",
-  "pushed_at": "2026-10-04T00:03:25Z",
+  "updated_at": "2026-10-16T07:08:01Z",
+  "pushed_at": "2026-10-15T23:31:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 223,
-  "days_since_push": 11,
-  "health_score": 52,
+  "age_days": 224,
+  "days_since_push": 0,
+  "health_score": 56,
   "health_components": {
-    "popularity": 62.4,
-    "momentum": 6.8,
-    "maintenance": 92.0,
-    "documentation": 38.0,
-    "accessibility": 72.0
+    "popularity": 62.5,
+    "momentum": 8.0,
+    "maintenance": 100.0,
+    "documentation": 39.0,
+    "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 41,
+    "stars_gained": 48,
     "days_span": 5,
-    "stars_per_day": 8.2,
-    "lifetime_stars_per_day": 5.92,
+    "stars_per_day": 9.6,
+    "lifetime_stars_per_day": 5.94,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "michaelshimeles/skills",
-    "readme_chars": 7323,
+    "readme_chars": 7910,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -57,31 +57,30 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "",
-      "worktree-isolation": "files changed for review\".",
-      "skills-plugins": "to everything written for humans along the way.",
-      "agent-runtime": "for humans along the way.",
+      "multi-agent-orchestration": "Form Shield 1.0.0, license included in the folder).",
+      "worktree-isolation": "it when greploop's trigger gets \"Too many files changed for review\".",
+      "skills-plugins": "",
+      "agent-runtime": "",
       "cross-agent-support": "Mentions Claude Code, Cursor"
     },
     "capability_hits": {
       "multi-agent-orchestration": 1,
-      "worktree-isolation": 2,
+      "worktree-isolation": 3,
       "skills-plugins": 2,
       "agent-runtime": 1,
       "cross-agent-support": 2
     },
     "friction": {
       "level": "low",
-      "score": 28,
-      "out_of_the_box": false,
+      "score": 22,
+      "out_of_the_box": true,
       "non_programmer_friendly": false,
       "easy_signals": [
         "npx one-liner"
       ],
       "hard_signals": [],
       "config_signals": [
-        "database migration",
-        "server/reverse-proxy setup"
+        "database migration"
       ],
       "friendliness_signals": [],
       "platforms": [
@@ -90,10 +89,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via npx one-liner; configure database migration, server/reverse-proxy setup",
-      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database migration、server/reverse-proxy setup"
+      "note_en": "Easy. install via npx one-liner; configure database migration",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database migration"
     },
-    "doc_score": 38,
+    "doc_score": 39,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -114,12 +113,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.683
+      "external_link_ratio": 0.632
     },
     "highlights": [
       "You need a consistent branch-per-task convention with safe cleanup",
-      "Multiple agents (or sessions) work the same repository concurrently",
-      "Starting any new feature, fix, or task, before writing code"
+      "Starting a feature, fix, or documentation edit",
+      "Multiple agents (or sessions) work the same repository concurrently"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -130,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:22+00:00",
+  "fetched_at": "2026-10-16T09:04:41+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -159,15 +158,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 25.394,
-      "momentum_ratio": 3.244,
-      "setup_delta": -26,
-      "dominance": 0.946,
+      "star_ratio": 25.224,
+      "momentum_ratio": 3.104,
+      "setup_delta": -20,
+      "dominance": 0.941,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "25.39x the stars (33,545 vs 1,321)",
-        "3.24x the star velocity (26.6/day vs 8.2/day)",
-        "no harder to set up (2 vs 28 friction)"
+        "25.22x the stars (33,573 vs 1,331)",
+        "3.10x the star velocity (29.8/day vs 9.6/day)",
+        "no harder to set up (2 vs 22 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -192,9 +191,9 @@
           "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 52,
+        "incumbent_health": 56,
         "challenger_health": 73,
-        "incumbent_setup_score": 28,
+        "incumbent_setup_score": 22,
         "challenger_setup_score": 2
       }
     }

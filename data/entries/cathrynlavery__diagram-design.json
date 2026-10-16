@@ -6,9 +6,9 @@
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
   "homepage": "https://diagramdesign.dev",
-  "stars": 55579,
-  "forks": 3514,
-  "open_issues": 47,
+  "stars": 56131,
+  "forks": 3556,
+  "open_issues": 44,
   "language": "HTML",
   "license": "MIT",
   "topics": [
@@ -22,16 +22,16 @@
     "svg"
   ],
   "created_at": "2026-04-16T18:01:16Z",
-  "updated_at": "2026-10-15T09:07:58Z",
-  "pushed_at": "2026-10-14T21:29:18Z",
+  "updated_at": "2026-10-16T09:00:19Z",
+  "pushed_at": "2026-10-16T03:03:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 181,
+  "age_days": 182,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
-    "popularity": 94.9,
+    "popularity": 95.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 55579,
-    "days_span": 181,
-    "stars_per_day": 307.07,
-    "lifetime_stars_per_day": 307.07,
+    "stars_gained": 56131,
+    "days_span": 182,
+    "stars_per_day": 308.41,
+    "lifetime_stars_per_day": 308.41,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "cathrynlavery/diagram-design",
-    "readme_chars": 51523,
+    "readme_chars": 51655,
     "capabilities": [
       "parallel-execution",
       "billing-metering",
@@ -133,7 +133,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.349
+      "external_link_ratio": 0.348
     },
     "highlights": [
       "BestSelf.co: the SELF Journal and other paper tools for getting things done.",
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:02+00:00",
+  "fetched_at": "2026-10-16T09:04:21+00:00",
   "categories": [
     "teams"
   ],

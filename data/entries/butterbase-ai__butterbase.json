@@ -7,7 +7,7 @@
   "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
   "homepage": "",
   "stars": 3112,
-  "forks": 167,
+  "forks": 166,
   "open_issues": 21,
   "language": "TypeScript",
   "license": "Apache-2.0",
@@ -21,17 +21,17 @@
     "typescript"
   ],
   "created_at": "2026-05-20T00:06:03Z",
-  "updated_at": "2026-10-13T19:13:32Z",
-  "pushed_at": "2026-10-13T14:32:39Z",
+  "updated_at": "2026-10-15T15:23:50Z",
+  "pushed_at": "2026-10-16T02:04:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 148,
-  "days_since_push": 1,
+  "age_days": 149,
+  "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 69.9,
-    "momentum": 17.5,
+    "momentum": 17.4,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 33.0
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 3112,
-    "days_span": 148,
-    "stars_per_day": 21.03,
-    "lifetime_stars_per_day": 21.03,
+    "days_span": 149,
+    "stars_per_day": 20.89,
+    "lifetime_stars_per_day": 20.89,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -147,18 +147,83 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:49+00:00",
+  "fetched_at": "2026-10-16T09:04:08+00:00",
   "categories": [
     "analytics",
-    "billing",
+    "desktop-ui",
     "self-hosting-security"
   ],
-  "primary_category": "billing",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "butterbase-ai/butterbase",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "butterbase-ai/butterbase",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "billing-metering",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "notifications",
+        "security-isolation",
+        "self-hosted",
+        "skills-plugins"
+      ],
+      "star_ratio": 9.502,
+      "momentum_ratio": 2.614,
+      "setup_delta": -35,
+      "dominance": 0.919,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "9.50x the stars (29,570 vs 3,112)",
+        "2.61x the star velocity (54.6/day vs 20.9/day)",
+        "no harder to set up (32 vs 67 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "billing-metering",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 58,
+        "challenger_health": 75,
+        "incumbent_setup_score": 67,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

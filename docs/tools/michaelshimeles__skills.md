@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,321 |
-| Star velocity | 8.2/day (history basis, 5d span) |
-| Health score | 52/100 |
-| Documentation | 38/100 |
+| Stars | 1,331 |
+| Star velocity | 9.6/day (history basis, 5d span) |
+| Health score | 56/100 |
+| Documentation | 39/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | not declared |
 | Language | Python |
 | Created | 2026-03-05 |
-| Last push | 2026-10-04 (11 days ago) |
-| Analyzed README | 7,323 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-15 (0 days ago) |
+| Analyzed README | 7,910 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
 
@@ -30,17 +30,15 @@
 
 ### Multi-agent orchestration
 
+> Form Shield 1.0.0, license included in the folder).
+
 ### Workspace isolation
 
-> files changed for review".
+> it when greploop's trigger gets "Too many files changed for review".
 
 ### Skills & plugins
 
-> to everything written for humans along the way.
-
 ### Agent runtime
-
-> for humans along the way.
 
 ### Cross-agent support
 
@@ -48,20 +46,20 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 28/100)
-- **Out of the box:** no
+- **Difficulty:** 🟢 Easy (friction score 22/100)
+- **Out of the box:** yes
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx skills add michaelshimeles/skills`
 
 **Signals that make it easy:** npx one-liner
 
-**Configuration required:** database migration, server/reverse-proxy setup
+**Configuration required:** database migration
 
-*Easy. install via npx one-liner; configure database migration, server/reverse-proxy setup*
+*Easy. install via npx one-liner; configure database migration*
 
 ## Documentation quality
 
-Score **38/100**, based on these detected signals:
+Score **39/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -74,11 +72,11 @@ Score **38/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 62.4 |
-| momentum | 6.8 |
-| maintenance | 92.0 |
-| documentation | 38.0 |
-| accessibility | 72.0 |
+| popularity | 62.5 |
+| momentum | 8.0 |
+| maintenance | 100.0 |
+| documentation | 39.0 |
+| accessibility | 90.0 |
 
 ---
 

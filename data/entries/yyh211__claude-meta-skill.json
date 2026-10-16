@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 349,
-  "days_since_push": 152,
+  "age_days": 350,
+  "days_since_push": 153,
   "health_score": 42,
   "health_components": {
     "popularity": 49.0,
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:12:02+00:00",
+  "fetched_at": "2026-10-16T09:05:22+00:00",
   "categories": [
     "analytics",
     "desktop-ui"
@@ -158,13 +158,13 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 3.018,
+      "star_ratio": 3.028,
       "momentum_ratio": 17.15,
       "setup_delta": -37,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.02x the stars (854 vs 283)",
+        "3.03x the stars (857 vs 283)",
         "17.15x the star velocity (3.4/day vs 0.2/day)",
         "no harder to set up (21 vs 58 friction)"
       ],

@@ -6,8 +6,8 @@
   "url": "https://github.com/internet-court/internet-court-skill",
   "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
   "homepage": "",
-  "stars": 6743,
-  "forks": 115,
+  "stars": 6745,
+  "forks": 116,
   "open_issues": 28,
   "language": "TypeScript",
   "license": "NOASSERTION",
@@ -34,27 +34,27 @@
     "x402"
   ],
   "created_at": "2026-06-16T13:20:01Z",
-  "updated_at": "2026-10-15T05:40:24Z",
+  "updated_at": "2026-10-16T00:07:24Z",
   "pushed_at": "2026-08-19T15:00:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
-  "days_since_push": 56,
-  "health_score": 59,
+  "age_days": 121,
+  "days_since_push": 57,
+  "health_score": 53,
   "health_components": {
     "popularity": 76.6,
-    "momentum": 29.0,
+    "momentum": 5.8,
     "maintenance": 78.0,
     "documentation": 40.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 174,
+    "stars_gained": 35,
     "days_span": 5,
-    "stars_per_day": 34.8,
-    "lifetime_stars_per_day": 56.19,
+    "stars_per_day": 7.0,
+    "lifetime_stars_per_day": 55.74,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:42+00:00",
+  "fetched_at": "2026-10-16T09:04:02+00:00",
   "categories": [
     "desktop-ui"
   ],

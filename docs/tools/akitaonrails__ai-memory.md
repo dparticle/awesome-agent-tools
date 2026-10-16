@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,321 |
-| Star velocity | 44.6/day (history basis, 5d span) |
-| Health score | 67/100 |
+| Stars | 9,473 |
+| Star velocity | 68.2/day (history basis, 5d span) |
+| Health score | 73/100 |
 | Documentation | 67/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-05-21 |
-| Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 38,514 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 41,404 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -50,7 +50,7 @@
 
 ### MCP support
 
-> links ~/.local/bin/ai-memory.
+> --features management-ui and start serve --transport http
 
 ### Security & isolation
 
@@ -68,18 +68,18 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 55/100)
+- **Difficulty:** 🟡 Some setup (friction score 46/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://github.com/akitaonrails/ai-memory/releases/latest/download/install.sh | sh`
 
-**Signals that make it easy:** curl | sh installer, native installer / package
+**Signals that make it easy:** curl | sh installer, PowerShell irm | iex installer, native installer / package
 
 **Signals that add work:** docker run, git clone (build from source)
 
 **Configuration required:** environment variables, config.json/yaml/toml, OAuth login flow, sign-in required, API token/secret, database dependency, database migration, server/reverse-proxy setup, process manager
 
-*Some setup. install via curl | sh installer, native installer / package; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml*
+*Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml*
 
 ## Documentation quality
 
@@ -101,11 +101,11 @@ Score **67/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.4 |
-| momentum | 37.2 |
+| popularity | 79.5 |
+| momentum | 56.8 |
 | maintenance | 100.0 |
 | documentation | 67.0 |
-| accessibility | 45.0 |
+| accessibility | 54.0 |
 
 ---
 

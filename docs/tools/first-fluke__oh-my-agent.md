@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 1,344 |
-| Star velocity | 5.2/day (lifetime basis, 257d span) |
+| Star velocity | 5.2/day (lifetime basis, 258d span) |
 | Health score | 58/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -22,7 +22,7 @@
 | Language | TypeScript |
 | Created | 2026-01-30 |
 | Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 50,961 chars from `raw:HEAD/README.md` |
+| Analyzed README | 51,628 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -70,6 +70,8 @@
 
 ### GUI / desktop app
 
+> A does not add an operating-system sandbox.
+
 ### Cross-agent support
 
 > Mentions Amp, Claude Code, Codex, Copilot
@@ -110,7 +112,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 62.6 |
-| momentum | 4.4 |
+| momentum | 4.3 |
 | maintenance | 100.0 |
 | documentation | 69.0 |
 | accessibility | 70.0 |

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,820 |
-| Star velocity | 21.0/day (history basis, 5d span) |
+| Stars | 10,839 |
+| Star velocity | 20.2/day (history basis, 5d span) |
 | Health score | 67/100 |
-| Documentation | 67/100 |
+| Documentation | 73/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-06-11 |
-| Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 27,426 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 28,910 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,11 +44,7 @@
 
 ### API gateway / proxy
 
-> A first-party vendor key for Anthropic, OpenAI, and similar providers
-
 ### Agent runtime
-
-> quires agy 1.1.13 or newer.
 
 ### MCP support
 
@@ -89,7 +85,7 @@
 
 ## Documentation quality
 
-Score **67/100**, based on these detected signals:
+Score **73/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -97,6 +93,7 @@ Score **67/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
+- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
@@ -108,9 +105,9 @@ Score **67/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.7 |
-| momentum | 17.5 |
+| momentum | 16.8 |
 | maintenance | 100.0 |
-| documentation | 67.0 |
+| documentation | 73.0 |
 | accessibility | 75.0 |
 
 ---

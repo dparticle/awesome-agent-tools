@@ -6,9 +6,9 @@
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
   "homepage": "https://treg.to",
-  "stars": 5309,
-  "forks": 429,
-  "open_issues": 150,
+  "stars": 5336,
+  "forks": 435,
+  "open_issues": 153,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -25,33 +25,33 @@
     "secrets"
   ],
   "created_at": "2026-07-15T13:38:07Z",
-  "updated_at": "2026-10-15T09:08:10Z",
-  "pushed_at": "2026-10-15T09:08:42Z",
+  "updated_at": "2026-10-16T08:59:38Z",
+  "pushed_at": "2026-10-16T08:50:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 91,
+  "age_days": 92,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
     "popularity": 74.5,
-    "momentum": 59.5,
+    "momentum": 60.2,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 357,
+    "stars_gained": 361,
     "days_span": 5,
-    "stars_per_day": 71.4,
-    "lifetime_stars_per_day": 58.34,
+    "stars_per_day": 72.2,
+    "lifetime_stars_per_day": 58.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "superdesigndev/treg",
-    "readme_chars": 30588,
+    "readme_chars": 30844,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -139,7 +139,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.327
+      "external_link_ratio": 0.324
     },
     "highlights": [
       "The API — everything the CLI does is plain HTTP; interactive OpenAPI docs live at /docs.",
@@ -155,8 +155,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:44+00:00",
+  "fetched_at": "2026-10-16T09:04:04+00:00",
   "categories": [
+    "desktop-ui",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",

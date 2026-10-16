@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 237,
-  "days_since_push": 147,
+  "age_days": 238,
+  "days_since_push": 148,
   "health_score": 44,
   "health_components": {
     "popularity": 50.0,
@@ -33,7 +33,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.33,
+    "lifetime_stars_per_day": 1.32,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,8 +149,8 @@
     "summary_zh_native": "Memory Palace 为 LLM Agent 提供持久化、可检索、可审计的外部记忆，让每次对话都能在之前的基础上继续，而不是从零开始。",
     "highlights_zh": [
       "HTTP/SSE 鉴权默认 fail-closed：未配置或未提供有效 MCPAPIKEY 时返回 401；stdio 不受影响。",
-      "Docker 一键部署在服务端代理转发鉴权头，浏览器不会直接拿到真实 key。",
       "Docker 数据保存在 named volume data 和 snapshots 中。",
+      "Docker 一键部署在服务端代理转发鉴权头，浏览器不会直接拿到真实 key。",
       "Forgetting Engine：运行时活力值按 VITALITYDECAYHALFLIFEDAYS 衰减（.env.example 中为 30 天）。"
     ],
     "chinese_readme": "README_CN.md"
@@ -160,18 +160,87 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:57+00:00",
+  "fetched_at": "2026-10-16T09:05:17+00:00",
   "categories": [
     "analytics",
     "providers",
-    "self-hosting-security"
+    "skills"
   ],
   "primary_category": "providers",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by bytedance/deer-flow: covers 100% of capabilities (9/9).",
+    "note_zh": "已被 bytedance/deer-flow 取代：covers 100% of capabilities (9/9)。",
+    "superseded_by": "bytedance/deer-flow",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "agi-is-going-to-arrive/memory-palace",
+      "challenger": "bytedance/deer-flow",
+      "incumbent_name": "AGI-is-going-to-arrive/Memory-Palace",
+      "challenger_name": "bytedance/deer-flow",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "self-hosted",
+        "skills-plugins"
+      ],
+      "star_ratio": 266.486,
+      "momentum_ratio": 133.0,
+      "setup_delta": 10,
+      "dominance": 0.95,
+      "reasons": [
+        "covers 100% of capabilities (9/9)",
+        "266.49x the stars (83,943 vs 315)",
+        "133.00x the star velocity (53.2/day vs 0.4/day)",
+        "slightly heavier setup (+10 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "self-hosted",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 44,
+        "challenger_health": 76,
+        "incumbent_setup_score": 47,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

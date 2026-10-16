@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 107,
-  "days_since_push": 92,
+  "age_days": 108,
+  "days_since_push": 93,
   "health_score": 45,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 7.06,
+    "lifetime_stars_per_day": 6.99,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:33+00:00",
+  "fetched_at": "2026-10-16T09:04:53+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -136,15 +136,15 @@
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by numman-ali/n-skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 numman-ali/n-skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "numman-ali/n-skills",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "archive228/loopkit",
-      "challenger": "numman-ali/n-skills",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
       "incumbent_name": "Archive228/loopkit",
-      "challenger_name": "numman-ali/n-skills",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -156,15 +156,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.393,
-      "momentum_ratio": 8.0,
-      "setup_delta": -3,
-      "dominance": 0.825,
+      "star_ratio": 6.33,
+      "momentum_ratio": 200.0,
+      "setup_delta": 5,
+      "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.39x the stars (1,052 vs 755)",
-        "8.00x the star velocity (0.4/day vs 0.0/day)",
-        "no harder to set up (16 vs 19 friction)"
+        "6.33x the stars (4,779 vs 755)",
+        "200.00x the star velocity (10.0/day vs 0.0/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -177,15 +177,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "mcp-support",
+          "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
           "skills-plugins"
         ],
         "incumbent_health": 45,
-        "challenger_health": 52,
+        "challenger_health": 62,
         "incumbent_setup_score": 19,
-        "challenger_setup_score": 16
+        "challenger_setup_score": 24
       }
     }
   }

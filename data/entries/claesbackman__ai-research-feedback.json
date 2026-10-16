@@ -13,19 +13,19 @@
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-01T11:37:44Z",
-  "updated_at": "2026-10-14T18:32:03Z",
-  "pushed_at": "2026-10-14T18:31:57Z",
+  "updated_at": "2026-10-16T04:48:03Z",
+  "pushed_at": "2026-10-15T16:36:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 227,
+  "age_days": 228,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 54.0,
     "momentum": 1.2,
     "maintenance": 100.0,
-    "documentation": 41.0,
+    "documentation": 43.0,
     "accessibility": 90.0
   },
   "tier": "notable",
@@ -33,13 +33,13 @@
     "stars_gained": 7,
     "days_span": 5,
     "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 2.21,
+    "lifetime_stars_per_day": 2.2,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "claesbackman/AI-research-feedback",
-    "readme_chars": 21302,
+    "readme_chars": 25444,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -51,9 +51,9 @@
       "skills-plugins": "rkdown: Convert a PDF to readable markdown, trimmed at the references."
     },
     "capability_hits": {
-      "multi-agent-orchestration": 7,
+      "multi-agent-orchestration": 8,
       "parallel-execution": 1,
-      "skills-plugins": 4
+      "skills-plugins": 5
     },
     "friction": {
       "level": "turnkey",
@@ -79,7 +79,7 @@
       "note_en": "Turnkey. install via Homebrew install; needs git clone (build from source); no-code positioning",
       "note_zh": "开箱即用。可通过 Homebrew install 安装；需要 git clone (build from source)；no-code positioning"
     },
-    "doc_score": 41,
+    "doc_score": 43,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -100,12 +100,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.422
+      "external_link_ratio": 0.393
     },
     "highlights": [
       "audit-analysis: Adversarial audit of changed analysis code, run by an isolated subagent.",
       "Python 3 and Google Chrome, for the screenshot check.",
-      "Claude Code with the general-purpose subagent for the review passes.",
+      "Claude Code with the general-purpose subagent for the optional review passes.",
       "pdf-to-markdown: Convert a PDF to readable markdown, trimmed at the references."
     ],
     "summary_zh_native": "",
@@ -117,7 +117,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:41+00:00",
+  "fetched_at": "2026-10-16T09:05:01+00:00",
   "categories": [
     "desktop-ui"
   ],

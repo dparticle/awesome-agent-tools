@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 1052,
   "forks": 109,
-  "open_issues": 38,
+  "open_issues": 37,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 285,
-  "days_since_push": 33,
+  "age_days": 286,
+  "days_since_push": 34,
   "health_score": 52,
   "health_components": {
     "popularity": 60.4,
@@ -33,7 +33,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 3.69,
+    "lifetime_stars_per_day": 3.68,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -122,17 +122,72 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:26+00:00",
+  "fetched_at": "2026-10-16T09:04:45+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "numman-ali/n-skills",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "incumbent_name": "numman-ali/n-skills",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 4.543,
+      "momentum_ratio": 25.0,
+      "setup_delta": 8,
+      "dominance": 0.96,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "4.54x the stars (4,779 vs 1,052)",
+        "25.00x the star velocity (10.0/day vs 0.4/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 62,
+        "incumbent_setup_score": 16,
+        "challenger_setup_score": 24
+      }
+    }
   }
 }

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,895 |
-| Star velocity | 76.5/day (lifetime basis, 64d span) |
+| Stars | 4,970 |
+| Star velocity | 76.5/day (lifetime basis, 65d span) |
 | Health score | 76/100 |
-| Documentation | 70/100 |
+| Documentation | 71/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-08-11 |
-| Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 29,950 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 30,633 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -41,6 +41,10 @@
 ### API gateway / proxy
 
 > g — see docs/custom-engines.md.
+
+### Usage analytics
+
+> s with zero code via docs/custom-mcp-servers.md.
 
 ### Skills & plugins
 
@@ -87,7 +91,7 @@
 
 ## Documentation quality
 
-Score **70/100**, based on these detected signals:
+Score **71/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -105,10 +109,10 @@ Score **70/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.8 |
+| popularity | 73.9 |
 | momentum | 63.7 |
 | maintenance | 100.0 |
-| documentation | 70.0 |
+| documentation | 71.0 |
 | accessibility | 72.0 |
 
 ---

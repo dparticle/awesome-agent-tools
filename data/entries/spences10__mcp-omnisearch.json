@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 585,
-  "days_since_push": 0,
+  "age_days": 586,
+  "days_since_push": 1,
   "health_score": 53,
   "health_components": {
     "popularity": 51.0,
@@ -42,7 +42,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 356,
-    "days_span": 585,
+    "days_span": 586,
     "stars_per_day": 0.61,
     "lifetime_stars_per_day": 0.61,
     "basis": "lifetime",
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:52+00:00",
+  "fetched_at": "2026-10-16T09:05:13+00:00",
   "categories": [
     "self-hosting-security"
   ],
@@ -155,14 +155,14 @@
         "security-isolation",
         "self-hosted"
       ],
-      "star_ratio": 14.913,
-      "momentum_ratio": 117.049,
+      "star_ratio": 14.989,
+      "momentum_ratio": 118.361,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "14.91x the stars (5,309 vs 356)",
-        "117.05x the star velocity (71.4/day vs 0.6/day)",
+        "14.99x the stars (5,336 vs 356)",
+        "118.36x the star velocity (72.2/day vs 0.6/day)",
         "no harder to set up (21 vs 31 friction)"
       ],
       "reasons_zh": [],

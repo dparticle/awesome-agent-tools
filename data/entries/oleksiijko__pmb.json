@@ -7,8 +7,8 @@
   "description": "Local-first persistent memory for AI coding agents (Claude Code, Cursor, Codex) over MCP. Decisions, lessons and facts live in one SQLite file on your disk. Offline, multilingual.",
   "homepage": "https://pypi.org/project/pmb-ai/",
   "stars": 283,
-  "forks": 28,
-  "open_issues": 8,
+  "forks": 29,
+  "open_issues": 10,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 143,
-  "days_since_push": 21,
+  "age_days": 144,
+  "days_since_push": 22,
   "health_score": 53,
   "health_components": {
     "popularity": 49.0,
@@ -54,7 +54,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.98,
+    "lifetime_stars_per_day": 1.97,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -158,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:12:02+00:00",
+  "fetched_at": "2026-10-16T09:05:22+00:00",
   "categories": [
     "analytics",
     "desktop-ui-2",

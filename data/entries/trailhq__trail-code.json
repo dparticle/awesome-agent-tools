@@ -6,9 +6,9 @@
   "url": "https://github.com/trailhq/Trail-Code",
   "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
   "homepage": "https://trailhq.com/graft",
-  "stars": 10043,
-  "forks": 889,
-  "open_issues": 248,
+  "stars": 10097,
+  "forks": 890,
+  "open_issues": 252,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,33 +31,33 @@
     "tree-sitter"
   ],
   "created_at": "2026-07-03T13:44:21Z",
-  "updated_at": "2026-10-15T08:41:31Z",
-  "pushed_at": "2026-10-15T09:02:47Z",
+  "updated_at": "2026-10-16T09:03:06Z",
+  "pushed_at": "2026-10-16T07:22:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 103,
+  "age_days": 104,
   "days_since_push": 0,
   "health_score": 77,
   "health_components": {
-    "popularity": 80.0,
-    "momentum": 81.3,
+    "popularity": 80.1,
+    "momentum": 80.9,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 42.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 10043,
-    "days_span": 103,
-    "stars_per_day": 97.5,
-    "lifetime_stars_per_day": 97.5,
+    "stars_gained": 10097,
+    "days_span": 104,
+    "stars_per_day": 97.09,
+    "lifetime_stars_per_day": 97.09,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "trailhq/Trail-Code",
-    "readme_chars": 59349,
+    "readme_chars": 59860,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -145,7 +145,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.101
+      "external_link_ratio": 0.1
     },
     "highlights": [
       "Entry-point trace: Trace end-to-end what happens when a client creates a record via the REST API, from route handler to database write.",
@@ -162,9 +162,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:38+00:00",
+  "fetched_at": "2026-10-16T09:03:58+00:00",
   "categories": [
-    "desktop-ui",
     "skills"
   ],
   "primary_category": "skills",

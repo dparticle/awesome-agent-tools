@@ -6,8 +6,8 @@
   "url": "https://github.com/milind-soni/OpenMausBot",
   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "homepage": "https://www.openmausbot.com/",
-  "stars": 4895,
-  "forks": 829,
+  "stars": 4970,
+  "forks": 837,
   "open_issues": 375,
   "language": "TypeScript",
   "license": "Apache-2.0",
@@ -26,38 +26,39 @@
     "typescript"
   ],
   "created_at": "2026-08-11T18:58:55Z",
-  "updated_at": "2026-10-15T09:07:11Z",
-  "pushed_at": "2026-10-15T08:56:31Z",
+  "updated_at": "2026-10-16T08:46:18Z",
+  "pushed_at": "2026-10-16T08:43:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 64,
+  "age_days": 65,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
-    "popularity": 73.8,
+    "popularity": 73.9,
     "momentum": 63.7,
     "maintenance": 100.0,
-    "documentation": 70.0,
+    "documentation": 71.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4895,
-    "days_span": 64,
-    "stars_per_day": 76.48,
-    "lifetime_stars_per_day": 76.48,
+    "stars_gained": 4970,
+    "days_span": 65,
+    "stars_per_day": 76.46,
+    "lifetime_stars_per_day": 76.46,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "milind-soni/OpenMausBot",
-    "readme_chars": 29950,
+    "readme_chars": 30633,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
       "model-routing",
       "api-gateway",
+      "usage-analytics",
       "skills-plugins",
       "mcp-support",
       "security-isolation",
@@ -72,6 +73,7 @@
       "multi-agent-orchestration": "n/ macOS, Windows, and Ubuntu shells with an embedded harness and platform capabilities; Apple speech stays macOS-only, Ubuntu Xorg has opt-in local control, and Wayland remains fail-closed.",
       "model-routing": "rs can add their own MCP tool servers with zero code via docs/custom-mcp-servers.md.",
       "api-gateway": "g — see docs/custom-engines.md.",
+      "usage-analytics": "s with zero code via docs/custom-mcp-servers.md.",
       "skills-plugins": "skills switched off and routines paused.",
       "mcp-support": "ure bots/channels/tasks, send work, wait for completion, switch models, and interrupt turns.",
       "security-isolation": "ks before a potentially billable test message.",
@@ -86,6 +88,7 @@
       "multi-agent-orchestration": 1,
       "model-routing": 1,
       "api-gateway": 1,
+      "usage-analytics": 2,
       "skills-plugins": 1,
       "mcp-support": 5,
       "security-isolation": 1,
@@ -133,7 +136,7 @@
       "note_en": "Easy. install via npx one-liner, global npm install; needs git clone (build from source), pnpm install/build; configure API key configuration, OAuth login flow; explicitly no coding required",
       "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 git clone (build from source)、pnpm install/build；需配置 API key configuration、OAuth login flow；explicitly no coding required"
     },
-    "doc_score": 70,
+    "doc_score": 71,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -160,7 +163,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.669
+      "external_link_ratio": 1.665
     },
     "highlights": [
       "Local first. One small harness server on 127.0.0.1 owns every agent process. Transcripts, keys, and",
@@ -176,9 +179,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:45+00:00",
+  "fetched_at": "2026-10-16T09:04:05+00:00",
   "categories": [
-    "mobile-2",
+    "desktop-ui",
     "self-hosting-security",
     "voice-remote-control"
   ],

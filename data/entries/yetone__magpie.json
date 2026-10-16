@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 13161,
-  "forks": 914,
-  "open_issues": 750,
+  "stars": 13870,
+  "forks": 966,
+  "open_issues": 863,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-15T09:09:55Z",
-  "pushed_at": "2026-10-15T09:08:59Z",
+  "updated_at": "2026-10-16T09:03:23Z",
+  "pushed_at": "2026-10-16T08:20:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 21,
+  "age_days": 22,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 82.4,
+    "popularity": 82.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
@@ -37,19 +37,20 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4977,
+    "stars_gained": 5028,
     "days_span": 5,
-    "stars_per_day": 995.4,
-    "lifetime_stars_per_day": 626.71,
+    "stars_per_day": 1005.6,
+    "lifetime_stars_per_day": 630.45,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 18380,
+    "readme_chars": 18657,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
+      "multi-agent-orchestration",
       "model-routing",
       "api-gateway",
       "mcp-support",
@@ -59,6 +60,7 @@
     "capability_evidence": {
       "multi-account-switching": "count can go through a proxy of its own.",
       "quota-management": "one key that matters in the agent's own config.",
+      "multi-agent-orchestration": "**Sync** Back up to a file, or sync machines over WebDAV (Nutstore, Nextcloud…), S3, or an encrypted GitHub repository backup",
       "model-routing": "&nbsp;·&nbsp; Plugins &nbsp;·&nbsp; Discord &nbsp;·&nbsp; English · 简体中文",
       "api-gateway": "t Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · Nous Portal · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…",
       "mcp-support": "ers it as a provider to every other agent.",
@@ -68,9 +70,10 @@
     "capability_hits": {
       "multi-account-switching": 1,
       "quota-management": 2,
+      "multi-agent-orchestration": 1,
       "model-routing": 2,
       "api-gateway": 1,
-      "mcp-support": 3,
+      "mcp-support": 4,
       "gui-desktop": 1,
       "cross-agent-support": 11
     },
@@ -134,7 +137,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.795
+      "external_link_ratio": 1.769
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -146,7 +149,7 @@
     "highlights_zh": [
       "WSL：在 Windows 上，WSL 发行版里的 Agent 一样能配置，会话也一样统计。",
       "一个 provider 处处能用：API key、本地模型，或者你登录着的 Claude、ChatGPT、Copilot、Gemini、Grok 订阅。",
-      "任何模型都能联网搜索：不能搜索的模型由 magpie 代为搜索，用能搜索的 provider 或搜索 API（Tavily、Brave、Exa、Firecrawl、You.com、SearXNG）。",
+      "任何模型都能联网搜索：不能搜索的模型由 magpie 代为搜索，用能搜索的 provider 或搜索 API（Tavily、Brave、Exa、Firecrawl、You.com、SearXNG），按你拖好的顺序调用，每个都能单独关闭而不删除密钥。",
       "Agent 保持最新：Agents 页显示每个 CLI 的版本，按当初的安装方式更新，没装的也给出安装命令。"
     ],
     "chinese_readme": "README.zh-CN.md"
@@ -156,7 +159,7 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-15T09:10:28+00:00",
+  "fetched_at": "2026-10-16T09:03:49+00:00",
   "categories": [
     "sharing",
     "sharing-2",

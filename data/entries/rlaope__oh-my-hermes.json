@@ -6,9 +6,9 @@
   "url": "https://github.com/rlaope/oh-my-hermes",
   "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
   "homepage": "https://rlaope.github.io/oh-my-hermes/",
-  "stars": 3379,
-  "forks": 250,
-  "open_issues": 10,
+  "stars": 3385,
+  "forks": 252,
+  "open_issues": 14,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -23,33 +23,33 @@
     "skills"
   ],
   "created_at": "2026-06-03T13:00:34Z",
-  "updated_at": "2026-10-15T08:41:09Z",
-  "pushed_at": "2026-10-15T08:41:04Z",
+  "updated_at": "2026-10-16T08:01:56Z",
+  "pushed_at": "2026-10-16T08:18:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 133,
+  "age_days": 134,
   "days_since_push": 0,
   "health_score": 67,
   "health_components": {
     "popularity": 70.6,
-    "momentum": 22.7,
+    "momentum": 21.2,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 99.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 136,
+    "stars_gained": 127,
     "days_span": 5,
-    "stars_per_day": 27.2,
-    "lifetime_stars_per_day": 25.41,
+    "stars_per_day": 25.4,
+    "lifetime_stars_per_day": 25.26,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rlaope/oh-my-hermes",
-    "readme_chars": 37024,
+    "readme_chars": 38237,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -69,7 +69,7 @@
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 1,
+      "multi-agent-orchestration": 2,
       "parallel-execution": 1,
       "worktree-isolation": 1,
       "model-routing": 1,
@@ -131,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.108
+      "external_link_ratio": 0.105
     },
     "highlights": [
       "Mixture-of-Models Routing — each delegated lane is routed onto a"
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:12+00:00",
+  "fetched_at": "2026-10-16T09:04:32+00:00",
   "categories": [
-    "analytics",
+    "desktop-ui-2",
     "remote-control-isolation",
     "skills"
   ],
-  "primary_category": "analytics",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

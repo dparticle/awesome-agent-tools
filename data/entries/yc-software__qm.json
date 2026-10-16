@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15419,
-  "forks": 1908,
-  "open_issues": 956,
+  "stars": 15428,
+  "forks": 1909,
+  "open_issues": 958,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,27 +18,27 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-10-15T07:37:26Z",
-  "pushed_at": "2026-10-15T08:30:42Z",
+  "updated_at": "2026-10-16T08:55:12Z",
+  "pushed_at": "2026-10-16T06:43:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 77,
+  "age_days": 78,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 57,
   "health_components": {
     "popularity": 83.8,
-    "momentum": 7.7,
+    "momentum": 8.0,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 46,
+    "stars_gained": 48,
     "days_span": 5,
-    "stars_per_day": 9.2,
-    "lifetime_stars_per_day": 200.25,
+    "stars_per_day": 9.6,
+    "lifetime_stars_per_day": 197.79,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -144,88 +144,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:34+00:00",
+  "fetched_at": "2026-10-16T09:03:54+00:00",
   "categories": [
-    "desktop-ui-2",
-    "remote-control-isolation",
-    "sessions"
+    "desktop-ui",
+    "self-hosting-security",
+    "teams"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (10/10)。",
-    "superseded_by": "paperclipai/paperclip",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "yc-software/qm",
-      "challenger": "paperclipai/paperclip",
-      "incumbent_name": "yc-software/qm",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "model-routing",
-        "notifications",
-        "security-isolation",
-        "session-persistence",
-        "skills-plugins",
-        "team-collaboration",
-        "worktree-isolation"
-      ],
-      "star_ratio": 6.638,
-      "momentum_ratio": 63.261,
-      "setup_delta": -27,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (10/10)",
-        "6.64x the stars (102,352 vs 15,419)",
-        "63.26x the star velocity (582.0/day vs 9.2/day)",
-        "no harder to set up (45 vs 72 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "model-routing",
-          "notifications",
-          "security-isolation",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 56,
-        "challenger_health": 89,
-        "incumbent_setup_score": 72,
-        "challenger_setup_score": 45
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

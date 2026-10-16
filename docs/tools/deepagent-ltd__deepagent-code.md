@@ -17,14 +17,12 @@
 | Health score | 48/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-06-23 |
-| Last push | 2026-10-14 (0 days ago) |
+| Last push | 2026-10-14 (1 days ago) |
 | Analyzed README | 10,173 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (12/12).
 
 ## What it solves
 

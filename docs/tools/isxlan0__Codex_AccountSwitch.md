@@ -17,14 +17,12 @@
 | Health score | 41/100 |
 | Documentation | 32/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | C++ |
 | Created | 2026-02-06 |
-| Last push | 2026-07-24 (82 days ago) |
+| Last push | 2026-07-24 (83 days ago) |
 | Analyzed README | 4,144 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).
 
 ## What it solves
 

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,002 |
-| Star velocity | 43.2/day (history basis, 5d span) |
-| Health score | 73/100 |
-| Documentation | 59/100 |
+| Stars | 19,028 |
+| Star velocity | 42.2/day (history basis, 5d span) |
+| Health score | 71/100 |
+| Documentation | 60/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-10-12 (2 days ago) |
-| Analyzed README | 14,040 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 16,131 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,27 +46,31 @@
 
 ### Model / provider routing
 
+> emini、Ollama 兼容接口，两引擎共用账号池、代理和配置。
+
 ### Multi-provider aggregation
 
 > 어 · 🇧🇷 Português · 🇷🇺 Русский · 🇹🇷 Türkçe · 🇵🇱 Polski · 🇨🇿 Čeština · 🇸🇦 العربية · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia
 
 ### API gateway / proxy
 
-> 和 JSON／纯文本返回，model 仅作为兼容字段，实际模型由 backend 决定；字幕时间戳、流式转写及其他音频操作需使用支持相应接口的 API Key 供应商。
+> 面板切回内置 Go CLIProxyAPI sidecar。
 
 ### Billing & metering
 
-> 从默认 ~/.grok/auth.json 或指定 JSON 导入官方凭据；账号页导出及通用账号备份均不含 access token/refresh token，不能用于恢复登录，迁移时需单独导入官方 auth.json
-
-### Usage analytics
+> .grok/auth.json 或指定 JSON 导入官方凭据；账号页导出及通用账号备份均不含 access token/refresh token，不能用于恢复登录，迁移时需单独导入官方 auth.json
 
 ### Security & isolation
 
-> .jlcodes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入
+> odes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入
 
 ### GUI / desktop app
 
 > s: .msi（推荐）、.exe，或 x64-portable.zip（解压即用，无需安装）
+
+### Notifications
+
+> ityide"，保持原有 IDE 切号流程及现有启动/无感双通道设置；不会读取前端选择的客户端。
 
 ### Cross-agent support
 
@@ -74,22 +78,22 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 20/100)
+- **Difficulty:** 🟢 Easy (friction score 26/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** yes
+- **Non-programmer friendly:** no
 - **Quickest install:** `brew tap jlcodes99/cockpit-tools https://github.com/jlcodes99/cockpit-tools`
 
 **Signals that make it easy:** Homebrew install, native installer / package
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow
+**Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow, database dependency
 
 *Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, config.json/yaml/toml; GUI application*
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -107,10 +111,10 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.6 |
-| momentum | 36.0 |
+| momentum | 35.2 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
-| accessibility | 88.0 |
+| documentation | 60.0 |
+| accessibility | 74.0 |
 
 ---
 

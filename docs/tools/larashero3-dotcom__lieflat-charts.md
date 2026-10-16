@@ -2,7 +2,7 @@
 
 # larashero3-dotcom/lieflat-charts
 
-> Lieflat Charts 是一套遵循 Agent Skills 格式的数据可视化与报告生成 skill，可供 moxt、Claude Code、Codex 及其他兼容 SKILL.md 的 AI agent 使用。本 skill 在 moxt.ai 制作，默认把数据做成有编辑感的图表；只有用户明确要求报告、年报、月报、白皮书、海报或 brief 时，才从 12 套中英文整页模板生成可发布的 HTML 报告。
+> Lieflat Charts 是一套遵循 Agent Skills 格式的数据可视化、PPT 演示与整页报告生成 skill，可供 moxt、Claude Code、Codex 及其他兼容 SKILL.md 的 AI agent 使用。本 skill 在 moxt.ai 制作，同时提供 PPT 模式和报告模式，但默认产出图表；用户明确要求一套 PPT、幻灯片或可翻页汇报时，才进入 PPT 模式，生成 HTML 或 PDF 格式的 PPT；用户明确要求报告、年报、月报、白皮书…
 
 [Repository](https://github.com/larashero3-dotcom/lieflat-charts) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,9 +12,9 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,128 |
-| Star velocity | 20.0/day (history basis, 5d span) |
-| Health score | 63/100 |
+| Stars | 6,155 |
+| Star velocity | 22.6/day (history basis, 5d span) |
+| Health score | 64/100 |
 | Documentation | 40/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
@@ -22,7 +22,7 @@
 | Language | HTML |
 | Created | 2026-07-16 |
 | Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 11,455 chars from `raw:HEAD/README.md` |
+| Analyzed README | 11,941 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,8 +56,8 @@ Score **40/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.7 |
-| momentum | 16.7 |
+| popularity | 75.8 |
+| momentum | 18.8 |
 | maintenance | 100.0 |
 | documentation | 40.0 |
 | accessibility | 96.0 |

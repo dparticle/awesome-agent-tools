@@ -6,9 +6,9 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13658,
-  "forks": 1442,
-  "open_issues": 1145,
+  "stars": 13670,
+  "forks": 1448,
+  "open_issues": 1142,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,27 +19,27 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-15T08:29:45Z",
-  "pushed_at": "2026-10-15T07:59:31Z",
+  "updated_at": "2026-10-16T08:03:32Z",
+  "pushed_at": "2026-10-16T05:46:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 126,
+  "age_days": 127,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 82.7,
-    "momentum": 6.5,
+    "momentum": 7.8,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 39,
+    "stars_gained": 47,
     "days_span": 5,
-    "stars_per_day": 7.8,
-    "lifetime_stars_per_day": 108.4,
+    "stars_per_day": 9.4,
+    "lifetime_stars_per_day": 107.64,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -165,8 +165,8 @@
     "highlights_zh": [
       "计费档位。 OpenAI 对 GPT-5.6 超过 272K input 的请求按 2x input、1.5x output 计费，且作用于整个请求。",
       "让长任务成本可控：标准与旗舰模型自动路由，局部编辑只修改需要的部分；同会话缓存命中率最高 99%，跨会话最高 95%。",
-      "@ai-sdk/openai-compatible 适用于 OpenAI 兼容 API；使用其他通信协议的服务需要对应 Provider 的专用适配器。",
-      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。"
+      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。",
+      "自定义 Provider — TUI 内添加任意 OpenAI 兼容 API"
     ],
     "chinese_readme": "README.zh.md"
   },
@@ -175,7 +175,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:35+00:00",
+  "fetched_at": "2026-10-16T09:03:55+00:00",
   "categories": [
     "analytics",
     "self-hosting-security",

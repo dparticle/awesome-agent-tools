@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,530 |
-| Star velocity | 361.4/day (lifetime basis, 7d span) |
-| Health score | 84/100 |
-| Documentation | 59/100 |
+| Stars | 2,865 |
+| Star velocity | 358.1/day (lifetime basis, 8d span) |
+| Health score | 85/100 |
+| Documentation | 60/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-10-07 |
-| Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 19,110 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 20,052 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,7 +46,7 @@
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -57,15 +57,16 @@ Score **59/100**, based on these detected signals:
 - has contribution guidance
 - publishes a roadmap
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 68.1 |
+| popularity | 69.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
+| documentation | 60.0 |
 | accessibility | 100.0 |
 
 ---

@@ -29,24 +29,24 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 225,
-  "days_since_push": 6,
+  "age_days": 226,
+  "days_since_push": 7,
   "health_score": 52,
   "health_components": {
     "popularity": 54.7,
-    "momentum": 3.8,
+    "momentum": 2.3,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 23,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 4.6,
-    "lifetime_stars_per_day": 2.41,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 2.4,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Justin0504/Aegis",
@@ -161,7 +161,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:38+00:00",
+  "fetched_at": "2026-10-16T09:05:00+00:00",
   "categories": [
     "analytics-2",
     "self-hosting-security",

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 13,161 |
-| Star velocity | 995.4/day (history basis, 5d span) |
+| Stars | 13,870 |
+| Star velocity | 1005.6/day (history basis, 5d span) |
 | Health score | 88/100 |
 | Documentation | 61/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-23 |
-| Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 18,380 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 18,657 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -33,6 +33,10 @@
 ### Quota & usage management
 
 > one key that matters in the agent's own config.
+
+### Multi-agent orchestration
+
+> **Sync** Back up to a file, or sync machines over WebDAV (Nutstore, Nextcloud…), S3, or an encrypted GitHub repository backup
 
 ### Model / provider routing
 
@@ -85,7 +89,7 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.4 |
+| popularity | 82.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 61.0 |

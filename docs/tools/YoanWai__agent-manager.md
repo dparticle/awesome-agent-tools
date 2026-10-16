@@ -12,25 +12,29 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 595 |
-| Star velocity | 3.0/day (history basis, 5d span) |
-| Health score | 55/100 |
+| Stars | 598 |
+| Star velocity | 3.2/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-07-15 |
-| Last push | 2026-10-14 (0 days ago) |
-| Analyzed README | 13,637 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 14,127 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).
 
 ## What it solves
 
 ### Workspace isolation
 
 > , list density, mouse, review layout, desktop notifications, editor, keybindings)
+
+### Skills & plugins
+
+> answer the dependency prompt up front (=0 to skip it).
 
 ### Agent runtime
 
@@ -50,12 +54,12 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 13/100)
+- **Difficulty:** 🟢 Turnkey (friction score 4/100)
 - **Out of the box:** yes
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install agent-manager`
 
-**Signals that make it easy:** Homebrew install, curl | sh installer
+**Signals that make it easy:** Homebrew install, curl | sh installer, PowerShell irm | iex installer
 
 **Configuration required:** sign-in required
 
@@ -78,10 +82,10 @@ Score **46/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.5 |
-| momentum | 2.5 |
+| momentum | 2.7 |
 | maintenance | 100.0 |
 | documentation | 46.0 |
-| accessibility | 99.0 |
+| accessibility | 100.0 |
 
 ---
 

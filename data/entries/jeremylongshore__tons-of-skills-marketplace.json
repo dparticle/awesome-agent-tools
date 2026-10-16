@@ -6,9 +6,9 @@
   "url": "https://github.com/jeremylongshore/tons-of-skills-marketplace",
   "description": "Model-agnostic agent-skills platform with a harness-free canonical layer, verified adapters, and the ccpi package manager. Explore at tonsofskills.com.",
   "homepage": "https://tonsofskills.com",
-  "stars": 2838,
+  "stars": 2843,
   "forks": 420,
-  "open_issues": 27,
+  "open_issues": 29,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -30,27 +30,27 @@
     "skills"
   ],
   "created_at": "2025-10-10T01:01:00Z",
-  "updated_at": "2026-10-15T02:46:01Z",
-  "pushed_at": "2026-10-14T04:53:44Z",
+  "updated_at": "2026-10-16T00:01:48Z",
+  "pushed_at": "2026-10-16T03:01:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 370,
-  "days_since_push": 1,
+  "age_days": 371,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 69.1,
-    "momentum": 1.8,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 41.0,
     "accessibility": 71.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 7.67,
+    "stars_per_day": 2.4,
+    "lifetime_stars_per_day": 7.66,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -122,7 +122,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:13+00:00",
+  "fetched_at": "2026-10-16T09:04:33+00:00",
   "categories": [
     "desktop-ui"
   ],

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 163,909 |
-| Star velocity | 773.8/day (history basis, 5d span) |
-| Health score | 86/100 |
-| Documentation | 47/100 |
+| Stars | 164,744 |
+| Star velocity | 798.4/day (history basis, 5d span) |
+| Health score | 88/100 |
+| Documentation | 48/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-06-12 |
-| Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 12,391 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 14,047 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,23 +30,27 @@
 
 > , a parser, money or security leaves one small test behind.
 
+### GUI / desktop app
+
+> -audit, copy the task as Markdown, and fold the band into one line.
+
 ### Cross-agent support
 
 > Mentions Claude Code, Cline, Codex, Copilot
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 42/100)
+- **Difficulty:** 🟢 Easy (friction score 35/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 
 **Configuration required:** config file, config.json/yaml/toml
 
-*Some setup. configure config file, config.json/yaml/toml*
+*Easy. configure config file, config.json/yaml/toml; GUI application*
 
 ## Documentation quality
 
-Score **47/100**, based on these detected signals:
+Score **48/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -64,8 +68,8 @@ Score **47/100**, based on these detected signals:
 | popularity | 100.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 47.0 |
-| accessibility | 58.0 |
+| documentation | 48.0 |
+| accessibility | 73.0 |
 
 ---
 

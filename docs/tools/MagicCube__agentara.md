@@ -17,12 +17,14 @@
 | Health score | 38/100 |
 | Documentation | 60/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-03-05 |
-| Last push | 2026-05-11 (156 days ago) |
+| Last push | 2026-05-11 (157 days ago) |
 | Analyzed README | 9,208 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code)** — Superseded by aoci-spec/aoci-code: covers 100% of capabilities (5/5).
 
 ## What it solves
 

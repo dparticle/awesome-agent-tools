@@ -31,8 +31,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 125,
-  "days_since_push": 32,
+  "age_days": 126,
+  "days_since_push": 33,
   "health_score": 46,
   "health_components": {
     "popularity": 55.4,
@@ -44,9 +44,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 589,
-    "days_span": 125,
-    "stars_per_day": 4.71,
-    "lifetime_stars_per_day": 4.71,
+    "days_span": 126,
+    "stars_per_day": 4.67,
+    "lifetime_stars_per_day": 4.67,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -133,9 +133,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:37+00:00",
+  "fetched_at": "2026-10-16T09:04:57+00:00",
   "categories": [
-    "desktop-ui",
     "desktop-ui-2",
     "providers-2"
   ],

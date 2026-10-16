@@ -7,7 +7,7 @@
   "description": "A context and memory system for AI coding agents. Persistent memory, personal rules, skills, and scheduled observations",
   "homepage": "",
   "stars": 797,
-  "forks": 184,
+  "forks": 185,
   "open_issues": 1,
   "language": "Python",
   "license": "",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 213,
-  "days_since_push": 1,
+  "age_days": 214,
+  "days_since_push": 2,
   "health_score": 50,
   "health_components": {
     "popularity": 58.0,
@@ -33,7 +33,7 @@
     "stars_gained": 18,
     "days_span": 5,
     "stars_per_day": 3.6,
-    "lifetime_stars_per_day": 3.74,
+    "lifetime_stars_per_day": 3.72,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -105,7 +105,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:31+00:00",
+  "fetched_at": "2026-10-16T09:04:51+00:00",
   "categories": [
     "billing"
   ],

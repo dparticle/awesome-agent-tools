@@ -6,8 +6,8 @@
   "url": "https://github.com/chuspeeism/dashi-ppt-skill",
   "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
   "homepage": "",
-  "stars": 9549,
-  "forks": 829,
+  "stars": 9588,
+  "forks": 831,
   "open_issues": 16,
   "language": "JavaScript",
   "license": "AGPL-3.0",
@@ -28,13 +28,13 @@
     "slides"
   ],
   "created_at": "2026-06-10T07:46:43Z",
-  "updated_at": "2026-10-15T08:34:12Z",
+  "updated_at": "2026-10-16T09:02:57Z",
   "pushed_at": "2026-09-12T14:13:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 127,
-  "days_since_push": 32,
+  "age_days": 128,
+  "days_since_push": 33,
   "health_score": 68,
   "health_components": {
     "popularity": 79.6,
@@ -48,7 +48,7 @@
     "stars_gained": 217,
     "days_span": 5,
     "stars_per_day": 43.4,
-    "lifetime_stars_per_day": 75.19,
+    "lifetime_stars_per_day": 74.91,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:39+00:00",
+  "fetched_at": "2026-10-16T09:03:58+00:00",
   "categories": [
     "sharing"
   ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/bherbruck/solidcraft",
   "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
   "homepage": "https://bherbruck.github.io/solidcraft/",
-  "stars": 2530,
-  "forks": 255,
-  "open_issues": 320,
+  "stars": 2865,
+  "forks": 303,
+  "open_issues": 389,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -23,33 +23,33 @@
     "wasm"
   ],
   "created_at": "2026-10-07T18:57:48Z",
-  "updated_at": "2026-10-15T09:07:37Z",
-  "pushed_at": "2026-10-15T09:06:34Z",
+  "updated_at": "2026-10-16T09:00:50Z",
+  "pushed_at": "2026-10-16T08:55:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 7,
+  "age_days": 8,
   "days_since_push": 0,
-  "health_score": 84,
+  "health_score": 85,
   "health_components": {
-    "popularity": 68.1,
+    "popularity": 69.1,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 59.0,
+    "documentation": 60.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2530,
-    "days_span": 7,
-    "stars_per_day": 361.43,
-    "lifetime_stars_per_day": 361.43,
+    "stars_gained": 2865,
+    "days_span": 8,
+    "stars_per_day": 358.12,
+    "lifetime_stars_per_day": 358.12,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "bherbruck/solidcraft",
-    "readme_chars": 19110,
+    "readme_chars": 20052,
     "capabilities": [
       "mcp-support",
       "gui-desktop"
@@ -85,7 +85,7 @@
       "note_en": "Turnkey. install via winget install, native installer / package; GUI application",
       "note_zh": "开箱即用。可通过 winget install、native installer / package 安装；GUI application"
     },
-    "doc_score": 59,
+    "doc_score": 60,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -95,7 +95,8 @@
       "documents configuration",
       "has contribution guidance",
       "publishes a roadmap",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code"
@@ -108,13 +109,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.576
+      "external_link_ratio": 0.598
     },
     "highlights": [
       "Parameters and configurations with unit-aware expressions (2 * width + 5 mm,",
       "Headless CLI solidcraft-cli: run command scripts, measure (volume, area, centre of mass,",
-      "MCP server solidcraft-cli mcp: AI agents model, measure and look at parts headless or",
-      "Sketches on origin planes, offset planes or planar faces: lines, rectangles, circles,"
+      "MCP server solidcraft-cli mcp: AI agents model, measure and look at parts headless or"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:50+00:00",
+  "fetched_at": "2026-10-16T09:04:09+00:00",
   "categories": [
     "desktop-ui-2"
   ],

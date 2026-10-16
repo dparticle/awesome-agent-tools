@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 878 |
-| Star velocity | 3.8/day (history basis, 5d span) |
+| Stars | 880 |
+| Star velocity | 3.0/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-12-17 |
-| Last push | 2026-10-14 (0 days ago) |
+| Last push | 2026-10-14 (1 days ago) |
 | Analyzed README | 8,208 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (4/4).
@@ -65,7 +65,7 @@ Score **49/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 58.9 |
-| momentum | 3.2 |
+| momentum | 2.5 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
 | accessibility | 58.0 |

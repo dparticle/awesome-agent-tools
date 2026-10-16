@@ -7,7 +7,7 @@
   "description": "Collection of Claude Code skills for enhanced AI workflows",
   "homepage": "",
   "stars": 392,
-  "forks": 59,
+  "forks": 60,
   "open_issues": 11,
   "language": "JavaScript",
   "license": "MIT",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 354,
-  "days_since_push": 6,
+  "age_days": 355,
+  "days_since_push": 7,
   "health_score": 51,
   "health_components": {
     "popularity": 51.9,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.11,
+    "lifetime_stars_per_day": 1.1,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:49+00:00",
+  "fetched_at": "2026-10-16T09:05:09+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -162,14 +162,14 @@
         "skills-plugins",
         "voice-input"
       ],
-      "star_ratio": 34.842,
-      "momentum_ratio": 39.0,
+      "star_ratio": 34.872,
+      "momentum_ratio": 47.0,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "34.84x the stars (13,658 vs 392)",
-        "39.00x the star velocity (7.8/day vs 0.2/day)",
+        "34.87x the stars (13,670 vs 392)",
+        "47.00x the star velocity (9.4/day vs 0.2/day)",
         "no harder to set up (21 vs 30 friction)"
       ],
       "reasons_zh": [],

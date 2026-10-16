@@ -6,8 +6,8 @@
   "url": "https://github.com/larashero3-dotcom/lieflat-charts",
   "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
   "homepage": "",
-  "stars": 6128,
-  "forks": 367,
+  "stars": 6155,
+  "forks": 370,
   "open_issues": 0,
   "language": "HTML",
   "license": "NOASSERTION",
@@ -22,33 +22,33 @@
     "svg"
   ],
   "created_at": "2026-07-16T11:17:49Z",
-  "updated_at": "2026-10-15T08:22:28Z",
-  "pushed_at": "2026-10-15T03:59:40Z",
+  "updated_at": "2026-10-16T08:23:29Z",
+  "pushed_at": "2026-10-15T10:59:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 90,
+  "age_days": 91,
   "days_since_push": 0,
-  "health_score": 63,
+  "health_score": 64,
   "health_components": {
-    "popularity": 75.7,
-    "momentum": 16.7,
+    "popularity": 75.8,
+    "momentum": 18.8,
     "maintenance": 100.0,
     "documentation": 40.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 100,
+    "stars_gained": 113,
     "days_span": 5,
-    "stars_per_day": 20.0,
-    "lifetime_stars_per_day": 68.09,
+    "stars_per_day": 22.6,
+    "lifetime_stars_per_day": 67.64,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "larashero3-dotcom/lieflat-charts",
-    "readme_chars": 11455,
+    "readme_chars": 11941,
     "capabilities": [
       "cross-agent-support"
     ],
@@ -86,7 +86,7 @@
       "Claude Code",
       "Codex"
     ],
-    "summary_en": "Lieflat Charts 是一套遵循 Agent Skills 格式的数据可视化与报告生成 skill，可供 moxt、Claude Code、Codex 及其他兼容 SKILL.md 的 AI agent 使用。本 skill 在 moxt.ai 制作，默认把数据做成有编辑感的图表；只有用户明确要求报告、年报、月报、白皮书、海报或 brief 时，才从 12 套中英文整页模板生成可发布的 HTML 报告。",
+    "summary_en": "Lieflat Charts 是一套遵循 Agent Skills 格式的数据可视化、PPT 演示与整页报告生成 skill，可供 moxt、Claude Code、Codex 及其他兼容 SKILL.md 的 AI agent 使用。本 skill 在 moxt.ai 制作，同时提供 PPT 模式和报告模式，但默认产出图表；用户明确要求一套 PPT、幻灯片或可翻页汇报时，才进入 PPT 模式，生成 HTML 或 PDF 格式的 PPT；用户明确要求报告、年报、月报、白皮书…",
     "summary_zh": "",
     "install_hint": "npx skills add https://github.com/larashero3-dotcom/lieflat-charts --skill lieflat-charts",
     "source": "raw:HEAD/README.md",
@@ -96,7 +96,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.262
+      "external_link_ratio": 0.251
     },
     "highlights": [
       "Basics（基础编辑型）：保留柱状图、折线图、环形图等熟悉轮廓，再用可数刻度、发丝线和编辑排版增加质感，适合结构简单或数据量较少的内容。",
@@ -113,11 +113,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:10:43+00:00",
+  "fetched_at": "2026-10-16T09:04:03+00:00",
   "categories": [
-    "remote-control-isolation"
+    "desktop-ui"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

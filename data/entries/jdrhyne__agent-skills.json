@@ -35,8 +35,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
-  "days_since_push": 46,
+  "age_days": 267,
+  "days_since_push": 47,
   "health_score": 41,
   "health_components": {
     "popularity": 47.6,
@@ -153,11 +153,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:12:06+00:00",
+  "fetched_at": "2026-10-16T09:05:26+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "desktop-ui-2",
-    "self-hosting-security"
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

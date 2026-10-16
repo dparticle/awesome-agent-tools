@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,877 |
-| Star velocity | 46.9/day (lifetime basis, 104d span) |
+| Stars | 4,927 |
+| Star velocity | 46.9/day (lifetime basis, 105d span) |
 | Health score | 71/100 |
-| Documentation | 76/100 |
+| Documentation | 84/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 33,376 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 36,208 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -60,7 +60,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 29/100)
+- **Difficulty:** 🟢 Easy (friction score 35/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install --cask open-science`
@@ -69,15 +69,16 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, sign-in required, database dependency
+**Configuration required:** API key configuration, sign-in required, database dependency, server/reverse-proxy setup
 
 *Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, sign-in required; one-click setup*
 
 ## Documentation quality
 
-Score **76/100**, based on these detected signals:
+Score **84/100**, based on these detected signals:
 
 - contains code blocks
+- contains screenshots/diagrams
 - has section headings
 - has a quick-start section
 - documents installation
@@ -96,11 +97,11 @@ Score **76/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.8 |
+| popularity | 73.9 |
 | momentum | 39.1 |
 | maintenance | 100.0 |
-| documentation | 76.0 |
-| accessibility | 71.0 |
+| documentation | 84.0 |
+| accessibility | 65.0 |
 
 ---
 

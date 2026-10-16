@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 276,
-  "days_since_push": 0,
+  "age_days": 277,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 54.1,
@@ -164,8 +164,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-15T09:11:40+00:00",
+  "fetched_at": "2026-10-16T09:05:01+00:00",
   "categories": [
+    "desktop-ui",
     "providers-2",
     "self-hosting-security"
   ],

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 487 |
-| Star velocity | 2.3/day (lifetime basis, 213d span) |
+| Stars | 488 |
+| Star velocity | 2.3/day (lifetime basis, 214d span) |
 | Health score | 57/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | C# |
 | Created | 2026-03-15 |
-| Last push | 2026-10-14 (0 days ago) |
+| Last push | 2026-10-16 (0 days ago) |
 | Analyzed README | 31,851 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development)** — Superseded by data-goblin/power-bi-agentic-development: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (6/6).
 
 ## What it solves
 
