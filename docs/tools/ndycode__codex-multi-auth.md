@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 549 |
-| Star velocity | 2.2/day (history basis, 5d span) |
+| Stars | 548 |
+| Star velocity | 1.4/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 62/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-22 |
-| Last push | 2026-10-14 (1 days ago) |
-| Analyzed README | 10,766 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 10,891 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,11 @@
 
 ### API gateway / proxy
 
-> multi-auth login ≡ codex-multi-auth auth login.
+> h, including the local real-time web dashboard.
+
+### GUI / desktop app
+
+> witch, forecast, rotation, fix, ...).
 
 ### Voice input
 
@@ -73,7 +77,7 @@ Score **62/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.8 |
-| momentum | 1.8 |
+| momentum | 1.2 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 67.0 |

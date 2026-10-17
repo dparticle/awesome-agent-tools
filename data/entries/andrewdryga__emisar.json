@@ -6,9 +6,9 @@
   "url": "https://github.com/AndrewDryga/emisar",
   "description": "Let AI agents investigate and operate infrastructure through declared actions, bounded by policy and host-side checks. Approvals when required, with an audit trail. By Protectorate.",
   "homepage": "https://emisar.dev/",
-  "stars": 337,
+  "stars": 338,
   "forks": 33,
-  "open_issues": 2,
+  "open_issues": 9,
   "language": "Elixir",
   "license": "NOASSERTION",
   "topics": [
@@ -29,27 +29,27 @@
     "self-hosted"
   ],
   "created_at": "2026-05-19T01:21:19Z",
-  "updated_at": "2026-10-13T20:55:31Z",
-  "pushed_at": "2026-10-15T09:10:21Z",
+  "updated_at": "2026-10-17T01:42:26Z",
+  "pushed_at": "2026-10-16T09:08:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 150,
+  "age_days": 151,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 50.6,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.25,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.24,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,7 +137,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:14+00:00",
+  "fetched_at": "2026-10-17T08:36:22+00:00",
   "categories": [
     "self-hosting-security"
   ],
@@ -163,14 +163,14 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 87.745,
-      "momentum_ratio": 1092.0,
+      "star_ratio": 87.586,
+      "momentum_ratio": 267.0,
       "setup_delta": 7,
       "dominance": 0.965,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "87.74x the stars (29,570 vs 337)",
-        "1092.00x the star velocity (54.6/day vs 0.0/day)",
+        "87.59x the stars (29,604 vs 338)",
+        "267.00x the star velocity (53.4/day vs 0.2/day)",
         "slightly heavier setup (+7 friction, within tolerance)"
       ],
       "reasons_zh": [],

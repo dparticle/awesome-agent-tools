@@ -6,9 +6,9 @@
   "url": "https://github.com/trailhq/Trail-Code",
   "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
   "homepage": "https://trailhq.com/graft",
-  "stars": 10097,
-  "forks": 890,
-  "open_issues": 252,
+  "stars": 10274,
+  "forks": 899,
+  "open_issues": 258,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,27 +31,27 @@
     "tree-sitter"
   ],
   "created_at": "2026-07-03T13:44:21Z",
-  "updated_at": "2026-10-16T09:03:06Z",
-  "pushed_at": "2026-10-16T07:22:04Z",
+  "updated_at": "2026-10-17T08:23:01Z",
+  "pushed_at": "2026-10-17T06:59:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 104,
+  "age_days": 105,
   "days_since_push": 0,
   "health_score": 77,
   "health_components": {
-    "popularity": 80.1,
-    "momentum": 80.9,
+    "popularity": 80.2,
+    "momentum": 81.5,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 42.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 10097,
-    "days_span": 104,
-    "stars_per_day": 97.09,
-    "lifetime_stars_per_day": 97.09,
+    "stars_gained": 10274,
+    "days_span": 105,
+    "stars_per_day": 97.85,
+    "lifetime_stars_per_day": 97.85,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -162,11 +162,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:03:58+00:00",
+  "fetched_at": "2026-10-17T08:35:24+00:00",
   "categories": [
-    "skills"
+    "desktop-ui",
+    "model-routing"
   ],
-  "primary_category": "skills",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

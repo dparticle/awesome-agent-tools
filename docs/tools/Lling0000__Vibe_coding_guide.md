@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-05-05 |
-| Last push | 2026-06-25 (112 days ago) |
+| Last push | 2026-06-25 (113 days ago) |
 | Analyzed README | 5,843 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [first-fluke/oh-my-agent](https://github.com/first-fluke/oh-my-agent)** — Superseded by first-fluke/oh-my-agent: covers 100% of capabilities (6/6).

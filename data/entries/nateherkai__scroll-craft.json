@@ -6,8 +6,8 @@
   "url": "https://github.com/nateherkai/scroll-craft",
   "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
   "homepage": "https://github.com/nateherkai/scroll-craft",
-  "stars": 3520,
-  "forks": 523,
+  "stars": 3554,
+  "forks": 529,
   "open_issues": 9,
   "language": "JavaScript",
   "license": "MIT",
@@ -29,28 +29,28 @@
     "web-design"
   ],
   "created_at": "2026-08-22T15:25:08Z",
-  "updated_at": "2026-10-16T08:45:21Z",
+  "updated_at": "2026-10-17T05:58:23Z",
   "pushed_at": "2026-09-30T13:31:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 54,
-  "days_since_push": 15,
-  "health_score": 67,
+  "age_days": 55,
+  "days_since_push": 16,
+  "health_score": 68,
   "health_components": {
-    "popularity": 70.9,
-    "momentum": 54.3,
+    "popularity": 71.0,
+    "momentum": 56.0,
     "maintenance": 92.0,
     "documentation": 47.0,
     "accessibility": 70.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3520,
-    "days_span": 54,
-    "stars_per_day": 65.19,
-    "lifetime_stars_per_day": 65.19,
-    "basis": "lifetime",
+    "stars_gained": 336,
+    "days_span": 5,
+    "stars_per_day": 67.2,
+    "lifetime_stars_per_day": 64.62,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -116,8 +116,8 @@
     "highlights": [
       "A typography floor. Two families maximum, tracking that tightens as size grows, 45 to 75ch measure, line height inverse to measure, and light-on-dark compensated on three axes.",
       "A fingerprint gate. A new build must differ from every page you have already made on at least 4 of 6 dimensions: grammar, nav, hero, act shape, close, signature move. Fail it and you change…",
-      "Honor explicit creative delegation without forcing a redundant interview.",
-      "Choose photographic compositing or real 3D rendering to suit the subject."
+      "Choose photographic compositing or real 3D rendering to suit the subject.",
+      "Honor explicit creative delegation without forcing a redundant interview."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:08+00:00",
+  "fetched_at": "2026-10-17T08:35:31+00:00",
   "categories": [
     "desktop-ui"
   ],

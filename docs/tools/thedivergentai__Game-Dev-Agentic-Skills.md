@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 857 |
-| Star velocity | 3.4/day (lifetime basis, 250d span) |
+| Stars | 858 |
+| Star velocity | 3.4/day (lifetime basis, 251d span) |
 | Health score | 58/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,20 +21,18 @@
 | License | LGPL-3.0 |
 | Language | GDScript |
 | Created | 2026-02-07 |
-| Last push | 2026-10-14 (1 days ago) |
-| Analyzed README | 54,637 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 56,662 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> skills to elevate the knowledge depth and execution quality to the highest agentic standard.
+> ls to elevate the knowledge depth and execution quality to the highest agentic standard.
 
 ### Parallel execution
 
 ### Memory & context
-
-> Godot starts at godot-master.
 
 ### Skills & plugins
 
@@ -42,11 +40,9 @@
 
 ### Agent runtime
 
-> #### v0.0.1 — Initial Launch - The Foundation: Released the initial library of 80+ Godot 4.x Agentic Skills. - Agent-First Design: Established the DIA (Discovery-Ingestion-Application) loop for AI Coding Agents. - Core…
-
 ### MCP support
 
-> - MCP Clean-up & Direct Building: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing native
+> - **MCP Clean-up & Direct Building**: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing nativ
 
 ### GUI / desktop app
 
@@ -88,7 +84,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 58.7 |
-| momentum | 2.9 |
+| momentum | 2.8 |
 | maintenance | 100.0 |
 | documentation | 69.0 |
 | accessibility | 79.0 |

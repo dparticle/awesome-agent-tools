@@ -6,9 +6,9 @@
   "url": "https://github.com/KunAgent/Kun",
   "description": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.",
   "homepage": "https://www.kun-agent.com",
-  "stars": 6312,
-  "forks": 591,
-  "open_issues": 3,
+  "stars": 6313,
+  "forks": 590,
+  "open_issues": 4,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -33,27 +33,27 @@
     "writing-assistant"
   ],
   "created_at": "2026-05-21T13:22:06Z",
-  "updated_at": "2026-10-16T03:59:27Z",
+  "updated_at": "2026-10-17T07:00:25Z",
   "pushed_at": "2026-10-11T19:33:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 147,
-  "days_since_push": 4,
+  "age_days": 148,
+  "days_since_push": 5,
   "health_score": 66,
   "health_components": {
     "popularity": 76.0,
-    "momentum": 35.8,
+    "momentum": 35.5,
     "maintenance": 100.0,
     "documentation": 45.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 6312,
-    "days_span": 147,
-    "stars_per_day": 42.94,
-    "lifetime_stars_per_day": 42.94,
+    "stars_gained": 6313,
+    "days_span": 148,
+    "stars_per_day": 42.66,
+    "lifetime_stars_per_day": 42.66,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -151,10 +151,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:02+00:00",
+  "fetched_at": "2026-10-17T08:35:27+00:00",
   "categories": [
-    "desktop-ui",
-    "self-hosting-security"
+    "self-hosting-security",
+    "sharing-2"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
@@ -181,14 +181,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 4.685,
-      "momentum_ratio": 1.272,
+      "star_ratio": 4.689,
+      "momentum_ratio": 1.252,
       "setup_delta": -1,
-      "dominance": 0.83,
+      "dominance": 0.828,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.68x the stars (29,570 vs 6,312)",
-        "1.27x the star velocity (54.6/day vs 42.9/day)",
+        "4.69x the stars (29,604 vs 6,313)",
+        "1.25x the star velocity (53.4/day vs 42.7/day)",
         "no harder to set up (32 vs 33 friction)"
       ],
       "reasons_zh": [],

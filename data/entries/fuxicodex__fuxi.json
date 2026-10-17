@@ -6,8 +6,8 @@
   "url": "https://github.com/fuxicodex/Fuxi",
   "description": "FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
   "homepage": "https://www.fuxicode.com",
-  "stars": 3342,
-  "forks": 229,
+  "stars": 3340,
+  "forks": 230,
   "open_issues": 0,
   "language": "Python",
   "license": "NOASSERTION",
@@ -34,27 +34,27 @@
     "tui"
   ],
   "created_at": "2026-08-04T07:32:11Z",
-  "updated_at": "2026-10-14T23:06:59Z",
+  "updated_at": "2026-10-16T17:49:18Z",
   "pushed_at": "2026-09-29T01:25:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 73,
-  "days_since_push": 17,
+  "age_days": 74,
+  "days_since_push": 18,
   "health_score": 66,
   "health_components": {
     "popularity": 70.5,
-    "momentum": 38.2,
+    "momentum": 37.6,
     "maintenance": 92.0,
     "documentation": 63.0,
     "accessibility": 69.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3342,
-    "days_span": 73,
-    "stars_per_day": 45.78,
-    "lifetime_stars_per_day": 45.78,
+    "stars_gained": 3340,
+    "days_span": 74,
+    "stars_per_day": 45.14,
+    "lifetime_stars_per_day": 45.14,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -147,10 +147,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:08+00:00",
+  "fetched_at": "2026-10-17T08:35:31+00:00",
   "categories": [
+    "model-routing",
     "providers",
-    "skills"
+    "self-hosting-security"
   ],
   "primary_category": "providers",
   "lifecycle": {

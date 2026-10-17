@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 650,
-  "days_since_push": 0,
+  "age_days": 651,
+  "days_since_push": 1,
   "health_score": 53,
   "health_components": {
     "popularity": 53.0,
@@ -127,22 +127,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:05+00:00",
+  "fetched_at": "2026-10-17T08:36:14+00:00",
   "categories": [
-    "desktop-ui"
+    "self-hosting-security"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "delorenj/mcp-server-trello",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "delorenj/mcp-server-trello",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -154,15 +154,15 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 10.715,
-      "momentum_ratio": 50.0,
-      "setup_delta": -10,
+      "star_ratio": 66.377,
+      "momentum_ratio": 267.0,
+      "setup_delta": -2,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "10.72x the stars (4,779 vs 446)",
-        "50.00x the star velocity (10.0/day vs 0.2/day)",
-        "no harder to set up (24 vs 34 friction)"
+        "66.38x the stars (29,604 vs 446)",
+        "267.00x the star velocity (53.4/day vs 0.2/day)",
+        "no harder to set up (32 vs 34 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -177,7 +177,9 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
@@ -185,12 +187,14 @@
           "notifications",
           "quota-management",
           "security-isolation",
-          "skills-plugins"
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
         ],
         "incumbent_health": 53,
-        "challenger_health": 62,
+        "challenger_health": 75,
         "incumbent_setup_score": 34,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 32
       }
     }
   }

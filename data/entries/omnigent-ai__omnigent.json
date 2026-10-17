@@ -6,9 +6,9 @@
   "url": "https://github.com/omnigent-ai/omnigent",
   "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
   "homepage": "https://omnigent.ai",
-  "stars": 10839,
-  "forks": 1756,
-  "open_issues": 2136,
+  "stars": 10854,
+  "forks": 1757,
+  "open_issues": 2255,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -30,33 +30,33 @@
     "sandbox"
   ],
   "created_at": "2026-06-11T12:18:13Z",
-  "updated_at": "2026-10-16T08:58:07Z",
-  "pushed_at": "2026-10-16T09:01:06Z",
+  "updated_at": "2026-10-17T07:33:52Z",
+  "pushed_at": "2026-10-17T08:33:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 126,
+  "age_days": 127,
   "days_since_push": 0,
-  "health_score": 67,
+  "health_score": 66,
   "health_components": {
     "popularity": 80.7,
-    "momentum": 16.8,
+    "momentum": 15.8,
     "maintenance": 100.0,
-    "documentation": 73.0,
+    "documentation": 68.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 101,
+    "stars_gained": 95,
     "days_span": 5,
-    "stars_per_day": 20.2,
-    "lifetime_stars_per_day": 86.02,
+    "stars_per_day": 19.0,
+    "lifetime_stars_per_day": 85.46,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "omnigent-ai/omnigent",
-    "readme_chars": 28910,
+    "readme_chars": 27630,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -78,8 +78,8 @@
       "multi-agent-orchestration": "agents ship with the repo, and they make good first sessions:",
       "worktree-isolation": "",
       "model-routing": "switch models in the middle of a session with the /model command.",
-      "api-gateway": "",
-      "agent-runtime": "",
+      "api-gateway": "A first-party vendor key for Anthropic, OpenAI, and similar providers",
+      "agent-runtime": "quires agy 1.1.13 or newer.",
       "mcp-support": "ies, searches the live web and reads",
       "self-hosted": "",
       "team-collaboration": "is up, sign in and register your laptop as a host:",
@@ -141,7 +141,7 @@
       "note_en": "Easy. install via Homebrew install, curl | sh installer; needs docker compose up, npm install/build; configure environment variables, API key configuration; no-code positioning",
       "note_zh": "较易上手。可通过 Homebrew install、curl | sh installer 安装；需要 docker compose up、npm install/build；需配置 environment variables、API key configuration；no-code positioning"
     },
-    "doc_score": 73,
+    "doc_score": 68,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -149,7 +149,6 @@
       "has a quick-start section",
       "documents installation",
       "documents configuration",
-      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
@@ -171,12 +170,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.83
+      "external_link_ratio": 0.869
     },
     "highlights": [
-      "Gemini API gateway — URL + key for an external gateway implementing native",
-      "the native omnigent claude / omnigent codex / omnigent cursor",
-      "Databricks — profile for a Databricks workspace with native Gemini API"
+      "the native omnigent claude / omnigent codex / omnigent cursor"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -187,11 +184,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:03:57+00:00",
+  "fetched_at": "2026-10-17T08:35:23+00:00",
   "categories": [
     "desktop-ui-2",
-    "remote-control-isolation",
-    "skills"
+    "model-routing",
+    "remote-control-isolation"
   ],
   "primary_category": "remote-control-isolation",
   "lifecycle": {

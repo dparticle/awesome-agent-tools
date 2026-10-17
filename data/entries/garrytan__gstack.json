@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 136617,
-  "forks": 20273,
-  "open_issues": 114,
+  "stars": 136703,
+  "forks": 20281,
+  "open_issues": 68,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-10-16T08:41:24Z",
-  "pushed_at": "2026-10-16T01:04:25Z",
+  "updated_at": "2026-10-17T08:26:46Z",
+  "pushed_at": "2026-10-17T06:49:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 218,
+  "age_days": 219,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 724,
+    "stars_gained": 615,
     "days_span": 5,
-    "stars_per_day": 144.8,
-    "lifetime_stars_per_day": 626.68,
+    "stars_per_day": 123.0,
+    "lifetime_stars_per_day": 624.21,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 88246,
+    "readme_chars": 87719,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -66,7 +66,7 @@
       "memory-context": "Come work at YC — ycombinator.com/software",
       "skills-plugins": "single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack f…",
       "agent-runtime": "ding speed and help harden gstack?",
-      "mcp-support": "n/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing, never use mcp\\\\claude-in-chro…",
+      "mcp-support": "stack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing and never use mcp\\\\claude-in-chro…",
       "security-isolation": "verify the chain with gstack-egress verify (exit 3 on tamper), and see the standing consent settings with gstack-egress grants.",
       "notifications": "office-hours — describe what you're building",
       "voice-input": "nk, plan, build, review, test, ship — each agent knows exactly what to do and when to stop.",
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.238
+      "external_link_ratio": 0.239
     },
     "highlights": [
       "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token.",
@@ -171,7 +171,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:13+00:00",
+  "fetched_at": "2026-10-17T08:35:36+00:00",
   "categories": [
     "analytics",
     "desktop-ui",

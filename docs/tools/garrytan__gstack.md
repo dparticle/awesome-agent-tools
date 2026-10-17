@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 136,617 |
-| Star velocity | 144.8/day (history basis, 5d span) |
+| Stars | 136,703 |
+| Star velocity | 123.0/day (history basis, 5d span) |
 | Health score | 90/100 |
 | Documentation | 81/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-10-16 (0 days ago) |
-| Analyzed README | 88,246 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 87,719 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -64,7 +64,7 @@
 
 ### MCP support
 
-> n/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a "gstack" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing, never use mcp\\claude-in-chro…
+> stack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a "gstack" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing and never use mcp\\claude-in-chro…
 
 ### Security & isolation
 

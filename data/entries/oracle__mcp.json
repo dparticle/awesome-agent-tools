@@ -7,8 +7,8 @@
   "description": "Repository containing MCP (Model Context Protocol) servers that provides a suite of tools for managing and interacting with Oracle products.",
   "homepage": "",
   "stars": 462,
-  "forks": 148,
-  "open_issues": 50,
+  "forks": 149,
+  "open_issues": 51,
   "language": "Python",
   "license": "UPL-1.0",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 446,
-  "days_since_push": 1,
+  "age_days": 447,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
     "popularity": 53.3,
@@ -33,7 +33,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 1.04,
+    "lifetime_stars_per_day": 1.03,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,11 +131,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:04+00:00",
+  "fetched_at": "2026-10-17T08:36:14+00:00",
   "categories": [
-    "analytics"
+    "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

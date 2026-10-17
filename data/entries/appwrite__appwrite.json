@@ -6,9 +6,9 @@
   "url": "https://github.com/appwrite/appwrite",
   "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
   "homepage": "https://appwrite.io",
-  "stars": 57698,
-  "forks": 5793,
-  "open_issues": 805,
+  "stars": 57710,
+  "forks": 5794,
+  "open_issues": 801,
   "language": "TypeScript",
   "license": "BSD-3-Clause",
   "topics": [
@@ -34,26 +34,26 @@
     "web"
   ],
   "created_at": "2019-04-08T16:36:25Z",
-  "updated_at": "2026-10-16T08:53:24Z",
-  "pushed_at": "2026-10-16T08:58:54Z",
+  "updated_at": "2026-10-17T07:58:12Z",
+  "pushed_at": "2026-10-17T07:59:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 2747,
+  "age_days": 2748,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
     "popularity": 95.2,
-    "momentum": 10.8,
+    "momentum": 10.2,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 67.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 65,
+    "stars_gained": 61,
     "days_span": 5,
-    "stars_per_day": 13.0,
+    "stars_per_day": 12.2,
     "lifetime_stars_per_day": 21.0,
     "basis": "history",
     "is_fast_riser": true
@@ -154,7 +154,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:20+00:00",
+  "fetched_at": "2026-10-17T08:35:42+00:00",
   "categories": [
     "self-hosting-security"
   ],

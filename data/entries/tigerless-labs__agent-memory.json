@@ -6,8 +6,8 @@
   "url": "https://github.com/tigerless-labs/agent-memory",
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
-  "stars": 3868,
-  "forks": 168,
+  "stars": 4018,
+  "forks": 174,
   "open_issues": 55,
   "language": "Python",
   "license": "MIT",
@@ -26,33 +26,33 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-10-16T09:02:13Z",
-  "pushed_at": "2026-10-15T15:10:02Z",
+  "updated_at": "2026-10-17T08:22:17Z",
+  "pushed_at": "2026-10-16T17:10:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 44,
+  "age_days": 45,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 81,
   "health_components": {
-    "popularity": 71.7,
-    "momentum": 77.8,
+    "popularity": 72.1,
+    "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 64.0,
+    "documentation": 65.0,
     "accessibility": 57.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 467,
+    "stars_gained": 616,
     "days_span": 5,
-    "stars_per_day": 93.4,
-    "lifetime_stars_per_day": 87.91,
+    "stars_per_day": 123.2,
+    "lifetime_stars_per_day": 89.29,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tigerless-labs/agent-memory",
-    "readme_chars": 26647,
+    "readme_chars": 29179,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -74,7 +74,7 @@
       "model-routing": 1,
       "api-gateway": 1,
       "memory-context": 1,
-      "mcp-support": 14,
+      "mcp-support": 20,
       "cross-agent-support": 2
     },
     "friction": {
@@ -96,12 +96,13 @@
       "friendliness_signals": [],
       "platforms": [
         "Windows",
-        "Linux"
+        "Linux",
+        "Web"
       ],
       "note_en": "Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, database dependency",
       "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration、database dependency"
     },
-    "doc_score": 64,
+    "doc_score": 65,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -126,7 +127,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.075
+      "external_link_ratio": 0.069
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -138,12 +139,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:31+00:00",
+  "fetched_at": "2026-10-17T08:35:50+00:00",
   "categories": [
     "analytics",
-    "skills"
+    "model-routing",
+    "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

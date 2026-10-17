@@ -7,7 +7,7 @@
   "description": "An open-source coding agent for the Grok API",
   "homepage": "",
   "stars": 3496,
-  "forks": 427,
+  "forks": 430,
   "open_issues": 35,
   "language": "TypeScript",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "xai"
   ],
   "created_at": "2025-07-14T07:57:39Z",
-  "updated_at": "2026-10-15T05:52:22Z",
+  "updated_at": "2026-10-17T00:21:32Z",
   "pushed_at": "2026-07-06T14:05:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 459,
-  "days_since_push": 101,
+  "age_days": 460,
+  "days_since_push": 102,
   "health_score": 51,
   "health_components": {
     "popularity": 70.9,
-    "momentum": 1.0,
+    "momentum": 1.2,
     "maintenance": 55.0,
     "documentation": 57.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 7.62,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 7.6,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:32+00:00",
+  "fetched_at": "2026-10-17T08:35:51+00:00",
   "categories": [
     "mobile-2",
     "remote-control-isolation",

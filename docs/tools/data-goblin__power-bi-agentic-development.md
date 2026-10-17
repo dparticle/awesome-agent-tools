@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,048 |
-| Star velocity | 2.6/day (history basis, 5d span) |
+| Stars | 1,052 |
+| Star velocity | 3.0/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 74/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | GPL-3.0 |
 | Language | C# |
 | Created | 2026-01-15 |
-| Last push | 2026-10-15 (0 days ago) |
+| Last push | 2026-10-15 (1 days ago) |
 | Analyzed README | 28,627 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -86,7 +84,7 @@ Score **74/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 60.4 |
-| momentum | 2.2 |
+| momentum | 2.5 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
 | accessibility | 66.0 |

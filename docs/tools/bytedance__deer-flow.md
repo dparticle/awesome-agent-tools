@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 83,943 |
-| Star velocity | 53.2/day (history basis, 5d span) |
-| Health score | 76/100 |
+| Stars | 83,982 |
+| Star velocity | 49.0/day (history basis, 5d span) |
+| Health score | 75/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-16 (0 days ago) |
-| Analyzed README | 306,776 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 308,853 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Model / provider routing
 
-> empty containers keep the existing "No results found" response.
+> ainer or entry position only, without queries or payload values.
 
 ### API gateway / proxy
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.5 |
-| momentum | 44.3 |
+| momentum | 40.8 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

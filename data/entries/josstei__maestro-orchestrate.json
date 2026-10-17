@@ -6,8 +6,8 @@
   "url": "https://github.com/josstei/maestro-orchestrate",
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
-  "stars": 480,
-  "forks": 39,
+  "stars": 485,
+  "forks": 40,
   "open_issues": 6,
   "language": "JavaScript",
   "license": "Apache-2.0",
@@ -34,27 +34,27 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-16T02:42:39Z",
+  "updated_at": "2026-10-17T05:47:41Z",
   "pushed_at": "2026-10-11T05:57:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 249,
-  "days_since_push": 5,
+  "age_days": 250,
+  "days_since_push": 6,
   "health_score": 51,
   "health_components": {
-    "popularity": 53.6,
-    "momentum": 2.5,
+    "popularity": 53.7,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 1.93,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 1.94,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,65 +135,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:03+00:00",
+  "fetched_at": "2026-10-17T08:36:13+00:00",
   "categories": [
     "analytics"
   ],
   "primary_category": "analytics",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "josstei/maestro-orchestrate",
-      "challenger": "hoangsonww/claude-code-agent-monitor",
-      "incumbent_name": "josstei/maestro-orchestrate",
-      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "session-persistence"
-      ],
-      "star_ratio": 2.25,
-      "momentum_ratio": 1.267,
-      "setup_delta": -21,
-      "dominance": 0.764,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "2.25x the stars (1,080 vs 480)",
-        "1.27x the star velocity (3.8/day vs 3.0/day)",
-        "no harder to set up (30 vs 51 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 55,
-        "incumbent_setup_score": 51,
-        "challenger_setup_score": 30
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

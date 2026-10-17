@@ -6,9 +6,9 @@
   "url": "https://github.com/feder-cr/invisible_playwright_mcp",
   "description": "Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.",
   "homepage": "https://github.com/feder-cr/invisible_playwright_mcp/wiki",
-  "stars": 2759,
-  "forks": 447,
-  "open_issues": 2,
+  "stars": 2762,
+  "forks": 446,
+  "open_issues": 1,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "webscraping"
   ],
   "created_at": "2026-09-29T23:06:00Z",
-  "updated_at": "2026-10-16T05:31:59Z",
+  "updated_at": "2026-10-17T07:52:09Z",
   "pushed_at": "2026-10-13T19:18:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 16,
-  "days_since_push": 2,
+  "age_days": 17,
+  "days_since_push": 3,
   "health_score": 57,
   "health_components": {
     "popularity": 68.8,
-    "momentum": 3.3,
+    "momentum": 1.3,
     "maintenance": 100.0,
     "documentation": 33.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 20,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 172.44,
+    "stars_per_day": 1.6,
+    "lifetime_stars_per_day": 162.47,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,11 +135,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:09+00:00",
+  "fetched_at": "2026-10-17T08:35:32+00:00",
   "categories": [
-    "analytics"
+    "analytics",
+    "desktop-ui-2"
   ],
-  "primary_category": "analytics",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

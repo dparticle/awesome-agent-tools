@@ -6,9 +6,9 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13670,
-  "forks": 1448,
-  "open_issues": 1142,
+  "stars": 13676,
+  "forks": 1473,
+  "open_issues": 1144,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,27 +19,27 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-16T08:03:32Z",
-  "pushed_at": "2026-10-16T05:46:18Z",
+  "updated_at": "2026-10-17T08:33:38Z",
+  "pushed_at": "2026-10-17T08:33:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 127,
+  "age_days": 128,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 82.7,
-    "momentum": 7.8,
+    "momentum": 7.0,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 47,
+    "stars_gained": 42,
     "days_span": 5,
-    "stars_per_day": 9.4,
-    "lifetime_stars_per_day": 107.64,
+    "stars_per_day": 8.4,
+    "lifetime_stars_per_day": 106.84,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -175,7 +175,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:03:55+00:00",
+  "fetched_at": "2026-10-17T08:35:22+00:00",
   "categories": [
     "analytics",
     "self-hosting-security",

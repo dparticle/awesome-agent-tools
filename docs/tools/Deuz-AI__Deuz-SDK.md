@@ -12,32 +12,38 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 680 |
-| Star velocity | 5.0/day (lifetime basis, 136d span) |
-| Health score | 53/100 |
-| Documentation | 38/100 |
+| Stars | 563 |
+| Star velocity | 4.1/day (lifetime basis, 137d span) |
+| Health score | 50/100 |
+| Documentation | 39/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
-| Last push | 2026-10-13 (3 days ago) |
-| Analyzed README | 3,977 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 5,623 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
+### Skills & plugins
+
 ### Agent runtime
 
-> service; it is tested offline.
+> er to native runs, an MCP server and A2A, realtime voice, batch requests and Redis backends: What's new in 2.3.
 
 ### MCP support
 
-> ersistent budgets, schedules, goal records, and a headless preview.
+> Evolve — evolutionary program search with a mandatory budget and zero-call resume.
+
+### Notifications
+
+> the goal, constraints and decisions.
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 31/100)
-- **Out of the box:** yes
+- **Difficulty:** 🟡 Some setup (friction score 37/100)
+- **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install @deuz-sdk/core`
 
@@ -45,13 +51,13 @@
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** database dependency
+**Configuration required:** database dependency, process manager
 
-*Easy. install via npx one-liner; needs npm install/build; configure database dependency*
+*Some setup. install via npx one-liner; needs npm install/build; configure database dependency, process manager*
 
 ## Documentation quality
 
-Score **38/100**, based on these detected signals:
+Score **39/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -64,11 +70,11 @@ Score **38/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 56.7 |
-| momentum | 4.2 |
+| popularity | 55.0 |
+| momentum | 3.4 |
 | maintenance | 100.0 |
-| documentation | 38.0 |
-| accessibility | 81.0 |
+| documentation | 39.0 |
+| accessibility | 63.0 |
 
 ---
 

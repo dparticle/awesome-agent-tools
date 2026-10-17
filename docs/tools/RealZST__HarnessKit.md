@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-27 |
-| Last push | 2026-10-13 (2 days ago) |
+| Last push | 2026-10-13 (3 days ago) |
 | Analyzed README | 17,724 chars from `raw:HEAD/README.md` |
 
 ## What it solves

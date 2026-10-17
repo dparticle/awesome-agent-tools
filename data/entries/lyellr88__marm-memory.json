@@ -8,7 +8,7 @@
   "homepage": "https://lyellr88.github.io/marm-memory",
   "stars": 421,
   "forks": 92,
-  "open_issues": 19,
+  "open_issues": 17,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,26 +34,26 @@
     "sqlite"
   ],
   "created_at": "2025-06-10T06:36:49Z",
-  "updated_at": "2026-10-14T23:05:14Z",
-  "pushed_at": "2026-10-15T01:25:25Z",
+  "updated_at": "2026-10-16T22:10:01Z",
+  "pushed_at": "2026-10-16T22:09:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 493,
-  "days_since_push": 1,
+  "age_days": 494,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 52.5,
-    "momentum": 0.5,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.85,
     "basis": "history",
     "is_fast_riser": false
@@ -196,11 +196,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:07+00:00",
+  "fetched_at": "2026-10-17T08:36:16+00:00",
   "categories": [
     "analytics",
-    "self-hosting-security",
-    "skills"
+    "model-routing",
+    "self-hosting-security"
   ],
   "primary_category": "analytics",
   "lifecycle": {

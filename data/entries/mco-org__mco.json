@@ -37,8 +37,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 232,
-  "days_since_push": 8,
+  "age_days": 233,
+  "days_since_push": 9,
   "health_score": 55,
   "health_components": {
     "popularity": 54.6,
@@ -52,7 +52,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.31,
+    "lifetime_stars_per_day": 2.3,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -143,8 +143,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:00+00:00",
+  "fetched_at": "2026-10-17T08:36:10+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
     "remote-control-isolation"
   ],

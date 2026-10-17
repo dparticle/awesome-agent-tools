@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,639 |
+| Stars | 3,644 |
 | Star velocity | 4.8/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 63/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-07-25 |
-| Last push | 2026-10-14 (1 days ago) |
+| Last push | 2026-10-16 (0 days ago) |
 | Analyzed README | 6,917 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [MoonshotAI/kimi-code](https://github.com/MoonshotAI/kimi-code)** — Superseded by MoonshotAI/kimi-code: covers 100% of capabilities (5/5).
 
 ## What it solves
 

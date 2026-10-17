@@ -6,9 +6,9 @@
   "url": "https://github.com/greenfield-inc/Pane",
   "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
   "homepage": "https://runpane.com/",
-  "stars": 547,
-  "forks": 228,
-  "open_issues": 224,
+  "stars": 551,
+  "forks": 229,
+  "open_issues": 228,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -34,33 +34,33 @@
     "worktree-manager"
   ],
   "created_at": "2026-02-27T01:34:13Z",
-  "updated_at": "2026-10-16T04:11:58Z",
-  "pushed_at": "2026-10-16T04:12:17Z",
+  "updated_at": "2026-10-16T23:17:52Z",
+  "pushed_at": "2026-10-17T06:33:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 231,
+  "age_days": 232,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 54.8,
-    "momentum": 3.0,
+    "momentum": 3.5,
     "maintenance": 100.0,
     "documentation": 70.0,
-    "accessibility": 85.0
+    "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 21,
     "days_span": 5,
-    "stars_per_day": 3.6,
-    "lifetime_stars_per_day": 2.37,
+    "stars_per_day": 4.2,
+    "lifetime_stars_per_day": 2.38,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "greenfield-inc/Pane",
-    "readme_chars": 33027,
+    "readme_chars": 33506,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -77,7 +77,7 @@
     ],
     "capability_evidence": {
       "mobile-access": "als so every pane can see its own running dev server without alt-tabbing.",
-      "multi-agent-orchestration": "rectory, reads a generated local runtime context, and uses the runpane CLI to inspect and operate the workspace.",
+      "multi-agent-orchestration": "it continues where it left off.",
       "parallel-execution": "know how git worktrees work?\"",
       "worktree-isolation": "ack of which agent is on which branch.",
       "session-persistence": "",
@@ -105,7 +105,7 @@
     },
     "friction": {
       "level": "low",
-      "score": 23,
+      "score": 29,
       "out_of_the_box": false,
       "non_programmer_friendly": true,
       "easy_signals": [
@@ -123,7 +123,8 @@
       ],
       "config_signals": [
         "API key configuration",
-        "sign-in required"
+        "sign-in required",
+        "database migration"
       ],
       "friendliness_signals": [
         "one-click setup",
@@ -172,7 +173,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.545
+      "external_link_ratio": 0.537
     },
     "highlights": [
       "Developers on any OS: Mac, Windows, and Linux are all first-class citizens, with no \"Mac-first with a Windows waitlist\"",
@@ -189,7 +190,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:59+00:00",
+  "fetched_at": "2026-10-17T08:36:10+00:00",
   "categories": [
     "desktop-ui-2",
     "remote-control-isolation",

@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
   "homepage": "https://career-ops.org",
-  "stars": 75126,
-  "forks": 14026,
-  "open_issues": 356,
+  "stars": 75281,
+  "forks": 14044,
+  "open_issues": 344,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "terminal"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-10-16T09:00:55Z",
-  "pushed_at": "2026-10-16T08:14:57Z",
+  "updated_at": "2026-10-17T08:30:09Z",
+  "pushed_at": "2026-10-17T07:55:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 194,
+  "age_days": 195,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1108,
+    "stars_gained": 1154,
     "days_span": 5,
-    "stars_per_day": 221.6,
-    "lifetime_stars_per_day": 387.25,
+    "stars_per_day": 230.8,
+    "lifetime_stars_per_day": 386.06,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 45917,
+    "readme_chars": 45956,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -142,7 +142,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.523
+      "external_link_ratio": 0.522
     },
     "highlights": [
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
@@ -158,11 +158,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:18+00:00",
+  "fetched_at": "2026-10-17T08:35:40+00:00",
   "categories": [
-    "skills"
+    "model-routing"
   ],
-  "primary_category": "skills",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

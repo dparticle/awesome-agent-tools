@@ -6,8 +6,8 @@
   "url": "https://github.com/robzilla1738/harness-terminal",
   "description": "Native macOS terminal with GPU rendering, durable sessions, coding-agent workflows, and SSH connectivity. Session host, daemon, and CLI support Linux; optional MCP and AI summaries.",
   "homepage": "https://thebestterminal.com",
-  "stars": 305,
-  "forks": 23,
+  "stars": 307,
+  "forks": 24,
   "open_issues": 6,
   "language": "Swift",
   "license": "MIT",
@@ -29,26 +29,26 @@
     "terminal-emulator"
   ],
   "created_at": "2026-05-27T21:37:13Z",
-  "updated_at": "2026-10-14T02:27:57Z",
+  "updated_at": "2026-10-17T08:30:58Z",
   "pushed_at": "2026-10-14T02:27:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 141,
-  "days_since_push": 2,
+  "age_days": 142,
+  "days_since_push": 3,
   "health_score": 53,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 0.2,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 2.16,
     "basis": "history",
     "is_fast_riser": false
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:18+00:00",
+  "fetched_at": "2026-10-17T08:36:24+00:00",
   "categories": [
     "desktop-ui-2",
     "remote-control-isolation",
     "self-hosting-security"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

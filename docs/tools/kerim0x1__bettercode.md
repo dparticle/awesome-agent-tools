@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-09-20 |
-| Last push | 2026-10-13 (3 days ago) |
-| Analyzed README | 12,627 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-16 (0 days ago) |
+| Analyzed README | 12,673 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).
 
@@ -38,11 +38,11 @@
 
 ### Agent runtime
 
-> project files, terminals, and live previews together.
+> erminals, and live previews together.
 
 ### Team collaboration
 
-> nd live previews together.
+> chat, and a shared workspace
 
 ### GUI / desktop app
 

@@ -6,7 +6,7 @@
   "url": "https://github.com/Eshaan-Nair/ArcRift",
   "description": "Persistent local memory layer for AI. ArcRift uses a extension and a native MCP server to sync context and decisions from your browser chats (Claude, ChatGPT, DeepSeek) straight to your local IDE agents (Cursor, Claude Code, Windsurf)  powered by a local SQLite knowledge graph.",
   "homepage": "https://arcrift.vercel.app/",
-  "stars": 246,
+  "stars": 247,
   "forks": 35,
   "open_issues": 1,
   "language": "TypeScript",
@@ -31,28 +31,28 @@
     "sqlite"
   ],
   "created_at": "2026-04-21T06:26:25Z",
-  "updated_at": "2026-10-12T01:01:27Z",
+  "updated_at": "2026-10-17T07:28:33Z",
   "pushed_at": "2026-07-07T12:52:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 178,
-  "days_since_push": 100,
-  "health_score": 46,
+  "age_days": 179,
+  "days_since_push": 101,
+  "health_score": 45,
   "health_components": {
-    "popularity": 47.8,
-    "momentum": 1.2,
+    "popularity": 47.9,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 71.0,
     "accessibility": 80.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 246,
-    "days_span": 178,
-    "stars_per_day": 1.38,
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.38,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -161,7 +161,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:25+00:00",
+  "fetched_at": "2026-10-17T08:36:29+00:00",
   "categories": [
     "analytics",
     "desktop-ui-2"

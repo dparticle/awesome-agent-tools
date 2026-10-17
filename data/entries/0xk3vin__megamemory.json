@@ -7,7 +7,7 @@
   "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
   "homepage": "",
   "stars": 725,
-  "forks": 75,
+  "forks": 76,
   "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
-  "days_since_push": 166,
+  "age_days": 253,
+  "days_since_push": 167,
   "health_score": 43,
   "health_components": {
     "popularity": 57.2,
@@ -49,7 +49,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.88,
+    "lifetime_stars_per_day": 2.87,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,7 +139,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:54+00:00",
+  "fetched_at": "2026-10-17T08:36:07+00:00",
   "categories": [
     "analytics"
   ],
@@ -166,14 +166,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 10.073,
-      "momentum_ratio": 86.5,
+      "star_ratio": 10.167,
+      "momentum_ratio": 112.5,
       "setup_delta": 6,
       "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "10.07x the stars (7,303 vs 725)",
-        "86.50x the star velocity (34.6/day vs 0.4/day)",
+        "10.17x the stars (7,371 vs 725)",
+        "112.50x the star velocity (45.0/day vs 0.4/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -193,7 +193,7 @@
           "session-persistence"
         ],
         "incumbent_health": 43,
-        "challenger_health": 66,
+        "challenger_health": 68,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 34
       }

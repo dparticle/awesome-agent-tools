@@ -6,8 +6,8 @@
   "url": "https://github.com/Dataojitori/nocturne_memory",
   "description": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw.",
   "homepage": "https://misaligned.top/memory",
-  "stars": 1393,
-  "forks": 175,
+  "stars": 1394,
+  "forks": 182,
   "open_issues": 5,
   "language": "Python",
   "license": "MIT",
@@ -31,27 +31,27 @@
     "sqlite"
   ],
   "created_at": "2025-12-25T08:45:54Z",
-  "updated_at": "2026-10-16T06:55:33Z",
+  "updated_at": "2026-10-16T15:24:36Z",
   "pushed_at": "2026-09-22T20:13:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 295,
-  "days_since_push": 23,
+  "days_since_push": 24,
   "health_score": 51,
   "health_components": {
     "popularity": 62.9,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 92.0,
     "documentation": 66.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 4.72,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 4.73,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,7 +165,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:40+00:00",
+  "fetched_at": "2026-10-17T08:35:57+00:00",
   "categories": [
     "analytics",
     "remote-control-isolation"

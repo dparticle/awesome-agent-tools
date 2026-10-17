@@ -12,11 +12,11 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 32,382 |
-| Star velocity | 78.0/day (history basis, 5d span) |
-| Health score | 79/100 |
+| Stars | 32,418 |
+| Star velocity | 67.2/day (history basis, 5d span) |
+| Health score | 77/100 |
 | Documentation | 67/100 |
-| Tier | 🏆 Flagship |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
@@ -80,7 +80,7 @@ Score **67/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 90.2 |
-| momentum | 65.0 |
+| momentum | 56.0 |
 | maintenance | 100.0 |
 | documentation | 67.0 |
 | accessibility | 60.0 |

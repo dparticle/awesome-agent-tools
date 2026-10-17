@@ -6,7 +6,7 @@
   "url": "https://github.com/WenyuChiou/ai-research-skills",
   "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
   "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
-  "stars": 384,
+  "stars": 387,
   "forks": 23,
   "open_issues": 2,
   "language": "Python",
@@ -34,26 +34,26 @@
     "zotero"
   ],
   "created_at": "2026-04-25T17:46:37Z",
-  "updated_at": "2026-10-16T05:26:00Z",
-  "pushed_at": "2026-10-16T05:26:53Z",
+  "updated_at": "2026-10-17T07:32:12Z",
+  "pushed_at": "2026-10-17T07:32:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 173,
+  "age_days": 174,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 51.7,
-    "momentum": 12.0,
+    "popularity": 51.8,
+    "momentum": 12.5,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 72,
+    "stars_gained": 75,
     "days_span": 5,
-    "stars_per_day": 14.4,
+    "stars_per_day": 15.0,
     "lifetime_stars_per_day": 2.22,
     "basis": "history",
     "is_fast_riser": true
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:09+00:00",
+  "fetched_at": "2026-10-17T08:36:18+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

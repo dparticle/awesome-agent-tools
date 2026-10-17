@@ -7,8 +7,8 @@
   "description": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
   "homepage": "",
   "stars": 1099,
-  "forks": 204,
-  "open_issues": 23,
+  "forks": 205,
+  "open_issues": 24,
   "language": "",
   "license": "",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 362,
-  "days_since_push": 33,
+  "age_days": 363,
+  "days_since_push": 34,
   "health_score": 50,
   "health_components": {
     "popularity": 60.8,
@@ -33,7 +33,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 3.04,
+    "lifetime_stars_per_day": 3.03,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -157,7 +157,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:44+00:00",
+  "fetched_at": "2026-10-17T08:36:01+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

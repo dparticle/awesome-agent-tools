@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 13870,
-  "forks": 966,
-  "open_issues": 863,
+  "stars": 14451,
+  "forks": 1025,
+  "open_issues": 980,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-16T09:03:23Z",
-  "pushed_at": "2026-10-16T08:20:21Z",
+  "updated_at": "2026-10-17T08:33:56Z",
+  "pushed_at": "2026-10-17T08:15:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 22,
+  "age_days": 23,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 82.8,
+    "popularity": 83.2,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5028,
+    "stars_gained": 4338,
     "days_span": 5,
-    "stars_per_day": 1005.6,
-    "lifetime_stars_per_day": 630.45,
+    "stars_per_day": 867.6,
+    "lifetime_stars_per_day": 628.3,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 18657,
+    "readme_chars": 18938,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -137,7 +137,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.769
+      "external_link_ratio": 1.743
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -159,11 +159,11 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-16T09:03:49+00:00",
+  "fetched_at": "2026-10-17T08:35:18+00:00",
   "categories": [
-    "sharing",
-    "sharing-2",
-    "skills"
+    "desktop-ui-2",
+    "model-routing",
+    "sharing"
   ],
   "primary_category": "sharing",
   "lifecycle": {

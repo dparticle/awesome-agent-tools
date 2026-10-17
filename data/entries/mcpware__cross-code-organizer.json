@@ -8,7 +8,7 @@
   "homepage": "https://www.npmjs.com/package/@mcpware/cross-code-organizer",
   "stars": 383,
   "forks": 33,
-  "open_issues": 13,
+  "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "tool-poisoning"
   ],
   "created_at": "2026-03-18T21:50:10Z",
-  "updated_at": "2026-10-13T15:34:55Z",
-  "pushed_at": "2026-10-14T10:26:04Z",
+  "updated_at": "2026-10-16T22:26:35Z",
+  "pushed_at": "2026-10-16T22:26:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 211,
-  "days_since_push": 1,
+  "age_days": 212,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 51.7,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 6,
+    "days_span": 7,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.82,
+    "lifetime_stars_per_day": 1.81,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -163,17 +163,75 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:10+00:00",
+  "fetched_at": "2026-10-17T08:36:19+00:00",
   "categories": [
-    "analytics",
-    "desktop-ui-2"
+    "desktop-ui",
+    "desktop-ui-2",
+    "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "genspark-ai/genoffice",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "mcpware/cross-code-organizer",
+      "challenger": "genspark-ai/genoffice",
+      "incumbent_name": "mcpware/cross-code-organizer",
+      "challenger_name": "genspark-ai/genoffice",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "skills-plugins",
+        "usage-analytics"
+      ],
+      "star_ratio": 25.77,
+      "momentum_ratio": 1896.0,
+      "setup_delta": 0,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "25.77x the stars (9,870 vs 383)",
+        "1896.00x the star velocity (94.8/day vs 0.0/day)",
+        "no harder to set up (20 vs 20 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 54,
+        "challenger_health": 80,
+        "incumbent_setup_score": 20,
+        "challenger_setup_score": 20
+      }
+    }
   }
 }

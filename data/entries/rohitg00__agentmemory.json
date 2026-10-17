@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://agent-memory.dev",
-  "stars": 29570,
-  "forks": 2606,
-  "open_issues": 569,
+  "stars": 29604,
+  "forks": 2609,
+  "open_issues": 571,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,33 +27,33 @@
     "openclaw"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-10-16T08:52:39Z",
-  "pushed_at": "2026-10-16T08:49:20Z",
+  "updated_at": "2026-10-17T07:54:02Z",
+  "pushed_at": "2026-10-16T13:14:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
+  "age_days": 234,
   "days_since_push": 0,
   "health_score": 75,
   "health_components": {
     "popularity": 89.4,
-    "momentum": 45.5,
+    "momentum": 44.5,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 273,
+    "stars_gained": 267,
     "days_span": 5,
-    "stars_per_day": 54.6,
-    "lifetime_stars_per_day": 126.91,
+    "stars_per_day": 53.4,
+    "lifetime_stars_per_day": 126.51,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rohitg00/agentmemory",
-    "readme_chars": 128858,
+    "readme_chars": 129007,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -198,7 +198,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:24+00:00",
+  "fetched_at": "2026-10-17T08:35:45+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 356 |
-| Star velocity | 0.6/day (lifetime basis, 586d span) |
+| Star velocity | 0.6/day (lifetime basis, 587d span) |
 | Health score | 53/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-03-08 |
-| Last push | 2026-10-14 (1 days ago) |
+| Last push | 2026-10-16 (0 days ago) |
 | Analyzed README | 4,356 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [superdesigndev/treg](https://github.com/superdesigndev/treg)** — Superseded by superdesigndev/treg: covers 100% of capabilities (4/4).

@@ -6,40 +6,40 @@
   "url": "https://github.com/thedivergentai/Game-Dev-Agentic-Skills",
   "description": "Multi-engine long-term memory for game AI agents. Deep Godot 4.7+ (99 skills, 27 genre blueprints) + Bevy docs-first parity — audited patterns, persona orchestration (Analyst · Auditor · Builder), production-grade engineering.",
   "homepage": "",
-  "stars": 857,
+  "stars": 858,
   "forks": 54,
   "open_issues": 0,
   "language": "GDScript",
   "license": "LGPL-3.0",
   "topics": [],
   "created_at": "2026-02-07T18:06:05Z",
-  "updated_at": "2026-10-16T06:10:36Z",
-  "pushed_at": "2026-10-14T14:13:13Z",
+  "updated_at": "2026-10-17T05:13:58Z",
+  "pushed_at": "2026-10-16T20:58:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 250,
-  "days_since_push": 1,
+  "age_days": 251,
+  "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 58.7,
-    "momentum": 2.9,
+    "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 857,
-    "days_span": 250,
-    "stars_per_day": 3.43,
-    "lifetime_stars_per_day": 3.43,
+    "stars_gained": 858,
+    "days_span": 251,
+    "stars_per_day": 3.42,
+    "lifetime_stars_per_day": 3.42,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "thedivergentai/Game-Dev-Agentic-Skills",
-    "readme_chars": 54637,
+    "readme_chars": 56662,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -51,20 +51,20 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "skills to elevate the knowledge depth and execution quality to the highest agentic standard.",
+      "multi-agent-orchestration": "ls to elevate the knowledge depth and execution quality to the highest agentic standard.",
       "parallel-execution": "",
-      "memory-context": "Godot starts at godot-master.",
+      "memory-context": "",
       "skills-plugins": "# Game Dev Agentic Skills",
-      "agent-runtime": "#### v0.0.1 — Initial Launch - The Foundation: Released the initial library of 80+ Godot 4.x Agentic Skills. - Agent-First Design: Established the DIA (Discovery-Ingestion-Application) loop for AI Coding Agents. - Core…",
-      "mcp-support": "- MCP Clean-up & Direct Building: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing native",
+      "agent-runtime": "",
+      "mcp-support": "- **MCP Clean-up & Direct Building**: Defunct MCP Setup and MCP Builder skills have been removed; we now use Auditor and Builder to construct and compile projects directly via the Godot CLI, maximizing nativ",
       "gui-desktop": "",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 10,
+      "multi-agent-orchestration": 12,
       "parallel-execution": 1,
       "memory-context": 2,
-      "skills-plugins": 7,
+      "skills-plugins": 5,
       "agent-runtime": 1,
       "mcp-support": 3,
       "gui-desktop": 1,
@@ -125,7 +125,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.238
+      "external_link_ratio": 0.229
     },
     "highlights": [
       "Godot 4.7 Director's Cut: Full library upgrade to Godot 4.7+ - AreaLight3D, HDR output, Asset Store, built-in virtual joystick, and a version digest for 4.6 to 4.7 projects.",
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:50+00:00",
+  "fetched_at": "2026-10-17T08:36:04+00:00",
   "categories": [
     "analytics",
     "desktop-ui",

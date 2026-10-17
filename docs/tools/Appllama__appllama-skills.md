@@ -12,11 +12,11 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,870 |
-| Star velocity | 66.2/day (history basis, 5d span) |
-| Health score | 62/100 |
+| Stars | 2,877 |
+| Star velocity | 65.6/day (history basis, 5d span) |
+| Health score | 61/100 |
 | Documentation | 27/100 |
-| Tier | ✅ Recommended |
+| Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | n/a |
@@ -69,7 +69,7 @@ Score **27/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 69.2 |
-| momentum | 55.2 |
+| momentum | 54.7 |
 | maintenance | 78.0 |
 | documentation | 27.0 |
 | accessibility | 75.0 |

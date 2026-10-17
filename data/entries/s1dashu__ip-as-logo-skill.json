@@ -6,8 +6,8 @@
   "url": "https://github.com/s1dashu/ip-as-logo-skill",
   "description": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
   "homepage": "https://ipaslogo.com",
-  "stars": 6015,
-  "forks": 288,
+  "stars": 6023,
+  "forks": 289,
   "open_issues": 6,
   "language": "",
   "license": "MIT",
@@ -19,27 +19,27 @@
     "mascot-design"
   ],
   "created_at": "2026-08-18T13:59:23Z",
-  "updated_at": "2026-10-16T07:26:03Z",
+  "updated_at": "2026-10-17T07:50:50Z",
   "pushed_at": "2026-08-22T16:48:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 58,
-  "days_since_push": 54,
+  "age_days": 59,
+  "days_since_push": 55,
   "health_score": 59,
   "health_components": {
     "popularity": 75.6,
-    "momentum": 18.7,
+    "momentum": 17.8,
     "maintenance": 78.0,
     "documentation": 36.0,
     "accessibility": 99.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 112,
+    "stars_gained": 107,
     "days_span": 5,
-    "stars_per_day": 22.4,
-    "lifetime_stars_per_day": 103.71,
+    "stars_per_day": 21.4,
+    "lifetime_stars_per_day": 102.08,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -114,7 +114,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:03+00:00",
+  "fetched_at": "2026-10-17T08:35:28+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

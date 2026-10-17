@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 451 |
-| Star velocity | 2.6/day (history basis, 5d span) |
+| Stars | 455 |
+| Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 50/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Dart |
 | Created | 2026-05-22 |
-| Last push | 2026-10-11 (5 days ago) |
+| Last push | 2026-10-11 (6 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -65,8 +65,8 @@ Score **46/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.1 |
-| momentum | 2.2 |
+| popularity | 53.2 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 46.0 |
 | accessibility | 64.0 |

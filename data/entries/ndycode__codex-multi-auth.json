@@ -6,9 +6,9 @@
   "url": "https://github.com/ndycode/codex-multi-auth",
   "description": "Codex CLI multi-account OAuth manager with account switching, health checks, runtime rotation, diagnostics, and recovery tools for @openai/codex",
   "homepage": "https://www.npmjs.com/package/codex-multi-auth",
-  "stars": 549,
+  "stars": 548,
   "forks": 71,
-  "open_issues": 5,
+  "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,48 +34,51 @@
     "typescript"
   ],
   "created_at": "2026-02-22T22:37:04Z",
-  "updated_at": "2026-10-16T03:36:43Z",
-  "pushed_at": "2026-10-14T12:44:03Z",
+  "updated_at": "2026-10-16T15:11:22Z",
+  "pushed_at": "2026-10-16T14:29:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 235,
-  "days_since_push": 1,
+  "age_days": 236,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 54.8,
-    "momentum": 1.8,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 2.34,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 2.32,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "ndycode/codex-multi-auth",
-    "readme_chars": 10766,
+    "readme_chars": 10891,
     "capabilities": [
       "multi-account-switching",
       "api-gateway",
+      "gui-desktop",
       "voice-input",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "multi-account-switching": "OpenAI install keeps owning that command.",
-      "api-gateway": "multi-auth login ≡ codex-multi-auth auth login.",
+      "api-gateway": "h, including the local real-time web dashboard.",
+      "gui-desktop": "witch, forecast, rotation, fix, ...).",
       "voice-input": "ing, or let health- and quota-aware hybrid selection rotate for you.",
       "cross-agent-support": "Mentions Codex, OpenCode"
     },
     "capability_hits": {
       "multi-account-switching": 3,
       "api-gateway": 1,
+      "gui-desktop": 1,
       "voice-input": 1,
       "cross-agent-support": 2
     },
@@ -128,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.464
+      "external_link_ratio": 0.459
     },
     "highlights": [
       "Account pool — OAuth login for multiple ChatGPT accounts, stored locally under ~/.codex/multi-auth (files 0600, directories 0700), with per-project pools under projects/ /.",
@@ -145,10 +148,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:59+00:00",
+  "fetched_at": "2026-10-17T08:36:10+00:00",
   "categories": [
-    "sharing",
-    "sharing-2"
+    "sharing"
   ],
   "primary_category": "sharing",
   "lifecycle": {

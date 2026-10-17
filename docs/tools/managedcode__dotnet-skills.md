@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 488 |
-| Star velocity | 2.3/day (lifetime basis, 214d span) |
-| Health score | 57/100 |
+| Stars | 489 |
+| Star velocity | 0.6/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | C# |
 | Created | 2026-03-15 |
-| Last push | 2026-10-16 (0 days ago) |
+| Last push | 2026-10-17 (0 days ago) |
 | Analyzed README | 31,851 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development)** — Superseded by data-goblin/power-bi-agentic-development: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -84,7 +84,7 @@ Score **64/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.8 |
-| momentum | 1.9 |
+| momentum | 0.5 |
 | maintenance | 100.0 |
 | documentation | 64.0 |
 | accessibility | 90.0 |

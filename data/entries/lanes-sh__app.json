@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 207,
-  "days_since_push": 9,
+  "age_days": 208,
+  "days_since_push": 10,
   "health_score": 48,
   "health_components": {
     "popularity": 48.8,
@@ -139,7 +139,7 @@
       "The model provider you choose. Gateway points a session at Ollama, LM Studio, vLLM, OpenRouter or z.ai, applied as real process environment so the request goes straight from the CLI to your…",
       "A git client, not just a diff. Commit, publish, switch branches, undo the last unpushed commit, and open a pull request from the issue panel.",
       "Claude Code and Codex, first class.",
-      "A worktree per issue. Generated branch names, uncommitted state in the status bar, setup and teardown scripts, and auto-cleanup when the issue completes."
+      "GitHub and Linear over OAuth. Import a whole sprint onto the board, and push results back as comments."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -150,8 +150,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:23+00:00",
+  "fetched_at": "2026-10-17T08:36:28+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
     "remote-control-isolation"
   ],
@@ -180,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.529,
-      "momentum_ratio": 149.0,
+      "star_ratio": 122.595,
+      "momentum_ratio": 132.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.53x the stars (33,573 vs 274)",
-        "149.00x the star velocity (29.8/day vs 0.2/day)",
+        "122.59x the stars (33,591 vs 274)",
+        "132.00x the star velocity (26.4/day vs 0.2/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -216,7 +217,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 73,
+        "challenger_health": 72,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2
       }

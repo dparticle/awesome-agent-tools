@@ -6,9 +6,9 @@
   "url": "https://github.com/rlaope/oh-my-hermes",
   "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
   "homepage": "https://rlaope.github.io/oh-my-hermes/",
-  "stars": 3385,
-  "forks": 252,
-  "open_issues": 14,
+  "stars": 3400,
+  "forks": 254,
+  "open_issues": 11,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -23,33 +23,33 @@
     "skills"
   ],
   "created_at": "2026-06-03T13:00:34Z",
-  "updated_at": "2026-10-16T08:01:56Z",
-  "pushed_at": "2026-10-16T08:18:51Z",
+  "updated_at": "2026-10-17T07:58:07Z",
+  "pushed_at": "2026-10-17T07:57:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 134,
+  "age_days": 135,
   "days_since_push": 0,
-  "health_score": 67,
+  "health_score": 65,
   "health_components": {
     "popularity": 70.6,
-    "momentum": 21.2,
+    "momentum": 12.3,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 99.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 127,
+    "stars_gained": 74,
     "days_span": 5,
-    "stars_per_day": 25.4,
-    "lifetime_stars_per_day": 25.26,
+    "stars_per_day": 14.8,
+    "lifetime_stars_per_day": 25.19,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rlaope/oh-my-hermes",
-    "readme_chars": 38237,
+    "readme_chars": 40541,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -131,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.105
+      "external_link_ratio": 0.099
     },
     "highlights": [
       "Mixture-of-Models Routing — each delegated lane is routed onto a"
@@ -150,11 +150,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:32+00:00",
+  "fetched_at": "2026-10-17T08:35:51+00:00",
   "categories": [
-    "desktop-ui-2",
-    "remote-control-isolation",
-    "skills"
+    "desktop-ui",
+    "model-routing",
+    "remote-control-isolation"
   ],
   "primary_category": "remote-control-isolation",
   "lifecycle": {

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 291 |
-| Star velocity | 2.7/day (lifetime basis, 109d span) |
+| Stars | 292 |
+| Star velocity | 2.6/day (lifetime basis, 110d span) |
 | Health score | 49/100 |
 | Documentation | 52/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-29 |
-| Last push | 2026-10-16 (0 days ago) |
+| Last push | 2026-10-17 (0 days ago) |
 | Analyzed README | 16,568 chars from `raw:HEAD/README.md` |
 
 ## What it solves

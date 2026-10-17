@@ -8,7 +8,7 @@
   "homepage": "https://ledgerforge.io",
   "stars": 408,
   "forks": 42,
-  "open_issues": 0,
+  "open_issues": 10,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -22,28 +22,28 @@
   ],
   "created_at": "2026-05-10T09:41:41Z",
   "updated_at": "2026-10-14T14:45:22Z",
-  "pushed_at": "2026-10-10T09:36:18Z",
+  "pushed_at": "2026-10-16T14:24:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 158,
-  "days_since_push": 5,
+  "age_days": 159,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 52.2,
-    "momentum": 2.2,
+    "momentum": 3.8,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 48.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 408,
-    "days_span": 158,
-    "stars_per_day": 2.58,
-    "lifetime_stars_per_day": 2.58,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 23,
+    "days_span": 5,
+    "stars_per_day": 4.6,
+    "lifetime_stars_per_day": 2.57,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "devaccuracy/ledgerforge",
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:09+00:00",
+  "fetched_at": "2026-10-17T08:36:17+00:00",
   "categories": [
     "billing",
     "self-hosting-security"

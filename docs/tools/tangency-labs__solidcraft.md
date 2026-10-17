@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — do not edit by hand. Run `python scripts/agentindex.py build` (or wait for the daily workflow). -->
 
-# bherbruck/solidcraft
+# tangency-labs/solidcraft
 
-> An open-source parametric 3D CAD application built in pure Rust.
+> Sketch, constrain, and build solids with a parametric feature timeline.
 
-[Repository](https://github.com/bherbruck/solidcraft) · [Back to index](../../README.md) · Category: **None**
+[Repository](https://github.com/tangency-labs/solidcraft) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -12,27 +12,27 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,865 |
-| Star velocity | 358.1/day (lifetime basis, 8d span) |
-| Health score | 85/100 |
-| Documentation | 60/100 |
+| Stars | 3,183 |
+| Star velocity | 353.7/day (lifetime basis, 9d span) |
+| Health score | 87/100 |
+| Documentation | 69/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-10-07 |
-| Last push | 2026-10-16 (0 days ago) |
-| Analyzed README | 20,052 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 22,665 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### MCP support
 
-> , constrain, and build solids with a parametric feature timeline.
+> constrain, and build solids with a parametric feature timeline.
 
 ### GUI / desktop app
 
-> ll video, recorded with the demo script.
+> With WinGet: winget install bherbruck.SolidCraft. - macOS: open the [disk image][macos-dmg] and drag SolidCraft into Applications (Apple silicon and Intel). - Linux: download the [AppImage][linux-appimage], allow it to…
 
 ## Setup reality check
 
@@ -46,7 +46,7 @@
 
 ## Documentation quality
 
-Score **60/100**, based on these detected signals:
+Score **69/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -55,6 +55,8 @@ Score **60/100**, based on these detected signals:
 - documents installation
 - documents configuration
 - has contribution guidance
+- mentions licensing
+- links to dedicated docs
 - publishes a roadmap
 - explains architecture
 - long, detailed README
@@ -63,10 +65,10 @@ Score **60/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 69.1 |
+| popularity | 70.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 60.0 |
+| documentation | 69.0 |
 | accessibility | 100.0 |
 
 ---

@@ -6,9 +6,9 @@
   "url": "https://github.com/Deuz-AI/Deuz-SDK",
   "description": "TypeScript AI SDK and agent framework with zero dependencies. Build production AI agents and multi-agent swarms: durable execution, long-term memory, hybrid RAG, MCP client/server, A2A, human-in-the-loop approvals, CodeAct sandboxes, realtime voice. One streaming API, 29 providers: Claude, GPT, Gemini, Grok, DeepSeek, Ollama. Node, Bun, Deno, edge.",
   "homepage": "https://deuz-sdk.tech",
-  "stars": 680,
-  "forks": 3,
-  "open_issues": 1,
+  "stars": 563,
+  "forks": 5,
+  "open_issues": 12,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,49 +34,55 @@
     "voice-agent"
   ],
   "created_at": "2026-06-01T19:18:59Z",
-  "updated_at": "2026-10-15T14:43:36Z",
-  "pushed_at": "2026-10-13T07:39:01Z",
+  "updated_at": "2026-10-17T06:25:55Z",
+  "pushed_at": "2026-10-16T21:43:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 136,
-  "days_since_push": 3,
-  "health_score": 53,
+  "age_days": 137,
+  "days_since_push": 0,
+  "health_score": 50,
   "health_components": {
-    "popularity": 56.7,
-    "momentum": 4.2,
+    "popularity": 55.0,
+    "momentum": 3.4,
     "maintenance": 100.0,
-    "documentation": 38.0,
-    "accessibility": 81.0
+    "documentation": 39.0,
+    "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 680,
-    "days_span": 136,
-    "stars_per_day": 5.0,
-    "lifetime_stars_per_day": 5.0,
+    "stars_gained": 563,
+    "days_span": 137,
+    "stars_per_day": 4.11,
+    "lifetime_stars_per_day": 4.11,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Deuz-AI/Deuz-SDK",
-    "readme_chars": 3977,
+    "readme_chars": 5623,
     "capabilities": [
+      "skills-plugins",
       "agent-runtime",
-      "mcp-support"
+      "mcp-support",
+      "notifications"
     ],
     "capability_evidence": {
-      "agent-runtime": "service; it is tested offline.",
-      "mcp-support": "ersistent budgets, schedules, goal records, and a headless preview."
+      "skills-plugins": "",
+      "agent-runtime": "er to native runs, an MCP server and A2A, realtime voice, batch requests and Redis backends: What's new in 2.3.",
+      "mcp-support": "Evolve — evolutionary program search with a mandatory budget and zero-call resume.",
+      "notifications": "the goal, constraints and decisions."
     },
     "capability_hits": {
+      "skills-plugins": 1,
       "agent-runtime": 1,
-      "mcp-support": 4
+      "mcp-support": 3,
+      "notifications": 1
     },
     "friction": {
-      "level": "low",
-      "score": 31,
-      "out_of_the_box": true,
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "npx one-liner"
@@ -85,17 +91,18 @@
         "npm install/build"
       ],
       "config_signals": [
-        "database dependency"
+        "database dependency",
+        "process manager"
       ],
       "friendliness_signals": [],
       "platforms": [
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via npx one-liner; needs npm install/build; configure database dependency",
-      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 npm install/build；需配置 database dependency"
+      "note_en": "Some setup. install via npx one-liner; needs npm install/build; configure database dependency, process manager",
+      "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 npm install/build；需配置 database dependency、process manager"
     },
-    "doc_score": 38,
+    "doc_score": 39,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -113,11 +120,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.257
+      "external_link_ratio": 0.889
     },
     "highlights": [
-      "Interop — the MCP 2026-07-28 client, an MCP server, and A2A in both directions.",
-      "Models — realtime voice on OpenAI Realtime and Gemini Live, provider batch requests, model profiles, a stable request prefix for Claude 5.x thinking, usage billed once, and models without a…",
+      "Runs code in a box — a local Docker sandbox for agent-written code (preview).",
       "Evolve — evolutionary program search with a mandatory budget and zero-call resume."
     ],
     "summary_zh_native": "",
@@ -129,11 +135,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:04:55+00:00",
+  "fetched_at": "2026-10-17T08:36:09+00:00",
   "categories": [
-    "analytics"
+    "desktop-ui"
   ],
-  "primary_category": "analytics",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

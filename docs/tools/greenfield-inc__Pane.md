@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 547 |
-| Star velocity | 3.6/day (history basis, 5d span) |
+| Stars | 551 |
+| Star velocity | 4.2/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 70/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-02-27 |
-| Last push | 2026-10-16 (0 days ago) |
-| Analyzed README | 33,027 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 33,506 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Multi-agent orchestration
 
-> rectory, reads a generated local runtime context, and uses the runpane CLI to inspect and operate the workspace.
+> it continues where it left off.
 
 ### Parallel execution
 
@@ -74,7 +74,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 23/100)
+- **Difficulty:** 🟢 Easy (friction score 29/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
 - **Quickest install:** `npx --yes runpane@latest`
@@ -83,7 +83,7 @@
 
 **Signals that add work:** git clone (build from source), pnpm install/build, npm install/build
 
-**Configuration required:** API key configuration, sign-in required
+**Configuration required:** API key configuration, sign-in required, database migration
 
 *Easy. install via pip install, curl | sh installer; needs git clone (build from source), pnpm install/build; configure API key configuration, sign-in required; one-click setup*
 
@@ -109,10 +109,10 @@ Score **70/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.8 |
-| momentum | 3.0 |
+| momentum | 3.5 |
 | maintenance | 100.0 |
 | documentation | 70.0 |
-| accessibility | 85.0 |
+| accessibility | 79.0 |
 
 ---
 

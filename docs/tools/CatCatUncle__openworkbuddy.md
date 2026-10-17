@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 324 |
-| Star velocity | 7.6/day (history basis, 5d span) |
-| Health score | 53/100 |
-| Documentation | 60/100 |
+| Stars | 325 |
+| Star velocity | 3.4/day (history basis, 5d span) |
+| Health score | 52/100 |
+| Documentation | 61/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
-| Last push | 2026-10-16 (0 days ago) |
-| Analyzed README | 17,094 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 17,605 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,11 +56,11 @@
 
 ### GUI / desktop app
 
-> 前置条件：一台能运行应用的电脑，以及一个可用的模型服务、已安装的本地模型或已登录的本机 CLI。
+> 简洁图形生成 PPT，不需要生图、视频、消息渠道或额外连接器；准备 PowerPoint、WPS 或 LibreOffice，方便下载后打开检查。
 
 ### Notifications
 
-> 或任务报上游错误 核对服务商的 API 地址、型号、Key 和额度，见 模型配置
+> 务报上游错误 核对服务商的 API 地址、型号、Key 和额度，见 模型配置
 
 ### Cross-agent support
 
@@ -82,7 +82,7 @@
 
 ## Documentation quality
 
-Score **60/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -101,9 +101,9 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 50.2 |
-| momentum | 6.3 |
+| momentum | 2.8 |
 | maintenance | 100.0 |
-| documentation | 60.0 |
+| documentation | 61.0 |
 | accessibility | 63.0 |
 
 ---

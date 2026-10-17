@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,787 |
-| Star velocity | 26.2/day (history basis, 5d span) |
+| Stars | 8,814 |
+| Star velocity | 26.8/day (history basis, 5d span) |
 | Health score | 67/100 |
 | Documentation | 74/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,14 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-31 |
-| Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 32,152 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 36,387 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> Everything is visible: you watch avatars move, envelopes fly, and the live terminal stream;
+> ts own node-pty PTY, rendered with xterm.js.
 
 ### Parallel execution
 
@@ -62,9 +62,13 @@
 
 > arness to run an office of your clones
 
+### MCP support
+
+> r everyone until Saturday 24 October 2026, as part of the launch: download the app and sign in.
+
 ### Self-hostable
 
-> USD, adjusted for purchasing power in different
+> Kimi scroll and queue bug, which we could not reproduce, and it is first
 
 ### GUI / desktop app
 
@@ -120,7 +124,7 @@ Score **74/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 78.9 |
-| momentum | 21.8 |
+| momentum | 22.3 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
 | accessibility | 68.0 |

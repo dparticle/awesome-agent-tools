@@ -17,14 +17,12 @@
 | Health score | 44/100 |
 | Documentation | 76/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-02-19 |
-| Last push | 2026-05-20 (148 days ago) |
+| Last push | 2026-05-20 (149 days ago) |
 | Analyzed README | 25,251 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — Superseded by bytedance/deer-flow: covers 100% of capabilities (9/9).
 
 ## What it solves
 

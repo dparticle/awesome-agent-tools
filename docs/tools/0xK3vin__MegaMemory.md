@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-06 |
-| Last push | 2026-05-03 (166 days ago) |
+| Last push | 2026-05-03 (167 days ago) |
 | Analyzed README | 9,017 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram)** — Superseded by Gentleman-Programming/engram: covers 100% of capabilities (5/5).

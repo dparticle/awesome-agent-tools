@@ -6,7 +6,7 @@
   "url": "https://github.com/managedcode/dotnet-skills",
   "description": "One of the largest .NET-focused skill collections for AI coding assistants, with a catalog, CLI, and orchestration agents for Codex, Claude Code, GitHub Copilot, Gemini, and Junie.",
   "homepage": "https://skills.managed-code.com",
-  "stars": 488,
+  "stars": 489,
   "forks": 38,
   "open_issues": 1,
   "language": "C#",
@@ -21,28 +21,28 @@
     "skills"
   ],
   "created_at": "2026-03-15T10:43:01Z",
-  "updated_at": "2026-10-16T08:49:57Z",
-  "pushed_at": "2026-10-16T08:49:52Z",
+  "updated_at": "2026-10-17T08:08:04Z",
+  "pushed_at": "2026-10-17T08:09:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 214,
+  "age_days": 215,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 56,
   "health_components": {
     "popularity": 53.8,
-    "momentum": 1.9,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 488,
-    "days_span": 214,
-    "stars_per_day": 2.28,
-    "lifetime_stars_per_day": 2.28,
-    "basis": "lifetime",
+    "stars_gained": 3,
+    "days_span": 5,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 2.27,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:02+00:00",
+  "fetched_at": "2026-10-17T08:36:12+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -141,15 +141,15 @@
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "note_en": "Superseded by data-goblin/power-bi-agentic-development: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 data-goblin/power-bi-agentic-development 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "data-goblin/power-bi-agentic-development",
     "challenger": "",
     "supersede": {
       "incumbent": "managedcode/dotnet-skills",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "challenger": "data-goblin/power-bi-agentic-development",
       "incumbent_name": "managedcode/dotnet-skills",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "challenger_name": "data-goblin/power-bi-agentic-development",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -162,15 +162,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 9.793,
-      "momentum_ratio": 4.386,
-      "setup_delta": 2,
-      "dominance": 0.974,
+      "star_ratio": 2.151,
+      "momentum_ratio": 5.0,
+      "setup_delta": 12,
+      "dominance": 0.864,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "9.79x the stars (4,779 vs 488)",
-        "4.39x the star velocity (10.0/day vs 2.3/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "2.15x the stars (1,052 vs 489)",
+        "5.00x the star velocity (3.0/day vs 0.6/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -184,22 +184,16 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "auto-failover",
           "cross-agent-support",
           "mcp-support",
-          "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
           "skills-plugins"
         ],
-        "incumbent_health": 57,
-        "challenger_health": 62,
+        "incumbent_health": 56,
+        "challenger_health": 57,
         "incumbent_setup_score": 22,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 34
       }
     }
   }

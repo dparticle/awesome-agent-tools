@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,312 |
-| Star velocity | 42.9/day (lifetime basis, 147d span) |
+| Stars | 6,313 |
+| Star velocity | 42.7/day (lifetime basis, 148d span) |
 | Health score | 66/100 |
 | Documentation | 45/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-05-21 |
-| Last push | 2026-10-11 (4 days ago) |
+| Last push | 2026-10-11 (5 days ago) |
 | Analyzed README | 5,018 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).
@@ -79,7 +79,7 @@ Score **45/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 76.0 |
-| momentum | 35.8 |
+| momentum | 35.5 |
 | maintenance | 100.0 |
 | documentation | 45.0 |
 | accessibility | 75.0 |

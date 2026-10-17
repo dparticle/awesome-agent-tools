@@ -2,7 +2,7 @@
 
 # eugeniughelbur/obsidian-second-brain
 
-> You use Claude every day.
+> Crew works without Obsidian.
 
 [Repository](https://github.com/eugeniughelbur/obsidian-second-brain) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,779 |
-| Star velocity | 10.0/day (history basis, 5d span) |
+| Stars | 4,792 |
+| Star velocity | 11.8/day (history basis, 5d span) |
 | Health score | 62/100 |
 | Documentation | 65/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-24 |
-| Last push | 2026-10-15 (0 days ago) |
-| Analyzed README | 74,134 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 76,898 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -109,7 +109,7 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 73.6 |
-| momentum | 8.3 |
+| momentum | 9.8 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 76.0 |

@@ -7,7 +7,7 @@
   "description": "Memory Palace is a long-term memory operating system purpose-built for AI Agents.",
   "homepage": "",
   "stars": 315,
-  "forks": 27,
+  "forks": 26,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 238,
-  "days_since_push": 148,
+  "age_days": 239,
+  "days_since_push": 149,
   "health_score": 44,
   "health_components": {
     "popularity": 50.0,
@@ -160,87 +160,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-16T09:05:17+00:00",
+  "fetched_at": "2026-10-17T08:36:23+00:00",
   "categories": [
     "analytics",
     "providers",
-    "skills"
+    "self-hosting-security"
   ],
   "primary_category": "providers",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by bytedance/deer-flow: covers 100% of capabilities (9/9).",
-    "note_zh": "已被 bytedance/deer-flow 取代：covers 100% of capabilities (9/9)。",
-    "superseded_by": "bytedance/deer-flow",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "agi-is-going-to-arrive/memory-palace",
-      "challenger": "bytedance/deer-flow",
-      "incumbent_name": "AGI-is-going-to-arrive/Memory-Palace",
-      "challenger_name": "bytedance/deer-flow",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "auto-failover",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "self-hosted",
-        "skills-plugins"
-      ],
-      "star_ratio": 266.486,
-      "momentum_ratio": 133.0,
-      "setup_delta": 10,
-      "dominance": 0.95,
-      "reasons": [
-        "covers 100% of capabilities (9/9)",
-        "266.49x the stars (83,943 vs 315)",
-        "133.00x the star velocity (53.2/day vs 0.4/day)",
-        "slightly heavier setup (+10 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "self-hosted",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 44,
-        "challenger_health": 76,
-        "incumbent_setup_score": 47,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }
