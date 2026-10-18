@@ -6,9 +6,9 @@
   "url": "https://github.com/410979729/scope-recall-hermes",
   "description": "Local long-term memory for Hermes, Codex, Claude Code, WorkBuddy and dsh agents: one SQLite store, source-backed recall, and tools to inspect, correct or delete what is remembered.",
   "homepage": "",
-  "stars": 379,
-  "forks": 38,
-  "open_issues": 5,
+  "stars": 394,
+  "forks": 40,
+  "open_issues": 2,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -33,16 +33,16 @@
     "vector-search"
   ],
   "created_at": "2026-05-15T10:56:00Z",
-  "updated_at": "2026-10-17T06:02:45Z",
-  "pushed_at": "2026-10-16T01:19:49Z",
+  "updated_at": "2026-10-18T08:45:16Z",
+  "pushed_at": "2026-10-18T08:45:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 154,
-  "days_since_push": 1,
+  "age_days": 155,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
-    "popularity": 51.6,
+    "popularity": 51.9,
     "momentum": 2.1,
     "maintenance": 100.0,
     "documentation": 36.0,
@@ -50,16 +50,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 379,
-    "days_span": 154,
-    "stars_per_day": 2.46,
-    "lifetime_stars_per_day": 2.46,
+    "stars_gained": 394,
+    "days_span": 155,
+    "stars_per_day": 2.54,
+    "lifetime_stars_per_day": 2.54,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "410979729/scope-recall-hermes",
-    "readme_chars": 14417,
+    "readme_chars": 14032,
     "capabilities": [
       "mcp-support",
       "gui-desktop",
@@ -120,7 +120,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.277
+      "external_link_ratio": 0.285
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -132,7 +132,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:20+00:00",
+  "fetched_at": "2026-10-18T08:53:59+00:00",
   "categories": [
     "desktop-ui-2"
   ],

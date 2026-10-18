@@ -6,7 +6,7 @@
   "url": "https://github.com/mindmuxai/brain.md",
   "description": "A persistent, file-based memory layer for coding agents — give Claude Code, Codex & others a project brain (durable decisions, requirements, constraints) via a zero-dependency CLI.",
   "homepage": "https://projectbrain.md",
-  "stars": 574,
+  "stars": 575,
   "forks": 56,
   "open_issues": 0,
   "language": "JavaScript",
@@ -27,27 +27,27 @@
     "project-memory"
   ],
   "created_at": "2026-06-18T06:45:01Z",
-  "updated_at": "2026-10-17T06:58:48Z",
+  "updated_at": "2026-10-18T05:51:45Z",
   "pushed_at": "2026-09-11T11:50:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 121,
-  "days_since_push": 35,
+  "age_days": 122,
+  "days_since_push": 36,
   "health_score": 52,
   "health_components": {
     "popularity": 55.2,
-    "momentum": 1.2,
+    "momentum": 1.3,
     "maintenance": 78.0,
     "documentation": 52.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 4.74,
+    "stars_per_day": 1.6,
+    "lifetime_stars_per_day": 4.71,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:09+00:00",
+  "fetched_at": "2026-10-18T08:53:48+00:00",
   "categories": [
     "analytics",
     "desktop-ui",
@@ -175,14 +175,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 3.646,
+      "star_ratio": 3.642,
       "momentum_ratio": 1.0,
       "setup_delta": 6,
       "dominance": 0.77,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "3.65x the stars (2,093 vs 574)",
-        "1.00x the star velocity (1.4/day vs 1.4/day)",
+        "3.64x the stars (2,094 vs 575)",
+        "1.00x the star velocity (1.6/day vs 1.6/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,017 |
-| Star velocity | 76.0/day (lifetime basis, 66d span) |
+| Stars | 5,081 |
+| Star velocity | 75.6/day (history basis, 5d span) |
 | Health score | 76/100 |
 | Documentation | 71/100 |
 | Tier | ✅ Recommended |
@@ -22,7 +22,7 @@
 | Language | TypeScript |
 | Created | 2026-08-11 |
 | Last push | 2026-10-17 (0 days ago) |
-| Analyzed README | 30,633 chars from `raw:HEAD/README.md` |
+| Analyzed README | 31,253 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -66,7 +66,7 @@
 
 ### Notifications
 
-> build an unbounded queue.
+> reply" and it sets the trigger up in that turn with
 
 ### Voice input
 
@@ -109,8 +109,8 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.0 |
-| momentum | 63.3 |
+| popularity | 74.1 |
+| momentum | 63.0 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 72.0 |

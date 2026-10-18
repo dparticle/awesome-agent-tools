@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-05-27 |
-| Last push | 2026-10-14 (3 days ago) |
+| Last push | 2026-10-14 (4 days ago) |
 | Analyzed README | 23,745 chars from `raw:HEAD/README.md` |
 
 ## What it solves

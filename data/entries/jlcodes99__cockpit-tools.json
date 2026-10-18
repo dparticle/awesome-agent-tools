@@ -6,9 +6,9 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "stars": 19047,
-  "forks": 1690,
-  "open_issues": 867,
+  "stars": 19071,
+  "forks": 1686,
+  "open_issues": 870,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -23,33 +23,33 @@
     "windsurf"
   ],
   "created_at": "2026-01-16T07:09:32Z",
-  "updated_at": "2026-10-17T07:40:37Z",
-  "pushed_at": "2026-10-17T02:34:38Z",
+  "updated_at": "2026-10-18T08:20:35Z",
+  "pushed_at": "2026-10-17T14:23:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 274,
+  "age_days": 275,
   "days_since_push": 0,
-  "health_score": 70,
+  "health_score": 69,
   "health_components": {
     "popularity": 85.6,
-    "momentum": 30.3,
+    "momentum": 27.3,
     "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 74.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 182,
+    "stars_gained": 164,
     "days_span": 5,
-    "stars_per_day": 36.4,
-    "lifetime_stars_per_day": 69.51,
+    "stars_per_day": 32.8,
+    "lifetime_stars_per_day": 69.35,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "jlcodes99/cockpit-tools",
-    "readme_chars": 16131,
+    "readme_chars": 16010,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -154,7 +154,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.806
+      "external_link_ratio": 0.812
     },
     "highlights": [
       "API 服务：新安装及首次升级默认使用「Rust 原生」，之后保留用户的选择，可在 API 服务页面或快捷面板切回内置 Go CLIProxyAPI sidecar。",
@@ -171,10 +171,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:46+00:00",
+  "fetched_at": "2026-10-18T08:53:22+00:00",
   "categories": [
     "billing",
-    "model-routing",
+    "security",
     "sharing"
   ],
   "primary_category": "sharing",

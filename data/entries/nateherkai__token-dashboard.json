@@ -6,33 +6,33 @@
   "url": "https://github.com/nateherkai/token-dashboard",
   "description": "See where Claude Code is burning tokens - turn raw JSONL transcripts into local cost analytics, hotspot views, and session-level usage insight.",
   "homepage": "",
-  "stars": 729,
-  "forks": 199,
+  "stars": 733,
+  "forks": 200,
   "open_issues": 27,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-04-20T01:10:22Z",
-  "updated_at": "2026-10-16T06:41:59Z",
+  "updated_at": "2026-10-18T03:54:04Z",
   "pushed_at": "2026-04-20T20:18:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 180,
-  "days_since_push": 179,
-  "health_score": 43,
+  "age_days": 181,
+  "days_since_push": 180,
+  "health_score": 44,
   "health_components": {
     "popularity": 57.3,
-    "momentum": 0.8,
+    "momentum": 1.5,
     "maintenance": 55.0,
     "documentation": 54.0,
     "accessibility": 63.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 1.0,
+    "stars_per_day": 1.8,
     "lifetime_stars_per_day": 4.05,
     "basis": "history",
     "is_fast_riser": false
@@ -122,10 +122,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:06+00:00",
+  "fetched_at": "2026-10-18T08:53:46+00:00",
   "categories": [
     "analytics-2",
-    "providers"
+    "providers",
+    "remote-control-isolation"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

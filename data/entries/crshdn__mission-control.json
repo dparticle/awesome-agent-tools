@@ -22,22 +22,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 258,
-  "days_since_push": 30,
-  "health_score": 53,
+  "age_days": 259,
+  "days_since_push": 31,
+  "health_score": 50,
   "health_components": {
     "popularity": 66.7,
-    "momentum": 0.2,
-    "maintenance": 92.0,
+    "momentum": 0.3,
+    "maintenance": 78.0,
     "documentation": 73.0,
     "accessibility": 33.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 8.34,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 8.31,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,11 +149,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:53+00:00",
+  "fetched_at": "2026-10-18T08:53:31+00:00",
   "categories": [
     "analytics-2",
     "remote-control-isolation",
-    "self-hosting-security"
+    "security"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

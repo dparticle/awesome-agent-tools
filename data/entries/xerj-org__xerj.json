@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "full_name": "xerj-org/xerj",
+  "name": "xerj",
+  "owner": "xerj-org",
+  "url": "https://github.com/xerj-org/xerj",
+  "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
+  "homepage": "https://xerj.org",
+  "stars": 8066,
+  "forks": 428,
+  "open_issues": 96,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-search",
+    "ai-search-algorithms",
+    "ai-search-engine",
+    "ai-search-free",
+    "ai-search-module",
+    "ai-search-optimization",
+    "ai-searchengine",
+    "bm25-search",
+    "elastic-search",
+    "elasticsearch",
+    "elasticstack",
+    "graph-search",
+    "graph-semantic-search",
+    "hybrid-search",
+    "hybrid-semantic-search",
+    "search-api",
+    "search-engine",
+    "semantic-search",
+    "vector-database",
+    "vector-search"
+  ],
+  "created_at": "2026-06-30T04:32:45Z",
+  "updated_at": "2026-10-18T08:50:49Z",
+  "pushed_at": "2026-10-18T08:44:35Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 110,
+  "days_since_push": 0,
+  "health_score": 75,
+  "health_components": {
+    "popularity": 78.1,
+    "momentum": 61.1,
+    "maintenance": 100.0,
+    "documentation": 67.0,
+    "accessibility": 66.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 8066,
+    "days_span": 110,
+    "stars_per_day": 73.33,
+    "lifetime_stars_per_day": 73.33,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "xerj-org/xerj",
+    "readme_chars": 27822,
+    "capabilities": [
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "memory-context": "f the same primitive: xerj autoindex makes an agent",
+      "agent-runtime": "rity audit of WordPress core,",
+      "mcp-support": ". XERJ answers under its own name, xerj-history-vote-1;",
+      "gui-desktop": ""
+    },
+    "capability_hits": {
+      "memory-context": 3,
+      "agent-runtime": 3,
+      "mcp-support": 11,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "cargo build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), cargo build; configure API key configuration, config file",
+      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)、cargo build；需配置 API key configuration、config file"
+    },
+    "doc_score": 67,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Cursor"
+    ],
+    "summary_en": "English | 简体中文 | 日本語 | العربية | Español",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://xerj.org/get | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "bullet list of external links",
+        "has an index/catalogue section"
+      ],
+      "external_link_ratio": 1.438
+    },
+    "highlights": [
+      "XERJ vs Lucene 10.3.1 for a source-pinned, six-axis comparison"
+    ],
+    "summary_zh_native": "English | 简体中文 | 日本語 | العربية | Español",
+    "highlights_zh": [
+      "参考代码：编程智能体检索同类项目的已有解法。",
+      "XERJ 与 Lucene 10.3.1：基于固定源码版本，从六个维度对比存储与搜索设计。",
+      "快照与恢复：支持的快照 API 子集，以及恢复时会替换哪些内容。",
+      "脚本：支持的 Painless 子集、执行位置和资源限制。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-18T08:52:58+00:00",
+  "categories": [
+    "analytics",
+    "desktop-ui-2"
+  ],
+  "primary_category": "analytics",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

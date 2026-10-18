@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,545 |
-| Star velocity | 17.6/day (history basis, 5d span) |
+| Stars | 2,568 |
+| Star velocity | 17.2/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-07-24 |
-| Last push | 2026-10-17 (0 days ago) |
-| Analyzed README | 13,462 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-18 (0 days ago) |
+| Analyzed README | 13,515 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,7 +46,7 @@
 
 ### Memory & context
 
-> Auxiliary chat — ask side questions while a task runs, in a per-task side session that is server-enforced zero-tool and isolated from the task's execution context
+> , in a per-task side session whose only tool is a server-enforced read-only view of that task's own history (ADR-0024), isolated from the task's execution context
 
 ### Skills & plugins
 
@@ -112,8 +112,8 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 68.1 |
-| momentum | 14.7 |
+| popularity | 68.2 |
+| momentum | 14.3 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
 | accessibility | 35.0 |

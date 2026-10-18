@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 587,
-  "days_since_push": 1,
+  "age_days": 588,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -35,7 +35,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 372,
-    "days_span": 587,
+    "days_span": 588,
     "stars_per_day": 0.63,
     "lifetime_stars_per_day": 0.63,
     "basis": "lifetime",
@@ -134,22 +134,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:20+00:00",
+  "fetched_at": "2026-10-18T08:54:03+00:00",
   "categories": [
-    "self-hosting-security"
+    "security"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by aipoch/open-science: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 aipoch/open-science 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "aipoch/open-science",
     "challenger": "",
     "supersede": {
       "incumbent": "nwiizo/tfmcp",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "aipoch/open-science",
       "incumbent_name": "nwiizo/tfmcp",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "aipoch/open-science",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -161,15 +161,15 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 79.581,
-      "momentum_ratio": 84.762,
-      "setup_delta": -20,
+      "star_ratio": 13.946,
+      "momentum_ratio": 76.968,
+      "setup_delta": -17,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "79.58x the stars (29,604 vs 372)",
-        "84.76x the star velocity (53.4/day vs 0.6/day)",
-        "no harder to set up (32 vs 52 friction)"
+        "13.95x the stars (5,188 vs 372)",
+        "76.97x the star velocity (48.5/day vs 0.6/day)",
+        "no harder to set up (35 vs 52 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,27 +181,19 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
           "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
+          "remote-control",
           "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
+          "skills-plugins"
         ],
         "incumbent_health": 52,
-        "challenger_health": 75,
+        "challenger_health": 72,
         "incumbent_setup_score": 52,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 35
       }
     }
   }

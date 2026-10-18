@@ -7,7 +7,7 @@
   "description": "Enterprise Distributed Automation Platform for massive concurrent workload execution. Unifies elastic cluster orchestration, multi-channel identity verification messaging, real-time ops telemetry, and multi-warehouse lifecycle control (CPA / Sub2API / Image2API) in one high-throughput control plane.",
   "homepage": "",
   "stars": 1404,
-  "forks": 441,
+  "forks": 440,
   "open_issues": 12,
   "language": "",
   "license": "NOASSERTION",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 208,
-  "days_since_push": 56,
+  "age_days": 209,
+  "days_since_push": 57,
   "health_score": 49,
   "health_components": {
     "popularity": 62.9,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 6.75,
+    "lifetime_stars_per_day": 6.72,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,11 +131,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:57+00:00",
+  "fetched_at": "2026-10-18T08:53:35+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "security"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

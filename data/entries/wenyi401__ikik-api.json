@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 114,
-  "days_since_push": 29,
+  "age_days": 115,
+  "days_since_push": 30,
   "health_score": 42,
   "health_components": {
     "popularity": 47.7,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.12,
+    "lifetime_stars_per_day": 2.1,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:30+00:00",
+  "fetched_at": "2026-10-18T08:54:14+00:00",
   "categories": [
     "billing",
     "sharing",

@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,720 |
+| Stars | 3,721 |
 | Star velocity | 2.0/day (history basis, 5d span) |
 | Health score | 59/100 |
 | Documentation | 62/100 |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-07-17 |
-| Last push | 2026-10-13 (4 days ago) |
+| Last push | 2026-10-13 (5 days ago) |
 | Analyzed README | 12,500 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 

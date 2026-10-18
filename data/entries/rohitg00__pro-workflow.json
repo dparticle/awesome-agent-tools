@@ -7,7 +7,7 @@
   "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
   "homepage": "https://rohitg00.github.io/pro-workflow/infographic.html",
   "stars": 2917,
-  "forks": 302,
+  "forks": 307,
   "open_issues": 32,
   "language": "JavaScript",
   "license": "",
@@ -38,22 +38,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 257,
-  "days_since_push": 17,
+  "age_days": 258,
+  "days_since_push": 18,
   "health_score": 51,
   "health_components": {
     "popularity": 69.3,
-    "momentum": 0.7,
+    "momentum": 0.5,
     "maintenance": 92.0,
     "documentation": 46.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 11.35,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 11.31,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -168,7 +168,8 @@
       "external_link_ratio": 0.557
     },
     "highlights": [
-      "playwright &mdash; browser automation (most token-efficient)"
+      "playwright &mdash; browser automation (most token-efficient)",
+      "Orchestrate, don't micromanage &mdash; wire patterns together, let agents execute."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -179,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:51+00:00",
+  "fetched_at": "2026-10-18T08:53:29+00:00",
   "categories": [
     "desktop-ui",
     "remote-control-isolation",
-    "self-hosting-security"
+    "security"
   ],
   "primary_category": "remote-control-isolation",
   "lifecycle": {

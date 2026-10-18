@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 430,
-  "days_since_push": 74,
+  "age_days": 431,
+  "days_since_push": 75,
   "health_score": 48,
   "health_components": {
     "popularity": 55.1,
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:09+00:00",
+  "fetched_at": "2026-10-18T08:53:49+00:00",
   "categories": [
     "desktop-ui",
     "remote-control-isolation"
@@ -133,18 +133,18 @@
   "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by EverMind-AI/Raven: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 EverMind-AI/Raven 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "EverMind-AI/Raven",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
     "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "evermind-ai/raven",
+      "challenger": "othmanadi/planning-with-files",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "EverMind-AI/Raven",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "memory-context",
@@ -152,15 +152,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 9.662,
-      "momentum_ratio": 30.667,
-      "setup_delta": -12,
-      "dominance": 1.0,
+      "star_ratio": 48.41,
+      "momentum_ratio": 23.0,
+      "setup_delta": 2,
+      "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "9.66x the stars (5,488 vs 568)",
-        "30.67x the star velocity (18.4/day vs 0.6/day)",
-        "no harder to set up (13 vs 25 friction)"
+        "48.41x the stars (27,497 vs 568)",
+        "23.00x the star velocity (13.8/day vs 0.6/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -171,20 +171,19 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "api-gateway",
+          "agent-runtime",
           "cross-agent-support",
-          "gui-desktop",
           "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
-          "self-hosted",
-          "skills-plugins"
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 66,
+        "challenger_health": 68,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 13
+        "challenger_setup_score": 27
       }
     }
   }

@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-09 |
-| Last push | 2026-10-16 (0 days ago) |
+| Last push | 2026-10-17 (0 days ago) |
 | Analyzed README | 20,775 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** — Superseded by kitfunso/hippo-memory: covers 100% of capabilities (6/6).
 
 ## What it solves
 

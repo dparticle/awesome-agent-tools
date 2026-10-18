@@ -18,21 +18,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 225,
-  "days_since_push": 0,
+  "age_days": 226,
+  "days_since_push": 1,
   "health_score": 45,
   "health_components": {
     "popularity": 49.5,
-    "momentum": 0.3,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 32.0,
     "accessibility": 50.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.32,
     "basis": "history",
     "is_fast_riser": false
@@ -117,7 +117,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:26+00:00",
+  "fetched_at": "2026-10-18T08:54:09+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -125,15 +125,15 @@
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
+    "note_en": "Superseded by FrancyJGLisboa/agent-skills-platform: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 FrancyJGLisboa/agent-skills-platform 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "FrancyJGLisboa/agent-skills-platform",
     "challenger": "",
     "supersede": {
       "incumbent": "jtydhr88/comfyui-custom-node-skills",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
+      "challenger": "francyjglisboa/agent-skills-platform",
       "incumbent_name": "jtydhr88/comfyui-custom-node-skills",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
+      "challenger_name": "FrancyJGLisboa/agent-skills-platform",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -144,15 +144,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.879,
-      "momentum_ratio": 8.55,
-      "setup_delta": -29,
-      "dominance": 0.991,
+      "star_ratio": 8.077,
+      "momentum_ratio": 16.0,
+      "setup_delta": -35,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.88x the stars (858 vs 298)",
-        "8.55x the star velocity (3.4/day vs 0.4/day)",
-        "no harder to set up (21 vs 50 friction)"
+        "8.08x the stars (2,407 vs 298)",
+        "16.00x the star velocity (0.8/day vs 0.0/day)",
+        "no harder to set up (15 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -163,19 +163,17 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "multi-agent-orchestration",
-          "parallel-execution",
           "skills-plugins"
         ],
         "incumbent_health": 45,
-        "challenger_health": 58,
+        "challenger_health": 52,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 15
       }
     }
   }

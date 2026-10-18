@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 405 |
+| Stars | 406 |
 | Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 50/100 |
 | Documentation | 58/100 |
@@ -21,7 +21,7 @@
 | License | MPL-2.0 |
 | Language | Python |
 | Created | 2025-03-22 |
-| Last push | 2026-10-11 (6 days ago) |
+| Last push | 2026-10-18 (0 days ago) |
 | Analyzed README | 43,173 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -85,7 +85,7 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 52.1 |
+| popularity | 52.2 |
 | momentum | 0.3 |
 | maintenance | 100.0 |
 | documentation | 58.0 |

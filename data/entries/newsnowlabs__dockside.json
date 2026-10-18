@@ -27,23 +27,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1860,
-  "days_since_push": 19,
+  "age_days": 1861,
+  "days_since_push": 20,
   "health_score": 47,
   "health_components": {
     "popularity": 50.1,
-    "momentum": 0.1,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 35.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 320,
-    "days_span": 1860,
-    "stars_per_day": 0.17,
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 0.17,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -148,11 +148,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:23+00:00",
+  "fetched_at": "2026-10-18T08:54:05+00:00",
   "categories": [
-    "remote-control-isolation"
+    "mobile-remote-control",
+    "remote-control-isolation",
+    "teams"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 882 |
-| Star velocity | 3.0/day (history basis, 5d span) |
+| Stars | 885 |
+| Star velocity | 2.6/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-12-17 |
-| Last push | 2026-10-14 (2 days ago) |
-| Analyzed README | 8,208 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-18 (0 days ago) |
+| Analyzed README | 8,352 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Cursor
+> Mentions Claude Code, Codex, Copilot, Cursor
 
 ## Setup reality check
 
@@ -65,7 +65,7 @@ Score **49/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 58.9 |
-| momentum | 2.5 |
+| momentum | 2.2 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
 | accessibility | 58.0 |

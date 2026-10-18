@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 83,982 |
-| Star velocity | 49.0/day (history basis, 5d span) |
-| Health score | 75/100 |
+| Stars | 84,050 |
+| Star velocity | 51.0/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-17 (0 days ago) |
-| Analyzed README | 308,853 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-18 (0 days ago) |
+| Analyzed README | 315,122 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Model / provider routing
 
-> ainer or entry position only, without queries or payload values.
+> urn a format error instead of exposing the raw provider payload.
 
 ### API gateway / proxy
 
@@ -72,7 +72,7 @@
 
 ### Self-hostable
 
-> Self-hosted Browserless, Crawl4AI, Firecrawl, and fastCRW fetch backends require outbound isolation from private, loopback, link-local, and cloud-metadata networks before setting networkisolationconfirmed: true
+> ach skip logged with its entry position, so the valid rows survive and provider-side drift leaves a trace.
 
 ### Team collaboration
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.5 |
-| momentum | 40.8 |
+| momentum | 42.5 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

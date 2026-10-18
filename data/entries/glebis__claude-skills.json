@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 356,
-  "days_since_push": 0,
+  "age_days": 357,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 51.9,
@@ -134,10 +134,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:18+00:00",
+  "fetched_at": "2026-10-18T08:53:59+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "self-hosting-security",
     "voice-remote-control"
   ],
   "primary_category": "voice-remote-control",
@@ -166,14 +166,14 @@
         "skills-plugins",
         "voice-input"
       ],
-      "star_ratio": 34.799,
-      "momentum_ratio": 21.0,
+      "star_ratio": 34.812,
+      "momentum_ratio": 17.5,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "34.80x the stars (13,676 vs 393)",
-        "21.00x the star velocity (8.4/day vs 0.4/day)",
+        "34.81x the stars (13,681 vs 393)",
+        "17.50x the star velocity (7.0/day vs 0.4/day)",
         "no harder to set up (21 vs 30 friction)"
       ],
       "reasons_zh": [],

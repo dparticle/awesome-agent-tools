@@ -7,7 +7,7 @@
   "description": "Runtime policy enforcement for AI agents. Cryptographic audit trail, human-in-the-loop approvals, kill switch. Zero code changes.                                                                         ",
   "homepage": "https://aegistraces.com",
   "stars": 542,
-  "forks": 51,
+  "forks": 52,
   "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
@@ -29,22 +29,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 227,
-  "days_since_push": 8,
+  "age_days": 228,
+  "days_since_push": 9,
   "health_score": 50,
   "health_components": {
     "popularity": 54.7,
-    "momentum": 1.5,
+    "momentum": 0.7,
     "maintenance": 92.0,
     "documentation": 59.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 2.39,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 2.38,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -161,13 +161,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:10+00:00",
+  "fetched_at": "2026-10-18T08:53:50+00:00",
   "categories": [
     "analytics-2",
-    "self-hosting-security",
+    "security",
     "teams"
   ],
-  "primary_category": "teams",
+  "primary_category": "security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

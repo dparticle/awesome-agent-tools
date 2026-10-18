@@ -6,7 +6,7 @@
   "url": "https://github.com/grpcer/ownmem",
   "description": "Open-source, Git-native memory for AI coding agents — deterministic local recall for Claude Code, Codex, Cursor, Gemini CLI, and compatible tools.",
   "homepage": "https://www.npmjs.com/package/ownmem",
-  "stars": 429,
+  "stars": 430,
   "forks": 10,
   "open_issues": 0,
   "language": "JavaScript",
@@ -34,16 +34,16 @@
     "project-memory"
   ],
   "created_at": "2026-08-16T12:45:36Z",
-  "updated_at": "2026-10-15T13:44:41Z",
+  "updated_at": "2026-10-17T13:40:21Z",
   "pushed_at": "2026-10-14T05:34:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 61,
-  "days_since_push": 3,
+  "age_days": 62,
+  "days_since_push": 4,
   "health_score": 57,
   "health_components": {
-    "popularity": 52.6,
+    "popularity": 52.7,
     "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 69.0,
@@ -54,7 +54,7 @@
     "stars_gained": 7,
     "days_span": 5,
     "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 7.03,
+    "lifetime_stars_per_day": 6.94,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:15+00:00",
+  "fetched_at": "2026-10-18T08:53:56+00:00",
   "categories": [
     "analytics"
   ],
@@ -171,13 +171,13 @@
         "memory-context"
       ],
       "star_ratio": 11.17,
-      "momentum_ratio": 8.429,
+      "momentum_ratio": 8.714,
       "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "11.17x the stars (4,792 vs 429)",
-        "8.43x the star velocity (11.8/day vs 1.4/day)",
+        "11.17x the stars (4,803 vs 430)",
+        "8.71x the star velocity (12.2/day vs 1.4/day)",
         "no harder to set up (24 vs 25 friction)"
       ],
       "reasons_zh": [],
@@ -203,7 +203,7 @@
           "skills-plugins"
         ],
         "incumbent_health": 57,
-        "challenger_health": 62,
+        "challenger_health": 63,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 24
       }

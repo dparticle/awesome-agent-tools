@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,880 |
-| Star velocity | 179.4/day (history basis, 5d span) |
+| Stars | 5,992 |
+| Star velocity | 152.4/day (history basis, 5d span) |
 | Health score | 78/100 |
 | Documentation | 43/100 |
 | Tier | 🏆 Flagship |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2026-08-29 |
-| Last push | 2026-10-13 (4 days ago) |
+| Last push | 2026-10-13 (5 days ago) |
 | Analyzed README | 6,544 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
@@ -69,7 +69,7 @@ Score **43/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.4 |
+| popularity | 75.6 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 43.0 |

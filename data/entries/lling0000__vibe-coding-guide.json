@@ -6,7 +6,7 @@
   "url": "https://github.com/Lling0000/Vibe_coding_guide",
   "description": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
   "homepage": "https://lling0000.github.io/Vibe_coding_guide/",
-  "stars": 233,
+  "stars": 234,
   "forks": 22,
   "open_issues": 4,
   "language": "JavaScript",
@@ -34,16 +34,16 @@
     "worktree"
   ],
   "created_at": "2026-05-05T14:19:27Z",
-  "updated_at": "2026-10-13T19:10:30Z",
+  "updated_at": "2026-10-17T10:23:39Z",
   "pushed_at": "2026-06-25T15:20:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 164,
-  "days_since_push": 113,
+  "age_days": 165,
+  "days_since_push": 114,
   "health_score": 40,
   "health_components": {
-    "popularity": 47.3,
+    "popularity": 47.4,
     "momentum": 0.3,
     "maintenance": 55.0,
     "documentation": 48.0,
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:33+00:00",
+  "fetched_at": "2026-10-18T08:54:17+00:00",
   "categories": [
     "analytics",
     "desktop-ui",
@@ -180,14 +180,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 5.773,
-      "momentum_ratio": 12.975,
+      "star_ratio": 5.744,
+      "momentum_ratio": 12.925,
       "setup_delta": 0,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.77x the stars (1,345 vs 233)",
-        "12.97x the star velocity (5.2/day vs 0.4/day)",
+        "5.74x the stars (1,344 vs 234)",
+        "12.92x the star velocity (5.2/day vs 0.4/day)",
         "no harder to set up (30 vs 30 friction)"
       ],
       "reasons_zh": [],

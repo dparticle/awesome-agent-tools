@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 112,
-  "days_since_push": 99,
+  "age_days": 113,
+  "days_since_push": 100,
   "health_score": 41,
   "health_components": {
     "popularity": 54.0,
@@ -48,7 +48,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 4.49,
+    "lifetime_stars_per_day": 4.45,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,25 +134,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:11+00:00",
+  "fetched_at": "2026-10-18T08:53:52+00:00",
   "categories": [
-    "self-hosting-security"
+    "security"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by kitfunso/hippo-memory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 kitfunso/hippo-memory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "kitfunso/hippo-memory",
     "challenger": "",
     "supersede": {
       "incumbent": "linxidnju/opentag",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "kitfunso/hippo-memory",
       "incumbent_name": "linxidnju/OpenTag",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "kitfunso/hippo-memory",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +160,15 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 58.855,
-      "momentum_ratio": 267.0,
-      "setup_delta": -13,
-      "dominance": 1.0,
+      "star_ratio": 1.553,
+      "momentum_ratio": 4.0,
+      "setup_delta": 10,
+      "dominance": 0.772,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "58.85x the stars (29,604 vs 503)",
-        "267.00x the star velocity (53.4/day vs 0.2/day)",
-        "no harder to set up (32 vs 45 friction)"
+        "1.55x the stars (781 vs 503)",
+        "4.00x the star velocity (0.8/day vs 0.2/day)",
+        "slightly heavier setup (+10 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,26 +180,23 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "auto-failover",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "quota-management",
+          "remote-control",
           "security-isolation",
           "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
+          "session-persistence",
+          "worktree-isolation"
         ],
         "incumbent_health": 41,
-        "challenger_health": 75,
+        "challenger_health": 55,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 55
       }
     }
   }

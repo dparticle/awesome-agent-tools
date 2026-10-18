@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,723 |
-| Star velocity | 9.8/day (history basis, 5d span) |
-| Health score | 60/100 |
+| Stars | 2,729 |
+| Star velocity | 6.8/day (history basis, 5d span) |
+| Health score | 59/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-05 |
-| Last push | 2026-10-11 (5 days ago) |
-| Analyzed README | 31,184 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-18 (0 days ago) |
+| Analyzed README | 31,595 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,7 +34,7 @@
 
 ### Multi-agent orchestration
 
-> calculations.json：派生数字的输入、函数和计算 DAG。
+> ations.json：派生数字的输入、函数和计算 DAG。
 
 ### API gateway / proxy
 
@@ -96,7 +96,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 68.7 |
-| momentum | 8.2 |
+| momentum | 5.7 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 57.0 |

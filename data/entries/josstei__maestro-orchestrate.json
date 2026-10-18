@@ -8,7 +8,7 @@
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
   "stars": 485,
   "forks": 40,
-  "open_issues": 6,
+  "open_issues": 7,
   "language": "JavaScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,19 +34,19 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-17T05:47:41Z",
-  "pushed_at": "2026-10-11T05:57:36Z",
+  "updated_at": "2026-10-18T02:11:10Z",
+  "pushed_at": "2026-10-18T03:53:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 250,
-  "days_since_push": 6,
+  "age_days": 251,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
     "momentum": 3.3,
     "maintenance": 100.0,
-    "documentation": 58.0,
+    "documentation": 61.0,
     "accessibility": 49.0
   },
   "tier": "notable",
@@ -54,13 +54,13 @@
     "stars_gained": 20,
     "days_span": 5,
     "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 1.94,
+    "lifetime_stars_per_day": 1.93,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "josstei/maestro-orchestrate",
-    "readme_chars": 11173,
+    "readme_chars": 11652,
     "capabilities": [
       "multi-agent-orchestration",
       "session-persistence",
@@ -70,7 +70,7 @@
     "capability_evidence": {
       "multi-agent-orchestration": "Maestro is a multi-agent development orchestration platform with 39 specialists, an Express path for simple work, a 4-phase standard workflow for medium and complex work, persistent session state, and standalone review/…",
       "session-persistence": "",
-      "mcp-support": "d for Codex runtime specifics",
+      "mcp-support": "tached src/ payloads under agents/, commands/, hooks/, policies/, claude/, plugins/maestro/, and qwen/; update src/ first, then regenerate.",
       "cross-agent-support": "Mentions Claude Code, Codex, Gemini CLI, Qwen Code"
     },
     "capability_hits": {
@@ -94,7 +94,7 @@
       "note_en": "Some setup. needs git clone (build from source)",
       "note_zh": "需要一些配置。需要 git clone (build from source)"
     },
-    "doc_score": 58,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -102,6 +102,7 @@
       "has a quick-start section",
       "documents installation",
       "documents configuration",
+      "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
       "explains architecture"
@@ -120,7 +121,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.537
+      "external_link_ratio": 0.515
     },
     "highlights": [
       "Express: For simple work. Maestro asks 1-2 clarifying questions, proposes a brief, delegates to one specialist, runs code review, and archives without a design doc or implementation plan.",
@@ -135,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:13+00:00",
+  "fetched_at": "2026-10-18T08:53:53+00:00",
   "categories": [
     "analytics"
   ],

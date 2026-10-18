@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15435,
+  "stars": 15437,
   "forks": 1912,
-  "open_issues": 964,
+  "open_issues": 963,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,27 +18,27 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-10-17T08:00:57Z",
-  "pushed_at": "2026-10-17T06:54:13Z",
+  "updated_at": "2026-10-18T03:50:25Z",
+  "pushed_at": "2026-10-17T18:43:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 79,
+  "age_days": 80,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 83.8,
-    "momentum": 7.5,
+    "momentum": 5.7,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 45,
+    "stars_gained": 34,
     "days_span": 5,
-    "stars_per_day": 9.0,
-    "lifetime_stars_per_day": 195.38,
+    "stars_per_day": 6.8,
+    "lifetime_stars_per_day": 192.96,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -144,10 +144,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:21+00:00",
+  "fetched_at": "2026-10-18T08:52:53+00:00",
   "categories": [
     "desktop-ui-2",
-    "model-routing",
+    "security",
     "teams"
   ],
   "primary_category": "teams",

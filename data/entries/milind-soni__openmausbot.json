@@ -6,9 +6,9 @@
   "url": "https://github.com/milind-soni/OpenMausBot",
   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "homepage": "https://www.openmausbot.com/",
-  "stars": 5017,
-  "forks": 846,
-  "open_issues": 388,
+  "stars": 5081,
+  "forks": 857,
+  "open_issues": 401,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -26,33 +26,33 @@
     "typescript"
   ],
   "created_at": "2026-08-11T18:58:55Z",
-  "updated_at": "2026-10-17T08:18:52Z",
-  "pushed_at": "2026-10-17T05:48:47Z",
+  "updated_at": "2026-10-18T08:51:38Z",
+  "pushed_at": "2026-10-17T23:57:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 66,
+  "age_days": 67,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
-    "popularity": 74.0,
-    "momentum": 63.3,
+    "popularity": 74.1,
+    "momentum": 63.0,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5017,
-    "days_span": 66,
-    "stars_per_day": 76.02,
-    "lifetime_stars_per_day": 76.02,
-    "basis": "lifetime",
+    "stars_gained": 378,
+    "days_span": 5,
+    "stars_per_day": 75.6,
+    "lifetime_stars_per_day": 75.84,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "milind-soni/OpenMausBot",
-    "readme_chars": 30633,
+    "readme_chars": 31253,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -79,7 +79,7 @@
       "security-isolation": "ks before a potentially billable test message.",
       "self-hosted": "",
       "gui-desktop": "flow; microphone transcription remains unchanged.",
-      "notifications": "build an unbounded queue.",
+      "notifications": "reply\" and it sets the trigger up in that turn with",
       "voice-input": "",
       "cross-agent-support": "Mentions Cline, Codex, Cursor"
     },
@@ -94,7 +94,7 @@
       "security-isolation": 1,
       "self-hosted": 1,
       "gui-desktop": 3,
-      "notifications": 5,
+      "notifications": 7,
       "voice-input": 2,
       "cross-agent-support": 3
     },
@@ -163,7 +163,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.665
+      "external_link_ratio": 1.632
     },
     "highlights": [
       "Local first. One small harness server on 127.0.0.1 owns every agent process. Transcripts, keys, and",
@@ -179,9 +179,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:29+00:00",
+  "fetched_at": "2026-10-18T08:53:02+00:00",
   "categories": [
-    "mobile-2",
+    "mobile-remote-control",
     "self-hosting-security",
     "voice-remote-control"
   ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
   "homepage": "https://treg.to",
-  "stars": 5621,
-  "forks": 462,
-  "open_issues": 177,
+  "stars": 5710,
+  "forks": 475,
+  "open_issues": 164,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -25,27 +25,27 @@
     "secrets"
   ],
   "created_at": "2026-07-15T13:38:07Z",
-  "updated_at": "2026-10-17T08:34:17Z",
-  "pushed_at": "2026-10-17T08:34:05Z",
+  "updated_at": "2026-10-18T08:31:32Z",
+  "pushed_at": "2026-10-18T06:01:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 93,
+  "age_days": 94,
   "days_since_push": 0,
-  "health_score": 86,
+  "health_score": 82,
   "health_components": {
-    "popularity": 75.0,
-    "momentum": 100.0,
+    "popularity": 75.1,
+    "momentum": 83.8,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 79.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 616,
+    "stars_gained": 503,
     "days_span": 5,
-    "stars_per_day": 123.2,
-    "lifetime_stars_per_day": 60.44,
+    "stars_per_day": 100.6,
+    "lifetime_stars_per_day": 60.74,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -155,11 +155,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:28+00:00",
+  "fetched_at": "2026-10-18T08:53:01+00:00",
   "categories": [
+    "security",
     "self-hosting-security"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

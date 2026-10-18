@@ -6,9 +6,9 @@
   "url": "https://github.com/Dodaios/Dodaios",
   "description": "Your AI assistant, built for the agentic era. Open source and local: talk to it, and it runs your agents, your coding CLIs, your browser and your apps. Windows, macOS, Linux.",
   "homepage": "https://dodaios.ai",
-  "stars": 229,
-  "forks": 82,
-  "open_issues": 75,
+  "stars": 233,
+  "forks": 84,
+  "open_issues": 81,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,16 +34,16 @@
     "wake-word"
   ],
   "created_at": "2026-05-31T11:52:56Z",
-  "updated_at": "2026-10-17T08:00:06Z",
-  "pushed_at": "2026-10-17T08:00:37Z",
+  "updated_at": "2026-10-17T20:09:58Z",
+  "pushed_at": "2026-10-18T06:05:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 138,
+  "age_days": 139,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
-    "popularity": 47.2,
+    "popularity": 47.3,
     "momentum": 1.4,
     "maintenance": 100.0,
     "documentation": 55.0,
@@ -51,10 +51,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 229,
-    "days_span": 138,
-    "stars_per_day": 1.66,
-    "lifetime_stars_per_day": 1.66,
+    "stars_gained": 233,
+    "days_span": 139,
+    "stars_per_day": 1.68,
+    "lifetime_stars_per_day": 1.68,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -166,7 +166,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:33+00:00",
+  "fetched_at": "2026-10-18T08:54:17+00:00",
   "categories": [
     "desktop-ui-2",
     "remote-control-isolation",
@@ -198,14 +198,14 @@
         "voice-input",
         "worktree-isolation"
       ],
-      "star_ratio": 38.489,
-      "momentum_ratio": 16.145,
+      "star_ratio": 38.052,
+      "momentum_ratio": 17.976,
       "setup_delta": -18,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "38.49x the stars (8,814 vs 229)",
-        "16.14x the star velocity (26.8/day vs 1.7/day)",
+        "38.05x the stars (8,866 vs 233)",
+        "17.98x the star velocity (30.2/day vs 1.7/day)",
         "no harder to set up (32 vs 50 friction)"
       ],
       "reasons_zh": [],
@@ -238,7 +238,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 54,
-        "challenger_health": 67,
+        "challenger_health": 68,
         "incumbent_setup_score": 50,
         "challenger_setup_score": 32
       }

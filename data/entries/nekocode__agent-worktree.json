@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 254,
-  "days_since_push": 52,
+  "age_days": 255,
+  "days_since_push": 53,
   "health_score": 47,
   "health_components": {
     "popularity": 48.9,
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:28+00:00",
+  "fetched_at": "2026-10-18T08:54:12+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -160,13 +160,13 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 3.932,
+      "star_ratio": 3.954,
       "momentum_ratio": 136.0,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "3.93x the stars (1,101 vs 280)",
+        "3.95x the stars (1,107 vs 280)",
         "136.00x the star velocity (6.8/day vs 0.0/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],

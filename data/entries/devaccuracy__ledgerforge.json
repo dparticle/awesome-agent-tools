@@ -26,12 +26,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 159,
-  "days_since_push": 0,
+  "age_days": 160,
+  "days_since_push": 1,
   "health_score": 50,
   "health_components": {
     "popularity": 52.2,
-    "momentum": 3.8,
+    "momentum": 3.2,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 48.0
@@ -39,11 +39,11 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 23,
-    "days_span": 5,
-    "stars_per_day": 4.6,
-    "lifetime_stars_per_day": 2.57,
+    "days_span": 6,
+    "stars_per_day": 3.83,
+    "lifetime_stars_per_day": 2.55,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "devaccuracy/ledgerforge",
@@ -131,10 +131,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:17+00:00",
+  "fetched_at": "2026-10-18T08:53:59+00:00",
   "categories": [
     "billing",
-    "self-hosting-security"
+    "security"
   ],
   "primary_category": "billing",
   "lifecycle": {

@@ -15,14 +15,14 @@
 | Stars | 485 |
 | Star velocity | 4.0/day (history basis, 5d span) |
 | Health score | 51/100 |
-| Documentation | 58/100 |
+| Documentation | 61/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-10-11 (6 days ago) |
-| Analyzed README | 11,173 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-18 (0 days ago) |
+| Analyzed README | 11,652 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,7 +34,7 @@
 
 ### MCP support
 
-> d for Codex runtime specifics
+> tached src/ payloads under agents/, commands/, hooks/, policies/, claude/, plugins/maestro/, and qwen/; update src/ first, then regenerate.
 
 ### Cross-agent support
 
@@ -52,7 +52,7 @@
 
 ## Documentation quality
 
-Score **58/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -60,6 +60,7 @@ Score **58/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
+- has contribution guidance
 - mentions licensing
 - links to dedicated docs
 - explains architecture
@@ -71,7 +72,7 @@ Score **58/100**, based on these detected signals:
 | popularity | 53.7 |
 | momentum | 3.3 |
 | maintenance | 100.0 |
-| documentation | 58.0 |
+| documentation | 61.0 |
 | accessibility | 49.0 |
 
 ---

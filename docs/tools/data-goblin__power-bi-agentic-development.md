@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,052 |
-| Star velocity | 3.0/day (history basis, 5d span) |
+| Stars | 1,054 |
+| Star velocity | 3.2/day (history basis, 5d span) |
 | Health score | 57/100 |
-| Documentation | 74/100 |
+| Documentation | 75/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | GPL-3.0 |
 | Language | C# |
 | Created | 2026-01-15 |
-| Last push | 2026-10-15 (1 days ago) |
-| Analyzed README | 28,627 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 30,110 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -64,7 +64,7 @@
 
 ## Documentation quality
 
-Score **74/100**, based on these detected signals:
+Score **75/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -83,10 +83,10 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 60.4 |
-| momentum | 2.5 |
+| popularity | 60.5 |
+| momentum | 2.7 |
 | maintenance | 100.0 |
-| documentation | 74.0 |
+| documentation | 75.0 |
 | accessibility | 66.0 |
 
 ---

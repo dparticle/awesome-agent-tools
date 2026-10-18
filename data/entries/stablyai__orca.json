@@ -4,11 +4,11 @@
   "name": "orca",
   "owner": "stablyai",
   "url": "https://github.com/stablyai/orca",
-  "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+  "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
   "homepage": "https://orca.dev",
-  "stars": 94725,
-  "forks": 6060,
-  "open_issues": 8505,
+  "stars": 95785,
+  "forks": 6128,
+  "open_issues": 8561,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-10-17T08:33:33Z",
-  "pushed_at": "2026-10-17T08:34:53Z",
+  "updated_at": "2026-10-18T08:52:10Z",
+  "pushed_at": "2026-10-18T08:49:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 214,
+  "age_days": 215,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
-    "popularity": 99.5,
+    "popularity": 99.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 51.0,
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4452,
+    "stars_gained": 4635,
     "days_span": 5,
-    "stars_per_day": 890.4,
-    "lifetime_stars_per_day": 442.64,
+    "stars_per_day": 927.0,
+    "lifetime_stars_per_day": 445.51,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -176,13 +176,13 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-17T08:35:17+00:00",
+  "fetched_at": "2026-10-18T08:52:48+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile-2",
+    "mobile-remote-control",
     "remote-control-isolation"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11120,
-  "forks": 898,
-  "open_issues": 213,
+  "stars": 11125,
+  "forks": 931,
+  "open_issues": 224,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,27 +29,27 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-10-17T05:36:30Z",
-  "pushed_at": "2026-10-17T08:10:51Z",
+  "updated_at": "2026-10-17T19:10:24Z",
+  "pushed_at": "2026-10-18T04:53:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 95,
+  "age_days": 96,
   "days_since_push": 0,
-  "health_score": 59,
+  "health_score": 58,
   "health_components": {
     "popularity": 80.9,
-    "momentum": 8.3,
+    "momentum": 7.0,
     "maintenance": 100.0,
     "documentation": 41.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 50,
+    "stars_gained": 42,
     "days_span": 5,
-    "stars_per_day": 10.0,
-    "lifetime_stars_per_day": 117.05,
+    "stars_per_day": 8.4,
+    "lifetime_stars_per_day": 115.89,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:23+00:00",
+  "fetched_at": "2026-10-18T08:52:55+00:00",
   "categories": [
     "model-routing"
   ],

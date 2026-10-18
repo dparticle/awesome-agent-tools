@@ -6,8 +6,8 @@
   "url": "https://github.com/Pinvou/pinvou-agent",
   "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
   "homepage": "https://pinvou.com/",
-  "stars": 2545,
-  "forks": 372,
+  "stars": 2568,
+  "forks": 377,
   "open_issues": 29,
   "language": "Rust",
   "license": "MIT",
@@ -24,33 +24,33 @@
     "tauri"
   ],
   "created_at": "2026-07-24T07:28:41Z",
-  "updated_at": "2026-10-17T07:48:56Z",
-  "pushed_at": "2026-10-17T08:23:10Z",
+  "updated_at": "2026-10-18T07:51:13Z",
+  "pushed_at": "2026-10-18T07:55:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 85,
+  "age_days": 86,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 68.1,
-    "momentum": 14.7,
+    "popularity": 68.2,
+    "momentum": 14.3,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 35.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 88,
+    "stars_gained": 86,
     "days_span": 5,
-    "stars_per_day": 17.6,
-    "lifetime_stars_per_day": 29.94,
+    "stars_per_day": 17.2,
+    "lifetime_stars_per_day": 29.86,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Pinvou/pinvou-agent",
-    "readme_chars": 13462,
+    "readme_chars": 13515,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -73,7 +73,7 @@
       "multi-agent-orchestration": "",
       "model-routing": "onal knowledge; bring a dedicated coding agent into a real project over ACP; or turn a prompt into a visual artifact you can continue editing.",
       "api-gateway": "onal knowledge; bring a dedicated coding agent into a real project over ACP; or turn a prompt into a visual artifact you can continue editing.",
-      "memory-context": "Auxiliary chat — ask side questions while a task runs, in a per-task side session that is server-enforced zero-tool and isolated from the task's execution context",
+      "memory-context": ", in a per-task side session whose only tool is a server-enforced read-only view of that task's own history (ADR-0024), isolated from the task's execution context",
       "skills-plugins": "d coding agent into a real project over ACP; or turn a prompt into a visual artifact you can continue editing.",
       "agent-runtime": "development into one desktop workspace — designed for tasks that should end with a result, not just another chat response.",
       "mcp-support": "real project over ACP; or turn a prompt into a visual artifact you can continue editing.",
@@ -150,18 +150,19 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.337
+      "external_link_ratio": 1.332
     },
     "highlights": [
       "Unified tool store for local MCP servers, remote MCP servers, CLI tools, and API connectors",
-      "OAuth / SSO authorization where supported — no manual key pasting"
+      "OAuth / SSO authorization where supported — no manual key pasting",
+      "Auxiliary chat — ask side questions while a task runs, in a per-task side session whose only tool is a server-enforced read-only view of that task's own history (ADR-0024), isolated from th…"
     ],
     "summary_zh_native": "面向工作、设计与代码的开源桌面 AI Agent 工作台。",
     "highlights_zh": [
       "工具商店统一管理本地 MCP、远程 MCP、CLI 和 API 连接器",
       "支持 OAuth / SSO 等免手填密钥的授权方式",
       "支持 PDF、Office 文档、图片和文本附件，可拖拽或粘贴导入",
-      "🐧 QQ 用户交流群：1108909346 — 扫描下方二维码，或在 QQ 中搜索群号加入"
+      "辅助对话：任务运行期间旁路提问——每条任务挂独立侧会话，唯一工具是服务端强制的本任务历史只读视图（ADR-0024），与主任务执行上下文隔离"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -170,10 +171,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:32+00:00",
+  "fetched_at": "2026-10-18T08:53:06+00:00",
   "categories": [
+    "mobile-remote-control",
     "model-routing",
-    "self-hosting-security",
     "voice-remote-control"
   ],
   "primary_category": "voice-remote-control",

@@ -6,9 +6,9 @@
   "url": "https://github.com/Leonxlnx/taste-skill",
   "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
   "homepage": "https://tasteskill.dev",
-  "stars": 98163,
-  "forks": 6667,
-  "open_issues": 1,
+  "stars": 98585,
+  "forks": 6693,
+  "open_issues": 2,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -25,16 +25,16 @@
     "web-design"
   ],
   "created_at": "2026-02-19T21:44:05Z",
-  "updated_at": "2026-10-17T08:31:26Z",
-  "pushed_at": "2026-10-14T15:00:56Z",
+  "updated_at": "2026-10-18T08:50:35Z",
+  "pushed_at": "2026-10-18T08:23:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 239,
-  "days_since_push": 2,
+  "age_days": 240,
+  "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 99.8,
+    "popularity": 99.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 41.0,
@@ -42,10 +42,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 98163,
-    "days_span": 239,
-    "stars_per_day": 410.72,
-    "lifetime_stars_per_day": 410.72,
+    "stars_gained": 98585,
+    "days_span": 240,
+    "stars_per_day": 410.77,
+    "lifetime_stars_per_day": 410.77,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:37+00:00",
+  "fetched_at": "2026-10-18T08:53:12+00:00",
   "categories": [
     "desktop-ui"
   ],

@@ -2,7 +2,7 @@
 
 # Vincentwei1021/video-shotcraft
 
-> AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template
+> English | 中文 | 日本語 | Русский
 
 [Repository](https://github.com/Vincentwei1021/video-shotcraft) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,233 |
-| Star velocity | 164.6/day (history basis, 5d span) |
+| Stars | 12,334 |
+| Star velocity | 138.0/day (history basis, 5d span) |
 | Health score | 83/100 |
 | Documentation | 47/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-19 |
-| Last push | 2026-10-16 (0 days ago) |
-| Analyzed README | 16,608 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 16,634 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

@@ -6,7 +6,7 @@
   "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
   "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
   "homepage": "https://lh-harness.pages.dev",
-  "stars": 1749,
+  "stars": 1752,
   "forks": 189,
   "open_issues": 43,
   "language": "Python",
@@ -31,27 +31,27 @@
     "loop-engineering"
   ],
   "created_at": "2026-08-04T04:30:58Z",
-  "updated_at": "2026-10-17T01:58:19Z",
+  "updated_at": "2026-10-18T07:48:45Z",
   "pushed_at": "2026-08-20T12:36:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 74,
-  "days_since_push": 57,
+  "age_days": 75,
+  "days_since_push": 58,
   "health_score": 54,
   "health_components": {
     "popularity": 64.9,
-    "momentum": 3.5,
+    "momentum": 3.3,
     "maintenance": 78.0,
     "documentation": 71.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 4.2,
-    "lifetime_stars_per_day": 23.64,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 23.36,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -159,83 +159,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:54+00:00",
+  "fetched_at": "2026-10-18T08:53:32+00:00",
   "categories": [
     "model-routing",
-    "self-hosting-security",
-    "sharing-2"
+    "providers",
+    "self-hosting-security"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "providers",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "amap-ml/longhorizon-harness",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "AMAP-ML/LongHorizon-Harness",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "auto-failover",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "model-routing",
-        "security-isolation",
-        "self-hosted"
-      ],
-      "star_ratio": 16.926,
-      "momentum_ratio": 12.714,
-      "setup_delta": 2,
-      "dominance": 0.99,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "16.93x the stars (29,604 vs 1,749)",
-        "12.71x the star velocity (53.4/day vs 4.2/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "security-isolation",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 75,
-        "incumbent_setup_score": 30,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

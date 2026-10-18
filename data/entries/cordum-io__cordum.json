@@ -6,9 +6,9 @@
   "url": "https://github.com/cordum-io/cordum",
   "description": "The action firewall for AI agents. Enforce policy and human approval before risky tool calls, shell commands, workflows, and production changes, with auditable evidence.",
   "homepage": "",
-  "stars": 510,
+  "stars": 511,
   "forks": 34,
-  "open_issues": 31,
+  "open_issues": 10,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,26 +34,26 @@
     "workflow-engine"
   ],
   "created_at": "2026-01-11T16:56:02Z",
-  "updated_at": "2026-10-17T02:25:56Z",
-  "pushed_at": "2026-10-14T18:29:46Z",
+  "updated_at": "2026-10-17T19:52:31Z",
+  "pushed_at": "2026-10-17T19:59:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 278,
-  "days_since_push": 2,
+  "age_days": 279,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 54.2,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 80.0,
     "accessibility": 30.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 1.83,
     "basis": "history",
     "is_fast_riser": false
@@ -164,11 +164,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:11+00:00",
+  "fetched_at": "2026-10-18T08:53:51+00:00",
   "categories": [
     "providers-2",
-    "self-hosting-security",
-    "sharing-2"
+    "security",
+    "self-hosting-security"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

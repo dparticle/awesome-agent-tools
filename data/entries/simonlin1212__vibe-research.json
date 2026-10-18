@@ -6,9 +6,9 @@
   "url": "https://github.com/simonlin1212/Vibe-Research",
   "description": "Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A research workbench for China A-shares, US and HK stocks.",
   "homepage": "https://viberesearch.wiki",
-  "stars": 2723,
-  "forks": 563,
-  "open_issues": 3,
+  "stars": 2729,
+  "forks": 573,
+  "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -32,33 +32,33 @@
     "workbuddy"
   ],
   "created_at": "2026-07-05T06:30:55Z",
-  "updated_at": "2026-10-17T03:17:03Z",
-  "pushed_at": "2026-10-11T11:35:32Z",
+  "updated_at": "2026-10-18T08:50:10Z",
+  "pushed_at": "2026-10-18T05:42:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 104,
-  "days_since_push": 5,
-  "health_score": 60,
+  "age_days": 105,
+  "days_since_push": 0,
+  "health_score": 59,
   "health_components": {
     "popularity": 68.7,
-    "momentum": 8.2,
+    "momentum": 5.7,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 57.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 49,
+    "stars_gained": 34,
     "days_span": 5,
-    "stars_per_day": 9.8,
-    "lifetime_stars_per_day": 26.18,
+    "stars_per_day": 6.8,
+    "lifetime_stars_per_day": 25.99,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "simonlin1212/Vibe-Research",
-    "readme_chars": 31184,
+    "readme_chars": 31595,
     "capabilities": [
       "quota-management",
       "remote-control",
@@ -73,7 +73,7 @@
     "capability_evidence": {
       "quota-management": "fig.json 写 provider.profile（如 cli-claude），或者添加时带上环境变量，例如 claude mcp add vibe-research -e VRAPROVIDER=cli-claude -- node …、codex mcp add vibe-research --env VRAPROVIDER=cli-codex -- node …。",
       "remote-control": "",
-      "multi-agent-orchestration": "calculations.json：派生数字的输入、函数和计算 DAG。",
+      "multi-agent-orchestration": "ations.json：派生数字的输入、函数和计算 DAG。",
       "api-gateway": "；三家订阅直接调用使用者本机的官方 CLI，模型 API 直接走 Chat Completions",
       "billing-metering": "上的对话、研究、辩论和回测都允许 AI 联网和调用产品工具。",
       "mcp-support": "gine、--codex-path 等）会报错并给出改法。",
@@ -149,7 +149,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.224
+      "external_link_ratio": 0.222
     },
     "highlights": [
       "v2.2.0 发版前两轮独立只读审计（Codex 6.1 Sol、Opus 5.5），去重后 11 条真问题全部修复；v2.2.1 修的 4 处来自 Vibe AStock 合并 v2.2.0 时的发版审计，修复补丁另做了一次独立复核（Opus 5.5），找到的 6 处全部修掉。",
@@ -166,11 +166,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:32+00:00",
+  "fetched_at": "2026-10-18T08:53:05+00:00",
   "categories": [
     "billing",
-    "self-hosting-security",
-    "sharing"
+    "mobile-remote-control",
+    "self-hosting-security"
   ],
   "primary_category": "billing",
   "lifecycle": {

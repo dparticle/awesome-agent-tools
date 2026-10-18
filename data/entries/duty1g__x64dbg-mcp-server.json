@@ -6,8 +6,8 @@
   "url": "https://github.com/duty1g/x64dbg-mcp-server",
   "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros",
   "homepage": "https://duty1g.online",
-  "stars": 2524,
-  "forks": 281,
+  "stars": 2532,
+  "forks": 288,
   "open_issues": 0,
   "language": "Zig",
   "license": "MIT",
@@ -33,27 +33,27 @@
     "ziglang"
   ],
   "created_at": "2026-08-22T14:28:41Z",
-  "updated_at": "2026-10-17T05:14:18Z",
+  "updated_at": "2026-10-18T05:33:47Z",
   "pushed_at": "2026-10-12T08:49:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 55,
-  "days_since_push": 4,
+  "age_days": 56,
+  "days_since_push": 6,
   "health_score": 59,
   "health_components": {
-    "popularity": 68.0,
-    "momentum": 9.5,
+    "popularity": 68.1,
+    "momentum": 8.8,
     "maintenance": 100.0,
     "documentation": 38.0,
     "accessibility": 99.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 57,
+    "stars_gained": 53,
     "days_span": 5,
-    "stars_per_day": 11.4,
-    "lifetime_stars_per_day": 45.89,
+    "stars_per_day": 10.6,
+    "lifetime_stars_per_day": 45.21,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:32+00:00",
+  "fetched_at": "2026-10-18T08:53:06+00:00",
   "categories": [
     "self-hosting-security"
   ],

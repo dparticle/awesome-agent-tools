@@ -6,19 +6,19 @@
   "url": "https://github.com/openai/codex",
   "description": "Lightweight coding agent that runs in your terminal",
   "homepage": "",
-  "stars": 129577,
-  "forks": 20392,
-  "open_issues": 23092,
+  "stars": 129691,
+  "forks": 20415,
+  "open_issues": 23270,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2025-04-13T05:37:54Z",
-  "updated_at": "2026-10-17T08:31:27Z",
-  "pushed_at": "2026-10-17T04:22:37Z",
+  "updated_at": "2026-10-18T08:52:07Z",
+  "pushed_at": "2026-10-18T01:58:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 552,
+  "age_days": 553,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 798,
+    "stars_gained": 712,
     "days_span": 5,
-    "stars_per_day": 159.6,
-    "lifetime_stars_per_day": 234.74,
+    "stars_per_day": 142.4,
+    "lifetime_stars_per_day": 234.52,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -126,7 +126,7 @@
     "seed_reason": "OpenAI's local coding agent.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-17T08:35:19+00:00",
+  "fetched_at": "2026-10-18T08:52:50+00:00",
   "categories": [
     "desktop-ui-2",
     "sharing"

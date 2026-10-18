@@ -8,7 +8,7 @@
   "homepage": "https://heyclau.de",
   "stars": 301,
   "forks": 162,
-  "open_issues": 72,
+  "open_issues": 73,
   "language": "MDX",
   "license": "MIT",
   "topics": [
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 397,
-  "days_since_push": 61,
+  "age_days": 398,
+  "days_since_push": 62,
   "health_score": 49,
   "health_components": {
     "popularity": 49.6,
@@ -240,10 +240,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:26+00:00",
+  "fetched_at": "2026-10-18T08:54:09+00:00",
   "categories": [
+    "mobile-remote-control",
     "remote-control-isolation",
-    "self-hosting-security",
     "teams"
   ],
   "primary_category": "remote-control-isolation",

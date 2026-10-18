@@ -6,9 +6,9 @@
   "url": "https://github.com/metatool-ai/metamcp",
   "description": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
   "homepage": "https://docs.metamcp.com",
-  "stars": 2709,
-  "forks": 444,
-  "open_issues": 117,
+  "stars": 2712,
+  "forks": 450,
+  "open_issues": 119,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -29,13 +29,13 @@
     "vibe-coding"
   ],
   "created_at": "2025-01-22T11:58:52Z",
-  "updated_at": "2026-10-17T02:01:39Z",
+  "updated_at": "2026-10-18T05:33:52Z",
   "pushed_at": "2026-06-22T16:50:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "ai-dev",
-  "age_days": 632,
-  "days_since_push": 116,
+  "age_days": 633,
+  "days_since_push": 117,
   "health_score": 46,
   "health_components": {
     "popularity": 68.7,
@@ -49,7 +49,7 @@
     "stars_gained": 8,
     "days_span": 5,
     "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 4.29,
+    "lifetime_stars_per_day": 4.28,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -154,9 +154,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:52+00:00",
+  "fetched_at": "2026-10-18T08:53:30+00:00",
   "categories": [
     "desktop-ui-2",
+    "remote-control-isolation",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",

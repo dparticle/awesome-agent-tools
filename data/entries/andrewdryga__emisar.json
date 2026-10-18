@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 151,
-  "days_since_push": 0,
+  "age_days": 152,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 50.6,
@@ -49,7 +49,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.24,
+    "lifetime_stars_per_day": 2.22,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,73 +137,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:22+00:00",
+  "fetched_at": "2026-10-18T08:54:04+00:00",
   "categories": [
-    "self-hosting-security"
+    "security"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "andrewdryga/emisar",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "AndrewDryga/emisar",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "security-isolation"
-      ],
-      "star_ratio": 87.586,
-      "momentum_ratio": 267.0,
-      "setup_delta": 7,
-      "dominance": 0.965,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "87.59x the stars (29,604 vs 338)",
-        "267.00x the star velocity (53.4/day vs 0.2/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 75,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

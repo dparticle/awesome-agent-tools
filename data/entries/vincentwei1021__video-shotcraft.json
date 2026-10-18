@@ -6,9 +6,9 @@
   "url": "https://github.com/Vincentwei1021/video-shotcraft",
   "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
   "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
-  "stars": 12233,
-  "forks": 1096,
-  "open_issues": 11,
+  "stars": 12334,
+  "forks": 1107,
+  "open_issues": 10,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -28,12 +28,12 @@
     "video-production"
   ],
   "created_at": "2026-07-19T11:44:41Z",
-  "updated_at": "2026-10-17T08:33:04Z",
-  "pushed_at": "2026-10-16T10:37:14Z",
+  "updated_at": "2026-10-18T08:35:37Z",
+  "pushed_at": "2026-10-17T17:50:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 89,
+  "age_days": 90,
   "days_since_push": 0,
   "health_score": 83,
   "health_components": {
@@ -45,16 +45,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 823,
+    "stars_gained": 690,
     "days_span": 5,
-    "stars_per_day": 164.6,
-    "lifetime_stars_per_day": 137.45,
+    "stars_per_day": 138.0,
+    "lifetime_stars_per_day": 137.04,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Vincentwei1021/video-shotcraft",
-    "readme_chars": 16608,
+    "readme_chars": 16634,
     "capabilities": [
       "cross-agent-support"
     ],
@@ -99,7 +99,7 @@
       "Claude Code",
       "Codex"
     ],
-    "summary_en": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+    "summary_en": "English | 中文 | 日本語 | Русский",
     "summary_zh": "",
     "install_hint": "npx skills add Vincentwei1021/video-shotcraft",
     "source": "raw:HEAD/README.md",
@@ -107,14 +107,14 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.204
+      "external_link_ratio": 1.202
     },
     "highlights": [
       "2026-08 · JianYing (CapCut CN) export.",
       "2026-09 · Motion Workbench. Keep editing the delivered film in a CapCut-style browser editor.",
       "2026-08 · video-talkcraft, the narration-video"
     ],
-    "summary_zh_native": "",
+    "summary_zh_native": "English | 中文 | 日本語 | Русский",
     "highlights_zh": [
       "并发上限：低核机器上 remotion still/render 会报 \"Maximum for --concurrency is 2\"。",
       "CDN 访问不了：remotion.media 访问不了时（国内常见），headless-shell 自动下载会失败。",
@@ -127,7 +127,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:22+00:00",
+  "fetched_at": "2026-10-18T08:52:54+00:00",
   "categories": [
     "remote-control-isolation"
   ],

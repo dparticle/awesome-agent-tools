@@ -6,9 +6,9 @@
   "url": "https://github.com/HarnessMD/munder-difflin",
   "description": "an open-source alternative to the dots, bots and muses of the world, run an office of claude code/codex like agents on your laptop, sandboxes or anywhere, uses your existing subscriptions",
   "homepage": "https://munderdiffl.in",
-  "stars": 8814,
-  "forks": 1224,
-  "open_issues": 248,
+  "stars": 8866,
+  "forks": 1227,
+  "open_issues": 251,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "typescript"
   ],
   "created_at": "2026-05-31T15:25:05Z",
-  "updated_at": "2026-10-17T08:11:01Z",
-  "pushed_at": "2026-10-17T04:30:52Z",
+  "updated_at": "2026-10-18T07:59:25Z",
+  "pushed_at": "2026-10-18T04:26:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 138,
+  "age_days": 139,
   "days_since_push": 0,
-  "health_score": 67,
+  "health_score": 68,
   "health_components": {
-    "popularity": 78.9,
-    "momentum": 22.3,
+    "popularity": 79.0,
+    "momentum": 25.2,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 134,
+    "stars_gained": 151,
     "days_span": 5,
-    "stars_per_day": 26.8,
-    "lifetime_stars_per_day": 63.87,
+    "stars_per_day": 30.2,
+    "lifetime_stars_per_day": 63.78,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -193,10 +193,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:35:25+00:00",
+  "fetched_at": "2026-10-18T08:52:57+00:00",
   "categories": [
     "analytics",
-    "desktop-ui",
+    "remote-control-isolation",
     "voice-remote-control"
   ],
   "primary_category": "voice-remote-control",

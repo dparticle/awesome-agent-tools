@@ -6,9 +6,9 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 882,
-  "forks": 109,
-  "open_issues": 1,
+  "stars": 885,
+  "forks": 111,
+  "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -31,33 +31,33 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-17T08:21:16Z",
-  "pushed_at": "2026-10-14T09:24:01Z",
+  "updated_at": "2026-10-18T07:34:04Z",
+  "pushed_at": "2026-10-18T07:34:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 303,
-  "days_since_push": 2,
+  "age_days": 304,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 58.9,
-    "momentum": 2.5,
+    "momentum": 2.2,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 13,
     "days_span": 5,
-    "stars_per_day": 3.0,
+    "stars_per_day": 2.6,
     "lifetime_stars_per_day": 2.91,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "hex/claude-council",
-    "readme_chars": 8208,
+    "readme_chars": 8352,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -68,13 +68,13 @@
       "multi-agent-orchestration": "",
       "parallel-execution": "",
       "agent-runtime": "",
-      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
       "multi-agent-orchestration": 1,
       "parallel-execution": 1,
       "agent-runtime": 1,
-      "cross-agent-support": 3
+      "cross-agent-support": 4
     },
     "friction": {
       "level": "moderate",
@@ -109,7 +109,8 @@
     "agents": [
       "Claude Code",
       "Codex",
-      "Cursor"
+      "Cursor",
+      "Copilot"
     ],
     "summary_en": "A Claude Code plugin that consults multiple AI coding agents in parallel and shows you their answers side-by-side.",
     "summary_zh": "",
@@ -122,6 +123,7 @@
       "external_link_ratio": 0.0
     },
     "highlights": [
+      "copilot-cli seats the GitHub Copilot CLI on your Copilot plan, without",
       "claude-cli seats Claude Code itself on your subscription, without your",
       "CLIs come first. codex stands in for openai, antigravity for",
       "OpenRouter seats any model it routes, Claude by default."
@@ -135,7 +137,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:04+00:00",
+  "fetched_at": "2026-10-18T08:53:43+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -144,15 +146,15 @@
   "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "getpaseo/paseo",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "hex/claude-council",
-      "challenger": "getpaseo/paseo",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "hex/claude-council",
-      "challenger_name": "getpaseo/paseo",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -163,15 +165,15 @@
         "multi-agent-orchestration",
         "parallel-execution"
       ],
-      "star_ratio": 24.008,
-      "momentum_ratio": 38.467,
-      "setup_delta": -18,
+      "star_ratio": 37.976,
+      "momentum_ratio": 9.538,
+      "setup_delta": -40,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "24.01x the stars (21,175 vs 882)",
-        "38.47x the star velocity (115.4/day vs 3.0/day)",
-        "no harder to set up (24 vs 42 friction)"
+        "37.98x the stars (33,609 vs 885)",
+        "9.54x the star velocity (24.8/day vs 2.6/day)",
+        "no harder to set up (2 vs 42 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -183,22 +185,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "mobile-access",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
           "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "voice-input",
+          "skills-plugins",
+          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 52,
-        "challenger_health": 86,
+        "challenger_health": 72,
         "incumbent_setup_score": 42,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 2
       }
     }
   }

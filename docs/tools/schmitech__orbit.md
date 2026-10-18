@@ -2,7 +2,7 @@
 
 # schmitech/orbit
 
-> The self-hosted AI backend for private data and tool-using agents.
+> Open Retrieval-Based Inference Toolkit
 
 [Repository](https://github.com/schmitech/orbit) · [Back to index](../../README.md) · Category: **None**
 
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-03-10 |
-| Last push | 2026-10-16 (0 days ago) |
-| Analyzed README | 11,714 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-17 (0 days ago) |
+| Analyzed README | 10,970 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,15 +40,13 @@
 
 ### MCP support
 
-> ⭐ Building with private data or AI agents? Star ORBIT to bookmark it and help others discover it.
+> o voice assistants and tool-using agents.
 
 ### Security & isolation
 
-> ne OpenAI-compatible API.
+> local or hosted models through one API.
 
 ### Self-hostable
-
-> stores, APIs, and MCP tools through YAML-configured adapters.
 
 ### GUI / desktop app
 

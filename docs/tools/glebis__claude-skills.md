@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2025-10-25 |
-| Last push | 2026-10-16 (0 days ago) |
+| Last push | 2026-10-16 (1 days ago) |
 | Analyzed README | 15,721 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (8/8).

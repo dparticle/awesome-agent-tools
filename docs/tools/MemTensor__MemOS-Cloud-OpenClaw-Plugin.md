@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 367 |
-| Star velocity | 0.0/day (history basis, 9d span) |
+| Stars | 368 |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 47/100 |
 | Documentation | 38/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-02 |
-| Last push | 2026-09-23 (24 days ago) |
+| Last push | 2026-09-23 (25 days ago) |
 | Analyzed README | 14,445 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).
@@ -72,7 +72,7 @@ Score **38/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.3 |
-| momentum | 0.0 |
+| momentum | 0.2 |
 | maintenance | 92.0 |
 | documentation | 38.0 |
 | accessibility | 66.0 |

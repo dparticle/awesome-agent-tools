@@ -7,7 +7,7 @@
   "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
   "homepage": "",
   "stars": 755,
-  "forks": 124,
+  "forks": 122,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 108,
-  "days_since_push": 94,
-  "health_score": 45,
+  "age_days": 110,
+  "days_since_push": 95,
+  "health_score": 46,
   "health_components": {
     "popularity": 57.6,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 54.0,
     "accessibility": 81.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.99,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 6.86,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:06+00:00",
+  "fetched_at": "2026-10-18T08:53:46+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -157,13 +157,13 @@
         "skills-plugins"
       ],
       "star_ratio": 1.393,
-      "momentum_ratio": 8.0,
+      "momentum_ratio": 1.0,
       "setup_delta": -3,
-      "dominance": 0.825,
+      "dominance": 0.625,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "1.39x the stars (1,052 vs 755)",
-        "8.00x the star velocity (0.4/day vs 0.0/day)",
+        "1.00x the star velocity (0.2/day vs 0.2/day)",
         "no harder to set up (16 vs 19 friction)"
       ],
       "reasons_zh": [],
@@ -182,7 +182,7 @@
           "multi-agent-orchestration",
           "skills-plugins"
         ],
-        "incumbent_health": 45,
+        "incumbent_health": 46,
         "challenger_health": 52,
         "incumbent_setup_score": 19,
         "challenger_setup_score": 16

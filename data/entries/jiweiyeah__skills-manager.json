@@ -7,7 +7,7 @@
   "description": "Free, open-source desktop manager for AI Agent Skills. Write a skill once, sync it to 32 AI coding tools (Claude Code, Codex, Cursor, Gemini CLI, and more) via symlinks. Local-first, MIT licensed. macOS, Windows, Linux.",
   "homepage": "https://skillsmanager.freeourdays.com/?ref=gh",
   "stars": 1030,
-  "forks": 66,
+  "forks": 71,
   "open_issues": 35,
   "language": "TypeScript",
   "license": "MIT",
@@ -27,13 +27,13 @@
     "tauri-v2"
   ],
   "created_at": "2026-02-06T05:25:20Z",
-  "updated_at": "2026-10-17T00:09:39Z",
+  "updated_at": "2026-10-18T05:09:39Z",
   "pushed_at": "2026-09-10T16:28:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 253,
-  "days_since_push": 36,
+  "age_days": 254,
+  "days_since_push": 37,
   "health_score": 56,
   "health_components": {
     "popularity": 60.3,
@@ -47,7 +47,7 @@
     "stars_gained": 9,
     "days_span": 5,
     "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 4.07,
+    "lifetime_stars_per_day": 4.06,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:02+00:00",
+  "fetched_at": "2026-10-18T08:53:40+00:00",
   "categories": [
     "desktop-ui"
   ],

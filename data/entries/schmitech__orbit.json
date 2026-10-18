@@ -33,12 +33,12 @@
     "vector-database"
   ],
   "created_at": "2025-03-10T02:30:21Z",
-  "updated_at": "2026-10-16T21:27:51Z",
-  "pushed_at": "2026-10-16T21:27:45Z",
+  "updated_at": "2026-10-17T20:33:05Z",
+  "pushed_at": "2026-10-17T20:34:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 586,
+  "age_days": 587,
   "days_since_push": 0,
   "health_score": 48,
   "health_components": {
@@ -53,13 +53,13 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 0.61,
+    "lifetime_stars_per_day": 0.6,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "schmitech/orbit",
-    "readme_chars": 11714,
+    "readme_chars": 10970,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -73,9 +73,9 @@
       "model-routing": "**Your data, connected** Files, SQL, NoSQL, vector stores, APIs, and MCP tools through YAML-configured adapters.",
       "api-gateway": "**Your data, connected** Files, SQL, NoSQL, vector stores, APIs, and MCP tools through YAML-configured adapters.",
       "usage-analytics": "uild agents MCP tools · Automatic skill routing · A2A · Adapter creation",
-      "mcp-support": "⭐ Building with private data or AI agents? Star ORBIT to bookmark it and help others discover it.",
-      "security-isolation": "ne OpenAI-compatible API.",
-      "self-hosted": "stores, APIs, and MCP tools through YAML-configured adapters.",
+      "mcp-support": "o voice assistants and tool-using agents.",
+      "security-isolation": "local or hosted models through one API.",
+      "self-hosted": "",
       "gui-desktop": ""
     },
     "capability_hits": {
@@ -125,7 +125,7 @@
       "explains architecture"
     ],
     "agents": [],
-    "summary_en": "The self-hosted AI backend for private data and tool-using agents.",
+    "summary_en": "Open Retrieval-Based Inference Toolkit",
     "summary_zh": "",
     "install_hint": "docker run -d --name orbit \\",
     "source": "raw:HEAD/README.md",
@@ -135,7 +135,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.451
+      "external_link_ratio": 1.55
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -147,13 +147,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-17T08:36:21+00:00",
+  "fetched_at": "2026-10-18T08:54:03+00:00",
   "categories": [
     "model-routing",
-    "self-hosting-security",
-    "sharing-2"
+    "security",
+    "self-hosting-security"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

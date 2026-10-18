@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 292 |
-| Star velocity | 2.6/day (lifetime basis, 110d span) |
+| Stars | 293 |
+| Star velocity | 2.6/day (lifetime basis, 111d span) |
 | Health score | 49/100 |
 | Documentation | 52/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-29 |
-| Last push | 2026-10-17 (0 days ago) |
-| Analyzed README | 16,568 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-18 (0 days ago) |
+| Analyzed README | 17,137 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -43,6 +43,10 @@
 ### Usage analytics
 
 > d whether it stays above full-screen apps are configurable.
+
+### Skills & plugins
+
+> - Skills page for each provider's global skills: where each one comes from, whether the CLI loads it, and which other CLIs share it; search, read SKILL.md, open its folder, turn it on or off in the CLI's own config (b
 
 ### MCP support
 
