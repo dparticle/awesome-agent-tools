@@ -7,8 +7,8 @@
   "description": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
   "homepage": "",
   "stars": 1103,
-  "forks": 206,
-  "open_issues": 24,
+  "forks": 207,
+  "open_issues": 25,
   "language": "",
   "license": "",
   "topics": [],
@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 364,
-  "days_since_push": 35,
+  "age_days": 365,
+  "days_since_push": 36,
   "health_score": 50,
   "health_components": {
     "popularity": 60.9,
-    "momentum": 1.2,
+    "momentum": 1.0,
     "maintenance": 78.0,
     "documentation": 68.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 3.03,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 3.02,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -157,11 +157,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:40+00:00",
+  "fetched_at": "2026-10-19T09:56:29+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "remote-control-isolation"
+    "mobile-remote-control"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

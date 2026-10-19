@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 485 |
-| Star velocity | 4.0/day (history basis, 5d span) |
+| Star velocity | 3.6/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
 | Last push | 2026-10-18 (0 days ago) |
-| Analyzed README | 11,652 chars from `raw:HEAD/README.md` |
+| Analyzed README | 10,353 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -34,11 +36,11 @@
 
 ### MCP support
 
-> tached src/ payloads under agents/, commands/, hooks/, policies/, claude/, plugins/maestro/, and qwen/; update src/ first, then regenerate.
+> , and detached src/ payloads under agents/, commands/, policies/, claude/, plugins/maestro/, and qwen/; update src/ first, then regenerate.
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Gemini CLI, Qwen Code
+> Mentions Claude Code, Codex, Qwen Code
 
 ## Setup reality check
 
@@ -70,7 +72,7 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.7 |
-| momentum | 3.3 |
+| momentum | 3.0 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 49.0 |

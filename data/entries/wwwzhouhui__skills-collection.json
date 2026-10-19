@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 339,
-  "days_since_push": 1,
+  "age_days": 341,
+  "days_since_push": 2,
   "health_score": 55,
   "health_components": {
     "popularity": 49.1,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 0.84,
+    "lifetime_stars_per_day": 0.83,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -170,11 +170,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:11+00:00",
+  "fetched_at": "2026-10-19T09:57:01+00:00",
   "categories": [
     "billing",
-    "sharing",
-    "teams"
+    "mobile-remote-control",
+    "sharing"
   ],
   "primary_category": "billing",
   "lifecycle": {

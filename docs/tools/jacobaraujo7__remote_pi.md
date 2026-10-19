@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 458 |
-| Star velocity | 3.2/day (history basis, 5d span) |
+| Stars | 462 |
+| Star velocity | 3.8/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Dart |
 | Created | 2026-05-22 |
-| Last push | 2026-10-11 (7 days ago) |
+| Last push | 2026-10-18 (0 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -67,8 +65,8 @@ Score **46/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.2 |
-| momentum | 2.7 |
+| popularity | 53.3 |
+| momentum | 3.2 |
 | maintenance | 100.0 |
 | documentation | 46.0 |
 | accessibility | 64.0 |

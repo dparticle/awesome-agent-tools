@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5188,
-  "forks": 514,
-  "open_issues": 65,
+  "stars": 5237,
+  "forks": 521,
+  "open_issues": 58,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-10-18T08:49:20Z",
-  "pushed_at": "2026-10-18T08:52:43Z",
+  "updated_at": "2026-10-19T09:54:04Z",
+  "pushed_at": "2026-10-19T09:55:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 107,
+  "age_days": 108,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 78,
   "health_components": {
-    "popularity": 74.3,
-    "momentum": 40.4,
+    "popularity": 74.4,
+    "momentum": 65.7,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 65.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 5188,
-    "days_span": 107,
-    "stars_per_day": 48.49,
+    "stars_gained": 394,
+    "days_span": 5,
+    "stars_per_day": 78.8,
     "lifetime_stars_per_day": 48.49,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 36208,
+    "readme_chars": 36021,
     "capabilities": [
       "remote-control",
       "model-routing",
@@ -156,7 +156,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.414
+      "external_link_ratio": 0.416
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -168,8 +168,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:02+00:00",
+  "fetched_at": "2026-10-19T09:55:50+00:00",
   "categories": [
+    "desktop-ui-2",
     "security"
   ],
   "primary_category": "security",

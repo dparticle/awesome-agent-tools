@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,568 |
-| Star velocity | 17.2/day (history basis, 5d span) |
-| Health score | 57/100 |
+| Stars | 2,586 |
+| Star velocity | 19.6/day (history basis, 5d span) |
+| Health score | 58/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-07-24 |
-| Last push | 2026-10-18 (0 days ago) |
-| Analyzed README | 13,515 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 13,985 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -74,7 +74,7 @@
 
 ### Voice input
 
-> , enterprise knowledge bases, and legal / enterprise data services
+> Built for daily operation
 
 ### Cross-agent support
 
@@ -112,8 +112,8 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 68.2 |
-| momentum | 14.3 |
+| popularity | 68.3 |
+| momentum | 16.3 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
 | accessibility | 35.0 |

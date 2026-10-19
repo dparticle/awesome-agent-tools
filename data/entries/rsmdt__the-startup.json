@@ -23,22 +23,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 431,
-  "days_since_push": 75,
+  "age_days": 432,
+  "days_since_push": 76,
   "health_score": 48,
   "health_components": {
     "popularity": 55.1,
-    "momentum": 0.5,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.32,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.31,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:49+00:00",
+  "fetched_at": "2026-10-19T09:56:38+00:00",
   "categories": [
     "desktop-ui",
     "remote-control-isolation"
@@ -133,18 +133,18 @@
   "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "OthmanAdi/planning-with-files",
+    "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 maxritter/pilot-shell 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "maxritter/pilot-shell",
     "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "othmanadi/planning-with-files",
+      "challenger": "maxritter/pilot-shell",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "OthmanAdi/planning-with-files",
+      "challenger_name": "maxritter/pilot-shell",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "memory-context",
@@ -152,15 +152,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.41,
-      "momentum_ratio": 23.0,
-      "setup_delta": 2,
-      "dominance": 0.99,
+      "star_ratio": 3.687,
+      "momentum_ratio": 6.0,
+      "setup_delta": -13,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.41x the stars (27,497 vs 568)",
-        "23.00x the star velocity (13.8/day vs 0.6/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "3.69x the stars (2,094 vs 568)",
+        "6.00x the star velocity (1.2/day vs 0.2/day)",
+        "no harder to set up (12 vs 25 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -173,17 +173,19 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
           "memory-context",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
-          "security-isolation",
           "skills-plugins",
           "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 68,
+        "challenger_health": 61,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 27
+        "challenger_setup_score": 12
       }
     }
   }

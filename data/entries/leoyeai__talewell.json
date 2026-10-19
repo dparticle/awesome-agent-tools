@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 204,
-  "days_since_push": 16,
+  "age_days": 205,
+  "days_since_push": 17,
   "health_score": 50,
   "health_components": {
     "popularity": 54.8,
@@ -41,7 +41,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.69,
+    "lifetime_stars_per_day": 2.67,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,12 +131,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:50+00:00",
+  "fetched_at": "2026-10-19T09:56:39+00:00",
   "categories": [
-    "analytics",
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2",
+    "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
@@ -159,14 +160,14 @@
         "memory-context",
         "skills-plugins"
       ],
-      "star_ratio": 8.765,
-      "momentum_ratio": 244.0,
+      "star_ratio": 8.781,
+      "momentum_ratio": 224.0,
       "setup_delta": 1,
       "dominance": 0.995,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "8.76x the stars (4,803 vs 548)",
-        "244.00x the star velocity (12.2/day vs 0.0/day)",
+        "8.78x the stars (4,812 vs 548)",
+        "224.00x the star velocity (11.2/day vs 0.0/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -193,7 +194,7 @@
           "skills-plugins"
         ],
         "incumbent_health": 50,
-        "challenger_health": 63,
+        "challenger_health": 62,
         "incumbent_setup_score": 23,
         "challenger_setup_score": 24
       }

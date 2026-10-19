@@ -13,12 +13,12 @@
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-10-18T05:54:12Z",
-  "pushed_at": "2026-10-18T05:54:09Z",
+  "updated_at": "2026-10-19T07:08:43Z",
+  "pushed_at": "2026-10-19T07:08:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 123,
+  "age_days": 124,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 6,
+    "days_span": 7,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 4.45,
+    "lifetime_stars_per_day": 4.41,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:50+00:00",
+  "fetched_at": "2026-10-19T09:56:40+00:00",
   "categories": [
     "desktop-ui-2",
     "mobile-remote-control",
@@ -141,70 +141,10 @@
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 omnigent-ai/omnigent 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "omnigent-ai/omnigent",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "bennykok/omg.dev",
-      "challenger": "omnigent-ai/omnigent",
-      "incumbent_name": "BennyKok/omg.dev",
-      "challenger_name": "omnigent-ai/omnigent",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mobile-access",
-        "notifications",
-        "remote-control",
-        "self-hosted"
-      ],
-      "star_ratio": 19.867,
-      "momentum_ratio": 356.0,
-      "setup_delta": -6,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "19.87x the stars (10,867 vs 547)",
-        "356.00x the star velocity (17.8/day vs 0.0/day)",
-        "no harder to set up (25 vs 31 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mobile-access",
-          "notifications",
-          "remote-control",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "self-hosted",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 50,
-        "challenger_health": 66,
-        "incumbent_setup_score": 31,
-        "challenger_setup_score": 25
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -34,22 +34,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 143,
-  "days_since_push": 4,
+  "age_days": 144,
+  "days_since_push": 5,
   "health_score": 53,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 2.15,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 2.13,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,9 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:06+00:00",
+  "fetched_at": "2026-10-19T09:56:56+00:00",
   "categories": [
     "desktop-ui-2",
+    "remote-control-isolation",
     "security"
   ],
   "primary_category": "security",

@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 327 |
+| Stars | 331 |
 | Star velocity | 3.4/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 61/100 |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
-| Last push | 2026-10-17 (1 days ago) |
-| Analyzed README | 17,605 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 18,253 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,11 +36,9 @@
 
 ### Remote control
 
-### Multi-agent orchestration
-
 ### Workspace isolation
 
-> 公众号、群机器人和邮箱：消息按本人跑，结果只推给本人
+> perm -C -f --json 等全部参数 → 命令行用法
 
 ### API gateway / proxy
 
@@ -100,7 +98,7 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.3 |
+| popularity | 50.4 |
 | momentum | 2.8 |
 | maintenance | 100.0 |
 | documentation | 61.0 |

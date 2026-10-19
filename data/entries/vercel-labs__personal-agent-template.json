@@ -7,7 +7,7 @@
   "description": "Open-source template for a durable personal AI agent — web chat, Slack, Linear, and long-term memory with user-approved saves. Eve, Nuxt, Better Auth, Vercel Connect.",
   "homepage": "https://personal-agent-template.vercel.app",
   "stars": 475,
-  "forks": 79,
+  "forks": 80,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 128,
-  "days_since_push": 45,
+  "age_days": 129,
+  "days_since_push": 46,
   "health_score": 41,
   "health_components": {
     "popularity": 53.5,
@@ -41,9 +41,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 1,
-    "days_span": 10,
-    "stars_per_day": 0.1,
-    "lifetime_stars_per_day": 3.71,
+    "days_span": 11,
+    "stars_per_day": 0.09,
+    "lifetime_stars_per_day": 3.68,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -129,17 +129,76 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:53+00:00",
+  "fetched_at": "2026-10-19T09:56:43+00:00",
   "categories": [
-    "analytics",
+    "desktop-ui-2",
     "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "vercel-labs/personal-agent-template",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "vercel-labs/personal-agent-template",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "notifications",
+        "self-hosted"
+      ],
+      "star_ratio": 597.0,
+      "momentum_ratio": 10524.444,
+      "setup_delta": -21,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "597.00x the stars (283,575 vs 475)",
+        "10524.44x the star velocity (947.2/day vs 0.1/day)",
+        "no harder to set up (57 vs 78 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "notifications",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 41,
+        "challenger_health": 89,
+        "incumbent_setup_score": 78,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

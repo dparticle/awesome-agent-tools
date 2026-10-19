@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 84,050 |
-| Star velocity | 51.0/day (history basis, 5d span) |
-| Health score | 76/100 |
+| Stars | 84,117 |
+| Star velocity | 55.2/day (history basis, 5d span) |
+| Health score | 77/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-18 (0 days ago) |
-| Analyzed README | 315,122 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 323,917 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,7 @@
 
 ### Usage analytics
 
-> ent cards show the effective model and, when the provider returns usage metadata, a cumulative token total that updates after each completed sub-agent LLM call and persists after a reload.
+> and cloud-metadata hostname detection is case-insensitive.
 
 ### Session persistence
 
@@ -76,7 +76,7 @@
 
 ### Team collaboration
 
-> To request JSON syntax validation, explicitly set a task or batchtask item's acceptancecriteria to ["file:../outputs/report.json json-valid"].
+> To request JSON syntax validation, explicitly set a task or batch_task item's
 
 ### GUI / desktop app
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.5 |
-| momentum | 42.5 |
+| momentum | 46.0 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

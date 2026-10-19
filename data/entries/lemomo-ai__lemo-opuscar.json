@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "full_name": "lemomo-ai/lemo-opuscar",
+  "name": "lemo-opuscar",
+  "owner": "lemomo-ai",
+  "url": "https://github.com/lemomo-ai/lemo-opuscar",
+  "description": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
+  "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
+  "stars": 3453,
+  "forks": 379,
+  "open_issues": 0,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-short-film",
+    "ai-video",
+    "animation",
+    "canvas",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-code-skill",
+    "creative-coding",
+    "ffmpeg",
+    "filmmaking",
+    "motion-graphics",
+    "opus-5-5",
+    "prompt-library",
+    "text-to-speech",
+    "threejs",
+    "video-production",
+    "webgl"
+  ],
+  "created_at": "2026-09-26T10:10:41Z",
+  "updated_at": "2026-10-19T09:54:39Z",
+  "pushed_at": "2026-10-18T10:18:33Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 22,
+  "days_since_push": 0,
+  "health_score": 80,
+  "health_components": {
+    "popularity": 70.8,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 53.0,
+    "accessibility": 64.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 3453,
+    "days_span": 22,
+    "stars_per_day": 156.95,
+    "lifetime_stars_per_day": 156.95,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "lemomo-ai/lemo-opuscar",
+    "readme_chars": 25707,
+    "capabilities": [
+      "model-routing",
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "agent-runtime": "",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Cursor"
+    },
+    "capability_hits": {
+      "model-routing": 2,
+      "agent-runtime": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 44,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "note_en": "Some setup. needs git clone (build from source); GUI application",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；GUI application"
+    },
+    "doc_score": 53,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor"
+    ],
+    "summary_en": "51 film styles, each with a short film made entirely in code.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "self-describes as an awesome list"
+      ],
+      "external_link_ratio": 0.545
+    },
+    "highlights": [
+      "Default output 1920×1080, 24 fps; other sizes on request.",
+      "You need Node 20+, ffmpeg and Python 3.11+ (or uv); the agent installs the rest.",
+      "A film takes an agent about 30–60 minutes and a fair amount of tokens.",
+      "🍋 lemo-mod: re-skin Claude Code with 21 styles, in the terminal and the desktop app."
+    ],
+    "summary_zh_native": "51 种影片风格，每种都配一支完全用代码做出来的短片。",
+    "highlights_zh": [
+      "一支片子 agent 大约要做 30–60 分钟，token 用量不小。",
+      "样片视频及其静帧（styles/、画廊页和 Releases 中的）：CC BY 4.0。",
+      "默认输出 1920×1080、24 fps，其他尺寸可以指定。",
+      "🍋 lemo-mod：给 Claude Code 换上 21 套风格，终端和桌面 App 都能用。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-19T09:55:53+00:00",
+  "categories": [
+    "desktop-ui-2",
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

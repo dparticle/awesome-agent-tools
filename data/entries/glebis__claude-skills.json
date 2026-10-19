@@ -13,13 +13,13 @@
   "license": "MIT",
   "topics": [],
   "created_at": "2025-10-25T14:58:50Z",
-  "updated_at": "2026-10-16T21:05:00Z",
-  "pushed_at": "2026-10-16T20:23:35Z",
+  "updated_at": "2026-10-18T21:24:48Z",
+  "pushed_at": "2026-10-18T21:24:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 357,
-  "days_since_push": 1,
+  "age_days": 358,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 51.9,
@@ -39,7 +39,7 @@
   },
   "analysis": {
     "full_name": "glebis/claude-skills",
-    "readme_chars": 15721,
+    "readme_chars": 16063,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -55,7 +55,7 @@
       "memory-context": "",
       "skills-plugins": "",
       "mcp-support": "vision LLMs as judges (11 criteria presets)",
-      "security-isolation": "nd sourced markdown reports",
+      "security-isolation": "act/run, local tool catalog",
       "gui-desktop": "with a tiered compatibility policy (COMPATIBILITY.md)",
       "voice-input": "Demo mode — redact PII from outputs in real time while screen-sharing",
       "cross-agent-support": "Mentions Claude Code, Codex"
@@ -122,7 +122,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.763
+      "external_link_ratio": 0.747
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -134,10 +134,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:59+00:00",
+  "fetched_at": "2026-10-19T09:56:49+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
+    "self-hosting-security",
     "voice-remote-control"
   ],
   "primary_category": "voice-remote-control",
@@ -166,14 +166,14 @@
         "skills-plugins",
         "voice-input"
       ],
-      "star_ratio": 34.812,
-      "momentum_ratio": 17.5,
+      "star_ratio": 34.837,
+      "momentum_ratio": 19.0,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "34.81x the stars (13,681 vs 393)",
-        "17.50x the star velocity (7.0/day vs 0.4/day)",
+        "34.84x the stars (13,691 vs 393)",
+        "19.00x the star velocity (7.6/day vs 0.4/day)",
         "no harder to set up (21 vs 30 friction)"
       ],
       "reasons_zh": [],

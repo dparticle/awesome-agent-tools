@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,752 |
+| Stars | 1,755 |
 | Star velocity | 4.0/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 71/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-08-04 |
-| Last push | 2026-08-20 (58 days ago) |
+| Last push | 2026-08-20 (59 days ago) |
 | Analyzed README | 32,381 chars from `raw:HEAD/README.md` |
 
 ## What it solves

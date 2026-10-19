@@ -17,14 +17,12 @@
 | Health score | 45/100 |
 | Documentation | 43/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TeX |
 | Created | 2025-03-18 |
-| Last push | 2026-09-13 (34 days ago) |
+| Last push | 2026-09-13 (35 days ago) |
 | Analyzed README | 7,515 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** — Superseded by genspark-ai/genoffice: covers 100% of capabilities (4/4).
 
 ## What it solves
 

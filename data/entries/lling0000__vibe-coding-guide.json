@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 165,
-  "days_since_push": 114,
+  "age_days": 166,
+  "days_since_push": 115,
   "health_score": 40,
   "health_components": {
     "popularity": 47.4,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 48.0,
     "accessibility": 70.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.42,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.41,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,24 +150,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:17+00:00",
+  "fetched_at": "2026-10-19T09:57:07+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
-    "remote-control-isolation"
+    "remote-control-isolation",
+    "self-hosting-security"
   ],
   "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by first-fluke/oh-my-agent: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 first-fluke/oh-my-agent 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "first-fluke/oh-my-agent",
+    "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 maxritter/pilot-shell 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "maxritter/pilot-shell",
     "challenger": "",
     "supersede": {
       "incumbent": "lling0000/vibe_coding_guide",
-      "challenger": "first-fluke/oh-my-agent",
+      "challenger": "maxritter/pilot-shell",
       "incumbent_name": "Lling0000/Vibe_coding_guide",
-      "challenger_name": "first-fluke/oh-my-agent",
+      "challenger_name": "maxritter/pilot-shell",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -180,15 +180,15 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 5.744,
-      "momentum_ratio": 12.925,
-      "setup_delta": 0,
+      "star_ratio": 8.949,
+      "momentum_ratio": 6.0,
+      "setup_delta": -18,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.74x the stars (1,344 vs 234)",
-        "12.92x the star velocity (5.2/day vs 0.4/day)",
-        "no harder to set up (30 vs 30 friction)"
+        "8.95x the stars (2,094 vs 234)",
+        "6.00x the star velocity (1.2/day vs 0.2/day)",
+        "no harder to set up (12 vs 30 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -202,25 +202,20 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
-          "quota-management",
-          "remote-control",
-          "session-persistence",
           "skills-plugins",
           "worktree-isolation"
         ],
         "incumbent_health": 40,
-        "challenger_health": 58,
+        "challenger_health": 61,
         "incumbent_setup_score": 30,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 12
       }
     }
   }

@@ -17,14 +17,12 @@
 | Health score | 47/100 |
 | Documentation | 38/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-02 |
-| Last push | 2026-09-23 (25 days ago) |
+| Last push | 2026-09-23 (26 days ago) |
 | Analyzed README | 14,445 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).
 
 ## What it solves
 

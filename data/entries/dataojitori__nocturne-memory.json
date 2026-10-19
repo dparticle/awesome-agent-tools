@@ -6,8 +6,8 @@
   "url": "https://github.com/Dataojitori/nocturne_memory",
   "description": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw.",
   "homepage": "https://misaligned.top/memory",
-  "stars": 1392,
-  "forks": 187,
+  "stars": 1393,
+  "forks": 195,
   "open_issues": 5,
   "language": "Python",
   "license": "MIT",
@@ -31,27 +31,27 @@
     "sqlite"
   ],
   "created_at": "2025-12-25T08:45:54Z",
-  "updated_at": "2026-10-18T08:39:32Z",
+  "updated_at": "2026-10-18T16:38:51Z",
   "pushed_at": "2026-09-22T20:13:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 297,
-  "days_since_push": 25,
+  "age_days": 298,
+  "days_since_push": 26,
   "health_score": 51,
   "health_components": {
     "popularity": 62.9,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 92.0,
     "documentation": 66.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 4.69,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 4.67,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,17 +165,79 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:35+00:00",
+  "fetched_at": "2026-10-19T09:56:25+00:00",
   "categories": [
-    "analytics",
-    "security"
+    "remote-control-isolation",
+    "security",
+    "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by spinabot/brigade: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 spinabot/brigade 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "spinabot/brigade",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "dataojitori/nocturne_memory",
+      "challenger": "spinabot/brigade",
+      "incumbent_name": "Dataojitori/nocturne_memory",
+      "challenger_name": "spinabot/brigade",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "notifications",
+        "remote-control",
+        "session-persistence",
+        "worktree-isolation"
+      ],
+      "star_ratio": 8.145,
+      "momentum_ratio": 8.0,
+      "setup_delta": -21,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "8.15x the stars (11,346 vs 1,393)",
+        "8.00x the star velocity (3.2/day vs 0.4/day)",
+        "no harder to set up (39 vs 60 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "notifications",
+          "remote-control",
+          "session-persistence",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 61,
+        "incumbent_setup_score": 60,
+        "challenger_setup_score": 39
+      }
+    }
   }
 }

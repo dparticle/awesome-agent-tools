@@ -6,19 +6,19 @@
   "url": "https://github.com/anomalyco/opencode",
   "description": "The open source coding agent.",
   "homepage": "https://opencode.ai",
-  "stars": 215779,
-  "forks": 28904,
-  "open_issues": 4642,
+  "stars": 217077,
+  "forks": 29035,
+  "open_issues": 4698,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-04-30T20:08:00Z",
-  "updated_at": "2026-10-18T08:51:32Z",
-  "pushed_at": "2026-10-18T06:58:25Z",
+  "updated_at": "2026-10-19T09:54:08Z",
+  "pushed_at": "2026-10-19T09:54:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 535,
+  "age_days": 536,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2675,
+    "stars_gained": 3715,
     "days_span": 5,
-    "stars_per_day": 535.0,
-    "lifetime_stars_per_day": 403.33,
+    "stars_per_day": 743.0,
+    "lifetime_stars_per_day": 404.99,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "anomalyco/opencode",
-    "readme_chars": 5321,
+    "readme_chars": 5038,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
@@ -62,7 +62,6 @@
       "non_programmer_friendly": true,
       "easy_signals": [
         "Homebrew install",
-        "scoop install",
         "curl | sh installer",
         "native installer / package"
       ],
@@ -76,8 +75,8 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Turnkey. install via Homebrew install, scoop install; GUI application",
-      "note_zh": "开箱即用。可通过 Homebrew install、scoop install 安装；GUI application"
+      "note_en": "Turnkey. install via Homebrew install, curl | sh installer; GUI application",
+      "note_zh": "开箱即用。可通过 Homebrew install、curl | sh installer 安装；GUI application"
     },
     "doc_score": 40,
     "doc_signals": [
@@ -91,18 +90,18 @@
     "agents": [
       "OpenCode"
     ],
-    "summary_en": "curl -fsSL https://opencode.ai/install | bash",
+    "summary_en": "curl -fsSL https://opencode.ai/v2/install | bash",
     "summary_zh": "",
-    "install_hint": "curl -fsSL https://opencode.ai/install | bash",
+    "install_hint": "curl -fsSL https://opencode.ai/v2/install | bash",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.128
+      "external_link_ratio": 0.992
     },
     "highlights": [],
-    "summary_zh_native": "curl -fsSL https://opencode.ai/install | bash",
+    "summary_zh_native": "curl -fsSL https://opencode.ai/v2/install | bash",
     "highlights_zh": [],
     "chinese_readme": "README.zh.md"
   },
@@ -111,7 +110,7 @@
     "seed_reason": "Open-source terminal agent with broad provider support.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-18T08:52:50+00:00",
+  "fetched_at": "2026-10-19T09:55:37+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

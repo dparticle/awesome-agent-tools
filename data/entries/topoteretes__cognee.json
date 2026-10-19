@@ -6,9 +6,9 @@
   "url": "https://github.com/topoteretes/cognee",
   "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
   "homepage": "https://www.cognee.ai",
-  "stars": 32459,
-  "forks": 3386,
-  "open_issues": 831,
+  "stars": 32525,
+  "forks": 3401,
+  "open_issues": 848,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -33,27 +33,27 @@
     "vector-database"
   ],
   "created_at": "2023-08-16T16:16:33Z",
-  "updated_at": "2026-10-18T08:34:14Z",
-  "pushed_at": "2026-10-16T20:16:29Z",
+  "updated_at": "2026-10-19T09:35:56Z",
+  "pushed_at": "2026-10-19T08:28:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1158,
-  "days_since_push": 1,
-  "health_score": 76,
+  "age_days": 1159,
+  "days_since_push": 0,
+  "health_score": 74,
   "health_components": {
     "popularity": 90.2,
-    "momentum": 52.7,
+    "momentum": 46.3,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 60.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 316,
+    "stars_gained": 278,
     "days_span": 5,
-    "stars_per_day": 63.2,
-    "lifetime_stars_per_day": 28.03,
+    "stars_per_day": 55.6,
+    "lifetime_stars_per_day": 28.06,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -150,12 +150,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:20+00:00",
+  "fetched_at": "2026-10-19T09:56:08+00:00",
   "categories": [
-    "analytics",
     "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

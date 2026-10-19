@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,920 |
-| Star velocity | 32.2/day (history basis, 5d span) |
+| Stars | 7,954 |
+| Star velocity | 30.6/day (history basis, 5d span) |
 | Health score | 67/100 |
 | Documentation | 44/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-09-20 |
-| Last push | 2026-10-10 (7 days ago) |
-| Analyzed README | 7,585 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 7,705 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -35,8 +35,6 @@
 ### Agent runtime
 
 ### Self-hostable
-
-> ## 更新 - 2026-10-10：更新至 ZCode v3.15.1 版本。
 
 ### GUI / desktop app
 
@@ -74,7 +72,7 @@ Score **44/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 78.0 |
-| momentum | 26.8 |
+| momentum | 25.5 |
 | maintenance | 100.0 |
 | documentation | 44.0 |
 | accessibility | 96.0 |

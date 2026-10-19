@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "full_name": "alphaXiv/OpenResearch",
+  "name": "OpenResearch",
+  "owner": "alphaXiv",
+  "url": "https://github.com/alphaXiv/OpenResearch",
+  "description": "Turn your coding agents into research agents",
+  "homepage": "https://openresearch.sh/",
+  "stars": 7349,
+  "forks": 493,
+  "open_issues": 129,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-06-07T01:51:39Z",
+  "updated_at": "2026-10-19T08:50:27Z",
+  "pushed_at": "2026-10-19T07:23:23Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 134,
+  "days_since_push": 0,
+  "health_score": 70,
+  "health_components": {
+    "popularity": 77.3,
+    "momentum": 45.7,
+    "maintenance": 100.0,
+    "documentation": 33.0,
+    "accessibility": 100.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7349,
+    "days_span": 134,
+    "stars_per_day": 54.84,
+    "lifetime_stars_per_day": 54.84,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "alphaXiv/OpenResearch",
+    "readme_chars": 8180,
+    "capabilities": [
+      "model-routing",
+      "usage-analytics",
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "usage-analytics": "orts, feature requests, and general frustrations about OpenResearch.",
+      "agent-runtime": "",
+      "gui-desktop": "and produce research artifacts.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "usage-analytics": 2,
+      "agent-runtime": 1,
+      "gui-desktop": 3,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 6,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via curl | sh installer, native installer / package; configure database dependency; GUI application",
+      "note_zh": "开箱即用。可通过 curl | sh installer、native installer / package 安装；需配置 database dependency；GUI application"
+    },
+    "doc_score": 33,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "mentions licensing",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "The local-first harness & workspace for research agents.",
+    "summary_zh": "",
+    "install_hint": "curl -LsSf https://openresearch.sh/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.611
+    },
+    "highlights": [],
+    "summary_zh_native": "以本地为核心的研究智能体执行框架和工作空间。",
+    "highlights_zh": [],
+    "chinese_readme": "README.zh.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-19T09:55:47+00:00",
+  "categories": [
+    "analytics-2",
+    "desktop-ui-2",
+    "model-routing"
+  ],
+  "primary_category": "analytics-2",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

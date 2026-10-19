@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 293 |
-| Star velocity | 2.6/day (lifetime basis, 111d span) |
-| Health score | 49/100 |
-| Documentation | 52/100 |
+| Stars | 295 |
+| Star velocity | 2.6/day (lifetime basis, 112d span) |
+| Health score | 50/100 |
+| Documentation | 53/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-29 |
-| Last push | 2026-10-18 (0 days ago) |
-| Analyzed README | 17,137 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 18,881 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,6 +31,8 @@
 > atomically; Windows uses an ACL that only the current user can access).
 
 ### Quota & usage management
+
+> lent cost, and local sessions, with separate account management for each provider.
 
 ### Model / provider routing
 
@@ -60,7 +62,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 46/100)
+- **Difficulty:** 🟡 Some setup (friction score 39/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://x.ai/cli/install.sh | bash`
@@ -71,11 +73,11 @@
 
 **Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow, sign-in required, database dependency, server/reverse-proxy setup
 
-*Some setup. install via curl | sh installer, native installer / package; needs go build; configure API key configuration, config.json/yaml/toml*
+*Some setup. install via curl | sh installer, native installer / package; needs go build; configure API key configuration, config.json/yaml/toml; one-click setup*
 
 ## Documentation quality
 
-Score **52/100**, based on these detected signals:
+Score **53/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -91,11 +93,11 @@ Score **52/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 49.3 |
+| popularity | 49.4 |
 | momentum | 2.2 |
 | maintenance | 100.0 |
-| documentation | 52.0 |
-| accessibility | 54.0 |
+| documentation | 53.0 |
+| accessibility | 61.0 |
 
 ---
 

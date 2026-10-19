@@ -7,7 +7,7 @@
   "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
   "homepage": "",
   "stars": 285,
-  "forks": 14,
+  "forks": 15,
   "open_issues": 3,
   "language": "Go",
   "license": "Apache-2.0",
@@ -28,23 +28,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 101,
-  "days_since_push": 50,
+  "age_days": 102,
+  "days_since_push": 51,
   "health_score": 47,
   "health_components": {
     "popularity": 49.1,
-    "momentum": 2.4,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 64.0,
     "accessibility": 60.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 285,
-    "days_span": 101,
-    "stars_per_day": 2.82,
-    "lifetime_stars_per_day": 2.82,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 2.79,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -148,17 +148,75 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:10+00:00",
+  "fetched_at": "2026-10-19T09:57:00+00:00",
   "categories": [
-    "analytics",
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by Lyellr88/marm-memory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 Lyellr88/marm-memory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "Lyellr88/marm-memory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "pax-beehive/paxm",
+      "challenger": "lyellr88/marm-memory",
+      "incumbent_name": "pax-beehive/paxm",
+      "challenger_name": "Lyellr88/marm-memory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "security-isolation",
+        "self-hosted",
+        "session-persistence"
+      ],
+      "star_ratio": 1.481,
+      "momentum_ratio": 8.0,
+      "setup_delta": 8,
+      "dominance": 0.799,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "1.48x the stars (422 vs 285)",
+        "8.00x the star velocity (0.4/day vs 0.0/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 54,
+        "incumbent_setup_score": 40,
+        "challenger_setup_score": 48
+      }
+    }
   }
 }

@@ -18,21 +18,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 448,
-  "days_since_push": 3,
+  "age_days": 449,
+  "days_since_push": 4,
   "health_score": 54,
   "health_components": {
     "popularity": 53.3,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 84.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.03,
     "basis": "history",
     "is_fast_riser": false
@@ -119,8 +119,8 @@
     "highlights": [
       "Verify the ollama server has started with curl http://localhost:11434.",
       "Fetch the large language model, where is the name of your desired model (e.g.",
-      "Click the MCP Servers button near the top of the the extension's panel.",
-      "Add your desired server to the mcpServers object."
+      "Add your desired server to the mcpServers object.",
+      "Click the MCP Servers button near the top of the the extension's panel."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -131,16 +131,71 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:54+00:00",
+  "fetched_at": "2026-10-19T09:56:44+00:00",
   "categories": [
     "self-hosting-security"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "oracle/mcp",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "incumbent_name": "oracle/mcp",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "model-routing",
+        "multi-agent-orchestration",
+        "security-isolation"
+      ],
+      "star_ratio": 10.438,
+      "momentum_ratio": 56.0,
+      "setup_delta": 8,
+      "dominance": 0.96,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "10.44x the stars (4,812 vs 461)",
+        "56.00x the star velocity (11.2/day vs 0.2/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "incumbent_health": 54,
+        "challenger_health": 62,
+        "incumbent_setup_score": 16,
+        "challenger_setup_score": 24
+      }
+    }
   }
 }

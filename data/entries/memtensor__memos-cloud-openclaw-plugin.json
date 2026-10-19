@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 257,
-  "days_since_push": 25,
+  "age_days": 258,
+  "days_since_push": 26,
   "health_score": 47,
   "health_components": {
     "popularity": 51.3,
@@ -120,69 +120,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:03+00:00",
+  "fetched_at": "2026-10-19T09:56:52+00:00",
   "categories": [
-    "analytics"
+    "model-routing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "model-routing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "memtensor/memos-cloud-openclaw-plugin",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
-      "incumbent_name": "MemTensor/MemOS-Cloud-OpenClaw-Plugin",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration"
-      ],
-      "star_ratio": 13.052,
-      "momentum_ratio": 61.0,
-      "setup_delta": -10,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "13.05x the stars (4,803 vs 368)",
-        "61.00x the star velocity (12.2/day vs 0.2/day)",
-        "no harder to set up (24 vs 34 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 63,
-        "incumbent_setup_score": 34,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

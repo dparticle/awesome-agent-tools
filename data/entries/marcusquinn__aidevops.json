@@ -8,7 +8,7 @@
   "homepage": "https://www.aidevops.sh",
   "stars": 411,
   "forks": 70,
-  "open_issues": 17,
+  "open_issues": 16,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -33,12 +33,12 @@
     "opencode-plugin"
   ],
   "created_at": "2025-11-09T05:15:11Z",
-  "updated_at": "2026-10-18T08:45:58Z",
-  "pushed_at": "2026-10-18T08:50:06Z",
+  "updated_at": "2026-10-19T09:11:22Z",
+  "pushed_at": "2026-10-19T09:52:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 343,
+  "age_days": 344,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
@@ -53,13 +53,13 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.2,
+    "lifetime_stars_per_day": 1.19,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "marcusquinn/aidevops",
-    "readme_chars": 42829,
+    "readme_chars": 42830,
     "capabilities": [
       "multi-account-switching",
       "multi-agent-orchestration",
@@ -186,11 +186,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:59+00:00",
+  "fetched_at": "2026-10-19T09:56:48+00:00",
   "categories": [
-    "billing",
-    "remote-control-isolation",
-    "teams"
+    "self-hosting-security",
+    "teams",
+    "voice-remote-control"
   ],
   "primary_category": "teams",
   "lifecycle": {

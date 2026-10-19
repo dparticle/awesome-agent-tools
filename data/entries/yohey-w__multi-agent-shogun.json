@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 265,
-  "days_since_push": 73,
+  "age_days": 267,
+  "days_since_push": 74,
   "health_score": 51,
   "health_components": {
     "popularity": 63.1,
@@ -44,7 +44,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.37,
+    "lifetime_stars_per_day": 5.33,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -192,11 +192,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:34+00:00",
+  "fetched_at": "2026-10-19T09:56:24+00:00",
   "categories": [
-    "analytics",
     "mobile-remote-control",
-    "remote-control-isolation"
+    "remote-control-isolation",
+    "self-hosting-security"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

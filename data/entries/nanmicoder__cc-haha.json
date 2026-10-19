@@ -6,9 +6,9 @@
   "url": "https://github.com/NanmiCoder/cc-haha",
   "description": "本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git worktrees, diffs, skills marketplace, multi-model, Computer Use, task-aware desktop pets; remote via WeChat, Feishu, DingTalk, Telegram, WhatsApp & H5.",
   "homepage": "https://cchaha.ai",
-  "stars": 15057,
-  "forks": 8607,
-  "open_issues": 193,
+  "stars": 15072,
+  "forks": 8606,
+  "open_issues": 191,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -28,27 +28,27 @@
     "typescript"
   ],
   "created_at": "2026-03-31T17:30:14Z",
-  "updated_at": "2026-10-18T07:37:52Z",
-  "pushed_at": "2026-10-18T05:24:24Z",
+  "updated_at": "2026-10-19T09:15:41Z",
+  "pushed_at": "2026-10-18T15:48:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 200,
+  "age_days": 201,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 83.6,
-    "momentum": 12.0,
+    "momentum": 11.2,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 72,
+    "stars_gained": 67,
     "days_span": 5,
-    "stars_per_day": 14.4,
-    "lifetime_stars_per_day": 75.28,
+    "stars_per_day": 13.4,
+    "lifetime_stars_per_day": 74.99,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -162,11 +162,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:22+00:00",
+  "fetched_at": "2026-10-19T09:56:11+00:00",
   "categories": [
-    "analytics",
     "providers",
-    "security"
+    "security",
+    "self-hosting-security"
   ],
   "primary_category": "security",
   "lifecycle": {

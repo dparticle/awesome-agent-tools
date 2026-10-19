@@ -6,9 +6,9 @@
   "url": "https://github.com/AndrewDryga/emisar",
   "description": "Let AI agents investigate and operate infrastructure through declared actions, bounded by policy and host-side checks. Approvals when required, with an audit trail. By Protectorate.",
   "homepage": "https://emisar.dev/",
-  "stars": 338,
+  "stars": 339,
   "forks": 33,
-  "open_issues": 9,
+  "open_issues": 10,
   "language": "Elixir",
   "license": "NOASSERTION",
   "topics": [
@@ -29,26 +29,26 @@
     "self-hosted"
   ],
   "created_at": "2026-05-19T01:21:19Z",
-  "updated_at": "2026-10-17T01:42:26Z",
-  "pushed_at": "2026-10-16T09:08:31Z",
+  "updated_at": "2026-10-18T10:09:17Z",
+  "pushed_at": "2026-10-19T09:26:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 152,
-  "days_since_push": 1,
+  "age_days": 153,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 50.6,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 2.22,
     "basis": "history",
     "is_fast_riser": false
@@ -137,8 +137,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:04+00:00",
+  "fetched_at": "2026-10-19T09:56:53+00:00",
   "categories": [
+    "desktop-ui-2",
     "security"
   ],
   "primary_category": "security",

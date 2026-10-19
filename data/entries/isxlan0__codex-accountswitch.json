@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 250,
   "forks": 37,
-  "open_issues": 6,
+  "open_issues": 7,
   "language": "C++",
   "license": "MIT",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 253,
-  "days_since_push": 85,
+  "age_days": 254,
+  "days_since_push": 86,
   "health_score": 41,
   "health_components": {
     "popularity": 48.0,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 7,
+    "days_span": 8,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 0.99,
+    "lifetime_stars_per_day": 0.98,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,10 +128,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:13+00:00",
+  "fetched_at": "2026-10-19T09:57:02+00:00",
   "categories": [
     "analytics-2",
-    "billing",
     "sharing"
   ],
   "primary_category": "sharing",

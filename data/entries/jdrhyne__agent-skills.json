@@ -35,8 +35,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 269,
-  "days_since_push": 49,
+  "age_days": 270,
+  "days_since_push": 50,
   "health_score": 41,
   "health_components": {
     "popularity": 47.6,
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:14+00:00",
+  "fetched_at": "2026-10-19T09:57:04+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -185,14 +185,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 1178.421,
-      "momentum_ratio": 18432.0,
+      "star_ratio": 1181.562,
+      "momentum_ratio": 18944.0,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "1178.42x the stars (282,821 vs 240)",
-        "18432.00x the star velocity (921.6/day vs 0.0/day)",
+        "1181.56x the stars (283,575 vs 240)",
+        "18944.00x the star velocity (947.2/day vs 0.0/day)",
         "no harder to set up (57 vs 69 friction)"
       ],
       "reasons_zh": [],

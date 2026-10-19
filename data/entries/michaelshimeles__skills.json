@@ -6,7 +6,7 @@
   "url": "https://github.com/michaelshimeles/skills",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1345,
+  "stars": 1350,
   "forks": 219,
   "open_issues": 2,
   "language": "Python",
@@ -22,13 +22,13 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-10-18T08:41:13Z",
-  "pushed_at": "2026-10-15T23:31:50Z",
+  "updated_at": "2026-10-19T06:45:45Z",
+  "pushed_at": "2026-10-19T01:49:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 226,
-  "days_since_push": 2,
+  "age_days": 227,
+  "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 62.6,
@@ -129,10 +129,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:36+00:00",
+  "fetched_at": "2026-10-19T09:56:25+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
     "remote-control-isolation"
   ],
   "primary_category": "remote-control-isolation",
@@ -158,14 +157,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 24.988,
-      "momentum_ratio": 4.0,
+      "star_ratio": 24.912,
+      "momentum_ratio": 3.839,
       "setup_delta": -20,
-      "dominance": 0.972,
+      "dominance": 0.967,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "24.99x the stars (33,609 vs 1,345)",
-        "4.00x the star velocity (24.8/day vs 6.2/day)",
+        "24.91x the stars (33,631 vs 1,350)",
+        "3.84x the star velocity (23.8/day vs 6.2/day)",
         "no harder to set up (2 vs 22 friction)"
       ],
       "reasons_zh": [],

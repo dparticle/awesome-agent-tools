@@ -6,9 +6,9 @@
   "url": "https://github.com/wheresryan22/anatomy",
   "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
   "homepage": "https://skills.wheresryan.sh/anatomy",
-  "stars": 15466,
-  "forks": 1182,
-  "open_issues": 49,
+  "stars": 16468,
+  "forks": 1259,
+  "open_issues": 51,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -18,16 +18,16 @@
     "vizualization"
   ],
   "created_at": "2026-10-08T10:12:49Z",
-  "updated_at": "2026-10-18T08:51:30Z",
-  "pushed_at": "2026-10-15T14:14:32Z",
+  "updated_at": "2026-10-19T09:51:29Z",
+  "pushed_at": "2026-10-18T20:20:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 9,
-  "days_since_push": 2,
+  "age_days": 10,
+  "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 83.8,
+    "popularity": 84.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 58.0,
@@ -35,16 +35,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 15466,
-    "days_span": 9,
-    "stars_per_day": 1718.44,
-    "lifetime_stars_per_day": 1718.44,
-    "basis": "lifetime",
+    "stars_gained": 7599,
+    "days_span": 5,
+    "stars_per_day": 1519.8,
+    "lifetime_stars_per_day": 1646.8,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "wheresryan22/anatomy",
-    "readme_chars": 25606,
+    "readme_chars": 25983,
     "capabilities": [
       "skills-plugins",
       "cross-agent-support"
@@ -110,7 +110,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.469
+      "external_link_ratio": 0.462
     },
     "highlights": [
       "It is slow on purpose. A figure takes a long session: the parts list, the geometry, the audit, and close-ups of every joint in both themes. The Raptor's build takes a few minutes, and a ful…",
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:52:53+00:00",
+  "fetched_at": "2026-10-19T09:55:40+00:00",
   "categories": [
     "desktop-ui"
   ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/ruvnet/metaharness",
   "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
   "homepage": "https://Cognitum.One",
-  "stars": 706,
+  "stars": 708,
   "forks": 86,
-  "open_issues": 173,
+  "open_issues": 178,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "scaffolding"
   ],
   "created_at": "2026-06-13T18:29:11Z",
-  "updated_at": "2026-10-18T05:24:09Z",
-  "pushed_at": "2026-10-18T08:31:59Z",
+  "updated_at": "2026-10-19T08:13:52Z",
+  "pushed_at": "2026-10-19T08:25:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 126,
+  "age_days": 127,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
@@ -54,7 +54,7 @@
     "stars_gained": 7,
     "days_span": 5,
     "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 5.6,
+    "lifetime_stars_per_day": 5.57,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,7 +160,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:47+00:00",
+  "fetched_at": "2026-10-19T09:56:36+00:00",
   "categories": [
     "desktop-ui",
     "model-routing",
@@ -190,14 +190,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 400.596,
-      "momentum_ratio": 658.286,
+      "star_ratio": 400.53,
+      "momentum_ratio": 676.571,
       "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "400.60x the stars (282,821 vs 706)",
-        "658.29x the star velocity (921.6/day vs 1.4/day)",
+        "400.53x the stars (283,575 vs 708)",
+        "676.57x the star velocity (947.2/day vs 1.4/day)",
         "no harder to set up (57 vs 58 friction)"
       ],
       "reasons_zh": [],

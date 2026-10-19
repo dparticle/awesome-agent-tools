@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 285 |
-| Star velocity | 2.8/day (lifetime basis, 101d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 47/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-07-09 |
-| Last push | 2026-08-28 (50 days ago) |
+| Last push | 2026-08-28 (51 days ago) |
 | Analyzed README | 22,858 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [Lyellr88/marm-memory](https://github.com/Lyellr88/marm-memory)** — Superseded by Lyellr88/marm-memory: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -86,7 +88,7 @@ Score **64/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 49.1 |
-| momentum | 2.4 |
+| momentum | 0.0 |
 | maintenance | 78.0 |
 | documentation | 64.0 |
 | accessibility | 60.0 |

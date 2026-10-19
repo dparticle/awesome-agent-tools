@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,054 |
+| Stars | 1,059 |
 | Star velocity | 3.2/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 75/100 |
@@ -21,7 +21,7 @@
 | License | GPL-3.0 |
 | Language | C# |
 | Created | 2026-01-15 |
-| Last push | 2026-10-17 (0 days ago) |
+| Last push | 2026-10-17 (1 days ago) |
 | Analyzed README | 30,110 chars from `raw:HEAD/README.md` |
 
 ## What it solves

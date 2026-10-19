@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 408 |
-| Star velocity | 3.8/day (history basis, 6d span) |
-| Health score | 50/100 |
+| Stars | 413 |
+| Star velocity | 0.6/day (history basis, 5d span) |
+| Health score | 49/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-05-10 |
-| Last push | 2026-10-16 (1 days ago) |
+| Last push | 2026-10-16 (2 days ago) |
 | Analyzed README | 12,267 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [superdesigndev/treg](https://github.com/superdesigndev/treg)** — Superseded by superdesigndev/treg: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -76,8 +78,8 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 52.2 |
-| momentum | 3.2 |
+| popularity | 52.3 |
+| momentum | 0.5 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 48.0 |

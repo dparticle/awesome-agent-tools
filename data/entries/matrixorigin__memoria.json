@@ -8,7 +8,7 @@
   "homepage": "https://thememoria.ai/",
   "stars": 614,
   "forks": 84,
-  "open_issues": 57,
+  "open_issues": 59,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -20,33 +20,33 @@
     "storage"
   ],
   "created_at": "2026-03-09T23:44:24Z",
-  "updated_at": "2026-10-17T13:57:15Z",
-  "pushed_at": "2026-10-17T13:57:11Z",
+  "updated_at": "2026-10-19T08:22:33Z",
+  "pushed_at": "2026-10-19T08:22:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 222,
+  "age_days": 223,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 55.8,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 2.77,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 2.75,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "matrixorigin/memoria",
-    "readme_chars": 20775,
+    "readme_chars": 20929,
     "capabilities": [
       "worktree-isolation",
       "memory-context",
@@ -127,7 +127,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.011
+      "external_link_ratio": 1.003
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -139,9 +139,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:48+00:00",
+  "fetched_at": "2026-10-19T09:56:38+00:00",
   "categories": [
-    "analytics",
     "security",
     "self-hosting-security"
   ],
@@ -169,14 +168,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 1.272,
-      "momentum_ratio": 1.333,
+      "star_ratio": 1.274,
+      "momentum_ratio": 3.0,
       "setup_delta": -8,
-      "dominance": 0.64,
+      "dominance": 0.742,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "1.27x the stars (781 vs 614)",
-        "1.33x the star velocity (0.8/day vs 0.6/day)",
+        "1.27x the stars (782 vs 614)",
+        "3.00x the star velocity (1.2/day vs 0.4/day)",
         "no harder to set up (55 vs 63 friction)"
       ],
       "reasons_zh": [],

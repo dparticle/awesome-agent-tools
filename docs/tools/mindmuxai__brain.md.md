@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 575 |
-| Star velocity | 1.6/day (history basis, 5d span) |
+| Stars | 576 |
+| Star velocity | 1.8/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 52/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-06-18 |
-| Last push | 2026-09-11 (36 days ago) |
+| Last push | 2026-09-11 (37 days ago) |
 | Analyzed README | 12,202 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** — Superseded by maxritter/pilot-shell: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -90,7 +88,7 @@ Score **52/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.2 |
-| momentum | 1.3 |
+| momentum | 1.5 |
 | maintenance | 78.0 |
 | documentation | 52.0 |
 | accessibility | 100.0 |

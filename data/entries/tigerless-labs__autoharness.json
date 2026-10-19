@@ -6,7 +6,7 @@
   "url": "https://github.com/tigerless-labs/autoharness",
   "description": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates them as you work, and prunes the ones that stop getting used. No daemon, no benchmark.",
   "homepage": "https://github.com/tigerless-labs/autoharness",
-  "stars": 11135,
+  "stars": 11144,
   "forks": 629,
   "open_issues": 65,
   "language": "Python",
@@ -19,27 +19,27 @@
     "python"
   ],
   "created_at": "2026-06-09T21:05:42Z",
-  "updated_at": "2026-10-18T06:49:06Z",
+  "updated_at": "2026-10-19T09:21:59Z",
   "pushed_at": "2026-10-15T16:22:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 130,
-  "days_since_push": 2,
-  "health_score": 61,
+  "age_days": 131,
+  "days_since_push": 3,
+  "health_score": 59,
   "health_components": {
     "popularity": 80.9,
-    "momentum": 14.5,
+    "momentum": 6.0,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 87,
+    "stars_gained": 36,
     "days_span": 5,
-    "stars_per_day": 17.4,
-    "lifetime_stars_per_day": 85.65,
+    "stars_per_day": 7.2,
+    "lifetime_stars_per_day": 85.07,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -116,7 +116,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:52:55+00:00",
+  "fetched_at": "2026-10-19T09:55:43+00:00",
   "categories": [
     "desktop-ui"
   ],

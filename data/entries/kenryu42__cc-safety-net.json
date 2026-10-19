@@ -6,9 +6,9 @@
   "url": "https://github.com/kenryu42/cc-safety-net",
   "description": "A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to access sensitive files, before a tool call runs. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Cursor, DeepSeek Harness, Devin CLI, GitHub Copilot CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
   "homepage": "https://ccsafetynet.com",
-  "stars": 1658,
+  "stars": 1675,
   "forks": 88,
-  "open_issues": 2,
+  "open_issues": 1,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "security"
   ],
   "created_at": "2025-12-25T17:52:57Z",
-  "updated_at": "2026-10-18T07:53:45Z",
-  "pushed_at": "2026-10-18T05:14:00Z",
+  "updated_at": "2026-10-19T09:06:01Z",
+  "pushed_at": "2026-10-19T08:41:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 296,
+  "age_days": 297,
   "days_since_push": 0,
   "health_score": 61,
   "health_components": {
-    "popularity": 64.4,
-    "momentum": 7.7,
+    "popularity": 64.5,
+    "momentum": 8.8,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 46,
+    "stars_gained": 53,
     "days_span": 5,
-    "stars_per_day": 9.2,
-    "lifetime_stars_per_day": 5.6,
+    "stars_per_day": 10.6,
+    "lifetime_stars_per_day": 5.64,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -131,8 +131,8 @@
       "external_link_ratio": 1.713
     },
     "highlights": [
-      "Embeds in your own tools. Call checkCommand from Node.js without installing the hook. See Library API.",
       "Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team Setup.",
+      "Embeds in your own tools. Call checkCommand from Node.js without installing the hook. See Library API.",
       "Blocks secret access to SSH keys, .env files, ~/.aws, and coding-CLI credentials, from the shell and from the agent's file tools.",
       "Blocks destructive commands such as git reset --hard, git push --force, and rm -rf on dangerous targets, even inside bash -c or python -c."
     ],
@@ -145,7 +145,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:33+00:00",
+  "fetched_at": "2026-10-19T09:56:21+00:00",
   "categories": [
     "desktop-ui-2"
   ],

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 819 |
-| Star velocity | 9.8/day (history basis, 5d span) |
+| Stars | 825 |
+| Star velocity | 9.4/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 63/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-05 |
-| Last push | 2026-10-12 (5 days ago) |
+| Last push | 2026-10-12 (6 days ago) |
 | Analyzed README | 19,220 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -77,7 +77,7 @@ Score **63/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 58.3 |
-| momentum | 8.2 |
+| momentum | 7.8 |
 | maintenance | 100.0 |
 | documentation | 63.0 |
 | accessibility | 55.0 |

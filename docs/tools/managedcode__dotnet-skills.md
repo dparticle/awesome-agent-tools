@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | C# |
 | Created | 2026-03-15 |
-| Last push | 2026-10-17 (1 days ago) |
+| Last push | 2026-10-17 (2 days ago) |
 | Analyzed README | 31,851 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development)** — Superseded by data-goblin/power-bi-agentic-development: covers 100% of capabilities (6/6).

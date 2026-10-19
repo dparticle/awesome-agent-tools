@@ -6,7 +6,7 @@
   "url": "https://github.com/uwuclxdy/clauth",
   "description": "Claude Code multi-account manager, usage monitor (CLI, TUI & cross-account delegation via MCP)",
   "homepage": "",
-  "stars": 245,
+  "stars": 247,
   "forks": 37,
   "open_issues": 37,
   "language": "Rust",
@@ -30,33 +30,33 @@
     "vibecoded"
   ],
   "created_at": "2026-04-28T12:20:42Z",
-  "updated_at": "2026-10-18T02:44:18Z",
-  "pushed_at": "2026-10-17T20:41:35Z",
+  "updated_at": "2026-10-19T01:30:59Z",
+  "pushed_at": "2026-10-18T17:21:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "mommy",
-  "age_days": 172,
+  "age_days": 173,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
-    "popularity": 47.8,
-    "momentum": 0.8,
+    "popularity": 47.9,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 1.42,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 1.43,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "uwuclxdy/clauth",
-    "readme_chars": 15566,
+    "readme_chars": 15619,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -74,7 +74,7 @@
       "parallel-execution": "auth or a single keypress in the TUI.",
       "model-routing": "ve usage monitor, then wires the two together so a fallback chain moves you off an exhausted account before Claude Code ever blocks.",
       "usage-analytics": "e and rate limits? The Overview tab shows color-coded 5h (and 7-day) bars per account with reset times; the Usage tab breaks down every rate-limit window the API reports; the Tokens tab adds a global token dashboard wit…",
-      "session-persistence": "ns the refresh and auto-switch loop with no TUI and publishes status.json for a menu-bar app to read, or serves that feed, the account switch, the herdr panes with their terminal streams, Claude Code session history, an…",
+      "session-persistence": "UI and publishes status.json for a menu-bar app to read, or serves to another machine over HTTPS with --listen: that feed, the account switch, the herdr panes with their terminal streams, Claude Code session history, pr…",
       "skills-plugins": "",
       "mcp-support": "Claude Code multi-account manager & MCP Plugin",
       "cross-agent-support": "Mentions Claude Code, Codex"
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.478
+      "external_link_ratio": 1.473
     },
     "highlights": [
       "📊 Monitor live 5h / 7d rate-limit bars, a global token dashboard with API-equivalent cost, plus a live Claude status-incident feed",
@@ -158,9 +158,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:14+00:00",
+  "fetched_at": "2026-10-19T09:57:03+00:00",
   "categories": [
-    "analytics-2",
     "providers",
     "sharing"
   ],

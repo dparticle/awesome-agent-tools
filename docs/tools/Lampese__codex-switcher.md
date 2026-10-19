@@ -21,7 +21,7 @@
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-14 |
-| Last push | 2026-10-15 (2 days ago) |
+| Last push | 2026-10-15 (3 days ago) |
 | Analyzed README | 9,104 chars from `raw:HEAD/README.md` |
 
 ## What it solves

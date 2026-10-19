@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 885 |
-| Star velocity | 2.6/day (history basis, 5d span) |
+| Stars | 890 |
+| Star velocity | 3.4/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-10-18 (0 days ago) |
 | Analyzed README | 8,352 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -64,8 +64,8 @@ Score **49/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.9 |
-| momentum | 2.2 |
+| popularity | 59.0 |
+| momentum | 2.8 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
 | accessibility | 58.0 |

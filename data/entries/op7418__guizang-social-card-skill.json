@@ -6,8 +6,8 @@
   "url": "https://github.com/op7418/guizang-social-card-skill",
   "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
   "homepage": "https://github.com/op7418/guizang-social-card-skill",
-  "stars": 7570,
-  "forks": 580,
+  "stars": 7586,
+  "forks": 583,
   "open_issues": 13,
   "language": "HTML",
   "license": "AGPL-3.0",
@@ -29,27 +29,27 @@
     "xiaohongshu"
   ],
   "created_at": "2026-05-27T12:05:05Z",
-  "updated_at": "2026-10-18T08:50:09Z",
+  "updated_at": "2026-10-19T09:24:44Z",
   "pushed_at": "2026-07-01T16:39:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 143,
-  "days_since_push": 108,
+  "age_days": 144,
+  "days_since_push": 109,
   "health_score": 54,
   "health_components": {
     "popularity": 77.6,
-    "momentum": 12.7,
+    "momentum": 13.3,
     "maintenance": 55.0,
     "documentation": 56.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 76,
+    "stars_gained": 80,
     "days_span": 5,
-    "stars_per_day": 15.2,
-    "lifetime_stars_per_day": 52.94,
+    "stars_per_day": 16.0,
+    "lifetime_stars_per_day": 52.68,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -139,70 +139,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:52:59+00:00",
+  "fetched_at": "2026-10-19T09:55:47+00:00",
   "categories": [
     "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 omnigent-ai/omnigent 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "omnigent-ai/omnigent",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "op7418/guizang-social-card-skill",
-      "challenger": "omnigent-ai/omnigent",
-      "incumbent_name": "op7418/guizang-social-card-skill",
-      "challenger_name": "omnigent-ai/omnigent",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "gui-desktop",
-        "mobile-access",
-        "notifications"
-      ],
-      "star_ratio": 1.436,
-      "momentum_ratio": 1.171,
-      "setup_delta": 0,
-      "dominance": 0.652,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "1.44x the stars (10,867 vs 7,570)",
-        "1.17x the star velocity (17.8/day vs 15.2/day)",
-        "no harder to set up (25 vs 25 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "gui-desktop",
-          "mobile-access",
-          "notifications"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "self-hosted",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 66,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 25
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -7,7 +7,7 @@
   "description": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 15 agents, 33 skills working with /goal, agent-team, & workflow on autopilot loops with 0 need for human gate. Kills context rot, ships features, not spaghetti. Claude Code & Codex. Any stack",
   "homepage": "",
   "stars": 1152,
-  "forks": 238,
+  "forks": 239,
   "open_issues": 23,
   "language": "JavaScript",
   "license": "MIT",
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 144,
-  "days_since_push": 119,
+  "age_days": 145,
+  "days_since_push": 120,
   "health_score": 48,
   "health_components": {
     "popularity": 61.2,
@@ -54,7 +54,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 8.0,
+    "lifetime_stars_per_day": 7.94,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -177,7 +177,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:38+00:00",
+  "fetched_at": "2026-10-19T09:56:28+00:00",
   "categories": [
     "desktop-ui",
     "remote-control-isolation",

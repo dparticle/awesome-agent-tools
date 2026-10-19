@@ -6,8 +6,8 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13681,
-  "forks": 1496,
+  "stars": 13691,
+  "forks": 1524,
   "open_issues": 1144,
   "language": "TypeScript",
   "license": "MIT",
@@ -19,27 +19,27 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-18T06:00:22Z",
-  "pushed_at": "2026-10-17T18:10:26Z",
+  "updated_at": "2026-10-19T09:37:03Z",
+  "pushed_at": "2026-10-19T07:04:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 129,
+  "age_days": 130,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 82.7,
-    "momentum": 5.8,
+    "momentum": 6.3,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 35,
+    "stars_gained": 38,
     "days_span": 5,
-    "stars_per_day": 7.0,
-    "lifetime_stars_per_day": 106.05,
+    "stars_per_day": 7.6,
+    "lifetime_stars_per_day": 105.32,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -165,8 +165,8 @@
     "highlights_zh": [
       "计费档位。 OpenAI 对 GPT-5.6 超过 272K input 的请求按 2x input、1.5x output 计费，且作用于整个请求。",
       "让长任务成本可控：标准与旗舰模型自动路由，局部编辑只修改需要的部分；同会话缓存命中率最高 99%，跨会话最高 95%。",
-      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。",
-      "自定义 Provider — TUI 内添加任意 OpenAI 兼容 API"
+      "@ai-sdk/openai-compatible 适用于 OpenAI 兼容 API；使用其他通信协议的服务需要对应 Provider 的专用适配器。",
+      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。"
     ],
     "chinese_readme": "README.zh.md"
   },
@@ -175,9 +175,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:52:53+00:00",
+  "fetched_at": "2026-10-19T09:55:41+00:00",
   "categories": [
-    "analytics",
+    "model-routing",
     "self-hosting-security",
     "voice-remote-control"
   ],

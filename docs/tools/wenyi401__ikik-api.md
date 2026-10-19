@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 242 |
 | Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 42/100 |
+| Health score | 39/100 |
 | Documentation | 41/100 |
 | Tier | 👀 Watchlist |
 | Lifecycle | 🟢 Active |
 | License | LGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-25 |
-| Last push | 2026-09-17 (30 days ago) |
+| Last push | 2026-09-17 (31 days ago) |
 | Analyzed README | 9,127 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -83,7 +83,7 @@ Score **41/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 47.7 |
 | momentum | 0.2 |
-| maintenance | 92.0 |
+| maintenance | 78.0 |
 | documentation | 41.0 |
 | accessibility | 31.0 |
 

@@ -7,7 +7,7 @@
   "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
   "homepage": "",
   "stars": 727,
-  "forks": 77,
+  "forks": 78,
   "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
@@ -34,22 +34,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 254,
-  "days_since_push": 168,
+  "age_days": 255,
+  "days_since_push": 169,
   "health_score": 43,
   "health_components": {
     "popularity": 57.2,
-    "momentum": 0.8,
+    "momentum": 0.5,
     "maintenance": 55.0,
     "documentation": 44.0,
     "accessibility": 72.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.86,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 2.85,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,11 +139,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:46+00:00",
+  "fetched_at": "2026-10-19T09:56:36+00:00",
   "categories": [
-    "analytics"
+    "desktop-ui-2",
+    "self-hosting-security"
   ],
-  "primary_category": "analytics",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by Gentleman-Programming/engram: covers 100% of capabilities (5/5).",
@@ -166,14 +167,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 10.191,
-      "momentum_ratio": 49.6,
+      "star_ratio": 10.242,
+      "momentum_ratio": 88.667,
       "setup_delta": 6,
       "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "10.19x the stars (7,409 vs 727)",
-        "49.60x the star velocity (49.6/day vs 1.0/day)",
+        "10.24x the stars (7,446 vs 727)",
+        "88.67x the star velocity (53.2/day vs 0.6/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -193,7 +194,7 @@
           "session-persistence"
         ],
         "incumbent_health": 43,
-        "challenger_health": 69,
+        "challenger_health": 70,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 34
       }

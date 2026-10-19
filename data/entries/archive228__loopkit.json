@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 110,
-  "days_since_push": 95,
-  "health_score": 46,
+  "age_days": 111,
+  "days_since_push": 96,
+  "health_score": 45,
   "health_components": {
     "popularity": 57.6,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 54.0,
     "accessibility": 81.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 6.86,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 6.8,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -116,8 +116,8 @@
     "highlights": [
       "A wrapper CLI. No daemon, no server, no runtime state. run.sh is 8 lines.",
       "planner-spec-expand — 1–4 sentence brief → full ambitious spec with design language and ordered feature list → starting a fresh project or major feature",
-      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds",
-      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds"
+      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds",
+      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:53:46+00:00",
+  "fetched_at": "2026-10-19T09:56:35+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -136,15 +136,15 @@
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by numman-ali/n-skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 numman-ali/n-skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "numman-ali/n-skills",
+    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "archive228/loopkit",
-      "challenger": "numman-ali/n-skills",
+      "challenger": "thedivergentai/game-dev-agentic-skills",
       "incumbent_name": "Archive228/loopkit",
-      "challenger_name": "numman-ali/n-skills",
+      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -156,15 +156,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.393,
-      "momentum_ratio": 1.0,
-      "setup_delta": -3,
-      "dominance": 0.625,
+      "star_ratio": 1.151,
+      "momentum_ratio": 76.0,
+      "setup_delta": 2,
+      "dominance": 0.772,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.39x the stars (1,052 vs 755)",
-        "1.00x the star velocity (0.2/day vs 0.2/day)",
-        "no harder to set up (16 vs 19 friction)"
+        "1.15x the stars (869 vs 755)",
+        "76.00x the star velocity (3.8/day vs 0.0/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -178,14 +178,17 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
+          "memory-context",
           "multi-agent-orchestration",
+          "parallel-execution",
           "skills-plugins"
         ],
-        "incumbent_health": 46,
-        "challenger_health": 52,
+        "incumbent_health": 45,
+        "challenger_health": 58,
         "incumbent_setup_score": 19,
-        "challenger_setup_score": 16
+        "challenger_setup_score": 21
       }
     }
   }

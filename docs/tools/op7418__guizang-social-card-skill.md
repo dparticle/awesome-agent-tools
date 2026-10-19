@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,570 |
-| Star velocity | 15.2/day (history basis, 5d span) |
+| Stars | 7,586 |
+| Star velocity | 16.0/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 56/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | AGPL-3.0 |
 | Language | HTML |
 | Created | 2026-05-27 |
-| Last push | 2026-07-01 (108 days ago) |
+| Last push | 2026-07-01 (109 days ago) |
 | Analyzed README | 13,913 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** — Superseded by omnigent-ai/omnigent: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -75,7 +73,7 @@ Score **56/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 77.6 |
-| momentum | 12.7 |
+| momentum | 13.3 |
 | maintenance | 55.0 |
 | documentation | 56.0 |
 | accessibility | 75.0 |

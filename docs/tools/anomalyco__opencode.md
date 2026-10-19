@@ -2,7 +2,7 @@
 
 # anomalyco/opencode
 
-> curl -fsSL https://opencode.ai/install | bash
+> curl -fsSL https://opencode.ai/v2/install | bash
 
 [Repository](https://github.com/anomalyco/opencode) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 215,779 |
-| Star velocity | 535.0/day (history basis, 5d span) |
+| Stars | 217,077 |
+| Star velocity | 743.0/day (history basis, 5d span) |
 | Health score | 90/100 |
 | Documentation | 40/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-04-30 |
-| Last push | 2026-10-18 (0 days ago) |
-| Analyzed README | 5,321 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 5,038 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -41,11 +41,11 @@
 - **Difficulty:** 🟢 Turnkey (friction score 0/100)
 - **Out of the box:** yes
 - **Non-programmer friendly:** yes
-- **Quickest install:** `curl -fsSL https://opencode.ai/install | bash`
+- **Quickest install:** `curl -fsSL https://opencode.ai/v2/install | bash`
 
-**Signals that make it easy:** Homebrew install, scoop install, curl | sh installer, native installer / package
+**Signals that make it easy:** Homebrew install, curl | sh installer, native installer / package
 
-*Turnkey. install via Homebrew install, scoop install; GUI application*
+*Turnkey. install via Homebrew install, curl | sh installer; GUI application*
 
 ## Documentation quality
 

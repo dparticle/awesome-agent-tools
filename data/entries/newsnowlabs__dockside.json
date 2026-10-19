@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1861,
-  "days_since_push": 20,
+  "age_days": 1862,
+  "days_since_push": 21,
   "health_score": 47,
   "health_components": {
     "popularity": 50.1,
@@ -148,13 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-18T08:54:05+00:00",
+  "fetched_at": "2026-10-19T09:56:55+00:00",
   "categories": [
-    "mobile-remote-control",
-    "remote-control-isolation",
-    "teams"
+    "remote-control-isolation"
   ],
-  "primary_category": "teams",
+  "primary_category": "remote-control-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 98,585 |
-| Star velocity | 410.8/day (lifetime basis, 240d span) |
-| Health score | 88/100 |
+| Stars | 99,073 |
+| Star velocity | 651.2/day (history basis, 5d span) |
+| Health score | 87/100 |
 | Documentation | 41/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-02-19 |
-| Last push | 2026-10-18 (0 days ago) |
-| Analyzed README | 18,606 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 18,359 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
 
-> /plugin update upgrades it later. Codex plugin Start a new Codex session afterwards so the skills are loaded. From a clone, linked instead of copied ./install.sh symlinks the skills into Claude Code (--codex for Codex,…
+> age-generation skills (imagegen-frontend-web, imagegen-frontend-mobile, brandkit, image-to-code) now live in their own repo: **Leonxlnx/imagegen-skills**.
 
 ### Agent runtime
 
@@ -40,16 +40,16 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 21/100)
+- **Difficulty:** 🟢 Easy (friction score 28/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx skills add https://github.com/Leonxlnx/taste-skill`
+- **Quickest install:** `npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend"`
 
 **Signals that make it easy:** npx one-liner
 
 **Configuration required:** API key configuration, server/reverse-proxy setup
 
-*Easy. install via npx one-liner; configure API key configuration, server/reverse-proxy setup; no-code positioning*
+*Easy. install via npx one-liner; configure API key configuration, server/reverse-proxy setup*
 
 ## Documentation quality
 
@@ -70,7 +70,7 @@ Score **41/100**, based on these detected signals:
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 41.0 |
-| accessibility | 79.0 |
+| accessibility | 72.0 |
 
 ---
 
