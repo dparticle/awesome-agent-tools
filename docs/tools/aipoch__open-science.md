@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,237 |
-| Star velocity | 78.8/day (history basis, 5d span) |
+| Stars | 5,303 |
+| Star velocity | 85.2/day (history basis, 5d span) |
 | Health score | 78/100 |
 | Documentation | 84/100 |
 | Tier | 🏆 Flagship |
@@ -21,14 +21,14 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 36,021 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 40,125 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Remote control
 
-> greatly appreciate a star on GitHub.
+> e host to stay on and online, with AIPOCH Open-Science and the Remote.It agent running, and the host added to a signed-in Remote.It account.
 
 ### Model / provider routing
 
@@ -52,7 +52,7 @@
 
 ### GUI / desktop app
 
-> owser share that service.
+> ith a screening model configured, smart collections evaluate references against your inclusion/exclusion criteria; AI decisions remain separate from manual decisions and support human review.
 
 ### Cross-agent support
 
@@ -60,7 +60,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 35/100)
+- **Difficulty:** 🟡 Some setup (friction score 41/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install --cask open-science`
@@ -69,9 +69,9 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, sign-in required, database dependency, server/reverse-proxy setup
+**Configuration required:** API key configuration, OAuth login flow, sign-in required, database dependency, server/reverse-proxy setup
 
-*Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, sign-in required; one-click setup*
+*Some setup. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; one-click setup*
 
 ## Documentation quality
 
@@ -97,11 +97,11 @@ Score **84/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.4 |
-| momentum | 65.7 |
+| popularity | 74.5 |
+| momentum | 71.0 |
 | maintenance | 100.0 |
 | documentation | 84.0 |
-| accessibility | 65.0 |
+| accessibility | 59.0 |
 
 ---
 

@@ -33,22 +33,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
-  "days_since_push": 101,
+  "age_days": 115,
+  "days_since_push": 102,
   "health_score": 41,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 53.0,
     "accessibility": 55.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 4.41,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 4.37,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:41+00:00",
+  "fetched_at": "2026-10-20T09:28:42+00:00",
   "categories": [
     "desktop-ui-2",
     "security"
@@ -162,13 +162,13 @@
         "security-isolation"
       ],
       "star_ratio": 1.555,
-      "momentum_ratio": 6.0,
+      "momentum_ratio": 12.0,
       "setup_delta": 10,
       "dominance": 0.8,
       "reasons": [
         "covers 100% of capabilities (4/4)",
         "1.55x the stars (782 vs 503)",
-        "6.00x the star velocity (1.2/day vs 0.2/day)",
+        "12.00x the star velocity (0.6/day vs 0.0/day)",
         "slightly heavier setup (+10 friction, within tolerance)"
       ],
       "reasons_zh": [],

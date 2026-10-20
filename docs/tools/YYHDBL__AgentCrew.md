@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 252 |
 | Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 49/100 |
+| Health score | 47/100 |
 | Documentation | 45/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Python |
 | Created | 2025-12-26 |
-| Last push | 2026-10-12 (7 days ago) |
+| Last push | 2026-10-12 (8 days ago) |
 | Analyzed README | 5,468 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -82,7 +82,7 @@ Score **45/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 48.0 |
 | momentum | 0.2 |
-| maintenance | 100.0 |
+| maintenance | 92.0 |
 | documentation | 45.0 |
 | accessibility | 69.0 |
 

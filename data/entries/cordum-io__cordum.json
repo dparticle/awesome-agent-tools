@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 280,
-  "days_since_push": 1,
+  "age_days": 281,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 54.2,
@@ -164,7 +164,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:41+00:00",
+  "fetched_at": "2026-10-20T09:28:42+00:00",
   "categories": [
     "providers-2",
     "security",

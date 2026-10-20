@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 284,
-  "days_since_push": 99,
+  "age_days": 285,
+  "days_since_push": 100,
   "health_score": 43,
   "health_components": {
     "popularity": 49.2,
@@ -33,7 +33,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.02,
+    "lifetime_stars_per_day": 1.01,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -147,11 +147,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:59+00:00",
+  "fetched_at": "2026-10-20T09:29:06+00:00",
   "categories": [
+    "billing",
     "desktop-ui",
-    "model-routing",
-    "self-hosting-security"
+    "model-routing"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

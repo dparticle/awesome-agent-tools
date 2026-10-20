@@ -6,9 +6,9 @@
   "url": "https://github.com/iOfficeAI/AionUi",
   "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
   "homepage": "https://www.aionui.com",
-  "stars": 33631,
-  "forks": 3495,
-  "open_issues": 875,
+  "stars": 33656,
+  "forks": 3496,
+  "open_issues": 877,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "webui"
   ],
   "created_at": "2025-08-07T10:29:51Z",
-  "updated_at": "2026-10-19T09:52:40Z",
-  "pushed_at": "2026-10-14T04:18:39Z",
+  "updated_at": "2026-10-20T09:07:22Z",
+  "pushed_at": "2026-10-19T13:25:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 437,
-  "days_since_push": 5,
+  "age_days": 438,
+  "days_since_push": 0,
   "health_score": 72,
   "health_components": {
     "popularity": 90.5,
-    "momentum": 19.8,
+    "momentum": 18.5,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 98.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 119,
+    "stars_gained": 111,
     "days_span": 5,
-    "stars_per_day": 23.8,
-    "lifetime_stars_per_day": 76.96,
+    "stars_per_day": 22.2,
+    "lifetime_stars_per_day": 76.84,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -183,13 +183,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:08+00:00",
+  "fetched_at": "2026-10-20T09:27:57+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "remote-control-isolation"
+    "parallelism-isolation"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

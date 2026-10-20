@@ -7,7 +7,7 @@
   "description": "Samurai-inspired multi-agent system for Claude Code. Orchestrate parallel AI tasks via tmux with shogun → karo → ashigaru hierarchy.",
   "homepage": "",
   "stars": 1424,
-  "forks": 292,
+  "forks": 293,
   "open_issues": 7,
   "language": "Shell",
   "license": "MIT",
@@ -30,7 +30,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 267,
-  "days_since_push": 74,
+  "days_since_push": 75,
   "health_score": 51,
   "health_components": {
     "popularity": 63.1,
@@ -192,11 +192,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:24+00:00",
+  "fetched_at": "2026-10-20T09:28:17+00:00",
   "categories": [
     "mobile-remote-control",
-    "remote-control-isolation",
-    "self-hosting-security"
+    "self-hosting-security",
+    "sessions"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

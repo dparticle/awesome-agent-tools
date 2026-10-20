@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11135,
-  "forks": 962,
-  "open_issues": 222,
+  "stars": 11141,
+  "forks": 1002,
+  "open_issues": 198,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-10-19T09:35:06Z",
-  "pushed_at": "2026-10-19T09:35:32Z",
+  "updated_at": "2026-10-20T08:11:49Z",
+  "pushed_at": "2026-10-20T09:11:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 97,
+  "age_days": 98,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 80.9,
-    "momentum": 6.2,
+    "momentum": 5.7,
     "maintenance": 100.0,
-    "documentation": 41.0,
+    "documentation": 42.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 37,
+    "stars_gained": 34,
     "days_span": 5,
-    "stars_per_day": 7.4,
-    "lifetime_stars_per_day": 114.79,
+    "stars_per_day": 6.8,
+    "lifetime_stars_per_day": 113.68,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openai/codex-security",
-    "readme_chars": 9153,
+    "readme_chars": 10773,
     "capabilities": [
       "model-routing"
     ],
@@ -87,7 +87,7 @@
       "note_en": "Some setup. install via npx one-liner; needs npm install/build; configure API key configuration, sign-in required",
       "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 npm install/build；需配置 API key configuration、sign-in required"
     },
-    "doc_score": 41,
+    "doc_score": 42,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -99,7 +99,7 @@
     "agents": [
       "Codex"
     ],
-    "summary_en": "@openai/codex-security is a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code.",
+    "summary_en": "Codex Security helps you find, investigate, and fix vulnerabilities in your code.",
     "summary_zh": "",
     "install_hint": "npm install --global @openai/codex-security",
     "source": "raw:HEAD/README.md",
@@ -109,7 +109,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.219
+      "external_link_ratio": 0.186
     },
     "highlights": [
       "cron: \"23 7 * * 1\" # Mondays at 07:23 UTC",
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:55:43+00:00",
+  "fetched_at": "2026-10-20T09:27:24+00:00",
   "categories": [
     "model-routing"
   ],

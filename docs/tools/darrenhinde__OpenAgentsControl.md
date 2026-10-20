@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,917 |
-| Star velocity | 2.8/day (history basis, 5d span) |
-| Health score | 60/100 |
-| Documentation | 71/100 |
-| Tier | 🔹 Notable |
+| Stars | 4,922 |
+| Star velocity | 3.2/day (history basis, 5d span) |
+| Health score | 65/100 |
+| Documentation | 72/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-14 |
-| Last push | 2026-09-13 (35 days ago) |
-| Analyzed README | 29,988 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 30,172 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -53,7 +53,7 @@
 
 ## Documentation quality
 
-Score **71/100**, based on these detected signals:
+Score **72/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -73,9 +73,9 @@ Score **71/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 73.8 |
-| momentum | 2.3 |
-| maintenance | 78.0 |
-| documentation | 71.0 |
+| momentum | 2.7 |
+| maintenance | 100.0 |
+| documentation | 72.0 |
 | accessibility | 100.0 |
 
 ---

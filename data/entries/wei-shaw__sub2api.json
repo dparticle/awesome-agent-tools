@@ -6,9 +6,9 @@
   "url": "https://github.com/Wei-Shaw/sub2api",
   "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
   "homepage": "",
-  "stars": 44350,
-  "forks": 9521,
-  "open_issues": 3664,
+  "stars": 44426,
+  "forks": 9537,
+  "open_issues": 3675,
   "language": "Go",
   "license": "LGPL-3.0",
   "topics": [
@@ -23,27 +23,27 @@
     "gemini"
   ],
   "created_at": "2025-12-18T02:26:18Z",
-  "updated_at": "2026-10-19T09:51:21Z",
-  "pushed_at": "2026-10-19T09:51:37Z",
+  "updated_at": "2026-10-20T09:15:21Z",
+  "pushed_at": "2026-10-20T06:27:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 305,
+  "age_days": 306,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 75,
   "health_components": {
-    "popularity": 92.9,
-    "momentum": 62.7,
+    "popularity": 93.0,
+    "momentum": 57.5,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 376,
+    "stars_gained": 345,
     "days_span": 5,
-    "stars_per_day": 75.2,
-    "lifetime_stars_per_day": 145.41,
+    "stars_per_day": 69.0,
+    "lifetime_stars_per_day": 145.18,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -157,8 +157,8 @@
     },
     "highlights": [
       "Public Responses targets: /v1/responses, /responses, and /backend-api/codex/responses, forwarded to the Grok subscription proxy for OAuth accounts or https://api.x.ai/v1/responses for API-k…",
-      "Multi-Account Management - Support multiple upstream account types (OAuth, API Key)",
       "Rate Limiting - Configurable request and token rate limits",
+      "Multi-Account Management - Support multiple upstream account types (OAuth, API Key)",
       "API Key Distribution - Generate and manage API Keys for users"
     ],
     "summary_zh_native": "AI API 网关平台 - 订阅配额分发管理",
@@ -175,10 +175,10 @@
     "seed_reason": "Turn upstream AI subscriptions into a metered, rate-limited, billable relay.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-19T09:55:37+00:00",
+  "fetched_at": "2026-10-20T09:27:16+00:00",
   "categories": [
-    "analytics-2",
     "billing",
+    "providers",
     "sharing"
   ],
   "primary_category": "billing",

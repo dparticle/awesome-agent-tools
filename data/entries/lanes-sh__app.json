@@ -6,7 +6,7 @@
   "url": "https://github.com/lanes-sh/app",
   "description": "Run many CLI (Coding) Agents in parallel lanes: issues, worktrees, sessions, and loops on one board. The agentic development environment.",
   "homepage": "https://lanes.sh",
-  "stars": 274,
+  "stars": 275,
   "forks": 16,
   "open_issues": 11,
   "language": "",
@@ -31,26 +31,26 @@
     "vibe-coding"
   ],
   "created_at": "2026-03-22T21:18:28Z",
-  "updated_at": "2026-10-13T02:24:24Z",
+  "updated_at": "2026-10-20T07:32:26Z",
   "pushed_at": "2026-10-06T13:17:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 210,
-  "days_since_push": 12,
+  "age_days": 211,
+  "days_since_push": 13,
   "health_score": 48,
   "health_components": {
     "popularity": 48.8,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 36.0,
     "accessibility": 88.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.3,
     "basis": "history",
     "is_fast_riser": false
@@ -139,7 +139,7 @@
       "The model provider you choose. Gateway points a session at Ollama, LM Studio, vLLM, OpenRouter or z.ai, applied as real process environment so the request goes straight from the CLI to your…",
       "A git client, not just a diff. Commit, publish, switch branches, undo the last unpushed commit, and open a pull request from the issue panel.",
       "Claude Code and Codex, first class.",
-      "A worktree per issue. Generated branch names, uncommitted state in the status bar, setup and teardown scripts, and auto-cleanup when the issue completes."
+      "GitHub and Linear over OAuth. Import a whole sprint onto the board, and push results back as comments."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:57:01+00:00",
+  "fetched_at": "2026-10-20T09:29:08+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "remote-control-isolation"
+    "parallelism-isolation"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.741,
-      "momentum_ratio": 476.0,
+      "star_ratio": 122.385,
+      "momentum_ratio": 111.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.74x the stars (33,631 vs 274)",
-        "476.00x the star velocity (23.8/day vs 0.0/day)",
+        "122.39x the stars (33,656 vs 275)",
+        "111.00x the star velocity (22.2/day vs 0.2/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],

@@ -7,7 +7,7 @@
   "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
   "homepage": "",
   "stars": 285,
-  "forks": 15,
+  "forks": 17,
   "open_issues": 3,
   "language": "Go",
   "license": "Apache-2.0",
@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 102,
-  "days_since_push": 51,
+  "age_days": 103,
+  "days_since_push": 52,
   "health_score": 47,
   "health_components": {
     "popularity": 49.1,
@@ -43,7 +43,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.79,
+    "lifetime_stars_per_day": 2.77,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -148,9 +148,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:57:00+00:00",
+  "fetched_at": "2026-10-20T09:29:06+00:00",
   "categories": [
-    "self-hosting-security"
+    "self-hosting-security",
+    "sessions"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
@@ -178,13 +179,13 @@
         "session-persistence"
       ],
       "star_ratio": 1.481,
-      "momentum_ratio": 8.0,
+      "momentum_ratio": 4.0,
       "setup_delta": 8,
-      "dominance": 0.799,
+      "dominance": 0.772,
       "reasons": [
         "covers 100% of capabilities (7/7)",
         "1.48x the stars (422 vs 285)",
-        "8.00x the star velocity (0.4/day vs 0.0/day)",
+        "4.00x the star velocity (0.2/day vs 0.0/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],

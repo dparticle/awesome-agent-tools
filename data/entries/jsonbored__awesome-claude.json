@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 399,
-  "days_since_push": 63,
+  "age_days": 400,
+  "days_since_push": 64,
   "health_score": 49,
   "health_components": {
     "popularity": 49.6,
@@ -240,13 +240,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:59+00:00",
+  "fetched_at": "2026-10-20T09:29:05+00:00",
   "categories": [
-    "analytics-2",
-    "remote-control-isolation",
-    "teams"
+    "mobile-remote-control",
+    "parallelism-isolation",
+    "voice-remote-control"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

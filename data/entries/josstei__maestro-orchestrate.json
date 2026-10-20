@@ -6,9 +6,9 @@
   "url": "https://github.com/josstei/maestro-orchestrate",
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
-  "stars": 485,
-  "forks": 41,
-  "open_issues": 8,
+  "stars": 486,
+  "forks": 43,
+  "open_issues": 5,
   "language": "JavaScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-18T14:07:45Z",
-  "pushed_at": "2026-10-18T23:50:10Z",
+  "updated_at": "2026-10-20T06:01:02Z",
+  "pushed_at": "2026-10-20T06:01:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
+  "age_days": 253,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
-    "momentum": 3.0,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 3.6,
+    "stars_per_day": 2.0,
     "lifetime_stars_per_day": 1.92,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "josstei/maestro-orchestrate",
-    "readme_chars": 10353,
+    "readme_chars": 12297,
     "capabilities": [
       "multi-agent-orchestration",
       "session-persistence",
@@ -70,13 +70,13 @@
     "capability_evidence": {
       "multi-agent-orchestration": "Maestro is a multi-agent development orchestration platform with 39 specialists, an Express path for simple work, a 4-phase standard workflow for medium and complex work, persistent session state, and standalone review/…",
       "session-persistence": "",
-      "mcp-support": ", and detached src/ payloads under agents/, commands/, policies/, claude/, plugins/maestro/, and qwen/; update src/ first, then regenerate.",
+      "mcp-support": "src/ payloads under agents/, commands/, policies/, antigravity/, claude/, plugins/maestro/, and qwen/; update src/ first, then regenerate.",
       "cross-agent-support": "Mentions Claude Code, Codex, Qwen Code"
     },
     "capability_hits": {
       "multi-agent-orchestration": 7,
       "session-persistence": 1,
-      "mcp-support": 3,
+      "mcp-support": 4,
       "cross-agent-support": 3
     },
     "friction": {
@@ -120,7 +120,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.483
+      "external_link_ratio": 0.488
     },
     "highlights": [
       "Express: For simple work. Maestro asks 1-2 clarifying questions, proposes a brief, delegates to one specialist, runs code review, and archives without a design doc or implementation plan.",
@@ -135,25 +135,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:43+00:00",
+  "fetched_at": "2026-10-20T09:28:45+00:00",
   "categories": [
-    "self-hosting-security"
+    "sessions"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "sessions",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
     "challenger": "",
     "supersede": {
       "incumbent": "josstei/maestro-orchestrate",
-      "challenger": "affaan-m/ecc",
+      "challenger": "hoangsonww/claude-code-agent-monitor",
       "incumbent_name": "josstei/maestro-orchestrate",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -161,15 +161,15 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 584.691,
-      "momentum_ratio": 263.111,
-      "setup_delta": 6,
-      "dominance": 0.97,
+      "star_ratio": 2.261,
+      "momentum_ratio": 2.1,
+      "setup_delta": -21,
+      "dominance": 0.828,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "584.69x the stars (283,575 vs 485)",
-        "263.11x the star velocity (947.2/day vs 3.6/day)",
-        "slightly heavier setup (+6 friction, within tolerance)"
+        "2.26x the stars (1,099 vs 486)",
+        "2.10x the star velocity (4.2/day vs 2.0/day)",
+        "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,26 +181,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
           "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
+          "skills-plugins"
         ],
         "incumbent_health": 51,
-        "challenger_health": 89,
+        "challenger_health": 55,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 30
       }
     }
   }

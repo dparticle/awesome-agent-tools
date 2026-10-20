@@ -49,8 +49,8 @@ A curated entry in `config/overrides.json` is therefore a **nomination, not a ve
 Reasons:
 
 - covers 100% of capabilities (10/10)
-- 334.40x the stars (283,575 vs 848)
-- 592.00x the star velocity (947.2/day vs 1.6/day)
+- 334.17x the stars (284,378 vs 851)
+- 419.27x the star velocity (922.4/day vs 2.2/day)
 - no harder to set up (57 vs 73 friction)
 
 Evidence:
@@ -102,9 +102,9 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (4/4)
-- 58.40x the stars (19,098 vs 327)
-- 572.00x the star velocity (28.6/day vs 0.0/day)
-- no harder to set up (26 vs 41 friction)
+- 58.52x the stars (19,136 vs 327)
+- 536.00x the star velocity (26.8/day vs 0.0/day)
+- no harder to set up (32 vs 41 friction)
 
 Evidence:
 
@@ -132,9 +132,9 @@ Evidence:
     "security-isolation"
   ],
   "incumbent_health": 42,
-  "challenger_health": 68,
+  "challenger_health": 67,
   "incumbent_setup_score": 41,
-  "challenger_setup_score": 26
+  "challenger_setup_score": 32
 }
 ```
 
@@ -146,8 +146,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (5/5)
-- 67.58x the stars (29,668 vs 439)
-- 264.00x the star velocity (52.8/day vs 0.2/day)
+- 67.66x the stars (29,702 vs 439)
+- 220.00x the star velocity (44.0/day vs 0.2/day)
 - no harder to set up (32 vs 37 friction)
 
 Evidence:
@@ -180,13 +180,13 @@ Evidence:
     "team-collaboration"
   ],
   "incumbent_health": 46,
-  "challenger_health": 75,
+  "challenger_health": 73,
   "incumbent_setup_score": 37,
   "challenger_setup_score": 32
 }
 ```
 
-### Dataojitori/nocturne_memory → spinabot/brigade
+### BennyKok/omg.dev → omnigent-ai/omnigent
 
 - **Source:** automatic (high confidence)
 - **Dominance:** 1.000
@@ -194,43 +194,42 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (7/7)
-- 8.15x the stars (11,346 vs 1,393)
-- 8.00x the star velocity (3.2/day vs 0.4/day)
-- no harder to set up (39 vs 60 friction)
+- 19.95x the stars (10,915 vs 547)
+- 380.00x the star velocity (19.0/day vs 0.0/day)
+- no harder to set up (25 vs 31 friction)
 
 Evidence:
 
 ```json
 {
   "incumbent_capabilities": [
+    "agent-runtime",
     "cross-agent-support",
-    "mcp-support",
-    "memory-context",
+    "gui-desktop",
+    "mobile-access",
     "notifications",
     "remote-control",
-    "session-persistence",
-    "worktree-isolation"
+    "self-hosted"
   ],
   "challenger_capabilities": [
+    "agent-runtime",
     "api-gateway",
-    "billing-metering",
     "cross-agent-support",
+    "gui-desktop",
     "mcp-support",
-    "memory-context",
+    "mobile-access",
     "model-routing",
-    "multi-account-switching",
     "multi-agent-orchestration",
     "notifications",
     "remote-control",
     "self-hosted",
-    "session-persistence",
-    "skills-plugins",
+    "team-collaboration",
     "worktree-isolation"
   ],
-  "incumbent_health": 51,
-  "challenger_health": 61,
-  "incumbent_setup_score": 60,
-  "challenger_setup_score": 39
+  "incumbent_health": 50,
+  "challenger_health": 66,
+  "incumbent_setup_score": 31,
+  "challenger_setup_score": 25
 }
 ```
 
@@ -242,8 +241,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (8/8)
-- 37.40x the stars (8,901 vs 238)
-- 18.94x the star velocity (32.2/day vs 1.7/day)
+- 37.05x the stars (8,929 vs 241)
+- 18.71x the star velocity (32.0/day vs 1.7/day)
 - no harder to set up (32 vs 50 friction)
 
 Evidence:
@@ -284,7 +283,7 @@ Evidence:
 }
 ```
 
-### Ibrahim-3d/orchestrator-supaconductor → bytedance/deer-flow
+### Ibrahim-3d/orchestrator-supaconductor → TencentCloud/Octop
 
 - **Source:** automatic (high confidence)
 - **Dominance:** 1.000
@@ -292,9 +291,9 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (5/5)
-- 221.36x the stars (84,117 vs 380)
-- 1104.00x the star velocity (55.2/day vs 0.0/day)
-- no harder to set up (57 vs 72 friction)
+- 27.34x the stars (10,388 vs 380)
+- 3792.00x the star velocity (189.6/day vs 0.0/day)
+- no harder to set up (32 vs 72 friction)
 
 Evidence:
 
@@ -310,27 +309,68 @@ Evidence:
   "challenger_capabilities": [
     "agent-runtime",
     "api-gateway",
-    "auto-failover",
+    "billing-metering",
+    "cross-agent-support",
+    "gui-desktop",
+    "mcp-support",
+    "memory-context",
+    "mobile-access",
+    "model-routing",
+    "multi-agent-orchestration",
+    "parallel-execution",
+    "self-hosted",
+    "skills-plugins",
+    "team-collaboration",
+    "worktree-isolation"
+  ],
+  "incumbent_health": 47,
+  "challenger_health": 87,
+  "incumbent_setup_score": 72,
+  "challenger_setup_score": 32
+}
+```
+
+### LeoYeAI/talewell → genspark-ai/genoffice
+
+- **Source:** automatic (high confidence)
+- **Dominance:** 1.000
+
+Reasons:
+
+- covers 100% of capabilities (5/5)
+- 18.39x the stars (10,098 vs 549)
+- 379.00x the star velocity (75.8/day vs 0.2/day)
+- no harder to set up (20 vs 23 friction)
+
+Evidence:
+
+```json
+{
+  "incumbent_capabilities": [
+    "agent-runtime",
+    "cross-agent-support",
+    "mcp-support",
+    "memory-context",
+    "skills-plugins"
+  ],
+  "challenger_capabilities": [
+    "agent-runtime",
+    "api-gateway",
+    "billing-metering",
     "cross-agent-support",
     "gui-desktop",
     "mcp-support",
     "memory-context",
     "model-routing",
-    "multi-agent-orchestration",
-    "notifications",
     "parallel-execution",
     "self-hosted",
-    "session-persistence",
     "skills-plugins",
-    "team-collaboration",
-    "usage-analytics",
-    "voice-input",
-    "worktree-isolation"
+    "usage-analytics"
   ],
-  "incumbent_health": 47,
-  "challenger_health": 77,
-  "incumbent_setup_score": 72,
-  "challenger_setup_score": 57
+  "incumbent_health": 50,
+  "challenger_health": 76,
+  "incumbent_setup_score": 23,
+  "challenger_setup_score": 20
 }
 ```
 
@@ -342,8 +382,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (6/6)
-- 8.95x the stars (2,094 vs 234)
-- 6.00x the star velocity (1.2/day vs 0.2/day)
+- 8.96x the stars (2,096 vs 234)
+- 5.00x the star velocity (1.0/day vs 0.2/day)
 - no harder to set up (12 vs 30 friction)
 
 Evidence:
@@ -377,64 +417,16 @@ Evidence:
 }
 ```
 
-### MagicCube/agentara → affaan-m/ECC
+### Orkas-AI/Orkas → TencentCloud/Octop
 
 - **Source:** automatic (high confidence)
 - **Dominance:** 1.000
 
 Reasons:
 
-- covers 100% of capabilities (5/5)
-- 548.50x the stars (283,575 vs 517)
-- 4736.00x the star velocity (947.2/day vs 0.2/day)
-- no harder to set up (57 vs 84 friction)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "gui-desktop",
-    "memory-context",
-    "session-persistence"
-  ],
-  "challenger_capabilities": [
-    "agent-runtime",
-    "api-gateway",
-    "auto-failover",
-    "cross-agent-support",
-    "gui-desktop",
-    "mcp-support",
-    "memory-context",
-    "model-routing",
-    "multi-agent-orchestration",
-    "notifications",
-    "parallel-execution",
-    "security-isolation",
-    "self-hosted",
-    "session-persistence",
-    "skills-plugins",
-    "worktree-isolation"
-  ],
-  "incumbent_health": 38,
-  "challenger_health": 89,
-  "incumbent_setup_score": 84,
-  "challenger_setup_score": 57
-}
-```
-
-### MemTensor/memmy-agent → TencentCloud/Octop
-
-- **Source:** automatic (high confidence)
-- **Dominance:** 1.000
-
-Reasons:
-
-- covers 100% of capabilities (7/7)
-- 4.75x the stars (10,042 vs 2,113)
-- 52.13x the star velocity (156.4/day vs 3.0/day)
+- covers 100% of capabilities (10/10)
+- 4.68x the stars (10,388 vs 2,222)
+- 24.31x the star velocity (189.6/day vs 7.8/day)
 - no harder to set up (32 vs 42 friction)
 
 Evidence:
@@ -443,12 +435,15 @@ Evidence:
 {
   "incumbent_capabilities": [
     "agent-runtime",
+    "api-gateway",
     "cross-agent-support",
     "gui-desktop",
-    "mcp-support",
     "memory-context",
     "model-routing",
-    "team-collaboration"
+    "multi-agent-orchestration",
+    "parallel-execution",
+    "skills-plugins",
+    "worktree-isolation"
   ],
   "challenger_capabilities": [
     "agent-runtime",
@@ -467,7 +462,7 @@ Evidence:
     "team-collaboration",
     "worktree-isolation"
   ],
-  "incumbent_health": 56,
+  "incumbent_health": 57,
   "challenger_health": 87,
   "incumbent_setup_score": 42,
   "challenger_setup_score": 32
@@ -482,8 +477,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (5/5)
-- 886.17x the stars (283,575 vs 320)
-- 2368.00x the star velocity (947.2/day vs 0.4/day)
+- 888.68x the stars (284,378 vs 320)
+- 4612.00x the star velocity (922.4/day vs 0.2/day)
 - no harder to set up (57 vs 64 friction)
 
 Evidence:
@@ -530,8 +525,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (6/6)
-- 36.40x the stars (33,631 vs 924)
-- 476.00x the star velocity (23.8/day vs 0.0/day)
+- 36.38x the stars (33,656 vs 925)
+- 55.50x the star velocity (22.2/day vs 0.4/day)
 - no harder to set up (2 vs 25 friction)
 
 Evidence:
@@ -575,8 +570,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (6/6)
-- 4.06x the stars (21,378 vs 5,271)
-- 16.39x the star velocity (108.2/day vs 6.6/day)
+- 4.07x the stars (21,495 vs 5,279)
+- 16.35x the star velocity (111.2/day vs 6.8/day)
 - no harder to set up (24 vs 28 friction)
 
 Evidence:
@@ -605,8 +600,8 @@ Evidence:
     "voice-input",
     "worktree-isolation"
   ],
-  "incumbent_health": 58,
-  "challenger_health": 84,
+  "incumbent_health": 57,
+  "challenger_health": 85,
   "incumbent_setup_score": 28,
   "challenger_setup_score": 24
 }
@@ -620,8 +615,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (4/4)
-- 3.06x the stars (869 vs 284)
-- 9.50x the star velocity (3.8/day vs 0.4/day)
+- 3.05x the stars (870 vs 285)
+- 8.00x the star velocity (3.2/day vs 0.4/day)
 - no harder to set up (21 vs 58 friction)
 
 Evidence:
@@ -659,8 +654,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (6/6)
-- 55.77x the stars (33,631 vs 603)
-- 13.22x the star velocity (23.8/day vs 1.8/day)
+- 55.72x the stars (33,656 vs 604)
+- 12.33x the star velocity (22.2/day vs 1.8/day)
 - no harder to set up (2 vs 4 friction)
 
 Evidence:
@@ -704,8 +699,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (9/9)
-- 174.83x the stars (283,575 vs 1,622)
-- 55.07x the star velocity (947.2/day vs 17.2/day)
+- 173.83x the stars (284,378 vs 1,636)
+- 59.13x the star velocity (922.4/day vs 15.6/day)
 - no harder to set up (57 vs 64 friction)
 
 Evidence:
@@ -741,7 +736,7 @@ Evidence:
     "skills-plugins",
     "worktree-isolation"
   ],
-  "incumbent_health": 58,
+  "incumbent_health": 57,
   "challenger_health": 89,
   "incumbent_setup_score": 64,
   "challenger_setup_score": 57
@@ -756,8 +751,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (6/6)
-- 97.48x the stars (33,631 vs 345)
-- 476.00x the star velocity (23.8/day vs 0.0/day)
+- 97.55x the stars (33,656 vs 345)
+- 444.00x the star velocity (22.2/day vs 0.0/day)
 - no harder to set up (2 vs 4 friction)
 
 Evidence:
@@ -793,139 +788,42 @@ Evidence:
 }
 ```
 
-### chandra447/pi-hermes-memory → affaan-m/ECC
+### darrenhinde/OpenAgentsControl → OthmanAdi/planning-with-files
 
 - **Source:** automatic (high confidence)
 - **Dominance:** 1.000
 
 Reasons:
 
-- covers 100% of capabilities (6/6)
-- 577.55x the stars (283,575 vs 491)
-- 1184.00x the star velocity (947.2/day vs 0.8/day)
-- no harder to set up (57 vs 84 friction)
+- covers 100% of capabilities (4/4)
+- 5.60x the stars (27,544 vs 4,922)
+- 5.12x the star velocity (16.4/day vs 3.2/day)
+- no harder to set up (27 vs 50 friction)
 
 Evidence:
 
 ```json
 {
   "incumbent_capabilities": [
-    "auto-failover",
-    "mcp-support",
+    "cross-agent-support",
     "memory-context",
-    "model-routing",
-    "session-persistence",
-    "skills-plugins"
+    "multi-agent-orchestration",
+    "worktree-isolation"
   ],
   "challenger_capabilities": [
     "agent-runtime",
-    "api-gateway",
-    "auto-failover",
     "cross-agent-support",
-    "gui-desktop",
-    "mcp-support",
     "memory-context",
-    "model-routing",
     "multi-agent-orchestration",
-    "notifications",
     "parallel-execution",
     "security-isolation",
-    "self-hosted",
-    "session-persistence",
     "skills-plugins",
     "worktree-isolation"
   ],
-  "incumbent_health": 49,
-  "challenger_health": 89,
-  "incumbent_setup_score": 84,
-  "challenger_setup_score": 57
-}
-```
-
-### darrenhinde/OpenAgentsControl → paperclipai/paperclip
-
-- **Source:** automatic (high confidence)
-- **Dominance:** 1.000
-
-Reasons:
-
-- covers 100% of capabilities (4/4)
-- 21.23x the stars (104,376 vs 4,917)
-- 183.71x the star velocity (514.4/day vs 2.8/day)
-- no harder to set up (45 vs 50 friction)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "cross-agent-support",
-    "memory-context",
-    "multi-agent-orchestration",
-    "worktree-isolation"
-  ],
-  "challenger_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "gui-desktop",
-    "mcp-support",
-    "memory-context",
-    "mobile-access",
-    "model-routing",
-    "multi-agent-orchestration",
-    "notifications",
-    "remote-control",
-    "security-isolation",
-    "self-hosted",
-    "session-persistence",
-    "skills-plugins",
-    "team-collaboration",
-    "usage-analytics",
-    "worktree-isolation"
-  ],
-  "incumbent_health": 60,
-  "challenger_health": 89,
+  "incumbent_health": 65,
+  "challenger_health": 69,
   "incumbent_setup_score": 50,
-  "challenger_setup_score": 45
-}
-```
-
-### devaccuracy/ledgerforge → superdesigndev/treg
-
-- **Source:** automatic (high confidence)
-- **Dominance:** 1.000
-
-Reasons:
-
-- covers 100% of capabilities (4/4)
-- 13.99x the stars (5,776 vs 413)
-- 166.33x the star velocity (99.8/day vs 0.6/day)
-- no harder to set up (21 vs 52 friction)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "billing-metering",
-    "mcp-support",
-    "notifications",
-    "security-isolation"
-  ],
-  "challenger_capabilities": [
-    "auto-failover",
-    "billing-metering",
-    "mcp-support",
-    "model-routing",
-    "notifications",
-    "security-isolation",
-    "self-hosted",
-    "skills-plugins"
-  ],
-  "incumbent_health": 49,
-  "challenger_health": 82,
-  "incumbent_setup_score": 52,
-  "challenger_setup_score": 21
+  "challenger_setup_score": 27
 }
 ```
 
@@ -937,8 +835,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (8/8)
-- 34.84x the stars (13,691 vs 393)
-- 19.00x the star velocity (7.6/day vs 0.4/day)
+- 34.66x the stars (13,692 vs 395)
+- 11.33x the star velocity (6.8/day vs 0.6/day)
 - no harder to set up (21 vs 30 friction)
 
 Evidence:
@@ -985,8 +883,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (4/4)
-- 11.19x the stars (4,812 vs 430)
-- 14.00x the star velocity (11.2/day vs 0.8/day)
+- 11.19x the stars (4,824 vs 431)
+- 18.67x the star velocity (11.2/day vs 0.6/day)
 - no harder to set up (24 vs 25 friction)
 
 Evidence:
@@ -1028,8 +926,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (8/8)
-- 28.53x the stars (10,042 vs 352)
-- 97.75x the star velocity (156.4/day vs 1.6/day)
+- 29.43x the stars (10,388 vs 353)
+- 158.00x the star velocity (189.6/day vs 1.2/day)
 - no harder to set up (32 vs 75 friction)
 
 Evidence:
@@ -1070,7 +968,7 @@ Evidence:
 }
 ```
 
-### hex/claude-council → getpaseo/paseo
+### hex/claude-council → TencentCloud/Octop
 
 - **Source:** automatic (high confidence)
 - **Dominance:** 1.000
@@ -1078,9 +976,9 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (4/4)
-- 24.02x the stars (21,378 vs 890)
-- 31.82x the star velocity (108.2/day vs 3.4/day)
-- no harder to set up (24 vs 42 friction)
+- 11.62x the stars (10,388 vs 894)
+- 59.25x the star velocity (189.6/day vs 3.2/day)
+- no harder to set up (32 vs 42 friction)
 
 Evidence:
 
@@ -1091,6 +989,53 @@ Evidence:
     "cross-agent-support",
     "multi-agent-orchestration",
     "parallel-execution"
+  ],
+  "challenger_capabilities": [
+    "agent-runtime",
+    "api-gateway",
+    "billing-metering",
+    "cross-agent-support",
+    "gui-desktop",
+    "mcp-support",
+    "memory-context",
+    "mobile-access",
+    "model-routing",
+    "multi-agent-orchestration",
+    "parallel-execution",
+    "self-hosted",
+    "skills-plugins",
+    "team-collaboration",
+    "worktree-isolation"
+  ],
+  "incumbent_health": 53,
+  "challenger_health": 87,
+  "incumbent_setup_score": 42,
+  "challenger_setup_score": 32
+}
+```
+
+### jacobaraujo7/remote_pi → getpaseo/paseo
+
+- **Source:** automatic (high confidence)
+- **Dominance:** 1.000
+
+Reasons:
+
+- covers 100% of capabilities (5/5)
+- 46.33x the stars (21,495 vs 464)
+- 37.07x the star velocity (111.2/day vs 3.0/day)
+- no harder to set up (24 vs 36 friction)
+
+Evidence:
+
+```json
+{
+  "incumbent_capabilities": [
+    "agent-runtime",
+    "mobile-access",
+    "multi-agent-orchestration",
+    "remote-control",
+    "self-hosted"
   ],
   "challenger_capabilities": [
     "agent-runtime",
@@ -1106,9 +1051,9 @@ Evidence:
     "voice-input",
     "worktree-isolation"
   ],
-  "incumbent_health": 52,
-  "challenger_health": 84,
-  "incumbent_setup_score": 42,
+  "incumbent_health": 51,
+  "challenger_health": 85,
+  "incumbent_setup_score": 36,
   "challenger_setup_score": 24
 }
 ```
@@ -1121,8 +1066,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (8/8)
-- 1181.56x the stars (283,575 vs 240)
-- 18944.00x the star velocity (947.2/day vs 0.0/day)
+- 1184.91x the stars (284,378 vs 240)
+- 18448.00x the star velocity (922.4/day vs 0.0/day)
 - no harder to set up (57 vs 69 friction)
 
 Evidence:
@@ -1164,97 +1109,6 @@ Evidence:
 }
 ```
 
-### jtydhr88/comfyui-custom-node-skills → abubakarsiddik31/claude-skills-collection
-
-- **Source:** automatic (high confidence)
-- **Dominance:** 1.000
-
-Reasons:
-
-- covers 100% of capabilities (4/4)
-- 3.69x the stars (1,103 vs 299)
-- 6.00x the star velocity (1.2/day vs 0.2/day)
-- no harder to set up (46 vs 50 friction)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "cross-agent-support",
-    "gui-desktop",
-    "multi-agent-orchestration",
-    "skills-plugins"
-  ],
-  "challenger_capabilities": [
-    "agent-runtime",
-    "billing-metering",
-    "cross-agent-support",
-    "gui-desktop",
-    "mcp-support",
-    "memory-context",
-    "mobile-access",
-    "multi-agent-orchestration",
-    "notifications",
-    "skills-plugins",
-    "worktree-isolation"
-  ],
-  "incumbent_health": 45,
-  "challenger_health": 50,
-  "incumbent_setup_score": 50,
-  "challenger_setup_score": 46
-}
-```
-
-### kerim0x1/bettercode → msitarzewski/agency-agents
-
-- **Source:** automatic (high confidence)
-- **Dominance:** 1.000
-
-Reasons:
-
-- covers 100% of capabilities (6/6)
-- 586.89x the stars (161,395 vs 275)
-- 1421.00x the star velocity (284.2/day vs 0.2/day)
-- no harder to set up (1 vs 24 friction)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "agent-runtime",
-    "billing-metering",
-    "cross-agent-support",
-    "gui-desktop",
-    "mobile-access",
-    "team-collaboration"
-  ],
-  "challenger_capabilities": [
-    "agent-runtime",
-    "api-gateway",
-    "auto-failover",
-    "billing-metering",
-    "cross-agent-support",
-    "gui-desktop",
-    "mcp-support",
-    "memory-context",
-    "mobile-access",
-    "multi-account-switching",
-    "multi-agent-orchestration",
-    "notifications",
-    "parallel-execution",
-    "security-isolation",
-    "team-collaboration",
-    "voice-input"
-  ],
-  "incumbent_health": 54,
-  "challenger_health": 98,
-  "incumbent_setup_score": 24,
-  "challenger_setup_score": 1
-}
-```
-
 ### lanes-sh/app → iOfficeAI/AionUi
 
 - **Source:** automatic (high confidence)
@@ -1263,8 +1117,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (7/7)
-- 122.74x the stars (33,631 vs 274)
-- 476.00x the star velocity (23.8/day vs 0.0/day)
+- 122.39x the stars (33,656 vs 275)
+- 111.00x the star velocity (22.2/day vs 0.2/day)
 - no harder to set up (2 vs 12 friction)
 
 Evidence:
@@ -1309,8 +1163,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (7/7)
-- 16.37x the stars (146,171 vs 8,931)
-- 13.38x the star velocity (420.2/day vs 31.4/day)
+- 16.37x the stars (146,625 vs 8,958)
+- 15.28x the star velocity (415.6/day vs 27.2/day)
 - no harder to set up (23 vs 49 friction)
 
 Evidence:
@@ -1341,10 +1195,55 @@ Evidence:
     "skills-plugins",
     "usage-analytics"
   ],
-  "incumbent_health": 66,
+  "incumbent_health": 65,
   "challenger_health": 93,
   "incumbent_setup_score": 49,
   "challenger_setup_score": 23
+}
+```
+
+### mcpware/cross-code-organizer → genspark-ai/genoffice
+
+- **Source:** automatic (high confidence)
+- **Dominance:** 1.000
+
+Reasons:
+
+- covers 100% of capabilities (6/6)
+- 26.37x the stars (10,098 vs 383)
+- 1516.00x the star velocity (75.8/day vs 0.0/day)
+- no harder to set up (20 vs 20 friction)
+
+Evidence:
+
+```json
+{
+  "incumbent_capabilities": [
+    "agent-runtime",
+    "cross-agent-support",
+    "gui-desktop",
+    "mcp-support",
+    "skills-plugins",
+    "usage-analytics"
+  ],
+  "challenger_capabilities": [
+    "agent-runtime",
+    "api-gateway",
+    "billing-metering",
+    "cross-agent-support",
+    "gui-desktop",
+    "mcp-support",
+    "memory-context",
+    "model-routing",
+    "parallel-execution",
+    "self-hosted",
+    "skills-plugins",
+    "usage-analytics"
+  ],
+  "incumbent_health": 54,
+  "challenger_health": 76,
+  "incumbent_setup_score": 20,
+  "challenger_setup_score": 20
 }
 ```
 
@@ -1356,8 +1255,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (6/6)
-- 443.78x the stars (283,575 vs 639)
-- 473.60x the star velocity (947.2/day vs 2.0/day)
+- 442.96x the stars (284,378 vs 642)
+- 384.33x the star velocity (922.4/day vs 2.4/day)
 - no harder to set up (57 vs 64 friction)
 
 Evidence:
@@ -1405,9 +1304,9 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (5/5)
-- 14.08x the stars (5,237 vs 372)
-- 125.08x the star velocity (78.8/day vs 0.6/day)
-- no harder to set up (35 vs 52 friction)
+- 14.26x the stars (5,303 vs 372)
+- 1704.00x the star velocity (85.2/day vs 0.0/day)
+- no harder to set up (41 vs 52 friction)
 
 Evidence:
 
@@ -1433,7 +1332,7 @@ Evidence:
   "incumbent_health": 52,
   "challenger_health": 78,
   "incumbent_setup_score": 52,
-  "challenger_setup_score": 35
+  "challenger_setup_score": 41
 }
 ```
 
@@ -1445,8 +1344,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (5/5)
-- 35.96x the stars (29,668 vs 825)
-- 5.62x the star velocity (52.8/day vs 9.4/day)
+- 35.92x the stars (29,702 vs 827)
+- 7.59x the star velocity (44.0/day vs 5.8/day)
 - no harder to set up (32 vs 45 friction)
 
 Evidence:
@@ -1478,8 +1377,8 @@ Evidence:
     "skills-plugins",
     "team-collaboration"
   ],
-  "incumbent_health": 55,
-  "challenger_health": 75,
+  "incumbent_health": 54,
+  "challenger_health": 73,
   "incumbent_setup_score": 45,
   "challenger_setup_score": 32
 }
@@ -1493,8 +1392,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (4/4)
-- 46.90x the stars (283,575 vs 6,047)
-- 135.31x the star velocity (947.2/day vs 7.0/day)
+- 47.00x the stars (284,378 vs 6,051)
+- 159.03x the star velocity (922.4/day vs 5.8/day)
 - no harder to set up (57 vs 72 friction)
 
 Evidence:
@@ -1525,7 +1424,7 @@ Evidence:
     "skills-plugins",
     "worktree-isolation"
   ],
-  "incumbent_health": 56,
+  "incumbent_health": 55,
   "challenger_health": 89,
   "incumbent_setup_score": 72,
   "challenger_setup_score": 57
@@ -1540,8 +1439,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (4/4)
-- 3.69x the stars (2,094 vs 568)
-- 6.00x the star velocity (1.2/day vs 0.2/day)
+- 3.68x the stars (2,096 vs 569)
+- 5.00x the star velocity (1.0/day vs 0.2/day)
 - no harder to set up (12 vs 25 friction)
 
 Evidence:
@@ -1581,8 +1480,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (6/6)
-- 400.53x the stars (283,575 vs 708)
-- 676.57x the star velocity (947.2/day vs 1.4/day)
+- 401.10x the stars (284,378 vs 709)
+- 576.50x the star velocity (922.4/day vs 1.6/day)
 - no harder to set up (57 vs 58 friction)
 
 Evidence:
@@ -1630,8 +1529,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (5/5)
-- 597.00x the stars (283,575 vs 475)
-- 10524.44x the star velocity (947.2/day vs 0.1/day)
+- 598.69x the stars (284,378 vs 475)
+- 18448.00x the star velocity (922.4/day vs 0.0/day)
 - no harder to set up (57 vs 78 friction)
 
 Evidence:
@@ -1678,8 +1577,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (7/7)
-- 3.64x the stars (10,042 vs 2,759)
-- 48.88x the star velocity (156.4/day vs 3.2/day)
+- 3.76x the stars (10,388 vs 2,765)
+- 52.67x the star velocity (189.6/day vs 3.6/day)
 - no harder to set up (32 vs 49 friction)
 
 Evidence:
@@ -1719,16 +1618,16 @@ Evidence:
 }
 ```
 
-### LeoYeAI/talewell → eugeniughelbur/obsidian-second-brain
+### hkcanan/katmer-code → rohitg00/pro-workflow
 
 - **Source:** automatic (medium confidence)
 - **Dominance:** 0.995
 
 Reasons:
 
-- covers 100% of capabilities (5/5)
-- 8.78x the stars (4,812 vs 548)
-- 224.00x the star velocity (11.2/day vs 0.0/day)
+- covers 100% of capabilities (6/6)
+- 6.15x the stars (2,922 vs 475)
+- 5.00x the star velocity (1.0/day vs 0.2/day)
 - slightly heavier setup (+1 friction, within tolerance)
 
 Evidence:
@@ -1736,30 +1635,32 @@ Evidence:
 ```json
 {
   "incumbent_capabilities": [
-    "agent-runtime",
     "cross-agent-support",
     "mcp-support",
-    "memory-context",
-    "skills-plugins"
+    "model-routing",
+    "multi-agent-orchestration",
+    "notifications",
+    "parallel-execution"
   ],
   "challenger_capabilities": [
     "agent-runtime",
-    "api-gateway",
-    "auto-failover",
     "cross-agent-support",
     "mcp-support",
     "memory-context",
     "model-routing",
     "multi-agent-orchestration",
     "notifications",
-    "quota-management",
+    "parallel-execution",
+    "remote-control",
     "security-isolation",
-    "skills-plugins"
+    "skills-plugins",
+    "usage-analytics",
+    "worktree-isolation"
   ],
-  "incumbent_health": 50,
-  "challenger_health": 62,
-  "incumbent_setup_score": 23,
-  "challenger_setup_score": 24
+  "incumbent_health": 46,
+  "challenger_health": 51,
+  "incumbent_setup_score": 48,
+  "challenger_setup_score": 49
 }
 ```
 
@@ -1771,8 +1672,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (8/8)
-- 7.72x the stars (10,042 vs 1,300)
-- 41.16x the star velocity (156.4/day vs 3.8/day)
+- 7.97x the stars (10,388 vs 1,304)
+- 43.09x the star velocity (189.6/day vs 4.4/day)
 - slightly heavier setup (+1 friction, within tolerance)
 
 Evidence:
@@ -1813,103 +1714,17 @@ Evidence:
 }
 ```
 
-### yetone/cumora → omnigent-ai/omnigent
+### jtydhr88/comfyui-custom-node-skills → thedivergentai/Game-Dev-Agentic-Skills
 
 - **Source:** automatic (high confidence)
-- **Dominance:** 0.978
-
-Reasons:
-
-- covers 100% of capabilities (9/9)
-- 2.73x the stars (10,896 vs 3,996)
-- 8.00x the star velocity (19.2/day vs 2.4/day)
-- no harder to set up (25 vs 33 friction)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "api-gateway",
-    "cross-agent-support",
-    "gui-desktop",
-    "mobile-access",
-    "model-routing",
-    "multi-agent-orchestration",
-    "notifications",
-    "self-hosted",
-    "team-collaboration"
-  ],
-  "challenger_capabilities": [
-    "agent-runtime",
-    "api-gateway",
-    "cross-agent-support",
-    "gui-desktop",
-    "mcp-support",
-    "mobile-access",
-    "model-routing",
-    "multi-agent-orchestration",
-    "notifications",
-    "remote-control",
-    "self-hosted",
-    "team-collaboration",
-    "worktree-isolation"
-  ],
-  "incumbent_health": 54,
-  "challenger_health": 66,
-  "incumbent_setup_score": 33,
-  "challenger_setup_score": 25
-}
-```
-
-### 0xK3vin/MegaMemory → Gentleman-Programming/engram
-
-- **Source:** automatic (medium confidence)
-- **Dominance:** 0.970
-
-Reasons:
-
-- covers 100% of capabilities (5/5)
-- 10.24x the stars (7,446 vs 727)
-- 88.67x the star velocity (53.2/day vs 0.6/day)
-- slightly heavier setup (+6 friction, within tolerance)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "mcp-support",
-    "memory-context",
-    "session-persistence"
-  ],
-  "challenger_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "mcp-support",
-    "memory-context",
-    "session-persistence"
-  ],
-  "incumbent_health": 43,
-  "challenger_health": 70,
-  "incumbent_setup_score": 28,
-  "challenger_setup_score": 34
-}
-```
-
-### josstei/maestro-orchestrate → affaan-m/ECC
-
-- **Source:** automatic (medium confidence)
-- **Dominance:** 0.970
+- **Dominance:** 0.992
 
 Reasons:
 
 - covers 100% of capabilities (4/4)
-- 584.69x the stars (283,575 vs 485)
-- 263.11x the star velocity (947.2/day vs 3.6/day)
-- slightly heavier setup (+6 friction, within tolerance)
+- 2.89x the stars (870 vs 301)
+- 5.33x the star velocity (3.2/day vs 0.6/day)
+- no harder to set up (21 vs 50 friction)
 
 Evidence:
 
@@ -1917,124 +1732,24 @@ Evidence:
 {
   "incumbent_capabilities": [
     "cross-agent-support",
-    "mcp-support",
+    "gui-desktop",
     "multi-agent-orchestration",
-    "session-persistence"
+    "skills-plugins"
   ],
   "challenger_capabilities": [
     "agent-runtime",
-    "api-gateway",
-    "auto-failover",
     "cross-agent-support",
     "gui-desktop",
     "mcp-support",
     "memory-context",
-    "model-routing",
     "multi-agent-orchestration",
-    "notifications",
     "parallel-execution",
-    "security-isolation",
-    "self-hosted",
-    "session-persistence",
-    "skills-plugins",
-    "worktree-isolation"
+    "skills-plugins"
   ],
-  "incumbent_health": 51,
-  "challenger_health": 89,
-  "incumbent_setup_score": 51,
-  "challenger_setup_score": 57
-}
-```
-
-### Draculabo/AntigravityManager → jlcodes99/cockpit-tools
-
-- **Source:** automatic (high confidence)
-- **Dominance:** 0.968
-
-Reasons:
-
-- covers 100% of capabilities (8/8)
-- 7.99x the stars (19,098 vs 2,390)
-- 3.86x the star velocity (28.6/day vs 7.4/day)
-- no harder to set up (26 vs 57 friction)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "api-gateway",
-    "auto-failover",
-    "cross-agent-support",
-    "gui-desktop",
-    "model-routing",
-    "multi-account-switching",
-    "notifications",
-    "quota-management"
-  ],
-  "challenger_capabilities": [
-    "api-gateway",
-    "auto-failover",
-    "billing-metering",
-    "cross-agent-support",
-    "gui-desktop",
-    "model-routing",
-    "multi-account-switching",
-    "multi-agent-orchestration",
-    "notifications",
-    "parallel-execution",
-    "provider-aggregation",
-    "quota-management",
-    "security-isolation"
-  ],
-  "incumbent_health": 55,
-  "challenger_health": 68,
-  "incumbent_setup_score": 57,
-  "challenger_setup_score": 26
-}
-```
-
-### michaelshimeles/skills → iOfficeAI/AionUi
-
-- **Source:** automatic (high confidence)
-- **Dominance:** 0.967
-
-Reasons:
-
-- covers 100% of capabilities (5/5)
-- 24.91x the stars (33,631 vs 1,350)
-- 3.84x the star velocity (23.8/day vs 6.2/day)
-- no harder to set up (2 vs 22 friction)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "multi-agent-orchestration",
-    "skills-plugins",
-    "worktree-isolation"
-  ],
-  "challenger_capabilities": [
-    "agent-runtime",
-    "api-gateway",
-    "cross-agent-support",
-    "gui-desktop",
-    "mcp-support",
-    "multi-agent-orchestration",
-    "notifications",
-    "parallel-execution",
-    "remote-control",
-    "skills-plugins",
-    "team-collaboration",
-    "worktree-isolation"
-  ],
-  "incumbent_health": 56,
-  "challenger_health": 72,
-  "incumbent_setup_score": 22,
-  "challenger_setup_score": 2
+  "incumbent_health": 45,
+  "challenger_health": 58,
+  "incumbent_setup_score": 50,
+  "challenger_setup_score": 21
 }
 ```
 
@@ -2046,8 +1761,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (4/4)
-- 46.58x the stars (283,575 vs 6,088)
-- 6.04x the star velocity (947.2/day vs 156.8/day)
+- 45.84x the stars (284,378 vs 6,204)
+- 7.88x the star velocity (922.4/day vs 117.0/day)
 - slightly heavier setup (+7 friction, within tolerance)
 
 Evidence:
@@ -2085,6 +1800,54 @@ Evidence:
 }
 ```
 
+### Draculabo/AntigravityManager → jlcodes99/cockpit-tools
+
+- **Source:** automatic (high confidence)
+- **Dominance:** 0.960
+
+Reasons:
+
+- covers 100% of capabilities (8/8)
+- 8.00x the stars (19,136 vs 2,393)
+- 3.63x the star velocity (26.8/day vs 7.4/day)
+- no harder to set up (32 vs 57 friction)
+
+Evidence:
+
+```json
+{
+  "incumbent_capabilities": [
+    "api-gateway",
+    "auto-failover",
+    "cross-agent-support",
+    "gui-desktop",
+    "model-routing",
+    "multi-account-switching",
+    "notifications",
+    "quota-management"
+  ],
+  "challenger_capabilities": [
+    "api-gateway",
+    "auto-failover",
+    "billing-metering",
+    "cross-agent-support",
+    "gui-desktop",
+    "model-routing",
+    "multi-account-switching",
+    "multi-agent-orchestration",
+    "notifications",
+    "parallel-execution",
+    "provider-aggregation",
+    "quota-management",
+    "security-isolation"
+  ],
+  "incumbent_health": 55,
+  "challenger_health": 67,
+  "incumbent_setup_score": 57,
+  "challenger_setup_score": 32
+}
+```
+
 ### nekocode/agent-worktree → asheshgoplani/agent-deck
 
 - **Source:** automatic (medium confidence)
@@ -2093,8 +1856,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (6/6)
-- 3.99x the stars (1,117 vs 280)
-- 148.00x the star velocity (7.4/day vs 0.0/day)
+- 4.03x the stars (1,127 vs 280)
+- 168.00x the star velocity (8.4/day vs 0.0/day)
 - slightly heavier setup (+8 friction, within tolerance)
 
 Evidence:
@@ -2142,8 +1905,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (5/5)
-- 10.44x the stars (4,812 vs 461)
-- 56.00x the star velocity (11.2/day vs 0.2/day)
+- 10.42x the stars (4,824 vs 463)
+- 28.00x the star velocity (11.2/day vs 0.4/day)
 - slightly heavier setup (+8 friction, within tolerance)
 
 Evidence:
@@ -2186,8 +1949,8 @@ Evidence:
 Reasons:
 
 - covers 100% of capabilities (12/12)
-- 671.98x the stars (283,575 vs 422)
-- 2368.00x the star velocity (947.2/day vs 0.4/day)
+- 673.88x the stars (284,378 vs 422)
+- 4612.00x the star velocity (922.4/day vs 0.2/day)
 - slightly heavier setup (+9 friction, within tolerance)
 
 Evidence:
@@ -2233,16 +1996,198 @@ Evidence:
 }
 ```
 
+### giuseppe-trisciuoglio/developer-kit → thedivergentai/Game-Dev-Agentic-Skills
+
+- **Source:** automatic (high confidence)
+- **Dominance:** 0.951
+
+Reasons:
+
+- covers 100% of capabilities (5/5)
+- 2.42x the stars (870 vs 360)
+- 16.00x the star velocity (3.2/day vs 0.2/day)
+- no harder to set up (21 vs 66 friction)
+
+Evidence:
+
+```json
+{
+  "incumbent_capabilities": [
+    "agent-runtime",
+    "cross-agent-support",
+    "memory-context",
+    "multi-agent-orchestration",
+    "skills-plugins"
+  ],
+  "challenger_capabilities": [
+    "agent-runtime",
+    "cross-agent-support",
+    "gui-desktop",
+    "mcp-support",
+    "memory-context",
+    "multi-agent-orchestration",
+    "parallel-execution",
+    "skills-plugins"
+  ],
+  "incumbent_health": 43,
+  "challenger_health": 58,
+  "incumbent_setup_score": 66,
+  "challenger_setup_score": 21
+}
+```
+
+### michaelshimeles/skills → TencentCloud/Octop
+
+- **Source:** automatic (medium confidence)
+- **Dominance:** 0.950
+
+Reasons:
+
+- covers 100% of capabilities (5/5)
+- 7.65x the stars (10,388 vs 1,358)
+- 25.62x the star velocity (189.6/day vs 7.4/day)
+- slightly heavier setup (+10 friction, within tolerance)
+
+Evidence:
+
+```json
+{
+  "incumbent_capabilities": [
+    "agent-runtime",
+    "cross-agent-support",
+    "multi-agent-orchestration",
+    "skills-plugins",
+    "worktree-isolation"
+  ],
+  "challenger_capabilities": [
+    "agent-runtime",
+    "api-gateway",
+    "billing-metering",
+    "cross-agent-support",
+    "gui-desktop",
+    "mcp-support",
+    "memory-context",
+    "mobile-access",
+    "model-routing",
+    "multi-agent-orchestration",
+    "parallel-execution",
+    "self-hosted",
+    "skills-plugins",
+    "team-collaboration",
+    "worktree-isolation"
+  ],
+  "incumbent_health": 56,
+  "challenger_health": 87,
+  "incumbent_setup_score": 22,
+  "challenger_setup_score": 32
+}
+```
+
+### AI-QL/tuui → rohitg00/agentmemory
+
+- **Source:** automatic (medium confidence)
+- **Dominance:** 0.945
+
+Reasons:
+
+- covers 100% of capabilities (4/4)
+- 25.63x the stars (29,702 vs 1,159)
+- 110.00x the star velocity (44.0/day vs 0.4/day)
+- slightly heavier setup (+11 friction, within tolerance)
+
+Evidence:
+
+```json
+{
+  "incumbent_capabilities": [
+    "gui-desktop",
+    "mcp-support",
+    "multi-agent-orchestration",
+    "self-hosted"
+  ],
+  "challenger_capabilities": [
+    "agent-runtime",
+    "api-gateway",
+    "auto-failover",
+    "billing-metering",
+    "cross-agent-support",
+    "gui-desktop",
+    "mcp-support",
+    "memory-context",
+    "model-routing",
+    "multi-agent-orchestration",
+    "notifications",
+    "quota-management",
+    "security-isolation",
+    "self-hosted",
+    "skills-plugins",
+    "team-collaboration"
+  ],
+  "incumbent_health": 47,
+  "challenger_health": 73,
+  "incumbent_setup_score": 21,
+  "challenger_setup_score": 32
+}
+```
+
+### Dataojitori/nocturne_memory → spinabot/brigade
+
+- **Source:** automatic (high confidence)
+- **Dominance:** 0.937
+
+Reasons:
+
+- covers 100% of capabilities (7/7)
+- 8.12x the stars (11,349 vs 1,398)
+- 3.00x the star velocity (3.6/day vs 1.2/day)
+- no harder to set up (39 vs 60 friction)
+
+Evidence:
+
+```json
+{
+  "incumbent_capabilities": [
+    "cross-agent-support",
+    "mcp-support",
+    "memory-context",
+    "notifications",
+    "remote-control",
+    "session-persistence",
+    "worktree-isolation"
+  ],
+  "challenger_capabilities": [
+    "api-gateway",
+    "billing-metering",
+    "cross-agent-support",
+    "mcp-support",
+    "memory-context",
+    "model-routing",
+    "multi-account-switching",
+    "multi-agent-orchestration",
+    "notifications",
+    "remote-control",
+    "self-hosted",
+    "session-persistence",
+    "skills-plugins",
+    "worktree-isolation"
+  ],
+  "incumbent_health": 52,
+  "challenger_health": 61,
+  "incumbent_setup_score": 60,
+  "challenger_setup_score": 39
+}
+```
+
 ### eugeniughelbur/obsidian-second-brain → rohitg00/agentmemory
 
 - **Source:** automatic (medium confidence)
-- **Dominance:** 0.953
+- **Dominance:** 0.930
 
 Reasons:
 
 - covers 100% of capabilities (12/12)
-- 6.17x the stars (29,668 vs 4,812)
-- 4.71x the star velocity (52.8/day vs 11.2/day)
+- 6.16x the stars (29,702 vs 4,824)
+- 3.93x the star velocity (44.0/day vs 11.2/day)
 - slightly heavier setup (+8 friction, within tolerance)
 
 Evidence:
@@ -2282,156 +2227,61 @@ Evidence:
     "team-collaboration"
   ],
   "incumbent_health": 62,
-  "challenger_health": 75,
+  "challenger_health": 73,
   "incumbent_setup_score": 24,
   "challenger_setup_score": 32
 }
 ```
 
-### giuseppe-trisciuoglio/developer-kit → thedivergentai/Game-Dev-Agentic-Skills
-
-- **Source:** automatic (high confidence)
-- **Dominance:** 0.951
-
-Reasons:
-
-- covers 100% of capabilities (5/5)
-- 2.41x the stars (869 vs 360)
-- 9.50x the star velocity (3.8/day vs 0.4/day)
-- no harder to set up (21 vs 66 friction)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "memory-context",
-    "multi-agent-orchestration",
-    "skills-plugins"
-  ],
-  "challenger_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "gui-desktop",
-    "mcp-support",
-    "memory-context",
-    "multi-agent-orchestration",
-    "parallel-execution",
-    "skills-plugins"
-  ],
-  "incumbent_health": 44,
-  "challenger_health": 58,
-  "incumbent_setup_score": 66,
-  "challenger_setup_score": 21
-}
-```
-
-### AI-QL/tuui → rohitg00/agentmemory
+### managedcode/dotnet-skills → data-goblin/power-bi-agentic-development
 
 - **Source:** automatic (medium confidence)
-- **Dominance:** 0.945
+- **Dominance:** 0.838
 
 Reasons:
 
-- covers 100% of capabilities (4/4)
-- 25.60x the stars (29,668 vs 1,159)
-- 132.00x the star velocity (52.8/day vs 0.4/day)
-- slightly heavier setup (+11 friction, within tolerance)
+- covers 100% of capabilities (6/6)
+- 2.16x the stars (1,060 vs 490)
+- 4.00x the star velocity (2.4/day vs 0.6/day)
+- slightly heavier setup (+12 friction, within tolerance)
 
 Evidence:
 
 ```json
 {
   "incumbent_capabilities": [
-    "gui-desktop",
-    "mcp-support",
-    "multi-agent-orchestration",
-    "self-hosted"
-  ],
-  "challenger_capabilities": [
     "agent-runtime",
-    "api-gateway",
     "auto-failover",
-    "billing-metering",
     "cross-agent-support",
-    "gui-desktop",
     "mcp-support",
-    "memory-context",
-    "model-routing",
     "multi-agent-orchestration",
-    "notifications",
-    "quota-management",
-    "security-isolation",
-    "self-hosted",
-    "skills-plugins",
-    "team-collaboration"
-  ],
-  "incumbent_health": 47,
-  "challenger_health": 75,
-  "incumbent_setup_score": 21,
-  "challenger_setup_score": 32
-}
-```
-
-### gotalab/cc-sdd → TencentCloud/Octop
-
-- **Source:** automatic (medium confidence)
-- **Dominance:** 0.941
-
-Reasons:
-
-- covers 100% of capabilities (5/5)
-- 2.70x the stars (10,042 vs 3,722)
-- 78.20x the star velocity (156.4/day vs 2.0/day)
-- slightly heavier setup (+7 friction, within tolerance)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "multi-agent-orchestration",
-    "skills-plugins",
-    "team-collaboration"
+    "skills-plugins"
   ],
   "challenger_capabilities": [
     "agent-runtime",
-    "api-gateway",
-    "billing-metering",
+    "auto-failover",
     "cross-agent-support",
-    "gui-desktop",
     "mcp-support",
-    "memory-context",
-    "mobile-access",
-    "model-routing",
     "multi-agent-orchestration",
-    "parallel-execution",
-    "self-hosted",
-    "skills-plugins",
-    "team-collaboration",
-    "worktree-isolation"
+    "skills-plugins"
   ],
-  "incumbent_health": 59,
-  "challenger_health": 87,
-  "incumbent_setup_score": 25,
-  "challenger_setup_score": 32
+  "incumbent_health": 56,
+  "challenger_health": 57,
+  "incumbent_setup_score": 22,
+  "challenger_setup_score": 34
 }
 ```
 
 ### WenyuChiou/ai-research-skills → thedivergentai/Game-Dev-Agentic-Skills
 
 - **Source:** automatic (high confidence)
-- **Dominance:** 0.876
+- **Dominance:** 0.835
 
 Reasons:
 
 - covers 100% of capabilities (5/5)
-- 2.23x the stars (869 vs 389)
-- 3.17x the star velocity (3.8/day vs 1.2/day)
+- 2.23x the stars (870 vs 391)
+- 2.29x the star velocity (3.2/day vs 1.4/day)
 - no harder to set up (21 vs 22 friction)
 
 Evidence:
@@ -2462,42 +2312,42 @@ Evidence:
 }
 ```
 
-### managedcode/dotnet-skills → data-goblin/power-bi-agentic-development
+### josstei/maestro-orchestrate → hoangsonww/Claude-Code-Agent-Monitor
 
-- **Source:** automatic (medium confidence)
-- **Dominance:** 0.838
+- **Source:** automatic (high confidence)
+- **Dominance:** 0.828
 
 Reasons:
 
-- covers 100% of capabilities (6/6)
-- 2.16x the stars (1,059 vs 490)
-- 4.00x the star velocity (3.2/day vs 0.8/day)
-- slightly heavier setup (+12 friction, within tolerance)
+- covers 100% of capabilities (4/4)
+- 2.26x the stars (1,099 vs 486)
+- 2.10x the star velocity (4.2/day vs 2.0/day)
+- no harder to set up (30 vs 51 friction)
 
 Evidence:
 
 ```json
 {
   "incumbent_capabilities": [
-    "agent-runtime",
-    "auto-failover",
     "cross-agent-support",
     "mcp-support",
     "multi-agent-orchestration",
-    "skills-plugins"
+    "session-persistence"
   ],
   "challenger_capabilities": [
     "agent-runtime",
-    "auto-failover",
     "cross-agent-support",
+    "gui-desktop",
     "mcp-support",
     "multi-agent-orchestration",
+    "notifications",
+    "session-persistence",
     "skills-plugins"
   ],
-  "incumbent_health": 56,
-  "challenger_health": 57,
-  "incumbent_setup_score": 22,
-  "challenger_setup_score": 34
+  "incumbent_health": 51,
+  "challenger_health": 55,
+  "incumbent_setup_score": 51,
+  "challenger_setup_score": 30
 }
 ```
 
@@ -2510,7 +2360,7 @@ Reasons:
 
 - covers 100% of capabilities (4/4)
 - 1.55x the stars (782 vs 503)
-- 6.00x the star velocity (1.2/day vs 0.2/day)
+- 12.00x the star velocity (0.6/day vs 0.0/day)
 - slightly heavier setup (+10 friction, within tolerance)
 
 Evidence:
@@ -2545,16 +2395,56 @@ Evidence:
 }
 ```
 
+### Archive228/loopkit → thedivergentai/Game-Dev-Agentic-Skills
+
+- **Source:** automatic (medium confidence)
+- **Dominance:** 0.772
+
+Reasons:
+
+- covers 100% of capabilities (5/5)
+- 1.15x the stars (870 vs 755)
+- 64.00x the star velocity (3.2/day vs 0.0/day)
+- slightly heavier setup (+2 friction, within tolerance)
+
+Evidence:
+
+```json
+{
+  "incumbent_capabilities": [
+    "agent-runtime",
+    "cross-agent-support",
+    "mcp-support",
+    "multi-agent-orchestration",
+    "skills-plugins"
+  ],
+  "challenger_capabilities": [
+    "agent-runtime",
+    "cross-agent-support",
+    "gui-desktop",
+    "mcp-support",
+    "memory-context",
+    "multi-agent-orchestration",
+    "parallel-execution",
+    "skills-plugins"
+  ],
+  "incumbent_health": 45,
+  "challenger_health": 58,
+  "incumbent_setup_score": 19,
+  "challenger_setup_score": 21
+}
+```
+
 ### pax-beehive/paxm → Lyellr88/marm-memory
 
 - **Source:** automatic (medium confidence)
-- **Dominance:** 0.799
+- **Dominance:** 0.772
 
 Reasons:
 
 - covers 100% of capabilities (7/7)
 - 1.48x the stars (422 vs 285)
-- 8.00x the star velocity (0.4/day vs 0.0/day)
+- 4.00x the star velocity (0.2/day vs 0.0/day)
 - slightly heavier setup (+8 friction, within tolerance)
 
 Evidence:
@@ -2588,46 +2478,6 @@ Evidence:
   "challenger_health": 54,
   "incumbent_setup_score": 40,
   "challenger_setup_score": 48
-}
-```
-
-### Archive228/loopkit → thedivergentai/Game-Dev-Agentic-Skills
-
-- **Source:** automatic (medium confidence)
-- **Dominance:** 0.772
-
-Reasons:
-
-- covers 100% of capabilities (5/5)
-- 1.15x the stars (869 vs 755)
-- 76.00x the star velocity (3.8/day vs 0.0/day)
-- slightly heavier setup (+2 friction, within tolerance)
-
-Evidence:
-
-```json
-{
-  "incumbent_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "mcp-support",
-    "multi-agent-orchestration",
-    "skills-plugins"
-  ],
-  "challenger_capabilities": [
-    "agent-runtime",
-    "cross-agent-support",
-    "gui-desktop",
-    "mcp-support",
-    "memory-context",
-    "multi-agent-orchestration",
-    "parallel-execution",
-    "skills-plugins"
-  ],
-  "incumbent_health": 45,
-  "challenger_health": 58,
-  "incumbent_setup_score": 19,
-  "challenger_setup_score": 21
 }
 ```
 
@@ -2689,7 +2539,7 @@ Reasons:
 
 - covers 100% of capabilities (6/6)
 - 1.27x the stars (782 vs 614)
-- 3.00x the star velocity (1.2/day vs 0.4/day)
+- 3.00x the star velocity (0.6/day vs 0.2/day)
 - no harder to set up (55 vs 63 friction)
 
 Evidence:

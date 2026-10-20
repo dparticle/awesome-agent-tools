@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-05-05 |
-| Last push | 2026-06-25 (115 days ago) |
+| Last push | 2026-06-25 (116 days ago) |
 | Analyzed README | 5,843 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** — Superseded by maxritter/pilot-shell: covers 100% of capabilities (6/6).

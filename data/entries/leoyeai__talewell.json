@@ -6,7 +6,7 @@
   "url": "https://github.com/LeoYeAI/talewell",
   "description": "Plugin-first long-term memory for agent platforms — reference implementation of AMP (Agent Memory Protocol).",
   "homepage": "https://myclaw.ai",
-  "stars": 548,
+  "stars": 549,
   "forks": 28,
   "open_issues": 0,
   "language": "JavaScript",
@@ -21,26 +21,26 @@
     "openclaw"
   ],
   "created_at": "2026-03-28T06:38:18Z",
-  "updated_at": "2026-10-10T02:28:57Z",
+  "updated_at": "2026-10-19T16:35:56Z",
   "pushed_at": "2026-10-01T16:15:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 205,
-  "days_since_push": 17,
+  "age_days": 206,
+  "days_since_push": 18,
   "health_score": 50,
   "health_components": {
     "popularity": 54.8,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 36.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 2.67,
     "basis": "history",
     "is_fast_riser": false
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:39+00:00",
+  "fetched_at": "2026-10-20T09:28:39+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -140,18 +140,18 @@
   "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "genspark-ai/genoffice",
     "challenger": "",
     "supersede": {
       "incumbent": "leoyeai/talewell",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "challenger": "genspark-ai/genoffice",
       "incumbent_name": "LeoYeAI/talewell",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "challenger_name": "genspark-ai/genoffice",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +160,15 @@
         "memory-context",
         "skills-plugins"
       ],
-      "star_ratio": 8.781,
-      "momentum_ratio": 224.0,
-      "setup_delta": 1,
-      "dominance": 0.995,
+      "star_ratio": 18.393,
+      "momentum_ratio": 379.0,
+      "setup_delta": -3,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "8.78x the stars (4,812 vs 548)",
-        "224.00x the star velocity (11.2/day vs 0.0/day)",
-        "slightly heavier setup (+1 friction, within tolerance)"
+        "18.39x the stars (10,098 vs 549)",
+        "379.00x the star velocity (75.8/day vs 0.2/day)",
+        "no harder to set up (20 vs 23 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -182,21 +182,21 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
+          "billing-metering",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "skills-plugins"
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics"
         ],
         "incumbent_health": 50,
-        "challenger_health": 62,
+        "challenger_health": 76,
         "incumbent_setup_score": 23,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 20
       }
     }
   }

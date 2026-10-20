@@ -6,7 +6,7 @@
   "url": "https://github.com/sv3nbeast/agent-manager-lite",
   "description": "macOS 上的 Codex、Claude Code CLI 与 Claude Desktop 多实例管理器，统一管理账号、供应商密钥、独立配置、会话与代理。 / A macOS manager for Codex, Claude Code CLI and Claude Desktop instances, accounts, provider keys, isolated configs, sessions and proxies.",
   "homepage": "",
-  "stars": 311,
+  "stars": 377,
   "forks": 10,
   "open_issues": 0,
   "language": "TypeScript",
@@ -21,33 +21,33 @@
     "vue"
   ],
   "created_at": "2026-10-04T05:59:16Z",
-  "updated_at": "2026-10-19T09:36:26Z",
-  "pushed_at": "2026-10-19T07:16:42Z",
+  "updated_at": "2026-10-20T09:11:33Z",
+  "pushed_at": "2026-10-20T08:05:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 15,
+  "age_days": 16,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 57,
   "health_components": {
-    "popularity": 49.9,
-    "momentum": 17.3,
+    "popularity": 51.5,
+    "momentum": 19.6,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 311,
-    "days_span": 15,
-    "stars_per_day": 20.73,
-    "lifetime_stars_per_day": 20.73,
+    "stars_gained": 377,
+    "days_span": 16,
+    "stars_per_day": 23.56,
+    "lifetime_stars_per_day": 23.56,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sv3nbeast/agent-manager-lite",
-    "readme_chars": 9349,
+    "readme_chars": 9829,
     "capabilities": [
       "multi-account-switching",
       "worktree-isolation",
@@ -62,7 +62,7 @@
     ],
     "capability_evidence": {
       "multi-account-switching": "Desktop 可在客户端内登录，也可选择 API / 第三方连接进入原生 Code / Cowork。",
-      "worktree-isolation": "e / Cowork；Claude.ai 浏览器登录仍使用客户端内登录方式。",
+      "worktree-isolation": "",
       "provider-aggregation": "",
       "api-gateway": "e CLI 实例可使用管理器刷新后的订阅访问凭据；刷新令牌留在管理器安全存储，不写入实例。",
       "billing-metering": "CLI 实例时，自动补齐本机 ~/.codex/skills 中的个人技能入口，已有实例和会话副本同样适用。",
@@ -140,7 +140,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.604
+      "external_link_ratio": 1.526
     },
     "highlights": [
       "本地 API：为 Codex 连接提供多账号、调度策略及独立访问密钥，支持模型范围和 Token 上限控制。",
@@ -157,7 +157,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:55+00:00",
+  "fetched_at": "2026-10-20T09:28:55+00:00",
   "categories": [
     "billing",
     "desktop-ui-2",

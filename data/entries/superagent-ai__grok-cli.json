@@ -7,7 +7,7 @@
   "description": "An open-source coding agent for the Grok API",
   "homepage": "",
   "stars": 3497,
-  "forks": 442,
+  "forks": 444,
   "open_issues": 35,
   "language": "TypeScript",
   "license": "MIT",
@@ -26,22 +26,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 462,
-  "days_since_push": 104,
+  "age_days": 463,
+  "days_since_push": 105,
   "health_score": 51,
   "health_components": {
     "popularity": 70.9,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 57.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 7.57,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 7.55,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,13 +144,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:17+00:00",
+  "fetched_at": "2026-10-20T09:28:09+00:00",
   "categories": [
     "mobile-remote-control",
-    "remote-control-isolation",
+    "sessions",
     "voice-remote-control"
   ],
-  "primary_category": "voice-remote-control",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

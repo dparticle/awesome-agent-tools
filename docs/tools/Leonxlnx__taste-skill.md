@@ -2,7 +2,7 @@
 
 # Leonxlnx/taste-skill
 
-> Taste Skill is a set of Agent Skills that make coding agents design websites instead of assembling the average landing page.
+> Taste Skill is an Agent Skill that makes coding agents design websites and app screens instead of assembling the average landing page.
 
 [Repository](https://github.com/Leonxlnx/taste-skill) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,27 +12,25 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 99,073 |
-| Star velocity | 651.2/day (history basis, 5d span) |
-| Health score | 87/100 |
-| Documentation | 41/100 |
+| Stars | 99,588 |
+| Star velocity | 553.6/day (history basis, 5d span) |
+| Health score | 86/100 |
+| Documentation | 33/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-02-19 |
 | Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 18,359 chars from `raw:HEAD/README.md` |
+| Analyzed README | 10,127 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
 
-> age-generation skills (imagegen-frontend-web, imagegen-frontend-mobile, brandkit, image-to-code) now live in their own repo: **Leonxlnx/imagegen-skills**.
-
 ### Agent runtime
 
-> ts for creative interfaces
+> t components for creative interfaces
 
 ### Cross-agent support
 
@@ -53,12 +51,11 @@
 
 ## Documentation quality
 
-Score **41/100**, based on these detected signals:
+Score **33/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - documents installation
-- has troubleshooting/FAQ
 - mentions licensing
 - documents changes
 
@@ -66,10 +63,10 @@ Score **41/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 99.9 |
+| popularity | 100.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 41.0 |
+| documentation | 33.0 |
 | accessibility | 72.0 |
 
 ---

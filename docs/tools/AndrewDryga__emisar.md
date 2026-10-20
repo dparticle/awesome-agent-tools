@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | Elixir |
 | Created | 2026-05-19 |
-| Last push | 2026-10-19 (0 days ago) |
+| Last push | 2026-10-20 (0 days ago) |
 | Analyzed README | 10,173 chars from `raw:HEAD/README.md` |
 
 ## What it solves

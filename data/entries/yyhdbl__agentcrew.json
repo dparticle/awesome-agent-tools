@@ -25,13 +25,13 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 296,
-  "days_since_push": 7,
-  "health_score": 49,
+  "age_days": 297,
+  "days_since_push": 8,
+  "health_score": 47,
   "health_components": {
     "popularity": 48.0,
     "momentum": 0.2,
-    "maintenance": 100.0,
+    "maintenance": 92.0,
     "documentation": 45.0,
     "accessibility": 69.0
   },
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:57:02+00:00",
+  "fetched_at": "2026-10-20T09:29:09+00:00",
   "categories": [
     "desktop-ui-2",
     "security",

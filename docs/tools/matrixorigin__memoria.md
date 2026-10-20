@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 614 |
-| Star velocity | 0.4/day (history basis, 5d span) |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 68/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-09 |
-| Last push | 2026-10-19 (0 days ago) |
+| Last push | 2026-10-20 (0 days ago) |
 | Analyzed README | 20,929 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** — Superseded by kitfunso/hippo-memory: covers 100% of capabilities (6/6).
@@ -83,7 +83,7 @@ Score **68/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.8 |
-| momentum | 0.3 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
 | documentation | 68.0 |
 | accessibility | 37.0 |

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 311 |
-| Star velocity | 20.7/day (lifetime basis, 15d span) |
-| Health score | 56/100 |
+| Stars | 377 |
+| Star velocity | 23.6/day (lifetime basis, 16d span) |
+| Health score | 57/100 |
 | Documentation | 57/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-10-04 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 9,349 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 9,829 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,8 +31,6 @@
 > Desktop 可在客户端内登录，也可选择 API / 第三方连接进入原生 Code / Cowork。
 
 ### Workspace isolation
-
-> e / Cowork；Claude.ai 浏览器登录仍使用客户端内登录方式。
 
 ### Multi-provider aggregation
 
@@ -96,8 +94,8 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 49.9 |
-| momentum | 17.3 |
+| popularity | 51.5 |
+| momentum | 19.6 |
 | maintenance | 100.0 |
 | documentation | 57.0 |
 | accessibility | 69.0 |

@@ -6,7 +6,7 @@
   "url": "https://github.com/kenryu42/cc-safety-net",
   "description": "A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to access sensitive files, before a tool call runs. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Cursor, DeepSeek Harness, Devin CLI, GitHub Copilot CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
   "homepage": "https://ccsafetynet.com",
-  "stars": 1675,
+  "stars": 1697,
   "forks": 88,
   "open_issues": 1,
   "language": "TypeScript",
@@ -34,33 +34,33 @@
     "security"
   ],
   "created_at": "2025-12-25T17:52:57Z",
-  "updated_at": "2026-10-19T09:06:01Z",
-  "pushed_at": "2026-10-19T08:41:29Z",
+  "updated_at": "2026-10-20T08:49:16Z",
+  "pushed_at": "2026-10-19T17:35:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 297,
+  "age_days": 298,
   "days_since_push": 0,
-  "health_score": 61,
+  "health_score": 62,
   "health_components": {
-    "popularity": 64.5,
-    "momentum": 8.8,
+    "popularity": 64.6,
+    "momentum": 10.7,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 100.0
   },
-  "tier": "notable",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 53,
+    "stars_gained": 64,
     "days_span": 5,
-    "stars_per_day": 10.6,
-    "lifetime_stars_per_day": 5.64,
+    "stars_per_day": 12.8,
+    "lifetime_stars_per_day": 5.69,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kenryu42/cc-safety-net",
-    "readme_chars": 8171,
+    "readme_chars": 8695,
     "capabilities": [
       "agent-runtime",
       "gui-desktop",
@@ -128,7 +128,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.713
+      "external_link_ratio": 1.955
     },
     "highlights": [
       "Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team Setup.",
@@ -145,7 +145,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:21+00:00",
+  "fetched_at": "2026-10-20T09:28:15+00:00",
   "categories": [
     "desktop-ui-2"
   ],

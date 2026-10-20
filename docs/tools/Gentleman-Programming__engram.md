@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,446 |
-| Star velocity | 53.2/day (history basis, 5d span) |
+| Stars | 7,475 |
+| Star velocity | 53.0/day (history basis, 5d span) |
 | Health score | 70/100 |
-| Documentation | 58/100 |
+| Documentation | 59/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-16 |
-| Last push | 2026-10-18 (1 days ago) |
-| Analyzed README | 24,354 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 25,657 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -57,7 +57,7 @@
 
 ## Documentation quality
 
-Score **58/100**, based on these detected signals:
+Score **59/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -74,10 +74,10 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 77.4 |
-| momentum | 44.3 |
+| popularity | 77.5 |
+| momentum | 44.2 |
 | maintenance | 100.0 |
-| documentation | 58.0 |
+| documentation | 59.0 |
 | accessibility | 66.0 |
 
 ---

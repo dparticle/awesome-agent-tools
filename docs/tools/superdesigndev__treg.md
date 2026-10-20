@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,776 |
-| Star velocity | 99.8/day (history basis, 5d span) |
-| Health score | 82/100 |
+| Stars | 5,862 |
+| Star velocity | 110.6/day (history basis, 5d span) |
+| Health score | 84/100 |
 | Documentation | 72/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Python |
 | Created | 2026-07-15 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 31,228 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 31,390 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> (secrets won't survive a restart)
+> secrets won't survive a restart)
 
 ### Model / provider routing
 
@@ -92,8 +92,8 @@ Score **72/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.2 |
-| momentum | 83.2 |
+| popularity | 75.4 |
+| momentum | 92.2 |
 | maintenance | 100.0 |
 | documentation | 72.0 |
 | accessibility | 79.0 |

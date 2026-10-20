@@ -2,7 +2,7 @@
 
 # openai/codex-security
 
-> @openai/codex-security is a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code.
+> Codex Security helps you find, investigate, and fix vulnerabilities in your code.
 
 [Repository](https://github.com/openai/codex-security) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,135 |
-| Star velocity | 7.4/day (history basis, 5d span) |
+| Stars | 11,141 |
+| Star velocity | 6.8/day (history basis, 5d span) |
 | Health score | 58/100 |
-| Documentation | 41/100 |
+| Documentation | 42/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-13 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 9,153 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 10,773 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -45,7 +45,7 @@
 
 ## Documentation quality
 
-Score **41/100**, based on these detected signals:
+Score **42/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -59,9 +59,9 @@ Score **41/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.9 |
-| momentum | 6.2 |
+| momentum | 5.7 |
 | maintenance | 100.0 |
-| documentation | 41.0 |
+| documentation | 42.0 |
 | accessibility | 63.0 |
 
 ---

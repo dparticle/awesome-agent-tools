@@ -6,9 +6,9 @@
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
   "homepage": "https://orca.dev",
-  "stars": 97366,
-  "forks": 6210,
-  "open_issues": 8576,
+  "stars": 98851,
+  "forks": 6298,
+  "open_issues": 8557,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-10-19T09:54:52Z",
-  "pushed_at": "2026-10-19T09:55:12Z",
+  "updated_at": "2026-10-20T09:26:53Z",
+  "pushed_at": "2026-10-20T09:26:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 216,
+  "age_days": 217,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
-    "popularity": 99.8,
+    "popularity": 99.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 51.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5388,
+    "stars_gained": 5981,
     "days_span": 5,
-    "stars_per_day": 1077.6,
-    "lifetime_stars_per_day": 450.77,
+    "stars_per_day": 1196.2,
+    "lifetime_stars_per_day": 455.53,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "stablyai/orca",
-    "readme_chars": 17381,
+    "readme_chars": 17389,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -162,7 +162,7 @@
       "signals": [
         "list-maintenance framing"
       ],
-      "external_link_ratio": 1.899
+      "external_link_ratio": 1.898
     },
     "highlights": [
       "Account switcher & usage tracking — See Claude and Codex usage and rate-limit resets, and hot-swap accounts without re-logging in."
@@ -176,11 +176,11 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-19T09:55:36+00:00",
+  "fetched_at": "2026-10-20T09:27:14+00:00",
   "categories": [
+    "mobile",
     "mobile-remote-control",
-    "remote-control-isolation",
-    "sharing"
+    "parallelism-isolation"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

@@ -6,9 +6,9 @@
   "url": "https://github.com/tangency-labs/solidcraft",
   "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
   "homepage": "solidcraft.io",
-  "stars": 6318,
-  "forks": 718,
-  "open_issues": 1248,
+  "stars": 7734,
+  "forks": 889,
+  "open_issues": 1523,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -23,44 +23,44 @@
     "wasm"
   ],
   "created_at": "2026-10-07T18:57:48Z",
-  "updated_at": "2026-10-19T09:55:24Z",
-  "pushed_at": "2026-10-19T09:54:43Z",
+  "updated_at": "2026-10-20T09:26:37Z",
+  "pushed_at": "2026-10-20T08:49:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 11,
+  "age_days": 12,
   "days_since_push": 0,
-  "health_score": 88,
+  "health_score": 87,
   "health_components": {
-    "popularity": 76.0,
+    "popularity": 77.8,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 69.0,
+    "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 6318,
-    "days_span": 11,
-    "stars_per_day": 574.36,
-    "lifetime_stars_per_day": 574.36,
+    "stars_gained": 7734,
+    "days_span": 12,
+    "stars_per_day": 644.5,
+    "lifetime_stars_per_day": 644.5,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tangency-labs/solidcraft",
-    "readme_chars": 24213,
+    "readme_chars": 9222,
     "capabilities": [
       "mcp-support",
       "gui-desktop"
     ],
     "capability_evidence": {
       "mcp-support": "constrain, and build solids with a parametric feature timeline.",
-      "gui-desktop": "With WinGet: winget install bherbruck.SolidCraft. - macOS: open the [disk image][macos-dmg] and drag SolidCraft into Applications (Apple silicon and Intel). - Linux: download the [AppImage][linux-appimage], allow it to…"
+      "gui-desktop": "rded with the demo script."
     },
     "capability_hits": {
-      "mcp-support": 9,
-      "gui-desktop": 18
+      "mcp-support": 7,
+      "gui-desktop": 9
     },
     "friction": {
       "level": "turnkey",
@@ -85,20 +85,18 @@
       "note_en": "Turnkey. install via winget install, native installer / package; GUI application",
       "note_zh": "开箱即用。可通过 winget install、native installer / package 安装；GUI application"
     },
-    "doc_score": 69,
+    "doc_score": 55,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
-      "has a quick-start section",
       "documents installation",
       "documents configuration",
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
       "publishes a roadmap",
-      "explains architecture",
-      "long, detailed README"
+      "explains architecture"
     ],
     "agents": [
       "Claude Code"
@@ -111,13 +109,9 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.578
+      "external_link_ratio": 0.542
     },
-    "highlights": [
-      "Parameters and configurations with unit-aware expressions (2 * width + 5 mm,",
-      "Headless CLI solidcraft-cli: run command scripts, measure (volume, area, centre of mass,",
-      "MCP server solidcraft-cli mcp: AI agents model, measure and look at parts headless or"
-    ],
+    "highlights": [],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -127,7 +121,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:55:48+00:00",
+  "fetched_at": "2026-10-20T09:27:29+00:00",
   "categories": [
     "desktop-ui-2"
   ],

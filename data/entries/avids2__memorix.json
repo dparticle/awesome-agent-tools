@@ -6,9 +6,9 @@
   "url": "https://github.com/AVIDS2/memorix",
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
-  "stars": 848,
+  "stars": 851,
   "forks": 70,
-  "open_issues": 5,
+  "open_issues": 6,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,26 +34,26 @@
     "windsurf"
   ],
   "created_at": "2026-02-14T06:53:17Z",
-  "updated_at": "2026-10-19T09:38:59Z",
-  "pushed_at": "2026-10-17T16:47:08Z",
+  "updated_at": "2026-10-20T07:51:57Z",
+  "pushed_at": "2026-10-19T15:58:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
-  "days_since_push": 1,
+  "age_days": 248,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 58.6,
-    "momentum": 1.3,
+    "momentum": 1.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 1.6,
+    "stars_per_day": 2.2,
     "lifetime_stars_per_day": 3.43,
     "basis": "history",
     "is_fast_riser": false
@@ -182,11 +182,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:33+00:00",
+  "fetched_at": "2026-10-20T09:28:30+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "self-hosting-security"
+    "self-hosting-security",
+    "sessions"
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
@@ -216,14 +216,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 334.404,
-      "momentum_ratio": 592.0,
+      "star_ratio": 334.169,
+      "momentum_ratio": 419.273,
       "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "334.40x the stars (283,575 vs 848)",
-        "592.00x the star velocity (947.2/day vs 1.6/day)",
+        "334.17x the stars (284,378 vs 851)",
+        "419.27x the star velocity (922.4/day vs 2.2/day)",
         "no harder to set up (57 vs 73 friction)"
       ],
       "reasons_zh": [],

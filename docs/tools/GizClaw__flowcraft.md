@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 416 |
-| Star velocity | 0.0/day (history basis, 11d span) |
+| Star velocity | 0.0/day (history basis, 12d span) |
 | Health score | 54/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-04-14 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 22,420 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 21,871 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

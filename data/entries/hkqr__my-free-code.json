@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 52,
-  "days_since_push": 1,
+  "age_days": 53,
+  "days_since_push": 2,
   "health_score": 49,
   "health_components": {
     "popularity": 55.9,
@@ -37,9 +37,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 7,
+    "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 12.0,
+    "lifetime_stars_per_day": 11.77,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:56:38+00:00",
+  "fetched_at": "2026-10-20T09:28:36+00:00",
   "categories": [
     "model-routing"
   ],

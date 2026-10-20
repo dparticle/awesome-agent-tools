@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 568 |
+| Stars | 569 |
 | Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 48/100 |
 | Documentation | 51/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-12 |
-| Last push | 2026-08-03 (76 days ago) |
+| Last push | 2026-08-03 (77 days ago) |
 | Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** — Superseded by maxritter/pilot-shell: covers 100% of capabilities (4/4).

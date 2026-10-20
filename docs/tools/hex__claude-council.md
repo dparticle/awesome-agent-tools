@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 890 |
-| Star velocity | 3.4/day (history basis, 5d span) |
-| Health score | 52/100 |
-| Documentation | 49/100 |
+| Stars | 894 |
+| Star velocity | 3.2/day (history basis, 5d span) |
+| Health score | 53/100 |
+| Documentation | 54/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-12-17 |
-| Last push | 2026-10-18 (0 days ago) |
-| Analyzed README | 8,352 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 9,095 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -50,13 +50,14 @@
 
 ## Documentation quality
 
-Score **49/100**, based on these detected signals:
+Score **54/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - has a quick-start section
 - documents installation
+- documents configuration
 - has troubleshooting/FAQ
 - explains architecture
 
@@ -65,9 +66,9 @@ Score **49/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 59.0 |
-| momentum | 2.8 |
+| momentum | 2.7 |
 | maintenance | 100.0 |
-| documentation | 49.0 |
+| documentation | 54.0 |
 | accessibility | 58.0 |
 
 ---

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,318 |
-| Star velocity | 574.4/day (lifetime basis, 11d span) |
-| Health score | 88/100 |
-| Documentation | 69/100 |
+| Stars | 7,734 |
+| Star velocity | 644.5/day (lifetime basis, 12d span) |
+| Health score | 87/100 |
+| Documentation | 55/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-10-07 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 24,213 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 9,222 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### GUI / desktop app
 
-> With WinGet: winget install bherbruck.SolidCraft. - macOS: open the [disk image][macos-dmg] and drag SolidCraft into Applications (Apple silicon and Intel). - Linux: download the [AppImage][linux-appimage], allow it to…
+> rded with the demo script.
 
 ## Setup reality check
 
@@ -46,12 +46,11 @@
 
 ## Documentation quality
 
-Score **69/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
-- has a quick-start section
 - documents installation
 - documents configuration
 - has contribution guidance
@@ -59,16 +58,15 @@ Score **69/100**, based on these detected signals:
 - links to dedicated docs
 - publishes a roadmap
 - explains architecture
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 76.0 |
+| popularity | 77.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 69.0 |
+| documentation | 55.0 |
 | accessibility | 100.0 |
 
 ---

@@ -4,56 +4,55 @@
   "name": "loopx",
   "owner": "loopx-project",
   "url": "https://github.com/loopx-project/loopx",
-  "description": "A control plane with a durable state kernel for long-horizon agents and teams. Keep work moving and improving across sessions, with less human attention.",
+  "description": "Local-first control plane and research workbench for long-horizon agents and teams. Durable goals, governed collaboration, and cited trajectory analysis.",
   "homepage": "https://loopx-project.github.io/loopx/",
-  "stars": 6367,
-  "forks": 606,
-  "open_issues": 169,
+  "stars": 6373,
+  "forks": 608,
+  "open_issues": 171,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
     "agent-control-plane",
     "agent-harness",
+    "agentic-software",
     "ai-agents",
     "claude-code",
     "codex",
-    "dsh-plugin",
     "local-first",
     "long-horizon-agents",
-    "loop-engineering",
     "multi-agent",
-    "personal-agent",
-    "rsi",
-    "workflow-automation"
+    "research-workbench",
+    "trajectory-analysis",
+    "typescript"
   ],
   "created_at": "2026-05-31T14:58:56Z",
-  "updated_at": "2026-10-19T09:52:05Z",
-  "pushed_at": "2026-10-19T09:52:02Z",
+  "updated_at": "2026-10-20T09:06:25Z",
+  "pushed_at": "2026-10-20T09:22:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
+  "age_days": 141,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 76.1,
-    "momentum": 12.0,
+    "momentum": 10.7,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 72,
+    "stars_gained": 64,
     "days_span": 5,
-    "stars_per_day": 14.4,
-    "lifetime_stars_per_day": 45.48,
+    "stars_per_day": 12.8,
+    "lifetime_stars_per_day": 45.2,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "loopx-project/loopx",
-    "readme_chars": 48149,
+    "readme_chars": 49731,
     "capabilities": [
       "quota-management",
       "mobile-access",
@@ -65,7 +64,7 @@
     "capability_evidence": {
       "quota-management": "",
       "mobile-access": "r Manager group conversations, LoopX keeps message visibility separate from",
-      "multi-agent-orchestration": "goals, steer work and resolve decisions.",
+      "multi-agent-orchestration": "8 mean reward — +17.3% vs Plain Codex, +10.6% vs native Codex Goal.",
       "usage-analytics": "dentials, internal project names, or goal contents:",
       "team-collaboration": "",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
@@ -128,7 +127,7 @@
       "OpenCode",
       "Cursor"
     ],
-    "summary_en": "Give your agents a goal.",
+    "summary_en": "The workbench for long-horizon research.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -138,13 +137,13 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.914
+      "external_link_ratio": 0.845
     },
     "highlights": [
       "Independent user · 7 merged PRs.",
       "continue across Codex, Claude Code, direct-model, and other registered Agent"
     ],
-    "summary_zh_native": "给 Agent 一个目标，让工作持续向前。",
+    "summary_zh_native": "",
     "highlights_zh": [
       "在 Codex、Claude Code、direct-model 等已注册 Agent 会话之间延续工作，",
       "Shared Goal Authority 与跨 Host 协作：为显式共享 goal 提供",
@@ -158,10 +157,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:55:48+00:00",
+  "fetched_at": "2026-10-20T09:27:32+00:00",
   "categories": [
     "analytics-2",
-    "teams"
+    "mobile"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

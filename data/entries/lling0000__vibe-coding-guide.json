@@ -7,7 +7,7 @@
   "description": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
   "homepage": "https://lling0000.github.io/Vibe_coding_guide/",
   "stars": 234,
-  "forks": 22,
+  "forks": 23,
   "open_issues": 4,
   "language": "JavaScript",
   "license": "MIT",
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 166,
-  "days_since_push": 115,
+  "age_days": 167,
+  "days_since_push": 116,
   "health_score": 40,
   "health_components": {
     "popularity": 47.4,
@@ -54,7 +54,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.41,
+    "lifetime_stars_per_day": 1.4,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:57:07+00:00",
+  "fetched_at": "2026-10-20T09:29:16+00:00",
   "categories": [
     "desktop-ui",
-    "remote-control-isolation",
+    "parallelism-isolation",
     "self-hosting-security"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (6/6).",
@@ -180,14 +180,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 8.949,
-      "momentum_ratio": 6.0,
+      "star_ratio": 8.957,
+      "momentum_ratio": 5.0,
       "setup_delta": -18,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "8.95x the stars (2,094 vs 234)",
-        "6.00x the star velocity (1.2/day vs 0.2/day)",
+        "8.96x the stars (2,096 vs 234)",
+        "5.00x the star velocity (1.0/day vs 0.2/day)",
         "no harder to set up (12 vs 30 friction)"
       ],
       "reasons_zh": [],

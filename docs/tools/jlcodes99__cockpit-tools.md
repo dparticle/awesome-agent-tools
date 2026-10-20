@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,098 |
-| Star velocity | 28.6/day (history basis, 5d span) |
-| Health score | 68/100 |
+| Stars | 19,136 |
+| Star velocity | 26.8/day (history basis, 5d span) |
+| Health score | 67/100 |
 | Documentation | 60/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-10-17 (1 days ago) |
-| Analyzed README | 16,010 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-19 (0 days ago) |
+| Analyzed README | 17,476 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -54,11 +54,11 @@
 
 ### API gateway / proxy
 
-> 面板切回内置 Go CLIProxyAPI sidecar。
+> 权绑定状态；有效绑定始终高亮，不受是否加入 API 服务影响，服务成员状态单独显示。
 
 ### Billing & metering
 
-> .grok/auth.json 或指定 JSON 导入官方凭据；账号页导出及通用账号备份均不含 access token/refresh token，不能用于恢复登录，迁移时需单独导入官方 auth.json
+> 优先级之间用下拉选择“官方授权 / 本地网关”，其余字段位置不变；未授权时选择官方会打开授权弹框，成功后更新草稿，取消保持原方式。
 
 ### Security & isolation
 
@@ -78,7 +78,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 26/100)
+- **Difficulty:** 🟢 Easy (friction score 32/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew tap jlcodes99/cockpit-tools https://github.com/jlcodes99/cockpit-tools`
@@ -87,7 +87,7 @@
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow, database dependency
+**Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow, sign-in required, database dependency
 
 *Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, config.json/yaml/toml; GUI application*
 
@@ -111,10 +111,10 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.6 |
-| momentum | 23.8 |
+| momentum | 22.3 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
-| accessibility | 74.0 |
+| accessibility | 68.0 |
 
 ---
 

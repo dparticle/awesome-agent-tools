@@ -2,7 +2,7 @@
 
 # xerj-org/xerj
 
-> English | 简体中文 | 日本語 | العربية | Español
+> Local-first search engine and MCP server for AI agents.
 
 [Repository](https://github.com/xerj-org/xerj) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,736 |
-| Star velocity | 78.7/day (lifetime basis, 111d span) |
-| Health score | 76/100 |
+| Stars | 10,803 |
+| Star velocity | 96.5/day (lifetime basis, 112d span) |
+| Health score | 81/100 |
 | Documentation | 67/100 |
-| Tier | ✅ Recommended |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 27,822 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 28,284 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -39,6 +39,10 @@
 > . XERJ answers under its own name, xerj-history-vote-1;
 
 ### GUI / desktop app
+
+### Cross-agent support
+
+> Mentions Claude Code, Cursor
 
 ## Setup reality check
 
@@ -76,8 +80,8 @@ Score **67/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.8 |
-| momentum | 65.6 |
+| popularity | 80.7 |
+| momentum | 80.4 |
 | maintenance | 100.0 |
 | documentation | 67.0 |
 | accessibility | 66.0 |

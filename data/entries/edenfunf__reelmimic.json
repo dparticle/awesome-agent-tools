@@ -6,9 +6,9 @@
   "url": "https://github.com/edenfunf/reelmimic",
   "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
   "homepage": "",
-  "stars": 3649,
-  "forks": 367,
-  "open_issues": 42,
+  "stars": 3669,
+  "forks": 373,
+  "open_issues": 45,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -23,33 +23,33 @@
     "video-generation"
   ],
   "created_at": "2026-09-28T19:14:59Z",
-  "updated_at": "2026-10-19T09:50:02Z",
-  "pushed_at": "2026-10-19T07:40:35Z",
+  "updated_at": "2026-10-20T09:01:38Z",
+  "pushed_at": "2026-10-19T19:36:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 20,
+  "age_days": 21,
   "days_since_push": 0,
-  "health_score": 83,
+  "health_score": 73,
   "health_components": {
-    "popularity": 71.2,
-    "momentum": 100.0,
+    "popularity": 71.3,
+    "momentum": 61.0,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 64.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 3649,
-    "days_span": 20,
-    "stars_per_day": 182.45,
-    "lifetime_stars_per_day": 182.45,
-    "basis": "lifetime",
+    "stars_gained": 366,
+    "days_span": 5,
+    "stars_per_day": 73.2,
+    "lifetime_stars_per_day": 174.71,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "edenfunf/reelmimic",
-    "readme_chars": 9738,
+    "readme_chars": 9905,
     "capabilities": [
       "cross-agent-support"
     ],
@@ -108,7 +108,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.13
+      "external_link_ratio": 1.111
     },
     "highlights": [
       "It takes a while. A 30–60 second video usually takes 1–3.5 hours after you approve the plan, depending on the",
@@ -130,11 +130,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:55:53+00:00",
+  "fetched_at": "2026-10-20T09:27:39+00:00",
   "categories": [
-    "self-hosting-security"
+    "parallelism-isolation"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,8 +6,8 @@
   "url": "https://github.com/larashero3-dotcom/lieflat-charts",
   "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
   "homepage": "",
-  "stars": 6241,
-  "forks": 375,
+  "stars": 6289,
+  "forks": 378,
   "open_issues": 0,
   "language": "HTML",
   "license": "NOASSERTION",
@@ -22,27 +22,27 @@
     "svg"
   ],
   "created_at": "2026-07-16T11:17:49Z",
-  "updated_at": "2026-10-19T09:49:38Z",
+  "updated_at": "2026-10-20T09:03:52Z",
   "pushed_at": "2026-10-15T10:59:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 94,
-  "days_since_push": 3,
-  "health_score": 64,
+  "age_days": 95,
+  "days_since_push": 4,
+  "health_score": 66,
   "health_components": {
-    "popularity": 75.9,
-    "momentum": 21.8,
+    "popularity": 76.0,
+    "momentum": 26.8,
     "maintenance": 100.0,
     "documentation": 40.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 131,
+    "stars_gained": 161,
     "days_span": 5,
-    "stars_per_day": 26.2,
-    "lifetime_stars_per_day": 66.39,
+    "stars_per_day": 32.2,
+    "lifetime_stars_per_day": 66.2,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -113,11 +113,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:55:48+00:00",
+  "fetched_at": "2026-10-20T09:27:32+00:00",
   "categories": [
-    "self-hosting-security"
+    "parallelism-isolation"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

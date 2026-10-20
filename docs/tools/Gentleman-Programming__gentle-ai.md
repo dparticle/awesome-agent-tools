@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,851 |
-| Star velocity | 20.2/day (history basis, 5d span) |
+| Stars | 7,868 |
+| Star velocity | 18.4/day (history basis, 5d span) |
 | Health score | 68/100 |
-| Documentation | 66/100 |
+| Documentation | 67/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-27 |
-| Last push | 2026-10-18 (1 days ago) |
-| Analyzed README | 22,374 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 22,617 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> ec verbatim, and every handoff points at it instead of paraphrasing it.
+> github.com/user-attachments/assets/857a2195-34b8-4720-87af-f71bca3dec92
 
 ### Skills & plugins
 
@@ -57,7 +57,7 @@
 
 ## Documentation quality
 
-Score **66/100**, based on these detected signals:
+Score **67/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -77,9 +77,9 @@ Score **66/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 77.9 |
-| momentum | 16.8 |
+| momentum | 15.3 |
 | maintenance | 100.0 |
-| documentation | 66.0 |
+| documentation | 67.0 |
 | accessibility | 100.0 |
 
 ---

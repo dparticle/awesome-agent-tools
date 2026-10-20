@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 16603,
-  "forks": 1196,
-  "open_issues": 1165,
+  "stars": 17595,
+  "forks": 1278,
+  "open_issues": 1262,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-19T09:54:57Z",
-  "pushed_at": "2026-10-19T09:28:02Z",
+  "updated_at": "2026-10-20T09:26:25Z",
+  "pushed_at": "2026-10-20T08:32:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 25,
+  "age_days": 26,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 84.4,
+    "popularity": 84.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4305,
+    "stars_gained": 4434,
     "days_span": 5,
-    "stars_per_day": 861.0,
-    "lifetime_stars_per_day": 664.12,
+    "stars_per_day": 886.8,
+    "lifetime_stars_per_day": 676.73,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 18948,
+    "readme_chars": 18959,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -137,7 +137,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.742
+      "external_link_ratio": 1.741
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -159,7 +159,7 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-19T09:55:36+00:00",
+  "fetched_at": "2026-10-20T09:27:15+00:00",
   "categories": [
     "desktop-ui-2",
     "model-routing",

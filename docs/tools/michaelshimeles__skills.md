@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,350 |
-| Star velocity | 6.2/day (history basis, 5d span) |
+| Stars | 1,358 |
+| Star velocity | 7.4/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 39/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | not declared |
 | Language | Python |
 | Created | 2026-03-05 |
-| Last push | 2026-10-19 (0 days ago) |
+| Last push | 2026-10-19 (1 days ago) |
 | Analyzed README | 7,910 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -72,8 +72,8 @@ Score **39/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 62.6 |
-| momentum | 5.2 |
+| popularity | 62.7 |
+| momentum | 6.2 |
 | maintenance | 100.0 |
 | documentation | 39.0 |
 | accessibility | 90.0 |

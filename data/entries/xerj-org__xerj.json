@@ -4,80 +4,83 @@
   "name": "xerj",
   "owner": "xerj-org",
   "url": "https://github.com/xerj-org/xerj",
-  "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
+  "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
   "homepage": "https://xerj.org",
-  "stars": 8736,
-  "forks": 470,
-  "open_issues": 85,
+  "stars": 10803,
+  "forks": 672,
+  "open_issues": 111,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
-    "ai-search",
-    "ai-search-algorithms",
-    "ai-search-engine",
-    "ai-search-free",
-    "ai-search-module",
-    "ai-search-optimization",
-    "ai-searchengine",
-    "bm25-search",
-    "elastic-search",
+    "agent-memory",
+    "ai-agents",
+    "bm25",
+    "claude-code",
+    "cli",
+    "code-search",
+    "cursor",
     "elasticsearch",
-    "elasticstack",
-    "graph-search",
-    "graph-semantic-search",
+    "elasticsearch-alternative",
+    "full-text-search",
     "hybrid-search",
-    "hybrid-semantic-search",
-    "search-api",
+    "jsonl",
+    "local-first",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "rag",
+    "rust",
     "search-engine",
-    "semantic-search",
-    "vector-database",
     "vector-search"
   ],
   "created_at": "2026-06-30T04:32:45Z",
-  "updated_at": "2026-10-19T09:53:50Z",
-  "pushed_at": "2026-10-19T09:50:14Z",
+  "updated_at": "2026-10-20T09:23:56Z",
+  "pushed_at": "2026-10-20T09:25:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 111,
+  "age_days": 112,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 81,
   "health_components": {
-    "popularity": 78.8,
-    "momentum": 65.6,
+    "popularity": 80.7,
+    "momentum": 80.4,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 66.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 8736,
-    "days_span": 111,
-    "stars_per_day": 78.7,
-    "lifetime_stars_per_day": 78.7,
+    "stars_gained": 10803,
+    "days_span": 112,
+    "stars_per_day": 96.46,
+    "lifetime_stars_per_day": 96.46,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "xerj-org/xerj",
-    "readme_chars": 27822,
+    "readme_chars": 28284,
     "capabilities": [
       "memory-context",
       "agent-runtime",
       "mcp-support",
-      "gui-desktop"
+      "gui-desktop",
+      "cross-agent-support"
     ],
     "capability_evidence": {
       "memory-context": "f the same primitive: xerj autoindex makes an agent",
       "agent-runtime": "rity audit of WordPress core,",
       "mcp-support": ". XERJ answers under its own name, xerj-history-vote-1;",
-      "gui-desktop": ""
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Cursor"
     },
     "capability_hits": {
       "memory-context": 3,
       "agent-runtime": 3,
-      "mcp-support": 11,
-      "gui-desktop": 1
+      "mcp-support": 13,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
     },
     "friction": {
       "level": "low",
@@ -123,9 +126,10 @@
       "long, detailed README"
     ],
     "agents": [
+      "Claude Code",
       "Cursor"
     ],
-    "summary_en": "English | 简体中文 | 日本語 | العربية | Español",
+    "summary_en": "Local-first search engine and MCP server for AI agents.",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://xerj.org/get | sh",
     "source": "raw:HEAD/README.md",
@@ -136,7 +140,7 @@
         "bullet list of external links",
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 1.438
+      "external_link_ratio": 1.414
     },
     "highlights": [
       "XERJ vs Lucene 10.3.1 for a source-pinned, six-axis comparison"
@@ -155,7 +159,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:55:45+00:00",
+  "fetched_at": "2026-10-20T09:27:25+00:00",
   "categories": [
     "desktop-ui-2",
     "self-hosting-security"

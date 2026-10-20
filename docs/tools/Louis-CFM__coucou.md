@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,553 |
-| Star velocity | 80.2/day (history basis, 5d span) |
-| Health score | 76/100 |
-| Documentation | 62/100 |
+| Stars | 5,614 |
+| Star velocity | 72.6/day (history basis, 5d span) |
+| Health score | 75/100 |
+| Documentation | 67/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Swift |
 | Created | 2026-09-27 |
-| Last push | 2026-10-18 (0 days ago) |
-| Analyzed README | 43,563 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 45,045 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Mobile access
 
-> your macOS Keychain, Windows Credential Manager or Linux Secret Service (GNOME Keyring, KWallet).
+> ries, no hook files, no recap history.
 
 ### Model / provider routing
 
@@ -69,7 +69,7 @@
 - **Difficulty:** 🟢 Easy (friction score 23/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `brew install xcodegen`
+- **Quickest install:** `brew tap louis-cfm/coucou https://github.com/Louis-CFM/coucou`
 
 **Signals that make it easy:** Homebrew install, native installer / package
 
@@ -81,7 +81,7 @@
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **67/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -91,6 +91,7 @@ Score **62/100**, based on these detected signals:
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
+- has a Chinese translation
 - documents changes
 - long, detailed README
 
@@ -98,10 +99,10 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.9 |
-| momentum | 66.8 |
+| popularity | 75.0 |
+| momentum | 60.5 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
+| documentation | 67.0 |
 | accessibility | 77.0 |
 
 ---

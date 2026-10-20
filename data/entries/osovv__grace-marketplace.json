@@ -7,7 +7,7 @@
   "description": " GRACE (Graph-RAG Anchored Code Engineering): open Agent Skills for contract-driven AI code generation with semantic markup, knowledge graphs, and support for Claude   Code, Codex CLI, and Kilo Code.",
   "homepage": "",
   "stars": 253,
-  "forks": 56,
+  "forks": 55,
   "open_issues": 10,
   "language": "TypeScript",
   "license": "MIT",
@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 243,
-  "days_since_push": 25,
+  "age_days": 244,
+  "days_since_push": 26,
   "health_score": 44,
   "health_components": {
     "popularity": 48.1,
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:57:02+00:00",
+  "fetched_at": "2026-10-20T09:29:09+00:00",
   "categories": [
     "desktop-ui"
   ],

@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 447,
-  "days_since_push": 85,
+  "age_days": 448,
+  "days_since_push": 86,
   "health_score": 47,
   "health_components": {
     "popularity": 48.6,
@@ -143,12 +143,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-19T09:57:02+00:00",
+  "fetched_at": "2026-10-20T09:29:08+00:00",
   "categories": [
     "desktop-ui-2",
-    "remote-control-isolation"
+    "parallelism-isolation"
   ],
-  "primary_category": "remote-control-isolation",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by h0x91b/dev-3.0: covers 100% of capabilities (7/7).",

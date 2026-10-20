@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 380 |
-| Star velocity | 0.0/day (history basis, 11d span) |
+| Star velocity | 0.0/day (history basis, 12d span) |
 | Health score | 47/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | AGPL-3.0 |
 | Language | Python |
 | Created | 2026-02-17 |
-| Last push | 2026-09-27 (21 days ago) |
+| Last push | 2026-09-27 (22 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — Superseded by bytedance/deer-flow: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
 
 ## What it solves
 
