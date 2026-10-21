@@ -6,8 +6,8 @@
   "url": "https://github.com/Licoy/Quosparr",
   "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude Code and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude Code、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
   "homepage": "https://quosparr.com",
-  "stars": 297,
-  "forks": 19,
+  "stars": 298,
+  "forks": 20,
   "open_issues": 0,
   "language": "Go",
   "license": "AGPL-3.0",
@@ -31,33 +31,33 @@
     "windows"
   ],
   "created_at": "2026-06-29T00:39:56Z",
-  "updated_at": "2026-10-20T09:14:13Z",
-  "pushed_at": "2026-10-20T09:12:22Z",
+  "updated_at": "2026-10-21T08:42:51Z",
+  "pushed_at": "2026-10-21T08:42:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 113,
+  "age_days": 114,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 49.5,
-    "momentum": 2.2,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 297,
-    "days_span": 113,
-    "stars_per_day": 2.63,
-    "lifetime_stars_per_day": 2.63,
-    "basis": "lifetime",
+    "stars_gained": 7,
+    "days_span": 5,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 2.61,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Licoy/Quosparr",
-    "readme_chars": 18881,
+    "readme_chars": 19140,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -87,7 +87,7 @@
       "billing-metering": 2,
       "usage-analytics": 1,
       "skills-plugins": 1,
-      "mcp-support": 8,
+      "mcp-support": 9,
       "gui-desktop": 1,
       "cross-agent-support": 2
     },
@@ -147,7 +147,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.318
+      "external_link_ratio": 0.313
     },
     "highlights": [
       "Local token usage, API-equivalent cost (anthropic-builtin-2026-10-14), recent sessions, and output speed from Claude Code session logs.",
@@ -164,7 +164,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:29:05+00:00",
+  "fetched_at": "2026-10-21T09:25:42+00:00",
   "categories": [
     "analytics-2",
     "billing",

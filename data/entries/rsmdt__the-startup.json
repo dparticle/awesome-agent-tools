@@ -6,8 +6,8 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 569,
-  "forks": 70,
+  "stars": 570,
+  "forks": 69,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
@@ -18,26 +18,26 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-10-19T20:46:46Z",
+  "updated_at": "2026-10-20T23:25:12Z",
   "pushed_at": "2026-08-03T13:21:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 433,
-  "days_since_push": 77,
+  "age_days": 434,
+  "days_since_push": 78,
   "health_score": 48,
   "health_components": {
     "popularity": 55.1,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 78.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 1.31,
     "basis": "history",
     "is_fast_riser": false
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:37+00:00",
+  "fetched_at": "2026-10-21T09:25:13+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation"
@@ -133,18 +133,18 @@
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 maxritter/pilot-shell 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "maxritter/pilot-shell",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
     "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "maxritter/pilot-shell",
+      "challenger": "othmanadi/planning-with-files",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "maxritter/pilot-shell",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "memory-context",
@@ -152,15 +152,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 3.684,
-      "momentum_ratio": 5.0,
-      "setup_delta": -13,
-      "dominance": 1.0,
+      "star_ratio": 48.344,
+      "momentum_ratio": 42.5,
+      "setup_delta": 2,
+      "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.68x the stars (2,096 vs 569)",
-        "5.00x the star velocity (1.0/day vs 0.2/day)",
-        "no harder to set up (12 vs 25 friction)"
+        "48.34x the stars (27,556 vs 570)",
+        "42.50x the star velocity (17.0/day vs 0.4/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -173,19 +173,18 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
           "memory-context",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
+          "security-isolation",
+          "session-persistence",
           "skills-plugins",
           "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 61,
+        "challenger_health": 69,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 12
+        "challenger_setup_score": 27
       }
     }
   }

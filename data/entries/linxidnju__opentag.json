@@ -7,7 +7,7 @@
   "description": "Open-source, channel-native agent gateway for Slack. Route team threads to Claude Code, Codex, OpenCode, Docker, HTTP agents, and custom CLIs with policy, approvals, memory, audit logs, and artifacts.",
   "homepage": "",
   "stars": 503,
-  "forks": 2,
+  "forks": 0,
   "open_issues": 1,
   "language": "JavaScript",
   "license": "NOASSERTION",
@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 115,
-  "days_since_push": 102,
+  "age_days": 116,
+  "days_since_push": 103,
   "health_score": 41,
   "health_components": {
     "popularity": 54.0,
@@ -48,7 +48,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 4.37,
+    "lifetime_stars_per_day": 4.34,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,26 +134,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:42+00:00",
+  "fetched_at": "2026-10-21T09:25:17+00:00",
   "categories": [
-    "desktop-ui-2",
-    "security"
+    "security-self-hosting"
   ],
-  "primary_category": "security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by kitfunso/hippo-memory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 kitfunso/hippo-memory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "kitfunso/hippo-memory",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "linxidnju/opentag",
-      "challenger": "kitfunso/hippo-memory",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "linxidnju/OpenTag",
-      "challenger_name": "kitfunso/hippo-memory",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -161,15 +160,15 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 1.555,
-      "momentum_ratio": 12.0,
-      "setup_delta": 10,
-      "dominance": 0.8,
+      "star_ratio": 59.117,
+      "momentum_ratio": 664.0,
+      "setup_delta": -13,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.55x the stars (782 vs 503)",
-        "12.00x the star velocity (0.6/day vs 0.0/day)",
-        "slightly heavier setup (+10 friction, within tolerance)"
+        "59.12x the stars (29,736 vs 503)",
+        "664.00x the star velocity (33.2/day vs 0.0/day)",
+        "no harder to set up (32 vs 45 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,23 +180,26 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "remote-control",
+          "quota-management",
           "security-isolation",
           "self-hosted",
-          "session-persistence",
-          "worktree-isolation"
+          "skills-plugins",
+          "team-collaboration"
         ],
         "incumbent_health": 41,
-        "challenger_health": 55,
+        "challenger_health": 71,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 55
+        "challenger_setup_score": 32
       }
     }
   }

@@ -7,8 +7,8 @@
   "description": "Secure memory management for AI Agents • Ensures data integrity • Reduces hallucinations • Maintains consistent long-term context",
   "homepage": "https://thememoria.ai/",
   "stars": 614,
-  "forks": 90,
-  "open_issues": 55,
+  "forks": 80,
+  "open_issues": 58,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -20,27 +20,27 @@
     "storage"
   ],
   "created_at": "2026-03-09T23:44:24Z",
-  "updated_at": "2026-10-20T02:32:55Z",
-  "pushed_at": "2026-10-20T02:32:49Z",
+  "updated_at": "2026-10-21T03:22:06Z",
+  "pushed_at": "2026-10-21T03:22:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 224,
+  "age_days": 225,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 55.8,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.74,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 2.73,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,26 +139,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:36+00:00",
+  "fetched_at": "2026-10-21T09:25:12+00:00",
   "categories": [
-    "security",
+    "security-self-hosting",
     "self-hosting-security"
   ],
-  "primary_category": "security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by kitfunso/hippo-memory: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 kitfunso/hippo-memory 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "kitfunso/hippo-memory",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "matrixorigin/memoria",
-      "challenger": "kitfunso/hippo-memory",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "matrixorigin/memoria",
-      "challenger_name": "kitfunso/hippo-memory",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -168,15 +168,15 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 1.274,
-      "momentum_ratio": 3.0,
-      "setup_delta": -8,
-      "dominance": 0.742,
+      "star_ratio": 464.397,
+      "momentum_ratio": 17604.0,
+      "setup_delta": -6,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "1.27x the stars (782 vs 614)",
-        "3.00x the star velocity (0.6/day vs 0.2/day)",
-        "no harder to set up (55 vs 63 friction)"
+        "464.40x the stars (285,140 vs 614)",
+        "17604.00x the star velocity (880.2/day vs 0.0/day)",
+        "no harder to set up (57 vs 63 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -190,23 +190,26 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "remote-control",
+          "parallel-execution",
           "security-isolation",
           "self-hosted",
           "session-persistence",
+          "skills-plugins",
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 55,
+        "challenger_health": 89,
         "incumbent_setup_score": 63,
-        "challenger_setup_score": 55
+        "challenger_setup_score": 57
       }
     }
   }

@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 1,403 |
-| Star velocity | 0.0/day (history basis, 7d span) |
+| Star velocity | 0.0/day (history basis, 8d span) |
 | Health score | 49/100 |
 | Documentation | 67/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-03-23 |
-| Last push | 2026-08-21 (59 days ago) |
+| Last push | 2026-08-21 (60 days ago) |
 | Analyzed README | 25,594 chars from `raw:main/README.md` |
+
+> ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (4/4).
 
 ## What it solves
 

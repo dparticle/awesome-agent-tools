@@ -12,21 +12,25 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 241 |
-| Star velocity | 1.7/day (lifetime basis, 141d span) |
-| Health score | 54/100 |
-| Documentation | 55/100 |
+| Stars | 244 |
+| Star velocity | 1.7/day (lifetime basis, 142d span) |
+| Health score | 55/100 |
+| Documentation | 59/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-05-31 |
-| Last push | 2026-10-20 (0 days ago) |
-| Analyzed README | 15,528 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 15,779 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** — Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (8/8).
+> ⚠️ **Superseded by [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** — Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (9/9).
 
 ## What it solves
+
+### Multi-agent orchestration
+
+> Every coding agent in live terminal panes, side by side.
 
 ### Parallel execution
 
@@ -34,21 +38,21 @@
 
 ### Workspace isolation
 
+> eeds and hands the work to the right agent or pane.
+
 ### Skills & plugins
 
 > someone for you once you approve.
 
 ### Agent runtime
 
-> u are looking at, or just one area of it.
+> launch posts and keep their routines going.
 
 ### MCP support
 
-> ni and OpenRouter voices for speaking.
+> Voice Wake word, live conversations, dictation and phone calls.
 
 ### GUI / desktop app
-
-> agent OS for your desktop.
 
 ### Voice input
 
@@ -73,7 +77,7 @@
 
 ## Documentation quality
 
-Score **55/100**, based on these detected signals:
+Score **59/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -83,16 +87,17 @@ Score **55/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - has a Chinese translation
+- documents changes
 - explains architecture
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 47.6 |
+| popularity | 47.7 |
 | momentum | 1.4 |
 | maintenance | 100.0 |
-| documentation | 55.0 |
+| documentation | 59.0 |
 | accessibility | 100.0 |
 
 ---

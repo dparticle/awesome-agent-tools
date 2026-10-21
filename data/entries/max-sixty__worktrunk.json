@@ -6,9 +6,9 @@
   "url": "https://github.com/max-sixty/worktrunk",
   "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
   "homepage": "https://worktrunk.dev",
-  "stars": 9327,
-  "forks": 334,
-  "open_issues": 81,
+  "stars": 9348,
+  "forks": 333,
+  "open_issues": 70,
   "language": "Rust",
   "license": "NOASSERTION",
   "topics": [
@@ -20,27 +20,27 @@
     "worktrees"
   ],
   "created_at": "2025-10-17T22:13:14Z",
-  "updated_at": "2026-10-20T05:20:40Z",
-  "pushed_at": "2026-10-20T08:01:56Z",
+  "updated_at": "2026-10-21T09:17:12Z",
+  "pushed_at": "2026-10-21T09:05:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 367,
+  "age_days": 368,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 67,
   "health_components": {
     "popularity": 79.4,
-    "momentum": 14.2,
+    "momentum": 15.2,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 85,
+    "stars_gained": 91,
     "days_span": 5,
-    "stars_per_day": 17.0,
-    "lifetime_stars_per_day": 25.41,
+    "stars_per_day": 18.2,
+    "lifetime_stars_per_day": 25.4,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -123,7 +123,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:02+00:00",
+  "fetched_at": "2026-10-21T09:24:37+00:00",
   "categories": [
     "parallelism-isolation"
   ],

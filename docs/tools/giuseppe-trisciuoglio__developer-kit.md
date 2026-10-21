@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-10-21 |
-| Last push | 2026-09-10 (39 days ago) |
+| Last push | 2026-09-10 (40 days ago) |
 | Analyzed README | 9,755 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection)** — Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (5/5).
 
 ## What it solves
 

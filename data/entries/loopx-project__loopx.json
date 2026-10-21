@@ -4,11 +4,11 @@
   "name": "loopx",
   "owner": "loopx-project",
   "url": "https://github.com/loopx-project/loopx",
-  "description": "Local-first control plane and research workbench for long-horizon agents and teams. Durable goals, governed collaboration, and cited trajectory analysis.",
+  "description": "Turn long-horizon goals into verifiable results. A local-first control plane and research workbench for agents and teams, across sessions and runtimes.",
   "homepage": "https://loopx-project.github.io/loopx/",
-  "stars": 6373,
-  "forks": 608,
-  "open_issues": 171,
+  "stars": 6382,
+  "forks": 607,
+  "open_issues": 165,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -26,33 +26,33 @@
     "typescript"
   ],
   "created_at": "2026-05-31T14:58:56Z",
-  "updated_at": "2026-10-20T09:06:25Z",
-  "pushed_at": "2026-10-20T09:22:11Z",
+  "updated_at": "2026-10-21T08:47:54Z",
+  "pushed_at": "2026-10-21T09:09:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 141,
+  "age_days": 142,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 76.1,
-    "momentum": 10.7,
+    "momentum": 8.0,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 64,
+    "stars_gained": 48,
     "days_span": 5,
-    "stars_per_day": 12.8,
-    "lifetime_stars_per_day": 45.2,
+    "stars_per_day": 9.6,
+    "lifetime_stars_per_day": 44.94,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "loopx-project/loopx",
-    "readme_chars": 49731,
+    "readme_chars": 50357,
     "capabilities": [
       "quota-management",
       "mobile-access",
@@ -64,9 +64,9 @@
     "capability_evidence": {
       "quota-management": "",
       "mobile-access": "r Manager group conversations, LoopX keeps message visibility separate from",
-      "multi-agent-orchestration": "8 mean reward — +17.3% vs Plain Codex, +10.6% vs native Codex Goal.",
+      "multi-agent-orchestration": "goals, steer work and resolve decisions.",
       "usage-analytics": "dentials, internal project names, or goal contents:",
-      "team-collaboration": "",
+      "team-collaboration": "routing, service boundaries, and",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
@@ -127,7 +127,7 @@
       "OpenCode",
       "Cursor"
     ],
-    "summary_en": "The workbench for long-horizon research.",
+    "summary_en": "Turn long-horizon goals into verifiable results.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -137,18 +137,18 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.845
+      "external_link_ratio": 0.814
     },
     "highlights": [
       "Independent user · 7 merged PRs.",
       "continue across Codex, Claude Code, direct-model, and other registered Agent"
     ],
-    "summary_zh_native": "",
+    "summary_zh_native": "让 Agent 把长程目标做成可验证的成果。",
     "highlights_zh": [
       "在 Codex、Claude Code、direct-model 等已注册 Agent 会话之间延续工作，",
+      "看成果和依据，而不只看活动。 检查交付物、支持与反驳证据、成本，以及下一步决策。",
       "Shared Goal Authority 与跨 Host 协作：为显式共享 goal 提供",
-      "Agent 团队：共享目标，不抹平各自的工作责任。",
-      "Developer Guide：贡献者工作流、benchmark 开发、"
+      "Agent 团队：共享目标，不抹平各自的工作责任。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -157,10 +157,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:27:32+00:00",
+  "fetched_at": "2026-10-21T09:24:07+00:00",
   "categories": [
     "analytics-2",
-    "mobile"
+    "teams"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

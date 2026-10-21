@@ -6,7 +6,7 @@
   "url": "https://github.com/tigicion/dao-code",
   "description": "Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous self-correction layer add almost no token cost; 1M context, Skills/MCP/Hooks, Claude Code config compatible.",
   "homepage": "https://www.npmjs.com/package/dao-code",
-  "stars": 789,
+  "stars": 788,
   "forks": 26,
   "open_issues": 12,
   "language": "TypeScript",
@@ -21,33 +21,33 @@
     "typescript"
   ],
   "created_at": "2026-06-08T08:10:42Z",
-  "updated_at": "2026-10-18T01:32:09Z",
-  "pushed_at": "2026-09-22T08:14:19Z",
+  "updated_at": "2026-10-21T05:51:36Z",
+  "pushed_at": "2026-10-21T05:51:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 134,
-  "days_since_push": 28,
-  "health_score": 52,
+  "age_days": 135,
+  "days_since_push": 0,
+  "health_score": 53,
   "health_components": {
     "popularity": 57.9,
-    "momentum": 0.3,
-    "maintenance": 92.0,
+    "momentum": 0.2,
+    "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 5.89,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 5.84,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tigicion/dao-code",
-    "readme_chars": 27703,
+    "readme_chars": 28439,
     "capabilities": [
       "multi-account-switching",
       "multi-agent-orchestration",
@@ -67,7 +67,7 @@
     "capability_evidence": {
       "multi-account-switching": "",
       "multi-agent-orchestration": "your .git); todo list survives compaction to prevent goal drift; Definition-of-Done verification (/dod + verifydone); stuck detection with a circuit breaker; parallel / background / worktree-isolated subagents with two-…",
-      "parallel-execution": "- **Subagent orchestration**: parallel tasks[], async background:true, isolate:true git-worktree isolation, tasksend to append instructions to a running task, foreground timeout auto-converts to background, transcripts…",
+      "parallel-execution": "- Subagent orchestration: parallel tasks[], async background:true, isolate:true git-worktree isolation, tasksend to append instructions to a running task, foreground timeout auto-converts to background, transcripts spil…",
       "worktree-isolation": "hat never touches your .git); todo list survives compaction to prevent goal drift; Definition-of-Done verification (/dod + verifydone); stuck detection with a circuit breaker; parallel / background / worktree-isolated s…",
       "model-routing": "mmon slash commands (full list via /help):",
       "usage-analytics": "",
@@ -75,14 +75,14 @@
       "skills-plugins": "llback to a plain-text REPL.",
       "agent-runtime": "ricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous self-correction layer add almost no token cost.",
       "mcp-support": "s · layered allow/ask/deny permissions + auto smart approval + defense-in-depth (secret scanning / SSRF / sandbox / keychain) · Skills (incl.",
-      "security-isolation": "ty **deny > dangerous commands > bypass > sensitive targets > ask > allow > mode/capability default** (deny is a hard blacklist, blocking even under YOLO; dangerous commands like rm -rf / also always require confirmatio…",
+      "security-isolation": "rity *deny > dangerous commands > bypass > sensitive targets > ask > allow > mode/capability default* (deny is a hard blacklist, blocking even under YOLO; dangerous commands like rm -rf / also always require confirmatio…",
       "gui-desktop": "eleases: macOS dao-darwin-arm64 (Apple silicon) / dao-darwin-x64 (Intel), Linux dao-linux-arm64/dao-linux-x64, Windows dao-windows-x64.exe.",
-      "notifications": "- **Parallel / background subagents + notification queue**: pass tasks[] to run in parallel, or background:true to run in the background (returns immediately, doesn't block the main loop); on completion the result is au…",
+      "notifications": "- Parallel / background subagents + notification queue: pass tasks[] to run in parallel, or background:true to run in the background (returns immediately, doesn't block the main loop); on completion the result is auto-i…",
       "cross-agent-support": "Mentions Claude Code, Cursor"
     },
     "capability_hits": {
       "multi-account-switching": 1,
-      "multi-agent-orchestration": 7,
+      "multi-agent-orchestration": 9,
       "parallel-execution": 1,
       "worktree-isolation": 2,
       "model-routing": 1,
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.361
+      "external_link_ratio": 0.352
     },
     "highlights": [
       "Cost vs Claude Code — pricing the same token trace of these 7 tasks under each vendor's official rates (and crediting Dao Code's high hit rate to Claude too, in its favor), total cost is st…",
@@ -176,7 +176,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:31+00:00",
+  "fetched_at": "2026-10-21T09:25:07+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

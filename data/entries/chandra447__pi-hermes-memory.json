@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 179,
-  "days_since_push": 3,
+  "age_days": 180,
+  "days_since_push": 4,
   "health_score": 49,
   "health_components": {
     "popularity": 53.8,
@@ -39,7 +39,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.75,
+    "lifetime_stars_per_day": 2.73,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,12 +137,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:43+00:00",
+  "fetched_at": "2026-10-21T09:25:19+00:00",
   "categories": [
-    "self-hosting-security",
-    "sessions"
+    "providers",
+    "self-hosting-security"
   ],
-  "primary_category": "sessions",
+  "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

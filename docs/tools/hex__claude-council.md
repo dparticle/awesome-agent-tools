@@ -2,7 +2,7 @@
 
 # hex/claude-council
 
-> A Claude Code plugin that consults multiple AI coding agents in parallel and shows you their answers side-by-side.
+> A Claude Code plugin that asks AI coding agents the same question in parallel.
 
 [Repository](https://github.com/hex/claude-council) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,50 +12,49 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 894 |
-| Star velocity | 3.2/day (history basis, 5d span) |
-| Health score | 53/100 |
-| Documentation | 54/100 |
+| Stars | 898 |
+| Star velocity | 3.6/day (history basis, 5d span) |
+| Health score | 52/100 |
+| Documentation | 45/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-12-17 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 9,095 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (4/4).
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 6,382 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-### Parallel execution
+> agy (Antigravity), grok, kimi, and cursor-agent CLIs use
+
+### Model / provider routing
 
 ### Agent runtime
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Copilot, Cursor
+> Mentions Claude Code, Codex, Cursor
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 42/100)
+- **Difficulty:** 🟢 Easy (friction score 36/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Configuration required:** environment variables, API key configuration
+**Configuration required:** database dependency
 
-*Some setup. configure environment variables, API key configuration*
+*Easy. configure database dependency*
 
 ## Documentation quality
 
-Score **54/100**, based on these detected signals:
+Score **45/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
-- has a quick-start section
 - documents installation
 - documents configuration
 - has troubleshooting/FAQ
@@ -65,11 +64,11 @@ Score **54/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 59.0 |
-| momentum | 2.7 |
+| popularity | 59.1 |
+| momentum | 3.0 |
 | maintenance | 100.0 |
-| documentation | 54.0 |
-| accessibility | 58.0 |
+| documentation | 45.0 |
+| accessibility | 64.0 |
 
 ---
 

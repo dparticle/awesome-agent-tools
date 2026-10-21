@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-04-01 |
-| Last push | 2026-05-14 (159 days ago) |
+| Last push | 2026-05-14 (160 days ago) |
 | Analyzed README | 12,001 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).

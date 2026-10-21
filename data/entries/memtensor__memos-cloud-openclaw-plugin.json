@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 259,
-  "days_since_push": 27,
+  "age_days": 260,
+  "days_since_push": 28,
   "health_score": 47,
   "health_components": {
     "popularity": 51.3,
@@ -120,12 +120,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:56+00:00",
+  "fetched_at": "2026-10-21T09:25:33+00:00",
   "categories": [
-    "providers",
-    "sessions"
+    "model-routing"
   ],
-  "primary_category": "providers",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

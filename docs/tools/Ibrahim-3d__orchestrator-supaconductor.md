@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 380 |
-| Star velocity | 0.0/day (history basis, 12d span) |
-| Health score | 47/100 |
+| Stars | 379 |
+| Star velocity | 1.6/day (lifetime basis, 245d span) |
+| Health score | 48/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | AGPL-3.0 |
 | Language | Python |
 | Created | 2026-02-17 |
-| Last push | 2026-09-27 (22 days ago) |
+| Last push | 2026-09-27 (23 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -81,7 +81,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.6 |
-| momentum | 0.0 |
+| momentum | 1.3 |
 | maintenance | 92.0 |
 | documentation | 69.0 |
 | accessibility | 28.0 |

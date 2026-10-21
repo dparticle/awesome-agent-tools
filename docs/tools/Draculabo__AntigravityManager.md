@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,393 |
-| Star velocity | 7.4/day (lifetime basis, 324d span) |
+| Stars | 2,399 |
+| Star velocity | 7.4/day (lifetime basis, 325d span) |
 | Health score | 55/100 |
 | Documentation | 57/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2025-11-29 |
-| Last push | 2026-10-19 (1 days ago) |
+| Last push | 2026-10-21 (0 days ago) |
 | Analyzed README | 18,394 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (8/8).

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 250 |
-| Star velocity | 1.6/day (history basis, 5d span) |
+| Stars | 251 |
+| Star velocity | 1.4/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 57/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-04-28 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 15,619 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 15,726 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -33,6 +33,14 @@
 ### Quota & usage management
 
 > or delegate a headless prompt to another account without leaving the chat.
+
+### Remote control
+
+> usion rules, burn-aware mode, spend ceilings
+
+### Mobile access
+
+> usion rules, burn-aware mode, spend ceilings
 
 ### Parallel execution
 
@@ -93,7 +101,7 @@ Score **57/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 48.0 |
-| momentum | 1.3 |
+| momentum | 1.2 |
 | maintenance | 100.0 |
 | documentation | 57.0 |
 | accessibility | 75.0 |

@@ -6,8 +6,8 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 894,
-  "forks": 112,
+  "stars": 898,
+  "forks": 108,
   "open_issues": 1,
   "language": "Shell",
   "license": "MIT",
@@ -31,61 +31,60 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-20T06:05:44Z",
-  "pushed_at": "2026-10-19T15:30:44Z",
+  "updated_at": "2026-10-21T06:35:01Z",
+  "pushed_at": "2026-10-20T13:38:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 306,
+  "age_days": 307,
   "days_since_push": 0,
-  "health_score": 53,
+  "health_score": 52,
   "health_components": {
-    "popularity": 59.0,
-    "momentum": 2.7,
+    "popularity": 59.1,
+    "momentum": 3.0,
     "maintenance": 100.0,
-    "documentation": 54.0,
-    "accessibility": 58.0
+    "documentation": 45.0,
+    "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 2.92,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 2.93,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "hex/claude-council",
-    "readme_chars": 9095,
+    "readme_chars": 6382,
     "capabilities": [
       "multi-agent-orchestration",
-      "parallel-execution",
+      "model-routing",
       "agent-runtime",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "",
-      "parallel-execution": "",
+      "multi-agent-orchestration": "agy (Antigravity), grok, kimi, and cursor-agent CLIs use",
+      "model-routing": "",
       "agent-runtime": "",
-      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
       "multi-agent-orchestration": 1,
-      "parallel-execution": 1,
+      "model-routing": 1,
       "agent-runtime": 1,
-      "cross-agent-support": 4
+      "cross-agent-support": 3
     },
     "friction": {
-      "level": "moderate",
-      "score": 42,
+      "level": "low",
+      "score": 36,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [],
       "hard_signals": [],
       "config_signals": [
-        "environment variables",
-        "API key configuration"
+        "database dependency"
       ],
       "friendliness_signals": [],
       "platforms": [
@@ -93,15 +92,14 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Some setup. configure environment variables, API key configuration",
-      "note_zh": "需要一些配置。需配置 environment variables、API key configuration"
+      "note_en": "Easy. configure database dependency",
+      "note_zh": "较易上手。需配置 database dependency"
     },
-    "doc_score": 54,
+    "doc_score": 45,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
-      "has a quick-start section",
       "documents installation",
       "documents configuration",
       "has troubleshooting/FAQ",
@@ -110,10 +108,9 @@
     "agents": [
       "Claude Code",
       "Codex",
-      "Cursor",
-      "Copilot"
+      "Cursor"
     ],
-    "summary_en": "A Claude Code plugin that consults multiple AI coding agents in parallel and shows you their answers side-by-side.",
+    "summary_en": "A Claude Code plugin that asks AI coding agents the same question in parallel.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -121,14 +118,9 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.0
+      "external_link_ratio": 0.157
     },
-    "highlights": [
-      "copilot-cli seats the GitHub Copilot CLI on your Copilot plan, without",
-      "claude-cli seats Claude Code itself on your subscription, without your",
-      "CLIs come first. codex stands in for openai, antigravity for",
-      "OpenRouter seats any model it routes, Claude by default."
-    ],
+    "highlights": [],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -138,73 +130,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:29+00:00",
+  "fetched_at": "2026-10-21T09:25:04+00:00",
   "categories": [
     "desktop-ui",
-    "parallelism-isolation"
+    "desktop-ui-2",
+    "model-routing"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "model-routing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "TencentCloud/Octop",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "hex/claude-council",
-      "challenger": "tencentcloud/octop",
-      "incumbent_name": "hex/claude-council",
-      "challenger_name": "TencentCloud/Octop",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "multi-agent-orchestration",
-        "parallel-execution"
-      ],
-      "star_ratio": 11.62,
-      "momentum_ratio": 59.25,
-      "setup_delta": -10,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "11.62x the stars (10,388 vs 894)",
-        "59.25x the star velocity (189.6/day vs 3.2/day)",
-        "no harder to set up (32 vs 42 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "multi-agent-orchestration",
-          "parallel-execution"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 53,
-        "challenger_health": 87,
-        "incumbent_setup_score": 42,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

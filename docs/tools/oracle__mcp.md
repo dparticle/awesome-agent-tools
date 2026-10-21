@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 463 |
+| Stars | 464 |
 | Star velocity | 0.4/day (history basis, 5d span) |
-| Health score | 54/100 |
-| Documentation | 58/100 |
+| Health score | 55/100 |
+| Documentation | 59/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | UPL-1.0 |
 | Language | Python |
 | Created | 2025-07-27 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 24,143 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 25,079 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -51,7 +49,7 @@
 - **Non-programmer friendly:** no
 - **Quickest install:** `uvx oracle.oci-cloud-mcp-server@latest`
 
-**Signals that make it easy:** npx one-liner, uvx one-liner, go install, native installer / package
+**Signals that make it easy:** npx one-liner, uvx one-liner, Homebrew install, go install, native installer / package
 
 **Configuration required:** API key configuration, config file, server/reverse-proxy setup
 
@@ -59,7 +57,7 @@
 
 ## Documentation quality
 
-Score **58/100**, based on these detected signals:
+Score **59/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -79,7 +77,7 @@ Score **58/100**, based on these detected signals:
 | popularity | 53.3 |
 | momentum | 0.3 |
 | maintenance | 100.0 |
-| documentation | 58.0 |
+| documentation | 59.0 |
 | accessibility | 84.0 |
 
 ---

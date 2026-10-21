@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,347 |
-| Star velocity | 0.6/day (history basis, 5d span) |
+| Stars | 1,351 |
+| Star velocity | 1.4/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -22,7 +22,7 @@
 | Language | TypeScript |
 | Created | 2026-01-30 |
 | Last push | 2026-10-20 (0 days ago) |
-| Analyzed README | 51,628 chars from `raw:HEAD/README.md` |
+| Analyzed README | 52,252 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Workspace isolation
 
-> e wires is in Host differences.
+> ity (OWASP Top 10), performance, accessibility (WCAG 2.2 AA), and code quality
 
 ### Model / provider routing
 
@@ -112,7 +112,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 62.6 |
-| momentum | 0.5 |
+| momentum | 1.2 |
 | maintenance | 100.0 |
 | documentation | 69.0 |
 | accessibility | 70.0 |

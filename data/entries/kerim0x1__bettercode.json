@@ -27,22 +27,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 29,
-  "days_since_push": 1,
+  "age_days": 30,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
     "popularity": 48.8,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 84.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 9.48,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 9.17,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,16 +141,78 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:29:08+00:00",
+  "fetched_at": "2026-10-21T09:25:45+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "teams"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "msitarzewski/agency-agents",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "kerim0x1/bettercode",
+      "challenger": "msitarzewski/agency-agents",
+      "incumbent_name": "kerim0x1/bettercode",
+      "challenger_name": "msitarzewski/agency-agents",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "billing-metering",
+        "cross-agent-support",
+        "gui-desktop",
+        "mobile-access",
+        "team-collaboration"
+      ],
+      "star_ratio": 591.531,
+      "momentum_ratio": 8952.0,
+      "setup_delta": -23,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "591.53x the stars (162,671 vs 275)",
+        "8952.00x the star velocity (447.6/day vs 0.0/day)",
+        "no harder to set up (1 vs 24 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mobile-access",
+          "team-collaboration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "team-collaboration",
+          "voice-input"
+        ],
+        "incumbent_health": 54,
+        "challenger_health": 98,
+        "incumbent_setup_score": 24,
+        "challenger_setup_score": 1
+      }
+    }
   }
 }

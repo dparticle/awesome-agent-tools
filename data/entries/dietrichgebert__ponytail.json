@@ -6,9 +6,9 @@
   "url": "https://github.com/DietrichGebert/ponytail",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
   "homepage": "https://ponytail.dev",
-  "stars": 168506,
-  "forks": 9164,
-  "open_issues": 39,
+  "stars": 170495,
+  "forks": 9277,
+  "open_issues": 59,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -24,13 +24,13 @@
     "yagni"
   ],
   "created_at": "2026-06-12T00:52:37Z",
-  "updated_at": "2026-10-20T09:26:16Z",
+  "updated_at": "2026-10-21T09:22:29Z",
   "pushed_at": "2026-10-18T01:55:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 130,
-  "days_since_push": 2,
+  "age_days": 131,
+  "days_since_push": 3,
   "health_score": 88,
   "health_components": {
     "popularity": 100.0,
@@ -41,10 +41,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4597,
+    "stars_gained": 5751,
     "days_span": 5,
-    "stars_per_day": 919.4,
-    "lifetime_stars_per_day": 1296.2,
+    "stars_per_day": 1150.2,
+    "lifetime_stars_per_day": 1301.49,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:27:18+00:00",
+  "fetched_at": "2026-10-21T09:23:54+00:00",
   "categories": [
     "desktop-ui"
   ],

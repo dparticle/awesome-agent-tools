@@ -6,8 +6,8 @@
   "url": "https://github.com/michaelshimeles/skills",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1358,
-  "forks": 220,
+  "stars": 1364,
+  "forks": 221,
   "open_issues": 2,
   "language": "Python",
   "license": "",
@@ -22,26 +22,26 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-10-20T08:17:46Z",
+  "updated_at": "2026-10-21T08:55:58Z",
   "pushed_at": "2026-10-19T01:49:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 228,
-  "days_since_push": 1,
+  "age_days": 229,
+  "days_since_push": 2,
   "health_score": 56,
   "health_components": {
     "popularity": 62.7,
-    "momentum": 6.2,
+    "momentum": 5.5,
     "maintenance": 100.0,
     "documentation": 39.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 37,
+    "stars_gained": 33,
     "days_span": 5,
-    "stars_per_day": 7.4,
+    "stars_per_day": 6.6,
     "lifetime_stars_per_day": 5.96,
     "basis": "history",
     "is_fast_riser": true
@@ -129,26 +129,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:20+00:00",
+  "fetched_at": "2026-10-21T09:24:55+00:00",
   "categories": [
     "desktop-ui",
+    "desktop-ui-2",
     "parallelism-isolation"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "michaelshimeles/skills",
-      "challenger": "tencentcloud/octop",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "michaelshimeles/skills",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -157,15 +158,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 7.649,
-      "momentum_ratio": 25.622,
-      "setup_delta": 10,
-      "dominance": 0.95,
+      "star_ratio": 24.685,
+      "momentum_ratio": 2.939,
+      "setup_delta": -20,
+      "dominance": 0.934,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "7.65x the stars (10,388 vs 1,358)",
-        "25.62x the star velocity (189.6/day vs 7.4/day)",
-        "slightly heavier setup (+10 friction, within tolerance)"
+        "24.68x the stars (33,670 vs 1,364)",
+        "2.94x the star velocity (19.4/day vs 6.6/day)",
+        "no harder to set up (2 vs 22 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -179,24 +180,21 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
-          "self-hosted",
+          "remote-control",
           "skills-plugins",
           "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 87,
+        "challenger_health": 71,
         "incumbent_setup_score": 22,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 2
       }
     }
   }

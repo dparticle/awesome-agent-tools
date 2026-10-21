@@ -21,10 +21,10 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-27 |
-| Last push | 2026-07-10 (102 days ago) |
+| Last push | 2026-07-10 (103 days ago) |
 | Analyzed README | 7,017 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** — Superseded by kitfunso/hippo-memory: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 

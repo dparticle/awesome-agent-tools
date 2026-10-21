@@ -6,7 +6,7 @@
   "url": "https://github.com/Lling0000/Vibe_coding_guide",
   "description": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
   "homepage": "https://lling0000.github.io/Vibe_coding_guide/",
-  "stars": 234,
+  "stars": 236,
   "forks": 23,
   "open_issues": 4,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "worktree"
   ],
   "created_at": "2026-05-05T14:19:27Z",
-  "updated_at": "2026-10-17T10:23:39Z",
+  "updated_at": "2026-10-21T02:07:52Z",
   "pushed_at": "2026-06-25T15:20:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 167,
-  "days_since_push": 116,
+  "age_days": 168,
+  "days_since_push": 117,
   "health_score": 40,
   "health_components": {
-    "popularity": 47.4,
-    "momentum": 0.2,
+    "popularity": 47.5,
+    "momentum": 0.5,
     "maintenance": 55.0,
     "documentation": 48.0,
     "accessibility": 70.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.4,
     "basis": "history",
     "is_fast_riser": false
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:29:16+00:00",
+  "fetched_at": "2026-10-21T09:25:53+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation",
@@ -159,15 +159,15 @@
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by maxritter/pilot-shell: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 maxritter/pilot-shell 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "maxritter/pilot-shell",
+    "note_en": "Superseded by first-fluke/oh-my-agent: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 first-fluke/oh-my-agent 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "first-fluke/oh-my-agent",
     "challenger": "",
     "supersede": {
       "incumbent": "lling0000/vibe_coding_guide",
-      "challenger": "maxritter/pilot-shell",
+      "challenger": "first-fluke/oh-my-agent",
       "incumbent_name": "Lling0000/Vibe_coding_guide",
-      "challenger_name": "maxritter/pilot-shell",
+      "challenger_name": "first-fluke/oh-my-agent",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -180,15 +180,15 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 8.957,
-      "momentum_ratio": 5.0,
-      "setup_delta": -18,
-      "dominance": 1.0,
+      "star_ratio": 5.725,
+      "momentum_ratio": 2.333,
+      "setup_delta": 0,
+      "dominance": 0.905,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "8.96x the stars (2,096 vs 234)",
-        "5.00x the star velocity (1.0/day vs 0.2/day)",
-        "no harder to set up (12 vs 30 friction)"
+        "5.72x the stars (1,351 vs 236)",
+        "2.33x the star velocity (1.4/day vs 0.6/day)",
+        "no harder to set up (30 vs 30 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -202,20 +202,25 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
+          "quota-management",
+          "remote-control",
+          "session-persistence",
           "skills-plugins",
           "worktree-isolation"
         ],
         "incumbent_health": 40,
-        "challenger_health": 61,
+        "challenger_health": 57,
         "incumbent_setup_score": 30,
-        "challenger_setup_score": 12
+        "challenger_setup_score": 30
       }
     }
   }

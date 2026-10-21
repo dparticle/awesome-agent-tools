@@ -6,8 +6,8 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 827,
-  "forks": 69,
+  "stars": 826,
+  "forks": 66,
   "open_issues": 3,
   "language": "Go",
   "license": "MIT",
@@ -32,33 +32,33 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-10-19T20:43:24Z",
-  "pushed_at": "2026-10-19T20:43:24Z",
+  "updated_at": "2026-10-20T20:14:51Z",
+  "pushed_at": "2026-10-20T20:15:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 44,
+  "age_days": 45,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 55,
   "health_components": {
-    "popularity": 58.4,
-    "momentum": 4.8,
+    "popularity": 58.3,
+    "momentum": 3.0,
     "maintenance": 100.0,
-    "documentation": 63.0,
+    "documentation": 70.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 29,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 5.8,
-    "lifetime_stars_per_day": 18.8,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 18.36,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "okf-memory/okf-agent-memory",
-    "readme_chars": 19220,
+    "readme_chars": 20702,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -100,19 +100,21 @@
       "note_en": "Some setup. needs make build; configure server/reverse-proxy setup",
       "note_zh": "需要一些配置。需要 make build；需配置 server/reverse-proxy setup"
     },
-    "doc_score": 63,
+    "doc_score": 70,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
       "has a quick-start section",
+      "documents installation",
       "documents configuration",
       "has contribution guidance",
       "mentions licensing",
       "documents changes",
       "publishes a roadmap",
       "reports benchmarks",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -127,13 +129,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.416
+      "external_link_ratio": 0.386
     },
     "highlights": [
       "Agent Action Grammar (AAG): Ultra-compact, deterministic ASCII micro-syntax saving ~78–85% tokens compared to natural language prompt instructions.",
+      "Graph Integrity (30%): Strict OKF v0.2 graph health (0 broken links, 0 orphans, valid DAG).",
       "Layer 2: Semantic Domain Memory (Pull Layer): An OKF v0.2 knowledge bundle (knowledge/) that consumes 0 tokens at baseline and is queried on-demand in microseconds.",
-      "Zero API Costs for Memory Retrieval: Local lexical BM25 indexing eliminates recurring vector embedding API costs and network roundtrips.",
-      "Layer 1: Normative Working Memory (Push Layer): A permanent, ultra-compact behavioral codex (capped at 400 tokens) expressed in Agent Action Grammar (AAG)."
+      "Zero API Costs for Memory Retrieval: Local lexical BM25 indexing eliminates recurring vector embedding API costs and network roundtrips."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -144,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:30+00:00",
+  "fetched_at": "2026-10-21T09:25:05+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -153,15 +155,15 @@
   "primary_category": "self-hosting-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "eugeniughelbur/obsidian-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "okf-memory/okf-agent-memory",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "eugeniughelbur/obsidian-second-brain",
       "incumbent_name": "okf-memory/okf-agent-memory",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "eugeniughelbur/obsidian-second-brain",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -173,15 +175,15 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 35.915,
-      "momentum_ratio": 7.586,
-      "setup_delta": -13,
-      "dominance": 1.0,
+      "star_ratio": 5.86,
+      "momentum_ratio": 3.389,
+      "setup_delta": -21,
+      "dominance": 0.952,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "35.92x the stars (29,702 vs 827)",
-        "7.59x the star velocity (44.0/day vs 5.8/day)",
-        "no harder to set up (32 vs 45 friction)"
+        "5.86x the stars (4,840 vs 826)",
+        "3.39x the star velocity (12.2/day vs 3.6/day)",
+        "no harder to set up (24 vs 45 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -196,9 +198,7 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
-          "billing-metering",
           "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
@@ -206,14 +206,12 @@
           "notifications",
           "quota-management",
           "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
+          "skills-plugins"
         ],
-        "incumbent_health": 54,
-        "challenger_health": 73,
+        "incumbent_health": 55,
+        "challenger_health": 63,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 24
       }
     }
   }

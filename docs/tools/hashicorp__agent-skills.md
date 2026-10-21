@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 901 |
-| Star velocity | 0.8/day (history basis, 5d span) |
+| Stars | 903 |
+| Star velocity | 1.0/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 32/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MPL-2.0 |
 | Language | HCL |
 | Created | 2025-11-08 |
-| Last push | 2026-10-05 (15 days ago) |
+| Last push | 2026-10-05 (16 days ago) |
 | Analyzed README | 3,405 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -65,7 +65,7 @@ Score **32/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 59.1 |
-| momentum | 0.7 |
+| momentum | 0.8 |
 | maintenance | 92.0 |
 | documentation | 32.0 |
 | accessibility | 90.0 |

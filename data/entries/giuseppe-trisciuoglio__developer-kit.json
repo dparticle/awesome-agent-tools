@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 364,
-  "days_since_push": 39,
+  "age_days": 365,
+  "days_since_push": 40,
   "health_score": 43,
   "health_components": {
     "popularity": 51.1,
@@ -147,22 +147,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:57+00:00",
+  "fetched_at": "2026-10-21T09:25:33+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
+    "note_en": "Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 abubakarsiddik31/claude-skills-collection 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "abubakarsiddik31/claude-skills-collection",
     "challenger": "",
     "supersede": {
       "incumbent": "giuseppe-trisciuoglio/developer-kit",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
+      "challenger": "abubakarsiddik31/claude-skills-collection",
       "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
+      "challenger_name": "abubakarsiddik31/claude-skills-collection",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -174,15 +175,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.417,
-      "momentum_ratio": 16.0,
-      "setup_delta": -45,
-      "dominance": 0.951,
+      "star_ratio": 3.069,
+      "momentum_ratio": 6.0,
+      "setup_delta": -20,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.42x the stars (870 vs 360)",
-        "16.00x the star velocity (3.2/day vs 0.2/day)",
-        "no harder to set up (21 vs 66 friction)"
+        "3.07x the stars (1,105 vs 360)",
+        "6.00x the star velocity (1.2/day vs 0.2/day)",
+        "no harder to set up (46 vs 66 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -195,18 +196,21 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins"
+          "notifications",
+          "skills-plugins",
+          "worktree-isolation"
         ],
         "incumbent_health": 43,
-        "challenger_health": 58,
+        "challenger_health": 50,
         "incumbent_setup_score": 66,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 46
       }
     }
   }

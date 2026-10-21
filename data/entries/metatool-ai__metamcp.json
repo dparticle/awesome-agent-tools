@@ -6,8 +6,8 @@
   "url": "https://github.com/metatool-ai/metamcp",
   "description": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
   "homepage": "https://docs.metamcp.com",
-  "stars": 2716,
-  "forks": 454,
+  "stars": 2717,
+  "forks": 438,
   "open_issues": 119,
   "language": "TypeScript",
   "license": "MIT",
@@ -29,27 +29,27 @@
     "vibe-coding"
   ],
   "created_at": "2025-01-22T11:58:52Z",
-  "updated_at": "2026-10-20T08:58:37Z",
+  "updated_at": "2026-10-21T05:35:55Z",
   "pushed_at": "2026-06-22T16:50:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "ai-dev",
-  "age_days": 635,
-  "days_since_push": 119,
+  "age_days": 636,
+  "days_since_push": 120,
   "health_score": 46,
   "health_components": {
     "popularity": 68.7,
-    "momentum": 1.5,
+    "momentum": 1.7,
     "maintenance": 55.0,
     "documentation": 88.0,
     "accessibility": 8.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 4.28,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 4.27,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -154,12 +154,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:11+00:00",
+  "fetched_at": "2026-10-21T09:24:47+00:00",
   "categories": [
     "desktop-ui-2",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

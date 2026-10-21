@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 336 |
-| Star velocity | 3.6/day (history basis, 5d span) |
+| Stars | 338 |
+| Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 17,721 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 18,048 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -48,7 +48,7 @@
 
 ### Security & isolation
 
-> 10-15 顶栏新增收件箱：待审批和待答复优先，接着是出错、运行中和未读任务；独立定时任务的完成结果也会出现，点开可看完整执行过程
+> 知已读后不再反复提醒；区分本轮结束、停止和未完成；生成网页增加脚本语法检查，视频输出避免覆盖
 
 ### Self-hostable
 
@@ -98,8 +98,8 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.5 |
-| momentum | 3.0 |
+| popularity | 50.6 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 63.0 |

@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 827 |
-| Star velocity | 5.8/day (history basis, 5d span) |
-| Health score | 54/100 |
-| Documentation | 63/100 |
+| Stars | 826 |
+| Star velocity | 3.6/day (history basis, 5d span) |
+| Health score | 55/100 |
+| Documentation | 70/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-05 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 19,220 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 20,702 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** — Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -58,12 +58,13 @@
 
 ## Documentation quality
 
-Score **63/100**, based on these detected signals:
+Score **70/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - has a quick-start section
+- documents installation
 - documents configuration
 - has contribution guidance
 - mentions licensing
@@ -71,15 +72,16 @@ Score **63/100**, based on these detected signals:
 - publishes a roadmap
 - reports benchmarks
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.4 |
-| momentum | 4.8 |
+| popularity | 58.3 |
+| momentum | 3.0 |
 | maintenance | 100.0 |
-| documentation | 63.0 |
+| documentation | 70.0 |
 | accessibility | 55.0 |
 
 ---

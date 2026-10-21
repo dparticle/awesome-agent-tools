@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,759 |
-| Star velocity | 2.8/day (history basis, 5d span) |
-| Health score | 54/100 |
-| Documentation | 71/100 |
+| Stars | 1,761 |
+| Star velocity | 2.6/day (history basis, 5d span) |
+| Health score | 59/100 |
+| Documentation | 75/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-08-04 |
-| Last push | 2026-08-20 (60 days ago) |
-| Analyzed README | 32,381 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 33,442 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).
 
 ## What it solves
 
@@ -36,7 +38,7 @@
 
 ### MCP support
 
-> Seek API endpoint overrides, normalized JSONL results, and CLI/config/doctor integration.
+> n existing agent; it provides the durable execution loop around one.
 
 ### Security & isolation
 
@@ -63,13 +65,13 @@
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** environment variables, API key configuration, config file, config.json/yaml/toml, server/reverse-proxy setup
+**Configuration required:** environment variables, API key configuration, config file, config.json/yaml/toml, server/reverse-proxy setup, process manager
 
 *Easy. install via pip install, global npm install; needs npm install/build; configure environment variables, API key configuration; GUI application*
 
 ## Documentation quality
 
-Score **71/100**, based on these detected signals:
+Score **75/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -80,6 +82,7 @@ Score **71/100**, based on these detected signals:
 - mentions licensing
 - links to dedicated docs
 - has a Chinese translation
+- documents changes
 - reports benchmarks
 - long, detailed README
 
@@ -88,9 +91,9 @@ Score **71/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 64.9 |
-| momentum | 2.3 |
-| maintenance | 78.0 |
-| documentation | 71.0 |
+| momentum | 2.2 |
+| maintenance | 100.0 |
+| documentation | 75.0 |
 | accessibility | 70.0 |
 
 ---

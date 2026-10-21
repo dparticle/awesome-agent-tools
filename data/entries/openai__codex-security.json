@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11141,
-  "forks": 1002,
-  "open_issues": 198,
+  "stars": 11148,
+  "forks": 893,
+  "open_issues": 193,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,12 +29,12 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-10-20T08:11:49Z",
-  "pushed_at": "2026-10-20T09:11:48Z",
+  "updated_at": "2026-10-21T08:25:23Z",
+  "pushed_at": "2026-10-21T09:09:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 98,
+  "age_days": 99,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
@@ -49,7 +49,7 @@
     "stars_gained": 34,
     "days_span": 5,
     "stars_per_day": 6.8,
-    "lifetime_stars_per_day": 113.68,
+    "lifetime_stars_per_day": 112.61,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:27:24+00:00",
+  "fetched_at": "2026-10-21T09:24:00+00:00",
   "categories": [
     "model-routing"
   ],

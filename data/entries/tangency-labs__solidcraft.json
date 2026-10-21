@@ -6,9 +6,9 @@
   "url": "https://github.com/tangency-labs/solidcraft",
   "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
   "homepage": "solidcraft.io",
-  "stars": 7734,
-  "forks": 889,
-  "open_issues": 1523,
+  "stars": 8519,
+  "forks": 996,
+  "open_issues": 1893,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -23,16 +23,16 @@
     "wasm"
   ],
   "created_at": "2026-10-07T18:57:48Z",
-  "updated_at": "2026-10-20T09:26:37Z",
-  "pushed_at": "2026-10-20T08:49:27Z",
+  "updated_at": "2026-10-21T09:23:11Z",
+  "pushed_at": "2026-10-21T09:23:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 12,
+  "age_days": 13,
   "days_since_push": 0,
   "health_score": 87,
   "health_components": {
-    "popularity": 77.8,
+    "popularity": 78.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 55.0,
@@ -40,16 +40,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7734,
-    "days_span": 12,
-    "stars_per_day": 644.5,
-    "lifetime_stars_per_day": 644.5,
+    "stars_gained": 8519,
+    "days_span": 13,
+    "stars_per_day": 655.31,
+    "lifetime_stars_per_day": 655.31,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tangency-labs/solidcraft",
-    "readme_chars": 9222,
+    "readme_chars": 9952,
     "capabilities": [
       "mcp-support",
       "gui-desktop"
@@ -109,7 +109,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.542
+      "external_link_ratio": 0.502
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -121,7 +121,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:27:29+00:00",
+  "fetched_at": "2026-10-21T09:24:03+00:00",
   "categories": [
     "desktop-ui-2"
   ],

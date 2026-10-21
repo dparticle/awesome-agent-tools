@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 486 |
-| Star velocity | 2.0/day (history basis, 5d span) |
+| Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-10-20 (0 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [spinabot/brigade](https://github.com/spinabot/brigade)** — Superseded by spinabot/brigade: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -72,7 +72,7 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.7 |
-| momentum | 1.7 |
+| momentum | 1.0 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 49.0 |

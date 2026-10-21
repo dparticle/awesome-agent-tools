@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 654,
-  "days_since_push": 4,
+  "age_days": 655,
+  "days_since_push": 5,
   "health_score": 53,
   "health_components": {
     "popularity": 53.0,
@@ -127,16 +127,75 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:47+00:00",
+  "fetched_at": "2026-10-21T09:25:23+00:00",
   "categories": [
-    "providers"
+    "security-self-hosting"
   ],
-  "primary_category": "providers",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "delorenj/mcp-server-trello",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "delorenj/mcp-server-trello",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 66.673,
+      "momentum_ratio": 664.0,
+      "setup_delta": -2,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "66.67x the stars (29,736 vs 446)",
+        "664.00x the star velocity (33.2/day vs 0.0/day)",
+        "no harder to set up (32 vs 34 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 71,
+        "incumbent_setup_score": 34,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

@@ -7,8 +7,8 @@
   "description": "The QuickBooks MCP Server lets AI assistants access QuickBooks data via a standard interface. It uses the Model Context Protocol to expose QBO features as callable tools, enabling developers to build AI apps that fetch real-time QBO data through MCP.",
   "homepage": "",
   "stars": 432,
-  "forks": 264,
-  "open_issues": 38,
+  "forks": 266,
+  "open_issues": 39,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 378,
-  "days_since_push": 34,
+  "age_days": 379,
+  "days_since_push": 35,
   "health_score": 43,
   "health_components": {
     "popularity": 52.7,
@@ -116,7 +116,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:48+00:00",
+  "fetched_at": "2026-10-21T09:25:25+00:00",
   "categories": [
     "billing"
   ],

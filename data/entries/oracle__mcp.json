@@ -6,26 +6,26 @@
   "url": "https://github.com/oracle/mcp",
   "description": "Repository containing MCP (Model Context Protocol) servers that provides a suite of tools for managing and interacting with Oracle products.",
   "homepage": "",
-  "stars": 463,
+  "stars": 464,
   "forks": 149,
-  "open_issues": 53,
+  "open_issues": 54,
   "language": "Python",
   "license": "UPL-1.0",
   "topics": [],
   "created_at": "2025-07-27T08:02:34Z",
-  "updated_at": "2026-10-20T08:11:30Z",
-  "pushed_at": "2026-10-19T19:11:16Z",
+  "updated_at": "2026-10-21T00:53:44Z",
+  "pushed_at": "2026-10-21T00:56:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 450,
+  "age_days": 451,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 55,
   "health_components": {
     "popularity": 53.3,
     "momentum": 0.3,
     "maintenance": 100.0,
-    "documentation": 58.0,
+    "documentation": 59.0,
     "accessibility": 84.0
   },
   "tier": "notable",
@@ -39,7 +39,7 @@
   },
   "analysis": {
     "full_name": "oracle/mcp",
-    "readme_chars": 24143,
+    "readme_chars": 25079,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -69,6 +69,7 @@
       "easy_signals": [
         "npx one-liner",
         "uvx one-liner",
+        "Homebrew install",
         "go install",
         "native installer / package"
       ],
@@ -87,7 +88,7 @@
       "note_en": "Turnkey. install via npx one-liner, uvx one-liner; configure API key configuration, config file",
       "note_zh": "开箱即用。可通过 npx one-liner、uvx one-liner 安装；需配置 API key configuration、config file"
     },
-    "doc_score": 58,
+    "doc_score": 59,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -114,7 +115,7 @@
       "signals": [
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.621
+      "external_link_ratio": 0.638
     },
     "highlights": [
       "Verify the ollama server has started with curl http://localhost:11434.",
@@ -131,72 +132,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:46+00:00",
+  "fetched_at": "2026-10-21T09:25:22+00:00",
   "categories": [
-    "self-hosting-security",
-    "sessions"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "oracle/mcp",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
-      "incumbent_name": "oracle/mcp",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "model-routing",
-        "multi-agent-orchestration",
-        "security-isolation"
-      ],
-      "star_ratio": 10.419,
-      "momentum_ratio": 28.0,
-      "setup_delta": 8,
-      "dominance": 0.96,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "10.42x the stars (4,824 vs 463)",
-        "28.00x the star velocity (11.2/day vs 0.4/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "model-routing",
-          "multi-agent-orchestration",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 62,
-        "incumbent_setup_score": 16,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

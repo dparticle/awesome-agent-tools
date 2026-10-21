@@ -18,18 +18,18 @@
     "worktree"
   ],
   "created_at": "2026-02-05T03:46:15Z",
-  "updated_at": "2026-10-11T04:16:04Z",
-  "pushed_at": "2026-08-25T13:49:31Z",
+  "updated_at": "2026-10-20T16:23:59Z",
+  "pushed_at": "2026-10-20T16:23:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 257,
-  "days_since_push": 55,
-  "health_score": 47,
+  "age_days": 258,
+  "days_since_push": 0,
+  "health_score": 51,
   "health_components": {
     "popularity": 48.9,
     "momentum": 0.0,
-    "maintenance": 78.0,
+    "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 72.0
   },
@@ -44,7 +44,7 @@
   },
   "analysis": {
     "full_name": "nekocode/agent-worktree",
-    "readme_chars": 9327,
+    "readme_chars": 9481,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -111,7 +111,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.107
+      "external_link_ratio": 0.105
     },
     "highlights": [
       "Uncommitted changes → [r] reopen the agent / [q] keep worktree",
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:29:08+00:00",
+  "fetched_at": "2026-10-21T09:25:44+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -160,14 +160,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 4.025,
-      "momentum_ratio": 168.0,
+      "star_ratio": 4.036,
+      "momentum_ratio": 144.0,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "4.03x the stars (1,127 vs 280)",
-        "168.00x the star velocity (8.4/day vs 0.0/day)",
+        "4.04x the stars (1,130 vs 280)",
+        "144.00x the star velocity (7.2/day vs 0.0/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -198,7 +198,7 @@
           "usage-analytics",
           "worktree-isolation"
         ],
-        "incumbent_health": 47,
+        "incumbent_health": 51,
         "challenger_health": 57,
         "incumbent_setup_score": 40,
         "challenger_setup_score": 48

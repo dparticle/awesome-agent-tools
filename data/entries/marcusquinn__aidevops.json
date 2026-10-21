@@ -6,9 +6,9 @@
   "url": "https://github.com/marcusquinn/aidevops",
   "description": "Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, security, and 24/7 results. Open-source first. SOTA everything. The best AI harness for GitHub & teamwork.",
   "homepage": "https://www.aidevops.sh",
-  "stars": 417,
-  "forks": 70,
-  "open_issues": 14,
+  "stars": 420,
+  "forks": 72,
+  "open_issues": 16,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -33,26 +33,26 @@
     "opencode-plugin"
   ],
   "created_at": "2025-11-09T05:15:11Z",
-  "updated_at": "2026-10-20T07:42:56Z",
-  "pushed_at": "2026-10-20T08:06:54Z",
+  "updated_at": "2026-10-21T06:50:38Z",
+  "pushed_at": "2026-10-21T06:50:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 345,
+  "age_days": 346,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 55,
   "health_components": {
-    "popularity": 52.4,
-    "momentum": 1.3,
+    "popularity": 52.5,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 1.6,
+    "stars_per_day": 2.0,
     "lifetime_stars_per_day": 1.21,
     "basis": "history",
     "is_fast_riser": false
@@ -186,13 +186,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:51+00:00",
+  "fetched_at": "2026-10-21T09:25:27+00:00",
   "categories": [
     "billing",
-    "parallelism-isolation",
+    "teams",
     "voice-remote-control"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

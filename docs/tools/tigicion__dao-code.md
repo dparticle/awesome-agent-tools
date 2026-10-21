@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 789 |
-| Star velocity | 0.4/day (history basis, 5d span) |
-| Health score | 52/100 |
+| Stars | 788 |
+| Star velocity | 0.2/day (history basis, 5d span) |
+| Health score | 53/100 |
 | Documentation | 67/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-08 |
-| Last push | 2026-09-22 (28 days ago) |
-| Analyzed README | 27,703 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 28,439 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,7 +34,7 @@
 
 ### Parallel execution
 
-> - **Subagent orchestration**: parallel tasks[], async background:true, isolate:true git-worktree isolation, tasksend to append instructions to a running task, foreground timeout auto-converts to background, transcripts…
+> - Subagent orchestration: parallel tasks[], async background:true, isolate:true git-worktree isolation, tasksend to append instructions to a running task, foreground timeout auto-converts to background, transcripts spil…
 
 ### Workspace isolation
 
@@ -64,7 +64,7 @@
 
 ### Security & isolation
 
-> ty **deny > dangerous commands > bypass > sensitive targets > ask > allow > mode/capability default** (deny is a hard blacklist, blocking even under YOLO; dangerous commands like rm -rf / also always require confirmatio…
+> rity *deny > dangerous commands > bypass > sensitive targets > ask > allow > mode/capability default* (deny is a hard blacklist, blocking even under YOLO; dangerous commands like rm -rf / also always require confirmatio…
 
 ### GUI / desktop app
 
@@ -72,7 +72,7 @@
 
 ### Notifications
 
-> - **Parallel / background subagents + notification queue**: pass tasks[] to run in parallel, or background:true to run in the background (returns immediately, doesn't block the main loop); on completion the result is au…
+> - Parallel / background subagents + notification queue: pass tasks[] to run in parallel, or background:true to run in the background (returns immediately, doesn't block the main loop); on completion the result is auto-i…
 
 ### Cross-agent support
 
@@ -114,8 +114,8 @@ Score **67/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 57.9 |
-| momentum | 0.3 |
-| maintenance | 92.0 |
+| momentum | 0.2 |
+| maintenance | 100.0 |
 | documentation | 67.0 |
 | accessibility | 54.0 |
 

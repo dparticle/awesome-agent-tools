@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 554 |
-| Star velocity | 1.8/day (history basis, 5d span) |
-| Health score | 54/100 |
+| Stars | 553 |
+| Star velocity | 0.8/day (history basis, 5d span) |
+| Health score | 53/100 |
 | Documentation | 62/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-22 |
-| Last push | 2026-10-16 (3 days ago) |
-| Analyzed README | 10,891 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 11,244 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -77,7 +79,7 @@ Score **62/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.9 |
-| momentum | 1.5 |
+| momentum | 0.7 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 67.0 |

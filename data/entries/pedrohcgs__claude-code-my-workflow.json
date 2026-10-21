@@ -6,8 +6,8 @@
   "url": "https://github.com/pedrohcgs/claude-code-my-workflow",
   "description": "A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
   "homepage": "https://psantanna.com/claude-code-my-workflow/",
-  "stars": 1665,
-  "forks": 3118,
+  "stars": 1666,
+  "forks": 3123,
   "open_issues": 6,
   "language": "HTML",
   "license": "MIT",
@@ -24,13 +24,13 @@
     "research-workflow"
   ],
   "created_at": "2026-02-06T17:29:50Z",
-  "updated_at": "2026-10-20T07:30:38Z",
+  "updated_at": "2026-10-21T09:06:23Z",
   "pushed_at": "2026-09-27T22:26:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 255,
-  "days_since_push": 22,
+  "age_days": 256,
+  "days_since_push": 23,
   "health_score": 59,
   "health_components": {
     "popularity": 64.4,
@@ -44,7 +44,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 6.53,
+    "lifetime_stars_per_day": 6.51,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -155,7 +155,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:15+00:00",
+  "fetched_at": "2026-10-21T09:24:51+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation",

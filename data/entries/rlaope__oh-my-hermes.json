@@ -4,11 +4,11 @@
   "name": "oh-my-hermes",
   "owner": "rlaope",
   "url": "https://github.com/rlaope/oh-my-hermes",
-  "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+  "description": "The packages for Hermes Agent ⚚ skills, coding harness, long-term memory, model optimized subagent & bot team workflows",
   "homepage": "https://rlaope.github.io/oh-my-hermes/",
-  "stars": 3445,
-  "forks": 257,
-  "open_issues": 16,
+  "stars": 3501,
+  "forks": 265,
+  "open_issues": 13,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -23,33 +23,33 @@
     "skills"
   ],
   "created_at": "2026-06-03T13:00:34Z",
-  "updated_at": "2026-10-20T09:11:04Z",
-  "pushed_at": "2026-10-20T09:25:34Z",
+  "updated_at": "2026-10-21T09:22:19Z",
+  "pushed_at": "2026-10-21T09:13:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 138,
+  "age_days": 139,
   "days_since_push": 0,
-  "health_score": 65,
+  "health_score": 67,
   "health_components": {
-    "popularity": 70.7,
-    "momentum": 11.0,
+    "popularity": 70.9,
+    "momentum": 19.3,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 99.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 66,
+    "stars_gained": 116,
     "days_span": 5,
-    "stars_per_day": 13.2,
-    "lifetime_stars_per_day": 24.96,
+    "stars_per_day": 23.2,
+    "lifetime_stars_per_day": 25.19,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rlaope/oh-my-hermes",
-    "readme_chars": 40541,
+    "readme_chars": 35830,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -69,7 +69,7 @@
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 2,
+      "multi-agent-orchestration": 1,
       "parallel-execution": 1,
       "worktree-isolation": 1,
       "model-routing": 1,
@@ -131,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.099
+      "external_link_ratio": 0.112
     },
     "highlights": [
       "Mixture-of-Models Routing — each delegated lane is routed onto a"
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:09+00:00",
+  "fetched_at": "2026-10-21T09:24:44+00:00",
   "categories": [
     "desktop-ui",
     "model-routing",

@@ -14,15 +14,15 @@
 | --- | --- |
 | Stars | 280 |
 | Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 47/100 |
+| Health score | 51/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-02-05 |
-| Last push | 2026-08-25 (55 days ago) |
-| Analyzed README | 9,327 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-20 (0 days ago) |
+| Analyzed README | 9,481 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** — Superseded by asheshgoplani/agent-deck: covers 100% of capabilities (6/6).
 
@@ -82,7 +82,7 @@ Score **54/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 48.9 |
 | momentum | 0.0 |
-| maintenance | 78.0 |
+| maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 72.0 |
 

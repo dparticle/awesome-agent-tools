@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 590,
-  "days_since_push": 4,
+  "age_days": 591,
+  "days_since_push": 5,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -134,23 +134,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:56+00:00",
+  "fetched_at": "2026-10-21T09:25:32+00:00",
   "categories": [
-    "desktop-ui-2",
-    "security"
+    "security-self-hosting"
   ],
-  "primary_category": "security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by aipoch/open-science: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 aipoch/open-science 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "aipoch/open-science",
+    "note_en": "Superseded by 0xsline/OpenChatCut: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 0xsline/OpenChatCut 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "0xsline/OpenChatCut",
     "challenger": "",
     "supersede": {
       "incumbent": "nwiizo/tfmcp",
-      "challenger": "aipoch/open-science",
+      "challenger": "0xsline/openchatcut",
       "incumbent_name": "nwiizo/tfmcp",
-      "challenger_name": "aipoch/open-science",
+      "challenger_name": "0xsline/OpenChatCut",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -162,14 +161,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 14.255,
-      "momentum_ratio": 1704.0,
+      "star_ratio": 6.935,
+      "momentum_ratio": 526.6,
       "setup_delta": -11,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "14.26x the stars (5,303 vs 372)",
-        "1704.00x the star velocity (85.2/day vs 0.0/day)",
+        "6.94x the stars (2,580 vs 372)",
+        "526.60x the star velocity (26.3/day vs 0.0/day)",
         "no harder to set up (41 vs 52 friction)"
       ],
       "reasons_zh": [],
@@ -182,17 +181,18 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "billing-metering",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "model-routing",
           "remote-control",
           "security-isolation",
-          "skills-plugins"
+          "skills-plugins",
+          "worktree-isolation"
         ],
         "incumbent_health": 52,
-        "challenger_health": 78,
+        "challenger_health": 63,
         "incumbent_setup_score": 52,
         "challenger_setup_score": 41
       }

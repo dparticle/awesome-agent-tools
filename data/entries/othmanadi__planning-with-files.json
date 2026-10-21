@@ -6,9 +6,9 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
   "homepage": "https://gilded-laurel-c7nj.here.now/",
-  "stars": 27544,
+  "stars": 27556,
   "forks": 2293,
-  "open_issues": 6,
+  "open_issues": 8,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,37 +34,38 @@
     "session-recovery"
   ],
   "created_at": "2026-01-03T07:37:28Z",
-  "updated_at": "2026-10-20T08:52:04Z",
-  "pushed_at": "2026-10-17T21:51:12Z",
+  "updated_at": "2026-10-21T09:20:07Z",
+  "pushed_at": "2026-10-20T13:29:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 290,
-  "days_since_push": 2,
+  "age_days": 291,
+  "days_since_push": 0,
   "health_score": 69,
   "health_components": {
     "popularity": 88.8,
-    "momentum": 13.7,
+    "momentum": 14.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 82,
+    "stars_gained": 85,
     "days_span": 5,
-    "stars_per_day": 16.4,
-    "lifetime_stars_per_day": 94.98,
+    "stars_per_day": 17.0,
+    "lifetime_stars_per_day": 94.69,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "OthmanAdi/planning-with-files",
-    "readme_chars": 106348,
+    "readme_chars": 106777,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
       "worktree-isolation",
+      "session-persistence",
       "memory-context",
       "skills-plugins",
       "agent-runtime",
@@ -75,6 +76,7 @@
       "multi-agent-orchestration": ", Qoder CLI, Pi, Hermes Agent, OpenCode and DeepSeek Harness.",
       "parallel-execution": "ry mechanism below is a file on disk plus a hook, so it works the same on hour ten as on turn one.",
       "worktree-isolation": "** One orchestrator owns taskplan.md and the shared summaries; every worker appends to its own ledger or assigned file.",
+      "session-persistence": "",
       "memory-context": "",
       "skills-plugins": "ackage, wired up for you (skill, extension, status bar):",
       "agent-runtime": "s every turn, a plan on disk that survives /clear , and 3 out of 3 blind A/B wins to show it works.",
@@ -85,6 +87,7 @@
       "multi-agent-orchestration": 3,
       "parallel-execution": 1,
       "worktree-isolation": 1,
+      "session-persistence": 1,
       "memory-context": 1,
       "skills-plugins": 3,
       "agent-runtime": 5,
@@ -153,7 +156,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.348
+      "external_link_ratio": 0.347
     },
     "highlights": [
       "Host capability tiers: hard block on Claude Code, Codex, and Continue; follow-up injection on Cursor, Pi, Kiro, Hermes Agent, and OpenCode; notify-only elsewhere.",
@@ -170,10 +173,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:00+00:00",
+  "fetched_at": "2026-10-21T09:24:35+00:00",
   "categories": [
     "desktop-ui",
-    "parallelism-isolation"
+    "parallelism-isolation",
+    "self-hosting-security"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {

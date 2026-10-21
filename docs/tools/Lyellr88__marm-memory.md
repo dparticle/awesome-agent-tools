@@ -17,14 +17,12 @@
 | Health score | 54/100 |
 | Documentation | 82/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-06-10 |
-| Last push | 2026-10-16 (3 days ago) |
-| Analyzed README | 116,681 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (12/12).
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 117,052 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

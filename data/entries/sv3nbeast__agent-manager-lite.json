@@ -6,7 +6,7 @@
   "url": "https://github.com/sv3nbeast/agent-manager-lite",
   "description": "macOS 上的 Codex、Claude Code CLI 与 Claude Desktop 多实例管理器，统一管理账号、供应商密钥、独立配置、会话与代理。 / A macOS manager for Codex, Claude Code CLI and Claude Desktop instances, accounts, provider keys, isolated configs, sessions and proxies.",
   "homepage": "",
-  "stars": 377,
+  "stars": 435,
   "forks": 10,
   "open_issues": 0,
   "language": "TypeScript",
@@ -21,35 +21,36 @@
     "vue"
   ],
   "created_at": "2026-10-04T05:59:16Z",
-  "updated_at": "2026-10-20T09:11:33Z",
-  "pushed_at": "2026-10-20T08:05:58Z",
+  "updated_at": "2026-10-21T09:06:11Z",
+  "pushed_at": "2026-10-20T09:59:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 16,
+  "age_days": 17,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 51.5,
-    "momentum": 19.6,
+    "popularity": 52.8,
+    "momentum": 21.3,
     "maintenance": 100.0,
-    "documentation": 57.0,
+    "documentation": 58.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 377,
-    "days_span": 16,
-    "stars_per_day": 23.56,
-    "lifetime_stars_per_day": 23.56,
+    "stars_gained": 435,
+    "days_span": 17,
+    "stars_per_day": 25.59,
+    "lifetime_stars_per_day": 25.59,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sv3nbeast/agent-manager-lite",
-    "readme_chars": 9829,
+    "readme_chars": 10142,
     "capabilities": [
       "multi-account-switching",
+      "quota-management",
       "worktree-isolation",
       "provider-aggregation",
       "api-gateway",
@@ -62,6 +63,7 @@
     ],
     "capability_evidence": {
       "multi-account-switching": "Desktop 可在客户端内登录，也可选择 API / 第三方连接进入原生 Code / Cowork。",
+      "quota-management": "Responses 的 imagegeneration 工具，两种上游路径独立。",
       "worktree-isolation": "",
       "provider-aggregation": "",
       "api-gateway": "e CLI 实例可使用管理器刷新后的订阅访问凭据；刷新令牌留在管理器安全存储，不写入实例。",
@@ -69,11 +71,12 @@
       "agent-runtime": "",
       "mcp-support": "ock / Vertex / Foundry 等云模式和 npm 包装启动器尚未接入。",
       "team-collaboration": "oundry 等云模式和 npm 包装启动器尚未接入。",
-      "gui-desktop": "Desktop 的轻量多实例工作台，统一管理账号、供应商密钥、独立配置、会话和网络代理。",
+      "gui-desktop": "enAI 与 Anthropic Messages 密钥均可查询各自额度。",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
       "multi-account-switching": 2,
+      "quota-management": 3,
       "worktree-isolation": 2,
       "provider-aggregation": 2,
       "api-gateway": 4,
@@ -111,7 +114,7 @@
       "note_en": "Some setup. install via npx one-liner; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; GUI application",
       "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；GUI application"
     },
-    "doc_score": 57,
+    "doc_score": 58,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -140,13 +143,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.526
+      "external_link_ratio": 1.479
     },
     "highlights": [
       "本地 API：为 Codex 连接提供多账号、调度策略及独立访问密钥，支持模型范围和 Token 上限控制。",
       "模型与配置：按客户端能力选择模型。",
-      "Codex 个人技能：启动受管的桌面或 CLI 实例时，自动补齐本机 ~/.codex/skills 中的个人技能入口，已有实例和会话副本同样适用。",
-      "普通 / Fast：受支持的 Codex 桌面实例可在原有速度菜单中选择；本地 API 支持服务等级配置和实际出站等级记录。"
+      "Claude 会话：在统一「会话」页浏览默认 Claude Code 目录、受管 CLI 实例和 Claude Desktop 已保存的本地 Code 历史，按客户端、来源、项目、标题 / ID 和正文筛选。",
+      "Codex 个人技能：启动受管的桌面或 CLI 实例时，自动补齐本机 ~/.codex/skills 中的个人技能入口，已有实例和会话副本同样适用。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -157,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:55+00:00",
+  "fetched_at": "2026-10-21T09:25:24+00:00",
   "categories": [
-    "billing",
-    "desktop-ui-2",
-    "providers-2"
+    "providers-2",
+    "sharing",
+    "teams"
   ],
-  "primary_category": "billing",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

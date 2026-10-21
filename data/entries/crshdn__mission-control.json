@@ -8,7 +8,7 @@
   "homepage": "https://autensa.com",
   "stars": 2154,
   "forks": 437,
-  "open_issues": 19,
+  "open_issues": 20,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 261,
-  "days_since_push": 33,
+  "age_days": 262,
+  "days_since_push": 34,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
@@ -37,7 +37,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 8.25,
+    "lifetime_stars_per_day": 8.22,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,11 +149,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:13+00:00",
+  "fetched_at": "2026-10-21T09:24:48+00:00",
   "categories": [
     "analytics-2",
     "parallelism-isolation",
-    "security"
+    "security-self-hosting"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

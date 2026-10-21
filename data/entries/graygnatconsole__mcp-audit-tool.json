@@ -6,7 +6,7 @@
   "url": "https://github.com/graygnatconsole/mcp-audit-tool",
   "description": "🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan AI agent configs for tool poisoning, rug pulls, hardcoded secrets, command injection & supply-chain risks. Pure Python, SARIF + CI ready.",
   "homepage": "",
-  "stars": 493,
+  "stars": 544,
   "forks": 5,
   "open_issues": 1,
   "language": "Python",
@@ -33,27 +33,27 @@
     "vulnerability-scanner"
   ],
   "created_at": "2026-09-26T02:42:57Z",
-  "updated_at": "2026-10-20T09:16:44Z",
+  "updated_at": "2026-10-21T09:15:38Z",
   "pushed_at": "2026-09-26T08:17:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 24,
-  "days_since_push": 24,
+  "age_days": 25,
+  "days_since_push": 25,
   "health_score": 57,
   "health_components": {
-    "popularity": 53.9,
-    "momentum": 17.1,
+    "popularity": 54.7,
+    "momentum": 18.1,
     "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 493,
-    "days_span": 24,
-    "stars_per_day": 20.54,
-    "lifetime_stars_per_day": 20.54,
+    "stars_gained": 544,
+    "days_span": 25,
+    "stars_per_day": 21.76,
+    "lifetime_stars_per_day": 21.76,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -143,11 +143,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-20T09:28:43+00:00",
+  "fetched_at": "2026-10-21T09:25:15+00:00",
   "categories": [
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

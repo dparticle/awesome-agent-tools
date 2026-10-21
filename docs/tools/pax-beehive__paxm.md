@@ -17,14 +17,12 @@
 | Health score | 47/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-07-09 |
-| Last push | 2026-08-28 (52 days ago) |
+| Last push | 2026-08-28 (53 days ago) |
 | Analyzed README | 22,858 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [Lyellr88/marm-memory](https://github.com/Lyellr88/marm-memory)** — Superseded by Lyellr88/marm-memory: covers 100% of capabilities (7/7).
 
 ## What it solves
 

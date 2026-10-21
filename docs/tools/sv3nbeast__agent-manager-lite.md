@@ -12,23 +12,27 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 377 |
-| Star velocity | 23.6/day (lifetime basis, 16d span) |
+| Stars | 435 |
+| Star velocity | 25.6/day (lifetime basis, 17d span) |
 | Health score | 57/100 |
-| Documentation | 57/100 |
+| Documentation | 58/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-10-04 |
 | Last push | 2026-10-20 (0 days ago) |
-| Analyzed README | 9,829 chars from `raw:HEAD/README.md` |
+| Analyzed README | 10,142 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
 > Desktop 可在客户端内登录，也可选择 API / 第三方连接进入原生 Code / Cowork。
+
+### Quota & usage management
+
+> Responses 的 imagegeneration 工具，两种上游路径独立。
 
 ### Workspace isolation
 
@@ -54,7 +58,7 @@
 
 ### GUI / desktop app
 
-> Desktop 的轻量多实例工作台，统一管理账号、供应商密钥、独立配置、会话和网络代理。
+> enAI 与 Anthropic Messages 密钥均可查询各自额度。
 
 ### Cross-agent support
 
@@ -77,7 +81,7 @@
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **58/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -94,10 +98,10 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.5 |
-| momentum | 19.6 |
+| popularity | 52.8 |
+| momentum | 21.3 |
 | maintenance | 100.0 |
-| documentation | 57.0 |
+| documentation | 58.0 |
 | accessibility | 69.0 |
 
 ---

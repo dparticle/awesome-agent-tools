@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 234 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Stars | 236 |
+| Star velocity | 0.6/day (history basis, 5d span) |
 | Health score | 40/100 |
 | Documentation | 48/100 |
 | Tier | 👀 Watchlist |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-05-05 |
-| Last push | 2026-06-25 (116 days ago) |
+| Last push | 2026-06-25 (117 days ago) |
 | Analyzed README | 5,843 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell)** — Superseded by maxritter/pilot-shell: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [first-fluke/oh-my-agent](https://github.com/first-fluke/oh-my-agent)** — Superseded by first-fluke/oh-my-agent: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -74,8 +74,8 @@ Score **48/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 47.4 |
-| momentum | 0.2 |
+| popularity | 47.5 |
+| momentum | 0.5 |
 | maintenance | 55.0 |
 | documentation | 48.0 |
 | accessibility | 70.0 |

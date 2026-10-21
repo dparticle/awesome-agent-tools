@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "full_name": "Oldcircle/geo-sleuth",
+  "name": "geo-sleuth",
+  "owner": "Oldcircle",
+  "url": "https://github.com/Oldcircle/geo-sleuth",
+  "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+  "homepage": "",
+  "stars": 3685,
+  "forks": 489,
+  "open_issues": 15,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "computer-vision",
+    "cursor",
+    "gemini-cli",
+    "geoguessr",
+    "geoint",
+    "geolocation",
+    "github-copilot",
+    "image-geolocation",
+    "opencode",
+    "openstreetmap",
+    "osint",
+    "photo-geolocation",
+    "reverse-image-search",
+    "satellite-imagery"
+  ],
+  "created_at": "2026-09-18T08:51:34Z",
+  "updated_at": "2026-10-21T09:07:11Z",
+  "pushed_at": "2026-10-18T10:03:13Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 33,
+  "days_since_push": 2,
+  "health_score": 85,
+  "health_components": {
+    "popularity": 71.3,
+    "momentum": 93.1,
+    "maintenance": 100.0,
+    "documentation": 75.0,
+    "accessibility": 93.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 3685,
+    "days_span": 33,
+    "stars_per_day": 111.67,
+    "lifetime_stars_per_day": 111.67,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Oldcircle/geo-sleuth",
+    "readme_chars": 35066,
+    "capabilities": [
+      "auto-failover",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "the complete skill folder, including data/ and the helper modules in scripts/.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 7,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "uvx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via npx one-liner, uvx one-liner; needs git clone (build from source)",
+      "note_zh": "开箱即用。可通过 npx one-liner、uvx one-liner 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 75,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "An agent skill that finds where a photo was taken — and shows its work.",
+    "summary_zh": "",
+    "install_hint": "npx skills add Oldcircle/geo-sleuth",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.314
+    },
+    "highlights": [
+      "Checkpoints: the 171 sites that pass the horizon test should include intercity bridge segments near the answer; the skyline fit covers 14,372 camera positions, the top 20 lie within 0.1°, a…",
+      "Checkpoints: 184,517 street trees with coordinates in the city's data → 1,095 ornamental cherries with trunk diameter ≥ 40 cm → 97 street segments with at least three → 72 segments where th…",
+      "Example: examples/desert-roll-fix/ reproduces the fit before and after the roll change on the fixed 12 sites (true site from #8 at 12.0 px to #1 at 6.2 px).",
+      "Two runs: the table is the original solve that led to the roll fit (Claude Opus 5.0); the blind re-run came later, with a new agent on Claude Opus 5.5."
+    ],
+    "summary_zh_native": "一个 agent skill，能找到照片的拍摄地点——并展示它的推理过程。",
+    "highlights_zh": [
+      "盲测检查点：青海高压线 5,334 条；terrain.py scan 用默认的 --cluster-km 3.5，14,843 个命中聚成 792 簇；792 簇全部送进 terrain.py fit（分 6 批），山脊拟合之前没有按卫星图排名截断；最好的一处 0.224°，第二 0.357°；再用卫星图在视线方向上找沙丘和营地。",
+      "街景核验：match.py 整图排序不理想（盛花期，照片在人行道上拍而街景车走在路中间），于是用 --query-box 0,900,1440,1600 只比树所在的区域，再取 2009 / 2024 两期街景核对石墙、台阶、路灯杆这些不变的地物。",
+      "检查点：通过地平线检验的 171 处里应包含答案附近的广清城际桥段；天际线拟合 14,372 个机位，前 20 名相差不到 0.1°，靠\"桥左近右远\"筛到 22；叠图看前三名；最后用 17 根桥墩的方位线定点。",
+      "示例：examples/desert-roll-fix/ 用固定的 12 处复现横滚拟合前后（真值从第 8 名、12.0 px 到第 1 名、6.2 px）。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-21T09:24:13+00:00",
+  "categories": [
+    "providers"
+  ],
+  "primary_category": "providers",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

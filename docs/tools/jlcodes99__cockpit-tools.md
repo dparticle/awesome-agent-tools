@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,136 |
-| Star velocity | 26.8/day (history basis, 5d span) |
-| Health score | 67/100 |
-| Documentation | 60/100 |
+| Stars | 19,177 |
+| Star velocity | 29.8/day (history basis, 5d span) |
+| Health score | 68/100 |
+| Documentation | 61/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-10-19 (0 days ago) |
-| Analyzed README | 17,476 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 18,197 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -54,11 +54,11 @@
 
 ### API gateway / proxy
 
-> 权绑定状态；有效绑定始终高亮，不受是否加入 API 服务影响，服务成员状态单独显示。
+> 面板切回内置 Go CLIProxyAPI sidecar。
 
 ### Billing & metering
 
-> 优先级之间用下拉选择“官方授权 / 本地网关”，其余字段位置不变；未授权时选择官方会打开授权弹框，成功后更新草稿，取消保持原方式。
+> tom 工具、客户端工具发现和结果回传；工具由客户端执行，网关不代为执行本地操作。
 
 ### Security & isolation
 
@@ -71,6 +71,10 @@
 ### Notifications
 
 > ityide"，保持原有 IDE 切号流程及现有启动/无感双通道设置；不会读取前端选择的客户端。
+
+### Voice input
+
+> 使用 gpt-4o-mini-transcribe。
 
 ### Cross-agent support
 
@@ -93,7 +97,7 @@
 
 ## Documentation quality
 
-Score **60/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -110,10 +114,10 @@ Score **60/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 85.6 |
-| momentum | 22.3 |
+| popularity | 85.7 |
+| momentum | 24.8 |
 | maintenance | 100.0 |
-| documentation | 60.0 |
+| documentation | 61.0 |
 | accessibility | 68.0 |
 
 ---

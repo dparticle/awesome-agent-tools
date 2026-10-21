@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 84,186 |
-| Star velocity | 59.2/day (history basis, 5d span) |
+| Stars | 84,231 |
+| Star velocity | 57.6/day (history basis, 5d span) |
 | Health score | 77/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-20 (0 days ago) |
-| Analyzed README | 328,573 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 329,000 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -105,7 +105,7 @@
 
 **Signals that add work:** git clone (build from source), npm install/build, make build
 
-**Configuration required:** environment variables, API key configuration, config file, config.json/yaml/toml, OAuth login flow, sign-in required, API token/secret, database dependency, database migration, server/reverse-proxy setup
+**Configuration required:** environment variables, API key configuration, .env file, config file, config.json/yaml/toml, OAuth login flow, sign-in required, API token/secret, database dependency, database migration, server/reverse-proxy setup
 
 *Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; no-code positioning*
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.5 |
-| momentum | 49.3 |
+| momentum | 48.0 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |
