@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,982 |
-| Star velocity | 501.8/day (history basis, 5d span) |
+| Stars | 12,583 |
+| Star velocity | 586.8/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 67/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-05-21 |
-| Last push | 2026-10-21 (0 days ago) |
-| Analyzed README | 41,966 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-22 (0 days ago) |
+| Analyzed README | 44,296 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -64,7 +64,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Copilot, Crush
+> Mentions Claude Code, Cline, Codex, Copilot
 
 ## Setup reality check
 
@@ -101,7 +101,7 @@ Score **67/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.6 |
+| popularity | 82.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 67.0 |

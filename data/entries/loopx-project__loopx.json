@@ -6,9 +6,9 @@
   "url": "https://github.com/loopx-project/loopx",
   "description": "Turn long-horizon goals into verifiable results. A local-first control plane and research workbench for agents and teams, across sessions and runtimes.",
   "homepage": "https://loopx-project.github.io/loopx/",
-  "stars": 6382,
+  "stars": 6392,
   "forks": 607,
-  "open_issues": 165,
+  "open_issues": 142,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -16,43 +16,43 @@
     "agent-harness",
     "agentic-software",
     "ai-agents",
+    "auto-research",
     "claude-code",
     "codex",
     "local-first",
     "long-horizon-agents",
     "multi-agent",
-    "research-workbench",
-    "trajectory-analysis",
-    "typescript"
+    "rsi",
+    "trajectory-analysis"
   ],
   "created_at": "2026-05-31T14:58:56Z",
-  "updated_at": "2026-10-21T08:47:54Z",
-  "pushed_at": "2026-10-21T09:09:36Z",
+  "updated_at": "2026-10-22T09:21:55Z",
+  "pushed_at": "2026-10-22T09:21:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
+  "age_days": 143,
   "days_since_push": 0,
-  "health_score": 64,
+  "health_score": 63,
   "health_components": {
     "popularity": 76.1,
-    "momentum": 8.0,
+    "momentum": 7.7,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 48,
+    "stars_gained": 46,
     "days_span": 5,
-    "stars_per_day": 9.6,
-    "lifetime_stars_per_day": 44.94,
+    "stars_per_day": 9.2,
+    "lifetime_stars_per_day": 44.7,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "loopx-project/loopx",
-    "readme_chars": 50357,
+    "readme_chars": 50886,
     "capabilities": [
       "quota-management",
       "mobile-access",
@@ -137,7 +137,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.814
+      "external_link_ratio": 0.884
     },
     "highlights": [
       "Independent user · 7 merged PRs.",
@@ -145,8 +145,8 @@
     ],
     "summary_zh_native": "让 Agent 把长程目标做成可验证的成果。",
     "highlights_zh": [
-      "在 Codex、Claude Code、direct-model 等已注册 Agent 会话之间延续工作，",
       "看成果和依据，而不只看活动。 检查交付物、支持与反驳证据、成本，以及下一步决策。",
+      "在 Codex、Claude Code、direct-model 等已注册 Agent 会话之间延续工作，",
       "Shared Goal Authority 与跨 Host 协作：为显式共享 goal 提供",
       "Agent 团队：共享目标，不抹平各自的工作责任。"
     ],
@@ -157,7 +157,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:07+00:00",
+  "fetched_at": "2026-10-22T09:26:52+00:00",
   "categories": [
     "analytics-2",
     "teams"

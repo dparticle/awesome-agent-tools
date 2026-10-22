@@ -6,7 +6,7 @@
   "url": "https://github.com/Licoy/Quosparr",
   "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude Code and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude Code、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
   "homepage": "https://quosparr.com",
-  "stars": 298,
+  "stars": 299,
   "forks": 20,
   "open_issues": 0,
   "language": "Go",
@@ -31,12 +31,12 @@
     "windows"
   ],
   "created_at": "2026-06-29T00:39:56Z",
-  "updated_at": "2026-10-21T08:42:51Z",
-  "pushed_at": "2026-10-21T08:42:46Z",
+  "updated_at": "2026-10-22T03:25:19Z",
+  "pushed_at": "2026-10-22T03:25:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
+  "age_days": 115,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
@@ -51,13 +51,13 @@
     "stars_gained": 7,
     "days_span": 5,
     "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 2.61,
+    "lifetime_stars_per_day": 2.6,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Licoy/Quosparr",
-    "readme_chars": 19140,
+    "readme_chars": 19423,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -147,7 +147,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.313
+      "external_link_ratio": 0.309
     },
     "highlights": [
       "Local token usage, API-equivalent cost (anthropic-builtin-2026-10-14), recent sessions, and output speed from Claude Code session logs.",
@@ -164,10 +164,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:42+00:00",
+  "fetched_at": "2026-10-22T09:28:29+00:00",
   "categories": [
     "analytics-2",
-    "billing",
     "sharing"
   ],
   "primary_category": "sharing",

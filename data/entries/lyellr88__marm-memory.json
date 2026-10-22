@@ -8,7 +8,7 @@
   "homepage": "https://lyellr88.github.io/marm-memory",
   "stars": 422,
   "forks": 94,
-  "open_issues": 18,
+  "open_issues": 19,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -35,11 +35,11 @@
   ],
   "created_at": "2025-06-10T06:36:49Z",
   "updated_at": "2026-10-21T08:14:59Z",
-  "pushed_at": "2026-10-21T02:55:14Z",
+  "pushed_at": "2026-10-22T01:25:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 498,
+  "age_days": 499,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
@@ -196,7 +196,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:27+00:00",
+  "fetched_at": "2026-10-22T09:28:14+00:00",
   "categories": [
     "model-routing",
     "security-self-hosting",

@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "full_name": "GMaN1911/claude-cognitive",
+  "name": "claude-cognitive",
+  "owner": "GMaN1911",
+  "url": "https://github.com/GMaN1911/claude-cognitive",
+  "description": "Working memory for Claude Code - persistent context and multi-instance coordination",
+  "homepage": "",
+  "stars": 451,
+  "forks": 40,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "claude-ai",
+    "claude-code",
+    "context-management",
+    "developer-tools",
+    "productivity",
+    "token-optimization"
+  ],
+  "created_at": "2025-12-30T21:05:15Z",
+  "updated_at": "2026-10-22T01:20:02Z",
+  "pushed_at": "2026-10-22T01:19:58Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 295,
+  "days_since_push": 0,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 53.1,
+    "momentum": 1.3,
+    "maintenance": 100.0,
+    "documentation": 66.0,
+    "accessibility": 43.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 451,
+    "days_span": 295,
+    "stars_per_day": 1.53,
+    "lifetime_stars_per_day": 1.53,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "GMaN1911/claude-cognitive",
+    "readme_chars": 13880,
+    "capabilities": [
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "cross-agent-support": "Mentions Aider, Claude Code, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 57,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Some setup. needs git clone (build from source); configure database migration",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；需配置 database migration"
+    },
+    "doc_score": 66,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Gemini CLI",
+      "Cursor",
+      "Aider"
+    ],
+    "summary_en": "Claude Code is powerful but stateless.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.432
+    },
+    "highlights": [
+      "WARM (0.25-0.8): Headers only - background awareness",
+      "1+ million line production codebase (3,200+ Python modules)",
+      "HOT (>0.8): Full file injection - active development",
+      "Token usage drops 79% (120K → 25K chars)"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-22T09:28:09+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 655,
-  "days_since_push": 5,
+  "age_days": 656,
+  "days_since_push": 6,
   "health_score": 53,
   "health_components": {
     "popularity": 53.0,
@@ -127,7 +127,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:23+00:00",
+  "fetched_at": "2026-10-22T09:28:10+00:00",
   "categories": [
     "security-self-hosting"
   ],
@@ -154,14 +154,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 66.673,
-      "momentum_ratio": 664.0,
+      "star_ratio": 66.758,
+      "momentum_ratio": 680.0,
       "setup_delta": -2,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "66.67x the stars (29,736 vs 446)",
-        "664.00x the star velocity (33.2/day vs 0.0/day)",
+        "66.76x the stars (29,774 vs 446)",
+        "680.00x the star velocity (34.0/day vs 0.0/day)",
         "no harder to set up (32 vs 34 friction)"
       ],
       "reasons_zh": [],

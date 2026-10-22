@@ -6,8 +6,8 @@
   "url": "https://github.com/Dataojitori/nocturne_memory",
   "description": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw.",
   "homepage": "https://misaligned.top/memory",
-  "stars": 1403,
-  "forks": 173,
+  "stars": 1404,
+  "forks": 174,
   "open_issues": 5,
   "language": "Python",
   "license": "MIT",
@@ -31,13 +31,13 @@
     "sqlite"
   ],
   "created_at": "2025-12-25T08:45:54Z",
-  "updated_at": "2026-10-21T08:59:19Z",
+  "updated_at": "2026-10-21T12:01:57Z",
   "pushed_at": "2026-09-22T20:13:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 300,
-  "days_since_push": 28,
+  "age_days": 301,
+  "days_since_push": 29,
   "health_score": 52,
   "health_components": {
     "popularity": 62.9,
@@ -51,7 +51,7 @@
     "stars_gained": 10,
     "days_span": 5,
     "stars_per_day": 2.0,
-    "lifetime_stars_per_day": 4.68,
+    "lifetime_stars_per_day": 4.66,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,7 +165,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:55+00:00",
+  "fetched_at": "2026-10-22T09:27:41+00:00",
   "categories": [
     "mobile-remote-control",
     "parallelism-isolation",
@@ -173,71 +173,10 @@
   ],
   "primary_category": "self-hosting-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by spinabot/brigade: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 spinabot/brigade 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "spinabot/brigade",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "dataojitori/nocturne_memory",
-      "challenger": "spinabot/brigade",
-      "incumbent_name": "Dataojitori/nocturne_memory",
-      "challenger_name": "spinabot/brigade",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "notifications",
-        "remote-control",
-        "session-persistence",
-        "worktree-isolation"
-      ],
-      "star_ratio": 8.091,
-      "momentum_ratio": 1.6,
-      "setup_delta": -21,
-      "dominance": 0.858,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "8.09x the stars (11,351 vs 1,403)",
-        "1.60x the star velocity (3.2/day vs 2.0/day)",
-        "no harder to set up (39 vs 60 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "notifications",
-          "remote-control",
-          "session-persistence",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 61,
-        "incumbent_setup_score": 60,
-        "challenger_setup_score": 39
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

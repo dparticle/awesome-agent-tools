@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,556 |
-| Star velocity | 111.1/day (lifetime basis, 113d span) |
+| Stars | 12,957 |
+| Star velocity | 113.7/day (lifetime basis, 114d span) |
 | Health score | 84/100 |
-| Documentation | 67/100 |
+| Documentation | 68/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-10-21 (0 days ago) |
-| Analyzed README | 28,519 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-22 (0 days ago) |
+| Analyzed README | 36,105 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,11 +42,11 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Cursor
+> Mentions Aider, Amp, Claude Code, Cline
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 34/100)
+- **Difficulty:** 🟡 Some setup (friction score 40/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://xerj.org/get | sh`
@@ -55,13 +55,13 @@
 
 **Signals that add work:** git clone (build from source), cargo build
 
-**Configuration required:** API key configuration, config file, database dependency
+**Configuration required:** API key configuration, config file, config.json/yaml/toml, database dependency
 
-*Easy. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), cargo build; configure API key configuration, config file*
+*Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), cargo build; configure API key configuration, config file*
 
 ## Documentation quality
 
-Score **67/100**, based on these detected signals:
+Score **68/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -80,11 +80,11 @@ Score **67/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.0 |
-| momentum | 92.6 |
+| popularity | 82.3 |
+| momentum | 94.7 |
 | maintenance | 100.0 |
-| documentation | 67.0 |
-| accessibility | 66.0 |
+| documentation | 68.0 |
+| accessibility | 60.0 |
 
 ---
 

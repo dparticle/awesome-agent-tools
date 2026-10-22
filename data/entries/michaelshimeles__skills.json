@@ -6,8 +6,8 @@
   "url": "https://github.com/michaelshimeles/skills",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1364,
-  "forks": 221,
+  "stars": 1370,
+  "forks": 223,
   "open_issues": 2,
   "language": "Python",
   "license": "",
@@ -22,26 +22,26 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-10-21T08:55:58Z",
+  "updated_at": "2026-10-22T04:41:44Z",
   "pushed_at": "2026-10-19T01:49:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 229,
-  "days_since_push": 2,
+  "age_days": 230,
+  "days_since_push": 3,
   "health_score": 56,
   "health_components": {
     "popularity": 62.7,
-    "momentum": 5.5,
+    "momentum": 6.0,
     "maintenance": 100.0,
     "documentation": 39.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 33,
+    "stars_gained": 36,
     "days_span": 5,
-    "stars_per_day": 6.6,
+    "stars_per_day": 7.2,
     "lifetime_stars_per_day": 5.96,
     "basis": "history",
     "is_fast_riser": true
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:55+00:00",
+  "fetched_at": "2026-10-22T09:27:42+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -158,14 +158,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 24.685,
-      "momentum_ratio": 2.939,
+      "star_ratio": 24.593,
+      "momentum_ratio": 2.833,
       "setup_delta": -20,
-      "dominance": 0.934,
+      "dominance": 0.929,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "24.68x the stars (33,670 vs 1,364)",
-        "2.94x the star velocity (19.4/day vs 6.6/day)",
+        "24.59x the stars (33,693 vs 1,370)",
+        "2.83x the star velocity (20.4/day vs 7.2/day)",
         "no harder to set up (2 vs 22 friction)"
       ],
       "reasons_zh": [],

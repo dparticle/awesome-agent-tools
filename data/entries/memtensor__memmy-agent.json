@@ -6,9 +6,9 @@
   "url": "https://github.com/MemTensor/memmy-agent",
   "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
   "homepage": "https://memmy.bot",
-  "stars": 2127,
-  "forks": 208,
-  "open_issues": 52,
+  "stars": 2131,
+  "forks": 210,
+  "open_issues": 59,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,29 +34,29 @@
     "tui"
   ],
   "created_at": "2026-07-16T07:57:45Z",
-  "updated_at": "2026-10-21T02:51:41Z",
-  "pushed_at": "2026-10-21T09:01:04Z",
+  "updated_at": "2026-10-22T09:13:30Z",
+  "pushed_at": "2026-10-22T08:40:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 97,
+  "age_days": 98,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 66.6,
-    "momentum": 3.5,
+    "momentum": 3.8,
     "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 23,
     "days_span": 5,
-    "stars_per_day": 4.2,
-    "lifetime_stars_per_day": 21.93,
+    "stars_per_day": 4.6,
+    "lifetime_stars_per_day": 21.74,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "MemTensor/memmy-agent",
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:48+00:00",
+  "fetched_at": "2026-10-22T09:27:34+00:00",
   "categories": [
     "model-routing",
     "self-hosting-security",
@@ -193,14 +193,14 @@
         "model-routing",
         "team-collaboration"
       ],
-      "star_ratio": 4.965,
-      "momentum_ratio": 44.143,
+      "star_ratio": 4.999,
+      "momentum_ratio": 40.783,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.96x the stars (10,560 vs 2,127)",
-        "44.14x the star velocity (185.4/day vs 4.2/day)",
+        "5.00x the stars (10,652 vs 2,131)",
+        "40.78x the star velocity (187.6/day vs 4.6/day)",
         "no harder to set up (32 vs 42 friction)"
       ],
       "reasons_zh": [],

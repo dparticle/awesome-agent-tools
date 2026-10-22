@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-12 |
-| Last push | 2026-08-03 (78 days ago) |
+| Last push | 2026-08-03 (79 days ago) |
 | Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).

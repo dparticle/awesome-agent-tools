@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 567,
-  "days_since_push": 160,
+  "age_days": 568,
+  "days_since_push": 161,
   "health_score": 47,
   "health_components": {
     "popularity": 61.3,
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:58+00:00",
+  "fetched_at": "2026-10-22T09:27:45+00:00",
   "categories": [
     "desktop-ui-2",
     "security-self-hosting"
@@ -168,14 +168,14 @@
         "multi-agent-orchestration",
         "self-hosted"
       ],
-      "star_ratio": 25.657,
-      "momentum_ratio": 83.0,
+      "star_ratio": 25.689,
+      "momentum_ratio": 85.0,
       "setup_delta": 11,
       "dominance": 0.945,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "25.66x the stars (29,736 vs 1,159)",
-        "83.00x the star velocity (33.2/day vs 0.4/day)",
+        "25.69x the stars (29,774 vs 1,159)",
+        "85.00x the star velocity (34.0/day vs 0.4/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],

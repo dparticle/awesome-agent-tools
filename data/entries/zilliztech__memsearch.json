@@ -6,9 +6,9 @@
   "url": "https://github.com/zilliztech/memsearch",
   "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
   "homepage": "https://zilliztech.github.io/memsearch/",
-  "stars": 2767,
-  "forks": 270,
-  "open_issues": 273,
+  "stars": 2772,
+  "forks": 271,
+  "open_issues": 267,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "skills"
   ],
   "created_at": "2026-02-09T02:29:16Z",
-  "updated_at": "2026-10-20T19:34:49Z",
-  "pushed_at": "2026-10-20T12:26:12Z",
+  "updated_at": "2026-10-22T08:48:28Z",
+  "pushed_at": "2026-10-22T08:48:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 254,
+  "age_days": 255,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 68.8,
-    "momentum": 2.2,
+    "popularity": 68.9,
+    "momentum": 2.7,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 2.6,
-    "lifetime_stars_per_day": 10.89,
+    "stars_per_day": 3.2,
+    "lifetime_stars_per_day": 10.87,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -157,7 +157,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:46+00:00",
+  "fetched_at": "2026-10-22T09:27:32+00:00",
   "categories": [
     "desktop-ui",
     "model-routing",
@@ -188,14 +188,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 3.816,
-      "momentum_ratio": 71.308,
+      "star_ratio": 3.843,
+      "momentum_ratio": 58.625,
       "setup_delta": -17,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "3.82x the stars (10,560 vs 2,767)",
-        "71.31x the star velocity (185.4/day vs 2.6/day)",
+        "3.84x the stars (10,652 vs 2,772)",
+        "58.62x the star velocity (187.6/day vs 3.2/day)",
         "no harder to set up (32 vs 49 friction)"
       ],
       "reasons_zh": [],

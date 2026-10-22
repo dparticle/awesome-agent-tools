@@ -6,53 +6,56 @@
   "url": "https://github.com/trycompai/crm",
   "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
   "homepage": "https://trycrm.ai",
-  "stars": 11567,
-  "forks": 1695,
-  "open_issues": 50,
+  "stars": 11592,
+  "forks": 1697,
+  "open_issues": 51,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-31T21:38:51Z",
-  "updated_at": "2026-10-21T09:04:46Z",
-  "pushed_at": "2026-10-20T17:41:45Z",
+  "updated_at": "2026-10-22T09:23:22Z",
+  "pushed_at": "2026-10-22T07:04:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "release",
-  "age_days": 81,
+  "age_days": 82,
   "days_since_push": 0,
   "health_score": 61,
   "health_components": {
     "popularity": 81.3,
-    "momentum": 37.3,
+    "momentum": 38.0,
     "maintenance": 100.0,
-    "documentation": 48.0,
+    "documentation": 49.0,
     "accessibility": 10.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 224,
+    "stars_gained": 228,
     "days_span": 5,
-    "stars_per_day": 44.8,
-    "lifetime_stars_per_day": 142.8,
+    "stars_per_day": 45.6,
+    "lifetime_stars_per_day": 141.37,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "trycompai/crm",
-    "readme_chars": 19063,
+    "readme_chars": 20306,
     "capabilities": [
       "model-routing",
       "billing-metering",
+      "mcp-support",
       "self-hosted"
     ],
     "capability_evidence": {
       "model-routing": "ur own identity provider on",
       "billing-metering": "",
+      "mcp-support": "SECRET Lets a rep talk to the agent from a contact's Agent tab.",
       "self-hosted": ""
     },
     "capability_hits": {
       "model-routing": 2,
       "billing-metering": 1,
+      "mcp-support": 1,
       "self-hosted": 1
     },
     "friction": {
@@ -81,7 +84,7 @@
       "note_en": "Involved setup. needs docker compose up, git clone (build from source); configure environment variables, OAuth login flow",
       "note_zh": "配置较重。需要 docker compose up、git clone (build from source)；需配置 environment variables、OAuth login flow"
     },
-    "doc_score": 48,
+    "doc_score": 49,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -89,7 +92,8 @@
       "documents installation",
       "documents configuration",
       "has contribution guidance",
-      "mentions licensing"
+      "mentions licensing",
+      "long, detailed README"
     ],
     "agents": [],
     "summary_en": "Comp AI CRM is an open source, CRM designed for AI agents.",
@@ -100,7 +104,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.469
+      "external_link_ratio": 1.379
     },
     "highlights": [
       "Under Authorised redirect URIs, add http://localhost:3001/api/auth/callback/google.",
@@ -117,9 +121,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:23:59+00:00",
+  "fetched_at": "2026-10-22T09:26:44+00:00",
   "categories": [
-    "billing"
+    "billing",
+    "security-self-hosting"
   ],
   "primary_category": "billing",
   "lifecycle": {

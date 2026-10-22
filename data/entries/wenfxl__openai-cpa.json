@@ -6,20 +6,20 @@
   "url": "https://github.com/wenfxl/openai-cpa",
   "description": "Enterprise Distributed Automation Platform for massive concurrent workload execution. Unifies elastic cluster orchestration, multi-channel identity verification messaging, real-time ops telemetry, and multi-warehouse lifecycle control (CPA / Sub2API / Image2API) in one high-throughput control plane.",
   "homepage": "",
-  "stars": 1403,
+  "stars": 1404,
   "forks": 440,
   "open_issues": 12,
   "language": "",
   "license": "NOASSERTION",
   "topics": [],
   "created_at": "2026-03-23T05:59:01Z",
-  "updated_at": "2026-10-20T07:38:41Z",
+  "updated_at": "2026-10-21T11:00:54Z",
   "pushed_at": "2026-08-21T18:25:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 212,
-  "days_since_push": 60,
+  "age_days": 213,
+  "days_since_push": 61,
   "health_score": 49,
   "health_components": {
     "popularity": 62.9,
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 8,
+    "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.62,
+    "lifetime_stars_per_day": 6.59,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,72 +131,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:54+00:00",
+  "fetched_at": "2026-10-22T09:27:41+00:00",
   "categories": [
-    "desktop-ui",
-    "parallelism-isolation"
+    "desktop-ui"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 garrytan/gstack 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "garrytan/gstack",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "wenfxl/openai-cpa",
-      "challenger": "garrytan/gstack",
-      "incumbent_name": "wenfxl/openai-cpa",
-      "challenger_name": "garrytan/gstack",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "multi-agent-orchestration",
-        "notifications",
-        "security-isolation",
-        "skills-plugins"
-      ],
-      "star_ratio": 97.736,
-      "momentum_ratio": 2024.0,
-      "setup_delta": 0,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "97.74x the stars (137,123 vs 1,403)",
-        "2024.00x the star velocity (101.2/day vs 0.0/day)",
-        "no harder to set up (57 vs 57 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "session-persistence",
-          "skills-plugins",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 49,
-        "challenger_health": 86,
-        "incumbent_setup_score": 57,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

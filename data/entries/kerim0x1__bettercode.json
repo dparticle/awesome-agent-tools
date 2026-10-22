@@ -6,9 +6,9 @@
   "url": "https://github.com/kerim0x1/bettercode",
   "description": "Every coding agent in one desktop workspace. Run Claude Code, OpenAI Codex, Cursor Agent and Grok side by side. Bring your own CLI. Free during beta. Open source as of 21 September 2026 (MIT).",
   "homepage": "https://betterc0de.com",
-  "stars": 275,
+  "stars": 274,
   "forks": 4,
-  "open_issues": 6,
+  "open_issues": 12,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -22,14 +22,14 @@
     "grok"
   ],
   "created_at": "2026-09-20T22:48:35Z",
-  "updated_at": "2026-10-16T10:34:07Z",
-  "pushed_at": "2026-10-19T08:41:37Z",
+  "updated_at": "2026-10-22T03:11:06Z",
+  "pushed_at": "2026-10-21T23:45:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 30,
-  "days_since_push": 2,
-  "health_score": 54,
+  "age_days": 31,
+  "days_since_push": 0,
+  "health_score": 53,
   "health_components": {
     "popularity": 48.8,
     "momentum": 0.0,
@@ -40,15 +40,15 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 7,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 9.17,
+    "lifetime_stars_per_day": 8.84,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "kerim0x1/bettercode",
-    "readme_chars": 12673,
+    "readme_chars": 13018,
     "capabilities": [
       "mobile-access",
       "billing-metering",
@@ -62,7 +62,7 @@
       "billing-metering": "or read the terms and data information.",
       "agent-runtime": "erminals, and live previews together.",
       "team-collaboration": "chat, and a shared workspace",
-      "gui-desktop": "ws: SmartScreen shows \"Windows protected your PC\".",
+      "gui-desktop": "n System Settings → Privacy & Security and choose Open Anyway.",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
@@ -127,7 +127,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.868
+      "external_link_ratio": 0.845
     },
     "highlights": [
       "The Release workflow checks Linux, Windows and both Mac architectures again, then publishes the GitHub release only when every platform passed."
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:45+00:00",
+  "fetched_at": "2026-10-22T09:28:32+00:00",
   "categories": [
     "desktop-ui-2",
     "teams"
@@ -149,18 +149,18 @@
   "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "msitarzewski/agency-agents",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "kerim0x1/bettercode",
-      "challenger": "msitarzewski/agency-agents",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "kerim0x1/bettercode",
-      "challenger_name": "msitarzewski/agency-agents",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -170,15 +170,15 @@
         "mobile-access",
         "team-collaboration"
       ],
-      "star_ratio": 591.531,
-      "momentum_ratio": 8952.0,
-      "setup_delta": -23,
-      "dominance": 1.0,
+      "star_ratio": 38.876,
+      "momentum_ratio": 3752.0,
+      "setup_delta": 8,
+      "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "591.53x the stars (162,671 vs 275)",
-        "8952.00x the star velocity (447.6/day vs 0.0/day)",
-        "no harder to set up (1 vs 24 friction)"
+        "38.88x the stars (10,652 vs 274)",
+        "3752.00x the star velocity (187.6/day vs 0.0/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -193,25 +193,24 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "mobile-access",
-          "multi-account-switching",
+          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
           "team-collaboration",
-          "voice-input"
+          "worktree-isolation"
         ],
-        "incumbent_health": 54,
-        "challenger_health": 98,
+        "incumbent_health": 53,
+        "challenger_health": 87,
         "incumbent_setup_score": 24,
-        "challenger_setup_score": 1
+        "challenger_setup_score": 32
       }
     }
   }

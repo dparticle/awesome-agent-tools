@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2025-03-08 |
-| Last push | 2026-10-15 (5 days ago) |
+| Last push | 2026-10-15 (6 days ago) |
 | Analyzed README | 29,300 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut)** — Superseded by 0xsline/OpenChatCut: covers 100% of capabilities (5/5).

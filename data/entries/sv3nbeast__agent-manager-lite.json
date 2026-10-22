@@ -6,8 +6,8 @@
   "url": "https://github.com/sv3nbeast/agent-manager-lite",
   "description": "macOS 上的 Codex、Claude Code CLI 与 Claude Desktop 多实例管理器，统一管理账号、供应商密钥、独立配置、会话与代理。 / A macOS manager for Codex, Claude Code CLI and Claude Desktop instances, accounts, provider keys, isolated configs, sessions and proxies.",
   "homepage": "",
-  "stars": 435,
-  "forks": 10,
+  "stars": 452,
+  "forks": 14,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "NOASSERTION",
@@ -21,27 +21,27 @@
     "vue"
   ],
   "created_at": "2026-10-04T05:59:16Z",
-  "updated_at": "2026-10-21T09:06:11Z",
-  "pushed_at": "2026-10-20T09:59:04Z",
+  "updated_at": "2026-10-22T07:56:10Z",
+  "pushed_at": "2026-10-21T22:04:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 17,
+  "age_days": 18,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 52.8,
-    "momentum": 21.3,
+    "popularity": 53.1,
+    "momentum": 20.9,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 435,
-    "days_span": 17,
-    "stars_per_day": 25.59,
-    "lifetime_stars_per_day": 25.59,
+    "stars_gained": 452,
+    "days_span": 18,
+    "stars_per_day": 25.11,
+    "lifetime_stars_per_day": 25.11,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -160,11 +160,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:24+00:00",
+  "fetched_at": "2026-10-22T09:28:09+00:00",
   "categories": [
+    "billing",
     "providers-2",
-    "sharing",
-    "teams"
+    "sharing"
   ],
   "primary_category": "sharing",
   "lifecycle": {

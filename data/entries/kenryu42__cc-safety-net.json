@@ -6,9 +6,9 @@
   "url": "https://github.com/kenryu42/cc-safety-net",
   "description": "A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to access sensitive files, before a tool call runs. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Cursor, DeepSeek Harness, Devin CLI, GitHub Copilot CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
   "homepage": "https://ccsafetynet.com",
-  "stars": 1715,
+  "stars": 1742,
   "forks": 88,
-  "open_issues": 2,
+  "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "security"
   ],
   "created_at": "2025-12-25T17:52:57Z",
-  "updated_at": "2026-10-21T09:21:07Z",
-  "pushed_at": "2026-10-21T08:58:20Z",
+  "updated_at": "2026-10-22T08:22:06Z",
+  "pushed_at": "2026-10-21T15:17:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 299,
+  "age_days": 300,
   "days_since_push": 0,
-  "health_score": 62,
+  "health_score": 63,
   "health_components": {
-    "popularity": 64.7,
-    "momentum": 12.3,
+    "popularity": 64.8,
+    "momentum": 15.8,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 74,
+    "stars_gained": 95,
     "days_span": 5,
-    "stars_per_day": 14.8,
-    "lifetime_stars_per_day": 5.74,
+    "stars_per_day": 19.0,
+    "lifetime_stars_per_day": 5.81,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kenryu42/cc-safety-net",
-    "readme_chars": 8695,
+    "readme_chars": 8758,
     "capabilities": [
       "agent-runtime",
       "gui-desktop",
@@ -128,13 +128,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.955
+      "external_link_ratio": 1.941
     },
     "highlights": [
       "Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team Setup.",
       "Embeds in your own tools. Call checkCommand from Node.js without installing the hook. See Library API.",
-      "Blocks secret access to SSH keys, .env files, ~/.aws, and coding-CLI credentials, from the shell and from the agent's file tools.",
-      "Blocks destructive commands such as git reset --hard, git push --force, and rm -rf on dangerous targets, even inside bash -c or python -c."
+      "Blocks secret access to SSH keys, .env files, ~/.aws, and coding-CLI credentials, from the shell and from the agent's file tools."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -145,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:50+00:00",
+  "fetched_at": "2026-10-22T09:27:36+00:00",
   "categories": [
     "desktop-ui-2"
   ],

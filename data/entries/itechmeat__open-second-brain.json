@@ -6,40 +6,40 @@
   "url": "https://github.com/itechmeat/open-second-brain",
   "description": "Local-first 🧠 memory for Hermes Agent that lives in your Obsidian vault and remembers project context. Nightly 😴 dream passes turn repeat corrections into confirmed preferences with measurable confidence. Adapters ship for Claude Code, Codex, and OpenClaw, with an MCP server for anything else.",
   "homepage": "https://dark-factory.techmeat.dev",
-  "stars": 491,
-  "forks": 62,
+  "stars": 492,
+  "forks": 63,
   "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-06T07:40:41Z",
-  "updated_at": "2026-10-20T22:58:15Z",
-  "pushed_at": "2026-10-20T23:20:06Z",
+  "updated_at": "2026-10-21T22:54:46Z",
+  "pushed_at": "2026-10-21T20:20:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 168,
+  "age_days": 169,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 53.8,
-    "momentum": 1.3,
+    "momentum": 0.8,
     "maintenance": 100.0,
-    "documentation": 51.0,
+    "documentation": 52.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 2.92,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 2.91,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "itechmeat/open-second-brain",
-    "readme_chars": 17486,
+    "readme_chars": 17620,
     "capabilities": [
       "memory-context",
       "mcp-support",
@@ -73,7 +73,7 @@
       "note_en": "Easy. configure database dependency",
       "note_zh": "较易上手。需配置 database dependency"
     },
-    "doc_score": 51,
+    "doc_score": 52,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -101,7 +101,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.172
+      "external_link_ratio": 0.17
     },
     "highlights": [
       "Secret custody. Credentials live encrypted in the vault's state dir behind a capability-gated store; $secret:NAME references resolve at the use sites, o2b brain secret unlock wraps the keyf…",
@@ -118,7 +118,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:19+00:00",
+  "fetched_at": "2026-10-22T09:28:06+00:00",
   "categories": [
     "self-hosting-security"
   ],

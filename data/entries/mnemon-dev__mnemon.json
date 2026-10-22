@@ -6,7 +6,7 @@
   "url": "https://github.com/mnemon-dev/mnemon",
   "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
   "homepage": "https://mnemon.dev",
-  "stars": 648,
+  "stars": 651,
   "forks": 75,
   "open_issues": 14,
   "language": "Go",
@@ -31,26 +31,26 @@
     "persistent-memory"
   ],
   "created_at": "2026-02-20T02:26:17Z",
-  "updated_at": "2026-10-21T07:37:25Z",
+  "updated_at": "2026-10-22T08:24:27Z",
   "pushed_at": "2026-10-19T19:57:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 243,
-  "days_since_push": 1,
+  "age_days": 244,
+  "days_since_push": 2,
   "health_score": 51,
   "health_components": {
-    "popularity": 56.2,
-    "momentum": 2.8,
+    "popularity": 56.3,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 3.4,
+    "stars_per_day": 3.0,
     "lifetime_stars_per_day": 2.67,
     "basis": "history",
     "is_fast_riser": false
@@ -158,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:11+00:00",
+  "fetched_at": "2026-10-22T09:27:58+00:00",
   "categories": [
     "desktop-ui",
     "self-hosting-security"
@@ -187,14 +187,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 7.469,
-      "momentum_ratio": 3.588,
+      "star_ratio": 7.452,
+      "momentum_ratio": 3.933,
       "setup_delta": -40,
-      "dominance": 0.959,
+      "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "7.47x the stars (4,840 vs 648)",
-        "3.59x the star velocity (12.2/day vs 3.4/day)",
+        "7.45x the stars (4,851 vs 651)",
+        "3.93x the star velocity (11.8/day vs 3.0/day)",
         "no harder to set up (24 vs 64 friction)"
       ],
       "reasons_zh": [],

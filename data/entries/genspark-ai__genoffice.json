@@ -6,9 +6,9 @@
   "url": "https://github.com/genspark-ai/genoffice",
   "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
   "homepage": "https://genoffice.ai/",
-  "stars": 10239,
-  "forks": 1324,
-  "open_issues": 75,
+  "stars": 10427,
+  "forks": 1376,
+  "open_issues": 77,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "xlsx"
   ],
   "created_at": "2026-07-31T09:40:58Z",
-  "updated_at": "2026-10-21T09:16:36Z",
-  "pushed_at": "2026-10-21T03:15:53Z",
+  "updated_at": "2026-10-22T09:20:44Z",
+  "pushed_at": "2026-10-22T03:55:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 81,
+  "age_days": 82,
   "days_since_push": 0,
-  "health_score": 79,
+  "health_score": 84,
   "health_components": {
-    "popularity": 80.2,
-    "momentum": 73.2,
+    "popularity": 80.4,
+    "momentum": 92.8,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 80.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 439,
+    "stars_gained": 557,
     "days_span": 5,
-    "stars_per_day": 87.8,
-    "lifetime_stars_per_day": 126.41,
+    "stars_per_day": 111.4,
+    "lifetime_stars_per_day": 127.16,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -178,7 +178,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:37+00:00",
+  "fetched_at": "2026-10-22T09:27:22+00:00",
   "categories": [
     "billing",
     "model-routing",

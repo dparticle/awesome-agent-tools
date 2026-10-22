@@ -2,7 +2,7 @@
 
 # YoanWai/agent-manager
 
-> Claude Code, Codex, OpenCode, Grok, Gemini CLI, Antigravity CLI, Pi, Command Code, Hermes Agent, Muse Code, and Oh My Pi run side by side.
+> Claude Code, Codex, OpenCode, Grok, Gemini CLI, Antigravity CLI, Pi, Command Code, Hermes Agent, Muse Code, Oh My Pi, and Cursor CLI run side by side.
 
 [Repository](https://github.com/YoanWai/agent-manager) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 606 |
-| Star velocity | 1.6/day (history basis, 5d span) |
+| Stars | 612 |
+| Star velocity | 2.2/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
@@ -21,20 +21,16 @@
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-07-15 |
-| Last push | 2026-10-20 (0 days ago) |
-| Analyzed README | 14,494 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-22 (0 days ago) |
+| Analyzed README | 14,856 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
 
 ## What it solves
 
 ### Workspace isolation
 
 > , list density, mouse, review layout, desktop notifications, editor, keybindings)
-
-### Skills & plugins
-
-> answer the dependency prompt up front (=0 to skip it).
 
 ### Agent runtime
 
@@ -46,7 +42,7 @@
 
 ### Notifications
 
-> art a session on an empty context: same name, group, directory and tool, fresh conversation
+> n macOS it offers Homebrew, and offers to install Homebrew first when that is missing.
 
 ### Cross-agent support
 
@@ -81,8 +77,8 @@ Score **46/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.6 |
-| momentum | 1.3 |
+| popularity | 55.7 |
+| momentum | 1.8 |
 | maintenance | 100.0 |
 | documentation | 46.0 |
 | accessibility | 100.0 |

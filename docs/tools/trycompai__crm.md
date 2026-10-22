@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,567 |
-| Star velocity | 44.8/day (history basis, 5d span) |
+| Stars | 11,592 |
+| Star velocity | 45.6/day (history basis, 5d span) |
 | Health score | 61/100 |
-| Documentation | 48/100 |
+| Documentation | 49/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-31 |
-| Last push | 2026-10-20 (0 days ago) |
-| Analyzed README | 19,063 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-22 (0 days ago) |
+| Analyzed README | 20,306 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,6 +31,10 @@
 > ur own identity provider on
 
 ### Billing & metering
+
+### MCP support
+
+> SECRET Lets a rep talk to the agent from a contact's Agent tab.
 
 ### Self-hostable
 
@@ -49,7 +53,7 @@
 
 ## Documentation quality
 
-Score **48/100**, based on these detected signals:
+Score **49/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -58,15 +62,16 @@ Score **48/100**, based on these detected signals:
 - documents configuration
 - has contribution guidance
 - mentions licensing
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 81.3 |
-| momentum | 37.3 |
+| momentum | 38.0 |
 | maintenance | 100.0 |
-| documentation | 48.0 |
+| documentation | 49.0 |
 | accessibility | 10.0 |
 
 ---

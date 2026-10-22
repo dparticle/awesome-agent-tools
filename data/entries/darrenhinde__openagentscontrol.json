@@ -6,8 +6,8 @@
   "url": "https://github.com/darrenhinde/OpenAgentsControl",
   "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
   "homepage": "",
-  "stars": 4924,
-  "forks": 403,
+  "stars": 4930,
+  "forks": 401,
   "open_issues": 70,
   "language": "TypeScript",
   "license": "MIT",
@@ -23,27 +23,27 @@
     "prompt-engineering"
   ],
   "created_at": "2025-08-14T21:44:01Z",
-  "updated_at": "2026-10-21T08:14:02Z",
+  "updated_at": "2026-10-22T08:53:29Z",
   "pushed_at": "2026-10-19T21:01:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 432,
-  "days_since_push": 1,
+  "age_days": 433,
+  "days_since_push": 2,
   "health_score": 65,
   "health_components": {
-    "popularity": 73.8,
-    "momentum": 2.3,
+    "popularity": 73.9,
+    "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 17,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 11.4,
+    "stars_per_day": 3.4,
+    "lifetime_stars_per_day": 11.39,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -119,7 +119,7 @@
       "80% of tasks use isolation context (minimal overhead)",
       "External libraries - Integration guides (18+ libraries supported)",
       "Cursor/Copilot: Quick prototypes, don't care about patterns",
-      "80% token reduction via MVI"
+      "✅ 9 workflow skills + 6 user commands"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:41+00:00",
+  "fetched_at": "2026-10-22T09:27:27+00:00",
   "categories": [
     "parallelism-isolation"
   ],
@@ -156,14 +156,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 21.405,
-      "momentum_ratio": 176.571,
+      "star_ratio": 21.476,
+      "momentum_ratio": 151.353,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "21.41x the stars (105,399 vs 4,924)",
-        "176.57x the star velocity (494.4/day vs 2.8/day)",
+        "21.48x the stars (105,878 vs 4,930)",
+        "151.35x the star velocity (514.6/day vs 3.4/day)",
         "no harder to set up (45 vs 50 friction)"
       ],
       "reasons_zh": [],

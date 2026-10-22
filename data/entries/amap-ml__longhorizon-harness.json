@@ -6,9 +6,9 @@
   "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
   "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
   "homepage": "https://lh-harness.pages.dev",
-  "stars": 1761,
+  "stars": 1763,
   "forks": 188,
-  "open_issues": 19,
+  "open_issues": 20,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -31,27 +31,27 @@
     "loop-engineering"
   ],
   "created_at": "2026-08-04T04:30:58Z",
-  "updated_at": "2026-10-21T06:30:36Z",
-  "pushed_at": "2026-10-21T06:30:31Z",
+  "updated_at": "2026-10-22T02:01:01Z",
+  "pushed_at": "2026-10-21T13:08:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 78,
+  "age_days": 79,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
     "popularity": 64.9,
-    "momentum": 2.2,
+    "momentum": 2.3,
     "maintenance": 100.0,
     "documentation": 75.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 2.6,
-    "lifetime_stars_per_day": 22.58,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 22.32,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -161,7 +161,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:50+00:00",
+  "fetched_at": "2026-10-22T09:27:36+00:00",
   "categories": [
     "model-routing",
     "security-self-hosting",
@@ -193,14 +193,14 @@
         "security-isolation",
         "self-hosted"
       ],
-      "star_ratio": 16.886,
-      "momentum_ratio": 12.769,
+      "star_ratio": 16.888,
+      "momentum_ratio": 12.143,
       "setup_delta": 2,
       "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "16.89x the stars (29,736 vs 1,761)",
-        "12.77x the star velocity (33.2/day vs 2.6/day)",
+        "16.89x the stars (29,774 vs 1,763)",
+        "12.14x the star velocity (34.0/day vs 2.8/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],

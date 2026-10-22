@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,944 |
+| Stars | 8,971 |
 | Star velocity | 31.4/day (history basis, 5d span) |
 | Health score | 68/100 |
 | Documentation | 74/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-31 |
-| Last push | 2026-10-21 (0 days ago) |
+| Last push | 2026-10-22 (0 days ago) |
 | Analyzed README | 36,387 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -123,7 +123,7 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.0 |
+| popularity | 79.1 |
 | momentum | 26.2 |
 | maintenance | 100.0 |
 | documentation | 74.0 |

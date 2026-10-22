@@ -2,7 +2,7 @@
 
 # lemomo-ai/lemo-opuscar
 
-> 51 film styles, each with a short film made entirely in code.
+> A toolbox of film styles made in code: 59 ready to use, and your own.
 
 [Repository](https://github.com/lemomo-ai/lemo-opuscar) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,21 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,589 |
-| Star velocity | 191.2/day (lifetime basis, 24d span) |
+| Stars | 5,117 |
+| Star velocity | 204.7/day (lifetime basis, 25d span) |
 | Health score | 81/100 |
-| Documentation | 53/100 |
+| Documentation | 55/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-09-26 |
-| Last push | 2026-10-19 (1 days ago) |
-| Analyzed README | 26,856 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-22 (0 days ago) |
+| Analyzed README | 33,807 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Model / provider routing
+
+> e or make one from scratch, bring your story, and let your coding agent direct.
 
 ### Agent runtime
 
@@ -48,7 +50,7 @@
 
 ## Documentation quality
 
-Score **53/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -63,10 +65,10 @@ Score **53/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.2 |
+| popularity | 74.2 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 53.0 |
+| documentation | 55.0 |
 | accessibility | 64.0 |
 
 ---

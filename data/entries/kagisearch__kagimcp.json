@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 677,
-  "days_since_push": 105,
+  "age_days": 678,
+  "days_since_push": 106,
   "health_score": 40,
   "health_components": {
     "popularity": 54.7,
@@ -120,7 +120,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:15+00:00",
+  "fetched_at": "2026-10-22T09:28:02+00:00",
   "categories": [
     "security-self-hosting"
   ],

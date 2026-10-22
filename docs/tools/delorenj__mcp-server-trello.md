@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-01-03 |
-| Last push | 2026-10-15 (5 days ago) |
+| Last push | 2026-10-15 (6 days ago) |
 | Analyzed README | 27,969 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).

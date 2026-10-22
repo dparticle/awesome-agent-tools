@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 355,
-  "days_since_push": 158,
+  "age_days": 356,
+  "days_since_push": 159,
   "health_score": 42,
   "health_components": {
     "popularity": 49.1,
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:44+00:00",
+  "fetched_at": "2026-10-22T09:28:30+00:00",
   "categories": [
     "desktop-ui",
     "self-hosting-security"
@@ -158,14 +158,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 3.074,
-      "momentum_ratio": 9.5,
+      "star_ratio": 3.081,
+      "momentum_ratio": 10.0,
       "setup_delta": -37,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.07x the stars (876 vs 285)",
-        "9.50x the star velocity (3.8/day vs 0.4/day)",
+        "3.08x the stars (878 vs 285)",
+        "10.00x the star velocity (4.0/day vs 0.4/day)",
         "no harder to set up (21 vs 58 friction)"
       ],
       "reasons_zh": [],

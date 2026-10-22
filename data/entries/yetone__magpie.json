@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 18466,
-  "forks": 1349,
-  "open_issues": 1352,
+  "stars": 19223,
+  "forks": 1441,
+  "open_issues": 1435,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-21T09:23:32Z",
-  "pushed_at": "2026-10-21T09:20:53Z",
+  "updated_at": "2026-10-22T09:25:29Z",
+  "pushed_at": "2026-10-22T08:52:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 27,
+  "age_days": 28,
   "days_since_push": 0,
-  "health_score": 88,
+  "health_score": 89,
   "health_components": {
-    "popularity": 85.3,
+    "popularity": 85.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4596,
+    "stars_gained": 4772,
     "days_span": 5,
-    "stars_per_day": 919.2,
-    "lifetime_stars_per_day": 683.93,
+    "stars_per_day": 954.4,
+    "lifetime_stars_per_day": 686.54,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 18959,
+    "readme_chars": 18970,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -137,7 +137,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.741
+      "external_link_ratio": 1.74
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -159,7 +159,7 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-21T09:23:50+00:00",
+  "fetched_at": "2026-10-22T09:26:36+00:00",
   "categories": [
     "desktop-ui-2",
     "model-routing",

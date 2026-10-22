@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 147,
-  "days_since_push": 122,
+  "age_days": 148,
+  "days_since_push": 123,
   "health_score": 48,
   "health_components": {
     "popularity": 61.3,
@@ -54,7 +54,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 7.86,
+    "lifetime_stars_per_day": 7.8,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -177,10 +177,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:58+00:00",
+  "fetched_at": "2026-10-22T09:27:46+00:00",
   "categories": [
-    "billing",
     "desktop-ui",
+    "parallelism-isolation",
     "teams"
   ],
   "primary_category": "teams",

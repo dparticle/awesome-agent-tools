@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "https://www.copilotkit.ai/openbot",
-  "stars": 6793,
-  "forks": 931,
-  "open_issues": 32,
+  "stars": 6879,
+  "forks": 941,
+  "open_issues": 35,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-10-21T09:21:17Z",
-  "pushed_at": "2026-10-21T06:37:32Z",
+  "updated_at": "2026-10-22T09:10:09Z",
+  "pushed_at": "2026-10-22T04:58:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 65,
+  "age_days": 66,
   "days_since_push": 0,
-  "health_score": 70,
+  "health_score": 71,
   "health_components": {
-    "popularity": 76.6,
-    "momentum": 43.2,
+    "popularity": 76.8,
+    "momentum": 50.3,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 51.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 259,
+    "stars_gained": 302,
     "days_span": 5,
-    "stars_per_day": 51.8,
-    "lifetime_stars_per_day": 104.51,
+    "stars_per_day": 60.4,
+    "lifetime_stars_per_day": 104.23,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:06+00:00",
+  "fetched_at": "2026-10-22T09:26:51+00:00",
   "categories": [
     "providers",
     "security-self-hosting",
@@ -175,14 +175,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 41.976,
-      "momentum_ratio": 16.992,
+      "star_ratio": 41.577,
+      "momentum_ratio": 13.967,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "41.98x the stars (285,140 vs 6,793)",
-        "16.99x the star velocity (880.2/day vs 51.8/day)",
+        "41.58x the stars (286,008 vs 6,879)",
+        "13.97x the star velocity (843.6/day vs 60.4/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -214,7 +214,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 70,
+        "incumbent_health": 71,
         "challenger_health": 89,
         "incumbent_setup_score": 49,
         "challenger_setup_score": 57

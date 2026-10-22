@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 379 |
-| Star velocity | 1.6/day (lifetime basis, 245d span) |
-| Health score | 48/100 |
+| Stars | 380 |
+| Star velocity | 0.0/day (history basis, 5d span) |
+| Health score | 47/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | AGPL-3.0 |
 | Language | Python |
 | Created | 2026-02-17 |
-| Last push | 2026-09-27 (23 days ago) |
+| Last push | 2026-09-27 (24 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — Superseded by bytedance/deer-flow: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -81,7 +81,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.6 |
-| momentum | 1.3 |
+| momentum | 0.0 |
 | maintenance | 92.0 |
 | documentation | 69.0 |
 | accessibility | 28.0 |

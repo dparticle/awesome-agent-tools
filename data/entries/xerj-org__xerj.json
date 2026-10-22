@@ -6,9 +6,9 @@
   "url": "https://github.com/xerj-org/xerj",
   "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
   "homepage": "https://xerj.org",
-  "stars": 12556,
-  "forks": 767,
-  "open_issues": 104,
+  "stars": 12957,
+  "forks": 832,
+  "open_issues": 167,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "vector-search"
   ],
   "created_at": "2026-06-30T04:32:45Z",
-  "updated_at": "2026-10-21T09:14:11Z",
-  "pushed_at": "2026-10-21T07:07:42Z",
+  "updated_at": "2026-10-22T09:25:46Z",
+  "pushed_at": "2026-10-22T09:16:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 113,
+  "age_days": 114,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 82.0,
-    "momentum": 92.6,
+    "popularity": 82.3,
+    "momentum": 94.7,
     "maintenance": 100.0,
-    "documentation": 67.0,
-    "accessibility": 66.0
+    "documentation": 68.0,
+    "accessibility": 60.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 12556,
-    "days_span": 113,
-    "stars_per_day": 111.12,
-    "lifetime_stars_per_day": 111.12,
+    "stars_gained": 12957,
+    "days_span": 114,
+    "stars_per_day": 113.66,
+    "lifetime_stars_per_day": 113.66,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "xerj-org/xerj",
-    "readme_chars": 28519,
+    "readme_chars": 36105,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -73,18 +73,18 @@
       "agent-runtime": "rity audit of WordPress core,",
       "mcp-support": ". XERJ answers under its own name, xerj-history-vote-1;",
       "gui-desktop": "",
-      "cross-agent-support": "Mentions Claude Code, Cursor"
+      "cross-agent-support": "Mentions Aider, Amp, Claude Code, Cline"
     },
     "capability_hits": {
       "memory-context": 3,
       "agent-runtime": 3,
-      "mcp-support": 13,
+      "mcp-support": 18,
       "gui-desktop": 1,
-      "cross-agent-support": 2
+      "cross-agent-support": 13
     },
     "friction": {
-      "level": "low",
-      "score": 34,
+      "level": "moderate",
+      "score": 40,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -99,6 +99,7 @@
       "config_signals": [
         "API key configuration",
         "config file",
+        "config.json/yaml/toml",
         "database dependency"
       ],
       "friendliness_signals": [],
@@ -107,10 +108,10 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), cargo build; configure API key configuration, config file",
-      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)、cargo build；需配置 API key configuration、config file"
+      "note_en": "Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), cargo build; configure API key configuration, config file",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)、cargo build；需配置 API key configuration、config file"
     },
-    "doc_score": 67,
+    "doc_score": 68,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -127,7 +128,15 @@
     ],
     "agents": [
       "Claude Code",
-      "Cursor"
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider",
+      "Cline / Roo",
+      "Qwen Code",
+      "Goose"
     ],
     "summary_en": "Local-first search engine and MCP server for AI agents.",
     "summary_zh": "",
@@ -140,12 +149,12 @@
         "bullet list of external links",
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 1.403
+      "external_link_ratio": 1.136
     },
     "highlights": [
       "XERJ vs Lucene 10.3.1 for a source-pinned, six-axis comparison"
     ],
-    "summary_zh_native": "English | 简体中文 | 日本語 | العربية | Español",
+    "summary_zh_native": "面向 AI 智能体的本地优先搜索引擎与 MCP 服务。一个 Rust 二进制程序即可为代码、文档、日志、JSONL/CSV 和 PDF 建立索引，提供 BM25 全文、向量与混合搜索、代码搜索和智能体记忆，接口兼容 Elasticsearch API。可配合 Claude Code、Cursor 和任意 MCP 客户端使用。",
     "highlights_zh": [
       "参考代码：编程智能体检索同类项目的已有解法。",
       "XERJ 与 Lucene 10.3.1：基于固定源码版本，从六个维度对比存储与搜索设计。",
@@ -159,7 +168,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:23:58+00:00",
+  "fetched_at": "2026-10-22T09:26:44+00:00",
   "categories": [
     "desktop-ui-2",
     "self-hosting-security"

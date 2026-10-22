@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 434,
-  "days_since_push": 78,
+  "age_days": 435,
+  "days_since_push": 79,
   "health_score": 48,
   "health_components": {
     "popularity": 55.1,
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:13+00:00",
+  "fetched_at": "2026-10-22T09:28:00+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation"
@@ -152,14 +152,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.344,
-      "momentum_ratio": 42.5,
+      "star_ratio": 48.382,
+      "momentum_ratio": 46.5,
       "setup_delta": 2,
       "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.34x the stars (27,556 vs 570)",
-        "42.50x the star velocity (17.0/day vs 0.4/day)",
+        "48.38x the stars (27,578 vs 570)",
+        "46.50x the star velocity (18.6/day vs 0.4/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],

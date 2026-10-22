@@ -6,23 +6,23 @@
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
   "homepage": "",
-  "stars": 11982,
-  "forks": 852,
-  "open_issues": 8,
+  "stars": 12583,
+  "forks": 889,
+  "open_issues": 65,
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-21T23:23:51Z",
-  "updated_at": "2026-10-21T09:11:15Z",
-  "pushed_at": "2026-10-21T05:41:57Z",
+  "updated_at": "2026-10-22T09:25:18Z",
+  "pushed_at": "2026-10-22T07:40:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 152,
+  "age_days": 153,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 81.6,
+    "popularity": 82.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 67.0,
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2509,
+    "stars_gained": 2934,
     "days_span": 5,
-    "stars_per_day": 501.8,
-    "lifetime_stars_per_day": 78.83,
+    "stars_per_day": 586.8,
+    "lifetime_stars_per_day": 82.24,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "akitaonrails/ai-memory",
-    "readme_chars": 41966,
+    "readme_chars": 44296,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -64,7 +64,7 @@
       "security-isolation": "",
       "team-collaboration": "chable, such as a homelab box or a LAN host, and",
       "gui-desktop": "nstalls use /var/lib/ai-memory and /etc/ai-memory/ via the",
-      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Crush"
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
     },
     "capability_hits": {
       "worktree-isolation": 1,
@@ -77,7 +77,7 @@
       "security-isolation": 2,
       "team-collaboration": 3,
       "gui-desktop": 2,
-      "cross-agent-support": 8
+      "cross-agent-support": 10
     },
     "friction": {
       "level": "moderate",
@@ -135,6 +135,8 @@
       "OpenCode",
       "Cursor",
       "Copilot",
+      "Cline / Roo",
+      "Qwen Code",
       "Crush",
       "Droid"
     ],
@@ -146,7 +148,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.334
+      "external_link_ratio": 0.316
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -158,10 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:37+00:00",
+  "fetched_at": "2026-10-22T09:27:22+00:00",
   "categories": [
     "model-routing",
-    "self-hosting-security",
+    "security-self-hosting",
     "teams"
   ],
   "primary_category": "teams",

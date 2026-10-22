@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "full_name": "xiaodou-official/xiaodou-open-platform",
+  "name": "xiaodou-open-platform",
+  "owner": "xiaodou-official",
+  "url": "https://github.com/xiaodou-official/xiaodou-open-platform",
+  "description": "小豆支付开放平台：个人也能申请的支付宝+微信聚合收款接口——RSA2 签名 + webhook 验签、持牌机构清算、次日到账；兼容易支付 / 彩虹支付类插件协议零代码迁移（submit.php / mapi.php / api.php，网关 / 商家 ID / 密钥三格配置）；已兼容 Sub2API、New API（源码级核对）；支持多到账账号收款分配与分账；含 14 篇文档、四语言签名示例与本地 demo。Payment API for individuals & digital-goods merchants: Alipay + WeChat Pay, Epay-compatible, Sub2API & New API ready, licensed settlement.",
+  "homepage": "https://xdfair.cn/",
+  "stars": 318,
+  "forks": 9,
+  "open_issues": 0,
+  "language": "",
+  "license": "NOASSERTION",
+  "topics": [
+    "aggregate-payment",
+    "ai-agent",
+    "alipay",
+    "card-key",
+    "claude-skill",
+    "epay",
+    "epay-protocol",
+    "faka",
+    "llm-tools",
+    "new-api",
+    "openapi",
+    "payment",
+    "payment-api",
+    "payment-gateway",
+    "payment-integration",
+    "rsa2",
+    "sub2api",
+    "virtual-goods",
+    "webhook",
+    "wechat-pay"
+  ],
+  "created_at": "2026-09-27T12:05:21Z",
+  "updated_at": "2026-10-22T03:11:17Z",
+  "pushed_at": "2026-10-21T07:43:39Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 24,
+  "days_since_push": 1,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 50.0,
+    "momentum": 11.0,
+    "maintenance": 100.0,
+    "documentation": 58.0,
+    "accessibility": 70.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 318,
+    "days_span": 24,
+    "stars_per_day": 13.25,
+    "lifetime_stars_per_day": 13.25,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "xiaodou-official/xiaodou-open-platform",
+    "readme_chars": 17236,
+    "capabilities": [
+      "quota-management",
+      "worktree-isolation",
+      "provider-aggregation",
+      "api-gateway",
+      "billing-metering",
+      "agent-runtime",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "",
+      "worktree-isolation": "",
+      "provider-aggregation": "系统，想要一条H5、JSAPI收款通道：建单、拿收款码、收终态通知、退款、对账。",
+      "api-gateway": "# 小豆支付开放平台 · 个人支付接口与虚拟发卡 / 数字商品接入资料（支付宝 + 微信聚合收款 · 持牌机构清算）",
+      "billing-metering": "# 小豆支付开放平台 · 个人支付接口与虚拟发卡 / 数字商品接入资料（支付宝 + 微信聚合收款 · 持牌机构清算）",
+      "agent-runtime": "入文档 —— 从「5 分钟跑通首单」到终端行为、错误码、上线检查、密钥轮换；",
+      "notifications": "件：主体类型选「个人」，身份证 + 本人银行卡，按五步向导提交审核（见怎么开通）。",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "worktree-isolation": 1,
+      "provider-aggregation": 1,
+      "api-gateway": 5,
+      "billing-metering": 31,
+      "agent-runtime": 2,
+      "notifications": 9,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Easy. No setup signals found in the README.",
+      "note_zh": "较易上手。README 中没有找到安装/配置说明。"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "has a table of contents",
+      "documents changes"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "直接找：接口一览 ｜ 五分钟上手 ｜ 易支付协议兼容接入 ｜ 到账账号与收款分配 ｜ 文档目录 ｜ 常见问题",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.232
+    },
+    "highlights": [
+      "费率公开、全平台统一一档：平台服务费 1.5%（商家实收 98.5%），手续费 0.01 元起。",
+      "钱先进哪个账户、按什么规则分，由你的「收款分配」说了算：可以绑定多个到账账号，单账号全额、按顺序轮流或比例分账（2–4 个参与账号，配置面每项 0 < shareBps < 10000、合计 10000bps）；一单一结、随单冻结，退款按原订单冻结的分配快照发起回退（实际到账路径以支付服务方原交易与分账合同为准）。",
+      "Fees: A 1.5% platform fee applies only to successful online payments; merchants keep 98.5%; fees start at CNY 0.01.",
+      "服务器端下单：调用下单接口，拿 payUrl（收银页）或支付宝官方收款码 qrCode；把收款码画在你自己的网页上，或把 payUrl 生成二维码 / 302 跳转。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-22T09:28:24+00:00",
+  "categories": [
+    "billing",
+    "model-routing",
+    "sharing"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

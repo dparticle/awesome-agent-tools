@@ -38,13 +38,13 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 795,
-  "days_since_push": 7,
-  "health_score": 54,
+  "age_days": 796,
+  "days_since_push": 8,
+  "health_score": 53,
   "health_components": {
     "popularity": 52.8,
     "momentum": 0.2,
-    "maintenance": 100.0,
+    "maintenance": 92.0,
     "documentation": 56.0,
     "accessibility": 88.0
   },
@@ -160,7 +160,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:24+00:00",
+  "fetched_at": "2026-10-22T09:28:11+00:00",
   "categories": [
     "desktop-ui",
     "providers-2",

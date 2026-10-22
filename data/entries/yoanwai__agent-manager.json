@@ -6,9 +6,9 @@
   "url": "https://github.com/YoanWai/agent-manager",
   "description": "The fastest developer workflow for every AI coding agent. Live status, quick prompts, worktrees, and diff review from one tmux TUI.",
   "homepage": "https://agent-manager.dev",
-  "stars": 606,
-  "forks": 66,
-  "open_issues": 96,
+  "stars": 612,
+  "forks": 68,
+  "open_issues": 92,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,36 +34,35 @@
     "wsl"
   ],
   "created_at": "2026-07-15T16:27:33Z",
-  "updated_at": "2026-10-20T22:28:54Z",
-  "pushed_at": "2026-10-20T22:28:52Z",
+  "updated_at": "2026-10-22T09:11:00Z",
+  "pushed_at": "2026-10-22T09:10:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 97,
+  "age_days": 98,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
-    "popularity": 55.6,
-    "momentum": 1.3,
+    "popularity": 55.7,
+    "momentum": 1.8,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 6.25,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 6.24,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "YoanWai/agent-manager",
-    "readme_chars": 14494,
+    "readme_chars": 14856,
     "capabilities": [
       "worktree-isolation",
-      "skills-plugins",
       "agent-runtime",
       "mcp-support",
       "notifications",
@@ -71,15 +70,13 @@
     ],
     "capability_evidence": {
       "worktree-isolation": ", list density, mouse, review layout, desktop notifications, editor, keybindings)",
-      "skills-plugins": "answer the dependency prompt up front (=0 to skip it).",
       "agent-runtime": "The fastest developer workflow for every AI coding agent.",
       "mcp-support": "own persistent tmux session.",
-      "notifications": "art a session on an empty context: same name, group, directory and tool, fresh conversation",
+      "notifications": "n macOS it offers Homebrew, and offers to install Homebrew first when that is missing.",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
     },
     "capability_hits": {
       "worktree-isolation": 2,
-      "skills-plugins": 1,
       "agent-runtime": 2,
       "mcp-support": 2,
       "notifications": 1,
@@ -126,7 +123,7 @@
       "OpenCode",
       "Cursor"
     ],
-    "summary_en": "Claude Code, Codex, OpenCode, Grok, Gemini CLI, Antigravity CLI, Pi, Command Code, Hermes Agent, Muse Code, and Oh My Pi run side by side.",
+    "summary_en": "Claude Code, Codex, OpenCode, Grok, Gemini CLI, Antigravity CLI, Pi, Command Code, Hermes Agent, Muse Code, Oh My Pi, and Cursor CLI run side by side.",
     "summary_zh": "",
     "install_hint": "brew install agent-manager",
     "source": "raw:HEAD/README.md",
@@ -134,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.276
+      "external_link_ratio": 0.269
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -146,16 +143,15 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:12+00:00",
+  "fetched_at": "2026-10-22T09:27:59+00:00",
   "categories": [
-    "desktop-ui",
     "parallelism-isolation"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
     "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
@@ -172,17 +168,16 @@
         "cross-agent-support",
         "mcp-support",
         "notifications",
-        "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 55.561,
-      "momentum_ratio": 12.125,
+      "star_ratio": 55.054,
+      "momentum_ratio": 9.273,
       "setup_delta": -2,
       "dominance": 1.0,
       "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "55.56x the stars (33,670 vs 606)",
-        "12.12x the star velocity (19.4/day vs 1.6/day)",
+        "covers 100% of capabilities (5/5)",
+        "55.05x the stars (33,693 vs 612)",
+        "9.27x the star velocity (20.4/day vs 2.2/day)",
         "no harder to set up (2 vs 4 friction)"
       ],
       "reasons_zh": [],
@@ -192,7 +187,6 @@
           "cross-agent-support",
           "mcp-support",
           "notifications",
-          "skills-plugins",
           "worktree-isolation"
         ],
         "challenger_capabilities": [

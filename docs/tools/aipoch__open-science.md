@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,316 |
-| Star velocity | 77.8/day (history basis, 5d span) |
-| Health score | 77/100 |
+| Stars | 5,337 |
+| Star velocity | 45.0/day (history basis, 5d span) |
+| Health score | 70/100 |
 | Documentation | 84/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-10-21 (0 days ago) |
-| Analyzed README | 40,196 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-22 (0 days ago) |
+| Analyzed README | 41,096 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -48,11 +48,9 @@
 
 ### Security & isolation
 
-> untime owns each data directory.
-
 ### GUI / desktop app
 
-> ith a screening model configured, smart collections evaluate references against your inclusion/exclusion criteria; AI decisions remain separate from manual decisions and support human review.
+> hed npm package with Node.js 22.13.0 or later:
 
 ### Cross-agent support
 
@@ -98,7 +96,7 @@ Score **84/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.5 |
-| momentum | 64.8 |
+| momentum | 37.5 |
 | maintenance | 100.0 |
 | documentation | 84.0 |
 | accessibility | 59.0 |

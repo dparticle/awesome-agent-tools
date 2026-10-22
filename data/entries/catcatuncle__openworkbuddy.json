@@ -6,8 +6,8 @@
   "url": "https://github.com/CatCatUncle/openworkbuddy",
   "description": "Open-source Claude Cowork / Codex alternative — a local-first AI office agent that turns one request into real PPTX, DOCX, XLSX and HTML files. Runs DeepSeek, Qwen, Doubao, Claude or Ollama (BYOK), MCP, and can drive Claude Code / Codex CLI. 开源 AI 办公助理，豆包办公 / 千问办公替代。",
   "homepage": "https://catcatuncle.github.io/openworkbuddy/",
-  "stars": 338,
-  "forks": 73,
+  "stars": 339,
+  "forks": 72,
   "open_issues": 9,
   "language": "JavaScript",
   "license": "NOASSERTION",
@@ -32,12 +32,12 @@
     "short-drama"
   ],
   "created_at": "2026-08-10T08:18:25Z",
-  "updated_at": "2026-10-21T05:15:52Z",
-  "pushed_at": "2026-10-21T05:15:47Z",
+  "updated_at": "2026-10-22T04:54:09Z",
+  "pushed_at": "2026-10-22T04:43:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 72,
+  "age_days": 73,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
@@ -52,13 +52,13 @@
     "stars_gained": 14,
     "days_span": 5,
     "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 4.69,
+    "lifetime_stars_per_day": 4.64,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "CatCatUncle/openworkbuddy",
-    "readme_chars": 18048,
+    "readme_chars": 18285,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -74,15 +74,15 @@
     ],
     "capability_evidence": {
       "multi-account-switching": "4 多人服务器上成员有自己的那份：模型渠道按需共享、能填自己的 Key，能建自己的专家，能起自己的助理名字和偏好",
-      "quota-management": "一句话做出来的 AI 短剧：说一句「做一集《不烧心》竖屏短剧」，剧本、定妆、分镜、首帧、镜头视频、成片一路做到底，下面这集 75 秒就是这么出来的（点封面看成片）。",
+      "quota-management": "",
       "remote-control": "",
-      "worktree-isolation": "公众号、群机器人和邮箱：消息按本人跑，结果只推给本人",
+      "worktree-isolation": "- 10-20 通知已读后不再反复提醒；区分本轮结束、停止和未完成；生成网页增加脚本语法检查，视频输出避免覆盖 - 10-20 源码更新先检查 Git 状态；有本地改动或分叉时保留原目录，避免更新时覆盖会话和成果 - 10-19 技术架构图按实际调用关系重画，改用可缩放 SVG，保证节点文字完整显示 - 10-19 任务可改名并显示日期；Goal 模式单轮 100 步后检查未完成项并有限续跑；沙箱拒绝会说明无法后台审批 - 10-19…",
       "api-gateway": "",
       "mcp-support": "agent 主循环怎么转的 参与贡献 项目结构、测试、提 PR",
       "security-isolation": "知已读后不再反复提醒；区分本轮结束、停止和未完成；生成网页增加脚本语法检查，视频输出避免覆盖",
       "self-hosted": "",
       "gui-desktop": "简洁图形生成 PPT，不需要生图、视频、消息渠道或额外连接器；准备 PowerPoint、WPS 或 LibreOffice，方便下载后打开检查。",
-      "notifications": "务报上游错误 核对服务商的 API 地址、型号、Key 和额度，见 模型配置",
+      "notifications": "nt.js，工具在 src/agent/tools.js 与 src/tools/。",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
@@ -154,7 +154,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.997
+      "external_link_ratio": 0.984
     },
     "highlights": [
       "10-13 「本机/内网放行」支持通配符：192.168.1.: 放一整个网段，*.local:8080 放一类主机名",
@@ -171,13 +171,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:35+00:00",
+  "fetched_at": "2026-10-22T09:28:21+00:00",
   "categories": [
     "parallelism-isolation",
     "security-self-hosting",
     "sharing"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,9 +6,9 @@
   "url": "https://github.com/zvec-ai/zvec-grep",
   "description": "Local-first search across your workspace, built for humans and AI agents.",
   "homepage": "",
-  "stars": 4127,
-  "forks": 242,
-  "open_issues": 82,
+  "stars": 4135,
+  "forks": 245,
+  "open_issues": 80,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -24,27 +24,27 @@
     "vector-search"
   ],
   "created_at": "2026-07-10T02:58:07Z",
-  "updated_at": "2026-10-21T06:44:30Z",
-  "pushed_at": "2026-10-21T06:44:47Z",
+  "updated_at": "2026-10-22T08:41:27Z",
+  "pushed_at": "2026-10-22T08:43:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 103,
+  "age_days": 104,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 72.3,
-    "momentum": 4.3,
+    "momentum": 5.2,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 57.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 26,
+    "stars_gained": 31,
     "days_span": 5,
-    "stars_per_day": 5.2,
-    "lifetime_stars_per_day": 40.07,
+    "stars_per_day": 6.2,
+    "lifetime_stars_per_day": 39.76,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -128,8 +128,8 @@
     "highlights_zh": [
       "人与 Agent 开箱即用：安装一次、索引一次，即可在 macOS、Linux 和",
       "更少搜索，更少上下文：经过排序并保留来源的结果，可以减少工具调用、",
-      "Django — Web 框架： 任务关联 username 唯一约束、ORM 事务和 formset",
-      "Matplotlib — 绘图与渲染库： 任务需要沿数学文本渲染的多个阶段追踪"
+      "Matplotlib — 绘图与渲染库： 任务需要沿数学文本渲染的多个阶段追踪",
+      "Pylint — Python 静态分析器： 任务需要理解 AST 节点处理如何区分带标注与"
     ],
     "chinese_readme": "README_CN.md"
   },
@@ -138,7 +138,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:24:12+00:00",
+  "fetched_at": "2026-10-22T09:26:57+00:00",
   "categories": [
     "security-self-hosting"
   ],

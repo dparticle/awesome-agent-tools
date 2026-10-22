@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2026-06-30 |
-| Last push | 2026-07-14 (98 days ago) |
+| Last push | 2026-07-14 (99 days ago) |
 | Analyzed README | 15,078 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).

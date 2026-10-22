@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "full_name": "fatwang2/search2ai",
+  "name": "search2ai",
+  "owner": "fatwang2",
+  "url": "https://github.com/fatwang2/search2ai",
+  "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
+  "homepage": "https://s1.dev",
+  "stars": 1281,
+  "forks": 192,
+  "open_issues": 18,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "cloudflare-workers",
+    "hono",
+    "mcp",
+    "mcp-server",
+    "openai-compatible",
+    "search",
+    "search-api",
+    "search-gateway",
+    "search1api",
+    "self-hosted",
+    "tool-calling",
+    "typescript",
+    "web-search"
+  ],
+  "created_at": "2023-12-18T02:02:46Z",
+  "updated_at": "2026-10-22T04:02:51Z",
+  "pushed_at": "2026-10-22T07:21:15Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 1039,
+  "days_since_push": 0,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 62.2,
+    "momentum": 1.0,
+    "maintenance": 100.0,
+    "documentation": 47.0,
+    "accessibility": 51.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1281,
+    "days_span": 1039,
+    "stars_per_day": 1.23,
+    "lifetime_stars_per_day": 1.23,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "fatwang2/search2ai",
+    "readme_chars": 7074,
+    "capabilities": [
+      "quota-management",
+      "auto-failover",
+      "model-routing",
+      "api-gateway",
+      "mcp-support",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "r、SerpApi、Google、SearXNG 等多家服务，一家挂了自动切下一家。",
+      "auto-failover": "i、Google、SearXNG 等多家服务，一家挂了自动切下一家。",
+      "model-routing": "链：限流、超时、报错自动切换下一家，响应里告诉你这次是谁答的、跳过了谁",
+      "api-gateway": "、网络错误、超时都会切到下一家，并写入 warnings",
+      "mcp-support": "ema：title / url / snippet / date，照抄 Perplexity Search API，换 provider 不改一行代码",
+      "self-hosted": "",
+      "cross-agent-support": "Mentions Claude Code, Cursor"
+    },
+    "capability_hits": {
+      "quota-management": 2,
+      "auto-failover": 1,
+      "model-routing": 1,
+      "api-gateway": 3,
+      "mcp-support": 8,
+      "self-hosted": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 49,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "docker run",
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via npx one-liner; needs docker run, git clone (build from source); configure database dependency",
+      "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 docker run、git clone (build from source)；需配置 database dependency"
+    },
+    "doc_score": 47,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents configuration",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "publishes a roadmap"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor"
+    ],
+    "summary_en": "给 AI Agent 用的自托管搜索网关。一个 Perplexity 兼容的搜索 API，背后接 Search1API、Tavily、Brave、Exa、Serper、SerpApi、Google、SearXNG 等多家服务，一家挂了自动切下一家。可以当库 import，可以当 HTTP 服务部署，也可以当 MCP server 接到 Claude、Cursor。",
+    "summary_zh": "",
+    "install_hint": "npm i search2ai",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.424
+    },
+    "highlights": [
+      "v0.3（当前）：TypeScript + Hono 重写，核心库、三端点、MCP、OpenAPI、8 家搜索 + 5 家抓取 provider、fallback 链、CLI、Workers / Node / Docker",
+      "兼容旧版：0.2.x 的「换个 base URL 让客户端联网」代理仍在，配置 APIBASE 即挂载",
+      "按链的顺序逐家尝试；鉴权失败、限流（429）、4xx / 5xx、网络错误、超时都会切到下一家，并写入 warnings",
+      "库优先：核心零框架依赖，HTTP 与 MCP 只是薄壳；TypeScript + Hono，Node、Cloudflare Workers、Bun、Docker 同一份代码"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-22T09:27:45+00:00",
+  "categories": [
+    "security-self-hosting",
+    "sharing",
+    "sharing-2"
+  ],
+  "primary_category": "sharing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

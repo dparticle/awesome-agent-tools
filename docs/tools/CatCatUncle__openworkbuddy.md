@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 338 |
+| Stars | 339 |
 | Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 61/100 |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
-| Last push | 2026-10-21 (0 days ago) |
-| Analyzed README | 18,048 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-22 (0 days ago) |
+| Analyzed README | 18,285 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,13 +32,11 @@
 
 ### Quota & usage management
 
-> 一句话做出来的 AI 短剧：说一句「做一集《不烧心》竖屏短剧」，剧本、定妆、分镜、首帧、镜头视频、成片一路做到底，下面这集 75 秒就是这么出来的（点封面看成片）。
-
 ### Remote control
 
 ### Workspace isolation
 
-> 公众号、群机器人和邮箱：消息按本人跑，结果只推给本人
+> - 10-20 通知已读后不再反复提醒；区分本轮结束、停止和未完成；生成网页增加脚本语法检查，视频输出避免覆盖 - 10-20 源码更新先检查 Git 状态；有本地改动或分叉时保留原目录，避免更新时覆盖会话和成果 - 10-19 技术架构图按实际调用关系重画，改用可缩放 SVG，保证节点文字完整显示 - 10-19 任务可改名并显示日期；Goal 模式单轮 100 步后检查未完成项并有限续跑；沙箱拒绝会说明无法后台审批 - 10-19…
 
 ### API gateway / proxy
 
@@ -58,7 +56,7 @@
 
 ### Notifications
 
-> 务报上游错误 核对服务商的 API 地址、型号、Key 和额度，见 模型配置
+> nt.js，工具在 src/agent/tools.js 与 src/tools/。
 
 ### Cross-agent support
 

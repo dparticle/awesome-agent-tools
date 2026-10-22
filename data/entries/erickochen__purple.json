@@ -6,9 +6,9 @@
   "url": "https://github.com/erickochen/purple",
   "description": "Free, open-source terminal SSH manager and SSH config editor in Rust for macOS and Linux that keeps ~/.ssh/config in sync with 18 cloud providers, monitors live SSH tunnels and manages Docker and Podman containers fleet-wide. Plus scp, Vault SSH certs and an MCP server for AI agents.",
   "homepage": "https://getpurple.sh",
-  "stars": 750,
+  "stars": 753,
   "forks": 37,
-  "open_issues": 7,
+  "open_issues": 6,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -34,26 +34,26 @@
     "tui"
   ],
   "created_at": "2026-02-19T16:30:18Z",
-  "updated_at": "2026-10-21T00:42:19Z",
-  "pushed_at": "2026-10-19T09:54:58Z",
+  "updated_at": "2026-10-22T05:43:43Z",
+  "pushed_at": "2026-10-21T15:56:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 243,
-  "days_since_push": 1,
+  "age_days": 244,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 57.5,
-    "momentum": 4.2,
+    "momentum": 4.7,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 28,
     "days_span": 5,
-    "stars_per_day": 5.0,
+    "stars_per_day": 5.6,
     "lifetime_stars_per_day": 3.09,
     "basis": "history",
     "is_fast_riser": true
@@ -154,7 +154,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:09+00:00",
+  "fetched_at": "2026-10-22T09:27:56+00:00",
   "categories": [
     "providers-2",
     "security-self-hosting"

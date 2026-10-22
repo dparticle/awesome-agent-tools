@@ -6,9 +6,9 @@
   "url": "https://github.com/getpaseo/paseo",
   "description": "Orchestrate multiple coding agents from desktop and mobile",
   "homepage": "https://paseo.sh",
-  "stars": 21570,
-  "forks": 2585,
-  "open_issues": 1489,
+  "stars": 21671,
+  "forks": 2592,
+  "open_issues": 1515,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -29,27 +29,27 @@
     "windows"
   ],
   "created_at": "2025-10-13T12:27:02Z",
-  "updated_at": "2026-10-21T09:20:20Z",
-  "pushed_at": "2026-10-21T09:20:14Z",
+  "updated_at": "2026-10-22T09:25:19Z",
+  "pushed_at": "2026-10-22T09:25:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 372,
+  "age_days": 373,
   "days_since_push": 0,
-  "health_score": 83,
+  "health_score": 82,
   "health_components": {
     "popularity": 86.7,
-    "momentum": 85.5,
+    "momentum": 82.7,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 84.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 513,
+    "stars_gained": 496,
     "days_span": 5,
-    "stars_per_day": 102.6,
-    "lifetime_stars_per_day": 57.98,
+    "stars_per_day": 99.2,
+    "lifetime_stars_per_day": 58.1,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -174,7 +174,7 @@
     "seed_reason": "Orchestrate several coding agents from desktop and mobile; easier on-ramp than Orca.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-21T09:23:49+00:00",
+  "fetched_at": "2026-10-22T09:26:35+00:00",
   "categories": [
     "parallelism-isolation",
     "security-self-hosting",

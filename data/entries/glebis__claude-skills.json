@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 360,
-  "days_since_push": 0,
+  "age_days": 361,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 51.9,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.1,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 1.09,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,10 +134,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:29+00:00",
+  "fetched_at": "2026-10-22T09:28:15+00:00",
   "categories": [
     "desktop-ui",
-    "self-hosting-security",
+    "security-self-hosting",
     "voice-remote-control"
   ],
   "primary_category": "voice-remote-control",
@@ -166,14 +166,14 @@
         "skills-plugins",
         "voice-input"
       ],
-      "star_ratio": 34.676,
-      "momentum_ratio": 9.0,
+      "star_ratio": 34.671,
+      "momentum_ratio": 9.5,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "34.68x the stars (13,697 vs 395)",
-        "9.00x the star velocity (5.4/day vs 0.6/day)",
+        "34.67x the stars (13,695 vs 395)",
+        "9.50x the star velocity (3.8/day vs 0.4/day)",
         "no harder to set up (21 vs 30 friction)"
       ],
       "reasons_zh": [],
@@ -204,7 +204,7 @@
           "voice-input"
         ],
         "incumbent_health": 51,
-        "challenger_health": 64,
+        "challenger_health": 63,
         "incumbent_setup_score": 30,
         "challenger_setup_score": 21
       }

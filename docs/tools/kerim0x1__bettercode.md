@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 275 |
-| Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 54/100 |
+| Stars | 274 |
+| Star velocity | 0.0/day (history basis, 7d span) |
+| Health score | 53/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-09-20 |
-| Last push | 2026-10-19 (2 days ago) |
-| Analyzed README | 12,673 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-21 (0 days ago) |
+| Analyzed README | 13,018 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -46,7 +46,7 @@
 
 ### GUI / desktop app
 
-> ws: SmartScreen shows "Windows protected your PC".
+> n System Settings → Privacy & Security and choose Open Anyway.
 
 ### Cross-agent support
 

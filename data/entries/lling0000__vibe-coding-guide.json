@@ -6,7 +6,7 @@
   "url": "https://github.com/Lling0000/Vibe_coding_guide",
   "description": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
   "homepage": "https://lling0000.github.io/Vibe_coding_guide/",
-  "stars": 236,
+  "stars": 237,
   "forks": 23,
   "open_issues": 4,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "worktree"
   ],
   "created_at": "2026-05-05T14:19:27Z",
-  "updated_at": "2026-10-21T02:07:52Z",
+  "updated_at": "2026-10-21T15:51:35Z",
   "pushed_at": "2026-06-25T15:20:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 168,
-  "days_since_push": 117,
-  "health_score": 40,
+  "age_days": 169,
+  "days_since_push": 118,
+  "health_score": 41,
   "health_components": {
     "popularity": 47.5,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 55.0,
     "documentation": 48.0,
     "accessibility": 70.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.8,
     "lifetime_stars_per_day": 1.4,
     "basis": "history",
     "is_fast_riser": false
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:53+00:00",
+  "fetched_at": "2026-10-22T09:28:40+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation",
@@ -180,14 +180,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 5.725,
-      "momentum_ratio": 2.333,
+      "star_ratio": 5.705,
+      "momentum_ratio": 1.75,
       "setup_delta": 0,
-      "dominance": 0.905,
+      "dominance": 0.87,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.72x the stars (1,351 vs 236)",
-        "2.33x the star velocity (1.4/day vs 0.6/day)",
+        "5.70x the stars (1,352 vs 237)",
+        "1.75x the star velocity (1.4/day vs 0.8/day)",
         "no harder to set up (30 vs 30 friction)"
       ],
       "reasons_zh": [],
@@ -217,7 +217,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 40,
+        "incumbent_health": 41,
         "challenger_health": 57,
         "incumbent_setup_score": 30,
         "challenger_setup_score": 30

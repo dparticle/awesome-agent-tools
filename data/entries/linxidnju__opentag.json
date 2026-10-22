@@ -6,7 +6,7 @@
   "url": "https://github.com/linxidnju/OpenTag",
   "description": "Open-source, channel-native agent gateway for Slack. Route team threads to Claude Code, Codex, OpenCode, Docker, HTTP agents, and custom CLIs with policy, approvals, memory, audit logs, and artifacts.",
   "homepage": "",
-  "stars": 503,
+  "stars": 502,
   "forks": 0,
   "open_issues": 1,
   "language": "JavaScript",
@@ -28,13 +28,13 @@
     "team-collaboration"
   ],
   "created_at": "2026-06-27T08:10:47Z",
-  "updated_at": "2026-10-14T14:54:24Z",
+  "updated_at": "2026-10-22T01:46:22Z",
   "pushed_at": "2026-07-10T06:39:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
-  "days_since_push": 103,
+  "age_days": 117,
+  "days_since_push": 104,
   "health_score": 41,
   "health_components": {
     "popularity": 54.0,
@@ -46,9 +46,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 8,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 4.34,
+    "lifetime_stars_per_day": 4.29,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-21T09:25:17+00:00",
+  "fetched_at": "2026-10-22T09:28:05+00:00",
   "categories": [
     "security-self-hosting"
   ],
@@ -160,14 +160,14 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 59.117,
-      "momentum_ratio": 664.0,
+      "star_ratio": 59.311,
+      "momentum_ratio": 680.0,
       "setup_delta": -13,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "59.12x the stars (29,736 vs 503)",
-        "664.00x the star velocity (33.2/day vs 0.0/day)",
+        "59.31x the stars (29,774 vs 502)",
+        "680.00x the star velocity (34.0/day vs 0.0/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
       "reasons_zh": [],
