@@ -6,19 +6,19 @@
   "url": "https://github.com/anthropics/claude-code",
   "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
   "homepage": "https://code.claude.com/docs/en/overview",
-  "stars": 152819,
-  "forks": 26783,
-  "open_issues": 15627,
+  "stars": 152959,
+  "forks": 26774,
+  "open_issues": 15548,
   "language": "TypeScript",
   "license": "",
   "topics": [],
   "created_at": "2025-02-22T17:41:21Z",
-  "updated_at": "2026-10-22T09:15:03Z",
-  "pushed_at": "2026-10-22T04:34:54Z",
+  "updated_at": "2026-10-23T09:21:56Z",
+  "pushed_at": "2026-10-22T22:18:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 606,
+  "age_days": 607,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1512,
+    "stars_gained": 802,
     "days_span": 5,
-    "stars_per_day": 302.4,
-    "lifetime_stars_per_day": 252.18,
+    "stars_per_day": 160.4,
+    "lifetime_stars_per_day": 251.99,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -108,7 +108,7 @@
     "seed_reason": "The reference agentic coding tool.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-22T09:26:38+00:00",
+  "fetched_at": "2026-10-23T09:22:41+00:00",
   "categories": [
     "desktop-ui"
   ],

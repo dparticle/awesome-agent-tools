@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/BrowserSkill",
   "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
   "homepage": "",
-  "stars": 9380,
-  "forks": 671,
-  "open_issues": 107,
+  "stars": 9433,
+  "forks": 678,
+  "open_issues": 108,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -17,27 +17,27 @@
     "dsh-plugin"
   ],
   "created_at": "2026-06-22T07:24:40Z",
-  "updated_at": "2026-10-22T09:15:21Z",
-  "pushed_at": "2026-10-22T09:22:16Z",
+  "updated_at": "2026-10-23T09:18:15Z",
+  "pushed_at": "2026-10-23T02:07:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 122,
+  "age_days": 123,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 71,
   "health_components": {
-    "popularity": 79.4,
-    "momentum": 51.3,
+    "popularity": 79.5,
+    "momentum": 50.0,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 66.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 308,
+    "stars_gained": 300,
     "days_span": 5,
-    "stars_per_day": 61.6,
-    "lifetime_stars_per_day": 76.89,
+    "stars_per_day": 60.0,
+    "lifetime_stars_per_day": 76.69,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:26:48+00:00",
+  "fetched_at": "2026-10-23T09:22:47+00:00",
   "categories": [
     "desktop-ui-2"
   ],

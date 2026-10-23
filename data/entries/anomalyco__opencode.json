@@ -6,40 +6,40 @@
   "url": "https://github.com/anomalyco/opencode",
   "description": "The open source coding agent.",
   "homepage": "https://opencode.ai",
-  "stars": 219910,
-  "forks": 29386,
-  "open_issues": 3716,
+  "stars": 220380,
+  "forks": 29465,
+  "open_issues": 3669,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-04-30T20:08:00Z",
-  "updated_at": "2026-10-22T09:22:16Z",
-  "pushed_at": "2026-10-22T08:39:07Z",
+  "updated_at": "2026-10-23T09:20:08Z",
+  "pushed_at": "2026-10-23T08:30:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 539,
+  "age_days": 540,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
     "popularity": 100.0,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 40.0,
+    "documentation": 39.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5441,
+    "stars_gained": 4601,
     "days_span": 5,
-    "stars_per_day": 1088.2,
-    "lifetime_stars_per_day": 408.0,
+    "stars_per_day": 920.2,
+    "lifetime_stars_per_day": 408.11,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "anomalyco/opencode",
-    "readme_chars": 5038,
+    "readme_chars": 4583,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
@@ -78,7 +78,7 @@
       "note_en": "Turnkey. install via Homebrew install, curl | sh installer; GUI application",
       "note_zh": "开箱即用。可通过 Homebrew install、curl | sh installer 安装；GUI application"
     },
-    "doc_score": 40,
+    "doc_score": 39,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -98,7 +98,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.992
+      "external_link_ratio": 1.091
     },
     "highlights": [],
     "summary_zh_native": "curl -fsSL https://opencode.ai/v2/install | bash",
@@ -110,7 +110,7 @@
     "seed_reason": "Open-source terminal agent with broad provider support.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-22T09:26:38+00:00",
+  "fetched_at": "2026-10-23T09:22:40+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

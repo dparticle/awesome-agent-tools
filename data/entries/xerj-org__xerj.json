@@ -6,9 +6,9 @@
   "url": "https://github.com/xerj-org/xerj",
   "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
   "homepage": "https://xerj.org",
-  "stars": 12957,
-  "forks": 832,
-  "open_issues": 167,
+  "stars": 13241,
+  "forks": 956,
+  "open_issues": 66,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "vector-search"
   ],
   "created_at": "2026-06-30T04:32:45Z",
-  "updated_at": "2026-10-22T09:25:46Z",
-  "pushed_at": "2026-10-22T09:16:05Z",
+  "updated_at": "2026-10-23T09:18:04Z",
+  "pushed_at": "2026-10-23T09:17:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
+  "age_days": 115,
   "days_since_push": 0,
-  "health_score": 84,
+  "health_score": 85,
   "health_components": {
-    "popularity": 82.3,
-    "momentum": 94.7,
+    "popularity": 82.4,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 60.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 12957,
-    "days_span": 114,
-    "stars_per_day": 113.66,
-    "lifetime_stars_per_day": 113.66,
-    "basis": "lifetime",
+    "stars_gained": 5175,
+    "days_span": 5,
+    "stars_per_day": 1035.0,
+    "lifetime_stars_per_day": 115.14,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "xerj-org/xerj",
-    "readme_chars": 36105,
+    "readme_chars": 37932,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -71,7 +71,7 @@
     "capability_evidence": {
       "memory-context": "f the same primitive: xerj autoindex makes an agent",
       "agent-runtime": "rity audit of WordPress core,",
-      "mcp-support": ". XERJ answers under its own name, xerj-history-vote-1;",
+      "mcp-support": "ks with Claude Code, Cursor and any MCP client.",
       "gui-desktop": "",
       "cross-agent-support": "Mentions Aider, Amp, Claude Code, Cline"
     },
@@ -149,7 +149,7 @@
         "bullet list of external links",
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 1.136
+      "external_link_ratio": 1.081
     },
     "highlights": [
       "XERJ vs Lucene 10.3.1 for a source-pinned, six-axis comparison"
@@ -168,12 +168,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:26:44+00:00",
+  "fetched_at": "2026-10-23T09:22:44+00:00",
   "categories": [
     "desktop-ui-2",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 440,
-  "days_since_push": 110,
+  "age_days": 441,
+  "days_since_push": 111,
   "health_score": 45,
   "health_components": {
     "popularity": 72.7,
@@ -33,7 +33,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 9.78,
+    "lifetime_stars_per_day": 9.76,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,77 +142,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:28+00:00",
+  "fetched_at": "2026-10-23T09:23:18+00:00",
   "categories": [
-    "security-self-hosting"
+    "desktop-ui-2",
+    "security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "pimzino/spec-workflow-mcp",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "Pimzino/spec-workflow-mcp",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "security-isolation",
-        "worktree-isolation"
-      ],
-      "star_ratio": 66.452,
-      "momentum_ratio": 2109.0,
-      "setup_delta": -7,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "66.45x the stars (286,008 vs 4,304)",
-        "2109.00x the star velocity (843.6/day vs 0.4/day)",
-        "no harder to set up (57 vs 64 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "security-isolation",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 45,
-        "challenger_health": 89,
-        "incumbent_setup_score": 64,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

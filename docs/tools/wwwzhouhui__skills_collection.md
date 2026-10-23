@@ -21,8 +21,8 @@
 | License | not declared |
 | Language | HTML |
 | Created | 2025-11-12 |
-| Last push | 2026-10-16 (5 days ago) |
-| Analyzed README | 105,466 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 105,897 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -64,6 +64,10 @@
 
 > 境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）
 
+### GUI / desktop app
+
+> 容器自愈重建 → Docker 全清 → ext4.vhdx 原生压缩 → 前后对比报告」。
+
 ### Notifications
 
 > 纯文本配置文件，无需构建部署，直接复制到 Claude Code 的 skills 目录即可使用。
@@ -74,17 +78,17 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 44/100)
+- **Difficulty:** 🟡 Some setup (friction score 41/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that make it easy:** pip install
+**Signals that make it easy:** pip install, native installer / package
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, .env file, config.json/yaml/toml, database dependency
+**Configuration required:** API key configuration, .env file, config.json/yaml/toml, database dependency, process manager
 
-*Some setup. install via pip install; needs git clone (build from source), npm install/build; configure API key configuration, .env file; Chinese: beginner/one-click framing*
+*Some setup. install via pip install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, .env file; Chinese: beginner/one-click framing*
 
 ## Documentation quality
 
@@ -115,7 +119,7 @@ Score **91/100**, based on these detected signals:
 | momentum | 0.2 |
 | maintenance | 100.0 |
 | documentation | 91.0 |
-| accessibility | 56.0 |
+| accessibility | 59.0 |
 
 ---
 

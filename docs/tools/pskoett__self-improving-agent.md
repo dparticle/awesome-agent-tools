@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 776 |
-| Star velocity | 3.0/day (lifetime basis, 263d span) |
-| Health score | 48/100 |
+| Stars | 778 |
+| Star velocity | 3.0/day (lifetime basis, 264d span) |
+| Health score | 49/100 |
 | Documentation | 27/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | JavaScript |
 | Created | 2026-01-31 |
-| Last push | 2026-10-10 (11 days ago) |
-| Analyzed README | 2,937 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-22 (0 days ago) |
+| Analyzed README | 3,154 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -67,7 +67,7 @@ Score **27/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 57.8 |
 | momentum | 2.5 |
-| maintenance | 92.0 |
+| maintenance | 100.0 |
 | documentation | 27.0 |
 | accessibility | 69.0 |
 

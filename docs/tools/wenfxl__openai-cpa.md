@@ -17,12 +17,14 @@
 | Health score | 49/100 |
 | Documentation | 67/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-03-23 |
-| Last push | 2026-08-21 (61 days ago) |
+| Last push | 2026-08-21 (62 days ago) |
 | Analyzed README | 25,594 chars from `raw:main/README.md` |
+
+> ⚠️ **Superseded by [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)** — Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (4/4).
 
 ## What it solves
 

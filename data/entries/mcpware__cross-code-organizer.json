@@ -7,7 +7,7 @@
   "description": "Cross-Code Organizer (formerly Claude Code Organizer): cross-harness config dashboard for Claude Code, Codex CLI, MCP servers, skills, memories, agents, sessions, security scanning, context budget, and backups.",
   "homepage": "https://www.npmjs.com/package/@mcpware/cross-code-organizer",
   "stars": 383,
-  "forks": 33,
+  "forks": 34,
   "open_issues": 2,
   "language": "JavaScript",
   "license": "MIT",
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 217,
-  "days_since_push": 1,
+  "age_days": 218,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
     "popularity": 51.7,
@@ -163,7 +163,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:18+00:00",
+  "fetched_at": "2026-10-23T09:23:54+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -193,14 +193,14 @@
         "skills-plugins",
         "usage-analytics"
       ],
-      "star_ratio": 27.225,
-      "momentum_ratio": 2228.0,
+      "star_ratio": 27.679,
+      "momentum_ratio": 2712.0,
       "setup_delta": 0,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "27.22x the stars (10,427 vs 383)",
-        "2228.00x the star velocity (111.4/day vs 0.0/day)",
+        "27.68x the stars (10,601 vs 383)",
+        "2712.00x the star velocity (135.6/day vs 0.0/day)",
         "no harder to set up (20 vs 20 friction)"
       ],
       "reasons_zh": [],
@@ -228,7 +228,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 54,
-        "challenger_health": 84,
+        "challenger_health": 85,
         "incumbent_setup_score": 20,
         "challenger_setup_score": 20
       }

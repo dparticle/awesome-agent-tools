@@ -6,8 +6,8 @@
   "url": "https://github.com/darrenhinde/OpenAgentsControl",
   "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
   "homepage": "",
-  "stars": 4930,
-  "forks": 401,
+  "stars": 4931,
+  "forks": 402,
   "open_issues": 70,
   "language": "TypeScript",
   "license": "MIT",
@@ -23,27 +23,27 @@
     "prompt-engineering"
   ],
   "created_at": "2025-08-14T21:44:01Z",
-  "updated_at": "2026-10-22T08:53:29Z",
+  "updated_at": "2026-10-23T03:09:52Z",
   "pushed_at": "2026-10-19T21:01:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 433,
-  "days_since_push": 2,
+  "age_days": 434,
+  "days_since_push": 3,
   "health_score": 65,
   "health_components": {
     "popularity": 73.9,
-    "momentum": 2.8,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 3.4,
-    "lifetime_stars_per_day": 11.39,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 11.36,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:27+00:00",
+  "fetched_at": "2026-10-23T09:23:17+00:00",
   "categories": [
     "parallelism-isolation"
   ],
@@ -156,14 +156,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 21.476,
-      "momentum_ratio": 151.353,
+      "star_ratio": 21.566,
+      "momentum_ratio": 169.533,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "21.48x the stars (105,878 vs 4,930)",
-        "151.35x the star velocity (514.6/day vs 3.4/day)",
+        "21.57x the stars (106,344 vs 4,931)",
+        "169.53x the star velocity (508.6/day vs 3.0/day)",
         "no harder to set up (45 vs 50 friction)"
       ],
       "reasons_zh": [],

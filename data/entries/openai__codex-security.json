@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11170,
-  "forks": 878,
-  "open_issues": 193,
+  "stars": 11181,
+  "forks": 879,
+  "open_issues": 200,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-10-22T09:07:17Z",
-  "pushed_at": "2026-10-22T09:11:09Z",
+  "updated_at": "2026-10-23T08:39:43Z",
+  "pushed_at": "2026-10-23T09:19:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 100,
+  "age_days": 101,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
     "popularity": 81.0,
-    "momentum": 8.3,
+    "momentum": 9.3,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 50,
+    "stars_gained": 56,
     "days_span": 5,
-    "stars_per_day": 10.0,
-    "lifetime_stars_per_day": 111.7,
+    "stars_per_day": 11.2,
+    "lifetime_stars_per_day": 110.7,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openai/codex-security",
-    "readme_chars": 10773,
+    "readme_chars": 10567,
     "capabilities": [
       "model-routing"
     ],
@@ -109,7 +109,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.186
+      "external_link_ratio": 0.189
     },
     "highlights": [
       "cron: \"23 7 * * 1\" # Mondays at 07:23 UTC",
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:26:45+00:00",
+  "fetched_at": "2026-10-23T09:22:45+00:00",
   "categories": [
     "model-routing"
   ],

@@ -6,8 +6,8 @@
   "url": "https://github.com/zhnt/loushang",
   "description": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance,   traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
   "homepage": "",
-  "stars": 1837,
-  "forks": 286,
+  "stars": 1846,
+  "forks": 287,
   "open_issues": 45,
   "language": "Python",
   "license": "Apache-2.0",
@@ -34,27 +34,27 @@
     "workflow"
   ],
   "created_at": "2026-05-29T17:25:11Z",
-  "updated_at": "2026-10-22T07:53:12Z",
-  "pushed_at": "2026-10-22T05:42:19Z",
+  "updated_at": "2026-10-23T08:48:05Z",
+  "pushed_at": "2026-10-23T07:16:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 145,
+  "age_days": 146,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 65.3,
-    "momentum": 8.7,
+    "momentum": 8.5,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 52,
+    "stars_gained": 51,
     "days_span": 5,
-    "stars_per_day": 10.4,
-    "lifetime_stars_per_day": 12.67,
+    "stars_per_day": 10.2,
+    "lifetime_stars_per_day": 12.64,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:34+00:00",
+  "fetched_at": "2026-10-23T09:23:22+00:00",
   "categories": [
     "model-routing"
   ],

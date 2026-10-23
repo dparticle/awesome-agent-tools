@@ -6,8 +6,8 @@
   "url": "https://github.com/Draculabo/AntigravityManager",
   "description": "Antigravity Manager is a desktop application for managing the Google accounts used by Antigravity clients (including Classic, Antigravity IDE and agy CLI). View model quota in real time, switch client accounts seamlessly, and connect AI coding tools like Claude Code, Codex and OpenCode through a high-performance local API gateway.",
   "homepage": "",
-  "stars": 2400,
-  "forks": 287,
+  "stars": 2404,
+  "forks": 288,
   "open_issues": 24,
   "language": "TypeScript",
   "license": "NOASSERTION",
@@ -24,27 +24,27 @@
     "gemini-pro"
   ],
   "created_at": "2025-11-29T15:50:32Z",
-  "updated_at": "2026-10-22T06:06:48Z",
-  "pushed_at": "2026-10-21T16:38:53Z",
+  "updated_at": "2026-10-23T08:32:47Z",
+  "pushed_at": "2026-10-23T08:32:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 326,
+  "age_days": 327,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 67.6,
-    "momentum": 2.2,
+    "momentum": 2.7,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 43.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 2.6,
-    "lifetime_stars_per_day": 7.36,
+    "stars_per_day": 3.2,
+    "lifetime_stars_per_day": 7.35,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -145,8 +145,8 @@
     },
     "highlights": [
       "Use the tool configuration cards for Claude Code, Codex or OpenCode.",
-      "Select the intended Antigravity client target: Antigravity (Classic), Antigravity IDE or agy CLI.",
       "Enable automatic switching if desired.",
+      "Select the intended Antigravity client target: Antigravity (Classic), Antigravity IDE or agy CLI.",
       "Refresh quota and inspect the available models, remaining quota and reset times."
     ],
     "summary_zh_native": "Antigravity Manager 是一款桌面应用，专用于管理 Antigravity 客户端（包括 Classic、Antigravity IDE 及 agy CLI）使用的 Google 账号。它提供模型额度实时监控、客户端账号平滑切换，并通过内置的高性能本地 API 网关将模型能力桥接至 Claude Code、Codex、OpenCode 等 AI 编程工具。",
@@ -163,7 +163,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:33+00:00",
+  "fetched_at": "2026-10-23T09:23:21+00:00",
   "categories": [
     "model-routing",
     "sharing"
@@ -194,14 +194,14 @@
         "notifications",
         "quota-management"
       ],
-      "star_ratio": 8.01,
-      "momentum_ratio": 13.615,
+      "star_ratio": 8.014,
+      "momentum_ratio": 12.188,
       "setup_delta": -25,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "8.01x the stars (19,224 vs 2,400)",
-        "13.62x the star velocity (35.4/day vs 2.6/day)",
+        "8.01x the stars (19,266 vs 2,404)",
+        "12.19x the star velocity (39.0/day vs 3.2/day)",
         "no harder to set up (32 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -233,7 +233,7 @@
           "voice-input"
         ],
         "incumbent_health": 54,
-        "challenger_health": 69,
+        "challenger_health": 70,
         "incumbent_setup_score": 57,
         "challenger_setup_score": 32
       }

@@ -13,20 +13,20 @@
   "license": "",
   "topics": [],
   "created_at": "2025-11-12T09:46:18Z",
-  "updated_at": "2026-10-20T22:25:21Z",
-  "pushed_at": "2026-10-16T13:56:12Z",
+  "updated_at": "2026-10-23T01:33:29Z",
+  "pushed_at": "2026-10-23T01:33:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 343,
-  "days_since_push": 5,
+  "age_days": 344,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 49.1,
     "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 91.0,
-    "accessibility": 56.0
+    "accessibility": 59.0
   },
   "tier": "notable",
   "momentum": {
@@ -39,7 +39,7 @@
   },
   "analysis": {
     "full_name": "wwwzhouhui/skills_collection",
-    "readme_chars": 105466,
+    "readme_chars": 105897,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -52,6 +52,7 @@
       "memory-context",
       "skills-plugins",
       "mcp-support",
+      "gui-desktop",
       "notifications",
       "cross-agent-support"
     ],
@@ -67,6 +68,7 @@
       "memory-context": "",
       "skills-plugins": "down 结构行、时间线/字幕/短场景淡入淡出健壮性加固，并新增 check-env.mjs 一键环境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）",
       "mcp-support": "境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）",
+      "gui-desktop": "容器自愈重建 → Docker 全清 → ext4.vhdx 原生压缩 → 前后对比报告」。",
       "notifications": "纯文本配置文件，无需构建部署，直接复制到 Claude Code 的 skills 目录即可使用。",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
     },
@@ -82,16 +84,18 @@
       "memory-context": 2,
       "skills-plugins": 9,
       "mcp-support": 15,
+      "gui-desktop": 1,
       "notifications": 3,
       "cross-agent-support": 4
     },
     "friction": {
       "level": "moderate",
-      "score": 44,
+      "score": 41,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
-        "pip install"
+        "pip install",
+        "native installer / package"
       ],
       "hard_signals": [
         "git clone (build from source)",
@@ -101,7 +105,8 @@
         "API key configuration",
         ".env file",
         "config.json/yaml/toml",
-        "database dependency"
+        "database dependency",
+        "process manager"
       ],
       "friendliness_signals": [
         "Chinese: beginner/one-click framing",
@@ -113,8 +118,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via pip install; needs git clone (build from source), npm install/build; configure API key configuration, .env file; Chinese: beginner/one-click framing",
-      "note_zh": "需要一些配置。可通过 pip install 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、.env file；Chinese: beginner/one-click framing"
+      "note_en": "Some setup. install via pip install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, .env file; Chinese: beginner/one-click framing",
+      "note_zh": "需要一些配置。可通过 pip install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、.env file；Chinese: beginner/one-click framing"
     },
     "doc_score": 91,
     "doc_signals": [
@@ -153,7 +158,7 @@
         "bullet list of external links",
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.398
+      "external_link_ratio": 0.397
     },
     "highlights": [
       "✅ 三画幅封面一次出：同一个 coverLayout 出 4:3（1440×1080）／ 3:4（1080×1440）／ 9:16（1080×1920 抖音，内容压在中央安全区），标题 ≤2 行、钩子行自动马克笔高亮",
@@ -170,11 +175,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:30+00:00",
+  "fetched_at": "2026-10-23T09:24:03+00:00",
   "categories": [
     "billing",
-    "mobile-remote-control",
-    "sharing"
+    "desktop-ui-2",
+    "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

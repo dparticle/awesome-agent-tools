@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,775 |
+| Stars | 2,781 |
 | Star velocity | 10.4/day (history basis, 5d span) |
 | Health score | 60/100 |
 | Documentation | 73/100 |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-05 |
-| Last push | 2026-10-18 (4 days ago) |
-| Analyzed README | 31,595 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 32,252 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,7 +34,7 @@
 
 ### Multi-agent orchestration
 
-> ations.json：派生数字的输入、函数和计算 DAG。
+> alc + gate 强制阶段、证据引用、确定性计算和合规边界
 
 ### API gateway / proxy
 

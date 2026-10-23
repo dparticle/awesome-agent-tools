@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 76,480 |
-| Star velocity | 239.8/day (history basis, 5d span) |
+| Stars | 76,692 |
+| Star velocity | 258.2/day (history basis, 5d span) |
 | Health score | 89/100 |
 | Documentation | 74/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-04-04 |
-| Last push | 2026-10-22 (0 days ago) |
-| Analyzed README | 46,244 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 46,158 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### GUI / desktop app
 
-> n terminal dashboard lets you browse your pipeline visually:
+> terminal dashboard lets you browse your pipeline visually:
 
 ### Cross-agent support
 

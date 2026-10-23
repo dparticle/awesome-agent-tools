@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,309 |
-| Star velocity | 3.8/day (history basis, 5d span) |
-| Health score | 56/100 |
+| Stars | 1,312 |
+| Star velocity | 3.6/day (history basis, 5d span) |
+| Health score | 58/100 |
 | Documentation | 70/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2025-10-15 |
-| Last push | 2026-10-02 (19 days ago) |
-| Analyzed README | 21,032 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 21,966 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (9/9).
 
 ## What it solves
 
@@ -43,6 +43,8 @@
 ### Skills & plugins
 
 > > **PM Workflow:** These skills form a complete product management lifecycle: **Research** (/auto-research) → **PRD** (/generate-prd) → **Stories** (/create-user-story) → Development → **Release Notes** (/generate-relea…
+
+### Agent runtime
 
 ### MCP support
 
@@ -95,9 +97,9 @@ Score **70/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 62.3 |
-| momentum | 3.2 |
-| maintenance | 92.0 |
+| popularity | 62.4 |
+| momentum | 3.0 |
+| maintenance | 100.0 |
 | documentation | 70.0 |
 | accessibility | 69.0 |
 

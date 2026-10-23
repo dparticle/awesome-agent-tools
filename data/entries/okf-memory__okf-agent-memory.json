@@ -6,9 +6,9 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 828,
+  "stars": 832,
   "forks": 66,
-  "open_issues": 4,
+  "open_issues": 6,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -32,27 +32,27 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-10-22T04:05:15Z",
-  "pushed_at": "2026-10-21T09:51:28Z",
+  "updated_at": "2026-10-23T09:08:30Z",
+  "pushed_at": "2026-10-22T12:00:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 46,
+  "age_days": 47,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 58.4,
-    "momentum": 2.3,
+    "momentum": 2.2,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 13,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 18.0,
+    "stars_per_day": 2.6,
+    "lifetime_stars_per_day": 17.7,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,24 +146,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:52+00:00",
+  "fetched_at": "2026-10-23T09:23:36+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by eugeniughelbur/obsidian-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 eugeniughelbur/obsidian-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "eugeniughelbur/obsidian-second-brain",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "okf-memory/okf-agent-memory",
-      "challenger": "eugeniughelbur/obsidian-second-brain",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "okf-memory/okf-agent-memory",
-      "challenger_name": "eugeniughelbur/obsidian-second-brain",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -175,15 +175,15 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 5.859,
-      "momentum_ratio": 4.214,
-      "setup_delta": -21,
-      "dominance": 0.979,
+      "star_ratio": 35.837,
+      "momentum_ratio": 13.769,
+      "setup_delta": -13,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "5.86x the stars (4,851 vs 828)",
-        "4.21x the star velocity (11.8/day vs 2.8/day)",
-        "no harder to set up (24 vs 45 friction)"
+        "35.84x the stars (29,816 vs 832)",
+        "13.77x the star velocity (35.8/day vs 2.6/day)",
+        "no harder to set up (32 vs 45 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -198,7 +198,9 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
@@ -206,12 +208,14 @@
           "notifications",
           "quota-management",
           "security-isolation",
-          "skills-plugins"
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
         ],
         "incumbent_health": 55,
-        "challenger_health": 63,
+        "challenger_health": 72,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 32
       }
     }
   }

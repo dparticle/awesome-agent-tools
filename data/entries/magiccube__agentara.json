@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 231,
-  "days_since_push": 163,
+  "age_days": 232,
+  "days_since_push": 164,
   "health_score": 38,
   "health_components": {
     "popularity": 54.3,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.24,
+    "lifetime_stars_per_day": 2.23,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -129,23 +129,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:04+00:00",
+  "fetched_at": "2026-10-23T09:23:43+00:00",
   "categories": [
-    "desktop-ui-2",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by aoci-spec/aoci-code: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 aoci-spec/aoci-code 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "aoci-spec/aoci-code",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "magiccube/agentara",
-      "challenger": "aoci-spec/aoci-code",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "MagicCube/agentara",
-      "challenger_name": "aoci-spec/aoci-code",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -157,15 +156,15 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 3.28,
-      "momentum_ratio": 436.0,
-      "setup_delta": -20,
+      "star_ratio": 554.752,
+      "momentum_ratio": 15944.0,
+      "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "3.28x the stars (1,696 vs 517)",
-        "436.00x the star velocity (21.8/day vs 0.0/day)",
-        "no harder to set up (64 vs 84 friction)"
+        "554.75x the stars (286,807 vs 517)",
+        "15944.00x the star velocity (797.2/day vs 0.0/day)",
+        "no harder to set up (57 vs 84 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -185,12 +184,19 @@
           "mcp-support",
           "memory-context",
           "model-routing",
-          "session-persistence"
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
         ],
         "incumbent_health": 38,
-        "challenger_health": 59,
+        "challenger_health": 89,
         "incumbent_setup_score": 84,
-        "challenger_setup_score": 64
+        "challenger_setup_score": 57
       }
     }
   }

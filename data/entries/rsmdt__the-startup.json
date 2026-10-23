@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 435,
-  "days_since_push": 79,
+  "age_days": 436,
+  "days_since_push": 80,
   "health_score": 48,
   "health_components": {
     "popularity": 55.1,
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:00+00:00",
+  "fetched_at": "2026-10-23T09:23:41+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation"
@@ -133,18 +133,18 @@
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "OthmanAdi/planning-with-files",
+    "note_en": "Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 XiaomiMiMo/MiMo-Code 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "XiaomiMiMo/MiMo-Code",
     "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "othmanadi/planning-with-files",
+      "challenger": "xiaomimimo/mimo-code",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "OthmanAdi/planning-with-files",
+      "challenger_name": "XiaomiMiMo/MiMo-Code",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "memory-context",
@@ -152,15 +152,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.382,
-      "momentum_ratio": 46.5,
-      "setup_delta": 2,
-      "dominance": 0.99,
+      "star_ratio": 24.042,
+      "momentum_ratio": 11.5,
+      "setup_delta": -4,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.38x the stars (27,578 vs 570)",
-        "46.50x the star velocity (18.6/day vs 0.4/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "24.04x the stars (13,704 vs 570)",
+        "11.50x the star velocity (4.6/day vs 0.4/day)",
+        "no harder to set up (21 vs 25 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -171,20 +171,24 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
           "security-isolation",
+          "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "worktree-isolation"
+          "voice-input"
         ],
         "incumbent_health": 48,
-        "challenger_health": 69,
+        "challenger_health": 63,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 27
+        "challenger_setup_score": 21
       }
     }
   }

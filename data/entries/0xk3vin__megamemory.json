@@ -6,7 +6,7 @@
   "url": "https://github.com/0xK3vin/MegaMemory",
   "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
   "homepage": "",
-  "stars": 725,
+  "stars": 726,
   "forks": 74,
   "open_issues": 4,
   "language": "TypeScript",
@@ -29,27 +29,27 @@
     "typescript"
   ],
   "created_at": "2026-02-06T07:40:49Z",
-  "updated_at": "2026-10-21T10:48:23Z",
+  "updated_at": "2026-10-22T19:28:28Z",
   "pushed_at": "2026-05-03T00:22:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 258,
-  "days_since_push": 172,
+  "age_days": 259,
+  "days_since_push": 173,
   "health_score": 43,
   "health_components": {
     "popularity": 57.2,
-    "momentum": 0.0,
+    "momentum": 0.1,
     "maintenance": 55.0,
     "documentation": 44.0,
     "accessibility": 72.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.81,
+    "stars_gained": 1,
+    "days_span": 6,
+    "stars_per_day": 0.17,
+    "lifetime_stars_per_day": 2.8,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,11 +139,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:56+00:00",
+  "fetched_at": "2026-10-23T09:23:38+00:00",
   "categories": [
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by Gentleman-Programming/engram: covers 100% of capabilities (5/5).",
@@ -166,14 +166,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 10.374,
-      "momentum_ratio": 600.0,
+      "star_ratio": 10.405,
+      "momentum_ratio": 170.588,
       "setup_delta": 6,
       "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "10.37x the stars (7,521 vs 725)",
-        "600.00x the star velocity (30.0/day vs 0.0/day)",
+        "10.40x the stars (7,554 vs 726)",
+        "170.59x the star velocity (29.0/day vs 0.2/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],

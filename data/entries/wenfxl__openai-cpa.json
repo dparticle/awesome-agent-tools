@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 213,
-  "days_since_push": 61,
+  "age_days": 214,
+  "days_since_push": 62,
   "health_score": 49,
   "health_components": {
     "popularity": 62.9,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.59,
+    "lifetime_stars_per_day": 6.56,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,16 +131,71 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:41+00:00",
+  "fetched_at": "2026-10-23T09:23:27+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "parallelism-isolation"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 milind-soni/OpenMausBot 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "milind-soni/OpenMausBot",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "wenfxl/openai-cpa",
+      "challenger": "milind-soni/openmausbot",
+      "incumbent_name": "wenfxl/openai-cpa",
+      "challenger_name": "milind-soni/OpenMausBot",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "multi-agent-orchestration",
+        "notifications",
+        "security-isolation",
+        "skills-plugins"
+      ],
+      "star_ratio": 3.894,
+      "momentum_ratio": 1544.0,
+      "setup_delta": -29,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "3.89x the stars (5,467 vs 1,404)",
+        "1544.00x the star velocity (77.2/day vs 0.0/day)",
+        "no harder to set up (28 vs 57 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics",
+          "voice-input"
+        ],
+        "incumbent_health": 49,
+        "challenger_health": 76,
+        "incumbent_setup_score": 57,
+        "challenger_setup_score": 28
+      }
+    }
   }
 }

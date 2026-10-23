@@ -2,7 +2,7 @@
 
 # fatwang2/search2ai
 
-> 给 AI Agent 用的自托管搜索网关。一个 Perplexity 兼容的搜索 API，背后接 Search1API、Tavily、Brave、Exa、Serper、SerpApi、Google、SearXNG 等多家服务，一家挂了自动切下一家。可以当库 import，可以当 HTTP 服务部署，也可以当 MCP server 接到 Claude、Cursor。
+> A self-hosted search gateway for AI agents and AI clients.
 
 [Repository](https://github.com/fatwang2/search2ai) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,73 +12,72 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,281 |
-| Star velocity | 1.2/day (lifetime basis, 1039d span) |
+| Stars | 1,282 |
+| Star velocity | 1.2/day (lifetime basis, 1040d span) |
 | Health score | 51/100 |
-| Documentation | 47/100 |
+| Documentation | 64/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2023-12-18 |
 | Last push | 2026-10-22 (0 days ago) |
-| Analyzed README | 7,074 chars from `raw:HEAD/README.md` |
+| Analyzed README | 25,798 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
 
 ## What it solves
 
-### Quota & usage management
+### Parallel execution
 
-> r、SerpApi、Google、SearXNG 等多家服务，一家挂了自动切下一家。
-
-### Automatic failover
-
-> i、Google、SearXNG 等多家服务，一家挂了自动切下一家。
+> earch, /v1/news, and /v1/crawl on the standalone service to receive JSON data.
 
 ### Model / provider routing
 
-> 链：限流、超时、报错自动切换下一家，响应里告诉你这次是谁答的、跳过了谁
+> ckend runtime: dist contains server code, not a static website.
 
 ### API gateway / proxy
 
-> 、网络错误、超时都会切到下一家，并写入 warnings
+> . search2ai needs a backend runtime: dist contains server code, not a static website.
 
 ### MCP support
 
-> ema：title / url / snippet / date，照抄 Perplexity Search API，换 provider 不改一行代码
+> s as needed; unconfigured providers are never enabled automatically.
 
 ### Self-hostable
 
-### Cross-agent support
-
-> Mentions Claude Code, Cursor
+> or regular chat clients, see the chat proxy.
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 49/100)
+- **Difficulty:** 🔴 Involved (friction score 73/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npm i search2ai`
+- **Quickest install:** `npx -y search2ai serve --host 127.0.0.1`
 
 **Signals that make it easy:** npx one-liner
 
 **Signals that add work:** docker run, git clone (build from source), npm install/build
 
-**Configuration required:** database dependency
+**Configuration required:** environment variables, API key configuration, database dependency, database migration, server/reverse-proxy setup
 
-*Some setup. install via npx one-liner; needs docker run, git clone (build from source); configure database dependency*
+*Involved setup. install via npx one-liner; needs docker run, git clone (build from source); configure environment variables, API key configuration*
 
 ## Documentation quality
 
-Score **47/100**, based on these detected signals:
+Score **64/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - has a quick-start section
+- documents installation
 - documents configuration
+- has contribution guidance
 - mentions licensing
 - links to dedicated docs
 - has a Chinese translation
 - publishes a roadmap
+- long, detailed README
 
 ## Score breakdown
 
@@ -87,8 +86,8 @@ Score **47/100**, based on these detected signals:
 | popularity | 62.2 |
 | momentum | 1.0 |
 | maintenance | 100.0 |
-| documentation | 47.0 |
-| accessibility | 51.0 |
+| documentation | 64.0 |
+| accessibility | 27.0 |
 
 ---
 

@@ -7,7 +7,7 @@
   "description": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
   "homepage": "https://automaze.io",
   "stars": 8414,
-  "forks": 840,
+  "forks": 841,
   "open_issues": 6,
   "language": "Shell",
   "license": "MIT",
@@ -20,13 +20,13 @@
     "vibe-coding"
   ],
   "created_at": "2025-08-18T23:20:08Z",
-  "updated_at": "2026-10-22T03:43:23Z",
+  "updated_at": "2026-10-23T06:21:04Z",
   "pushed_at": "2026-10-19T10:00:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 429,
-  "days_since_push": 2,
+  "age_days": 430,
+  "days_since_push": 3,
   "health_score": 58,
   "health_components": {
     "popularity": 78.5,
@@ -38,9 +38,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 8414,
-    "days_span": 429,
-    "stars_per_day": 19.61,
-    "lifetime_stars_per_day": 19.61,
+    "days_span": 430,
+    "stars_per_day": 19.57,
+    "lifetime_stars_per_day": 19.57,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -142,10 +142,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:23+00:00",
+  "fetched_at": "2026-10-23T09:23:15+00:00",
   "categories": [
     "parallelism-isolation",
-    "providers-2",
     "teams"
   ],
   "primary_category": "parallelism-isolation",

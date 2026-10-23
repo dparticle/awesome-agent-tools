@@ -6,20 +6,20 @@
   "url": "https://github.com/msitarzewski/agency-agents",
   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
   "homepage": "",
-  "stars": 163043,
-  "forks": 26317,
-  "open_issues": 169,
+  "stars": 163379,
+  "forks": 26371,
+  "open_issues": 177,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-10-13T12:12:29Z",
-  "updated_at": "2026-10-22T09:19:03Z",
+  "updated_at": "2026-10-23T08:55:28Z",
   "pushed_at": "2026-10-19T16:48:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 373,
-  "days_since_push": 2,
+  "age_days": 374,
+  "days_since_push": 3,
   "health_score": 98,
   "health_components": {
     "popularity": 100.0,
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2356,
+    "stars_gained": 2388,
     "days_span": 5,
-    "stars_per_day": 471.2,
-    "lifetime_stars_per_day": 437.11,
+    "stars_per_day": 477.6,
+    "lifetime_stars_per_day": 436.84,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -180,13 +180,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:04+00:00",
+  "fetched_at": "2026-10-23T09:22:59+00:00",
   "categories": [
     "desktop-ui-2",
-    "teams",
-    "voice-remote-control"
+    "parallelism-isolation",
+    "teams"
   ],
-  "primary_category": "voice-remote-control",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

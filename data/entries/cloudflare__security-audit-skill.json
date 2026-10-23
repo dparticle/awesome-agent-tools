@@ -6,23 +6,23 @@
   "url": "https://github.com/cloudflare/security-audit-skill",
   "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
   "homepage": "",
-  "stars": 37749,
-  "forks": 2354,
-  "open_issues": 80,
+  "stars": 40432,
+  "forks": 2522,
+  "open_issues": 79,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-18T14:08:44Z",
-  "updated_at": "2026-10-22T09:25:41Z",
+  "updated_at": "2026-10-23T09:21:35Z",
   "pushed_at": "2026-09-14T19:29:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 125,
-  "days_since_push": 37,
+  "age_days": 126,
+  "days_since_push": 38,
   "health_score": 82,
   "health_components": {
-    "popularity": 91.5,
+    "popularity": 92.1,
     "momentum": 100.0,
     "maintenance": 78.0,
     "documentation": 35.0,
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7379,
+    "stars_gained": 9592,
     "days_span": 5,
-    "stars_per_day": 1475.8,
-    "lifetime_stars_per_day": 301.99,
+    "stars_per_day": 1918.4,
+    "lifetime_stars_per_day": 320.89,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -104,8 +104,8 @@
     "highlights": [
       "Coverage-led hunting -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.",
       "Target-neutral reporting -- derive REPORT.md, FINDINGS-DETAIL.md, and NEEDS-VALIDATION.md from the verified records and coverage ledger.",
-      "Independent record verification -- fresh agents verify final source claims.",
-      "Candidate validation -- give every unique candidate to a fresh verifier that tries to disprove it."
+      "Candidate validation -- give every unique candidate to a fresh verifier that tries to disprove it.",
+      "Independent record verification -- fresh agents verify final source claims."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -116,7 +116,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:26:39+00:00",
+  "fetched_at": "2026-10-23T09:22:41+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

@@ -18,12 +18,12 @@
   ],
   "created_at": "2025-03-08T14:10:29Z",
   "updated_at": "2026-10-15T02:04:02Z",
-  "pushed_at": "2026-10-15T13:24:22Z",
+  "pushed_at": "2026-10-22T13:24:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 592,
-  "days_since_push": 6,
+  "age_days": 593,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -134,22 +134,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:19+00:00",
+  "fetched_at": "2026-10-23T09:23:55+00:00",
   "categories": [
-    "security-self-hosting"
+    "desktop-ui-2",
+    "security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by 0xsline/OpenChatCut: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 0xsline/OpenChatCut 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "0xsline/OpenChatCut",
+    "note_en": "Superseded by aipoch/open-science: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 aipoch/open-science 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "aipoch/open-science",
     "challenger": "",
     "supersede": {
       "incumbent": "nwiizo/tfmcp",
-      "challenger": "0xsline/openchatcut",
+      "challenger": "aipoch/open-science",
       "incumbent_name": "nwiizo/tfmcp",
-      "challenger_name": "0xsline/OpenChatCut",
+      "challenger_name": "aipoch/open-science",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -161,14 +162,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 7.0,
-      "momentum_ratio": 526.0,
+      "star_ratio": 14.363,
+      "momentum_ratio": 620.0,
       "setup_delta": -11,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "7.00x the stars (2,604 vs 372)",
-        "526.00x the star velocity (26.3/day vs 0.0/day)",
+        "14.36x the stars (5,343 vs 372)",
+        "620.00x the star velocity (31.0/day vs 0.0/day)",
         "no harder to set up (41 vs 52 friction)"
       ],
       "reasons_zh": [],
@@ -181,18 +182,17 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "model-routing",
           "remote-control",
           "security-isolation",
-          "skills-plugins",
-          "worktree-isolation"
+          "skills-plugins"
         ],
         "incumbent_health": 52,
-        "challenger_health": 63,
+        "challenger_health": 68,
         "incumbent_setup_score": 52,
         "challenger_setup_score": 41
       }

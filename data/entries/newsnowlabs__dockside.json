@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1865,
-  "days_since_push": 0,
+  "age_days": 1866,
+  "days_since_push": 1,
   "health_score": 48,
   "health_components": {
     "popularity": 50.1,
@@ -148,11 +148,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:24+00:00",
+  "fetched_at": "2026-10-23T09:23:58+00:00",
   "categories": [
-    "parallelism-isolation"
+    "parallelism-isolation",
+    "teams"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

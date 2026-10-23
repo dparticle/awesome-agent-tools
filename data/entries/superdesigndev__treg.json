@@ -6,9 +6,9 @@
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
   "homepage": "https://treg.to",
-  "stars": 5950,
-  "forks": 507,
-  "open_issues": 178,
+  "stars": 6002,
+  "forks": 510,
+  "open_issues": 181,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -25,33 +25,33 @@
     "secrets"
   ],
   "created_at": "2026-07-15T13:38:07Z",
-  "updated_at": "2026-10-22T08:54:36Z",
-  "pushed_at": "2026-10-22T08:57:02Z",
+  "updated_at": "2026-10-23T09:05:30Z",
+  "pushed_at": "2026-10-23T07:20:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 98,
+  "age_days": 99,
   "days_since_push": 0,
-  "health_score": 75,
+  "health_score": 74,
   "health_components": {
-    "popularity": 75.5,
-    "momentum": 54.8,
+    "popularity": 75.6,
+    "momentum": 48.7,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 329,
+    "stars_gained": 292,
     "days_span": 5,
-    "stars_per_day": 65.8,
-    "lifetime_stars_per_day": 60.71,
+    "stars_per_day": 58.4,
+    "lifetime_stars_per_day": 60.63,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "superdesigndev/treg",
-    "readme_chars": 31390,
+    "readme_chars": 32578,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -70,7 +70,7 @@
       "mcp-support": "install it as a Claude Code plugin",
       "security-isolation": "resolves the tool by host, injects the credential, and relays everything else faithfully",
       "self-hosted": "need to know which vendor sells backlink data, or to",
-      "notifications": "lace a secret into a header/query"
+      "notifications": "ogle OAuth sign-in (redirect /auth/google/callback); empty hides the button"
     },
     "capability_hits": {
       "auto-failover": 1,
@@ -139,7 +139,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.382
+      "external_link_ratio": 0.368
     },
     "highlights": [
       "The API — everything the CLI does is plain HTTP; interactive OpenAPI docs live at /docs.",
@@ -155,11 +155,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:26:54+00:00",
+  "fetched_at": "2026-10-23T09:22:52+00:00",
   "categories": [
+    "security",
     "security-self-hosting"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

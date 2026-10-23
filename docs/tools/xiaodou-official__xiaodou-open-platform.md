@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 318 |
-| Star velocity | 13.2/day (lifetime basis, 24d span) |
+| Stars | 319 |
+| Star velocity | 12.8/day (lifetime basis, 25d span) |
 | Health score | 54/100 |
-| Documentation | 58/100 |
+| Documentation | 59/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-09-27 |
-| Last push | 2026-10-21 (1 days ago) |
-| Analyzed README | 17,236 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-22 (0 days ago) |
+| Analyzed README | 17,502 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -48,7 +48,7 @@
 
 ### Notifications
 
-> 件：主体类型选「个人」，身份证 + 本人银行卡，按五步向导提交审核（见怎么开通）。
+> 议的多种接口（submit.php 表单收单 / mapi.php 程序化收单 / api.php 查询），见易支付协议兼容接入。
 
 ### Cross-agent support
 
@@ -64,7 +64,7 @@
 
 ## Documentation quality
 
-Score **58/100**, based on these detected signals:
+Score **59/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -80,10 +80,10 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.0 |
-| momentum | 11.0 |
+| popularity | 50.1 |
+| momentum | 10.6 |
 | maintenance | 100.0 |
-| documentation | 58.0 |
+| documentation | 59.0 |
 | accessibility | 70.0 |
 
 ---

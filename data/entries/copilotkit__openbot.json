@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "https://www.copilotkit.ai/openbot",
-  "stars": 6879,
-  "forks": 941,
-  "open_issues": 35,
+  "stars": 6975,
+  "forks": 945,
+  "open_issues": 37,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-10-22T09:10:09Z",
-  "pushed_at": "2026-10-22T04:58:06Z",
+  "updated_at": "2026-10-23T08:50:32Z",
+  "pushed_at": "2026-10-23T07:39:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 66,
+  "age_days": 67,
   "days_since_push": 0,
-  "health_score": 71,
+  "health_score": 74,
   "health_components": {
-    "popularity": 76.8,
-    "momentum": 50.3,
+    "popularity": 76.9,
+    "momentum": 61.5,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 51.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 302,
+    "stars_gained": 369,
     "days_span": 5,
-    "stars_per_day": 60.4,
-    "lifetime_stars_per_day": 104.23,
+    "stars_per_day": 73.8,
+    "lifetime_stars_per_day": 104.1,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -144,81 +144,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:26:51+00:00",
+  "fetched_at": "2026-10-23T09:22:50+00:00",
   "categories": [
     "providers",
-    "security-self-hosting",
-    "self-hosting-security"
+    "security",
+    "security-self-hosting"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "copilotkit/openbot",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "CopilotKit/OpenBot",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "mcp-support",
-        "model-routing",
-        "notifications",
-        "security-isolation",
-        "self-hosted",
-        "session-persistence"
-      ],
-      "star_ratio": 41.577,
-      "momentum_ratio": 13.967,
-      "setup_delta": 8,
-      "dominance": 0.96,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "41.58x the stars (286,008 vs 6,879)",
-        "13.97x the star velocity (843.6/day vs 60.4/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "mcp-support",
-          "model-routing",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 71,
-        "challenger_health": 89,
-        "incumbent_setup_score": 49,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

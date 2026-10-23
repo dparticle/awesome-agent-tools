@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 498,
-  "days_since_push": 28,
+  "age_days": 499,
+  "days_since_push": 29,
   "health_score": 49,
   "health_components": {
     "popularity": 54.9,
@@ -167,7 +167,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:01+00:00",
+  "fetched_at": "2026-10-23T09:23:42+00:00",
   "categories": [
     "providers",
     "sharing",

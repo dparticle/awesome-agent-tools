@@ -6,7 +6,7 @@
   "url": "https://github.com/xiaodou-official/xiaodou-open-platform",
   "description": "小豆支付开放平台：个人也能申请的支付宝+微信聚合收款接口——RSA2 签名 + webhook 验签、持牌机构清算、次日到账；兼容易支付 / 彩虹支付类插件协议零代码迁移（submit.php / mapi.php / api.php，网关 / 商家 ID / 密钥三格配置）；已兼容 Sub2API、New API（源码级核对）；支持多到账账号收款分配与分账；含 14 篇文档、四语言签名示例与本地 demo。Payment API for individuals & digital-goods merchants: Alipay + WeChat Pay, Epay-compatible, Sub2API & New API ready, licensed settlement.",
   "homepage": "https://xdfair.cn/",
-  "stars": 318,
+  "stars": 319,
   "forks": 9,
   "open_issues": 0,
   "language": "",
@@ -34,33 +34,33 @@
     "wechat-pay"
   ],
   "created_at": "2026-09-27T12:05:21Z",
-  "updated_at": "2026-10-22T03:11:17Z",
-  "pushed_at": "2026-10-21T07:43:39Z",
+  "updated_at": "2026-10-22T12:50:45Z",
+  "pushed_at": "2026-10-22T12:50:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 24,
-  "days_since_push": 1,
+  "age_days": 25,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
-    "popularity": 50.0,
-    "momentum": 11.0,
+    "popularity": 50.1,
+    "momentum": 10.6,
     "maintenance": 100.0,
-    "documentation": 58.0,
+    "documentation": 59.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 318,
-    "days_span": 24,
-    "stars_per_day": 13.25,
-    "lifetime_stars_per_day": 13.25,
+    "stars_gained": 319,
+    "days_span": 25,
+    "stars_per_day": 12.76,
+    "lifetime_stars_per_day": 12.76,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "xiaodou-official/xiaodou-open-platform",
-    "readme_chars": 17236,
+    "readme_chars": 17502,
     "capabilities": [
       "quota-management",
       "worktree-isolation",
@@ -78,7 +78,7 @@
       "api-gateway": "# 小豆支付开放平台 · 个人支付接口与虚拟发卡 / 数字商品接入资料（支付宝 + 微信聚合收款 · 持牌机构清算）",
       "billing-metering": "# 小豆支付开放平台 · 个人支付接口与虚拟发卡 / 数字商品接入资料（支付宝 + 微信聚合收款 · 持牌机构清算）",
       "agent-runtime": "入文档 —— 从「5 分钟跑通首单」到终端行为、错误码、上线检查、密钥轮换；",
-      "notifications": "件：主体类型选「个人」，身份证 + 本人银行卡，按五步向导提交审核（见怎么开通）。",
+      "notifications": "议的多种接口（submit.php 表单收单 / mapi.php 程序化收单 / api.php 查询），见易支付协议兼容接入。",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
@@ -86,9 +86,9 @@
       "worktree-isolation": 1,
       "provider-aggregation": 1,
       "api-gateway": 5,
-      "billing-metering": 31,
+      "billing-metering": 32,
       "agent-runtime": 2,
-      "notifications": 9,
+      "notifications": 10,
       "cross-agent-support": 4
     },
     "friction": {
@@ -104,7 +104,7 @@
       "note_en": "Easy. No setup signals found in the README.",
       "note_zh": "较易上手。README 中没有找到安装/配置说明。"
     },
-    "doc_score": 58,
+    "doc_score": 59,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -132,7 +132,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.232
+      "external_link_ratio": 0.343
     },
     "highlights": [
       "费率公开、全平台统一一档：平台服务费 1.5%（商家实收 98.5%），手续费 0.01 元起。",
@@ -149,7 +149,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:24+00:00",
+  "fetched_at": "2026-10-23T09:23:58+00:00",
   "categories": [
     "billing",
     "model-routing",

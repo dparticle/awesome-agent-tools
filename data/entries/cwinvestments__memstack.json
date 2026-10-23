@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 245,
-  "days_since_push": 3,
+  "age_days": 246,
+  "days_since_push": 4,
   "health_score": 53,
   "health_components": {
     "popularity": 52.6,
@@ -173,11 +173,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:13+00:00",
+  "fetched_at": "2026-10-23T09:23:49+00:00",
   "categories": [
     "desktop-ui",
-    "parallelism-isolation",
-    "self-hosting-security"
+    "model-routing",
+    "parallelism-isolation"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {

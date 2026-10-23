@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,957 |
-| Star velocity | 113.7/day (lifetime basis, 114d span) |
-| Health score | 84/100 |
+| Stars | 13,241 |
+| Star velocity | 1035.0/day (history basis, 5d span) |
+| Health score | 85/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-10-22 (0 days ago) |
-| Analyzed README | 36,105 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 37,932 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### MCP support
 
-> . XERJ answers under its own name, xerj-history-vote-1;
+> ks with Claude Code, Cursor and any MCP client.
 
 ### GUI / desktop app
 
@@ -80,8 +80,8 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.3 |
-| momentum | 94.7 |
+| popularity | 82.4 |
+| momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 68.0 |
 | accessibility | 60.0 |

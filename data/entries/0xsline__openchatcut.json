@@ -6,8 +6,8 @@
   "url": "https://github.com/0xsline/OpenChatCut",
   "description": "Open-source, local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering.",
   "homepage": "https://openchatcut.com",
-  "stars": 2604,
-  "forks": 390,
+  "stars": 2633,
+  "forks": 396,
   "open_issues": 21,
   "language": "TypeScript",
   "license": "AGPL-3.0",
@@ -34,28 +34,28 @@
     "video-editor"
   ],
   "created_at": "2026-07-15T02:49:42Z",
-  "updated_at": "2026-10-22T09:25:47Z",
+  "updated_at": "2026-10-23T09:04:25Z",
   "pushed_at": "2026-10-21T13:09:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 99,
-  "days_since_push": 0,
-  "health_score": 63,
+  "age_days": 100,
+  "days_since_push": 1,
+  "health_score": 64,
   "health_components": {
-    "popularity": 68.3,
-    "momentum": 21.9,
+    "popularity": 68.4,
+    "momentum": 25.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 59.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 2604,
-    "days_span": 99,
-    "stars_per_day": 26.3,
-    "lifetime_stars_per_day": 26.3,
-    "basis": "lifetime",
+    "stars_gained": 155,
+    "days_span": 5,
+    "stars_per_day": 31.0,
+    "lifetime_stars_per_day": 26.33,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -176,12 +176,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:00+00:00",
+  "fetched_at": "2026-10-23T09:22:56+00:00",
   "categories": [
-    "parallelism-isolation",
-    "security-self-hosting"
+    "desktop-ui-2",
+    "security"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

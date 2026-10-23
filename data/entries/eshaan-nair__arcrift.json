@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 184,
-  "days_since_push": 106,
+  "age_days": 185,
+  "days_since_push": 107,
   "health_score": 45,
   "health_components": {
     "popularity": 47.9,
@@ -161,12 +161,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:35+00:00",
+  "fetched_at": "2026-10-23T09:24:06+00:00",
   "categories": [
     "desktop-ui-2",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -37,8 +37,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 238,
-  "days_since_push": 14,
+  "age_days": 239,
+  "days_since_push": 15,
   "health_score": 55,
   "health_components": {
     "popularity": 54.7,
@@ -52,7 +52,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.27,
+    "lifetime_stars_per_day": 2.26,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,7 +134,7 @@
       "MCO 不创建或管理 worktree。用户显式选择并行写入时，应通过不重叠的 --target-paths 划分范围，并提前提示编辑冲突风险。",
       "--allow-paths 只校验 MCO 请求的作用域，不是操作系统级沙箱。",
       "ACP terminal 属于可信 Agent 能力；不可信 Agent 或提示词应在隔离环境中运行。",
-      "实际沙箱强度取决于底层 Provider CLI。"
+      "Hermes oneshot 会绕过审批，因此必须显式使用 --execution-mode yolo。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -143,10 +143,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:02+00:00",
+  "fetched_at": "2026-10-23T09:23:42+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

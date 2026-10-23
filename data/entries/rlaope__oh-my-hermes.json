@@ -6,9 +6,9 @@
   "url": "https://github.com/rlaope/oh-my-hermes",
   "description": "The packages for Hermes Agent ⚚ skills, coding harness, long-term memory, model optimized subagent & bot team workflows",
   "homepage": "https://rlaope.github.io/oh-my-hermes/",
-  "stars": 3543,
+  "stars": 3564,
   "forks": 269,
-  "open_issues": 12,
+  "open_issues": 17,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -23,27 +23,27 @@
     "skills"
   ],
   "created_at": "2026-06-03T13:00:34Z",
-  "updated_at": "2026-10-22T08:59:20Z",
-  "pushed_at": "2026-10-22T09:22:38Z",
+  "updated_at": "2026-10-23T08:50:39Z",
+  "pushed_at": "2026-10-23T09:04:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
+  "age_days": 141,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
     "popularity": 71.0,
-    "momentum": 23.8,
+    "momentum": 23.5,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 99.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 143,
+    "stars_gained": 141,
     "days_span": 5,
-    "stars_per_day": 28.6,
-    "lifetime_stars_per_day": 25.31,
+    "stars_per_day": 28.2,
+    "lifetime_stars_per_day": 25.28,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -139,9 +139,9 @@
     "summary_zh_native": "中的普通请求，转化为合适的能力、明确的下一步，以及对“已经发生”和“尚未发生”的诚实状态。",
     "highlights_zh": [
       "Agent 看板与原生 Kanban 协作（agent/operator 参考）",
+      "Mixture-of-Models Routing — 每条委派 lane 按类别(ultrabrain、deep、",
       "Parallel Evals — 评审与验证 lane 作为独立子代理调度,交叉核验而非",
-      "Parallel Tool Calling — 批量工具调用在 Hermes 中并发执行,刚发生的",
-      "Phase-structured TODO — 工作在开始前以 phase 和 task 声明"
+      "Parallel Tool Calling — 批量工具调用在 Hermes 中并发执行,刚发生的"
     ],
     "chinese_readme": "README.zh.md"
   },
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:30+00:00",
+  "fetched_at": "2026-10-23T09:23:19+00:00",
   "categories": [
     "desktop-ui",
     "model-routing",

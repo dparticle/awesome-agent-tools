@@ -6,9 +6,9 @@
   "url": "https://github.com/phuryn/pm-skills",
   "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
   "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
-  "stars": 27291,
-  "forks": 2813,
-  "open_issues": 46,
+  "stars": 27321,
+  "forks": 2819,
+  "open_issues": 47,
   "language": "",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "product-management"
   ],
   "created_at": "2026-03-01T23:33:44Z",
-  "updated_at": "2026-10-22T08:38:19Z",
+  "updated_at": "2026-10-23T08:22:11Z",
   "pushed_at": "2026-10-16T12:28:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 234,
-  "days_since_push": 5,
+  "age_days": 235,
+  "days_since_push": 6,
   "health_score": 69,
   "health_components": {
     "popularity": 88.7,
-    "momentum": 27.5,
+    "momentum": 27.7,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 165,
+    "stars_gained": 166,
     "days_span": 5,
-    "stars_per_day": 33.0,
-    "lifetime_stars_per_day": 116.63,
+    "stars_per_day": 33.2,
+    "lifetime_stars_per_day": 116.26,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:21+00:00",
+  "fetched_at": "2026-10-23T09:23:13+00:00",
   "categories": [
     "desktop-ui"
   ],

@@ -6,7 +6,7 @@
   "url": "https://github.com/sv3nbeast/agent-manager-lite",
   "description": "macOS 上的 Codex、Claude Code CLI 与 Claude Desktop 多实例管理器，统一管理账号、供应商密钥、独立配置、会话与代理。 / A macOS manager for Codex, Claude Code CLI and Claude Desktop instances, accounts, provider keys, isolated configs, sessions and proxies.",
   "homepage": "",
-  "stars": 452,
+  "stars": 461,
   "forks": 14,
   "open_issues": 0,
   "language": "TypeScript",
@@ -21,33 +21,33 @@
     "vue"
   ],
   "created_at": "2026-10-04T05:59:16Z",
-  "updated_at": "2026-10-22T07:56:10Z",
-  "pushed_at": "2026-10-21T22:04:07Z",
+  "updated_at": "2026-10-22T23:31:29Z",
+  "pushed_at": "2026-10-22T17:46:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 18,
+  "age_days": 19,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 53.1,
-    "momentum": 20.9,
+    "popularity": 53.3,
+    "momentum": 20.2,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 452,
-    "days_span": 18,
-    "stars_per_day": 25.11,
-    "lifetime_stars_per_day": 25.11,
+    "stars_gained": 461,
+    "days_span": 19,
+    "stars_per_day": 24.26,
+    "lifetime_stars_per_day": 24.26,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sv3nbeast/agent-manager-lite",
-    "readme_chars": 10142,
+    "readme_chars": 10394,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -143,12 +143,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.479
+      "external_link_ratio": 1.443
     },
     "highlights": [
       "本地 API：为 Codex 连接提供多账号、调度策略及独立访问密钥，支持模型范围和 Token 上限控制。",
+      "Codex 会话与记录：会话页扫描已登记目录及本机默认 ~/.codex，按来源、工作目录、标题、ID 和正文查找对话，包括工作目录位于受管目录之外项目中的 Codex 会话。",
       "模型与配置：按客户端能力选择模型。",
-      "Claude 会话：在统一「会话」页浏览默认 Claude Code 目录、受管 CLI 实例和 Claude Desktop 已保存的本地 Code 历史，按客户端、来源、项目、标题 / ID 和正文筛选。",
       "Codex 个人技能：启动受管的桌面或 CLI 实例时，自动补齐本机 ~/.codex/skills 中的个人技能入口，已有实例和会话副本同样适用。"
     ],
     "summary_zh_native": "",
@@ -160,7 +160,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:09+00:00",
+  "fetched_at": "2026-10-23T09:23:47+00:00",
   "categories": [
     "billing",
     "providers-2",

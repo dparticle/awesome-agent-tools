@@ -6,9 +6,9 @@
   "url": "https://github.com/bytedance/deer-flow",
   "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
   "homepage": "https://deerflow.tech",
-  "stars": 84274,
-  "forks": 11785,
-  "open_issues": 938,
+  "stars": 84312,
+  "forks": 11791,
+  "open_issues": 975,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -32,33 +32,33 @@
     "typescript"
   ],
   "created_at": "2025-05-07T02:50:19Z",
-  "updated_at": "2026-10-22T09:14:23Z",
-  "pushed_at": "2026-10-22T08:54:58Z",
+  "updated_at": "2026-10-23T09:18:47Z",
+  "pushed_at": "2026-10-23T08:58:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 533,
+  "age_days": 534,
   "days_since_push": 0,
-  "health_score": 77,
+  "health_score": 76,
   "health_components": {
     "popularity": 98.5,
-    "momentum": 48.7,
+    "momentum": 43.7,
     "maintenance": 100.0,
     "documentation": 80.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 292,
+    "stars_gained": 262,
     "days_span": 5,
-    "stars_per_day": 58.4,
-    "lifetime_stars_per_day": 158.11,
+    "stars_per_day": 52.4,
+    "lifetime_stars_per_day": 157.89,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "bytedance/deer-flow",
-    "readme_chars": 335134,
+    "readme_chars": 339164,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -111,7 +111,7 @@
       "memory-context": 3,
       "skills-plugins": 13,
       "agent-runtime": 2,
-      "mcp-support": 62,
+      "mcp-support": 63,
       "self-hosted": 5,
       "team-collaboration": 2,
       "gui-desktop": 27,
@@ -192,7 +192,7 @@
         "bullet list of external links",
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.09
+      "external_link_ratio": 0.088
     },
     "highlights": [
       "We strongly recommend using Doubao-Seed-2.0-Code, DeepSeek v3.2 and Kimi 2.5 to run DeerFlow",
@@ -209,11 +209,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:12+00:00",
+  "fetched_at": "2026-10-23T09:23:06+00:00",
   "categories": [
     "parallelism-isolation",
     "providers",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {

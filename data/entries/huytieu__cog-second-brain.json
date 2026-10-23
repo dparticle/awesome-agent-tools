@@ -6,7 +6,7 @@
   "url": "https://github.com/huytieu/COG-second-brain",
   "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
   "homepage": "",
-  "stars": 1309,
+  "stars": 1312,
   "forks": 160,
   "open_issues": 11,
   "language": "Python",
@@ -34,38 +34,39 @@
     "worker-agents"
   ],
   "created_at": "2025-10-15T03:50:52Z",
-  "updated_at": "2026-10-21T18:16:00Z",
-  "pushed_at": "2026-10-02T14:09:34Z",
+  "updated_at": "2026-10-23T02:52:58Z",
+  "pushed_at": "2026-10-23T02:52:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 372,
-  "days_since_push": 19,
-  "health_score": 56,
+  "age_days": 373,
+  "days_since_push": 0,
+  "health_score": 58,
   "health_components": {
-    "popularity": 62.3,
-    "momentum": 3.2,
-    "maintenance": 92.0,
+    "popularity": 62.4,
+    "momentum": 3.0,
+    "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 19,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 3.8,
+    "stars_per_day": 3.6,
     "lifetime_stars_per_day": 3.52,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "huytieu/COG-second-brain",
-    "readme_chars": 21032,
+    "readme_chars": 21966,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
       "memory-context",
       "skills-plugins",
+      "agent-runtime",
       "mcp-support",
       "team-collaboration",
       "gui-desktop",
@@ -76,6 +77,7 @@
       "model-routing": "Kiro, Gemini CLI, OpenAI Codex, and Obsidian.",
       "memory-context": "orm a complete product management lifecycle: **Research** (/auto-research) → **PRD** (/generate-prd) → **Stories** (/create-user-story) → Development → **Release Notes** (/generate-release-notes) → **Knowledge Base** (/…",
       "skills-plugins": "> **PM Workflow:** These skills form a complete product management lifecycle: **Research** (/auto-research) → **PRD** (/generate-prd) → **Stories** (/create-user-story) → Development → **Release Notes** (/generate-relea…",
+      "agent-runtime": "",
       "mcp-support": "ger, Engineering Lead, Engineer, Designer, Founder, Marketer — or create your own from the template.",
       "team-collaboration": "iene, post-condition checks, verifier pass, content factory~~ (shipped in v3.7)",
       "gui-desktop": "",
@@ -86,6 +88,7 @@
       "model-routing": 1,
       "memory-context": 4,
       "skills-plugins": 4,
+      "agent-runtime": 1,
       "mcp-support": 1,
       "team-collaboration": 1,
       "gui-desktop": 1,
@@ -148,7 +151,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.236
+      "external_link_ratio": 1.184
     },
     "highlights": [
       "Tier 2 (Moderate) — 3+ mentions: executive snapshot, working style, strengths",
@@ -164,17 +167,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:43+00:00",
+  "fetched_at": "2026-10-23T09:23:28+00:00",
   "categories": [
     "desktop-ui",
-    "self-hosting-security",
+    "desktop-ui-2",
     "teams"
   ],
   "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (8/8)。",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (9/9).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (9/9)。",
     "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
@@ -187,6 +190,7 @@
       "confidence": "medium",
       "coverage": 1.0,
       "covered": [
+        "agent-runtime",
         "cross-agent-support",
         "gui-desktop",
         "mcp-support",
@@ -196,19 +200,20 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 8.138,
-      "momentum_ratio": 49.368,
+      "star_ratio": 8.223,
+      "momentum_ratio": 53.611,
       "setup_delta": 1,
       "dominance": 0.995,
       "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "8.14x the stars (10,652 vs 1,309)",
-        "49.37x the star velocity (187.6/day vs 3.8/day)",
+        "covers 100% of capabilities (9/9)",
+        "8.22x the stars (10,788 vs 1,312)",
+        "53.61x the star velocity (193.0/day vs 3.6/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
+          "agent-runtime",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -235,7 +240,7 @@
           "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 56,
+        "incumbent_health": 58,
         "challenger_health": 87,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 32

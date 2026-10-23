@@ -6,9 +6,9 @@
   "url": "https://github.com/kenryu42/cc-safety-net",
   "description": "A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to access sensitive files, before a tool call runs. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Cursor, DeepSeek Harness, Devin CLI, GitHub Copilot CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
   "homepage": "https://ccsafetynet.com",
-  "stars": 1742,
+  "stars": 1754,
   "forks": 88,
-  "open_issues": 4,
+  "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,44 +34,47 @@
     "security"
   ],
   "created_at": "2025-12-25T17:52:57Z",
-  "updated_at": "2026-10-22T08:22:06Z",
-  "pushed_at": "2026-10-21T15:17:14Z",
+  "updated_at": "2026-10-23T09:00:14Z",
+  "pushed_at": "2026-10-23T07:43:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 300,
+  "age_days": 301,
   "days_since_push": 0,
   "health_score": 63,
   "health_components": {
-    "popularity": 64.8,
-    "momentum": 15.8,
+    "popularity": 64.9,
+    "momentum": 16.0,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 95,
+    "stars_gained": 96,
     "days_span": 5,
-    "stars_per_day": 19.0,
-    "lifetime_stars_per_day": 5.81,
+    "stars_per_day": 19.2,
+    "lifetime_stars_per_day": 5.83,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kenryu42/cc-safety-net",
-    "readme_chars": 8758,
+    "readme_chars": 8588,
     "capabilities": [
+      "auto-failover",
       "agent-runtime",
       "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
+      "auto-failover": "mands and access to secrets such as SSH keys and .env files before the tool call runs.",
       "agent-runtime": "tallation, configuration, reference material, guides, and the security model.",
       "gui-desktop": "ks secret access to SSH keys, .env files, ~/.aws, and coding-CLI credentials, from the shell and from the agent's file tools.",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
     },
     "capability_hits": {
+      "auto-failover": 1,
       "agent-runtime": 1,
       "gui-desktop": 2,
       "cross-agent-support": 8
@@ -128,11 +131,11 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.941
+      "external_link_ratio": 1.98
     },
     "highlights": [
-      "Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team Setup.",
       "Embeds in your own tools. Call checkCommand from Node.js without installing the hook. See Library API.",
+      "Shares policy through git. Commit .cc-safety-net/ so clones and cloud sessions get the same rules. See Team setup.",
       "Blocks secret access to SSH keys, .env files, ~/.aws, and coding-CLI credentials, from the shell and from the agent's file tools."
     ],
     "summary_zh_native": "",
@@ -144,11 +147,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:36+00:00",
+  "fetched_at": "2026-10-23T09:23:24+00:00",
   "categories": [
-    "desktop-ui-2"
+    "providers"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "providers",
   "lifecycle": {
     "state": "active",
     "note_en": "",

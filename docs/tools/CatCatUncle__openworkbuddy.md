@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 339 |
+| Stars | 341 |
 | Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 61/100 |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
-| Last push | 2026-10-22 (0 days ago) |
-| Analyzed README | 18,285 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 18,667 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,6 +31,8 @@
 > 4 多人服务器上成员有自己的那份：模型渠道按需共享、能填自己的 Key，能建自己的专家，能起自己的助理名字和偏好
 
 ### Quota & usage management
+
+> Shift+拖拽框选，Shift/⌘ 点节点加选减选，展开底部 Agent 后可 @ 引用节点和素材。
 
 ### Remote control
 
@@ -56,7 +58,7 @@
 
 ### Notifications
 
-> nt.js，工具在 src/agent/tools.js 与 src/tools/。
+> 20 文件链接按原项目定位，外部文件按完整路径打开；修复同名串页、部署串目录和切换预览时的迟到覆盖
 
 ### Cross-agent support
 
@@ -96,7 +98,7 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.6 |
+| popularity | 50.7 |
 | momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 61.0 |

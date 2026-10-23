@@ -6,9 +6,9 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
   "homepage": "https://theaioperator.io",
-  "stars": 4851,
-  "forks": 592,
-  "open_issues": 12,
+  "stars": 4862,
+  "forks": 593,
+  "open_issues": 13,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "second-brain"
   ],
   "created_at": "2026-03-24T11:58:12Z",
-  "updated_at": "2026-10-22T08:46:14Z",
+  "updated_at": "2026-10-23T08:28:01Z",
   "pushed_at": "2026-10-20T21:59:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 211,
-  "days_since_push": 1,
+  "age_days": 212,
+  "days_since_push": 2,
   "health_score": 63,
   "health_components": {
     "popularity": 73.7,
@@ -54,7 +54,7 @@
     "stars_gained": 59,
     "days_span": 5,
     "stars_per_day": 11.8,
-    "lifetime_stars_per_day": 22.99,
+    "lifetime_stars_per_day": 22.93,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -179,18 +179,91 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:27+00:00",
+  "fetched_at": "2026-10-23T09:23:18+00:00",
   "categories": [
     "desktop-ui",
     "model-routing",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting-security",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (12/12).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (12/12)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "eugeniughelbur/obsidian-second-brain",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "eugeniughelbur/obsidian-second-brain",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "notifications",
+        "quota-management",
+        "security-isolation",
+        "skills-plugins"
+      ],
+      "star_ratio": 6.132,
+      "momentum_ratio": 3.034,
+      "setup_delta": 8,
+      "dominance": 0.898,
+      "reasons": [
+        "covers 100% of capabilities (12/12)",
+        "6.13x the stars (29,816 vs 4,862)",
+        "3.03x the star velocity (35.8/day vs 11.8/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 63,
+        "challenger_health": 72,
+        "incumbent_setup_score": 24,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

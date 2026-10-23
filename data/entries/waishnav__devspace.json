@@ -6,8 +6,8 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "",
-  "stars": 5290,
-  "forks": 600,
+  "stars": 5291,
+  "forks": 601,
   "open_issues": 76,
   "language": "TypeScript",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-10-22T08:37:47Z",
+  "updated_at": "2026-10-22T16:20:19Z",
   "pushed_at": "2026-10-12T03:45:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 129,
-  "days_since_push": 10,
-  "health_score": 57,
+  "age_days": 130,
+  "days_since_push": 11,
+  "health_score": 56,
   "health_components": {
     "popularity": 74.5,
-    "momentum": 5.8,
+    "momentum": 4.0,
     "maintenance": 92.0,
     "documentation": 46.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 35,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 7.0,
-    "lifetime_stars_per_day": 41.01,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 40.7,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -137,7 +137,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:26:55+00:00",
+  "fetched_at": "2026-10-23T09:22:53+00:00",
   "categories": [
     "desktop-ui-2",
     "parallelism-isolation",
@@ -167,14 +167,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 4.097,
-      "momentum_ratio": 14.171,
+      "star_ratio": 4.113,
+      "momentum_ratio": 21.667,
       "setup_delta": -4,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "4.10x the stars (21,671 vs 5,290)",
-        "14.17x the star velocity (99.2/day vs 7.0/day)",
+        "4.11x the stars (21,764 vs 5,291)",
+        "21.67x the star velocity (104.0/day vs 4.8/day)",
         "no harder to set up (24 vs 28 friction)"
       ],
       "reasons_zh": [],
@@ -201,8 +201,8 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 57,
-        "challenger_health": 82,
+        "incumbent_health": 56,
+        "challenger_health": 83,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 24
       }

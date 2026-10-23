@@ -6,8 +6,8 @@
   "url": "https://github.com/JimLiu/baoyu-design",
   "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
   "homepage": "",
-  "stars": 4451,
-  "forks": 308,
+  "stars": 4460,
+  "forks": 309,
   "open_issues": 4,
   "language": "JavaScript",
   "license": "MIT",
@@ -22,27 +22,27 @@
     "ui-design"
   ],
   "created_at": "2026-06-07T01:16:18Z",
-  "updated_at": "2026-10-22T08:47:08Z",
+  "updated_at": "2026-10-23T08:35:50Z",
   "pushed_at": "2026-09-23T05:34:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 137,
-  "days_since_push": 29,
+  "age_days": 138,
+  "days_since_push": 30,
   "health_score": 62,
   "health_components": {
     "popularity": 73.0,
-    "momentum": 8.8,
+    "momentum": 9.3,
     "maintenance": 92.0,
     "documentation": 61.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 53,
+    "stars_gained": 56,
     "days_span": 5,
-    "stars_per_day": 10.6,
-    "lifetime_stars_per_day": 32.49,
+    "stars_per_day": 11.2,
+    "lifetime_stars_per_day": 32.32,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -125,8 +125,8 @@
     "highlights": [
       "Best with Opus 4.8. The skill is a long, demanding design brief; the stronger the model, the better the result. Pair it with Claude Opus 4.8 for the best output, and it still works well on…",
       "Screenshot mode simply calls page.screenshot() at 2× device scale and drops each PNG as a full‑bleed slide image.",
-      "\"Design 3 hi‑fi variations of a pricing page using the brand in this screenshot.\"",
-      "\"Make a 10‑slide deck from this PRD for an engineering all‑hands.\""
+      "\"Make a 10‑slide deck from this PRD for an engineering all‑hands.\"",
+      "\"Design 3 hi‑fi variations of a pricing page using the brand in this screenshot.\""
     ],
     "summary_zh_native": "在你自己的本地 Agent 上运行 Claude Design —— Cursor、Claude Code、Claude Desktop，或任何能读写文件的编码 Agent。",
     "highlights_zh": [
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:26:56+00:00",
+  "fetched_at": "2026-10-23T09:22:53+00:00",
   "categories": [
     "desktop-ui",
     "mobile-remote-control"

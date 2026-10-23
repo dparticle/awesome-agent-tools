@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 19223,
-  "forks": 1441,
-  "open_issues": 1435,
+  "stars": 19912,
+  "forks": 1512,
+  "open_issues": 1533,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-22T09:25:29Z",
-  "pushed_at": "2026-10-22T08:52:27Z",
+  "updated_at": "2026-10-23T09:22:13Z",
+  "pushed_at": "2026-10-23T09:20:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 28,
+  "age_days": 29,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
-    "popularity": 85.7,
+    "popularity": 86.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4772,
+    "stars_gained": 4509,
     "days_span": 5,
-    "stars_per_day": 954.4,
-    "lifetime_stars_per_day": 686.54,
+    "stars_per_day": 901.8,
+    "lifetime_stars_per_day": 686.62,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 18970,
+    "readme_chars": 19207,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -137,7 +137,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.74
+      "external_link_ratio": 1.718
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -159,7 +159,7 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-22T09:26:36+00:00",
+  "fetched_at": "2026-10-23T09:22:39+00:00",
   "categories": [
     "desktop-ui-2",
     "model-routing",

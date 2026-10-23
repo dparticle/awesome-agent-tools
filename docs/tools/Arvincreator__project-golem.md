@@ -17,14 +17,12 @@
 | Health score | 38/100 |
 | Documentation | 30/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-01-30 |
-| Last push | 2026-06-22 (122 days ago) |
+| Last push | 2026-06-22 (123 days ago) |
 | Analyzed README | 6,618 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
 
 ## What it solves
 

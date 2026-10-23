@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,392 |
-| Star velocity | 9.2/day (history basis, 5d span) |
-| Health score | 63/100 |
+| Stars | 6,400 |
+| Star velocity | 8.8/day (history basis, 5d span) |
+| Health score | 64/100 |
 | Documentation | 84/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-05-31 |
-| Last push | 2026-10-22 (0 days ago) |
-| Analyzed README | 50,886 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 51,118 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -50,17 +50,17 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 43/100)
+- **Difficulty:** 🟢 Easy (friction score 34/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that make it easy:** pip install
+**Signals that make it easy:** pip install, native installer / package
 
 **Signals that add work:** git clone (build from source)
 
 **Configuration required:** database dependency, database migration, server/reverse-proxy setup
 
-*Some setup. install via pip install; needs git clone (build from source); configure database dependency, database migration*
+*Easy. install via pip install, native installer / package; needs git clone (build from source); configure database dependency, database migration*
 
 ## Documentation quality
 
@@ -87,10 +87,10 @@ Score **84/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 76.1 |
-| momentum | 7.7 |
+| momentum | 7.3 |
 | maintenance | 100.0 |
 | documentation | 84.0 |
-| accessibility | 57.0 |
+| accessibility | 66.0 |
 
 ---
 

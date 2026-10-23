@@ -23,22 +23,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 120,
-  "days_since_push": 7,
-  "health_score": 49,
+  "age_days": 121,
+  "days_since_push": 8,
+  "health_score": 47,
   "health_components": {
     "popularity": 52.7,
     "momentum": 3.0,
-    "maintenance": 100.0,
+    "maintenance": 92.0,
     "documentation": 49.0,
     "accessibility": 44.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 433,
-    "days_span": 120,
-    "stars_per_day": 3.61,
-    "lifetime_stars_per_day": 3.61,
+    "days_span": 121,
+    "stars_per_day": 3.58,
+    "lifetime_stars_per_day": 3.58,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -147,10 +147,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:11+00:00",
+  "fetched_at": "2026-10-23T09:23:49+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
-    "self-hosting-security",
     "teams"
   ],
   "primary_category": "teams",

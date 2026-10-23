@@ -6,33 +6,33 @@
   "url": "https://github.com/YYH211/Claude-meta-skill",
   "description": "A curated collection of reusable skills for Claude Code. Enhance Claude's capabilities with ready-to-use skill modules including comprehensive guides, templates, and best practices for creating your own skills.",
   "homepage": "",
-  "stars": 285,
+  "stars": 284,
   "forks": 28,
   "open_issues": 1,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-10-31T08:41:30Z",
-  "updated_at": "2026-10-19T21:44:46Z",
+  "updated_at": "2026-10-23T07:37:23Z",
   "pushed_at": "2026-05-15T09:35:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 356,
-  "days_since_push": 159,
+  "age_days": 357,
+  "days_since_push": 160,
   "health_score": 42,
   "health_components": {
     "popularity": 49.1,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 78.0,
     "accessibility": 42.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.8,
     "basis": "history",
     "is_fast_riser": false
@@ -131,10 +131,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:30+00:00",
+  "fetched_at": "2026-10-23T09:24:03+00:00",
   "categories": [
     "desktop-ui",
-    "self-hosting-security"
+    "desktop-ui-2",
+    "security-self-hosting"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -158,14 +159,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 3.081,
-      "momentum_ratio": 10.0,
+      "star_ratio": 3.106,
+      "momentum_ratio": 22.0,
       "setup_delta": -37,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.08x the stars (878 vs 285)",
-        "10.00x the star velocity (4.0/day vs 0.4/day)",
+        "3.11x the stars (882 vs 284)",
+        "22.00x the star velocity (4.4/day vs 0.2/day)",
         "no harder to set up (21 vs 58 friction)"
       ],
       "reasons_zh": [],

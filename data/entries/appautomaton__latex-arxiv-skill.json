@@ -6,7 +6,7 @@
   "url": "https://github.com/appautomaton/latex-arxiv-SKILL",
   "description": "A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.",
   "homepage": "https://appautomaton.com/latex-arxiv-SKILL/",
-  "stars": 466,
+  "stars": 467,
   "forks": 39,
   "open_issues": 1,
   "language": "TeX",
@@ -34,26 +34,26 @@
     "scientific-writing"
   ],
   "created_at": "2025-03-18T17:58:07Z",
-  "updated_at": "2026-10-20T05:10:42Z",
+  "updated_at": "2026-10-22T13:07:47Z",
   "pushed_at": "2026-09-13T16:17:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 582,
-  "days_since_push": 38,
+  "age_days": 583,
+  "days_since_push": 39,
   "health_score": 45,
   "health_components": {
     "popularity": 53.4,
-    "momentum": 0.2,
+    "momentum": 0.5,
     "maintenance": 78.0,
     "documentation": 43.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 0.8,
     "basis": "history",
     "is_fast_riser": false
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:08+00:00",
+  "fetched_at": "2026-10-23T09:23:46+00:00",
   "categories": [
     "desktop-ui",
     "model-routing"

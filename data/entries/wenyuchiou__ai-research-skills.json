@@ -6,9 +6,9 @@
   "url": "https://github.com/WenyuChiou/ai-research-skills",
   "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
   "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
-  "stars": 395,
+  "stars": 402,
   "forks": 25,
-  "open_issues": 3,
+  "open_issues": 2,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "zotero"
   ],
   "created_at": "2026-04-25T17:46:37Z",
-  "updated_at": "2026-10-22T09:25:32Z",
-  "pushed_at": "2026-10-21T05:24:49Z",
+  "updated_at": "2026-10-22T21:42:23Z",
+  "pushed_at": "2026-10-22T21:42:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 179,
-  "days_since_push": 1,
+  "age_days": 180,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
-    "popularity": 51.9,
-    "momentum": 1.3,
+    "popularity": 52.1,
+    "momentum": 2.3,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 2.21,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 2.23,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "WenyuChiou/ai-research-skills",
-    "readme_chars": 30501,
+    "readme_chars": 30861,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -136,7 +136,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.098
+      "external_link_ratio": 0.097
     },
     "highlights": [
       "codex-delegate — Claude → Codex CLI handoff for code-heavy / mechanical work.",
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:16+00:00",
+  "fetched_at": "2026-10-23T09:23:52+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -181,14 +181,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.223,
-      "momentum_ratio": 2.5,
+      "star_ratio": 2.194,
+      "momentum_ratio": 1.571,
       "setup_delta": -1,
-      "dominance": 0.846,
+      "dominance": 0.785,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.22x the stars (878 vs 395)",
-        "2.50x the star velocity (4.0/day vs 1.6/day)",
+        "2.19x the stars (882 vs 402)",
+        "1.57x the star velocity (4.4/day vs 2.8/day)",
         "no harder to set up (21 vs 22 friction)"
       ],
       "reasons_zh": [],

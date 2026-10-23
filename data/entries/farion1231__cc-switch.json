@@ -6,9 +6,9 @@
   "url": "https://github.com/farion1231/cc-switch",
   "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
   "homepage": "https://ccswitch.io",
-  "stars": 147501,
-  "forks": 9722,
-  "open_issues": 1144,
+  "stars": 147904,
+  "forks": 9736,
+  "open_issues": 1086,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "wsl-support"
   ],
   "created_at": "2025-08-04T14:16:16Z",
-  "updated_at": "2026-10-22T09:22:34Z",
-  "pushed_at": "2026-10-22T08:59:40Z",
+  "updated_at": "2026-10-23T09:22:00Z",
+  "pushed_at": "2026-10-23T09:06:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 443,
+  "age_days": 444,
   "days_since_push": 0,
   "health_score": 93,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2149,
+    "stars_gained": 2225,
     "days_span": 5,
-    "stars_per_day": 429.8,
-    "lifetime_stars_per_day": 332.96,
+    "stars_per_day": 445.0,
+    "lifetime_stars_per_day": 333.12,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "farion1231/cc-switch",
-    "readme_chars": 36373,
+    "readme_chars": 37048,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -167,7 +167,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.247
+      "external_link_ratio": 0.243
     },
     "highlights": [
       "Notes — Aggregation doesn't provide failover; Claude Code requires version 2.1.243 or later; Codex needs a restart after the aggregated list changes, while Claude Code doesn't.",
@@ -184,11 +184,11 @@
     "seed_reason": "The incumbent all-in-one provider/account switcher for Claude Code, Codex and friends.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-22T09:26:36+00:00",
+  "fetched_at": "2026-10-23T09:22:39+00:00",
   "categories": [
     "billing",
     "providers",
-    "sharing"
+    "providers-2"
   ],
   "primary_category": "providers",
   "lifecycle": {
@@ -222,13 +222,13 @@
         "Both manage multiple accounts and providers for Claude Code and Codex, and magpie additionally routes other models through the same agent loop.",
         "covers 46% of farion1231/cc-switch's capabilities (6/13)",
         "not covered: auto-failover, billing-metering, parallel-execution, provider-aggregation, session-persistence, skills-plugins, usage-analytics",
-        "0.13x the stars (19,223 vs 147,501)"
+        "0.13x the stars (19,912 vs 147,904)"
       ],
       "reasons_zh": [
         "两者都为 Claude Code 和 Codex 管理多账号与多供应商，而 magpie 还能让其他模型走同一套 Agent 流程。",
         "覆盖 farion1231/cc-switch 的 46% 能力（6/13）",
         "未覆盖：auto-failover、billing-metering、parallel-execution、provider-aggregation、session-persistence、skills-plugins、usage-analytics",
-        "star 数为 0.13 倍（19,223 vs 147,501）"
+        "star 数为 0.13 倍（19,912 vs 147,904）"
       ],
       "evidence": {
         "curated": true,

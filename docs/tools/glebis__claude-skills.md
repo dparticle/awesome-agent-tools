@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 395 |
-| Star velocity | 0.4/day (history basis, 5d span) |
+| Stars | 398 |
+| Star velocity | 1.0/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2025-10-25 |
-| Last push | 2026-10-21 (1 days ago) |
-| Analyzed README | 16,176 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (8/8).
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 16,526 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -58,7 +56,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 30/100)
+- **Difficulty:** 🟢 Easy (friction score 36/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx skills add glebis/claude-skills --skill tdd`
@@ -67,9 +65,9 @@
 
 **Signals that add work:** git clone (build from source)
 
-**Configuration required:** database dependency, server/reverse-proxy setup
+**Configuration required:** database dependency, database migration, server/reverse-proxy setup
 
-*Easy. install via npx one-liner; needs git clone (build from source); configure database dependency, server/reverse-proxy setup; GUI application*
+*Easy. install via npx one-liner; needs git clone (build from source); configure database dependency, database migration; GUI application*
 
 ## Documentation quality
 
@@ -89,11 +87,11 @@ Score **51/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.9 |
-| momentum | 0.3 |
+| popularity | 52.0 |
+| momentum | 0.8 |
 | maintenance | 100.0 |
 | documentation | 51.0 |
-| accessibility | 70.0 |
+| accessibility | 64.0 |
 
 ---
 

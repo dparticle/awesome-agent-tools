@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,950 |
-| Star velocity | 65.8/day (history basis, 5d span) |
-| Health score | 75/100 |
+| Stars | 6,002 |
+| Star velocity | 58.4/day (history basis, 5d span) |
+| Health score | 74/100 |
 | Documentation | 72/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Python |
 | Created | 2026-07-15 |
-| Last push | 2026-10-22 (0 days ago) |
-| Analyzed README | 31,390 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 32,578 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@
 
 ### Notifications
 
-> lace a secret into a header/query
+> ogle OAuth sign-in (redirect /auth/google/callback); empty hides the button
 
 ## Setup reality check
 
@@ -92,8 +92,8 @@ Score **72/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.5 |
-| momentum | 54.8 |
+| popularity | 75.6 |
+| momentum | 48.7 |
 | maintenance | 100.0 |
 | documentation | 72.0 |
 | accessibility | 79.0 |

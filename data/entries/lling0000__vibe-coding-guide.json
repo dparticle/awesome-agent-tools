@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 169,
-  "days_since_push": 118,
-  "health_score": 41,
+  "age_days": 170,
+  "days_since_push": 119,
+  "health_score": 40,
   "health_components": {
     "popularity": 47.5,
-    "momentum": 0.7,
+    "momentum": 0.5,
     "maintenance": 55.0,
     "documentation": 48.0,
     "accessibility": 70.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 1.4,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 1.39,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,27 +150,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:28:40+00:00",
+  "fetched_at": "2026-10-23T09:24:09+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation",
-    "self-hosting-security"
+    "security-self-hosting"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by first-fluke/oh-my-agent: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 first-fluke/oh-my-agent 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "first-fluke/oh-my-agent",
+    "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 HarnessMD/munder-difflin 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "HarnessMD/munder-difflin",
     "challenger": "",
     "supersede": {
       "incumbent": "lling0000/vibe_coding_guide",
-      "challenger": "first-fluke/oh-my-agent",
+      "challenger": "harnessmd/munder-difflin",
       "incumbent_name": "Lling0000/Vibe_coding_guide",
-      "challenger_name": "first-fluke/oh-my-agent",
+      "challenger_name": "HarnessMD/munder-difflin",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -180,15 +180,15 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 5.705,
-      "momentum_ratio": 1.75,
-      "setup_delta": 0,
-      "dominance": 0.87,
+      "star_ratio": 37.962,
+      "momentum_ratio": 43.667,
+      "setup_delta": 2,
+      "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.70x the stars (1,352 vs 237)",
-        "1.75x the star velocity (1.4/day vs 0.8/day)",
-        "no harder to set up (30 vs 30 friction)"
+        "37.96x the stars (8,997 vs 237)",
+        "43.67x the star velocity (26.2/day vs 0.6/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -202,25 +202,25 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
-          "quota-management",
-          "remote-control",
+          "self-hosted",
           "session-persistence",
           "skills-plugins",
+          "usage-analytics",
+          "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 41,
-        "challenger_health": 57,
+        "incumbent_health": 40,
+        "challenger_health": 67,
         "incumbent_setup_score": 30,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 32
       }
     }
   }

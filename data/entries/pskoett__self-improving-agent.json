@@ -6,9 +6,9 @@
   "url": "https://github.com/pskoett/self-improving-agent",
   "description": "Self-improvement skill for OpenClaw. It captures learnings, errors, and feature requests to support continuous improvement across sessions. It is a agent knowledge skill made for the skill marketplace",
   "homepage": "https://clawhub.ai/pskoett/skills/self-improving-agent",
-  "stars": 776,
+  "stars": 778,
   "forks": 116,
-  "open_issues": 5,
+  "open_issues": 1,
   "language": "JavaScript",
   "license": "",
   "topics": [
@@ -21,25 +21,25 @@
     "openclaw-skills"
   ],
   "created_at": "2026-01-31T10:11:52Z",
-  "updated_at": "2026-10-22T01:33:06Z",
-  "pushed_at": "2026-10-10T14:53:13Z",
+  "updated_at": "2026-10-23T07:35:14Z",
+  "pushed_at": "2026-10-22T12:32:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 263,
-  "days_since_push": 11,
-  "health_score": 48,
+  "age_days": 264,
+  "days_since_push": 0,
+  "health_score": 49,
   "health_components": {
     "popularity": 57.8,
     "momentum": 2.5,
-    "maintenance": 92.0,
+    "maintenance": 100.0,
     "documentation": 27.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 776,
-    "days_span": 263,
+    "stars_gained": 778,
+    "days_span": 264,
     "stars_per_day": 2.95,
     "lifetime_stars_per_day": 2.95,
     "basis": "lifetime",
@@ -47,7 +47,7 @@
   },
   "analysis": {
     "full_name": "pskoett/self-improving-agent",
-    "readme_chars": 2937,
+    "readme_chars": 3154,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -114,7 +114,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:55+00:00",
+  "fetched_at": "2026-10-23T09:23:37+00:00",
   "categories": [
     "desktop-ui"
   ],

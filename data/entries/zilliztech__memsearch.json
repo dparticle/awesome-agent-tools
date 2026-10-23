@@ -6,9 +6,9 @@
   "url": "https://github.com/zilliztech/memsearch",
   "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
   "homepage": "https://zilliztech.github.io/memsearch/",
-  "stars": 2772,
-  "forks": 271,
-  "open_issues": 267,
+  "stars": 2781,
+  "forks": 272,
+  "open_issues": 253,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "skills"
   ],
   "created_at": "2026-02-09T02:29:16Z",
-  "updated_at": "2026-10-22T08:48:28Z",
-  "pushed_at": "2026-10-22T08:48:21Z",
+  "updated_at": "2026-10-23T08:21:21Z",
+  "pushed_at": "2026-10-23T07:42:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 255,
+  "age_days": 256,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 68.9,
-    "momentum": 2.7,
+    "momentum": 4.2,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 25,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 10.87,
+    "stars_per_day": 5.0,
+    "lifetime_stars_per_day": 10.86,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zilliztech/memsearch",
-    "readme_chars": 29233,
+    "readme_chars": 29310,
     "capabilities": [
       "model-routing",
       "memory-context",
@@ -140,7 +140,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.06
+      "external_link_ratio": 1.058
     },
     "highlights": [
       "🔍 Progressive retrieval, hybrid search, smart dedup, live sync — 3-layer recall (search → expand → transcript); dense vector + BM25 sparse + RRF reranking; SHA-256 content hashing skips unc…",
@@ -157,10 +157,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:32+00:00",
+  "fetched_at": "2026-10-23T09:23:21+00:00",
   "categories": [
-    "desktop-ui",
     "model-routing",
+    "security-self-hosting",
     "teams"
   ],
   "primary_category": "teams",
@@ -188,14 +188,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 3.843,
-      "momentum_ratio": 58.625,
+      "star_ratio": 3.879,
+      "momentum_ratio": 38.6,
       "setup_delta": -17,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "3.84x the stars (10,652 vs 2,772)",
-        "58.62x the star velocity (187.6/day vs 3.2/day)",
+        "3.88x the stars (10,788 vs 2,781)",
+        "38.60x the star velocity (193.0/day vs 5.0/day)",
         "no harder to set up (32 vs 49 friction)"
       ],
       "reasons_zh": [],

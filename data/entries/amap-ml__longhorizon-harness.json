@@ -6,7 +6,7 @@
   "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
   "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
   "homepage": "https://lh-harness.pages.dev",
-  "stars": 1763,
+  "stars": 1766,
   "forks": 188,
   "open_issues": 20,
   "language": "Python",
@@ -31,13 +31,13 @@
     "loop-engineering"
   ],
   "created_at": "2026-08-04T04:30:58Z",
-  "updated_at": "2026-10-22T02:01:01Z",
+  "updated_at": "2026-10-23T06:15:48Z",
   "pushed_at": "2026-10-21T13:08:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 79,
-  "days_since_push": 0,
+  "age_days": 80,
+  "days_since_push": 1,
   "health_score": 59,
   "health_components": {
     "popularity": 64.9,
@@ -51,7 +51,7 @@
     "stars_gained": 14,
     "days_span": 5,
     "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 22.32,
+    "lifetime_stars_per_day": 22.07,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -161,83 +161,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-22T09:27:36+00:00",
+  "fetched_at": "2026-10-23T09:23:24+00:00",
   "categories": [
-    "model-routing",
-    "security-self-hosting",
-    "sharing-2"
+    "desktop-ui-2",
+    "security",
+    "security-self-hosting"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "amap-ml/longhorizon-harness",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "AMAP-ML/LongHorizon-Harness",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "auto-failover",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "model-routing",
-        "security-isolation",
-        "self-hosted"
-      ],
-      "star_ratio": 16.888,
-      "momentum_ratio": 12.143,
-      "setup_delta": 2,
-      "dominance": 0.99,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "16.89x the stars (29,774 vs 1,763)",
-        "12.14x the star velocity (34.0/day vs 2.8/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "security-isolation",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 59,
-        "challenger_health": 71,
-        "incumbent_setup_score": 30,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }
