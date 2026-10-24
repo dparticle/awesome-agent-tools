@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,144 |
+| Stars | 1,154 |
 | Star velocity | 7.4/day (history basis, 5d span) |
-| Health score | 57/100 |
-| Documentation | 76/100 |
+| Health score | 58/100 |
+| Documentation | 81/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2025-12-03 |
-| Last push | 2026-10-21 (2 days ago) |
-| Analyzed README | 90,478 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 96,303 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Multi-agent orchestration
 
-> tion in iTerm2) to bypass it, or use the c / C / V / Y
+> tion in iTerm2) to bypass it, or use the c / B / V / Y
 
 ### Parallel execution
 
@@ -52,7 +52,7 @@
 
 ### Model / provider routing
 
-> makes no network request: it reads the
+> s no network request: it reads the
 
 ### Usage analytics
 
@@ -70,11 +70,13 @@
 
 ### MCP support
 
-> for quick fork, F to customize name/group
+> rbells" so the outside world
 
 ### Security & isolation
 
 > **Permission prompts during automation**: if a conductor keeps pausing on permission requests, set [claude].allowdangerousmode = true (or dangerousmode = true) in $XDGCONFIGHOME/agent-deck/config.toml, then run agent-de
+
+### Self-hostable
 
 ### GUI / desktop app
 
@@ -82,7 +84,7 @@
 
 ### Notifications
 
-> Telegram and Slack can run simultaneously — the bridge daemon handles both concurrently and relays responses on-demand, plus periodic heartbeat alerts to configured platforms.
+> ctor/ — full conductor guide with channel pairing walkthrough
 
 ### Cross-agent support
 
@@ -105,7 +107,7 @@
 
 ## Documentation quality
 
-Score **76/100**, based on these detected signals:
+Score **81/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -116,6 +118,7 @@ Score **76/100**, based on these detected signals:
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
+- links to dedicated docs
 - documents changes
 - publishes a roadmap
 - explains architecture
@@ -128,7 +131,7 @@ Score **76/100**, based on these detected signals:
 | popularity | 61.2 |
 | momentum | 6.2 |
 | maintenance | 100.0 |
-| documentation | 76.0 |
+| documentation | 81.0 |
 | accessibility | 52.0 |
 
 ---

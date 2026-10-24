@@ -6,9 +6,9 @@
   "url": "https://github.com/chandra447/pi-hermes-memory",
   "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
   "homepage": "",
-  "stars": 498,
+  "stars": 500,
   "forks": 129,
-  "open_issues": 32,
+  "open_issues": 36,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,27 +19,27 @@
     "pi"
   ],
   "created_at": "2026-04-23T12:03:56Z",
-  "updated_at": "2026-10-23T07:07:58Z",
+  "updated_at": "2026-10-23T20:35:47Z",
   "pushed_at": "2026-10-21T20:07:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 182,
-  "days_since_push": 1,
+  "age_days": 183,
+  "days_since_push": 2,
   "health_score": 49,
   "health_components": {
-    "popularity": 53.9,
-    "momentum": 1.3,
+    "popularity": 54.0,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 16.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 2.74,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 2.73,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,78 +137,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:45+00:00",
+  "fetched_at": "2026-10-24T08:55:39+00:00",
   "categories": [
-    "providers",
     "security-self-hosting"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "chandra447/pi-hermes-memory",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "chandra447/pi-hermes-memory",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "session-persistence",
-        "skills-plugins"
-      ],
-      "star_ratio": 575.918,
-      "momentum_ratio": 498.25,
-      "setup_delta": -27,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "575.92x the stars (286,807 vs 498)",
-        "498.25x the star velocity (797.2/day vs 1.6/day)",
-        "no harder to set up (57 vs 84 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 49,
-        "challenger_health": 89,
-        "incumbent_setup_score": 84,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

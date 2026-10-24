@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 247,
-  "days_since_push": 25,
+  "age_days": 248,
+  "days_since_push": 26,
   "health_score": 47,
   "health_components": {
     "popularity": 51.6,
@@ -43,7 +43,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.54,
+    "lifetime_stars_per_day": 1.53,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:54+00:00",
+  "fetched_at": "2026-10-24T08:55:48+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation"
@@ -144,15 +144,15 @@
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 HarnessMD/munder-difflin 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "HarnessMD/munder-difflin",
+    "note_en": "Superseded by bytedance/deer-flow: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 bytedance/deer-flow 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "bytedance/deer-flow",
     "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "harnessmd/munder-difflin",
+      "challenger": "bytedance/deer-flow",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "HarnessMD/munder-difflin",
+      "challenger_name": "bytedance/deer-flow",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -164,15 +164,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 23.676,
-      "momentum_ratio": 524.0,
-      "setup_delta": -40,
+      "star_ratio": 221.992,
+      "momentum_ratio": 960.0,
+      "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "23.68x the stars (8,997 vs 380)",
-        "524.00x the star velocity (26.2/day vs 0.0/day)",
-        "no harder to set up (32 vs 72 friction)"
+        "221.99x the stars (84,357 vs 380)",
+        "960.00x the star velocity (48.0/day vs 0.0/day)",
+        "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -185,6 +185,8 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -196,14 +198,15 @@
           "self-hosted",
           "session-persistence",
           "skills-plugins",
+          "team-collaboration",
           "usage-analytics",
           "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 47,
-        "challenger_health": 67,
+        "challenger_health": 75,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 57
       }
     }
   }

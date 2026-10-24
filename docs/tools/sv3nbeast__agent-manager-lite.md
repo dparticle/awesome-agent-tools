@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 461 |
-| Star velocity | 24.3/day (lifetime basis, 19d span) |
+| Stars | 475 |
+| Star velocity | 32.8/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-10-04 |
-| Last push | 2026-10-22 (0 days ago) |
-| Analyzed README | 10,394 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 10,600 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### API gateway / proxy
 
-> e CLI 实例可使用管理器刷新后的订阅访问凭据；刷新令牌留在管理器安全存储，不写入实例。
+> 受管 Claude CLI 实例可使用管理器刷新后的订阅访问凭据；刷新令牌留在管理器安全存储，不写入实例。
 
 ### Billing & metering
 
@@ -58,7 +58,7 @@
 
 ### GUI / desktop app
 
-> enAI 与 Anthropic Messages 密钥均可查询各自额度。
+> OpenAI 与 Anthropic Messages 密钥均可查询各自额度。
 
 ### Cross-agent support
 
@@ -66,16 +66,16 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 39/100)
+- **Difficulty:** 🟡 Some setup (friction score 45/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** yes
+- **Non-programmer friendly:** no
 - **Quickest install:** `npx electron-builder --mac --arm64 --publish never`
 
 **Signals that make it easy:** npx one-liner
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, OAuth login flow
+**Configuration required:** API key configuration, OAuth login flow, database dependency
 
 *Some setup. install via npx one-liner; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; GUI application*
 
@@ -98,11 +98,11 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.3 |
-| momentum | 20.2 |
+| popularity | 53.5 |
+| momentum | 27.3 |
 | maintenance | 100.0 |
 | documentation | 58.0 |
-| accessibility | 69.0 |
+| accessibility | 55.0 |
 
 ---
 

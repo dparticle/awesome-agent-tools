@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 8457,
   "forks": 24,
-  "open_issues": 47,
+  "open_issues": 49,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [],
@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 102,
-  "days_since_push": 1,
+  "age_days": 103,
+  "days_since_push": 2,
   "health_score": 74,
   "health_components": {
     "popularity": 78.5,
-    "momentum": 69.1,
+    "momentum": 68.4,
     "maintenance": 100.0,
     "documentation": 28.0,
     "accessibility": 90.0
@@ -31,9 +31,9 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 8457,
-    "days_span": 102,
-    "stars_per_day": 82.91,
-    "lifetime_stars_per_day": 82.91,
+    "days_span": 103,
+    "stars_per_day": 82.11,
+    "lifetime_stars_per_day": 82.11,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -107,7 +107,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:22:48+00:00",
+  "fetched_at": "2026-10-24T08:54:43+00:00",
   "categories": [
     "security"
   ],

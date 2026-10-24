@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 84,312 |
-| Star velocity | 52.4/day (history basis, 5d span) |
-| Health score | 76/100 |
+| Stars | 84,357 |
+| Star velocity | 48.0/day (history basis, 5d span) |
+| Health score | 75/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-23 (0 days ago) |
-| Analyzed README | 339,164 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 347,490 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -76,7 +76,7 @@
 
 ### Team collaboration
 
-> To request JSON syntax validation, explicitly set a task or batch_task item's
+> To request JSON syntax validation, explicitly set a task or batchtask item's acceptancecriteria to ["file:../outputs/report.json json-valid"].
 
 ### GUI / desktop app
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.5 |
-| momentum | 43.7 |
+| momentum | 40.0 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

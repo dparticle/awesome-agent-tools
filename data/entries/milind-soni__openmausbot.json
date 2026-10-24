@@ -6,9 +6,9 @@
   "url": "https://github.com/milind-soni/OpenMausBot",
   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "homepage": "https://www.openmausbot.com/",
-  "stars": 5467,
-  "forks": 916,
-  "open_issues": 478,
+  "stars": 5520,
+  "forks": 933,
+  "open_issues": 504,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -26,33 +26,33 @@
     "typescript"
   ],
   "created_at": "2026-08-11T18:58:55Z",
-  "updated_at": "2026-10-23T08:57:25Z",
-  "pushed_at": "2026-10-23T07:37:50Z",
+  "updated_at": "2026-10-24T08:51:58Z",
+  "pushed_at": "2026-10-24T08:51:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 72,
+  "age_days": 73,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
     "popularity": 74.8,
-    "momentum": 64.3,
+    "momentum": 60.8,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 386,
+    "stars_gained": 365,
     "days_span": 5,
-    "stars_per_day": 77.2,
-    "lifetime_stars_per_day": 75.93,
+    "stars_per_day": 73.0,
+    "lifetime_stars_per_day": 75.62,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "milind-soni/OpenMausBot",
-    "readme_chars": 32133,
+    "readme_chars": 32157,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -163,7 +163,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.587
+      "external_link_ratio": 1.586
     },
     "highlights": [
       "Local first. One small harness server on 127.0.0.1 owns every agent process. Transcripts, keys, and",
@@ -179,13 +179,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:22:52+00:00",
+  "fetched_at": "2026-10-24T08:54:47+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile-remote-control",
-    "parallelism-isolation"
+    "self-hosting",
+    "voice"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "voice",
   "lifecycle": {
     "state": "active",
     "note_en": "",

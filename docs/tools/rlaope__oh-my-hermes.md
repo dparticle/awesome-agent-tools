@@ -2,7 +2,7 @@
 
 # rlaope/oh-my-hermes
 
-> request into a clear capability, a useful next step, and an honest record of what actually happened — strengthening the workflow you already use, never replacing Hermes or hiding a coding executor behind it.
+> All-in-one package for Hermes Agent.
 
 [Repository](https://github.com/rlaope/oh-my-hermes) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,39 +12,37 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,564 |
-| Star velocity | 28.2/day (history basis, 5d span) |
-| Health score | 68/100 |
-| Documentation | 65/100 |
+| Stars | 3,597 |
+| Star velocity | 33.0/day (history basis, 5d span) |
+| Health score | 69/100 |
+| Documentation | 68/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-06-03 |
-| Last push | 2026-10-23 (0 days ago) |
-| Analyzed README | 36,208 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 18,998 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Multi-agent orchestration
-
-> batched tool calls run concurrently in Hermes,
+### Automatic failover
 
 ### Parallel execution
 
 > h category, turns, cost, cache), the phase todo above the prompt, parallel shot ×N, full-row diff bands, and a theme of your own — in the OMH TUI bare omh opens, never patching Hermes.
 
-### Workspace isolation
-
 ### Model / provider routing
+
+### API gateway / proxy
+
+> esearch for creating Hermes Agent.
 
 ### Memory & context
 
-> s such as reconciling a --full install back to core live in
+> , failure diagnostics, capacity (agent/operator reference)
 
-### Agent runtime
-
-> to follow whichever Opus the
+### Skills & plugins
 
 ### Cross-agent support
 
@@ -52,7 +50,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 13/100)
+- **Difficulty:** 🟢 Turnkey (friction score 7/100)
 - **Out of the box:** yes
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/rlaope/oh-my-hermes/main/install.sh | sh`
@@ -61,35 +59,34 @@
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** sign-in required
-
-*Turnkey. install via Homebrew install, curl | sh installer; needs npm install/build; configure sign-in required*
+*Turnkey. install via Homebrew install, curl | sh installer; needs npm install/build*
 
 ## Documentation quality
 
-Score **65/100**, based on these detected signals:
+Score **68/100**, based on these detected signals:
 
 - contains code blocks
+- contains screenshots/diagrams
 - has section headings
-- has a quick-start section
 - documents installation
 - documents configuration
 - has troubleshooting/FAQ
 - has contribution guidance
+- mentions licensing
+- has a Chinese translation
 - documents changes
 - reports benchmarks
 - explains architecture
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.0 |
-| momentum | 23.5 |
+| popularity | 71.1 |
+| momentum | 27.5 |
 | maintenance | 100.0 |
-| documentation | 65.0 |
-| accessibility | 99.0 |
+| documentation | 68.0 |
+| accessibility | 100.0 |
 
 ---
 

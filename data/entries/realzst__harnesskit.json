@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 470,
   "forks": 48,
-  "open_issues": 6,
+  "open_issues": 7,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -23,26 +23,26 @@
   ],
   "created_at": "2026-03-27T15:37:08Z",
   "updated_at": "2026-10-22T14:08:50Z",
-  "pushed_at": "2026-10-18T15:58:35Z",
+  "pushed_at": "2026-10-24T08:24:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 209,
-  "days_since_push": 4,
+  "age_days": 210,
+  "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 53.4,
-    "momentum": 0.7,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 98.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.25,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 2.24,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -156,7 +156,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:46+00:00",
+  "fetched_at": "2026-10-24T08:55:41+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

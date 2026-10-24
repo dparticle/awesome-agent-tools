@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,156 |
+| Stars | 2,157 |
 | Star velocity | 1.0/day (history basis, 5d span) |
 | Health score | 50/100 |
 | Documentation | 73/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-01-31 |
-| Last push | 2026-09-16 (36 days ago) |
+| Last push | 2026-09-16 (37 days ago) |
 | Analyzed README | 37,235 chars from `raw:HEAD/README.md` |
 
 ## What it solves

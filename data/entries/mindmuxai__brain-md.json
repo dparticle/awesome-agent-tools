@@ -6,7 +6,7 @@
   "url": "https://github.com/mindmuxai/brain.md",
   "description": "A persistent, file-based memory layer for coding agents — give Claude Code, Codex & others a project brain (durable decisions, requirements, constraints) via a zero-dependency CLI.",
   "homepage": "https://projectbrain.md",
-  "stars": 578,
+  "stars": 580,
   "forks": 56,
   "open_issues": 0,
   "language": "JavaScript",
@@ -27,27 +27,27 @@
     "project-memory"
   ],
   "created_at": "2026-06-18T06:45:01Z",
-  "updated_at": "2026-10-22T19:09:53Z",
+  "updated_at": "2026-10-24T08:10:52Z",
   "pushed_at": "2026-10-21T06:20:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 127,
-  "days_since_push": 2,
+  "age_days": 128,
+  "days_since_push": 3,
   "health_score": 56,
   "health_components": {
-    "popularity": 55.2,
-    "momentum": 0.5,
+    "popularity": 55.3,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 4.55,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 4.53,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,11 +144,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:41+00:00",
+  "fetched_at": "2026-10-24T08:55:35+00:00",
   "categories": [
     "desktop-ui",
-    "parallelism-isolation",
-    "security-self-hosting"
+    "desktop-ui-2",
+    "parallelism-isolation"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {

@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — do not edit by hand. Run `python scripts/agentindex.py build` (or wait for the daily workflow). -->
 
-# helloianneo/ian-xiaohei-illustrations
+# Jia-Ethan/codex-keysmith
 
-> Ian Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。
+> Keysmith 给本机的 AI 编程工具装指令：先预览，再写入，能验证，能撤走。
 
-[Repository](https://github.com/helloianneo/ian-xiaohei-illustrations) · [Back to index](../../README.md) · Category: **None**
+[Repository](https://github.com/Jia-Ethan/codex-keysmith) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -12,21 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,763 |
-| Star velocity | 24.0/day (history basis, 5d span) |
-| Health score | 58/100 |
-| Documentation | 40/100 |
+| Stars | 4,780 |
+| Star velocity | 4.0/day (history basis, 6d span) |
+| Health score | 53/100 |
+| Documentation | 43/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
-| Language | n/a |
-| Created | 2026-05-27 |
-| Last push | 2026-09-24 (28 days ago) |
-| Analyzed README | 4,846 chars from `raw:HEAD/README.md` |
+| Language | Python |
+| Created | 2026-06-28 |
+| Last push | 2026-09-27 (26 days ago) |
+| Analyzed README | 5,227 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Memory & context
 
 ### Cross-agent support
 
@@ -37,6 +35,7 @@
 - **Difficulty:** 🟡 Some setup (friction score 51/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
+- **Quickest install:** `curl --fail --location --remote-name "$base/codex-instruct-vX.Y.Z.py"`
 
 **Signals that add work:** git clone (build from source)
 
@@ -44,24 +43,25 @@
 
 ## Documentation quality
 
-Score **40/100**, based on these detected signals:
+Score **43/100**, based on these detected signals:
 
 - contains code blocks
-- contains screenshots/diagrams
 - has section headings
 - documents installation
+- documents configuration
 - mentions licensing
 - has a table of contents
+- has a Chinese translation
 - explains architecture
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.1 |
-| momentum | 20.0 |
+| popularity | 73.6 |
+| momentum | 3.3 |
 | maintenance | 92.0 |
-| documentation | 40.0 |
+| documentation | 43.0 |
 | accessibility | 49.0 |
 
 ---

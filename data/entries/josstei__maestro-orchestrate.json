@@ -6,7 +6,7 @@
   "url": "https://github.com/josstei/maestro-orchestrate",
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
-  "stars": 486,
+  "stars": 485,
   "forks": 38,
   "open_issues": 6,
   "language": "JavaScript",
@@ -34,27 +34,27 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-22T20:25:53Z",
+  "updated_at": "2026-10-24T08:41:24Z",
   "pushed_at": "2026-10-23T06:36:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 256,
-  "days_since_push": 0,
+  "age_days": 257,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.9,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.89,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,12 +135,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:46+00:00",
+  "fetched_at": "2026-10-24T08:55:40+00:00",
   "categories": [
     "desktop-ui-2",
-    "security-self-hosting"
+    "self-hosting"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by spinabot/brigade: covers 100% of capabilities (4/4).",
@@ -162,14 +162,14 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 23.362,
-      "momentum_ratio": 12.0,
+      "star_ratio": 23.416,
+      "momentum_ratio": 44.0,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "23.36x the stars (11,354 vs 486)",
-        "12.00x the star velocity (2.4/day vs 0.2/day)",
+        "23.42x the stars (11,357 vs 485)",
+        "44.00x the star velocity (2.2/day vs 0.0/day)",
         "no harder to set up (39 vs 51 friction)"
       ],
       "reasons_zh": [],

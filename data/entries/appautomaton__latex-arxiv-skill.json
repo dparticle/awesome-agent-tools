@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 583,
-  "days_since_push": 39,
+  "age_days": 584,
+  "days_since_push": 40,
   "health_score": 45,
   "health_components": {
     "popularity": 53.4,
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:46+00:00",
+  "fetched_at": "2026-10-24T08:55:41+00:00",
   "categories": [
     "desktop-ui",
     "model-routing"

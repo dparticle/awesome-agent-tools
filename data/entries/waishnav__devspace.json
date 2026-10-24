@@ -6,7 +6,7 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "",
-  "stars": 5291,
+  "stars": 5289,
   "forks": 601,
   "open_issues": 76,
   "language": "TypeScript",
@@ -21,29 +21,29 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-10-22T16:20:19Z",
+  "updated_at": "2026-10-24T08:53:17Z",
   "pushed_at": "2026-10-12T03:45:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 130,
-  "days_since_push": 11,
+  "age_days": 131,
+  "days_since_push": 12,
   "health_score": 56,
   "health_components": {
     "popularity": 74.5,
-    "momentum": 4.0,
+    "momentum": 3.0,
     "maintenance": 92.0,
     "documentation": 46.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 24,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 40.7,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 40.37,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Waishnav/devspace",
@@ -137,11 +137,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:22:53+00:00",
+  "fetched_at": "2026-10-24T08:54:47+00:00",
   "categories": [
     "desktop-ui-2",
     "parallelism-isolation",
-    "security-self-hosting"
+    "self-hosting"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {
@@ -167,14 +167,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 4.113,
-      "momentum_ratio": 21.667,
+      "star_ratio": 4.129,
+      "momentum_ratio": 25.667,
       "setup_delta": -4,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "4.11x the stars (21,764 vs 5,291)",
-        "21.67x the star velocity (104.0/day vs 4.8/day)",
+        "4.13x the stars (21,840 vs 5,289)",
+        "25.67x the star velocity (92.4/day vs 3.6/day)",
         "no harder to set up (24 vs 28 friction)"
       ],
       "reasons_zh": [],
@@ -202,7 +202,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 83,
+        "challenger_health": 81,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 24
       }

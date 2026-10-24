@@ -38,24 +38,24 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 70,
-  "days_since_push": 16,
+  "age_days": 71,
+  "days_since_push": 17,
   "health_score": 54,
   "health_components": {
     "popularity": 58.7,
-    "momentum": 4.2,
+    "momentum": 2.7,
     "maintenance": 92.0,
     "documentation": 43.0,
     "accessibility": 97.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 5.0,
-    "lifetime_stars_per_day": 12.24,
+    "stars_per_day": 3.2,
+    "lifetime_stars_per_day": 12.07,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "ningbainb/deepseek-harness-desktop",
@@ -180,7 +180,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:35+00:00",
+  "fetched_at": "2026-10-24T08:55:30+00:00",
   "categories": [
     "mobile-remote-control",
     "providers-2",

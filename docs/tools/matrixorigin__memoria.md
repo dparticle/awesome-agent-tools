@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-09 |
-| Last push | 2026-10-22 (1 days ago) |
+| Last push | 2026-10-24 (0 days ago) |
 | Analyzed README | 20,929 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** — Superseded by kitfunso/hippo-memory: covers 100% of capabilities (6/6).

@@ -21,10 +21,10 @@
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-03-05 |
-| Last push | 2026-05-11 (164 days ago) |
+| Last push | 2026-05-11 (165 days ago) |
 | Analyzed README | 9,208 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code)** — Superseded by aoci-spec/aoci-code: covers 100% of capabilities (5/5).
 
 ## What it solves
 

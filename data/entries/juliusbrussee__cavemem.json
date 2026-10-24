@@ -22,13 +22,13 @@
     "rag-chatbot"
   ],
   "created_at": "2026-04-18T00:21:39Z",
-  "updated_at": "2026-10-22T19:18:51Z",
+  "updated_at": "2026-10-24T06:28:35Z",
   "pushed_at": "2026-08-14T22:08:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 188,
-  "days_since_push": 69,
+  "age_days": 189,
+  "days_since_push": 70,
   "health_score": 51,
   "health_components": {
     "popularity": 56.6,
@@ -40,9 +40,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 676,
-    "days_span": 188,
-    "stars_per_day": 3.6,
-    "lifetime_stars_per_day": 3.6,
+    "days_span": 189,
+    "stars_per_day": 3.58,
+    "lifetime_stars_per_day": 3.58,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:39+00:00",
+  "fetched_at": "2026-10-24T08:55:34+00:00",
   "categories": [
     "desktop-ui-2",
     "security-self-hosting"

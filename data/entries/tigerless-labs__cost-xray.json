@@ -6,8 +6,8 @@
   "url": "https://github.com/tigerless-labs/cost-xray",
   "description": "See what Claude Code and Codex actually send to the API — and what each part costs.",
   "homepage": "",
-  "stars": 6138,
-  "forks": 383,
+  "stars": 6321,
+  "forks": 384,
   "open_issues": 35,
   "language": "Python",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "token-counting"
   ],
   "created_at": "2026-06-06T04:30:36Z",
-  "updated_at": "2026-10-23T08:42:29Z",
+  "updated_at": "2026-10-24T04:23:00Z",
   "pushed_at": "2026-10-15T16:31:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 139,
-  "days_since_push": 7,
-  "health_score": 80,
+  "age_days": 140,
+  "days_since_push": 8,
+  "health_score": 77,
   "health_components": {
-    "popularity": 75.8,
-    "momentum": 84.7,
-    "maintenance": 100.0,
+    "popularity": 76.0,
+    "momentum": 79.0,
+    "maintenance": 92.0,
     "documentation": 48.0,
     "accessibility": 88.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 508,
+    "stars_gained": 474,
     "days_span": 5,
-    "stars_per_day": 101.6,
-    "lifetime_stars_per_day": 44.16,
+    "stars_per_day": 94.8,
+    "lifetime_stars_per_day": 45.15,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:22:51+00:00",
+  "fetched_at": "2026-10-24T08:54:45+00:00",
   "categories": [
     "desktop-ui-2",
     "security"

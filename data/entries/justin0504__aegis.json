@@ -29,12 +29,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
-  "days_since_push": 14,
+  "age_days": 234,
+  "days_since_push": 15,
   "health_score": 50,
   "health_components": {
     "popularity": 54.4,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 59.0,
     "accessibility": 56.0
@@ -42,8 +42,8 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 4,
-    "days_span": 13,
-    "stars_per_day": 0.31,
+    "days_span": 14,
+    "stars_per_day": 0.29,
     "lifetime_stars_per_day": 2.24,
     "basis": "history",
     "is_fast_riser": false
@@ -161,7 +161,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:43+00:00",
+  "fetched_at": "2026-10-24T08:55:37+00:00",
   "categories": [
     "analytics-2",
     "providers-2",

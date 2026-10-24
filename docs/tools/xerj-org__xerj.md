@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 13,241 |
-| Star velocity | 1035.0/day (history basis, 5d span) |
+| Stars | 14,214 |
+| Star velocity | 1095.6/day (history basis, 5d span) |
 | Health score | 85/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-10-23 (0 days ago) |
-| Analyzed README | 37,932 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 39,180 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -39,6 +39,8 @@
 > ks with Claude Code, Cursor and any MCP client.
 
 ### GUI / desktop app
+
+> the same --insecure dev node.
 
 ### Cross-agent support
 
@@ -80,7 +82,7 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.4 |
+| popularity | 83.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 68.0 |

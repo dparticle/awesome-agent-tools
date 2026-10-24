@@ -6,8 +6,8 @@
   "url": "https://github.com/Leonxlnx/taste-skill",
   "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
   "homepage": "https://tasteskill.dev",
-  "stars": 101333,
-  "forks": 6846,
+  "stars": 101748,
+  "forks": 6870,
   "open_issues": 6,
   "language": "JavaScript",
   "license": "MIT",
@@ -25,13 +25,13 @@
     "web-design"
   ],
   "created_at": "2026-02-19T21:44:05Z",
-  "updated_at": "2026-10-23T09:19:21Z",
+  "updated_at": "2026-10-24T08:51:27Z",
   "pushed_at": "2026-10-20T22:04:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
-  "days_since_push": 2,
+  "age_days": 246,
+  "days_since_push": 3,
   "health_score": 86,
   "health_components": {
     "popularity": 100.0,
@@ -42,10 +42,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2748,
+    "stars_gained": 2675,
     "days_span": 5,
-    "stars_per_day": 549.6,
-    "lifetime_stars_per_day": 413.6,
+    "stars_per_day": 535.0,
+    "lifetime_stars_per_day": 413.61,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -121,7 +121,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:02+00:00",
+  "fetched_at": "2026-10-24T08:54:57+00:00",
   "categories": [
     "desktop-ui"
   ],

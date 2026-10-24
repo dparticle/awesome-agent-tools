@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 615 |
-| Star velocity | 2.6/day (history basis, 5d span) |
-| Health score | 55/100 |
-| Documentation | 46/100 |
+| Stars | 621 |
+| Star velocity | 3.6/day (history basis, 5d span) |
+| Health score | 57/100 |
+| Documentation | 52/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-07-15 |
-| Last push | 2026-10-23 (0 days ago) |
-| Analyzed README | 14,855 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 20,134 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
 
@@ -55,15 +55,15 @@
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install agent-manager`
 
-**Signals that make it easy:** Homebrew install, curl | sh installer, PowerShell irm | iex installer
+**Signals that make it easy:** Homebrew install, winget install, scoop install, curl | sh installer, native installer / package
 
 **Configuration required:** sign-in required
 
-*Turnkey. install via Homebrew install, curl | sh installer; configure sign-in required*
+*Turnkey. install via Homebrew install, winget install; configure sign-in required*
 
 ## Documentation quality
 
-Score **46/100**, based on these detected signals:
+Score **52/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -72,15 +72,17 @@ Score **46/100**, based on these detected signals:
 - documents configuration
 - has contribution guidance
 - mentions licensing
+- explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.8 |
-| momentum | 2.2 |
+| popularity | 55.9 |
+| momentum | 3.0 |
 | maintenance | 100.0 |
-| documentation | 46.0 |
+| documentation | 52.0 |
 | accessibility | 100.0 |
 
 ---

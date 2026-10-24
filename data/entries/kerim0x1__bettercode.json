@@ -6,7 +6,7 @@
   "url": "https://github.com/kerim0x1/bettercode",
   "description": "Every coding agent in one desktop workspace. Run Claude Code, OpenAI Codex, Cursor Agent and Grok side by side. Bring your own CLI. Free during beta. Open source as of 21 September 2026 (MIT).",
   "homepage": "https://betterc0de.com",
-  "stars": 262,
+  "stars": 261,
   "forks": 4,
   "open_issues": 12,
   "language": "TypeScript",
@@ -22,27 +22,27 @@
     "grok"
   ],
   "created_at": "2026-09-20T22:48:35Z",
-  "updated_at": "2026-10-22T10:41:26Z",
+  "updated_at": "2026-10-24T08:40:06Z",
   "pushed_at": "2026-10-21T23:45:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 32,
-  "days_since_push": 1,
+  "age_days": 33,
+  "days_since_push": 2,
   "health_score": 55,
   "health_components": {
-    "popularity": 48.4,
-    "momentum": 6.8,
+    "popularity": 48.3,
+    "momentum": 6.6,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 84.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 262,
-    "days_span": 32,
-    "stars_per_day": 8.19,
-    "lifetime_stars_per_day": 8.19,
+    "stars_gained": 261,
+    "days_span": 33,
+    "stars_per_day": 7.91,
+    "lifetime_stars_per_day": 7.91,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -141,25 +141,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:24:04+00:00",
+  "fetched_at": "2026-10-24T08:55:58+00:00",
   "categories": [
     "teams"
   ],
   "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "msitarzewski/agency-agents",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "kerim0x1/bettercode",
-      "challenger": "msitarzewski/agency-agents",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "kerim0x1/bettercode",
-      "challenger_name": "msitarzewski/agency-agents",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -169,15 +169,15 @@
         "mobile-access",
         "team-collaboration"
       ],
-      "star_ratio": 623.584,
-      "momentum_ratio": 58.315,
-      "setup_delta": -23,
-      "dominance": 1.0,
+      "star_ratio": 41.755,
+      "momentum_ratio": 21.643,
+      "setup_delta": 8,
+      "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "623.58x the stars (163,379 vs 262)",
-        "58.32x the star velocity (477.6/day vs 8.2/day)",
-        "no harder to set up (1 vs 24 friction)"
+        "41.75x the stars (10,898 vs 261)",
+        "21.64x the star velocity (171.2/day vs 7.9/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -192,25 +192,24 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "mobile-access",
-          "multi-account-switching",
+          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
           "team-collaboration",
-          "voice-input"
+          "worktree-isolation"
         ],
         "incumbent_health": 55,
-        "challenger_health": 98,
+        "challenger_health": 87,
         "incumbent_setup_score": 24,
-        "challenger_setup_score": 1
+        "challenger_setup_score": 32
       }
     }
   }

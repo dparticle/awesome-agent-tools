@@ -6,7 +6,7 @@
   "url": "https://github.com/Mirrowel/LLM-API-Key-Proxy",
   "description": "Universal LLM Gateway: One API, every LLM. OpenAI/Anthropic-compatible endpoints with multi-provider translation and intelligent load-balancing.",
   "homepage": "",
-  "stars": 558,
+  "stars": 557,
   "forks": 104,
   "open_issues": 18,
   "language": "Python",
@@ -19,13 +19,13 @@
     "llm"
   ],
   "created_at": "2025-06-10T17:07:26Z",
-  "updated_at": "2026-10-22T04:01:06Z",
+  "updated_at": "2026-10-23T17:48:59Z",
   "pushed_at": "2026-09-23T21:06:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 499,
-  "days_since_push": 29,
+  "age_days": 500,
+  "days_since_push": 30,
   "health_score": 49,
   "health_components": {
     "popularity": 54.9,
@@ -37,9 +37,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 9,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.12,
+    "lifetime_stars_per_day": 1.11,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -167,9 +167,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:42+00:00",
+  "fetched_at": "2026-10-24T08:55:36+00:00",
   "categories": [
-    "providers",
+    "analytics-2",
     "sharing",
     "sharing-2"
   ],

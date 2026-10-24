@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 143,
-  "days_since_push": 6,
+  "age_days": 144,
+  "days_since_push": 7,
   "health_score": 50,
   "health_components": {
     "popularity": 54.3,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 519,
-    "days_span": 143,
-    "stars_per_day": 3.63,
-    "lifetime_stars_per_day": 3.63,
+    "days_span": 144,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 3.6,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -135,16 +135,65 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:43+00:00",
+  "fetched_at": "2026-10-24T08:55:37+00:00",
   "categories": [
     "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "deuz-ai/deuz-sdk",
+      "challenger": "hoangsonww/claude-code-agent-monitor",
+      "incumbent_name": "Deuz-AI/Deuz-SDK",
+      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "mcp-support",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 2.143,
+      "momentum_ratio": 1.056,
+      "setup_delta": -7,
+      "dominance": 0.73,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "2.14x the stars (1,112 vs 519)",
+        "1.06x the star velocity (3.8/day vs 3.6/day)",
+        "no harder to set up (30 vs 37 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "mcp-support",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "session-persistence",
+          "skills-plugins"
+        ],
+        "incumbent_health": 50,
+        "challenger_health": 55,
+        "incumbent_setup_score": 37,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 27,603 |
-| Star velocity | 21.2/day (history basis, 5d span) |
-| Health score | 70/100 |
+| Stars | 27,614 |
+| Star velocity | 17.2/day (history basis, 5d span) |
+| Health score | 69/100 |
 | Documentation | 73/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-01-03 |
-| Last push | 2026-10-20 (2 days ago) |
-| Analyzed README | 106,777 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 107,330 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -39,6 +39,8 @@
 > ** One orchestrator owns taskplan.md and the shared summaries; every worker appends to its own ledger or assigned file.
 
 ### Session persistence
+
+> d contributor-reported measurements (PRs #331, #333, #334).
 
 ### Memory & context
 
@@ -94,7 +96,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 88.8 |
-| momentum | 17.7 |
+| momentum | 14.3 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 73.0 |

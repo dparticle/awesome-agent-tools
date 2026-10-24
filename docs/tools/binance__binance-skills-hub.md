@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,078 |
-| Star velocity | 2.2/day (history basis, 5d span) |
-| Health score | 51/100 |
+| Stars | 1,082 |
+| Star velocity | 2.8/day (history basis, 5d span) |
+| Health score | 50/100 |
 | Documentation | 34/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Python |
 | Created | 2026-03-03 |
-| Last push | 2026-10-20 (2 days ago) |
-| Analyzed README | 4,430 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-23 (0 days ago) |
+| Analyzed README | 4,660 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,16 +32,16 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 34/100)
+- **Difficulty:** 🟡 Some setup (friction score 40/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx skills add https://github.com/binance/binance-skills-hub`
 
 **Signals that make it easy:** npx one-liner
 
-**Configuration required:** environment variables, .env file, API token/secret
+**Configuration required:** environment variables, API key configuration, .env file, API token/secret
 
-*Easy. install via npx one-liner; configure environment variables, .env file*
+*Some setup. install via npx one-liner; configure environment variables, API key configuration*
 
 ## Documentation quality
 
@@ -59,10 +59,10 @@ Score **34/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 60.7 |
-| momentum | 1.8 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 34.0 |
-| accessibility | 66.0 |
+| accessibility | 60.0 |
 
 ---
 

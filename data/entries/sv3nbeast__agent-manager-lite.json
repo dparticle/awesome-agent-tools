@@ -6,8 +6,8 @@
   "url": "https://github.com/sv3nbeast/agent-manager-lite",
   "description": "macOS 上的 Codex、Claude Code CLI 与 Claude Desktop 多实例管理器，统一管理账号、供应商密钥、独立配置、会话与代理。 / A macOS manager for Codex, Claude Code CLI and Claude Desktop instances, accounts, provider keys, isolated configs, sessions and proxies.",
   "homepage": "",
-  "stars": 461,
-  "forks": 14,
+  "stars": 475,
+  "forks": 17,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "NOASSERTION",
@@ -21,33 +21,33 @@
     "vue"
   ],
   "created_at": "2026-10-04T05:59:16Z",
-  "updated_at": "2026-10-22T23:31:29Z",
-  "pushed_at": "2026-10-22T17:46:38Z",
+  "updated_at": "2026-10-24T06:46:09Z",
+  "pushed_at": "2026-10-24T05:00:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 19,
+  "age_days": 20,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 53.3,
-    "momentum": 20.2,
+    "popularity": 53.5,
+    "momentum": 27.3,
     "maintenance": 100.0,
     "documentation": 58.0,
-    "accessibility": 69.0
+    "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 461,
-    "days_span": 19,
-    "stars_per_day": 24.26,
-    "lifetime_stars_per_day": 24.26,
-    "basis": "lifetime",
+    "stars_gained": 164,
+    "days_span": 5,
+    "stars_per_day": 32.8,
+    "lifetime_stars_per_day": 23.75,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sv3nbeast/agent-manager-lite",
-    "readme_chars": 10394,
+    "readme_chars": 10600,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -66,12 +66,12 @@
       "quota-management": "Responses 的 imagegeneration 工具，两种上游路径独立。",
       "worktree-isolation": "",
       "provider-aggregation": "",
-      "api-gateway": "e CLI 实例可使用管理器刷新后的订阅访问凭据；刷新令牌留在管理器安全存储，不写入实例。",
+      "api-gateway": "受管 Claude CLI 实例可使用管理器刷新后的订阅访问凭据；刷新令牌留在管理器安全存储，不写入实例。",
       "billing-metering": "CLI 实例时，自动补齐本机 ~/.codex/skills 中的个人技能入口，已有实例和会话副本同样适用。",
       "agent-runtime": "",
       "mcp-support": "ock / Vertex / Foundry 等云模式和 npm 包装启动器尚未接入。",
       "team-collaboration": "oundry 等云模式和 npm 包装启动器尚未接入。",
-      "gui-desktop": "enAI 与 Anthropic Messages 密钥均可查询各自额度。",
+      "gui-desktop": "OpenAI 与 Anthropic Messages 密钥均可查询各自额度。",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
@@ -89,9 +89,9 @@
     },
     "friction": {
       "level": "moderate",
-      "score": 39,
+      "score": 45,
       "out_of_the_box": false,
-      "non_programmer_friendly": true,
+      "non_programmer_friendly": false,
       "easy_signals": [
         "npx one-liner"
       ],
@@ -101,7 +101,8 @@
       ],
       "config_signals": [
         "API key configuration",
-        "OAuth login flow"
+        "OAuth login flow",
+        "database dependency"
       ],
       "friendliness_signals": [
         "GUI application"
@@ -143,13 +144,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.443
+      "external_link_ratio": 1.415
     },
     "highlights": [
       "本地 API：为 Codex 连接提供多账号、调度策略及独立访问密钥，支持模型范围和 Token 上限控制。",
-      "Codex 会话与记录：会话页扫描已登记目录及本机默认 ~/.codex，按来源、工作目录、标题、ID 和正文查找对话，包括工作目录位于受管目录之外项目中的 Codex 会话。",
       "模型与配置：按客户端能力选择模型。",
-      "Codex 个人技能：启动受管的桌面或 CLI 实例时，自动补齐本机 ~/.codex/skills 中的个人技能入口，已有实例和会话副本同样适用。"
+      "Codex 个人技能：启动受管的桌面或 CLI 实例时，自动补齐本机 ~/.codex/skills 中的个人技能入口，已有实例和会话副本同样适用。",
+      "普通 / Fast：受支持的 Codex 桌面实例可在原有速度菜单中选择；本地 API 支持服务等级配置和实际出站等级记录。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -160,7 +161,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:47+00:00",
+  "fetched_at": "2026-10-24T08:55:40+00:00",
   "categories": [
     "billing",
     "providers-2",

@@ -13,16 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 433 |
-| Star velocity | 3.6/day (lifetime basis, 121d span) |
-| Health score | 47/100 |
+| Star velocity | 3.5/day (lifetime basis, 122d span) |
+| Health score | 52/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-06-23 |
-| Last push | 2026-10-14 (8 days ago) |
-| Analyzed README | 10,173 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 10,102 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -72,15 +72,17 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 56/100)
+- **Difficulty:** 🟢 Easy (friction score 30/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
+
+**Signals that make it easy:** native installer / package
 
 **Signals that add work:** git clone (build from source)
 
 **Configuration required:** API key configuration, server/reverse-proxy setup
 
-*Some setup. needs git clone (build from source); configure API key configuration, server/reverse-proxy setup; GUI application*
+*Easy. install via native installer / package; needs git clone (build from source); configure API key configuration, server/reverse-proxy setup; GUI application*
 
 ## Documentation quality
 
@@ -102,9 +104,9 @@ Score **49/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 52.7 |
 | momentum | 3.0 |
-| maintenance | 92.0 |
+| maintenance | 100.0 |
 | documentation | 49.0 |
-| accessibility | 44.0 |
+| accessibility | 70.0 |
 
 ---
 

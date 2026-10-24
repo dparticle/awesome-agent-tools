@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "full_name": "0sec-labs/0",
+  "name": "0",
+  "owner": "0sec-labs",
+  "url": "https://github.com/0sec-labs/0",
+  "description": "Open-source AI security harness with a local web UI for code review, vulnerability research, verification, and fixes. CLI and MCP for coding agents.",
+  "homepage": "https://0.security",
+  "stars": 516,
+  "forks": 57,
+  "open_issues": 12,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "topics": [
+    "ai-agents",
+    "application-security",
+    "binary-analysis",
+    "code-review",
+    "cybersecurity",
+    "llm-agents",
+    "mcp",
+    "penetration-testing",
+    "security-research",
+    "security-tools",
+    "vulnerability-detection",
+    "vulnerability-scanner"
+  ],
+  "created_at": "2026-08-19T07:54:37Z",
+  "updated_at": "2026-10-24T07:14:04Z",
+  "pushed_at": "2026-10-24T07:13:58Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 66,
+  "days_since_push": 0,
+  "health_score": 55,
+  "health_components": {
+    "popularity": 54.3,
+    "momentum": 6.5,
+    "maintenance": 100.0,
+    "documentation": 40.0,
+    "accessibility": 96.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 516,
+    "days_span": 66,
+    "stars_per_day": 7.82,
+    "lifetime_stars_per_day": 7.82,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "0sec-labs/0",
+    "readme_chars": 6048,
+    "capabilities": [
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "agent-runtime": "The open-source AI security harness",
+      "mcp-support": "The open-source AI security harness",
+      "gui-desktop": ""
+    },
+    "capability_hits": {
+      "agent-runtime": 2,
+      "mcp-support": 6,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 16,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via curl | sh installer",
+      "note_zh": "开箱即用。可通过 curl | sh installer 安装"
+    },
+    "doc_score": 40,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs"
+    ],
+    "agents": [],
+    "summary_en": "Investigate vulnerabilities, review findings, and work on fixes in your browser.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/0sec-labs/0/main/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.315
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-24T08:55:38+00:00",
+  "categories": [
+    "desktop-ui-2"
+  ],
+  "primary_category": "desktop-ui-2",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

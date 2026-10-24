@@ -6,7 +6,7 @@
   "url": "https://github.com/Lling0000/Vibe_coding_guide",
   "description": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
   "homepage": "https://lling0000.github.io/Vibe_coding_guide/",
-  "stars": 237,
+  "stars": 239,
   "forks": 23,
   "open_issues": 4,
   "language": "JavaScript",
@@ -34,27 +34,27 @@
     "worktree"
   ],
   "created_at": "2026-05-05T14:19:27Z",
-  "updated_at": "2026-10-21T15:51:35Z",
+  "updated_at": "2026-10-24T08:32:32Z",
   "pushed_at": "2026-06-25T15:20:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 170,
-  "days_since_push": 119,
-  "health_score": 40,
+  "age_days": 171,
+  "days_since_push": 120,
+  "health_score": 41,
   "health_components": {
-    "popularity": 47.5,
-    "momentum": 0.5,
+    "popularity": 47.6,
+    "momentum": 0.8,
     "maintenance": 55.0,
     "documentation": 48.0,
     "accessibility": 70.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.39,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 1.4,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,27 +150,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:24:09+00:00",
+  "fetched_at": "2026-10-24T08:56:00+00:00",
   "categories": [
     "desktop-ui",
-    "parallelism-isolation",
-    "security-self-hosting"
+    "desktop-ui-2",
+    "parallelism-isolation"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 HarnessMD/munder-difflin 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "HarnessMD/munder-difflin",
+    "note_en": "Superseded by first-fluke/oh-my-agent: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 first-fluke/oh-my-agent 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "first-fluke/oh-my-agent",
     "challenger": "",
     "supersede": {
       "incumbent": "lling0000/vibe_coding_guide",
-      "challenger": "harnessmd/munder-difflin",
+      "challenger": "first-fluke/oh-my-agent",
       "incumbent_name": "Lling0000/Vibe_coding_guide",
-      "challenger_name": "HarnessMD/munder-difflin",
+      "challenger_name": "first-fluke/oh-my-agent",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -180,15 +180,15 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 37.962,
-      "momentum_ratio": 43.667,
-      "setup_delta": 2,
-      "dominance": 0.99,
+      "star_ratio": 5.665,
+      "momentum_ratio": 1.6,
+      "setup_delta": 0,
+      "dominance": 0.858,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "37.96x the stars (8,997 vs 237)",
-        "43.67x the star velocity (26.2/day vs 0.6/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "5.67x the stars (1,354 vs 239)",
+        "1.60x the star velocity (1.6/day vs 1.0/day)",
+        "no harder to set up (30 vs 30 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -202,25 +202,25 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "self-hosted",
+          "quota-management",
+          "remote-control",
           "session-persistence",
           "skills-plugins",
-          "usage-analytics",
-          "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 40,
-        "challenger_health": 67,
+        "incumbent_health": 41,
+        "challenger_health": 57,
         "incumbent_setup_score": 30,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 30
       }
     }
   }

@@ -6,9 +6,9 @@
   "url": "https://github.com/ruvnet/metaharness",
   "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
   "homepage": "https://Cognitum.One",
-  "stars": 713,
+  "stars": 714,
   "forks": 88,
-  "open_issues": 180,
+  "open_issues": 182,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "scaffolding"
   ],
   "created_at": "2026-06-13T18:29:11Z",
-  "updated_at": "2026-10-22T06:37:41Z",
-  "pushed_at": "2026-10-23T08:30:53Z",
+  "updated_at": "2026-10-24T01:24:30Z",
+  "pushed_at": "2026-10-24T08:39:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 131,
+  "age_days": 132,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 57.1,
-    "momentum": 1.2,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 42.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 5.44,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 5.41,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:39+00:00",
+  "fetched_at": "2026-10-24T08:55:33+00:00",
   "categories": [
     "desktop-ui",
     "model-routing",
-    "security-self-hosting"
+    "self-hosting"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
@@ -190,14 +190,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 402.254,
-      "momentum_ratio": 569.429,
+      "star_ratio": 402.716,
+      "momentum_ratio": 660.667,
       "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "402.25x the stars (286,807 vs 713)",
-        "569.43x the star velocity (797.2/day vs 1.4/day)",
+        "402.72x the stars (287,539 vs 714)",
+        "660.67x the star velocity (792.8/day vs 1.2/day)",
         "no harder to set up (57 vs 58 friction)"
       ],
       "reasons_zh": [],

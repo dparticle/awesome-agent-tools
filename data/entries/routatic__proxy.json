@@ -27,7 +27,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 189,
+  "age_days": 190,
   "days_since_push": 5,
   "health_score": 55,
   "health_components": {
@@ -42,7 +42,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.22,
+    "lifetime_stars_per_day": 5.19,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:33+00:00",
+  "fetched_at": "2026-10-24T08:55:27+00:00",
   "categories": [
     "providers-2"
   ],

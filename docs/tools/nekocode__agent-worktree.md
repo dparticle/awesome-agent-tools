@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-02-05 |
-| Last push | 2026-10-20 (2 days ago) |
+| Last push | 2026-10-20 (3 days ago) |
 | Analyzed README | 9,481 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck)** — Superseded by asheshgoplani/agent-deck: covers 100% of capabilities (6/6).

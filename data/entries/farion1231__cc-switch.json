@@ -6,9 +6,9 @@
   "url": "https://github.com/farion1231/cc-switch",
   "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
   "homepage": "https://ccswitch.io",
-  "stars": 147904,
-  "forks": 9736,
-  "open_issues": 1086,
+  "stars": 148171,
+  "forks": 9753,
+  "open_issues": 1101,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "wsl-support"
   ],
   "created_at": "2025-08-04T14:16:16Z",
-  "updated_at": "2026-10-23T09:22:00Z",
-  "pushed_at": "2026-10-23T09:06:07Z",
+  "updated_at": "2026-10-24T08:54:10Z",
+  "pushed_at": "2026-10-24T08:28:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 444,
+  "age_days": 445,
   "days_since_push": 0,
   "health_score": 93,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2225,
+    "stars_gained": 2000,
     "days_span": 5,
-    "stars_per_day": 445.0,
-    "lifetime_stars_per_day": 333.12,
+    "stars_per_day": 400.0,
+    "lifetime_stars_per_day": 332.97,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "farion1231/cc-switch",
-    "readme_chars": 37048,
+    "readme_chars": 37193,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -87,7 +87,7 @@
       "usage-analytics": "can also be enabled or disabled all at once per tool; providers, MCP servers, and prompts are edited full-page in the content area, and you're warned before leaving with unsaved changes",
       "session-persistence": "er at the top → \"New project\" to save the current configuration; later, pick it from the switcher to switch the whole setup at once",
       "skills-plugins": "or upgrade all in one click, and diagnose duplicate installations; on Windows it can also manage tools inside WSL (see FAQ)",
-      "mcp-support": "### The All-in-One Manager for Claude Code, Claude Desktop, Codex, Gemini CLI, Grok Build, OpenCode, OpenClaw, Hermes Agent, Pi, MiniMax Code & Kimi Code",
+      "mcp-support": "l-in-One Manager for Claude Code, Claude Desktop, Codex, Gemini CLI, Grok Build, OpenCode, OpenClaw, Hermes Agent, Pi, MiniMax Code, Kimi Code & Oh My Pi",
       "gui-desktop": "e latest CC-Switch-v{version}-Windows.msi installer or CC-Switch-v{version}-Windows-Portable.zip portable version from the Releases page.",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Gemini CLI"
     },
@@ -167,7 +167,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.243
+      "external_link_ratio": 0.242
     },
     "highlights": [
       "Notes — Aggregation doesn't provide failover; Claude Code requires version 2.1.243 or later; Codex needs a restart after the aggregated list changes, while Claude Code doesn't.",
@@ -184,13 +184,13 @@
     "seed_reason": "The incumbent all-in-one provider/account switcher for Claude Code, Codex and friends.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-23T09:22:39+00:00",
+  "fetched_at": "2026-10-24T08:54:34+00:00",
   "categories": [
     "billing",
-    "providers",
-    "providers-2"
+    "providers-2",
+    "security-self-hosting"
   ],
-  "primary_category": "providers",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "Still the most widely used tool in this space and actively maintained.",
@@ -222,13 +222,13 @@
         "Both manage multiple accounts and providers for Claude Code and Codex, and magpie additionally routes other models through the same agent loop.",
         "covers 46% of farion1231/cc-switch's capabilities (6/13)",
         "not covered: auto-failover, billing-metering, parallel-execution, provider-aggregation, session-persistence, skills-plugins, usage-analytics",
-        "0.13x the stars (19,912 vs 147,904)"
+        "0.14x the stars (20,441 vs 148,171)"
       ],
       "reasons_zh": [
         "两者都为 Claude Code 和 Codex 管理多账号与多供应商，而 magpie 还能让其他模型走同一套 Agent 流程。",
         "覆盖 farion1231/cc-switch 的 46% 能力（6/13）",
         "未覆盖：auto-failover、billing-metering、parallel-execution、provider-aggregation、session-persistence、skills-plugins、usage-analytics",
-        "star 数为 0.13 倍（19,912 vs 147,904）"
+        "star 数为 0.14 倍（20,441 vs 148,171）"
       ],
       "evidence": {
         "curated": true,

@@ -2,7 +2,7 @@
 
 # eternityspring/shuohao-skills
 
-> 🎬 AI Video Workspace
+> Agent-agnostic skills for AI short-drama production
 
 [Repository](https://github.com/eternityspring/shuohao-skills) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,992 |
-| Star velocity | 50.0/day (history basis, 5d span) |
+| Stars | 5,021 |
+| Star velocity | 45.2/day (history basis, 5d span) |
 | Health score | 64/100 |
-| Documentation | 41/100 |
+| Documentation | 38/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-08-06 |
-| Last push | 2026-10-15 (8 days ago) |
-| Analyzed README | 14,279 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 14,033 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
 
-> ce, built and battle-tested on real AI short-drama production.
+> en source, built and battle-tested on real AI short-drama production.
 
 ### Cross-agent support
 
@@ -50,23 +50,22 @@
 
 ## Documentation quality
 
-Score **41/100**, based on these detected signals:
+Score **38/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - documents installation
 - mentions licensing
-- reports benchmarks
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 74.0 |
-| momentum | 41.7 |
-| maintenance | 92.0 |
-| documentation | 41.0 |
+| momentum | 37.7 |
+| maintenance | 100.0 |
+| documentation | 38.0 |
 | accessibility | 69.0 |
 
 ---

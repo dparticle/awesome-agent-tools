@@ -6,9 +6,9 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
   "homepage": "https://theaioperator.io",
-  "stars": 4862,
+  "stars": 4870,
   "forks": 593,
-  "open_issues": 13,
+  "open_issues": 15,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "second-brain"
   ],
   "created_at": "2026-03-24T11:58:12Z",
-  "updated_at": "2026-10-23T08:28:01Z",
+  "updated_at": "2026-10-24T08:02:58Z",
   "pushed_at": "2026-10-20T21:59:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 212,
-  "days_since_push": 2,
-  "health_score": 63,
+  "age_days": 213,
+  "days_since_push": 3,
+  "health_score": 62,
   "health_components": {
-    "popularity": 73.7,
-    "momentum": 9.8,
+    "popularity": 73.8,
+    "momentum": 9.7,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 76.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 59,
+    "stars_gained": 58,
     "days_span": 5,
-    "stars_per_day": 11.8,
-    "lifetime_stars_per_day": 22.93,
+    "stars_per_day": 11.6,
+    "lifetime_stars_per_day": 22.86,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -179,7 +179,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:18+00:00",
+  "fetched_at": "2026-10-24T08:55:13+00:00",
   "categories": [
     "desktop-ui",
     "model-routing",
@@ -215,14 +215,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 6.132,
+      "star_ratio": 6.128,
       "momentum_ratio": 3.034,
       "setup_delta": 8,
       "dominance": 0.898,
       "reasons": [
         "covers 100% of capabilities (12/12)",
-        "6.13x the stars (29,816 vs 4,862)",
-        "3.03x the star velocity (35.8/day vs 11.8/day)",
+        "6.13x the stars (29,844 vs 4,870)",
+        "3.03x the star velocity (35.2/day vs 11.6/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -259,8 +259,8 @@
           "skills-plugins",
           "team-collaboration"
         ],
-        "incumbent_health": 63,
-        "challenger_health": 72,
+        "incumbent_health": 62,
+        "challenger_health": 71,
         "incumbent_setup_score": 24,
         "challenger_setup_score": 32
       }

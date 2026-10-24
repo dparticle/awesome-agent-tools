@@ -19,7 +19,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 246,
-  "days_since_push": 155,
+  "days_since_push": 156,
   "health_score": 44,
   "health_components": {
     "popularity": 50.0,
@@ -160,18 +160,85 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-23T09:23:58+00:00",
+  "fetched_at": "2026-10-24T08:55:52+00:00",
   "categories": [
-    "providers",
     "security-self-hosting",
+    "self-hosting",
     "sharing-2"
   ],
-  "primary_category": "providers",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (9/9).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (9/9)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "agi-is-going-to-arrive/memory-palace",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "AGI-is-going-to-arrive/Memory-Palace",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "self-hosted",
+        "skills-plugins"
+      ],
+      "star_ratio": 94.443,
+      "momentum_ratio": 176.0,
+      "setup_delta": -15,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (9/9)",
+        "94.44x the stars (29,844 vs 316)",
+        "176.00x the star velocity (35.2/day vs 0.2/day)",
+        "no harder to set up (32 vs 47 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "self-hosted",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 44,
+        "challenger_health": 71,
+        "incumbent_setup_score": 47,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

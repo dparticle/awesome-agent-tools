@@ -6,9 +6,9 @@
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
   "homepage": "https://orca.dev",
-  "stars": 103227,
-  "forks": 6520,
-  "open_issues": 8682,
+  "stars": 104250,
+  "forks": 6584,
+  "open_issues": 8676,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-10-23T09:22:32Z",
-  "pushed_at": "2026-10-23T09:22:27Z",
+  "updated_at": "2026-10-24T08:53:00Z",
+  "pushed_at": "2026-10-24T08:54:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 220,
+  "age_days": 221,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7442,
+    "stars_gained": 6884,
     "days_span": 5,
-    "stars_per_day": 1488.4,
-    "lifetime_stars_per_day": 469.21,
+    "stars_per_day": 1376.8,
+    "lifetime_stars_per_day": 471.72,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -176,13 +176,13 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-23T09:22:38+00:00",
+  "fetched_at": "2026-10-24T08:54:33+00:00",
   "categories": [
     "mobile-remote-control",
     "parallelism-isolation",
     "sharing"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",
