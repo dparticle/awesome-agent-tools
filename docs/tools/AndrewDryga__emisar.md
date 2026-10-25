@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 330 |
-| Star velocity | 2.1/day (lifetime basis, 158d span) |
+| Star velocity | 2.1/day (lifetime basis, 159d span) |
 | Health score | 52/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | Elixir |
 | Created | 2026-05-19 |
-| Last push | 2026-10-23 (0 days ago) |
+| Last push | 2026-10-23 (1 days ago) |
 | Analyzed README | 10,173 chars from `raw:HEAD/README.md` |
 
 ## What it solves

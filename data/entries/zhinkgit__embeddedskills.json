@@ -7,7 +7,7 @@
   "description": "An open-source collection of embedded development and debugging skills for Claude Code, Copilot, TRAE, and other AI coding assistants that support the Skill protocol. Once installed, the AI assistant can directly operate compilers, debuggers, and communication buses, automating the full workflow from code generation to hardware verification.",
   "homepage": "",
   "stars": 764,
-  "forks": 95,
+  "forks": 96,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -38,8 +38,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 196,
-  "days_since_push": 4,
+  "age_days": 197,
+  "days_since_push": 5,
   "health_score": 54,
   "health_components": {
     "popularity": 57.7,
@@ -53,7 +53,7 @@
     "stars_gained": 9,
     "days_span": 5,
     "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 3.9,
+    "lifetime_stars_per_day": 3.88,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:32+00:00",
+  "fetched_at": "2026-10-25T09:12:34+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

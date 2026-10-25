@@ -6,8 +6,8 @@
   "url": "https://github.com/michaelshimeles/skills",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1381,
-  "forks": 227,
+  "stars": 1382,
+  "forks": 228,
   "open_issues": 2,
   "language": "Python",
   "license": "",
@@ -22,27 +22,27 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-10-24T05:54:20Z",
+  "updated_at": "2026-10-24T22:05:11Z",
   "pushed_at": "2026-10-19T01:49:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 232,
-  "days_since_push": 5,
+  "age_days": 233,
+  "days_since_push": 6,
   "health_score": 56,
   "health_components": {
     "popularity": 62.8,
-    "momentum": 5.2,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 39.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 31,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 6.2,
-    "lifetime_stars_per_day": 5.95,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 5.93,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:22+00:00",
+  "fetched_at": "2026-10-25T09:12:18+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation"
@@ -157,14 +157,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 24.433,
-      "momentum_ratio": 3.581,
+      "star_ratio": 24.424,
+      "momentum_ratio": 4.083,
       "setup_delta": -20,
-      "dominance": 0.959,
+      "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "24.43x the stars (33,742 vs 1,381)",
-        "3.58x the star velocity (22.2/day vs 6.2/day)",
+        "24.42x the stars (33,754 vs 1,382)",
+        "4.08x the star velocity (19.6/day vs 4.8/day)",
         "no harder to set up (2 vs 22 friction)"
       ],
       "reasons_zh": [],
@@ -191,7 +191,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 72,
+        "challenger_health": 71,
         "incumbent_setup_score": 22,
         "challenger_setup_score": 2
       }

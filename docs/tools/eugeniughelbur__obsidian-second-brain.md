@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,870 |
-| Star velocity | 11.6/day (history basis, 5d span) |
-| Health score | 62/100 |
+| Stars | 4,887 |
+| Star velocity | 12.6/day (history basis, 5d span) |
+| Health score | 63/100 |
 | Documentation | 65/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-24 |
-| Last push | 2026-10-20 (3 days ago) |
-| Analyzed README | 77,665 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (12/12).
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 82,275 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -35,6 +33,14 @@
 ### Automatic failover
 
 > prefer hermes-4-405b (or Claude) for those.
+
+### Remote control
+
+> , which caps nothing); lower it to 5-10 when a tail of term-frequency matches pushes an exact match out of the top results (#262).
+
+### Mobile access
+
+> , which caps nothing); lower it to 5-10 when a tail of term-frequency matches pushes an exact match out of the top results (#262).
 
 ### Multi-agent orchestration
 
@@ -68,7 +74,7 @@
 
 ### Notifications
 
-> ht board with priority and due date
+> an exact match out of the top results (#262).
 
 ### Cross-agent support
 
@@ -111,7 +117,7 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 73.8 |
-| momentum | 9.7 |
+| momentum | 10.5 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 76.0 |

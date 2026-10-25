@@ -8,7 +8,7 @@
   "homepage": "https://dark-factory.techmeat.dev",
   "stars": 495,
   "forks": 64,
-  "open_issues": 2,
+  "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 171,
-  "days_since_push": 0,
+  "age_days": 172,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 53.9,
@@ -33,7 +33,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.89,
+    "lifetime_stars_per_day": 2.88,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -118,11 +118,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:39+00:00",
+  "fetched_at": "2026-10-25T09:12:48+00:00",
   "categories": [
-    "self-hosting"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

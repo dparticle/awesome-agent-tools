@@ -6,9 +6,9 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
   "homepage": "https://gilded-laurel-c7nj.here.now/",
-  "stars": 27614,
-  "forks": 2296,
-  "open_issues": 13,
+  "stars": 27634,
+  "forks": 2297,
+  "open_issues": 10,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "session-recovery"
   ],
   "created_at": "2026-01-03T07:37:28Z",
-  "updated_at": "2026-10-24T07:51:09Z",
-  "pushed_at": "2026-10-23T18:03:09Z",
+  "updated_at": "2026-10-25T08:47:23Z",
+  "pushed_at": "2026-10-24T17:24:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 294,
+  "age_days": 295,
   "days_since_push": 0,
   "health_score": 69,
   "health_components": {
     "popularity": 88.8,
-    "momentum": 14.3,
+    "momentum": 15.0,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 86,
+    "stars_gained": 90,
     "days_span": 5,
-    "stars_per_day": 17.2,
-    "lifetime_stars_per_day": 93.93,
+    "stars_per_day": 18.0,
+    "lifetime_stars_per_day": 93.67,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "OthmanAdi/planning-with-files",
-    "readme_chars": 107330,
+    "readme_chars": 107851,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -156,7 +156,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.345
+      "external_link_ratio": 0.343
     },
     "highlights": [
       "Host capability tiers: hard block on Claude Code, Codex, and Continue; follow-up injection on Cursor, Pi, Kiro, Hermes Agent, and OpenCode; notify-only elsewhere.",
@@ -173,11 +173,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:08+00:00",
+  "fetched_at": "2026-10-25T09:11:54+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation",
-    "security-self-hosting"
+    "sessions"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {

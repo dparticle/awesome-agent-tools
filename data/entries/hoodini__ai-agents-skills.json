@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 289,
-  "days_since_push": 0,
+  "age_days": 290,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 49.2,
@@ -147,11 +147,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:56+00:00",
+  "fetched_at": "2026-10-25T09:13:11+00:00",
   "categories": [
-    "billing",
     "desktop-ui",
-    "model-routing"
+    "model-routing",
+    "security-self-hosting"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

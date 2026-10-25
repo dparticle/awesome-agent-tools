@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,898 |
-| Star velocity | 171.2/day (history basis, 5d span) |
-| Health score | 87/100 |
-| Documentation | 78/100 |
+| Stars | 10,963 |
+| Star velocity | 115.0/day (history basis, 5d span) |
+| Health score | 86/100 |
+| Documentation | 79/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-07-08 |
-| Last push | 2026-10-24 (0 days ago) |
-| Analyzed README | 29,940 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-25 (0 days ago) |
+| Analyzed README | 30,195 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -91,13 +91,13 @@
 
 **Signals that add work:** docker run, make build
 
-**Configuration required:** config.json/yaml/toml, OAuth login flow, sign-in required, database dependency, database migration
+**Configuration required:** config.json/yaml/toml, OAuth login flow, sign-in required, database dependency, database migration, server/reverse-proxy setup
 
 *Easy. install via npx one-liner, pip install; needs docker run, make build; configure config.json/yaml/toml, OAuth login flow; one-click setup*
 
 ## Documentation quality
 
-Score **78/100**, based on these detected signals:
+Score **79/100**, based on these detected signals:
 
 - contains code blocks
 - has a task checklist
@@ -118,10 +118,10 @@ Score **78/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.7 |
-| momentum | 100.0 |
+| popularity | 80.8 |
+| momentum | 95.8 |
 | maintenance | 100.0 |
-| documentation | 78.0 |
+| documentation | 79.0 |
 | accessibility | 68.0 |
 
 ---

@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 248,
-  "days_since_push": 26,
+  "age_days": 249,
+  "days_since_push": 27,
   "health_score": 47,
   "health_components": {
     "popularity": 51.6,
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:48+00:00",
+  "fetched_at": "2026-10-25T09:13:00+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation"
@@ -144,15 +144,15 @@
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by bytedance/deer-flow: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 bytedance/deer-flow 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "bytedance/deer-flow",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "bytedance/deer-flow",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "bytedance/deer-flow",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -164,15 +164,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 221.992,
-      "momentum_ratio": 960.0,
-      "setup_delta": -15,
+      "star_ratio": 28.85,
+      "momentum_ratio": 2300.0,
+      "setup_delta": -40,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "221.99x the stars (84,357 vs 380)",
-        "960.00x the star velocity (48.0/day vs 0.0/day)",
-        "no harder to set up (57 vs 72 friction)"
+        "28.85x the stars (10,963 vs 380)",
+        "2300.00x the star velocity (115.0/day vs 0.0/day)",
+        "no harder to set up (32 vs 72 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -186,27 +186,24 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
           "self-hosted",
-          "session-persistence",
           "skills-plugins",
           "team-collaboration",
-          "usage-analytics",
-          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 47,
-        "challenger_health": 75,
+        "challenger_health": 86,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 32
       }
     }
   }

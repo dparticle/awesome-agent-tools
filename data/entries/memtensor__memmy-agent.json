@@ -6,9 +6,9 @@
   "url": "https://github.com/MemTensor/memmy-agent",
   "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
   "homepage": "https://memmy.bot",
-  "stars": 2137,
+  "stars": 2139,
   "forks": 211,
-  "open_issues": 57,
+  "open_issues": 60,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,29 +34,29 @@
     "tui"
   ],
   "created_at": "2026-07-16T07:57:45Z",
-  "updated_at": "2026-10-24T04:40:48Z",
+  "updated_at": "2026-10-25T04:06:14Z",
   "pushed_at": "2026-10-24T08:01:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 100,
-  "days_since_push": 0,
+  "age_days": 101,
+  "days_since_push": 1,
   "health_score": 56,
   "health_components": {
     "popularity": 66.6,
-    "momentum": 4.0,
+    "momentum": 3.2,
     "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 24,
+    "stars_gained": 19,
     "days_span": 5,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 21.37,
+    "stars_per_day": 3.8,
+    "lifetime_stars_per_day": 21.18,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "MemTensor/memmy-agent",
@@ -162,80 +162,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:17+00:00",
+  "fetched_at": "2026-10-25T09:12:10+00:00",
   "categories": [
     "desktop-ui-2",
     "model-routing",
-    "teams"
+    "security-self-hosting"
   ],
-  "primary_category": "teams",
+  "primary_category": "model-routing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "TencentCloud/Octop",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "memtensor/memmy-agent",
-      "challenger": "tencentcloud/octop",
-      "incumbent_name": "MemTensor/memmy-agent",
-      "challenger_name": "TencentCloud/Octop",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "team-collaboration"
-      ],
-      "star_ratio": 5.1,
-      "momentum_ratio": 35.667,
-      "setup_delta": -10,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "5.10x the stars (10,898 vs 2,137)",
-        "35.67x the star velocity (171.2/day vs 4.8/day)",
-        "no harder to set up (32 vs 42 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "team-collaboration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 56,
-        "challenger_health": 87,
-        "incumbent_setup_score": 42,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -6,9 +6,9 @@
   "url": "https://github.com/binance/binance-skills-hub",
   "description": "Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto",
   "homepage": "",
-  "stars": 1082,
-  "forks": 249,
-  "open_issues": 76,
+  "stars": 1081,
+  "forks": 252,
+  "open_issues": 80,
   "language": "Python",
   "license": "",
   "topics": [
@@ -18,27 +18,27 @@
     "skills"
   ],
   "created_at": "2026-03-03T08:15:46Z",
-  "updated_at": "2026-10-24T08:32:32Z",
-  "pushed_at": "2026-10-23T13:31:26Z",
+  "updated_at": "2026-10-25T05:10:47Z",
+  "pushed_at": "2026-10-25T05:10:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 235,
+  "age_days": 236,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 60.7,
-    "momentum": 2.3,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 34.0,
     "accessibility": 60.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 4.6,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 4.58,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -108,7 +108,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:26+00:00",
+  "fetched_at": "2026-10-25T09:12:25+00:00",
   "categories": [
     "desktop-ui"
   ],

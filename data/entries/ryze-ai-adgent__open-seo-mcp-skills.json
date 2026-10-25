@@ -6,8 +6,8 @@
   "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
   "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
   "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
-  "stars": 6904,
-  "forks": 380,
+  "stars": 7052,
+  "forks": 378,
   "open_issues": 4,
   "language": "Shell",
   "license": "MIT",
@@ -34,16 +34,16 @@
     "seo-mcp-server"
   ],
   "created_at": "2026-08-29T23:37:01Z",
-  "updated_at": "2026-10-24T08:54:12Z",
+  "updated_at": "2026-10-24T23:37:01Z",
   "pushed_at": "2026-10-23T09:50:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 55,
-  "days_since_push": 0,
+  "age_days": 56,
+  "days_since_push": 1,
   "health_score": 78,
   "health_components": {
-    "popularity": 76.8,
+    "popularity": 77.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 43.0,
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 816,
+    "stars_gained": 848,
     "days_span": 5,
-    "stars_per_day": 163.2,
-    "lifetime_stars_per_day": 125.53,
+    "stars_per_day": 169.6,
+    "lifetime_stars_per_day": 125.93,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,11 +133,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:44+00:00",
+  "fetched_at": "2026-10-25T09:11:17+00:00",
   "categories": [
-    "self-hosting"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
@@ -159,14 +159,14 @@
         "model-routing",
         "skills-plugins"
       ],
-      "star_ratio": 41.648,
-      "momentum_ratio": 4.858,
+      "star_ratio": 40.885,
+      "momentum_ratio": 4.65,
       "setup_delta": 7,
-      "dominance": 0.961,
+      "dominance": 0.956,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "41.65x the stars (287,539 vs 6,904)",
-        "4.86x the star velocity (792.8/day vs 163.2/day)",
+        "40.88x the stars (288,321 vs 7,052)",
+        "4.65x the star velocity (788.6/day vs 169.6/day)",
         "slightly heavier setup (+7 friction, within tolerance)"
       ],
       "reasons_zh": [],

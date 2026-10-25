@@ -13,13 +13,13 @@
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-06T12:39:33Z",
-  "updated_at": "2026-10-21T13:58:27Z",
-  "pushed_at": "2026-10-21T14:00:28Z",
+  "updated_at": "2026-10-25T08:53:11Z",
+  "pushed_at": "2026-10-25T08:55:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 259,
-  "days_since_push": 2,
+  "age_days": 260,
+  "days_since_push": 0,
   "health_score": 45,
   "health_components": {
     "popularity": 48.0,
@@ -33,13 +33,13 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 0.97,
+    "lifetime_stars_per_day": 0.96,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "isxlan0/Codex_AccountSwitch",
-    "readme_chars": 4144,
+    "readme_chars": 4221,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -106,7 +106,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.483
+      "external_link_ratio": 0.711
     },
     "highlights": [
       "Quota dashboard, auto-refresh (5H / 7D), low-quota alerts and switch prompts",
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:59+00:00",
+  "fetched_at": "2026-10-25T09:13:16+00:00",
   "categories": [
     "analytics-2",
     "sharing"

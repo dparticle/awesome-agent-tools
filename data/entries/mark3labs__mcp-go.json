@@ -6,20 +6,20 @@
   "url": "https://github.com/mark3labs/mcp-go",
   "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
   "homepage": "http://mcp-go.dev/",
-  "stars": 9183,
-  "forks": 911,
+  "stars": 9185,
+  "forks": 914,
   "open_issues": 16,
   "language": "Go",
   "license": "MIT",
   "topics": [],
   "created_at": "2024-11-27T12:38:33Z",
-  "updated_at": "2026-10-24T07:39:27Z",
+  "updated_at": "2026-10-25T04:02:01Z",
   "pushed_at": "2026-10-22T10:36:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 695,
-  "days_since_push": 1,
+  "age_days": 696,
+  "days_since_push": 2,
   "health_score": 58,
   "health_components": {
     "popularity": 79.3,
@@ -33,7 +33,7 @@
     "stars_gained": 9,
     "days_span": 5,
     "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 13.21,
+    "lifetime_stars_per_day": 13.2,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -115,11 +115,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:09+00:00",
+  "fetched_at": "2026-10-25T09:11:57+00:00",
   "categories": [
-    "self-hosting"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

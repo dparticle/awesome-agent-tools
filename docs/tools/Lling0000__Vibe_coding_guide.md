@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 239 |
-| Star velocity | 1.0/day (history basis, 5d span) |
+| Stars | 240 |
+| Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 41/100 |
 | Documentation | 48/100 |
 | Tier | 👀 Watchlist |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-05-05 |
-| Last push | 2026-06-25 (120 days ago) |
+| Last push | 2026-06-25 (121 days ago) |
 | Analyzed README | 5,843 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [first-fluke/oh-my-agent](https://github.com/first-fluke/oh-my-agent)** — Superseded by first-fluke/oh-my-agent: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -75,7 +75,7 @@ Score **48/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 47.6 |
-| momentum | 0.8 |
+| momentum | 1.0 |
 | maintenance | 55.0 |
 | documentation | 48.0 |
 | accessibility | 70.0 |

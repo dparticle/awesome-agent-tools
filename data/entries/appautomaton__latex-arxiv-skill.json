@@ -39,21 +39,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 584,
-  "days_since_push": 40,
+  "age_days": 585,
+  "days_since_push": 41,
   "health_score": 45,
   "health_components": {
     "popularity": 53.4,
-    "momentum": 0.5,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 43.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.8,
     "basis": "history",
     "is_fast_riser": false
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:41+00:00",
+  "fetched_at": "2026-10-25T09:12:50+00:00",
   "categories": [
     "desktop-ui",
     "model-routing"

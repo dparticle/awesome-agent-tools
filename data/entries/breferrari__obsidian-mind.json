@@ -6,7 +6,7 @@
   "url": "https://github.com/breferrari/obsidian-mind",
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
   "homepage": "",
-  "stars": 5419,
+  "stars": 5424,
   "forks": 612,
   "open_issues": 15,
   "language": "TypeScript",
@@ -24,13 +24,13 @@
     "template"
   ],
   "created_at": "2026-02-28T21:41:41Z",
-  "updated_at": "2026-10-24T02:46:47Z",
+  "updated_at": "2026-10-25T08:36:39Z",
   "pushed_at": "2026-10-17T23:34:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 237,
-  "days_since_push": 6,
+  "age_days": 238,
+  "days_since_push": 7,
   "health_score": 60,
   "health_components": {
     "popularity": 74.7,
@@ -44,7 +44,7 @@
     "stars_gained": 32,
     "days_span": 5,
     "stars_per_day": 6.4,
-    "lifetime_stars_per_day": 22.86,
+    "lifetime_stars_per_day": 22.79,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -162,74 +162,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:11+00:00",
+  "fetched_at": "2026-10-25T09:12:00+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
+    "failover",
     "security-self-hosting"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by DeusData/codebase-memory-mcp: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 DeusData/codebase-memory-mcp 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "DeusData/codebase-memory-mcp",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "breferrari/obsidian-mind",
-      "challenger": "deusdata/codebase-memory-mcp",
-      "incumbent_name": "breferrari/obsidian-mind",
-      "challenger_name": "DeusData/codebase-memory-mcp",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 8.742,
-      "momentum_ratio": 30.714,
-      "setup_delta": 6,
-      "dominance": 0.97,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "8.74x the stars (47,373 vs 5,419)",
-        "30.71x the star velocity (196.6/day vs 6.4/day)",
-        "slightly heavier setup (+6 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 60,
-        "challenger_health": 87,
-        "incumbent_setup_score": 58,
-        "challenger_setup_score": 64
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

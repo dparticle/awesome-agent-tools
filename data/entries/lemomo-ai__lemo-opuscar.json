@@ -6,8 +6,8 @@
   "url": "https://github.com/lemomo-ai/lemo-opuscar",
   "description": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的",
   "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
-  "stars": 6273,
-  "forks": 707,
+  "stars": 6859,
+  "forks": 771,
   "open_issues": 6,
   "language": "JavaScript",
   "license": "MIT",
@@ -34,16 +34,16 @@
     "webgl"
   ],
   "created_at": "2026-09-26T10:10:41Z",
-  "updated_at": "2026-10-24T08:52:20Z",
-  "pushed_at": "2026-10-22T07:07:05Z",
+  "updated_at": "2026-10-25T09:10:10Z",
+  "pushed_at": "2026-10-24T09:36:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 27,
-  "days_since_push": 2,
+  "age_days": 28,
+  "days_since_push": 0,
   "health_score": 82,
   "health_components": {
-    "popularity": 75.9,
+    "popularity": 76.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 55.0,
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2820,
+    "stars_gained": 2774,
     "days_span": 5,
-    "stars_per_day": 564.0,
-    "lifetime_stars_per_day": 232.33,
+    "stars_per_day": 554.8,
+    "lifetime_stars_per_day": 244.96,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:46+00:00",
+  "fetched_at": "2026-10-25T09:11:18+00:00",
   "categories": [
     "model-routing"
   ],

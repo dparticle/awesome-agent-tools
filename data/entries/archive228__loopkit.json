@@ -7,7 +7,7 @@
   "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
   "homepage": "",
   "stars": 755,
-  "forks": 123,
+  "forks": 124,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
-  "days_since_push": 101,
+  "age_days": 117,
+  "days_since_push": 102,
   "health_score": 45,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.51,
+    "lifetime_stars_per_day": 6.45,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:32+00:00",
+  "fetched_at": "2026-10-25T09:12:34+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -136,15 +136,15 @@
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
+    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "huytieu/COG-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "archive228/loopkit",
-      "challenger": "hoangsonww/claude-code-agent-monitor",
+      "challenger": "huytieu/cog-second-brain",
       "incumbent_name": "Archive228/loopkit",
-      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
+      "challenger_name": "huytieu/COG-second-brain",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -156,15 +156,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.473,
-      "momentum_ratio": 76.0,
-      "setup_delta": 11,
-      "dominance": 0.783,
+      "star_ratio": 1.744,
+      "momentum_ratio": 52.0,
+      "setup_delta": 12,
+      "dominance": 0.817,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.47x the stars (1,112 vs 755)",
-        "76.00x the star velocity (3.8/day vs 0.0/day)",
-        "slightly heavier setup (+11 friction, within tolerance)"
+        "1.74x the stars (1,317 vs 755)",
+        "52.00x the star velocity (2.6/day vs 0.0/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,15 +180,16 @@
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "session-persistence",
-          "skills-plugins"
+          "skills-plugins",
+          "team-collaboration"
         ],
         "incumbent_health": 45,
-        "challenger_health": 55,
+        "challenger_health": 57,
         "incumbent_setup_score": 19,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 31
       }
     }
   }

@@ -6,8 +6,8 @@
   "url": "https://github.com/asheshgoplani/agent-deck",
   "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
   "homepage": "https://discord.gg/e4xSs6NBN8",
-  "stars": 1154,
-  "forks": 208,
+  "stars": 1157,
+  "forks": 209,
   "open_issues": 13,
   "language": "Go",
   "license": "MIT",
@@ -32,35 +32,36 @@
     "tui"
   ],
   "created_at": "2025-12-03T17:08:12Z",
-  "updated_at": "2026-10-24T07:55:35Z",
-  "pushed_at": "2026-10-24T08:48:08Z",
+  "updated_at": "2026-10-25T04:11:48Z",
+  "pushed_at": "2026-10-25T04:11:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 324,
+  "age_days": 325,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
-    "popularity": 61.2,
-    "momentum": 6.2,
+    "popularity": 61.3,
+    "momentum": 5.0,
     "maintenance": 100.0,
     "documentation": 81.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 37,
+    "stars_gained": 30,
     "days_span": 5,
-    "stars_per_day": 7.4,
+    "stars_per_day": 6.0,
     "lifetime_stars_per_day": 3.56,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "asheshgoplani/agent-deck",
-    "readme_chars": 96303,
+    "readme_chars": 97213,
     "capabilities": [
       "multi-account-switching",
+      "quota-management",
       "auto-failover",
       "remote-control",
       "multi-agent-orchestration",
@@ -80,6 +81,7 @@
     ],
     "capability_evidence": {
       "multi-account-switching": "conductor/group/env chain), so a session can be created straight onto the right login.",
+      "quota-management": "nt-deck accounts --json) to list named slots",
       "auto-failover": "ctor's proactive /clear (clearoncompact) only arms on an established window — that variable, or a size the harness reported.",
       "remote-control": "account, and the session card's",
       "multi-agent-orchestration": "tion in iTerm2) to bypass it, or use the c / B / V / Y",
@@ -99,6 +101,7 @@
     },
     "capability_hits": {
       "multi-account-switching": 1,
+      "quota-management": 1,
       "auto-failover": 2,
       "remote-control": 4,
       "multi-agent-orchestration": 3,
@@ -190,7 +193,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.291
+      "external_link_ratio": 0.288
     },
     "highlights": [
       "Nothing is sent until you explicitly type y at the confirmation prompt.",
@@ -207,9 +210,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:26+00:00",
+  "fetched_at": "2026-10-25T09:12:23+00:00",
   "categories": [
-    "desktop-ui-2",
+    "failover",
     "parallelism-isolation",
     "security"
   ],

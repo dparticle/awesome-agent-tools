@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 470 |
-| Star velocity | 0.4/day (history basis, 5d span) |
+| Stars | 471 |
+| Star velocity | 0.6/day (history basis, 5d span) |
 | Health score | 56/100 |
-| Documentation | 59/100 |
+| Documentation | 56/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-27 |
 | Last push | 2026-10-24 (0 days ago) |
-| Analyzed README | 17,763 chars from `raw:HEAD/README.md` |
+| Analyzed README | 18,042 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -63,7 +63,7 @@
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **56/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -74,16 +74,15 @@ Score **59/100**, based on these detected signals:
 - mentions licensing
 - has a Chinese translation
 - publishes a roadmap
-- explains architecture
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.4 |
-| momentum | 0.3 |
+| popularity | 53.5 |
+| momentum | 0.5 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
+| documentation | 56.0 |
 | accessibility | 98.0 |
 
 ---

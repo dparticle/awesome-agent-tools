@@ -6,33 +6,33 @@
   "url": "https://github.com/jtydhr88/comfyui-custom-node-skills",
   "description": "A curated collection of [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code/skills) for developing ComfyUI custom nodes. These skills give Claude comprehensive knowledge of the ComfyUI node system, covering both the V3 (recommended) and V1 (legacy) APIs.",
   "homepage": "",
-  "stars": 306,
+  "stars": 307,
   "forks": 28,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-05T15:48:21Z",
-  "updated_at": "2026-10-22T15:48:04Z",
+  "updated_at": "2026-10-24T10:40:33Z",
   "pushed_at": "2026-10-17T01:10:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 232,
-  "days_since_push": 7,
-  "health_score": 45,
+  "age_days": 233,
+  "days_since_push": 8,
+  "health_score": 44,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 1.2,
-    "maintenance": 100.0,
+    "momentum": 1.0,
+    "maintenance": 92.0,
     "documentation": 32.0,
     "accessibility": 50.0
   },
-  "tier": "notable",
+  "tier": "watchlist",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.4,
+    "stars_per_day": 1.2,
     "lifetime_stars_per_day": 1.32,
     "basis": "history",
     "is_fast_riser": false
@@ -117,7 +117,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:53+00:00",
+  "fetched_at": "2026-10-25T09:13:08+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -125,15 +125,15 @@
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
+    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "jtydhr88/comfyui-custom-node-skills",
-      "challenger": "hoangsonww/claude-code-agent-monitor",
+      "challenger": "thedivergentai/game-dev-agentic-skills",
       "incumbent_name": "jtydhr88/comfyui-custom-node-skills",
-      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
+      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -144,15 +144,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 3.634,
-      "momentum_ratio": 2.714,
-      "setup_delta": -20,
-      "dominance": 0.924,
+      "star_ratio": 2.896,
+      "momentum_ratio": 3.167,
+      "setup_delta": -29,
+      "dominance": 0.935,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.63x the stars (1,112 vs 306)",
-        "2.71x the star velocity (3.8/day vs 1.4/day)",
-        "no harder to set up (30 vs 50 friction)"
+        "2.90x the stars (889 vs 307)",
+        "3.17x the star velocity (3.8/day vs 1.2/day)",
+        "no harder to set up (21 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -167,15 +167,15 @@
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
           "multi-agent-orchestration",
-          "notifications",
-          "session-persistence",
+          "parallel-execution",
           "skills-plugins"
         ],
-        "incumbent_health": 45,
-        "challenger_health": 55,
+        "incumbent_health": 44,
+        "challenger_health": 56,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 21
       }
     }
   }

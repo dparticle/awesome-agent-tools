@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "full_name": "Leonxlnx/earshot",
+  "name": "earshot",
+  "owner": "Leonxlnx",
+  "url": "https://github.com/Leonxlnx/earshot",
+  "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+  "homepage": "",
+  "stars": 2677,
+  "forks": 164,
+  "open_issues": 8,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "audio",
+    "claude-code",
+    "mcp",
+    "sound-design"
+  ],
+  "created_at": "2026-10-15T06:52:46Z",
+  "updated_at": "2026-10-25T09:05:21Z",
+  "pushed_at": "2026-10-22T23:12:59Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 10,
+  "days_since_push": 2,
+  "health_score": 78,
+  "health_components": {
+    "popularity": 68.6,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 57.0,
+    "accessibility": 48.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 2677,
+    "days_span": 10,
+    "stars_per_day": 267.7,
+    "lifetime_stars_per_day": 267.7,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Leonxlnx/earshot",
+    "readme_chars": 31703,
+    "capabilities": [
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "/skills/ (or a project's .claude/skills/).",
+      "agent-runtime": "",
+      "mcp-support": "one line on stderr (earshot : error: ..., exit 1).",
+      "notifications": "pes come as families of named characters: 34 motion-design categories (whooshes, swishes,"
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "agent-runtime": 2,
+      "mcp-support": 6,
+      "notifications": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 52,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "create a Python venv"
+      ],
+      "config_signals": [
+        "environment variables",
+        "config.json/yaml/toml",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via pip install; needs git clone (build from source), create a Python venv; configure environment variables, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 git clone (build from source)、create a Python venv；需配置 environment variables、config.json/yaml/toml"
+    },
+    "doc_score": 57,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Ears for coding agents.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.032
+    },
+    "highlights": [
+      "Real vs code-synthesized: held-out ROC-AUC 0.92 with whole sound families held out.",
+      "Listening through a soundtrack: 93% of the sound effects placed in a 60 s film mix are detected as events (89%",
+      "The launch preset (0.4) is for films cut to music.",
+      "Finding the moment: on a recording of 17 single key presses the found trims land on real key presses; in a"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-25T09:11:29+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

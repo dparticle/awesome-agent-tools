@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://agent-memory.dev",
-  "stars": 29844,
-  "forks": 2637,
-  "open_issues": 570,
+  "stars": 29874,
+  "forks": 2639,
+  "open_issues": 568,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -24,36 +24,39 @@
     "harness",
     "hermes",
     "memory",
-    "openclaw"
+    "omp",
+    "openclaw",
+    "opencode",
+    "pi"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-10-24T08:40:02Z",
-  "pushed_at": "2026-10-23T17:56:55Z",
+  "updated_at": "2026-10-25T08:52:32Z",
+  "pushed_at": "2026-10-25T08:51:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 241,
+  "age_days": 242,
   "days_since_push": 0,
   "health_score": 71,
   "health_components": {
     "popularity": 89.5,
-    "momentum": 29.3,
+    "momentum": 28.7,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 176,
+    "stars_gained": 172,
     "days_span": 5,
-    "stars_per_day": 35.2,
-    "lifetime_stars_per_day": 123.83,
+    "stars_per_day": 34.4,
+    "lifetime_stars_per_day": 123.45,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rohitg00/agentmemory",
-    "readme_chars": 129288,
+    "readme_chars": 129371,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -98,7 +101,7 @@
       "api-gateway": 1,
       "billing-metering": 1,
       "memory-context": 4,
-      "skills-plugins": 2,
+      "skills-plugins": 3,
       "agent-runtime": 4,
       "mcp-support": 70,
       "security-isolation": 2,
@@ -198,11 +201,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:07+00:00",
+  "fetched_at": "2026-10-25T09:11:54+00:00",
   "categories": [
     "desktop-ui",
-    "security-self-hosting",
-    "self-hosting"
+    "desktop-ui-2",
+    "security-self-hosting"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {

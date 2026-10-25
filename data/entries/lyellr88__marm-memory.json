@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 501,
-  "days_since_push": 0,
+  "age_days": 502,
+  "days_since_push": 1,
   "health_score": 54,
   "health_components": {
     "popularity": 52.5,
@@ -196,18 +196,91 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:44+00:00",
+  "fetched_at": "2026-10-25T09:12:56+00:00",
   "categories": [
     "model-routing",
     "security-self-hosting",
-    "self-hosting"
+    "sessions"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (12/12).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (12/12)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "lyellr88/marm-memory",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "Lyellr88/marm-memory",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "notifications",
+        "security-isolation",
+        "self-hosted",
+        "session-persistence"
+      ],
+      "star_ratio": 683.225,
+      "momentum_ratio": 15772.0,
+      "setup_delta": 9,
+      "dominance": 0.955,
+      "reasons": [
+        "covers 100% of capabilities (12/12)",
+        "683.23x the stars (288,321 vs 422)",
+        "15772.00x the star velocity (788.6/day vs 0.0/day)",
+        "slightly heavier setup (+9 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 54,
+        "challenger_health": 89,
+        "incumbent_setup_score": 48,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

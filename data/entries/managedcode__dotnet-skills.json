@@ -6,7 +6,7 @@
   "url": "https://github.com/managedcode/dotnet-skills",
   "description": "One of the largest .NET-focused skill collections for AI coding assistants, with a catalog, CLI, and orchestration agents for Codex, Claude Code, GitHub Copilot, Gemini, and Junie.",
   "homepage": "https://skills.managed-code.com",
-  "stars": 493,
+  "stars": 494,
   "forks": 38,
   "open_issues": 0,
   "language": "C#",
@@ -21,26 +21,26 @@
     "skills"
   ],
   "created_at": "2026-03-15T10:43:01Z",
-  "updated_at": "2026-10-24T04:44:10Z",
-  "pushed_at": "2026-10-24T08:30:09Z",
+  "updated_at": "2026-10-25T07:46:43Z",
+  "pushed_at": "2026-10-25T08:49:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 222,
+  "age_days": 223,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 53.9,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.8,
     "lifetime_stars_per_day": 2.22,
     "basis": "history",
     "is_fast_riser": false
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:40+00:00",
+  "fetched_at": "2026-10-25T09:12:48+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -162,14 +162,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.16,
-      "momentum_ratio": 2.0,
+      "star_ratio": 2.158,
+      "momentum_ratio": 1.5,
       "setup_delta": 12,
-      "dominance": 0.751,
+      "dominance": 0.715,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.16x the stars (1,065 vs 493)",
-        "2.00x the star velocity (1.2/day vs 0.6/day)",
+        "2.16x the stars (1,066 vs 494)",
+        "1.50x the star velocity (1.2/day vs 0.8/day)",
         "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],

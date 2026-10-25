@@ -6,9 +6,9 @@
   "url": "https://github.com/google-gemini/gemini-cli",
   "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
   "homepage": "https://geminicli.com",
-  "stars": 107574,
-  "forks": 14775,
-  "open_issues": 752,
+  "stars": 108312,
+  "forks": 14826,
+  "open_issues": 763,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -21,27 +21,27 @@
     "mcp-server"
   ],
   "created_at": "2025-04-17T17:04:31Z",
-  "updated_at": "2026-10-24T08:43:10Z",
-  "pushed_at": "2026-10-24T01:15:52Z",
+  "updated_at": "2026-10-25T09:10:53Z",
+  "pushed_at": "2026-10-25T01:31:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 554,
+  "age_days": 555,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 91,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 21.2,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 66.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 127,
+    "stars_gained": 849,
     "days_span": 5,
-    "stars_per_day": 25.4,
-    "lifetime_stars_per_day": 194.18,
+    "stars_per_day": 169.8,
+    "lifetime_stars_per_day": 195.16,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -144,74 +144,18 @@
     "seed_reason": "Gemini's terminal agent, generous free tier.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-24T08:54:36+00:00",
+  "fetched_at": "2026-10-25T09:11:02+00:00",
   "categories": [
-    "billing"
+    "billing",
+    "failover",
+    "sessions"
   ],
   "primary_category": "billing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by farion1231/cc-switch: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 farion1231/cc-switch 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "farion1231/cc-switch",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "google-gemini/gemini-cli",
-      "challenger": "farion1231/cc-switch",
-      "incumbent_name": "google-gemini/gemini-cli",
-      "challenger_name": "farion1231/cc-switch",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "billing-metering",
-        "mcp-support",
-        "model-routing",
-        "session-persistence",
-        "skills-plugins",
-        "usage-analytics"
-      ],
-      "star_ratio": 1.377,
-      "momentum_ratio": 15.748,
-      "setup_delta": -11,
-      "dominance": 0.823,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "1.38x the stars (148,171 vs 107,574)",
-        "15.75x the star velocity (400.0/day vs 25.4/day)",
-        "no harder to set up (23 vs 34 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "billing-metering",
-          "mcp-support",
-          "model-routing",
-          "session-persistence",
-          "skills-plugins",
-          "usage-analytics"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "multi-account-switching",
-          "parallel-execution",
-          "provider-aggregation",
-          "session-persistence",
-          "skills-plugins",
-          "usage-analytics"
-        ],
-        "incumbent_health": 72,
-        "challenger_health": 93,
-        "incumbent_setup_score": 34,
-        "challenger_setup_score": 23
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

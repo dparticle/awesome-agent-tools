@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,014 |
-| Star velocity | 3.6/day (history basis, 5d span) |
+| Stars | 4,017 |
+| Star velocity | 3.4/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 34/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-10-23 (0 days ago) |
+| Last push | 2026-10-24 (0 days ago) |
 | Analyzed README | 8,664 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** — Superseded by omnigent-ai/omnigent: covers 100% of capabilities (9/9).
@@ -86,7 +86,7 @@ Score **34/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 72.1 |
-| momentum | 3.0 |
+| momentum | 2.8 |
 | maintenance | 100.0 |
 | documentation | 34.0 |
 | accessibility | 67.0 |

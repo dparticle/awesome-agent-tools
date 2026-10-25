@@ -8,7 +8,7 @@
   "homepage": "https://cockpit.jacobmoura.work",
   "stars": 467,
   "forks": 140,
-  "open_issues": 83,
+  "open_issues": 84,
   "language": "Dart",
   "license": "MIT",
   "topics": [
@@ -26,22 +26,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 155,
-  "days_since_push": 4,
+  "age_days": 156,
+  "days_since_push": 5,
   "health_score": 50,
   "health_components": {
     "popularity": 53.4,
-    "momentum": 0.8,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 3.01,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 2.99,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -119,17 +119,73 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:41+00:00",
+  "fetched_at": "2026-10-25T09:12:50+00:00",
   "categories": [
     "desktop-ui",
     "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 omnigent-ai/omnigent 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "omnigent-ai/omnigent",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "jacobaraujo7/remote_pi",
+      "challenger": "omnigent-ai/omnigent",
+      "incumbent_name": "jacobaraujo7/remote_pi",
+      "challenger_name": "omnigent-ai/omnigent",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "mobile-access",
+        "multi-agent-orchestration",
+        "remote-control",
+        "self-hosted"
+      ],
+      "star_ratio": 23.617,
+      "momentum_ratio": 38.0,
+      "setup_delta": -11,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "23.62x the stars (11,029 vs 467)",
+        "38.00x the star velocity (22.8/day vs 0.6/day)",
+        "no harder to set up (25 vs 36 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "remote-control",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "self-hosted",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 50,
+        "challenger_health": 68,
+        "incumbent_setup_score": 36,
+        "challenger_setup_score": 25
+      }
+    }
   }
 }

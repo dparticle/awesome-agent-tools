@@ -6,40 +6,40 @@
   "url": "https://github.com/kunchenguid/firstmate",
   "description": "Talk to one agent. Ship with a crew.",
   "homepage": "",
-  "stars": 8276,
-  "forks": 2631,
-  "open_issues": 2475,
+  "stars": 8297,
+  "forks": 2641,
+  "open_issues": 2483,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-12T03:21:10Z",
-  "updated_at": "2026-10-24T08:53:17Z",
-  "pushed_at": "2026-10-24T06:20:06Z",
+  "updated_at": "2026-10-25T08:59:18Z",
+  "pushed_at": "2026-10-25T06:22:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 134,
+  "age_days": 135,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
     "popularity": 78.4,
-    "momentum": 36.8,
+    "momentum": 36.2,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 221,
+    "stars_gained": 217,
     "days_span": 5,
-    "stars_per_day": 44.2,
-    "lifetime_stars_per_day": 61.76,
+    "stars_per_day": 43.4,
+    "lifetime_stars_per_day": 61.46,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kunchenguid/firstmate",
-    "readme_chars": 21863,
+    "readme_chars": 22001,
     "capabilities": [
       "auto-failover",
       "parallel-execution",
@@ -49,8 +49,8 @@
     ],
     "capability_evidence": {
       "auto-failover": "ap visible session events since the prior real captain message plus visibly unanswered captain decisions, then guide the captain through any open decisions one at a time in agent-judged impact order; fall back to Bearin…",
-      "parallel-execution": "ental Orca terminal you can watch or type into; the first mate reconciles.",
-      "worktree-isolation": "s in its own tmux window or Herdr tab, or in an experimental Zellij tab, experimental cmux workspace, or experimental Orca terminal you can watch or type into; the first mate reconciles.",
+      "parallel-execution": "T3 Code thread you can watch or interact with; the first mate reconciles.",
+      "worktree-isolation": "tab, or in an experimental Zellij tab, experimental cmux workspace, experimental Orca terminal, or experimental T3 Code thread you can watch or interact with; the first mate reconciles.",
       "agent-runtime": "ate conventions that turns a general-purpose agent into a specialized one.",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:43+00:00",
+  "fetched_at": "2026-10-25T09:11:15+00:00",
   "categories": [
     "parallelism-isolation"
   ],

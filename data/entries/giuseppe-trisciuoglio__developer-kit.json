@@ -6,7 +6,7 @@
   "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
   "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
   "homepage": "",
-  "stars": 362,
+  "stars": 363,
   "forks": 41,
   "open_issues": 17,
   "language": "Python",
@@ -31,26 +31,26 @@
     "typescript"
   ],
   "created_at": "2025-10-21T08:08:21Z",
-  "updated_at": "2026-10-24T02:24:38Z",
+  "updated_at": "2026-10-25T00:43:17Z",
   "pushed_at": "2026-09-10T11:05:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 368,
-  "days_since_push": 43,
+  "age_days": 369,
+  "days_since_push": 44,
   "health_score": 44,
   "health_components": {
     "popularity": 51.2,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 78.0,
     "documentation": 59.0,
     "accessibility": 34.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 0.98,
     "basis": "history",
     "is_fast_riser": false
@@ -147,22 +147,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:49+00:00",
+  "fetched_at": "2026-10-25T09:13:02+00:00",
   "categories": [
     "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
+    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "huytieu/COG-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "giuseppe-trisciuoglio/developer-kit",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
+      "challenger": "huytieu/cog-second-brain",
       "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
+      "challenger_name": "huytieu/COG-second-brain",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -174,15 +174,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.45,
-      "momentum_ratio": 9.0,
-      "setup_delta": -45,
-      "dominance": 0.954,
+      "star_ratio": 3.628,
+      "momentum_ratio": 4.333,
+      "setup_delta": -35,
+      "dominance": 0.982,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.45x the stars (887 vs 362)",
-        "9.00x the star velocity (3.6/day vs 0.4/day)",
-        "no harder to set up (21 vs 66 friction)"
+        "3.63x the stars (1,317 vs 363)",
+        "4.33x the star velocity (2.6/day vs 0.6/day)",
+        "no harder to set up (31 vs 66 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -199,14 +199,15 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins"
+          "skills-plugins",
+          "team-collaboration"
         ],
         "incumbent_health": 44,
-        "challenger_health": 58,
+        "challenger_health": 57,
         "incumbent_setup_score": 66,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 31
       }
     }
   }

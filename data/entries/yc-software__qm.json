@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15520,
-  "forks": 1923,
-  "open_issues": 1019,
+  "stars": 15533,
+  "forks": 1927,
+  "open_issues": 1039,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,27 +18,27 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-10-24T08:12:05Z",
-  "pushed_at": "2026-10-24T00:39:27Z",
+  "updated_at": "2026-10-25T04:49:00Z",
+  "pushed_at": "2026-10-25T01:41:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 86,
+  "age_days": 87,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 83.8,
-    "momentum": 12.5,
+    "momentum": 13.0,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 75,
+    "stars_gained": 78,
     "days_span": 5,
-    "stars_per_day": 15.0,
-    "lifetime_stars_per_day": 180.47,
+    "stars_per_day": 15.6,
+    "lifetime_stars_per_day": 178.54,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -144,18 +144,88 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:38+00:00",
+  "fetched_at": "2026-10-25T09:11:06+00:00",
   "categories": [
-    "model-routing",
+    "parallelism-isolation",
     "security",
-    "teams"
+    "sessions"
   ],
-  "primary_category": "teams",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (10/10)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "yc-software/qm",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "yc-software/qm",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "model-routing",
+        "notifications",
+        "security-isolation",
+        "session-persistence",
+        "skills-plugins",
+        "team-collaboration",
+        "worktree-isolation"
+      ],
+      "star_ratio": 6.894,
+      "momentum_ratio": 27.244,
+      "setup_delta": -27,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (10/10)",
+        "6.89x the stars (107,081 vs 15,533)",
+        "27.24x the star velocity (425.0/day vs 15.6/day)",
+        "no harder to set up (45 vs 72 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "model-routing",
+          "notifications",
+          "security-isolation",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 58,
+        "challenger_health": 89,
+        "incumbent_setup_score": 72,
+        "challenger_setup_score": 45
+      }
+    }
   }
 }

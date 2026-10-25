@@ -19,16 +19,16 @@
   ],
   "created_at": "2026-06-23T12:41:42Z",
   "updated_at": "2026-10-24T07:21:59Z",
-  "pushed_at": "2026-10-24T08:48:32Z",
+  "pushed_at": "2026-10-24T14:39:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 122,
+  "age_days": 123,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 52.7,
-    "momentum": 3.0,
+    "momentum": 2.9,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 70.0
@@ -36,9 +36,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 433,
-    "days_span": 122,
-    "stars_per_day": 3.55,
-    "lifetime_stars_per_day": 3.55,
+    "days_span": 123,
+    "stars_per_day": 3.52,
+    "lifetime_stars_per_day": 3.52,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -149,13 +149,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:43+00:00",
+  "fetched_at": "2026-10-25T09:12:54+00:00",
   "categories": [
-    "desktop-ui",
     "desktop-ui-2",
-    "teams"
+    "parallelism-isolation",
+    "sessions"
   ],
-  "primary_category": "teams",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

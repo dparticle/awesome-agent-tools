@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 10898,
-  "forks": 1398,
-  "open_issues": 790,
+  "stars": 10963,
+  "forks": 1412,
+  "open_issues": 781,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-10-24T08:47:28Z",
-  "pushed_at": "2026-10-24T01:08:57Z",
+  "updated_at": "2026-10-25T08:44:12Z",
+  "pushed_at": "2026-10-25T03:38:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 107,
+  "age_days": 108,
   "days_since_push": 0,
-  "health_score": 87,
+  "health_score": 86,
   "health_components": {
-    "popularity": 80.7,
-    "momentum": 100.0,
+    "popularity": 80.8,
+    "momentum": 95.8,
     "maintenance": 100.0,
-    "documentation": 78.0,
+    "documentation": 79.0,
     "accessibility": 68.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 856,
+    "stars_gained": 575,
     "days_span": 5,
-    "stars_per_day": 171.2,
-    "lifetime_stars_per_day": 101.85,
+    "stars_per_day": 115.0,
+    "lifetime_stars_per_day": 101.51,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "TencentCloud/Octop",
-    "readme_chars": 29940,
+    "readme_chars": 30195,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -120,7 +120,8 @@
         "OAuth login flow",
         "sign-in required",
         "database dependency",
-        "database migration"
+        "database migration",
+        "server/reverse-proxy setup"
       ],
       "friendliness_signals": [
         "one-click setup",
@@ -135,7 +136,7 @@
       "note_en": "Easy. install via npx one-liner, pip install; needs docker run, make build; configure config.json/yaml/toml, OAuth login flow; one-click setup",
       "note_zh": "较易上手。可通过 npx one-liner、pip install 安装；需要 docker run、make build；需配置 config.json/yaml/toml、OAuth login flow；one-click setup"
     },
-    "doc_score": 78,
+    "doc_score": 79,
     "doc_signals": [
       "contains code blocks",
       "has a task checklist",
@@ -167,7 +168,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.534
+      "external_link_ratio": 0.53
     },
     "highlights": [
       "Desktop client — native apps for Windows / macOS / Linux; FnOS packages for NAS",
@@ -189,13 +190,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:41+00:00",
+  "fetched_at": "2026-10-25T09:11:11+00:00",
   "categories": [
     "desktop-ui-2",
-    "self-hosting",
-    "teams"
+    "parallelism-isolation",
+    "security-self-hosting"
   ],
-  "primary_category": "teams",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

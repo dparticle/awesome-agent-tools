@@ -6,9 +6,9 @@
   "url": "https://github.com/Wei-Shaw/sub2api",
   "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
   "homepage": "",
-  "stars": 44732,
-  "forks": 9608,
-  "open_issues": 3710,
+  "stars": 44795,
+  "forks": 9626,
+  "open_issues": 3716,
   "language": "Go",
   "license": "LGPL-3.0",
   "topics": [
@@ -23,27 +23,27 @@
     "gemini"
   ],
   "created_at": "2025-12-18T02:26:18Z",
-  "updated_at": "2026-10-24T08:48:45Z",
-  "pushed_at": "2026-10-24T02:12:38Z",
+  "updated_at": "2026-10-25T08:41:43Z",
+  "pushed_at": "2026-10-25T05:48:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 310,
+  "age_days": 311,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
     "popularity": 93.0,
-    "momentum": 63.7,
+    "momentum": 61.5,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 382,
+    "stars_gained": 369,
     "days_span": 5,
-    "stars_per_day": 76.4,
-    "lifetime_stars_per_day": 144.3,
+    "stars_per_day": 73.8,
+    "lifetime_stars_per_day": 144.04,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -157,8 +157,8 @@
     },
     "highlights": [
       "Public Responses targets: /v1/responses, /responses, and /backend-api/codex/responses, forwarded to the Grok subscription proxy for OAuth accounts or https://api.x.ai/v1/responses for API-k…",
-      "Multi-Account Management - Support multiple upstream account types (OAuth, API Key)",
       "Rate Limiting - Configurable request and token rate limits",
+      "Multi-Account Management - Support multiple upstream account types (OAuth, API Key)",
       "API Key Distribution - Generate and manage API Keys for users"
     ],
     "summary_zh_native": "AI API 网关平台 - 订阅配额分发管理",
@@ -175,7 +175,7 @@
     "seed_reason": "Turn upstream AI subscriptions into a metered, rate-limited, billable relay.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-24T08:54:35+00:00",
+  "fetched_at": "2026-10-25T09:10:59+00:00",
   "categories": [
     "billing",
     "security",

@@ -6,8 +6,8 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13714,
-  "forks": 1444,
+  "stars": 13720,
+  "forks": 1445,
   "open_issues": 1158,
   "language": "TypeScript",
   "license": "MIT",
@@ -19,27 +19,27 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-24T08:19:37Z",
+  "updated_at": "2026-10-25T08:54:46Z",
   "pushed_at": "2026-10-23T06:07:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
-  "days_since_push": 1,
-  "health_score": 63,
+  "age_days": 136,
+  "days_since_push": 2,
+  "health_score": 64,
   "health_components": {
     "popularity": 82.7,
-    "momentum": 3.8,
+    "momentum": 4.7,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 23,
+    "stars_gained": 28,
     "days_span": 5,
-    "stars_per_day": 4.6,
-    "lifetime_stars_per_day": 101.59,
+    "stars_per_day": 5.6,
+    "lifetime_stars_per_day": 100.88,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -165,8 +165,8 @@
     "highlights_zh": [
       "计费档位。 OpenAI 对 GPT-5.6 超过 272K input 的请求按 2x input、1.5x output 计费，且作用于整个请求。",
       "让长任务成本可控：标准与旗舰模型自动路由，局部编辑只修改需要的部分；同会话缓存命中率最高 99%，跨会话最高 95%。",
-      "@ai-sdk/openai-compatible 适用于 OpenAI 兼容 API；使用其他通信协议的服务需要对应 Provider 的专用适配器。",
-      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。"
+      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。",
+      "自定义 Provider — TUI 内添加任意 OpenAI 兼容 API"
     ],
     "chinese_readme": "README.zh.md"
   },
@@ -175,10 +175,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:39+00:00",
+  "fetched_at": "2026-10-25T09:11:08+00:00",
   "categories": [
-    "desktop-ui-2",
-    "self-hosting",
+    "security-self-hosting",
+    "sessions",
     "voice"
   ],
   "primary_category": "voice",

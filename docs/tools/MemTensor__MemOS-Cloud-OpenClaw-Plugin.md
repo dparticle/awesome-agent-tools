@@ -17,14 +17,12 @@
 | Health score | 44/100 |
 | Documentation | 38/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-02 |
-| Last push | 2026-09-23 (31 days ago) |
+| Last push | 2026-09-23 (32 days ago) |
 | Analyzed README | 14,445 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -6,7 +6,7 @@
   "url": "https://github.com/Socialpranker/deepdive",
   "description": "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints.",
   "homepage": "https://socialpranker.github.io/deepdive/",
-  "stars": 370,
+  "stars": 368,
   "forks": 3,
   "open_issues": 1,
   "language": "Python",
@@ -29,16 +29,16 @@
     "research-methodology"
   ],
   "created_at": "2026-05-21T11:43:13Z",
-  "updated_at": "2026-10-24T08:39:59Z",
-  "pushed_at": "2026-10-18T07:48:40Z",
+  "updated_at": "2026-10-24T15:38:59Z",
+  "pushed_at": "2026-10-25T08:08:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 155,
-  "days_since_push": 6,
+  "age_days": 156,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
-    "popularity": 51.4,
+    "popularity": 51.3,
     "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 72.0,
@@ -46,10 +46,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 370,
-    "days_span": 155,
-    "stars_per_day": 2.39,
-    "lifetime_stars_per_day": 2.39,
+    "stars_gained": 368,
+    "days_span": 156,
+    "stars_per_day": 2.36,
+    "lifetime_stars_per_day": 2.36,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -136,16 +136,67 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:49+00:00",
+  "fetched_at": "2026-10-25T09:13:02+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "sessions"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "huytieu/COG-second-brain",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "socialpranker/deepdive",
+      "challenger": "huytieu/cog-second-brain",
+      "incumbent_name": "Socialpranker/deepdive",
+      "challenger_name": "huytieu/COG-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "model-routing",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 3.579,
+      "momentum_ratio": 1.102,
+      "setup_delta": -20,
+      "dominance": 0.812,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "3.58x the stars (1,317 vs 368)",
+        "1.10x the star velocity (2.6/day vs 2.4/day)",
+        "no harder to set up (31 vs 51 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 57,
+        "incumbent_setup_score": 51,
+        "challenger_setup_score": 31
+      }
+    }
   }
 }

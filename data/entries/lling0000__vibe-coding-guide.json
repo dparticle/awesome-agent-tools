@@ -6,7 +6,7 @@
   "url": "https://github.com/Lling0000/Vibe_coding_guide",
   "description": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
   "homepage": "https://lling0000.github.io/Vibe_coding_guide/",
-  "stars": 239,
+  "stars": 240,
   "forks": 23,
   "open_issues": 4,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "worktree"
   ],
   "created_at": "2026-05-05T14:19:27Z",
-  "updated_at": "2026-10-24T08:32:32Z",
+  "updated_at": "2026-10-24T12:49:00Z",
   "pushed_at": "2026-06-25T15:20:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 171,
-  "days_since_push": 120,
+  "age_days": 172,
+  "days_since_push": 121,
   "health_score": 41,
   "health_components": {
     "popularity": 47.6,
-    "momentum": 0.8,
+    "momentum": 1.0,
     "maintenance": 55.0,
     "documentation": 48.0,
     "accessibility": 70.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.0,
+    "stars_per_day": 1.2,
     "lifetime_stars_per_day": 1.4,
     "basis": "history",
     "is_fast_riser": false
@@ -150,27 +150,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:56:00+00:00",
+  "fetched_at": "2026-10-25T09:13:18+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "parallelism-isolation"
+    "parallelism-isolation",
+    "security-self-hosting"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by first-fluke/oh-my-agent: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 first-fluke/oh-my-agent 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "first-fluke/oh-my-agent",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "lling0000/vibe_coding_guide",
-      "challenger": "first-fluke/oh-my-agent",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "Lling0000/Vibe_coding_guide",
-      "challenger_name": "first-fluke/oh-my-agent",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -180,15 +180,15 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 5.665,
-      "momentum_ratio": 1.6,
-      "setup_delta": 0,
-      "dominance": 0.858,
+      "star_ratio": 45.679,
+      "momentum_ratio": 95.833,
+      "setup_delta": 2,
+      "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.67x the stars (1,354 vs 239)",
-        "1.60x the star velocity (1.6/day vs 1.0/day)",
-        "no harder to set up (30 vs 30 friction)"
+        "45.68x the stars (10,963 vs 240)",
+        "95.83x the star velocity (115.0/day vs 1.2/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -203,6 +203,7 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -211,16 +212,15 @@
           "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
-          "quota-management",
-          "remote-control",
-          "session-persistence",
+          "self-hosted",
           "skills-plugins",
+          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 41,
-        "challenger_health": 57,
+        "challenger_health": 86,
         "incumbent_setup_score": 30,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 32
       }
     }
   }

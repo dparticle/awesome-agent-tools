@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 543 |
-| Star velocity | 20.8/day (history basis, 5d span) |
+| Star velocity | 10.0/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 62/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-26 |
-| Last push | 2026-09-26 (28 days ago) |
-| Analyzed README | 10,366 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 10,481 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,16 +38,16 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 25/100)
+- **Difficulty:** 🟢 Turnkey (friction score 16/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `pipx install git+https://github.com/graygnatconsole/mcp-audit-tool.git`
 
 **Signals that make it easy:** pip install, native installer / package
 
-**Signals that add work:** git clone (build from source), npm install/build
+**Signals that add work:** git clone (build from source)
 
-*Easy. install via pip install, native installer / package; needs git clone (build from source), npm install/build*
+*Turnkey. install via pip install, native installer / package; needs git clone (build from source)*
 
 ## Documentation quality
 
@@ -69,10 +69,10 @@ Score **62/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.7 |
-| momentum | 17.3 |
-| maintenance | 92.0 |
+| momentum | 8.3 |
+| maintenance | 100.0 |
 | documentation | 62.0 |
-| accessibility | 75.0 |
+| accessibility | 84.0 |
 
 ---
 

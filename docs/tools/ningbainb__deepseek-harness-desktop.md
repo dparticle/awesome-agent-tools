@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 857 |
-| Star velocity | 3.2/day (history basis, 5d span) |
-| Health score | 54/100 |
+| Stars | 860 |
+| Star velocity | 2.4/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 43/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | BSD-3-Clause |
 | Language | JavaScript |
 | Created | 2026-08-13 |
-| Last push | 2026-10-06 (17 days ago) |
-| Analyzed README | 13,188 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-25 (0 days ago) |
+| Analyzed README | 14,004 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Workspace isolation
 
-> g 或 .zip 后把应用放到 /Applications，用 xattr 去掉隔离属性；macOS 15 起没有「右键打开」。
+> le Silicon arm64、macOS 13 Ventura 及以上，macOS/Linux 保持 Preview。
 
 ### Model / provider routing
 
@@ -86,15 +86,15 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 15/100)
+- **Difficulty:** 🟢 Turnkey (friction score 8/100)
 - **Out of the box:** yes
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 
 **Signals that make it easy:** native installer / package
 
 **Configuration required:** OAuth login flow
 
-*Turnkey. install via native installer / package; configure OAuth login flow; Chinese: beginner/one-click framing*
+*Turnkey. install via native installer / package; configure OAuth login flow; GUI application*
 
 ## Documentation quality
 
@@ -114,10 +114,10 @@ Score **43/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 58.7 |
-| momentum | 2.7 |
-| maintenance | 92.0 |
+| momentum | 2.0 |
+| maintenance | 100.0 |
 | documentation | 43.0 |
-| accessibility | 97.0 |
+| accessibility | 100.0 |
 
 ---
 

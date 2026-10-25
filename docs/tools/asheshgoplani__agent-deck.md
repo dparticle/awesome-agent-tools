@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,154 |
-| Star velocity | 7.4/day (history basis, 5d span) |
+| Stars | 1,157 |
+| Star velocity | 6.0/day (history basis, 5d span) |
 | Health score | 58/100 |
 | Documentation | 81/100 |
 | Tier | 🔹 Notable |
@@ -21,14 +21,18 @@
 | License | MIT |
 | Language | Go |
 | Created | 2025-12-03 |
-| Last push | 2026-10-24 (0 days ago) |
-| Analyzed README | 96,303 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-25 (0 days ago) |
+| Analyzed README | 97,213 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
 > conductor/group/env chain), so a session can be created straight onto the right login.
+
+### Quota & usage management
+
+> nt-deck accounts --json) to list named slots
 
 ### Automatic failover
 
@@ -128,8 +132,8 @@ Score **81/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 61.2 |
-| momentum | 6.2 |
+| popularity | 61.3 |
+| momentum | 5.0 |
 | maintenance | 100.0 |
 | documentation | 81.0 |
 | accessibility | 52.0 |

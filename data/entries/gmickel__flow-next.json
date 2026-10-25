@@ -6,9 +6,9 @@
   "url": "https://github.com/gmickel/flow-next",
   "description": "Faster than your agent alone. And better. A workflow plugin that takes a bug, idea or ticket to a verified pull request: specs, cross-model review by risk, live QA, receipts in your repo. Claude Code · Codex · Cursor · Droid · Grok Build · OpenCode · Muse Code.",
   "homepage": "https://flow-next.dev",
-  "stars": 711,
+  "stars": 712,
   "forks": 61,
-  "open_issues": 14,
+  "open_issues": 15,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "workflow"
   ],
   "created_at": "2025-12-26T22:27:07Z",
-  "updated_at": "2026-10-23T23:09:12Z",
-  "pushed_at": "2026-10-19T21:21:07Z",
+  "updated_at": "2026-10-25T06:36:20Z",
+  "pushed_at": "2026-10-24T12:33:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 301,
-  "days_since_push": 4,
+  "age_days": 302,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 57.0,
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:33+00:00",
+  "fetched_at": "2026-10-25T09:12:36+00:00",
   "categories": [
     "model-routing"
   ],

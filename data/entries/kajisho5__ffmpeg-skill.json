@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "full_name": "kajisho5/ffmpeg-skill",
+  "name": "ffmpeg-skill",
+  "owner": "kajisho5",
+  "url": "https://github.com/kajisho5/ffmpeg-skill",
+  "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+  "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
+  "stars": 2670,
+  "forks": 195,
+  "open_issues": 2,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "audio-processing",
+    "captions",
+    "claude-code",
+    "codex",
+    "coding-agent",
+    "cursor",
+    "ffmpeg",
+    "loudness-normalization",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "python",
+    "subtitles",
+    "transcoding",
+    "video",
+    "video-editing",
+    "video-processing",
+    "whisper"
+  ],
+  "created_at": "2026-09-03T14:33:38Z",
+  "updated_at": "2026-10-25T08:58:22Z",
+  "pushed_at": "2026-10-25T06:29:32Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 51,
+  "days_since_push": 0,
+  "health_score": 73,
+  "health_components": {
+    "popularity": 68.5,
+    "momentum": 43.6,
+    "maintenance": 100.0,
+    "documentation": 68.0,
+    "accessibility": 100.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 2670,
+    "days_span": 51,
+    "stars_per_day": 52.35,
+    "lifetime_stars_per_day": 52.35,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "kajisho5/ffmpeg-skill",
+    "readme_chars": 89523,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "api-gateway",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "It falls back to the CPU encoder — reported in the result's hw.fallback/hw.notes — only when VideoToolbox itself refuses a job (any other ffmpeg failure is reported as it happened, not retried); every result names th",
+      "multi-agent-orchestration": "contract and the test suite (tests/testcontract.py,",
+      "api-gateway": "GB source is converted to BT.709, not relabelled); --normalize meets the platform's loudness in the same call (render.py turns it on by default for platform presets)",
+      "skills-plugins": "dry-run support, the verification tools to run afterwards, whether a visual check is required, mutatesinput: false.",
+      "agent-runtime": "Give your coding agent a video editor.",
+      "mcp-support": "Give your coding agent a video editor.",
+      "security-isolation": "re recorded in diagnostics and on stderr (codes: jsonoutput.diagnosticcodes); tools that draw text name the font they drew with (fontused).",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 2,
+      "api-gateway": 1,
+      "skills-plugins": 2,
+      "agent-runtime": 1,
+      "mcp-support": 21,
+      "security-isolation": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 0,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "Homebrew install",
+        "winget install",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "note_en": "Turnkey. install via npx one-liner, Homebrew install",
+      "note_zh": "开箱即用。可通过 npx one-liner、Homebrew install 安装"
+    },
+    "doc_score": 68,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "Claude Code, Cursor, Codex or any MCP client edits your footage with local FFmpeg, then checks its own output.",
+    "summary_zh": "",
+    "install_hint": "npx ffmpeg-skill",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.223
+    },
+    "highlights": [
+      "Loudness targets. −14 LUFS / −1 dBTP for YouTube and social platforms (the loudness.py default), -I -16 --tp -1.5 for podcasts, -I -23 for broadcast. A clip measured at −40 LUFS or below is…",
+      "Cropping 16:9 to 9:16 discards 70 % of the width.",
+      "Sample-accurate trims. cut.py talk.wav --start 1.2345 --end 2.3456 --accurate trims at the sample; the JSON reports precision (packet for a stream copy, sample for PCM / FLAC, codecframe wh…",
+      "Typed dynamics. audio.py --compress --comp-threshold -20 --comp-ratio 4, --limit --limit-ceiling -1, --gate --gate-threshold -45. Each flag is one documented option of FFmpeg's acompressor,…"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-25T09:11:30+00:00",
+  "categories": [
+    "desktop-ui",
+    "desktop-ui-2",
+    "security-self-hosting"
+  ],
+  "primary_category": "security-self-hosting",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "kajisho5/ffmpeg-skill",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "kajisho5/ffmpeg-skill",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "security-isolation",
+        "skills-plugins"
+      ],
+      "star_ratio": 107.985,
+      "momentum_ratio": 15.064,
+      "setup_delta": 7,
+      "dominance": 0.965,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "107.99x the stars (288,321 vs 2,670)",
+        "15.06x the star velocity (788.6/day vs 52.4/day)",
+        "slightly heavier setup (+7 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 73,
+        "challenger_health": 89,
+        "incumbent_setup_score": 50,
+        "challenger_setup_score": 57
+      }
+    }
+  }
+}

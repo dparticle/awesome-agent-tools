@@ -6,40 +6,40 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 137436,
-  "forks": 20370,
-  "open_issues": 82,
+  "stars": 137598,
+  "forks": 20398,
+  "open_issues": 74,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-10-24T08:49:46Z",
-  "pushed_at": "2026-10-23T18:36:24Z",
+  "updated_at": "2026-10-25T08:29:34Z",
+  "pushed_at": "2026-10-25T07:44:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 226,
+  "age_days": 227,
   "days_since_push": 0,
-  "health_score": 88,
+  "health_score": 89,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 89.8,
+    "momentum": 97.3,
     "maintenance": 100.0,
     "documentation": 81.0,
     "accessibility": 43.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 539,
+    "stars_gained": 584,
     "days_span": 5,
-    "stars_per_day": 107.8,
-    "lifetime_stars_per_day": 608.12,
+    "stars_per_day": 116.8,
+    "lifetime_stars_per_day": 606.16,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 88681,
+    "readme_chars": 89210,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.237
+      "external_link_ratio": 0.235
     },
     "highlights": [
       "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token.",
@@ -171,10 +171,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:55+00:00",
+  "fetched_at": "2026-10-25T09:11:37+00:00",
   "categories": [
     "desktop-ui",
-    "security-self-hosting",
+    "sessions",
     "voice"
   ],
   "primary_category": "voice",

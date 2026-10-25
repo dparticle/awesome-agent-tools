@@ -14,17 +14,15 @@
 | --- | --- |
 | Stars | 286 |
 | Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 53/100 |
+| Health score | 51/100 |
 | Documentation | 74/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-05-25 |
-| Last push | 2026-09-23 (30 days ago) |
+| Last push | 2026-09-23 (31 days ago) |
 | Analyzed README | 22,549 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -83,7 +81,7 @@ Score **74/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 49.1 |
 | momentum | 0.2 |
-| maintenance | 92.0 |
+| maintenance | 78.0 |
 | documentation | 74.0 |
 | accessibility | 78.0 |
 

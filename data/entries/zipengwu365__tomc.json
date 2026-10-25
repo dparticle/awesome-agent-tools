@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "full_name": "ZipengWu365/TOMC",
+  "name": "TOMC",
+  "owner": "ZipengWu365",
+  "url": "https://github.com/ZipengWu365/TOMC",
+  "description": "TOMC Memory: CPU context compression and task memory for Codex, Claude Code, Cursor, TRAE, WorkBuddy and other MCP clients.",
+  "homepage": "https://github.com/ZipengWu365/TOMC",
+  "stars": 246,
+  "forks": 20,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-memory",
+    "claude-code",
+    "codex",
+    "context-compression",
+    "llm",
+    "long-context",
+    "mcp",
+    "memory-compilation",
+    "python",
+    "research-software",
+    "task-oriented-memory-compilation",
+    "token-optimization",
+    "tomc-memory"
+  ],
+  "created_at": "2026-10-06T09:16:26Z",
+  "updated_at": "2026-10-25T08:17:31Z",
+  "pushed_at": "2026-10-24T17:15:42Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 18,
+  "days_since_push": 0,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 47.8,
+    "momentum": 11.4,
+    "maintenance": 100.0,
+    "documentation": 66.0,
+    "accessibility": 85.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 246,
+    "days_span": 18,
+    "stars_per_day": 13.67,
+    "lifetime_stars_per_day": 13.67,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "ZipengWu365/TOMC",
+    "readme_chars": 50769,
+    "capabilities": [
+      "model-routing",
+      "billing-metering",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "billing-metering": "timated context reduction for the assistant to display.",
+      "memory-context": "snapshot was synced from manuscript commit **7399657** on **2026-09-28**.",
+      "skills-plugins": "d; TOMC is not listed in Tencent's marketplace.",
+      "mcp-support": "-source tool built on Task-Oriented Memory Compilation (TOMC).",
+      "self-hosted": "",
+      "gui-desktop": "and Linux, and in Claude Code.* Installation and tool checks passed on all three systems; real model calls passed in Codex on Windows with preview.4 and macOS and in Claude Code with Claude Opus 5.5.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "billing-metering": 1,
+      "memory-context": 3,
+      "skills-plugins": 1,
+      "mcp-support": 24,
+      "self-hosted": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 15,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via pip install, native installer / package; needs git clone (build from source); configure database dependency; GUI application",
+      "note_zh": "开箱即用。可通过 pip install、native installer / package 安装；需要 git clone (build from source)；需配置 database dependency；GUI application"
+    },
+    "doc_score": 66,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "This is the official repository for TOMC Memory, with source code, plugin downloads and installation guides.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.276
+    },
+    "highlights": [
+      "CPU construction: the measured TOMC stage averages 4.21 s/call across six replays, with 0 GiB CUDA allocation and 3.75 GiB peak process RSS.",
+      "Reader input: across 100K–10M, overall input is 36.57% lower than LIGHT and 37.38% lower than hierarchical LLMLingua-2, averaging reader-wise changes equally.",
+      "Open http://127.0.0.1:7860 and select Use now.",
+      "Quality: TOMC has higher mean scores in all 54 reader × baseline × length comparisons at 500K, 1M and 10M, and all 18 overall comparisons."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-25T09:13:17+00:00",
+  "categories": [
+    "desktop-ui-2",
+    "security-self-hosting"
+  ],
+  "primary_category": "security-self-hosting",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "genspark-ai/genoffice",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "zipengwu365/tomc",
+      "challenger": "genspark-ai/genoffice",
+      "incumbent_name": "ZipengWu365/TOMC",
+      "challenger_name": "genspark-ai/genoffice",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "billing-metering",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "self-hosted",
+        "skills-plugins"
+      ],
+      "star_ratio": 43.801,
+      "momentum_ratio": 9.905,
+      "setup_delta": 5,
+      "dominance": 0.975,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "43.80x the stars (10,775 vs 246)",
+        "9.90x the star velocity (135.4/day vs 13.7/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "self-hosted",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 85,
+        "incumbent_setup_score": 15,
+        "challenger_setup_score": 20
+      }
+    }
+  }
+}

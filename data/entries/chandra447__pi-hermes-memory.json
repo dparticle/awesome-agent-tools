@@ -7,8 +7,8 @@
   "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
   "homepage": "",
   "stars": 500,
-  "forks": 129,
-  "open_issues": 36,
+  "forks": 130,
+  "open_issues": 34,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,27 +19,27 @@
     "pi"
   ],
   "created_at": "2026-04-23T12:03:56Z",
-  "updated_at": "2026-10-23T20:35:47Z",
-  "pushed_at": "2026-10-21T20:07:45Z",
+  "updated_at": "2026-10-25T06:22:55Z",
+  "pushed_at": "2026-10-25T06:22:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 183,
-  "days_since_push": 2,
+  "age_days": 184,
+  "days_since_push": 0,
   "health_score": 49,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 1.5,
+    "momentum": 1.3,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 16.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 2.73,
+    "stars_per_day": 1.6,
+    "lifetime_stars_per_day": 2.72,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,11 +137,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:39+00:00",
+  "fetched_at": "2026-10-25T09:12:47+00:00",
   "categories": [
-    "security-self-hosting"
+    "failover",
+    "security-self-hosting",
+    "sessions"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "sessions",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -35,8 +35,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 275,
-  "days_since_push": 55,
+  "age_days": 276,
+  "days_since_push": 56,
   "health_score": 41,
   "health_components": {
     "popularity": 47.6,
@@ -153,13 +153,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:56:00+00:00",
+  "fetched_at": "2026-10-25T09:13:18+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "self-hosting"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).",
@@ -185,14 +185,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 1198.079,
-      "momentum_ratio": 15856.0,
+      "star_ratio": 1201.338,
+      "momentum_ratio": 15772.0,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "1198.08x the stars (287,539 vs 240)",
-        "15856.00x the star velocity (792.8/day vs 0.0/day)",
+        "1201.34x the stars (288,321 vs 240)",
+        "15772.00x the star velocity (788.6/day vs 0.0/day)",
         "no harder to set up (57 vs 69 friction)"
       ],
       "reasons_zh": [],

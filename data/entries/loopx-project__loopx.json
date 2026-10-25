@@ -4,11 +4,11 @@
   "name": "loopx",
   "owner": "loopx-project",
   "url": "https://github.com/loopx-project/loopx",
-  "description": "Turn long-horizon goals into verifiable results. A local-first control plane and research workbench for agents and teams, across sessions and runtimes.",
+  "description": "Turn long-horizon goals into verifiable results. A local-first semantic control plane and research workbench for long-running agent teams, across sessions and runtimes.",
   "homepage": "https://loopx-project.github.io/loopx/",
-  "stars": 6408,
-  "forks": 610,
-  "open_issues": 159,
+  "stars": 6421,
+  "forks": 612,
+  "open_issues": 151,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -26,33 +26,33 @@
     "trajectory-analysis"
   ],
   "created_at": "2026-05-31T14:58:56Z",
-  "updated_at": "2026-10-24T07:59:21Z",
-  "pushed_at": "2026-10-24T08:51:56Z",
+  "updated_at": "2026-10-25T08:58:23Z",
+  "pushed_at": "2026-10-25T08:58:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 145,
+  "age_days": 146,
   "days_since_push": 0,
-  "health_score": 64,
+  "health_score": 65,
   "health_components": {
-    "popularity": 76.1,
-    "momentum": 6.8,
+    "popularity": 76.2,
+    "momentum": 8.0,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 66.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 41,
+    "stars_gained": 48,
     "days_span": 5,
-    "stars_per_day": 8.2,
-    "lifetime_stars_per_day": 44.19,
+    "stars_per_day": 9.6,
+    "lifetime_stars_per_day": 43.98,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "loopx-project/loopx",
-    "readme_chars": 51118,
+    "readme_chars": 54003,
     "capabilities": [
       "quota-management",
       "mobile-access",
@@ -138,18 +138,20 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.88
+      "external_link_ratio": 1.055
     },
     "highlights": [
-      "Independent user · 7 merged PRs.",
-      "continue across Codex, Claude Code, direct-model, and other registered Agent"
+      "2026-10-20 · 🚀 LoopX 2.0 — A shared TypeScript control plane and long-horizon research workbench.",
+      "2026-08-02 · ⏱️ 200+ hour trajectories shared on X — Early owner-run examples spanning 200+ elapsed hours drew broad attention on X, showing work across execution, waits, human decisions an…",
+      "2026-09-06 · 🎉 LoopX 1.0 — A Personal Agent Workspace to follow agent work, act on decisions, and inspect delivered results across sessions.",
+      "2026-09-18 · 🧪 LoopX × LHTB — A 46-task long-horizon agent study comparing Plain Codex, native Goal and LoopX Heartbeat, with task-level results, methodology and comparison limits."
     ],
     "summary_zh_native": "让 Agent 把长程目标做成可验证的成果。",
     "highlights_zh": [
-      "在 Codex、Claude Code、direct-model 等已注册 Agent 会话之间延续工作，",
-      "看成果和依据，而不只看活动。 检查交付物、支持与反驳证据、成本，以及下一步决策。",
-      "Shared Goal Authority 与跨 Host 协作：为显式共享 goal 提供",
-      "Agent 团队：共享目标，不抹平各自的工作责任。"
+      "2026-08-02 · ⏱️ 200+ 小时长程轨迹在 X 公开分享 — 早期 owner-run 案例跨越 200+ 小时自然时长，展示执行、等待、人工决策与恢复的衔接，并在 X 获得广泛传播。",
+      "2026-09-06 · 🎉 LoopX 1.0 — 个人 Agent 工作区：跨会话跟进 Agent 工作、处理待决事项、核对交付结果。",
+      "2026-10-20 · 🚀 LoopX 2.0 — 共享 TypeScript 控制面与长程研究工作台。",
+      "2026-09-18 · 🧪 LoopX × LHTB — 46 个长程任务的 Agent 对照研究：比较 Plain Codex、原生 Goal 与 LoopX Heartbeat，公开逐任务结果、方法与适用边界。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -158,11 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:45+00:00",
+  "fetched_at": "2026-10-25T09:11:19+00:00",
   "categories": [
     "analytics-2",
-    "providers-2",
-    "teams"
+    "providers-2"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

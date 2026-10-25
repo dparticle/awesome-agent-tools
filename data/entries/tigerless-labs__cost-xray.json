@@ -21,27 +21,27 @@
     "token-counting"
   ],
   "created_at": "2026-06-06T04:30:36Z",
-  "updated_at": "2026-10-24T04:23:00Z",
+  "updated_at": "2026-10-25T07:21:42Z",
   "pushed_at": "2026-10-15T16:31:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 140,
-  "days_since_push": 8,
-  "health_score": 77,
+  "age_days": 141,
+  "days_since_push": 9,
+  "health_score": 69,
   "health_components": {
     "popularity": 76.0,
-    "momentum": 79.0,
+    "momentum": 46.7,
     "maintenance": 92.0,
     "documentation": 48.0,
     "accessibility": 88.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 474,
+    "stars_gained": 280,
     "days_span": 5,
-    "stars_per_day": 94.8,
-    "lifetime_stars_per_day": 45.15,
+    "stars_per_day": 56.0,
+    "lifetime_stars_per_day": 44.83,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:45+00:00",
+  "fetched_at": "2026-10-25T09:11:20+00:00",
   "categories": [
     "desktop-ui-2",
     "security"

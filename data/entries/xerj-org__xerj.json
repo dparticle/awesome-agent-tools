@@ -6,9 +6,9 @@
   "url": "https://github.com/xerj-org/xerj",
   "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
   "homepage": "https://xerj.org",
-  "stars": 14214,
-  "forks": 992,
-  "open_issues": 50,
+  "stars": 15395,
+  "forks": 1099,
+  "open_issues": 45,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "vector-search"
   ],
   "created_at": "2026-06-30T04:32:45Z",
-  "updated_at": "2026-10-24T08:53:21Z",
-  "pushed_at": "2026-10-24T08:48:34Z",
+  "updated_at": "2026-10-25T09:10:16Z",
+  "pushed_at": "2026-10-25T09:04:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
+  "age_days": 117,
   "days_since_push": 0,
-  "health_score": 85,
+  "health_score": 86,
   "health_components": {
-    "popularity": 83.1,
+    "popularity": 83.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
-    "accessibility": 60.0
+    "accessibility": 67.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5478,
+    "stars_gained": 4592,
     "days_span": 5,
-    "stars_per_day": 1095.6,
-    "lifetime_stars_per_day": 122.53,
+    "stars_per_day": 918.4,
+    "lifetime_stars_per_day": 131.58,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "xerj-org/xerj",
-    "readme_chars": 39180,
+    "readme_chars": 39927,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -72,19 +72,19 @@
       "memory-context": "f the same primitive: xerj autoindex makes an agent",
       "agent-runtime": "rity audit of WordPress core,",
       "mcp-support": "ks with Claude Code, Cursor and any MCP client.",
-      "gui-desktop": "the same --insecure dev node.",
+      "gui-desktop": "Shell installer (get.ps1) puts xerj.exe in %LOCALAPPDATA%\\Programs\\xerj and adds that directory to the user PATH ((Get-Command xerj).Source confirms; XERJNOPATH=1 opts out).",
       "cross-agent-support": "Mentions Aider, Amp, Claude Code, Cline"
     },
     "capability_hits": {
       "memory-context": 3,
       "agent-runtime": 3,
-      "mcp-support": 21,
+      "mcp-support": 24,
       "gui-desktop": 2,
       "cross-agent-support": 13
     },
     "friction": {
-      "level": "moderate",
-      "score": 40,
+      "level": "low",
+      "score": 33,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -102,14 +102,16 @@
         "config.json/yaml/toml",
         "database dependency"
       ],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
       "platforms": [
         "macOS",
         "Windows",
         "Linux"
       ],
-      "note_en": "Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), cargo build; configure API key configuration, config file",
-      "note_zh": "需要一些配置。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)、cargo build；需配置 API key configuration、config file"
+      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), cargo build; configure API key configuration, config file; GUI application",
+      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)、cargo build；需配置 API key configuration、config file；GUI application"
     },
     "doc_score": 68,
     "doc_signals": [
@@ -138,7 +140,7 @@
       "Qwen Code",
       "Goose"
     ],
-    "summary_en": "Local-first search engine and MCP server for AI agents.",
+    "summary_en": "XERJ: the search engine for AI agents.",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://xerj.org/get | sh",
     "source": "raw:HEAD/README.md",
@@ -149,7 +151,7 @@
         "bullet list of external links",
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 1.046
+      "external_link_ratio": 1.027
     },
     "highlights": [
       "XERJ vs Lucene 10.3.1 for a source-pinned, six-axis comparison"
@@ -168,7 +170,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:54:39+00:00",
+  "fetched_at": "2026-10-25T09:11:06+00:00",
   "categories": [
     "desktop-ui-2",
     "security-self-hosting"

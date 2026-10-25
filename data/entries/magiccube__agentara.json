@@ -6,20 +6,20 @@
   "url": "https://github.com/MagicCube/agentara",
   "description": "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally.",
   "homepage": "",
-  "stars": 517,
+  "stars": 516,
   "forks": 58,
   "open_issues": 4,
   "language": "TypeScript",
   "license": "",
   "topics": [],
   "created_at": "2026-03-05T08:16:37Z",
-  "updated_at": "2026-10-14T12:40:38Z",
+  "updated_at": "2026-10-24T16:39:11Z",
   "pushed_at": "2026-05-11T11:48:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
-  "days_since_push": 165,
+  "age_days": 234,
+  "days_since_push": 166,
   "health_score": 38,
   "health_components": {
     "popularity": 54.3,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 11,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.22,
+    "lifetime_stars_per_day": 2.21,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -129,68 +129,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:38+00:00",
+  "fetched_at": "2026-10-25T09:12:45+00:00",
   "categories": [
-    "security-self-hosting"
+    "sessions"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "sessions",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by aoci-spec/aoci-code: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 aoci-spec/aoci-code 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "aoci-spec/aoci-code",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "magiccube/agentara",
-      "challenger": "aoci-spec/aoci-code",
-      "incumbent_name": "MagicCube/agentara",
-      "challenger_name": "aoci-spec/aoci-code",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "memory-context",
-        "session-persistence"
-      ],
-      "star_ratio": 3.342,
-      "momentum_ratio": 424.0,
-      "setup_delta": -20,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "3.34x the stars (1,728 vs 517)",
-        "424.00x the star velocity (21.2/day vs 0.0/day)",
-        "no harder to set up (64 vs 84 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "memory-context",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "session-persistence"
-        ],
-        "incumbent_health": 38,
-        "challenger_health": 57,
-        "incumbent_setup_score": 84,
-        "challenger_setup_score": 64
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -31,27 +31,27 @@
     "sqlite"
   ],
   "created_at": "2025-12-25T08:45:54Z",
-  "updated_at": "2026-10-24T06:04:58Z",
+  "updated_at": "2026-10-24T09:24:07Z",
   "pushed_at": "2026-09-22T20:13:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 303,
-  "days_since_push": 31,
+  "age_days": 304,
+  "days_since_push": 32,
   "health_score": 49,
   "health_components": {
     "popularity": 63.0,
-    "momentum": 2.5,
+    "momentum": 1.7,
     "maintenance": 78.0,
     "documentation": 66.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 4.65,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 4.63,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,10 +165,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:21+00:00",
+  "fetched_at": "2026-10-25T09:12:15+00:00",
   "categories": [
     "mobile-remote-control",
-    "parallelism-isolation",
     "security-self-hosting"
   ],
   "primary_category": "security-self-hosting",

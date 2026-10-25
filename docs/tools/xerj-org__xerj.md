@@ -2,7 +2,7 @@
 
 # xerj-org/xerj
 
-> Local-first search engine and MCP server for AI agents.
+> XERJ: the search engine for AI agents.
 
 [Repository](https://github.com/xerj-org/xerj) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,214 |
-| Star velocity | 1095.6/day (history basis, 5d span) |
-| Health score | 85/100 |
+| Stars | 15,395 |
+| Star velocity | 918.4/day (history basis, 5d span) |
+| Health score | 86/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-10-24 (0 days ago) |
-| Analyzed README | 39,180 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-25 (0 days ago) |
+| Analyzed README | 39,927 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### GUI / desktop app
 
-> the same --insecure dev node.
+> Shell installer (get.ps1) puts xerj.exe in %LOCALAPPDATA%\Programs\xerj and adds that directory to the user PATH ((Get-Command xerj).Source confirms; XERJNOPATH=1 opts out).
 
 ### Cross-agent support
 
@@ -48,7 +48,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 40/100)
+- **Difficulty:** 🟢 Easy (friction score 33/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://xerj.org/get | sh`
@@ -59,7 +59,7 @@
 
 **Configuration required:** API key configuration, config file, config.json/yaml/toml, database dependency
 
-*Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), cargo build; configure API key configuration, config file*
+*Easy. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source), cargo build; configure API key configuration, config file; GUI application*
 
 ## Documentation quality
 
@@ -82,11 +82,11 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 83.1 |
+| popularity | 83.7 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 68.0 |
-| accessibility | 60.0 |
+| accessibility | 67.0 |
 
 ---
 

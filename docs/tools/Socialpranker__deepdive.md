@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 370 |
-| Star velocity | 2.4/day (lifetime basis, 155d span) |
+| Stars | 368 |
+| Star velocity | 2.4/day (lifetime basis, 156d span) |
 | Health score | 52/100 |
 | Documentation | 72/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-05-21 |
-| Last push | 2026-10-18 (6 days ago) |
+| Last push | 2026-10-25 (0 days ago) |
 | Analyzed README | 32,014 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -71,7 +73,7 @@ Score **72/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.4 |
+| popularity | 51.3 |
 | momentum | 2.0 |
 | maintenance | 100.0 |
 | documentation | 72.0 |

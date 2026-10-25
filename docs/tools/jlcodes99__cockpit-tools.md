@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,295 |
-| Star velocity | 39.4/day (history basis, 5d span) |
-| Health score | 70/100 |
+| Stars | 19,316 |
+| Star velocity | 36.0/day (history basis, 5d span) |
+| Health score | 69/100 |
 | Documentation | 61/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-10-23 (0 days ago) |
-| Analyzed README | 18,197 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-24 (0 days ago) |
+| Analyzed README | 18,315 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -66,11 +66,9 @@
 
 ### GUI / desktop app
 
-> s: .msi（推荐）、.exe，或 x64-portable.zip（解压即用，无需安装）
+> **：自动刷新 2~5 分钟 + 需要联动时开启 WebSocket + OpenCode 联动开启。
 
 ### Notifications
-
-> ityide"，保持原有 IDE 切号流程及现有启动/无感双通道设置；不会读取前端选择的客户端。
 
 ### Voice input
 
@@ -115,7 +113,7 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.7 |
-| momentum | 32.8 |
+| momentum | 30.0 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 68.0 |

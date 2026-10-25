@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 658,
-  "days_since_push": 8,
+  "age_days": 659,
+  "days_since_push": 9,
   "health_score": 51,
   "health_components": {
     "popularity": 53.0,
@@ -127,11 +127,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:42+00:00",
+  "fetched_at": "2026-10-25T09:12:52+00:00",
   "categories": [
-    "self-hosting"
+    "failover"
   ],
-  "primary_category": "self-hosting",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

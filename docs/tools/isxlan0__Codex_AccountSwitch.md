@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | C++ |
 | Created | 2026-02-06 |
-| Last push | 2026-10-21 (2 days ago) |
-| Analyzed README | 4,144 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-25 (0 days ago) |
+| Analyzed README | 4,221 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

@@ -6,7 +6,7 @@
   "url": "https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system",
   "description": "YALC 1.0, the open-source Clay alternative. MIT, CLI-first, self-hosted, runs in Claude Code. Yalc today is an intelligent orchestration layer that runs pre configured GTM agents on your existing tech stack (CRM, sequencer and call recorder) → yalc.ai",
   "homepage": "https://www.yalc.ai",
-  "stars": 322,
+  "stars": 323,
   "forks": 91,
   "open_issues": 8,
   "language": "TypeScript",
@@ -22,26 +22,26 @@
     "typescript"
   ],
   "created_at": "2026-01-04T10:21:22Z",
-  "updated_at": "2026-10-23T12:44:21Z",
+  "updated_at": "2026-10-24T18:03:48Z",
   "pushed_at": "2026-08-20T16:57:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 292,
-  "days_since_push": 64,
+  "age_days": 293,
+  "days_since_push": 65,
   "health_score": 46,
   "health_components": {
     "popularity": 50.2,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 78.0,
     "documentation": 73.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.1,
     "basis": "history",
     "is_fast_riser": false
@@ -144,13 +144,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:51+00:00",
+  "fetched_at": "2026-10-25T09:13:04+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "self-hosting"
+    "security-self-hosting"
   ],
-  "primary_category": "self-hosting",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
@@ -173,14 +173,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 892.978,
-      "momentum_ratio": 1982.0,
+      "star_ratio": 892.635,
+      "momentum_ratio": 1314.333,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "892.98x the stars (287,539 vs 322)",
-        "1982.00x the star velocity (792.8/day vs 0.4/day)",
+        "892.63x the stars (288,321 vs 323)",
+        "1314.33x the star velocity (788.6/day vs 0.6/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],

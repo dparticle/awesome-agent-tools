@@ -6,9 +6,9 @@
   "url": "https://github.com/RealZST/HarnessKit",
   "description": "More than a skill manager — manage skills, MCP servers, plugins, hooks, CLIs, configs, memory & rules across every AI coding agent. 🌟 Star if you like it!",
   "homepage": "",
-  "stars": 470,
+  "stars": 471,
   "forks": 48,
-  "open_issues": 7,
+  "open_issues": 5,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -22,33 +22,33 @@
     "skill-manager"
   ],
   "created_at": "2026-03-27T15:37:08Z",
-  "updated_at": "2026-10-22T14:08:50Z",
-  "pushed_at": "2026-10-24T08:24:35Z",
+  "updated_at": "2026-10-25T07:47:52Z",
+  "pushed_at": "2026-10-24T14:15:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 210,
+  "age_days": 211,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 53.4,
-    "momentum": 0.3,
+    "popularity": 53.5,
+    "momentum": 0.5,
     "maintenance": 100.0,
-    "documentation": 59.0,
+    "documentation": 56.0,
     "accessibility": 98.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.24,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 2.23,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "RealZST/HarnessKit",
-    "readme_chars": 17763,
+    "readme_chars": 18042,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -103,7 +103,7 @@
       "note_en": "Turnkey. install via curl | sh installer, PowerShell irm | iex installer; configure environment variables, config file; one-click setup",
       "note_zh": "开箱即用。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需配置 environment variables、config file；one-click setup"
     },
-    "doc_score": 59,
+    "doc_score": 56,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -113,8 +113,7 @@
       "has contribution guidance",
       "mentions licensing",
       "has a Chinese translation",
-      "publishes a roadmap",
-      "explains architecture"
+      "publishes a roadmap"
     ],
     "agents": [
       "Claude Code",
@@ -134,7 +133,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.281
+      "external_link_ratio": 0.277
     },
     "highlights": [
       "Cross-agent deployment — See which agents have the extension and which don't — deploy to any missing agent with one click.",
@@ -145,9 +144,9 @@
     "summary_zh_native": "免费、开源的一站式平台，统一管理你所有的 AI 编程 Agent —— 覆盖桌面、CLI、Web 三端。",
     "highlights_zh": [
       "Agent-first CLI —— 发现专为 Agent 打造的 CLI 工具，这是 Agent 扩展生态的新兴方向。",
+      "Windows： 运行安装包。安装包暂未进行代码签名，首次运行时 Windows SmartScreen 会弹出提示，点击「更多信息 → 仍要运行」即可。",
       "一键审计 —— 一键对全部扩展执行完整安全扫描。",
-      "跨 Agent 部署 —— 清晰显示该扩展在哪些 Agent 上已安装、哪些缺失，可一键补齐。",
-      "随装随卸 —— 卸载 HarnessKit 后一切原封不动，无需迁移，也无需清理。"
+      "跨 Agent 部署 —— 清晰显示该扩展在哪些 Agent 上已安装、哪些缺失，可一键补齐。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -156,7 +155,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-24T08:55:41+00:00",
+  "fetched_at": "2026-10-25T09:12:49+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
