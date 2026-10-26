@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 406 |
+| Stars | 407 |
 | Star velocity | 3.0/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-04-25 |
-| Last push | 2026-10-25 (0 days ago) |
+| Last push | 2026-10-26 (0 days ago) |
 | Analyzed README | 30,861 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).
 
 ## What it solves
 

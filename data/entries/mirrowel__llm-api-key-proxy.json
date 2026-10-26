@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 501,
-  "days_since_push": 31,
+  "age_days": 502,
+  "days_since_push": 32,
   "health_score": 46,
   "health_components": {
     "popularity": 54.9,
@@ -37,7 +37,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 10,
+    "days_span": 5,
     "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.11,
     "basis": "history",
@@ -167,13 +167,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:41+00:00",
+  "fetched_at": "2026-10-26T10:10:04+00:00",
   "categories": [
     "failover",
-    "sharing",
-    "sharing-2"
+    "model-routing"
   ],
-  "primary_category": "sharing-2",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

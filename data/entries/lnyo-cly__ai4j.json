@@ -6,7 +6,7 @@
   "url": "https://github.com/LnYo-Cly/ai4j",
   "description": "Java 8+ agentic SDK: unified LLM access (OpenAI/Anthropic/DashScope/Doubao/DeepSeek...),unified AI service(image/video/audio...), Tool Calling, MCP, RAG, SKILLS,Agent Runtime, A2A, agent blueprint, agent harness, and a built-in Coding Agent CLI/TUI/ACP.",
   "homepage": "https://lnyo-cly.github.io/ai4j/",
-  "stars": 435,
+  "stars": 434,
   "forks": 55,
   "open_issues": 4,
   "language": "Java",
@@ -33,16 +33,16 @@
     "vector-database"
   ],
   "created_at": "2024-08-17T08:59:56Z",
-  "updated_at": "2026-10-25T04:23:37Z",
+  "updated_at": "2026-10-26T07:56:37Z",
   "pushed_at": "2026-10-13T17:22:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 799,
-  "days_since_push": 11,
+  "age_days": 800,
+  "days_since_push": 12,
   "health_score": 53,
   "health_components": {
-    "popularity": 52.8,
+    "popularity": 52.7,
     "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 56.0,
@@ -51,7 +51,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 7,
+    "days_span": 17,
     "stars_per_day": 0.0,
     "lifetime_stars_per_day": 0.54,
     "basis": "history",
@@ -160,11 +160,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:53+00:00",
+  "fetched_at": "2026-10-26T10:10:13+00:00",
   "categories": [
     "desktop-ui",
-    "parallelism-isolation",
-    "providers-2"
+    "providers-2",
+    "security-self-hosting"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

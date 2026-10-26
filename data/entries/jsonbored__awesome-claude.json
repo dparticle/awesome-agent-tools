@@ -7,8 +7,8 @@
   "description": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
   "homepage": "https://heyclau.de",
   "stars": 304,
-  "forks": 165,
-  "open_issues": 76,
+  "forks": 167,
+  "open_issues": 77,
   "language": "MDX",
   "license": "MIT",
   "topics": [
@@ -39,21 +39,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 405,
-  "days_since_push": 69,
+  "age_days": 406,
+  "days_since_push": 70,
   "health_score": 49,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 0.5,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 64.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.75,
     "basis": "history",
     "is_fast_riser": false
@@ -240,11 +240,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:13:10+00:00",
+  "fetched_at": "2026-10-26T10:10:26+00:00",
   "categories": [
+    "mobile-remote-control",
     "parallelism-isolation",
-    "security-self-hosting",
-    "voice"
+    "security-self-hosting"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {

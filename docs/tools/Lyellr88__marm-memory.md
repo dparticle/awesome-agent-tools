@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 422 |
-| Star velocity | 0.0/day (history basis, 5d span) |
+| Stars | 424 |
+| Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 82/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-06-10 |
-| Last push | 2026-10-23 (1 days ago) |
+| Last push | 2026-10-23 (2 days ago) |
 | Analyzed README | 117,052 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (12/12).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (12/12).
 
 ## What it solves
 
@@ -116,7 +116,7 @@ Score **82/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 52.5 |
-| momentum | 0.0 |
+| momentum | 0.3 |
 | maintenance | 100.0 |
 | documentation | 82.0 |
 | accessibility | 52.0 |

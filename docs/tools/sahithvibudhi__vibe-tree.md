@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 270 |
-| Star velocity | 0.4/day (history basis, 5d span) |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 43/100 |
 | Documentation | 42/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-07-29 |
-| Last push | 2026-07-25 (91 days ago) |
+| Last push | 2026-07-25 (92 days ago) |
 | Analyzed README | 4,406 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [h0x91b/dev-3.0](https://github.com/h0x91b/dev-3.0)** — Superseded by h0x91b/dev-3.0: covers 100% of capabilities (7/7).
@@ -86,7 +86,7 @@ Score **42/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 48.6 |
-| momentum | 0.3 |
+| momentum | 0.2 |
 | maintenance | 55.0 |
 | documentation | 42.0 |
 | accessibility | 94.0 |

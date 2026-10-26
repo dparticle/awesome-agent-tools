@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 21075,
-  "forks": 1648,
-  "open_issues": 1720,
+  "stars": 22131,
+  "forks": 1729,
+  "open_issues": 1840,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,33 +20,33 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-25T09:10:23Z",
-  "pushed_at": "2026-10-25T09:08:37Z",
+  "updated_at": "2026-10-26T10:08:31Z",
+  "pushed_at": "2026-10-26T10:07:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 31,
+  "age_days": 32,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
-    "popularity": 86.5,
+    "popularity": 86.9,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 62.0,
+    "documentation": 63.0,
     "accessibility": 90.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3480,
+    "stars_gained": 3665,
     "days_span": 5,
-    "stars_per_day": 696.0,
-    "lifetime_stars_per_day": 679.84,
+    "stars_per_day": 733.0,
+    "lifetime_stars_per_day": 691.59,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 22111,
+    "readme_chars": 22685,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -61,7 +61,7 @@
       "multi-account-switching": "count can go through a proxy of its own.",
       "quota-management": "one key that matters in the agent's own config.",
       "multi-agent-orchestration": "**Sync** Back up to a file, or sync machines over WebDAV (Nutstore, Nextcloud…), S3, or an encrypted GitHub repository backup",
-      "model-routing": "&nbsp;·&nbsp; Plugins &nbsp;·&nbsp; Discord &nbsp;·&nbsp; English · 简体中文",
+      "model-routing": "y, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to.",
       "api-gateway": "t Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · Nous Portal · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…",
       "mcp-support": "ers it as a provider to every other agent.",
       "gui-desktop": "f you use more than one agent, more than one provider, or more than one account.",
@@ -104,7 +104,7 @@
       "note_en": "Turnkey. install via go install, curl | sh installer; configure API key configuration, config file; one-click setup",
       "note_zh": "开箱即用。可通过 go install、curl | sh installer 安装；需配置 API key configuration、config file；one-click setup"
     },
-    "doc_score": 62,
+    "doc_score": 63,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -138,13 +138,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.492
+      "external_link_ratio": 1.455
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
       "Use one provider everywhere: an API key, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to.",
-      "GitHub Copilot, Gemini (Code Assist), Antigravity, Grok (SuperGrok) and more",
-      "Keep going when a quota runs out: a routing group moves to the next account or model, and the agent never sees the error."
+      "GitHub Copilot, Gemini (Code Assist), Antigravity, Grok (SuperGrok) and more"
     ],
     "summary_zh_native": "Claude Code 跑 Kimi，Codex 跑 DeepSeek，Gemini CLI 跑 GLM，OpenCode 用你的 ChatGPT 订阅。",
     "highlights_zh": [
@@ -160,7 +159,7 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-25T09:10:58+00:00",
+  "fetched_at": "2026-10-26T10:08:55+00:00",
   "categories": [
     "desktop-ui-2",
     "model-routing",

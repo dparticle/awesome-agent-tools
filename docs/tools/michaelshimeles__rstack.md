@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — do not edit by hand. Run `python scripts/agentindex.py build` (or wait for the daily workflow). -->
 
-# michaelshimeles/skills
+# michaelshimeles/rstack
 
-> A collection of agent skills for Claude Code.
+> rstack is @michaelshimeles's agent development stack: seven agent skills and an AGENTS.md workflow that tells a coding agent how to take a change from a clean branch to a reviewed pull request.
 
-[Repository](https://github.com/michaelshimeles/skills) · [Back to index](../../README.md) · Category: **None**
+[Repository](https://github.com/michaelshimeles/rstack) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,382 |
-| Star velocity | 4.8/day (history basis, 5d span) |
-| Health score | 56/100 |
+| Stars | 1,384 |
+| Star velocity | 5.9/day (lifetime basis, 234d span) |
+| Health score | 54/100 |
 | Documentation | 39/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | not declared |
 | Language | Python |
 | Created | 2026-03-05 |
-| Last push | 2026-10-19 (6 days ago) |
-| Analyzed README | 7,910 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 8,490 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
 
@@ -30,32 +30,32 @@
 
 ### Multi-agent orchestration
 
-> Form Shield 1.0.0, license included in the folder).
-
 ### Workspace isolation
 
-> it when greploop's trigger gets "Too many files changed for review".
+> e from a clean branch to a reviewed pull request.
 
 ### Skills & plugins
+
+> nstalling, -s picks skills, -a picks agents (claude-code, cursor, codex), and -g installs at user level instead of project level.
 
 ### Agent runtime
 
 ### Cross-agent support
 
-> Mentions Claude Code, Cursor
+> Mentions Claude Code, Codex, Cursor
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 22/100)
-- **Out of the box:** yes
+- **Difficulty:** 🟢 Easy (friction score 25/100)
+- **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx skills add michaelshimeles/skills`
+- **Quickest install:** `npx skills add michaelshimeles/rstack`
 
 **Signals that make it easy:** npx one-liner
 
-**Configuration required:** database migration
+**Signals that add work:** git clone (build from source)
 
-*Easy. install via npx one-liner; configure database migration*
+*Easy. install via npx one-liner; needs git clone (build from source)*
 
 ## Documentation quality
 
@@ -73,10 +73,10 @@ Score **39/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 62.8 |
-| momentum | 4.0 |
+| momentum | 4.9 |
 | maintenance | 100.0 |
 | documentation | 39.0 |
-| accessibility | 90.0 |
+| accessibility | 75.0 |
 
 ---
 

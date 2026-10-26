@@ -7,7 +7,7 @@
   "description": "The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted via OpenClaw Gateway.",
   "homepage": "https://autensa.com",
   "stars": 2156,
-  "forks": 438,
+  "forks": 437,
   "open_issues": 20,
   "language": "TypeScript",
   "license": "MIT",
@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
-  "days_since_push": 38,
+  "age_days": 267,
+  "days_since_push": 39,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
@@ -37,7 +37,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 8.11,
+    "lifetime_stars_per_day": 8.07,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,7 +149,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:09+00:00",
+  "fetched_at": "2026-10-26T10:09:42+00:00",
   "categories": [
     "analytics-2",
     "parallelism-isolation",

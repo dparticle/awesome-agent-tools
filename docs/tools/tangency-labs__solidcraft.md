@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,219 |
-| Star velocity | 497.0/day (history basis, 5d span) |
+| Stars | 10,608 |
+| Star velocity | 417.8/day (history basis, 5d span) |
 | Health score | 87/100 |
 | Documentation | 55/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-10-07 |
-| Last push | 2026-10-25 (0 days ago) |
-| Analyzed README | 9,952 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 9,923 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,17 +32,17 @@
 
 ### GUI / desktop app
 
-> rded with the demo script.
+> Mi41SDIyVjIyaC05LjV6Ii8%2BPC9zdmc%2B
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 0/100)
+- **Difficulty:** 🟢 Turnkey (friction score 9/100)
 - **Out of the box:** yes
 - **Non-programmer friendly:** yes
 
-**Signals that make it easy:** winget install, native installer / package
+**Signals that make it easy:** native installer / package
 
-*Turnkey. install via winget install, native installer / package; GUI application*
+*Turnkey. install via native installer / package; GUI application*
 
 ## Documentation quality
 
@@ -63,7 +63,7 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.2 |
+| popularity | 80.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 55.0 |

@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-21 |
-| Last push | 2026-07-30 (87 days ago) |
+| Last push | 2026-07-30 (88 days ago) |
 | Analyzed README | 16,146 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
 
 ## What it solves
 

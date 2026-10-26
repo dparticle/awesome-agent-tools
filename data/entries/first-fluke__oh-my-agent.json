@@ -6,7 +6,7 @@
   "url": "https://github.com/first-fluke/oh-my-agent",
   "description": "A specialist team for the coding agent you already use: 12 roles, 21 workflows and 33 skills that plan, build in parallel, review and debug, leaving plans, ADRs and results as files. Gates wait for your own tests. Also research, slides and video. One .agents/ folder for Claude Code, Codex, Cursor and 11 more.",
   "homepage": "https://firstfluke.com/oh-my-agent/",
-  "stars": 1354,
+  "stars": 1353,
   "forks": 150,
   "open_issues": 0,
   "language": "TypeScript",
@@ -29,27 +29,27 @@
     "slash-commands"
   ],
   "created_at": "2026-01-30T11:29:46Z",
-  "updated_at": "2026-10-24T04:02:12Z",
+  "updated_at": "2026-10-26T10:07:24Z",
   "pushed_at": "2026-10-24T01:10:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 267,
-  "days_since_push": 1,
+  "age_days": 268,
+  "days_since_push": 2,
   "health_score": 57,
   "health_components": {
     "popularity": 62.6,
-    "momentum": 1.2,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 5.07,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 5.05,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -188,11 +188,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:19+00:00",
+  "fetched_at": "2026-10-26T10:09:48+00:00",
   "categories": [
     "desktop-ui",
-    "parallelism-isolation",
-    "sessions"
+    "desktop-ui-2",
+    "parallelism-isolation"
   ],
   "primary_category": "parallelism-isolation",
   "lifecycle": {

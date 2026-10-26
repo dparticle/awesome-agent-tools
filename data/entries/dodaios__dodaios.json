@@ -6,9 +6,9 @@
   "url": "https://github.com/Dodaios/Dodaios",
   "description": "Your AI assistant, built for the agentic era. Open source and local: talk to it, and it runs your agents, your coding CLIs, your browser and your apps. Windows, macOS, Linux.",
   "homepage": "https://dodaios.ai",
-  "stars": 250,
-  "forks": 92,
-  "open_issues": 76,
+  "stars": 256,
+  "forks": 94,
+  "open_issues": 86,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "wake-word"
   ],
   "created_at": "2026-05-31T11:52:56Z",
-  "updated_at": "2026-10-24T21:21:11Z",
-  "pushed_at": "2026-10-25T04:57:59Z",
+  "updated_at": "2026-10-26T06:24:38Z",
+  "pushed_at": "2026-10-26T06:40:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
+  "age_days": 147,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
-    "popularity": 48.0,
-    "momentum": 1.5,
+    "popularity": 48.2,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 1.71,
+    "stars_per_day": 2.4,
+    "lifetime_stars_per_day": 1.74,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -170,13 +170,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:13:16+00:00",
+  "fetched_at": "2026-10-26T10:10:30+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "voice"
+    "parallelism-isolation"
   ],
-  "primary_category": "voice",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (9/9).",
@@ -203,14 +203,14 @@
         "voice-input",
         "worktree-isolation"
       ],
-      "star_ratio": 36.14,
-      "momentum_ratio": 11.778,
+      "star_ratio": 35.445,
+      "momentum_ratio": 10.833,
       "setup_delta": -18,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "36.14x the stars (9,035 vs 250)",
-        "11.78x the star velocity (21.2/day vs 1.8/day)",
+        "35.45x the stars (9,074 vs 256)",
+        "10.83x the star velocity (26.0/day vs 2.4/day)",
         "no harder to set up (32 vs 50 friction)"
       ],
       "reasons_zh": [],
@@ -244,7 +244,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 55,
-        "challenger_health": 66,
+        "challenger_health": 67,
         "incumbent_setup_score": 50,
         "challenger_setup_score": 32
       }

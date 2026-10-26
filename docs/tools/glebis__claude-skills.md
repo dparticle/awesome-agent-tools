@@ -17,14 +17,12 @@
 | Health score | 51/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2025-10-25 |
-| Last push | 2026-10-23 (1 days ago) |
-| Analyzed README | 16,526 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (8/8).
+| Last push | 2026-10-25 (0 days ago) |
+| Analyzed README | 16,686 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -54,7 +52,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex
+> Mentions Claude Code, Codex, OpenCode
 
 ## Setup reality check
 

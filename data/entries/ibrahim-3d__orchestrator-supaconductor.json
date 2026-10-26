@@ -28,22 +28,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 249,
-  "days_since_push": 27,
+  "age_days": 250,
+  "days_since_push": 28,
   "health_score": 47,
   "health_components": {
     "popularity": 51.6,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 69.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.53,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.52,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:13:00+00:00",
+  "fetched_at": "2026-10-26T10:10:18+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation"
@@ -144,15 +144,15 @@
   "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 HarnessMD/munder-difflin 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "HarnessMD/munder-difflin",
     "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "tencentcloud/octop",
+      "challenger": "harnessmd/munder-difflin",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "HarnessMD/munder-difflin",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -164,14 +164,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 28.85,
-      "momentum_ratio": 2300.0,
+      "star_ratio": 23.879,
+      "momentum_ratio": 130.0,
       "setup_delta": -40,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "28.85x the stars (10,963 vs 380)",
-        "2300.00x the star velocity (115.0/day vs 0.0/day)",
+        "23.88x the stars (9,074 vs 380)",
+        "130.00x the star velocity (26.0/day vs 0.2/day)",
         "no harder to set up (32 vs 72 friction)"
       ],
       "reasons_zh": [],
@@ -185,23 +185,23 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
-          "team-collaboration",
+          "usage-analytics",
+          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 47,
-        "challenger_health": 86,
+        "challenger_health": 67,
         "incumbent_setup_score": 72,
         "challenger_setup_score": 32
       }

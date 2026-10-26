@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "full_name": "styler-ai/ProjectAtlas",
+  "name": "ProjectAtlas",
+  "owner": "styler-ai",
+  "url": "https://github.com/styler-ai/ProjectAtlas",
+  "description": "Every file not opened. Every folder not explored. Tokens saved. A local repository map for coding agents: purposes, source, symbols, and dependencies. Native Rust CLI and MCP, isolated worktrees, and subagent hooks.",
+  "homepage": "https://styler-ai.github.io/ProjectAtlas/",
+  "stars": 459,
+  "forks": 11,
+  "open_issues": 19,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "claude-code",
+    "code-intelligence",
+    "codex",
+    "coding-agents",
+    "developer-tools",
+    "mcp",
+    "opencode",
+    "repository-map",
+    "rust",
+    "sqlite"
+  ],
+  "created_at": "2026-01-01T14:15:37Z",
+  "updated_at": "2026-10-26T08:29:52Z",
+  "pushed_at": "2026-10-25T22:27:06Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 297,
+  "days_since_push": 0,
+  "health_score": 55,
+  "health_components": {
+    "popularity": 53.2,
+    "momentum": 1.3,
+    "maintenance": 100.0,
+    "documentation": 52.0,
+    "accessibility": 99.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 459,
+    "days_span": 297,
+    "stars_per_day": 1.55,
+    "lifetime_stars_per_day": 1.55,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "styler-ai/ProjectAtlas",
+    "readme_chars": 10559,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "usage-analytics",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "A map for your coding agent.",
+      "worktree-isolation": "A map for your coding agent.",
+      "usage-analytics": "source compression from modeled navigation and shows where the estimates came from.",
+      "agent-runtime": "A map for your coding agent.",
+      "mcp-support": "here the relevant source lives.",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 4,
+      "worktree-isolation": 12,
+      "usage-analytics": 2,
+      "agent-runtime": 3,
+      "mcp-support": 6,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 13,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "cargo install",
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via cargo install, native installer / package; configure database dependency",
+      "note_zh": "开箱即用。可通过 cargo install、native installer / package 安装；需配置 database dependency"
+    },
+    "doc_score": 52,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "A coding agent needs to know where to look before it can make a change.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.474
+    },
+    "highlights": [
+      "Built-in PHP 8 navigation and bounded PDF/DOCX text extraction, with source evidence and coverage reporting."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-26T10:10:11+00:00",
+  "categories": [
+    "desktop-ui",
+    "desktop-ui-2",
+    "parallelism-isolation"
+  ],
+  "primary_category": "parallelism-isolation",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

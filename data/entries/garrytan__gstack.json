@@ -6,40 +6,40 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 137598,
-  "forks": 20398,
-  "open_issues": 74,
+  "stars": 137769,
+  "forks": 20425,
+  "open_issues": 151,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-10-25T08:29:34Z",
-  "pushed_at": "2026-10-25T07:44:56Z",
+  "updated_at": "2026-10-26T10:02:51Z",
+  "pushed_at": "2026-10-26T10:06:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 227,
+  "age_days": 228,
   "days_since_push": 0,
-  "health_score": 89,
+  "health_score": 90,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 97.3,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 81.0,
     "accessibility": 43.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 584,
+    "stars_gained": 646,
     "days_span": 5,
-    "stars_per_day": 116.8,
-    "lifetime_stars_per_day": 606.16,
+    "stars_per_day": 129.2,
+    "lifetime_stars_per_day": 604.25,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 89210,
+    "readme_chars": 89810,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -58,8 +58,8 @@
     ],
     "capability_evidence": {
       "auto-failover": "and /diagram always use gstack's bundled browser.",
-      "multi-agent-orchestration": "use and re-verify before committing.",
-      "parallel-execution": "t patterns depending on whether it's a landing page, dashboard, form, or card layout.",
+      "multi-agent-orchestration": "cause and re-verify before committing.",
+      "parallel-execution": "etext patterns depending on whether it's a landing page, dashboard, form, or card layout.",
       "worktree-isolation": "hand, and gstack-uninstall",
       "model-routing": "deterministic aside repl scripts.",
       "session-persistence": "Browse my kid's school parent portal and add all the other parents' names, phone numbers, and photos to my Google Contacts.\" Two ways to get authenticated: (1) log in once in the headed browser, your session persists, o…",
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.235
+      "external_link_ratio": 0.245
     },
     "highlights": [
       "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token.",
@@ -171,13 +171,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:37+00:00",
+  "fetched_at": "2026-10-26T10:09:21+00:00",
   "categories": [
     "desktop-ui",
-    "sessions",
-    "voice"
+    "parallelism-isolation",
+    "security"
   ],
-  "primary_category": "voice",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

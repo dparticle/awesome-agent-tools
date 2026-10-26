@@ -6,8 +6,8 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 572,
-  "forks": 69,
+  "stars": 575,
+  "forks": 70,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
@@ -18,33 +18,33 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-10-25T07:55:27Z",
-  "pushed_at": "2026-08-03T13:21:33Z",
+  "updated_at": "2026-10-25T13:39:40Z",
+  "pushed_at": "2026-10-25T14:02:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 438,
-  "days_since_push": 82,
-  "health_score": 48,
+  "age_days": 439,
+  "days_since_push": 0,
+  "health_score": 53,
   "health_components": {
-    "popularity": 55.1,
-    "momentum": 0.5,
-    "maintenance": 78.0,
+    "popularity": 55.2,
+    "momentum": 0.8,
+    "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 1.0,
     "lifetime_stars_per_day": 1.31,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "rsmdt/the-startup",
-    "readme_chars": 27384,
+    "readme_chars": 26555,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -53,7 +53,7 @@
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "ion where specialized agents coordinate and work together on complex tasks.",
-      "parallel-execution": "y more time during implementation.",
+      "parallel-execution": "- One Implementation Loop — /implement runs the plan's tasks through a barriered code→eval retry loop on Claude Code's dynamic-workflow runtime - Parallel Agent Execution — Multiple specialists work simultaneously - Qua…",
       "memory-context": "",
       "skills-plugins": "Moving on.\" \"Here's what failed and why...\""
     },
@@ -97,8 +97,7 @@
       "long, detailed README"
     ],
     "agents": [
-      "Claude Code",
-      "Droid"
+      "Claude Code"
     ],
     "summary_en": "Ship faster.",
     "summary_zh": "",
@@ -110,11 +109,11 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.11
+      "external_link_ratio": 0.113
     },
     "highlights": [
-      "Execute the work — phase-by-phase with approval gates (Incremental), parallel units with information barriers and holdout scenarios (Factory), or lightweight 1–3 unit orchestration (Direct)",
-      "At startup — Only skill names and descriptions are loaded (~100 tokens each)"
+      "At startup — Only skill names and descriptions are loaded (~100 tokens each)",
+      "One Implementation Loop — /implement runs the plan's tasks through a barriered code→eval retry loop on Claude Code's dynamic-workflow runtime"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -125,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:41+00:00",
+  "fetched_at": "2026-10-26T10:10:03+00:00",
   "categories": [
     "desktop-ui",
     "parallelism-isolation"
@@ -152,14 +151,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.311,
-      "momentum_ratio": 30.0,
+      "star_ratio": 48.096,
+      "momentum_ratio": 19.8,
       "setup_delta": 2,
       "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.31x the stars (27,634 vs 572)",
-        "30.00x the star velocity (18.0/day vs 0.6/day)",
+        "48.10x the stars (27,655 vs 575)",
+        "19.80x the star velocity (19.8/day vs 1.0/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -181,7 +180,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 48,
+        "incumbent_health": 53,
         "challenger_health": 69,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 27

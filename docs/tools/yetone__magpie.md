@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 21,075 |
-| Star velocity | 696.0/day (history basis, 5d span) |
+| Stars | 22,131 |
+| Star velocity | 733.0/day (history basis, 5d span) |
 | Health score | 89/100 |
-| Documentation | 62/100 |
+| Documentation | 63/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-23 |
-| Last push | 2026-10-25 (0 days ago) |
-| Analyzed README | 22,111 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 22,685 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Model / provider routing
 
-> &nbsp;·&nbsp; Plugins &nbsp;·&nbsp; Discord &nbsp;·&nbsp; English · 简体中文
+> y, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to.
 
 ### API gateway / proxy
 
@@ -73,7 +73,7 @@
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **63/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -90,10 +90,10 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 86.5 |
+| popularity | 86.9 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
+| documentation | 63.0 |
 | accessibility | 90.0 |
 
 ---

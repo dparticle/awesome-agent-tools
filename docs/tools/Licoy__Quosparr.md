@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 300 |
-| Star velocity | 0.6/day (history basis, 5d span) |
+| Stars | 304 |
+| Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 50/100 |
-| Documentation | 53/100 |
+| Documentation | 55/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-29 |
-| Last push | 2026-10-23 (2 days ago) |
-| Analyzed README | 19,423 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 22,857 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -77,7 +77,7 @@
 
 ## Documentation quality
 
-Score **53/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -88,15 +88,16 @@ Score **53/100**, based on these detected signals:
 - links to dedicated docs
 - has a Chinese translation
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 49.5 |
-| momentum | 0.5 |
+| popularity | 49.7 |
+| momentum | 1.0 |
 | maintenance | 100.0 |
-| documentation | 53.0 |
+| documentation | 55.0 |
 | accessibility | 61.0 |
 
 ---

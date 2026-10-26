@@ -6,9 +6,9 @@
   "url": "https://github.com/simonlin1212/Vibe-Research",
   "description": "Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A research workbench for China A-shares, US and HK stocks.",
   "homepage": "https://viberesearch.wiki",
-  "stars": 2920,
-  "forks": 589,
-  "open_issues": 3,
+  "stars": 2982,
+  "forks": 599,
+  "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -32,33 +32,33 @@
     "workbuddy"
   ],
   "created_at": "2026-07-05T06:30:55Z",
-  "updated_at": "2026-10-25T09:06:10Z",
-  "pushed_at": "2026-10-23T12:49:34Z",
+  "updated_at": "2026-10-26T09:15:51Z",
+  "pushed_at": "2026-10-26T08:08:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 112,
-  "days_since_push": 1,
-  "health_score": 65,
+  "age_days": 113,
+  "days_since_push": 0,
+  "health_score": 67,
   "health_components": {
-    "popularity": 69.3,
-    "momentum": 28.2,
+    "popularity": 69.5,
+    "momentum": 36.7,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 169,
+    "stars_gained": 220,
     "days_span": 5,
-    "stars_per_day": 33.8,
-    "lifetime_stars_per_day": 26.07,
+    "stars_per_day": 44.0,
+    "lifetime_stars_per_day": 26.39,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "simonlin1212/Vibe-Research",
-    "readme_chars": 32252,
+    "readme_chars": 32564,
     "capabilities": [
       "quota-management",
       "remote-control",
@@ -149,7 +149,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.217
+      "external_link_ratio": 0.215
     },
     "highlights": [
       "v2.2.0 发版前两轮独立只读审计（Codex 6.1 Sol、Opus 5.5），去重后 11 条真问题全部修复；v2.2.1 修的 4 处来自 Vibe AStock 合并 v2.2.0 时的发版审计，修复补丁另做了一次独立复核（Opus 5.5），找到的 6 处全部修掉。",
@@ -166,7 +166,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:29+00:00",
+  "fetched_at": "2026-10-26T10:09:15+00:00",
   "categories": [
     "billing",
     "mobile-remote-control",

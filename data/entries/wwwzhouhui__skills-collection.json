@@ -8,38 +8,38 @@
   "homepage": "",
   "stars": 285,
   "forks": 57,
-  "open_issues": 10,
+  "open_issues": 11,
   "language": "HTML",
   "license": "",
   "topics": [],
   "created_at": "2025-11-12T09:46:18Z",
-  "updated_at": "2026-10-24T02:13:23Z",
-  "pushed_at": "2026-10-24T02:13:19Z",
+  "updated_at": "2026-10-25T12:12:58Z",
+  "pushed_at": "2026-10-25T12:12:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 346,
-  "days_since_push": 1,
+  "age_days": 348,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 49.1,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 91.0,
     "accessibility": 59.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 0.82,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "wwwzhouhui/skills_collection",
-    "readme_chars": 105884,
+    "readme_chars": 108978,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -68,7 +68,7 @@
       "memory-context": "",
       "skills-plugins": "down 结构行、时间线/字幕/短场景淡入淡出健壮性加固，并新增 check-env.mjs 一键环境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）",
       "mcp-support": "境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）",
-      "gui-desktop": "容器自愈重建 → Docker 全清 → ext4.vhdx 原生压缩 → 前后对比报告」。",
+      "gui-desktop": "API Key 走技能根目录 .env 零硬编码，缺配置时报可照抄指引，零 npm 依赖 Node.js（≥18，内置 fetch）、gpt-image-2.5 中转站 API 2026年10月25日 wwwzhouhui 1.0.0",
       "notifications": "纯文本配置文件，无需构建部署，直接复制到 Claude Code 的 skills 目录即可使用。",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
     },
@@ -158,13 +158,13 @@
         "bullet list of external links",
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.397
+      "external_link_ratio": 0.385
     },
     "highlights": [
+      "✅ 输入文章标题 + 内容，自动提炼视觉符号并按实测模板撰写中文提示词，调用第三方中转站 gpt-image-2.5 文生图生成文章封面并下载本地；支持 16:9 / 9:16 / 3:4 / 4:3 / 1:1 五种比例（比例精确匹配，出图像素允许缩放），中文大标题直出实测无错别字",
       "✅ 三画幅封面一次出：同一个 coverLayout 出 4:3（1440×1080）／ 3:4（1080×1440）／ 9:16（1080×1920 抖音，内容压在中央安全区），标题 ≤2 行、钩子行自动马克笔高亮",
       "✅ 项目统计：技能包 30 个文本文件，Python 2,915 行（ark_image 1,429 · narration 765 · video 678 · extract 43），TypeScript/TSX 1,257 行，6 篇参考文档",
-      "github-trending-wan: v1.0.0 (2026-04-08) - 初始版本，GitHub Trending Top 5 中文信息图海报生成器，抓取热门项目→翻译中文摘要→生成 Wan 2.7 海报 Prompt→可视化海报，支持 10 种视觉风格，3 步引导式工作流",
-      "✅ 项目统计：技能包 ≈285 KB、文本文件 28 个、代码 ≈1,063 行（ts/tsx ≈403 · mjs 518 · py 142）、1920×1080@30fps、8 种动画模式"
+      "github-trending-wan: v1.0.0 (2026-04-08) - 初始版本，GitHub Trending Top 5 中文信息图海报生成器，抓取热门项目→翻译中文摘要→生成 Wan 2.7 海报 Prompt→可视化海报，支持 10 种视觉风格，3 步引导式工作流"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -175,7 +175,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:13:12+00:00",
+  "fetched_at": "2026-10-26T10:10:27+00:00",
   "categories": [
     "billing",
     "desktop-ui-2",

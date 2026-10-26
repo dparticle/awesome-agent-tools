@@ -12,23 +12,21 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 904 |
+| Stars | 908 |
 | Star velocity | 2.0/day (history basis, 5d span) |
 | Health score | 52/100 |
-| Documentation | 45/100 |
+| Documentation | 46/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-12-17 |
 | Last push | 2026-10-25 (0 days ago) |
-| Analyzed README | 6,490 chars from `raw:HEAD/README.md` |
+| Analyzed README | 8,997 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
-
-> agy (Antigravity), grok, kimi, and cursor-agent CLIs use
 
 ### Model / provider routing
 
@@ -36,7 +34,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Cursor
+> Mentions Claude Code, Codex, Copilot, Cursor
 
 ## Setup reality check
 
@@ -50,7 +48,7 @@
 
 ## Documentation quality
 
-Score **45/100**, based on these detected signals:
+Score **46/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -64,10 +62,10 @@ Score **45/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 59.1 |
+| popularity | 59.2 |
 | momentum | 1.7 |
 | maintenance | 100.0 |
-| documentation | 45.0 |
+| documentation | 46.0 |
 | accessibility | 64.0 |
 
 ---

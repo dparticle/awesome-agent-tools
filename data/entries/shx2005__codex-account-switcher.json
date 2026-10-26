@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "full_name": "shx2005/codex-account-switcher",
+  "name": "codex-account-switcher",
+  "owner": "shx2005",
+  "url": "https://github.com/shx2005/codex-account-switcher",
+  "description": "你是否厌倦了 Codex 多个账号之间来回切换？本地账号管理、官方登录、额度查询、快速切换与跨设备导入导出。Local Codex account profiles, login, usage, switching, and export/import.",
+  "homepage": "",
+  "stars": 269,
+  "forks": 11,
+  "open_issues": 0,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "account-switcher",
+    "cli",
+    "codex",
+    "openai",
+    "python"
+  ],
+  "created_at": "2026-10-03T14:38:55Z",
+  "updated_at": "2026-10-26T09:57:24Z",
+  "pushed_at": "2026-10-20T06:11:46Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 22,
+  "days_since_push": 6,
+  "health_score": 48,
+  "health_components": {
+    "popularity": 48.6,
+    "momentum": 10.2,
+    "maintenance": 100.0,
+    "documentation": 59.0,
+    "accessibility": 25.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 269,
+    "days_span": 22,
+    "stars_per_day": 12.23,
+    "lifetime_stars_per_day": 12.23,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "shx2005/codex-account-switcher",
+    "readme_chars": 6869,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "auto-failover",
+      "billing-metering",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "",
+      "quota-management": "命名账号管理：保存 ChatGPT OAuth 或 OpenAI API key 登录，标记当前账号，默认脱敏邮箱。",
+      "auto-failover": "",
+      "billing-metering": "-json 仅输出筛选后的账号与额度字段，不包含 token、key 或完整凭据。",
+      "security-isolation": "",
+      "self-hosted": "实时额度查询：查看当前、指定或全部存档账号的窗口用量、剩余比例、重置时间和服务返回的 Credits。",
+      "gui-desktop": ""
+    },
+    "capability_hits": {
+      "multi-account-switching": 2,
+      "quota-management": 9,
+      "auto-failover": 1,
+      "billing-metering": 4,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 75,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source); configure API key configuration, config.json/yaml/toml",
+      "note_zh": "配置较重。需要 git clone (build from source)；需配置 API key configuration、config.json/yaml/toml"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "你是否厌倦了 Codex 多个账号之间来回切换？",
+    "summary_zh": "",
+    "install_hint": "pipx install 'git+https://github.com/shx2005/codex-account-switcher.git@v0.3.0'",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.165
+    },
+    "highlights": [
+      "轻量本地运行：macOS/Linux、Python 3.11+，运行时无第三方 Python 依赖；凭据目录 700、文件 600。",
+      "官方登录流程：浏览器授权、设备码、API key 输入和 token 续期由本机官方 codex 处理。",
+      "支持脚本调用：JSON 输出、每账号超时、明确退出码；批量查询失败后继续处理其余账号。",
+      "切换保留备份：同步较新凭据、原子替换当前登录、保留切换前副本，自动备份未命名的当前账号。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-26T10:10:29+00:00",
+  "categories": [
+    "failover",
+    "sharing"
+  ],
+  "primary_category": "sharing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

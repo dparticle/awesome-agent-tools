@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 659 |
-| Star velocity | 3.4/day (history basis, 5d span) |
+| Stars | 661 |
+| Star velocity | 2.6/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-02-20 |
-| Last push | 2026-10-19 (5 days ago) |
+| Last push | 2026-10-19 (6 days ago) |
 | Analyzed README | 27,197 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -86,7 +86,7 @@ Score **64/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 56.4 |
-| momentum | 2.8 |
+| momentum | 2.2 |
 | maintenance | 100.0 |
 | documentation | 64.0 |
 | accessibility | 36.0 |

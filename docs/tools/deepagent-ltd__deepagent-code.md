@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 433 |
-| Star velocity | 3.5/day (lifetime basis, 123d span) |
+| Star velocity | 3.5/day (lifetime basis, 124d span) |
 | Health score | 52/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-06-23 |
-| Last push | 2026-10-24 (0 days ago) |
+| Last push | 2026-10-24 (1 days ago) |
 | Analyzed README | 10,102 chars from `raw:HEAD/README.md` |
 
 ## What it solves

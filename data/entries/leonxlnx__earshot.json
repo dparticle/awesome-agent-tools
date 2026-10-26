@@ -6,8 +6,8 @@
   "url": "https://github.com/Leonxlnx/earshot",
   "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
   "homepage": "",
-  "stars": 2677,
-  "forks": 164,
+  "stars": 2837,
+  "forks": 172,
   "open_issues": 8,
   "language": "Python",
   "license": "MIT",
@@ -19,16 +19,16 @@
     "sound-design"
   ],
   "created_at": "2026-10-15T06:52:46Z",
-  "updated_at": "2026-10-25T09:05:21Z",
+  "updated_at": "2026-10-26T10:04:42Z",
   "pushed_at": "2026-10-22T23:12:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 10,
-  "days_since_push": 2,
+  "age_days": 11,
+  "days_since_push": 3,
   "health_score": 78,
   "health_components": {
-    "popularity": 68.6,
+    "popularity": 69.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 57.0,
@@ -36,10 +36,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2677,
-    "days_span": 10,
-    "stars_per_day": 267.7,
-    "lifetime_stars_per_day": 267.7,
+    "stars_gained": 2837,
+    "days_span": 11,
+    "stars_per_day": 257.91,
+    "lifetime_stars_per_day": 257.91,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -117,7 +117,7 @@
       "Real vs code-synthesized: held-out ROC-AUC 0.92 with whole sound families held out.",
       "Listening through a soundtrack: 93% of the sound effects placed in a 60 s film mix are detected as events (89%",
       "The launch preset (0.4) is for films cut to music.",
-      "Finding the moment: on a recording of 17 single key presses the found trims land on real key presses; in a"
+      "Matching descriptions (a held-out library of 125 real recordings, nothing tuned on it): in a library search a"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:29+00:00",
+  "fetched_at": "2026-10-26T10:09:16+00:00",
   "categories": [
     "desktop-ui"
   ],

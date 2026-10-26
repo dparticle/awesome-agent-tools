@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 137,598 |
-| Star velocity | 116.8/day (history basis, 5d span) |
-| Health score | 89/100 |
+| Stars | 137,769 |
+| Star velocity | 129.2/day (history basis, 5d span) |
+| Health score | 90/100 |
 | Documentation | 81/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-10-25 (0 days ago) |
-| Analyzed README | 89,210 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 89,810 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,11 +32,11 @@
 
 ### Multi-agent orchestration
 
-> use and re-verify before committing.
+> cause and re-verify before committing.
 
 ### Parallel execution
 
-> t patterns depending on whether it's a landing page, dashboard, form, or card layout.
+> etext patterns depending on whether it's a landing page, dashboard, form, or card layout.
 
 ### Workspace isolation
 
@@ -120,7 +120,7 @@ Score **81/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 100.0 |
-| momentum | 97.3 |
+| momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 81.0 |
 | accessibility | 43.0 |

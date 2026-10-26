@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 250 |
-| Star velocity | 1.8/day (history basis, 5d span) |
+| Stars | 256 |
+| Star velocity | 2.4/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 59/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-05-31 |
-| Last push | 2026-10-25 (0 days ago) |
+| Last push | 2026-10-26 (0 days ago) |
 | Analyzed README | 15,779 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** — Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (9/9).
@@ -94,8 +94,8 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 48.0 |
-| momentum | 1.5 |
+| popularity | 48.2 |
+| momentum | 2.0 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
 | accessibility | 100.0 |

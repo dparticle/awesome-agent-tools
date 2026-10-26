@@ -6,9 +6,9 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13720,
-  "forks": 1445,
-  "open_issues": 1158,
+  "stars": 13725,
+  "forks": 1447,
+  "open_issues": 1157,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,19 +19,19 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-25T08:54:46Z",
-  "pushed_at": "2026-10-23T06:07:41Z",
+  "updated_at": "2026-10-26T08:41:14Z",
+  "pushed_at": "2026-10-26T08:42:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 136,
-  "days_since_push": 2,
-  "health_score": 64,
+  "age_days": 137,
+  "days_since_push": 0,
+  "health_score": 63,
   "health_components": {
-    "popularity": 82.7,
+    "popularity": 82.8,
     "momentum": 4.7,
     "maintenance": 100.0,
-    "documentation": 62.0,
+    "documentation": 57.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
@@ -39,13 +39,13 @@
     "stars_gained": 28,
     "days_span": 5,
     "stars_per_day": 5.6,
-    "lifetime_stars_per_day": 100.88,
+    "lifetime_stars_per_day": 100.18,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "XiaomiMiMo/MiMo-Code",
-    "readme_chars": 26906,
+    "readme_chars": 27310,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -124,14 +124,13 @@
       "note_en": "Easy. install via Homebrew install, curl | sh installer; configure environment variables, API key configuration; GUI application",
       "note_zh": "较易上手。可通过 Homebrew install、curl | sh installer 安装；需配置 environment variables、API key configuration；GUI application"
     },
-    "doc_score": 62,
+    "doc_score": 57,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
       "has a quick-start section",
       "documents installation",
       "documents configuration",
-      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
       "reports benchmarks",
@@ -153,7 +152,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.149
+      "external_link_ratio": 0.146
     },
     "highlights": [
       "Cost tiers. OpenAI prices GPT-5.6 prompts above 272K input at 2x input and 1.5x output",
@@ -165,8 +164,8 @@
     "highlights_zh": [
       "计费档位。 OpenAI 对 GPT-5.6 超过 272K input 的请求按 2x input、1.5x output 计费，且作用于整个请求。",
       "让长任务成本可控：标准与旗舰模型自动路由，局部编辑只修改需要的部分；同会话缓存命中率最高 99%，跨会话最高 95%。",
-      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。",
-      "自定义 Provider — TUI 内添加任意 OpenAI 兼容 API"
+      "@ai-sdk/openai-compatible 适用于 OpenAI 兼容 API；使用其他通信协议的服务需要对应 Provider 的专用适配器。",
+      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。"
     ],
     "chinese_readme": "README.zh.md"
   },
@@ -175,13 +174,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:08+00:00",
+  "fetched_at": "2026-10-26T10:09:02+00:00",
   "categories": [
-    "security-self-hosting",
-    "sessions",
-    "voice"
+    "desktop-ui-2",
+    "parallelism-isolation",
+    "security-self-hosting"
   ],
-  "primary_category": "voice",
+  "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -7,7 +7,7 @@
   "description": "Enterprise Distributed Automation Platform for massive concurrent workload execution. Unifies elastic cluster orchestration, multi-channel identity verification messaging, real-time ops telemetry, and multi-warehouse lifecycle control (CPA / Sub2API / Image2API) in one high-throughput control plane.",
   "homepage": "",
   "stars": 1404,
-  "forks": 440,
+  "forks": 438,
   "open_issues": 12,
   "language": "",
   "license": "NOASSERTION",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 216,
-  "days_since_push": 64,
+  "age_days": 217,
+  "days_since_push": 65,
   "health_score": 49,
   "health_components": {
     "popularity": 62.9,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 6.5,
+    "lifetime_stars_per_day": 6.47,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:18+00:00",
+  "fetched_at": "2026-10-26T10:09:48+00:00",
   "categories": [
     "desktop-ui",
     "security"
@@ -158,14 +158,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 1.271,
-      "momentum_ratio": 14.0,
+      "star_ratio": 1.272,
+      "momentum_ratio": 12.0,
       "setup_delta": 3,
       "dominance": 0.79,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.27x the stars (1,785 vs 1,404)",
-        "14.00x the star velocity (2.8/day vs 0.2/day)",
+        "1.27x the stars (1,786 vs 1,404)",
+        "12.00x the star velocity (2.4/day vs 0.2/day)",
         "slightly heavier setup (+3 friction, within tolerance)"
       ],
       "reasons_zh": [],

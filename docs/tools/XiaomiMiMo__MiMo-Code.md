@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 13,720 |
+| Stars | 13,725 |
 | Star velocity | 5.6/day (history basis, 5d span) |
-| Health score | 64/100 |
-| Documentation | 62/100 |
+| Health score | 63/100 |
+| Documentation | 57/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-10 |
-| Last push | 2026-10-23 (2 days ago) |
-| Analyzed README | 26,906 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 27,310 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -93,14 +93,13 @@
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - has a quick-start section
 - documents installation
 - documents configuration
-- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - reports benchmarks
@@ -111,10 +110,10 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.7 |
+| popularity | 82.8 |
 | momentum | 4.7 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
+| documentation | 57.0 |
 | accessibility | 79.0 |
 
 ---

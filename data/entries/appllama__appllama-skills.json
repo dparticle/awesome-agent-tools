@@ -6,7 +6,7 @@
   "url": "https://github.com/Appllama/appllama-skills",
   "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
   "homepage": "https://appllama.io/mcp",
-  "stars": 3034,
+  "stars": 3045,
   "forks": 148,
   "open_issues": 1,
   "language": "",
@@ -33,27 +33,27 @@
     "ui-design"
   ],
   "created_at": "2026-08-13T07:19:54Z",
-  "updated_at": "2026-10-25T07:43:36Z",
+  "updated_at": "2026-10-26T09:13:58Z",
   "pushed_at": "2026-09-06T09:01:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 73,
-  "days_since_push": 49,
+  "age_days": 74,
+  "days_since_push": 50,
   "health_score": 54,
   "health_components": {
-    "popularity": 69.6,
-    "momentum": 23.2,
+    "popularity": 69.7,
+    "momentum": 25.2,
     "maintenance": 78.0,
     "documentation": 27.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 139,
+    "stars_gained": 151,
     "days_span": 5,
-    "stars_per_day": 27.8,
-    "lifetime_stars_per_day": 41.56,
+    "stars_per_day": 30.2,
+    "lifetime_stars_per_day": 41.15,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -132,7 +132,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:28+00:00",
+  "fetched_at": "2026-10-26T10:09:15+00:00",
   "categories": [
     "mobile-remote-control"
   ],

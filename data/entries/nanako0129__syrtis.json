@@ -6,7 +6,7 @@
   "url": "https://github.com/Nanako0129/syrtis",
   "description": "AI token usage & quota monitor for the macOS menu bar — native Swift, Liquid Glass, 3D contribution graph. Tracks Claude Code, Codex, Cursor, OpenCode & 25+ agents locally.",
   "homepage": "https://syrtis.nyanako.com/",
-  "stars": 502,
+  "stars": 503,
   "forks": 42,
   "open_issues": 14,
   "language": "Swift",
@@ -24,29 +24,29 @@
     "token-tracking"
   ],
   "created_at": "2026-06-10T05:08:47Z",
-  "updated_at": "2026-10-25T00:36:12Z",
-  "pushed_at": "2026-10-25T08:26:01Z",
+  "updated_at": "2026-10-26T05:41:23Z",
+  "pushed_at": "2026-10-26T08:56:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 137,
+  "age_days": 138,
   "days_since_push": 0,
-  "health_score": 53,
+  "health_score": 52,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 5.3,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 32,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 6.4,
-    "lifetime_stars_per_day": 3.66,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 3.64,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Nanako0129/syrtis",
@@ -137,7 +137,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:46+00:00",
+  "fetched_at": "2026-10-26T10:10:08+00:00",
   "categories": [
     "desktop-ui-2",
     "sharing"

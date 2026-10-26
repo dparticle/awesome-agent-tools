@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 348 |
-| Star velocity | 2.4/day (history basis, 5d span) |
+| Stars | 351 |
+| Star velocity | 2.6/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -21,14 +21,14 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-10 |
-| Last push | 2026-10-24 (0 days ago) |
-| Analyzed README | 18,800 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 19,146 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> 4 多人服务器上成员有自己的那份：模型渠道按需共享、能填自己的 Key，能建自己的专家，能起自己的助理名字和偏好
+> 己的那份：模型渠道按需共享、能填自己的 Key，能建自己的专家，能起自己的助理名字和偏好
 
 ### Quota & usage management
 
@@ -38,27 +38,29 @@
 
 ### Workspace isolation
 
-> - 10-20 通知已读后不再反复提醒；区分本轮结束、停止和未完成；生成网页增加脚本语法检查，视频输出避免覆盖 - 10-20 源码更新先检查 Git 状态；有本地改动或分叉时保留原目录，避免更新时覆盖会话和成果 - 10-19 技术架构图按实际调用关系重画，改用可缩放 SVG，保证节点文字完整显示 - 10-19 任务可改名并显示日期；Goal 模式单轮 100 步后检查未完成项并有限续跑；沙箱拒绝会说明无法后台审批 - 10-19…
+> 已读后不再反复提醒；区分本轮结束、停止和未完成；生成网页增加脚本语法检查，视频输出避免覆盖
+
+### Model / provider routing
 
 ### API gateway / proxy
 
 ### MCP support
 
-> agent 主循环怎么转的 参与贡献 项目结构、测试、提 PR
+> 图怎么做出来的 多人协作 多租户、账号、权限、额度
 
 ### Security & isolation
 
-> 知已读后不再反复提醒；区分本轮结束、停止和未完成；生成网页增加脚本语法检查，视频输出避免覆盖
+> 分本轮结束、停止和未完成；生成网页增加脚本语法检查，视频输出避免覆盖
 
 ### Self-hostable
 
 ### GUI / desktop app
 
-> 简洁图形生成 PPT，不需要生图、视频、消息渠道或额外连接器；准备 PowerPoint、WPS 或 LibreOffice，方便下载后打开检查。
+> 成 PPT，不需要生图、视频、消息渠道或额外连接器；准备 PowerPoint、WPS 或 LibreOffice，方便下载后打开检查。
 
 ### Notifications
 
-> 20 文件链接按原项目定位，外部文件按完整路径打开；修复同名串页、部署串目录和切换预览时的迟到覆盖
+> 带进地图，站名和卡上一样；国内默认用高德打开，旁边能换成 Google（上面第二张就是），国外开 Google 地图；「发到手机」出二维码，扫了在手机上接着走。
 
 ### Cross-agent support
 
@@ -98,8 +100,8 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.8 |
-| momentum | 2.0 |
+| popularity | 50.9 |
+| momentum | 2.2 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 63.0 |

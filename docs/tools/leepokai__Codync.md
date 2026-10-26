@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 803 |
-| Star velocity | 3.6/day (lifetime basis, 220d span) |
-| Health score | 57/100 |
+| Stars | 892 |
+| Star velocity | 4.0/day (lifetime basis, 221d span) |
+| Health score | 58/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-18 |
-| Last push | 2026-10-25 (0 days ago) |
-| Analyzed README | 22,248 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 21,629 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -60,18 +60,18 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Copilot, Cursor
+> Mentions Amp, Claude Code, Codex, Copilot
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 15/100)
+- **Difficulty:** 🟢 Turnkey (friction score 9/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/leepokai/Codync/main/packaging/install.sh | sh`
 
 **Signals that make it easy:** uvx one-liner, Homebrew install, curl | sh installer, native installer / package
 
-**Configuration required:** sign-in required, database dependency, database migration, process manager
+**Configuration required:** sign-in required, database dependency, process manager
 
 *Turnkey. install via uvx one-liner, Homebrew install; configure sign-in required, database dependency; GUI application*
 
@@ -95,11 +95,11 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.1 |
-| momentum | 3.0 |
+| popularity | 59.0 |
+| momentum | 3.4 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
-| accessibility | 85.0 |
+| accessibility | 91.0 |
 
 ---
 

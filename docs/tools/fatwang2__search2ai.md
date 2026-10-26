@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 1,282 |
-| Star velocity | 1.2/day (lifetime basis, 1042d span) |
+| Star velocity | 1.2/day (lifetime basis, 1043d span) |
 | Health score | 51/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2023-12-18 |
-| Last push | 2026-10-22 (2 days ago) |
+| Last push | 2026-10-22 (3 days ago) |
 | Analyzed README | 25,798 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
 
 ## What it solves
 

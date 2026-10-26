@@ -4,11 +4,11 @@
   "name": "0",
   "owner": "0sec-labs",
   "url": "https://github.com/0sec-labs/0",
-  "description": "Open-source AI security harness with a local web UI for code review, vulnerability research, verification, and fixes. CLI and MCP for coding agents.",
+  "description": "Open-source AI security harness. Includes a web UI for code analysis, pentesting, vulnerability research, reverse engineering, verification, and fixing + CLI and MCP for agents.",
   "homepage": "https://0.security",
-  "stars": 516,
+  "stars": 520,
   "forks": 57,
-  "open_issues": 12,
+  "open_issues": 14,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -26,12 +26,12 @@
     "vulnerability-scanner"
   ],
   "created_at": "2026-08-19T07:54:37Z",
-  "updated_at": "2026-10-24T21:30:27Z",
-  "pushed_at": "2026-10-24T21:30:25Z",
+  "updated_at": "2026-10-26T03:01:18Z",
+  "pushed_at": "2026-10-26T03:18:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 67,
+  "age_days": 68,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
@@ -43,10 +43,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 516,
-    "days_span": 67,
-    "stars_per_day": 7.7,
-    "lifetime_stars_per_day": 7.7,
+    "stars_gained": 520,
+    "days_span": 68,
+    "stars_per_day": 7.65,
+    "lifetime_stars_per_day": 7.65,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -118,7 +118,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:45+00:00",
+  "fetched_at": "2026-10-26T10:10:06+00:00",
   "categories": [
     "desktop-ui-2"
   ],

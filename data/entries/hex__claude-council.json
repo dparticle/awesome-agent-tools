@@ -6,9 +6,9 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 904,
+  "stars": 908,
   "forks": 107,
-  "open_issues": 3,
+  "open_issues": 1,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -31,19 +31,19 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-24T22:19:39Z",
-  "pushed_at": "2026-10-25T07:53:25Z",
+  "updated_at": "2026-10-26T01:06:49Z",
+  "pushed_at": "2026-10-25T19:33:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 311,
+  "age_days": 312,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
-    "popularity": 59.1,
+    "popularity": 59.2,
     "momentum": 1.7,
     "maintenance": 100.0,
-    "documentation": 45.0,
+    "documentation": 46.0,
     "accessibility": 64.0
   },
   "tier": "notable",
@@ -57,7 +57,7 @@
   },
   "analysis": {
     "full_name": "hex/claude-council",
-    "readme_chars": 6490,
+    "readme_chars": 8997,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -65,16 +65,16 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "agy (Antigravity), grok, kimi, and cursor-agent CLIs use",
+      "multi-agent-orchestration": "",
       "model-routing": "",
       "agent-runtime": "",
-      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
       "multi-agent-orchestration": 1,
       "model-routing": 1,
       "agent-runtime": 1,
-      "cross-agent-support": 3
+      "cross-agent-support": 5
     },
     "friction": {
       "level": "low",
@@ -95,7 +95,7 @@
       "note_en": "Easy. configure database dependency",
       "note_zh": "较易上手。需配置 database dependency"
     },
-    "doc_score": 45,
+    "doc_score": 46,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -108,7 +108,9 @@
     "agents": [
       "Claude Code",
       "Codex",
-      "Cursor"
+      "OpenCode",
+      "Cursor",
+      "Copilot"
     ],
     "summary_en": "A Claude Code plugin that asks AI coding agents the same question in parallel.",
     "summary_zh": "",
@@ -118,9 +120,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.154
+      "external_link_ratio": 0.111
     },
-    "highlights": [],
+    "highlights": [
+      "kill -0 to check a council run is still alive.",
+      "codex debug models during /heads-up setup with the codex seat, to list"
+    ],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -130,11 +135,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:29+00:00",
+  "fetched_at": "2026-10-26T10:09:55+00:00",
   "categories": [
     "desktop-ui",
-    "model-routing",
-    "sessions"
+    "model-routing"
   ],
   "primary_category": "model-routing",
   "lifecycle": {

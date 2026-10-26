@@ -6,9 +6,9 @@
   "url": "https://github.com/loopx-project/loopx",
   "description": "Turn long-horizon goals into verifiable results. A local-first semantic control plane and research workbench for long-running agent teams, across sessions and runtimes.",
   "homepage": "https://loopx-project.github.io/loopx/",
-  "stars": 6421,
+  "stars": 6431,
   "forks": 612,
-  "open_issues": 151,
+  "open_issues": 155,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -22,37 +22,36 @@
     "local-first",
     "long-horizon-agents",
     "multi-agent",
-    "rsi",
-    "trajectory-analysis"
+    "rsi"
   ],
   "created_at": "2026-05-31T14:58:56Z",
-  "updated_at": "2026-10-25T08:58:23Z",
-  "pushed_at": "2026-10-25T08:58:18Z",
+  "updated_at": "2026-10-26T10:00:50Z",
+  "pushed_at": "2026-10-26T10:04:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
+  "age_days": 147,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 76.2,
-    "momentum": 8.0,
+    "momentum": 8.2,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 66.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 48,
+    "stars_gained": 49,
     "days_span": 5,
-    "stars_per_day": 9.6,
-    "lifetime_stars_per_day": 43.98,
+    "stars_per_day": 9.8,
+    "lifetime_stars_per_day": 43.75,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "loopx-project/loopx",
-    "readme_chars": 54003,
+    "readme_chars": 54149,
     "capabilities": [
       "quota-management",
       "mobile-access",
@@ -74,7 +73,7 @@
       "mobile-access": 1,
       "multi-agent-orchestration": 3,
       "usage-analytics": 2,
-      "team-collaboration": 1,
+      "team-collaboration": 2,
       "cross-agent-support": 4
     },
     "friction": {
@@ -138,7 +137,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.055
+      "external_link_ratio": 1.071
     },
     "highlights": [
       "2026-10-20 · 🚀 LoopX 2.0 — A shared TypeScript control plane and long-horizon research workbench.",
@@ -160,10 +159,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:19+00:00",
+  "fetched_at": "2026-10-26T10:09:10+00:00",
   "categories": [
-    "analytics-2",
-    "providers-2"
+    "analytics-2"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

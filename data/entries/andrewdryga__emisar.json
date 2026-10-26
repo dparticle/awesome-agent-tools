@@ -30,12 +30,12 @@
   ],
   "created_at": "2026-05-19T01:21:19Z",
   "updated_at": "2026-10-24T08:40:06Z",
-  "pushed_at": "2026-10-23T20:11:47Z",
+  "pushed_at": "2026-10-26T09:32:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 159,
-  "days_since_push": 1,
+  "age_days": 160,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 50.4,
@@ -47,9 +47,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 330,
-    "days_span": 159,
-    "stars_per_day": 2.08,
-    "lifetime_stars_per_day": 2.08,
+    "days_span": 160,
+    "stars_per_day": 2.06,
+    "lifetime_stars_per_day": 2.06,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -137,7 +137,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:13:03+00:00",
+  "fetched_at": "2026-10-26T10:10:21+00:00",
   "categories": [
     "security"
   ],

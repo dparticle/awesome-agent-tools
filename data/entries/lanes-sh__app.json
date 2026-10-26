@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 216,
-  "days_since_push": 18,
+  "age_days": 217,
+  "days_since_push": 19,
   "health_score": 48,
   "health_components": {
     "popularity": 48.8,
@@ -51,7 +51,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.28,
+    "lifetime_stars_per_day": 1.27,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:13:13+00:00",
+  "fetched_at": "2026-10-26T10:10:28+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.297,
-      "momentum_ratio": 98.0,
+      "star_ratio": 122.388,
+      "momentum_ratio": 109.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.30x the stars (33,754 vs 276)",
-        "98.00x the star velocity (19.6/day vs 0.2/day)",
+        "122.39x the stars (33,779 vs 276)",
+        "109.00x the star velocity (21.8/day vs 0.2/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -217,7 +217,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 71,
+        "challenger_health": 72,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2
       }

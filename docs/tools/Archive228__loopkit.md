@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2026-06-30 |
-| Last push | 2026-07-14 (102 days ago) |
+| Last push | 2026-07-14 (103 days ago) |
 | Analyzed README | 15,078 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).
 
 ## What it solves
 

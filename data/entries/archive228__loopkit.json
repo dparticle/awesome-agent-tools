@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 117,
-  "days_since_push": 102,
+  "age_days": 118,
+  "days_since_push": 103,
   "health_score": 45,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.45,
+    "lifetime_stars_per_day": 6.4,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:34+00:00",
+  "fetched_at": "2026-10-26T10:10:00+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -136,15 +136,15 @@
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "huytieu/COG-second-brain",
+    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "archive228/loopkit",
-      "challenger": "huytieu/cog-second-brain",
+      "challenger": "thedivergentai/game-dev-agentic-skills",
       "incumbent_name": "Archive228/loopkit",
-      "challenger_name": "huytieu/COG-second-brain",
+      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -156,15 +156,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.744,
-      "momentum_ratio": 52.0,
-      "setup_delta": 12,
-      "dominance": 0.817,
+      "star_ratio": 1.183,
+      "momentum_ratio": 68.0,
+      "setup_delta": 2,
+      "dominance": 0.778,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.74x the stars (1,317 vs 755)",
-        "52.00x the star velocity (2.6/day vs 0.0/day)",
-        "slightly heavier setup (+12 friction, within tolerance)"
+        "1.18x the stars (893 vs 755)",
+        "68.00x the star velocity (3.4/day vs 0.0/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,15 +181,14 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
-          "skills-plugins",
-          "team-collaboration"
+          "parallel-execution",
+          "skills-plugins"
         ],
         "incumbent_health": 45,
-        "challenger_health": 57,
+        "challenger_health": 56,
         "incumbent_setup_score": 19,
-        "challenger_setup_score": 31
+        "challenger_setup_score": 21
       }
     }
   }

@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 371,
-  "days_since_push": 42,
+  "age_days": 372,
+  "days_since_push": 43,
   "health_score": 50,
   "health_components": {
     "popularity": 60.9,
-    "momentum": 0.3,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 68.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.98,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 2.97,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -157,13 +157,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:24+00:00",
+  "fetched_at": "2026-10-26T10:09:52+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
     "mobile-remote-control"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

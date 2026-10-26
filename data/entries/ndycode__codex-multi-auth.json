@@ -6,7 +6,7 @@
   "url": "https://github.com/ndycode/codex-multi-auth",
   "description": "Codex CLI multi-account OAuth manager with account switching, health checks, runtime rotation, diagnostics, and recovery tools for @openai/codex",
   "homepage": "https://www.npmjs.com/package/codex-multi-auth",
-  "stars": 555,
+  "stars": 556,
   "forks": 72,
   "open_issues": 3,
   "language": "TypeScript",
@@ -34,26 +34,26 @@
     "typescript"
   ],
   "created_at": "2026-02-22T22:37:04Z",
-  "updated_at": "2026-10-24T06:04:02Z",
+  "updated_at": "2026-10-26T06:11:00Z",
   "pushed_at": "2026-10-20T15:19:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 244,
-  "days_since_push": 4,
+  "age_days": 245,
+  "days_since_push": 5,
   "health_score": 53,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.2,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 2.27,
     "basis": "history",
     "is_fast_riser": false
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:42+00:00",
+  "fetched_at": "2026-10-26T10:10:04+00:00",
   "categories": [
     "sharing"
   ],
@@ -175,14 +175,14 @@
         "multi-account-switching",
         "voice-input"
       ],
-      "star_ratio": 34.804,
-      "momentum_ratio": 180.0,
+      "star_ratio": 34.829,
+      "momentum_ratio": 62.667,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "34.80x the stars (19,316 vs 555)",
-        "180.00x the star velocity (36.0/day vs 0.2/day)",
+        "34.83x the stars (19,365 vs 556)",
+        "62.67x the star velocity (37.6/day vs 0.6/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],

@@ -6,8 +6,8 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 2670,
-  "forks": 195,
+  "stars": 2962,
+  "forks": 233,
   "open_issues": 2,
   "language": "Python",
   "license": "MIT",
@@ -34,33 +34,33 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-10-25T08:58:22Z",
-  "pushed_at": "2026-10-25T06:29:32Z",
+  "updated_at": "2026-10-26T10:08:03Z",
+  "pushed_at": "2026-10-26T00:24:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 51,
+  "age_days": 52,
   "days_since_push": 0,
-  "health_score": 73,
+  "health_score": 74,
   "health_components": {
-    "popularity": 68.5,
-    "momentum": 43.6,
+    "popularity": 69.4,
+    "momentum": 47.5,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 2670,
-    "days_span": 51,
-    "stars_per_day": 52.35,
-    "lifetime_stars_per_day": 52.35,
+    "stars_gained": 2962,
+    "days_span": 52,
+    "stars_per_day": 56.96,
+    "lifetime_stars_per_day": 56.96,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kajisho5/ffmpeg-skill",
-    "readme_chars": 89523,
+    "readme_chars": 92484,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -143,7 +143,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.223
+      "external_link_ratio": 0.216
     },
     "highlights": [
       "Loudness targets. −14 LUFS / −1 dBTP for YouTube and social platforms (the loudness.py default), -I -16 --tp -1.5 for podcasts, -I -23 for broadcast. A clip measured at −40 LUFS or below is…",
@@ -160,83 +160,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:30+00:00",
+  "fetched_at": "2026-10-26T10:09:16+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "security-self-hosting"
+    "desktop-ui-2"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "kajisho5/ffmpeg-skill",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "kajisho5/ffmpeg-skill",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "security-isolation",
-        "skills-plugins"
-      ],
-      "star_ratio": 107.985,
-      "momentum_ratio": 15.064,
-      "setup_delta": 7,
-      "dominance": 0.965,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "107.99x the stars (288,321 vs 2,670)",
-        "15.06x the star velocity (788.6/day vs 52.4/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 73,
-        "challenger_health": 89,
-        "incumbent_setup_score": 50,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

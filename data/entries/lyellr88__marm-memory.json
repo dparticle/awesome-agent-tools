@@ -6,7 +6,7 @@
   "url": "https://github.com/Lyellr88/marm-memory",
   "description": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indexing & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall, supports multi-agent swarms.",
   "homepage": "https://lyellr88.github.io/marm-memory",
-  "stars": 422,
+  "stars": 424,
   "forks": 95,
   "open_issues": 19,
   "language": "Python",
@@ -34,26 +34,26 @@
     "sqlite"
   ],
   "created_at": "2025-06-10T06:36:49Z",
-  "updated_at": "2026-10-23T10:16:19Z",
+  "updated_at": "2026-10-25T20:04:25Z",
   "pushed_at": "2026-10-23T10:16:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 502,
-  "days_since_push": 1,
+  "age_days": 503,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
     "popularity": 52.5,
-    "momentum": 0.0,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 0.84,
     "basis": "history",
     "is_fast_riser": false
@@ -196,27 +196,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:56+00:00",
+  "fetched_at": "2026-10-26T10:10:14+00:00",
   "categories": [
-    "model-routing",
-    "security-self-hosting",
-    "sessions"
+    "desktop-ui-2",
+    "security",
+    "security-self-hosting"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (12/12).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (12/12)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (12/12).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (12/12)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "lyellr88/marm-memory",
-      "challenger": "affaan-m/ecc",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "Lyellr88/marm-memory",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -232,15 +232,15 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 683.225,
-      "momentum_ratio": 15772.0,
-      "setup_delta": 9,
-      "dominance": 0.955,
+      "star_ratio": 70.512,
+      "momentum_ratio": 80.5,
+      "setup_delta": -16,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (12/12)",
-        "683.23x the stars (288,321 vs 422)",
-        "15772.00x the star velocity (788.6/day vs 0.0/day)",
-        "slightly heavier setup (+9 friction, within tolerance)"
+        "70.51x the stars (29,897 vs 424)",
+        "80.50x the star velocity (32.2/day vs 0.4/day)",
+        "no harder to set up (32 vs 48 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -262,6 +262,7 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -269,17 +270,17 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "parallel-execution",
+          "quota-management",
           "security-isolation",
           "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "worktree-isolation"
+          "team-collaboration"
         ],
         "incumbent_health": 54,
-        "challenger_health": 89,
+        "challenger_health": 71,
         "incumbent_setup_score": 48,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 32
       }
     }
   }

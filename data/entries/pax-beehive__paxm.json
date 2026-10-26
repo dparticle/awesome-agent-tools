@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 108,
-  "days_since_push": 57,
+  "age_days": 109,
+  "days_since_push": 58,
   "health_score": 47,
   "health_components": {
     "popularity": 49.0,
@@ -41,9 +41,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 283,
-    "days_span": 108,
-    "stars_per_day": 2.62,
-    "lifetime_stars_per_day": 2.62,
+    "days_span": 109,
+    "stars_per_day": 2.6,
+    "lifetime_stars_per_day": 2.6,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -148,17 +148,80 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:13:13+00:00",
+  "fetched_at": "2026-10-26T10:10:28+00:00",
   "categories": [
-    "security-self-hosting",
-    "sessions"
+    "security-self-hosting"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "pax-beehive/paxm",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "pax-beehive/paxm",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "security-isolation",
+        "self-hosted",
+        "session-persistence"
+      ],
+      "star_ratio": 105.643,
+      "momentum_ratio": 12.385,
+      "setup_delta": -8,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "105.64x the stars (29,897 vs 283)",
+        "12.38x the star velocity (32.2/day vs 2.6/day)",
+        "no harder to set up (32 vs 40 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 71,
+        "incumbent_setup_score": 40,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

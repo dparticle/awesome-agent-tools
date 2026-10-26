@@ -2,7 +2,7 @@
 
 # rohitg00/agentmemory
 
-> Your coding agent remembers everything.
+> Persistent memory across coding sessions and agents.
 
 [Repository](https://github.com/rohitg00/agentmemory) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 29,874 |
-| Star velocity | 34.4/day (history basis, 5d span) |
+| Stars | 29,897 |
+| Star velocity | 32.2/day (history basis, 5d span) |
 | Health score | 71/100 |
-| Documentation | 70/100 |
+| Documentation | 73/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-25 |
-| Last push | 2026-10-25 (0 days ago) |
-| Analyzed README | 129,371 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 93,763 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,11 +42,17 @@
 
 ### API gateway / proxy
 
+> UTOCOMPRESS=true; it can make a request for each captured observation, so check your provider's current pricing before enabling it.
+
 ### Billing & metering
+
+### Session persistence
+
+> hese work like sticky notes.
 
 ### Memory & context
 
-> By default, agentmemory stores iii-engine state outside the repository you start it from: ~/Library/Application Support/agentmemory on macOS, $XDGDATAHOME/agentmemory or ~/.local/share/agentmemory on Linux, and %APPDATA…
+> Persistent memory across coding sessions and agents.
 
 ### Skills & plugins
 
@@ -54,27 +60,27 @@
 
 ### Agent runtime
 
-> Your coding agent remembers everything.
+> hit in default keyless mode through BM25.
 
 ### MCP support
 
-> rch: agentmemory is the implementation.
+> memory across coding sessions and agents.
 
 ### Security & isolation
 
-> s the same, and what differs.** Every agentmemory feature works on Redis: sessions, observations, memories (remember, supersede, evolve, forget), search and the index buckets, lessons, the graph, the audit log and its m…
+> memoryclaudebridgesync Read MEMORY.md or create a project export, preserving existing files
 
 ### Self-hostable
 
-> autostopmachines = "stop"; cheapest idle.
+> agnostics:* Run agentmemory doctor or restart with --verbose.
 
 ### Team collaboration
 
-> ge** Read MEMORY.md and export project memories without replacing existing files
+> bridge* Read MEMORY.md and export project memories without replacing existing files
 
 ### GUI / desktop app
 
-> acOS/Linux automatic iii-engine installation also needs curl, a POSIX sh, and tar.
+> iii-engine v0.25.0 binary installed manually; download the matching archive from the iii v0.25.0 release page, verify its checksum, and place iii.exe on PATH (for example %USERPROFILE%\.local\bin\iii.exe).
 
 ### Notifications
 
@@ -91,23 +97,24 @@
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx -y @agentmemory/agentmemory@latest`
 
-**Signals that make it easy:** npx one-liner, pip install, global npm install, native installer / package
+**Signals that make it easy:** npx one-liner, global npm install, native installer / package
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** environment variables, API key configuration, config file, config.json/yaml/toml, config file, sign-in required, database dependency, database migration, process manager
+**Configuration required:** environment variables, API key configuration, config file, config.json/yaml/toml, sign-in required, database dependency, database migration
 
-*Easy. install via npx one-liner, pip install; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; no code needed*
+*Easy. install via npx one-liner, global npm install; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; no code needed*
 
 ## Documentation quality
 
-Score **70/100**, based on these detected signals:
+Score **73/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - has a quick-start section
 - documents installation
 - documents configuration
+- has contribution guidance
 - mentions licensing
 - links to dedicated docs
 - has a Chinese translation
@@ -121,9 +128,9 @@ Score **70/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 89.5 |
-| momentum | 28.7 |
+| momentum | 26.8 |
 | maintenance | 100.0 |
-| documentation | 70.0 |
+| documentation | 73.0 |
 | accessibility | 68.0 |
 
 ---

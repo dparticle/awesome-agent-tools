@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,001 |
-| Star velocity | 26.6/day (history basis, 5d span) |
+| Stars | 8,022 |
+| Star velocity | 26.0/day (history basis, 5d span) |
 | Health score | 70/100 |
 | Documentation | 67/100 |
 | Tier | ✅ Recommended |
@@ -21,22 +21,22 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-27 |
-| Last push | 2026-10-25 (0 days ago) |
-| Analyzed README | 22,868 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 24,328 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> github.com/user-attachments/assets/857a2195-34b8-4720-87af-f71bca3dec92
+> ub.com/user-attachments/assets/857a2195-34b8-4720-87af-f71bca3dec92
 
 ### Skills & plugins
 
-> ntegration uses that agent's native capabilities, so available features such as delegation and RDD review can differ.
+> tion uses that agent's native capabilities, so available features such as delegation and RDD review can differ.
 
 ### MCP support
 
-> uch as delegation and RDD review can differ.
+> egation and RDD review can differ.
 
 ### Cross-agent support
 
@@ -77,7 +77,7 @@ Score **67/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 78.1 |
-| momentum | 22.2 |
+| momentum | 21.7 |
 | maintenance | 100.0 |
 | documentation | 67.0 |
 | accessibility | 100.0 |

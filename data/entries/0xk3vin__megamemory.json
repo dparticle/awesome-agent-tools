@@ -6,7 +6,7 @@
   "url": "https://github.com/0xK3vin/MegaMemory",
   "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
   "homepage": "",
-  "stars": 726,
+  "stars": 727,
   "forks": 74,
   "open_issues": 4,
   "language": "TypeScript",
@@ -29,17 +29,17 @@
     "typescript"
   ],
   "created_at": "2026-02-06T07:40:49Z",
-  "updated_at": "2026-10-22T19:28:28Z",
+  "updated_at": "2026-10-26T00:15:31Z",
   "pushed_at": "2026-05-03T00:22:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 261,
-  "days_since_push": 175,
+  "age_days": 262,
+  "days_since_push": 176,
   "health_score": 43,
   "health_components": {
     "popularity": 57.2,
-    "momentum": 0.1,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 44.0,
     "accessibility": 72.0
@@ -47,9 +47,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 1,
-    "days_span": 8,
-    "stars_per_day": 0.12,
-    "lifetime_stars_per_day": 2.78,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.77,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,16 +139,76 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:35+00:00",
+  "fetched_at": "2026-10-26T10:10:00+00:00",
   "categories": [
     "security-self-hosting"
   ],
   "primary_category": "security-self-hosting",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "0xk3vin/megamemory",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "0xK3vin/MegaMemory",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "session-persistence"
+      ],
+      "star_ratio": 41.124,
+      "momentum_ratio": 161.0,
+      "setup_delta": 4,
+      "dominance": 0.98,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "41.12x the stars (29,897 vs 727)",
+        "161.00x the star velocity (32.2/day vs 0.2/day)",
+        "slightly heavier setup (+4 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 43,
+        "challenger_health": 71,
+        "incumbent_setup_score": 28,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

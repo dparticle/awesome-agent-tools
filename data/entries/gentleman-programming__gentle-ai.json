@@ -6,9 +6,9 @@
   "url": "https://github.com/Gentleman-Programming/gentle-ai",
   "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
   "homepage": "https://gentlemanprogramming.com/",
-  "stars": 8001,
-  "forks": 863,
-  "open_issues": 1005,
+  "stars": 8022,
+  "forks": 865,
+  "open_issues": 997,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -31,33 +31,33 @@
     "spec-driven-development"
   ],
   "created_at": "2026-02-27T23:28:01Z",
-  "updated_at": "2026-10-25T09:08:16Z",
-  "pushed_at": "2026-10-25T09:09:43Z",
+  "updated_at": "2026-10-26T09:13:07Z",
+  "pushed_at": "2026-10-26T04:03:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 239,
+  "age_days": 240,
   "days_since_push": 0,
   "health_score": 70,
   "health_components": {
     "popularity": 78.1,
-    "momentum": 22.2,
+    "momentum": 21.7,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 133,
+    "stars_gained": 130,
     "days_span": 5,
-    "stars_per_day": 26.6,
-    "lifetime_stars_per_day": 33.48,
+    "stars_per_day": 26.0,
+    "lifetime_stars_per_day": 33.42,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Gentleman-Programming/gentle-ai",
-    "readme_chars": 22868,
+    "readme_chars": 24328,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -65,9 +65,9 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "github.com/user-attachments/assets/857a2195-34b8-4720-87af-f71bca3dec92",
-      "skills-plugins": "ntegration uses that agent's native capabilities, so available features such as delegation and RDD review can differ.",
-      "mcp-support": "uch as delegation and RDD review can differ.",
+      "multi-agent-orchestration": "ub.com/user-attachments/assets/857a2195-34b8-4720-87af-f71bca3dec92",
+      "skills-plugins": "tion uses that agent's native capabilities, so available features such as delegation and RDD review can differ.",
+      "mcp-support": "egation and RDD review can differ.",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
@@ -92,7 +92,10 @@
         "database migration"
       ],
       "friendliness_signals": [],
-      "platforms": [],
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
       "note_en": "Turnkey. install via Homebrew install, go install; configure database migration",
       "note_zh": "开箱即用。可通过 Homebrew install、go install 安装；需配置 database migration"
     },
@@ -128,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.35
+      "external_link_ratio": 0.329
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -140,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:58+00:00",
+  "fetched_at": "2026-10-26T10:09:34+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

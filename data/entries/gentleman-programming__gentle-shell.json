@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "full_name": "Gentleman-Programming/gentle-shell",
+  "name": "gentle-shell",
+  "owner": "Gentleman-Programming",
+  "url": "https://github.com/Gentleman-Programming/gentle-shell",
+  "description": "Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel coding agents, live tasks, Git diffs, persistent memory, and permission controls into one terminal interface. Powered by Gentle AI and Organic Driven Development (ODD).",
+  "homepage": "https://gentle-ai.gentlemanprogramming.com/",
+  "stars": 1431,
+  "forks": 225,
+  "open_issues": 821,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-harness",
+    "agent-skills",
+    "ai-agents",
+    "ai-coding",
+    "ai-coding-agent",
+    "code-review",
+    "coding-agents",
+    "developer-tools",
+    "gentle-ai",
+    "llm",
+    "mcp",
+    "openspec",
+    "pi",
+    "pi-coding-agent",
+    "rdd",
+    "sdd",
+    "spec-driven-development",
+    "subagents",
+    "tdd"
+  ],
+  "created_at": "2026-05-10T10:11:33Z",
+  "updated_at": "2026-10-26T09:04:52Z",
+  "pushed_at": "2026-10-26T03:26:51Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 168,
+  "days_since_push": 0,
+  "health_score": 59,
+  "health_components": {
+    "popularity": 63.1,
+    "momentum": 7.1,
+    "maintenance": 100.0,
+    "documentation": 63.0,
+    "accessibility": 78.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1431,
+    "days_span": 168,
+    "stars_per_day": 8.52,
+    "lifetime_stars_per_day": 8.52,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Gentleman-Programming/gentle-shell",
+    "readme_chars": 55692,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "model-routing",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "notifications",
+      "voice-input"
+    ],
+    "capability_evidence": {
+      "auto-failover": "ot is mapped to a \\\\wsl.localhost\\ \\...",
+      "multi-agent-orchestration": "e, and a bounded work classification that other sessions can list, search, and consult with explicit cost permission.",
+      "parallel-execution": "creen two-pane viewer with per-file line counts and lazy diffs, F hides the file list to read the diff at full width, and o drops the real file into your editor.",
+      "worktree-isolation": "in every worktree to find out what your agents left behind.",
+      "model-routing": "ive transport preference when an acknowledged individual or grouped capture executes.",
+      "memory-context": "how Pi routes and presents work.",
+      "skills-plugins": "Native authority architecture Ownership boundaries and review architecture.",
+      "agent-runtime": "Website &nbsp;·&nbsp; Quickstart &nbsp;·&nbsp; Docs &nbsp;·&nbsp; Wiki Your terminal can run an agent.",
+      "mcp-support": "inspect at most two complete files (inspection limits).",
+      "gui-desktop": "nd the standard C:\\Windows root and otherwise falls back to the trusted Linux CLI before any playback.",
+      "notifications": "r cancel with any other key; Esc returns without applying a preview.",
+      "voice-input": "le:music [mood] opens the gentle-stream player full screen; b returns to Pi with the music playing."
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 4,
+      "parallel-execution": 1,
+      "worktree-isolation": 2,
+      "model-routing": 1,
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 3,
+      "mcp-support": 2,
+      "gui-desktop": 2,
+      "notifications": 3,
+      "voice-input": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "download a release binary",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "pnpm install/build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via download a release binary, native installer / package; needs git clone (build from source), pnpm install/build; configure sign-in required, database migration; GUI application",
+      "note_zh": "较易上手。可通过 download a release binary、native installer / package 安装；需要 git clone (build from source)、pnpm install/build；需配置 sign-in required、database migration；GUI application"
+    },
+    "doc_score": 63,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "One prompt, from idea to reviewed commit: memory, workflow, and evidence in a real session.",
+    "summary_zh": "",
+    "install_hint": "npm i -g gentle-pi",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.341
+    },
+    "highlights": [
+      "Output caps: The provider configures maxTokens caps rather than claiming undocumented model maxima: 32,768 for GLM 5.3, GLM 5.3 Flash, and MiMo; 16,384 for DeepSeek V4 Flash; 65,536 for Gem…",
+      "OGG/FLAC keep the legacy CLI backend (paplay/pw-play/aplay) on Linux and WSL; native codecs are a future phase and Windows OGG/FLAC is unsupported.",
+      "Inside WSL the Windows system SoundPlayer is preferred instead: the validated WAV snapshot is mapped to a \\\\wsl.localhost\\ \\...",
+      "Controls: Enter toggles the master switch or cycles a type/event through silence/success/error/attention, f assigns a literal absolute local WAV/OGG/FLAC sound (≤2 MiB, ≤10 seconds) to the…"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-26T10:09:45+00:00",
+  "categories": [
+    "desktop-ui",
+    "desktop-ui-2",
+    "parallelism-isolation"
+  ],
+  "primary_category": "parallelism-isolation",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

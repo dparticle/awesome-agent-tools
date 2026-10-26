@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,789 |
-| Star velocity | 4.8/day (history basis, 5d span) |
+| Stars | 2,795 |
+| Star velocity | 5.6/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 68/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-02-09 |
-| Last push | 2026-10-23 (1 days ago) |
+| Last push | 2026-10-26 (0 days ago) |
 | Analyzed README | 29,310 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -90,7 +90,7 @@ Score **68/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 68.9 |
-| momentum | 4.0 |
+| momentum | 4.7 |
 | maintenance | 100.0 |
 | documentation | 68.0 |
 | accessibility | 51.0 |

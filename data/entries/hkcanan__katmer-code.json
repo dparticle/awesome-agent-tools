@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 216,
-  "days_since_push": 40,
+  "age_days": 217,
+  "days_since_push": 41,
   "health_score": 46,
   "health_components": {
     "popularity": 53.5,
@@ -42,9 +42,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 6,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.2,
+    "lifetime_stars_per_day": 2.19,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,79 +150,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:49+00:00",
+  "fetched_at": "2026-10-26T10:10:10+00:00",
   "categories": [
-    "desktop-ui-2",
-    "security-self-hosting",
-    "sessions"
+    "desktop-ui-2"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "hkcanan/katmer-code",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "hkcanan/katmer-code",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "model-routing",
-        "multi-agent-orchestration",
-        "notifications",
-        "parallel-execution"
-      ],
-      "star_ratio": 606.992,
-      "momentum_ratio": 15772.0,
-      "setup_delta": 9,
-      "dominance": 0.955,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "606.99x the stars (288,321 vs 475)",
-        "15772.00x the star velocity (788.6/day vs 0.0/day)",
-        "slightly heavier setup (+9 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 46,
-        "challenger_health": 89,
-        "incumbent_setup_score": 48,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

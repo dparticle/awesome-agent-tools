@@ -35,16 +35,16 @@
   ],
   "created_at": "2026-02-09T06:49:37Z",
   "updated_at": "2026-10-25T02:54:49Z",
-  "pushed_at": "2026-10-25T05:07:43Z",
+  "pushed_at": "2026-10-26T02:41:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 258,
+  "age_days": 259,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
-    "momentum": 0.4,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 49.0
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 4,
-    "days_span": 9,
-    "stars_per_day": 0.44,
-    "lifetime_stars_per_day": 1.88,
+    "days_span": 10,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 1.87,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,12 +135,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:48+00:00",
+  "fetched_at": "2026-10-26T10:10:09+00:00",
   "categories": [
-    "desktop-ui-2",
-    "sessions"
+    "desktop-ui-2"
   ],
-  "primary_category": "sessions",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
@@ -162,14 +161,14 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.302,
-      "momentum_ratio": 6.818,
+      "star_ratio": 2.31,
+      "momentum_ratio": 6.5,
       "setup_delta": -21,
-      "dominance": 0.94,
+      "dominance": 0.941,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.30x the stars (1,114 vs 484)",
-        "6.82x the star velocity (3.0/day vs 0.4/day)",
+        "2.31x the stars (1,118 vs 484)",
+        "6.50x the star velocity (2.6/day vs 0.4/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],

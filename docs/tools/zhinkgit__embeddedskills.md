@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 764 |
-| Star velocity | 1.8/day (history basis, 5d span) |
+| Stars | 766 |
+| Star velocity | 2.0/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-04-10 |
-| Last push | 2026-10-20 (5 days ago) |
+| Last push | 2026-10-20 (6 days ago) |
 | Analyzed README | 7,869 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -69,7 +71,7 @@ Score **49/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 57.7 |
-| momentum | 1.5 |
+| momentum | 1.7 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
 | accessibility | 82.0 |

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 572 |
-| Star velocity | 0.6/day (history basis, 5d span) |
-| Health score | 48/100 |
+| Stars | 575 |
+| Star velocity | 1.0/day (history basis, 5d span) |
+| Health score | 53/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-12 |
-| Last push | 2026-08-03 (82 days ago) |
-| Analyzed README | 27,384 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-25 (0 days ago) |
+| Analyzed README | 26,555 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).
 
@@ -34,7 +34,7 @@
 
 ### Parallel execution
 
-> y more time during implementation.
+> - One Implementation Loop — /implement runs the plan's tasks through a barriered code→eval retry loop on Claude Code's dynamic-workflow runtime - Parallel Agent Execution — Multiple specialists work simultaneously - Qua…
 
 ### Memory & context
 
@@ -72,9 +72,9 @@ Score **51/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.1 |
-| momentum | 0.5 |
-| maintenance | 78.0 |
+| popularity | 55.2 |
+| momentum | 0.8 |
+| maintenance | 100.0 |
 | documentation | 51.0 |
 | accessibility | 75.0 |
 

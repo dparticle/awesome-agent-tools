@@ -6,9 +6,9 @@
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
   "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
-  "stars": 47435,
-  "forks": 3898,
-  "open_issues": 649,
+  "stars": 47508,
+  "forks": 3908,
+  "open_issues": 625,
   "language": "C",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windsurf"
   ],
   "created_at": "2026-02-24T22:01:00Z",
-  "updated_at": "2026-10-25T09:04:32Z",
-  "pushed_at": "2026-10-24T05:45:26Z",
+  "updated_at": "2026-10-26T09:33:42Z",
+  "pushed_at": "2026-10-26T01:29:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 242,
-  "days_since_push": 1,
-  "health_score": 87,
+  "age_days": 243,
+  "days_since_push": 0,
+  "health_score": 80,
   "health_components": {
     "popularity": 93.5,
-    "momentum": 100.0,
+    "momentum": 72.2,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 36.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 47435,
-    "days_span": 242,
-    "stars_per_day": 196.01,
-    "lifetime_stars_per_day": 196.01,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 433,
+    "days_span": 5,
+    "stars_per_day": 86.6,
+    "lifetime_stars_per_day": 195.51,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "DeusData/codebase-memory-mcp",
-    "readme_chars": 114297,
+    "readme_chars": 114734,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -87,11 +87,11 @@
       "multi-account-switching": 1,
       "auto-failover": 1,
       "multi-agent-orchestration": 10,
-      "worktree-isolation": 1,
+      "worktree-isolation": 2,
       "memory-context": 6,
       "skills-plugins": 4,
       "agent-runtime": 7,
-      "mcp-support": 74,
+      "mcp-support": 76,
       "cross-agent-support": 14
     },
     "friction": {
@@ -171,7 +171,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.297
+      "external_link_ratio": 0.296
     },
     "highlights": [
       "Choose a local model. The default Qwen2.5 Coder 0.5B downloads about 567 MB; Qwen3 0.6B, LFM2.5 1.2B and Qwen3.5 2B are larger options. All need WebGPU with shader-f16 support.",
@@ -188,13 +188,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:50+00:00",
+  "fetched_at": "2026-10-26T10:09:29+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "security-self-hosting"
+    "parallelism-isolation"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "parallelism-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

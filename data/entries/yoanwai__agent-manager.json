@@ -8,7 +8,7 @@
   "homepage": "https://agent-manager.dev",
   "stars": 624,
   "forks": 68,
-  "open_issues": 106,
+  "open_issues": 98,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "wsl"
   ],
   "created_at": "2026-07-15T16:27:33Z",
-  "updated_at": "2026-10-24T20:01:47Z",
-  "pushed_at": "2026-10-25T00:48:04Z",
+  "updated_at": "2026-10-25T21:02:00Z",
+  "pushed_at": "2026-10-26T07:50:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 101,
+  "age_days": 102,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 55.9,
-    "momentum": 3.3,
+    "momentum": 3.0,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 20,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 6.18,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 6.12,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:39+00:00",
+  "fetched_at": "2026-10-26T10:10:02+00:00",
   "categories": [
     "parallelism-isolation"
   ],
@@ -174,14 +174,14 @@
         "notifications",
         "worktree-isolation"
       ],
-      "star_ratio": 54.093,
-      "momentum_ratio": 4.9,
+      "star_ratio": 54.133,
+      "momentum_ratio": 6.056,
       "setup_delta": -2,
-      "dominance": 0.997,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "54.09x the stars (33,754 vs 624)",
-        "4.90x the star velocity (19.6/day vs 4.0/day)",
+        "54.13x the stars (33,779 vs 624)",
+        "6.06x the star velocity (21.8/day vs 3.6/day)",
         "no harder to set up (2 vs 4 friction)"
       ],
       "reasons_zh": [],
@@ -208,7 +208,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 57,
-        "challenger_health": 71,
+        "challenger_health": 72,
         "incumbent_setup_score": 4,
         "challenger_setup_score": 2
       }

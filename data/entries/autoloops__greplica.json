@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 156,
-  "days_since_push": 87,
+  "age_days": 157,
+  "days_since_push": 88,
   "health_score": 46,
   "health_components": {
     "popularity": 52.8,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.81,
+    "lifetime_stars_per_day": 2.8,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:52+00:00",
+  "fetched_at": "2026-10-26T10:10:13+00:00",
   "categories": [
     "desktop-ui",
     "security-self-hosting"
@@ -132,15 +132,15 @@
   "primary_category": "security-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "autoloops/greplica",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "Autoloops/greplica",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -152,14 +152,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 68.05,
-      "momentum_ratio": 688.0,
+      "star_ratio": 25.301,
+      "momentum_ratio": 2188.0,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "68.05x the stars (29,874 vs 439)",
-        "688.00x the star velocity (34.4/day vs 0.0/day)",
+        "25.30x the stars (11,107 vs 439)",
+        "2188.00x the star velocity (109.4/day vs 0.0/day)",
         "no harder to set up (32 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -174,23 +174,22 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
+          "parallel-execution",
           "self-hosted",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "worktree-isolation"
         ],
         "incumbent_health": 46,
-        "challenger_health": 71,
+        "challenger_health": 85,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 32
       }

@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-03-23 |
-| Last push | 2026-08-21 (64 days ago) |
+| Last push | 2026-08-21 (65 days ago) |
 | Analyzed README | 25,594 chars from `raw:main/README.md` |
 
 > ⚠️ **Superseded by [tickernelz/opencode-mem](https://github.com/tickernelz/opencode-mem)** — Superseded by tickernelz/opencode-mem: covers 100% of capabilities (4/4).

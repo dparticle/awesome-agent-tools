@@ -6,7 +6,7 @@
   "url": "https://github.com/tigicion/dao-code",
   "description": "Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous self-correction layer add almost no token cost; 1M context, Skills/MCP/Hooks, Claude Code config compatible.",
   "homepage": "https://www.npmjs.com/package/dao-code",
-  "stars": 787,
+  "stars": 788,
   "forks": 26,
   "open_issues": 12,
   "language": "TypeScript",
@@ -21,13 +21,13 @@
     "typescript"
   ],
   "created_at": "2026-06-08T08:10:42Z",
-  "updated_at": "2026-10-22T02:39:25Z",
-  "pushed_at": "2026-10-21T12:27:29Z",
+  "updated_at": "2026-10-26T08:33:07Z",
+  "pushed_at": "2026-10-26T08:33:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 139,
-  "days_since_push": 3,
+  "age_days": 140,
+  "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 57.9,
@@ -39,15 +39,15 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 9,
+    "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.66,
+    "lifetime_stars_per_day": 5.63,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tigicion/dao-code",
-    "readme_chars": 28439,
+    "readme_chars": 28436,
     "capabilities": [
       "multi-account-switching",
       "multi-agent-orchestration",
@@ -176,7 +176,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:32+00:00",
+  "fetched_at": "2026-10-26T10:09:58+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

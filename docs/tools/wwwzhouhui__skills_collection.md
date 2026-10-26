@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 285 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 91/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | not declared |
 | Language | HTML |
 | Created | 2025-11-12 |
-| Last push | 2026-10-24 (1 days ago) |
-| Analyzed README | 105,884 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-25 (0 days ago) |
+| Analyzed README | 108,978 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -66,7 +66,7 @@
 
 ### GUI / desktop app
 
-> 容器自愈重建 → Docker 全清 → ext4.vhdx 原生压缩 → 前后对比报告」。
+> API Key 走技能根目录 .env 零硬编码，缺配置时报可照抄指引，零 npm 依赖 Node.js（≥18，内置 fetch）、gpt-image-2.5 中转站 API 2026年10月25日 wwwzhouhui 1.0.0
 
 ### Notifications
 
@@ -116,7 +116,7 @@ Score **91/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 49.1 |
-| momentum | 0.2 |
+| momentum | 0.0 |
 | maintenance | 100.0 |
 | documentation | 91.0 |
 | accessibility | 59.0 |

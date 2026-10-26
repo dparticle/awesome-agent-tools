@@ -6,7 +6,7 @@
   "url": "https://github.com/Draculabo/AntigravityManager",
   "description": "Antigravity Manager is a desktop application for managing the Google accounts used by Antigravity clients (including Classic, Antigravity IDE and agy CLI). View model quota in real time, switch client accounts seamlessly, and connect AI coding tools like Claude Code, Codex and OpenCode through a high-performance local API gateway.",
   "homepage": "",
-  "stars": 2405,
+  "stars": 2406,
   "forks": 289,
   "open_issues": 25,
   "language": "TypeScript",
@@ -24,27 +24,27 @@
     "gemini-pro"
   ],
   "created_at": "2025-11-29T15:50:32Z",
-  "updated_at": "2026-10-25T08:20:36Z",
-  "pushed_at": "2026-10-25T07:08:16Z",
+  "updated_at": "2026-10-26T09:42:04Z",
+  "pushed_at": "2026-10-26T09:42:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 329,
+  "age_days": 330,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 53,
   "health_components": {
     "popularity": 67.6,
-    "momentum": 2.0,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 43.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 7.31,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 7.29,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -163,8 +163,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:08+00:00",
+  "fetched_at": "2026-10-26T10:09:41+00:00",
   "categories": [
+    "failover",
     "model-routing",
     "sharing"
   ],
@@ -194,14 +195,14 @@
         "notifications",
         "quota-management"
       ],
-      "star_ratio": 8.032,
-      "momentum_ratio": 15.0,
+      "star_ratio": 8.049,
+      "momentum_ratio": 26.857,
       "setup_delta": -25,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "8.03x the stars (19,316 vs 2,405)",
-        "15.00x the star velocity (36.0/day vs 2.4/day)",
+        "8.05x the stars (19,365 vs 2,406)",
+        "26.86x the star velocity (37.6/day vs 1.4/day)",
         "no harder to set up (32 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -232,7 +233,7 @@
           "security-isolation",
           "voice-input"
         ],
-        "incumbent_health": 54,
+        "incumbent_health": 53,
         "challenger_health": 69,
         "incumbent_setup_score": 57,
         "challenger_setup_score": 32

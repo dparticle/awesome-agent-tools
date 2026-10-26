@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 860 |
-| Star velocity | 2.4/day (history basis, 5d span) |
+| Stars | 866 |
+| Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 56/100 |
-| Documentation | 43/100 |
+| Documentation | 44/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | BSD-3-Clause |
 | Language | JavaScript |
 | Created | 2026-08-13 |
 | Last push | 2026-10-25 (0 days ago) |
-| Analyzed README | 14,004 chars from `raw:HEAD/README.md` |
+| Analyzed README | 15,101 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Workspace isolation
 
-> le Silicon arm64、macOS 13 Ventura 及以上，macOS/Linux 保持 Preview。
+> 、GitHub digest 与合并清单一致；Windows updater SHA-512 和 manifest 也已验证。
 
 ### Model / provider routing
 
@@ -98,7 +98,7 @@
 
 ## Documentation quality
 
-Score **43/100**, based on these detected signals:
+Score **44/100**, based on these detected signals:
 
 - contains screenshots/diagrams
 - has section headings
@@ -113,10 +113,10 @@ Score **43/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.7 |
-| momentum | 2.0 |
+| popularity | 58.8 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
-| documentation | 43.0 |
+| documentation | 44.0 |
 | accessibility | 100.0 |
 
 ---

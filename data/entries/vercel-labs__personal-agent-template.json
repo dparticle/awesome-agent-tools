@@ -7,7 +7,7 @@
   "description": "Open-source template for a durable personal AI agent — web chat, Slack, Linear, and long-term memory with user-approved saves. Eve, Nuxt, Better Auth, Vercel Connect.",
   "homepage": "https://personal-agent-template.vercel.app",
   "stars": 476,
-  "forks": 79,
+  "forks": 80,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
@@ -28,22 +28,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
-  "days_since_push": 52,
+  "age_days": 136,
+  "days_since_push": 53,
   "health_score": 41,
   "health_components": {
     "popularity": 53.6,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 50.0,
     "accessibility": 22.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 3.53,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 3.5,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:12:49+00:00",
+  "fetched_at": "2026-10-26T10:10:10+00:00",
   "categories": [
     "desktop-ui-2",
     "security-self-hosting"
@@ -157,14 +157,14 @@
         "notifications",
         "self-hosted"
       ],
-      "star_ratio": 605.716,
-      "momentum_ratio": 3943.0,
+      "star_ratio": 607.479,
+      "momentum_ratio": 16080.0,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "605.72x the stars (288,321 vs 476)",
-        "3943.00x the star velocity (788.6/day vs 0.2/day)",
+        "607.48x the stars (289,160 vs 476)",
+        "16080.00x the star velocity (804.0/day vs 0.0/day)",
         "no harder to set up (57 vs 78 friction)"
       ],
       "reasons_zh": [],

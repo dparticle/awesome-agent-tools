@@ -6,9 +6,9 @@
   "url": "https://github.com/google-gemini/gemini-cli",
   "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
   "homepage": "https://geminicli.com",
-  "stars": 108312,
-  "forks": 14826,
-  "open_issues": 763,
+  "stars": 108397,
+  "forks": 14838,
+  "open_issues": 784,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -21,12 +21,12 @@
     "mcp-server"
   ],
   "created_at": "2025-04-17T17:04:31Z",
-  "updated_at": "2026-10-25T09:10:53Z",
-  "pushed_at": "2026-10-25T01:31:54Z",
+  "updated_at": "2026-10-26T10:06:03Z",
+  "pushed_at": "2026-10-26T00:37:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 555,
+  "age_days": 556,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
@@ -38,10 +38,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 849,
+    "stars_gained": 916,
     "days_span": 5,
-    "stars_per_day": 169.8,
-    "lifetime_stars_per_day": 195.16,
+    "stars_per_day": 183.2,
+    "lifetime_stars_per_day": 194.96,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -144,11 +144,9 @@
     "seed_reason": "Gemini's terminal agent, generous free tier.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-25T09:11:02+00:00",
+  "fetched_at": "2026-10-26T10:08:58+00:00",
   "categories": [
-    "billing",
-    "failover",
-    "sessions"
+    "billing"
   ],
   "primary_category": "billing",
   "lifecycle": {

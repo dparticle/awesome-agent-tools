@@ -7,7 +7,7 @@
   "description": "FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
   "homepage": "https://www.fuxicode.com",
   "stars": 3206,
-  "forks": 220,
+  "forks": 221,
   "open_issues": 0,
   "language": "Python",
   "license": "NOASSERTION",
@@ -39,12 +39,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 82,
-  "days_since_push": 4,
+  "age_days": 83,
+  "days_since_push": 5,
   "health_score": 66,
   "health_components": {
     "popularity": 70.1,
-    "momentum": 32.6,
+    "momentum": 32.2,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 69.0
@@ -52,9 +52,9 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 3206,
-    "days_span": 82,
-    "stars_per_day": 39.1,
-    "lifetime_stars_per_day": 39.1,
+    "days_span": 83,
+    "stars_per_day": 38.63,
+    "lifetime_stars_per_day": 38.63,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -147,9 +147,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-25T09:11:28+00:00",
+  "fetched_at": "2026-10-26T10:09:15+00:00",
   "categories": [
-    "model-routing",
     "security"
   ],
   "primary_category": "security",
