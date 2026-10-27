@@ -6,9 +6,9 @@
   "url": "https://github.com/greenfield-inc/Pane",
   "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
   "homepage": "https://runpane.com/",
-  "stars": 581,
-  "forks": 235,
-  "open_issues": 204,
+  "stars": 583,
+  "forks": 234,
+  "open_issues": 201,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -34,33 +34,33 @@
     "worktree-manager"
   ],
   "created_at": "2026-02-27T01:34:13Z",
-  "updated_at": "2026-10-26T03:58:09Z",
-  "pushed_at": "2026-10-25T11:29:54Z",
+  "updated_at": "2026-10-27T01:21:45Z",
+  "pushed_at": "2026-10-27T05:07:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 241,
+  "age_days": 242,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 55.3,
-    "momentum": 2.2,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.6,
+    "stars_per_day": 2.0,
     "lifetime_stars_per_day": 2.41,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "greenfield-inc/Pane",
-    "readme_chars": 34773,
+    "readme_chars": 35013,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -173,7 +173,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.518
+      "external_link_ratio": 0.514
     },
     "highlights": [
       "Developers on any OS: Mac, Windows, and Linux are all first-class citizens, with no \"Mac-first with a Windows waitlist\"",
@@ -190,13 +190,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:03+00:00",
+  "fetched_at": "2026-10-27T09:53:39+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile-remote-control",
-    "parallelism-isolation"
+    "isolation",
+    "mobile-remote-control"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

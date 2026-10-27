@@ -6,9 +6,9 @@
   "url": "https://github.com/genspark-ai/genoffice",
   "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
   "homepage": "https://genoffice.ai/",
-  "stars": 10890,
-  "forks": 1486,
-  "open_issues": 65,
+  "stars": 11029,
+  "forks": 1515,
+  "open_issues": 73,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,16 +34,16 @@
     "xlsx"
   ],
   "created_at": "2026-07-31T09:40:58Z",
-  "updated_at": "2026-10-26T10:05:57Z",
-  "pushed_at": "2026-10-26T06:47:38Z",
+  "updated_at": "2026-10-27T09:45:56Z",
+  "pushed_at": "2026-10-27T09:43:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 87,
+  "age_days": 88,
   "days_since_push": 0,
-  "health_score": 85,
+  "health_score": 86,
   "health_components": {
-    "popularity": 80.7,
+    "popularity": 80.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 58.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 651,
+    "stars_gained": 602,
     "days_span": 5,
-    "stars_per_day": 130.2,
-    "lifetime_stars_per_day": 125.17,
+    "stars_per_day": 120.4,
+    "lifetime_stars_per_day": 125.33,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "genspark-ai/genoffice",
-    "readme_chars": 50403,
+    "readme_chars": 50449,
     "capabilities": [
       "parallel-execution",
       "model-routing",
@@ -84,7 +84,7 @@
       "memory-context": "he top hits leave the device; the index itself never does.",
       "skills-plugins": "l, OpenRouter, Requesty, Opper, Cheaper Inference, Atlas Cloud, or any OpenAI-compatible endpoint, local",
       "agent-runtime": "etails and requirements in Download.",
-      "mcp-support": "nçais · 简体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Italiano · Nederlands · Polski · Čeština · Bahasa Indonesia · Bahasa Melayu · ไทย · हिन्दी · עברית · Tiếng Việt",
+      "mcp-support": "体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Italiano · Nederlands · Polski · Čeština · Bahasa Indonesia · Bahasa Melayu · ไทย · हिन्दी · עברית · Tiếng Việt · Türkçe",
       "self-hosted": "he same entry exists in every app.",
       "gui-desktop": "MIT) — font parsing for metrics",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
@@ -178,13 +178,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:33+00:00",
+  "fetched_at": "2026-10-27T09:53:02+00:00",
   "categories": [
-    "billing",
-    "desktop-ui-2",
-    "security-self-hosting"
+    "memory-mcp",
+    "model-routing",
+    "teams"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

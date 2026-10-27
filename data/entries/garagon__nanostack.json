@@ -1,0 +1,251 @@
+{
+  "schema": 1,
+  "full_name": "garagon/nanostack",
+  "name": "nanostack",
+  "owner": "garagon",
+  "url": "https://github.com/garagon/nanostack",
+  "description": "A workflow harness that helps AI coding agents plan, review, test, and ship safer code.",
+  "homepage": "https://nanostack.sh",
+  "stars": 207,
+  "forks": 14,
+  "open_issues": 0,
+  "language": "Shell",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "ai-coding",
+    "claude-code",
+    "code-review",
+    "codex",
+    "developer-tools",
+    "engineering-workflow",
+    "gstack",
+    "harness",
+    "harness-engineering",
+    "security-audit"
+  ],
+  "created_at": "2026-03-25T14:25:10Z",
+  "updated_at": "2026-09-29T11:09:44Z",
+  "pushed_at": "2026-09-10T13:14:55Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 215,
+  "days_since_push": 46,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 46.3,
+    "momentum": 0.0,
+    "maintenance": 78.0,
+    "documentation": 68.0,
+    "accessibility": 67.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 0,
+    "days_span": 20,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 0.96,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "garagon/nanostack",
+    "readme_chars": 52040,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "security-isolation",
+      "self-hosted",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": ", token usage and patterns",
+      "worktree-isolation": "ction covers more than the obvious utilities: output redirection, in-place editors (sed -i, perl -i), inline interpreter code (python -c, node -e, sh -c, eval), package-manager writes, and git index, worktree, or ref mu…",
+      "session-persistence": "hen its owner PID is dead, so a crashed agent does not block the sprint for the 1-hour grace period that auto-recovery uses.",
+      "memory-context": "files (stale), solutions never applied after 60 days (unused), solutions unvalidated after 90 days.",
+      "skills-plugins": "rint flow, success criteria, and reset steps.",
+      "agent-runtime": "An agent harness for planning, reviewing, and testing the code you ship.",
+      "security-isolation": "lifecycle event is logged to .nanostack/audit.log (JSONL, append-only): session init, phase start/complete with duration, artifact saves, solution creation, graduation.",
+      "self-hosted": "rences /review for conflict detection.",
+      "notifications": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "worktree-isolation": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
+      "skills-plugins": 3,
+      "agent-runtime": 2,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "notifications": 1,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 33,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "Homebrew install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "beginner-friendly"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, Homebrew install; needs git clone (build from source); configure config.json/yaml/toml, database dependency; beginner-friendly",
+      "note_zh": "较易上手。可通过 npx one-liner、Homebrew install 安装；需要 git clone (build from source)；需配置 config.json/yaml/toml、database dependency；beginner-friendly"
+    },
+    "doc_score": 68,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "An agent harness for planning, reviewing, and testing the code you ship.",
+    "summary_zh": "",
+    "install_hint": "npx create-nanostack",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.154
+    },
+    "highlights": [
+      "The loop guard detects 2+ phases with no repository changes (agent is stuck)"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-27T09:54:26+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation",
+    "mobile-remote-control"
+  ],
+  "primary_category": "mobile-remote-control",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (10/10)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "garagon/nanostack",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "garagon/nanostack",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "notifications",
+        "security-isolation",
+        "self-hosted",
+        "session-persistence",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 520.792,
+      "momentum_ratio": 7704.0,
+      "setup_delta": 12,
+      "dominance": 0.94,
+      "reasons": [
+        "covers 100% of capabilities (10/10)",
+        "520.79x the stars (107,804 vs 207)",
+        "7704.00x the star velocity (385.2/day vs 0.0/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 89,
+        "incumbent_setup_score": 33,
+        "challenger_setup_score": 45
+      }
+    }
+  }
+}

@@ -6,8 +6,8 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 862,
-  "forks": 81,
+  "stars": 888,
+  "forks": 83,
   "open_issues": 13,
   "language": "TypeScript",
   "license": "",
@@ -16,33 +16,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-10-26T09:50:26Z",
-  "pushed_at": "2026-10-26T09:20:37Z",
+  "updated_at": "2026-10-27T08:57:25Z",
+  "pushed_at": "2026-10-27T07:23:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 72,
+  "age_days": 73,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 58.7,
-    "momentum": 10.0,
+    "popularity": 59.0,
+    "momentum": 10.1,
     "maintenance": 100.0,
-    "documentation": 58.0,
+    "documentation": 57.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 862,
-    "days_span": 72,
-    "stars_per_day": 11.97,
-    "lifetime_stars_per_day": 11.97,
+    "stars_gained": 888,
+    "days_span": 73,
+    "stars_per_day": 12.16,
+    "lifetime_stars_per_day": 12.16,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 20110,
+    "readme_chars": 19120,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -58,17 +58,17 @@
     "capability_evidence": {
       "auto-failover": "public IP is required on the Harness Host.",
       "remote-control": "- Support DeepSeek Harness Desktop, ready to use after installation. - Run a terminal-only dsh-TUI profile as a Host. - No public listening port or public IP is required on the Harness Host.",
-      "mobile-access": "ically deploy the hosted installer.",
+      "mobile-access": "s at once, and use Bot mode, powered by Fei2411/DS-Bot.",
       "parallel-execution": "",
       "model-routing": "",
-      "skills-plugins": "top add -w ds-harness-remote@0.5.19.",
-      "security-isolation": "sation to load full history.",
+      "skills-plugins": "top add -w ds-harness-remote@0.5.20.",
+      "security-isolation": "oaded from the connected Host.",
       "self-hosted": "",
-      "gui-desktop": "ported Install ds-harness-remote@0.5.19; this computer can also be the Host",
+      "gui-desktop": "ar Supported Install ds-harness-remote@0.5.20; this computer can also be the Host",
       "cross-agent-support": "Mentions Codex, Cursor, OpenCode"
     },
     "capability_hits": {
-      "auto-failover": 1,
+      "auto-failover": 2,
       "remote-control": 2,
       "mobile-access": 2,
       "parallel-execution": 1,
@@ -105,7 +105,7 @@
       "note_en": "Easy. install via native installer / package; configure OAuth login flow, sign-in required",
       "note_zh": "较易上手。可通过 native installer / package 安装；需配置 OAuth login flow、sign-in required"
     },
-    "doc_score": 58,
+    "doc_score": 57,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -115,15 +115,14 @@
       "has troubleshooting/FAQ",
       "mentions licensing",
       "documents changes",
-      "publishes a roadmap",
-      "long, detailed README"
+      "publishes a roadmap"
     ],
     "agents": [
       "Codex",
       "OpenCode",
       "Cursor"
     ],
-    "summary_en": "Remote mode supports the official plugin page for listing, configuration, and enabling/disabling plugins (requires an updated Host Remote plugin).",
+    "summary_en": "Continue using your DeepSeek Harness instance from a phone, computer, or browser.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -133,7 +132,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.597
+      "external_link_ratio": 0.68
     },
     "highlights": [
       "The current development baseline is dsh-v0.2.1-rc.1; validation scope is documented in the compatibility guide.",
@@ -141,7 +140,7 @@
       "Android keeps per-conversation drafts and reading positions, offers backend-separated search",
       "Access your local Harness instance remotely from the web, a PC, or a mobile device: DSH first, with Codex, Cursor, and Antigravity support too."
     ],
-    "summary_zh_native": "远程模式支持官方插件页的列表、配置和启用/停用（需更新 Host Remote 插件）。Remote 自身仍只能在 Host 本地配置和启停；不开放远程安装、卸载。",
+    "summary_zh_native": "从手机、电脑、浏览器继续使用你的 DeepSeek Harness 实例。",
     "highlights_zh": [
       "当前开发适配基线为 dsh-v0.2.1-rc.1，验证范围见兼容性说明。",
       "Harness 主机无需开放公网监听端口，无需公网IP，可以从任意可上网的地方，通过双向端到端加密链路安全连接。",
@@ -155,11 +154,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:57+00:00",
+  "fetched_at": "2026-10-27T09:53:30+00:00",
   "categories": [
-    "mobile-remote-control",
-    "remote-control",
-    "security"
+    "failover",
+    "mobile",
+    "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

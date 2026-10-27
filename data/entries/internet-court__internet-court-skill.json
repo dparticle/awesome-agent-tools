@@ -6,8 +6,8 @@
   "url": "https://github.com/internet-court/internet-court-skill",
   "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
   "homepage": "",
-  "stars": 7017,
-  "forks": 125,
+  "stars": 7022,
+  "forks": 126,
   "open_issues": 32,
   "language": "TypeScript",
   "license": "NOASSERTION",
@@ -34,33 +34,33 @@
     "x402"
   ],
   "created_at": "2026-06-16T13:20:01Z",
-  "updated_at": "2026-10-26T09:47:12Z",
-  "pushed_at": "2026-08-19T15:00:54Z",
+  "updated_at": "2026-10-27T09:32:41Z",
+  "pushed_at": "2026-10-26T12:55:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 131,
-  "days_since_push": 67,
+  "age_days": 132,
+  "days_since_push": 0,
   "health_score": 61,
   "health_components": {
     "popularity": 76.9,
-    "momentum": 38.7,
-    "maintenance": 78.0,
-    "documentation": 40.0,
+    "momentum": 20.7,
+    "maintenance": 100.0,
+    "documentation": 41.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 232,
+    "stars_gained": 124,
     "days_span": 5,
-    "stars_per_day": 46.4,
-    "lifetime_stars_per_day": 53.56,
+    "stars_per_day": 24.8,
+    "lifetime_stars_per_day": 53.2,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "internet-court/internet-court-skill",
-    "readme_chars": 14510,
+    "readme_chars": 15166,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -68,7 +68,7 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "registries), bnb-chain/bnbchain-mcp/ (ERC-8004 registration), starknet/starknet-identity/; ERC-7857 has no public skill yet",
+      "multi-agent-orchestration": "/certisyn-independent-verification/ (vet a counterparty's own claim before relying on it); ERC-7857 has no public skill yet",
       "skills-plugins": "on demand — from disk when",
       "mcp-support": "ai-io/alkahest · natural-language-agreements · git-commit-trading",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
@@ -101,7 +101,7 @@
       "note_en": "Easy. install via npx one-liner; needs git clone (build from source); configure API key configuration",
       "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)；需配置 API key configuration"
     },
-    "doc_score": 40,
+    "doc_score": 41,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -123,7 +123,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 2.688
+      "external_link_ratio": 2.637
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:09+00:00",
+  "fetched_at": "2026-10-27T09:52:30+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

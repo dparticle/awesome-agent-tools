@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 280 |
-| Star velocity | 0.0/day (history basis, 5d span) |
+| Stars | 281 |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-02-05 |
-| Last push | 2026-10-20 (5 days ago) |
+| Last push | 2026-10-20 (6 days ago) |
 | Analyzed README | 9,481 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [Gentleman-Programming/gentle-shell](https://github.com/Gentleman-Programming/gentle-shell)** — Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -80,8 +78,8 @@ Score **54/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 48.9 |
-| momentum | 0.0 |
+| popularity | 49.0 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 72.0 |

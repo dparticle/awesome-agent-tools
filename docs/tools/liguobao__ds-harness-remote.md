@@ -2,7 +2,7 @@
 
 # liguobao/ds-harness-remote
 
-> Remote mode supports the official plugin page for listing, configuration, and enabling/disabling plugins (requires an updated Host Remote plugin).
+> Continue using your DeepSeek Harness instance from a phone, computer, or browser.
 
 [Repository](https://github.com/liguobao/ds-harness-remote) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 862 |
-| Star velocity | 12.0/day (lifetime basis, 72d span) |
+| Stars | 888 |
+| Star velocity | 12.2/day (lifetime basis, 73d span) |
 | Health score | 56/100 |
-| Documentation | 58/100 |
+| Documentation | 57/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 20,110 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 19,120 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Mobile access
 
-> ically deploy the hosted installer.
+> s at once, and use Bot mode, powered by Fei2411/DS-Bot.
 
 ### Parallel execution
 
@@ -44,17 +44,17 @@
 
 ### Skills & plugins
 
-> top add -w ds-harness-remote@0.5.19.
+> top add -w ds-harness-remote@0.5.20.
 
 ### Security & isolation
 
-> sation to load full history.
+> oaded from the connected Host.
 
 ### Self-hostable
 
 ### GUI / desktop app
 
-> ported Install ds-harness-remote@0.5.19; this computer can also be the Host
+> ar Supported Install ds-harness-remote@0.5.20; this computer can also be the Host
 
 ### Cross-agent support
 
@@ -74,7 +74,7 @@
 
 ## Documentation quality
 
-Score **58/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -85,16 +85,15 @@ Score **58/100**, based on these detected signals:
 - mentions licensing
 - documents changes
 - publishes a roadmap
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.7 |
-| momentum | 10.0 |
+| popularity | 59.0 |
+| momentum | 10.1 |
 | maintenance | 100.0 |
-| documentation | 58.0 |
+| documentation | 57.0 |
 | accessibility | 66.0 |
 
 ---

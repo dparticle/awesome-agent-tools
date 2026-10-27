@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,890 |
-| Star velocity | 130.2/day (history basis, 5d span) |
-| Health score | 85/100 |
+| Stars | 11,029 |
+| Star velocity | 120.4/day (history basis, 5d span) |
+| Health score | 86/100 |
 | Documentation | 58/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-31 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 50,403 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 50,449 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -58,7 +58,7 @@
 
 ### MCP support
 
-> nçais · 简体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Italiano · Nederlands · Polski · Čeština · Bahasa Indonesia · Bahasa Melayu · ไทย · हिन्दी · עברית · Tiếng Việt
+> 体中文 · 繁體中文 · 한국어 · 日本語 · العربية · Русский · Italiano · Nederlands · Polski · Čeština · Bahasa Indonesia · Bahasa Melayu · ไทย · हिन्दी · עברית · Tiếng Việt · Türkçe
 
 ### Self-hostable
 
@@ -105,7 +105,7 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.7 |
+| popularity | 80.9 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 58.0 |

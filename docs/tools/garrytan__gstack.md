@@ -2,7 +2,7 @@
 
 # garrytan/gstack
 
-> When I heard Karpathy say this, I wanted to find out how.
+> gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who…
 
 [Repository](https://github.com/garrytan/gstack) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 137,769 |
-| Star velocity | 129.2/day (history basis, 5d span) |
-| Health score | 90/100 |
-| Documentation | 81/100 |
+| Stars | 137,869 |
+| Star velocity | 124.2/day (history basis, 5d span) |
+| Health score | 88/100 |
+| Documentation | 73/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 89,810 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 35,634 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,49 +34,37 @@
 
 > cause and re-verify before committing.
 
-### Parallel execution
-
-> etext patterns depending on whether it's a landing page, dashboard, form, or card layout.
-
 ### Workspace isolation
 
-> hand, and gstack-uninstall
+> es; blocks below 7/10), fail-closed secret redaction, dedupe against existing issues, archive to $GSTACK_STATE_ROOT/projects/$SLUG/specs/ for team-corpus recall.
 
 ### Model / provider routing
 
 > deterministic aside repl scripts.
 
-### Session persistence
-
-> Browse my kid's school parent portal and add all the other parents' names, phone numbers, and photos to my Google Contacts." Two ways to get authenticated: (1) log in once in the headed browser, your session persists, o…
-
 ### Memory & context
 
-> Come work at YC — ycombinator.com/software
+> ice-input aliases many skills carry, have their own pages.
 
 ### Skills & plugins
 
-> single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a "gstack" section to CLAUDE.md that says to use the /browse skill from gstack f…
+> --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a "gstack" section to CLAUDE.md that says to use the /browse skill from gstack f…
 
 ### Agent runtime
 
-> ding speed and help harden gstack?
+> gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production…
 
 ### MCP support
 
-> stack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a "gstack" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing and never use mcp\\claude-in-chro…
+> /gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a "gstack" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing and never use mcp\\claude-in-chro…
 
 ### Security & isolation
 
-> verify the chain with gstack-egress verify (exit 3 on tamper), and see the standing consent settings with gstack-egress grants.
+> HTTP-capable agent on your Tailscale tailnet so remote agents can run iOS QA without ever touching the hardware.
 
 ### Notifications
 
-> office-hours — describe what you're building
-
-### Voice input
-
-> nk, plan, build, review, test, ship — each agent knows exactly what to do and when to stop.
+> fake clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.
 
 ### Cross-agent support
 
@@ -84,24 +72,21 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 57/100)
+- **Difficulty:** 🔴 Involved (friction score 65/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that make it easy:** native installer / package
-
 **Signals that add work:** git clone (build from source), go build
 
-**Configuration required:** config file, config.json/yaml/toml, sign-in required, database migration, server/reverse-proxy setup
+**Configuration required:** sign-in required, server/reverse-proxy setup
 
-*Some setup. install via native installer / package; needs git clone (build from source), go build; configure config file, config.json/yaml/toml; one-click setup*
+*Involved setup. needs git clone (build from source), go build; configure sign-in required, server/reverse-proxy setup; one-click setup*
 
 ## Documentation quality
 
-Score **81/100**, based on these detected signals:
+Score **73/100**, based on these detected signals:
 
 - contains code blocks
-- contains screenshots/diagrams
 - has section headings
 - has a quick-start section
 - documents installation
@@ -122,8 +107,8 @@ Score **81/100**, based on these detected signals:
 | popularity | 100.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 81.0 |
-| accessibility | 43.0 |
+| documentation | 73.0 |
+| accessibility | 35.0 |
 
 ---
 

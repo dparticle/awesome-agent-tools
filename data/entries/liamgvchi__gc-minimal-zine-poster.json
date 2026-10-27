@@ -6,34 +6,34 @@
   "url": "https://github.com/LiamGvchi/gc-minimal-zine-poster",
   "description": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
   "homepage": "",
-  "stars": 7413,
-  "forks": 331,
+  "stars": 7421,
+  "forks": 333,
   "open_issues": 0,
   "language": "",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-12T09:54:51Z",
-  "updated_at": "2026-10-26T08:40:21Z",
+  "updated_at": "2026-10-27T08:30:53Z",
   "pushed_at": "2026-08-13T15:12:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 106,
-  "days_since_push": 73,
+  "days_since_push": 74,
   "health_score": 51,
   "health_components": {
     "popularity": 77.4,
-    "momentum": 4.5,
+    "momentum": 4.2,
     "maintenance": 78.0,
     "documentation": 40.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 27,
+    "stars_gained": 25,
     "days_span": 5,
-    "stars_per_day": 5.4,
-    "lifetime_stars_per_day": 69.93,
+    "stars_per_day": 5.0,
+    "lifetime_stars_per_day": 70.01,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -94,8 +94,8 @@
     "highlights_zh": [
       "Analyze + Generate：先提取视觉系统，再生成不复制原图构图的新作品。",
       "Generate：内容 → 视觉隐喻 → Prompt → 位图生成 → 结果检查。",
-      "Photo Input：确定图片角色和保真等级，把真实目标图片传入生成，并检查主体保留情况。",
-      "Prompt-only：只返回四段式最终 Prompt 与 Recipe，不声称已经生成图片。"
+      "Prompt-only：只返回四段式最终 Prompt 与 Recipe，不声称已经生成图片。",
+      "Reference Analysis：检查真实文件，返回观察证据、固定规则、可变规则、样本残留、可复用 Prompt 和限制。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -104,7 +104,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:08+00:00",
+  "fetched_at": "2026-10-27T09:52:29+00:00",
   "categories": [
     "desktop-ui"
   ],

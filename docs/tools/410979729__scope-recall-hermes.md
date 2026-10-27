@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 479 |
-| Star velocity | 9.4/day (history basis, 5d span) |
+| Stars | 487 |
+| Star velocity | 8.6/day (history basis, 5d span) |
 | Health score | 53/100 |
 | Documentation | 43/100 |
 | Tier | 🔹 Notable |
@@ -66,8 +66,8 @@ Score **43/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.6 |
-| momentum | 7.8 |
+| popularity | 53.8 |
+| momentum | 7.2 |
 | maintenance | 100.0 |
 | documentation | 43.0 |
 | accessibility | 76.0 |

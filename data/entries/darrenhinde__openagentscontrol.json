@@ -6,8 +6,8 @@
   "url": "https://github.com/darrenhinde/OpenAgentsControl",
   "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
   "homepage": "",
-  "stars": 4949,
-  "forks": 403,
+  "stars": 4951,
+  "forks": 404,
   "open_issues": 70,
   "language": "TypeScript",
   "license": "MIT",
@@ -23,29 +23,29 @@
     "prompt-engineering"
   ],
   "created_at": "2025-08-14T21:44:01Z",
-  "updated_at": "2026-10-26T09:21:00Z",
-  "pushed_at": "2026-10-19T21:01:09Z",
+  "updated_at": "2026-10-27T02:12:56Z",
+  "pushed_at": "2026-10-26T19:00:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 437,
-  "days_since_push": 6,
+  "age_days": 438,
+  "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 73.9,
-    "momentum": 4.2,
+    "momentum": 3.5,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 21,
     "days_span": 5,
-    "stars_per_day": 5.0,
-    "lifetime_stars_per_day": 11.32,
+    "stars_per_day": 4.2,
+    "lifetime_stars_per_day": 11.3,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "darrenhinde/OpenAgentsControl",
@@ -130,22 +130,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:36+00:00",
+  "fetched_at": "2026-10-27T09:53:06+00:00",
   "categories": [
-    "parallelism-isolation"
+    "isolation"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "paperclipai/paperclip",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
     "challenger": "",
     "supersede": {
       "incumbent": "darrenhinde/openagentscontrol",
-      "challenger": "paperclipai/paperclip",
+      "challenger": "othmanadi/planning-with-files",
       "incumbent_name": "darrenhinde/OpenAgentsControl",
-      "challenger_name": "paperclipai/paperclip",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -156,15 +156,15 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 21.712,
-      "momentum_ratio": 82.2,
-      "setup_delta": -5,
+      "star_ratio": 5.594,
+      "momentum_ratio": 5.571,
+      "setup_delta": -23,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "21.71x the stars (107,454 vs 4,949)",
-        "82.20x the star velocity (411.0/day vs 5.0/day)",
-        "no harder to set up (45 vs 50 friction)"
+        "5.59x the stars (27,695 vs 4,951)",
+        "5.57x the star velocity (23.4/day vs 4.2/day)",
+        "no harder to set up (27 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -177,26 +177,18 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
           "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
+          "parallel-execution",
           "security-isolation",
-          "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
           "worktree-isolation"
         ],
         "incumbent_health": 65,
-        "challenger_health": 89,
+        "challenger_health": 70,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 45
+        "challenger_setup_score": 27
       }
     }
   }

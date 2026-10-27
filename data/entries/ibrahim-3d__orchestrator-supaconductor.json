@@ -7,7 +7,7 @@
   "description": "Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills",
   "homepage": "",
   "stars": 380,
-  "forks": 38,
+  "forks": 37,
   "open_issues": 2,
   "language": "Python",
   "license": "AGPL-3.0",
@@ -28,22 +28,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 250,
-  "days_since_push": 28,
+  "age_days": 251,
+  "days_since_push": 29,
   "health_score": 47,
   "health_components": {
     "popularity": 51.6,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 69.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.52,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.51,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,23 +136,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:18+00:00",
+  "fetched_at": "2026-10-27T09:53:57+00:00",
   "categories": [
     "desktop-ui",
-    "parallelism-isolation"
+    "isolation"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "isolation",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by HarnessMD/munder-difflin: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 HarnessMD/munder-difflin 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "HarnessMD/munder-difflin",
+    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "OthmanAdi/planning-with-files",
     "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "harnessmd/munder-difflin",
+      "challenger": "othmanadi/planning-with-files",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "HarnessMD/munder-difflin",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -164,15 +164,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 23.879,
-      "momentum_ratio": 130.0,
-      "setup_delta": -40,
+      "star_ratio": 72.882,
+      "momentum_ratio": 468.0,
+      "setup_delta": -45,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "23.88x the stars (9,074 vs 380)",
-        "130.00x the star velocity (26.0/day vs 0.2/day)",
-        "no harder to set up (32 vs 72 friction)"
+        "72.88x the stars (27,695 vs 380)",
+        "468.00x the star velocity (23.4/day vs 0.0/day)",
+        "no harder to set up (27 vs 72 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -186,24 +186,18 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
           "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "self-hosted",
+          "security-isolation",
           "session-persistence",
           "skills-plugins",
-          "usage-analytics",
-          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 47,
-        "challenger_health": 67,
+        "challenger_health": 70,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 27
       }
     }
   }

@@ -34,27 +34,27 @@
     "windsurf"
   ],
   "created_at": "2026-02-14T06:53:17Z",
-  "updated_at": "2026-10-26T01:22:27Z",
+  "updated_at": "2026-10-27T09:22:57Z",
   "pushed_at": "2026-10-25T14:26:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 254,
-  "days_since_push": 0,
+  "age_days": 255,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 58.8,
-    "momentum": 3.3,
+    "momentum": 3.0,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 20,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 3.43,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 3.42,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -182,13 +182,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:56+00:00",
+  "fetched_at": "2026-10-27T09:53:31+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "security-self-hosting"
+    "memory-mcp"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (10/10).",
@@ -216,14 +216,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 331.606,
-      "momentum_ratio": 201.0,
+      "star_ratio": 332.831,
+      "momentum_ratio": 234.5,
       "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "331.61x the stars (289,160 vs 872)",
-        "201.00x the star velocity (804.0/day vs 4.0/day)",
+        "332.83x the stars (290,229 vs 872)",
+        "234.50x the star velocity (844.2/day vs 3.6/day)",
         "no harder to set up (57 vs 73 friction)"
       ],
       "reasons_zh": [],

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,368 |
-| Star velocity | 10.4/day (history basis, 5d span) |
+| Stars | 5,381 |
+| Star velocity | 8.8/day (history basis, 5d span) |
 | Health score | 63/100 |
 | Documentation | 84/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 42,823 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 42,853 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### MCP support
 
-> Marketplace contributions are published after review; local imports do not publish skills.
+> This patch makes CLI and desktop downloads meaningfully smaller, exposes the standalone CLI's research tools through a local MCP server, keeps long conversations readable by collapsing intermediate messages and tool gro…
 
 ### Security & isolation
 
@@ -96,7 +96,7 @@ Score **84/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.6 |
-| momentum | 8.7 |
+| momentum | 7.3 |
 | maintenance | 100.0 |
 | documentation | 84.0 |
 | accessibility | 59.0 |

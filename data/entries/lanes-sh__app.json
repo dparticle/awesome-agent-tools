@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 217,
-  "days_since_push": 19,
+  "age_days": 218,
+  "days_since_push": 20,
   "health_score": 48,
   "health_components": {
     "popularity": 48.8,
@@ -150,77 +150,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:28+00:00",
+  "fetched_at": "2026-10-27T09:54:09+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "parallelism-isolation"
+    "isolation"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "isolation",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "iOfficeAI/AionUi",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "lanes-sh/app",
-      "challenger": "iofficeai/aionui",
-      "incumbent_name": "lanes-sh/app",
-      "challenger_name": "iOfficeAI/AionUi",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "parallel-execution",
-        "skills-plugins",
-        "worktree-isolation"
-      ],
-      "star_ratio": 122.388,
-      "momentum_ratio": 109.0,
-      "setup_delta": -10,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "122.39x the stars (33,779 vs 276)",
-        "109.00x the star velocity (21.8/day vs 0.2/day)",
-        "no harder to set up (2 vs 12 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "parallel-execution",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 48,
-        "challenger_health": 72,
-        "incumbent_setup_score": 12,
-        "challenger_setup_score": 2
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

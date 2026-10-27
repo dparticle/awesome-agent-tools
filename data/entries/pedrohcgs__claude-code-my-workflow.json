@@ -6,8 +6,8 @@
   "url": "https://github.com/pedrohcgs/claude-code-my-workflow",
   "description": "A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
   "homepage": "https://psantanna.com/claude-code-my-workflow/",
-  "stars": 1668,
-  "forks": 3133,
+  "stars": 1671,
+  "forks": 3136,
   "open_issues": 6,
   "language": "HTML",
   "license": "MIT",
@@ -24,27 +24,27 @@
     "research-workflow"
   ],
   "created_at": "2026-02-06T17:29:50Z",
-  "updated_at": "2026-10-24T13:17:34Z",
+  "updated_at": "2026-10-27T01:25:41Z",
   "pushed_at": "2026-09-27T22:26:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 261,
-  "days_since_push": 28,
+  "age_days": 262,
+  "days_since_push": 29,
   "health_score": 59,
   "health_components": {
-    "popularity": 64.4,
-    "momentum": 0.3,
+    "popularity": 64.5,
+    "momentum": 0.5,
     "maintenance": 92.0,
     "documentation": 76.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 6.39,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 6.38,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -155,13 +155,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:45+00:00",
+  "fetched_at": "2026-10-27T09:53:15+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "parallelism-isolation"
+    "isolation",
+    "memory-mcp"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

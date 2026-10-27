@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
   "homepage": "https://career-ops.org",
-  "stars": 77414,
-  "forks": 14322,
-  "open_issues": 427,
+  "stars": 77740,
+  "forks": 14374,
+  "open_issues": 376,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -19,9 +19,9 @@
     "career",
     "career-ops",
     "claude-code",
-    "cli",
     "cover-letter",
     "cv",
+    "good-first-issue",
     "interview-preparation",
     "interview-questions",
     "job-application",
@@ -34,12 +34,12 @@
     "resume"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-10-26T10:06:15Z",
-  "pushed_at": "2026-10-26T09:52:00Z",
+  "updated_at": "2026-10-27T09:49:20Z",
+  "pushed_at": "2026-10-27T09:48:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 204,
+  "age_days": 205,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1251,
+    "stars_gained": 1260,
     "days_span": 5,
-    "stars_per_day": 250.2,
-    "lifetime_stars_per_day": 379.48,
+    "stars_per_day": 252.0,
+    "lifetime_stars_per_day": 379.22,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 46270,
+    "readme_chars": 46342,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -142,7 +142,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.497
+      "external_link_ratio": 0.496
     },
     "highlights": [
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
@@ -158,8 +158,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:25+00:00",
+  "fetched_at": "2026-10-27T09:52:52+00:00",
   "categories": [
+    "failover",
     "model-routing"
   ],
   "primary_category": "model-routing",

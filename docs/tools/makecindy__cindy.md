@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,586 |
-| Star velocity | 58.8/day (lifetime basis, 95d span) |
-| Health score | 65/100 |
-| Documentation | 52/100 |
+| Stars | 7,027 |
+| Star velocity | 73.2/day (lifetime basis, 96d span) |
+| Health score | 69/100 |
+| Documentation | 53/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-22 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 9,438 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 11,847 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,13 @@
 
 ### Usage analytics
 
+> this is not fully anonymous.
+
 ### MCP support
+
+### Self-hostable
+
+> by default (endpoint manifests in
 
 ### GUI / desktop app
 
@@ -60,7 +66,7 @@
 
 ## Documentation quality
 
-Score **52/100**, based on these detected signals:
+Score **53/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -76,10 +82,10 @@ Score **52/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.9 |
-| momentum | 49.0 |
+| popularity | 76.9 |
+| momentum | 61.0 |
 | maintenance | 100.0 |
-| documentation | 52.0 |
+| documentation | 53.0 |
 | accessibility | 35.0 |
 
 ---

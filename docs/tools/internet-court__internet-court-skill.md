@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,017 |
-| Star velocity | 46.4/day (history basis, 5d span) |
+| Stars | 7,022 |
+| Star velocity | 24.8/day (history basis, 5d span) |
 | Health score | 61/100 |
-| Documentation | 40/100 |
+| Documentation | 41/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-06-16 |
-| Last push | 2026-08-19 (67 days ago) |
-| Analyzed README | 14,510 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 15,166 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> registries), bnb-chain/bnbchain-mcp/ (ERC-8004 registration), starknet/starknet-identity/; ERC-7857 has no public skill yet
+> /certisyn-independent-verification/ (vet a counterparty's own claim before relying on it); ERC-7857 has no public skill yet
 
 ### Skills & plugins
 
@@ -59,7 +59,7 @@
 
 ## Documentation quality
 
-Score **40/100**, based on these detected signals:
+Score **41/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -73,9 +73,9 @@ Score **40/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 76.9 |
-| momentum | 38.7 |
-| maintenance | 78.0 |
-| documentation | 40.0 |
+| momentum | 20.7 |
+| maintenance | 100.0 |
+| documentation | 41.0 |
 | accessibility | 69.0 |
 
 ---

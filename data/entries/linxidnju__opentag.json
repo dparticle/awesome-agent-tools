@@ -33,22 +33,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 121,
-  "days_since_push": 108,
+  "age_days": 122,
+  "days_since_push": 109,
   "health_score": 41,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 53.0,
     "accessibility": 55.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 4.16,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 4.12,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,25 +134,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:08+00:00",
+  "fetched_at": "2026-10-27T09:53:44+00:00",
   "categories": [
-    "security"
+    "mobile-remote-control"
   ],
-  "primary_category": "security",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by kitfunso/hippo-memory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 kitfunso/hippo-memory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "kitfunso/hippo-memory",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "getpaseo/paseo",
     "challenger": "",
     "supersede": {
       "incumbent": "linxidnju/opentag",
-      "challenger": "kitfunso/hippo-memory",
+      "challenger": "getpaseo/paseo",
       "incumbent_name": "linxidnju/OpenTag",
-      "challenger_name": "kitfunso/hippo-memory",
+      "challenger_name": "getpaseo/paseo",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +160,15 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 1.561,
-      "momentum_ratio": 12.0,
-      "setup_delta": 10,
-      "dominance": 0.801,
+      "star_ratio": 44.107,
+      "momentum_ratio": 515.0,
+      "setup_delta": -21,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.56x the stars (785 vs 503)",
-        "12.00x the star velocity (0.6/day vs 0.0/day)",
-        "slightly heavier setup (+10 friction, within tolerance)"
+        "44.11x the stars (22,186 vs 503)",
+        "515.00x the star velocity (103.0/day vs 0.2/day)",
+        "no harder to set up (24 vs 45 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,23 +180,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
+          "mobile-access",
           "multi-agent-orchestration",
-          "notifications",
+          "parallel-execution",
           "remote-control",
           "security-isolation",
           "self-hosted",
-          "session-persistence",
+          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 41,
-        "challenger_health": 55,
+        "challenger_health": 83,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 55
+        "challenger_setup_score": 24
       }
     }
   }

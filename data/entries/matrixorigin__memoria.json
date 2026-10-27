@@ -6,9 +6,9 @@
   "url": "https://github.com/matrixorigin/memoria",
   "description": "Secure memory management for AI Agents • Ensures data integrity • Reduces hallucinations • Maintains consistent long-term context",
   "homepage": "https://thememoria.ai/",
-  "stars": 616,
+  "stars": 617,
   "forks": 78,
-  "open_issues": 36,
+  "open_issues": 40,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -20,27 +20,27 @@
     "storage"
   ],
   "created_at": "2026-03-09T23:44:24Z",
-  "updated_at": "2026-10-26T03:49:48Z",
+  "updated_at": "2026-10-27T04:05:26Z",
   "pushed_at": "2026-10-26T03:49:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 230,
-  "days_since_push": 0,
+  "age_days": 231,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 55.8,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.68,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 2.67,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,26 +139,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:02+00:00",
+  "fetched_at": "2026-10-27T09:53:38+00:00",
   "categories": [
-    "security",
-    "security-self-hosting"
+    "memory-mcp"
   ],
-  "primary_category": "security",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by kitfunso/hippo-memory: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 kitfunso/hippo-memory 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "kitfunso/hippo-memory",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "matrixorigin/memoria",
-      "challenger": "kitfunso/hippo-memory",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "matrixorigin/memoria",
-      "challenger_name": "kitfunso/hippo-memory",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -168,15 +167,15 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 1.274,
-      "momentum_ratio": 1.5,
-      "setup_delta": -8,
-      "dominance": 0.656,
+      "star_ratio": 470.387,
+      "momentum_ratio": 1407.0,
+      "setup_delta": -6,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "1.27x the stars (785 vs 616)",
-        "1.50x the star velocity (0.6/day vs 0.4/day)",
-        "no harder to set up (55 vs 63 friction)"
+        "470.39x the stars (290,229 vs 617)",
+        "1407.00x the star velocity (844.2/day vs 0.6/day)",
+        "no harder to set up (57 vs 63 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -190,23 +189,26 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "remote-control",
+          "parallel-execution",
           "security-isolation",
           "self-hosted",
           "session-persistence",
+          "skills-plugins",
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 55,
+        "challenger_health": 89,
         "incumbent_setup_score": 63,
-        "challenger_setup_score": 55
+        "challenger_setup_score": 57
       }
     }
   }

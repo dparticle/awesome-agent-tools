@@ -6,9 +6,9 @@
   "url": "https://github.com/zvec-ai/zvec-grep",
   "description": "Local-first search across your workspace, built for humans and AI agents.",
   "homepage": "",
-  "stars": 4183,
-  "forks": 249,
-  "open_issues": 80,
+  "stars": 4187,
+  "forks": 250,
+  "open_issues": 84,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -24,27 +24,27 @@
     "vector-search"
   ],
   "created_at": "2026-07-10T02:58:07Z",
-  "updated_at": "2026-10-26T10:04:00Z",
-  "pushed_at": "2026-10-26T03:40:17Z",
+  "updated_at": "2026-10-27T08:22:16Z",
+  "pushed_at": "2026-10-27T09:08:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 108,
+  "age_days": 109,
   "days_since_push": 0,
-  "health_score": 58,
+  "health_score": 57,
   "health_components": {
     "popularity": 72.4,
-    "momentum": 9.3,
+    "momentum": 8.7,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 57.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 56,
+    "stars_gained": 52,
     "days_span": 5,
-    "stars_per_day": 11.2,
-    "lifetime_stars_per_day": 38.73,
+    "stars_per_day": 10.4,
+    "lifetime_stars_per_day": 38.41,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -138,11 +138,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:14+00:00",
+  "fetched_at": "2026-10-27T09:52:36+00:00",
   "categories": [
-    "desktop-ui-2"
+    "memory-mcp"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

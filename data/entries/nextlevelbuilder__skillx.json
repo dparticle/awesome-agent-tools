@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "full_name": "nextlevelbuilder/skillx",
+  "name": "skillx",
+  "owner": "nextlevelbuilder",
+  "url": "https://github.com/nextlevelbuilder/skillx",
+  "description": "SkillX.sh — The Only Skill That Your AI Agent Needs. AI agent skills marketplace with semantic search, leaderboard, ratings, and CLI.",
+  "homepage": "http://skillx.sh",
+  "stars": 192,
+  "forks": 43,
+  "open_issues": 22,
+  "language": "TypeScript",
+  "license": "",
+  "topics": [],
+  "created_at": "2026-02-10T05:29:10Z",
+  "updated_at": "2026-10-27T08:56:19Z",
+  "pushed_at": "2026-10-27T08:56:23Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 259,
+  "days_since_push": 0,
+  "health_score": 48,
+  "health_components": {
+    "popularity": 45.7,
+    "momentum": 0.2,
+    "maintenance": 100.0,
+    "documentation": 57.0,
+    "accessibility": 48.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 6,
+    "days_span": 20,
+    "stars_per_day": 0.3,
+    "lifetime_stars_per_day": 0.74,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "nextlevelbuilder/skillx",
+    "readme_chars": 7080,
+    "capabilities": [
+      "billing-metering",
+      "skills-plugins",
+      "mcp-support",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "billing-metering": "",
+      "skills-plugins": "",
+      "mcp-support": "1 (Complete): MVP with web marketplace, CLI, hybrid search, auth, ratings/reviews, API keys",
+      "gui-desktop": ""
+    },
+    "capability_hits": {
+      "billing-metering": 1,
+      "skills-plugins": 3,
+      "mcp-support": 1,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 52,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "pnpm install/build",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs pnpm install/build, npm install/build; configure OAuth login flow, sign-in required",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 pnpm install/build、npm install/build；需配置 OAuth login flow、sign-in required"
+    },
+    "doc_score": 57,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "The Only Skill That Your AI Agent Needs.",
+    "summary_zh": "",
+    "install_hint": "npm install -g skillx-sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    },
+    "highlights": [
+      "Rate skills (0-10) and write reviews",
+      "HTTPS enforced (Cloudflare TLS 1.3)",
+      "skill-creator (v3.0.0) — Create/update skills optimized for Skillmark benchmarks",
+      "API key management for CLI access"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-27T09:54:29+00:00",
+  "categories": [
+    "billing",
+    "desktop-ui-2"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

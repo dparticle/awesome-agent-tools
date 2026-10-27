@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "full_name": "youssefvdel/qwengate",
+  "name": "qwengate",
+  "owner": "youssefvdel",
+  "url": "https://github.com/youssefvdel/qwengate",
+  "description": "Drop-in OpenAI-compatible API gateway for Qwen AI models. Use your Qwen account (chat.qwen.ai) as a free AI API provider in any OpenAI-compatible client — Cursor, Continue.dev, Claude Code, VS Code Copilot, or any coding agent. Self-hosted, Chromium-based auth, streaming support, tool calling, dashboard.",
+  "homepage": "https://github.com/youssefvdel/qwen-gate",
+  "stars": 205,
+  "forks": 50,
+  "open_issues": 15,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-proxy",
+    "api-gateway",
+    "chat-gateway",
+    "chromium",
+    "coding-agent",
+    "free-api",
+    "llm-proxy",
+    "openai-compatible",
+    "openai-proxy",
+    "qwen",
+    "qwen-api",
+    "qwen-gate",
+    "self-hosted",
+    "streaming",
+    "tool-calling"
+  ],
+  "created_at": "2026-05-22T15:04:27Z",
+  "updated_at": "2026-10-26T07:49:13Z",
+  "pushed_at": "2026-08-21T16:01:18Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "dev",
+  "age_days": 157,
+  "days_since_push": 66,
+  "health_score": 46,
+  "health_components": {
+    "popularity": 46.2,
+    "momentum": 1.1,
+    "maintenance": 78.0,
+    "documentation": 57.0,
+    "accessibility": 66.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 205,
+    "days_span": 157,
+    "stars_per_day": 1.31,
+    "lifetime_stars_per_day": 1.31,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "youssefvdel/qwengate",
+    "readme_chars": 14915,
+    "capabilities": [
+      "multi-account-switching",
+      "auto-failover",
+      "model-routing",
+      "api-gateway",
+      "session-persistence",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "and use Qwen models without paying per-token.",
+      "auto-failover": "",
+      "model-routing": "ax, Qwen 3-Plus, and more for free in your existing tools.",
+      "api-gateway": "ax, Qwen 3-Plus, and more for free in your existing tools.",
+      "session-persistence": "e your personal Qwen account — create dedicated accounts.",
+      "gui-desktop": "Events with heartbeat keep-alive and content filter integrity maintained across stream boundaries.",
+      "cross-agent-support": "Mentions Claude Code, Cursor, OpenCode, Qwen Code"
+    },
+    "capability_hits": {
+      "multi-account-switching": 2,
+      "auto-failover": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "session-persistence": 1,
+      "gui-desktop": 2,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via curl | sh installer, native installer / package; needs git clone (build from source); configure API key configuration, config.json/yaml/toml",
+      "note_zh": "较易上手。可通过 curl | sh installer、native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration、config.json/yaml/toml"
+    },
+    "doc_score": 57,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "OpenCode",
+      "Cursor",
+      "Qwen Code"
+    ],
+    "summary_en": "curl -sSL https://raw.githubusercontent.com/youssefvdel/qwen-gate/main/install.sh | bash",
+    "summary_zh": "",
+    "install_hint": "curl -sSL https://raw.githubusercontent.com/youssefvdel/qwen-gate/main/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.536
+    },
+    "highlights": [
+      "Multi-Account Rotation — Configure multiple Qwen accounts (3+ recommended).",
+      "OpenAI-Compatible API — Drop-in replacement for /v1/chat/completions and /v1/models.",
+      "Session Pooling — Browser sessions are pooled, reused, and autoscaled under load.",
+      "Tool Calling — Full OpenAI-style function calling with JSON Schema validation and spam guards."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-27T09:54:27+00:00",
+  "categories": [
+    "failover",
+    "model-routing",
+    "sharing"
+  ],
+  "primary_category": "sharing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

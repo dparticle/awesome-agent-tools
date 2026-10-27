@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "full_name": "LerianStudio/ring",
+  "name": "ring",
+  "owner": "LerianStudio",
+  "url": "https://github.com/LerianStudio/ring",
+  "description": "89 skills and 38 specialized agents that enforce proven engineering practices for AI-assisted development. TDD, systematic debugging, parallel code review, and 10-gate development cycles — as a Claude Code plugin marketplace.",
+  "homepage": "https://lerian.studio",
+  "stars": 218,
+  "forks": 29,
+  "open_issues": 10,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "ai-coding",
+    "claude-code",
+    "code-quality",
+    "code-review",
+    "developer-tools",
+    "devops",
+    "finops",
+    "plugin",
+    "prompt-engineering",
+    "skills-library",
+    "software-engineering",
+    "tdd",
+    "technical-writing",
+    "workflow-automation"
+  ],
+  "created_at": "2025-10-30T20:18:13Z",
+  "updated_at": "2026-10-21T08:36:16Z",
+  "pushed_at": "2026-10-21T08:36:13Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 361,
+  "days_since_push": 6,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 46.8,
+    "momentum": 0.1,
+    "maintenance": 100.0,
+    "documentation": 60.0,
+    "accessibility": 60.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1,
+    "days_span": 16,
+    "stars_per_day": 0.06,
+    "lifetime_stars_per_day": 0.6,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "LerianStudio/ring",
+    "readme_chars": 34653,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "skills-plugins",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "lti-themed PRs into thematic slices for focused parallel review)",
+      "parallel-execution": "ing:using-pm-team + 7 gate skills; Large track gate numbers shown):*",
+      "worktree-isolation": "while preserving intent-revealing ones",
+      "skills-plugins": "# 💍 The Ring - Skills Library for AI Agents",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 7,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "skills-plugins": 5,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 40,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "go install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "config file",
+        "database dependency",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via go install, native installer / package; needs git clone (build from source); configure config file, database dependency",
+      "note_zh": "需要一些配置。可通过 go install、native installer / package 安装；需要 git clone (build from source)；需配置 config file、database dependency"
+    },
+    "doc_score": 60,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Droid"
+    ],
+    "summary_en": "Proven engineering practices, enforced through skills.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.144
+    },
+    "highlights": [
+      "ring:running-dev-cycle - Lean backend development cycle orchestrator driven by a rolling-wave phased plan (phases → epics Epic N.M → tasks Task N.M.T): Gate 0 implementation-owned TDD/cover…",
+      "Providing 76 specialized skills (23 core + 35 dev-team + 14 product planning + 4 technical writing)",
+      "ring:auditing-production-readiness - 44-dimension production readiness audit; runs explorers in batches of up to 10, appends incrementally to a single report; output: scored report (0-430,…",
+      "33 specialized agents - 2 planning/analysis + 24 developer/reviewer + 4 product research + 3 technical writing"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-27T09:54:23+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

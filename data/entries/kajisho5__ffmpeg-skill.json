@@ -6,9 +6,9 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 2962,
-  "forks": 233,
-  "open_issues": 2,
+  "stars": 3085,
+  "forks": 243,
+  "open_issues": 3,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-10-26T10:08:03Z",
-  "pushed_at": "2026-10-26T00:24:55Z",
+  "updated_at": "2026-10-27T09:23:50Z",
+  "pushed_at": "2026-10-26T14:01:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 52,
+  "age_days": 53,
   "days_since_push": 0,
   "health_score": 74,
   "health_components": {
-    "popularity": 69.4,
-    "momentum": 47.5,
+    "popularity": 69.8,
+    "momentum": 48.5,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 2962,
-    "days_span": 52,
-    "stars_per_day": 56.96,
-    "lifetime_stars_per_day": 56.96,
+    "stars_gained": 3085,
+    "days_span": 53,
+    "stars_per_day": 58.21,
+    "lifetime_stars_per_day": 58.21,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -160,17 +160,83 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:16+00:00",
+  "fetched_at": "2026-10-27T09:52:39+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2"
+    "failover",
+    "memory-mcp"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "kajisho5/ffmpeg-skill",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "kajisho5/ffmpeg-skill",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "security-isolation",
+        "skills-plugins"
+      ],
+      "star_ratio": 94.077,
+      "momentum_ratio": 14.503,
+      "setup_delta": 7,
+      "dominance": 0.965,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "94.08x the stars (290,229 vs 3,085)",
+        "14.50x the star velocity (844.2/day vs 58.2/day)",
+        "slightly heavier setup (+7 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 74,
+        "challenger_health": 89,
+        "incumbent_setup_score": 50,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

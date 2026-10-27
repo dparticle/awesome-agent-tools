@@ -4,114 +4,137 @@
   "name": "mcp-gamehacking",
   "owner": "1llu50ry",
   "url": "https://github.com/1llu50ry/mcp-gamehacking",
-  "description": "MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of **4,100+ skills** with full source code archives, specialized agents, and workflow tools -- designed to be plugged into Claude, Cursor, or any MCP-compatible client.",
+  "description": "MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools -- designed to be plugged into Claude, Cursor, or any MCP-compatible client.",
   "homepage": "",
-  "stars": 372,
+  "stars": 385,
   "forks": 70,
-  "open_issues": 1,
+  "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-10-05T06:07:53Z",
-  "updated_at": "2026-10-26T07:50:31Z",
-  "pushed_at": "2026-10-23T01:07:18Z",
+  "updated_at": "2026-10-27T09:36:20Z",
+  "pushed_at": "2026-10-27T08:14:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 21,
-  "days_since_push": 3,
-  "health_score": 50,
+  "age_days": 22,
+  "days_since_push": 0,
+  "health_score": 57,
   "health_components": {
-    "popularity": 51.4,
-    "momentum": 14.8,
+    "popularity": 51.7,
+    "momentum": 14.6,
     "maintenance": 100.0,
-    "documentation": 39.0,
-    "accessibility": 49.0
+    "documentation": 68.0,
+    "accessibility": 68.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 372,
-    "days_span": 21,
-    "stars_per_day": 17.71,
-    "lifetime_stars_per_day": 17.71,
+    "stars_gained": 385,
+    "days_span": 22,
+    "stars_per_day": 17.5,
+    "lifetime_stars_per_day": 17.5,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "1llu50ry/mcp-gamehacking",
-    "readme_chars": 15044,
+    "readme_chars": 29327,
     "capabilities": [
+      "auto-failover",
       "multi-agent-orchestration",
       "memory-context",
       "skills-plugins",
       "mcp-support",
+      "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "river-analyzer Deep analysis of anti-cheat kernel driver",
-      "memory-context": "rce code archives, specialized agents, and workflow tools -- designed to be plugged into Claude, Cursor, or any MCP-compatible client.",
-      "skills-plugins": "",
-      "mcp-support": "ripts, debugger extensions, dumpers, unpackers",
-      "cross-agent-support": "Mentions Claude Code, Cursor"
+      "auto-failover": "",
+      "multi-agent-orchestration": "exploit development** pwndbg + GEF + angr + AFL++ + honggfuzz + LibAFL + Unicorn + ret-sync all behind one hub.",
+      "memory-context": "dex/ChatGPT, Cursor, Copilot, Gemini CLI and custom bots share one workspace through MCP: register, DM + channel broadcast, task handoff with status machine, adversarial voting on findings, shared KV knowledge base, nam…",
+      "skills-plugins": "are authorized to analyze.",
+      "mcp-support": "MCP tools · 59 RE/debug backends · 4,200+ skills · multi-agent mesh · zero-dep native parsers",
+      "gui-desktop": "Supported backends: GhidraMCP, SuperghidraMCP (pyghidra-mcp, +gui), Ghidrathon MCP, ida-pro-mcp, Hex-Rays IDA MCP, Binary Ninja MCP, radare2 MCP, x64dbg MCP Server, WinDbg MCP, Cheat Engine MCP, Frida MCP, Hopper MCP, R…",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 1,
-      "memory-context": 2,
+      "auto-failover": 1,
+      "multi-agent-orchestration": 2,
+      "memory-context": 1,
       "skills-plugins": 1,
-      "mcp-support": 12,
-      "cross-agent-support": 2
+      "mcp-support": 60,
+      "gui-desktop": 1,
+      "cross-agent-support": 5
     },
     "friction": {
-      "level": "moderate",
-      "score": 51,
+      "level": "low",
+      "score": 32,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
-      "easy_signals": [],
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
       "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)",
         "npm install/build"
       ],
       "config_signals": [
         "database dependency",
         "database migration"
       ],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "no-code positioning",
+        "GUI application"
+      ],
       "platforms": [
         "Windows",
         "Linux",
         "iOS",
-        "Android"
+        "Android",
+        "Web"
       ],
-      "note_en": "Some setup. needs npm install/build; configure database dependency, database migration",
-      "note_zh": "需要一些配置。需要 npm install/build；需配置 database dependency、database migration"
+      "note_en": "Easy. install via npx one-liner, native installer / package; needs docker compose up, git clone (build from source); configure database dependency, database migration; no-code positioning",
+      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 docker compose up、git clone (build from source)；需配置 database dependency、database migration；no-code positioning"
     },
-    "doc_score": 39,
+    "doc_score": 68,
     "doc_signals": [
       "contains code blocks",
+      "contains screenshots/diagrams",
       "has section headings",
+      "has a quick-start section",
       "documents installation",
       "documents configuration",
+      "has contribution guidance",
       "mentions licensing",
-      "explains architecture"
+      "has a Chinese translation",
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
-      "Cursor"
+      "Codex",
+      "Gemini CLI",
+      "Cursor",
+      "Copilot"
     ],
-    "summary_en": "MCP (Model Context Protocol) server for game hacking & reverse engineering.",
+    "summary_en": "111 MCP tools · 59 RE/debug backends · 4,200+ skills · multi-agent mesh · zero-dep native parsers",
     "summary_zh": "",
-    "install_hint": "npm install",
+    "install_hint": "npm install && npx tsc",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.066
+      "external_link_ratio": 0.477
     },
     "highlights": [
+      "\"BM25 search 'battleye shellcode detection'.\" → bm25_search ranks 4,230 docs by BM25 relevance",
       "3,985 archived projects -- full source code snapshots from the game security ecosystem (prefixed ags-)",
       "ags-budget-ept (score:7) -- BudgetEPT: stealthy inline EPT-like hooks...",
-      "ags-hyper-deceit (score:6) -- HyperDeceit: HvcallCodeVa hook framework...",
-      "UEFI / EFI: буткиты, EFI-маперы, спуф SecureBoot"
+      "ags-hyper-deceit (score:6) -- HyperDeceit: HvcallCodeVa hook framework..."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -122,76 +145,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:19+00:00",
+  "fetched_at": "2026-10-27T09:53:56+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "security-self-hosting"
+    "memory-mcp"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "1llu50ry/mcp-gamehacking",
-      "challenger": "tencentcloud/octop",
-      "incumbent_name": "1llu50ry/mcp-gamehacking",
-      "challenger_name": "TencentCloud/Octop",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 29.858,
-      "momentum_ratio": 6.177,
-      "setup_delta": -19,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "29.86x the stars (11,107 vs 372)",
-        "6.18x the star velocity (109.4/day vs 17.7/day)",
-        "no harder to set up (32 vs 51 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 50,
-        "challenger_health": 85,
-        "incumbent_setup_score": 51,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

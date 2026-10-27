@@ -17,12 +17,14 @@
 | Health score | 47/100 |
 | Documentation | 45/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | not declared |
 | Language | Python |
 | Created | 2025-12-26 |
-| Last push | 2026-10-12 (14 days ago) |
+| Last push | 2026-10-12 (15 days ago) |
 | Analyzed README | 5,468 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (6/6).
 
 ## What it solves
 

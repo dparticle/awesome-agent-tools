@@ -6,34 +6,34 @@
   "url": "https://github.com/wenfxl/openai-cpa",
   "description": "Enterprise Distributed Automation Platform for massive concurrent workload execution. Unifies elastic cluster orchestration, multi-channel identity verification messaging, real-time ops telemetry, and multi-warehouse lifecycle control (CPA / Sub2API / Image2API) in one high-throughput control plane.",
   "homepage": "",
-  "stars": 1404,
-  "forks": 438,
+  "stars": 1403,
+  "forks": 437,
   "open_issues": 12,
   "language": "",
   "license": "NOASSERTION",
   "topics": [],
   "created_at": "2026-03-23T05:59:01Z",
-  "updated_at": "2026-10-23T15:16:43Z",
+  "updated_at": "2026-10-26T19:37:33Z",
   "pushed_at": "2026-08-21T18:25:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 217,
-  "days_since_push": 65,
+  "age_days": 218,
+  "days_since_push": 66,
   "health_score": 49,
   "health_components": {
     "popularity": 62.9,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 67.0,
     "accessibility": 43.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
-    "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 6.47,
+    "stars_gained": 0,
+    "days_span": 6,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 6.44,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,26 +131,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:48+00:00",
+  "fetched_at": "2026-10-27T09:53:19+00:00",
   "categories": [
     "desktop-ui",
-    "security"
+    "mobile-remote-control"
   ],
-  "primary_category": "security",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by tickernelz/opencode-mem: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 tickernelz/opencode-mem 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "tickernelz/opencode-mem",
+    "note_en": "Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 milind-soni/OpenMausBot 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "milind-soni/OpenMausBot",
     "challenger": "",
     "supersede": {
       "incumbent": "wenfxl/openai-cpa",
-      "challenger": "tickernelz/opencode-mem",
+      "challenger": "milind-soni/openmausbot",
       "incumbent_name": "wenfxl/openai-cpa",
-      "challenger_name": "tickernelz/opencode-mem",
+      "challenger_name": "milind-soni/OpenMausBot",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "multi-agent-orchestration",
@@ -158,15 +158,15 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 1.272,
-      "momentum_ratio": 12.0,
-      "setup_delta": 3,
-      "dominance": 0.79,
+      "star_ratio": 4.079,
+      "momentum_ratio": 1296.0,
+      "setup_delta": -29,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.27x the stars (1,786 vs 1,404)",
-        "12.00x the star velocity (2.4/day vs 0.2/day)",
-        "slightly heavier setup (+3 friction, within tolerance)"
+        "4.08x the stars (5,723 vs 1,403)",
+        "1296.00x the star velocity (64.8/day vs 0.0/day)",
+        "no harder to set up (28 vs 57 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -177,20 +177,24 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
-          "memory-context",
+          "mcp-support",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
           "security-isolation",
-          "skills-plugins"
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics",
+          "voice-input"
         ],
         "incumbent_health": 49,
-        "challenger_health": 55,
+        "challenger_health": 74,
         "incumbent_setup_score": 57,
-        "challenger_setup_score": 60
+        "challenger_setup_score": 28
       }
     }
   }

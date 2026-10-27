@@ -6,7 +6,7 @@
   "url": "https://github.com/Dataojitori/nocturne_memory",
   "description": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw.",
   "homepage": "https://misaligned.top/memory",
-  "stars": 1409,
+  "stars": 1411,
   "forks": 175,
   "open_issues": 5,
   "language": "Python",
@@ -31,27 +31,27 @@
     "sqlite"
   ],
   "created_at": "2025-12-25T08:45:54Z",
-  "updated_at": "2026-10-25T16:37:32Z",
+  "updated_at": "2026-10-27T09:25:28Z",
   "pushed_at": "2026-09-22T20:13:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 305,
-  "days_since_push": 33,
+  "age_days": 306,
+  "days_since_push": 34,
   "health_score": 49,
   "health_components": {
     "popularity": 63.0,
-    "momentum": 1.0,
+    "momentum": 1.2,
     "maintenance": 78.0,
     "documentation": 66.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 4.62,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 4.61,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -153,8 +153,8 @@
     "highlights": [
       "Valid Domains：AI 可以创建记忆的命名空间（默认：core, writer, game, notes, narrative）。",
       "Boot URIs：system://boot 启动时自动载入的记忆——你的 AI 的\"灵魂锚点\"。",
-      "使用命名空间时，可为每个 Agent 指定独立的启动记忆。",
-      "设置 API Token（点 Generate 自动生成）"
+      "设置 API Token（点 Generate 自动生成）",
+      "使用命名空间时，可为每个 Agent 指定独立的启动记忆。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -165,13 +165,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:46+00:00",
+  "fetched_at": "2026-10-27T09:53:17+00:00",
   "categories": [
-    "mobile-remote-control",
-    "security",
-    "security-self-hosting"
+    "memory-mcp"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by spinabot/brigade: covers 100% of capabilities (7/7).",
@@ -196,14 +194,14 @@
         "session-persistence",
         "worktree-isolation"
       ],
-      "star_ratio": 8.06,
+      "star_ratio": 8.051,
       "momentum_ratio": 1.0,
       "setup_delta": -21,
       "dominance": 0.8,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "8.06x the stars (11,357 vs 1,409)",
-        "1.00x the star velocity (1.2/day vs 1.2/day)",
+        "8.05x the stars (11,360 vs 1,411)",
+        "1.00x the star velocity (1.4/day vs 1.4/day)",
         "no harder to set up (39 vs 60 friction)"
       ],
       "reasons_zh": [],

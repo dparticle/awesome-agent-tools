@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,749 |
-| Star velocity | 15.6/day (history basis, 5d span) |
+| Stars | 1,758 |
+| Star velocity | 12.4/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 74/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-08-08 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 77,759 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 77,840 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (9/9).
 
@@ -96,7 +96,7 @@ Score **74/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 64.9 |
-| momentum | 13.0 |
+| momentum | 10.3 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
 | accessibility | 36.0 |

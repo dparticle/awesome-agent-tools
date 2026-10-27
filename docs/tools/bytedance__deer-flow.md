@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 84,436 |
-| Star velocity | 41.0/day (history basis, 5d span) |
-| Health score | 74/100 |
+| Stars | 84,470 |
+| Star velocity | 39.2/day (history basis, 5d span) |
+| Health score | 73/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 356,072 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 362,580 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -62,7 +62,7 @@
 
 ### Skills & plugins
 
-> uired-name +prefix lookups remain available.
+> he bundled skill-creator description optimizer reads YAML frontmatter consistently with skill validation, preserving quoted strings and multiline descriptions.
 
 ### Agent runtime
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.5 |
-| momentum | 34.2 |
+| momentum | 32.7 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

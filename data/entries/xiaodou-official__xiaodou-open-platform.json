@@ -39,24 +39,24 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 28,
-  "days_since_push": 3,
-  "health_score": 54,
+  "age_days": 29,
+  "days_since_push": 4,
+  "health_score": 52,
   "health_components": {
     "popularity": 50.2,
-    "momentum": 9.6,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 323,
-    "days_span": 28,
-    "stars_per_day": 11.54,
-    "lifetime_stars_per_day": 11.54,
-    "basis": "lifetime",
-    "is_fast_riser": true
+    "stars_gained": 5,
+    "days_span": 5,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 11.14,
+    "basis": "history",
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "xiaodou-official/xiaodou-open-platform",
@@ -149,9 +149,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:21+00:00",
+  "fetched_at": "2026-10-27T09:54:00+00:00",
   "categories": [
     "billing",
+    "model-routing",
     "sharing"
   ],
   "primary_category": "billing",

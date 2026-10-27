@@ -6,9 +6,9 @@
   "url": "https://github.com/xerj-org/xerj",
   "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
   "homepage": "https://xerj.org",
-  "stars": 15699,
-  "forks": 1157,
-  "open_issues": 71,
+  "stars": 16964,
+  "forks": 1197,
+  "open_issues": 85,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,16 +34,16 @@
     "vector-search"
   ],
   "created_at": "2026-06-30T04:32:45Z",
-  "updated_at": "2026-10-26T10:07:12Z",
-  "pushed_at": "2026-10-26T09:59:25Z",
+  "updated_at": "2026-10-27T09:42:24Z",
+  "pushed_at": "2026-10-27T09:24:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 118,
+  "age_days": 119,
   "days_since_push": 0,
-  "health_score": 86,
+  "health_score": 87,
   "health_components": {
-    "popularity": 83.9,
+    "popularity": 84.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3143,
+    "stars_gained": 4007,
     "days_span": 5,
-    "stars_per_day": 628.6,
-    "lifetime_stars_per_day": 133.04,
+    "stars_per_day": 801.4,
+    "lifetime_stars_per_day": 142.55,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -170,12 +170,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:01+00:00",
+  "fetched_at": "2026-10-27T09:52:19+00:00",
   "categories": [
     "desktop-ui-2",
-    "security-self-hosting"
+    "memory-mcp"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

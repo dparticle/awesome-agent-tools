@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 519 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 47/100 |
 | Documentation | 39/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
-| Last push | 2026-10-16 (9 days ago) |
+| Last push | 2026-10-16 (10 days ago) |
 | Analyzed README | 5,623 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection)** — Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -71,7 +73,7 @@ Score **39/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.3 |
-| momentum | 0.2 |
+| momentum | 0.0 |
 | maintenance | 92.0 |
 | documentation | 39.0 |
 | accessibility | 63.0 |

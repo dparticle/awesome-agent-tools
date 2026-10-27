@@ -25,8 +25,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 303,
-  "days_since_push": 14,
+  "age_days": 304,
+  "days_since_push": 15,
   "health_score": 47,
   "health_components": {
     "popularity": 48.1,
@@ -129,17 +129,80 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:31+00:00",
+  "fetched_at": "2026-10-27T09:54:12+00:00",
   "categories": [
     "desktop-ui-2",
-    "security"
+    "memory-mcp",
+    "mobile-remote-control"
   ],
-  "primary_category": "security",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "yyhdbl/agentcrew",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "YYHDBL/AgentCrew",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "notifications",
+        "security-isolation",
+        "session-persistence"
+      ],
+      "star_ratio": 426.103,
+      "momentum_ratio": 1926.0,
+      "setup_delta": 6,
+      "dominance": 0.97,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "426.10x the stars (107,804 vs 253)",
+        "1926.00x the star velocity (385.2/day vs 0.2/day)",
+        "slightly heavier setup (+6 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "notifications",
+          "security-isolation",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 89,
+        "incumbent_setup_score": 39,
+        "challenger_setup_score": 45
+      }
+    }
   }
 }

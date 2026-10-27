@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 908 |
-| Star velocity | 2.0/day (history basis, 5d span) |
-| Health score | 52/100 |
-| Documentation | 46/100 |
+| Stars | 912 |
+| Star velocity | 2.8/day (history basis, 5d span) |
+| Health score | 51/100 |
+| Documentation | 47/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-12-17 |
-| Last push | 2026-10-25 (0 days ago) |
-| Analyzed README | 8,997 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-26 (0 days ago) |
+| Analyzed README | 12,466 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -30,7 +32,19 @@
 
 ### Model / provider routing
 
+### Session persistence
+
+> conversations On Linux: everything under ~/.gemini, because where agy keeps its login there is not confirmed
+
+### Memory & context
+
+> .agents, Cursor and Claude hooks, ~/.cursor/mcp.json Team commands from your Cursor dashboard (read from the CLI's bundle, not seen in a run)
+
 ### Agent runtime
+
+### MCP support
+
+> del and effort, a link to your auth.json so a token
 
 ### Cross-agent support
 
@@ -38,17 +52,17 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 36/100)
+- **Difficulty:** 🟡 Some setup (friction score 48/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Configuration required:** database dependency
+**Configuration required:** config.json/yaml/toml, sign-in required, database dependency
 
-*Easy. configure database dependency*
+*Some setup. configure config.json/yaml/toml, sign-in required*
 
 ## Documentation quality
 
-Score **46/100**, based on these detected signals:
+Score **47/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -63,10 +77,10 @@ Score **46/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 59.2 |
-| momentum | 1.7 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
-| documentation | 46.0 |
-| accessibility | 64.0 |
+| documentation | 47.0 |
+| accessibility | 52.0 |
 
 ---
 

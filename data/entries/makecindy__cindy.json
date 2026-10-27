@@ -6,9 +6,9 @@
   "url": "https://github.com/makecindy/cindy",
   "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
   "homepage": "https://cindy.app",
-  "stars": 5586,
-  "forks": 721,
-  "open_issues": 1973,
+  "stars": 7027,
+  "forks": 843,
+  "open_issues": 2067,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,39 +27,40 @@
     "windows"
   ],
   "created_at": "2026-07-22T17:49:34Z",
-  "updated_at": "2026-10-26T10:08:18Z",
-  "pushed_at": "2026-10-26T10:03:47Z",
+  "updated_at": "2026-10-27T09:51:18Z",
+  "pushed_at": "2026-10-27T09:49:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 95,
+  "age_days": 96,
   "days_since_push": 0,
-  "health_score": 65,
+  "health_score": 69,
   "health_components": {
-    "popularity": 74.9,
-    "momentum": 49.0,
+    "popularity": 76.9,
+    "momentum": 61.0,
     "maintenance": 100.0,
-    "documentation": 52.0,
+    "documentation": 53.0,
     "accessibility": 35.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5586,
-    "days_span": 95,
-    "stars_per_day": 58.8,
-    "lifetime_stars_per_day": 58.8,
+    "stars_gained": 7027,
+    "days_span": 96,
+    "stars_per_day": 73.2,
+    "lifetime_stars_per_day": 73.2,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "makecindy/cindy",
-    "readme_chars": 9438,
+    "readme_chars": 11847,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
       "model-routing",
       "usage-analytics",
       "mcp-support",
+      "self-hosted",
       "gui-desktop",
       "cross-agent-support"
     ],
@@ -67,8 +68,9 @@
       "mobile-access": "",
       "multi-agent-orchestration": "utor setup, validation, and submission workflow",
       "model-routing": "",
-      "usage-analytics": "",
+      "usage-analytics": "this is not fully anonymous.",
       "mcp-support": "",
+      "self-hosted": "by default (endpoint manifests in",
       "gui-desktop": "apps/-bin Tool binaries shipped with the desktop app; none are committed — claude-code, codex, and ripgrep are downloaded per platform by pnpm install, and the Android platform-tools binaries are fetched (pinned version…",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
@@ -76,8 +78,9 @@
       "mobile-access": 1,
       "multi-agent-orchestration": 1,
       "model-routing": 2,
-      "usage-analytics": 1,
+      "usage-analytics": 6,
       "mcp-support": 1,
+      "self-hosted": 1,
       "gui-desktop": 1,
       "cross-agent-support": 2
     },
@@ -107,7 +110,7 @@
       "note_en": "Involved setup. needs git clone (build from source), pnpm install/build; configure sign-in required, database migration; GUI application",
       "note_zh": "配置较重。需要 git clone (build from source)、pnpm install/build；需配置 sign-in required、database migration；GUI application"
     },
-    "doc_score": 52,
+    "doc_score": 53,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -131,17 +134,18 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.53
+      "external_link_ratio": 0.422
     },
     "highlights": [
-      "Source — audit, fork, extend, and contribute improvements back under Apache-2.0."
+      "Source — audit, fork, extend, and contribute improvements back under Apache-2.0.",
+      "Mobile does not initialize the SDK without injected TapDB configuration"
     ],
     "summary_zh_native": "",
     "highlights_zh": [
       "她本身（Source）——审计、fork、二次开发，把通用改进以 Apache-2.0 贡献回来。",
-      "移动端默认即关闭 —— 未在构建时注入 TapDB 凭据（clientId / clientToken）",
+      "移动端未注入 TapDB 配置（clientId / clientToken）时不会初始化 SDK。",
       "她够得到的系统（MCP）——把内部工具和业务系统接进来。",
-      "她做事的方法（Skill）——教一次，反复使用；发布给团队、让同事直接继承的能力正在打造。"
+      "移动端关闭后立即解绑账号并停止 Cindy 主动触发的上报；已初始化的原生 SDK"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -150,11 +154,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:11+00:00",
+  "fetched_at": "2026-10-27T09:52:30+00:00",
   "categories": [
     "analytics-2",
     "desktop-ui-2",
-    "failover"
+    "mobile"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {

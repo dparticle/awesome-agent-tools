@@ -6,9 +6,9 @@
   "url": "https://github.com/lexmount/moli",
   "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
   "homepage": "https://browser.lexmount.com",
-  "stars": 20798,
-  "forks": 557,
-  "open_issues": 451,
+  "stars": 21048,
+  "forks": 564,
+  "open_issues": 473,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -30,16 +30,16 @@
     "web-scraping"
   ],
   "created_at": "2026-08-10T13:20:30Z",
-  "updated_at": "2026-10-26T10:02:55Z",
-  "pushed_at": "2026-10-26T10:02:50Z",
+  "updated_at": "2026-10-27T09:51:39Z",
+  "pushed_at": "2026-10-27T09:20:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 76,
+  "age_days": 77,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 86.4,
+    "popularity": 86.5,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 50.0,
@@ -47,16 +47,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 834,
+    "stars_gained": 1020,
     "days_span": 5,
-    "stars_per_day": 166.8,
-    "lifetime_stars_per_day": 273.66,
+    "stars_per_day": 204.0,
+    "lifetime_stars_per_day": 273.35,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "lexmount/moli",
-    "readme_chars": 16995,
+    "readme_chars": 17144,
     "capabilities": [
       "mcp-support"
     ],
@@ -111,7 +111,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.118
+      "external_link_ratio": 0.117
     },
     "highlights": [
       "Extraction-optimized outputs — the CLI directly produces HTML, Markdown,",
@@ -128,11 +128,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:08:59+00:00",
+  "fetched_at": "2026-10-27T09:52:17+00:00",
   "categories": [
-    "desktop-ui-2"
+    "memory-mcp"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-03-12 |
-| Last push | 2026-09-17 (39 days ago) |
+| Last push | 2026-09-17 (40 days ago) |
 | Analyzed README | 3,609 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (4/4).

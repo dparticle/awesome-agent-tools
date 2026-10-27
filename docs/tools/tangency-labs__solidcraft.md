@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,608 |
-| Star velocity | 417.8/day (history basis, 5d span) |
-| Health score | 87/100 |
-| Documentation | 55/100 |
+| Stars | 10,914 |
+| Star velocity | 373.6/day (history basis, 5d span) |
+| Health score | 88/100 |
+| Documentation | 56/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-10-07 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 9,923 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 10,102 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### GUI / desktop app
 
-> Mi41SDIyVjIyaC05LjV6Ii8%2BPC9zdmc%2B
+> solidcraft -- solidcraft-cli mcp.
 
 ## Setup reality check
 
@@ -46,7 +46,7 @@
 
 ## Documentation quality
 
-Score **55/100**, based on these detected signals:
+Score **56/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -63,10 +63,10 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.5 |
+| popularity | 80.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 55.0 |
+| documentation | 56.0 |
 | accessibility | 100.0 |
 
 ---

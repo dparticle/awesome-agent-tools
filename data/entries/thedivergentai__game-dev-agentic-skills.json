@@ -6,34 +6,34 @@
   "url": "https://github.com/thedivergentai/Game-Dev-Agentic-Skills",
   "description": "Multi-engine long-term memory for game AI agents. Deep Godot 4.7+ (99 skills, 27 genre blueprints) + Bevy docs-first parity — audited patterns, persona orchestration (Analyst · Auditor · Builder), production-grade engineering.",
   "homepage": "",
-  "stars": 893,
+  "stars": 898,
   "forks": 56,
   "open_issues": 0,
   "language": "GDScript",
   "license": "LGPL-3.0",
   "topics": [],
   "created_at": "2026-02-07T18:06:05Z",
-  "updated_at": "2026-10-26T07:44:32Z",
+  "updated_at": "2026-10-27T05:37:29Z",
   "pushed_at": "2026-10-16T20:58:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 260,
-  "days_since_push": 9,
+  "age_days": 261,
+  "days_since_push": 10,
   "health_score": 56,
   "health_components": {
-    "popularity": 59.0,
-    "momentum": 2.8,
+    "popularity": 59.1,
+    "momentum": 3.3,
     "maintenance": 92.0,
     "documentation": 69.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 3.4,
-    "lifetime_stars_per_day": 3.43,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 3.44,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,10 +142,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:56+00:00",
+  "fetched_at": "2026-10-27T09:53:30+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "memory-mcp"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

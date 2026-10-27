@@ -35,11 +35,11 @@
   ],
   "created_at": "2026-02-09T06:49:37Z",
   "updated_at": "2026-10-25T02:54:49Z",
-  "pushed_at": "2026-10-26T02:41:00Z",
+  "pushed_at": "2026-10-26T15:11:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 259,
+  "age_days": 260,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 4,
-    "days_span": 10,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.87,
+    "days_span": 11,
+    "stars_per_day": 0.36,
+    "lifetime_stars_per_day": 1.86,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,25 +135,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:09+00:00",
+  "fetched_at": "2026-10-27T09:53:46+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "memory-mcp"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "josstei/maestro-orchestrate",
-      "challenger": "hoangsonww/claude-code-agent-monitor",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "josstei/maestro-orchestrate",
-      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -161,15 +162,15 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.31,
-      "momentum_ratio": 6.5,
-      "setup_delta": -21,
-      "dominance": 0.941,
+      "star_ratio": 599.647,
+      "momentum_ratio": 2345.0,
+      "setup_delta": 6,
+      "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.31x the stars (1,118 vs 484)",
-        "6.50x the star velocity (2.6/day vs 0.4/day)",
-        "no harder to set up (30 vs 51 friction)"
+        "599.65x the stars (290,229 vs 484)",
+        "2345.00x the star velocity (844.2/day vs 0.4/day)",
+        "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,18 +182,26 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
           "session-persistence",
-          "skills-plugins"
+          "skills-plugins",
+          "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 55,
+        "challenger_health": 89,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 57
       }
     }
   }

@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 212,
-  "days_since_push": 24,
+  "age_days": 213,
+  "days_since_push": 25,
   "health_score": 50,
   "health_components": {
     "popularity": 54.8,
@@ -41,7 +41,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.59,
+    "lifetime_stars_per_day": 2.58,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,12 +131,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:05+00:00",
+  "fetched_at": "2026-10-27T09:53:40+00:00",
   "categories": [
     "desktop-ui",
-    "security-self-hosting"
+    "memory-mcp"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).",
@@ -159,14 +159,14 @@
         "memory-context",
         "skills-plugins"
       ],
-      "star_ratio": 19.8,
-      "momentum_ratio": 651.0,
+      "star_ratio": 20.053,
+      "momentum_ratio": 602.0,
       "setup_delta": -3,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "19.80x the stars (10,890 vs 550)",
-        "651.00x the star velocity (130.2/day vs 0.2/day)",
+        "20.05x the stars (11,029 vs 550)",
+        "602.00x the star velocity (120.4/day vs 0.2/day)",
         "no harder to set up (20 vs 23 friction)"
       ],
       "reasons_zh": [],
@@ -193,7 +193,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 50,
-        "challenger_health": 85,
+        "challenger_health": 86,
         "incumbent_setup_score": 23,
         "challenger_setup_score": 20
       }

@@ -6,7 +6,7 @@
   "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
   "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
   "homepage": "",
-  "stars": 364,
+  "stars": 365,
   "forks": 41,
   "open_issues": 17,
   "language": "Python",
@@ -31,26 +31,26 @@
     "typescript"
   ],
   "created_at": "2025-10-21T08:08:21Z",
-  "updated_at": "2026-10-26T08:48:27Z",
+  "updated_at": "2026-10-27T07:43:52Z",
   "pushed_at": "2026-09-10T11:05:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 370,
-  "days_since_push": 45,
+  "age_days": 371,
+  "days_since_push": 46,
   "health_score": 44,
   "health_components": {
     "popularity": 51.2,
-    "momentum": 0.7,
+    "momentum": 1.0,
     "maintenance": 78.0,
     "documentation": 59.0,
     "accessibility": 34.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 0.8,
+    "stars_per_day": 1.2,
     "lifetime_stars_per_day": 0.98,
     "basis": "history",
     "is_fast_riser": false
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:19+00:00",
+  "fetched_at": "2026-10-27T09:53:58+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -174,14 +174,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.453,
-      "momentum_ratio": 4.25,
+      "star_ratio": 2.46,
+      "momentum_ratio": 3.333,
       "setup_delta": -45,
-      "dominance": 0.934,
+      "dominance": 0.904,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.45x the stars (893 vs 364)",
-        "4.25x the star velocity (3.4/day vs 0.8/day)",
+        "2.46x the stars (898 vs 365)",
+        "3.33x the star velocity (4.0/day vs 1.2/day)",
         "no harder to set up (21 vs 66 friction)"
       ],
       "reasons_zh": [],

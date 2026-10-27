@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "full_name": "franklee16/academic-research-skills",
+  "name": "academic-research-skills",
+  "owner": "franklee16",
+  "url": "https://github.com/franklee16/academic-research-skills",
+  "description": "Comprehensive collection of Claude Code skills for academic research in economics, finance, and social sciences",
+  "homepage": "",
+  "stars": 226,
+  "forks": 34,
+  "open_issues": 1,
+  "language": "Stata",
+  "license": "",
+  "topics": [],
+  "created_at": "2026-04-19T11:24:54Z",
+  "updated_at": "2026-10-24T02:20:50Z",
+  "pushed_at": "2026-09-18T12:12:00Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 190,
+  "days_since_push": 38,
+  "health_score": 41,
+  "health_components": {
+    "popularity": 47.1,
+    "momentum": 0.2,
+    "maintenance": 78.0,
+    "documentation": 28.0,
+    "accessibility": 63.0
+  },
+  "tier": "watchlist",
+  "momentum": {
+    "stars_gained": 3,
+    "days_span": 12,
+    "stars_per_day": 0.25,
+    "lifetime_stars_per_day": 1.19,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "franklee16/academic-research-skills",
+    "readme_chars": 19099,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "uite (humanities-report-writing-suite-main/)",
+      "skills-plugins": "# Academic Research Skills for Claude Code",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 8,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [
+        "pip install -r requirements"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via pip install; needs pip install -r requirements; configure API key configuration, database dependency",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 pip install -r requirements；需配置 API key configuration、database dependency"
+    },
+    "doc_score": 28,
+    "doc_signals": [
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "A curated collection of Claude Code skills for academic research in economics, finance, and the broader social sciences — organized by the common types of skills a researcher needs across a project's lifecycle.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    },
+    "highlights": [
+      "excalidraw-diagram-skill-main, diagram-generator-1.1.1 — Diagram creation",
+      "jf-skill-1.0.0 — Journal of Finance writing conventions",
+      "fred-economic-data — FRED API for 800,000+ economic time series",
+      "publication-coach — Pre-submission diagnostic (Edmans' 1,000-rejections framework)"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-27T09:54:21+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

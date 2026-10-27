@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 484 |
-| Star velocity | 0.4/day (history basis, 10d span) |
+| Star velocity | 0.4/day (history basis, 11d span) |
 | Health score | 51/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-10-26 (0 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
 
 ## What it solves
 

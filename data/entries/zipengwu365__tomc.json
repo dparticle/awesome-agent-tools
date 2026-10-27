@@ -6,9 +6,9 @@
   "url": "https://github.com/ZipengWu365/TOMC",
   "description": "TOMC Memory: CPU context compression and task memory for Codex, Claude Code, Cursor, TRAE, WorkBuddy and other MCP clients.",
   "homepage": "https://github.com/ZipengWu365/TOMC",
-  "stars": 266,
+  "stars": 265,
   "forks": 25,
-  "open_issues": 2,
+  "open_issues": 3,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -27,27 +27,27 @@
     "tomc-memory"
   ],
   "created_at": "2026-10-06T09:16:26Z",
-  "updated_at": "2026-10-26T05:22:33Z",
-  "pushed_at": "2026-10-26T01:36:19Z",
+  "updated_at": "2026-10-27T06:22:03Z",
+  "pushed_at": "2026-10-26T13:21:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 20,
+  "age_days": 21,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 48.5,
-    "momentum": 11.1,
+    "momentum": 10.5,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 266,
-    "days_span": 20,
-    "stars_per_day": 13.3,
-    "lifetime_stars_per_day": 13.3,
+    "stars_gained": 265,
+    "days_span": 21,
+    "stars_per_day": 12.62,
+    "lifetime_stars_per_day": 12.62,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -155,12 +155,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:10:29+00:00",
+  "fetched_at": "2026-10-27T09:54:10+00:00",
   "categories": [
     "desktop-ui-2",
-    "security-self-hosting"
+    "memory-mcp"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (8/8).",
@@ -186,14 +186,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 40.94,
-      "momentum_ratio": 9.789,
+      "star_ratio": 41.619,
+      "momentum_ratio": 9.54,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "40.94x the stars (10,890 vs 266)",
-        "9.79x the star velocity (130.2/day vs 13.3/day)",
+        "41.62x the stars (11,029 vs 265)",
+        "9.54x the star velocity (120.4/day vs 12.6/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -223,7 +223,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 57,
-        "challenger_health": 85,
+        "challenger_health": 86,
         "incumbent_setup_score": 15,
         "challenger_setup_score": 20
       }

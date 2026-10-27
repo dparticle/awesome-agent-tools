@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "full_name": "Folkbench/folkbench",
+  "name": "folkbench",
+  "owner": "Folkbench",
+  "url": "https://github.com/Folkbench/folkbench",
+  "description": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+  "homepage": "https://folkbench.com",
+  "stars": 3761,
+  "forks": 21,
+  "open_issues": 0,
+  "language": "Rust",
+  "license": "NOASSERTION",
+  "topics": [
+    "ai",
+    "api-relay",
+    "api-relay-pricing",
+    "benchmark",
+    "benchmarks",
+    "claude",
+    "claude-code",
+    "codex",
+    "folkbench",
+    "llm",
+    "model-evaluation",
+    "openai-api",
+    "reliability",
+    "tauri"
+  ],
+  "created_at": "2026-10-02T09:50:45Z",
+  "updated_at": "2026-10-27T09:11:34Z",
+  "pushed_at": "2026-10-26T17:32:01Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 25,
+  "days_since_push": 0,
+  "health_score": 78,
+  "health_components": {
+    "popularity": 71.5,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 36.0,
+    "accessibility": 67.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 3761,
+    "days_span": 25,
+    "stars_per_day": 150.44,
+    "lifetime_stars_per_day": 150.44,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Folkbench/folkbench",
+    "readme_chars": 5181,
+    "capabilities": [
+      "model-routing",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "本地用量估算：按会话统计 Token 消耗量，并根据公开参考单价提供调用成本估算。",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Gemini CLI"
+    },
+    "capability_hits": {
+      "model-routing": 2,
+      "gui-desktop": 2,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 41,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "OAuth login flow"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "note_en": "Some setup. configure API key configuration, config.json/yaml/toml; GUI application",
+      "note_zh": "需要一些配置。需配置 API key configuration、config.json/yaml/toml；GUI application"
+    },
+    "doc_score": 36,
+    "doc_signals": [
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a table of contents",
+      "reports benchmarks"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Aider",
+      "Qwen Code"
+    ],
+    "summary_en": "中转站实测评测，与 Folkbench Switch。",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [],
+      "external_link_ratio": 4.439
+    },
+    "highlights": [
+      "🔄 一键切换服务商：保存多家服务的 Base URL 与 API Key，点击即可将配置应用到目标工具，支持随时切换与还原。",
+      "🛡️ 配置无损与状态保护：修改前提供配置差异预览。",
+      "📊 本地用量估算：按会话统计 Token 消耗量，并根据公开参考单价提供调用成本估算。",
+      "🔒 本地存储与隐私：所有 API Key 和配置仅存储在本地设备中，不上传云端，完全离线运行。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-27T09:52:37+00:00",
+  "categories": [
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

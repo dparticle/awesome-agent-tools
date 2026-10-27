@@ -6,7 +6,7 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 908,
+  "stars": 912,
   "forks": 107,
   "open_issues": 1,
   "language": "Shell",
@@ -31,59 +31,70 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-26T01:06:49Z",
-  "pushed_at": "2026-10-25T19:33:09Z",
+  "updated_at": "2026-10-27T06:39:16Z",
+  "pushed_at": "2026-10-26T16:33:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 312,
+  "age_days": 313,
   "days_since_push": 0,
-  "health_score": 52,
+  "health_score": 51,
   "health_components": {
     "popularity": 59.2,
-    "momentum": 1.7,
+    "momentum": 2.3,
     "maintenance": 100.0,
-    "documentation": 46.0,
-    "accessibility": 64.0
+    "documentation": 47.0,
+    "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 2.0,
+    "stars_per_day": 2.8,
     "lifetime_stars_per_day": 2.91,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "hex/claude-council",
-    "readme_chars": 8997,
+    "readme_chars": 12466,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
+      "session-persistence",
+      "memory-context",
       "agent-runtime",
+      "mcp-support",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "",
       "model-routing": "",
+      "session-persistence": "conversations On Linux: everything under ~/.gemini, because where agy keeps its login there is not confirmed",
+      "memory-context": ".agents, Cursor and Claude hooks, ~/.cursor/mcp.json Team commands from your Cursor dashboard (read from the CLI's bundle, not seen in a run)",
       "agent-runtime": "",
+      "mcp-support": "del and effort, a link to your auth.json so a token",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
       "multi-agent-orchestration": 1,
       "model-routing": 1,
+      "session-persistence": 1,
+      "memory-context": 1,
       "agent-runtime": 1,
+      "mcp-support": 2,
       "cross-agent-support": 5
     },
     "friction": {
-      "level": "low",
-      "score": 36,
+      "level": "moderate",
+      "score": 48,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [],
       "hard_signals": [],
       "config_signals": [
+        "config.json/yaml/toml",
+        "sign-in required",
         "database dependency"
       ],
       "friendliness_signals": [],
@@ -92,10 +103,10 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Easy. configure database dependency",
-      "note_zh": "较易上手。需配置 database dependency"
+      "note_en": "Some setup. configure config.json/yaml/toml, sign-in required",
+      "note_zh": "需要一些配置。需配置 config.json/yaml/toml、sign-in required"
     },
-    "doc_score": 46,
+    "doc_score": 47,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -120,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.111
+      "external_link_ratio": 0.08
     },
     "highlights": [
       "kill -0 to check a council run is still alive.",
@@ -135,17 +146,81 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:55+00:00",
+  "fetched_at": "2026-10-27T09:53:28+00:00",
   "categories": [
     "desktop-ui",
+    "memory-mcp",
     "model-routing"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "hex/claude-council",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "hex/claude-council",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "session-persistence"
+      ],
+      "star_ratio": 318.234,
+      "momentum_ratio": 301.5,
+      "setup_delta": 9,
+      "dominance": 0.955,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "318.23x the stars (290,229 vs 912)",
+        "301.50x the star velocity (844.2/day vs 2.8/day)",
+        "slightly heavier setup (+9 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 89,
+        "incumbent_setup_score": 48,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

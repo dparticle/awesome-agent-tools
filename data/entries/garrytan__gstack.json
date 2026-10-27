@@ -6,105 +6,91 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 137769,
-  "forks": 20425,
-  "open_issues": 151,
+  "stars": 137869,
+  "forks": 20446,
+  "open_issues": 166,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-10-26T10:02:51Z",
-  "pushed_at": "2026-10-26T10:06:25Z",
+  "updated_at": "2026-10-27T09:44:52Z",
+  "pushed_at": "2026-10-27T09:45:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 228,
+  "age_days": 229,
   "days_since_push": 0,
-  "health_score": 90,
+  "health_score": 88,
   "health_components": {
     "popularity": 100.0,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 81.0,
-    "accessibility": 43.0
+    "documentation": 73.0,
+    "accessibility": 35.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 646,
+    "stars_gained": 621,
     "days_span": 5,
-    "stars_per_day": 129.2,
-    "lifetime_stars_per_day": 604.25,
+    "stars_per_day": 124.2,
+    "lifetime_stars_per_day": 602.05,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 89810,
+    "readme_chars": 35634,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
-      "parallel-execution",
       "worktree-isolation",
       "model-routing",
-      "session-persistence",
       "memory-context",
       "skills-plugins",
       "agent-runtime",
       "mcp-support",
       "security-isolation",
       "notifications",
-      "voice-input",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "auto-failover": "and /diagram always use gstack's bundled browser.",
       "multi-agent-orchestration": "cause and re-verify before committing.",
-      "parallel-execution": "etext patterns depending on whether it's a landing page, dashboard, form, or card layout.",
-      "worktree-isolation": "hand, and gstack-uninstall",
+      "worktree-isolation": "es; blocks below 7/10), fail-closed secret redaction, dedupe against existing issues, archive to $GSTACK_STATE_ROOT/projects/$SLUG/specs/ for team-corpus recall.",
       "model-routing": "deterministic aside repl scripts.",
-      "session-persistence": "Browse my kid's school parent portal and add all the other parents' names, phone numbers, and photos to my Google Contacts.\" Two ways to get authenticated: (1) log in once in the headed browser, your session persists, o…",
-      "memory-context": "Come work at YC — ycombinator.com/software",
-      "skills-plugins": "single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack f…",
-      "agent-runtime": "ding speed and help harden gstack?",
-      "mcp-support": "stack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup** then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing and never use mcp\\\\claude-in-chro…",
-      "security-isolation": "verify the chain with gstack-egress verify (exit 3 on tamper), and see the standing consent settings with gstack-egress grants.",
-      "notifications": "office-hours — describe what you're building",
-      "voice-input": "nk, plan, build, review, test, ship — each agent knows exactly what to do and when to stop.",
+      "memory-context": "ice-input aliases many skills carry, have their own pages.",
+      "skills-plugins": "--single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack f…",
+      "agent-runtime": "gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production…",
+      "mcp-support": "/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing and never use mcp\\\\claude-in-chro…",
+      "security-isolation": "HTTP-capable agent on your Tailscale tailnet so remote agents can run iOS QA without ever touching the hardware.",
+      "notifications": "fake clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
     },
     "capability_hits": {
       "auto-failover": 1,
       "multi-agent-orchestration": 1,
-      "parallel-execution": 1,
-      "worktree-isolation": 2,
-      "model-routing": 2,
-      "session-persistence": 1,
+      "worktree-isolation": 1,
+      "model-routing": 1,
       "memory-context": 1,
-      "skills-plugins": 7,
-      "agent-runtime": 1,
-      "mcp-support": 5,
+      "skills-plugins": 1,
+      "agent-runtime": 2,
+      "mcp-support": 1,
       "security-isolation": 1,
-      "notifications": 1,
-      "voice-input": 1,
-      "cross-agent-support": 8
+      "notifications": 2,
+      "cross-agent-support": 7
     },
     "friction": {
-      "level": "moderate",
-      "score": 57,
+      "level": "high",
+      "score": 65,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
-      "easy_signals": [
-        "native installer / package"
-      ],
+      "easy_signals": [],
       "hard_signals": [
         "git clone (build from source)",
         "go build"
       ],
       "config_signals": [
-        "config file",
-        "config.json/yaml/toml",
         "sign-in required",
-        "database migration",
         "server/reverse-proxy setup"
       ],
       "friendliness_signals": [
@@ -117,13 +103,12 @@
         "iOS",
         "Web"
       ],
-      "note_en": "Some setup. install via native installer / package; needs git clone (build from source), go build; configure config file, config.json/yaml/toml; one-click setup",
-      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)、go build；需配置 config file、config.json/yaml/toml；one-click setup"
+      "note_en": "Involved setup. needs git clone (build from source), go build; configure sign-in required, server/reverse-proxy setup; one-click setup",
+      "note_zh": "配置较重。需要 git clone (build from source)、go build；需配置 sign-in required、server/reverse-proxy setup；one-click setup"
     },
-    "doc_score": 81,
+    "doc_score": 73,
     "doc_signals": [
       "contains code blocks",
-      "contains screenshots/diagrams",
       "has section headings",
       "has a quick-start section",
       "documents installation",
@@ -140,13 +125,12 @@
     "agents": [
       "Claude Code",
       "Codex",
-      "Gemini CLI",
       "OpenCode",
       "Cursor",
       "Copilot",
       "Droid"
     ],
-    "summary_en": "When I heard Karpathy say this, I wanted to find out how.",
+    "summary_en": "gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who…",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -154,14 +138,9 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.245
+      "external_link_ratio": 0.365
     },
-    "highlights": [
-      "Remote gbrain MCP — your brain runs on another machine (Tailscale, ngrok, internal LAN) or a teammate's server; paste an MCP URL and bearer token.",
-      "Supabase, auto-provision — paste a Supabase Personal Access Token; the skill creates a new project, polls to healthy, fetches the pooler URL, hands it to gbrain init.",
-      "read-only — agent can search but never writes (best for multi-client consultants: search the shared brain, don't contaminate it with Client A's work while in Client B's repo)",
-      "PGLite local — zero accounts, zero network, ~30 seconds."
-    ],
+    "highlights": [],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -171,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:21+00:00",
+  "fetched_at": "2026-10-27T09:52:45+00:00",
   "categories": [
     "desktop-ui",
-    "parallelism-isolation",
-    "security"
+    "memory-mcp",
+    "mobile-remote-control"
   ],
-  "primary_category": "parallelism-isolation",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 572,
-  "days_since_push": 165,
+  "age_days": 573,
+  "days_since_push": 166,
   "health_score": 47,
   "health_components": {
     "popularity": 61.3,
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.03,
+    "lifetime_stars_per_day": 2.02,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,11 +141,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:51+00:00",
+  "fetched_at": "2026-10-27T09:53:24+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "memory-mcp"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,404 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Stars | 1,403 |
+| Star velocity | 0.0/day (history basis, 6d span) |
 | Health score | 49/100 |
 | Documentation | 67/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-03-23 |
-| Last push | 2026-08-21 (65 days ago) |
+| Last push | 2026-08-21 (66 days ago) |
 | Analyzed README | 25,594 chars from `raw:main/README.md` |
 
-> ⚠️ **Superseded by [tickernelz/opencode-mem](https://github.com/tickernelz/opencode-mem)** — Superseded by tickernelz/opencode-mem: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)** — Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -78,7 +78,7 @@ Score **67/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 62.9 |
-| momentum | 0.2 |
+| momentum | 0.0 |
 | maintenance | 78.0 |
 | documentation | 67.0 |
 | accessibility | 43.0 |

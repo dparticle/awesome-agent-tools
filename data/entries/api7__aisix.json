@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "full_name": "api7/aisix",
+  "name": "aisix",
+  "owner": "api7",
+  "url": "https://github.com/api7/aisix",
+  "description": "Open-source AI gateway for LLMs & AI agents, built in Rust. One OpenAI-compatible API for OpenAI, Anthropic, Gemini, Bedrock & more — routing, guardrails, caching, rate limits, observability.",
+  "homepage": "https://api7.ai/ai-gateway",
+  "stars": 207,
+  "forks": 45,
+  "open_issues": 62,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "ai-gateway",
+    "ai-gateway-rust",
+    "aisix",
+    "anthropic",
+    "bedrock",
+    "gateway",
+    "gemini",
+    "guardrails",
+    "inference-gateway",
+    "llm",
+    "llm-gateway",
+    "llm-proxy",
+    "llm-router",
+    "llmops",
+    "observability",
+    "openai",
+    "openai-compatible",
+    "rust",
+    "self-hosted"
+  ],
+  "created_at": "2026-04-17T03:44:47Z",
+  "updated_at": "2026-10-27T08:26:30Z",
+  "pushed_at": "2026-10-27T09:45:11Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 193,
+  "days_since_push": 0,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 46.3,
+    "momentum": 1.1,
+    "maintenance": 100.0,
+    "documentation": 61.0,
+    "accessibility": 49.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 27,
+    "days_span": 20,
+    "stars_per_day": 1.35,
+    "lifetime_stars_per_day": 1.07,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "api7/aisix",
+    "readme_chars": 19396,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "api-gateway",
+      "mcp-support",
+      "self-hosted",
+      "team-collaboration"
+    ],
+    "capability_evidence": {
+      "auto-failover": "first-class route, working against",
+      "model-routing": "Adapter family Reaches Wire shape · auth",
+      "api-gateway": "Adapter family Reaches Wire shape · auth",
+      "mcp-support": "** can be enabled per direct Anthropic model to inject cache breakpoints, so",
+      "self-hosted": "",
+      "team-collaboration": "operator-triggered in-place rotation"
+    },
+    "capability_hits": {
+      "auto-failover": 3,
+      "model-routing": 2,
+      "api-gateway": 2,
+      "mcp-support": 7,
+      "self-hosted": 1,
+      "team-collaboration": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "docker run"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Some setup. needs docker run; configure API key configuration, database dependency",
+      "note_zh": "需要一些配置。需要 docker run；需配置 API key configuration、database dependency"
+    },
+    "doc_score": 61,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "One OpenAI-compatible API in front of every model.",
+    "summary_zh": "",
+    "install_hint": "docker run -d --name aisix \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.186
+    },
+    "highlights": [
+      "MCP gateway — front registered upstream MCP servers at /mcp with gateway-held",
+      "Inbound authentication — caller API keys (SHA-256 hashed, model allowlists, expiry,",
+      "OpenAI-compatible proxy (:3000) — chat/completions, completions, responses,",
+      "Routing & failover — virtual/routing models with six strategies: round_robin"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-27T09:54:26+00:00",
+  "categories": [
+    "failover",
+    "memory-mcp",
+    "model-routing"
+  ],
+  "primary_category": "failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

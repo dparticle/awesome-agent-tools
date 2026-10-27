@@ -6,9 +6,9 @@
   "url": "https://github.com/ZJU-REAL/Easel",
   "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
   "homepage": "https://zju-real.github.io/Easel/",
-  "stars": 4096,
-  "forks": 670,
-  "open_issues": 9,
+  "stars": 4126,
+  "forks": 674,
+  "open_issues": 10,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -23,27 +23,27 @@
     "social-media-management"
   ],
   "created_at": "2026-08-28T02:22:27Z",
-  "updated_at": "2026-10-26T09:49:25Z",
+  "updated_at": "2026-10-27T08:30:22Z",
   "pushed_at": "2026-10-25T06:24:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 59,
-  "days_since_push": 1,
+  "age_days": 60,
+  "days_since_push": 2,
   "health_score": 69,
   "health_components": {
-    "popularity": 72.2,
-    "momentum": 26.3,
+    "popularity": 72.3,
+    "momentum": 24.0,
     "maintenance": 100.0,
     "documentation": 79.0,
     "accessibility": 85.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 158,
+    "stars_gained": 144,
     "days_span": 5,
-    "stars_per_day": 31.6,
-    "lifetime_stars_per_day": 69.42,
+    "stars_per_day": 28.8,
+    "lifetime_stars_per_day": 68.77,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -144,7 +144,7 @@
       "一个 Agent 贯穿完整链路：发现热点、评估选题、规划日历、生成文案与视觉、制作视频、发布和归因在同一个工作流中完成。",
       "一份素材，多种平台形态：同一主题可以改写成小红书卡片、短视频、知乎长文或短帖，并遵循不同平台的格式和字数要求。",
       "发布：按平台适配标题、正文、画幅和媒体要求，执行发布前检查并发送到已登录账号。",
-      "发现：聚合热榜、行业新闻、竞品动态和用户讨论，筛选真正适合账号的机会。"
+      "技能是真执行，不是功能清单：图片、卡片、配音、字幕、剪辑、短剧和发布技能都配有可运行脚本，成品写入 outputs/。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -155,11 +155,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:14+00:00",
+  "fetched_at": "2026-10-27T09:52:36+00:00",
   "categories": [
-    "billing",
     "model-routing",
-    "providers-2"
+    "providers-2",
+    "sharing"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

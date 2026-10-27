@@ -5,10 +5,10 @@
   "owner": "Waishnav",
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
-  "homepage": "",
-  "stars": 5295,
-  "forks": 600,
-  "open_issues": 66,
+  "homepage": "https://devspace.run",
+  "stars": 5297,
+  "forks": 601,
+  "open_issues": 29,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,56 +21,59 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-10-26T09:44:08Z",
-  "pushed_at": "2026-10-26T08:11:39Z",
+  "updated_at": "2026-10-27T09:40:06Z",
+  "pushed_at": "2026-10-27T06:47:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 133,
+  "age_days": 134,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 58,
   "health_components": {
     "popularity": 74.5,
-    "momentum": 2.0,
+    "momentum": 1.2,
     "maintenance": 100.0,
-    "documentation": 46.0,
+    "documentation": 54.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 39.81,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 39.53,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Waishnav/devspace",
-    "readme_chars": 8868,
+    "readme_chars": 8993,
     "capabilities": [
       "remote-control",
       "multi-agent-orchestration",
       "worktree-isolation",
       "mcp-support",
       "self-hosted",
-      "gui-desktop"
+      "gui-desktop",
+      "cross-agent-support"
     ],
     "capability_evidence": {
       "remote-control": "tions from AGENTS.md and CLAUDE.md",
       "multi-agent-orchestration": "nteract with tools, workflows, and systems.",
-      "worktree-isolation": "worktree switching, ChatGPT, and database-migration workflows.",
+      "worktree-isolation": "",
       "mcp-support": "Bring a Codex-style coding workflow to ChatGPT.",
       "self-hosted": "",
-      "gui-desktop": "macOS Supported Requires Node, npm, Git, and Bash."
+      "gui-desktop": "macOS Supported Requires Node, npm, Git, and Bash.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
       "remote-control": 1,
       "multi-agent-orchestration": 1,
       "worktree-isolation": 2,
-      "mcp-support": 7,
+      "mcp-support": 8,
       "self-hosted": 1,
-      "gui-desktop": 1
+      "gui-desktop": 1,
+      "cross-agent-support": 4
     },
     "friction": {
       "level": "low",
@@ -99,18 +102,22 @@
       "note_en": "Easy. install via npx one-liner, global npm install; needs pnpm install/build, npm install/build; configure database dependency, database migration",
       "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 pnpm install/build、npm install/build；需配置 database dependency、database migration"
     },
-    "doc_score": 46,
+    "doc_score": 54,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
+      "has a quick-start section",
       "documents installation",
       "documents configuration",
       "has troubleshooting/FAQ",
       "mentions licensing"
     ],
     "agents": [
-      "Codex"
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
     ],
     "summary_en": "Give ChatGPT a secure connection to your own machine and Turn ChatGPT into Codex",
     "summary_zh": "",
@@ -122,7 +129,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.226
+      "external_link_ratio": 1.223
     },
     "highlights": [
       "Connect the MCP client to your public /mcp URL.",
@@ -137,28 +144,30 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:12+00:00",
+  "fetched_at": "2026-10-27T09:52:34+00:00",
   "categories": [
     "desktop-ui-2",
-    "remote-control"
+    "memory-mcp",
+    "mobile-remote-control"
   ],
-  "primary_category": "remote-control",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 omnigent-ai/omnigent 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "omnigent-ai/omnigent",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "getpaseo/paseo",
     "challenger": "",
     "supersede": {
       "incumbent": "waishnav/devspace",
-      "challenger": "omnigent-ai/omnigent",
+      "challenger": "getpaseo/paseo",
       "incumbent_name": "Waishnav/devspace",
-      "challenger_name": "omnigent-ai/omnigent",
+      "challenger_name": "getpaseo/paseo",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [
+        "cross-agent-support",
         "gui-desktop",
         "mcp-support",
         "multi-agent-orchestration",
@@ -166,19 +175,20 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 2.088,
-      "momentum_ratio": 9.417,
-      "setup_delta": -3,
-      "dominance": 0.918,
+      "star_ratio": 4.188,
+      "momentum_ratio": 73.571,
+      "setup_delta": -4,
+      "dominance": 1.0,
       "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "2.09x the stars (11,056 vs 5,295)",
-        "9.42x the star velocity (22.6/day vs 2.4/day)",
-        "no harder to set up (25 vs 28 friction)"
+        "covers 100% of capabilities (7/7)",
+        "4.19x the stars (22,186 vs 5,297)",
+        "73.57x the star velocity (103.0/day vs 1.4/day)",
+        "no harder to set up (24 vs 28 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
+          "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "multi-agent-orchestration",
@@ -188,23 +198,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
+          "parallel-execution",
           "remote-control",
+          "security-isolation",
           "self-hosted",
-          "team-collaboration",
+          "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 57,
-        "challenger_health": 68,
+        "incumbent_health": 58,
+        "challenger_health": 83,
         "incumbent_setup_score": 28,
-        "challenger_setup_score": 25
+        "challenger_setup_score": 24
       }
     }
   }

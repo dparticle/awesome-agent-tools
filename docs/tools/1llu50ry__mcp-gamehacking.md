@@ -2,7 +2,7 @@
 
 # 1llu50ry/mcp-gamehacking
 
-> MCP (Model Context Protocol) server for game hacking & reverse engineering.
+> 111 MCP tools · 59 RE/debug backends · 4,200+ skills · multi-agent mesh · zero-dep native parsers
 
 [Repository](https://github.com/1llu50ry/mcp-gamehacking) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,73 +12,86 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 372 |
-| Star velocity | 17.7/day (lifetime basis, 21d span) |
-| Health score | 50/100 |
-| Documentation | 39/100 |
+| Stars | 385 |
+| Star velocity | 17.5/day (lifetime basis, 22d span) |
+| Health score | 57/100 |
+| Documentation | 68/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-05 |
-| Last push | 2026-10-23 (3 days ago) |
-| Analyzed README | 15,044 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 29,327 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
+### Automatic failover
+
 ### Multi-agent orchestration
 
-> river-analyzer Deep analysis of anti-cheat kernel driver
+> exploit development** pwndbg + GEF + angr + AFL++ + honggfuzz + LibAFL + Unicorn + ret-sync all behind one hub.
 
 ### Memory & context
 
-> rce code archives, specialized agents, and workflow tools -- designed to be plugged into Claude, Cursor, or any MCP-compatible client.
+> dex/ChatGPT, Cursor, Copilot, Gemini CLI and custom bots share one workspace through MCP: register, DM + channel broadcast, task handoff with status machine, adversarial voting on findings, shared KV knowledge base, nam…
 
 ### Skills & plugins
 
+> are authorized to analyze.
+
 ### MCP support
 
-> ripts, debugger extensions, dumpers, unpackers
+> MCP tools · 59 RE/debug backends · 4,200+ skills · multi-agent mesh · zero-dep native parsers
+
+### GUI / desktop app
+
+> Supported backends: GhidraMCP, SuperghidraMCP (pyghidra-mcp, +gui), Ghidrathon MCP, ida-pro-mcp, Hex-Rays IDA MCP, Binary Ninja MCP, radare2 MCP, x64dbg MCP Server, WinDbg MCP, Cheat Engine MCP, Frida MCP, Hopper MCP, R…
 
 ### Cross-agent support
 
-> Mentions Claude Code, Cursor
+> Mentions Claude Code, Codex, Copilot, Cursor
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 51/100)
+- **Difficulty:** 🟢 Easy (friction score 32/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npm install`
+- **Quickest install:** `npm install && npx tsc`
 
-**Signals that add work:** npm install/build
+**Signals that make it easy:** npx one-liner, native installer / package
+
+**Signals that add work:** docker compose up, git clone (build from source), npm install/build
 
 **Configuration required:** database dependency, database migration
 
-*Some setup. needs npm install/build; configure database dependency, database migration*
+*Easy. install via npx one-liner, native installer / package; needs docker compose up, git clone (build from source); configure database dependency, database migration; no-code positioning*
 
 ## Documentation quality
 
-Score **39/100**, based on these detected signals:
+Score **68/100**, based on these detected signals:
 
 - contains code blocks
+- contains screenshots/diagrams
 - has section headings
+- has a quick-start section
 - documents installation
 - documents configuration
+- has contribution guidance
 - mentions licensing
+- has a Chinese translation
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.4 |
-| momentum | 14.8 |
+| popularity | 51.7 |
+| momentum | 14.6 |
 | maintenance | 100.0 |
-| documentation | 39.0 |
-| accessibility | 49.0 |
+| documentation | 68.0 |
+| accessibility | 68.0 |
 
 ---
 

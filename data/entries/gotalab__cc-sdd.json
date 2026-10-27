@@ -6,7 +6,7 @@
   "url": "https://github.com/gotalab/cc-sdd",
   "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
   "homepage": "",
-  "stars": 3739,
+  "stars": 3744,
   "forks": 283,
   "open_issues": 17,
   "language": "TypeScript",
@@ -26,26 +26,26 @@
     "subagents"
   ],
   "created_at": "2025-07-17T04:41:37Z",
-  "updated_at": "2026-10-25T21:46:31Z",
+  "updated_at": "2026-10-27T08:06:53Z",
   "pushed_at": "2026-10-22T03:43:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 466,
-  "days_since_push": 4,
+  "age_days": 467,
+  "days_since_push": 5,
   "health_score": 59,
   "health_components": {
     "popularity": 71.5,
-    "momentum": 1.8,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.2,
+    "stars_per_day": 2.4,
     "lifetime_stars_per_day": 8.02,
     "basis": "history",
     "is_fast_riser": false
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-26T10:09:38+00:00",
+  "fetched_at": "2026-10-27T09:53:08+00:00",
   "categories": [
     "desktop-ui"
   ],

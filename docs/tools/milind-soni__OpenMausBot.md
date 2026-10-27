@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,636 |
-| Star velocity | 62.8/day (history basis, 5d span) |
+| Stars | 5,723 |
+| Star velocity | 64.8/day (history basis, 5d span) |
 | Health score | 74/100 |
 | Documentation | 71/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-08-11 |
-| Last push | 2026-10-26 (0 days ago) |
+| Last push | 2026-10-27 (0 days ago) |
 | Analyzed README | 32,157 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -109,8 +109,8 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.0 |
-| momentum | 52.3 |
+| popularity | 75.2 |
+| momentum | 54.0 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 72.0 |

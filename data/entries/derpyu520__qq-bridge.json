@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "full_name": "Derpyu520/qq-bridge",
+  "name": "qq-bridge",
+  "owner": "Derpyu520",
+  "url": "https://github.com/Derpyu520/qq-bridge",
+  "description": "Bridge between QQ (SnowLuma OneBot v11) and DeepSeek Harness agents: social simulation, safe MCP tools, slang learning and more.",
+  "homepage": "",
+  "stars": 3015,
+  "forks": 165,
+  "open_issues": 88,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "topics": [
+    "ai-agent",
+    "chatbot",
+    "deepseek-harness",
+    "dsh",
+    "onebot",
+    "qq-bot",
+    "snowluma"
+  ],
+  "created_at": "2026-08-25T07:46:42Z",
+  "updated_at": "2026-10-27T09:50:42Z",
+  "pushed_at": "2026-10-22T12:07:48Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 63,
+  "days_since_push": 4,
+  "health_score": 59,
+  "health_components": {
+    "popularity": 69.6,
+    "momentum": 39.9,
+    "maintenance": 100.0,
+    "documentation": 43.0,
+    "accessibility": 29.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3015,
+    "days_span": 63,
+    "stars_per_day": 47.86,
+    "lifetime_stars_per_day": 47.86,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Derpyu520/qq-bridge",
+    "readme_chars": 19837,
+    "capabilities": [
+      "multi-account-switching",
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "session-persistence",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "snowluma.accessToken OneBot accessToken，未配置留空 snowluma.followDiscoveredEndpoint 默认 true。",
+      "multi-agent-orchestration": "",
+      "model-routing": "onfig.example.json 为 config.json 后编辑：",
+      "api-gateway": "SnowLuma *运行时（QQ 网关本体） **1.14.20 已实测（1.14.9 亦兼容） 实测记录（2026-10-03，SnowLuma 1.14.20 + QQ 在线）：包 SHA256 与官方发布摘要一致；心跳 status.good=true／interval=30000；桥接走完「首次 1006 → 自愈 WS token → 已连接」；收到群消息（lastPacketKind: message/group）",
+      "session-persistence": "- DSH 侧：适配 DSH 0.1.2 起引入、0.2.1-rc.2 上逐项复核的协议——用本机持久化签名密钥铸造会话 Cookie 鉴权、/api/ / 斜杠 RPC、/api/remote.mux + session/follow 事件流（session/control 的队列读 value.projections[ ].values.inbox，另有一元 session/projections 主路径）；复用 Abstract…",
+      "agent-runtime": "agent preset，reserved2 使用 qq-chat-v2。",
+      "mcp-support": "session/projections 主路径）；复用 AbstractApiClient 传输层但不再依赖旧版 zod value schema。",
+      "security-isolation": "> > 🔒 QQ 会话的权限边界与安全承诺见 RULES.md。",
+      "gui-desktop": "",
+      "notifications": "e 默认 false）：先把音频放进 audio/，再到控制台打开开关；你自己发语音不受这个开关影响"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "multi-agent-orchestration": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "session-persistence": 3,
+      "agent-runtime": 1,
+      "mcp-support": 12,
+      "security-isolation": 3,
+      "gui-desktop": 4,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 71,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "config file"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml; GUI application",
+      "note_zh": "配置较重。需要 git clone (build from source)、npm install/build；需配置 API key configuration、config.json/yaml/toml；GUI application"
+    },
+    "doc_score": 43,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a table of contents",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "English: README.en.md | 中文: README.md",
+    "summary_zh": "",
+    "install_hint": "npm install        # 安装依赖（postinstall 会自动修补 @snowluma/sdk 的 ESM 打包 bug）",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.252
+    },
+    "highlights": [
+      "运行中的 SnowLuma，且配置好 OneBot WebSocket 与 HTTP API（默认 ws://127.0.0.1:3001 / http://127.0.0.1:3000，accessToken 视配置填写）",
+      "运行中的 DeepSeek Harness Web（默认 http://127.0.0.1:3080）",
+      "在 WebUI 里配置 OneBot 连接：开启 WebSocket 服务端 和 HTTP API，分别记下端口（默认 WS 3001、HTTP 3000）和 accessToken（若配置了）",
+      "agent 回复在回合结束时一次性发送（不做流式逐字转发）；回复超过 socialV2.send.maxMessageChars（默认 500 字，可用 social.maxReplyChars 调整）自动按句读/URL 边界分段"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-27T09:52:39+00:00",
+  "categories": [
+    "desktop-ui-2",
+    "mobile-remote-control",
+    "model-routing"
+  ],
+  "primary_category": "mobile-remote-control",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

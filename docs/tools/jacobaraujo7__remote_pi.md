@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 468 |
+| Stars | 470 |
 | Star velocity | 0.8/day (history basis, 5d span) |
 | Health score | 50/100 |
 | Documentation | 46/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Dart |
 | Created | 2026-05-22 |
-| Last push | 2026-10-25 (0 days ago) |
+| Last push | 2026-10-27 (0 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
 
 ## What it solves
