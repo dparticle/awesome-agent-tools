@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 264,
-  "days_since_push": 6,
+  "age_days": 265,
+  "days_since_push": 7,
   "health_score": 51,
   "health_components": {
     "popularity": 49.0,
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:54:09+00:00",
+  "fetched_at": "2026-10-28T10:38:18+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -138,10 +138,67 @@
   ],
   "primary_category": "isolation",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 Gentleman-Programming/gentle-shell 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "Gentleman-Programming/gentle-shell",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "nekocode/agent-worktree",
+      "challenger": "gentleman-programming/gentle-shell",
+      "incumbent_name": "nekocode/agent-worktree",
+      "challenger_name": "Gentleman-Programming/gentle-shell",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "gui-desktop",
+        "multi-agent-orchestration",
+        "parallel-execution",
+        "worktree-isolation"
+      ],
+      "star_ratio": 5.217,
+      "momentum_ratio": 42.85,
+      "setup_delta": -10,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "5.22x the stars (1,466 vs 281)",
+        "42.85x the star velocity (8.6/day vs 0.2/day)",
+        "no harder to set up (30 vs 40 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "gui-desktop",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "skills-plugins",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 59,
+        "incumbent_setup_score": 40,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

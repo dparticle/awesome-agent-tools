@@ -2,7 +2,7 @@
 
 # Tencent/BrowserSkill
 
-> BrowserSkill connects your AI agent to Chrome or Microsoft Edge, using the accounts you are already signed into.
+> Turn the browser you already use into a workspace for your AI agent.
 
 [Repository](https://github.com/Tencent/BrowserSkill) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,662 |
-| Star velocity | 56.4/day (history basis, 5d span) |
+| Stars | 9,718 |
+| Star velocity | 57.0/day (history basis, 5d span) |
 | Health score | 71/100 |
-| Documentation | 57/100 |
+| Documentation | 60/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-22 |
-| Last push | 2026-10-27 (0 days ago) |
-| Analyzed README | 23,092 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-28 (0 days ago) |
+| Analyzed README | 33,212 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -53,7 +53,7 @@
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -70,10 +70,10 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.7 |
-| momentum | 47.0 |
+| popularity | 79.8 |
+| momentum | 47.5 |
 | maintenance | 100.0 |
-| documentation | 57.0 |
+| documentation | 60.0 |
 | accessibility | 66.0 |
 
 ---

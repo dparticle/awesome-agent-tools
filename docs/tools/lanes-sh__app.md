@@ -17,12 +17,14 @@
 | Health score | 48/100 |
 | Documentation | 36/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | not declared |
 | Language | n/a |
 | Created | 2026-03-22 |
-| Last push | 2026-10-06 (20 days ago) |
+| Last push | 2026-10-06 (21 days ago) |
 | Analyzed README | 7,721 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).
 
 ## What it solves
 

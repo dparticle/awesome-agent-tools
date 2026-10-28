@@ -8,7 +8,7 @@
   "homepage": "https://www.aidevops.sh",
   "stars": 423,
   "forks": 73,
-  "open_issues": 28,
+  "open_issues": 35,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -33,26 +33,26 @@
     "opencode-plugin"
   ],
   "created_at": "2025-11-09T05:15:11Z",
-  "updated_at": "2026-10-27T08:57:33Z",
-  "pushed_at": "2026-10-27T09:11:51Z",
+  "updated_at": "2026-10-28T08:54:46Z",
+  "pushed_at": "2026-10-28T10:14:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 352,
+  "age_days": 353,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 52.5,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 1.2,
     "basis": "history",
     "is_fast_riser": false
@@ -186,13 +186,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:52+00:00",
+  "fetched_at": "2026-10-28T10:37:59+00:00",
   "categories": [
+    "billing",
     "desktop-ui-2",
-    "mobile-remote-control",
-    "teams"
+    "memory-mcp"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

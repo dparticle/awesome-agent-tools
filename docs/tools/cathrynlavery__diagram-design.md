@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 61,552 |
-| Star velocity | 358.2/day (history basis, 5d span) |
+| Stars | 62,160 |
+| Star velocity | 392.4/day (history basis, 5d span) |
 | Health score | 90/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | HTML |
 | Created | 2026-04-16 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 52,654 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 52,664 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Billing & metering
 
-> atter covers bubble and beeswarm; Treemap covers marimekko.
+> rs bubble, beeswarm and box plot; Treemap covers marimekko.
 
 ### Skills & plugins
 
@@ -79,7 +79,7 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 95.8 |
+| popularity | 95.9 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 68.0 |

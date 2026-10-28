@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 77,740 |
-| Star velocity | 252.0/day (history basis, 5d span) |
-| Health score | 89/100 |
+| Stars | 78,068 |
+| Star velocity | 275.2/day (history basis, 5d span) |
+| Health score | 91/100 |
 | Documentation | 74/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-04-04 |
-| Last push | 2026-10-27 (0 days ago) |
-| Analyzed README | 46,342 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-28 (0 days ago) |
+| Analyzed README | 48,577 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### GUI / desktop app
 
-> terminal dashboard lets you browse your pipeline visually:
+> st use; creates a dedicated project folder.
 
 ### Cross-agent support
 
@@ -48,9 +48,9 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 49/100)
+- **Difficulty:** 🟡 Some setup (friction score 42/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 - **Quickest install:** `npx @santifer/career-ops init`
 
 **Signals that make it easy:** npx one-liner, native installer / package
@@ -59,7 +59,7 @@
 
 **Configuration required:** environment variables, config file, OAuth login flow, sign-in required
 
-*Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, config file*
+*Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, config file; GUI application*
 
 ## Documentation quality
 
@@ -86,7 +86,7 @@ Score **74/100**, based on these detected signals:
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
-| accessibility | 51.0 |
+| accessibility | 66.0 |
 
 ---
 

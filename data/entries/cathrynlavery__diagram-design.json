@@ -6,8 +6,8 @@
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
   "homepage": "https://diagramdesign.dev",
-  "stars": 61552,
-  "forks": 4010,
+  "stars": 62160,
+  "forks": 4056,
   "open_issues": 45,
   "language": "HTML",
   "license": "MIT",
@@ -22,16 +22,16 @@
     "svg"
   ],
   "created_at": "2026-04-16T18:01:16Z",
-  "updated_at": "2026-10-27T09:43:04Z",
-  "pushed_at": "2026-10-26T21:42:18Z",
+  "updated_at": "2026-10-28T10:33:18Z",
+  "pushed_at": "2026-10-27T20:01:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 193,
+  "age_days": 194,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
-    "popularity": 95.8,
+    "popularity": 95.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1791,
+    "stars_gained": 1962,
     "days_span": 5,
-    "stars_per_day": 358.2,
-    "lifetime_stars_per_day": 318.92,
+    "stars_per_day": 392.4,
+    "lifetime_stars_per_day": 320.41,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "cathrynlavery/diagram-design",
-    "readme_chars": 52654,
+    "readme_chars": 52664,
     "capabilities": [
       "parallel-execution",
       "billing-metering",
@@ -58,7 +58,7 @@
     ],
     "capability_evidence": {
       "parallel-execution": "board a brand once, save the result as a named profile, then add a .diagram-design marker containing profile: to each client project.",
-      "billing-metering": "atter covers bubble and beeswarm; Treemap covers marimekko.",
+      "billing-metering": "rs bubble, beeswarm and box plot; Treemap covers marimekko.",
       "skills-plugins": "skills/diagram-design/SKILL.md, and installs the whole skill (references/, assets/, scripts/) into every host root you select, including Cursor's:",
       "team-collaboration": "",
       "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
@@ -148,11 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:55+00:00",
+  "fetched_at": "2026-10-28T10:36:57+00:00",
   "categories": [
-    "teams"
+    "billing"
   ],
-  "primary_category": "teams",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -1,0 +1,205 @@
+{
+  "schema": 1,
+  "full_name": "DeusData/codebase-memory-mcp",
+  "name": "codebase-memory-mcp",
+  "owner": "DeusData",
+  "url": "https://github.com/DeusData/codebase-memory-mcp",
+  "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
+  "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
+  "stars": 47694,
+  "forks": 3922,
+  "open_issues": 612,
+  "language": "C",
+  "license": "MIT",
+  "topics": [
+    "aider",
+    "ast",
+    "claude-code",
+    "code-analysis",
+    "code-intelligence",
+    "codex",
+    "cursor",
+    "cypher",
+    "developer-tools",
+    "gemini-cli",
+    "graph-visualization",
+    "kilocode",
+    "knowledge-graph",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "opencode",
+    "sqlite",
+    "tree-sitter",
+    "windsurf"
+  ],
+  "created_at": "2026-02-24T22:01:00Z",
+  "updated_at": "2026-10-28T10:23:53Z",
+  "pushed_at": "2026-10-28T06:47:52Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 245,
+  "days_since_push": 0,
+  "health_score": 79,
+  "health_components": {
+    "popularity": 93.6,
+    "momentum": 67.2,
+    "maintenance": 100.0,
+    "documentation": 76.0,
+    "accessibility": 36.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 403,
+    "days_span": 5,
+    "stars_per_day": 80.6,
+    "lifetime_stars_per_day": 194.67,
+    "basis": "history",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "DeusData/codebase-memory-mcp",
+    "readme_chars": 115162,
+    "capabilities": [
+      "multi-account-switching",
+      "auto-failover",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "led hooks through /hooks.",
+      "auto-failover": "d without contacting support; and every teammate needs git lfs install; without it their checkout leaves a pointer file where the artifact should be, the integrity-checked import refuses it, and they fall back to a full…",
+      "multi-agent-orchestration": "y and fail-open: it does not replace or block the requested tool call.",
+      "worktree-isolation": ", with exact omission metadata.",
+      "memory-context": "Understand your repository, from source code to the systems around it.",
+      "skills-plugins": "- - .tar.gz (macOS/Linux) or .zip (Windows)",
+      "agent-runtime": "codebase-memory-mcp- - .tar.gz (macOS/Linux) or .zip (Windows)",
+      "mcp-support": "# codebase-memory-mcp: local code intelligence for AI agents via MCP",
+      "cross-agent-support": "Mentions Aider, Amp, Claude Code, Cline"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "auto-failover": 1,
+      "multi-agent-orchestration": 10,
+      "worktree-isolation": 2,
+      "memory-context": 6,
+      "skills-plugins": 4,
+      "agent-runtime": 7,
+      "mcp-support": 76,
+      "cross-agent-support": 14
+    },
+    "friction": {
+      "level": "high",
+      "score": 64,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "global npm install",
+        "download a release binary",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "kubectl apply",
+        "helm install",
+        "git clone (build from source)",
+        "npm install/build",
+        "cmake build",
+        "go build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "config file",
+        "config.json/yaml/toml",
+        "config file",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. install via pip install, curl | sh installer; needs kubectl apply, helm install; configure environment variables, config file",
+      "note_zh": "配置较重。可通过 pip install、curl | sh installer 安装；需要 kubectl apply、helm install；需配置 environment variables、config file"
+    },
+    "doc_score": 76,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider",
+      "Cline / Roo",
+      "Qwen Code",
+      "Goose",
+      "Crush",
+      "Droid"
+    ],
+    "summary_en": "Understand your repository, from source code to the systems around it.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.295
+    },
+    "highlights": [
+      "Choose a local model. The default Qwen2.5 Coder 0.5B downloads about 567 MB; Qwen3 0.6B, LFM2.5 1.2B and Qwen3.5 2B are larger options. All need WebGPU with shader-f16 support.",
+      "Format: SQLite database, indexes stripped, VACUUM INTO compacted, then zstd 1.5.7 compressed (8 to 13:1 ratio typical)",
+      "Scout (Tier 1): about 3 to 4 narrow calls for fast positive, provisional discovery; no absence, exhaustive-impact, or dead-code claims.",
+      "SEMANTICALLY_RELATED (vocabulary-mismatch, same-language, score ≥ 0.80)"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-28T10:37:00+00:00",
+  "categories": [
+    "desktop-ui",
+    "desktop-ui-2",
+    "memory-mcp"
+  ],
+  "primary_category": "memory-mcp",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

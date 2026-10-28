@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,388 |
-| Star velocity | 5.9/day (lifetime basis, 235d span) |
+| Stars | 1,392 |
+| Star velocity | 5.9/day (lifetime basis, 236d span) |
 | Health score | 54/100 |
 | Documentation | 39/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | not declared |
 | Language | Python |
 | Created | 2026-03-05 |
-| Last push | 2026-10-26 (1 days ago) |
+| Last push | 2026-10-26 (2 days ago) |
 | Analyzed README | 8,490 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -72,7 +72,7 @@ Score **39/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 62.8 |
+| popularity | 62.9 |
 | momentum | 4.9 |
 | maintenance | 100.0 |
 | documentation | 39.0 |

@@ -2,7 +2,7 @@
 
 # makecindy/cindy
 
-> Consider it done.
+> Cindy is an open-source AI agent, ready out of the box and yours to shape.
 
 [Repository](https://github.com/makecindy/cindy) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,21 +12,25 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,027 |
-| Star velocity | 73.2/day (lifetime basis, 96d span) |
-| Health score | 69/100 |
-| Documentation | 53/100 |
+| Stars | 7,792 |
+| Star velocity | 80.3/day (lifetime basis, 97d span) |
+| Health score | 71/100 |
+| Documentation | 54/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-22 |
-| Last push | 2026-10-27 (0 days ago) |
-| Analyzed README | 11,847 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-28 (0 days ago) |
+| Analyzed README | 13,900 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
+### Remote control
+
 ### Mobile access
+
+> ch Linux and Omarchy installation guide
 
 ### Multi-agent orchestration
 
@@ -34,11 +38,17 @@
 
 ### Model / provider routing
 
+### Billing & metering
+
+> supported subscription you already pay for,
+
 ### Usage analytics
 
 > this is not fully anonymous.
 
 ### MCP support
+
+> TML, not just a wall of text.
 
 ### Self-hostable
 
@@ -46,7 +56,7 @@
 
 ### GUI / desktop app
 
-> apps/-bin Tool binaries shipped with the desktop app; none are committed — claude-code, codex, and ripgrep are downloaded per platform by pnpm install, and the Android platform-tools binaries are fetched (pinned version…
+> ntains Cindy's open-source desktop and mobile clients and
 
 ### Cross-agent support
 
@@ -66,7 +76,7 @@
 
 ## Documentation quality
 
-Score **53/100**, based on these detected signals:
+Score **54/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -82,10 +92,10 @@ Score **53/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 76.9 |
-| momentum | 61.0 |
+| popularity | 77.8 |
+| momentum | 66.9 |
 | maintenance | 100.0 |
-| documentation | 53.0 |
+| documentation | 54.0 |
 | accessibility | 35.0 |
 
 ---

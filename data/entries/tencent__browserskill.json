@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/BrowserSkill",
   "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
   "homepage": "",
-  "stars": 9662,
-  "forks": 694,
-  "open_issues": 99,
+  "stars": 9718,
+  "forks": 695,
+  "open_issues": 97,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -17,33 +17,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-06-22T07:24:40Z",
-  "updated_at": "2026-10-27T09:48:49Z",
-  "pushed_at": "2026-10-27T07:49:56Z",
+  "updated_at": "2026-10-28T10:25:06Z",
+  "pushed_at": "2026-10-28T10:29:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 127,
+  "age_days": 128,
   "days_since_push": 0,
   "health_score": 71,
   "health_components": {
-    "popularity": 79.7,
-    "momentum": 47.0,
+    "popularity": 79.8,
+    "momentum": 47.5,
     "maintenance": 100.0,
-    "documentation": 57.0,
+    "documentation": 60.0,
     "accessibility": 66.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 282,
+    "stars_gained": 285,
     "days_span": 5,
-    "stars_per_day": 56.4,
-    "lifetime_stars_per_day": 76.08,
+    "stars_per_day": 57.0,
+    "lifetime_stars_per_day": 75.92,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Tencent/BrowserSkill",
-    "readme_chars": 23092,
+    "readme_chars": 33212,
     "capabilities": [
       "skills-plugins",
       "gui-desktop",
@@ -88,7 +88,7 @@
       "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, cargo build; configure sign-in required, database migration",
       "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 pnpm install/build、cargo build；需配置 sign-in required、database migration"
     },
-    "doc_score": 57,
+    "doc_score": 60,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -106,7 +106,7 @@
       "Codex",
       "Cursor"
     ],
-    "summary_en": "BrowserSkill connects your AI agent to Chrome or Microsoft Edge, using the accounts you are already signed into.",
+    "summary_en": "Turn the browser you already use into a workspace for your AI agent.",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh",
     "source": "raw:HEAD/README.md",
@@ -114,10 +114,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.303
+      "external_link_ratio": 0.211
     },
     "highlights": [],
-    "summary_zh_native": "BrowserSkill 把你的 AI Agent 连接到 Chrome 或 Microsoft Edge，直接使用你已有的登录状态。",
+    "summary_zh_native": "让 AI Agent 在你熟悉、已登录的浏览器里办事。",
     "highlights_zh": [
       "展开请求看细节：读取已保留的请求头、提交数据、响应正文、耗时与错误，筛选流量或直接查看某个 JSON 字段。",
       "验证并保留证据：配置任务内的请求修改、拦截、模拟响应或同源请求重放，导出 JSON，供后续复查和分享。",
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:25+00:00",
+  "fetched_at": "2026-10-28T10:36:26+00:00",
   "categories": [
     "desktop-ui-2"
   ],

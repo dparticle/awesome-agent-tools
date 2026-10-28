@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 872 |
+| Stars | 875 |
 | Star velocity | 3.6/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 73/100 |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-14 |
-| Last push | 2026-10-25 (1 days ago) |
+| Last push | 2026-10-25 (2 days ago) |
 | Analyzed README | 42,069 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (10/10).

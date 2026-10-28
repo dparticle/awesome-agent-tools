@@ -6,9 +6,9 @@
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
   "homepage": "https://treg.to",
-  "stars": 6320,
-  "forks": 540,
-  "open_issues": 191,
+  "stars": 6424,
+  "forks": 551,
+  "open_issues": 201,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -25,33 +25,33 @@
     "secrets"
   ],
   "created_at": "2026-07-15T13:38:07Z",
-  "updated_at": "2026-10-27T09:42:36Z",
-  "pushed_at": "2026-10-27T09:01:33Z",
+  "updated_at": "2026-10-28T10:23:05Z",
+  "pushed_at": "2026-10-28T10:35:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 103,
+  "age_days": 104,
   "days_since_push": 0,
-  "health_score": 77,
+  "health_score": 79,
   "health_components": {
-    "popularity": 76.0,
-    "momentum": 61.7,
+    "popularity": 76.2,
+    "momentum": 70.3,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 79.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 370,
+    "stars_gained": 422,
     "days_span": 5,
-    "stars_per_day": 74.0,
-    "lifetime_stars_per_day": 61.36,
+    "stars_per_day": 84.4,
+    "lifetime_stars_per_day": 61.77,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "superdesigndev/treg",
-    "readme_chars": 32578,
+    "readme_chars": 32611,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -66,8 +66,8 @@
       "auto-failover": "secrets won't survive a restart)",
       "model-routing": "# Treg (OpenRouter for Tools)",
       "billing-metering": "e code to third parties as a competing hosted/managed registry service without written",
-      "skills-plugins": "agent through the rest — the CLI, sign-in, then treg mcp install — so you end up with",
-      "mcp-support": "install it as a Claude Code plugin",
+      "skills-plugins": "e treg skill and treg's tools with no token and no configuration.",
+      "mcp-support": "team has shared: treg tool ls · check credential health: treg health.",
       "security-isolation": "resolves the tool by host, injects the credential, and relays everything else faithfully",
       "self-hosted": "need to know which vendor sells backlink data, or to",
       "notifications": "ogle OAuth sign-in (redirect /auth/google/callback); empty hides the button"
@@ -155,13 +155,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:32+00:00",
+  "fetched_at": "2026-10-28T10:36:32+00:00",
   "categories": [
-    "billing",
-    "failover",
-    "memory-mcp"
+    "analytics",
+    "memory-mcp",
+    "security-mcp"
   ],
-  "primary_category": "billing",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

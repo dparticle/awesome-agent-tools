@@ -2,7 +2,7 @@
 
 # ZipengWu365/TOMC
 
-> This is the official repository for TOMC Memory, with source code, plugin downloads and installation guides.
+> Try, compare, contribute: First-run reports · Context-compression evaluation note · Contribution guide
 
 [Repository](https://github.com/ZipengWu365/TOMC) · [Back to index](../../README.md) · Category: **None**
 
@@ -13,18 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 265 |
-| Star velocity | 12.6/day (lifetime basis, 21d span) |
+| Star velocity | 12.1/day (lifetime basis, 22d span) |
 | Health score | 57/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-10-06 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 50,769 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** — Superseded by genspark-ai/genoffice: covers 100% of capabilities (8/8).
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 51,376 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -51,6 +49,10 @@
 ### GUI / desktop app
 
 > and Linux, and in Claude Code.* Installation and tool checks passed on all three systems; real model calls passed in Codex on Windows with preview.4 and macOS and in Claude Code with Claude Opus 5.5.
+
+### Notifications
+
+> -compression evaluation note · Contribution guide
 
 ### Cross-agent support
 
@@ -91,7 +93,7 @@ Score **66/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 48.5 |
-| momentum | 10.5 |
+| momentum | 10.0 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
 | accessibility | 85.0 |

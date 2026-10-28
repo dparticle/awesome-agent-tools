@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "full_name": "kaankiziltug/logo-design-skill",
+  "name": "logo-design-skill",
+  "owner": "kaankiziltug",
+  "url": "https://github.com/kaankiziltug/logo-design-skill",
+  "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+  "homepage": "",
+  "stars": 4871,
+  "forks": 372,
+  "open_issues": 3,
+  "language": "HTML",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "branding",
+    "claude",
+    "claude-skills",
+    "codex",
+    "gemini-cli",
+    "logo-design",
+    "svg"
+  ],
+  "created_at": "2026-09-26T08:23:34Z",
+  "updated_at": "2026-10-28T10:35:33Z",
+  "pushed_at": "2026-10-20T09:14:19Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 32,
+  "days_since_push": 8,
+  "health_score": 77,
+  "health_components": {
+    "popularity": 73.8,
+    "momentum": 100.0,
+    "maintenance": 92.0,
+    "documentation": 51.0,
+    "accessibility": 49.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 4871,
+    "days_span": 32,
+    "stars_per_day": 152.22,
+    "lifetime_stars_per_day": 152.22,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "kaankiziltug/logo-design-skill",
+    "readme_chars": 32127,
+    "capabilities": [
+      "skills-plugins",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "# Logo Design Skill for Claude & AI Agents",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "skills-plugins": 5,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. needs git clone (build from source)",
+      "note_zh": "需要一些配置。需要 git clone (build from source)"
+    },
+    "doc_score": 51,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "A comprehensive logo-design skill that turns Claude — or any agent that supports Agent Skills, such as Gemini CLI, Codex CLI, Cursor or GitHub Copilot — into a disciplined identity designer, from the first brief to production-ready SVG fil…",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.093
+    },
+    "highlights": [
+      "A reference library of 1,400+ real-world SVG logos, each visually classified by mark type, technique,"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-28T10:36:36+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

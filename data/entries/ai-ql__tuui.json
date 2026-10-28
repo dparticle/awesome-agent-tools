@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 573,
-  "days_since_push": 166,
+  "age_days": 574,
+  "days_since_push": 167,
   "health_score": 47,
   "health_components": {
     "popularity": 61.3,
@@ -141,12 +141,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:24+00:00",
+  "fetched_at": "2026-10-28T10:37:28+00:00",
   "categories": [
     "desktop-ui-2",
-    "memory-mcp"
+    "security-mcp"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "security-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

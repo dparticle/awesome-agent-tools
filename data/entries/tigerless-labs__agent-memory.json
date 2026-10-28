@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/agent-memory",
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
-  "stars": 4736,
-  "forks": 203,
-  "open_issues": 48,
+  "stars": 4368,
+  "forks": 200,
+  "open_issues": 42,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,27 +26,27 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-10-27T07:17:34Z",
-  "pushed_at": "2026-10-26T16:47:06Z",
+  "updated_at": "2026-10-28T10:07:51Z",
+  "pushed_at": "2026-10-27T16:26:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 55,
+  "age_days": 56,
   "days_since_push": 0,
-  "health_score": 70,
+  "health_score": 61,
   "health_components": {
-    "popularity": 73.5,
-    "momentum": 51.2,
+    "popularity": 72.8,
+    "momentum": 12.4,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 57.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 307,
-    "days_span": 5,
-    "stars_per_day": 61.4,
-    "lifetime_stars_per_day": 86.11,
+    "stars_gained": 104,
+    "days_span": 7,
+    "stars_per_day": 14.86,
+    "lifetime_stars_per_day": 78.0,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -139,13 +139,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:06+00:00",
+  "fetched_at": "2026-10-28T10:37:10+00:00",
   "categories": [
-    "failover",
-    "memory-mcp",
-    "model-routing"
+    "model-routing",
+    "security-mcp"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "security-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

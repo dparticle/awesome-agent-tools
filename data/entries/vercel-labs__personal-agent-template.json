@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 137,
-  "days_since_push": 54,
+  "age_days": 138,
+  "days_since_push": 55,
   "health_score": 41,
   "health_components": {
     "popularity": 53.6,
@@ -43,7 +43,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 3.5,
+    "lifetime_stars_per_day": 3.47,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:46+00:00",
+  "fetched_at": "2026-10-28T10:37:52+00:00",
   "categories": [
     "desktop-ui-2",
     "memory-mcp"
@@ -157,14 +157,14 @@
         "notifications",
         "self-hosted"
       ],
-      "star_ratio": 605.906,
-      "momentum_ratio": 2110.5,
+      "star_ratio": 608.098,
+      "momentum_ratio": 2236.0,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "605.91x the stars (290,229 vs 479)",
-        "2110.50x the star velocity (844.2/day vs 0.4/day)",
+        "608.10x the stars (291,279 vs 479)",
+        "2236.00x the star velocity (894.4/day vs 0.4/day)",
         "no harder to set up (57 vs 78 friction)"
       ],
       "reasons_zh": [],

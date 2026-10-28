@@ -6,9 +6,9 @@
   "url": "https://github.com/Derpyu520/qq-bridge",
   "description": "Bridge between QQ (SnowLuma OneBot v11) and DeepSeek Harness agents: social simulation, safe MCP tools, slang learning and more.",
   "homepage": "",
-  "stars": 3015,
-  "forks": 165,
-  "open_issues": 88,
+  "stars": 3167,
+  "forks": 177,
+  "open_issues": 94,
   "language": "JavaScript",
   "license": "NOASSERTION",
   "topics": [
@@ -21,27 +21,27 @@
     "snowluma"
   ],
   "created_at": "2026-08-25T07:46:42Z",
-  "updated_at": "2026-10-27T09:50:42Z",
+  "updated_at": "2026-10-28T10:27:21Z",
   "pushed_at": "2026-10-22T12:07:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 63,
-  "days_since_push": 4,
-  "health_score": 59,
+  "age_days": 64,
+  "days_since_push": 5,
+  "health_score": 60,
   "health_components": {
-    "popularity": 69.6,
-    "momentum": 39.9,
+    "popularity": 70.0,
+    "momentum": 41.2,
     "maintenance": 100.0,
     "documentation": 43.0,
     "accessibility": 29.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3015,
-    "days_span": 63,
-    "stars_per_day": 47.86,
-    "lifetime_stars_per_day": 47.86,
+    "stars_gained": 3167,
+    "days_span": 64,
+    "stars_per_day": 49.48,
+    "lifetime_stars_per_day": 49.48,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -148,13 +148,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:39+00:00",
+  "fetched_at": "2026-10-28T10:36:41+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile-remote-control",
-    "model-routing"
+    "model-routing",
+    "security-mcp"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "security-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

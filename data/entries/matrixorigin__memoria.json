@@ -8,7 +8,7 @@
   "homepage": "https://thememoria.ai/",
   "stars": 617,
   "forks": 78,
-  "open_issues": 40,
+  "open_issues": 45,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -25,22 +25,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 231,
-  "days_since_push": 1,
+  "age_days": 232,
+  "days_since_push": 2,
   "health_score": 51,
   "health_components": {
     "popularity": 55.8,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 2.67,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 2.66,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,9 +139,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:38+00:00",
+  "fetched_at": "2026-10-28T10:37:43+00:00",
   "categories": [
-    "memory-mcp"
+    "analytics",
+    "memory-mcp",
+    "security-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
@@ -167,14 +169,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 470.387,
-      "momentum_ratio": 1407.0,
+      "star_ratio": 472.089,
+      "momentum_ratio": 2236.0,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "470.39x the stars (290,229 vs 617)",
-        "1407.00x the star velocity (844.2/day vs 0.6/day)",
+        "472.09x the stars (291,279 vs 617)",
+        "2236.00x the star velocity (894.4/day vs 0.4/day)",
         "no harder to set up (57 vs 63 friction)"
       ],
       "reasons_zh": [],

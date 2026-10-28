@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-04 |
-| Last push | 2026-10-25 (2 days ago) |
-| Analyzed README | 42,149 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 49,420 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,11 +34,11 @@
 
 ### Usage analytics
 
-> d research assistant, fully integrated with AEGIS.
+> day behavioral profile per agent
 
 ### MCP support
 
-> , AEGIS provides two proxy modes:
+> row and the call itself one click away.
 
 ### Security & isolation
 

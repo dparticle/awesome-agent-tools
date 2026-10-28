@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 888,
-  "forks": 83,
-  "open_issues": 13,
+  "stars": 908,
+  "forks": 87,
+  "open_issues": 16,
   "language": "TypeScript",
   "license": "",
   "topics": [
@@ -16,33 +16,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-10-27T08:57:25Z",
-  "pushed_at": "2026-10-27T07:23:46Z",
+  "updated_at": "2026-10-28T09:44:49Z",
+  "pushed_at": "2026-10-28T05:03:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 73,
+  "age_days": 74,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 59.0,
-    "momentum": 10.1,
+    "popularity": 59.2,
+    "momentum": 10.2,
     "maintenance": 100.0,
-    "documentation": 57.0,
+    "documentation": 58.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 888,
-    "days_span": 73,
-    "stars_per_day": 12.16,
-    "lifetime_stars_per_day": 12.16,
+    "stars_gained": 908,
+    "days_span": 74,
+    "stars_per_day": 12.27,
+    "lifetime_stars_per_day": 12.27,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 19120,
+    "readme_chars": 20145,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -58,19 +58,19 @@
     "capability_evidence": {
       "auto-failover": "public IP is required on the Harness Host.",
       "remote-control": "- Support DeepSeek Harness Desktop, ready to use after installation. - Run a terminal-only dsh-TUI profile as a Host. - No public listening port or public IP is required on the Harness Host.",
-      "mobile-access": "s at once, and use Bot mode, powered by Fei2411/DS-Bot.",
+      "mobile-access": "scripts/install.sh INTELLIGENTUI=1 (optionally INTELLIGENTUIVERSION=...)",
       "parallel-execution": "",
       "model-routing": "",
-      "skills-plugins": "top add -w ds-harness-remote@0.5.20.",
+      "skills-plugins": "top add -w ds-harness-remote@0.5.22.",
       "security-isolation": "oaded from the connected Host.",
       "self-hosted": "",
-      "gui-desktop": "ar Supported Install ds-harness-remote@0.5.20; this computer can also be the Host",
+      "gui-desktop": "ar Supported Install ds-harness-remote@0.5.22; this computer can also be the Host",
       "cross-agent-support": "Mentions Codex, Cursor, OpenCode"
     },
     "capability_hits": {
       "auto-failover": 2,
       "remote-control": 2,
-      "mobile-access": 2,
+      "mobile-access": 3,
       "parallel-execution": 1,
       "model-routing": 1,
       "skills-plugins": 1,
@@ -105,7 +105,7 @@
       "note_en": "Easy. install via native installer / package; configure OAuth login flow, sign-in required",
       "note_zh": "较易上手。可通过 native installer / package 安装；需配置 OAuth login flow、sign-in required"
     },
-    "doc_score": 57,
+    "doc_score": 58,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -115,7 +115,8 @@
       "has troubleshooting/FAQ",
       "mentions licensing",
       "documents changes",
-      "publishes a roadmap"
+      "publishes a roadmap",
+      "long, detailed README"
     ],
     "agents": [
       "Codex",
@@ -132,7 +133,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.68
+      "external_link_ratio": 0.695
     },
     "highlights": [
       "The current development baseline is dsh-v0.2.1-rc.1; validation scope is documented in the compatibility guide.",
@@ -154,10 +155,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:30+00:00",
+  "fetched_at": "2026-10-28T10:37:34+00:00",
   "categories": [
-    "failover",
-    "mobile",
+    "analytics",
+    "isolation",
     "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",

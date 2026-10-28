@@ -7,7 +7,7 @@
   "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
   "homepage": "",
   "stars": 365,
-  "forks": 41,
+  "forks": 42,
   "open_issues": 17,
   "language": "Python",
   "license": "MIT",
@@ -36,21 +36,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 371,
-  "days_since_push": 46,
+  "age_days": 372,
+  "days_since_push": 47,
   "health_score": 44,
   "health_components": {
     "popularity": 51.2,
-    "momentum": 1.0,
+    "momentum": 0.8,
     "maintenance": 78.0,
     "documentation": 59.0,
     "accessibility": 34.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.2,
+    "stars_per_day": 1.0,
     "lifetime_stars_per_day": 0.98,
     "basis": "history",
     "is_fast_riser": false
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:58+00:00",
+  "fetched_at": "2026-10-28T10:38:05+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -174,14 +174,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.46,
-      "momentum_ratio": 3.333,
+      "star_ratio": 2.479,
+      "momentum_ratio": 4.6,
       "setup_delta": -45,
-      "dominance": 0.904,
+      "dominance": 0.946,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.46x the stars (898 vs 365)",
-        "3.33x the star velocity (4.0/day vs 1.2/day)",
+        "2.48x the stars (905 vs 365)",
+        "4.60x the star velocity (4.6/day vs 1.0/day)",
         "no harder to set up (21 vs 66 friction)"
       ],
       "reasons_zh": [],

@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 161,
-  "days_since_push": 0,
+  "age_days": 162,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 50.4,
@@ -47,9 +47,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 330,
-    "days_span": 161,
-    "stars_per_day": 2.05,
-    "lifetime_stars_per_day": 2.05,
+    "days_span": 162,
+    "stars_per_day": 2.04,
+    "lifetime_stars_per_day": 2.04,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -137,11 +137,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:59+00:00",
+  "fetched_at": "2026-10-28T10:38:07+00:00",
   "categories": [
-    "memory-mcp"
+    "security-mcp"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "security-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

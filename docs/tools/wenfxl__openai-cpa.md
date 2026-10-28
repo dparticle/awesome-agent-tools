@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,403 |
-| Star velocity | 0.0/day (history basis, 6d span) |
+| Stars | 1,404 |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 49/100 |
 | Documentation | 67/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-03-23 |
-| Last push | 2026-08-21 (66 days ago) |
+| Last push | 2026-08-21 (67 days ago) |
 | Analyzed README | 25,594 chars from `raw:main/README.md` |
 
 > ⚠️ **Superseded by [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)** — Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (4/4).

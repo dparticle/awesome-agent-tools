@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 428 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Stars | 427 |
+| Star velocity | 0.0/day (history basis, 6d span) |
 | Health score | 55/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-08-16 |
-| Last push | 2026-10-14 (13 days ago) |
+| Last push | 2026-10-14 (14 days ago) |
 | Analyzed README | 14,672 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -79,7 +79,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 52.6 |
-| momentum | 0.2 |
+| momentum | 0.0 |
 | maintenance | 92.0 |
 | documentation | 69.0 |
 | accessibility | 87.0 |

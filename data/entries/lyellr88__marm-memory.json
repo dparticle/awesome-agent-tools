@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 504,
-  "days_since_push": 3,
+  "age_days": 505,
+  "days_since_push": 5,
   "health_score": 54,
   "health_components": {
     "popularity": 52.5,
@@ -184,8 +184,8 @@
     "highlights": [
       "Concurrent recall: 10 gathered recalls completed in 151.5ms vs 176.0ms serial (gather/serial = 0.86).",
       "Both HTTP and STDIO expose 16 tools: 8 core memory/logging/notebook/compaction tools, 6 bundled code-graph tools, and 2 concept-graph tools",
-      "Verify port 8001 isn't in use: lsof -i :8001 (macOS/Linux) or netstat -ano | findstr :8001 (Windows)",
-      "Layered recall depth: detail=1 returns a short summary view (~200 chars), detail=2 a larger context view (~500 chars), detail=3 full memory content"
+      "Layered recall depth: detail=1 returns a short summary view (~200 chars), detail=2 a larger context view (~500 chars), detail=3 full memory content",
+      "Verify port 8001 isn't in use: lsof -i :8001 (macOS/Linux) or netstat -ano | findstr :8001 (Windows)"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -196,27 +196,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:51+00:00",
+  "fetched_at": "2026-10-28T10:37:58+00:00",
   "categories": [
     "failover",
     "memory-mcp",
-    "model-routing"
+    "security-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (12/12).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (12/12)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (12/12).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (12/12)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "lyellr88/marm-memory",
-      "challenger": "affaan-m/ecc",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "Lyellr88/marm-memory",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -232,15 +232,15 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 684.502,
-      "momentum_ratio": 2110.5,
-      "setup_delta": 9,
-      "dominance": 0.955,
+      "star_ratio": 70.677,
+      "momentum_ratio": 75.5,
+      "setup_delta": -16,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (12/12)",
-        "684.50x the stars (290,229 vs 424)",
-        "2110.50x the star velocity (844.2/day vs 0.4/day)",
-        "slightly heavier setup (+9 friction, within tolerance)"
+        "70.68x the stars (29,967 vs 424)",
+        "75.50x the star velocity (30.2/day vs 0.4/day)",
+        "no harder to set up (32 vs 48 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -262,6 +262,7 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -269,17 +270,17 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "parallel-execution",
+          "quota-management",
           "security-isolation",
           "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "worktree-isolation"
+          "team-collaboration"
         ],
         "incumbent_health": 54,
-        "challenger_health": 89,
+        "challenger_health": 71,
         "incumbent_setup_score": 48,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 32
       }
     }
   }

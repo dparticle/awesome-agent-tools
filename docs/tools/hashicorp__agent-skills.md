@@ -21,7 +21,7 @@
 | License | MPL-2.0 |
 | Language | HCL |
 | Created | 2025-11-08 |
-| Last push | 2026-10-05 (22 days ago) |
+| Last push | 2026-10-05 (23 days ago) |
 | Analyzed README | 3,405 chars from `raw:HEAD/README.md` |
 
 ## What it solves

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 522 |
-| Star velocity | 7.6/day (lifetime basis, 69d span) |
-| Health score | 55/100 |
-| Documentation | 40/100 |
+| Stars | 531 |
+| Star velocity | 7.6/day (lifetime basis, 70d span) |
+| Health score | 54/100 |
+| Documentation | 45/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-08-19 |
-| Last push | 2026-10-26 (1 days ago) |
-| Analyzed README | 6,048 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-27 (0 days ago) |
+| Analyzed README | 7,009 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,22 +38,25 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 16/100)
+- **Difficulty:** 🟢 Easy (friction score 25/100)
 - **Out of the box:** yes
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/0sec-labs/0/main/install.sh | bash`
 
 **Signals that make it easy:** curl | sh installer
 
-*Turnkey. install via curl | sh installer*
+**Signals that add work:** pnpm install/build
+
+*Easy. install via curl | sh installer; needs pnpm install/build*
 
 ## Documentation quality
 
-Score **40/100**, based on these detected signals:
+Score **45/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - documents installation
+- documents configuration
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
@@ -63,11 +66,11 @@ Score **40/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 54.4 |
+| popularity | 54.5 |
 | momentum | 6.3 |
 | maintenance | 100.0 |
-| documentation | 40.0 |
-| accessibility | 96.0 |
+| documentation | 45.0 |
+| accessibility | 87.0 |
 
 ---
 

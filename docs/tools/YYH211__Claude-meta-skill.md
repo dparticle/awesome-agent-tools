@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 284 |
-| Star velocity | 0.0/day (history basis, 8d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 42/100 |
 | Documentation | 78/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-10-31 |
-| Last push | 2026-05-15 (165 days ago) |
+| Last push | 2026-05-15 (166 days ago) |
 | Analyzed README | 25,252 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection)** — Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (4/4).

@@ -6,9 +6,9 @@
   "url": "https://github.com/zvec-ai/zvec-grep",
   "description": "Local-first search across your workspace, built for humans and AI agents.",
   "homepage": "",
-  "stars": 4187,
-  "forks": 250,
-  "open_issues": 84,
+  "stars": 4197,
+  "forks": 251,
+  "open_issues": 89,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -24,27 +24,27 @@
     "vector-search"
   ],
   "created_at": "2026-07-10T02:58:07Z",
-  "updated_at": "2026-10-27T08:22:16Z",
-  "pushed_at": "2026-10-27T09:08:16Z",
+  "updated_at": "2026-10-28T09:45:15Z",
+  "pushed_at": "2026-10-28T06:25:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 109,
+  "age_days": 110,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 72.4,
-    "momentum": 8.7,
+    "popularity": 72.5,
+    "momentum": 6.8,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 57.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 52,
+    "stars_gained": 41,
     "days_span": 5,
-    "stars_per_day": 10.4,
-    "lifetime_stars_per_day": 38.41,
+    "stars_per_day": 8.2,
+    "lifetime_stars_per_day": 38.15,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -128,8 +128,8 @@
     "highlights_zh": [
       "人与 Agent 开箱即用：安装一次、索引一次，即可在 macOS、Linux 和",
       "更少搜索，更少上下文：经过排序并保留来源的结果，可以减少工具调用、",
-      "Django — Web 框架： 任务关联 username 唯一约束、ORM 事务和 formset",
-      "Matplotlib — 绘图与渲染库： 任务需要沿数学文本渲染的多个阶段追踪"
+      "Matplotlib — 绘图与渲染库： 任务需要沿数学文本渲染的多个阶段追踪",
+      "Pylint — Python 静态分析器： 任务需要理解 AST 节点处理如何区分带标注与"
     ],
     "chinese_readme": "README_CN.md"
   },
@@ -138,11 +138,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:36+00:00",
+  "fetched_at": "2026-10-28T10:36:38+00:00",
   "categories": [
-    "memory-mcp"
+    "security-mcp"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "security-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

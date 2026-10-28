@@ -6,9 +6,9 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "https://devspace.run",
-  "stars": 5297,
-  "forks": 601,
-  "open_issues": 29,
+  "stars": 5300,
+  "forks": 602,
+  "open_issues": 27,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-10-27T09:40:06Z",
-  "pushed_at": "2026-10-27T06:47:09Z",
+  "updated_at": "2026-10-28T10:03:31Z",
+  "pushed_at": "2026-10-28T10:03:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 134,
+  "age_days": 135,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 74.5,
-    "momentum": 1.2,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 39.53,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 39.26,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,77 +144,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:34+00:00",
+  "fetched_at": "2026-10-28T10:36:35+00:00",
   "categories": [
     "desktop-ui-2",
-    "memory-mcp",
-    "mobile-remote-control"
+    "isolation"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "isolation",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "getpaseo/paseo",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "waishnav/devspace",
-      "challenger": "getpaseo/paseo",
-      "incumbent_name": "Waishnav/devspace",
-      "challenger_name": "getpaseo/paseo",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "remote-control",
-        "self-hosted",
-        "worktree-isolation"
-      ],
-      "star_ratio": 4.188,
-      "momentum_ratio": 73.571,
-      "setup_delta": -4,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "4.19x the stars (22,186 vs 5,297)",
-        "73.57x the star velocity (103.0/day vs 1.4/day)",
-        "no harder to set up (24 vs 28 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "remote-control",
-          "self-hosted",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 58,
-        "challenger_health": 83,
-        "incumbent_setup_score": 28,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

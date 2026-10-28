@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 124,
-  "days_since_push": 39,
+  "age_days": 125,
+  "days_since_push": 40,
   "health_score": 39,
   "health_components": {
     "popularity": 47.7,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.95,
+    "lifetime_stars_per_day": 1.94,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,13 +136,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:54:13+00:00",
+  "fetched_at": "2026-10-28T10:38:24+00:00",
   "categories": [
+    "billing",
     "model-routing",
-    "security-self-hosting",
     "sharing"
   ],
-  "primary_category": "security-self-hosting",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

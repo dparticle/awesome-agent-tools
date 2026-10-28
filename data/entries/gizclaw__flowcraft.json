@@ -30,11 +30,11 @@
   ],
   "created_at": "2026-04-14T07:49:44Z",
   "updated_at": "2026-10-27T02:10:04Z",
-  "pushed_at": "2026-10-27T09:35:06Z",
+  "pushed_at": "2026-10-28T10:23:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 196,
+  "age_days": 197,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
@@ -49,7 +49,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.11,
+    "lifetime_stars_per_day": 2.1,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -126,7 +126,8 @@
     "highlights": [
       "Delegation — core/delegation: backend-neutral",
       "MCP on both sides: each plugin process is an MCP server whose tools reach",
-      "Subject-routed event bus — every step emits structured envelopes."
+      "Subject-routed event bus — every step emits structured envelopes.",
+      "backends/* — Platform-specific implementations: SQLite checkpoints"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -137,7 +138,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:52+00:00",
+  "fetched_at": "2026-10-28T10:37:59+00:00",
   "categories": [
     "memory-mcp"
   ],

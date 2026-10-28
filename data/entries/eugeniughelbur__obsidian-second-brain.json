@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "full_name": "eugeniughelbur/obsidian-second-brain",
+  "name": "obsidian-second-brain",
+  "owner": "eugeniughelbur",
+  "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+  "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
+  "homepage": "https://theaioperator.io",
+  "stars": 5009,
+  "forks": 618,
+  "open_issues": 10,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-memory",
+    "agent-skills",
+    "ai-agents",
+    "ai-note-taking",
+    "ai-second-brain",
+    "claude",
+    "claude-code",
+    "claude-code-skill",
+    "claude-memory",
+    "claude-plugin",
+    "claude-skill",
+    "codex",
+    "karpathy-llm-wiki",
+    "knowledge-graph",
+    "knowledge-management",
+    "obsidian",
+    "obsidian-md",
+    "personal-knowledge-management",
+    "pkm",
+    "second-brain"
+  ],
+  "created_at": "2026-03-24T11:58:12Z",
+  "updated_at": "2026-10-28T10:12:55Z",
+  "pushed_at": "2026-10-27T21:31:02Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 217,
+  "days_since_push": 0,
+  "health_score": 66,
+  "health_components": {
+    "popularity": 74.0,
+    "momentum": 24.5,
+    "maintenance": 100.0,
+    "documentation": 65.0,
+    "accessibility": 76.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 147,
+    "days_span": 5,
+    "stars_per_day": 29.4,
+    "lifetime_stars_per_day": 23.08,
+    "basis": "history",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "eugeniughelbur/obsidian-second-brain",
+    "readme_chars": 83543,
+    "capabilities": [
+      "quota-management",
+      "auto-failover",
+      "remote-control",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "quota-distribution",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "ess, dated, or a pointer - so your knowledge base never fills with facts that used to be true.",
+      "auto-failover": "prefer hermes-4-405b (or Claude) for those.",
+      "remote-control": ", which caps nothing); lower it to 5-10 when a tail of term-frequency matches pushes an exact match out of the top results (#262).",
+      "mobile-access": ", which caps nothing); lower it to 5-10 when a tail of term-frequency matches pushes an exact match out of the top results (#262).",
+      "multi-agent-orchestration": "de, so this is honest, not a promise of parity): the core commands - /obsidian-save, /obsidian-daily, /obsidian-capture, /obsidian-find, /obsidian-task, and /research in free mode - hold up well.",
+      "model-routing": "f how you installed, and the plugin's MCP server already runs under uv run --no-project --with 'mcp \" --build.",
+      "api-gateway": "f how you installed, and the plugin's MCP server already runs under uv run --no-project --with 'mcp \" --build.",
+      "quota-distribution": "duled agents - Grok Bot has no hook runtime.",
+      "memory-context": "on, weekly review, vault-health check",
+      "skills-plugins": "'s GEMINI.md as passive context, but only detects active skills under .agents/skills/, so install this build (not gemini-cli) if you want Antigravity to surface the commands as skills.",
+      "agent-runtime": "Antigravity to surface the commands as skills.",
+      "mcp-support": "vault patterns, and what actually works.*",
+      "security-isolation": "",
+      "notifications": "an exact match out of the top results (#262).",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "auto-failover": 1,
+      "remote-control": 2,
+      "mobile-access": 2,
+      "multi-agent-orchestration": 2,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "quota-distribution": 1,
+      "memory-context": 3,
+      "skills-plugins": 6,
+      "agent-runtime": 2,
+      "mcp-support": 9,
+      "security-isolation": 1,
+      "notifications": 3,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "low",
+      "score": 24,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "no-code positioning"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, curl | sh installer; needs git clone (build from source); configure API key configuration, config file; no-code positioning",
+      "note_zh": "较易上手。可通过 npx one-liner、curl | sh installer 安装；需要 git clone (build from source)；需配置 API key configuration、config file；no-code positioning"
+    },
+    "doc_score": 65,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "Crew works without Obsidian.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/eugeniughelbur/obsidian-second-brain/main/scripts/quick-install.…",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.311
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-28T10:37:09+00:00",
+  "categories": [
+    "desktop-ui",
+    "mobile-remote-control",
+    "model-routing"
+  ],
+  "primary_category": "mobile-remote-control",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

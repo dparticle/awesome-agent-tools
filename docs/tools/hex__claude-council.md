@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 912 |
-| Star velocity | 2.8/day (history basis, 5d span) |
+| Stars | 911 |
+| Star velocity | 2.4/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 47/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2025-12-17 |
-| Last push | 2026-10-26 (0 days ago) |
+| Last push | 2026-10-26 (1 days ago) |
 | Analyzed README | 12,466 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -77,7 +77,7 @@ Score **47/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 59.2 |
-| momentum | 2.3 |
+| momentum | 2.0 |
 | maintenance | 100.0 |
 | documentation | 47.0 |
 | accessibility | 52.0 |

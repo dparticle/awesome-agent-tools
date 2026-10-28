@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "full_name": "solo-agent/solo",
+  "name": "solo",
+  "owner": "solo-agent",
+  "url": "https://github.com/solo-agent/solo",
+  "description": "Solo Agent — an open-source, local-first workspace where humans and AI coding agents collaborate through channels, tasks, teams, and persistent memory.",
+  "homepage": "https://soloagent.team",
+  "stars": 597,
+  "forks": 53,
+  "open_issues": 12,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "agent-orchestration",
+    "agent-workspace",
+    "ai-agents",
+    "ai-workspace",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "multi-agent",
+    "opencode",
+    "solo",
+    "solo-agent",
+    "soloagent"
+  ],
+  "created_at": "2026-06-12T01:13:02Z",
+  "updated_at": "2026-10-28T08:49:37Z",
+  "pushed_at": "2026-09-13T00:56:53Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "master",
+  "age_days": 138,
+  "days_since_push": 45,
+  "health_score": 45,
+  "health_components": {
+    "popularity": 55.5,
+    "momentum": 0.5,
+    "maintenance": 78.0,
+    "documentation": 48.0,
+    "accessibility": 49.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3,
+    "days_span": 5,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 4.33,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "solo-agent/solo",
+    "readme_chars": 6581,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "provider-aggregation",
+      "memory-context",
+      "agent-runtime",
+      "team-collaboration",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "agent with a supported backend.",
+      "provider-aggregation": "",
+      "memory-context": "",
+      "agent-runtime": "",
+      "team-collaboration": "I agents stop feeling like command-line tools and start working like human teammates.",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "provider-aggregation": 1,
+      "memory-context": 1,
+      "agent-runtime": 2,
+      "team-collaboration": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Some setup. needs git clone (build from source)",
+      "note_zh": "需要一些配置。需要 git clone (build from source)"
+    },
+    "doc_score": 48,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "mentions licensing",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "Coordinate multiple agents through channels, threaded conversations, task boards, and channel-scoped teams.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.304
+    },
+    "highlights": [
+      "Daemon (:8081) - registers the machine and manages agent subprocesses."
+    ],
+    "summary_zh_native": "通过频道、讨论串、任务看板和频道团队协调多个智能体。",
+    "highlights_zh": [
+      "Server（:8080）- Go API、WebSocket hub、认证和 PostgreSQL 持久化。",
+      "Daemon（:8081）- 注册当前机器并管理智能体子进程。",
+      "Agent CLI - 已安装的编码智能体通过 stdin/stdout 运行，Solo 提供提示词、记忆和协作工具。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-28T10:37:44+00:00",
+  "categories": [
+    "desktop-ui",
+    "memory-mcp",
+    "providers-2"
+  ],
+  "primary_category": "providers-2",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

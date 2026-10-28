@@ -17,12 +17,14 @@
 | Health score | 51/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-02-05 |
-| Last push | 2026-10-20 (6 days ago) |
+| Last push | 2026-10-20 (7 days ago) |
 | Analyzed README | 9,481 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [Gentleman-Programming/gentle-shell](https://github.com/Gentleman-Programming/gentle-shell)** — Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (6/6).
 
 ## What it solves
 

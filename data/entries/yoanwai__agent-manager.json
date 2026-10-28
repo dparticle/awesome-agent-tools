@@ -8,7 +8,7 @@
   "homepage": "https://agent-manager.dev",
   "stars": 625,
   "forks": 70,
-  "open_issues": 110,
+  "open_issues": 103,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "wsl"
   ],
   "created_at": "2026-07-15T16:27:33Z",
-  "updated_at": "2026-10-26T23:06:34Z",
-  "pushed_at": "2026-10-26T23:03:10Z",
+  "updated_at": "2026-10-27T22:24:16Z",
+  "pushed_at": "2026-10-27T22:24:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 103,
+  "age_days": 104,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 55,
   "health_components": {
     "popularity": 55.9,
-    "momentum": 2.2,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 52.0,
-    "accessibility": 100.0
+    "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.6,
-    "lifetime_stars_per_day": 6.07,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 6.01,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "YoanWai/agent-manager",
-    "readme_chars": 20134,
+    "readme_chars": 20437,
     "capabilities": [
       "worktree-isolation",
       "agent-runtime",
@@ -84,8 +84,8 @@
     },
     "friction": {
       "level": "turnkey",
-      "score": 4,
-      "out_of_the_box": true,
+      "score": 10,
+      "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "Homebrew install",
@@ -96,6 +96,7 @@
       ],
       "hard_signals": [],
       "config_signals": [
+        "environment variables",
         "sign-in required"
       ],
       "friendliness_signals": [],
@@ -105,8 +106,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Turnkey. install via Homebrew install, winget install; configure sign-in required",
-      "note_zh": "开箱即用。可通过 Homebrew install、winget install 安装；需配置 sign-in required"
+      "note_en": "Turnkey. install via Homebrew install, winget install; configure environment variables, sign-in required",
+      "note_zh": "开箱即用。可通过 Homebrew install、winget install 安装；需配置 environment variables、sign-in required"
     },
     "doc_score": 52,
     "doc_signals": [
@@ -135,7 +136,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.397
+      "external_link_ratio": 0.391
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -147,16 +148,71 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:38+00:00",
+  "fetched_at": "2026-10-28T10:37:43+00:00",
   "categories": [
     "isolation"
   ],
   "primary_category": "isolation",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "yoanwai/agent-manager",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "YoanWai/agent-manager",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "notifications",
+        "worktree-isolation"
+      ],
+      "star_ratio": 54.157,
+      "momentum_ratio": 12.6,
+      "setup_delta": -8,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "54.16x the stars (33,848 vs 625)",
+        "12.60x the star velocity (25.2/day vs 2.0/day)",
+        "no harder to set up (2 vs 10 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "notifications",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 55,
+        "challenger_health": 72,
+        "incumbent_setup_score": 10,
+        "challenger_setup_score": 2
+      }
+    }
   }
 }

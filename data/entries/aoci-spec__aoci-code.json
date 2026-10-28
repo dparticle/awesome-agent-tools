@@ -6,9 +6,9 @@
   "url": "https://github.com/aoci-spec/aoci-code",
   "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
   "homepage": "www.aoci.ai",
-  "stars": 1758,
-  "forks": 209,
-  "open_issues": 30,
+  "stars": 1770,
+  "forks": 212,
+  "open_issues": 26,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,27 +34,27 @@
     "repo-map"
   ],
   "created_at": "2026-08-08T11:33:08Z",
-  "updated_at": "2026-10-27T09:34:35Z",
-  "pushed_at": "2026-10-27T09:34:29Z",
+  "updated_at": "2026-10-28T09:27:56Z",
+  "pushed_at": "2026-10-27T17:55:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 79,
+  "age_days": 80,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 56,
   "health_components": {
-    "popularity": 64.9,
-    "momentum": 10.3,
+    "popularity": 65.0,
+    "momentum": 8.5,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 62,
+    "stars_gained": 51,
     "days_span": 5,
-    "stars_per_day": 12.4,
-    "lifetime_stars_per_day": 22.25,
+    "stars_per_day": 10.2,
+    "lifetime_stars_per_day": 22.12,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -167,7 +167,7 @@
       "一个受支持的 MCP 宿主，例如 Codex、Claude Code、Cursor 或 OpenCode；",
       "协议一致性 —— 53 项只读检查，覆盖 MCP 线协议表面，locale 相关语句另在",
       "AI Agent 必须沿 next_cursor 自动读取到最后一个 Chunk；",
-      "升级轴 —— 每个已发布版本 80 项检查，覆盖十种仓库形状：每个公开发布版本"
+      "故障注入场景 —— 75 个场景，在一次性夹具仓库上检验游标篡改、崩溃恢复、"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -176,11 +176,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:15+00:00",
+  "fetched_at": "2026-10-28T10:37:19+00:00",
   "categories": [
     "failover",
     "memory-mcp",
-    "model-routing"
+    "security-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
@@ -209,14 +209,14 @@
         "model-routing",
         "session-persistence"
       ],
-      "star_ratio": 165.09,
-      "momentum_ratio": 68.081,
+      "star_ratio": 164.564,
+      "momentum_ratio": 87.686,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "165.09x the stars (290,229 vs 1,758)",
-        "68.08x the star velocity (844.2/day vs 12.4/day)",
+        "164.56x the stars (291,279 vs 1,770)",
+        "87.69x the star velocity (894.4/day vs 10.2/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],
@@ -250,7 +250,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 57,
+        "incumbent_health": 56,
         "challenger_health": 89,
         "incumbent_setup_score": 64,
         "challenger_setup_score": 57

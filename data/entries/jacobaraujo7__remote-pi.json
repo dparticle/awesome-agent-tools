@@ -6,9 +6,9 @@
   "url": "https://github.com/jacobaraujo7/remote_pi",
   "description": "Control your Pi coding agent from your phone. Pair with a one-time QR code and chat with your local agent, even when you're away from your computer.",
   "homepage": "https://cockpit.jacobmoura.work",
-  "stars": 470,
+  "stars": 471,
   "forks": 139,
-  "open_issues": 81,
+  "open_issues": 83,
   "language": "Dart",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "rust"
   ],
   "created_at": "2026-05-22T04:59:59Z",
-  "updated_at": "2026-10-27T00:58:40Z",
-  "pushed_at": "2026-10-27T01:02:33Z",
+  "updated_at": "2026-10-28T08:40:32Z",
+  "pushed_at": "2026-10-28T07:02:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 158,
+  "age_days": 159,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
-    "popularity": 53.4,
+    "popularity": 53.5,
     "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 46.0,
@@ -41,7 +41,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.97,
+    "lifetime_stars_per_day": 2.96,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -119,18 +119,72 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:47+00:00",
+  "fetched_at": "2026-10-28T10:37:53+00:00",
   "categories": [
     "desktop-ui",
-    "mobile",
     "mobile-remote-control"
   ],
-  "primary_category": "mobile",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "getpaseo/paseo",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "jacobaraujo7/remote_pi",
+      "challenger": "getpaseo/paseo",
+      "incumbent_name": "jacobaraujo7/remote_pi",
+      "challenger_name": "getpaseo/paseo",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "mobile-access",
+        "multi-agent-orchestration",
+        "remote-control",
+        "self-hosted"
+      ],
+      "star_ratio": 47.261,
+      "momentum_ratio": 124.0,
+      "setup_delta": -12,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "47.26x the stars (22,260 vs 471)",
+        "124.00x the star velocity (99.2/day vs 0.8/day)",
+        "no harder to set up (24 vs 36 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "remote-control",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 50,
+        "challenger_health": 82,
+        "incumbent_setup_score": 36,
+        "challenger_setup_score": 24
+      }
+    }
   }
 }

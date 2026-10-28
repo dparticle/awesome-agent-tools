@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5381,
-  "forks": 536,
-  "open_issues": 44,
+  "stars": 5384,
+  "forks": 540,
+  "open_issues": 42,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-10-27T08:21:22Z",
-  "pushed_at": "2026-10-27T09:51:33Z",
+  "updated_at": "2026-10-28T10:04:39Z",
+  "pushed_at": "2026-10-28T10:32:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
+  "age_days": 117,
   "days_since_push": 0,
   "health_score": 63,
   "health_components": {
     "popularity": 74.6,
-    "momentum": 7.3,
+    "momentum": 6.8,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 59.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 44,
+    "stars_gained": 41,
     "days_span": 5,
-    "stars_per_day": 8.8,
-    "lifetime_stars_per_day": 46.39,
+    "stars_per_day": 8.2,
+    "lifetime_stars_per_day": 46.02,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 42853,
+    "readme_chars": 50096,
     "capabilities": [
       "remote-control",
       "model-routing",
@@ -73,11 +73,11 @@
     ],
     "capability_evidence": {
       "remote-control": "e host to stay on and online, with AIPOCH Open-Science and the Remote.It agent running, and the host added to a signed-in Remote.It account.",
-      "model-routing": "overview - Node.js quick start and package entry point",
+      "model-routing": "load-to-path operations, or a remote HTTP MCP endpoint.",
       "billing-metering": "### Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.",
       "skills-plugins": "s to the skill, not to the availability of every registered host.",
-      "mcp-support": "This patch makes CLI and desktop downloads meaningfully smaller, exposes the standalone CLI's research tools through a local MCP server, keeps long conversations readable by collapsing intermediate messages and tool gro…",
-      "security-isolation": "",
+      "mcp-support": "cts, output formats, and exit codes",
+      "security-isolation": "that profile's existing permissions; it is not a separate sandbox or read-only view, so connected clients can persist changes and incur model costs.",
       "gui-desktop": "hed npm package with Node.js 22.13.0 or later:",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
@@ -86,7 +86,7 @@
       "model-routing": 1,
       "billing-metering": 1,
       "skills-plugins": 1,
-      "mcp-support": 1,
+      "mcp-support": 3,
       "security-isolation": 2,
       "gui-desktop": 5,
       "cross-agent-support": 3
@@ -157,7 +157,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.49
+      "external_link_ratio": 0.419
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -169,10 +169,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:34+00:00",
+  "fetched_at": "2026-10-28T10:36:35+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile-remote-control"
+    "mobile-remote-control",
+    "security-mcp"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

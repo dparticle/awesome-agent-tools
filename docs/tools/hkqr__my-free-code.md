@@ -17,12 +17,14 @@
 | Health score | 49/100 |
 | Documentation | 35/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-08-27 |
-| Last push | 2026-10-20 (6 days ago) |
+| Last push | 2026-10-20 (7 days ago) |
 | Analyzed README | 6,950 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [nexu-io/open-design](https://github.com/nexu-io/open-design)** — Superseded by nexu-io/open-design: covers 100% of capabilities (4/4).
 
 ## What it solves
 

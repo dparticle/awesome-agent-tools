@@ -6,9 +6,9 @@
   "url": "https://github.com/MemTensor/memmy-agent",
   "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
   "homepage": "https://memmy.bot",
-  "stars": 2148,
+  "stars": 2153,
   "forks": 212,
-  "open_issues": 61,
+  "open_issues": 54,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "tui"
   ],
   "created_at": "2026-07-16T07:57:45Z",
-  "updated_at": "2026-10-27T09:13:30Z",
-  "pushed_at": "2026-10-27T09:22:36Z",
+  "updated_at": "2026-10-28T09:17:31Z",
+  "pushed_at": "2026-10-28T09:20:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 103,
+  "age_days": 104,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 66.6,
-    "momentum": 2.8,
+    "popularity": 66.7,
+    "momentum": 3.3,
     "maintenance": 100.0,
-    "documentation": 60.0,
+    "documentation": 61.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 3.4,
-    "lifetime_stars_per_day": 20.85,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 20.7,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "MemTensor/memmy-agent",
-    "readme_chars": 9833,
+    "readme_chars": 10088,
     "capabilities": [
       "model-routing",
       "memory-context",
@@ -118,7 +118,7 @@
       "note_en": "Some setup. install via curl | sh installer, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, .env file; GUI application",
       "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、.env file；GUI application"
     },
-    "doc_score": 60,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -145,7 +145,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.61
+      "external_link_ratio": 0.595
     },
     "highlights": [],
     "summary_zh_native": "deepseek harness, openclaw, hermes, claude code, codex, cursor, workbuddy, openCode, pi...都能用!",
@@ -162,13 +162,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:12+00:00",
+  "fetched_at": "2026-10-28T10:37:15+00:00",
   "categories": [
-    "memory-mcp",
-    "model-routing",
-    "teams"
+    "desktop-ui-2",
+    "memory-mcp"
   ],
-  "primary_category": "teams",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
@@ -193,14 +192,14 @@
         "model-routing",
         "team-collaboration"
       ],
-      "star_ratio": 5.198,
-      "momentum_ratio": 30.176,
+      "star_ratio": 5.219,
+      "momentum_ratio": 22.45,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "5.20x the stars (11,165 vs 2,148)",
-        "30.18x the star velocity (102.6/day vs 3.4/day)",
+        "5.22x the stars (11,237 vs 2,153)",
+        "22.45x the star velocity (89.8/day vs 4.0/day)",
         "no harder to set up (32 vs 42 friction)"
       ],
       "reasons_zh": [],
@@ -232,7 +231,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 84,
+        "challenger_health": 81,
         "incumbent_setup_score": 42,
         "challenger_setup_score": 32
       }

@@ -6,7 +6,7 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 912,
+  "stars": 911,
   "forks": 107,
   "open_issues": 1,
   "language": "Shell",
@@ -31,27 +31,27 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-27T06:39:16Z",
+  "updated_at": "2026-10-28T06:14:14Z",
   "pushed_at": "2026-10-26T16:33:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 313,
-  "days_since_push": 0,
+  "age_days": 314,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 59.2,
-    "momentum": 2.3,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 2.91,
+    "stars_per_day": 2.4,
+    "lifetime_stars_per_day": 2.9,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,27 +146,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:28+00:00",
+  "fetched_at": "2026-10-28T10:37:33+00:00",
   "categories": [
     "desktop-ui",
     "memory-mcp",
-    "model-routing"
+    "security-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "hex/claude-council",
-      "challenger": "affaan-m/ecc",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "hex/claude-council",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -177,15 +177,15 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 318.234,
-      "momentum_ratio": 301.5,
-      "setup_delta": 9,
-      "dominance": 0.955,
+      "star_ratio": 32.895,
+      "momentum_ratio": 12.583,
+      "setup_delta": -16,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "318.23x the stars (290,229 vs 912)",
-        "301.50x the star velocity (844.2/day vs 2.8/day)",
-        "slightly heavier setup (+9 friction, within tolerance)"
+        "32.89x the stars (29,967 vs 911)",
+        "12.58x the star velocity (30.2/day vs 2.4/day)",
+        "no harder to set up (32 vs 48 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -202,6 +202,7 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -209,17 +210,17 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "parallel-execution",
+          "quota-management",
           "security-isolation",
           "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "worktree-isolation"
+          "team-collaboration"
         ],
         "incumbent_health": 51,
-        "challenger_health": 89,
+        "challenger_health": 71,
         "incumbent_setup_score": 48,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 32
       }
     }
   }

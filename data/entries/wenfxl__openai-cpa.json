@@ -6,20 +6,20 @@
   "url": "https://github.com/wenfxl/openai-cpa",
   "description": "Enterprise Distributed Automation Platform for massive concurrent workload execution. Unifies elastic cluster orchestration, multi-channel identity verification messaging, real-time ops telemetry, and multi-warehouse lifecycle control (CPA / Sub2API / Image2API) in one high-throughput control plane.",
   "homepage": "",
-  "stars": 1403,
+  "stars": 1404,
   "forks": 437,
   "open_issues": 12,
   "language": "",
   "license": "NOASSERTION",
   "topics": [],
   "created_at": "2026-03-23T05:59:01Z",
-  "updated_at": "2026-10-26T19:37:33Z",
+  "updated_at": "2026-10-27T18:08:00Z",
   "pushed_at": "2026-08-21T18:25:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 218,
-  "days_since_push": 66,
+  "age_days": 219,
+  "days_since_push": 67,
   "health_score": 49,
   "health_components": {
     "popularity": 62.9,
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 6,
+    "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.44,
+    "lifetime_stars_per_day": 6.41,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:19+00:00",
+  "fetched_at": "2026-10-28T10:37:24+00:00",
   "categories": [
     "desktop-ui",
     "mobile-remote-control"
@@ -158,14 +158,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 4.079,
-      "momentum_ratio": 1296.0,
+      "star_ratio": 4.141,
+      "momentum_ratio": 1388.0,
       "setup_delta": -29,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "4.08x the stars (5,723 vs 1,403)",
-        "1296.00x the star velocity (64.8/day vs 0.0/day)",
+        "4.14x the stars (5,814 vs 1,404)",
+        "1388.00x the star velocity (69.4/day vs 0.0/day)",
         "no harder to set up (28 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -192,7 +192,7 @@
           "voice-input"
         ],
         "incumbent_health": 49,
-        "challenger_health": 74,
+        "challenger_health": 75,
         "incumbent_setup_score": 57,
         "challenger_setup_score": 28
       }

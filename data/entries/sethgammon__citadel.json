@@ -1,0 +1,206 @@
+{
+  "schema": 1,
+  "full_name": "SethGammon/Citadel",
+  "name": "Citadel",
+  "owner": "SethGammon",
+  "url": "https://github.com/SethGammon/Citadel",
+  "description": "The operating layer for Claude Code + OpenAI Codex: persistent project memory, intent routing, safety hooks, cost telemetry, and parallel agent fleets.",
+  "homepage": "https://sethgammon.github.io/Citadel/",
+  "stars": 927,
+  "forks": 83,
+  "open_issues": 0,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-orchestration",
+    "agent-workflow",
+    "ai-agents",
+    "claude-code-plugin",
+    "claude-plugins",
+    "codex-plugin",
+    "developer-tools",
+    "mcp"
+  ],
+  "created_at": "2026-03-20T05:42:54Z",
+  "updated_at": "2026-10-27T22:06:51Z",
+  "pushed_at": "2026-10-25T21:37:22Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 222,
+  "days_since_push": 2,
+  "health_score": 55,
+  "health_components": {
+    "popularity": 59.3,
+    "momentum": 0.0,
+    "maintenance": 100.0,
+    "documentation": 56.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 4.18,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "SethGammon/Citadel",
+    "readme_chars": 14664,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "parallel-execution": "",
+      "worktree-isolation": "",
+      "skills-plugins": "",
+      "agent-runtime": "de Code and OpenAI Codex.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "parallel-execution": 1,
+      "worktree-isolation": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 3,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via native installer / package; needs git clone (build from source)",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 56,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "An open-source operating layer for Claude Code and OpenAI Codex.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.75
+    },
+    "highlights": [
+      "Citadel runs with the permissions of Claude Code or Codex."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-28T10:37:33+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation"
+  ],
+  "primary_category": "isolation",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "sethgammon/citadel",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "SethGammon/Citadel",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "multi-agent-orchestration",
+        "parallel-execution",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 36.513,
+      "momentum_ratio": 504.0,
+      "setup_delta": -23,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "36.51x the stars (33,848 vs 927)",
+        "504.00x the star velocity (25.2/day vs 0.0/day)",
+        "no harder to set up (2 vs 25 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 55,
+        "challenger_health": 72,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

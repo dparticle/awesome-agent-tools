@@ -6,9 +6,9 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 3085,
-  "forks": 243,
-  "open_issues": 3,
+  "stars": 3129,
+  "forks": 247,
+  "open_issues": 4,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-10-27T09:23:50Z",
-  "pushed_at": "2026-10-26T14:01:00Z",
+  "updated_at": "2026-10-28T10:03:45Z",
+  "pushed_at": "2026-10-28T05:13:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 53,
+  "age_days": 54,
   "days_since_push": 0,
   "health_score": 74,
   "health_components": {
-    "popularity": 69.8,
-    "momentum": 48.5,
+    "popularity": 69.9,
+    "momentum": 48.3,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3085,
-    "days_span": 53,
-    "stars_per_day": 58.21,
-    "lifetime_stars_per_day": 58.21,
+    "stars_gained": 3129,
+    "days_span": 54,
+    "stars_per_day": 57.94,
+    "lifetime_stars_per_day": 57.94,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kajisho5/ffmpeg-skill",
-    "readme_chars": 92484,
+    "readme_chars": 92865,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -75,7 +75,7 @@
       "auto-failover": "It falls back to the CPU encoder — reported in the result's hw.fallback/hw.notes — only when VideoToolbox itself refuses a job (any other ffmpeg failure is reported as it happened, not retried); every result names th",
       "multi-agent-orchestration": "contract and the test suite (tests/testcontract.py,",
       "api-gateway": "GB source is converted to BT.709, not relabelled); --normalize meets the platform's loudness in the same call (render.py turns it on by default for platform presets)",
-      "skills-plugins": "dry-run support, the verification tools to run afterwards, whether a visual check is required, mutatesinput: false.",
+      "skills-plugins": "uploaded; parakeet-mlx, faster-whisper and openai-whisper download their model weights the first time they run (parakeet-mlx's default from Hugging Face).",
       "agent-runtime": "Give your coding agent a video editor.",
       "mcp-support": "Give your coding agent a video editor.",
       "security-isolation": "re recorded in diagnostics and on stderr (codes: jsonoutput.diagnosticcodes); tools that draw text name the font they drew with (fontused).",
@@ -85,7 +85,7 @@
       "auto-failover": 1,
       "multi-agent-orchestration": 2,
       "api-gateway": 1,
-      "skills-plugins": 2,
+      "skills-plugins": 4,
       "agent-runtime": 1,
       "mcp-support": 21,
       "security-isolation": 1,
@@ -143,7 +143,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.216
+      "external_link_ratio": 0.215
     },
     "highlights": [
       "Loudness targets. −14 LUFS / −1 dBTP for YouTube and social platforms (the loudness.py default), -I -16 --tp -1.5 for podcasts, -I -23 for broadcast. A clip measured at −40 LUFS or below is…",
@@ -160,83 +160,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:39+00:00",
+  "fetched_at": "2026-10-28T10:36:41+00:00",
   "categories": [
     "desktop-ui",
-    "failover",
-    "memory-mcp"
+    "desktop-ui-2",
+    "security-mcp"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "security-mcp",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "kajisho5/ffmpeg-skill",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "kajisho5/ffmpeg-skill",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "security-isolation",
-        "skills-plugins"
-      ],
-      "star_ratio": 94.077,
-      "momentum_ratio": 14.503,
-      "setup_delta": 7,
-      "dominance": 0.965,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "94.08x the stars (290,229 vs 3,085)",
-        "14.50x the star velocity (844.2/day vs 58.2/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 74,
-        "challenger_health": 89,
-        "incumbent_setup_score": 50,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

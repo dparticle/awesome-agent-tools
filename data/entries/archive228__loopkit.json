@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 119,
-  "days_since_push": 104,
+  "age_days": 120,
+  "days_since_push": 105,
   "health_score": 45,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.34,
+    "lifetime_stars_per_day": 6.29,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -116,8 +116,8 @@
     "highlights": [
       "A wrapper CLI. No daemon, no server, no runtime state. run.sh is 8 lines.",
       "planner-spec-expand — 1–4 sentence brief → full ambitious spec with design language and ordered feature list → starting a fresh project or major feature",
-      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds",
-      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds"
+      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds",
+      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:35+00:00",
+  "fetched_at": "2026-10-28T10:37:39+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -156,14 +156,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.189,
-      "momentum_ratio": 80.0,
+      "star_ratio": 1.199,
+      "momentum_ratio": 92.0,
       "setup_delta": 2,
-      "dominance": 0.779,
+      "dominance": 0.781,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.19x the stars (898 vs 755)",
-        "80.00x the star velocity (4.0/day vs 0.0/day)",
+        "1.20x the stars (905 vs 755)",
+        "92.00x the star velocity (4.6/day vs 0.0/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],

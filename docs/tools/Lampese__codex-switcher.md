@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 908 |
 | Star velocity | 1.0/day (history basis, 5d span) |
-| Health score | 49/100 |
+| Health score | 51/100 |
 | Documentation | 33/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
-| License | not declared |
+| License | MIT |
 | Language | Rust |
 | Created | 2026-01-14 |
-| Last push | 2026-10-15 (11 days ago) |
+| Last push | 2026-10-28 (0 days ago) |
 | Analyzed README | 9,104 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -67,7 +67,7 @@ Score **33/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 59.2 |
 | momentum | 0.8 |
-| maintenance | 92.0 |
+| maintenance | 100.0 |
 | documentation | 33.0 |
 | accessibility | 72.0 |
 

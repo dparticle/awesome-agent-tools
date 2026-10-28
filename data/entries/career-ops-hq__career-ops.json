@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
   "homepage": "https://career-ops.org",
-  "stars": 77740,
-  "forks": 14374,
-  "open_issues": 376,
+  "stars": 78068,
+  "forks": 14433,
+  "open_issues": 474,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "resume"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-10-27T09:49:20Z",
-  "pushed_at": "2026-10-27T09:48:52Z",
+  "updated_at": "2026-10-28T10:31:23Z",
+  "pushed_at": "2026-10-28T06:05:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 205,
+  "age_days": 206,
   "days_since_push": 0,
-  "health_score": 89,
+  "health_score": 91,
   "health_components": {
     "popularity": 97.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 74.0,
-    "accessibility": 51.0
+    "accessibility": 66.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1260,
+    "stars_gained": 1376,
     "days_span": 5,
-    "stars_per_day": 252.0,
-    "lifetime_stars_per_day": 379.22,
+    "stars_per_day": 275.2,
+    "lifetime_stars_per_day": 378.97,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 46342,
+    "readme_chars": 48577,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -72,21 +72,21 @@
       "model-routing": "s the same in longer words.",
       "api-gateway": "s the same in longer words.",
       "skills-plugins": "does not duplicate the full project instructions when it reads both AGENTS.md and GEMINI.md.",
-      "gui-desktop": "terminal dashboard lets you browse your pipeline visually:",
+      "gui-desktop": "st use; creates a dedicated project folder.",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
     },
     "capability_hits": {
       "model-routing": 1,
       "api-gateway": 1,
       "skills-plugins": 1,
-      "gui-desktop": 1,
+      "gui-desktop": 3,
       "cross-agent-support": 5
     },
     "friction": {
       "level": "moderate",
-      "score": 49,
+      "score": 42,
       "out_of_the_box": false,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [
         "npx one-liner",
         "native installer / package"
@@ -101,14 +101,16 @@
         "OAuth login flow",
         "sign-in required"
       ],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
       "platforms": [
         "Windows",
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, config file",
-      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、config file"
+      "note_en": "Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, config file; GUI application",
+      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、config file；GUI application"
     },
     "doc_score": 74,
     "doc_signals": [
@@ -142,7 +144,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.496
+      "external_link_ratio": 0.473
     },
     "highlights": [
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
@@ -158,9 +160,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:52+00:00",
+  "fetched_at": "2026-10-28T10:36:54+00:00",
   "categories": [
-    "failover",
     "model-routing"
   ],
   "primary_category": "model-routing",

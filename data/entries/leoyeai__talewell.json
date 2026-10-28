@@ -26,22 +26,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 213,
-  "days_since_push": 25,
+  "age_days": 214,
+  "days_since_push": 26,
   "health_score": 50,
   "health_components": {
     "popularity": 54.8,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 36.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.58,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 2.57,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:40+00:00",
+  "fetched_at": "2026-10-28T10:37:46+00:00",
   "categories": [
     "desktop-ui",
     "memory-mcp"
@@ -139,18 +139,18 @@
   "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "genspark-ai/genoffice",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "leoyeai/talewell",
-      "challenger": "genspark-ai/genoffice",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "LeoYeAI/talewell",
-      "challenger_name": "genspark-ai/genoffice",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -159,15 +159,15 @@
         "memory-context",
         "skills-plugins"
       ],
-      "star_ratio": 20.053,
-      "momentum_ratio": 602.0,
-      "setup_delta": -3,
-      "dominance": 1.0,
+      "star_ratio": 20.431,
+      "momentum_ratio": 1796.0,
+      "setup_delta": 9,
+      "dominance": 0.955,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "20.05x the stars (11,029 vs 550)",
-        "602.00x the star velocity (120.4/day vs 0.2/day)",
-        "no harder to set up (20 vs 23 friction)"
+        "20.43x the stars (11,237 vs 550)",
+        "1796.00x the star velocity (89.8/day vs 0.0/day)",
+        "slightly heavier setup (+9 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -186,16 +186,19 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
+          "multi-agent-orchestration",
           "parallel-execution",
           "self-hosted",
           "skills-plugins",
-          "usage-analytics"
+          "team-collaboration",
+          "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 86,
+        "challenger_health": 81,
         "incumbent_setup_score": 23,
-        "challenger_setup_score": 20
+        "challenger_setup_score": 32
       }
     }
   }

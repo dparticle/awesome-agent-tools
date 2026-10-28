@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,381 |
-| Star velocity | 8.8/day (history basis, 5d span) |
+| Stars | 5,384 |
+| Star velocity | 8.2/day (history basis, 5d span) |
 | Health score | 63/100 |
 | Documentation | 84/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-10-27 (0 days ago) |
-| Analyzed README | 42,853 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-28 (0 days ago) |
+| Analyzed README | 50,096 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Model / provider routing
 
-> overview - Node.js quick start and package entry point
+> load-to-path operations, or a remote HTTP MCP endpoint.
 
 ### Billing & metering
 
@@ -44,9 +44,11 @@
 
 ### MCP support
 
-> This patch makes CLI and desktop downloads meaningfully smaller, exposes the standalone CLI's research tools through a local MCP server, keeps long conversations readable by collapsing intermediate messages and tool gro…
+> cts, output formats, and exit codes
 
 ### Security & isolation
+
+> that profile's existing permissions; it is not a separate sandbox or read-only view, so connected clients can persist changes and incur model costs.
 
 ### GUI / desktop app
 
@@ -96,7 +98,7 @@ Score **84/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.6 |
-| momentum | 7.3 |
+| momentum | 6.8 |
 | maintenance | 100.0 |
 | documentation | 84.0 |
 | accessibility | 59.0 |

@@ -6,7 +6,7 @@
   "url": "https://github.com/Deuz-AI/Deuz-SDK",
   "description": "TypeScript AI SDK and agent framework with zero dependencies. Build production AI agents and multi-agent swarms: durable execution, long-term memory, hybrid RAG, MCP client/server, A2A, human-in-the-loop approvals, CodeAct sandboxes, realtime voice. One streaming API, 29 providers: Claude, GPT, Gemini, Grok, DeepSeek, Ollama. Node, Bun, Deno, edge.",
   "homepage": "https://deuz-sdk.tech",
-  "stars": 519,
+  "stars": 512,
   "forks": 5,
   "open_issues": 12,
   "language": "TypeScript",
@@ -34,28 +34,28 @@
     "voice-agent"
   ],
   "created_at": "2026-06-01T19:18:59Z",
-  "updated_at": "2026-10-21T11:28:33Z",
+  "updated_at": "2026-10-28T06:05:37Z",
   "pushed_at": "2026-10-16T21:43:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 147,
-  "days_since_push": 10,
-  "health_score": 47,
+  "age_days": 148,
+  "days_since_push": 11,
+  "health_score": 48,
   "health_components": {
-    "popularity": 54.3,
-    "momentum": 0.0,
+    "popularity": 54.2,
+    "momentum": 2.9,
     "maintenance": 92.0,
     "documentation": 39.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.53,
-    "basis": "history",
+    "stars_gained": 512,
+    "days_span": 148,
+    "stars_per_day": 3.46,
+    "lifetime_stars_per_day": 3.46,
+    "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
@@ -123,7 +123,8 @@
       "external_link_ratio": 0.889
     },
     "highlights": [
-      "Runs code in a box — a local Docker sandbox for agent-written code (preview)."
+      "Runs code in a box — a local Docker sandbox for agent-written code (preview).",
+      "Evolve — evolutionary program search with a mandatory budget and zero-call resume."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -134,25 +135,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:42+00:00",
+  "fetched_at": "2026-10-28T10:37:49+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "security-mcp"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "security-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 abubakarsiddik31/claude-skills-collection 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "abubakarsiddik31/claude-skills-collection",
+    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
     "challenger": "",
     "supersede": {
       "incumbent": "deuz-ai/deuz-sdk",
-      "challenger": "abubakarsiddik31/claude-skills-collection",
+      "challenger": "hoangsonww/claude-code-agent-monitor",
       "incumbent_name": "Deuz-AI/Deuz-SDK",
-      "challenger_name": "abubakarsiddik31/claude-skills-collection",
+      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +162,15 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 2.133,
-      "momentum_ratio": 8.0,
-      "setup_delta": 9,
-      "dominance": 0.877,
+      "star_ratio": 2.197,
+      "momentum_ratio": 1.04,
+      "setup_delta": -7,
+      "dominance": 0.734,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.13x the stars (1,107 vs 519)",
-        "8.00x the star velocity (0.4/day vs 0.0/day)",
-        "slightly heavier setup (+9 friction, within tolerance)"
+        "2.20x the stars (1,125 vs 512)",
+        "1.04x the star velocity (3.6/day vs 3.5/day)",
+        "no harder to set up (30 vs 37 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,21 +182,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "mobile-access",
           "multi-agent-orchestration",
           "notifications",
-          "skills-plugins",
-          "worktree-isolation"
+          "session-persistence",
+          "skills-plugins"
         ],
-        "incumbent_health": 47,
-        "challenger_health": 50,
+        "incumbent_health": 48,
+        "challenger_health": 55,
         "incumbent_setup_score": 37,
-        "challenger_setup_score": 46
+        "challenger_setup_score": 30
       }
     }
   }

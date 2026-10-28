@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,085 |
-| Star velocity | 58.2/day (lifetime basis, 53d span) |
+| Stars | 3,129 |
+| Star velocity | 57.9/day (lifetime basis, 54d span) |
 | Health score | 74/100 |
 | Documentation | 68/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-03 |
-| Last push | 2026-10-26 (0 days ago) |
-| Analyzed README | 92,484 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).
+| Last push | 2026-10-28 (0 days ago) |
+| Analyzed README | 92,865 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,7 +40,7 @@
 
 ### Skills & plugins
 
-> dry-run support, the verification tools to run afterwards, whether a visual check is required, mutatesinput: false.
+> uploaded; parakeet-mlx, faster-whisper and openai-whisper download their model weights the first time they run (parakeet-mlx's default from Hugging Face).
 
 ### Agent runtime
 
@@ -92,8 +90,8 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 69.8 |
-| momentum | 48.5 |
+| popularity | 69.9 |
+| momentum | 48.3 |
 | maintenance | 100.0 |
 | documentation | 68.0 |
 | accessibility | 100.0 |

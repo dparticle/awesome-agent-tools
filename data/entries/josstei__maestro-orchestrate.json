@@ -6,7 +6,7 @@
   "url": "https://github.com/josstei/maestro-orchestrate",
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
-  "stars": 484,
+  "stars": 485,
   "forks": 38,
   "open_issues": 6,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-25T02:54:49Z",
+  "updated_at": "2026-10-27T10:16:48Z",
   "pushed_at": "2026-10-26T15:11:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 260,
-  "days_since_push": 0,
+  "age_days": 261,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
-    "momentum": 0.3,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
-    "days_span": 11,
-    "stars_per_day": 0.36,
+    "stars_gained": 0,
+    "days_span": 9,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.86,
     "basis": "history",
     "is_fast_riser": false
@@ -135,26 +135,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:46+00:00",
+  "fetched_at": "2026-10-28T10:37:52+00:00",
   "categories": [
     "desktop-ui-2",
-    "memory-mcp"
+    "security-mcp"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "security-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
     "challenger": "",
     "supersede": {
       "incumbent": "josstei/maestro-orchestrate",
-      "challenger": "affaan-m/ecc",
+      "challenger": "hoangsonww/claude-code-agent-monitor",
       "incumbent_name": "josstei/maestro-orchestrate",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -162,15 +162,15 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 599.647,
-      "momentum_ratio": 2345.0,
-      "setup_delta": 6,
-      "dominance": 0.97,
+      "star_ratio": 2.32,
+      "momentum_ratio": 72.0,
+      "setup_delta": -21,
+      "dominance": 0.941,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "599.65x the stars (290,229 vs 484)",
-        "2345.00x the star velocity (844.2/day vs 0.4/day)",
-        "slightly heavier setup (+6 friction, within tolerance)"
+        "2.32x the stars (1,125 vs 485)",
+        "72.00x the star velocity (3.6/day vs 0.0/day)",
+        "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -182,26 +182,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
           "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
+          "skills-plugins"
         ],
         "incumbent_health": 51,
-        "challenger_health": 89,
+        "challenger_health": 55,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 30
       }
     }
   }

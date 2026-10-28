@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "full_name": "rohitg00/agentmemory",
+  "name": "agentmemory",
+  "owner": "rohitg00",
+  "url": "https://github.com/rohitg00/agentmemory",
+  "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+  "homepage": "https://agent-memory.dev",
+  "stars": 29967,
+  "forks": 2646,
+  "open_issues": 520,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "agentmemory",
+    "agents",
+    "ai",
+    "claude",
+    "claudecode",
+    "codex",
+    "copilot",
+    "cursor",
+    "genai",
+    "harness",
+    "hermes",
+    "memory",
+    "omp",
+    "openclaw",
+    "opencode",
+    "pi"
+  ],
+  "created_at": "2026-02-25T07:32:52Z",
+  "updated_at": "2026-10-28T09:34:23Z",
+  "pushed_at": "2026-10-28T08:23:17Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 245,
+  "days_since_push": 0,
+  "health_score": 71,
+  "health_components": {
+    "popularity": 89.5,
+    "momentum": 25.2,
+    "maintenance": 100.0,
+    "documentation": 73.0,
+    "accessibility": 68.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 151,
+    "days_span": 5,
+    "stars_per_day": 30.2,
+    "lifetime_stars_per_day": 122.31,
+    "basis": "history",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "rohitg00/agentmemory",
+    "readme_chars": 93876,
+    "capabilities": [
+      "quota-management",
+      "auto-failover",
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "billing-metering",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "",
+      "auto-failover": "y, paste the block inside { \"mcpServers\": { ...",
+      "multi-agent-orchestration": "ep / vector / agentmemory adapters score side-by-side, NDJSON output, published scorecards land in docs/benchmarks/.",
+      "model-routing": "inference is on-device afterward.",
+      "api-gateway": "UTOCOMPRESS=true; it can make a request for each captured observation, so check your provider's current pricing before enabling it.",
+      "billing-metering": "",
+      "session-persistence": "hese work like sticky notes.",
+      "memory-context": "Persistent memory across coding sessions and agents.",
+      "skills-plugins": "agentmemory ships 17 skills in the Claude-Code-style /SKILL.md format: 9 invocable action skills (remember, recall, recap, handoff, forget, lesson, commit-context, commit-history, session-history) and 8 reference skills…",
+      "agent-runtime": "hit in default keyless mode through BM25.",
+      "mcp-support": "memory across coding sessions and agents.",
+      "security-isolation": "memoryclaudebridgesync Read MEMORY.md or create a project export, preserving existing files",
+      "self-hosted": "agnostics:* Run agentmemory doctor or restart with --verbose.",
+      "team-collaboration": "bridge* Read MEMORY.md and export project memories without replacing existing files",
+      "gui-desktop": "iii-engine v0.25.0 binary installed manually; download the matching archive from the iii v0.25.0 release page, verify its checksum, and place iii.exe on PATH (for example %USERPROFILE%\\.local\\bin\\iii.exe).",
+      "notifications": "hook engine injects CLAUDEPLUGINROOT into hook subprocesses (per codex-rs/hooks/src/engine/discovery.rs), so the same hook scripts work across both hosts without duplication.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Cline, Codex"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "auto-failover": 1,
+      "multi-agent-orchestration": 5,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "session-persistence": 1,
+      "memory-context": 4,
+      "skills-plugins": 3,
+      "agent-runtime": 2,
+      "mcp-support": 67,
+      "security-isolation": 1,
+      "self-hosted": 4,
+      "team-collaboration": 1,
+      "gui-desktop": 2,
+      "notifications": 1,
+      "cross-agent-support": 14
+    },
+    "friction": {
+      "level": "low",
+      "score": 32,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "config file",
+        "config.json/yaml/toml",
+        "sign-in required",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "no code needed",
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, global npm install; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; no code needed",
+      "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、API key configuration；no code needed"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider",
+      "Cline / Roo",
+      "Qwen Code",
+      "Goose",
+      "Droid"
+    ],
+    "summary_en": "Persistent memory across coding sessions and agents.",
+    "summary_zh": "",
+    "install_hint": "npx -y @agentmemory/agentmemory@latest",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.075
+    },
+    "highlights": [
+      "Auth uses JWT middleware in src/middleware/auth.ts"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-28T10:37:02+00:00",
+  "categories": [
+    "desktop-ui",
+    "memory-mcp",
+    "security-mcp"
+  ],
+  "primary_category": "memory-mcp",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

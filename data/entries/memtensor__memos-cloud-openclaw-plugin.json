@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 368,
   "forks": 55,
-  "open_issues": 17,
+  "open_issues": 15,
   "language": "JavaScript",
   "license": "Apache-2.0",
   "topics": [
@@ -20,11 +20,11 @@
   ],
   "created_at": "2026-02-02T12:24:44Z",
   "updated_at": "2026-10-26T20:46:32Z",
-  "pushed_at": "2026-10-27T03:02:22Z",
+  "pushed_at": "2026-10-28T09:09:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
+  "age_days": 267,
   "days_since_push": 0,
   "health_score": 48,
   "health_components": {
@@ -120,17 +120,74 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:57+00:00",
+  "fetched_at": "2026-10-28T10:38:05+00:00",
   "categories": [
-    "failover",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "memtensor/memos-cloud-openclaw-plugin",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "MemTensor/MemOS-Cloud-OpenClaw-Plugin",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration"
+      ],
+      "star_ratio": 81.432,
+      "momentum_ratio": 604.0,
+      "setup_delta": -2,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "81.43x the stars (29,967 vs 368)",
+        "604.00x the star velocity (30.2/day vs 0.0/day)",
+        "no harder to set up (32 vs 34 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 71,
+        "incumbent_setup_score": 34,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

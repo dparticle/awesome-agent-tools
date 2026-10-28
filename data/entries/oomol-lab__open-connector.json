@@ -6,7 +6,7 @@
   "url": "https://github.com/oomol-lab/open-connector",
   "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 6101,
+  "stars": 6111,
   "forks": 575,
   "open_issues": 3,
   "language": "TypeScript",
@@ -32,27 +32,27 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-10-27T09:27:44Z",
-  "pushed_at": "2026-10-27T09:27:34Z",
+  "updated_at": "2026-10-28T10:11:59Z",
+  "pushed_at": "2026-10-28T10:04:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 119,
+  "age_days": 120,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 75.7,
-    "momentum": 6.2,
+    "momentum": 5.8,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 37,
+    "stars_gained": 35,
     "days_span": 5,
-    "stars_per_day": 7.4,
-    "lifetime_stars_per_day": 51.27,
+    "stars_per_day": 7.0,
+    "lifetime_stars_per_day": 50.92,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -138,7 +138,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:32+00:00",
+  "fetched_at": "2026-10-28T10:36:33+00:00",
   "categories": [
     "memory-mcp"
   ],
@@ -164,14 +164,14 @@
         "model-routing",
         "self-hosted"
       ],
-      "star_ratio": 47.571,
-      "momentum_ratio": 114.081,
+      "star_ratio": 47.665,
+      "momentum_ratio": 127.771,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "47.57x the stars (290,229 vs 6,101)",
-        "114.08x the star velocity (844.2/day vs 7.4/day)",
+        "47.66x the stars (291,279 vs 6,111)",
+        "127.77x the star velocity (894.4/day vs 7.0/day)",
         "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],

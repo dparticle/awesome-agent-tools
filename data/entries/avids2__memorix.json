@@ -6,9 +6,9 @@
   "url": "https://github.com/AVIDS2/memorix",
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
-  "stars": 872,
-  "forks": 72,
-  "open_issues": 5,
+  "stars": 875,
+  "forks": 74,
+  "open_issues": 8,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,13 +34,13 @@
     "windsurf"
   ],
   "created_at": "2026-02-14T06:53:17Z",
-  "updated_at": "2026-10-27T09:22:57Z",
+  "updated_at": "2026-10-28T06:10:48Z",
   "pushed_at": "2026-10-25T14:26:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 255,
-  "days_since_push": 1,
+  "age_days": 256,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 58.8,
@@ -182,7 +182,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:31+00:00",
+  "fetched_at": "2026-10-28T10:37:36+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -216,14 +216,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 332.831,
-      "momentum_ratio": 234.5,
+      "star_ratio": 332.89,
+      "momentum_ratio": 248.444,
       "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "332.83x the stars (290,229 vs 872)",
-        "234.50x the star velocity (844.2/day vs 3.6/day)",
+        "332.89x the stars (291,279 vs 875)",
+        "248.44x the star velocity (894.4/day vs 3.6/day)",
         "no harder to set up (57 vs 73 friction)"
       ],
       "reasons_zh": [],

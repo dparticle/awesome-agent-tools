@@ -38,8 +38,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 801,
-  "days_since_push": 13,
+  "age_days": 802,
+  "days_since_push": 14,
   "health_score": 53,
   "health_components": {
     "popularity": 52.7,
@@ -51,7 +51,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 18,
+    "days_span": 19,
     "stars_per_day": 0.0,
     "lifetime_stars_per_day": 0.54,
     "basis": "history",
@@ -160,11 +160,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:49+00:00",
+  "fetched_at": "2026-10-28T10:37:56+00:00",
   "categories": [
     "desktop-ui",
-    "isolation",
-    "providers-2"
+    "providers-2",
+    "security-mcp"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

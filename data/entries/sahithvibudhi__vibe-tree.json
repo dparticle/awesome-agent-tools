@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 455,
-  "days_since_push": 93,
+  "age_days": 456,
+  "days_since_push": 94,
   "health_score": 43,
   "health_components": {
     "popularity": 48.7,
@@ -143,16 +143,78 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:54:09+00:00",
+  "fetched_at": "2026-10-28T10:38:19+00:00",
   "categories": [
     "isolation"
   ],
   "primary_category": "isolation",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by h0x91b/dev-3.0: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 h0x91b/dev-3.0 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "h0x91b/dev-3.0",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "sahithvibudhi/vibe-tree",
+      "challenger": "h0x91b/dev-3.0",
+      "incumbent_name": "sahithvibudhi/vibe-tree",
+      "challenger_name": "h0x91b/dev-3.0",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "parallel-execution",
+        "remote-control",
+        "session-persistence",
+        "worktree-isolation"
+      ],
+      "star_ratio": 1.176,
+      "momentum_ratio": 2.5,
+      "setup_delta": -2,
+      "dominance": 0.701,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "1.18x the stars (320 vs 272)",
+        "2.50x the star velocity (1.0/day vs 0.4/day)",
+        "no harder to set up (12 vs 14 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "parallel-execution",
+          "remote-control",
+          "session-persistence",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "quota-management",
+          "remote-control",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 43,
+        "challenger_health": 55,
+        "incumbent_setup_score": 14,
+        "challenger_setup_score": 12
+      }
+    }
   }
 }

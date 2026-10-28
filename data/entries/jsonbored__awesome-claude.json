@@ -39,21 +39,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 407,
-  "days_since_push": 71,
+  "age_days": 408,
+  "days_since_push": 72,
   "health_score": 49,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 64.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.75,
     "basis": "history",
     "is_fast_riser": false
@@ -240,11 +240,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:54:07+00:00",
+  "fetched_at": "2026-10-28T10:38:15+00:00",
   "categories": [
+    "isolation",
     "memory-mcp",
-    "mobile-remote-control",
-    "teams"
+    "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

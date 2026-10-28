@@ -6,9 +6,9 @@
   "url": "https://github.com/makecindy/cindy",
   "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
   "homepage": "https://cindy.app",
-  "stars": 7027,
-  "forks": 843,
-  "open_issues": 2067,
+  "stars": 7792,
+  "forks": 921,
+  "open_issues": 2142,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,37 +27,39 @@
     "windows"
   ],
   "created_at": "2026-07-22T17:49:34Z",
-  "updated_at": "2026-10-27T09:51:18Z",
-  "pushed_at": "2026-10-27T09:49:25Z",
+  "updated_at": "2026-10-28T10:35:02Z",
+  "pushed_at": "2026-10-28T10:34:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 96,
+  "age_days": 97,
   "days_since_push": 0,
-  "health_score": 69,
+  "health_score": 71,
   "health_components": {
-    "popularity": 76.9,
-    "momentum": 61.0,
+    "popularity": 77.8,
+    "momentum": 66.9,
     "maintenance": 100.0,
-    "documentation": 53.0,
+    "documentation": 54.0,
     "accessibility": 35.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 7027,
-    "days_span": 96,
-    "stars_per_day": 73.2,
-    "lifetime_stars_per_day": 73.2,
+    "stars_gained": 7792,
+    "days_span": 97,
+    "stars_per_day": 80.33,
+    "lifetime_stars_per_day": 80.33,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "makecindy/cindy",
-    "readme_chars": 11847,
+    "readme_chars": 13900,
     "capabilities": [
+      "remote-control",
       "mobile-access",
       "multi-agent-orchestration",
       "model-routing",
+      "billing-metering",
       "usage-analytics",
       "mcp-support",
       "self-hosted",
@@ -65,19 +67,23 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "mobile-access": "",
+      "remote-control": "",
+      "mobile-access": "ch Linux and Omarchy installation guide",
       "multi-agent-orchestration": "utor setup, validation, and submission workflow",
       "model-routing": "",
+      "billing-metering": "supported subscription you already pay for,",
       "usage-analytics": "this is not fully anonymous.",
-      "mcp-support": "",
+      "mcp-support": "TML, not just a wall of text.",
       "self-hosted": "by default (endpoint manifests in",
-      "gui-desktop": "apps/-bin Tool binaries shipped with the desktop app; none are committed — claude-code, codex, and ripgrep are downloaded per platform by pnpm install, and the Android platform-tools binaries are fetched (pinned version…",
+      "gui-desktop": "ntains Cindy's open-source desktop and mobile clients and",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
+      "remote-control": 2,
       "mobile-access": 1,
       "multi-agent-orchestration": 1,
       "model-routing": 2,
+      "billing-metering": 2,
       "usage-analytics": 6,
       "mcp-support": 1,
       "self-hosted": 1,
@@ -102,15 +108,17 @@
         "GUI application"
       ],
       "platforms": [
+        "macOS",
         "Windows",
         "Linux",
+        "iOS",
         "Android",
         "Web"
       ],
       "note_en": "Involved setup. needs git clone (build from source), pnpm install/build; configure sign-in required, database migration; GUI application",
       "note_zh": "配置较重。需要 git clone (build from source)、pnpm install/build；需配置 sign-in required、database migration；GUI application"
     },
-    "doc_score": 53,
+    "doc_score": 54,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -126,7 +134,7 @@
       "Claude Code",
       "Codex"
     ],
-    "summary_en": "Consider it done.",
+    "summary_en": "Cindy is an open-source AI agent, ready out of the box and yours to shape.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -134,18 +142,17 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.422
+      "external_link_ratio": 0.36
     },
     "highlights": [
-      "Source — audit, fork, extend, and contribute improvements back under Apache-2.0.",
       "Mobile does not initialize the SDK without injected TapDB configuration"
     ],
-    "summary_zh_native": "",
+    "summary_zh_native": "Cindy 是一个开源、开箱即用的 AI Agent。连接你的多台电脑与手机，把熟悉的 Agent、模型和已有订阅放在一起，培养一个懂你工作方式的伙伴。",
     "highlights_zh": [
-      "她本身（Source）——审计、fork、二次开发，把通用改进以 Apache-2.0 贡献回来。",
       "移动端未注入 TapDB 配置（clientId / clientToken）时不会初始化 SDK。",
-      "她够得到的系统（MCP）——把内部工具和业务系统接进来。",
-      "移动端关闭后立即解绑账号并停止 Cindy 主动触发的上报；已初始化的原生 SDK"
+      "不只共享画面，也共享模型。 其他电脑上配置好的订阅、API 供应商和本地模型，开启远程访问后也能调用。",
+      "移动端关闭后立即解绑账号并停止 Cindy 主动触发的上报；已初始化的原生 SDK",
+      "培养自己的伙伴。 给她角色、指令、Skill 和日常工作：代码审阅、资料研究、项目跟进，都可以有专门的搭档。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -154,13 +161,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:30+00:00",
+  "fetched_at": "2026-10-28T10:36:29+00:00",
   "categories": [
-    "analytics-2",
+    "analytics",
     "desktop-ui-2",
-    "mobile"
+    "mobile-remote-control"
   ],
-  "primary_category": "analytics-2",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

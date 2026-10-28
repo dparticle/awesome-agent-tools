@@ -24,13 +24,13 @@
     "policy-engine"
   ],
   "created_at": "2026-03-04T03:24:33Z",
-  "updated_at": "2026-10-26T08:52:11Z",
-  "pushed_at": "2026-10-25T09:38:45Z",
+  "updated_at": "2026-10-27T17:11:08Z",
+  "pushed_at": "2026-10-27T17:11:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 237,
-  "days_since_push": 2,
+  "age_days": 238,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 54.4,
@@ -44,13 +44,13 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.21,
+    "lifetime_stars_per_day": 2.2,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Justin0504/Aegis",
-    "readme_chars": 42149,
+    "readme_chars": 49420,
     "capabilities": [
       "model-routing",
       "billing-metering",
@@ -65,8 +65,8 @@
     "capability_evidence": {
       "model-routing": "type, same decision merger, same audit / sink / transparency-log fan-out as built-ins.",
       "billing-metering": "",
-      "usage-analytics": "d research assistant, fully integrated with AEGIS.",
-      "mcp-support": ", AEGIS provides two proxy modes:",
+      "usage-analytics": "day behavioral profile per agent",
+      "mcp-support": "row and the call itself one click away.",
       "security-isolation": "AEGIS is the missing layer: a pre-execution firewall that sits between your agent and its tools, classifies every call in real time, enforces policies, blocks violations, and writes a tamper-evident audit trail — with o…",
       "self-hosted": "Engineers Develop Tools to Audit and Monitor AI Agents (Aug 2026)",
       "team-collaboration": "nce) via OpenAI/Anthropic/Gemini",
@@ -76,9 +76,9 @@
     "capability_hits": {
       "model-routing": 1,
       "billing-metering": 1,
-      "usage-analytics": 3,
-      "mcp-support": 4,
-      "security-isolation": 9,
+      "usage-analytics": 2,
+      "mcp-support": 7,
+      "security-isolation": 8,
       "self-hosted": 1,
       "team-collaboration": 2,
       "gui-desktop": 4,
@@ -144,7 +144,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.641
+      "external_link_ratio": 0.546
     },
     "highlights": [
       "Cost Tracking — token usage and USD cost across 40+ models",
@@ -161,13 +161,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:53:42+00:00",
+  "fetched_at": "2026-10-28T10:37:47+00:00",
   "categories": [
-    "analytics-2",
+    "analytics",
     "providers-2",
-    "teams"
+    "security-mcp"
   ],
-  "primary_category": "analytics-2",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

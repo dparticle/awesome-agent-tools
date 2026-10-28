@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 250,
-  "days_since_push": 159,
+  "age_days": 251,
+  "days_since_push": 160,
   "health_score": 44,
   "health_components": {
     "popularity": 49.9,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 1,
-    "days_span": 13,
-    "stars_per_day": 0.08,
-    "lifetime_stars_per_day": 1.26,
+    "days_span": 14,
+    "stars_per_day": 0.07,
+    "lifetime_stars_per_day": 1.25,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,11 +160,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:54:02+00:00",
+  "fetched_at": "2026-10-28T10:38:11+00:00",
   "categories": [
     "failover",
     "memory-mcp",
-    "security-self-hosting"
+    "model-routing"
   ],
   "primary_category": "failover",
   "lifecycle": {

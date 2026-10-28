@@ -6,8 +6,8 @@
   "url": "https://github.com/Folkbench/folkbench",
   "description": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
   "homepage": "https://folkbench.com",
-  "stars": 3761,
-  "forks": 21,
+  "stars": 3829,
+  "forks": 22,
   "open_issues": 0,
   "language": "Rust",
   "license": "NOASSERTION",
@@ -28,16 +28,16 @@
     "tauri"
   ],
   "created_at": "2026-10-02T09:50:45Z",
-  "updated_at": "2026-10-27T09:11:34Z",
-  "pushed_at": "2026-10-26T17:32:01Z",
+  "updated_at": "2026-10-28T10:26:00Z",
+  "pushed_at": "2026-10-28T07:55:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 25,
+  "age_days": 26,
   "days_since_push": 0,
   "health_score": 78,
   "health_components": {
-    "popularity": 71.5,
+    "popularity": 71.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 36.0,
@@ -45,10 +45,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3761,
-    "days_span": 25,
-    "stars_per_day": 150.44,
-    "lifetime_stars_per_day": 150.44,
+    "stars_gained": 3829,
+    "days_span": 26,
+    "stars_per_day": 147.27,
+    "lifetime_stars_per_day": 147.27,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:52:37+00:00",
+  "fetched_at": "2026-10-28T10:36:39+00:00",
   "categories": [
     "model-routing"
   ],

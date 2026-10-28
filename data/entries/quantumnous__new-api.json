@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "full_name": "QuantumNous/new-api",
+  "name": "new-api",
+  "owner": "QuantumNous",
+  "url": "https://github.com/QuantumNous/new-api",
+  "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
+  "homepage": "https://www.newapi.ai",
+  "stars": 50867,
+  "forks": 12322,
+  "open_issues": 1397,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "topics": [
+    "ai-gateway",
+    "api-management",
+    "claude",
+    "deepseek",
+    "gemini",
+    "llm-gateway",
+    "model-routing",
+    "newapi",
+    "openai",
+    "rerank",
+    "self-hosted"
+  ],
+  "created_at": "2023-11-10T19:33:36Z",
+  "updated_at": "2026-10-28T10:22:46Z",
+  "pushed_at": "2026-10-28T09:50:30Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 1082,
+  "days_since_push": 0,
+  "health_score": 73,
+  "health_components": {
+    "popularity": 94.1,
+    "momentum": 60.2,
+    "maintenance": 100.0,
+    "documentation": 75.0,
+    "accessibility": 0.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 1517,
+    "days_span": 21,
+    "stars_per_day": 72.24,
+    "lifetime_stars_per_day": 47.01,
+    "basis": "history",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "QuantumNous/new-api",
+    "readme_chars": 17632,
+    "capabilities": [
+      "model-routing",
+      "api-gateway",
+      "usage-analytics",
+      "skills-plugins",
+      "security-isolation",
+      "self-hosted",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "api-gateway": "ure container variables in Compose's environment or env_file; copying .env.example alone does not inject variables into the container.",
+      "usage-analytics": "DeepSeek, Qwen, and other compatible services.",
+      "skills-plugins": "plugin installation states, usage, prices, and costs shown below are simulated data.",
+      "security-isolation": "Asynchronous tasks Extend image, video, and other task APIs with JavaScript plugins, including task status and output retrieval Web console Configure channels and models, inspect usage and audit logs, and try models in…",
+      "self-hosted": "",
+      "gui-desktop": "Go module for protocol DTOs and conversions"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "api-gateway": 1,
+      "usage-analytics": 1,
+      "skills-plugins": 1,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 100,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "docker compose up",
+        "docker run",
+        "git clone (build from source)",
+        "go build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Involved setup. needs docker compose up, docker run; configure API key configuration, OAuth login flow; GUI application",
+      "note_zh": "配置较重。需要 docker compose up、docker run；需配置 API key configuration、OAuth login flow；GUI application"
+    },
+    "doc_score": 75,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "documents changes"
+    ],
+    "agents": [],
+    "summary_en": "An AI gateway for models, applications, and agents",
+    "summary_zh": "",
+    "install_hint": "docker run --name new-api -d --restart unless-stopped \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.134
+    },
+    "highlights": [
+      "Set your client's base URL to http://localhost:3000/v1 for OpenAI-compatible clients and use the New API-issued key.",
+      "Add a channel with your upstream API key, available models, and group assignment; run a channel test."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-28T10:36:59+00:00",
+  "categories": [
+    "analytics",
+    "model-routing"
+  ],
+  "primary_category": "analytics",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

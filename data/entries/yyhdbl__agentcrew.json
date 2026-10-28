@@ -6,7 +6,7 @@
   "url": "https://github.com/YYHDBL/AgentCrew",
   "description": "Local-first desktop workspace for AI agents, with human approvals, persistent memory, scheduled tasks, and auditable execution.",
   "homepage": "",
-  "stars": 253,
+  "stars": 254,
   "forks": 50,
   "open_issues": 1,
   "language": "Python",
@@ -20,26 +20,26 @@
     "python"
   ],
   "created_at": "2025-12-26T11:04:43Z",
-  "updated_at": "2026-10-23T11:15:11Z",
+  "updated_at": "2026-10-28T09:00:24Z",
   "pushed_at": "2026-10-12T07:32:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 304,
-  "days_since_push": 15,
+  "age_days": 305,
+  "days_since_push": 16,
   "health_score": 47,
   "health_components": {
     "popularity": 48.1,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 92.0,
     "documentation": 45.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 0.83,
     "basis": "history",
     "is_fast_riser": false
@@ -129,27 +129,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-27T09:54:12+00:00",
+  "fetched_at": "2026-10-28T10:38:22+00:00",
   "categories": [
     "desktop-ui-2",
     "memory-mcp",
-    "mobile-remote-control"
+    "security-mcp"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "paperclipai/paperclip",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "yyhdbl/agentcrew",
-      "challenger": "paperclipai/paperclip",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "YYHDBL/AgentCrew",
-      "challenger_name": "paperclipai/paperclip",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "gui-desktop",
@@ -159,15 +159,15 @@
         "security-isolation",
         "session-persistence"
       ],
-      "star_ratio": 426.103,
-      "momentum_ratio": 1926.0,
-      "setup_delta": 6,
-      "dominance": 0.97,
+      "star_ratio": 117.98,
+      "momentum_ratio": 75.5,
+      "setup_delta": -7,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "426.10x the stars (107,804 vs 253)",
-        "1926.00x the star velocity (385.2/day vs 0.2/day)",
-        "slightly heavier setup (+6 friction, within tolerance)"
+        "117.98x the stars (29,967 vs 254)",
+        "75.50x the star velocity (30.2/day vs 0.4/day)",
+        "no harder to set up (32 vs 39 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,27 +181,27 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "remote-control",
+          "quota-management",
           "security-isolation",
           "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
+          "team-collaboration"
         ],
         "incumbent_health": 47,
-        "challenger_health": 89,
+        "challenger_health": 71,
         "incumbent_setup_score": 39,
-        "challenger_setup_score": 45
+        "challenger_setup_score": 32
       }
     }
   }

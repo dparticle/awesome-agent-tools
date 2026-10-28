@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 253 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Stars | 254 |
+| Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 47/100 |
 | Documentation | 45/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | not declared |
 | Language | Python |
 | Created | 2025-12-26 |
-| Last push | 2026-10-12 (15 days ago) |
+| Last push | 2026-10-12 (16 days ago) |
 | Analyzed README | 5,468 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -83,7 +83,7 @@ Score **45/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 48.1 |
-| momentum | 0.2 |
+| momentum | 0.3 |
 | maintenance | 92.0 |
 | documentation | 45.0 |
 | accessibility | 69.0 |

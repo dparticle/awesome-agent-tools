@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "full_name": "future-agi/future-agi",
+  "name": "future-agi",
+  "owner": "future-agi",
+  "url": "https://github.com/future-agi/future-agi",
+  "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
+  "homepage": "https://futureagi.com",
+  "stars": 2212,
+  "forks": 699,
+  "open_issues": 947,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-evaluation",
+    "ai-agents",
+    "ai-evals",
+    "ai-gateway",
+    "ai-observability",
+    "evals",
+    "evaluation-framework",
+    "guardrails",
+    "hallucination-detection",
+    "llm-evaluation",
+    "llm-observability",
+    "llm-tracing",
+    "llmops",
+    "model-evaluation",
+    "observability",
+    "opentelemetry",
+    "rag-evaluation",
+    "simulation",
+    "telemetry",
+    "tracing"
+  ],
+  "created_at": "2026-04-23T14:11:31Z",
+  "updated_at": "2026-10-28T00:43:52Z",
+  "pushed_at": "2026-10-28T10:12:29Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 187,
+  "days_since_push": 0,
+  "health_score": 59,
+  "health_components": {
+    "popularity": 66.9,
+    "momentum": 2.7,
+    "maintenance": 100.0,
+    "documentation": 82.0,
+    "accessibility": 55.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 16,
+    "days_span": 5,
+    "stars_per_day": 3.2,
+    "lifetime_stars_per_day": 11.83,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "future-agi/future-agi",
+    "readme_chars": 30333,
+    "capabilities": [
+      "api-gateway",
+      "billing-metering",
+      "memory-context",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted"
+    ],
+    "capability_evidence": {
+      "api-gateway": "Self-host ✅ ✅ ✅ ❌ ✅ LLM tracing (OpenTelemetry) ✅ ✅ ✅ ✅ ⚠️ via OpenLLMetry Evaluation suites ✅ 50+ metrics ✅ ✅ ✅ ⚠️ Limited Agent simulation ✅ ❌ ❌ ❌ ❌ Voice agent eval ✅ ❌ ⚠️ Cookbook ❌ ❌ LLM gateway built in ✅ 100+ pro…",
+      "billing-metering": "",
+      "memory-context": "- *Customer Support:* Ship support AI that customers actually trust - *Voice Agents:* Test, evaluate, and improve voice AI end-to-end - *Internal Tools:* AI copilots your whole org can rely on - *RAG & Search:* Every an…",
+      "agent-runtime": "arch:* Every answer grounded, every citation verified",
+      "mcp-support": "raphs, latency, token cost, live dashboards.",
+      "self-hosted": "acing, simulations, guardrails, gateway, optimization."
+    },
+    "capability_hits": {
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "memory-context": 1,
+      "agent-runtime": 2,
+      "mcp-support": 2,
+      "self-hosted": 6
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 45,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "helm install",
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "no-code positioning"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via pip install, native installer / package; needs docker compose up, helm install; configure API key configuration, sign-in required; no-code positioning",
+      "note_zh": "需要一些配置。可通过 pip install、native installer / package 安装；需要 docker compose up、helm install；需配置 API key configuration、sign-in required；no-code positioning"
+    },
+    "doc_score": 82,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [],
+    "summary_en": "╔═════════════════════════════════════════════════════════════════════════════╗ ║ MARKETING NOTES FOR IMAGE ASSETS ║ ║ All images below live under .github/assets/.",
+    "summary_zh": "",
+    "install_hint": "pip install fi-instrumentation-otel",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.286
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-28T10:37:15+00:00",
+  "categories": [
+    "memory-mcp"
+  ],
+  "primary_category": "memory-mcp",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "future-agi/future-agi",
+      "challenger": "tencentcloud/octop",
+      "incumbent_name": "future-agi/future-agi",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "billing-metering",
+        "mcp-support",
+        "memory-context",
+        "self-hosted"
+      ],
+      "star_ratio": 5.08,
+      "momentum_ratio": 28.062,
+      "setup_delta": -13,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "5.08x the stars (11,237 vs 2,212)",
+        "28.06x the star velocity (89.8/day vs 3.2/day)",
+        "no harder to set up (32 vs 45 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "mcp-support",
+          "memory-context",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 59,
+        "challenger_health": 81,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 32
+      }
+    }
+  }
+}
