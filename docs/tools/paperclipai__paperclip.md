@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 108,140 |
-| Star velocity | 359.2/day (history basis, 5d span) |
+| Stars | 108,440 |
+| Star velocity | 347.2/day (history basis, 5d span) |
 | Health score | 89/100 |
 | Documentation | 66/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-02 |
-| Last push | 2026-10-28 (0 days ago) |
-| Analyzed README | 34,243 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 34,249 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -58,7 +58,7 @@
 
 ### MCP support
 
-> Novita, self-hosted Kubernetes)
+> , boxd, self-hosted Kubernetes)
 
 ### Security & isolation
 

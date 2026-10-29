@@ -6,8 +6,8 @@
   "url": "https://github.com/huytieu/COG-second-brain",
   "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
   "homepage": "",
-  "stars": 1323,
-  "forks": 160,
+  "stars": 1327,
+  "forks": 162,
   "open_issues": 12,
   "language": "Python",
   "license": "MIT",
@@ -34,26 +34,26 @@
     "worker-agents"
   ],
   "created_at": "2025-10-15T03:50:52Z",
-  "updated_at": "2026-10-28T09:31:28Z",
+  "updated_at": "2026-10-29T08:02:55Z",
   "pushed_at": "2026-10-23T02:52:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 378,
-  "days_since_push": 5,
+  "age_days": 379,
+  "days_since_push": 6,
   "health_score": 57,
   "health_components": {
-    "popularity": 62.4,
-    "momentum": 1.8,
+    "popularity": 62.5,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.2,
+    "stars_per_day": 2.4,
     "lifetime_stars_per_day": 3.5,
     "basis": "history",
     "is_fast_riser": false
@@ -167,84 +167,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:25+00:00",
+  "fetched_at": "2026-10-29T10:56:54+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
     "memory-mcp"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (9/9).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (9/9)。",
-    "superseded_by": "TencentCloud/Octop",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "huytieu/cog-second-brain",
-      "challenger": "tencentcloud/octop",
-      "incumbent_name": "huytieu/COG-second-brain",
-      "challenger_name": "TencentCloud/Octop",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration",
-        "skills-plugins",
-        "team-collaboration"
-      ],
-      "star_ratio": 8.494,
-      "momentum_ratio": 40.818,
-      "setup_delta": 1,
-      "dominance": 0.995,
-      "reasons": [
-        "covers 100% of capabilities (9/9)",
-        "8.49x the stars (11,237 vs 1,323)",
-        "40.82x the star velocity (89.8/day vs 2.2/day)",
-        "slightly heavier setup (+1 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 57,
-        "challenger_health": 81,
-        "incumbent_setup_score": 31,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

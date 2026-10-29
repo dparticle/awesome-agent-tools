@@ -6,9 +6,9 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
   "homepage": "https://gilded-laurel-c7nj.here.now/",
-  "stars": 27726,
-  "forks": 2306,
-  "open_issues": 12,
+  "stars": 27748,
+  "forks": 2307,
+  "open_issues": 5,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "session-recovery"
   ],
   "created_at": "2026-01-03T07:37:28Z",
-  "updated_at": "2026-10-28T10:23:49Z",
-  "pushed_at": "2026-10-24T17:24:38Z",
+  "updated_at": "2026-10-29T10:33:45Z",
+  "pushed_at": "2026-10-28T17:42:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 298,
-  "days_since_push": 3,
-  "health_score": 70,
+  "age_days": 299,
+  "days_since_push": 0,
+  "health_score": 71,
   "health_components": {
     "popularity": 88.9,
-    "momentum": 20.5,
+    "momentum": 22.3,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 123,
+    "stars_gained": 134,
     "days_span": 5,
-    "stars_per_day": 24.6,
-    "lifetime_stars_per_day": 93.04,
+    "stars_per_day": 26.8,
+    "lifetime_stars_per_day": 92.8,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "OthmanAdi/planning-with-files",
-    "readme_chars": 107851,
+    "readme_chars": 108541,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -156,7 +156,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.343
+      "external_link_ratio": 0.341
     },
     "highlights": [
       "Host capability tiers: hard block on Claude Code, Codex, and Continue; follow-up injection on Cursor, Pi, Kiro, Hermes Agent, and OpenCode; notify-only elsewhere.",
@@ -173,13 +173,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:03+00:00",
+  "fetched_at": "2026-10-29T10:56:33+00:00",
   "categories": [
     "desktop-ui",
-    "isolation",
-    "security-mcp"
+    "sessions",
+    "teams-isolation"
   ],
-  "primary_category": "isolation",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

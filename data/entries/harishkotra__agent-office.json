@@ -6,34 +6,34 @@
   "url": "https://github.com/harishkotra/agent-office",
   "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
   "homepage": "",
-  "stars": 376,
-  "forks": 109,
+  "stars": 383,
+  "forks": 110,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-25T04:43:02Z",
-  "updated_at": "2026-10-28T04:09:48Z",
+  "updated_at": "2026-10-29T10:13:13Z",
   "pushed_at": "2026-09-25T04:17:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
-  "days_since_push": 33,
+  "age_days": 246,
+  "days_since_push": 34,
   "health_score": 43,
   "health_components": {
-    "popularity": 51.5,
-    "momentum": 2.5,
+    "popularity": 51.7,
+    "momentum": 3.0,
     "maintenance": 78.0,
     "documentation": 57.0,
     "accessibility": 25.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 1.53,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 1.56,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,13 +128,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:04+00:00",
+  "fetched_at": "2026-10-29T10:57:31+00:00",
   "categories": [
     "desktop-ui",
-    "memory-mcp",
-    "model-routing"
+    "model-routing",
+    "teams-isolation"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).",
@@ -160,14 +160,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 29.886,
-      "momentum_ratio": 29.933,
+      "star_ratio": 29.483,
+      "momentum_ratio": 21.889,
       "setup_delta": -43,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "29.89x the stars (11,237 vs 376)",
-        "29.93x the star velocity (89.8/day vs 3.0/day)",
+        "29.48x the stars (11,292 vs 383)",
+        "21.89x the star velocity (78.8/day vs 3.6/day)",
         "no harder to set up (32 vs 75 friction)"
       ],
       "reasons_zh": [],
@@ -200,7 +200,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 43,
-        "challenger_health": 81,
+        "challenger_health": 79,
         "incumbent_setup_score": 75,
         "challenger_setup_score": 32
       }

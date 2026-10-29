@@ -21,8 +21,8 @@
 | License | not declared |
 | Language | Python |
 | Created | 2026-01-07 |
-| Last push | 2026-10-23 (4 days ago) |
-| Analyzed README | 49,137 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 50,902 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -58,7 +58,9 @@
 
 ### MCP support
 
-> asks, Meet, Forms, Admin, Keep, Apps Script, and more
+> - **NEW: real sales from the course platform.** Connects to the Schooler MCP (or any checkout platform) to reconcile Meta's attributed purchases with actual enrollments, and turns the data into the cheapest sales you ha…
+
+### Notifications
 
 ### Cross-agent support
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/autoharness",
   "description": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates them as you work, and prunes the ones that stop getting used. No daemon, no benchmark.",
   "homepage": "https://github.com/tigerless-labs/autoharness",
-  "stars": 10416,
-  "forks": 630,
-  "open_issues": 50,
+  "stars": 10543,
+  "forks": 643,
+  "open_issues": 34,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -19,33 +19,33 @@
     "python"
   ],
   "created_at": "2026-06-09T21:05:42Z",
-  "updated_at": "2026-10-28T10:29:17Z",
-  "pushed_at": "2026-10-27T17:16:52Z",
+  "updated_at": "2026-10-29T10:42:13Z",
+  "pushed_at": "2026-10-28T16:39:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
+  "age_days": 141,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 57,
   "health_components": {
-    "popularity": 80.4,
-    "momentum": 36.6,
+    "popularity": 80.5,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 64.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 879,
-    "days_span": 20,
-    "stars_per_day": 43.95,
-    "lifetime_stars_per_day": 74.4,
+    "stars_gained": 10,
+    "days_span": 8,
+    "stars_per_day": 1.25,
+    "lifetime_stars_per_day": 74.77,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tigerless-labs/autoharness",
-    "readme_chars": 23158,
+    "readme_chars": 23544,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -104,7 +104,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.302
+      "external_link_ratio": 0.297
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -116,10 +116,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:26+00:00",
+  "fetched_at": "2026-10-29T10:55:59+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

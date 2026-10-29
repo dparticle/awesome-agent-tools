@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1871,
-  "days_since_push": 6,
+  "age_days": 1872,
+  "days_since_push": 7,
   "health_score": 48,
   "health_components": {
     "popularity": 50.1,
@@ -148,12 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:10+00:00",
+  "fetched_at": "2026-10-29T10:57:36+00:00",
   "categories": [
-    "isolation",
-    "memory-mcp"
+    "teams-isolation"
   ],
-  "primary_category": "isolation",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

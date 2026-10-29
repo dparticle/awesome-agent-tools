@@ -6,7 +6,7 @@
   "url": "https://github.com/mnemon-dev/mnemon",
   "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
   "homepage": "https://mnemon.dev",
-  "stars": 667,
+  "stars": 672,
   "forks": 78,
   "open_issues": 13,
   "language": "Go",
@@ -31,27 +31,27 @@
     "persistent-memory"
   ],
   "created_at": "2026-02-20T02:26:17Z",
-  "updated_at": "2026-10-28T09:23:20Z",
+  "updated_at": "2026-10-29T07:04:15Z",
   "pushed_at": "2026-10-26T20:07:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 250,
-  "days_since_push": 1,
+  "age_days": 251,
+  "days_since_push": 2,
   "health_score": 51,
   "health_components": {
     "popularity": 56.5,
-    "momentum": 2.2,
+    "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 17,
     "days_span": 5,
-    "stars_per_day": 2.6,
-    "lifetime_stars_per_day": 2.67,
+    "stars_per_day": 3.4,
+    "lifetime_stars_per_day": 2.68,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -158,24 +158,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:42+00:00",
+  "fetched_at": "2026-10-29T10:57:11+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "mnemon-dev/mnemon",
-      "challenger": "tencentcloud/octop",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "mnemon-dev/mnemon",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -188,15 +187,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 16.847,
-      "momentum_ratio": 34.538,
-      "setup_delta": -32,
+      "star_ratio": 434.757,
+      "momentum_ratio": 271.647,
+      "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "16.85x the stars (11,237 vs 667)",
-        "34.54x the star velocity (89.8/day vs 2.6/day)",
-        "no harder to set up (32 vs 64 friction)"
+        "434.76x the stars (292,157 vs 672)",
+        "271.65x the star velocity (923.6/day vs 3.4/day)",
+        "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -211,24 +210,25 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "billing-metering",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
+          "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
-          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 81,
+        "challenger_health": 89,
         "incumbent_setup_score": 64,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 57
       }
     }
   }

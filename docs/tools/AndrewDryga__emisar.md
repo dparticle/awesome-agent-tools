@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 330 |
-| Star velocity | 2.0/day (lifetime basis, 162d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | Elixir |
 | Created | 2026-05-19 |
-| Last push | 2026-10-27 (1 days ago) |
+| Last push | 2026-10-29 (0 days ago) |
 | Analyzed README | 10,173 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -70,7 +72,7 @@ Score **53/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 50.4 |
-| momentum | 1.7 |
+| momentum | 0.0 |
 | maintenance | 100.0 |
 | documentation | 53.0 |
 | accessibility | 75.0 |

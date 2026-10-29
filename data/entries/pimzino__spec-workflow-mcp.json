@@ -6,20 +6,20 @@
   "url": "https://github.com/Pimzino/spec-workflow-mcp",
   "description": "A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.",
   "homepage": "",
-  "stars": 4303,
+  "stars": 4304,
   "forks": 357,
   "open_issues": 11,
   "language": "TypeScript",
   "license": "GPL-3.0",
   "topics": [],
   "created_at": "2025-08-07T13:18:06Z",
-  "updated_at": "2026-10-28T03:58:00Z",
+  "updated_at": "2026-10-29T05:37:36Z",
   "pushed_at": "2026-07-03T19:19:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 446,
-  "days_since_push": 116,
+  "age_days": 447,
+  "days_since_push": 117,
   "health_score": 45,
   "health_components": {
     "popularity": 72.7,
@@ -30,10 +30,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
-    "days_span": 7,
-    "stars_per_day": 0.29,
-    "lifetime_stars_per_day": 9.65,
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 9.63,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,17 +142,73 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:10+00:00",
+  "fetched_at": "2026-10-29T10:56:41+00:00",
   "categories": [
     "desktop-ui-2",
-    "security-mcp"
+    "teams-isolation"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "teams-isolation",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by akitaonrails/ai-memory: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 akitaonrails/ai-memory 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "akitaonrails/ai-memory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "pimzino/spec-workflow-mcp",
+      "challenger": "akitaonrails/ai-memory",
+      "incumbent_name": "Pimzino/spec-workflow-mcp",
+      "challenger_name": "akitaonrails/ai-memory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "security-isolation",
+        "worktree-isolation"
+      ],
+      "star_ratio": 3.335,
+      "momentum_ratio": 1223.0,
+      "setup_delta": -18,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "3.34x the stars (14,355 vs 4,304)",
+        "1223.00x the star velocity (244.6/day vs 0.2/day)",
+        "no harder to set up (46 vs 64 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "security-isolation",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "security-isolation",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 45,
+        "challenger_health": 84,
+        "incumbent_setup_score": 64,
+        "challenger_setup_score": 46
+      }
+    }
   }
 }

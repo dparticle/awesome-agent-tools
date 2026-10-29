@@ -28,21 +28,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 584,
-  "days_since_push": 3,
+  "age_days": 585,
+  "days_since_push": 4,
   "health_score": 50,
   "health_components": {
     "popularity": 52.2,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.7,
     "basis": "history",
     "is_fast_riser": false
@@ -155,7 +155,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:00+00:00",
+  "fetched_at": "2026-10-29T10:57:28+00:00",
   "categories": [
     "billing"
   ],

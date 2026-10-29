@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 456,
-  "days_since_push": 94,
+  "age_days": 457,
+  "days_since_push": 95,
   "health_score": 43,
   "health_components": {
     "popularity": 48.7,
@@ -143,11 +143,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:19+00:00",
+  "fetched_at": "2026-10-29T10:57:44+00:00",
   "categories": [
-    "isolation"
+    "desktop-ui-2",
+    "teams-isolation"
   ],
-  "primary_category": "isolation",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by h0x91b/dev-3.0: covers 100% of capabilities (7/7).",

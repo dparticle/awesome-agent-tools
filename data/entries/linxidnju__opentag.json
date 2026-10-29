@@ -6,7 +6,7 @@
   "url": "https://github.com/linxidnju/OpenTag",
   "description": "Open-source, channel-native agent gateway for Slack. Route team threads to Claude Code, Codex, OpenCode, Docker, HTTP agents, and custom CLIs with policy, approvals, memory, audit logs, and artifacts.",
   "homepage": "",
-  "stars": 504,
+  "stars": 503,
   "forks": 0,
   "open_issues": 1,
   "language": "JavaScript",
@@ -28,27 +28,27 @@
     "team-collaboration"
   ],
   "created_at": "2026-06-27T08:10:47Z",
-  "updated_at": "2026-10-27T10:27:26Z",
+  "updated_at": "2026-10-29T06:50:27Z",
   "pushed_at": "2026-07-10T06:39:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 123,
-  "days_since_push": 110,
+  "age_days": 124,
+  "days_since_push": 111,
   "health_score": 41,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 53.0,
     "accessibility": 55.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 4.1,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 4.06,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,65 +134,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:50+00:00",
+  "fetched_at": "2026-10-29T10:57:18+00:00",
   "categories": [
-    "security-mcp"
+    "sessions"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "sessions",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "kajisho5/ffmpeg-skill",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "linxidnju/opentag",
-      "challenger": "kajisho5/ffmpeg-skill",
-      "incumbent_name": "linxidnju/OpenTag",
-      "challenger_name": "kajisho5/ffmpeg-skill",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "security-isolation"
-      ],
-      "star_ratio": 6.208,
-      "momentum_ratio": 289.7,
-      "setup_delta": 5,
-      "dominance": 0.975,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "6.21x the stars (3,129 vs 504)",
-        "289.70x the star velocity (57.9/day vs 0.2/day)",
-        "slightly heavier setup (+5 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "incumbent_health": 41,
-        "challenger_health": 74,
-        "incumbent_setup_score": 45,
-        "challenger_setup_score": 50
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

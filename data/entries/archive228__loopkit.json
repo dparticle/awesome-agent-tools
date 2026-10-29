@@ -6,34 +6,34 @@
   "url": "https://github.com/Archive228/loopkit",
   "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
   "homepage": "",
-  "stars": 755,
+  "stars": 756,
   "forks": 124,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-30T08:46:55Z",
-  "updated_at": "2026-10-14T07:16:33Z",
+  "updated_at": "2026-10-29T05:44:05Z",
   "pushed_at": "2026-07-14T21:10:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
-  "days_since_push": 105,
-  "health_score": 45,
+  "age_days": 121,
+  "days_since_push": 106,
+  "health_score": 46,
   "health_components": {
     "popularity": 57.6,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 54.0,
     "accessibility": 81.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.29,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 6.25,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -116,8 +116,8 @@
     "highlights": [
       "A wrapper CLI. No daemon, no server, no runtime state. run.sh is 8 lines.",
       "planner-spec-expand — 1–4 sentence brief → full ambitious spec with design language and ordered feature list → starting a fresh project or major feature",
-      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds",
-      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds"
+      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds",
+      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,23 +128,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:39+00:00",
+  "fetched_at": "2026-10-29T10:57:08+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
+    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "huytieu/COG-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "archive228/loopkit",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
+      "challenger": "huytieu/cog-second-brain",
       "incumbent_name": "Archive228/loopkit",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
+      "challenger_name": "huytieu/COG-second-brain",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -156,15 +155,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.199,
-      "momentum_ratio": 92.0,
-      "setup_delta": 2,
-      "dominance": 0.781,
+      "star_ratio": 1.755,
+      "momentum_ratio": 12.0,
+      "setup_delta": 12,
+      "dominance": 0.818,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.20x the stars (905 vs 755)",
-        "92.00x the star velocity (4.6/day vs 0.0/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "1.76x the stars (1,327 vs 756)",
+        "12.00x the star velocity (2.4/day vs 0.2/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,14 +180,15 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins"
+          "skills-plugins",
+          "team-collaboration"
         ],
-        "incumbent_health": 45,
-        "challenger_health": 56,
+        "incumbent_health": 46,
+        "challenger_health": 57,
         "incumbent_setup_score": 19,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 31
       }
     }
   }

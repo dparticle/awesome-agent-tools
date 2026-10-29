@@ -6,9 +6,9 @@
   "url": "https://github.com/0sec-labs/0",
   "description": "Open-source AI security harness. Includes a web UI for code analysis, pentesting, vulnerability research, reverse engineering, verification, and fixing + CLI and MCP for agents.",
   "homepage": "https://0.security",
-  "stars": 531,
-  "forks": 58,
-  "open_issues": 2,
+  "stars": 542,
+  "forks": 60,
+  "open_issues": 7,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -26,28 +26,28 @@
     "vulnerability-scanner"
   ],
   "created_at": "2026-08-19T07:54:37Z",
-  "updated_at": "2026-10-28T09:40:32Z",
-  "pushed_at": "2026-10-27T23:54:37Z",
+  "updated_at": "2026-10-29T10:46:09Z",
+  "pushed_at": "2026-10-28T23:09:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 70,
+  "age_days": 71,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
-    "popularity": 54.5,
-    "momentum": 6.3,
+    "popularity": 54.7,
+    "momentum": 4.3,
     "maintenance": 100.0,
     "documentation": 45.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 531,
-    "days_span": 70,
-    "stars_per_day": 7.59,
-    "lifetime_stars_per_day": 7.59,
-    "basis": "lifetime",
+    "stars_gained": 26,
+    "days_span": 5,
+    "stars_per_day": 5.2,
+    "lifetime_stars_per_day": 7.63,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -121,12 +121,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:47+00:00",
+  "fetched_at": "2026-10-29T10:57:15+00:00",
   "categories": [
     "desktop-ui-2",
-    "security-mcp"
+    "memory-mcp"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

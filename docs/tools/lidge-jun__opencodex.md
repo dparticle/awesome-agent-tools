@@ -2,7 +2,7 @@
 
 # lidge-jun/opencodex
 
-> Two commands, and every one of them runs any LLM you point it at.
+> and connect OpenCode, Pi, Qoder, WorkBuddy, Kilo, Cline, T3 Code and more through managed configs.
 
 [Repository](https://github.com/lidge-jun/opencodex) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 17,992 |
-| Star velocity | 38.0/day (history basis, 5d span) |
+| Stars | 18,023 |
+| Star velocity | 40.0/day (history basis, 5d span) |
 | Health score | 67/100 |
 | Documentation | 54/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,14 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-18 |
-| Last push | 2026-10-28 (0 days ago) |
-| Analyzed README | 20,110 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 22,128 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> tokens, images, in both directions.
+> , Gemini, Grok, GLM, DeepSeek, Kimi, Qwen, Ollama and other
 
 ### Automatic failover
 
@@ -50,11 +50,11 @@
 
 ### GUI / desktop app
 
-> t:10100 and configure everything in the web dashboard — add providers
+> run prepare-sidecar && bun run prepare-widget && bun run build:local on macOS,
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Cursor
+> Mentions Claude Code, Cline, Codex, Cursor
 
 ## Setup reality check
 
@@ -90,7 +90,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.1 |
-| momentum | 31.7 |
+| momentum | 33.3 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 58.0 |

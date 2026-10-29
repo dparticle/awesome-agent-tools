@@ -6,9 +6,9 @@
   "url": "https://github.com/JimLiu/baoyu-design",
   "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
   "homepage": "",
-  "stars": 4522,
-  "forks": 317,
-  "open_issues": 5,
+  "stars": 4882,
+  "forks": 347,
+  "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -22,33 +22,33 @@
     "ui-design"
   ],
   "created_at": "2026-06-07T01:16:18Z",
-  "updated_at": "2026-10-28T09:07:51Z",
-  "pushed_at": "2026-09-23T05:34:49Z",
+  "updated_at": "2026-10-29T10:53:46Z",
+  "pushed_at": "2026-10-29T07:08:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 143,
-  "days_since_push": 35,
-  "health_score": 60,
+  "age_days": 144,
+  "days_since_push": 0,
+  "health_score": 78,
   "health_components": {
-    "popularity": 73.1,
-    "momentum": 10.3,
-    "maintenance": 78.0,
-    "documentation": 61.0,
+    "popularity": 73.8,
+    "momentum": 65.8,
+    "maintenance": 100.0,
+    "documentation": 63.0,
     "accessibility": 96.0
   },
-  "tier": "notable",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 62,
+    "stars_gained": 395,
     "days_span": 5,
-    "stars_per_day": 12.4,
-    "lifetime_stars_per_day": 31.62,
+    "stars_per_day": 79.0,
+    "lifetime_stars_per_day": 33.9,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "JimLiu/baoyu-design",
-    "readme_chars": 21498,
+    "readme_chars": 26146,
     "capabilities": [
       "mobile-access",
       "skills-plugins",
@@ -58,14 +58,14 @@
     ],
     "capability_evidence": {
       "mobile-access": "",
-      "skills-plugins": "Recommended — the skills CLI.",
+      "skills-plugins": "mmended — the skills CLI.",
       "agent-runtime": "",
-      "self-hosted": "r Mac App prompt was used in Cursor, Codex, Claude, and Claude Design.",
+      "self-hosted": "read-db, upload, check, open) into its own store under /db/.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
     },
     "capability_hits": {
       "mobile-access": 1,
-      "skills-plugins": 4,
+      "skills-plugins": 5,
       "agent-runtime": 1,
       "self-hosted": 1,
       "cross-agent-support": 6
@@ -85,14 +85,13 @@
       "config_signals": [],
       "friendliness_signals": [],
       "platforms": [
-        "macOS",
         "Linux",
         "Web"
       ],
       "note_en": "Turnkey. install via npx one-liner, native installer / package; needs npm install/build",
       "note_zh": "开箱即用。可通过 npx one-liner、native installer / package 安装；需要 npm install/build"
     },
-    "doc_score": 61,
+    "doc_score": 63,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -120,20 +119,20 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.419
+      "external_link_ratio": 0.344
     },
     "highlights": [
-      "Best with Opus 4.8. The skill is a long, demanding design brief; the stronger the model, the better the result. Pair it with Claude Opus 4.8 for the best output, and it still works well on…",
+      "Best with Opus 5.5. The skill is a long, demanding design brief; the stronger the model, the better the result. Pair it with Claude Opus 5.5 for the best output, and it still works well on…",
+      "\"Turn this analytics CSV into a dashboard that compares the last 28 days with the 28 before.\"",
       "Screenshot mode simply calls page.screenshot() at 2× device scale and drops each PNG as a full‑bleed slide image.",
-      "\"Design 3 hi‑fi variations of a pricing page using the brand in this screenshot.\"",
-      "\"Make a 10‑slide deck from this PRD for an engineering all‑hands.\""
+      "\"Design 3 hi‑fi variations of a pricing page using the brand in this screenshot.\""
     ],
     "summary_zh_native": "在你自己的本地 Agent 上运行 Claude Design —— Cursor、Claude Code、Claude Desktop，或任何能读写文件的编码 Agent。",
     "highlights_zh": [
       "一个本地 Agent —— Cursor、Claude Code、Codex，或安装器支持的其余 70+ 个 Agent（Cline、Roo Code、GitHub Copilot……）。",
-      "搭配 Opus 4.8 效果最佳。 这个技能本身是一份冗长且要求很高的设计指令，模型越强、效果越好。建议搭配 Claude Opus 4.8 获得最佳结果；在其他能力足够的模型上也能良好运行。",
+      "搭配 Opus 5.5 效果最佳。 这个技能本身是一份冗长且要求很高的设计指令，模型越强、效果越好。建议搭配 Claude Opus 5.5 获得最佳结果；在其他能力足够的模型上也能良好运行。",
       "可编辑模式递归遍历活的 DOM，把每个元素序列化为 { tag, rect, style, children } 的 JSON 树，文本用 Range.getBoundingClientRect() 拿到精确行盒。",
-      "Figma .fig 文件 —— 完全离线解码。"
+      "「把这份数据分析 CSV 做成仪表盘，对比最近 28 天和再往前 28 天。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -142,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:36+00:00",
+  "fetched_at": "2026-10-29T10:56:09+00:00",
   "categories": [
     "desktop-ui",
     "mobile-remote-control"

@@ -6,7 +6,7 @@
   "url": "https://github.com/deepagent-ltd/deepagent-code",
   "description": "DeepAgent Code: AI coding agent with persistent memory and control plane",
   "homepage": "https://ai.deepagent.ltd/",
-  "stars": 433,
+  "stars": 432,
   "forks": 3,
   "open_issues": 1,
   "language": "TypeScript",
@@ -18,28 +18,28 @@
     "open-source"
   ],
   "created_at": "2026-06-23T12:41:42Z",
-  "updated_at": "2026-10-24T07:21:59Z",
-  "pushed_at": "2026-10-28T10:31:35Z",
+  "updated_at": "2026-10-29T06:50:25Z",
+  "pushed_at": "2026-10-28T16:29:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 126,
+  "age_days": 127,
   "days_since_push": 0,
-  "health_score": 51,
+  "health_score": 52,
   "health_components": {
     "popularity": 52.7,
-    "momentum": 0.0,
+    "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.44,
-    "basis": "history",
+    "stars_gained": 432,
+    "days_span": 127,
+    "stars_per_day": 3.4,
+    "lifetime_stars_per_day": 3.4,
+    "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
@@ -149,13 +149,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:56+00:00",
+  "fetched_at": "2026-10-29T10:57:24+00:00",
   "categories": [
-    "desktop-ui-2",
-    "memory-mcp",
-    "security-mcp"
+    "desktop-ui",
+    "sessions",
+    "teams-isolation"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

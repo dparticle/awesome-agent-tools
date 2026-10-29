@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 312 |
-| Star velocity | 2.6/day (history basis, 5d span) |
+| Stars | 311 |
+| Star velocity | 2.2/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-29 |
-| Last push | 2026-10-28 (0 days ago) |
-| Analyzed README | 22,857 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 23,865 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -45,6 +45,10 @@
 ### Usage analytics
 
 > d whether it stays above full-screen apps are configurable.
+
+### Memory & context
+
+> control, build output and system files, lets you pick the skills and the target CLIs (or the shared ~/.agents/skills folder), and never overwrites a folder of the same name.
 
 ### Skills & plugins
 
@@ -95,7 +99,7 @@ Score **55/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 49.9 |
-| momentum | 2.2 |
+| momentum | 1.8 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 61.0 |

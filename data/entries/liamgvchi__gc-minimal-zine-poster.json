@@ -6,36 +6,36 @@
   "url": "https://github.com/LiamGvchi/gc-minimal-zine-poster",
   "description": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
   "homepage": "",
-  "stars": 7422,
+  "stars": 7431,
   "forks": 333,
   "open_issues": 0,
   "language": "",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-12T09:54:51Z",
-  "updated_at": "2026-10-28T09:22:05Z",
+  "updated_at": "2026-10-29T10:42:20Z",
   "pushed_at": "2026-08-13T15:12:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 108,
-  "days_since_push": 75,
+  "age_days": 109,
+  "days_since_push": 76,
   "health_score": 50,
   "health_components": {
     "popularity": 77.4,
-    "momentum": 3.2,
+    "momentum": 3.8,
     "maintenance": 78.0,
     "documentation": 40.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 19,
+    "stars_gained": 23,
     "days_span": 5,
-    "stars_per_day": 3.8,
-    "lifetime_stars_per_day": 68.72,
+    "stars_per_day": 4.6,
+    "lifetime_stars_per_day": 68.17,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "LiamGvchi/gc-minimal-zine-poster",
@@ -104,7 +104,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:31+00:00",
+  "fetched_at": "2026-10-29T10:56:04+00:00",
   "categories": [
     "desktop-ui"
   ],

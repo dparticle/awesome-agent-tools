@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-06-12 |
-| Last push | 2026-09-13 (45 days ago) |
+| Last push | 2026-09-13 (46 days ago) |
 | Analyzed README | 6,581 chars from `raw:HEAD/README.md` |
 
 ## What it solves

@@ -6,9 +6,9 @@
   "url": "https://github.com/oomol-lab/open-connector",
   "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 6111,
-  "forks": 575,
-  "open_issues": 3,
+  "stars": 6126,
+  "forks": 578,
+  "open_issues": 5,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -32,27 +32,27 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-10-28T10:11:59Z",
-  "pushed_at": "2026-10-28T10:04:01Z",
+  "updated_at": "2026-10-29T09:29:02Z",
+  "pushed_at": "2026-10-29T03:47:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
+  "age_days": 122,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 75.7,
-    "momentum": 5.8,
+    "momentum": 7.7,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 35,
+    "stars_gained": 46,
     "days_span": 5,
-    "stars_per_day": 7.0,
-    "lifetime_stars_per_day": 50.92,
+    "stars_per_day": 9.2,
+    "lifetime_stars_per_day": 50.21,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -138,7 +138,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:33+00:00",
+  "fetched_at": "2026-10-29T10:56:06+00:00",
   "categories": [
     "memory-mcp"
   ],
@@ -164,14 +164,14 @@
         "model-routing",
         "self-hosted"
       ],
-      "star_ratio": 47.665,
-      "momentum_ratio": 127.771,
+      "star_ratio": 47.691,
+      "momentum_ratio": 100.391,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "47.66x the stars (291,279 vs 6,111)",
-        "127.77x the star velocity (894.4/day vs 7.0/day)",
+        "47.69x the stars (292,157 vs 6,126)",
+        "100.39x the star velocity (923.6/day vs 9.2/day)",
         "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],

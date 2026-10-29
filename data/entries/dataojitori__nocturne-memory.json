@@ -36,22 +36,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 307,
-  "days_since_push": 35,
+  "age_days": 308,
+  "days_since_push": 36,
   "health_score": 49,
   "health_components": {
     "popularity": 63.0,
-    "momentum": 1.2,
+    "momentum": 0.7,
     "maintenance": 78.0,
     "documentation": 66.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 4.6,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 4.58,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,11 +165,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:22+00:00",
+  "fetched_at": "2026-10-29T10:56:52+00:00",
   "categories": [
-    "isolation",
     "memory-mcp",
-    "security-mcp"
+    "mobile-remote-control",
+    "sessions"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
@@ -196,14 +196,14 @@
         "session-persistence",
         "worktree-isolation"
       ],
-      "star_ratio": 8.047,
-      "momentum_ratio": 1.143,
+      "star_ratio": 8.049,
+      "momentum_ratio": 2.0,
       "setup_delta": -21,
-      "dominance": 0.817,
+      "dominance": 0.886,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "8.05x the stars (11,362 vs 1,412)",
-        "1.14x the star velocity (1.6/day vs 1.4/day)",
+        "8.05x the stars (11,365 vs 1,412)",
+        "2.00x the star velocity (1.6/day vs 0.8/day)",
         "no harder to set up (39 vs 60 friction)"
       ],
       "reasons_zh": [],

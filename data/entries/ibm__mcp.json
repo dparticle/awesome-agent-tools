@@ -25,8 +25,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 573,
-  "days_since_push": 26,
+  "age_days": 574,
+  "days_since_push": 27,
   "health_score": 45,
   "health_components": {
     "popularity": 52.4,
@@ -107,7 +107,7 @@
       "IBM API Connect MCP Server - IBM APIC MCP server exposes API Connect capabilities to your MCP clients and AI Agent workflows.",
       "MCP Composer - FastMCP based library to manages multiple MCP servers & tools with dynamic registration, authentication, and unified interface..",
       "WxMCPServer - IBM webMethods Hybrid Integration (IWHI) based MCP server, that enables existing APIs to be used as MCP tools.",
-      "Langflow - Langflow is an open-source visual builder that lets developers rapidly prototype and build AI applications, it integrates with the Model Context Protocol (MCP) as both an MCP ser…"
+      "BeeAI Framework - BeeAI Framework is an open-source framework for building production-grade multi-agent systems, supporting both Python and TypeScript."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -118,13 +118,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:59+00:00",
+  "fetched_at": "2026-10-29T10:57:27+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "security-mcp"
+    "memory-mcp"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

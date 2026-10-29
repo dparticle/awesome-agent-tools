@@ -13,20 +13,26 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 510 |
-| Star velocity | 0.0/day (history basis, 11d span) |
+| Star velocity | 0.0/day (history basis, 12d span) |
 | Health score | 52/100 |
-| Documentation | 80/100 |
+| Documentation | 81/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-01-11 |
-| Last push | 2026-10-27 (0 days ago) |
-| Analyzed README | 28,489 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-28 (0 days ago) |
+| Analyzed README | 34,745 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
+### Automatic failover
+
 ### Multi-agent orchestration
+
+### Workspace isolation
+
+> cheduler pre-dispatch safety checks, the MCP server policy pipeline, and the Cordum Edge hook.
 
 ### Multi-provider aggregation
 
@@ -36,15 +42,13 @@
 
 ### MCP support
 
-> ed for distributed AI agent governance.
+> kthrough: docs/quickstart-edge.md.
 
 ### Security & isolation
 
-> doing until after they do it.
-
 ### Self-hostable
 
-> ## Contributing We welcome contributions! See CONTRIBUTING.md for guidelines.
+> cap-sdk-node on npm) cordum-io/cap Apache-2.0
 
 ### Team collaboration
 
@@ -69,7 +73,7 @@
 
 ## Documentation quality
 
-Score **80/100**, based on these detected signals:
+Score **81/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -93,7 +97,7 @@ Score **80/100**, based on these detected signals:
 | popularity | 54.2 |
 | momentum | 0.0 |
 | maintenance | 100.0 |
-| documentation | 80.0 |
+| documentation | 81.0 |
 | accessibility | 30.0 |
 
 ---

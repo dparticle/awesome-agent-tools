@@ -2,7 +2,7 @@
 
 # lemomo-ai/lemo-opuscar
 
-> A toolbox of film styles made in code: 59 ready to use, and your own.
+> A toolbox of film styles made in code: 66 ready to use, and your own.
 
 [Repository](https://github.com/lemomo-ai/lemo-opuscar) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,914 |
-| Star velocity | 605.0/day (history basis, 5d span) |
+| Stars | 9,270 |
+| Star velocity | 599.4/day (history basis, 5d span) |
 | Health score | 83/100 |
-| Documentation | 55/100 |
+| Documentation | 58/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-09-26 |
-| Last push | 2026-10-24 (4 days ago) |
-| Analyzed README | 33,807 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 36,420 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -50,12 +50,13 @@
 
 ## Documentation quality
 
-Score **55/100**, based on these detected signals:
+Score **58/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - documents installation
+- has contribution guidance
 - mentions licensing
 - links to dedicated docs
 - has a Chinese translation
@@ -65,10 +66,10 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.0 |
+| popularity | 79.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 55.0 |
+| documentation | 58.0 |
 | accessibility | 64.0 |
 
 ---

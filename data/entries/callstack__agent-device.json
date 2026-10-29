@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "full_name": "callstack/agent-device",
+  "name": "agent-device",
+  "owner": "callstack",
+  "url": "https://github.com/callstack/agent-device",
+  "description": "Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.",
+  "homepage": "https://agent-device.dev",
+  "stars": 5183,
+  "forks": 361,
+  "open_issues": 88,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "adb",
+    "agentic-ai",
+    "agents",
+    "ai-agents",
+    "android-emulator",
+    "automation",
+    "e2e-testing",
+    "expo",
+    "flutter",
+    "ios-simulator",
+    "mcp",
+    "mobile",
+    "mobile-testing",
+    "performance-optimization",
+    "react-native",
+    "testing",
+    "xcuitest"
+  ],
+  "created_at": "2026-01-30T18:41:54Z",
+  "updated_at": "2026-10-29T10:38:26Z",
+  "pushed_at": "2026-10-29T10:39:18Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 271,
+  "days_since_push": 0,
+  "health_score": 66,
+  "health_components": {
+    "popularity": 74.3,
+    "momentum": 15.9,
+    "maintenance": 100.0,
+    "documentation": 59.0,
+    "accessibility": 100.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 5183,
+    "days_span": 271,
+    "stars_per_day": 19.13,
+    "lifetime_stars_per_day": 19.13,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "callstack/agent-device",
+    "readme_chars": 14208,
+    "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "worktree-isolation",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "",
+      "mobile-access": "uns agent-browser in the same session and replay system.",
+      "multi-agent-orchestration": "ient setup and when to prefer plain CLI over MCP.",
+      "parallel-execution": "",
+      "worktree-isolation": "en-efficient accessibility snapshots instead of reasoning over screenshots alone, act through refs and selectors, and save evidence for review.",
+      "agent-runtime": "",
+      "mcp-support": "es device access across parallel agent worktrees and connects to remote device clouds.",
+      "gui-desktop": "ent-device mcp starts the official stdio MCP server.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "mobile-access": 7,
+      "multi-agent-orchestration": 1,
+      "parallel-execution": 1,
+      "worktree-isolation": 2,
+      "agent-runtime": 4,
+      "mcp-support": 13,
+      "gui-desktop": 3,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 18,
+      "out_of_the_box": true,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via global npm install; needs npm install/build; GUI application",
+      "note_zh": "开箱即用。可通过 global npm install 安装；需要 npm install/build；GUI application"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Cline / Roo",
+      "Goose"
+    ],
+    "summary_en": "Open source device layer for AI coding agents.",
+    "summary_zh": "",
+    "install_hint": "npm install -g agent-device@latest",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 2.956
+    },
+    "highlights": [
+      "\"Implement the onboarding screen, run it on the iOS simulator and Android emulator, and attach screenshots.\"",
+      "Agent Device: iOS & Android automation for AI agents"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-29T10:56:39+00:00",
+  "categories": [
+    "desktop-ui-2",
+    "mobile-remote-control",
+    "teams-isolation"
+  ],
+  "primary_category": "mobile-remote-control",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

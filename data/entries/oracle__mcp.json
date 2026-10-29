@@ -7,8 +7,8 @@
   "description": "Repository containing MCP (Model Context Protocol) servers that provides a suite of tools for managing and interacting with Oracle products.",
   "homepage": "",
   "stars": 469,
-  "forks": 152,
-  "open_issues": 51,
+  "forks": 153,
+  "open_issues": 52,
   "language": "Python",
   "license": "UPL-1.0",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 458,
-  "days_since_push": 0,
+  "age_days": 459,
+  "days_since_push": 1,
   "health_score": 55,
   "health_components": {
     "popularity": 53.4,
@@ -120,8 +120,8 @@
     "highlights": [
       "Verify the ollama server has started with curl http://localhost:11434.",
       "Fetch the large language model, where is the name of your desired model (e.g.",
-      "Add your desired server to the mcpServers object.",
-      "Click the MCP Servers button near the top of the the extension's panel."
+      "Click the MCP Servers button near the top of the the extension's panel.",
+      "Add your desired server to the mcpServers object."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -132,12 +132,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:53+00:00",
+  "fetched_at": "2026-10-29T10:57:21+00:00",
   "categories": [
-    "desktop-ui-2",
-    "security-mcp"
+    "memory-mcp"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

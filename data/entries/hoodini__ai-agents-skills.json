@@ -13,13 +13,13 @@
   "license": "",
   "topics": [],
   "created_at": "2026-01-07T15:25:35Z",
-  "updated_at": "2026-10-27T19:27:26Z",
-  "pushed_at": "2026-10-23T12:07:06Z",
+  "updated_at": "2026-10-29T09:07:53Z",
+  "pushed_at": "2026-10-29T09:07:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 293,
-  "days_since_push": 4,
+  "age_days": 294,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 49.3,
@@ -39,7 +39,7 @@
   },
   "analysis": {
     "full_name": "hoodini/ai-agents-skills",
-    "readme_chars": 49137,
+    "readme_chars": 50902,
     "capabilities": [
       "multi-account-switching",
       "multi-agent-orchestration",
@@ -50,6 +50,7 @@
       "skills-plugins",
       "agent-runtime",
       "mcp-support",
+      "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
@@ -61,7 +62,8 @@
       "memory-context": "agement** AWS Organizations, IAM, billing & multi-account AWS Organizations, IAM, SCPs, Cost Explorer",
       "skills-plugins": "Installs 16 skills as one package: director (award-winning film + AI-production Bible, story-first workflow) · yuv-pilot (top-of-pyramid orchestrator) · yuv-design-system (brand) · yuv-decks (cinematic presentations) ·…",
       "agent-runtime": "service accounts, and multi-account support",
-      "mcp-support": "asks, Meet, Forms, Admin, Keep, Apps Script, and more",
+      "mcp-support": "- **NEW: real sales from the course platform.** Connects to the Schooler MCP (or any checkout platform) to reconcile Meta's attributed purchases with actual enrollments, and turns the data into the cheapest sales you ha…",
+      "notifications": "",
       "cross-agent-support": "Mentions Aider, Claude Code, Cline, Continue"
     },
     "capability_hits": {
@@ -71,9 +73,10 @@
       "billing-metering": 1,
       "usage-analytics": 1,
       "memory-context": 1,
-      "skills-plugins": 12,
+      "skills-plugins": 13,
       "agent-runtime": 9,
-      "mcp-support": 3,
+      "mcp-support": 4,
+      "notifications": 1,
       "cross-agent-support": 7
     },
     "friction": {
@@ -130,7 +133,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.122
+      "external_link_ratio": 0.118
     },
     "highlights": [
       "scripts/extract_frames.py — ffprobe + ffmpeg -q:v 2 extraction with auto-computed scrollBudget (≈26 px per frame, clamped to [2500, 8000])",
@@ -147,10 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:16+00:00",
+  "fetched_at": "2026-10-29T10:57:42+00:00",
   "categories": [
-    "billing",
     "desktop-ui",
+    "memory-mcp",
     "sharing"
   ],
   "primary_category": "desktop-ui",

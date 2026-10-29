@@ -13,18 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 512 |
-| Star velocity | 3.5/day (lifetime basis, 148d span) |
+| Star velocity | 3.4/day (lifetime basis, 149d span) |
 | Health score | 48/100 |
 | Documentation | 39/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
-| Last push | 2026-10-16 (11 days ago) |
+| Last push | 2026-10-16 (12 days ago) |
 | Analyzed README | 5,623 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
 
 ## What it solves
 

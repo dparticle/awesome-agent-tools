@@ -6,7 +6,7 @@
   "url": "https://github.com/spinabot/brigade",
   "description": "Brigade — Your personal intelligence, built enterprise-grade",
   "homepage": "https://www.brigade.spinabot.com",
-  "stars": 11362,
+  "stars": 11365,
   "forks": 79,
   "open_issues": 40,
   "language": "TypeScript",
@@ -34,13 +34,13 @@
     "spinabot"
   ],
   "created_at": "2026-06-19T15:18:17Z",
-  "updated_at": "2026-10-28T06:31:59Z",
+  "updated_at": "2026-10-29T10:42:58Z",
   "pushed_at": "2026-10-23T02:46:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 130,
-  "days_since_push": 5,
+  "age_days": 131,
+  "days_since_push": 6,
   "health_score": 60,
   "health_components": {
     "popularity": 81.1,
@@ -54,7 +54,7 @@
     "stars_gained": 8,
     "days_span": 5,
     "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 87.4,
+    "lifetime_stars_per_day": 86.76,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -193,11 +193,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:24+00:00",
+  "fetched_at": "2026-10-29T10:55:58+00:00",
   "categories": [
     "billing",
-    "isolation",
-    "memory-mcp"
+    "memory-mcp",
+    "sessions"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {

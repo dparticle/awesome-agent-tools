@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,302 |
-| Star velocity | 104.2/day (history basis, 5d span) |
-| Health score | 79/100 |
+| Stars | 3,382 |
+| Star velocity | 118.0/day (history basis, 5d span) |
+| Health score | 82/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-05 |
-| Last push | 2026-10-26 (2 days ago) |
-| Analyzed README | 32,564 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 33,593 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Quota & usage management
 
-> fig.json 写 provider.profile（如 cli-claude），或者添加时带上环境变量，例如 claude mcp add vibe-research -e VRAPROVIDER=cli-claude -- node …、codex mcp add vibe-research --env VRAPROVIDER=cli-codex -- node …。
+> g.json 写 provider.profile（如 cli-claude），或者添加时带上环境变量，例如 claude mcp add vibe-research -e VRA_PROVIDER=cli-claude -- node …、codex mcp add vibe-research --env VRA_PROVIDER=cli-codex -- node …。
 
 ### Remote control
 
@@ -95,8 +95,8 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 70.4 |
-| momentum | 86.8 |
+| popularity | 70.6 |
+| momentum | 98.3 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 57.0 |

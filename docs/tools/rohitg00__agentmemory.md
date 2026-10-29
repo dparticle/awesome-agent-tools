@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 29,967 |
-| Star velocity | 30.2/day (history basis, 5d span) |
+| Stars | 29,993 |
+| Star velocity | 29.8/day (history basis, 5d span) |
 | Health score | 71/100 |
 | Documentation | 73/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-25 |
-| Last push | 2026-10-28 (0 days ago) |
-| Analyzed README | 93,876 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 89,579 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,7 +34,7 @@
 
 ### Multi-agent orchestration
 
-> ep / vector / agentmemory adapters score side-by-side, NDJSON output, published scorecards land in docs/benchmarks/.
+> er's current pricing before enabling it.
 
 ### Model / provider routing
 
@@ -48,7 +48,7 @@
 
 ### Session persistence
 
-> hese work like sticky notes.
+> s and lessons searchable from the agent you are using now.
 
 ### Memory & context
 
@@ -128,7 +128,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 89.5 |
-| momentum | 25.2 |
+| momentum | 24.8 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 68.0 |

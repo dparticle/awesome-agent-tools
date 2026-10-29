@@ -2,7 +2,7 @@
 
 # miuuyy/codex-chatgpt-web
 
-> Use the ChatGPT Web models available on your account, including Pro, from Codex’s native model picker—with ChatGPT Web’s separate usage limits, without spending your Work or Codex quota.
+> Use the ChatGPT Web models available on your account, including Pro, from Codex’s native model picker.
 
 [Repository](https://github.com/miuuyy/codex-chatgpt-web) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,147 |
-| Star velocity | 56.6/day (history basis, 5d span) |
+| Stars | 15,221 |
+| Star velocity | 61.8/day (history basis, 5d span) |
 | Health score | 72/100 |
-| Documentation | 50/100 |
+| Documentation | 45/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-26 |
-| Last push | 2026-10-26 (2 days ago) |
-| Analyzed README | 11,625 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 11,774 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### MCP support
 
-> thout spending your Work or Codex quota.
+> t to the limits applied to that account.
 
 ## Setup reality check
 
@@ -55,12 +55,11 @@
 
 ## Documentation quality
 
-Score **50/100**, based on these detected signals:
+Score **45/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - documents installation
-- documents configuration
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
@@ -72,9 +71,9 @@ Score **50/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.6 |
-| momentum | 47.2 |
+| momentum | 51.5 |
 | maintenance | 100.0 |
-| documentation | 50.0 |
+| documentation | 45.0 |
 | accessibility | 75.0 |
 
 ---

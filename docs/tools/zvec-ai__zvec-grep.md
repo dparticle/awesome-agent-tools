@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,197 |
-| Star velocity | 8.2/day (history basis, 5d span) |
-| Health score | 57/100 |
-| Documentation | 51/100 |
+| Stars | 4,204 |
+| Star velocity | 8.8/day (history basis, 5d span) |
+| Health score | 60/100 |
+| Documentation | 61/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-07-10 |
-| Last push | 2026-10-28 (0 days ago) |
-| Analyzed README | 15,707 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 16,067 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,34 +32,35 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Copilot, Cursor
+> Mentions Claude Code, Codex, OpenCode
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 43/100)
+- **Difficulty:** 🟢 Easy (friction score 34/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install -g @zvec/zvec-grep`
 
-**Signals that make it easy:** global npm install
+**Signals that make it easy:** Homebrew install, global npm install
 
 **Signals that add work:** npm install/build
 
 **Configuration required:** environment variables, database dependency, server/reverse-proxy setup
 
-*Some setup. install via global npm install; needs npm install/build; configure environment variables, database dependency*
+*Easy. install via Homebrew install, global npm install; needs npm install/build; configure environment variables, database dependency*
 
 ## Documentation quality
 
-Score **51/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
+- has a quick-start section
 - documents installation
+- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
-- publishes a roadmap
 - reports benchmarks
 - explains architecture
 
@@ -68,10 +69,10 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 72.5 |
-| momentum | 6.8 |
+| momentum | 7.3 |
 | maintenance | 100.0 |
-| documentation | 51.0 |
-| accessibility | 57.0 |
+| documentation | 61.0 |
+| accessibility | 66.0 |
 
 ---
 

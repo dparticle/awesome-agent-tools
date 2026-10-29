@@ -7,19 +7,19 @@
   "description": "A curated collection of [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code/skills) for developing ComfyUI custom nodes. These skills give Claude comprehensive knowledge of the ComfyUI node system, covering both the V3 (recommended) and V1 (legacy) APIs.",
   "homepage": "",
   "stars": 309,
-  "forks": 28,
+  "forks": 29,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-05T15:48:21Z",
-  "updated_at": "2026-10-26T07:56:36Z",
+  "updated_at": "2026-10-28T23:43:39Z",
   "pushed_at": "2026-10-17T01:10:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 236,
-  "days_since_push": 11,
+  "age_days": 237,
+  "days_since_push": 12,
   "health_score": 44,
   "health_components": {
     "popularity": 49.8,
@@ -33,7 +33,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.31,
+    "lifetime_stars_per_day": 1.3,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -117,10 +117,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:12+00:00",
+  "fetched_at": "2026-10-29T10:57:38+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -144,14 +143,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.929,
-      "momentum_ratio": 7.667,
+      "star_ratio": 2.935,
+      "momentum_ratio": 6.667,
       "setup_delta": -29,
       "dominance": 0.995,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.93x the stars (905 vs 309)",
-        "7.67x the star velocity (4.6/day vs 0.6/day)",
+        "2.94x the stars (907 vs 309)",
+        "6.67x the star velocity (4.0/day vs 0.6/day)",
         "no harder to set up (21 vs 50 friction)"
       ],
       "reasons_zh": [],

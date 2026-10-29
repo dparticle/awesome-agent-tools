@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 598,
-  "days_since_push": 5,
+  "age_days": 599,
+  "days_since_push": 6,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -134,17 +134,77 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:04+00:00",
+  "fetched_at": "2026-10-29T10:57:32+00:00",
   "categories": [
     "desktop-ui-2",
-    "security-mcp"
+    "memory-mcp"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "nwiizo/tfmcp",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "nwiizo/tfmcp",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "model-routing",
+        "security-isolation",
+        "skills-plugins"
+      ],
+      "star_ratio": 80.626,
+      "momentum_ratio": 596.0,
+      "setup_delta": -20,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "80.63x the stars (29,993 vs 372)",
+        "596.00x the star velocity (29.8/day vs 0.0/day)",
+        "no harder to set up (32 vs 52 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 71,
+        "incumbent_setup_score": 52,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

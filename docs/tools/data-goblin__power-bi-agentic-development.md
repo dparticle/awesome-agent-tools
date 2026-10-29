@@ -21,7 +21,7 @@
 | License | GPL-3.0 |
 | Language | C# |
 | Created | 2026-01-15 |
-| Last push | 2026-10-26 (2 days ago) |
+| Last push | 2026-10-28 (0 days ago) |
 | Analyzed README | 30,110 chars from `raw:HEAD/README.md` |
 
 ## What it solves

@@ -6,7 +6,7 @@
   "url": "https://github.com/zhnt/loushang",
   "description": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance,   traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
   "homepage": "",
-  "stars": 1898,
+  "stars": 1910,
   "forks": 295,
   "open_issues": 49,
   "language": "Python",
@@ -34,26 +34,26 @@
     "workflow"
   ],
   "created_at": "2026-05-29T17:25:11Z",
-  "updated_at": "2026-10-28T07:40:50Z",
+  "updated_at": "2026-10-29T10:10:09Z",
   "pushed_at": "2026-10-28T06:02:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 151,
-  "days_since_push": 0,
+  "age_days": 152,
+  "days_since_push": 1,
   "health_score": 56,
   "health_components": {
     "popularity": 65.6,
-    "momentum": 8.7,
+    "momentum": 9.2,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 52,
+    "stars_gained": 55,
     "days_span": 5,
-    "stars_per_day": 10.4,
+    "stars_per_day": 11.0,
     "lifetime_stars_per_day": 12.57,
     "basis": "history",
     "is_fast_riser": true
@@ -119,7 +119,9 @@
       "signals": [],
       "external_link_ratio": 0.0
     },
-    "highlights": [],
+    "highlights": [
+      "loushang code: a coding-focused CLI and terminal workbench."
+    ],
     "summary_zh_native": "Loushang 是一个把复杂工作变成可运行流程的智能工作系统。",
     "highlights_zh": [
       "会话：可恢复、可分叉、可导出、可检查的 coding 对话与执行记录。",
@@ -134,11 +136,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:17+00:00",
+  "fetched_at": "2026-10-29T10:56:47+00:00",
   "categories": [
-    "model-routing"
+    "sessions"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "sessions",
   "lifecycle": {
     "state": "active",
     "note_en": "",

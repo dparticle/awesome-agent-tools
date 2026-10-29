@@ -6,9 +6,9 @@
   "url": "https://github.com/metatool-ai/metamcp",
   "description": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
   "homepage": "https://docs.metamcp.com",
-  "stars": 2732,
-  "forks": 441,
-  "open_issues": 119,
+  "stars": 2735,
+  "forks": 442,
+  "open_issues": 120,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -29,26 +29,26 @@
     "vibe-coding"
   ],
   "created_at": "2025-01-22T11:58:52Z",
-  "updated_at": "2026-10-27T00:58:33Z",
+  "updated_at": "2026-10-29T00:09:22Z",
   "pushed_at": "2026-06-22T16:50:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "ai-dev",
-  "age_days": 643,
-  "days_since_push": 127,
+  "age_days": 644,
+  "days_since_push": 128,
   "health_score": 46,
   "health_components": {
     "popularity": 68.7,
-    "momentum": 1.5,
+    "momentum": 2.0,
     "maintenance": 55.0,
     "documentation": 88.0,
     "accessibility": 8.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 1.8,
+    "stars_per_day": 2.4,
     "lifetime_stars_per_day": 4.25,
     "basis": "history",
     "is_fast_riser": false
@@ -154,12 +154,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:14+00:00",
+  "fetched_at": "2026-10-29T10:56:45+00:00",
   "categories": [
     "desktop-ui-2",
-    "security-mcp"
+    "memory-mcp"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

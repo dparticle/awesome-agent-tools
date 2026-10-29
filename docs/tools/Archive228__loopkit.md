@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 755 |
-| Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 45/100 |
+| Stars | 756 |
+| Star velocity | 0.2/day (history basis, 5d span) |
+| Health score | 46/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Shell |
 | Created | 2026-06-30 |
-| Last push | 2026-07-14 (105 days ago) |
+| Last push | 2026-07-14 (106 days ago) |
 | Analyzed README | 15,078 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -81,7 +81,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 57.6 |
-| momentum | 0.0 |
+| momentum | 0.2 |
 | maintenance | 55.0 |
 | documentation | 54.0 |
 | accessibility | 81.0 |

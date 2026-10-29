@@ -6,9 +6,9 @@
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
   "homepage": "https://paperclip.ing",
-  "stars": 108140,
-  "forks": 17922,
-  "open_issues": 6734,
+  "stars": 108440,
+  "forks": 17962,
+  "open_issues": 6675,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "workflow-automation"
   ],
   "created_at": "2026-03-02T15:01:51Z",
-  "updated_at": "2026-10-28T10:30:34Z",
-  "pushed_at": "2026-10-28T09:52:07Z",
+  "updated_at": "2026-10-29T10:53:22Z",
+  "pushed_at": "2026-10-29T10:50:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 239,
+  "age_days": 240,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1796,
+    "stars_gained": 1736,
     "days_span": 5,
-    "stars_per_day": 359.2,
-    "lifetime_stars_per_day": 452.47,
+    "stars_per_day": 347.2,
+    "lifetime_stars_per_day": 451.83,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "paperclipai/paperclip",
-    "readme_chars": 34243,
+    "readme_chars": 34249,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -91,7 +91,7 @@
       "memory-context": "",
       "skills-plugins": "ntelemetry/api is a normal server dependency; the SDK, auto-instrumentation, and exporter packages are optional peer dependencies — install them only if you want tracing.",
       "agent-runtime": "delegation and supported managed connections.",
-      "mcp-support": "Novita, self-hosted Kubernetes)",
+      "mcp-support": ", boxd, self-hosted Kubernetes)",
       "security-isolation": "bility-gated host services, job scheduling, tool exposure, and UI contributions.",
       "self-hosted": "ion sign-in also needs Python 3 and the",
       "team-collaboration": "",
@@ -192,13 +192,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:48+00:00",
+  "fetched_at": "2026-10-29T10:56:20+00:00",
   "categories": [
     "analytics",
-    "memory-mcp",
-    "mobile-remote-control"
+    "mobile-remote-control",
+    "teams-isolation"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

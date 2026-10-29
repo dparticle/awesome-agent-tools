@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 510,
   "forks": 34,
-  "open_issues": 25,
+  "open_issues": 10,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,25 +34,25 @@
     "workflow-engine"
   ],
   "created_at": "2026-01-11T16:56:02Z",
-  "updated_at": "2026-10-27T17:16:05Z",
-  "pushed_at": "2026-10-27T18:40:32Z",
+  "updated_at": "2026-10-28T13:50:33Z",
+  "pushed_at": "2026-10-28T18:49:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 289,
+  "age_days": 290,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 54.2,
     "momentum": 0.0,
     "maintenance": 100.0,
-    "documentation": 80.0,
+    "documentation": 81.0,
     "accessibility": 30.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 11,
+    "days_span": 12,
     "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.76,
     "basis": "history",
@@ -60,9 +60,11 @@
   },
   "analysis": {
     "full_name": "cordum-io/cordum",
-    "readme_chars": 28489,
+    "readme_chars": 34745,
     "capabilities": [
+      "auto-failover",
       "multi-agent-orchestration",
+      "worktree-isolation",
       "provider-aggregation",
       "api-gateway",
       "mcp-support",
@@ -72,20 +74,24 @@
       "notifications"
     ],
     "capability_evidence": {
+      "auto-failover": "",
       "multi-agent-orchestration": "",
+      "worktree-isolation": "cheduler pre-dispatch safety checks, the MCP server policy pipeline, and the Cordum Edge hook.",
       "provider-aggregation": "",
       "api-gateway": "pre-built images? docker compose pull && docker compose up -d (Option B below)",
-      "mcp-support": "ed for distributed AI agent governance.",
-      "security-isolation": "doing until after they do it.",
-      "self-hosted": "## Contributing We welcome contributions! See CONTRIBUTING.md for guidelines.",
+      "mcp-support": "kthrough: docs/quickstart-edge.md.",
+      "security-isolation": "",
+      "self-hosted": "cap-sdk-node on npm) cordum-io/cap Apache-2.0",
       "team-collaboration": "- Email: See SECURITY.md for contact details ## Enterprise Cordum Enterprise features (shipped in core, unlocked by license entitlement): - SSO/SAML/OIDC integration + SCIM provisioning - Advanced RBAC with role hierarc…",
       "notifications": ""
     },
     "capability_hits": {
+      "auto-failover": 1,
       "multi-agent-orchestration": 1,
+      "worktree-isolation": 1,
       "provider-aggregation": 1,
       "api-gateway": 1,
-      "mcp-support": 11,
+      "mcp-support": 14,
       "security-isolation": 1,
       "self-hosted": 1,
       "team-collaboration": 1,
@@ -120,7 +126,7 @@
       "note_en": "Involved setup. install via pip install; needs docker compose up, helm install; configure API key configuration, sign-in required",
       "note_zh": "配置较重。可通过 pip install 安装；需要 docker compose up、helm install；需配置 API key configuration、sign-in required"
     },
-    "doc_score": 80,
+    "doc_score": 81,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -148,12 +154,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.842
+      "external_link_ratio": 1.036
     },
     "highlights": [
       "Gateway HTTP/SSE mode via /mcp/message and /mcp/sse (when mcp.enabled=true)",
       "Protocol Stability: CAP v2 wire format frozen until February 2027",
-      "SSO/SAML/OIDC integration + SCIM provisioning"
+      "SSO/SAML/OIDC integration + SCIM provisioning",
+      "Cordum core (v . . tags, currently 1.x). A v* tag builds and signs the container"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -164,11 +171,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:49+00:00",
+  "fetched_at": "2026-10-29T10:57:17+00:00",
   "categories": [
     "memory-mcp",
     "providers-2",
-    "security-mcp"
+    "teams-isolation"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

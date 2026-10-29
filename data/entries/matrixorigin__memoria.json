@@ -6,9 +6,9 @@
   "url": "https://github.com/matrixorigin/memoria",
   "description": "Secure memory management for AI Agents • Ensures data integrity • Reduces hallucinations • Maintains consistent long-term context",
   "homepage": "https://thememoria.ai/",
-  "stars": 617,
+  "stars": 618,
   "forks": 78,
-  "open_issues": 45,
+  "open_issues": 49,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -20,27 +20,27 @@
     "storage"
   ],
   "created_at": "2026-03-09T23:44:24Z",
-  "updated_at": "2026-10-27T04:05:26Z",
+  "updated_at": "2026-10-29T06:23:52Z",
   "pushed_at": "2026-10-26T03:49:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 232,
-  "days_since_push": 2,
+  "age_days": 233,
+  "days_since_push": 3,
   "health_score": 51,
   "health_components": {
     "popularity": 55.8,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.66,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 2.65,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,11 +139,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:43+00:00",
+  "fetched_at": "2026-10-29T10:57:12+00:00",
   "categories": [
     "analytics",
-    "memory-mcp",
-    "security-mcp"
+    "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
@@ -169,14 +168,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 472.089,
-      "momentum_ratio": 2236.0,
+      "star_ratio": 472.746,
+      "momentum_ratio": 1539.333,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "472.09x the stars (291,279 vs 617)",
-        "2236.00x the star velocity (894.4/day vs 0.4/day)",
+        "472.75x the stars (292,157 vs 618)",
+        "1539.33x the star velocity (923.6/day vs 0.6/day)",
         "no harder to set up (57 vs 63 friction)"
       ],
       "reasons_zh": [],

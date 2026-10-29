@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 401 |
-| Star velocity | 0.6/day (history basis, 5d span) |
-| Health score | 51/100 |
+| Star velocity | 0.2/day (history basis, 5d span) |
+| Health score | 50/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2025-10-25 |
-| Last push | 2026-10-27 (0 days ago) |
+| Last push | 2026-10-27 (1 days ago) |
 | Analyzed README | 16,865 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (8/8).
 
 ## What it solves
 
@@ -88,7 +90,7 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 52.1 |
-| momentum | 0.5 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
 | documentation | 51.0 |
 | accessibility | 64.0 |

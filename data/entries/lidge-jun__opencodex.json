@@ -6,9 +6,9 @@
   "url": "https://github.com/lidge-jun/opencodex",
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
   "homepage": "https://opencodex.me/",
-  "stars": 17992,
-  "forks": 1409,
-  "open_issues": 110,
+  "stars": 18023,
+  "forks": 1414,
+  "open_issues": 92,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "typescript"
   ],
   "created_at": "2026-06-18T23:03:18Z",
-  "updated_at": "2026-10-28T09:56:14Z",
-  "pushed_at": "2026-10-28T10:23:30Z",
+  "updated_at": "2026-10-29T10:00:38Z",
+  "pushed_at": "2026-10-29T08:38:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 131,
+  "age_days": 132,
   "days_since_push": 0,
   "health_score": 67,
   "health_components": {
     "popularity": 85.1,
-    "momentum": 31.7,
+    "momentum": 33.3,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 58.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 190,
+    "stars_gained": 200,
     "days_span": 5,
-    "stars_per_day": 38.0,
-    "lifetime_stars_per_day": 137.34,
+    "stars_per_day": 40.0,
+    "lifetime_stars_per_day": 136.54,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "lidge-jun/opencodex",
-    "readme_chars": 20110,
+    "readme_chars": 22128,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -72,14 +72,14 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "tokens, images, in both directions.",
+      "multi-account-switching": ", Gemini, Grok, GLM, DeepSeek, Kimi, Qwen, Ollama and other",
       "auto-failover": "",
       "multi-agent-orchestration": "### Claude Desktop, running any model Opus answers, then hands the task to a GPT-5.6 Sol subagent. ### Grok Build, running any model Sol drives the session and calls a Kimi K3 subagent. English · Français · 한국어 · 简体中文 ·…",
       "model-routing": "vision sidecars** — non-OpenAI models get real web search and image understanding",
       "api-gateway": "ystem One-compatible server.",
       "self-hosted": "e first currently eligible target; caller",
-      "gui-desktop": "t:10100 and configure everything in the web dashboard — add providers",
-      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+      "gui-desktop": "run prepare-sidecar && bun run prepare-widget && bun run build:local on macOS,",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
     },
     "capability_hits": {
       "multi-account-switching": 4,
@@ -89,7 +89,7 @@
       "api-gateway": 2,
       "self-hosted": 1,
       "gui-desktop": 5,
-      "cross-agent-support": 3
+      "cross-agent-support": 5
     },
     "friction": {
       "level": "moderate",
@@ -138,9 +138,10 @@
       "Claude Code",
       "Codex",
       "OpenCode",
-      "Cursor"
+      "Cursor",
+      "Cline / Roo"
     ],
-    "summary_en": "Two commands, and every one of them runs any LLM you point it at.",
+    "summary_en": "and connect OpenCode, Pi, Qoder, WorkBuddy, Kilo, Cline, T3 Code and more through managed configs.",
     "summary_zh": "",
     "install_hint": "npm install -g @bitkyc08/opencodex",
     "source": "raw:HEAD/README.md",
@@ -148,7 +149,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.144
+      "external_link_ratio": 1.22
     },
     "highlights": [
       "31 state-store registrations handle expiry sweeps (60 s interval) and",
@@ -165,9 +166,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:19+00:00",
+  "fetched_at": "2026-10-29T10:55:54+00:00",
   "categories": [
-    "desktop-ui-2",
     "model-routing",
     "sharing"
   ],

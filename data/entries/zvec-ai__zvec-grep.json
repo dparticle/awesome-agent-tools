@@ -6,8 +6,8 @@
   "url": "https://github.com/zvec-ai/zvec-grep",
   "description": "Local-first search across your workspace, built for humans and AI agents.",
   "homepage": "",
-  "stars": 4197,
-  "forks": 251,
+  "stars": 4204,
+  "forks": 252,
   "open_issues": 89,
   "language": "Rust",
   "license": "Apache-2.0",
@@ -24,51 +24,52 @@
     "vector-search"
   ],
   "created_at": "2026-07-10T02:58:07Z",
-  "updated_at": "2026-10-28T09:45:15Z",
-  "pushed_at": "2026-10-28T06:25:23Z",
+  "updated_at": "2026-10-29T10:12:59Z",
+  "pushed_at": "2026-10-29T08:40:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 110,
+  "age_days": 111,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 60,
   "health_components": {
     "popularity": 72.5,
-    "momentum": 6.8,
+    "momentum": 7.3,
     "maintenance": 100.0,
-    "documentation": 51.0,
-    "accessibility": 57.0
+    "documentation": 61.0,
+    "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 41,
+    "stars_gained": 44,
     "days_span": 5,
-    "stars_per_day": 8.2,
-    "lifetime_stars_per_day": 38.15,
+    "stars_per_day": 8.8,
+    "lifetime_stars_per_day": 37.87,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zvec-ai/zvec-grep",
-    "readme_chars": 15707,
+    "readme_chars": 16067,
     "capabilities": [
       "mcp-support",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "mcp-support": "environment-variable default, update its startup",
-      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
       "mcp-support": 1,
-      "cross-agent-support": 6
+      "cross-agent-support": 3
     },
     "friction": {
-      "level": "moderate",
-      "score": 43,
+      "level": "low",
+      "score": 34,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
+        "Homebrew install",
         "global npm install"
       ],
       "hard_signals": [
@@ -86,28 +87,26 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via global npm install; needs npm install/build; configure environment variables, database dependency",
-      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 environment variables、database dependency"
+      "note_en": "Easy. install via Homebrew install, global npm install; needs npm install/build; configure environment variables, database dependency",
+      "note_zh": "较易上手。可通过 Homebrew install、global npm install 安装；需要 npm install/build；需配置 environment variables、database dependency"
     },
-    "doc_score": 51,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
+      "has a quick-start section",
       "documents installation",
+      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
-      "publishes a roadmap",
       "reports benchmarks",
       "explains architecture"
     ],
     "agents": [
       "Claude Code",
       "Codex",
-      "OpenCode",
-      "Cursor",
-      "Copilot",
-      "Qwen Code"
+      "OpenCode"
     ],
     "summary_en": "zg (zvec-grep), powered by zvec, unifies ripgrep, BM25, and vector search behind one local-first interface.",
     "summary_zh": "",
@@ -119,7 +118,7 @@
       "signals": [
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.446
+      "external_link_ratio": 1.245
     },
     "highlights": [
       "It was carnivorous because it climbed the curtain toward a canary's cage"
@@ -128,8 +127,8 @@
     "highlights_zh": [
       "人与 Agent 开箱即用：安装一次、索引一次，即可在 macOS、Linux 和",
       "更少搜索，更少上下文：经过排序并保留来源的结果，可以减少工具调用、",
-      "Matplotlib — 绘图与渲染库： 任务需要沿数学文本渲染的多个阶段追踪",
-      "Pylint — Python 静态分析器： 任务需要理解 AST 节点处理如何区分带标注与"
+      "Django — Web 框架： 任务关联 username 唯一约束、ORM 事务和 formset",
+      "Matplotlib — 绘图与渲染库： 任务需要沿数学文本渲染的多个阶段追踪"
     ],
     "chinese_readme": "README_CN.md"
   },
@@ -138,11 +137,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:38+00:00",
+  "fetched_at": "2026-10-29T10:56:10+00:00",
   "categories": [
-    "security-mcp"
+    "memory-mcp"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

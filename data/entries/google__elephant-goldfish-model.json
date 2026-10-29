@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "full_name": "google/elephant-goldfish-model",
+  "name": "elephant-goldfish-model",
+  "owner": "google",
+  "url": "https://github.com/google/elephant-goldfish-model",
+  "description": "Open-source skills for designing and reviewing software with AI agents",
+  "homepage": "https://egm.dev",
+  "stars": 5280,
+  "forks": 316,
+  "open_issues": 51,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "codex-plugin",
+    "coding-agents",
+    "context-engineering",
+    "developer-tools",
+    "gemini",
+    "llm",
+    "multi-agent",
+    "prompt-engineering",
+    "spec-driven-development"
+  ],
+  "created_at": "2026-09-13T16:31:06Z",
+  "updated_at": "2026-10-29T10:55:13Z",
+  "pushed_at": "2026-10-29T10:23:12Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 45,
+  "days_since_push": 0,
+  "health_score": 79,
+  "health_components": {
+    "popularity": 74.5,
+    "momentum": 97.8,
+    "maintenance": 100.0,
+    "documentation": 42.0,
+    "accessibility": 70.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 5280,
+    "days_span": 45,
+    "stars_per_day": 117.33,
+    "lifetime_stars_per_day": 117.33,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "google/elephant-goldfish-model",
+    "readme_chars": 7504,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "agent-runtime",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "laude Code, add the /egm: prefix, for example /egm:egm-brainstorm.",
+      "agent-runtime": "prove the specification before implementing.",
+      "notifications": "For **Claude Cowork** and **ChatGPT Work**, see the setup guide.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 3,
+      "agent-runtime": 3,
+      "notifications": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Easy. No setup signals found in the README.",
+      "note_zh": "较易上手。README 中没有找到安装/配置说明。"
+    },
+    "doc_score": 42,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Thousands of Google engineers use EGM, an open-source plugin, to draft specs with deep-context agents and stress-test them with zero-context subagents before writing code.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.4
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-29T10:56:08+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

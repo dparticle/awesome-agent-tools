@@ -6,7 +6,7 @@
   "url": "https://github.com/AVIDS2/memorix",
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
-  "stars": 875,
+  "stars": 882,
   "forks": 74,
   "open_issues": 8,
   "language": "TypeScript",
@@ -34,29 +34,29 @@
     "windsurf"
   ],
   "created_at": "2026-02-14T06:53:17Z",
-  "updated_at": "2026-10-28T06:10:48Z",
+  "updated_at": "2026-10-29T09:27:35Z",
   "pushed_at": "2026-10-25T14:26:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 256,
-  "days_since_push": 2,
+  "age_days": 257,
+  "days_since_push": 3,
   "health_score": 52,
   "health_components": {
-    "popularity": 58.8,
-    "momentum": 3.0,
+    "popularity": 58.9,
+    "momentum": 4.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 25,
     "days_span": 5,
-    "stars_per_day": 3.6,
-    "lifetime_stars_per_day": 3.42,
+    "stars_per_day": 5.0,
+    "lifetime_stars_per_day": 3.43,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "AVIDS2/memorix",
@@ -182,7 +182,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:36+00:00",
+  "fetched_at": "2026-10-29T10:57:05+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -216,14 +216,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 332.89,
-      "momentum_ratio": 248.444,
+      "star_ratio": 331.244,
+      "momentum_ratio": 184.72,
       "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "332.89x the stars (291,279 vs 875)",
-        "248.44x the star velocity (894.4/day vs 3.6/day)",
+        "331.24x the stars (292,157 vs 882)",
+        "184.72x the star velocity (923.6/day vs 5.0/day)",
         "no harder to set up (57 vs 73 friction)"
       ],
       "reasons_zh": [],

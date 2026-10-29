@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 427 |
-| Star velocity | 0.0/day (history basis, 6d span) |
+| Star velocity | 0.0/day (history basis, 7d span) |
 | Health score | 55/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-08-16 |
-| Last push | 2026-10-14 (14 days ago) |
+| Last push | 2026-10-14 (15 days ago) |
 | Analyzed README | 14,672 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 

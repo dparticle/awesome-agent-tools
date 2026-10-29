@@ -6,8 +6,8 @@
   "url": "https://github.com/Lampese/codex-switcher",
   "description": "A Desktop Application for Managing Multiple OpenAI Codex CLI Accounts",
   "homepage": "",
-  "stars": 908,
-  "forks": 163,
+  "stars": 907,
+  "forks": 162,
   "open_issues": 69,
   "language": "Rust",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "vibe-coding"
   ],
   "created_at": "2026-01-14T02:44:13Z",
-  "updated_at": "2026-10-28T04:45:51Z",
+  "updated_at": "2026-10-29T03:26:42Z",
   "pushed_at": "2026-10-28T00:34:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 287,
-  "days_since_push": 0,
+  "age_days": 288,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 59.2,
-    "momentum": 0.8,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 33.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 3.16,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 3.15,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:34+00:00",
+  "fetched_at": "2026-10-29T10:57:03+00:00",
   "categories": [
     "sharing"
   ],

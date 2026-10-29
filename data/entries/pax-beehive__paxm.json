@@ -6,7 +6,7 @@
   "url": "https://github.com/pax-beehive/paxm",
   "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
   "homepage": "",
-  "stars": 283,
+  "stars": 282,
   "forks": 11,
   "open_issues": 3,
   "language": "Go",
@@ -23,13 +23,13 @@
     "sqlite"
   ],
   "created_at": "2026-07-09T02:40:57Z",
-  "updated_at": "2026-10-23T16:07:46Z",
+  "updated_at": "2026-10-29T06:50:31Z",
   "pushed_at": "2026-08-28T22:40:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 111,
-  "days_since_push": 60,
+  "age_days": 112,
+  "days_since_push": 61,
   "health_score": 47,
   "health_components": {
     "popularity": 49.0,
@@ -40,10 +40,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 283,
-    "days_span": 111,
-    "stars_per_day": 2.55,
-    "lifetime_stars_per_day": 2.55,
+    "stars_gained": 282,
+    "days_span": 112,
+    "stars_per_day": 2.52,
+    "lifetime_stars_per_day": 2.52,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -148,11 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:18+00:00",
+  "fetched_at": "2026-10-29T10:57:43+00:00",
   "categories": [
     "analytics",
     "memory-mcp",
-    "security-mcp"
+    "sessions"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
@@ -179,14 +179,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 105.89,
-      "momentum_ratio": 11.843,
+      "star_ratio": 106.358,
+      "momentum_ratio": 11.825,
       "setup_delta": -8,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "105.89x the stars (29,967 vs 283)",
-        "11.84x the star velocity (30.2/day vs 2.5/day)",
+        "106.36x the stars (29,993 vs 282)",
+        "11.83x the star velocity (29.8/day vs 2.5/day)",
         "no harder to set up (32 vs 40 friction)"
       ],
       "reasons_zh": [],

@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,555 |
+| Stars | 15,568 |
 | Star velocity | 9.6/day (history basis, 5d span) |
 | Health score | 57/100 |
-| Documentation | 49/100 |
+| Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-29 |
-| Last push | 2026-10-28 (0 days ago) |
-| Analyzed README | 12,639 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 12,837 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).
 
 ## What it solves
 
@@ -73,7 +75,7 @@
 
 ## Documentation quality
 
-Score **49/100**, based on these detected signals:
+Score **54/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -82,6 +84,7 @@ Score **49/100**, based on these detected signals:
 - documents configuration
 - has contribution guidance
 - mentions licensing
+- links to dedicated docs
 - explains architecture
 
 ## Score breakdown
@@ -91,7 +94,7 @@ Score **49/100**, based on these detected signals:
 | popularity | 83.8 |
 | momentum | 8.0 |
 | maintenance | 100.0 |
-| documentation | 49.0 |
+| documentation | 54.0 |
 | accessibility | 28.0 |
 
 ---

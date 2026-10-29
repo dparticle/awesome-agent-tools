@@ -6,9 +6,9 @@
   "url": "https://github.com/xerj-org/xerj",
   "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
   "homepage": "https://xerj.org",
-  "stars": 17236,
-  "forks": 1267,
-  "open_issues": 91,
+  "stars": 17456,
+  "forks": 1315,
+  "open_issues": 62,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,16 +34,16 @@
     "vector-search"
   ],
   "created_at": "2026-06-30T04:32:45Z",
-  "updated_at": "2026-10-28T10:32:43Z",
-  "pushed_at": "2026-10-28T09:24:41Z",
+  "updated_at": "2026-10-29T10:44:07Z",
+  "pushed_at": "2026-10-29T10:06:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
+  "age_days": 121,
   "days_since_push": 0,
   "health_score": 87,
   "health_components": {
-    "popularity": 84.7,
+    "popularity": 84.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3995,
+    "stars_gained": 3242,
     "days_span": 5,
-    "stars_per_day": 799.0,
-    "lifetime_stars_per_day": 143.63,
+    "stars_per_day": 648.4,
+    "lifetime_stars_per_day": 144.26,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "xerj-org/xerj",
-    "readme_chars": 40327,
+    "readme_chars": 43065,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -71,14 +71,14 @@
     "capability_evidence": {
       "memory-context": "f the same primitive: xerj autoindex makes an agent",
       "agent-runtime": "rity audit of WordPress core,",
-      "mcp-support": "ks with Claude Code, Cursor and any MCP client.",
+      "mcp-support": "ith Claude Code, Cursor and any MCP client.",
       "gui-desktop": "Shell installer (get.ps1) puts xerj.exe in %LOCALAPPDATA%\\Programs\\xerj and adds that directory to the user PATH ((Get-Command xerj).Source confirms; XERJNOPATH=1 opts out).",
       "cross-agent-support": "Mentions Aider, Amp, Claude Code, Cline"
     },
     "capability_hits": {
       "memory-context": 3,
       "agent-runtime": 3,
-      "mcp-support": 24,
+      "mcp-support": 28,
       "gui-desktop": 2,
       "cross-agent-support": 13
     },
@@ -151,7 +151,7 @@
         "bullet list of external links",
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 1.017
+      "external_link_ratio": 0.975
     },
     "highlights": [
       "XERJ vs Lucene 10.3.1 for a source-pinned, six-axis comparison"
@@ -170,7 +170,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:20+00:00",
+  "fetched_at": "2026-10-29T10:55:54+00:00",
   "categories": [
     "desktop-ui-2",
     "memory-mcp"

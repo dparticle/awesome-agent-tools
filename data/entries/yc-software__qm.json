@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15555,
+  "stars": 15568,
   "forks": 1932,
-  "open_issues": 929,
+  "open_issues": 933,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,19 +18,19 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-10-28T07:16:21Z",
-  "pushed_at": "2026-10-28T06:57:05Z",
+  "updated_at": "2026-10-29T09:43:15Z",
+  "pushed_at": "2026-10-29T02:45:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 90,
+  "age_days": 91,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 83.8,
     "momentum": 8.0,
     "maintenance": 100.0,
-    "documentation": 49.0,
+    "documentation": 54.0,
     "accessibility": 28.0
   },
   "tier": "notable",
@@ -38,13 +38,13 @@
     "stars_gained": 48,
     "days_span": 5,
     "stars_per_day": 9.6,
-    "lifetime_stars_per_day": 172.83,
+    "lifetime_stars_per_day": 171.08,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yc-software/qm",
-    "readme_chars": 12639,
+    "readme_chars": 12837,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -103,7 +103,7 @@
       "note_en": "Involved setup. needs git clone (build from source), npm install/build; configure database dependency, database migration",
       "note_zh": "配置较重。需要 git clone (build from source)、npm install/build；需配置 database dependency、database migration"
     },
-    "doc_score": 49,
+    "doc_score": 54,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -112,6 +112,7 @@
       "documents configuration",
       "has contribution guidance",
       "mentions licensing",
+      "links to dedicated docs",
       "explains architecture"
     ],
     "agents": [
@@ -127,7 +128,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.396
+      "external_link_ratio": 0.467
     },
     "highlights": [
       "Shared skills. Skills are scope-owned and shareable by grant, with admin-gated",
@@ -144,18 +145,88 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:21+00:00",
+  "fetched_at": "2026-10-29T10:55:55+00:00",
   "categories": [
     "desktop-ui",
-    "isolation",
-    "security-mcp"
+    "sessions",
+    "teams-isolation"
   ],
-  "primary_category": "isolation",
+  "primary_category": "teams-isolation",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (10/10)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "yc-software/qm",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "yc-software/qm",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "model-routing",
+        "notifications",
+        "security-isolation",
+        "session-persistence",
+        "skills-plugins",
+        "team-collaboration",
+        "worktree-isolation"
+      ],
+      "star_ratio": 6.966,
+      "momentum_ratio": 36.167,
+      "setup_delta": -27,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (10/10)",
+        "6.97x the stars (108,440 vs 15,568)",
+        "36.17x the star velocity (347.2/day vs 9.6/day)",
+        "no harder to set up (45 vs 72 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "model-routing",
+          "notifications",
+          "security-isolation",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 89,
+        "incumbent_setup_score": 72,
+        "challenger_setup_score": 45
+      }
+    }
   }
 }

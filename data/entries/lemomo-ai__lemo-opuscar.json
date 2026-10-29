@@ -4,11 +4,11 @@
   "name": "lemo-opuscar",
   "owner": "lemomo-ai",
   "url": "https://github.com/lemomo-ai/lemo-opuscar",
-  "description": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的",
+  "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
   "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
-  "stars": 8914,
-  "forks": 1000,
-  "open_issues": 10,
+  "stars": 9270,
+  "forks": 1035,
+  "open_issues": 6,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "webgl"
   ],
   "created_at": "2026-09-26T10:10:41Z",
-  "updated_at": "2026-10-28T10:31:53Z",
-  "pushed_at": "2026-10-24T09:36:32Z",
+  "updated_at": "2026-10-29T10:51:16Z",
+  "pushed_at": "2026-10-29T05:52:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 32,
-  "days_since_push": 4,
+  "age_days": 33,
+  "days_since_push": 0,
   "health_score": 83,
   "health_components": {
-    "popularity": 79.0,
+    "popularity": 79.3,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 55.0,
+    "documentation": 58.0,
     "accessibility": 64.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3025,
+    "stars_gained": 2997,
     "days_span": 5,
-    "stars_per_day": 605.0,
-    "lifetime_stars_per_day": 278.56,
+    "stars_per_day": 599.4,
+    "lifetime_stars_per_day": 280.91,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "lemomo-ai/lemo-opuscar",
-    "readme_chars": 33807,
+    "readme_chars": 36420,
     "capabilities": [
       "model-routing",
       "agent-runtime",
@@ -94,17 +94,19 @@
       ],
       "platforms": [
         "macOS",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "note_en": "Some setup. needs git clone (build from source); GUI application",
       "note_zh": "需要一些配置。需要 git clone (build from source)；GUI application"
     },
-    "doc_score": 55,
+    "doc_score": 58,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
       "documents installation",
+      "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
       "has a Chinese translation",
@@ -114,7 +116,7 @@
       "Claude Code",
       "Cursor"
     ],
-    "summary_en": "A toolbox of film styles made in code: 59 ready to use, and your own.",
+    "summary_en": "A toolbox of film styles made in code: 66 ready to use, and your own.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -124,15 +126,15 @@
       "signals": [
         "self-describes as an awesome list"
       ],
-      "external_link_ratio": 0.444
+      "external_link_ratio": 0.494
     },
     "highlights": [
+      "You need Node 20+, ffmpeg 7+ and Python 3.11+ (or uv); the agent installs the rest.",
       "Default output 1920×1080, 24 fps; other sizes on request.",
-      "You need Node 20+, ffmpeg and Python 3.11+ (or uv); the agent installs the rest.",
       "A film takes an agent about 30–60 minutes and a fair amount of tokens.",
       "what it's for: what kind of films, which platform (vertical feeds want 1080×1920 or 1080×1440), any brand colours, logo, fonts or recurring characters;"
     ],
-    "summary_zh_native": "一套用代码做片的风格工具箱： 59 种现成风格，也能做出你自己的。",
+    "summary_zh_native": "一套用代码做片的风格工具箱： 66 种现成风格，也能做出你自己的。",
     "highlights_zh": [
       "拿来做什么：做什么片、发在哪个平台（竖屏就用 1080×1920 或 1080×1440），有没有品牌色、logo、字体或固定角色；",
       "一支片子 agent 大约要做 30–60 分钟，token 用量不小。",
@@ -146,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:27+00:00",
+  "fetched_at": "2026-10-29T10:56:00+00:00",
   "categories": [
     "model-routing"
   ],

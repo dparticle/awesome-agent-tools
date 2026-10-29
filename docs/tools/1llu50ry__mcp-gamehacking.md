@@ -2,7 +2,7 @@
 
 # 1llu50ry/mcp-gamehacking
 
-> 111 MCP tools · 59 RE/debug backends · 4,200+ skills · multi-agent mesh · zero-dep native parsers
+> 180+ MCP tools · 73 RE/debug backends · 9 host-side plugins · 4,200+ skills · multi-agent mesh · native x86-64 + ARM64 emulators
 
 [Repository](https://github.com/1llu50ry/mcp-gamehacking) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 393 |
-| Star velocity | 17.1/day (lifetime basis, 23d span) |
-| Health score | 57/100 |
-| Documentation | 68/100 |
+| Stars | 402 |
+| Star velocity | 16.8/day (lifetime basis, 24d span) |
+| Health score | 58/100 |
+| Documentation | 72/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-05 |
-| Last push | 2026-10-28 (0 days ago) |
-| Analyzed README | 29,327 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 29,765 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -42,7 +44,7 @@
 
 ### MCP support
 
-> MCP tools · 59 RE/debug backends · 4,200+ skills · multi-agent mesh · zero-dep native parsers
+> ler via gzipped source archives), + four feature waves: host plugin build systems, Frida bridge + dynamic analysis, ARM64 emulator + decompile cache + chunking, bindiff / ROP / game-engine metadata / MCP sampling / SVG…
 
 ### GUI / desktop app
 
@@ -69,7 +71,7 @@
 
 ## Documentation quality
 
-Score **68/100**, based on these detected signals:
+Score **72/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -80,6 +82,7 @@ Score **68/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - has a Chinese translation
+- documents changes
 - explains architecture
 - long, detailed README
 
@@ -87,10 +90,10 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.9 |
-| momentum | 14.2 |
+| popularity | 52.1 |
+| momentum | 14.0 |
 | maintenance | 100.0 |
-| documentation | 68.0 |
+| documentation | 72.0 |
 | accessibility | 68.0 |
 
 ---

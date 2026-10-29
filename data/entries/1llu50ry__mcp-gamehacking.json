@@ -6,40 +6,40 @@
   "url": "https://github.com/1llu50ry/mcp-gamehacking",
   "description": "MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools -- designed to be plugged into Claude, Cursor, or any MCP-compatible client.",
   "homepage": "",
-  "stars": 393,
-  "forks": 71,
+  "stars": 402,
+  "forks": 75,
   "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-10-05T06:07:53Z",
-  "updated_at": "2026-10-28T08:51:32Z",
-  "pushed_at": "2026-10-28T10:09:30Z",
+  "updated_at": "2026-10-29T08:56:14Z",
+  "pushed_at": "2026-10-29T09:49:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 23,
+  "age_days": 24,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 58,
   "health_components": {
-    "popularity": 51.9,
-    "momentum": 14.2,
+    "popularity": 52.1,
+    "momentum": 14.0,
     "maintenance": 100.0,
-    "documentation": 68.0,
+    "documentation": 72.0,
     "accessibility": 68.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 393,
-    "days_span": 23,
-    "stars_per_day": 17.09,
-    "lifetime_stars_per_day": 17.09,
+    "stars_gained": 402,
+    "days_span": 24,
+    "stars_per_day": 16.75,
+    "lifetime_stars_per_day": 16.75,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "1llu50ry/mcp-gamehacking",
-    "readme_chars": 29327,
+    "readme_chars": 29765,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -54,7 +54,7 @@
       "multi-agent-orchestration": "exploit development** pwndbg + GEF + angr + AFL++ + honggfuzz + LibAFL + Unicorn + ret-sync all behind one hub.",
       "memory-context": "dex/ChatGPT, Cursor, Copilot, Gemini CLI and custom bots share one workspace through MCP: register, DM + channel broadcast, task handoff with status machine, adversarial voting on findings, shared KV knowledge base, nam…",
       "skills-plugins": "are authorized to analyze.",
-      "mcp-support": "MCP tools · 59 RE/debug backends · 4,200+ skills · multi-agent mesh · zero-dep native parsers",
+      "mcp-support": "ler via gzipped source archives), + four feature waves: host plugin build systems, Frida bridge + dynamic analysis, ARM64 emulator + decompile cache + chunking, bindiff / ROP / game-engine metadata / MCP sampling / SVG…",
       "gui-desktop": "Supported backends: GhidraMCP, SuperghidraMCP (pyghidra-mcp, +gui), Ghidrathon MCP, ida-pro-mcp, Hex-Rays IDA MCP, Binary Ninja MCP, radare2 MCP, x64dbg MCP Server, WinDbg MCP, Cheat Engine MCP, Frida MCP, Hopper MCP, R…",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
@@ -63,7 +63,7 @@
       "multi-agent-orchestration": 2,
       "memory-context": 1,
       "skills-plugins": 1,
-      "mcp-support": 60,
+      "mcp-support": 61,
       "gui-desktop": 1,
       "cross-agent-support": 5
     },
@@ -99,7 +99,7 @@
       "note_en": "Easy. install via npx one-liner, native installer / package; needs docker compose up, git clone (build from source); configure database dependency, database migration; no-code positioning",
       "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 docker compose up、git clone (build from source)；需配置 database dependency、database migration；no-code positioning"
     },
-    "doc_score": 68,
+    "doc_score": 72,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -110,6 +110,7 @@
       "has contribution guidance",
       "mentions licensing",
       "has a Chinese translation",
+      "documents changes",
       "explains architecture",
       "long, detailed README"
     ],
@@ -120,7 +121,7 @@
       "Cursor",
       "Copilot"
     ],
-    "summary_en": "111 MCP tools · 59 RE/debug backends · 4,200+ skills · multi-agent mesh · zero-dep native parsers",
+    "summary_en": "180+ MCP tools · 73 RE/debug backends · 9 host-side plugins · 4,200+ skills · multi-agent mesh · native x86-64 + ARM64 emulators",
     "summary_zh": "",
     "install_hint": "npm install && npx tsc",
     "source": "raw:HEAD/README.md",
@@ -128,7 +129,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.477
+      "external_link_ratio": 0.504
     },
     "highlights": [
       "\"BM25 search 'battleye shellcode detection'.\" → bm25_search ranks 4,230 docs by BM25 relevance",
@@ -145,18 +146,82 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:02+00:00",
+  "fetched_at": "2026-10-29T10:57:30+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "security-mcp"
+    "memory-mcp"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "1llu50ry/mcp-gamehacking",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "1llu50ry/mcp-gamehacking",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 74.609,
+      "momentum_ratio": 1.779,
+      "setup_delta": 0,
+      "dominance": 0.872,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "74.61x the stars (29,993 vs 402)",
+        "1.78x the star velocity (29.8/day vs 16.8/day)",
+        "no harder to set up (32 vs 32 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 58,
+        "challenger_health": 71,
+        "incumbent_setup_score": 32,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

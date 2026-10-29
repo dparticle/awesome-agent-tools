@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://agent-memory.dev",
-  "stars": 29967,
-  "forks": 2646,
-  "open_issues": 520,
+  "stars": 29993,
+  "forks": 2650,
+  "open_issues": 523,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -30,33 +30,33 @@
     "pi"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-10-28T09:34:23Z",
-  "pushed_at": "2026-10-28T08:23:17Z",
+  "updated_at": "2026-10-29T10:16:33Z",
+  "pushed_at": "2026-10-29T10:36:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
+  "age_days": 246,
   "days_since_push": 0,
   "health_score": 71,
   "health_components": {
     "popularity": 89.5,
-    "momentum": 25.2,
+    "momentum": 24.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 151,
+    "stars_gained": 149,
     "days_span": 5,
-    "stars_per_day": 30.2,
-    "lifetime_stars_per_day": 122.31,
+    "stars_per_day": 29.8,
+    "lifetime_stars_per_day": 121.92,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rohitg00/agentmemory",
-    "readme_chars": 93876,
+    "readme_chars": 89579,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -79,11 +79,11 @@
     "capability_evidence": {
       "quota-management": "",
       "auto-failover": "y, paste the block inside { \"mcpServers\": { ...",
-      "multi-agent-orchestration": "ep / vector / agentmemory adapters score side-by-side, NDJSON output, published scorecards land in docs/benchmarks/.",
+      "multi-agent-orchestration": "er's current pricing before enabling it.",
       "model-routing": "inference is on-device afterward.",
       "api-gateway": "UTOCOMPRESS=true; it can make a request for each captured observation, so check your provider's current pricing before enabling it.",
       "billing-metering": "",
-      "session-persistence": "hese work like sticky notes.",
+      "session-persistence": "s and lessons searchable from the agent you are using now.",
       "memory-context": "Persistent memory across coding sessions and agents.",
       "skills-plugins": "agentmemory ships 17 skills in the Claude-Code-style /SKILL.md format: 9 invocable action skills (remember, recall, recap, handoff, forget, lesson, commit-context, commit-history, session-history) and 8 reference skills…",
       "agent-runtime": "hit in default keyless mode through BM25.",
@@ -98,15 +98,15 @@
     "capability_hits": {
       "quota-management": 1,
       "auto-failover": 1,
-      "multi-agent-orchestration": 5,
+      "multi-agent-orchestration": 2,
       "model-routing": 1,
       "api-gateway": 1,
       "billing-metering": 1,
       "session-persistence": 1,
-      "memory-context": 4,
+      "memory-context": 3,
       "skills-plugins": 3,
-      "agent-runtime": 2,
-      "mcp-support": 67,
+      "agent-runtime": 1,
+      "mcp-support": 64,
       "security-isolation": 1,
       "self-hosted": 4,
       "team-collaboration": 1,
@@ -187,9 +187,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.075
+      "external_link_ratio": 0.134
     },
     "highlights": [
+      "More native integrations: installable Pi package, OMP and DeepSeek Harness plugins, and improved Cursor workspace attribution.",
       "Auth uses JWT middleware in src/middleware/auth.ts"
     ],
     "summary_zh_native": "",
@@ -201,11 +202,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:02+00:00",
+  "fetched_at": "2026-10-29T10:56:33+00:00",
   "categories": [
     "desktop-ui",
     "memory-mcp",
-    "security-mcp"
+    "sessions"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {

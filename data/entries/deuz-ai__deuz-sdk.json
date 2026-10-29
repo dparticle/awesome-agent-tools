@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 148,
-  "days_since_push": 11,
+  "age_days": 149,
+  "days_since_push": 12,
   "health_score": 48,
   "health_components": {
     "popularity": 54.2,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 512,
-    "days_span": 148,
-    "stars_per_day": 3.46,
-    "lifetime_stars_per_day": 3.46,
+    "days_span": 149,
+    "stars_per_day": 3.44,
+    "lifetime_stars_per_day": 3.44,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -135,66 +135,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:49+00:00",
+  "fetched_at": "2026-10-29T10:57:17+00:00",
   "categories": [
-    "desktop-ui",
-    "security-mcp"
+    "desktop-ui"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "deuz-ai/deuz-sdk",
-      "challenger": "hoangsonww/claude-code-agent-monitor",
-      "incumbent_name": "Deuz-AI/Deuz-SDK",
-      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "mcp-support",
-        "notifications",
-        "skills-plugins"
-      ],
-      "star_ratio": 2.197,
-      "momentum_ratio": 1.04,
-      "setup_delta": -7,
-      "dominance": 0.734,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "2.20x the stars (1,125 vs 512)",
-        "1.04x the star velocity (3.6/day vs 3.5/day)",
-        "no harder to set up (30 vs 37 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "mcp-support",
-          "notifications",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "incumbent_health": 48,
-        "challenger_health": 55,
-        "incumbent_setup_score": 37,
-        "challenger_setup_score": 30
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

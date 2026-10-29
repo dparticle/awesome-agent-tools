@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 159,
-  "days_since_push": 90,
-  "health_score": 46,
+  "age_days": 160,
+  "days_since_push": 91,
+  "health_score": 41,
   "health_components": {
     "popularity": 52.9,
     "momentum": 0.2,
-    "maintenance": 78.0,
+    "maintenance": 55.0,
     "documentation": 50.0,
     "accessibility": 63.0
   },
-  "tier": "notable",
+  "tier": "watchlist",
   "momentum": {
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.77,
+    "lifetime_stars_per_day": 2.75,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -112,8 +112,7 @@
       "external_link_ratio": 0.248
     },
     "highlights": [
-      "flow.browser_identity: browser-specific identity API behavior.",
-      "flow.sync_startup: startup settings, auth checks, and sync-service initialization."
+      "flow.browser_identity: browser-specific identity API behavior."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -124,7 +123,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:55+00:00",
+  "fetched_at": "2026-10-29T10:57:24+00:00",
   "categories": [
     "desktop-ui",
     "memory-mcp"
@@ -132,15 +131,15 @@
   "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "autoloops/greplica",
-      "challenger": "tencentcloud/octop",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "Autoloops/greplica",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -152,14 +151,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 25.539,
-      "momentum_ratio": 449.0,
+      "star_ratio": 68.166,
+      "momentum_ratio": 149.0,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "25.54x the stars (11,237 vs 440)",
-        "449.00x the star velocity (89.8/day vs 0.2/day)",
+        "68.17x the stars (29,993 vs 440)",
+        "149.00x the star velocity (29.8/day vs 0.2/day)",
         "no harder to set up (32 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -174,22 +173,24 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
+          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
+          "notifications",
+          "quota-management",
+          "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
+          "team-collaboration"
         ],
-        "incumbent_health": 46,
-        "challenger_health": 81,
+        "incumbent_health": 41,
+        "challenger_health": 71,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 32
       }

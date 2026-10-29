@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,522 |
-| Star velocity | 12.4/day (history basis, 5d span) |
-| Health score | 60/100 |
-| Documentation | 61/100 |
-| Tier | 🔹 Notable |
+| Stars | 4,882 |
+| Star velocity | 79.0/day (history basis, 5d span) |
+| Health score | 78/100 |
+| Documentation | 63/100 |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-06-07 |
-| Last push | 2026-09-23 (35 days ago) |
-| Analyzed README | 21,498 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 26,146 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,13 +30,13 @@
 
 ### Skills & plugins
 
-> Recommended — the skills CLI.
+> mmended — the skills CLI.
 
 ### Agent runtime
 
 ### Self-hostable
 
-> r Mac App prompt was used in Cursor, Codex, Claude, and Claude Design.
+> read-db, upload, check, open) into its own store under /db/.
 
 ### Cross-agent support
 
@@ -57,7 +57,7 @@
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **63/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -74,10 +74,10 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.1 |
-| momentum | 10.3 |
-| maintenance | 78.0 |
-| documentation | 61.0 |
+| popularity | 73.8 |
+| momentum | 65.8 |
+| maintenance | 100.0 |
+| documentation | 63.0 |
 | accessibility | 96.0 |
 
 ---

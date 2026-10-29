@@ -6,7 +6,7 @@
   "url": "https://github.com/osovv/grace-marketplace",
   "description": " GRACE (Graph-RAG Anchored Code Engineering): open Agent Skills for contract-driven AI code generation with semantic markup, knowledge graphs, and support for Claude   Code, Codex CLI, and Kilo Code.",
   "homepage": "",
-  "stars": 256,
+  "stars": 257,
   "forks": 57,
   "open_issues": 11,
   "language": "TypeScript",
@@ -28,26 +28,26 @@
     "semantic-markup"
   ],
   "created_at": "2026-02-17T10:10:30Z",
-  "updated_at": "2026-10-27T07:50:59Z",
+  "updated_at": "2026-10-29T10:47:45Z",
   "pushed_at": "2026-09-24T06:54:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 253,
-  "days_since_push": 34,
+  "age_days": 254,
+  "days_since_push": 35,
   "health_score": 41,
   "health_components": {
     "popularity": 48.2,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 78.0,
     "documentation": 44.0,
     "accessibility": 43.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.01,
     "basis": "history",
     "is_fast_riser": false
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:21+00:00",
+  "fetched_at": "2026-10-29T10:57:46+00:00",
   "categories": [
     "desktop-ui"
   ],

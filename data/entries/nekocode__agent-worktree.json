@@ -23,13 +23,13 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 265,
-  "days_since_push": 7,
-  "health_score": 51,
+  "age_days": 266,
+  "days_since_push": 8,
+  "health_score": 49,
   "health_components": {
     "popularity": 49.0,
     "momentum": 0.2,
-    "maintenance": 100.0,
+    "maintenance": 92.0,
     "documentation": 54.0,
     "accessibility": 72.0
   },
@@ -130,13 +130,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:18+00:00",
+  "fetched_at": "2026-10-29T10:57:44+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "isolation"
+    "teams-isolation"
   ],
-  "primary_category": "isolation",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (6/6).",
@@ -160,14 +159,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 5.217,
-      "momentum_ratio": 42.85,
+      "star_ratio": 5.302,
+      "momentum_ratio": 43.3,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.22x the stars (1,466 vs 281)",
-        "42.85x the star velocity (8.6/day vs 0.2/day)",
+        "5.30x the stars (1,490 vs 281)",
+        "43.30x the star velocity (8.7/day vs 0.2/day)",
         "no harder to set up (30 vs 40 friction)"
       ],
       "reasons_zh": [],
@@ -194,7 +193,7 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 51,
+        "incumbent_health": 49,
         "challenger_health": 59,
         "incumbent_setup_score": 40,
         "challenger_setup_score": 30

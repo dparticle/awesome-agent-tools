@@ -8,7 +8,7 @@
   "homepage": "https://agent-manager.dev",
   "stars": 625,
   "forks": 70,
-  "open_issues": 103,
+  "open_issues": 105,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -35,26 +35,26 @@
   ],
   "created_at": "2026-07-15T16:27:33Z",
   "updated_at": "2026-10-27T22:24:16Z",
-  "pushed_at": "2026-10-27T22:24:10Z",
+  "pushed_at": "2026-10-29T08:18:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 104,
+  "age_days": 105,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 55.9,
-    "momentum": 1.7,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 2.0,
-    "lifetime_stars_per_day": 6.01,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 5.95,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -148,11 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:43+00:00",
+  "fetched_at": "2026-10-29T10:57:11+00:00",
   "categories": [
-    "isolation"
+    "teams-isolation"
   ],
-  "primary_category": "isolation",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
@@ -175,14 +175,14 @@
         "notifications",
         "worktree-isolation"
       ],
-      "star_ratio": 54.157,
-      "momentum_ratio": 12.6,
+      "star_ratio": 54.214,
+      "momentum_ratio": 35.5,
       "setup_delta": -8,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "54.16x the stars (33,848 vs 625)",
-        "12.60x the star velocity (25.2/day vs 2.0/day)",
+        "54.21x the stars (33,884 vs 625)",
+        "35.50x the star velocity (28.4/day vs 0.8/day)",
         "no harder to set up (2 vs 10 friction)"
       ],
       "reasons_zh": [],
@@ -209,7 +209,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 55,
-        "challenger_health": 72,
+        "challenger_health": 73,
         "incumbent_setup_score": 10,
         "challenger_setup_score": 2
       }

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 908 |
-| Star velocity | 12.3/day (lifetime basis, 74d span) |
+| Stars | 933 |
+| Star velocity | 12.4/day (lifetime basis, 75d span) |
 | Health score | 56/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-10-28 (0 days ago) |
+| Last push | 2026-10-29 (0 days ago) |
 | Analyzed README | 20,145 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -44,7 +44,7 @@
 
 ### Skills & plugins
 
-> top add -w ds-harness-remote@0.5.22.
+> top add -w ds-harness-remote@0.5.23.
 
 ### Security & isolation
 
@@ -54,7 +54,7 @@
 
 ### GUI / desktop app
 
-> ar Supported Install ds-harness-remote@0.5.22; this computer can also be the Host
+> ar Supported Install ds-harness-remote@0.5.23; this computer can also be the Host
 
 ### Cross-agent support
 
@@ -91,8 +91,8 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 59.2 |
-| momentum | 10.2 |
+| popularity | 59.4 |
+| momentum | 10.4 |
 | maintenance | 100.0 |
 | documentation | 58.0 |
 | accessibility | 66.0 |

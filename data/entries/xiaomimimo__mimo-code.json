@@ -6,9 +6,9 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13736,
-  "forks": 1453,
-  "open_issues": 1167,
+  "stars": 13735,
+  "forks": 1454,
+  "open_issues": 1168,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,29 +19,29 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-28T10:31:35Z",
-  "pushed_at": "2026-10-28T09:25:58Z",
+  "updated_at": "2026-10-29T06:20:12Z",
+  "pushed_at": "2026-10-29T08:53:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 139,
+  "age_days": 140,
   "days_since_push": 0,
   "health_score": 63,
   "health_components": {
     "popularity": 82.8,
-    "momentum": 5.3,
+    "momentum": 3.5,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 32,
+    "stars_gained": 21,
     "days_span": 5,
-    "stars_per_day": 6.4,
-    "lifetime_stars_per_day": 98.82,
+    "stars_per_day": 4.2,
+    "lifetime_stars_per_day": 98.11,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "XiaomiMiMo/MiMo-Code",
@@ -174,13 +174,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:22+00:00",
+  "fetched_at": "2026-10-29T10:55:56+00:00",
   "categories": [
-    "desktop-ui-2",
     "memory-mcp",
-    "security-mcp"
+    "sessions",
+    "voice"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "voice",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -36,22 +36,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 219,
-  "days_since_push": 21,
+  "age_days": 220,
+  "days_since_push": 22,
   "health_score": 48,
   "health_components": {
     "popularity": 48.8,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 36.0,
     "accessibility": 88.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.26,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.25,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:38:18+00:00",
+  "fetched_at": "2026-10-29T10:57:44+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "isolation"
+    "teams-isolation"
   ],
-  "primary_category": "isolation",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.638,
-      "momentum_ratio": 126.0,
+      "star_ratio": 122.768,
+      "momentum_ratio": 568.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.64x the stars (33,848 vs 276)",
-        "126.00x the star velocity (25.2/day vs 0.2/day)",
+        "122.77x the stars (33,884 vs 276)",
+        "568.00x the star velocity (28.4/day vs 0.0/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -217,7 +217,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 72,
+        "challenger_health": 73,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2
       }

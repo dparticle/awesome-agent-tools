@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,303 |
-| Star velocity | 0.3/day (history basis, 7d span) |
+| Stars | 4,304 |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 45/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | GPL-3.0 |
 | Language | TypeScript |
 | Created | 2025-08-07 |
-| Last push | 2026-07-03 (116 days ago) |
+| Last push | 2026-07-03 (117 days ago) |
 | Analyzed README | 11,227 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)** — Superseded by akitaonrails/ai-memory: covers 100% of capabilities (6/6).
 
 ## What it solves
 

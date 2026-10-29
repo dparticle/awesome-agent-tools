@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 261,
-  "days_since_push": 1,
+  "age_days": 262,
+  "days_since_push": 2,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 9,
+    "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.86,
+    "lifetime_stars_per_day": 1.85,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,12 +135,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:52+00:00",
+  "fetched_at": "2026-10-29T10:57:20+00:00",
   "categories": [
-    "desktop-ui-2",
-    "security-mcp"
+    "sessions"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "sessions",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
@@ -162,14 +161,14 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.32,
-      "momentum_ratio": 72.0,
+      "star_ratio": 2.328,
+      "momentum_ratio": 68.0,
       "setup_delta": -21,
-      "dominance": 0.941,
+      "dominance": 0.942,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.32x the stars (1,125 vs 485)",
-        "72.00x the star velocity (3.6/day vs 0.0/day)",
+        "2.33x the stars (1,129 vs 485)",
+        "68.00x the star velocity (3.4/day vs 0.0/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],

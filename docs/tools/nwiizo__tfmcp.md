@@ -17,12 +17,14 @@
 | Health score | 52/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Rust |
 | Created | 2025-03-08 |
-| Last push | 2026-10-22 (5 days ago) |
+| Last push | 2026-10-22 (6 days ago) |
 | Analyzed README | 29,300 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 

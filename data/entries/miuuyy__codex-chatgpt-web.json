@@ -6,9 +6,9 @@
   "url": "https://github.com/miuuyy/codex-chatgpt-web",
   "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
   "homepage": "",
-  "stars": 15147,
-  "forks": 1199,
-  "open_issues": 18,
+  "stars": 15221,
+  "forks": 1205,
+  "open_issues": 12,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "typescript"
   ],
   "created_at": "2026-07-26T13:04:44Z",
-  "updated_at": "2026-10-28T10:17:15Z",
-  "pushed_at": "2026-10-26T06:44:24Z",
+  "updated_at": "2026-10-29T10:54:51Z",
+  "pushed_at": "2026-10-29T00:26:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 93,
-  "days_since_push": 2,
+  "age_days": 94,
+  "days_since_push": 0,
   "health_score": 72,
   "health_components": {
     "popularity": 83.6,
-    "momentum": 47.2,
+    "momentum": 51.5,
     "maintenance": 100.0,
-    "documentation": 50.0,
+    "documentation": 45.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 283,
+    "stars_gained": 309,
     "days_span": 5,
-    "stars_per_day": 56.6,
-    "lifetime_stars_per_day": 162.87,
+    "stars_per_day": 61.8,
+    "lifetime_stars_per_day": 161.93,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "miuuyy/codex-chatgpt-web",
-    "readme_chars": 11625,
+    "readme_chars": 11774,
     "capabilities": [
       "multi-agent-orchestration",
       "api-gateway",
@@ -59,7 +59,7 @@
     "capability_evidence": {
       "multi-agent-orchestration": "veloper mode and MCP apps.",
       "api-gateway": "urrent Codex task through the official",
-      "mcp-support": "thout spending your Work or Codex quota."
+      "mcp-support": "t to the limits applied to that account."
     },
     "capability_hits": {
       "multi-agent-orchestration": 2,
@@ -94,12 +94,11 @@
       "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source); configure environment variables, API key configuration",
       "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)；需配置 environment variables、API key configuration"
     },
-    "doc_score": 50,
+    "doc_score": 45,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
       "documents installation",
-      "documents configuration",
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
@@ -109,7 +108,7 @@
     "agents": [
       "Codex"
     ],
-    "summary_en": "Use the ChatGPT Web models available on your account, including Pro, from Codex’s native model picker—with ChatGPT Web’s separate usage limits, without spending your Work or Codex quota.",
+    "summary_en": "Use the ChatGPT Web models available on your account, including Pro, from Codex’s native model picker.",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://github.com/miuuyy/codex-chatgpt-web/releases/latest/download/install-launcher.sh | sh",
     "source": "raw:HEAD/README.md",
@@ -117,13 +116,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.516
+      "external_link_ratio": 0.51
     },
     "highlights": [
       "Run Verify runtime to confirm that Codex Native2 is attached and available.",
       "Finish the required setup, open MCP, create the Tunnel and regular API key, then press"
     ],
-    "summary_zh_native": "在 Codex 原生模型选择器中使用账户可用的 ChatGPT 网页版模型，包括 Pro。使用 ChatGPT 网页版的独立额度，不消耗 Work 或 Codex 额度。保留原有的界面、任务、图片和流式输出。",
+    "summary_zh_native": "在 Codex 原生模型选择器中使用账户可用的 ChatGPT 网页版模型，包括 Pro。消息通过已登录的 ChatGPT 网页会话发送，并受该账户适用的使用限制约束。保留原有的界面、任务、图片和流式输出。",
     "highlights_zh": [
       "在 Codex Native2 的 权限 中选择 允许所有操作；允许低风险操作 会在命令和",
       "在启动器中打开 MCP。请在将使用 ChatGPT 连接器的同一个 OpenAI 账户中创建 Tunnel",
@@ -137,12 +136,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:21+00:00",
+  "fetched_at": "2026-10-29T10:55:56+00:00",
   "categories": [
-    "desktop-ui-2",
-    "security-mcp"
+    "memory-mcp"
   ],
-  "primary_category": "security-mcp",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

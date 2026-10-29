@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2023-12-18 |
-| Last push | 2026-10-22 (5 days ago) |
+| Last push | 2026-10-22 (6 days ago) |
 | Analyzed README | 25,798 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** — Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
 
 ## What it solves
 

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,411 |
-| Star velocity | 1.4/day (history basis, 5d span) |
+| Stars | 2,414 |
+| Star velocity | 2.0/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 57/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2025-11-29 |
-| Last push | 2026-10-28 (0 days ago) |
+| Last push | 2026-10-29 (0 days ago) |
 | Analyzed README | 18,394 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (8/8).
@@ -91,8 +91,8 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 67.6 |
-| momentum | 1.2 |
+| popularity | 67.7 |
+| momentum | 1.7 |
 | maintenance | 100.0 |
 | documentation | 57.0 |
 | accessibility | 43.0 |

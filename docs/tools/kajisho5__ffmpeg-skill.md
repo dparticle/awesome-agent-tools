@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,129 |
-| Star velocity | 57.9/day (lifetime basis, 54d span) |
-| Health score | 74/100 |
+| Stars | 3,739 |
+| Star velocity | 68.0/day (lifetime basis, 55d span) |
+| Health score | 76/100 |
 | Documentation | 68/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-03 |
-| Last push | 2026-10-28 (0 days ago) |
-| Analyzed README | 92,865 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 94,252 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).
 
 ## What it solves
 
@@ -65,9 +67,9 @@
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx ffmpeg-skill`
 
-**Signals that make it easy:** npx one-liner, Homebrew install, winget install, native installer / package
+**Signals that make it easy:** npx one-liner, pip install, Homebrew install, winget install, native installer / package
 
-*Turnkey. install via npx one-liner, Homebrew install*
+*Turnkey. install via npx one-liner, pip install*
 
 ## Documentation quality
 
@@ -90,8 +92,8 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 69.9 |
-| momentum | 48.3 |
+| popularity | 71.5 |
+| momentum | 56.7 |
 | maintenance | 100.0 |
 | documentation | 68.0 |
 | accessibility | 100.0 |

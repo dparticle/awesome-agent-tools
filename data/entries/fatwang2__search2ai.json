@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1045,
-  "days_since_push": 5,
+  "age_days": 1046,
+  "days_since_push": 6,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
@@ -146,22 +146,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:27+00:00",
+  "fetched_at": "2026-10-29T10:56:56+00:00",
   "categories": [
+    "memory-mcp",
     "model-routing"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "genspark-ai/genoffice",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "fatwang2/search2ai",
-      "challenger": "genspark-ai/genoffice",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "fatwang2/search2ai",
-      "challenger_name": "genspark-ai/genoffice",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -173,15 +174,15 @@
         "parallel-execution",
         "self-hosted"
       ],
-      "star_ratio": 8.7,
-      "momentum_ratio": 561.0,
-      "setup_delta": -53,
+      "star_ratio": 227.714,
+      "momentum_ratio": 4618.0,
+      "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "8.70x the stars (11,162 vs 1,283)",
-        "561.00x the star velocity (112.2/day vs 0.2/day)",
-        "no harder to set up (20 vs 73 friction)"
+        "227.71x the stars (292,157 vs 1,283)",
+        "4618.00x the star velocity (923.6/day vs 0.2/day)",
+        "no harder to set up (57 vs 73 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -195,21 +196,25 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "billing-metering",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
+          "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
-          "usage-analytics"
+          "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 84,
+        "challenger_health": 89,
         "incumbent_setup_score": 73,
-        "challenger_setup_score": 20
+        "challenger_setup_score": 57
       }
     }
   }

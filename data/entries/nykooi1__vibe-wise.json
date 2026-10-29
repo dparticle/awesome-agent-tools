@@ -6,34 +6,34 @@
   "url": "https://github.com/nykooi1/vibe-wise",
   "description": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
   "homepage": "",
-  "stars": 4012,
+  "stars": 4028,
   "forks": 160,
-  "open_issues": 24,
+  "open_issues": 25,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-09-29T01:29:57Z",
-  "updated_at": "2026-10-28T10:13:10Z",
+  "updated_at": "2026-10-29T09:27:28Z",
   "pushed_at": "2026-10-09T09:37:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 29,
-  "days_since_push": 19,
+  "age_days": 30,
+  "days_since_push": 20,
   "health_score": 59,
   "health_components": {
     "popularity": 72.1,
-    "momentum": 23.5,
+    "momentum": 23.8,
     "maintenance": 92.0,
     "documentation": 35.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 141,
+    "stars_gained": 143,
     "days_span": 5,
-    "stars_per_day": 28.2,
-    "lifetime_stars_per_day": 138.34,
+    "stars_per_day": 28.6,
+    "lifetime_stars_per_day": 134.27,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -103,11 +103,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:38+00:00",
+  "fetched_at": "2026-10-29T10:56:10+00:00",
   "categories": [
-    "desktop-ui"
+    "memory-mcp"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

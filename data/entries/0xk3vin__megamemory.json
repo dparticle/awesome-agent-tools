@@ -6,7 +6,7 @@
   "url": "https://github.com/0xK3vin/MegaMemory",
   "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
   "homepage": "",
-  "stars": 729,
+  "stars": 731,
   "forks": 74,
   "open_issues": 4,
   "language": "TypeScript",
@@ -29,26 +29,26 @@
     "typescript"
   ],
   "created_at": "2026-02-06T07:40:49Z",
-  "updated_at": "2026-10-27T11:53:48Z",
+  "updated_at": "2026-10-29T07:03:50Z",
   "pushed_at": "2026-05-03T00:22:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 264,
-  "days_since_push": 178,
+  "age_days": 265,
+  "days_since_push": 179,
   "health_score": 43,
   "health_components": {
     "popularity": 57.3,
-    "momentum": 0.5,
+    "momentum": 0.8,
     "maintenance": 55.0,
     "documentation": 44.0,
     "accessibility": 72.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 1.0,
     "lifetime_stars_per_day": 2.76,
     "basis": "history",
     "is_fast_riser": false
@@ -139,10 +139,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:37:40+00:00",
+  "fetched_at": "2026-10-29T10:57:09+00:00",
   "categories": [
-    "memory-mcp",
-    "security-mcp"
+    "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
@@ -167,14 +166,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 41.107,
-      "momentum_ratio": 50.333,
+      "star_ratio": 41.03,
+      "momentum_ratio": 29.8,
       "setup_delta": 4,
       "dominance": 0.98,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "41.11x the stars (29,967 vs 729)",
-        "50.33x the star velocity (30.2/day vs 0.6/day)",
+        "41.03x the stars (29,993 vs 731)",
+        "29.80x the star velocity (29.8/day vs 1.0/day)",
         "slightly heavier setup (+4 friction, within tolerance)"
       ],
       "reasons_zh": [],

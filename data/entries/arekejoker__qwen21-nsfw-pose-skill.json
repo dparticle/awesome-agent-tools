@@ -6,8 +6,8 @@
   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
   "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
   "homepage": "",
-  "stars": 3785,
-  "forks": 666,
+  "stars": 3813,
+  "forks": 671,
   "open_issues": 7,
   "language": "Python",
   "license": "Apache-2.0",
@@ -20,27 +20,27 @@
     "qwen-image"
   ],
   "created_at": "2026-10-13T03:09:42Z",
-  "updated_at": "2026-10-28T10:30:36Z",
+  "updated_at": "2026-10-29T10:41:10Z",
   "pushed_at": "2026-10-26T16:43:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 15,
-  "days_since_push": 1,
+  "age_days": 16,
+  "days_since_push": 2,
   "health_score": 62,
   "health_components": {
     "popularity": 71.6,
-    "momentum": 21.7,
+    "momentum": 20.5,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 70.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 130,
+    "stars_gained": 123,
     "days_span": 5,
-    "stars_per_day": 26.0,
-    "lifetime_stars_per_day": 252.33,
+    "stars_per_day": 24.6,
+    "lifetime_stars_per_day": 238.31,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -117,11 +117,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:39+00:00",
+  "fetched_at": "2026-10-29T10:56:11+00:00",
   "categories": [
-    "desktop-ui"
+    "memory-mcp"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

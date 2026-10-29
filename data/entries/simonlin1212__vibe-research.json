@@ -6,8 +6,8 @@
   "url": "https://github.com/simonlin1212/Vibe-Research",
   "description": "Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A research workbench for China A-shares, US and HK stocks.",
   "homepage": "https://viberesearch.wiki",
-  "stars": 3302,
-  "forks": 635,
+  "stars": 3382,
+  "forks": 646,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
@@ -32,33 +32,33 @@
     "workbuddy"
   ],
   "created_at": "2026-07-05T06:30:55Z",
-  "updated_at": "2026-10-28T10:32:09Z",
-  "pushed_at": "2026-10-26T08:08:01Z",
+  "updated_at": "2026-10-29T09:14:35Z",
+  "pushed_at": "2026-10-29T02:22:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 115,
-  "days_since_push": 2,
-  "health_score": 79,
+  "age_days": 116,
+  "days_since_push": 0,
+  "health_score": 82,
   "health_components": {
-    "popularity": 70.4,
-    "momentum": 86.8,
+    "popularity": 70.6,
+    "momentum": 98.3,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 57.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 521,
+    "stars_gained": 590,
     "days_span": 5,
-    "stars_per_day": 104.2,
-    "lifetime_stars_per_day": 28.71,
+    "stars_per_day": 118.0,
+    "lifetime_stars_per_day": 29.16,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "simonlin1212/Vibe-Research",
-    "readme_chars": 32564,
+    "readme_chars": 33593,
     "capabilities": [
       "quota-management",
       "remote-control",
@@ -71,7 +71,7 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "quota-management": "fig.json 写 provider.profile（如 cli-claude），或者添加时带上环境变量，例如 claude mcp add vibe-research -e VRAPROVIDER=cli-claude -- node …、codex mcp add vibe-research --env VRAPROVIDER=cli-codex -- node …。",
+      "quota-management": "g.json 写 provider.profile（如 cli-claude），或者添加时带上环境变量，例如 claude mcp add vibe-research -e VRA_PROVIDER=cli-claude -- node …、codex mcp add vibe-research --env VRA_PROVIDER=cli-codex -- node …。",
       "remote-control": "",
       "multi-agent-orchestration": "alc + gate 强制阶段、证据引用、确定性计算和合规边界",
       "api-gateway": "；三家订阅直接调用使用者本机的官方 CLI，模型 API 直接走 Chat Completions",
@@ -149,13 +149,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.215
+      "external_link_ratio": 0.208
     },
     "highlights": [
       "v2.2.0 发版前两轮独立只读审计（Codex 6.1 Sol、Opus 5.5），去重后 11 条真问题全部修复；v2.2.1 修的 4 处来自 Vibe AStock 合并 v2.2.0 时的发版审计，修复补丁另做了一次独立复核（Opus 5.5），找到的 6 处全部修掉。",
       "官方 WorkBuddy 桌面版内置 CLI 2.161.0：生产登录探针为 ready，一次无工具真实最小对话返回 WB2161_OK，约 6.8 秒；旧内置 CLI 2.137.1、确切版本的独立 npm CLI 2.161.0 登录探针也为 ready。",
-      "历史情景回放：按现在的持仓比例，把几段历史大跌期重放一遍——A 股 5 段（2015 年股灾、2016 年熔断、2018 年、2020 年 3 月、2021–2024 年），港股、美股各 4 段，并排看组合涨跌、期间最大回撤、最差单日和同期指数，点开一段看走势图和每只的贡献。",
-      "内置四种规则：买入持有、均线交叉、RSI 均值回归、RSRS 择时。"
+      "后端全套 1294 项：1286 通过、8 跳过、0 失败；desktop 351/351，生产构建通过；前后端类型检查通过；Python（计算库 311、回测 583、数据脚本 580）1474/1474，mypy 检查 106 个文件通过。",
+      "后端全套 1295 项：1287 通过、8 跳过、0 失败；desktop 351/351，生产构建通过；前后端类型检查通过；Python（计算库 311、回测 583、数据脚本 582）1476/1476，mypy 检查 106 个文件通过。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -166,13 +166,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-28T10:36:40+00:00",
+  "fetched_at": "2026-10-29T10:56:13+00:00",
   "categories": [
-    "desktop-ui-2",
+    "billing",
     "mobile-remote-control",
     "sharing"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",
