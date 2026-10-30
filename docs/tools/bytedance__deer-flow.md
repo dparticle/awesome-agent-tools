@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 84,634 |
-| Star velocity | 55.4/day (history basis, 5d span) |
-| Health score | 77/100 |
+| Stars | 84,714 |
+| Star velocity | 63.4/day (history basis, 5d span) |
+| Health score | 78/100 |
 | Documentation | 80/100 |
-| Tier | ✅ Recommended |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-10-29 (0 days ago) |
-| Analyzed README | 364,197 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 366,390 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -105,7 +105,7 @@
 
 **Signals that add work:** git clone (build from source), npm install/build, make build
 
-**Configuration required:** environment variables, API key configuration, .env file, config file, config.json/yaml/toml, OAuth login flow, sign-in required, API token/secret, database dependency, database migration, server/reverse-proxy setup
+**Configuration required:** environment variables, API key configuration, .env file, config file, config.json/yaml/toml, config file, OAuth login flow, sign-in required, API token/secret, database dependency, database migration, server/reverse-proxy setup
 
 *Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; no-code positioning*
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.6 |
-| momentum | 46.2 |
+| momentum | 52.8 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

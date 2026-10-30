@@ -6,8 +6,8 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
   "homepage": "https://theaioperator.io",
-  "stars": 5028,
-  "forks": 617,
+  "stars": 5045,
+  "forks": 619,
   "open_issues": 5,
   "language": "Python",
   "license": "MIT",
@@ -34,16 +34,16 @@
     "second-brain"
   ],
   "created_at": "2026-03-24T11:58:12Z",
-  "updated_at": "2026-10-29T10:15:32Z",
+  "updated_at": "2026-10-30T10:24:31Z",
   "pushed_at": "2026-10-28T22:44:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 218,
-  "days_since_push": 0,
+  "age_days": 219,
+  "days_since_push": 1,
   "health_score": 67,
   "health_components": {
-    "popularity": 74.0,
+    "popularity": 74.1,
     "momentum": 26.3,
     "maintenance": 100.0,
     "documentation": 65.0,
@@ -54,7 +54,7 @@
     "stars_gained": 158,
     "days_span": 5,
     "stars_per_day": 31.6,
-    "lifetime_stars_per_day": 23.06,
+    "lifetime_stars_per_day": 23.04,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -189,11 +189,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:40+00:00",
+  "fetched_at": "2026-10-30T10:54:22+00:00",
   "categories": [
     "desktop-ui",
-    "mobile-remote-control",
-    "model-routing"
+    "memory-mcp",
+    "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

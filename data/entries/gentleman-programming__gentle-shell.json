@@ -6,9 +6,9 @@
   "url": "https://github.com/Gentleman-Programming/gentle-shell",
   "description": "Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel coding agents, live tasks, Git diffs, persistent memory, and permission controls into one terminal interface. Powered by Gentle AI and Organic Driven Development (ODD).",
   "homepage": "https://gentle-ai.gentlemanprogramming.com/",
-  "stars": 1490,
-  "forks": 234,
-  "open_issues": 830,
+  "stars": 1500,
+  "forks": 241,
+  "open_issues": 468,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -33,12 +33,12 @@
     "tdd"
   ],
   "created_at": "2026-05-10T10:11:33Z",
-  "updated_at": "2026-10-29T10:35:20Z",
-  "pushed_at": "2026-10-29T10:51:35Z",
+  "updated_at": "2026-10-30T06:57:34Z",
+  "pushed_at": "2026-10-30T04:49:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 172,
+  "age_days": 173,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
@@ -50,16 +50,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1490,
-    "days_span": 172,
-    "stars_per_day": 8.66,
-    "lifetime_stars_per_day": 8.66,
+    "stars_gained": 1500,
+    "days_span": 173,
+    "stars_per_day": 8.67,
+    "lifetime_stars_per_day": 8.67,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Gentleman-Programming/gentle-shell",
-    "readme_chars": 57502,
+    "readme_chars": 57750,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -156,7 +156,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.33
+      "external_link_ratio": 0.329
     },
     "highlights": [
       "Output caps: The provider configures maxTokens caps rather than claiming undocumented model maxima: 32,768 for GLM 5.3, GLM 5.3 Flash, and MiMo; 16,384 for DeepSeek V4 Flash; 65,536 for Gem…",
@@ -173,10 +173,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:50+00:00",
+  "fetched_at": "2026-10-30T10:54:30+00:00",
   "categories": [
     "desktop-ui",
-    "memory-mcp",
+    "desktop-ui-2",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",

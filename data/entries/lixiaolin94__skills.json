@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "full_name": "lixiaolin94/skills",
+  "name": "skills",
+  "owner": "lixiaolin94",
+  "url": "https://github.com/lixiaolin94/skills",
+  "description": "Collection of AI agent skills for Claude Code",
+  "homepage": "",
+  "stars": 767,
+  "forks": 46,
+  "open_issues": 0,
+  "language": "Java",
+  "license": "",
+  "topics": [],
+  "created_at": "2026-03-12T07:10:34Z",
+  "updated_at": "2026-10-30T02:46:57Z",
+  "pushed_at": "2026-10-30T02:46:53Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 232,
+  "days_since_push": 0,
+  "health_score": 53,
+  "health_components": {
+    "popularity": 57.7,
+    "momentum": 2.8,
+    "maintenance": 100.0,
+    "documentation": 28.0,
+    "accessibility": 96.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 767,
+    "days_span": 232,
+    "stars_per_day": 3.31,
+    "lifetime_stars_per_day": 3.31,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "lixiaolin94/skills",
+    "readme_chars": 2124,
+    "capabilities": [
+      "skills-plugins",
+      "agent-runtime"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "",
+      "agent-runtime": ""
+    },
+    "capability_hits": {
+      "skills-plugins": 1,
+      "agent-runtime": 1
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 16,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Android",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via npx one-liner",
+      "note_zh": "开箱即用。可通过 npx one-liner 安装"
+    },
+    "doc_score": 28,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [],
+    "summary_en": "A small collection of reusable skills for AI coding agents.",
+    "summary_zh": "",
+    "install_hint": "npx skills add https://github.com/lixiaolin94/skills",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.471
+    },
+    "highlights": [
+      "Android 12 (API 31) or newer is the build target; the lowest working version has not been tested",
+      "adb on the computer and Python 3.9+ (standard library only)"
+    ],
+    "summary_zh_native": "一组可复用的 AI 编程 Agent 技能。",
+    "highlights_zh": [
+      "编译目标为 Android 12（API 31）及以上；实际可用的最低版本未测试",
+      "电脑上有 adb 和 Python 3.9+（只用标准库）",
+      "部分 ROM（如小米）可能要另开“USB 调试（安全设置）”才能点击，未实测"
+    ],
+    "chinese_readme": "README_CN.md"
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-30T10:54:44+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

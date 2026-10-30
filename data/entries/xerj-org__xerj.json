@@ -6,9 +6,9 @@
   "url": "https://github.com/xerj-org/xerj",
   "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
   "homepage": "https://xerj.org",
-  "stars": 17456,
-  "forks": 1315,
-  "open_issues": 62,
+  "stars": 17622,
+  "forks": 1356,
+  "open_issues": 67,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,16 +34,16 @@
     "vector-search"
   ],
   "created_at": "2026-06-30T04:32:45Z",
-  "updated_at": "2026-10-29T10:44:07Z",
-  "pushed_at": "2026-10-29T10:06:13Z",
+  "updated_at": "2026-10-30T10:52:54Z",
+  "pushed_at": "2026-10-30T10:41:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 121,
+  "age_days": 122,
   "days_since_push": 0,
   "health_score": 87,
   "health_components": {
-    "popularity": 84.8,
+    "popularity": 84.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3242,
+    "stars_gained": 2227,
     "days_span": 5,
-    "stars_per_day": 648.4,
-    "lifetime_stars_per_day": 144.26,
+    "stars_per_day": 445.4,
+    "lifetime_stars_per_day": 144.44,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "xerj-org/xerj",
-    "readme_chars": 43065,
+    "readme_chars": 43446,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -151,7 +151,7 @@
         "bullet list of external links",
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.975
+      "external_link_ratio": 0.967
     },
     "highlights": [
       "XERJ vs Lucene 10.3.1 for a source-pinned, six-axis comparison"
@@ -170,12 +170,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:55:54+00:00",
+  "fetched_at": "2026-10-30T10:53:47+00:00",
   "categories": [
     "desktop-ui-2",
-    "memory-mcp"
+    "failover"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

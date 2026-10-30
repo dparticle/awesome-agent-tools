@@ -6,7 +6,7 @@
   "url": "https://github.com/internet-court/internet-court-skill",
   "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
   "homepage": "",
-  "stars": 7038,
+  "stars": 7040,
   "forks": 127,
   "open_issues": 32,
   "language": "TypeScript",
@@ -34,27 +34,27 @@
     "x402"
   ],
   "created_at": "2026-06-16T13:20:01Z",
-  "updated_at": "2026-10-29T10:12:45Z",
+  "updated_at": "2026-10-30T01:46:22Z",
   "pushed_at": "2026-10-26T12:55:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 134,
-  "days_since_push": 2,
+  "age_days": 135,
+  "days_since_push": 3,
   "health_score": 58,
   "health_components": {
-    "popularity": 76.9,
-    "momentum": 7.8,
+    "popularity": 77.0,
+    "momentum": 5.3,
     "maintenance": 100.0,
     "documentation": 41.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 47,
+    "stars_gained": 32,
     "days_span": 5,
-    "stars_per_day": 9.4,
-    "lifetime_stars_per_day": 52.52,
+    "stars_per_day": 6.4,
+    "lifetime_stars_per_day": 52.15,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -135,16 +135,72 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:04+00:00",
+  "fetched_at": "2026-10-30T10:53:55+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "internet-court/internet-court-skill",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "internet-court/internet-court-skill",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 6.931,
+      "momentum_ratio": 26.472,
+      "setup_delta": -1,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "6.93x the stars (48,793 vs 7,040)",
+        "26.47x the star velocity (169.4/day vs 6.4/day)",
+        "no harder to set up (30 vs 31 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 58,
+        "challenger_health": 92,
+        "incumbent_setup_score": 31,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

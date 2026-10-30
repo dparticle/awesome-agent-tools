@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 27,500 |
-| Star velocity | 33.2/day (history basis, 5d span) |
-| Health score | 68/100 |
-| Documentation | 57/100 |
+| Stars | 27,537 |
+| Star velocity | 36.0/day (history basis, 5d span) |
+| Health score | 69/100 |
+| Documentation | 53/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | n/a |
 | Created | 2026-03-01 |
-| Last push | 2026-10-16 (12 days ago) |
-| Analyzed README | 27,697 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-29 (0 days ago) |
+| Analyzed README | 25,345 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -56,7 +58,7 @@
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **53/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -66,7 +68,6 @@ Score **57/100**, based on these detected signals:
 - mentions licensing
 - documents changes
 - publishes a roadmap
-- explains architecture
 - long, detailed README
 
 ## Score breakdown
@@ -74,9 +75,9 @@ Score **57/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 88.8 |
-| momentum | 27.7 |
-| maintenance | 92.0 |
-| documentation | 57.0 |
+| momentum | 30.0 |
+| maintenance | 100.0 |
+| documentation | 53.0 |
 | accessibility | 73.0 |
 
 ---

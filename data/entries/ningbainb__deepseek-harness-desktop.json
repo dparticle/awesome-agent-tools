@@ -33,27 +33,27 @@
     "windows-desktop"
   ],
   "created_at": "2026-08-13T19:50:01Z",
-  "updated_at": "2026-10-29T10:20:05Z",
-  "pushed_at": "2026-10-26T12:53:12Z",
+  "updated_at": "2026-10-30T09:09:38Z",
+  "pushed_at": "2026-10-30T08:52:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 76,
-  "days_since_push": 2,
-  "health_score": 57,
+  "age_days": 77,
+  "days_since_push": 0,
+  "health_score": 56,
   "health_components": {
     "popularity": 58.9,
-    "momentum": 4.2,
+    "momentum": 3.7,
     "maintenance": 100.0,
     "documentation": 44.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 22,
     "days_span": 5,
-    "stars_per_day": 5.0,
-    "lifetime_stars_per_day": 11.61,
+    "stars_per_day": 4.4,
+    "lifetime_stars_per_day": 11.45,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -181,10 +181,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:05+00:00",
+  "fetched_at": "2026-10-30T10:54:42+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
-    "mobile-remote-control",
     "providers-2"
   ],
   "primary_category": "providers-2",

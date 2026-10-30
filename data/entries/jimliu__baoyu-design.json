@@ -6,8 +6,8 @@
   "url": "https://github.com/JimLiu/baoyu-design",
   "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
   "homepage": "",
-  "stars": 4882,
-  "forks": 347,
+  "stars": 5352,
+  "forks": 395,
   "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
@@ -22,33 +22,33 @@
     "ui-design"
   ],
   "created_at": "2026-06-07T01:16:18Z",
-  "updated_at": "2026-10-29T10:53:46Z",
-  "pushed_at": "2026-10-29T07:08:37Z",
+  "updated_at": "2026-10-30T10:52:55Z",
+  "pushed_at": "2026-10-30T06:48:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 144,
+  "age_days": 145,
   "days_since_push": 0,
-  "health_score": 78,
+  "health_score": 86,
   "health_components": {
-    "popularity": 73.8,
-    "momentum": 65.8,
+    "popularity": 74.6,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 96.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 395,
+    "stars_gained": 854,
     "days_span": 5,
-    "stars_per_day": 79.0,
-    "lifetime_stars_per_day": 33.9,
+    "stars_per_day": 170.8,
+    "lifetime_stars_per_day": 36.91,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "JimLiu/baoyu-design",
-    "readme_chars": 26146,
+    "readme_chars": 27014,
     "capabilities": [
       "mobile-access",
       "skills-plugins",
@@ -60,7 +60,7 @@
       "mobile-access": "",
       "skills-plugins": "mmended — the skills CLI.",
       "agent-runtime": "",
-      "self-hosted": "read-db, upload, check, open) into its own store under /db/.",
+      "self-hosted": "nto its own store under /db/.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
     },
     "capability_hits": {
@@ -119,7 +119,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.344
+      "external_link_ratio": 0.333
     },
     "highlights": [
       "Best with Opus 5.5. The skill is a long, demanding design brief; the stronger the model, the better the result. Pair it with Claude Opus 5.5 for the best output, and it still works well on…",
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:09+00:00",
+  "fetched_at": "2026-10-30T10:53:58+00:00",
   "categories": [
     "desktop-ui",
     "mobile-remote-control"

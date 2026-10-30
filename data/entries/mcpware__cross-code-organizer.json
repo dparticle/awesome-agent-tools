@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 224,
-  "days_since_push": 8,
+  "age_days": 225,
+  "days_since_push": 9,
   "health_score": 53,
   "health_components": {
     "popularity": 51.7,
-    "momentum": 0.3,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 64.0,
     "accessibility": 80.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.72,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.71,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -163,7 +163,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:31+00:00",
+  "fetched_at": "2026-10-30T10:55:01+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -171,10 +171,67 @@
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "genspark-ai/genoffice",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "mcpware/cross-code-organizer",
+      "challenger": "genspark-ai/genoffice",
+      "incumbent_name": "mcpware/cross-code-organizer",
+      "challenger_name": "genspark-ai/genoffice",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "skills-plugins",
+        "usage-analytics"
+      ],
+      "star_ratio": 29.481,
+      "momentum_ratio": 2300.0,
+      "setup_delta": 0,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "29.48x the stars (11,350 vs 385)",
+        "2300.00x the star velocity (115.0/day vs 0.0/day)",
+        "no harder to set up (20 vs 20 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 85,
+        "incumbent_setup_score": 20,
+        "challenger_setup_score": 20
+      }
+    }
   }
 }

@@ -6,36 +6,36 @@
   "url": "https://github.com/mark3labs/mcp-go",
   "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
   "homepage": "http://mcp-go.dev/",
-  "stars": 9204,
-  "forks": 920,
-  "open_issues": 27,
+  "stars": 9208,
+  "forks": 923,
+  "open_issues": 33,
   "language": "Go",
   "license": "MIT",
   "topics": [],
   "created_at": "2024-11-27T12:38:33Z",
-  "updated_at": "2026-10-29T08:14:34Z",
+  "updated_at": "2026-10-30T08:37:19Z",
   "pushed_at": "2026-10-29T08:15:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 700,
-  "days_since_push": 0,
+  "age_days": 701,
+  "days_since_push": 1,
   "health_score": 59,
   "health_components": {
     "popularity": 79.3,
-    "momentum": 3.5,
+    "momentum": 3.8,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 23,
     "days_span": 5,
-    "stars_per_day": 4.2,
-    "lifetime_stars_per_day": 13.15,
+    "stars_per_day": 4.6,
+    "lifetime_stars_per_day": 13.14,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "mark3labs/mcp-go",
@@ -115,7 +115,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:36+00:00",
+  "fetched_at": "2026-10-30T10:54:19+00:00",
   "categories": [
     "memory-mcp"
   ],

@@ -6,20 +6,20 @@
   "url": "https://github.com/eternityspring/shuohao-skills",
   "description": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays, storyboards. Runs in Claude Code & codex.",
   "homepage": "https://studio.reelbenchai.com",
-  "stars": 5666,
-  "forks": 786,
+  "stars": 5721,
+  "forks": 795,
   "open_issues": 1,
   "language": "JavaScript",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2026-08-06T10:38:49Z",
-  "updated_at": "2026-10-29T10:33:39Z",
+  "updated_at": "2026-10-30T10:26:19Z",
   "pushed_at": "2026-10-26T03:32:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 84,
-  "days_since_push": 3,
+  "age_days": 85,
+  "days_since_push": 4,
   "health_score": 79,
   "health_components": {
     "popularity": 75.1,
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 645,
+    "stars_gained": 672,
     "days_span": 5,
-    "stars_per_day": 129.0,
-    "lifetime_stars_per_day": 67.45,
+    "stars_per_day": 134.4,
+    "lifetime_stars_per_day": 67.31,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -115,7 +115,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:06+00:00",
+  "fetched_at": "2026-10-30T10:53:57+00:00",
   "categories": [
     "desktop-ui"
   ],

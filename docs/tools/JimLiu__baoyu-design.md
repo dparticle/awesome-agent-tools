@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,882 |
-| Star velocity | 79.0/day (history basis, 5d span) |
-| Health score | 78/100 |
+| Stars | 5,352 |
+| Star velocity | 170.8/day (history basis, 5d span) |
+| Health score | 86/100 |
 | Documentation | 63/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-06-07 |
-| Last push | 2026-10-29 (0 days ago) |
-| Analyzed README | 26,146 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 27,014 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Self-hostable
 
-> read-db, upload, check, open) into its own store under /db/.
+> nto its own store under /db/.
 
 ### Cross-agent support
 
@@ -74,8 +74,8 @@ Score **63/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.8 |
-| momentum | 65.8 |
+| popularity | 74.6 |
+| momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 63.0 |
 | accessibility | 96.0 |

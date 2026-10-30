@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 121,
-  "days_since_push": 106,
+  "age_days": 122,
+  "days_since_push": 107,
   "health_score": 46,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 6.25,
+    "lifetime_stars_per_day": 6.2,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -116,8 +116,8 @@
     "highlights": [
       "A wrapper CLI. No daemon, no server, no runtime state. run.sh is 8 lines.",
       "planner-spec-expand — 1–4 sentence brief → full ambitious spec with design language and ordered feature list → starting a fresh project or major feature",
-      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds",
-      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds"
+      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds",
+      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,22 +128,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:08+00:00",
+  "fetched_at": "2026-10-30T10:54:44+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "huytieu/COG-second-brain",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
     "challenger": "",
     "supersede": {
       "incumbent": "archive228/loopkit",
-      "challenger": "huytieu/cog-second-brain",
+      "challenger": "sickn33/agentic-awesome-skills",
       "incumbent_name": "Archive228/loopkit",
-      "challenger_name": "huytieu/COG-second-brain",
+      "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -155,15 +156,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.755,
-      "momentum_ratio": 12.0,
-      "setup_delta": 12,
-      "dominance": 0.818,
+      "star_ratio": 64.541,
+      "momentum_ratio": 847.1,
+      "setup_delta": 11,
+      "dominance": 0.945,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.76x the stars (1,327 vs 756)",
-        "12.00x the star velocity (2.4/day vs 0.2/day)",
-        "slightly heavier setup (+12 friction, within tolerance)"
+        "64.54x the stars (48,793 vs 756)",
+        "847.10x the star velocity (169.4/day vs 0.2/day)",
+        "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,15 +181,20 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "usage-analytics"
         ],
         "incumbent_health": 46,
-        "challenger_health": 57,
+        "challenger_health": 92,
         "incumbent_setup_score": 19,
-        "challenger_setup_score": 31
+        "challenger_setup_score": 30
       }
     }
   }

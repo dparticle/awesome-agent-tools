@@ -6,9 +6,9 @@
   "url": "https://github.com/Derpyu520/qq-bridge",
   "description": "Bridge between QQ (SnowLuma OneBot v11) and DeepSeek Harness agents: social simulation, safe MCP tools, slang learning and more.",
   "homepage": "",
-  "stars": 3246,
-  "forks": 185,
-  "open_issues": 102,
+  "stars": 3320,
+  "forks": 191,
+  "open_issues": 104,
   "language": "JavaScript",
   "license": "NOASSERTION",
   "topics": [
@@ -21,33 +21,33 @@
     "snowluma"
   ],
   "created_at": "2026-08-25T07:46:42Z",
-  "updated_at": "2026-10-29T10:55:07Z",
-  "pushed_at": "2026-10-22T12:07:48Z",
+  "updated_at": "2026-10-30T10:51:43Z",
+  "pushed_at": "2026-10-30T10:40:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 65,
-  "days_since_push": 6,
+  "age_days": 66,
+  "days_since_push": 0,
   "health_score": 60,
   "health_components": {
-    "popularity": 70.2,
-    "momentum": 41.6,
+    "popularity": 70.4,
+    "momentum": 41.9,
     "maintenance": 100.0,
-    "documentation": 43.0,
+    "documentation": 44.0,
     "accessibility": 29.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3246,
-    "days_span": 65,
-    "stars_per_day": 49.94,
-    "lifetime_stars_per_day": 49.94,
+    "stars_gained": 3320,
+    "days_span": 66,
+    "stars_per_day": 50.3,
+    "lifetime_stars_per_day": 50.3,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Derpyu520/qq-bridge",
-    "readme_chars": 19837,
+    "readme_chars": 20117,
     "capabilities": [
       "multi-account-switching",
       "multi-agent-orchestration",
@@ -70,7 +70,7 @@
       "mcp-support": "session/projections 主路径）；复用 AbstractApiClient 传输层但不再依赖旧版 zod value schema。",
       "security-isolation": "> > 🔒 QQ 会话的权限边界与安全承诺见 RULES.md。",
       "gui-desktop": "",
-      "notifications": "e 默认 false）：先把音频放进 audio/，再到控制台打开开关；你自己发语音不受这个开关影响"
+      "notifications": ""
     },
     "capability_hits": {
       "multi-account-switching": 1,
@@ -110,7 +110,7 @@
       "note_en": "Involved setup. needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml; GUI application",
       "note_zh": "配置较重。需要 git clone (build from source)、npm install/build；需配置 API key configuration、config.json/yaml/toml；GUI application"
     },
-    "doc_score": 43,
+    "doc_score": 44,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -118,7 +118,8 @@
       "documents configuration",
       "mentions licensing",
       "has a table of contents",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [],
     "summary_en": "English: README.en.md | 中文: README.md",
@@ -131,7 +132,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.252
+      "external_link_ratio": 0.249
     },
     "highlights": [
       "运行中的 SnowLuma，且配置好 OneBot WebSocket 与 HTTP API（默认 ws://127.0.0.1:3001 / http://127.0.0.1:3000，accessToken 视配置填写）",
@@ -148,13 +149,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:13+00:00",
+  "fetched_at": "2026-10-30T10:54:01+00:00",
   "categories": [
     "desktop-ui-2",
-    "model-routing",
-    "sessions"
+    "memory-mcp",
+    "model-routing"
   ],
-  "primary_category": "sessions",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

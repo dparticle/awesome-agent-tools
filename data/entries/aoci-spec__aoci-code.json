@@ -6,8 +6,8 @@
   "url": "https://github.com/aoci-spec/aoci-code",
   "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
   "homepage": "www.aoci.ai",
-  "stars": 1792,
-  "forks": 217,
+  "stars": 1798,
+  "forks": 218,
   "open_issues": 28,
   "language": "Go",
   "license": "NOASSERTION",
@@ -34,27 +34,27 @@
     "repo-map"
   ],
   "created_at": "2026-08-08T11:33:08Z",
-  "updated_at": "2026-10-29T09:36:03Z",
-  "pushed_at": "2026-10-29T09:35:58Z",
+  "updated_at": "2026-10-30T09:49:48Z",
+  "pushed_at": "2026-10-30T07:38:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 81,
+  "age_days": 82,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 65.1,
-    "momentum": 10.7,
+    "momentum": 10.5,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 64,
+    "stars_gained": 63,
     "days_span": 5,
-    "stars_per_day": 12.8,
-    "lifetime_stars_per_day": 22.12,
+    "stars_per_day": 12.6,
+    "lifetime_stars_per_day": 21.93,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -176,85 +176,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:49+00:00",
+  "fetched_at": "2026-10-30T10:54:29+00:00",
   "categories": [
+    "desktop-ui-2",
     "failover",
-    "memory-mcp",
     "model-routing"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (9/9).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (9/9)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "aoci-spec/aoci-code",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "aoci-spec/aoci-code",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "auto-failover",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "session-persistence"
-      ],
-      "star_ratio": 163.034,
-      "momentum_ratio": 72.156,
-      "setup_delta": -7,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (9/9)",
-        "163.03x the stars (292,157 vs 1,792)",
-        "72.16x the star velocity (923.6/day vs 12.8/day)",
-        "no harder to set up (57 vs 64 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 57,
-        "challenger_health": 89,
-        "incumbent_setup_score": 64,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

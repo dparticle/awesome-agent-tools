@@ -6,33 +6,33 @@
   "url": "https://github.com/harishkotra/agent-office",
   "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
   "homepage": "",
-  "stars": 383,
-  "forks": 110,
+  "stars": 385,
+  "forks": 109,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-25T04:43:02Z",
-  "updated_at": "2026-10-29T10:13:13Z",
+  "updated_at": "2026-10-29T13:16:33Z",
   "pushed_at": "2026-09-25T04:17:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 246,
-  "days_since_push": 34,
+  "age_days": 247,
+  "days_since_push": 35,
   "health_score": 43,
   "health_components": {
     "popularity": 51.7,
-    "momentum": 3.0,
+    "momentum": 2.7,
     "maintenance": 78.0,
     "documentation": 57.0,
     "accessibility": 25.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 3.6,
+    "stars_per_day": 3.2,
     "lifetime_stars_per_day": 1.56,
     "basis": "history",
     "is_fast_riser": false
@@ -128,13 +128,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:31+00:00",
+  "fetched_at": "2026-10-30T10:55:01+00:00",
   "categories": [
     "desktop-ui",
-    "model-routing",
-    "teams-isolation"
+    "teams"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).",
@@ -161,13 +160,13 @@
         "worktree-isolation"
       ],
       "star_ratio": 29.483,
-      "momentum_ratio": 21.889,
+      "momentum_ratio": 24.25,
       "setup_delta": -43,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "29.48x the stars (11,292 vs 383)",
-        "21.89x the star velocity (78.8/day vs 3.6/day)",
+        "29.48x the stars (11,351 vs 385)",
+        "24.25x the star velocity (77.6/day vs 3.2/day)",
         "no harder to set up (32 vs 75 friction)"
       ],
       "reasons_zh": [],

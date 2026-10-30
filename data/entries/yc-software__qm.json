@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15568,
-  "forks": 1932,
-  "open_issues": 933,
+  "stars": 15580,
+  "forks": 1934,
+  "open_issues": 941,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,27 +18,27 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-10-29T09:43:15Z",
-  "pushed_at": "2026-10-29T02:45:18Z",
+  "updated_at": "2026-10-30T09:25:14Z",
+  "pushed_at": "2026-10-30T08:44:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 91,
+  "age_days": 92,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 83.8,
-    "momentum": 8.0,
+    "popularity": 83.9,
+    "momentum": 7.8,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 48,
+    "stars_gained": 47,
     "days_span": 5,
-    "stars_per_day": 9.6,
-    "lifetime_stars_per_day": 171.08,
+    "stars_per_day": 9.4,
+    "lifetime_stars_per_day": 169.35,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -145,88 +145,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:55:55+00:00",
+  "fetched_at": "2026-10-30T10:53:48+00:00",
   "categories": [
     "desktop-ui",
-    "sessions",
-    "teams-isolation"
+    "model-routing",
+    "teams"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (10/10)。",
-    "superseded_by": "paperclipai/paperclip",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "yc-software/qm",
-      "challenger": "paperclipai/paperclip",
-      "incumbent_name": "yc-software/qm",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "model-routing",
-        "notifications",
-        "security-isolation",
-        "session-persistence",
-        "skills-plugins",
-        "team-collaboration",
-        "worktree-isolation"
-      ],
-      "star_ratio": 6.966,
-      "momentum_ratio": 36.167,
-      "setup_delta": -27,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (10/10)",
-        "6.97x the stars (108,440 vs 15,568)",
-        "36.17x the star velocity (347.2/day vs 9.6/day)",
-        "no harder to set up (45 vs 72 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "model-routing",
-          "notifications",
-          "security-isolation",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 57,
-        "challenger_health": 89,
-        "incumbent_setup_score": 72,
-        "challenger_setup_score": 45
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

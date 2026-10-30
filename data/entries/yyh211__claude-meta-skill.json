@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 363,
-  "days_since_push": 167,
+  "age_days": 364,
+  "days_since_push": 168,
   "health_score": 42,
   "health_components": {
     "popularity": 49.1,
@@ -131,23 +131,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:43+00:00",
+  "fetched_at": "2026-10-30T10:55:10+00:00",
   "categories": [
     "desktop-ui",
-    "memory-mcp"
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "huytieu/COG-second-brain",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
     "challenger": "",
     "supersede": {
       "incumbent": "yyh211/claude-meta-skill",
-      "challenger": "huytieu/cog-second-brain",
+      "challenger": "sickn33/agentic-awesome-skills",
       "incumbent_name": "YYH211/Claude-meta-skill",
-      "challenger_name": "huytieu/COG-second-brain",
+      "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -158,15 +158,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 4.673,
-      "momentum_ratio": 48.0,
-      "setup_delta": -27,
+      "star_ratio": 171.806,
+      "momentum_ratio": 3388.4,
+      "setup_delta": -28,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "4.67x the stars (1,327 vs 284)",
-        "48.00x the star velocity (2.4/day vs 0.0/day)",
-        "no harder to set up (31 vs 58 friction)"
+        "171.81x the stars (48,793 vs 284)",
+        "3388.40x the star velocity (169.4/day vs 0.0/day)",
+        "no harder to set up (30 vs 58 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -182,15 +182,20 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "usage-analytics"
         ],
         "incumbent_health": 42,
-        "challenger_health": 57,
+        "challenger_health": 92,
         "incumbent_setup_score": 58,
-        "challenger_setup_score": 31
+        "challenger_setup_score": 30
       }
     }
   }

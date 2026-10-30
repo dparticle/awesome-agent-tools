@@ -6,40 +6,40 @@
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
   "homepage": "",
-  "stars": 14355,
-  "forks": 1028,
-  "open_issues": 67,
+  "stars": 14505,
+  "forks": 1040,
+  "open_issues": 15,
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-21T23:23:51Z",
-  "updated_at": "2026-10-29T10:46:29Z",
-  "pushed_at": "2026-10-28T14:36:39Z",
+  "updated_at": "2026-10-30T10:51:51Z",
+  "pushed_at": "2026-10-30T04:21:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 160,
+  "age_days": 161,
   "days_since_push": 0,
-  "health_score": 84,
+  "health_score": 85,
   "health_components": {
-    "popularity": 83.1,
+    "popularity": 83.2,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 67.0,
+    "documentation": 71.0,
     "accessibility": 54.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1223,
+    "stars_gained": 1150,
     "days_span": 5,
-    "stars_per_day": 244.6,
-    "lifetime_stars_per_day": 89.72,
+    "stars_per_day": 230.0,
+    "lifetime_stars_per_day": 90.09,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "akitaonrails/ai-memory",
-    "readme_chars": 44456,
+    "readme_chars": 46265,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -114,7 +114,7 @@
       "note_en": "Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml",
       "note_zh": "需要一些配置。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 docker run、git clone (build from source)；需配置 environment variables、config.json/yaml/toml"
     },
-    "doc_score": 67,
+    "doc_score": 71,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -124,6 +124,7 @@
       "documents configuration",
       "has contribution guidance",
       "mentions licensing",
+      "documents changes",
       "reports benchmarks",
       "explains architecture",
       "long, detailed README"
@@ -148,9 +149,11 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.315
+      "external_link_ratio": 0.303
     },
-    "highlights": [],
+    "highlights": [
+      "Investigate Claude Code and Codex response-token usage in the project"
+    ],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -160,13 +163,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:35+00:00",
+  "fetched_at": "2026-10-30T10:54:18+00:00",
   "categories": [
+    "desktop-ui-2",
     "memory-mcp",
-    "model-routing",
-    "teams-isolation"
+    "teams"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 308,
-  "days_since_push": 36,
+  "age_days": 309,
+  "days_since_push": 37,
   "health_score": 49,
   "health_components": {
     "popularity": 63.0,
@@ -51,7 +51,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 4.58,
+    "lifetime_stars_per_day": 4.57,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,79 +165,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:52+00:00",
+  "fetched_at": "2026-10-30T10:54:31+00:00",
   "categories": [
-    "memory-mcp",
-    "mobile-remote-control",
-    "sessions"
+    "failover",
+    "teams-isolation"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by spinabot/brigade: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 spinabot/brigade 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "spinabot/brigade",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "dataojitori/nocturne_memory",
-      "challenger": "spinabot/brigade",
-      "incumbent_name": "Dataojitori/nocturne_memory",
-      "challenger_name": "spinabot/brigade",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "notifications",
-        "remote-control",
-        "session-persistence",
-        "worktree-isolation"
-      ],
-      "star_ratio": 8.049,
-      "momentum_ratio": 2.0,
-      "setup_delta": -21,
-      "dominance": 0.886,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "8.05x the stars (11,365 vs 1,412)",
-        "2.00x the star velocity (1.6/day vs 0.8/day)",
-        "no harder to set up (39 vs 60 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "notifications",
-          "remote-control",
-          "session-persistence",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 49,
-        "challenger_health": 60,
-        "incumbent_setup_score": 60,
-        "challenger_setup_score": 39
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

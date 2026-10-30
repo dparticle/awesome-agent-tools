@@ -17,14 +17,12 @@
 | Health score | 49/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-12-25 |
-| Last push | 2026-09-22 (36 days ago) |
+| Last push | 2026-09-22 (37 days ago) |
 | Analyzed README | 22,681 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [spinabot/brigade](https://github.com/spinabot/brigade)** — Superseded by spinabot/brigade: covers 100% of capabilities (7/7).
 
 ## What it solves
 

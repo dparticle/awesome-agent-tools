@@ -7,7 +7,7 @@
   "description": "Universal LLM Gateway: One API, every LLM. OpenAI/Anthropic-compatible endpoints with multi-provider translation and intelligent load-balancing.",
   "homepage": "",
   "stars": 557,
-  "forks": 104,
+  "forks": 105,
   "open_issues": 18,
   "language": "Python",
   "license": "NOASSERTION",
@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 505,
-  "days_since_push": 35,
+  "age_days": 506,
+  "days_since_push": 36,
   "health_score": 46,
   "health_components": {
     "popularity": 54.9,
@@ -167,13 +167,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:14+00:00",
+  "fetched_at": "2026-10-30T10:54:49+00:00",
   "categories": [
     "analytics",
-    "failover",
-    "model-routing"
+    "memory-mcp"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

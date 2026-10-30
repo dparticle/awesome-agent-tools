@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 127,
-  "days_since_push": 0,
+  "age_days": 128,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 52.7,
@@ -36,9 +36,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 432,
-    "days_span": 127,
-    "stars_per_day": 3.4,
-    "lifetime_stars_per_day": 3.4,
+    "days_span": 128,
+    "stars_per_day": 3.38,
+    "lifetime_stars_per_day": 3.38,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -149,13 +149,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:24+00:00",
+  "fetched_at": "2026-10-30T10:54:57+00:00",
   "categories": [
     "desktop-ui",
-    "sessions",
-    "teams-isolation"
+    "desktop-ui-2",
+    "teams"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

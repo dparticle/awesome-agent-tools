@@ -17,12 +17,14 @@
 | Health score | 55/100 |
 | Documentation | 59/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | UPL-1.0 |
 | Language | Python |
 | Created | 2025-07-27 |
-| Last push | 2026-10-27 (1 days ago) |
+| Last push | 2026-10-27 (2 days ago) |
 | Analyzed README | 25,079 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (5/5).
 
 ## What it solves
 

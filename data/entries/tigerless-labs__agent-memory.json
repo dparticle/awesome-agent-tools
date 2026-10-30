@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/agent-memory",
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
-  "stars": 4373,
+  "stars": 4377,
   "forks": 199,
-  "open_issues": 42,
+  "open_issues": 21,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,33 +26,33 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-10-29T04:09:55Z",
-  "pushed_at": "2026-10-27T16:26:26Z",
+  "updated_at": "2026-10-30T10:16:03Z",
+  "pushed_at": "2026-10-30T10:15:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 57,
-  "days_since_push": 1,
-  "health_score": 61,
+  "age_days": 58,
+  "days_since_push": 0,
+  "health_score": 60,
   "health_components": {
     "popularity": 72.8,
-    "momentum": 11.4,
+    "momentum": 10.5,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 57.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 109,
-    "days_span": 8,
-    "stars_per_day": 13.62,
-    "lifetime_stars_per_day": 76.72,
+    "stars_gained": 113,
+    "days_span": 9,
+    "stars_per_day": 12.56,
+    "lifetime_stars_per_day": 75.47,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tigerless-labs/agent-memory",
-    "readme_chars": 32305,
+    "readme_chars": 33744,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -127,7 +127,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.062
+      "external_link_ratio": 0.059
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -139,10 +139,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:41+00:00",
+  "fetched_at": "2026-10-30T10:54:22+00:00",
   "categories": [
-    "memory-mcp",
-    "model-routing"
+    "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {

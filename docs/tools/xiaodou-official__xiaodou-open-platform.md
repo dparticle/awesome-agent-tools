@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 323 |
+| Stars | 324 |
 | Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 59/100 |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-09-27 |
-| Last push | 2026-10-22 (6 days ago) |
+| Last push | 2026-10-22 (7 days ago) |
 | Analyzed README | 17,502 chars from `raw:HEAD/README.md` |
 
 ## What it solves

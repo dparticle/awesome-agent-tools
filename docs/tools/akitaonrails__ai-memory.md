@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,355 |
-| Star velocity | 244.6/day (history basis, 5d span) |
-| Health score | 84/100 |
-| Documentation | 67/100 |
+| Stars | 14,505 |
+| Star velocity | 230.0/day (history basis, 5d span) |
+| Health score | 85/100 |
+| Documentation | 71/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-05-21 |
-| Last push | 2026-10-28 (0 days ago) |
-| Analyzed README | 44,456 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 46,265 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -83,7 +83,7 @@
 
 ## Documentation quality
 
-Score **67/100**, based on these detected signals:
+Score **71/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -93,6 +93,7 @@ Score **67/100**, based on these detected signals:
 - documents configuration
 - has contribution guidance
 - mentions licensing
+- documents changes
 - reports benchmarks
 - explains architecture
 - long, detailed README
@@ -101,10 +102,10 @@ Score **67/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 83.1 |
+| popularity | 83.2 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 67.0 |
+| documentation | 71.0 |
 | accessibility | 54.0 |
 
 ---

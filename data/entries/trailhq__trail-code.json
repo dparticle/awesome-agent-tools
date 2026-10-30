@@ -6,9 +6,9 @@
   "url": "https://github.com/trailhq/Trail-Code",
   "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
   "homepage": "https://trailhq.com/graft",
-  "stars": 10888,
-  "forks": 969,
-  "open_issues": 276,
+  "stars": 10937,
+  "forks": 970,
+  "open_issues": 275,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,33 +31,33 @@
     "tree-sitter"
   ],
   "created_at": "2026-07-03T13:44:21Z",
-  "updated_at": "2026-10-29T09:53:14Z",
-  "pushed_at": "2026-10-29T10:26:58Z",
+  "updated_at": "2026-10-30T10:30:27Z",
+  "pushed_at": "2026-10-30T09:54:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 117,
+  "age_days": 118,
   "days_since_push": 0,
-  "health_score": 65,
+  "health_score": 66,
   "health_components": {
-    "popularity": 80.7,
-    "momentum": 30.5,
+    "popularity": 80.8,
+    "momentum": 34.2,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 42.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 183,
+    "stars_gained": 205,
     "days_span": 5,
-    "stars_per_day": 36.6,
-    "lifetime_stars_per_day": 93.06,
+    "stars_per_day": 41.0,
+    "lifetime_stars_per_day": 92.69,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "trailhq/Trail-Code",
-    "readme_chars": 60789,
+    "readme_chars": 61166,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -145,7 +145,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.099
+      "external_link_ratio": 0.098
     },
     "highlights": [
       "Entry-point trace: Trace end-to-end what happens when a client creates a record via the REST API, from route handler to database write.",
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:55:59+00:00",
+  "fetched_at": "2026-10-30T10:53:51+00:00",
   "categories": [
     "billing",
     "desktop-ui",

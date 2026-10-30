@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 25116,
-  "forks": 2044,
-  "open_issues": 2274,
+  "stars": 25913,
+  "forks": 2141,
+  "open_issues": 2412,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-29T10:55:29Z",
-  "pushed_at": "2026-10-29T10:55:46Z",
+  "updated_at": "2026-10-30T10:52:48Z",
+  "pushed_at": "2026-10-30T10:52:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 35,
+  "age_days": 36,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
-    "popularity": 88.0,
+    "popularity": 88.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 63.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4675,
+    "stars_gained": 4838,
     "days_span": 5,
-    "stars_per_day": 935.0,
-    "lifetime_stars_per_day": 717.6,
+    "stars_per_day": 967.6,
+    "lifetime_stars_per_day": 719.81,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 23341,
+    "readme_chars": 23403,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -138,7 +138,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.5
+      "external_link_ratio": 1.496
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -147,7 +147,7 @@
     ],
     "summary_zh_native": "Claude Code 跑 Kimi，Codex 跑 DeepSeek，Gemini CLI 跑 GLM，OpenCode 用你的 ChatGPT 订阅。",
     "highlights_zh": [
-      "任何模型都能联网搜索：不能搜索的模型由 magpie 代为搜索，用能搜索的 provider 或搜索 API（Tavily、Brave、Exa、Firecrawl、You.com、DeepSeek、SearXNG），按你拖好的顺序调用，每个都能单独关闭而不删除密钥。",
+      "任何模型都能联网搜索：不能搜索的模型由 magpie 代为搜索，用能搜索的 provider 或搜索 API（Tavily、Brave、Exa、Firecrawl、You.com、DeepSeek、火山引擎豆包搜索、腾讯云元宝搜索、SearXNG），按你拖好的顺序调用，每个都能单独关闭而不删除密钥。",
       "WSL：在 Windows 上，WSL 发行版里的 Agent 一样能配置，会话也一样统计。",
       "一个 provider 处处能用：API key、本地模型，或者你登录着的 Claude、ChatGPT、Copilot、Gemini、Grok 订阅。",
       "图片和视频：通过 MCP 给任何 Agent 一个生图工具，用你选的模型；有 Grok 订阅或 MiniMax API Key（MiniMax H3）还能生成视频。"
@@ -159,10 +159,9 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-29T10:55:48+00:00",
+  "fetched_at": "2026-10-30T10:53:43+00:00",
   "categories": [
     "desktop-ui-2",
-    "model-routing",
     "sharing"
   ],
   "primary_category": "sharing",

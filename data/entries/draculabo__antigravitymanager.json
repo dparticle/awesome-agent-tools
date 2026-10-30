@@ -6,9 +6,9 @@
   "url": "https://github.com/Draculabo/AntigravityManager",
   "description": "Antigravity Manager is a desktop application for managing the Google accounts used by Antigravity clients (including Classic, Antigravity IDE and agy CLI). View model quota in real time, switch client accounts seamlessly, and connect AI coding tools like Claude Code, Codex and OpenCode through a high-performance local API gateway.",
   "homepage": "",
-  "stars": 2414,
-  "forks": 291,
-  "open_issues": 26,
+  "stars": 2417,
+  "forks": 292,
+  "open_issues": 23,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -24,27 +24,27 @@
     "gemini-pro"
   ],
   "created_at": "2025-11-29T15:50:32Z",
-  "updated_at": "2026-10-29T06:29:37Z",
-  "pushed_at": "2026-10-29T06:29:30Z",
+  "updated_at": "2026-10-30T10:13:46Z",
+  "pushed_at": "2026-10-30T09:53:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 333,
+  "age_days": 334,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 67.7,
-    "momentum": 1.7,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 43.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.0,
-    "lifetime_stars_per_day": 7.25,
+    "stars_per_day": 2.4,
+    "lifetime_stars_per_day": 7.24,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -163,9 +163,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:45+00:00",
+  "fetched_at": "2026-10-30T10:54:26+00:00",
   "categories": [
-    "model-routing",
     "sharing"
   ],
   "primary_category": "sharing",
@@ -194,14 +193,14 @@
         "notifications",
         "quota-management"
       ],
-      "star_ratio": 8.075,
-      "momentum_ratio": 19.8,
+      "star_ratio": 8.086,
+      "momentum_ratio": 19.0,
       "setup_delta": -25,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "8.07x the stars (19,493 vs 2,414)",
-        "19.80x the star velocity (39.6/day vs 2.0/day)",
+        "8.09x the stars (19,544 vs 2,417)",
+        "19.00x the star velocity (45.6/day vs 2.4/day)",
         "no harder to set up (32 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -222,6 +221,7 @@
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
+          "mcp-support",
           "model-routing",
           "multi-account-switching",
           "multi-agent-orchestration",
@@ -233,7 +233,7 @@
           "voice-input"
         ],
         "incumbent_health": 54,
-        "challenger_health": 70,
+        "challenger_health": 72,
         "incumbent_setup_score": 57,
         "challenger_setup_score": 32
       }

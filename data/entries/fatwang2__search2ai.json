@@ -6,9 +6,9 @@
   "url": "https://github.com/fatwang2/search2ai",
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
-  "stars": 1283,
-  "forks": 192,
-  "open_issues": 16,
+  "stars": 1284,
+  "forks": 193,
+  "open_issues": 17,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -28,26 +28,26 @@
     "web-search"
   ],
   "created_at": "2023-12-18T02:02:46Z",
-  "updated_at": "2026-10-28T08:20:00Z",
+  "updated_at": "2026-10-30T05:25:54Z",
   "pushed_at": "2026-10-22T16:34:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1046,
-  "days_since_push": 6,
+  "age_days": 1047,
+  "days_since_push": 7,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 1.23,
     "basis": "history",
     "is_fast_riser": false
@@ -146,23 +146,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:56+00:00",
+  "fetched_at": "2026-10-30T10:54:34+00:00",
   "categories": [
-    "memory-mcp",
-    "model-routing"
+    "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 XiaomiMiMo/MiMo-Code 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "XiaomiMiMo/MiMo-Code",
     "challenger": "",
     "supersede": {
       "incumbent": "fatwang2/search2ai",
-      "challenger": "affaan-m/ecc",
+      "challenger": "xiaomimimo/mimo-code",
       "incumbent_name": "fatwang2/search2ai",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "XiaomiMiMo/MiMo-Code",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -174,15 +173,15 @@
         "parallel-execution",
         "self-hosted"
       ],
-      "star_ratio": 227.714,
-      "momentum_ratio": 4618.0,
-      "setup_delta": -16,
+      "star_ratio": 10.699,
+      "momentum_ratio": 8.5,
+      "setup_delta": -52,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "227.71x the stars (292,157 vs 1,283)",
-        "4618.00x the star velocity (923.6/day vs 0.2/day)",
-        "no harder to set up (57 vs 73 friction)"
+        "10.70x the stars (13,737 vs 1,284)",
+        "8.50x the star velocity (3.4/day vs 0.4/day)",
+        "no harder to set up (21 vs 73 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -194,27 +193,24 @@
           "self-hosted"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
           "security-isolation",
           "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "worktree-isolation"
+          "voice-input"
         ],
         "incumbent_health": 51,
-        "challenger_health": 89,
+        "challenger_health": 63,
         "incumbent_setup_score": 73,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 21
       }
     }
   }

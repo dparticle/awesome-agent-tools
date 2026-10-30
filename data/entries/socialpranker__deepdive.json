@@ -34,23 +34,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 160,
-  "days_since_push": 4,
+  "age_days": 161,
+  "days_since_push": 5,
   "health_score": 52,
   "health_components": {
     "popularity": 51.3,
-    "momentum": 1.9,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 369,
-    "days_span": 160,
-    "stars_per_day": 2.31,
-    "lifetime_stars_per_day": 2.31,
-    "basis": "lifetime",
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.29,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -136,22 +136,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:32+00:00",
+  "fetched_at": "2026-10-30T10:55:02+00:00",
   "categories": [
     "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "huytieu/COG-second-brain",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
     "challenger": "",
     "supersede": {
       "incumbent": "socialpranker/deepdive",
-      "challenger": "huytieu/cog-second-brain",
+      "challenger": "sickn33/agentic-awesome-skills",
       "incumbent_name": "Socialpranker/deepdive",
-      "challenger_name": "huytieu/COG-second-brain",
+      "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -162,15 +162,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 3.596,
-      "momentum_ratio": 1.039,
-      "setup_delta": -20,
-      "dominance": 0.805,
+      "star_ratio": 132.23,
+      "momentum_ratio": 847.1,
+      "setup_delta": -21,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.60x the stars (1,327 vs 369)",
-        "1.04x the star velocity (2.4/day vs 2.3/day)",
-        "no harder to set up (31 vs 51 friction)"
+        "132.23x the stars (48,793 vs 369)",
+        "847.10x the star velocity (169.4/day vs 0.2/day)",
+        "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -186,15 +186,20 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "usage-analytics"
         ],
         "incumbent_health": 52,
-        "challenger_health": 57,
+        "challenger_health": 92,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 31
+        "challenger_setup_score": 30
       }
     }
   }

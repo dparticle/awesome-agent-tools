@@ -6,9 +6,9 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "stars": 19493,
-  "forks": 1748,
-  "open_issues": 943,
+  "stars": 19544,
+  "forks": 1754,
+  "open_issues": 948,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -23,33 +23,33 @@
     "windsurf"
   ],
   "created_at": "2026-01-16T07:09:32Z",
-  "updated_at": "2026-10-29T09:52:19Z",
-  "pushed_at": "2026-10-27T06:44:53Z",
+  "updated_at": "2026-10-30T10:48:14Z",
+  "pushed_at": "2026-10-30T10:40:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 286,
-  "days_since_push": 2,
-  "health_score": 70,
+  "age_days": 287,
+  "days_since_push": 0,
+  "health_score": 72,
   "health_components": {
     "popularity": 85.8,
-    "momentum": 33.0,
+    "momentum": 38.0,
     "maintenance": 100.0,
-    "documentation": 61.0,
+    "documentation": 64.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 198,
+    "stars_gained": 228,
     "days_span": 5,
-    "stars_per_day": 39.6,
-    "lifetime_stars_per_day": 68.16,
+    "stars_per_day": 45.6,
+    "lifetime_stars_per_day": 68.1,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "jlcodes99/cockpit-tools",
-    "readme_chars": 18315,
+    "readme_chars": 18591,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -60,6 +60,7 @@
       "provider-aggregation",
       "api-gateway",
       "billing-metering",
+      "mcp-support",
       "security-isolation",
       "gui-desktop",
       "notifications",
@@ -72,15 +73,16 @@
       "auto-failover": "aude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch",
       "multi-agent-orchestration": "",
       "parallel-execution": "ty IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
-      "model-routing": "emini、Ollama 兼容接口，两引擎共用账号池、代理和配置。",
+      "model-routing": "",
       "provider-aggregation": "어 · 🇧🇷 Português · 🇷🇺 Русский · 🇹🇷 Türkçe · 🇵🇱 Polski · 🇨🇿 Čeština · 🇸🇦 العربية · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia",
-      "api-gateway": "面板切回内置 Go CLIProxyAPI sidecar。",
+      "api-gateway": "d，保留客户端 Thread；增量请求继续使用有效上游状态、完整检查点或 WebSocket 历史，缺失上下文或上游明确拒绝时仍可能失败并保留原历史。",
       "billing-metering": "tom 工具、客户端工具发现和结果回传；工具由客户端执行，网关不代为执行本地操作。",
+      "mcp-support": "rer 鉴权；可从剪贴板导入 Claude Code settings 或桌面端 Gateway 配置，获取或手动填写模型目录。",
       "security-isolation": "odes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入",
       "gui-desktop": "**：自动刷新 2~5 分钟 + 需要联动时开启 WebSocket + OpenCode 联动开启。",
-      "notifications": "",
+      "notifications": "权作为原账号的附加能力，列表只保留“授权/管理授权”，管理操作打开独立弹框；管理与重新授权不会自动加入服务。",
       "voice-input": "使用 gpt-4o-mini-transcribe。",
-      "cross-agent-support": "Mentions Codex, Copilot, Cursor, OpenCode"
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
       "multi-account-switching": 16,
@@ -88,15 +90,16 @@
       "auto-failover": 1,
       "multi-agent-orchestration": 1,
       "parallel-execution": 4,
-      "model-routing": 2,
+      "model-routing": 1,
       "provider-aggregation": 1,
       "api-gateway": 11,
       "billing-metering": 11,
+      "mcp-support": 1,
       "security-isolation": 3,
       "gui-desktop": 6,
       "notifications": 2,
       "voice-input": 2,
-      "cross-agent-support": 4
+      "cross-agent-support": 5
     },
     "friction": {
       "level": "low",
@@ -129,7 +132,7 @@
       "note_en": "Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, config.json/yaml/toml; GUI application",
       "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 npm install/build；需配置 API key configuration、config.json/yaml/toml；GUI application"
     },
-    "doc_score": 61,
+    "doc_score": 64,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -140,9 +143,11 @@
       "has contribution guidance",
       "mentions licensing",
       "has a table of contents",
-      "has a Chinese translation"
+      "has a Chinese translation",
+      "explains architecture"
     ],
     "agents": [
+      "Claude Code",
       "Codex",
       "OpenCode",
       "Cursor",
@@ -158,13 +163,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.71
+      "external_link_ratio": 0.753
     },
     "highlights": [
-      "API 服务：新安装及首次升级默认使用「Rust 原生」，之后保留用户的选择，可在 API 服务页面或快捷面板切回内置 Go CLIProxyAPI sidecar。",
       "Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth、Grok apply_patch 协议兼容，以及账号池错误分类与状态恢复边界参考其开源…",
       "WebSocket 默认仅本机访问：监听 127.0.0.1，默认端口 19528，可在设置中关闭或改端口。",
-      "runtimetarget: \"antigravity\"：复用桌面版切号认证规则；2.0 及以上版本写入系统凭据，并同步桌面版的本地回退文件 ~/.gemini/jetski-standalone-oauth-token（保留 idtoken，Unix 权限为 0600）；旧版写入本地 SQLite 登录状态。"
+      "runtimetarget: \"antigravity\"：复用桌面版切号认证规则；2.0 及以上版本写入系统凭据，并同步桌面版的本地回退文件 ~/.gemini/jetski-standalone-oauth-token（保留 idtoken，Unix 权限为 0600）；旧版写入本地 SQLite 登录状态。",
+      "API 服务：统一由宿主内的 Rust 引擎运行，支持 Responses HTTP/SSE/WebSocket、上下文压缩及 Chat Completions、Claude、Gemini、Ollama 协议兼容。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -175,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:34+00:00",
+  "fetched_at": "2026-10-30T10:54:17+00:00",
   "categories": [
     "billing",
-    "sharing",
-    "voice"
+    "desktop-ui-2",
+    "sharing"
   ],
   "primary_category": "sharing",
   "lifecycle": {

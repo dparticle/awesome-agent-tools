@@ -6,9 +6,9 @@
   "url": "https://github.com/tangency-labs/solidcraft",
   "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
   "homepage": "https://solidcraft.io",
-  "stars": 11811,
-  "forks": 1513,
-  "open_issues": 4133,
+  "stars": 12187,
+  "forks": 1586,
+  "open_issues": 4369,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -23,16 +23,16 @@
     "wasm"
   ],
   "created_at": "2026-10-07T18:57:48Z",
-  "updated_at": "2026-10-29T10:55:11Z",
-  "pushed_at": "2026-10-29T10:55:08Z",
+  "updated_at": "2026-10-30T10:50:51Z",
+  "pushed_at": "2026-10-30T10:40:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 21,
+  "age_days": 22,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 81.4,
+    "popularity": 81.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 56.0,
@@ -40,23 +40,23 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1985,
+    "stars_gained": 1968,
     "days_span": 5,
-    "stars_per_day": 397.0,
-    "lifetime_stars_per_day": 562.43,
+    "stars_per_day": 393.6,
+    "lifetime_stars_per_day": 553.95,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tangency-labs/solidcraft",
-    "readme_chars": 10396,
+    "readme_chars": 10384,
     "capabilities": [
       "mcp-support",
       "gui-desktop"
     ],
     "capability_evidence": {
       "mcp-support": "constrain, and build solids with a parametric feature timeline.",
-      "gui-desktop": "solidcraft -- solidcraft-cli mcp."
+      "gui-desktop": "lidcraft -- solidcraft-cli mcp."
     },
     "capability_hits": {
       "mcp-support": 7,
@@ -108,7 +108,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.481
+      "external_link_ratio": 0.482
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -120,7 +120,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:55:57+00:00",
+  "fetched_at": "2026-10-30T10:53:49+00:00",
   "categories": [
     "desktop-ui-2"
   ],

@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 290,
-  "days_since_push": 0,
+  "age_days": 291,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 54.2,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 12,
+    "days_span": 13,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.76,
+    "lifetime_stars_per_day": 1.75,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -171,11 +171,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:17+00:00",
+  "fetched_at": "2026-10-30T10:54:51+00:00",
   "categories": [
+    "billing",
     "memory-mcp",
-    "providers-2",
-    "teams-isolation"
+    "providers-2"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

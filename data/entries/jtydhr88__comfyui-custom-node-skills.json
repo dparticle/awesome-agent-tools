@@ -6,34 +6,34 @@
   "url": "https://github.com/jtydhr88/comfyui-custom-node-skills",
   "description": "A curated collection of [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code/skills) for developing ComfyUI custom nodes. These skills give Claude comprehensive knowledge of the ComfyUI node system, covering both the V3 (recommended) and V1 (legacy) APIs.",
   "homepage": "",
-  "stars": 309,
+  "stars": 311,
   "forks": 29,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-05T15:48:21Z",
-  "updated_at": "2026-10-28T23:43:39Z",
+  "updated_at": "2026-10-30T04:04:11Z",
   "pushed_at": "2026-10-17T01:10:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 237,
-  "days_since_push": 12,
+  "age_days": 238,
+  "days_since_push": 13,
   "health_score": 44,
   "health_components": {
-    "popularity": 49.8,
-    "momentum": 0.5,
+    "popularity": 49.9,
+    "momentum": 0.7,
     "maintenance": 92.0,
     "documentation": 32.0,
     "accessibility": 50.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.3,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 1.31,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -117,22 +117,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:38+00:00",
+  "fetched_at": "2026-10-30T10:55:06+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
     "challenger": "",
     "supersede": {
       "incumbent": "jtydhr88/comfyui-custom-node-skills",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
+      "challenger": "sickn33/agentic-awesome-skills",
       "incumbent_name": "jtydhr88/comfyui-custom-node-skills",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
+      "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -143,15 +144,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.935,
-      "momentum_ratio": 6.667,
-      "setup_delta": -29,
-      "dominance": 0.995,
+      "star_ratio": 156.891,
+      "momentum_ratio": 211.775,
+      "setup_delta": -20,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.94x the stars (907 vs 309)",
-        "6.67x the star velocity (4.0/day vs 0.6/day)",
-        "no harder to set up (21 vs 50 friction)"
+        "156.89x the stars (48,793 vs 311)",
+        "211.77x the star velocity (169.4/day vs 0.8/day)",
+        "no harder to set up (30 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -167,14 +168,20 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins"
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
         ],
         "incumbent_health": 44,
-        "challenger_health": 56,
+        "challenger_health": 92,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 30
       }
     }
   }

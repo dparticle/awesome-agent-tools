@@ -17,12 +17,14 @@
 | Health score | 41/100 |
 | Documentation | 53/100 |
 | Tier | 👀 Watchlist |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-27 |
-| Last push | 2026-07-10 (111 days ago) |
+| Last push | 2026-07-10 (112 days ago) |
 | Analyzed README | 7,017 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 

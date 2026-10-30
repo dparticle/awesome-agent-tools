@@ -12,23 +12,25 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,280 |
-| Star velocity | 117.3/day (lifetime basis, 45d span) |
-| Health score | 79/100 |
+| Stars | 6,382 |
+| Star velocity | 138.7/day (lifetime basis, 46d span) |
+| Health score | 80/100 |
 | Documentation | 42/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-09-13 |
-| Last push | 2026-10-29 (0 days ago) |
-| Analyzed README | 7,504 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 7,969 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> laude Code, add the /egm: prefix, for example /egm:egm-brainstorm.
+> xed command (#220), but 1.4.8 does not (#196), so keep the prefix.
 
 ### Agent runtime
 
@@ -66,8 +68,8 @@ Score **42/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.5 |
-| momentum | 97.8 |
+| popularity | 76.1 |
+| momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
 | accessibility | 70.0 |

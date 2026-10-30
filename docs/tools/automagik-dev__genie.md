@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-01 |
-| Last push | 2026-10-29 (0 days ago) |
-| Analyzed README | 17,233 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 17,415 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -46,13 +46,15 @@
 
 ### MCP support
 
+### GUI / desktop app
+
 ### Cross-agent support
 
 > Mentions Claude Code, Codex
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 4/100)
+- **Difficulty:** 🟢 Turnkey (friction score 0/100)
 - **Out of the box:** yes
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/automagik-dev/genie/main/install.sh | bash`
@@ -61,7 +63,7 @@
 
 **Configuration required:** database dependency
 
-*Turnkey. install via npx one-liner, curl | sh installer; configure database dependency*
+*Turnkey. install via npx one-liner, curl | sh installer; configure database dependency; GUI application*
 
 ## Documentation quality
 

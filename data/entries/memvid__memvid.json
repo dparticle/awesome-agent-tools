@@ -6,9 +6,9 @@
   "url": "https://github.com/memvid/memvid",
   "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
   "homepage": "https://www.memvid.com",
-  "stars": 17267,
-  "forks": 1456,
-  "open_issues": 34,
+  "stars": 17319,
+  "forks": 1465,
+  "open_issues": 38,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,16 +34,16 @@
     "video-processing"
   ],
   "created_at": "2025-05-27T16:01:08Z",
-  "updated_at": "2026-10-29T10:36:27Z",
+  "updated_at": "2026-10-30T09:10:38Z",
   "pushed_at": "2026-07-14T14:39:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 519,
-  "days_since_push": 106,
+  "age_days": 520,
+  "days_since_push": 107,
   "health_score": 76,
   "health_components": {
-    "popularity": 84.7,
+    "popularity": 84.8,
     "momentum": 100.0,
     "maintenance": 55.0,
     "documentation": 60.0,
@@ -51,10 +51,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 661,
+    "stars_gained": 712,
     "days_span": 5,
-    "stars_per_day": 132.2,
-    "lifetime_stars_per_day": 33.27,
+    "stars_per_day": 142.4,
+    "lifetime_stars_per_day": 33.31,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -130,11 +130,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:34+00:00",
+  "fetched_at": "2026-10-30T10:54:17+00:00",
   "categories": [
-    "memory-mcp"
+    "failover"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

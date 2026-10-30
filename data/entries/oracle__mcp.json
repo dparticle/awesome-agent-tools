@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 469,
   "forks": 153,
-  "open_issues": 52,
+  "open_issues": 54,
   "language": "Python",
   "license": "UPL-1.0",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 459,
-  "days_since_push": 1,
+  "age_days": 460,
+  "days_since_push": 2,
   "health_score": 55,
   "health_components": {
     "popularity": 53.4,
@@ -132,16 +132,73 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:21+00:00",
+  "fetched_at": "2026-10-30T10:54:55+00:00",
   "categories": [
+    "desktop-ui-2",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 XiaomiMiMo/MiMo-Code 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "XiaomiMiMo/MiMo-Code",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "oracle/mcp",
+      "challenger": "xiaomimimo/mimo-code",
+      "incumbent_name": "oracle/mcp",
+      "challenger_name": "XiaomiMiMo/MiMo-Code",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "model-routing",
+        "multi-agent-orchestration",
+        "security-isolation"
+      ],
+      "star_ratio": 29.29,
+      "momentum_ratio": 4.25,
+      "setup_delta": 5,
+      "dominance": 0.955,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "29.29x the stars (13,737 vs 469)",
+        "4.25x the star velocity (3.4/day vs 0.8/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "voice-input"
+        ],
+        "incumbent_health": 55,
+        "challenger_health": 63,
+        "incumbent_setup_score": 16,
+        "challenger_setup_score": 21
+      }
+    }
   }
 }

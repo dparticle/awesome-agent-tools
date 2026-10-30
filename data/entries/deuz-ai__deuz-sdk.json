@@ -39,12 +39,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 149,
-  "days_since_push": 12,
+  "age_days": 150,
+  "days_since_push": 13,
   "health_score": 48,
   "health_components": {
     "popularity": 54.2,
-    "momentum": 2.9,
+    "momentum": 2.8,
     "maintenance": 92.0,
     "documentation": 39.0,
     "accessibility": 63.0
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 512,
-    "days_span": 149,
-    "stars_per_day": 3.44,
-    "lifetime_stars_per_day": 3.44,
+    "days_span": 150,
+    "stars_per_day": 3.41,
+    "lifetime_stars_per_day": 3.41,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -135,16 +135,71 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:17+00:00",
+  "fetched_at": "2026-10-30T10:54:51+00:00",
   "categories": [
     "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "deuz-ai/deuz-sdk",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "Deuz-AI/Deuz-SDK",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "mcp-support",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 95.299,
+      "momentum_ratio": 49.683,
+      "setup_delta": -7,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "95.30x the stars (48,793 vs 512)",
+        "49.68x the star velocity (169.4/day vs 3.4/day)",
+        "no harder to set up (30 vs 37 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "mcp-support",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 92,
+        "incumbent_setup_score": 37,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

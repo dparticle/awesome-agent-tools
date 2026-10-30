@@ -6,8 +6,8 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 3739,
-  "forks": 297,
+  "stars": 4030,
+  "forks": 318,
   "open_issues": 5,
   "language": "Python",
   "license": "MIT",
@@ -34,33 +34,33 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-10-29T10:54:26Z",
-  "pushed_at": "2026-10-29T10:44:30Z",
+  "updated_at": "2026-10-30T10:48:30Z",
+  "pushed_at": "2026-10-30T10:50:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 55,
+  "age_days": 56,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 87,
   "health_components": {
-    "popularity": 71.5,
-    "momentum": 56.7,
+    "popularity": 72.1,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 100.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 3739,
-    "days_span": 55,
-    "stars_per_day": 67.98,
-    "lifetime_stars_per_day": 67.98,
-    "basis": "lifetime",
+    "stars_gained": 1360,
+    "days_span": 5,
+    "stars_per_day": 272.0,
+    "lifetime_stars_per_day": 71.96,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kajisho5/ffmpeg-skill",
-    "readme_chars": 94252,
+    "readme_chars": 97204,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -87,7 +87,7 @@
       "api-gateway": 1,
       "skills-plugins": 4,
       "agent-runtime": 1,
-      "mcp-support": 21,
+      "mcp-support": 22,
       "security-isolation": 1,
       "cross-agent-support": 3
     },
@@ -144,7 +144,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.212
+      "external_link_ratio": 0.206
     },
     "highlights": [
       "Loudness targets. −14 LUFS / −1 dBTP for YouTube and social platforms (the loudness.py default), -I -16 --tp -1.5 for podcasts, -I -23 for broadcast. A clip measured at −40 LUFS or below is…",
@@ -161,9 +161,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:12+00:00",
+  "fetched_at": "2026-10-30T10:54:00+00:00",
   "categories": [
     "desktop-ui",
+    "desktop-ui-2",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
@@ -192,14 +193,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 78.138,
-      "momentum_ratio": 13.586,
+      "star_ratio": 72.705,
+      "momentum_ratio": 3.443,
       "setup_delta": 7,
-      "dominance": 0.965,
+      "dominance": 0.919,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "78.14x the stars (292,157 vs 3,739)",
-        "13.59x the star velocity (923.6/day vs 68.0/day)",
+        "72.71x the stars (293,003 vs 4,030)",
+        "3.44x the star velocity (936.4/day vs 272.0/day)",
         "slightly heavier setup (+7 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -232,7 +233,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 76,
+        "incumbent_health": 87,
         "challenger_health": 89,
         "incumbent_setup_score": 50,
         "challenger_setup_score": 57

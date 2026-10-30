@@ -6,7 +6,7 @@
   "url": "https://github.com/0xK3vin/MegaMemory",
   "description": "Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer.",
   "homepage": "",
-  "stars": 731,
+  "stars": 732,
   "forks": 74,
   "open_issues": 4,
   "language": "TypeScript",
@@ -29,27 +29,27 @@
     "typescript"
   ],
   "created_at": "2026-02-06T07:40:49Z",
-  "updated_at": "2026-10-29T07:03:50Z",
+  "updated_at": "2026-10-30T04:00:01Z",
   "pushed_at": "2026-05-03T00:22:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 265,
-  "days_since_push": 179,
+  "age_days": 266,
+  "days_since_push": 180,
   "health_score": 43,
   "health_components": {
     "popularity": 57.3,
-    "momentum": 0.8,
+    "momentum": 1.0,
     "maintenance": 55.0,
     "documentation": 44.0,
     "accessibility": 72.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.76,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 2.75,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,22 +139,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:09+00:00",
+  "fetched_at": "2026-10-30T10:54:45+00:00",
   "categories": [
-    "memory-mcp"
+    "failover",
+    "model-routing"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by Gentleman-Programming/engram: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 Gentleman-Programming/engram 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "Gentleman-Programming/engram",
     "challenger": "",
     "supersede": {
       "incumbent": "0xk3vin/megamemory",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "gentleman-programming/engram",
       "incumbent_name": "0xK3vin/MegaMemory",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "Gentleman-Programming/engram",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -166,15 +167,15 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 41.03,
-      "momentum_ratio": 29.8,
-      "setup_delta": 4,
-      "dominance": 0.98,
+      "star_ratio": 10.51,
+      "momentum_ratio": 15.167,
+      "setup_delta": 6,
+      "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "41.03x the stars (29,993 vs 731)",
-        "29.80x the star velocity (29.8/day vs 1.0/day)",
-        "slightly heavier setup (+4 friction, within tolerance)"
+        "10.51x the stars (7,693 vs 732)",
+        "15.17x the star velocity (18.2/day vs 1.2/day)",
+        "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -187,27 +188,15 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
           "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
           "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration"
+          "session-persistence"
         ],
         "incumbent_health": 43,
-        "challenger_health": 71,
+        "challenger_health": 63,
         "incumbent_setup_score": 28,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 34
       }
     }
   }

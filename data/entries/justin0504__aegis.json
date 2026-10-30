@@ -24,12 +24,12 @@
     "policy-engine"
   ],
   "created_at": "2026-03-04T03:24:33Z",
-  "updated_at": "2026-10-29T00:10:37Z",
-  "pushed_at": "2026-10-28T23:59:19Z",
+  "updated_at": "2026-10-30T07:02:06Z",
+  "pushed_at": "2026-10-30T07:02:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 239,
+  "age_days": 240,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
@@ -44,7 +44,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.2,
+    "lifetime_stars_per_day": 2.19,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -161,11 +161,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:16+00:00",
+  "fetched_at": "2026-10-30T10:54:50+00:00",
   "categories": [
     "analytics",
-    "providers-2",
-    "sessions"
+    "memory-mcp",
+    "teams"
   ],
   "primary_category": "analytics",
   "lifecycle": {

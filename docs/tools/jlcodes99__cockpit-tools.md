@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,493 |
-| Star velocity | 39.6/day (history basis, 5d span) |
-| Health score | 70/100 |
-| Documentation | 61/100 |
+| Stars | 19,544 |
+| Star velocity | 45.6/day (history basis, 5d span) |
+| Health score | 72/100 |
+| Documentation | 64/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-10-27 (2 days ago) |
-| Analyzed README | 18,315 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 18,591 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,19 +46,21 @@
 
 ### Model / provider routing
 
-> emini、Ollama 兼容接口，两引擎共用账号池、代理和配置。
-
 ### Multi-provider aggregation
 
 > 어 · 🇧🇷 Português · 🇷🇺 Русский · 🇹🇷 Türkçe · 🇵🇱 Polski · 🇨🇿 Čeština · 🇸🇦 العربية · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia
 
 ### API gateway / proxy
 
-> 面板切回内置 Go CLIProxyAPI sidecar。
+> d，保留客户端 Thread；增量请求继续使用有效上游状态、完整检查点或 WebSocket 历史，缺失上下文或上游明确拒绝时仍可能失败并保留原历史。
 
 ### Billing & metering
 
 > tom 工具、客户端工具发现和结果回传；工具由客户端执行，网关不代为执行本地操作。
+
+### MCP support
+
+> rer 鉴权；可从剪贴板导入 Claude Code settings 或桌面端 Gateway 配置，获取或手动填写模型目录。
 
 ### Security & isolation
 
@@ -70,13 +72,15 @@
 
 ### Notifications
 
+> 权作为原账号的附加能力，列表只保留“授权/管理授权”，管理操作打开独立弹框；管理与重新授权不会自动加入服务。
+
 ### Voice input
 
 > 使用 gpt-4o-mini-transcribe。
 
 ### Cross-agent support
 
-> Mentions Codex, Copilot, Cursor, OpenCode
+> Mentions Claude Code, Codex, Copilot, Cursor
 
 ## Setup reality check
 
@@ -95,7 +99,7 @@
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **64/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -107,15 +111,16 @@ Score **61/100**, based on these detected signals:
 - mentions licensing
 - has a table of contents
 - has a Chinese translation
+- explains architecture
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 85.8 |
-| momentum | 33.0 |
+| momentum | 38.0 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
+| documentation | 64.0 |
 | accessibility | 68.0 |
 
 ---

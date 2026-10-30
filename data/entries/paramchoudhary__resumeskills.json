@@ -6,34 +6,34 @@
   "url": "https://github.com/Paramchoudhary/ResumeSkills",
   "description": "A collection of AI agent skills focused on resume optimization, job applications, and career development. Built for job seekers, career changers, and professionals who want Claude Code to help with resume writing, ATS optimization, interview prep, and strategic job search.",
   "homepage": "",
-  "stars": 2942,
-  "forks": 243,
+  "stars": 2958,
+  "forks": 245,
   "open_issues": 6,
   "language": "",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-01-30T10:29:46Z",
-  "updated_at": "2026-10-29T10:43:52Z",
+  "updated_at": "2026-10-30T08:08:49Z",
   "pushed_at": "2026-06-19T07:20:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 272,
-  "days_since_push": 132,
-  "health_score": 49,
+  "age_days": 273,
+  "days_since_push": 133,
+  "health_score": 50,
   "health_components": {
     "popularity": 69.4,
-    "momentum": 15.3,
+    "momentum": 16.2,
     "maintenance": 55.0,
     "documentation": 39.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 92,
+    "stars_gained": 97,
     "days_span": 5,
-    "stars_per_day": 18.4,
-    "lifetime_stars_per_day": 10.82,
+    "stars_per_day": 19.4,
+    "lifetime_stars_per_day": 10.84,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -99,8 +99,8 @@
     "highlights": [
       "75% of resumes rejected by ATS before humans see them",
       "resume-bullet-writer - Write achievement-focused bullets",
-      "cover-letter-generator - Personalized cover letters",
-      "resume-formatter - Clean, scannable formatting"
+      "resume-formatter - Clean, scannable formatting",
+      "cover-letter-generator - Personalized cover letters"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -111,7 +111,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:43+00:00",
+  "fetched_at": "2026-10-30T10:54:24+00:00",
   "categories": [
     "desktop-ui"
   ],

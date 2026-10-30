@@ -6,19 +6,19 @@
   "url": "https://github.com/openai/codex",
   "description": "Lightweight coding agent that runs in your terminal",
   "homepage": "",
-  "stars": 131513,
-  "forks": 20774,
-  "open_issues": 25444,
+  "stars": 131654,
+  "forks": 20801,
+  "open_issues": 25642,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2025-04-13T05:37:54Z",
-  "updated_at": "2026-10-29T10:42:34Z",
-  "pushed_at": "2026-10-29T10:34:36Z",
+  "updated_at": "2026-10-30T10:43:39Z",
+  "pushed_at": "2026-10-30T08:04:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 564,
+  "age_days": 565,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 778,
+    "stars_gained": 816,
     "days_span": 5,
-    "stars_per_day": 155.6,
-    "lifetime_stars_per_day": 233.18,
+    "stars_per_day": 163.2,
+    "lifetime_stars_per_day": 233.02,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -126,7 +126,7 @@
     "seed_reason": "OpenAI's local coding agent.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-29T10:55:51+00:00",
+  "fetched_at": "2026-10-30T10:53:45+00:00",
   "categories": [
     "sharing"
   ],

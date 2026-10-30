@@ -6,9 +6,9 @@
   "url": "https://github.com/YoanWai/agent-manager",
   "description": "The fastest developer workflow for every AI coding agent. Live status, quick prompts, worktrees, and diff review from one tmux TUI. Discord: discord.gg/ecS88An7pF",
   "homepage": "https://agent-manager.dev",
-  "stars": 625,
+  "stars": 626,
   "forks": 70,
-  "open_issues": 105,
+  "open_issues": 102,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "wsl"
   ],
   "created_at": "2026-07-15T16:27:33Z",
-  "updated_at": "2026-10-27T22:24:16Z",
-  "pushed_at": "2026-10-29T08:18:53Z",
+  "updated_at": "2026-10-30T02:12:19Z",
+  "pushed_at": "2026-10-30T02:12:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 105,
+  "age_days": 106,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 55.9,
-    "momentum": 0.7,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 5.95,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 5.91,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "YoanWai/agent-manager",
-    "readme_chars": 20437,
+    "readme_chars": 20413,
     "capabilities": [
       "worktree-isolation",
       "agent-runtime",
@@ -136,7 +136,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.391
+      "external_link_ratio": 0.392
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:11+00:00",
+  "fetched_at": "2026-10-30T10:54:47+00:00",
   "categories": [
     "teams-isolation"
   ],
@@ -175,14 +175,14 @@
         "notifications",
         "worktree-isolation"
       ],
-      "star_ratio": 54.214,
-      "momentum_ratio": 35.5,
+      "star_ratio": 54.179,
+      "momentum_ratio": 81.0,
       "setup_delta": -8,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "54.21x the stars (33,884 vs 625)",
-        "35.50x the star velocity (28.4/day vs 0.8/day)",
+        "54.18x the stars (33,916 vs 626)",
+        "81.00x the star velocity (32.4/day vs 0.4/day)",
         "no harder to set up (2 vs 10 friction)"
       ],
       "reasons_zh": [],
@@ -209,7 +209,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 55,
-        "challenger_health": 73,
+        "challenger_health": 74,
         "incumbent_setup_score": 10,
         "challenger_setup_score": 2
       }

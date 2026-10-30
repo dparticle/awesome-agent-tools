@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "https://www.copilotkit.ai/openbot",
-  "stars": 7736,
-  "forks": 1028,
-  "open_issues": 45,
+  "stars": 8435,
+  "forks": 1070,
+  "open_issues": 54,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-10-29T10:50:24Z",
-  "pushed_at": "2026-10-29T09:03:35Z",
+  "updated_at": "2026-10-30T10:52:18Z",
+  "pushed_at": "2026-10-29T20:07:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 73,
+  "age_days": 74,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 77.8,
+    "popularity": 78.5,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -38,16 +38,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 716,
+    "stars_gained": 1353,
     "days_span": 5,
-    "stars_per_day": 143.2,
-    "lifetime_stars_per_day": 105.97,
+    "stars_per_day": 270.6,
+    "lifetime_stars_per_day": 113.99,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 33554,
+    "readme_chars": 33598,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -127,7 +127,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.447
+      "external_link_ratio": 0.446
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -144,18 +144,81 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:03+00:00",
+  "fetched_at": "2026-10-30T10:53:53+00:00",
   "categories": [
+    "analytics",
     "failover",
-    "memory-mcp",
-    "sessions"
+    "memory-mcp"
   ],
-  "primary_category": "sessions",
+  "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "copilotkit/openbot",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "CopilotKit/OpenBot",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "mcp-support",
+        "model-routing",
+        "notifications",
+        "security-isolation",
+        "self-hosted",
+        "session-persistence"
+      ],
+      "star_ratio": 34.737,
+      "momentum_ratio": 3.46,
+      "setup_delta": 8,
+      "dominance": 0.914,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "34.74x the stars (293,003 vs 8,435)",
+        "3.46x the star velocity (936.4/day vs 270.6/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "mcp-support",
+          "model-routing",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 84,
+        "challenger_health": 89,
+        "incumbent_setup_score": 49,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

@@ -26,12 +26,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 143,
-  "days_since_push": 1,
+  "age_days": 144,
+  "days_since_push": 2,
   "health_score": 55,
   "health_components": {
     "popularity": 57.9,
-    "momentum": 4.6,
+    "momentum": 4.5,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 54.0
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 786,
-    "days_span": 143,
-    "stars_per_day": 5.5,
-    "lifetime_stars_per_day": 5.5,
+    "days_span": 144,
+    "stars_per_day": 5.46,
+    "lifetime_stars_per_day": 5.46,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -176,10 +176,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:06+00:00",
+  "fetched_at": "2026-10-30T10:54:43+00:00",
   "categories": [
     "desktop-ui",
-    "memory-mcp",
+    "desktop-ui-2",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",

@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — do not edit by hand. Run `python scripts/agentindex.py build` (or wait for the daily workflow). -->
 
-# 1llu50ry/mcp-gamehacking
+# 1llu50ry/mcp-reverse
 
-> 180+ MCP tools · 73 RE/debug backends · 9 host-side plugins · 4,200+ skills · multi-agent mesh · native x86-64 + ARM64 emulators
+> 180+ MCP tools · 56 RE/debug backends · 9 host-side plugins · 4,200+ skills · multi-agent mesh · native x86-64 + ARM64 emulators
 
-[Repository](https://github.com/1llu50ry/mcp-gamehacking) · [Back to index](../../README.md) · Category: **None**
+[Repository](https://github.com/1llu50ry/mcp-reverse) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 402 |
-| Star velocity | 16.8/day (lifetime basis, 24d span) |
+| Stars | 447 |
+| Star velocity | 17.9/day (lifetime basis, 25d span) |
 | Health score | 58/100 |
 | Documentation | 72/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-05 |
 | Last push | 2026-10-29 (0 days ago) |
-| Analyzed README | 29,765 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).
+| Analyzed README | 29,673 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -90,8 +88,8 @@ Score **72/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 52.1 |
-| momentum | 14.0 |
+| popularity | 53.0 |
+| momentum | 14.9 |
 | maintenance | 100.0 |
 | documentation | 72.0 |
 | accessibility | 68.0 |

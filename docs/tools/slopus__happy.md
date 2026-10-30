@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 24,392 |
-| Star velocity | 21.2/day (history basis, 5d span) |
+| Stars | 24,412 |
+| Star velocity | 22.2/day (history basis, 5d span) |
 | Health score | 65/100 |
 | Documentation | 29/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2025-07-18 |
-| Last push | 2026-10-29 (0 days ago) |
-| Analyzed README | 4,553 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 4,701 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -41,6 +41,10 @@
 ### GUI / desktop app
 
 > Android, web), the original CLI, and the relay server
+
+### Notifications
+
+> - happy-agent: remote session control for the original Happy CLI (not the Happy Agent runtime)
 
 ### Cross-agent support
 
@@ -75,8 +79,8 @@ Score **29/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 87.7 |
-| momentum | 17.7 |
+| popularity | 87.8 |
+| momentum | 18.5 |
 | maintenance | 100.0 |
 | documentation | 29.0 |
 | accessibility | 96.0 |

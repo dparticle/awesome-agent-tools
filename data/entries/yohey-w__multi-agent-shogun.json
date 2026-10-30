@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 277,
-  "days_since_push": 84,
+  "age_days": 278,
+  "days_since_push": 85,
   "health_score": 51,
   "health_components": {
     "popularity": 63.1,
@@ -42,9 +42,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 21,
+    "days_span": 22,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.14,
+    "lifetime_stars_per_day": 5.12,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -192,11 +192,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:51+00:00",
+  "fetched_at": "2026-10-30T10:54:30+00:00",
   "categories": [
-    "desktop-ui",
-    "memory-mcp",
-    "mobile-remote-control"
+    "mobile-remote-control",
+    "model-routing",
+    "teams-isolation"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

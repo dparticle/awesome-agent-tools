@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
-  "days_since_push": 161,
+  "age_days": 253,
+  "days_since_push": 162,
   "health_score": 44,
   "health_components": {
     "popularity": 49.9,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 1,
-    "days_span": 15,
-    "stars_per_day": 0.07,
-    "lifetime_stars_per_day": 1.25,
+    "days_span": 16,
+    "stars_per_day": 0.06,
+    "lifetime_stars_per_day": 1.24,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,8 +149,8 @@
     "summary_zh_native": "Memory Palace 为 LLM Agent 提供持久化、可检索、可审计的外部记忆，让每次对话都能在之前的基础上继续，而不是从零开始。",
     "highlights_zh": [
       "HTTP/SSE 鉴权默认 fail-closed：未配置或未提供有效 MCPAPIKEY 时返回 401；stdio 不受影响。",
-      "Docker 一键部署在服务端代理转发鉴权头，浏览器不会直接拿到真实 key。",
       "Docker 数据保存在 named volume data 和 snapshots 中。",
+      "Docker 一键部署在服务端代理转发鉴权头，浏览器不会直接拿到真实 key。",
       "Forgetting Engine：运行时活力值按 VITALITYDECAYHALFLIFEDAYS 衰减（.env.example 中为 30 天）。"
     ],
     "chinese_readme": "README_CN.md"
@@ -160,11 +160,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:37+00:00",
+  "fetched_at": "2026-10-30T10:55:06+00:00",
   "categories": [
+    "desktop-ui-2",
     "failover",
-    "memory-mcp",
-    "model-routing"
+    "memory-mcp"
   ],
   "primary_category": "failover",
   "lifecycle": {

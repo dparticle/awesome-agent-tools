@@ -6,9 +6,9 @@
   "url": "https://github.com/greenfield-inc/Pane",
   "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
   "homepage": "https://runpane.com/",
-  "stars": 585,
+  "stars": 588,
   "forks": 234,
-  "open_issues": 198,
+  "open_issues": 207,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -34,33 +34,33 @@
     "worktree-manager"
   ],
   "created_at": "2026-02-27T01:34:13Z",
-  "updated_at": "2026-10-29T10:44:25Z",
-  "pushed_at": "2026-10-29T10:48:01Z",
+  "updated_at": "2026-10-30T02:40:07Z",
+  "pushed_at": "2026-10-30T04:38:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 244,
+  "age_days": 245,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 55.3,
-    "momentum": 0.8,
+    "popularity": 55.4,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.0,
+    "stars_per_day": 1.4,
     "lifetime_stars_per_day": 2.4,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "greenfield-inc/Pane",
-    "readme_chars": 37135,
+    "readme_chars": 37017,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -172,7 +172,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.512
+      "external_link_ratio": 0.513
     },
     "highlights": [
       "Developers on any OS: Mac, Windows, and Linux are all first-class citizens, with no \"Mac-first with a Windows waitlist\"",
@@ -189,11 +189,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:12+00:00",
+  "fetched_at": "2026-10-30T10:54:47+00:00",
   "categories": [
+    "desktop-ui-2",
     "mobile-remote-control",
-    "teams-isolation",
-    "voice"
+    "teams-isolation"
   ],
   "primary_category": "teams-isolation",
   "lifecycle": {

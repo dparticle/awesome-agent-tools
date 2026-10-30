@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,305 |
-| Star velocity | 3.2/day (history basis, 5d span) |
+| Stars | 5,309 |
+| Star velocity | 3.6/day (history basis, 5d span) |
 | Health score | 59/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-14 |
-| Last push | 2026-10-28 (1 days ago) |
-| Analyzed README | 8,993 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 8,987 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -85,7 +83,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.5 |
-| momentum | 2.7 |
+| momentum | 3.0 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 72.0 |

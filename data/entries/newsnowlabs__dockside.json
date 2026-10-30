@@ -6,7 +6,7 @@
   "url": "https://github.com/newsnowlabs/dockside",
   "description": "Create dev containers that mirror your prod environment and sandbox your Claude/Codex CLIs. Develop with VS Code/Jet Brains, via SSH with e.g. Vim or VS Code in your browser. Unlimited staging for co-workers and clients. Dockside is an open source 'Codespaces' that runs on local machine, on prem, or in cloud",
   "homepage": "https://dockside.io/",
-  "stars": 320,
+  "stars": 321,
   "forks": 25,
   "open_issues": 14,
   "language": "Python",
@@ -22,26 +22,26 @@
     "web-ide"
   ],
   "created_at": "2021-09-12T13:23:51Z",
-  "updated_at": "2026-10-12T17:00:14Z",
+  "updated_at": "2026-10-30T00:35:18Z",
   "pushed_at": "2026-10-21T17:37:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1872,
-  "days_since_push": 7,
-  "health_score": 48,
+  "age_days": 1873,
+  "days_since_push": 8,
+  "health_score": 47,
   "health_components": {
     "popularity": 50.1,
-    "momentum": 0.0,
-    "maintenance": 100.0,
+    "momentum": 0.2,
+    "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 35.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.17,
     "basis": "history",
     "is_fast_riser": false
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:36+00:00",
+  "fetched_at": "2026-10-30T10:55:06+00:00",
   "categories": [
     "teams-isolation"
   ],

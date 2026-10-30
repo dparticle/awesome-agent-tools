@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,267 |
-| Star velocity | 27.2/day (history basis, 5d span) |
-| Health score | 60/100 |
+| Stars | 6,286 |
+| Star velocity | 26.4/day (history basis, 5d span) |
+| Health score | 64/100 |
 | Documentation | 36/100 |
-| Tier | 🔹 Notable |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | n/a |
 | Created | 2026-08-18 |
-| Last push | 2026-08-22 (67 days ago) |
-| Analyzed README | 7,957 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 7,864 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> . Bottom or side cropping may strengthen the corner emergence, but the Skill does not prescribe exact edge contact or a fixed crop.
+> tom or left-side cropping may strengthen the corner emergence, but the Skill does not prescribe exact edge contact or a fixed crop.
 
 ### Skills & plugins
 
@@ -65,9 +65,9 @@ Score **36/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.9 |
-| momentum | 22.7 |
-| maintenance | 78.0 |
+| popularity | 76.0 |
+| momentum | 22.0 |
+| maintenance | 100.0 |
 | documentation | 36.0 |
 | accessibility | 99.0 |
 

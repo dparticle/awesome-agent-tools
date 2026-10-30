@@ -6,9 +6,9 @@
   "url": "https://github.com/google/artemis",
   "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
   "homepage": "",
-  "stars": 15568,
-  "forks": 1698,
-  "open_issues": 175,
+  "stars": 15763,
+  "forks": 1731,
+  "open_issues": 179,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -19,16 +19,16 @@
     "testing"
   ],
   "created_at": "2026-08-13T17:59:37Z",
-  "updated_at": "2026-10-29T10:43:36Z",
+  "updated_at": "2026-10-30T10:52:00Z",
   "pushed_at": "2026-10-01T21:37:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 76,
-  "days_since_push": 27,
+  "age_days": 77,
+  "days_since_push": 28,
   "health_score": 82,
   "health_components": {
-    "popularity": 83.8,
+    "popularity": 84.0,
     "momentum": 100.0,
     "maintenance": 92.0,
     "documentation": 68.0,
@@ -36,10 +36,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1360,
+    "stars_gained": 1144,
     "days_span": 5,
-    "stars_per_day": 272.0,
-    "lifetime_stars_per_day": 204.84,
+    "stars_per_day": 228.8,
+    "lifetime_stars_per_day": 204.71,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -148,8 +148,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:55:55+00:00",
+  "fetched_at": "2026-10-30T10:53:48+00:00",
   "categories": [
+    "desktop-ui-2",
     "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",

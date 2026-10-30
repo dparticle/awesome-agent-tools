@@ -6,7 +6,7 @@
   "url": "https://github.com/managedcode/dotnet-skills",
   "description": "One of the largest .NET-focused skill collections for AI coding assistants, with a catalog, CLI, and orchestration agents for Codex, Claude Code, GitHub Copilot, Gemini, and Junie.",
   "homepage": "https://skills.managed-code.com",
-  "stars": 497,
+  "stars": 498,
   "forks": 40,
   "open_issues": 2,
   "language": "C#",
@@ -21,13 +21,13 @@
     "skills"
   ],
   "created_at": "2026-03-15T10:43:01Z",
-  "updated_at": "2026-10-29T05:56:08Z",
+  "updated_at": "2026-10-29T14:46:12Z",
   "pushed_at": "2026-10-29T10:34:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 228,
-  "days_since_push": 0,
+  "age_days": 229,
+  "days_since_push": 1,
   "health_score": 56,
   "health_components": {
     "popularity": 53.9,
@@ -41,7 +41,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.18,
+    "lifetime_stars_per_day": 2.17,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,9 +133,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:19+00:00",
+  "fetched_at": "2026-10-30T10:54:53+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -161,13 +162,13 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.159,
+      "star_ratio": 2.157,
       "momentum_ratio": 2.0,
       "setup_delta": 12,
       "dominance": 0.751,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.16x the stars (1,073 vs 497)",
+        "2.16x the stars (1,074 vs 498)",
         "2.00x the star velocity (1.6/day vs 0.8/day)",
         "slightly heavier setup (+12 friction, within tolerance)"
       ],

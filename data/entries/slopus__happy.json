@@ -6,9 +6,9 @@
   "url": "https://github.com/slopus/happy",
   "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
   "homepage": "https://happy.engineering/",
-  "stars": 24392,
-  "forks": 2096,
-  "open_issues": 1088,
+  "stars": 24412,
+  "forks": 2098,
+  "open_issues": 1092,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -23,39 +23,40 @@
     "hacktoberfest"
   ],
   "created_at": "2025-07-18T05:53:18Z",
-  "updated_at": "2026-10-29T10:51:51Z",
-  "pushed_at": "2026-10-29T10:51:47Z",
+  "updated_at": "2026-10-30T09:42:24Z",
+  "pushed_at": "2026-10-30T08:56:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 468,
+  "age_days": 469,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
-    "popularity": 87.7,
-    "momentum": 17.7,
+    "popularity": 87.8,
+    "momentum": 18.5,
     "maintenance": 100.0,
     "documentation": 29.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 106,
+    "stars_gained": 111,
     "days_span": 5,
-    "stars_per_day": 21.2,
-    "lifetime_stars_per_day": 52.12,
+    "stars_per_day": 22.2,
+    "lifetime_stars_per_day": 52.05,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "slopus/happy",
-    "readme_chars": 4553,
+    "readme_chars": 4701,
     "capabilities": [
       "remote-control",
       "mobile-access",
       "multi-agent-orchestration",
       "security-isolation",
       "gui-desktop",
+      "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
@@ -64,6 +65,7 @@
       "multi-agent-orchestration": "",
       "security-isolation": "",
       "gui-desktop": "Android, web), the original CLI, and the relay server",
+      "notifications": "- happy-agent: remote session control for the original Happy CLI (not the Happy Agent runtime)",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
@@ -72,6 +74,7 @@
       "multi-agent-orchestration": 1,
       "security-isolation": 1,
       "gui-desktop": 1,
+      "notifications": 1,
       "cross-agent-support": 3
     },
     "friction": {
@@ -123,7 +126,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.098
+      "external_link_ratio": 1.064
     },
     "highlights": [
       "End-to-end encrypted mobile app.",
@@ -140,11 +143,10 @@
     "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-29T10:55:46+00:00",
+  "fetched_at": "2026-10-30T10:53:41+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile-remote-control",
-    "voice"
+    "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

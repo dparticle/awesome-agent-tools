@@ -25,13 +25,13 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 302,
-  "days_since_push": 7,
-  "health_score": 51,
+  "age_days": 303,
+  "days_since_push": 8,
+  "health_score": 49,
   "health_components": {
     "popularity": 53.1,
     "momentum": 0.0,
-    "maintenance": 100.0,
+    "maintenance": 92.0,
     "documentation": 66.0,
     "accessibility": 43.0
   },
@@ -118,11 +118,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:23+00:00",
+  "fetched_at": "2026-10-30T10:54:56+00:00",
   "categories": [
-    "memory-mcp"
+    "desktop-ui"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

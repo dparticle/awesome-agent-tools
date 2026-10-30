@@ -6,9 +6,9 @@
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
   "homepage": "https://ecc.tools",
-  "stars": 292157,
-  "forks": 43245,
-  "open_issues": 252,
+  "stars": 293003,
+  "forks": 43351,
+  "open_issues": 177,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -22,13 +22,13 @@
     "productivity"
   ],
   "created_at": "2026-01-18T00:51:51Z",
-  "updated_at": "2026-10-29T10:49:31Z",
-  "pushed_at": "2026-10-26T04:56:56Z",
+  "updated_at": "2026-10-30T10:48:57Z",
+  "pushed_at": "2026-10-30T03:06:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 284,
-  "days_since_push": 3,
+  "age_days": 285,
+  "days_since_push": 0,
   "health_score": 89,
   "health_components": {
     "popularity": 100.0,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4618,
+    "stars_gained": 4682,
     "days_span": 5,
-    "stars_per_day": 923.6,
-    "lifetime_stars_per_day": 1028.72,
+    "stars_per_day": 936.4,
+    "lifetime_stars_per_day": 1028.08,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "affaan-m/ECC",
-    "readme_chars": 115490,
+    "readme_chars": 116553,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -74,7 +74,7 @@
       "worktree-isolation": "",
       "model-routing": "shims such as /tdd and /eval live in legacy-command-shims/ for explicit opt-in only.",
       "api-gateway": "eway remaps model names, configure that in Claude Code rather than in ECC.",
-      "session-persistence": "",
+      "session-persistence": "ions/ecc/, applyTo: globs)",
       "memory-context": "r debugging, before continuing feature work",
       "skills-plugins": "tokens use macOS Keychain by default; explicit file fallback must retain owner-only directory/file permissions.",
       "agent-runtime": "te ECC, change scope, or change its hook profile.",
@@ -174,7 +174,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.372
+      "external_link_ratio": 0.369
     },
     "highlights": [
       "Skills format (SKILL.md with YAML frontmatter) works across Claude Code, Codex, OpenCode, and GitHub Copilot CLI",
@@ -196,11 +196,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:16+00:00",
+  "fetched_at": "2026-10-30T10:54:04+00:00",
   "categories": [
     "desktop-ui",
-    "memory-mcp",
-    "sessions"
+    "failover",
+    "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,394 |
-| Star velocity | 4.0/day (lifetime basis, 353d span) |
+| Stars | 1,419 |
+| Star velocity | 4.0/day (lifetime basis, 354d span) |
 | Health score | 53/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-10-29 (0 days ago) |
+| Last push | 2026-10-30 (0 days ago) |
 | Analyzed README | 22,481 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
@@ -74,7 +74,7 @@ Score **65/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 62.9 |
+| popularity | 63.0 |
 | momentum | 3.3 |
 | maintenance | 100.0 |
 | documentation | 65.0 |

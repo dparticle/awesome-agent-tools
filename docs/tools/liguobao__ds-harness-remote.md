@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 933 |
-| Star velocity | 12.4/day (lifetime basis, 75d span) |
-| Health score | 56/100 |
+| Stars | 997 |
+| Star velocity | 13.1/day (lifetime basis, 76d span) |
+| Health score | 57/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-10-29 (0 days ago) |
-| Analyzed README | 20,145 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 20,140 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Skills & plugins
 
-> top add -w ds-harness-remote@0.5.23.
+> ktop add -w ds-harness-remote@0.6.0.
 
 ### Security & isolation
 
@@ -54,7 +54,7 @@
 
 ### GUI / desktop app
 
-> ar Supported Install ds-harness-remote@0.5.23; this computer can also be the Host
+> bar Supported Install ds-harness-remote@0.6.0; this computer can also be the Host
 
 ### Cross-agent support
 
@@ -91,8 +91,8 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 59.4 |
-| momentum | 10.4 |
+| popularity | 60.0 |
+| momentum | 10.9 |
 | maintenance | 100.0 |
 | documentation | 58.0 |
 | accessibility | 66.0 |

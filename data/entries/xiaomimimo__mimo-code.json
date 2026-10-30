@@ -6,9 +6,9 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13735,
-  "forks": 1454,
-  "open_issues": 1168,
+  "stars": 13737,
+  "forks": 1455,
+  "open_issues": 1176,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,33 +19,33 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-10-29T06:20:12Z",
-  "pushed_at": "2026-10-29T08:53:20Z",
+  "updated_at": "2026-10-30T08:55:59Z",
+  "pushed_at": "2026-10-30T08:20:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
+  "age_days": 141,
   "days_since_push": 0,
   "health_score": 63,
   "health_components": {
     "popularity": 82.8,
-    "momentum": 3.5,
+    "momentum": 2.8,
     "maintenance": 100.0,
-    "documentation": 57.0,
+    "documentation": 58.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 17,
     "days_span": 5,
-    "stars_per_day": 4.2,
-    "lifetime_stars_per_day": 98.11,
+    "stars_per_day": 3.4,
+    "lifetime_stars_per_day": 97.43,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "XiaomiMiMo/MiMo-Code",
-    "readme_chars": 27333,
+    "readme_chars": 28650,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -69,7 +69,7 @@
       "session-persistence": "omatically by the checkpoint-writer subagent",
       "memory-context": "e: Where Models and Agents Co-Evolve",
       "skills-plugins": "h-paper-writing Write and polish academic papers (ML/CV/NLP style)",
-      "mcp-support": "multi-select dialog that persists the setting to config without hand-editing.",
+      "mcp-support": "ther set MIMOCODEENABLEEXA=1 to enable the built-in websearch and codesearch tools (backed by Exa; for higher rate limits set EXAAPIKEY, created at https://dashboard.exa.ai/api-keys), or add a search MCP server under mc…",
       "security-isolation": "led via experimental.maxMode in the config.",
       "self-hosted": "ode (mimo-v2.6-flash) is available on OpenRouter and compatible relay platforms.",
       "gui-desktop": "Xiaomi MiMo Desktop is built for real-world work: one conversation can handle office work, design, coding, and multimodal creation, while multiple conversations can divide work and collaborate.",
@@ -84,7 +84,7 @@
       "session-persistence": 2,
       "memory-context": 7,
       "skills-plugins": 1,
-      "mcp-support": 2,
+      "mcp-support": 5,
       "security-isolation": 2,
       "self-hosted": 1,
       "gui-desktop": 1,
@@ -124,7 +124,7 @@
       "note_en": "Easy. install via Homebrew install, curl | sh installer; configure environment variables, API key configuration; GUI application",
       "note_zh": "较易上手。可通过 Homebrew install、curl | sh installer 安装；需配置 environment variables、API key configuration；GUI application"
     },
-    "doc_score": 57,
+    "doc_score": 58,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -152,7 +152,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.146
+      "external_link_ratio": 0.14
     },
     "highlights": [
       "Cost tiers. OpenAI prices GPT-5.6 prompts above 272K input at 2x input and 1.5x output",
@@ -164,8 +164,8 @@
     "highlights_zh": [
       "计费档位。 OpenAI 对 GPT-5.6 超过 272K input 的请求按 2x input、1.5x output 计费，且作用于整个请求。",
       "让长任务成本可控：标准与旗舰模型自动路由，局部编辑只修改需要的部分；同会话缓存命中率最高 99%，跨会话最高 95%。",
-      "@ai-sdk/openai-compatible 适用于 OpenAI 兼容 API；使用其他通信协议的服务需要对应 Provider 的专用适配器。",
-      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。"
+      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。",
+      "自定义 Provider — TUI 内添加任意 OpenAI 兼容 API"
     ],
     "chinese_readme": "README.zh.md"
   },
@@ -174,13 +174,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:55:56+00:00",
+  "fetched_at": "2026-10-30T10:53:49+00:00",
   "categories": [
-    "memory-mcp",
-    "sessions",
-    "voice"
+    "desktop-ui-2",
+    "failover",
+    "memory-mcp"
   ],
-  "primary_category": "voice",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

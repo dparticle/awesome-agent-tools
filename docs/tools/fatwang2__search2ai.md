@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,283 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Stars | 1,284 |
+| Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2023-12-18 |
-| Last push | 2026-10-22 (6 days ago) |
+| Last push | 2026-10-22 (7 days ago) |
 | Analyzed README | 25,798 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -84,7 +84,7 @@ Score **64/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 62.2 |
-| momentum | 0.2 |
+| momentum | 0.3 |
 | maintenance | 100.0 |
 | documentation | 64.0 |
 | accessibility | 27.0 |

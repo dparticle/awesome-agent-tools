@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,445 |
-| Star velocity | 5.2/day (history basis, 5d span) |
-| Health score | 58/100 |
+| Stars | 5,457 |
+| Star velocity | 6.6/day (history basis, 5d span) |
+| Health score | 59/100 |
 | Documentation | 81/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-28 |
-| Last push | 2026-10-17 (11 days ago) |
+| Last push | 2026-10-17 (12 days ago) |
 | Analyzed README | 51,182 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)** — Superseded by DeusData/codebase-memory-mcp: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -91,7 +93,7 @@ Score **81/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.7 |
-| momentum | 4.3 |
+| momentum | 5.5 |
 | maintenance | 92.0 |
 | documentation | 81.0 |
 | accessibility | 42.0 |

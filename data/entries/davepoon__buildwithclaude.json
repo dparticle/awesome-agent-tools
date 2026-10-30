@@ -6,9 +6,9 @@
   "url": "https://github.com/davepoon/buildwithclaude",
   "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
   "homepage": "https://www.buildwithclaude.com",
-  "stars": 3690,
-  "forks": 664,
-  "open_issues": 17,
+  "stars": 3695,
+  "forks": 671,
+  "open_issues": 25,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,26 +26,26 @@
     "subagents"
   ],
   "created_at": "2025-07-25T02:26:45Z",
-  "updated_at": "2026-10-29T10:33:33Z",
+  "updated_at": "2026-10-29T23:38:54Z",
   "pushed_at": "2026-10-29T10:21:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 461,
-  "days_since_push": 0,
+  "age_days": 462,
+  "days_since_push": 1,
   "health_score": 57,
   "health_components": {
-    "popularity": 71.3,
-    "momentum": 2.8,
+    "popularity": 71.4,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 50.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 3.4,
+    "stars_per_day": 4.0,
     "lifetime_stars_per_day": 8.0,
     "basis": "history",
     "is_fast_riser": false
@@ -137,17 +137,74 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:42+00:00",
+  "fetched_at": "2026-10-30T10:54:24+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "davepoon/buildwithclaude",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "davepoon/buildwithclaude",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 13.205,
+      "momentum_ratio": 42.355,
+      "setup_delta": -20,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "13.21x the stars (48,793 vs 3,695)",
+        "42.35x the star velocity (169.4/day vs 4.0/day)",
+        "no harder to set up (30 vs 50 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 92,
+        "incumbent_setup_score": 50,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

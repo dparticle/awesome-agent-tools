@@ -8,7 +8,7 @@
   "homepage": "https://thebestterminal.com",
   "stars": 309,
   "forks": 24,
-  "open_issues": 7,
+  "open_issues": 8,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 154,
-  "days_since_push": 15,
+  "age_days": 155,
+  "days_since_push": 16,
   "health_score": 52,
   "health_components": {
     "popularity": 49.8,
@@ -49,7 +49,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.01,
+    "lifetime_stars_per_day": 1.99,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:38+00:00",
+  "fetched_at": "2026-10-30T10:55:07+00:00",
   "categories": [
     "desktop-ui-2",
     "mobile-remote-control",
     "teams-isolation"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

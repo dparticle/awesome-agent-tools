@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 231,
-  "days_since_push": 42,
+  "age_days": 232,
+  "days_since_push": 43,
   "health_score": 42,
   "health_components": {
     "popularity": 50.3,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.42,
+    "lifetime_stars_per_day": 1.41,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -118,7 +118,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:34+00:00",
+  "fetched_at": "2026-10-30T10:55:04+00:00",
   "categories": [
     "sharing"
   ],
@@ -144,14 +144,14 @@
         "multi-account-switching",
         "quota-management"
       ],
-      "star_ratio": 59.612,
-      "momentum_ratio": 792.0,
+      "star_ratio": 59.768,
+      "momentum_ratio": 912.0,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "59.61x the stars (19,493 vs 327)",
-        "792.00x the star velocity (39.6/day vs 0.0/day)",
+        "59.77x the stars (19,544 vs 327)",
+        "912.00x the star velocity (45.6/day vs 0.0/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],
@@ -168,6 +168,7 @@
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
+          "mcp-support",
           "model-routing",
           "multi-account-switching",
           "multi-agent-orchestration",
@@ -179,7 +180,7 @@
           "voice-input"
         ],
         "incumbent_health": 42,
-        "challenger_health": 70,
+        "challenger_health": 72,
         "incumbent_setup_score": 41,
         "challenger_setup_score": 32
       }

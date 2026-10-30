@@ -6,8 +6,8 @@
   "url": "https://github.com/phuryn/pm-skills",
   "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
   "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
-  "stars": 27500,
-  "forks": 2846,
+  "stars": 27537,
+  "forks": 2852,
   "open_issues": 48,
   "language": "",
   "license": "MIT",
@@ -21,33 +21,33 @@
     "product-management"
   ],
   "created_at": "2026-03-01T23:33:44Z",
-  "updated_at": "2026-10-29T09:47:20Z",
-  "pushed_at": "2026-10-16T12:28:37Z",
+  "updated_at": "2026-10-30T08:39:30Z",
+  "pushed_at": "2026-10-29T19:09:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 241,
-  "days_since_push": 12,
-  "health_score": 68,
+  "age_days": 242,
+  "days_since_push": 0,
+  "health_score": 69,
   "health_components": {
     "popularity": 88.8,
-    "momentum": 27.7,
-    "maintenance": 92.0,
-    "documentation": 57.0,
+    "momentum": 30.0,
+    "maintenance": 100.0,
+    "documentation": 53.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 166,
+    "stars_gained": 180,
     "days_span": 5,
-    "stars_per_day": 33.2,
-    "lifetime_stars_per_day": 114.11,
+    "stars_per_day": 36.0,
+    "lifetime_stars_per_day": 113.79,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "phuryn/pm-skills",
-    "readme_chars": 27697,
+    "readme_chars": 25345,
     "capabilities": [
       "usage-analytics",
       "skills-plugins",
@@ -90,7 +90,7 @@
       "note_en": "Easy. install via native installer / package; configure database dependency, database migration; beginner-friendly",
       "note_zh": "较易上手。可通过 native installer / package 安装；需配置 database dependency、database migration；beginner-friendly"
     },
-    "doc_score": 57,
+    "doc_score": 53,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -100,7 +100,6 @@
       "mentions licensing",
       "documents changes",
       "publishes a roadmap",
-      "explains architecture",
       "long, detailed README"
     ],
     "agents": [
@@ -118,7 +117,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.867
+      "external_link_ratio": 0.947
     },
     "highlights": [
       "monetization-strategy — Brainstorm 3–5 monetization strategies with validation experiments",
@@ -135,16 +134,71 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:34+00:00",
+  "fetched_at": "2026-10-30T10:54:17+00:00",
   "categories": [
     "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "phuryn/pm-skills",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "phuryn/pm-skills",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "notifications",
+        "skills-plugins",
+        "usage-analytics"
+      ],
+      "star_ratio": 1.772,
+      "momentum_ratio": 4.706,
+      "setup_delta": 3,
+      "dominance": 0.858,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "1.77x the stars (48,793 vs 27,537)",
+        "4.71x the star velocity (169.4/day vs 36.0/day)",
+        "slightly heavier setup (+3 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "notifications",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 69,
+        "challenger_health": 92,
+        "incumbent_setup_score": 27,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

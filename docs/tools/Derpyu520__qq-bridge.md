@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,246 |
-| Star velocity | 49.9/day (lifetime basis, 65d span) |
+| Stars | 3,320 |
+| Star velocity | 50.3/day (lifetime basis, 66d span) |
 | Health score | 60/100 |
-| Documentation | 43/100 |
+| Documentation | 44/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-25 |
-| Last push | 2026-10-22 (6 days ago) |
-| Analyzed README | 19,837 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 20,117 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -60,8 +60,6 @@
 
 ### Notifications
 
-> e 默认 false）：先把音频放进 audio/，再到控制台打开开关；你自己发语音不受这个开关影响
-
 ## Setup reality check
 
 - **Difficulty:** 🔴 Involved (friction score 71/100)
@@ -77,7 +75,7 @@
 
 ## Documentation quality
 
-Score **43/100**, based on these detected signals:
+Score **44/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -86,15 +84,16 @@ Score **43/100**, based on these detected signals:
 - mentions licensing
 - has a table of contents
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 70.2 |
-| momentum | 41.6 |
+| popularity | 70.4 |
+| momentum | 41.9 |
 | maintenance | 100.0 |
-| documentation | 43.0 |
+| documentation | 44.0 |
 | accessibility | 29.0 |
 
 ---

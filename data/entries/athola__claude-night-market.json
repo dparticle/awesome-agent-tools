@@ -7,8 +7,8 @@
   "description": "23 Claude Code plugins: TDD enforcement hooks, git/PR workflows, spec-driven development, code review, project lifecycle, fix-from-error, maintenance automation, context optimization, research, and multi-LLM delegation. 186 skills, 128 commands, 54 agents.",
   "homepage": "https://athola.github.io/claude-night-market",
   "stars": 343,
-  "forks": 37,
-  "open_issues": 15,
+  "forks": 38,
+  "open_issues": 21,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -35,11 +35,11 @@
   ],
   "created_at": "2025-11-23T06:45:40Z",
   "updated_at": "2026-10-27T19:32:27Z",
-  "pushed_at": "2026-10-28T20:36:20Z",
+  "pushed_at": "2026-10-29T20:31:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 340,
+  "age_days": 341,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
@@ -138,7 +138,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:34+00:00",
+  "fetched_at": "2026-10-30T10:55:03+00:00",
   "categories": [
     "desktop-ui"
   ],

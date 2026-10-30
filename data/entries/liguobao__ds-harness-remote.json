@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 933,
-  "forks": 89,
-  "open_issues": 16,
+  "stars": 997,
+  "forks": 92,
+  "open_issues": 17,
   "language": "TypeScript",
   "license": "",
   "topics": [
@@ -16,33 +16,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-10-29T09:21:42Z",
-  "pushed_at": "2026-10-29T06:49:21Z",
+  "updated_at": "2026-10-30T10:36:11Z",
+  "pushed_at": "2026-10-30T08:31:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 75,
+  "age_days": 76,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 57,
   "health_components": {
-    "popularity": 59.4,
-    "momentum": 10.4,
+    "popularity": 60.0,
+    "momentum": 10.9,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 933,
-    "days_span": 75,
-    "stars_per_day": 12.44,
-    "lifetime_stars_per_day": 12.44,
+    "stars_gained": 997,
+    "days_span": 76,
+    "stars_per_day": 13.12,
+    "lifetime_stars_per_day": 13.12,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 20145,
+    "readme_chars": 20140,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -61,10 +61,10 @@
       "mobile-access": "scripts/install.sh INTELLIGENTUI=1 (optionally INTELLIGENTUIVERSION=...)",
       "parallel-execution": "",
       "model-routing": "",
-      "skills-plugins": "top add -w ds-harness-remote@0.5.23.",
+      "skills-plugins": "ktop add -w ds-harness-remote@0.6.0.",
       "security-isolation": "oaded from the connected Host.",
       "self-hosted": "",
-      "gui-desktop": "ar Supported Install ds-harness-remote@0.5.23; this computer can also be the Host",
+      "gui-desktop": "bar Supported Install ds-harness-remote@0.6.0; this computer can also be the Host",
       "cross-agent-support": "Mentions Codex, Cursor, OpenCode"
     },
     "capability_hits": {
@@ -155,11 +155,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:02+00:00",
+  "fetched_at": "2026-10-30T10:54:38+00:00",
   "categories": [
     "analytics",
-    "mobile-remote-control",
-    "voice"
+    "memory-mcp",
+    "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

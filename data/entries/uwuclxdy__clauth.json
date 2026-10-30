@@ -6,9 +6,9 @@
   "url": "https://github.com/uwuclxdy/clauth",
   "description": "Claude Code multi-account manager, usage monitor (CLI, TUI & cross-account delegation via MCP)",
   "homepage": "",
-  "stars": 277,
+  "stars": 282,
   "forks": 44,
-  "open_issues": 24,
+  "open_issues": 21,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -30,33 +30,33 @@
     "vibecoded"
   ],
   "created_at": "2026-04-28T12:20:42Z",
-  "updated_at": "2026-10-29T09:44:26Z",
-  "pushed_at": "2026-10-29T02:46:03Z",
+  "updated_at": "2026-10-30T07:38:50Z",
+  "pushed_at": "2026-10-30T08:18:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "mommy",
-  "age_days": 183,
+  "age_days": 184,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
-    "popularity": 48.8,
-    "momentum": 3.7,
+    "popularity": 49.0,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 22,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 4.4,
-    "lifetime_stars_per_day": 1.51,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 1.53,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "uwuclxdy/clauth",
-    "readme_chars": 15726,
+    "readme_chars": 15760,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -147,7 +147,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.463
+      "external_link_ratio": 1.459
     },
     "highlights": [
       "📊 Monitor live 5h / 7d rate-limit bars, a global token dashboard with API-equivalent cost, plus a live Claude status-incident feed",
@@ -164,11 +164,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:44+00:00",
+  "fetched_at": "2026-10-30T10:55:10+00:00",
   "categories": [
-    "failover",
     "mobile-remote-control",
-    "sharing"
+    "sharing",
+    "teams-isolation"
   ],
   "primary_category": "sharing",
   "lifecycle": {

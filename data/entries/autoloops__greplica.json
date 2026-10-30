@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 160,
-  "days_since_push": 91,
+  "age_days": 161,
+  "days_since_push": 92,
   "health_score": 41,
   "health_components": {
     "popularity": 52.9,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.75,
+    "lifetime_stars_per_day": 2.73,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -112,7 +112,8 @@
       "external_link_ratio": 0.248
     },
     "highlights": [
-      "flow.browser_identity: browser-specific identity API behavior."
+      "flow.browser_identity: browser-specific identity API behavior.",
+      "flow.sync_startup: startup settings, auth checks, and sync-service initialization."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -123,77 +124,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:57:24+00:00",
+  "fetched_at": "2026-10-30T10:54:57+00:00",
   "categories": [
     "desktop-ui",
-    "memory-mcp"
+    "failover"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "autoloops/greplica",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "Autoloops/greplica",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "memory-context",
-        "self-hosted",
-        "skills-plugins"
-      ],
-      "star_ratio": 68.166,
-      "momentum_ratio": 149.0,
-      "setup_delta": -5,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "68.17x the stars (29,993 vs 440)",
-        "149.00x the star velocity (29.8/day vs 0.2/day)",
-        "no harder to set up (32 vs 37 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "memory-context",
-          "self-hosted",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 41,
-        "challenger_health": 71,
-        "incumbent_setup_score": 37,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -6,9 +6,9 @@
   "url": "https://github.com/topoteretes/cognee",
   "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
   "homepage": "https://www.cognee.ai",
-  "stars": 32884,
-  "forks": 3434,
-  "open_issues": 1076,
+  "stars": 32913,
+  "forks": 3438,
+  "open_issues": 1056,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -33,33 +33,33 @@
     "vector-database"
   ],
   "created_at": "2023-08-16T16:16:33Z",
-  "updated_at": "2026-10-29T10:31:18Z",
-  "pushed_at": "2026-10-29T09:38:58Z",
+  "updated_at": "2026-10-30T10:40:21Z",
+  "pushed_at": "2026-10-29T22:24:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1169,
+  "age_days": 1170,
   "days_since_push": 0,
-  "health_score": 70,
+  "health_score": 71,
   "health_components": {
     "popularity": 90.3,
-    "momentum": 28.3,
+    "momentum": 30.7,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 60.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 170,
+    "stars_gained": 184,
     "days_span": 5,
-    "stars_per_day": 34.0,
+    "stars_per_day": 36.8,
     "lifetime_stars_per_day": 28.13,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "topoteretes/cognee",
-    "readme_chars": 18179,
+    "readme_chars": 18422,
     "capabilities": [
       "model-routing",
       "memory-context",
@@ -134,7 +134,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.705
+      "external_link_ratio": 1.683
     },
     "highlights": [
       "v1.6.0 — Keyless workflows & pipeline reliability (September 18, 2026): build and search text memory with local models and no cloud LLM key; LLM-dependent improvement stages skip when no LL…",
@@ -150,11 +150,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:32+00:00",
+  "fetched_at": "2026-10-30T10:54:15+00:00",
   "categories": [
-    "memory-mcp"
+    "failover"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

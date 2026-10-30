@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "full_name": "savannahfeder/agentbox",
+  "name": "agentbox",
+  "owner": "savannahfeder",
+  "url": "https://github.com/savannahfeder/agentbox",
+  "description": "A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them like email, or use the board view. Free, open source, on the plan you already pay for.",
+  "homepage": "https://agentbox.ac",
+  "stars": 330,
+  "forks": 36,
+  "open_issues": 20,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "topics": [
+    "agent-orchestration",
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "claude-code-gui",
+    "codex",
+    "coding-agents",
+    "developer-tools",
+    "electron",
+    "git-worktree",
+    "kanban",
+    "macos",
+    "opencode",
+    "parallel-agents",
+    "worktree-manager"
+  ],
+  "created_at": "2026-09-28T02:35:07Z",
+  "updated_at": "2026-10-30T09:16:10Z",
+  "pushed_at": "2026-10-30T08:05:58Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 32,
+  "days_since_push": 0,
+  "health_score": 50,
+  "health_components": {
+    "popularity": 50.4,
+    "momentum": 8.6,
+    "maintenance": 100.0,
+    "documentation": 36.0,
+    "accessibility": 70.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 330,
+    "days_span": 32,
+    "stars_per_day": 10.31,
+    "lifetime_stars_per_day": 10.31,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "savannahfeder/agentbox",
+    "readme_chars": 16892,
+    "capabilities": [
+      "parallel-execution",
+      "worktree-isolation",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "parallel-execution": "",
+      "worktree-isolation": "",
+      "agent-runtime": "how many of a thing there were,",
+      "mcp-support": "",
+      "gui-desktop": "s the terminal and is the one optional dependency here, and esbuild.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "parallel-execution": 1,
+      "worktree-isolation": 2,
+      "agent-runtime": 2,
+      "mcp-support": 1,
+      "gui-desktop": 3,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, process manager; GUI application",
+      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、process manager；GUI application"
+    },
+    "doc_score": 36,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Run dozens of Claude Code and Codex agents in parallel, each in its own git worktree, and only hear from the ones that need you.",
+    "summary_zh": "",
+    "install_hint": "npm install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.0
+    },
+    "highlights": [
+      "One key answers it. 1 2 3 take an option, E approves the"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-30T10:55:03+00:00",
+  "categories": [
+    "desktop-ui-2",
+    "teams-isolation"
+  ],
+  "primary_category": "teams-isolation",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "iOfficeAI/AionUi",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "savannahfeder/agentbox",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "savannahfeder/agentbox",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "parallel-execution",
+        "worktree-isolation"
+      ],
+      "star_ratio": 102.776,
+      "momentum_ratio": 3.143,
+      "setup_delta": -28,
+      "dominance": 0.942,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "102.78x the stars (33,916 vs 330)",
+        "3.14x the star velocity (32.4/day vs 10.3/day)",
+        "no harder to set up (2 vs 30 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "parallel-execution",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 50,
+        "challenger_health": 74,
+        "incumbent_setup_score": 30,
+        "challenger_setup_score": 2
+      }
+    }
+  }
+}

@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 365 |
+| Stars | 366 |
 | Star velocity | 0.6/day (history basis, 5d span) |
 | Health score | 44/100 |
 | Documentation | 59/100 |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-10-21 |
-| Last push | 2026-09-10 (48 days ago) |
+| Last push | 2026-09-10 (49 days ago) |
 | Analyzed README | 9,755 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -75,7 +75,7 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.2 |
+| popularity | 51.3 |
 | momentum | 0.5 |
 | maintenance | 78.0 |
 | documentation | 59.0 |

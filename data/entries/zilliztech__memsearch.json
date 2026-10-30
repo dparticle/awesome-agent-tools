@@ -6,9 +6,9 @@
   "url": "https://github.com/zilliztech/memsearch",
   "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
   "homepage": "https://zilliztech.github.io/memsearch/",
-  "stars": 2804,
-  "forks": 275,
-  "open_issues": 256,
+  "stars": 2808,
+  "forks": 276,
+  "open_issues": 258,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "skills"
   ],
   "created_at": "2026-02-09T02:29:16Z",
-  "updated_at": "2026-10-28T20:48:41Z",
+  "updated_at": "2026-10-30T06:07:10Z",
   "pushed_at": "2026-10-27T03:33:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 262,
-  "days_since_push": 2,
+  "age_days": 263,
+  "days_since_push": 3,
   "health_score": 57,
   "health_components": {
     "popularity": 69.0,
@@ -54,7 +54,7 @@
     "stars_gained": 19,
     "days_span": 5,
     "stars_per_day": 3.8,
-    "lifetime_stars_per_day": 10.7,
+    "lifetime_stars_per_day": 10.68,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -156,23 +156,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-29T10:56:44+00:00",
+  "fetched_at": "2026-10-30T10:54:25+00:00",
   "categories": [
     "desktop-ui",
-    "memory-mcp"
+    "model-routing",
+    "teams"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "zilliztech/memsearch",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "zilliztech/memsearch",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -186,14 +187,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 10.697,
-      "momentum_ratio": 7.842,
+      "star_ratio": 4.042,
+      "momentum_ratio": 20.421,
       "setup_delta": -17,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "10.70x the stars (29,993 vs 2,804)",
-        "7.84x the star velocity (29.8/day vs 3.8/day)",
+        "4.04x the stars (11,351 vs 2,808)",
+        "20.42x the star velocity (77.6/day vs 3.8/day)",
         "no harder to set up (32 vs 49 friction)"
       ],
       "reasons_zh": [],
@@ -210,24 +211,22 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
+          "parallel-execution",
           "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "worktree-isolation"
         ],
         "incumbent_health": 57,
-        "challenger_health": 71,
+        "challenger_health": 79,
         "incumbent_setup_score": 49,
         "challenger_setup_score": 32
       }
