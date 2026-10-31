@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 25,913 |
-| Star velocity | 967.6/day (history basis, 5d span) |
-| Health score | 90/100 |
+| Stars | 26,620 |
+| Star velocity | 897.8/day (history basis, 5d span) |
+| Health score | 91/100 |
 | Documentation | 63/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-23 |
-| Last push | 2026-10-30 (0 days ago) |
-| Analyzed README | 23,403 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-31 (0 days ago) |
+| Analyzed README | 23,816 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -60,7 +60,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 18/100)
+- **Difficulty:** 🟢 Turnkey (friction score 11/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
 - **Quickest install:** `curl -fsSL https://usemagpie.ai/install.sh | sh`
@@ -90,11 +90,11 @@ Score **63/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 88.3 |
+| popularity | 88.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 63.0 |
-| accessibility | 90.0 |
+| accessibility | 97.0 |
 
 ---
 

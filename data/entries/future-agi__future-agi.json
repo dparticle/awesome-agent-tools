@@ -6,9 +6,9 @@
   "url": "https://github.com/future-agi/future-agi",
   "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
   "homepage": "https://futureagi.com",
-  "stars": 2227,
-  "forks": 701,
-  "open_issues": 947,
+  "stars": 2231,
+  "forks": 702,
+  "open_issues": 954,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,12 +34,12 @@
     "tracing"
   ],
   "created_at": "2026-04-23T14:11:31Z",
-  "updated_at": "2026-10-30T05:29:04Z",
-  "pushed_at": "2026-10-30T10:05:25Z",
+  "updated_at": "2026-10-30T17:00:34Z",
+  "pushed_at": "2026-10-31T10:16:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 189,
+  "age_days": 190,
   "days_since_push": 0,
   "health_score": 60,
   "health_components": {
@@ -54,7 +54,7 @@
     "stars_gained": 29,
     "days_span": 5,
     "stars_per_day": 5.8,
-    "lifetime_stars_per_day": 11.78,
+    "lifetime_stars_per_day": 11.74,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -152,12 +152,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:27+00:00",
+  "fetched_at": "2026-10-31T10:26:09+00:00",
   "categories": [
+    "analytics",
     "billing",
-    "memory-mcp"
+    "failover"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).",
@@ -181,14 +182,14 @@
         "memory-context",
         "self-hosted"
       ],
-      "star_ratio": 13.481,
-      "momentum_ratio": 5.103,
+      "star_ratio": 13.466,
+      "momentum_ratio": 5.0,
       "setup_delta": -13,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "13.48x the stars (30,022 vs 2,227)",
-        "5.10x the star velocity (29.6/day vs 5.8/day)",
+        "13.47x the stars (30,042 vs 2,231)",
+        "5.00x the star velocity (29.0/day vs 5.8/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
       "reasons_zh": [],

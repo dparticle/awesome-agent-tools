@@ -2,7 +2,7 @@
 
 # OthmanAdi/planning-with-files
 
-> Persistent file-based planning for AI coding agents and long-running tasks.
+> Code, documentation, and issue contributors.
 
 [Repository](https://github.com/OthmanAdi/planning-with-files) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 27,763 |
+| Stars | 27,784 |
 | Star velocity | 25.8/day (history basis, 5d span) |
 | Health score | 70/100 |
 | Documentation | 73/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
-| Language | Python |
+| Language | Shell |
 | Created | 2026-01-03 |
-| Last push | 2026-10-28 (1 days ago) |
-| Analyzed README | 108,541 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 111,242 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

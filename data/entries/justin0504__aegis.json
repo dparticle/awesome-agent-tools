@@ -24,27 +24,27 @@
     "policy-engine"
   ],
   "created_at": "2026-03-04T03:24:33Z",
-  "updated_at": "2026-10-30T07:02:06Z",
-  "pushed_at": "2026-10-30T07:02:02Z",
+  "updated_at": "2026-10-31T09:04:57Z",
+  "pushed_at": "2026-10-31T09:04:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 240,
+  "age_days": 241,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 54.4,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.19,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.18,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,7 +150,7 @@
       "Cost Tracking — token usage and USD cost across 40+ models",
       "Press: USC Viterbi News — Giving AI Agents the Keys?",
       "SHA-256 hash-chained — each trace commits to the previous, tamper-evident",
-      "Alert Rules — Slack, PagerDuty, or webhook on violations/cost spikes"
+      "Anomaly Detection — automatic flagging of spikes, error bursts, unusual patterns"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -161,13 +161,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:50+00:00",
+  "fetched_at": "2026-10-31T10:26:32+00:00",
   "categories": [
     "analytics",
-    "memory-mcp",
+    "providers-2",
     "teams"
   ],
-  "primary_category": "analytics",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

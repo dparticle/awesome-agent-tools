@@ -6,9 +6,9 @@
   "url": "https://github.com/breferrari/obsidian-mind",
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
   "homepage": "",
-  "stars": 5457,
-  "forks": 611,
-  "open_issues": 16,
+  "stars": 5462,
+  "forks": 610,
+  "open_issues": 17,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,27 +24,27 @@
     "template"
   ],
   "created_at": "2026-02-28T21:41:41Z",
-  "updated_at": "2026-10-30T09:20:43Z",
+  "updated_at": "2026-10-31T04:11:28Z",
   "pushed_at": "2026-10-17T23:34:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 243,
-  "days_since_push": 12,
+  "age_days": 244,
+  "days_since_push": 13,
   "health_score": 59,
   "health_components": {
     "popularity": 74.7,
-    "momentum": 5.5,
+    "momentum": 5.3,
     "maintenance": 92.0,
     "documentation": 81.0,
     "accessibility": 42.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 33,
+    "stars_gained": 32,
     "days_span": 5,
-    "stars_per_day": 6.6,
-    "lifetime_stars_per_day": 22.46,
+    "stars_per_day": 6.4,
+    "lifetime_stars_per_day": 22.39,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -162,74 +162,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:21+00:00",
+  "fetched_at": "2026-10-31T10:26:03+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
     "failover"
   ],
-  "primary_category": "failover",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by DeusData/codebase-memory-mcp: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 DeusData/codebase-memory-mcp 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "DeusData/codebase-memory-mcp",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "breferrari/obsidian-mind",
-      "challenger": "deusdata/codebase-memory-mcp",
-      "incumbent_name": "breferrari/obsidian-mind",
-      "challenger_name": "DeusData/codebase-memory-mcp",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 8.764,
-      "momentum_ratio": 11.818,
-      "setup_delta": 6,
-      "dominance": 0.97,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "8.76x the stars (47,825 vs 5,457)",
-        "11.82x the star velocity (78.0/day vs 6.6/day)",
-        "slightly heavier setup (+6 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 59,
-        "challenger_health": 78,
-        "incumbent_setup_score": 58,
-        "challenger_setup_score": 64
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -6,9 +6,9 @@
   "url": "https://github.com/AVIDS2/memorix",
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
-  "stars": 885,
-  "forks": 74,
-  "open_issues": 8,
+  "stars": 888,
+  "forks": 75,
+  "open_issues": 4,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "windsurf"
   ],
   "created_at": "2026-02-14T06:53:17Z",
-  "updated_at": "2026-10-30T10:49:02Z",
-  "pushed_at": "2026-10-25T14:26:09Z",
+  "updated_at": "2026-10-31T07:23:49Z",
+  "pushed_at": "2026-10-30T14:49:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 258,
-  "days_since_push": 4,
+  "age_days": 259,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
-    "popularity": 58.9,
-    "momentum": 2.8,
+    "popularity": 59.0,
+    "momentum": 2.7,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 3.4,
+    "stars_per_day": 3.2,
     "lifetime_stars_per_day": 3.43,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "AVIDS2/memorix",
-    "readme_chars": 42069,
+    "readme_chars": 42164,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -79,7 +79,7 @@
       "model-routing": "Requesty in memorix init or set provider = \"requesty\" in [memory.llm] (endpoint https://router.requesty.ai/v1, key from REQUESTYAPIKEY or MEMORIXLLMAPIKEY).",
       "session-persistence": "irty to run with uncommitted changes, and --no-auto-merge to preserve task worktrees for manual review.",
       "memory-context": "One project memory system for Claude Code, Codex, CodeBuddy Code, Cursor, Windsurf, Copilot, Gemini CLI, OpenCode, Grok Build, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Kiro, Antigravity, Trae, DeepSeek Harness, WorkBuddy,",
-      "skills-plugins": "",
+      "skills-plugins": "the plugin hook definition once with /hooks; --noHooks skips automatic capture.",
       "agent-runtime": "y; media vectors are created only by a provider that explicitly",
       "mcp-support": "or Claude Code, Codex, CodeBuddy Code, Cursor, Windsurf, Copilot, Gemini CLI, OpenCode, Grok Build, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Kiro, Antigravity, Trae, DeepSeek Harness, WorkBuddy, and any MCP-capable agent.",
       "gui-desktop": "Dashboard and HTTP A local web UI and shared MCP endpoint for browsing memory, project state, teams, diagnostics, and preview-first cleanup, consolidation, deduplication, and retention actions memorix dashboard, memorix…",
@@ -93,7 +93,7 @@
       "memory-context": 8,
       "skills-plugins": 1,
       "agent-runtime": 7,
-      "mcp-support": 56,
+      "mcp-support": 59,
       "gui-desktop": 1,
       "cross-agent-support": 6
     },
@@ -182,7 +182,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:41+00:00",
+  "fetched_at": "2026-10-31T10:26:24+00:00",
   "categories": [
     "desktop-ui",
     "failover",

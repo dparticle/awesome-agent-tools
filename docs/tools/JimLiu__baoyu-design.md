@@ -12,21 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,352 |
-| Star velocity | 170.8/day (history basis, 5d span) |
+| Stars | 5,592 |
+| Star velocity | 217.6/day (history basis, 5d span) |
 | Health score | 86/100 |
-| Documentation | 63/100 |
+| Documentation | 56/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
-| License | MIT |
+| License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-07 |
-| Last push | 2026-10-30 (0 days ago) |
-| Analyzed README | 27,014 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-31 (0 days ago) |
+| Analyzed README | 16,069 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Mobile access
 
 ### Skills & plugins
 
@@ -36,7 +34,11 @@
 
 ### Self-hostable
 
-> nto its own store under /db/.
+> gents/skills/ or .dsh/skills/) uses that copy instead of the plugin's.
+
+### GUI / desktop app
+
+> d the agent wakes up, reads your comment, makes the change and replies in the comment thread.
 
 ### Cross-agent support
 
@@ -44,20 +46,18 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 16/100)
+- **Difficulty:** 🟢 Turnkey (friction score 0/100)
 - **Out of the box:** yes
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 - **Quickest install:** `npx skills add JimLiu/baoyu-design`
 
 **Signals that make it easy:** npx one-liner, native installer / package
 
-**Signals that add work:** npm install/build
-
-*Turnkey. install via npx one-liner, native installer / package; needs npm install/build*
+*Turnkey. install via npx one-liner, native installer / package; GUI application*
 
 ## Documentation quality
 
-Score **63/100**, based on these detected signals:
+Score **56/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -67,18 +67,16 @@ Score **63/100**, based on these detected signals:
 - mentions licensing
 - has a Chinese translation
 - documents changes
-- reports benchmarks
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.6 |
+| popularity | 75.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 63.0 |
-| accessibility | 96.0 |
+| documentation | 56.0 |
+| accessibility | 100.0 |
 
 ---
 

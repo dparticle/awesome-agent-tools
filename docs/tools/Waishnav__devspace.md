@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,309 |
-| Star velocity | 3.6/day (history basis, 5d span) |
-| Health score | 59/100 |
+| Stars | 5,331 |
+| Star velocity | 7.2/day (history basis, 5d span) |
+| Health score | 60/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-14 |
 | Last push | 2026-10-30 (0 days ago) |
-| Analyzed README | 8,987 chars from `raw:HEAD/README.md` |
+| Analyzed README | 9,235 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -55,15 +57,15 @@
 - **Difficulty:** 🟢 Easy (friction score 28/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npm install -g @waishnav/devspace`
+- **Quickest install:** `curl -fsSL https://devspace.run/install | sh`
 
-**Signals that make it easy:** npx one-liner, global npm install, native installer / package
+**Signals that make it easy:** curl | sh installer, PowerShell irm | iex installer, global npm install, native installer / package
 
 **Signals that add work:** pnpm install/build, npm install/build
 
 **Configuration required:** database dependency, database migration
 
-*Easy. install via npx one-liner, global npm install; needs pnpm install/build, npm install/build; configure database dependency, database migration*
+*Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, npm install/build; configure database dependency, database migration*
 
 ## Documentation quality
 
@@ -83,7 +85,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.5 |
-| momentum | 3.0 |
+| momentum | 6.0 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 72.0 |

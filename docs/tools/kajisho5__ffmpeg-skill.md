@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,030 |
-| Star velocity | 272.0/day (history basis, 5d span) |
+| Stars | 4,134 |
+| Star velocity | 234.4/day (history basis, 5d span) |
 | Health score | 87/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-03 |
-| Last push | 2026-10-30 (0 days ago) |
-| Analyzed README | 97,204 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).
+| Last push | 2026-10-31 (0 days ago) |
+| Analyzed README | 102,379 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +36,7 @@
 
 ### API gateway / proxy
 
-> GB source is converted to BT.709, not relabelled); --normalize meets the platform's loudness in the same call (render.py turns it on by default for platform presets)
+> -pass encode and measures it ; --preset copy --repair remuxes a damaged file (timestamps regenerated, corrupt packets dropped) and counts the errors before and after
 
 ### Skills & plugins
 
@@ -55,6 +53,8 @@
 ### Security & isolation
 
 > re recorded in diagnostics and on stderr (codes: jsonoutput.diagnosticcodes); tools that draw text name the font they drew with (fontused).
+
+### Voice input
 
 ### Cross-agent support
 
@@ -92,7 +92,7 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 72.1 |
+| popularity | 72.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 68.0 |

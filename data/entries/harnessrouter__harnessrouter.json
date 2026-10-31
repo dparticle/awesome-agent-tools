@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "full_name": "HarnessRouter/harnessrouter",
+  "name": "harnessrouter",
+  "owner": "HarnessRouter",
+  "url": "https://github.com/HarnessRouter/harnessrouter",
+  "description": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an open standard. Your keys, your infrastructure.",
+  "homepage": "https://harnessrouter.ai/",
+  "stars": 3793,
+  "forks": 411,
+  "open_issues": 21,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-api",
+    "agent-framework",
+    "agent-harness",
+    "ai-agents",
+    "ai-infrastructure",
+    "coding-agent",
+    "conformance-testing",
+    "deepseek-harness",
+    "harness-engineering",
+    "hermes",
+    "llm",
+    "open-protocol",
+    "open-source",
+    "open-standard",
+    "pi-coding-agent",
+    "self-hosted",
+    "uhp",
+    "unified-api",
+    "unified-harness-protocol",
+    "unified-interface"
+  ],
+  "created_at": "2026-08-09T20:19:14Z",
+  "updated_at": "2026-10-31T10:05:53Z",
+  "pushed_at": "2026-10-31T08:57:08Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 82,
+  "days_since_push": 0,
+  "health_score": 65,
+  "health_components": {
+    "popularity": 71.6,
+    "momentum": 38.5,
+    "maintenance": 100.0,
+    "documentation": 64.0,
+    "accessibility": 43.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3793,
+    "days_span": 82,
+    "stars_per_day": 46.26,
+    "lifetime_stars_per_day": 46.26,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "HarnessRouter/harnessrouter",
+    "readme_chars": 23608,
+    "capabilities": [
+      "model-routing",
+      "provider-aggregation",
+      "session-persistence",
+      "skills-plugins",
+      "mcp-support",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "",
+      "provider-aggregation": "The unified interface for agent harnesses.",
+      "session-persistence": "s, retrieve results, and switch harnesses through one API.",
+      "skills-plugins": "a recorded run and the image it made",
+      "mcp-support": "ing that leaves the sandbox, the response, the stream, the trace and the stored record, even when the agent prints it.",
+      "self-hosted": "h a browsable copy at /v1/docs.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Cline, Codex"
+    },
+    "capability_hits": {
+      "model-routing": 2,
+      "provider-aggregation": 2,
+      "session-persistence": 2,
+      "skills-plugins": 1,
+      "mcp-support": 2,
+      "self-hosted": 4,
+      "cross-agent-support": 9
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 57,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "docker run"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Web"
+      ],
+      "note_en": "Some setup. needs docker run; configure API key configuration, sign-in required",
+      "note_zh": "需要一些配置。需要 docker run；需配置 API key configuration、sign-in required"
+    },
+    "doc_score": 64,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Aider",
+      "Cline / Roo",
+      "Qwen Code",
+      "Goose"
+    ],
+    "summary_en": "The unified interface for agent harnesses.",
+    "summary_zh": "",
+    "install_hint": "docker run -d --name harnessrouter \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.678
+    },
+    "highlights": [
+      "Your infrastructure. One Docker deployment for the Console, Gateway, and Runner."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-10-31T10:25:44+00:00",
+  "categories": [
+    "failover",
+    "providers-2"
+  ],
+  "primary_category": "providers-2",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

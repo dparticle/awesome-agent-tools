@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 673 |
-| Star velocity | 2.8/day (history basis, 5d span) |
+| Stars | 676 |
+| Star velocity | 3.0/day (history basis, 5d span) |
 | Health score | 51/100 |
-| Documentation | 64/100 |
+| Documentation | 65/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-02-20 |
-| Last push | 2026-10-26 (3 days ago) |
-| Analyzed README | 27,197 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-31 (0 days ago) |
+| Analyzed README | 28,911 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -65,7 +65,7 @@
 
 ## Documentation quality
 
-Score **64/100**, based on these detected signals:
+Score **65/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -84,9 +84,9 @@ Score **64/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 56.6 |
-| momentum | 2.3 |
+| momentum | 2.5 |
 | maintenance | 100.0 |
-| documentation | 64.0 |
+| documentation | 65.0 |
 | accessibility | 36.0 |
 
 ---

@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 232,
-  "days_since_push": 43,
+  "age_days": 233,
+  "days_since_push": 44,
   "health_score": 42,
   "health_components": {
     "popularity": 50.3,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.41,
+    "lifetime_stars_per_day": 1.4,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -118,7 +118,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:04+00:00",
+  "fetched_at": "2026-10-31T10:26:46+00:00",
   "categories": [
     "sharing"
   ],
@@ -144,14 +144,14 @@
         "multi-account-switching",
         "quota-management"
       ],
-      "star_ratio": 59.768,
-      "momentum_ratio": 912.0,
+      "star_ratio": 59.865,
+      "momentum_ratio": 844.0,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "59.77x the stars (19,544 vs 327)",
-        "912.00x the star velocity (45.6/day vs 0.0/day)",
+        "59.87x the stars (19,576 vs 327)",
+        "844.00x the star velocity (42.2/day vs 0.0/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],
@@ -180,7 +180,7 @@
           "voice-input"
         ],
         "incumbent_health": 42,
-        "challenger_health": 72,
+        "challenger_health": 71,
         "incumbent_setup_score": 41,
         "challenger_setup_score": 32
       }

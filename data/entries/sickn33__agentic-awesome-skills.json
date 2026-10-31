@@ -4,11 +4,11 @@
   "name": "agentic-awesome-skills",
   "owner": "sickn33",
   "url": "https://github.com/sickn33/agentic-awesome-skills",
-  "description": "2,877+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
+  "description": "2,884+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
   "homepage": "https://aaskills.tech/",
-  "stars": 48793,
-  "forks": 7083,
-  "open_issues": 7,
+  "stars": 48874,
+  "forks": 7093,
+  "open_issues": 2,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "skill-library"
   ],
   "created_at": "2026-01-14T17:48:09Z",
-  "updated_at": "2026-10-30T10:33:45Z",
-  "pushed_at": "2026-10-29T13:29:28Z",
+  "updated_at": "2026-10-31T10:08:38Z",
+  "pushed_at": "2026-10-31T10:08:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 288,
+  "age_days": 289,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 48793,
-    "days_span": 288,
-    "stars_per_day": 169.42,
-    "lifetime_stars_per_day": 169.42,
+    "stars_gained": 48874,
+    "days_span": 289,
+    "stars_per_day": 169.11,
+    "lifetime_stars_per_day": 169.11,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "sickn33/agentic-awesome-skills",
-    "readme_chars": 123631,
+    "readme_chars": 123999,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -168,7 +168,7 @@
       "Cline / Roo",
       "Goose"
     ],
-    "summary_en": "Agentic Awesome Skills is a library of 2,877+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.",
+    "summary_en": "Agentic Awesome Skills is a library of 2,884+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -179,7 +179,7 @@
         "bullet list of external links",
         "link-directory table of contents"
       ],
-      "external_link_ratio": 3.802
+      "external_link_ratio": 3.815
     },
     "highlights": [
       "sandbaseai/cli: Official source for the sandbase-mcp skill - discover, inspect, and invoke 2,000+ AI models and APIs through a local MCP bridge with explicit schema and cost checks (Apache-…",
@@ -196,11 +196,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:14+00:00",
+  "fetched_at": "2026-10-31T10:25:57+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
-    "desktop-ui-2"
+    "model-routing",
+    "teams"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

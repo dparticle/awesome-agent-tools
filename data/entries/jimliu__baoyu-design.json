@@ -4,13 +4,13 @@
   "name": "baoyu-design",
   "owner": "JimLiu",
   "url": "https://github.com/JimLiu/baoyu-design",
-  "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
+  "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
   "homepage": "",
-  "stars": 5352,
-  "forks": 395,
-  "open_issues": 0,
+  "stars": 5592,
+  "forks": 426,
+  "open_issues": 1,
   "language": "JavaScript",
-  "license": "MIT",
+  "license": "NOASSERTION",
   "topics": [
     "agent-skills",
     "claude",
@@ -22,76 +22,75 @@
     "ui-design"
   ],
   "created_at": "2026-06-07T01:16:18Z",
-  "updated_at": "2026-10-30T10:52:55Z",
-  "pushed_at": "2026-10-30T06:48:22Z",
+  "updated_at": "2026-10-31T10:18:40Z",
+  "pushed_at": "2026-10-31T08:21:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 145,
+  "age_days": 146,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
-    "popularity": 74.6,
+    "popularity": 75.0,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 63.0,
-    "accessibility": 96.0
+    "documentation": 56.0,
+    "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 854,
+    "stars_gained": 1088,
     "days_span": 5,
-    "stars_per_day": 170.8,
-    "lifetime_stars_per_day": 36.91,
+    "stars_per_day": 217.6,
+    "lifetime_stars_per_day": 38.3,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "JimLiu/baoyu-design",
-    "readme_chars": 27014,
+    "readme_chars": 16069,
     "capabilities": [
-      "mobile-access",
       "skills-plugins",
       "agent-runtime",
       "self-hosted",
+      "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "mobile-access": "",
       "skills-plugins": "mmended — the skills CLI.",
       "agent-runtime": "",
-      "self-hosted": "nto its own store under /db/.",
+      "self-hosted": "gents/skills/ or .dsh/skills/) uses that copy instead of the plugin's.",
+      "gui-desktop": "d the agent wakes up, reads your comment, makes the change and replies in the comment thread.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
     },
     "capability_hits": {
-      "mobile-access": 1,
-      "skills-plugins": 5,
+      "skills-plugins": 4,
       "agent-runtime": 1,
       "self-hosted": 1,
+      "gui-desktop": 1,
       "cross-agent-support": 6
     },
     "friction": {
       "level": "turnkey",
-      "score": 16,
+      "score": 0,
       "out_of_the_box": true,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [
         "npx one-liner",
         "native installer / package"
       ],
-      "hard_signals": [
-        "npm install/build"
-      ],
+      "hard_signals": [],
       "config_signals": [],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
       "platforms": [
-        "Linux",
         "Web"
       ],
-      "note_en": "Turnkey. install via npx one-liner, native installer / package; needs npm install/build",
-      "note_zh": "开箱即用。可通过 npx one-liner、native installer / package 安装；需要 npm install/build"
+      "note_en": "Turnkey. install via npx one-liner, native installer / package; GUI application",
+      "note_zh": "开箱即用。可通过 npx one-liner、native installer / package 安装；GUI application"
     },
-    "doc_score": 63,
+    "doc_score": 56,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -100,9 +99,7 @@
       "documents installation",
       "mentions licensing",
       "has a Chinese translation",
-      "documents changes",
-      "reports benchmarks",
-      "long, detailed README"
+      "documents changes"
     ],
     "agents": [
       "Claude Code",
@@ -119,20 +116,18 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.333
+      "external_link_ratio": 0.996
     },
     "highlights": [
       "Best with Opus 5.5. The skill is a long, demanding design brief; the stronger the model, the better the result. Pair it with Claude Opus 5.5 for the best output, and it still works well on…",
-      "\"Turn this analytics CSV into a dashboard that compares the last 28 days with the 28 before.\"",
-      "Screenshot mode simply calls page.screenshot() at 2× device scale and drops each PNG as a full‑bleed slide image.",
-      "\"Design 3 hi‑fi variations of a pricing page using the brand in this screenshot.\""
+      "\"Turn this analytics CSV into a dashboard that compares the last 28 days with the 28 before.\""
     ],
     "summary_zh_native": "在你自己的本地 Agent 上运行 Claude Design —— Cursor、Claude Code、Claude Desktop，或任何能读写文件的编码 Agent。",
     "highlights_zh": [
       "一个本地 Agent —— Cursor、Claude Code、Codex，或安装器支持的其余 70+ 个 Agent（Cline、Roo Code、GitHub Copilot……）。",
       "搭配 Opus 5.5 效果最佳。 这个技能本身是一份冗长且要求很高的设计指令，模型越强、效果越好。建议搭配 Claude Opus 5.5 获得最佳结果；在其他能力足够的模型上也能良好运行。",
-      "可编辑模式递归遍历活的 DOM，把每个元素序列化为 { tag, rect, style, children } 的 JSON 树，文本用 Range.getBoundingClientRect() 拿到精确行盒。",
-      "「把这份数据分析 CSV 做成仪表盘，对比最近 28 天和再往前 28 天。"
+      "「把这份数据分析 CSV 做成仪表盘，对比最近 28 天和再往前 28 天。",
+      "模型选择 Claude Opus 5.5，效果最佳。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -141,12 +136,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:53:58+00:00",
+  "fetched_at": "2026-10-31T10:25:40+00:00",
   "categories": [
     "desktop-ui",
-    "mobile-remote-control"
+    "model-routing"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

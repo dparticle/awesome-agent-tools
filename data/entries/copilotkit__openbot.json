@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "https://www.copilotkit.ai/openbot",
-  "stars": 8435,
-  "forks": 1070,
-  "open_issues": 54,
+  "stars": 9019,
+  "forks": 1125,
+  "open_issues": 78,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-10-30T10:52:18Z",
-  "pushed_at": "2026-10-29T20:07:51Z",
+  "updated_at": "2026-10-31T10:23:55Z",
+  "pushed_at": "2026-10-30T22:06:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 74,
+  "age_days": 75,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 78.5,
+    "popularity": 79.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -38,16 +38,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1353,
+    "stars_gained": 1869,
     "days_span": 5,
-    "stars_per_day": 270.6,
-    "lifetime_stars_per_day": 113.99,
+    "stars_per_day": 373.8,
+    "lifetime_stars_per_day": 120.25,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 33598,
+    "readme_chars": 33741,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -127,7 +127,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.446
+      "external_link_ratio": 0.474
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -144,13 +144,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:53:53+00:00",
+  "fetched_at": "2026-10-31T10:25:36+00:00",
   "categories": [
     "analytics",
     "failover",
     "memory-mcp"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).",
@@ -175,14 +175,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 34.737,
-      "momentum_ratio": 3.46,
+      "star_ratio": 32.558,
+      "momentum_ratio": 2.399,
       "setup_delta": 8,
-      "dominance": 0.914,
+      "dominance": 0.869,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "34.74x the stars (293,003 vs 8,435)",
-        "3.46x the star velocity (936.4/day vs 270.6/day)",
+        "32.56x the stars (293,644 vs 9,019)",
+        "2.40x the star velocity (896.8/day vs 373.8/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],

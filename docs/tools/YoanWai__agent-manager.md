@@ -2,7 +2,7 @@
 
 # YoanWai/agent-manager
 
-> Claude Code, Codex, OpenCode, Grok, Gemini CLI, Antigravity CLI, Pi, Command Code, Hermes Agent, Muse Code, Oh My Pi, and Cursor CLI run side by side.
+> English · 简体中文 · 日本語
 
 [Repository](https://github.com/YoanWai/agent-manager) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 626 |
-| Star velocity | 0.4/day (history basis, 5d span) |
-| Health score | 55/100 |
-| Documentation | 52/100 |
+| Stars | 627 |
+| Star velocity | 0.6/day (history basis, 5d span) |
+| Health score | 56/100 |
+| Documentation | 57/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-07-15 |
-| Last push | 2026-10-30 (0 days ago) |
-| Analyzed README | 20,413 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-31 (0 days ago) |
+| Analyzed README | 20,562 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
 
@@ -63,7 +63,7 @@
 
 ## Documentation quality
 
-Score **52/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -72,6 +72,7 @@ Score **52/100**, based on these detected signals:
 - documents configuration
 - has contribution guidance
 - mentions licensing
+- has a Chinese translation
 - explains architecture
 - long, detailed README
 
@@ -80,9 +81,9 @@ Score **52/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.9 |
-| momentum | 0.3 |
+| momentum | 0.5 |
 | maintenance | 100.0 |
-| documentation | 52.0 |
+| documentation | 57.0 |
 | accessibility | 90.0 |
 
 ---

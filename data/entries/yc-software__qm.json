@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15580,
+  "stars": 15588,
   "forks": 1934,
-  "open_issues": 941,
+  "open_issues": 968,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,33 +18,33 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-10-30T09:25:14Z",
-  "pushed_at": "2026-10-30T08:44:15Z",
+  "updated_at": "2026-10-31T08:56:32Z",
+  "pushed_at": "2026-10-31T09:54:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 92,
+  "age_days": 93,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 58,
   "health_components": {
     "popularity": 83.9,
-    "momentum": 7.8,
+    "momentum": 8.5,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 47,
+    "stars_gained": 51,
     "days_span": 5,
-    "stars_per_day": 9.4,
-    "lifetime_stars_per_day": 169.35,
+    "stars_per_day": 10.2,
+    "lifetime_stars_per_day": 167.61,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yc-software/qm",
-    "readme_chars": 12837,
+    "readme_chars": 12764,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -59,10 +59,10 @@
     ],
     "capability_evidence": {
       "worktree-isolation": "",
-      "model-routing": "- Work in an existing repository: run tests, open PRs, monitor CI, check system logs",
-      "session-persistence": "",
+      "model-routing": "n an existing repository: run tests, open PRs, monitor CI, check system logs",
+      "session-persistence": "e with an explicit surface command.",
       "skills-plugins": "",
-      "agent-runtime": "n harness and model and switch between",
+      "agent-runtime": "",
       "security-isolation": "observe, or enforce, with securityScreen.classifier choosing the built-in",
       "team-collaboration": "e designed like personal assistants.",
       "gui-desktop": "is an optional in-process plugin that core starts",
@@ -71,7 +71,7 @@
     },
     "capability_hits": {
       "worktree-isolation": 1,
-      "model-routing": 1,
+      "model-routing": 2,
       "session-persistence": 1,
       "skills-plugins": 2,
       "agent-runtime": 2,
@@ -128,7 +128,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.467
+      "external_link_ratio": 0.47
     },
     "highlights": [
       "Shared skills. Skills are scope-owned and shareable by grant, with admin-gated",
@@ -145,7 +145,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:53:48+00:00",
+  "fetched_at": "2026-10-31T10:25:31+00:00",
   "categories": [
     "desktop-ui",
     "model-routing",

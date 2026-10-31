@@ -6,33 +6,33 @@
   "url": "https://github.com/AGI-is-going-to-arrive/Memory-Palace",
   "description": "Memory Palace is a long-term memory operating system purpose-built for AI Agents.",
   "homepage": "",
-  "stars": 314,
+  "stars": 315,
   "forks": 26,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-19T09:22:34Z",
-  "updated_at": "2026-10-26T21:20:29Z",
+  "updated_at": "2026-10-31T02:28:10Z",
   "pushed_at": "2026-05-20T17:21:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 253,
-  "days_since_push": 162,
+  "age_days": 254,
+  "days_since_push": 163,
   "health_score": 44,
   "health_components": {
-    "popularity": 49.9,
-    "momentum": 0.1,
+    "popularity": 50.0,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 76.0,
     "accessibility": 53.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 1,
-    "days_span": 16,
-    "stars_per_day": 0.06,
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.24,
     "basis": "history",
     "is_fast_riser": false
@@ -149,8 +149,8 @@
     "summary_zh_native": "Memory Palace 为 LLM Agent 提供持久化、可检索、可审计的外部记忆，让每次对话都能在之前的基础上继续，而不是从零开始。",
     "highlights_zh": [
       "HTTP/SSE 鉴权默认 fail-closed：未配置或未提供有效 MCPAPIKEY 时返回 401；stdio 不受影响。",
-      "Docker 数据保存在 named volume data 和 snapshots 中。",
       "Docker 一键部署在服务端代理转发鉴权头，浏览器不会直接拿到真实 key。",
+      "Docker 数据保存在 named volume data 和 snapshots 中。",
       "Forgetting Engine：运行时活力值按 VITALITYDECAYHALFLIFEDAYS 衰减（.env.example 中为 30 天）。"
     ],
     "chinese_readme": "README_CN.md"
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:06+00:00",
+  "fetched_at": "2026-10-31T10:26:48+00:00",
   "categories": [
     "desktop-ui-2",
     "failover",
     "memory-mcp"
   ],
-  "primary_category": "failover",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

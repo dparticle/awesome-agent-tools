@@ -6,7 +6,7 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 913,
+  "stars": 914,
   "forks": 106,
   "open_issues": 1,
   "language": "Shell",
@@ -31,27 +31,27 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-29T21:25:53Z",
+  "updated_at": "2026-10-30T13:24:30Z",
   "pushed_at": "2026-10-26T16:33:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 316,
-  "days_since_push": 3,
+  "age_days": 317,
+  "days_since_push": 4,
   "health_score": 51,
   "health_components": {
     "popularity": 59.2,
-    "momentum": 1.5,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 2.89,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 2.88,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:40+00:00",
+  "fetched_at": "2026-10-31T10:26:23+00:00",
   "categories": [
     "desktop-ui",
     "failover",

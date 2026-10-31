@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 576,
-  "days_since_push": 169,
+  "age_days": 577,
+  "days_since_push": 170,
   "health_score": 47,
   "health_components": {
     "popularity": 61.3,
@@ -141,71 +141,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:35+00:00",
+  "fetched_at": "2026-10-31T10:26:18+00:00",
   "categories": [
     "desktop-ui-2",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 XiaomiMiMo/MiMo-Code 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "XiaomiMiMo/MiMo-Code",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "ai-ql/tuui",
-      "challenger": "xiaomimimo/mimo-code",
-      "incumbent_name": "AI-QL/tuui",
-      "challenger_name": "XiaomiMiMo/MiMo-Code",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "self-hosted"
-      ],
-      "star_ratio": 11.852,
-      "momentum_ratio": 68.0,
-      "setup_delta": 0,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "11.85x the stars (13,737 vs 1,159)",
-        "68.00x the star velocity (3.4/day vs 0.0/day)",
-        "no harder to set up (21 vs 21 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "voice-input"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 63,
-        "incumbent_setup_score": 21,
-        "challenger_setup_score": 21
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

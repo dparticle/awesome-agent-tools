@@ -8,7 +8,7 @@
   "homepage": "https://omg.dev",
   "stars": 553,
   "forks": 42,
-  "open_issues": 18,
+  "open_issues": 17,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,27 +24,27 @@
     "self-hosted"
   ],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-10-30T09:16:26Z",
-  "pushed_at": "2026-10-30T09:16:45Z",
+  "updated_at": "2026-10-31T04:56:46Z",
+  "pushed_at": "2026-10-31T04:56:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
+  "age_days": 136,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.7,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 43.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 4.1,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 4.07,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,9 +144,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:49+00:00",
+  "fetched_at": "2026-10-31T10:26:31+00:00",
   "categories": [
-    "mobile-remote-control"
+    "mobile-remote-control",
+    "model-routing"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {
@@ -173,14 +174,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 20.125,
-      "momentum_ratio": 25.0,
+      "star_ratio": 20.146,
+      "momentum_ratio": 28.333,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "20.12x the stars (11,129 vs 553)",
-        "25.00x the star velocity (20.0/day vs 0.8/day)",
+        "20.15x the stars (11,141 vs 553)",
+        "28.33x the star velocity (17.0/day vs 0.6/day)",
         "no harder to set up (25 vs 31 friction)"
       ],
       "reasons_zh": [],
@@ -211,7 +212,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 68,
+        "challenger_health": 67,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 25
       }

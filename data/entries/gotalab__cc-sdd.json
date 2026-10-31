@@ -6,7 +6,7 @@
   "url": "https://github.com/gotalab/cc-sdd",
   "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
   "homepage": "",
-  "stars": 3747,
+  "stars": 3748,
   "forks": 284,
   "open_issues": 16,
   "language": "TypeScript",
@@ -26,13 +26,13 @@
     "subagents"
   ],
   "created_at": "2025-07-17T04:41:37Z",
-  "updated_at": "2026-10-29T13:12:16Z",
+  "updated_at": "2026-10-30T11:25:53Z",
   "pushed_at": "2026-10-22T03:43:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 470,
-  "days_since_push": 8,
+  "age_days": 471,
+  "days_since_push": 9,
   "health_score": 58,
   "health_components": {
     "popularity": 71.5,
@@ -46,7 +46,7 @@
     "stars_gained": 9,
     "days_span": 5,
     "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 7.97,
+    "lifetime_stars_per_day": 7.96,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,23 +141,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:23+00:00",
+  "fetched_at": "2026-10-31T10:26:06+00:00",
   "categories": [
-    "desktop-ui",
-    "teams"
+    "desktop-ui"
   ],
-  "primary_category": "teams",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
     "challenger": "",
     "supersede": {
       "incumbent": "gotalab/cc-sdd",
-      "challenger": "tencentcloud/octop",
+      "challenger": "sickn33/agentic-awesome-skills",
       "incumbent_name": "gotalab/cc-sdd",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -169,15 +168,15 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 3.029,
-      "momentum_ratio": 43.111,
-      "setup_delta": 7,
-      "dominance": 0.965,
+      "star_ratio": 13.04,
+      "momentum_ratio": 93.95,
+      "setup_delta": 5,
+      "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "3.03x the stars (11,351 vs 3,747)",
-        "43.11x the star velocity (77.6/day vs 1.8/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
+        "13.04x the stars (48,874 vs 3,748)",
+        "93.95x the star velocity (169.1/day vs 1.8/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -190,8 +189,6 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -199,16 +196,17 @@
           "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
+          "notifications",
+          "security-isolation",
           "self-hosted",
           "skills-plugins",
           "team-collaboration",
-          "worktree-isolation"
+          "usage-analytics"
         ],
         "incumbent_health": 58,
-        "challenger_health": 79,
+        "challenger_health": 92,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 30
       }
     }
   }

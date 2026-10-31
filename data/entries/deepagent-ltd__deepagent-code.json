@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 128,
-  "days_since_push": 1,
+  "age_days": 129,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 52.7,
@@ -36,9 +36,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 432,
-    "days_span": 128,
-    "stars_per_day": 3.38,
-    "lifetime_stars_per_day": 3.38,
+    "days_span": 129,
+    "stars_per_day": 3.35,
+    "lifetime_stars_per_day": 3.35,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -149,10 +149,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:57+00:00",
+  "fetched_at": "2026-10-31T10:26:40+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
+    "failover",
     "teams"
   ],
   "primary_category": "teams",

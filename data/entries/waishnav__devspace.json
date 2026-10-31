@@ -6,9 +6,9 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "https://devspace.run",
-  "stars": 5309,
-  "forks": 603,
-  "open_issues": 27,
+  "stars": 5331,
+  "forks": 602,
+  "open_issues": 25,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-10-30T08:56:18Z",
-  "pushed_at": "2026-10-30T10:33:19Z",
+  "updated_at": "2026-10-31T09:59:42Z",
+  "pushed_at": "2026-10-30T14:06:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 137,
+  "age_days": 138,
   "days_since_push": 0,
-  "health_score": 59,
+  "health_score": 60,
   "health_components": {
     "popularity": 74.5,
-    "momentum": 3.0,
+    "momentum": 6.0,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 36,
     "days_span": 5,
-    "stars_per_day": 3.6,
-    "lifetime_stars_per_day": 38.75,
+    "stars_per_day": 7.2,
+    "lifetime_stars_per_day": 38.63,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Waishnav/devspace",
-    "readme_chars": 8987,
+    "readme_chars": 9235,
     "capabilities": [
       "remote-control",
       "multi-agent-orchestration",
@@ -81,7 +81,8 @@
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
-        "npx one-liner",
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
         "global npm install",
         "native installer / package"
       ],
@@ -99,8 +100,8 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Easy. install via npx one-liner, global npm install; needs pnpm install/build, npm install/build; configure database dependency, database migration",
-      "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 pnpm install/build、npm install/build；需配置 database dependency、database migration"
+      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, npm install/build; configure database dependency, database migration",
+      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 pnpm install/build、npm install/build；需配置 database dependency、database migration"
     },
     "doc_score": 54,
     "doc_signals": [
@@ -121,7 +122,7 @@
     ],
     "summary_en": "Give ChatGPT a secure connection to your own machine and Turn ChatGPT into Codex",
     "summary_zh": "",
-    "install_hint": "npm install -g @waishnav/devspace",
+    "install_hint": "curl -fsSL https://devspace.run/install | sh",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
@@ -129,7 +130,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.224
+      "external_link_ratio": 1.191
     },
     "highlights": [
       "Connect the MCP client to your public /mcp URL.",
@@ -144,17 +145,76 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:53:58+00:00",
+  "fetched_at": "2026-10-31T10:25:41+00:00",
   "categories": [
     "desktop-ui-2",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "getpaseo/paseo",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "waishnav/devspace",
+      "challenger": "getpaseo/paseo",
+      "incumbent_name": "Waishnav/devspace",
+      "challenger_name": "getpaseo/paseo",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "remote-control",
+        "self-hosted",
+        "worktree-isolation"
+      ],
+      "star_ratio": 4.234,
+      "momentum_ratio": 13.861,
+      "setup_delta": -4,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "4.23x the stars (22,572 vs 5,331)",
+        "13.86x the star velocity (99.8/day vs 7.2/day)",
+        "no harder to set up (24 vs 28 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "remote-control",
+          "self-hosted",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 60,
+        "challenger_health": 83,
+        "incumbent_setup_score": 28,
+        "challenger_setup_score": 24
+      }
+    }
   }
 }

@@ -31,18 +31,18 @@
     "vibe-coding"
   ],
   "created_at": "2026-03-22T21:18:28Z",
-  "updated_at": "2026-10-23T18:17:22Z",
-  "pushed_at": "2026-10-06T13:17:12Z",
+  "updated_at": "2026-10-31T10:21:04Z",
+  "pushed_at": "2026-10-31T10:21:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 221,
-  "days_since_push": 23,
-  "health_score": 48,
+  "age_days": 222,
+  "days_since_push": 0,
+  "health_score": 50,
   "health_components": {
     "popularity": 48.8,
     "momentum": 0.0,
-    "maintenance": 92.0,
+    "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 88.0
   },
@@ -51,7 +51,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.25,
+    "lifetime_stars_per_day": 1.24,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:11+00:00",
+  "fetched_at": "2026-10-31T10:26:53+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.884,
-      "momentum_ratio": 648.0,
+      "star_ratio": 122.967,
+      "momentum_ratio": 640.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.88x the stars (33,916 vs 276)",
-        "648.00x the star velocity (32.4/day vs 0.0/day)",
+        "122.97x the stars (33,939 vs 276)",
+        "640.00x the star velocity (32.0/day vs 0.0/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -216,7 +216,7 @@
           "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 48,
+        "incumbent_health": 50,
         "challenger_health": 74,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2

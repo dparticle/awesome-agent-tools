@@ -8,7 +8,7 @@
   "homepage": "https://sethgammon.github.io/Citadel/",
   "stars": 927,
   "forks": 83,
-  "open_issues": 2,
+  "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -22,12 +22,12 @@
     "mcp"
   ],
   "created_at": "2026-03-20T05:42:54Z",
-  "updated_at": "2026-10-28T16:23:10Z",
-  "pushed_at": "2026-10-29T18:05:07Z",
+  "updated_at": "2026-10-30T14:39:17Z",
+  "pushed_at": "2026-10-30T14:39:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 224,
+  "age_days": 225,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
@@ -40,9 +40,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 6,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 4.14,
+    "lifetime_stars_per_day": 4.12,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:39+00:00",
+  "fetched_at": "2026-10-31T10:26:22+00:00",
   "categories": [
     "desktop-ui",
     "teams-isolation"
@@ -162,14 +162,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 36.587,
-      "momentum_ratio": 648.0,
+      "star_ratio": 36.612,
+      "momentum_ratio": 640.0,
       "setup_delta": -23,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "36.59x the stars (33,916 vs 927)",
-        "648.00x the star velocity (32.4/day vs 0.0/day)",
+        "36.61x the stars (33,939 vs 927)",
+        "640.00x the star velocity (32.0/day vs 0.0/day)",
         "no harder to set up (2 vs 25 friction)"
       ],
       "reasons_zh": [],

@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 278,
-  "days_since_push": 85,
+  "age_days": 279,
+  "days_since_push": 86,
   "health_score": 51,
   "health_components": {
     "popularity": 63.1,
@@ -42,9 +42,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 22,
+    "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.12,
+    "lifetime_stars_per_day": 5.1,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -192,10 +192,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:30+00:00",
+  "fetched_at": "2026-10-31T10:26:13+00:00",
   "categories": [
+    "failover",
     "mobile-remote-control",
-    "model-routing",
     "teams-isolation"
   ],
   "primary_category": "mobile-remote-control",

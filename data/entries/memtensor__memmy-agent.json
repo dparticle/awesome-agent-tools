@@ -6,9 +6,9 @@
   "url": "https://github.com/MemTensor/memmy-agent",
   "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
   "homepage": "https://memmy.bot",
-  "stars": 2165,
+  "stars": 2167,
   "forks": 212,
-  "open_issues": 58,
+  "open_issues": 60,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "tui"
   ],
   "created_at": "2026-07-16T07:57:45Z",
-  "updated_at": "2026-10-30T10:14:18Z",
-  "pushed_at": "2026-10-30T09:41:14Z",
+  "updated_at": "2026-10-31T08:19:37Z",
+  "pushed_at": "2026-10-31T02:29:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 106,
+  "age_days": 107,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 66.7,
-    "momentum": 4.3,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 26,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 5.2,
-    "lifetime_stars_per_day": 20.42,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 20.25,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -162,9 +162,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:27+00:00",
+  "fetched_at": "2026-10-31T10:26:09+00:00",
   "categories": [
-    "desktop-ui-2",
+    "failover",
     "model-routing",
     "teams"
   ],
@@ -193,14 +193,14 @@
         "model-routing",
         "team-collaboration"
       ],
-      "star_ratio": 5.243,
-      "momentum_ratio": 14.923,
+      "star_ratio": 5.253,
+      "momentum_ratio": 11.542,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "5.24x the stars (11,351 vs 2,165)",
-        "14.92x the star velocity (77.6/day vs 5.2/day)",
+        "5.25x the stars (11,384 vs 2,167)",
+        "11.54x the star velocity (55.4/day vs 4.8/day)",
         "no harder to set up (32 vs 42 friction)"
       ],
       "reasons_zh": [],
@@ -232,7 +232,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 79,
+        "challenger_health": 75,
         "incumbent_setup_score": 42,
         "challenger_setup_score": 32
       }

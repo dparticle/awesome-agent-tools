@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 324 |
-| Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 52/100 |
+| Stars | 325 |
+| Star velocity | 0.4/day (history basis, 5d span) |
+| Health score | 50/100 |
 | Documentation | 59/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-09-27 |
-| Last push | 2026-10-22 (7 days ago) |
+| Last push | 2026-10-22 (8 days ago) |
 | Analyzed README | 17,502 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -81,8 +81,8 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 50.2 |
-| momentum | 0.2 |
-| maintenance | 100.0 |
+| momentum | 0.3 |
+| maintenance | 92.0 |
 | documentation | 59.0 |
 | accessibility | 70.0 |
 

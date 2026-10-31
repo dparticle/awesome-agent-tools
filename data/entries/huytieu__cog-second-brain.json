@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 380,
-  "days_since_push": 7,
-  "health_score": 57,
+  "age_days": 381,
+  "days_since_push": 8,
+  "health_score": 56,
   "health_components": {
     "popularity": 62.5,
-    "momentum": 2.0,
-    "maintenance": 100.0,
+    "momentum": 1.7,
+    "maintenance": 92.0,
     "documentation": 70.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 3.5,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 3.49,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -167,10 +167,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:33+00:00",
+  "fetched_at": "2026-10-31T10:26:15+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
+    "model-routing",
     "teams"
   ],
   "primary_category": "teams",
@@ -200,14 +200,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 8.541,
-      "momentum_ratio": 32.333,
+      "star_ratio": 8.566,
+      "momentum_ratio": 27.7,
       "setup_delta": 1,
       "dominance": 0.995,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "8.54x the stars (11,351 vs 1,329)",
-        "32.33x the star velocity (77.6/day vs 2.4/day)",
+        "8.57x the stars (11,384 vs 1,329)",
+        "27.70x the star velocity (55.4/day vs 2.0/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -240,8 +240,8 @@
           "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 57,
-        "challenger_health": 79,
+        "incumbent_health": 56,
+        "challenger_health": 75,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 32
       }

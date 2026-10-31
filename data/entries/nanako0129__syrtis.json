@@ -24,27 +24,27 @@
     "token-tracking"
   ],
   "created_at": "2026-06-10T05:08:47Z",
-  "updated_at": "2026-10-28T12:07:31Z",
-  "pushed_at": "2026-10-30T10:02:28Z",
+  "updated_at": "2026-10-31T02:37:10Z",
+  "pushed_at": "2026-10-31T09:39:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
+  "age_days": 143,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 54.1,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 3.56,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 3.53,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,9 +137,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:52+00:00",
+  "fetched_at": "2026-10-31T10:26:34+00:00",
   "categories": [
-    "desktop-ui-2",
     "sharing"
   ],
   "primary_category": "sharing",

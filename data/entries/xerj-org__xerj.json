@@ -6,9 +6,9 @@
   "url": "https://github.com/xerj-org/xerj",
   "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
   "homepage": "https://xerj.org",
-  "stars": 17622,
-  "forks": 1356,
-  "open_issues": 67,
+  "stars": 17827,
+  "forks": 1385,
+  "open_issues": 85,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,16 +34,16 @@
     "vector-search"
   ],
   "created_at": "2026-06-30T04:32:45Z",
-  "updated_at": "2026-10-30T10:52:54Z",
-  "pushed_at": "2026-10-30T10:41:54Z",
+  "updated_at": "2026-10-31T10:22:36Z",
+  "pushed_at": "2026-10-31T10:04:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 122,
+  "age_days": 123,
   "days_since_push": 0,
   "health_score": 87,
   "health_components": {
-    "popularity": 84.9,
+    "popularity": 85.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2227,
+    "stars_gained": 2128,
     "days_span": 5,
-    "stars_per_day": 445.4,
-    "lifetime_stars_per_day": 144.44,
+    "stars_per_day": 425.6,
+    "lifetime_stars_per_day": 144.93,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "xerj-org/xerj",
-    "readme_chars": 43446,
+    "readme_chars": 43579,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -151,7 +151,7 @@
         "bullet list of external links",
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.967
+      "external_link_ratio": 0.964
     },
     "highlights": [
       "XERJ vs Lucene 10.3.1 for a source-pinned, six-axis comparison"
@@ -170,10 +170,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:53:47+00:00",
+  "fetched_at": "2026-10-31T10:25:31+00:00",
   "categories": [
     "desktop-ui-2",
-    "failover"
+    "failover",
+    "model-routing"
   ],
   "primary_category": "failover",
   "lifecycle": {

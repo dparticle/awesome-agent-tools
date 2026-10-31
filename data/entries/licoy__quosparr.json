@@ -6,7 +6,7 @@
   "url": "https://github.com/Licoy/Quosparr",
   "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude Code and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude Code、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
   "homepage": "https://quosparr.com",
-  "stars": 312,
+  "stars": 314,
   "forks": 22,
   "open_issues": 1,
   "language": "Go",
@@ -31,27 +31,27 @@
     "windows"
   ],
   "created_at": "2026-06-29T00:39:56Z",
-  "updated_at": "2026-10-30T09:26:45Z",
+  "updated_at": "2026-10-31T09:18:35Z",
   "pushed_at": "2026-10-30T08:15:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 123,
-  "days_since_push": 0,
+  "age_days": 124,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 49.9,
-    "momentum": 2.0,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 2.54,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 2.53,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -168,9 +168,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:06+00:00",
+  "fetched_at": "2026-10-31T10:26:48+00:00",
   "categories": [
-    "desktop-ui-2",
+    "analytics",
+    "model-routing",
     "sharing"
   ],
   "primary_category": "sharing",

@@ -4,11 +4,11 @@
   "name": "career-ops",
   "owner": "career-ops-hq",
   "url": "https://github.com/career-ops-hq/career-ops",
-  "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
+  "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
   "homepage": "https://career-ops.org",
-  "stars": 78787,
-  "forks": 14541,
-  "open_issues": 529,
+  "stars": 78967,
+  "forks": 14569,
+  "open_issues": 504,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -19,6 +19,8 @@
     "career",
     "career-ops",
     "claude-code",
+    "claude-code-plugin",
+    "claude-plugin",
     "cover-letter",
     "cv",
     "good-first-issue",
@@ -27,19 +29,17 @@
     "job-application",
     "job-hunting",
     "job-search",
-    "job-search-tools",
     "latex",
-    "local-first",
     "open-source",
     "resume"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-10-30T10:47:25Z",
-  "pushed_at": "2026-10-30T10:42:02Z",
+  "updated_at": "2026-10-31T10:23:13Z",
+  "pushed_at": "2026-10-31T10:12:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 208,
+  "age_days": 209,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1685,
+    "stars_gained": 1553,
     "days_span": 5,
-    "stars_per_day": 337.0,
-    "lifetime_stars_per_day": 378.78,
+    "stars_per_day": 310.6,
+    "lifetime_stars_per_day": 377.83,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 48577,
+    "readme_chars": 48958,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -144,7 +144,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.473
+      "external_link_ratio": 0.47
     },
     "highlights": [
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
@@ -160,9 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:10+00:00",
+  "fetched_at": "2026-10-31T10:25:53+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "model-routing"
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {

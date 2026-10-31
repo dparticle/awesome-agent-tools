@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/cost-xray",
   "description": "See what Claude Code and Codex actually send to the API — and what each part costs.",
   "homepage": "",
-  "stars": 5913,
+  "stars": 5825,
   "forks": 375,
-  "open_issues": 32,
+  "open_issues": 17,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,29 +21,29 @@
     "token-counting"
   ],
   "created_at": "2026-06-06T04:30:36Z",
-  "updated_at": "2026-10-28T17:03:18Z",
-  "pushed_at": "2026-10-28T17:03:12Z",
+  "updated_at": "2026-10-31T09:41:41Z",
+  "pushed_at": "2026-10-30T16:06:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 146,
-  "days_since_push": 1,
-  "health_score": 62,
+  "age_days": 147,
+  "days_since_push": 0,
+  "health_score": 60,
   "health_components": {
-    "popularity": 75.4,
-    "momentum": 9.7,
+    "popularity": 75.3,
+    "momentum": 1.4,
     "maintenance": 100.0,
     "documentation": 48.0,
     "accessibility": 88.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 105,
-    "days_span": 9,
-    "stars_per_day": 11.67,
-    "lifetime_stars_per_day": 40.5,
+    "stars_gained": 17,
+    "days_span": 10,
+    "stars_per_day": 1.7,
+    "lifetime_stars_per_day": 39.63,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tigerless-labs/cost-xray",
@@ -133,72 +133,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:53:56+00:00",
+  "fetched_at": "2026-10-31T10:25:40+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile-remote-control"
+    "mobile-remote-control",
+    "model-routing"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "getpaseo/paseo",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "tigerless-labs/cost-xray",
-      "challenger": "getpaseo/paseo",
-      "incumbent_name": "tigerless-labs/cost-xray",
-      "challenger_name": "getpaseo/paseo",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "remote-control"
-      ],
-      "star_ratio": 3.806,
-      "momentum_ratio": 10.077,
-      "setup_delta": 12,
-      "dominance": 0.94,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "3.81x the stars (22,504 vs 5,913)",
-        "10.08x the star velocity (117.6/day vs 11.7/day)",
-        "slightly heavier setup (+12 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "remote-control"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 62,
-        "challenger_health": 86,
-        "incumbent_setup_score": 12,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

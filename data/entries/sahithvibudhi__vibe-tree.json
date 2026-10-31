@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 458,
-  "days_since_push": 96,
+  "age_days": 459,
+  "days_since_push": 97,
   "health_score": 43,
   "health_components": {
     "popularity": 48.7,
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:12+00:00",
+  "fetched_at": "2026-10-31T10:26:53+00:00",
   "categories": [
     "model-routing",
     "teams-isolation"
@@ -173,13 +173,13 @@
         "session-persistence",
         "worktree-isolation"
       ],
-      "star_ratio": 1.18,
+      "star_ratio": 1.191,
       "momentum_ratio": 2.0,
       "setup_delta": -2,
-      "dominance": 0.674,
+      "dominance": 0.676,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "1.18x the stars (321 vs 272)",
+        "1.19x the stars (324 vs 272)",
         "2.00x the star velocity (0.8/day vs 0.4/day)",
         "no harder to set up (12 vs 14 friction)"
       ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
   "homepage": "https://aka.ms/ppskills",
-  "stars": 1084,
-  "forks": 218,
-  "open_issues": 165,
+  "stars": 1093,
+  "forks": 221,
+  "open_issues": 164,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "power-platform"
   ],
   "created_at": "2026-01-21T18:25:14Z",
-  "updated_at": "2026-10-30T10:25:28Z",
-  "pushed_at": "2026-10-29T23:04:59Z",
+  "updated_at": "2026-10-31T03:53:33Z",
+  "pushed_at": "2026-10-30T23:04:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 281,
+  "age_days": 282,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
-    "popularity": 60.7,
+    "popularity": 60.8,
     "momentum": 5.2,
     "maintenance": 100.0,
     "documentation": 45.0,
@@ -41,7 +41,7 @@
     "stars_gained": 31,
     "days_span": 5,
     "stars_per_day": 6.2,
-    "lifetime_stars_per_day": 3.86,
+    "lifetime_stars_per_day": 3.88,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,76 +133,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:36+00:00",
+  "fetched_at": "2026-10-31T10:26:19+00:00",
   "categories": [
     "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "paperclipai/paperclip",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "microsoft/power-platform-skills",
-      "challenger": "paperclipai/paperclip",
-      "incumbent_name": "microsoft/power-platform-skills",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "mobile-access",
-        "skills-plugins",
-        "worktree-isolation"
-      ],
-      "star_ratio": 100.39,
-      "momentum_ratio": 56.194,
-      "setup_delta": -4,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "100.39x the stars (108,823 vs 1,084)",
-        "56.19x the star velocity (348.4/day vs 6.2/day)",
-        "no harder to set up (45 vs 49 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "mobile-access",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 89,
-        "incumbent_setup_score": 49,
-        "challenger_setup_score": 45
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

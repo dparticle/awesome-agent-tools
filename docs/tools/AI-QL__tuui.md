@@ -17,14 +17,12 @@
 | Health score | 47/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-04-01 |
-| Last push | 2026-05-14 (169 days ago) |
+| Last push | 2026-05-14 (170 days ago) |
 | Analyzed README | 12,001 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/Derpyu520/qq-bridge",
   "description": "Bridge between QQ (SnowLuma OneBot v11) and DeepSeek Harness agents: social simulation, safe MCP tools, slang learning and more.",
   "homepage": "",
-  "stars": 3320,
-  "forks": 191,
-  "open_issues": 104,
+  "stars": 3349,
+  "forks": 196,
+  "open_issues": 36,
   "language": "JavaScript",
   "license": "NOASSERTION",
   "topics": [
@@ -21,33 +21,33 @@
     "snowluma"
   ],
   "created_at": "2026-08-25T07:46:42Z",
-  "updated_at": "2026-10-30T10:51:43Z",
-  "pushed_at": "2026-10-30T10:40:27Z",
+  "updated_at": "2026-10-31T09:27:40Z",
+  "pushed_at": "2026-10-31T10:21:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 66,
+  "age_days": 67,
   "days_since_push": 0,
   "health_score": 60,
   "health_components": {
-    "popularity": 70.4,
-    "momentum": 41.9,
+    "popularity": 70.5,
+    "momentum": 41.7,
     "maintenance": 100.0,
     "documentation": 44.0,
     "accessibility": 29.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3320,
-    "days_span": 66,
-    "stars_per_day": 50.3,
-    "lifetime_stars_per_day": 50.3,
+    "stars_gained": 3349,
+    "days_span": 67,
+    "stars_per_day": 49.99,
+    "lifetime_stars_per_day": 49.99,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Derpyu520/qq-bridge",
-    "readme_chars": 20117,
+    "readme_chars": 20185,
     "capabilities": [
       "multi-account-switching",
       "multi-agent-orchestration",
@@ -132,7 +132,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.249
+      "external_link_ratio": 0.248
     },
     "highlights": [
       "运行中的 SnowLuma，且配置好 OneBot WebSocket 与 HTTP API（默认 ws://127.0.0.1:3001 / http://127.0.0.1:3000，accessToken 视配置填写）",
@@ -149,9 +149,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:01+00:00",
+  "fetched_at": "2026-10-31T10:25:45+00:00",
   "categories": [
-    "desktop-ui-2",
+    "failover",
     "memory-mcp",
     "model-routing"
   ],

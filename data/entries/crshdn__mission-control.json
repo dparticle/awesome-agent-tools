@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 271,
-  "days_since_push": 43,
+  "age_days": 272,
+  "days_since_push": 44,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
@@ -35,9 +35,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1,
-    "days_span": 9,
-    "stars_per_day": 0.11,
-    "lifetime_stars_per_day": 7.95,
+    "days_span": 10,
+    "stars_per_day": 0.1,
+    "lifetime_stars_per_day": 7.92,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,13 +149,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:27+00:00",
+  "fetched_at": "2026-10-31T10:26:10+00:00",
   "categories": [
     "analytics",
-    "memory-mcp",
     "teams-isolation"
   ],
-  "primary_category": "analytics",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

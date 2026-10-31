@@ -6,9 +6,9 @@
   "url": "https://github.com/asheshgoplani/agent-deck",
   "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
   "homepage": "https://discord.gg/e4xSs6NBN8",
-  "stars": 1185,
-  "forks": 214,
-  "open_issues": 36,
+  "stars": 1190,
+  "forks": 216,
+  "open_issues": 18,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -32,33 +32,33 @@
     "tui"
   ],
   "created_at": "2025-12-03T17:08:12Z",
-  "updated_at": "2026-10-30T09:48:00Z",
-  "pushed_at": "2026-10-26T21:55:26Z",
+  "updated_at": "2026-10-31T07:59:50Z",
+  "pushed_at": "2026-10-31T10:21:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 330,
-  "days_since_push": 3,
+  "age_days": 331,
+  "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 61.5,
-    "momentum": 4.7,
+    "momentum": 5.3,
     "maintenance": 100.0,
     "documentation": 81.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 28,
+    "stars_gained": 32,
     "days_span": 5,
-    "stars_per_day": 5.6,
-    "lifetime_stars_per_day": 3.59,
+    "stars_per_day": 6.4,
+    "lifetime_stars_per_day": 3.6,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "asheshgoplani/agent-deck",
-    "readme_chars": 97213,
+    "readme_chars": 98362,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -87,16 +87,16 @@
       "multi-agent-orchestration": "tion in iTerm2) to bypass it, or use the c / B / V / Y",
       "parallel-execution": "late to an empty string explicitly disables the segment.",
       "worktree-isolation": "OpenCode on five more, another agent somewhere in the background? One terminal shows every session — running, waiting, or done — and one keystroke switches between them.",
-      "model-routing": "s no network request: it reads the",
+      "model-routing": "makes no network request: it reads the",
       "usage-analytics": "n five more, another agent somewhere in the background? One terminal shows every session — running, waiting, or done — and one keystroke switches between them.",
-      "session-persistence": "conversation, metadata, worktree, and parent linkage are all preserved.",
-      "skills-plugins": "~/.config/agent-deck/config.toml), then toggle per session — see Configuration Reference",
+      "session-persistence": "ersation, metadata, worktree, and parent linkage are all preserved.",
+      "skills-plugins": "install opens a Welcome that shows which agents you have (Claude Code, Codex, Gemini CLI, Pi), whether Claude and Codex are signed in (from their own claude auth status / codex login status), and the install command for…",
       "agent-runtime": "",
       "mcp-support": "rbells\" so the outside world",
-      "security-isolation": "**Permission prompts during automation**: if a conductor keeps pausing on permission requests, set [claude].allowdangerousmode = true (or dangerousmode = true) in $XDGCONFIGHOME/agent-deck/config.toml, then run agent-de",
+      "security-isolation": "Permission prompts during automation: if a conductor keeps pausing on permission requests, set [claude].allowdangerousmode = true (or dangerousmode = true) in $XDGCONFIGHOME/agent-deck/config.toml, then run agent-deck",
       "self-hosted": "",
-      "gui-desktop": "this version and Skip (the default).",
-      "notifications": "ctor/ — full conductor guide with channel pairing walkthrough",
+      "gui-desktop": "config.toml (default: \"waiting\").",
+      "notifications": "**Built-in status-driven notifications**: conductor setup also installs a transition notifier daemon (agent-deck notify-daemon) that watches status transitions and sends parent nudges when child sessions move running ->…",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Crush"
     },
     "capability_hits": {
@@ -110,12 +110,12 @@
       "model-routing": 1,
       "usage-analytics": 4,
       "session-persistence": 1,
-      "skills-plugins": 2,
+      "skills-plugins": 3,
       "agent-runtime": 1,
       "mcp-support": 12,
       "security-isolation": 2,
       "self-hosted": 1,
-      "gui-desktop": 7,
+      "gui-desktop": 8,
       "notifications": 7,
       "cross-agent-support": 7
     },
@@ -193,7 +193,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.288
+      "external_link_ratio": 0.285
     },
     "highlights": [
       "Nothing is sent until you explicitly type y at the confirmation prompt.",
@@ -210,9 +210,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:35+00:00",
+  "fetched_at": "2026-10-31T10:26:17+00:00",
   "categories": [
-    "analytics",
+    "desktop-ui",
     "desktop-ui-2",
     "teams-isolation"
   ],

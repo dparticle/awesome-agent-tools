@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 113,
-  "days_since_push": 62,
+  "age_days": 114,
+  "days_since_push": 63,
   "health_score": 47,
   "health_components": {
     "popularity": 49.0,
@@ -41,9 +41,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 282,
-    "days_span": 113,
-    "stars_per_day": 2.5,
-    "lifetime_stars_per_day": 2.5,
+    "days_span": 114,
+    "stars_per_day": 2.47,
+    "lifetime_stars_per_day": 2.47,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -148,13 +148,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:11+00:00",
+  "fetched_at": "2026-10-31T10:26:52+00:00",
   "categories": [
     "analytics",
     "failover",
     "memory-mcp"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
@@ -179,14 +179,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 106.461,
-      "momentum_ratio": 11.84,
+      "star_ratio": 106.532,
+      "momentum_ratio": 11.741,
       "setup_delta": -8,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "106.46x the stars (30,022 vs 282)",
-        "11.84x the star velocity (29.6/day vs 2.5/day)",
+        "106.53x the stars (30,042 vs 282)",
+        "11.74x the star velocity (29.0/day vs 2.5/day)",
         "no harder to set up (32 vs 40 friction)"
       ],
       "reasons_zh": [],

@@ -6,9 +6,9 @@
   "url": "https://github.com/leepokai/Codync",
   "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
   "homepage": "https://www.codync.dev",
-  "stars": 1005,
-  "forks": 117,
-  "open_issues": 38,
+  "stars": 1115,
+  "forks": 122,
+  "open_issues": 44,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "self-hosted"
   ],
   "created_at": "2026-03-18T11:11:05Z",
-  "updated_at": "2026-10-30T09:46:36Z",
-  "pushed_at": "2026-10-30T10:51:31Z",
+  "updated_at": "2026-10-31T10:06:33Z",
+  "pushed_at": "2026-10-31T10:13:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 225,
+  "age_days": 226,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 67,
   "health_components": {
-    "popularity": 60.0,
-    "momentum": 33.7,
+    "popularity": 60.9,
+    "momentum": 37.2,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 91.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 202,
+    "stars_gained": 223,
     "days_span": 5,
-    "stars_per_day": 40.4,
-    "lifetime_stars_per_day": 4.47,
+    "stars_per_day": 44.6,
+    "lifetime_stars_per_day": 4.93,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "leepokai/Codync",
-    "readme_chars": 23849,
+    "readme_chars": 23986,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.719
+      "external_link_ratio": 1.751
     },
     "highlights": [
       "codync-host (Rust, macOS, Windows and Linux) runs on your computer.",
@@ -171,10 +171,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:38+00:00",
+  "fetched_at": "2026-10-31T10:26:18+00:00",
   "categories": [
-    "desktop-ui",
     "desktop-ui-2",
+    "memory-mcp",
     "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",

@@ -34,13 +34,13 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-27T10:16:48Z",
+  "updated_at": "2026-10-30T23:44:03Z",
   "pushed_at": "2026-10-26T15:11:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 263,
-  "days_since_push": 3,
+  "age_days": 264,
+  "days_since_push": 4,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
@@ -135,23 +135,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:54+00:00",
+  "fetched_at": "2026-10-31T10:26:36+00:00",
   "categories": [
-    "desktop-ui-2",
+    "failover",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 XiaomiMiMo/MiMo-Code 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "XiaomiMiMo/MiMo-Code",
+    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
     "challenger": "",
     "supersede": {
       "incumbent": "josstei/maestro-orchestrate",
-      "challenger": "xiaomimimo/mimo-code",
+      "challenger": "hoangsonww/claude-code-agent-monitor",
       "incumbent_name": "josstei/maestro-orchestrate",
-      "challenger_name": "XiaomiMiMo/MiMo-Code",
+      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -162,15 +162,15 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 28.324,
-      "momentum_ratio": 17.0,
-      "setup_delta": -30,
-      "dominance": 1.0,
+      "star_ratio": 2.336,
+      "momentum_ratio": 15.0,
+      "setup_delta": -21,
+      "dominance": 0.943,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "28.32x the stars (13,737 vs 485)",
-        "17.00x the star velocity (3.4/day vs 0.2/day)",
-        "no harder to set up (21 vs 51 friction)"
+        "2.34x the stars (1,133 vs 485)",
+        "15.00x the star velocity (3.0/day vs 0.2/day)",
+        "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -181,24 +181,19 @@
           "session-persistence"
         ],
         "challenger_capabilities": [
-          "api-gateway",
+          "agent-runtime",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
+          "notifications",
           "session-persistence",
-          "skills-plugins",
-          "voice-input"
+          "skills-plugins"
         ],
         "incumbent_health": 51,
-        "challenger_health": 63,
+        "challenger_health": 55,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 30
       }
     }
   }

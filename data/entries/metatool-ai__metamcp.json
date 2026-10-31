@@ -6,7 +6,7 @@
   "url": "https://github.com/metatool-ai/metamcp",
   "description": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
   "homepage": "https://docs.metamcp.com",
-  "stars": 2737,
+  "stars": 2738,
   "forks": 442,
   "open_issues": 120,
   "language": "TypeScript",
@@ -29,26 +29,26 @@
     "vibe-coding"
   ],
   "created_at": "2025-01-22T11:58:52Z",
-  "updated_at": "2026-10-30T09:02:23Z",
+  "updated_at": "2026-10-31T01:00:33Z",
   "pushed_at": "2026-06-22T16:50:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "ai-dev",
-  "age_days": 645,
-  "days_since_push": 129,
+  "age_days": 646,
+  "days_since_push": 130,
   "health_score": 46,
   "health_components": {
     "popularity": 68.7,
-    "momentum": 2.2,
+    "momentum": 1.8,
     "maintenance": 55.0,
     "documentation": 88.0,
     "accessibility": 8.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 2.6,
+    "stars_per_day": 2.2,
     "lifetime_stars_per_day": 4.24,
     "basis": "history",
     "is_fast_riser": false
@@ -154,7 +154,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:26+00:00",
+  "fetched_at": "2026-10-31T10:26:08+00:00",
   "categories": [
     "desktop-ui-2",
     "memory-mcp"

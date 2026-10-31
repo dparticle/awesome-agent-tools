@@ -2,7 +2,7 @@
 
 # tigerless-labs/autoharness
 
-> autoharness is a self-learning skill layer for Claude Code.
+> With autoharness, we're building the self-learning layer next-gen agents will ship with, learning skills from real work.
 
 [Repository](https://github.com/tigerless-labs/autoharness) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,603 |
-| Star velocity | 4.2/day (history basis, 8d span) |
-| Health score | 58/100 |
+| Stars | 10,530 |
+| Star velocity | 43.2/day (history basis, 23d span) |
+| Health score | 66/100 |
 | Documentation | 42/100 |
-| Tier | 🔹 Notable |
+| Tier | ✅ Recommended |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-06-09 |
-| Last push | 2026-10-29 (0 days ago) |
-| Analyzed README | 23,544 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 23,662 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).
 
@@ -68,8 +68,8 @@ Score **42/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.5 |
-| momentum | 3.5 |
+| popularity | 80.4 |
+| momentum | 36.0 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
 | accessibility | 64.0 |

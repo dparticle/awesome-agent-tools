@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 997,
-  "forks": 92,
-  "open_issues": 17,
+  "stars": 1095,
+  "forks": 99,
+  "open_issues": 22,
   "language": "TypeScript",
   "license": "",
   "topics": [
@@ -16,28 +16,28 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-10-30T10:36:11Z",
-  "pushed_at": "2026-10-30T08:31:39Z",
+  "updated_at": "2026-10-31T10:23:05Z",
+  "pushed_at": "2026-10-31T10:03:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 76,
+  "age_days": 77,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 64,
   "health_components": {
-    "popularity": 60.0,
-    "momentum": 10.9,
+    "popularity": 60.8,
+    "momentum": 38.8,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 66.0
   },
-  "tier": "notable",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 997,
-    "days_span": 76,
-    "stars_per_day": 13.12,
-    "lifetime_stars_per_day": 13.12,
-    "basis": "lifetime",
+    "stars_gained": 233,
+    "days_span": 5,
+    "stars_per_day": 46.6,
+    "lifetime_stars_per_day": 14.22,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -136,14 +136,14 @@
       "external_link_ratio": 0.695
     },
     "highlights": [
-      "The current development baseline is dsh-v0.2.1-rc.1; validation scope is documented in the compatibility guide.",
+      "The current development baseline is dsh-v0.2.1-rc.5; validation scope is documented in the compatibility guide.",
       "Run a terminal-only dsh-TUI profile as a Host.",
       "Android keeps per-conversation drafts and reading positions, offers backend-separated search",
       "Access your local Harness instance remotely from the web, a PC, or a mobile device: DSH first, with Codex, Cursor, and Antigravity support too."
     ],
     "summary_zh_native": "从手机、电脑、浏览器继续使用你的 DeepSeek Harness 实例。",
     "highlights_zh": [
-      "当前开发适配基线为 dsh-v0.2.1-rc.1，验证范围见兼容性说明。",
+      "当前开发适配基线为 dsh-v0.2.1-rc.5，验证范围见兼容性说明。",
       "Harness 主机无需开放公网监听端口，无需公网IP，可以从任意可上网的地方，通过双向端到端加密链路安全连接。",
       "从另一台设备（Web、PC、移动端）远程到本地Harness实例：DSH 优先，CodeX、Cursor、Antigravity 一样可用。",
       "支持新建工作区、模型配置、对话模型切换，远端如本地一样丝滑。"
@@ -155,11 +155,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:38+00:00",
+  "fetched_at": "2026-10-31T10:26:19+00:00",
   "categories": [
-    "analytics",
-    "memory-mcp",
-    "mobile-remote-control"
+    "desktop-ui-2",
+    "mobile-remote-control",
+    "teams-isolation"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

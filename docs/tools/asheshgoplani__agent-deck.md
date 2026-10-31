@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,185 |
-| Star velocity | 5.6/day (history basis, 5d span) |
+| Stars | 1,190 |
+| Star velocity | 6.4/day (history basis, 5d span) |
 | Health score | 58/100 |
 | Documentation | 81/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Go |
 | Created | 2025-12-03 |
-| Last push | 2026-10-26 (3 days ago) |
-| Analyzed README | 97,213 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-31 (0 days ago) |
+| Analyzed README | 98,362 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@
 
 ### Model / provider routing
 
-> s no network request: it reads the
+> makes no network request: it reads the
 
 ### Usage analytics
 
@@ -64,11 +64,11 @@
 
 ### Session persistence
 
-> conversation, metadata, worktree, and parent linkage are all preserved.
+> ersation, metadata, worktree, and parent linkage are all preserved.
 
 ### Skills & plugins
 
-> ~/.config/agent-deck/config.toml), then toggle per session — see Configuration Reference
+> install opens a Welcome that shows which agents you have (Claude Code, Codex, Gemini CLI, Pi), whether Claude and Codex are signed in (from their own claude auth status / codex login status), and the install command for…
 
 ### Agent runtime
 
@@ -78,17 +78,17 @@
 
 ### Security & isolation
 
-> **Permission prompts during automation**: if a conductor keeps pausing on permission requests, set [claude].allowdangerousmode = true (or dangerousmode = true) in $XDGCONFIGHOME/agent-deck/config.toml, then run agent-de
+> Permission prompts during automation: if a conductor keeps pausing on permission requests, set [claude].allowdangerousmode = true (or dangerousmode = true) in $XDGCONFIGHOME/agent-deck/config.toml, then run agent-deck
 
 ### Self-hostable
 
 ### GUI / desktop app
 
-> this version and Skip (the default).
+> config.toml (default: "waiting").
 
 ### Notifications
 
-> ctor/ — full conductor guide with channel pairing walkthrough
+> **Built-in status-driven notifications**: conductor setup also installs a transition notifier daemon (agent-deck notify-daemon) that watches status transitions and sends parent nudges when child sessions move running ->…
 
 ### Cross-agent support
 
@@ -133,7 +133,7 @@ Score **81/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 61.5 |
-| momentum | 4.7 |
+| momentum | 5.3 |
 | maintenance | 100.0 |
 | documentation | 81.0 |
 | accessibility | 52.0 |

@@ -6,8 +6,8 @@
   "url": "https://github.com/callstack/agent-device",
   "description": "Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.",
   "homepage": "https://agent-device.dev",
-  "stars": 5194,
-  "forks": 363,
+  "stars": 5208,
+  "forks": 368,
   "open_issues": 100,
   "language": "TypeScript",
   "license": "MIT",
@@ -31,12 +31,12 @@
     "xcuitest"
   ],
   "created_at": "2026-01-30T18:41:54Z",
-  "updated_at": "2026-10-30T10:01:45Z",
-  "pushed_at": "2026-10-30T10:01:19Z",
+  "updated_at": "2026-10-31T09:30:43Z",
+  "pushed_at": "2026-10-31T09:47:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 272,
+  "age_days": 273,
   "days_since_push": 0,
   "health_score": 66,
   "health_components": {
@@ -48,10 +48,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5194,
-    "days_span": 272,
-    "stars_per_day": 19.1,
-    "lifetime_stars_per_day": 19.1,
+    "stars_gained": 5208,
+    "days_span": 273,
+    "stars_per_day": 19.08,
+    "lifetime_stars_per_day": 19.08,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -160,7 +160,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:21+00:00",
+  "fetched_at": "2026-10-31T10:26:04+00:00",
   "categories": [
     "desktop-ui-2",
     "mobile-remote-control",
@@ -168,73 +168,10 @@
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (9/9).",
-    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (9/9)。",
-    "superseded_by": "getpaseo/paseo",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "callstack/agent-device",
-      "challenger": "getpaseo/paseo",
-      "incumbent_name": "callstack/agent-device",
-      "challenger_name": "getpaseo/paseo",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "mobile-access",
-        "multi-agent-orchestration",
-        "parallel-execution",
-        "remote-control",
-        "worktree-isolation"
-      ],
-      "star_ratio": 4.333,
-      "momentum_ratio": 6.157,
-      "setup_delta": 6,
-      "dominance": 0.97,
-      "reasons": [
-        "covers 100% of capabilities (9/9)",
-        "4.33x the stars (22,504 vs 5,194)",
-        "6.16x the star velocity (117.6/day vs 19.1/day)",
-        "slightly heavier setup (+6 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "remote-control",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 66,
-        "challenger_health": 86,
-        "incumbent_setup_score": 18,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

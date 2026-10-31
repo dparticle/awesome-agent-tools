@@ -6,7 +6,7 @@
   "url": "https://github.com/JuliusBrussee/cavemem",
   "description": "Frozen — cross-agent persistent memory for coding assistants. Still works; the compressed-memory core now ships inside JuliusBrussee/caveman.",
   "homepage": "https://caveman.so/",
-  "stars": 676,
+  "stars": 675,
   "forks": 58,
   "open_issues": 12,
   "language": "TypeScript",
@@ -22,28 +22,28 @@
     "rag-chatbot"
   ],
   "created_at": "2026-04-18T00:21:39Z",
-  "updated_at": "2026-10-24T06:28:35Z",
+  "updated_at": "2026-10-31T10:02:23Z",
   "pushed_at": "2026-08-14T22:08:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 195,
-  "days_since_push": 76,
-  "health_score": 50,
+  "age_days": 196,
+  "days_since_push": 77,
+  "health_score": 51,
   "health_components": {
     "popularity": 56.6,
-    "momentum": 0.0,
+    "momentum": 2.9,
     "maintenance": 78.0,
     "documentation": 43.0,
     "accessibility": 99.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.47,
-    "basis": "history",
+    "stars_gained": 675,
+    "days_span": 196,
+    "stars_per_day": 3.44,
+    "lifetime_stars_per_day": 3.44,
+    "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:46+00:00",
+  "fetched_at": "2026-10-31T10:26:28+00:00",
   "categories": [
     "desktop-ui-2",
     "failover"

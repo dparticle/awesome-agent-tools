@@ -6,9 +6,9 @@
   "url": "https://github.com/tickernelz/opencode-mem",
   "description": "OpenCode plugin that gives coding agents persistent memory using local vector database",
   "homepage": "",
-  "stars": 1799,
+  "stars": 1807,
   "forks": 183,
-  "open_issues": 3,
+  "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "vector-database"
   ],
   "created_at": "2026-01-10T08:13:56Z",
-  "updated_at": "2026-10-30T06:29:46Z",
-  "pushed_at": "2026-10-29T15:55:11Z",
+  "updated_at": "2026-10-31T10:10:25Z",
+  "pushed_at": "2026-10-31T10:10:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 293,
+  "age_days": 294,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 65.1,
-    "momentum": 2.3,
+    "momentum": 3.5,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 21,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 6.14,
+    "stars_per_day": 4.2,
+    "lifetime_stars_per_day": 6.15,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tickernelz/opencode-mem",
-    "readme_chars": 50329,
+    "readme_chars": 53792,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -83,7 +83,7 @@
       "skills-plugins": 2,
       "agent-runtime": 2,
       "security-isolation": 1,
-      "gui-desktop": 11,
+      "gui-desktop": 12,
       "notifications": 1,
       "cross-agent-support": 3
     },
@@ -138,7 +138,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.258
+      "external_link_ratio": 0.242
     },
     "highlights": [
       "In later sessions, relevant memories are injected into context (see chatMessage / compaction settings).",
@@ -155,13 +155,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:28+00:00",
+  "fetched_at": "2026-10-31T10:26:11+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "failover"
+    "model-routing"
   ],
-  "primary_category": "failover",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

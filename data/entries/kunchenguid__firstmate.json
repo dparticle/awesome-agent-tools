@@ -6,26 +6,26 @@
   "url": "https://github.com/kunchenguid/firstmate",
   "description": "Talk to one agent. Ship with a crew.",
   "homepage": "",
-  "stars": 8427,
-  "forks": 2674,
-  "open_issues": 2579,
+  "stars": 8442,
+  "forks": 2680,
+  "open_issues": 2591,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-12T03:21:10Z",
-  "updated_at": "2026-10-30T10:27:02Z",
-  "pushed_at": "2026-10-30T10:20:51Z",
+  "updated_at": "2026-10-31T10:19:39Z",
+  "pushed_at": "2026-10-31T10:19:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
+  "age_days": 141,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 78.5,
     "momentum": 21.7,
     "maintenance": 100.0,
-    "documentation": 52.0,
+    "documentation": 53.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
@@ -33,13 +33,13 @@
     "stars_gained": 130,
     "days_span": 5,
     "stars_per_day": 26.0,
-    "lifetime_stars_per_day": 60.19,
+    "lifetime_stars_per_day": 59.87,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kunchenguid/firstmate",
-    "readme_chars": 22499,
+    "readme_chars": 22636,
     "capabilities": [
       "auto-failover",
       "parallel-execution",
@@ -88,7 +88,7 @@
       "note_en": "Easy. install via npx one-liner, native installer / package; needs git clone (build from source); configure environment variables, sign-in required; no-code positioning",
       "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)；需配置 environment variables、sign-in required；no-code positioning"
     },
-    "doc_score": 52,
+    "doc_score": 53,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -114,13 +114,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.089
+      "external_link_ratio": 0.088
     },
     "highlights": [
       "Disposable worktrees - each task runs in a clean treehouse git worktree, or an Orca-managed worktree when backend=orca, so parallel work on one repo never collides.",
       "Strict project boundary - the first mate is read-only over your projects except for the narrow guarded and captain-approved operations authorized by hard rule 1, including fleet sync's guar…",
       "Optional secondmates - opt in to persistent second mates that run from isolated firstmate homes with their own FM_HOME, state, projects, and session lock, either locally or as a whole home…",
-      "Restart-proof - all state lives on disk and in the active session backend (tmux by hard default, herdr, rex, or cmux when selected or auto-detected, zellij/orca/paseo/t3code/tern when expli…"
+      "Restart-proof - all state lives on disk and in the active session backend (tmux by hard default, herdr, rex, or cmux when selected or auto-detected, zellij/orca/paseo/t3code/tern/hc when ex…"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:53:53+00:00",
+  "fetched_at": "2026-10-31T10:25:37+00:00",
   "categories": [
     "teams-isolation"
   ],

@@ -7,7 +7,7 @@
   "description": "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally.",
   "homepage": "",
   "stars": 516,
-  "forks": 58,
+  "forks": 57,
   "open_issues": 4,
   "language": "TypeScript",
   "license": "",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 239,
-  "days_since_push": 171,
+  "age_days": 240,
+  "days_since_push": 172,
   "health_score": 38,
   "health_components": {
     "popularity": 54.3,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.16,
+    "lifetime_stars_per_day": 2.15,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:51+00:00",
+  "fetched_at": "2026-10-31T10:26:33+00:00",
   "categories": [
     "failover",
     "model-routing"
@@ -157,14 +157,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 3.484,
-      "momentum_ratio": 252.0,
+      "star_ratio": 3.504,
+      "momentum_ratio": 236.0,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "3.48x the stars (1,798 vs 516)",
-        "252.00x the star velocity (12.6/day vs 0.0/day)",
+        "3.50x the stars (1,808 vs 516)",
+        "236.00x the star velocity (11.8/day vs 0.0/day)",
         "no harder to set up (64 vs 84 friction)"
       ],
       "reasons_zh": [],

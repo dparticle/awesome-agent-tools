@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 557,
   "forks": 51,
-  "open_issues": 6,
+  "open_issues": 7,
   "language": "Python",
   "license": "MIT",
   "topics": [],
@@ -18,21 +18,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 686,
-  "days_since_push": 1,
+  "age_days": 687,
+  "days_since_push": 2,
   "health_score": 49,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 1.7,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 37.0,
     "accessibility": 60.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 2.0,
+    "stars_per_day": 1.8,
     "lifetime_stars_per_day": 0.81,
     "basis": "history",
     "is_fast_riser": false
@@ -120,11 +120,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:49+00:00",
+  "fetched_at": "2026-10-31T10:26:31+00:00",
   "categories": [
-    "memory-mcp"
+    "analytics"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

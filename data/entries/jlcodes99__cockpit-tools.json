@@ -6,9 +6,9 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "stars": 19544,
-  "forks": 1754,
-  "open_issues": 948,
+  "stars": 19576,
+  "forks": 1759,
+  "open_issues": 955,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -23,33 +23,33 @@
     "windsurf"
   ],
   "created_at": "2026-01-16T07:09:32Z",
-  "updated_at": "2026-10-30T10:48:14Z",
-  "pushed_at": "2026-10-30T10:40:32Z",
+  "updated_at": "2026-10-31T09:55:01Z",
+  "pushed_at": "2026-10-30T15:43:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 287,
+  "age_days": 288,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 71,
   "health_components": {
     "popularity": 85.8,
-    "momentum": 38.0,
+    "momentum": 35.2,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 228,
+    "stars_gained": 211,
     "days_span": 5,
-    "stars_per_day": 45.6,
-    "lifetime_stars_per_day": 68.1,
+    "stars_per_day": 42.2,
+    "lifetime_stars_per_day": 67.97,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "jlcodes99/cockpit-tools",
-    "readme_chars": 18591,
+    "readme_chars": 18597,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -180,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:17+00:00",
+  "fetched_at": "2026-10-31T10:26:00+00:00",
   "categories": [
     "billing",
-    "desktop-ui-2",
-    "sharing"
+    "sharing",
+    "voice"
   ],
   "primary_category": "sharing",
   "lifecycle": {

@@ -4,11 +4,11 @@
   "name": "autoharness",
   "owner": "tigerless-labs",
   "url": "https://github.com/tigerless-labs/autoharness",
-  "description": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates them as you work, and prunes the ones that stop getting used. No daemon, no benchmark.",
+  "description": "Building the self-learning layer next-gen agents will ship with, learning skills from real work.",
   "homepage": "https://github.com/tigerless-labs/autoharness",
-  "stars": 10603,
+  "stars": 10530,
   "forks": 645,
-  "open_issues": 33,
+  "open_issues": 34,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -19,33 +19,33 @@
     "python"
   ],
   "created_at": "2026-06-09T21:05:42Z",
-  "updated_at": "2026-10-30T10:42:18Z",
-  "pushed_at": "2026-10-29T16:50:53Z",
+  "updated_at": "2026-10-31T10:22:30Z",
+  "pushed_at": "2026-10-30T18:53:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
+  "age_days": 143,
   "days_since_push": 0,
-  "health_score": 58,
+  "health_score": 66,
   "health_components": {
-    "popularity": 80.5,
-    "momentum": 3.5,
+    "popularity": 80.4,
+    "momentum": 36.0,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 64.0
   },
-  "tier": "notable",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 34,
-    "days_span": 8,
-    "stars_per_day": 4.25,
-    "lifetime_stars_per_day": 74.67,
+    "stars_gained": 993,
+    "days_span": 23,
+    "stars_per_day": 43.17,
+    "lifetime_stars_per_day": 73.64,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tigerless-labs/autoharness",
-    "readme_chars": 23544,
+    "readme_chars": 23662,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -60,7 +60,7 @@
     },
     "capability_hits": {
       "multi-agent-orchestration": 1,
-      "skills-plugins": 3,
+      "skills-plugins": 1,
       "mcp-support": 3,
       "notifications": 1
     },
@@ -96,7 +96,7 @@
     "agents": [
       "Claude Code"
     ],
-    "summary_en": "autoharness is a self-learning skill layer for Claude Code.",
+    "summary_en": "With autoharness, we're building the self-learning layer next-gen agents will ship with, learning skills from real work.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -104,7 +104,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.297
+      "external_link_ratio": 0.296
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -116,10 +116,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:53:51+00:00",
+  "fetched_at": "2026-10-31T10:25:34+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -143,14 +142,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 4.602,
-      "momentum_ratio": 39.864,
+      "star_ratio": 4.641,
+      "momentum_ratio": 3.917,
       "setup_delta": -6,
-      "dominance": 1.0,
+      "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "4.60x the stars (48,793 vs 10,603)",
-        "39.86x the star velocity (169.4/day vs 4.2/day)",
+        "4.64x the stars (48,874 vs 10,530)",
+        "3.92x the star velocity (169.1/day vs 43.2/day)",
         "no harder to set up (30 vs 36 friction)"
       ],
       "reasons_zh": [],
@@ -177,7 +176,7 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 58,
+        "incumbent_health": 66,
         "challenger_health": 92,
         "incumbent_setup_score": 36,
         "challenger_setup_score": 30

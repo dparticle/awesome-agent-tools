@@ -6,10 +6,10 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
   "homepage": "https://gilded-laurel-c7nj.here.now/",
-  "stars": 27763,
-  "forks": 2306,
-  "open_issues": 5,
-  "language": "Python",
+  "stars": 27784,
+  "forks": 2308,
+  "open_issues": 7,
+  "language": "Shell",
   "license": "MIT",
   "topics": [
     "agent-skills",
@@ -34,13 +34,13 @@
     "session-recovery"
   ],
   "created_at": "2026-01-03T07:37:28Z",
-  "updated_at": "2026-10-30T10:16:32Z",
-  "pushed_at": "2026-10-28T17:42:45Z",
+  "updated_at": "2026-10-31T09:31:12Z",
+  "pushed_at": "2026-10-30T20:57:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 300,
-  "days_since_push": 1,
+  "age_days": 301,
+  "days_since_push": 0,
   "health_score": 70,
   "health_components": {
     "popularity": 88.9,
@@ -54,13 +54,13 @@
     "stars_gained": 129,
     "days_span": 5,
     "stars_per_day": 25.8,
-    "lifetime_stars_per_day": 92.54,
+    "lifetime_stars_per_day": 92.31,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "OthmanAdi/planning-with-files",
-    "readme_chars": 108541,
+    "readme_chars": 111242,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -148,7 +148,7 @@
       "Copilot",
       "Droid"
     ],
-    "summary_en": "Persistent file-based planning for AI coding agents and long-running tasks.",
+    "summary_en": "Code, documentation, and issue contributors.",
     "summary_zh": "",
     "install_hint": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
     "source": "raw:HEAD/README.md",
@@ -156,7 +156,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.341
+      "external_link_ratio": 0.378
     },
     "highlights": [
       "Host capability tiers: hard block on Claude Code, Codex, and Continue; follow-up injection on Cursor, Pi, Kiro, Hermes Agent, and OpenCode; notify-only elsewhere.",
@@ -173,7 +173,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:17+00:00",
+  "fetched_at": "2026-10-31T10:25:59+00:00",
   "categories": [
     "desktop-ui",
     "failover",

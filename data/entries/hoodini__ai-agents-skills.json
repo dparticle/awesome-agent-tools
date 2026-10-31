@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 295,
-  "days_since_push": 1,
+  "age_days": 296,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 49.3,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 76.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 0.99,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 0.98,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,10 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:09+00:00",
+  "fetched_at": "2026-10-31T10:26:51+00:00",
   "categories": [
     "desktop-ui",
-    "model-routing",
+    "failover",
     "sharing"
   ],
   "primary_category": "desktop-ui",

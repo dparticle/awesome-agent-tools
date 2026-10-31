@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 330 |
-| Star velocity | 10.3/day (lifetime basis, 32d span) |
+| Stars | 333 |
+| Star velocity | 10.1/day (lifetime basis, 33d span) |
 | Health score | 50/100 |
 | Documentation | 36/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | GPL-3.0 |
 | Language | JavaScript |
 | Created | 2026-09-28 |
-| Last push | 2026-10-30 (0 days ago) |
+| Last push | 2026-10-31 (0 days ago) |
 | Analyzed README | 16,892 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -76,7 +76,7 @@ Score **36/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 50.4 |
-| momentum | 8.6 |
+| momentum | 8.4 |
 | maintenance | 100.0 |
 | documentation | 36.0 |
 | accessibility | 70.0 |

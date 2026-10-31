@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 885 |
-| Star velocity | 3.4/day (history basis, 5d span) |
+| Stars | 888 |
+| Star velocity | 3.2/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-14 |
-| Last push | 2026-10-25 (4 days ago) |
-| Analyzed README | 42,069 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-30 (0 days ago) |
+| Analyzed README | 42,164 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -47,6 +47,8 @@
 > One project memory system for Claude Code, Codex, CodeBuddy Code, Cursor, Windsurf, Copilot, Gemini CLI, OpenCode, Grok Build, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Kiro, Antigravity, Trae, DeepSeek Harness, WorkBuddy,
 
 ### Skills & plugins
+
+> the plugin hook definition once with /hooks; --noHooks skips automatic capture.
 
 ### Agent runtime
 
@@ -101,8 +103,8 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.9 |
-| momentum | 2.8 |
+| popularity | 59.0 |
+| momentum | 2.7 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 27.0 |

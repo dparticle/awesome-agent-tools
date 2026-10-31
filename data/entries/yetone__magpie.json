@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 25913,
-  "forks": 2141,
-  "open_issues": 2412,
+  "stars": 26620,
+  "forks": 2234,
+  "open_issues": 2508,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,33 +20,33 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-10-30T10:52:48Z",
-  "pushed_at": "2026-10-30T10:52:57Z",
+  "updated_at": "2026-10-31T10:25:04Z",
+  "pushed_at": "2026-10-31T10:23:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 36,
+  "age_days": 37,
   "days_since_push": 0,
-  "health_score": 90,
+  "health_score": 91,
   "health_components": {
-    "popularity": 88.3,
+    "popularity": 88.5,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 63.0,
-    "accessibility": 90.0
+    "accessibility": 97.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4838,
+    "stars_gained": 4489,
     "days_span": 5,
-    "stars_per_day": 967.6,
-    "lifetime_stars_per_day": 719.81,
+    "stars_per_day": 897.8,
+    "lifetime_stars_per_day": 719.46,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 23403,
+    "readme_chars": 23816,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -74,12 +74,12 @@
       "model-routing": 2,
       "api-gateway": 1,
       "mcp-support": 4,
-      "gui-desktop": 1,
+      "gui-desktop": 2,
       "cross-agent-support": 11
     },
     "friction": {
       "level": "turnkey",
-      "score": 18,
+      "score": 11,
       "out_of_the_box": false,
       "non_programmer_friendly": true,
       "easy_signals": [
@@ -93,7 +93,8 @@
         "sign-in required"
       ],
       "friendliness_signals": [
-        "one-click setup"
+        "one-click setup",
+        "GUI application"
       ],
       "platforms": [
         "macOS",
@@ -138,7 +139,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.496
+      "external_link_ratio": 1.47
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -159,9 +160,10 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-30T10:53:43+00:00",
+  "fetched_at": "2026-10-31T10:25:26+00:00",
   "categories": [
     "desktop-ui-2",
+    "memory-mcp",
     "sharing"
   ],
   "primary_category": "sharing",

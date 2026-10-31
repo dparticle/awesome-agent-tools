@@ -6,7 +6,7 @@
   "url": "https://github.com/nwiizo/tfmcp",
   "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️",
   "homepage": "https://crates.io/crates/tfmcp",
-  "stars": 372,
+  "stars": 371,
   "forks": 31,
   "open_issues": 7,
   "language": "Rust",
@@ -17,28 +17,28 @@
     "terraform"
   ],
   "created_at": "2025-03-08T14:10:29Z",
-  "updated_at": "2026-10-15T02:04:02Z",
+  "updated_at": "2026-10-30T15:06:30Z",
   "pushed_at": "2026-10-29T13:24:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 600,
-  "days_since_push": 0,
+  "age_days": 601,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
-    "momentum": 0.0,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 48.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_gained": 371,
+    "days_span": 601,
+    "stars_per_day": 0.62,
     "lifetime_stars_per_day": 0.62,
-    "basis": "history",
+    "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
@@ -134,77 +134,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:02+00:00",
+  "fetched_at": "2026-10-31T10:26:44+00:00",
   "categories": [
     "desktop-ui-2",
-    "memory-mcp"
+    "memory-mcp",
+    "model-routing"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "nwiizo/tfmcp",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "nwiizo/tfmcp",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "gui-desktop",
-        "mcp-support",
-        "model-routing",
-        "security-isolation",
-        "skills-plugins"
-      ],
-      "star_ratio": 80.704,
-      "momentum_ratio": 592.0,
-      "setup_delta": -20,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "80.70x the stars (30,022 vs 372)",
-        "592.00x the star velocity (29.6/day vs 0.0/day)",
-        "no harder to set up (32 vs 52 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 71,
-        "incumbent_setup_score": 52,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

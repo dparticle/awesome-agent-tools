@@ -6,8 +6,8 @@
   "url": "https://github.com/michaelshimeles/rstack",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1408,
-  "forks": 232,
+  "stars": 1414,
+  "forks": 235,
   "open_issues": 5,
   "language": "Python",
   "license": "",
@@ -22,29 +22,29 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-10-30T09:02:08Z",
+  "updated_at": "2026-10-31T04:38:02Z",
   "pushed_at": "2026-10-26T09:53:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 238,
-  "days_since_push": 4,
+  "age_days": 239,
+  "days_since_push": 5,
   "health_score": 54,
   "health_components": {
     "popularity": 63.0,
-    "momentum": 4.9,
+    "momentum": 5.0,
     "maintenance": 100.0,
     "documentation": 39.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1408,
-    "days_span": 238,
-    "stars_per_day": 5.92,
+    "stars_gained": 30,
+    "days_span": 5,
+    "stars_per_day": 6.0,
     "lifetime_stars_per_day": 5.92,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "michaelshimeles/rstack",
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:31+00:00",
+  "fetched_at": "2026-10-31T10:26:13+00:00",
   "categories": [
     "desktop-ui",
     "teams-isolation"
@@ -156,14 +156,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 24.088,
-      "momentum_ratio": 5.473,
+      "star_ratio": 24.002,
+      "momentum_ratio": 5.333,
       "setup_delta": -23,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "24.09x the stars (33,916 vs 1,408)",
-        "5.47x the star velocity (32.4/day vs 5.9/day)",
+        "24.00x the stars (33,939 vs 1,414)",
+        "5.33x the star velocity (32.0/day vs 6.0/day)",
         "no harder to set up (2 vs 25 friction)"
       ],
       "reasons_zh": [],

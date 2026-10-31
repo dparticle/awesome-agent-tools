@@ -6,8 +6,8 @@
   "url": "https://github.com/osovv/grace-marketplace",
   "description": " GRACE (Graph-RAG Anchored Code Engineering): open Agent Skills for contract-driven AI code generation with semantic markup, knowledge graphs, and support for Claude   Code, Codex CLI, and Kilo Code.",
   "homepage": "",
-  "stars": 258,
-  "forks": 57,
+  "stars": 260,
+  "forks": 58,
   "open_issues": 11,
   "language": "TypeScript",
   "license": "MIT",
@@ -28,27 +28,27 @@
     "semantic-markup"
   ],
   "created_at": "2026-02-17T10:10:30Z",
-  "updated_at": "2026-10-30T03:54:39Z",
+  "updated_at": "2026-10-31T07:36:10Z",
   "pushed_at": "2026-09-24T06:54:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 255,
-  "days_since_push": 36,
-  "health_score": 41,
+  "age_days": 256,
+  "days_since_push": 37,
+  "health_score": 42,
   "health_components": {
-    "popularity": 48.2,
-    "momentum": 0.7,
+    "popularity": 48.3,
+    "momentum": 1.0,
     "maintenance": 78.0,
     "documentation": 44.0,
     "accessibility": 43.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 1.01,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 1.02,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -124,11 +124,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:13+00:00",
+  "fetched_at": "2026-10-31T10:26:54+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "failover"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

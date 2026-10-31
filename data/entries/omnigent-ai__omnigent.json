@@ -6,9 +6,9 @@
   "url": "https://github.com/omnigent-ai/omnigent",
   "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
   "homepage": "https://omnigent.ai",
-  "stars": 11129,
-  "forks": 1830,
-  "open_issues": 2632,
+  "stars": 11141,
+  "forks": 1832,
+  "open_issues": 2639,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -30,27 +30,27 @@
     "sandbox"
   ],
   "created_at": "2026-06-11T12:18:13Z",
-  "updated_at": "2026-10-30T10:52:14Z",
-  "pushed_at": "2026-10-30T10:48:47Z",
+  "updated_at": "2026-10-31T10:17:55Z",
+  "pushed_at": "2026-10-31T10:07:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
+  "age_days": 141,
   "days_since_push": 0,
-  "health_score": 68,
+  "health_score": 67,
   "health_components": {
     "popularity": 80.9,
-    "momentum": 16.7,
+    "momentum": 14.2,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 100,
+    "stars_gained": 85,
     "days_span": 5,
-    "stars_per_day": 20.0,
-    "lifetime_stars_per_day": 79.49,
+    "stars_per_day": 17.0,
+    "lifetime_stars_per_day": 79.01,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -190,11 +190,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:53:51+00:00",
+  "fetched_at": "2026-10-31T10:25:34+00:00",
   "categories": [
     "desktop-ui-2",
     "mobile-remote-control",
-    "teams-isolation"
+    "model-routing"
   ],
   "primary_category": "mobile-remote-control",
   "lifecycle": {

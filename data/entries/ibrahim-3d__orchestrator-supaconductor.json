@@ -6,7 +6,7 @@
   "url": "https://github.com/Ibrahim-3d/orchestrator-supaconductor",
   "description": "Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills",
   "homepage": "",
-  "stars": 380,
+  "stars": 381,
   "forks": 37,
   "open_issues": 2,
   "language": "Python",
@@ -23,27 +23,27 @@
     "superpowers"
   ],
   "created_at": "2026-02-17T16:01:09Z",
-  "updated_at": "2026-10-28T13:48:29Z",
+  "updated_at": "2026-10-30T15:55:52Z",
   "pushed_at": "2026-09-27T19:18:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 254,
-  "days_since_push": 32,
+  "age_days": 255,
+  "days_since_push": 33,
   "health_score": 44,
   "health_components": {
     "popularity": 51.6,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 69.0,
     "accessibility": 28.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.49,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:01+00:00",
+  "fetched_at": "2026-10-31T10:26:43+00:00",
   "categories": [
     "desktop-ui",
     "teams-isolation"
@@ -164,14 +164,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 222.932,
-      "momentum_ratio": 1268.0,
+      "star_ratio": 222.446,
+      "momentum_ratio": 316.0,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "222.93x the stars (84,714 vs 380)",
-        "1268.00x the star velocity (63.4/day vs 0.0/day)",
+        "222.45x the stars (84,752 vs 381)",
+        "316.00x the star velocity (63.2/day vs 0.2/day)",
         "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],

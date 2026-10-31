@@ -6,9 +6,9 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 4030,
-  "forks": 318,
-  "open_issues": 5,
+  "stars": 4134,
+  "forks": 330,
+  "open_issues": 6,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-10-30T10:48:30Z",
-  "pushed_at": "2026-10-30T10:50:30Z",
+  "updated_at": "2026-10-31T10:20:04Z",
+  "pushed_at": "2026-10-31T10:16:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 56,
+  "age_days": 57,
   "days_since_push": 0,
   "health_score": 87,
   "health_components": {
-    "popularity": 72.1,
+    "popularity": 72.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1360,
+    "stars_gained": 1172,
     "days_span": 5,
-    "stars_per_day": 272.0,
-    "lifetime_stars_per_day": 71.96,
+    "stars_per_day": 234.4,
+    "lifetime_stars_per_day": 72.53,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kajisho5/ffmpeg-skill",
-    "readme_chars": 97204,
+    "readme_chars": 102379,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -69,16 +69,18 @@
       "agent-runtime",
       "mcp-support",
       "security-isolation",
+      "voice-input",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "auto-failover": "It falls back to the CPU encoder — reported in the result's hw.fallback/hw.notes — only when VideoToolbox itself refuses a job (any other ffmpeg failure is reported as it happened, not retried); every result names th",
       "multi-agent-orchestration": "contract and the test suite (tests/testcontract.py,",
-      "api-gateway": "GB source is converted to BT.709, not relabelled); --normalize meets the platform's loudness in the same call (render.py turns it on by default for platform presets)",
+      "api-gateway": "-pass encode and measures it ; --preset copy --repair remuxes a damaged file (timestamps regenerated, corrupt packets dropped) and counts the errors before and after",
       "skills-plugins": "uploaded; parakeet-mlx, faster-whisper and openai-whisper download their model weights the first time they run (parakeet-mlx's default from Hugging Face).",
       "agent-runtime": "Give your coding agent a video editor.",
       "mcp-support": "Give your coding agent a video editor.",
       "security-isolation": "re recorded in diagnostics and on stderr (codes: jsonoutput.diagnosticcodes); tools that draw text name the font they drew with (fontused).",
+      "voice-input": "",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
@@ -89,6 +91,7 @@
       "agent-runtime": 1,
       "mcp-support": 22,
       "security-isolation": 1,
+      "voice-input": 1,
       "cross-agent-support": 3
     },
     "friction": {
@@ -144,7 +147,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.206
+      "external_link_ratio": 0.195
     },
     "highlights": [
       "Loudness targets. −14 LUFS / −1 dBTP for YouTube and social platforms (the loudness.py default), -I -16 --tp -1.5 for podcasts, -I -23 for broadcast. A clip measured at −40 LUFS or below is…",
@@ -161,83 +164,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:00+00:00",
+  "fetched_at": "2026-10-31T10:25:43+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "memory-mcp"
+    "memory-mcp",
+    "voice"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "voice",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "kajisho5/ffmpeg-skill",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "kajisho5/ffmpeg-skill",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "security-isolation",
-        "skills-plugins"
-      ],
-      "star_ratio": 72.705,
-      "momentum_ratio": 3.443,
-      "setup_delta": 7,
-      "dominance": 0.919,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "72.71x the stars (293,003 vs 4,030)",
-        "3.44x the star velocity (936.4/day vs 272.0/day)",
-        "slightly heavier setup (+7 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 87,
-        "challenger_health": 89,
-        "incumbent_setup_score": 50,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

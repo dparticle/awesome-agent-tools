@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 588 |
-| Star velocity | 1.4/day (history basis, 5d span) |
+| Stars | 594 |
+| Star velocity | 2.6/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-02-27 |
-| Last push | 2026-10-30 (0 days ago) |
-| Analyzed README | 37,017 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-31 (0 days ago) |
+| Analyzed README | 37,333 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Multi-agent orchestration
 
-> it continues where it left off.
+> es opens the Onboarding Session, which brings them in, groups them into Sessions, and opens a Start here page.
 
 ### Parallel execution
 
@@ -107,8 +107,8 @@ Score **65/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.4 |
-| momentum | 1.2 |
+| popularity | 55.5 |
+| momentum | 2.2 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 79.0 |

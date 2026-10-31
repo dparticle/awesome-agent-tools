@@ -6,7 +6,7 @@
   "url": "https://github.com/phuryn/pm-skills",
   "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
   "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
-  "stars": 27537,
+  "stars": 27557,
   "forks": 2852,
   "open_issues": 48,
   "language": "",
@@ -21,27 +21,27 @@
     "product-management"
   ],
   "created_at": "2026-03-01T23:33:44Z",
-  "updated_at": "2026-10-30T08:39:30Z",
+  "updated_at": "2026-10-31T09:19:20Z",
   "pushed_at": "2026-10-29T19:09:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 242,
-  "days_since_push": 0,
+  "age_days": 243,
+  "days_since_push": 1,
   "health_score": 69,
   "health_components": {
     "popularity": 88.8,
-    "momentum": 30.0,
+    "momentum": 28.8,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 180,
+    "stars_gained": 173,
     "days_span": 5,
-    "stars_per_day": 36.0,
-    "lifetime_stars_per_day": 113.79,
+    "stars_per_day": 34.6,
+    "lifetime_stars_per_day": 113.4,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:54:17+00:00",
+  "fetched_at": "2026-10-31T10:26:00+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -160,14 +160,14 @@
         "skills-plugins",
         "usage-analytics"
       ],
-      "star_ratio": 1.772,
-      "momentum_ratio": 4.706,
+      "star_ratio": 1.774,
+      "momentum_ratio": 4.888,
       "setup_delta": 3,
-      "dominance": 0.858,
+      "dominance": 0.863,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.77x the stars (48,793 vs 27,537)",
-        "4.71x the star velocity (169.4/day vs 36.0/day)",
+        "1.77x the stars (48,874 vs 27,557)",
+        "4.89x the star velocity (169.1/day vs 34.6/day)",
         "slightly heavier setup (+3 friction, within tolerance)"
       ],
       "reasons_zh": [],

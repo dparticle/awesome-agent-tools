@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 265,
-  "days_since_push": 5,
+  "age_days": 266,
+  "days_since_push": 6,
   "health_score": 45,
   "health_components": {
     "popularity": 48.0,
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-30T10:55:14+00:00",
+  "fetched_at": "2026-10-31T10:26:55+00:00",
   "categories": [
     "sharing"
   ],
