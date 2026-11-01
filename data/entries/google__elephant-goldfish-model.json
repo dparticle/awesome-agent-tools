@@ -6,9 +6,9 @@
   "url": "https://github.com/google/elephant-goldfish-model",
   "description": "Open-source skills for designing and reviewing software with AI agents",
   "homepage": "https://egm.dev",
-  "stars": 6726,
-  "forks": 413,
-  "open_issues": 62,
+  "stars": 8333,
+  "forks": 489,
+  "open_issues": 63,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -30,16 +30,16 @@
     "spec-driven-development"
   ],
   "created_at": "2026-09-13T16:31:06Z",
-  "updated_at": "2026-10-31T10:11:00Z",
+  "updated_at": "2026-11-01T11:16:32Z",
   "pushed_at": "2026-10-30T09:33:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 47,
-  "days_since_push": 1,
+  "age_days": 48,
+  "days_since_push": 2,
   "health_score": 81,
   "health_components": {
-    "popularity": 76.6,
+    "popularity": 78.4,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 42.0,
@@ -47,10 +47,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 6726,
-    "days_span": 47,
-    "stars_per_day": 143.11,
-    "lifetime_stars_per_day": 143.11,
+    "stars_gained": 8333,
+    "days_span": 48,
+    "stars_per_day": 173.6,
+    "lifetime_stars_per_day": 173.6,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -124,71 +124,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:25:39+00:00",
+  "fetched_at": "2026-11-01T11:17:59+00:00",
   "categories": [
     "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "google/elephant-goldfish-model",
-      "challenger": "sickn33/agentic-awesome-skills",
-      "incumbent_name": "google/elephant-goldfish-model",
-      "challenger_name": "sickn33/agentic-awesome-skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "multi-agent-orchestration",
-        "notifications"
-      ],
-      "star_ratio": 7.266,
-      "momentum_ratio": 1.182,
-      "setup_delta": 0,
-      "dominance": 0.821,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "7.27x the stars (48,874 vs 6,726)",
-        "1.18x the star velocity (169.1/day vs 143.1/day)",
-        "no harder to set up (30 vs 30 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "multi-agent-orchestration",
-          "notifications"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
-        ],
-        "incumbent_health": 81,
-        "challenger_health": 92,
-        "incumbent_setup_score": 30,
-        "challenger_setup_score": 30
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

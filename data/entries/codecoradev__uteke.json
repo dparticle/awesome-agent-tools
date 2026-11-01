@@ -6,9 +6,9 @@
   "url": "https://github.com/codecoradev/uteke",
   "description": "Long-term memory for any AI agent. One Rust binary, offline, 98.2% recall@5 on LongMemEval-S. Self-host free or use Uteke Cloud.",
   "homepage": "https://uteke.app",
-  "stars": 280,
+  "stars": 281,
   "forks": 31,
-  "open_issues": 16,
+  "open_issues": 9,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,84 +34,82 @@
     "vector-database"
   ],
   "created_at": "2026-05-29T00:27:31Z",
-  "updated_at": "2026-10-31T10:07:48Z",
-  "pushed_at": "2026-10-30T09:43:10Z",
+  "updated_at": "2026-11-01T10:26:51Z",
+  "pushed_at": "2026-11-01T10:26:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 155,
-  "days_since_push": 1,
-  "health_score": 54,
+  "age_days": 156,
+  "days_since_push": 0,
+  "health_score": 51,
   "health_components": {
-    "popularity": 48.9,
+    "popularity": 49.0,
     "momentum": 1.5,
     "maintenance": 100.0,
-    "documentation": 63.0,
-    "accessibility": 78.0
+    "documentation": 61.0,
+    "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 280,
-    "days_span": 155,
-    "stars_per_day": 1.81,
-    "lifetime_stars_per_day": 1.81,
+    "stars_gained": 281,
+    "days_span": 156,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 1.8,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "codecoradev/uteke",
-    "readme_chars": 22277,
+    "readme_chars": 24126,
     "capabilities": [
       "multi-agent-orchestration",
-      "model-routing",
       "memory-context",
       "mcp-support",
       "self-hosted",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "(default): single binary, zero infrastructure.",
-      "model-routing": "al quality ✅ Full (identical engine) ✅ Identical (parity-benchmarked)",
-      "memory-context": "so built in: uteke bench --counts 100,1000,10000 for latency/throughput on",
-      "mcp-support": "(no Python runtime), native time-travel (vs temporal triples), rooms, and zero runtime dependencies.",
-      "self-hosted": "d) require cloud API keys (OpenAI/LLM) and external infrastructure (Docker, Postgres, Qdrant).",
-      "cross-agent-support": "Mentions Claude Code, Copilot, Cursor"
+      "multi-agent-orchestration": "rged by Reciprocal Rank Fusion (RRF).",
+      "memory-context": "**Docker / server mode**: for teams or remote agents.",
+      "mcp-support": "**One binary.** No Python, no Docker, no vector database, no API key.",
+      "self-hosted": "Windows (PowerShell)** powershell -ExecutionPolicy Bypass -Command \"irm https://raw.githubusercontent.com/codecoradev/uteke/main/install.ps1 \\ iex\"",
+      "cross-agent-support": "Mentions Claude Code, Cursor"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 3,
-      "model-routing": 1,
-      "memory-context": 5,
-      "mcp-support": 9,
-      "self-hosted": 1,
-      "cross-agent-support": 3
+      "multi-agent-orchestration": 1,
+      "memory-context": 4,
+      "mcp-support": 1,
+      "self-hosted": 2,
+      "cross-agent-support": 2
     },
     "friction": {
-      "level": "low",
-      "score": 22,
+      "level": "moderate",
+      "score": 37,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "Homebrew install",
-        "cargo install",
-        "PowerShell irm | iex installer"
+        "cargo install"
       ],
       "hard_signals": [
         "docker run",
         "cargo build"
       ],
       "config_signals": [
+        "sign-in required",
         "database dependency"
       ],
       "friendliness_signals": [],
       "platforms": [
         "macOS",
         "Windows",
-        "Linux"
+        "Linux",
+        "Web"
       ],
-      "note_en": "Easy. install via Homebrew install, cargo install; needs docker run, cargo build; configure database dependency",
-      "note_zh": "较易上手。可通过 Homebrew install、cargo install 安装；需要 docker run、cargo build；需配置 database dependency"
+      "note_en": "Some setup. install via Homebrew install, cargo install; needs docker run, cargo build; configure sign-in required, database dependency",
+      "note_zh": "需要一些配置。可通过 Homebrew install、cargo install 安装；需要 docker run、cargo build；需配置 sign-in required、database dependency"
     },
-    "doc_score": 63,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -121,17 +119,15 @@
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
-      "publishes a roadmap",
       "reports benchmarks",
       "explains architecture",
       "long, detailed README"
     ],
     "agents": [
       "Claude Code",
-      "Cursor",
-      "Copilot"
+      "Cursor"
     ],
-    "summary_en": "Give your AI a memory that never leaves your machine.",
+    "summary_en": "One Rust binary, runs offline, no API key.",
     "summary_zh": "",
     "install_hint": "curl -sSL codecora.dev/uteke/install | sh",
     "source": "raw:HEAD/README.md",
@@ -139,10 +135,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.09
+      "external_link_ratio": 0.332
     },
     "highlights": [
-      "RRF (k=60): merges both ranked lists → best of both worlds"
+      "Fusion merges the vector ranking (weight 1.7) with the hybrid ranking (weight 1), then adds small salience and recency boosts.",
+      "Verifiable recall. 98.2% recall@5 on LongMemEval-S, with the stricter numbers shown next to it and the raw outputs in this repo.",
+      "One binary. No Python, no Docker, no vector database, no API key. The embedding model (~200 MB) downloads once.",
+      "Fast and cheap to query. ~45 ms warm recall, 0 LLM tokens per query, CPU only."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -153,16 +152,75 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:53+00:00",
+  "fetched_at": "2026-11-01T11:19:36+00:00",
   "categories": [
-    "failover"
+    "analytics",
+    "desktop-ui-2"
   ],
-  "primary_category": "failover",
+  "primary_category": "analytics",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "codecoradev/uteke",
+      "challenger": "tencentcloud/octop",
+      "incumbent_name": "codecoradev/uteke",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "self-hosted"
+      ],
+      "star_ratio": 40.601,
+      "momentum_ratio": 27.111,
+      "setup_delta": -5,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "40.60x the stars (11,409 vs 281)",
+        "27.11x the star velocity (48.8/day vs 1.8/day)",
+        "no harder to set up (32 vs 37 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 73,
+        "incumbent_setup_score": 37,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

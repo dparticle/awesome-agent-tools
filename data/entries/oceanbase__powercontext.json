@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1462,
-  "forks": 551,
-  "open_issues": 131,
+  "stars": 1481,
+  "forks": 558,
+  "open_issues": 118,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,27 +29,27 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-10-31T10:22:19Z",
-  "pushed_at": "2026-10-31T06:02:10Z",
+  "updated_at": "2026-11-01T09:48:50Z",
+  "pushed_at": "2026-11-01T09:23:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 355,
+  "age_days": 356,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
-    "popularity": 63.3,
-    "momentum": 3.4,
+    "popularity": 63.4,
+    "momentum": 3.5,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1462,
-    "days_span": 355,
-    "stars_per_day": 4.12,
-    "lifetime_stars_per_day": 4.12,
+    "stars_gained": 1481,
+    "days_span": 356,
+    "stars_per_day": 4.16,
+    "lifetime_stars_per_day": 4.16,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:12+00:00",
+  "fetched_at": "2026-11-01T11:18:45+00:00",
   "categories": [
     "failover"
   ],
@@ -174,14 +174,14 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 12.194,
-      "momentum_ratio": 103.301,
+      "star_ratio": 12.519,
+      "momentum_ratio": 75.769,
       "setup_delta": -30,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "12.19x the stars (17,827 vs 1,462)",
-        "103.30x the star velocity (425.6/day vs 4.1/day)",
+        "12.52x the stars (18,540 vs 1,481)",
+        "75.77x the star velocity (315.2/day vs 4.2/day)",
         "no harder to set up (33 vs 63 friction)"
       ],
       "reasons_zh": [],

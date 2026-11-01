@@ -6,9 +6,9 @@
   "url": "https://github.com/newsnowlabs/dockside",
   "description": "Create dev containers that mirror your prod environment and sandbox your Claude/Codex CLIs. Develop with VS Code/Jet Brains, via SSH with e.g. Vim or VS Code in your browser. Unlimited staging for co-workers and clients. Dockside is an open source 'Codespaces' that runs on local machine, on prem, or in cloud",
   "homepage": "https://dockside.io/",
-  "stars": 321,
+  "stars": 320,
   "forks": 25,
-  "open_issues": 14,
+  "open_issues": 15,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -22,33 +22,33 @@
     "web-ide"
   ],
   "created_at": "2021-09-12T13:23:51Z",
-  "updated_at": "2026-10-30T00:35:18Z",
-  "pushed_at": "2026-10-21T17:37:45Z",
+  "updated_at": "2026-10-31T16:20:11Z",
+  "pushed_at": "2026-10-31T18:50:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1874,
-  "days_since_push": 9,
-  "health_score": 47,
+  "age_days": 1875,
+  "days_since_push": 0,
+  "health_score": 48,
   "health_components": {
     "popularity": 50.1,
-    "momentum": 0.2,
-    "maintenance": 92.0,
+    "momentum": 0.0,
+    "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 35.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 0.17,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "newsnowlabs/dockside",
-    "readme_chars": 26510,
+    "readme_chars": 25646,
     "capabilities": [
       "remote-control",
       "parallel-execution",
@@ -64,7 +64,7 @@
       "worktree-isolation": "are development containers in the general sense.",
       "agent-runtime": "",
       "self-hosted": "d Dockside enforces the rules — without requiring elevated container capabilities or weakening isolation.",
-      "team-collaboration": "- Users and Roles: manage team members and roles through the Admin UI (/admin/users, /admin/roles, requires manageUsers) or the dockside user / dockside role CLI — assign a role (admin or a custom role) to control what…",
+      "team-collaboration": "- **Users and Roles**: manage team members and roles through the **Admin UI** (/admin/users, /admin/roles, requires manageUsers) or the dockside user / dockside role CLI — assign a role (admin or a custom role) to contr…",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot"
     },
     "capability_hits": {
@@ -131,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.396
+      "external_link_ratio": 1.443
     },
     "highlights": [
       "AI-ready devcontainers: Claude Code, OpenAI Codex, GitHub Copilot and other AI tools and CLIs run natively inside every devcontainer's integrated IDE.",
@@ -148,8 +148,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:48+00:00",
+  "fetched_at": "2026-11-01T11:19:29+00:00",
   "categories": [
+    "analytics",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",

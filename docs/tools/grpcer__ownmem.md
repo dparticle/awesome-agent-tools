@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 425 |
-| Star velocity | 0.1/day (history basis, 18d span) |
+| Star velocity | 0.1/day (history basis, 19d span) |
 | Health score | 55/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-08-16 |
-| Last push | 2026-10-14 (17 days ago) |
+| Last push | 2026-10-14 (18 days ago) |
 | Analyzed README | 14,672 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).
 
 ## What it solves
 

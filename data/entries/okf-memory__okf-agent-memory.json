@@ -37,12 +37,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 55,
-  "days_since_push": 1,
+  "age_days": 56,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
     "popularity": 58.5,
-    "momentum": 1.2,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 55.0
@@ -50,9 +50,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 7,
-    "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 15.38,
+    "days_span": 6,
+    "stars_per_day": 1.17,
+    "lifetime_stars_per_day": 15.11,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,17 +146,70 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:24+00:00",
+  "fetched_at": "2026-11-01T11:18:59+00:00",
   "categories": [
     "desktop-ui",
+    "desktop-ui-2",
     "failover"
   ],
   "primary_category": "failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "huytieu/COG-second-brain",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "okf-memory/okf-agent-memory",
+      "challenger": "huytieu/cog-second-brain",
+      "incumbent_name": "okf-memory/okf-agent-memory",
+      "challenger_name": "huytieu/COG-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration"
+      ],
+      "star_ratio": 1.573,
+      "momentum_ratio": 1.368,
+      "setup_delta": -14,
+      "dominance": 0.692,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "1.57x the stars (1,331 vs 846)",
+        "1.37x the star velocity (1.6/day vs 1.2/day)",
+        "no harder to set up (31 vs 45 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 54,
+        "challenger_health": 56,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 31
+      }
+    }
   }
 }

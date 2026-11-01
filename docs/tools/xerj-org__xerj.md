@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 17,827 |
-| Star velocity | 425.6/day (history basis, 5d span) |
+| Stars | 18,540 |
+| Star velocity | 315.2/day (history basis, 5d span) |
 | Health score | 87/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 43,579 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 43,606 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### MCP support
 
-> ith Claude Code, Cursor and any MCP client.
+> de Code, Cursor and any MCP client.
 
 ### GUI / desktop app
 
@@ -82,7 +82,7 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 85.0 |
+| popularity | 85.4 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 68.0 |

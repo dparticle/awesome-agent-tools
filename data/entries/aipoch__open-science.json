@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5405,
-  "forks": 543,
-  "open_issues": 42,
+  "stars": 5412,
+  "forks": 544,
+  "open_issues": 43,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-10-31T09:28:59Z",
-  "pushed_at": "2026-10-31T09:38:14Z",
+  "updated_at": "2026-11-01T07:28:37Z",
+  "pushed_at": "2026-11-01T10:33:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
+  "age_days": 121,
   "days_since_push": 0,
   "health_score": 63,
   "health_components": {
     "popularity": 74.7,
-    "momentum": 6.2,
+    "momentum": 5.2,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 59.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 37,
+    "stars_gained": 31,
     "days_span": 5,
-    "stars_per_day": 7.4,
-    "lifetime_stars_per_day": 45.04,
+    "stars_per_day": 6.2,
+    "lifetime_stars_per_day": 44.73,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -169,7 +169,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:25:41+00:00",
+  "fetched_at": "2026-11-01T11:18:03+00:00",
   "categories": [
     "desktop-ui-2",
     "memory-mcp",

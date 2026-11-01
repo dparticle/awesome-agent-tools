@@ -6,7 +6,7 @@
   "url": "https://github.com/Leonxlnx/earshot",
   "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
   "homepage": "",
-  "stars": 3347,
+  "stars": 3407,
   "forks": 214,
   "open_issues": 14,
   "language": "Python",
@@ -19,27 +19,27 @@
     "sound-design"
   ],
   "created_at": "2026-10-15T06:52:46Z",
-  "updated_at": "2026-10-31T10:13:21Z",
+  "updated_at": "2026-11-01T10:51:45Z",
   "pushed_at": "2026-10-22T23:12:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 16,
-  "days_since_push": 8,
-  "health_score": 73,
+  "age_days": 17,
+  "days_since_push": 9,
+  "health_score": 72,
   "health_components": {
-    "popularity": 70.5,
-    "momentum": 85.0,
+    "popularity": 70.6,
+    "momentum": 79.2,
     "maintenance": 92.0,
     "documentation": 57.0,
     "accessibility": 48.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 510,
-    "days_span": 5,
-    "stars_per_day": 102.0,
-    "lifetime_stars_per_day": 209.19,
+    "stars_gained": 570,
+    "days_span": 6,
+    "stars_per_day": 95.0,
+    "lifetime_stars_per_day": 200.41,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -128,17 +128,71 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:25:45+00:00",
+  "fetched_at": "2026-11-01T11:18:09+00:00",
   "categories": [
-    "desktop-ui",
-    "memory-mcp"
+    "desktop-ui"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "leonxlnx/earshot",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "Leonxlnx/earshot",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "mcp-support",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 14.367,
+      "momentum_ratio": 1.777,
+      "setup_delta": -22,
+      "dominance": 0.871,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "14.37x the stars (48,950 vs 3,407)",
+        "1.78x the star velocity (168.8/day vs 95.0/day)",
+        "no harder to set up (30 vs 52 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "mcp-support",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 72,
+        "challenger_health": 92,
+        "incumbent_setup_score": 52,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,588 |
-| Star velocity | 10.2/day (history basis, 5d span) |
-| Health score | 58/100 |
+| Stars | 15,596 |
+| Star velocity | 10.0/day (history basis, 5d span) |
+| Health score | 57/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-29 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 12,764 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 12,791 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).
 
 ## What it solves
 
@@ -50,7 +52,7 @@
 
 ### GUI / desktop app
 
-> is an optional in-process plugin that core starts
+> ests need one too: DATABASEURL= npm test creates a
 
 ### Notifications
 
@@ -90,7 +92,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.9 |
-| momentum | 8.5 |
+| momentum | 8.3 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 28.0 |

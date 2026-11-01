@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "full_name": "zenstory-ai/drama-skills",
+  "name": "drama-skills",
+  "owner": "zenstory-ai",
+  "url": "https://github.com/zenstory-ai/drama-skills",
+  "description": "开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama / micro-drama skills for Claude Code & Codex: script, assets, storyboard, image & video prompts, review. MIT.",
+  "homepage": "https://zenstory.ai/drama-skills",
+  "stars": 3608,
+  "forks": 669,
+  "open_issues": 1,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-short-drama",
+    "ai-video",
+    "aigc",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "comic-drama",
+    "micro-drama",
+    "prompt-engineering",
+    "screenwriting",
+    "script-generation",
+    "short-drama",
+    "storyboard",
+    "storyboarding",
+    "video-prompts",
+    "zenstory"
+  ],
+  "created_at": "2026-07-16T16:11:19Z",
+  "updated_at": "2026-11-01T10:01:36Z",
+  "pushed_at": "2026-11-01T07:47:57Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 107,
+  "days_since_push": 0,
+  "health_score": 65,
+  "health_components": {
+    "popularity": 71.1,
+    "momentum": 28.1,
+    "maintenance": 100.0,
+    "documentation": 59.0,
+    "accessibility": 75.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3608,
+    "days_span": 107,
+    "stars_per_day": 33.72,
+    "lifetime_stars_per_day": 33.72,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "zenstory-ai/drama-skills",
+    "readme_chars": 15024,
+    "capabilities": [
+      "billing-metering",
+      "agent-runtime",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "billing-metering": "",
+      "agent-runtime": "/user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e",
+      "self-hosted": "",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "billing-metering": 1,
+      "agent-runtime": 3,
+      "self-hosted": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source)",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "documents changes"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "上面这段 68 秒竖屏样片是《让你管账号》第 1 集开头：从一部 20 章的原著改编，分镜 20 镜，逐镜生成后剪成成片， 字幕、系统面板与音效在剪辑时叠加。视频生成成本约 40 元。",
+    "summary_zh": "",
+    "install_hint": "npx skills add zenstory-ai/drama-skills -y -g",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 1.065
+    },
+    "highlights": [
+      "Seedance 提示词怎么写：起点、动作顺序、终点，以及 2.5 与 2.0 的写法差别。",
+      "连续性锁：LOCK-JIANGCHEN-DRESS《江晨松枝绿常服》（镜头：SHOT-EP001-002、SHOT-EP001-003、SHOT-EP001-007、……；",
+      "An open-source AI short-drama pipeline：英文读者的分阶段说明。",
+      "GitHub Issues：Bug、输出质量 Case、功能请求，请按结构化表单附上复现材料或具体输出。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-01T11:18:08+00:00",
+  "categories": [
+    "analytics",
+    "billing"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

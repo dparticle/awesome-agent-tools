@@ -29,22 +29,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 377,
-  "days_since_push": 45,
+  "age_days": 378,
+  "days_since_push": 46,
   "health_score": 52,
   "health_components": {
     "popularity": 67.6,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 78.0,
     "documentation": 42.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 6.4,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 6.38,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,11 +131,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:08+00:00",
+  "fetched_at": "2026-11-01T11:18:40+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "failover"
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

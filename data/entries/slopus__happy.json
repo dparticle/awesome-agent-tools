@@ -6,9 +6,9 @@
   "url": "https://github.com/slopus/happy",
   "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
   "homepage": "https://happy.engineering/",
-  "stars": 24430,
+  "stars": 24441,
   "forks": 2099,
-  "open_issues": 1093,
+  "open_issues": 1095,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -23,27 +23,27 @@
     "hacktoberfest"
   ],
   "created_at": "2025-07-18T05:53:18Z",
-  "updated_at": "2026-10-31T08:23:19Z",
-  "pushed_at": "2026-10-31T06:48:00Z",
+  "updated_at": "2026-11-01T10:36:29Z",
+  "pushed_at": "2026-11-01T10:31:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 470,
+  "age_days": 471,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 87.8,
-    "momentum": 18.0,
+    "momentum": 17.0,
     "maintenance": 100.0,
     "documentation": 29.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 108,
+    "stars_gained": 102,
     "days_span": 5,
-    "stars_per_day": 21.6,
-    "lifetime_stars_per_day": 51.98,
+    "stars_per_day": 20.4,
+    "lifetime_stars_per_day": 51.89,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -143,8 +143,9 @@
     "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-10-31T10:25:24+00:00",
+  "fetched_at": "2026-11-01T11:17:45+00:00",
   "categories": [
+    "desktop-ui-2",
     "mobile-remote-control"
   ],
   "primary_category": "mobile-remote-control",

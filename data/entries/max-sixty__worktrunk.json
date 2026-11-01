@@ -6,9 +6,9 @@
   "url": "https://github.com/max-sixty/worktrunk",
   "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
   "homepage": "https://worktrunk.dev",
-  "stars": 9585,
-  "forks": 342,
-  "open_issues": 62,
+  "stars": 9737,
+  "forks": 347,
+  "open_issues": 58,
   "language": "Rust",
   "license": "NOASSERTION",
   "topics": [
@@ -20,33 +20,33 @@
     "worktrees"
   ],
   "created_at": "2025-10-17T22:13:14Z",
-  "updated_at": "2026-10-31T10:22:38Z",
-  "pushed_at": "2026-10-31T06:26:33Z",
+  "updated_at": "2026-11-01T10:57:16Z",
+  "pushed_at": "2026-11-01T06:27:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 378,
+  "age_days": 379,
   "days_since_push": 0,
-  "health_score": 67,
+  "health_score": 72,
   "health_components": {
-    "popularity": 79.6,
-    "momentum": 17.0,
+    "popularity": 79.8,
+    "momentum": 36.8,
     "maintenance": 100.0,
-    "documentation": 55.0,
+    "documentation": 54.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 102,
+    "stars_gained": 221,
     "days_span": 5,
-    "stars_per_day": 20.4,
-    "lifetime_stars_per_day": 25.36,
+    "stars_per_day": 44.2,
+    "lifetime_stars_per_day": 25.69,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "max-sixty/worktrunk",
-    "readme_chars": 15143,
+    "readme_chars": 14937,
     "capabilities": [
       "parallel-execution",
       "worktree-isolation",
@@ -83,7 +83,7 @@
       "note_en": "Turnkey. install via Homebrew install, winget install",
       "note_zh": "开箱即用。可通过 Homebrew install、winget install 安装"
     },
-    "doc_score": 55,
+    "doc_score": 54,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -108,7 +108,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 3.17
+      "external_link_ratio": 3.213
     },
     "highlights": [
       "PR checkout — wt switch pr:123 to jump straight to a PR's branch",
@@ -123,7 +123,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:01+00:00",
+  "fetched_at": "2026-11-01T11:18:30+00:00",
   "categories": [
     "teams-isolation"
   ],

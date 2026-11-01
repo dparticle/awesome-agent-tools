@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 676 |
-| Star velocity | 3.0/day (history basis, 5d span) |
+| Stars | 678 |
+| Star velocity | 2.8/day (history basis, 6d span) |
 | Health score | 51/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
@@ -22,7 +22,7 @@
 | Language | Go |
 | Created | 2026-02-20 |
 | Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 28,911 chars from `raw:HEAD/README.md` |
+| Analyzed README | 29,834 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Memory & context
 
-> o approve the installed shell
+> so this target is user-global
 
 ### Skills & plugins
 
@@ -84,7 +84,7 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 56.6 |
-| momentum | 2.5 |
+| momentum | 2.4 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 36.0 |

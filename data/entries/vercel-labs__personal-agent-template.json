@@ -28,22 +28,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 141,
-  "days_since_push": 0,
+  "age_days": 142,
+  "days_since_push": 1,
   "health_score": 46,
   "health_components": {
     "popularity": 53.6,
-    "momentum": 0.8,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 50.0,
     "accessibility": 22.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 3.41,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 3.39,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -129,11 +129,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:36+00:00",
+  "fetched_at": "2026-11-01T11:19:14+00:00",
   "categories": [
     "analytics",
-    "desktop-ui-2",
-    "failover"
+    "desktop-ui-2"
   ],
   "primary_category": "analytics",
   "lifecycle": {
@@ -158,14 +157,14 @@
         "notifications",
         "self-hosted"
       ],
-      "star_ratio": 610.486,
-      "momentum_ratio": 896.8,
+      "star_ratio": 611.996,
+      "momentum_ratio": 2070.5,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "610.49x the stars (293,644 vs 481)",
-        "896.80x the star velocity (896.8/day vs 1.0/day)",
+        "612.00x the stars (294,370 vs 481)",
+        "2070.50x the star velocity (828.2/day vs 0.4/day)",
         "no harder to set up (57 vs 78 friction)"
       ],
       "reasons_zh": [],

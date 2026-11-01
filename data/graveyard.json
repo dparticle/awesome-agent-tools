@@ -1,12 +1,32 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-31T10:26:57+00:00",
-  "count": 50,
+  "generated_at": "2026-11-01T11:19:44+00:00",
+  "count": 57,
   "tools": {
+    "google/artemis": {
+      "full_name": "google/artemis",
+      "category": "mobile-remote-control",
+      "stars": 15988,
+      "state": "superseded",
+      "superseded_by": "msitarzewski/agency-agents",
+      "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
+      "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
+      "last_push": "2026-10-01T21:37:15Z"
+    },
+    "yc-software/qm": {
+      "full_name": "yc-software/qm",
+      "category": "teams-isolation",
+      "stars": 15596,
+      "state": "superseded",
+      "superseded_by": "paperclipai/paperclip",
+      "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).",
+      "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (10/10)。",
+      "last_push": "2026-11-01T05:40:13Z"
+    },
     "tigerless-labs/autoharness": {
       "full_name": "tigerless-labs/autoharness",
       "category": "desktop-ui",
-      "stars": 10530,
+      "stars": 10578,
       "state": "superseded",
       "superseded_by": "sickn33/agentic-awesome-skills",
       "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
@@ -16,67 +36,87 @@
     "copilotkit/openbot": {
       "full_name": "CopilotKit/OpenBot",
       "category": "analytics",
-      "stars": 9019,
+      "stars": 9212,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
       "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).",
       "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (7/7)。",
-      "last_push": "2026-10-30T22:06:51Z"
+      "last_push": "2026-10-31T23:52:00Z"
     },
     "internet-court/internet-court-skill": {
       "full_name": "internet-court/internet-court-skill",
       "category": "desktop-ui",
-      "stars": 7044,
+      "stars": 7047,
       "state": "superseded",
       "superseded_by": "sickn33/agentic-awesome-skills",
       "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
       "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
       "last_push": "2026-10-26T12:55:11Z"
     },
-    "google/elephant-goldfish-model": {
-      "full_name": "google/elephant-goldfish-model",
-      "category": "desktop-ui",
-      "stars": 6726,
-      "state": "superseded",
-      "superseded_by": "sickn33/agentic-awesome-skills",
-      "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
-      "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
-      "last_push": "2026-10-30T09:33:24Z"
-    },
     "oomol-lab/open-connector": {
       "full_name": "oomol-lab/open-connector",
       "category": "analytics",
-      "stars": 6146,
+      "stars": 6156,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
       "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
       "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (4/4)。",
-      "last_push": "2026-10-31T03:13:30Z"
+      "last_push": "2026-11-01T03:16:19Z"
     },
-    "waishnav/devspace": {
-      "full_name": "Waishnav/devspace",
-      "category": "teams-isolation",
-      "stars": 5331,
+    "tigerless-labs/cost-xray": {
+      "full_name": "tigerless-labs/cost-xray",
+      "category": "mobile-remote-control",
+      "stars": 5825,
       "state": "superseded",
       "superseded_by": "getpaseo/paseo",
-      "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).",
-      "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (7/7)。",
-      "last_push": "2026-10-30T14:06:42Z"
+      "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).",
+      "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (5/5)。",
+      "last_push": "2026-10-30T16:06:14Z"
+    },
+    "leonxlnx/earshot": {
+      "full_name": "Leonxlnx/earshot",
+      "category": "desktop-ui",
+      "stars": 3407,
+      "state": "superseded",
+      "superseded_by": "sickn33/agentic-awesome-skills",
+      "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+      "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+      "last_push": "2026-10-22T23:12:59Z"
     },
     "phuryn/pm-skills": {
       "full_name": "phuryn/pm-skills",
       "category": "desktop-ui",
-      "stars": 27557,
+      "stars": 27587,
       "state": "superseded",
       "superseded_by": "sickn33/agentic-awesome-skills",
       "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
       "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
       "last_push": "2026-10-29T19:09:57Z"
     },
+    "breferrari/obsidian-mind": {
+      "full_name": "breferrari/obsidian-mind",
+      "category": "failover",
+      "stars": 5466,
+      "state": "superseded",
+      "superseded_by": "DeusData/codebase-memory-mcp",
+      "note_en": "Superseded by DeusData/codebase-memory-mcp: covers 100% of capabilities (7/7).",
+      "note_zh": "已被 DeusData/codebase-memory-mcp 取代：covers 100% of capabilities (7/7)。",
+      "last_push": "2026-10-17T23:34:40Z"
+    },
+    "callstack/agent-device": {
+      "full_name": "callstack/agent-device",
+      "category": "mobile-remote-control",
+      "stars": 5220,
+      "state": "superseded",
+      "superseded_by": "getpaseo/paseo",
+      "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (9/9).",
+      "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (9/9)。",
+      "last_push": "2026-11-01T11:15:37Z"
+    },
     "darrenhinde/openagentscontrol": {
       "full_name": "darrenhinde/OpenAgentsControl",
       "category": "teams-isolation",
-      "stars": 4964,
+      "stars": 4966,
       "state": "superseded",
       "superseded_by": "paperclipai/paperclip",
       "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).",
@@ -96,17 +136,17 @@
     "davepoon/buildwithclaude": {
       "full_name": "davepoon/buildwithclaude",
       "category": "desktop-ui",
-      "stars": 3702,
+      "stars": 3704,
       "state": "superseded",
       "superseded_by": "sickn33/agentic-awesome-skills",
       "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
       "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
-      "last_push": "2026-10-31T00:49:36Z"
+      "last_push": "2026-11-01T09:24:32Z"
     },
     "zilliztech/memsearch": {
       "full_name": "zilliztech/memsearch",
-      "category": "teams",
-      "stars": 2812,
+      "category": "analytics",
+      "stars": 2814,
       "state": "superseded",
       "superseded_by": "TencentCloud/Octop",
       "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
@@ -116,47 +156,47 @@
     "draculabo/antigravitymanager": {
       "full_name": "Draculabo/AntigravityManager",
       "category": "sharing",
-      "stars": 2420,
+      "stars": 2425,
       "state": "superseded",
       "superseded_by": "jlcodes99/cockpit-tools",
       "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (8/8).",
       "note_zh": "已被 jlcodes99/cockpit-tools 取代：covers 100% of capabilities (8/8)。",
-      "last_push": "2026-10-31T07:59:15Z"
+      "last_push": "2026-11-01T06:45:37Z"
     },
     "future-agi/future-agi": {
       "full_name": "future-agi/future-agi",
       "category": "analytics",
-      "stars": 2231,
+      "stars": 2234,
       "state": "superseded",
-      "superseded_by": "rohitg00/agentmemory",
-      "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).",
-      "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (6/6)。",
-      "last_push": "2026-10-31T10:16:01Z"
+      "superseded_by": "TencentCloud/Octop",
+      "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
+      "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
+      "last_push": "2026-11-01T11:02:33Z"
     },
     "memtensor/memmy-agent": {
       "full_name": "MemTensor/memmy-agent",
-      "category": "teams",
-      "stars": 2167,
+      "category": "analytics",
+      "stars": 2168,
       "state": "superseded",
       "superseded_by": "TencentCloud/Octop",
       "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
       "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (7/7)。",
-      "last_push": "2026-10-31T02:29:14Z"
+      "last_push": "2026-11-01T05:43:43Z"
     },
     "oceanbase/powercontext": {
       "full_name": "oceanbase/powercontext",
       "category": "failover",
-      "stars": 1462,
+      "stars": 1481,
       "state": "superseded",
       "superseded_by": "xerj-org/xerj",
       "note_en": "Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).",
       "note_zh": "已被 xerj-org/xerj 取代：covers 100% of capabilities (4/4)。",
-      "last_push": "2026-10-31T06:02:10Z"
+      "last_push": "2026-11-01T09:23:11Z"
     },
     "michaelshimeles/rstack": {
       "full_name": "michaelshimeles/rstack",
       "category": "teams-isolation",
-      "stars": 1414,
+      "stars": 1422,
       "state": "superseded",
       "superseded_by": "iOfficeAI/AionUi",
       "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
@@ -172,26 +212,6 @@
       "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
       "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
       "last_push": "2026-08-21T18:25:36Z"
-    },
-    "huytieu/cog-second-brain": {
-      "full_name": "huytieu/COG-second-brain",
-      "category": "teams",
-      "stars": 1329,
-      "state": "superseded",
-      "superseded_by": "TencentCloud/Octop",
-      "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (9/9).",
-      "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (9/9)。",
-      "last_push": "2026-10-23T02:52:56Z"
-    },
-    "fatwang2/search2ai": {
-      "full_name": "fatwang2/search2ai",
-      "category": "analytics",
-      "stars": 1285,
-      "state": "superseded",
-      "superseded_by": "affaan-m/ECC",
-      "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
-      "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
-      "last_push": "2026-10-22T16:34:05Z"
     },
     "routatic/proxy": {
       "full_name": "routatic/proxy",
@@ -213,6 +233,16 @@
       "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
       "last_push": "2026-10-30T14:39:11Z"
     },
+    "okf-memory/okf-agent-memory": {
+      "full_name": "okf-memory/okf-agent-memory",
+      "category": "failover",
+      "stars": 846,
+      "state": "superseded",
+      "superseded_by": "huytieu/COG-second-brain",
+      "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
+      "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
+      "last_push": "2026-10-29T12:37:24Z"
+    },
     "archive228/loopkit": {
       "full_name": "Archive228/loopkit",
       "category": "desktop-ui",
@@ -226,17 +256,17 @@
     "yoanwai/agent-manager": {
       "full_name": "YoanWai/agent-manager",
       "category": "teams-isolation",
-      "stars": 627,
+      "stars": 631,
       "state": "superseded",
       "superseded_by": "iOfficeAI/AionUi",
       "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
       "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
-      "last_push": "2026-10-31T09:14:52Z"
+      "last_push": "2026-11-01T07:40:49Z"
     },
     "matrixorigin/memoria": {
       "full_name": "matrixorigin/memoria",
       "category": "analytics",
-      "stars": 620,
+      "stars": 621,
       "state": "superseded",
       "superseded_by": "affaan-m/ECC",
       "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
@@ -245,12 +275,12 @@
     },
     "rsmdt/the-startup": {
       "full_name": "rsmdt/the-startup",
-      "category": "desktop-ui",
-      "stars": 576,
+      "category": "teams-isolation",
+      "stars": 577,
       "state": "superseded",
-      "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
-      "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).",
-      "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
+      "superseded_by": "OthmanAdi/planning-with-files",
+      "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
+      "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
       "last_push": "2026-10-26T22:43:25Z"
     },
     "ndycode/codex-multi-auth": {
@@ -259,9 +289,9 @@
       "stars": 561,
       "state": "superseded",
       "superseded_by": "jlcodes99/cockpit-tools",
-      "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).",
-      "note_zh": "已被 jlcodes99/cockpit-tools 取代：covers 100% of capabilities (5/5)。",
-      "last_push": "2026-10-31T10:22:21Z"
+      "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (6/6).",
+      "note_zh": "已被 jlcodes99/cockpit-tools 取代：covers 100% of capabilities (6/6)。",
+      "last_push": "2026-10-31T11:19:05Z"
     },
     "bennykok/omg.dev": {
       "full_name": "BennyKok/omg.dev",
@@ -271,7 +301,27 @@
       "superseded_by": "omnigent-ai/omnigent",
       "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (7/7).",
       "note_zh": "已被 omnigent-ai/omnigent 取代：covers 100% of capabilities (7/7)。",
-      "last_push": "2026-10-31T04:56:42Z"
+      "last_push": "2026-11-01T11:01:09Z"
+    },
+    "leoyeai/talewell": {
+      "full_name": "LeoYeAI/talewell",
+      "category": "failover",
+      "stars": 550,
+      "state": "superseded",
+      "superseded_by": "huytieu/COG-second-brain",
+      "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
+      "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
+      "last_push": "2026-10-01T16:15:03Z"
+    },
+    "wenyuchiou/ai-research-skills": {
+      "full_name": "WenyuChiou/ai-research-skills",
+      "category": "desktop-ui",
+      "stars": 525,
+      "state": "superseded",
+      "superseded_by": "sickn33/agentic-awesome-skills",
+      "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
+      "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
+      "last_push": "2026-10-30T21:49:36Z"
     },
     "magiccube/agentara": {
       "full_name": "MagicCube/agentara",
@@ -293,10 +343,20 @@
       "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
       "last_push": "2026-10-16T21:43:10Z"
     },
+    "linxidnju/opentag": {
+      "full_name": "linxidnju/OpenTag",
+      "category": "memory-mcp",
+      "stars": 503,
+      "state": "superseded",
+      "superseded_by": "kajisho5/ffmpeg-skill",
+      "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).",
+      "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (4/4)。",
+      "last_push": "2026-07-10T06:39:50Z"
+    },
     "managedcode/dotnet-skills": {
       "full_name": "managedcode/dotnet-skills",
       "category": "desktop-ui",
-      "stars": 499,
+      "stars": 500,
       "state": "superseded",
       "superseded_by": "data-goblin/power-bi-agentic-development",
       "note_en": "Superseded by data-goblin/power-bi-agentic-development: covers 100% of capabilities (6/6).",
@@ -326,31 +386,21 @@
     "jacobaraujo7/remote_pi": {
       "full_name": "jacobaraujo7/remote_pi",
       "category": "mobile-remote-control",
-      "stars": 474,
+      "stars": 475,
       "state": "superseded",
-      "superseded_by": "omnigent-ai/omnigent",
-      "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (5/5).",
-      "note_zh": "已被 omnigent-ai/omnigent 取代：covers 100% of capabilities (5/5)。",
-      "last_push": "2026-10-29T01:12:23Z"
-    },
-    "wenyuchiou/ai-research-skills": {
-      "full_name": "WenyuChiou/ai-research-skills",
-      "category": "desktop-ui",
-      "stars": 467,
-      "state": "superseded",
-      "superseded_by": "sickn33/agentic-awesome-skills",
-      "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
-      "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
-      "last_push": "2026-10-30T21:49:36Z"
+      "superseded_by": "getpaseo/paseo",
+      "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).",
+      "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (5/5)。",
+      "last_push": "2026-10-31T13:49:24Z"
     },
     "autoloops/greplica": {
       "full_name": "Autoloops/greplica",
       "category": "analytics",
       "stars": 440,
       "state": "superseded",
-      "superseded_by": "rohitg00/agentmemory",
-      "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-      "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+      "superseded_by": "TencentCloud/Octop",
+      "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+      "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
       "last_push": "2026-07-30T06:54:42Z"
     },
     "grpcer/ownmem": {
@@ -358,15 +408,15 @@
       "category": "failover",
       "stars": 425,
       "state": "superseded",
-      "superseded_by": "xerj-org/xerj",
-      "note_en": "Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).",
-      "note_zh": "已被 xerj-org/xerj 取代：covers 100% of capabilities (4/4)。",
+      "superseded_by": "huytieu/COG-second-brain",
+      "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).",
+      "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (4/4)。",
       "last_push": "2026-10-14T05:34:01Z"
     },
     "harishkotra/agent-office": {
       "full_name": "harishkotra/agent-office",
-      "category": "teams",
-      "stars": 386,
+      "category": "analytics",
+      "stars": 389,
       "state": "superseded",
       "superseded_by": "TencentCloud/Octop",
       "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).",
@@ -386,12 +436,12 @@
     "socialpranker/deepdive": {
       "full_name": "Socialpranker/deepdive",
       "category": "desktop-ui",
-      "stars": 369,
+      "stars": 370,
       "state": "superseded",
       "superseded_by": "sickn33/agentic-awesome-skills",
       "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
       "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
-      "last_push": "2026-10-25T08:08:43Z"
+      "last_push": "2026-11-01T10:07:54Z"
     },
     "giuseppe-trisciuoglio/developer-kit": {
       "full_name": "giuseppe-trisciuoglio/developer-kit",
@@ -416,12 +466,12 @@
     "savannahfeder/agentbox": {
       "full_name": "savannahfeder/agentbox",
       "category": "teams-isolation",
-      "stars": 333,
+      "stars": 336,
       "state": "superseded",
-      "superseded_by": "getpaseo/paseo",
-      "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (6/6).",
-      "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (6/6)。",
-      "last_push": "2026-10-31T09:15:12Z"
+      "superseded_by": "iOfficeAI/AionUi",
+      "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
+      "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
+      "last_push": "2026-11-01T07:24:53Z"
     },
     "alickh/copool": {
       "full_name": "AlickH/Copool",
@@ -436,7 +486,7 @@
     "jtydhr88/comfyui-custom-node-skills": {
       "full_name": "jtydhr88/comfyui-custom-node-skills",
       "category": "desktop-ui",
-      "stars": 312,
+      "stars": 313,
       "state": "superseded",
       "superseded_by": "sickn33/agentic-awesome-skills",
       "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
@@ -473,6 +523,16 @@
       "note_zh": "已被 Gentleman-Programming/gentle-shell 取代：covers 100% of capabilities (6/6)。",
       "last_push": "2026-10-20T16:23:55Z"
     },
+    "codecoradev/uteke": {
+      "full_name": "codecoradev/uteke",
+      "category": "analytics",
+      "stars": 281,
+      "state": "superseded",
+      "superseded_by": "TencentCloud/Octop",
+      "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+      "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+      "last_push": "2026-11-01T10:26:49Z"
+    },
     "lanes-sh/app": {
       "full_name": "lanes-sh/app",
       "category": "teams-isolation",
@@ -482,6 +542,16 @@
       "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
       "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
       "last_push": "2026-10-31T10:21:41Z"
+    },
+    "cluster1900/apexo-code": {
+      "full_name": "cluster1900/apexo-code",
+      "category": "analytics",
+      "stars": 273,
+      "state": "superseded",
+      "superseded_by": "rohitg00/agentmemory",
+      "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
+      "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
+      "last_push": "2026-11-01T09:26:06Z"
     },
     "sahithvibudhi/vibe-tree": {
       "full_name": "sahithvibudhi/vibe-tree",
@@ -495,7 +565,7 @@
     },
     "kerim0x1/bettercode": {
       "full_name": "kerim0x1/bettercode",
-      "category": "teams",
+      "category": "analytics",
       "stars": 261,
       "state": "superseded",
       "superseded_by": "TencentCloud/Octop",
@@ -520,14 +590,14 @@
         "multi-account-switching",
         "quota-management"
       ],
-      "star_ratio": 59.865,
-      "momentum_ratio": 844.0,
+      "star_ratio": 59.948,
+      "momentum_ratio": 812.0,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "59.87x the stars (19,576 vs 327)",
-        "844.00x the star velocity (42.2/day vs 0.0/day)",
+        "59.95x the stars (19,603 vs 327)",
+        "812.00x the star velocity (40.6/day vs 0.0/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],
@@ -563,9 +633,9 @@
     },
     {
       "incumbent": "autoloops/greplica",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "Autoloops/greplica",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -577,14 +647,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 68.277,
-      "momentum_ratio": 145.0,
+      "star_ratio": 25.93,
+      "momentum_ratio": 287.059,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "68.28x the stars (30,042 vs 440)",
-        "145.00x the star velocity (29.0/day vs 0.2/day)",
+        "25.93x the stars (11,409 vs 440)",
+        "287.06x the star velocity (48.8/day vs 0.2/day)",
         "no harder to set up (32 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -599,24 +669,22 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
+          "parallel-execution",
           "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "worktree-isolation"
         ],
         "incumbent_health": 41,
-        "challenger_health": 71,
+        "challenger_health": 73,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 32
       }
@@ -639,14 +707,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 20.146,
-      "momentum_ratio": 28.333,
+      "star_ratio": 20.165,
+      "momentum_ratio": 39.5,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "20.15x the stars (11,141 vs 553)",
-        "28.33x the star velocity (17.0/day vs 0.6/day)",
+        "20.16x the stars (11,151 vs 553)",
+        "39.50x the star velocity (15.8/day vs 0.4/day)",
         "no harder to set up (25 vs 31 friction)"
       ],
       "reasons_zh": [],
@@ -697,14 +765,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 95.457,
-      "momentum_ratio": 49.885,
+      "star_ratio": 95.605,
+      "momentum_ratio": 50.086,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "95.46x the stars (48,874 vs 512)",
-        "49.88x the star velocity (169.1/day vs 3.4/day)",
+        "95.61x the stars (48,950 vs 512)",
+        "50.09x the star velocity (168.8/day vs 3.4/day)",
         "no harder to set up (30 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -756,14 +824,14 @@
         "notifications",
         "quota-management"
       ],
-      "star_ratio": 8.089,
-      "momentum_ratio": 15.071,
+      "star_ratio": 8.084,
+      "momentum_ratio": 12.688,
       "setup_delta": -25,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "8.09x the stars (19,576 vs 2,420)",
-        "15.07x the star velocity (42.2/day vs 2.8/day)",
+        "8.08x the stars (19,603 vs 2,425)",
+        "12.69x the star velocity (40.6/day vs 3.2/day)",
         "no harder to set up (32 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -817,14 +885,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 222.446,
-      "momentum_ratio": 316.0,
+      "star_ratio": 222.604,
+      "momentum_ratio": 342.0,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "222.45x the stars (84,752 vs 381)",
-        "316.00x the star velocity (63.2/day vs 0.2/day)",
+        "222.60x the stars (84,812 vs 381)",
+        "342.00x the star velocity (68.4/day vs 0.2/day)",
         "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],
@@ -857,7 +925,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 44,
-        "challenger_health": 78,
+        "challenger_health": 79,
         "incumbent_setup_score": 72,
         "challenger_setup_score": 57
       }
@@ -878,14 +946,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 3.504,
-      "momentum_ratio": 236.0,
+      "star_ratio": 3.527,
+      "momentum_ratio": 248.0,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "3.50x the stars (1,808 vs 516)",
-        "236.00x the star velocity (11.8/day vs 0.0/day)",
+        "3.53x the stars (1,820 vs 516)",
+        "248.00x the star velocity (12.4/day vs 0.0/day)",
         "no harder to set up (64 vs 84 friction)"
       ],
       "reasons_zh": [],
@@ -932,14 +1000,14 @@
         "model-routing",
         "team-collaboration"
       ],
-      "star_ratio": 5.253,
-      "momentum_ratio": 11.542,
+      "star_ratio": 5.262,
+      "momentum_ratio": 12.2,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "5.25x the stars (11,384 vs 2,167)",
-        "11.54x the star velocity (55.4/day vs 4.8/day)",
+        "5.26x the stars (11,409 vs 2,168)",
+        "12.20x the star velocity (48.8/day vs 4.0/day)",
         "no harder to set up (32 vs 42 friction)"
       ],
       "reasons_zh": [],
@@ -971,7 +1039,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 75,
+        "challenger_health": 73,
         "incumbent_setup_score": 42,
         "challenger_setup_score": 32
       }
@@ -993,14 +1061,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 36.612,
-      "momentum_ratio": 640.0,
+      "star_ratio": 36.639,
+      "momentum_ratio": 600.0,
       "setup_delta": -23,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "36.61x the stars (33,939 vs 927)",
-        "640.00x the star velocity (32.0/day vs 0.0/day)",
+        "36.64x the stars (33,964 vs 927)",
+        "600.00x the star velocity (30.0/day vs 0.0/day)",
         "no harder to set up (2 vs 25 friction)"
       ],
       "reasons_zh": [],
@@ -1028,7 +1096,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 55,
-        "challenger_health": 74,
+        "challenger_health": 72,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 2
       }
@@ -1048,14 +1116,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 132.45,
-      "momentum_ratio": 845.55,
+      "star_ratio": 132.297,
+      "momentum_ratio": 421.975,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "132.45x the stars (48,874 vs 369)",
-        "845.55x the star velocity (169.1/day vs 0.2/day)",
+        "132.30x the stars (48,950 vs 370)",
+        "421.97x the star velocity (168.8/day vs 0.4/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],
@@ -1089,65 +1157,6 @@
       }
     },
     {
-      "incumbent": "waishnav/devspace",
-      "challenger": "getpaseo/paseo",
-      "incumbent_name": "Waishnav/devspace",
-      "challenger_name": "getpaseo/paseo",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "remote-control",
-        "self-hosted",
-        "worktree-isolation"
-      ],
-      "star_ratio": 4.234,
-      "momentum_ratio": 13.861,
-      "setup_delta": -4,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "4.23x the stars (22,572 vs 5,331)",
-        "13.86x the star velocity (99.8/day vs 7.2/day)",
-        "no harder to set up (24 vs 28 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "remote-control",
-          "self-hosted",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 60,
-        "challenger_health": 83,
-        "incumbent_setup_score": 28,
-        "challenger_setup_score": 24
-      }
-    },
-    {
       "incumbent": "yyh211/claude-meta-skill",
       "challenger": "sickn33/agentic-awesome-skills",
       "incumbent_name": "YYH211/Claude-meta-skill",
@@ -1162,14 +1171,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 172.092,
-      "momentum_ratio": 3382.2,
+      "star_ratio": 172.359,
+      "momentum_ratio": 3375.8,
       "setup_delta": -28,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "172.09x the stars (48,874 vs 284)",
-        "3382.20x the star velocity (169.1/day vs 0.0/day)",
+        "172.36x the stars (48,950 vs 284)",
+        "3375.80x the star velocity (168.8/day vs 0.0/day)",
         "no harder to set up (30 vs 58 friction)"
       ],
       "reasons_zh": [],
@@ -1218,14 +1227,14 @@
         "notifications",
         "worktree-isolation"
       ],
-      "star_ratio": 54.129,
-      "momentum_ratio": 53.333,
+      "star_ratio": 53.826,
+      "momentum_ratio": 25.0,
       "setup_delta": -8,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "54.13x the stars (33,939 vs 627)",
-        "53.33x the star velocity (32.0/day vs 0.6/day)",
+        "53.83x the stars (33,964 vs 631)",
+        "25.00x the star velocity (30.0/day vs 1.2/day)",
         "no harder to set up (2 vs 10 friction)"
       ],
       "reasons_zh": [],
@@ -1252,7 +1261,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 74,
+        "challenger_health": 72,
         "incumbent_setup_score": 10,
         "challenger_setup_score": 2
       }
@@ -1275,14 +1284,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 316.264,
-      "momentum_ratio": 6628.0,
+      "star_ratio": 317.907,
+      "momentum_ratio": 7496.0,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "316.26x the stars (109,111 vs 345)",
-        "6628.00x the star velocity (331.4/day vs 0.0/day)",
+        "317.91x the stars (109,678 vs 345)",
+        "7496.00x the star velocity (374.8/day vs 0.0/day)",
         "no harder to set up (45 vs 50 friction)"
       ],
       "reasons_zh": [],
@@ -1322,6 +1331,130 @@
       }
     },
     {
+      "incumbent": "cluster1900/apexo-code",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "cluster1900/apexo-code",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "gui-desktop",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "self-hosted",
+        "session-persistence"
+      ],
+      "star_ratio": 110.103,
+      "momentum_ratio": 15.509,
+      "setup_delta": -16,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "110.10x the stars (30,058 vs 273)",
+        "15.51x the star velocity (26.8/day vs 1.7/day)",
+        "no harder to set up (32 vs 48 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "gui-desktop",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "self-hosted",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 70,
+        "incumbent_setup_score": 48,
+        "challenger_setup_score": 32
+      }
+    },
+    {
+      "incumbent": "codecoradev/uteke",
+      "challenger": "tencentcloud/octop",
+      "incumbent_name": "codecoradev/uteke",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "self-hosted"
+      ],
+      "star_ratio": 40.601,
+      "momentum_ratio": 27.111,
+      "setup_delta": -5,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "40.60x the stars (11,409 vs 281)",
+        "27.11x the star velocity (48.8/day vs 1.8/day)",
+        "no harder to set up (32 vs 37 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 73,
+        "incumbent_setup_score": 37,
+        "challenger_setup_score": 32
+      }
+    },
+    {
       "incumbent": "darrenhinde/openagentscontrol",
       "challenger": "paperclipai/paperclip",
       "incumbent_name": "darrenhinde/OpenAgentsControl",
@@ -1336,14 +1469,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 21.98,
-      "momentum_ratio": 110.467,
+      "star_ratio": 22.086,
+      "momentum_ratio": 124.933,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "21.98x the stars (109,111 vs 4,964)",
-        "110.47x the star velocity (331.4/day vs 3.0/day)",
+        "22.09x the stars (109,678 vs 4,966)",
+        "124.93x the star velocity (374.8/day vs 3.0/day)",
         "no harder to set up (45 vs 50 friction)"
       ],
       "reasons_zh": [],
@@ -1395,14 +1528,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 13.202,
-      "momentum_ratio": 36.763,
+      "star_ratio": 13.215,
+      "momentum_ratio": 42.197,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.20x the stars (48,874 vs 3,702)",
-        "36.76x the star velocity (169.1/day vs 4.6/day)",
+        "13.22x the stars (48,950 vs 3,704)",
+        "42.20x the star velocity (168.8/day vs 4.0/day)",
         "no harder to set up (30 vs 50 friction)"
       ],
       "reasons_zh": [],
@@ -1437,69 +1570,10 @@
       }
     },
     {
-      "incumbent": "fatwang2/search2ai",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "fatwang2/search2ai",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "mcp-support",
-        "model-routing",
-        "parallel-execution",
-        "self-hosted"
-      ],
-      "star_ratio": 228.517,
-      "momentum_ratio": 1494.667,
-      "setup_delta": -16,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "228.52x the stars (293,644 vs 1,285)",
-        "1494.67x the star velocity (896.8/day vs 0.6/day)",
-        "no harder to set up (57 vs 73 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "mcp-support",
-          "model-routing",
-          "parallel-execution",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 49,
-        "challenger_health": 89,
-        "incumbent_setup_score": 73,
-        "challenger_setup_score": 57
-      }
-    },
-    {
       "incumbent": "future-agi/future-agi",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "future-agi/future-agi",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -1512,14 +1586,14 @@
         "memory-context",
         "self-hosted"
       ],
-      "star_ratio": 13.466,
-      "momentum_ratio": 5.0,
+      "star_ratio": 5.107,
+      "momentum_ratio": 9.156,
       "setup_delta": -13,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "13.47x the stars (30,042 vs 2,231)",
-        "5.00x the star velocity (29.0/day vs 5.8/day)",
+        "5.11x the stars (11,409 vs 2,234)",
+        "9.16x the star velocity (48.8/day vs 5.3/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
       "reasons_zh": [],
@@ -1535,24 +1609,22 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
+          "parallel-execution",
           "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "worktree-isolation"
         ],
         "incumbent_health": 60,
-        "challenger_health": 71,
+        "challenger_health": 73,
         "incumbent_setup_score": 45,
         "challenger_setup_score": 32
       }
@@ -1573,14 +1645,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 133.536,
-      "momentum_ratio": 422.775,
+      "star_ratio": 133.743,
+      "momentum_ratio": 843.95,
       "setup_delta": -36,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "133.54x the stars (48,874 vs 366)",
-        "422.78x the star velocity (169.1/day vs 0.4/day)",
+        "133.74x the stars (48,950 vs 366)",
+        "843.95x the star velocity (168.8/day vs 0.2/day)",
         "no harder to set up (30 vs 66 friction)"
       ],
       "reasons_zh": [],
@@ -1633,14 +1705,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 29.492,
-      "momentum_ratio": 17.312,
+      "star_ratio": 29.329,
+      "momentum_ratio": 15.394,
       "setup_delta": -43,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "29.49x the stars (11,384 vs 386)",
-        "17.31x the star velocity (55.4/day vs 3.2/day)",
+        "29.33x the stars (11,409 vs 389)",
+        "15.39x the star velocity (48.8/day vs 3.2/day)",
         "no harder to set up (32 vs 75 friction)"
       ],
       "reasons_zh": [],
@@ -1673,7 +1745,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 43,
-        "challenger_health": 75,
+        "challenger_health": 73,
         "incumbent_setup_score": 75,
         "challenger_setup_score": 32
       }
@@ -1693,14 +1765,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 6.938,
-      "momentum_ratio": 31.317,
+      "star_ratio": 6.946,
+      "momentum_ratio": 33.758,
       "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "6.94x the stars (48,874 vs 7,044)",
-        "31.32x the star velocity (169.1/day vs 5.4/day)",
+        "6.95x the stars (48,950 vs 7,047)",
+        "33.76x the star velocity (168.8/day vs 5.0/day)",
         "no harder to set up (30 vs 31 friction)"
       ],
       "reasons_zh": [],
@@ -1735,9 +1807,9 @@
     },
     {
       "incumbent": "jacobaraujo7/remote_pi",
-      "challenger": "omnigent-ai/omnigent",
+      "challenger": "getpaseo/paseo",
       "incumbent_name": "jacobaraujo7/remote_pi",
-      "challenger_name": "omnigent-ai/omnigent",
+      "challenger_name": "getpaseo/paseo",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -1749,15 +1821,15 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 23.504,
-      "momentum_ratio": 14.167,
-      "setup_delta": -11,
+      "star_ratio": 47.743,
+      "momentum_ratio": 98.4,
+      "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "23.50x the stars (11,141 vs 474)",
-        "14.17x the star velocity (17.0/day vs 1.2/day)",
-        "no harder to set up (25 vs 36 friction)"
+        "47.74x the stars (22,678 vs 475)",
+        "98.40x the star velocity (98.4/day vs 1.0/day)",
+        "no harder to set up (24 vs 36 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -1770,24 +1842,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
+          "parallel-execution",
           "remote-control",
+          "security-isolation",
           "self-hosted",
-          "team-collaboration",
+          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 67,
+        "challenger_health": 82,
         "incumbent_setup_score": 36,
-        "challenger_setup_score": 25
+        "challenger_setup_score": 24
       }
     },
     {
@@ -1805,14 +1875,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 156.647,
-      "momentum_ratio": 281.85,
+      "star_ratio": 156.39,
+      "momentum_ratio": 210.987,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "156.65x the stars (48,874 vs 312)",
-        "281.85x the star velocity (169.1/day vs 0.6/day)",
+        "156.39x the stars (48,950 vs 313)",
+        "210.99x the star velocity (168.8/day vs 0.8/day)",
         "no harder to set up (30 vs 50 friction)"
       ],
       "reasons_zh": [],
@@ -1863,14 +1933,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.967,
-      "momentum_ratio": 640.0,
+      "star_ratio": 123.058,
+      "momentum_ratio": 600.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.97x the stars (33,939 vs 276)",
-        "640.00x the star velocity (32.0/day vs 0.0/day)",
+        "123.06x the stars (33,964 vs 276)",
+        "600.00x the star velocity (30.0/day vs 0.0/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -1899,7 +1969,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 74,
+        "challenger_health": 72,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2
       }
@@ -1921,14 +1991,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 473.619,
-      "momentum_ratio": 1121.0,
+      "star_ratio": 474.026,
+      "momentum_ratio": 1035.25,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "473.62x the stars (293,644 vs 620)",
-        "1121.00x the star velocity (896.8/day vs 0.8/day)",
+        "474.03x the stars (294,370 vs 621)",
+        "1035.25x the star velocity (828.2/day vs 0.8/day)",
         "no harder to set up (57 vs 63 friction)"
       ],
       "reasons_zh": [],
@@ -1966,61 +2036,6 @@
       }
     },
     {
-      "incumbent": "michaelshimeles/rstack",
-      "challenger": "iofficeai/aionui",
-      "incumbent_name": "michaelshimeles/rstack",
-      "challenger_name": "iOfficeAI/AionUi",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "multi-agent-orchestration",
-        "skills-plugins",
-        "worktree-isolation"
-      ],
-      "star_ratio": 24.002,
-      "momentum_ratio": 5.333,
-      "setup_delta": -23,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "24.00x the stars (33,939 vs 1,414)",
-        "5.33x the star velocity (32.0/day vs 6.0/day)",
-        "no harder to set up (2 vs 25 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "multi-agent-orchestration",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 74,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 2
-      }
-    },
-    {
       "incumbent": "ndycode/codex-multi-auth",
       "challenger": "jlcodes99/cockpit-tools",
       "incumbent_name": "ndycode/codex-multi-auth",
@@ -2031,25 +2046,27 @@
       "coverage": 1.0,
       "covered": [
         "api-gateway",
+        "auto-failover",
         "cross-agent-support",
         "gui-desktop",
         "multi-account-switching",
         "voice-input"
       ],
-      "star_ratio": 34.895,
-      "momentum_ratio": 42.2,
+      "star_ratio": 34.943,
+      "momentum_ratio": 40.6,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "34.89x the stars (19,576 vs 561)",
-        "42.20x the star velocity (42.2/day vs 1.0/day)",
+        "covers 100% of capabilities (6/6)",
+        "34.94x the stars (19,603 vs 561)",
+        "40.60x the star velocity (40.6/day vs 1.0/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "multi-account-switching",
@@ -2095,14 +2112,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 5.381,
-      "momentum_ratio": 81.0,
+      "star_ratio": 5.395,
+      "momentum_ratio": 283.4,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.38x the stars (1,512 vs 281)",
-        "81.00x the star velocity (16.2/day vs 0.2/day)",
+        "5.40x the stars (1,516 vs 281)",
+        "283.40x the star velocity (14.2/day vs 0.0/day)",
         "no harder to set up (30 vs 40 friction)"
       ],
       "reasons_zh": [],
@@ -2150,14 +2167,14 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 12.194,
-      "momentum_ratio": 103.301,
+      "star_ratio": 12.519,
+      "momentum_ratio": 75.769,
       "setup_delta": -30,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "12.19x the stars (17,827 vs 1,462)",
-        "103.30x the star velocity (425.6/day vs 4.1/day)",
+        "12.52x the stars (18,540 vs 1,481)",
+        "75.77x the star velocity (315.2/day vs 4.2/day)",
         "no harder to set up (33 vs 63 friction)"
       ],
       "reasons_zh": [],
@@ -2196,14 +2213,14 @@
         "model-routing",
         "self-hosted"
       ],
-      "star_ratio": 47.778,
-      "momentum_ratio": 83.037,
+      "star_ratio": 47.818,
+      "momentum_ratio": 75.291,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "47.78x the stars (293,644 vs 6,146)",
-        "83.04x the star velocity (896.8/day vs 10.8/day)",
+        "47.82x the stars (294,370 vs 6,156)",
+        "75.29x the star velocity (828.2/day vs 11.0/day)",
         "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],
@@ -2232,7 +2249,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 56,
+        "incumbent_health": 57,
         "challenger_health": 89,
         "incumbent_setup_score": 72,
         "challenger_setup_score": 57
@@ -2256,14 +2273,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 106.532,
-      "momentum_ratio": 11.741,
+      "star_ratio": 106.589,
+      "momentum_ratio": 10.951,
       "setup_delta": -8,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "106.53x the stars (30,042 vs 282)",
-        "11.74x the star velocity (29.0/day vs 2.5/day)",
+        "106.59x the stars (30,058 vs 282)",
+        "10.95x the star velocity (26.8/day vs 2.5/day)",
         "no harder to set up (32 vs 40 friction)"
       ],
       "reasons_zh": [],
@@ -2297,7 +2314,7 @@
           "team-collaboration"
         ],
         "incumbent_health": 47,
-        "challenger_health": 71,
+        "challenger_health": 70,
         "incumbent_setup_score": 40,
         "challenger_setup_score": 32
       }
@@ -2318,14 +2335,14 @@
         "model-routing",
         "provider-aggregation"
       ],
-      "star_ratio": 153.142,
-      "momentum_ratio": 6828.0,
+      "star_ratio": 153.374,
+      "momentum_ratio": 6176.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "153.14x the stars (150,539 vs 983)",
-        "6828.00x the star velocity (341.4/day vs 0.1/day)",
+        "153.37x the stars (150,767 vs 983)",
+        "6176.00x the star velocity (308.8/day vs 0.0/day)",
         "no harder to set up (23 vs 33 friction)"
       ],
       "reasons_zh": [],
@@ -2359,60 +2376,58 @@
       }
     },
     {
-      "incumbent": "savannahfeder/agentbox",
-      "challenger": "getpaseo/paseo",
-      "incumbent_name": "savannahfeder/agentbox",
-      "challenger_name": "getpaseo/paseo",
+      "incumbent": "tigerless-labs/autoharness",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "tigerless-labs/autoharness",
+      "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
       "coverage": 1.0,
       "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
         "mcp-support",
-        "parallel-execution",
-        "worktree-isolation"
+        "multi-agent-orchestration",
+        "notifications",
+        "skills-plugins"
       ],
-      "star_ratio": 67.784,
-      "momentum_ratio": 9.891,
+      "star_ratio": 4.628,
+      "momentum_ratio": 187.544,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "67.78x the stars (22,572 vs 333)",
-        "9.89x the star velocity (99.8/day vs 10.1/day)",
-        "no harder to set up (24 vs 30 friction)"
+        "covers 100% of capabilities (4/4)",
+        "4.63x the stars (48,950 vs 10,578)",
+        "187.54x the star velocity (168.8/day vs 0.9/day)",
+        "no harder to set up (30 vs 36 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
-          "parallel-execution",
-          "worktree-isolation"
+          "multi-agent-orchestration",
+          "notifications",
+          "skills-plugins"
         ],
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
           "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
-          "remote-control",
+          "notifications",
           "security-isolation",
           "self-hosted",
-          "voice-input",
-          "worktree-isolation"
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
         ],
-        "incumbent_health": 50,
-        "challenger_health": 83,
-        "incumbent_setup_score": 30,
-        "challenger_setup_score": 24
+        "incumbent_health": 57,
+        "challenger_health": 92,
+        "incumbent_setup_score": 36,
+        "challenger_setup_score": 30
       }
     },
     {
@@ -2431,14 +2446,14 @@
         "notifications",
         "self-hosted"
       ],
-      "star_ratio": 610.486,
-      "momentum_ratio": 896.8,
+      "star_ratio": 611.996,
+      "momentum_ratio": 2070.5,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "610.49x the stars (293,644 vs 481)",
-        "896.80x the star velocity (896.8/day vs 1.0/day)",
+        "612.00x the stars (294,370 vs 481)",
+        "2070.50x the star velocity (828.2/day vs 0.4/day)",
         "no harder to set up (57 vs 78 friction)"
       ],
       "reasons_zh": [],
@@ -2489,14 +2504,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 34.736,
-      "momentum_ratio": 281.85,
+      "star_ratio": 34.79,
+      "momentum_ratio": 210.987,
       "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "34.74x the stars (48,874 vs 1,407)",
-        "281.85x the star velocity (169.1/day vs 0.6/day)",
+        "34.79x the stars (48,950 vs 1,407)",
+        "210.99x the star velocity (168.8/day vs 0.8/day)",
         "no harder to set up (30 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -2530,6 +2545,76 @@
       }
     },
     {
+      "incumbent": "yc-software/qm",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "yc-software/qm",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "model-routing",
+        "notifications",
+        "security-isolation",
+        "session-persistence",
+        "skills-plugins",
+        "team-collaboration",
+        "worktree-isolation"
+      ],
+      "star_ratio": 7.032,
+      "momentum_ratio": 37.48,
+      "setup_delta": -27,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (10/10)",
+        "7.03x the stars (109,678 vs 15,596)",
+        "37.48x the star velocity (374.8/day vs 10.0/day)",
+        "no harder to set up (45 vs 72 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "model-routing",
+          "notifications",
+          "security-isolation",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 89,
+        "incumbent_setup_score": 72,
+        "challenger_setup_score": 45
+      }
+    },
+    {
       "incumbent": "zilliztech/memsearch",
       "challenger": "tencentcloud/octop",
       "incumbent_name": "zilliztech/memsearch",
@@ -2547,14 +2632,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 4.048,
-      "momentum_ratio": 16.294,
+      "star_ratio": 4.054,
+      "momentum_ratio": 15.394,
       "setup_delta": -17,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.05x the stars (11,384 vs 2,812)",
-        "16.29x the star velocity (55.4/day vs 3.4/day)",
+        "4.05x the stars (11,409 vs 2,814)",
+        "15.39x the star velocity (48.8/day vs 3.2/day)",
         "no harder to set up (32 vs 49 friction)"
       ],
       "reasons_zh": [],
@@ -2586,75 +2671,114 @@
           "worktree-isolation"
         ],
         "incumbent_health": 57,
-        "challenger_health": 75,
+        "challenger_health": 73,
         "incumbent_setup_score": 49,
         "challenger_setup_score": 32
       }
     },
     {
-      "incumbent": "huytieu/cog-second-brain",
-      "challenger": "tencentcloud/octop",
-      "incumbent_name": "huytieu/COG-second-brain",
-      "challenger_name": "TencentCloud/Octop",
+      "incumbent": "rsmdt/the-startup",
+      "challenger": "othmanadi/planning-with-files",
+      "incumbent_name": "rsmdt/the-startup",
+      "challenger_name": "OthmanAdi/planning-with-files",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
       "coverage": 1.0,
       "covered": [
+        "memory-context",
+        "multi-agent-orchestration",
+        "parallel-execution",
+        "skills-plugins"
+      ],
+      "star_ratio": 48.187,
+      "momentum_ratio": 54.5,
+      "setup_delta": 2,
+      "dominance": 0.99,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "48.19x the stars (27,804 vs 577)",
+        "54.50x the star velocity (21.8/day vs 0.4/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "memory-context",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "security-isolation",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 70,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 27
+      }
+    },
+    {
+      "incumbent": "michaelshimeles/rstack",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "michaelshimeles/rstack",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
         "agent-runtime",
         "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
         "multi-agent-orchestration",
         "skills-plugins",
-        "team-collaboration"
+        "worktree-isolation"
       ],
-      "star_ratio": 8.566,
-      "momentum_ratio": 27.7,
-      "setup_delta": 1,
-      "dominance": 0.995,
+      "star_ratio": 23.885,
+      "momentum_ratio": 4.412,
+      "setup_delta": -23,
+      "dominance": 0.984,
       "reasons": [
-        "covers 100% of capabilities (9/9)",
-        "8.57x the stars (11,384 vs 1,329)",
-        "27.70x the star velocity (55.4/day vs 2.0/day)",
-        "slightly heavier setup (+1 friction, within tolerance)"
+        "covers 100% of capabilities (5/5)",
+        "23.88x the stars (33,964 vs 1,422)",
+        "4.41x the star velocity (30.0/day vs 6.8/day)",
+        "no harder to set up (2 vs 25 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
           "agent-runtime",
           "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
           "skills-plugins",
-          "team-collaboration"
+          "worktree-isolation"
         ],
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
-          "self-hosted",
+          "remote-control",
           "skills-plugins",
           "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 56,
-        "challenger_health": 75,
-        "incumbent_setup_score": 31,
-        "challenger_setup_score": 32
+        "incumbent_health": 54,
+        "challenger_health": 72,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 2
       }
     },
     {
@@ -2673,14 +2797,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 13.04,
-      "momentum_ratio": 93.95,
+      "star_ratio": 13.06,
+      "momentum_ratio": 210.987,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.04x the stars (48,874 vs 3,748)",
-        "93.95x the star velocity (169.1/day vs 1.8/day)",
+        "13.06x the stars (48,950 vs 3,748)",
+        "210.99x the star velocity (168.8/day vs 0.8/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -2708,44 +2832,213 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 58,
+        "incumbent_health": 57,
         "challenger_health": 92,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 30
       }
     },
     {
-      "incumbent": "tigerless-labs/autoharness",
-      "challenger": "sickn33/agentic-awesome-skills",
-      "incumbent_name": "tigerless-labs/autoharness",
-      "challenger_name": "sickn33/agentic-awesome-skills",
+      "incumbent": "linxidnju/opentag",
+      "challenger": "kajisho5/ffmpeg-skill",
+      "incumbent_name": "linxidnju/OpenTag",
+      "challenger_name": "kajisho5/ffmpeg-skill",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
+        "agent-runtime",
+        "cross-agent-support",
         "mcp-support",
-        "multi-agent-orchestration",
-        "notifications",
-        "skills-plugins"
+        "security-isolation"
       ],
-      "star_ratio": 4.641,
-      "momentum_ratio": 3.917,
-      "setup_delta": -6,
-      "dominance": 0.97,
+      "star_ratio": 8.408,
+      "momentum_ratio": 4576.0,
+      "setup_delta": 5,
+      "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "4.64x the stars (48,874 vs 10,530)",
-        "3.92x the star velocity (169.1/day vs 43.2/day)",
-        "no harder to set up (30 vs 36 friction)"
+        "8.41x the stars (4,229 vs 503)",
+        "4576.00x the star velocity (228.8/day vs 0.0/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
         "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
           "mcp-support",
           "multi-agent-orchestration",
-          "notifications",
+          "security-isolation",
+          "skills-plugins",
+          "voice-input"
+        ],
+        "incumbent_health": 41,
+        "challenger_health": 87,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 50
+      }
+    },
+    {
+      "incumbent": "breferrari/obsidian-mind",
+      "challenger": "deusdata/codebase-memory-mcp",
+      "incumbent_name": "breferrari/obsidian-mind",
+      "challenger_name": "DeusData/codebase-memory-mcp",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 8.768,
+      "momentum_ratio": 11.667,
+      "setup_delta": 6,
+      "dominance": 0.97,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "8.77x the stars (47,928 vs 5,466)",
+        "11.67x the star velocity (70.0/day vs 6.0/day)",
+        "slightly heavier setup (+6 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
           "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 59,
+        "challenger_health": 77,
+        "incumbent_setup_score": 58,
+        "challenger_setup_score": 64
+      }
+    },
+    {
+      "incumbent": "callstack/agent-device",
+      "challenger": "getpaseo/paseo",
+      "incumbent_name": "callstack/agent-device",
+      "challenger_name": "getpaseo/paseo",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "mobile-access",
+        "multi-agent-orchestration",
+        "parallel-execution",
+        "remote-control",
+        "worktree-isolation"
+      ],
+      "star_ratio": 4.344,
+      "momentum_ratio": 5.165,
+      "setup_delta": 6,
+      "dominance": 0.97,
+      "reasons": [
+        "covers 100% of capabilities (9/9)",
+        "4.34x the stars (22,678 vs 5,220)",
+        "5.17x the star velocity (98.4/day vs 19.1/day)",
+        "slightly heavier setup (+6 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "remote-control",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 66,
+        "challenger_health": 82,
+        "incumbent_setup_score": 18,
+        "challenger_setup_score": 24
+      }
+    },
+    {
+      "incumbent": "grpcer/ownmem",
+      "challenger": "huytieu/cog-second-brain",
+      "incumbent_name": "grpcer/ownmem",
+      "challenger_name": "huytieu/COG-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context"
+      ],
+      "star_ratio": 3.132,
+      "momentum_ratio": 14.545,
+      "setup_delta": 6,
+      "dominance": 0.97,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "3.13x the stars (1,331 vs 425)",
+        "14.55x the star velocity (1.6/day vs 0.1/day)",
+        "slightly heavier setup (+6 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context"
         ],
         "challenger_capabilities": [
           "agent-runtime",
@@ -2753,20 +3046,15 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
+          "team-collaboration"
         ],
-        "incumbent_health": 66,
-        "challenger_health": 92,
-        "incumbent_setup_score": 36,
-        "challenger_setup_score": 30
+        "incumbent_health": 55,
+        "challenger_health": 56,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 31
       }
     },
     {
@@ -2785,14 +3073,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 104.655,
-      "momentum_ratio": 14.093,
+      "star_ratio": 93.238,
+      "momentum_ratio": 7.213,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "104.66x the stars (48,874 vs 467)",
-        "14.09x the star velocity (169.1/day vs 12.0/day)",
+        "93.24x the stars (48,950 vs 525)",
+        "7.21x the star velocity (168.8/day vs 23.4/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -2820,56 +3108,10 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 57,
+        "incumbent_health": 60,
         "challenger_health": 92,
         "incumbent_setup_score": 22,
         "challenger_setup_score": 30
-      }
-    },
-    {
-      "incumbent": "grpcer/ownmem",
-      "challenger": "xerj-org/xerj",
-      "incumbent_name": "grpcer/ownmem",
-      "challenger_name": "xerj-org/xerj",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context"
-      ],
-      "star_ratio": 41.946,
-      "momentum_ratio": 3869.091,
-      "setup_delta": 8,
-      "dominance": 0.96,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "41.95x the stars (17,827 vs 425)",
-        "3869.09x the star velocity (425.6/day vs 0.1/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context"
-        ],
-        "incumbent_health": 55,
-        "challenger_health": 87,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 33
       }
     },
     {
@@ -2889,14 +3131,14 @@
         "mobile-access",
         "team-collaboration"
       ],
-      "star_ratio": 43.617,
-      "momentum_ratio": 1108.0,
+      "star_ratio": 43.713,
+      "momentum_ratio": 976.0,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "43.62x the stars (11,384 vs 261)",
-        "1108.00x the star velocity (55.4/day vs 0.0/day)",
+        "43.71x the stars (11,409 vs 261)",
+        "976.00x the star velocity (48.8/day vs 0.0/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -2927,7 +3169,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 53,
-        "challenger_health": 75,
+        "challenger_health": 73,
         "incumbent_setup_score": 24,
         "challenger_setup_score": 32
       }
@@ -2948,14 +3190,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 64.648,
-      "momentum_ratio": 845.55,
+      "star_ratio": 64.749,
+      "momentum_ratio": 843.95,
       "setup_delta": 11,
       "dominance": 0.945,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "64.65x the stars (48,874 vs 756)",
-        "845.55x the star velocity (169.1/day vs 0.2/day)",
+        "64.75x the stars (48,950 vs 756)",
+        "843.95x the star velocity (168.8/day vs 0.2/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -3004,13 +3246,13 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.336,
+      "star_ratio": 2.342,
       "momentum_ratio": 15.0,
       "setup_delta": -21,
-      "dominance": 0.943,
+      "dominance": 0.944,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.34x the stars (1,133 vs 485)",
+        "2.34x the stars (1,136 vs 485)",
         "15.00x the star velocity (3.0/day vs 0.2/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
@@ -3039,6 +3281,341 @@
       }
     },
     {
+      "incumbent": "tigerless-labs/cost-xray",
+      "challenger": "getpaseo/paseo",
+      "incumbent_name": "tigerless-labs/cost-xray",
+      "challenger_name": "getpaseo/paseo",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "remote-control"
+      ],
+      "star_ratio": 3.893,
+      "momentum_ratio": 63.484,
+      "setup_delta": 12,
+      "dominance": 0.94,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "3.89x the stars (22,678 vs 5,825)",
+        "63.48x the star velocity (98.4/day vs 1.6/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "remote-control"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 60,
+        "challenger_health": 82,
+        "incumbent_setup_score": 12,
+        "challenger_setup_score": 24
+      }
+    },
+    {
+      "incumbent": "savannahfeder/agentbox",
+      "challenger": "iofficeai/aionui",
+      "incumbent_name": "savannahfeder/agentbox",
+      "challenger_name": "iOfficeAI/AionUi",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "parallel-execution",
+        "worktree-isolation"
+      ],
+      "star_ratio": 101.083,
+      "momentum_ratio": 3.036,
+      "setup_delta": -28,
+      "dominance": 0.938,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "101.08x the stars (33,964 vs 336)",
+        "3.04x the star velocity (30.0/day vs 9.9/day)",
+        "no harder to set up (2 vs 30 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "parallel-execution",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 50,
+        "challenger_health": 72,
+        "incumbent_setup_score": 30,
+        "challenger_setup_score": 2
+      }
+    },
+    {
+      "incumbent": "leoyeai/talewell",
+      "challenger": "huytieu/cog-second-brain",
+      "incumbent_name": "LeoYeAI/talewell",
+      "challenger_name": "huytieu/COG-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "skills-plugins"
+      ],
+      "star_ratio": 2.42,
+      "momentum_ratio": 32.0,
+      "setup_delta": 8,
+      "dominance": 0.911,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "2.42x the stars (1,331 vs 550)",
+        "32.00x the star velocity (1.6/day vs 0.0/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 50,
+        "challenger_health": 56,
+        "incumbent_setup_score": 23,
+        "challenger_setup_score": 31
+      }
+    },
+    {
+      "incumbent": "leonxlnx/earshot",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "Leonxlnx/earshot",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "mcp-support",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 14.367,
+      "momentum_ratio": 1.777,
+      "setup_delta": -22,
+      "dominance": 0.871,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "14.37x the stars (48,950 vs 3,407)",
+        "1.78x the star velocity (168.8/day vs 95.0/day)",
+        "no harder to set up (30 vs 52 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "mcp-support",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 72,
+        "challenger_health": 92,
+        "incumbent_setup_score": 52,
+        "challenger_setup_score": 30
+      }
+    },
+    {
+      "incumbent": "phuryn/pm-skills",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "phuryn/pm-skills",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "notifications",
+        "skills-plugins",
+        "usage-analytics"
+      ],
+      "star_ratio": 1.774,
+      "momentum_ratio": 4.994,
+      "setup_delta": 3,
+      "dominance": 0.865,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "1.77x the stars (48,950 vs 27,587)",
+        "4.99x the star velocity (168.8/day vs 33.8/day)",
+        "slightly heavier setup (+3 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "notifications",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 69,
+        "challenger_health": 92,
+        "incumbent_setup_score": 27,
+        "challenger_setup_score": 30
+      }
+    },
+    {
+      "incumbent": "google/artemis",
+      "challenger": "msitarzewski/agency-agents",
+      "incumbent_name": "google/artemis",
+      "challenger_name": "msitarzewski/agency-agents",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "mobile-access",
+        "multi-agent-orchestration",
+        "notifications"
+      ],
+      "star_ratio": 10.369,
+      "momentum_ratio": 1.553,
+      "setup_delta": -55,
+      "dominance": 0.855,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "10.37x the stars (165,775 vs 15,988)",
+        "1.55x the star velocity (279.0/day vs 179.6/day)",
+        "no harder to set up (1 vs 56 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "notifications"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "team-collaboration",
+          "voice-input"
+        ],
+        "incumbent_health": 82,
+        "challenger_health": 98,
+        "incumbent_setup_score": 56,
+        "challenger_setup_score": 1
+      }
+    },
+    {
       "incumbent": "copilotkit/openbot",
       "challenger": "affaan-m/ecc",
       "incumbent_name": "CopilotKit/OpenBot",
@@ -3056,14 +3633,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 32.558,
-      "momentum_ratio": 2.399,
+      "star_ratio": 31.955,
+      "momentum_ratio": 2.117,
       "setup_delta": 8,
-      "dominance": 0.869,
+      "dominance": 0.853,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "32.56x the stars (293,644 vs 9,019)",
-        "2.40x the star velocity (896.8/day vs 373.8/day)",
+        "31.96x the stars (294,370 vs 9,212)",
+        "2.12x the star velocity (828.2/day vs 391.2/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -3102,216 +3679,6 @@
       }
     },
     {
-      "incumbent": "phuryn/pm-skills",
-      "challenger": "sickn33/agentic-awesome-skills",
-      "incumbent_name": "phuryn/pm-skills",
-      "challenger_name": "sickn33/agentic-awesome-skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "notifications",
-        "skills-plugins",
-        "usage-analytics"
-      ],
-      "star_ratio": 1.774,
-      "momentum_ratio": 4.888,
-      "setup_delta": 3,
-      "dominance": 0.863,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "1.77x the stars (48,874 vs 27,557)",
-        "4.89x the star velocity (169.1/day vs 34.6/day)",
-        "slightly heavier setup (+3 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "notifications",
-          "skills-plugins",
-          "usage-analytics"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
-        ],
-        "incumbent_health": 69,
-        "challenger_health": 92,
-        "incumbent_setup_score": 27,
-        "challenger_setup_score": 30
-      }
-    },
-    {
-      "incumbent": "rsmdt/the-startup",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
-      "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "memory-context",
-        "multi-agent-orchestration",
-        "parallel-execution",
-        "skills-plugins"
-      ],
-      "star_ratio": 1.585,
-      "momentum_ratio": 20.0,
-      "setup_delta": -4,
-      "dominance": 0.855,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "1.59x the stars (913 vs 576)",
-        "20.00x the star velocity (4.0/day vs 0.2/day)",
-        "no harder to set up (21 vs 25 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "memory-context",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins"
-        ],
-        "incumbent_health": 53,
-        "challenger_health": 56,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 21
-      }
-    },
-    {
-      "incumbent": "google/elephant-goldfish-model",
-      "challenger": "sickn33/agentic-awesome-skills",
-      "incumbent_name": "google/elephant-goldfish-model",
-      "challenger_name": "sickn33/agentic-awesome-skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "multi-agent-orchestration",
-        "notifications"
-      ],
-      "star_ratio": 7.266,
-      "momentum_ratio": 1.182,
-      "setup_delta": 0,
-      "dominance": 0.821,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "7.27x the stars (48,874 vs 6,726)",
-        "1.18x the star velocity (169.1/day vs 143.1/day)",
-        "no harder to set up (30 vs 30 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "multi-agent-orchestration",
-          "notifications"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
-        ],
-        "incumbent_health": 81,
-        "challenger_health": 92,
-        "incumbent_setup_score": 30,
-        "challenger_setup_score": 30
-      }
-    },
-    {
-      "incumbent": "managedcode/dotnet-skills",
-      "challenger": "data-goblin/power-bi-agentic-development",
-      "incumbent_name": "managedcode/dotnet-skills",
-      "challenger_name": "data-goblin/power-bi-agentic-development",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 2.158,
-      "momentum_ratio": 2.25,
-      "setup_delta": 12,
-      "dominance": 0.766,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "2.16x the stars (1,077 vs 499)",
-        "2.25x the star velocity (1.8/day vs 0.8/day)",
-        "slightly heavier setup (+12 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "incumbent_health": 56,
-        "challenger_health": 57,
-        "incumbent_setup_score": 22,
-        "challenger_setup_score": 34
-      }
-    },
-    {
       "incumbent": "sahithvibudhi/vibe-tree",
       "challenger": "h0x91b/dev-3.0",
       "incumbent_name": "sahithvibudhi/vibe-tree",
@@ -3329,14 +3696,14 @@
         "session-persistence",
         "worktree-isolation"
       ],
-      "star_ratio": 1.191,
-      "momentum_ratio": 2.0,
+      "star_ratio": 1.188,
+      "momentum_ratio": 12.0,
       "setup_delta": -2,
-      "dominance": 0.676,
+      "dominance": 0.789,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "1.19x the stars (324 vs 272)",
-        "2.00x the star velocity (0.8/day vs 0.4/day)",
+        "1.19x the stars (323 vs 272)",
+        "12.00x the star velocity (0.6/day vs 0.0/day)",
         "no harder to set up (12 vs 14 friction)"
       ],
       "reasons_zh": [],
@@ -3374,6 +3741,109 @@
       }
     },
     {
+      "incumbent": "okf-memory/okf-agent-memory",
+      "challenger": "huytieu/cog-second-brain",
+      "incumbent_name": "okf-memory/okf-agent-memory",
+      "challenger_name": "huytieu/COG-second-brain",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration"
+      ],
+      "star_ratio": 1.573,
+      "momentum_ratio": 1.368,
+      "setup_delta": -14,
+      "dominance": 0.692,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "1.57x the stars (1,331 vs 846)",
+        "1.37x the star velocity (1.6/day vs 1.2/day)",
+        "no harder to set up (31 vs 45 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 54,
+        "challenger_health": 56,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 31
+      }
+    },
+    {
+      "incumbent": "managedcode/dotnet-skills",
+      "challenger": "data-goblin/power-bi-agentic-development",
+      "incumbent_name": "managedcode/dotnet-skills",
+      "challenger_name": "data-goblin/power-bi-agentic-development",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 2.156,
+      "momentum_ratio": 1.2,
+      "setup_delta": 12,
+      "dominance": 0.687,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "2.16x the stars (1,078 vs 500)",
+        "1.20x the star velocity (1.2/day vs 1.0/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "incumbent_health": 56,
+        "challenger_health": 57,
+        "incumbent_setup_score": 22,
+        "challenger_setup_score": 34
+      }
+    },
+    {
       "incumbent": "farion1231/cc-switch",
       "challenger": "yetone/magpie",
       "incumbent_name": "farion1231/cc-switch",
@@ -3398,13 +3868,13 @@
         "Both manage multiple accounts and providers for Claude Code and Codex, and magpie additionally routes other models through the same agent loop.",
         "covers 46% of farion1231/cc-switch's capabilities (6/13)",
         "not covered: auto-failover, billing-metering, parallel-execution, provider-aggregation, session-persistence, skills-plugins, usage-analytics",
-        "0.18x the stars (26,620 vs 150,539)"
+        "0.18x the stars (27,320 vs 150,767)"
       ],
       "reasons_zh": [
         "两者都为 Claude Code 和 Codex 管理多账号与多供应商，而 magpie 还能让其他模型走同一套 Agent 流程。",
         "覆盖 farion1231/cc-switch 的 46% 能力（6/13）",
         "未覆盖：auto-failover、billing-metering、parallel-execution、provider-aggregation、session-persistence、skills-plugins、usage-analytics",
-        "star 数为 0.18 倍（26,620 vs 150,539）"
+        "star 数为 0.18 倍（27,320 vs 150,767）"
       ],
       "evidence": {
         "curated": true,

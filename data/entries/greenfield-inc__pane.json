@@ -6,9 +6,9 @@
   "url": "https://github.com/greenfield-inc/Pane",
   "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
   "homepage": "https://runpane.com/",
-  "stars": 594,
+  "stars": 595,
   "forks": 234,
-  "open_issues": 203,
+  "open_issues": 204,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -34,33 +34,33 @@
     "worktree-manager"
   ],
   "created_at": "2026-02-27T01:34:13Z",
-  "updated_at": "2026-10-31T05:43:07Z",
-  "pushed_at": "2026-10-31T07:55:39Z",
+  "updated_at": "2026-10-31T19:36:41Z",
+  "pushed_at": "2026-10-31T19:36:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 246,
+  "age_days": 247,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 55.5,
-    "momentum": 2.2,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.6,
+    "stars_per_day": 2.4,
     "lifetime_stars_per_day": 2.41,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "greenfield-inc/Pane",
-    "readme_chars": 37333,
+    "readme_chars": 37232,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -81,7 +81,7 @@
       "parallel-execution": "know how git worktrees work?\"",
       "worktree-isolation": "ack of which agent is on which branch.",
       "session-persistence": "",
-      "agent-runtime": "Pane — a pixel-art terminal workshop with separate agent workspaces",
+      "agent-runtime": "Run any coding agent, on any OS, from desktop or phone .",
       "mcp-support": "s only command names, arguments, and safe usage notes.",
       "self-hosted": "dinate Claude, Codex, or Cursor across repositories, panes, tabs, worktrees, and review loops.",
       "gui-desktop": "with one agent, is a terminal hack that requires tmux, treats Windows as an afterthought, or wants to be your editor, your terminal, and your agent all at once.",
@@ -172,7 +172,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.509
+      "external_link_ratio": 0.51
     },
     "highlights": [
       "Developers on any OS: Mac, Windows, and Linux are all first-class citizens, with no \"Mac-first with a Windows waitlist\"",
@@ -189,10 +189,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:29+00:00",
+  "fetched_at": "2026-11-01T11:19:05+00:00",
   "categories": [
-    "desktop-ui",
-    "failover",
+    "desktop-ui-2",
+    "mobile-remote-control",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",

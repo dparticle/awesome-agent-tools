@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 138400,
-  "forks": 20524,
-  "open_issues": 221,
+  "stars": 138521,
+  "forks": 20540,
+  "open_issues": 175,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-10-31T10:20:31Z",
-  "pushed_at": "2026-10-31T10:22:24Z",
+  "updated_at": "2026-11-01T11:02:03Z",
+  "pushed_at": "2026-11-01T11:13:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
+  "age_days": 234,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 631,
+    "stars_gained": 652,
     "days_span": 5,
-    "stars_per_day": 126.2,
-    "lifetime_stars_per_day": 593.99,
+    "stars_per_day": 130.4,
+    "lifetime_stars_per_day": 591.97,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 37422,
+    "readme_chars": 37672,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -55,15 +55,15 @@
     ],
     "capability_evidence": {
       "auto-failover": "and /diagram always use gstack's bundled browser.",
-      "multi-agent-orchestration": "cause and re-verify before committing.",
-      "worktree-isolation": "es; blocks below 7/10), fail-closed secret redaction, dedupe against existing issues, archive to $GSTACK_STATE_ROOT/projects/$SLUG/specs/ for team-corpus recall.",
+      "multi-agent-orchestration": "use and re-verify before committing.",
+      "worktree-isolation": "sses; blocks below 7/10), fail-closed secret redaction, dedupe against existing issues, archive to $GSTACKSTATEROOT/projects/$SLUG/specs/ for team-corpus recall.",
       "model-routing": "deterministic aside repl scripts.",
-      "memory-context": "ice-input aliases many skills carry, have their own pages.",
+      "memory-context": "voice-input aliases many skills carry, have their own pages.",
       "skills-plugins": "--single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack f…",
       "agent-runtime": "gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production…",
       "mcp-support": "/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing and never use mcp\\\\claude-in-chro…",
       "security-isolation": "HTTP-capable agent on your Tailscale tailnet so remote agents can run iOS QA without ever touching the hardware.",
-      "notifications": "fake clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.",
+      "notifications": "ke clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
     },
     "capability_hits": {
@@ -77,7 +77,7 @@
       "mcp-support": 1,
       "security-isolation": 1,
       "notifications": 2,
-      "cross-agent-support": 7
+      "cross-agent-support": 8
     },
     "friction": {
       "level": "high",
@@ -125,6 +125,7 @@
     "agents": [
       "Claude Code",
       "Codex",
+      "Gemini CLI",
       "OpenCode",
       "Cursor",
       "Copilot",
@@ -138,7 +139,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.347
+      "external_link_ratio": 0.345
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -150,7 +151,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:25:49+00:00",
+  "fetched_at": "2026-11-01T11:18:14+00:00",
   "categories": [
     "desktop-ui",
     "failover",

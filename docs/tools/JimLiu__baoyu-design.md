@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,592 |
-| Star velocity | 217.6/day (history basis, 5d span) |
+| Stars | 5,712 |
+| Star velocity | 240.4/day (history basis, 5d span) |
 | Health score | 86/100 |
-| Documentation | 56/100 |
+| Documentation | 57/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-07 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 16,069 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 19,115 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -57,7 +57,7 @@
 
 ## Documentation quality
 
-Score **56/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -72,10 +72,10 @@ Score **56/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.0 |
+| popularity | 75.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 56.0 |
+| documentation | 57.0 |
 | accessibility | 100.0 |
 
 ---

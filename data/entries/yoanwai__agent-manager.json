@@ -6,9 +6,9 @@
   "url": "https://github.com/YoanWai/agent-manager",
   "description": "The fastest developer workflow for every AI coding agent. Live status, quick prompts, worktrees, and diff review from one tmux TUI. Discord: discord.gg/ecS88An7pF",
   "homepage": "https://agent-manager.dev",
-  "stars": 627,
+  "stars": 631,
   "forks": 71,
-  "open_issues": 100,
+  "open_issues": 97,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "wsl"
   ],
   "created_at": "2026-07-15T16:27:33Z",
-  "updated_at": "2026-10-31T08:59:56Z",
-  "pushed_at": "2026-10-31T09:14:52Z",
+  "updated_at": "2026-11-01T00:01:54Z",
+  "pushed_at": "2026-11-01T07:40:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 107,
+  "age_days": 108,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 55.9,
-    "momentum": 0.5,
+    "popularity": 56.0,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 5.86,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 5.84,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,7 +149,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:28+00:00",
+  "fetched_at": "2026-11-01T11:19:05+00:00",
   "categories": [
     "teams-isolation"
   ],
@@ -176,14 +176,14 @@
         "notifications",
         "worktree-isolation"
       ],
-      "star_ratio": 54.129,
-      "momentum_ratio": 53.333,
+      "star_ratio": 53.826,
+      "momentum_ratio": 25.0,
       "setup_delta": -8,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "54.13x the stars (33,939 vs 627)",
-        "53.33x the star velocity (32.0/day vs 0.6/day)",
+        "53.83x the stars (33,964 vs 631)",
+        "25.00x the star velocity (30.0/day vs 1.2/day)",
         "no harder to set up (2 vs 10 friction)"
       ],
       "reasons_zh": [],
@@ -210,7 +210,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 74,
+        "challenger_health": 72,
         "incumbent_setup_score": 10,
         "challenger_setup_score": 2
       }

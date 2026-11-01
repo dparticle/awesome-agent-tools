@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,095 |
-| Star velocity | 46.6/day (history basis, 5d span) |
-| Health score | 64/100 |
-| Documentation | 58/100 |
+| Stars | 1,170 |
+| Star velocity | 56.4/day (history basis, 5d span) |
+| Health score | 66/100 |
+| Documentation | 57/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 20,140 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 19,939 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -74,7 +74,7 @@
 
 ## Documentation quality
 
-Score **58/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -85,16 +85,15 @@ Score **58/100**, based on these detected signals:
 - mentions licensing
 - documents changes
 - publishes a roadmap
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 60.8 |
-| momentum | 38.8 |
+| popularity | 61.4 |
+| momentum | 47.0 |
 | maintenance | 100.0 |
-| documentation | 58.0 |
+| documentation | 57.0 |
 | accessibility | 66.0 |
 
 ---

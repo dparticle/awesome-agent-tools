@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 162,
-  "days_since_push": 93,
+  "age_days": 163,
+  "days_since_push": 94,
   "health_score": 41,
   "health_components": {
     "popularity": 52.9,
-    "momentum": 0.2,
+    "momentum": 0.1,
     "maintenance": 55.0,
     "documentation": 50.0,
     "accessibility": 63.0
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 1,
-    "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.72,
+    "days_span": 6,
+    "stars_per_day": 0.17,
+    "lifetime_stars_per_day": 2.7,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -123,7 +123,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:39+00:00",
+  "fetched_at": "2026-11-01T11:19:17+00:00",
   "categories": [
     "analytics",
     "desktop-ui"
@@ -131,15 +131,15 @@
   "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "autoloops/greplica",
-      "challenger": "rohitg00/agentmemory",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "Autoloops/greplica",
-      "challenger_name": "rohitg00/agentmemory",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -151,14 +151,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 68.277,
-      "momentum_ratio": 145.0,
+      "star_ratio": 25.93,
+      "momentum_ratio": 287.059,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "68.28x the stars (30,042 vs 440)",
-        "145.00x the star velocity (29.0/day vs 0.2/day)",
+        "25.93x the stars (11,409 vs 440)",
+        "287.06x the star velocity (48.8/day vs 0.2/day)",
         "no harder to set up (32 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -173,24 +173,22 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
+          "parallel-execution",
           "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "worktree-isolation"
         ],
         "incumbent_health": 41,
-        "challenger_health": 71,
+        "challenger_health": 73,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 32
       }

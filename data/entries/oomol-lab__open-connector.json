@@ -6,9 +6,9 @@
   "url": "https://github.com/oomol-lab/open-connector",
   "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 6146,
-  "forks": 581,
-  "open_issues": 7,
+  "stars": 6156,
+  "forks": 585,
+  "open_issues": 13,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -32,27 +32,27 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-10-31T03:26:29Z",
-  "pushed_at": "2026-10-31T03:13:30Z",
+  "updated_at": "2026-11-01T06:27:54Z",
+  "pushed_at": "2026-11-01T03:16:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 123,
+  "age_days": 125,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 57,
   "health_components": {
     "popularity": 75.8,
-    "momentum": 9.0,
+    "momentum": 9.2,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 54,
+    "stars_gained": 55,
     "days_span": 5,
-    "stars_per_day": 10.8,
-    "lifetime_stars_per_day": 49.97,
+    "stars_per_day": 11.0,
+    "lifetime_stars_per_day": 49.25,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -138,10 +138,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:25:39+00:00",
+  "fetched_at": "2026-11-01T11:18:02+00:00",
   "categories": [
-    "analytics",
-    "failover"
+    "analytics"
   ],
   "primary_category": "analytics",
   "lifecycle": {
@@ -165,14 +164,14 @@
         "model-routing",
         "self-hosted"
       ],
-      "star_ratio": 47.778,
-      "momentum_ratio": 83.037,
+      "star_ratio": 47.818,
+      "momentum_ratio": 75.291,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "47.78x the stars (293,644 vs 6,146)",
-        "83.04x the star velocity (896.8/day vs 10.8/day)",
+        "47.82x the stars (294,370 vs 6,156)",
+        "75.29x the star velocity (828.2/day vs 11.0/day)",
         "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],
@@ -201,7 +200,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 56,
+        "incumbent_health": 57,
         "challenger_health": 89,
         "incumbent_setup_score": 72,
         "challenger_setup_score": 57

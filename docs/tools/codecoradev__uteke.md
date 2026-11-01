@@ -2,7 +2,7 @@
 
 # codecoradev/uteke
 
-> Give your AI a memory that never leaves your machine.
+> One Rust binary, runs offline, no API key.
 
 [Repository](https://github.com/codecoradev/uteke) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,62 +12,60 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 280 |
-| Star velocity | 1.8/day (lifetime basis, 155d span) |
-| Health score | 54/100 |
-| Documentation | 63/100 |
+| Stars | 281 |
+| Star velocity | 1.8/day (lifetime basis, 156d span) |
+| Health score | 51/100 |
+| Documentation | 61/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-05-29 |
-| Last push | 2026-10-30 (1 days ago) |
-| Analyzed README | 22,277 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 24,126 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> (default): single binary, zero infrastructure.
-
-### Model / provider routing
-
-> al quality ✅ Full (identical engine) ✅ Identical (parity-benchmarked)
+> rged by Reciprocal Rank Fusion (RRF).
 
 ### Memory & context
 
-> so built in: uteke bench --counts 100,1000,10000 for latency/throughput on
+> **Docker / server mode**: for teams or remote agents.
 
 ### MCP support
 
-> (no Python runtime), native time-travel (vs temporal triples), rooms, and zero runtime dependencies.
+> **One binary.** No Python, no Docker, no vector database, no API key.
 
 ### Self-hostable
 
-> d) require cloud API keys (OpenAI/LLM) and external infrastructure (Docker, Postgres, Qdrant).
+> Windows (PowerShell)** powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/codecoradev/uteke/main/install.ps1 \ iex"
 
 ### Cross-agent support
 
-> Mentions Claude Code, Copilot, Cursor
+> Mentions Claude Code, Cursor
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 22/100)
+- **Difficulty:** 🟡 Some setup (friction score 37/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -sSL codecora.dev/uteke/install | sh`
 
-**Signals that make it easy:** Homebrew install, cargo install, PowerShell irm | iex installer
+**Signals that make it easy:** Homebrew install, cargo install
 
 **Signals that add work:** docker run, cargo build
 
-**Configuration required:** database dependency
+**Configuration required:** sign-in required, database dependency
 
-*Easy. install via Homebrew install, cargo install; needs docker run, cargo build; configure database dependency*
+*Some setup. install via Homebrew install, cargo install; needs docker run, cargo build; configure sign-in required, database dependency*
 
 ## Documentation quality
 
-Score **63/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -77,7 +75,6 @@ Score **63/100**, based on these detected signals:
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
-- publishes a roadmap
 - reports benchmarks
 - explains architecture
 - long, detailed README
@@ -86,11 +83,11 @@ Score **63/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 48.9 |
+| popularity | 49.0 |
 | momentum | 1.5 |
 | maintenance | 100.0 |
-| documentation | 63.0 |
-| accessibility | 78.0 |
+| documentation | 61.0 |
+| accessibility | 63.0 |
 
 ---
 

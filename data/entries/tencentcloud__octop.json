@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 11384,
-  "forks": 1512,
-  "open_issues": 790,
+  "stars": 11409,
+  "forks": 1518,
+  "open_issues": 799,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-10-31T10:08:15Z",
-  "pushed_at": "2026-10-28T09:14:48Z",
+  "updated_at": "2026-11-01T11:15:35Z",
+  "pushed_at": "2026-11-01T10:40:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
-  "days_since_push": 3,
-  "health_score": 75,
+  "age_days": 115,
+  "days_since_push": 0,
+  "health_score": 73,
   "health_components": {
     "popularity": 81.1,
-    "momentum": 46.2,
+    "momentum": 40.7,
     "maintenance": 100.0,
     "documentation": 79.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 277,
+    "stars_gained": 244,
     "days_span": 5,
-    "stars_per_day": 55.4,
-    "lifetime_stars_per_day": 99.86,
+    "stars_per_day": 48.8,
+    "lifetime_stars_per_day": 99.21,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -190,13 +190,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:25:33+00:00",
+  "fetched_at": "2026-11-01T11:17:54+00:00",
   "categories": [
-    "desktop-ui",
-    "model-routing",
-    "teams"
+    "analytics",
+    "desktop-ui-2",
+    "teams-isolation"
   ],
-  "primary_category": "teams",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,7 +6,7 @@
   "url": "https://github.com/fatwang2/search2ai",
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
-  "stars": 1285,
+  "stars": 1286,
   "forks": 193,
   "open_issues": 17,
   "language": "TypeScript",
@@ -28,26 +28,26 @@
     "web-search"
   ],
   "created_at": "2023-12-18T02:02:46Z",
-  "updated_at": "2026-10-30T18:10:37Z",
+  "updated_at": "2026-11-01T06:29:16Z",
   "pushed_at": "2026-10-22T16:34:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1048,
-  "days_since_push": 8,
+  "age_days": 1049,
+  "days_since_push": 9,
   "health_score": 49,
   "health_components": {
     "popularity": 62.2,
-    "momentum": 0.5,
+    "momentum": 0.6,
     "maintenance": 92.0,
     "documentation": 64.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
-    "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_gained": 4,
+    "days_span": 6,
+    "stars_per_day": 0.67,
     "lifetime_stars_per_day": 1.23,
     "basis": "history",
     "is_fast_riser": false
@@ -146,76 +146,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:17+00:00",
+  "fetched_at": "2026-11-01T11:18:51+00:00",
   "categories": [
-    "analytics",
     "memory-mcp"
   ],
-  "primary_category": "analytics",
+  "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "fatwang2/search2ai",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "fatwang2/search2ai",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "mcp-support",
-        "model-routing",
-        "parallel-execution",
-        "self-hosted"
-      ],
-      "star_ratio": 228.517,
-      "momentum_ratio": 1494.667,
-      "setup_delta": -16,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "228.52x the stars (293,644 vs 1,285)",
-        "1494.67x the star velocity (896.8/day vs 0.6/day)",
-        "no harder to set up (57 vs 73 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "mcp-support",
-          "model-routing",
-          "parallel-execution",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 49,
-        "challenger_health": 89,
-        "incumbent_setup_score": 73,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

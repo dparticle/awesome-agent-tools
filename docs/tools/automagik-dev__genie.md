@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-01 |
-| Last push | 2026-10-30 (0 days ago) |
+| Last push | 2026-10-30 (1 days ago) |
 | Analyzed README | 17,415 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (7/7).

@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 8458,
   "forks": 25,
-  "open_issues": 49,
+  "open_issues": 50,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 110,
-  "days_since_push": 9,
+  "age_days": 111,
+  "days_since_push": 10,
   "health_score": 56,
   "health_components": {
     "popularity": 78.5,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 76.89,
+    "lifetime_stars_per_day": 76.2,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -107,7 +107,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:25:37+00:00",
+  "fetched_at": "2026-11-01T11:17:59+00:00",
   "categories": [
     "memory-mcp"
   ],

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 78,967 |
-| Star velocity | 310.6/day (history basis, 5d span) |
+| Stars | 79,140 |
+| Star velocity | 280.0/day (history basis, 5d span) |
 | Health score | 91/100 |
 | Documentation | 74/100 |
 | Tier | 🏆 Flagship |
@@ -21,18 +21,18 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-04-04 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 48,958 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 49,012 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Model / provider routing
 
-> s the same in longer words.
+> says the same in longer words.
 
 ### API gateway / proxy
 
-> s the same in longer words.
+> says the same in longer words.
 
 ### Skills & plugins
 
@@ -82,7 +82,7 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 97.9 |
+| popularity | 98.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 74.0 |

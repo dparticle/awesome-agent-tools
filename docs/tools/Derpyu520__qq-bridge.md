@@ -2,7 +2,7 @@
 
 # Derpyu520/qq-bridge
 
-> English: README.en.md | 中文: README.md
+> English · 安装指南 · 问题反馈
 
 [Repository](https://github.com/Derpyu520/qq-bridge) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,89 +12,67 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,349 |
-| Star velocity | 50.0/day (lifetime basis, 67d span) |
-| Health score | 60/100 |
-| Documentation | 44/100 |
-| Tier | 🔹 Notable |
+| Stars | 3,396 |
+| Star velocity | 76.2/day (history basis, 5d span) |
+| Health score | 66/100 |
+| Documentation | 45/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-08-25 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 20,185 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 3,377 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Multi-account switching
-
-> snowluma.accessToken OneBot accessToken，未配置留空 snowluma.followDiscoveredEndpoint 默认 true。
-
-### Multi-agent orchestration
-
 ### Model / provider routing
 
-> onfig.example.json 为 config.json 后编辑：
+> nowLuma：请自行按上游文档安装、启动并登录，开启 OneBot WebSocket 服务端和 HTTP API。
 
-### API gateway / proxy
+### Usage analytics
 
-> SnowLuma *运行时（QQ 网关本体） **1.14.20 已实测（1.14.9 亦兼容） 实测记录（2026-10-03，SnowLuma 1.14.20 + QQ 在线）：包 SHA256 与官方发布摘要一致；心跳 status.good=true／interval=30000；桥接走完「首次 1006 → 自愈 WS token → 已连接」；收到群消息（lastPacketKind: message/group）
-
-### Session persistence
-
-> - DSH 侧：适配 DSH 0.1.2 起引入、0.2.1-rc.2 上逐项复核的协议——用本机持久化签名密钥铸造会话 Cookie 鉴权、/api/ / 斜杠 RPC、/api/remote.mux + session/follow 事件流（session/control 的队列读 value.projections[ ].values.inbox，另有一元 session/projections 主路径）；复用 Abstract…
-
-### Agent runtime
-
-> agent preset，reserved2 使用 qq-chat-v2。
+> 用二代仿真模式（reserved2），会选择性发言；测试收发时可先切到 chat，再从白名单会话发送消息。
 
 ### MCP support
 
-> session/projections 主路径）；复用 AbstractApiClient 传输层但不再依赖旧版 zod value schema。
-
 ### Security & isolation
-
-> > > 🔒 QQ 会话的权限边界与安全承诺见 RULES.md。
-
-### GUI / desktop app
-
-### Notifications
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 71/100)
+- **Difficulty:** 🔴 Involved (friction score 66/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npm install        # 安装依赖（postinstall 会自动修补 @snowluma/sdk 的 ESM 打包 bug）`
+- **Quickest install:** `npm install`
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, config.json/yaml/toml, config file
+**Configuration required:** config.json/yaml/toml
 
-*Involved setup. needs git clone (build from source), npm install/build; configure API key configuration, config.json/yaml/toml; GUI application*
+*Involved setup. needs git clone (build from source), npm install/build; configure config.json/yaml/toml*
 
 ## Documentation quality
 
-Score **44/100**, based on these detected signals:
+Score **45/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
+- has a quick-start section
 - documents installation
 - documents configuration
+- has contribution guidance
 - mentions licensing
 - has a table of contents
-- explains architecture
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 70.5 |
-| momentum | 41.7 |
+| popularity | 70.6 |
+| momentum | 63.5 |
 | maintenance | 100.0 |
-| documentation | 44.0 |
-| accessibility | 29.0 |
+| documentation | 45.0 |
+| accessibility | 34.0 |
 
 ---
 

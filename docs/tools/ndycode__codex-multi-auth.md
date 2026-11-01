@@ -15,22 +15,26 @@
 | Stars | 561 |
 | Star velocity | 1.0/day (history basis, 5d span) |
 | Health score | 54/100 |
-| Documentation | 62/100 |
+| Documentation | 63/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-22 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 11,244 chars from `raw:HEAD/README.md` |
+| Last push | 2026-10-31 (1 days ago) |
+| Analyzed README | 13,221 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (6/6).
 
 ## What it solves
 
 ### Multi-account switching
 
 > OpenAI install keeps owning that command.
+
+### Automatic failover
+
+> pports Global and US endpoints per credential.
 
 ### API gateway / proxy
 
@@ -42,7 +46,7 @@
 
 ### Voice input
 
-> ing, or let health- and quota-aware hybrid selection rotate for you.
+> let health- and quota-aware hybrid selection rotate for you.
 
 ### Cross-agent support
 
@@ -61,7 +65,7 @@
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **63/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -81,7 +85,7 @@ Score **62/100**, based on these detected signals:
 | popularity | 55.0 |
 | momentum | 0.8 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
+| documentation | 63.0 |
 | accessibility | 67.0 |
 
 ---

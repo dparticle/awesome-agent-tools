@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 145,
-  "days_since_push": 3,
+  "age_days": 146,
+  "days_since_push": 4,
   "health_score": 54,
   "health_components": {
     "popularity": 57.9,
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 786,
-    "days_span": 145,
-    "stars_per_day": 5.42,
-    "lifetime_stars_per_day": 5.42,
+    "days_span": 146,
+    "stars_per_day": 5.38,
+    "lifetime_stars_per_day": 5.38,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -176,10 +176,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:25+00:00",
+  "fetched_at": "2026-11-01T11:19:01+00:00",
   "categories": [
     "desktop-ui",
-    "model-routing",
+    "desktop-ui-2",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",

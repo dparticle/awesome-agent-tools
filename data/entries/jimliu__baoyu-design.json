@@ -6,9 +6,9 @@
   "url": "https://github.com/JimLiu/baoyu-design",
   "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
   "homepage": "",
-  "stars": 5592,
-  "forks": 426,
-  "open_issues": 1,
+  "stars": 5712,
+  "forks": 432,
+  "open_issues": 0,
   "language": "JavaScript",
   "license": "NOASSERTION",
   "topics": [
@@ -18,37 +18,39 @@
     "claude-design",
     "cursor",
     "design",
+    "dsh-plugin",
+    "dsh-plugins",
     "prototyping",
     "ui-design"
   ],
   "created_at": "2026-06-07T01:16:18Z",
-  "updated_at": "2026-10-31T10:18:40Z",
-  "pushed_at": "2026-10-31T08:21:31Z",
+  "updated_at": "2026-11-01T10:55:42Z",
+  "pushed_at": "2026-11-01T09:40:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
+  "age_days": 147,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
-    "popularity": 75.0,
+    "popularity": 75.1,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 56.0,
+    "documentation": 57.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1088,
+    "stars_gained": 1202,
     "days_span": 5,
-    "stars_per_day": 217.6,
-    "lifetime_stars_per_day": 38.3,
+    "stars_per_day": 240.4,
+    "lifetime_stars_per_day": 38.86,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "JimLiu/baoyu-design",
-    "readme_chars": 16069,
+    "readme_chars": 19115,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -90,7 +92,7 @@
       "note_en": "Turnkey. install via npx one-liner, native installer / package; GUI application",
       "note_zh": "开箱即用。可通过 npx one-liner、native installer / package 安装；GUI application"
     },
-    "doc_score": 56,
+    "doc_score": 57,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -116,7 +118,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.996
+      "external_link_ratio": 0.837
     },
     "highlights": [
       "Best with Opus 5.5. The skill is a long, demanding design brief; the stronger the model, the better the result. Pair it with Claude Opus 5.5 for the best output, and it still works well on…",
@@ -136,7 +138,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:25:40+00:00",
+  "fetched_at": "2026-11-01T11:18:03+00:00",
   "categories": [
     "desktop-ui",
     "model-routing"

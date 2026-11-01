@@ -6,7 +6,7 @@
   "url": "https://github.com/tigerless-labs/autoharness",
   "description": "Building the self-learning layer next-gen agents will ship with, learning skills from real work.",
   "homepage": "https://github.com/tigerless-labs/autoharness",
-  "stars": 10530,
+  "stars": 10578,
   "forks": 645,
   "open_issues": 34,
   "language": "Python",
@@ -19,29 +19,29 @@
     "python"
   ],
   "created_at": "2026-06-09T21:05:42Z",
-  "updated_at": "2026-10-31T10:22:30Z",
+  "updated_at": "2026-11-01T11:02:26Z",
   "pushed_at": "2026-10-30T18:53:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 143,
-  "days_since_push": 0,
-  "health_score": 66,
+  "age_days": 144,
+  "days_since_push": 1,
+  "health_score": 57,
   "health_components": {
-    "popularity": 80.4,
-    "momentum": 36.0,
+    "popularity": 80.5,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 64.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 993,
-    "days_span": 23,
-    "stars_per_day": 43.17,
-    "lifetime_stars_per_day": 73.64,
+    "stars_gained": 9,
+    "days_span": 10,
+    "stars_per_day": 0.9,
+    "lifetime_stars_per_day": 73.46,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tigerless-labs/autoharness",
@@ -116,9 +116,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:25:34+00:00",
+  "fetched_at": "2026-11-01T11:17:56+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -142,14 +143,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 4.641,
-      "momentum_ratio": 3.917,
+      "star_ratio": 4.628,
+      "momentum_ratio": 187.544,
       "setup_delta": -6,
-      "dominance": 0.97,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "4.64x the stars (48,874 vs 10,530)",
-        "3.92x the star velocity (169.1/day vs 43.2/day)",
+        "4.63x the stars (48,950 vs 10,578)",
+        "187.54x the star velocity (168.8/day vs 0.9/day)",
         "no harder to set up (30 vs 36 friction)"
       ],
       "reasons_zh": [],
@@ -176,7 +177,7 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 66,
+        "incumbent_health": 57,
         "challenger_health": 92,
         "incumbent_setup_score": 36,
         "challenger_setup_score": 30

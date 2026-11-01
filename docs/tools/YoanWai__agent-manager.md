@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 627 |
-| Star velocity | 0.6/day (history basis, 5d span) |
+| Stars | 631 |
+| Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 57/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-07-15 |
-| Last push | 2026-10-31 (0 days ago) |
+| Last push | 2026-11-01 (0 days ago) |
 | Analyzed README | 20,562 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
@@ -80,8 +80,8 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.9 |
-| momentum | 0.5 |
+| popularity | 56.0 |
+| momentum | 1.0 |
 | maintenance | 100.0 |
 | documentation | 57.0 |
 | accessibility | 90.0 |

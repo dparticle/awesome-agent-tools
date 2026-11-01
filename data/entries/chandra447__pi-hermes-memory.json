@@ -6,7 +6,7 @@
   "url": "https://github.com/chandra447/pi-hermes-memory",
   "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
   "homepage": "",
-  "stars": 509,
+  "stars": 510,
   "forks": 131,
   "open_issues": 39,
   "language": "TypeScript",
@@ -19,27 +19,27 @@
     "pi"
   ],
   "created_at": "2026-04-23T12:03:56Z",
-  "updated_at": "2026-10-30T20:55:19Z",
+  "updated_at": "2026-10-31T15:27:10Z",
   "pushed_at": "2026-10-25T06:22:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 190,
-  "days_since_push": 6,
+  "age_days": 191,
+  "days_since_push": 7,
   "health_score": 49,
   "health_components": {
-    "popularity": 54.1,
-    "momentum": 1.2,
+    "popularity": 54.2,
+    "momentum": 1.1,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 16.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
-    "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 2.68,
+    "stars_gained": 8,
+    "days_span": 6,
+    "stars_per_day": 1.33,
+    "lifetime_stars_per_day": 2.67,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,9 +137,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:34+00:00",
+  "fetched_at": "2026-11-01T11:19:12+00:00",
   "categories": [
-    "desktop-ui-2",
     "failover"
   ],
   "primary_category": "failover",

@@ -7,7 +7,7 @@
   "description": "A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
   "homepage": "https://psantanna.com/claude-code-my-workflow/",
   "stars": 1675,
-  "forks": 3137,
+  "forks": 3138,
   "open_issues": 6,
   "language": "HTML",
   "license": "MIT",
@@ -29,22 +29,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
-  "days_since_push": 33,
+  "age_days": 267,
+  "days_since_push": 34,
   "health_score": 56,
   "health_components": {
     "popularity": 64.5,
-    "momentum": 1.2,
+    "momentum": 0.7,
     "maintenance": 78.0,
     "documentation": 76.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 6.3,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 6.27,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -155,10 +155,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:12+00:00",
+  "fetched_at": "2026-11-01T11:18:45+00:00",
   "categories": [
     "desktop-ui",
-    "failover",
+    "memory-mcp",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",

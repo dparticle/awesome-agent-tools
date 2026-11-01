@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,768 |
-| Star velocity | 636.4/day (history basis, 5d span) |
+| Stars | 8,873 |
+| Star velocity | 369.2/day (history basis, 5d span) |
 | Health score | 79/100 |
 | Documentation | 54/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-22 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 13,900 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 14,984 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,7 +30,7 @@
 
 ### Mobile access
 
-> ch Linux and Omarchy installation guide
+> igration from a manual install.
 
 ### Multi-agent orchestration
 
@@ -92,7 +92,7 @@ Score **54/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.9 |
+| popularity | 79.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 54.0 |

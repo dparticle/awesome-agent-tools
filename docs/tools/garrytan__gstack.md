@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 138,400 |
-| Star velocity | 126.2/day (history basis, 5d span) |
+| Stars | 138,521 |
+| Star velocity | 130.4/day (history basis, 5d span) |
 | Health score | 88/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 37,422 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 37,672 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,11 +32,11 @@
 
 ### Multi-agent orchestration
 
-> cause and re-verify before committing.
+> use and re-verify before committing.
 
 ### Workspace isolation
 
-> es; blocks below 7/10), fail-closed secret redaction, dedupe against existing issues, archive to $GSTACK_STATE_ROOT/projects/$SLUG/specs/ for team-corpus recall.
+> sses; blocks below 7/10), fail-closed secret redaction, dedupe against existing issues, archive to $GSTACKSTATEROOT/projects/$SLUG/specs/ for team-corpus recall.
 
 ### Model / provider routing
 
@@ -44,7 +44,7 @@
 
 ### Memory & context
 
-> ice-input aliases many skills carry, have their own pages.
+> voice-input aliases many skills carry, have their own pages.
 
 ### Skills & plugins
 
@@ -64,7 +64,7 @@
 
 ### Notifications
 
-> fake clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.
+> ke clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.
 
 ### Cross-agent support
 

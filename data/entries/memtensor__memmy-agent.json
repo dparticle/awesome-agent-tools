@@ -6,7 +6,7 @@
   "url": "https://github.com/MemTensor/memmy-agent",
   "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
   "homepage": "https://memmy.bot",
-  "stars": 2167,
+  "stars": 2168,
   "forks": 212,
   "open_issues": 60,
   "language": "TypeScript",
@@ -34,29 +34,29 @@
     "tui"
   ],
   "created_at": "2026-07-16T07:57:45Z",
-  "updated_at": "2026-10-31T08:19:37Z",
-  "pushed_at": "2026-10-31T02:29:14Z",
+  "updated_at": "2026-11-01T04:25:53Z",
+  "pushed_at": "2026-11-01T05:43:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 107,
+  "age_days": 108,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 66.7,
-    "momentum": 4.0,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 24,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 20.25,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 20.07,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "MemTensor/memmy-agent",
@@ -162,13 +162,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-10-31T10:26:09+00:00",
+  "fetched_at": "2026-11-01T11:18:41+00:00",
   "categories": [
-    "failover",
-    "model-routing",
-    "teams"
+    "analytics",
+    "desktop-ui-2",
+    "model-routing"
   ],
-  "primary_category": "teams",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
@@ -193,14 +193,14 @@
         "model-routing",
         "team-collaboration"
       ],
-      "star_ratio": 5.253,
-      "momentum_ratio": 11.542,
+      "star_ratio": 5.262,
+      "momentum_ratio": 12.2,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "5.25x the stars (11,384 vs 2,167)",
-        "11.54x the star velocity (55.4/day vs 4.8/day)",
+        "5.26x the stars (11,409 vs 2,168)",
+        "12.20x the star velocity (48.8/day vs 4.0/day)",
         "no harder to set up (32 vs 42 friction)"
       ],
       "reasons_zh": [],
@@ -232,7 +232,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 75,
+        "challenger_health": 73,
         "incumbent_setup_score": 42,
         "challenger_setup_score": 32
       }
