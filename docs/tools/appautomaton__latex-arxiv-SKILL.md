@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TeX |
 | Created | 2025-03-18 |
-| Last push | 2026-09-13 (48 days ago) |
+| Last push | 2026-09-13 (49 days ago) |
 | Analyzed README | 7,515 chars from `raw:HEAD/README.md` |
 
 ## What it solves

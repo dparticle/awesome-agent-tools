@@ -23,12 +23,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 130,
-  "days_since_push": 3,
+  "age_days": 131,
+  "days_since_push": 4,
   "health_score": 52,
   "health_components": {
     "popularity": 52.7,
-    "momentum": 2.8,
+    "momentum": 2.7,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 70.0
@@ -36,9 +36,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 432,
-    "days_span": 130,
-    "stars_per_day": 3.32,
-    "lifetime_stars_per_day": 3.32,
+    "days_span": 131,
+    "stars_per_day": 3.3,
+    "lifetime_stars_per_day": 3.3,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -149,13 +149,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:18+00:00",
+  "fetched_at": "2026-11-02T12:26:26+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "desktop-ui-2",
-    "teams-isolation"
+    "model-routing"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

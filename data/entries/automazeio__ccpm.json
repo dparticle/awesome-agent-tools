@@ -25,8 +25,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 439,
-  "days_since_push": 13,
+  "age_days": 440,
+  "days_since_push": 14,
   "health_score": 53,
   "health_components": {
     "popularity": 78.5,
@@ -40,7 +40,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 19.19,
+    "lifetime_stars_per_day": 19.15,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,8 +142,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:31+00:00",
+  "fetched_at": "2026-11-02T12:25:47+00:00",
   "categories": [
+    "notifications",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",

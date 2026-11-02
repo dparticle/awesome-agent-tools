@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 417 |
 | Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 45/100 |
+| Health score | 42/100 |
 | Documentation | 36/100 |
-| Tier | 🔹 Notable |
+| Tier | 👀 Watchlist |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | n/a |
 | Created | 2025-04-02 |
-| Last push | 2026-10-01 (30 days ago) |
+| Last push | 2026-10-01 (31 days ago) |
 | Analyzed README | 21,729 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -63,7 +63,7 @@ Score **36/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 52.4 |
 | momentum | 0.0 |
-| maintenance | 92.0 |
+| maintenance | 78.0 |
 | documentation | 36.0 |
 | accessibility | 52.0 |
 

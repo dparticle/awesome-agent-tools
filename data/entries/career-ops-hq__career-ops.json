@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
   "homepage": "https://career-ops.org",
-  "stars": 79140,
-  "forks": 14607,
-  "open_issues": 503,
+  "stars": 79436,
+  "forks": 14651,
+  "open_issues": 502,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "resume"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-11-01T11:14:38Z",
-  "pushed_at": "2026-11-01T06:00:27Z",
+  "updated_at": "2026-11-02T12:21:42Z",
+  "pushed_at": "2026-11-02T10:33:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 210,
+  "age_days": 211,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1400,
+    "stars_gained": 1368,
     "days_span": 5,
-    "stars_per_day": 280.0,
-    "lifetime_stars_per_day": 376.86,
+    "stars_per_day": 273.6,
+    "lifetime_stars_per_day": 376.47,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -160,12 +160,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:20+00:00",
+  "fetched_at": "2026-11-02T12:25:38+00:00",
   "categories": [
-    "desktop-ui-2",
+    "memory-mcp",
     "model-routing"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

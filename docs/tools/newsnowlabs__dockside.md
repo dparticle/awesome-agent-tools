@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2021-09-12 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 25,646 chars from `raw:HEAD/docs/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 25,556 chars from `raw:HEAD/docs/README.md` |
 
 ## What it solves
 
@@ -42,7 +42,7 @@
 
 ### Self-hostable
 
-> d Dockside enforces the rules — without requiring elevated container capabilities or weakening isolation.
+> https://github.com/user-attachments/assets/2c5eb71b-9fcc-432a-9f4c-e3d0df4a380a
 
 ### Team collaboration
 

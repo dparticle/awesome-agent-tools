@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,136 |
-| Star velocity | 3.0/day (history basis, 5d span) |
+| Stars | 1,137 |
+| Star velocity | 2.4/day (history basis, 5d span) |
 | Health score | 55/100 |
-| Documentation | 57/100 |
+| Documentation | 58/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
-| Language | TypeScript |
+| Language | JavaScript |
 | Created | 2026-03-05 |
-| Last push | 2026-10-31 (1 days ago) |
-| Analyzed README | 14,791 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 15,557 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -47,6 +47,8 @@
 > ns, tool-flow graphs, concurrency, delegation, and compaction analysis.
 
 ### GUI / desktop app
+
+> e safeguard for the exact compared fields.
 
 ### Notifications
 
@@ -73,7 +75,7 @@
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **58/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -90,9 +92,9 @@ Score **57/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 61.1 |
-| momentum | 2.5 |
+| momentum | 2.0 |
 | maintenance | 100.0 |
-| documentation | 57.0 |
+| documentation | 58.0 |
 | accessibility | 70.0 |
 
 ---

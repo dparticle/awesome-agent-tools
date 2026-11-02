@@ -8,7 +8,7 @@
   "homepage": "https://thememoria.ai/",
   "stars": 621,
   "forks": 80,
-  "open_issues": 71,
+  "open_issues": 76,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -25,8 +25,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 236,
-  "days_since_push": 1,
+  "age_days": 237,
+  "days_since_push": 2,
   "health_score": 51,
   "health_components": {
     "popularity": 55.9,
@@ -40,7 +40,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.63,
+    "lifetime_stars_per_day": 2.62,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,79 +139,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:05+00:00",
+  "fetched_at": "2026-11-02T12:26:16+00:00",
   "categories": [
-    "analytics",
     "analytics-2",
-    "memory-mcp"
+    "analytics-3"
   ],
-  "primary_category": "analytics",
+  "primary_category": "analytics-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "matrixorigin/memoria",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "matrixorigin/memoria",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "security-isolation",
-        "self-hosted",
-        "worktree-isolation"
-      ],
-      "star_ratio": 474.026,
-      "momentum_ratio": 1035.25,
-      "setup_delta": -6,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "474.03x the stars (294,370 vs 621)",
-        "1035.25x the star velocity (828.2/day vs 0.8/day)",
-        "no harder to set up (57 vs 63 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "security-isolation",
-          "self-hosted",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 89,
-        "incumbent_setup_score": 63,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

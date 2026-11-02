@@ -7,7 +7,7 @@
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
   "stars": 892,
-  "forks": 75,
+  "forks": 74,
   "open_issues": 5,
   "language": "TypeScript",
   "license": "Apache-2.0",
@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 260,
-  "days_since_push": 1,
+  "age_days": 261,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 59.0,
-    "momentum": 3.3,
+    "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 20,
+    "stars_gained": 17,
     "days_span": 5,
-    "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 3.43,
+    "stars_per_day": 3.4,
+    "lifetime_stars_per_day": 3.42,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -182,18 +182,87 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:59+00:00",
+  "fetched_at": "2026-11-02T12:26:11+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "desktop-ui-2",
-    "failover"
+    "model-routing"
   ],
-  "primary_category": "failover",
+  "primary_category": "analytics",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (10/10).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (10/10)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "avids2/memorix",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "AVIDS2/memorix",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "session-persistence",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 330.889,
+      "momentum_ratio": 227.882,
+      "setup_delta": -16,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (10/10)",
+        "330.89x the stars (295,153 vs 892)",
+        "227.88x the star velocity (774.8/day vs 3.4/day)",
+        "no harder to set up (57 vs 73 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 89,
+        "incumbent_setup_score": 73,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

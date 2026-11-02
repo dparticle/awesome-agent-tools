@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 768 |
-| Star velocity | 3.3/day (lifetime basis, 234d span) |
+| Star velocity | 3.3/day (lifetime basis, 235d span) |
 | Health score | 53/100 |
 | Documentation | 28/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | not declared |
 | Language | Java |
 | Created | 2026-03-12 |
-| Last push | 2026-10-30 (2 days ago) |
-| Analyzed README | 2,124 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 2,493 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

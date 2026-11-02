@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 240,
-  "days_since_push": 53,
+  "age_days": 241,
+  "days_since_push": 54,
   "health_score": 43,
   "health_components": {
     "popularity": 54.4,
-    "momentum": 0.5,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 49.0,
     "accessibility": 37.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 2.18,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.17,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -118,16 +118,77 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:10+00:00",
+  "fetched_at": "2026-11-02T12:26:20+00:00",
   "categories": [
-    "failover"
+    "analytics"
   ],
-  "primary_category": "failover",
+  "primary_category": "analytics",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by bytedance/deer-flow: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 bytedance/deer-flow 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "bytedance/deer-flow",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "eliaalberti/cpr-compress-preserve-resume",
+      "challenger": "bytedance/deer-flow",
+      "incumbent_name": "EliaAlberti/cpr-compress-preserve-resume",
+      "challenger_name": "bytedance/deer-flow",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "memory-context",
+        "session-persistence",
+        "skills-plugins",
+        "usage-analytics"
+      ],
+      "star_ratio": 162.287,
+      "momentum_ratio": 336.0,
+      "setup_delta": -6,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "162.29x the stars (84,876 vs 523)",
+        "336.00x the star velocity (67.2/day vs 0.2/day)",
+        "no harder to set up (57 vs 63 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "memory-context",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 43,
+        "challenger_health": 79,
+        "incumbent_setup_score": 63,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

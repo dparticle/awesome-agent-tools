@@ -35,26 +35,26 @@
   ],
   "created_at": "2026-02-09T06:49:37Z",
   "updated_at": "2026-10-30T23:44:03Z",
-  "pushed_at": "2026-10-26T15:11:28Z",
+  "pushed_at": "2026-11-02T04:41:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 265,
-  "days_since_push": 5,
+  "age_days": 266,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.83,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.82,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,9 +135,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:14+00:00",
+  "fetched_at": "2026-11-02T12:26:23+00:00",
   "categories": [
-    "desktop-ui-2",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
@@ -162,14 +161,14 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.342,
-      "momentum_ratio": 15.0,
+      "star_ratio": 2.344,
+      "momentum_ratio": 48.0,
       "setup_delta": -21,
       "dominance": 0.944,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.34x the stars (1,136 vs 485)",
-        "15.00x the star velocity (3.0/day vs 0.2/day)",
+        "2.34x the stars (1,137 vs 485)",
+        "48.00x the star velocity (2.4/day vs 0.0/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],

@@ -2,7 +2,7 @@
 
 # Waishnav/devspace
 
-> Give ChatGPT a secure connection to your own machine and Turn ChatGPT into Codex
+> DevSpace is the agent-agnostic layer between the AI you talk to and the coding agents on your machine.
 
 [Repository](https://github.com/Waishnav/devspace) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,35 +12,41 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,350 |
-| Star velocity | 10.6/day (history basis, 5d span) |
-| Health score | 60/100 |
-| Documentation | 54/100 |
+| Stars | 5,370 |
+| Star velocity | 14.0/day (history basis, 5d span) |
+| Health score | 61/100 |
+| Documentation | 55/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-14 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 9,235 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-01 (0 days ago) |
+| Analyzed README | 10,118 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).
 
 ## What it solves
 
 ### Remote control
 
-> tions from AGENTS.md and CLAUDE.md
+> on't point it at anything that would violate your provider's terms.
 
 ### Multi-agent orchestration
 
-> nteract with tools, workflows, and systems.
+> you a review card of the diff — against your real
 
 ### Workspace isolation
 
+> , Claude Code, OpenCode, Pi,
+
+### Agent runtime
+
+> nt, a cheap one to explore, a second vendor to
+
 ### MCP support
 
-> Bring a Codex-style coding workflow to ChatGPT.
-
-### Self-hostable
+> a bug, delegating a review to Codex, and reviewing the changes
 
 ### GUI / desktop app
 
@@ -48,7 +54,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Cursor, OpenCode
+> Mentions Claude Code, Codex, Copilot, Cursor
 
 ## Setup reality check
 
@@ -67,7 +73,7 @@
 
 ## Documentation quality
 
-Score **54/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -83,9 +89,9 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.6 |
-| momentum | 8.8 |
+| momentum | 11.7 |
 | maintenance | 100.0 |
-| documentation | 54.0 |
+| documentation | 55.0 |
 | accessibility | 72.0 |
 
 ---

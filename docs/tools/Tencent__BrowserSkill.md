@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,869 |
-| Star velocity | 41.4/day (history basis, 5d span) |
+| Stars | 9,917 |
+| Star velocity | 39.8/day (history basis, 5d span) |
 | Health score | 68/100 |
 | Documentation | 60/100 |
 | Tier | ✅ Recommended |
@@ -21,12 +21,14 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-22 |
-| Last push | 2026-10-31 (0 days ago) |
-| Analyzed README | 35,568 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 35,893 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
+
+> uire the sync's observationid as --observation.
 
 ### GUI / desktop app
 
@@ -71,7 +73,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 79.9 |
-| momentum | 34.5 |
+| momentum | 33.2 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 66.0 |

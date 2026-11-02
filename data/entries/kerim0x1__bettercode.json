@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 41,
-  "days_since_push": 6,
+  "age_days": 42,
+  "days_since_push": 7,
   "health_score": 53,
   "health_components": {
     "popularity": 48.3,
@@ -42,7 +42,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.37,
+    "lifetime_stars_per_day": 6.21,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,77 +141,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:38+00:00",
+  "fetched_at": "2026-11-02T12:26:43+00:00",
   "categories": [
-    "analytics",
+    "mobile-remote-control",
     "model-routing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "TencentCloud/Octop",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "kerim0x1/bettercode",
-      "challenger": "tencentcloud/octop",
-      "incumbent_name": "kerim0x1/bettercode",
-      "challenger_name": "TencentCloud/Octop",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "billing-metering",
-        "cross-agent-support",
-        "gui-desktop",
-        "mobile-access",
-        "team-collaboration"
-      ],
-      "star_ratio": 43.713,
-      "momentum_ratio": 976.0,
-      "setup_delta": 8,
-      "dominance": 0.96,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "43.71x the stars (11,409 vs 261)",
-        "976.00x the star velocity (48.8/day vs 0.0/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mobile-access",
-          "team-collaboration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 53,
-        "challenger_health": 73,
-        "incumbent_setup_score": 24,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

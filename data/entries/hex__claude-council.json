@@ -6,7 +6,7 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 915,
+  "stars": 918,
   "forks": 106,
   "open_issues": 1,
   "language": "Shell",
@@ -31,26 +31,26 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-10-31T17:42:40Z",
-  "pushed_at": "2026-10-26T16:33:39Z",
+  "updated_at": "2026-11-02T08:52:58Z",
+  "pushed_at": "2026-11-01T19:37:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 318,
-  "days_since_push": 5,
-  "health_score": 50,
+  "age_days": 319,
+  "days_since_push": 0,
+  "health_score": 51,
   "health_components": {
-    "popularity": 59.2,
-    "momentum": 0.5,
+    "popularity": 59.3,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 1.4,
     "lifetime_stars_per_day": 2.88,
     "basis": "history",
     "is_fast_riser": false
@@ -146,18 +146,82 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:57+00:00",
+  "fetched_at": "2026-11-02T12:26:10+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "failover",
     "model-routing"
   ],
-  "primary_category": "failover",
+  "primary_category": "analytics",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "hex/claude-council",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "hex/claude-council",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "session-persistence"
+      ],
+      "star_ratio": 32.771,
+      "momentum_ratio": 16.714,
+      "setup_delta": -16,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "32.77x the stars (30,084 vs 918)",
+        "16.71x the star velocity (23.4/day vs 1.4/day)",
+        "no harder to set up (32 vs 48 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 70,
+        "incumbent_setup_score": 48,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

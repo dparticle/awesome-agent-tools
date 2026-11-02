@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 24,441 |
-| Star velocity | 20.4/day (history basis, 5d span) |
-| Health score | 65/100 |
+| Stars | 24,447 |
+| Star velocity | 14.8/day (history basis, 5d span) |
+| Health score | 64/100 |
 | Documentation | 29/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Swift |
 | Created | 2025-07-18 |
-| Last push | 2026-11-01 (0 days ago) |
+| Last push | 2026-11-02 (0 days ago) |
 | Analyzed README | 4,701 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -80,7 +80,7 @@ Score **29/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 87.8 |
-| momentum | 17.0 |
+| momentum | 12.3 |
 | maintenance | 100.0 |
 | documentation | 29.0 |
 | accessibility | 96.0 |

@@ -6,9 +6,9 @@
   "url": "https://github.com/spinabot/brigade",
   "description": "Brigade — Your personal intelligence, built enterprise-grade",
   "homepage": "https://www.brigade.spinabot.com",
-  "stars": 11365,
+  "stars": 11367,
   "forks": 79,
-  "open_issues": 41,
+  "open_issues": 42,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "spinabot"
   ],
   "created_at": "2026-06-19T15:18:17Z",
-  "updated_at": "2026-11-01T10:51:26Z",
-  "pushed_at": "2026-10-30T06:28:40Z",
+  "updated_at": "2026-11-02T08:50:47Z",
+  "pushed_at": "2026-11-02T03:58:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 134,
-  "days_since_push": 2,
+  "age_days": 135,
+  "days_since_push": 0,
   "health_score": 60,
   "health_components": {
     "popularity": 81.1,
@@ -54,7 +54,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 84.81,
+    "lifetime_stars_per_day": 84.2,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -193,11 +193,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:17:55+00:00",
+  "fetched_at": "2026-11-02T12:25:17+00:00",
   "categories": [
     "analytics",
-    "billing",
-    "failover"
+    "analytics-2",
+    "billing"
   ],
   "primary_category": "analytics",
   "lifecycle": {

@@ -6,9 +6,9 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
   "homepage": "https://theaioperator.io",
-  "stars": 5085,
-  "forks": 631,
-  "open_issues": 6,
+  "stars": 5102,
+  "forks": 633,
+  "open_issues": 8,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "second-brain"
   ],
   "created_at": "2026-03-24T11:58:12Z",
-  "updated_at": "2026-11-01T06:48:20Z",
-  "pushed_at": "2026-10-28T22:44:30Z",
+  "updated_at": "2026-11-02T10:19:14Z",
+  "pushed_at": "2026-11-01T15:29:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 221,
-  "days_since_push": 3,
-  "health_score": 66,
+  "age_days": 223,
+  "days_since_push": 0,
+  "health_score": 64,
   "health_components": {
-    "popularity": 74.1,
-    "momentum": 22.2,
+    "popularity": 74.2,
+    "momentum": 15.5,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 76.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 160,
-    "days_span": 6,
-    "stars_per_day": 26.67,
-    "lifetime_stars_per_day": 23.01,
+    "stars_gained": 93,
+    "days_span": 5,
+    "stars_per_day": 18.6,
+    "lifetime_stars_per_day": 22.88,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -177,9 +177,7 @@
       "signals": [],
       "external_link_ratio": 0.311
     },
-    "highlights": [
-      "Self-Improving Sovereign Agents — voices: @tom_doerr, @AIDailyGems"
-    ],
+    "highlights": [],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -189,13 +187,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:34+00:00",
+  "fetched_at": "2026-11-02T12:25:50+00:00",
   "categories": [
     "desktop-ui",
-    "memory-mcp",
-    "sharing-2"
+    "mobile-remote-control",
+    "notifications"
   ],
-  "primary_category": "sharing-2",
+  "primary_category": "mobile-remote-control",
   "lifecycle": {
     "state": "active",
     "note_en": "",

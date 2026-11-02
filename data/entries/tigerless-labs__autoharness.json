@@ -6,7 +6,7 @@
   "url": "https://github.com/tigerless-labs/autoharness",
   "description": "Building the self-learning layer next-gen agents will ship with, learning skills from real work.",
   "homepage": "https://github.com/tigerless-labs/autoharness",
-  "stars": 10578,
+  "stars": 10631,
   "forks": 645,
   "open_issues": 34,
   "language": "Python",
@@ -19,29 +19,29 @@
     "python"
   ],
   "created_at": "2026-06-09T21:05:42Z",
-  "updated_at": "2026-11-01T11:02:26Z",
-  "pushed_at": "2026-10-30T18:53:20Z",
+  "updated_at": "2026-11-02T12:21:04Z",
+  "pushed_at": "2026-11-02T12:23:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 144,
-  "days_since_push": 1,
-  "health_score": 57,
+  "age_days": 145,
+  "days_since_push": 0,
+  "health_score": 66,
   "health_components": {
     "popularity": 80.5,
-    "momentum": 0.8,
+    "momentum": 35.8,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 64.0
   },
-  "tier": "notable",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 9,
-    "days_span": 10,
-    "stars_per_day": 0.9,
-    "lifetime_stars_per_day": 73.46,
+    "stars_gained": 215,
+    "days_span": 5,
+    "stars_per_day": 43.0,
+    "lifetime_stars_per_day": 73.32,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tigerless-labs/autoharness",
@@ -116,72 +116,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:17:56+00:00",
+  "fetched_at": "2026-11-02T12:25:19+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2"
+    "notifications"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "notifications",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "tigerless-labs/autoharness",
-      "challenger": "sickn33/agentic-awesome-skills",
-      "incumbent_name": "tigerless-labs/autoharness",
-      "challenger_name": "sickn33/agentic-awesome-skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "mcp-support",
-        "multi-agent-orchestration",
-        "notifications",
-        "skills-plugins"
-      ],
-      "star_ratio": 4.628,
-      "momentum_ratio": 187.544,
-      "setup_delta": -6,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "4.63x the stars (48,950 vs 10,578)",
-        "187.54x the star velocity (168.8/day vs 0.9/day)",
-        "no harder to set up (30 vs 36 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
-        ],
-        "incumbent_health": 57,
-        "challenger_health": 92,
-        "incumbent_setup_score": 36,
-        "challenger_setup_score": 30
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

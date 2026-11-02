@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 84,812 |
-| Star velocity | 68.4/day (history basis, 5d span) |
+| Stars | 84,876 |
+| Star velocity | 67.2/day (history basis, 5d span) |
 | Health score | 79/100 |
 | Documentation | 80/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-05-07 |
-| Last push | 2026-11-01 (0 days ago) |
-| Analyzed README | 369,501 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 376,872 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,7 @@
 
 ### Usage analytics
 
-> and cloud-metadata hostname detection is case-insensitive.
+> m, memory, skills, sandbox-aware execution, and the ability to plan and spawn sub-agents for complex, multi-step tasks.
 
 ### Session persistence
 
@@ -133,7 +133,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 98.6 |
-| momentum | 57.0 |
+| momentum | 56.0 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 43.0 |

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,712 |
-| Star velocity | 240.4/day (history basis, 5d span) |
+| Stars | 5,859 |
+| Star velocity | 267.4/day (history basis, 5d span) |
 | Health score | 86/100 |
 | Documentation | 57/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-07 |
-| Last push | 2026-11-01 (0 days ago) |
-| Analyzed README | 19,115 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 19,955 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ### GUI / desktop app
 
-> d the agent wakes up, reads your comment, makes the change and replies in the comment thread.
+> search and a tab for each type.
 
 ### Cross-agent support
 
@@ -72,7 +72,7 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.1 |
+| popularity | 75.4 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 57.0 |

@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-15 |
-| Last push | 2026-11-01 (0 days ago) |
-| Analyzed README | 93,782 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 94,506 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ### Workspace isolation
 
-> removal and junk cleanup still
+> ate removal and junk cleanup still
 
 ### Session persistence
 

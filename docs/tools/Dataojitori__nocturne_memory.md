@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 1,412 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 49/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2025-12-25 |
-| Last push | 2026-09-22 (39 days ago) |
+| Last push | 2026-09-22 (40 days ago) |
 | Analyzed README | 22,681 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [spinabot/brigade](https://github.com/spinabot/brigade)** — Superseded by spinabot/brigade: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -82,7 +84,7 @@ Score **66/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 63.0 |
-| momentum | 0.2 |
+| momentum | 0.0 |
 | maintenance | 78.0 |
 | documentation | 66.0 |
 | accessibility | 40.0 |

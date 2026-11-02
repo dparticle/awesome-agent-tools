@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 892 |
-| Star velocity | 4.0/day (history basis, 5d span) |
+| Star velocity | 3.4/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-14 |
-| Last push | 2026-10-30 (1 days ago) |
+| Last push | 2026-10-30 (2 days ago) |
 | Analyzed README | 42,164 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (10/10).
 
 ## What it solves
 
@@ -104,7 +106,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 59.0 |
-| momentum | 3.3 |
+| momentum | 2.8 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 27.0 |

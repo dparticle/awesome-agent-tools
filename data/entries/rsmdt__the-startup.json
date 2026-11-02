@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 446,
-  "days_since_push": 5,
+  "age_days": 447,
+  "days_since_push": 6,
   "health_score": 53,
   "health_components": {
     "popularity": 55.2,
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:06+00:00",
+  "fetched_at": "2026-11-02T12:26:17+00:00",
   "categories": [
     "desktop-ui",
     "teams-isolation"
@@ -151,14 +151,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.187,
-      "momentum_ratio": 54.5,
+      "star_ratio": 48.222,
+      "momentum_ratio": 49.0,
       "setup_delta": 2,
       "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.19x the stars (27,804 vs 577)",
-        "54.50x the star velocity (21.8/day vs 0.4/day)",
+        "48.22x the stars (27,824 vs 577)",
+        "49.00x the star velocity (19.6/day vs 0.4/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -181,7 +181,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 53,
-        "challenger_health": 70,
+        "challenger_health": 69,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 27
       }

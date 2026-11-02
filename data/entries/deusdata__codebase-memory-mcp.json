@@ -6,9 +6,9 @@
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
   "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
-  "stars": 47928,
-  "forks": 3945,
-  "open_issues": 559,
+  "stars": 47988,
+  "forks": 3951,
+  "open_issues": 565,
   "language": "C",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windsurf"
   ],
   "created_at": "2026-02-24T22:01:00Z",
-  "updated_at": "2026-11-01T11:13:06Z",
-  "pushed_at": "2026-11-01T09:09:53Z",
+  "updated_at": "2026-11-02T11:53:50Z",
+  "pushed_at": "2026-11-02T06:46:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 249,
+  "age_days": 250,
   "days_since_push": 0,
-  "health_score": 77,
+  "health_score": 74,
   "health_components": {
     "popularity": 93.6,
-    "momentum": 58.3,
+    "momentum": 49.0,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 36.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 420,
-    "days_span": 6,
-    "stars_per_day": 70.0,
-    "lifetime_stars_per_day": 192.48,
+    "stars_gained": 294,
+    "days_span": 5,
+    "stars_per_day": 58.8,
+    "lifetime_stars_per_day": 191.95,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "DeusData/codebase-memory-mcp",
-    "readme_chars": 118131,
+    "readme_chars": 118397,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -171,7 +171,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.288
+      "external_link_ratio": 0.287
     },
     "highlights": [
       "Choose a local model. The default Qwen2.5 Coder 0.5B downloads about 567 MB; Qwen3 0.6B, LFM2.5 1.2B and Qwen3.5 2B are larger options. All need WebGPU with shader-f16 support.",
@@ -188,13 +188,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:26+00:00",
+  "fetched_at": "2026-11-02T12:25:43+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "desktop-ui-2",
     "failover"
   ],
-  "primary_category": "failover",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

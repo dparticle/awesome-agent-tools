@@ -22,12 +22,12 @@
     "web-ide"
   ],
   "created_at": "2021-09-12T13:23:51Z",
-  "updated_at": "2026-10-31T16:20:11Z",
-  "pushed_at": "2026-10-31T18:50:22Z",
+  "updated_at": "2026-11-01T20:24:55Z",
+  "pushed_at": "2026-11-01T20:24:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1875,
+  "age_days": 1876,
   "days_since_push": 0,
   "health_score": 48,
   "health_components": {
@@ -48,7 +48,7 @@
   },
   "analysis": {
     "full_name": "newsnowlabs/dockside",
-    "readme_chars": 25646,
+    "readme_chars": 25556,
     "capabilities": [
       "remote-control",
       "parallel-execution",
@@ -63,7 +63,7 @@
       "parallel-execution": "t — Launch locally with integrated SSL certificate",
       "worktree-isolation": "are development containers in the general sense.",
       "agent-runtime": "",
-      "self-hosted": "d Dockside enforces the rules — without requiring elevated container capabilities or weakening isolation.",
+      "self-hosted": "https://github.com/user-attachments/assets/2c5eb71b-9fcc-432a-9f4c-e3d0df4a380a",
       "team-collaboration": "- **Users and Roles**: manage team members and roles through the **Admin UI** (/admin/users, /admin/roles, requires manageUsers) or the dockside user / dockside role CLI — assign a role (admin or a custom role) to contr…",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot"
     },
@@ -131,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.443
+      "external_link_ratio": 1.448
     },
     "highlights": [
       "AI-ready devcontainers: Claude Code, OpenAI Codex, GitHub Copilot and other AI tools and CLIs run natively inside every devcontainer's integrated IDE.",
@@ -148,9 +148,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:29+00:00",
+  "fetched_at": "2026-11-02T12:26:35+00:00",
   "categories": [
-    "analytics",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",

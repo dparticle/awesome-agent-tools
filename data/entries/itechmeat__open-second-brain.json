@@ -6,40 +6,40 @@
   "url": "https://github.com/itechmeat/open-second-brain",
   "description": "Local-first 🧠 memory for Hermes Agent that lives in your Obsidian vault and remembers project context. Nightly 😴 dream passes turn repeat corrections into confirmed preferences with measurable confidence. Adapters ship for Claude Code, Codex, and OpenClaw, with an MCP server for anything else.",
   "homepage": "https://dark-factory.techmeat.dev",
-  "stars": 506,
+  "stars": 507,
   "forks": 65,
   "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-06T07:40:41Z",
-  "updated_at": "2026-11-01T07:17:23Z",
-  "pushed_at": "2026-10-31T08:03:20Z",
+  "updated_at": "2026-11-02T07:05:37Z",
+  "pushed_at": "2026-11-02T07:38:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 179,
-  "days_since_push": 1,
+  "age_days": 180,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 54.1,
-    "momentum": 1.5,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 2.83,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 2.82,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "itechmeat/open-second-brain",
-    "readme_chars": 17456,
+    "readme_chars": 17473,
     "capabilities": [
       "memory-context",
       "mcp-support",
@@ -52,7 +52,7 @@
     },
     "capability_hits": {
       "memory-context": 1,
-      "mcp-support": 8,
+      "mcp-support": 10,
       "cross-agent-support": 7
     },
     "friction": {
@@ -118,11 +118,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:12+00:00",
+  "fetched_at": "2026-11-02T12:26:22+00:00",
   "categories": [
-    "failover"
+    "memory-mcp"
   ],
-  "primary_category": "failover",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

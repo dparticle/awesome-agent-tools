@@ -6,7 +6,7 @@
   "url": "https://github.com/internet-court/internet-court-skill",
   "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
   "homepage": "",
-  "stars": 7047,
+  "stars": 7051,
   "forks": 128,
   "open_issues": 32,
   "language": "TypeScript",
@@ -34,29 +34,29 @@
     "x402"
   ],
   "created_at": "2026-06-16T13:20:01Z",
-  "updated_at": "2026-10-31T17:11:40Z",
+  "updated_at": "2026-11-02T04:03:52Z",
   "pushed_at": "2026-10-26T12:55:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 137,
-  "days_since_push": 5,
+  "age_days": 138,
+  "days_since_push": 6,
   "health_score": 57,
   "health_components": {
     "popularity": 77.0,
-    "momentum": 4.2,
+    "momentum": 3.5,
     "maintenance": 100.0,
     "documentation": 41.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 21,
     "days_span": 5,
-    "stars_per_day": 5.0,
-    "lifetime_stars_per_day": 51.44,
+    "stars_per_day": 4.2,
+    "lifetime_stars_per_day": 51.09,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "internet-court/internet-court-skill",
@@ -135,10 +135,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:00+00:00",
+  "fetched_at": "2026-11-02T12:25:21+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -162,14 +161,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 6.946,
-      "momentum_ratio": 33.758,
+      "star_ratio": 6.953,
+      "momentum_ratio": 40.112,
       "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "6.95x the stars (48,950 vs 7,047)",
-        "33.76x the star velocity (168.8/day vs 5.0/day)",
+        "6.95x the stars (49,024 vs 7,051)",
+        "40.11x the star velocity (168.5/day vs 4.2/day)",
         "no harder to set up (30 vs 31 friction)"
       ],
       "reasons_zh": [],

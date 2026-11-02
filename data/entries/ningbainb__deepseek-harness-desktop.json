@@ -6,7 +6,7 @@
   "url": "https://github.com/ningbainb/deepseek-harness-desktop",
   "description": "Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, skills, SSH, mobile remote access, and 11 skins.",
   "homepage": "https://ningbainb.github.io/deepseek-harness-desktop/",
-  "stars": 890,
+  "stars": 891,
   "forks": 28,
   "open_issues": 18,
   "language": "JavaScript",
@@ -33,27 +33,27 @@
     "windows-desktop"
   ],
   "created_at": "2026-08-13T19:50:01Z",
-  "updated_at": "2026-11-01T10:54:44Z",
+  "updated_at": "2026-11-02T11:54:34Z",
   "pushed_at": "2026-10-30T14:10:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 79,
-  "days_since_push": 1,
+  "age_days": 80,
+  "days_since_push": 2,
   "health_score": 56,
   "health_components": {
     "popularity": 59.0,
-    "momentum": 3.2,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 44.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 19,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 3.8,
-    "lifetime_stars_per_day": 11.27,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 11.14,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -181,10 +181,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:59+00:00",
+  "fetched_at": "2026-11-02T12:26:11+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
+    "failover",
     "providers-2"
   ],
   "primary_category": "providers-2",

@@ -6,8 +6,8 @@
   "url": "https://github.com/Licoy/Quosparr",
   "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude Code and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude Code、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
   "homepage": "https://quosparr.com",
-  "stars": 315,
-  "forks": 23,
+  "stars": 316,
+  "forks": 24,
   "open_issues": 0,
   "language": "Go",
   "license": "AGPL-3.0",
@@ -31,27 +31,27 @@
     "windows"
   ],
   "created_at": "2026-06-29T00:39:56Z",
-  "updated_at": "2026-11-01T10:20:25Z",
+  "updated_at": "2026-11-02T02:41:15Z",
   "pushed_at": "2026-10-30T08:15:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 125,
-  "days_since_push": 2,
+  "age_days": 126,
+  "days_since_push": 3,
   "health_score": 50,
   "health_components": {
     "popularity": 50.0,
-    "momentum": 1.2,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 2.52,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 2.51,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -168,9 +168,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:29+00:00",
+  "fetched_at": "2026-11-02T12:26:35+00:00",
   "categories": [
-    "desktop-ui-2",
+    "memory-mcp",
     "model-routing",
     "sharing"
   ],

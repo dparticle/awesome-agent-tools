@@ -6,7 +6,7 @@
   "url": "https://github.com/cobusgreyling/loop-engineering",
   "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
   "homepage": "https://cobusgreyling.github.io/loop-engineering/",
-  "stars": 11676,
+  "stars": 11681,
   "forks": 1575,
   "open_issues": 18,
   "language": "TypeScript",
@@ -31,27 +31,27 @@
     "prompt-engineering"
   ],
   "created_at": "2026-06-09T06:28:20Z",
-  "updated_at": "2026-11-01T10:12:57Z",
-  "pushed_at": "2026-11-01T02:24:36Z",
+  "updated_at": "2026-11-02T12:21:21Z",
+  "pushed_at": "2026-11-02T08:02:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 145,
+  "age_days": 146,
   "days_since_push": 0,
   "health_score": 61,
   "health_components": {
     "popularity": 81.3,
-    "momentum": 5.8,
+    "momentum": 5.0,
     "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 96.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 35,
+    "stars_gained": 30,
     "days_span": 5,
-    "stars_per_day": 7.0,
-    "lifetime_stars_per_day": 80.52,
+    "stars_per_day": 6.0,
+    "lifetime_stars_per_day": 80.01,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -126,11 +126,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:17:54+00:00",
+  "fetched_at": "2026-11-02T12:25:16+00:00",
   "categories": [
-    "desktop-ui"
+    "analytics"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

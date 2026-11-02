@@ -12,23 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,211 |
-| Star velocity | 4.8/day (history basis, 5d span) |
-| Health score | 59/100 |
-| Documentation | 61/100 |
+| Stars | 4,215 |
+| Star velocity | 3.6/day (history basis, 5d span) |
+| Health score | 56/100 |
+| Documentation | 46/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-07-10 |
-| Last push | 2026-10-30 (1 days ago) |
-| Analyzed README | 16,067 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 11,239 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### MCP support
-
-> environment-variable default, update its startup
 
 ### Cross-agent support
 
@@ -36,29 +32,27 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 34/100)
+- **Difficulty:** 🟡 Some setup (friction score 37/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install -g @zvec/zvec-grep`
 
-**Signals that make it easy:** Homebrew install, global npm install
+**Signals that make it easy:** global npm install
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** environment variables, database dependency, server/reverse-proxy setup
+**Configuration required:** database dependency, server/reverse-proxy setup
 
-*Easy. install via Homebrew install, global npm install; needs npm install/build; configure environment variables, database dependency*
+*Some setup. install via global npm install; needs npm install/build; configure database dependency, server/reverse-proxy setup*
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **46/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
-- has a quick-start section
 - documents installation
-- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - reports benchmarks
@@ -69,10 +63,10 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 72.5 |
-| momentum | 4.0 |
+| momentum | 3.0 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
-| accessibility | 66.0 |
+| documentation | 46.0 |
+| accessibility | 63.0 |
 
 ---
 

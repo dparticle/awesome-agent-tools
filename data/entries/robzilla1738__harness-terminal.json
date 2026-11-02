@@ -7,7 +7,7 @@
   "description": "Native macOS terminal with GPU rendering, durable sessions, coding-agent workflows, and SSH connectivity. Session host, daemon, and CLI support Linux; optional MCP and AI summaries.",
   "homepage": "https://thebestterminal.com",
   "stars": 309,
-  "forks": 25,
+  "forks": 24,
   "open_issues": 7,
   "language": "Swift",
   "license": "MIT",
@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 157,
-  "days_since_push": 18,
+  "age_days": 158,
+  "days_since_push": 19,
   "health_score": 52,
   "health_components": {
     "popularity": 49.8,
@@ -49,7 +49,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.97,
+    "lifetime_stars_per_day": 1.96,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:31+00:00",
+  "fetched_at": "2026-11-02T12:26:36+00:00",
   "categories": [
-    "desktop-ui-2",
     "memory-mcp",
-    "mobile-remote-control"
+    "notifications",
+    "teams-isolation"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "notifications",
   "lifecycle": {
     "state": "active",
     "note_en": "",

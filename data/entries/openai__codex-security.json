@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11271,
-  "forks": 900,
-  "open_issues": 191,
+  "stars": 11287,
+  "forks": 901,
+  "open_issues": 177,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-11-01T10:33:09Z",
-  "pushed_at": "2026-11-01T11:11:48Z",
+  "updated_at": "2026-11-02T12:23:32Z",
+  "pushed_at": "2026-11-02T12:23:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 110,
+  "age_days": 111,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
-    "popularity": 81.0,
-    "momentum": 8.2,
+    "popularity": 81.1,
+    "momentum": 8.7,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 49,
+    "stars_gained": 52,
     "days_span": 5,
-    "stars_per_day": 9.8,
-    "lifetime_stars_per_day": 102.46,
+    "stars_per_day": 10.4,
+    "lifetime_stars_per_day": 101.68,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openai/codex-security",
-    "readme_chars": 10868,
+    "readme_chars": 10909,
     "capabilities": [
       "model-routing"
     ],
@@ -109,13 +109,13 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.184
+      "external_link_ratio": 0.183
     },
     "highlights": [
       "cron: \"23 7 * * 1\" # Mondays at 07:23 UTC",
+      "Import Semgrep, Snyk, and Wiz findings locally or publish them to Codex Security Cloud.",
       "uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1",
-      "Validate candidate findings, generate patches, and verify existing fixes.",
-      "Scan repositories, selected paths, or Git changes."
+      "Validate candidate findings, generate patches, and verify existing fixes."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:17:55+00:00",
+  "fetched_at": "2026-11-02T12:25:17+00:00",
   "categories": [
     "model-routing"
   ],

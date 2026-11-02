@@ -6,9 +6,9 @@
   "url": "https://github.com/managedcode/dotnet-skills",
   "description": "One of the largest .NET-focused skill collections for AI coding assistants, with a catalog, CLI, and orchestration agents for Codex, Claude Code, GitHub Copilot, Gemini, and Junie.",
   "homepage": "https://skills.managed-code.com",
-  "stars": 500,
+  "stars": 499,
   "forks": 40,
-  "open_issues": 2,
+  "open_issues": 3,
   "language": "C#",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "skills"
   ],
   "created_at": "2026-03-15T10:43:01Z",
-  "updated_at": "2026-10-31T11:00:30Z",
-  "pushed_at": "2026-10-29T10:34:46Z",
+  "updated_at": "2026-11-02T09:36:42Z",
+  "pushed_at": "2026-11-02T09:42:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 231,
-  "days_since_push": 3,
+  "age_days": 232,
+  "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 0.8,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.16,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 2.15,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,10 +133,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:13+00:00",
+  "fetched_at": "2026-11-02T12:26:23+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2"
+    "failover"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -162,14 +162,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.156,
-      "momentum_ratio": 1.2,
+      "star_ratio": 2.164,
+      "momentum_ratio": 2.333,
       "setup_delta": 12,
-      "dominance": 0.687,
+      "dominance": 0.771,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.16x the stars (1,078 vs 500)",
-        "1.20x the star velocity (1.2/day vs 1.0/day)",
+        "2.16x the stars (1,080 vs 499)",
+        "2.33x the star velocity (1.4/day vs 0.6/day)",
         "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],

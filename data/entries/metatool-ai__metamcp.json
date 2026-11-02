@@ -6,8 +6,8 @@
   "url": "https://github.com/metatool-ai/metamcp",
   "description": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
   "homepage": "https://docs.metamcp.com",
-  "stars": 2742,
-  "forks": 442,
+  "stars": 2744,
+  "forks": 445,
   "open_issues": 120,
   "language": "TypeScript",
   "license": "MIT",
@@ -29,27 +29,27 @@
     "vibe-coding"
   ],
   "created_at": "2025-01-22T11:58:52Z",
-  "updated_at": "2026-11-01T09:12:14Z",
+  "updated_at": "2026-11-02T09:24:37Z",
   "pushed_at": "2026-06-22T16:50:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "ai-dev",
-  "age_days": 647,
-  "days_since_push": 131,
+  "age_days": 649,
+  "days_since_push": 132,
   "health_score": 46,
   "health_components": {
     "popularity": 68.8,
-    "momentum": 1.7,
+    "momentum": 2.0,
     "maintenance": 55.0,
     "documentation": 88.0,
     "accessibility": 8.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.0,
-    "lifetime_stars_per_day": 4.24,
+    "stars_per_day": 2.4,
+    "lifetime_stars_per_day": 4.23,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -154,9 +154,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:39+00:00",
+  "fetched_at": "2026-11-02T12:25:54+00:00",
   "categories": [
-    "desktop-ui-2",
+    "failover",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",

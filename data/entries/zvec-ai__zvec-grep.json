@@ -6,9 +6,9 @@
   "url": "https://github.com/zvec-ai/zvec-grep",
   "description": "Local-first search across your workspace, built for humans and AI agents.",
   "homepage": "",
-  "stars": 4211,
-  "forks": 255,
-  "open_issues": 88,
+  "stars": 4215,
+  "forks": 257,
+  "open_issues": 94,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -24,59 +24,54 @@
     "vector-search"
   ],
   "created_at": "2026-07-10T02:58:07Z",
-  "updated_at": "2026-11-01T04:30:03Z",
-  "pushed_at": "2026-10-30T13:19:20Z",
+  "updated_at": "2026-11-02T12:04:29Z",
+  "pushed_at": "2026-11-02T11:50:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
-  "days_since_push": 1,
-  "health_score": 59,
+  "age_days": 115,
+  "days_since_push": 0,
+  "health_score": 56,
   "health_components": {
     "popularity": 72.5,
-    "momentum": 4.0,
+    "momentum": 3.0,
     "maintenance": 100.0,
-    "documentation": 61.0,
-    "accessibility": 66.0
+    "documentation": 46.0,
+    "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 24,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 36.94,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 36.65,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "zvec-ai/zvec-grep",
-    "readme_chars": 16067,
+    "readme_chars": 11239,
     "capabilities": [
-      "mcp-support",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "mcp-support": "environment-variable default, update its startup",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
-      "mcp-support": 1,
       "cross-agent-support": 3
     },
     "friction": {
-      "level": "low",
-      "score": 34,
+      "level": "moderate",
+      "score": 37,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
-        "Homebrew install",
         "global npm install"
       ],
       "hard_signals": [
         "npm install/build"
       ],
       "config_signals": [
-        "environment variables",
         "database dependency",
         "server/reverse-proxy setup"
       ],
@@ -87,17 +82,15 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via Homebrew install, global npm install; needs npm install/build; configure environment variables, database dependency",
-      "note_zh": "较易上手。可通过 Homebrew install、global npm install 安装；需要 npm install/build；需配置 environment variables、database dependency"
+      "note_en": "Some setup. install via global npm install; needs npm install/build; configure database dependency, server/reverse-proxy setup",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 database dependency、server/reverse-proxy setup"
     },
-    "doc_score": 61,
+    "doc_score": 46,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
-      "has a quick-start section",
       "documents installation",
-      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
       "reports benchmarks",
@@ -114,11 +107,9 @@
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
-      "score": 1,
-      "signals": [
-        "has an index/catalogue section"
-      ],
-      "external_link_ratio": 1.245
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.623
     },
     "highlights": [
       "It was carnivorous because it climbed the curtain toward a canary's cage"
@@ -137,11 +128,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:06+00:00",
+  "fetched_at": "2026-11-02T12:25:26+00:00",
   "categories": [
-    "memory-mcp"
+    "analytics"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

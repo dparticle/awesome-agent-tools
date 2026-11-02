@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,578 |
-| Star velocity | 0.9/day (history basis, 10d span) |
-| Health score | 57/100 |
+| Stars | 10,631 |
+| Star velocity | 43.0/day (history basis, 5d span) |
+| Health score | 66/100 |
 | Documentation | 42/100 |
-| Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Tier | ✅ Recommended |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-06-09 |
-| Last push | 2026-10-30 (1 days ago) |
+| Last push | 2026-11-02 (0 days ago) |
 | Analyzed README | 23,662 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -69,7 +67,7 @@ Score **42/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.5 |
-| momentum | 0.8 |
+| momentum | 35.8 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
 | accessibility | 64.0 |

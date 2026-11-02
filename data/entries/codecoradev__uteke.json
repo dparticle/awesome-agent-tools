@@ -8,7 +8,7 @@
   "homepage": "https://uteke.app",
   "stars": 281,
   "forks": 31,
-  "open_issues": 9,
+  "open_issues": 5,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "vector-database"
   ],
   "created_at": "2026-05-29T00:27:31Z",
-  "updated_at": "2026-11-01T10:26:51Z",
-  "pushed_at": "2026-11-01T10:26:49Z",
+  "updated_at": "2026-11-02T09:28:00Z",
+  "pushed_at": "2026-11-02T09:27:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 156,
+  "age_days": 157,
   "days_since_push": 0,
-  "health_score": 51,
+  "health_score": 52,
   "health_components": {
     "popularity": 49.0,
     "momentum": 1.5,
     "maintenance": 100.0,
-    "documentation": 61.0,
+    "documentation": 62.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 281,
-    "days_span": 156,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 1.8,
+    "days_span": 157,
+    "stars_per_day": 1.79,
+    "lifetime_stars_per_day": 1.79,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "codecoradev/uteke",
-    "readme_chars": 24126,
+    "readme_chars": 25323,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -70,17 +70,17 @@
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "rged by Reciprocal Rank Fusion (RRF).",
-      "memory-context": "**Docker / server mode**: for teams or remote agents.",
+      "memory-context": "g and by keyword at once, keeps who wrote each memory, and works the same for every agent you use, instead of one file per tool.",
       "mcp-support": "**One binary.** No Python, no Docker, no vector database, no API key.",
       "self-hosted": "Windows (PowerShell)** powershell -ExecutionPolicy Bypass -Command \"irm https://raw.githubusercontent.com/codecoradev/uteke/main/install.ps1 \\ iex\"",
-      "cross-agent-support": "Mentions Claude Code, Cursor"
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
       "multi-agent-orchestration": 1,
       "memory-context": 4,
       "mcp-support": 1,
       "self-hosted": 2,
-      "cross-agent-support": 2
+      "cross-agent-support": 3
     },
     "friction": {
       "level": "moderate",
@@ -109,7 +109,7 @@
       "note_en": "Some setup. install via Homebrew install, cargo install; needs docker run, cargo build; configure sign-in required, database dependency",
       "note_zh": "需要一些配置。可通过 Homebrew install、cargo install 安装；需要 docker run、cargo build；需配置 sign-in required、database dependency"
     },
-    "doc_score": 61,
+    "doc_score": 62,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -125,6 +125,7 @@
     ],
     "agents": [
       "Claude Code",
+      "Codex",
       "Cursor"
     ],
     "summary_en": "One Rust binary, runs offline, no API key.",
@@ -135,7 +136,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.332
+      "external_link_ratio": 0.316
     },
     "highlights": [
       "Fusion merges the vector ranking (weight 1.7) with the hybrid ranking (weight 1), then adds small salience and recency boosts.",
@@ -152,23 +153,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:36+00:00",
+  "fetched_at": "2026-11-02T12:26:41+00:00",
   "categories": [
-    "analytics",
-    "desktop-ui-2"
+    "analytics-2"
   ],
-  "primary_category": "analytics",
+  "primary_category": "analytics-2",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by felinics/Memoh: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 felinics/Memoh 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "felinics/Memoh",
     "challenger": "",
     "supersede": {
       "incumbent": "codecoradev/uteke",
-      "challenger": "tencentcloud/octop",
+      "challenger": "felinics/memoh",
       "incumbent_name": "codecoradev/uteke",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "felinics/Memoh",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -180,15 +180,15 @@
         "multi-agent-orchestration",
         "self-hosted"
       ],
-      "star_ratio": 40.601,
-      "momentum_ratio": 27.111,
-      "setup_delta": -5,
-      "dominance": 1.0,
+      "star_ratio": 9.865,
+      "momentum_ratio": 1.453,
+      "setup_delta": 0,
+      "dominance": 0.846,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "40.60x the stars (11,409 vs 281)",
-        "27.11x the star velocity (48.8/day vs 1.8/day)",
-        "no harder to set up (32 vs 37 friction)"
+        "9.86x the stars (2,772 vs 281)",
+        "1.45x the star velocity (2.6/day vs 1.8/day)",
+        "no harder to set up (37 vs 37 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -200,26 +200,20 @@
           "self-hosted"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
+          "notifications",
           "self-hosted",
-          "skills-plugins",
           "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 51,
-        "challenger_health": 73,
+        "incumbent_health": 52,
+        "challenger_health": 56,
         "incumbent_setup_score": 37,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 37
       }
     }
   }

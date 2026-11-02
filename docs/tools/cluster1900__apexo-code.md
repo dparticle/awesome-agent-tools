@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 273 |
-| Star velocity | 1.7/day (lifetime basis, 158d span) |
+| Stars | 303 |
+| Star velocity | 1.9/day (lifetime basis, 159d span) |
 | Health score | 47/100 |
 | Documentation | 42/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-27 |
-| Last push | 2026-11-01 (0 days ago) |
+| Last push | 2026-11-02 (0 days ago) |
 | Analyzed README | 11,450 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).
@@ -89,8 +89,8 @@ Score **42/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 48.7 |
-| momentum | 1.4 |
+| popularity | 49.6 |
+| momentum | 1.6 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
 | accessibility | 52.0 |

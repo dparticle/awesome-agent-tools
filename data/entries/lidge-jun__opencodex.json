@@ -6,9 +6,9 @@
   "url": "https://github.com/lidge-jun/opencodex",
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
   "homepage": "https://opencodex.me/",
-  "stars": 18127,
-  "forks": 1429,
-  "open_issues": 118,
+  "stars": 18162,
+  "forks": 1435,
+  "open_issues": 131,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "typescript"
   ],
   "created_at": "2026-06-18T23:03:18Z",
-  "updated_at": "2026-11-01T10:50:15Z",
-  "pushed_at": "2026-11-01T04:07:45Z",
+  "updated_at": "2026-11-02T12:12:35Z",
+  "pushed_at": "2026-11-02T12:15:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
+  "age_days": 136,
   "days_since_push": 0,
   "health_score": 66,
   "health_components": {
@@ -54,7 +54,7 @@
     "stars_gained": 170,
     "days_span": 5,
     "stars_per_day": 34.0,
-    "lifetime_stars_per_day": 134.27,
+    "lifetime_stars_per_day": 133.54,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -166,10 +166,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:17:51+00:00",
+  "fetched_at": "2026-11-02T12:25:14+00:00",
   "categories": [
-    "desktop-ui-2",
-    "model-routing",
+    "failover",
+    "memory-mcp",
     "sharing"
   ],
   "primary_category": "sharing",

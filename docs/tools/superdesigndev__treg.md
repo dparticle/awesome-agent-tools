@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,908 |
-| Star velocity | 117.6/day (history basis, 5d span) |
-| Health score | 86/100 |
+| Stars | 6,982 |
+| Star velocity | 111.6/day (history basis, 5d span) |
+| Health score | 85/100 |
 | Documentation | 72/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Python |
 | Created | 2026-07-15 |
-| Last push | 2026-11-01 (0 days ago) |
-| Analyzed README | 32,611 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 32,796 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -65,7 +65,7 @@
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://treg.to/install.sh | sh`
 
-**Signals that make it easy:** npx one-liner, pip install, curl | sh installer
+**Signals that make it easy:** npx one-liner, pip install, curl | sh installer, native installer / package
 
 **Configuration required:** environment variables, API key configuration, OAuth login flow, sign-in required, database dependency, database migration
 
@@ -92,8 +92,8 @@ Score **72/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 76.8 |
-| momentum | 98.0 |
+| popularity | 76.9 |
+| momentum | 93.0 |
 | maintenance | 100.0 |
 | documentation | 72.0 |
 | accessibility | 79.0 |

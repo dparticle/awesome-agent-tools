@@ -13,18 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 281 |
-| Star velocity | 1.8/day (lifetime basis, 156d span) |
-| Health score | 51/100 |
-| Documentation | 61/100 |
+| Star velocity | 1.8/day (lifetime basis, 157d span) |
+| Health score | 52/100 |
+| Documentation | 62/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-05-29 |
-| Last push | 2026-11-01 (0 days ago) |
-| Analyzed README | 24,126 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 25,323 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [felinics/Memoh](https://github.com/felinics/Memoh)** — Superseded by felinics/Memoh: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -34,7 +34,7 @@
 
 ### Memory & context
 
-> **Docker / server mode**: for teams or remote agents.
+> g and by keyword at once, keeps who wrote each memory, and works the same for every agent you use, instead of one file per tool.
 
 ### MCP support
 
@@ -46,7 +46,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Cursor
+> Mentions Claude Code, Codex, Cursor
 
 ## Setup reality check
 
@@ -65,7 +65,7 @@
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **62/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -86,7 +86,7 @@ Score **61/100**, based on these detected signals:
 | popularity | 49.0 |
 | momentum | 1.5 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
+| documentation | 62.0 |
 | accessibility | 63.0 |
 
 ---

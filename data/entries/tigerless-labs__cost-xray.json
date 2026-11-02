@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 5825,
   "forks": 375,
-  "open_issues": 17,
+  "open_issues": 20,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,12 +26,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 148,
-  "days_since_push": 1,
+  "age_days": 149,
+  "days_since_push": 2,
   "health_score": 60,
   "health_components": {
     "popularity": 75.3,
-    "momentum": 1.3,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 48.0,
     "accessibility": 88.0
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 17,
-    "days_span": 11,
-    "stars_per_day": 1.55,
-    "lifetime_stars_per_day": 39.36,
+    "days_span": 12,
+    "stars_per_day": 1.42,
+    "lifetime_stars_per_day": 39.09,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,73 +133,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:02+00:00",
+  "fetched_at": "2026-11-02T12:25:23+00:00",
   "categories": [
-    "desktop-ui-2",
-    "mobile-remote-control",
+    "failover",
+    "memory-mcp",
     "model-routing"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "getpaseo/paseo",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "tigerless-labs/cost-xray",
-      "challenger": "getpaseo/paseo",
-      "incumbent_name": "tigerless-labs/cost-xray",
-      "challenger_name": "getpaseo/paseo",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "remote-control"
-      ],
-      "star_ratio": 3.893,
-      "momentum_ratio": 63.484,
-      "setup_delta": 12,
-      "dominance": 0.94,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "3.89x the stars (22,678 vs 5,825)",
-        "63.48x the star velocity (98.4/day vs 1.6/day)",
-        "slightly heavier setup (+12 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "remote-control"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 60,
-        "challenger_health": 82,
-        "incumbent_setup_score": 12,
-        "challenger_setup_score": 24
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

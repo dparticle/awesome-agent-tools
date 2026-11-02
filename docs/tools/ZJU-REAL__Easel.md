@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,260 |
-| Star velocity | 26.8/day (history basis, 5d span) |
-| Health score | 69/100 |
-| Documentation | 79/100 |
+| Stars | 4,328 |
+| Star velocity | 36.4/day (history basis, 5d span) |
+| Health score | 71/100 |
+| Documentation | 80/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-08-28 |
-| Last push | 2026-10-25 (7 days ago) |
-| Analyzed README | 19,885 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 20,064 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,7 +42,7 @@
 
 ### Skills & plugins
 
-> 布与归因** 发布质量门禁、敏感与版权风险检查、平台搜索优化、发布 Checklist、多平台格式适配；小红书、抖音、快手、知乎、B 站、微信视频号、微信公众号登录与发布；内容日历回写、账号数据、评论洞察、内容复盘、ROI 与画像记忆
+> list、多平台格式适配；小红书、抖音、快手、知乎、B 站、微信视频号、微信公众号、推特 X、掘金、今日头条登录与发布；内容日历回写、账号数据、评论洞察（掘金走公开 JSON 接口、X 走网页 DOM 采集）、内容复盘、ROI 与画像记忆
 
 ### GUI / desktop app
 
@@ -68,7 +68,7 @@
 
 ## Documentation quality
 
-Score **79/100**, based on these detected signals:
+Score **80/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -84,15 +84,16 @@ Score **79/100**, based on these detected signals:
 - publishes a roadmap
 - reports benchmarks
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 72.6 |
-| momentum | 22.3 |
+| popularity | 72.7 |
+| momentum | 30.3 |
 | maintenance | 100.0 |
-| documentation | 79.0 |
+| documentation | 80.0 |
 | accessibility | 85.0 |
 
 ---

@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1481,
-  "forks": 558,
-  "open_issues": 118,
+  "stars": 1486,
+  "forks": 567,
+  "open_issues": 124,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-01T09:48:50Z",
-  "pushed_at": "2026-11-01T09:23:11Z",
+  "updated_at": "2026-11-02T11:01:34Z",
+  "pushed_at": "2026-11-02T12:07:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 356,
+  "age_days": 357,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 57,
   "health_components": {
     "popularity": 63.4,
-    "momentum": 3.5,
+    "momentum": 16.2,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1481,
-    "days_span": 356,
-    "stars_per_day": 4.16,
+    "stars_gained": 97,
+    "days_span": 5,
+    "stars_per_day": 19.4,
     "lifetime_stars_per_day": 4.16,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "oceanbase/powercontext",
-    "readme_chars": 22613,
+    "readme_chars": 23091,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -127,7 +127,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.106
+      "external_link_ratio": 1.083
     },
     "highlights": [
       "Long-conversation memory (LoCoMo; 1,540 scored questions across categories 1–4): 90.78% accuracy, against 87.79%",
@@ -148,11 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:45+00:00",
+  "fetched_at": "2026-11-02T12:25:59+00:00",
   "categories": [
-    "failover"
+    "analytics"
   ],
-  "primary_category": "failover",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).",
@@ -174,14 +174,14 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 12.519,
-      "momentum_ratio": 75.769,
+      "star_ratio": 12.621,
+      "momentum_ratio": 15.66,
       "setup_delta": -30,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "12.52x the stars (18,540 vs 1,481)",
-        "75.77x the star velocity (315.2/day vs 4.2/day)",
+        "12.62x the stars (18,755 vs 1,486)",
+        "15.66x the star velocity (303.8/day vs 19.4/day)",
         "no harder to set up (33 vs 63 friction)"
       ],
       "reasons_zh": [],
@@ -199,7 +199,7 @@
           "mcp-support",
           "memory-context"
         ],
-        "incumbent_health": 54,
+        "incumbent_health": 57,
         "challenger_health": 87,
         "incumbent_setup_score": 63,
         "challenger_setup_score": 33

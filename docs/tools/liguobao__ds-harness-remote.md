@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,170 |
-| Star velocity | 56.4/day (history basis, 5d span) |
-| Health score | 66/100 |
-| Documentation | 57/100 |
+| Stars | 1,279 |
+| Star velocity | 74.2/day (history basis, 5d span) |
+| Health score | 70/100 |
+| Documentation | 58/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-11-01 (0 days ago) |
-| Analyzed README | 19,939 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 20,007 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,23 +32,23 @@
 
 ### Remote control
 
-> - Support DeepSeek Harness Desktop, ready to use after installation. - Run a terminal-only dsh-TUI profile as a Host. - No public listening port or public IP is required on the Harness Host.
+> while preserving messages and tool status.
 
 ### Mobile access
 
-> scripts/install.sh INTELLIGENTUI=1 (optionally INTELLIGENTUIVERSION=...)
+> use Bot mode, powered by Fei2411/DS-Bot.
 
 ### Parallel execution
 
+> ther tools through ACP integrations, with remote file browsing and terminals.
+
 ### Model / provider routing
 
-### Skills & plugins
-
-> ktop add -w ds-harness-remote@0.6.0.
+> Research's Hermes Agent through its own ACP server (hermes acp); opt-in in Remote settings.
 
 ### Security & isolation
 
-> oaded from the connected Host.
+> onversation models with the same smooth workflow as local use.
 
 ### Self-hostable
 
@@ -58,23 +58,23 @@
 
 ### Cross-agent support
 
-> Mentions Codex, Cursor, OpenCode
+> Mentions Claude Code, Codex, Cursor, OpenCode
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 34/100)
+- **Difficulty:** 🟢 Easy (friction score 28/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
 **Signals that make it easy:** native installer / package
 
-**Configuration required:** OAuth login flow, sign-in required, process manager
+**Configuration required:** sign-in required, process manager
 
-*Easy. install via native installer / package; configure OAuth login flow, sign-in required*
+*Easy. install via native installer / package; configure sign-in required, process manager*
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **58/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -85,16 +85,17 @@ Score **57/100**, based on these detected signals:
 - mentions licensing
 - documents changes
 - publishes a roadmap
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 61.4 |
-| momentum | 47.0 |
+| popularity | 62.1 |
+| momentum | 61.8 |
 | maintenance | 100.0 |
-| documentation | 57.0 |
-| accessibility | 66.0 |
+| documentation | 58.0 |
+| accessibility | 72.0 |
 
 ---
 

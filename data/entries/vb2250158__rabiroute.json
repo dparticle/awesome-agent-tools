@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "full_name": "vb2250158/RabiRoute",
+  "name": "RabiRoute",
+  "owner": "vb2250158",
+  "url": "https://github.com/vb2250158/RabiRoute",
+  "description": "Self-hosted message gateway for AI agents: Codex, QQ, WeChat/WeCom, Feishu, smart devices and desktop automation. | AI 消息网关：连接聊天、智能设备与 Agent，支持定时任务和角色上下文。",
+  "homepage": "",
+  "stars": 492,
+  "forks": 0,
+  "open_issues": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-orchestration",
+    "ai-agents",
+    "chatbot",
+    "chatops",
+    "codex",
+    "deepseek-harness",
+    "desktop-automation",
+    "feishu",
+    "home-assistant",
+    "message-routing",
+    "napcat",
+    "onebot",
+    "qq-bot",
+    "self-hosted",
+    "typescript",
+    "wechat",
+    "wecom",
+    "workflow-automation"
+  ],
+  "created_at": "2026-06-01T09:40:16Z",
+  "updated_at": "2026-11-02T11:46:13Z",
+  "pushed_at": "2026-11-02T11:46:09Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 154,
+  "days_since_push": 0,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 53.8,
+    "momentum": 2.7,
+    "maintenance": 100.0,
+    "documentation": 59.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 492,
+    "days_span": 154,
+    "stars_per_day": 3.19,
+    "lifetime_stars_per_day": 3.19,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "vb2250158/RabiRoute",
+    "readme_chars": 10009,
+    "capabilities": [
+      "self-hosted",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "self-hosted": "esktop automation to Agents",
+      "notifications": "rity and setup requirements; see integration status."
+    },
+    "capability_hits": {
+      "self-hosted": 1,
+      "notifications": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via native installer / package; needs git clone (build from source)",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "English | 简体中文 | 日本語",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.1
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-02T12:26:23+00:00",
+  "categories": [
+    "analytics-2"
+  ],
+  "primary_category": "analytics-2",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

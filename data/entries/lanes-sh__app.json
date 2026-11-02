@@ -6,7 +6,7 @@
   "url": "https://github.com/lanes-sh/app",
   "description": "Run many CLI (Coding) Agents in parallel lanes: issues, worktrees, sessions, and loops on one board. The agentic development environment.",
   "homepage": "https://lanes.sh",
-  "stars": 276,
+  "stars": 277,
   "forks": 16,
   "open_issues": 11,
   "language": "",
@@ -31,26 +31,26 @@
     "vibe-coding"
   ],
   "created_at": "2026-03-22T21:18:28Z",
-  "updated_at": "2026-10-31T10:21:04Z",
+  "updated_at": "2026-11-02T09:53:22Z",
   "pushed_at": "2026-10-31T10:21:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 223,
-  "days_since_push": 1,
+  "age_days": 224,
+  "days_since_push": 2,
   "health_score": 50,
   "health_components": {
     "popularity": 48.8,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 88.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.24,
     "basis": "history",
     "is_fast_riser": false
@@ -150,10 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:37+00:00",
+  "fetched_at": "2026-11-02T12:26:42+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
+    "memory-mcp",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 123.058,
-      "momentum_ratio": 600.0,
+      "star_ratio": 122.711,
+      "momentum_ratio": 143.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "123.06x the stars (33,964 vs 276)",
-        "600.00x the star velocity (30.0/day vs 0.0/day)",
+        "122.71x the stars (33,991 vs 277)",
+        "143.00x the star velocity (28.6/day vs 0.2/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -217,7 +217,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 72,
+        "challenger_health": 71,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2
       }

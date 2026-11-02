@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,720 |
-| Star velocity | 17.3/day (history basis, 6d span) |
-| Health score | 63/100 |
+| Stars | 7,739 |
+| Star velocity | 15.4/day (history basis, 5d span) |
+| Health score | 62/100 |
 | Documentation | 59/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-16 |
 | Last push | 2026-11-01 (0 days ago) |
 | Analyzed README | 25,657 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -75,7 +77,7 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 77.8 |
-| momentum | 14.4 |
+| momentum | 12.8 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
 | accessibility | 66.0 |

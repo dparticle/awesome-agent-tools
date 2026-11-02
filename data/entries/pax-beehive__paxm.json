@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 115,
-  "days_since_push": 64,
+  "age_days": 116,
+  "days_since_push": 65,
   "health_score": 47,
   "health_components": {
     "popularity": 49.0,
@@ -41,9 +41,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 282,
-    "days_span": 115,
-    "stars_per_day": 2.45,
-    "lifetime_stars_per_day": 2.45,
+    "days_span": 116,
+    "stars_per_day": 2.43,
+    "lifetime_stars_per_day": 2.43,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -148,82 +148,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:19:36+00:00",
+  "fetched_at": "2026-11-02T12:26:41+00:00",
   "categories": [
     "analytics",
-    "failover",
-    "memory-mcp"
+    "analytics-2",
+    "analytics-3"
   ],
-  "primary_category": "analytics",
+  "primary_category": "analytics-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "pax-beehive/paxm",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "pax-beehive/paxm",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "security-isolation",
-        "self-hosted",
-        "session-persistence"
-      ],
-      "star_ratio": 106.589,
-      "momentum_ratio": 10.951,
-      "setup_delta": -8,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "106.59x the stars (30,058 vs 282)",
-        "10.95x the star velocity (26.8/day vs 2.5/day)",
-        "no harder to set up (32 vs 40 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 70,
-        "incumbent_setup_score": 40,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

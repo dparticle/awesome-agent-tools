@@ -6,8 +6,8 @@
   "url": "https://github.com/aoci-spec/aoci-code",
   "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
   "homepage": "www.aoci.ai",
-  "stars": 1820,
-  "forks": 219,
+  "stars": 1837,
+  "forks": 221,
   "open_issues": 27,
   "language": "Go",
   "license": "NOASSERTION",
@@ -34,27 +34,27 @@
     "repo-map"
   ],
   "created_at": "2026-08-08T11:33:08Z",
-  "updated_at": "2026-11-01T09:45:17Z",
-  "pushed_at": "2026-11-01T09:25:33Z",
+  "updated_at": "2026-11-02T09:37:53Z",
+  "pushed_at": "2026-11-02T08:07:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 84,
+  "age_days": 86,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 65.2,
-    "momentum": 10.3,
+    "popularity": 65.3,
+    "momentum": 11.2,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 62,
+    "stars_gained": 67,
     "days_span": 5,
-    "stars_per_day": 12.4,
-    "lifetime_stars_per_day": 21.67,
+    "stars_per_day": 13.4,
+    "lifetime_stars_per_day": 21.36,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -176,18 +176,85 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-01T11:18:43+00:00",
+  "fetched_at": "2026-11-02T12:25:57+00:00",
   "categories": [
+    "analytics",
     "failover",
-    "memory-mcp",
-    "model-routing"
+    "memory-mcp"
   ],
-  "primary_category": "failover",
+  "primary_category": "analytics",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (9/9).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (9/9)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "aoci-spec/aoci-code",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "aoci-spec/aoci-code",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "session-persistence"
+      ],
+      "star_ratio": 160.671,
+      "momentum_ratio": 57.821,
+      "setup_delta": -7,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (9/9)",
+        "160.67x the stars (295,153 vs 1,837)",
+        "57.82x the star velocity (774.8/day vs 13.4/day)",
+        "no harder to set up (57 vs 64 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 89,
+        "incumbent_setup_score": 64,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }
