@@ -6,8 +6,8 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 849,
-  "forks": 68,
+  "stars": 851,
+  "forks": 69,
   "open_issues": 4,
   "language": "Go",
   "license": "MIT",
@@ -32,27 +32,27 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-11-02T09:52:14Z",
+  "updated_at": "2026-11-03T03:38:33Z",
   "pushed_at": "2026-10-29T12:37:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 57,
-  "days_since_push": 3,
+  "age_days": 58,
+  "days_since_push": 4,
   "health_score": 54,
   "health_components": {
     "popularity": 58.6,
-    "momentum": 1.0,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 14.89,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 14.67,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,23 +146,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:11+00:00",
+  "fetched_at": "2026-11-03T11:58:46+00:00",
   "categories": [
-    "analytics",
-    "desktop-ui"
+    "desktop-ui",
+    "failover"
   ],
-  "primary_category": "analytics",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "huytieu/COG-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "okf-memory/okf-agent-memory",
-      "challenger": "tencentcloud/octop",
+      "challenger": "huytieu/cog-second-brain",
       "incumbent_name": "okf-memory/okf-agent-memory",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "huytieu/COG-second-brain",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -174,15 +174,15 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 13.517,
-      "momentum_ratio": 39.833,
-      "setup_delta": -13,
-      "dominance": 1.0,
+      "star_ratio": 1.572,
+      "momentum_ratio": 1.571,
+      "setup_delta": -14,
+      "dominance": 0.709,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.52x the stars (11,476 vs 849)",
-        "39.83x the star velocity (47.8/day vs 1.2/day)",
-        "no harder to set up (32 vs 45 friction)"
+        "1.57x the stars (1,338 vs 851)",
+        "1.57x the star velocity (2.2/day vs 1.4/day)",
+        "no harder to set up (31 vs 45 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -195,25 +195,19 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
           "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
+          "team-collaboration"
         ],
         "incumbent_health": 54,
-        "challenger_health": 73,
+        "challenger_health": 56,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 31
       }
     }
   }

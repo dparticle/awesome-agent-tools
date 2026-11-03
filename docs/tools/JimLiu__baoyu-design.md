@@ -12,29 +12,29 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,859 |
-| Star velocity | 267.4/day (history basis, 5d span) |
-| Health score | 86/100 |
-| Documentation | 57/100 |
+| Stars | 5,946 |
+| Star velocity | 212.8/day (history basis, 5d span) |
+| Health score | 87/100 |
+| Documentation | 59/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-07 |
-| Last push | 2026-11-02 (0 days ago) |
-| Analyzed README | 19,955 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-03 (0 days ago) |
+| Analyzed README | 23,483 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
 
-> mmended — the skills CLI.
+> skills/) uses that copy instead of the plugin's.
 
 ### Agent runtime
 
 ### Self-hostable
 
-> gents/skills/ or .dsh/skills/) uses that copy instead of the plugin's.
+> ndbox blocks: approve it if the app asks, or use a permission mode that allows it.
 
 ### GUI / desktop app
 
@@ -57,7 +57,7 @@
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **59/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -67,15 +67,16 @@ Score **57/100**, based on these detected signals:
 - mentions licensing
 - has a Chinese translation
 - documents changes
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.4 |
+| popularity | 75.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 57.0 |
+| documentation | 59.0 |
 | accessibility | 100.0 |
 
 ---

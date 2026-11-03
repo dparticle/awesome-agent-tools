@@ -6,35 +6,35 @@
   "url": "https://github.com/AlickH/Copool",
   "description": "Copool is a macOS SwiftUI app for Codex/ChatGPT account switching and API proxy management｜Copool 是一个用于 Codex/ChatGPT 账号切换与 API 代理管理的 macOS SwiftUI 应用",
   "homepage": "",
-  "stars": 327,
+  "stars": 326,
   "forks": 41,
   "open_issues": 5,
   "language": "Swift",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-12T10:21:24Z",
-  "updated_at": "2026-10-13T07:01:45Z",
+  "updated_at": "2026-11-03T01:21:39Z",
   "pushed_at": "2026-09-17T02:38:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 235,
-  "days_since_push": 46,
+  "age_days": 236,
+  "days_since_push": 47,
   "health_score": 42,
   "health_components": {
     "popularity": 50.3,
-    "momentum": 0.0,
+    "momentum": 1.2,
     "maintenance": 78.0,
     "documentation": 31.0,
     "accessibility": 59.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.39,
-    "basis": "history",
+    "stars_gained": 326,
+    "days_span": 236,
+    "stars_per_day": 1.38,
+    "lifetime_stars_per_day": 1.38,
+    "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
@@ -118,7 +118,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:33+00:00",
+  "fetched_at": "2026-11-03T11:59:18+00:00",
   "categories": [
     "sharing"
   ],
@@ -144,14 +144,14 @@
         "multi-account-switching",
         "quota-management"
       ],
-      "star_ratio": 60.058,
-      "momentum_ratio": 784.0,
+      "star_ratio": 60.344,
+      "momentum_ratio": 25.942,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "60.06x the stars (19,639 vs 327)",
-        "784.00x the star velocity (39.2/day vs 0.0/day)",
+        "60.34x the stars (19,672 vs 326)",
+        "25.94x the star velocity (35.8/day vs 1.4/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],

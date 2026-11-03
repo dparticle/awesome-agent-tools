@@ -6,7 +6,7 @@
   "url": "https://github.com/josstei/maestro-orchestrate",
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
-  "stars": 485,
+  "stars": 486,
   "forks": 38,
   "open_issues": 6,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-10-30T23:44:03Z",
+  "updated_at": "2026-11-03T02:29:15Z",
   "pushed_at": "2026-11-02T04:41:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
-  "days_since_push": 0,
+  "age_days": 267,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.82,
     "basis": "history",
     "is_fast_riser": false
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:23+00:00",
+  "fetched_at": "2026-11-03T11:59:05+00:00",
   "categories": [
     "memory-mcp"
   ],
@@ -161,14 +161,14 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.344,
-      "momentum_ratio": 48.0,
+      "star_ratio": 2.34,
+      "momentum_ratio": 8.0,
       "setup_delta": -21,
-      "dominance": 0.944,
+      "dominance": 0.943,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.34x the stars (1,137 vs 485)",
-        "48.00x the star velocity (2.4/day vs 0.0/day)",
+        "2.34x the stars (1,137 vs 486)",
+        "8.00x the star velocity (1.6/day vs 0.2/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],

@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 138631,
-  "forks": 20553,
-  "open_issues": 146,
+  "stars": 138763,
+  "forks": 20569,
+  "open_issues": 113,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-02T12:17:57Z",
-  "pushed_at": "2026-11-02T12:22:31Z",
+  "updated_at": "2026-11-03T11:52:23Z",
+  "pushed_at": "2026-11-03T11:52:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 235,
+  "age_days": 236,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 630,
+    "stars_gained": 641,
     "days_span": 5,
-    "stars_per_day": 126.0,
-    "lifetime_stars_per_day": 589.92,
+    "stars_per_day": 128.2,
+    "lifetime_stars_per_day": 587.98,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 37862,
+    "readme_chars": 37899,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -151,89 +151,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:32+00:00",
+  "fetched_at": "2026-11-03T11:57:50+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
-    "failover"
+    "failover",
+    "teams-isolation"
   ],
-  "primary_category": "analytics",
+  "primary_category": "teams-isolation",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (11/11).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (11/11)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "garrytan/gstack",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "garrytan/gstack",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration",
-        "notifications",
-        "security-isolation",
-        "skills-plugins",
-        "worktree-isolation"
-      ],
-      "star_ratio": 2.129,
-      "momentum_ratio": 6.149,
-      "setup_delta": -8,
-      "dominance": 0.922,
-      "reasons": [
-        "covers 100% of capabilities (11/11)",
-        "2.13x the stars (295,153 vs 138,631)",
-        "6.15x the star velocity (774.8/day vs 126.0/day)",
-        "no harder to set up (57 vs 65 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 88,
-        "challenger_health": 89,
-        "incumbent_setup_score": 65,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

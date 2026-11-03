@@ -6,9 +6,9 @@
   "url": "https://github.com/zvec-ai/zvec-grep",
   "description": "Local-first search across your workspace, built for humans and AI agents.",
   "homepage": "",
-  "stars": 4215,
+  "stars": 4219,
   "forks": 257,
-  "open_issues": 94,
+  "open_issues": 93,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -24,33 +24,33 @@
     "vector-search"
   ],
   "created_at": "2026-07-10T02:58:07Z",
-  "updated_at": "2026-11-02T12:04:29Z",
-  "pushed_at": "2026-11-02T11:50:18Z",
+  "updated_at": "2026-11-03T09:48:46Z",
+  "pushed_at": "2026-11-03T08:55:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 115,
+  "age_days": 116,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 72.5,
-    "momentum": 3.0,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 3.6,
-    "lifetime_stars_per_day": 36.65,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 36.37,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "zvec-ai/zvec-grep",
-    "readme_chars": 11239,
+    "readme_chars": 11271,
     "capabilities": [
       "cross-agent-support"
     ],
@@ -103,13 +103,13 @@
     ],
     "summary_en": "zg (zvec-grep), powered by zvec, unifies ripgrep, BM25, and vector search behind one local-first interface.",
     "summary_zh": "",
-    "install_hint": "npm install -g @zvec/zvec-grep",
+    "install_hint": "npm install -g @zvec/zvec-grep --allow-scripts=@zvec/zvec-grep",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.623
+      "external_link_ratio": 0.621
     },
     "highlights": [
       "It was carnivorous because it climbed the curtain toward a canary's cage"
@@ -128,11 +128,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:26+00:00",
+  "fetched_at": "2026-11-03T11:57:41+00:00",
   "categories": [
-    "analytics"
+    "desktop-ui"
   ],
-  "primary_category": "analytics",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

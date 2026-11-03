@@ -13,18 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 512 |
-| Star velocity | 1.0/day (history basis, 5d span) |
-| Health score | 47/100 |
-| Documentation | 71/100 |
+| Star velocity | 0.8/day (history basis, 5d span) |
+| Health score | 49/100 |
+| Documentation | 74/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-04-23 |
-| Last push | 2026-10-25 (8 days ago) |
-| Analyzed README | 44,160 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).
+| Last push | 2026-11-02 (0 days ago) |
+| Analyzed README | 44,677 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,7 +32,7 @@
 
 ### Model / provider routing
 
-> es matching the *-oauth-adapter/*-auth-adapter naming convention (including scoped packages, via their package.json pi.extensions manifest) are detected automatically.
+> ages matching the -oauth-adapter/-auth-adapter naming convention (including scoped packages, via their package.json pi.extensions manifest) are detected automatically.
 
 ### Session persistence
 
@@ -46,7 +44,7 @@
 
 ### Skills & plugins
 
-> do something, reusable across sessions Unlimited Discoverable by Pi + manageable via the skillmanage tool
+> killmanage tool for saving reusable procedures.
 
 ### MCP support
 
@@ -67,7 +65,7 @@
 
 ## Documentation quality
 
-Score **71/100**, based on these detected signals:
+Score **74/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -75,6 +73,7 @@ Score **71/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
+- has contribution guidance
 - mentions licensing
 - documents changes
 - publishes a roadmap
@@ -87,9 +86,9 @@ Score **71/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.2 |
-| momentum | 0.8 |
-| maintenance | 92.0 |
-| documentation | 71.0 |
+| momentum | 0.7 |
+| maintenance | 100.0 |
+| documentation | 74.0 |
 | accessibility | 16.0 |
 
 ---

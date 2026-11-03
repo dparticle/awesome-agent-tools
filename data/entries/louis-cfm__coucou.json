@@ -6,9 +6,9 @@
   "url": "https://github.com/Louis-CFM/coucou",
   "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
   "homepage": "https://louis-cfm.github.io/coucou/",
-  "stars": 6896,
-  "forks": 1131,
-  "open_issues": 478,
+  "stars": 6919,
+  "forks": 1136,
+  "open_issues": 487,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windows"
   ],
   "created_at": "2026-09-27T21:54:12Z",
-  "updated_at": "2026-11-02T12:09:43Z",
-  "pushed_at": "2026-10-31T16:51:35Z",
+  "updated_at": "2026-11-03T11:32:24Z",
+  "pushed_at": "2026-11-03T01:15:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 35,
-  "days_since_push": 1,
-  "health_score": 72,
+  "age_days": 36,
+  "days_since_push": 0,
+  "health_score": 70,
   "health_components": {
     "popularity": 76.8,
-    "momentum": 44.2,
+    "momentum": 35.2,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 77.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 265,
+    "stars_gained": 211,
     "days_span": 5,
-    "stars_per_day": 53.0,
-    "lifetime_stars_per_day": 197.03,
+    "stars_per_day": 42.2,
+    "lifetime_stars_per_day": 192.19,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Louis-CFM/coucou",
-    "readme_chars": 51530,
+    "readme_chars": 52119,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -94,7 +94,7 @@
       "security-isolation": 4,
       "gui-desktop": 11,
       "notifications": 5,
-      "voice-input": 10,
+      "voice-input": 12,
       "cross-agent-support": 7
     },
     "friction": {
@@ -159,7 +159,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.882
+      "external_link_ratio": 1.899
     },
     "highlights": [
       "📋 Declare the tools you use — open Settings → Active pills and pick your main workspace tool (VS Code, Cursor, Codex or Antigravity), then toggle up to 4 more: Gemini CLI, Anthropic, Google…",
@@ -176,13 +176,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:22+00:00",
+  "fetched_at": "2026-11-03T11:57:34+00:00",
   "categories": [
-    "failover",
-    "mobile-remote-control",
+    "analytics",
     "model-routing"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

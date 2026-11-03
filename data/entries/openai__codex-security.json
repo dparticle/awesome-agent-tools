@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11287,
-  "forks": 901,
-  "open_issues": 177,
+  "stars": 11292,
+  "forks": 903,
+  "open_issues": 168,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,41 +29,44 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-11-02T12:23:32Z",
-  "pushed_at": "2026-11-02T12:23:30Z",
+  "updated_at": "2026-11-03T11:26:55Z",
+  "pushed_at": "2026-11-03T11:55:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 111,
+  "age_days": 112,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
     "popularity": 81.1,
-    "momentum": 8.7,
+    "momentum": 6.7,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 52,
+    "stars_gained": 40,
     "days_span": 5,
-    "stars_per_day": 10.4,
-    "lifetime_stars_per_day": 101.68,
+    "stars_per_day": 8.0,
+    "lifetime_stars_per_day": 100.82,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openai/codex-security",
-    "readme_chars": 10909,
+    "readme_chars": 10961,
     "capabilities": [
-      "model-routing"
+      "model-routing",
+      "self-hosted"
     ],
     "capability_evidence": {
-      "model-routing": ""
+      "model-routing": "",
+      "self-hosted": "API key from a project with Blue"
     },
     "capability_hits": {
-      "model-routing": 1
+      "model-routing": 1,
+      "self-hosted": 1
     },
     "friction": {
       "level": "moderate",
@@ -82,6 +85,7 @@
       ],
       "friendliness_signals": [],
       "platforms": [
+        "Linux",
         "Web"
       ],
       "note_en": "Some setup. install via npx one-liner; needs npm install/build; configure API key configuration, sign-in required",
@@ -109,7 +113,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.183
+      "external_link_ratio": 0.182
     },
     "highlights": [
       "cron: \"23 7 * * 1\" # Mondays at 07:23 UTC",
@@ -126,11 +130,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:17+00:00",
+  "fetched_at": "2026-11-03T11:57:27+00:00",
   "categories": [
-    "model-routing"
+    "analytics-2"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "analytics-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

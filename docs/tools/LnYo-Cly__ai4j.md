@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 436 |
+| Stars | 437 |
 | Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 53/100 |
 | Documentation | 56/100 |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Java |
 | Created | 2024-08-17 |
-| Last push | 2026-10-13 (19 days ago) |
+| Last push | 2026-10-13 (20 days ago) |
 | Analyzed README | 10,270 chars from `raw:HEAD/README.md` |
 
 ## What it solves

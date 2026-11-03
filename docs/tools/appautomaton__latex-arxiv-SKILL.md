@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 473 |
+| Stars | 476 |
 | Star velocity | 0.6/day (history basis, 5d span) |
 | Health score | 45/100 |
 | Documentation | 43/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TeX |
 | Created | 2025-03-18 |
-| Last push | 2026-09-13 (49 days ago) |
+| Last push | 2026-09-13 (50 days ago) |
 | Analyzed README | 7,515 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -67,7 +67,7 @@ Score **43/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.5 |
+| popularity | 53.6 |
 | momentum | 0.5 |
 | maintenance | 78.0 |
 | documentation | 43.0 |

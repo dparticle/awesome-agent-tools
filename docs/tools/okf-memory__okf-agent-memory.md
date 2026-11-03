@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 849 |
-| Star velocity | 1.2/day (history basis, 5d span) |
+| Stars | 851 |
+| Star velocity | 1.4/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 70/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-05 |
-| Last push | 2026-10-29 (3 days ago) |
+| Last push | 2026-10-29 (4 days ago) |
 | Analyzed README | 20,702 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -79,7 +79,7 @@ Score **70/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 58.6 |
-| momentum | 1.0 |
+| momentum | 1.2 |
 | maintenance | 100.0 |
 | documentation | 70.0 |
 | accessibility | 55.0 |

@@ -21,7 +21,7 @@
 | License | not declared |
 | Language | HTML |
 | Created | 2025-11-12 |
-| Last push | 2026-10-29 (4 days ago) |
+| Last push | 2026-10-29 (5 days ago) |
 | Analyzed README | 108,996 chars from `raw:HEAD/README.md` |
 
 ## What it solves

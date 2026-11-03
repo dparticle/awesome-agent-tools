@@ -6,8 +6,8 @@
   "url": "https://github.com/larashero3-dotcom/lieflat-charts",
   "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
   "homepage": "",
-  "stars": 6589,
-  "forks": 398,
+  "stars": 6661,
+  "forks": 402,
   "open_issues": 0,
   "language": "HTML",
   "license": "NOASSERTION",
@@ -22,33 +22,33 @@
     "svg"
   ],
   "created_at": "2026-07-16T11:17:49Z",
-  "updated_at": "2026-11-02T12:23:07Z",
-  "pushed_at": "2026-11-02T03:03:41Z",
+  "updated_at": "2026-11-03T11:01:37Z",
+  "pushed_at": "2026-11-03T03:38:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 109,
+  "age_days": 110,
   "days_since_push": 0,
-  "health_score": 64,
+  "health_score": 66,
   "health_components": {
-    "popularity": 76.4,
-    "momentum": 20.7,
+    "popularity": 76.5,
+    "momentum": 29.2,
     "maintenance": 100.0,
     "documentation": 40.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 124,
+    "stars_gained": 175,
     "days_span": 5,
-    "stars_per_day": 24.8,
-    "lifetime_stars_per_day": 60.45,
+    "stars_per_day": 35.0,
+    "lifetime_stars_per_day": 60.55,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "larashero3-dotcom/lieflat-charts",
-    "readme_chars": 10823,
+    "readme_chars": 10818,
     "capabilities": [
       "cross-agent-support"
     ],
@@ -86,7 +86,7 @@
       "Claude Code",
       "Codex"
     ],
-    "summary_en": "Lieflat Charts 是一套遵循 Agent Skills 格式的数据可视化、PPT 演示与整页报告生成 skill，可供 moxt、Claude Code、Codex 及其他兼容 SKILL.md 的 AI agent 使用。本 skill 同时提供 PPT 模式和报告模式，但默认产出图表；用户明确要求一套 PPT、幻灯片或可翻页汇报时，才进入 PPT 模式，生成 HTML 或 PDF 格式的 PPT；用户明确要求报告、年报、月报、白皮书、海报或 brief 时，…",
+    "summary_en": "Lieflat Charts 是一套遵循 Agent Skills 格式的数据可视化、PPT 演示与整页报告生成 skill，可供 Claude Code、Codex 及其他兼容 SKILL.md 的 AI agent 使用。本 skill 同时提供 PPT 模式和报告模式，但默认产出图表；用户明确要求一套 PPT、幻灯片或可翻页汇报时，才进入 PPT 模式，生成 HTML 或 PDF 格式的 PPT；用户明确要求报告、年报、月报、白皮书、海报或 brief 时，才生成整页…",
     "summary_zh": "",
     "install_hint": "npx skills add https://github.com/larashero3-dotcom/lieflat-charts --skill lieflat-charts",
     "source": "raw:HEAD/README.md",
@@ -113,11 +113,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:22+00:00",
+  "fetched_at": "2026-11-03T11:57:35+00:00",
   "categories": [
-    "analytics"
+    "desktop-ui"
   ],
-  "primary_category": "analytics",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

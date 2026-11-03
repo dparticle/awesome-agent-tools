@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,271 |
-| Star velocity | 12.8/day (history basis, 5d span) |
+| Stars | 15,279 |
+| Star velocity | 11.2/day (history basis, 5d span) |
 | Health score | 63/100 |
-| Documentation | 50/100 |
+| Documentation | 51/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-03-31 |
-| Last push | 2026-11-02 (0 days ago) |
-| Analyzed README | 9,781 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-03 (0 days ago) |
+| Analyzed README | 10,448 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -72,7 +72,7 @@
 
 ### Security & isolation
 
-> 台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、手机 App 与 H5 远程访问、IM 接入和定时任务，集中在一个 macOS / Windows / Linux APP 里。
+> 物、手机 App 与 H5 远程访问、IM 接入和定时任务，集中在一个 macOS / Windows / Linux APP 里。
 
 ### Self-hostable
 
@@ -92,7 +92,7 @@
 
 ## Documentation quality
 
-Score **50/100**, based on these detected signals:
+Score **51/100**, based on these detected signals:
 
 - contains screenshots/diagrams
 - has section headings
@@ -110,9 +110,9 @@ Score **50/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.7 |
-| momentum | 10.7 |
+| momentum | 9.3 |
 | maintenance | 100.0 |
-| documentation | 50.0 |
+| documentation | 51.0 |
 | accessibility | 79.0 |
 
 ---

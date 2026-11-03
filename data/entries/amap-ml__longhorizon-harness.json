@@ -6,8 +6,8 @@
   "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
   "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
   "homepage": "https://lh-harness.pages.dev",
-  "stars": 1816,
-  "forks": 192,
+  "stars": 1836,
+  "forks": 193,
   "open_issues": 20,
   "language": "Python",
   "license": "MIT",
@@ -31,26 +31,26 @@
     "loop-engineering"
   ],
   "created_at": "2026-08-04T04:30:58Z",
-  "updated_at": "2026-11-02T12:07:33Z",
+  "updated_at": "2026-11-03T07:45:51Z",
   "pushed_at": "2026-10-21T13:08:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 90,
-  "days_since_push": 11,
-  "health_score": 58,
+  "age_days": 91,
+  "days_since_push": 12,
+  "health_score": 59,
   "health_components": {
-    "popularity": 65.2,
-    "momentum": 5.3,
+    "popularity": 65.3,
+    "momentum": 8.2,
     "maintenance": 92.0,
     "documentation": 75.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 32,
+    "stars_gained": 49,
     "days_span": 5,
-    "stars_per_day": 6.4,
+    "stars_per_day": 9.8,
     "lifetime_stars_per_day": 20.18,
     "basis": "history",
     "is_fast_riser": true
@@ -161,10 +161,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:57+00:00",
+  "fetched_at": "2026-11-03T11:58:25+00:00",
   "categories": [
     "analytics-2",
-    "failover",
+    "analytics-3",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",

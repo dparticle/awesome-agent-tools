@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "full_name": "nightly-labs/openbot",
+  "name": "openbot",
+  "owner": "nightly-labs",
+  "url": "https://github.com/nightly-labs/openbot",
+  "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+  "homepage": "https://openbot.run/",
+  "stars": 5075,
+  "forks": 514,
+  "open_issues": 552,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "topics": [
+    "ai-agents",
+    "bun",
+    "codex",
+    "electron",
+    "local-first",
+    "macos",
+    "solidjs",
+    "typescript"
+  ],
+  "created_at": "2026-08-12T21:32:03Z",
+  "updated_at": "2026-11-03T11:56:28Z",
+  "pushed_at": "2026-11-03T11:56:26Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 82,
+  "days_since_push": 0,
+  "health_score": 71,
+  "health_components": {
+    "popularity": 74.1,
+    "momentum": 51.6,
+    "maintenance": 100.0,
+    "documentation": 73.0,
+    "accessibility": 52.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 5075,
+    "days_span": 82,
+    "stars_per_day": 61.89,
+    "lifetime_stars_per_day": 61.89,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "nightly-labs/openbot",
+    "readme_chars": 61010,
+    "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "worktree-isolation",
+      "model-routing",
+      "api-gateway",
+      "billing-metering",
+      "session-persistence",
+      "skills-plugins",
+      "mcp-support",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "",
+      "mobile-access": "municates with local CLI processes",
+      "worktree-isolation": "codex:doctor checks the CLI version, App Server handshake, and ChatGPT login without starting a model turn.",
+      "model-routing": "ter and gives it only to the local CLI.",
+      "api-gateway": "ions, avatar, and section review before saving.",
+      "billing-metering": "",
+      "session-persistence": "ta-dir keeps the store in that directory",
+      "skills-plugins": "r separately through the marketplace.",
+      "mcp-support": "carries the Vite server and the source maps as well.",
+      "self-hosted": "t on a VPS or home server (Ubuntu 24.04 or",
+      "team-collaboration": "uses it until a download exists.",
+      "gui-desktop": "sts the new source, then publishes and pins verified artifacts through its existing release flow.",
+      "notifications": "access window.openbot or managed local attachments.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "mobile-access": 1,
+      "worktree-isolation": 9,
+      "model-routing": 3,
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "session-persistence": 7,
+      "skills-plugins": 4,
+      "mcp-support": 1,
+      "self-hosted": 2,
+      "team-collaboration": 4,
+      "gui-desktop": 12,
+      "notifications": 3,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 48,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker run",
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "sign-in required",
+        "database dependency",
+        "database migration",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs docker run, git clone (build from source); configure API key configuration, config.json/yaml/toml; GUI application",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 docker run、git clone (build from source)；需配置 API key configuration、config.json/yaml/toml；GUI application"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "OpenBot is a local-first desktop workspace for persistent AI teammates.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/nightly-labs/openbot/main/scripts/install-server.sh | sudo bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.262
+    },
+    "highlights": [
+      "~/.cursor — login and session history managed exclusively by the Cursor CLI.",
+      "~/.kimi (or $KIMISHAREDIR) — login and session history managed exclusively by the Kimi Code CLI.",
+      "~/.cline (or $CLINE_DIR) — login and session history managed exclusively by the Cline CLI.",
+      "~/.codex — login and thread history managed exclusively by Codex CLI."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-03T11:57:39+00:00",
+  "categories": [
+    "analytics",
+    "memory-mcp",
+    "teams-isolation"
+  ],
+  "primary_category": "analytics",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

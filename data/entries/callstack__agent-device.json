@@ -6,9 +6,9 @@
   "url": "https://github.com/callstack/agent-device",
   "description": "Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.",
   "homepage": "https://agent-device.dev",
-  "stars": 5234,
-  "forks": 371,
-  "open_issues": 106,
+  "stars": 5248,
+  "forks": 375,
+  "open_issues": 99,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,29 +31,29 @@
     "xcuitest"
   ],
   "created_at": "2026-01-30T18:41:54Z",
-  "updated_at": "2026-11-02T11:58:19Z",
-  "pushed_at": "2026-11-02T12:22:38Z",
+  "updated_at": "2026-11-03T11:50:10Z",
+  "pushed_at": "2026-11-03T11:50:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 275,
+  "age_days": 276,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 65,
   "health_components": {
     "popularity": 74.4,
-    "momentum": 15.9,
+    "momentum": 10.8,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5234,
-    "days_span": 275,
-    "stars_per_day": 19.03,
-    "lifetime_stars_per_day": 19.03,
-    "basis": "lifetime",
-    "is_fast_riser": false
+    "stars_gained": 65,
+    "days_span": 5,
+    "stars_per_day": 13.0,
+    "lifetime_stars_per_day": 19.01,
+    "basis": "history",
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "callstack/agent-device",
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:50+00:00",
+  "fetched_at": "2026-11-03T11:58:14+00:00",
   "categories": [
+    "analytics",
     "memory-mcp",
-    "mobile-remote-control",
     "teams-isolation"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

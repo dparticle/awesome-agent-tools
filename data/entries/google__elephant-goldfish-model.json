@@ -6,9 +6,9 @@
   "url": "https://github.com/google/elephant-goldfish-model",
   "description": "Open-source skills for designing and reviewing software with AI agents",
   "homepage": "https://egm.dev",
-  "stars": 10027,
-  "forks": 657,
-  "open_issues": 76,
+  "stars": 10982,
+  "forks": 738,
+  "open_issues": 45,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -30,16 +30,16 @@
     "spec-driven-development"
   ],
   "created_at": "2026-09-13T16:31:06Z",
-  "updated_at": "2026-11-02T12:24:15Z",
-  "pushed_at": "2026-11-01T13:38:10Z",
+  "updated_at": "2026-11-03T11:56:19Z",
+  "pushed_at": "2026-11-03T07:44:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 49,
+  "age_days": 50,
   "days_since_push": 0,
   "health_score": 82,
   "health_components": {
-    "popularity": 80.0,
+    "popularity": 80.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 42.0,
@@ -47,16 +47,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 10027,
-    "days_span": 49,
-    "stars_per_day": 204.63,
-    "lifetime_stars_per_day": 204.63,
-    "basis": "lifetime",
+    "stars_gained": 5702,
+    "days_span": 5,
+    "stars_per_day": 1140.4,
+    "lifetime_stars_per_day": 219.64,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "google/elephant-goldfish-model",
-    "readme_chars": 7969,
+    "readme_chars": 8149,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
@@ -112,7 +112,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.627
+      "external_link_ratio": 0.614
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -124,12 +124,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:19+00:00",
+  "fetched_at": "2026-11-03T11:57:29+00:00",
   "categories": [
-    "desktop-ui",
-    "notifications"
+    "desktop-ui"
   ],
-  "primary_category": "notifications",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

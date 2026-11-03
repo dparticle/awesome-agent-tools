@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 512,
   "forks": 131,
-  "open_issues": 39,
+  "open_issues": 36,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,33 +19,33 @@
     "pi"
   ],
   "created_at": "2026-04-23T12:03:56Z",
-  "updated_at": "2026-11-02T05:15:49Z",
-  "pushed_at": "2026-10-25T06:22:51Z",
+  "updated_at": "2026-11-02T23:13:19Z",
+  "pushed_at": "2026-11-02T23:14:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 193,
-  "days_since_push": 8,
-  "health_score": 47,
+  "days_since_push": 0,
+  "health_score": 49,
   "health_components": {
     "popularity": 54.2,
-    "momentum": 0.8,
-    "maintenance": 92.0,
-    "documentation": 71.0,
+    "momentum": 0.7,
+    "maintenance": 100.0,
+    "documentation": 74.0,
     "accessibility": 16.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.0,
+    "stars_per_day": 0.8,
     "lifetime_stars_per_day": 2.65,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "chandra447/pi-hermes-memory",
-    "readme_chars": 44160,
+    "readme_chars": 44677,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -56,10 +56,10 @@
     ],
     "capability_evidence": {
       "auto-failover": "d pi -p processes run with --tools memoryadd,memoryreplace,memoryremove and --exclude-tools mcp*, so a background child cannot edit files, run commands, touch skills, or reach MCP tools even when the fallback model is a…",
-      "model-routing": "es matching the *-oauth-adapter/*-auth-adapter naming convention (including scoped packages, via their package.json pi.extensions manifest) are detected automatically.",
+      "model-routing": "ages matching the -oauth-adapter/-auth-adapter naming convention (including scoped packages, via their package.json pi.extensions manifest) are detected automatically.",
       "session-persistence": "operators like OR still work when you need them.",
       "memory-context": "n (production install for Pi).",
-      "skills-plugins": "do something, reusable across sessions Unlimited Discoverable by Pi + manageable via the skillmanage tool",
+      "skills-plugins": "killmanage tool for saving reusable procedures.",
       "mcp-support": "hout extension-runtime access."
     },
     "capability_hits": {
@@ -67,7 +67,7 @@
       "model-routing": 1,
       "session-persistence": 3,
       "memory-context": 5,
-      "skills-plugins": 1,
+      "skills-plugins": 2,
       "mcp-support": 2
     },
     "friction": {
@@ -94,7 +94,7 @@
       "note_en": "Involved setup. needs git clone (build from source), npm install/build; configure config.json/yaml/toml, OAuth login flow",
       "note_zh": "配置较重。需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、OAuth login flow"
     },
-    "doc_score": 71,
+    "doc_score": 74,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -102,6 +102,7 @@
       "has a quick-start section",
       "documents installation",
       "documents configuration",
+      "has contribution guidance",
       "mentions licensing",
       "documents changes",
       "publishes a roadmap",
@@ -120,7 +121,7 @@
       "signals": [
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.068
+      "external_link_ratio": 0.09
     },
     "highlights": [
       "session-start.persistence-sync and session-start.load",
@@ -137,78 +138,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:21+00:00",
+  "fetched_at": "2026-11-03T11:59:02+00:00",
   "categories": [
-    "analytics",
     "failover"
   ],
-  "primary_category": "analytics",
+  "primary_category": "failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "chandra447/pi-hermes-memory",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "chandra447/pi-hermes-memory",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "session-persistence",
-        "skills-plugins"
-      ],
-      "star_ratio": 576.471,
-      "momentum_ratio": 774.8,
-      "setup_delta": -27,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "576.47x the stars (295,153 vs 512)",
-        "774.80x the star velocity (774.8/day vs 1.0/day)",
-        "no harder to set up (57 vs 84 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 89,
-        "incumbent_setup_score": 84,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

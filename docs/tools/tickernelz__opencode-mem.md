@@ -12,25 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,812 |
+| Stars | 1,814 |
 | Star velocity | 4.0/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-01-10 |
 | Last push | 2026-11-02 (0 days ago) |
-| Analyzed README | 57,974 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (11/11).
+| Analyzed README | 58,454 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> For profile learning and other structured-output paths (which are not tied to a single user message), inherit first reuses the last model the host reported on chat.params / the V2 context hook, then falls back to OpenCo…
+> ute without changing memory
 
 ### Multi-agent orchestration
 

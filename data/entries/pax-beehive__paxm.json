@@ -6,7 +6,7 @@
   "url": "https://github.com/pax-beehive/paxm",
   "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
   "homepage": "",
-  "stars": 282,
+  "stars": 283,
   "forks": 11,
   "open_issues": 3,
   "language": "Go",
@@ -23,28 +23,28 @@
     "sqlite"
   ],
   "created_at": "2026-07-09T02:40:57Z",
-  "updated_at": "2026-10-29T06:50:31Z",
+  "updated_at": "2026-11-02T13:55:13Z",
   "pushed_at": "2026-08-28T22:40:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
-  "days_since_push": 65,
+  "age_days": 117,
+  "days_since_push": 66,
   "health_score": 47,
   "health_components": {
     "popularity": 49.0,
-    "momentum": 2.0,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 64.0,
     "accessibility": 60.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 282,
-    "days_span": 116,
-    "stars_per_day": 2.43,
-    "lifetime_stars_per_day": 2.43,
-    "basis": "lifetime",
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.42,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -148,18 +148,82 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:41+00:00",
+  "fetched_at": "2026-11-03T11:59:29+00:00",
   "categories": [
-    "analytics",
     "analytics-2",
-    "analytics-3"
+    "analytics-3",
+    "failover"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "pax-beehive/paxm",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "pax-beehive/paxm",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "security-isolation",
+        "self-hosted",
+        "session-persistence"
+      ],
+      "star_ratio": 106.389,
+      "momentum_ratio": 115.0,
+      "setup_delta": -8,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "106.39x the stars (30,108 vs 283)",
+        "115.00x the star velocity (23.0/day vs 0.2/day)",
+        "no harder to set up (32 vs 40 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 70,
+        "incumbent_setup_score": 40,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

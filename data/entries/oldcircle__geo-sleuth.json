@@ -6,9 +6,9 @@
   "url": "https://github.com/Oldcircle/geo-sleuth",
   "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
   "homepage": "",
-  "stars": 5518,
-  "forks": 691,
-  "open_issues": 21,
+  "stars": 5714,
+  "forks": 712,
+  "open_issues": 26,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -32,16 +32,16 @@
     "satellite-imagery"
   ],
   "created_at": "2026-09-18T08:51:34Z",
-  "updated_at": "2026-11-02T12:21:24Z",
-  "pushed_at": "2026-11-01T09:34:20Z",
+  "updated_at": "2026-11-03T11:52:02Z",
+  "pushed_at": "2026-11-03T10:52:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 45,
-  "days_since_push": 1,
+  "age_days": 46,
+  "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 74.8,
+    "popularity": 75.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 75.0,
@@ -49,16 +49,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1132,
+    "stars_gained": 1237,
     "days_span": 5,
-    "stars_per_day": 226.4,
-    "lifetime_stars_per_day": 122.62,
+    "stars_per_day": 247.4,
+    "lifetime_stars_per_day": 124.22,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Oldcircle/geo-sleuth",
-    "readme_chars": 35066,
+    "readme_chars": 35204,
     "capabilities": [
       "auto-failover",
       "cross-agent-support"
@@ -127,7 +127,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.314
+      "external_link_ratio": 0.312
     },
     "highlights": [
       "Checkpoints: the 171 sites that pass the horizon test should include intercity bridge segments near the answer; the skyline fit covers 14,372 camera positions, the top 20 lie within 0.1°, a…",
@@ -149,7 +149,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:24+00:00",
+  "fetched_at": "2026-11-03T11:57:37+00:00",
   "categories": [
     "failover"
   ],

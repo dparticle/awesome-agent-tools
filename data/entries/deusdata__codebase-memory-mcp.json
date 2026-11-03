@@ -6,9 +6,9 @@
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
   "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
-  "stars": 47988,
-  "forks": 3951,
-  "open_issues": 565,
+  "stars": 48043,
+  "forks": 3956,
+  "open_issues": 557,
   "language": "C",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windsurf"
   ],
   "created_at": "2026-02-24T22:01:00Z",
-  "updated_at": "2026-11-02T11:53:50Z",
-  "pushed_at": "2026-11-02T06:46:29Z",
+  "updated_at": "2026-11-03T11:43:43Z",
+  "pushed_at": "2026-11-03T06:01:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 250,
+  "age_days": 251,
   "days_since_push": 0,
   "health_score": 74,
   "health_components": {
     "popularity": 93.6,
-    "momentum": 49.0,
+    "momentum": 46.8,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 36.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 294,
+    "stars_gained": 281,
     "days_span": 5,
-    "stars_per_day": 58.8,
-    "lifetime_stars_per_day": 191.95,
+    "stars_per_day": 56.2,
+    "lifetime_stars_per_day": 191.41,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "DeusData/codebase-memory-mcp",
-    "readme_chars": 118397,
+    "readme_chars": 118966,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -76,7 +76,7 @@
       "multi-account-switching": "led hooks through /hooks.",
       "auto-failover": "d without contacting support; and every teammate needs git lfs install; without it their checkout leaves a pointer file where the artifact should be, the integrity-checked import refuses it, and they fall back to a full…",
       "multi-agent-orchestration": "y and fail-open: it does not replace or block the requested tool call.",
-      "worktree-isolation": ", with exact omission metadata.",
+      "worktree-isolation": "oo, set config set watchnongit true (default false, read when the daemon starts): they are then checked on the same cadence with a file-tree scan that uses the indexer's own ignore rules.",
       "memory-context": "Understand your repository, from source code to the systems around it.",
       "skills-plugins": "- - .tar.gz (macOS/Linux) or .zip (Windows)",
       "agent-runtime": "codebase-memory-mcp- - .tar.gz (macOS/Linux) or .zip (Windows)",
@@ -87,7 +87,7 @@
       "multi-account-switching": 1,
       "auto-failover": 1,
       "multi-agent-orchestration": 10,
-      "worktree-isolation": 2,
+      "worktree-isolation": 7,
       "memory-context": 6,
       "skills-plugins": 4,
       "agent-runtime": 7,
@@ -171,7 +171,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.287
+      "external_link_ratio": 0.286
     },
     "highlights": [
       "Choose a local model. The default Qwen2.5 Coder 0.5B downloads about 567 MB; Qwen3 0.6B, LFM2.5 1.2B and Qwen3.5 2B are larger options. All need WebGPU with shader-f16 support.",
@@ -188,13 +188,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:43+00:00",
+  "fetched_at": "2026-11-03T11:58:04+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
-    "failover"
+    "failover",
+    "teams-isolation"
   ],
-  "primary_category": "analytics",
+  "primary_category": "teams-isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

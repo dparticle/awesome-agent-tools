@@ -29,22 +29,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 138,
-  "days_since_push": 0,
+  "age_days": 139,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 43.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 4.01,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 3.98,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,12 +144,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:18+00:00",
+  "fetched_at": "2026-11-03T11:58:56+00:00",
   "categories": [
-    "mobile-remote-control",
-    "model-routing"
+    "analytics"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (7/7).",
@@ -174,14 +173,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 20.197,
-      "momentum_ratio": 37.5,
+      "star_ratio": 20.224,
+      "momentum_ratio": 73.0,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "20.20x the stars (11,169 vs 553)",
-        "37.50x the star velocity (15.0/day vs 0.4/day)",
+        "20.22x the stars (11,184 vs 553)",
+        "73.00x the star velocity (14.6/day vs 0.2/day)",
         "no harder to set up (25 vs 31 friction)"
       ],
       "reasons_zh": [],
@@ -212,7 +211,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 67,
+        "challenger_health": 66,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 25
       }

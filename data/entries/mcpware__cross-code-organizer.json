@@ -8,7 +8,7 @@
   "homepage": "https://www.npmjs.com/package/@mcpware/cross-code-organizer",
   "stars": 386,
   "forks": 34,
-  "open_issues": 4,
+  "open_issues": 5,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -35,12 +35,12 @@
   ],
   "created_at": "2026-03-18T21:50:10Z",
   "updated_at": "2026-10-30T20:55:33Z",
-  "pushed_at": "2026-10-31T09:22:11Z",
+  "pushed_at": "2026-11-03T02:56:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 228,
-  "days_since_push": 2,
+  "age_days": 229,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 51.7,
@@ -163,10 +163,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:31+00:00",
+  "fetched_at": "2026-11-03T11:59:15+00:00",
   "categories": [
     "desktop-ui",
-    "failover",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
@@ -193,14 +192,14 @@
         "skills-plugins",
         "usage-analytics"
       ],
-      "star_ratio": 29.889,
-      "momentum_ratio": 375.0,
+      "star_ratio": 30.106,
+      "momentum_ratio": 349.0,
       "setup_delta": 0,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "29.89x the stars (11,537 vs 386)",
-        "375.00x the star velocity (75.0/day vs 0.2/day)",
+        "30.11x the stars (11,621 vs 386)",
+        "349.00x the star velocity (69.8/day vs 0.2/day)",
         "no harder to set up (20 vs 20 friction)"
       ],
       "reasons_zh": [],
@@ -228,7 +227,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 54,
-        "challenger_health": 77,
+        "challenger_health": 76,
         "incumbent_setup_score": 20,
         "challenger_setup_score": 20
       }

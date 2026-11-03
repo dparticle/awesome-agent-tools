@@ -6,8 +6,8 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "https://devspace.run",
-  "stars": 5370,
-  "forks": 605,
+  "stars": 5382,
+  "forks": 607,
   "open_issues": 27,
   "language": "TypeScript",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-11-02T09:48:48Z",
+  "updated_at": "2026-11-03T10:27:26Z",
   "pushed_at": "2026-11-01T17:42:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
-  "days_since_push": 0,
+  "age_days": 141,
+  "days_since_push": 1,
   "health_score": 61,
   "health_components": {
     "popularity": 74.6,
-    "momentum": 11.7,
+    "momentum": 12.8,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 70,
+    "stars_gained": 77,
     "days_span": 5,
-    "stars_per_day": 14.0,
-    "lifetime_stars_per_day": 38.36,
+    "stars_per_day": 15.4,
+    "lifetime_stars_per_day": 38.17,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:24+00:00",
+  "fetched_at": "2026-11-03T11:57:38+00:00",
   "categories": [
     "desktop-ui",
     "memory-mcp",
@@ -177,14 +177,14 @@
         "remote-control",
         "worktree-isolation"
       ],
-      "star_ratio": 4.245,
-      "momentum_ratio": 7.657,
+      "star_ratio": 4.254,
+      "momentum_ratio": 6.766,
       "setup_delta": -4,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.25x the stars (22,796 vs 5,370)",
-        "7.66x the star velocity (107.2/day vs 14.0/day)",
+        "4.25x the stars (22,895 vs 5,382)",
+        "6.77x the star velocity (104.2/day vs 15.4/day)",
         "no harder to set up (24 vs 28 friction)"
       ],
       "reasons_zh": [],
@@ -213,7 +213,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 61,
-        "challenger_health": 84,
+        "challenger_health": 83,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 24
       }

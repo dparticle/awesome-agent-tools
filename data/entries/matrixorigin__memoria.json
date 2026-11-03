@@ -6,9 +6,9 @@
   "url": "https://github.com/matrixorigin/memoria",
   "description": "Secure memory management for AI Agents • Ensures data integrity • Reduces hallucinations • Maintains consistent long-term context",
   "homepage": "https://thememoria.ai/",
-  "stars": 621,
+  "stars": 622,
   "forks": 80,
-  "open_issues": 76,
+  "open_issues": 69,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -20,13 +20,13 @@
     "storage"
   ],
   "created_at": "2026-03-09T23:44:24Z",
-  "updated_at": "2026-10-31T15:47:08Z",
-  "pushed_at": "2026-10-31T09:59:09Z",
+  "updated_at": "2026-11-03T07:12:25Z",
+  "pushed_at": "2026-11-03T07:12:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 237,
-  "days_since_push": 2,
+  "age_days": 238,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 55.9,
@@ -40,7 +40,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.62,
+    "lifetime_stars_per_day": 2.61,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,17 +139,78 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:16+00:00",
+  "fetched_at": "2026-11-03T11:58:53+00:00",
   "categories": [
     "analytics-2",
     "analytics-3"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "matrixorigin/memoria",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "matrixorigin/memoria",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "security-isolation",
+        "self-hosted",
+        "worktree-isolation"
+      ],
+      "star_ratio": 476.035,
+      "momentum_ratio": 984.25,
+      "setup_delta": -6,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "476.04x the stars (296,094 vs 622)",
+        "984.25x the star velocity (787.4/day vs 0.8/day)",
+        "no harder to set up (57 vs 63 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "security-isolation",
+          "self-hosted",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 89,
+        "incumbent_setup_score": 63,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

@@ -6,9 +6,9 @@
   "url": "https://github.com/Loongphy/codex-auth",
   "description": "A CLI tool to switch and manage Codex accounts",
   "homepage": "",
-  "stars": 2850,
+  "stars": 2849,
   "forks": 165,
-  "open_issues": 34,
+  "open_issues": 32,
   "language": "Zig",
   "license": "MIT",
   "topics": [
@@ -16,33 +16,33 @@
     "zig"
   ],
   "created_at": "2026-02-10T06:53:56Z",
-  "updated_at": "2026-11-02T09:37:04Z",
-  "pushed_at": "2026-10-28T22:34:43Z",
+  "updated_at": "2026-11-03T11:10:10Z",
+  "pushed_at": "2026-11-03T07:40:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 265,
-  "days_since_push": 4,
+  "age_days": 266,
+  "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 69.1,
-    "momentum": 1.0,
+    "momentum": 0.7,
     "maintenance": 100.0,
-    "documentation": 37.0,
+    "documentation": 38.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 10.75,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 10.71,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Loongphy/codex-auth",
-    "readme_chars": 7254,
+    "readme_chars": 7522,
     "capabilities": [
       "multi-account-switching",
       "gui-desktop"
@@ -78,7 +78,7 @@
       "note_en": "Easy. install via npx one-liner, global npm install; needs npm install/build; configure environment variables, sign-in required; GUI application",
       "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 npm install/build；需配置 environment variables、sign-in required；GUI application"
     },
-    "doc_score": 37,
+    "doc_score": 38,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -97,11 +97,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.827
+      "external_link_ratio": 0.798
     },
     "highlights": [
       "Local-only: With per-command --skip-api, the tool scans local ~/.codex/sessions//rollout-.jsonl files for usage data and skips team name refresh API calls.",
-      "GET https://chatgpt.com/backend-api/wham/usage",
       "API (default): The tool makes direct HTTPS requests to OpenAI's endpoints using your account's access token.",
       "Restoring or resuming an existing conversation"
     ],
@@ -114,7 +113,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:53+00:00",
+  "fetched_at": "2026-11-03T11:58:19+00:00",
   "categories": [
     "sharing"
   ],

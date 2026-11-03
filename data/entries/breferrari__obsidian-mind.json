@@ -6,7 +6,7 @@
   "url": "https://github.com/breferrari/obsidian-mind",
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
   "homepage": "",
-  "stars": 5472,
+  "stars": 5481,
   "forks": 609,
   "open_issues": 17,
   "language": "TypeScript",
@@ -24,27 +24,27 @@
     "template"
   ],
   "created_at": "2026-02-28T21:41:41Z",
-  "updated_at": "2026-11-02T09:43:33Z",
+  "updated_at": "2026-11-02T20:46:42Z",
   "pushed_at": "2026-10-17T23:34:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 246,
-  "days_since_push": 15,
+  "age_days": 247,
+  "days_since_push": 16,
   "health_score": 59,
   "health_components": {
     "popularity": 74.8,
-    "momentum": 5.3,
+    "momentum": 6.0,
     "maintenance": 92.0,
     "documentation": 81.0,
     "accessibility": 42.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 32,
+    "stars_gained": 36,
     "days_span": 5,
-    "stars_per_day": 6.4,
-    "lifetime_stars_per_day": 22.24,
+    "stars_per_day": 7.2,
+    "lifetime_stars_per_day": 22.19,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -152,8 +152,8 @@
     "highlights_zh": [
       "Node 22+ LTS（用于钩子脚本 — 通常与 Claude Code / Codex / Gemini CLI 一起已安装）",
       "/om-review-brief 通过汇总所有内容生成完整的评估简报：成就记录、决策、事件、能力证据和 1:1 反馈",
-      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/",
-      "Competency Note（能力项笔记） — date、description、current-level、target-level、熟练度表格"
+      "展示迁移计划——你可以确切看到哪些内容将被复制、转换和跳过",
+      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:49+00:00",
+  "fetched_at": "2026-11-03T11:58:13+00:00",
   "categories": [
     "desktop-ui",
     "failover"

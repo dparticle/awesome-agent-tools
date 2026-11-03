@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 276,
-  "days_since_push": 133,
+  "age_days": 277,
+  "days_since_push": 134,
   "health_score": 38,
   "health_components": {
     "popularity": 56.1,
@@ -42,9 +42,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 15,
+    "days_span": 16,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.32,
+    "lifetime_stars_per_day": 2.31,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -119,10 +119,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:16+00:00",
+  "fetched_at": "2026-11-03T11:58:52+00:00",
   "categories": [
     "desktop-ui",
-    "failover",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
@@ -148,13 +147,13 @@
         "skills-plugins"
       ],
       "star_ratio": 1.774,
-      "momentum_ratio": 48.0,
+      "momentum_ratio": 32.0,
       "setup_delta": -15,
       "dominance": 0.88,
       "reasons": [
         "covers 100% of capabilities (4/4)",
         "1.77x the stars (1,137 vs 641)",
-        "48.00x the star velocity (2.4/day vs 0.0/day)",
+        "32.00x the star velocity (1.6/day vs 0.0/day)",
         "no harder to set up (30 vs 45 friction)"
       ],
       "reasons_zh": [],

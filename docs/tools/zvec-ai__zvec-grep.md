@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,215 |
-| Star velocity | 3.6/day (history basis, 5d span) |
+| Stars | 4,219 |
+| Star velocity | 3.0/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-07-10 |
-| Last push | 2026-11-02 (0 days ago) |
-| Analyzed README | 11,239 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-03 (0 days ago) |
+| Analyzed README | 11,271 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -35,7 +35,7 @@
 - **Difficulty:** 🟡 Some setup (friction score 37/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npm install -g @zvec/zvec-grep`
+- **Quickest install:** `npm install -g @zvec/zvec-grep --allow-scripts=@zvec/zvec-grep`
 
 **Signals that make it easy:** global npm install
 
@@ -63,7 +63,7 @@ Score **46/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 72.5 |
-| momentum | 3.0 |
+| momentum | 2.5 |
 | maintenance | 100.0 |
 | documentation | 46.0 |
 | accessibility | 63.0 |

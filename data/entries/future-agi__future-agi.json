@@ -6,9 +6,9 @@
   "url": "https://github.com/future-agi/future-agi",
   "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
   "homepage": "https://futureagi.com",
-  "stars": 2238,
-  "forks": 705,
-  "open_issues": 951,
+  "stars": 2241,
+  "forks": 704,
+  "open_issues": 956,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "tracing"
   ],
   "created_at": "2026-04-23T14:11:31Z",
-  "updated_at": "2026-11-02T10:31:04Z",
-  "pushed_at": "2026-11-02T12:22:35Z",
+  "updated_at": "2026-11-03T02:42:01Z",
+  "pushed_at": "2026-11-03T11:44:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 192,
+  "age_days": 193,
   "days_since_push": 0,
-  "health_score": 60,
+  "health_score": 59,
   "health_components": {
     "popularity": 67.0,
-    "momentum": 4.3,
+    "momentum": 3.8,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 26,
+    "stars_gained": 23,
     "days_span": 5,
-    "stars_per_day": 5.2,
-    "lifetime_stars_per_day": 11.66,
+    "stars_per_day": 4.6,
+    "lifetime_stars_per_day": 11.61,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -152,7 +152,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:55+00:00",
+  "fetched_at": "2026-11-03T11:58:22+00:00",
   "categories": [
     "analytics-2",
     "billing",
@@ -160,10 +160,72 @@
   ],
   "primary_category": "analytics-2",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "future-agi/future-agi",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "future-agi/future-agi",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "billing-metering",
+        "mcp-support",
+        "memory-context",
+        "self-hosted"
+      ],
+      "star_ratio": 13.435,
+      "momentum_ratio": 5.0,
+      "setup_delta": -13,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "13.44x the stars (30,108 vs 2,241)",
+        "5.00x the star velocity (23.0/day vs 4.6/day)",
+        "no harder to set up (32 vs 45 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "mcp-support",
+          "memory-context",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 59,
+        "challenger_health": 70,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

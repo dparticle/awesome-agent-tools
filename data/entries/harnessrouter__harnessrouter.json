@@ -6,9 +6,9 @@
   "url": "https://github.com/HarnessRouter/harnessrouter",
   "description": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an open standard. Your keys, your infrastructure.",
   "homepage": "https://harnessrouter.ai/",
-  "stars": 3873,
-  "forks": 422,
-  "open_issues": 21,
+  "stars": 3918,
+  "forks": 425,
+  "open_issues": 20,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,16 +34,16 @@
     "unified-interface"
   ],
   "created_at": "2026-08-09T20:19:14Z",
-  "updated_at": "2026-11-02T12:05:22Z",
-  "pushed_at": "2026-11-02T09:29:45Z",
+  "updated_at": "2026-11-03T11:22:19Z",
+  "pushed_at": "2026-11-03T11:39:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 84,
+  "age_days": 85,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
-    "popularity": 71.8,
+    "popularity": 71.9,
     "momentum": 38.4,
     "maintenance": 100.0,
     "documentation": 64.0,
@@ -51,16 +51,16 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3873,
-    "days_span": 84,
-    "stars_per_day": 46.11,
-    "lifetime_stars_per_day": 46.11,
+    "stars_gained": 3918,
+    "days_span": 85,
+    "stars_per_day": 46.09,
+    "lifetime_stars_per_day": 46.09,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "HarnessRouter/harnessrouter",
-    "readme_chars": 23608,
+    "readme_chars": 23667,
     "capabilities": [
       "model-routing",
       "provider-aggregation",
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.678
+      "external_link_ratio": 0.676
     },
     "highlights": [
       "Your infrastructure. One Docker deployment for the Console, Gateway, and Runner."
@@ -155,7 +155,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:27+00:00",
+  "fetched_at": "2026-11-03T11:57:42+00:00",
   "categories": [
     "providers-2"
   ],

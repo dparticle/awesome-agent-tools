@@ -6,20 +6,20 @@
   "url": "https://github.com/Archive228/loopkit",
   "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
   "homepage": "",
-  "stars": 756,
+  "stars": 757,
   "forks": 124,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-30T08:46:55Z",
-  "updated_at": "2026-10-29T05:44:05Z",
+  "updated_at": "2026-11-03T10:05:29Z",
   "pushed_at": "2026-07-14T21:10:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 125,
-  "days_since_push": 110,
+  "age_days": 126,
+  "days_since_push": 111,
   "health_score": 46,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 6.05,
+    "lifetime_stars_per_day": 6.01,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -116,8 +116,8 @@
     "highlights": [
       "A wrapper CLI. No daemon, no server, no runtime state. run.sh is 8 lines.",
       "planner-spec-expand — 1–4 sentence brief → full ambitious spec with design language and ordered feature list → starting a fresh project or major feature",
-      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds",
-      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds"
+      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds",
+      "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:14+00:00",
+  "fetched_at": "2026-11-03T11:58:49+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -155,14 +155,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 64.847,
-      "momentum_ratio": 842.35,
+      "star_ratio": 64.834,
+      "momentum_ratio": 840.4,
       "setup_delta": 11,
       "dominance": 0.945,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "64.85x the stars (49,024 vs 756)",
-        "842.35x the star velocity (168.5/day vs 0.2/day)",
+        "64.83x the stars (49,079 vs 757)",
+        "840.40x the star velocity (168.1/day vs 0.2/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],

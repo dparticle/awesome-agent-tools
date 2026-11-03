@@ -7,8 +7,8 @@
   "description": "Brigade — Your personal intelligence, built enterprise-grade",
   "homepage": "https://www.brigade.spinabot.com",
   "stars": 11367,
-  "forks": 79,
-  "open_issues": 42,
+  "forks": 80,
+  "open_issues": 41,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -35,26 +35,26 @@
   ],
   "created_at": "2026-06-19T15:18:17Z",
   "updated_at": "2026-11-02T08:50:47Z",
-  "pushed_at": "2026-11-02T03:58:13Z",
+  "pushed_at": "2026-11-03T07:58:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
+  "age_days": 136,
   "days_since_push": 0,
   "health_score": 60,
   "health_components": {
     "popularity": 81.1,
-    "momentum": 0.8,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 84.2,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 83.58,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -193,13 +193,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:17+00:00",
+  "fetched_at": "2026-11-03T11:57:27+00:00",
   "categories": [
-    "analytics",
     "analytics-2",
-    "billing"
+    "failover",
+    "teams-isolation"
   ],
-  "primary_category": "analytics",
+  "primary_category": "analytics-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

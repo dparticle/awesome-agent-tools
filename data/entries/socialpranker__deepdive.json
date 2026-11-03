@@ -6,7 +6,7 @@
   "url": "https://github.com/Socialpranker/deepdive",
   "description": "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints.",
   "homepage": "https://socialpranker.github.io/deepdive/",
-  "stars": 370,
+  "stars": 372,
   "forks": 3,
   "open_issues": 1,
   "language": "Python",
@@ -29,26 +29,26 @@
     "research-methodology"
   ],
   "created_at": "2026-05-21T11:43:13Z",
-  "updated_at": "2026-10-31T18:17:01Z",
+  "updated_at": "2026-11-03T11:54:08Z",
   "pushed_at": "2026-11-01T10:07:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 165,
-  "days_since_push": 1,
+  "age_days": 166,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 2.24,
     "basis": "history",
     "is_fast_riser": false
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:32+00:00",
+  "fetched_at": "2026-11-03T11:59:16+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -162,14 +162,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 132.497,
-      "momentum_ratio": 421.175,
+      "star_ratio": 131.933,
+      "momentum_ratio": 280.133,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "132.50x the stars (49,024 vs 370)",
-        "421.17x the star velocity (168.5/day vs 0.4/day)",
+        "131.93x the stars (49,079 vs 372)",
+        "280.13x the star velocity (168.1/day vs 0.6/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],

@@ -30,7 +30,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 225,
-  "days_since_push": 48,
+  "days_since_push": 49,
   "health_score": 46,
   "health_components": {
     "popularity": 53.6,
@@ -150,8 +150,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:23+00:00",
+  "fetched_at": "2026-11-03T11:59:06+00:00",
   "categories": [
+    "model-routing",
     "notifications"
   ],
   "primary_category": "notifications",

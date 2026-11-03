@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 257,
-  "days_since_push": 35,
+  "age_days": 258,
+  "days_since_push": 36,
   "health_score": 44,
   "health_components": {
     "popularity": 51.6,
@@ -136,9 +136,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:31+00:00",
+  "fetched_at": "2026-11-03T11:59:15+00:00",
   "categories": [
     "desktop-ui",
+    "model-routing",
     "teams-isolation"
   ],
   "primary_category": "teams-isolation",
@@ -164,14 +165,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 89.215,
-      "momentum_ratio": 143.0,
+      "star_ratio": 89.278,
+      "momentum_ratio": 131.0,
       "setup_delta": -70,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "89.22x the stars (33,991 vs 381)",
-        "143.00x the star velocity (28.6/day vs 0.2/day)",
+        "89.28x the stars (34,015 vs 381)",
+        "131.00x the star velocity (26.2/day vs 0.2/day)",
         "no harder to set up (2 vs 72 friction)"
       ],
       "reasons_zh": [],

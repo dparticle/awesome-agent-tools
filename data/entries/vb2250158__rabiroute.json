@@ -32,17 +32,17 @@
     "workflow-automation"
   ],
   "created_at": "2026-06-01T09:40:16Z",
-  "updated_at": "2026-11-02T11:46:13Z",
-  "pushed_at": "2026-11-02T11:46:09Z",
+  "updated_at": "2026-11-03T09:49:21Z",
+  "pushed_at": "2026-11-03T09:49:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 154,
+  "age_days": 155,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 53.8,
-    "momentum": 2.7,
+    "momentum": 2.6,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 75.0
@@ -50,15 +50,15 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 492,
-    "days_span": 154,
-    "stars_per_day": 3.19,
-    "lifetime_stars_per_day": 3.19,
+    "days_span": 155,
+    "stars_per_day": 3.17,
+    "lifetime_stars_per_day": 3.17,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "vb2250158/RabiRoute",
-    "readme_chars": 10009,
+    "readme_chars": 10012,
     "capabilities": [
       "self-hosted",
       "notifications"
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:23+00:00",
+  "fetched_at": "2026-11-03T11:59:04+00:00",
   "categories": [
     "analytics-2"
   ],

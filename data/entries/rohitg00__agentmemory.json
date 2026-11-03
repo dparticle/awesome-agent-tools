@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://agent-memory.dev",
-  "stars": 30084,
-  "forks": 2657,
-  "open_issues": 533,
+  "stars": 30108,
+  "forks": 2665,
+  "open_issues": 537,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -30,27 +30,27 @@
     "pi"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-11-02T12:06:06Z",
+  "updated_at": "2026-11-03T10:20:02Z",
   "pushed_at": "2026-11-02T06:15:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 250,
-  "days_since_push": 0,
+  "age_days": 251,
+  "days_since_push": 1,
   "health_score": 70,
   "health_components": {
     "popularity": 89.6,
-    "momentum": 19.5,
+    "momentum": 19.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 117,
+    "stars_gained": 115,
     "days_span": 5,
-    "stars_per_day": 23.4,
-    "lifetime_stars_per_day": 120.34,
+    "stars_per_day": 23.0,
+    "lifetime_stars_per_day": 119.95,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -202,13 +202,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:45+00:00",
+  "fetched_at": "2026-11-03T11:58:07+00:00",
   "categories": [
-    "analytics",
     "analytics-2",
+    "failover",
     "memory-mcp"
   ],
-  "primary_category": "analytics",
+  "primary_category": "analytics-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

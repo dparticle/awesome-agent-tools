@@ -6,9 +6,9 @@
   "url": "https://github.com/codecoradev/uteke",
   "description": "Long-term memory for any AI agent. One Rust binary, offline, 98.2% recall@5 on LongMemEval-S. Self-host free or use Uteke Cloud.",
   "homepage": "https://uteke.app",
-  "stars": 281,
+  "stars": 282,
   "forks": 31,
-  "open_issues": 5,
+  "open_issues": 6,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,12 +34,12 @@
     "vector-database"
   ],
   "created_at": "2026-05-29T00:27:31Z",
-  "updated_at": "2026-11-02T09:28:00Z",
-  "pushed_at": "2026-11-02T09:27:57Z",
+  "updated_at": "2026-11-03T03:44:17Z",
+  "pushed_at": "2026-11-03T03:44:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 157,
+  "age_days": 158,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 281,
-    "days_span": 157,
-    "stars_per_day": 1.79,
-    "lifetime_stars_per_day": 1.79,
+    "stars_gained": 282,
+    "days_span": 158,
+    "stars_per_day": 1.78,
+    "lifetime_stars_per_day": 1.78,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "codecoradev/uteke",
-    "readme_chars": 25323,
+    "readme_chars": 25416,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -136,7 +136,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.316
+      "external_link_ratio": 0.315
     },
     "highlights": [
       "Fusion merges the vector ranking (weight 1.7) with the hybrid ranking (weight 1), then adds small salience and recency boosts.",
@@ -153,22 +153,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:41+00:00",
+  "fetched_at": "2026-11-03T11:59:29+00:00",
   "categories": [
     "analytics-2"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by felinics/Memoh: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 felinics/Memoh 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "felinics/Memoh",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "codecoradev/uteke",
-      "challenger": "felinics/memoh",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "codecoradev/uteke",
-      "challenger_name": "felinics/Memoh",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -180,15 +180,15 @@
         "multi-agent-orchestration",
         "self-hosted"
       ],
-      "star_ratio": 9.865,
-      "momentum_ratio": 1.453,
-      "setup_delta": 0,
-      "dominance": 0.846,
+      "star_ratio": 106.766,
+      "momentum_ratio": 12.921,
+      "setup_delta": -5,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "9.86x the stars (2,772 vs 281)",
-        "1.45x the star velocity (2.6/day vs 1.8/day)",
-        "no harder to set up (37 vs 37 friction)"
+        "106.77x the stars (30,108 vs 282)",
+        "12.92x the star velocity (23.0/day vs 1.8/day)",
+        "no harder to set up (32 vs 37 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -200,20 +200,28 @@
           "self-hosted"
         ],
         "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "notifications",
+          "quota-management",
+          "security-isolation",
           "self-hosted",
-          "team-collaboration",
-          "worktree-isolation"
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
         ],
         "incumbent_health": 52,
-        "challenger_health": 56,
+        "challenger_health": 70,
         "incumbent_setup_score": 37,
-        "challenger_setup_score": 37
+        "challenger_setup_score": 32
       }
     }
   }

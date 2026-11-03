@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-03-18 |
-| Last push | 2026-10-31 (2 days ago) |
+| Last push | 2026-11-03 (0 days ago) |
 | Analyzed README | 42,102 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** — Superseded by genspark-ai/genoffice: covers 100% of capabilities (6/6).

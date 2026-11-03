@@ -6,20 +6,20 @@
   "url": "https://github.com/msitarzewski/agency-agents",
   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
   "homepage": "",
-  "stars": 166016,
-  "forks": 26893,
+  "stars": 166218,
+  "forks": 26922,
   "open_issues": 218,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-10-13T12:12:29Z",
-  "updated_at": "2026-11-02T12:21:48Z",
+  "updated_at": "2026-11-03T11:42:29Z",
   "pushed_at": "2026-10-25T01:43:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 385,
-  "days_since_push": 8,
+  "days_since_push": 9,
   "health_score": 96,
   "health_components": {
     "popularity": 100.0,
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1359,
+    "stars_gained": 1188,
     "days_span": 5,
-    "stars_per_day": 271.8,
-    "lifetime_stars_per_day": 431.21,
+    "stars_per_day": 237.6,
+    "lifetime_stars_per_day": 431.74,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -180,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:31+00:00",
+  "fetched_at": "2026-11-03T11:57:49+00:00",
   "categories": [
     "analytics",
-    "failover",
-    "memory-mcp"
+    "memory-mcp",
+    "sharing"
   ],
   "primary_category": "analytics",
   "lifecycle": {

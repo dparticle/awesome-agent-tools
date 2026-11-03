@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 475 |
+| Stars | 476 |
 | Star velocity | 0.8/day (history basis, 5d span) |
 | Health score | 50/100 |
 | Documentation | 46/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Dart |
 | Created | 2026-05-22 |
-| Last push | 2026-10-31 (1 days ago) |
+| Last push | 2026-10-31 (2 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** — Superseded by omnigent-ai/omnigent: covers 100% of capabilities (5/5).
@@ -67,7 +67,7 @@ Score **46/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.5 |
+| popularity | 53.6 |
 | momentum | 0.7 |
 | maintenance | 100.0 |
 | documentation | 46.0 |

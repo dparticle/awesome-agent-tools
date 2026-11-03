@@ -6,7 +6,7 @@
   "url": "https://github.com/sahithvibudhi/vibe-tree",
   "description": "Run AI coding agents in parallel, one git worktree each. Desktop, web, and CLI.",
   "homepage": "https://sahithvibudhi.github.io/vibe-tree/",
-  "stars": 272,
+  "stars": 273,
   "forks": 32,
   "open_issues": 13,
   "language": "TypeScript",
@@ -21,26 +21,26 @@
     "vibe-coding"
   ],
   "created_at": "2025-07-29T07:18:49Z",
-  "updated_at": "2026-10-29T13:31:59Z",
+  "updated_at": "2026-11-02T12:40:27Z",
   "pushed_at": "2026-07-25T19:30:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 461,
-  "days_since_push": 99,
+  "age_days": 462,
+  "days_since_push": 100,
   "health_score": 43,
   "health_components": {
     "popularity": 48.7,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 42.0,
     "accessibility": 94.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.59,
     "basis": "history",
     "is_fast_riser": false
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:42+00:00",
+  "fetched_at": "2026-11-03T11:59:30+00:00",
   "categories": [
     "model-routing",
     "teams-isolation"
@@ -173,14 +173,14 @@
         "session-persistence",
         "worktree-isolation"
       ],
-      "star_ratio": 1.188,
-      "momentum_ratio": 12.0,
+      "star_ratio": 1.183,
+      "momentum_ratio": 3.0,
       "setup_delta": -2,
-      "dominance": 0.789,
+      "dominance": 0.725,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "1.19x the stars (323 vs 272)",
-        "12.00x the star velocity (0.6/day vs 0.0/day)",
+        "1.18x the stars (323 vs 273)",
+        "3.00x the star velocity (0.6/day vs 0.2/day)",
         "no harder to set up (12 vs 14 friction)"
       ],
       "reasons_zh": [],

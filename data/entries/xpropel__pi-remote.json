@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "full_name": "Xpropel/Pi-Remote",
+  "name": "Pi-Remote",
+  "owner": "Xpropel",
+  "url": "https://github.com/Xpropel/Pi-Remote",
+  "description": "Remote control for your pi coding agent. Pi-Remote mirrors live pi terminal sessions to any browser, so you can watch runs, answer prompts, and send commands from your phone — end-to-end encrypted over a self-hosted relay.",
+  "homepage": "",
+  "stars": 277,
+  "forks": 5,
+  "open_issues": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agent",
+    "coding-agent",
+    "developer-tools",
+    "nodejs",
+    "pi",
+    "pi-coding-agent",
+    "react",
+    "relay",
+    "remote-control",
+    "self-hosted",
+    "terminal",
+    "typescript",
+    "web-terminal",
+    "websocket"
+  ],
+  "created_at": "2026-10-28T10:46:22Z",
+  "updated_at": "2026-11-03T10:34:35Z",
+  "pushed_at": "2026-11-03T07:26:47Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 6,
+  "days_since_push": 0,
+  "health_score": 61,
+  "health_components": {
+    "popularity": 48.8,
+    "momentum": 38.5,
+    "maintenance": 100.0,
+    "documentation": 62.0,
+    "accessibility": 66.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 277,
+    "days_span": 6,
+    "stars_per_day": 46.17,
+    "lifetime_stars_per_day": 46.17,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Xpropel/Pi-Remote",
+    "readme_chars": 7874,
+    "capabilities": [
+      "parallel-execution",
+      "model-routing",
+      "agent-runtime",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "parallel-execution": ", including switching models, changing the thinking level, compacting context, and navigating the session tree.",
+      "model-routing": "h incremental catch-up after a reconnect.",
+      "agent-runtime": "",
+      "gui-desktop": ", token management, troubleshooting), see deploy/README.md.",
+      "cross-agent-support": "Mentions Codex, Cursor"
+    },
+    "capability_hits": {
+      "parallel-execution": 1,
+      "model-routing": 1,
+      "agent-runtime": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "server/reverse-proxy setup",
+        "process manager"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner, global npm install; needs npm install/build; configure sign-in required, server/reverse-proxy setup",
+      "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 npm install/build；需配置 sign-in required、server/reverse-proxy setup"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "Pi-Remote attaches to a running pi session through pi's official extension API.",
+    "summary_zh": "",
+    "install_hint": "npm install -g @earendil-works/pi-coding-agent",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.381
+    },
+    "highlights": [
+      "The extension channel (7001) binds to 127.0.0.1 by default.",
+      "QR device linking — run attach --link on the machine that runs pi; the terminal and a local window show a QR code and a pairing code.",
+      "Anyone holding the viewer token can send messages to a session, and pi runs with tool permissions.",
+      "Desktop and mobile UI — separate layouts for desktop and mobile, with six skins: Cursor, Claude, and Codex looks in dark and light."
+    ],
+    "summary_zh_native": "Pi-Remote 通过 pi 官方扩展 API 接入正在运行的 pi 会话，不修改 pi 源码，不接管终端。会话始终由本机的 pi 进程持有；浏览器端看到的是同一会话的实时镜像，并可向该会话发送消息与命令，包括切换模型、调整思考级别、压缩上下文、管理会话树等。本机端支持 Windows、macOS 与 Linux，多台设备可同时接入。",
+    "highlights_zh": [
+      "扩展通道（7001）默认仅绑定 127.0.0.1；网页通道（7002）仅提供页面与 WebSocket，不提供文件接口。",
+      "双端界面：桌面与移动两种布局；Cursor、Claude、Codex 三种风格各含深、浅两套皮肤，共六套。",
+      "用量可见：Token 与费用用量随会话实时更新，显示在界面状态区。",
+      "扫码链接：在运行 pi 的电脑上执行 attach --link，终端与本地窗口出示二维码和对照码；手机扫码后在确认页核对设备信息与 2 位核对字、经管理员批准即完成链接，设备令牌自动写入本机 .env。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-03T11:59:30+00:00",
+  "categories": [
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

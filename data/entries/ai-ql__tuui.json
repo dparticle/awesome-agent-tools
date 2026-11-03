@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 579,
-  "days_since_push": 172,
+  "age_days": 580,
+  "days_since_push": 173,
   "health_score": 47,
   "health_components": {
     "popularity": 61.3,
@@ -141,9 +141,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:06+00:00",
+  "fetched_at": "2026-11-03T11:58:38+00:00",
   "categories": [
-    "failover",
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",

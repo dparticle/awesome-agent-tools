@@ -6,8 +6,8 @@
   "url": "https://github.com/oomol-lab/open-connector",
   "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 6162,
-  "forks": 585,
+  "stars": 6168,
+  "forks": 587,
   "open_issues": 7,
   "language": "TypeScript",
   "license": "NOASSERTION",
@@ -32,27 +32,27 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-11-02T12:01:25Z",
-  "pushed_at": "2026-11-02T11:12:28Z",
+  "updated_at": "2026-11-03T10:13:25Z",
+  "pushed_at": "2026-11-03T06:19:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 126,
+  "age_days": 127,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 75.8,
-    "momentum": 8.5,
+    "momentum": 7.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 51,
+    "stars_gained": 42,
     "days_span": 5,
-    "stars_per_day": 10.2,
-    "lifetime_stars_per_day": 48.9,
+    "stars_per_day": 8.4,
+    "lifetime_stars_per_day": 48.57,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -138,16 +138,73 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:22+00:00",
+  "fetched_at": "2026-11-03T11:57:35+00:00",
   "categories": [
     "analytics-2"
   ],
   "primary_category": "analytics-2",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "oomol-lab/open-connector",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "oomol-lab/open-connector",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "self-hosted"
+      ],
+      "star_ratio": 48.005,
+      "momentum_ratio": 93.738,
+      "setup_delta": -15,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "48.00x the stars (296,094 vs 6,168)",
+        "93.74x the star velocity (787.4/day vs 8.4/day)",
+        "no harder to set up (57 vs 72 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 56,
+        "challenger_health": 89,
+        "incumbent_setup_score": 72,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

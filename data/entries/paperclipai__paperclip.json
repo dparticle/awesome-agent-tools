@@ -6,9 +6,9 @@
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
   "homepage": "https://paperclip.ing",
-  "stars": 110104,
-  "forks": 18244,
-  "open_issues": 6629,
+  "stars": 110699,
+  "forks": 18317,
+  "open_issues": 6648,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "workflow-automation"
   ],
   "created_at": "2026-03-02T15:01:51Z",
-  "updated_at": "2026-11-02T12:21:07Z",
-  "pushed_at": "2026-11-02T09:50:49Z",
+  "updated_at": "2026-11-03T11:54:12Z",
+  "pushed_at": "2026-11-03T10:51:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 244,
+  "age_days": 245,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1964,
+    "stars_gained": 2259,
     "days_span": 5,
-    "stars_per_day": 392.8,
-    "lifetime_stars_per_day": 451.25,
+    "stars_per_day": 451.8,
+    "lifetime_stars_per_day": 451.83,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -192,13 +192,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:33+00:00",
+  "fetched_at": "2026-11-03T11:57:51+00:00",
   "categories": [
+    "analytics",
     "analytics-3",
-    "desktop-ui",
-    "mobile-remote-control"
+    "desktop-ui"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

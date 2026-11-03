@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 47,988 |
-| Star velocity | 58.8/day (history basis, 5d span) |
+| Stars | 48,043 |
+| Star velocity | 56.2/day (history basis, 5d span) |
 | Health score | 74/100 |
 | Documentation | 76/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | C |
 | Created | 2026-02-24 |
-| Last push | 2026-11-02 (0 days ago) |
-| Analyzed README | 118,397 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-03 (0 days ago) |
+| Analyzed README | 118,966 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Workspace isolation
 
-> , with exact omission metadata.
+> oo, set config set watchnongit true (default false, read when the daemon starts): they are then checked on the same cadence with a file-tree scan that uses the indexer's own ignore rules.
 
 ### Memory & context
 
@@ -100,7 +100,7 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 93.6 |
-| momentum | 49.0 |
+| momentum | 46.8 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
 | accessibility | 36.0 |

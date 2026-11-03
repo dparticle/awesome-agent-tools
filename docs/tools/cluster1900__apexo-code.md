@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 303 |
-| Star velocity | 1.9/day (lifetime basis, 159d span) |
+| Star velocity | 1.9/day (lifetime basis, 160d span) |
 | Health score | 47/100 |
 | Documentation | 42/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-27 |
-| Last push | 2026-11-02 (0 days ago) |
+| Last push | 2026-11-03 (0 days ago) |
 | Analyzed README | 11,450 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).
+> ⚠️ **Superseded by [bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — Superseded by bytedance/deer-flow: covers 100% of capabilities (8/8).
 
 ## What it solves
 

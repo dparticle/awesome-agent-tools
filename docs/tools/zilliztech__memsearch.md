@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,814 |
-| Star velocity | 2.4/day (history basis, 5d span) |
+| Stars | 2,818 |
+| Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 68/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-02-09 |
-| Last push | 2026-10-27 (6 days ago) |
+| Last push | 2026-10-27 (7 days ago) |
 | Analyzed README | 29,297 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -90,7 +88,7 @@ Score **68/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 69.0 |
-| momentum | 2.0 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 68.0 |
 | accessibility | 51.0 |

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,420 |
-| Star velocity | 7.2/day (history basis, 5d span) |
+| Stars | 5,435 |
+| Star velocity | 8.0/day (history basis, 5d span) |
 | Health score | 63/100 |
 | Documentation | 84/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-02 (0 days ago) |
-| Analyzed README | 51,322 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-03 (0 days ago) |
+| Analyzed README | 53,135 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Skills & plugins
 
-> s to the skill, not to the availability of every registered host.
+> ed” refers to the skill, not to the availability of every registered host.
 
 ### MCP support
 
@@ -98,7 +98,7 @@ Score **84/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.7 |
-| momentum | 6.0 |
+| momentum | 6.7 |
 | maintenance | 100.0 |
 | documentation | 84.0 |
 | accessibility | 59.0 |

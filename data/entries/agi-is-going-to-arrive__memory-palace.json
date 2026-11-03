@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 256,
-  "days_since_push": 165,
+  "age_days": 257,
+  "days_since_push": 166,
   "health_score": 44,
   "health_components": {
     "popularity": 50.0,
@@ -160,11 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:26:35+00:00",
+  "fetched_at": "2026-11-03T11:59:22+00:00",
   "categories": [
     "failover",
-    "memory-mcp",
-    "model-routing"
+    "memory-mcp"
   ],
   "primary_category": "failover",
   "lifecycle": {

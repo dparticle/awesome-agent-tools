@@ -6,34 +6,34 @@
   "url": "https://github.com/yetone/cumora",
   "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
   "homepage": "https://cumora.ai",
-  "stars": 4096,
-  "forks": 541,
+  "stars": 4113,
+  "forks": 542,
   "open_issues": 27,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-08-17T09:13:52Z",
-  "updated_at": "2026-11-02T10:18:11Z",
+  "updated_at": "2026-11-03T11:06:22Z",
   "pushed_at": "2026-11-01T07:18:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 77,
-  "days_since_push": 1,
-  "health_score": 56,
+  "age_days": 78,
+  "days_since_push": 2,
+  "health_score": 57,
   "health_components": {
-    "popularity": 72.2,
-    "momentum": 10.5,
+    "popularity": 72.3,
+    "momentum": 11.8,
     "maintenance": 100.0,
     "documentation": 34.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 63,
+    "stars_gained": 71,
     "days_span": 5,
-    "stars_per_day": 12.6,
-    "lifetime_stars_per_day": 53.19,
+    "stars_per_day": 14.2,
+    "lifetime_stars_per_day": 52.73,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -137,13 +137,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-02T12:25:26+00:00",
+  "fetched_at": "2026-11-03T11:57:41+00:00",
   "categories": [
-    "memory-mcp",
-    "mobile-remote-control",
-    "model-routing"
+    "analytics",
+    "memory-mcp"
   ],
-  "primary_category": "mobile-remote-control",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by omnigent-ai/omnigent: covers 100% of capabilities (9/9).",
@@ -170,14 +169,14 @@
         "self-hosted",
         "team-collaboration"
       ],
-      "star_ratio": 2.727,
-      "momentum_ratio": 1.19,
+      "star_ratio": 2.719,
+      "momentum_ratio": 1.028,
       "setup_delta": -8,
-      "dominance": 0.8,
+      "dominance": 0.781,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "2.73x the stars (11,169 vs 4,096)",
-        "1.19x the star velocity (15.0/day vs 12.6/day)",
+        "2.72x the stars (11,184 vs 4,113)",
+        "1.03x the star velocity (14.6/day vs 14.2/day)",
         "no harder to set up (25 vs 33 friction)"
       ],
       "reasons_zh": [],
@@ -209,8 +208,8 @@
           "team-collaboration",
           "worktree-isolation"
         ],
-        "incumbent_health": 56,
-        "challenger_health": 67,
+        "incumbent_health": 57,
+        "challenger_health": 66,
         "incumbent_setup_score": 33,
         "challenger_setup_score": 25
       }

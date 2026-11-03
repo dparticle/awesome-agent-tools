@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,850 |
-| Star velocity | 1.2/day (history basis, 5d span) |
+| Stars | 2,849 |
+| Star velocity | 0.8/day (history basis, 5d span) |
 | Health score | 56/100 |
-| Documentation | 37/100 |
+| Documentation | 38/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Zig |
 | Created | 2026-02-10 |
-| Last push | 2026-10-28 (4 days ago) |
-| Analyzed README | 7,254 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-03 (0 days ago) |
+| Analyzed README | 7,522 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -51,7 +51,7 @@
 
 ## Documentation quality
 
-Score **37/100**, based on these detected signals:
+Score **38/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -64,9 +64,9 @@ Score **37/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 69.1 |
-| momentum | 1.0 |
+| momentum | 0.7 |
 | maintenance | 100.0 |
-| documentation | 37.0 |
+| documentation | 38.0 |
 | accessibility | 87.0 |
 
 ---
