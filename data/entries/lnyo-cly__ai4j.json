@@ -7,8 +7,8 @@
   "description": "Java 8+ agentic SDK: unified LLM access (OpenAI/Anthropic/DashScope/Doubao/DeepSeek...),unified AI service(image/video/audio...), Tool Calling, MCP, RAG, SKILLS,Agent Runtime, A2A, agent blueprint, agent harness, and a built-in Coding Agent CLI/TUI/ACP.",
   "homepage": "https://lnyo-cly.github.io/ai4j/",
   "stars": 437,
-  "forks": 55,
-  "open_issues": 4,
+  "forks": 56,
+  "open_issues": 5,
   "language": "Java",
   "license": "Apache-2.0",
   "topics": [
@@ -38,8 +38,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 808,
-  "days_since_push": 20,
+  "age_days": 809,
+  "days_since_push": 21,
   "health_score": 53,
   "health_components": {
     "popularity": 52.8,
@@ -160,7 +160,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:10+00:00",
+  "fetched_at": "2026-11-04T12:10:14+00:00",
   "categories": [
     "desktop-ui",
     "failover",

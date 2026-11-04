@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 138763,
-  "forks": 20569,
-  "open_issues": 113,
+  "stars": 139036,
+  "forks": 20607,
+  "open_issues": 91,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-03T11:52:23Z",
-  "pushed_at": "2026-11-03T11:52:45Z",
+  "updated_at": "2026-11-04T12:06:12Z",
+  "pushed_at": "2026-11-04T11:54:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 236,
+  "age_days": 237,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 641,
+    "stars_gained": 806,
     "days_span": 5,
-    "stars_per_day": 128.2,
-    "lifetime_stars_per_day": 587.98,
+    "stars_per_day": 161.2,
+    "lifetime_stars_per_day": 586.65,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 37899,
+    "readme_chars": 38289,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -139,7 +139,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.343
+      "external_link_ratio": 0.34
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -151,18 +151,89 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:50+00:00",
+  "fetched_at": "2026-11-04T12:09:18+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "failover",
-    "teams-isolation"
+    "memory-mcp"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "analytics",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (11/11).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (11/11)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "garrytan/gstack",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "garrytan/gstack",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "notifications",
+        "security-isolation",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 2.135,
+      "momentum_ratio": 4.783,
+      "setup_delta": -8,
+      "dominance": 0.917,
+      "reasons": [
+        "covers 100% of capabilities (11/11)",
+        "2.14x the stars (296,858 vs 139,036)",
+        "4.78x the star velocity (771.0/day vs 161.2/day)",
+        "no harder to set up (57 vs 65 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 88,
+        "challenger_health": 89,
+        "incumbent_setup_score": 65,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

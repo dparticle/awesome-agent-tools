@@ -6,9 +6,9 @@
   "url": "https://github.com/MemTensor/memmy-agent",
   "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
   "homepage": "https://memmy.bot",
-  "stars": 2186,
-  "forks": 214,
-  "open_issues": 52,
+  "stars": 2196,
+  "forks": 216,
+  "open_issues": 48,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "tui"
   ],
   "created_at": "2026-07-16T07:57:45Z",
-  "updated_at": "2026-11-03T11:54:51Z",
-  "pushed_at": "2026-11-03T09:41:05Z",
+  "updated_at": "2026-11-04T11:02:17Z",
+  "pushed_at": "2026-11-04T11:51:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 110,
+  "age_days": 111,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 66.8,
-    "momentum": 4.5,
+    "momentum": 5.2,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 27,
+    "stars_gained": 31,
     "days_span": 5,
-    "stars_per_day": 5.4,
-    "lifetime_stars_per_day": 19.87,
+    "stars_per_day": 6.2,
+    "lifetime_stars_per_day": 19.78,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -162,9 +162,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:23+00:00",
+  "fetched_at": "2026-11-04T12:09:42+00:00",
   "categories": [
-    "memory-mcp",
+    "desktop-ui-2",
+    "failover",
     "model-routing"
   ],
   "primary_category": "model-routing",

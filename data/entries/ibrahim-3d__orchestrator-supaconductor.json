@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 258,
-  "days_since_push": 36,
+  "age_days": 259,
+  "days_since_push": 37,
   "health_score": 44,
   "health_components": {
     "popularity": 51.6,
@@ -43,7 +43,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.48,
+    "lifetime_stars_per_day": 1.47,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,24 +136,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:15+00:00",
+  "fetched_at": "2026-11-04T12:10:19+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "model-routing",
-    "teams-isolation"
+    "desktop-ui-2"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "iOfficeAI/AionUi",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "ibrahim-3d/orchestrator-supaconductor",
-      "challenger": "iofficeai/aionui",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "Ibrahim-3d/orchestrator-supaconductor",
-      "challenger_name": "iOfficeAI/AionUi",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -165,15 +165,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 89.278,
-      "momentum_ratio": 131.0,
-      "setup_delta": -70,
+      "star_ratio": 30.491,
+      "momentum_ratio": 266.0,
+      "setup_delta": -40,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "89.28x the stars (34,015 vs 381)",
-        "131.00x the star velocity (26.2/day vs 0.2/day)",
-        "no harder to set up (2 vs 72 friction)"
+        "30.49x the stars (11,617 vs 381)",
+        "266.00x the star velocity (53.2/day vs 0.2/day)",
+        "no harder to set up (32 vs 72 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -187,21 +187,24 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "remote-control",
+          "self-hosted",
           "skills-plugins",
           "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 44,
-        "challenger_health": 71,
+        "challenger_health": 74,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 2
+        "challenger_setup_score": 32
       }
     }
   }

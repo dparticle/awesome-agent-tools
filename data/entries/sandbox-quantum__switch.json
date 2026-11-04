@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "full_name": "sandbox-quantum/switch",
+  "name": "switch",
+  "owner": "sandbox-quantum",
+  "url": "https://github.com/sandbox-quantum/switch",
+  "description": "Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.",
+  "homepage": "https://www.switchagents.ai",
+  "stars": 3697,
+  "forks": 235,
+  "open_issues": 476,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "topics": [
+    "agent-orchestration",
+    "ai",
+    "ai-agents",
+    "chatops",
+    "discord",
+    "langchain",
+    "mcp",
+    "microsoft-teams",
+    "multi-agent",
+    "open-source",
+    "openai",
+    "self-hosted",
+    "slack"
+  ],
+  "created_at": "2026-07-16T09:52:46Z",
+  "updated_at": "2026-11-04T12:07:09Z",
+  "pushed_at": "2026-11-04T12:05:34Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 111,
+  "days_since_push": 0,
+  "health_score": 67,
+  "health_components": {
+    "popularity": 71.4,
+    "momentum": 27.8,
+    "maintenance": 100.0,
+    "documentation": 54.0,
+    "accessibility": 100.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3697,
+    "days_span": 111,
+    "stars_per_day": 33.31,
+    "lifetime_stars_per_day": 33.31,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "sandbox-quantum/switch",
+    "readme_chars": 14096,
+    "capabilities": [
+      "usage-analytics",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "usage-analytics": "your company, so you can change agents, models or vendors at any time without losing it.",
+      "agent-runtime": "logs and versions, and either files the ticket or tells the reporter what is still missing.",
+      "mcp-support": "rough the documentation yourself, connect an agent to it",
+      "self-hosted": "Open-source AI teammates, working alongside your team in Slack, Teams, Discord, Telegram and Mattermost.",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+    },
+    "capability_hits": {
+      "usage-analytics": 2,
+      "agent-runtime": 3,
+      "mcp-support": 5,
+      "self-hosted": 3,
+      "gui-desktop": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 9,
+      "out_of_the_box": true,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Turnkey. install via native installer / package; GUI application",
+      "note_zh": "开箱即用。可通过 native installer / package 安装；GUI application"
+    },
+    "doc_score": 54,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode"
+    ],
+    "summary_en": "Open-source AI teammates, working alongside your team in Slack, Teams, Discord, Telegram and Mattermost.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.419
+    },
+    "highlights": [
+      "Stand up a Codex agent that knows one slice of the system well, and let any colleague ask it questions directly.",
+      "Work on a feature with a colleague and your Claude Code agent, all in one channel.",
+      "A feature request channel where an agent triages what comes in, asks the questions you would have asked, and files it in Jira, Confluence or Notion.",
+      "Pull a colleague in to review what you and your agent have been doing."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-04T12:09:13+00:00",
+  "categories": [
+    "analytics-3",
+    "desktop-ui-2"
+  ],
+  "primary_category": "analytics-3",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "genspark-ai/genoffice",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "sandbox-quantum/switch",
+      "challenger": "genspark-ai/genoffice",
+      "incumbent_name": "sandbox-quantum/switch",
+      "challenger_name": "genspark-ai/genoffice",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "self-hosted",
+        "usage-analytics"
+      ],
+      "star_ratio": 3.164,
+      "momentum_ratio": 2.083,
+      "setup_delta": 11,
+      "dominance": 0.836,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "3.16x the stars (11,697 vs 3,697)",
+        "2.08x the star velocity (69.4/day vs 33.3/day)",
+        "slightly heavier setup (+11 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "self-hosted",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 67,
+        "challenger_health": 76,
+        "incumbent_setup_score": 9,
+        "challenger_setup_score": 20
+      }
+    }
+  }
+}

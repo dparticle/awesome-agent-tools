@@ -7,7 +7,7 @@
   "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
   "homepage": "",
   "stars": 3750,
-  "forks": 285,
+  "forks": 286,
   "open_issues": 16,
   "language": "TypeScript",
   "license": "MIT",
@@ -31,22 +31,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 474,
-  "days_since_push": 12,
+  "age_days": 475,
+  "days_since_push": 13,
   "health_score": 57,
   "health_components": {
     "popularity": 71.5,
-    "momentum": 0.7,
+    "momentum": 0.5,
     "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 7.91,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 7.89,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,9 +141,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:17+00:00",
+  "fetched_at": "2026-11-04T12:09:38+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -168,14 +169,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 13.088,
-      "momentum_ratio": 210.1,
+      "star_ratio": 13.101,
+      "momentum_ratio": 112.0,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.09x the stars (49,079 vs 3,750)",
-        "210.10x the star velocity (168.1/day vs 0.8/day)",
+        "13.10x the stars (49,129 vs 3,750)",
+        "112.00x the star velocity (67.2/day vs 0.6/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -204,7 +205,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 57,
-        "challenger_health": 92,
+        "challenger_health": 81,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 30
       }

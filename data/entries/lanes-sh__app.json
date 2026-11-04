@@ -31,13 +31,13 @@
     "vibe-coding"
   ],
   "created_at": "2026-03-22T21:18:28Z",
-  "updated_at": "2026-11-02T09:53:22Z",
+  "updated_at": "2026-11-03T20:41:45Z",
   "pushed_at": "2026-10-31T10:21:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 225,
-  "days_since_push": 3,
+  "age_days": 226,
+  "days_since_push": 4,
   "health_score": 50,
   "health_components": {
     "popularity": 48.8,
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:30+00:00",
+  "fetched_at": "2026-11-04T12:10:29+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "memory-mcp",
-    "teams-isolation"
+    "desktop-ui-2"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.798,
-      "momentum_ratio": 131.0,
+      "star_ratio": 122.852,
+      "momentum_ratio": 114.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.80x the stars (34,015 vs 277)",
-        "131.00x the star velocity (26.2/day vs 0.2/day)",
+        "122.85x the stars (34,030 vs 277)",
+        "114.00x the star velocity (22.8/day vs 0.2/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -217,7 +217,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 71,
+        "challenger_health": 72,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2
       }

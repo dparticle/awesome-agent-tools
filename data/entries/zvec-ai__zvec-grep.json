@@ -6,9 +6,9 @@
   "url": "https://github.com/zvec-ai/zvec-grep",
   "description": "Local-first search across your workspace, built for humans and AI agents.",
   "homepage": "",
-  "stars": 4219,
-  "forks": 257,
-  "open_issues": 93,
+  "stars": 4228,
+  "forks": 259,
+  "open_issues": 92,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -24,27 +24,27 @@
     "vector-search"
   ],
   "created_at": "2026-07-10T02:58:07Z",
-  "updated_at": "2026-11-03T09:48:46Z",
-  "pushed_at": "2026-11-03T08:55:34Z",
+  "updated_at": "2026-11-04T08:41:43Z",
+  "pushed_at": "2026-11-04T11:04:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
+  "age_days": 117,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 72.5,
-    "momentum": 2.5,
+    "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 17,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 36.37,
+    "stars_per_day": 3.4,
+    "lifetime_stars_per_day": 36.14,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,11 +128,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:41+00:00",
+  "fetched_at": "2026-11-04T12:09:12+00:00",
   "categories": [
-    "desktop-ui"
+    "analytics"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

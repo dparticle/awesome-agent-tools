@@ -17,14 +17,12 @@
 | Health score | 52/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-09-20 |
-| Last push | 2026-10-26 (8 days ago) |
+| Last push | 2026-10-26 (9 days ago) |
 | Analyzed README | 13,018 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).
 
 ## What it solves
 

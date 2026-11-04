@@ -12,23 +12,27 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,535 |
-| Star velocity | 9.0/day (history basis, 5d span) |
-| Health score | 59/100 |
+| Stars | 1,556 |
+| Star velocity | 11.2/day (history basis, 5d span) |
+| Health score | 60/100 |
 | Documentation | 63/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-10 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 57,750 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 60,644 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> ot is mapped to a \\wsl.localhost\ \...
+> reset your settings match, and any switch still overrides it.
+
+### Remote control
+
+> has it and fall back to the defaults, and a Power user setup saved before it (compact density, no Stats) now reads as a custom mix, so pick Power user again.
 
 ### Multi-agent orchestration
 
@@ -109,8 +113,8 @@ Score **63/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 63.7 |
-| momentum | 7.5 |
+| popularity | 63.8 |
+| momentum | 9.3 |
 | maintenance | 100.0 |
 | documentation | 63.0 |
 | accessibility | 78.0 |

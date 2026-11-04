@@ -2,7 +2,7 @@
 
 # 410979729/scope-recall-hermes
 
-> Scope Recall v3 is a bounded local memory core with SQLite as the authority and rebuildable vector companions.
+> This checkout is 4.0.0.
 
 [Repository](https://github.com/410979729/scope-recall-hermes) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,27 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 526 |
-| Star velocity | 5.6/day (history basis, 5d span) |
-| Health score | 52/100 |
-| Documentation | 43/100 |
+| Stars | 527 |
+| Star velocity | 4.6/day (history basis, 5d span) |
+| Health score | 51/100 |
+| Documentation | 46/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
-| Language | Python |
+| Language | n/a |
 | Created | 2026-05-15 |
-| Last push | 2026-10-31 (3 days ago) |
-| Analyzed README | 17,157 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 13,508 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### MCP support
 
-> ite as the authority and rebuildable vector companions.
-
-### GUI / desktop app
-
-> kspace is hermes to match the host memory-provider init contract; pass the same value on plan and apply if you override it.
+> vered from the current directory, parent directories, or credential locations.
 
 ### Cross-agent support
 
@@ -40,26 +36,26 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 24/100)
+- **Difficulty:** 🟢 Easy (friction score 34/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that make it easy:** pip install, native installer / package
+**Signals that make it easy:** pip install
 
-**Configuration required:** config.json/yaml/toml, sign-in required, database dependency, database migration
+**Configuration required:** config.json/yaml/toml, database dependency, database migration
 
-*Easy. install via pip install, native installer / package; configure config.json/yaml/toml, sign-in required; GUI application*
+*Easy. install via pip install; configure config.json/yaml/toml, database dependency*
 
 ## Documentation quality
 
-Score **43/100**, based on these detected signals:
+Score **46/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
+- has a quick-start section
 - documents installation
 - documents configuration
 - has contribution guidance
-- documents changes
 - reports benchmarks
 
 ## Score breakdown
@@ -67,10 +63,10 @@ Score **43/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.4 |
-| momentum | 4.7 |
+| momentum | 3.8 |
 | maintenance | 100.0 |
-| documentation | 43.0 |
-| accessibility | 76.0 |
+| documentation | 46.0 |
+| accessibility | 66.0 |
 
 ---
 

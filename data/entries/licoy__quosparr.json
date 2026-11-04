@@ -6,9 +6,9 @@
   "url": "https://github.com/Licoy/Quosparr",
   "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude Code and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude Code、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
   "homepage": "https://quosparr.com",
-  "stars": 316,
+  "stars": 318,
   "forks": 24,
-  "open_issues": 1,
+  "open_issues": 0,
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [
@@ -31,33 +31,33 @@
     "windows"
   ],
   "created_at": "2026-06-29T00:39:56Z",
-  "updated_at": "2026-11-02T02:41:15Z",
-  "pushed_at": "2026-10-30T08:15:46Z",
+  "updated_at": "2026-11-04T11:03:12Z",
+  "pushed_at": "2026-11-04T06:49:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 127,
-  "days_since_push": 4,
+  "age_days": 128,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 50.0,
-    "momentum": 0.8,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.49,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 2.48,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Licoy/Quosparr",
-    "readme_chars": 23865,
+    "readme_chars": 23413,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -151,7 +151,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.251
+      "external_link_ratio": 0.256
     },
     "highlights": [
       "Local token usage, API-equivalent cost (anthropic-builtin-2026-10-14), recent sessions, and output speed from Claude Code session logs.",
@@ -168,9 +168,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:21+00:00",
+  "fetched_at": "2026-11-04T12:10:23+00:00",
   "categories": [
-    "memory-mcp",
+    "failover",
     "sharing"
   ],
   "primary_category": "sharing",

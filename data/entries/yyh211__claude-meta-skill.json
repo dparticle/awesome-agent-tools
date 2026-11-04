@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 368,
-  "days_since_push": 172,
+  "age_days": 369,
+  "days_since_push": 173,
   "health_score": 42,
   "health_components": {
     "popularity": 49.1,
@@ -131,9 +131,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:29+00:00",
+  "fetched_at": "2026-11-04T12:10:29+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "failover"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -157,14 +158,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 172.207,
-      "momentum_ratio": 840.4,
+      "star_ratio": 172.382,
+      "momentum_ratio": 336.0,
       "setup_delta": -28,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "172.21x the stars (49,079 vs 285)",
-        "840.40x the star velocity (168.1/day vs 0.2/day)",
+        "172.38x the stars (49,129 vs 285)",
+        "336.00x the star velocity (67.2/day vs 0.2/day)",
         "no harder to set up (30 vs 58 friction)"
       ],
       "reasons_zh": [],
@@ -192,7 +193,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 42,
-        "challenger_health": 92,
+        "challenger_health": 81,
         "incumbent_setup_score": 58,
         "challenger_setup_score": 30
       }

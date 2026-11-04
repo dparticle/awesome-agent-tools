@@ -6,9 +6,9 @@
   "url": "https://github.com/Loongphy/codex-auth",
   "description": "A CLI tool to switch and manage Codex accounts",
   "homepage": "",
-  "stars": 2849,
+  "stars": 2851,
   "forks": 165,
-  "open_issues": 32,
+  "open_issues": 26,
   "language": "Zig",
   "license": "MIT",
   "topics": [
@@ -16,39 +16,39 @@
     "zig"
   ],
   "created_at": "2026-02-10T06:53:56Z",
-  "updated_at": "2026-11-03T11:10:10Z",
-  "pushed_at": "2026-11-03T07:40:00Z",
+  "updated_at": "2026-11-04T10:12:32Z",
+  "pushed_at": "2026-11-04T05:50:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
+  "age_days": 267,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 69.1,
-    "momentum": 0.7,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 38.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 10.71,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 10.68,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Loongphy/codex-auth",
-    "readme_chars": 7522,
+    "readme_chars": 8622,
     "capabilities": [
       "multi-account-switching",
       "gui-desktop"
     ],
     "capability_evidence": {
-      "multi-account-switching": "onfigure live TUI refresh interval",
+      "multi-account-switching": "nction MenuComplete to your profile.",
       "gui-desktop": "napshot from hours ago instead of your latest state."
     },
     "capability_hits": {
@@ -97,7 +97,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.798
+      "external_link_ratio": 0.696
     },
     "highlights": [
       "Local-only: With per-command --skip-api, the tool scans local ~/.codex/sessions//rollout-.jsonl files for usage data and skips team name refresh API calls.",
@@ -113,7 +113,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:19+00:00",
+  "fetched_at": "2026-11-04T12:09:40+00:00",
   "categories": [
     "sharing"
   ],

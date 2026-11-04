@@ -7,8 +7,8 @@
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
   "stars": 1287,
-  "forks": 194,
-  "open_issues": 17,
+  "forks": 195,
+  "open_issues": 18,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -33,21 +33,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1051,
-  "days_since_push": 0,
+  "age_days": 1052,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
-    "momentum": 0.7,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.8,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.22,
     "basis": "history",
     "is_fast_riser": false
@@ -146,24 +146,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:36+00:00",
+  "fetched_at": "2026-11-04T12:09:51+00:00",
   "categories": [
-    "analytics-2",
-    "memory-mcp",
+    "analytics-3",
     "model-routing"
   ],
-  "primary_category": "analytics-2",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "genspark-ai/genoffice",
     "challenger": "",
     "supersede": {
       "incumbent": "fatwang2/search2ai",
-      "challenger": "affaan-m/ecc",
+      "challenger": "genspark-ai/genoffice",
       "incumbent_name": "fatwang2/search2ai",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "genspark-ai/genoffice",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -175,15 +174,15 @@
         "parallel-execution",
         "self-hosted"
       ],
-      "star_ratio": 230.065,
-      "momentum_ratio": 984.25,
-      "setup_delta": -16,
+      "star_ratio": 9.089,
+      "momentum_ratio": 115.667,
+      "setup_delta": -53,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "230.07x the stars (296,094 vs 1,287)",
-        "984.25x the star velocity (787.4/day vs 0.8/day)",
-        "no harder to set up (57 vs 73 friction)"
+        "9.09x the stars (11,697 vs 1,287)",
+        "115.67x the star velocity (69.4/day vs 0.6/day)",
+        "no harder to set up (20 vs 73 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -197,25 +196,21 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "security-isolation",
           "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "worktree-isolation"
+          "usage-analytics"
         ],
         "incumbent_health": 51,
-        "challenger_health": 89,
+        "challenger_health": 76,
         "incumbent_setup_score": 73,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 20
       }
     }
   }

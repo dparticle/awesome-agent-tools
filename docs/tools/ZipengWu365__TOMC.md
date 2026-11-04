@@ -2,7 +2,7 @@
 
 # ZipengWu365/TOMC
 
-> Try, compare, contribute: First-run reports · Context-compression evaluation note · Contribution guide
+> I got tired of re-explaining my project to every new AI chat, and then getting the old version of a decision back.
 
 [Repository](https://github.com/ZipengWu365/TOMC) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,43 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 266 |
-| Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 54/100 |
-| Documentation | 66/100 |
+| Stars | 267 |
+| Star velocity | 0.2/day (history basis, 5d span) |
+| Health score | 52/100 |
+| Documentation | 57/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-10-06 |
-| Last push | 2026-11-02 (0 days ago) |
-| Analyzed README | 51,564 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 9,255 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Model / provider routing
-
-### Billing & metering
-
-> timated context reduction for the assistant to display.
-
-### Memory & context
-
-> snapshot was synced from manuscript commit **7399657** on **2026-09-28**.
-
-### Skills & plugins
-
-> d; TOMC is not listed in Tencent's marketplace.
-
 ### MCP support
 
-> -source tool built on Task-Oriented Memory Compilation (TOMC).
-
-### Self-hostable
-
-### GUI / desktop app
-
-> and Linux, and in Claude Code.* Installation and tool checks passed on all three systems; real model calls passed in Codex on Windows with preview.4 and macOS and in Claude Code with Claude Opus 5.5.
+> e is attached so you or your assistant can check it.
 
 ### Notifications
 
@@ -60,7 +40,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 15/100)
+- **Difficulty:** 🟢 Easy (friction score 22/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
@@ -68,17 +48,17 @@
 
 **Signals that add work:** git clone (build from source)
 
-**Configuration required:** database dependency
+**Configuration required:** config file
 
-*Turnkey. install via pip install, native installer / package; needs git clone (build from source); configure database dependency; GUI application*
+*Easy. install via pip install, native installer / package; needs git clone (build from source); configure config file*
 
 ## Documentation quality
 
-Score **66/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
-- contains screenshots/diagrams
 - has section headings
+- has a quick-start section
 - documents installation
 - documents configuration
 - has contribution guidance
@@ -86,17 +66,16 @@ Score **66/100**, based on these detected signals:
 - links to dedicated docs
 - has a Chinese translation
 - reports benchmarks
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 48.5 |
-| momentum | 0.0 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
-| documentation | 66.0 |
-| accessibility | 85.0 |
+| documentation | 57.0 |
+| accessibility | 78.0 |
 
 ---
 

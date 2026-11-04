@@ -6,34 +6,34 @@
   "url": "https://github.com/trycompai/crm",
   "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
   "homepage": "https://trycrm.ai",
-  "stars": 11813,
-  "forks": 1753,
-  "open_issues": 18,
+  "stars": 11840,
+  "forks": 1757,
+  "open_issues": 19,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-31T21:38:51Z",
-  "updated_at": "2026-11-03T07:20:54Z",
+  "updated_at": "2026-11-04T09:51:41Z",
   "pushed_at": "2026-11-01T22:51:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "release",
-  "age_days": 94,
-  "days_since_push": 1,
-  "health_score": 54,
+  "age_days": 95,
+  "days_since_push": 2,
+  "health_score": 55,
   "health_components": {
-    "popularity": 81.4,
-    "momentum": 10.8,
+    "popularity": 81.5,
+    "momentum": 12.0,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 10.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 65,
+    "stars_gained": 72,
     "days_span": 5,
-    "stars_per_day": 13.0,
-    "lifetime_stars_per_day": 125.67,
+    "stars_per_day": 14.4,
+    "lifetime_stars_per_day": 124.63,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -121,11 +121,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:25+00:00",
+  "fetched_at": "2026-11-04T12:09:02+00:00",
   "categories": [
-    "analytics-2"
+    "analytics-3"
   ],
-  "primary_category": "analytics-2",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
@@ -147,14 +147,14 @@
         "model-routing",
         "self-hosted"
       ],
-      "star_ratio": 2.549,
-      "momentum_ratio": 1.769,
+      "star_ratio": 2.545,
+      "momentum_ratio": 1.472,
       "setup_delta": -58,
-      "dominance": 0.834,
+      "dominance": 0.811,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.55x the stars (30,108 vs 11,813)",
-        "1.77x the star velocity (23.0/day vs 13.0/day)",
+        "2.54x the stars (30,128 vs 11,840)",
+        "1.47x the star velocity (21.2/day vs 14.4/day)",
         "no harder to set up (32 vs 90 friction)"
       ],
       "reasons_zh": [],
@@ -184,8 +184,8 @@
           "skills-plugins",
           "team-collaboration"
         ],
-        "incumbent_health": 54,
-        "challenger_health": 70,
+        "incumbent_health": 55,
+        "challenger_health": 69,
         "incumbent_setup_score": 90,
         "challenger_setup_score": 32
       }

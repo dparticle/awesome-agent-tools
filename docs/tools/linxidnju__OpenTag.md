@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 503 |
-| Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 41/100 |
+| Stars | 499 |
+| Star velocity | 3.8/day (lifetime basis, 130d span) |
+| Health score | 42/100 |
 | Documentation | 53/100 |
 | Tier | 👀 Watchlist |
 | Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-27 |
-| Last push | 2026-07-10 (116 days ago) |
+| Last push | 2026-07-10 (117 days ago) |
 | Analyzed README | 7,017 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)** — Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).
@@ -76,7 +76,7 @@ Score **53/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.0 |
-| momentum | 0.0 |
+| momentum | 3.2 |
 | maintenance | 55.0 |
 | documentation | 53.0 |
 | accessibility | 55.0 |

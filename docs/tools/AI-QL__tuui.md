@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-04-01 |
-| Last push | 2026-05-14 (173 days ago) |
+| Last push | 2026-05-14 (174 days ago) |
 | Analyzed README | 12,001 chars from `raw:HEAD/README.md` |
 
 ## What it solves

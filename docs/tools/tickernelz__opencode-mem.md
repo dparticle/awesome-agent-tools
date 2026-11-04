@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,814 |
+| Stars | 1,819 |
 | Star velocity | 4.0/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 69/100 |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-01-10 |
-| Last push | 2026-11-02 (0 days ago) |
-| Analyzed README | 58,454 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 65,743 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,7 @@
 
 ### Agent runtime
 
-> er out — using these helpers avoids that pitfall.
+> p.json, otherwise the site build fails.
 
 ### Security & isolation
 
@@ -60,7 +60,7 @@
 
 ### GUI / desktop app
 
-> artup resumes from the backup automatically.
+> ax, OrcaRouter, Atlas Cloud, Cheaper Inference, API Route, Runcrate, CloudGPU.
 
 ### Notifications
 

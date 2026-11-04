@@ -6,34 +6,34 @@
   "url": "https://github.com/harishkotra/agent-office",
   "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
   "homepage": "",
-  "stars": 397,
-  "forks": 112,
+  "stars": 401,
+  "forks": 113,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-25T04:43:02Z",
-  "updated_at": "2026-11-03T06:00:35Z",
+  "updated_at": "2026-11-04T01:46:13Z",
   "pushed_at": "2026-09-25T04:17:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 251,
-  "days_since_push": 39,
+  "age_days": 252,
+  "days_since_push": 40,
   "health_score": 43,
   "health_components": {
-    "popularity": 52.0,
-    "momentum": 2.3,
+    "popularity": 52.1,
+    "momentum": 2.7,
     "maintenance": 78.0,
     "documentation": 57.0,
     "accessibility": 25.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 1.58,
+    "stars_per_day": 3.2,
+    "lifetime_stars_per_day": 1.59,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:14+00:00",
+  "fetched_at": "2026-11-04T12:10:18+00:00",
   "categories": [
     "analytics",
     "desktop-ui"
@@ -159,14 +159,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 29.02,
-      "momentum_ratio": 16.357,
+      "star_ratio": 28.97,
+      "momentum_ratio": 16.625,
       "setup_delta": -43,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "29.02x the stars (11,521 vs 397)",
-        "16.36x the star velocity (45.8/day vs 2.8/day)",
+        "28.97x the stars (11,617 vs 401)",
+        "16.62x the star velocity (53.2/day vs 3.2/day)",
         "no harder to set up (32 vs 75 friction)"
       ],
       "reasons_zh": [],
@@ -199,7 +199,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 43,
-        "challenger_health": 73,
+        "challenger_health": 74,
         "incumbent_setup_score": 75,
         "challenger_setup_score": 32
       }

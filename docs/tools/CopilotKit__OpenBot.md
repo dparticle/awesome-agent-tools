@@ -12,25 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,970 |
-| Star velocity | 446.8/day (history basis, 5d span) |
+| Stars | 10,084 |
+| Star velocity | 329.8/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 33,762 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 34,897 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> somewhere else: a gateway, a proxy.
+> et responses and the rest get chat.
 
 ### Model / provider routing
 
@@ -88,7 +86,7 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.0 |
+| popularity | 80.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 73.0 |

@@ -6,8 +6,8 @@
   "url": "https://github.com/WenyuChiou/ai-research-skills",
   "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
   "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
-  "stars": 552,
-  "forks": 36,
+  "stars": 593,
+  "forks": 41,
   "open_issues": 3,
   "language": "Python",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "zotero"
   ],
   "created_at": "2026-04-25T17:46:37Z",
-  "updated_at": "2026-11-03T11:23:47Z",
+  "updated_at": "2026-11-04T11:39:20Z",
   "pushed_at": "2026-11-02T21:47:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 191,
-  "days_since_push": 0,
-  "health_score": 61,
+  "age_days": 192,
+  "days_since_push": 1,
+  "health_score": 62,
   "health_components": {
-    "popularity": 54.8,
-    "momentum": 23.5,
+    "popularity": 55.5,
+    "momentum": 27.7,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
-  "tier": "notable",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 141,
+    "stars_gained": 166,
     "days_span": 5,
-    "stars_per_day": 28.2,
-    "lifetime_stars_per_day": 2.89,
+    "stars_per_day": 33.2,
+    "lifetime_stars_per_day": 3.09,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -153,17 +153,74 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:56+00:00",
+  "fetched_at": "2026-11-04T12:10:04+00:00",
   "categories": [
     "desktop-ui",
-    "memory-mcp"
+    "desktop-ui-2"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "wenyuchiou/ai-research-skills",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "WenyuChiou/ai-research-skills",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 82.848,
+      "momentum_ratio": 2.024,
+      "setup_delta": 8,
+      "dominance": 0.848,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "82.85x the stars (49,129 vs 593)",
+        "2.02x the star velocity (67.2/day vs 33.2/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 62,
+        "challenger_health": 81,
+        "incumbent_setup_score": 22,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,168 |
-| Star velocity | 8.4/day (history basis, 5d span) |
+| Stars | 6,173 |
+| Star velocity | 6.6/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-06-29 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 17,667 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 17,859 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -74,7 +74,7 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 75.8 |
-| momentum | 7.0 |
+| momentum | 5.5 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 28.0 |

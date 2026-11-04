@@ -21,17 +21,17 @@
     "vue"
   ],
   "created_at": "2026-10-04T05:59:16Z",
-  "updated_at": "2026-10-31T17:57:42Z",
-  "pushed_at": "2026-10-29T23:43:53Z",
+  "updated_at": "2026-11-03T16:17:56Z",
+  "pushed_at": "2026-11-03T16:20:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 30,
-  "days_since_push": 4,
+  "age_days": 31,
+  "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 54.8,
-    "momentum": 6.0,
+    "momentum": 5.5,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 55.0
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 72,
-    "days_span": 10,
-    "stars_per_day": 7.2,
-    "lifetime_stars_per_day": 18.23,
+    "days_span": 11,
+    "stars_per_day": 6.55,
+    "lifetime_stars_per_day": 17.65,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -161,13 +161,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:57+00:00",
+  "fetched_at": "2026-11-04T12:10:06+00:00",
   "categories": [
     "billing",
-    "memory-mcp",
+    "providers-2",
     "sharing"
   ],
-  "primary_category": "billing",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

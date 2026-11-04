@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 509,
   "forks": 34,
-  "open_issues": 10,
+  "open_issues": 14,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -35,12 +35,12 @@
   ],
   "created_at": "2026-01-11T16:56:02Z",
   "updated_at": "2026-11-03T02:30:47Z",
-  "pushed_at": "2026-10-28T18:49:34Z",
+  "pushed_at": "2026-11-03T16:30:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 295,
-  "days_since_push": 5,
+  "age_days": 296,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 54.1,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 18,
+    "days_span": 19,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.73,
+    "lifetime_stars_per_day": 1.72,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -159,8 +159,8 @@
     "highlights": [
       "Gateway HTTP/SSE mode via /mcp/message and /mcp/sse (when mcp.enabled=true)",
       "Protocol Stability: CAP v2 wire format frozen until February 2027",
-      "Cordum core (v . . tags, currently 1.x). A v* tag builds and signs the container",
-      "SSO/SAML/OIDC integration + SCIM provisioning"
+      "SSO/SAML/OIDC integration + SCIM provisioning",
+      "Cordum core (v . . tags, currently 1.x). A v* tag builds and signs the container"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -171,9 +171,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:03+00:00",
+  "fetched_at": "2026-11-04T12:10:09+00:00",
   "categories": [
-    "analytics-2",
+    "analytics",
     "memory-mcp",
     "providers-2"
   ],

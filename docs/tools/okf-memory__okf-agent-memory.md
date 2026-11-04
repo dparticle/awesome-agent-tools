@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 851 |
+| Stars | 852 |
 | Star velocity | 1.4/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 70/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-05 |
-| Last push | 2026-10-29 (4 days ago) |
+| Last push | 2026-10-29 (5 days ago) |
 | Analyzed README | 20,702 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).

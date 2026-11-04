@@ -6,9 +6,9 @@
   "url": "https://github.com/ZipengWu365/TOMC",
   "description": "TOMC Memory: CPU context compression and task memory for Codex, Claude Code, Cursor, TRAE, WorkBuddy and other MCP clients.",
   "homepage": "https://github.com/ZipengWu365/TOMC",
-  "stars": 266,
+  "stars": 267,
   "forks": 26,
-  "open_issues": 8,
+  "open_issues": 9,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -28,69 +28,51 @@
     "tomc-memory"
   ],
   "created_at": "2026-10-06T09:16:26Z",
-  "updated_at": "2026-11-03T10:56:24Z",
-  "pushed_at": "2026-11-02T16:20:58Z",
+  "updated_at": "2026-11-04T03:55:16Z",
+  "pushed_at": "2026-11-04T00:58:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 28,
+  "age_days": 29,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 52,
   "health_components": {
     "popularity": 48.5,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
-    "documentation": 66.0,
-    "accessibility": 85.0
+    "documentation": 57.0,
+    "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 9.5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 9.21,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "ZipengWu365/TOMC",
-    "readme_chars": 51564,
+    "readme_chars": 9255,
     "capabilities": [
-      "model-routing",
-      "billing-metering",
-      "memory-context",
-      "skills-plugins",
       "mcp-support",
-      "self-hosted",
-      "gui-desktop",
       "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "model-routing": "",
-      "billing-metering": "timated context reduction for the assistant to display.",
-      "memory-context": "snapshot was synced from manuscript commit **7399657** on **2026-09-28**.",
-      "skills-plugins": "d; TOMC is not listed in Tencent's marketplace.",
-      "mcp-support": "-source tool built on Task-Oriented Memory Compilation (TOMC).",
-      "self-hosted": "",
-      "gui-desktop": "and Linux, and in Claude Code.* Installation and tool checks passed on all three systems; real model calls passed in Codex on Windows with preview.4 and macOS and in Claude Code with Claude Opus 5.5.",
+      "mcp-support": "e is attached so you or your assistant can check it.",
       "notifications": "-compression evaluation note · Contribution guide",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
-      "model-routing": 1,
-      "billing-metering": 1,
-      "memory-context": 3,
-      "skills-plugins": 1,
-      "mcp-support": 24,
-      "self-hosted": 1,
-      "gui-desktop": 1,
+      "mcp-support": 4,
       "notifications": 1,
       "cross-agent-support": 3
     },
     "friction": {
-      "level": "turnkey",
-      "score": 15,
+      "level": "low",
+      "score": 22,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -101,40 +83,36 @@
         "git clone (build from source)"
       ],
       "config_signals": [
-        "database dependency"
+        "config file"
       ],
-      "friendliness_signals": [
-        "GUI application"
-      ],
+      "friendliness_signals": [],
       "platforms": [
         "macOS",
         "Windows",
-        "Linux",
-        "Web"
+        "Linux"
       ],
-      "note_en": "Turnkey. install via pip install, native installer / package; needs git clone (build from source); configure database dependency; GUI application",
-      "note_zh": "开箱即用。可通过 pip install、native installer / package 安装；需要 git clone (build from source)；需配置 database dependency；GUI application"
+      "note_en": "Easy. install via pip install, native installer / package; needs git clone (build from source); configure config file",
+      "note_zh": "较易上手。可通过 pip install、native installer / package 安装；需要 git clone (build from source)；需配置 config file"
     },
-    "doc_score": 66,
+    "doc_score": 57,
     "doc_signals": [
       "contains code blocks",
-      "contains screenshots/diagrams",
       "has section headings",
+      "has a quick-start section",
       "documents installation",
       "documents configuration",
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
       "has a Chinese translation",
-      "reports benchmarks",
-      "long, detailed README"
+      "reports benchmarks"
     ],
     "agents": [
       "Claude Code",
       "Codex",
       "Cursor"
     ],
-    "summary_en": "Try, compare, contribute: First-run reports · Context-compression evaluation note · Contribution guide",
+    "summary_en": "I got tired of re-explaining my project to every new AI chat, and then getting the old version of a decision back.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -142,13 +120,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.31
+      "external_link_ratio": 0.432
     },
     "highlights": [
-      "CPU construction: the measured TOMC stage averages 4.21 s/call across six replays, with 0 GiB CUDA allocation and 3.75 GiB peak process RSS.",
-      "Reader input: across 100K–10M, overall input is 36.57% lower than LIGHT and 37.38% lower than hierarchical LLMLingua-2, averaging reader-wise changes equally.",
-      "Open http://127.0.0.1:7860 and select Use now.",
-      "Quality: TOMC has higher mean scores in all 54 reader × baseline × length comparisons at 500K, 1M and 10M, and all 18 overall comparisons."
+      "Smaller requests in Codex (0.1.0 preview, not re-run since): 9 synthetic project chats of about 10K to 40K tokens, 5 questions each, gpt-6.1-sol.",
+      "Latest value, offline check (v0.3.0): 144 questions per budget, each about a fact that changed 3 to 5 times.",
+      "BEAM long-history benchmark (paper experiments): same reader model on both sides, 3 readers, 6 other memory methods.",
+      "What changed in 0.3.1 · in 0.3.0 · Reproduce the offline checks · Independent replications"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -159,13 +137,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:31+00:00",
+  "fetched_at": "2026-11-04T12:10:30+00:00",
   "categories": [
-    "analytics-2",
-    "failover",
     "memory-mcp"
   ],
-  "primary_category": "failover",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

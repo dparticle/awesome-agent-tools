@@ -6,9 +6,9 @@
   "url": "https://github.com/QuantumNous/new-api",
   "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
   "homepage": "https://www.newapi.ai",
-  "stars": 51277,
-  "forks": 12448,
-  "open_issues": 1428,
+  "stars": 51338,
+  "forks": 12465,
+  "open_issues": 1427,
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [
@@ -25,27 +25,27 @@
     "self-hosted"
   ],
   "created_at": "2023-11-10T19:33:36Z",
-  "updated_at": "2026-11-03T11:35:16Z",
+  "updated_at": "2026-11-04T12:00:51Z",
   "pushed_at": "2026-11-03T11:33:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1088,
-  "days_since_push": 0,
-  "health_score": 71,
+  "age_days": 1089,
+  "days_since_push": 1,
+  "health_score": 70,
   "health_components": {
     "popularity": 94.2,
-    "momentum": 54.2,
+    "momentum": 50.0,
     "maintenance": 100.0,
     "documentation": 75.0,
     "accessibility": 0.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 325,
+    "stars_gained": 300,
     "days_span": 5,
-    "stars_per_day": 65.0,
-    "lifetime_stars_per_day": 47.13,
+    "stars_per_day": 60.0,
+    "lifetime_stars_per_day": 47.14,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -147,11 +147,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:03+00:00",
+  "fetched_at": "2026-11-04T12:09:28+00:00",
   "categories": [
-    "analytics-2",
-    "analytics-3",
-    "memory-mcp"
+    "analytics-3"
   ],
   "primary_category": "analytics-3",
   "lifecycle": {

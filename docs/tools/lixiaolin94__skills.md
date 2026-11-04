@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 768 |
-| Star velocity | 3.2/day (lifetime basis, 236d span) |
-| Health score | 53/100 |
+| Stars | 769 |
+| Star velocity | 0.4/day (history basis, 5d span) |
+| Health score | 52/100 |
 | Documentation | 28/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Java |
 | Created | 2026-03-12 |
-| Last push | 2026-11-02 (1 days ago) |
+| Last push | 2026-11-02 (2 days ago) |
 | Analyzed README | 2,493 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -56,7 +56,7 @@ Score **28/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 57.7 |
-| momentum | 2.7 |
+| momentum | 0.3 |
 | maintenance | 100.0 |
 | documentation | 28.0 |
 | accessibility | 96.0 |

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,075 |
-| Star velocity | 61.9/day (lifetime basis, 82d span) |
-| Health score | 71/100 |
+| Stars | 5,420 |
+| Star velocity | 65.3/day (lifetime basis, 83d span) |
+| Health score | 72/100 |
 | Documentation | 73/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-08-12 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 61,010 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 62,098 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,7 +42,7 @@
 
 ### API gateway / proxy
 
-> ions, avatar, and section review before saving.
+> vatar, and section review before saving.
 
 ### Billing & metering
 
@@ -115,8 +115,8 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.1 |
-| momentum | 51.6 |
+| popularity | 74.7 |
+| momentum | 54.4 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 52.0 |

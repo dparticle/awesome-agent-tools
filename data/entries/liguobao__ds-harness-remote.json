@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 1416,
-  "forks": 125,
-  "open_issues": 30,
+  "stars": 1662,
+  "forks": 143,
+  "open_issues": 41,
   "language": "TypeScript",
   "license": "",
   "topics": [
@@ -16,33 +16,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-11-03T11:52:54Z",
-  "pushed_at": "2026-11-03T09:46:00Z",
+  "updated_at": "2026-11-04T12:06:49Z",
+  "pushed_at": "2026-11-04T00:12:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 80,
+  "age_days": 81,
   "days_since_push": 0,
-  "health_score": 75,
+  "health_score": 80,
   "health_components": {
-    "popularity": 63.0,
-    "momentum": 80.5,
+    "popularity": 64.4,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 72.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 483,
+    "stars_gained": 665,
     "days_span": 5,
-    "stars_per_day": 96.6,
-    "lifetime_stars_per_day": 17.7,
+    "stars_per_day": 133.0,
+    "lifetime_stars_per_day": 20.52,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 20007,
+    "readme_chars": 20011,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -59,7 +59,7 @@
       "remote-control": "while preserving messages and tool status.",
       "mobile-access": "use Bot mode, powered by Fei2411/DS-Bot.",
       "parallel-execution": "ther tools through ACP integrations, with remote file browsing and terminals.",
-      "model-routing": "Research's Hermes Agent through its own ACP server (hermes acp); opt-in in Remote settings.",
+      "model-routing": "nt through its own ACP server (hermes acp); opt-in in Remote settings.",
       "security-isolation": "onversation models with the same smooth workflow as local use.",
       "self-hosted": "",
       "gui-desktop": "bar Supported Install ds-harness-remote@0.6.2; this computer can also be the Host",
@@ -130,7 +130,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 1.0
+      "external_link_ratio": 0.999
     },
     "highlights": [
       "The current development baseline is dsh-v0.2.1-rc.5; validation scope is documented in the compatibility guide.",
@@ -152,13 +152,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:30+00:00",
+  "fetched_at": "2026-11-04T12:09:46+00:00",
   "categories": [
-    "analytics",
-    "analytics-2",
-    "analytics-3"
+    "analytics-3",
+    "mobile",
+    "model-routing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,8 +6,8 @@
   "url": "https://github.com/oomol-lab/open-connector",
   "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 6168,
-  "forks": 587,
+  "stars": 6173,
+  "forks": 589,
   "open_issues": 7,
   "language": "TypeScript",
   "license": "NOASSERTION",
@@ -32,33 +32,33 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-11-03T10:13:25Z",
-  "pushed_at": "2026-11-03T06:19:06Z",
+  "updated_at": "2026-11-04T09:53:11Z",
+  "pushed_at": "2026-11-04T08:16:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 127,
+  "age_days": 128,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 75.8,
-    "momentum": 7.0,
+    "momentum": 5.5,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 42,
+    "stars_gained": 33,
     "days_span": 5,
-    "stars_per_day": 8.4,
-    "lifetime_stars_per_day": 48.57,
+    "stars_per_day": 6.6,
+    "lifetime_stars_per_day": 48.23,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "oomol-lab/open-connector",
-    "readme_chars": 17667,
+    "readme_chars": 17859,
     "capabilities": [
       "model-routing",
       "memory-context",
@@ -74,7 +74,7 @@
     "capability_hits": {
       "model-routing": 1,
       "memory-context": 1,
-      "mcp-support": 6,
+      "mcp-support": 7,
       "self-hosted": 4
     },
     "friction": {
@@ -122,9 +122,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.906
+      "external_link_ratio": 0.896
     },
     "highlights": [
+      "Built-in OAuth 2.1 authorization server so remote MCP clients and other agents can authenticate",
       "Deployment options for local Docker or Node.js with SQLite or PostgreSQL state and local or",
       "Connect your clients: MCP, CLI, and SDK",
       "Credential handling for API keys, OAuth2, custom credentials, and no-auth providers."
@@ -138,22 +139,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:35+00:00",
+  "fetched_at": "2026-11-04T12:09:08+00:00",
   "categories": [
-    "analytics-2"
+    "analytics-3",
+    "failover"
   ],
-  "primary_category": "analytics-2",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "affaan-m/ECC",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "oomol-lab/open-connector",
-      "challenger": "affaan-m/ecc",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "oomol-lab/open-connector",
-      "challenger_name": "affaan-m/ECC",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -164,15 +166,15 @@
         "model-routing",
         "self-hosted"
       ],
-      "star_ratio": 48.005,
-      "momentum_ratio": 93.738,
-      "setup_delta": -15,
-      "dominance": 1.0,
+      "star_ratio": 4.881,
+      "momentum_ratio": 3.212,
+      "setup_delta": -40,
+      "dominance": 0.945,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.00x the stars (296,094 vs 6,168)",
-        "93.74x the star velocity (787.4/day vs 8.4/day)",
-        "no harder to set up (57 vs 72 friction)"
+        "4.88x the stars (30,128 vs 6,173)",
+        "3.21x the star velocity (21.2/day vs 6.6/day)",
+        "no harder to set up (32 vs 72 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -186,6 +188,7 @@
           "agent-runtime",
           "api-gateway",
           "auto-failover",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
@@ -193,17 +196,17 @@
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "parallel-execution",
+          "quota-management",
           "security-isolation",
           "self-hosted",
           "session-persistence",
           "skills-plugins",
-          "worktree-isolation"
+          "team-collaboration"
         ],
         "incumbent_health": 56,
-        "challenger_health": 89,
+        "challenger_health": 69,
         "incumbent_setup_score": 72,
-        "challenger_setup_score": 57
+        "challenger_setup_score": 32
       }
     }
   }

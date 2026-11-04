@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-04-23 |
-| Last push | 2026-11-02 (0 days ago) |
+| Last push | 2026-11-02 (1 days ago) |
 | Analyzed README | 44,677 chars from `raw:HEAD/README.md` |
 
 ## What it solves

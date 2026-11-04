@@ -6,7 +6,7 @@
   "url": "https://github.com/linxidnju/OpenTag",
   "description": "Open-source, channel-native agent gateway for Slack. Route team threads to Claude Code, Codex, OpenCode, Docker, HTTP agents, and custom CLIs with policy, approvals, memory, audit logs, and artifacts.",
   "homepage": "",
-  "stars": 503,
+  "stars": 499,
   "forks": 0,
   "open_issues": 1,
   "language": "JavaScript",
@@ -28,28 +28,28 @@
     "team-collaboration"
   ],
   "created_at": "2026-06-27T08:10:47Z",
-  "updated_at": "2026-10-29T06:50:27Z",
+  "updated_at": "2026-11-03T18:17:37Z",
   "pushed_at": "2026-07-10T06:39:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 129,
-  "days_since_push": 116,
-  "health_score": 41,
+  "age_days": 130,
+  "days_since_push": 117,
+  "health_score": 42,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 0.0,
+    "momentum": 3.2,
     "maintenance": 55.0,
     "documentation": 53.0,
     "accessibility": 55.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.9,
-    "basis": "history",
+    "stars_gained": 499,
+    "days_span": 130,
+    "stars_per_day": 3.84,
+    "lifetime_stars_per_day": 3.84,
+    "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:04+00:00",
+  "fetched_at": "2026-11-04T12:10:10+00:00",
   "categories": [
     "memory-mcp"
   ],
@@ -160,14 +160,14 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 8.795,
-      "momentum_ratio": 2740.0,
+      "star_ratio": 9.0,
+      "momentum_ratio": 24.01,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "8.80x the stars (4,424 vs 503)",
-        "2740.00x the star velocity (137.0/day vs 0.0/day)",
+        "9.00x the stars (4,491 vs 499)",
+        "24.01x the star velocity (92.2/day vs 3.8/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -189,8 +189,8 @@
           "skills-plugins",
           "voice-input"
         ],
-        "incumbent_health": 41,
-        "challenger_health": 87,
+        "incumbent_health": 42,
+        "challenger_health": 82,
         "incumbent_setup_score": 45,
         "challenger_setup_score": 50
       }

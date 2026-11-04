@@ -6,8 +6,8 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "https://devspace.run",
-  "stars": 5382,
-  "forks": 607,
+  "stars": 5390,
+  "forks": 610,
   "open_issues": 27,
   "language": "TypeScript",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-11-03T10:27:26Z",
+  "updated_at": "2026-11-04T09:04:23Z",
   "pushed_at": "2026-11-01T17:42:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 141,
-  "days_since_push": 1,
-  "health_score": 61,
+  "age_days": 142,
+  "days_since_push": 2,
+  "health_score": 62,
   "health_components": {
     "popularity": 74.6,
-    "momentum": 12.8,
+    "momentum": 13.5,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 72.0
   },
-  "tier": "notable",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 77,
+    "stars_gained": 81,
     "days_span": 5,
-    "stars_per_day": 15.4,
-    "lifetime_stars_per_day": 38.17,
+    "stars_per_day": 16.2,
+    "lifetime_stars_per_day": 37.96,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -146,13 +146,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:38+00:00",
+  "fetched_at": "2026-11-04T12:09:10+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "memory-mcp",
-    "teams-isolation"
+    "desktop-ui-2"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).",
@@ -177,14 +177,14 @@
         "remote-control",
         "worktree-isolation"
       ],
-      "star_ratio": 4.254,
-      "momentum_ratio": 6.766,
+      "star_ratio": 4.271,
+      "momentum_ratio": 6.358,
       "setup_delta": -4,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.25x the stars (22,895 vs 5,382)",
-        "6.77x the star velocity (104.2/day vs 15.4/day)",
+        "4.27x the stars (23,019 vs 5,390)",
+        "6.36x the star velocity (103.0/day vs 16.2/day)",
         "no harder to set up (24 vs 28 friction)"
       ],
       "reasons_zh": [],
@@ -212,7 +212,7 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 61,
+        "incumbent_health": 62,
         "challenger_health": 83,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 24

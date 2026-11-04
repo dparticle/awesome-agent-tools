@@ -12,54 +12,54 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 79,706 |
-| Star velocity | 238.6/day (history basis, 5d span) |
-| Health score | 91/100 |
+| Stars | 80,018 |
+| Star velocity | 246.2/day (history basis, 5d span) |
+| Health score | 90/100 |
 | Documentation | 74/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-04-04 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 49,139 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 45,659 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Model / provider routing
 
-> says the same in longer words.
+> s the same in longer words.
 
 ### API gateway / proxy
 
-> says the same in longer words.
+> s the same in longer words.
 
 ### Skills & plugins
 
-> does not duplicate the full project instructions when it reads both AGENTS.md and GEMINI.md.
+> d seeded reminders (followup-cadence.mjs, followup-seed.mjs); turn them off with follow_ups.enabled: false in config/profile.yml; employer reply classification into tracker updates (reply-watch)
 
 ### GUI / desktop app
 
-> st use; creates a dedicated project folder.
+> terminal dashboard lets you browse your pipeline visually:
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Cursor, Gemini CLI
+> Mentions Claude Code, Codex, Cursor, OpenCode
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 42/100)
+- **Difficulty:** 🟡 Some setup (friction score 43/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** yes
+- **Non-programmer friendly:** no
 - **Quickest install:** `npx @santifer/career-ops init`
 
 **Signals that make it easy:** npx one-liner, native installer / package
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** environment variables, config file, OAuth login flow, sign-in required
+**Configuration required:** environment variables, config file, sign-in required
 
-*Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, config file; GUI application*
+*Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, config file*
 
 ## Documentation quality
 
@@ -82,11 +82,11 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 98.0 |
+| popularity | 98.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
-| accessibility | 66.0 |
+| accessibility | 57.0 |
 
 ---
 

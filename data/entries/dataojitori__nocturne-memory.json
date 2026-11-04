@@ -6,7 +6,7 @@
   "url": "https://github.com/Dataojitori/nocturne_memory",
   "description": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw.",
   "homepage": "https://misaligned.top/memory",
-  "stars": 1413,
+  "stars": 1423,
   "forks": 174,
   "open_issues": 5,
   "language": "Python",
@@ -31,33 +31,33 @@
     "sqlite"
   ],
   "created_at": "2025-12-25T08:45:54Z",
-  "updated_at": "2026-11-02T21:07:59Z",
-  "pushed_at": "2026-09-22T20:13:39Z",
+  "updated_at": "2026-11-04T09:32:21Z",
+  "pushed_at": "2026-11-03T20:01:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 313,
-  "days_since_push": 41,
-  "health_score": 49,
+  "age_days": 314,
+  "days_since_push": 0,
+  "health_score": 53,
   "health_components": {
-    "popularity": 63.0,
-    "momentum": 0.2,
-    "maintenance": 78.0,
+    "popularity": 63.1,
+    "momentum": 1.8,
+    "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 4.51,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 4.53,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Dataojitori/nocturne_memory",
-    "readme_chars": 22681,
+    "readme_chars": 22876,
     "capabilities": [
       "remote-control",
       "worktree-isolation",
@@ -71,7 +71,7 @@
       "remote-control": "",
       "worktree-isolation": "Gemini CLI / OpenAI Codex / Cursor / OpenClaw / Antigravity / GitHub Copilot，以及任何支持 stdio 或 SSE 传输的 MCP 客户端。",
       "session-persistence": "",
-      "memory-context": "",
+      "memory-context": "Brain Cleanup — 系统为每次 AI 操作自动创建版本备份。",
       "mcp-support": "# Nocturne Memory: Long-Term Memory Server for MCP Agents",
       "notifications": "",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
@@ -81,7 +81,7 @@
       "worktree-isolation": 1,
       "session-persistence": 2,
       "memory-context": 5,
-      "mcp-support": 29,
+      "mcp-support": 27,
       "notifications": 2,
       "cross-agent-support": 7
     },
@@ -148,7 +148,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.529
+      "external_link_ratio": 0.568
     },
     "highlights": [
       "Valid Domains：AI 可以创建记忆的命名空间（默认：core, writer, game, notes, narrative）。",
@@ -165,10 +165,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:31+00:00",
+  "fetched_at": "2026-11-04T12:09:48+00:00",
   "categories": [
     "failover",
-    "teams-isolation"
+    "memory-mcp"
   ],
   "primary_category": "failover",
   "lifecycle": {

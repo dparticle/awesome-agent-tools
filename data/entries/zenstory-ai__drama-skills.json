@@ -6,8 +6,8 @@
   "url": "https://github.com/zenstory-ai/drama-skills",
   "description": "开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama / micro-drama skills for Claude Code & Codex: script, assets, storyboard, image & video prompts, review. MIT.",
   "homepage": "https://zenstory.ai/drama-skills",
-  "stars": 3712,
-  "forks": 677,
+  "stars": 3767,
+  "forks": 680,
   "open_issues": 1,
   "language": "Python",
   "license": "MIT",
@@ -32,33 +32,33 @@
     "zenstory"
   ],
   "created_at": "2026-07-16T16:11:19Z",
-  "updated_at": "2026-11-03T11:35:53Z",
-  "pushed_at": "2026-11-02T08:30:37Z",
+  "updated_at": "2026-11-04T12:00:43Z",
+  "pushed_at": "2026-11-04T04:00:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 109,
-  "days_since_push": 1,
+  "age_days": 110,
+  "days_since_push": 0,
   "health_score": 65,
   "health_components": {
-    "popularity": 71.4,
-    "momentum": 28.4,
+    "popularity": 71.5,
+    "momentum": 28.5,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3712,
-    "days_span": 109,
-    "stars_per_day": 34.06,
-    "lifetime_stars_per_day": 34.06,
+    "stars_gained": 3767,
+    "days_span": 110,
+    "stars_per_day": 34.25,
+    "lifetime_stars_per_day": 34.25,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zenstory-ai/drama-skills",
-    "readme_chars": 15024,
+    "readme_chars": 15300,
     "capabilities": [
       "billing-metering",
       "agent-runtime",
@@ -125,7 +125,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 1.065
+      "external_link_ratio": 1.046
     },
     "highlights": [
       "Seedance 提示词怎么写：起点、动作顺序、终点，以及 2.5 与 2.0 的写法差别。",
@@ -142,9 +142,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:43+00:00",
+  "fetched_at": "2026-11-04T12:09:13+00:00",
   "categories": [
-    "analytics-2",
     "billing"
   ],
   "primary_category": "billing",

@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5435,
-  "forks": 549,
-  "open_issues": 48,
+  "stars": 5447,
+  "forks": 550,
+  "open_issues": 45,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-03T11:07:48Z",
-  "pushed_at": "2026-11-03T11:33:57Z",
+  "updated_at": "2026-11-04T11:46:06Z",
+  "pushed_at": "2026-11-04T11:47:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 123,
+  "age_days": 124,
   "days_since_push": 0,
   "health_score": 63,
   "health_components": {
     "popularity": 74.7,
-    "momentum": 6.7,
+    "momentum": 7.7,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 59.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 40,
+    "stars_gained": 46,
     "days_span": 5,
-    "stars_per_day": 8.0,
-    "lifetime_stars_per_day": 44.19,
+    "stars_per_day": 9.2,
+    "lifetime_stars_per_day": 43.93,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 53135,
+    "readme_chars": 53257,
     "capabilities": [
       "remote-control",
       "model-routing",
@@ -69,6 +69,7 @@
       "mcp-support",
       "security-isolation",
       "gui-desktop",
+      "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
@@ -78,7 +79,8 @@
       "skills-plugins": "ed” refers to the skill, not to the availability of every registered host.",
       "mcp-support": "cts, output formats, and exit codes",
       "security-isolation": "that profile's existing permissions; it is not a separate sandbox or read-only view, so connected clients can persist changes and incur model costs.",
-      "gui-desktop": "hed npm package with Node.js 22.13.0 or later:",
+      "gui-desktop": "de.js, so you can run the CLI without installing Node.js, npm, or Homebrew.",
+      "notifications": "untime checks and test your model connection.",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
@@ -89,6 +91,7 @@
       "mcp-support": 3,
       "security-isolation": 2,
       "gui-desktop": 5,
+      "notifications": 1,
       "cross-agent-support": 3
     },
     "friction": {
@@ -157,7 +160,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.414
+      "external_link_ratio": 0.432
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -169,12 +172,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:38+00:00",
+  "fetched_at": "2026-11-04T12:09:09+00:00",
   "categories": [
-    "analytics-2",
-    "memory-mcp"
+    "billing",
+    "memory-mcp",
+    "mobile"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

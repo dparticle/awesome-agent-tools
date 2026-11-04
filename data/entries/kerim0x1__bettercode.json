@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 43,
-  "days_since_push": 8,
+  "age_days": 44,
+  "days_since_push": 9,
   "health_score": 52,
   "health_components": {
     "popularity": 48.3,
@@ -42,7 +42,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.07,
+    "lifetime_stars_per_day": 5.93,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,77 +141,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:31+00:00",
+  "fetched_at": "2026-11-04T12:10:30+00:00",
   "categories": [
-    "analytics"
+    "desktop-ui-2"
   ],
-  "primary_category": "analytics",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "msitarzewski/agency-agents",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "kerim0x1/bettercode",
-      "challenger": "msitarzewski/agency-agents",
-      "incumbent_name": "kerim0x1/bettercode",
-      "challenger_name": "msitarzewski/agency-agents",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "billing-metering",
-        "cross-agent-support",
-        "gui-desktop",
-        "mobile-access",
-        "team-collaboration"
-      ],
-      "star_ratio": 636.851,
-      "momentum_ratio": 4752.0,
-      "setup_delta": -23,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "636.85x the stars (166,218 vs 261)",
-        "4752.00x the star velocity (237.6/day vs 0.0/day)",
-        "no harder to set up (1 vs 24 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mobile-access",
-          "team-collaboration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "team-collaboration",
-          "voice-input"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 96,
-        "incumbent_setup_score": 24,
-        "challenger_setup_score": 1
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

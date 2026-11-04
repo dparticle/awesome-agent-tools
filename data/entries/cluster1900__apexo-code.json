@@ -26,12 +26,12 @@
     "xai"
   ],
   "created_at": "2026-05-27T00:41:03Z",
-  "updated_at": "2026-11-03T10:53:30Z",
-  "pushed_at": "2026-11-03T10:58:43Z",
+  "updated_at": "2026-11-04T09:43:33Z",
+  "pushed_at": "2026-11-04T09:50:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 160,
+  "age_days": 161,
   "days_since_push": 0,
   "health_score": 47,
   "health_components": {
@@ -44,9 +44,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 303,
-    "days_span": 160,
-    "stars_per_day": 1.89,
-    "lifetime_stars_per_day": 1.89,
+    "days_span": 161,
+    "stars_per_day": 1.88,
+    "lifetime_stars_per_day": 1.88,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -156,85 +156,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:26+00:00",
+  "fetched_at": "2026-11-04T12:10:27+00:00",
   "categories": [
-    "analytics",
+    "desktop-ui-2",
     "failover",
     "model-routing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by bytedance/deer-flow: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 bytedance/deer-flow 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "bytedance/deer-flow",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "cluster1900/apexo-code",
-      "challenger": "bytedance/deer-flow",
-      "incumbent_name": "cluster1900/apexo-code",
-      "challenger_name": "bytedance/deer-flow",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "gui-desktop",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration",
-        "self-hosted",
-        "session-persistence"
-      ],
-      "star_ratio": 280.31,
-      "momentum_ratio": 31.746,
-      "setup_delta": 9,
-      "dominance": 0.955,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "280.31x the stars (84,934 vs 303)",
-        "31.75x the star velocity (60.0/day vs 1.9/day)",
-        "slightly heavier setup (+9 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "gui-desktop",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "self-hosted",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 78,
-        "incumbent_setup_score": 48,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

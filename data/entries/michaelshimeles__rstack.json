@@ -6,8 +6,8 @@
   "url": "https://github.com/michaelshimeles/rstack",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1433,
-  "forks": 238,
+  "stars": 1439,
+  "forks": 241,
   "open_issues": 5,
   "language": "Python",
   "license": "",
@@ -22,26 +22,26 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-11-03T09:00:48Z",
+  "updated_at": "2026-11-04T07:49:40Z",
   "pushed_at": "2026-10-26T09:53:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 242,
-  "days_since_push": 8,
+  "age_days": 243,
+  "days_since_push": 9,
   "health_score": 53,
   "health_components": {
-    "popularity": 63.1,
-    "momentum": 5.8,
+    "popularity": 63.2,
+    "momentum": 5.2,
     "maintenance": 92.0,
     "documentation": 39.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 35,
+    "stars_gained": 31,
     "days_span": 5,
-    "stars_per_day": 7.0,
+    "stars_per_day": 6.2,
     "lifetime_stars_per_day": 5.92,
     "basis": "history",
     "is_fast_riser": true
@@ -128,26 +128,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:29+00:00",
+  "fetched_at": "2026-11-04T12:09:47+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "teams-isolation"
+    "desktop-ui-2"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "iOfficeAI/AionUi",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "michaelshimeles/rstack",
-      "challenger": "iofficeai/aionui",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "michaelshimeles/rstack",
-      "challenger_name": "iOfficeAI/AionUi",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -156,15 +157,15 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 23.737,
-      "momentum_ratio": 3.743,
-      "setup_delta": -23,
-      "dominance": 0.964,
+      "star_ratio": 8.073,
+      "momentum_ratio": 8.581,
+      "setup_delta": 7,
+      "dominance": 0.965,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "23.74x the stars (34,015 vs 1,433)",
-        "3.74x the star velocity (26.2/day vs 7.0/day)",
-        "no harder to set up (2 vs 25 friction)"
+        "8.07x the stars (11,617 vs 1,439)",
+        "8.58x the star velocity (53.2/day vs 6.2/day)",
+        "slightly heavier setup (+7 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -178,21 +179,24 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "remote-control",
+          "self-hosted",
           "skills-plugins",
           "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 53,
-        "challenger_health": 71,
+        "challenger_health": 74,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 2
+        "challenger_setup_score": 32
       }
     }
   }

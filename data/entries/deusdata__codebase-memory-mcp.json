@@ -6,9 +6,9 @@
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
   "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
-  "stars": 48043,
-  "forks": 3956,
-  "open_issues": 557,
+  "stars": 48094,
+  "forks": 3962,
+  "open_issues": 554,
   "language": "C",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windsurf"
   ],
   "created_at": "2026-02-24T22:01:00Z",
-  "updated_at": "2026-11-03T11:43:43Z",
-  "pushed_at": "2026-11-03T06:01:30Z",
+  "updated_at": "2026-11-04T12:03:15Z",
+  "pushed_at": "2026-11-03T23:06:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 251,
+  "age_days": 252,
   "days_since_push": 0,
-  "health_score": 74,
+  "health_score": 73,
   "health_components": {
     "popularity": 93.6,
-    "momentum": 46.8,
+    "momentum": 44.8,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 36.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 281,
+    "stars_gained": 269,
     "days_span": 5,
-    "stars_per_day": 56.2,
-    "lifetime_stars_per_day": 191.41,
+    "stars_per_day": 53.8,
+    "lifetime_stars_per_day": 190.85,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "DeusData/codebase-memory-mcp",
-    "readme_chars": 118966,
+    "readme_chars": 119163,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -171,7 +171,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.286
+      "external_link_ratio": 0.285
     },
     "highlights": [
       "Choose a local model. The default Qwen2.5 Coder 0.5B downloads about 567 MB; Qwen3 0.6B, LFM2.5 1.2B and Qwen3.5 2B are larger options. All need WebGPU with shader-f16 support.",
@@ -188,13 +188,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:04+00:00",
+  "fetched_at": "2026-11-04T12:09:29+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "failover",
-    "teams-isolation"
+    "failover"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

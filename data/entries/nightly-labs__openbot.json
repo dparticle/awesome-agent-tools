@@ -6,9 +6,9 @@
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
   "homepage": "https://openbot.run/",
-  "stars": 5075,
-  "forks": 514,
-  "open_issues": 552,
+  "stars": 5420,
+  "forks": 552,
+  "open_issues": 571,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -22,33 +22,33 @@
     "typescript"
   ],
   "created_at": "2026-08-12T21:32:03Z",
-  "updated_at": "2026-11-03T11:56:28Z",
-  "pushed_at": "2026-11-03T11:56:26Z",
+  "updated_at": "2026-11-04T12:07:54Z",
+  "pushed_at": "2026-11-04T12:07:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 82,
+  "age_days": 83,
   "days_since_push": 0,
-  "health_score": 71,
+  "health_score": 72,
   "health_components": {
-    "popularity": 74.1,
-    "momentum": 51.6,
+    "popularity": 74.7,
+    "momentum": 54.4,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 52.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5075,
-    "days_span": 82,
-    "stars_per_day": 61.89,
-    "lifetime_stars_per_day": 61.89,
+    "stars_gained": 5420,
+    "days_span": 83,
+    "stars_per_day": 65.3,
+    "lifetime_stars_per_day": 65.3,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nightly-labs/openbot",
-    "readme_chars": 61010,
+    "readme_chars": 62098,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -70,7 +70,7 @@
       "mobile-access": "municates with local CLI processes",
       "worktree-isolation": "codex:doctor checks the CLI version, App Server handshake, and ChatGPT login without starting a model turn.",
       "model-routing": "ter and gives it only to the local CLI.",
-      "api-gateway": "ions, avatar, and section review before saving.",
+      "api-gateway": "vatar, and section review before saving.",
       "billing-metering": "",
       "session-persistence": "ta-dir keeps the store in that directory",
       "skills-plugins": "r separately through the marketplace.",
@@ -88,11 +88,11 @@
       "model-routing": 3,
       "api-gateway": 1,
       "billing-metering": 1,
-      "session-persistence": 7,
+      "session-persistence": 8,
       "skills-plugins": 4,
       "mcp-support": 1,
       "self-hosted": 2,
-      "team-collaboration": 4,
+      "team-collaboration": 5,
       "gui-desktop": 12,
       "notifications": 3,
       "cross-agent-support": 5
@@ -162,7 +162,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.262
+      "external_link_ratio": 0.274
     },
     "highlights": [
       "~/.cursor — login and session history managed exclusively by the Cursor CLI.",
@@ -179,11 +179,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:39+00:00",
+  "fetched_at": "2026-11-04T12:09:10+00:00",
   "categories": [
     "analytics",
-    "memory-mcp",
-    "teams-isolation"
+    "billing",
+    "mobile"
   ],
   "primary_category": "analytics",
   "lifecycle": {

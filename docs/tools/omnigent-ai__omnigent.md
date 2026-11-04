@@ -2,7 +2,7 @@
 
 # omnigent-ai/omnigent
 
-> Omnigent is an open-source meta-harness that gives you a common orchestration layer over Claude Code, Codex, Cursor, OpenCode, Hermes, Pi, and the agents you write yourself: swap or combine harnesses without rewriting, enforce policies and…
+> Omnigent is an open-source meta-harness that gives you a common orchestration layer over Claude Code, Codex, Cursor, OpenCode, Goose, Antigravity, GitHub Copilot, Devin, Kiro, Qwen Code, Kimi Code, Grok Build, Jcode, Hermes, Pi, OpenAI Age…
 
 [Repository](https://github.com/omnigent-ai/omnigent) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,184 |
-| Star velocity | 14.6/day (history basis, 5d span) |
-| Health score | 66/100 |
+| Stars | 11,209 |
+| Star velocity | 16.0/day (history basis, 5d span) |
+| Health score | 67/100 |
 | Documentation | 74/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-06-11 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 30,335 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 31,468 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,7 @@
 
 ### MCP support
 
-> ies, searches the live web and reads
+> enAI-compatible Chat Completions provider in Omnigent's
 
 ### Self-hostable
 
@@ -109,7 +109,7 @@ Score **74/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 81.0 |
-| momentum | 12.2 |
+| momentum | 13.3 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
 | accessibility | 75.0 |

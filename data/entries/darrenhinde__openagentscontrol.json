@@ -23,27 +23,27 @@
     "prompt-engineering"
   ],
   "created_at": "2025-08-14T21:44:01Z",
-  "updated_at": "2026-11-03T08:17:35Z",
+  "updated_at": "2026-11-04T07:49:35Z",
   "pushed_at": "2026-10-26T19:00:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 445,
-  "days_since_push": 7,
-  "health_score": 65,
+  "age_days": 446,
+  "days_since_push": 8,
+  "health_score": 63,
   "health_components": {
     "popularity": 73.9,
-    "momentum": 1.8,
-    "maintenance": 100.0,
+    "momentum": 1.7,
+    "maintenance": 92.0,
     "documentation": 72.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 11.16,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 11.14,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -130,22 +130,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:15+00:00",
+  "fetched_at": "2026-11-04T12:09:37+00:00",
   "categories": [
-    "teams-isolation"
+    "analytics"
   ],
-  "primary_category": "teams-isolation",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "OthmanAdi/planning-with-files",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "paperclipai/paperclip",
     "challenger": "",
     "supersede": {
       "incumbent": "darrenhinde/openagentscontrol",
-      "challenger": "othmanadi/planning-with-files",
+      "challenger": "paperclipai/paperclip",
       "incumbent_name": "darrenhinde/OpenAgentsControl",
-      "challenger_name": "OthmanAdi/planning-with-files",
+      "challenger_name": "paperclipai/paperclip",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -156,15 +156,15 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 5.606,
-      "momentum_ratio": 9.455,
-      "setup_delta": -23,
+      "star_ratio": 22.337,
+      "momentum_ratio": 214.9,
+      "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "5.61x the stars (27,852 vs 4,968)",
-        "9.45x the star velocity (20.8/day vs 2.2/day)",
-        "no harder to set up (27 vs 50 friction)"
+        "22.34x the stars (110,972 vs 4,968)",
+        "214.90x the star velocity (429.8/day vs 2.0/day)",
+        "no harder to set up (45 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -177,18 +177,26 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
           "memory-context",
+          "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
+          "notifications",
+          "remote-control",
           "security-isolation",
+          "self-hosted",
           "session-persistence",
           "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
           "worktree-isolation"
         ],
-        "incumbent_health": 65,
-        "challenger_health": 69,
+        "incumbent_health": 63,
+        "challenger_health": 89,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 27
+        "challenger_setup_score": 45
       }
     }
   }

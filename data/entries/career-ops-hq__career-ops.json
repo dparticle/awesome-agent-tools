@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
   "homepage": "https://career-ops.org",
-  "stars": 79706,
-  "forks": 14691,
-  "open_issues": 494,
+  "stars": 80018,
+  "forks": 14732,
+  "open_issues": 451,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "resume"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-11-03T11:55:08Z",
-  "pushed_at": "2026-11-03T11:02:52Z",
+  "updated_at": "2026-11-04T12:04:24Z",
+  "pushed_at": "2026-11-04T12:04:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 212,
+  "age_days": 213,
   "days_since_push": 0,
-  "health_score": 91,
+  "health_score": 90,
   "health_components": {
-    "popularity": 98.0,
+    "popularity": 98.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 74.0,
-    "accessibility": 66.0
+    "accessibility": 57.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1193,
+    "stars_gained": 1231,
     "days_span": 5,
-    "stars_per_day": 238.6,
-    "lifetime_stars_per_day": 375.97,
+    "stars_per_day": 246.2,
+    "lifetime_stars_per_day": 375.67,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 49139,
+    "readme_chars": 45659,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -69,24 +69,24 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "model-routing": "says the same in longer words.",
-      "api-gateway": "says the same in longer words.",
-      "skills-plugins": "does not duplicate the full project instructions when it reads both AGENTS.md and GEMINI.md.",
-      "gui-desktop": "st use; creates a dedicated project folder.",
-      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+      "model-routing": "s the same in longer words.",
+      "api-gateway": "s the same in longer words.",
+      "skills-plugins": "d seeded reminders (followup-cadence.mjs, followup-seed.mjs); turn them off with follow_ups.enabled: false in config/profile.yml; employer reply classification into tracker updates (reply-watch)",
+      "gui-desktop": "terminal dashboard lets you browse your pipeline visually:",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
       "model-routing": 1,
       "api-gateway": 1,
       "skills-plugins": 1,
-      "gui-desktop": 3,
-      "cross-agent-support": 5
+      "gui-desktop": 1,
+      "cross-agent-support": 4
     },
     "friction": {
       "level": "moderate",
-      "score": 42,
+      "score": 43,
       "out_of_the_box": false,
-      "non_programmer_friendly": true,
+      "non_programmer_friendly": false,
       "easy_signals": [
         "npx one-liner",
         "native installer / package"
@@ -98,19 +98,16 @@
       "config_signals": [
         "environment variables",
         "config file",
-        "OAuth login flow",
         "sign-in required"
       ],
-      "friendliness_signals": [
-        "GUI application"
-      ],
+      "friendliness_signals": [],
       "platforms": [
         "Windows",
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, config file; GUI application",
-      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、config file；GUI application"
+      "note_en": "Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure environment variables, config file",
+      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、config file"
     },
     "doc_score": 74,
     "doc_signals": [
@@ -130,7 +127,6 @@
     "agents": [
       "Claude Code",
       "Codex",
-      "Gemini CLI",
       "OpenCode",
       "Cursor"
     ],
@@ -144,10 +140,11 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.468
+      "external_link_ratio": 0.482
     },
     "highlights": [
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
+      "Without an AI CLI: standalone Gemini, Ollama and OpenAI-compatible scripts evaluate a JD on their own.",
       "Agent: AI coding CLI with shared skills and modes (AGENTS.md + CLI wrapper)",
       "Scanner: Playwright + Greenhouse API + WebSearch"
     ],
@@ -160,9 +157,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:58+00:00",
+  "fetched_at": "2026-11-04T12:09:24+00:00",
   "categories": [
-    "memory-mcp",
     "model-routing"
   ],
   "primary_category": "model-routing",

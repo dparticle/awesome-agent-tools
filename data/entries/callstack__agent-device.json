@@ -6,9 +6,9 @@
   "url": "https://github.com/callstack/agent-device",
   "description": "Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.",
   "homepage": "https://agent-device.dev",
-  "stars": 5248,
-  "forks": 375,
-  "open_issues": 99,
+  "stars": 5261,
+  "forks": 378,
+  "open_issues": 105,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,33 +31,33 @@
     "xcuitest"
   ],
   "created_at": "2026-01-30T18:41:54Z",
-  "updated_at": "2026-11-03T11:50:10Z",
-  "pushed_at": "2026-11-03T11:50:04Z",
+  "updated_at": "2026-11-04T09:53:43Z",
+  "pushed_at": "2026-11-04T10:24:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 276,
+  "age_days": 277,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 74.4,
-    "momentum": 10.8,
+    "momentum": 11.2,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 65,
+    "stars_gained": 67,
     "days_span": 5,
-    "stars_per_day": 13.0,
-    "lifetime_stars_per_day": 19.01,
+    "stars_per_day": 13.4,
+    "lifetime_stars_per_day": 18.99,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "callstack/agent-device",
-    "readme_chars": 14208,
+    "readme_chars": 14377,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -145,7 +145,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.956
+      "external_link_ratio": 2.921
     },
     "highlights": [
       "\"Implement the onboarding screen, run it on the iOS simulator and Android emulator, and attach screenshots.\"",
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:14+00:00",
+  "fetched_at": "2026-11-04T12:09:36+00:00",
   "categories": [
-    "analytics",
-    "memory-mcp",
-    "teams-isolation"
+    "desktop-ui",
+    "desktop-ui-2",
+    "mobile"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

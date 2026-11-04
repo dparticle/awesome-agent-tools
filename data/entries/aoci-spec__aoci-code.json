@@ -6,9 +6,9 @@
   "url": "https://github.com/aoci-spec/aoci-code",
   "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
   "homepage": "www.aoci.ai",
-  "stars": 1844,
-  "forks": 223,
-  "open_issues": 29,
+  "stars": 1850,
+  "forks": 224,
+  "open_issues": 22,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,13 +34,13 @@
     "repo-map"
   ],
   "created_at": "2026-08-08T11:33:08Z",
-  "updated_at": "2026-11-03T11:47:45Z",
-  "pushed_at": "2026-11-02T08:07:03Z",
+  "updated_at": "2026-11-04T10:38:32Z",
+  "pushed_at": "2026-11-04T08:07:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 87,
-  "days_since_push": 1,
+  "age_days": 88,
+  "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 65.3,
@@ -54,13 +54,13 @@
     "stars_gained": 52,
     "days_span": 5,
     "stars_per_day": 10.4,
-    "lifetime_stars_per_day": 21.2,
+    "lifetime_stars_per_day": 21.02,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aoci-spec/aoci-code",
-    "readme_chars": 77840,
+    "readme_chars": 77634,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -176,10 +176,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:25+00:00",
+  "fetched_at": "2026-11-04T12:09:44+00:00",
   "categories": [
     "failover",
-    "memory-mcp",
+    "failover-sharing",
     "model-routing"
   ],
   "primary_category": "failover",

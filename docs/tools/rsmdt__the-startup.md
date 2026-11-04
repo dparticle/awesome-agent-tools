@@ -14,17 +14,17 @@
 | --- | --- |
 | Stars | 577 |
 | Star velocity | 0.4/day (history basis, 5d span) |
-| Health score | 53/100 |
+| Health score | 51/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-12 |
-| Last push | 2026-10-26 (7 days ago) |
+| Last push | 2026-10-26 (8 days ago) |
 | Analyzed README | 26,375 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)** — Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -74,7 +74,7 @@ Score **51/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 55.2 |
 | momentum | 0.3 |
-| maintenance | 100.0 |
+| maintenance | 92.0 |
 | documentation | 51.0 |
 | accessibility | 75.0 |
 

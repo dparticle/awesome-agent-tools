@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,416 |
-| Star velocity | 96.6/day (history basis, 5d span) |
-| Health score | 75/100 |
+| Stars | 1,662 |
+| Star velocity | 133.0/day (history basis, 5d span) |
+| Health score | 80/100 |
 | Documentation | 58/100 |
-| Tier | ✅ Recommended |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 20,007 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 20,011 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Model / provider routing
 
-> Research's Hermes Agent through its own ACP server (hermes acp); opt-in in Remote settings.
+> nt through its own ACP server (hermes acp); opt-in in Remote settings.
 
 ### Security & isolation
 
@@ -91,8 +91,8 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 63.0 |
-| momentum | 80.5 |
+| popularity | 64.4 |
+| momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 58.0 |
 | accessibility | 72.0 |

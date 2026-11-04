@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 604,
-  "days_since_push": 1,
+  "age_days": 605,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -35,7 +35,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 371,
-    "days_span": 604,
+    "days_span": 605,
     "stars_per_day": 0.61,
     "lifetime_stars_per_day": 0.61,
     "basis": "lifetime",
@@ -134,67 +134,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:16+00:00",
+  "fetched_at": "2026-11-04T12:10:20+00:00",
   "categories": [
     "memory-mcp"
   ],
   "primary_category": "memory-mcp",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by aipoch/open-science: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 aipoch/open-science 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "aipoch/open-science",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "nwiizo/tfmcp",
-      "challenger": "aipoch/open-science",
-      "incumbent_name": "nwiizo/tfmcp",
-      "challenger_name": "aipoch/open-science",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "gui-desktop",
-        "mcp-support",
-        "model-routing",
-        "security-isolation",
-        "skills-plugins"
-      ],
-      "star_ratio": 14.65,
-      "momentum_ratio": 13.115,
-      "setup_delta": -11,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "14.65x the stars (5,435 vs 371)",
-        "13.11x the star velocity (8.0/day vs 0.6/day)",
-        "no harder to set up (41 vs 52 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "remote-control",
-          "security-isolation",
-          "skills-plugins"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 63,
-        "incumbent_setup_score": 52,
-        "challenger_setup_score": 41
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,849 |
-| Star velocity | 0.8/day (history basis, 5d span) |
+| Stars | 2,851 |
+| Star velocity | 1.0/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 38/100 |
 | Tier | 🔹 Notable |
@@ -21,14 +21,14 @@
 | License | MIT |
 | Language | Zig |
 | Created | 2026-02-10 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 7,522 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 8,622 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> onfigure live TUI refresh interval
+> nction MenuComplete to your profile.
 
 ### GUI / desktop app
 
@@ -64,7 +64,7 @@ Score **38/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 69.1 |
-| momentum | 0.7 |
+| momentum | 0.8 |
 | maintenance | 100.0 |
 | documentation | 38.0 |
 | accessibility | 87.0 |

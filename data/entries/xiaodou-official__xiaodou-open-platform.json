@@ -6,7 +6,7 @@
   "url": "https://github.com/xiaodou-official/xiaodou-open-platform",
   "description": "小豆支付开放平台：个人也能申请的支付宝+微信聚合收款接口——RSA2 签名 + webhook 验签、持牌机构清算、次日到账；兼容易支付 / 彩虹支付类插件协议零代码迁移（submit.php / mapi.php / api.php，网关 / 商家 ID / 密钥三格配置）；已兼容 Sub2API、New API（源码级核对）；支持多到账账号收款分配与分账；含 14 篇文档、四语言签名示例与本地 demo。Payment API for individuals & digital-goods merchants: Alipay + WeChat Pay, Epay-compatible, Sub2API & New API ready, licensed settlement.",
   "homepage": "https://xdfair.cn/",
-  "stars": 327,
+  "stars": 326,
   "forks": 9,
   "open_issues": 0,
   "language": "",
@@ -34,33 +34,33 @@
     "wechat-pay"
   ],
   "created_at": "2026-09-27T12:05:21Z",
-  "updated_at": "2026-11-02T23:53:31Z",
-  "pushed_at": "2026-10-22T12:50:41Z",
+  "updated_at": "2026-11-03T18:18:12Z",
+  "pushed_at": "2026-11-03T12:36:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 36,
-  "days_since_push": 11,
-  "health_score": 50,
+  "age_days": 38,
+  "days_since_push": 0,
+  "health_score": 52,
   "health_components": {
     "popularity": 50.3,
-    "momentum": 0.7,
-    "maintenance": 92.0,
+    "momentum": 0.3,
+    "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 9.08,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 8.58,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "xiaodou-official/xiaodou-open-platform",
-    "readme_chars": 17502,
+    "readme_chars": 17985,
     "capabilities": [
       "quota-management",
       "worktree-isolation",
@@ -122,7 +122,7 @@
       "Cursor",
       "Copilot"
     ],
-    "summary_en": "直接找：接口一览 ｜ 五分钟上手 ｜ 易支付协议兼容接入 ｜ 到账账号与收款分配 ｜ 文档目录 ｜ 常见问题",
+    "summary_en": "直接找：接口一览 ｜ 五分钟上手 ｜ 易支付协议兼容接入 ｜ 到账账号与收款分配 ｜ 微信 JSAPI 公众号配置 ｜ 文档目录 ｜ 常见问题",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -132,7 +132,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.343
+      "external_link_ratio": 0.334
     },
     "highlights": [
       "费率公开、全平台统一一档：平台服务费 1.5%（商家实收 98.5%），手续费 0.01 元起。",
@@ -149,10 +149,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:18+00:00",
+  "fetched_at": "2026-11-04T12:10:21+00:00",
   "categories": [
     "billing",
-    "notifications",
     "sharing"
   ],
   "primary_category": "billing",

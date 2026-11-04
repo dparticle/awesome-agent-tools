@@ -6,9 +6,9 @@
   "url": "https://github.com/leepokai/Codync",
   "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
   "homepage": "https://www.codync.dev",
-  "stars": 1784,
-  "forks": 170,
-  "open_issues": 68,
+  "stars": 1858,
+  "forks": 187,
+  "open_issues": 79,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "self-hosted"
   ],
   "created_at": "2026-03-18T11:11:05Z",
-  "updated_at": "2026-11-03T11:40:55Z",
-  "pushed_at": "2026-11-03T11:41:46Z",
+  "updated_at": "2026-11-04T11:56:51Z",
+  "pushed_at": "2026-11-04T11:19:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 230,
+  "age_days": 231,
   "days_since_push": 0,
   "health_score": 83,
   "health_components": {
-    "popularity": 65.0,
+    "popularity": 65.4,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 62.0,
+    "documentation": 63.0,
     "accessibility": 91.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 797,
+    "stars_gained": 853,
     "days_span": 5,
-    "stars_per_day": 159.4,
-    "lifetime_stars_per_day": 7.76,
+    "stars_per_day": 170.6,
+    "lifetime_stars_per_day": 8.04,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "leepokai/Codync",
-    "readme_chars": 24932,
+    "readme_chars": 25348,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -124,7 +124,7 @@
       "note_en": "Turnkey. install via uvx one-liner, Homebrew install; configure sign-in required, database dependency; GUI application",
       "note_zh": "开箱即用。可通过 uvx one-liner、Homebrew install 安装；需配置 sign-in required、database dependency；GUI application"
     },
-    "doc_score": 62,
+    "doc_score": 63,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.805
+      "external_link_ratio": 1.894
     },
     "highlights": [
       "codync-host (Rust, macOS, Windows and Linux) runs on your computer.",
@@ -171,13 +171,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:27+00:00",
+  "fetched_at": "2026-11-04T12:09:44+00:00",
   "categories": [
-    "analytics",
-    "desktop-ui",
-    "memory-mcp"
+    "desktop-ui-2",
+    "memory-mcp",
+    "mobile"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

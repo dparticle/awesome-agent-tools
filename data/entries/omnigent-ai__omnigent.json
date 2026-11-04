@@ -6,9 +6,9 @@
   "url": "https://github.com/omnigent-ai/omnigent",
   "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
   "homepage": "https://omnigent.ai",
-  "stars": 11184,
-  "forks": 1844,
-  "open_issues": 2530,
+  "stars": 11209,
+  "forks": 1845,
+  "open_issues": 2541,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -30,33 +30,33 @@
     "sandbox"
   ],
   "created_at": "2026-06-11T12:18:13Z",
-  "updated_at": "2026-11-03T10:50:48Z",
-  "pushed_at": "2026-11-03T11:48:36Z",
+  "updated_at": "2026-11-04T11:53:10Z",
+  "pushed_at": "2026-11-04T12:08:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 144,
+  "age_days": 145,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 67,
   "health_components": {
     "popularity": 81.0,
-    "momentum": 12.2,
+    "momentum": 13.3,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 73,
+    "stars_gained": 80,
     "days_span": 5,
-    "stars_per_day": 14.6,
-    "lifetime_stars_per_day": 77.67,
+    "stars_per_day": 16.0,
+    "lifetime_stars_per_day": 77.3,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "omnigent-ai/omnigent",
-    "readme_chars": 30335,
+    "readme_chars": 31468,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -82,7 +82,7 @@
       "model-routing": "switch models in the middle of a session with the /model command.",
       "api-gateway": "",
       "agent-runtime": "See the OpenCode harness guide.",
-      "mcp-support": "ies, searches the live web and reads",
+      "mcp-support": "enAI-compatible Chat Completions provider in Omnigent's",
       "self-hosted": "",
       "team-collaboration": "is up, sign in and register your laptop as a host:",
       "gui-desktop": "Windows (native) Omnigent runs natively on Windows in a degraded mode.",
@@ -98,12 +98,12 @@
       "model-routing": 3,
       "api-gateway": 1,
       "agent-runtime": 2,
-      "mcp-support": 5,
+      "mcp-support": 7,
       "self-hosted": 1,
       "team-collaboration": 1,
       "gui-desktop": 9,
       "notifications": 1,
-      "cross-agent-support": 5
+      "cross-agent-support": 7
     },
     "friction": {
       "level": "low",
@@ -164,9 +164,11 @@
       "Codex",
       "OpenCode",
       "Cursor",
-      "Copilot"
+      "Copilot",
+      "Qwen Code",
+      "Goose"
     ],
-    "summary_en": "Omnigent is an open-source meta-harness that gives you a common orchestration layer over Claude Code, Codex, Cursor, OpenCode, Hermes, Pi, and the agents you write yourself: swap or combine harnesses without rewriting, enforce policies and…",
+    "summary_en": "Omnigent is an open-source meta-harness that gives you a common orchestration layer over Claude Code, Codex, Cursor, OpenCode, Goose, Antigravity, GitHub Copilot, Devin, Kiro, Qwen Code, Kimi Code, Grok Build, Jcode, Hermes, Pi, OpenAI Age…",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://raw.githubusercontent.com/omnigent-ai/omnigent/main/scripts/install_oss.sh | sh",
     "source": "raw:HEAD/README.md",
@@ -174,7 +176,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.791
+      "external_link_ratio": 0.763
     },
     "highlights": [
       "Gemini API gateway — URL + key for an external gateway implementing native",
@@ -190,11 +192,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:28+00:00",
+  "fetched_at": "2026-11-04T12:09:03+00:00",
   "categories": [
     "analytics",
-    "memory-mcp",
-    "teams-isolation"
+    "desktop-ui-2",
+    "mobile"
   ],
   "primary_category": "analytics",
   "lifecycle": {

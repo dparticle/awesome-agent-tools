@@ -7,7 +7,7 @@
   "description": "🧠 AI Agent Skills Repository - A curated collection of specialized skills for AI coding agents (Claude Code, GitHub Copilot, Cursor, Windsurf). Created by Yuval Avidani using GitHub Copilot via VS Code Insiders.",
   "homepage": "",
   "stars": 291,
-  "forks": 73,
+  "forks": 74,
   "open_issues": 5,
   "language": "Python",
   "license": "",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 299,
-  "days_since_push": 0,
+  "age_days": 300,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 49.3,
@@ -150,10 +150,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:27+00:00",
+  "fetched_at": "2026-11-04T12:10:27+00:00",
   "categories": [
     "desktop-ui",
-    "model-routing"
+    "failover",
+    "memory-mcp"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

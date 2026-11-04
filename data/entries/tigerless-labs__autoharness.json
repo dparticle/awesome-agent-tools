@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/autoharness",
   "description": "Building the self-learning layer next-gen agents will ship with, learning skills from real work.",
   "homepage": "https://github.com/tigerless-labs/autoharness",
-  "stars": 10655,
-  "forks": 647,
-  "open_issues": 31,
+  "stars": 10703,
+  "forks": 649,
+  "open_issues": 32,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -19,27 +19,27 @@
     "python"
   ],
   "created_at": "2026-06-09T21:05:42Z",
-  "updated_at": "2026-11-03T11:22:16Z",
+  "updated_at": "2026-11-04T11:42:20Z",
   "pushed_at": "2026-11-02T12:30:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
-  "days_since_push": 0,
+  "age_days": 147,
+  "days_since_push": 1,
   "health_score": 61,
   "health_components": {
     "popularity": 80.6,
-    "momentum": 18.7,
+    "momentum": 16.7,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 112,
+    "stars_gained": 100,
     "days_span": 5,
-    "stars_per_day": 22.4,
-    "lifetime_stars_per_day": 72.98,
+    "stars_per_day": 20.0,
+    "lifetime_stars_per_day": 72.81,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -116,12 +116,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:57:29+00:00",
+  "fetched_at": "2026-11-04T12:09:04+00:00",
   "categories": [
     "desktop-ui",
-    "notifications"
+    "memory-mcp"
   ],
-  "primary_category": "notifications",
+  "primary_category": "memory-mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

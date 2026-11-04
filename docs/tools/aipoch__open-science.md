@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,435 |
-| Star velocity | 8.0/day (history basis, 5d span) |
+| Stars | 5,447 |
+| Star velocity | 9.2/day (history basis, 5d span) |
 | Health score | 63/100 |
 | Documentation | 84/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 53,135 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 53,257 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,11 @@
 
 ### GUI / desktop app
 
-> hed npm package with Node.js 22.13.0 or later:
+> de.js, so you can run the CLI without installing Node.js, npm, or Homebrew.
+
+### Notifications
+
+> untime checks and test your model connection.
 
 ### Cross-agent support
 
@@ -98,7 +102,7 @@ Score **84/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.7 |
-| momentum | 6.7 |
+| momentum | 7.7 |
 | maintenance | 100.0 |
 | documentation | 84.0 |
 | accessibility | 59.0 |

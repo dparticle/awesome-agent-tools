@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 257,
-  "days_since_push": 166,
+  "age_days": 258,
+  "days_since_push": 167,
   "health_score": 44,
   "health_components": {
     "popularity": 50.0,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.23,
+    "lifetime_stars_per_day": 1.22,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,12 +160,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:59:22+00:00",
+  "fetched_at": "2026-11-04T12:10:23+00:00",
   "categories": [
     "failover",
-    "memory-mcp"
+    "failover-sharing"
   ],
-  "primary_category": "failover",
+  "primary_category": "failover-sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

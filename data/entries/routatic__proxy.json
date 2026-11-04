@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 200,
-  "days_since_push": 4,
+  "age_days": 201,
+  "days_since_push": 5,
   "health_score": 55,
   "health_components": {
     "popularity": 59.8,
@@ -40,9 +40,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 25,
+    "days_span": 26,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 4.91,
+    "lifetime_stars_per_day": 4.89,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -140,72 +140,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-03T11:58:41+00:00",
+  "fetched_at": "2026-11-04T12:09:55+00:00",
   "categories": [
     "providers-2"
   ],
   "primary_category": "providers-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by farion1231/cc-switch: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 farion1231/cc-switch 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "farion1231/cc-switch",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "routatic/proxy",
-      "challenger": "farion1231/cc-switch",
-      "incumbent_name": "routatic/proxy",
-      "challenger_name": "farion1231/cc-switch",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "cross-agent-support",
-        "gui-desktop",
-        "model-routing",
-        "provider-aggregation"
-      ],
-      "star_ratio": 154.223,
-      "momentum_ratio": 5972.0,
-      "setup_delta": -10,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "154.22x the stars (151,447 vs 982)",
-        "5972.00x the star velocity (298.6/day vs 0.0/day)",
-        "no harder to set up (23 vs 33 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "model-routing",
-          "provider-aggregation"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "multi-account-switching",
-          "parallel-execution",
-          "provider-aggregation",
-          "session-persistence",
-          "skills-plugins",
-          "usage-analytics"
-        ],
-        "incumbent_health": 55,
-        "challenger_health": 93,
-        "incumbent_setup_score": 33,
-        "challenger_setup_score": 23
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }
