@@ -6,9 +6,9 @@
   "url": "https://github.com/XiaomiMiMo/MiMo-Code",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "homepage": "https://mimo.xiaomi.com/mimocode",
-  "stars": 13748,
-  "forks": 1466,
-  "open_issues": 1188,
+  "stars": 13754,
+  "forks": 1471,
+  "open_issues": 1191,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,27 +19,27 @@
     "mimo-code"
   ],
   "created_at": "2026-06-10T11:52:41Z",
-  "updated_at": "2026-11-04T09:15:37Z",
-  "pushed_at": "2026-11-04T11:45:51Z",
+  "updated_at": "2026-11-05T10:55:05Z",
+  "pushed_at": "2026-11-05T06:10:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 147,
+  "age_days": 148,
   "days_since_push": 0,
-  "health_score": 62,
+  "health_score": 63,
   "health_components": {
     "popularity": 82.8,
-    "momentum": 1.8,
+    "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 17,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 93.52,
+    "stars_per_day": 3.4,
+    "lifetime_stars_per_day": 92.93,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,7 +165,7 @@
       "计费档位。 OpenAI 对 GPT-5.6 超过 272K input 的请求按 2x input、1.5x output 计费，且作用于整个请求。",
       "让长任务成本可控：标准与旗舰模型自动路由，局部编辑只修改需要的部分；同会话缓存命中率最高 99%，跨会话最高 95%。",
       "@ai-sdk/openai-compatible 适用于 OpenAI 兼容 API；使用其他通信协议的服务需要对应 Provider 的专用适配器。",
-      "标称窗口不等于你能用到的窗口。 同一个模型经由 ChatGPT/Codex 订阅、直连 API key，还是 OpenRouter"
+      "从生成结果到持续迭代：支持拖入多格式文件，成果覆盖 PPT、网页、3D、App 等；会话内实时预览和操作，选中局部即可精准修改，并支持版本回退。"
     ],
     "chinese_readme": "README.zh.md"
   },
@@ -174,13 +174,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:01+00:00",
+  "fetched_at": "2026-11-05T12:21:28+00:00",
   "categories": [
-    "analytics",
-    "analytics-3",
-    "failover"
+    "failover",
+    "memory-mcp",
+    "mobile"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

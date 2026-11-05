@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 601 |
-| Star velocity | 2.6/day (history basis, 5d span) |
+| Stars | 602 |
+| Star velocity | 1.6/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-02-27 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 37,232 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 38,224 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -54,7 +54,7 @@
 
 ### Self-hostable
 
-> dinate Claude, Codex, or Cursor across repositories, panes, tabs, worktrees, and review loops.
+> ude, Codex, Cursor, or OpenCode across repositories, panes, tabs, worktrees, and review loops.
 
 ### GUI / desktop app
 
@@ -108,7 +108,7 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.6 |
-| momentum | 2.2 |
+| momentum | 1.3 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 79.0 |

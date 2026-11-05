@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 30,128 |
-| Star velocity | 21.2/day (history basis, 5d span) |
+| Stars | 30,152 |
+| Star velocity | 22.0/day (history basis, 5d span) |
 | Health score | 69/100 |
 | Documentation | 73/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-25 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 91,054 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 92,318 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@
 
 ### Skills & plugins
 
-> agentmemory ships 17 skills in the Claude-Code-style /SKILL.md format: 9 invocable action skills (remember, recall, recap, handoff, forget, lesson, commit-context, commit-history, session-history) and 8 reference skills…
+> mes://plugin/install?catalog=agentmemory.
 
 ### Agent runtime
 
@@ -72,11 +72,11 @@
 
 ### Self-hostable
 
-> agnostics:* Run agentmemory doctor or restart with --verbose.
+> gnostics:** Run agentmemory doctor or restart with --verbose.
 
 ### Team collaboration
 
-> bridge* Read MEMORY.md and export project memories without replacing existing files
+> ge** Read MEMORY.md and export project memories without replacing existing files
 
 ### GUI / desktop app
 
@@ -128,7 +128,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 89.6 |
-| momentum | 17.7 |
+| momentum | 18.3 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 68.0 |

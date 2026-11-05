@@ -6,9 +6,9 @@
   "url": "https://github.com/greenfield-inc/Pane",
   "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
   "homepage": "https://runpane.com/",
-  "stars": 601,
+  "stars": 602,
   "forks": 235,
-  "open_issues": 216,
+  "open_issues": 210,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -34,33 +34,33 @@
     "worktree-manager"
   ],
   "created_at": "2026-02-27T01:34:13Z",
-  "updated_at": "2026-11-04T11:18:59Z",
-  "pushed_at": "2026-11-04T10:53:08Z",
+  "updated_at": "2026-11-05T10:18:52Z",
+  "pushed_at": "2026-11-05T10:18:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 250,
+  "age_days": 251,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 55.6,
-    "momentum": 2.2,
+    "momentum": 1.3,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 2.6,
+    "stars_per_day": 1.6,
     "lifetime_stars_per_day": 2.4,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "greenfield-inc/Pane",
-    "readme_chars": 37232,
+    "readme_chars": 38224,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -83,7 +83,7 @@
       "session-persistence": "",
       "agent-runtime": "Run any coding agent, on any OS, from desktop or phone .",
       "mcp-support": "s only command names, arguments, and safe usage notes.",
-      "self-hosted": "dinate Claude, Codex, or Cursor across repositories, panes, tabs, worktrees, and review loops.",
+      "self-hosted": "ude, Codex, Cursor, or OpenCode across repositories, panes, tabs, worktrees, and review loops.",
       "gui-desktop": "with one agent, is a terminal hack that requires tmux, treats Windows as an afterthought, or wants to be your editor, your terminal, and your agent all at once.",
       "notifications": "y notes, and security model, or docs/SELFHOSTEDREMOTEDAEMON.md in this repo.",
       "voice-input": "structions, API key notes, and security model, or docs/SELFHOSTEDREMOTEDAEMON.md in this repo.",
@@ -91,7 +91,7 @@
     },
     "capability_hits": {
       "mobile-access": 1,
-      "multi-agent-orchestration": 9,
+      "multi-agent-orchestration": 8,
       "parallel-execution": 1,
       "worktree-isolation": 18,
       "session-persistence": 1,
@@ -172,7 +172,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.51
+      "external_link_ratio": 0.497
     },
     "highlights": [
       "Developers on any OS: Mac, Windows, and Linux are all first-class citizens, with no \"Mac-first with a Windows waitlist\"",
@@ -189,11 +189,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:04+00:00",
+  "fetched_at": "2026-11-05T12:22:43+00:00",
   "categories": [
     "analytics",
     "desktop-ui-2",
-    "memory-mcp"
+    "mobile"
   ],
   "primary_category": "analytics",
   "lifecycle": {

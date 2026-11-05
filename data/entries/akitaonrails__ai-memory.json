@@ -6,40 +6,40 @@
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
   "homepage": "",
-  "stars": 15082,
-  "forks": 1090,
-  "open_issues": 23,
+  "stars": 15174,
+  "forks": 1095,
+  "open_issues": 27,
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-21T23:23:51Z",
-  "updated_at": "2026-11-04T11:54:19Z",
-  "pushed_at": "2026-11-03T19:24:36Z",
+  "updated_at": "2026-11-05T12:01:23Z",
+  "pushed_at": "2026-11-05T05:27:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 166,
+  "age_days": 167,
   "days_since_push": 0,
-  "health_score": 84,
+  "health_score": 83,
   "health_components": {
     "popularity": 83.6,
-    "momentum": 96.2,
+    "momentum": 88.7,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 54.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 577,
+    "stars_gained": 532,
     "days_span": 5,
-    "stars_per_day": 115.4,
+    "stars_per_day": 106.4,
     "lifetime_stars_per_day": 90.86,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "akitaonrails/ai-memory",
-    "readme_chars": 46265,
+    "readme_chars": 46840,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -63,7 +63,7 @@
       "mcp-support": "--features management-ui and start serve --transport http",
       "security-isolation": "",
       "team-collaboration": "chable, such as a homelab box or a LAN host, and",
-      "gui-desktop": "nstalls use /var/lib/ai-memory and /etc/ai-memory/ via the",
+      "gui-desktop": "er, with native turn and tool",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
     },
     "capability_hits": {
@@ -76,7 +76,7 @@
       "mcp-support": 9,
       "security-isolation": 2,
       "team-collaboration": 3,
-      "gui-desktop": 2,
+      "gui-desktop": 3,
       "cross-agent-support": 10
     },
     "friction": {
@@ -85,6 +85,7 @@
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
+        "scoop install",
         "curl | sh installer",
         "PowerShell irm | iex installer",
         "native installer / package"
@@ -111,8 +112,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml",
-      "note_zh": "需要一些配置。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 docker run、git clone (build from source)；需配置 environment variables、config.json/yaml/toml"
+      "note_en": "Some setup. install via scoop install, curl | sh installer; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 scoop install、curl | sh installer 安装；需要 docker run、git clone (build from source)；需配置 environment variables、config.json/yaml/toml"
     },
     "doc_score": 71,
     "doc_signals": [
@@ -149,7 +150,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.303
+      "external_link_ratio": 0.32
     },
     "highlights": [
       "Investigate Claude Code and Codex response-token usage in the project"
@@ -163,13 +164,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:33+00:00",
+  "fetched_at": "2026-11-05T12:22:06+00:00",
   "categories": [
-    "analytics",
-    "failover",
-    "providers-2"
+    "model-routing",
+    "security",
+    "teams"
   ],
-  "primary_category": "analytics",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

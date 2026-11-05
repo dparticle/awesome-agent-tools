@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,447 |
-| Star velocity | 9.2/day (history basis, 5d span) |
-| Health score | 63/100 |
+| Stars | 5,468 |
+| Star velocity | 12.6/day (history basis, 5d span) |
+| Health score | 65/100 |
 | Documentation | 84/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 53,257 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 49,403 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,15 +32,15 @@
 
 ### Model / provider routing
 
-> load-to-path operations, or a remote HTTP MCP endpoint.
+> d-to-path operations, or a remote HTTP MCP endpoint.
 
 ### Billing & metering
 
-> ### Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.
+> Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.
 
 ### Skills & plugins
 
-> ed” refers to the skill, not to the availability of every registered host.
+> fers to the skill, not to the availability of every registered host.
 
 ### MCP support
 
@@ -64,7 +64,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 41/100)
+- **Difficulty:** 🟢 Easy (friction score 35/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install --cask open-science`
@@ -73,9 +73,9 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, OAuth login flow, sign-in required, database dependency, server/reverse-proxy setup
+**Configuration required:** API key configuration, OAuth login flow, sign-in required, database dependency
 
-*Some setup. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; one-click setup*
+*Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; one-click setup*
 
 ## Documentation quality
 
@@ -101,11 +101,11 @@ Score **84/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.7 |
-| momentum | 7.7 |
+| popularity | 74.8 |
+| momentum | 10.5 |
 | maintenance | 100.0 |
 | documentation | 84.0 |
-| accessibility | 59.0 |
+| accessibility | 65.0 |
 
 ---
 

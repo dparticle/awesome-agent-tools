@@ -6,34 +6,34 @@
   "url": "https://github.com/nykooi1/vibe-wise",
   "description": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
   "homepage": "",
-  "stars": 4148,
+  "stars": 4179,
   "forks": 172,
   "open_issues": 26,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-09-29T01:29:57Z",
-  "updated_at": "2026-11-04T09:55:03Z",
+  "updated_at": "2026-11-05T12:04:36Z",
   "pushed_at": "2026-10-09T09:37:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 36,
-  "days_since_push": 26,
+  "age_days": 37,
+  "days_since_push": 27,
   "health_score": 58,
   "health_components": {
     "popularity": 72.4,
-    "momentum": 16.5,
+    "momentum": 16.2,
     "maintenance": 92.0,
     "documentation": 35.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 99,
+    "stars_gained": 97,
     "days_span": 5,
-    "stars_per_day": 19.8,
-    "lifetime_stars_per_day": 115.22,
+    "stars_per_day": 19.4,
+    "lifetime_stars_per_day": 112.95,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -103,11 +103,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:12+00:00",
+  "fetched_at": "2026-11-05T12:21:42+00:00",
   "categories": [
-    "analytics"
+    "desktop-ui"
   ],
-  "primary_category": "analytics",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

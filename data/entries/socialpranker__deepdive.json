@@ -7,8 +7,8 @@
   "description": "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints.",
   "homepage": "https://socialpranker.github.io/deepdive/",
   "stars": 372,
-  "forks": 4,
-  "open_issues": 2,
+  "forks": 5,
+  "open_issues": 3,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 167,
-  "days_since_push": 3,
+  "age_days": 168,
+  "days_since_push": 4,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -49,7 +49,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 2.23,
+    "lifetime_stars_per_day": 2.21,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:19+00:00",
+  "fetched_at": "2026-11-05T12:23:02+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -162,14 +162,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 132.067,
-      "momentum_ratio": 112.0,
+      "star_ratio": 132.239,
+      "momentum_ratio": 106.333,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "132.07x the stars (49,129 vs 372)",
-        "112.00x the star velocity (67.2/day vs 0.6/day)",
+        "132.24x the stars (49,193 vs 372)",
+        "106.33x the star velocity (63.8/day vs 0.6/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],

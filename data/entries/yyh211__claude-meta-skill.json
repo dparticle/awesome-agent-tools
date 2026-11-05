@@ -6,33 +6,33 @@
   "url": "https://github.com/YYH211/Claude-meta-skill",
   "description": "A curated collection of reusable skills for Claude Code. Enhance Claude's capabilities with ready-to-use skill modules including comprehensive guides, templates, and best practices for creating your own skills.",
   "homepage": "",
-  "stars": 285,
+  "stars": 284,
   "forks": 28,
   "open_issues": 1,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-10-31T08:41:30Z",
-  "updated_at": "2026-11-03T02:29:04Z",
+  "updated_at": "2026-11-05T00:39:41Z",
   "pushed_at": "2026-05-15T09:35:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 369,
-  "days_since_push": 173,
+  "age_days": 370,
+  "days_since_push": 174,
   "health_score": 42,
   "health_components": {
     "popularity": 49.1,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 78.0,
     "accessibility": 42.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 0.77,
     "basis": "history",
     "is_fast_riser": false
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:29+00:00",
+  "fetched_at": "2026-11-05T12:23:13+00:00",
   "categories": [
     "desktop-ui",
     "failover"
@@ -158,14 +158,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 172.382,
-      "momentum_ratio": 336.0,
+      "star_ratio": 173.215,
+      "momentum_ratio": 1276.0,
       "setup_delta": -28,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "172.38x the stars (49,129 vs 285)",
-        "336.00x the star velocity (67.2/day vs 0.2/day)",
+        "173.21x the stars (49,193 vs 284)",
+        "1276.00x the star velocity (63.8/day vs 0.0/day)",
         "no harder to set up (30 vs 58 friction)"
       ],
       "reasons_zh": [],

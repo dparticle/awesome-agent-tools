@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,850 |
-| Star velocity | 10.4/day (history basis, 5d span) |
-| Health score | 57/100 |
+| Stars | 1,858 |
+| Star velocity | 10.0/day (history basis, 5d span) |
+| Health score | 55/100 |
 | Documentation | 74/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-08-08 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 77,634 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 77,882 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,10 +31,6 @@
 ### Model / provider routing
 
 > CP host, such as Codex, Claude Code, Cursor, or OpenCode.
-
-### API gateway / proxy
-
-> The current host model reads evidence and writes the entries; AOCI-CODE does not require a second model API
 
 ### Session persistence
 
@@ -60,17 +56,17 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 64/100)
+- **Difficulty:** 🔴 Involved (friction score 73/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that make it easy:** download a release binary, native installer / package
+**Signals that make it easy:** native installer / package
 
 **Signals that add work:** git clone (build from source), make build, go build
 
 **Configuration required:** environment variables, config.json/yaml/toml, database dependency, database migration, server/reverse-proxy setup
 
-*Involved setup. install via download a release binary, native installer / package; needs git clone (build from source), make build; configure environment variables, config.json/yaml/toml*
+*Involved setup. install via native installer / package; needs git clone (build from source), make build; configure environment variables, config.json/yaml/toml*
 
 ## Documentation quality
 
@@ -93,11 +89,11 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 65.3 |
-| momentum | 8.7 |
+| popularity | 65.4 |
+| momentum | 8.3 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
-| accessibility | 36.0 |
+| accessibility | 27.0 |
 
 ---
 

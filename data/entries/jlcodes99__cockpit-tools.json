@@ -6,9 +6,9 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "stars": 19708,
+  "stars": 19740,
   "forks": 1772,
-  "open_issues": 991,
+  "open_issues": 986,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -23,12 +23,12 @@
     "windsurf"
   ],
   "created_at": "2026-01-16T07:09:32Z",
-  "updated_at": "2026-11-04T11:19:07Z",
-  "pushed_at": "2026-11-03T15:53:48Z",
+  "updated_at": "2026-11-05T11:59:26Z",
+  "pushed_at": "2026-11-05T11:49:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 292,
+  "age_days": 293,
   "days_since_push": 0,
   "health_score": 69,
   "health_components": {
@@ -43,19 +43,20 @@
     "stars_gained": 164,
     "days_span": 5,
     "stars_per_day": 32.8,
-    "lifetime_stars_per_day": 67.49,
+    "lifetime_stars_per_day": 67.37,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "jlcodes99/cockpit-tools",
-    "readme_chars": 18489,
+    "readme_chars": 19039,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
       "auto-failover",
       "multi-agent-orchestration",
       "parallel-execution",
+      "worktree-isolation",
       "model-routing",
       "provider-aggregation",
       "api-gateway",
@@ -73,6 +74,7 @@
       "auto-failover": "aude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch",
       "multi-agent-orchestration": "",
       "parallel-execution": "ty IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
+      "worktree-isolation": "ns/Cockpit Tools.app'），请先删除旧版本再安装：",
       "model-routing": "",
       "provider-aggregation": "어 · 🇧🇷 Português · 🇷🇺 Русский · 🇹🇷 Türkçe · 🇵🇱 Polski · 🇨🇿 Čeština · 🇸🇦 العربية · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia",
       "api-gateway": "d，保留客户端 Thread；增量请求继续使用有效上游状态、完整检查点或 WebSocket 历史，缺失上下文或上游明确拒绝时仍可能失败并保留原历史。",
@@ -90,6 +92,7 @@
       "auto-failover": 1,
       "multi-agent-orchestration": 1,
       "parallel-execution": 4,
+      "worktree-isolation": 1,
       "model-routing": 1,
       "provider-aggregation": 1,
       "api-gateway": 11,
@@ -163,12 +166,12 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.757
+      "external_link_ratio": 0.735
     },
     "highlights": [
       "Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth、Grok apply_patch 协议兼容，以及账号池错误分类与状态恢复边界参考其开源…",
       "WebSocket 默认仅本机访问：监听 127.0.0.1，默认端口 19528，可在设置中关闭或改端口。",
-      "runtimetarget: \"antigravity\"：复用桌面版切号认证规则；2.0 及以上版本写入系统凭据，并同步桌面版的本地回退文件 ~/.gemini/jetski-standalone-oauth-token（保留 idtoken，Unix 权限为 0600）；旧版写入本地 SQLite 登录状态。",
+      "runtimetarget: \"antigravity\"：复用桌面版切号认证规则；2.0 及以上版本写入系统凭据，并同步桌面版的本地回退文件 ~/.gemini/jetski-standalone-oauth-token，并同步已初始化的 agy 会话。",
       "API 服务：统一由宿主内的 Rust 引擎运行，支持 Responses HTTP/SSE/WebSocket、上下文压缩及 Chat Completions、Claude、Gemini、Ollama 协议兼容。"
     ],
     "summary_zh_native": "",
@@ -180,7 +183,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:32+00:00",
+  "fetched_at": "2026-11-05T12:22:05+00:00",
   "categories": [
     "billing",
     "memory-mcp",

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,420 |
-| Star velocity | 65.3/day (lifetime basis, 83d span) |
-| Health score | 72/100 |
+| Stars | 5,694 |
+| Star velocity | 67.8/day (lifetime basis, 84d span) |
+| Health score | 73/100 |
 | Documentation | 73/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-08-12 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 62,098 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 63,181 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,7 +42,7 @@
 
 ### API gateway / proxy
 
-> vatar, and section review before saving.
+> to .openbot-build/workspace-only-smoke/.
 
 ### Billing & metering
 
@@ -76,7 +76,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Cline, Codex, Cursor
+> Mentions Claude Code, Cline, Codex, Copilot
 
 ## Setup reality check
 
@@ -115,8 +115,8 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.7 |
-| momentum | 54.4 |
+| popularity | 75.1 |
+| momentum | 56.5 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 52.0 |

@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 463,
-  "days_since_push": 101,
+  "age_days": 464,
+  "days_since_push": 102,
   "health_score": 43,
   "health_components": {
     "popularity": 48.7,
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:30+00:00",
+  "fetched_at": "2026-11-05T12:23:14+00:00",
   "categories": [
     "analytics",
     "desktop-ui-2",
@@ -174,13 +174,13 @@
         "session-persistence",
         "worktree-isolation"
       ],
-      "star_ratio": 1.183,
+      "star_ratio": 1.194,
       "momentum_ratio": 2.0,
       "setup_delta": -2,
-      "dominance": 0.674,
+      "dominance": 0.677,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "1.18x the stars (323 vs 273)",
+        "1.19x the stars (326 vs 273)",
         "2.00x the star velocity (0.4/day vs 0.2/day)",
         "no harder to set up (12 vs 14 friction)"
       ],

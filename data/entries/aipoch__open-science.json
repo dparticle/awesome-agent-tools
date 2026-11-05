@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5447,
-  "forks": 550,
-  "open_issues": 45,
+  "stars": 5468,
+  "forks": 551,
+  "open_issues": 46,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-04T11:46:06Z",
-  "pushed_at": "2026-11-04T11:47:22Z",
+  "updated_at": "2026-11-05T11:34:15Z",
+  "pushed_at": "2026-11-05T12:04:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 124,
+  "age_days": 125,
   "days_since_push": 0,
-  "health_score": 63,
+  "health_score": 65,
   "health_components": {
-    "popularity": 74.7,
-    "momentum": 7.7,
+    "popularity": 74.8,
+    "momentum": 10.5,
     "maintenance": 100.0,
     "documentation": 84.0,
-    "accessibility": 59.0
+    "accessibility": 65.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 46,
+    "stars_gained": 63,
     "days_span": 5,
-    "stars_per_day": 9.2,
-    "lifetime_stars_per_day": 43.93,
+    "stars_per_day": 12.6,
+    "lifetime_stars_per_day": 43.74,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 53257,
+    "readme_chars": 49403,
     "capabilities": [
       "remote-control",
       "model-routing",
@@ -74,9 +74,9 @@
     ],
     "capability_evidence": {
       "remote-control": "e host to stay on and online, with AIPOCH Open-Science and the Remote.It agent running, and the host added to a signed-in Remote.It account.",
-      "model-routing": "load-to-path operations, or a remote HTTP MCP endpoint.",
-      "billing-metering": "### Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.",
-      "skills-plugins": "ed” refers to the skill, not to the availability of every registered host.",
+      "model-routing": "d-to-path operations, or a remote HTTP MCP endpoint.",
+      "billing-metering": "Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.",
+      "skills-plugins": "fers to the skill, not to the availability of every registered host.",
       "mcp-support": "cts, output formats, and exit codes",
       "security-isolation": "that profile's existing permissions; it is not a separate sandbox or read-only view, so connected clients can persist changes and incur model costs.",
       "gui-desktop": "de.js, so you can run the CLI without installing Node.js, npm, or Homebrew.",
@@ -84,7 +84,7 @@
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
-      "remote-control": 2,
+      "remote-control": 1,
       "model-routing": 1,
       "billing-metering": 1,
       "skills-plugins": 1,
@@ -95,8 +95,8 @@
       "cross-agent-support": 3
     },
     "friction": {
-      "level": "moderate",
-      "score": 41,
+      "level": "low",
+      "score": 35,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -111,8 +111,7 @@
         "API key configuration",
         "OAuth login flow",
         "sign-in required",
-        "database dependency",
-        "server/reverse-proxy setup"
+        "database dependency"
       ],
       "friendliness_signals": [
         "one-click setup",
@@ -124,8 +123,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; one-click setup",
-      "note_zh": "需要一些配置。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；one-click setup"
+      "note_en": "Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; one-click setup",
+      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；one-click setup"
     },
     "doc_score": 84,
     "doc_signals": [
@@ -160,7 +159,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.432
+      "external_link_ratio": 0.445
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -172,13 +171,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:09+00:00",
+  "fetched_at": "2026-11-05T12:21:38+00:00",
   "categories": [
-    "billing",
     "memory-mcp",
-    "mobile"
+    "model-routing",
+    "security"
   ],
-  "primary_category": "billing",
+  "primary_category": "security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

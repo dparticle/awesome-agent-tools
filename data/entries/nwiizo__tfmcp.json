@@ -22,23 +22,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 605,
-  "days_since_push": 2,
+  "age_days": 606,
+  "days_since_push": 3,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
-    "momentum": 0.5,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 48.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 371,
-    "days_span": 605,
-    "stars_per_day": 0.61,
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 0.61,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -134,16 +134,70 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:20+00:00",
+  "fetched_at": "2026-11-05T12:23:02+00:00",
   "categories": [
-    "memory-mcp"
+    "failover-2",
+    "model-routing",
+    "security"
   ],
-  "primary_category": "memory-mcp",
+  "primary_category": "security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by aipoch/open-science: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 aipoch/open-science 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "aipoch/open-science",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "nwiizo/tfmcp",
+      "challenger": "aipoch/open-science",
+      "incumbent_name": "nwiizo/tfmcp",
+      "challenger_name": "aipoch/open-science",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "model-routing",
+        "security-isolation",
+        "skills-plugins"
+      ],
+      "star_ratio": 14.739,
+      "momentum_ratio": 252.0,
+      "setup_delta": -17,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "14.74x the stars (5,468 vs 371)",
+        "252.00x the star velocity (12.6/day vs 0.0/day)",
+        "no harder to set up (35 vs 52 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 65,
+        "incumbent_setup_score": 52,
+        "challenger_setup_score": 35
+      }
+    }
   }
 }

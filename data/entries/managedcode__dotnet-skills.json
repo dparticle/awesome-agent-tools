@@ -6,9 +6,9 @@
   "url": "https://github.com/managedcode/dotnet-skills",
   "description": "One of the largest .NET-focused skill collections for AI coding assistants, with a catalog, CLI, and orchestration agents for Codex, Claude Code, GitHub Copilot, Gemini, and Junie.",
   "homepage": "https://skills.managed-code.com",
-  "stars": 506,
-  "forks": 40,
-  "open_issues": 4,
+  "stars": 507,
+  "forks": 41,
+  "open_issues": 2,
   "language": "C#",
   "license": "MIT",
   "topics": [
@@ -21,12 +21,12 @@
     "skills"
   ],
   "created_at": "2026-03-15T10:43:01Z",
-  "updated_at": "2026-11-04T06:30:31Z",
-  "pushed_at": "2026-11-04T11:45:29Z",
+  "updated_at": "2026-11-05T11:43:05Z",
+  "pushed_at": "2026-11-05T11:44:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 234,
+  "age_days": 235,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
@@ -133,68 +133,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:10+00:00",
+  "fetched_at": "2026-11-05T12:22:51+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "failover-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by data-goblin/power-bi-agentic-development: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 data-goblin/power-bi-agentic-development 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "data-goblin/power-bi-agentic-development",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "managedcode/dotnet-skills",
-      "challenger": "data-goblin/power-bi-agentic-development",
-      "incumbent_name": "managedcode/dotnet-skills",
-      "challenger_name": "data-goblin/power-bi-agentic-development",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 2.144,
-      "momentum_ratio": 1.375,
-      "setup_delta": 12,
-      "dominance": 0.703,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "2.14x the stars (1,085 vs 506)",
-        "1.38x the star velocity (2.2/day vs 1.6/day)",
-        "slightly heavier setup (+12 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "incumbent_health": 57,
-        "challenger_health": 57,
-        "incumbent_setup_score": 22,
-        "challenger_setup_score": 34
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -6,9 +6,9 @@
   "url": "https://github.com/sandbox-quantum/switch",
   "description": "Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.",
   "homepage": "https://www.switchagents.ai",
-  "stars": 3697,
-  "forks": 235,
-  "open_issues": 476,
+  "stars": 3894,
+  "forks": 270,
+  "open_issues": 520,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -27,27 +27,27 @@
     "slack"
   ],
   "created_at": "2026-07-16T09:52:46Z",
-  "updated_at": "2026-11-04T12:07:09Z",
-  "pushed_at": "2026-11-04T12:05:34Z",
+  "updated_at": "2026-11-05T12:06:44Z",
+  "pushed_at": "2026-11-05T12:19:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 111,
+  "age_days": 112,
   "days_since_push": 0,
-  "health_score": 67,
+  "health_score": 68,
   "health_components": {
-    "popularity": 71.4,
-    "momentum": 27.8,
+    "popularity": 71.8,
+    "momentum": 29.0,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3697,
-    "days_span": 111,
-    "stars_per_day": 33.31,
-    "lifetime_stars_per_day": 33.31,
+    "stars_gained": 3894,
+    "days_span": 112,
+    "stars_per_day": 34.77,
+    "lifetime_stars_per_day": 34.77,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -142,10 +142,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:13+00:00",
+  "fetched_at": "2026-11-05T12:21:43+00:00",
   "categories": [
     "analytics-3",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "security"
   ],
   "primary_category": "analytics-3",
   "lifecycle": {
@@ -171,14 +172,14 @@
         "self-hosted",
         "usage-analytics"
       ],
-      "star_ratio": 3.164,
-      "momentum_ratio": 2.083,
+      "star_ratio": 3.019,
+      "momentum_ratio": 1.967,
       "setup_delta": 11,
-      "dominance": 0.836,
+      "dominance": 0.829,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "3.16x the stars (11,697 vs 3,697)",
-        "2.08x the star velocity (69.4/day vs 33.3/day)",
+        "3.02x the stars (11,757 vs 3,894)",
+        "1.97x the star velocity (68.4/day vs 34.8/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -205,8 +206,8 @@
           "skills-plugins",
           "usage-analytics"
         ],
-        "incumbent_health": 67,
-        "challenger_health": 76,
+        "incumbent_health": 68,
+        "challenger_health": 75,
         "incumbent_setup_score": 9,
         "challenger_setup_score": 20
       }

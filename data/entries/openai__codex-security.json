@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11300,
-  "forks": 902,
-  "open_issues": 151,
+  "stars": 11306,
+  "forks": 905,
+  "open_issues": 120,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,19 +29,19 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-11-04T10:57:27Z",
-  "pushed_at": "2026-11-04T09:17:31Z",
+  "updated_at": "2026-11-05T09:29:27Z",
+  "pushed_at": "2026-11-05T11:06:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 113,
+  "age_days": 114,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 81.1,
     "momentum": 6.3,
     "maintenance": 100.0,
-    "documentation": 42.0,
+    "documentation": 41.0,
     "accessibility": 63.0
   },
   "tier": "notable",
@@ -49,24 +49,21 @@
     "stars_gained": 38,
     "days_span": 5,
     "stars_per_day": 7.6,
-    "lifetime_stars_per_day": 100.0,
+    "lifetime_stars_per_day": 99.18,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openai/codex-security",
-    "readme_chars": 10954,
+    "readme_chars": 9491,
     "capabilities": [
-      "model-routing",
-      "self-hosted"
+      "model-routing"
     ],
     "capability_evidence": {
-      "model-routing": "",
-      "self-hosted": "API key from a project with Blue"
+      "model-routing": ""
     },
     "capability_hits": {
-      "model-routing": 1,
-      "self-hosted": 1
+      "model-routing": 1
     },
     "friction": {
       "level": "moderate",
@@ -91,7 +88,7 @@
       "note_en": "Some setup. install via npx one-liner; needs npm install/build; configure API key configuration, sign-in required",
       "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 npm install/build；需配置 API key configuration、sign-in required"
     },
-    "doc_score": 42,
+    "doc_score": 41,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -113,13 +110,13 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.183
+      "external_link_ratio": 0.211
     },
     "highlights": [
-      "cron: \"23 7 * * 1\" # Mondays at 07:23 UTC",
       "Import Semgrep, Snyk, and Wiz findings locally or publish them to Codex Security Cloud.",
-      "uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1",
-      "Validate candidate findings, generate patches, and verify existing fixes."
+      "Validate candidate findings, generate patches, and verify existing fixes.",
+      "Browse saved scans and findings, identify duplicates, assess severity against",
+      "Scan repositories, selected paths, or Git changes."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -130,11 +127,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:03+00:00",
+  "fetched_at": "2026-11-05T12:21:30+00:00",
   "categories": [
-    "analytics-3"
+    "model-routing"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

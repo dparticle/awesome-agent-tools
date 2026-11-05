@@ -6,9 +6,9 @@
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
   "homepage": "https://openbot.run/",
-  "stars": 5420,
-  "forks": 552,
-  "open_issues": 571,
+  "stars": 5694,
+  "forks": 580,
+  "open_issues": 590,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -22,33 +22,33 @@
     "typescript"
   ],
   "created_at": "2026-08-12T21:32:03Z",
-  "updated_at": "2026-11-04T12:07:54Z",
-  "pushed_at": "2026-11-04T12:07:03Z",
+  "updated_at": "2026-11-05T12:15:21Z",
+  "pushed_at": "2026-11-05T12:20:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 83,
+  "age_days": 84,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 73,
   "health_components": {
-    "popularity": 74.7,
-    "momentum": 54.4,
+    "popularity": 75.1,
+    "momentum": 56.5,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 52.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5420,
-    "days_span": 83,
-    "stars_per_day": 65.3,
-    "lifetime_stars_per_day": 65.3,
+    "stars_gained": 5694,
+    "days_span": 84,
+    "stars_per_day": 67.79,
+    "lifetime_stars_per_day": 67.79,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nightly-labs/openbot",
-    "readme_chars": 62098,
+    "readme_chars": 63181,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -70,7 +70,7 @@
       "mobile-access": "municates with local CLI processes",
       "worktree-isolation": "codex:doctor checks the CLI version, App Server handshake, and ChatGPT login without starting a model turn.",
       "model-routing": "ter and gives it only to the local CLI.",
-      "api-gateway": "vatar, and section review before saving.",
+      "api-gateway": "to .openbot-build/workspace-only-smoke/.",
       "billing-metering": "",
       "session-persistence": "ta-dir keeps the store in that directory",
       "skills-plugins": "r separately through the marketplace.",
@@ -79,7 +79,7 @@
       "team-collaboration": "uses it until a download exists.",
       "gui-desktop": "sts the new source, then publishes and pins verified artifacts through its existing release flow.",
       "notifications": "access window.openbot or managed local attachments.",
-      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
     },
     "capability_hits": {
       "remote-control": 1,
@@ -88,14 +88,14 @@
       "model-routing": 3,
       "api-gateway": 1,
       "billing-metering": 1,
-      "session-persistence": 8,
+      "session-persistence": 9,
       "skills-plugins": 4,
       "mcp-support": 1,
       "self-hosted": 2,
-      "team-collaboration": 5,
+      "team-collaboration": 6,
       "gui-desktop": 12,
       "notifications": 3,
-      "cross-agent-support": 5
+      "cross-agent-support": 6
     },
     "friction": {
       "level": "moderate",
@@ -152,6 +152,7 @@
       "Codex",
       "OpenCode",
       "Cursor",
+      "Copilot",
       "Cline / Roo"
     ],
     "summary_en": "OpenBot is a local-first desktop workspace for persistent AI teammates.",
@@ -162,7 +163,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.274
+      "external_link_ratio": 0.285
     },
     "highlights": [
       "~/.cursor — login and session history managed exclusively by the Cursor CLI.",
@@ -179,13 +180,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:10+00:00",
+  "fetched_at": "2026-11-05T12:21:38+00:00",
   "categories": [
     "analytics",
-    "billing",
-    "mobile"
+    "memory-mcp",
+    "teams"
   ],
-  "primary_category": "analytics",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

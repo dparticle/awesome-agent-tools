@@ -6,7 +6,7 @@
   "url": "https://github.com/gotalab/cc-sdd",
   "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
   "homepage": "",
-  "stars": 3750,
+  "stars": 3756,
   "forks": 286,
   "open_issues": 16,
   "language": "TypeScript",
@@ -26,26 +26,26 @@
     "subagents"
   ],
   "created_at": "2025-07-17T04:41:37Z",
-  "updated_at": "2026-11-03T11:38:00Z",
+  "updated_at": "2026-11-05T05:46:47Z",
   "pushed_at": "2026-10-22T03:43:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 475,
-  "days_since_push": 13,
-  "health_score": 57,
+  "age_days": 476,
+  "days_since_push": 14,
+  "health_score": 58,
   "health_components": {
     "popularity": 71.5,
-    "momentum": 0.5,
+    "momentum": 1.3,
     "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 1.6,
     "lifetime_stars_per_day": 7.89,
     "basis": "history",
     "is_fast_riser": false
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:38+00:00",
+  "fetched_at": "2026-11-05T12:22:13+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -169,14 +169,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 13.101,
-      "momentum_ratio": 112.0,
+      "star_ratio": 13.097,
+      "momentum_ratio": 39.875,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.10x the stars (49,129 vs 3,750)",
-        "112.00x the star velocity (67.2/day vs 0.6/day)",
+        "13.10x the stars (49,193 vs 3,756)",
+        "39.87x the star velocity (63.8/day vs 1.6/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -204,7 +204,7 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 57,
+        "incumbent_health": 58,
         "challenger_health": 81,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 30

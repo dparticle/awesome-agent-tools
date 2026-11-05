@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,681 |
-| Star velocity | 1.4/day (history basis, 5d span) |
-| Health score | 56/100 |
+| Stars | 1,680 |
+| Star velocity | 1.0/day (history basis, 5d span) |
+| Health score | 61/100 |
 | Documentation | 76/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | HTML |
 | Created | 2026-02-06 |
-| Last push | 2026-09-27 (37 days ago) |
-| Analyzed README | 49,504 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 49,751 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,7 +46,7 @@
 
 ### Skills & plugins
 
-> - **Real gates, not reminders.** One command — ./scripts/backtest.sh — runs **ten gates**: surface-sync, skill integrity, model currency against the SSoT, link and anchor resolution, Agent Skills spec conformance, stale…
+> - **Real gates, not reminders.** One command — ./scripts/backtest.sh — runs **eleven gates**: surface-sync, skill integrity, model currency against the SSoT, link and anchor resolution, Agent Skills spec conformance, st…
 
 ### MCP support
 
@@ -93,8 +93,8 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 64.5 |
-| momentum | 1.2 |
-| maintenance | 78.0 |
+| momentum | 0.8 |
+| maintenance | 100.0 |
 | documentation | 76.0 |
 | accessibility | 85.0 |
 

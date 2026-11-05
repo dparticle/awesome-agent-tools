@@ -2,7 +2,7 @@
 
 # OthmanAdi/planning-with-files
 
-> Code, documentation, and issue contributors.
+> Persistent file-based planning for AI coding agents and long-running tasks.
 
 [Repository](https://github.com/OthmanAdi/planning-with-files) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 27,871 |
-| Star velocity | 21.6/day (history basis, 5d span) |
+| Stars | 27,894 |
+| Star velocity | 22.0/day (history basis, 5d span) |
 | Health score | 70/100 |
 | Documentation | 73/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,14 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2026-01-03 |
-| Last push | 2026-11-03 (1 days ago) |
-| Analyzed README | 112,184 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 109,058 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> , Qoder CLI, Pi, Hermes Agent, OpenCode and DeepSeek Harness.
+> collapsible sections below First-class hosts: native plugins.
 
 ### Parallel execution
 
@@ -40,7 +40,7 @@
 
 ### Session persistence
 
-> d contributor-reported measurements (PRs #331, #333, #334).
+> s and contributor-reported measurements (PRs #331, #333, #334).
 
 ### Memory & context
 
@@ -50,7 +50,7 @@
 
 ### Agent runtime
 
-> s every turn, a plan on disk that survives /clear , and 3 out of 3 blind A/B wins to show it works.
+> ndow as the conversation grows.
 
 ### Security & isolation
 
@@ -96,7 +96,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 88.9 |
-| momentum | 18.0 |
+| momentum | 18.3 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 73.0 |

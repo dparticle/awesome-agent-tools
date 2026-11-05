@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,082 |
-| Star velocity | 115.4/day (history basis, 5d span) |
-| Health score | 84/100 |
+| Stars | 15,174 |
+| Star velocity | 106.4/day (history basis, 5d span) |
+| Health score | 83/100 |
 | Documentation | 71/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-05-21 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 46,265 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 46,840 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -60,7 +60,7 @@
 
 ### GUI / desktop app
 
-> nstalls use /var/lib/ai-memory and /etc/ai-memory/ via the
+> er, with native turn and tool
 
 ### Cross-agent support
 
@@ -73,13 +73,13 @@
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://github.com/akitaonrails/ai-memory/releases/latest/download/install.sh | sh`
 
-**Signals that make it easy:** curl | sh installer, PowerShell irm | iex installer, native installer / package
+**Signals that make it easy:** scoop install, curl | sh installer, PowerShell irm | iex installer, native installer / package
 
 **Signals that add work:** docker run, git clone (build from source)
 
 **Configuration required:** environment variables, config.json/yaml/toml, OAuth login flow, sign-in required, API token/secret, database dependency, database migration, server/reverse-proxy setup, process manager
 
-*Some setup. install via curl | sh installer, PowerShell irm | iex installer; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml*
+*Some setup. install via scoop install, curl | sh installer; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml*
 
 ## Documentation quality
 
@@ -103,7 +103,7 @@ Score **71/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.6 |
-| momentum | 96.2 |
+| momentum | 88.7 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 54.0 |

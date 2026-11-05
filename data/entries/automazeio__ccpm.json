@@ -6,9 +6,9 @@
   "url": "https://github.com/automazeio/ccpm",
   "description": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
   "homepage": "https://automaze.io",
-  "stars": 8429,
+  "stars": 8430,
   "forks": 841,
-  "open_issues": 7,
+  "open_issues": 1,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -20,19 +20,19 @@
     "vibe-coding"
   ],
   "created_at": "2025-08-18T23:20:08Z",
-  "updated_at": "2026-11-04T12:06:51Z",
-  "pushed_at": "2026-11-04T11:53:50Z",
+  "updated_at": "2026-11-05T03:21:40Z",
+  "pushed_at": "2026-11-04T13:13:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 442,
+  "age_days": 443,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 78.5,
     "momentum": 1.0,
     "maintenance": 100.0,
-    "documentation": 47.0,
+    "documentation": 48.0,
     "accessibility": 37.0
   },
   "tier": "notable",
@@ -40,13 +40,13 @@
     "stars_gained": 6,
     "days_span": 5,
     "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 19.07,
+    "lifetime_stars_per_day": 19.03,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "automazeio/ccpm",
-    "readme_chars": 14605,
+    "readme_chars": 15535,
     "capabilities": [
       "auto-failover",
       "parallel-execution",
@@ -69,8 +69,8 @@
     },
     "capability_hits": {
       "auto-failover": 1,
-      "parallel-execution": 7,
-      "worktree-isolation": 3,
+      "parallel-execution": 8,
+      "worktree-isolation": 6,
       "skills-plugins": 1,
       "security-isolation": 1,
       "team-collaboration": 1,
@@ -98,7 +98,7 @@
       "note_en": "Involved setup. needs git clone (build from source); configure sign-in required, database dependency",
       "note_zh": "配置较重。需要 git clone (build from source)；需配置 sign-in required、database dependency"
     },
-    "doc_score": 47,
+    "doc_score": 48,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -126,7 +126,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 1.096
+      "external_link_ratio": 1.159
     },
     "highlights": [
       "5–8 parallel tasks vs 1 previously",
@@ -142,10 +142,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:34+00:00",
+  "fetched_at": "2026-11-05T12:22:08+00:00",
   "categories": [
     "analytics",
-    "memory-mcp",
     "providers-2"
   ],
   "primary_category": "analytics",

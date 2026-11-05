@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "full_name": "qixing-jk/all-api-hub",
+  "name": "all-api-hub",
+  "owner": "qixing-jk",
+  "url": "https://github.com/qixing-jk/all-api-hub",
+  "description": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
+  "homepage": "https://all-api-hub.qixing1217.top/",
+  "stars": 5047,
+  "forks": 343,
+  "open_issues": 68,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "topics": [
+    "ai",
+    "cc-switch",
+    "chatgpt",
+    "chatgpt-api",
+    "cherrystudio",
+    "claude",
+    "claude-code",
+    "cliproxyapi",
+    "codex",
+    "new-api",
+    "newapi",
+    "one-api",
+    "openai",
+    "openrouter",
+    "sub2api",
+    "voapi"
+  ],
+  "created_at": "2025-09-08T15:51:38Z",
+  "updated_at": "2026-11-05T12:10:03Z",
+  "pushed_at": "2026-11-05T12:09:55Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 422,
+  "days_since_push": 0,
+  "health_score": 61,
+  "health_components": {
+    "popularity": 74.1,
+    "momentum": 3.9,
+    "maintenance": 100.0,
+    "documentation": 68.0,
+    "accessibility": 67.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 134,
+    "days_span": 29,
+    "stars_per_day": 4.62,
+    "lifetime_stars_per_day": 11.96,
+    "basis": "history",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "qixing-jk/all-api-hub",
+    "readme_chars": 23319,
+    "capabilities": [
+      "multi-account-switching",
+      "model-routing",
+      "billing-metering",
+      "usage-analytics",
+      "self-hosted",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "nd Supported Export Tools",
+      "model-routing": "xport Quota inspection across sites, one-click copying, and client config exports",
+      "billing-metering": "",
+      "usage-analytics": "scheduled polling, smart retry, and reward tracking",
+      "self-hosted": "automated check-ins, WebDAV auto-sync, or model sync completes, receive the result through your browser or a configured notification method so failures and exceptions can be handled promptly.",
+      "notifications": "nd other updates—no need to check sites one by one.",
+      "cross-agent-support": "Mentions Claude Code, Cursor, Kilo Code, Roo Code"
+    },
+    "capability_hits": {
+      "multi-account-switching": 2,
+      "model-routing": 1,
+      "billing-metering": 1,
+      "usage-analytics": 1,
+      "self-hosted": 5,
+      "notifications": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 41,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "sign-in required",
+        "API token/secret",
+        "database migration"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Some setup. configure sign-in required, API token/secret; one-click setup",
+      "note_zh": "需要一些配置。需配置 sign-in required、API token/secret；one-click setup"
+    },
+    "doc_score": 68,
+    "doc_signals": [
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "One-stop management for New API-compatible relay accounts: balances, usage, model prices, check-ins, API credentials, in-page testing, and channel/model sync & redirects",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 2.745
+    },
+    "highlights": [
+      "Quickly Create Gateway Channels: Turn saved site accounts or credentials from the API Credential Library into self-hosted AI gateway channels, then call models through the gateway and switc…",
+      "Batch imports can combine same-site keys on Magpie, New API, Octopus, gpt-load, regular API-key AxonHub channels, and CLIProxyAPI OpenAI-compatible resources; the target gateway owns schedu…",
+      "Encrypted WebDAV Auto-Sync: Enable encryption and scheduled auto-sync to keep data safely synchronized across devices and pick up where you left off after switching computers.",
+      "🔌 Annoying setup work: API details must be copied into tools such as cc-switch and Cherry Studio again and again."
+    ],
+    "summary_zh_native": "简体中文 | English | 日本語",
+    "highlights_zh": [
+      "独立账号平台与中转站：OpenRouter、Kimi 开放平台（国内/国际版）、AnyRouter、AgentRouter、AIHubMix、老张 API、Dahl、FoxCode、肖恩 AI、Cubence、RightCode、Grsai、FreeModel、SharedChat、WONG公益站、Krill AI、EMRank、RelayFor、Daya API、Verce…",
+      "账号站点兼容架构：New API、Sub2API、One API、one-hub、Veloera、VoAPI / VoAPI v2、DoneHub、Super-API、API易、ModelFlare、v-api 以及 Neo-API、RIX_API 等变体。",
+      "API 凭据库：无需绑定站点账号，把别人分享或平时零散收集的 Base URL 与 API Key 集中收好；查余额、看模型、测连接或导出，打开就能用。",
+      "客户端与开发工具一键导出：CC Switch、Cherry Studio、Claude Code Router、Kilo Code、Roo Code、Kelivo、AI Toolbox、Cursor++ 等，详见 支持的导出工具"
+    ],
+    "chinese_readme": "README_CN.md"
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-05T12:22:11+00:00",
+  "categories": [
+    "analytics-3"
+  ],
+  "primary_category": "analytics-3",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

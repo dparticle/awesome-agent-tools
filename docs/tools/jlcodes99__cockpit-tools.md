@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,708 |
+| Stars | 19,740 |
 | Star velocity | 32.8/day (history basis, 5d span) |
 | Health score | 69/100 |
 | Documentation | 64/100 |
@@ -21,8 +21,8 @@
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 18,489 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 19,039 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -43,6 +43,10 @@
 ### Parallel execution
 
 > ty IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。
+
+### Workspace isolation
+
+> ns/Cockpit Tools.app'），请先删除旧版本再安装：
 
 ### Model / provider routing
 

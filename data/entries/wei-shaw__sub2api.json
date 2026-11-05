@@ -6,9 +6,9 @@
   "url": "https://github.com/Wei-Shaw/sub2api",
   "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
   "homepage": "",
-  "stars": 45426,
-  "forks": 9797,
-  "open_issues": 3822,
+  "stars": 45500,
+  "forks": 9823,
+  "open_issues": 3836,
   "language": "Go",
   "license": "LGPL-3.0",
   "topics": [
@@ -23,27 +23,27 @@
     "gemini"
   ],
   "created_at": "2025-12-18T02:26:18Z",
-  "updated_at": "2026-11-04T11:41:38Z",
-  "pushed_at": "2026-11-04T09:11:58Z",
+  "updated_at": "2026-11-05T11:15:08Z",
+  "pushed_at": "2026-11-05T11:41:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 321,
+  "age_days": 322,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 73,
   "health_components": {
-    "popularity": 93.1,
-    "momentum": 47.0,
+    "popularity": 93.2,
+    "momentum": 51.5,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 282,
+    "stars_gained": 309,
     "days_span": 5,
-    "stars_per_day": 56.4,
-    "lifetime_stars_per_day": 141.51,
+    "stars_per_day": 61.8,
+    "lifetime_stars_per_day": 141.3,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -157,8 +157,8 @@
     },
     "highlights": [
       "Public Responses targets: /v1/responses, /responses, and /backend-api/codex/responses, forwarded to the Grok subscription proxy for OAuth accounts or https://api.x.ai/v1/responses for API-k…",
-      "Rate Limiting - Configurable request and token rate limits",
       "Multi-Account Management - Support multiple upstream account types (OAuth, API Key)",
+      "Rate Limiting - Configurable request and token rate limits",
       "API Key Distribution - Generate and manage API Keys for users"
     ],
     "summary_zh_native": "AI API 网关平台 - 订阅配额分发管理",
@@ -175,7 +175,7 @@
     "seed_reason": "Turn upstream AI subscriptions into a metered, rate-limited, billable relay.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-04T12:08:56+00:00",
+  "fetched_at": "2026-11-05T12:21:21+00:00",
   "categories": [
     "analytics-3",
     "billing",

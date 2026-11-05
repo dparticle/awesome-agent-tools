@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,617 |
-| Star velocity | 53.2/day (history basis, 5d span) |
-| Health score | 74/100 |
+| Stars | 11,693 |
+| Star velocity | 61.8/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 79/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-07-08 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 30,195 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 30,624 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -85,7 +85,7 @@
 - **Difficulty:** 🟢 Easy (friction score 32/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash`
+- **Quickest install:** `curl -fsSL https://download.octop.cloud/octop/scripts/install.sh | bash`
 
 **Signals that make it easy:** npx one-liner, pip install, curl | sh installer, PowerShell irm | iex installer, native installer / package
 
@@ -118,8 +118,8 @@ Score **79/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.3 |
-| momentum | 44.3 |
+| popularity | 81.4 |
+| momentum | 51.5 |
 | maintenance | 100.0 |
 | documentation | 79.0 |
 | accessibility | 68.0 |

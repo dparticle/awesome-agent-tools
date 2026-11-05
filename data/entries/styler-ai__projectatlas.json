@@ -6,7 +6,7 @@
   "url": "https://github.com/styler-ai/ProjectAtlas",
   "description": "Every file not opened. Every folder not explored. Tokens saved. A local repository map for coding agents: purposes, source, symbols, and dependencies. Native Rust CLI and MCP, isolated worktrees, and subagent hooks.",
   "homepage": "https://styler-ai.github.io/ProjectAtlas/",
-  "stars": 476,
+  "stars": 483,
   "forks": 12,
   "open_issues": 16,
   "language": "Rust",
@@ -24,27 +24,27 @@
     "sqlite"
   ],
   "created_at": "2026-01-01T14:15:37Z",
-  "updated_at": "2026-11-04T07:20:47Z",
-  "pushed_at": "2026-11-04T09:57:27Z",
+  "updated_at": "2026-11-05T12:07:14Z",
+  "pushed_at": "2026-11-05T11:37:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 306,
+  "age_days": 307,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 53.6,
-    "momentum": 2.7,
+    "popularity": 53.7,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 99.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 1.56,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 1.57,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,11 +136,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:12+00:00",
+  "fetched_at": "2026-11-05T12:22:52+00:00",
   "categories": [
     "analytics",
     "desktop-ui",
-    "desktop-ui-2"
+    "security"
   ],
   "primary_category": "analytics",
   "lifecycle": {

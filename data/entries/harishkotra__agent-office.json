@@ -6,33 +6,33 @@
   "url": "https://github.com/harishkotra/agent-office",
   "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
   "homepage": "",
-  "stars": 401,
+  "stars": 403,
   "forks": 113,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-25T04:43:02Z",
-  "updated_at": "2026-11-04T01:46:13Z",
+  "updated_at": "2026-11-05T04:13:35Z",
   "pushed_at": "2026-09-25T04:17:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
-  "days_since_push": 40,
+  "age_days": 253,
+  "days_since_push": 41,
   "health_score": 43,
   "health_components": {
     "popularity": 52.1,
-    "momentum": 2.7,
+    "momentum": 2.8,
     "maintenance": 78.0,
     "documentation": 57.0,
     "accessibility": 25.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 17,
     "days_span": 5,
-    "stars_per_day": 3.2,
+    "stars_per_day": 3.4,
     "lifetime_stars_per_day": 1.59,
     "basis": "history",
     "is_fast_riser": false
@@ -128,12 +128,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:18+00:00",
+  "fetched_at": "2026-11-05T12:23:01+00:00",
   "categories": [
-    "analytics",
-    "desktop-ui"
+    "desktop-ui",
+    "teams"
   ],
-  "primary_category": "analytics",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).",
@@ -159,14 +159,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 28.97,
-      "momentum_ratio": 16.625,
+      "star_ratio": 29.015,
+      "momentum_ratio": 18.176,
       "setup_delta": -43,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "28.97x the stars (11,617 vs 401)",
-        "16.62x the star velocity (53.2/day vs 3.2/day)",
+        "29.01x the stars (11,693 vs 403)",
+        "18.18x the star velocity (61.8/day vs 3.4/day)",
         "no harder to set up (32 vs 75 friction)"
       ],
       "reasons_zh": [],
@@ -199,7 +199,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 43,
-        "challenger_health": 74,
+        "challenger_health": 76,
         "incumbent_setup_score": 75,
         "challenger_setup_score": 32
       }

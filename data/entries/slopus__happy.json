@@ -6,9 +6,9 @@
   "url": "https://github.com/slopus/happy",
   "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
   "homepage": "https://happy.engineering/",
-  "stars": 24481,
+  "stars": 24501,
   "forks": 2106,
-  "open_issues": 1104,
+  "open_issues": 1103,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -23,33 +23,33 @@
     "hacktoberfest"
   ],
   "created_at": "2025-07-18T05:53:18Z",
-  "updated_at": "2026-11-04T11:39:53Z",
-  "pushed_at": "2026-11-04T11:39:48Z",
+  "updated_at": "2026-11-05T12:11:59Z",
+  "pushed_at": "2026-11-05T11:45:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 474,
+  "age_days": 475,
   "days_since_push": 0,
-  "health_score": 63,
+  "health_score": 64,
   "health_components": {
     "popularity": 87.8,
-    "momentum": 11.5,
+    "momentum": 11.8,
     "maintenance": 100.0,
     "documentation": 29.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 69,
+    "stars_gained": 71,
     "days_span": 5,
-    "stars_per_day": 13.8,
-    "lifetime_stars_per_day": 51.65,
+    "stars_per_day": 14.2,
+    "lifetime_stars_per_day": 51.58,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "slopus/happy",
-    "readme_chars": 4701,
+    "readme_chars": 4713,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -65,12 +65,12 @@
       "multi-agent-orchestration": "",
       "security-isolation": "",
       "gui-desktop": "Android, web), the original CLI, and the relay server",
-      "notifications": "- happy-agent: remote session control for the original Happy CLI (not the Happy Agent runtime)",
+      "notifications": "",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
       "remote-control": 1,
-      "mobile-access": 2,
+      "mobile-access": 1,
       "multi-agent-orchestration": 1,
       "security-isolation": 1,
       "gui-desktop": 1,
@@ -126,13 +126,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.064
+      "external_link_ratio": 1.061
     },
     "highlights": [
       "End-to-end encrypted mobile app.",
       "Natively multiplayer. Invite a colleague or a friend into the session.",
       "Reuse your subscriptions. Sign in with the Claude, Codex, and Grok",
-      "Open source MIT. It runs on your own hardware and your projects stay"
+      "happy-android: native Kotlin/Jetpack Compose Android app"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -143,10 +143,9 @@
     "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-04T12:08:53+00:00",
+  "fetched_at": "2026-11-05T12:21:17+00:00",
   "categories": [
     "desktop-ui-2",
-    "memory-mcp",
     "mobile"
   ],
   "primary_category": "mobile",

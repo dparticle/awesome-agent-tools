@@ -6,9 +6,9 @@
   "url": "https://github.com/pedrohcgs/claude-code-my-workflow",
   "description": "A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
   "homepage": "https://psantanna.com/claude-code-my-workflow/",
-  "stars": 1681,
-  "forks": 3144,
-  "open_issues": 6,
+  "stars": 1680,
+  "forks": 3147,
+  "open_issues": 4,
   "language": "HTML",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "research-workflow"
   ],
   "created_at": "2026-02-06T17:29:50Z",
-  "updated_at": "2026-11-04T07:39:08Z",
-  "pushed_at": "2026-09-27T22:26:46Z",
+  "updated_at": "2026-11-04T20:01:04Z",
+  "pushed_at": "2026-11-04T20:00:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 270,
-  "days_since_push": 37,
-  "health_score": 56,
+  "age_days": 271,
+  "days_since_push": 0,
+  "health_score": 61,
   "health_components": {
     "popularity": 64.5,
-    "momentum": 1.2,
-    "maintenance": 78.0,
+    "momentum": 0.8,
+    "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 6.23,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 6.2,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "pedrohcgs/claude-code-my-workflow",
-    "readme_chars": 49504,
+    "readme_chars": 49751,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -67,7 +67,7 @@
       "worktree-isolation": "ks see effort.level and $CLAUDEEFFORT (Apr 2026 Week 19)",
       "model-routing": "een for parallel review work (/review-paper --peer, /slide-excellence).",
       "memory-context": "",
-      "skills-plugins": "- **Real gates, not reminders.** One command — ./scripts/backtest.sh — runs **ten gates**: surface-sync, skill integrity, model currency against the SSoT, link and anchor resolution, Agent Skills spec conformance, stale…",
+      "skills-plugins": "- **Real gates, not reminders.** One command — ./scripts/backtest.sh — runs **eleven gates**: surface-sync, skill integrity, model currency against the SSoT, link and anchor resolution, Agent Skills spec conformance, st…",
       "mcp-support": "simulated peer review (/review-paper --peer [journal]), reviewer-disposition variance reporting (--variance N)",
       "security-isolation": "**Bypass** mode skips permission prompts and safety checks (deny rules still apply), and Anthropic scopes it to isolated containers and VMs; it takes effect from the CLI flag, --settings, or user/managed settings (~/.cl…"
     },
@@ -138,7 +138,7 @@
         "bullet list of external links",
         "self-describes as a maintained list"
       ],
-      "external_link_ratio": 0.545
+      "external_link_ratio": 0.543
     },
     "highlights": [
       "Cost-Conscious Composition — prompt-cache TTL (5-min default on API keys; 1-hour automatic on Claude subscriptions), 70/20/10 model routing (Haiku/Sonnet/Opus), /cost + /usage monitoring, A…",
@@ -155,7 +155,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:46+00:00",
+  "fetched_at": "2026-11-05T12:22:23+00:00",
   "categories": [
     "analytics",
     "desktop-ui",

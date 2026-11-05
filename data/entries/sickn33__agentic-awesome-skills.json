@@ -4,11 +4,11 @@
   "name": "agentic-awesome-skills",
   "owner": "sickn33",
   "url": "https://github.com/sickn33/agentic-awesome-skills",
-  "description": "2,884+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
+  "description": "2,926+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
   "homepage": "https://aaskills.tech/",
-  "stars": 49129,
-  "forks": 7132,
-  "open_issues": 2,
+  "stars": 49193,
+  "forks": 7144,
+  "open_issues": 0,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "skill-library"
   ],
   "created_at": "2026-01-14T17:48:09Z",
-  "updated_at": "2026-11-04T11:26:21Z",
-  "pushed_at": "2026-11-04T09:52:49Z",
+  "updated_at": "2026-11-05T12:13:26Z",
+  "pushed_at": "2026-11-05T11:07:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 293,
+  "age_days": 294,
   "days_since_push": 0,
   "health_score": 81,
   "health_components": {
     "popularity": 93.8,
-    "momentum": 56.0,
+    "momentum": 53.2,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 70.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 336,
+    "stars_gained": 319,
     "days_span": 5,
-    "stars_per_day": 67.2,
-    "lifetime_stars_per_day": 167.68,
+    "stars_per_day": 63.8,
+    "lifetime_stars_per_day": 167.32,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sickn33/agentic-awesome-skills",
-    "readme_chars": 125658,
+    "readme_chars": 125894,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -99,7 +99,7 @@
       "model-routing": 1,
       "usage-analytics": 1,
       "memory-context": 5,
-      "skills-plugins": 168,
+      "skills-plugins": 169,
       "agent-runtime": 7,
       "mcp-support": 71,
       "security-isolation": 1,
@@ -168,7 +168,7 @@
       "Cline / Roo",
       "Goose"
     ],
-    "summary_en": "Agentic Awesome Skills is a library of 2,923+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.",
+    "summary_en": "Agentic Awesome Skills is a library of 2,926+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -179,7 +179,7 @@
         "bullet list of external links",
         "link-directory table of contents"
       ],
-      "external_link_ratio": 3.868
+      "external_link_ratio": 3.876
     },
     "highlights": [
       "sandbaseai/cli: Official source for the sandbase-mcp skill - discover, inspect, and invoke 2,000+ AI models and APIs through a local MCP bridge with explicit schema and cost checks (Apache-…",
@@ -196,11 +196,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:29+00:00",
+  "fetched_at": "2026-11-05T12:22:01+00:00",
   "categories": [
-    "analytics-3",
     "desktop-ui",
-    "memory-mcp"
+    "desktop-ui-2",
+    "security"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

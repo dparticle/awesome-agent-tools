@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,872 |
-| Star velocity | 799.0/day (history basis, 5d span) |
+| Stars | 12,546 |
+| Star velocity | 679.4/day (history basis, 5d span) |
 | Health score | 87/100 |
 | Documentation | 71/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-08-11 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 32,241 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 32,492 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -62,13 +62,15 @@
 
 ### GUI / desktop app
 
-> flow; microphone transcription remains unchanged.
+> Also in the box: streaming replies with tool-run activity chips · dictation from the composer mic (on-device Apple speech recognition on macOS, Fish Audio speech-to-text on Windows and Linux, in the desktop app) · SupaM…
 
 ### Notifications
 
 > reply" and it sets the trigger up in that turn with
 
 ### Voice input
+
+> microphone transcription remains unchanged.
 
 ### Cross-agent support
 
@@ -109,7 +111,7 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.5 |
+| popularity | 82.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 71.0 |

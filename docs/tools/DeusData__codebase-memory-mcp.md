@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 48,094 |
-| Star velocity | 53.8/day (history basis, 5d span) |
+| Stars | 48,152 |
+| Star velocity | 53.2/day (history basis, 5d span) |
 | Health score | 73/100 |
 | Documentation | 76/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,14 @@
 | License | MIT |
 | Language | C |
 | Created | 2026-02-24 |
-| Last push | 2026-11-03 (0 days ago) |
-| Analyzed README | 119,163 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-04 (0 days ago) |
+| Analyzed README | 119,527 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> led hooks through /hooks.
+> debase-memory-mcp install --hooks to re-enable them, or inspect the current preference with codebase-memory-mcp config get installhooks.
 
 ### Automatic failover
 
@@ -99,8 +99,8 @@ Score **76/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 93.6 |
-| momentum | 44.8 |
+| popularity | 93.7 |
+| momentum | 44.3 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
 | accessibility | 36.0 |

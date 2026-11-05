@@ -6,8 +6,8 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "https://devspace.run",
-  "stars": 5390,
-  "forks": 610,
+  "stars": 5411,
+  "forks": 611,
   "open_issues": 27,
   "language": "TypeScript",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-11-04T09:04:23Z",
+  "updated_at": "2026-11-05T12:04:51Z",
   "pushed_at": "2026-11-01T17:42:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
-  "days_since_push": 2,
+  "age_days": 143,
+  "days_since_push": 3,
   "health_score": 62,
   "health_components": {
-    "popularity": 74.6,
-    "momentum": 13.5,
+    "popularity": 74.7,
+    "momentum": 13.3,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 81,
+    "stars_gained": 80,
     "days_span": 5,
-    "stars_per_day": 16.2,
-    "lifetime_stars_per_day": 37.96,
+    "stars_per_day": 16.0,
+    "lifetime_stars_per_day": 37.84,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:10+00:00",
+  "fetched_at": "2026-11-05T12:21:39+00:00",
   "categories": [
     "analytics",
     "desktop-ui",
@@ -155,15 +155,15 @@
   "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "getpaseo/paseo",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "waishnav/devspace",
-      "challenger": "getpaseo/paseo",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "Waishnav/devspace",
-      "challenger_name": "getpaseo/paseo",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -177,15 +177,15 @@
         "remote-control",
         "worktree-isolation"
       ],
-      "star_ratio": 4.271,
-      "momentum_ratio": 6.358,
-      "setup_delta": -4,
-      "dominance": 1.0,
+      "star_ratio": 6.293,
+      "momentum_ratio": 1.387,
+      "setup_delta": -26,
+      "dominance": 0.841,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.27x the stars (23,019 vs 5,390)",
-        "6.36x the star velocity (103.0/day vs 16.2/day)",
-        "no harder to set up (24 vs 28 friction)"
+        "6.29x the stars (34,050 vs 5,411)",
+        "1.39x the star velocity (22.2/day vs 16.0/day)",
+        "no harder to set up (2 vs 28 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -200,22 +200,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "mobile-access",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
           "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "voice-input",
+          "skills-plugins",
+          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 62,
-        "challenger_health": 83,
+        "challenger_health": 72,
         "incumbent_setup_score": 28,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 2
       }
     }
   }

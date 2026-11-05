@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,662 |
-| Star velocity | 133.0/day (history basis, 5d span) |
+| Stars | 1,879 |
+| Star velocity | 156.8/day (history basis, 5d span) |
 | Health score | 80/100 |
-| Documentation | 58/100 |
+| Documentation | 57/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 20,011 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 19,946 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -54,7 +54,7 @@
 
 ### GUI / desktop app
 
-> bar Supported Install ds-harness-remote@0.6.2; this computer can also be the Host
+> bar Supported Install ds-harness-remote@0.6.3; this computer can also be the Host
 
 ### Cross-agent support
 
@@ -74,7 +74,7 @@
 
 ## Documentation quality
 
-Score **58/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -85,16 +85,15 @@ Score **58/100**, based on these detected signals:
 - mentions licensing
 - documents changes
 - publishes a roadmap
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 64.4 |
+| popularity | 65.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 58.0 |
+| documentation | 57.0 |
 | accessibility | 72.0 |
 
 ---

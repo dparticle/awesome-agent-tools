@@ -2,7 +2,7 @@
 
 # 410979729/scope-recall-hermes
 
-> This checkout is 4.0.0.
+> This checkout is 4.0.1.dev1.
 
 [Repository](https://github.com/410979729/scope-recall-hermes) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 527 |
-| Star velocity | 4.6/day (history basis, 5d span) |
+| Stars | 529 |
+| Star velocity | 3.6/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 46/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
-| Language | n/a |
+| Language | Python |
 | Created | 2026-05-15 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 13,508 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 13,513 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -62,8 +62,8 @@ Score **46/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 54.4 |
-| momentum | 3.8 |
+| popularity | 54.5 |
+| momentum | 3.0 |
 | maintenance | 100.0 |
 | documentation | 46.0 |
 | accessibility | 66.0 |

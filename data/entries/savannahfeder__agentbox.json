@@ -6,18 +6,23 @@
   "url": "https://github.com/savannahfeder/agentbox",
   "description": "A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them like email, or use the board view. Free, open source, on the plan you already pay for.",
   "homepage": "https://agentbox.ac",
-  "stars": 345,
-  "forks": 38,
+  "stars": 351,
+  "forks": 39,
   "open_issues": 19,
   "language": "JavaScript",
   "license": "GPL-3.0",
   "topics": [
+    "agent-dashboard",
+    "agent-manager",
     "agent-orchestration",
     "ai-agents",
     "claude",
     "claude-code",
+    "claude-code-desktop",
     "claude-code-gui",
+    "claude-code-ui",
     "codex",
+    "codex-gui",
     "coding-agents",
     "developer-tools",
     "electron",
@@ -29,33 +34,33 @@
     "worktree-manager"
   ],
   "created_at": "2026-09-28T02:35:07Z",
-  "updated_at": "2026-11-04T09:17:32Z",
-  "pushed_at": "2026-11-04T09:17:14Z",
+  "updated_at": "2026-11-05T12:05:37Z",
+  "pushed_at": "2026-11-05T08:55:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 37,
+  "age_days": 38,
   "days_since_push": 0,
   "health_score": 49,
   "health_components": {
-    "popularity": 50.8,
-    "momentum": 2.5,
+    "popularity": 50.9,
+    "momentum": 3.0,
     "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 9.32,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 9.24,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "savannahfeder/agentbox",
-    "readme_chars": 16941,
+    "readme_chars": 17254,
     "capabilities": [
       "parallel-execution",
       "worktree-isolation",
@@ -129,7 +134,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.0
+      "external_link_ratio": 0.058
     },
     "highlights": [
       "One key answers it. 1 2 3 take an option, E approves the"
@@ -143,24 +148,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:21+00:00",
+  "fetched_at": "2026-11-05T12:23:03+00:00",
   "categories": [
     "analytics",
     "desktop-ui-2",
-    "model-routing"
+    "failover-2"
   ],
   "primary_category": "analytics",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "getpaseo/paseo",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "savannahfeder/agentbox",
-      "challenger": "getpaseo/paseo",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "savannahfeder/agentbox",
-      "challenger_name": "getpaseo/paseo",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -173,15 +178,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 66.722,
-      "momentum_ratio": 34.333,
-      "setup_delta": -6,
+      "star_ratio": 97.009,
+      "momentum_ratio": 6.167,
+      "setup_delta": -28,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "66.72x the stars (23,019 vs 345)",
-        "34.33x the star velocity (103.0/day vs 3.0/day)",
-        "no harder to set up (24 vs 30 friction)"
+        "97.01x the stars (34,050 vs 351)",
+        "6.17x the star velocity (22.2/day vs 3.6/day)",
+        "no harder to set up (2 vs 30 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -195,22 +200,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "mobile-access",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
           "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "voice-input",
+          "skills-plugins",
+          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 49,
-        "challenger_health": 83,
+        "challenger_health": 72,
         "incumbent_setup_score": 30,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 2
       }
     }
   }

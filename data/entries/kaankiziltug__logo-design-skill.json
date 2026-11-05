@@ -6,9 +6,9 @@
   "url": "https://github.com/kaankiziltug/logo-design-skill",
   "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
   "homepage": "",
-  "stars": 5955,
-  "forks": 469,
-  "open_issues": 4,
+  "stars": 6034,
+  "forks": 475,
+  "open_issues": 5,
   "language": "HTML",
   "license": "MIT",
   "topics": [
@@ -22,27 +22,27 @@
     "svg"
   ],
   "created_at": "2026-09-26T08:23:34Z",
-  "updated_at": "2026-11-04T11:57:59Z",
+  "updated_at": "2026-11-05T10:34:57Z",
   "pushed_at": "2026-11-03T16:29:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 39,
-  "days_since_push": 0,
-  "health_score": 79,
+  "age_days": 40,
+  "days_since_push": 1,
+  "health_score": 77,
   "health_components": {
-    "popularity": 75.5,
-    "momentum": 100.0,
+    "popularity": 75.6,
+    "momentum": 91.0,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 49.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 628,
+    "stars_gained": 546,
     "days_span": 5,
-    "stars_per_day": 125.6,
-    "lifetime_stars_per_day": 152.69,
+    "stars_per_day": 109.2,
+    "lifetime_stars_per_day": 150.85,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -121,7 +121,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:08+00:00",
+  "fetched_at": "2026-11-05T12:21:37+00:00",
   "categories": [
     "desktop-ui"
   ],

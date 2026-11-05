@@ -6,9 +6,9 @@
   "url": "https://github.com/breferrari/obsidian-mind",
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
   "homepage": "",
-  "stars": 5488,
-  "forks": 612,
-  "open_issues": 17,
+  "stars": 5493,
+  "forks": 611,
+  "open_issues": 16,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,13 +24,13 @@
     "template"
   ],
   "created_at": "2026-02-28T21:41:41Z",
-  "updated_at": "2026-11-04T10:21:31Z",
+  "updated_at": "2026-11-05T11:52:19Z",
   "pushed_at": "2026-10-17T23:34:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 248,
-  "days_since_push": 17,
+  "age_days": 249,
+  "days_since_push": 18,
   "health_score": 59,
   "health_components": {
     "popularity": 74.8,
@@ -44,7 +44,7 @@
     "stars_gained": 31,
     "days_span": 5,
     "stars_per_day": 6.2,
-    "lifetime_stars_per_day": 22.13,
+    "lifetime_stars_per_day": 22.06,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -152,8 +152,8 @@
     "highlights_zh": [
       "Node 22+ LTS（用于钩子脚本 — 通常与 Claude Code / Codex / Gemini CLI 一起已安装）",
       "/om-review-brief 通过汇总所有内容生成完整的评估简报：成就记录、决策、事件、能力证据和 1:1 反馈",
-      "展示迁移计划——你可以确切看到哪些内容将被复制、转换和跳过",
-      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/"
+      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/",
+      "Competency Note（能力项笔记） — date、description、current-level、target-level、熟练度表格"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -162,13 +162,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:35+00:00",
+  "fetched_at": "2026-11-05T12:22:10+00:00",
   "categories": [
     "desktop-ui",
     "failover",
-    "failover-sharing"
+    "failover-2"
   ],
-  "primary_category": "failover-sharing",
+  "primary_category": "failover-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

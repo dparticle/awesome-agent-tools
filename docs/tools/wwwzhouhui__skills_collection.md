@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 289 |
-| Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 55/100 |
+| Stars | 290 |
+| Star velocity | 0.4/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 91/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | HTML |
 | Created | 2025-11-12 |
-| Last push | 2026-10-29 (6 days ago) |
-| Analyzed README | 108,996 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 112,862 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -54,15 +54,17 @@
 
 > 高风险 诱导分享/关注 "白嫖"、"薅羊毛"、"速转"、"分享给朋友"等
 
+### Session persistence
+
 ### Memory & context
 
 ### Skills & plugins
 
-> down 结构行、时间线/字幕/短场景淡入淡出健壮性加固，并新增 check-env.mjs 一键环境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）
+> Markdown 结构行、时间线/字幕/短场景淡入淡出健壮性加固，并新增 check-env.mjs 一键环境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）
 
 ### MCP support
 
-> 境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）
+> 一键环境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）
 
 ### GUI / desktop app
 
@@ -116,7 +118,7 @@ Score **91/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 49.2 |
-| momentum | 0.2 |
+| momentum | 0.3 |
 | maintenance | 100.0 |
 | documentation | 91.0 |
 | accessibility | 59.0 |

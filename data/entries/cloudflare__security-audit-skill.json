@@ -6,23 +6,23 @@
   "url": "https://github.com/cloudflare/security-audit-skill",
   "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
   "homepage": "",
-  "stars": 58540,
-  "forks": 3812,
-  "open_issues": 112,
+  "stars": 60238,
+  "forks": 3916,
+  "open_issues": 114,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-18T14:08:44Z",
-  "updated_at": "2026-11-04T12:07:02Z",
+  "updated_at": "2026-11-05T12:20:24Z",
   "pushed_at": "2026-09-14T19:29:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 138,
-  "days_since_push": 50,
+  "age_days": 139,
+  "days_since_push": 51,
   "health_score": 83,
   "health_components": {
-    "popularity": 95.3,
+    "popularity": 95.6,
     "momentum": 100.0,
     "maintenance": 78.0,
     "documentation": 35.0,
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5204,
+    "stars_gained": 5617,
     "days_span": 5,
-    "stars_per_day": 1040.8,
-    "lifetime_stars_per_day": 424.2,
+    "stars_per_day": 1123.4,
+    "lifetime_stars_per_day": 433.37,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -116,10 +116,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:08:57+00:00",
+  "fetched_at": "2026-11-05T12:21:23+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "model-routing"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

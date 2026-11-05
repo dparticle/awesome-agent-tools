@@ -6,34 +6,34 @@
   "url": "https://github.com/MDX-Tom/gpt-instruct",
   "description": "A Codex jailbreak prompt and test pack for gpt. 针对 gpt 系列的 Codex 破甲提示词与测试包。",
   "homepage": "https://mdx-tom.github.io/gpt-instruct/",
-  "stars": 11143,
-  "forks": 1430,
+  "stars": 11169,
+  "forks": 1434,
   "open_issues": 34,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-11T09:44:24Z",
-  "updated_at": "2026-11-04T11:57:27Z",
+  "updated_at": "2026-11-05T12:01:36Z",
   "pushed_at": "2026-10-04T08:41:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
-  "days_since_push": 31,
+  "age_days": 117,
+  "days_since_push": 32,
   "health_score": 62,
   "health_components": {
-    "popularity": 80.9,
-    "momentum": 31.0,
+    "popularity": 81.0,
+    "momentum": 29.0,
     "maintenance": 78.0,
     "documentation": 59.0,
     "accessibility": 60.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 186,
+    "stars_gained": 174,
     "days_span": 5,
-    "stars_per_day": 37.2,
-    "lifetime_stars_per_day": 96.06,
+    "stars_per_day": 34.8,
+    "lifetime_stars_per_day": 95.46,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -102,8 +102,8 @@
     },
     "highlights": [
       "测试只在一次性 HOME / CODEX_HOME / XDG / TMPDIR 和合成夹具中运行。",
-      "保留历史原始输出、方法 SHA、模型、推理等级和 transport，禁止跨身份拼接成绩。",
       "不以单条 case 文案或一次性答案污染通用提示词。",
+      "保留历史原始输出、方法 SHA、模型、推理等级和 transport，禁止跨身份拼接成绩。",
       "每个修改型候选都要有修改件、diff、验证记录和可运行回滚。"
     ],
     "summary_zh_native": "",
@@ -115,7 +115,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:03+00:00",
+  "fetched_at": "2026-11-05T12:21:30+00:00",
   "categories": [
     "model-routing"
   ],

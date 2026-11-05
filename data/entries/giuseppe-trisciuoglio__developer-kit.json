@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 379,
-  "days_since_push": 55,
+  "age_days": 380,
+  "days_since_push": 56,
   "health_score": 43,
   "health_components": {
     "popularity": 51.3,
@@ -51,7 +51,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 0.97,
+    "lifetime_stars_per_day": 0.96,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:20+00:00",
+  "fetched_at": "2026-11-05T12:23:02+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -175,14 +175,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 134.232,
-      "momentum_ratio": 1344.0,
+      "star_ratio": 134.407,
+      "momentum_ratio": 1276.0,
       "setup_delta": -36,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "134.23x the stars (49,129 vs 366)",
-        "1344.00x the star velocity (67.2/day vs 0.0/day)",
+        "134.41x the stars (49,193 vs 366)",
+        "1276.00x the star velocity (63.8/day vs 0.0/day)",
         "no harder to set up (30 vs 66 friction)"
       ],
       "reasons_zh": [],

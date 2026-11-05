@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 415,
-  "days_since_push": 1,
+  "age_days": 416,
+  "days_since_push": 2,
   "health_score": 53,
   "health_components": {
     "popularity": 49.7,
@@ -240,13 +240,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:27+00:00",
+  "fetched_at": "2026-11-05T12:23:10+00:00",
   "categories": [
     "analytics",
     "analytics-3",
-    "billing"
+    "teams"
   ],
-  "primary_category": "analytics",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

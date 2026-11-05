@@ -6,9 +6,9 @@
   "url": "https://github.com/codecoradev/uteke",
   "description": "Long-term memory for any AI agent. One Rust binary, offline, 98.2% recall@5 on LongMemEval-S. Self-host free or use Uteke Cloud.",
   "homepage": "https://uteke.app",
-  "stars": 284,
+  "stars": 285,
   "forks": 31,
-  "open_issues": 3,
+  "open_issues": 5,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,28 +34,28 @@
     "vector-database"
   ],
   "created_at": "2026-05-29T00:27:31Z",
-  "updated_at": "2026-11-04T07:27:32Z",
-  "pushed_at": "2026-11-04T07:27:27Z",
+  "updated_at": "2026-11-05T08:22:37Z",
+  "pushed_at": "2026-11-05T08:22:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 159,
+  "age_days": 160,
   "days_since_push": 0,
-  "health_score": 52,
+  "health_score": 51,
   "health_components": {
     "popularity": 49.1,
-    "momentum": 1.5,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 284,
-    "days_span": 159,
-    "stars_per_day": 1.79,
-    "lifetime_stars_per_day": 1.79,
-    "basis": "lifetime",
+    "stars_gained": 5,
+    "days_span": 5,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 1.78,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:29+00:00",
+  "fetched_at": "2026-11-05T12:23:13+00:00",
   "categories": [
     "failover"
   ],

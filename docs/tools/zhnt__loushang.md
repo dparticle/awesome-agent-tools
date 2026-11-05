@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,966 |
+| Stars | 1,976 |
 | Star velocity | 9.6/day (history basis, 5d span) |
-| Health score | 56/100 |
+| Health score | 54/100 |
 | Documentation | 47/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-05-29 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 5,299 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 5,500 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,7 +34,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 34/100)
+- **Difficulty:** 🟡 Some setup (friction score 46/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
@@ -42,7 +42,9 @@
 
 **Signals that add work:** git clone (build from source), make build
 
-*Easy. install via pip install; needs git clone (build from source), make build*
+**Configuration required:** API key configuration, OAuth login flow
+
+*Some setup. install via pip install; needs git clone (build from source), make build; configure API key configuration, OAuth login flow*
 
 ## Documentation quality
 
@@ -66,7 +68,7 @@ Score **47/100**, based on these detected signals:
 | momentum | 8.0 |
 | maintenance | 100.0 |
 | documentation | 47.0 |
-| accessibility | 66.0 |
+| accessibility | 54.0 |
 
 ---
 

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 348 |
-| Star velocity | 0.6/day (history basis, 5d span) |
+| Stars | 352 |
+| Star velocity | 1.4/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -24,7 +24,7 @@
 | Last push | 2026-11-04 (0 days ago) |
 | Analyzed README | 17,415 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -83,8 +83,8 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.8 |
-| momentum | 0.5 |
+| popularity | 50.9 |
+| momentum | 1.2 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 100.0 |

@@ -12,25 +12,21 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,300 |
+| Stars | 11,306 |
 | Star velocity | 7.6/day (history basis, 5d span) |
 | Health score | 58/100 |
-| Documentation | 42/100 |
+| Documentation | 41/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-13 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 10,954 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-05 (0 days ago) |
+| Analyzed README | 9,491 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Model / provider routing
-
-### Self-hostable
-
-> API key from a project with Blue
 
 ## Setup reality check
 
@@ -49,7 +45,7 @@
 
 ## Documentation quality
 
-Score **42/100**, based on these detected signals:
+Score **41/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -65,7 +61,7 @@ Score **42/100**, based on these detected signals:
 | popularity | 81.1 |
 | momentum | 6.3 |
 | maintenance | 100.0 |
-| documentation | 42.0 |
+| documentation | 41.0 |
 | accessibility | 63.0 |
 
 ---

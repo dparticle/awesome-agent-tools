@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 1662,
-  "forks": 143,
-  "open_issues": 41,
+  "stars": 1879,
+  "forks": 158,
+  "open_issues": 45,
   "language": "TypeScript",
   "license": "",
   "topics": [
@@ -16,33 +16,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-11-04T12:06:49Z",
-  "pushed_at": "2026-11-04T00:12:25Z",
+  "updated_at": "2026-11-05T12:09:09Z",
+  "pushed_at": "2026-11-05T11:10:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 81,
+  "age_days": 82,
   "days_since_push": 0,
   "health_score": 80,
   "health_components": {
-    "popularity": 64.4,
+    "popularity": 65.5,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 58.0,
+    "documentation": 57.0,
     "accessibility": 72.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 665,
+    "stars_gained": 784,
     "days_span": 5,
-    "stars_per_day": 133.0,
-    "lifetime_stars_per_day": 20.52,
+    "stars_per_day": 156.8,
+    "lifetime_stars_per_day": 22.91,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 20011,
+    "readme_chars": 19946,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -62,7 +62,7 @@
       "model-routing": "nt through its own ACP server (hermes acp); opt-in in Remote settings.",
       "security-isolation": "onversation models with the same smooth workflow as local use.",
       "self-hosted": "",
-      "gui-desktop": "bar Supported Install ds-harness-remote@0.6.2; this computer can also be the Host",
+      "gui-desktop": "bar Supported Install ds-harness-remote@0.6.3; this computer can also be the Host",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
@@ -101,7 +101,7 @@
       "note_en": "Easy. install via native installer / package; configure sign-in required, process manager",
       "note_zh": "较易上手。可通过 native installer / package 安装；需配置 sign-in required、process manager"
     },
-    "doc_score": 58,
+    "doc_score": 57,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -111,8 +111,7 @@
       "has troubleshooting/FAQ",
       "mentions licensing",
       "documents changes",
-      "publishes a roadmap",
-      "long, detailed README"
+      "publishes a roadmap"
     ],
     "agents": [
       "Claude Code",
@@ -130,10 +129,10 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.999
+      "external_link_ratio": 0.953
     },
     "highlights": [
-      "The current development baseline is dsh-v0.2.1-rc.5; validation scope is documented in the compatibility guide.",
+      "The current development baseline is dsh-v0.2.2-rc.1; validation scope is documented in the compatibility guide.",
       "Clients are available across Android, iOS, Web, and native DSH.",
       "Multiple clients can connect to the same Harness Host simultaneously, with RPC calls and streams isolated per connection.",
       "Access your local Harness instance remotely from the web, a PC, or a mobile device: DSH first, with Codex, Cursor, and Antigravity support too."
@@ -141,7 +140,7 @@
     "summary_zh_native": "从手机、电脑、浏览器继续使用你的 DeepSeek Harness 实例。无论使用哪台设备，都可以回到同一个 Harness 会话。",
     "highlights_zh": [
       "除了支持DeepSeek Harness，同时通过ACP协议支持 Codex、Cursor、Google Antigravity、Pi、OpenCode、Claude Code、Harness Agent等工具的原生工作区，远程文件浏览、终端均可使用。",
-      "当前开发适配基线为 dsh-v0.2.1-rc.5，验证范围见兼容性说明。",
+      "当前开发适配基线为 dsh-v0.2.2-rc.1，验证范围见兼容性说明。",
       "Android、iOS、Web、原生DSH 都有对应客户端，全平台可用。",
       "Harness 主机无需开放公网监听端口，无需公网IP，可以从任意可上网的地方，通过双向端到端加密链路安全连接。"
     ],
@@ -152,11 +151,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:46+00:00",
+  "fetched_at": "2026-11-05T12:22:20+00:00",
   "categories": [
-    "analytics-3",
-    "mobile",
-    "model-routing"
+    "analytics",
+    "failover-2",
+    "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {

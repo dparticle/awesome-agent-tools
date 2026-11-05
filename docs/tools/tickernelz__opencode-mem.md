@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,819 |
-| Star velocity | 4.0/day (history basis, 5d span) |
+| Stars | 1,824 |
+| Star velocity | 3.4/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
@@ -22,13 +22,13 @@
 | Language | TypeScript |
 | Created | 2026-01-10 |
 | Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 65,743 chars from `raw:HEAD/README.md` |
+| Analyzed README | 67,449 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> ute without changing memory
+> ed to 8 KiB UTF-8, with at most eight 64-byte tags.
 
 ### Multi-agent orchestration
 
@@ -42,6 +42,10 @@
 
 > d, confirm the provider name with opencode providers list and configure that provider in opencode first.
 
+### Session persistence
+
+> fall back to adding the bounded draft.
+
 ### Memory & context
 
 > the API after authenticating.
@@ -52,7 +56,7 @@
 
 ### Agent runtime
 
-> p.json, otherwise the site build fails.
+> otherwise the site build fails.
 
 ### Security & isolation
 
@@ -101,7 +105,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 65.2 |
-| momentum | 3.3 |
+| momentum | 2.8 |
 | maintenance | 100.0 |
 | documentation | 69.0 |
 | accessibility | 40.0 |

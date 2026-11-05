@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,429 |
+| Stars | 8,430 |
 | Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 54/100 |
-| Documentation | 47/100 |
+| Documentation | 48/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-08-18 |
 | Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 14,605 chars from `raw:HEAD/README.md` |
+| Analyzed README | 15,535 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -66,7 +66,7 @@
 
 ## Documentation quality
 
-Score **47/100**, based on these detected signals:
+Score **48/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -84,7 +84,7 @@ Score **47/100**, based on these detected signals:
 | popularity | 78.5 |
 | momentum | 1.0 |
 | maintenance | 100.0 |
-| documentation | 47.0 |
+| documentation | 48.0 |
 | accessibility | 37.0 |
 
 ---

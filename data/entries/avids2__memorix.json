@@ -6,9 +6,9 @@
   "url": "https://github.com/AVIDS2/memorix",
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
-  "stars": 898,
+  "stars": 900,
   "forks": 75,
-  "open_issues": 8,
+  "open_issues": 4,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "windsurf"
   ],
   "created_at": "2026-02-14T06:53:17Z",
-  "updated_at": "2026-11-04T11:53:54Z",
-  "pushed_at": "2026-10-30T14:49:07Z",
+  "updated_at": "2026-11-05T11:37:04Z",
+  "pushed_at": "2026-11-05T11:36:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 263,
-  "days_since_push": 4,
+  "age_days": 264,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 59.1,
-    "momentum": 2.2,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.6,
+    "stars_per_day": 2.4,
     "lifetime_stars_per_day": 3.41,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "AVIDS2/memorix",
-    "readme_chars": 42164,
+    "readme_chars": 42615,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -160,13 +160,13 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.095
+      "external_link_ratio": 0.117
     },
     "highlights": [
       "memorix background start / memorix serve-http run the HTTP service for a shared endpoint, dashboard, VPS Docker deployment, or multiple clients.",
       "Gemini CLI: installs the extension package, GEMINI.md context, hooks, and skills.",
       "memorix serve is the stdio MCP bridge used by IDEs and coding agents.",
-      "Codex: installs one user-level Memorix plugin with bundled stdio MCP, skills, and lifecycle hooks."
+      "MCP: http://localhost:3211/mcp"
     ],
     "summary_zh_native": "让 Claude Code、Codex、CodeBuddy Code、Cursor、Windsurf、Copilot、Gemini CLI、OpenCode、Grok Build、OpenClaw、Hermes Agent、Oh-my-Pi、Pi、Kiro、Antigravity、Trae、DeepSeek Harness、WorkBuddy 和任何 MCP Agent 共用同一套项目记忆。",
     "highlights_zh": [
@@ -182,11 +182,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:58+00:00",
+  "fetched_at": "2026-11-05T12:22:37+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "failover"
+    "failover",
+    "model-routing"
   ],
   "primary_category": "failover",
   "lifecycle": {

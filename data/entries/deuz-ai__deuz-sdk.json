@@ -34,13 +34,13 @@
     "voice-agent"
   ],
   "created_at": "2026-06-01T19:18:59Z",
-  "updated_at": "2026-11-02T21:25:38Z",
+  "updated_at": "2026-11-04T20:10:29Z",
   "pushed_at": "2026-10-16T21:43:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 155,
-  "days_since_push": 18,
+  "age_days": 156,
+  "days_since_push": 19,
   "health_score": 48,
   "health_components": {
     "popularity": 54.1,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 508,
-    "days_span": 155,
-    "stars_per_day": 3.28,
-    "lifetime_stars_per_day": 3.28,
+    "days_span": 156,
+    "stars_per_day": 3.26,
+    "lifetime_stars_per_day": 3.26,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:10:10+00:00",
+  "fetched_at": "2026-11-05T12:22:50+00:00",
   "categories": [
     "desktop-ui",
     "memory-mcp"

@@ -13,16 +13,18 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 303 |
-| Star velocity | 1.9/day (lifetime basis, 161d span) |
+| Star velocity | 1.9/day (lifetime basis, 162d span) |
 | Health score | 47/100 |
 | Documentation | 42/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-27 |
-| Last push | 2026-11-04 (0 days ago) |
+| Last push | 2026-11-04 (1 days ago) |
 | Analyzed README | 11,450 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — Superseded by bytedance/deer-flow: covers 100% of capabilities (8/8).
 
 ## What it solves
 

@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "full_name": "vibeeval/vibecosystem",
+  "name": "vibecosystem",
+  "owner": "vibeeval",
+  "url": "https://github.com/vibeeval/vibecosystem",
+  "description": "Profile-based coding runtime for Claude Code and Codex. Lean core; opt-in quality, context, memory, orchestration and dashboard.",
+  "homepage": "",
+  "stars": 539,
+  "forks": 44,
+  "open_issues": 13,
+  "language": "C#",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "ai-software-team",
+    "anthropic",
+    "automation",
+    "claude",
+    "claude-code",
+    "claude-skills",
+    "developer-tools",
+    "devtools",
+    "hooks",
+    "multi-agent",
+    "open-source",
+    "self-learning",
+    "vibe-coding",
+    "vibecoding"
+  ],
+  "created_at": "2026-03-14T11:57:55Z",
+  "updated_at": "2026-11-04T22:18:16Z",
+  "pushed_at": "2026-11-04T22:18:11Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 236,
+  "days_since_push": 0,
+  "health_score": 53,
+  "health_components": {
+    "popularity": 54.6,
+    "momentum": 1.9,
+    "maintenance": 100.0,
+    "documentation": 63.0,
+    "accessibility": 63.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 539,
+    "days_span": 236,
+    "stars_per_day": 2.28,
+    "lifetime_stars_per_day": 2.28,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "vibeeval/vibecosystem",
+    "readme_chars": 11676,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "vibecosystem packages agents, skills and hooks for software work.",
+      "memory-context": "",
+      "skills-plugins": "uguês · Italiano · Nederlands · 中文 · 日本語 · 한국어 · العربية · हिन्दी · Русский",
+      "mcp-support": "mpiler assistance may contact a configured LM Studio endpoint.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 3,
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "mcp-support": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure database dependency, server/reverse-proxy setup",
+      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 database dependency、server/reverse-proxy setup"
+    },
+    "doc_score": 63,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "A focused runtime for Claude Code.",
+    "summary_zh": "",
+    "install_hint": "npx vibecosystem init --profile core",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "has an index/catalogue section"
+      ],
+      "external_link_ratio": 0.6
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-05T12:22:47+00:00",
+  "categories": [
+    "desktop-ui",
+    "failover"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "vibeeval/vibecosystem",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "vibeeval/vibecosystem",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 91.267,
+      "momentum_ratio": 27.982,
+      "setup_delta": -7,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "91.27x the stars (49,193 vs 539)",
+        "27.98x the star velocity (63.8/day vs 2.3/day)",
+        "no harder to set up (30 vs 37 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 81,
+        "incumbent_setup_score": 37,
+        "challenger_setup_score": 30
+      }
+    }
+  }
+}

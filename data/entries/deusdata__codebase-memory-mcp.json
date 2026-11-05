@@ -6,9 +6,9 @@
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
   "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
-  "stars": 48094,
-  "forks": 3962,
-  "open_issues": 554,
+  "stars": 48152,
+  "forks": 3965,
+  "open_issues": 549,
   "language": "C",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windsurf"
   ],
   "created_at": "2026-02-24T22:01:00Z",
-  "updated_at": "2026-11-04T12:03:15Z",
-  "pushed_at": "2026-11-03T23:06:28Z",
+  "updated_at": "2026-11-05T11:23:24Z",
+  "pushed_at": "2026-11-04T23:21:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
+  "age_days": 253,
   "days_since_push": 0,
   "health_score": 73,
   "health_components": {
-    "popularity": 93.6,
-    "momentum": 44.8,
+    "popularity": 93.7,
+    "momentum": 44.3,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 36.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 269,
+    "stars_gained": 266,
     "days_span": 5,
-    "stars_per_day": 53.8,
-    "lifetime_stars_per_day": 190.85,
+    "stars_per_day": 53.2,
+    "lifetime_stars_per_day": 190.32,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "DeusData/codebase-memory-mcp",
-    "readme_chars": 119163,
+    "readme_chars": 119527,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
@@ -73,7 +73,7 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "led hooks through /hooks.",
+      "multi-account-switching": "debase-memory-mcp install --hooks to re-enable them, or inspect the current preference with codebase-memory-mcp config get installhooks.",
       "auto-failover": "d without contacting support; and every teammate needs git lfs install; without it their checkout leaves a pointer file where the artifact should be, the integrity-checked import refuses it, and they fall back to a full…",
       "multi-agent-orchestration": "y and fail-open: it does not replace or block the requested tool call.",
       "worktree-isolation": "oo, set config set watchnongit true (default false, read when the daemon starts): they are then checked on the same cadence with a file-tree scan that uses the indexer's own ignore rules.",
@@ -91,7 +91,7 @@
       "memory-context": 6,
       "skills-plugins": 4,
       "agent-runtime": 7,
-      "mcp-support": 82,
+      "mcp-support": 85,
       "cross-agent-support": 14
     },
     "friction": {
@@ -171,7 +171,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.285
+      "external_link_ratio": 0.284
     },
     "highlights": [
       "Choose a local model. The default Qwen2.5 Coder 0.5B downloads about 567 MB; Qwen3 0.6B, LFM2.5 1.2B and Qwen3.5 2B are larger options. All need WebGPU with shader-f16 support.",
@@ -188,7 +188,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-04T12:09:29+00:00",
+  "fetched_at": "2026-11-05T12:22:02+00:00",
   "categories": [
     "analytics",
     "desktop-ui",
