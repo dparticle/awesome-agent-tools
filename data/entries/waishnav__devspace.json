@@ -6,9 +6,9 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "https://devspace.run",
-  "stars": 5411,
-  "forks": 611,
-  "open_issues": 27,
+  "stars": 5416,
+  "forks": 615,
+  "open_issues": 31,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-11-05T12:04:51Z",
+  "updated_at": "2026-11-06T08:37:25Z",
   "pushed_at": "2026-11-01T17:42:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 143,
-  "days_since_push": 3,
-  "health_score": 62,
+  "age_days": 144,
+  "days_since_push": 4,
+  "health_score": 61,
   "health_components": {
     "popularity": 74.7,
-    "momentum": 13.3,
+    "momentum": 11.0,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 72.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 80,
+    "stars_gained": 66,
     "days_span": 5,
-    "stars_per_day": 16.0,
-    "lifetime_stars_per_day": 37.84,
+    "stars_per_day": 13.2,
+    "lifetime_stars_per_day": 37.61,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -146,24 +146,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:39+00:00",
+  "fetched_at": "2026-11-06T12:08:33+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "mobile"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "iOfficeAI/AionUi",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "getpaseo/paseo",
     "challenger": "",
     "supersede": {
       "incumbent": "waishnav/devspace",
-      "challenger": "iofficeai/aionui",
+      "challenger": "getpaseo/paseo",
       "incumbent_name": "Waishnav/devspace",
-      "challenger_name": "iOfficeAI/AionUi",
+      "challenger_name": "getpaseo/paseo",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -177,15 +177,15 @@
         "remote-control",
         "worktree-isolation"
       ],
-      "star_ratio": 6.293,
-      "momentum_ratio": 1.387,
-      "setup_delta": -26,
-      "dominance": 0.841,
+      "star_ratio": 4.295,
+      "momentum_ratio": 8.879,
+      "setup_delta": -4,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "6.29x the stars (34,050 vs 5,411)",
-        "1.39x the star velocity (22.2/day vs 16.0/day)",
-        "no harder to set up (2 vs 28 friction)"
+        "4.30x the stars (23,264 vs 5,416)",
+        "8.88x the star velocity (117.2/day vs 13.2/day)",
+        "no harder to set up (24 vs 28 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -200,22 +200,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "mobile-access",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
           "remote-control",
-          "skills-plugins",
-          "team-collaboration",
+          "security-isolation",
+          "self-hosted",
+          "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 62,
-        "challenger_health": 72,
+        "incumbent_health": 61,
+        "challenger_health": 86,
         "incumbent_setup_score": 28,
-        "challenger_setup_score": 2
+        "challenger_setup_score": 24
       }
     }
   }

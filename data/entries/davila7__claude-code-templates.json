@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "full_name": "davila7/claude-code-templates",
+  "name": "claude-code-templates",
+  "owner": "davila7",
+  "url": "https://github.com/davila7/claude-code-templates",
+  "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
+  "homepage": "https://aitmpl.com",
+  "stars": 33157,
+  "forks": 3873,
+  "open_issues": 470,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "anthropic",
+    "anthropic-claude",
+    "claude",
+    "claude-code",
+    "claude-code-plugins",
+    "cli",
+    "mcp",
+    "registry"
+  ],
+  "created_at": "2025-07-04T01:26:26Z",
+  "updated_at": "2026-11-06T12:04:23Z",
+  "pushed_at": "2026-11-06T03:05:19Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 490,
+  "days_since_push": 0,
+  "health_score": 78,
+  "health_components": {
+    "popularity": 90.4,
+    "momentum": 56.4,
+    "maintenance": 100.0,
+    "documentation": 54.0,
+    "accessibility": 90.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 33157,
+    "days_span": 490,
+    "stars_per_day": 67.67,
+    "lifetime_stars_per_day": 67.67,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "davila7/claude-code-templates",
+    "readme_chars": 11908,
+    "capabilities": [
+      "remote-control",
+      "worktree-isolation",
+      "api-gateway",
+      "session-persistence",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "remote-control": "ection and usage metrics, at http://localhost:3333.",
+      "worktree-isolation": "",
+      "api-gateway": "&nbsp;&nbsp; &nbsp;&nbsp; --- Sponsored by Swiftproxy Swiftproxy proudly supports this project.",
+      "session-persistence": "",
+      "skills-plugins": "",
+      "mcp-support": "Diagnostics for your Claude Code installation and project setup (--health, --check and --verify are aliases). ### Removed in 1.31.0 --plugins, --skills-manager, --command-stats, --hook-stats, --mcp-stats, --agents, --ch…",
+      "security-isolation": "",
+      "gui-desktop": "de Code sessions in real time with live state detection and usage metrics, at http://localhost:3333."
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "worktree-isolation": 1,
+      "api-gateway": 1,
+      "session-persistence": 1,
+      "skills-plugins": 1,
+      "mcp-support": 2,
+      "security-isolation": 1,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 22,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via npx one-liner; configure database dependency",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database dependency"
+    },
+    "doc_score": 54,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Connect your AI-powered workflows to reliable residential proxies for web data collection, browser automation, and AI-driven research.",
+    "summary_zh": "",
+    "install_hint": "npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests…",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.519
+    },
+    "highlights": [
+      "awesome-claude-code by hesreallyhim - CC0 1.0 Universal (21 commands)",
+      "awesome-claude-skills - Apache 2.0 (community skills)",
+      "K-Dense-AI/claude-scientific-skills by K-Dense Inc.",
+      "anthropics/claude-code - Development guides and examples (10 skills)"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-06T12:09:02+00:00",
+  "categories": [
+    "mcp-security",
+    "mobile"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

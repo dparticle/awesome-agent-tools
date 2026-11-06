@@ -4,15 +4,14 @@
   "name": "orca",
   "owner": "stablyai",
   "url": "https://github.com/stablyai/orca",
-  "description": "Orca is the place for working with a fleet of coding agents (e.g. Claude Code, Codex). Run any agent with your own subscription. Available on desktop, mobile and remote runtime.",
+  "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
   "homepage": "https://orca.dev",
-  "stars": 116111,
-  "forks": 7334,
-  "open_issues": 8258,
+  "stars": 117269,
+  "forks": 7430,
+  "open_issues": 8071,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
-    "ade",
     "agent-ide",
     "ai-agents",
     "automation",
@@ -29,81 +28,76 @@
     "orchestration",
     "pi",
     "runtime",
+    "swarm",
     "terminal",
     "worktrees",
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-11-05T12:21:13Z",
-  "pushed_at": "2026-11-05T12:19:03Z",
+  "updated_at": "2026-11-06T12:07:54Z",
+  "pushed_at": "2026-11-06T12:05:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
+  "age_days": 234,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
     "popularity": 100.0,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 52.0,
+    "documentation": 53.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4729,
+    "stars_gained": 5223,
     "days_span": 5,
-    "stars_per_day": 945.8,
-    "lifetime_stars_per_day": 498.33,
+    "stars_per_day": 1044.6,
+    "lifetime_stars_per_day": 501.15,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "stablyai/orca",
-    "readme_chars": 17591,
+    "readme_chars": 20387,
     "capabilities": [
       "multi-account-switching",
-      "quota-management",
       "remote-control",
       "mobile-access",
       "multi-agent-orchestration",
       "parallel-execution",
       "worktree-isolation",
-      "usage-analytics",
       "agent-runtime",
       "self-hosted",
       "gui-desktop",
-      "notifications",
+      "voice-input",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "ree create, snapshot, click, and fill.",
-      "quota-management": "",
-      "remote-control": "Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place.",
-      "mobile-access": "The AI Orchestrator for 100x builders.",
-      "multi-agent-orchestration": "",
-      "parallel-execution": "### Mobile Companion Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. iOS App Store · Android APK · Docs → ### Parallel Worktrees Fan one prompt acro…",
-      "worktree-isolation": "when an agent finishes and send follow-ups from anywhere.",
-      "usage-analytics": "",
-      "agent-runtime": "k threads unread to come back later.",
+      "multi-account-switching": "- **Dictation**: press a shortcut and talk.",
+      "remote-control": "S Apple Silicon · macOS Intel · Windows (.exe) · Linux AppImage · All builds",
+      "mobile-access": "",
+      "multi-agent-orchestration": "r coding agent in parallel, each in its own worktree.",
+      "parallel-execution": "",
+      "worktree-isolation": "中文 · 日本語 · 한국어 · Español · Français · Português · Türkçe · Русский The AI Orchestrator for 100x builders.",
+      "agent-runtime": "e desktop apps and external browsers.",
       "self-hosted": "rivacy & telemetry docs for what anonymous usage data Orca collects and how to opt out.",
-      "gui-desktop": "and rate-limit resets, and hot-swap accounts without re-logging in.",
-      "notifications": "*Rich repo previews** — Preview Markdown, images, PDFs, and repo docs in the workspace.",
+      "gui-desktop": "tart a workspace for each when you're ready to build.",
+      "voice-input": "Markdown right in the workspace, next to the agent that made them.",
       "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
     },
     "capability_hits": {
       "multi-account-switching": 1,
-      "quota-management": 1,
-      "remote-control": 3,
+      "remote-control": 1,
       "mobile-access": 3,
-      "multi-agent-orchestration": 1,
+      "multi-agent-orchestration": 2,
       "parallel-execution": 1,
-      "worktree-isolation": 7,
-      "usage-analytics": 1,
+      "worktree-isolation": 4,
       "agent-runtime": 2,
       "self-hosted": 1,
       "gui-desktop": 2,
-      "notifications": 1,
+      "voice-input": 1,
       "cross-agent-support": 10
     },
     "friction": {
@@ -125,12 +119,13 @@
         "Windows",
         "Linux",
         "iOS",
-        "Android"
+        "Android",
+        "Web"
       ],
       "note_en": "Turnkey. install via Homebrew install, native installer / package; GUI application",
       "note_zh": "开箱即用。可通过 Homebrew install、native installer / package 安装；GUI application"
     },
-    "doc_score": 52,
+    "doc_score": 53,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -139,7 +134,8 @@
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
-      "documents changes"
+      "documents changes",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -152,7 +148,7 @@
       "Goose",
       "Droid"
     ],
-    "summary_en": "Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place.",
+    "summary_en": "Run Claude Code, Codex, and any other coding agent in parallel, each in its own worktree.",
     "summary_zh": "",
     "install_hint": "brew install --cask stablyai/orca/orca",
     "source": "raw:HEAD/README.md",
@@ -162,10 +158,12 @@
       "signals": [
         "list-maintenance framing"
       ],
-      "external_link_ratio": 1.876
+      "external_link_ratio": 1.913
     },
     "highlights": [
-      "Account switcher & usage tracking — See Claude and Codex usage and rate-limit resets, and hot-swap accounts without re-logging in."
+      "Mobile Emulator: run an iOS Simulator or Android emulator beside your agent, and let it tap, type, and check its own work.",
+      "Computer Use: when there's no CLI or API, agents can see and drive desktop apps and external browsers.",
+      "Automations: schedule prompts to run on any repo: nightly dependency bumps, weekly triage, flaky-test sweeps."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -176,13 +174,13 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-05T12:21:19+00:00",
+  "fetched_at": "2026-11-06T12:08:10+00:00",
   "categories": [
-    "analytics",
+    "desktop-ui",
     "desktop-ui-2",
     "mobile"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

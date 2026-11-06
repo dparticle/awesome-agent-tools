@@ -6,8 +6,8 @@
   "url": "https://github.com/Appllama/appllama-skills",
   "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
   "homepage": "https://appllama.io/mcp",
-  "stars": 4892,
-  "forks": 249,
+  "stars": 4925,
+  "forks": 251,
   "open_issues": 2,
   "language": "",
   "license": "MIT",
@@ -33,13 +33,13 @@
     "ui-design"
   ],
   "created_at": "2026-08-13T07:19:54Z",
-  "updated_at": "2026-11-05T11:42:45Z",
+  "updated_at": "2026-11-06T10:41:03Z",
   "pushed_at": "2026-09-06T09:01:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 84,
-  "days_since_push": 60,
+  "age_days": 85,
+  "days_since_push": 61,
   "health_score": 74,
   "health_components": {
     "popularity": 73.8,
@@ -50,10 +50,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 1007,
+    "stars_gained": 1010,
     "days_span": 5,
-    "stars_per_day": 201.4,
-    "lifetime_stars_per_day": 58.24,
+    "stars_per_day": 202.0,
+    "lifetime_stars_per_day": 57.94,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -132,11 +132,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:39+00:00",
+  "fetched_at": "2026-11-06T12:08:34+00:00",
   "categories": [
-    "sharing"
+    "billing"
   ],
-  "primary_category": "sharing",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

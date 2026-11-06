@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 131,
-  "days_since_push": 118,
+  "age_days": 132,
+  "days_since_push": 119,
   "health_score": 42,
   "health_components": {
     "popularity": 54.0,
@@ -46,9 +46,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 499,
-    "days_span": 131,
-    "stars_per_day": 3.81,
-    "lifetime_stars_per_day": 3.81,
+    "days_span": 132,
+    "stars_per_day": 3.78,
+    "lifetime_stars_per_day": 3.78,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -134,16 +134,66 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:51+00:00",
+  "fetched_at": "2026-11-06T12:09:59+00:00",
   "categories": [
-    "security"
+    "mcp-security"
   ],
-  "primary_category": "security",
+  "primary_category": "mcp-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "kajisho5/ffmpeg-skill",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "linxidnju/opentag",
+      "challenger": "kajisho5/ffmpeg-skill",
+      "incumbent_name": "linxidnju/OpenTag",
+      "challenger_name": "kajisho5/ffmpeg-skill",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "security-isolation"
+      ],
+      "star_ratio": 9.291,
+      "momentum_ratio": 21.534,
+      "setup_delta": 5,
+      "dominance": 0.975,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "9.29x the stars (4,636 vs 499)",
+        "21.53x the star velocity (81.4/day vs 3.8/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "security-isolation",
+          "skills-plugins",
+          "voice-input"
+        ],
+        "incumbent_health": 42,
+        "challenger_health": 80,
+        "incumbent_setup_score": 45,
+        "challenger_setup_score": 50
+      }
+    }
   }
 }

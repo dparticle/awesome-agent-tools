@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 514 |
-| Star velocity | 1.0/day (history basis, 5d span) |
+| Star velocity | 0.8/day (history basis, 5d span) |
 | Health score | 49/100 |
 | Documentation | 74/100 |
 | Tier | 🔹 Notable |
@@ -21,14 +21,18 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-04-23 |
-| Last push | 2026-11-02 (2 days ago) |
-| Analyzed README | 44,677 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 45,335 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
 > d pi -p processes run with --tools memoryadd,memoryreplace,memoryremove and --exclude-tools mcp*, so a background child cannot edit files, run commands, touch skills, or reach MCP tools even when the fallback model is a…
+
+### Multi-agent orchestration
+
+> kipped by content sniffing (first line must be a {"type":"session",...} header) and no longer surface as backfill errors; use this setting to also skip whole directories regardless of content, e.g.
 
 ### Model / provider routing
 
@@ -86,7 +90,7 @@ Score **74/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.2 |
-| momentum | 0.8 |
+| momentum | 0.7 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
 | accessibility | 16.0 |

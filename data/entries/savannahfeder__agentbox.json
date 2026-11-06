@@ -6,9 +6,9 @@
   "url": "https://github.com/savannahfeder/agentbox",
   "description": "A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them like email, or use the board view. Free, open source, on the plan you already pay for.",
   "homepage": "https://agentbox.ac",
-  "stars": 351,
-  "forks": 39,
-  "open_issues": 19,
+  "stars": 369,
+  "forks": 40,
+  "open_issues": 23,
   "language": "JavaScript",
   "license": "GPL-3.0",
   "topics": [
@@ -34,29 +34,29 @@
     "worktree-manager"
   ],
   "created_at": "2026-09-28T02:35:07Z",
-  "updated_at": "2026-11-05T12:05:37Z",
-  "pushed_at": "2026-11-05T08:55:46Z",
+  "updated_at": "2026-11-06T07:07:39Z",
+  "pushed_at": "2026-11-05T20:47:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 38,
+  "age_days": 39,
   "days_since_push": 0,
-  "health_score": 49,
+  "health_score": 50,
   "health_components": {
-    "popularity": 50.9,
-    "momentum": 3.0,
+    "popularity": 51.3,
+    "momentum": 5.5,
     "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 33,
     "days_span": 5,
-    "stars_per_day": 3.6,
-    "lifetime_stars_per_day": 9.24,
+    "stars_per_day": 6.6,
+    "lifetime_stars_per_day": 9.46,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "savannahfeder/agentbox",
@@ -148,24 +148,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:23:03+00:00",
+  "fetched_at": "2026-11-06T12:10:12+00:00",
   "categories": [
-    "analytics",
     "desktop-ui-2",
-    "failover-2"
+    "mobile",
+    "model-routing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "iOfficeAI/AionUi",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "getpaseo/paseo",
     "challenger": "",
     "supersede": {
       "incumbent": "savannahfeder/agentbox",
-      "challenger": "iofficeai/aionui",
+      "challenger": "getpaseo/paseo",
       "incumbent_name": "savannahfeder/agentbox",
-      "challenger_name": "iOfficeAI/AionUi",
+      "challenger_name": "getpaseo/paseo",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -178,15 +178,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 97.009,
-      "momentum_ratio": 6.167,
-      "setup_delta": -28,
+      "star_ratio": 63.046,
+      "momentum_ratio": 17.758,
+      "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "97.01x the stars (34,050 vs 351)",
-        "6.17x the star velocity (22.2/day vs 3.6/day)",
-        "no harder to set up (2 vs 30 friction)"
+        "63.05x the stars (23,264 vs 369)",
+        "17.76x the star velocity (117.2/day vs 6.6/day)",
+        "no harder to set up (24 vs 30 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -200,22 +200,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "mobile-access",
           "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
           "remote-control",
-          "skills-plugins",
-          "team-collaboration",
+          "security-isolation",
+          "self-hosted",
+          "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 49,
-        "challenger_health": 72,
+        "incumbent_health": 50,
+        "challenger_health": 86,
         "incumbent_setup_score": 30,
-        "challenger_setup_score": 2
+        "challenger_setup_score": 24
       }
     }
   }

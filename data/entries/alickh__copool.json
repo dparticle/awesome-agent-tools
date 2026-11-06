@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 238,
-  "days_since_push": 49,
+  "age_days": 239,
+  "days_since_push": 50,
   "health_score": 42,
   "health_components": {
     "popularity": 50.3,
@@ -31,9 +31,9 @@
   "tier": "watchlist",
   "momentum": {
     "stars_gained": 326,
-    "days_span": 238,
-    "stars_per_day": 1.37,
-    "lifetime_stars_per_day": 1.37,
+    "days_span": 239,
+    "stars_per_day": 1.36,
+    "lifetime_stars_per_day": 1.36,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -118,11 +118,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:23:04+00:00",
+  "fetched_at": "2026-11-06T12:10:15+00:00",
   "categories": [
-    "sharing"
+    "billing"
   ],
-  "primary_category": "sharing",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (4/4).",
@@ -144,14 +144,14 @@
         "multi-account-switching",
         "quota-management"
       ],
-      "star_ratio": 60.552,
-      "momentum_ratio": 23.942,
+      "star_ratio": 60.647,
+      "momentum_ratio": 24.706,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "60.55x the stars (19,740 vs 326)",
-        "23.94x the star velocity (32.8/day vs 1.4/day)",
+        "60.65x the stars (19,771 vs 326)",
+        "24.71x the star velocity (33.6/day vs 1.4/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],

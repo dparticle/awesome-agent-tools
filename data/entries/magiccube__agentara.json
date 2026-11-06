@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
-  "days_since_push": 178,
+  "age_days": 246,
+  "days_since_push": 179,
   "health_score": 38,
   "health_components": {
     "popularity": 54.3,
@@ -129,11 +129,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:49+00:00",
+  "fetched_at": "2026-11-06T12:09:57+00:00",
   "categories": [
     "desktop-ui-2",
-    "failover",
-    "model-routing"
+    "failover"
   ],
   "primary_category": "failover",
   "lifecycle": {
@@ -158,14 +157,14 @@
         "memory-context",
         "session-persistence"
       ],
-      "star_ratio": 3.587,
-      "momentum_ratio": 25.0,
+      "star_ratio": 3.6,
+      "momentum_ratio": 22.5,
       "setup_delta": -11,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "3.59x the stars (1,858 vs 518)",
-        "25.00x the star velocity (10.0/day vs 0.4/day)",
+        "3.60x the stars (1,865 vs 518)",
+        "22.50x the star velocity (9.0/day vs 0.4/day)",
         "no harder to set up (73 vs 84 friction)"
       ],
       "reasons_zh": [],

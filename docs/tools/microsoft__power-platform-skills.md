@@ -2,7 +2,7 @@
 
 # microsoft/power-platform-skills
 
-> Official agent skills/plugins for Power Platform development by Microsoft.
+> Plugins from Microsoft that teach AI assistants, such as GitHub Copilot and Claude Code, to build on Power Platform.
 
 [Repository](https://github.com/microsoft/power-platform-skills) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,33 +12,41 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,115 |
-| Star velocity | 4.4/day (history basis, 5d span) |
-| Health score | 51/100 |
-| Documentation | 45/100 |
+| Stars | 1,120 |
+| Star velocity | 4.6/day (history basis, 5d span) |
+| Health score | 53/100 |
+| Documentation | 42/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-01-21 |
-| Last push | 2026-11-05 (0 days ago) |
-| Analyzed README | 18,249 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 22,706 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Mobile access
 
-> d versions of this project must not cause confusion or imply Microsoft sponsorship.
+> use of third-party trademarks or logos are subject to those third-party's policies.
 
 ### Workspace isolation
 
 ### Skills & plugins
 
-> , manage tables and columns, and handle security, administration, and solutions.
+> rwise, run claude plugin update or copilot plugin update .
 
 ### MCP support
 
-> PAC, and verifies registration and bindings.
+> things in a developer environment first.
+
+### Security & isolation
+
+> ant, for example "Create a Power Pages site with React for a job board".
+
+### GUI / desktop app
+
+> de Install in GitHub Copilot app
 
 ### Cross-agent support
 
@@ -46,7 +54,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 49/100)
+- **Difficulty:** 🟢 Easy (friction score 29/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/microsoft/power-platform-skills/main/scripts/install.js | node`
@@ -55,31 +63,31 @@
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** environment variables, config.json/yaml/toml, sign-in required, database migration
+**Configuration required:** environment variables, sign-in required, database dependency
 
-*Some setup. install via native installer / package; needs npm install/build; configure environment variables, config.json/yaml/toml*
+*Easy. install via native installer / package; needs npm install/build; configure environment variables, sign-in required; one-click setup*
 
 ## Documentation quality
 
-Score **45/100**, based on these detected signals:
+Score **42/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - documents installation
-- documents configuration
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 60.9 |
-| momentum | 3.7 |
+| popularity | 61.0 |
+| momentum | 3.8 |
 | maintenance | 100.0 |
-| documentation | 45.0 |
-| accessibility | 51.0 |
+| documentation | 42.0 |
+| accessibility | 71.0 |
 
 ---
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/callstack/agent-device",
   "description": "Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.",
   "homepage": "https://agent-device.dev",
-  "stars": 5276,
-  "forks": 380,
-  "open_issues": 103,
+  "stars": 5283,
+  "forks": 383,
+  "open_issues": 104,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,27 +31,27 @@
     "xcuitest"
   ],
   "created_at": "2026-01-30T18:41:54Z",
-  "updated_at": "2026-11-05T10:50:02Z",
-  "pushed_at": "2026-11-05T10:49:53Z",
+  "updated_at": "2026-11-06T11:56:37Z",
+  "pushed_at": "2026-11-06T11:56:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 278,
+  "age_days": 279,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
-    "popularity": 74.4,
-    "momentum": 11.3,
+    "popularity": 74.5,
+    "momentum": 10.5,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 68,
+    "stars_gained": 63,
     "days_span": 5,
-    "stars_per_day": 13.6,
-    "lifetime_stars_per_day": 18.98,
+    "stars_per_day": 12.6,
+    "lifetime_stars_per_day": 18.94,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -160,9 +160,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:10+00:00",
+  "fetched_at": "2026-11-06T12:09:12+00:00",
   "categories": [
-    "analytics",
+    "desktop-ui",
     "desktop-ui-2",
     "mobile"
   ],
@@ -193,14 +193,14 @@
         "remote-control",
         "worktree-isolation"
       ],
-      "star_ratio": 4.39,
-      "momentum_ratio": 8.691,
+      "star_ratio": 4.404,
+      "momentum_ratio": 9.302,
       "setup_delta": 6,
       "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "4.39x the stars (23,163 vs 5,276)",
-        "8.69x the star velocity (118.2/day vs 13.6/day)",
+        "4.40x the stars (23,264 vs 5,283)",
+        "9.30x the star velocity (117.2/day vs 12.6/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],

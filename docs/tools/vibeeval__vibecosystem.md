@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 539 |
-| Star velocity | 2.3/day (lifetime basis, 236d span) |
+| Star velocity | 2.3/day (lifetime basis, 237d span) |
 | Health score | 53/100 |
 | Documentation | 63/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | C# |
 | Created | 2026-03-14 |
-| Last push | 2026-11-04 (0 days ago) |
+| Last push | 2026-11-04 (1 days ago) |
 | Analyzed README | 11,676 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).

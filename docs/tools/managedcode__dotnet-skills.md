@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 507 |
-| Star velocity | 1.6/day (history basis, 5d span) |
+| Stars | 509 |
+| Star velocity | 1.8/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | C# |
 | Created | 2026-03-15 |
-| Last push | 2026-11-05 (0 days ago) |
+| Last push | 2026-11-06 (0 days ago) |
 | Analyzed README | 32,440 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -82,7 +82,7 @@ Score **64/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.1 |
-| momentum | 1.3 |
+| momentum | 1.5 |
 | maintenance | 100.0 |
 | documentation | 64.0 |
 | accessibility | 90.0 |

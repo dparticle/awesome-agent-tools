@@ -6,8 +6,8 @@
   "url": "https://github.com/Derpyu520/qq-bridge",
   "description": "Bridge between QQ (SnowLuma OneBot v11) and DeepSeek Harness agents: social simulation, safe MCP tools, slang learning and more.",
   "homepage": "",
-  "stars": 3555,
-  "forks": 218,
+  "stars": 3568,
+  "forks": 220,
   "open_issues": 50,
   "language": "JavaScript",
   "license": "NOASSERTION",
@@ -21,33 +21,33 @@
     "snowluma"
   ],
   "created_at": "2026-08-25T07:46:42Z",
-  "updated_at": "2026-11-05T12:08:22Z",
-  "pushed_at": "2026-11-05T09:25:06Z",
+  "updated_at": "2026-11-06T10:51:28Z",
+  "pushed_at": "2026-11-06T09:56:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 72,
+  "age_days": 73,
   "days_since_push": 0,
-  "health_score": 59,
+  "health_score": 58,
   "health_components": {
     "popularity": 71.0,
-    "momentum": 34.3,
+    "momentum": 28.7,
     "maintenance": 100.0,
     "documentation": 45.0,
     "accessibility": 34.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 206,
+    "stars_gained": 172,
     "days_span": 5,
-    "stars_per_day": 41.2,
-    "lifetime_stars_per_day": 49.38,
+    "stars_per_day": 34.4,
+    "lifetime_stars_per_day": 48.88,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Derpyu520/qq-bridge",
-    "readme_chars": 3377,
+    "readme_chars": 3582,
     "capabilities": [
       "model-routing",
       "usage-analytics",
@@ -107,7 +107,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.184
+      "external_link_ratio": 1.117
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -119,16 +119,71 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:44+00:00",
+  "fetched_at": "2026-11-06T12:08:39+00:00",
   "categories": [
-    "security"
+    "analytics-3",
+    "mcp-security"
   ],
-  "primary_category": "security",
+  "primary_category": "analytics-3",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 milind-soni/OpenMausBot 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "milind-soni/OpenMausBot",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "derpyu520/qq-bridge",
+      "challenger": "milind-soni/openmausbot",
+      "incumbent_name": "Derpyu520/qq-bridge",
+      "challenger_name": "milind-soni/OpenMausBot",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "mcp-support",
+        "model-routing",
+        "security-isolation",
+        "usage-analytics"
+      ],
+      "star_ratio": 4.002,
+      "momentum_ratio": 24.401,
+      "setup_delta": -38,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "4.00x the stars (14,279 vs 3,568)",
+        "24.40x the star velocity (839.4/day vs 34.4/day)",
+        "no harder to set up (28 vs 66 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "mcp-support",
+          "model-routing",
+          "security-isolation",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics",
+          "voice-input"
+        ],
+        "incumbent_health": 58,
+        "challenger_health": 87,
+        "incumbent_setup_score": 66,
+        "challenger_setup_score": 28
+      }
+    }
   }
 }

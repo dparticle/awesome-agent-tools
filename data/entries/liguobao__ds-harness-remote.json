@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 1879,
-  "forks": 158,
-  "open_issues": 45,
+  "stars": 2035,
+  "forks": 166,
+  "open_issues": 55,
   "language": "TypeScript",
   "license": "",
   "topics": [
@@ -16,16 +16,16 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-11-05T12:09:09Z",
-  "pushed_at": "2026-11-05T11:10:13Z",
+  "updated_at": "2026-11-06T11:08:34Z",
+  "pushed_at": "2026-11-06T11:08:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 82,
+  "age_days": 83,
   "days_since_push": 0,
   "health_score": 80,
   "health_components": {
-    "popularity": 65.5,
+    "popularity": 66.2,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 57.0,
@@ -33,16 +33,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 784,
+    "stars_gained": 865,
     "days_span": 5,
-    "stars_per_day": 156.8,
-    "lifetime_stars_per_day": 22.91,
+    "stars_per_day": 173.0,
+    "lifetime_stars_per_day": 24.52,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 19946,
+    "readme_chars": 19670,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -51,6 +51,7 @@
       "model-routing",
       "security-isolation",
       "self-hosted",
+      "team-collaboration",
       "gui-desktop",
       "cross-agent-support"
     ],
@@ -59,9 +60,10 @@
       "remote-control": "while preserving messages and tool status.",
       "mobile-access": "use Bot mode, powered by Fei2411/DS-Bot.",
       "parallel-execution": "ther tools through ACP integrations, with remote file browsing and terminals.",
-      "model-routing": "nt through its own ACP server (hermes acp); opt-in in Remote settings.",
+      "model-routing": "Claude and Hermes also support direct file and terminal access, subject to the Host's workspace boundaries and terminal settings. Setup and adapter development: Agent workspace integration guide. Model selection for Cur…",
       "security-isolation": "onversation models with the same smooth workflow as local use.",
       "self-hosted": "",
+      "team-collaboration": "Agent keeps its own workspaces and sessions; only session translation for DSH is performed, without writing to Harness storage.",
       "gui-desktop": "bar Supported Install ds-harness-remote@0.6.3; this computer can also be the Host",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
@@ -73,6 +75,7 @@
       "model-routing": 2,
       "security-isolation": 7,
       "self-hosted": 2,
+      "team-collaboration": 1,
       "gui-desktop": 1,
       "cross-agent-support": 4
     },
@@ -129,7 +132,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.953
+      "external_link_ratio": 0.966
     },
     "highlights": [
       "The current development baseline is dsh-v0.2.2-rc.1; validation scope is documented in the compatibility guide.",
@@ -151,11 +154,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:20+00:00",
+  "fetched_at": "2026-11-06T12:09:22+00:00",
   "categories": [
-    "analytics",
-    "failover-2",
-    "mobile"
+    "analytics-3",
+    "mobile",
+    "teams"
   ],
   "primary_category": "mobile",
   "lifecycle": {

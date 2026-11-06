@@ -14,15 +14,15 @@
 | --- | --- |
 | Stars | 348 |
 | Star velocity | 1.0/day (history basis, 5d span) |
-| Health score | 53/100 |
-| Documentation | 65/100 |
+| Health score | 52/100 |
+| Documentation | 64/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-11-23 |
 | Last push | 2026-11-05 (0 days ago) |
-| Analyzed README | 10,164 chars from `raw:HEAD/README.md` |
+| Analyzed README | 9,536 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,19 +36,17 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Difficulty:** 🟡 Some setup (friction score 42/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that make it easy:** npx one-liner
-
 **Configuration required:** config.json/yaml/toml, server/reverse-proxy setup
 
-*Easy. install via npx one-liner; configure config.json/yaml/toml, server/reverse-proxy setup*
+*Some setup. configure config.json/yaml/toml, server/reverse-proxy setup*
 
 ## Documentation quality
 
-Score **65/100**, based on these detected signals:
+Score **64/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -69,8 +67,8 @@ Score **65/100**, based on these detected signals:
 | popularity | 50.8 |
 | momentum | 0.8 |
 | maintenance | 100.0 |
-| documentation | 65.0 |
-| accessibility | 72.0 |
+| documentation | 64.0 |
+| accessibility | 58.0 |
 
 ---
 

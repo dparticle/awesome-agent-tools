@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 152,034 |
-| Star velocity | 299.0/day (history basis, 5d span) |
+| Stars | 152,298 |
+| Star velocity | 306.2/day (history basis, 5d span) |
 | Health score | 93/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2025-08-04 |
-| Last push | 2026-11-05 (0 days ago) |
+| Last push | 2026-11-06 (0 days ago) |
 | Analyzed README | 37,193 chars from `raw:HEAD/README.md` |
 
 ## What it solves

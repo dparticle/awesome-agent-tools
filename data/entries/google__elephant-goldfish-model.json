@@ -6,9 +6,9 @@
   "url": "https://github.com/google/elephant-goldfish-model",
   "description": "Open-source skills for designing and reviewing software with AI agents",
   "homepage": "https://egm.dev",
-  "stars": 12091,
-  "forks": 857,
-  "open_issues": 65,
+  "stars": 12746,
+  "forks": 920,
+  "open_issues": 69,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -30,63 +30,68 @@
     "spec-driven-development"
   ],
   "created_at": "2026-09-13T16:31:06Z",
-  "updated_at": "2026-11-05T12:17:16Z",
-  "pushed_at": "2026-11-04T20:36:04Z",
+  "updated_at": "2026-11-06T12:06:34Z",
+  "pushed_at": "2026-11-06T11:52:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 52,
+  "age_days": 53,
   "days_since_push": 0,
-  "health_score": 82,
+  "health_score": 84,
   "health_components": {
-    "popularity": 81.6,
+    "popularity": 82.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 42.0,
-    "accessibility": 70.0
+    "accessibility": 85.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5365,
+    "stars_gained": 4413,
     "days_span": 5,
-    "stars_per_day": 1073.0,
-    "lifetime_stars_per_day": 232.52,
+    "stars_per_day": 882.6,
+    "lifetime_stars_per_day": 240.49,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "google/elephant-goldfish-model",
-    "readme_chars": 8149,
+    "readme_chars": 8391,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
+      "gui-desktop",
       "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "xed command (#220), but 1.4.8 does not (#196), so keep the prefix.",
       "agent-runtime": "prove the specification before implementing.",
+      "gui-desktop": "",
       "notifications": "For **Claude Cowork** and **ChatGPT Work**, see the setup guide.",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
       "multi-agent-orchestration": 3,
       "agent-runtime": 3,
+      "gui-desktop": 1,
       "notifications": 1,
       "cross-agent-support": 2
     },
     "friction": {
       "level": "low",
-      "score": 30,
+      "score": 23,
       "out_of_the_box": false,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [],
       "hard_signals": [],
       "config_signals": [],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
       "platforms": [],
-      "note_en": "Easy. No setup signals found in the README.",
-      "note_zh": "较易上手。README 中没有找到安装/配置说明。"
+      "note_en": "Easy. GUI application",
+      "note_zh": "较易上手。GUI application"
     },
     "doc_score": 42,
     "doc_signals": [
@@ -112,7 +117,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.614
+      "external_link_ratio": 0.715
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -124,12 +129,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:29+00:00",
+  "fetched_at": "2026-11-06T12:08:22+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

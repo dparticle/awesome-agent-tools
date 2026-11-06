@@ -6,8 +6,8 @@
   "url": "https://github.com/qixing-jk/all-api-hub",
   "description": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
   "homepage": "https://all-api-hub.qixing1217.top/",
-  "stars": 5047,
-  "forks": 343,
+  "stars": 5048,
+  "forks": 344,
   "open_issues": 68,
   "language": "TypeScript",
   "license": "AGPL-3.0",
@@ -30,27 +30,27 @@
     "voapi"
   ],
   "created_at": "2025-09-08T15:51:38Z",
-  "updated_at": "2026-11-05T12:10:03Z",
-  "pushed_at": "2026-11-05T12:09:55Z",
+  "updated_at": "2026-11-06T11:46:32Z",
+  "pushed_at": "2026-11-06T11:49:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 422,
+  "age_days": 423,
   "days_since_push": 0,
   "health_score": 61,
   "health_components": {
     "popularity": 74.1,
-    "momentum": 3.9,
+    "momentum": 3.8,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 134,
-    "days_span": 29,
-    "stars_per_day": 4.62,
-    "lifetime_stars_per_day": 11.96,
+    "stars_gained": 135,
+    "days_span": 30,
+    "stars_per_day": 4.5,
+    "lifetime_stars_per_day": 11.93,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -161,9 +161,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:11+00:00",
+  "fetched_at": "2026-11-06T12:09:12+00:00",
   "categories": [
-    "analytics-3"
+    "analytics-3",
+    "billing"
   ],
   "primary_category": "analytics-3",
   "lifecycle": {

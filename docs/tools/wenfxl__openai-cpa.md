@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 1,404 |
-| Star velocity | 0.0/day (history basis, 8d span) |
+| Star velocity | 0.0/day (history basis, 9d span) |
 | Health score | 49/100 |
 | Documentation | 67/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-03-23 |
-| Last push | 2026-08-21 (75 days ago) |
+| Last push | 2026-08-21 (76 days ago) |
 | Analyzed README | 25,594 chars from `raw:main/README.md` |
 
-> ⚠️ **Superseded by [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)** — Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 139623,
-  "forks": 20666,
-  "open_issues": 76,
+  "stars": 140298,
+  "forks": 20711,
+  "open_issues": 77,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-05T12:18:40Z",
-  "pushed_at": "2026-11-05T12:07:35Z",
+  "updated_at": "2026-11-06T12:00:02Z",
+  "pushed_at": "2026-11-06T11:42:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 238,
+  "age_days": 239,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1223,
+    "stars_gained": 1777,
     "days_span": 5,
-    "stars_per_day": 244.6,
-    "lifetime_stars_per_day": 586.65,
+    "stars_per_day": 355.4,
+    "lifetime_stars_per_day": 587.02,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -151,13 +151,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:49+00:00",
+  "fetched_at": "2026-11-06T12:08:47+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
-    "failover-2"
+    "failover",
+    "mobile"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

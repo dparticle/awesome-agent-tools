@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 785 |
+| Stars | 787 |
 | Star velocity | 2.0/day (history basis, 5d span) |
 | Health score | 53/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-04-10 |
-| Last push | 2026-10-20 (16 days ago) |
+| Last push | 2026-10-20 (17 days ago) |
 | Analyzed README | 7,869 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model)** — Superseded by google/elephant-goldfish-model: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -8,7 +8,7 @@
   "homepage": "https://athola.github.io/claude-night-market",
   "stars": 348,
   "forks": 39,
-  "open_issues": 21,
+  "open_issues": 15,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,20 +34,20 @@
     "test-driven-development"
   ],
   "created_at": "2025-11-23T06:45:40Z",
-  "updated_at": "2026-11-05T10:10:13Z",
-  "pushed_at": "2026-11-05T04:48:35Z",
+  "updated_at": "2026-11-05T20:14:46Z",
+  "pushed_at": "2026-11-05T20:15:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 347,
+  "age_days": 348,
   "days_since_push": 0,
-  "health_score": 53,
+  "health_score": 52,
   "health_components": {
     "popularity": 50.8,
     "momentum": 0.8,
     "maintenance": 100.0,
-    "documentation": 65.0,
-    "accessibility": 72.0
+    "documentation": 64.0,
+    "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
@@ -60,7 +60,7 @@
   },
   "analysis": {
     "full_name": "athola/claude-night-market",
-    "readme_chars": 10164,
+    "readme_chars": 9536,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -77,13 +77,11 @@
       "notifications": 1
     },
     "friction": {
-      "level": "low",
-      "score": 28,
+      "level": "moderate",
+      "score": 42,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
-      "easy_signals": [
-        "npx one-liner"
-      ],
+      "easy_signals": [],
       "hard_signals": [],
       "config_signals": [
         "config.json/yaml/toml",
@@ -95,10 +93,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via npx one-liner; configure config.json/yaml/toml, server/reverse-proxy setup",
-      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 config.json/yaml/toml、server/reverse-proxy setup"
+      "note_en": "Some setup. configure config.json/yaml/toml, server/reverse-proxy setup",
+      "note_zh": "需要一些配置。需配置 config.json/yaml/toml、server/reverse-proxy setup"
     },
-    "doc_score": 65,
+    "doc_score": 64,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -123,7 +121,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.59
+      "external_link_ratio": 0.629
     },
     "highlights": [
       "Destructive-command blockers (conserve, hookify)",
@@ -138,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:23:04+00:00",
+  "fetched_at": "2026-11-06T12:10:14+00:00",
   "categories": [
     "desktop-ui"
   ],

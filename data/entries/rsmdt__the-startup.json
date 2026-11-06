@@ -7,7 +7,7 @@
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
   "stars": 577,
-  "forks": 71,
+  "forks": 72,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
@@ -23,21 +23,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 450,
-  "days_since_push": 9,
+  "age_days": 451,
+  "days_since_push": 10,
   "health_score": 51,
   "health_components": {
     "popularity": 55.2,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.28,
     "basis": "history",
     "is_fast_riser": false
@@ -124,22 +124,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:45+00:00",
+  "fetched_at": "2026-11-06T12:09:51+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "mobile"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
+    "note_en": "Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 pedrohcgs/claude-code-my-workflow 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "pedrohcgs/claude-code-my-workflow",
     "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
+      "challenger": "pedrohcgs/claude-code-my-workflow",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
+      "challenger_name": "pedrohcgs/claude-code-my-workflow",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -150,15 +151,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 1.61,
-      "momentum_ratio": 16.0,
-      "setup_delta": -4,
-      "dominance": 0.858,
+      "star_ratio": 2.913,
+      "momentum_ratio": 24.0,
+      "setup_delta": -10,
+      "dominance": 0.993,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.61x the stars (929 vs 577)",
-        "16.00x the star velocity (3.2/day vs 0.2/day)",
-        "no harder to set up (21 vs 25 friction)"
+        "2.91x the stars (1,681 vs 577)",
+        "24.00x the star velocity (1.2/day vs 0.0/day)",
+        "no harder to set up (15 vs 25 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -169,19 +170,19 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
-          "skills-plugins"
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 56,
+        "challenger_health": 61,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 21
+        "challenger_setup_score": 15
       }
     }
   }

@@ -5,8 +5,8 @@
   "owner": "microsoft",
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
-  "homepage": "https://aka.ms/ppskills",
-  "stars": 1115,
+  "homepage": "https://microsoft.github.io/power-platform-skills/",
+  "stars": 1120,
   "forks": 225,
   "open_issues": 170,
   "language": "JavaScript",
@@ -21,57 +21,63 @@
     "power-platform"
   ],
   "created_at": "2026-01-21T18:25:14Z",
-  "updated_at": "2026-11-05T10:02:56Z",
-  "pushed_at": "2026-11-05T10:52:27Z",
+  "updated_at": "2026-11-06T08:41:46Z",
+  "pushed_at": "2026-11-06T04:56:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 287,
+  "age_days": 288,
   "days_since_push": 0,
-  "health_score": 51,
+  "health_score": 53,
   "health_components": {
-    "popularity": 60.9,
-    "momentum": 3.7,
+    "popularity": 61.0,
+    "momentum": 3.8,
     "maintenance": 100.0,
-    "documentation": 45.0,
-    "accessibility": 51.0
+    "documentation": 42.0,
+    "accessibility": 71.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 22,
+    "stars_gained": 23,
     "days_span": 5,
-    "stars_per_day": 4.4,
+    "stars_per_day": 4.6,
     "lifetime_stars_per_day": 3.89,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "microsoft/power-platform-skills",
-    "readme_chars": 18249,
+    "readme_chars": 22706,
     "capabilities": [
       "mobile-access",
       "worktree-isolation",
       "skills-plugins",
       "mcp-support",
+      "security-isolation",
+      "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "mobile-access": "d versions of this project must not cause confusion or imply Microsoft sponsorship.",
+      "mobile-access": "use of third-party trademarks or logos are subject to those third-party's policies.",
       "worktree-isolation": "",
-      "skills-plugins": ", manage tables and columns, and handle security, administration, and solutions.",
-      "mcp-support": "PAC, and verifies registration and bindings.",
+      "skills-plugins": "rwise, run claude plugin update or copilot plugin update .",
+      "mcp-support": "things in a developer environment first.",
+      "security-isolation": "ant, for example \"Create a Power Pages site with React for a job board\".",
+      "gui-desktop": "de Install in GitHub Copilot app",
       "cross-agent-support": "Mentions Claude Code, Copilot"
     },
     "capability_hits": {
-      "mobile-access": 3,
+      "mobile-access": 2,
       "worktree-isolation": 1,
       "skills-plugins": 3,
-      "mcp-support": 17,
+      "mcp-support": 16,
+      "security-isolation": 1,
+      "gui-desktop": 1,
       "cross-agent-support": 2
     },
     "friction": {
-      "level": "moderate",
-      "score": 49,
+      "level": "low",
+      "score": 29,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -82,34 +88,37 @@
       ],
       "config_signals": [
         "environment variables",
-        "config.json/yaml/toml",
         "sign-in required",
-        "database migration"
+        "database dependency"
       ],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
       "platforms": [
         "macOS",
         "Windows",
-        "Linux"
+        "Linux",
+        "Web"
       ],
-      "note_en": "Some setup. install via native installer / package; needs npm install/build; configure environment variables, config.json/yaml/toml",
-      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 npm install/build；需配置 environment variables、config.json/yaml/toml"
+      "note_en": "Easy. install via native installer / package; needs npm install/build; configure environment variables, sign-in required; one-click setup",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 npm install/build；需配置 environment variables、sign-in required；one-click setup"
     },
-    "doc_score": 45,
+    "doc_score": 42,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
       "documents installation",
-      "documents configuration",
       "has contribution guidance",
       "mentions licensing",
-      "links to dedicated docs"
+      "links to dedicated docs",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
       "Copilot"
     ],
-    "summary_en": "Official agent skills/plugins for Power Platform development by Microsoft.",
+    "summary_en": "Plugins from Microsoft that teach AI assistants, such as GitHub Copilot and Claude Code, to build on Power Platform.",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://raw.githubusercontent.com/microsoft/power-platform-skills/main/scripts/install.js | node",
     "source": "raw:HEAD/README.md",
@@ -119,10 +128,10 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.603
+      "external_link_ratio": 2.07
     },
     "highlights": [
-      "Launch GitHub Copilot CLI or Claude Code with the plugin path:"
+      "Choose an AI assistant. Use the GitHub Copilot app, GitHub Copilot CLI, or Claude Code."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -133,8 +142,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:32+00:00",
+  "fetched_at": "2026-11-06T12:09:35+00:00",
   "categories": [
+    "mcp-security",
     "mobile"
   ],
   "primary_category": "mobile",

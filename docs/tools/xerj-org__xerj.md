@@ -2,7 +2,7 @@
 
 # xerj-org/xerj
 
-> XERJ: the search engine for AI agents.
+> English | 简体中文 | 日本語 | العربية | Español | 한국어 | فارسی
 
 [Repository](https://github.com/xerj-org/xerj) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,155 |
-| Star velocity | 265.6/day (history basis, 5d span) |
+| Stars | 19,105 |
+| Star velocity | 113.0/day (history basis, 5d span) |
 | Health score | 87/100 |
-| Documentation | 68/100 |
+| Documentation | 76/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-11-05 (0 days ago) |
-| Analyzed README | 44,022 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 51,081 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### MCP support
 
-> de Code, Cursor and any MCP client.
+> ts nothing, because the model is still loading ("notloaded"); run it again.
 
 ### GUI / desktop app
 
@@ -51,7 +51,7 @@
 - **Difficulty:** 🟢 Easy (friction score 33/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `curl -fsSL https://xerj.org/get | sh`
+- **Quickest install:** `curl -fsSL https://xerj.org/get | sh -s -- --with-model`
 
 **Signals that make it easy:** curl | sh installer, PowerShell irm | iex installer, native installer / package
 
@@ -63,11 +63,12 @@
 
 ## Documentation quality
 
-Score **68/100**, based on these detected signals:
+Score **76/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
+- has a quick-start section
 - documents installation
 - documents configuration
 - has contribution guidance
@@ -83,9 +84,9 @@ Score **68/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.6 |
-| momentum | 100.0 |
+| momentum | 94.2 |
 | maintenance | 100.0 |
-| documentation | 68.0 |
+| documentation | 76.0 |
 | accessibility | 67.0 |
 
 ---

@@ -12,27 +12,27 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,705 |
-| Star velocity | 38.6/day (history basis, 5d span) |
-| Health score | 65/100 |
-| Documentation | 63/100 |
+| Stars | 1,864 |
+| Star velocity | 69.6/day (history basis, 5d span) |
+| Health score | 71/100 |
+| Documentation | 59/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-10 |
-| Last push | 2026-11-05 (0 days ago) |
-| Analyzed README | 60,922 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 61,866 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> reset your settings match, and any switch still overrides it.
+> n header on top of the conversation column (top), below the input, or split into a title row and a bottom status bar (split; Gentle Shell versions older than this one reject a file that stores it and fall back to the de…
 
 ### Remote control
 
-> has it and fall back to the defaults, and a Power user setup saved before it (compact density, no Stats) now reads as a custom mix, so pick Power user again.
+> ne reject a file that has it and fall back to the defaults, and a Power user setup saved before it (no Stats) now reads as Neutral, so pick Power user again.
 
 ### Multi-agent orchestration
 
@@ -95,7 +95,7 @@
 
 ## Documentation quality
 
-Score **63/100**, based on these detected signals:
+Score **59/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -104,7 +104,6 @@ Score **63/100**, based on these detected signals:
 - documents configuration
 - has contribution guidance
 - mentions licensing
-- documents changes
 - reports benchmarks
 - explains architecture
 - long, detailed README
@@ -113,10 +112,10 @@ Score **63/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 64.6 |
-| momentum | 32.2 |
+| popularity | 65.4 |
+| momentum | 58.0 |
 | maintenance | 100.0 |
-| documentation | 63.0 |
+| documentation | 59.0 |
 | accessibility | 78.0 |
 
 ---

@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "full_name": "Jakeschincariol/replica-skill",
+  "name": "replica-skill",
+  "owner": "Jakeschincariol",
+  "url": "https://github.com/Jakeschincariol/replica-skill",
+  "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+  "homepage": "https://opusjake.ai",
+  "stars": 7834,
+  "forks": 1395,
+  "open_issues": 19,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent",
+    "agent-skills",
+    "app-clone",
+    "claude",
+    "claude-code",
+    "claude-skills",
+    "indie-hacker",
+    "reverse-engineering",
+    "saas"
+  ],
+  "created_at": "2026-10-03T12:07:49Z",
+  "updated_at": "2026-11-06T11:58:59Z",
+  "pushed_at": "2026-10-03T12:07:53Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 34,
+  "days_since_push": 34,
+  "health_score": 71,
+  "health_components": {
+    "popularity": 77.9,
+    "momentum": 100.0,
+    "maintenance": 78.0,
+    "documentation": 32.0,
+    "accessibility": 37.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7834,
+    "days_span": 34,
+    "stars_per_day": 230.41,
+    "lifetime_stars_per_day": 230.41,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Jakeschincariol/replica-skill",
+    "readme_chars": 10061,
+    "capabilities": [
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "skills-plugins": ""
+    },
+    "capability_hits": {
+      "skills-plugins": 1
+    },
+    "friction": {
+      "level": "high",
+      "score": 63,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Android"
+      ],
+      "note_en": "Involved setup. needs git clone (build from source); configure database dependency, server/reverse-proxy setup",
+      "note_zh": "配置较重。需要 git clone (build from source)；需配置 database dependency、server/reverse-proxy setup"
+    },
+    "doc_score": 32,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "Eleven Claude skills that clone any app.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.497
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-06T12:08:27+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

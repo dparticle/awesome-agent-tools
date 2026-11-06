@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,879 |
-| Star velocity | 156.8/day (history basis, 5d span) |
+| Stars | 2,035 |
+| Star velocity | 173.0/day (history basis, 5d span) |
 | Health score | 80/100 |
 | Documentation | 57/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | not declared |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-11-05 (0 days ago) |
-| Analyzed README | 19,946 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 19,670 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,13 +44,17 @@
 
 ### Model / provider routing
 
-> nt through its own ACP server (hermes acp); opt-in in Remote settings.
+> Claude and Hermes also support direct file and terminal access, subject to the Host's workspace boundaries and terminal settings. Setup and adapter development: Agent workspace integration guide. Model selection for Cur…
 
 ### Security & isolation
 
 > onversation models with the same smooth workflow as local use.
 
 ### Self-hostable
+
+### Team collaboration
+
+> Agent keeps its own workspaces and sessions; only session translation for DSH is performed, without writing to Harness storage.
 
 ### GUI / desktop app
 
@@ -90,7 +94,7 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 65.5 |
+| popularity | 66.2 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 57.0 |

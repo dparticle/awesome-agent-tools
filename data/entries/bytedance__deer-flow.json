@@ -6,9 +6,9 @@
   "url": "https://github.com/bytedance/deer-flow",
   "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
   "homepage": "https://deerflow.tech",
-  "stars": 85021,
-  "forks": 11945,
-  "open_issues": 1042,
+  "stars": 85061,
+  "forks": 11956,
+  "open_issues": 1059,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -32,33 +32,33 @@
     "typescript"
   ],
   "created_at": "2025-05-07T02:50:19Z",
-  "updated_at": "2026-11-05T12:04:41Z",
-  "pushed_at": "2026-11-05T08:06:20Z",
+  "updated_at": "2026-11-06T11:53:48Z",
+  "pushed_at": "2026-11-06T11:53:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 547,
+  "age_days": 548,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
     "popularity": 98.6,
-    "momentum": 44.8,
+    "momentum": 41.5,
     "maintenance": 100.0,
     "documentation": 80.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 269,
+    "stars_gained": 249,
     "days_span": 5,
-    "stars_per_day": 53.8,
-    "lifetime_stars_per_day": 155.43,
+    "stars_per_day": 49.8,
+    "lifetime_stars_per_day": 155.22,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "bytedance/deer-flow",
-    "readme_chars": 379967,
+    "readme_chars": 380008,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -210,13 +210,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:55+00:00",
+  "fetched_at": "2026-11-06T12:08:52+00:00",
   "categories": [
-    "failover-2",
-    "memory-mcp",
+    "failover",
+    "mobile",
     "teams"
   ],
-  "primary_category": "teams",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

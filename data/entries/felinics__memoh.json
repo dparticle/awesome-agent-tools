@@ -6,9 +6,9 @@
   "url": "https://github.com/felinics/Memoh",
   "description": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory.  You can bring your own key, or host your coding agent like Claude Code, Codex and so on.",
   "homepage": "https://memoh.ai",
-  "stars": 2785,
-  "forks": 265,
-  "open_issues": 57,
+  "stars": 2788,
+  "forks": 266,
+  "open_issues": 51,
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [
@@ -19,27 +19,27 @@
     "personal-assistant"
   ],
   "created_at": "2026-01-12T09:27:39Z",
-  "updated_at": "2026-11-05T10:41:00Z",
-  "pushed_at": "2026-11-05T07:14:42Z",
+  "updated_at": "2026-11-06T10:02:40Z",
+  "pushed_at": "2026-11-06T10:02:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 297,
+  "age_days": 298,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 68.9,
-    "momentum": 2.7,
+    "momentum": 3.0,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 9.38,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 9.36,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,13 +149,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:16+00:00",
+  "fetched_at": "2026-11-06T12:09:18+00:00",
   "categories": [
-    "analytics-3",
-    "failover",
-    "memory-mcp"
+    "desktop-ui-2",
+    "teams"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

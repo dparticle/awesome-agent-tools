@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 514,
   "forks": 132,
-  "open_issues": 36,
+  "open_issues": 35,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -19,35 +19,36 @@
     "pi"
   ],
   "created_at": "2026-04-23T12:03:56Z",
-  "updated_at": "2026-11-05T06:40:32Z",
-  "pushed_at": "2026-11-02T23:14:15Z",
+  "updated_at": "2026-11-06T03:04:41Z",
+  "pushed_at": "2026-11-06T03:04:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 196,
-  "days_since_push": 2,
+  "age_days": 197,
+  "days_since_push": 0,
   "health_score": 49,
   "health_components": {
     "popularity": 54.2,
-    "momentum": 0.8,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 16.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.62,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 2.61,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "chandra447/pi-hermes-memory",
-    "readme_chars": 44677,
+    "readme_chars": 45335,
     "capabilities": [
       "auto-failover",
+      "multi-agent-orchestration",
       "model-routing",
       "session-persistence",
       "memory-context",
@@ -56,6 +57,7 @@
     ],
     "capability_evidence": {
       "auto-failover": "d pi -p processes run with --tools memoryadd,memoryreplace,memoryremove and --exclude-tools mcp*, so a background child cannot edit files, run commands, touch skills, or reach MCP tools even when the fallback model is a…",
+      "multi-agent-orchestration": "kipped by content sniffing (first line must be a {\"type\":\"session\",...} header) and no longer surface as backfill errors; use this setting to also skip whole directories regardless of content, e.g.",
       "model-routing": "ages matching the -oauth-adapter/-auth-adapter naming convention (including scoped packages, via their package.json pi.extensions manifest) are detected automatically.",
       "session-persistence": "operators like OR still work when you need them.",
       "memory-context": "n (production install for Pi).",
@@ -64,6 +66,7 @@
     },
     "capability_hits": {
       "auto-failover": 1,
+      "multi-agent-orchestration": 1,
       "model-routing": 1,
       "session-persistence": 3,
       "memory-context": 5,
@@ -121,7 +124,7 @@
       "signals": [
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.09
+      "external_link_ratio": 0.088
     },
     "highlights": [
       "session-start.persistence-sync and session-start.load",
@@ -138,10 +141,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:49+00:00",
+  "fetched_at": "2026-11-06T12:09:58+00:00",
   "categories": [
-    "failover",
-    "failover-2"
+    "desktop-ui",
+    "failover"
   ],
   "primary_category": "failover",
   "lifecycle": {

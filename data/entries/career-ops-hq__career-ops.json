@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
   "homepage": "https://career-ops.org",
-  "stars": 80333,
-  "forks": 14771,
-  "open_issues": 455,
+  "stars": 80593,
+  "forks": 14825,
+  "open_issues": 429,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "resume"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-11-05T12:18:29Z",
-  "pushed_at": "2026-11-05T12:19:01Z",
+  "updated_at": "2026-11-06T12:03:37Z",
+  "pushed_at": "2026-11-06T10:09:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 214,
+  "age_days": 215,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1366,
+    "stars_gained": 1453,
     "days_span": 5,
-    "stars_per_day": 273.2,
-    "lifetime_stars_per_day": 375.39,
+    "stars_per_day": 290.6,
+    "lifetime_stars_per_day": 374.85,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 45659,
+    "readme_chars": 45744,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -140,7 +140,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.482
+      "external_link_ratio": 0.481
     },
     "highlights": [
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
@@ -157,17 +157,72 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:55+00:00",
+  "fetched_at": "2026-11-06T12:08:53+00:00",
   "categories": [
-    "model-routing",
-    "teams"
+    "sharing"
   ],
-  "primary_category": "teams",
+  "primary_category": "sharing",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by farion1231/cc-switch: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 farion1231/cc-switch 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "farion1231/cc-switch",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "career-ops-hq/career-ops",
+      "challenger": "farion1231/cc-switch",
+      "incumbent_name": "career-ops-hq/career-ops",
+      "challenger_name": "farion1231/cc-switch",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "cross-agent-support",
+        "gui-desktop",
+        "model-routing",
+        "skills-plugins"
+      ],
+      "star_ratio": 1.89,
+      "momentum_ratio": 1.054,
+      "setup_delta": -20,
+      "dominance": 0.701,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "1.89x the stars (152,298 vs 80,593)",
+        "1.05x the star velocity (306.2/day vs 290.6/day)",
+        "no harder to set up (23 vs 43 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "model-routing",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-account-switching",
+          "parallel-execution",
+          "provider-aggregation",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 90,
+        "challenger_health": 93,
+        "incumbent_setup_score": 43,
+        "challenger_setup_score": 23
+      }
+    }
   }
 }

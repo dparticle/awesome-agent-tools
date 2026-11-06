@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 464,
-  "days_since_push": 102,
+  "age_days": 465,
+  "days_since_push": 103,
   "health_score": 43,
   "health_components": {
     "popularity": 48.7,
@@ -143,13 +143,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:23:14+00:00",
+  "fetched_at": "2026-11-06T12:10:27+00:00",
   "categories": [
-    "analytics",
     "desktop-ui-2",
+    "mobile",
     "model-routing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by h0x91b/dev-3.0: covers 100% of capabilities (7/7).",
@@ -174,14 +174,14 @@
         "session-persistence",
         "worktree-isolation"
       ],
-      "star_ratio": 1.194,
-      "momentum_ratio": 2.0,
+      "star_ratio": 1.205,
+      "momentum_ratio": 6.0,
       "setup_delta": -2,
-      "dominance": 0.677,
+      "dominance": 0.792,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "1.19x the stars (326 vs 273)",
-        "2.00x the star velocity (0.4/day vs 0.2/day)",
+        "1.21x the stars (329 vs 273)",
+        "6.00x the star velocity (1.2/day vs 0.2/day)",
         "no harder to set up (12 vs 14 friction)"
       ],
       "reasons_zh": [],

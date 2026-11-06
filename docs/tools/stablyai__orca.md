@@ -2,7 +2,7 @@
 
 # stablyai/orca
 
-> Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place.
+> Run Claude Code, Codex, and any other coding agent in parallel, each in its own worktree.
 
 [Repository](https://github.com/stablyai/orca) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,49 +12,43 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 116,111 |
-| Star velocity | 945.8/day (history basis, 5d span) |
+| Stars | 117,269 |
+| Star velocity | 1044.6/day (history basis, 5d span) |
 | Health score | 92/100 |
-| Documentation | 52/100 |
+| Documentation | 53/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-17 |
-| Last push | 2026-11-05 (0 days ago) |
-| Analyzed README | 17,591 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 20,387 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> ree create, snapshot, click, and fill.
-
-### Quota & usage management
+> - **Dictation**: press a shortcut and talk.
 
 ### Remote control
 
-> Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place.
+> S Apple Silicon · macOS Intel · Windows (.exe) · Linux AppImage · All builds
 
 ### Mobile access
 
-> The AI Orchestrator for 100x builders.
-
 ### Multi-agent orchestration
+
+> r coding agent in parallel, each in its own worktree.
 
 ### Parallel execution
 
-> ### Mobile Companion Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. iOS App Store · Android APK · Docs → ### Parallel Worktrees Fan one prompt acro…
-
 ### Workspace isolation
 
-> when an agent finishes and send follow-ups from anywhere.
-
-### Usage analytics
+> 中文 · 日本語 · 한국어 · Español · Français · Português · Türkçe · Русский The AI Orchestrator for 100x builders.
 
 ### Agent runtime
 
-> k threads unread to come back later.
+> e desktop apps and external browsers.
 
 ### Self-hostable
 
@@ -62,11 +56,11 @@
 
 ### GUI / desktop app
 
-> and rate-limit resets, and hot-swap accounts without re-logging in.
+> tart a workspace for each when you're ready to build.
 
-### Notifications
+### Voice input
 
-> *Rich repo previews** — Preview Markdown, images, PDFs, and repo docs in the workspace.
+> Markdown right in the workspace, next to the agent that made them.
 
 ### Cross-agent support
 
@@ -85,7 +79,7 @@
 
 ## Documentation quality
 
-Score **52/100**, based on these detected signals:
+Score **53/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -95,6 +89,7 @@ Score **52/100**, based on these detected signals:
 - mentions licensing
 - links to dedicated docs
 - documents changes
+- long, detailed README
 
 ## Score breakdown
 
@@ -103,7 +98,7 @@ Score **52/100**, based on these detected signals:
 | popularity | 100.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 52.0 |
+| documentation | 53.0 |
 | accessibility | 100.0 |
 
 ---

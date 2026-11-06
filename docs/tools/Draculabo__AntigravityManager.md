@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,461 |
-| Star velocity | 8.2/day (history basis, 5d span) |
-| Health score | 55/100 |
+| Stars | 2,471 |
+| Star velocity | 9.2/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 60/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2025-11-29 |
-| Last push | 2026-11-04 (0 days ago) |
+| Last push | 2026-11-04 (1 days ago) |
 | Analyzed README | 18,559 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (8/8).
+> ⚠️ **Superseded by [ardeyouxipianyi/workbuddy2api-hub](https://github.com/ardeyouxipianyi/workbuddy2api-hub)** — Superseded by ardeyouxipianyi/workbuddy2api-hub: covers 100% of capabilities (8/8).
 
 ## What it solves
 
@@ -92,8 +92,8 @@ Score **60/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 67.8 |
-| momentum | 6.8 |
+| popularity | 67.9 |
+| momentum | 7.7 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 43.0 |

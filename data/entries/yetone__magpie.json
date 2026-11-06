@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 30245,
-  "forks": 2608,
-  "open_issues": 3168,
+  "stars": 31001,
+  "forks": 2693,
+  "open_issues": 3273,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-11-05T12:19:56Z",
-  "pushed_at": "2026-11-05T12:16:34Z",
+  "updated_at": "2026-11-06T12:06:32Z",
+  "pushed_at": "2026-11-06T12:06:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 42,
+  "age_days": 43,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
-    "popularity": 89.6,
+    "popularity": 89.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 63.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3625,
+    "stars_gained": 3681,
     "days_span": 5,
-    "stars_per_day": 725.0,
-    "lifetime_stars_per_day": 720.12,
+    "stars_per_day": 736.2,
+    "lifetime_stars_per_day": 720.95,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 24153,
+    "readme_chars": 24021,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -62,7 +62,7 @@
       "quota-management": "one key that matters in the agent's own config.",
       "multi-agent-orchestration": "**Sync** Back up to a file, or sync machines over WebDAV (Nutstore, Nextcloud…), S3, or an encrypted GitHub repository backup",
       "model-routing": "y, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to.",
-      "api-gateway": "t Cloud · Huawei Cloud MaaS · Volcengine Ark · Mistral · Groq · Nous Portal · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…",
+      "api-gateway": "awei Cloud MaaS · Volcengine Ark · Mistral · Voyage AI · Groq · Nous Portal · xAI · OpenRouter · Together · Fireworks · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…",
       "mcp-support": "ers it as a provider to every other agent.",
       "gui-desktop": "f you use more than one agent, more than one provider, or more than one account.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
@@ -139,7 +139,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.449
+      "external_link_ratio": 1.499
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -160,13 +160,13 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-05T12:21:19+00:00",
+  "fetched_at": "2026-11-06T12:08:11+00:00",
   "categories": [
-    "memory-mcp",
-    "model-routing",
+    "billing",
+    "mcp-security",
     "sharing"
   ],
-  "primary_category": "sharing",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

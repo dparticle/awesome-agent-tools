@@ -7,8 +7,8 @@
   "description": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
   "homepage": "https://heyclau.de",
   "stars": 306,
-  "forks": 178,
-  "open_issues": 70,
+  "forks": 180,
+  "open_issues": 72,
   "language": "MDX",
   "license": "MIT",
   "topics": [
@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 416,
-  "days_since_push": 2,
+  "age_days": 417,
+  "days_since_push": 3,
   "health_score": 53,
   "health_components": {
     "popularity": 49.7,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 0.74,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 0.73,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -240,13 +240,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:23:10+00:00",
+  "fetched_at": "2026-11-06T12:10:22+00:00",
   "categories": [
-    "analytics",
     "analytics-3",
+    "mobile",
     "teams"
   ],
-  "primary_category": "teams",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

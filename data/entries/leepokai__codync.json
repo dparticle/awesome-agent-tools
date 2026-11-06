@@ -6,9 +6,9 @@
   "url": "https://github.com/leepokai/Codync",
   "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
   "homepage": "https://www.codync.dev",
-  "stars": 1888,
-  "forks": 195,
-  "open_issues": 84,
+  "stars": 1918,
+  "forks": 198,
+  "open_issues": 83,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "self-hosted"
   ],
   "created_at": "2026-03-18T11:11:05Z",
-  "updated_at": "2026-11-05T12:16:31Z",
-  "pushed_at": "2026-11-05T07:06:42Z",
+  "updated_at": "2026-11-06T11:11:56Z",
+  "pushed_at": "2026-11-06T09:28:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 232,
+  "age_days": 233,
   "days_since_push": 0,
-  "health_score": 83,
+  "health_score": 80,
   "health_components": {
-    "popularity": 65.5,
-    "momentum": 100.0,
+    "popularity": 65.7,
+    "momentum": 84.7,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 91.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 773,
+    "stars_gained": 508,
     "days_span": 5,
-    "stars_per_day": 154.6,
-    "lifetime_stars_per_day": 8.14,
+    "stars_per_day": 101.6,
+    "lifetime_stars_per_day": 8.23,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "leepokai/Codync",
-    "readme_chars": 25348,
+    "readme_chars": 25113,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -81,7 +81,7 @@
       "security-isolation": "ut being tied to one model or one subscription.",
       "gui-desktop": "OS, Windows and Linux (static on Linux, runs on any distro) that drives every agent, keeps the transcripts and serves every client.",
       "notifications": "40 more — into persistent *bots* you delegate to from your iPhone, Mac, Windows PC, Linux desktop or any terminal, the way you'd message a colleague.",
-      "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
       "remote-control": 2,
@@ -92,7 +92,7 @@
       "security-isolation": 3,
       "gui-desktop": 8,
       "notifications": 4,
-      "cross-agent-support": 7
+      "cross-agent-support": 6
     },
     "friction": {
       "level": "turnkey",
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.894
+      "external_link_ratio": 1.911
     },
     "highlights": [
       "codync-host (Rust, macOS, Windows and Linux) runs on your computer.",
@@ -171,11 +171,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:20+00:00",
+  "fetched_at": "2026-11-06T12:09:22+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile",
-    "security"
+    "mcp-security",
+    "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {

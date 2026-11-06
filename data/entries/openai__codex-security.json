@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11306,
-  "forks": 905,
-  "open_issues": 120,
+  "stars": 11311,
+  "forks": 908,
+  "open_issues": 149,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-11-05T09:29:27Z",
-  "pushed_at": "2026-11-05T11:06:48Z",
+  "updated_at": "2026-11-06T09:52:31Z",
+  "pushed_at": "2026-11-06T12:04:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
+  "age_days": 115,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 81.1,
-    "momentum": 6.3,
+    "momentum": 6.7,
     "maintenance": 100.0,
     "documentation": 41.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 38,
+    "stars_gained": 40,
     "days_span": 5,
-    "stars_per_day": 7.6,
-    "lifetime_stars_per_day": 99.18,
+    "stars_per_day": 8.0,
+    "lifetime_stars_per_day": 98.36,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openai/codex-security",
-    "readme_chars": 9491,
+    "readme_chars": 9580,
     "capabilities": [
       "model-routing"
     ],
@@ -110,13 +110,13 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.211
+      "external_link_ratio": 0.209
     },
     "highlights": [
-      "Import Semgrep, Snyk, and Wiz findings locally or publish them to Codex Security Cloud.",
+      "Track findings in Linear, Jira, or GitHub, publish completed scans, or export SARIF, JSON, and CSV.",
+      "Preview third-party scanner findings, save them locally, or publish supported reports to Codex Security Cloud.",
       "Validate candidate findings, generate patches, and verify existing fixes.",
-      "Browse saved scans and findings, identify duplicates, assess severity against",
-      "Scan repositories, selected paths, or Git changes."
+      "Browse saved scans and findings, identify duplicates, assess severity against"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -127,7 +127,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:30+00:00",
+  "fetched_at": "2026-11-06T12:08:23+00:00",
   "categories": [
     "model-routing"
   ],

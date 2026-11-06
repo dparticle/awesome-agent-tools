@@ -6,34 +6,34 @@
   "url": "https://github.com/yetone/cumora",
   "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
   "homepage": "https://cumora.ai",
-  "stars": 4129,
-  "forks": 542,
+  "stars": 4136,
+  "forks": 543,
   "open_issues": 27,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-08-17T09:13:52Z",
-  "updated_at": "2026-11-05T10:46:21Z",
+  "updated_at": "2026-11-06T10:47:43Z",
   "pushed_at": "2026-11-01T07:18:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 80,
-  "days_since_push": 4,
+  "age_days": 81,
+  "days_since_push": 5,
   "health_score": 56,
   "health_components": {
     "popularity": 72.3,
-    "momentum": 10.7,
+    "momentum": 10.0,
     "maintenance": 100.0,
     "documentation": 34.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 64,
+    "stars_gained": 60,
     "days_span": 5,
-    "stars_per_day": 12.8,
-    "lifetime_stars_per_day": 51.61,
+    "stars_per_day": 12.0,
+    "lifetime_stars_per_day": 51.06,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -137,10 +137,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:42+00:00",
+  "fetched_at": "2026-11-06T12:08:37+00:00",
   "categories": [
     "desktop-ui-2",
-    "memory-mcp",
     "teams"
   ],
   "primary_category": "teams",
@@ -170,14 +169,14 @@
         "self-hosted",
         "team-collaboration"
       ],
-      "star_ratio": 2.72,
-      "momentum_ratio": 1.391,
+      "star_ratio": 2.722,
+      "momentum_ratio": 1.767,
       "setup_delta": -8,
-      "dominance": 0.819,
+      "dominance": 0.849,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "2.72x the stars (11,230 vs 4,129)",
-        "1.39x the star velocity (17.8/day vs 12.8/day)",
+        "2.72x the stars (11,257 vs 4,136)",
+        "1.77x the star velocity (21.2/day vs 12.0/day)",
         "no harder to set up (25 vs 33 friction)"
       ],
       "reasons_zh": [],
@@ -210,7 +209,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 67,
+        "challenger_health": 68,
         "incumbent_setup_score": 33,
         "challenger_setup_score": 25
       }

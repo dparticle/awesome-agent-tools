@@ -6,9 +6,9 @@
   "url": "https://github.com/BennyKok/omg.dev",
   "description": "omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcode with mobile client",
   "homepage": "https://omg.dev",
-  "stars": 555,
+  "stars": 554,
   "forks": 42,
-  "open_issues": 11,
+  "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "self-hosted"
   ],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-11-05T11:31:55Z",
-  "pushed_at": "2026-11-05T11:31:50Z",
+  "updated_at": "2026-11-06T08:08:30Z",
+  "pushed_at": "2026-11-06T08:08:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 141,
+  "age_days": 142,
   "days_since_push": 0,
-  "health_score": 51,
+  "health_score": 50,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
-    "documentation": 43.0,
+    "documentation": 42.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 3.94,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 3.9,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "BennyKok/omg.dev",
-    "readme_chars": 5312,
+    "readme_chars": 4393,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -64,7 +64,7 @@
       "remote-control": "",
       "mobile-access": "",
       "agent-runtime": "Build your ideas on the go. Give your agents a task from your phone.",
-      "self-hosted": "s for Claude Code, Codex, and other coding agents.",
+      "self-hosted": "Open-source harness for Claude Code, Codex, and other coding agents.",
       "gui-desktop": "",
       "notifications": "",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
@@ -75,7 +75,7 @@
       "agent-runtime": 2,
       "self-hosted": 1,
       "gui-desktop": 1,
-      "notifications": 3,
+      "notifications": 2,
       "cross-agent-support": 5
     },
     "friction": {
@@ -96,13 +96,12 @@
       "platforms": [
         "macOS",
         "Linux",
-        "iOS",
         "Web"
       ],
       "note_en": "Easy. install via native installer / package; needs git clone (build from source); configure sign-in required",
       "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 sign-in required"
     },
-    "doc_score": 43,
+    "doc_score": 42,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -127,7 +126,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 2.636
+      "external_link_ratio": 2.732
     },
     "highlights": [
       "Managed sessions keep running when the UI disconnects.",
@@ -144,11 +143,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:46+00:00",
+  "fetched_at": "2026-11-06T12:09:53+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile",
-    "model-routing"
+    "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {

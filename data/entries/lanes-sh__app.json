@@ -6,7 +6,7 @@
   "url": "https://github.com/lanes-sh/app",
   "description": "Run many CLI (Coding) Agents in parallel lanes: issues, worktrees, sessions, and loops on one board. The agentic development environment.",
   "homepage": "https://lanes.sh",
-  "stars": 278,
+  "stars": 277,
   "forks": 16,
   "open_issues": 11,
   "language": "",
@@ -31,27 +31,27 @@
     "vibe-coding"
   ],
   "created_at": "2026-03-22T21:18:28Z",
-  "updated_at": "2026-11-05T07:24:20Z",
+  "updated_at": "2026-11-05T14:12:08Z",
   "pushed_at": "2026-10-31T10:21:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 227,
-  "days_since_push": 5,
+  "age_days": 228,
+  "days_since_push": 6,
   "health_score": 50,
   "health_components": {
-    "popularity": 48.9,
-    "momentum": 0.3,
+    "popularity": 48.8,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 88.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.22,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.21,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:23:14+00:00",
+  "fetched_at": "2026-11-06T12:10:26+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "mobile"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 122.482,
-      "momentum_ratio": 55.5,
+      "star_ratio": 122.986,
+      "momentum_ratio": 103.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "122.48x the stars (34,050 vs 278)",
-        "55.50x the star velocity (22.2/day vs 0.4/day)",
+        "122.99x the stars (34,067 vs 277)",
+        "103.00x the star velocity (20.6/day vs 0.2/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -217,7 +217,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 72,
+        "challenger_health": 71,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2
       }

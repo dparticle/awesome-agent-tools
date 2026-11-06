@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 277,
-  "days_since_push": 49,
+  "age_days": 278,
+  "days_since_push": 50,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
@@ -37,7 +37,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 7.79,
+    "lifetime_stars_per_day": 7.76,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,13 +149,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:19+00:00",
+  "fetched_at": "2026-11-06T12:09:21+00:00",
   "categories": [
-    "analytics",
     "analytics-3",
-    "security"
+    "mobile",
+    "model-routing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "active",
     "note_en": "",

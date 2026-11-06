@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,091 |
-| Star velocity | 1073.0/day (history basis, 5d span) |
-| Health score | 82/100 |
+| Stars | 12,746 |
+| Star velocity | 882.6/day (history basis, 5d span) |
+| Health score | 84/100 |
 | Documentation | 42/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-09-13 |
-| Last push | 2026-11-04 (0 days ago) |
-| Analyzed README | 8,149 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 8,391 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,6 +34,8 @@
 
 > prove the specification before implementing.
 
+### GUI / desktop app
+
 ### Notifications
 
 > For **Claude Cowork** and **ChatGPT Work**, see the setup guide.
@@ -44,11 +46,11 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 30/100)
+- **Difficulty:** 🟢 Easy (friction score 23/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 
-*Easy. No setup signals found in the README.*
+*Easy. GUI application*
 
 ## Documentation quality
 
@@ -66,11 +68,11 @@ Score **42/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.6 |
+| popularity | 82.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
-| accessibility | 70.0 |
+| accessibility | 85.0 |
 
 ---
 

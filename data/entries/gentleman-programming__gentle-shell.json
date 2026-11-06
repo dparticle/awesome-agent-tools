@@ -6,9 +6,9 @@
   "url": "https://github.com/Gentleman-Programming/gentle-shell",
   "description": "Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel coding agents, live tasks, Git diffs, persistent memory, and permission controls into one terminal interface. Powered by Gentle AI and Organic Driven Development (ODD).",
   "homepage": "https://gentle-ai.gentlemanprogramming.com/",
-  "stars": 1705,
-  "forks": 255,
-  "open_issues": 468,
+  "stars": 1864,
+  "forks": 257,
+  "open_issues": 450,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "tdd"
   ],
   "created_at": "2026-05-10T10:11:33Z",
-  "updated_at": "2026-11-05T12:05:03Z",
-  "pushed_at": "2026-11-05T05:14:37Z",
+  "updated_at": "2026-11-06T11:58:25Z",
+  "pushed_at": "2026-11-06T11:57:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 179,
+  "age_days": 180,
   "days_since_push": 0,
-  "health_score": 65,
+  "health_score": 71,
   "health_components": {
-    "popularity": 64.6,
-    "momentum": 32.2,
+    "popularity": 65.4,
+    "momentum": 58.0,
     "maintenance": 100.0,
-    "documentation": 63.0,
+    "documentation": 59.0,
     "accessibility": 78.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 193,
+    "stars_gained": 348,
     "days_span": 5,
-    "stars_per_day": 38.6,
-    "lifetime_stars_per_day": 9.53,
+    "stars_per_day": 69.6,
+    "lifetime_stars_per_day": 10.36,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Gentleman-Programming/gentle-shell",
-    "readme_chars": 60922,
+    "readme_chars": 61866,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -77,8 +77,8 @@
       "voice-input"
     ],
     "capability_evidence": {
-      "auto-failover": "reset your settings match, and any switch still overrides it.",
-      "remote-control": "has it and fall back to the defaults, and a Power user setup saved before it (compact density, no Stats) now reads as a custom mix, so pick Power user again.",
+      "auto-failover": "n header on top of the conversation column (top), below the input, or split into a title row and a bottom status bar (split; Gentle Shell versions older than this one reject a file that stores it and fall back to the de…",
+      "remote-control": "ne reject a file that has it and fall back to the defaults, and a Power user setup saved before it (no Stats) now reads as Neutral, so pick Power user again.",
       "multi-agent-orchestration": "e, and a bounded work classification that other sessions can list, search, and consult with explicit cost permission.",
       "parallel-execution": "creen two-pane viewer with per-file line counts and lazy diffs, F hides the file list to read the diff at full width, and o drops the real file into your editor.",
       "worktree-isolation": "in every worktree to find out what your agents left behind.",
@@ -92,7 +92,7 @@
       "voice-input": "le:music [mood] opens the gentle-stream player full screen; b returns to Pi with the music playing."
     },
     "capability_hits": {
-      "auto-failover": 2,
+      "auto-failover": 3,
       "remote-control": 1,
       "multi-agent-orchestration": 5,
       "parallel-execution": 1,
@@ -135,7 +135,7 @@
       "note_en": "Easy. install via download a release binary, native installer / package; needs git clone (build from source), pnpm install/build; configure sign-in required, database migration; GUI application",
       "note_zh": "较易上手。可通过 download a release binary、native installer / package 安装；需要 git clone (build from source)、pnpm install/build；需配置 sign-in required、database migration；GUI application"
     },
-    "doc_score": 63,
+    "doc_score": 59,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -144,7 +144,6 @@
       "documents configuration",
       "has contribution guidance",
       "mentions licensing",
-      "documents changes",
       "reports benchmarks",
       "explains architecture",
       "long, detailed README"
@@ -160,7 +159,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.312
+      "external_link_ratio": 0.307
     },
     "highlights": [
       "OGG/FLAC keep the legacy CLI backend (paplay/pw-play/aplay) on Linux and WSL; native codecs are a future phase and Windows OGG/FLAC is unsupported.",
@@ -176,13 +175,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:22+00:00",
+  "fetched_at": "2026-11-06T12:09:23+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
-    "failover-2"
+    "mobile",
+    "model-routing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

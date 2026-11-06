@@ -6,9 +6,9 @@
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
   "homepage": "https://paperclip.ing",
-  "stars": 111268,
-  "forks": 18427,
-  "open_issues": 6595,
+  "stars": 111606,
+  "forks": 18476,
+  "open_issues": 6463,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "workflow-automation"
   ],
   "created_at": "2026-03-02T15:01:51Z",
-  "updated_at": "2026-11-05T12:17:19Z",
-  "pushed_at": "2026-11-05T12:15:28Z",
+  "updated_at": "2026-11-06T12:03:42Z",
+  "pushed_at": "2026-11-06T12:00:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 247,
+  "age_days": 248,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2157,
+    "stars_gained": 1928,
     "days_span": 5,
-    "stars_per_day": 431.4,
-    "lifetime_stars_per_day": 450.48,
+    "stars_per_day": 385.6,
+    "lifetime_stars_per_day": 450.02,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -192,13 +192,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:50+00:00",
+  "fetched_at": "2026-11-06T12:08:48+00:00",
   "categories": [
-    "analytics",
-    "failover",
-    "security"
+    "analytics-3",
+    "desktop-ui",
+    "mobile"
   ],
-  "primary_category": "analytics",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

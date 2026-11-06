@@ -6,8 +6,8 @@
   "url": "https://github.com/shengjidaguai-china/goutoujunshi",
   "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
   "homepage": "",
-  "stars": 9228,
-  "forks": 945,
+  "stars": 9295,
+  "forks": 953,
   "open_issues": 11,
   "language": "Python",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "relationship-advice"
   ],
   "created_at": "2026-07-20T14:58:48Z",
-  "updated_at": "2026-11-05T11:53:06Z",
+  "updated_at": "2026-11-06T11:51:28Z",
   "pushed_at": "2026-09-20T12:23:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 107,
-  "days_since_push": 45,
-  "health_score": 65,
+  "age_days": 108,
+  "days_since_push": 46,
+  "health_score": 66,
   "health_components": {
-    "popularity": 79.3,
-    "momentum": 49.7,
+    "popularity": 79.4,
+    "momentum": 53.8,
     "maintenance": 78.0,
     "documentation": 42.0,
     "accessibility": 70.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 298,
+    "stars_gained": 323,
     "days_span": 5,
-    "stars_per_day": 59.6,
-    "lifetime_stars_per_day": 86.24,
+    "stars_per_day": 64.6,
+    "lifetime_stars_per_day": 86.06,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -101,9 +101,9 @@
     },
     "highlights": [
       "策略必须说明代价。 可以讨论撒娇、推拉、节奏和表达包装，但同时交代适用条件与长期成本。",
+      "危险情境先保安全。 暴力、胁迫、跟踪、诈骗和自伤风险不能用普通恋爱话术处理。",
       "互惠比追到更重要。 得到某一个人不是唯一胜利；减少内耗、保留尊严与未来选择权同样是成功。",
-      "先接住人，再解决事。 情绪没有被看见时，最正确的建议也可能无法执行。",
-      "分享一个匿名化的真实场景，帮助我们补齐关系案例；"
+      "先接住人，再解决事。 情绪没有被看见时，最正确的建议也可能无法执行。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -114,7 +114,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:33+00:00",
+  "fetched_at": "2026-11-06T12:08:26+00:00",
   "categories": [
     "failover"
   ],

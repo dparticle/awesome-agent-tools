@@ -6,9 +6,9 @@
   "url": "https://github.com/sandbox-quantum/switch",
   "description": "Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.",
   "homepage": "https://www.switchagents.ai",
-  "stars": 3894,
-  "forks": 270,
-  "open_issues": 520,
+  "stars": 4003,
+  "forks": 287,
+  "open_issues": 558,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -27,27 +27,27 @@
     "slack"
   ],
   "created_at": "2026-07-16T09:52:46Z",
-  "updated_at": "2026-11-05T12:06:44Z",
-  "pushed_at": "2026-11-05T12:19:38Z",
+  "updated_at": "2026-11-06T12:02:18Z",
+  "pushed_at": "2026-11-06T12:06:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 112,
+  "age_days": 113,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
-    "popularity": 71.8,
-    "momentum": 29.0,
+    "popularity": 72.0,
+    "momentum": 29.5,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3894,
-    "days_span": 112,
-    "stars_per_day": 34.77,
-    "lifetime_stars_per_day": 34.77,
+    "stars_gained": 4003,
+    "days_span": 113,
+    "stars_per_day": 35.42,
+    "lifetime_stars_per_day": 35.42,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -142,75 +142,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:43+00:00",
+  "fetched_at": "2026-11-06T12:08:38+00:00",
   "categories": [
     "analytics-3",
-    "desktop-ui-2",
-    "security"
+    "desktop-ui-2"
   ],
   "primary_category": "analytics-3",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "genspark-ai/genoffice",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "sandbox-quantum/switch",
-      "challenger": "genspark-ai/genoffice",
-      "incumbent_name": "sandbox-quantum/switch",
-      "challenger_name": "genspark-ai/genoffice",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "self-hosted",
-        "usage-analytics"
-      ],
-      "star_ratio": 3.019,
-      "momentum_ratio": 1.967,
-      "setup_delta": 11,
-      "dominance": 0.829,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "3.02x the stars (11,757 vs 3,894)",
-        "1.97x the star velocity (68.4/day vs 34.8/day)",
-        "slightly heavier setup (+11 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "self-hosted",
-          "usage-analytics"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "usage-analytics"
-        ],
-        "incumbent_health": 68,
-        "challenger_health": 75,
-        "incumbent_setup_score": 9,
-        "challenger_setup_score": 20
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

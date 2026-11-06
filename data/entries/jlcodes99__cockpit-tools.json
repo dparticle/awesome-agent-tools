@@ -6,9 +6,9 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "stars": 19740,
-  "forks": 1772,
-  "open_issues": 986,
+  "stars": 19771,
+  "forks": 1779,
+  "open_issues": 1002,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -23,27 +23,27 @@
     "windsurf"
   ],
   "created_at": "2026-01-16T07:09:32Z",
-  "updated_at": "2026-11-05T11:59:26Z",
+  "updated_at": "2026-11-06T12:04:32Z",
   "pushed_at": "2026-11-05T11:49:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 293,
-  "days_since_push": 0,
+  "age_days": 294,
+  "days_since_push": 1,
   "health_score": 69,
   "health_components": {
     "popularity": 85.9,
-    "momentum": 27.3,
+    "momentum": 28.0,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 164,
+    "stars_gained": 168,
     "days_span": 5,
-    "stars_per_day": 32.8,
-    "lifetime_stars_per_day": 67.37,
+    "stars_per_day": 33.6,
+    "lifetime_stars_per_day": 67.25,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -183,13 +183,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:22:05+00:00",
+  "fetched_at": "2026-11-06T12:09:05+00:00",
   "categories": [
     "billing",
-    "memory-mcp",
-    "sharing"
+    "mcp-security",
+    "mobile"
   ],
-  "primary_category": "sharing",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

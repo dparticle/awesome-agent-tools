@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 555 |
-| Star velocity | 0.4/day (history basis, 5d span) |
-| Health score | 51/100 |
-| Documentation | 43/100 |
+| Stars | 554 |
+| Star velocity | 0.2/day (history basis, 5d span) |
+| Health score | 50/100 |
+| Documentation | 42/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-17 |
-| Last push | 2026-11-05 (0 days ago) |
-| Analyzed README | 5,312 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 4,393 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Self-hostable
 
-> s for Claude Code, Codex, and other coding agents.
+> Open-source harness for Claude Code, Codex, and other coding agents.
 
 ### GUI / desktop app
 
@@ -62,7 +62,7 @@
 
 ## Documentation quality
 
-Score **43/100**, based on these detected signals:
+Score **42/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -77,9 +77,9 @@ Score **43/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.9 |
-| momentum | 0.3 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
-| documentation | 43.0 |
+| documentation | 42.0 |
 | accessibility | 69.0 |
 
 ---

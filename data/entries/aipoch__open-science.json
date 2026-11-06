@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5468,
-  "forks": 551,
-  "open_issues": 46,
+  "stars": 5475,
+  "forks": 552,
+  "open_issues": 38,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,12 +34,12 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-05T11:34:15Z",
-  "pushed_at": "2026-11-05T12:04:27Z",
+  "updated_at": "2026-11-06T11:31:20Z",
+  "pushed_at": "2026-11-06T11:53:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 125,
+  "age_days": 126,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
@@ -54,13 +54,13 @@
     "stars_gained": 63,
     "days_span": 5,
     "stars_per_day": 12.6,
-    "lifetime_stars_per_day": 43.74,
+    "lifetime_stars_per_day": 43.45,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 49403,
+    "readme_chars": 52925,
     "capabilities": [
       "remote-control",
       "model-routing",
@@ -159,9 +159,12 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.445
+      "external_link_ratio": 0.416
     },
-    "highlights": [],
+    "highlights": [
+      "Model support: Tencent TokenHub adds Hy4 and DeepSeek V4.1 Flash routes, plus image input for selected models.",
+      "Batch reference import: Import up to 100 DOI, arXiv, or PubMed identifiers or official article links at once, with normalization and deduplication."
+    ],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -171,13 +174,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-05T12:21:38+00:00",
+  "fetched_at": "2026-11-06T12:08:33+00:00",
   "categories": [
-    "memory-mcp",
-    "model-routing",
-    "security"
+    "mcp-security",
+    "mobile"
   ],
-  "primary_category": "security",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

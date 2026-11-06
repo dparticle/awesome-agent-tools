@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,146 |
-| Star velocity | 2.6/day (history basis, 5d span) |
+| Stars | 1,150 |
+| Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-05 |
-| Last push | 2026-11-05 (0 days ago) |
-| Analyzed README | 15,557 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 15,690 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### MCP support
 
-> ns, tool-flow graphs, concurrency, delegation, and compaction analysis.
+> Launch Claude Code or Codex, stream output, send follow-ups, resume previous work, and reattach to background runs.
 
 ### GUI / desktop app
 
@@ -92,7 +92,7 @@ Score **58/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 61.2 |
-| momentum | 2.2 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 58.0 |
 | accessibility | 70.0 |
