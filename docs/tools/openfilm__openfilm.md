@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,000 |
-| Star velocity | 151.5/day (lifetime basis, 33d span) |
+| Stars | 5,159 |
+| Star velocity | 151.7/day (lifetime basis, 34d span) |
 | Health score | 80/100 |
-| Documentation | 36/100 |
+| Documentation | 37/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-04 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 8,427 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 10,199 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### GUI / desktop app
 
-> packages/openfilm/.dev/bin/openfilm and it makes films with your checkout, in that
+> video for my CLI, with music.
 
 ### Cross-agent support
 
@@ -40,7 +40,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 27/100)
+- **Difficulty:** 🟢 Easy (friction score 33/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
 - **Quickest install:** `npx skills add openfilm/openfilm`
@@ -49,11 +49,13 @@
 
 **Signals that add work:** git clone (build from source), pnpm install/build
 
-*Easy. install via npx one-liner; needs git clone (build from source), pnpm install/build; GUI application*
+**Configuration required:** sign-in required
+
+*Easy. install via npx one-liner; needs git clone (build from source), pnpm install/build; configure sign-in required; GUI application*
 
 ## Documentation quality
 
-Score **36/100**, based on these detected signals:
+Score **37/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -66,11 +68,11 @@ Score **36/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.0 |
+| popularity | 74.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 36.0 |
-| accessibility | 81.0 |
+| documentation | 37.0 |
+| accessibility | 75.0 |
 
 ---
 

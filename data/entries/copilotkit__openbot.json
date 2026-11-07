@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "https://www.copilotkit.ai/openbot",
-  "stars": 10303,
-  "forks": 1281,
-  "open_issues": 65,
+  "stars": 10354,
+  "forks": 1289,
+  "open_issues": 76,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-06T12:04:25Z",
-  "pushed_at": "2026-11-06T06:17:03Z",
+  "updated_at": "2026-11-07T11:00:26Z",
+  "pushed_at": "2026-11-07T11:01:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 81,
+  "age_days": 82,
   "days_since_push": 0,
-  "health_score": 84,
+  "health_score": 83,
   "health_components": {
     "popularity": 80.3,
-    "momentum": 100.0,
+    "momentum": 88.7,
     "maintenance": 100.0,
-    "documentation": 73.0,
-    "accessibility": 51.0
+    "documentation": 69.0,
+    "accessibility": 67.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1091,
+    "stars_gained": 532,
     "days_span": 5,
-    "stars_per_day": 218.2,
-    "lifetime_stars_per_day": 127.2,
+    "stars_per_day": 106.4,
+    "lifetime_stars_per_day": 126.27,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 35006,
+    "readme_chars": 35484,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -55,33 +55,37 @@
       "mcp-support",
       "security-isolation",
       "self-hosted",
+      "gui-desktop",
       "notifications"
     ],
     "capability_evidence": {
       "auto-failover": "et responses and the rest get chat.",
-      "model-routing": "verything is on 3001 here, the app included, rather than the 3010 the clone uses.",
+      "model-routing": "",
       "session-persistence": "",
-      "mcp-support": "ack into themes it can cite.",
+      "mcp-support": "- **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account, each reached as the p",
       "security-isolation": "who gets in**: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.",
       "self-hosted": "Defaults to ../examples/fintech.",
+      "gui-desktop": "your own coworkers, channels, and skills.",
       "notifications": ""
     },
     "capability_hits": {
       "auto-failover": 1,
       "model-routing": 1,
       "session-persistence": 1,
-      "mcp-support": 3,
+      "mcp-support": 2,
       "security-isolation": 2,
-      "self-hosted": 4,
+      "self-hosted": 5,
+      "gui-desktop": 1,
       "notifications": 1
     },
     "friction": {
-      "level": "moderate",
-      "score": 49,
+      "level": "low",
+      "score": 33,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
-        "npx one-liner"
+        "npx one-liner",
+        "native installer / package"
       ],
       "hard_signals": [
         "docker run"
@@ -92,16 +96,19 @@
         "server/reverse-proxy setup",
         "process manager"
       ],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
       "platforms": [
         "macOS",
+        "Windows",
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via npx one-liner; needs docker run; configure sign-in required, database dependency",
-      "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 docker run；需配置 sign-in required、database dependency"
+      "note_en": "Easy. install via npx one-liner, native installer / package; needs docker run; configure sign-in required, database dependency; GUI application",
+      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 docker run；需配置 sign-in required、database dependency；GUI application"
     },
-    "doc_score": 73,
+    "doc_score": 69,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -112,12 +119,11 @@
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
-      "documents changes",
       "explains architecture",
       "long, detailed README"
     ],
     "agents": [],
-    "summary_en": "The AI assistant your company can actually own.",
+    "summary_en": "OpenBot is a self-hostable workspace for AI coworkers.",
     "summary_zh": "",
     "install_hint": "npx --yes copilotkit@latest login",
     "source": "raw:HEAD/README.md",
@@ -127,7 +133,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.457
+      "external_link_ratio": 0.592
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -144,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:25+00:00",
+  "fetched_at": "2026-11-07T11:05:36+00:00",
   "categories": [
     "analytics-3",
     "mcp-security",
@@ -152,73 +158,10 @@
   ],
   "primary_category": "teams",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "copilotkit/openbot",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "CopilotKit/OpenBot",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "mcp-support",
-        "model-routing",
-        "notifications",
-        "security-isolation",
-        "self-hosted",
-        "session-persistence"
-      ],
-      "star_ratio": 28.944,
-      "momentum_ratio": 3.515,
-      "setup_delta": 8,
-      "dominance": 0.916,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "28.94x the stars (298,205 vs 10,303)",
-        "3.52x the star velocity (767.0/day vs 218.2/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "mcp-support",
-          "model-routing",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 84,
-        "challenger_health": 89,
-        "incumbent_setup_score": 49,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -6,34 +6,34 @@
   "url": "https://github.com/trycompai/crm",
   "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
   "homepage": "https://trycrm.ai",
-  "stars": 11866,
-  "forks": 1763,
+  "stars": 11880,
+  "forks": 1765,
   "open_issues": 19,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-31T21:38:51Z",
-  "updated_at": "2026-11-06T11:41:40Z",
+  "updated_at": "2026-11-07T10:54:19Z",
   "pushed_at": "2026-11-01T22:51:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "release",
-  "age_days": 97,
-  "days_since_push": 4,
+  "age_days": 98,
+  "days_since_push": 5,
   "health_score": 55,
   "health_components": {
     "popularity": 81.5,
-    "momentum": 12.7,
+    "momentum": 13.0,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 10.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 76,
+    "stars_gained": 78,
     "days_span": 5,
-    "stars_per_day": 15.2,
-    "lifetime_stars_per_day": 122.33,
+    "stars_per_day": 15.6,
+    "lifetime_stars_per_day": 121.22,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -108,8 +108,8 @@
     },
     "highlights": [
       "Under Authorised redirect URIs, add http://localhost:3001/api/auth/callback/google.",
-      "API permissions → Add a permission → Microsoft Graph → **Delegated",
       "Intelligence never lives in the API (docs/api.md).",
+      "API permissions → Add a permission → Microsoft Graph → **Delegated",
       "Google Cloud console → Credentials → Create credentials → OAuth client ID → Web application."
     ],
     "summary_zh_native": "",
@@ -121,74 +121,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:22+00:00",
+  "fetched_at": "2026-11-07T11:05:34+00:00",
   "categories": [
-    "teams"
+    "billing-2"
   ],
-  "primary_category": "teams",
+  "primary_category": "billing-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "trycompai/crm",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "trycompai/crm",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "billing-metering",
-        "mcp-support",
-        "model-routing",
-        "self-hosted"
-      ],
-      "star_ratio": 2.542,
-      "momentum_ratio": 1.461,
-      "setup_delta": -58,
-      "dominance": 0.809,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "2.54x the stars (30,169 vs 11,866)",
-        "1.46x the star velocity (22.2/day vs 15.2/day)",
-        "no harder to set up (32 vs 90 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "billing-metering",
-          "mcp-support",
-          "model-routing",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 55,
-        "challenger_health": 69,
-        "incumbent_setup_score": 90,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

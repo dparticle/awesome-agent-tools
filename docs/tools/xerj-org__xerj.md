@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,105 |
-| Star velocity | 113.0/day (history basis, 5d span) |
-| Health score | 87/100 |
+| Stars | 18,520 |
+| Star velocity | 99.0/day (history basis, 7d span) |
+| Health score | 84/100 |
 | Documentation | 76/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 51,081 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 53,558 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### MCP support
 
-> ts nothing, because the model is still loading ("notloaded"); run it again.
+> on BEIR, on SearchTome and on our 160-question test, the latency split and every data
 
 ### GUI / desktop app
 
@@ -83,8 +83,8 @@ Score **76/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 85.6 |
-| momentum | 94.2 |
+| popularity | 85.4 |
+| momentum | 82.5 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
 | accessibility | 67.0 |

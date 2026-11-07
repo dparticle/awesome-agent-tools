@@ -6,9 +6,9 @@
   "url": "https://github.com/AndrewDryga/emisar",
   "description": "Let AI agents investigate and operate infrastructure through declared actions, bounded by policy and host-side checks. Approvals when required, with an audit trail.",
   "homepage": "https://emisar.dev/",
-  "stars": 429,
+  "stars": 391,
   "forks": 29,
-  "open_issues": 3,
+  "open_issues": 0,
   "language": "Elixir",
   "license": "NOASSERTION",
   "topics": [
@@ -29,33 +29,33 @@
     "self-hosted"
   ],
   "created_at": "2026-05-19T01:21:19Z",
-  "updated_at": "2026-11-05T23:46:48Z",
-  "pushed_at": "2026-11-06T09:10:39Z",
+  "updated_at": "2026-11-07T05:40:34Z",
+  "pushed_at": "2026-11-07T05:40:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 171,
+  "age_days": 172,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 54,
   "health_components": {
-    "popularity": 52.6,
-    "momentum": 16.5,
+    "popularity": 51.8,
+    "momentum": 10.0,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 99,
+    "stars_gained": 60,
     "days_span": 5,
-    "stars_per_day": 19.8,
-    "lifetime_stars_per_day": 2.51,
+    "stars_per_day": 12.0,
+    "lifetime_stars_per_day": 2.27,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "AndrewDryga/emisar",
-    "readme_chars": 10299,
+    "readme_chars": 10457,
     "capabilities": [
       "agent-runtime",
       "mcp-support",
@@ -122,7 +122,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.485
+      "external_link_ratio": 0.478
     },
     "highlights": [
       "Open AI agents and connect your client.",
@@ -137,7 +137,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:06+00:00",
+  "fetched_at": "2026-11-07T11:06:46+00:00",
   "categories": [
     "mcp-security"
   ],

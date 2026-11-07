@@ -6,33 +6,33 @@
   "url": "https://github.com/harishkotra/agent-office",
   "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
   "homepage": "",
-  "stars": 404,
+  "stars": 405,
   "forks": 113,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-25T04:43:02Z",
-  "updated_at": "2026-11-06T04:25:49Z",
+  "updated_at": "2026-11-06T13:37:18Z",
   "pushed_at": "2026-09-25T04:17:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 254,
-  "days_since_push": 42,
+  "age_days": 255,
+  "days_since_push": 43,
   "health_score": 43,
   "health_components": {
     "popularity": 52.1,
-    "momentum": 2.5,
+    "momentum": 1.7,
     "maintenance": 78.0,
     "documentation": 57.0,
     "accessibility": 25.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 3.0,
+    "stars_per_day": 2.0,
     "lifetime_stars_per_day": 1.59,
     "basis": "history",
     "is_fast_riser": false
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:10+00:00",
+  "fetched_at": "2026-11-07T11:06:46+00:00",
   "categories": [
     "desktop-ui",
     "teams"
@@ -159,14 +159,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 29.037,
-      "momentum_ratio": 21.467,
+      "star_ratio": 29.012,
+      "momentum_ratio": 27.4,
       "setup_delta": -43,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "29.04x the stars (11,731 vs 404)",
-        "21.47x the star velocity (64.4/day vs 3.0/day)",
+        "29.01x the stars (11,750 vs 405)",
+        "27.40x the star velocity (54.8/day vs 2.0/day)",
         "no harder to set up (32 vs 75 friction)"
       ],
       "reasons_zh": [],
@@ -199,7 +199,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 43,
-        "challenger_health": 76,
+        "challenger_health": 75,
         "incumbent_setup_score": 75,
         "challenger_setup_score": 32
       }

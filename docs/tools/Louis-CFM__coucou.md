@@ -12,9 +12,9 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,996 |
-| Star velocity | 27.6/day (history basis, 5d span) |
-| Health score | 67/100 |
+| Stars | 7,027 |
+| Star velocity | 26.2/day (history basis, 5d span) |
+| Health score | 66/100 |
 | Documentation | 67/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
@@ -22,7 +22,7 @@
 | Language | Swift |
 | Created | 2026-09-27 |
 | Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 52,119 chars from `raw:HEAD/README.md` |
+| Analyzed README | 55,699 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -66,7 +66,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 23/100)
+- **Difficulty:** 🟢 Easy (friction score 29/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew tap louis-cfm/coucou https://github.com/Louis-CFM/coucou`
@@ -75,9 +75,9 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, database dependency
+**Configuration required:** API key configuration, sign-in required, database dependency
 
-*Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, database dependency; one-click setup*
+*Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, sign-in required; one-click setup*
 
 ## Documentation quality
 
@@ -100,10 +100,10 @@ Score **67/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 76.9 |
-| momentum | 23.0 |
+| momentum | 21.8 |
 | maintenance | 100.0 |
 | documentation | 67.0 |
-| accessibility | 77.0 |
+| accessibility | 71.0 |
 
 ---
 

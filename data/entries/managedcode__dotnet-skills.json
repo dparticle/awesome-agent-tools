@@ -21,27 +21,27 @@
     "skills"
   ],
   "created_at": "2026-03-15T10:43:01Z",
-  "updated_at": "2026-11-06T06:54:15Z",
-  "pushed_at": "2026-11-06T11:42:24Z",
+  "updated_at": "2026-11-07T10:47:10Z",
+  "pushed_at": "2026-11-07T10:48:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 236,
+  "age_days": 237,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 54.1,
-    "momentum": 1.5,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 2.16,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 2.15,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:58+00:00",
+  "fetched_at": "2026-11-07T11:06:38+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

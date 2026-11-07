@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 30,169 |
-| Star velocity | 22.2/day (history basis, 5d span) |
+| Stars | 30,182 |
+| Star velocity | 19.6/day (history basis, 5d span) |
 | Health score | 69/100 |
 | Documentation | 73/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-25 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 92,318 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 92,355 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -80,7 +80,7 @@
 
 ### GUI / desktop app
 
-> iii-engine v0.25.0 binary installed manually; download the matching archive from the iii v0.25.0 release page, verify its checksum, and place iii.exe on PATH (for example %USERPROFILE%\.local\bin\iii.exe).
+> path and can install the pinned engine automatically.
 
 ### Notifications
 
@@ -128,7 +128,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 89.6 |
-| momentum | 18.5 |
+| momentum | 16.3 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 68.0 |

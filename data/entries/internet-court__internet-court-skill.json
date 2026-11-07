@@ -6,7 +6,7 @@
   "url": "https://github.com/internet-court/internet-court-skill",
   "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
   "homepage": "",
-  "stars": 7059,
+  "stars": 7067,
   "forks": 130,
   "open_issues": 32,
   "language": "TypeScript",
@@ -34,27 +34,27 @@
     "x402"
   ],
   "created_at": "2026-06-16T13:20:01Z",
-  "updated_at": "2026-11-06T06:44:47Z",
+  "updated_at": "2026-11-07T08:57:40Z",
   "pushed_at": "2026-10-26T12:55:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
-  "days_since_push": 10,
+  "age_days": 143,
+  "days_since_push": 11,
   "health_score": 55,
   "health_components": {
     "popularity": 77.0,
-    "momentum": 2.0,
+    "momentum": 2.7,
     "maintenance": 92.0,
     "documentation": 41.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 49.71,
+    "stars_per_day": 3.2,
+    "lifetime_stars_per_day": 49.42,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:30+00:00",
+  "fetched_at": "2026-11-07T11:05:38+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -162,13 +162,13 @@
         "skills-plugins"
       ],
       "star_ratio": 6.977,
-      "momentum_ratio": 25.083,
+      "momentum_ratio": 17.437,
       "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "6.98x the stars (49,251 vs 7,059)",
-        "25.08x the star velocity (60.2/day vs 2.4/day)",
+        "6.98x the stars (49,303 vs 7,067)",
+        "17.44x the star velocity (55.8/day vs 3.2/day)",
         "no harder to set up (30 vs 31 friction)"
       ],
       "reasons_zh": [],
@@ -196,7 +196,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 55,
-        "challenger_health": 80,
+        "challenger_health": 79,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 30
       }

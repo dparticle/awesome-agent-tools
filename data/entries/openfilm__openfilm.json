@@ -6,9 +6,9 @@
   "url": "https://github.com/openfilm/openfilm",
   "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
   "homepage": "https://openfilm.dev",
-  "stars": 5000,
-  "forks": 478,
-  "open_issues": 21,
+  "stars": 5159,
+  "forks": 489,
+  "open_issues": 27,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -22,33 +22,33 @@
     "video-editor"
   ],
   "created_at": "2026-10-04T09:29:07Z",
-  "updated_at": "2026-11-06T12:01:22Z",
-  "pushed_at": "2026-11-06T09:24:04Z",
+  "updated_at": "2026-11-07T11:03:32Z",
+  "pushed_at": "2026-11-07T00:12:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 33,
+  "age_days": 34,
   "days_since_push": 0,
   "health_score": 80,
   "health_components": {
-    "popularity": 74.0,
+    "popularity": 74.3,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 36.0,
-    "accessibility": 81.0
+    "documentation": 37.0,
+    "accessibility": 75.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5000,
-    "days_span": 33,
-    "stars_per_day": 151.52,
-    "lifetime_stars_per_day": 151.52,
+    "stars_gained": 5159,
+    "days_span": 34,
+    "stars_per_day": 151.74,
+    "lifetime_stars_per_day": 151.74,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openfilm/openfilm",
-    "readme_chars": 8427,
+    "readme_chars": 10199,
     "capabilities": [
       "agent-runtime",
       "gui-desktop",
@@ -56,7 +56,7 @@
     ],
     "capability_evidence": {
       "agent-runtime": "The open source AI video agent.",
-      "gui-desktop": "packages/openfilm/.dev/bin/openfilm and it makes films with your checkout, in that",
+      "gui-desktop": "video for my CLI, with music.",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
@@ -66,7 +66,7 @@
     },
     "friction": {
       "level": "low",
-      "score": 27,
+      "score": 33,
       "out_of_the_box": false,
       "non_programmer_friendly": true,
       "easy_signals": [
@@ -76,7 +76,9 @@
         "git clone (build from source)",
         "pnpm install/build"
       ],
-      "config_signals": [],
+      "config_signals": [
+        "sign-in required"
+      ],
       "friendliness_signals": [
         "GUI application"
       ],
@@ -86,10 +88,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via npx one-liner; needs git clone (build from source), pnpm install/build; GUI application",
-      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)、pnpm install/build；GUI application"
+      "note_en": "Easy. install via npx one-liner; needs git clone (build from source), pnpm install/build; configure sign-in required; GUI application",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)、pnpm install/build；需配置 sign-in required；GUI application"
     },
-    "doc_score": 36,
+    "doc_score": 37,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -110,7 +112,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.593
+      "external_link_ratio": 0.588
     },
     "highlights": [],
     "summary_zh_native": "OpenFilm 让你的编程智能体来做视频，也让你亲手修改。",
@@ -126,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:34+00:00",
+  "fetched_at": "2026-11-07T11:05:41+00:00",
   "categories": [
     "desktop-ui-2"
   ],

@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,853 |
-| Star velocity | 49.0/day (history basis, 5d span) |
+| Stars | 3,897 |
+| Star velocity | 47.2/day (history basis, 5d span) |
 | Health score | 68/100 |
 | Documentation | 59/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-07-16 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 15,321 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** — Superseded by genspark-ai/genoffice: covers 100% of capabilities (4/4).
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 15,315 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -35,6 +33,8 @@
 > /user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e
 
 ### Self-hostable
+
+> 提交后可能已产生费用，内置 adapter 拿到供应商任务 ID 就会立刻写入本地文件。
 
 ### Cross-agent support
 
@@ -72,8 +72,8 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.7 |
-| momentum | 40.8 |
+| popularity | 71.8 |
+| momentum | 39.3 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
 | accessibility | 75.0 |

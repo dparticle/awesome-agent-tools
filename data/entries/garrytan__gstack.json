@@ -6,40 +6,40 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 140298,
-  "forks": 20711,
-  "open_issues": 77,
+  "stars": 140558,
+  "forks": 20747,
+  "open_issues": 74,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-06T12:00:02Z",
-  "pushed_at": "2026-11-06T11:42:27Z",
+  "updated_at": "2026-11-07T11:02:36Z",
+  "pushed_at": "2026-11-07T10:36:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 239,
+  "age_days": 240,
   "days_since_push": 0,
-  "health_score": 88,
+  "health_score": 91,
   "health_components": {
     "popularity": 100.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
-    "accessibility": 35.0
+    "accessibility": 61.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1777,
+    "stars_gained": 1927,
     "days_span": 5,
-    "stars_per_day": 355.4,
-    "lifetime_stars_per_day": 587.02,
+    "stars_per_day": 385.4,
+    "lifetime_stars_per_day": 585.66,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 38289,
+    "readme_chars": 39207,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -55,15 +55,15 @@
     ],
     "capability_evidence": {
       "auto-failover": "and /diagram always use gstack's bundled browser.",
-      "multi-agent-orchestration": "use and re-verify before committing.",
+      "multi-agent-orchestration": "the cause and re-verify before committing.",
       "worktree-isolation": "sses; blocks below 7/10), fail-closed secret redaction, dedupe against existing issues, archive to $GSTACKSTATEROOT/projects/$SLUG/specs/ for team-corpus recall.",
       "model-routing": "deterministic aside repl scripts.",
-      "memory-context": "voice-input aliases many skills carry, have their own pages.",
+      "memory-context": "e-input aliases many skills carry, have their own pages.",
       "skills-plugins": "--single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack f…",
       "agent-runtime": "gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production…",
       "mcp-support": "/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing and never use mcp\\\\claude-in-chro…",
       "security-isolation": "HTTP-capable agent on your Tailscale tailnet so remote agents can run iOS QA without ever touching the hardware.",
-      "notifications": "ke clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.",
+      "notifications": "a fake clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
     },
     "capability_hits": {
@@ -80,11 +80,13 @@
       "cross-agent-support": 8
     },
     "friction": {
-      "level": "high",
-      "score": 65,
+      "level": "moderate",
+      "score": 39,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
-      "easy_signals": [],
+      "easy_signals": [
+        "native installer / package"
+      ],
       "hard_signals": [
         "git clone (build from source)",
         "go build"
@@ -103,8 +105,8 @@
         "iOS",
         "Web"
       ],
-      "note_en": "Involved setup. needs git clone (build from source), go build; configure sign-in required, server/reverse-proxy setup; one-click setup",
-      "note_zh": "配置较重。需要 git clone (build from source)、go build；需配置 sign-in required、server/reverse-proxy setup；one-click setup"
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source), go build; configure sign-in required, server/reverse-proxy setup; one-click setup",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)、go build；需配置 sign-in required、server/reverse-proxy setup；one-click setup"
     },
     "doc_score": 73,
     "doc_signals": [
@@ -139,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.34
+      "external_link_ratio": 0.332
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -151,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:47+00:00",
+  "fetched_at": "2026-11-07T11:05:49+00:00",
   "categories": [
     "desktop-ui",
     "failover",

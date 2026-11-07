@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 270,
-  "days_since_push": 4,
+  "age_days": 271,
+  "days_since_push": 5,
   "health_score": 51,
   "health_components": {
     "popularity": 53.7,
@@ -54,7 +54,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.8,
+    "lifetime_stars_per_day": 1.79,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:00+00:00",
+  "fetched_at": "2026-11-07T11:06:39+00:00",
   "categories": [
     "mcp-security"
   ],
@@ -161,14 +161,14 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.366,
-      "momentum_ratio": 14.0,
+      "star_ratio": 2.379,
+      "momentum_ratio": 19.0,
       "setup_delta": -21,
-      "dominance": 0.946,
+      "dominance": 0.947,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.37x the stars (1,150 vs 486)",
-        "14.00x the star velocity (2.8/day vs 0.2/day)",
+        "2.38x the stars (1,156 vs 486)",
+        "19.00x the star velocity (3.8/day vs 0.2/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],
@@ -190,7 +190,7 @@
           "skills-plugins"
         ],
         "incumbent_health": 51,
-        "challenger_health": 55,
+        "challenger_health": 56,
         "incumbent_setup_score": 51,
         "challenger_setup_score": 30
       }

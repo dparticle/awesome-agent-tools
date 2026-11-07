@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 157,
-  "days_since_push": 20,
+  "age_days": 158,
+  "days_since_push": 21,
   "health_score": 48,
   "health_components": {
     "popularity": 54.1,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 508,
-    "days_span": 157,
-    "stars_per_day": 3.24,
-    "lifetime_stars_per_day": 3.24,
+    "days_span": 158,
+    "stars_per_day": 3.22,
+    "lifetime_stars_per_day": 3.22,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -134,22 +134,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:59+00:00",
+  "fetched_at": "2026-11-07T11:06:38+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "mcp-security"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "mcp-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
+    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
     "challenger": "",
     "supersede": {
       "incumbent": "deuz-ai/deuz-sdk",
-      "challenger": "sickn33/agentic-awesome-skills",
+      "challenger": "hoangsonww/claude-code-agent-monitor",
       "incumbent_name": "Deuz-AI/Deuz-SDK",
-      "challenger_name": "sickn33/agentic-awesome-skills",
+      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -160,14 +161,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 96.951,
-      "momentum_ratio": 18.58,
+      "star_ratio": 2.276,
+      "momentum_ratio": 1.18,
       "setup_delta": -7,
-      "dominance": 1.0,
+      "dominance": 0.758,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "96.95x the stars (49,251 vs 508)",
-        "18.58x the star velocity (60.2/day vs 3.2/day)",
+        "2.28x the stars (1,156 vs 508)",
+        "1.18x the star velocity (3.8/day vs 3.2/day)",
         "no harder to set up (30 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -183,19 +184,13 @@
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
+          "session-persistence",
+          "skills-plugins"
         ],
         "incumbent_health": 48,
-        "challenger_health": 80,
+        "challenger_health": 56,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 30
       }

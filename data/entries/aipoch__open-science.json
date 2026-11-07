@@ -6,7 +6,7 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5475,
+  "stars": 5484,
   "forks": 552,
   "open_issues": 38,
   "language": "TypeScript",
@@ -34,35 +34,34 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-06T11:31:20Z",
-  "pushed_at": "2026-11-06T11:53:08Z",
+  "updated_at": "2026-11-07T10:52:42Z",
+  "pushed_at": "2026-11-07T10:52:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 126,
+  "age_days": 127,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 74.8,
-    "momentum": 10.5,
+    "momentum": 10.7,
     "maintenance": 100.0,
     "documentation": 84.0,
     "accessibility": 65.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 63,
+    "stars_gained": 64,
     "days_span": 5,
-    "stars_per_day": 12.6,
-    "lifetime_stars_per_day": 43.45,
+    "stars_per_day": 12.8,
+    "lifetime_stars_per_day": 43.18,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 52925,
+    "readme_chars": 52615,
     "capabilities": [
-      "remote-control",
       "model-routing",
       "billing-metering",
       "skills-plugins",
@@ -73,22 +72,20 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "remote-control": "e host to stay on and online, with AIPOCH Open-Science and the Remote.It agent running, and the host added to a signed-in Remote.It account.",
       "model-routing": "d-to-path operations, or a remote HTTP MCP endpoint.",
       "billing-metering": "Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.",
       "skills-plugins": "fers to the skill, not to the availability of every registered host.",
-      "mcp-support": "cts, output formats, and exit codes",
+      "mcp-support": "orkspace on a phone or tablet over local WiFi or a Pinggy tunnel; internet traffic passes through Pinggy’s servers.",
       "security-isolation": "that profile's existing permissions; it is not a separate sandbox or read-only view, so connected clients can persist changes and incur model costs.",
       "gui-desktop": "de.js, so you can run the CLI without installing Node.js, npm, or Homebrew.",
       "notifications": "untime checks and test your model connection.",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
-      "remote-control": 1,
       "model-routing": 1,
       "billing-metering": 1,
       "skills-plugins": 1,
-      "mcp-support": 3,
+      "mcp-support": 5,
       "security-isolation": 2,
       "gui-desktop": 5,
       "notifications": 1,
@@ -159,11 +156,10 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.416
+      "external_link_ratio": 0.418
     },
     "highlights": [
-      "Model support: Tencent TokenHub adds Hy4 and DeepSeek V4.1 Flash routes, plus image input for selected models.",
-      "Batch reference import: Import up to 100 DOI, arXiv, or PubMed identifiers or official article links at once, with normalization and deduplication."
+      "Literature in CLI and MCP: Search and manage references from the command line and MCP clients, with read-only browsing plus write tools."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -174,12 +170,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:33+00:00",
+  "fetched_at": "2026-11-07T11:05:41+00:00",
   "categories": [
-    "mcp-security",
-    "mobile"
+    "billing-2",
+    "mcp-security"
   ],
-  "primary_category": "mobile",
+  "primary_category": "billing-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

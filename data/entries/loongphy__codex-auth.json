@@ -6,8 +6,8 @@
   "url": "https://github.com/Loongphy/codex-auth",
   "description": "A CLI tool to switch and manage Codex accounts",
   "homepage": "",
-  "stars": 2853,
-  "forks": 164,
+  "stars": 2855,
+  "forks": 163,
   "open_issues": 25,
   "language": "Zig",
   "license": "MIT",
@@ -16,27 +16,27 @@
     "zig"
   ],
   "created_at": "2026-02-10T06:53:56Z",
-  "updated_at": "2026-11-06T05:41:04Z",
+  "updated_at": "2026-11-06T13:22:58Z",
   "pushed_at": "2026-11-06T05:42:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 269,
-  "days_since_push": 0,
+  "age_days": 270,
+  "days_since_push": 1,
   "health_score": 56,
   "health_components": {
     "popularity": 69.1,
-    "momentum": 0.7,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 38.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 10.61,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 10.57,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -113,11 +113,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:17+00:00",
+  "fetched_at": "2026-11-07T11:06:11+00:00",
   "categories": [
-    "sharing"
+    "accounts"
   ],
-  "primary_category": "sharing",
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",

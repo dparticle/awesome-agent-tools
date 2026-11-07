@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 140,298 |
-| Star velocity | 355.4/day (history basis, 5d span) |
-| Health score | 88/100 |
+| Stars | 140,558 |
+| Star velocity | 385.4/day (history basis, 5d span) |
+| Health score | 91/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 38,289 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 39,207 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Multi-agent orchestration
 
-> use and re-verify before committing.
+> the cause and re-verify before committing.
 
 ### Workspace isolation
 
@@ -44,7 +44,7 @@
 
 ### Memory & context
 
-> voice-input aliases many skills carry, have their own pages.
+> e-input aliases many skills carry, have their own pages.
 
 ### Skills & plugins
 
@@ -64,7 +64,7 @@
 
 ### Notifications
 
-> ke clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.
+> a fake clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.
 
 ### Cross-agent support
 
@@ -72,15 +72,17 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 65/100)
+- **Difficulty:** 🟡 Some setup (friction score 39/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
+
+**Signals that make it easy:** native installer / package
 
 **Signals that add work:** git clone (build from source), go build
 
 **Configuration required:** sign-in required, server/reverse-proxy setup
 
-*Involved setup. needs git clone (build from source), go build; configure sign-in required, server/reverse-proxy setup; one-click setup*
+*Some setup. install via native installer / package; needs git clone (build from source), go build; configure sign-in required, server/reverse-proxy setup; one-click setup*
 
 ## Documentation quality
 
@@ -108,7 +110,7 @@ Score **73/100**, based on these detected signals:
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
-| accessibility | 35.0 |
+| accessibility | 61.0 |
 
 ---
 

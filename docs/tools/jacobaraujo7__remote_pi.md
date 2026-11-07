@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Dart |
 | Created | 2026-05-22 |
-| Last push | 2026-11-04 (1 days ago) |
+| Last push | 2026-11-04 (2 days ago) |
 | Analyzed README | 5,060 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (5/5).

@@ -4,53 +4,56 @@
   "name": "claude-code-my-workflow",
   "owner": "pedrohcgs",
   "url": "https://github.com/pedrohcgs/claude-code-my-workflow",
-  "description": "A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
+  "description": "A ready-to-fork Claude Code template for academic research — papers, data analysis (R, Stata, Python), slides and teaching — with multi-agent review, enforced quality gates and replication protocols. Codex and Antigravity can use it too.",
   "homepage": "https://psantanna.com/claude-code-my-workflow/",
-  "stars": 1681,
-  "forks": 3148,
-  "open_issues": 4,
+  "stars": 1684,
+  "forks": 3146,
+  "open_issues": 8,
   "language": "HTML",
   "license": "MIT",
   "topics": [
     "academic-writing",
+    "agent-skills",
     "causal-inference",
     "claude-code",
     "claude-code-skills",
+    "codex",
     "econometrics",
     "economics",
     "latex",
     "quarto",
     "reproducible-research",
-    "research-workflow"
+    "research-workflow",
+    "stata"
   ],
   "created_at": "2026-02-06T17:29:50Z",
-  "updated_at": "2026-11-05T22:30:13Z",
-  "pushed_at": "2026-11-04T20:00:57Z",
+  "updated_at": "2026-11-07T03:46:06Z",
+  "pushed_at": "2026-11-07T05:14:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 272,
-  "days_since_push": 1,
-  "health_score": 61,
+  "age_days": 273,
+  "days_since_push": 0,
+  "health_score": 62,
   "health_components": {
     "popularity": 64.5,
-    "momentum": 1.0,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 76.0,
-    "accessibility": 85.0
+    "accessibility": 92.0
   },
-  "tier": "notable",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 6.18,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 6.17,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "pedrohcgs/claude-code-my-workflow",
-    "readme_chars": 49751,
+    "readme_chars": 54000,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -59,31 +62,37 @@
       "memory-context",
       "skills-plugins",
       "mcp-support",
-      "security-isolation"
+      "security-isolation",
+      "gui-desktop",
+      "cross-agent-support"
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "e first, then run ./scripts/validate-setup.sh — it reports exactly what's missing with install links.",
       "parallel-execution": "ee / methods-referee / editor — manuscript peer-review pipeline (/review-paper --peer)",
-      "worktree-isolation": "ks see effort.level and $CLAUDEEFFORT (Apr 2026 Week 19)",
-      "model-routing": "een for parallel review work (/review-paper --peer, /slide-excellence).",
+      "worktree-isolation": "ion files are exempt), and refuse to write any Claude Code settings file even inside them — to change .claude/settings*.json (an allow or deny rule, a hook), edit the file yourself.",
+      "model-routing": "Composition** — prompt-cache TTL (5-min default on API keys; on Claude subscriptions **1 hour for the main conversation but 5 minutes for subagents**, unless you set subagentPromptCacheTtl), 70/20/10 model routing (Haik…",
       "memory-context": "",
-      "skills-plugins": "- **Real gates, not reminders.** One command — ./scripts/backtest.sh — runs **eleven gates**: surface-sync, skill integrity, model currency against the SSoT, link and anchor resolution, Agent Skills spec conformance, st…",
-      "mcp-support": "simulated peer review (/review-paper --peer [journal]), reviewer-disposition variance reporting (--variance N)",
-      "security-isolation": "**Bypass** mode skips permission prompts and safety checks (deny rules still apply), and Anthropic scopes it to isolated containers and VMs; it takes effect from the CLI flag, --settings, or user/managed settings (~/.cl…"
+      "skills-plugins": "(now also a tab in the ChatGPT desktop app) or Antigravity?** Start with AGENTS.md.",
+      "mcp-support": "1.283 — on earlier versions, on Pro, Max, and Team since 2026-08-14 — and available on Bedrock / Google Cloud / Foundry without an opt-in flag), Bypass",
+      "security-isolation": "a gate arrives as a reviewable diff instead of an invisible overwrite — not a guarantee that the gates cannot be disabled.",
+      "gui-desktop": "Claude Code and Paste This Prompt",
+      "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
       "multi-agent-orchestration": 6,
       "parallel-execution": 1,
-      "worktree-isolation": 3,
+      "worktree-isolation": 6,
       "model-routing": 1,
       "memory-context": 2,
-      "skills-plugins": 3,
-      "mcp-support": 1,
-      "security-isolation": 1
+      "skills-plugins": 5,
+      "mcp-support": 3,
+      "security-isolation": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
     },
     "friction": {
       "level": "turnkey",
-      "score": 15,
+      "score": 8,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -97,7 +106,8 @@
         "server/reverse-proxy setup"
       ],
       "friendliness_signals": [
-        "beginner-friendly"
+        "beginner-friendly",
+        "GUI application"
       ],
       "platforms": [
         "macOS",
@@ -125,7 +135,8 @@
       "long, detailed README"
     ],
     "agents": [
-      "Claude Code"
+      "Claude Code",
+      "Codex"
     ],
     "summary_en": "Live site: psantanna.com/claude-code-my-workflow",
     "summary_zh": "",
@@ -133,18 +144,17 @@
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
-      "score": 2,
+      "score": 1,
       "signals": [
-        "bullet list of external links",
-        "self-describes as a maintained list"
+        "bullet list of external links"
       ],
-      "external_link_ratio": 0.543
+      "external_link_ratio": 0.611
     },
     "highlights": [
-      "Cost-Conscious Composition — prompt-cache TTL (5-min default on API keys; 1-hour automatic on Claude subscriptions), 70/20/10 model routing (Haiku/Sonnet/Opus), /cost + /usage monitoring, A…",
+      "Cost-Conscious Composition — prompt-cache TTL (5-min default on API keys; on Claude subscriptions 1 hour for the main conversation but 5 minutes for subagents, unless you set subagentPrompt…",
       "Worktree base ref (v1.9.0; Anthropic Apr 2026) — worktree.baseRef setting controls fresh (default; remote default-branch) vs head (local HEAD) for new worktrees",
-      "Hook handler types — command, prompt, and HTTP handlers with 20+ hook events; hooks see effort.level and $CLAUDE_EFFORT (Apr 2026 Week 19)",
-      "claude agents dashboard (v1.9.0; Anthropic May 2026) — single screen for parallel review work (/review-paper --peer, /slide-excellence)."
+      "claude agents dashboard (v1.9.0; Anthropic May 2026) — single screen for parallel review work (/review-paper --peer, /slide-excellence).",
+      "/goal (v1.9.0; Anthropic May 2026) — keep working across turns until a fast model confirms the condition holds."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -155,7 +165,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:25+00:00",
+  "fetched_at": "2026-11-07T11:06:17+00:00",
   "categories": [
     "desktop-ui",
     "mcp-security",

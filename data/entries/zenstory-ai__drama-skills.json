@@ -6,9 +6,9 @@
   "url": "https://github.com/zenstory-ai/drama-skills",
   "description": "AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for AI short dramas & motion comics",
   "homepage": "https://zenstory.ai/drama-skills",
-  "stars": 3853,
-  "forks": 692,
-  "open_issues": 1,
+  "stars": 3897,
+  "forks": 695,
+  "open_issues": 3,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -32,33 +32,33 @@
     "zenstory"
   ],
   "created_at": "2026-07-16T16:11:19Z",
-  "updated_at": "2026-11-06T11:44:53Z",
-  "pushed_at": "2026-11-06T08:38:17Z",
+  "updated_at": "2026-11-07T10:11:53Z",
+  "pushed_at": "2026-11-07T09:26:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 112,
+  "age_days": 113,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
-    "popularity": 71.7,
-    "momentum": 40.8,
+    "popularity": 71.8,
+    "momentum": 39.3,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 245,
+    "stars_gained": 236,
     "days_span": 5,
-    "stars_per_day": 49.0,
-    "lifetime_stars_per_day": 34.4,
+    "stars_per_day": 47.2,
+    "lifetime_stars_per_day": 34.49,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zenstory-ai/drama-skills",
-    "readme_chars": 15321,
+    "readme_chars": 15315,
     "capabilities": [
       "billing-metering",
       "agent-runtime",
@@ -68,7 +68,7 @@
     "capability_evidence": {
       "billing-metering": "",
       "agent-runtime": "/user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e",
-      "self-hosted": "",
+      "self-hosted": "提交后可能已产生费用，内置 adapter 拿到供应商任务 ID 就会立刻写入本地文件。",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
@@ -125,12 +125,12 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 1.044
+      "external_link_ratio": 1.045
     },
     "highlights": [
       "Seedance 提示词怎么写：起点、动作顺序、终点，以及 2.5 与 2.0 的写法差别。",
       "连续性锁：LOCK-JIANGCHEN-DRESS《江晨松枝绿常服》（镜头：SHOT-EP001-002、SHOT-EP001-003、SHOT-EP001-007、……；",
-      "五份 Markdown 分别记录创作决定 — 按阶段维护 剧本.md、视觉设定.md、分镜.md、图片提示词.md、",
+      "跨镜一致性怎么做：跨镜、跨集角色一致性，三视图之外的三层文件事实。",
       "An open-source AI short-drama pipeline：英文读者的分阶段说明。"
     ],
     "summary_zh_native": "",
@@ -142,69 +142,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:39+00:00",
+  "fetched_at": "2026-11-07T11:05:44+00:00",
   "categories": [
-    "teams"
+    "billing-2"
   ],
-  "primary_category": "teams",
+  "primary_category": "billing-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "genspark-ai/genoffice",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "zenstory-ai/drama-skills",
-      "challenger": "genspark-ai/genoffice",
-      "incumbent_name": "zenstory-ai/drama-skills",
-      "challenger_name": "genspark-ai/genoffice",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "billing-metering",
-        "cross-agent-support",
-        "self-hosted"
-      ],
-      "star_ratio": 3.07,
-      "momentum_ratio": 1.445,
-      "setup_delta": -5,
-      "dominance": 0.846,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "3.07x the stars (11,827 vs 3,853)",
-        "1.44x the star velocity (70.8/day vs 49.0/day)",
-        "no harder to set up (20 vs 25 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "billing-metering",
-          "cross-agent-support",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "usage-analytics"
-        ],
-        "incumbent_health": 68,
-        "challenger_health": 76,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 20
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

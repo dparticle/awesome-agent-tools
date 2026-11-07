@@ -6,7 +6,7 @@
   "url": "https://github.com/fatwang2/search2ai",
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
-  "stars": 1287,
+  "stars": 1285,
   "forks": 195,
   "open_issues": 18,
   "language": "TypeScript",
@@ -28,26 +28,26 @@
     "web-search"
   ],
   "created_at": "2023-12-18T02:02:46Z",
-  "updated_at": "2026-11-03T08:13:46Z",
+  "updated_at": "2026-11-06T15:48:35Z",
   "pushed_at": "2026-11-02T22:47:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1054,
-  "days_since_push": 3,
+  "age_days": 1055,
+  "days_since_push": 4,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
-    "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_gained": 0,
+    "days_span": 7,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.22,
     "basis": "history",
     "is_fast_riser": false
@@ -146,74 +146,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:32+00:00",
+  "fetched_at": "2026-11-07T11:06:21+00:00",
   "categories": [
     "mcp-security",
-    "model-routing",
-    "teams"
+    "model-routing"
   ],
-  "primary_category": "teams",
+  "primary_category": "mcp-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by XiaomiMiMo/MiMo-Code: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 XiaomiMiMo/MiMo-Code 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "XiaomiMiMo/MiMo-Code",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "fatwang2/search2ai",
-      "challenger": "xiaomimimo/mimo-code",
-      "incumbent_name": "fatwang2/search2ai",
-      "challenger_name": "XiaomiMiMo/MiMo-Code",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "mcp-support",
-        "model-routing",
-        "parallel-execution",
-        "self-hosted"
-      ],
-      "star_ratio": 10.691,
-      "momentum_ratio": 22.0,
-      "setup_delta": -52,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "10.69x the stars (13,759 vs 1,287)",
-        "22.00x the star velocity (4.4/day vs 0.2/day)",
-        "no harder to set up (21 vs 73 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "mcp-support",
-          "model-routing",
-          "parallel-execution",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "voice-input"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 63,
-        "incumbent_setup_score": 73,
-        "challenger_setup_score": 21
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

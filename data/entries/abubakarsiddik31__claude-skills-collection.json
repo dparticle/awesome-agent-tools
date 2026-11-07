@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 1118,
   "forks": 213,
-  "open_issues": 32,
+  "open_issues": 31,
   "language": "",
   "license": "",
   "topics": [],
@@ -18,7 +18,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 383,
+  "age_days": 384,
   "days_since_push": 55,
   "health_score": 50,
   "health_components": {
@@ -33,7 +33,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.92,
+    "lifetime_stars_per_day": 2.91,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -157,7 +157,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:36+00:00",
+  "fetched_at": "2026-11-07T11:06:24+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

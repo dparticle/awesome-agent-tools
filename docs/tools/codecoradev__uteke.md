@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-05-29 |
-| Last push | 2026-11-06 (0 days ago) |
+| Last push | 2026-11-07 (0 days ago) |
 | Analyzed README | 25,416 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [Lyellr88/marm-memory](https://github.com/Lyellr88/marm-memory)** — Superseded by Lyellr88/marm-memory: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
 
 ## What it solves
 

@@ -32,33 +32,33 @@
     "workflow-automation"
   ],
   "created_at": "2026-06-01T09:40:16Z",
-  "updated_at": "2026-11-06T11:23:13Z",
-  "pushed_at": "2026-11-06T11:23:09Z",
+  "updated_at": "2026-11-07T10:57:09Z",
+  "pushed_at": "2026-11-07T10:57:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 158,
+  "age_days": 159,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 53.8,
-    "momentum": 2.6,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 492,
-    "days_span": 158,
-    "stars_per_day": 3.11,
-    "lifetime_stars_per_day": 3.11,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 3.09,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "vb2250158/RabiRoute",
-    "readme_chars": 10009,
+    "readme_chars": 10012,
     "capabilities": [
       "self-hosted",
       "notifications"
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:00+00:00",
+  "fetched_at": "2026-11-07T11:06:38+00:00",
   "categories": [
     "teams"
   ],

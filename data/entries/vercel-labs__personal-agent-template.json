@@ -6,8 +6,8 @@
   "url": "https://github.com/vercel-labs/personal-agent-template",
   "description": "Open-source template for a durable personal AI agent — web chat, Slack, Linear, and long-term memory with user-approved saves. Eve, Nuxt, Better Auth, Vercel Connect.",
   "homepage": "https://personal-agent-template.vercel.app",
-  "stars": 483,
-  "forks": 86,
+  "stars": 484,
+  "forks": 87,
   "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
@@ -23,27 +23,27 @@
     "vercel-connect"
   ],
   "created_at": "2026-06-11T13:59:55Z",
-  "updated_at": "2026-11-05T14:17:43Z",
+  "updated_at": "2026-11-06T16:38:18Z",
   "pushed_at": "2026-11-02T16:25:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 147,
-  "days_since_push": 3,
+  "age_days": 148,
+  "days_since_push": 4,
   "health_score": 46,
   "health_components": {
     "popularity": 53.7,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 50.0,
     "accessibility": 22.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 3.29,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 3.27,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:01+00:00",
+  "fetched_at": "2026-11-07T11:06:39+00:00",
   "categories": [
     "teams"
   ],
@@ -156,14 +156,14 @@
         "notifications",
         "self-hosted"
       ],
-      "star_ratio": 617.402,
-      "momentum_ratio": 1917.5,
+      "star_ratio": 617.399,
+      "momentum_ratio": 3668.0,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "617.40x the stars (298,205 vs 483)",
-        "1917.50x the star velocity (767.0/day vs 0.4/day)",
+        "617.40x the stars (298,821 vs 484)",
+        "3668.00x the star velocity (733.6/day vs 0.2/day)",
         "no harder to set up (57 vs 78 friction)"
       ],
       "reasons_zh": [],

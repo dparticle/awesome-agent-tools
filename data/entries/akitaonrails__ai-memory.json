@@ -6,40 +6,40 @@
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
   "homepage": "",
-  "stars": 15252,
-  "forks": 1107,
-  "open_issues": 42,
+  "stars": 15303,
+  "forks": 1114,
+  "open_issues": 32,
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-21T23:23:51Z",
-  "updated_at": "2026-11-06T11:56:54Z",
-  "pushed_at": "2026-11-05T23:50:31Z",
+  "updated_at": "2026-11-07T10:05:16Z",
+  "pushed_at": "2026-11-06T20:25:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 168,
+  "age_days": 169,
   "days_since_push": 0,
-  "health_score": 81,
+  "health_score": 78,
   "health_components": {
     "popularity": 83.7,
-    "momentum": 80.2,
+    "momentum": 68.5,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 54.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 481,
+    "stars_gained": 411,
     "days_span": 5,
-    "stars_per_day": 96.2,
-    "lifetime_stars_per_day": 90.79,
+    "stars_per_day": 82.2,
+    "lifetime_stars_per_day": 90.55,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "akitaonrails/ai-memory",
-    "readme_chars": 46840,
+    "readme_chars": 47344,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -85,6 +85,7 @@
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
+        "Homebrew install",
         "scoop install",
         "curl | sh installer",
         "PowerShell irm | iex installer",
@@ -112,8 +113,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via scoop install, curl | sh installer; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml",
-      "note_zh": "需要一些配置。可通过 scoop install、curl | sh installer 安装；需要 docker run、git clone (build from source)；需配置 environment variables、config.json/yaml/toml"
+      "note_en": "Some setup. install via Homebrew install, scoop install; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 Homebrew install、scoop install 安装；需要 docker run、git clone (build from source)；需配置 environment variables、config.json/yaml/toml"
     },
     "doc_score": 71,
     "doc_signals": [
@@ -150,7 +151,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.32
+      "external_link_ratio": 0.317
     },
     "highlights": [
       "Investigate Claude Code and Codex response-token usage in the project"
@@ -164,10 +165,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:07+00:00",
+  "fetched_at": "2026-11-07T11:06:04+00:00",
   "categories": [
-    "desktop-ui-2",
     "mcp-security",
+    "providers-2",
     "teams"
   ],
   "primary_category": "teams",

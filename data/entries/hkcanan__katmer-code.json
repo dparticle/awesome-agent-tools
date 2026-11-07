@@ -7,7 +7,7 @@
   "description": "Multi-provider AI sidebar for Obsidian — Claude, Gemini, Codex, Antigravity. Per-tab routing, same-tab consult, inline diff, CLAUDE.md auto-mirror, academic research skills.",
   "homepage": "",
   "stars": 477,
-  "forks": 33,
+  "forks": 32,
   "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
@@ -30,7 +30,7 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 229,
-  "days_since_push": 52,
+  "days_since_push": 53,
   "health_score": 46,
   "health_components": {
     "popularity": 53.6,
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:02+00:00",
+  "fetched_at": "2026-11-07T11:06:40+00:00",
   "categories": [
     "model-routing"
   ],

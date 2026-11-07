@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1880,
-  "days_since_push": 4,
+  "age_days": 1881,
+  "days_since_push": 5,
   "health_score": 48,
   "health_components": {
     "popularity": 50.1,
@@ -148,10 +148,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:17+00:00",
+  "fetched_at": "2026-11-07T11:06:50+00:00",
   "categories": [
     "mobile",
-    "model-routing",
     "teams"
   ],
   "primary_category": "mobile",

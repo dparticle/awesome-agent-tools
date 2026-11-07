@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 11731,
-  "forks": 1597,
-  "open_issues": 768,
+  "stars": 11750,
+  "forks": 1609,
+  "open_issues": 755,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-11-06T11:29:43Z",
-  "pushed_at": "2026-11-06T05:59:23Z",
+  "updated_at": "2026-11-07T10:56:14Z",
+  "pushed_at": "2026-11-07T08:39:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
+  "age_days": 121,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 75,
   "health_components": {
     "popularity": 81.4,
-    "momentum": 53.7,
+    "momentum": 45.7,
     "maintenance": 100.0,
     "documentation": 79.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 322,
+    "stars_gained": 274,
     "days_span": 5,
-    "stars_per_day": 64.4,
-    "lifetime_stars_per_day": 97.76,
+    "stars_per_day": 54.8,
+    "lifetime_stars_per_day": 97.11,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -190,7 +190,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:22+00:00",
+  "fetched_at": "2026-11-07T11:05:34+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

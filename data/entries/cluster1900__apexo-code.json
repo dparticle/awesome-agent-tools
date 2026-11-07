@@ -31,24 +31,24 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 163,
-  "days_since_push": 2,
-  "health_score": 48,
+  "age_days": 164,
+  "days_since_push": 3,
+  "health_score": 47,
   "health_components": {
     "popularity": 49.6,
-    "momentum": 5.0,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 30,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 6.0,
-    "lifetime_stars_per_day": 1.86,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.85,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "cluster1900/apexo-code",
@@ -156,7 +156,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:23+00:00",
+  "fetched_at": "2026-11-07T11:06:54+00:00",
   "categories": [
     "desktop-ui-2",
     "failover",
@@ -188,14 +188,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 99.568,
-      "momentum_ratio": 3.7,
+      "star_ratio": 99.611,
+      "momentum_ratio": 392.0,
       "setup_delta": -16,
-      "dominance": 0.963,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "99.57x the stars (30,169 vs 303)",
-        "3.70x the star velocity (22.2/day vs 6.0/day)",
+        "99.61x the stars (30,182 vs 303)",
+        "392.00x the star velocity (19.6/day vs 0.0/day)",
         "no harder to set up (32 vs 48 friction)"
       ],
       "reasons_zh": [],
@@ -229,7 +229,7 @@
           "skills-plugins",
           "team-collaboration"
         ],
-        "incumbent_health": 48,
+        "incumbent_health": 47,
         "challenger_health": 69,
         "incumbent_setup_score": 48,
         "challenger_setup_score": 32

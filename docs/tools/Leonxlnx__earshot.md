@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,028 |
-| Star velocity | 124.2/day (history basis, 5d span) |
-| Health score | 77/100 |
-| Documentation | 57/100 |
-| Tier | ✅ Recommended |
+| Stars | 4,108 |
+| Star velocity | 123.6/day (history basis, 5d span) |
+| Health score | 80/100 |
+| Documentation | 62/100 |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-10-15 |
-| Last push | 2026-10-22 (14 days ago) |
-| Analyzed README | 31,703 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 32,598 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,6 +31,8 @@
 > /skills/ (or a project's .claude/skills/).
 
 ### Agent runtime
+
+> placed with the launch kit, plus the one CC0 recording it shows being re-made, over a
 
 ### MCP support
 
@@ -56,7 +58,7 @@
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **62/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -64,6 +66,7 @@ Score **57/100**, based on these detected signals:
 - documents installation
 - documents configuration
 - mentions licensing
+- links to dedicated docs
 - documents changes
 - reports benchmarks
 - long, detailed README
@@ -72,10 +75,10 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 72.1 |
+| popularity | 72.3 |
 | momentum | 100.0 |
-| maintenance | 92.0 |
-| documentation | 57.0 |
+| maintenance | 100.0 |
+| documentation | 62.0 |
 | accessibility | 48.0 |
 
 ---

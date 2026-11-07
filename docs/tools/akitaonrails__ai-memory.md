@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,252 |
-| Star velocity | 96.2/day (history basis, 5d span) |
-| Health score | 81/100 |
+| Stars | 15,303 |
+| Star velocity | 82.2/day (history basis, 5d span) |
+| Health score | 78/100 |
 | Documentation | 71/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-05-21 |
-| Last push | 2026-11-05 (0 days ago) |
-| Analyzed README | 46,840 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-06 (0 days ago) |
+| Analyzed README | 47,344 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -73,13 +73,13 @@
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://github.com/akitaonrails/ai-memory/releases/latest/download/install.sh | sh`
 
-**Signals that make it easy:** scoop install, curl | sh installer, PowerShell irm | iex installer, native installer / package
+**Signals that make it easy:** Homebrew install, scoop install, curl | sh installer, PowerShell irm | iex installer, native installer / package
 
 **Signals that add work:** docker run, git clone (build from source)
 
 **Configuration required:** environment variables, config.json/yaml/toml, OAuth login flow, sign-in required, API token/secret, database dependency, database migration, server/reverse-proxy setup, process manager
 
-*Some setup. install via scoop install, curl | sh installer; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml*
+*Some setup. install via Homebrew install, scoop install; needs docker run, git clone (build from source); configure environment variables, config.json/yaml/toml*
 
 ## Documentation quality
 
@@ -103,7 +103,7 @@ Score **71/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.7 |
-| momentum | 80.2 |
+| momentum | 68.5 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 54.0 |

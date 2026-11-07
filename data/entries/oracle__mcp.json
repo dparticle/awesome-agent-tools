@@ -18,21 +18,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 467,
-  "days_since_push": 1,
+  "age_days": 468,
+  "days_since_push": 2,
   "health_score": 55,
   "health_components": {
     "popularity": 53.5,
-    "momentum": 0.7,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 84.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.8,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.01,
     "basis": "history",
     "is_fast_riser": false
@@ -120,8 +120,8 @@
     "highlights": [
       "Verify the ollama server has started with curl http://localhost:11434.",
       "Fetch the large language model, where is the name of your desired model (e.g.",
-      "Click the MCP Servers button near the top of the the extension's panel.",
-      "Add your desired server to the mcpServers object."
+      "Add your desired server to the mcpServers object.",
+      "Click the MCP Servers button near the top of the the extension's panel."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -132,7 +132,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:02+00:00",
+  "fetched_at": "2026-11-07T11:06:40+00:00",
   "categories": [
     "mcp-security"
   ],

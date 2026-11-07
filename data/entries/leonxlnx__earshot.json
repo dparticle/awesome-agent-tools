@@ -6,9 +6,9 @@
   "url": "https://github.com/Leonxlnx/earshot",
   "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
   "homepage": "",
-  "stars": 4028,
-  "forks": 259,
-  "open_issues": 14,
+  "stars": 4108,
+  "forks": 264,
+  "open_issues": 0,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -19,33 +19,33 @@
     "sound-design"
   ],
   "created_at": "2026-10-15T06:52:46Z",
-  "updated_at": "2026-11-06T11:58:59Z",
-  "pushed_at": "2026-10-22T23:12:59Z",
+  "updated_at": "2026-11-07T10:44:11Z",
+  "pushed_at": "2026-11-06T17:24:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 22,
-  "days_since_push": 14,
-  "health_score": 77,
+  "age_days": 23,
+  "days_since_push": 0,
+  "health_score": 80,
   "health_components": {
-    "popularity": 72.1,
+    "popularity": 72.3,
     "momentum": 100.0,
-    "maintenance": 92.0,
-    "documentation": 57.0,
+    "maintenance": 100.0,
+    "documentation": 62.0,
     "accessibility": 48.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 621,
+    "stars_gained": 618,
     "days_span": 5,
-    "stars_per_day": 124.2,
-    "lifetime_stars_per_day": 183.09,
+    "stars_per_day": 123.6,
+    "lifetime_stars_per_day": 178.61,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Leonxlnx/earshot",
-    "readme_chars": 31703,
+    "readme_chars": 32598,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -54,14 +54,14 @@
     ],
     "capability_evidence": {
       "skills-plugins": "/skills/ (or a project's .claude/skills/).",
-      "agent-runtime": "",
+      "agent-runtime": "placed with the launch kit, plus the one CC0 recording it shows being re-made, over a",
       "mcp-support": "one line on stderr (earshot : error: ..., exit 1).",
       "notifications": "pes come as families of named characters: 34 motion-design categories (whooshes, swishes,"
     },
     "capability_hits": {
       "skills-plugins": 1,
       "agent-runtime": 2,
-      "mcp-support": 6,
+      "mcp-support": 8,
       "notifications": 2
     },
     "friction": {
@@ -88,7 +88,7 @@
       "note_en": "Some setup. install via pip install; needs git clone (build from source), create a Python venv; configure environment variables, config.json/yaml/toml",
       "note_zh": "需要一些配置。可通过 pip install 安装；需要 git clone (build from source)、create a Python venv；需配置 environment variables、config.json/yaml/toml"
     },
-    "doc_score": 57,
+    "doc_score": 62,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -96,6 +96,7 @@
       "documents installation",
       "documents configuration",
       "mentions licensing",
+      "links to dedicated docs",
       "documents changes",
       "reports benchmarks",
       "long, detailed README"
@@ -111,13 +112,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.032
+      "external_link_ratio": 0.092
     },
     "highlights": [
       "Real vs code-synthesized: held-out ROC-AUC 0.92 with whole sound families held out.",
       "Listening through a soundtrack: 93% of the sound effects placed in a 60 s film mix are detected as events (89%",
       "The launch preset (0.4) is for films cut to music.",
-      "Finding the moment: on a recording of 17 single key presses the found trims land on real key presses; in a"
+      "Matching descriptions (a held-out library of 125 real recordings, nothing tuned on it): in a library search a"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,11 +129,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:37+00:00",
+  "fetched_at": "2026-11-07T11:05:44+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "mcp-security"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "mcp-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

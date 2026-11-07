@@ -35,11 +35,11 @@
   ],
   "created_at": "2026-05-29T00:27:31Z",
   "updated_at": "2026-11-05T14:16:40Z",
-  "pushed_at": "2026-11-06T11:13:33Z",
+  "pushed_at": "2026-11-07T09:12:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 161,
+  "age_days": 162,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
@@ -54,7 +54,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.76,
+    "lifetime_stars_per_day": 1.75,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -153,25 +153,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:25+00:00",
+  "fetched_at": "2026-11-07T11:06:56+00:00",
   "categories": [
-    "failover"
+    "teams"
   ],
-  "primary_category": "failover",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by Lyellr88/marm-memory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 Lyellr88/marm-memory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "Lyellr88/marm-memory",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "codecoradev/uteke",
-      "challenger": "lyellr88/marm-memory",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "codecoradev/uteke",
-      "challenger_name": "Lyellr88/marm-memory",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -180,15 +180,15 @@
         "multi-agent-orchestration",
         "self-hosted"
       ],
-      "star_ratio": 1.521,
-      "momentum_ratio": 1.667,
-      "setup_delta": 11,
-      "dominance": 0.654,
+      "star_ratio": 41.373,
+      "momentum_ratio": 91.333,
+      "setup_delta": -5,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.52x the stars (432 vs 284)",
-        "1.67x the star velocity (1.0/day vs 0.6/day)",
-        "slightly heavier setup (+11 friction, within tolerance)"
+        "41.37x the stars (11,750 vs 284)",
+        "91.33x the star velocity (54.8/day vs 0.6/day)",
+        "no harder to set up (32 vs 37 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -202,21 +202,24 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "auto-failover",
+          "billing-metering",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
+          "parallel-execution",
           "self-hosted",
-          "session-persistence"
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 53,
+        "challenger_health": 75,
         "incumbent_setup_score": 37,
-        "challenger_setup_score": 48
+        "challenger_setup_score": 32
       }
     }
   }

@@ -2,7 +2,7 @@
 
 # CopilotKit/OpenBot
 
-> The AI assistant your company can actually own.
+> OpenBot is a self-hostable workspace for AI coworkers.
 
 [Repository](https://github.com/CopilotKit/OpenBot) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,303 |
-| Star velocity | 218.2/day (history basis, 5d span) |
-| Health score | 84/100 |
-| Documentation | 73/100 |
+| Stars | 10,354 |
+| Star velocity | 106.4/day (history basis, 5d span) |
+| Health score | 83/100 |
+| Documentation | 69/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 35,006 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (7/7).
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 35,484 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,13 +32,11 @@
 
 ### Model / provider routing
 
-> verything is on 3001 here, the app included, rather than the 3010 the clone uses.
-
 ### Session persistence
 
 ### MCP support
 
-> ack into themes it can cite.
+> - **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account, each reached as the p
 
 ### Security & isolation
 
@@ -50,26 +46,30 @@
 
 > Defaults to ../examples/fintech.
 
+### GUI / desktop app
+
+> your own coworkers, channels, and skills.
+
 ### Notifications
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 49/100)
+- **Difficulty:** 🟢 Easy (friction score 33/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx --yes copilotkit@latest login`
 
-**Signals that make it easy:** npx one-liner
+**Signals that make it easy:** npx one-liner, native installer / package
 
 **Signals that add work:** docker run
 
 **Configuration required:** sign-in required, database dependency, server/reverse-proxy setup, process manager
 
-*Some setup. install via npx one-liner; needs docker run; configure sign-in required, database dependency*
+*Easy. install via npx one-liner, native installer / package; needs docker run; configure sign-in required, database dependency; GUI application*
 
 ## Documentation quality
 
-Score **73/100**, based on these detected signals:
+Score **69/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -80,7 +80,6 @@ Score **73/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
-- documents changes
 - explains architecture
 - long, detailed README
 
@@ -89,10 +88,10 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.3 |
-| momentum | 100.0 |
+| momentum | 88.7 |
 | maintenance | 100.0 |
-| documentation | 73.0 |
-| accessibility | 51.0 |
+| documentation | 69.0 |
+| accessibility | 67.0 |
 
 ---
 

@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "full_name": "JetBrains/thinkrail",
+  "name": "thinkrail",
+  "owner": "JetBrains",
+  "url": "https://github.com/JetBrains/thinkrail",
+  "description": "ThinkRail is the agentic IDE that gets better every time you use it",
+  "homepage": "https://thinkrail.ai/",
+  "stars": 7889,
+  "forks": 484,
+  "open_issues": 363,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent",
+    "agent-skills",
+    "agentic-ai",
+    "agentic-workflow",
+    "ai-coding",
+    "ai-tools",
+    "pi-agent",
+    "pi-agent-extension",
+    "spec-driven",
+    "spec-driven-coding",
+    "spec-driven-development",
+    "vibe-coding",
+    "vibecoding"
+  ],
+  "created_at": "2026-07-08T07:40:43Z",
+  "updated_at": "2026-11-07T10:52:31Z",
+  "pushed_at": "2026-11-07T08:43:51Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 122,
+  "days_since_push": 0,
+  "health_score": 75,
+  "health_components": {
+    "popularity": 77.9,
+    "momentum": 53.9,
+    "maintenance": 100.0,
+    "documentation": 54.0,
+    "accessibility": 97.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7889,
+    "days_span": 122,
+    "stars_per_day": 64.66,
+    "lifetime_stars_per_day": 64.66,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "JetBrains/thinkrail",
+    "readme_chars": 19675,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "api-gateway",
+      "usage-analytics",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ats that stream like the engine thinks.",
+      "worktree-isolation": "A pi session and the change it made, scoped to an isolated git-worktree workspace. ## What you get - Isolated workspaces.",
+      "api-gateway": "ronment; they apply on the next start.",
+      "usage-analytics": "the website visit that brought you here — only where you accepted marketing cookies on the",
+      "skills-plugins": "hes, and maintains it through dedicated spec* tools, so intent survives the session.",
+      "agent-runtime": "Rail is the agentic IDE that gets better every time you use it — learning your project through",
+      "mcp-support": "tall npm:@thinkrail/pi-visualize for the diagrams and previews",
+      "gui-desktop": "ownload the thinkrail-desktop-* asset for your platform:"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "worktree-isolation": 4,
+      "api-gateway": 1,
+      "usage-analytics": 2,
+      "skills-plugins": 1,
+      "agent-runtime": 2,
+      "mcp-support": 4,
+      "gui-desktop": 5
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 11,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "curl | sh installer",
+        "PowerShell irm | iex installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "environment variables",
+        "OAuth login flow",
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source); configure environment variables, OAuth login flow; one-click setup",
+      "note_zh": "开箱即用。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需要 git clone (build from source)；需配置 environment variables、OAuth login flow；one-click setup"
+    },
+    "doc_score": 54,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through living specs today, and building its own capabilities tomorrow.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/JetBrains/thinkrail/main/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.762
+    },
+    "highlights": [
+      "Isolated workspaces. Open any git repo as a project and cut workspaces from it as git worktrees,",
+      "Find chats and run commands from one box.",
+      "Your own model servers. Settings → Providers → Custom servers connects a company LLM gateway or a",
+      "Desktop app or browser. A native desktop app, or the thinkrail CLI that opens the same app in your"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-07T11:05:38+00:00",
+  "categories": [
+    "desktop-ui",
+    "desktop-ui-2",
+    "mobile"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

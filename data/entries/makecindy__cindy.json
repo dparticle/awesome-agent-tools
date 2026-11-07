@@ -6,9 +6,9 @@
   "url": "https://github.com/makecindy/cindy",
   "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
   "homepage": "https://cindy.app",
-  "stars": 9376,
-  "forks": 1157,
-  "open_issues": 2759,
+  "stars": 9438,
+  "forks": 1172,
+  "open_issues": 2789,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,27 +27,27 @@
     "windows"
   ],
   "created_at": "2026-07-22T17:49:34Z",
-  "updated_at": "2026-11-06T12:05:00Z",
-  "pushed_at": "2026-11-06T12:07:29Z",
+  "updated_at": "2026-11-07T10:40:30Z",
+  "pushed_at": "2026-11-07T10:54:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 106,
+  "age_days": 107,
   "days_since_push": 0,
-  "health_score": 75,
+  "health_score": 73,
   "health_components": {
-    "popularity": 79.4,
-    "momentum": 83.8,
+    "popularity": 79.5,
+    "momentum": 75.5,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 35.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 503,
+    "stars_gained": 453,
     "days_span": 5,
-    "stars_per_day": 100.6,
-    "lifetime_stars_per_day": 88.45,
+    "stars_per_day": 90.6,
+    "lifetime_stars_per_day": 88.21,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -152,7 +152,7 @@
       "移动端未注入 TapDB 配置（clientId / clientToken）时不会初始化 SDK。",
       "不只共享画面，也共享模型。 其他电脑上配置好的订阅、API 供应商和本地模型，开启远程访问后也能调用。",
       "移动端关闭后立即解绑账号并停止 Cindy 主动触发的上报；已初始化的原生 SDK",
-      "让经验留下来。 把偏好和知识留在记忆中，把有效的方法写成可复用、可分享的 Skill。"
+      "培养自己的伙伴。 给她角色、指令、Skill 和日常工作：代码审阅、资料研究、项目跟进，都可以有专门的搭档。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -161,7 +161,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:26+00:00",
+  "fetched_at": "2026-11-07T11:05:36+00:00",
   "categories": [
     "analytics-3",
     "desktop-ui-2"

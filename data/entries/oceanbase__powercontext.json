@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1503,
-  "forks": 596,
-  "open_issues": 156,
+  "stars": 1515,
+  "forks": 607,
+  "open_issues": 152,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-06T10:37:01Z",
-  "pushed_at": "2026-11-06T10:01:57Z",
+  "updated_at": "2026-11-07T09:43:04Z",
+  "pushed_at": "2026-11-07T11:03:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 361,
+  "age_days": 362,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 53,
   "health_components": {
-    "popularity": 63.5,
-    "momentum": 3.7,
+    "popularity": 63.6,
+    "momentum": 4.8,
     "maintenance": 100.0,
     "documentation": 66.0,
-    "accessibility": 37.0
+    "accessibility": 31.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 22,
+    "stars_gained": 29,
     "days_span": 5,
-    "stars_per_day": 4.4,
-    "lifetime_stars_per_day": 4.16,
+    "stars_per_day": 5.8,
+    "lifetime_stars_per_day": 4.19,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "oceanbase/powercontext",
-    "readme_chars": 23230,
+    "readme_chars": 23561,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -64,8 +64,8 @@
     ],
     "capability_evidence": {
       "memory-context": "",
-      "agent-runtime": "ity matrix records which hosts are",
-      "mcp-support": "stinct identities and permissions when a person must decide.",
+      "agent-runtime": "ity matrix records which hosts are qualified, along with their supported features and availability.",
+      "mcp-support": "istinct identities and permissions when a person must decide.",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
@@ -76,7 +76,7 @@
     },
     "friction": {
       "level": "high",
-      "score": 63,
+      "score": 69,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [],
@@ -87,7 +87,8 @@
         "environment variables",
         "sign-in required",
         "API token/secret",
-        "database dependency"
+        "database dependency",
+        "process manager"
       ],
       "friendliness_signals": [],
       "platforms": [
@@ -127,17 +128,18 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.076
+      "external_link_ratio": 1.061
     },
     "highlights": [
-      "Long-conversation memory (LoCoMo; 1,540 scored questions across categories 1–4): 90.78% accuracy, against 52.9%",
-      "**Coding tasks (SWE-bench Pro paired comparison): approximately 225.32 million input tokens per 100 tasks with",
-      "One Server, several views of the same contract."
+      "Coding tasks (SWE-bench Pro paired comparison): approximately 225.32 million input tokens per 100 tasks with PowerContext on, versus 302.18 million with it off — approximately 25.4% fewer i…",
+      "Long-conversation memory (LoCoMo; 1,540 scored questions across categories 1–4): 90.78% accuracy, against 52.9% for full-context replay — +37.88 points over full context.",
+      "Retrieval quality (LoCoMo Plus), native PowerContext against PowerContext with Jev candidate filtering after retrieval.",
+      "For a Server on another machine, use HTTPS or follow the remote connection guide."
     ],
     "summary_zh_native": "让上下文跟着工作走 —— 跨越会话、跨 Agent、跨人。",
     "highlights_zh": [
-      "长对话记忆（LoCoMo；类别 1–4 的 1,540 个计分问题）：准确率 90.78%，全量上下文重放为 52.9% —— 相对后者",
-      "**编码任务（SWE-bench Pro 配对对照）：开启 PowerContext 后每 100 题约消耗 2.2532 亿输入 token，关闭时约为",
+      "编码任务（SWE-bench Pro 配对对照）：开启 PowerContext 后每 100 题约消耗 2.2532 亿输入 token，关闭时约为 3.0218 亿 —— 输入 token 约减少 25.4%，即每 100 题约少用 7,686 万。",
+      "长对话记忆（LoCoMo；类别 1–4 的 1,540 个计分问题）：准确率 90.78%，全量上下文重放为 52.9% —— 相对后者 +37.88 个百分点。",
       "召回质量（LoCoMo Plus）：原生 PowerContext 对比检索后用 Jev 做候选筛选。",
       "一个 Server，同一份契约的多个视图。"
     ],
@@ -148,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:26+00:00",
+  "fetched_at": "2026-11-07T11:06:17+00:00",
   "categories": [
     "failover"
   ],
@@ -174,15 +176,15 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 12.711,
-      "momentum_ratio": 25.682,
-      "setup_delta": -30,
+      "star_ratio": 12.224,
+      "momentum_ratio": 17.069,
+      "setup_delta": -36,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "12.71x the stars (19,105 vs 1,503)",
-        "25.68x the star velocity (113.0/day vs 4.4/day)",
-        "no harder to set up (33 vs 63 friction)"
+        "12.22x the stars (18,520 vs 1,515)",
+        "17.07x the star velocity (99.0/day vs 5.8/day)",
+        "no harder to set up (33 vs 69 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -199,9 +201,9 @@
           "mcp-support",
           "memory-context"
         ],
-        "incumbent_health": 54,
-        "challenger_health": 87,
-        "incumbent_setup_score": 63,
+        "incumbent_health": 53,
+        "challenger_health": 84,
+        "incumbent_setup_score": 69,
         "challenger_setup_score": 33
       }
     }

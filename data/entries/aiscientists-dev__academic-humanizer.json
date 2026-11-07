@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "full_name": "AIScientists-Dev/academic-humanizer",
+  "name": "academic-humanizer",
+  "owner": "AIScientists-Dev",
+  "url": "https://github.com/AIScientists-Dev/academic-humanizer",
+  "description": "Strip AI-writing tells from papers and grant proposals (NSF/NIH), while keeping scholarly voice and tying claims to evidence. A skill for Claude Code, Codex, and MorphMind.",
+  "homepage": "https://morphmind.ai",
+  "stars": 3684,
+  "forks": 272,
+  "open_issues": 5,
+  "language": "",
+  "license": "NOASSERTION",
+  "topics": [
+    "academic-writing",
+    "grant-writing",
+    "llm",
+    "nih",
+    "nsf",
+    "research",
+    "scientific-writing",
+    "writing-assistant"
+  ],
+  "created_at": "2026-06-20T13:23:52Z",
+  "updated_at": "2026-11-07T11:02:30Z",
+  "pushed_at": "2026-07-03T07:58:33Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 139,
+  "days_since_push": 127,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 71.3,
+    "momentum": 22.1,
+    "maintenance": 55.0,
+    "documentation": 35.0,
+    "accessibility": 43.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3684,
+    "days_span": 139,
+    "stars_per_day": 26.5,
+    "lifetime_stars_per_day": 26.5,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "AIScientists-Dev/academic-humanizer",
+    "readme_chars": 6185,
+    "capabilities": [
+      "skills-plugins"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "t keeps the vision a paper would trim, and"
+    },
+    "capability_hits": {
+      "skills-plugins": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 57,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. needs git clone (build from source); configure server/reverse-proxy setup",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；需配置 server/reverse-proxy setup"
+    },
+    "doc_score": 35,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Codex"
+    ],
+    "summary_en": "Some of us write a lot of papers and grant proposals, and our team started using AI to help with drafts.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.455
+    },
+    "highlights": [
+      "Keeps claims tied to evidence: no verb stronger than the data (prove → show empirically), and",
+      "Has a separate mode for grant proposals (NSF, NIH): it keeps the vision a paper would trim, and",
+      "Sharpens clarity and voice: trims generic AI phrasing (\"paves the way\", \"extensive experiments\", \"to the best of our knowledge\", \"In recent years...\", delve/underscore/tapestry, rule-of-thr…",
+      "Leaves real scholarship alone: evidence-tied hedging, passive voice where it fits, we,"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-07T11:05:45+00:00",
+  "categories": [
+    "desktop-ui"
+  ],
+  "primary_category": "desktop-ui",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

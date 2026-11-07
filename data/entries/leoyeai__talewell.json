@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 223,
-  "days_since_push": 35,
+  "age_days": 224,
+  "days_since_push": 36,
   "health_score": 47,
   "health_components": {
     "popularity": 54.8,
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 15,
+    "days_span": 16,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.46,
+    "lifetime_stars_per_day": 2.45,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,69 +131,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:54+00:00",
+  "fetched_at": "2026-11-07T11:06:35+00:00",
   "categories": [
     "desktop-ui",
     "failover"
   ],
   "primary_category": "failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "huytieu/COG-second-brain",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "leoyeai/talewell",
-      "challenger": "huytieu/cog-second-brain",
-      "incumbent_name": "LeoYeAI/talewell",
-      "challenger_name": "huytieu/COG-second-brain",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "skills-plugins"
-      ],
-      "star_ratio": 2.441,
-      "momentum_ratio": 36.0,
-      "setup_delta": 8,
-      "dominance": 0.913,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "2.44x the stars (1,340 vs 549)",
-        "36.00x the star velocity (1.8/day vs 0.0/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 56,
-        "incumbent_setup_score": 23,
-        "challenger_setup_score": 31
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

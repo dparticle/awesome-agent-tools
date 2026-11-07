@@ -8,7 +8,7 @@
   "homepage": "https://cockpit.jacobmoura.work",
   "stars": 480,
   "forks": 146,
-  "open_issues": 97,
+  "open_issues": 101,
   "language": "Dart",
   "license": "MIT",
   "topics": [
@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 168,
-  "days_since_push": 1,
+  "age_days": 169,
+  "days_since_push": 2,
   "health_score": 50,
   "health_components": {
     "popularity": 53.6,
@@ -41,7 +41,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.86,
+    "lifetime_stars_per_day": 2.84,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -119,7 +119,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:10:01+00:00",
+  "fetched_at": "2026-11-07T11:06:39+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -148,14 +148,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 48.467,
-      "momentum_ratio": 117.2,
+      "star_ratio": 48.671,
+      "momentum_ratio": 113.2,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "48.47x the stars (23,264 vs 480)",
-        "117.20x the star velocity (117.2/day vs 1.0/day)",
+        "48.67x the stars (23,362 vs 480)",
+        "113.20x the star velocity (113.2/day vs 1.0/day)",
         "no harder to set up (24 vs 36 friction)"
       ],
       "reasons_zh": [],
@@ -182,7 +182,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 86,
+        "challenger_health": 85,
         "incumbent_setup_score": 36,
         "challenger_setup_score": 24
       }

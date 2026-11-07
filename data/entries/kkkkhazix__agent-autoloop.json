@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "full_name": "KKKKhazix/agent-autoloop",
+  "name": "agent-autoloop",
+  "owner": "KKKKhazix",
+  "url": "https://github.com/KKKKhazix/agent-autoloop",
+  "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+  "homepage": "",
+  "stars": 3848,
+  "forks": 697,
+  "open_issues": 1,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "automation",
+    "claude-code",
+    "cli",
+    "codex",
+    "event-driven",
+    "mcp",
+    "nodejs",
+    "self-hosted",
+    "typescript",
+    "workflow"
+  ],
+  "created_at": "2026-11-03T08:02:11Z",
+  "updated_at": "2026-11-07T10:57:09Z",
+  "pushed_at": "2026-11-07T08:08:37Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 4,
+  "days_since_push": 0,
+  "health_score": 83,
+  "health_components": {
+    "popularity": 71.7,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 59.0,
+    "accessibility": 81.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 3848,
+    "days_span": 4,
+    "stars_per_day": 962.0,
+    "lifetime_stars_per_day": 962.0,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "KKKKhazix/agent-autoloop",
+    "readme_chars": 10777,
+    "capabilities": [
+      "quota-management",
+      "api-gateway",
+      "usage-analytics",
+      "session-persistence",
+      "mcp-support",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "",
+      "api-gateway": "Claude Code、Codex 和 ACP（官方 Codex ACP 适配器）跑通了多轮问答和跨进程会话续接；飞书跑通了发送、按钮回调和卡片更新；四种 Webhook 模板只在本地模拟服务上验证过，GitLab Webhook 按官方文档的格式测试，没连过真实 GitLab。",
+      "usage-analytics": "上验证过，GitLab Webhook 按官方文档的格式测试，没连过真实 GitLab。",
+      "session-persistence": "下面的性能数字 npm run benchmark ### 实测性能 Apple M5 Pro、24 GB、Node 24.21.0。",
+      "mcp-support": "。 给 GitHub PR 打上 deliver 标签后，它会自己跟进到上线：审代码 → 等 CI → 合并 PR → 等部署 → 核对线上版本。审查和交付配置只从 main 读取，绝不在接单电脑上检出或运行 PR 里的代码；排队、并发和重试直接复用内核。",
+      "notifications": "则写 \"resume\": true 就接着上一轮的会话。",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "quota-management": 2,
+      "api-gateway": 1,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "mcp-support": 1,
+      "notifications": 5,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 19,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "PowerShell irm | iex installer"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; configure API key configuration, database dependency",
+      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需配置 API key configuration、database dependency"
+    },
+    "doc_score": 59,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "links to dedicated docs",
+      "reports benchmarks",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/KKKKhazix/agent-autoloop/main/install.sh | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 0.835
+    },
+    "highlights": [
+      "一台电脑、一条命令就能跑。 装在你的 Windows、Mac 或 Linux 上，不用买云服务器，也不用开放公网端口。",
+      "新事件进来。 早上 9 点的定时任务、GitHub 上新提的 Issue、业务系统报的错，都变成一条标准事件送进内核。",
+      "跳数熔断：思路和网络包的 TTL 一样。",
+      "一行配置接新 Agent。 不需要 SDK，也不需要改 Agent 源码，能接收提示词并打印最后一条回复的命令行工具都能接。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-07T11:05:44+00:00",
+  "categories": [
+    "billing",
+    "mcp-security"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

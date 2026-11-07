@@ -6,9 +6,9 @@
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
   "homepage": "https://openbot.run/",
-  "stars": 5911,
-  "forks": 608,
-  "open_issues": 621,
+  "stars": 6153,
+  "forks": 625,
+  "open_issues": 623,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -22,33 +22,33 @@
     "typescript"
   ],
   "created_at": "2026-08-12T21:32:03Z",
-  "updated_at": "2026-11-06T12:02:03Z",
-  "pushed_at": "2026-11-06T12:06:45Z",
+  "updated_at": "2026-11-07T10:51:24Z",
+  "pushed_at": "2026-11-07T11:03:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 85,
+  "age_days": 86,
   "days_since_push": 0,
   "health_score": 73,
   "health_components": {
-    "popularity": 75.4,
-    "momentum": 58.0,
+    "popularity": 75.8,
+    "momentum": 59.6,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 52.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5911,
-    "days_span": 85,
-    "stars_per_day": 69.54,
-    "lifetime_stars_per_day": 69.54,
+    "stars_gained": 6153,
+    "days_span": 86,
+    "stars_per_day": 71.55,
+    "lifetime_stars_per_day": 71.55,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nightly-labs/openbot",
-    "readme_chars": 63586,
+    "readme_chars": 64043,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -163,7 +163,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.283
+      "external_link_ratio": 0.281
     },
     "highlights": [
       "~/.cursor — login and session history managed exclusively by the Cursor CLI.",
@@ -180,8 +180,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:32+00:00",
+  "fetched_at": "2026-11-07T11:05:40+00:00",
   "categories": [
+    "billing-2",
     "mcp-security",
     "teams"
   ],

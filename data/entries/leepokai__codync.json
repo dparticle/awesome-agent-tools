@@ -6,9 +6,9 @@
   "url": "https://github.com/leepokai/Codync",
   "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
   "homepage": "https://www.codync.dev",
-  "stars": 1918,
-  "forks": 198,
-  "open_issues": 83,
+  "stars": 1950,
+  "forks": 200,
+  "open_issues": 85,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "self-hosted"
   ],
   "created_at": "2026-03-18T11:11:05Z",
-  "updated_at": "2026-11-06T11:11:56Z",
-  "pushed_at": "2026-11-06T09:28:23Z",
+  "updated_at": "2026-11-07T10:13:24Z",
+  "pushed_at": "2026-11-07T10:24:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 233,
   "days_since_push": 0,
-  "health_score": 80,
+  "health_score": 70,
   "health_components": {
-    "popularity": 65.7,
-    "momentum": 84.7,
+    "popularity": 65.8,
+    "momentum": 45.3,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 91.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 508,
+    "stars_gained": 272,
     "days_span": 5,
-    "stars_per_day": 101.6,
-    "lifetime_stars_per_day": 8.23,
+    "stars_per_day": 54.4,
+    "lifetime_stars_per_day": 8.37,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "leepokai/Codync",
-    "readme_chars": 25113,
+    "readme_chars": 25809,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.911
+      "external_link_ratio": 1.899
     },
     "highlights": [
       "codync-host (Rust, macOS, Windows and Linux) runs on your computer.",
@@ -171,7 +171,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:22+00:00",
+  "fetched_at": "2026-11-07T11:06:15+00:00",
   "categories": [
     "desktop-ui-2",
     "mcp-security",

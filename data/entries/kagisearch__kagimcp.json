@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 693,
-  "days_since_push": 8,
+  "age_days": 694,
+  "days_since_push": 9,
   "health_score": 47,
   "health_components": {
     "popularity": 55.0,
@@ -120,11 +120,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:52+00:00",
+  "fetched_at": "2026-11-07T11:06:34+00:00",
   "categories": [
-    "mcp-security"
+    "teams"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

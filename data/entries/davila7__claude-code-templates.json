@@ -6,9 +6,9 @@
   "url": "https://github.com/davila7/claude-code-templates",
   "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
   "homepage": "https://aitmpl.com",
-  "stars": 33157,
-  "forks": 3873,
-  "open_issues": 470,
+  "stars": 33178,
+  "forks": 3884,
+  "open_issues": 473,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -24,27 +24,27 @@
     "registry"
   ],
   "created_at": "2025-07-04T01:26:26Z",
-  "updated_at": "2026-11-06T12:04:23Z",
-  "pushed_at": "2026-11-06T03:05:19Z",
+  "updated_at": "2026-11-07T09:23:02Z",
+  "pushed_at": "2026-11-07T03:09:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 490,
+  "age_days": 491,
   "days_since_push": 0,
   "health_score": 78,
   "health_components": {
     "popularity": 90.4,
-    "momentum": 56.4,
+    "momentum": 56.3,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 90.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 33157,
-    "days_span": 490,
-    "stars_per_day": 67.67,
-    "lifetime_stars_per_day": 67.67,
+    "stars_gained": 33178,
+    "days_span": 491,
+    "stars_per_day": 67.57,
+    "lifetime_stars_per_day": 67.57,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -129,8 +129,8 @@
     "highlights": [
       "awesome-claude-code by hesreallyhim - CC0 1.0 Universal (21 commands)",
       "awesome-claude-skills - Apache 2.0 (community skills)",
-      "K-Dense-AI/claude-scientific-skills by K-Dense Inc.",
-      "anthropics/claude-code - Development guides and examples (10 skills)"
+      "anthropics/claude-code - Development guides and examples (10 skills)",
+      "K-Dense-AI/claude-scientific-skills by K-Dense Inc."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:09:02+00:00",
+  "fetched_at": "2026-11-07T11:06:01+00:00",
   "categories": [
     "mcp-security",
     "mobile"

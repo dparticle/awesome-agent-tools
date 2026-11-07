@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,503 |
-| Star velocity | 4.4/day (history basis, 5d span) |
-| Health score | 54/100 |
+| Stars | 1,515 |
+| Star velocity | 5.8/day (history basis, 5d span) |
+| Health score | 53/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 23,230 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 23,561 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
 
@@ -32,11 +32,11 @@
 
 ### Agent runtime
 
-> ity matrix records which hosts are
+> ity matrix records which hosts are qualified, along with their supported features and availability.
 
 ### MCP support
 
-> stinct identities and permissions when a person must decide.
+> istinct identities and permissions when a person must decide.
 
 ### Cross-agent support
 
@@ -44,13 +44,13 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 63/100)
+- **Difficulty:** 🔴 Involved (friction score 69/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
 **Signals that add work:** make build
 
-**Configuration required:** environment variables, sign-in required, API token/secret, database dependency
+**Configuration required:** environment variables, sign-in required, API token/secret, database dependency, process manager
 
 *Involved setup. needs make build; configure environment variables, sign-in required*
 
@@ -74,11 +74,11 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 63.5 |
-| momentum | 3.7 |
+| popularity | 63.6 |
+| momentum | 4.8 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
-| accessibility | 37.0 |
+| accessibility | 31.0 |
 
 ---
 

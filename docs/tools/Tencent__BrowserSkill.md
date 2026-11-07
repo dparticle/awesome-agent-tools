@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,105 |
-| Star velocity | 47.2/day (history basis, 5d span) |
+| Stars | 10,145 |
+| Star velocity | 45.6/day (history basis, 5d span) |
 | Health score | 69/100 |
 | Documentation | 60/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-22 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 37,463 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 37,793 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,7 +30,7 @@
 
 ### Skills & plugins
 
-> uire the sync's observationid as --observation.
+> ection settings → Pairing link.
 
 ### MCP support
 
@@ -79,7 +79,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.1 |
-| momentum | 39.3 |
+| momentum | 38.0 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 66.0 |

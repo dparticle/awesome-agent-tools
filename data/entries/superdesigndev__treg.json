@@ -6,9 +6,9 @@
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
   "homepage": "https://treg.to",
-  "stars": 7281,
-  "forks": 655,
-  "open_issues": 265,
+  "stars": 7446,
+  "forks": 665,
+  "open_issues": 267,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -25,33 +25,33 @@
     "secrets"
   ],
   "created_at": "2026-07-15T13:38:07Z",
-  "updated_at": "2026-11-06T12:07:30Z",
-  "pushed_at": "2026-11-06T10:33:50Z",
+  "updated_at": "2026-11-07T10:59:09Z",
+  "pushed_at": "2026-11-07T10:34:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 113,
+  "age_days": 114,
   "days_since_push": 0,
-  "health_score": 78,
+  "health_score": 81,
   "health_components": {
-    "popularity": 77.2,
-    "momentum": 62.2,
+    "popularity": 77.4,
+    "momentum": 77.3,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 79.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 373,
+    "stars_gained": 464,
     "days_span": 5,
-    "stars_per_day": 74.6,
-    "lifetime_stars_per_day": 64.43,
+    "stars_per_day": 92.8,
+    "lifetime_stars_per_day": 65.32,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "superdesigndev/treg",
-    "readme_chars": 32884,
+    "readme_chars": 32893,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -156,7 +156,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-06T12:08:28+00:00",
+  "fetched_at": "2026-11-07T11:05:38+00:00",
   "categories": [
     "analytics-3",
     "mcp-security",

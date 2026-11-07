@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,681 |
-| Star velocity | 1.2/day (history basis, 5d span) |
-| Health score | 61/100 |
+| Stars | 1,684 |
+| Star velocity | 1.4/day (history basis, 5d span) |
+| Health score | 62/100 |
 | Documentation | 76/100 |
-| Tier | 🔹 Notable |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | HTML |
 | Created | 2026-02-06 |
-| Last push | 2026-11-04 (1 days ago) |
-| Analyzed README | 49,751 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 54,000 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,29 +36,37 @@
 
 ### Workspace isolation
 
-> ks see effort.level and $CLAUDEEFFORT (Apr 2026 Week 19)
+> ion files are exempt), and refuse to write any Claude Code settings file even inside them — to change .claude/settings*.json (an allow or deny rule, a hook), edit the file yourself.
 
 ### Model / provider routing
 
-> een for parallel review work (/review-paper --peer, /slide-excellence).
+> Composition** — prompt-cache TTL (5-min default on API keys; on Claude subscriptions **1 hour for the main conversation but 5 minutes for subagents**, unless you set subagentPromptCacheTtl), 70/20/10 model routing (Haik…
 
 ### Memory & context
 
 ### Skills & plugins
 
-> - **Real gates, not reminders.** One command — ./scripts/backtest.sh — runs **eleven gates**: surface-sync, skill integrity, model currency against the SSoT, link and anchor resolution, Agent Skills spec conformance, st…
+> (now also a tab in the ChatGPT desktop app) or Antigravity?** Start with AGENTS.md.
 
 ### MCP support
 
-> simulated peer review (/review-paper --peer [journal]), reviewer-disposition variance reporting (--variance N)
+> 1.283 — on earlier versions, on Pro, Max, and Team since 2026-08-14 — and available on Bedrock / Google Cloud / Foundry without an opt-in flag), Bypass
 
 ### Security & isolation
 
-> **Bypass** mode skips permission prompts and safety checks (deny rules still apply), and Anthropic scopes it to isolated containers and VMs; it takes effect from the CLI flag, --settings, or user/managed settings (~/.cl…
+> a gate arrives as a reviewable diff instead of an invisible overwrite — not a guarantee that the gates cannot be disabled.
+
+### GUI / desktop app
+
+> Claude Code and Paste This Prompt
+
+### Cross-agent support
+
+> Mentions Claude Code, Codex
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 15/100)
+- **Difficulty:** 🟢 Turnkey (friction score 8/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
@@ -93,10 +101,10 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 64.5 |
-| momentum | 1.0 |
+| momentum | 1.2 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
-| accessibility | 85.0 |
+| accessibility | 92.0 |
 
 ---
 

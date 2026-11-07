@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,475 |
-| Star velocity | 12.6/day (history basis, 5d span) |
+| Stars | 5,484 |
+| Star velocity | 12.8/day (history basis, 5d span) |
 | Health score | 65/100 |
 | Documentation | 84/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,10 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 52,925 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 52,615 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Remote control
-
-> e host to stay on and online, with AIPOCH Open-Science and the Remote.It agent running, and the host added to a signed-in Remote.It account.
 
 ### Model / provider routing
 
@@ -44,7 +40,7 @@
 
 ### MCP support
 
-> cts, output formats, and exit codes
+> orkspace on a phone or tablet over local WiFi or a Pinggy tunnel; internet traffic passes through Pinggy’s servers.
 
 ### Security & isolation
 
@@ -102,7 +98,7 @@ Score **84/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.8 |
-| momentum | 10.5 |
+| momentum | 10.7 |
 | maintenance | 100.0 |
 | documentation | 84.0 |
 | accessibility | 65.0 |

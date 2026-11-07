@@ -2,7 +2,7 @@
 
 # google/elephant-goldfish-model
 
-> Thousands of Google engineers use EGM, an open-source plugin, to draft specs with deep-context agents and stress-test them with zero-context subagents before writing code.
+> Develop ideas with context and review documents with fresh eyes.
 
 [Repository](https://github.com/google/elephant-goldfish-model) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,746 |
-| Star velocity | 882.6/day (history basis, 5d span) |
+| Stars | 13,301 |
+| Star velocity | 654.8/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 42/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-09-13 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 8,391 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-07 (0 days ago) |
+| Analyzed README | 8,418 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Agent runtime
 
-> prove the specification before implementing.
+> orkflow targets software specifications.
 
 ### GUI / desktop app
 
@@ -68,7 +68,7 @@ Score **42/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.1 |
+| popularity | 82.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
