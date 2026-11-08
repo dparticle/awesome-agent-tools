@@ -2,7 +2,7 @@
 
 # davila7/claude-code-templates
 
-> Connect your AI-powered workflows to reliable residential proxies for web data collection, browser automation, and AI-driven research.
+> An open catalog of components for Claude Code, installable with one command.
 
 [Repository](https://github.com/davila7/claude-code-templates) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,64 +12,73 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 33,178 |
-| Star velocity | 67.6/day (lifetime basis, 491d span) |
-| Health score | 78/100 |
-| Documentation | 54/100 |
-| Tier | 🏆 Flagship |
+| Stars | 33,200 |
+| Star velocity | 67.5/day (lifetime basis, 492d span) |
+| Health score | 77/100 |
+| Documentation | 61/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-07-04 |
-| Last push | 2026-11-07 (0 days ago) |
-| Analyzed README | 11,908 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-08 (0 days ago) |
+| Analyzed README | 9,526 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Remote control
 
-> ection and usage metrics, at http://localhost:3333.
+> versations in a mobile-friendly UI at localhost:9876
+
+### Multi-agent orchestration
+
+> 90M+ residential IPs across 220+ locations, rotating and static residential proxies, with HTTP(S) and SOCKS5 support.
 
 ### Workspace isolation
 
+> ndition Docs sweep, build-test-fix, adversarial review
+
 ### API gateway / proxy
 
-> &nbsp;&nbsp; &nbsp;&nbsp; --- Sponsored by Swiftproxy Swiftproxy proudly supports this project.
+> &nbsp;·&nbsp; Discussions &nbsp;·&nbsp; Changelog SPONSORED BY Swiftproxy proudly supports this project.
 
 ### Session persistence
 
+> pl marketplace Champion Kit
+
 ### Skills & plugins
+
+> alidator and scanned by NVIDIA SkillSpector.
 
 ### MCP support
 
-> Diagnostics for your Claude Code installation and project setup (--health, --check and --verify are aliases). ### Removed in 1.31.0 --plugins, --skills-manager, --command-stats, --hook-stats, --mcp-stats, --agents, --ch…
+> ocations, rotating and static residential proxies, with HTTP(S) and SOCKS5 support.
 
 ### Security & isolation
 
-### GUI / desktop app
-
-> de Code sessions in real time with live state detection and usage metrics, at http://localhost:3333.
+> Timeouts, permissions, status lines
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 22/100)
-- **Out of the box:** yes
+- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests…`
+- **Quickest install:** `npx claude-code-templates@latest`
 
 **Signals that make it easy:** npx one-liner
 
-**Configuration required:** database dependency
+**Configuration required:** database dependency, server/reverse-proxy setup
 
-*Easy. install via npx one-liner; configure database dependency*
+*Easy. install via npx one-liner; configure database dependency, server/reverse-proxy setup*
 
 ## Documentation quality
 
-Score **54/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
+- has a quick-start section
 - documents installation
 - documents configuration
 - has contribution guidance
@@ -82,10 +91,10 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 90.4 |
-| momentum | 56.3 |
+| momentum | 56.2 |
 | maintenance | 100.0 |
-| documentation | 54.0 |
-| accessibility | 90.0 |
+| documentation | 61.0 |
+| accessibility | 72.0 |
 
 ---
 

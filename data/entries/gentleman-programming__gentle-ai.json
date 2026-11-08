@@ -6,9 +6,9 @@
   "url": "https://github.com/Gentleman-Programming/gentle-ai",
   "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
   "homepage": "https://gentlemanprogramming.com/",
-  "stars": 8542,
+  "stars": 8591,
   "forks": 886,
-  "open_issues": 396,
+  "open_issues": 398,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -31,27 +31,27 @@
     "spec-driven-development"
   ],
   "created_at": "2026-02-27T23:28:01Z",
-  "updated_at": "2026-11-07T10:43:22Z",
-  "pushed_at": "2026-11-07T10:55:43Z",
+  "updated_at": "2026-11-08T11:15:39Z",
+  "pushed_at": "2026-11-08T09:06:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
+  "age_days": 253,
   "days_since_push": 0,
-  "health_score": 79,
+  "health_score": 81,
   "health_components": {
-    "popularity": 78.6,
-    "momentum": 60.2,
+    "popularity": 78.7,
+    "momentum": 66.7,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 361,
+    "stars_gained": 400,
     "days_span": 5,
-    "stars_per_day": 72.2,
-    "lifetime_stars_per_day": 33.9,
+    "stars_per_day": 80.0,
+    "lifetime_stars_per_day": 33.96,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:05+00:00",
+  "fetched_at": "2026-11-08T11:19:05+00:00",
   "categories": [
     "desktop-ui"
   ],

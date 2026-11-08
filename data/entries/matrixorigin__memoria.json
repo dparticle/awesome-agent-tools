@@ -6,9 +6,9 @@
   "url": "https://github.com/matrixorigin/memoria",
   "description": "Secure memory management for AI Agents • Ensures data integrity • Reduces hallucinations • Maintains consistent long-term context",
   "homepage": "https://thememoria.ai/",
-  "stars": 623,
+  "stars": 624,
   "forks": 81,
-  "open_issues": 66,
+  "open_issues": 67,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -20,13 +20,13 @@
     "storage"
   ],
   "created_at": "2026-03-09T23:44:24Z",
-  "updated_at": "2026-11-05T14:11:19Z",
-  "pushed_at": "2026-11-04T14:34:57Z",
+  "updated_at": "2026-11-07T18:42:14Z",
+  "pushed_at": "2026-11-08T03:47:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 242,
-  "days_since_push": 2,
+  "age_days": 243,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 55.9,
@@ -139,7 +139,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:32+00:00",
+  "fetched_at": "2026-11-08T11:19:45+00:00",
   "categories": [
     "analytics-3",
     "mcp-security",
@@ -169,14 +169,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 479.648,
-      "momentum_ratio": 1834.0,
+      "star_ratio": 479.803,
+      "momentum_ratio": 1651.5,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "479.65x the stars (298,821 vs 623)",
-        "1834.00x the star velocity (733.6/day vs 0.4/day)",
+        "479.80x the stars (299,397 vs 624)",
+        "1651.50x the star velocity (660.6/day vs 0.4/day)",
         "no harder to set up (57 vs 63 friction)"
       ],
       "reasons_zh": [],

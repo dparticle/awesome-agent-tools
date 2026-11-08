@@ -38,22 +38,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 211,
-  "days_since_push": 18,
-  "health_score": 53,
+  "age_days": 212,
+  "days_since_push": 19,
+  "health_score": 52,
   "health_components": {
     "popularity": 57.9,
-    "momentum": 1.2,
+    "momentum": 0.7,
     "maintenance": 92.0,
     "documentation": 49.0,
     "accessibility": 82.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 3.73,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 3.71,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:29+00:00",
+  "fetched_at": "2026-11-08T11:19:40+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -167,14 +167,14 @@
         "gui-desktop",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 16.901,
-      "momentum_ratio": 467.714,
+      "star_ratio": 18.211,
+      "momentum_ratio": 837.5,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "16.90x the stars (13,301 vs 787)",
-        "467.71x the star velocity (654.8/day vs 1.4/day)",
+        "18.21x the stars (14,332 vs 787)",
+        "837.50x the star velocity (670.0/day vs 0.8/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -192,7 +192,7 @@
           "multi-agent-orchestration",
           "notifications"
         ],
-        "incumbent_health": 53,
+        "incumbent_health": 52,
         "challenger_health": 84,
         "incumbent_setup_score": 18,
         "challenger_setup_score": 23

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,684 |
-| Star velocity | 1.4/day (history basis, 5d span) |
+| Stars | 1,685 |
+| Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 62/100 |
 | Documentation | 76/100 |
 | Tier | ✅ Recommended |
@@ -22,7 +22,7 @@
 | Language | HTML |
 | Created | 2026-02-06 |
 | Last push | 2026-11-07 (0 days ago) |
-| Analyzed README | 54,000 chars from `raw:HEAD/README.md` |
+| Analyzed README | 53,766 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Workspace isolation
 
-> ion files are exempt), and refuse to write any Claude Code settings file even inside them — to change .claude/settings*.json (an allow or deny rule, a hook), edit the file yourself.
+> e under permissions (Claude Code ≥ 2.1.314): Claude's file tools then refuse writes outside the working directories and every write to a Claude Code settings file, even inside the repository, and the worktree tools (Ent…
 
 ### Model / provider routing
 
@@ -54,7 +54,7 @@
 
 ### Security & isolation
 
-> a gate arrives as a reviewable diff instead of an invisible overwrite — not a guarantee that the gates cannot be disabled.
+> e/hooks/ or .githooks/ any more; blockWritesOutsideWorkingDirectories still refuses file-tool writes to the settings files.
 
 ### GUI / desktop app
 
@@ -101,7 +101,7 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 64.5 |
-| momentum | 1.2 |
+| momentum | 1.0 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
 | accessibility | 92.0 |

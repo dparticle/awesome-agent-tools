@@ -6,8 +6,8 @@
   "url": "https://github.com/aoci-spec/aoci-code",
   "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
   "homepage": "www.aoci.ai",
-  "stars": 1871,
-  "forks": 226,
+  "stars": 1875,
+  "forks": 227,
   "open_issues": 11,
   "language": "Go",
   "license": "NOASSERTION",
@@ -34,27 +34,27 @@
     "repo-map"
   ],
   "created_at": "2026-08-08T11:33:08Z",
-  "updated_at": "2026-11-07T06:04:13Z",
-  "pushed_at": "2026-11-06T03:21:39Z",
+  "updated_at": "2026-11-08T09:09:52Z",
+  "pushed_at": "2026-11-07T13:46:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 90,
-  "days_since_push": 1,
+  "age_days": 91,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
-    "popularity": 65.4,
-    "momentum": 5.7,
+    "popularity": 65.5,
+    "momentum": 5.2,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 34,
+    "stars_gained": 31,
     "days_span": 5,
-    "stars_per_day": 6.8,
-    "lifetime_stars_per_day": 20.79,
+    "stars_per_day": 6.2,
+    "lifetime_stars_per_day": 20.6,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -153,7 +153,7 @@
       "external_link_ratio": 0.09
     },
     "highlights": [
-      "Fault-injection scenarios — 98 scenarios covering cursor tampering,",
+      "Fault-injection scenarios — 99 scenarios covering cursor tampering,",
       "Protocol conformance — 62 read-only checks of the MCP wire surface,",
       "generating a deterministic plan, target set, and source SHA-256 values;",
       "A — API: which interfaces, commands, formats, or observable contracts it exposes."
@@ -163,7 +163,7 @@
       "一个受支持的 MCP 宿主，例如 Codex、Claude Code、Cursor 或 OpenCode；",
       "协议一致性 —— 62 项只读检查，覆盖 MCP 线协议表面，locale 相关语句另在",
       "AI Agent 必须沿 next_cursor 自动读取到最后一个 Chunk；",
-      "升级轴 —— 每个已发布版本 80 项检查，覆盖十种仓库形状：每个公开发布版本"
+      "故障注入场景 —— 99 个场景，在一次性夹具仓库上检验游标篡改、崩溃恢复、"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -172,18 +172,83 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:15+00:00",
+  "fetched_at": "2026-11-08T11:19:20+00:00",
   "categories": [
     "desktop-ui-2",
-    "failover",
-    "sharing"
+    "model-routing",
+    "teams"
   ],
-  "primary_category": "failover",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (8/8)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "aoci-spec/aoci-code",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "aoci-spec/aoci-code",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "session-persistence"
+      ],
+      "star_ratio": 159.678,
+      "momentum_ratio": 106.548,
+      "setup_delta": -16,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (8/8)",
+        "159.68x the stars (299,397 vs 1,875)",
+        "106.55x the star velocity (660.6/day vs 6.2/day)",
+        "no harder to set up (57 vs 73 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 55,
+        "challenger_health": 89,
+        "incumbent_setup_score": 73,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

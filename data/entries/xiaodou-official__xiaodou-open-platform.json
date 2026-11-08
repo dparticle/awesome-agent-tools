@@ -6,7 +6,7 @@
   "url": "https://github.com/xiaodou-official/xiaodou-open-platform",
   "description": "小豆支付开放平台：个人支付接口——个人也能申请的支付宝+微信聚合收款，RSA2 签名 + webhook 验签、持牌机构清算、次日到账；兼容易支付/彩虹支付插件协议零代码迁移（submit.php/mapi.php/api.php）；已兼容 Sub2API、New API（源码级核对）；多到账账号收款分配与分账；15 篇文档、四语言签名示例与本地 demo。China individual payment API: Alipay + WeChat Pay aggregate payments, Epay-compatible, Sub2API & New API ready, licensed settlement.",
   "homepage": "https://xdfair.cn/",
-  "stars": 327,
+  "stars": 330,
   "forks": 9,
   "open_issues": 0,
   "language": "",
@@ -34,27 +34,27 @@
     "wechat-pay"
   ],
   "created_at": "2026-09-27T12:05:21Z",
-  "updated_at": "2026-11-07T10:59:54Z",
+  "updated_at": "2026-11-08T05:14:26Z",
   "pushed_at": "2026-11-03T12:36:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 40,
-  "days_since_push": 3,
+  "age_days": 41,
+  "days_since_push": 4,
   "health_score": 52,
   "health_components": {
-    "popularity": 50.3,
-    "momentum": 0.0,
+    "popularity": 50.4,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 8.18,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 8.05,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,7 +149,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:49+00:00",
+  "fetched_at": "2026-11-08T11:20:09+00:00",
   "categories": [
     "billing",
     "billing-2"

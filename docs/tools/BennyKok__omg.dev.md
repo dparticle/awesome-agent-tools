@@ -17,14 +17,12 @@
 | Health score | 50/100 |
 | Documentation | 42/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-17 |
-| Last push | 2026-11-07 (0 days ago) |
-| Analyzed README | 4,393 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** — Superseded by omnigent-ai/omnigent: covers 100% of capabilities (7/7).
+| Last push | 2026-11-08 (0 days ago) |
+| Analyzed README | 3,537 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,9 +36,9 @@
 
 ### Self-hostable
 
-> Open-source harness for Claude Code, Codex, and other coding agents.
-
 ### GUI / desktop app
+
+> -click the app, choose Open, then Open again.
 
 ### Notifications
 

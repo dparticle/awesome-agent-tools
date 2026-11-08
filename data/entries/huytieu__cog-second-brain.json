@@ -6,7 +6,7 @@
   "url": "https://github.com/huytieu/COG-second-brain",
   "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
   "homepage": "",
-  "stars": 1340,
+  "stars": 1343,
   "forks": 163,
   "open_issues": 12,
   "language": "Python",
@@ -34,26 +34,26 @@
     "worker-agents"
   ],
   "created_at": "2025-10-15T03:50:52Z",
-  "updated_at": "2026-11-05T14:07:05Z",
+  "updated_at": "2026-11-08T09:46:30Z",
   "pushed_at": "2026-10-23T02:52:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 388,
-  "days_since_push": 15,
+  "age_days": 389,
+  "days_since_push": 16,
   "health_score": 56,
   "health_components": {
-    "popularity": 62.5,
-    "momentum": 1.3,
+    "popularity": 62.6,
+    "momentum": 0.8,
     "maintenance": 92.0,
     "documentation": 70.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.6,
+    "stars_per_day": 1.0,
     "lifetime_stars_per_day": 3.45,
     "basis": "history",
     "is_fast_riser": false
@@ -167,7 +167,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:19+00:00",
+  "fetched_at": "2026-11-08T11:19:26+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -200,14 +200,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 8.769,
-      "momentum_ratio": 34.25,
+      "star_ratio": 8.768,
+      "momentum_ratio": 50.8,
       "setup_delta": 1,
       "dominance": 0.995,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "8.77x the stars (11,750 vs 1,340)",
-        "34.25x the star velocity (54.8/day vs 1.6/day)",
+        "8.77x the stars (11,775 vs 1,343)",
+        "50.80x the star velocity (50.8/day vs 1.0/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -241,7 +241,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 75,
+        "challenger_health": 74,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 32
       }

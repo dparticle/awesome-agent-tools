@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11322,
+  "stars": 11327,
   "forks": 911,
-  "open_issues": 144,
+  "open_issues": 152,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,12 +29,12 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-11-07T08:31:45Z",
-  "pushed_at": "2026-11-07T10:53:44Z",
+  "updated_at": "2026-11-08T09:39:19Z",
+  "pushed_at": "2026-11-08T09:03:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
+  "age_days": 117,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
@@ -49,7 +49,7 @@
     "stars_gained": 35,
     "days_span": 5,
     "stars_per_day": 7.0,
-    "lifetime_stars_per_day": 97.6,
+    "lifetime_stars_per_day": 96.81,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -127,11 +127,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:34+00:00",
+  "fetched_at": "2026-11-08T11:18:21+00:00",
   "categories": [
-    "sharing"
+    "model-routing"
   ],
-  "primary_category": "sharing",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

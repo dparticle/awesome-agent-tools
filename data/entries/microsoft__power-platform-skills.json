@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/power-platform-skills",
   "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
   "homepage": "https://microsoft.github.io/power-platform-skills/",
-  "stars": 1123,
-  "forks": 225,
-  "open_issues": 171,
+  "stars": 1125,
+  "forks": 226,
+  "open_issues": 173,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "power-platform"
   ],
   "created_at": "2026-01-21T18:25:14Z",
-  "updated_at": "2026-11-06T22:28:54Z",
-  "pushed_at": "2026-11-07T08:47:29Z",
+  "updated_at": "2026-11-08T10:21:59Z",
+  "pushed_at": "2026-11-07T23:03:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 289,
+  "age_days": 290,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 61.0,
-    "momentum": 3.3,
+    "momentum": 3.0,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 71.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 20,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 4.0,
-    "lifetime_stars_per_day": 3.89,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 3.88,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:23+00:00",
+  "fetched_at": "2026-11-08T11:19:32+00:00",
   "categories": [
     "mcp-security"
   ],

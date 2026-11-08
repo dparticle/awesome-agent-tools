@@ -6,9 +6,9 @@
   "url": "https://github.com/HarnessRouter/harnessrouter",
   "description": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an open standard. Your keys, your infrastructure.",
   "homepage": "https://harnessrouter.ai/",
-  "stars": 4270,
-  "forks": 471,
-  "open_issues": 32,
+  "stars": 4286,
+  "forks": 472,
+  "open_issues": 30,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "unified-interface"
   ],
   "created_at": "2026-08-09T20:19:14Z",
-  "updated_at": "2026-11-07T09:55:36Z",
-  "pushed_at": "2026-11-07T09:16:05Z",
+  "updated_at": "2026-11-08T09:36:23Z",
+  "pushed_at": "2026-11-08T09:15:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 89,
+  "age_days": 90,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 70,
   "health_components": {
     "popularity": 72.6,
-    "momentum": 66.2,
+    "momentum": 61.3,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 397,
+    "stars_gained": 368,
     "days_span": 5,
-    "stars_per_day": 79.4,
-    "lifetime_stars_per_day": 47.98,
+    "stars_per_day": 73.6,
+    "lifetime_stars_per_day": 47.62,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -155,7 +155,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:43+00:00",
+  "fetched_at": "2026-11-08T11:18:34+00:00",
   "categories": [
     "providers-2",
     "teams"

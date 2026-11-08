@@ -29,22 +29,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 248,
-  "days_since_push": 7,
-  "health_score": 51,
+  "age_days": 249,
+  "days_since_push": 8,
+  "health_score": 50,
   "health_components": {
     "popularity": 54.4,
     "momentum": 0.0,
-    "maintenance": 100.0,
+    "maintenance": 92.0,
     "documentation": 59.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 13,
+    "days_span": 14,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.11,
+    "lifetime_stars_per_day": 2.1,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -161,11 +161,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:36+00:00",
+  "fetched_at": "2026-11-08T11:19:52+00:00",
   "categories": [
     "analytics-3",
     "mcp-security",
-    "teams"
+    "providers-2"
   ],
   "primary_category": "analytics-3",
   "lifecycle": {

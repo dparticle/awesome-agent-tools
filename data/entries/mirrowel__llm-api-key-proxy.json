@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 514,
-  "days_since_push": 5,
+  "age_days": 515,
+  "days_since_push": 6,
   "health_score": 51,
   "health_components": {
     "popularity": 54.9,
@@ -167,13 +167,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:34+00:00",
+  "fetched_at": "2026-11-08T11:19:48+00:00",
   "categories": [
     "analytics-3",
     "billing",
     "sharing"
   ],
-  "primary_category": "billing",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

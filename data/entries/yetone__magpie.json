@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 31556,
-  "forks": 2766,
-  "open_issues": 3344,
+  "stars": 32056,
+  "forks": 2824,
+  "open_issues": 3402,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-11-07T11:04:28Z",
-  "pushed_at": "2026-11-07T10:41:00Z",
+  "updated_at": "2026-11-08T11:18:04Z",
+  "pushed_at": "2026-11-08T11:11:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 44,
+  "age_days": 45,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
-    "popularity": 90.0,
+    "popularity": 90.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 63.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3328,
+    "stars_gained": 3168,
     "days_span": 5,
-    "stars_per_day": 665.6,
-    "lifetime_stars_per_day": 717.18,
+    "stars_per_day": 633.6,
+    "lifetime_stars_per_day": 712.36,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 24035,
+    "readme_chars": 24051,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -139,7 +139,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.498
+      "external_link_ratio": 1.497
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -160,11 +160,11 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-07T11:05:27+00:00",
+  "fetched_at": "2026-11-08T11:18:10+00:00",
   "categories": [
     "billing",
-    "mcp-security",
-    "model-routing"
+    "desktop-ui-2",
+    "mcp-security"
   ],
   "primary_category": "billing",
   "lifecycle": {

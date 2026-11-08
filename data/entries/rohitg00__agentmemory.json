@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://www.agent-memory.dev/docs",
-  "stars": 30182,
-  "forks": 2672,
-  "open_issues": 500,
+  "stars": 30197,
+  "forks": 2674,
+  "open_issues": 479,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -30,33 +30,33 @@
     "pi"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-11-07T10:02:35Z",
-  "pushed_at": "2026-11-07T08:09:59Z",
+  "updated_at": "2026-11-08T10:53:58Z",
+  "pushed_at": "2026-11-08T09:50:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 255,
+  "age_days": 256,
   "days_since_push": 0,
-  "health_score": 69,
+  "health_score": 68,
   "health_components": {
     "popularity": 89.6,
-    "momentum": 16.3,
+    "momentum": 14.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 98,
+    "stars_gained": 89,
     "days_span": 5,
-    "stars_per_day": 19.6,
-    "lifetime_stars_per_day": 118.36,
+    "stars_per_day": 17.8,
+    "lifetime_stars_per_day": 117.96,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rohitg00/agentmemory",
-    "readme_chars": 92355,
+    "readme_chars": 92882,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -187,7 +187,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.195
+      "external_link_ratio": 0.194
     },
     "highlights": [
       "Auth uses JWT middleware in src/middleware/auth.ts"
@@ -201,9 +201,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:03+00:00",
+  "fetched_at": "2026-11-08T11:19:01+00:00",
   "categories": [
-    "failover",
+    "desktop-ui",
     "mcp-security",
     "teams"
   ],

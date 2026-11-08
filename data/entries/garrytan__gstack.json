@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 140558,
-  "forks": 20747,
-  "open_issues": 74,
+  "stars": 140715,
+  "forks": 20777,
+  "open_issues": 76,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-07T11:02:36Z",
-  "pushed_at": "2026-11-07T10:36:02Z",
+  "updated_at": "2026-11-08T11:08:28Z",
+  "pushed_at": "2026-11-08T11:05:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 240,
+  "age_days": 241,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1927,
+    "stars_gained": 1952,
     "days_span": 5,
-    "stars_per_day": 385.4,
-    "lifetime_stars_per_day": 585.66,
+    "stars_per_day": 390.4,
+    "lifetime_stars_per_day": 583.88,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 39207,
+    "readme_chars": 40425,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -73,7 +73,7 @@
       "model-routing": 1,
       "memory-context": 1,
       "skills-plugins": 1,
-      "agent-runtime": 2,
+      "agent-runtime": 3,
       "mcp-support": 1,
       "security-isolation": 1,
       "notifications": 2,
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.332
+      "external_link_ratio": 0.346
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -153,10 +153,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:49+00:00",
+  "fetched_at": "2026-11-08T11:18:43+00:00",
   "categories": [
     "desktop-ui",
-    "failover",
+    "mcp-security",
     "mobile"
   ],
   "primary_category": "mobile",

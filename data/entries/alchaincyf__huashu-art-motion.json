@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "full_name": "alchaincyf/huashu-art-motion",
+  "name": "huashu-art-motion",
+  "owner": "alchaincyf",
+  "url": "https://github.com/alchaincyf/huashu-art-motion",
+  "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+  "homepage": "",
+  "stars": 6504,
+  "forks": 648,
+  "open_issues": 9,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "animation",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "explainer-video",
+    "generative-art",
+    "huashu-skills",
+    "motion-graphics",
+    "skills",
+    "video"
+  ],
+  "created_at": "2026-10-06T04:49:37Z",
+  "updated_at": "2026-11-08T11:14:57Z",
+  "pushed_at": "2026-10-16T17:03:31Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 33,
+  "days_since_push": 22,
+  "health_score": 85,
+  "health_components": {
+    "popularity": 76.3,
+    "momentum": 100.0,
+    "maintenance": 92.0,
+    "documentation": 58.0,
+    "accessibility": 96.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 6504,
+    "days_span": 33,
+    "stars_per_day": 197.09,
+    "lifetime_stars_per_day": 197.09,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "alchaincyf/huashu-art-motion",
+    "readme_chars": 12132,
+    "capabilities": [
+      "auto-failover",
+      "skills-plugins",
+      "agent-runtime"
+    ],
+    "capability_evidence": {
+      "auto-failover": "dex在线回归通过，Claude Code/Kimi在线回归受测试账户条件阻塞，待补验。",
+      "skills-plugins": "e glad to see this approach to art animation used in another open-source project, and thank the Open Design team.",
+      "agent-runtime": "；《Clawd 博物馆奇妙夜》是非官方的同人示范，与 Anthropic 无关，GIF 与成片同样不随 MIT 授权。"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 16,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Turnkey. install via npx one-liner",
+      "note_zh": "开箱即用。可通过 npx one-liner 安装"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "links to dedicated docs",
+      "has a Chinese translation"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "让你的coding agent，把艺术风格写成会动的画。",
+    "summary_zh": "",
+    "install_hint": "npx skills add alchaincyf/huashu-art-motion",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 2.143
+    },
+    "highlights": [
+      "兼容性与验证范围：三家安装重装通过；Codex在线回归通过，Claude Code/Kimi在线回归受测试账户条件阻塞，待补验。",
+      "字体都是 SIL OFL 1.1 开源字体，清单和版权见 scripts/engine/lib/fonts/LICENSES.md。",
+      "2026-10：Open Design（nexu-io 出品的开源 AI 设计工作区）的 motion-design skill 把 huashu-art-motion 列为设计来源之一，并在 skills/huashu-art-motion 收录了一份适配版，保留了 MIT 许可和上游出处。",
+      "Tak（@cherry_mx_reds） 的《Art History Speedrun》是这个 skill 的起点。"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-08T11:18:28+00:00",
+  "categories": [
+    "desktop-ui",
+    "sharing"
+  ],
+  "primary_category": "sharing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

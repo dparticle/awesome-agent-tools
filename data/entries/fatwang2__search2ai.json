@@ -6,7 +6,7 @@
   "url": "https://github.com/fatwang2/search2ai",
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
-  "stars": 1285,
+  "stars": 1286,
   "forks": 195,
   "open_issues": 18,
   "language": "TypeScript",
@@ -28,13 +28,13 @@
     "web-search"
   ],
   "created_at": "2023-12-18T02:02:46Z",
-  "updated_at": "2026-11-06T15:48:35Z",
-  "pushed_at": "2026-11-02T22:47:20Z",
+  "updated_at": "2026-11-07T16:20:16Z",
+  "pushed_at": "2026-11-07T16:20:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1055,
-  "days_since_push": 4,
+  "age_days": 1056,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
@@ -46,7 +46,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 7,
+    "days_span": 6,
     "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.22,
     "basis": "history",
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:21+00:00",
+  "fetched_at": "2026-11-08T11:19:29+00:00",
   "categories": [
     "mcp-security",
     "model-routing"

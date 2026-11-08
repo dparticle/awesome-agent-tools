@@ -6,9 +6,9 @@
   "url": "https://github.com/miuuyy/codex-chatgpt-web",
   "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
   "homepage": "",
-  "stars": 15567,
+  "stars": 15591,
   "forks": 1224,
-  "open_issues": 21,
+  "open_issues": 22,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,27 +24,27 @@
     "typescript"
   ],
   "created_at": "2026-07-26T13:04:44Z",
-  "updated_at": "2026-11-07T10:44:52Z",
+  "updated_at": "2026-11-08T11:00:03Z",
   "pushed_at": "2026-10-30T22:52:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 103,
-  "days_since_push": 7,
-  "health_score": 66,
+  "age_days": 104,
+  "days_since_push": 8,
+  "health_score": 63,
   "health_components": {
-    "popularity": 83.8,
-    "momentum": 26.2,
-    "maintenance": 100.0,
+    "popularity": 83.9,
+    "momentum": 21.7,
+    "maintenance": 92.0,
     "documentation": 45.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 157,
+    "stars_gained": 130,
     "days_span": 5,
-    "stars_per_day": 31.4,
-    "lifetime_stars_per_day": 151.14,
+    "stars_per_day": 26.0,
+    "lifetime_stars_per_day": 149.91,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:33+00:00",
+  "fetched_at": "2026-11-08T11:18:19+00:00",
   "categories": [
     "mcp-security"
   ],

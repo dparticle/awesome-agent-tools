@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 224,
-  "days_since_push": 36,
+  "age_days": 225,
+  "days_since_push": 37,
   "health_score": 47,
   "health_components": {
     "popularity": 54.8,
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 16,
+    "days_span": 17,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.45,
+    "lifetime_stars_per_day": 2.44,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,17 +131,72 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:35+00:00",
+  "fetched_at": "2026-11-08T11:19:49+00:00",
   "categories": [
     "desktop-ui",
-    "failover"
+    "teams"
   ],
-  "primary_category": "failover",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "genspark-ai/genoffice",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "leoyeai/talewell",
+      "challenger": "genspark-ai/genoffice",
+      "incumbent_name": "LeoYeAI/talewell",
+      "challenger_name": "genspark-ai/genoffice",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "skills-plugins"
+      ],
+      "star_ratio": 21.738,
+      "momentum_ratio": 1252.0,
+      "setup_delta": -3,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "21.74x the stars (11,934 vs 549)",
+        "1252.00x the star velocity (62.6/day vs 0.0/day)",
+        "no harder to set up (20 vs 23 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 74,
+        "incumbent_setup_score": 23,
+        "challenger_setup_score": 20
+      }
+    }
   }
 }

@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1515,
-  "forks": 607,
-  "open_issues": 152,
+  "stars": 1524,
+  "forks": 615,
+  "open_issues": 146,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,27 +29,27 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-07T09:43:04Z",
-  "pushed_at": "2026-11-07T11:03:39Z",
+  "updated_at": "2026-11-08T08:17:21Z",
+  "pushed_at": "2026-11-08T10:54:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 362,
+  "age_days": 363,
   "days_since_push": 0,
-  "health_score": 53,
+  "health_score": 54,
   "health_components": {
-    "popularity": 63.6,
-    "momentum": 4.8,
+    "popularity": 63.7,
+    "momentum": 6.0,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 31.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 29,
+    "stars_gained": 36,
     "days_span": 5,
-    "stars_per_day": 5.8,
-    "lifetime_stars_per_day": 4.19,
+    "stars_per_day": 7.2,
+    "lifetime_stars_per_day": 4.2,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -150,22 +150,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:17+00:00",
+  "fetched_at": "2026-11-08T11:19:23+00:00",
   "categories": [
-    "failover"
+    "teams"
   ],
-  "primary_category": "failover",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 xerj-org/xerj 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "xerj-org/xerj",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "TencentCloud/Octop",
     "challenger": "",
     "supersede": {
       "incumbent": "oceanbase/powercontext",
-      "challenger": "xerj-org/xerj",
+      "challenger": "tencentcloud/octop",
       "incumbent_name": "oceanbase/powercontext",
-      "challenger_name": "xerj-org/xerj",
+      "challenger_name": "TencentCloud/Octop",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -176,15 +176,15 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 12.224,
-      "momentum_ratio": 17.069,
-      "setup_delta": -36,
+      "star_ratio": 7.726,
+      "momentum_ratio": 7.056,
+      "setup_delta": -37,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "12.22x the stars (18,520 vs 1,515)",
-        "17.07x the star velocity (99.0/day vs 5.8/day)",
-        "no harder to set up (33 vs 69 friction)"
+        "7.73x the stars (11,775 vs 1,524)",
+        "7.06x the star velocity (50.8/day vs 7.2/day)",
+        "no harder to set up (32 vs 69 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -196,15 +196,25 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context"
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
         ],
-        "incumbent_health": 53,
-        "challenger_health": 84,
+        "incumbent_health": 54,
+        "challenger_health": 74,
         "incumbent_setup_score": 69,
-        "challenger_setup_score": 33
+        "challenger_setup_score": 32
       }
     }
   }

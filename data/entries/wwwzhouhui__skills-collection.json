@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 360,
-  "days_since_push": 1,
+  "age_days": 361,
+  "days_since_push": 2,
   "health_score": 56,
   "health_components": {
     "popularity": 49.3,
@@ -178,13 +178,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:55+00:00",
+  "fetched_at": "2026-11-08T11:20:21+00:00",
   "categories": [
     "billing",
     "billing-2",
-    "failover"
+    "sharing"
   ],
-  "primary_category": "billing",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

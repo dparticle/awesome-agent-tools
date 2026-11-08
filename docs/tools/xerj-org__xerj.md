@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 18,520 |
-| Star velocity | 99.0/day (history basis, 7d span) |
-| Health score | 84/100 |
+| Stars | 18,600 |
+| Star velocity | 8.6/day (history basis, 7d span) |
+| Health score | 66/100 |
 | Documentation | 76/100 |
-| Tier | 🏆 Flagship |
-| Lifecycle | 🟢 Active |
+| Tier | ✅ Recommended |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-11-07 (0 days ago) |
+| Last push | 2026-11-08 (0 days ago) |
 | Analyzed README | 53,558 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -84,7 +86,7 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.4 |
-| momentum | 82.5 |
+| momentum | 7.1 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
 | accessibility | 67.0 |

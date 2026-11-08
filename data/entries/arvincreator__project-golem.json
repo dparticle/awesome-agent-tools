@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 281,
-  "days_since_push": 138,
+  "age_days": 282,
+  "days_since_push": 139,
   "health_score": 38,
   "health_components": {
     "popularity": 56.1,
@@ -44,7 +44,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.28,
+    "lifetime_stars_per_day": 2.27,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -119,67 +119,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:32+00:00",
+  "fetched_at": "2026-11-08T11:19:45+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "mcp-security"
+    "desktop-ui-2"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "arvincreator/project-golem",
-      "challenger": "hoangsonww/claude-code-agent-monitor",
-      "incumbent_name": "Arvincreator/project-golem",
-      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 1.803,
-      "momentum_ratio": 76.0,
-      "setup_delta": -15,
-      "dominance": 0.884,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "1.80x the stars (1,156 vs 641)",
-        "76.00x the star velocity (3.8/day vs 0.0/day)",
-        "no harder to set up (30 vs 45 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "session-persistence",
-          "skills-plugins"
-        ],
-        "incumbent_health": 38,
-        "challenger_health": 56,
-        "incumbent_setup_score": 45,
-        "challenger_setup_score": 30
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

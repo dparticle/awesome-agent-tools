@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 229,
-  "days_since_push": 77,
+  "age_days": 230,
+  "days_since_push": 78,
   "health_score": 49,
   "health_components": {
     "popularity": 62.9,
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 11,
+    "days_span": 12,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.13,
+    "lifetime_stars_per_day": 6.1,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,23 +131,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:19+00:00",
+  "fetched_at": "2026-11-08T11:19:26+00:00",
   "categories": [
-    "desktop-ui",
-    "mobile"
+    "desktop-ui"
   ],
-  "primary_category": "mobile",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 garrytan/gstack 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "garrytan/gstack",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
     "challenger": "",
     "supersede": {
       "incumbent": "wenfxl/openai-cpa",
-      "challenger": "garrytan/gstack",
+      "challenger": "sickn33/agentic-awesome-skills",
       "incumbent_name": "wenfxl/openai-cpa",
-      "challenger_name": "garrytan/gstack",
+      "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -158,15 +157,15 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 100.184,
-      "momentum_ratio": 7708.0,
-      "setup_delta": -18,
+      "star_ratio": 35.172,
+      "momentum_ratio": 1068.0,
+      "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "100.18x the stars (140,558 vs 1,403)",
-        "7708.00x the star velocity (385.4/day vs 0.0/day)",
-        "no harder to set up (39 vs 57 friction)"
+        "35.17x the stars (49,346 vs 1,403)",
+        "1068.00x the star velocity (53.4/day vs 0.0/day)",
+        "no harder to set up (30 vs 57 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -178,21 +177,24 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "auto-failover",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
           "security-isolation",
+          "self-hosted",
           "skills-plugins",
-          "worktree-isolation"
+          "team-collaboration",
+          "usage-analytics"
         ],
         "incumbent_health": 49,
-        "challenger_health": 91,
+        "challenger_health": 78,
         "incumbent_setup_score": 57,
-        "challenger_setup_score": 39
+        "challenger_setup_score": 30
       }
     }
   }

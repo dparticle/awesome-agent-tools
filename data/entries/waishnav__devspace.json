@@ -6,8 +6,8 @@
   "url": "https://github.com/Waishnav/devspace",
   "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
   "homepage": "https://devspace.run",
-  "stars": 5421,
-  "forks": 615,
+  "stars": 5426,
+  "forks": 616,
   "open_issues": 31,
   "language": "TypeScript",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "pi-coding-agent"
   ],
   "created_at": "2026-06-14T16:57:27Z",
-  "updated_at": "2026-11-07T10:24:17Z",
+  "updated_at": "2026-11-08T09:32:43Z",
   "pushed_at": "2026-11-01T17:42:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 145,
-  "days_since_push": 5,
+  "age_days": 146,
+  "days_since_push": 6,
   "health_score": 60,
   "health_components": {
     "popularity": 74.7,
-    "momentum": 8.5,
+    "momentum": 7.3,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 51,
+    "stars_gained": 44,
     "days_span": 5,
-    "stars_per_day": 10.2,
-    "lifetime_stars_per_day": 37.39,
+    "stars_per_day": 8.8,
+    "lifetime_stars_per_day": 37.16,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:41+00:00",
+  "fetched_at": "2026-11-08T11:18:31+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -177,14 +177,14 @@
         "remote-control",
         "worktree-isolation"
       ],
-      "star_ratio": 4.31,
-      "momentum_ratio": 11.098,
+      "star_ratio": 4.323,
+      "momentum_ratio": 12.705,
       "setup_delta": -4,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.31x the stars (23,362 vs 5,421)",
-        "11.10x the star velocity (113.2/day vs 10.2/day)",
+        "4.32x the stars (23,454 vs 5,426)",
+        "12.70x the star velocity (111.8/day vs 8.8/day)",
         "no harder to set up (24 vs 28 friction)"
       ],
       "reasons_zh": [],

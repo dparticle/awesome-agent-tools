@@ -6,7 +6,7 @@
   "url": "https://github.com/mcpware/cross-code-organizer",
   "description": "Cross-Code Organizer (formerly Claude Code Organizer): cross-harness config dashboard for Claude Code, Codex CLI, MCP servers, skills, memories, agents, sessions, security scanning, context budget, and backups.",
   "homepage": "https://www.npmjs.com/package/@mcpware/cross-code-organizer",
-  "stars": 386,
+  "stars": 389,
   "forks": 34,
   "open_issues": 6,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "tool-poisoning"
   ],
   "created_at": "2026-03-18T21:50:10Z",
-  "updated_at": "2026-11-06T00:29:51Z",
+  "updated_at": "2026-11-08T09:29:10Z",
   "pushed_at": "2026-11-04T12:01:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
-  "days_since_push": 2,
+  "age_days": 234,
+  "days_since_push": 3,
   "health_score": 54,
   "health_components": {
-    "popularity": 51.7,
-    "momentum": 0.0,
+    "popularity": 51.8,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 80.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.66,
     "basis": "history",
     "is_fast_riser": false
@@ -163,7 +163,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:47+00:00",
+  "fetched_at": "2026-11-08T11:20:06+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

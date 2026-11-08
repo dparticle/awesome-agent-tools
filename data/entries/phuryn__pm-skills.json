@@ -6,8 +6,8 @@
   "url": "https://github.com/phuryn/pm-skills",
   "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
   "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
-  "stars": 27746,
-  "forks": 2871,
+  "stars": 27768,
+  "forks": 2873,
   "open_issues": 49,
   "language": "",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "product-management"
   ],
   "created_at": "2026-03-01T23:33:44Z",
-  "updated_at": "2026-11-07T10:15:28Z",
+  "updated_at": "2026-11-08T10:46:02Z",
   "pushed_at": "2026-10-29T19:09:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 250,
-  "days_since_push": 8,
-  "health_score": 66,
+  "age_days": 251,
+  "days_since_push": 9,
+  "health_score": 65,
   "health_components": {
     "popularity": 88.9,
-    "momentum": 21.2,
+    "momentum": 19.8,
     "maintenance": 92.0,
     "documentation": 53.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 127,
+    "stars_gained": 119,
     "days_span": 5,
-    "stars_per_day": 25.4,
-    "lifetime_stars_per_day": 110.98,
+    "stars_per_day": 23.8,
+    "lifetime_stars_per_day": 110.63,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:03+00:00",
+  "fetched_at": "2026-11-08T11:19:02+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -161,13 +161,13 @@
         "usage-analytics"
       ],
       "star_ratio": 1.777,
-      "momentum_ratio": 2.197,
+      "momentum_ratio": 2.244,
       "setup_delta": 3,
-      "dominance": 0.764,
+      "dominance": 0.766,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.78x the stars (49,303 vs 27,746)",
-        "2.20x the star velocity (55.8/day vs 25.4/day)",
+        "1.78x the stars (49,346 vs 27,768)",
+        "2.24x the star velocity (53.4/day vs 23.8/day)",
         "slightly heavier setup (+3 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -194,8 +194,8 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 66,
-        "challenger_health": 79,
+        "incumbent_health": 65,
+        "challenger_health": 78,
         "incumbent_setup_score": 27,
         "challenger_setup_score": 30
       }

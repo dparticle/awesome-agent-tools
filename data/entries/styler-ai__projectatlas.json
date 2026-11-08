@@ -6,9 +6,9 @@
   "url": "https://github.com/styler-ai/ProjectAtlas",
   "description": "Every file not opened. Every folder not explored. Tokens saved. A local repository map for coding agents: purposes, source, symbols, and dependencies. Native Rust CLI and MCP, isolated worktrees, and subagent hooks.",
   "homepage": "https://styler-ai.github.io/ProjectAtlas/",
-  "stars": 488,
+  "stars": 490,
   "forks": 13,
-  "open_issues": 17,
+  "open_issues": 15,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "sqlite"
   ],
   "created_at": "2026-01-01T14:15:37Z",
-  "updated_at": "2026-11-06T21:31:48Z",
-  "pushed_at": "2026-11-07T08:02:49Z",
+  "updated_at": "2026-11-08T10:53:07Z",
+  "pushed_at": "2026-11-08T08:13:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 309,
+  "age_days": 310,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 53.8,
-    "momentum": 3.3,
+    "momentum": 3.2,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 99.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 20,
+    "stars_gained": 19,
     "days_span": 5,
-    "stars_per_day": 4.0,
+    "stars_per_day": 3.8,
     "lifetime_stars_per_day": 1.58,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "styler-ai/ProjectAtlas",
-    "readme_chars": 10559,
+    "readme_chars": 11016,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -122,7 +122,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.474
+      "external_link_ratio": 0.545
     },
     "highlights": [
       "Built-in PHP 8 navigation and bounded PDF/DOCX text extraction, with source evidence and coverage reporting."
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:39+00:00",
+  "fetched_at": "2026-11-08T11:19:55+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

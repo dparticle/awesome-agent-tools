@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 18,272 |
-| Star velocity | 22.0/day (history basis, 5d span) |
+| Stars | 18,301 |
+| Star velocity | 23.4/day (history basis, 5d span) |
 | Health score | 64/100 |
 | Documentation | 54/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,14 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-18 |
-| Last push | 2026-11-07 (0 days ago) |
-| Analyzed README | 22,128 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-08 (0 days ago) |
+| Analyzed README | 22,121 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> , Gemini, Grok, GLM, DeepSeek, Kimi, Qwen, Ollama and other
+> in — should only be reached for
 
 ### Automatic failover
 
@@ -43,6 +43,10 @@
 ### API gateway / proxy
 
 > ystem One-compatible server.
+
+### Agent runtime
+
+> , Claude Code, Claude Desktop and Grok Build,
 
 ### Self-hostable
 
@@ -90,7 +94,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.2 |
-| momentum | 18.3 |
+| momentum | 19.5 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 58.0 |

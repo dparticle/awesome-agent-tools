@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,124 |
-| Star velocity | 169.0/day (history basis, 5d span) |
+| Stars | 2,239 |
+| Star velocity | 164.6/day (history basis, 5d span) |
 | Health score | 80/100 |
-| Documentation | 57/100 |
+| Documentation | 58/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
-| License | not declared |
+| License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-11-07 (0 days ago) |
-| Analyzed README | 19,363 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-08 (0 days ago) |
+| Analyzed README | 20,450 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,13 +52,15 @@
 
 ### Self-hostable
 
+> s at once, and use Bot mode, powered by Fei2411/DS-Bot.
+
 ### Team collaboration
 
 > Agent keeps its own workspaces and sessions; only session translation for DSH is performed, without writing to Harness storage.
 
 ### GUI / desktop app
 
-> bar Supported Install ds-harness-remote@0.6.3; this computer can also be the Host
+> bar Supported Install ds-harness-remote@0.6.4; this computer can also be the Host
 
 ### Cross-agent support
 
@@ -66,19 +68,21 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Difficulty:** 🟡 Some setup (friction score 37/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
 **Signals that make it easy:** native installer / package
 
+**Signals that add work:** go build
+
 **Configuration required:** sign-in required, process manager
 
-*Easy. install via native installer / package; configure sign-in required, process manager*
+*Some setup. install via native installer / package; needs go build; configure sign-in required, process manager*
 
 ## Documentation quality
 
-Score **57/100**, based on these detected signals:
+Score **58/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -89,16 +93,17 @@ Score **57/100**, based on these detected signals:
 - mentions licensing
 - documents changes
 - publishes a roadmap
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 66.5 |
+| popularity | 67.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 57.0 |
-| accessibility | 72.0 |
+| documentation | 58.0 |
+| accessibility | 63.0 |
 
 ---
 

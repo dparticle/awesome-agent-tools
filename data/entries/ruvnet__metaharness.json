@@ -6,9 +6,9 @@
   "url": "https://github.com/ruvnet/metaharness",
   "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
   "homepage": "https://Cognitum.One",
-  "stars": 739,
+  "stars": 740,
   "forks": 94,
-  "open_issues": 212,
+  "open_issues": 214,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "scaffolding"
   ],
   "created_at": "2026-06-13T18:29:11Z",
-  "updated_at": "2026-11-06T17:03:58Z",
-  "pushed_at": "2026-11-07T08:33:10Z",
+  "updated_at": "2026-11-08T01:26:30Z",
+  "pushed_at": "2026-11-08T08:35:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
+  "age_days": 147,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 57.4,
-    "momentum": 0.3,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 42.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 5.06,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 5.03,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,11 +160,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:30+00:00",
+  "fetched_at": "2026-11-08T11:19:42+00:00",
   "categories": [
     "desktop-ui",
     "mcp-security",
-    "sharing"
+    "model-routing"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

@@ -7,7 +7,7 @@
   "description": "Long-term memory for any AI agent. One Rust binary, offline, 98.2% recall@5 on LongMemEval-S. Self-host free or use Uteke Cloud.",
   "homepage": "https://uteke.app",
   "stars": 284,
-  "forks": 31,
+  "forks": 32,
   "open_issues": 6,
   "language": "Rust",
   "license": "Apache-2.0",
@@ -34,27 +34,27 @@
     "vector-database"
   ],
   "created_at": "2026-05-29T00:27:31Z",
-  "updated_at": "2026-11-05T14:16:40Z",
-  "pushed_at": "2026-11-07T09:12:44Z",
+  "updated_at": "2026-11-08T10:11:06Z",
+  "pushed_at": "2026-11-08T10:11:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 162,
+  "age_days": 163,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 49.1,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.75,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 1.74,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:56+00:00",
+  "fetched_at": "2026-11-08T11:20:22+00:00",
   "categories": [
     "teams"
   ],
@@ -180,14 +180,14 @@
         "multi-agent-orchestration",
         "self-hosted"
       ],
-      "star_ratio": 41.373,
-      "momentum_ratio": 91.333,
+      "star_ratio": 41.461,
+      "momentum_ratio": 127.0,
       "setup_delta": -5,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "41.37x the stars (11,750 vs 284)",
-        "91.33x the star velocity (54.8/day vs 0.6/day)",
+        "41.46x the stars (11,775 vs 284)",
+        "127.00x the star velocity (50.8/day vs 0.4/day)",
         "no harder to set up (32 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -217,7 +217,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 75,
+        "challenger_health": 74,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 32
       }

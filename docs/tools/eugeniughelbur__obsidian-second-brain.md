@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,205 |
-| Star velocity | 20.6/day (history basis, 5d span) |
+| Stars | 5,219 |
+| Star velocity | 18.2/day (history basis, 5d span) |
 | Health score | 64/100 |
 | Documentation | 65/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-24 |
-| Last push | 2026-11-04 (2 days ago) |
-| Analyzed README | 83,861 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-08 (0 days ago) |
+| Analyzed README | 85,169 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Automatic failover
 
-> prefer hermes-4-405b (or Claude) for those.
+> **No keys? /research and /research-deep still work.** With no PERPLEXITYAPIKEY set they automatically fall back to free, key-less sources (Wikipedia, HackerNews, arXiv, Reddit, Lobsters, dev.to, OpenAlex, Semantic Schol…
 
 ### Remote control
 
@@ -60,7 +60,7 @@
 
 ### Memory & context
 
-> on, weekly review, vault-health check
+> weekly review, vault-health check
 
 ### Skills & plugins
 
@@ -120,8 +120,8 @@ Score **65/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.3 |
-| momentum | 17.2 |
+| popularity | 74.4 |
+| momentum | 15.2 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 76.0 |

@@ -21,7 +21,7 @@
 | License | not declared |
 | Language | Java |
 | Created | 2026-03-12 |
-| Last push | 2026-11-02 (5 days ago) |
+| Last push | 2026-11-02 (6 days ago) |
 | Analyzed README | 2,493 chars from `raw:HEAD/README.md` |
 
 ## What it solves

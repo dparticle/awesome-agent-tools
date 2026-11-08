@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,542 |
-| Star velocity | 72.2/day (history basis, 5d span) |
-| Health score | 79/100 |
+| Stars | 8,591 |
+| Star velocity | 80.0/day (history basis, 5d span) |
+| Health score | 81/100 |
 | Documentation | 67/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-27 |
-| Last push | 2026-11-07 (0 days ago) |
+| Last push | 2026-11-08 (0 days ago) |
 | Analyzed README | 24,328 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -76,8 +76,8 @@ Score **67/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.6 |
-| momentum | 60.2 |
+| popularity | 78.7 |
+| momentum | 66.7 |
 | maintenance | 100.0 |
 | documentation | 67.0 |
 | accessibility | 100.0 |

@@ -34,12 +34,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 207,
-  "days_since_push": 3,
+  "age_days": 208,
+  "days_since_push": 4,
   "health_score": 55,
   "health_components": {
     "popularity": 52.3,
-    "momentum": 1.7,
+    "momentum": 1.6,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 72.0
@@ -47,9 +47,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 410,
-    "days_span": 207,
-    "stars_per_day": 1.98,
-    "lifetime_stars_per_day": 1.98,
+    "days_span": 208,
+    "stars_per_day": 1.97,
+    "lifetime_stars_per_day": 1.97,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -137,11 +137,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:46+00:00",
+  "fetched_at": "2026-11-08T11:20:05+00:00",
   "categories": [
-    "failover"
+    "teams"
   ],
-  "primary_category": "failover",
+  "primary_category": "teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

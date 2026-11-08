@@ -6,8 +6,8 @@
   "url": "https://github.com/Nanako0129/sepia",
   "description": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
   "homepage": "",
-  "stars": 3673,
-  "forks": 229,
+  "stars": 3687,
+  "forks": 231,
   "open_issues": 6,
   "language": "Python",
   "license": "MIT",
@@ -26,27 +26,27 @@
     "writing-tools"
   ],
   "created_at": "2026-08-28T05:56:49Z",
-  "updated_at": "2026-11-07T09:53:18Z",
+  "updated_at": "2026-11-08T11:00:34Z",
   "pushed_at": "2026-11-03T05:53:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 71,
-  "days_since_push": 4,
-  "health_score": 63,
+  "age_days": 72,
+  "days_since_push": 5,
+  "health_score": 62,
   "health_components": {
     "popularity": 71.3,
-    "momentum": 18.3,
+    "momentum": 15.2,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 69.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 593,
-    "days_span": 27,
-    "stars_per_day": 21.96,
-    "lifetime_stars_per_day": 51.73,
+    "stars_gained": 91,
+    "days_span": 5,
+    "stars_per_day": 18.2,
+    "lifetime_stars_per_day": 51.21,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -132,7 +132,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:45+00:00",
+  "fetched_at": "2026-11-08T11:18:37+00:00",
   "categories": [
     "desktop-ui"
   ],

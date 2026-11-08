@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 672,
-  "days_since_push": 22,
+  "age_days": 673,
+  "days_since_push": 23,
   "health_score": 51,
   "health_components": {
     "popularity": 53.0,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 0.67,
+    "lifetime_stars_per_day": 0.66,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -127,7 +127,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:41+00:00",
+  "fetched_at": "2026-11-08T11:19:58+00:00",
   "categories": [
     "mcp-security"
   ],

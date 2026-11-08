@@ -6,7 +6,7 @@
   "url": "https://github.com/vibeeval/vibecosystem",
   "description": "Profile-based coding runtime for Claude Code and Codex. Lean core; opt-in quality, context, memory, orchestration and dashboard.",
   "homepage": "",
-  "stars": 539,
+  "stars": 537,
   "forks": 44,
   "open_issues": 13,
   "language": "C#",
@@ -29,13 +29,13 @@
     "vibecoding"
   ],
   "created_at": "2026-03-14T11:57:55Z",
-  "updated_at": "2026-11-04T22:18:16Z",
+  "updated_at": "2026-11-07T19:02:29Z",
   "pushed_at": "2026-11-04T22:18:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 237,
-  "days_since_push": 2,
+  "age_days": 238,
+  "days_since_push": 3,
   "health_score": 53,
   "health_components": {
     "popularity": 54.6,
@@ -46,10 +46,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 539,
-    "days_span": 237,
-    "stars_per_day": 2.27,
-    "lifetime_stars_per_day": 2.27,
+    "stars_gained": 537,
+    "days_span": 238,
+    "stars_per_day": 2.26,
+    "lifetime_stars_per_day": 2.26,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:35+00:00",
+  "fetched_at": "2026-11-08T11:19:50+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -170,14 +170,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 91.471,
-      "momentum_ratio": 24.581,
+      "star_ratio": 91.892,
+      "momentum_ratio": 23.628,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "91.47x the stars (49,303 vs 539)",
-        "24.58x the star velocity (55.8/day vs 2.3/day)",
+        "91.89x the stars (49,346 vs 537)",
+        "23.63x the star velocity (53.4/day vs 2.3/day)",
         "no harder to set up (30 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -206,7 +206,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 53,
-        "challenger_health": 79,
+        "challenger_health": 78,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 30
       }

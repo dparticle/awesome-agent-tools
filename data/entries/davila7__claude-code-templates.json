@@ -6,9 +6,9 @@
   "url": "https://github.com/davila7/claude-code-templates",
   "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
   "homepage": "https://aitmpl.com",
-  "stars": 33178,
-  "forks": 3884,
-  "open_issues": 473,
+  "stars": 33200,
+  "forks": 3895,
+  "open_issues": 463,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -24,88 +24,90 @@
     "registry"
   ],
   "created_at": "2025-07-04T01:26:26Z",
-  "updated_at": "2026-11-07T09:23:02Z",
-  "pushed_at": "2026-11-07T03:09:42Z",
+  "updated_at": "2026-11-08T11:00:00Z",
+  "pushed_at": "2026-11-08T04:36:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 491,
+  "age_days": 492,
   "days_since_push": 0,
-  "health_score": 78,
+  "health_score": 77,
   "health_components": {
     "popularity": 90.4,
-    "momentum": 56.3,
+    "momentum": 56.2,
     "maintenance": 100.0,
-    "documentation": 54.0,
-    "accessibility": 90.0
+    "documentation": 61.0,
+    "accessibility": 72.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 33178,
-    "days_span": 491,
-    "stars_per_day": 67.57,
-    "lifetime_stars_per_day": 67.57,
+    "stars_gained": 33200,
+    "days_span": 492,
+    "stars_per_day": 67.48,
+    "lifetime_stars_per_day": 67.48,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "davila7/claude-code-templates",
-    "readme_chars": 11908,
+    "readme_chars": 9526,
     "capabilities": [
       "remote-control",
+      "multi-agent-orchestration",
       "worktree-isolation",
       "api-gateway",
       "session-persistence",
       "skills-plugins",
       "mcp-support",
-      "security-isolation",
-      "gui-desktop"
+      "security-isolation"
     ],
     "capability_evidence": {
-      "remote-control": "ection and usage metrics, at http://localhost:3333.",
-      "worktree-isolation": "",
-      "api-gateway": "&nbsp;&nbsp; &nbsp;&nbsp; --- Sponsored by Swiftproxy Swiftproxy proudly supports this project.",
-      "session-persistence": "",
-      "skills-plugins": "",
-      "mcp-support": "Diagnostics for your Claude Code installation and project setup (--health, --check and --verify are aliases). ### Removed in 1.31.0 --plugins, --skills-manager, --command-stats, --hook-stats, --mcp-stats, --agents, --ch…",
-      "security-isolation": "",
-      "gui-desktop": "de Code sessions in real time with live state detection and usage metrics, at http://localhost:3333."
+      "remote-control": "versations in a mobile-friendly UI at localhost:9876",
+      "multi-agent-orchestration": "90M+ residential IPs across 220+ locations, rotating and static residential proxies, with HTTP(S) and SOCKS5 support.",
+      "worktree-isolation": "ndition Docs sweep, build-test-fix, adversarial review",
+      "api-gateway": "&nbsp;·&nbsp; Discussions &nbsp;·&nbsp; Changelog SPONSORED BY Swiftproxy proudly supports this project.",
+      "session-persistence": "pl marketplace Champion Kit",
+      "skills-plugins": "alidator and scanned by NVIDIA SkillSpector.",
+      "mcp-support": "ocations, rotating and static residential proxies, with HTTP(S) and SOCKS5 support.",
+      "security-isolation": "Timeouts, permissions, status lines"
     },
     "capability_hits": {
       "remote-control": 1,
+      "multi-agent-orchestration": 1,
       "worktree-isolation": 1,
       "api-gateway": 1,
       "session-persistence": 1,
-      "skills-plugins": 1,
-      "mcp-support": 2,
-      "security-isolation": 1,
-      "gui-desktop": 1
+      "skills-plugins": 3,
+      "mcp-support": 3,
+      "security-isolation": 1
     },
     "friction": {
       "level": "low",
-      "score": 22,
-      "out_of_the_box": true,
+      "score": 28,
+      "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "npx one-liner"
       ],
       "hard_signals": [],
       "config_signals": [
-        "database dependency"
+        "database dependency",
+        "server/reverse-proxy setup"
       ],
       "friendliness_signals": [],
       "platforms": [
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via npx one-liner; configure database dependency",
-      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database dependency"
+      "note_en": "Easy. install via npx one-liner; configure database dependency, server/reverse-proxy setup",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database dependency、server/reverse-proxy setup"
     },
-    "doc_score": 54,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
+      "has a quick-start section",
       "documents installation",
       "documents configuration",
       "has contribution guidance",
@@ -116,22 +118,17 @@
     "agents": [
       "Claude Code"
     ],
-    "summary_en": "Connect your AI-powered workflows to reliable residential proxies for web data collection, browser automation, and AI-driven research.",
+    "summary_en": "An open catalog of components for Claude Code, installable with one command.",
     "summary_zh": "",
-    "install_hint": "npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests…",
+    "install_hint": "npx claude-code-templates@latest",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 2.519
+      "external_link_ratio": 1.365
     },
-    "highlights": [
-      "awesome-claude-code by hesreallyhim - CC0 1.0 Universal (21 commands)",
-      "awesome-claude-skills - Apache 2.0 (community skills)",
-      "anthropics/claude-code - Development guides and examples (10 skills)",
-      "K-Dense-AI/claude-scientific-skills by K-Dense Inc."
-    ],
+    "highlights": [],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -141,8 +138,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:01+00:00",
+  "fetched_at": "2026-11-08T11:19:00+00:00",
   "categories": [
+    "desktop-ui",
     "mcp-security",
     "mobile"
   ],

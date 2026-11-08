@@ -6,9 +6,9 @@
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
   "homepage": "https://openbot.run/",
-  "stars": 6153,
-  "forks": 625,
-  "open_issues": 623,
+  "stars": 6324,
+  "forks": 637,
+  "open_issues": 641,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -22,33 +22,33 @@
     "typescript"
   ],
   "created_at": "2026-08-12T21:32:03Z",
-  "updated_at": "2026-11-07T10:51:24Z",
-  "pushed_at": "2026-11-07T11:03:24Z",
+  "updated_at": "2026-11-08T11:13:57Z",
+  "pushed_at": "2026-11-08T11:17:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 86,
+  "age_days": 87,
   "days_since_push": 0,
-  "health_score": 73,
+  "health_score": 83,
   "health_components": {
-    "popularity": 75.8,
-    "momentum": 59.6,
+    "popularity": 76.0,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 52.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 6153,
-    "days_span": 86,
-    "stars_per_day": 71.55,
-    "lifetime_stars_per_day": 71.55,
-    "basis": "lifetime",
+    "stars_gained": 1249,
+    "days_span": 5,
+    "stars_per_day": 249.8,
+    "lifetime_stars_per_day": 72.69,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nightly-labs/openbot",
-    "readme_chars": 64043,
+    "readme_chars": 65213,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -88,11 +88,11 @@
       "model-routing": 3,
       "api-gateway": 1,
       "billing-metering": 1,
-      "session-persistence": 9,
+      "session-persistence": 10,
       "skills-plugins": 4,
       "mcp-support": 1,
       "self-hosted": 2,
-      "team-collaboration": 6,
+      "team-collaboration": 7,
       "gui-desktop": 12,
       "notifications": 3,
       "cross-agent-support": 6
@@ -163,7 +163,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.281
+      "external_link_ratio": 0.291
     },
     "highlights": [
       "~/.cursor — login and session history managed exclusively by the Cursor CLI.",
@@ -180,13 +180,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:40+00:00",
+  "fetched_at": "2026-11-08T11:18:29+00:00",
   "categories": [
     "billing-2",
-    "mcp-security",
+    "mobile",
     "teams"
   ],
-  "primary_category": "teams",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

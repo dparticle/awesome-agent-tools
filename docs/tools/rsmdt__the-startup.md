@@ -17,12 +17,14 @@
 | Health score | 51/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-12 |
-| Last push | 2026-10-26 (11 days ago) |
+| Last push | 2026-10-26 (12 days ago) |
 | Analyzed README | 26,375 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** — Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).
 
 ## What it solves
 

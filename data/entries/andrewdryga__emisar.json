@@ -6,7 +6,7 @@
   "url": "https://github.com/AndrewDryga/emisar",
   "description": "Let AI agents investigate and operate infrastructure through declared actions, bounded by policy and host-side checks. Approvals when required, with an audit trail.",
   "homepage": "https://emisar.dev/",
-  "stars": 391,
+  "stars": 392,
   "forks": 29,
   "open_issues": 0,
   "language": "Elixir",
@@ -29,26 +29,26 @@
     "self-hosted"
   ],
   "created_at": "2026-05-19T01:21:19Z",
-  "updated_at": "2026-11-07T05:40:34Z",
-  "pushed_at": "2026-11-07T05:40:30Z",
+  "updated_at": "2026-11-08T05:00:52Z",
+  "pushed_at": "2026-11-08T01:22:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 172,
+  "age_days": 173,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
-    "popularity": 51.8,
-    "momentum": 10.0,
+    "popularity": 51.9,
+    "momentum": 10.2,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 60,
+    "stars_gained": 61,
     "days_span": 5,
-    "stars_per_day": 12.0,
+    "stars_per_day": 12.2,
     "lifetime_stars_per_day": 2.27,
     "basis": "history",
     "is_fast_riser": true
@@ -137,7 +137,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:46+00:00",
+  "fetched_at": "2026-11-08T11:20:05+00:00",
   "categories": [
     "mcp-security"
   ],

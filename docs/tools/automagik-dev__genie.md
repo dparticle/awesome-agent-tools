@@ -18,11 +18,11 @@
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
-| License | MIT |
+| License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-08-01 |
-| Last push | 2026-11-06 (0 days ago) |
-| Analyzed README | 17,415 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-08 (0 days ago) |
+| Analyzed README | 17,422 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (7/7).
 

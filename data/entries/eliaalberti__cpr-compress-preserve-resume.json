@@ -7,7 +7,7 @@
   "description": "Persistent memory for Claude Code, packaged as a plugin. Save, search, and restore conversation context across sessions.",
   "homepage": "",
   "stars": 524,
-  "forks": 36,
+  "forks": 35,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 246,
-  "days_since_push": 59,
+  "age_days": 247,
+  "days_since_push": 60,
   "health_score": 43,
   "health_components": {
     "popularity": 54.4,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 49.0,
     "accessibility": 37.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.13,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 2.12,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -118,11 +118,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:36+00:00",
+  "fetched_at": "2026-11-08T11:19:51+00:00",
   "categories": [
-    "failover"
+    "sharing",
+    "teams"
   ],
-  "primary_category": "failover",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

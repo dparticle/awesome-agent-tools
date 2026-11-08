@@ -7,8 +7,8 @@
   "description": "Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, security, and 24/7 results. Open-source first. SOTA everything. The best AI harness for GitHub & teamwork.",
   "homepage": "https://www.aidevops.sh",
   "stars": 441,
-  "forks": 77,
-  "open_issues": 41,
+  "forks": 78,
+  "open_issues": 24,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -33,26 +33,26 @@
     "opencode-plugin"
   ],
   "created_at": "2025-11-09T05:15:11Z",
-  "updated_at": "2026-11-07T11:01:21Z",
-  "pushed_at": "2026-11-07T11:03:15Z",
+  "updated_at": "2026-11-08T09:25:12Z",
+  "pushed_at": "2026-11-08T09:58:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 363,
+  "age_days": 364,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 52.9,
-    "momentum": 0.8,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 1.0,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.21,
     "basis": "history",
     "is_fast_riser": false
@@ -186,11 +186,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:42+00:00",
+  "fetched_at": "2026-11-08T11:19:59+00:00",
   "categories": [
-    "accounts",
     "mcp-security",
-    "mobile"
+    "mobile",
+    "providers-2"
   ],
   "primary_category": "mobile",
   "lifecycle": {

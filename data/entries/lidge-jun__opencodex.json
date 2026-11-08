@@ -6,9 +6,9 @@
   "url": "https://github.com/lidge-jun/opencodex",
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
   "homepage": "https://opencodex.me/",
-  "stars": 18272,
-  "forks": 1449,
-  "open_issues": 155,
+  "stars": 18301,
+  "forks": 1453,
+  "open_issues": 188,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,60 +34,63 @@
     "typescript"
   ],
   "created_at": "2026-06-18T23:03:18Z",
-  "updated_at": "2026-11-07T10:44:39Z",
-  "pushed_at": "2026-11-07T10:55:21Z",
+  "updated_at": "2026-11-08T11:16:54Z",
+  "pushed_at": "2026-11-08T11:16:51Z",
   "archived": false,
   "is_fork": false,
-  "default_branch": "main",
-  "age_days": 141,
+  "default_branch": "dev",
+  "age_days": 142,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 85.2,
-    "momentum": 18.3,
+    "momentum": 19.5,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 58.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 110,
+    "stars_gained": 117,
     "days_span": 5,
-    "stars_per_day": 22.0,
-    "lifetime_stars_per_day": 129.59,
+    "stars_per_day": 23.4,
+    "lifetime_stars_per_day": 128.88,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "lidge-jun/opencodex",
-    "readme_chars": 22128,
+    "readme_chars": 22121,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
       "multi-agent-orchestration",
       "model-routing",
       "api-gateway",
+      "agent-runtime",
       "self-hosted",
       "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": ", Gemini, Grok, GLM, DeepSeek, Kimi, Qwen, Ollama and other",
+      "multi-account-switching": "in — should only be reached for",
       "auto-failover": "",
       "multi-agent-orchestration": "### Claude Desktop, running any model Opus answers, then hands the task to a GPT-5.6 Sol subagent. ### Grok Build, running any model Sol drives the session and calls a Kimi K3 subagent. English · Français · 한국어 · 简体中文 ·…",
       "model-routing": "vision sidecars** — non-OpenAI models get real web search and image understanding",
       "api-gateway": "ystem One-compatible server.",
+      "agent-runtime": ", Claude Code, Claude Desktop and Grok Build,",
       "self-hosted": "e first currently eligible target; caller",
       "gui-desktop": "run prepare-sidecar && bun run prepare-widget && bun run build:local on macOS,",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
     },
     "capability_hits": {
-      "multi-account-switching": 4,
+      "multi-account-switching": 3,
       "auto-failover": 1,
       "multi-agent-orchestration": 6,
       "model-routing": 3,
       "api-gateway": 2,
-      "self-hosted": 1,
+      "agent-runtime": 1,
+      "self-hosted": 2,
       "gui-desktop": 5,
       "cross-agent-support": 5
     },
@@ -149,13 +152,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.22
+      "external_link_ratio": 1.221
     },
     "highlights": [
       "31 state-store registrations handle expiry sweeps (60 s interval) and",
       "4 observed buffers (translator accumulators, image/OAuth/Grok tails) are",
       "Use any LLM with Codex, Claude Code, Claude Desktop, and Grok Build — 40+ providers out of",
-      "Pool ChatGPT accounts — thread affinity, quota-aware auto-switching, cooldown and"
+      "Log in once, skip the API key — OAuth for xAI, Anthropic, and Kimi; or forward"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -166,12 +169,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:31+00:00",
+  "fetched_at": "2026-11-08T11:18:17+00:00",
   "categories": [
-    "accounts",
-    "desktop-ui-2"
+    "billing",
+    "desktop-ui-2",
+    "sharing"
   ],
-  "primary_category": "accounts",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

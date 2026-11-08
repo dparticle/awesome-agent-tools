@@ -6,9 +6,9 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 4705,
-  "forks": 381,
-  "open_issues": 16,
+  "stars": 4780,
+  "forks": 389,
+  "open_issues": 13,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-11-07T10:11:42Z",
-  "pushed_at": "2026-11-07T10:57:01Z",
+  "updated_at": "2026-11-08T11:13:21Z",
+  "pushed_at": "2026-11-07T13:24:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 64,
+  "age_days": 65,
   "days_since_push": 0,
   "health_score": 78,
   "health_components": {
-    "popularity": 73.5,
-    "momentum": 62.7,
+    "popularity": 73.6,
+    "momentum": 59.3,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 376,
+    "stars_gained": 356,
     "days_span": 5,
-    "stars_per_day": 75.2,
-    "lifetime_stars_per_day": 73.52,
+    "stars_per_day": 71.2,
+    "lifetime_stars_per_day": 73.54,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kajisho5/ffmpeg-skill",
-    "readme_chars": 104174,
+    "readme_chars": 106702,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -147,7 +147,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.192
+      "external_link_ratio": 0.187
     },
     "highlights": [
       "Loudness targets. −14 LUFS / −1 dBTP for YouTube and social platforms (the loudness.py default), -I -16 --tp -1.5 for podcasts, -I -23 for broadcast. A clip measured at −40 LUFS or below is…",
@@ -164,11 +164,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:42+00:00",
+  "fetched_at": "2026-11-08T11:18:33+00:00",
   "categories": [
-    "accounts",
     "desktop-ui",
-    "mcp-security"
+    "mcp-security",
+    "sharing"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

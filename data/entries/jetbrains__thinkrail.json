@@ -6,9 +6,9 @@
   "url": "https://github.com/JetBrains/thinkrail",
   "description": "ThinkRail is the agentic IDE that gets better every time you use it",
   "homepage": "https://thinkrail.ai/",
-  "stars": 7889,
-  "forks": 484,
-  "open_issues": 363,
+  "stars": 7931,
+  "forks": 492,
+  "open_issues": 369,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,27 +27,27 @@
     "vibecoding"
   ],
   "created_at": "2026-07-08T07:40:43Z",
-  "updated_at": "2026-11-07T10:52:31Z",
-  "pushed_at": "2026-11-07T08:43:51Z",
+  "updated_at": "2026-11-08T11:05:35Z",
+  "pushed_at": "2026-11-08T06:54:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 122,
+  "age_days": 123,
   "days_since_push": 0,
   "health_score": 75,
   "health_components": {
-    "popularity": 77.9,
-    "momentum": 53.9,
+    "popularity": 78.0,
+    "momentum": 53.7,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 97.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 7889,
-    "days_span": 122,
-    "stars_per_day": 64.66,
-    "lifetime_stars_per_day": 64.66,
+    "stars_gained": 7931,
+    "days_span": 123,
+    "stars_per_day": 64.48,
+    "lifetime_stars_per_day": 64.48,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:38+00:00",
+  "fetched_at": "2026-11-08T11:18:25+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

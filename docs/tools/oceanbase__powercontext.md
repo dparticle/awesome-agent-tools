@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,515 |
-| Star velocity | 5.8/day (history basis, 5d span) |
-| Health score | 53/100 |
+| Stars | 1,524 |
+| Star velocity | 7.2/day (history basis, 5d span) |
+| Health score | 54/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-11-07 (0 days ago) |
+| Last push | 2026-11-08 (0 days ago) |
 | Analyzed README | 23,561 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -74,8 +74,8 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 63.6 |
-| momentum | 4.8 |
+| popularity | 63.7 |
+| momentum | 6.0 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
 | accessibility | 31.0 |

@@ -6,7 +6,7 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 922,
+  "stars": 923,
   "forks": 106,
   "open_issues": 1,
   "language": "Shell",
@@ -31,33 +31,33 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-11-06T20:05:32Z",
-  "pushed_at": "2026-11-01T19:37:38Z",
+  "updated_at": "2026-11-08T11:07:26Z",
+  "pushed_at": "2026-11-08T10:44:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 324,
-  "days_since_push": 5,
+  "age_days": 325,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 59.3,
-    "momentum": 0.7,
+    "momentum": 0.8,
     "maintenance": 100.0,
-    "documentation": 47.0,
+    "documentation": 48.0,
     "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.85,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 2.84,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "hex/claude-council",
-    "readme_chars": 12466,
+    "readme_chars": 12614,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -106,7 +106,7 @@
       "note_en": "Some setup. configure config.json/yaml/toml, sign-in required",
       "note_zh": "需要一些配置。需配置 config.json/yaml/toml、sign-in required"
     },
-    "doc_score": 47,
+    "doc_score": 48,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -131,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.08
+      "external_link_ratio": 0.079
     },
     "highlights": [
       "kill -0 to check a council run is still alive.",
@@ -146,18 +146,82 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:27+00:00",
+  "fetched_at": "2026-11-08T11:19:37+00:00",
   "categories": [
     "desktop-ui",
-    "failover",
-    "sharing"
+    "model-routing",
+    "teams"
   ],
-  "primary_category": "failover",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "hex/claude-council",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "hex/claude-council",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "session-persistence"
+      ],
+      "star_ratio": 32.716,
+      "momentum_ratio": 17.8,
+      "setup_delta": -16,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "32.72x the stars (30,197 vs 923)",
+        "17.80x the star velocity (17.8/day vs 1.0/day)",
+        "no harder to set up (32 vs 48 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 68,
+        "incumbent_setup_score": 48,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

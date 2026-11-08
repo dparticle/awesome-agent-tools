@@ -6,9 +6,9 @@
   "url": "https://github.com/stablyai/orca",
   "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
   "homepage": "https://orca.dev",
-  "stars": 118141,
-  "forks": 7494,
-  "open_issues": 8127,
+  "stars": 118895,
+  "forks": 7545,
+  "open_issues": 8151,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-11-07T11:05:21Z",
-  "pushed_at": "2026-11-07T11:04:32Z",
+  "updated_at": "2026-11-08T11:17:21Z",
+  "pushed_at": "2026-11-08T11:11:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 235,
+  "age_days": 236,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4989,
+    "stars_gained": 4831,
     "days_span": 5,
-    "stars_per_day": 997.8,
-    "lifetime_stars_per_day": 502.73,
+    "stars_per_day": 966.2,
+    "lifetime_stars_per_day": 503.79,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "stablyai/orca",
-    "readme_chars": 20387,
+    "readme_chars": 20634,
     "capabilities": [
       "multi-account-switching",
       "remote-control",
@@ -158,7 +158,7 @@
       "signals": [
         "list-maintenance framing"
       ],
-      "external_link_ratio": 1.913
+      "external_link_ratio": 1.89
     },
     "highlights": [
       "Mobile Emulator: run an iOS Simulator or Android emulator beside your agent, and let it tap, type, and check its own work.",
@@ -174,9 +174,9 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-07T11:05:27+00:00",
+  "fetched_at": "2026-11-08T11:18:10+00:00",
   "categories": [
-    "accounts",
+    "desktop-ui",
     "desktop-ui-2",
     "mobile"
   ],

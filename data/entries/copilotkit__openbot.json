@@ -5,10 +5,10 @@
   "owner": "CopilotKit",
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-  "homepage": "https://www.copilotkit.ai/openbot",
-  "stars": 10354,
-  "forks": 1289,
-  "open_issues": 76,
+  "homepage": "open.bot",
+  "stars": 10432,
+  "forks": 1301,
+  "open_issues": 88,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-07T11:00:26Z",
-  "pushed_at": "2026-11-07T11:01:29Z",
+  "updated_at": "2026-11-08T11:15:19Z",
+  "pushed_at": "2026-11-08T11:15:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 82,
+  "age_days": 83,
   "days_since_push": 0,
-  "health_score": 83,
+  "health_score": 80,
   "health_components": {
-    "popularity": 80.3,
-    "momentum": 88.7,
+    "popularity": 80.4,
+    "momentum": 77.0,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 67.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 532,
+    "stars_gained": 462,
     "days_span": 5,
-    "stars_per_day": 106.4,
-    "lifetime_stars_per_day": 126.27,
+    "stars_per_day": 92.4,
+    "lifetime_stars_per_day": 125.69,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 35484,
+    "readme_chars": 35363,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -133,7 +133,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.592
+      "external_link_ratio": 0.594
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:05:36+00:00",
+  "fetched_at": "2026-11-08T11:18:22+00:00",
   "categories": [
     "analytics-3",
     "mcp-security",

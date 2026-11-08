@@ -6,9 +6,9 @@
   "url": "https://github.com/AVIDS2/memorix",
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
-  "stars": 915,
+  "stars": 919,
   "forks": 76,
-  "open_issues": 4,
+  "open_issues": 5,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,29 +34,29 @@
     "windsurf"
   ],
   "created_at": "2026-02-14T06:53:17Z",
-  "updated_at": "2026-11-07T08:31:57Z",
+  "updated_at": "2026-11-08T10:57:10Z",
   "pushed_at": "2026-11-05T11:36:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
-  "days_since_push": 1,
+  "age_days": 267,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
-    "popularity": 59.2,
-    "momentum": 3.8,
+    "popularity": 59.3,
+    "momentum": 3.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 23,
+    "stars_gained": 19,
     "days_span": 5,
-    "stars_per_day": 4.6,
+    "stars_per_day": 3.8,
     "lifetime_stars_per_day": 3.44,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "AVIDS2/memorix",
@@ -166,7 +166,7 @@
       "memorix background start / memorix serve-http run the HTTP service for a shared endpoint, dashboard, VPS Docker deployment, or multiple clients.",
       "Gemini CLI: installs the extension package, GEMINI.md context, hooks, and skills.",
       "memorix serve is the stdio MCP bridge used by IDEs and coding agents.",
-      "Codex: installs one user-level Memorix plugin with bundled stdio MCP, skills, and lifecycle hooks."
+      "MCP: http://localhost:3211/mcp"
     ],
     "summary_zh_native": "让 Claude Code、Codex、CodeBuddy Code、Cursor、Windsurf、Copilot、Gemini CLI、OpenCode、Grok Build、OpenClaw、Hermes Agent、Oh-my-Pi、Pi、Kiro、Antigravity、Trae、DeepSeek Harness、WorkBuddy 和任何 MCP Agent 共用同一套项目记忆。",
     "highlights_zh": [
@@ -182,18 +182,87 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:27+00:00",
+  "fetched_at": "2026-11-08T11:19:37+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "failover"
+    "teams"
   ],
-  "primary_category": "failover",
+  "primary_category": "teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (10/10).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (10/10)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "avids2/memorix",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "AVIDS2/memorix",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "model-routing",
+        "multi-agent-orchestration",
+        "session-persistence",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 325.786,
+      "momentum_ratio": 173.842,
+      "setup_delta": -16,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (10/10)",
+        "325.79x the stars (299,397 vs 919)",
+        "173.84x the star velocity (660.6/day vs 3.8/day)",
+        "no harder to set up (57 vs 73 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 89,
+        "incumbent_setup_score": 73,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

@@ -6,7 +6,7 @@
   "url": "https://github.com/savannahfeder/agentbox",
   "description": "A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them like email, or use the board view. Free, open source, on the plan you already pay for.",
   "homepage": "https://agentbox.ac",
-  "stars": 370,
+  "stars": 376,
   "forks": 42,
   "open_issues": 23,
   "language": "JavaScript",
@@ -34,27 +34,27 @@
     "worktree-manager"
   ],
   "created_at": "2026-09-28T02:35:07Z",
-  "updated_at": "2026-11-07T10:26:01Z",
-  "pushed_at": "2026-11-07T05:27:48Z",
+  "updated_at": "2026-11-08T10:07:23Z",
+  "pushed_at": "2026-11-08T05:07:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 40,
+  "age_days": 41,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
-    "popularity": 51.4,
-    "momentum": 5.0,
+    "popularity": 51.5,
+    "momentum": 5.3,
     "maintenance": 100.0,
     "documentation": 36.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 30,
+    "stars_gained": 32,
     "days_span": 5,
-    "stars_per_day": 6.0,
-    "lifetime_stars_per_day": 9.25,
+    "stars_per_day": 6.4,
+    "lifetime_stars_per_day": 9.17,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -148,10 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-07T11:06:47+00:00",
+  "fetched_at": "2026-11-08T11:20:07+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile"
+    "mobile",
+    "model-routing"
   ],
   "primary_category": "mobile",
   "lifecycle": {
@@ -177,14 +178,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 63.141,
-      "momentum_ratio": 18.867,
+      "star_ratio": 62.378,
+      "momentum_ratio": 17.469,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "63.14x the stars (23,362 vs 370)",
-        "18.87x the star velocity (113.2/day vs 6.0/day)",
+        "62.38x the stars (23,454 vs 376)",
+        "17.47x the star velocity (111.8/day vs 6.4/day)",
         "no harder to set up (24 vs 30 friction)"
       ],
       "reasons_zh": [],
