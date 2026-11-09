@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5492,
-  "forks": 552,
-  "open_issues": 38,
+  "stars": 5501,
+  "forks": 553,
+  "open_issues": 36,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-08T11:08:38Z",
-  "pushed_at": "2026-11-08T11:08:35Z",
+  "updated_at": "2026-11-09T10:47:23Z",
+  "pushed_at": "2026-11-09T12:41:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 128,
+  "age_days": 129,
   "days_since_push": 0,
-  "health_score": 64,
+  "health_score": 62,
   "health_components": {
     "popularity": 74.8,
-    "momentum": 9.5,
+    "momentum": 9.0,
     "maintenance": 100.0,
-    "documentation": 84.0,
-    "accessibility": 65.0
+    "documentation": 76.0,
+    "accessibility": 59.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 57,
+    "stars_gained": 54,
     "days_span": 5,
-    "stars_per_day": 11.4,
-    "lifetime_stars_per_day": 42.91,
+    "stars_per_day": 10.8,
+    "lifetime_stars_per_day": 42.64,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 52615,
+    "readme_chars": 39016,
     "capabilities": [
       "model-routing",
       "billing-metering",
@@ -74,8 +74,8 @@
     "capability_evidence": {
       "model-routing": "d-to-path operations, or a remote HTTP MCP endpoint.",
       "billing-metering": "Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.",
-      "skills-plugins": "fers to the skill, not to the availability of every registered host.",
-      "mcp-support": "orkspace on a phone or tablet over local WiFi or a Pinggy tunnel; internet traffic passes through Pinggy’s servers.",
+      "skills-plugins": "g resources for your analysis.",
+      "mcp-support": "cts, output formats, and exit codes",
       "security-isolation": "that profile's existing permissions; it is not a separate sandbox or read-only view, so connected clients can persist changes and incur model costs.",
       "gui-desktop": "de.js, so you can run the CLI without installing Node.js, npm, or Homebrew.",
       "notifications": "untime checks and test your model connection.",
@@ -84,16 +84,16 @@
     "capability_hits": {
       "model-routing": 1,
       "billing-metering": 1,
-      "skills-plugins": 1,
-      "mcp-support": 5,
+      "skills-plugins": 2,
+      "mcp-support": 3,
       "security-isolation": 2,
       "gui-desktop": 5,
       "notifications": 1,
       "cross-agent-support": 3
     },
     "friction": {
-      "level": "low",
-      "score": 35,
+      "level": "moderate",
+      "score": 41,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -108,10 +108,11 @@
         "API key configuration",
         "OAuth login flow",
         "sign-in required",
-        "database dependency"
+        "database dependency",
+        "server/reverse-proxy setup"
       ],
       "friendliness_signals": [
-        "one-click setup",
+        "no-code positioning",
         "GUI application"
       ],
       "platforms": [
@@ -120,10 +121,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; one-click setup",
-      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；one-click setup"
+      "note_en": "Some setup. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; no-code positioning",
+      "note_zh": "需要一些配置。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；no-code positioning"
     },
-    "doc_score": 84,
+    "doc_score": 76,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -131,10 +132,8 @@
       "has a quick-start section",
       "documents installation",
       "documents configuration",
-      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
-      "has a table of contents",
       "has a Chinese translation",
       "documents changes",
       "publishes a roadmap",
@@ -152,14 +151,14 @@
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
-      "score": 1,
-      "signals": [
-        "link-directory table of contents"
-      ],
-      "external_link_ratio": 0.418
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.538
     },
     "highlights": [
-      "Literature in CLI and MCP: Search and manage references from the command line and MCP clients, with read-only browsing plus write tools."
+      "Remote compute: Run approved jobs on user-connected Kubernetes, Hugging Face Jobs, Modal, or Ray alongside SSH and Slurm, with per-job approval and collection recovery after restarts.",
+      "Run an analysis locally, or submit it to a computing environment you manage through SSH, Slurm, Kubernetes, Hugging Face Jobs, Modal, or Ray.",
+      "Reliability fixes: macOS update checks verify the running app, Windows names file blockers and keeps the input above the taskbar, and fixed-layout PDF translation retains successful pages w…"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -170,12 +169,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:31+00:00",
+  "fetched_at": "2026-11-09T12:54:11+00:00",
   "categories": [
-    "billing-2",
     "mcp-security"
   ],
-  "primary_category": "billing-2",
+  "primary_category": "mcp-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

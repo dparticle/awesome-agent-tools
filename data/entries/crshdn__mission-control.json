@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 280,
-  "days_since_push": 52,
+  "age_days": 281,
+  "days_since_push": 53,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
@@ -37,7 +37,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 7.71,
+    "lifetime_stars_per_day": 7.68,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,13 +149,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:18+00:00",
+  "fetched_at": "2026-11-09T12:54:51+00:00",
   "categories": [
     "analytics-3",
-    "model-routing",
-    "teams"
+    "isolation-teams",
+    "model-routing"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -14,15 +14,15 @@
 | --- | --- |
 | Stars | 5,146 |
 | Star velocity | 2.8/day (history basis, 5d span) |
-| Health score | 55/100 |
-| Documentation | 33/100 |
+| Health score | 56/100 |
+| Documentation | 26/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-22 |
-| Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 8,362 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 10,754 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,29 +30,36 @@
 
 > r, chats and the browser connection wait, and the app says so.
 
+### Remote control
+
+### Mobile access
+
 ### MCP support
 
 > tion that the provider blocked for safety.
 
 ### GUI / desktop app
 
+### Notifications
+
+> urself and mark it done; the app never runs it.
+
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Difficulty:** 🟢 Easy (friction score 21/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 
 **Signals that make it easy:** native installer / package
 
 **Configuration required:** API key configuration, sign-in required
 
-*Easy. install via native installer / package; configure API key configuration, sign-in required*
+*Easy. install via native installer / package; configure API key configuration, sign-in required; one-click setup*
 
 ## Documentation quality
 
-Score **33/100**, based on these detected signals:
+Score **26/100**, based on these detected signals:
 
-- contains screenshots/diagrams
 - has section headings
 - documents installation
 - has contribution guidance
@@ -66,8 +73,8 @@ Score **33/100**, based on these detected signals:
 | popularity | 74.2 |
 | momentum | 2.3 |
 | maintenance | 100.0 |
-| documentation | 33.0 |
-| accessibility | 72.0 |
+| documentation | 26.0 |
+| accessibility | 87.0 |
 
 ---
 

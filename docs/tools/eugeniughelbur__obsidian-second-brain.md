@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,219 |
-| Star velocity | 18.2/day (history basis, 5d span) |
+| Stars | 5,238 |
+| Star velocity | 18.8/day (history basis, 5d span) |
 | Health score | 64/100 |
 | Documentation | 65/100 |
 | Tier | ✅ Recommended |
@@ -22,7 +22,7 @@
 | Language | Python |
 | Created | 2026-03-24 |
 | Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 85,169 chars from `raw:HEAD/README.md` |
+| Analyzed README | 86,540 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -60,7 +60,7 @@
 
 ### Memory & context
 
-> weekly review, vault-health check
+> on, weekly review, vault-health check
 
 ### Skills & plugins
 
@@ -72,7 +72,7 @@
 
 ### MCP support
 
-> vault patterns, and what actually works.*
+> ult patterns, and what works in practice.
 
 ### Security & isolation
 
@@ -121,7 +121,7 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.4 |
-| momentum | 15.2 |
+| momentum | 15.7 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 76.0 |

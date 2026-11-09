@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 225,
-  "days_since_push": 37,
+  "age_days": 226,
+  "days_since_push": 38,
   "health_score": 47,
   "health_components": {
     "popularity": 54.8,
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 17,
+    "days_span": 18,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.44,
+    "lifetime_stars_per_day": 2.43,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,26 +131,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:49+00:00",
+  "fetched_at": "2026-11-09T12:55:23+00:00",
   "categories": [
     "desktop-ui",
-    "teams"
+    "memory-failover"
   ],
-  "primary_category": "teams",
+  "primary_category": "memory-failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "genspark-ai/genoffice",
+    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "huytieu/COG-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "leoyeai/talewell",
-      "challenger": "genspark-ai/genoffice",
+      "challenger": "huytieu/cog-second-brain",
       "incumbent_name": "LeoYeAI/talewell",
-      "challenger_name": "genspark-ai/genoffice",
+      "challenger_name": "huytieu/COG-second-brain",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -159,15 +159,15 @@
         "memory-context",
         "skills-plugins"
       ],
-      "star_ratio": 21.738,
-      "momentum_ratio": 1252.0,
-      "setup_delta": -3,
-      "dominance": 1.0,
+      "star_ratio": 2.481,
+      "momentum_ratio": 92.0,
+      "setup_delta": 8,
+      "dominance": 0.917,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "21.74x the stars (11,934 vs 549)",
-        "1252.00x the star velocity (62.6/day vs 0.0/day)",
-        "no harder to set up (20 vs 23 friction)"
+        "2.48x the stars (1,362 vs 549)",
+        "92.00x the star velocity (4.6/day vs 0.0/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,22 +180,19 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
-          "parallel-execution",
-          "self-hosted",
+          "multi-agent-orchestration",
           "skills-plugins",
-          "usage-analytics"
+          "team-collaboration"
         ],
         "incumbent_health": 47,
-        "challenger_health": 74,
+        "challenger_health": 56,
         "incumbent_setup_score": 23,
-        "challenger_setup_score": 20
+        "challenger_setup_score": 31
       }
     }
   }

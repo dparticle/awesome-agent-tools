@@ -2,7 +2,7 @@
 
 # JetBrains/thinkrail
 
-> ThinkRail is the agentic IDE that gets better every time you use it — learning your project through living specs today, and building its own capabilities tomorrow.
+> ThinkRail is an agentic IDE that gets better every time you use it.
 
 [Repository](https://github.com/JetBrains/thinkrail) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,55 +12,51 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,931 |
-| Star velocity | 64.5/day (lifetime basis, 123d span) |
-| Health score | 75/100 |
+| Stars | 8,032 |
+| Star velocity | 64.8/day (lifetime basis, 124d span) |
+| Health score | 74/100 |
 | Documentation | 54/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-08 |
-| Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 19,675 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 17,947 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> ats that stream like the engine thinks.
+> erminals, and document support.
 
 ### Workspace isolation
 
-> A pi session and the change it made, scoped to an isolated git-worktree workspace. ## What you get - Isolated workspaces.
+> elf-contained thinkrail CLI.
 
 ### API gateway / proxy
 
-> ronment; they apply on the next start.
+> d MCP servers, set them in Settings → Environment.
 
 ### Usage analytics
 
-> the website visit that brought you here — only where you accepted marketing cookies on the
-
-### Skills & plugins
-
-> hes, and maintains it through dedicated spec* tools, so intent survives the session.
+> the website visit that brought you here - only where you accepted marketing cookies on the website or no consent is required, and that link expires after 30 days.
 
 ### Agent runtime
 
-> Rail is the agentic IDE that gets better every time you use it — learning your project through
+> that gets better every time you use it.
 
 ### MCP support
 
-> tall npm:@thinkrail/pi-visualize for the diagrams and previews
+> questions @thinkrail/pi-ask-user-question) and pi install npm:@thinkrail/pi-visualize for the diagrams and previews @thinkrail/pi-visualize), so a vanilla pi in the terminal gets the same tools.
 
 ### GUI / desktop app
 
-> ownload the thinkrail-desktop-* asset for your platform:
+> NEL, THINKRAILVERSION, THINKRAILPREFIX, THINKRAILNOMODIFYPATH):
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 11/100)
+- **Difficulty:** 🟢 Turnkey (friction score 18/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/JetBrains/thinkrail/main/install.sh | bash`
@@ -71,7 +67,7 @@
 
 **Configuration required:** environment variables, OAuth login flow, sign-in required
 
-*Turnkey. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source); configure environment variables, OAuth login flow; one-click setup*
+*Turnkey. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source); configure environment variables, OAuth login flow; GUI application*
 
 ## Documentation quality
 
@@ -91,11 +87,11 @@ Score **54/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.0 |
-| momentum | 53.7 |
+| popularity | 78.1 |
+| momentum | 54.0 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
-| accessibility | 97.0 |
+| accessibility | 90.0 |
 
 ---
 

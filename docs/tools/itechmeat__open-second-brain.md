@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 514 |
-| Star velocity | 0.8/day (history basis, 5d span) |
+| Stars | 533 |
+| Star velocity | 4.6/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-06 |
-| Last push | 2026-11-07 (1 days ago) |
-| Analyzed README | 17,733 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 17,862 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,13 +38,13 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 36/100)
+- **Difficulty:** 🟡 Some setup (friction score 42/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Configuration required:** database dependency
+**Configuration required:** database dependency, database migration
 
-*Easy. configure database dependency*
+*Some setup. configure database dependency, database migration*
 
 ## Documentation quality
 
@@ -64,11 +64,11 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 54.2 |
-| momentum | 0.7 |
+| popularity | 54.5 |
+| momentum | 3.8 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
-| accessibility | 64.0 |
+| accessibility | 58.0 |
 
 ---
 

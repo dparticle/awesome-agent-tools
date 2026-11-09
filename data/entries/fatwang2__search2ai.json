@@ -6,9 +6,9 @@
   "url": "https://github.com/fatwang2/search2ai",
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
-  "stars": 1286,
-  "forks": 195,
-  "open_issues": 18,
+  "stars": 1288,
+  "forks": 197,
+  "open_issues": 19,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -28,26 +28,26 @@
     "web-search"
   ],
   "created_at": "2023-12-18T02:02:46Z",
-  "updated_at": "2026-11-07T16:20:16Z",
+  "updated_at": "2026-11-08T16:06:07Z",
   "pushed_at": "2026-11-07T16:20:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1056,
-  "days_since_push": 0,
+  "age_days": 1057,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 6,
-    "stars_per_day": 0.0,
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.22,
     "basis": "history",
     "is_fast_riser": false
@@ -146,12 +146,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:29+00:00",
+  "fetched_at": "2026-11-09T12:55:01+00:00",
   "categories": [
-    "mcp-security",
-    "model-routing"
+    "analytics-3",
+    "model-routing",
+    "sharing"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "active",
     "note_en": "",

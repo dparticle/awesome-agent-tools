@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,125 |
-| Star velocity | 3.6/day (history basis, 5d span) |
+| Stars | 1,126 |
+| Star velocity | 3.0/day (history basis, 5d span) |
 | Health score | 53/100 |
 | Documentation | 42/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-01-21 |
-| Last push | 2026-11-07 (0 days ago) |
+| Last push | 2026-11-09 (0 days ago) |
 | Analyzed README | 22,706 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -84,7 +84,7 @@ Score **42/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 61.0 |
-| momentum | 3.0 |
+| momentum | 2.5 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
 | accessibility | 71.0 |

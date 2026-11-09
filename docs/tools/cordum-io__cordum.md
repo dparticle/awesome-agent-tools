@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-01-11 |
-| Last push | 2026-11-03 (4 days ago) |
+| Last push | 2026-11-03 (5 days ago) |
 | Analyzed README | 34,745 chars from `raw:HEAD/README.md` |
 
 ## What it solves

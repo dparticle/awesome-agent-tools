@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 45,657 |
+| Stars | 45,717 |
 | Star velocity | 58.2/day (history basis, 5d span) |
 | Health score | 73/100 |
 | Documentation | 61/100 |
@@ -21,8 +21,8 @@
 | License | LGPL-3.0 |
 | Language | Go |
 | Created | 2025-12-18 |
-| Last push | 2026-11-07 (0 days ago) |
-| Analyzed README | 33,775 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 34,917 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

@@ -6,40 +6,40 @@
   "url": "https://github.com/yynxxxxx/Codex-X",
   "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
   "homepage": "https://codex-x.site",
-  "stars": 4411,
-  "forks": 565,
+  "stars": 4417,
+  "forks": 566,
   "open_issues": 13,
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-04T03:28:35Z",
-  "updated_at": "2026-11-08T10:47:24Z",
-  "pushed_at": "2026-10-24T12:56:33Z",
+  "updated_at": "2026-11-09T11:12:38Z",
+  "pushed_at": "2026-11-09T10:31:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 127,
-  "days_since_push": 14,
-  "health_score": 54,
+  "age_days": 128,
+  "days_since_push": 0,
+  "health_score": 55,
   "health_components": {
     "popularity": 72.9,
-    "momentum": 5.0,
-    "maintenance": 92.0,
+    "momentum": 4.8,
+    "maintenance": 100.0,
     "documentation": 38.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 30,
+    "stars_gained": 29,
     "days_span": 5,
-    "stars_per_day": 6.0,
-    "lifetime_stars_per_day": 34.73,
+    "stars_per_day": 5.8,
+    "lifetime_stars_per_day": 34.51,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yynxxxxx/Codex-X",
-    "readme_chars": 12724,
+    "readme_chars": 12933,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -118,13 +118,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.157
+      "external_link_ratio": 0.155
     },
     "highlights": [
       "管理多个可命名的官方 Codex 登录与第三方 API，一键复制、切换，并从 cc-switch 导入现有供应商",
+      "Windows .msi（推荐安装包，支持应用内在线更新）",
       "在同一页面编辑 Base URL、API Key、Model、上游接口协议、Headers 和完整 TOML",
-      "支持“保留原提示词”和“替换原提示词”两种模式，适合日常叠加或完整切换",
-      "支持同步 GitHub 模板、导入 Markdown、手动添加提示词、编辑标题 / 文件名 / 内容"
+      "支持“保留原提示词”和“替换原提示词”两种模式，适合日常叠加或完整切换"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:33+00:00",
+  "fetched_at": "2026-11-09T12:54:14+00:00",
   "categories": [
     "desktop-ui-2",
     "providers-2"

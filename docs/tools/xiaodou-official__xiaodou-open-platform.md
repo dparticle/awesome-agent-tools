@@ -2,7 +2,7 @@
 
 # xiaodou-official/xiaodou-open-platform
 
-> 直接找：接口一览 ｜ 五分钟上手 ｜ 易支付协议兼容接入 ｜ 到账账号与收款分配 ｜ 微信 JSAPI 公众号配置 ｜ 文档目录 ｜ 常见问题
+> 直接找：接口一览 ｜ 五分钟上手 ｜ 易支付协议兼容接入 ｜ 到账账号与收款分配 ｜ 微信支付开通与拉起 ｜ 文档目录 ｜ 常见问题
 
 [Repository](https://github.com/xiaodou-official/xiaodou-open-platform) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 330 |
-| Star velocity | 0.6/day (history basis, 5d span) |
-| Health score | 52/100 |
+| Stars | 339 |
+| Star velocity | 2.6/day (history basis, 5d span) |
+| Health score | 53/100 |
 | Documentation | 59/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-09-27 |
-| Last push | 2026-11-03 (4 days ago) |
-| Analyzed README | 17,985 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 18,378 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -80,8 +80,8 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.4 |
-| momentum | 0.5 |
+| popularity | 50.6 |
+| momentum | 2.2 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
 | accessibility | 70.0 |

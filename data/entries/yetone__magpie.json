@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 32056,
-  "forks": 2824,
-  "open_issues": 3402,
+  "stars": 32911,
+  "forks": 2905,
+  "open_issues": 3492,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-11-08T11:18:04Z",
-  "pushed_at": "2026-11-08T11:11:02Z",
+  "updated_at": "2026-11-09T12:53:31Z",
+  "pushed_at": "2026-11-09T12:50:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 45,
+  "age_days": 46,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
-    "popularity": 90.1,
+    "popularity": 90.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 63.0,
@@ -37,10 +37,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3168,
+    "stars_gained": 3374,
     "days_span": 5,
-    "stars_per_day": 633.6,
-    "lifetime_stars_per_day": 712.36,
+    "stars_per_day": 674.8,
+    "lifetime_stars_per_day": 715.46,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -160,11 +160,11 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-08T11:18:10+00:00",
+  "fetched_at": "2026-11-09T12:53:54+00:00",
   "categories": [
     "billing",
-    "desktop-ui-2",
-    "mcp-security"
+    "model-routing",
+    "sharing"
   ],
   "primary_category": "billing",
   "lifecycle": {

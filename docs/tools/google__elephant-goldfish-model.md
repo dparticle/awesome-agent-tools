@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,332 |
-| Star velocity | 670.0/day (history basis, 5d span) |
+| Stars | 15,910 |
+| Star velocity | 880.2/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 42/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-09-13 |
-| Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 8,418 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 8,499 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Agent runtime
 
-> orkflow targets software specifications.
+> d standards with /egm-review-loop.
 
 ### GUI / desktop app
 
@@ -68,7 +68,7 @@ Score **42/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 83.1 |
+| popularity | 84.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 42.0 |

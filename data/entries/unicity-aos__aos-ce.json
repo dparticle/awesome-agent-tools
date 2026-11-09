@@ -7,7 +7,7 @@
   "description": "AOS Community Edition: the open agent operating system.",
   "homepage": "",
   "stars": 8457,
-  "forks": 25,
+  "forks": 26,
   "open_issues": 50,
   "language": "Rust",
   "license": "Apache-2.0",
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 118,
-  "days_since_push": 17,
+  "age_days": 119,
+  "days_since_push": 18,
   "health_score": 56,
   "health_components": {
     "popularity": 78.5,
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 15,
+    "days_span": 16,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 71.67,
+    "lifetime_stars_per_day": 71.07,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -107,7 +107,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:25+00:00",
+  "fetched_at": "2026-11-09T12:54:06+00:00",
   "categories": [
     "mcp-security"
   ],

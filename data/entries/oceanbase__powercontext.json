@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1524,
-  "forks": 615,
-  "open_issues": 146,
+  "stars": 1552,
+  "forks": 622,
+  "open_issues": 135,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-08T08:17:21Z",
-  "pushed_at": "2026-11-08T10:54:20Z",
+  "updated_at": "2026-11-09T12:45:20Z",
+  "pushed_at": "2026-11-09T12:23:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 363,
+  "age_days": 364,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 55,
   "health_components": {
-    "popularity": 63.7,
-    "momentum": 6.0,
+    "popularity": 63.8,
+    "momentum": 11.5,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 31.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 36,
+    "stars_gained": 69,
     "days_span": 5,
-    "stars_per_day": 7.2,
-    "lifetime_stars_per_day": 4.2,
+    "stars_per_day": 13.8,
+    "lifetime_stars_per_day": 4.26,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "oceanbase/powercontext",
-    "readme_chars": 23561,
+    "readme_chars": 23565,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -150,22 +150,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:23+00:00",
+  "fetched_at": "2026-11-09T12:54:55+00:00",
   "categories": [
-    "teams"
+    "memory-failover"
   ],
-  "primary_category": "teams",
+  "primary_category": "memory-failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by Gentleman-Programming/engram: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 Gentleman-Programming/engram 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "Gentleman-Programming/engram",
     "challenger": "",
     "supersede": {
       "incumbent": "oceanbase/powercontext",
-      "challenger": "tencentcloud/octop",
+      "challenger": "gentleman-programming/engram",
       "incumbent_name": "oceanbase/powercontext",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "Gentleman-Programming/engram",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -176,15 +176,15 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 7.726,
-      "momentum_ratio": 7.056,
-      "setup_delta": -37,
-      "dominance": 1.0,
+      "star_ratio": 5.069,
+      "momentum_ratio": 1.362,
+      "setup_delta": -35,
+      "dominance": 0.838,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "7.73x the stars (11,775 vs 1,524)",
-        "7.06x the star velocity (50.8/day vs 7.2/day)",
-        "no harder to set up (32 vs 69 friction)"
+        "5.07x the stars (7,867 vs 1,552)",
+        "1.36x the star velocity (18.8/day vs 13.8/day)",
+        "no harder to set up (34 vs 69 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -196,25 +196,15 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "billing-metering",
           "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
+          "session-persistence"
         ],
-        "incumbent_health": 54,
-        "challenger_health": 74,
+        "incumbent_health": 55,
+        "challenger_health": 63,
         "incumbent_setup_score": 69,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 34
       }
     }
   }

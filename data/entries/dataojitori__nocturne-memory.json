@@ -36,22 +36,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 318,
-  "days_since_push": 4,
-  "health_score": 54,
+  "age_days": 319,
+  "days_since_push": 5,
+  "health_score": 53,
   "health_components": {
     "popularity": 63.1,
-    "momentum": 2.0,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 4.48,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 4.47,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,12 +165,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:24+00:00",
+  "fetched_at": "2026-11-09T12:54:56+00:00",
   "categories": [
-    "mobile",
-    "teams"
+    "mcp-security",
+    "memory-failover"
   ],
-  "primary_category": "teams",
+  "primary_category": "memory-failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

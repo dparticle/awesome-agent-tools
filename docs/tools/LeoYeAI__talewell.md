@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 549 |
-| Star velocity | 0.0/day (history basis, 17d span) |
+| Star velocity | 0.0/day (history basis, 18d span) |
 | Health score | 47/100 |
 | Documentation | 36/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-03-28 |
-| Last push | 2026-10-01 (37 days ago) |
+| Last push | 2026-10-01 (38 days ago) |
 | Analyzed README | 8,208 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** — Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).
 
 ## What it solves
 

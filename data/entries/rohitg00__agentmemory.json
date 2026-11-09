@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://www.agent-memory.dev/docs",
-  "stars": 30197,
-  "forks": 2674,
-  "open_issues": 479,
+  "stars": 30228,
+  "forks": 2677,
+  "open_issues": 417,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -30,33 +30,33 @@
     "pi"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-11-08T10:53:58Z",
-  "pushed_at": "2026-11-08T09:50:12Z",
+  "updated_at": "2026-11-09T12:10:56Z",
+  "pushed_at": "2026-11-09T12:21:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 256,
+  "age_days": 257,
   "days_since_push": 0,
-  "health_score": 68,
+  "health_score": 69,
   "health_components": {
     "popularity": 89.6,
-    "momentum": 14.8,
+    "momentum": 16.7,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 89,
+    "stars_gained": 100,
     "days_span": 5,
-    "stars_per_day": 17.8,
-    "lifetime_stars_per_day": 117.96,
+    "stars_per_day": 20.0,
+    "lifetime_stars_per_day": 117.62,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rohitg00/agentmemory",
-    "readme_chars": 92882,
+    "readme_chars": 93859,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -89,8 +89,8 @@
       "agent-runtime": "hit in default keyless mode through BM25.",
       "mcp-support": "memory across coding sessions and agents.",
       "security-isolation": "memoryclaudebridgesync Read MEMORY.md or create a project export, preserving existing files",
-      "self-hosted": "gnostics:** Run agentmemory doctor or restart with --verbose.",
-      "team-collaboration": "ge** Read MEMORY.md and export project memories without replacing existing files",
+      "self-hosted": "agnostics:* Run agentmemory doctor or restart with --verbose.",
+      "team-collaboration": "bridge* Read MEMORY.md and export project memories without replacing existing files",
       "gui-desktop": "path and can install the pinned engine automatically.",
       "notifications": "hook engine injects CLAUDEPLUGINROOT into hook subprocesses (per codex-rs/hooks/src/engine/discovery.rs), so the same hook scripts work across both hosts without duplication.",
       "cross-agent-support": "Mentions Aider, Claude Code, Cline, Codex"
@@ -106,7 +106,7 @@
       "memory-context": 3,
       "skills-plugins": 5,
       "agent-runtime": 1,
-      "mcp-support": 69,
+      "mcp-support": 71,
       "security-isolation": 1,
       "self-hosted": 4,
       "team-collaboration": 1,
@@ -187,9 +187,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.194
+      "external_link_ratio": 0.192
     },
     "highlights": [
+      "Large stores keep working: state reads page, so scopes above 64 MiB no longer fail, on iii 0.25.1.",
       "Auth uses JWT middleware in src/middleware/auth.ts"
     ],
     "summary_zh_native": "",
@@ -201,13 +202,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:01+00:00",
+  "fetched_at": "2026-11-09T12:54:37+00:00",
   "categories": [
-    "desktop-ui",
+    "analytics-3",
     "mcp-security",
-    "teams"
+    "memory-failover"
   ],
-  "primary_category": "teams",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "active",
     "note_en": "",

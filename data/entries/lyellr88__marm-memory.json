@@ -6,7 +6,7 @@
   "url": "https://github.com/Lyellr88/marm-memory",
   "description": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indexing & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall, supports multi-agent swarms.",
   "homepage": "https://lyellr88.github.io/marm-memory",
-  "stars": 434,
+  "stars": 435,
   "forks": 95,
   "open_issues": 19,
   "language": "Python",
@@ -34,16 +34,16 @@
     "sqlite"
   ],
   "created_at": "2025-06-10T06:36:49Z",
-  "updated_at": "2026-11-07T03:08:18Z",
+  "updated_at": "2026-11-08T22:40:24Z",
   "pushed_at": "2026-10-29T01:25:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 516,
-  "days_since_push": 10,
+  "age_days": 517,
+  "days_since_push": 11,
   "health_score": 53,
   "health_components": {
-    "popularity": 52.7,
+    "popularity": 52.8,
     "momentum": 1.0,
     "maintenance": 92.0,
     "documentation": 82.0,
@@ -196,92 +196,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:20:01+00:00",
+  "fetched_at": "2026-11-09T12:55:33+00:00",
   "categories": [
+    "analytics-3",
     "mcp-security",
-    "sharing",
-    "teams"
+    "memory-failover"
   ],
-  "primary_category": "teams",
+  "primary_category": "memory-failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (12/12).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (12/12)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "lyellr88/marm-memory",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "Lyellr88/marm-memory",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration",
-        "notifications",
-        "security-isolation",
-        "self-hosted",
-        "session-persistence"
-      ],
-      "star_ratio": 69.578,
-      "momentum_ratio": 14.833,
-      "setup_delta": -16,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (12/12)",
-        "69.58x the stars (30,197 vs 434)",
-        "14.83x the star velocity (17.8/day vs 1.2/day)",
-        "no harder to set up (32 vs 48 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 53,
-        "challenger_health": 68,
-        "incumbent_setup_score": 48,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

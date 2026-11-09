@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,967 |
-| Star velocity | 0.0/day (history basis, 6d span) |
+| Stars | 4,968 |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 63/100 |
 | Documentation | 72/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-14 |
-| Last push | 2026-10-26 (12 days ago) |
+| Last push | 2026-10-26 (13 days ago) |
 | Analyzed README | 30,172 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (4/4).

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 33,200 |
-| Star velocity | 67.5/day (lifetime basis, 492d span) |
+| Stars | 33,225 |
+| Star velocity | 67.4/day (lifetime basis, 493d span) |
 | Health score | 77/100 |
 | Documentation | 61/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-07-04 |
-| Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 9,526 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 9,616 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

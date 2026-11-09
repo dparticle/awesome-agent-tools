@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 118,895 |
-| Star velocity | 966.2/day (history basis, 5d span) |
+| Stars | 119,929 |
+| Star velocity | 989.4/day (history basis, 5d span) |
 | Health score | 92/100 |
 | Documentation | 53/100 |
 | Tier | 🏆 Flagship |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-17 |
-| Last push | 2026-11-08 (0 days ago) |
+| Last push | 2026-11-09 (0 days ago) |
 | Analyzed README | 20,634 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -37,8 +37,6 @@
 ### Mobile access
 
 ### Multi-agent orchestration
-
-> r coding agent in parallel, each in its own worktree.
 
 ### Parallel execution
 

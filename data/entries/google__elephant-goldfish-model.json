@@ -6,9 +6,9 @@
   "url": "https://github.com/google/elephant-goldfish-model",
   "description": "Open-source plugin for designing and reviewing software with agents",
   "homepage": "https://egm.dev",
-  "stars": 14332,
-  "forks": 1050,
-  "open_issues": 89,
+  "stars": 15910,
+  "forks": 1160,
+  "open_issues": 88,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -30,16 +30,16 @@
     "spec-driven-development"
   ],
   "created_at": "2026-09-13T16:31:06Z",
-  "updated_at": "2026-11-08T11:16:53Z",
-  "pushed_at": "2026-11-08T01:58:36Z",
+  "updated_at": "2026-11-09T12:50:12Z",
+  "pushed_at": "2026-11-09T02:35:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 55,
+  "age_days": 56,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 83.1,
+    "popularity": 84.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 42.0,
@@ -47,16 +47,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3350,
+    "stars_gained": 4401,
     "days_span": 5,
-    "stars_per_day": 670.0,
-    "lifetime_stars_per_day": 260.58,
+    "stars_per_day": 880.2,
+    "lifetime_stars_per_day": 284.11,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "google/elephant-goldfish-model",
-    "readme_chars": 8418,
+    "readme_chars": 8499,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
@@ -66,7 +66,7 @@
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "xed command (#220), but 1.4.8 does not (#196), so keep the prefix.",
-      "agent-runtime": "orkflow targets software specifications.",
+      "agent-runtime": "d standards with /egm-review-loop.",
       "gui-desktop": "",
       "notifications": "For **Claude Cowork** and **ChatGPT Work**, see the setup guide.",
       "cross-agent-support": "Mentions Claude Code, Codex"
@@ -117,7 +117,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.713
+      "external_link_ratio": 0.706
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:19+00:00",
+  "fetched_at": "2026-11-09T12:54:01+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

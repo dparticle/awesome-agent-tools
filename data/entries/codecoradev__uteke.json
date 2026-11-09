@@ -6,9 +6,9 @@
   "url": "https://github.com/codecoradev/uteke",
   "description": "Long-term memory for any AI agent. One Rust binary, offline, 98.2% recall@5 on LongMemEval-S. Self-host free or use Uteke Cloud.",
   "homepage": "https://uteke.app",
-  "stars": 284,
+  "stars": 285,
   "forks": 32,
-  "open_issues": 6,
+  "open_issues": 5,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "vector-database"
   ],
   "created_at": "2026-05-29T00:27:31Z",
-  "updated_at": "2026-11-08T10:11:06Z",
-  "pushed_at": "2026-11-08T10:11:03Z",
+  "updated_at": "2026-11-09T07:44:57Z",
+  "pushed_at": "2026-11-09T03:02:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 163,
+  "age_days": 164,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 49.1,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.74,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "codecoradev/uteke",
-    "readme_chars": 25416,
+    "readme_chars": 26168,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -136,7 +136,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.315
+      "external_link_ratio": 0.306
     },
     "highlights": [
       "Fusion merges the vector ranking (weight 1.7) with the hybrid ranking (weight 1), then adds small salience and recency boosts.",
@@ -153,25 +153,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:20:22+00:00",
+  "fetched_at": "2026-11-09T12:55:50+00:00",
   "categories": [
-    "teams"
+    "memory-failover"
   ],
-  "primary_category": "teams",
+  "primary_category": "memory-failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by Lyellr88/marm-memory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 Lyellr88/marm-memory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "Lyellr88/marm-memory",
     "challenger": "",
     "supersede": {
       "incumbent": "codecoradev/uteke",
-      "challenger": "tencentcloud/octop",
+      "challenger": "lyellr88/marm-memory",
       "incumbent_name": "codecoradev/uteke",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "Lyellr88/marm-memory",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -180,15 +180,15 @@
         "multi-agent-orchestration",
         "self-hosted"
       ],
-      "star_ratio": 41.461,
-      "momentum_ratio": 127.0,
-      "setup_delta": -5,
-      "dominance": 1.0,
+      "star_ratio": 1.526,
+      "momentum_ratio": 6.0,
+      "setup_delta": 11,
+      "dominance": 0.791,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "41.46x the stars (11,775 vs 284)",
-        "127.00x the star velocity (50.8/day vs 0.4/day)",
-        "no harder to set up (32 vs 37 friction)"
+        "1.53x the stars (435 vs 285)",
+        "6.00x the star velocity (1.2/day vs 0.2/day)",
+        "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -202,24 +202,21 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "billing-metering",
+          "auto-failover",
           "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
-          "parallel-execution",
+          "notifications",
+          "security-isolation",
           "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
+          "session-persistence"
         ],
         "incumbent_health": 51,
-        "challenger_health": 74,
+        "challenger_health": 53,
         "incumbent_setup_score": 37,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 48
       }
     }
   }

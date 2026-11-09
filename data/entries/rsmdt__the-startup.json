@@ -6,7 +6,7 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 577,
+  "stars": 578,
   "forks": 71,
   "open_issues": 0,
   "language": "TypeScript",
@@ -18,26 +18,26 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-11-01T01:45:25Z",
+  "updated_at": "2026-11-09T05:57:42Z",
   "pushed_at": "2026-10-26T22:43:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 453,
-  "days_since_push": 12,
+  "age_days": 454,
+  "days_since_push": 13,
   "health_score": 51,
   "health_components": {
     "popularity": 55.2,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.27,
     "basis": "history",
     "is_fast_riser": false
@@ -124,68 +124,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:47+00:00",
+  "fetched_at": "2026-11-09T12:55:21+00:00",
   "categories": [
     "desktop-ui",
-    "mobile"
+    "model-routing"
   ],
-  "primary_category": "mobile",
+  "primary_category": "model-routing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 pedrohcgs/claude-code-my-workflow 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "pedrohcgs/claude-code-my-workflow",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "rsmdt/the-startup",
-      "challenger": "pedrohcgs/claude-code-my-workflow",
-      "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "pedrohcgs/claude-code-my-workflow",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "memory-context",
-        "multi-agent-orchestration",
-        "parallel-execution",
-        "skills-plugins"
-      ],
-      "star_ratio": 2.92,
-      "momentum_ratio": 24.0,
-      "setup_delta": -17,
-      "dominance": 0.994,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "2.92x the stars (1,685 vs 577)",
-        "24.00x the star velocity (1.2/day vs 0.0/day)",
-        "no harder to set up (8 vs 25 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "memory-context",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "security-isolation",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 62,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 8
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

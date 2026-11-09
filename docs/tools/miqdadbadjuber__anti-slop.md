@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,626 |
-| Star velocity | 112.2/day (history basis, 12d span) |
+| Stars | 8,730 |
+| Star velocity | 111.5/day (history basis, 13d span) |
 | Health score | 85/100 |
 | Documentation | 54/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-08-07 |
-| Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 13,314 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 13,126 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,6 +31,10 @@
 > ll them (this project or everywhere), and which agents you use, then copies the folders and writes the pointer that reloads antislop every session.
 
 ### Agent runtime
+
+### MCP support
+
+> ing a SKILL.md with its rules.
 
 ### Cross-agent support
 
@@ -65,8 +69,8 @@ Score **54/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.7 |
-| momentum | 93.5 |
+| popularity | 78.8 |
+| momentum | 92.9 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 100.0 |

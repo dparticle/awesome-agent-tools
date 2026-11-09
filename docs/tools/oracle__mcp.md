@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 474 |
+| Stars | 476 |
 | Star velocity | 0.6/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 59/100 |
@@ -21,7 +21,7 @@
 | License | UPL-1.0 |
 | Language | Python |
 | Created | 2025-07-27 |
-| Last push | 2026-11-04 (3 days ago) |
+| Last push | 2026-11-04 (4 days ago) |
 | Analyzed README | 25,079 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -74,7 +74,7 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.5 |
+| popularity | 53.6 |
 | momentum | 0.5 |
 | maintenance | 100.0 |
 | documentation | 59.0 |

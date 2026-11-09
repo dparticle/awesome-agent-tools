@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 30,197 |
-| Star velocity | 17.8/day (history basis, 5d span) |
-| Health score | 68/100 |
+| Stars | 30,228 |
+| Star velocity | 20.0/day (history basis, 5d span) |
+| Health score | 69/100 |
 | Documentation | 73/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-02-25 |
-| Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 92,882 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 93,859 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -72,11 +72,11 @@
 
 ### Self-hostable
 
-> gnostics:** Run agentmemory doctor or restart with --verbose.
+> agnostics:* Run agentmemory doctor or restart with --verbose.
 
 ### Team collaboration
 
-> ge** Read MEMORY.md and export project memories without replacing existing files
+> bridge* Read MEMORY.md and export project memories without replacing existing files
 
 ### GUI / desktop app
 
@@ -128,7 +128,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 89.6 |
-| momentum | 14.8 |
+| momentum | 16.7 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 68.0 |

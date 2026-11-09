@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 308,
-  "days_since_push": 79,
+  "age_days": 309,
+  "days_since_push": 80,
   "health_score": 46,
   "health_components": {
     "popularity": 50.3,
@@ -133,7 +133,7 @@
       "Rate limiting — DB-backed token bucket on all external sends",
       "Background agents — launchd-integrated for automated campaign tracking",
       "Swappable email providers — Instantly built in, plus drop-in MCP templates for Brevo, Mailgun, and SendGrid (provider:add --mcp then email:send --provider )",
-      "Statistical significance — chi-squared testing to pick variant winners"
+      "Natural language orchestration — describe what you want, YALC plans the workflow"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:20:10+00:00",
+  "fetched_at": "2026-11-09T12:55:41+00:00",
   "categories": [
     "desktop-ui",
     "mcp-security"

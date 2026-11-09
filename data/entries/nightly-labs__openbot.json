@@ -6,9 +6,9 @@
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
   "homepage": "https://openbot.run/",
-  "stars": 6324,
-  "forks": 637,
-  "open_issues": 641,
+  "stars": 6602,
+  "forks": 654,
+  "open_issues": 688,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -22,16 +22,16 @@
     "typescript"
   ],
   "created_at": "2026-08-12T21:32:03Z",
-  "updated_at": "2026-11-08T11:13:57Z",
-  "pushed_at": "2026-11-08T11:17:13Z",
+  "updated_at": "2026-11-09T12:52:49Z",
+  "pushed_at": "2026-11-09T12:52:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 87,
+  "age_days": 88,
   "days_since_push": 0,
   "health_score": 83,
   "health_components": {
-    "popularity": 76.0,
+    "popularity": 76.4,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1249,
+    "stars_gained": 1182,
     "days_span": 5,
-    "stars_per_day": 249.8,
-    "lifetime_stars_per_day": 72.69,
+    "stars_per_day": 236.4,
+    "lifetime_stars_per_day": 75.02,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nightly-labs/openbot",
-    "readme_chars": 65213,
+    "readme_chars": 65577,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -163,7 +163,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.291
+      "external_link_ratio": 0.29
     },
     "highlights": [
       "~/.cursor — login and session history managed exclusively by the Cursor CLI.",
@@ -180,13 +180,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:29+00:00",
+  "fetched_at": "2026-11-09T12:54:09+00:00",
   "categories": [
-    "billing-2",
+    "isolation-teams",
     "mobile",
-    "teams"
+    "sharing"
   ],
-  "primary_category": "mobile",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

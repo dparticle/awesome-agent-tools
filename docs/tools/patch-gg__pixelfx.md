@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,971 |
-| Star velocity | 424.8/day (history basis, 5d span) |
-| Health score | 77/100 |
-| Documentation | 29/100 |
-| Tier | ✅ Recommended |
+| Stars | 6,230 |
+| Star velocity | 350.4/day (history basis, 5d span) |
+| Health score | 83/100 |
+| Documentation | 42/100 |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-10-30 |
-| Last push | 2026-10-31 (8 days ago) |
-| Analyzed README | 11,168 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 11,933 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -34,32 +34,39 @@
 
 > e) gives you each part drawn on its own.
 
+### Agent runtime
+
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 30/100)
-- **Out of the box:** no
+- **Difficulty:** 🟢 Turnkey (friction score 16/100)
+- **Out of the box:** yes
 - **Non-programmer friendly:** no
+- **Quickest install:** `npm i -g @patchgg/cli      # or: curl -fsSL https://patch.gg/install.sh | sh`
 
-*Easy. No setup signals found in the README.*
+**Signals that make it easy:** curl | sh installer
+
+*Turnkey. install via curl | sh installer*
 
 ## Documentation quality
 
-Score **29/100**, based on these detected signals:
+Score **42/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
+- has a quick-start section
 - documents installation
 - mentions licensing
+- links to dedicated docs
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.5 |
+| popularity | 75.9 |
 | momentum | 100.0 |
-| maintenance | 92.0 |
-| documentation | 29.0 |
-| accessibility | 70.0 |
+| maintenance | 100.0 |
+| documentation | 42.0 |
+| accessibility | 96.0 |
 
 ---
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/milind-soni/OpenMausBot",
   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "homepage": "https://www.mausbot.com/",
-  "stars": 17569,
-  "forks": 2458,
-  "open_issues": 860,
+  "stars": 19216,
+  "forks": 2645,
+  "open_issues": 879,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -25,16 +25,16 @@
     "typescript"
   ],
   "created_at": "2026-08-11T18:58:55Z",
-  "updated_at": "2026-11-08T11:16:35Z",
-  "pushed_at": "2026-11-08T11:15:26Z",
+  "updated_at": "2026-11-09T12:52:37Z",
+  "pushed_at": "2026-11-09T12:29:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 88,
+  "age_days": 89,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 84.9,
+    "popularity": 85.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 71.0,
@@ -42,16 +42,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 6025,
+    "stars_gained": 7344,
     "days_span": 5,
-    "stars_per_day": 1205.0,
-    "lifetime_stars_per_day": 199.65,
+    "stars_per_day": 1468.8,
+    "lifetime_stars_per_day": 215.91,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "milind-soni/OpenMausBot",
-    "readme_chars": 32700,
+    "readme_chars": 32760,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -162,7 +162,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.56
+      "external_link_ratio": 1.557
     },
     "highlights": [
       "Local first. One small harness server on 127.0.0.1 owns every agent process. Transcripts, keys, and",
@@ -178,13 +178,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:18+00:00",
+  "fetched_at": "2026-11-09T12:53:59+00:00",
   "categories": [
     "analytics-3",
-    "desktop-ui",
-    "mcp-security"
+    "mcp-security",
+    "mobile"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 230,
-  "days_since_push": 8,
+  "age_days": 231,
+  "days_since_push": 9,
   "health_score": 48,
   "health_components": {
     "popularity": 48.8,
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:20:23+00:00",
+  "fetched_at": "2026-11-09T12:55:51+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "mobile"
+    "isolation-teams"
   ],
-  "primary_category": "mobile",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).",
@@ -181,14 +181,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 123.13,
-      "momentum_ratio": 368.0,
+      "star_ratio": 123.282,
+      "momentum_ratio": 476.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "123.13x the stars (34,107 vs 277)",
-        "368.00x the star velocity (18.4/day vs 0.0/day)",
+        "123.28x the stars (34,149 vs 277)",
+        "476.00x the star velocity (23.8/day vs 0.0/day)",
         "no harder to set up (2 vs 12 friction)"
       ],
       "reasons_zh": [],
@@ -217,7 +217,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 48,
-        "challenger_health": 71,
+        "challenger_health": 72,
         "incumbent_setup_score": 12,
         "challenger_setup_score": 2
       }

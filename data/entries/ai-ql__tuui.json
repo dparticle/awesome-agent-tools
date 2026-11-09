@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 585,
-  "days_since_push": 178,
+  "age_days": 586,
+  "days_since_push": 179,
   "health_score": 47,
   "health_components": {
     "popularity": 61.3,
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:31+00:00",
+  "fetched_at": "2026-11-09T12:55:02+00:00",
   "categories": [
     "desktop-ui-2",
     "mcp-security"

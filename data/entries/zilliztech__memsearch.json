@@ -6,9 +6,9 @@
   "url": "https://github.com/zilliztech/memsearch",
   "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
   "homepage": "https://zilliztech.github.io/memsearch/",
-  "stars": 2834,
-  "forks": 279,
-  "open_issues": 263,
+  "stars": 2843,
+  "forks": 281,
+  "open_issues": 260,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "skills"
   ],
   "created_at": "2026-02-09T02:29:16Z",
-  "updated_at": "2026-11-08T08:19:09Z",
-  "pushed_at": "2026-11-06T03:07:55Z",
+  "updated_at": "2026-11-09T09:46:13Z",
+  "pushed_at": "2026-11-09T09:46:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 272,
-  "days_since_push": 2,
+  "age_days": 273,
+  "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 69.0,
-    "momentum": 2.7,
+    "popularity": 69.1,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 10.42,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 10.41,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zilliztech/memsearch",
-    "readme_chars": 29365,
+    "readme_chars": 29514,
     "capabilities": [
       "model-routing",
       "memory-context",
@@ -140,7 +140,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.056
+      "external_link_ratio": 1.05
     },
     "highlights": [
       "🔍 Progressive retrieval, hybrid search, smart dedup, live sync — 3-layer recall (search → expand → transcript); dense vector + BM25 sparse + RRF reranking; SHA-256 content hashing skips unc…",
@@ -156,80 +156,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:14+00:00",
+  "fetched_at": "2026-11-09T12:54:49+00:00",
   "categories": [
     "desktop-ui",
-    "model-routing",
-    "teams"
+    "memory-failover"
   ],
-  "primary_category": "teams",
+  "primary_category": "memory-failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "TencentCloud/Octop",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "zilliztech/memsearch",
-      "challenger": "tencentcloud/octop",
-      "incumbent_name": "zilliztech/memsearch",
-      "challenger_name": "TencentCloud/Octop",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "memory-context",
-        "model-routing",
-        "self-hosted",
-        "skills-plugins",
-        "team-collaboration"
-      ],
-      "star_ratio": 4.155,
-      "momentum_ratio": 15.875,
-      "setup_delta": -17,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "4.15x the stars (11,775 vs 2,834)",
-        "15.87x the star velocity (50.8/day vs 3.2/day)",
-        "no harder to set up (32 vs 49 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "memory-context",
-          "model-routing",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 57,
-        "challenger_health": 74,
-        "incumbent_setup_score": 49,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

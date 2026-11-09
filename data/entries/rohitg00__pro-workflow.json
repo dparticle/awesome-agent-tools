@@ -6,7 +6,7 @@
   "url": "https://github.com/rohitg00/pro-workflow",
   "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
   "homepage": "https://rohitg00.github.io/pro-workflow/infographic.html",
-  "stars": 2946,
+  "stars": 2947,
   "forks": 299,
   "open_issues": 34,
   "language": "JavaScript",
@@ -33,13 +33,13 @@
     "worktrees"
   ],
   "created_at": "2026-02-01T19:47:29Z",
-  "updated_at": "2026-11-06T22:06:21Z",
+  "updated_at": "2026-11-09T10:34:12Z",
   "pushed_at": "2026-09-29T10:12:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 279,
-  "days_since_push": 40,
+  "age_days": 280,
+  "days_since_push": 41,
   "health_score": 49,
   "health_components": {
     "popularity": 69.4,
@@ -53,7 +53,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 10.56,
+    "lifetime_stars_per_day": 10.53,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -168,8 +168,8 @@
       "external_link_ratio": 0.557
     },
     "highlights": [
-      "playwright &mdash; browser automation (most token-efficient)",
-      "Orchestrate, don't micromanage &mdash; wire patterns together, let agents execute."
+      "Orchestrate, don't micromanage &mdash; wire patterns together, let agents execute.",
+      "playwright &mdash; browser automation (most token-efficient)"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -180,13 +180,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:13+00:00",
+  "fetched_at": "2026-11-09T12:54:47+00:00",
   "categories": [
     "desktop-ui",
-    "mobile",
-    "model-routing"
+    "isolation-teams",
+    "mcp-security"
   ],
-  "primary_category": "mobile",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

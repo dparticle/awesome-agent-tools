@@ -6,7 +6,7 @@
   "url": "https://github.com/appautomaton/latex-arxiv-SKILL",
   "description": "A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.",
   "homepage": "https://appautomaton.com/latex-arxiv-SKILL/",
-  "stars": 481,
+  "stars": 483,
   "forks": 40,
   "open_issues": 1,
   "language": "TeX",
@@ -34,16 +34,16 @@
     "scientific-writing"
   ],
   "created_at": "2025-03-18T17:58:07Z",
-  "updated_at": "2026-11-08T07:04:59Z",
+  "updated_at": "2026-11-09T05:13:03Z",
   "pushed_at": "2026-09-13T16:17:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 599,
-  "days_since_push": 55,
+  "age_days": 600,
+  "days_since_push": 56,
   "health_score": 45,
   "health_components": {
-    "popularity": 53.6,
+    "popularity": 53.7,
     "momentum": 0.8,
     "maintenance": 78.0,
     "documentation": 43.0,
@@ -54,7 +54,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 0.8,
+    "lifetime_stars_per_day": 0.81,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,17 +133,69 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:56+00:00",
+  "fetched_at": "2026-11-09T12:55:29+00:00",
   "categories": [
     "desktop-ui",
-    "model-routing"
+    "sharing"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "sharing",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by nexu-io/open-design: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 nexu-io/open-design 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "nexu-io/open-design",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "appautomaton/latex-arxiv-skill",
+      "challenger": "nexu-io/open-design",
+      "incumbent_name": "appautomaton/latex-arxiv-SKILL",
+      "challenger_name": "nexu-io/open-design",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "model-routing",
+        "skills-plugins"
+      ],
+      "star_ratio": 221.023,
+      "momentum_ratio": 179.4,
+      "setup_delta": -7,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "221.02x the stars (106,754 vs 483)",
+        "179.40x the star velocity (179.4/day vs 1.0/day)",
+        "no harder to set up (29 vs 36 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "model-routing",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "model-routing",
+          "quota-distribution",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins"
+        ],
+        "incumbent_health": 45,
+        "challenger_health": 95,
+        "incumbent_setup_score": 36,
+        "challenger_setup_score": 29
+      }
+    }
   }
 }

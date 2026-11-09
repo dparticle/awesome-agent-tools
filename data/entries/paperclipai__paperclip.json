@@ -6,9 +6,9 @@
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
   "homepage": "https://paperclip.ing",
-  "stars": 112157,
-  "forks": 18599,
-  "open_issues": 6531,
+  "stars": 112494,
+  "forks": 18656,
+  "open_issues": 6600,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "workflow-automation"
   ],
   "created_at": "2026-03-02T15:01:51Z",
-  "updated_at": "2026-11-08T11:14:02Z",
-  "pushed_at": "2026-11-08T11:13:58Z",
+  "updated_at": "2026-11-09T12:49:02Z",
+  "pushed_at": "2026-11-09T12:51:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 250,
+  "age_days": 251,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1458,
+    "stars_gained": 1522,
     "days_span": 5,
-    "stars_per_day": 291.6,
-    "lifetime_stars_per_day": 448.63,
+    "stars_per_day": 304.4,
+    "lifetime_stars_per_day": 448.18,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -192,13 +192,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:44+00:00",
+  "fetched_at": "2026-11-09T12:54:24+00:00",
   "categories": [
     "analytics-3",
-    "mobile",
-    "teams"
+    "isolation-teams",
+    "mcp-security"
   ],
-  "primary_category": "mobile",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

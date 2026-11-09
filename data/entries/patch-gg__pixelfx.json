@@ -6,8 +6,8 @@
   "url": "https://github.com/patch-gg/pixelfx",
   "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
   "homepage": "https://patch-gg.github.io/pixelfx/",
-  "stars": 5971,
-  "forks": 773,
+  "stars": 6230,
+  "forks": 815,
   "open_issues": 11,
   "language": "JavaScript",
   "license": "MIT",
@@ -22,79 +22,87 @@
     "vfx"
   ],
   "created_at": "2026-10-30T06:43:25Z",
-  "updated_at": "2026-11-08T11:12:36Z",
-  "pushed_at": "2026-10-31T08:44:14Z",
+  "updated_at": "2026-11-09T12:43:22Z",
+  "pushed_at": "2026-11-09T09:51:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 9,
-  "days_since_push": 8,
-  "health_score": 77,
+  "age_days": 10,
+  "days_since_push": 0,
+  "health_score": 83,
   "health_components": {
-    "popularity": 75.5,
+    "popularity": 75.9,
     "momentum": 100.0,
-    "maintenance": 92.0,
-    "documentation": 29.0,
-    "accessibility": 70.0
+    "maintenance": 100.0,
+    "documentation": 42.0,
+    "accessibility": 96.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 2124,
+    "stars_gained": 1752,
     "days_span": 5,
-    "stars_per_day": 424.8,
-    "lifetime_stars_per_day": 663.44,
+    "stars_per_day": 350.4,
+    "lifetime_stars_per_day": 623.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "patch-gg/pixelfx",
-    "readme_chars": 11168,
+    "readme_chars": 11933,
     "capabilities": [
       "billing-metering",
-      "skills-plugins"
+      "skills-plugins",
+      "agent-runtime"
     ],
     "capability_evidence": {
       "billing-metering": "iming is plain data: read slash.act, or meta.pixelfx.act in a sprite sheet's",
-      "skills-plugins": "e) gives you each part drawn on its own."
+      "skills-plugins": "e) gives you each part drawn on its own.",
+      "agent-runtime": ""
     },
     "capability_hits": {
       "billing-metering": 1,
-      "skills-plugins": 1
+      "skills-plugins": 1,
+      "agent-runtime": 1
     },
     "friction": {
-      "level": "low",
-      "score": 30,
-      "out_of_the_box": false,
+      "level": "turnkey",
+      "score": 16,
+      "out_of_the_box": true,
       "non_programmer_friendly": false,
-      "easy_signals": [],
+      "easy_signals": [
+        "curl | sh installer"
+      ],
       "hard_signals": [],
       "config_signals": [],
       "friendliness_signals": [],
       "platforms": [
+        "Windows",
         "Web"
       ],
-      "note_en": "Easy. No setup signals found in the README.",
-      "note_zh": "较易上手。README 中没有找到安装/配置说明。"
+      "note_en": "Turnkey. install via curl | sh installer",
+      "note_zh": "开箱即用。可通过 curl | sh installer 安装"
     },
-    "doc_score": 29,
+    "doc_score": 42,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
+      "has a quick-start section",
       "documents installation",
-      "mentions licensing"
+      "mentions licensing",
+      "links to dedicated docs"
     ],
     "agents": [
       "Claude Code"
     ],
     "summary_en": "244 pixel art effects and animations, every one a small piece of code.",
     "summary_zh": "",
-    "install_hint": "",
+    "install_hint": "npm i -g @patchgg/cli      # or: curl -fsSL https://patch.gg/install.sh | sh",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.448
+      "external_link_ratio": 0.67
     },
     "highlights": [
       "Seeded everything. Every random number comes from the effect's seed, so frame 40 is the same every time."
@@ -108,9 +116,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:30+00:00",
+  "fetched_at": "2026-11-09T12:54:11+00:00",
   "categories": [
-    "billing-2"
+    "billing-2",
+    "desktop-ui"
   ],
   "primary_category": "billing-2",
   "lifecycle": {

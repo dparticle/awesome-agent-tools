@@ -6,8 +6,8 @@
   "url": "https://github.com/phuryn/pm-skills",
   "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
   "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
-  "stars": 27768,
-  "forks": 2873,
+  "stars": 27803,
+  "forks": 2875,
   "open_issues": 49,
   "language": "",
   "license": "MIT",
@@ -21,33 +21,33 @@
     "product-management"
   ],
   "created_at": "2026-03-01T23:33:44Z",
-  "updated_at": "2026-11-08T10:46:02Z",
-  "pushed_at": "2026-10-29T19:09:57Z",
+  "updated_at": "2026-11-09T12:46:58Z",
+  "pushed_at": "2026-11-08T23:10:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 251,
-  "days_since_push": 9,
-  "health_score": 65,
+  "age_days": 252,
+  "days_since_push": 0,
+  "health_score": 67,
   "health_components": {
     "popularity": 88.9,
-    "momentum": 19.8,
-    "maintenance": 92.0,
+    "momentum": 20.5,
+    "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 119,
+    "stars_gained": 123,
     "days_span": 5,
-    "stars_per_day": 23.8,
-    "lifetime_stars_per_day": 110.63,
+    "stars_per_day": 24.6,
+    "lifetime_stars_per_day": 110.33,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "phuryn/pm-skills",
-    "readme_chars": 25345,
+    "readme_chars": 25918,
     "capabilities": [
       "usage-analytics",
       "skills-plugins",
@@ -117,7 +117,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.947
+      "external_link_ratio": 0.926
     },
     "highlights": [
       "monetization-strategy — Brainstorm 3–5 monetization strategies with validation experiments",
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:02+00:00",
+  "fetched_at": "2026-11-09T12:54:38+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -161,13 +161,13 @@
         "usage-analytics"
       ],
       "star_ratio": 1.777,
-      "momentum_ratio": 2.244,
+      "momentum_ratio": 2.146,
       "setup_delta": 3,
-      "dominance": 0.766,
+      "dominance": 0.761,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.78x the stars (49,346 vs 27,768)",
-        "2.24x the star velocity (53.4/day vs 23.8/day)",
+        "1.78x the stars (49,393 vs 27,803)",
+        "2.15x the star velocity (52.8/day vs 24.6/day)",
         "slightly heavier setup (+3 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -194,7 +194,7 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 65,
+        "incumbent_health": 67,
         "challenger_health": 78,
         "incumbent_setup_score": 27,
         "challenger_setup_score": 30

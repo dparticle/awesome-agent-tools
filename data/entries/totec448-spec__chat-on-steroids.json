@@ -24,53 +24,62 @@
     "windows"
   ],
   "created_at": "2026-08-22T14:16:24Z",
-  "updated_at": "2026-11-08T10:52:23Z",
-  "pushed_at": "2026-11-08T10:52:17Z",
+  "updated_at": "2026-11-09T12:40:48Z",
+  "pushed_at": "2026-11-09T12:40:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 77,
+  "age_days": 78,
   "days_since_push": 0,
-  "health_score": 55,
+  "health_score": 56,
   "health_components": {
     "popularity": 74.2,
     "momentum": 2.3,
     "maintenance": 100.0,
-    "documentation": 33.0,
-    "accessibility": 72.0
+    "documentation": 26.0,
+    "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 14,
     "days_span": 5,
     "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 66.83,
+    "lifetime_stars_per_day": 65.97,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "totec448-spec/chat-on-steroids",
-    "readme_chars": 8362,
+    "readme_chars": 10754,
     "capabilities": [
       "auto-failover",
+      "remote-control",
+      "mobile-access",
       "mcp-support",
-      "gui-desktop"
+      "gui-desktop",
+      "notifications"
     ],
     "capability_evidence": {
       "auto-failover": "r, chats and the browser connection wait, and the app says so.",
+      "remote-control": "",
+      "mobile-access": "",
       "mcp-support": "tion that the provider blocked for safety.",
-      "gui-desktop": ""
+      "gui-desktop": "",
+      "notifications": "urself and mark it done; the app never runs it."
     },
     "capability_hits": {
       "auto-failover": 1,
+      "remote-control": 1,
+      "mobile-access": 1,
       "mcp-support": 4,
-      "gui-desktop": 1
+      "gui-desktop": 1,
+      "notifications": 1
     },
     "friction": {
       "level": "low",
-      "score": 28,
+      "score": 21,
       "out_of_the_box": false,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [
         "native installer / package"
       ],
@@ -79,19 +88,20 @@
         "API key configuration",
         "sign-in required"
       ],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
       "platforms": [
         "macOS",
         "Windows",
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via native installer / package; configure API key configuration, sign-in required",
-      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 API key configuration、sign-in required"
+      "note_en": "Easy. install via native installer / package; configure API key configuration, sign-in required; one-click setup",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 API key configuration、sign-in required；one-click setup"
     },
-    "doc_score": 33,
+    "doc_score": 26,
     "doc_signals": [
-      "contains screenshots/diagrams",
       "has section headings",
       "documents installation",
       "has contribution guidance",
@@ -109,13 +119,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.598
+      "external_link_ratio": 0.465
     },
     "highlights": [
       "Connect Core (steps 4–7): create a tunnel and a restricted API key at OpenAI, press Connect, then add the app in ChatGPT under Plugins → Add → Add custom MCP server.",
       "Share a folder and choose access (steps 2–3): the folder ChatGPT may work in, and what it may do there.",
-      "Respect limits and access decisions.",
-      "Unsigned beta: Windows is not publisher-signed; macOS is unsigned and unnotarized."
+      "Skills, plugins and pets, 13 languages, light and dark.",
+      "Respect limits and access decisions."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -126,11 +136,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:31+00:00",
+  "fetched_at": "2026-11-09T12:54:12+00:00",
   "categories": [
-    "sharing"
+    "mcp-security",
+    "mobile"
   ],
-  "primary_category": "sharing",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

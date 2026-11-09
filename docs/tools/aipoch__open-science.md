@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,492 |
-| Star velocity | 11.4/day (history basis, 5d span) |
-| Health score | 64/100 |
-| Documentation | 84/100 |
+| Stars | 5,501 |
+| Star velocity | 10.8/day (history basis, 5d span) |
+| Health score | 62/100 |
+| Documentation | 76/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 52,615 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 39,016 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,11 +36,11 @@
 
 ### Skills & plugins
 
-> fers to the skill, not to the availability of every registered host.
+> g resources for your analysis.
 
 ### MCP support
 
-> orkspace on a phone or tablet over local WiFi or a Pinggy tunnel; internet traffic passes through Pinggy’s servers.
+> cts, output formats, and exit codes
 
 ### Security & isolation
 
@@ -60,7 +60,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 35/100)
+- **Difficulty:** 🟡 Some setup (friction score 41/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install --cask open-science`
@@ -69,13 +69,13 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, OAuth login flow, sign-in required, database dependency
+**Configuration required:** API key configuration, OAuth login flow, sign-in required, database dependency, server/reverse-proxy setup
 
-*Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; one-click setup*
+*Some setup. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; no-code positioning*
 
 ## Documentation quality
 
-Score **84/100**, based on these detected signals:
+Score **76/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -83,10 +83,8 @@ Score **84/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
-- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
-- has a table of contents
 - has a Chinese translation
 - documents changes
 - publishes a roadmap
@@ -98,10 +96,10 @@ Score **84/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.8 |
-| momentum | 9.5 |
+| momentum | 9.0 |
 | maintenance | 100.0 |
-| documentation | 84.0 |
-| accessibility | 65.0 |
+| documentation | 76.0 |
+| accessibility | 59.0 |
 
 ---
 

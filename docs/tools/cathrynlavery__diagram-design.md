@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 65,751 |
-| Star velocity | 244.6/day (history basis, 5d span) |
+| Stars | 66,008 |
+| Star velocity | 229.6/day (history basis, 5d span) |
 | Health score | 91/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | HTML |
 | Created | 2026-04-16 |
-| Last push | 2026-11-06 (1 days ago) |
-| Analyzed README | 52,664 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 52,812 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Billing & metering
 
-> rs bubble, beeswarm and box plot; Treemap covers marimekko.
+> t; Treemap covers marimekko; Dependency covers arc diagram.
 
 ### Skills & plugins
 

@@ -17,12 +17,14 @@
 | Health score | 52/100 |
 | Documentation | 73/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Rust |
 | Created | 2025-03-08 |
-| Last push | 2026-11-01 (6 days ago) |
+| Last push | 2026-11-01 (7 days ago) |
 | Analyzed README | 29,300 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [aipoch/open-science](https://github.com/aipoch/open-science)** — Superseded by aipoch/open-science: covers 100% of capabilities (5/5).
 
 ## What it solves
 

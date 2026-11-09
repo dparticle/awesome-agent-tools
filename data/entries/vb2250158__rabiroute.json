@@ -32,12 +32,12 @@
     "workflow-automation"
   ],
   "created_at": "2026-06-01T09:40:16Z",
-  "updated_at": "2026-11-07T19:30:45Z",
-  "pushed_at": "2026-11-07T19:30:41Z",
+  "updated_at": "2026-11-09T07:43:04Z",
+  "pushed_at": "2026-11-09T07:43:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 160,
+  "age_days": 161,
   "days_since_push": 0,
   "health_score": 54,
   "health_components": {
@@ -52,7 +52,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.08,
+    "lifetime_stars_per_day": 3.06,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,11 +128,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:55+00:00",
+  "fetched_at": "2026-11-09T12:55:28+00:00",
   "categories": [
-    "teams"
+    "analytics-3"
   ],
-  "primary_category": "teams",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "active",
     "note_en": "",

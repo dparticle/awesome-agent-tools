@@ -6,9 +6,9 @@
   "url": "https://github.com/lidge-jun/opencodex",
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
   "homepage": "https://opencodex.me/",
-  "stars": 18301,
-  "forks": 1453,
-  "open_issues": 188,
+  "stars": 18315,
+  "forks": 1456,
+  "open_issues": 166,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,39 +34,40 @@
     "typescript"
   ],
   "created_at": "2026-06-18T23:03:18Z",
-  "updated_at": "2026-11-08T11:16:54Z",
-  "pushed_at": "2026-11-08T11:16:51Z",
+  "updated_at": "2026-11-09T11:47:49Z",
+  "pushed_at": "2026-11-09T11:47:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 142,
+  "age_days": 143,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
-    "popularity": 85.2,
-    "momentum": 19.5,
+    "popularity": 85.3,
+    "momentum": 19.3,
     "maintenance": 100.0,
-    "documentation": 54.0,
+    "documentation": 55.0,
     "accessibility": 58.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 117,
+    "stars_gained": 116,
     "days_span": 5,
-    "stars_per_day": 23.4,
-    "lifetime_stars_per_day": 128.88,
+    "stars_per_day": 23.2,
+    "lifetime_stars_per_day": 128.08,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "lidge-jun/opencodex",
-    "readme_chars": 22121,
+    "readme_chars": 23177,
     "capabilities": [
       "multi-account-switching",
       "auto-failover",
       "multi-agent-orchestration",
       "model-routing",
       "api-gateway",
+      "usage-analytics",
       "agent-runtime",
       "self-hosted",
       "gui-desktop",
@@ -78,6 +79,7 @@
       "multi-agent-orchestration": "### Claude Desktop, running any model Opus answers, then hands the task to a GPT-5.6 Sol subagent. ### Grok Build, running any model Sol drives the session and calls a Kimi K3 subagent. English · Français · 한국어 · 简体中文 ·…",
       "model-routing": "vision sidecars** — non-OpenAI models get real web search and image understanding",
       "api-gateway": "ystem One-compatible server.",
+      "usage-analytics": "erson installing or operating it has seen the notice in the dashboard or an interactive CLI prompt and has not declined.",
       "agent-runtime": ", Claude Code, Claude Desktop and Grok Build,",
       "self-hosted": "e first currently eligible target; caller",
       "gui-desktop": "run prepare-sidecar && bun run prepare-widget && bun run build:local on macOS,",
@@ -89,6 +91,7 @@
       "multi-agent-orchestration": 6,
       "model-routing": 3,
       "api-gateway": 2,
+      "usage-analytics": 1,
       "agent-runtime": 1,
       "self-hosted": 2,
       "gui-desktop": 5,
@@ -125,7 +128,7 @@
       "note_en": "Some setup. install via global npm install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; GUI application",
       "note_zh": "需要一些配置。可通过 global npm install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；GUI application"
     },
-    "doc_score": 54,
+    "doc_score": 55,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -146,13 +149,13 @@
     ],
     "summary_en": "and connect OpenCode, Pi, Qoder, WorkBuddy, Kilo, Cline, T3 Code and more through managed configs.",
     "summary_zh": "",
-    "install_hint": "npm install -g @bitkyc08/opencodex",
+    "install_hint": "npm install -g --allow-scripts=bun @bitkyc08/opencodex",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.221
+      "external_link_ratio": 1.208
     },
     "highlights": [
       "31 state-store registrations handle expiry sweeps (60 s interval) and",
@@ -169,7 +172,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:17+00:00",
+  "fetched_at": "2026-11-09T12:54:00+00:00",
   "categories": [
     "billing",
     "desktop-ui-2",

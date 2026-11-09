@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15654,
-  "forks": 1945,
-  "open_issues": 1023,
+  "stars": 15660,
+  "forks": 1947,
+  "open_issues": 1021,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,27 +18,27 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-11-08T09:31:22Z",
-  "pushed_at": "2026-11-08T11:06:47Z",
+  "updated_at": "2026-11-09T10:23:54Z",
+  "pushed_at": "2026-11-09T04:24:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 101,
+  "age_days": 102,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 56,
   "health_components": {
     "popularity": 83.9,
-    "momentum": 6.3,
+    "momentum": 4.2,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 38,
+    "stars_gained": 25,
     "days_span": 5,
-    "stars_per_day": 7.6,
-    "lifetime_stars_per_day": 154.99,
+    "stars_per_day": 5.0,
+    "lifetime_stars_per_day": 153.53,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -145,13 +145,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:18+00:00",
+  "fetched_at": "2026-11-09T12:54:01+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile",
-    "model-routing"
+    "isolation-teams",
+    "mcp-security"
   ],
-  "primary_category": "mobile",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).",
@@ -179,14 +179,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 7.165,
-      "momentum_ratio": 38.368,
+      "star_ratio": 7.184,
+      "momentum_ratio": 60.88,
       "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "7.16x the stars (112,157 vs 15,654)",
-        "38.37x the star velocity (291.6/day vs 7.6/day)",
+        "7.18x the stars (112,494 vs 15,660)",
+        "60.88x the star velocity (304.4/day vs 5.0/day)",
         "no harder to set up (45 vs 72 friction)"
       ],
       "reasons_zh": [],
@@ -222,7 +222,7 @@
           "usage-analytics",
           "worktree-isolation"
         ],
-        "incumbent_health": 57,
+        "incumbent_health": 56,
         "challenger_health": 89,
         "incumbent_setup_score": 72,
         "challenger_setup_score": 45

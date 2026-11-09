@@ -6,9 +6,9 @@
   "url": "https://github.com/Louis-CFM/coucou",
   "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
   "homepage": "https://louis-cfm.github.io/coucou/",
-  "stars": 7052,
-  "forks": 1155,
-  "open_issues": 461,
+  "stars": 7077,
+  "forks": 1162,
+  "open_issues": 460,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "windows"
   ],
   "created_at": "2026-09-27T21:54:12Z",
-  "updated_at": "2026-11-08T11:15:56Z",
+  "updated_at": "2026-11-09T12:38:58Z",
   "pushed_at": "2026-11-06T13:51:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 41,
-  "days_since_push": 1,
+  "age_days": 42,
+  "days_since_push": 2,
   "health_score": 66,
   "health_components": {
     "popularity": 77.0,
-    "momentum": 22.2,
+    "momentum": 21.0,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 71.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 133,
+    "stars_gained": 126,
     "days_span": 5,
-    "stars_per_day": 26.6,
-    "lifetime_stars_per_day": 172.0,
+    "stars_per_day": 25.2,
+    "lifetime_stars_per_day": 168.5,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -177,11 +177,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:27+00:00",
+  "fetched_at": "2026-11-09T12:54:08+00:00",
   "categories": [
     "desktop-ui-2",
-    "mobile",
-    "model-routing"
+    "mcp-security",
+    "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {

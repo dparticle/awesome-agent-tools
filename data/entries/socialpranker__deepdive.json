@@ -8,7 +8,7 @@
   "homepage": "https://socialpranker.github.io/deepdive/",
   "stars": 365,
   "forks": 6,
-  "open_issues": 3,
+  "open_issues": 4,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -29,12 +29,12 @@
     "research-methodology"
   ],
   "created_at": "2026-05-21T11:43:13Z",
-  "updated_at": "2026-11-06T18:31:32Z",
-  "pushed_at": "2026-11-08T09:54:30Z",
+  "updated_at": "2026-11-09T08:26:25Z",
+  "pushed_at": "2026-11-09T12:46:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 170,
+  "age_days": 172,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
@@ -47,9 +47,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 365,
-    "days_span": 170,
-    "stars_per_day": 2.15,
-    "lifetime_stars_per_day": 2.15,
+    "days_span": 172,
+    "stars_per_day": 2.12,
+    "lifetime_stars_per_day": 2.12,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:20:08+00:00",
+  "fetched_at": "2026-11-09T12:55:39+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -162,14 +162,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 135.195,
-      "momentum_ratio": 24.837,
+      "star_ratio": 135.323,
+      "momentum_ratio": 24.906,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "135.19x the stars (49,346 vs 365)",
-        "24.84x the star velocity (53.4/day vs 2.1/day)",
+        "135.32x the stars (49,393 vs 365)",
+        "24.91x the star velocity (52.8/day vs 2.1/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],

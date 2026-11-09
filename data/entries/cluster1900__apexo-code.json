@@ -31,8 +31,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 165,
-  "days_since_push": 4,
+  "age_days": 166,
+  "days_since_push": 5,
   "health_score": 47,
   "health_components": {
     "popularity": 49.6,
@@ -46,7 +46,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.84,
+    "lifetime_stars_per_day": 1.83,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -156,84 +156,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:20:17+00:00",
+  "fetched_at": "2026-11-09T12:55:48+00:00",
   "categories": [
     "desktop-ui-2",
-    "model-routing",
-    "teams"
+    "memory-failover",
+    "sharing"
   ],
-  "primary_category": "teams",
+  "primary_category": "sharing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "cluster1900/apexo-code",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "cluster1900/apexo-code",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "api-gateway",
-        "gui-desktop",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration",
-        "self-hosted",
-        "session-persistence"
-      ],
-      "star_ratio": 99.66,
-      "momentum_ratio": 356.0,
-      "setup_delta": -16,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "99.66x the stars (30,197 vs 303)",
-        "356.00x the star velocity (17.8/day vs 0.0/day)",
-        "no harder to set up (32 vs 48 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "gui-desktop",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "self-hosted",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 68,
-        "incumbent_setup_score": 48,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -2,7 +2,7 @@
 
 # CopilotKit/OpenBot
 
-> OpenBot is a self-hostable workspace for AI coworkers.
+> A modular, self-hostable workspace for AI coworkers.
 
 [Repository](https://github.com/CopilotKit/OpenBot) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,432 |
-| Star velocity | 92.4/day (history basis, 5d span) |
-| Health score | 80/100 |
-| Documentation | 69/100 |
-| Tier | 🏆 Flagship |
+| Stars | 10,530 |
+| Star velocity | 89.2/day (history basis, 5d span) |
+| Health score | 77/100 |
+| Documentation | 74/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 35,363 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 45,647 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,6 +31,8 @@
 > et responses and the rest get chat.
 
 ### Model / provider routing
+
+### API gateway / proxy
 
 ### Session persistence
 
@@ -46,30 +48,26 @@
 
 > Defaults to ../examples/fintech.
 
-### GUI / desktop app
-
-> your own coworkers, channels, and skills.
-
 ### Notifications
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 33/100)
+- **Difficulty:** 🟡 Some setup (friction score 58/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx --yes copilotkit@latest login`
 
 **Signals that make it easy:** npx one-liner, native installer / package
 
-**Signals that add work:** docker run
+**Signals that add work:** docker run, helm install, git clone (build from source)
 
 **Configuration required:** sign-in required, database dependency, server/reverse-proxy setup, process manager
 
-*Easy. install via npx one-liner, native installer / package; needs docker run; configure sign-in required, database dependency; GUI application*
+*Some setup. install via npx one-liner, native installer / package; needs docker run, helm install; configure sign-in required, database dependency*
 
 ## Documentation quality
 
-Score **69/100**, based on these detected signals:
+Score **74/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -77,6 +75,7 @@ Score **69/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
+- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
@@ -88,10 +87,10 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.4 |
-| momentum | 77.0 |
+| momentum | 74.3 |
 | maintenance | 100.0 |
-| documentation | 69.0 |
-| accessibility | 67.0 |
+| documentation | 74.0 |
+| accessibility | 42.0 |
 
 ---
 

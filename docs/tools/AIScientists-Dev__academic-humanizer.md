@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,767 |
-| Star velocity | 26.9/day (lifetime basis, 140d span) |
+| Stars | 3,881 |
+| Star velocity | 27.5/day (lifetime basis, 141d span) |
 | Health score | 47/100 |
 | Documentation | 35/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-06-20 |
-| Last push | 2026-07-03 (128 days ago) |
+| Last push | 2026-07-03 (129 days ago) |
 | Analyzed README | 6,185 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -56,8 +56,8 @@ Score **35/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.5 |
-| momentum | 22.4 |
+| popularity | 71.8 |
+| momentum | 22.9 |
 | maintenance | 55.0 |
 | documentation | 35.0 |
 | accessibility | 43.0 |

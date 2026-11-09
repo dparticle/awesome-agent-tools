@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "full_name": "qybaihe/bla",
+  "name": "bla",
+  "owner": "qybaihe",
+  "url": "https://github.com/qybaihe/bla",
+  "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+  "homepage": "https://bla.tools",
+  "stars": 4110,
+  "forks": 503,
+  "open_issues": 9,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "adversarial-ai",
+    "claude-code",
+    "cursor",
+    "electron-security",
+    "llm-security",
+    "mcp",
+    "mcp-server",
+    "obfuscation",
+    "reverse-engineering",
+    "webassembly"
+  ],
+  "created_at": "2026-10-25T05:25:45Z",
+  "updated_at": "2026-11-09T12:50:51Z",
+  "pushed_at": "2026-11-09T06:23:35Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 15,
+  "days_since_push": 0,
+  "health_score": 85,
+  "health_components": {
+    "popularity": 72.3,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 77.0,
+    "accessibility": 68.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 4110,
+    "days_span": 15,
+    "stars_per_day": 274.0,
+    "lifetime_stars_per_day": 274.0,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "qybaihe/bla",
+    "readme_chars": 21723,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "agent-runtime",
+      "mcp-support",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ur coding agent (**Claude Code, Cursor, Codex, Windsurf, Gemini CLI, GitHub Copilot CLI, VS Code, OpenCode, Antigravity**):",
+      "agent-runtime": "al property and release artifacts.",
+      "mcp-support": "aliano · Ελληνικά · മലയാളം · Roman Urdu · Română",
+      "gui-desktop": "et Breakers) Trips exact analyzer limits (primitive-candidates, alias-selections, ASAR 16 MiB header, WASM Wabt representation, SQLite virtual column eval, Model 32-level nesting, PCAP tshark JSON, Electron 32 fuse sent…",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "agent-runtime": 5,
+      "mcp-support": 7,
+      "gui-desktop": 1,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "low",
+      "score": 32,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [
+        "npm install/build",
+        "go build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "Linux",
+        "Android"
+      ],
+      "note_en": "Easy. install via npx one-liner; needs npm install/build, go build; configure config.json/yaml/toml, database dependency; one-click setup",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 npm install/build、go build；需配置 config.json/yaml/toml、database dependency；one-click setup"
+    },
+    "doc_score": 77,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu · Română",
+    "summary_zh": "",
+    "install_hint": "npx bla-agents harden .",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.783
+    },
+    "highlights": [
+      "🛠️ CLI & 25-Tool MCP Catalog"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-09T12:54:16+00:00",
+  "categories": [
+    "desktop-ui",
+    "desktop-ui-2",
+    "mcp-security"
+  ],
+  "primary_category": "mcp-security",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

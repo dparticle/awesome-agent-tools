@@ -6,9 +6,9 @@
   "url": "https://github.com/Lampese/codex-switcher",
   "description": "A Desktop Application for Managing Multiple OpenAI Codex CLI Accounts",
   "homepage": "",
-  "stars": 921,
+  "stars": 923,
   "forks": 164,
-  "open_issues": 80,
+  "open_issues": 81,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -21,46 +21,49 @@
     "vibe-coding"
   ],
   "created_at": "2026-01-14T02:44:13Z",
-  "updated_at": "2026-11-08T08:55:09Z",
-  "pushed_at": "2026-11-01T19:01:32Z",
+  "updated_at": "2026-11-09T09:43:57Z",
+  "pushed_at": "2026-11-09T09:43:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 298,
-  "days_since_push": 6,
+  "age_days": 299,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 59.3,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 100.0,
-    "documentation": 33.0,
+    "documentation": 34.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.8,
     "lifetime_stars_per_day": 3.09,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Lampese/codex-switcher",
-    "readme_chars": 9292,
+    "readme_chars": 11833,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
+      "multi-agent-orchestration",
       "gui-desktop"
     ],
     "capability_evidence": {
       "multi-account-switching": "ew real-time 5-hour session and weekly usage, reset timing, credits, and subscription expiry",
       "quota-management": "nnel when you expose the chosen port safely.",
+      "multi-agent-orchestration": "ble *Auto-resume interrupted conversations after switching* in Settings or the close-and-switch confirmation dialog.",
       "gui-desktop": "update package is available, the app shows an update prompt and can install it from inside the app. ### Build from Source #### Prerequisites - Node.js (v18+) - pnpm - Rust > Windows: the pnpm tauri script runs through a…"
     },
     "capability_hits": {
-      "multi-account-switching": 3,
+      "multi-account-switching": 4,
       "quota-management": 3,
+      "multi-agent-orchestration": 1,
       "gui-desktop": 8
     },
     "friction": {
@@ -93,7 +96,7 @@
       "note_en": "Easy. install via download a release binary, native installer / package; needs git clone (build from source), pnpm install/build; configure environment variables, OAuth login flow; GUI application",
       "note_zh": "较易上手。可通过 download a release binary、native installer / package 安装；需要 git clone (build from source)、pnpm install/build；需配置 environment variables、OAuth login flow；GUI application"
     },
-    "doc_score": 33,
+    "doc_score": 34,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -113,13 +116,13 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.538
+      "external_link_ratio": 0.423
     },
     "highlights": [
       "Timed – pick specific times of day (e.g.",
       "Rate-Limit Monitoring – View real-time 5-hour session and weekly usage, reset timing, credits, and subscription expiry",
-      "macOS Dock Control – Keep Codex Switcher in the Dock or run it as a menu bar only app, with a first-close prompt and a tray fallback",
-      "Usage Stats – View account usage stats for OAuth accounts, including lifetime tokens, daily buckets, streaks, activity insights, and top integrations"
+      "Conversation Recovery – Optionally continue quota-stopped chats and running macOS chats interrupted by account switching",
+      "macOS Dock Control – Keep Codex Switcher in the Dock or run it as a menu bar only app, with a first-close prompt and a tray fallback"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -130,16 +133,66 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:37+00:00",
+  "fetched_at": "2026-11-09T12:55:08+00:00",
   "categories": [
-    "billing"
+    "billing",
+    "desktop-ui-2"
   ],
   "primary_category": "billing",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by yetone/magpie: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 yetone/magpie 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "yetone/magpie",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "lampese/codex-switcher",
+      "challenger": "yetone/magpie",
+      "incumbent_name": "Lampese/codex-switcher",
+      "challenger_name": "yetone/magpie",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "multi-account-switching",
+        "multi-agent-orchestration",
+        "quota-management"
+      ],
+      "star_ratio": 35.657,
+      "momentum_ratio": 843.5,
+      "setup_delta": -25,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "35.66x the stars (32,911 vs 923)",
+        "843.50x the star velocity (674.8/day vs 0.8/day)",
+        "no harder to set up (11 vs 36 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "quota-management"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "quota-management"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 91,
+        "incumbent_setup_score": 36,
+        "challenger_setup_score": 11
+      }
+    }
   }
 }

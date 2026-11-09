@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "open.bot",
-  "stars": 10432,
-  "forks": 1301,
-  "open_issues": 88,
+  "stars": 10530,
+  "forks": 1313,
+  "open_issues": 81,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,66 +21,66 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-08T11:15:19Z",
-  "pushed_at": "2026-11-08T11:15:33Z",
+  "updated_at": "2026-11-09T12:50:21Z",
+  "pushed_at": "2026-11-09T12:28:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 83,
+  "age_days": 84,
   "days_since_push": 0,
-  "health_score": 80,
+  "health_score": 77,
   "health_components": {
     "popularity": 80.4,
-    "momentum": 77.0,
+    "momentum": 74.3,
     "maintenance": 100.0,
-    "documentation": 69.0,
-    "accessibility": 67.0
+    "documentation": 74.0,
+    "accessibility": 42.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 462,
+    "stars_gained": 446,
     "days_span": 5,
-    "stars_per_day": 92.4,
-    "lifetime_stars_per_day": 125.69,
+    "stars_per_day": 89.2,
+    "lifetime_stars_per_day": 125.36,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 35363,
+    "readme_chars": 45647,
     "capabilities": [
       "auto-failover",
       "model-routing",
+      "api-gateway",
       "session-persistence",
       "mcp-support",
       "security-isolation",
       "self-hosted",
-      "gui-desktop",
       "notifications"
     ],
     "capability_evidence": {
       "auto-failover": "et responses and the rest get chat.",
       "model-routing": "",
+      "api-gateway": "",
       "session-persistence": "",
       "mcp-support": "- **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account, each reached as the p",
       "security-isolation": "who gets in**: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.",
       "self-hosted": "Defaults to ../examples/fintech.",
-      "gui-desktop": "your own coworkers, channels, and skills.",
       "notifications": ""
     },
     "capability_hits": {
       "auto-failover": 1,
-      "model-routing": 1,
+      "model-routing": 2,
+      "api-gateway": 1,
       "session-persistence": 1,
-      "mcp-support": 2,
+      "mcp-support": 3,
       "security-isolation": 2,
       "self-hosted": 5,
-      "gui-desktop": 1,
       "notifications": 1
     },
     "friction": {
-      "level": "low",
-      "score": 33,
+      "level": "moderate",
+      "score": 58,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -88,7 +88,9 @@
         "native installer / package"
       ],
       "hard_signals": [
-        "docker run"
+        "docker run",
+        "helm install",
+        "git clone (build from source)"
       ],
       "config_signals": [
         "sign-in required",
@@ -96,19 +98,19 @@
         "server/reverse-proxy setup",
         "process manager"
       ],
-      "friendliness_signals": [
-        "GUI application"
-      ],
+      "friendliness_signals": [],
       "platforms": [
         "macOS",
         "Windows",
         "Linux",
+        "iOS",
+        "Android",
         "Web"
       ],
-      "note_en": "Easy. install via npx one-liner, native installer / package; needs docker run; configure sign-in required, database dependency; GUI application",
-      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 docker run；需配置 sign-in required、database dependency；GUI application"
+      "note_en": "Some setup. install via npx one-liner, native installer / package; needs docker run, helm install; configure sign-in required, database dependency",
+      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 docker run、helm install；需配置 sign-in required、database dependency"
     },
-    "doc_score": 69,
+    "doc_score": 74,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -116,6 +118,7 @@
       "has a quick-start section",
       "documents installation",
       "documents configuration",
+      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
@@ -123,7 +126,7 @@
       "long, detailed README"
     ],
     "agents": [],
-    "summary_en": "OpenBot is a self-hostable workspace for AI coworkers.",
+    "summary_en": "A modular, self-hostable workspace for AI coworkers.",
     "summary_zh": "",
     "install_hint": "npx --yes copilotkit@latest login",
     "source": "raw:HEAD/README.md",
@@ -133,7 +136,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.594
+      "external_link_ratio": 0.92
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -150,13 +153,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:18:22+00:00",
+  "fetched_at": "2026-11-09T12:54:04+00:00",
   "categories": [
     "analytics-3",
     "mcp-security",
-    "teams"
+    "sharing"
   ],
-  "primary_category": "teams",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,8 +6,8 @@
   "url": "https://github.com/WenyuChiou/ai-research-skills",
   "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
   "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
-  "stars": 609,
-  "forks": 42,
+  "stars": 642,
+  "forks": 43,
   "open_issues": 1,
   "language": "Python",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "zotero"
   ],
   "created_at": "2026-04-25T17:46:37Z",
-  "updated_at": "2026-11-08T10:52:30Z",
-  "pushed_at": "2026-11-07T19:50:57Z",
+  "updated_at": "2026-11-09T12:40:03Z",
+  "pushed_at": "2026-11-09T01:46:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 196,
+  "age_days": 197,
   "days_since_push": 0,
   "health_score": 58,
   "health_components": {
-    "popularity": 55.7,
-    "momentum": 9.5,
+    "popularity": 56.2,
+    "momentum": 8.2,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 57,
+    "stars_gained": 49,
     "days_span": 5,
-    "stars_per_day": 11.4,
-    "lifetime_stars_per_day": 3.11,
+    "stars_per_day": 9.8,
+    "lifetime_stars_per_day": 3.26,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:45+00:00",
+  "fetched_at": "2026-11-09T12:55:19+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -181,14 +181,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 81.028,
-      "momentum_ratio": 4.684,
+      "star_ratio": 76.936,
+      "momentum_ratio": 5.388,
       "setup_delta": 8,
-      "dominance": 0.952,
+      "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "81.03x the stars (49,346 vs 609)",
-        "4.68x the star velocity (53.4/day vs 11.4/day)",
+        "76.94x the stars (49,393 vs 642)",
+        "5.39x the star velocity (52.8/day vs 9.8/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],

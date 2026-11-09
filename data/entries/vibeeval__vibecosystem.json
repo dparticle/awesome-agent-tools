@@ -29,13 +29,13 @@
     "vibecoding"
   ],
   "created_at": "2026-03-14T11:57:55Z",
-  "updated_at": "2026-11-07T19:02:29Z",
-  "pushed_at": "2026-11-04T22:18:11Z",
+  "updated_at": "2026-11-09T12:23:06Z",
+  "pushed_at": "2026-11-09T12:23:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 238,
-  "days_since_push": 3,
+  "age_days": 240,
+  "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 54.6,
@@ -47,15 +47,15 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 537,
-    "days_span": 238,
-    "stars_per_day": 2.26,
-    "lifetime_stars_per_day": 2.26,
+    "days_span": 240,
+    "stars_per_day": 2.24,
+    "lifetime_stars_per_day": 2.24,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "vibeeval/vibecosystem",
-    "readme_chars": 11676,
+    "readme_chars": 11848,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -123,7 +123,7 @@
     ],
     "summary_en": "A focused runtime for Claude Code.",
     "summary_zh": "",
-    "install_hint": "npx vibecosystem init --profile core",
+    "install_hint": "npx vibecosystem init",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
@@ -131,7 +131,7 @@
       "signals": [
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.6
+      "external_link_ratio": 0.591
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:50+00:00",
+  "fetched_at": "2026-11-09T12:55:24+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -170,14 +170,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 91.892,
-      "momentum_ratio": 23.628,
+      "star_ratio": 91.98,
+      "momentum_ratio": 23.571,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "91.89x the stars (49,346 vs 537)",
-        "23.63x the star velocity (53.4/day vs 2.3/day)",
+        "91.98x the stars (49,393 vs 537)",
+        "23.57x the star velocity (52.8/day vs 2.2/day)",
         "no harder to set up (30 vs 37 friction)"
       ],
       "reasons_zh": [],

@@ -6,8 +6,8 @@
   "url": "https://github.com/shx2005/codex-account-switcher",
   "description": "你是否厌倦了 Codex 多个账号之间来回切换？本地账号管理、官方登录、额度查询、快速切换与跨设备导入导出。Local Codex account profiles, login, usage, switching, and export/import.",
   "homepage": "",
-  "stars": 954,
-  "forks": 55,
+  "stars": 963,
+  "forks": 62,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -19,27 +19,27 @@
     "python"
   ],
   "created_at": "2026-10-03T14:38:55Z",
-  "updated_at": "2026-11-08T06:53:14Z",
+  "updated_at": "2026-11-09T11:01:14Z",
   "pushed_at": "2026-10-20T06:11:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 35,
-  "days_since_push": 19,
+  "age_days": 36,
+  "days_since_push": 20,
   "health_score": 51,
   "health_components": {
-    "popularity": 59.6,
-    "momentum": 14.7,
+    "popularity": 59.7,
+    "momentum": 12.5,
     "maintenance": 92.0,
     "documentation": 59.0,
     "accessibility": 25.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 88,
+    "stars_gained": 75,
     "days_span": 5,
-    "stars_per_day": 17.6,
-    "lifetime_stars_per_day": 27.26,
+    "stars_per_day": 15.0,
+    "lifetime_stars_per_day": 26.75,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -138,7 +138,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:35+00:00",
+  "fetched_at": "2026-11-09T12:55:06+00:00",
   "categories": [
     "analytics-3",
     "billing"
@@ -168,14 +168,14 @@
         "security-isolation",
         "self-hosted"
       ],
-      "star_ratio": 3.876,
-      "momentum_ratio": 3.686,
+      "star_ratio": 3.922,
+      "momentum_ratio": 4.341,
       "setup_delta": -33,
-      "dominance": 0.962,
+      "dominance": 0.982,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "3.88x the stars (3,698 vs 954)",
-        "3.69x the star velocity (64.9/day vs 17.6/day)",
+        "3.92x the stars (3,777 vs 963)",
+        "4.34x the star velocity (65.1/day vs 15.0/day)",
         "no harder to set up (42 vs 75 friction)"
       ],
       "reasons_zh": [],

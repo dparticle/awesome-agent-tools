@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 604 |
-| Star velocity | 2.2/day (history basis, 5d span) |
-| Health score | 54/100 |
-| Documentation | 45/100 |
-| Tier | 🔹 Notable |
+| Stars | 944 |
+| Star velocity | 69.6/day (history basis, 5d span) |
+| Health score | 68/100 |
+| Documentation | 46/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-08-19 |
-| Last push | 2026-11-06 (1 days ago) |
-| Analyzed README | 7,009 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 9,733 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### MCP support
 
-> The open-source AI security harness
+> source AI security harness
 
 ### GUI / desktop app
 
@@ -51,7 +51,7 @@
 
 ## Documentation quality
 
-Score **45/100**, based on these detected signals:
+Score **46/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -66,10 +66,10 @@ Score **45/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.6 |
-| momentum | 1.8 |
+| popularity | 59.5 |
+| momentum | 58.0 |
 | maintenance | 100.0 |
-| documentation | 45.0 |
+| documentation | 46.0 |
 | accessibility | 87.0 |
 
 ---

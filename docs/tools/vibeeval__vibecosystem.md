@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 537 |
-| Star velocity | 2.3/day (lifetime basis, 238d span) |
+| Star velocity | 2.2/day (lifetime basis, 240d span) |
 | Health score | 53/100 |
 | Documentation | 63/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | C# |
 | Created | 2026-03-14 |
-| Last push | 2026-11-04 (3 days ago) |
-| Analyzed README | 11,676 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 11,848 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).
 
@@ -51,7 +51,7 @@
 - **Difficulty:** 🟡 Some setup (friction score 37/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx vibecosystem init --profile core`
+- **Quickest install:** `npx vibecosystem init`
 
 **Signals that make it easy:** npx one-liner, native installer / package
 

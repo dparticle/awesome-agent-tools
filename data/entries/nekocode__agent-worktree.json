@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 276,
-  "days_since_push": 18,
+  "age_days": 277,
+  "days_since_push": 19,
   "health_score": 49,
   "health_components": {
     "popularity": 49.0,
@@ -130,27 +130,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:20:23+00:00",
+  "fetched_at": "2026-11-09T12:55:51+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "mobile"
+    "isolation-teams"
   ],
-  "primary_category": "mobile",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 Gentleman-Programming/gentle-shell 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "Gentleman-Programming/gentle-shell",
+    "note_en": "Superseded by asheshgoplani/agent-deck: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 asheshgoplani/agent-deck 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "asheshgoplani/agent-deck",
     "challenger": "",
     "supersede": {
       "incumbent": "nekocode/agent-worktree",
-      "challenger": "gentleman-programming/gentle-shell",
+      "challenger": "asheshgoplani/agent-deck",
       "incumbent_name": "nekocode/agent-worktree",
-      "challenger_name": "Gentleman-Programming/gentle-shell",
+      "challenger_name": "asheshgoplani/agent-deck",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +160,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 7.202,
-      "momentum_ratio": 1984.0,
-      "setup_delta": -10,
-      "dominance": 1.0,
+      "star_ratio": 4.379,
+      "momentum_ratio": 104.0,
+      "setup_delta": 8,
+      "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "7.20x the stars (2,031 vs 282)",
-        "1984.00x the star velocity (99.2/day vs 0.0/day)",
-        "no harder to set up (30 vs 40 friction)"
+        "4.38x the stars (1,235 vs 282)",
+        "104.00x the star velocity (5.2/day vs 0.0/day)",
+        "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -183,22 +183,27 @@
         "challenger_capabilities": [
           "agent-runtime",
           "auto-failover",
+          "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
           "model-routing",
+          "multi-account-switching",
           "multi-agent-orchestration",
           "notifications",
           "parallel-execution",
+          "quota-management",
           "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
           "skills-plugins",
-          "voice-input",
+          "usage-analytics",
           "worktree-isolation"
         ],
         "incumbent_health": 49,
-        "challenger_health": 77,
+        "challenger_health": 58,
         "incumbent_setup_score": 40,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 48
       }
     }
   }

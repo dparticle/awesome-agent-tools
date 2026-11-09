@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-21 |
-| Last push | 2026-07-30 (101 days ago) |
+| Last push | 2026-07-30 (102 days ago) |
 | Analyzed README | 16,146 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [zilliztech/memsearch](https://github.com/zilliztech/memsearch)** — Superseded by zilliztech/memsearch: covers 100% of capabilities (5/5).
 
 ## What it solves
 

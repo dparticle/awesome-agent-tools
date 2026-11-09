@@ -6,7 +6,7 @@
   "url": "https://github.com/FrancyJGLisboa/agent-skills-platform",
   "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
   "homepage": "https://francyjglisboa.github.io/agent-skills-platform/",
-  "stars": 2413,
+  "stars": 2414,
   "forks": 267,
   "open_issues": 4,
   "language": "Python",
@@ -24,17 +24,17 @@
     "skill-marketplace"
   ],
   "created_at": "2025-10-18T15:01:46Z",
-  "updated_at": "2026-11-06T05:32:08Z",
+  "updated_at": "2026-11-09T02:25:10Z",
   "pushed_at": "2026-09-15T17:31:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 385,
-  "days_since_push": 53,
-  "health_score": 51,
+  "age_days": 386,
+  "days_since_push": 54,
+  "health_score": 52,
   "health_components": {
     "popularity": 67.7,
-    "momentum": 0.1,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 42.0,
     "accessibility": 85.0
@@ -42,9 +42,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1,
-    "days_span": 6,
-    "stars_per_day": 0.17,
-    "lifetime_stars_per_day": 6.27,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 6.25,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:16+00:00",
+  "fetched_at": "2026-11-09T12:54:50+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

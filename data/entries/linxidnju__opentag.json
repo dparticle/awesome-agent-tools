@@ -33,23 +33,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 134,
-  "days_since_push": 121,
-  "health_score": 42,
+  "age_days": 135,
+  "days_since_push": 122,
+  "health_score": 41,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 3.1,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 53.0,
     "accessibility": 55.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 499,
-    "days_span": 134,
-    "stars_per_day": 3.72,
-    "lifetime_stars_per_day": 3.72,
-    "basis": "lifetime",
+    "stars_gained": 0,
+    "days_span": 5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 3.7,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -134,25 +134,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-08T11:19:54+00:00",
+  "fetched_at": "2026-11-09T12:55:28+00:00",
   "categories": [
     "mcp-security"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "kajisho5/ffmpeg-skill",
+    "note_en": "Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 microsoft/TokenEconomizer 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "microsoft/TokenEconomizer",
     "challenger": "",
     "supersede": {
       "incumbent": "linxidnju/opentag",
-      "challenger": "kajisho5/ffmpeg-skill",
+      "challenger": "microsoft/tokeneconomizer",
       "incumbent_name": "linxidnju/OpenTag",
-      "challenger_name": "kajisho5/ffmpeg-skill",
+      "challenger_name": "microsoft/TokenEconomizer",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +160,15 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 9.579,
-      "momentum_ratio": 19.14,
-      "setup_delta": 5,
-      "dominance": 0.975,
+      "star_ratio": 10.848,
+      "momentum_ratio": 4009.6,
+      "setup_delta": -9,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "9.58x the stars (4,780 vs 499)",
-        "19.14x the star velocity (71.2/day vs 3.7/day)",
-        "slightly heavier setup (+5 friction, within tolerance)"
+        "10.85x the stars (5,413 vs 499)",
+        "4009.60x the star velocity (200.5/day vs 0.0/day)",
+        "no harder to set up (36 vs 45 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,19 +180,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "auto-failover",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
           "multi-agent-orchestration",
+          "notifications",
           "security-isolation",
-          "skills-plugins",
-          "voice-input"
+          "session-persistence"
         ],
-        "incumbent_health": 42,
-        "challenger_health": 78,
+        "incumbent_health": 41,
+        "challenger_health": 83,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 50
+        "challenger_setup_score": 36
       }
     }
   }

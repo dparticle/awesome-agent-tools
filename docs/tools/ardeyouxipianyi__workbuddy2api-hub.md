@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,698 |
-| Star velocity | 64.9/day (lifetime basis, 57d span) |
+| Stars | 3,777 |
+| Star velocity | 65.1/day (lifetime basis, 58d span) |
 | Health score | 69/100 |
-| Documentation | 54/100 |
+| Documentation | 55/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-12 |
-| Last push | 2026-11-08 (0 days ago) |
-| Analyzed README | 16,313 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 19,828 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,11 +38,11 @@
 
 ### Mobile access
 
-> adge()，三种出口各回各的；「模型准入」的候选清单也补上 ?realm=codearts（它的 13 个模型与 intl / cn 完全不交集，以前一个都选不到、只能手填 id），绑定了出口的 Key 只列该出口的目录并在清单上方标出出口，未绑定（跟随面板切换）的才取全量；清单按出口分别缓存，不再由先打开的 Key 决定后面所有 Key 的清单。
+> ge()，三种出口各回各的；「模型准入」的候选清单也补上 ?realm=codearts（它的 13 个模型与 intl / cn 完全不交集，以前一个都选不到、只能手填 id），绑定了出口的 Key 只列该出口的目录并在清单上方标出出口，未绑定（跟随面板切换）的才取全量；清单按出口分别缓存，不再由先打开的 Key 决定后面所有 Key 的清单。
 
 ### Model / provider routing
 
-> 在改用 i18n 翻译前保留的原文比对，三种语言的分组结果一致；另补上漏归的「选择网页活跃提示词」（原来被归到「日志与系统」）。
+> 翻译前保留的原文比对，三种语言的分组结果一致；另补上漏归的「选择网页活跃提示词」（原来被归到「日志与系统」）。
 
 ### API gateway / proxy
 
@@ -87,7 +87,7 @@
 
 ## Documentation quality
 
-Score **54/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -104,10 +104,10 @@ Score **54/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.4 |
-| momentum | 54.1 |
+| popularity | 71.5 |
+| momentum | 54.3 |
 | maintenance | 100.0 |
-| documentation | 54.0 |
+| documentation | 55.0 |
 | accessibility | 58.0 |
 
 ---
