@@ -6,7 +6,7 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 578,
+  "stars": 580,
   "forks": 71,
   "open_issues": 0,
   "language": "TypeScript",
@@ -18,26 +18,26 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-11-09T05:57:42Z",
+  "updated_at": "2026-11-10T07:55:11Z",
   "pushed_at": "2026-10-26T22:43:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 454,
-  "days_since_push": 13,
+  "age_days": 455,
+  "days_since_push": 14,
   "health_score": 51,
   "health_components": {
-    "popularity": 55.2,
-    "momentum": 0.2,
+    "popularity": 55.3,
+    "momentum": 0.5,
     "maintenance": 92.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.27,
     "basis": "history",
     "is_fast_riser": false
@@ -124,17 +124,65 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:21+00:00",
+  "fetched_at": "2026-11-10T12:41:40+00:00",
   "categories": [
-    "desktop-ui",
-    "model-routing"
+    "desktop-ui"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "desktop-ui",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "rsmdt/the-startup",
+      "challenger": "thedivergentai/game-dev-agentic-skills",
+      "incumbent_name": "rsmdt/the-startup",
+      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "memory-context",
+        "multi-agent-orchestration",
+        "parallel-execution",
+        "skills-plugins"
+      ],
+      "star_ratio": 1.634,
+      "momentum_ratio": 6.333,
+      "setup_delta": -4,
+      "dominance": 0.862,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "1.63x the stars (948 vs 580)",
+        "6.33x the star velocity (3.8/day vs 0.6/day)",
+        "no harder to set up (21 vs 25 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "memory-context",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "skills-plugins"
+        ],
+        "incumbent_health": 51,
+        "challenger_health": 56,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 21
+      }
+    }
   }
 }

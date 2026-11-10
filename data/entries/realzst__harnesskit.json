@@ -6,7 +6,7 @@
   "url": "https://github.com/RealZST/HarnessKit",
   "description": "More than a skill manager — manage skills, MCP servers, plugins, hooks, CLIs, configs, memory & rules across every AI coding agent. 🌟 Star if you like it!",
   "homepage": "https://harness-kit.dev/",
-  "stars": 485,
+  "stars": 488,
   "forks": 49,
   "open_issues": 7,
   "language": "Rust",
@@ -22,26 +22,26 @@
     "skill-manager"
   ],
   "created_at": "2026-03-27T15:37:08Z",
-  "updated_at": "2026-11-08T08:00:02Z",
+  "updated_at": "2026-11-10T10:47:25Z",
   "pushed_at": "2026-11-08T07:59:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 226,
-  "days_since_push": 1,
+  "age_days": 227,
+  "days_since_push": 2,
   "health_score": 56,
   "health_components": {
-    "popularity": 53.7,
-    "momentum": 0.5,
+    "popularity": 53.8,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 56.0,
     "accessibility": 98.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 1.0,
     "lifetime_stars_per_day": 2.15,
     "basis": "history",
     "is_fast_riser": false
@@ -155,7 +155,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:29+00:00",
+  "fetched_at": "2026-11-10T12:41:46+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"

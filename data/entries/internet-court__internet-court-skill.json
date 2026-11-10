@@ -6,7 +6,7 @@
   "url": "https://github.com/internet-court/internet-court-skill",
   "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
   "homepage": "",
-  "stars": 7079,
+  "stars": 7091,
   "forks": 132,
   "open_issues": 32,
   "language": "TypeScript",
@@ -34,27 +34,27 @@
     "x402"
   ],
   "created_at": "2026-06-16T13:20:01Z",
-  "updated_at": "2026-11-09T12:15:31Z",
+  "updated_at": "2026-11-10T12:38:35Z",
   "pushed_at": "2026-10-26T12:55:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 145,
-  "days_since_push": 13,
+  "age_days": 146,
+  "days_since_push": 14,
   "health_score": 56,
   "health_components": {
     "popularity": 77.0,
-    "momentum": 4.2,
+    "momentum": 5.5,
     "maintenance": 92.0,
     "documentation": 41.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 33,
     "days_span": 5,
-    "stars_per_day": 5.0,
-    "lifetime_stars_per_day": 48.82,
+    "stars_per_day": 6.6,
+    "lifetime_stars_per_day": 48.57,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:08+00:00",
+  "fetched_at": "2026-11-10T12:40:35+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -161,14 +161,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 6.977,
-      "momentum_ratio": 10.56,
+      "star_ratio": 6.975,
+      "momentum_ratio": 8.091,
       "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "6.98x the stars (49,393 vs 7,079)",
-        "10.56x the star velocity (52.8/day vs 5.0/day)",
+        "6.98x the stars (49,460 vs 7,091)",
+        "8.09x the star velocity (53.4/day vs 6.6/day)",
         "no harder to set up (30 vs 31 friction)"
       ],
       "reasons_zh": [],

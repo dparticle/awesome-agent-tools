@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "open.bot",
-  "stars": 10530,
-  "forks": 1313,
-  "open_issues": 81,
+  "stars": 10613,
+  "forks": 1324,
+  "open_issues": 82,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-09T12:50:21Z",
-  "pushed_at": "2026-11-09T12:28:44Z",
+  "updated_at": "2026-11-10T12:36:51Z",
+  "pushed_at": "2026-11-10T08:27:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 84,
+  "age_days": 85,
   "days_since_push": 0,
-  "health_score": 77,
+  "health_score": 76,
   "health_components": {
-    "popularity": 80.4,
-    "momentum": 74.3,
+    "popularity": 80.5,
+    "momentum": 66.7,
     "maintenance": 100.0,
-    "documentation": 74.0,
+    "documentation": 78.0,
     "accessibility": 42.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 446,
+    "stars_gained": 400,
     "days_span": 5,
-    "stars_per_day": 89.2,
-    "lifetime_stars_per_day": 125.36,
+    "stars_per_day": 80.0,
+    "lifetime_stars_per_day": 124.86,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 45647,
+    "readme_chars": 46685,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -56,6 +56,7 @@
       "mcp-support",
       "security-isolation",
       "self-hosted",
+      "gui-desktop",
       "notifications"
     ],
     "capability_evidence": {
@@ -66,6 +67,7 @@
       "mcp-support": "- **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account, each reached as the p",
       "security-isolation": "who gets in**: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.",
       "self-hosted": "Defaults to ../examples/fintech.",
+      "gui-desktop": "",
       "notifications": ""
     },
     "capability_hits": {
@@ -76,6 +78,7 @@
       "mcp-support": 3,
       "security-isolation": 2,
       "self-hosted": 5,
+      "gui-desktop": 1,
       "notifications": 1
     },
     "friction": {
@@ -110,7 +113,7 @@
       "note_en": "Some setup. install via npx one-liner, native installer / package; needs docker run, helm install; configure sign-in required, database dependency",
       "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 docker run、helm install；需配置 sign-in required、database dependency"
     },
-    "doc_score": 74,
+    "doc_score": 78,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -122,6 +125,7 @@
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
+      "documents changes",
       "explains architecture",
       "long, detailed README"
     ],
@@ -136,7 +140,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.92
+      "external_link_ratio": 0.857
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -153,18 +157,85 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:04+00:00",
+  "fetched_at": "2026-11-10T12:40:31+00:00",
   "categories": [
-    "analytics-3",
     "mcp-security",
+    "memory-failover",
     "sharing"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "sharing",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (9/9).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (9/9)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "copilotkit/openbot",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "CopilotKit/OpenBot",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "auto-failover",
+        "gui-desktop",
+        "mcp-support",
+        "model-routing",
+        "notifications",
+        "security-isolation",
+        "self-hosted",
+        "session-persistence"
+      ],
+      "star_ratio": 28.314,
+      "momentum_ratio": 7.372,
+      "setup_delta": -1,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (9/9)",
+        "28.31x the stars (300,493 vs 10,613)",
+        "7.37x the star velocity (589.8/day vs 80.0/day)",
+        "no harder to set up (57 vs 58 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 76,
+        "challenger_health": 89,
+        "incumbent_setup_score": 58,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

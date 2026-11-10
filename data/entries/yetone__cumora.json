@@ -6,36 +6,36 @@
   "url": "https://github.com/yetone/cumora",
   "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
   "homepage": "https://cumora.ai",
-  "stars": 4144,
+  "stars": 4148,
   "forks": 542,
   "open_issues": 27,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-08-17T09:13:52Z",
-  "updated_at": "2026-11-09T12:11:45Z",
+  "updated_at": "2026-11-10T12:16:03Z",
   "pushed_at": "2026-11-01T07:18:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 84,
-  "days_since_push": 8,
+  "age_days": 85,
+  "days_since_push": 9,
   "health_score": 53,
   "health_components": {
-    "popularity": 72.3,
-    "momentum": 3.8,
+    "popularity": 72.4,
+    "momentum": 3.2,
     "maintenance": 92.0,
     "documentation": 34.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 23,
+    "stars_gained": 19,
     "days_span": 5,
-    "stars_per_day": 4.6,
-    "lifetime_stars_per_day": 49.33,
+    "stars_per_day": 3.8,
+    "lifetime_stars_per_day": 48.8,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "yetone/cumora",
@@ -137,11 +137,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:16+00:00",
+  "fetched_at": "2026-11-10T12:40:42+00:00",
   "categories": [
+    "analytics-3",
     "desktop-ui-2",
-    "mobile",
-    "sharing"
+    "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {

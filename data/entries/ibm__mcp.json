@@ -7,7 +7,7 @@
   "description": "A collection of Model Context Protocol (MCP) servers, clients and developer tools by IBM.",
   "homepage": "https://www.ibm.com/think/topics/model-context-protocol",
   "stars": 417,
-  "forks": 93,
+  "forks": 94,
   "open_issues": 3,
   "language": "",
   "license": "Apache-2.0",
@@ -25,8 +25,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 585,
-  "days_since_push": 38,
+  "age_days": 586,
+  "days_since_push": 39,
   "health_score": 42,
   "health_components": {
     "popularity": 52.4,
@@ -118,7 +118,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:36+00:00",
+  "fetched_at": "2026-11-10T12:41:53+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

@@ -6,7 +6,7 @@
   "url": "https://github.com/BennyKok/omg.dev",
   "description": "omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcode with mobile client",
   "homepage": "https://omg.dev",
-  "stars": 554,
+  "stars": 556,
   "forks": 41,
   "open_issues": 2,
   "language": "TypeScript",
@@ -24,33 +24,33 @@
     "self-hosted"
   ],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-11-09T07:09:13Z",
-  "pushed_at": "2026-11-09T07:09:09Z",
+  "updated_at": "2026-11-10T12:04:24Z",
+  "pushed_at": "2026-11-10T12:04:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 145,
+  "age_days": 146,
   "days_since_push": 0,
-  "health_score": 50,
+  "health_score": 51,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 42.0,
-    "accessibility": 69.0
+    "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.82,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 3.81,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "BennyKok/omg.dev",
-    "readme_chars": 3537,
+    "readme_chars": 4097,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -80,10 +80,11 @@
     },
     "friction": {
       "level": "low",
-      "score": 31,
+      "score": 22,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
+        "curl | sh installer",
         "native installer / package"
       ],
       "hard_signals": [
@@ -98,8 +99,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via native installer / package; needs git clone (build from source); configure sign-in required",
-      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 sign-in required"
+      "note_en": "Easy. install via curl | sh installer, native installer / package; needs git clone (build from source); configure sign-in required",
+      "note_zh": "较易上手。可通过 curl | sh installer、native installer / package 安装；需要 git clone (build from source)；需配置 sign-in required"
     },
     "doc_score": 42,
     "doc_signals": [
@@ -120,13 +121,13 @@
     ],
     "summary_en": "Build your ideas on the go.",
     "summary_zh": "",
-    "install_hint": "",
+    "install_hint": "curl -fsSL https://bun.sh/install | bash",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 2.545
+      "external_link_ratio": 2.441
     },
     "highlights": [
       "Managed sessions keep running when the UI disconnects.",
@@ -143,8 +144,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:23+00:00",
+  "fetched_at": "2026-11-10T12:41:41+00:00",
   "categories": [
+    "analytics",
     "desktop-ui-2",
     "mobile"
   ],

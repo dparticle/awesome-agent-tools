@@ -6,8 +6,8 @@
   "url": "https://github.com/oleksiijko/pmb",
   "description": "Local-first persistent memory for AI coding agents (Claude Code, Cursor, Codex) over MCP. Decisions, lessons and facts live in one SQLite file on your disk. Offline, multilingual.",
   "homepage": "https://pypi.org/project/pmb-ai/",
-  "stars": 283,
-  "forks": 32,
+  "stars": 284,
+  "forks": 33,
   "open_issues": 11,
   "language": "Python",
   "license": "Apache-2.0",
@@ -34,16 +34,16 @@
     "vector-search"
   ],
   "created_at": "2026-05-25T00:05:59Z",
-  "updated_at": "2026-11-09T09:17:30Z",
+  "updated_at": "2026-11-10T11:05:49Z",
   "pushed_at": "2026-09-23T18:04:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 168,
-  "days_since_push": 46,
+  "age_days": 169,
+  "days_since_push": 47,
   "health_score": 51,
   "health_components": {
-    "popularity": 49.0,
+    "popularity": 49.1,
     "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 74.0,
@@ -51,9 +51,9 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 24,
-    "stars_per_day": 0.0,
+    "stars_gained": 1,
+    "days_span": 25,
+    "stars_per_day": 0.04,
     "lifetime_stars_per_day": 1.68,
     "basis": "history",
     "is_fast_riser": false
@@ -158,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:50+00:00",
+  "fetched_at": "2026-11-10T12:42:06+00:00",
   "categories": [
     "desktop-ui-2",
     "memory-failover"

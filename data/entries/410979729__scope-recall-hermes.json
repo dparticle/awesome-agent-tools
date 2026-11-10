@@ -6,9 +6,9 @@
   "url": "https://github.com/410979729/scope-recall-hermes",
   "description": "Local long-term memory for Hermes, Codex, Claude Code, WorkBuddy and dsh agents: one SQLite store, source-backed recall, and tools to inspect, correct or delete what is remembered.",
   "homepage": "",
-  "stars": 535,
+  "stars": 540,
   "forks": 50,
-  "open_issues": 7,
+  "open_issues": 9,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -33,27 +33,27 @@
     "vector-search"
   ],
   "created_at": "2026-05-15T10:56:00Z",
-  "updated_at": "2026-11-09T07:32:32Z",
+  "updated_at": "2026-11-10T11:32:08Z",
   "pushed_at": "2026-11-08T23:50:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 178,
-  "days_since_push": 0,
+  "age_days": 179,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 54.6,
-    "momentum": 1.3,
+    "momentum": 1.8,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 3.01,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 3.02,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:24+00:00",
+  "fetched_at": "2026-11-10T12:41:43+00:00",
   "categories": [
     "mcp-security"
   ],

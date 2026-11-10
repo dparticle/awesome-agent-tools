@@ -8,7 +8,7 @@
   "homepage": "https://personal-agent-template.vercel.app",
   "stars": 486,
   "forks": 87,
-  "open_issues": 4,
+  "open_issues": 1,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -23,13 +23,13 @@
     "vercel-connect"
   ],
   "created_at": "2026-06-11T13:59:55Z",
-  "updated_at": "2026-11-09T09:58:59Z",
-  "pushed_at": "2026-11-02T16:25:28Z",
+  "updated_at": "2026-11-10T09:46:13Z",
+  "pushed_at": "2026-11-10T09:46:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 150,
-  "days_since_push": 6,
+  "age_days": 151,
+  "days_since_push": 0,
   "health_score": 46,
   "health_components": {
     "popularity": 53.7,
@@ -43,14 +43,15 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 3.24,
+    "lifetime_stars_per_day": 3.22,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "vercel-labs/personal-agent-template",
-    "readme_chars": 7559,
+    "readme_chars": 8058,
     "capabilities": [
+      "session-persistence",
       "memory-context",
       "mcp-support",
       "self-hosted",
@@ -58,6 +59,7 @@
       "notifications"
     ],
     "capability_evidence": {
+      "session-persistence": "- Deploy your fork ## Memory The profile slot (agent/memory/profile.ts) binds Eve's fileMemory() provider to one document per authenticated principal.",
       "memory-context": "",
       "mcp-support": "ories, pull requests, issues, and workflows — the agent mounts the @github-tools/eve-extension tools with durable approval on writes.",
       "self-hosted": "",
@@ -65,6 +67,7 @@
       "notifications": "uxt — Full-stack Vue framework"
     },
     "capability_hits": {
+      "session-persistence": 2,
       "memory-context": 2,
       "mcp-support": 2,
       "self-hosted": 1,
@@ -115,7 +118,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.984
+      "external_link_ratio": 1.986
     },
     "highlights": [
       "Internal API: Agent reads Slack and phone links via authenticated Nitro routes"
@@ -129,17 +132,78 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:29+00:00",
+  "fetched_at": "2026-11-10T12:41:47+00:00",
   "categories": [
-    "mcp-security",
-    "memory-failover"
+    "memory-failover",
+    "sharing"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sharing",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "affaan-m/ECC",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "vercel-labs/personal-agent-template",
+      "challenger": "affaan-m/ecc",
+      "incumbent_name": "vercel-labs/personal-agent-template",
+      "challenger_name": "affaan-m/ECC",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "gui-desktop",
+        "mcp-support",
+        "memory-context",
+        "notifications",
+        "self-hosted",
+        "session-persistence"
+      ],
+      "star_ratio": 618.298,
+      "momentum_ratio": 1474.5,
+      "setup_delta": -21,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "618.30x the stars (300,493 vs 486)",
+        "1474.50x the star velocity (589.8/day vs 0.4/day)",
+        "no harder to set up (57 vs 78 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "notifications",
+          "self-hosted",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 46,
+        "challenger_health": 89,
+        "incumbent_setup_score": 78,
+        "challenger_setup_score": 57
+      }
+    }
   }
 }

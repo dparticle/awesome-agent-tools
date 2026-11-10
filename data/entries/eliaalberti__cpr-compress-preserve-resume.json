@@ -6,33 +6,33 @@
   "url": "https://github.com/EliaAlberti/cpr-compress-preserve-resume",
   "description": "Persistent memory for Claude Code, packaged as a plugin. Save, search, and restore conversation context across sessions.",
   "homepage": "",
-  "stars": 524,
+  "stars": 525,
   "forks": 35,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-05T18:55:52Z",
-  "updated_at": "2026-11-02T17:52:54Z",
+  "updated_at": "2026-11-09T22:00:45Z",
   "pushed_at": "2026-09-09T08:46:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 248,
-  "days_since_push": 61,
+  "age_days": 249,
+  "days_since_push": 62,
   "health_score": 43,
   "health_components": {
     "popularity": 54.4,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 49.0,
     "accessibility": 37.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 2.11,
     "basis": "history",
     "is_fast_riser": false
@@ -118,9 +118,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:25+00:00",
+  "fetched_at": "2026-11-10T12:41:44+00:00",
   "categories": [
-    "memory-failover"
+    "memory-failover",
+    "sharing"
   ],
   "primary_category": "memory-failover",
   "lifecycle": {

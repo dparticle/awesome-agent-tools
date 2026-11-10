@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,032 |
-| Star velocity | 64.8/day (lifetime basis, 124d span) |
+| Stars | 8,068 |
+| Star velocity | 64.5/day (lifetime basis, 125d span) |
 | Health score | 74/100 |
 | Documentation | 54/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-08 |
-| Last push | 2026-11-09 (0 days ago) |
-| Analyzed README | 17,947 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-10 (0 days ago) |
+| Analyzed README | 18,543 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,6 +42,8 @@
 
 > the website visit that brought you here - only where you accepted marketing cookies on the website or no consent is required, and that link expires after 30 days.
 
+### Skills & plugins
+
 ### Agent runtime
 
 > that gets better every time you use it.
@@ -52,7 +54,7 @@
 
 ### GUI / desktop app
 
-> NEL, THINKRAILVERSION, THINKRAILPREFIX, THINKRAILNOMODIFYPATH):
+> the size of your skill catalog.
 
 ## Setup reality check
 
@@ -88,7 +90,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 78.1 |
-| momentum | 54.0 |
+| momentum | 53.8 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 90.0 |

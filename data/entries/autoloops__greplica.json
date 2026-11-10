@@ -6,20 +6,20 @@
   "url": "https://github.com/Autoloops/greplica",
   "description": "Persistent, searchable engineering memory for AI coding agents. Saves ~50% tokens and ~30% time while planning",
   "homepage": "https://autoloops.ai/greplica",
-  "stars": 441,
-  "forks": 74,
+  "stars": 442,
+  "forks": 73,
   "open_issues": 50,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-21T17:34:38Z",
-  "updated_at": "2026-11-05T02:16:19Z",
+  "updated_at": "2026-11-09T14:52:07Z",
   "pushed_at": "2026-07-30T06:54:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 171,
-  "days_since_push": 102,
+  "age_days": 172,
+  "days_since_push": 103,
   "health_score": 41,
   "health_components": {
     "popularity": 52.9,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.58,
+    "lifetime_stars_per_day": 2.57,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -124,26 +124,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:32+00:00",
+  "fetched_at": "2026-11-10T12:41:50+00:00",
   "categories": [
     "desktop-ui",
-    "memory-failover"
+    "sharing"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by zilliztech/memsearch: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 zilliztech/memsearch 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "zilliztech/memsearch",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "rohitg00/agentmemory",
     "challenger": "",
     "supersede": {
       "incumbent": "autoloops/greplica",
-      "challenger": "zilliztech/memsearch",
+      "challenger": "rohitg00/agentmemory",
       "incumbent_name": "Autoloops/greplica",
-      "challenger_name": "zilliztech/memsearch",
+      "challenger_name": "rohitg00/agentmemory",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -152,15 +152,15 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 6.447,
-      "momentum_ratio": 24.0,
-      "setup_delta": 12,
-      "dominance": 0.94,
+      "star_ratio": 68.443,
+      "momentum_ratio": 100.0,
+      "setup_delta": -5,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "6.45x the stars (2,843 vs 441)",
-        "24.00x the star velocity (4.8/day vs 0.2/day)",
-        "slightly heavier setup (+12 friction, within tolerance)"
+        "68.44x the stars (30,252 vs 442)",
+        "100.00x the star velocity (20.0/day vs 0.2/day)",
+        "no harder to set up (32 vs 37 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -173,17 +173,27 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
           "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
           "memory-context",
           "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
           "team-collaboration"
         ],
         "incumbent_health": 41,
-        "challenger_health": 57,
+        "challenger_health": 69,
         "incumbent_setup_score": 37,
-        "challenger_setup_score": 49
+        "challenger_setup_score": 32
       }
     }
   }

@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for work.",
   "homepage": "https://x.com/qm__dev",
-  "stars": 15660,
-  "forks": 1947,
-  "open_issues": 1021,
+  "stars": 15671,
+  "forks": 1946,
+  "open_issues": 1075,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,33 +18,33 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-11-09T10:23:54Z",
-  "pushed_at": "2026-11-09T04:24:56Z",
+  "updated_at": "2026-11-10T12:33:08Z",
+  "pushed_at": "2026-11-10T12:34:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 102,
+  "age_days": 103,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 57,
   "health_components": {
     "popularity": 83.9,
-    "momentum": 4.2,
+    "momentum": 5.3,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 32,
     "days_span": 5,
-    "stars_per_day": 5.0,
-    "lifetime_stars_per_day": 153.53,
+    "stars_per_day": 6.4,
+    "lifetime_stars_per_day": 152.15,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yc-software/qm",
-    "readme_chars": 13009,
+    "readme_chars": 13142,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -128,7 +128,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.615
+      "external_link_ratio": 0.609
     },
     "highlights": [
       "Shared skills. Skills are scope-owned and shareable by grant, with admin-gated",
@@ -145,11 +145,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:01+00:00",
+  "fetched_at": "2026-11-10T12:40:29+00:00",
   "categories": [
-    "desktop-ui-2",
     "isolation-teams",
-    "mcp-security"
+    "model-routing",
+    "providers-2"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
@@ -179,14 +179,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 7.184,
-      "momentum_ratio": 60.88,
+      "star_ratio": 7.197,
+      "momentum_ratio": 47.438,
       "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "7.18x the stars (112,494 vs 15,660)",
-        "60.88x the star velocity (304.4/day vs 5.0/day)",
+        "7.20x the stars (112,786 vs 15,671)",
+        "47.44x the star velocity (303.6/day vs 6.4/day)",
         "no harder to set up (45 vs 72 friction)"
       ],
       "reasons_zh": [],
@@ -222,7 +222,7 @@
           "usage-analytics",
           "worktree-isolation"
         ],
-        "incumbent_health": 56,
+        "incumbent_health": 57,
         "challenger_health": 89,
         "incumbent_setup_score": 72,
         "challenger_setup_score": 45

@@ -6,34 +6,34 @@
   "url": "https://github.com/Archive228/loopkit",
   "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
   "homepage": "",
-  "stars": 757,
-  "forks": 124,
+  "stars": 760,
+  "forks": 126,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-30T08:46:55Z",
-  "updated_at": "2026-11-03T10:05:29Z",
+  "updated_at": "2026-11-10T10:48:13Z",
   "pushed_at": "2026-07-14T21:10:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 132,
-  "days_since_push": 117,
-  "health_score": 45,
+  "age_days": 133,
+  "days_since_push": 118,
+  "health_score": 46,
   "health_components": {
     "popularity": 57.6,
-    "momentum": 0.0,
+    "momentum": 0.5,
     "maintenance": 55.0,
     "documentation": 54.0,
     "accessibility": 81.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.73,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 5.71,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:16+00:00",
+  "fetched_at": "2026-11-10T12:41:36+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -156,14 +156,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 65.248,
-      "momentum_ratio": 1056.0,
+      "star_ratio": 65.079,
+      "momentum_ratio": 89.0,
       "setup_delta": 11,
       "dominance": 0.945,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "65.25x the stars (49,393 vs 757)",
-        "1056.00x the star velocity (52.8/day vs 0.0/day)",
+        "65.08x the stars (49,460 vs 760)",
+        "89.00x the star velocity (53.4/day vs 0.6/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -191,7 +191,7 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 45,
+        "incumbent_health": 46,
         "challenger_health": 78,
         "incumbent_setup_score": 19,
         "challenger_setup_score": 30

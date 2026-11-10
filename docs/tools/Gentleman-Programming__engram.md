@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,867 |
-| Star velocity | 18.8/day (history basis, 5d span) |
+| Stars | 7,890 |
+| Star velocity | 16.6/day (history basis, 5d span) |
 | Health score | 63/100 |
-| Documentation | 59/100 |
+| Documentation | 63/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Go |
 | Created | 2026-02-16 |
-| Last push | 2026-11-09 (0 days ago) |
-| Analyzed README | 25,657 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-10 (0 days ago) |
+| Analyzed README | 27,689 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -57,7 +59,7 @@
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **63/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -67,6 +69,7 @@ Score **59/100**, based on these detected signals:
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
+- publishes a roadmap
 - explains architecture
 - long, detailed README
 
@@ -75,9 +78,9 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 77.9 |
-| momentum | 15.7 |
+| momentum | 13.8 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
+| documentation | 63.0 |
 | accessibility | 66.0 |
 
 ---

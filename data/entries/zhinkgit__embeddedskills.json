@@ -6,7 +6,7 @@
   "url": "https://github.com/zhinkgit/embeddedskills",
   "description": "An open-source collection of embedded development and debugging skills for Claude Code, Copilot, TRAE, and other AI coding assistants that support the Skill protocol. Once installed, the AI assistant can directly operate compilers, debuggers, and communication buses, automating the full workflow from code generation to hardware verification.",
   "homepage": "",
-  "stars": 789,
+  "stars": 792,
   "forks": 98,
   "open_issues": 0,
   "language": "Python",
@@ -33,16 +33,16 @@
     "workflow"
   ],
   "created_at": "2026-04-10T09:27:48Z",
-  "updated_at": "2026-11-09T09:15:36Z",
+  "updated_at": "2026-11-10T08:00:39Z",
   "pushed_at": "2026-10-20T02:23:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 213,
-  "days_since_push": 20,
+  "age_days": 214,
+  "days_since_push": 21,
   "health_score": 53,
   "health_components": {
-    "popularity": 57.9,
+    "popularity": 58.0,
     "momentum": 1.2,
     "maintenance": 92.0,
     "documentation": 49.0,
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:15+00:00",
+  "fetched_at": "2026-11-10T12:41:34+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -167,14 +167,14 @@
         "gui-desktop",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 20.165,
-      "momentum_ratio": 628.714,
+      "star_ratio": 21.346,
+      "momentum_ratio": 687.857,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "20.16x the stars (15,910 vs 789)",
-        "628.71x the star velocity (880.2/day vs 1.4/day)",
+        "21.35x the stars (16,906 vs 792)",
+        "687.86x the star velocity (963.0/day vs 1.4/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -193,7 +193,7 @@
           "notifications"
         ],
         "incumbent_health": 53,
-        "challenger_health": 84,
+        "challenger_health": 85,
         "incumbent_setup_score": 18,
         "challenger_setup_score": 23
       }

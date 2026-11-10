@@ -6,9 +6,9 @@
   "url": "https://github.com/JetBrains/thinkrail",
   "description": "ThinkRail is the agentic IDE that gets better every time you use it",
   "homepage": "https://thinkrail.ai/",
-  "stars": 8032,
-  "forks": 502,
-  "open_issues": 359,
+  "stars": 8068,
+  "forks": 505,
+  "open_issues": 342,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,38 +27,39 @@
     "vibecoding"
   ],
   "created_at": "2026-07-08T07:40:43Z",
-  "updated_at": "2026-11-09T12:49:28Z",
-  "pushed_at": "2026-11-09T12:48:47Z",
+  "updated_at": "2026-11-10T12:07:42Z",
+  "pushed_at": "2026-11-10T12:36:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 124,
+  "age_days": 125,
   "days_since_push": 0,
   "health_score": 74,
   "health_components": {
     "popularity": 78.1,
-    "momentum": 54.0,
+    "momentum": 53.8,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 90.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 8032,
-    "days_span": 124,
-    "stars_per_day": 64.77,
-    "lifetime_stars_per_day": 64.77,
+    "stars_gained": 8068,
+    "days_span": 125,
+    "stars_per_day": 64.54,
+    "lifetime_stars_per_day": 64.54,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "JetBrains/thinkrail",
-    "readme_chars": 17947,
+    "readme_chars": 18543,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
       "api-gateway",
       "usage-analytics",
+      "skills-plugins",
       "agent-runtime",
       "mcp-support",
       "gui-desktop"
@@ -68,15 +69,17 @@
       "worktree-isolation": "elf-contained thinkrail CLI.",
       "api-gateway": "d MCP servers, set them in Settings → Environment.",
       "usage-analytics": "the website visit that brought you here - only where you accepted marketing cookies on the website or no consent is required, and that link expires after 30 days.",
+      "skills-plugins": "",
       "agent-runtime": "that gets better every time you use it.",
       "mcp-support": "questions @thinkrail/pi-ask-user-question) and pi install npm:@thinkrail/pi-visualize for the diagrams and previews @thinkrail/pi-visualize), so a vanilla pi in the terminal gets the same tools.",
-      "gui-desktop": "NEL, THINKRAILVERSION, THINKRAILPREFIX, THINKRAILNOMODIFYPATH):"
+      "gui-desktop": "the size of your skill catalog."
     },
     "capability_hits": {
       "multi-agent-orchestration": 2,
       "worktree-isolation": 2,
       "api-gateway": 1,
       "usage-analytics": 2,
+      "skills-plugins": 1,
       "agent-runtime": 2,
       "mcp-support": 4,
       "gui-desktop": 6
@@ -134,13 +137,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.836
+      "external_link_ratio": 0.809
     },
     "highlights": [
       "Isolated workspaces. Open any git repo as a project and create git worktree workspaces from it, each with its own branch and working directory. Agents can then work in parallel without touc…",
-      "Find chats. ⌘K (or a double tap of Shift) opens a \"Switch sessions\" popup that lets you find chats across your workspaces and projects.",
-      "Skills. ThinkRail imports skills from pi, Claude, Codex, and other coding agents, as well as any already in your project.",
-      "Agent tools beyond the shell. Thanks to the ThinkRail GUI, your AI agent can ask you structured multiple-choice questions in the chat instead of guessing, draw Mermaid diagrams, and show co…"
+      "Skills. ThinkRail loads your pi skills and any already in your project. It can also import skills from Claude, Codex, and other coding agents: switch them on in Settings → Extensions, or pe…",
+      "Agent tools beyond the shell. Thanks to the ThinkRail GUI, your AI agent can ask you structured multiple-choice questions in the chat instead of guessing, draw Mermaid diagrams, and show co…",
+      "Engine (packages/server + packages/shared): a Bun.serve HTTP+WS host with one in-process pi session per chat, launched by apps/cli or apps/desktop."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -151,13 +154,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:06+00:00",
+  "fetched_at": "2026-11-10T12:40:34+00:00",
   "categories": [
+    "analytics",
     "desktop-ui",
-    "desktop-ui-2",
-    "isolation-teams"
+    "desktop-ui-2"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

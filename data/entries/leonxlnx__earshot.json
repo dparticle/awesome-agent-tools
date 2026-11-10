@@ -6,9 +6,9 @@
   "url": "https://github.com/Leonxlnx/earshot",
   "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
   "homepage": "",
-  "stars": 4321,
-  "forks": 278,
-  "open_issues": 2,
+  "stars": 4409,
+  "forks": 283,
+  "open_issues": 4,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -19,27 +19,27 @@
     "sound-design"
   ],
   "created_at": "2026-10-15T06:52:46Z",
-  "updated_at": "2026-11-09T12:51:14Z",
+  "updated_at": "2026-11-10T12:31:45Z",
   "pushed_at": "2026-11-06T17:24:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 25,
-  "days_since_push": 2,
+  "age_days": 26,
+  "days_since_push": 3,
   "health_score": 75,
   "health_components": {
-    "popularity": 72.7,
-    "momentum": 80.8,
+    "popularity": 72.9,
+    "momentum": 77.0,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 48.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 485,
+    "stars_gained": 462,
     "days_span": 5,
-    "stars_per_day": 97.0,
-    "lifetime_stars_per_day": 172.84,
+    "stars_per_day": 92.4,
+    "lifetime_stars_per_day": 169.58,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -118,7 +118,7 @@
       "Real vs code-synthesized: held-out ROC-AUC 0.92 with whole sound families held out.",
       "Listening through a soundtrack: 93% of the sound effects placed in a 60 s film mix are detected as events (89%",
       "The launch preset (0.4) is for films cut to music.",
-      "Finding the moment: on a recording of 17 single key presses the found trims land on real key presses; in a"
+      "Matching descriptions (a held-out library of 125 real recordings, nothing tuned on it): in a library search a"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:14+00:00",
+  "fetched_at": "2026-11-10T12:40:41+00:00",
   "categories": [
     "desktop-ui",
     "mcp-security"

@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 560 |
 | Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 51/100 |
+| Health score | 49/100 |
 | Documentation | 70/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Python |
 | Created | 2025-06-10 |
-| Last push | 2026-11-02 (7 days ago) |
+| Last push | 2026-11-02 (8 days ago) |
 | Analyzed README | 29,269 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -95,7 +95,7 @@ Score **70/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 55.0 |
 | momentum | 0.2 |
-| maintenance | 100.0 |
+| maintenance | 92.0 |
 | documentation | 70.0 |
 | accessibility | 34.0 |
 

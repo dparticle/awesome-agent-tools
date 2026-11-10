@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 486 |
-| Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 51/100 |
+| Stars | 488 |
+| Star velocity | 0.4/day (history basis, 5d span) |
+| Health score | 49/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-11-02 (7 days ago) |
+| Last push | 2026-11-02 (8 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer)** — Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).
@@ -71,9 +71,9 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.7 |
-| momentum | 0.0 |
-| maintenance | 100.0 |
+| popularity | 53.8 |
+| momentum | 0.3 |
+| maintenance | 92.0 |
 | documentation | 61.0 |
 | accessibility | 49.0 |
 

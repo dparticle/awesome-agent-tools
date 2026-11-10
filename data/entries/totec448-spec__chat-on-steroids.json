@@ -6,9 +6,9 @@
   "url": "https://github.com/totec448-spec/chat-on-steroids",
   "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
   "homepage": "",
-  "stars": 5146,
+  "stars": 5147,
   "forks": 667,
-  "open_issues": 22,
+  "open_issues": 29,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "windows"
   ],
   "created_at": "2026-08-22T14:16:24Z",
-  "updated_at": "2026-11-09T12:40:48Z",
-  "pushed_at": "2026-11-09T12:40:42Z",
+  "updated_at": "2026-11-10T11:31:34Z",
+  "pushed_at": "2026-11-10T05:36:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 78,
+  "age_days": 79,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 74.2,
-    "momentum": 2.3,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 26.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 65.97,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 65.15,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "totec448-spec/chat-on-steroids",
-    "readme_chars": 10754,
+    "readme_chars": 11552,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -65,7 +65,7 @@
       "mobile-access": "",
       "mcp-support": "tion that the provider blocked for safety.",
       "gui-desktop": "",
-      "notifications": "urself and mark it done; the app never runs it."
+      "notifications": "ever become the working folder and never widen what it may touch."
     },
     "capability_hits": {
       "auto-failover": 1,
@@ -73,7 +73,7 @@
       "mobile-access": 1,
       "mcp-support": 4,
       "gui-desktop": 1,
-      "notifications": 1
+      "notifications": 2
     },
     "friction": {
       "level": "low",
@@ -119,7 +119,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.465
+      "external_link_ratio": 0.433
     },
     "highlights": [
       "Connect Core (steps 4–7): create a tunnel and a restricted API key at OpenAI, press Connect, then add the app in ChatGPT under Plugins → Add → Add custom MCP server.",
@@ -136,9 +136,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:12+00:00",
+  "fetched_at": "2026-11-10T12:40:39+00:00",
   "categories": [
-    "mcp-security",
+    "memory-failover",
     "mobile"
   ],
   "primary_category": "mobile",

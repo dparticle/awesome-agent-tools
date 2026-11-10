@@ -6,9 +6,9 @@
   "url": "https://github.com/0sec-labs/0",
   "description": "The open-source AI security harness. Includes a web interface for code analysis, pentesting, vulnerability research, reverse engineering, verification, and fixing + CLI and MCP for agents.",
   "homepage": "https://0.security",
-  "stars": 944,
-  "forks": 120,
-  "open_issues": 4,
+  "stars": 1190,
+  "forks": 152,
+  "open_issues": 10,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -26,33 +26,33 @@
     "vulnerability-scanner"
   ],
   "created_at": "2026-08-19T07:54:37Z",
-  "updated_at": "2026-11-09T12:49:35Z",
-  "pushed_at": "2026-11-09T08:28:57Z",
+  "updated_at": "2026-11-10T12:36:32Z",
+  "pushed_at": "2026-11-10T08:15:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 82,
+  "age_days": 83,
   "days_since_push": 0,
-  "health_score": 68,
+  "health_score": 78,
   "health_components": {
-    "popularity": 59.5,
-    "momentum": 58.0,
+    "popularity": 61.5,
+    "momentum": 98.8,
     "maintenance": 100.0,
-    "documentation": 46.0,
+    "documentation": 41.0,
     "accessibility": 87.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 348,
+    "stars_gained": 593,
     "days_span": 5,
-    "stars_per_day": 69.6,
-    "lifetime_stars_per_day": 11.51,
+    "stars_per_day": 118.6,
+    "lifetime_stars_per_day": 14.34,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "0sec-labs/0",
-    "readme_chars": 9733,
+    "readme_chars": 9231,
     "capabilities": [
       "agent-runtime",
       "mcp-support",
@@ -65,7 +65,7 @@
     },
     "capability_hits": {
       "agent-runtime": 2,
-      "mcp-support": 9,
+      "mcp-support": 8,
       "gui-desktop": 1
     },
     "friction": {
@@ -83,18 +83,18 @@
       "friendliness_signals": [],
       "platforms": [
         "macOS",
+        "Windows",
         "Linux",
         "Web"
       ],
       "note_en": "Easy. install via curl | sh installer; needs pnpm install/build",
       "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 pnpm install/build"
     },
-    "doc_score": 46,
+    "doc_score": 41,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
       "documents installation",
-      "documents configuration",
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
@@ -109,7 +109,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.747
+      "external_link_ratio": 1.842
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -121,7 +121,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:07+00:00",
+  "fetched_at": "2026-11-10T12:41:22+00:00",
   "categories": [
     "desktop-ui-2",
     "mcp-security"

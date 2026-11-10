@@ -6,9 +6,9 @@
   "url": "https://github.com/sandbox-quantum/switch",
   "description": "Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.",
   "homepage": "https://www.switchagents.ai",
-  "stars": 4259,
-  "forks": 334,
-  "open_issues": 742,
+  "stars": 4339,
+  "forks": 339,
+  "open_issues": 739,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -27,33 +27,33 @@
     "slack"
   ],
   "created_at": "2026-07-16T09:52:46Z",
-  "updated_at": "2026-11-09T12:50:15Z",
-  "pushed_at": "2026-11-09T12:37:37Z",
+  "updated_at": "2026-11-10T12:19:29Z",
+  "pushed_at": "2026-11-10T12:36:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
+  "age_days": 117,
   "days_since_push": 0,
-  "health_score": 83,
+  "health_score": 79,
   "health_components": {
-    "popularity": 72.6,
-    "momentum": 93.7,
+    "popularity": 72.7,
+    "momentum": 74.2,
     "maintenance": 100.0,
-    "documentation": 54.0,
+    "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 562,
+    "stars_gained": 445,
     "days_span": 5,
-    "stars_per_day": 112.4,
-    "lifetime_stars_per_day": 36.72,
+    "stars_per_day": 89.0,
+    "lifetime_stars_per_day": 37.09,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sandbox-quantum/switch",
-    "readme_chars": 14096,
+    "readme_chars": 15024,
     "capabilities": [
       "usage-analytics",
       "agent-runtime",
@@ -63,20 +63,20 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "usage-analytics": "your company, so you can change agents, models or vendors at any time without losing it.",
+      "usage-analytics": "Run your team with confidence**.",
       "agent-runtime": "logs and versions, and either files the ticket or tells the reporter what is still missing.",
       "mcp-support": "rough the documentation yourself, connect an agent to it",
       "self-hosted": "Open-source AI teammates, working alongside your team in Slack, Teams, Discord, Telegram and Mattermost.",
-      "gui-desktop": "",
-      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+      "gui-desktop": "gets, choose which connectors are on, and control who has access.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
       "usage-analytics": 2,
       "agent-runtime": 3,
       "mcp-support": 5,
-      "self-hosted": 3,
+      "self-hosted": 2,
       "gui-desktop": 1,
-      "cross-agent-support": 3
+      "cross-agent-support": 4
     },
     "friction": {
       "level": "turnkey",
@@ -99,7 +99,7 @@
       "note_en": "Turnkey. install via native installer / package; GUI application",
       "note_zh": "开箱即用。可通过 native installer / package 安装；GUI application"
     },
-    "doc_score": 54,
+    "doc_score": 55,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -113,7 +113,8 @@
     "agents": [
       "Claude Code",
       "Codex",
-      "OpenCode"
+      "OpenCode",
+      "Cursor"
     ],
     "summary_en": "Open-source AI teammates, working alongside your team in Slack, Teams, Discord, Telegram and Mattermost.",
     "summary_zh": "",
@@ -125,13 +126,13 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.419
+      "external_link_ratio": 1.797
     },
     "highlights": [
       "Stand up a Codex agent that knows one slice of the system well, and let any colleague ask it questions directly.",
       "Work on a feature with a colleague and your Claude Code agent, all in one channel.",
-      "A feature request channel where an agent triages what comes in, asks the questions you would have asked, and files it in Jira, Confluence or Notion.",
-      "Pull a colleague in to review what you and your agent have been doing."
+      "❌ Not an agent provider. Switch ships no agents and no models. You keep Claude Code, Codex, Antigravity, Cursor, OpenCode or whatever you already run, and Switch is what lets them work with…",
+      "A feature request channel where an agent triages what comes in, asks the questions you would have asked, and files it in Jira, Confluence or Notion."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -142,12 +143,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:15+00:00",
+  "fetched_at": "2026-11-10T12:40:41+00:00",
   "categories": [
-    "analytics-3",
+    "analytics",
     "desktop-ui-2"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

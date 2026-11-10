@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "full_name": "amosblomqvist/learnharness",
+  "name": "learnharness",
+  "owner": "amosblomqvist",
+  "url": "https://github.com/amosblomqvist/learnharness",
+  "description": "Agent harness for learning difficult things.",
+  "homepage": "learnharness.ai",
+  "stars": 8034,
+  "forks": 1110,
+  "open_issues": 457,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "topics": [],
+  "created_at": "2026-10-16T19:35:33Z",
+  "updated_at": "2026-11-10T12:39:07Z",
+  "pushed_at": "2026-11-09T18:55:21Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 24,
+  "days_since_push": 0,
+  "health_score": 86,
+  "health_components": {
+    "popularity": 78.1,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 51.0,
+    "accessibility": 100.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 8034,
+    "days_span": 24,
+    "stars_per_day": 334.75,
+    "lifetime_stars_per_day": 334.75,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "amosblomqvist/learnharness",
+    "readme_chars": 6067,
+    "capabilities": [
+      "model-routing",
+      "api-gateway",
+      "memory-context",
+      "gui-desktop",
+      "voice-input"
+    ],
+    "capability_evidence": {
+      "model-routing": "ose your models, then start a session with what you want to understand.",
+      "api-gateway": "ose your models, then start a session with what you want to understand.",
+      "memory-context": "d of just giving you an explanation, it uses your answers and thinking to decide what you need next.",
+      "gui-desktop": "tainties, and reactions in your own words.",
+      "voice-input": "let you explain your reasoning, uncertainties, and reactions in your own words."
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "api-gateway": 1,
+      "memory-context": 2,
+      "gui-desktop": 2,
+      "voice-input": 4
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 9,
+      "out_of_the_box": true,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via native installer / package; GUI application",
+      "note_zh": "开箱即用。可通过 native installer / package 安装；GUI application"
+    },
+    "doc_score": 51,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code"
+    ],
+    "summary_en": "LearnHarness uses AI agents to plan and teach lessons from your current understanding to your goal.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.494
+    },
+    "highlights": [
+      "Inspectable behavior. System prompts are visible and editable. The app is open source under the AGPL-3.0 license.",
+      "Your keys and models. No LearnHarness subscription or markup. Billing depends on your provider, CLI configuration, subscription, or local setup. The live cost meter estimates known API cost…"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-10T12:40:34+00:00",
+  "categories": [
+    "memory-failover",
+    "voice"
+  ],
+  "primary_category": "voice",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -6,9 +6,9 @@
   "url": "https://github.com/uwuclxdy/clauth",
   "description": "Claude Code multi-account manager, usage monitor (CLI, TUI & cross-account delegation via MCP)",
   "homepage": "",
-  "stars": 314,
+  "stars": 320,
   "forks": 52,
-  "open_issues": 34,
+  "open_issues": 33,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -30,33 +30,33 @@
     "vibecoded"
   ],
   "created_at": "2026-04-28T12:20:42Z",
-  "updated_at": "2026-11-09T10:02:02Z",
-  "pushed_at": "2026-11-09T11:15:47Z",
+  "updated_at": "2026-11-10T11:16:44Z",
+  "pushed_at": "2026-11-10T12:32:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "mommy",
-  "age_days": 195,
+  "age_days": 196,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
-    "popularity": 49.9,
-    "momentum": 3.2,
+    "popularity": 50.1,
+    "momentum": 3.0,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 19,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 3.8,
-    "lifetime_stars_per_day": 1.61,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 1.63,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "uwuclxdy/clauth",
-    "readme_chars": 16017,
+    "readme_chars": 16152,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -73,8 +73,8 @@
     "capability_evidence": {
       "multi-account-switching": "r CLAUDE.md, plugins, hooks, skills, MCP servers and tools, leaving a clean session for headless work or blind evals.",
       "quota-management": "or delegate a headless prompt to another account without leaving the chat.",
-      "remote-control": "usion rules, burn-aware mode, spend ceilings",
-      "mobile-access": "usion rules, burn-aware mode, spend ceilings",
+      "remote-control": "",
+      "mobile-access": "",
       "parallel-execution": "auth or a single keypress in the TUI.",
       "model-routing": "e monitor, then wires the two together so a fallback chain moves you off an exhausted account before Claude Code ever blocks.",
       "usage-analytics": "- 🔄 Switch accounts in one keypress or clauth : OAuth (Pro / Max / Ultra / Team / Enterprise) or a custom API endpoint, plan tier detected for you - 📊 Monitor live 5h / 7d rate-limit bars, a global token dashboard with…",
@@ -147,7 +147,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.436
+      "external_link_ratio": 1.486
     },
     "highlights": [
       "📊 Monitor live 5h / 7d rate-limit bars, a global token dashboard with API-equivalent cost, plus a live Claude status-incident feed",
@@ -164,11 +164,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:44+00:00",
+  "fetched_at": "2026-11-10T12:42:00+00:00",
   "categories": [
+    "analytics",
     "billing",
-    "mobile",
-    "model-routing"
+    "quota"
   ],
   "primary_category": "billing",
   "lifecycle": {

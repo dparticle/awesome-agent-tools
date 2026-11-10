@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 963 |
+| Stars | 969 |
 | Star velocity | 15.0/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 59/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-10-03 |
-| Last push | 2026-10-20 (20 days ago) |
+| Last push | 2026-10-20 (21 days ago) |
 | Analyzed README | 6,869 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [ardeyouxipianyi/workbuddy2api-hub](https://github.com/ardeyouxipianyi/workbuddy2api-hub)** — Superseded by ardeyouxipianyi/workbuddy2api-hub: covers 100% of capabilities (7/7).
 
 ## What it solves
 

@@ -6,7 +6,7 @@
   "url": "https://github.com/josstei/maestro-orchestrate",
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
-  "stars": 486,
+  "stars": 488,
   "forks": 38,
   "open_issues": 6,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-11-03T02:29:15Z",
+  "updated_at": "2026-11-09T22:02:05Z",
   "pushed_at": "2026-11-02T04:41:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 273,
-  "days_since_push": 7,
-  "health_score": 51,
+  "age_days": 274,
+  "days_since_push": 8,
+  "health_score": 49,
   "health_components": {
-    "popularity": 53.7,
-    "momentum": 0.0,
-    "maintenance": 100.0,
+    "popularity": 53.8,
+    "momentum": 0.3,
+    "maintenance": 92.0,
     "documentation": 61.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 1.78,
     "basis": "history",
     "is_fast_riser": false
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:28+00:00",
+  "fetched_at": "2026-11-10T12:41:46+00:00",
   "categories": [
     "mcp-security"
   ],
@@ -161,14 +161,14 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 11.138,
-      "momentum_ratio": 4009.6,
+      "star_ratio": 11.459,
+      "momentum_ratio": 499.275,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "11.14x the stars (5,413 vs 486)",
-        "4009.60x the star velocity (200.5/day vs 0.0/day)",
+        "11.46x the stars (5,592 vs 488)",
+        "499.27x the star velocity (199.7/day vs 0.4/day)",
         "no harder to set up (36 vs 51 friction)"
       ],
       "reasons_zh": [],
@@ -189,7 +189,7 @@
           "security-isolation",
           "session-persistence"
         ],
-        "incumbent_health": 51,
+        "incumbent_health": 49,
         "challenger_health": 83,
         "incumbent_setup_score": 51,
         "challenger_setup_score": 36

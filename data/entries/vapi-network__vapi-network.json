@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "full_name": "vAPI-Network/vapi-network",
+  "name": "vapi-network",
+  "owner": "vAPI-Network",
+  "url": "https://github.com/vAPI-Network/vapi-network",
+  "description": "Buyer-controlled client for x402 API payments in USDC on Base.",
+  "homepage": "https://vapinetwork.ai",
+  "stars": 3838,
+  "forks": 131,
+  "open_issues": 8,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-payments",
+    "ai-agents",
+    "base",
+    "mcp",
+    "usdc",
+    "x402"
+  ],
+  "created_at": "2026-10-02T13:05:19Z",
+  "updated_at": "2026-11-10T12:38:46Z",
+  "pushed_at": "2026-11-10T12:02:12Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 38,
+  "days_since_push": 0,
+  "health_score": 77,
+  "health_components": {
+    "popularity": 71.7,
+    "momentum": 84.2,
+    "maintenance": 100.0,
+    "documentation": 62.0,
+    "accessibility": 60.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3838,
+    "days_span": 38,
+    "stars_per_day": 101.0,
+    "lifetime_stars_per_day": 101.0,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "vAPI-Network/vapi-network",
+    "readme_chars": 73169,
+    "capabilities": [
+      "auto-failover",
+      "model-routing",
+      "billing-metering",
+      "mcp-support",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "model-routing": "",
+      "billing-metering": "link; --yes skips task policy prompts",
+      "mcp-support": "package as SKILL.md, with the",
+      "notifications": "party only confirms the existing local binding.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "model-routing": 1,
+      "billing-metering": 1,
+      "mcp-support": 8,
+      "notifications": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 40,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "pnpm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner, native installer / package; needs pnpm install/build; configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 pnpm install/build；需配置 API key configuration、config.json/yaml/toml"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Droid"
+    ],
+    "summary_en": "vAPI Network builds payment and trust infrastructure for AI agents on Base, with x402 API payments in USDC.",
+    "summary_zh": "",
+    "install_hint": "npm i -g vapi-network",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.027
+    },
+    "highlights": [
+      "swarm.run runs the lead, which may delegate one level deep using treasury-funded budgets bounded by a per-run draw (default $2.00), or runs every member independently on its own capital."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-10T12:40:43+00:00",
+  "categories": [
+    "analytics-3"
+  ],
+  "primary_category": "analytics-3",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

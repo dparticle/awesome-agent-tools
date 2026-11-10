@@ -7,8 +7,8 @@
   "description": "Codex CLI multi-account OAuth manager with account switching, health checks, runtime rotation, diagnostics, and recovery tools for @openai/codex",
   "homepage": "https://www.npmjs.com/package/codex-multi-auth",
   "stars": 566,
-  "forks": 74,
-  "open_issues": 2,
+  "forks": 75,
+  "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "typescript"
   ],
   "created_at": "2026-02-22T22:37:04Z",
-  "updated_at": "2026-11-07T17:56:28Z",
+  "updated_at": "2026-11-10T09:29:21Z",
   "pushed_at": "2026-11-04T09:32:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 259,
-  "days_since_push": 5,
+  "age_days": 260,
+  "days_since_push": 6,
   "health_score": 54,
   "health_components": {
     "popularity": 55.1,
@@ -54,7 +54,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.19,
+    "lifetime_stars_per_day": 2.18,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -151,9 +151,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:22+00:00",
+  "fetched_at": "2026-11-10T12:41:40+00:00",
   "categories": [
-    "billing"
+    "billing",
+    "memory-failover",
+    "voice"
   ],
   "primary_category": "billing",
   "lifecycle": {
@@ -179,14 +181,14 @@
         "multi-account-switching",
         "voice-input"
       ],
-      "star_ratio": 35.057,
-      "momentum_ratio": 33.5,
+      "star_ratio": 35.106,
+      "momentum_ratio": 32.5,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "35.06x the stars (19,842 vs 566)",
-        "33.50x the star velocity (26.8/day vs 0.8/day)",
+        "35.11x the stars (19,870 vs 566)",
+        "32.50x the star velocity (26.0/day vs 0.8/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],

@@ -6,9 +6,9 @@
   "url": "https://github.com/future-agi/future-agi",
   "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
   "homepage": "https://futureagi.com",
-  "stars": 2256,
-  "forks": 714,
-  "open_issues": 982,
+  "stars": 2259,
+  "forks": 713,
+  "open_issues": 1031,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "tracing"
   ],
   "created_at": "2026-04-23T14:11:31Z",
-  "updated_at": "2026-11-08T23:33:06Z",
-  "pushed_at": "2026-11-09T12:14:26Z",
+  "updated_at": "2026-11-10T06:05:41Z",
+  "pushed_at": "2026-11-10T12:28:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 199,
+  "age_days": 200,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
     "popularity": 67.1,
-    "momentum": 1.8,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 11.34,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 11.29,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,12 +152,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:50+00:00",
+  "fetched_at": "2026-11-10T12:41:12+00:00",
   "categories": [
     "analytics-3",
-    "billing-2"
+    "mcp-security",
+    "sharing"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (6/6).",
@@ -181,14 +182,14 @@
         "memory-context",
         "self-hosted"
       ],
-      "star_ratio": 13.399,
-      "momentum_ratio": 9.091,
+      "star_ratio": 13.392,
+      "momentum_ratio": 11.111,
       "setup_delta": -13,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "13.40x the stars (30,228 vs 2,256)",
-        "9.09x the star velocity (20.0/day vs 2.2/day)",
+        "13.39x the stars (30,252 vs 2,259)",
+        "11.11x the star velocity (20.0/day vs 1.8/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
       "reasons_zh": [],

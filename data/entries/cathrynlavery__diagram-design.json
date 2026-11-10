@@ -6,9 +6,9 @@
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
   "homepage": "https://diagramdesign.dev",
-  "stars": 66008,
-  "forks": 4380,
-  "open_issues": 54,
+  "stars": 66232,
+  "forks": 4398,
+  "open_issues": 48,
   "language": "HTML",
   "license": "MIT",
   "topics": [
@@ -22,12 +22,12 @@
     "svg"
   ],
   "created_at": "2026-04-16T18:01:16Z",
-  "updated_at": "2026-11-09T12:51:34Z",
-  "pushed_at": "2026-11-09T03:18:52Z",
+  "updated_at": "2026-11-10T12:37:00Z",
+  "pushed_at": "2026-11-09T22:22:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 206,
+  "age_days": 207,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1148,
+    "stars_gained": 1042,
     "days_span": 5,
-    "stars_per_day": 229.6,
-    "lifetime_stars_per_day": 320.43,
+    "stars_per_day": 208.4,
+    "lifetime_stars_per_day": 319.96,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "cathrynlavery/diagram-design",
-    "readme_chars": 52812,
+    "readme_chars": 53918,
     "capabilities": [
       "parallel-execution",
       "billing-metering",
@@ -133,7 +133,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.341
+      "external_link_ratio": 0.334
     },
     "highlights": [
       "BestSelf.co: the SELF Journal and other paper tools for getting things done.",
@@ -148,12 +148,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:32+00:00",
+  "fetched_at": "2026-11-10T12:40:56+00:00",
   "categories": [
-    "billing-2",
+    "analytics-3",
     "isolation-teams"
   ],
-  "primary_category": "billing-2",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "active",
     "note_en": "",

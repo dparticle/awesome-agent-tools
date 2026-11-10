@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — do not edit by hand. Run `python scripts/agentindex.py build` (or wait for the daily workflow). -->
 
-# automagik-dev/genie
+# automagik-si/genie
 
 > Give /wish one decided task.
 
-[Repository](https://github.com/automagik-dev/genie) · [Back to index](../../README.md) · Category: **None**
+[Repository](https://github.com/automagik-si/genie) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 351 |
-| Star velocity | 0.6/day (history basis, 5d span) |
+| Stars | 352 |
+| Star velocity | 0.8/day (lifetime basis, 466d span) |
 | Health score | 55/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -84,7 +84,7 @@ Score **55/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 50.9 |
-| momentum | 0.5 |
+| momentum | 0.6 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 100.0 |

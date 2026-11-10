@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 123,
-  "days_since_push": 72,
+  "age_days": 124,
+  "days_since_push": 73,
   "health_score": 47,
   "health_components": {
     "popularity": 49.0,
@@ -43,7 +43,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.3,
+    "lifetime_stars_per_day": 2.28,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -148,13 +148,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:50+00:00",
+  "fetched_at": "2026-11-10T12:42:06+00:00",
   "categories": [
     "analytics-3",
     "mcp-security",
-    "memory-failover"
+    "sharing"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
@@ -179,13 +179,13 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 106.813,
+      "star_ratio": 106.898,
       "momentum_ratio": 400.0,
       "setup_delta": -8,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "106.81x the stars (30,228 vs 283)",
+        "106.90x the stars (30,252 vs 283)",
         "400.00x the star velocity (20.0/day vs 0.0/day)",
         "no harder to set up (32 vs 40 friction)"
       ],

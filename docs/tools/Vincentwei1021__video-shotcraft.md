@@ -2,7 +2,7 @@
 
 # Vincentwei1021/video-shotcraft
 
-> English | 中文 | 日本語 | Русский
+> English | 中文 | 繁體中文 | 日本語 | Русский
 
 [Repository](https://github.com/Vincentwei1021/video-shotcraft) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 18,085 |
-| Star velocity | 252.8/day (history basis, 5d span) |
-| Health score | 83/100 |
-| Documentation | 50/100 |
+| Stars | 18,372 |
+| Star velocity | 240.2/day (history basis, 5d span) |
+| Health score | 86/100 |
+| Documentation | 56/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-19 |
-| Last push | 2026-10-29 (10 days ago) |
-| Analyzed README | 17,477 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-09 (0 days ago) |
+| Analyzed README | 17,500 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -45,7 +45,7 @@
 
 ## Documentation quality
 
-Score **50/100**, based on these detected signals:
+Score **56/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -54,16 +54,17 @@ Score **50/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
+- has a Chinese translation
 - reports benchmarks
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 85.1 |
+| popularity | 85.3 |
 | momentum | 100.0 |
-| maintenance | 92.0 |
-| documentation | 50.0 |
+| maintenance | 100.0 |
+| documentation | 56.0 |
 | accessibility | 75.0 |
 
 ---

@@ -6,9 +6,9 @@
   "url": "https://github.com/zilliztech/memsearch",
   "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
   "homepage": "https://zilliztech.github.io/memsearch/",
-  "stars": 2843,
-  "forks": 281,
-  "open_issues": 260,
+  "stars": 2855,
+  "forks": 282,
+  "open_issues": 259,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "skills"
   ],
   "created_at": "2026-02-09T02:29:16Z",
-  "updated_at": "2026-11-09T09:46:13Z",
-  "pushed_at": "2026-11-09T09:46:08Z",
+  "updated_at": "2026-11-10T11:46:57Z",
+  "pushed_at": "2026-11-10T04:08:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 273,
+  "age_days": 274,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 58,
   "health_components": {
     "popularity": 69.1,
-    "momentum": 4.0,
+    "momentum": 5.7,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 24,
+    "stars_gained": 34,
     "days_span": 5,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 10.41,
+    "stars_per_day": 6.8,
+    "lifetime_stars_per_day": 10.42,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -156,17 +156,82 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:49+00:00",
+  "fetched_at": "2026-11-10T12:41:11+00:00",
   "categories": [
     "desktop-ui",
-    "memory-failover"
+    "model-routing",
+    "sharing"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sharing",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "rohitg00/agentmemory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "zilliztech/memsearch",
+      "challenger": "rohitg00/agentmemory",
+      "incumbent_name": "zilliztech/memsearch",
+      "challenger_name": "rohitg00/agentmemory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "memory-context",
+        "model-routing",
+        "self-hosted",
+        "skills-plugins",
+        "team-collaboration"
+      ],
+      "star_ratio": 10.596,
+      "momentum_ratio": 2.941,
+      "setup_delta": -17,
+      "dominance": 0.934,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "10.60x the stars (30,252 vs 2,855)",
+        "2.94x the star velocity (20.0/day vs 6.8/day)",
+        "no harder to set up (32 vs 49 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "model-routing",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "quota-management",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration"
+        ],
+        "incumbent_health": 58,
+        "challenger_health": 69,
+        "incumbent_setup_score": 49,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

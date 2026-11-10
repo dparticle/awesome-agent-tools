@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 944 |
-| Star velocity | 69.6/day (history basis, 5d span) |
-| Health score | 68/100 |
-| Documentation | 46/100 |
-| Tier | ✅ Recommended |
+| Stars | 1,190 |
+| Star velocity | 118.6/day (history basis, 5d span) |
+| Health score | 78/100 |
+| Documentation | 41/100 |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-08-19 |
-| Last push | 2026-11-09 (0 days ago) |
-| Analyzed README | 9,733 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-10 (0 days ago) |
+| Analyzed README | 9,231 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -51,12 +51,11 @@
 
 ## Documentation quality
 
-Score **46/100**, based on these detected signals:
+Score **41/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - documents installation
-- documents configuration
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
@@ -66,10 +65,10 @@ Score **46/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 59.5 |
-| momentum | 58.0 |
+| popularity | 61.5 |
+| momentum | 98.8 |
 | maintenance | 100.0 |
-| documentation | 46.0 |
+| documentation | 41.0 |
 | accessibility | 87.0 |
 
 ---

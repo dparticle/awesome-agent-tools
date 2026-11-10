@@ -7,7 +7,7 @@
   "description": "Universal LLM Gateway: One API, every LLM. OpenAI/Anthropic-compatible endpoints with multi-provider translation and intelligent load-balancing.",
   "homepage": "",
   "stars": 560,
-  "forks": 106,
+  "forks": 105,
   "open_issues": 19,
   "language": "Python",
   "license": "NOASSERTION",
@@ -24,13 +24,13 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 516,
-  "days_since_push": 7,
-  "health_score": 51,
+  "age_days": 517,
+  "days_since_push": 8,
+  "health_score": 49,
   "health_components": {
     "popularity": 55.0,
     "momentum": 0.2,
-    "maintenance": 100.0,
+    "maintenance": 92.0,
     "documentation": 70.0,
     "accessibility": 34.0
   },
@@ -39,7 +39,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.09,
+    "lifetime_stars_per_day": 1.08,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -167,13 +167,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:22+00:00",
+  "fetched_at": "2026-11-10T12:41:41+00:00",
   "categories": [
-    "analytics-3",
     "billing",
-    "sharing"
+    "memory-failover",
+    "quota"
   ],
-  "primary_category": "sharing",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

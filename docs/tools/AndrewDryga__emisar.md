@@ -13,15 +13,15 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 375 |
-| Star velocity | 8.8/day (history basis, 5d span) |
-| Health score | 54/100 |
+| Star velocity | 7.3/day (history basis, 6d span) |
+| Health score | 53/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | Elixir |
 | Created | 2026-05-19 |
-| Last push | 2026-11-08 (1 days ago) |
+| Last push | 2026-11-09 (0 days ago) |
 | Analyzed README | 10,457 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer)** — Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).
@@ -72,7 +72,7 @@ Score **53/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.5 |
-| momentum | 7.3 |
+| momentum | 6.1 |
 | maintenance | 100.0 |
 | documentation | 53.0 |
 | accessibility | 75.0 |

@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 382 |
+| Stars | 388 |
 | Star velocity | 7.4/day (history basis, 5d span) |
 | Health score | 50/100 |
 | Documentation | 37/100 |
@@ -21,10 +21,10 @@
 | License | GPL-3.0 |
 | Language | TypeScript |
 | Created | 2026-09-28 |
-| Last push | 2026-11-09 (0 days ago) |
+| Last push | 2026-11-10 (0 days ago) |
 | Analyzed README | 17,636 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -75,7 +75,7 @@ Score **37/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.6 |
+| popularity | 51.8 |
 | momentum | 6.2 |
 | maintenance | 100.0 |
 | documentation | 37.0 |

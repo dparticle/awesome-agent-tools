@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 923 |
+| Stars | 924 |
 | Star velocity | 0.8/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 34/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-01-14 |
-| Last push | 2026-11-09 (0 days ago) |
+| Last push | 2026-11-09 (1 days ago) |
 | Analyzed README | 11,833 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [yetone/magpie](https://github.com/yetone/magpie)** — Superseded by yetone/magpie: covers 100% of capabilities (4/4).

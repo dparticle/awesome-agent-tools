@@ -6,8 +6,8 @@
   "url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
   "description": "WorkBuddy 国际国内多账号反代网关，支持 Codex / Claude Code / DSH与标准 OpenAI 客户端。",
   "homepage": "https://github.com/ardeyouxipianyi/workbuddy2api-intl/releases",
-  "stars": 3777,
-  "forks": 938,
+  "stars": 3849,
+  "forks": 944,
   "open_issues": 17,
   "language": "Python",
   "license": "MIT",
@@ -25,42 +25,40 @@
     "workbuddy2api"
   ],
   "created_at": "2026-09-12T09:03:40Z",
-  "updated_at": "2026-11-09T12:27:52Z",
-  "pushed_at": "2026-11-09T09:30:32Z",
+  "updated_at": "2026-11-10T12:30:07Z",
+  "pushed_at": "2026-11-10T12:30:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 58,
+  "age_days": 59,
   "days_since_push": 0,
   "health_score": 69,
   "health_components": {
-    "popularity": 71.5,
-    "momentum": 54.3,
+    "popularity": 71.7,
+    "momentum": 54.4,
     "maintenance": 100.0,
-    "documentation": 55.0,
-    "accessibility": 58.0
+    "documentation": 52.0,
+    "accessibility": 64.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3777,
-    "days_span": 58,
-    "stars_per_day": 65.12,
-    "lifetime_stars_per_day": 65.12,
+    "stars_gained": 3849,
+    "days_span": 59,
+    "stars_per_day": 65.24,
+    "lifetime_stars_per_day": 65.24,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "ardeyouxipianyi/workbuddy2api-hub",
-    "readme_chars": 19828,
+    "readme_chars": 11274,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
       "auto-failover",
-      "mobile-access",
       "model-routing",
       "api-gateway",
       "quota-distribution",
-      "billing-metering",
       "usage-analytics",
       "skills-plugins",
       "security-isolation",
@@ -70,42 +68,38 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "：将 WorkBuddy（国际版/国内版）与 CodeArts 封装为标准 OpenAI 格式（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。",
+      "multi-account-switching": "# WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢",
       "quota-management": "",
       "auto-failover": "（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。",
-      "mobile-access": "ge()，三种出口各回各的；「模型准入」的候选清单也补上 ?realm=codearts（它的 13 个模型与 intl / cn 完全不交集，以前一个都选不到、只能手填 id），绑定了出口的 Key 只列该出口的目录并在清单上方标出出口，未绑定（跟随面板切换）的才取全量；清单按出口分别缓存，不再由先打开的 Key 决定后面所有 Key 的清单。",
-      "model-routing": "翻译前保留的原文比对，三种语言的分组结果一致；另补上漏归的「选择网页活跃提示词」（原来被归到「日志与系统」）。",
+      "model-routing": "绑定**：可固定走国际版、国内版或 CodeArts；",
       "api-gateway": "# WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢",
       "quota-distribution": "",
-      "billing-metering": "",
       "usage-analytics": "",
       "skills-plugins": "",
-      "security-isolation": "加油站签到与猫猫旅行，支持国际版每日活跃会话与 CodeArts 自动签到。",
+      "security-isolation": "",
       "self-hosted": "",
       "gui-desktop": "",
       "notifications": "",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
-      "multi-account-switching": 7,
+      "multi-account-switching": 2,
       "quota-management": 1,
       "auto-failover": 1,
-      "mobile-access": 2,
-      "model-routing": 2,
-      "api-gateway": 10,
+      "model-routing": 1,
+      "api-gateway": 8,
       "quota-distribution": 1,
-      "billing-metering": 1,
       "usage-analytics": 1,
       "skills-plugins": 1,
-      "security-isolation": 3,
+      "security-isolation": 1,
       "self-hosted": 1,
       "gui-desktop": 1,
       "notifications": 1,
       "cross-agent-support": 2
     },
     "friction": {
-      "level": "moderate",
-      "score": 42,
+      "level": "low",
+      "score": 36,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -117,7 +111,6 @@
       "config_signals": [
         "API key configuration",
         "OAuth login flow",
-        "sign-in required",
         "server/reverse-proxy setup"
       ],
       "friendliness_signals": [
@@ -129,10 +122,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via curl | sh installer; needs docker compose up; configure API key configuration, OAuth login flow; Chinese: beginner/one-click framing",
-      "note_zh": "需要一些配置。可通过 curl | sh installer 安装；需要 docker compose up；需配置 API key configuration、OAuth login flow；Chinese: beginner/one-click framing"
+      "note_en": "Easy. install via curl | sh installer; needs docker compose up; configure API key configuration, OAuth login flow; Chinese: beginner/one-click framing",
+      "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 docker compose up；需配置 API key configuration、OAuth login flow；Chinese: beginner/one-click framing"
     },
-    "doc_score": 55,
+    "doc_score": 52,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -159,7 +152,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.757
+      "external_link_ratio": 1.508
     },
     "highlights": [
       "打开看板 http://127.0.0.1:8788/，点击「+ 添加账号 (OAuth)」，在浏览器中完成官方登录授权即可自动入库。",
@@ -176,11 +169,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:17+00:00",
+  "fetched_at": "2026-11-10T12:40:43+00:00",
   "categories": [
-    "analytics-3",
     "billing",
-    "sharing"
+    "quota",
+    "voice"
   ],
   "primary_category": "billing",
   "lifecycle": {

@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 140884,
-  "forks": 20794,
-  "open_issues": 75,
+  "stars": 141031,
+  "forks": 20806,
+  "open_issues": 92,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-09T12:48:53Z",
-  "pushed_at": "2026-11-09T12:44:51Z",
+  "updated_at": "2026-11-10T12:36:14Z",
+  "pushed_at": "2026-11-10T09:34:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 242,
+  "age_days": 243,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
@@ -30,16 +30,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1848,
+    "stars_gained": 1408,
     "days_span": 5,
-    "stars_per_day": 369.6,
-    "lifetime_stars_per_day": 582.17,
+    "stars_per_day": 281.6,
+    "lifetime_stars_per_day": 580.37,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 40731,
+    "readme_chars": 40795,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.344
+      "external_link_ratio": 0.343
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -153,11 +153,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:23+00:00",
+  "fetched_at": "2026-11-10T12:40:48+00:00",
   "categories": [
     "desktop-ui",
     "isolation-teams",
-    "mcp-security"
+    "memory-failover"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

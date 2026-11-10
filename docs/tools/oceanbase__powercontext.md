@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,552 |
-| Star velocity | 13.8/day (history basis, 5d span) |
-| Health score | 55/100 |
+| Stars | 1,573 |
+| Star velocity | 18.2/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-11-09 (0 days ago) |
+| Last push | 2026-11-10 (0 days ago) |
 | Analyzed README | 23,565 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram)** — Superseded by Gentleman-Programming/engram: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -74,8 +74,8 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 63.8 |
-| momentum | 11.5 |
+| popularity | 63.9 |
+| momentum | 15.2 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
 | accessibility | 31.0 |

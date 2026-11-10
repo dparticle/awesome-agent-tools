@@ -6,7 +6,7 @@
   "url": "https://github.com/Xpropel/Pi-Remote",
   "description": "Remote control for your pi coding agent. Pi-Remote mirrors live pi terminal sessions to any browser, so you can watch runs, answer prompts, and send commands from your phone — end-to-end encrypted over a self-hosted relay.",
   "homepage": "",
-  "stars": 324,
+  "stars": 327,
   "forks": 10,
   "open_issues": 0,
   "language": "TypeScript",
@@ -28,27 +28,27 @@
     "websocket"
   ],
   "created_at": "2026-10-28T10:46:22Z",
-  "updated_at": "2026-11-09T12:39:14Z",
+  "updated_at": "2026-11-09T22:44:36Z",
   "pushed_at": "2026-11-09T12:39:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 12,
-  "days_since_push": 0,
+  "age_days": 13,
+  "days_since_push": 1,
   "health_score": 53,
   "health_components": {
-    "popularity": 50.2,
-    "momentum": 5.5,
+    "popularity": 50.3,
+    "momentum": 4.7,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 33,
+    "stars_gained": 28,
     "days_span": 5,
-    "stars_per_day": 6.6,
-    "lifetime_stars_per_day": 27.0,
+    "stars_per_day": 5.6,
+    "lifetime_stars_per_day": 25.15,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:41+00:00",
+  "fetched_at": "2026-11-10T12:41:57+00:00",
   "categories": [
     "desktop-ui-2",
     "model-routing"

@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 285 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 62/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-05-29 |
-| Last push | 2026-11-09 (0 days ago) |
-| Analyzed README | 26,168 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-10 (0 days ago) |
+| Analyzed README | 27,160 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [Lyellr88/marm-memory](https://github.com/Lyellr88/marm-memory)** — Superseded by Lyellr88/marm-memory: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ### MCP support
 
-> **One binary.** No Python, no Docker, no vector database, no API key.
+> binary.** No Python, no Docker, no vector database, no API key.
 
 ### Self-hostable
 
@@ -84,7 +84,7 @@ Score **62/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 49.1 |
-| momentum | 0.2 |
+| momentum | 0.0 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 63.0 |

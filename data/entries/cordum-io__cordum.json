@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 301,
-  "days_since_push": 5,
+  "age_days": 302,
+  "days_since_push": 6,
   "health_score": 52,
   "health_components": {
     "popularity": 54.2,
@@ -171,7 +171,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:27+00:00",
+  "fetched_at": "2026-11-10T12:41:45+00:00",
   "categories": [
     "isolation-teams",
     "mcp-security",

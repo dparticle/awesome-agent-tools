@@ -6,9 +6,9 @@
   "url": "https://github.com/phuryn/pm-skills",
   "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
   "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
-  "stars": 27803,
-  "forks": 2875,
-  "open_issues": 49,
+  "stars": 27835,
+  "forks": 2877,
+  "open_issues": 50,
   "language": "",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "product-management"
   ],
   "created_at": "2026-03-01T23:33:44Z",
-  "updated_at": "2026-11-09T12:46:58Z",
+  "updated_at": "2026-11-10T12:36:53Z",
   "pushed_at": "2026-11-08T23:10:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
-  "days_since_push": 0,
+  "age_days": 253,
+  "days_since_push": 1,
   "health_score": 67,
   "health_components": {
     "popularity": 88.9,
-    "momentum": 20.5,
+    "momentum": 21.2,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 123,
+    "stars_gained": 127,
     "days_span": 5,
-    "stars_per_day": 24.6,
-    "lifetime_stars_per_day": 110.33,
+    "stars_per_day": 25.4,
+    "lifetime_stars_per_day": 110.02,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:38+00:00",
+  "fetched_at": "2026-11-10T12:41:01+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -161,13 +161,13 @@
         "usage-analytics"
       ],
       "star_ratio": 1.777,
-      "momentum_ratio": 2.146,
+      "momentum_ratio": 2.102,
       "setup_delta": 3,
-      "dominance": 0.761,
+      "dominance": 0.758,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.78x the stars (49,393 vs 27,803)",
-        "2.15x the star velocity (52.8/day vs 24.6/day)",
+        "1.78x the stars (49,460 vs 27,835)",
+        "2.10x the star velocity (53.4/day vs 25.4/day)",
         "slightly heavier setup (+3 friction, within tolerance)"
       ],
       "reasons_zh": [],

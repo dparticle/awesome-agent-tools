@@ -6,9 +6,9 @@
   "url": "https://github.com/Socialpranker/deepdive",
   "description": "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints.",
   "homepage": "https://socialpranker.github.io/deepdive/",
-  "stars": 365,
+  "stars": 366,
   "forks": 6,
-  "open_issues": 4,
+  "open_issues": 3,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -29,16 +29,16 @@
     "research-methodology"
   ],
   "created_at": "2026-05-21T11:43:13Z",
-  "updated_at": "2026-11-09T08:26:25Z",
-  "pushed_at": "2026-11-09T12:46:44Z",
+  "updated_at": "2026-11-09T19:59:29Z",
+  "pushed_at": "2026-11-09T13:24:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 172,
+  "age_days": 173,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
-    "popularity": 51.2,
+    "popularity": 51.3,
     "momentum": 1.8,
     "maintenance": 100.0,
     "documentation": 72.0,
@@ -46,8 +46,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 365,
-    "days_span": 172,
+    "stars_gained": 366,
+    "days_span": 173,
     "stars_per_day": 2.12,
     "lifetime_stars_per_day": 2.12,
     "basis": "lifetime",
@@ -55,7 +55,7 @@
   },
   "analysis": {
     "full_name": "Socialpranker/deepdive",
-    "readme_chars": 32014,
+    "readme_chars": 32031,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -119,7 +119,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.469
+      "external_link_ratio": 0.468
     },
     "highlights": [
       "Evidence-фильтр (фаза 5.5) — CRAG-классификатор keep/drop по паре (тезис, источник) перед синтезом: наивная подача всего найденного снижает качество (Search-o1 33%→24%), в синтез идут тольк…",
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:39+00:00",
+  "fetched_at": "2026-11-10T12:41:56+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -162,14 +162,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 135.323,
-      "momentum_ratio": 24.906,
+      "star_ratio": 135.137,
+      "momentum_ratio": 25.189,
       "setup_delta": -21,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "135.32x the stars (49,393 vs 365)",
-        "24.91x the star velocity (52.8/day vs 2.1/day)",
+        "135.14x the stars (49,460 vs 366)",
+        "25.19x the star velocity (53.4/day vs 2.1/day)",
         "no harder to set up (30 vs 51 friction)"
       ],
       "reasons_zh": [],

@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 381 |
+| Stars | 382 |
 | Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 44/100 |
 | Documentation | 69/100 |
@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | Python |
 | Created | 2026-02-17 |
-| Last push | 2026-09-27 (42 days ago) |
+| Last push | 2026-09-27 (43 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).

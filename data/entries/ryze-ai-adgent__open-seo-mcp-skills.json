@@ -6,8 +6,8 @@
   "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
   "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
   "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
-  "stars": 9010,
-  "forks": 394,
+  "stars": 9076,
+  "forks": 395,
   "open_issues": 4,
   "language": "Shell",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "seo-mcp-server"
   ],
   "created_at": "2026-08-29T23:37:01Z",
-  "updated_at": "2026-11-09T12:42:21Z",
+  "updated_at": "2026-11-10T12:30:23Z",
   "pushed_at": "2026-10-27T08:57:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 71,
-  "days_since_push": 13,
+  "age_days": 72,
+  "days_since_push": 14,
   "health_score": 63,
   "health_components": {
-    "popularity": 79.1,
-    "momentum": 38.0,
+    "popularity": 79.2,
+    "momentum": 38.5,
     "maintenance": 92.0,
     "documentation": 43.0,
     "accessibility": 50.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 228,
+    "stars_gained": 231,
     "days_span": 5,
-    "stars_per_day": 45.6,
-    "lifetime_stars_per_day": 126.9,
+    "stars_per_day": 46.2,
+    "lifetime_stars_per_day": 126.06,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,16 +133,69 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:05+00:00",
+  "fetched_at": "2026-11-10T12:40:33+00:00",
   "categories": [
     "mcp-security"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "genspark-ai/genoffice",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "ryze-ai-adgent/open-seo-mcp-skills",
+      "challenger": "genspark-ai/genoffice",
+      "incumbent_name": "Ryze-AI-Adgent/open-seo-mcp-skills",
+      "challenger_name": "genspark-ai/genoffice",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "model-routing",
+        "skills-plugins"
+      ],
+      "star_ratio": 1.331,
+      "momentum_ratio": 1.407,
+      "setup_delta": -30,
+      "dominance": 0.658,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "1.33x the stars (12,082 vs 9,076)",
+        "1.41x the star velocity (65.0/day vs 46.2/day)",
+        "no harder to set up (20 vs 50 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 63,
+        "challenger_health": 75,
+        "incumbent_setup_score": 50,
+        "challenger_setup_score": 20
+      }
+    }
   }
 }

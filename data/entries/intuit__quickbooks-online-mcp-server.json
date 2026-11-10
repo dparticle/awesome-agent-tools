@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2025-10-06T17:17:39Z",
-  "updated_at": "2026-11-07T16:48:58Z",
+  "updated_at": "2026-11-10T00:06:04Z",
   "pushed_at": "2026-09-15T17:56:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 398,
-  "days_since_push": 54,
+  "age_days": 399,
+  "days_since_push": 55,
   "health_score": 43,
   "health_components": {
     "popularity": 53.0,
@@ -116,11 +116,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:31+00:00",
+  "fetched_at": "2026-11-10T12:41:49+00:00",
   "categories": [
-    "billing-2"
+    "analytics-3"
   ],
-  "primary_category": "billing-2",
+  "primary_category": "analytics-3",
   "lifecycle": {
     "state": "active",
     "note_en": "",

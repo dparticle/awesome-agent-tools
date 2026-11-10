@@ -6,7 +6,7 @@
   "url": "https://github.com/shx2005/codex-account-switcher",
   "description": "你是否厌倦了 Codex 多个账号之间来回切换？本地账号管理、官方登录、额度查询、快速切换与跨设备导入导出。Local Codex account profiles, login, usage, switching, and export/import.",
   "homepage": "",
-  "stars": 963,
+  "stars": 969,
   "forks": 62,
   "open_issues": 0,
   "language": "Python",
@@ -19,13 +19,13 @@
     "python"
   ],
   "created_at": "2026-10-03T14:38:55Z",
-  "updated_at": "2026-11-09T11:01:14Z",
+  "updated_at": "2026-11-09T22:18:32Z",
   "pushed_at": "2026-10-20T06:11:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 36,
-  "days_since_push": 20,
+  "age_days": 37,
+  "days_since_push": 21,
   "health_score": 51,
   "health_components": {
     "popularity": 59.7,
@@ -39,7 +39,7 @@
     "stars_gained": 75,
     "days_span": 5,
     "stars_per_day": 15.0,
-    "lifetime_stars_per_day": 26.75,
+    "lifetime_stars_per_day": 26.19,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -138,79 +138,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:06+00:00",
+  "fetched_at": "2026-11-10T12:41:26+00:00",
   "categories": [
     "analytics-3",
-    "billing"
+    "billing",
+    "memory-failover"
   ],
   "primary_category": "billing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by ardeyouxipianyi/workbuddy2api-hub: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 ardeyouxipianyi/workbuddy2api-hub 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "ardeyouxipianyi/workbuddy2api-hub",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "shx2005/codex-account-switcher",
-      "challenger": "ardeyouxipianyi/workbuddy2api-hub",
-      "incumbent_name": "shx2005/codex-account-switcher",
-      "challenger_name": "ardeyouxipianyi/workbuddy2api-hub",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "billing-metering",
-        "gui-desktop",
-        "multi-account-switching",
-        "quota-management",
-        "security-isolation",
-        "self-hosted"
-      ],
-      "star_ratio": 3.922,
-      "momentum_ratio": 4.341,
-      "setup_delta": -33,
-      "dominance": 0.982,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "3.92x the stars (3,777 vs 963)",
-        "4.34x the star velocity (65.1/day vs 15.0/day)",
-        "no harder to set up (42 vs 75 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "billing-metering",
-          "gui-desktop",
-          "multi-account-switching",
-          "quota-management",
-          "security-isolation",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mobile-access",
-          "model-routing",
-          "multi-account-switching",
-          "notifications",
-          "quota-distribution",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "usage-analytics"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 69,
-        "incumbent_setup_score": 75,
-        "challenger_setup_score": 42
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,239 |
-| Star velocity | 706.5/day (lifetime basis, 6d span) |
-| Health score | 83/100 |
+| Stars | 4,389 |
+| Star velocity | 627.0/day (lifetime basis, 7d span) |
+| Health score | 84/100 |
 | Documentation | 59/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-11-03 |
-| Last push | 2026-11-09 (0 days ago) |
-| Analyzed README | 10,923 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-10 (0 days ago) |
+| Analyzed README | 10,895 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,11 +42,9 @@
 
 ### MCP support
 
-> 。 给 GitHub PR 打上 deliver 标签后，它会自己跟进到上线：审代码 → 等 CI → 合并 PR → 等部署 → 核对线上版本。审查和交付配置只从 main 读取，绝不在接单电脑上检出或运行 PR 里的代码；排队、并发和重试直接复用内核。
-
 ### Notifications
 
-> 则写 "resume": true 就接着上一轮的会话。
+> 认开新会话；规则写 "resume": true 就接着上一轮的会话。
 
 ### Cross-agent support
 
@@ -85,7 +83,7 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 72.5 |
+| popularity | 72.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 59.0 |

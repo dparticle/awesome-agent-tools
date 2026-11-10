@@ -7,7 +7,7 @@
   "description": "Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous self-correction layer add almost no token cost; 1M context, Skills/MCP/Hooks, Claude Code config compatible.",
   "homepage": "https://www.npmjs.com/package/dao-code",
   "stars": 786,
-  "forks": 26,
+  "forks": 27,
   "open_issues": 12,
   "language": "TypeScript",
   "license": "MIT",
@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 154,
-  "days_since_push": 12,
+  "age_days": 155,
+  "days_since_push": 13,
   "health_score": 52,
   "health_components": {
     "popularity": 57.9,
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 8,
+    "days_span": 9,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.1,
+    "lifetime_stars_per_day": 5.07,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -176,11 +176,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:55:15+00:00",
+  "fetched_at": "2026-11-10T12:41:35+00:00",
   "categories": [
     "desktop-ui",
     "isolation-teams",
-    "mcp-security"
+    "model-routing"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

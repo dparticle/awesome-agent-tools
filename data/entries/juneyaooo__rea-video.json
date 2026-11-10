@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "full_name": "JuneYaooo/rea-video",
+  "name": "rea-video",
+  "owner": "JuneYaooo",
+  "url": "https://github.com/JuneYaooo/rea-video",
+  "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
+  "homepage": "https://www.reavideo.ai/",
+  "stars": 6028,
+  "forks": 864,
+  "open_issues": 5,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-skills",
+    "ai-video",
+    "aigc-detection",
+    "claude-code",
+    "codex",
+    "ffmpeg",
+    "prompt-engineering",
+    "remotion",
+    "reverse-engineering",
+    "short-video",
+    "shot-detection",
+    "subtitles",
+    "video-analysis",
+    "video-breakdown",
+    "video-editing",
+    "video-generation",
+    "vlm"
+  ],
+  "created_at": "2026-10-29T16:15:01Z",
+  "updated_at": "2026-11-10T12:37:40Z",
+  "pushed_at": "2026-11-09T15:40:48Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 11,
+  "days_since_push": 0,
+  "health_score": 84,
+  "health_components": {
+    "popularity": 75.6,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 49.0,
+    "accessibility": 90.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 6028,
+    "days_span": 11,
+    "stars_per_day": 548.0,
+    "lifetime_stars_per_day": 548.0,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "JuneYaooo/rea-video",
+    "readme_chars": 15646,
+    "capabilities": [
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "self-hosted": "a video down, the remake recipe in capsule-cinema generates a new version that keeps the original's camera, motion, pacing and transitions and swaps only the elements you pick.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "self-hosted": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 18,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "Homebrew install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via Homebrew install; needs git clone (build from source); one-click setup",
+      "note_zh": "开箱即用。可通过 Homebrew install 安装；需要 git clone (build from source)；one-click setup"
+    },
+    "doc_score": 49,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has troubleshooting/FAQ"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Reverse-engineer any video.",
+    "summary_zh": "",
+    "install_hint": "brew install ffmpeg            # or: sudo apt install ffmpeg",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.023
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-10T12:40:38+00:00",
+  "categories": [
+    "analytics"
+  ],
+  "primary_category": "analytics",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 441 |
+| Stars | 442 |
 | Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 41/100 |
 | Documentation | 50/100 |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-21 |
-| Last push | 2026-07-30 (102 days ago) |
+| Last push | 2026-07-30 (103 days ago) |
 | Analyzed README | 16,146 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [zilliztech/memsearch](https://github.com/zilliztech/memsearch)** — Superseded by zilliztech/memsearch: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).
 
 ## What it solves
 

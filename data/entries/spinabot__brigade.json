@@ -6,9 +6,9 @@
   "url": "https://github.com/spinabot/brigade",
   "description": "Brigade — Your personal intelligence, built enterprise-grade",
   "homepage": "https://www.brigade.spinabot.com",
-  "stars": 11370,
+  "stars": 11373,
   "forks": 81,
-  "open_issues": 43,
+  "open_issues": 44,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,13 +34,13 @@
     "spinabot"
   ],
   "created_at": "2026-06-19T15:18:17Z",
-  "updated_at": "2026-11-09T06:36:06Z",
-  "pushed_at": "2026-11-04T07:20:01Z",
+  "updated_at": "2026-11-10T07:21:53Z",
+  "pushed_at": "2026-11-09T22:51:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
-  "days_since_push": 5,
+  "age_days": 143,
+  "days_since_push": 0,
   "health_score": 60,
   "health_components": {
     "popularity": 81.1,
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 80.07,
+    "lifetime_stars_per_day": 79.53,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -193,13 +193,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:03+00:00",
+  "fetched_at": "2026-11-10T12:40:30+00:00",
   "categories": [
     "analytics-3",
-    "mcp-security",
-    "memory-failover"
+    "billing",
+    "sharing"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,091 |
-| Star velocity | 107.0/day (history basis, 5d span) |
-| Health score | 79/100 |
-| Documentation | 59/100 |
-| Tier | 🏆 Flagship |
+| Stars | 2,164 |
+| Star velocity | 91.8/day (history basis, 5d span) |
+| Health score | 76/100 |
+| Documentation | 62/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-10 |
-| Last push | 2026-11-09 (0 days ago) |
-| Analyzed README | 61,866 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-10 (0 days ago) |
+| Analyzed README | 61,156 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Multi-agent orchestration
 
-> e, and a bounded work classification that other sessions can list, search, and consult with explicit cost permission.
+> Understanding that outgrows one inline batch (about 3 calls and 10k tokens) gets one read-only explorer; two or more independent units of behavior, each big enough to outweigh a subagent's start-up and with disjoint edi…
 
 ### Parallel execution
 
@@ -95,7 +95,7 @@
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **62/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -104,6 +104,7 @@ Score **59/100**, based on these detected signals:
 - documents configuration
 - has contribution guidance
 - mentions licensing
+- publishes a roadmap
 - reports benchmarks
 - explains architecture
 - long, detailed README
@@ -112,10 +113,10 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 66.4 |
-| momentum | 89.2 |
+| popularity | 66.7 |
+| momentum | 76.5 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
+| documentation | 62.0 |
 | accessibility | 78.0 |
 
 ---

@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://www.agent-memory.dev/docs",
-  "stars": 30228,
-  "forks": 2677,
-  "open_issues": 417,
+  "stars": 30252,
+  "forks": 2682,
+  "open_issues": 444,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -30,12 +30,12 @@
     "pi"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-11-09T12:10:56Z",
-  "pushed_at": "2026-11-09T12:21:23Z",
+  "updated_at": "2026-11-10T12:07:10Z",
+  "pushed_at": "2026-11-10T11:55:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 257,
+  "age_days": 258,
   "days_since_push": 0,
   "health_score": 69,
   "health_components": {
@@ -50,7 +50,7 @@
     "stars_gained": 100,
     "days_span": 5,
     "stars_per_day": 20.0,
-    "lifetime_stars_per_day": 117.62,
+    "lifetime_stars_per_day": 117.26,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -202,13 +202,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-09T12:54:37+00:00",
+  "fetched_at": "2026-11-10T12:41:00+00:00",
   "categories": [
     "analytics-3",
     "mcp-security",
-    "memory-failover"
+    "sharing"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

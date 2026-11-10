@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,530 |
-| Star velocity | 89.2/day (history basis, 5d span) |
-| Health score | 77/100 |
-| Documentation | 74/100 |
+| Stars | 10,613 |
+| Star velocity | 80.0/day (history basis, 5d span) |
+| Health score | 76/100 |
+| Documentation | 78/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-11-09 (0 days ago) |
-| Analyzed README | 45,647 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-10 (0 days ago) |
+| Analyzed README | 46,685 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (9/9).
 
 ## What it solves
 
@@ -48,6 +50,8 @@
 
 > Defaults to ../examples/fintech.
 
+### GUI / desktop app
+
 ### Notifications
 
 ## Setup reality check
@@ -67,7 +71,7 @@
 
 ## Documentation quality
 
-Score **74/100**, based on these detected signals:
+Score **78/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -79,6 +83,7 @@ Score **74/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
+- documents changes
 - explains architecture
 - long, detailed README
 
@@ -86,10 +91,10 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.4 |
-| momentum | 74.3 |
+| popularity | 80.5 |
+| momentum | 66.7 |
 | maintenance | 100.0 |
-| documentation | 74.0 |
+| documentation | 78.0 |
 | accessibility | 42.0 |
 
 ---
