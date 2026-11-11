@@ -24,36 +24,37 @@
     "self-hosted"
   ],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-11-10T12:04:24Z",
-  "pushed_at": "2026-11-10T12:04:18Z",
+  "updated_at": "2026-11-11T09:28:20Z",
+  "pushed_at": "2026-11-11T08:28:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
+  "age_days": 147,
   "days_since_push": 0,
-  "health_score": 51,
+  "health_score": 50,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 42.0,
-    "accessibility": 78.0
+    "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 3.81,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 3.78,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "BennyKok/omg.dev",
-    "readme_chars": 4097,
+    "readme_chars": 4007,
     "capabilities": [
       "remote-control",
       "mobile-access",
+      "multi-agent-orchestration",
       "agent-runtime",
       "self-hosted",
       "gui-desktop",
@@ -63,15 +64,17 @@
     "capability_evidence": {
       "remote-control": "",
       "mobile-access": "",
+      "multi-agent-orchestration": "",
       "agent-runtime": "Build your ideas on the go. Give your agents a task from your phone.",
       "self-hosted": "",
-      "gui-desktop": "-click the app, choose Open, then Open again.",
-      "notifications": "",
+      "gui-desktop": "agent, OpenCode, fx, Muse, DeepSeek, Devin, Jcode, Copilot, and Pi.",
+      "notifications": "ask another computer to run an action, and you",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
       "remote-control": 1,
       "mobile-access": 1,
+      "multi-agent-orchestration": 1,
       "agent-runtime": 2,
       "self-hosted": 1,
       "gui-desktop": 1,
@@ -80,12 +83,11 @@
     },
     "friction": {
       "level": "low",
-      "score": 22,
+      "score": 31,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
-        "curl | sh installer",
-        "native installer / package"
+        "curl | sh installer"
       ],
       "hard_signals": [
         "git clone (build from source)"
@@ -99,8 +101,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via curl | sh installer, native installer / package; needs git clone (build from source); configure sign-in required",
-      "note_zh": "较易上手。可通过 curl | sh installer、native installer / package 安装；需要 git clone (build from source)；需配置 sign-in required"
+      "note_en": "Easy. install via curl | sh installer; needs git clone (build from source); configure sign-in required",
+      "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 git clone (build from source)；需配置 sign-in required"
     },
     "doc_score": 42,
     "doc_signals": [
@@ -127,13 +129,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 2.441
+      "external_link_ratio": 1.997
     },
     "highlights": [
       "Managed sessions keep running when the UI disconnects.",
       "Your existing agent subscriptions or API keys.",
-      "Several coding-agent sessions in parallel.",
-      "Transcripts and follow-ups in the web UI."
+      "Linked devices: an agent can ask another computer to run an action, and you",
+      "For Claude and Codex, the agent's plan beside the chat: its to-do steps,"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -144,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:41+00:00",
+  "fetched_at": "2026-11-11T11:55:05+00:00",
   "categories": [
     "analytics",
     "desktop-ui-2",

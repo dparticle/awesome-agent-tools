@@ -149,11 +149,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:51+00:00",
+  "fetched_at": "2026-11-11T11:55:15+00:00",
   "categories": [
-    "desktop-ui",
     "desktop-ui-2",
-    "isolation-teams"
+    "isolation-teams",
+    "memory-failover"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

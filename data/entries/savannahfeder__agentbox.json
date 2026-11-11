@@ -6,7 +6,7 @@
   "url": "https://github.com/savannahfeder/agentbox",
   "description": "A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them like email, or use the board view. Free, open source, on the plan you already pay for.",
   "homepage": "https://agentbox.ac",
-  "stars": 388,
+  "stars": 391,
   "forks": 42,
   "open_issues": 18,
   "language": "TypeScript",
@@ -34,27 +34,27 @@
     "worktree-manager"
   ],
   "created_at": "2026-09-28T02:35:07Z",
-  "updated_at": "2026-11-10T10:43:58Z",
-  "pushed_at": "2026-11-10T10:43:52Z",
+  "updated_at": "2026-11-11T09:57:00Z",
+  "pushed_at": "2026-11-11T08:56:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 43,
+  "age_days": 44,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 51.8,
-    "momentum": 6.2,
+    "momentum": 3.7,
     "maintenance": 100.0,
     "documentation": 37.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 37,
+    "stars_gained": 22,
     "days_span": 5,
-    "stars_per_day": 7.4,
-    "lifetime_stars_per_day": 9.02,
+    "stars_per_day": 4.4,
+    "lifetime_stars_per_day": 8.89,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:55+00:00",
+  "fetched_at": "2026-11-11T11:55:17+00:00",
   "categories": [
     "desktop-ui-2",
     "isolation-teams",
@@ -157,15 +157,15 @@
   "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "getpaseo/paseo",
+    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "iOfficeAI/AionUi",
     "challenger": "",
     "supersede": {
       "incumbent": "savannahfeder/agentbox",
-      "challenger": "getpaseo/paseo",
+      "challenger": "iofficeai/aionui",
       "incumbent_name": "savannahfeder/agentbox",
-      "challenger_name": "getpaseo/paseo",
+      "challenger_name": "iOfficeAI/AionUi",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -178,15 +178,15 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 61.101,
-      "momentum_ratio": 14.703,
-      "setup_delta": -6,
+      "star_ratio": 87.496,
+      "momentum_ratio": 6.545,
+      "setup_delta": -28,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "61.10x the stars (23,707 vs 388)",
-        "14.70x the star velocity (108.8/day vs 7.4/day)",
-        "no harder to set up (24 vs 30 friction)"
+        "87.50x the stars (34,211 vs 391)",
+        "6.55x the star velocity (28.8/day vs 4.4/day)",
+        "no harder to set up (2 vs 30 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -200,22 +200,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "mobile-access",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
           "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "voice-input",
+          "skills-plugins",
+          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 84,
+        "challenger_health": 73,
         "incumbent_setup_score": 30,
-        "challenger_setup_score": 24
+        "challenger_setup_score": 2
       }
     }
   }

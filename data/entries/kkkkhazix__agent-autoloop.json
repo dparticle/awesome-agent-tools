@@ -6,9 +6,9 @@
   "url": "https://github.com/KKKKhazix/agent-autoloop",
   "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
   "homepage": "",
-  "stars": 4389,
-  "forks": 800,
-  "open_issues": 2,
+  "stars": 4499,
+  "forks": 822,
+  "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -25,16 +25,16 @@
     "workflow"
   ],
   "created_at": "2026-11-03T08:02:11Z",
-  "updated_at": "2026-11-10T12:29:49Z",
-  "pushed_at": "2026-11-10T09:21:57Z",
+  "updated_at": "2026-11-11T11:52:35Z",
+  "pushed_at": "2026-11-11T09:53:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 7,
+  "age_days": 8,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 72.8,
+    "popularity": 73.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 59.0,
@@ -42,16 +42,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4389,
-    "days_span": 7,
-    "stars_per_day": 627.0,
-    "lifetime_stars_per_day": 627.0,
+    "stars_gained": 4499,
+    "days_span": 8,
+    "stars_per_day": 562.38,
+    "lifetime_stars_per_day": 562.38,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "KKKKhazix/agent-autoloop",
-    "readme_chars": 10895,
+    "readme_chars": 11035,
     "capabilities": [
       "quota-management",
       "api-gateway",
@@ -63,10 +63,10 @@
     ],
     "capability_evidence": {
       "quota-management": "",
-      "api-gateway": "Claude Code、Codex 和 ACP（官方 Codex ACP 适配器）跑通了多轮问答和跨进程会话续接；飞书跑通了发送、按钮回调和卡片更新；四种 Webhook 模板只在本地模拟服务上验证过，GitLab Webhook 按官方文档的格式测试，没连过真实 GitLab。",
+      "api-gateway": "CP（官方 Codex ACP 适配器）跑通了多轮问答和跨进程会话续接；ZCode 跑通了提问、回答后接回原会话；飞书跑通了发送、按钮回调和卡片更新；四种 Webhook 模板只在本地模拟服务上验证过，GitLab Webhook 按官方文档的格式测试，没连过真实 GitLab。",
       "usage-analytics": "上验证过，GitLab Webhook 按官方文档的格式测试，没连过真实 GitLab。",
       "session-persistence": "下面的性能数字 npm run benchmark ### 实测性能 Apple M5 Pro、24 GB、Node 24.21.0。",
-      "mcp-support": "",
+      "mcp-support": "进到上线：审代码 → 等 CI → 合并 PR → 等部署 → 核对线上版本。",
       "notifications": "认开新会话；规则写 \"resume\": true 就接着上一轮的会话。",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
     },
@@ -133,7 +133,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.826
+      "external_link_ratio": 0.816
     },
     "highlights": [
       "一台电脑、一条命令就能跑。 装在你的 Windows、Mac 或 Linux 上，不用买云服务器，也不用开放公网端口。",
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:41+00:00",
+  "fetched_at": "2026-11-11T11:54:13+00:00",
   "categories": [
     "billing",
     "mcp-security",
-    "quota"
+    "memory-failover"
   ],
-  "primary_category": "quota",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

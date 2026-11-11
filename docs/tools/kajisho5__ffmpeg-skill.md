@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,915 |
-| Star velocity | 68.4/day (history basis, 5d span) |
-| Health score | 77/100 |
+| Stars | 5,054 |
+| Star velocity | 83.6/day (history basis, 5d span) |
+| Health score | 80/100 |
 | Documentation | 68/100 |
-| Tier | ✅ Recommended |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-03 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 106,702 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 110,123 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -58,7 +58,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Cursor
+> Mentions Claude Code, Codex, Cursor, Gemini CLI
 
 ## Setup reality check
 
@@ -92,8 +92,8 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.8 |
-| momentum | 57.0 |
+| popularity | 74.1 |
+| momentum | 69.7 |
 | maintenance | 100.0 |
 | documentation | 68.0 |
 | accessibility | 100.0 |

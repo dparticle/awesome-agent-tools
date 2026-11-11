@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 20,366 |
-| Star velocity | 1564.0/day (history basis, 5d span) |
-| Health score | 88/100 |
+| Stars | 20,991 |
+| Star velocity | 1342.4/day (history basis, 5d span) |
+| Health score | 87/100 |
 | Documentation | 71/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-08-11 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 32,760 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 34,325 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,15 +36,15 @@
 
 ### Model / provider routing
 
-> rs can add their own MCP tool servers with zero code via docs/custom-mcp-servers.md.
+> configuration switches, defaults and model-call implications, see Feature switches.
 
 ### API gateway / proxy
 
-> g — see docs/custom-engines.md.
+> via docs/custom-mcp-servers.md.
 
 ### Usage analytics
 
-> s with zero code via docs/custom-mcp-servers.md.
+> d model-call implications, see Feature switches.
 
 ### Skills & plugins
 
@@ -56,7 +56,7 @@
 
 ### Security & isolation
 
-> ks before a potentially billable test message.
+> MCP header values in plaintext (a key a bot set from a secret card is kept
 
 ### Self-hostable
 
@@ -74,11 +74,11 @@
 
 ### Cross-agent support
 
-> Mentions Cline, Codex, Cursor
+> Mentions Cline, Codex, Cursor, OpenCode
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 28/100)
+- **Difficulty:** 🟢 Easy (friction score 34/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install -g openmausbot`
@@ -87,9 +87,9 @@
 
 **Signals that add work:** git clone (build from source), pnpm install/build, npm install/build
 
-**Configuration required:** API key configuration, OAuth login flow, sign-in required, server/reverse-proxy setup
+**Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow, sign-in required, server/reverse-proxy setup
 
-*Easy. install via npx one-liner, global npm install; needs git clone (build from source), pnpm install/build; configure API key configuration, OAuth login flow; explicitly no coding required*
+*Easy. install via npx one-liner, global npm install; needs git clone (build from source), pnpm install/build; configure API key configuration, config.json/yaml/toml; explicitly no coding required*
 
 ## Documentation quality
 
@@ -111,11 +111,11 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 86.2 |
+| popularity | 86.4 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
-| accessibility | 72.0 |
+| accessibility | 66.0 |
 
 ---
 

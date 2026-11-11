@@ -12,11 +12,11 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,838 |
-| Star velocity | 101.0/day (lifetime basis, 38d span) |
-| Health score | 77/100 |
+| Stars | 4,059 |
+| Star velocity | 104.1/day (lifetime basis, 39d span) |
+| Health score | 78/100 |
 | Documentation | 62/100 |
-| Tier | ✅ Recommended |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
@@ -80,8 +80,8 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.7 |
-| momentum | 84.2 |
+| popularity | 72.2 |
+| momentum | 86.7 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 60.0 |

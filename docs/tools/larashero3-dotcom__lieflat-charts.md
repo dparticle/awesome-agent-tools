@@ -2,7 +2,7 @@
 
 # larashero3-dotcom/lieflat-charts
 
-> Lieflat Charts 是一套遵循 Agent Skills 格式的数据可视化、PPT 演示与整页报告生成 skill，可供 Claude Code、Codex 及其他兼容 SKILL.md 的 AI agent 使用。本 skill 同时提供 PPT 模式和报告模式，但默认产出图表；用户明确要求一套 PPT、幻灯片或可翻页汇报时，才进入 PPT 模式，生成 HTML 或 PDF 格式的 PPT；用户明确要求报告、年报、月报、白皮书、海报或 brief 时，才生成整页…
+> 官网与商业授权： lieflat.work · Lieflat Charts
 
 [Repository](https://github.com/larashero3-dotcom/lieflat-charts) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,799 |
-| Star velocity | 16.2/day (history basis, 5d span) |
-| Health score | 63/100 |
+| Stars | 6,812 |
+| Star velocity | 14.4/day (history basis, 5d span) |
+| Health score | 62/100 |
 | Documentation | 40/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | HTML |
 | Created | 2026-07-16 |
-| Last push | 2026-11-03 (7 days ago) |
-| Analyzed README | 10,818 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 10,969 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,8 +56,8 @@ Score **40/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 76.6 |
-| momentum | 13.5 |
+| popularity | 76.7 |
+| momentum | 12.0 |
 | maintenance | 100.0 |
 | documentation | 40.0 |
 | accessibility | 96.0 |

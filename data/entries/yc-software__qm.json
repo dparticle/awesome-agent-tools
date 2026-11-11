@@ -4,11 +4,11 @@
   "name": "qm",
   "owner": "yc-software",
   "url": "https://github.com/yc-software/qm",
-  "description": "Multiplayer agent harness for work.",
-  "homepage": "https://x.com/qm__dev",
-  "stars": 15671,
-  "forks": 1946,
-  "open_issues": 1075,
+  "description": "Multiplayer agent harness for teams",
+  "homepage": "https://labs.ycombinator.com/qm",
+  "stars": 15683,
+  "forks": 1950,
+  "open_issues": 1031,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,33 +18,33 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-11-10T12:33:08Z",
-  "pushed_at": "2026-11-10T12:34:18Z",
+  "updated_at": "2026-11-11T11:46:21Z",
+  "pushed_at": "2026-11-11T11:53:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 103,
+  "age_days": 104,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 83.9,
-    "momentum": 5.3,
+    "momentum": 5.8,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 32,
+    "stars_gained": 35,
     "days_span": 5,
-    "stars_per_day": 6.4,
-    "lifetime_stars_per_day": 152.15,
+    "stars_per_day": 7.0,
+    "lifetime_stars_per_day": 150.8,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yc-software/qm",
-    "readme_chars": 13142,
+    "readme_chars": 13568,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -64,9 +64,9 @@
       "skills-plugins": "",
       "agent-runtime": "",
       "security-isolation": "observe, or enforce, with securityScreen.classifier choosing the built-in",
-      "team-collaboration": "e designed like personal assistants.",
+      "team-collaboration": "t agents are designed like personal assistants.",
       "gui-desktop": "ests need one too: DATABASEURL= npm test creates a",
-      "notifications": "",
+      "notifications": "has its own scoped memory, files, keychain view, permissions,",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
@@ -78,7 +78,7 @@
       "security-isolation": 1,
       "team-collaboration": 1,
       "gui-desktop": 4,
-      "notifications": 1,
+      "notifications": 2,
       "cross-agent-support": 3
     },
     "friction": {
@@ -120,15 +120,17 @@
       "Codex",
       "OpenCode"
     ],
-    "summary_en": "A multiplayer agent harness for work.",
+    "summary_en": "A multiplayer agent harness for teams.",
     "summary_zh": "",
     "install_hint": "npm install",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
-      "score": 0,
-      "signals": [],
-      "external_link_ratio": 0.609
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.811
     },
     "highlights": [
       "Shared skills. Skills are scope-owned and shareable by grant, with admin-gated",
@@ -145,11 +147,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:29+00:00",
+  "fetched_at": "2026-11-11T11:54:02+00:00",
   "categories": [
+    "desktop-ui-2",
     "isolation-teams",
-    "model-routing",
-    "providers-2"
+    "model-routing"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
@@ -179,14 +181,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 7.197,
-      "momentum_ratio": 47.438,
+      "star_ratio": 7.209,
+      "momentum_ratio": 41.543,
       "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "7.20x the stars (112,786 vs 15,671)",
-        "47.44x the star velocity (303.6/day vs 6.4/day)",
+        "7.21x the stars (113,060 vs 15,683)",
+        "41.54x the star velocity (290.8/day vs 7.0/day)",
         "no harder to set up (45 vs 72 friction)"
       ],
       "reasons_zh": [],

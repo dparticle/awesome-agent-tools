@@ -18,13 +18,13 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 306,
-  "days_since_push": 7,
-  "health_score": 52,
+  "age_days": 307,
+  "days_since_push": 8,
+  "health_score": 51,
   "health_components": {
     "popularity": 49.4,
     "momentum": 0.8,
-    "maintenance": 100.0,
+    "maintenance": 92.0,
     "documentation": 58.0,
     "accessibility": 76.0
   },
@@ -33,7 +33,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 0.97,
+    "lifetime_stars_per_day": 0.96,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,10 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:42:04+00:00",
+  "fetched_at": "2026-11-11T11:55:26+00:00",
   "categories": [
-    "analytics-3",
     "desktop-ui",
+    "memory-failover",
     "model-routing"
   ],
   "primary_category": "desktop-ui",

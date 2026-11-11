@@ -33,13 +33,13 @@
     "tmdl"
   ],
   "created_at": "2026-01-15T09:26:29Z",
-  "updated_at": "2026-11-09T16:48:12Z",
-  "pushed_at": "2026-11-07T08:47:21Z",
+  "updated_at": "2026-11-10T21:57:27Z",
+  "pushed_at": "2026-11-10T20:10:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 299,
-  "days_since_push": 3,
+  "age_days": 300,
+  "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 60.7,
@@ -53,7 +53,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 3.64,
+    "lifetime_stars_per_day": 3.63,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -151,10 +151,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:24+00:00",
+  "fetched_at": "2026-11-11T11:54:54+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

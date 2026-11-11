@@ -20,22 +20,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 367,
-  "days_since_push": 6,
+  "age_days": 368,
+  "days_since_push": 7,
   "health_score": 53,
   "health_components": {
     "popularity": 59.3,
-    "momentum": 2.0,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 32.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 2.52,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 2.51,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -112,7 +112,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:33+00:00",
+  "fetched_at": "2026-11-11T11:54:57+00:00",
   "categories": [
     "desktop-ui"
   ],

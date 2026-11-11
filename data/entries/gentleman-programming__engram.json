@@ -6,36 +6,36 @@
   "url": "https://github.com/Gentleman-Programming/engram",
   "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
   "homepage": "https://engram.gentlemanprogramming.com/",
-  "stars": 7890,
-  "forks": 820,
-  "open_issues": 63,
+  "stars": 7909,
+  "forks": 822,
+  "open_issues": 65,
   "language": "Go",
   "license": "MIT",
   "topics": [
     "gentle-shell-package"
   ],
   "created_at": "2026-02-16T13:38:41Z",
-  "updated_at": "2026-11-10T10:47:39Z",
-  "pushed_at": "2026-11-10T09:26:18Z",
+  "updated_at": "2026-11-11T11:38:27Z",
+  "pushed_at": "2026-11-11T09:32:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
+  "age_days": 267,
   "days_since_push": 0,
   "health_score": 63,
   "health_components": {
-    "popularity": 77.9,
-    "momentum": 13.8,
+    "popularity": 78.0,
+    "momentum": 14.7,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 66.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 83,
+    "stars_gained": 88,
     "days_span": 5,
-    "stars_per_day": 16.6,
-    "lifetime_stars_per_day": 29.66,
+    "stars_per_day": 17.6,
+    "lifetime_stars_per_day": 29.62,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -130,76 +130,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:04+00:00",
+  "fetched_at": "2026-11-11T11:54:35+00:00",
   "categories": [
-    "sharing"
+    "memory-failover"
   ],
-  "primary_category": "sharing",
+  "primary_category": "memory-failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by rohitg00/agentmemory: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 rohitg00/agentmemory 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "rohitg00/agentmemory",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "gentleman-programming/engram",
-      "challenger": "rohitg00/agentmemory",
-      "incumbent_name": "Gentleman-Programming/engram",
-      "challenger_name": "rohitg00/agentmemory",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "session-persistence"
-      ],
-      "star_ratio": 3.834,
-      "momentum_ratio": 1.205,
-      "setup_delta": -2,
-      "dominance": 0.823,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "3.83x the stars (30,252 vs 7,890)",
-        "1.20x the star velocity (20.0/day vs 16.6/day)",
-        "no harder to set up (32 vs 34 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 63,
-        "challenger_health": 69,
-        "incumbent_setup_score": 34,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

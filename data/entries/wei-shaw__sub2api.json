@@ -6,9 +6,9 @@
   "url": "https://github.com/Wei-Shaw/sub2api",
   "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
   "homepage": "",
-  "stars": 45783,
-  "forks": 9902,
-  "open_issues": 3872,
+  "stars": 45837,
+  "forks": 9914,
+  "open_issues": 3861,
   "language": "Go",
   "license": "LGPL-3.0",
   "topics": [
@@ -23,27 +23,27 @@
     "gemini"
   ],
   "created_at": "2025-12-18T02:26:18Z",
-  "updated_at": "2026-11-10T12:11:52Z",
-  "pushed_at": "2026-11-10T10:51:52Z",
+  "updated_at": "2026-11-11T11:53:53Z",
+  "pushed_at": "2026-11-11T11:47:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 327,
+  "age_days": 328,
   "days_since_push": 0,
   "health_score": 72,
   "health_components": {
     "popularity": 93.2,
-    "momentum": 47.2,
+    "momentum": 43.7,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 43.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 283,
+    "stars_gained": 262,
     "days_span": 5,
-    "stars_per_day": 56.6,
-    "lifetime_stars_per_day": 140.01,
+    "stars_per_day": 52.4,
+    "lifetime_stars_per_day": 139.75,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -175,11 +175,11 @@
     "seed_reason": "Turn upstream AI subscriptions into a metered, rate-limited, billable relay.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-10T12:40:22+00:00",
+  "fetched_at": "2026-11-11T11:53:58+00:00",
   "categories": [
     "analytics-3",
     "billing",
-    "mcp-security"
+    "model-routing"
   ],
   "primary_category": "analytics-3",
   "lifecycle": {

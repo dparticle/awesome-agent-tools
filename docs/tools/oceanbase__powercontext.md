@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,573 |
+| Stars | 1,594 |
 | Star velocity | 18.2/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 23,565 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 24,260 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -74,7 +72,7 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 63.9 |
+| popularity | 64.0 |
 | momentum | 15.2 |
 | maintenance | 100.0 |
 | documentation | 66.0 |

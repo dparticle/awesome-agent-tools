@@ -13,22 +13,24 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 556 |
-| Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 51/100 |
+| Star velocity | 0.4/day (history basis, 5d span) |
+| Health score | 50/100 |
 | Documentation | 42/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-17 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 4,097 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 4,007 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Remote control
 
 ### Mobile access
+
+### Multi-agent orchestration
 
 ### Agent runtime
 
@@ -38,9 +40,11 @@
 
 ### GUI / desktop app
 
-> -click the app, choose Open, then Open again.
+> agent, OpenCode, fx, Muse, DeepSeek, Devin, Jcode, Copilot, and Pi.
 
 ### Notifications
+
+> ask another computer to run an action, and you
 
 ### Cross-agent support
 
@@ -48,18 +52,18 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 22/100)
+- **Difficulty:** 🟢 Easy (friction score 31/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://bun.sh/install | bash`
 
-**Signals that make it easy:** curl | sh installer, native installer / package
+**Signals that make it easy:** curl | sh installer
 
 **Signals that add work:** git clone (build from source)
 
 **Configuration required:** sign-in required
 
-*Easy. install via curl | sh installer, native installer / package; needs git clone (build from source); configure sign-in required*
+*Easy. install via curl | sh installer; needs git clone (build from source); configure sign-in required*
 
 ## Documentation quality
 
@@ -78,10 +82,10 @@ Score **42/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.9 |
-| momentum | 0.2 |
+| momentum | 0.3 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
-| accessibility | 78.0 |
+| accessibility | 69.0 |
 
 ---
 

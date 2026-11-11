@@ -6,9 +6,9 @@
   "url": "https://github.com/JetBrains/thinkrail",
   "description": "ThinkRail is the agentic IDE that gets better every time you use it",
   "homepage": "https://thinkrail.ai/",
-  "stars": 8068,
-  "forks": 505,
-  "open_issues": 342,
+  "stars": 8151,
+  "forks": 517,
+  "open_issues": 348,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,33 +27,33 @@
     "vibecoding"
   ],
   "created_at": "2026-07-08T07:40:43Z",
-  "updated_at": "2026-11-10T12:07:42Z",
-  "pushed_at": "2026-11-10T12:36:56Z",
+  "updated_at": "2026-11-11T11:33:46Z",
+  "pushed_at": "2026-11-11T06:52:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 125,
+  "age_days": 126,
   "days_since_push": 0,
   "health_score": 74,
   "health_components": {
-    "popularity": 78.1,
-    "momentum": 53.8,
+    "popularity": 78.2,
+    "momentum": 53.9,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 90.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 8068,
-    "days_span": 125,
-    "stars_per_day": 64.54,
-    "lifetime_stars_per_day": 64.54,
+    "stars_gained": 8151,
+    "days_span": 126,
+    "stars_per_day": 64.69,
+    "lifetime_stars_per_day": 64.69,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "JetBrains/thinkrail",
-    "readme_chars": 18543,
+    "readme_chars": 19952,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -62,17 +62,19 @@
       "skills-plugins",
       "agent-runtime",
       "mcp-support",
-      "gui-desktop"
+      "gui-desktop",
+      "notifications"
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "erminals, and document support.",
       "worktree-isolation": "elf-contained thinkrail CLI.",
-      "api-gateway": "d MCP servers, set them in Settings → Environment.",
+      "api-gateway": "hinkRail keeps it to active runs unless you choose otherwise, so idle chats don't spend in the background.",
       "usage-analytics": "the website visit that brought you here - only where you accepted marketing cookies on the website or no consent is required, and that link expires after 30 days.",
       "skills-plugins": "",
       "agent-runtime": "that gets better every time you use it.",
-      "mcp-support": "questions @thinkrail/pi-ask-user-question) and pi install npm:@thinkrail/pi-visualize for the diagrams and previews @thinkrail/pi-visualize), so a vanilla pi in the terminal gets the same tools.",
-      "gui-desktop": "the size of your skill catalog."
+      "mcp-support": "e questions @thinkrail/pi-ask-user-question) and pi install npm:@thinkrail/pi-visualize for the diagrams and previews @thinkrail/pi-visualize), so a vanilla pi in the terminal gets the same tools.",
+      "gui-desktop": "hows the size of your skill catalog.",
+      "notifications": "4 / ARM64: extract the setup tarball and run installer."
     },
     "capability_hits": {
       "multi-agent-orchestration": 2,
@@ -82,7 +84,8 @@
       "skills-plugins": 1,
       "agent-runtime": 2,
       "mcp-support": 4,
-      "gui-desktop": 6
+      "gui-desktop": 6,
+      "notifications": 1
     },
     "friction": {
       "level": "turnkey",
@@ -137,13 +140,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.809
+      "external_link_ratio": 0.752
     },
     "highlights": [
-      "Isolated workspaces. Open any git repo as a project and create git worktree workspaces from it, each with its own branch and working directory. Agents can then work in parallel without touc…",
       "Skills. ThinkRail loads your pi skills and any already in your project. It can also import skills from Claude, Codex, and other coding agents: switch them on in Settings → Extensions, or pe…",
       "Agent tools beyond the shell. Thanks to the ThinkRail GUI, your AI agent can ask you structured multiple-choice questions in the chat instead of guessing, draw Mermaid diagrams, and show co…",
-      "Engine (packages/server + packages/shared): a Bun.serve HTTP+WS host with one in-process pi session per chat, launched by apps/cli or apps/desktop."
+      "Engine (packages/server + packages/shared): a Bun.serve HTTP+WS host with one in-process pi session per chat, launched by apps/cli or apps/desktop.",
+      "GUI (apps/web): React 19 + Zustand + Tailwind v4, shipped independently; it communicates with the engine through the contracts."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -154,13 +157,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:34+00:00",
+  "fetched_at": "2026-11-11T11:54:07+00:00",
   "categories": [
-    "analytics",
     "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "isolation-teams"
   ],
-  "primary_category": "analytics",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

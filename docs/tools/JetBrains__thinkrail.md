@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,068 |
-| Star velocity | 64.5/day (lifetime basis, 125d span) |
+| Stars | 8,151 |
+| Star velocity | 64.7/day (lifetime basis, 126d span) |
 | Health score | 74/100 |
 | Documentation | 54/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-08 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 18,543 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 19,952 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### API gateway / proxy
 
-> d MCP servers, set them in Settings → Environment.
+> hinkRail keeps it to active runs unless you choose otherwise, so idle chats don't spend in the background.
 
 ### Usage analytics
 
@@ -50,11 +50,15 @@
 
 ### MCP support
 
-> questions @thinkrail/pi-ask-user-question) and pi install npm:@thinkrail/pi-visualize for the diagrams and previews @thinkrail/pi-visualize), so a vanilla pi in the terminal gets the same tools.
+> e questions @thinkrail/pi-ask-user-question) and pi install npm:@thinkrail/pi-visualize for the diagrams and previews @thinkrail/pi-visualize), so a vanilla pi in the terminal gets the same tools.
 
 ### GUI / desktop app
 
-> the size of your skill catalog.
+> hows the size of your skill catalog.
+
+### Notifications
+
+> 4 / ARM64: extract the setup tarball and run installer.
 
 ## Setup reality check
 
@@ -89,8 +93,8 @@ Score **54/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.1 |
-| momentum | 53.8 |
+| popularity | 78.2 |
+| momentum | 53.9 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 90.0 |

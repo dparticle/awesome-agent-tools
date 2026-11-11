@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 264,
-  "days_since_push": 173,
+  "age_days": 265,
+  "days_since_push": 174,
   "health_score": 44,
   "health_components": {
     "popularity": 50.0,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 55.0,
     "documentation": 76.0,
     "accessibility": 53.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.2,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 1.19,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:42:00+00:00",
+  "fetched_at": "2026-11-11T11:55:22+00:00",
   "categories": [
+    "failover",
     "mcp-security",
-    "memory-failover",
-    "sharing"
+    "memory-failover"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -38,8 +38,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 815,
-  "days_since_push": 27,
+  "age_days": 816,
+  "days_since_push": 28,
   "health_score": 53,
   "health_components": {
     "popularity": 52.9,
@@ -160,10 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:50+00:00",
+  "fetched_at": "2026-11-11T11:55:12+00:00",
   "categories": [
     "desktop-ui",
-    "isolation-teams",
+    "memory-failover",
     "providers-2"
   ],
   "primary_category": "providers-2",

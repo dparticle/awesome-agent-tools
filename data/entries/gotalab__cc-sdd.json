@@ -6,7 +6,7 @@
   "url": "https://github.com/gotalab/cc-sdd",
   "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
   "homepage": "",
-  "stars": 3761,
+  "stars": 3762,
   "forks": 287,
   "open_issues": 16,
   "language": "TypeScript",
@@ -26,27 +26,27 @@
     "subagents"
   ],
   "created_at": "2025-07-17T04:41:37Z",
-  "updated_at": "2026-11-10T10:09:29Z",
+  "updated_at": "2026-11-10T15:59:31Z",
   "pushed_at": "2026-10-22T03:43:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 481,
-  "days_since_push": 19,
+  "age_days": 482,
+  "days_since_push": 20,
   "health_score": 58,
   "health_components": {
     "popularity": 71.5,
-    "momentum": 0.8,
+    "momentum": 1.2,
     "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 7.82,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 7.8,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,10 +141,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:08+00:00",
+  "fetched_at": "2026-11-11T11:54:39+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -169,14 +168,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 13.151,
-      "momentum_ratio": 53.4,
+      "star_ratio": 13.164,
+      "momentum_ratio": 38.857,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.15x the stars (49,460 vs 3,761)",
-        "53.40x the star velocity (53.4/day vs 1.0/day)",
+        "13.16x the stars (49,523 vs 3,762)",
+        "38.86x the star velocity (54.4/day vs 1.4/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -205,7 +204,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 58,
-        "challenger_health": 78,
+        "challenger_health": 79,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 30
       }

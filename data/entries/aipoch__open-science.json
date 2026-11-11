@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5510,
-  "forks": 553,
-  "open_issues": 33,
+  "stars": 5515,
+  "forks": 555,
+  "open_issues": 32,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,66 +34,66 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-10T12:31:05Z",
-  "pushed_at": "2026-11-10T12:30:58Z",
+  "updated_at": "2026-11-11T11:05:38Z",
+  "pushed_at": "2026-11-11T11:04:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 130,
+  "age_days": 131,
   "days_since_push": 0,
-  "health_score": 62,
+  "health_score": 63,
   "health_components": {
     "popularity": 74.8,
-    "momentum": 7.0,
+    "momentum": 6.7,
     "maintenance": 100.0,
     "documentation": 76.0,
-    "accessibility": 59.0
+    "accessibility": 65.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 42,
+    "stars_gained": 40,
     "days_span": 5,
-    "stars_per_day": 8.4,
-    "lifetime_stars_per_day": 42.38,
+    "stars_per_day": 8.0,
+    "lifetime_stars_per_day": 42.1,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 39016,
+    "readme_chars": 38790,
     "capabilities": [
+      "multi-agent-orchestration",
       "model-routing",
       "billing-metering",
       "skills-plugins",
       "mcp-support",
       "security-isolation",
       "gui-desktop",
-      "notifications",
-      "cross-agent-support"
+      "notifications"
     ],
     "capability_evidence": {
+      "multi-agent-orchestration": "our configured provider from the composer, review or edit the result, and undo it; save custom templates in Project settings.",
       "model-routing": "d-to-path operations, or a remote HTTP MCP endpoint.",
       "billing-metering": "Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.",
       "skills-plugins": "g resources for your analysis.",
       "mcp-support": "cts, output formats, and exit codes",
       "security-isolation": "that profile's existing permissions; it is not a separate sandbox or read-only view, so connected clients can persist changes and incur model costs.",
       "gui-desktop": "de.js, so you can run the CLI without installing Node.js, npm, or Homebrew.",
-      "notifications": "untime checks and test your model connection.",
-      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+      "notifications": "untime checks and test your model connection."
     },
     "capability_hits": {
+      "multi-agent-orchestration": 1,
       "model-routing": 1,
       "billing-metering": 1,
       "skills-plugins": 2,
       "mcp-support": 3,
       "security-isolation": 2,
       "gui-desktop": 5,
-      "notifications": 1,
-      "cross-agent-support": 3
+      "notifications": 1
     },
     "friction": {
-      "level": "moderate",
-      "score": 41,
+      "level": "low",
+      "score": 35,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -108,8 +108,7 @@
         "API key configuration",
         "OAuth login flow",
         "sign-in required",
-        "database dependency",
-        "server/reverse-proxy setup"
+        "database dependency"
       ],
       "friendliness_signals": [
         "no-code positioning",
@@ -121,8 +120,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; no-code positioning",
-      "note_zh": "需要一些配置。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；no-code positioning"
+      "note_en": "Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; no-code positioning",
+      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；no-code positioning"
     },
     "doc_score": 76,
     "doc_signals": [
@@ -141,11 +140,9 @@
       "long, detailed README"
     ],
     "agents": [
-      "Claude Code",
-      "Codex",
-      "OpenCode"
+      "Codex"
     ],
-    "summary_en": "AI research workbench for reproducible science — open-source, local-first, and model-agnostic.",
+    "summary_en": "AIPOCH Open-Science is a local-first open-source AI research workbench for reproducible science, with flexible model backends.",
     "summary_zh": "",
     "install_hint": "brew install --cask open-science",
     "source": "raw:HEAD/README.md",
@@ -153,12 +150,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.538
+      "external_link_ratio": 0.516
     },
     "highlights": [
-      "Remote compute: Run approved jobs on user-connected Kubernetes, Hugging Face Jobs, Modal, or Ray alongside SSH and Slurm, with per-job approval and collection recovery after restarts.",
+      "Built-in Agent upgrades: Use Codex subscriptions for the main agent and subagents, select Claude Fable 5.2 with a 1M context window, and use provider-supported output limits.",
+      "Reliability improvements: Windows update recovery, answered questions, and research films across session switches improve; idle interpreters are reclaimed after 15 minutes without session a…",
       "Run an analysis locally, or submit it to a computing environment you manage through SSH, Slurm, Kubernetes, Hugging Face Jobs, Modal, or Ray.",
-      "Reliability fixes: macOS update checks verify the running app, Windows names file blockers and keeps the input above the taskbar, and fixed-layout PDF translation retains successful pages w…"
+      "Bibliography CSV: Export selected references or a whole project or collection with 16 stable English column names."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -169,9 +167,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:39+00:00",
+  "fetched_at": "2026-11-11T11:54:11+00:00",
   "categories": [
     "analytics-3",
+    "desktop-ui",
     "mcp-security"
   ],
   "primary_category": "analytics-3",

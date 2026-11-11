@@ -6,33 +6,33 @@
   "url": "https://github.com/harishkotra/agent-office",
   "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
   "homepage": "",
-  "stars": 409,
-  "forks": 113,
+  "stars": 413,
+  "forks": 115,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-25T04:43:02Z",
-  "updated_at": "2026-11-10T11:44:59Z",
+  "updated_at": "2026-11-11T08:14:12Z",
   "pushed_at": "2026-09-25T04:17:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 258,
-  "days_since_push": 46,
+  "age_days": 259,
+  "days_since_push": 47,
   "health_score": 43,
   "health_components": {
-    "popularity": 52.2,
-    "momentum": 1.0,
+    "popularity": 52.3,
+    "momentum": 1.5,
     "maintenance": 78.0,
     "documentation": 57.0,
     "accessibility": 25.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 1.2,
+    "stars_per_day": 1.8,
     "lifetime_stars_per_day": 1.59,
     "basis": "history",
     "is_fast_riser": false
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:54+00:00",
+  "fetched_at": "2026-11-11T11:55:16+00:00",
   "categories": [
     "desktop-ui",
     "isolation-teams"
@@ -159,14 +159,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 28.958,
-      "momentum_ratio": 25.167,
+      "star_ratio": 28.84,
+      "momentum_ratio": 20.0,
       "setup_delta": -43,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "28.96x the stars (11,844 vs 409)",
-        "25.17x the star velocity (30.2/day vs 1.2/day)",
+        "28.84x the stars (11,911 vs 413)",
+        "20.00x the star velocity (36.0/day vs 1.8/day)",
         "no harder to set up (32 vs 75 friction)"
       ],
       "reasons_zh": [],
@@ -199,7 +199,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 43,
-        "challenger_health": 70,
+        "challenger_health": 71,
         "incumbent_setup_score": 75,
         "challenger_setup_score": 32
       }

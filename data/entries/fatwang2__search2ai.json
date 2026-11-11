@@ -6,9 +6,9 @@
   "url": "https://github.com/fatwang2/search2ai",
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
-  "stars": 1287,
-  "forks": 197,
-  "open_issues": 17,
+  "stars": 1288,
+  "forks": 199,
+  "open_issues": 18,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -28,33 +28,33 @@
     "web-search"
   ],
   "created_at": "2023-12-18T02:02:46Z",
-  "updated_at": "2026-11-10T09:30:34Z",
-  "pushed_at": "2026-11-10T09:30:27Z",
+  "updated_at": "2026-11-11T05:03:21Z",
+  "pushed_at": "2026-11-11T11:47:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1058,
+  "age_days": 1059,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.22,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "fatwang2/search2ai",
-    "readme_chars": 26418,
+    "readme_chars": 26706,
     "capabilities": [
       "parallel-execution",
       "model-routing",
@@ -129,10 +129,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.227
+      "external_link_ratio": 0.225
     },
     "highlights": [
-      "Google returns at most 10 results per query; the current Brave, Tavily and Outcrawl adapters cap results at 20, and the cloro adapter at 20 (two pages), or 10 (one page) when a time filter…",
+      "Google returns at most 10 results per query; the current Brave, Tavily and Outcrawl adapters cap results at 20, the cloro adapter at 20 (two pages), or 10 (one page) when a time filter is s…",
       "Client API compatibility: v0.3.1 includes the first SearXNG, Exa, Tavily, Search1API and Firecrawl single-page adapters.",
       "Existing API clients: supported Exa, Tavily, Search1API, SearXNG and Firecrawl single-page calls can use dedicated HTTP API / SDK compatibility endpoints.",
       "API Base URL to http://localhost:3014/v1, or your deployment URL plus /v1."
@@ -146,24 +146,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:21+00:00",
+  "fetched_at": "2026-11-11T11:54:51+00:00",
   "categories": [
-    "analytics-3",
     "mcp-security",
-    "model-routing"
+    "sharing"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "genspark-ai/genoffice",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "fatwang2/search2ai",
-      "challenger": "genspark-ai/genoffice",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "fatwang2/search2ai",
-      "challenger_name": "genspark-ai/genoffice",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -175,15 +174,15 @@
         "parallel-execution",
         "self-hosted"
       ],
-      "star_ratio": 9.388,
-      "momentum_ratio": 1300.0,
-      "setup_delta": -53,
+      "star_ratio": 233.719,
+      "momentum_ratio": 2825.0,
+      "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "9.39x the stars (12,082 vs 1,287)",
-        "1300.00x the star velocity (65.0/day vs 0.0/day)",
-        "no harder to set up (20 vs 73 friction)"
+        "233.72x the stars (301,030 vs 1,288)",
+        "2825.00x the star velocity (565.0/day vs 0.2/day)",
+        "no harder to set up (57 vs 73 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -197,21 +196,25 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "billing-metering",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
+          "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
-          "usage-analytics"
+          "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 75,
+        "challenger_health": 89,
         "incumbent_setup_score": 73,
-        "challenger_setup_score": 20
+        "challenger_setup_score": 57
       }
     }
   }

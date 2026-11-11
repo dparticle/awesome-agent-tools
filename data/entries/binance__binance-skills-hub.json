@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 1161,
   "forks": 275,
-  "open_issues": 60,
+  "open_issues": 45,
   "language": "Python",
   "license": "",
   "topics": [
@@ -18,27 +18,27 @@
     "skills"
   ],
   "created_at": "2026-03-03T08:15:46Z",
-  "updated_at": "2026-11-10T12:20:46Z",
+  "updated_at": "2026-11-11T07:28:42Z",
   "pushed_at": "2026-10-26T08:28:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
-  "days_since_push": 15,
+  "age_days": 253,
+  "days_since_push": 16,
   "health_score": 49,
   "health_components": {
     "popularity": 61.3,
-    "momentum": 3.0,
+    "momentum": 2.5,
     "maintenance": 92.0,
     "documentation": 34.0,
     "accessibility": 60.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 3.6,
-    "lifetime_stars_per_day": 4.61,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 4.59,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -108,7 +108,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:23+00:00",
+  "fetched_at": "2026-11-11T11:54:52+00:00",
   "categories": [
     "desktop-ui"
   ],

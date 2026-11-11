@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,499 |
-| Star velocity | 124.0/day (history basis, 5d span) |
-| Health score | 80/100 |
-| Documentation | 58/100 |
+| Stars | 2,599 |
+| Star velocity | 112.8/day (history basis, 5d span) |
+| Health score | 79/100 |
+| Documentation | 61/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 20,450 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 21,528 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -82,7 +82,7 @@
 
 ## Documentation quality
 
-Score **58/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -90,6 +90,7 @@ Score **58/100**, based on these detected signals:
 - documents installation
 - documents configuration
 - has troubleshooting/FAQ
+- has contribution guidance
 - mentions licensing
 - documents changes
 - publishes a roadmap
@@ -99,10 +100,10 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 68.0 |
-| momentum | 100.0 |
+| popularity | 68.3 |
+| momentum | 94.0 |
 | maintenance | 100.0 |
-| documentation | 58.0 |
+| documentation | 61.0 |
 | accessibility | 63.0 |
 
 ---

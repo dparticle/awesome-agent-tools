@@ -6,7 +6,7 @@
   "url": "https://github.com/vibeeval/vibecosystem",
   "description": "Profile-based coding runtime for Claude Code and Codex. Lean core; opt-in quality, context, memory, orchestration and dashboard.",
   "homepage": "",
-  "stars": 538,
+  "stars": 540,
   "forks": 45,
   "open_issues": 13,
   "language": "C#",
@@ -29,33 +29,33 @@
     "vibecoding"
   ],
   "created_at": "2026-03-14T11:57:55Z",
-  "updated_at": "2026-11-09T22:00:07Z",
-  "pushed_at": "2026-11-09T12:23:01Z",
+  "updated_at": "2026-11-11T10:24:48Z",
+  "pushed_at": "2026-11-11T09:12:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 241,
-  "days_since_push": 1,
+  "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 54.6,
-    "momentum": 1.9,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 538,
-    "days_span": 241,
-    "stars_per_day": 2.23,
-    "lifetime_stars_per_day": 2.23,
-    "basis": "lifetime",
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.24,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "vibeeval/vibecosystem",
-    "readme_chars": 11848,
+    "readme_chars": 11610,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -131,7 +131,7 @@
       "signals": [
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.591
+      "external_link_ratio": 0.603
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -143,9 +143,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:43+00:00",
+  "fetched_at": "2026-11-11T11:55:06+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "memory-failover"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -170,14 +171,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 91.933,
-      "momentum_ratio": 23.946,
+      "star_ratio": 91.709,
+      "momentum_ratio": 272.0,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "91.93x the stars (49,460 vs 538)",
-        "23.95x the star velocity (53.4/day vs 2.2/day)",
+        "91.71x the stars (49,523 vs 540)",
+        "272.00x the star velocity (54.4/day vs 0.2/day)",
         "no harder to set up (30 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -206,7 +207,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 53,
-        "challenger_health": 78,
+        "challenger_health": 79,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 30
       }

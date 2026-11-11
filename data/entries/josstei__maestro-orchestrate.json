@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 274,
-  "days_since_push": 8,
+  "age_days": 275,
+  "days_since_push": 9,
   "health_score": 49,
   "health_components": {
     "popularity": 53.8,
@@ -54,7 +54,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.78,
+    "lifetime_stars_per_day": 1.77,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,65 +135,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:46+00:00",
+  "fetched_at": "2026-11-11T11:55:09+00:00",
   "categories": [
-    "mcp-security"
+    "memory-failover"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "memory-failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 microsoft/TokenEconomizer 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "microsoft/TokenEconomizer",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "josstei/maestro-orchestrate",
-      "challenger": "microsoft/tokeneconomizer",
-      "incumbent_name": "josstei/maestro-orchestrate",
-      "challenger_name": "microsoft/TokenEconomizer",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "session-persistence"
-      ],
-      "star_ratio": 11.459,
-      "momentum_ratio": 499.275,
-      "setup_delta": -15,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "11.46x the stars (5,592 vs 488)",
-        "499.27x the star velocity (199.7/day vs 0.4/day)",
-        "no harder to set up (36 vs 51 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "session-persistence"
-        ],
-        "incumbent_health": 49,
-        "challenger_health": 83,
-        "incumbent_setup_score": 51,
-        "challenger_setup_score": 36
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

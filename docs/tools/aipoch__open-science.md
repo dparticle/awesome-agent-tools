@@ -2,7 +2,7 @@
 
 # aipoch/open-science
 
-> AI research workbench for reproducible science — open-source, local-first, and model-agnostic.
+> AIPOCH Open-Science is a local-first open-source AI research workbench for reproducible science, with flexible model backends.
 
 [Repository](https://github.com/aipoch/open-science) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,19 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,510 |
-| Star velocity | 8.4/day (history basis, 5d span) |
-| Health score | 62/100 |
+| Stars | 5,515 |
+| Star velocity | 8.0/day (history basis, 5d span) |
+| Health score | 63/100 |
 | Documentation | 76/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 39,016 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 38,790 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Multi-agent orchestration
+
+> our configured provider from the composer, review or edit the result, and undo it; save custom templates in Project settings.
 
 ### Model / provider routing
 
@@ -54,13 +58,9 @@
 
 > untime checks and test your model connection.
 
-### Cross-agent support
-
-> Mentions Claude Code, Codex, OpenCode
-
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 41/100)
+- **Difficulty:** 🟢 Easy (friction score 35/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `brew install --cask open-science`
@@ -69,9 +69,9 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** API key configuration, OAuth login flow, sign-in required, database dependency, server/reverse-proxy setup
+**Configuration required:** API key configuration, OAuth login flow, sign-in required, database dependency
 
-*Some setup. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; no-code positioning*
+*Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; no-code positioning*
 
 ## Documentation quality
 
@@ -96,10 +96,10 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.8 |
-| momentum | 7.0 |
+| momentum | 6.7 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
-| accessibility | 59.0 |
+| accessibility | 65.0 |
 
 ---
 

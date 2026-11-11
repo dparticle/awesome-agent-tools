@@ -6,9 +6,9 @@
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
   "homepage": "https://openbot.run/",
-  "stars": 6796,
-  "forks": 679,
-  "open_issues": 1135,
+  "stars": 6966,
+  "forks": 699,
+  "open_issues": 1626,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -22,16 +22,16 @@
     "typescript"
   ],
   "created_at": "2026-08-12T21:32:03Z",
-  "updated_at": "2026-11-10T12:39:12Z",
-  "pushed_at": "2026-11-10T12:37:29Z",
+  "updated_at": "2026-11-11T11:50:04Z",
+  "pushed_at": "2026-11-11T11:52:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 89,
+  "age_days": 90,
   "days_since_push": 0,
   "health_score": 83,
   "health_components": {
-    "popularity": 76.6,
+    "popularity": 76.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1102,
+    "stars_gained": 1055,
     "days_span": 5,
-    "stars_per_day": 220.4,
-    "lifetime_stars_per_day": 76.36,
+    "stars_per_day": 211.0,
+    "lifetime_stars_per_day": 77.4,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nightly-labs/openbot",
-    "readme_chars": 65715,
+    "readme_chars": 67082,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -163,7 +163,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.289
+      "external_link_ratio": 0.283
     },
     "highlights": [
       "~/.cursor — login and session history managed exclusively by the Cursor CLI.",
@@ -180,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:36+00:00",
+  "fetched_at": "2026-11-11T11:54:09+00:00",
   "categories": [
-    "analytics-3",
     "isolation-teams",
-    "mobile"
+    "mobile",
+    "sharing"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

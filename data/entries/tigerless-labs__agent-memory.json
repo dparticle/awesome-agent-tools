@@ -6,9 +6,9 @@
   "url": "https://github.com/tigerless-labs/agent-memory",
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
-  "stars": 4308,
+  "stars": 4311,
   "forks": 206,
-  "open_issues": 11,
+  "open_issues": 7,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,33 +26,33 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-11-10T03:31:00Z",
-  "pushed_at": "2026-11-09T14:41:15Z",
+  "updated_at": "2026-11-10T22:58:52Z",
+  "pushed_at": "2026-11-10T18:16:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 69,
+  "age_days": 70,
   "days_since_push": 0,
-  "health_score": 58,
+  "health_score": 57,
   "health_components": {
     "popularity": 72.7,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 66.0,
-    "accessibility": 57.0
+    "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 62.43,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 61.59,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tigerless-labs/agent-memory",
-    "readme_chars": 33757,
+    "readme_chars": 35007,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -79,7 +79,7 @@
     },
     "friction": {
       "level": "moderate",
-      "score": 43,
+      "score": 49,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -90,6 +90,7 @@
       ],
       "config_signals": [
         "API key configuration",
+        "config.json/yaml/toml",
         "database dependency",
         "database migration"
       ],
@@ -99,8 +100,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, database dependency",
-      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration、database dependency"
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration、config.json/yaml/toml"
     },
     "doc_score": 66,
     "doc_signals": [
@@ -127,7 +128,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.059
+      "external_link_ratio": 0.057
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -139,9 +140,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:07+00:00",
+  "fetched_at": "2026-11-11T11:54:38+00:00",
   "categories": [
-    "mcp-security"
+    "mcp-security",
+    "memory-failover"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

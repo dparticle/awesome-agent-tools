@@ -7,7 +7,7 @@
   "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
   "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
   "stars": 647,
-  "forks": 44,
+  "forks": 45,
   "open_issues": 1,
   "language": "Python",
   "license": "MIT",
@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 198,
-  "days_since_push": 1,
+  "age_days": 199,
+  "days_since_push": 2,
   "health_score": 57,
   "health_components": {
     "popularity": 56.2,
-    "momentum": 7.5,
+    "momentum": 7.3,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 45,
+    "stars_gained": 44,
     "days_span": 5,
-    "stars_per_day": 9.0,
-    "lifetime_stars_per_day": 3.27,
+    "stars_per_day": 8.8,
+    "lifetime_stars_per_day": 3.25,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -153,10 +153,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:38+00:00",
+  "fetched_at": "2026-11-11T11:55:02+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -181,14 +180,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 76.445,
-      "momentum_ratio": 5.933,
+      "star_ratio": 76.543,
+      "momentum_ratio": 6.182,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "76.45x the stars (49,460 vs 647)",
-        "5.93x the star velocity (53.4/day vs 9.0/day)",
+        "76.54x the stars (49,523 vs 647)",
+        "6.18x the star velocity (54.4/day vs 8.8/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -217,7 +216,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 57,
-        "challenger_health": 78,
+        "challenger_health": 79,
         "incumbent_setup_score": 22,
         "challenger_setup_score": 30
       }

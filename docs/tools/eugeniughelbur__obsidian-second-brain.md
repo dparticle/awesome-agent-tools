@@ -2,7 +2,7 @@
 
 # eugeniughelbur/obsidian-second-brain
 
-> Crew works without Obsidian.
+> Talk to Claude as usual.
 
 [Repository](https://github.com/eugeniughelbur/obsidian-second-brain) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,23 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,255 |
-| Star velocity | 18.0/day (history basis, 5d span) |
-| Health score | 64/100 |
-| Documentation | 65/100 |
+| Stars | 5,280 |
+| Star velocity | 18.4/day (history basis, 5d span) |
+| Health score | 65/100 |
+| Documentation | 73/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-24 |
 | Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 86,578 chars from `raw:HEAD/README.md` |
+| Analyzed README | 85,604 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Quota & usage management
-
-> ess, dated, or a pointer - so your knowledge base never fills with facts that used to be true.
 
 ### Automatic failover
 
@@ -60,7 +56,7 @@
 
 ### Memory & context
 
-> on, weekly review, vault-health check
+> obsidian-second-brain: AI second brain for Obsidian - persistent memory for Claude Code, Codex, Cursor and Grok Bot
 
 ### Skills & plugins
 
@@ -72,7 +68,7 @@
 
 ### MCP support
 
-> ult patterns, and what works in practice.
+> lt patterns, and what works in practice.*
 
 ### Security & isolation
 
@@ -101,10 +97,11 @@
 
 ## Documentation quality
 
-Score **65/100**, based on these detected signals:
+Score **73/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
+- has a quick-start section
 - documents installation
 - documents configuration
 - has troubleshooting/FAQ
@@ -120,10 +117,10 @@ Score **65/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.4 |
-| momentum | 15.0 |
+| popularity | 74.5 |
+| momentum | 15.3 |
 | maintenance | 100.0 |
-| documentation | 65.0 |
+| documentation | 73.0 |
 | accessibility | 76.0 |
 
 ---

@@ -6,7 +6,7 @@
   "url": "https://github.com/Loongphy/codex-auth",
   "description": "A CLI tool to switch and manage Codex accounts",
   "homepage": "",
-  "stars": 2858,
+  "stars": 2863,
   "forks": 163,
   "open_issues": 13,
   "language": "Zig",
@@ -16,27 +16,27 @@
     "zig"
   ],
   "created_at": "2026-02-10T06:53:56Z",
-  "updated_at": "2026-11-10T12:24:04Z",
-  "pushed_at": "2026-11-10T12:24:28Z",
+  "updated_at": "2026-11-11T10:25:28Z",
+  "pushed_at": "2026-11-11T09:25:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 273,
+  "age_days": 274,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 69.1,
-    "momentum": 0.7,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 38.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 10.47,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 10.45,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -101,8 +101,7 @@
     },
     "highlights": [
       "Local-only: With per-command --skip-api, the tool scans local ~/.codex/sessions//rollout-.jsonl files for usage data and skips team name refresh API calls.",
-      "API (default): The tool makes direct HTTPS requests to OpenAI's endpoints using your account's access token.",
-      "Restoring or resuming an existing conversation"
+      "API (default): The tool makes direct HTTPS requests to OpenAI's endpoints using your account's access token."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -113,7 +112,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:10+00:00",
+  "fetched_at": "2026-11-11T11:54:41+00:00",
   "categories": [
     "billing"
   ],

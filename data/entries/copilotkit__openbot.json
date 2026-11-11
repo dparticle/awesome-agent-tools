@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "open.bot",
-  "stars": 10613,
-  "forks": 1324,
-  "open_issues": 82,
+  "stars": 10905,
+  "forks": 1353,
+  "open_issues": 71,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-10T12:36:51Z",
-  "pushed_at": "2026-11-10T08:27:08Z",
+  "updated_at": "2026-11-11T11:49:56Z",
+  "pushed_at": "2026-11-11T11:18:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 85,
+  "age_days": 86,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 84,
   "health_components": {
-    "popularity": 80.5,
-    "momentum": 66.7,
+    "popularity": 80.8,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 78.0,
     "accessibility": 42.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 400,
+    "stars_gained": 602,
     "days_span": 5,
-    "stars_per_day": 80.0,
-    "lifetime_stars_per_day": 124.86,
+    "stars_per_day": 120.4,
+    "lifetime_stars_per_day": 126.8,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 46685,
+    "readme_chars": 47099,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -64,7 +64,7 @@
       "model-routing": "",
       "api-gateway": "",
       "session-persistence": "",
-      "mcp-support": "- **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account, each reached as the p",
+      "mcp-support": "- **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account (Arcade can be the bro",
       "security-isolation": "who gets in**: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.",
       "self-hosted": "Defaults to ../examples/fintech.",
       "gui-desktop": "",
@@ -140,7 +140,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.857
+      "external_link_ratio": 0.849
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -157,10 +157,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:31+00:00",
+  "fetched_at": "2026-11-11T11:54:05+00:00",
   "categories": [
+    "failover",
     "mcp-security",
-    "memory-failover",
     "sharing"
   ],
   "primary_category": "sharing",
@@ -190,14 +190,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 28.314,
-      "momentum_ratio": 7.372,
+      "star_ratio": 27.605,
+      "momentum_ratio": 4.693,
       "setup_delta": -1,
-      "dominance": 1.0,
+      "dominance": 0.992,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "28.31x the stars (300,493 vs 10,613)",
-        "7.37x the star velocity (589.8/day vs 80.0/day)",
+        "27.60x the stars (301,030 vs 10,905)",
+        "4.69x the star velocity (565.0/day vs 120.4/day)",
         "no harder to set up (57 vs 58 friction)"
       ],
       "reasons_zh": [],
@@ -231,7 +231,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 76,
+        "incumbent_health": 84,
         "challenger_health": 89,
         "incumbent_setup_score": 58,
         "challenger_setup_score": 57

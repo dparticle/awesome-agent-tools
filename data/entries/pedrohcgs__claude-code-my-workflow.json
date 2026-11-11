@@ -6,8 +6,8 @@
   "url": "https://github.com/pedrohcgs/claude-code-my-workflow",
   "description": "A ready-to-fork Claude Code template for academic research — papers, data analysis (R, Stata, Python), slides and teaching — with multi-agent review, enforced quality gates and replication protocols. Codex and Antigravity can use it too.",
   "homepage": "https://psantanna.com/claude-code-my-workflow/",
-  "stars": 1692,
-  "forks": 3149,
+  "stars": 1698,
+  "forks": 3154,
   "open_issues": 1,
   "language": "HTML",
   "license": "MIT",
@@ -27,26 +27,26 @@
     "stata"
   ],
   "created_at": "2026-02-06T17:29:50Z",
-  "updated_at": "2026-11-10T09:09:44Z",
+  "updated_at": "2026-11-11T08:08:30Z",
   "pushed_at": "2026-11-07T21:42:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 276,
-  "days_since_push": 2,
+  "age_days": 277,
+  "days_since_push": 3,
   "health_score": 62,
   "health_components": {
     "popularity": 64.6,
-    "momentum": 2.0,
+    "momentum": 2.8,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 92.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 17,
     "days_span": 5,
-    "stars_per_day": 2.4,
+    "stars_per_day": 3.4,
     "lifetime_stars_per_day": 6.13,
     "basis": "history",
     "is_fast_riser": false
@@ -165,11 +165,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:16+00:00",
+  "fetched_at": "2026-11-11T11:54:46+00:00",
   "categories": [
     "desktop-ui",
     "isolation-teams",
-    "mcp-security"
+    "memory-failover"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

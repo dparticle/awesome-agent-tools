@@ -6,40 +6,40 @@
   "url": "https://github.com/wenfxl/openai-cpa",
   "description": "Enterprise Distributed Automation Platform for massive concurrent workload execution. Unifies elastic cluster orchestration, multi-channel identity verification messaging, real-time ops telemetry, and multi-warehouse lifecycle control (CPA / Sub2API / Image2API) in one high-throughput control plane.",
   "homepage": "",
-  "stars": 1402,
-  "forks": 438,
+  "stars": 1403,
+  "forks": 437,
   "open_issues": 12,
   "language": "",
   "license": "NOASSERTION",
   "topics": [],
   "created_at": "2026-03-23T05:59:01Z",
-  "updated_at": "2026-11-10T02:21:46Z",
-  "pushed_at": "2026-08-21T18:25:36Z",
+  "updated_at": "2026-11-10T13:29:37Z",
+  "pushed_at": "2026-11-11T10:37:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 232,
-  "days_since_push": 80,
-  "health_score": 49,
+  "age_days": 233,
+  "days_since_push": 0,
+  "health_score": 54,
   "health_components": {
     "popularity": 62.9,
     "momentum": 0.0,
-    "maintenance": 78.0,
+    "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 43.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 30,
+    "days_span": 15,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.04,
+    "lifetime_stars_per_day": 6.02,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "wenfxl/openai-cpa",
-    "readme_chars": 25594,
+    "readme_chars": 25979,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -114,7 +114,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.234
+      "external_link_ratio": 0.231
     },
     "highlights": [
       "Docker-aware proxy adaptation: Rewrites 127.0.0.1 / localhost to host.docker.internal inside containers when needed.",
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:19+00:00",
+  "fetched_at": "2026-11-11T11:54:49+00:00",
   "categories": [
     "desktop-ui"
   ],
@@ -157,14 +157,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 35.278,
-      "momentum_ratio": 1068.0,
+      "star_ratio": 35.298,
+      "momentum_ratio": 1088.0,
       "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "35.28x the stars (49,460 vs 1,402)",
-        "1068.00x the star velocity (53.4/day vs 0.0/day)",
+        "35.30x the stars (49,523 vs 1,403)",
+        "1088.00x the star velocity (54.4/day vs 0.0/day)",
         "no harder to set up (30 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -191,8 +191,8 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 49,
-        "challenger_health": 78,
+        "incumbent_health": 54,
+        "challenger_health": 79,
         "incumbent_setup_score": 57,
         "challenger_setup_score": 30
       }

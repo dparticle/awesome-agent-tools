@@ -7,7 +7,7 @@
   "description": "route Claude Code requests through multiple upstream providers (OpenCode Go, OpenCode Zen, and AWS Bedrock) with automatic model selection and format transformation.",
   "homepage": "https://deepwiki.com/routatic/proxy/1-overview",
   "stars": 980,
-  "forks": 135,
+  "forks": 134,
   "open_issues": 18,
   "language": "Go",
   "license": "AGPL-3.0",
@@ -27,22 +27,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 207,
-  "days_since_push": 4,
+  "age_days": 208,
+  "days_since_push": 5,
   "health_score": 55,
   "health_components": {
     "popularity": 59.8,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 34,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 4.73,
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 4.71,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -140,9 +140,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:26+00:00",
+  "fetched_at": "2026-11-11T11:54:55+00:00",
   "categories": [
-    "memory-failover",
+    "failover",
+    "model-routing",
     "providers-2"
   ],
   "primary_category": "providers-2",

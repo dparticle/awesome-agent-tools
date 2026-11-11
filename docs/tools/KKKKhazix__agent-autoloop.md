@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,389 |
-| Star velocity | 627.0/day (lifetime basis, 7d span) |
+| Stars | 4,499 |
+| Star velocity | 562.4/day (lifetime basis, 8d span) |
 | Health score | 84/100 |
 | Documentation | 59/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-11-03 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 10,895 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 11,035 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,7 +30,7 @@
 
 ### API gateway / proxy
 
-> Claude Code、Codex 和 ACP（官方 Codex ACP 适配器）跑通了多轮问答和跨进程会话续接；飞书跑通了发送、按钮回调和卡片更新；四种 Webhook 模板只在本地模拟服务上验证过，GitLab Webhook 按官方文档的格式测试，没连过真实 GitLab。
+> CP（官方 Codex ACP 适配器）跑通了多轮问答和跨进程会话续接；ZCode 跑通了提问、回答后接回原会话；飞书跑通了发送、按钮回调和卡片更新；四种 Webhook 模板只在本地模拟服务上验证过，GitLab Webhook 按官方文档的格式测试，没连过真实 GitLab。
 
 ### Usage analytics
 
@@ -41,6 +41,8 @@
 > 下面的性能数字 npm run benchmark ### 实测性能 Apple M5 Pro、24 GB、Node 24.21.0。
 
 ### MCP support
+
+> 进到上线：审代码 → 等 CI → 合并 PR → 等部署 → 核对线上版本。
 
 ### Notifications
 
@@ -83,7 +85,7 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 72.8 |
+| popularity | 73.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 59.0 |

@@ -6,8 +6,8 @@
   "url": "https://github.com/google/elephant-goldfish-model",
   "description": "Open-source plugin for designing and reviewing software with agents",
   "homepage": "https://egm.dev",
-  "stars": 16906,
-  "forks": 1250,
+  "stars": 17372,
+  "forks": 1301,
   "open_issues": 108,
   "language": "Python",
   "license": "Apache-2.0",
@@ -30,16 +30,16 @@
     "spec-driven-development"
   ],
   "created_at": "2026-09-13T16:31:06Z",
-  "updated_at": "2026-11-10T12:38:54Z",
-  "pushed_at": "2026-11-10T05:14:43Z",
+  "updated_at": "2026-11-11T11:50:31Z",
+  "pushed_at": "2026-11-11T08:26:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 57,
+  "age_days": 58,
   "days_since_push": 0,
   "health_score": 85,
   "health_components": {
-    "popularity": 84.6,
+    "popularity": 84.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 42.0,
@@ -47,16 +47,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4815,
+    "stars_gained": 4626,
     "days_span": 5,
-    "stars_per_day": 963.0,
-    "lifetime_stars_per_day": 296.6,
+    "stars_per_day": 925.2,
+    "lifetime_stars_per_day": 299.52,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "google/elephant-goldfish-model",
-    "readme_chars": 8499,
+    "readme_chars": 9492,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
@@ -68,7 +68,7 @@
       "multi-agent-orchestration": "xed command (#220), but 1.4.8 does not (#196), so keep the prefix.",
       "agent-runtime": "d standards with /egm-review-loop.",
       "gui-desktop": "",
-      "notifications": "For **Claude Cowork** and **ChatGPT Work**, see the setup guide.",
+      "notifications": "",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
@@ -117,7 +117,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.706
+      "external_link_ratio": 0.632
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -129,10 +129,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:28+00:00",
+  "fetched_at": "2026-11-11T11:54:02+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "model-routing"
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {

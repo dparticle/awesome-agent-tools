@@ -37,22 +37,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 257,
-  "days_since_push": 3,
+  "age_days": 258,
+  "days_since_push": 4,
   "health_score": 56,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.7,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 93.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.16,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 2.15,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,7 +134,7 @@
       "MCO 不创建或管理 worktree。用户显式选择并行写入时，应通过不重叠的 --target-paths 划分范围，并提前提示编辑冲突风险。",
       "--allow-paths 只校验 MCO 请求的作用域，不是操作系统级沙箱。",
       "ACP terminal 属于可信 Agent 能力；不可信 Agent 或提示词应在隔离环境中运行。",
-      "实际沙箱强度取决于底层 Provider CLI。"
+      "Hermes oneshot 会绕过审批，因此必须显式使用 --execution-mode yolo。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -143,10 +143,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:42+00:00",
+  "fetched_at": "2026-11-11T11:55:05+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

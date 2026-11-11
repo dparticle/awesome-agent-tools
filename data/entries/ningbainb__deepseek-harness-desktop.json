@@ -33,27 +33,27 @@
     "windows-desktop"
   ],
   "created_at": "2026-08-13T19:50:01Z",
-  "updated_at": "2026-11-09T22:48:11Z",
+  "updated_at": "2026-11-11T00:41:46Z",
   "pushed_at": "2026-11-04T16:18:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 88,
-  "days_since_push": 5,
+  "age_days": 89,
+  "days_since_push": 6,
   "health_score": 57,
   "health_components": {
     "popularity": 59.3,
-    "momentum": 4.8,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 44.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 29,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 5.8,
-    "lifetime_stars_per_day": 10.53,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 10.42,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -181,10 +181,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:28+00:00",
+  "fetched_at": "2026-11-11T11:54:56+00:00",
   "categories": [
     "desktop-ui",
-    "mobile",
+    "desktop-ui-2",
     "providers-2"
   ],
   "primary_category": "providers-2",

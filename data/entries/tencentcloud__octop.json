@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 11844,
-  "forks": 1641,
-  "open_issues": 752,
+  "stars": 11911,
+  "forks": 1654,
+  "open_issues": 758,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-11-10T11:43:05Z",
-  "pushed_at": "2026-11-10T11:32:20Z",
+  "updated_at": "2026-11-11T11:20:34Z",
+  "pushed_at": "2026-11-11T10:55:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 124,
+  "age_days": 125,
   "days_since_push": 0,
-  "health_score": 70,
+  "health_score": 71,
   "health_components": {
     "popularity": 81.5,
-    "momentum": 25.2,
+    "momentum": 30.0,
     "maintenance": 100.0,
     "documentation": 79.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 151,
+    "stars_gained": 180,
     "days_span": 5,
-    "stars_per_day": 30.2,
-    "lifetime_stars_per_day": 95.52,
+    "stars_per_day": 36.0,
+    "lifetime_stars_per_day": 95.29,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "TencentCloud/Octop",
-    "readme_chars": 30710,
+    "readme_chars": 30932,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -168,7 +168,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.521
+      "external_link_ratio": 0.517
     },
     "highlights": [
       "Desktop client — native apps for Windows / macOS / Linux; FnOS packages for NAS",
@@ -190,7 +190,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:30+00:00",
+  "fetched_at": "2026-11-11T11:54:04+00:00",
   "categories": [
     "analytics-3",
     "desktop-ui-2",

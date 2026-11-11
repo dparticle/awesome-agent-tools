@@ -1,0 +1,205 @@
+{
+  "schema": 1,
+  "full_name": "HKUDS/DeepTutor",
+  "name": "DeepTutor",
+  "owner": "HKUDS",
+  "url": "https://github.com/HKUDS/DeepTutor",
+  "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+  "homepage": "http://arxiv.org/abs/2604.26962",
+  "stars": 58162,
+  "forks": 7077,
+  "open_issues": 414,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "ai-tutor",
+    "clawbot",
+    "cli-tool",
+    "deepresearch",
+    "interactive-learning",
+    "learning",
+    "multi-agent-systems",
+    "rag"
+  ],
+  "created_at": "2025-12-28T15:35:54Z",
+  "updated_at": "2026-11-11T11:51:46Z",
+  "pushed_at": "2026-11-07T15:18:10Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 317,
+  "days_since_push": 3,
+  "health_score": 90,
+  "health_components": {
+    "popularity": 95.3,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 81.0,
+    "accessibility": 52.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 58162,
+    "days_span": 317,
+    "stars_per_day": 183.48,
+    "lifetime_stars_per_day": 183.48,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "HKUDS/DeepTutor",
+    "readme_chars": 91287,
+    "capabilities": [
+      "multi-account-switching",
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "model-routing",
+      "billing-metering",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "v1.5.8 — Memory: a real heap ceiling for the dev server, source installs serve a production build, bounded LLM client and index caches, and a keep-alive fix for stray 500s.",
+      "multi-agent-orchestration": "ld versioned libraries with LlamaIndex, PageIndex, GraphRAG, or LightRAG, connect external knowledge sources, and learn beside documents, video, and audio with source-linked citations.",
+      "worktree-isolation": "icy, adds an adaptive profile, and supports revocable device credentials with expiry and daily limits; authorized guardians can view reports, approve materials, and reset credentials.",
+      "model-routing": "Docker CORS recovery, DISABLESSLVERIFY across SDK providers, safer code-block citations, and optional Matrix E2EE add-on.",
+      "billing-metering": "engine, visible truncation, and unfiltered provider choices.",
+      "usage-analytics": "Its searchable navigator links to independent pages: Personal covers Workspaces, Data migration, Appearance, and Usage statistics; Learning & conversation covers starting points, attachments, Video Learning, learner and…",
+      "session-persistence": "arer streaming conversations, persistent usage accounting, and recoverable archives with explicit permanent deletion.",
+      "memory-context": "inese, and book creation no longer times out.",
+      "skills-plugins": "\"a chat that has a personality and a phone number.\" Its SOUL.md, model selection, tool policy, and library remain editable after creation.",
+      "agent-runtime": "M provider, and a broad chat, memory, embedding, and parsing reliability sweep.",
+      "mcp-support": "and home starter suggestions drawn from memory.",
+      "security-isolation": "x-only RAG, and a unified Settings + Capabilities surface.",
+      "self-hosted": "**LlamaIndex** (the default, hybrid vector + BM25 with optional cross-encoder reranking and exact-flat or HNSW FAISS indexes), **PageIndex** (reasoning retrieval with page-level citations, hosted or self-hosted OSS), **…",
+      "team-collaboration": "y short JWE ticket in a POST body, consumes the ticket once, and receives the normal HttpOnly session cookie.",
+      "gui-desktop": "d drag **Open DeepTutor** into **Applications**.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, OpenCode"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "multi-agent-orchestration": 4,
+      "worktree-isolation": 1,
+      "model-routing": 3,
+      "billing-metering": 1,
+      "usage-analytics": 1,
+      "session-persistence": 3,
+      "memory-context": 21,
+      "skills-plugins": 10,
+      "agent-runtime": 1,
+      "mcp-support": 8,
+      "security-isolation": 1,
+      "self-hosted": 3,
+      "team-collaboration": 4,
+      "gui-desktop": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 48,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "pip install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker run",
+        "git clone (build from source)",
+        "pip install -r requirements"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required",
+        "database migration",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via npx one-liner, pip install; needs docker run, git clone (build from source); configure environment variables, API key configuration; one-click setup",
+      "note_zh": "需要一些配置。可通过 npx one-liner、pip install 安装；需要 docker run、git clone (build from source)；需配置 environment variables、API key configuration；one-click setup"
+    },
+    "doc_score": 81,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Copilot"
+    ],
+    "summary_en": "2026-10-28 🚀 DeepTutor v1.7.0 is here!",
+    "summary_zh": "",
+    "install_hint": "docker run --rm --name deeptutor \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.479
+    },
+    "highlights": [
+      "2026-10-28 🚀 DeepTutor v1.7.0 is here!",
+      "Partners and subagents — Consult live agents such as Claude Code, Codex, and Grok CLI, import past conversations, or run persistent Partners with their own memory, resources, and IM channel…",
+      "2025-12-29 🎓 DeepTutor is officially released!",
+      "2026-05-22 🌐 Official docs site live at deeptutor.info — guides, references, and capability tours in one place."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-11T11:54:28+00:00",
+  "categories": [
+    "isolation-teams",
+    "memory-failover",
+    "sharing"
+  ],
+  "primary_category": "isolation-teams",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

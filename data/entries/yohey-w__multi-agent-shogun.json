@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 289,
-  "days_since_push": 96,
+  "age_days": 290,
+  "days_since_push": 97,
   "health_score": 48,
   "health_components": {
     "popularity": 63.1,
@@ -42,9 +42,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1421,
-    "days_span": 289,
-    "stars_per_day": 4.92,
-    "lifetime_stars_per_day": 4.92,
+    "days_span": 290,
+    "stars_per_day": 4.9,
+    "lifetime_stars_per_day": 4.9,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -192,11 +192,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:18+00:00",
+  "fetched_at": "2026-11-11T11:54:48+00:00",
   "categories": [
+    "memory-failover",
     "mobile",
-    "model-routing",
-    "sharing"
+    "model-routing"
   ],
   "primary_category": "mobile",
   "lifecycle": {

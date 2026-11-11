@@ -2,7 +2,7 @@
 
 # 410979729/scope-recall-hermes
 
-> This checkout is 4.0.3.
+> This checkout is 4.0.4.dev0, a development version; the newest release is 4.0.3.
 
 [Repository](https://github.com/410979729/scope-recall-hermes) · [Back to index](../../README.md) · Category: **None**
 
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-05-15 |
-| Last push | 2026-11-08 (1 days ago) |
-| Analyzed README | 13,508 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 13,567 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

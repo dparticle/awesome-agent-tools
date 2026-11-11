@@ -34,22 +34,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 166,
-  "days_since_push": 27,
+  "age_days": 167,
+  "days_since_push": 28,
   "health_score": 52,
   "health_components": {
     "popularity": 49.8,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.86,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.85,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:42:02+00:00",
+  "fetched_at": "2026-11-11T11:55:23+00:00",
   "categories": [
-    "isolation-teams",
+    "desktop-ui-2",
     "mcp-security",
     "mobile"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

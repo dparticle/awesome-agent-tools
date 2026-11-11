@@ -17,14 +17,12 @@
 | Health score | 49/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-11-02 (8 days ago) |
+| Last push | 2026-11-02 (9 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer)** — Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).
 
 ## What it solves
 

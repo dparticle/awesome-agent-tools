@@ -28,21 +28,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 265,
-  "days_since_push": 43,
+  "age_days": 266,
+  "days_since_push": 44,
   "health_score": 44,
   "health_components": {
     "popularity": 51.6,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 69.0,
     "accessibility": 28.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.44,
     "basis": "history",
     "is_fast_riser": false
@@ -136,11 +136,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:55+00:00",
+  "fetched_at": "2026-11-11T11:55:17+00:00",
   "categories": [
     "desktop-ui",
-    "isolation-teams",
-    "model-routing"
+    "desktop-ui-2",
+    "isolation-teams"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
@@ -165,14 +165,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 31.005,
-      "momentum_ratio": 604.0,
+      "star_ratio": 31.181,
+      "momentum_ratio": 180.0,
       "setup_delta": -40,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "31.01x the stars (11,844 vs 382)",
-        "604.00x the star velocity (30.2/day vs 0.0/day)",
+        "31.18x the stars (11,911 vs 382)",
+        "180.00x the star velocity (36.0/day vs 0.2/day)",
         "no harder to set up (32 vs 72 friction)"
       ],
       "reasons_zh": [],
@@ -202,7 +202,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 44,
-        "challenger_health": 70,
+        "challenger_health": 71,
         "incumbent_setup_score": 72,
         "challenger_setup_score": 32
       }

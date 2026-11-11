@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,613 |
-| Star velocity | 80.0/day (history basis, 5d span) |
-| Health score | 76/100 |
+| Stars | 10,905 |
+| Star velocity | 120.4/day (history basis, 5d span) |
+| Health score | 84/100 |
 | Documentation | 78/100 |
-| Tier | ✅ Recommended |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 46,685 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-11 (0 days ago) |
+| Analyzed README | 47,099 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (9/9).
 
@@ -40,7 +40,7 @@
 
 ### MCP support
 
-> - **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account, each reached as the p
+> - **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account (Arcade can be the bro
 
 ### Security & isolation
 
@@ -91,8 +91,8 @@ Score **78/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.5 |
-| momentum | 66.7 |
+| popularity | 80.8 |
+| momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 78.0 |
 | accessibility | 42.0 |

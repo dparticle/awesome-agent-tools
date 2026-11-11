@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 391 |
-| Star velocity | 0.8/day (history basis, 5d span) |
+| Stars | 392 |
+| Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-03-18 |
 | Last push | 2026-11-04 (6 days ago) |
 | Analyzed README | 42,102 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** — Superseded by genspark-ai/genoffice: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -83,8 +81,8 @@ Score **64/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.8 |
-| momentum | 0.7 |
+| popularity | 51.9 |
+| momentum | 1.0 |
 | maintenance | 100.0 |
 | documentation | 64.0 |
 | accessibility | 80.0 |

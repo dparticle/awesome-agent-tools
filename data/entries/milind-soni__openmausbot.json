@@ -6,9 +6,9 @@
   "url": "https://github.com/milind-soni/OpenMausBot",
   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "homepage": "https://www.mausbot.com/",
-  "stars": 20366,
-  "forks": 2818,
-  "open_issues": 992,
+  "stars": 20991,
+  "forks": 2920,
+  "open_issues": 1026,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -25,33 +25,33 @@
     "typescript"
   ],
   "created_at": "2026-08-11T18:58:55Z",
-  "updated_at": "2026-11-10T12:37:27Z",
-  "pushed_at": "2026-11-10T11:01:58Z",
+  "updated_at": "2026-11-11T11:50:16Z",
+  "pushed_at": "2026-11-11T11:27:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 90,
+  "age_days": 91,
   "days_since_push": 0,
-  "health_score": 88,
+  "health_score": 87,
   "health_components": {
-    "popularity": 86.2,
+    "popularity": 86.4,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 71.0,
-    "accessibility": 72.0
+    "accessibility": 66.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7820,
+    "stars_gained": 6712,
     "days_span": 5,
-    "stars_per_day": 1564.0,
-    "lifetime_stars_per_day": 226.29,
+    "stars_per_day": 1342.4,
+    "lifetime_stars_per_day": 230.67,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "milind-soni/OpenMausBot",
-    "readme_chars": 32760,
+    "readme_chars": 34325,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -70,17 +70,17 @@
     "capability_evidence": {
       "mobile-access": "protected by pairing, an existing",
       "multi-agent-orchestration": "n/ macOS, Windows, and Ubuntu shells with an embedded harness and platform capabilities; Apple speech stays macOS-only, Ubuntu Xorg has opt-in local control, and Wayland remains fail-closed.",
-      "model-routing": "rs can add their own MCP tool servers with zero code via docs/custom-mcp-servers.md.",
-      "api-gateway": "g — see docs/custom-engines.md.",
-      "usage-analytics": "s with zero code via docs/custom-mcp-servers.md.",
+      "model-routing": "configuration switches, defaults and model-call implications, see Feature switches.",
+      "api-gateway": "via docs/custom-mcp-servers.md.",
+      "usage-analytics": "d model-call implications, see Feature switches.",
       "skills-plugins": "skills switched off and routines paused.",
       "mcp-support": "ure bots/channels/tasks, send work, wait for completion, switch models, and interrupt turns.",
-      "security-isolation": "ks before a potentially billable test message.",
+      "security-isolation": "MCP header values in plaintext (a key a bot set from a secret card is kept",
       "self-hosted": "",
       "gui-desktop": "Also in the box: streaming replies with tool-run activity chips · dictation from the composer mic (on-device Apple speech recognition on macOS, Fish Audio speech-to-text on Windows and Linux, in the desktop app) · SupaM…",
       "notifications": "reply\" and it sets the trigger up in that turn with",
       "voice-input": "microphone transcription remains unchanged.",
-      "cross-agent-support": "Mentions Cline, Codex, Cursor"
+      "cross-agent-support": "Mentions Cline, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
       "mobile-access": 1,
@@ -89,17 +89,17 @@
       "api-gateway": 1,
       "usage-analytics": 2,
       "skills-plugins": 1,
-      "mcp-support": 5,
+      "mcp-support": 6,
       "security-isolation": 1,
       "self-hosted": 1,
-      "gui-desktop": 4,
+      "gui-desktop": 5,
       "notifications": 7,
       "voice-input": 2,
-      "cross-agent-support": 3
+      "cross-agent-support": 4
     },
     "friction": {
       "level": "low",
-      "score": 28,
+      "score": 34,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -114,6 +114,7 @@
       ],
       "config_signals": [
         "API key configuration",
+        "config.json/yaml/toml",
         "OAuth login flow",
         "sign-in required",
         "server/reverse-proxy setup"
@@ -132,8 +133,8 @@
         "Android",
         "Web"
       ],
-      "note_en": "Easy. install via npx one-liner, global npm install; needs git clone (build from source), pnpm install/build; configure API key configuration, OAuth login flow; explicitly no coding required",
-      "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 git clone (build from source)、pnpm install/build；需配置 API key configuration、OAuth login flow；explicitly no coding required"
+      "note_en": "Easy. install via npx one-liner, global npm install; needs git clone (build from source), pnpm install/build; configure API key configuration, config.json/yaml/toml; explicitly no coding required",
+      "note_zh": "较易上手。可通过 npx one-liner、global npm install 安装；需要 git clone (build from source)、pnpm install/build；需配置 API key configuration、config.json/yaml/toml；explicitly no coding required"
     },
     "doc_score": 71,
     "doc_signals": [
@@ -151,6 +152,7 @@
     ],
     "agents": [
       "Codex",
+      "OpenCode",
       "Cursor",
       "Cline / Roo"
     ],
@@ -162,7 +164,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.557
+      "external_link_ratio": 1.515
     },
     "highlights": [
       "Local first. One small harness server on 127.0.0.1 owns every agent process. Transcripts, keys, and",
@@ -178,13 +180,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:26+00:00",
+  "fetched_at": "2026-11-11T11:54:00+00:00",
   "categories": [
+    "analytics",
     "mcp-security",
-    "mobile",
-    "voice"
+    "mobile"
   ],
-  "primary_category": "voice",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

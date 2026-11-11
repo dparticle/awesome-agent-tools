@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 309 |
 | Star velocity | 0.6/day (history basis, 5d span) |
-| Health score | 53/100 |
+| Health score | 52/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | MDX |
 | Created | 2025-09-15 |
-| Last push | 2026-11-03 (7 days ago) |
+| Last push | 2026-11-03 (8 days ago) |
 | Analyzed README | 415,042 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -158,7 +158,7 @@ Score **64/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 49.8 |
 | momentum | 0.5 |
-| maintenance | 100.0 |
+| maintenance | 92.0 |
 | documentation | 64.0 |
 | accessibility | 75.0 |
 

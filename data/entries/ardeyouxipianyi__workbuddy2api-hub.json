@@ -6,9 +6,9 @@
   "url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
   "description": "WorkBuddy 国际国内多账号反代网关，支持 Codex / Claude Code / DSH与标准 OpenAI 客户端。",
   "homepage": "https://github.com/ardeyouxipianyi/workbuddy2api-intl/releases",
-  "stars": 3849,
-  "forks": 944,
-  "open_issues": 17,
+  "stars": 3909,
+  "forks": 962,
+  "open_issues": 13,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -25,28 +25,28 @@
     "workbuddy2api"
   ],
   "created_at": "2026-09-12T09:03:40Z",
-  "updated_at": "2026-11-10T12:30:07Z",
-  "pushed_at": "2026-11-10T12:30:48Z",
+  "updated_at": "2026-11-11T11:26:29Z",
+  "pushed_at": "2026-11-11T04:27:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 59,
+  "age_days": 60,
   "days_since_push": 0,
-  "health_score": 69,
+  "health_score": 67,
   "health_components": {
-    "popularity": 71.7,
-    "momentum": 54.4,
+    "popularity": 71.8,
+    "momentum": 47.2,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 64.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3849,
-    "days_span": 59,
-    "stars_per_day": 65.24,
-    "lifetime_stars_per_day": 65.24,
-    "basis": "lifetime",
+    "stars_gained": 283,
+    "days_span": 5,
+    "stars_per_day": 56.6,
+    "lifetime_stars_per_day": 65.15,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -169,11 +169,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:43+00:00",
+  "fetched_at": "2026-11-11T11:54:15+00:00",
   "categories": [
+    "analytics",
     "billing",
-    "quota",
-    "voice"
+    "sharing"
   ],
   "primary_category": "billing",
   "lifecycle": {

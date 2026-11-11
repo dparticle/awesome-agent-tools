@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 2499,
-  "forks": 191,
-  "open_issues": 44,
+  "stars": 2599,
+  "forks": 194,
+  "open_issues": 39,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -16,33 +16,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-11-10T12:32:51Z",
-  "pushed_at": "2026-11-10T08:51:44Z",
+  "updated_at": "2026-11-11T11:49:33Z",
+  "pushed_at": "2026-11-11T11:20:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 87,
+  "age_days": 88,
   "days_since_push": 0,
-  "health_score": 80,
+  "health_score": 79,
   "health_components": {
-    "popularity": 68.0,
-    "momentum": 100.0,
+    "popularity": 68.3,
+    "momentum": 94.0,
     "maintenance": 100.0,
-    "documentation": 58.0,
+    "documentation": 61.0,
     "accessibility": 63.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 620,
+    "stars_gained": 564,
     "days_span": 5,
-    "stars_per_day": 124.0,
-    "lifetime_stars_per_day": 28.72,
+    "stars_per_day": 112.8,
+    "lifetime_stars_per_day": 29.53,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 20450,
+    "readme_chars": 21528,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -106,7 +106,7 @@
       "note_en": "Some setup. install via native installer / package; needs go build; configure sign-in required, process manager",
       "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 go build；需配置 sign-in required、process manager"
     },
-    "doc_score": 58,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -114,6 +114,7 @@
       "documents installation",
       "documents configuration",
       "has troubleshooting/FAQ",
+      "has contribution guidance",
       "mentions licensing",
       "documents changes",
       "publishes a roadmap",
@@ -133,7 +134,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.929
+      "external_link_ratio": 0.883
     },
     "highlights": [
       "The current development baseline is dsh-v0.2.2-rc.1; validation scope is documented in the compatibility guide.",
@@ -155,11 +156,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:41:12+00:00",
+  "fetched_at": "2026-11-11T11:54:42+00:00",
   "categories": [
     "isolation-teams",
-    "memory-failover",
-    "mobile"
+    "mobile",
+    "sharing"
   ],
   "primary_category": "mobile",
   "lifecycle": {

@@ -6,9 +6,9 @@
   "url": "https://github.com/JuneYaooo/rea-video",
   "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
   "homepage": "https://www.reavideo.ai/",
-  "stars": 6028,
-  "forks": 864,
-  "open_issues": 5,
+  "stars": 6826,
+  "forks": 986,
+  "open_issues": 3,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -31,16 +31,16 @@
     "vlm"
   ],
   "created_at": "2026-10-29T16:15:01Z",
-  "updated_at": "2026-11-10T12:37:40Z",
-  "pushed_at": "2026-11-09T15:40:48Z",
+  "updated_at": "2026-11-11T11:51:34Z",
+  "pushed_at": "2026-11-11T08:55:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 11,
+  "age_days": 12,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 75.6,
+    "popularity": 76.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 49.0,
@@ -48,16 +48,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 6028,
-    "days_span": 11,
-    "stars_per_day": 548.0,
-    "lifetime_stars_per_day": 548.0,
+    "stars_gained": 6826,
+    "days_span": 12,
+    "stars_per_day": 568.83,
+    "lifetime_stars_per_day": 568.83,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "JuneYaooo/rea-video",
-    "readme_chars": 15646,
+    "readme_chars": 15864,
     "capabilities": [
       "self-hosted",
       "cross-agent-support"
@@ -113,7 +113,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.023
+      "external_link_ratio": 1.072
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -125,11 +125,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-10T12:40:38+00:00",
+  "fetched_at": "2026-11-11T11:54:09+00:00",
   "categories": [
-    "analytics"
+    "sharing"
   ],
-  "primary_category": "analytics",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

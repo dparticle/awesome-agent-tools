@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,308 |
-| Star velocity | 0.6/day (history basis, 5d span) |
-| Health score | 58/100 |
+| Stars | 4,311 |
+| Star velocity | 0.4/day (history basis, 5d span) |
+| Health score | 57/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-01 |
-| Last push | 2026-11-09 (0 days ago) |
-| Analyzed README | 33,757 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-10 (0 days ago) |
+| Analyzed README | 35,007 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -50,7 +50,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 43/100)
+- **Difficulty:** 🟡 Some setup (friction score 49/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
@@ -58,9 +58,9 @@
 
 **Signals that add work:** git clone (build from source)
 
-**Configuration required:** API key configuration, database dependency, database migration
+**Configuration required:** API key configuration, config.json/yaml/toml, database dependency, database migration
 
-*Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, database dependency*
+*Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, config.json/yaml/toml*
 
 ## Documentation quality
 
@@ -82,10 +82,10 @@ Score **66/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 72.7 |
-| momentum | 0.5 |
+| momentum | 0.3 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
-| accessibility | 57.0 |
+| accessibility | 51.0 |
 
 ---
 
