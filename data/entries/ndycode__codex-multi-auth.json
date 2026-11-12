@@ -6,7 +6,7 @@
   "url": "https://github.com/ndycode/codex-multi-auth",
   "description": "Codex CLI multi-account OAuth manager with account switching, health checks, runtime rotation, diagnostics, and recovery tools for @openai/codex",
   "homepage": "https://www.npmjs.com/package/codex-multi-auth",
-  "stars": 567,
+  "stars": 566,
   "forks": 75,
   "open_issues": 4,
   "language": "TypeScript",
@@ -34,27 +34,27 @@
     "typescript"
   ],
   "created_at": "2026-02-22T22:37:04Z",
-  "updated_at": "2026-11-11T06:53:43Z",
+  "updated_at": "2026-11-11T12:00:11Z",
   "pushed_at": "2026-11-04T09:32:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 261,
-  "days_since_push": 7,
-  "health_score": 54,
+  "age_days": 262,
+  "days_since_push": 8,
+  "health_score": 52,
   "health_components": {
     "popularity": 55.1,
-    "momentum": 0.7,
-    "maintenance": 100.0,
+    "momentum": 0.2,
+    "maintenance": 92.0,
     "documentation": 63.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.17,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.16,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -151,7 +151,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:04+00:00",
+  "fetched_at": "2026-11-12T12:45:04+00:00",
   "categories": [
     "billing",
     "failover"
@@ -180,14 +180,14 @@
         "multi-account-switching",
         "voice-input"
       ],
-      "star_ratio": 35.097,
-      "momentum_ratio": 32.25,
+      "star_ratio": 35.203,
+      "momentum_ratio": 127.0,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "35.10x the stars (19,900 vs 567)",
-        "32.25x the star velocity (25.8/day vs 0.8/day)",
+        "35.20x the stars (19,925 vs 566)",
+        "127.00x the star velocity (25.4/day vs 0.2/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],
@@ -218,7 +218,7 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 54,
+        "incumbent_health": 52,
         "challenger_health": 68,
         "incumbent_setup_score": 41,
         "challenger_setup_score": 32

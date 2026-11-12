@@ -6,9 +6,9 @@
   "url": "https://github.com/oomol-lab/open-connector",
   "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 6223,
-  "forks": 601,
-  "open_issues": 9,
+  "stars": 6231,
+  "forks": 603,
+  "open_issues": 10,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -32,27 +32,27 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-11-11T11:01:59Z",
-  "pushed_at": "2026-11-11T06:04:58Z",
+  "updated_at": "2026-11-12T11:50:46Z",
+  "pushed_at": "2026-11-12T07:10:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
+  "age_days": 136,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 75.9,
-    "momentum": 5.3,
+    "momentum": 6.2,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 32,
+    "stars_gained": 37,
     "days_span": 5,
-    "stars_per_day": 6.4,
-    "lifetime_stars_per_day": 46.1,
+    "stars_per_day": 7.4,
+    "lifetime_stars_per_day": 45.82,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -139,8 +139,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:10+00:00",
+  "fetched_at": "2026-11-12T12:43:56+00:00",
   "categories": [
+    "analytics-3",
     "memory-failover",
     "sharing"
   ],
@@ -166,14 +167,14 @@
         "model-routing",
         "self-hosted"
       ],
-      "star_ratio": 48.374,
-      "momentum_ratio": 88.281,
+      "star_ratio": 48.417,
+      "momentum_ratio": 77.459,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.37x the stars (301,030 vs 6,223)",
-        "88.28x the star velocity (565.0/day vs 6.4/day)",
+        "48.42x the stars (301,687 vs 6,231)",
+        "77.46x the star velocity (573.2/day vs 7.4/day)",
         "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],

@@ -6,9 +6,9 @@
   "url": "https://github.com/makecindy/cindy",
   "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
   "homepage": "https://cindy.app",
-  "stars": 9806,
-  "forks": 1220,
-  "open_issues": 3103,
+  "stars": 9929,
+  "forks": 1234,
+  "open_issues": 3202,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,27 +27,27 @@
     "windows"
   ],
   "created_at": "2026-07-22T17:49:34Z",
-  "updated_at": "2026-11-11T11:21:00Z",
-  "pushed_at": "2026-11-11T11:53:13Z",
+  "updated_at": "2026-11-12T12:06:18Z",
+  "pushed_at": "2026-11-12T12:42:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 111,
+  "age_days": 112,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 75,
   "health_components": {
-    "popularity": 79.8,
-    "momentum": 71.7,
+    "popularity": 79.9,
+    "momentum": 81.8,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 35.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 430,
+    "stars_gained": 491,
     "days_span": 5,
-    "stars_per_day": 86.0,
-    "lifetime_stars_per_day": 88.34,
+    "stars_per_day": 98.2,
+    "lifetime_stars_per_day": 88.65,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -152,7 +152,7 @@
       "移动端未注入 TapDB 配置（clientId / clientToken）时不会初始化 SDK。",
       "不只共享画面，也共享模型。 其他电脑上配置好的订阅、API 供应商和本地模型，开启远程访问后也能调用。",
       "移动端关闭后立即解绑账号并停止 Cindy 主动触发的上报；已初始化的原生 SDK",
-      "培养自己的伙伴。 给她角色、指令、Skill 和日常工作：代码审阅、资料研究、项目跟进，都可以有专门的搭档。"
+      "让经验留下来。 把偏好和知识留在记忆中，把有效的方法写成可复用、可分享的 Skill。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -161,11 +161,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:06+00:00",
+  "fetched_at": "2026-11-12T12:43:50+00:00",
   "categories": [
     "analytics",
-    "mobile",
-    "model-routing"
+    "analytics-3",
+    "mobile"
   ],
   "primary_category": "analytics",
   "lifecycle": {

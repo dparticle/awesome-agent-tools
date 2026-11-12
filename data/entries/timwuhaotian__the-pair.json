@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "full_name": "timwuhaotian/the-pair",
+  "name": "the-pair",
+  "owner": "timwuhaotian",
+  "url": "https://github.com/timwuhaotian/the-pair",
+  "description": "Open-source AI pair programming desktop app: a read-only Mentor and an Executor agent cross-check each other's code to catch AI mistakes before they land. Bring any model — Claude, GPT, Gemini, Kimi, GLM, Qwen or local Ollama. No agent CLI needed. macOS / Windows / Linux.",
+  "homepage": "https://apps.timwuhaotian.dev/apps/the-pair",
+  "stars": 388,
+  "forks": 31,
+  "open_issues": 2,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-orchestration",
+    "agentic-coding",
+    "ai-agents",
+    "ai-code-review",
+    "ai-coding",
+    "ai-coding-agent",
+    "ai-pair-programming",
+    "claude-code",
+    "code-review",
+    "codex",
+    "coding-agent",
+    "desktop-app",
+    "developer-tools",
+    "multi-agent",
+    "ollama",
+    "opencode",
+    "pair-programming",
+    "rust",
+    "tauri",
+    "vibe-coding"
+  ],
+  "created_at": "2026-03-22T18:38:00Z",
+  "updated_at": "2026-11-12T02:55:19Z",
+  "pushed_at": "2026-11-12T01:55:15Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 234,
+  "days_since_push": 0,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 51.8,
+    "momentum": 1.4,
+    "maintenance": 100.0,
+    "documentation": 73.0,
+    "accessibility": 88.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 388,
+    "days_span": 234,
+    "stars_per_day": 1.66,
+    "lifetime_stars_per_day": 1.66,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "timwuhaotian/the-pair",
+    "readme_chars": 18763,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "model-routing",
+      "usage-analytics",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "or sign in with a ChatGPT, Command Code, OpenCode Go or Muse Code subscription",
+      "worktree-isolation": "ention across all pairs, and which model combinations have worked",
+      "model-routing": "y read, edit and command the Executor makes, live, with a stop button.",
+      "usage-analytics": "— task, plans, results, reviews and live turns in a single scrollable feed, with search and role filters",
+      "self-hosted": "Dedicated review role ✅ Mentor (read-only) ❌ Self-review only ❌ Self-review only",
+      "gui-desktop": "stays in the app's data directory, never inside your repository.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Copilot"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "worktree-isolation": 3,
+      "model-routing": 1,
+      "usage-analytics": 1,
+      "self-hosted": 1,
+      "gui-desktop": 2,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "low",
+      "score": 20,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "global npm install",
+        "download a release binary",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "API key configuration",
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via global npm install, download a release binary; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; one-click setup",
+      "note_zh": "较易上手。可通过 global npm install、download a release binary 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、API key configuration；one-click setup"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "explains architecture"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Aider"
+    ],
+    "summary_en": "Two AI agents on one task.",
+    "summary_zh": "",
+    "install_hint": "npm install -g pair-code",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.119
+    },
+    "highlights": [
+      "Stall detection — a warning after 120 s without output, stalled after 600 s",
+      "Worktrees — run each task in its own git worktree on a the-pair/… branch, then commit and push from the inspector",
+      "Four languages — English, 简体中文, 日本語 and 한국어",
+      "Usage tracking — tokens per turn and per run, estimated cost, request count and last output"
+    ],
+    "summary_zh_native": "两个 AI Agent 做同一个任务：一个写代码，另一个审查。",
+    "highlights_zh": [
+      "自带端点 — 导入其他 Agent 的配置（opencode、codex、claude、kimi、pi、omp、gemini、killi）、手动添加密钥，或用 ChatGPT、Command Code、OpenCode Go、Muse Code 订阅登录",
+      "卡顿检测 — 120 秒无输出时警告，600 秒后标记为卡住",
+      "统一的会话控制台 — 任务、计划、结果、审查和实时轮次都在同一条可滚动的信息流里，支持搜索和按角色筛选",
+      "Worktree — 每个任务可以在独立的 git worktree 和 the-pair/… 分支上运行，然后直接在检查器里提交和推送"
+    ],
+    "chinese_readme": "README.zh.md"
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-12T12:45:20+00:00",
+  "categories": [
+    "analytics",
+    "desktop-ui-2",
+    "isolation-teams"
+  ],
+  "primary_category": "isolation-teams",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

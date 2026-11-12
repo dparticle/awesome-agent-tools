@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/TokenEconomizer",
   "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
   "homepage": "",
-  "stars": 5689,
-  "forks": 355,
-  "open_issues": 30,
+  "stars": 5833,
+  "forks": 371,
+  "open_issues": 33,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -33,33 +33,33 @@
     "token-optimization"
   ],
   "created_at": "2026-10-13T04:16:50Z",
-  "updated_at": "2026-11-11T11:24:41Z",
-  "pushed_at": "2026-11-10T19:09:48Z",
+  "updated_at": "2026-11-12T12:21:30Z",
+  "pushed_at": "2026-11-12T00:30:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 29,
+  "age_days": 30,
   "days_since_push": 0,
   "health_score": 83,
   "health_components": {
-    "popularity": 75.1,
+    "popularity": 75.3,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 60.0,
+    "documentation": 61.0,
     "accessibility": 72.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5689,
-    "days_span": 29,
-    "stars_per_day": 196.17,
-    "lifetime_stars_per_day": 196.17,
+    "stars_gained": 5833,
+    "days_span": 30,
+    "stars_per_day": 194.43,
+    "lifetime_stars_per_day": 194.43,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "microsoft/TokenEconomizer",
-    "readme_chars": 29266,
+    "readme_chars": 31949,
     "capabilities": [
       "multi-agent-orchestration",
       "session-persistence",
@@ -88,7 +88,7 @@
       "security-isolation": 1,
       "gui-desktop": 1,
       "notifications": 1,
-      "cross-agent-support": 5
+      "cross-agent-support": 6
     },
     "friction": {
       "level": "low",
@@ -118,7 +118,7 @@
       "note_en": "Easy. install via npx one-liner; needs git clone (build from source); configure environment variables, config.json/yaml/toml; GUI application",
       "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)；需配置 environment variables、config.json/yaml/toml；GUI application"
     },
-    "doc_score": 60,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -136,7 +136,8 @@
       "Codex",
       "OpenCode",
       "Cursor",
-      "Copilot"
+      "Copilot",
+      "Droid"
     ],
     "summary_en": "Aaron J.",
     "summary_zh": "",
@@ -146,13 +147,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.034
+      "external_link_ratio": 0.031
     },
     "highlights": [
       "opencode support is experimental: it was tested on 1.19.5 and 2.2.0 only, and not in the",
       "Cursor Agent support is experimental.",
       "Codex before 0.141.0 does not run plugin hooks at all.",
-      "Antigravity CLI support is experimental: it was written against agy 1.5.1's hook contract"
+      "Factory Droid support is experimental: it was tested on 0.233.0 only, on macOS."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -163,84 +164,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:11+00:00",
+  "fetched_at": "2026-11-12T12:43:57+00:00",
   "categories": [
-    "isolation-teams",
+    "desktop-ui-2",
     "mcp-security",
     "memory-failover"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "mcp-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "paperclipai/paperclip",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "microsoft/tokeneconomizer",
-      "challenger": "paperclipai/paperclip",
-      "incumbent_name": "microsoft/TokenEconomizer",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "notifications",
-        "security-isolation",
-        "session-persistence"
-      ],
-      "star_ratio": 19.873,
-      "momentum_ratio": 1.482,
-      "setup_delta": 9,
-      "dominance": 0.804,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "19.87x the stars (113,060 vs 5,689)",
-        "1.48x the star velocity (290.8/day vs 196.2/day)",
-        "slightly heavier setup (+9 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 83,
-        "challenger_health": 89,
-        "incumbent_setup_score": 36,
-        "challenger_setup_score": 45
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

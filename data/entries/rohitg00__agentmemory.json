@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://www.agent-memory.dev/docs",
-  "stars": 30286,
-  "forks": 2689,
-  "open_issues": 453,
+  "stars": 30316,
+  "forks": 2694,
+  "open_issues": 450,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -30,33 +30,33 @@
     "pi"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-11-11T11:51:22Z",
-  "pushed_at": "2026-11-11T11:17:29Z",
+  "updated_at": "2026-11-12T12:35:15Z",
+  "pushed_at": "2026-11-12T12:40:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 259,
+  "age_days": 260,
   "days_since_push": 0,
   "health_score": 70,
   "health_components": {
     "popularity": 89.6,
-    "momentum": 19.5,
+    "momentum": 22.3,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 117,
+    "stars_gained": 134,
     "days_span": 5,
-    "stars_per_day": 23.4,
-    "lifetime_stars_per_day": 116.93,
+    "stars_per_day": 26.8,
+    "lifetime_stars_per_day": 116.6,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rohitg00/agentmemory",
-    "readme_chars": 93859,
+    "readme_chars": 94149,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -187,7 +187,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.192
+      "external_link_ratio": 0.191
     },
     "highlights": [
       "Large stores keep working: state reads page, so scopes above 64 MiB no longer fail, on iii 0.25.1.",
@@ -202,7 +202,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:32+00:00",
+  "fetched_at": "2026-11-12T12:44:23+00:00",
   "categories": [
     "mcp-security",
     "memory-failover",

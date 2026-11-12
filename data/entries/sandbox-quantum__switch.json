@@ -6,9 +6,9 @@
   "url": "https://github.com/sandbox-quantum/switch",
   "description": "Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.",
   "homepage": "https://www.switchagents.ai",
-  "stars": 4368,
-  "forks": 342,
-  "open_issues": 727,
+  "stars": 4444,
+  "forks": 346,
+  "open_issues": 669,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -27,27 +27,27 @@
     "slack"
   ],
   "created_at": "2026-07-16T09:52:46Z",
-  "updated_at": "2026-11-11T10:22:52Z",
-  "pushed_at": "2026-11-11T11:42:17Z",
+  "updated_at": "2026-11-12T12:30:13Z",
+  "pushed_at": "2026-11-12T12:42:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 118,
+  "age_days": 119,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 72,
   "health_components": {
-    "popularity": 72.8,
-    "momentum": 60.8,
+    "popularity": 73.0,
+    "momentum": 46.8,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 365,
+    "stars_gained": 281,
     "days_span": 5,
-    "stars_per_day": 73.0,
-    "lifetime_stars_per_day": 37.02,
+    "stars_per_day": 56.2,
+    "lifetime_stars_per_day": 37.34,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -143,11 +143,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:13+00:00",
+  "fetched_at": "2026-11-12T12:44:00+00:00",
   "categories": [
     "analytics",
-    "desktop-ui-2",
-    "model-routing"
+    "desktop-ui-2"
   ],
   "primary_category": "analytics",
   "lifecycle": {

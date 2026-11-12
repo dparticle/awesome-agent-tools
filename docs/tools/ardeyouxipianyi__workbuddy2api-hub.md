@@ -12,29 +12,33 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,909 |
-| Star velocity | 56.6/day (history basis, 5d span) |
-| Health score | 67/100 |
-| Documentation | 52/100 |
+| Stars | 3,959 |
+| Star velocity | 55.5/day (history basis, 6d span) |
+| Health score | 68/100 |
+| Documentation | 55/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-12 |
-| Last push | 2026-11-11 (0 days ago) |
-| Analyzed README | 11,274 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 19,400 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> # WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢
+> ：将 WorkBuddy（国际版/国内版）与 CodeArts 封装为标准 OpenAI 格式（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。
 
 ### Quota & usage management
 
 ### Automatic failover
 
 > （Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。
+
+### Mobile access
+
+> ent group" keeps its name.
 
 ### Model / provider routing
 
@@ -45,6 +49,10 @@
 > # WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢
 
 ### Quota sharing / splitting
+
+### Billing & metering
+
+> x-stainless-os（如 Linux / Windows）
 
 ### Usage analytics
 
@@ -79,7 +87,7 @@
 
 ## Documentation quality
 
-Score **52/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -96,10 +104,10 @@ Score **52/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.8 |
-| momentum | 47.2 |
+| popularity | 72.0 |
+| momentum | 46.2 |
 | maintenance | 100.0 |
-| documentation | 52.0 |
+| documentation | 55.0 |
 | accessibility | 64.0 |
 
 ---

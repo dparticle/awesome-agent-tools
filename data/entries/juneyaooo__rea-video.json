@@ -4,10 +4,10 @@
   "name": "rea-video",
   "owner": "JuneYaooo",
   "url": "https://github.com/JuneYaooo/rea-video",
-  "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
+  "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
   "homepage": "https://www.reavideo.ai/",
-  "stars": 6826,
-  "forks": 986,
+  "stars": 7311,
+  "forks": 1075,
   "open_issues": 3,
   "language": "Python",
   "license": "Apache-2.0",
@@ -28,36 +28,37 @@
     "video-breakdown",
     "video-editing",
     "video-generation",
+    "videomd",
     "vlm"
   ],
   "created_at": "2026-10-29T16:15:01Z",
-  "updated_at": "2026-11-11T11:51:34Z",
-  "pushed_at": "2026-11-11T08:55:41Z",
+  "updated_at": "2026-11-12T12:38:30Z",
+  "pushed_at": "2026-11-12T09:59:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 12,
+  "age_days": 13,
   "days_since_push": 0,
-  "health_score": 84,
+  "health_score": 85,
   "health_components": {
-    "popularity": 76.7,
+    "popularity": 77.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 49.0,
-    "accessibility": 90.0
+    "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 6826,
-    "days_span": 12,
-    "stars_per_day": 568.83,
-    "lifetime_stars_per_day": 568.83,
+    "stars_gained": 7311,
+    "days_span": 13,
+    "stars_per_day": 562.38,
+    "lifetime_stars_per_day": 562.38,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "JuneYaooo/rea-video",
-    "readme_chars": 15864,
+    "readme_chars": 16820,
     "capabilities": [
       "self-hosted",
       "cross-agent-support"
@@ -72,15 +73,13 @@
     },
     "friction": {
       "level": "turnkey",
-      "score": 18,
-      "out_of_the_box": false,
+      "score": 9,
+      "out_of_the_box": true,
       "non_programmer_friendly": true,
       "easy_signals": [
-        "Homebrew install"
+        "pip install"
       ],
-      "hard_signals": [
-        "git clone (build from source)"
-      ],
+      "hard_signals": [],
       "config_signals": [],
       "friendliness_signals": [
         "one-click setup"
@@ -89,8 +88,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Turnkey. install via Homebrew install; needs git clone (build from source); one-click setup",
-      "note_zh": "开箱即用。可通过 Homebrew install 安装；需要 git clone (build from source)；one-click setup"
+      "note_en": "Turnkey. install via pip install; one-click setup",
+      "note_zh": "开箱即用。可通过 pip install 安装；one-click setup"
     },
     "doc_score": 49,
     "doc_signals": [
@@ -107,13 +106,13 @@
     ],
     "summary_en": "Reverse-engineer any video.",
     "summary_zh": "",
-    "install_hint": "brew install ffmpeg            # or: sudo apt install ffmpeg",
+    "install_hint": "",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.072
+      "external_link_ratio": 1.486
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -125,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:09+00:00",
+  "fetched_at": "2026-11-12T12:43:53+00:00",
   "categories": [
     "sharing"
   ],

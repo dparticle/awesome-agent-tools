@@ -6,9 +6,9 @@
   "url": "https://github.com/google/artemis",
   "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
   "homepage": "",
-  "stars": 17231,
-  "forks": 1921,
-  "open_issues": 189,
+  "stars": 17306,
+  "forks": 1926,
+  "open_issues": 190,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -19,27 +19,27 @@
     "testing"
   ],
   "created_at": "2026-08-13T17:59:37Z",
-  "updated_at": "2026-11-11T11:45:01Z",
+  "updated_at": "2026-11-12T12:29:43Z",
   "pushed_at": "2026-10-01T21:37:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 89,
-  "days_since_push": 40,
-  "health_score": 75,
+  "age_days": 90,
+  "days_since_push": 41,
+  "health_score": 73,
   "health_components": {
-    "popularity": 84.7,
-    "momentum": 80.2,
+    "popularity": 84.8,
+    "momentum": 73.2,
     "maintenance": 78.0,
     "documentation": 68.0,
     "accessibility": 44.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 481,
+    "stars_gained": 439,
     "days_span": 5,
-    "stars_per_day": 96.2,
-    "lifetime_stars_per_day": 193.61,
+    "stars_per_day": 87.8,
+    "lifetime_stars_per_day": 192.29,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:02+00:00",
+  "fetched_at": "2026-11-12T12:43:46+00:00",
   "categories": [
     "mobile"
   ],
@@ -176,14 +176,14 @@
         "multi-agent-orchestration",
         "notifications"
       ],
-      "star_ratio": 9.734,
-      "momentum_ratio": 1.815,
+      "star_ratio": 9.7,
+      "momentum_ratio": 1.913,
       "setup_delta": -55,
-      "dominance": 0.874,
+      "dominance": 0.881,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "9.73x the stars (167,723 vs 17,231)",
-        "1.81x the star velocity (174.6/day vs 96.2/day)",
+        "9.70x the stars (167,864 vs 17,306)",
+        "1.91x the star velocity (168.0/day vs 87.8/day)",
         "no harder to set up (1 vs 56 friction)"
       ],
       "reasons_zh": [],
@@ -214,7 +214,7 @@
           "team-collaboration",
           "voice-input"
         ],
-        "incumbent_health": 75,
+        "incumbent_health": 73,
         "challenger_health": 98,
         "incumbent_setup_score": 56,
         "challenger_setup_score": 1

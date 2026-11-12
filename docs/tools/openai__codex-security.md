@@ -12,19 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,398 |
-| Star velocity | 17.4/day (history basis, 5d span) |
-| Health score | 60/100 |
+| Stars | 12,086 |
+| Star velocity | 152.8/day (history basis, 5d span) |
+| Health score | 81/100 |
 | Documentation | 41/100 |
-| Tier | 🔹 Notable |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-13 |
-| Last push | 2026-11-11 (0 days ago) |
-| Analyzed README | 9,586 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 9,871 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Workspace isolation
+
+> ackage locally in your TypeScript project:
 
 ### Model / provider routing
 
@@ -58,8 +62,8 @@ Score **41/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.1 |
-| momentum | 14.5 |
+| popularity | 81.6 |
+| momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 41.0 |
 | accessibility | 63.0 |

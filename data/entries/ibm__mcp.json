@@ -6,7 +6,7 @@
   "url": "https://github.com/IBM/mcp",
   "description": "A collection of Model Context Protocol (MCP) servers, clients and developer tools by IBM.",
   "homepage": "https://www.ibm.com/think/topics/model-context-protocol",
-  "stars": 417,
+  "stars": 419,
   "forks": 94,
   "open_issues": 3,
   "language": "",
@@ -20,26 +20,26 @@
     "tools"
   ],
   "created_at": "2025-04-02T23:35:03Z",
-  "updated_at": "2026-11-10T17:40:49Z",
+  "updated_at": "2026-11-12T11:09:03Z",
   "pushed_at": "2026-10-01T16:12:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 587,
-  "days_since_push": 40,
+  "age_days": 588,
+  "days_since_push": 41,
   "health_score": 42,
   "health_components": {
     "popularity": 52.4,
-    "momentum": 0.0,
+    "momentum": 0.3,
     "maintenance": 78.0,
     "documentation": 36.0,
     "accessibility": 52.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 0.71,
     "basis": "history",
     "is_fast_riser": false
@@ -118,9 +118,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:16+00:00",
+  "fetched_at": "2026-11-12T12:45:18+00:00",
   "categories": [
     "desktop-ui",
+    "desktop-ui-2",
     "mcp-security"
   ],
   "primary_category": "mcp-security",

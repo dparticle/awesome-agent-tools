@@ -6,9 +6,9 @@
   "url": "https://github.com/miqdadbadjuber/anti-slop",
   "description": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
   "homepage": "https://antislop.ai.id",
-  "stars": 8921,
-  "forks": 606,
-  "open_issues": 0,
+  "stars": 9017,
+  "forks": 616,
+  "open_issues": 3,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -24,46 +24,49 @@
     "ui-design"
   ],
   "created_at": "2026-08-07T10:29:56Z",
-  "updated_at": "2026-11-11T11:38:58Z",
-  "pushed_at": "2026-11-10T13:35:26Z",
+  "updated_at": "2026-11-12T12:36:30Z",
+  "pushed_at": "2026-11-12T12:31:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 96,
+  "age_days": 97,
   "days_since_push": 0,
   "health_score": 82,
   "health_components": {
-    "popularity": 79.0,
-    "momentum": 79.7,
+    "popularity": 79.1,
+    "momentum": 79.3,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 478,
+    "stars_gained": 476,
     "days_span": 5,
-    "stars_per_day": 95.6,
-    "lifetime_stars_per_day": 92.93,
+    "stars_per_day": 95.2,
+    "lifetime_stars_per_day": 92.96,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "miqdadbadjuber/anti-slop",
-    "readme_chars": 13705,
+    "readme_chars": 14652,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
+      "mcp-support",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "skills-plugins": "e them, so adding one does not change the core.",
+      "skills-plugins": "l instead, name the profile you use:",
       "agent-runtime": "",
+      "mcp-support": "Windows, set $env:MUSEEXPERIMENTALPLUGINS = \"1\" in PowerShell first, then run the two muse lines unchanged.",
       "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
     },
     "capability_hits": {
       "skills-plugins": 2,
       "agent-runtime": 2,
+      "mcp-support": 1,
       "cross-agent-support": 8
     },
     "friction": {
@@ -115,7 +118,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.949
+      "external_link_ratio": 0.956
     },
     "highlights": [
       "40 mandatory rules (R-01 to R-40) in three tiers: Hard Gate, Purpose-Gate, and Quality Locks.",
@@ -132,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:06+00:00",
+  "fetched_at": "2026-11-12T12:43:51+00:00",
   "categories": [
     "desktop-ui"
   ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/totec448-spec/chat-on-steroids",
   "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
   "homepage": "",
-  "stars": 5152,
-  "forks": 666,
-  "open_issues": 30,
+  "stars": 5162,
+  "forks": 668,
+  "open_issues": 28,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,27 +24,27 @@
     "windows"
   ],
   "created_at": "2026-08-22T14:16:24Z",
-  "updated_at": "2026-11-11T09:15:13Z",
-  "pushed_at": "2026-11-11T07:27:10Z",
+  "updated_at": "2026-11-12T12:35:32Z",
+  "pushed_at": "2026-11-12T11:39:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 80,
+  "age_days": 81,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 74.2,
-    "momentum": 1.3,
+    "popularity": 74.3,
+    "momentum": 3.2,
     "maintenance": 100.0,
     "documentation": 26.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 19,
     "days_span": 5,
-    "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 64.4,
+    "stars_per_day": 3.8,
+    "lifetime_stars_per_day": 63.73,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -124,8 +124,8 @@
     "highlights": [
       "Connect Core (steps 4–7): create a tunnel and a restricted API key at OpenAI, press Connect, then add the app in ChatGPT under Plugins → Add → Add custom MCP server.",
       "Share a folder and choose access (steps 2–3): the folder ChatGPT may work in, and what it may do there.",
-      "Skills, plugins and pets, 13 languages, light and dark.",
-      "Respect limits and access decisions."
+      "Respect limits and access decisions.",
+      "Skills, plugins and pets, 13 languages, light and dark."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:11+00:00",
+  "fetched_at": "2026-11-12T12:43:58+00:00",
   "categories": [
     "failover",
     "mobile"

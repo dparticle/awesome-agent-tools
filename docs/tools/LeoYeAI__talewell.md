@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-03-28 |
-| Last push | 2026-10-01 (40 days ago) |
+| Last push | 2026-10-01 (41 days ago) |
 | Analyzed README | 8,208 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).

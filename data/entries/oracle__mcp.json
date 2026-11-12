@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 478,
   "forks": 156,
-  "open_issues": 56,
+  "open_issues": 57,
   "language": "Python",
   "license": "UPL-1.0",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 472,
-  "days_since_push": 6,
+  "age_days": 473,
+  "days_since_push": 7,
   "health_score": 55,
   "health_components": {
     "popularity": 53.6,
@@ -132,7 +132,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:10+00:00",
+  "fetched_at": "2026-11-12T12:45:12+00:00",
   "categories": [
     "mcp-security"
   ],

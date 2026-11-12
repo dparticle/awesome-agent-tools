@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,826 |
-| Star velocity | 568.8/day (lifetime basis, 12d span) |
-| Health score | 84/100 |
+| Stars | 7,311 |
+| Star velocity | 562.4/day (lifetime basis, 13d span) |
+| Health score | 85/100 |
 | Documentation | 49/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-10-29 |
-| Last push | 2026-11-11 (0 days ago) |
-| Analyzed README | 15,864 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 16,820 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,16 +36,13 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 18/100)
-- **Out of the box:** no
+- **Difficulty:** 🟢 Turnkey (friction score 9/100)
+- **Out of the box:** yes
 - **Non-programmer friendly:** yes
-- **Quickest install:** `brew install ffmpeg            # or: sudo apt install ffmpeg`
 
-**Signals that make it easy:** Homebrew install
+**Signals that make it easy:** pip install
 
-**Signals that add work:** git clone (build from source)
-
-*Turnkey. install via Homebrew install; needs git clone (build from source); one-click setup*
+*Turnkey. install via pip install; one-click setup*
 
 ## Documentation quality
 
@@ -62,11 +59,11 @@ Score **49/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 76.7 |
+| popularity | 77.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
-| accessibility | 90.0 |
+| accessibility | 100.0 |
 
 ---
 

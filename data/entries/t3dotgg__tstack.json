@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "full_name": "t3dotgg/tstack",
+  "name": "tstack",
+  "owner": "t3dotgg",
+  "url": "https://github.com/t3dotgg/tstack",
+  "description": "The agent skills I use every day. Works with Claude Code and Codex.",
+  "homepage": "",
+  "stars": 3506,
+  "forks": 264,
+  "open_issues": 17,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "created_at": "2026-10-24T05:00:20Z",
+  "updated_at": "2026-11-12T12:42:43Z",
+  "pushed_at": "2026-11-11T11:33:03Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 19,
+  "days_since_push": 1,
+  "health_score": 74,
+  "health_components": {
+    "popularity": 70.9,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 25.0,
+    "accessibility": 49.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3506,
+    "days_span": 19,
+    "stars_per_day": 184.53,
+    "lifetime_stars_per_day": 184.53,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "t3dotgg/tstack",
+    "readme_chars": 2272,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "model-routing",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "multi-agent-orchestration": "file-pr, babysit-pr, and modernize use leaving-pr-comments.",
+      "model-routing": "sit-pr, and modernize use leaving-pr-comments.",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 1,
+      "model-routing": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [],
+      "note_en": "Some setup. needs git clone (build from source)",
+      "note_zh": "需要一些配置。需要 git clone (build from source)"
+    },
+    "doc_score": 25,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "mentions licensing"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "The agent skills I use every day, cleaned up so anyone can use them.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.88
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-12T12:44:04+00:00",
+  "categories": [
+    "failover"
+  ],
+  "primary_category": "failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

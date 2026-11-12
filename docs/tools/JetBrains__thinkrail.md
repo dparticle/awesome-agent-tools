@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,151 |
-| Star velocity | 64.7/day (lifetime basis, 126d span) |
+| Stars | 8,190 |
+| Star velocity | 60.2/day (history basis, 5d span) |
 | Health score | 74/100 |
-| Documentation | 54/100 |
+| Documentation | 55/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-08 |
-| Last push | 2026-11-11 (0 days ago) |
-| Analyzed README | 19,952 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 20,161 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> erminals, and document support.
+> e it or move it to either side.
 
 ### Workspace isolation
 
@@ -77,7 +77,7 @@
 
 ## Documentation quality
 
-Score **54/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -88,15 +88,16 @@ Score **54/100**, based on these detected signals:
 - mentions licensing
 - reports benchmarks
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.2 |
-| momentum | 53.9 |
+| popularity | 78.3 |
+| momentum | 50.2 |
 | maintenance | 100.0 |
-| documentation | 54.0 |
+| documentation | 55.0 |
 | accessibility | 90.0 |
 
 ---

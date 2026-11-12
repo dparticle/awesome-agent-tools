@@ -6,9 +6,9 @@
   "url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
   "description": "WorkBuddy 国际国内多账号反代网关，支持 Codex / Claude Code / DSH与标准 OpenAI 客户端。",
   "homepage": "https://github.com/ardeyouxipianyi/workbuddy2api-intl/releases",
-  "stars": 3909,
-  "forks": 962,
-  "open_issues": 13,
+  "stars": 3959,
+  "forks": 969,
+  "open_issues": 11,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -25,40 +25,42 @@
     "workbuddy2api"
   ],
   "created_at": "2026-09-12T09:03:40Z",
-  "updated_at": "2026-11-11T11:26:29Z",
-  "pushed_at": "2026-11-11T04:27:28Z",
+  "updated_at": "2026-11-12T12:31:34Z",
+  "pushed_at": "2026-11-12T12:41:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 60,
+  "age_days": 61,
   "days_since_push": 0,
-  "health_score": 67,
+  "health_score": 68,
   "health_components": {
-    "popularity": 71.8,
-    "momentum": 47.2,
+    "popularity": 72.0,
+    "momentum": 46.2,
     "maintenance": 100.0,
-    "documentation": 52.0,
+    "documentation": 55.0,
     "accessibility": 64.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 283,
-    "days_span": 5,
-    "stars_per_day": 56.6,
-    "lifetime_stars_per_day": 65.15,
+    "stars_gained": 333,
+    "days_span": 6,
+    "stars_per_day": 55.5,
+    "lifetime_stars_per_day": 64.9,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "ardeyouxipianyi/workbuddy2api-hub",
-    "readme_chars": 11274,
+    "readme_chars": 19400,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
       "auto-failover",
+      "mobile-access",
       "model-routing",
       "api-gateway",
       "quota-distribution",
+      "billing-metering",
       "usage-analytics",
       "skills-plugins",
       "security-isolation",
@@ -68,12 +70,14 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "# WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢",
+      "multi-account-switching": "：将 WorkBuddy（国际版/国内版）与 CodeArts 封装为标准 OpenAI 格式（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。",
       "quota-management": "",
       "auto-failover": "（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。",
+      "mobile-access": "ent group\" keeps its name.",
       "model-routing": "绑定**：可固定走国际版、国内版或 CodeArts；",
       "api-gateway": "# WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢",
       "quota-distribution": "",
+      "billing-metering": "x-stainless-os（如 Linux / Windows）",
       "usage-analytics": "",
       "skills-plugins": "",
       "security-isolation": "",
@@ -83,12 +87,14 @@
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
-      "multi-account-switching": 2,
-      "quota-management": 1,
+      "multi-account-switching": 13,
+      "quota-management": 2,
       "auto-failover": 1,
+      "mobile-access": 2,
       "model-routing": 1,
-      "api-gateway": 8,
+      "api-gateway": 10,
       "quota-distribution": 1,
+      "billing-metering": 1,
       "usage-analytics": 1,
       "skills-plugins": 1,
       "security-isolation": 1,
@@ -125,7 +131,7 @@
       "note_en": "Easy. install via curl | sh installer; needs docker compose up; configure API key configuration, OAuth login flow; Chinese: beginner/one-click framing",
       "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 docker compose up；需配置 API key configuration、OAuth login flow；Chinese: beginner/one-click framing"
     },
-    "doc_score": 52,
+    "doc_score": 55,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -152,7 +158,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 1.508
+      "external_link_ratio": 0.876
     },
     "highlights": [
       "打开看板 http://127.0.0.1:8788/，点击「+ 添加账号 (OAuth)」，在浏览器中完成官方登录授权即可自动入库。",
@@ -169,11 +175,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:15+00:00",
+  "fetched_at": "2026-11-12T12:44:02+00:00",
   "categories": [
-    "analytics",
+    "analytics-3",
     "billing",
-    "sharing"
+    "sharing-model-routing"
   ],
   "primary_category": "billing",
   "lifecycle": {

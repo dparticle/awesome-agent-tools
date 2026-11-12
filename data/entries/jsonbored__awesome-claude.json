@@ -7,8 +7,8 @@
   "description": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
   "homepage": "https://heyclau.de",
   "stars": 309,
-  "forks": 188,
-  "open_issues": 79,
+  "forks": 189,
+  "open_issues": 80,
   "language": "MDX",
   "license": "MIT",
   "topics": [
@@ -39,21 +39,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 422,
-  "days_since_push": 8,
+  "age_days": 423,
+  "days_since_push": 9,
   "health_score": 52,
   "health_components": {
     "popularity": 49.8,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 92.0,
     "documentation": 64.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 0.73,
     "basis": "history",
     "is_fast_riser": false
@@ -240,13 +240,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:25+00:00",
+  "fetched_at": "2026-11-12T12:45:29+00:00",
   "categories": [
     "isolation-teams",
     "mobile",
     "sharing"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

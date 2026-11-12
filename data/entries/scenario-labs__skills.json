@@ -6,9 +6,9 @@
   "url": "https://github.com/scenario-labs/skills",
   "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
   "homepage": "https://www.skills.sh/scenario-labs/skills",
-  "stars": 3674,
-  "forks": 324,
-  "open_issues": 27,
+  "stars": 3719,
+  "forks": 328,
+  "open_issues": 22,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "zbrush"
   ],
   "created_at": "2026-08-12T10:08:49Z",
-  "updated_at": "2026-11-11T11:03:25Z",
-  "pushed_at": "2026-11-10T19:24:17Z",
+  "updated_at": "2026-11-12T12:43:07Z",
+  "pushed_at": "2026-11-12T11:29:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 91,
+  "age_days": 92,
   "days_since_push": 0,
   "health_score": 66,
   "health_components": {
-    "popularity": 71.3,
-    "momentum": 33.6,
+    "popularity": 71.4,
+    "momentum": 33.7,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 60.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3674,
-    "days_span": 91,
-    "stars_per_day": 40.37,
-    "lifetime_stars_per_day": 40.37,
+    "stars_gained": 3719,
+    "days_span": 92,
+    "stars_per_day": 40.42,
+    "lifetime_stars_per_day": 40.42,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "scenario-labs/skills",
-    "readme_chars": 70578,
+    "readme_chars": 70795,
     "capabilities": [
       "remote-control",
       "model-routing",
@@ -146,7 +146,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.128
+      "external_link_ratio": 0.127
     },
     "highlights": [
       "\"Make a seamless brick texture, then upscale it to 2048 without breaking the tiling\"",
@@ -161,11 +161,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:16+00:00",
+  "fetched_at": "2026-11-12T12:44:03+00:00",
   "categories": [
     "analytics",
-    "desktop-ui",
-    "model-routing"
+    "desktop-ui"
   ],
   "primary_category": "analytics",
   "lifecycle": {

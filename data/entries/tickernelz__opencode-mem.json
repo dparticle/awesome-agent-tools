@@ -6,7 +6,7 @@
   "url": "https://github.com/tickernelz/opencode-mem",
   "description": "OpenCode plugin that gives coding agents persistent memory using local vector database",
   "homepage": "https://opencode-mem.zhafron.my.id",
-  "stars": 1854,
+  "stars": 1857,
   "forks": 186,
   "open_issues": 4,
   "language": "TypeScript",
@@ -21,27 +21,27 @@
     "vector-database"
   ],
   "created_at": "2026-01-10T08:13:56Z",
-  "updated_at": "2026-11-11T09:25:39Z",
+  "updated_at": "2026-11-12T09:39:30Z",
   "pushed_at": "2026-11-09T08:52:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 305,
-  "days_since_push": 2,
+  "age_days": 306,
+  "days_since_push": 3,
   "health_score": 56,
   "health_components": {
     "popularity": 65.4,
-    "momentum": 4.8,
+    "momentum": 4.3,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 29,
+    "stars_gained": 26,
     "days_span": 5,
-    "stars_per_day": 5.8,
-    "lifetime_stars_per_day": 6.08,
+    "stars_per_day": 5.2,
+    "lifetime_stars_per_day": 6.07,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -159,11 +159,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:46+00:00",
+  "fetched_at": "2026-11-12T12:44:40+00:00",
   "categories": [
     "desktop-ui",
-    "failover",
-    "model-routing"
+    "desktop-ui-2",
+    "failover"
   ],
   "primary_category": "failover",
   "lifecycle": {

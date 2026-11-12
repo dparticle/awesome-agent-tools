@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 49,523 |
-| Star velocity | 54.4/day (history basis, 5d span) |
-| Health score | 79/100 |
+| Stars | 49,588 |
+| Star velocity | 57.0/day (history basis, 5d span) |
+| Health score | 78/100 |
 | Documentation | 82/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-01-14 |
-| Last push | 2026-11-11 (0 days ago) |
-| Analyzed README | 128,188 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 125,101 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@
 
 ### MCP support
 
-> tool contracts, capability coverage, and limits.
+> uptime-monitoring) - content checks confirmed from a second location, heartbeats for scheduled jobs, certificate and domain expiry, status pages and a tested alert route, through the hosted Staygreen MCP server; the sam…
 
 ### Security & isolation
 
@@ -84,15 +84,17 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 30/100)
+- **Difficulty:** 🟡 Some setup (friction score 39/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
 **Signals that make it easy:** npx one-liner, native installer / package
 
+**Signals that add work:** npm install/build
+
 **Configuration required:** API key configuration, OAuth login flow, database dependency, database migration, server/reverse-proxy setup
 
-*Easy. install via npx one-liner, native installer / package; configure API key configuration, OAuth login flow; GUI application*
+*Some setup. install via npx one-liner, native installer / package; needs npm install/build; configure API key configuration, OAuth login flow; GUI application*
 
 ## Documentation quality
 
@@ -119,10 +121,10 @@ Score **82/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 93.9 |
-| momentum | 45.3 |
+| momentum | 47.5 |
 | maintenance | 100.0 |
 | documentation | 82.0 |
-| accessibility | 70.0 |
+| accessibility | 61.0 |
 
 ---
 

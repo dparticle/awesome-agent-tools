@@ -6,7 +6,7 @@
   "url": "https://github.com/zhnt/loushang",
   "description": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance,   traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
   "homepage": "",
-  "stars": 2042,
+  "stars": 2054,
   "forks": 314,
   "open_issues": 51,
   "language": "Python",
@@ -34,27 +34,27 @@
     "workflow"
   ],
   "created_at": "2026-05-29T17:25:11Z",
-  "updated_at": "2026-11-11T10:25:24Z",
-  "pushed_at": "2026-11-11T09:25:19Z",
+  "updated_at": "2026-11-12T12:26:21Z",
+  "pushed_at": "2026-11-12T12:37:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 165,
+  "age_days": 166,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
-    "popularity": 66.2,
-    "momentum": 8.8,
+    "popularity": 66.3,
+    "momentum": 9.2,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 53,
+    "stars_gained": 55,
     "days_span": 5,
-    "stars_per_day": 10.6,
-    "lifetime_stars_per_day": 12.38,
+    "stars_per_day": 11.0,
+    "lifetime_stars_per_day": 12.37,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -122,7 +122,9 @@
       "signals": [],
       "external_link_ratio": 0.0
     },
-    "highlights": [],
+    "highlights": [
+      "loushang code: a coding-focused CLI and terminal workbench."
+    ],
     "summary_zh_native": "Loushang 是一个把复杂工作变成可运行流程的智能工作系统。",
     "highlights_zh": [
       "会话：可恢复、可分叉、可导出、可检查的 coding 对话与执行记录。",
@@ -137,11 +139,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:44+00:00",
+  "fetched_at": "2026-11-12T12:44:39+00:00",
   "categories": [
-    "model-routing"
+    "sharing-model-routing"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "sharing-model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

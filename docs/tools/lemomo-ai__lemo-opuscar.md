@@ -2,7 +2,7 @@
 
 # lemomo-ai/lemo-opuscar
 
-> A toolbox of film styles made in code: 66 ready to use, and your own.
+> 99 film styles for your coding agent.
 
 [Repository](https://github.com/lemomo-ai/lemo-opuscar) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,686 |
-| Star velocity | 368.4/day (history basis, 5d span) |
+| Stars | 15,114 |
+| Star velocity | 384.4/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 58/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
-| License | MIT |
+| License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-09-26 |
-| Last push | 2026-11-10 (1 days ago) |
-| Analyzed README | 36,706 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 80,320 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Model / provider routing
 
-> e or make one from scratch, bring your story, and let your coding agent direct.
+> e Opus 5.5, apart from two styles contributed from outside: Memphis Diorama by @EianLu and Crayon World 3D by @2nd1st.
 
 ### Agent runtime
 
@@ -36,7 +36,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Cursor
+> Mentions Claude Code, Codex
 
 ## Setup reality check
 
@@ -53,20 +53,21 @@
 Score **58/100**, based on these detected signals:
 
 - contains code blocks
-- contains screenshots/diagrams
 - has section headings
 - documents installation
+- documents configuration
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
 - has a Chinese translation
+- reports benchmarks
 - long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 83.3 |
+| popularity | 83.6 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 58.0 |

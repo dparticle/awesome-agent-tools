@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,812 |
-| Star velocity | 14.4/day (history basis, 5d span) |
+| Stars | 6,832 |
+| Star velocity | 15.8/day (history basis, 5d span) |
 | Health score | 62/100 |
-| Documentation | 40/100 |
+| Documentation | 37/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | HTML |
 | Created | 2026-07-16 |
-| Last push | 2026-11-11 (0 days ago) |
-| Analyzed README | 10,969 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 10,460 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -43,23 +43,22 @@
 
 ## Documentation quality
 
-Score **40/100**, based on these detected signals:
+Score **37/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - documents installation
 - mentions licensing
-- has a table of contents
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 76.7 |
-| momentum | 12.0 |
+| momentum | 13.2 |
 | maintenance | 100.0 |
-| documentation | 40.0 |
+| documentation | 37.0 |
 | accessibility | 96.0 |
 
 ---

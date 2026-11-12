@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,689 |
-| Star velocity | 196.2/day (lifetime basis, 29d span) |
+| Stars | 5,833 |
+| Star velocity | 194.4/day (lifetime basis, 30d span) |
 | Health score | 83/100 |
-| Documentation | 60/100 |
+| Documentation | 61/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-10-13 |
-| Last push | 2026-11-10 (0 days ago) |
-| Analyzed README | 29,266 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (8/8).
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 31,949 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -72,7 +70,7 @@
 
 ## Documentation quality
 
-Score **60/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -89,10 +87,10 @@ Score **60/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.1 |
+| popularity | 75.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 60.0 |
+| documentation | 61.0 |
 | accessibility | 72.0 |
 
 ---

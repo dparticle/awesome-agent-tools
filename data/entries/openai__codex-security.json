@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 11398,
-  "forks": 914,
-  "open_issues": 145,
+  "stars": 12086,
+  "forks": 957,
+  "open_issues": 139,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,40 +29,43 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-11-11T11:50:36Z",
-  "pushed_at": "2026-11-11T10:49:05Z",
+  "updated_at": "2026-11-12T12:41:01Z",
+  "pushed_at": "2026-11-12T10:06:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
+  "age_days": 121,
   "days_since_push": 0,
-  "health_score": 60,
+  "health_score": 81,
   "health_components": {
-    "popularity": 81.1,
-    "momentum": 14.5,
+    "popularity": 81.6,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 41.0,
     "accessibility": 63.0
   },
-  "tier": "notable",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 87,
+    "stars_gained": 764,
     "days_span": 5,
-    "stars_per_day": 17.4,
-    "lifetime_stars_per_day": 94.98,
+    "stars_per_day": 152.8,
+    "lifetime_stars_per_day": 99.88,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openai/codex-security",
-    "readme_chars": 9586,
+    "readme_chars": 9871,
     "capabilities": [
+      "worktree-isolation",
       "model-routing"
     ],
     "capability_evidence": {
+      "worktree-isolation": "ackage locally in your TypeScript project:",
       "model-routing": ""
     },
     "capability_hits": {
+      "worktree-isolation": 1,
       "model-routing": 1
     },
     "friction": {
@@ -110,7 +113,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.209
+      "external_link_ratio": 0.203
     },
     "highlights": [
       "Track findings in Linear, Jira, or GitHub, publish completed scans, or export SARIF, JSON, and CSV.",
@@ -127,11 +130,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:04+00:00",
+  "fetched_at": "2026-11-12T12:43:47+00:00",
   "categories": [
-    "model-routing"
+    "isolation-teams"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

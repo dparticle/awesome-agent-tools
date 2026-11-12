@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 611,
-  "days_since_push": 33,
+  "age_days": 612,
+  "days_since_push": 34,
   "health_score": 48,
   "health_components": {
     "popularity": 49.8,
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:23+00:00",
+  "fetched_at": "2026-11-12T12:45:27+00:00",
   "categories": [
     "desktop-ui"
   ],

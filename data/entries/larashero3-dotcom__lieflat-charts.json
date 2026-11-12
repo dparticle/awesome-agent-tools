@@ -6,7 +6,7 @@
   "url": "https://github.com/larashero3-dotcom/lieflat-charts",
   "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
   "homepage": "https://lieflat.work/skills/charts/",
-  "stars": 6812,
+  "stars": 6832,
   "forks": 414,
   "open_issues": 0,
   "language": "HTML",
@@ -22,33 +22,33 @@
     "svg"
   ],
   "created_at": "2026-07-16T11:17:49Z",
-  "updated_at": "2026-11-11T11:27:16Z",
-  "pushed_at": "2026-11-11T10:55:46Z",
+  "updated_at": "2026-11-12T11:35:48Z",
+  "pushed_at": "2026-11-12T08:29:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 118,
+  "age_days": 119,
   "days_since_push": 0,
   "health_score": 62,
   "health_components": {
     "popularity": 76.7,
-    "momentum": 12.0,
+    "momentum": 13.2,
     "maintenance": 100.0,
-    "documentation": 40.0,
+    "documentation": 37.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 72,
+    "stars_gained": 79,
     "days_span": 5,
-    "stars_per_day": 14.4,
-    "lifetime_stars_per_day": 57.73,
+    "stars_per_day": 15.8,
+    "lifetime_stars_per_day": 57.41,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "larashero3-dotcom/lieflat-charts",
-    "readme_chars": 10969,
+    "readme_chars": 10460,
     "capabilities": [
       "cross-agent-support"
     ],
@@ -73,14 +73,13 @@
       "note_en": "Turnkey. install via npx one-liner",
       "note_zh": "开箱即用。可通过 npx one-liner 安装"
     },
-    "doc_score": 40,
+    "doc_score": 37,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
       "documents installation",
-      "mentions licensing",
-      "has a table of contents"
+      "mentions licensing"
     ],
     "agents": [
       "Claude Code",
@@ -96,13 +95,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.273
+      "external_link_ratio": 0.478
     },
     "highlights": [
+      "把真实数据单位作为视觉原子，不用装饰性噪声伪造密度",
       "Basics（基础编辑型）：保留柱状图、折线图、环形图等熟悉轮廓，再用可数刻度、发丝线和编辑排版增加质感，适合结构简单或数据量较少的内容。",
       "Glance（快速判断型）：用粗柱、大数字、色块和清晰排序提前聚合信息，让读者几秒内看懂高低、变化和异常，适合周报、汇报与 dashboard。",
-      "Lupi（编辑叙事型）：用细线、点阵、逐条记录和大量留白展开数据，强调真实单位、细节和旁注，适合论文、长文、年报与需要慢慢阅读的数据故事。",
-      "先判断数据契约，再选图型，而不是先挑一个库内模板"
+      "Lupi（编辑叙事型）：用细线、点阵、逐条记录和大量留白展开数据，强调真实单位、细节和旁注，适合论文、长文、年报与需要慢慢阅读的数据故事。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -113,7 +112,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:09+00:00",
+  "fetched_at": "2026-11-12T12:43:55+00:00",
   "categories": [
     "desktop-ui"
   ],

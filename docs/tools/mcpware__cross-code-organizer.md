@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 392 |
 | Star velocity | 1.2/day (history basis, 5d span) |
-| Health score | 55/100 |
+| Health score | 53/100 |
 | Documentation | 64/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-03-18 |
-| Last push | 2026-11-04 (6 days ago) |
+| Last push | 2026-11-04 (8 days ago) |
 | Analyzed README | 42,102 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -83,7 +83,7 @@ Score **64/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 51.9 |
 | momentum | 1.0 |
-| maintenance | 100.0 |
+| maintenance | 92.0 |
 | documentation | 64.0 |
 | accessibility | 80.0 |
 

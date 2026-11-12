@@ -4,13 +4,13 @@
   "name": "lemo-opuscar",
   "owner": "lemomo-ai",
   "url": "https://github.com/lemomo-ai/lemo-opuscar",
-  "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
+  "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
   "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
-  "stars": 14686,
-  "forks": 1768,
-  "open_issues": 6,
+  "stars": 15114,
+  "forks": 1845,
+  "open_issues": 7,
   "language": "JavaScript",
-  "license": "MIT",
+  "license": "NOASSERTION",
   "topics": [
     "agent-skills",
     "ai-agents",
@@ -34,16 +34,16 @@
     "webgl"
   ],
   "created_at": "2026-09-26T10:10:41Z",
-  "updated_at": "2026-11-11T11:46:44Z",
-  "pushed_at": "2026-11-10T01:28:42Z",
+  "updated_at": "2026-11-12T12:42:10Z",
+  "pushed_at": "2026-11-12T11:29:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 46,
-  "days_since_push": 1,
+  "age_days": 47,
+  "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 83.3,
+    "popularity": 83.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 58.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1842,
+    "stars_gained": 1922,
     "days_span": 5,
-    "stars_per_day": 368.4,
-    "lifetime_stars_per_day": 319.26,
+    "stars_per_day": 384.4,
+    "lifetime_stars_per_day": 321.57,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "lemomo-ai/lemo-opuscar",
-    "readme_chars": 36706,
+    "readme_chars": 80320,
     "capabilities": [
       "model-routing",
       "agent-runtime",
@@ -68,10 +68,10 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "model-routing": "e or make one from scratch, bring your story, and let your coding agent direct.",
+      "model-routing": "e Opus 5.5, apart from two styles contributed from outside: Memphis Diorama by @EianLu and Crayon World 3D by @2nd1st.",
       "agent-runtime": "",
       "gui-desktop": "",
-      "cross-agent-support": "Mentions Claude Code, Cursor"
+      "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
       "model-routing": 2,
@@ -94,7 +94,6 @@
       ],
       "platforms": [
         "macOS",
-        "Windows",
         "Linux"
       ],
       "note_en": "Some setup. needs git clone (build from source); GUI application",
@@ -103,20 +102,21 @@
     "doc_score": 58,
     "doc_signals": [
       "contains code blocks",
-      "contains screenshots/diagrams",
       "has section headings",
       "documents installation",
+      "documents configuration",
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
       "has a Chinese translation",
+      "reports benchmarks",
       "long, detailed README"
     ],
     "agents": [
       "Claude Code",
-      "Cursor"
+      "Codex"
     ],
-    "summary_en": "A toolbox of film styles made in code: 66 ready to use, and your own.",
+    "summary_en": "99 film styles for your coding agent.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -126,20 +126,20 @@
       "signals": [
         "self-describes as an awesome list"
       ],
-      "external_link_ratio": 0.49
+      "external_link_ratio": 1.556
     },
     "highlights": [
       "You need Node 20+, ffmpeg 7+ and Python 3.11+ (or uv); the agent installs the rest.",
-      "Default output 1920×1080, 24 fps; other sizes on request.",
-      "A film takes an agent about 30–60 minutes and a fair amount of tokens.",
-      "what it's for: what kind of films, which platform (vertical feeds want 1080×1920 or 1080×1440), any brand colours, logo, fonts or recurring characters;"
+      "2026-11-12 · 33 new styles: 99 now, in 15 categories sorted by what the picture looks like, and the gallery in English and Chinese, with a page for every style.",
+      "Default output 1920×1080 at 24 fps (some styles set their own frame rate, such as 30 fps); other sizes on request.",
+      "2026-10-22 · Make a style your own: change a style or start blank, and keep it."
     ],
-    "summary_zh_native": "一套用代码做片的风格工具箱： 66 种现成风格，也能做出你自己的。",
+    "summary_zh_native": "99 种影片风格，交给你的编程 agent。挑一个风格，带上你的故事，agent 用代码把整支片做出来。",
     "highlights_zh": [
-      "拿来做什么：做什么片、发在哪个平台（竖屏就用 1080×1920 或 1080×1440），有没有品牌色、logo、字体或固定角色；",
-      "一支片子 agent 大约要做 30–60 分钟，token 用量不小。",
-      "样片视频及其静帧（styles/、画廊页和 Releases 中的）：CC BY 4.0。",
-      "默认输出 1920×1080、24 fps，其他尺寸可以指定。"
+      "2026-11-12 · 33 种新风格：现在共 99 种，按画面像什么分成 15 类；画廊有中文版和英文版，每个风格都有自己的一页；部分 demo 片重新做了，修了 bug，优化了风格提示词。",
+      "默认输出 1920×1080、24 fps（有些风格自带帧率，比如 30 fps），其他尺寸可以指定。",
+      "一个问题一个问题定方案。 拿来做什么（做什么片、发在哪个平台，竖屏就用 1080×1920 或 1080×1440；有没有品牌色、logo、字体或固定角色），想改哪里、往哪个方向改，最后起名字。改库里的风格时，它先把风格分成三组讲给你听：放心改（配色、字体、动作快慢、声音、标志镜头）、一改就变味（材质和画法、配色的逻辑、镜头语法）、不能改（风格的本质，改了就是另一个风格）。每…",
+      "有六段配音不在 CC BY 4.0 范围内：黑板粉笔（Chalkboard）、电路板（Circuit Board）、桌面卡片穿梭（Tabletop App Flythrough）、等距小人场景（Isometric People Scene）、刮版画长镜头（Scratchboard Long Take）的旁白（微软 Edge TTS，在线服务），以及电视新闻包装（Broadca…"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -148,12 +148,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:03+00:00",
+  "fetched_at": "2026-11-12T12:43:47+00:00",
   "categories": [
     "desktop-ui-2",
-    "model-routing"
+    "sharing-model-routing"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "sharing-model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

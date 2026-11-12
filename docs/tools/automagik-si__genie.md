@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 352 |
-| Star velocity | 0.8/day (lifetime basis, 467d span) |
+| Star velocity | 0.8/day (lifetime basis, 468d span) |
 | Health score | 55/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-08-01 |
-| Last push | 2026-11-11 (0 days ago) |
-| Analyzed README | 17,494 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 17,495 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -57,7 +57,7 @@
 - **Difficulty:** 🟢 Turnkey (friction score 0/100)
 - **Out of the box:** yes
 - **Non-programmer friendly:** no
-- **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/automagik-dev/genie/main/install.sh | bash`
+- **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/automagik-si/genie/main/install.sh | bash`
 
 **Signals that make it easy:** npx one-liner, curl | sh installer, native installer / package
 

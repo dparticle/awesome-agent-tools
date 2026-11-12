@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,515 |
-| Star velocity | 340.6/day (lifetime basis, 25d span) |
+| Stars | 8,884 |
+| Star velocity | 341.7/day (lifetime basis, 26d span) |
 | Health score | 86/100 |
 | Documentation | 51/100 |
 | Tier | 🏆 Flagship |
@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | TypeScript |
 | Created | 2026-10-16 |
-| Last push | 2026-11-11 (0 days ago) |
+| Last push | 2026-11-12 (0 days ago) |
 | Analyzed README | 6,531 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -73,7 +73,7 @@ Score **51/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.6 |
+| popularity | 79.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 51.0 |

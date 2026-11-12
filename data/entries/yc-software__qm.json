@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for teams",
   "homepage": "https://labs.ycombinator.com/qm",
-  "stars": 15683,
-  "forks": 1950,
-  "open_issues": 1031,
+  "stars": 15691,
+  "forks": 1956,
+  "open_issues": 1041,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,27 +18,27 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-11-11T11:46:21Z",
-  "pushed_at": "2026-11-11T11:53:15Z",
+  "updated_at": "2026-11-12T12:27:12Z",
+  "pushed_at": "2026-11-12T12:40:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 104,
+  "age_days": 105,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 83.9,
-    "momentum": 5.8,
+    "momentum": 7.2,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 35,
+    "stars_gained": 43,
     "days_span": 5,
-    "stars_per_day": 7.0,
-    "lifetime_stars_per_day": 150.8,
+    "stars_per_day": 8.6,
+    "lifetime_stars_per_day": 149.44,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -147,11 +147,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:02+00:00",
+  "fetched_at": "2026-11-12T12:43:47+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
-    "isolation-teams",
-    "model-routing"
+    "isolation-teams"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
@@ -181,14 +181,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 7.209,
-      "momentum_ratio": 41.543,
+      "star_ratio": 7.22,
+      "momentum_ratio": 33.233,
       "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "7.21x the stars (113,060 vs 15,683)",
-        "41.54x the star velocity (290.8/day vs 7.0/day)",
+        "7.22x the stars (113,294 vs 15,691)",
+        "33.23x the star velocity (285.8/day vs 8.6/day)",
         "no harder to set up (45 vs 72 friction)"
       ],
       "reasons_zh": [],

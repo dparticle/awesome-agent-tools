@@ -13,26 +13,26 @@
   "license": "",
   "topics": [],
   "created_at": "2025-11-12T09:46:18Z",
-  "updated_at": "2026-11-11T06:15:39Z",
-  "pushed_at": "2026-11-06T07:53:59Z",
+  "updated_at": "2026-11-11T17:04:38Z",
+  "pushed_at": "2026-11-11T16:04:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 364,
-  "days_since_push": 5,
+  "age_days": 365,
+  "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 49.4,
-    "momentum": 0.8,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 91.0,
     "accessibility": 59.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 1.0,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 0.81,
     "basis": "history",
     "is_fast_riser": false
@@ -178,7 +178,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:27+00:00",
+  "fetched_at": "2026-11-12T12:45:31+00:00",
   "categories": [
     "billing",
     "failover",

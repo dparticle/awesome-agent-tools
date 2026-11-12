@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-12 |
-| Last push | 2026-10-26 (15 days ago) |
+| Last push | 2026-10-26 (16 days ago) |
 | Analyzed README | 26,375 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** — Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).
 
 ## What it solves
 

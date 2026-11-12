@@ -6,8 +6,8 @@
   "url": "https://github.com/zhinkgit/embeddedskills",
   "description": "An open-source collection of embedded development and debugging skills for Claude Code, Copilot, TRAE, and other AI coding assistants that support the Skill protocol. Once installed, the AI assistant can directly operate compilers, debuggers, and communication buses, automating the full workflow from code generation to hardware verification.",
   "homepage": "",
-  "stars": 794,
-  "forks": 98,
+  "stars": 797,
+  "forks": 97,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -33,26 +33,26 @@
     "workflow"
   ],
   "created_at": "2026-04-10T09:27:48Z",
-  "updated_at": "2026-11-11T05:29:00Z",
+  "updated_at": "2026-11-12T08:14:50Z",
   "pushed_at": "2026-10-20T02:23:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 215,
-  "days_since_push": 22,
+  "age_days": 216,
+  "days_since_push": 23,
   "health_score": 53,
   "health_components": {
     "popularity": 58.0,
-    "momentum": 1.2,
+    "momentum": 1.7,
     "maintenance": 92.0,
     "documentation": 49.0,
     "accessibility": 82.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 1.4,
+    "stars_per_day": 2.0,
     "lifetime_stars_per_day": 3.69,
     "basis": "history",
     "is_fast_riser": false
@@ -140,64 +140,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:58+00:00",
+  "fetched_at": "2026-11-12T12:44:57+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "model-routing"
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by google/elephant-goldfish-model: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 google/elephant-goldfish-model 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "google/elephant-goldfish-model",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "zhinkgit/embeddedskills",
-      "challenger": "google/elephant-goldfish-model",
-      "incumbent_name": "zhinkgit/embeddedskills",
-      "challenger_name": "google/elephant-goldfish-model",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "multi-agent-orchestration"
-      ],
-      "star_ratio": 21.879,
-      "momentum_ratio": 660.857,
-      "setup_delta": 5,
-      "dominance": 0.975,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "21.88x the stars (17,372 vs 794)",
-        "660.86x the star velocity (925.2/day vs 1.4/day)",
-        "slightly heavier setup (+5 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "multi-agent-orchestration"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "multi-agent-orchestration",
-          "notifications"
-        ],
-        "incumbent_health": 53,
-        "challenger_health": 85,
-        "incumbent_setup_score": 18,
-        "challenger_setup_score": 23
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

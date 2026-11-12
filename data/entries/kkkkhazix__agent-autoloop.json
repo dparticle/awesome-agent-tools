@@ -6,9 +6,9 @@
   "url": "https://github.com/KKKKhazix/agent-autoloop",
   "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
   "homepage": "",
-  "stars": 4499,
-  "forks": 822,
-  "open_issues": 0,
+  "stars": 4612,
+  "forks": 843,
+  "open_issues": 1,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -25,16 +25,16 @@
     "workflow"
   ],
   "created_at": "2026-11-03T08:02:11Z",
-  "updated_at": "2026-11-11T11:52:35Z",
-  "pushed_at": "2026-11-11T09:53:19Z",
+  "updated_at": "2026-11-12T12:35:01Z",
+  "pushed_at": "2026-11-12T11:13:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 8,
+  "age_days": 9,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 73.1,
+    "popularity": 73.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 59.0,
@@ -42,16 +42,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4499,
-    "days_span": 8,
-    "stars_per_day": 562.38,
-    "lifetime_stars_per_day": 562.38,
-    "basis": "lifetime",
+    "stars_gained": 764,
+    "days_span": 5,
+    "stars_per_day": 152.8,
+    "lifetime_stars_per_day": 512.44,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "KKKKhazix/agent-autoloop",
-    "readme_chars": 11035,
+    "readme_chars": 11117,
     "capabilities": [
       "quota-management",
       "api-gateway",
@@ -133,7 +133,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.816
+      "external_link_ratio": 0.81
     },
     "highlights": [
       "一台电脑、一条命令就能跑。 装在你的 Windows、Mac 或 Linux 上，不用买云服务器，也不用开放公网端口。",
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:13+00:00",
+  "fetched_at": "2026-11-12T12:43:59+00:00",
   "categories": [
     "billing",
     "mcp-security",

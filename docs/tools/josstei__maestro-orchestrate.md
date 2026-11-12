@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-11-02 (9 days ago) |
+| Last push | 2026-11-02 (10 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
 
 ## What it solves

@@ -6,34 +6,34 @@
   "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
   "description": "Codex Dream Skin",
   "homepage": "https://www.dreamskin.cc",
-  "stars": 15397,
-  "forks": 1390,
-  "open_issues": 62,
+  "stars": 15406,
+  "forks": 1392,
+  "open_issues": 63,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-07-15T12:34:51Z",
-  "updated_at": "2026-11-11T11:19:06Z",
+  "updated_at": "2026-11-12T11:11:04Z",
   "pushed_at": "2026-10-15T03:45:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 118,
-  "days_since_push": 27,
+  "age_days": 120,
+  "days_since_push": 28,
   "health_score": 61,
   "health_components": {
-    "popularity": 83.7,
-    "momentum": 8.0,
+    "popularity": 83.8,
+    "momentum": 6.5,
     "maintenance": 92.0,
     "documentation": 35.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 48,
+    "stars_gained": 39,
     "days_span": 5,
-    "stars_per_day": 9.6,
-    "lifetime_stars_per_day": 130.48,
+    "stars_per_day": 7.8,
+    "lifetime_stars_per_day": 128.38,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -106,7 +106,7 @@
       "CDP 只绑 127.0.0.1，但没有身份认证；同一台电脑上的其他进程仍可能连接并读取或控制 renderer。",
       "暂停主题或只停止 injector 不会关闭已启动 Codex 的调试端口；使用完整 Restore / 重启，或退出全部 Codex 后从官方普通入口重新打开，风险窗口才结束。",
       "换肤前弹出原生确认框，并核对该版本的审核状态、一键兼容标记、版本号、包大小、实际下载字节数和 SHA-256。",
-      "主题库 Gallery：浏览社区已审核的主题，支持最新 / 热门排序和创作者榜单。"
+      "可直接复制的参考生图模板：docs/reference-background-prompt-guide.md · 八种概念方向详细提示词：docs/background-generation-prompts.md"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -115,7 +115,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:03+00:00",
+  "fetched_at": "2026-11-12T12:43:47+00:00",
   "categories": [
     "desktop-ui-2"
   ],

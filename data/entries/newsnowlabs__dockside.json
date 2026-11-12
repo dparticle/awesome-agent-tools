@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1885,
-  "days_since_push": 9,
+  "age_days": 1886,
+  "days_since_push": 10,
   "health_score": 47,
   "health_components": {
     "popularity": 50.2,
@@ -148,11 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:21+00:00",
+  "fetched_at": "2026-11-12T12:45:26+00:00",
   "categories": [
     "analytics",
-    "analytics-3",
-    "isolation-teams"
+    "isolation-teams",
+    "sharing"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

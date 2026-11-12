@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 382 |
-| Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 44/100 |
+| Stars | 383 |
+| Star velocity | 0.4/day (history basis, 5d span) |
+| Health score | 45/100 |
 | Documentation | 69/100 |
-| Tier | 👀 Watchlist |
+| Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | AGPL-3.0 |
 | Language | Python |
 | Created | 2026-02-17 |
-| Last push | 2026-09-27 (44 days ago) |
+| Last push | 2026-09-27 (45 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -80,8 +80,8 @@ Score **69/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.6 |
-| momentum | 0.2 |
+| popularity | 51.7 |
+| momentum | 0.3 |
 | maintenance | 78.0 |
 | documentation | 69.0 |
 | accessibility | 28.0 |

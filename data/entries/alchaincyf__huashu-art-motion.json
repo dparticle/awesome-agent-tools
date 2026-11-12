@@ -6,8 +6,8 @@
   "url": "https://github.com/alchaincyf/huashu-art-motion",
   "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
   "homepage": "",
-  "stars": 6729,
-  "forks": 665,
+  "stars": 6795,
+  "forks": 669,
   "open_issues": 9,
   "language": "JavaScript",
   "license": "MIT",
@@ -26,13 +26,13 @@
     "video"
   ],
   "created_at": "2026-10-06T04:49:37Z",
-  "updated_at": "2026-11-11T11:29:09Z",
+  "updated_at": "2026-11-12T12:26:07Z",
   "pushed_at": "2026-11-10T01:40:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 36,
-  "days_since_push": 1,
+  "age_days": 37,
+  "days_since_push": 2,
   "health_score": 86,
   "health_components": {
     "popularity": 76.6,
@@ -43,10 +43,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 6729,
-    "days_span": 36,
-    "stars_per_day": 186.92,
-    "lifetime_stars_per_day": 186.92,
+    "stars_gained": 6795,
+    "days_span": 37,
+    "stars_per_day": 183.65,
+    "lifetime_stars_per_day": 183.65,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:09+00:00",
+  "fetched_at": "2026-11-12T12:43:55+00:00",
   "categories": [
     "desktop-ui",
     "failover"

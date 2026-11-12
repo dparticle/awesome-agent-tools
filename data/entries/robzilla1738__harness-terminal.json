@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 167,
-  "days_since_push": 28,
+  "age_days": 168,
+  "days_since_push": 29,
   "health_score": 52,
   "health_components": {
     "popularity": 49.8,
@@ -49,7 +49,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.85,
+    "lifetime_stars_per_day": 1.84,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:23+00:00",
+  "fetched_at": "2026-11-12T12:45:27+00:00",
   "categories": [
     "desktop-ui-2",
-    "mcp-security",
-    "mobile"
+    "isolation-teams",
+    "mcp-security"
   ],
-  "primary_category": "mobile",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

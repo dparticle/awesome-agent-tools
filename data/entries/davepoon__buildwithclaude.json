@@ -7,8 +7,8 @@
   "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
   "homepage": "https://www.buildwithclaude.com",
   "stars": 3740,
-  "forks": 710,
-  "open_issues": 20,
+  "forks": 717,
+  "open_issues": 22,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,27 +26,27 @@
     "subagents"
   ],
   "created_at": "2025-07-25T02:26:45Z",
-  "updated_at": "2026-11-11T09:10:05Z",
-  "pushed_at": "2026-11-11T08:12:19Z",
+  "updated_at": "2026-11-12T06:59:18Z",
+  "pushed_at": "2026-11-12T06:00:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 474,
+  "age_days": 475,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 56,
   "health_components": {
     "popularity": 71.5,
-    "momentum": 1.8,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 50.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 7.89,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 7.87,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,9 +137,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:39+00:00",
+  "fetched_at": "2026-11-12T12:44:32+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
@@ -164,15 +165,15 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 13.241,
-      "momentum_ratio": 24.727,
-      "setup_delta": -20,
+      "star_ratio": 13.259,
+      "momentum_ratio": 40.714,
+      "setup_delta": -11,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.24x the stars (49,523 vs 3,740)",
-        "24.73x the star velocity (54.4/day vs 2.2/day)",
-        "no harder to set up (30 vs 50 friction)"
+        "13.26x the stars (49,588 vs 3,740)",
+        "40.71x the star velocity (57.0/day vs 1.4/day)",
+        "no harder to set up (39 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -199,10 +200,10 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 57,
-        "challenger_health": 79,
+        "incumbent_health": 56,
+        "challenger_health": 78,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 39
       }
     }
   }

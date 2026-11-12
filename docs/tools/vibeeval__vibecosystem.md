@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 540 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Stars | 547 |
+| Star velocity | 1.6/day (history basis, 5d span) |
 | Health score | 53/100 |
 | Documentation | 63/100 |
 | Tier | 🔹 Notable |
@@ -22,7 +22,7 @@
 | Language | C# |
 | Created | 2026-03-14 |
 | Last push | 2026-11-11 (0 days ago) |
-| Analyzed README | 11,610 chars from `raw:HEAD/README.md` |
+| Analyzed README | 12,425 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).
 
@@ -81,8 +81,8 @@ Score **63/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 54.6 |
-| momentum | 0.2 |
+| popularity | 54.8 |
+| momentum | 1.3 |
 | maintenance | 100.0 |
 | documentation | 63.0 |
 | accessibility | 63.0 |

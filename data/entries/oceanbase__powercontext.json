@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1594,
-  "forks": 637,
-  "open_issues": 150,
+  "stars": 1625,
+  "forks": 644,
+  "open_issues": 152,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,27 +29,27 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-11T10:54:55Z",
-  "pushed_at": "2026-11-11T11:05:49Z",
+  "updated_at": "2026-11-12T11:54:21Z",
+  "pushed_at": "2026-11-12T12:08:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 366,
+  "age_days": 367,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 57,
   "health_components": {
-    "popularity": 64.0,
-    "momentum": 15.2,
+    "popularity": 64.2,
+    "momentum": 18.3,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 31.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 91,
+    "stars_gained": 110,
     "days_span": 5,
-    "stars_per_day": 18.2,
-    "lifetime_stars_per_day": 4.36,
+    "stars_per_day": 22.0,
+    "lifetime_stars_per_day": 4.43,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -150,16 +150,62 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:47+00:00",
+  "fetched_at": "2026-11-12T12:44:41+00:00",
   "categories": [
     "memory-failover"
   ],
   "primary_category": "memory-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 xerj-org/xerj 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "xerj-org/xerj",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "oceanbase/powercontext",
+      "challenger": "xerj-org/xerj",
+      "incumbent_name": "oceanbase/powercontext",
+      "challenger_name": "xerj-org/xerj",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context"
+      ],
+      "star_ratio": 11.642,
+      "momentum_ratio": 3.618,
+      "setup_delta": -36,
+      "dominance": 0.96,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "11.64x the stars (18,918 vs 1,625)",
+        "3.62x the star velocity (79.6/day vs 22.0/day)",
+        "no harder to set up (33 vs 69 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 80,
+        "incumbent_setup_score": 69,
+        "challenger_setup_score": 33
+      }
+    }
   }
 }

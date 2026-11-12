@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,515 |
-| Star velocity | 8.0/day (history basis, 5d span) |
-| Health score | 63/100 |
-| Documentation | 76/100 |
+| Stars | 5,520 |
+| Star velocity | 7.2/day (history basis, 5d span) |
+| Health score | 65/100 |
+| Documentation | 74/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-11 (0 days ago) |
-| Analyzed README | 38,790 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 25,024 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,29 +30,21 @@
 
 > our configured provider from the composer, review or edit the result, and undo it; save custom templates in Project settings.
 
-### Model / provider routing
-
-> d-to-path operations, or a remote HTTP MCP endpoint.
-
 ### Billing & metering
 
 > Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.
 
 ### Skills & plugins
 
-> g resources for your analysis.
+> , resources, and permissions yourself; cloud jobs may incur charges.
 
 ### MCP support
 
-> cts, output formats, and exit codes
-
 ### Security & isolation
-
-> that profile's existing permissions; it is not a separate sandbox or read-only view, so connected clients can persist changes and incur model costs.
 
 ### GUI / desktop app
 
-> de.js, so you can run the CLI without installing Node.js, npm, or Homebrew.
+> figure or table back to its inputs.
 
 ### Notifications
 
@@ -60,22 +52,22 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 35/100)
+- **Difficulty:** 🟢 Easy (friction score 21/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 - **Quickest install:** `brew install --cask open-science`
 
 **Signals that make it easy:** Homebrew install, native installer / package
 
-**Signals that add work:** git clone (build from source), npm install/build
+**Signals that add work:** npm install/build
 
-**Configuration required:** API key configuration, OAuth login flow, sign-in required, database dependency
+**Configuration required:** API key configuration, sign-in required
 
-*Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; no-code positioning*
+*Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, sign-in required; GUI application*
 
 ## Documentation quality
 
-Score **76/100**, based on these detected signals:
+Score **74/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -96,10 +88,10 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.8 |
-| momentum | 6.7 |
+| momentum | 6.0 |
 | maintenance | 100.0 |
-| documentation | 76.0 |
-| accessibility | 65.0 |
+| documentation | 74.0 |
+| accessibility | 87.0 |
 
 ---
 

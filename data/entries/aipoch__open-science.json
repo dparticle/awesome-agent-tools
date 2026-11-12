@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5515,
+  "stars": 5520,
   "forks": 555,
-  "open_issues": 32,
+  "open_issues": 31,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,36 +34,35 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-11T11:05:38Z",
-  "pushed_at": "2026-11-11T11:04:24Z",
+  "updated_at": "2026-11-12T11:43:22Z",
+  "pushed_at": "2026-11-12T12:29:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 131,
+  "age_days": 132,
   "days_since_push": 0,
-  "health_score": 63,
+  "health_score": 65,
   "health_components": {
     "popularity": 74.8,
-    "momentum": 6.7,
+    "momentum": 6.0,
     "maintenance": 100.0,
-    "documentation": 76.0,
-    "accessibility": 65.0
+    "documentation": 74.0,
+    "accessibility": 87.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 40,
+    "stars_gained": 36,
     "days_span": 5,
-    "stars_per_day": 8.0,
-    "lifetime_stars_per_day": 42.1,
+    "stars_per_day": 7.2,
+    "lifetime_stars_per_day": 41.82,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 38790,
+    "readme_chars": 25024,
     "capabilities": [
       "multi-agent-orchestration",
-      "model-routing",
       "billing-metering",
       "skills-plugins",
       "mcp-support",
@@ -73,45 +72,39 @@
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "our configured provider from the composer, review or edit the result, and undo it; save custom templates in Project settings.",
-      "model-routing": "d-to-path operations, or a remote HTTP MCP endpoint.",
       "billing-metering": "Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.",
-      "skills-plugins": "g resources for your analysis.",
-      "mcp-support": "cts, output formats, and exit codes",
-      "security-isolation": "that profile's existing permissions; it is not a separate sandbox or read-only view, so connected clients can persist changes and incur model costs.",
-      "gui-desktop": "de.js, so you can run the CLI without installing Node.js, npm, or Homebrew.",
+      "skills-plugins": ", resources, and permissions yourself; cloud jobs may incur charges.",
+      "mcp-support": "",
+      "security-isolation": "",
+      "gui-desktop": "figure or table back to its inputs.",
       "notifications": "untime checks and test your model connection."
     },
     "capability_hits": {
       "multi-agent-orchestration": 1,
-      "model-routing": 1,
       "billing-metering": 1,
-      "skills-plugins": 2,
-      "mcp-support": 3,
-      "security-isolation": 2,
-      "gui-desktop": 5,
+      "skills-plugins": 1,
+      "mcp-support": 1,
+      "security-isolation": 1,
+      "gui-desktop": 3,
       "notifications": 1
     },
     "friction": {
       "level": "low",
-      "score": 35,
+      "score": 21,
       "out_of_the_box": false,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [
         "Homebrew install",
         "native installer / package"
       ],
       "hard_signals": [
-        "git clone (build from source)",
         "npm install/build"
       ],
       "config_signals": [
         "API key configuration",
-        "OAuth login flow",
-        "sign-in required",
-        "database dependency"
+        "sign-in required"
       ],
       "friendliness_signals": [
-        "no-code positioning",
         "GUI application"
       ],
       "platforms": [
@@ -120,10 +113,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via Homebrew install, native installer / package; needs git clone (build from source), npm install/build; configure API key configuration, OAuth login flow; no-code positioning",
-      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 API key configuration、OAuth login flow；no-code positioning"
+      "note_en": "Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, sign-in required; GUI application",
+      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 npm install/build；需配置 API key configuration、sign-in required；GUI application"
     },
-    "doc_score": 76,
+    "doc_score": 74,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -150,12 +143,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.516
+      "external_link_ratio": 0.799
     },
     "highlights": [
       "Built-in Agent upgrades: Use Codex subscriptions for the main agent and subagents, select Claude Fable 5.2 with a 1M context window, and use provider-supported output limits.",
+      "Automation · CLI · Node.js SDK · Connect an MCP client",
       "Reliability improvements: Windows update recovery, answered questions, and research films across session switches improve; idle interpreters are reclaimed after 15 minutes without session a…",
-      "Run an analysis locally, or submit it to a computing environment you manage through SSH, Slurm, Kubernetes, Hugging Face Jobs, Modal, or Ray.",
       "Bibliography CSV: Export selected references or a whole project or collection with 16 stable English column names."
     ],
     "summary_zh_native": "",
@@ -167,10 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:11+00:00",
+  "fetched_at": "2026-11-12T12:43:57+00:00",
   "categories": [
     "analytics-3",
-    "desktop-ui",
+    "desktop-ui-2",
     "mcp-security"
   ],
   "primary_category": "analytics-3",

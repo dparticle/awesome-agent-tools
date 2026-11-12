@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 4307,
   "forks": 360,
-  "open_issues": 11,
+  "open_issues": 10,
   "language": "TypeScript",
   "license": "GPL-3.0",
   "topics": [],
@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 460,
-  "days_since_push": 130,
+  "age_days": 461,
+  "days_since_push": 131,
   "health_score": 45,
   "health_components": {
     "popularity": 72.7,
@@ -33,7 +33,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 9.36,
+    "lifetime_stars_per_day": 9.34,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,9 +142,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:38+00:00",
+  "fetched_at": "2026-11-12T12:44:31+00:00",
   "categories": [
-    "desktop-ui-2",
     "mcp-security"
   ],
   "primary_category": "mcp-security",

@@ -6,7 +6,7 @@
   "url": "https://github.com/vibeeval/vibecosystem",
   "description": "Profile-based coding runtime for Claude Code and Codex. Lean core; opt-in quality, context, memory, orchestration and dashboard.",
   "homepage": "",
-  "stars": 540,
+  "stars": 547,
   "forks": 45,
   "open_issues": 13,
   "language": "C#",
@@ -29,33 +29,33 @@
     "vibecoding"
   ],
   "created_at": "2026-03-14T11:57:55Z",
-  "updated_at": "2026-11-11T10:24:48Z",
-  "pushed_at": "2026-11-11T09:12:18Z",
+  "updated_at": "2026-11-12T11:18:16Z",
+  "pushed_at": "2026-11-11T23:44:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 241,
+  "age_days": 243,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
-    "popularity": 54.6,
-    "momentum": 0.2,
+    "popularity": 54.8,
+    "momentum": 1.3,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.24,
+    "stars_per_day": 1.6,
+    "lifetime_stars_per_day": 2.25,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "vibeeval/vibecosystem",
-    "readme_chars": 11610,
+    "readme_chars": 12425,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -131,7 +131,7 @@
       "signals": [
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.603
+      "external_link_ratio": 0.644
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:06+00:00",
+  "fetched_at": "2026-11-12T12:45:06+00:00",
   "categories": [
     "desktop-ui",
     "memory-failover"
@@ -162,7 +162,7 @@
       "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -171,15 +171,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 91.709,
-      "momentum_ratio": 272.0,
-      "setup_delta": -7,
-      "dominance": 1.0,
+      "star_ratio": 90.654,
+      "momentum_ratio": 35.625,
+      "setup_delta": 2,
+      "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "91.71x the stars (49,523 vs 540)",
-        "272.00x the star velocity (54.4/day vs 0.2/day)",
-        "no harder to set up (30 vs 37 friction)"
+        "90.65x the stars (49,588 vs 547)",
+        "35.62x the star velocity (57.0/day vs 1.6/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -207,9 +207,9 @@
           "usage-analytics"
         ],
         "incumbent_health": 53,
-        "challenger_health": 79,
+        "challenger_health": 78,
         "incumbent_setup_score": 37,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 39
       }
     }
   }

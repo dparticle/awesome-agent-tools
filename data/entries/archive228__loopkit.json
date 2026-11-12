@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 134,
-  "days_since_push": 119,
+  "age_days": 135,
+  "days_since_push": 120,
   "health_score": 46,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 5.66,
+    "lifetime_stars_per_day": 5.62,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -117,7 +117,7 @@
       "A wrapper CLI. No daemon, no server, no runtime state. run.sh is 8 lines.",
       "planner-spec-expand — 1–4 sentence brief → full ambitious spec with design language and ordered feature list → starting a fresh project or major feature",
       "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds",
-      "sql-review — indexes, N+1, plan → any non-trivial query"
+      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,22 +128,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:00+00:00",
+  "fetched_at": "2026-11-12T12:44:59+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
+    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "archive228/loopkit",
-      "challenger": "sickn33/agentic-awesome-skills",
+      "challenger": "thedivergentai/game-dev-agentic-skills",
       "incumbent_name": "Archive228/loopkit",
-      "challenger_name": "sickn33/agentic-awesome-skills",
+      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -155,15 +156,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 65.248,
-      "momentum_ratio": 136.0,
-      "setup_delta": 11,
-      "dominance": 0.945,
+      "star_ratio": 1.262,
+      "momentum_ratio": 9.5,
+      "setup_delta": 2,
+      "dominance": 0.793,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "65.25x the stars (49,523 vs 759)",
-        "136.00x the star velocity (54.4/day vs 0.4/day)",
-        "slightly heavier setup (+11 friction, within tolerance)"
+        "1.26x the stars (958 vs 759)",
+        "9.50x the star velocity (3.8/day vs 0.4/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,20 +181,14 @@
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
+          "parallel-execution",
+          "skills-plugins"
         ],
         "incumbent_health": 46,
-        "challenger_health": 79,
+        "challenger_health": 56,
         "incumbent_setup_score": 19,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 21
       }
     }
   }

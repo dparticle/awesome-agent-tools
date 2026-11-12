@@ -7,7 +7,7 @@
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
   "homepage": "",
   "stars": 5528,
-  "forks": 612,
+  "forks": 613,
   "open_issues": 16,
   "language": "TypeScript",
   "license": "MIT",
@@ -29,24 +29,24 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 255,
-  "days_since_push": 24,
+  "age_days": 256,
+  "days_since_push": 25,
   "health_score": 58,
   "health_components": {
     "popularity": 74.9,
-    "momentum": 4.3,
+    "momentum": 3.3,
     "maintenance": 92.0,
     "documentation": 81.0,
     "accessibility": 42.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 26,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 5.2,
-    "lifetime_stars_per_day": 21.68,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 21.59,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "breferrari/obsidian-mind",
@@ -152,7 +152,7 @@
     "highlights_zh": [
       "Node 22+ LTS（用于钩子脚本 — 通常与 Claude Code / Codex / Gemini CLI 一起已安装）",
       "/om-review-brief 通过汇总所有内容生成完整的评估简报：成就记录、决策、事件、能力证据和 1:1 反馈",
-      "展示迁移计划——你可以确切看到哪些内容将被复制、转换和跳过",
+      "能力项笔记 在 perf/competencies/ 中定义你所在组织的能力框架——每个能力项一个笔记",
       "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/"
     ],
     "chinese_readme": "README.zh-CN.md"
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:54:36+00:00",
+  "fetched_at": "2026-11-12T12:44:29+00:00",
   "categories": [
     "desktop-ui",
     "failover",

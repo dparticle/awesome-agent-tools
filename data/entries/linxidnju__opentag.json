@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 137,
-  "days_since_push": 124,
+  "age_days": 138,
+  "days_since_push": 125,
   "health_score": 41,
   "health_components": {
     "popularity": 54.0,
@@ -48,7 +48,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 3.65,
+    "lifetime_stars_per_day": 3.62,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,25 +134,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-11T11:55:09+00:00",
+  "fetched_at": "2026-11-12T12:45:10+00:00",
   "categories": [
     "mcp-security"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "kajisho5/ffmpeg-skill",
+    "note_en": "Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 microsoft/TokenEconomizer 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "microsoft/TokenEconomizer",
     "challenger": "",
     "supersede": {
       "incumbent": "linxidnju/opentag",
-      "challenger": "kajisho5/ffmpeg-skill",
+      "challenger": "microsoft/tokeneconomizer",
       "incumbent_name": "linxidnju/OpenTag",
-      "challenger_name": "kajisho5/ffmpeg-skill",
+      "challenger_name": "microsoft/TokenEconomizer",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -160,15 +160,15 @@
         "mcp-support",
         "security-isolation"
       ],
-      "star_ratio": 10.108,
-      "momentum_ratio": 418.0,
-      "setup_delta": 5,
-      "dominance": 0.975,
+      "star_ratio": 11.666,
+      "momentum_ratio": 972.15,
+      "setup_delta": -9,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "10.11x the stars (5,054 vs 500)",
-        "418.00x the star velocity (83.6/day vs 0.2/day)",
-        "slightly heavier setup (+5 friction, within tolerance)"
+        "11.67x the stars (5,833 vs 500)",
+        "972.15x the star velocity (194.4/day vs 0.2/day)",
+        "no harder to set up (36 vs 45 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -180,19 +180,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "auto-failover",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
           "multi-agent-orchestration",
+          "notifications",
           "security-isolation",
-          "skills-plugins",
-          "voice-input"
+          "session-persistence"
         ],
         "incumbent_health": 41,
-        "challenger_health": 80,
+        "challenger_health": 83,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 50
+        "challenger_setup_score": 36
       }
     }
   }

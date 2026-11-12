@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,044 |
-| Star velocity | 25.2/day (history basis, 5d span) |
-| Health score | 65/100 |
+| Stars | 2,056 |
+| Star velocity | 21.2/day (history basis, 5d span) |
+| Health score | 64/100 |
 | Documentation | 63/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-03-18 |
-| Last push | 2026-11-11 (0 days ago) |
+| Last push | 2026-11-12 (0 days ago) |
 | Analyzed README | 25,809 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -95,8 +95,8 @@ Score **63/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 66.2 |
-| momentum | 21.0 |
+| popularity | 66.3 |
+| momentum | 17.7 |
 | maintenance | 100.0 |
 | documentation | 63.0 |
 | accessibility | 91.0 |
