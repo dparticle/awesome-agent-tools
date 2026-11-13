@@ -6,9 +6,9 @@
   "url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
   "description": "WorkBuddy 国际国内多账号反代网关，支持 Codex / Claude Code / DSH与标准 OpenAI 客户端。",
   "homepage": "https://github.com/ardeyouxipianyi/workbuddy2api-intl/releases",
-  "stars": 3959,
-  "forks": 969,
-  "open_issues": 11,
+  "stars": 4022,
+  "forks": 976,
+  "open_issues": 6,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -25,33 +25,33 @@
     "workbuddy2api"
   ],
   "created_at": "2026-09-12T09:03:40Z",
-  "updated_at": "2026-11-12T12:31:34Z",
-  "pushed_at": "2026-11-12T12:41:53Z",
+  "updated_at": "2026-11-13T12:03:47Z",
+  "pushed_at": "2026-11-13T03:47:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 61,
+  "age_days": 62,
   "days_since_push": 0,
-  "health_score": 68,
+  "health_score": 71,
   "health_components": {
-    "popularity": 72.0,
-    "momentum": 46.2,
+    "popularity": 72.1,
+    "momentum": 54.0,
     "maintenance": 100.0,
-    "documentation": 55.0,
-    "accessibility": 64.0
+    "documentation": 56.0,
+    "accessibility": 71.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 333,
-    "days_span": 6,
-    "stars_per_day": 55.5,
-    "lifetime_stars_per_day": 64.9,
+    "stars_gained": 324,
+    "days_span": 5,
+    "stars_per_day": 64.8,
+    "lifetime_stars_per_day": 64.87,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "ardeyouxipianyi/workbuddy2api-hub",
-    "readme_chars": 19400,
+    "readme_chars": 21681,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -73,7 +73,7 @@
       "multi-account-switching": "：将 WorkBuddy（国际版/国内版）与 CodeArts 封装为标准 OpenAI 格式（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。",
       "quota-management": "",
       "auto-failover": "（Chat Completions / Responses），无缝支持 Codex、Claude Code、NextChat 等各类客户端。",
-      "mobile-access": "ent group\" keeps its name.",
+      "mobile-access": "（Windows 自带精简运行时），支持 Docker、NAS（群晖/飞牛）一键部署及 OpenWrt 路由器固件。",
       "model-routing": "绑定**：可固定走国际版、国内版或 CodeArts；",
       "api-gateway": "# WorkBuddy2API-Hub — 国际版、国内版多账号网关中枢",
       "quota-distribution": "",
@@ -83,7 +83,7 @@
       "security-isolation": "",
       "self-hosted": "",
       "gui-desktop": "",
-      "notifications": "",
+      "notifications": "请求列表」，验证失败徽章点开的详情弹窗、四个过滤下拉真的把参数发到 /usage/recent，并把列表 / 弹窗 / 筛选条截图写到系统临时目录的 wb-visual-recent/。",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
@@ -105,7 +105,7 @@
     },
     "friction": {
       "level": "low",
-      "score": 36,
+      "score": 29,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -120,6 +120,7 @@
         "server/reverse-proxy setup"
       ],
       "friendliness_signals": [
+        "one-click setup",
         "Chinese: beginner/one-click framing"
       ],
       "platforms": [
@@ -128,10 +129,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via curl | sh installer; needs docker compose up; configure API key configuration, OAuth login flow; Chinese: beginner/one-click framing",
-      "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 docker compose up；需配置 API key configuration、OAuth login flow；Chinese: beginner/one-click framing"
+      "note_en": "Easy. install via curl | sh installer; needs docker compose up; configure API key configuration, OAuth login flow; one-click setup",
+      "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 docker compose up；需配置 API key configuration、OAuth login flow；one-click setup"
     },
-    "doc_score": 55,
+    "doc_score": 56,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -142,7 +143,8 @@
       "mentions licensing",
       "has a table of contents",
       "documents changes",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -158,13 +160,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.876
+      "external_link_ratio": 0.784
     },
     "highlights": [
       "打开看板 http://127.0.0.1:8788/，点击「+ 添加账号 (OAuth)」，在浏览器中完成官方登录授权即可自动入库。",
       "Web 看板：http://127.0.0.1:8788/（默认访问密码 admin，首次登录请在设置中修改）",
       "macOS / Linux：双击 start-wb-proxy.command 或在终端执行 ./start-wb-proxy.sh [端口]（默认 8788，需要 Python 3.9+）。",
-      "开箱即用与多端部署：便携版免装环境（Windows 自带精简运行时），支持 Docker、NAS（群晖/飞牛）一键部署及 OpenWrt 路由器固件。"
+      "CodeArts 并发占满改为有界排队（#886 / #887）：单账号并发槽被占满时最多等待 busywaitseconds（默认 10 秒），名额释放立即唤醒；超时返回可重试的 429，不再误报 502「没有可用的账号」。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -175,11 +177,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:02+00:00",
+  "fetched_at": "2026-11-13T12:14:27+00:00",
   "categories": [
-    "analytics-3",
+    "analytics",
     "billing",
-    "sharing-model-routing"
+    "sharing"
   ],
   "primary_category": "billing",
   "lifecycle": {

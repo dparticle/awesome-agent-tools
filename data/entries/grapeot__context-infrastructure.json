@@ -6,20 +6,20 @@
   "url": "https://github.com/grapeot/context-infrastructure",
   "description": "A context and memory system for AI coding agents. Persistent memory, personal rules, skills, and scheduled observations",
   "homepage": "",
-  "stars": 839,
-  "forks": 195,
+  "stars": 840,
+  "forks": 196,
   "open_issues": 2,
   "language": "Python",
   "license": "",
   "topics": [],
   "created_at": "2026-03-16T05:12:45Z",
-  "updated_at": "2026-11-12T05:57:58Z",
-  "pushed_at": "2026-11-06T17:44:42Z",
+  "updated_at": "2026-11-13T10:24:11Z",
+  "pushed_at": "2026-11-13T00:01:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 241,
-  "days_since_push": 5,
+  "age_days": 242,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 58.5,
@@ -33,13 +33,13 @@
     "stars_gained": 9,
     "days_span": 5,
     "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 3.48,
+    "lifetime_stars_per_day": 3.47,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "grapeot/context-infrastructure",
-    "readme_chars": 2954,
+    "readme_chars": 2972,
     "capabilities": [
       "billing-metering",
       "memory-context"
@@ -93,7 +93,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.016
+      "external_link_ratio": 1.009
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -105,7 +105,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:56+00:00",
+  "fetched_at": "2026-11-13T12:15:06+00:00",
   "categories": [
     "analytics-3"
   ],

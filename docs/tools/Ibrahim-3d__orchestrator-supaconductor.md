@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | Python |
 | Created | 2026-02-17 |
-| Last push | 2026-09-27 (45 days ago) |
+| Last push | 2026-09-27 (46 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).

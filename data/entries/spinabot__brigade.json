@@ -6,7 +6,7 @@
   "url": "https://github.com/spinabot/brigade",
   "description": "Brigade — Your personal intelligence, built enterprise-grade",
   "homepage": "https://www.brigade.spinabot.com",
-  "stars": 11374,
+  "stars": 11375,
   "forks": 81,
   "open_issues": 43,
   "language": "TypeScript",
@@ -34,13 +34,13 @@
     "spinabot"
   ],
   "created_at": "2026-06-19T15:18:17Z",
-  "updated_at": "2026-11-12T01:36:55Z",
-  "pushed_at": "2026-11-09T22:51:26Z",
+  "updated_at": "2026-11-13T05:59:40Z",
+  "pushed_at": "2026-11-13T04:10:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 145,
-  "days_since_push": 2,
+  "age_days": 146,
+  "days_since_push": 0,
   "health_score": 60,
   "health_components": {
     "popularity": 81.1,
@@ -54,7 +54,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 78.44,
+    "lifetime_stars_per_day": 77.91,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -193,7 +193,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:49+00:00",
+  "fetched_at": "2026-11-13T12:14:16+00:00",
   "categories": [
     "analytics-3",
     "memory-failover",

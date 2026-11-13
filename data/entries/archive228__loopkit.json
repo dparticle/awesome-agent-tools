@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
-  "days_since_push": 120,
+  "age_days": 136,
+  "days_since_push": 121,
   "health_score": 46,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 5.62,
+    "lifetime_stars_per_day": 5.58,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -117,7 +117,7 @@
       "A wrapper CLI. No daemon, no server, no runtime state. run.sh is 8 lines.",
       "planner-spec-expand — 1–4 sentence brief → full ambitious spec with design language and ordered feature list → starting a fresh project or major feature",
       "feature-list-json — enumerate every feature as strict JSON, passes:false, editable-passes-only → multi-session builds",
-      "flaky-hunter — reproduce, isolate, quarantine → intermittent CI reds"
+      "sql-review — indexes, N+1, plan → any non-trivial query"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,12 +128,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:59+00:00",
+  "fetched_at": "2026-11-13T12:15:08+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
@@ -156,14 +156,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.262,
-      "momentum_ratio": 9.5,
+      "star_ratio": 1.269,
+      "momentum_ratio": 11.0,
       "setup_delta": 2,
-      "dominance": 0.793,
+      "dominance": 0.794,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.26x the stars (958 vs 759)",
-        "9.50x the star velocity (3.8/day vs 0.4/day)",
+        "1.27x the stars (963 vs 759)",
+        "11.00x the star velocity (4.4/day vs 0.4/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -186,7 +186,7 @@
           "skills-plugins"
         ],
         "incumbent_health": 46,
-        "challenger_health": 56,
+        "challenger_health": 57,
         "incumbent_setup_score": 19,
         "challenger_setup_score": 21
       }

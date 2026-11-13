@@ -12,11 +12,11 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,564 |
-| Star velocity | 45.0/day (history basis, 5d span) |
-| Health score | 62/100 |
+| Stars | 9,596 |
+| Star velocity | 39.2/day (history basis, 5d span) |
+| Health score | 61/100 |
 | Documentation | 42/100 |
-| Tier | ✅ Recommended |
+| Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
@@ -58,7 +58,7 @@ Score **42/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 79.6 |
-| momentum | 37.5 |
+| momentum | 32.7 |
 | maintenance | 78.0 |
 | documentation | 42.0 |
 | accessibility | 70.0 |

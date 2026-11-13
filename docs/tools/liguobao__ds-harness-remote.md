@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,697 |
-| Star velocity | 114.6/day (history basis, 5d span) |
-| Health score | 79/100 |
+| Stars | 2,773 |
+| Star velocity | 106.8/day (history basis, 5d span) |
+| Health score | 78/100 |
 | Documentation | 61/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-11-12 (0 days ago) |
+| Last push | 2026-11-13 (0 days ago) |
 | Analyzed README | 21,528 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -60,7 +60,7 @@
 
 ### GUI / desktop app
 
-> bar Supported Install ds-harness-remote@0.6.4; this computer can also be the Host
+> bar Supported Install ds-harness-remote@0.6.5; this computer can also be the Host
 
 ### Cross-agent support
 
@@ -100,8 +100,8 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 68.6 |
-| momentum | 95.5 |
+| popularity | 68.9 |
+| momentum | 89.0 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 63.0 |

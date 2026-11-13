@@ -17,12 +17,14 @@
 | Health score | 49/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-11-02 (10 days ago) |
+| Last push | 2026-11-02 (11 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** — Superseded by kitfunso/hippo-memory: covers 100% of capabilities (4/4).
 
 ## What it solves
 

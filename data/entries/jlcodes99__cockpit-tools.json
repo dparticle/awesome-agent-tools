@@ -6,9 +6,9 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "stars": 19925,
-  "forks": 1800,
-  "open_issues": 995,
+  "stars": 19955,
+  "forks": 1803,
+  "open_issues": 635,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -23,33 +23,33 @@
     "windsurf"
   ],
   "created_at": "2026-01-16T07:09:32Z",
-  "updated_at": "2026-11-12T12:33:24Z",
-  "pushed_at": "2026-11-09T11:01:58Z",
+  "updated_at": "2026-11-13T10:04:04Z",
+  "pushed_at": "2026-11-12T16:16:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 300,
-  "days_since_push": 3,
+  "age_days": 301,
+  "days_since_push": 0,
   "health_score": 68,
   "health_components": {
     "popularity": 86.0,
-    "momentum": 21.2,
+    "momentum": 23.5,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 127,
+    "stars_gained": 141,
     "days_span": 5,
-    "stars_per_day": 25.4,
-    "lifetime_stars_per_day": 66.42,
+    "stars_per_day": 28.2,
+    "lifetime_stars_per_day": 66.3,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "jlcodes99/cockpit-tools",
-    "readme_chars": 19039,
+    "readme_chars": 19175,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -69,19 +69,19 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "surf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
-      "quota-management": "目前支持 Antigravity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
+      "multi-account-switching": "ndsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
+      "quota-management": "具，目前支持 Antigravity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
       "auto-failover": "aude CLI 与 Claude Desktop Gateway 第三方供应商预设、模型映射，以及从会话 JSONL 汇总真实用量的方向参考：CC Switch",
       "multi-agent-orchestration": "",
-      "parallel-execution": "ty IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
+      "parallel-execution": "vity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed 和 ZCode，并支持多账号多实例并行运行。",
       "worktree-isolation": "ns/Cockpit Tools.app'），请先删除旧版本再安装：",
       "model-routing": "",
       "provider-aggregation": "어 · 🇧🇷 Português · 🇷🇺 Русский · 🇹🇷 Türkçe · 🇵🇱 Polski · 🇨🇿 Čeština · 🇸🇦 العربية · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia",
       "api-gateway": "d，保留客户端 Thread；增量请求继续使用有效上游状态、完整检查点或 WebSocket 历史，缺失上下文或上游明确拒绝时仍可能失败并保留原历史。",
       "billing-metering": "tom 工具、客户端工具发现和结果回传；工具由客户端执行，网关不代为执行本地操作。",
       "mcp-support": "rer 鉴权；可从剪贴板导入 Claude Code settings 或桌面端 Gateway 配置，获取或手动填写模型目录。",
-      "security-isolation": "odes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入",
-      "gui-desktop": "**：自动刷新 2~5 分钟 + 需要联动时开启 WebSocket + OpenCode 联动开启。",
+      "security-isolation": ".jlcodes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入",
+      "gui-desktop": "s: .msi（推荐）、.exe，或 x64-portable.zip（解压即用，无需安装）",
       "notifications": "权作为原账号的附加能力，列表只保留“授权/管理授权”，管理操作打开独立弹框；管理与重新授权不会自动加入服务。",
       "voice-input": "使用 gpt-4o-mini-transcribe。",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
@@ -166,7 +166,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.735
+      "external_link_ratio": 0.73
     },
     "highlights": [
       "Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth、Grok apply_patch 协议兼容，以及账号池错误分类与状态恢复边界参考其开源…",
@@ -183,7 +183,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:24+00:00",
+  "fetched_at": "2026-11-13T12:14:43+00:00",
   "categories": [
     "billing",
     "isolation-teams",

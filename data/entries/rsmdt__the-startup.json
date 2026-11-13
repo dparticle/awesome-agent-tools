@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 457,
-  "days_since_push": 16,
+  "age_days": 458,
+  "days_since_push": 17,
   "health_score": 51,
   "health_components": {
     "popularity": 55.3,
@@ -124,9 +124,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:03+00:00",
+  "fetched_at": "2026-11-13T12:15:12+00:00",
   "categories": [
-    "desktop-ui",
+    "desktop-ui-2",
     "isolation-teams"
   ],
   "primary_category": "isolation-teams",
@@ -151,13 +151,13 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 2.938,
+      "star_ratio": 2.94,
       "momentum_ratio": 6.667,
       "setup_delta": -17,
       "dominance": 0.995,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.94x the stars (1,704 vs 580)",
+        "2.94x the stars (1,705 vs 580)",
         "6.67x the star velocity (4.0/day vs 0.6/day)",
         "no harder to set up (8 vs 25 friction)"
       ],

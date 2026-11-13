@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "open.bot",
-  "stars": 11237,
-  "forks": 1394,
-  "open_issues": 81,
+  "stars": 11980,
+  "forks": 1465,
+  "open_issues": 99,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-12T12:42:42Z",
-  "pushed_at": "2026-11-12T07:59:52Z",
+  "updated_at": "2026-11-13T12:01:39Z",
+  "pushed_at": "2026-11-13T07:07:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 87,
+  "age_days": 88,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 81.0,
+    "popularity": 81.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 78.0,
@@ -38,10 +38,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 883,
+    "stars_gained": 1548,
     "days_span": 5,
-    "stars_per_day": 176.6,
-    "lifetime_stars_per_day": 129.16,
+    "stars_per_day": 309.6,
+    "lifetime_stars_per_day": 136.14,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -157,11 +157,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:49+00:00",
+  "fetched_at": "2026-11-13T12:14:16+00:00",
   "categories": [
+    "failover",
     "mcp-security",
-    "sharing",
-    "sharing-model-routing"
+    "sharing"
   ],
   "primary_category": "sharing",
   "lifecycle": {
@@ -190,14 +190,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 26.848,
-      "momentum_ratio": 3.246,
+      "star_ratio": 25.228,
+      "momentum_ratio": 1.828,
       "setup_delta": -1,
-      "dominance": 0.946,
+      "dominance": 0.875,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "26.85x the stars (301,687 vs 11,237)",
-        "3.25x the star velocity (573.2/day vs 176.6/day)",
+        "25.23x the stars (302,226 vs 11,980)",
+        "1.83x the star velocity (565.8/day vs 309.6/day)",
         "no harder to set up (57 vs 58 friction)"
       ],
       "reasons_zh": [],

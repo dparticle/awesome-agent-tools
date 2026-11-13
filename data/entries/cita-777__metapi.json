@@ -6,34 +6,34 @@
   "url": "https://github.com/cita-777/metapi",
   "description": "把你在各处注册的 New API / One API / OneHub / DoneHub / Veloera / AnyRouter / Sub2API 等站点， 汇聚成 一个 API Key、一个入口，自动发现模型、智能路由、成本最优",
   "homepage": "http://metapi.cita777.me/",
-  "stars": 3335,
+  "stars": 3331,
   "forks": 529,
   "open_issues": 114,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-27T16:37:27Z",
-  "updated_at": "2026-11-12T08:28:08Z",
+  "updated_at": "2026-11-13T02:15:14Z",
   "pushed_at": "2026-11-12T02:40:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 257,
-  "days_since_push": 0,
+  "age_days": 258,
+  "days_since_push": 1,
   "health_score": 53,
   "health_components": {
     "popularity": 70.5,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 19.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
-    "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 12.98,
+    "stars_gained": 0,
+    "days_span": 15,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 12.91,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,11 +146,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:33+00:00",
+  "fetched_at": "2026-11-13T12:14:49+00:00",
   "categories": [
+    "analytics",
     "analytics-3",
-    "billing",
-    "providers-2"
+    "billing"
   ],
   "primary_category": "billing",
   "lifecycle": {

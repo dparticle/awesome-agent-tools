@@ -7,7 +7,7 @@
   "description": "Turn stateless LLMs into a stateful, compounding AI agent. Local-first persistent memory, quantitative decision screens, and governance harness across Claude Code, Antigravity, Cursor, and VS Code. Own the state. Rent the intelligence.",
   "homepage": "https://winstonkoh87.com/athena/",
   "stars": 622,
-  "forks": 84,
+  "forks": 85,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -34,11 +34,11 @@
   ],
   "created_at": "2025-12-18T19:47:38Z",
   "updated_at": "2026-11-11T23:12:57Z",
-  "pushed_at": "2026-11-11T22:12:52Z",
+  "pushed_at": "2026-11-12T23:42:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 328,
+  "age_days": 329,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
@@ -51,15 +51,15 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 622,
-    "days_span": 328,
-    "stars_per_day": 1.9,
-    "lifetime_stars_per_day": 1.9,
+    "days_span": 329,
+    "stars_per_day": 1.89,
+    "lifetime_stars_per_day": 1.89,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "winstonkoh87/Athena-Public",
-    "readme_chars": 14554,
+    "readme_chars": 14599,
     "capabilities": [
       "memory-context",
       "mcp-support",
@@ -128,7 +128,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.344
+      "external_link_ratio": 0.342
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:02+00:00",
+  "fetched_at": "2026-11-13T12:15:11+00:00",
   "categories": [
     "memory-failover"
   ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/miqdadbadjuber/anti-slop",
   "description": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
   "homepage": "https://antislop.ai.id",
-  "stars": 9017,
-  "forks": 616,
-  "open_issues": 3,
+  "stars": 9088,
+  "forks": 621,
+  "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "ui-design"
   ],
   "created_at": "2026-08-07T10:29:56Z",
-  "updated_at": "2026-11-12T12:36:30Z",
-  "pushed_at": "2026-11-12T12:31:50Z",
+  "updated_at": "2026-11-13T11:30:12Z",
+  "pushed_at": "2026-11-13T10:52:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 97,
+  "age_days": 98,
   "days_since_push": 0,
-  "health_score": 82,
+  "health_score": 81,
   "health_components": {
-    "popularity": 79.1,
-    "momentum": 79.3,
+    "popularity": 79.2,
+    "momentum": 77.0,
     "maintenance": 100.0,
-    "documentation": 54.0,
+    "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 476,
+    "stars_gained": 462,
     "days_span": 5,
-    "stars_per_day": 95.2,
-    "lifetime_stars_per_day": 92.96,
+    "stars_per_day": 92.4,
+    "lifetime_stars_per_day": 92.73,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "miqdadbadjuber/anti-slop",
-    "readme_chars": 14652,
+    "readme_chars": 15046,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -58,16 +58,16 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "skills-plugins": "l instead, name the profile you use:",
+      "skills-plugins": "ll them (this project or everywhere), and which agents you use, then copies the folders and writes the pointer that reloads antislop every session.",
       "agent-runtime": "",
       "mcp-support": "Windows, set $env:MUSEEXPERIMENTALPLUGINS = \"1\" in PowerShell first, then run the two muse lines unchanged.",
       "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
     },
     "capability_hits": {
-      "skills-plugins": 2,
+      "skills-plugins": 1,
       "agent-runtime": 2,
       "mcp-support": 1,
-      "cross-agent-support": 8
+      "cross-agent-support": 9
     },
     "friction": {
       "level": "turnkey",
@@ -89,7 +89,7 @@
       "note_en": "Turnkey. install via npx one-liner, native installer / package",
       "note_zh": "开箱即用。可通过 npx one-liner、native installer / package 安装"
     },
-    "doc_score": 54,
+    "doc_score": 55,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -118,7 +118,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.956
+      "external_link_ratio": 0.93
     },
     "highlights": [
       "40 mandatory rules (R-01 to R-40) in three tiers: Hard Gate, Purpose-Gate, and Quality Locks.",
@@ -135,11 +135,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:51+00:00",
+  "fetched_at": "2026-11-13T12:14:18+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui-2"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

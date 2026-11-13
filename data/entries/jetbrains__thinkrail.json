@@ -6,9 +6,9 @@
   "url": "https://github.com/JetBrains/thinkrail",
   "description": "ThinkRail is the agentic IDE that gets better every time you use it",
   "homepage": "https://thinkrail.ai/",
-  "stars": 8190,
-  "forks": 518,
-  "open_issues": 255,
+  "stars": 8223,
+  "forks": 521,
+  "open_issues": 206,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,33 +27,33 @@
     "vibecoding"
   ],
   "created_at": "2026-07-08T07:40:43Z",
-  "updated_at": "2026-11-12T11:26:12Z",
-  "pushed_at": "2026-11-12T12:37:19Z",
+  "updated_at": "2026-11-13T12:13:30Z",
+  "pushed_at": "2026-11-13T07:47:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 127,
+  "age_days": 128,
   "days_since_push": 0,
-  "health_score": 74,
+  "health_score": 73,
   "health_components": {
     "popularity": 78.3,
-    "momentum": 50.2,
+    "momentum": 48.7,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 90.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 301,
+    "stars_gained": 292,
     "days_span": 5,
-    "stars_per_day": 60.2,
-    "lifetime_stars_per_day": 64.49,
+    "stars_per_day": 58.4,
+    "lifetime_stars_per_day": 64.24,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "JetBrains/thinkrail",
-    "readme_chars": 20161,
+    "readme_chars": 20169,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -147,7 +147,7 @@
       "Skills. ThinkRail loads your pi skills and any already in your project. It can also import skills from Claude, Codex, and other coding agents: switch them on in Settings → Extensions, or pe…",
       "Agent tools beyond the shell. Thanks to the ThinkRail GUI, your AI agent can ask you structured multiple-choice questions in the chat instead of guessing, draw Mermaid diagrams, and show co…",
       "Engine (packages/server + packages/shared): a Bun.serve HTTP+WS host with one in-process pi session per chat, launched by apps/cli or apps/desktop.",
-      "GUI (apps/web): React 19 + Zustand + Tailwind v4, shipped independently; it communicates with the engine through the contracts."
+      "Your providers, your credentials."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -158,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:52+00:00",
+  "fetched_at": "2026-11-13T12:14:19+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

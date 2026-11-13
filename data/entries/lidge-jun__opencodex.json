@@ -6,8 +6,8 @@
   "url": "https://github.com/lidge-jun/opencodex",
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
   "homepage": "https://opencodex.me/",
-  "stars": 18419,
-  "forks": 1464,
+  "stars": 18472,
+  "forks": 1470,
   "open_issues": 122,
   "language": "TypeScript",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "typescript"
   ],
   "created_at": "2026-06-18T23:03:18Z",
-  "updated_at": "2026-11-12T12:27:22Z",
-  "pushed_at": "2026-11-12T12:31:53Z",
+  "updated_at": "2026-11-13T12:12:57Z",
+  "pushed_at": "2026-11-13T12:10:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 146,
+  "age_days": 147,
   "days_since_push": 0,
   "health_score": 66,
   "health_components": {
     "popularity": 85.3,
-    "momentum": 24.5,
+    "momentum": 28.5,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 58.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 147,
+    "stars_gained": 171,
     "days_span": 5,
-    "stars_per_day": 29.4,
-    "lifetime_stars_per_day": 126.16,
+    "stars_per_day": 34.2,
+    "lifetime_stars_per_day": 125.66,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -158,7 +158,7 @@
       "external_link_ratio": 1.208
     },
     "highlights": [
-      "31 state-store registrations handle expiry sweeps (60 s interval) and",
+      "32 state-store registrations handle expiry sweeps (60 s interval) and",
       "4 observed buffers (translator accumulators, image/OAuth/Grok tails) are",
       "Use any LLM with Codex, Claude Code, Claude Desktop, and Grok Build — 40+ providers out of",
       "Log in once, skip the API key — OAuth for xAI, Anthropic, and Kimi; or forward"
@@ -172,11 +172,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:45+00:00",
+  "fetched_at": "2026-11-13T12:14:13+00:00",
   "categories": [
     "billing",
-    "desktop-ui-2",
-    "sharing-model-routing"
+    "desktop-ui",
+    "model-routing"
   ],
   "primary_category": "billing",
   "lifecycle": {

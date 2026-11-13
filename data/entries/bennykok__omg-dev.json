@@ -6,7 +6,7 @@
   "url": "https://github.com/BennyKok/omg.dev",
   "description": "omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcode with mobile client",
   "homepage": "https://omg.dev",
-  "stars": 556,
+  "stars": 557,
   "forks": 41,
   "open_issues": 2,
   "language": "TypeScript",
@@ -24,27 +24,27 @@
     "self-hosted"
   ],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-11-12T11:10:06Z",
-  "pushed_at": "2026-11-12T10:10:01Z",
+  "updated_at": "2026-11-12T17:24:32Z",
+  "pushed_at": "2026-11-13T09:41:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 148,
+  "age_days": 149,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 3.76,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 3.74,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,10 +146,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:05+00:00",
+  "fetched_at": "2026-11-13T12:15:13+00:00",
   "categories": [
     "analytics",
-    "desktop-ui-2",
+    "desktop-ui",
     "mobile"
   ],
   "primary_category": "mobile",

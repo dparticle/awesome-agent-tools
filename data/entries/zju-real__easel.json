@@ -6,8 +6,8 @@
   "url": "https://github.com/ZJU-REAL/Easel",
   "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
   "homepage": "https://zju-real.github.io/Easel/",
-  "stars": 4623,
-  "forks": 770,
+  "stars": 4656,
+  "forks": 776,
   "open_issues": 18,
   "language": "Python",
   "license": "Apache-2.0",
@@ -23,27 +23,27 @@
     "social-media-management"
   ],
   "created_at": "2026-08-28T02:22:27Z",
-  "updated_at": "2026-11-12T12:03:29Z",
+  "updated_at": "2026-11-13T12:12:54Z",
   "pushed_at": "2026-11-12T05:23:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 76,
-  "days_since_push": 0,
-  "health_score": 69,
+  "age_days": 77,
+  "days_since_push": 1,
+  "health_score": 70,
   "health_components": {
-    "popularity": 73.3,
-    "momentum": 23.5,
+    "popularity": 73.4,
+    "momentum": 26.2,
     "maintenance": 100.0,
     "documentation": 80.0,
     "accessibility": 85.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 141,
+    "stars_gained": 157,
     "days_span": 5,
-    "stars_per_day": 28.2,
-    "lifetime_stars_per_day": 60.83,
+    "stars_per_day": 31.4,
+    "lifetime_stars_per_day": 60.47,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -156,11 +156,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:59+00:00",
+  "fetched_at": "2026-11-13T12:14:25+00:00",
   "categories": [
     "failover",
-    "providers-2",
-    "sharing-model-routing"
+    "model-routing",
+    "providers-2"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

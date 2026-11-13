@@ -6,8 +6,8 @@
   "url": "https://github.com/0sec-labs/0",
   "description": "The open-source AI security harness. Includes a web interface for code analysis, pentesting, vulnerability research, reverse engineering, verification, and fixing + CLI and MCP for agents.",
   "homepage": "https://0.security",
-  "stars": 1321,
-  "forks": 175,
+  "stars": 1336,
+  "forks": 176,
   "open_issues": 6,
   "language": "TypeScript",
   "license": "NOASSERTION",
@@ -26,16 +26,16 @@
     "vulnerability-scanner"
   ],
   "created_at": "2026-08-19T07:54:37Z",
-  "updated_at": "2026-11-12T12:31:35Z",
+  "updated_at": "2026-11-13T10:36:51Z",
   "pushed_at": "2026-11-10T16:51:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 85,
-  "days_since_push": 1,
-  "health_score": 78,
+  "age_days": 86,
+  "days_since_push": 2,
+  "health_score": 79,
   "health_components": {
-    "popularity": 62.4,
+    "popularity": 62.5,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 41.0,
@@ -43,10 +43,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 719,
+    "stars_gained": 732,
     "days_span": 5,
-    "stars_per_day": 143.8,
-    "lifetime_stars_per_day": 15.54,
+    "stars_per_day": 146.4,
+    "lifetime_stars_per_day": 15.53,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -121,10 +121,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:46+00:00",
+  "fetched_at": "2026-11-13T12:14:58+00:00",
   "categories": [
-    "desktop-ui-2",
-    "mcp-security"
+    "desktop-ui",
+    "mcp-security",
+    "model-routing"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

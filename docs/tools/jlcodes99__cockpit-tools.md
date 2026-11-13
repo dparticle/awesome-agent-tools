@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,925 |
-| Star velocity | 25.4/day (history basis, 5d span) |
+| Stars | 19,955 |
+| Star velocity | 28.2/day (history basis, 5d span) |
 | Health score | 68/100 |
 | Documentation | 64/100 |
 | Tier | ✅ Recommended |
@@ -21,18 +21,18 @@
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-11-09 (3 days ago) |
-| Analyzed README | 19,039 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-12 (0 days ago) |
+| Analyzed README | 19,175 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> surf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。
+> ndsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed 和 ZCode，并支持多账号多实例并行运行。
 
 ### Quota & usage management
 
-> 目前支持 Antigravity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。
+> 具，目前支持 Antigravity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed 和 ZCode，并支持多账号多实例并行运行。
 
 ### Automatic failover
 
@@ -42,7 +42,7 @@
 
 ### Parallel execution
 
-> ty IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TRAE SOLO、Trae CN、TRAE SOLO CN、Zed 和 ZCode，并支持多账号多实例并行运行。
+> vity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed 和 ZCode，并支持多账号多实例并行运行。
 
 ### Workspace isolation
 
@@ -68,11 +68,11 @@
 
 ### Security & isolation
 
-> odes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入
+> .jlcodes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入
 
 ### GUI / desktop app
 
-> **：自动刷新 2~5 分钟 + 需要联动时开启 WebSocket + OpenCode 联动开启。
+> s: .msi（推荐）、.exe，或 x64-portable.zip（解压即用，无需安装）
 
 ### Notifications
 
@@ -122,7 +122,7 @@ Score **64/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 86.0 |
-| momentum | 21.2 |
+| momentum | 23.5 |
 | maintenance | 100.0 |
 | documentation | 64.0 |
 | accessibility | 68.0 |

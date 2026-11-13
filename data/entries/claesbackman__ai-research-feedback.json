@@ -14,26 +14,26 @@
   "topics": [],
   "created_at": "2026-03-01T11:37:44Z",
   "updated_at": "2026-11-12T08:05:50Z",
-  "pushed_at": "2026-10-28T08:00:54Z",
+  "pushed_at": "2026-11-13T09:06:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 256,
-  "days_since_push": 15,
-  "health_score": 53,
+  "age_days": 257,
+  "days_since_push": 0,
+  "health_score": 54,
   "health_components": {
     "popularity": 55.0,
-    "momentum": 5.2,
-    "maintenance": 92.0,
+    "momentum": 4.7,
+    "maintenance": 100.0,
     "documentation": 44.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 31,
+    "stars_gained": 28,
     "days_span": 5,
-    "stars_per_day": 6.2,
-    "lifetime_stars_per_day": 2.19,
+    "stars_per_day": 5.6,
+    "lifetime_stars_per_day": 2.18,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -117,11 +117,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:05+00:00",
+  "fetched_at": "2026-11-13T12:15:13+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui-2"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,8 +6,8 @@
   "url": "https://github.com/qybaihe/bla",
   "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
   "homepage": "https://bla.tools",
-  "stars": 5404,
-  "forks": 656,
+  "stars": 5513,
+  "forks": 670,
   "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
@@ -24,16 +24,16 @@
     "webassembly"
   ],
   "created_at": "2026-10-25T05:25:45Z",
-  "updated_at": "2026-11-12T12:40:17Z",
-  "pushed_at": "2026-11-12T08:15:16Z",
+  "updated_at": "2026-11-13T12:09:21Z",
+  "pushed_at": "2026-11-13T08:35:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 18,
+  "age_days": 19,
   "days_since_push": 0,
   "health_score": 85,
   "health_components": {
-    "popularity": 74.7,
+    "popularity": 74.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 77.0,
@@ -41,16 +41,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5404,
-    "days_span": 18,
-    "stars_per_day": 300.22,
-    "lifetime_stars_per_day": 300.22,
+    "stars_gained": 5513,
+    "days_span": 19,
+    "stars_per_day": 290.16,
+    "lifetime_stars_per_day": 290.16,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "qybaihe/bla",
-    "readme_chars": 21955,
+    "readme_chars": 21964,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:57+00:00",
+  "fetched_at": "2026-11-13T12:14:23+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

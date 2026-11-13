@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,959 |
-| Star velocity | 55.5/day (history basis, 6d span) |
-| Health score | 68/100 |
-| Documentation | 55/100 |
+| Stars | 4,022 |
+| Star velocity | 64.8/day (history basis, 5d span) |
+| Health score | 71/100 |
+| Documentation | 56/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-12 |
-| Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 19,400 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-13 (0 days ago) |
+| Analyzed README | 21,681 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ### Mobile access
 
-> ent group" keeps its name.
+> （Windows 自带精简运行时），支持 Docker、NAS（群晖/飞牛）一键部署及 OpenWrt 路由器固件。
 
 ### Model / provider routing
 
@@ -66,13 +66,15 @@
 
 ### Notifications
 
+> 请求列表」，验证失败徽章点开的详情弹窗、四个过滤下拉真的把参数发到 /usage/recent，并把列表 / 弹窗 / 筛选条截图写到系统临时目录的 wb-visual-recent/。
+
 ### Cross-agent support
 
 > Mentions Claude Code, Codex
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 36/100)
+- **Difficulty:** 🟢 Easy (friction score 29/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/ardeyouxipianyi/workbuddy2api-hub/main/quick-deploy.sh | bash`
@@ -83,11 +85,11 @@
 
 **Configuration required:** API key configuration, OAuth login flow, server/reverse-proxy setup
 
-*Easy. install via curl | sh installer; needs docker compose up; configure API key configuration, OAuth login flow; Chinese: beginner/one-click framing*
+*Easy. install via curl | sh installer; needs docker compose up; configure API key configuration, OAuth login flow; one-click setup*
 
 ## Documentation quality
 
-Score **55/100**, based on these detected signals:
+Score **56/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -99,16 +101,17 @@ Score **55/100**, based on these detected signals:
 - has a table of contents
 - documents changes
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 72.0 |
-| momentum | 46.2 |
+| popularity | 72.1 |
+| momentum | 54.0 |
 | maintenance | 100.0 |
-| documentation | 55.0 |
-| accessibility | 64.0 |
+| documentation | 56.0 |
+| accessibility | 71.0 |
 
 ---
 

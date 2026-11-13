@@ -6,8 +6,8 @@
   "url": "https://github.com/simonlin1212/Vibe-Research",
   "description": "Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A research workbench for China A-shares, US and HK stocks.",
   "homepage": "https://viberesearch.wiki",
-  "stars": 3611,
-  "forks": 679,
+  "stars": 3619,
+  "forks": 683,
   "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
@@ -32,33 +32,33 @@
     "workbuddy"
   ],
   "created_at": "2026-07-05T06:30:55Z",
-  "updated_at": "2026-11-12T11:15:50Z",
-  "pushed_at": "2026-10-29T02:22:27Z",
+  "updated_at": "2026-11-13T12:04:26Z",
+  "pushed_at": "2026-11-12T14:50:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 130,
-  "days_since_push": 14,
-  "health_score": 60,
+  "age_days": 131,
+  "days_since_push": 0,
+  "health_score": 62,
   "health_components": {
     "popularity": 71.2,
-    "momentum": 13.9,
-    "maintenance": 92.0,
+    "momentum": 12.9,
+    "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 57.0
   },
-  "tier": "notable",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 100,
-    "days_span": 6,
-    "stars_per_day": 16.67,
-    "lifetime_stars_per_day": 27.78,
+    "stars_gained": 108,
+    "days_span": 7,
+    "stars_per_day": 15.43,
+    "lifetime_stars_per_day": 27.63,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "simonlin1212/Vibe-Research",
-    "readme_chars": 33593,
+    "readme_chars": 34043,
     "capabilities": [
       "quota-management",
       "remote-control",
@@ -149,13 +149,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.208
+      "external_link_ratio": 0.206
     },
     "highlights": [
       "v2.2.0 发版前两轮独立只读审计（Codex 6.1 Sol、Opus 5.5），去重后 11 条真问题全部修复；v2.2.1 修的 4 处来自 Vibe AStock 合并 v2.2.0 时的发版审计，修复补丁另做了一次独立复核（Opus 5.5），找到的 6 处全部修掉。",
       "官方 WorkBuddy 桌面版内置 CLI 2.161.0：生产登录探针为 ready，一次无工具真实最小对话返回 WB2161_OK，约 6.8 秒；旧内置 CLI 2.137.1、确切版本的独立 npm CLI 2.161.0 登录探针也为 ready。",
-      "后端全套 1294 项：1286 通过、8 跳过、0 失败；desktop 351/351，生产构建通过；前后端类型检查通过；Python（计算库 311、回测 583、数据脚本 580）1474/1474，mypy 检查 106 个文件通过。",
-      "后端全套 1295 项：1287 通过、8 跳过、0 失败；desktop 351/351，生产构建通过；前后端类型检查通过；Python（计算库 311、回测 583、数据脚本 582）1476/1476，mypy 检查 106 个文件通过。"
+      "后端全套 1301 项：1293 通过、8 跳过、0 失败；补上「停服务删临时工作区」后重跑本机 Agent 那组 74 项，69 通过、3 跳过，2 项按时间判断的用例在机器高负载时没等到假 CLI 启动，单独重跑通过；desktop 351/351，生产构建通过；前后端类型检查通过；mypy 检查 106 个文件通过。",
+      "后端全套 1294 项：1286 通过、8 跳过、0 失败；desktop 351/351，生产构建通过；前后端类型检查通过；Python（计算库 311、回测 583、数据脚本 580）1474/1474，mypy 检查 106 个文件通过。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -166,7 +166,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:04+00:00",
+  "fetched_at": "2026-11-13T12:14:28+00:00",
   "categories": [
     "analytics-3",
     "billing",

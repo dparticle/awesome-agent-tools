@@ -31,8 +31,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 319,
-  "days_since_push": 4,
+  "age_days": 320,
+  "days_since_push": 5,
   "health_score": 52,
   "health_components": {
     "popularity": 52.9,
@@ -131,11 +131,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:14+00:00",
+  "fetched_at": "2026-11-13T12:15:20+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui-2"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

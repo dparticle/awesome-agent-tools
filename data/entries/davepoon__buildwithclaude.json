@@ -6,9 +6,9 @@
   "url": "https://github.com/davepoon/buildwithclaude",
   "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
   "homepage": "https://www.buildwithclaude.com",
-  "stars": 3740,
-  "forks": 717,
-  "open_issues": 22,
+  "stars": 3741,
+  "forks": 719,
+  "open_issues": 19,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,27 +26,27 @@
     "subagents"
   ],
   "created_at": "2025-07-25T02:26:45Z",
-  "updated_at": "2026-11-12T06:59:18Z",
-  "pushed_at": "2026-11-12T06:00:05Z",
+  "updated_at": "2026-11-13T11:12:07Z",
+  "pushed_at": "2026-11-13T07:12:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 475,
+  "age_days": 476,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 71.5,
-    "momentum": 1.2,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 50.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 7.87,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 7.86,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,12 +137,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:32+00:00",
+  "fetched_at": "2026-11-13T12:14:49+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "mcp-security"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
@@ -165,14 +166,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 13.259,
-      "momentum_ratio": 40.714,
+      "star_ratio": 13.268,
+      "momentum_ratio": 32.0,
       "setup_delta": -11,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.26x the stars (49,588 vs 3,740)",
-        "40.71x the star velocity (57.0/day vs 1.4/day)",
+        "13.27x the stars (49,634 vs 3,741)",
+        "32.00x the star velocity (57.6/day vs 1.8/day)",
         "no harder to set up (39 vs 50 friction)"
       ],
       "reasons_zh": [],

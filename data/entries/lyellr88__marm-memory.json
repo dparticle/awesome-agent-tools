@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 520,
-  "days_since_push": 0,
+  "age_days": 521,
+  "days_since_push": 1,
   "health_score": 54,
   "health_components": {
     "popularity": 52.8,
@@ -196,7 +196,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:15+00:00",
+  "fetched_at": "2026-11-13T12:15:21+00:00",
   "categories": [
     "mcp-security",
     "memory-failover",

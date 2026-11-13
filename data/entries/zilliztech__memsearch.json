@@ -6,9 +6,9 @@
   "url": "https://github.com/zilliztech/memsearch",
   "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
   "homepage": "https://zilliztech.github.io/memsearch/",
-  "stars": 2864,
-  "forks": 285,
-  "open_issues": 260,
+  "stars": 2868,
+  "forks": 286,
+  "open_issues": 259,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "skills"
   ],
   "created_at": "2026-02-09T02:29:16Z",
-  "updated_at": "2026-11-12T12:13:16Z",
-  "pushed_at": "2026-11-10T04:08:01Z",
+  "updated_at": "2026-11-13T10:06:58Z",
+  "pushed_at": "2026-11-13T09:22:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 276,
-  "days_since_push": 2,
+  "age_days": 277,
+  "days_since_push": 0,
   "health_score": 58,
   "health_components": {
-    "popularity": 69.1,
-    "momentum": 6.0,
+    "popularity": 69.2,
+    "momentum": 5.7,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 36,
+    "stars_gained": 34,
     "days_span": 5,
-    "stars_per_day": 7.2,
-    "lifetime_stars_per_day": 10.38,
+    "stars_per_day": 6.8,
+    "lifetime_stars_per_day": 10.35,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zilliztech/memsearch",
-    "readme_chars": 29514,
+    "readme_chars": 29687,
     "capabilities": [
       "model-routing",
       "memory-context",
@@ -72,8 +72,8 @@
     ],
     "capability_evidence": {
       "model-routing": "nd they are **off by default**.",
-      "memory-context": "s Claude Code, Codex, DeepSeek Harness, OpenClaw, and OpenCode.",
-      "skills-plugins": "y** — memories flow across Claude Code, Codex, DeepSeek Harness, OpenClaw, and OpenCode.",
+      "memory-context": "de, Codex, DeepSeek Harness, OpenClaw, OpenCode, and WorkBuddy.",
+      "skills-plugins": "ies flow across Claude Code, Codex, DeepSeek Harness, OpenClaw, OpenCode, and WorkBuddy.",
       "agent-runtime": "",
       "self-hosted": "— fully managed, free tier available — sign up 👇:",
       "team-collaboration": "n up for a free Zilliz Cloud cluster",
@@ -140,12 +140,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.05
+      "external_link_ratio": 1.044
     },
     "highlights": [
       "🔍 Progressive retrieval, hybrid search, smart dedup, live sync — 3-layer recall (search → expand → transcript); dense vector + BM25 sparse + RRF reranking; SHA-256 content hashing skips unc…",
       "Resume debugging threads — ask how a similar Redis, Docker, database, or deployment issue was fixed last time.",
-      "🌐 All Platforms, One Memory — memories flow across Claude Code, Codex, DeepSeek Harness, OpenClaw, and OpenCode."
+      "🌐 All Platforms, One Memory — memories flow across Claude Code, Codex, DeepSeek Harness, OpenClaw, OpenCode, and WorkBuddy."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -156,10 +156,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:35+00:00",
+  "fetched_at": "2026-11-13T12:14:51+00:00",
   "categories": [
-    "analytics-3",
-    "desktop-ui",
+    "desktop-ui-2",
+    "model-routing",
     "sharing"
   ],
   "primary_category": "sharing",
@@ -187,14 +187,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 4.183,
-      "momentum_ratio": 6.417,
+      "star_ratio": 4.19,
+      "momentum_ratio": 7.118,
       "setup_delta": -17,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.18x the stars (11,981 vs 2,864)",
-        "6.42x the star velocity (46.2/day vs 7.2/day)",
+        "4.19x the stars (12,017 vs 2,868)",
+        "7.12x the star velocity (48.4/day vs 6.8/day)",
         "no harder to set up (32 vs 49 friction)"
       ],
       "reasons_zh": [],

@@ -26,22 +26,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 486,
-  "days_since_push": 128,
+  "age_days": 487,
+  "days_since_push": 129,
   "health_score": 51,
   "health_components": {
     "popularity": 70.9,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 57.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 7.22,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 7.21,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:33+00:00",
+  "fetched_at": "2026-11-13T12:14:49+00:00",
   "categories": [
     "isolation-teams",
     "memory-failover",

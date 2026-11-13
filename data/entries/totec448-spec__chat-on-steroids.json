@@ -6,8 +6,8 @@
   "url": "https://github.com/totec448-spec/chat-on-steroids",
   "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
   "homepage": "",
-  "stars": 5162,
-  "forks": 668,
+  "stars": 5172,
+  "forks": 673,
   "open_issues": 28,
   "language": "TypeScript",
   "license": "MIT",
@@ -24,29 +24,29 @@
     "windows"
   ],
   "created_at": "2026-08-22T14:16:24Z",
-  "updated_at": "2026-11-12T12:35:32Z",
-  "pushed_at": "2026-11-12T11:39:17Z",
+  "updated_at": "2026-11-13T10:20:03Z",
+  "pushed_at": "2026-11-13T11:46:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 81,
+  "age_days": 82,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 74.3,
-    "momentum": 3.2,
+    "momentum": 4.3,
     "maintenance": 100.0,
     "documentation": 26.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 19,
+    "stars_gained": 26,
     "days_span": 5,
-    "stars_per_day": 3.8,
-    "lifetime_stars_per_day": 63.73,
+    "stars_per_day": 5.2,
+    "lifetime_stars_per_day": 63.07,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "totec448-spec/chat-on-steroids",
@@ -136,9 +136,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:58+00:00",
+  "fetched_at": "2026-11-13T12:14:24+00:00",
   "categories": [
     "failover",
+    "mcp-security",
     "mobile"
   ],
   "primary_category": "mobile",

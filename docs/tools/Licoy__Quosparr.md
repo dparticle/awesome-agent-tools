@@ -14,15 +14,15 @@
 | --- | --- |
 | Stars | 326 |
 | Star velocity | 1.0/day (history basis, 5d span) |
-| Health score | 50/100 |
-| Documentation | 55/100 |
+| Health score | 52/100 |
+| Documentation | 57/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-29 |
-| Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 23,413 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-13 (0 days ago) |
+| Analyzed README | 28,904 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Quota & usage management
 
-> lent cost, and local sessions, with separate account management for each provider.
+> alent cost, and local sessions, with separate account management for each provider.
 
 ### Model / provider routing
 
@@ -40,7 +40,7 @@
 
 ### Billing & metering
 
-> epair of the local session index.
+> lus repair of the local session index.
 
 ### Usage analytics
 
@@ -56,17 +56,19 @@
 
 ### MCP support
 
-> - On macOS the official credential stays in the Keychain and is read and written through /usr/bin/security.
+> ows Codex, Claude, Gemini (Google Antigravity), and Grok subscription quota, reset credits, API-equivalent cost, and local sessions, with separate account management for each provider.
 
 ### GUI / desktop app
 
+> - Quota of the Google Antigravity clients (the new desktop App and the agy CLI): remaining share and reset time of the 5-hour and weekly windows for Gemini models and for Claude models, and of the weekly Argon window, p…
+
 ### Cross-agent support
 
-> Mentions Claude Code, Codex
+> Mentions Claude Code, Codex, Gemini CLI
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 39/100)
+- **Difficulty:** 🟢 Easy (friction score 32/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://x.ai/cli/install.sh | bash`
@@ -77,11 +79,11 @@
 
 **Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow, sign-in required, database dependency, server/reverse-proxy setup
 
-*Some setup. install via curl | sh installer, native installer / package; needs go build; configure API key configuration, config.json/yaml/toml; one-click setup*
+*Easy. install via curl | sh installer, native installer / package; needs go build; configure API key configuration, config.json/yaml/toml; one-click setup*
 
 ## Documentation quality
 
-Score **55/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -101,8 +103,8 @@ Score **55/100**, based on these detected signals:
 | popularity | 50.3 |
 | momentum | 0.8 |
 | maintenance | 100.0 |
-| documentation | 55.0 |
-| accessibility | 61.0 |
+| documentation | 57.0 |
+| accessibility | 68.0 |
 
 ---
 

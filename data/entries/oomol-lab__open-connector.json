@@ -4,11 +4,11 @@
   "name": "open-connector",
   "owner": "oomol-lab",
   "url": "https://github.com/oomol-lab/open-connector",
-  "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+  "description": "Open-source auth gateway connecting 1700+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 6231,
-  "forks": 603,
-  "open_issues": 10,
+  "stars": 6241,
+  "forks": 605,
+  "open_issues": 8,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -32,27 +32,27 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-11-12T11:50:46Z",
-  "pushed_at": "2026-11-12T07:10:25Z",
+  "updated_at": "2026-11-13T07:47:17Z",
+  "pushed_at": "2026-11-13T06:13:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 136,
+  "age_days": 137,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 75.9,
-    "momentum": 6.2,
+    "momentum": 7.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 37,
+    "stars_gained": 42,
     "days_span": 5,
-    "stars_per_day": 7.4,
-    "lifetime_stars_per_day": 45.82,
+    "stars_per_day": 8.4,
+    "lifetime_stars_per_day": 45.55,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -139,7 +139,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:56+00:00",
+  "fetched_at": "2026-11-13T12:14:22+00:00",
   "categories": [
     "analytics-3",
     "memory-failover",
@@ -167,14 +167,14 @@
         "model-routing",
         "self-hosted"
       ],
-      "star_ratio": 48.417,
-      "momentum_ratio": 77.459,
+      "star_ratio": 48.426,
+      "momentum_ratio": 67.357,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.42x the stars (301,687 vs 6,231)",
-        "77.46x the star velocity (573.2/day vs 7.4/day)",
+        "48.43x the stars (302,226 vs 6,241)",
+        "67.36x the star velocity (565.8/day vs 8.4/day)",
         "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],

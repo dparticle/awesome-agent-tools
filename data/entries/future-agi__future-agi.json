@@ -6,9 +6,9 @@
   "url": "https://github.com/future-agi/future-agi",
   "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
   "homepage": "https://futureagi.com",
-  "stars": 2266,
+  "stars": 2269,
   "forks": 715,
-  "open_issues": 1090,
+  "open_issues": 1062,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "tracing"
   ],
   "created_at": "2026-04-23T14:11:31Z",
-  "updated_at": "2026-11-12T12:08:23Z",
-  "pushed_at": "2026-11-12T12:40:16Z",
+  "updated_at": "2026-11-13T10:53:19Z",
+  "pushed_at": "2026-11-13T12:09:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 202,
+  "age_days": 203,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
     "popularity": 67.1,
-    "momentum": 2.0,
+    "momentum": 2.3,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 11.22,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 11.18,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,7 +152,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:37+00:00",
+  "fetched_at": "2026-11-13T12:14:53+00:00",
   "categories": [
     "analytics-3",
     "memory-failover",
@@ -182,14 +182,14 @@
         "memory-context",
         "self-hosted"
       ],
-      "star_ratio": 5.287,
-      "momentum_ratio": 19.25,
+      "star_ratio": 5.296,
+      "momentum_ratio": 17.286,
       "setup_delta": -13,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.29x the stars (11,981 vs 2,266)",
-        "19.25x the star velocity (46.2/day vs 2.4/day)",
+        "5.30x the stars (12,017 vs 2,269)",
+        "17.29x the star velocity (48.4/day vs 2.8/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
       "reasons_zh": [],

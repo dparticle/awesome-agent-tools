@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/TokenEconomizer",
   "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
   "homepage": "",
-  "stars": 5833,
-  "forks": 371,
-  "open_issues": 33,
+  "stars": 5997,
+  "forks": 379,
+  "open_issues": 27,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -33,16 +33,16 @@
     "token-optimization"
   ],
   "created_at": "2026-10-13T04:16:50Z",
-  "updated_at": "2026-11-12T12:21:30Z",
-  "pushed_at": "2026-11-12T00:30:28Z",
+  "updated_at": "2026-11-13T12:06:14Z",
+  "pushed_at": "2026-11-12T21:48:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 30,
+  "age_days": 31,
   "days_since_push": 0,
-  "health_score": 83,
+  "health_score": 84,
   "health_components": {
-    "popularity": 75.3,
+    "popularity": 75.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
@@ -50,11 +50,11 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5833,
-    "days_span": 30,
-    "stars_per_day": 194.43,
-    "lifetime_stars_per_day": 194.43,
-    "basis": "lifetime",
+    "stars_gained": 1024,
+    "days_span": 5,
+    "stars_per_day": 204.8,
+    "lifetime_stars_per_day": 193.45,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -164,9 +164,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:57+00:00",
+  "fetched_at": "2026-11-13T12:14:22+00:00",
   "categories": [
-    "desktop-ui-2",
+    "desktop-ui",
     "mcp-security",
     "memory-failover"
   ],

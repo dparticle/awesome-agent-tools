@@ -6,34 +6,34 @@
   "url": "https://github.com/wenfxl/openai-cpa",
   "description": "Enterprise Distributed Automation Platform for massive concurrent workload execution. Unifies elastic cluster orchestration, multi-channel identity verification messaging, real-time ops telemetry, and multi-warehouse lifecycle control (CPA / Sub2API / Image2API) in one high-throughput control plane.",
   "homepage": "",
-  "stars": 1406,
+  "stars": 1407,
   "forks": 437,
   "open_issues": 12,
   "language": "",
   "license": "NOASSERTION",
   "topics": [],
   "created_at": "2026-03-23T05:59:01Z",
-  "updated_at": "2026-11-12T09:42:32Z",
-  "pushed_at": "2026-11-11T10:37:27Z",
+  "updated_at": "2026-11-12T14:43:35Z",
+  "pushed_at": "2026-11-13T09:49:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 234,
-  "days_since_push": 1,
+  "age_days": 235,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 63.0,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 43.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 6.01,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 5.99,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,10 +131,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:46+00:00",
+  "fetched_at": "2026-11-13T12:14:58+00:00",
   "categories": [
-    "desktop-ui",
-    "isolation-teams"
+    "desktop-ui-2",
+    "isolation-teams",
+    "mcp-security"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
@@ -158,14 +159,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 100.522,
-      "momentum_ratio": 258.667,
+      "star_ratio": 100.517,
+      "momentum_ratio": 178.0,
       "setup_delta": -18,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "100.52x the stars (141,334 vs 1,406)",
-        "258.67x the star velocity (155.2/day vs 0.6/day)",
+        "100.52x the stars (141,427 vs 1,407)",
+        "178.00x the star velocity (142.4/day vs 0.8/day)",
         "no harder to set up (39 vs 57 friction)"
       ],
       "reasons_zh": [],

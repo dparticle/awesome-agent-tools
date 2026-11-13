@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "full_name": "tonhowtf/omniget",
+  "name": "omniget",
+  "owner": "tonhowtf",
+  "url": "https://github.com/tonhowtf/omniget",
+  "description": "Free, open source video downloader for Windows, macOS and Linux that AI agents can drive. Downloads from YouTube, Instagram, TikTok, X, Reddit, torrents and the sites yt-dlp supports. Its MCP server lets Claude Code, Cursor and Codex queue downloads, and it runs Claude Code, Codex, Gemini CLI and Ollama as agents.",
+  "homepage": "https://getomniget.com/",
+  "stars": 14393,
+  "forks": 1245,
+  "open_issues": 4,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "topics": [
+    "agent-client-protocol",
+    "claude-code",
+    "codex-cli",
+    "coding-agent",
+    "download-manager",
+    "downloader",
+    "gallery-dl",
+    "instagram-downloader",
+    "local-llm",
+    "mcp-server",
+    "media-downloader",
+    "model-context-protocol",
+    "tiktok-downloader",
+    "torrent",
+    "twitter-downloader",
+    "video-downloader",
+    "youtube-dl",
+    "youtube-downloader",
+    "yt-dlp",
+    "yt-dlp-gui"
+  ],
+  "created_at": "2026-02-11T22:44:56Z",
+  "updated_at": "2026-11-13T11:09:02Z",
+  "pushed_at": "2026-09-27T03:44:29Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 274,
+  "days_since_push": 47,
+  "health_score": 69,
+  "health_components": {
+    "popularity": 83.2,
+    "momentum": 43.8,
+    "maintenance": 78.0,
+    "documentation": 62.0,
+    "accessibility": 80.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 14393,
+    "days_span": 274,
+    "stars_per_day": 52.53,
+    "lifetime_stars_per_day": 52.53,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "tonhowtf/omniget",
+    "readme_chars": 36547,
+    "capabilities": [
+      "quota-management",
+      "auto-failover",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "el, and its permission requests show up in OmniGet.",
+      "auto-failover": "opy the Pairing token from OmniGet and paste it there.",
+      "agent-runtime": "",
+      "mcp-support": "Or ask Claude to do it for you.",
+      "security-isolation": "the terminal: omniget-cli",
+      "gui-desktop": "Every build is on the Releases page.",
+      "notifications": "k exits 0 or the rounds or minutes run out.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Cline, Codex"
+    },
+    "capability_hits": {
+      "quota-management": 2,
+      "auto-failover": 1,
+      "agent-runtime": 1,
+      "mcp-support": 11,
+      "security-isolation": 3,
+      "gui-desktop": 15,
+      "notifications": 1,
+      "cross-agent-support": 8
+    },
+    "friction": {
+      "level": "low",
+      "score": 20,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "winget install",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "pnpm install/build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via Homebrew install, winget install; needs git clone (build from source), pnpm install/build; configure sign-in required, database dependency; one-click setup",
+      "note_zh": "较易上手。可通过 Homebrew install、winget install 安装；需要 git clone (build from source)、pnpm install/build；需配置 sign-in required、database dependency；one-click setup"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Aider",
+      "Cline / Roo",
+      "Goose"
+    ],
+    "summary_en": "OmniGet is a free, open source (GPL-3.0) desktop app for Windows, macOS and Linux.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.094
+    },
+    "highlights": [
+      "The server is off until you turn it on, and it only listens on 127.0.0.1.",
+      "OmniGet is an Agent Client Protocol client.",
+      "AI agents in a window: a desktop app for Claude Code, Codex and Gemini CLI",
+      "Claude Code and Codex accounts plug in with the login your terminal already has, and their quota shows on screen."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-13T12:14:44+00:00",
+  "categories": [
+    "billing",
+    "desktop-ui",
+    "mcp-security"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

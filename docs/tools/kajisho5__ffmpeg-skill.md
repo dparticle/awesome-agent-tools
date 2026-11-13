@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,164 |
-| Star velocity | 91.8/day (history basis, 5d span) |
-| Health score | 82/100 |
+| Stars | 5,369 |
+| Star velocity | 117.8/day (history basis, 5d span) |
+| Health score | 87/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-03 |
-| Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 111,357 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-13 (0 days ago) |
+| Analyzed README | 114,815 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Skills & plugins
 
-> uploaded; parakeet-mlx, faster-whisper and openai-whisper download their model weights the first time they run (parakeet-mlx's default from Hugging Face).
+> . The footage is synthetic (FFmpeg's own test sources) except in three demos, reframetalk, filleren and pausesen, which use two AI-generated clips of people who do not exist (demos/footage/).
 
 ### Agent runtime
 
@@ -92,8 +92,8 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.3 |
-| momentum | 76.5 |
+| popularity | 74.6 |
+| momentum | 98.2 |
 | maintenance | 100.0 |
 | documentation | 68.0 |
 | accessibility | 100.0 |

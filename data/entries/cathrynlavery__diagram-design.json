@@ -6,9 +6,9 @@
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
   "homepage": "https://diagramdesign.dev",
-  "stars": 66655,
-  "forks": 4434,
-  "open_issues": 49,
+  "stars": 66825,
+  "forks": 4451,
+  "open_issues": 35,
   "language": "HTML",
   "license": "MIT",
   "topics": [
@@ -22,13 +22,13 @@
     "svg"
   ],
   "created_at": "2026-04-16T18:01:16Z",
-  "updated_at": "2026-11-12T12:34:27Z",
-  "pushed_at": "2026-11-10T22:44:09Z",
+  "updated_at": "2026-11-13T12:10:41Z",
+  "pushed_at": "2026-11-12T21:14:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 209,
-  "days_since_push": 1,
+  "age_days": 210,
+  "days_since_push": 0,
   "health_score": 91,
   "health_components": {
     "popularity": 96.5,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1085,
+    "stars_gained": 1074,
     "days_span": 5,
-    "stars_per_day": 217.0,
-    "lifetime_stars_per_day": 318.92,
+    "stars_per_day": 214.8,
+    "lifetime_stars_per_day": 318.21,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "cathrynlavery/diagram-design",
-    "readme_chars": 53918,
+    "readme_chars": 55897,
     "capabilities": [
       "parallel-execution",
       "billing-metering",
@@ -133,7 +133,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.334
+      "external_link_ratio": 0.322
     },
     "highlights": [
       "BestSelf.co: the SELF Journal and other paper tools for getting things done.",
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:17+00:00",
+  "fetched_at": "2026-11-13T12:14:38+00:00",
   "categories": [
     "analytics-3"
   ],

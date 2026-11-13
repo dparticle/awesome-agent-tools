@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 324 |
-| Star velocity | 1.3/day (lifetime basis, 245d span) |
+| Stars | 323 |
+| Star velocity | 1.3/day (lifetime basis, 246d span) |
 | Health score | 42/100 |
 | Documentation | 31/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-03-12 |
-| Last push | 2026-09-17 (56 days ago) |
+| Last push | 2026-09-17 (57 days ago) |
 | Analyzed README | 3,609 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [ardeyouxipianyi/workbuddy2api-hub](https://github.com/ardeyouxipianyi/workbuddy2api-hub)** — Superseded by ardeyouxipianyi/workbuddy2api-hub: covers 100% of capabilities (4/4).

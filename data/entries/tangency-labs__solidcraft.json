@@ -6,9 +6,9 @@
   "url": "https://github.com/tangency-labs/solidcraft",
   "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
   "homepage": "https://solidcraft.io",
-  "stars": 15908,
-  "forks": 2176,
-  "open_issues": 6649,
+  "stars": 16072,
+  "forks": 2200,
+  "open_issues": 6918,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -23,33 +23,33 @@
     "wasm"
   ],
   "created_at": "2026-10-07T18:57:48Z",
-  "updated_at": "2026-11-12T12:25:14Z",
-  "pushed_at": "2026-11-12T12:41:55Z",
+  "updated_at": "2026-11-13T12:08:16Z",
+  "pushed_at": "2026-11-13T12:14:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 35,
+  "age_days": 36,
   "days_since_push": 0,
-  "health_score": 88,
+  "health_score": 89,
   "health_components": {
-    "popularity": 84.0,
+    "popularity": 84.1,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 56.0,
+    "documentation": 59.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1307,
+    "stars_gained": 1182,
     "days_span": 5,
-    "stars_per_day": 261.4,
-    "lifetime_stars_per_day": 454.51,
+    "stars_per_day": 236.4,
+    "lifetime_stars_per_day": 446.44,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tangency-labs/solidcraft",
-    "readme_chars": 10763,
+    "readme_chars": 19466,
     "capabilities": [
       "mcp-support",
       "gui-desktop"
@@ -59,7 +59,7 @@
       "gui-desktop": "lidcraft -- solidcraft-cli mcp."
     },
     "capability_hits": {
-      "mcp-support": 7,
+      "mcp-support": 11,
       "gui-desktop": 10
     },
     "friction": {
@@ -84,7 +84,7 @@
       "note_en": "Turnkey. install via native installer / package; GUI application",
       "note_zh": "开箱即用。可通过 native installer / package 安装；GUI application"
     },
-    "doc_score": 56,
+    "doc_score": 59,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -108,7 +108,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.465
+      "external_link_ratio": 0.308
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -120,11 +120,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:46+00:00",
+  "fetched_at": "2026-11-13T12:14:14+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

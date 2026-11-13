@@ -6,8 +6,8 @@
   "url": "https://github.com/alchaincyf/huashu-art-motion",
   "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
   "homepage": "",
-  "stars": 6795,
-  "forks": 669,
+  "stars": 6853,
+  "forks": 677,
   "open_issues": 9,
   "language": "JavaScript",
   "license": "MIT",
@@ -26,28 +26,28 @@
     "video"
   ],
   "created_at": "2026-10-06T04:49:37Z",
-  "updated_at": "2026-11-12T12:26:07Z",
+  "updated_at": "2026-11-13T12:06:19Z",
   "pushed_at": "2026-11-10T01:40:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 37,
-  "days_since_push": 2,
-  "health_score": 86,
+  "age_days": 38,
+  "days_since_push": 3,
+  "health_score": 76,
   "health_components": {
-    "popularity": 76.6,
-    "momentum": 100.0,
+    "popularity": 76.7,
+    "momentum": 58.2,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 96.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 6795,
-    "days_span": 37,
-    "stars_per_day": 183.65,
-    "lifetime_stars_per_day": 183.65,
-    "basis": "lifetime",
+    "stars_gained": 349,
+    "days_span": 5,
+    "stars_per_day": 69.8,
+    "lifetime_stars_per_day": 180.34,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -126,9 +126,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:55+00:00",
+  "fetched_at": "2026-11-13T12:14:21+00:00",
   "categories": [
-    "desktop-ui",
+    "desktop-ui-2",
     "failover"
   ],
   "primary_category": "failover",

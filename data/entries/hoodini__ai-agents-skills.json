@@ -7,7 +7,7 @@
   "description": "🧠 AI Agent Skills Repository - A curated collection of specialized skills for AI coding agents (Claude Code, GitHub Copilot, Cursor, Windsurf). Created by Yuval Avidani using GitHub Copilot via VS Code Insiders.",
   "homepage": "",
   "stars": 297,
-  "forks": 75,
+  "forks": 76,
   "open_issues": 6,
   "language": "Python",
   "license": "",
@@ -18,21 +18,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 308,
-  "days_since_push": 9,
+  "age_days": 309,
+  "days_since_push": 10,
   "health_score": 51,
   "health_components": {
     "popularity": 49.5,
-    "momentum": 0.7,
+    "momentum": 0.3,
     "maintenance": 92.0,
     "documentation": 58.0,
     "accessibility": 76.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.8,
+    "stars_per_day": 0.4,
     "lifetime_stars_per_day": 0.96,
     "basis": "history",
     "is_fast_riser": false
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:30+00:00",
+  "fetched_at": "2026-11-13T12:15:33+00:00",
   "categories": [
     "analytics-3",
-    "billing",
-    "desktop-ui"
+    "desktop-ui-2",
+    "mcp-security"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

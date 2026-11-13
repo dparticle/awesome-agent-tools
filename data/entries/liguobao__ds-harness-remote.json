@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 2697,
-  "forks": 201,
-  "open_issues": 49,
+  "stars": 2773,
+  "forks": 207,
+  "open_issues": 40,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -16,27 +16,27 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-11-12T12:39:48Z",
-  "pushed_at": "2026-11-12T10:40:18Z",
+  "updated_at": "2026-11-13T11:58:59Z",
+  "pushed_at": "2026-11-13T09:46:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 89,
+  "age_days": 90,
   "days_since_push": 0,
-  "health_score": 79,
+  "health_score": 78,
   "health_components": {
-    "popularity": 68.6,
-    "momentum": 95.5,
+    "popularity": 68.9,
+    "momentum": 89.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 63.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 573,
+    "stars_gained": 534,
     "days_span": 5,
-    "stars_per_day": 114.6,
-    "lifetime_stars_per_day": 30.3,
+    "stars_per_day": 106.8,
+    "lifetime_stars_per_day": 30.81,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -64,7 +64,7 @@
       "security-isolation": "onversation models with the same smooth workflow as local use.",
       "self-hosted": "s at once, and use Bot mode, powered by Fei2411/DS-Bot.",
       "team-collaboration": "Agent keeps its own workspaces and sessions; only session translation for DSH is performed, without writing to Harness storage.",
-      "gui-desktop": "bar Supported Install ds-harness-remote@0.6.4; this computer can also be the Host",
+      "gui-desktop": "bar Supported Install ds-harness-remote@0.6.5; this computer can also be the Host",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
@@ -156,7 +156,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:36+00:00",
+  "fetched_at": "2026-11-13T12:14:52+00:00",
   "categories": [
     "failover",
     "mobile",

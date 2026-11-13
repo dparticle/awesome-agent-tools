@@ -6,9 +6,9 @@
   "url": "https://github.com/Lampese/codex-switcher",
   "description": "A Desktop Application for Managing Multiple OpenAI Codex CLI Accounts",
   "homepage": "",
-  "stars": 926,
+  "stars": 925,
   "forks": 165,
-  "open_issues": 82,
+  "open_issues": 80,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "vibe-coding"
   ],
   "created_at": "2026-01-14T02:44:13Z",
-  "updated_at": "2026-11-11T03:36:54Z",
-  "pushed_at": "2026-11-09T09:43:50Z",
+  "updated_at": "2026-11-13T11:57:21Z",
+  "pushed_at": "2026-11-12T21:13:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 302,
-  "days_since_push": 3,
+  "age_days": 303,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 59.3,
-    "momentum": 1.0,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 34.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 3.07,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 3.05,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,10 +133,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:55+00:00",
+  "fetched_at": "2026-11-13T12:15:06+00:00",
   "categories": [
     "billing",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "billing",
   "lifecycle": {
@@ -160,14 +160,14 @@
         "multi-agent-orchestration",
         "quota-management"
       ],
-      "star_ratio": 38.059,
-      "momentum_ratio": 614.5,
+      "star_ratio": 38.826,
+      "momentum_ratio": 964.5,
       "setup_delta": -25,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "38.06x the stars (35,243 vs 926)",
-        "614.50x the star velocity (737.4/day vs 1.2/day)",
+        "38.83x the stars (35,914 vs 925)",
+        "964.50x the star velocity (771.6/day vs 0.8/day)",
         "no harder to set up (11 vs 36 friction)"
       ],
       "reasons_zh": [],

@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,017 |
-| Star velocity | 95.2/day (history basis, 5d span) |
-| Health score | 82/100 |
-| Documentation | 54/100 |
+| Stars | 9,088 |
+| Star velocity | 92.4/day (history basis, 5d span) |
+| Health score | 81/100 |
+| Documentation | 55/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-08-07 |
-| Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 14,652 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-13 (0 days ago) |
+| Analyzed README | 15,046 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
 
-> l instead, name the profile you use:
+> ll them (this project or everywhere), and which agents you use, then copies the folders and writes the pointer that reloads antislop every session.
 
 ### Agent runtime
 
@@ -53,7 +53,7 @@
 
 ## Documentation quality
 
-Score **54/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -69,10 +69,10 @@ Score **54/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.1 |
-| momentum | 79.3 |
+| popularity | 79.2 |
+| momentum | 77.0 |
 | maintenance | 100.0 |
-| documentation | 54.0 |
+| documentation | 55.0 |
 | accessibility | 100.0 |
 
 ---

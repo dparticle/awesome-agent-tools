@@ -6,9 +6,9 @@
   "url": "https://github.com/zeronsh/zeron",
   "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
   "homepage": "https://zeron.sh",
-  "stars": 3493,
-  "forks": 360,
-  "open_issues": 229,
+  "stars": 3589,
+  "forks": 367,
+  "open_issues": 244,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -24,27 +24,27 @@
     "rust"
   ],
   "created_at": "2026-07-20T15:04:04Z",
-  "updated_at": "2026-11-12T12:07:13Z",
-  "pushed_at": "2026-11-12T09:09:14Z",
+  "updated_at": "2026-11-13T11:54:16Z",
+  "pushed_at": "2026-11-13T12:08:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
+  "age_days": 115,
   "days_since_push": 0,
-  "health_score": 59,
+  "health_score": 60,
   "health_components": {
-    "popularity": 70.9,
-    "momentum": 6.9,
+    "popularity": 71.1,
+    "momentum": 9.7,
     "maintenance": 100.0,
     "documentation": 35.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 206,
-    "days_span": 25,
-    "stars_per_day": 8.24,
-    "lifetime_stars_per_day": 30.64,
+    "stars_gained": 302,
+    "days_span": 26,
+    "stars_per_day": 11.62,
+    "lifetime_stars_per_day": 31.21,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -124,11 +124,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:04+00:00",
+  "fetched_at": "2026-11-13T12:14:28+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui",
+    "model-routing"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "desktop-ui",
   "lifecycle": {
     "state": "active",
     "note_en": "",

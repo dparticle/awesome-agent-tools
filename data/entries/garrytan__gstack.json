@@ -6,19 +6,19 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 141334,
-  "forks": 20866,
-  "open_issues": 107,
+  "stars": 141427,
+  "forks": 20887,
+  "open_issues": 112,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-12T12:37:15Z",
-  "pushed_at": "2026-11-12T12:38:45Z",
+  "updated_at": "2026-11-13T11:17:24Z",
+  "pushed_at": "2026-11-13T00:58:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
+  "age_days": 246,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 776,
+    "stars_gained": 712,
     "days_span": 5,
-    "stars_per_day": 155.2,
-    "lifetime_stars_per_day": 576.87,
+    "stars_per_day": 142.4,
+    "lifetime_stars_per_day": 574.91,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -153,11 +153,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:09+00:00",
+  "fetched_at": "2026-11-13T12:14:32+00:00",
   "categories": [
-    "desktop-ui",
-    "failover",
-    "isolation-teams"
+    "desktop-ui-2",
+    "isolation-teams",
+    "mcp-security"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

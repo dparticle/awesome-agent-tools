@@ -6,7 +6,7 @@
   "url": "https://github.com/solo-agent/solo",
   "description": "Solo Agent — an open-source, local-first workspace where humans and AI coding agents collaborate through channels, tasks, teams, and persistent memory.",
   "homepage": "https://soloagent.team",
-  "stars": 603,
+  "stars": 605,
   "forks": 54,
   "open_issues": 12,
   "language": "Go",
@@ -26,27 +26,27 @@
     "soloagent"
   ],
   "created_at": "2026-06-12T01:13:02Z",
-  "updated_at": "2026-11-12T06:27:28Z",
+  "updated_at": "2026-11-13T03:09:11Z",
   "pushed_at": "2026-09-13T00:56:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 153,
-  "days_since_push": 60,
+  "age_days": 154,
+  "days_since_push": 61,
   "health_score": 45,
   "health_components": {
     "popularity": 55.6,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 78.0,
     "documentation": 48.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 3.94,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 3.93,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:03+00:00",
+  "fetched_at": "2026-11-13T12:15:11+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

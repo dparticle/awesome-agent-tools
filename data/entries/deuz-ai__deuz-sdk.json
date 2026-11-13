@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 163,
-  "days_since_push": 26,
+  "age_days": 164,
+  "days_since_push": 27,
   "health_score": 47,
   "health_components": {
     "popularity": 54.1,
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.12,
+    "lifetime_stars_per_day": 3.1,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,9 +134,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:09+00:00",
+  "fetched_at": "2026-11-13T12:15:16+00:00",
   "categories": [
-    "desktop-ui",
+    "desktop-ui-2",
     "mcp-security"
   ],
   "primary_category": "mcp-security",
@@ -161,14 +161,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 2.315,
-      "momentum_ratio": 80.0,
+      "star_ratio": 2.325,
+      "momentum_ratio": 88.0,
       "setup_delta": -7,
-      "dominance": 0.941,
+      "dominance": 0.942,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.31x the stars (1,176 vs 508)",
-        "80.00x the star velocity (4.0/day vs 0.0/day)",
+        "2.32x the stars (1,181 vs 508)",
+        "88.00x the star velocity (4.4/day vs 0.0/day)",
         "no harder to set up (30 vs 37 friction)"
       ],
       "reasons_zh": [],

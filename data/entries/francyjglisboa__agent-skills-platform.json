@@ -8,7 +8,7 @@
   "homepage": "https://francyjglisboa.github.io/agent-skills-platform/",
   "stars": 2414,
   "forks": 266,
-  "open_issues": 4,
+  "open_issues": 3,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 389,
-  "days_since_push": 57,
+  "age_days": 390,
+  "days_since_push": 58,
   "health_score": 52,
   "health_components": {
     "popularity": 67.7,
@@ -44,7 +44,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 6.21,
+    "lifetime_stars_per_day": 6.19,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,13 +131,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:36+00:00",
+  "fetched_at": "2026-11-13T12:14:52+00:00",
   "categories": [
-    "desktop-ui",
+    "desktop-ui-2",
     "failover",
     "memory-failover"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

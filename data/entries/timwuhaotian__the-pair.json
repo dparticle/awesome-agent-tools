@@ -6,8 +6,8 @@
   "url": "https://github.com/timwuhaotian/the-pair",
   "description": "Open-source AI pair programming desktop app: a read-only Mentor and an Executor agent cross-check each other's code to catch AI mistakes before they land. Bring any model — Claude, GPT, Gemini, Kimi, GLM, Qwen or local Ollama. No agent CLI needed. macOS / Windows / Linux.",
   "homepage": "https://apps.timwuhaotian.dev/apps/the-pair",
-  "stars": 388,
-  "forks": 31,
+  "stars": 389,
+  "forks": 32,
   "open_issues": 2,
   "language": "Rust",
   "license": "Apache-2.0",
@@ -34,12 +34,12 @@
     "vibe-coding"
   ],
   "created_at": "2026-03-22T18:38:00Z",
-  "updated_at": "2026-11-12T02:55:19Z",
-  "pushed_at": "2026-11-12T01:55:15Z",
+  "updated_at": "2026-11-13T09:17:50Z",
+  "pushed_at": "2026-11-12T15:16:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 234,
+  "age_days": 235,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
@@ -51,8 +51,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 388,
-    "days_span": 234,
+    "stars_gained": 389,
+    "days_span": 235,
     "stars_per_day": 1.66,
     "lifetime_stars_per_day": 1.66,
     "basis": "lifetime",
@@ -163,8 +163,8 @@
     "highlights_zh": [
       "自带端点 — 导入其他 Agent 的配置（opencode、codex、claude、kimi、pi、omp、gemini、killi）、手动添加密钥，或用 ChatGPT、Command Code、OpenCode Go、Muse Code 订阅登录",
       "卡顿检测 — 120 秒无输出时警告，600 秒后标记为卡住",
-      "统一的会话控制台 — 任务、计划、结果、审查和实时轮次都在同一条可滚动的信息流里，支持搜索和按角色筛选",
-      "Worktree — 每个任务可以在独立的 git worktree 和 the-pair/… 分支上运行，然后直接在检查器里提交和推送"
+      "Worktree — 每个任务可以在独立的 git worktree 和 the-pair/… 分支上运行，然后直接在检查器里提交和推送",
+      "统一的会话控制台 — 任务、计划、结果、审查和实时轮次都在同一条可滚动的信息流里，支持搜索和按角色筛选"
     ],
     "chinese_readme": "README.zh.md"
   },
@@ -173,10 +173,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:20+00:00",
+  "fetched_at": "2026-11-13T12:15:25+00:00",
   "categories": [
     "analytics",
-    "desktop-ui-2",
+    "desktop-ui",
     "isolation-teams"
   ],
   "primary_category": "isolation-teams",

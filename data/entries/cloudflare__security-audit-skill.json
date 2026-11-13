@@ -6,23 +6,23 @@
   "url": "https://github.com/cloudflare/security-audit-skill",
   "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
   "homepage": "",
-  "stars": 70787,
-  "forks": 4705,
+  "stars": 71523,
+  "forks": 4764,
   "open_issues": 126,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-18T14:08:44Z",
-  "updated_at": "2026-11-12T12:42:37Z",
+  "updated_at": "2026-11-13T12:13:16Z",
   "pushed_at": "2026-09-14T19:29:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
-  "days_since_push": 58,
+  "age_days": 147,
+  "days_since_push": 59,
   "health_score": 83,
   "health_components": {
-    "popularity": 97.0,
+    "popularity": 97.1,
     "momentum": 100.0,
     "maintenance": 78.0,
     "documentation": 35.0,
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 6092,
+    "stars_gained": 5234,
     "days_span": 5,
-    "stars_per_day": 1218.4,
-    "lifetime_stars_per_day": 484.84,
+    "stars_per_day": 1046.8,
+    "lifetime_stars_per_day": 486.55,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -104,8 +104,8 @@
     "highlights": [
       "Coverage-led hunting -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.",
       "Target-neutral reporting -- derive REPORT.md, FINDINGS-DETAIL.md, and NEEDS-VALIDATION.md from the verified records and coverage ledger.",
-      "Independent record verification -- fresh agents verify final source claims.",
-      "Candidate validation -- give every unique candidate to a fresh verifier that tries to disprove it."
+      "Candidate validation -- give every unique candidate to a fresh verifier that tries to disprove it.",
+      "Independent record verification -- fresh agents verify final source claims."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -116,12 +116,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:43+00:00",
+  "fetched_at": "2026-11-13T12:14:11+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "model-routing"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

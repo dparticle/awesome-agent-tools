@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,190 |
-| Star velocity | 60.2/day (history basis, 5d span) |
-| Health score | 74/100 |
+| Stars | 8,223 |
+| Star velocity | 58.4/day (history basis, 5d span) |
+| Health score | 73/100 |
 | Documentation | 55/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-08 |
-| Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 20,161 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-13 (0 days ago) |
+| Analyzed README | 20,169 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -95,7 +95,7 @@ Score **55/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 78.3 |
-| momentum | 50.2 |
+| momentum | 48.7 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 90.0 |

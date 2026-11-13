@@ -6,8 +6,8 @@
   "url": "https://github.com/miuuyy/codex-chatgpt-web",
   "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
   "homepage": "",
-  "stars": 15685,
-  "forks": 1227,
+  "stars": 15716,
+  "forks": 1226,
   "open_issues": 10,
   "language": "TypeScript",
   "license": "MIT",
@@ -24,27 +24,27 @@
     "typescript"
   ],
   "created_at": "2026-07-26T13:04:44Z",
-  "updated_at": "2026-11-12T12:11:42Z",
+  "updated_at": "2026-11-13T12:12:30Z",
   "pushed_at": "2026-11-12T11:37:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 108,
-  "days_since_push": 0,
-  "health_score": 64,
+  "age_days": 109,
+  "days_since_push": 1,
+  "health_score": 65,
   "health_components": {
     "popularity": 83.9,
-    "momentum": 19.7,
+    "momentum": 20.8,
     "maintenance": 100.0,
     "documentation": 45.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 118,
+    "stars_gained": 125,
     "days_span": 5,
-    "stars_per_day": 23.6,
-    "lifetime_stars_per_day": 145.23,
+    "stars_per_day": 25.0,
+    "lifetime_stars_per_day": 144.18,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -124,8 +124,8 @@
     ],
     "summary_zh_native": "在 Codex 原生模型选择器中使用账户可用的 ChatGPT 网页版模型，包括 Pro。消息通过已登录的 ChatGPT 网页会话发送，并受该账户适用的使用限制约束。保留原有的界面、任务、图片和流式输出。",
     "highlights_zh": [
-      "在启动器中打开 MCP。请在将使用 ChatGPT 连接器的同一个 OpenAI 账户中创建 Tunnel",
       "在 Codex Native2 的 权限 中选择 允许所有操作；允许低风险操作 会在命令和",
+      "在启动器中打开 MCP。请在将使用 ChatGPT 连接器的同一个 OpenAI 账户中创建 Tunnel",
       "粘贴 Tunnel ID 和 API 密钥，然后点击 连接 Harness。",
       "运行 验证运行时，确认 Codex Native2 已连接并可用。"
     ],
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:43:47+00:00",
+  "fetched_at": "2026-11-13T12:14:14+00:00",
   "categories": [
     "mcp-security"
   ],

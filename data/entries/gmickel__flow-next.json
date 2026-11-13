@@ -7,8 +7,8 @@
   "description": "Faster than your agent alone. And better. A workflow plugin that takes a bug, idea or ticket to a verified pull request: specs, cross-model review by risk, live QA, receipts in your repo. Claude Code · Codex · Cursor · Droid · Grok Build · OpenCode · Muse Code.",
   "homepage": "https://flow-next.dev",
   "stars": 723,
-  "forks": 63,
-  "open_issues": 7,
+  "forks": 64,
+  "open_issues": 8,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -35,12 +35,12 @@
   ],
   "created_at": "2025-12-26T22:27:07Z",
   "updated_at": "2026-11-11T14:50:09Z",
-  "pushed_at": "2026-11-10T00:24:27Z",
+  "pushed_at": "2026-11-13T11:33:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 320,
-  "days_since_push": 2,
+  "age_days": 321,
+  "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 57.2,
@@ -54,7 +54,7 @@
     "stars_gained": 5,
     "days_span": 5,
     "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.26,
+    "lifetime_stars_per_day": 2.25,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,11 +141,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:00+00:00",
+  "fetched_at": "2026-11-13T12:15:09+00:00",
   "categories": [
-    "sharing-model-routing"
+    "model-routing"
   ],
-  "primary_category": "sharing-model-routing",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -2,7 +2,7 @@
 
 # kitfunso/hippo-memory
 
-> Stop re-teaching your agent.
+> Your corrections, remembered by Claude Code, Codex and Cursor.
 
 [Repository](https://github.com/kitfunso/hippo-memory) · [Back to index](../../README.md) · Category: **None**
 
@@ -22,7 +22,7 @@
 | Language | TypeScript |
 | Created | 2026-03-15 |
 | Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 97,153 chars from `raw:HEAD/README.md` |
+| Analyzed README | 94,074 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -48,7 +48,7 @@
 
 ### Agent runtime
 
-> ries each time they are recalled, Hippo preserves what works, lets mistakes decay, and continuously compounds your agents' intelligence.
+> sion ends, and in the daily 6:15am job for every project.
 
 ### MCP support
 

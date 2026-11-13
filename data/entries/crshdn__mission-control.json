@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 284,
-  "days_since_push": 56,
+  "age_days": 285,
+  "days_since_push": 57,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
@@ -37,7 +37,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 7.61,
+    "lifetime_stars_per_day": 7.58,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,11 +149,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:38+00:00",
+  "fetched_at": "2026-11-13T12:14:53+00:00",
   "categories": [
     "analytics",
-    "analytics-3",
-    "isolation-teams"
+    "isolation-teams",
+    "mcp-security"
   ],
   "primary_category": "analytics",
   "lifecycle": {

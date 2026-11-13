@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 276,
-  "days_since_push": 10,
+  "age_days": 277,
+  "days_since_push": 11,
   "health_score": 49,
   "health_components": {
     "popularity": 53.8,
@@ -54,7 +54,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.77,
+    "lifetime_stars_per_day": 1.76,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -135,16 +135,70 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:11+00:00",
+  "fetched_at": "2026-11-13T12:15:17+00:00",
   "categories": [
     "memory-failover"
   ],
   "primary_category": "memory-failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by kitfunso/hippo-memory: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 kitfunso/hippo-memory 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "kitfunso/hippo-memory",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "josstei/maestro-orchestrate",
+      "challenger": "kitfunso/hippo-memory",
+      "incumbent_name": "josstei/maestro-orchestrate",
+      "challenger_name": "kitfunso/hippo-memory",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "session-persistence"
+      ],
+      "star_ratio": 1.623,
+      "momentum_ratio": 1.0,
+      "setup_delta": 4,
+      "dominance": 0.64,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "1.62x the stars (792 vs 488)",
+        "1.00x the star velocity (0.4/day vs 0.4/day)",
+        "slightly heavier setup (+4 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "session-persistence"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 49,
+        "challenger_health": 55,
+        "incumbent_setup_score": 51,
+        "challenger_setup_score": 55
+      }
+    }
   }
 }

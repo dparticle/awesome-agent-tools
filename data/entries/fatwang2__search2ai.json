@@ -33,22 +33,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1060,
-  "days_since_push": 1,
+  "age_days": 1061,
+  "days_since_push": 2,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.22,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 1.21,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,11 +146,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:48+00:00",
+  "fetched_at": "2026-11-13T12:15:00+00:00",
   "categories": [
-    "mcp-security",
-    "sharing",
-    "sharing-model-routing"
+    "analytics-3",
+    "sharing"
   ],
   "primary_category": "sharing",
   "lifecycle": {
@@ -175,14 +174,14 @@
         "parallel-execution",
         "self-hosted"
       ],
-      "star_ratio": 9.302,
-      "momentum_ratio": 77.0,
+      "star_ratio": 9.33,
+      "momentum_ratio": 121.0,
       "setup_delta": -41,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "9.30x the stars (11,981 vs 1,288)",
-        "77.00x the star velocity (46.2/day vs 0.6/day)",
+        "9.33x the stars (12,017 vs 1,288)",
+        "121.00x the star velocity (48.4/day vs 0.4/day)",
         "no harder to set up (32 vs 73 friction)"
       ],
       "reasons_zh": [],

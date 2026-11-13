@@ -6,9 +6,9 @@
   "url": "https://github.com/Gentleman-Programming/gentle-shell",
   "description": "Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel coding agents, live tasks, Git diffs, persistent memory, and permission controls into one terminal interface. Powered by Gentle AI and Organic Driven Development (ODD).",
   "homepage": "https://gentle-ai.gentlemanprogramming.com/",
-  "stars": 2296,
-  "forks": 271,
-  "open_issues": 504,
+  "stars": 2503,
+  "forks": 279,
+  "open_issues": 517,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "tdd"
   ],
   "created_at": "2026-05-10T10:11:33Z",
-  "updated_at": "2026-11-12T12:23:21Z",
-  "pushed_at": "2026-11-12T05:41:19Z",
+  "updated_at": "2026-11-13T12:03:29Z",
+  "pushed_at": "2026-11-13T10:50:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 186,
+  "age_days": 187,
   "days_since_push": 0,
-  "health_score": 71,
+  "health_score": 77,
   "health_components": {
-    "popularity": 67.2,
-    "momentum": 55.2,
+    "popularity": 68.0,
+    "momentum": 78.7,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 78.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 331,
+    "stars_gained": 472,
     "days_span": 5,
-    "stars_per_day": 66.2,
-    "lifetime_stars_per_day": 12.34,
+    "stars_per_day": 94.4,
+    "lifetime_stars_per_day": 13.39,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -177,9 +177,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:44:37+00:00",
+  "fetched_at": "2026-11-13T12:14:52+00:00",
   "categories": [
-    "desktop-ui",
+    "desktop-ui-2",
     "failover",
     "isolation-teams"
   ],

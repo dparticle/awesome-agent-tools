@@ -7,7 +7,7 @@
   "description": "Remote control for your pi coding agent. Pi-Remote mirrors live pi terminal sessions to any browser, so you can watch runs, answer prompts, and send commands from your phone — end-to-end encrypted over a self-hosted relay.",
   "homepage": "",
   "stars": 328,
-  "forks": 10,
+  "forks": 11,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
@@ -33,22 +33,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 15,
+  "age_days": 16,
   "days_since_push": 3,
   "health_score": 53,
   "health_components": {
     "popularity": 50.3,
-    "momentum": 3.0,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 3.6,
-    "lifetime_stars_per_day": 21.87,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 20.5,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,12 +150,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-12T12:45:23+00:00",
+  "fetched_at": "2026-11-13T12:15:27+00:00",
   "categories": [
-    "desktop-ui-2",
-    "sharing-model-routing"
+    "desktop-ui",
+    "model-routing"
   ],
-  "primary_category": "sharing-model-routing",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",
