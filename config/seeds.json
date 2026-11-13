@@ -12,6 +12,7 @@
     { "repo": "anomalyco/opencode", "category": "agent-runtimes", "why": "Open-source terminal agent with broad provider support." },
     { "repo": "anthropics/claude-code", "category": "agent-runtimes", "why": "The reference agentic coding tool." },
     { "repo": "openai/codex", "category": "agent-runtimes", "why": "OpenAI's local coding agent." },
-    { "repo": "google-gemini/gemini-cli", "category": "agent-runtimes", "why": "Gemini's terminal agent, generous free tier." }
+    { "repo": "google-gemini/gemini-cli", "category": "agent-runtimes", "why": "Gemini's terminal agent, generous free tier." },
+    { "repo": "Orkas-AI/Orkas", "category": "orchestration", "why": "Desktop workspace that coordinates specialist agents and coding tools around project tasks." }
   ]
 }
