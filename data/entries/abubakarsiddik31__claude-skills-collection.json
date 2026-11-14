@@ -6,33 +6,33 @@
   "url": "https://github.com/abubakarsiddik31/claude-skills-collection",
   "description": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
   "homepage": "",
-  "stars": 1122,
+  "stars": 1125,
   "forks": 216,
-  "open_issues": 33,
+  "open_issues": 32,
   "language": "",
   "license": "",
   "topics": [],
   "created_at": "2025-10-18T16:24:12Z",
-  "updated_at": "2026-11-10T09:16:37Z",
+  "updated_at": "2026-11-14T05:35:42Z",
   "pushed_at": "2026-11-07T15:28:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 390,
-  "days_since_push": 5,
+  "age_days": 391,
+  "days_since_push": 6,
   "health_score": 55,
   "health_components": {
     "popularity": 61.0,
-    "momentum": 0.5,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 1.2,
     "lifetime_stars_per_day": 2.88,
     "basis": "history",
     "is_fast_riser": false
@@ -158,11 +158,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:02+00:00",
+  "fetched_at": "2026-11-14T11:31:23+00:00",
   "categories": [
+    "billing-2",
     "desktop-ui",
-    "desktop-ui-2",
-    "isolation-teams"
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {

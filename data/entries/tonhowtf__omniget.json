@@ -4,10 +4,10 @@
   "name": "omniget",
   "owner": "tonhowtf",
   "url": "https://github.com/tonhowtf/omniget",
-  "description": "Free, open source video downloader for Windows, macOS and Linux that AI agents can drive. Downloads from YouTube, Instagram, TikTok, X, Reddit, torrents and the sites yt-dlp supports. Its MCP server lets Claude Code, Cursor and Codex queue downloads, and it runs Claude Code, Codex, Gemini CLI and Ollama as agents.",
+  "description": "A local MCP server that gives your coding agent a desktop toolbox: downloads from YouTube, torrents and every site yt-dlp supports, media conversion, files, chats and system cleanup. One line connects Claude Code, Codex, Cursor or Gemini CLI, and sensitive actions wait for your click. Free and open source for Windows, macOS and Linux.",
   "homepage": "https://getomniget.com/",
-  "stars": 14393,
-  "forks": 1245,
+  "stars": 14423,
+  "forks": 1244,
   "open_issues": 4,
   "language": "Rust",
   "license": "GPL-3.0",
@@ -34,81 +34,68 @@
     "yt-dlp-gui"
   ],
   "created_at": "2026-02-11T22:44:56Z",
-  "updated_at": "2026-11-13T11:09:02Z",
-  "pushed_at": "2026-09-27T03:44:29Z",
+  "updated_at": "2026-11-14T11:05:11Z",
+  "pushed_at": "2026-11-13T20:37:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 274,
-  "days_since_push": 47,
-  "health_score": 69,
+  "age_days": 275,
+  "days_since_push": 0,
+  "health_score": 71,
   "health_components": {
     "popularity": 83.2,
-    "momentum": 43.8,
-    "maintenance": 78.0,
-    "documentation": 62.0,
-    "accessibility": 80.0
+    "momentum": 43.7,
+    "maintenance": 100.0,
+    "documentation": 44.0,
+    "accessibility": 85.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 14393,
-    "days_span": 274,
-    "stars_per_day": 52.53,
-    "lifetime_stars_per_day": 52.53,
+    "stars_gained": 14423,
+    "days_span": 275,
+    "stars_per_day": 52.45,
+    "lifetime_stars_per_day": 52.45,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tonhowtf/omniget",
-    "readme_chars": 36547,
+    "readme_chars": 15233,
     "capabilities": [
-      "quota-management",
-      "auto-failover",
       "agent-runtime",
       "mcp-support",
-      "security-isolation",
       "gui-desktop",
-      "notifications",
+      "voice-input",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "quota-management": "el, and its permission requests show up in OmniGet.",
-      "auto-failover": "opy the Pairing token from OmniGet and paste it there.",
       "agent-runtime": "",
-      "mcp-support": "Or ask Claude to do it for you.",
-      "security-isolation": "the terminal: omniget-cli",
-      "gui-desktop": "Every build is on the Releases page.",
-      "notifications": "k exits 0 or the rounds or minutes run out.",
-      "cross-agent-support": "Mentions Aider, Claude Code, Cline, Codex"
+      "mcp-support": "ck as structured data, long ones are cut to a limit and saved to a file, and every error says what to do next.",
+      "gui-desktop": "ugin that fetches and transcribes media from a link, with or without the desktop app.",
+      "voice-input": "sits in your menu bar or tray.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
     },
     "capability_hits": {
-      "quota-management": 2,
-      "auto-failover": 1,
       "agent-runtime": 1,
-      "mcp-support": 11,
-      "security-isolation": 3,
-      "gui-desktop": 15,
-      "notifications": 1,
-      "cross-agent-support": 8
+      "mcp-support": 7,
+      "gui-desktop": 2,
+      "voice-input": 1,
+      "cross-agent-support": 5
     },
     "friction": {
       "level": "low",
-      "score": 20,
+      "score": 23,
       "out_of_the_box": false,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [
-        "Homebrew install",
-        "winget install",
         "native installer / package"
       ],
       "hard_signals": [
-        "git clone (build from source)",
         "pnpm install/build"
       ],
       "config_signals": [
-        "sign-in required",
-        "database dependency",
-        "server/reverse-proxy setup"
+        "config.json/yaml/toml",
+        "sign-in required"
       ],
       "friendliness_signals": [
         "one-click setup",
@@ -120,34 +107,27 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via Homebrew install, winget install; needs git clone (build from source), pnpm install/build; configure sign-in required, database dependency; one-click setup",
-      "note_zh": "较易上手。可通过 Homebrew install、winget install 安装；需要 git clone (build from source)、pnpm install/build；需配置 sign-in required、database dependency；one-click setup"
+      "note_en": "Easy. install via native installer / package; needs pnpm install/build; configure config.json/yaml/toml, sign-in required; one-click setup",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 pnpm install/build；需配置 config.json/yaml/toml、sign-in required；one-click setup"
     },
-    "doc_score": 62,
+    "doc_score": 44,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
       "documents installation",
       "documents configuration",
-      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
-      "has a Chinese translation",
-      "documents changes",
-      "reports benchmarks",
-      "long, detailed README"
+      "has a Chinese translation"
     ],
     "agents": [
       "Claude Code",
       "Codex",
       "Gemini CLI",
       "OpenCode",
-      "Cursor",
-      "Aider",
-      "Cline / Roo",
-      "Goose"
+      "Cursor"
     ],
-    "summary_en": "OmniGet is a free, open source (GPL-3.0) desktop app for Windows, macOS and Linux.",
+    "summary_en": "· Português (Brasil)",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -155,35 +135,98 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.094
+      "external_link_ratio": 1.444
     },
     "highlights": [
-      "The server is off until you turn it on, and it only listens on 127.0.0.1.",
-      "OmniGet is an Agent Client Protocol client.",
-      "AI agents in a window: a desktop app for Claude Code, Codex and Gemini CLI",
-      "Claude Code and Codex accounts plug in with the login your terminal already has, and their quota shows on screen."
+      "Local only. The server listens on 127.0.0.1 and refuses requests from web pages.",
+      "Port in use: OmniGet tries 47720 to 47729; the settings page shows the one in use.",
+      "UNAUTHORIZED or 401: the token is missing or was revoked.",
+      "A token per tool. Each connection has its own token and only the permissions you tick. Revoke one without touching the others."
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "· Português (Brasil)",
+    "highlights_zh": [
+      "只在本地。 服务器监听 127.0.0.1，拒绝来自网页的请求。",
+      "机密留在原地。 Cookie、令牌和密钥绝不会返回给智能体。",
+      "每个工具一个令牌。 每个连接都有自己的令牌，只拥有你勾选的权限。撤销其中一个，不影响其他连接。",
+      "没有账号，也不收集你下载了什么。OmniGet 只在这些情况下联网：访问你要的网站、检查更新、连接你配置的模型提供商。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:44+00:00",
+  "fetched_at": "2026-11-14T11:30:56+00:00",
   "categories": [
-    "billing",
     "desktop-ui",
-    "mcp-security"
+    "mobile"
   ],
-  "primary_category": "billing",
+  "primary_category": "mobile",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "msitarzewski/agency-agents",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "tonhowtf/omniget",
+      "challenger": "msitarzewski/agency-agents",
+      "incumbent_name": "tonhowtf/omniget",
+      "challenger_name": "msitarzewski/agency-agents",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "voice-input"
+      ],
+      "star_ratio": 11.663,
+      "momentum_ratio": 3.035,
+      "setup_delta": -22,
+      "dominance": 0.938,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "11.66x the stars (168,221 vs 14,423)",
+        "3.04x the star velocity (159.2/day vs 52.5/day)",
+        "no harder to set up (1 vs 23 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "voice-input"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "security-isolation",
+          "team-collaboration",
+          "voice-input"
+        ],
+        "incumbent_health": 71,
+        "challenger_health": 98,
+        "incumbent_setup_score": 23,
+        "challenger_setup_score": 1
+      }
+    }
   }
 }

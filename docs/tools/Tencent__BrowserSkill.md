@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,373 |
-| Star velocity | 40.0/day (history basis, 5d span) |
-| Health score | 68/100 |
-| Documentation | 60/100 |
+| Stars | 10,396 |
+| Star velocity | 34.6/day (history basis, 5d span) |
+| Health score | 67/100 |
+| Documentation | 55/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-22 |
-| Last push | 2026-11-13 (0 days ago) |
-| Analyzed README | 38,140 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 36,295 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [farion1231/cc-switch](https://github.com/farion1231/cc-switch)** — Superseded by farion1231/cc-switch: covers 100% of capabilities (5/5).
 
@@ -36,7 +36,7 @@
 
 ### MCP support
 
-> skipped unless you explicitly replace them with --force.
+> k Harness are also supported as skill targets (bsk install-skill --harness qoder, --harness qoder-cn, and --harness dsh).
 
 ### GUI / desktop app
 
@@ -48,7 +48,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 34/100)
+- **Difficulty:** 🟢 Easy (friction score 28/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh`
@@ -57,19 +57,18 @@
 
 **Signals that add work:** pnpm install/build, cargo build
 
-**Configuration required:** sign-in required, database migration, process manager
+**Configuration required:** sign-in required, process manager
 
-*Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, cargo build; configure sign-in required, database migration*
+*Easy. install via curl | sh installer, PowerShell irm | iex installer; needs pnpm install/build, cargo build; configure sign-in required, process manager*
 
 ## Documentation quality
 
-Score **60/100**, based on these detected signals:
+Score **55/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - has a quick-start section
 - documents installation
-- documents configuration
 - has contribution guidance
 - mentions licensing
 - documents changes
@@ -81,10 +80,10 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.3 |
-| momentum | 33.3 |
+| momentum | 28.8 |
 | maintenance | 100.0 |
-| documentation | 60.0 |
-| accessibility | 66.0 |
+| documentation | 55.0 |
+| accessibility | 72.0 |
 
 ---
 

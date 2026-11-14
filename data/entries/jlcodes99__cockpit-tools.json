@@ -6,9 +6,9 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "stars": 19955,
-  "forks": 1803,
-  "open_issues": 635,
+  "stars": 19972,
+  "forks": 1805,
+  "open_issues": 528,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -23,33 +23,33 @@
     "windsurf"
   ],
   "created_at": "2026-01-16T07:09:32Z",
-  "updated_at": "2026-11-13T10:04:04Z",
-  "pushed_at": "2026-11-12T16:16:04Z",
+  "updated_at": "2026-11-14T10:51:24Z",
+  "pushed_at": "2026-11-14T06:26:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 301,
+  "age_days": 302,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
     "popularity": 86.0,
-    "momentum": 23.5,
+    "momentum": 21.7,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 141,
+    "stars_gained": 130,
     "days_span": 5,
-    "stars_per_day": 28.2,
-    "lifetime_stars_per_day": 66.3,
+    "stars_per_day": 26.0,
+    "lifetime_stars_per_day": 66.13,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "jlcodes99/cockpit-tools",
-    "readme_chars": 19175,
+    "readme_chars": 19197,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -156,7 +156,7 @@
       "Cursor",
       "Copilot"
     ],
-    "summary_en": "English · Portuguese (BR) · 简体中文",
+    "summary_en": "English · Portuguese (BR) · 한국어 · 简体中文",
     "summary_zh": "",
     "install_hint": "brew tap jlcodes99/cockpit-tools https://github.com/jlcodes99/cockpit-tools",
     "source": "raw:HEAD/README.md",
@@ -166,7 +166,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.73
+      "external_link_ratio": 0.729
     },
     "highlights": [
       "Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth、Grok apply_patch 协议兼容，以及账号池错误分类与状态恢复边界参考其开源…",
@@ -183,10 +183,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:43+00:00",
+  "fetched_at": "2026-11-14T11:30:55+00:00",
   "categories": [
     "billing",
-    "isolation-teams",
+    "failover",
     "mcp-security"
   ],
   "primary_category": "billing",

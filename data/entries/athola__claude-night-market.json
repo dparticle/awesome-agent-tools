@@ -8,7 +8,7 @@
   "homepage": "https://athola.github.io/claude-night-market",
   "stars": 350,
   "forks": 41,
-  "open_issues": 28,
+  "open_issues": 20,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -35,18 +35,18 @@
   ],
   "created_at": "2025-11-23T06:45:40Z",
   "updated_at": "2026-11-10T02:46:03Z",
-  "pushed_at": "2026-11-12T20:51:59Z",
+  "pushed_at": "2026-11-13T18:14:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 355,
+  "age_days": 356,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 50.9,
     "momentum": 0.3,
     "maintenance": 100.0,
-    "documentation": 64.0,
+    "documentation": 65.0,
     "accessibility": 58.0
   },
   "tier": "notable",
@@ -54,27 +54,30 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 0.99,
+    "lifetime_stars_per_day": 0.98,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "athola/claude-night-market",
-    "readme_chars": 9536,
+    "readme_chars": 10295,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
-      "notifications"
+      "notifications",
+      "cross-agent-support"
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "",
       "skills-plugins": "",
-      "notifications": "n optimization), conjure (delegation to seven external"
+      "notifications": "n optimization), conjure (delegation to seven external",
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
       "multi-agent-orchestration": 2,
       "skills-plugins": 1,
-      "notifications": 1
+      "notifications": 1,
+      "cross-agent-support": 3
     },
     "friction": {
       "level": "moderate",
@@ -96,7 +99,7 @@
       "note_en": "Some setup. configure config.json/yaml/toml, server/reverse-proxy setup",
       "note_zh": "需要一些配置。需配置 config.json/yaml/toml、server/reverse-proxy setup"
     },
-    "doc_score": 64,
+    "doc_score": 65,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -111,7 +114,9 @@
       "explains architecture"
     ],
     "agents": [
-      "Claude Code"
+      "Claude Code",
+      "Codex",
+      "OpenCode"
     ],
     "summary_en": "A plugin marketplace for Claude Code.",
     "summary_zh": "",
@@ -121,10 +126,11 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.629
+      "external_link_ratio": 0.583
     },
     "highlights": [
       "Destructive-command blockers (conserve, hookify)",
+      "Delegation (conjure, also reached by attune missions and",
       "External-content sanitizing (leyline) strips invisible"
     ],
     "summary_zh_native": "",
@@ -136,16 +142,69 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:26+00:00",
+  "fetched_at": "2026-11-14T11:31:57+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "notifications"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "notifications",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 garrytan/gstack 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "garrytan/gstack",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "athola/claude-night-market",
+      "challenger": "garrytan/gstack",
+      "incumbent_name": "athola/claude-night-market",
+      "challenger_name": "garrytan/gstack",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "multi-agent-orchestration",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 404.289,
+      "momentum_ratio": 308.5,
+      "setup_delta": -3,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "404.29x the stars (141,501 vs 350)",
+        "308.50x the star velocity (123.4/day vs 0.4/day)",
+        "no harder to set up (39 vs 42 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 91,
+        "incumbent_setup_score": 42,
+        "challenger_setup_score": 39
+      }
+    }
   }
 }

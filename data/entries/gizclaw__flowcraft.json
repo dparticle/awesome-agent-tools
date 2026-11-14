@@ -8,7 +8,7 @@
   "homepage": "https://gizclaw.github.io/flowcraft/",
   "stars": 411,
   "forks": 12,
-  "open_issues": 5,
+  "open_issues": 6,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -30,18 +30,18 @@
   ],
   "created_at": "2026-04-14T07:49:44Z",
   "updated_at": "2026-11-09T19:57:54Z",
-  "pushed_at": "2026-11-13T10:05:17Z",
+  "pushed_at": "2026-11-14T11:25:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 213,
+  "age_days": 214,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 53,
   "health_components": {
     "popularity": 52.3,
     "momentum": 0.2,
     "maintenance": 100.0,
-    "documentation": 69.0,
+    "documentation": 62.0,
     "accessibility": 72.0
   },
   "tier": "notable",
@@ -49,27 +49,33 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.93,
+    "lifetime_stars_per_day": 1.92,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "GizClaw/flowcraft",
-    "readme_chars": 21853,
+    "readme_chars": 15730,
     "capabilities": [
+      "worktree-isolation",
       "memory-context",
       "skills-plugins",
-      "mcp-support"
+      "mcp-support",
+      "cross-agent-support"
     ],
     "capability_evidence": {
-      "memory-context": "ssembly: craft.yaml, capabilities, plugin host, host primitives, manager Versioned Go module",
-      "skills-plugins": "et, the plugin manifest and permissions, the",
-      "mcp-support": "rkspace, sandbox, deployment/resource assembly, runtime, sessions, and"
+      "worktree-isolation": "",
+      "memory-context": "s core, driver and examples/forge.",
+      "skills-plugins": "",
+      "mcp-support": "re/agent-graph: the frontier loop,",
+      "cross-agent-support": "Mentions Codex, Cursor"
     },
     "capability_hits": {
-      "memory-context": 2,
+      "worktree-isolation": 1,
+      "memory-context": 1,
       "skills-plugins": 1,
-      "mcp-support": 7
+      "mcp-support": 1,
+      "cross-agent-support": 2
     },
     "friction": {
       "level": "low",
@@ -88,11 +94,15 @@
         "database migration"
       ],
       "friendliness_signals": [],
-      "platforms": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
       "note_en": "Easy. install via npx one-liner, native installer / package; needs git clone (build from source); configure database dependency, database migration",
       "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)；需配置 database dependency、database migration"
     },
-    "doc_score": 69,
+    "doc_score": 62,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -100,18 +110,16 @@
       "has a quick-start section",
       "documents installation",
       "documents configuration",
-      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
       "documents changes",
-      "explains architecture",
-      "long, detailed README"
+      "explains architecture"
     ],
     "agents": [
       "Codex",
-      "Droid"
+      "Cursor"
     ],
-    "summary_en": "A modular Go toolkit for extensible AI applications, long-term memory, provider backends, and local interactive workflows.",
+    "summary_en": "A Go platform for building AI agents: model calls, tools, sandboxed execution, and declarative graphs — assembled from YAML and owned by your process.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -121,13 +129,9 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.32
+      "external_link_ratio": 0.381
     },
-    "highlights": [
-      "Delegation — core/delegation: backend-neutral",
-      "MCP on both sides: each plugin process is an MCP server whose tools reach",
-      "Subject-routed event bus — every step emits structured envelopes."
-    ],
+    "highlights": [],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -137,16 +141,70 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:24+00:00",
+  "fetched_at": "2026-11-14T11:31:54+00:00",
   "categories": [
-    "memory-failover"
+    "desktop-ui-2",
+    "isolation-teams"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "isolation-teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 pedrohcgs/claude-code-my-workflow 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "pedrohcgs/claude-code-my-workflow",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "gizclaw/flowcraft",
+      "challenger": "pedrohcgs/claude-code-my-workflow",
+      "incumbent_name": "GizClaw/flowcraft",
+      "challenger_name": "pedrohcgs/claude-code-my-workflow",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "memory-context",
+        "skills-plugins",
+        "worktree-isolation"
+      ],
+      "star_ratio": 4.156,
+      "momentum_ratio": 22.0,
+      "setup_delta": -20,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "4.16x the stars (1,708 vs 411)",
+        "22.00x the star velocity (4.4/day vs 0.2/day)",
+        "no harder to set up (8 vs 28 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 62,
+        "incumbent_setup_score": 28,
+        "challenger_setup_score": 8
+      }
+    }
   }
 }

@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "open.bot",
-  "stars": 11980,
-  "forks": 1465,
-  "open_issues": 99,
+  "stars": 12182,
+  "forks": 1500,
+  "open_issues": 98,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-13T12:01:39Z",
-  "pushed_at": "2026-11-13T07:07:38Z",
+  "updated_at": "2026-11-14T11:24:15Z",
+  "pushed_at": "2026-11-14T10:54:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 88,
+  "age_days": 89,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 81.6,
+    "popularity": 81.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 78.0,
-    "accessibility": 42.0
+    "accessibility": 36.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1548,
+    "stars_gained": 1652,
     "days_span": 5,
-    "stars_per_day": 309.6,
-    "lifetime_stars_per_day": 136.14,
+    "stars_per_day": 330.4,
+    "lifetime_stars_per_day": 136.88,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 46440,
+    "readme_chars": 46751,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -82,8 +82,8 @@
       "notifications": 1
     },
     "friction": {
-      "level": "moderate",
-      "score": 58,
+      "level": "high",
+      "score": 64,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -96,6 +96,7 @@
         "git clone (build from source)"
       ],
       "config_signals": [
+        ".env file",
         "sign-in required",
         "database dependency",
         "server/reverse-proxy setup",
@@ -110,8 +111,8 @@
         "Android",
         "Web"
       ],
-      "note_en": "Some setup. install via npx one-liner, native installer / package; needs docker run, helm install; configure sign-in required, database dependency",
-      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 docker run、helm install；需配置 sign-in required、database dependency"
+      "note_en": "Involved setup. install via npx one-liner, native installer / package; needs docker run, helm install; configure .env file, sign-in required",
+      "note_zh": "配置较重。可通过 npx one-liner、native installer / package 安装；需要 docker run、helm install；需配置 .env file、sign-in required"
     },
     "doc_score": 78,
     "doc_signals": [
@@ -140,7 +141,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.861
+      "external_link_ratio": 0.856
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -157,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:16+00:00",
+  "fetched_at": "2026-11-14T11:30:17+00:00",
   "categories": [
     "failover",
     "mcp-security",
@@ -190,15 +191,15 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 25.228,
-      "momentum_ratio": 1.828,
-      "setup_delta": -1,
-      "dominance": 0.875,
+      "star_ratio": 24.843,
+      "momentum_ratio": 1.631,
+      "setup_delta": -7,
+      "dominance": 0.861,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "25.23x the stars (302,226 vs 11,980)",
-        "1.83x the star velocity (565.8/day vs 309.6/day)",
-        "no harder to set up (57 vs 58 friction)"
+        "24.84x the stars (302,635 vs 12,182)",
+        "1.63x the star velocity (538.8/day vs 330.4/day)",
+        "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -233,7 +234,7 @@
         ],
         "incumbent_health": 84,
         "challenger_health": 89,
-        "incumbent_setup_score": 58,
+        "incumbent_setup_score": 64,
         "challenger_setup_score": 57
       }
     }

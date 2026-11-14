@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,640 |
-| Star velocity | 23.2/day (history basis, 5d span) |
-| Health score | 57/100 |
+| Stars | 1,649 |
+| Star velocity | 19.4/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-11-13 (0 days ago) |
+| Last push | 2026-11-14 (0 days ago) |
 | Analyzed README | 24,260 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** — Superseded by HKUDS/DeepTutor: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -75,7 +75,7 @@ Score **66/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 64.3 |
-| momentum | 19.3 |
+| momentum | 16.2 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
 | accessibility | 31.0 |

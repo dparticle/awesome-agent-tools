@@ -4,13 +4,13 @@
   "name": "0",
   "owner": "0sec-labs",
   "url": "https://github.com/0sec-labs/0",
-  "description": "The open-source AI security harness. Includes a web interface for code analysis, pentesting, vulnerability research, reverse engineering, verification, and fixing + CLI and MCP for agents.",
+  "description": "The open-source cybersecurity harness. Includes a web interface for code analysis, pentesting, vulnerability research, reverse engineering, verification, and fixing + CLI and MCP for agents.",
   "homepage": "https://0.security",
-  "stars": 1336,
-  "forks": 176,
-  "open_issues": 6,
+  "stars": 1348,
+  "forks": 177,
+  "open_issues": 13,
   "language": "TypeScript",
-  "license": "NOASSERTION",
+  "license": "Apache-2.0",
   "topics": [
     "ai-agents",
     "application-security",
@@ -26,60 +26,68 @@
     "vulnerability-scanner"
   ],
   "created_at": "2026-08-19T07:54:37Z",
-  "updated_at": "2026-11-13T10:36:51Z",
-  "pushed_at": "2026-11-10T16:51:56Z",
+  "updated_at": "2026-11-14T10:42:27Z",
+  "pushed_at": "2026-11-14T07:09:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 86,
-  "days_since_push": 2,
-  "health_score": 79,
+  "age_days": 87,
+  "days_since_push": 0,
+  "health_score": 69,
   "health_components": {
-    "popularity": 62.5,
-    "momentum": 100.0,
+    "popularity": 62.6,
+    "momentum": 67.3,
     "maintenance": 100.0,
-    "documentation": 41.0,
-    "accessibility": 87.0
+    "documentation": 52.0,
+    "accessibility": 60.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 732,
+    "stars_gained": 404,
     "days_span": 5,
-    "stars_per_day": 146.4,
-    "lifetime_stars_per_day": 15.53,
+    "stars_per_day": 80.8,
+    "lifetime_stars_per_day": 15.49,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "0sec-labs/0",
-    "readme_chars": 9231,
+    "readme_chars": 7868,
     "capabilities": [
+      "model-routing",
       "agent-runtime",
       "mcp-support",
       "gui-desktop"
     ],
     "capability_evidence": {
-      "agent-runtime": "The open-source AI security harness",
-      "mcp-support": "source AI security harness",
+      "model-routing": "",
+      "agent-runtime": "",
+      "mcp-support": "r local binary analysis, run pnpm setup:0verse once.",
       "gui-desktop": ""
     },
     "capability_hits": {
-      "agent-runtime": 2,
-      "mcp-support": 8,
+      "model-routing": 1,
+      "agent-runtime": 1,
+      "mcp-support": 4,
       "gui-desktop": 1
     },
     "friction": {
-      "level": "low",
-      "score": 25,
-      "out_of_the_box": true,
+      "level": "moderate",
+      "score": 40,
+      "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
-        "curl | sh installer"
+        "curl | sh installer",
+        "native installer / package"
       ],
       "hard_signals": [
+        "docker run",
+        "git clone (build from source)",
         "pnpm install/build"
       ],
-      "config_signals": [],
+      "config_signals": [
+        "database dependency"
+      ],
       "friendliness_signals": [],
       "platforms": [
         "macOS",
@@ -87,21 +95,23 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via curl | sh installer; needs pnpm install/build",
-      "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 pnpm install/build"
+      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs docker run, git clone (build from source); configure database dependency",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 docker run、git clone (build from source)；需配置 database dependency"
     },
-    "doc_score": 41,
+    "doc_score": 52,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
+      "has a quick-start section",
       "documents installation",
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
-      "links to dedicated docs"
+      "links to dedicated docs",
+      "explains architecture"
     ],
     "agents": [],
-    "summary_en": "Investigate vulnerabilities, review findings, and work on fixes in your browser.",
+    "summary_en": "0security automates vulnerability discovery, fixing and verification workflows.",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://raw.githubusercontent.com/0sec-labs/0/main/install.sh | bash",
     "source": "raw:HEAD/README.md",
@@ -109,7 +119,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.842
+      "external_link_ratio": 2.161
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -121,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:58+00:00",
+  "fetched_at": "2026-11-14T11:31:18+00:00",
   "categories": [
     "desktop-ui",
     "mcp-security",

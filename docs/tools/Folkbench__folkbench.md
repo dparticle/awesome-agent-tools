@@ -2,7 +2,7 @@
 
 # Folkbench/folkbench
 
-> 中转站实测评测，与 Folkbench Switch。
+> 查看榜单 · 降智监控 · 下载 Switch
 
 [Repository](https://github.com/Folkbench/folkbench) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,765 |
-| Star velocity | 0.8/day (history basis, 5d span) |
+| Stars | 3,766 |
+| Star velocity | 1.0/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 36/100 |
 | Tier | 🔹 Notable |
@@ -21,16 +21,16 @@
 | License | NOASSERTION |
 | Language | Rust |
 | Created | 2026-10-02 |
-| Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 5,181 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 5,352 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Model / provider routing
 
-> 本地用量估算：按会话统计 Token 消耗量，并根据公开参考单价提供调用成本估算。
-
 ### GUI / desktop app
+
+> Switch 是基于 Tauri + Rust 的开源桌面客户端。
 
 ### Cross-agent support
 
@@ -63,7 +63,7 @@ Score **36/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 71.5 |
-| momentum | 0.7 |
+| momentum | 0.8 |
 | maintenance | 100.0 |
 | documentation | 36.0 |
 | accessibility | 67.0 |

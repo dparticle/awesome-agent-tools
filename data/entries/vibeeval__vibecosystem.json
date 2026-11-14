@@ -6,7 +6,7 @@
   "url": "https://github.com/vibeeval/vibecosystem",
   "description": "Profile-based coding runtime for Claude Code and Codex. Lean core; opt-in quality, context, memory, orchestration and dashboard.",
   "homepage": "",
-  "stars": 547,
+  "stars": 549,
   "forks": 45,
   "open_issues": 13,
   "language": "C#",
@@ -29,27 +29,27 @@
     "vibecoding"
   ],
   "created_at": "2026-03-14T11:57:55Z",
-  "updated_at": "2026-11-12T11:18:16Z",
+  "updated_at": "2026-11-13T15:31:45Z",
   "pushed_at": "2026-11-11T23:44:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 244,
-  "days_since_push": 1,
+  "days_since_push": 2,
   "health_score": 53,
   "health_components": {
     "popularity": 54.8,
-    "momentum": 1.7,
+    "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.0,
-    "lifetime_stars_per_day": 2.24,
+    "stars_per_day": 2.4,
+    "lifetime_stars_per_day": 2.25,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:14+00:00",
+  "fetched_at": "2026-11-14T11:31:40+00:00",
   "categories": [
     "desktop-ui-2",
     "memory-failover"
@@ -171,14 +171,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.607,
-      "momentum_ratio": 8.3,
+      "star_ratio": 2.612,
+      "momentum_ratio": 6.0,
       "setup_delta": -6,
       "dominance": 0.968,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.61x the stars (1,426 vs 547)",
-        "8.30x the star velocity (16.6/day vs 2.0/day)",
+        "2.61x the stars (1,434 vs 549)",
+        "6.00x the star velocity (14.4/day vs 2.4/day)",
         "no harder to set up (31 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -202,7 +202,7 @@
           "team-collaboration"
         ],
         "incumbent_health": 53,
-        "challenger_health": 59,
+        "challenger_health": 58,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 31
       }

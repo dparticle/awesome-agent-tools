@@ -2,7 +2,7 @@
 
 # 0sec-labs/0
 
-> Investigate vulnerabilities, review findings, and work on fixes in your browser.
+> 0security automates vulnerability discovery, fixing and verification workflows.
 
 [Repository](https://github.com/0sec-labs/0) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,64 +12,68 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,336 |
-| Star velocity | 146.4/day (history basis, 5d span) |
-| Health score | 79/100 |
-| Documentation | 41/100 |
-| Tier | 🏆 Flagship |
+| Stars | 1,348 |
+| Star velocity | 80.8/day (history basis, 5d span) |
+| Health score | 69/100 |
+| Documentation | 52/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
-| License | NOASSERTION |
+| License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-08-19 |
-| Last push | 2026-11-10 (2 days ago) |
-| Analyzed README | 9,231 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 7,868 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Agent runtime
+### Model / provider routing
 
-> The open-source AI security harness
+### Agent runtime
 
 ### MCP support
 
-> source AI security harness
+> r local binary analysis, run pnpm setup:0verse once.
 
 ### GUI / desktop app
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 25/100)
-- **Out of the box:** yes
+- **Difficulty:** 🟡 Some setup (friction score 40/100)
+- **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/0sec-labs/0/main/install.sh | bash`
 
-**Signals that make it easy:** curl | sh installer
+**Signals that make it easy:** curl | sh installer, native installer / package
 
-**Signals that add work:** pnpm install/build
+**Signals that add work:** docker run, git clone (build from source), pnpm install/build
 
-*Easy. install via curl | sh installer; needs pnpm install/build*
+**Configuration required:** database dependency
+
+*Some setup. install via curl | sh installer, native installer / package; needs docker run, git clone (build from source); configure database dependency*
 
 ## Documentation quality
 
-Score **41/100**, based on these detected signals:
+Score **52/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
+- has a quick-start section
 - documents installation
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
+- explains architecture
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 62.5 |
-| momentum | 100.0 |
+| popularity | 62.6 |
+| momentum | 67.3 |
 | maintenance | 100.0 |
-| documentation | 41.0 |
-| accessibility | 87.0 |
+| documentation | 52.0 |
+| accessibility | 60.0 |
 
 ---
 

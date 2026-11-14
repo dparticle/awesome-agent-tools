@@ -2,7 +2,7 @@
 
 # jlcodes99/cockpit-tools
 
-> English · Portuguese (BR) · 简体中文
+> English · Portuguese (BR) · 한국어 · 简体中文
 
 [Repository](https://github.com/jlcodes99/cockpit-tools) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,955 |
-| Star velocity | 28.2/day (history basis, 5d span) |
+| Stars | 19,972 |
+| Star velocity | 26.0/day (history basis, 5d span) |
 | Health score | 68/100 |
 | Documentation | 64/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 19,175 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 19,197 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -122,7 +122,7 @@ Score **64/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 86.0 |
-| momentum | 23.5 |
+| momentum | 21.7 |
 | maintenance | 100.0 |
 | documentation | 64.0 |
 | accessibility | 68.0 |

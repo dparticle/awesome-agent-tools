@@ -6,7 +6,7 @@
   "url": "https://github.com/mco-org/mco",
   "description": "CLI-first orchestration for AI coding agents: run selected agents and models in parallel, compare raw answers, and coordinate review or implementation workflows.",
   "homepage": "",
-  "stars": 555,
+  "stars": 556,
   "forks": 60,
   "open_issues": 2,
   "language": "Python",
@@ -32,26 +32,26 @@
     "windsurf"
   ],
   "created_at": "2026-02-26T07:25:48Z",
-  "updated_at": "2026-11-13T07:20:33Z",
+  "updated_at": "2026-11-13T16:33:27Z",
   "pushed_at": "2026-11-06T17:41:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 260,
-  "days_since_push": 6,
+  "age_days": 261,
+  "days_since_push": 7,
   "health_score": 56,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 93.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 2.13,
     "basis": "history",
     "is_fast_riser": false
@@ -143,12 +143,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:14+00:00",
+  "fetched_at": "2026-11-14T11:31:40+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "model-routing"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

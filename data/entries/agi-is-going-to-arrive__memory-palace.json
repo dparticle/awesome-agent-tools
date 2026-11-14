@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 267,
-  "days_since_push": 176,
+  "age_days": 268,
+  "days_since_push": 177,
   "health_score": 44,
   "health_components": {
     "popularity": 50.0,
@@ -160,10 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:29+00:00",
+  "fetched_at": "2026-11-14T11:32:02+00:00",
   "categories": [
     "failover",
-    "memory-failover",
+    "mcp-security",
     "sharing"
   ],
   "primary_category": "failover",

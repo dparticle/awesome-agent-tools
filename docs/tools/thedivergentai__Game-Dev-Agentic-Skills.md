@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 963 |
-| Star velocity | 4.4/day (history basis, 5d span) |
-| Health score | 57/100 |
+| Stars | 964 |
+| Star velocity | 3.8/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | LGPL-3.0 |
 | Language | GDScript |
 | Created | 2026-02-07 |
-| Last push | 2026-10-16 (27 days ago) |
+| Last push | 2026-10-16 (28 days ago) |
 | Analyzed README | 56,662 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -84,7 +84,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 59.7 |
-| momentum | 3.7 |
+| momentum | 3.2 |
 | maintenance | 92.0 |
 | documentation | 69.0 |
 | accessibility | 79.0 |

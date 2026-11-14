@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 426 |
 | Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 55/100 |
+| Health score | 52/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-08-16 |
-| Last push | 2026-10-14 (30 days ago) |
+| Last push | 2026-10-14 (31 days ago) |
 | Analyzed README | 14,672 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).
@@ -80,7 +80,7 @@ Score **69/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 52.6 |
 | momentum | 0.2 |
-| maintenance | 92.0 |
+| maintenance | 78.0 |
 | documentation | 69.0 |
 | accessibility | 87.0 |
 

@@ -6,7 +6,7 @@
   "url": "https://github.com/winstonkoh87/Athena-Public",
   "description": "Turn stateless LLMs into a stateful, compounding AI agent. Local-first persistent memory, quantitative decision screens, and governance harness across Claude Code, Antigravity, Cursor, and VS Code. Own the state. Rent the intelligence.",
   "homepage": "https://winstonkoh87.com/athena/",
-  "stars": 622,
+  "stars": 624,
   "forks": 85,
   "open_issues": 0,
   "language": "Python",
@@ -33,25 +33,25 @@
     "vector-search"
   ],
   "created_at": "2025-12-18T19:47:38Z",
-  "updated_at": "2026-11-11T23:12:57Z",
-  "pushed_at": "2026-11-12T23:42:07Z",
+  "updated_at": "2026-11-14T04:28:43Z",
+  "pushed_at": "2026-11-14T04:03:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 329,
+  "age_days": 330,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 55.9,
     "momentum": 1.6,
     "maintenance": 100.0,
-    "documentation": 72.0,
+    "documentation": 73.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 622,
-    "days_span": 329,
+    "stars_gained": 624,
+    "days_span": 330,
     "stars_per_day": 1.89,
     "lifetime_stars_per_day": 1.89,
     "basis": "lifetime",
@@ -59,7 +59,7 @@
   },
   "analysis": {
     "full_name": "winstonkoh87/Athena-Public",
-    "readme_chars": 14599,
+    "readme_chars": 17421,
     "capabilities": [
       "memory-context",
       "mcp-support",
@@ -67,7 +67,7 @@
     ],
     "capability_evidence": {
       "memory-context": "",
-      "mcp-support": "Claude Code, Antigravity, Cursor, Gemini CLI, and VS Code.",
+      "mcp-support": "aude Code, Antigravity, Cursor, Gemini CLI, and VS Code.",
       "cross-agent-support": "Mentions Claude Code, Copilot, Cursor, Gemini CLI"
     },
     "capability_hits": {
@@ -97,7 +97,7 @@
       "note_en": "Easy. install via pip install; needs git clone (build from source); configure config file",
       "note_zh": "较易上手。可通过 pip install 安装；需要 git clone (build from source)；需配置 config file"
     },
-    "doc_score": 72,
+    "doc_score": 73,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -120,7 +120,7 @@
       "Copilot",
       "Cline / Roo"
     ],
-    "summary_en": "Turn stateless LLMs into a stateful, compounding AI agent — portable across any IDE.",
+    "summary_en": "Local-first memory, decision engine, and governance harness for AI agents — portable across any IDE.",
     "summary_zh": "",
     "install_hint": "pip install -e \".[local]\"               # lightweight — no cloud deps",
     "source": "raw:HEAD/README.md",
@@ -128,7 +128,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.342
+      "external_link_ratio": 0.287
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:11+00:00",
+  "fetched_at": "2026-11-14T11:31:36+00:00",
   "categories": [
     "memory-failover"
   ],

@@ -15,14 +15,16 @@
 | Stars | 350 |
 | Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 52/100 |
-| Documentation | 64/100 |
+| Documentation | 65/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2025-11-23 |
-| Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 9,536 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-13 (0 days ago) |
+| Analyzed README | 10,295 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -33,6 +35,10 @@
 ### Notifications
 
 > n optimization), conjure (delegation to seven external
+
+### Cross-agent support
+
+> Mentions Claude Code, Codex, OpenCode
 
 ## Setup reality check
 
@@ -46,7 +52,7 @@
 
 ## Documentation quality
 
-Score **64/100**, based on these detected signals:
+Score **65/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -67,7 +73,7 @@ Score **64/100**, based on these detected signals:
 | popularity | 50.9 |
 | momentum | 0.3 |
 | maintenance | 100.0 |
-| documentation | 64.0 |
+| documentation | 65.0 |
 | accessibility | 58.0 |
 
 ---

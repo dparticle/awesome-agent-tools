@@ -19,23 +19,23 @@
   "is_fork": false,
   "default_branch": "main",
   "age_days": 257,
-  "days_since_push": 0,
+  "days_since_push": 1,
   "health_score": 54,
   "health_components": {
     "popularity": 55.0,
-    "momentum": 4.7,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 44.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 28,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 5.6,
+    "stars_per_day": 1.8,
     "lifetime_stars_per_day": 2.18,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "claesbackman/AI-research-feedback",
@@ -117,7 +117,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:13+00:00",
+  "fetched_at": "2026-11-14T11:31:39+00:00",
   "categories": [
     "desktop-ui-2"
   ],

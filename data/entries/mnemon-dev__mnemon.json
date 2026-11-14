@@ -7,8 +7,8 @@
   "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
   "homepage": "https://mnemon.dev",
   "stars": 717,
-  "forks": 81,
-  "open_issues": 14,
+  "forks": 82,
+  "open_issues": 17,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -36,22 +36,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 266,
-  "days_since_push": 3,
+  "age_days": 267,
+  "days_since_push": 4,
   "health_score": 51,
   "health_components": {
     "popularity": 57.1,
-    "momentum": 2.8,
+    "momentum": 2.3,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 3.4,
-    "lifetime_stars_per_day": 2.7,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 2.69,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -158,9 +158,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:09+00:00",
+  "fetched_at": "2026-11-14T11:31:33+00:00",
   "categories": [
     "desktop-ui-2",
+    "mcp-security",
     "memory-failover"
   ],
   "primary_category": "memory-failover",

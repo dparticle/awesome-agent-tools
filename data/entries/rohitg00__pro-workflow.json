@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/pro-workflow",
   "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
   "homepage": "https://rohitg00.github.io/pro-workflow/infographic.html",
-  "stars": 2954,
-  "forks": 301,
-  "open_issues": 34,
+  "stars": 2955,
+  "forks": 300,
+  "open_issues": 33,
   "language": "JavaScript",
   "license": "",
   "topics": [
@@ -33,13 +33,13 @@
     "worktrees"
   ],
   "created_at": "2026-02-01T19:47:29Z",
-  "updated_at": "2026-11-13T08:41:58Z",
+  "updated_at": "2026-11-13T17:54:52Z",
   "pushed_at": "2026-09-29T10:12:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 284,
-  "days_since_push": 45,
+  "age_days": 285,
+  "days_since_push": 46,
   "health_score": 49,
   "health_components": {
     "popularity": 69.4,
@@ -53,7 +53,7 @@
     "stars_gained": 8,
     "days_span": 5,
     "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 10.4,
+    "lifetime_stars_per_day": 10.37,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -180,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:51+00:00",
+  "fetched_at": "2026-11-14T11:31:06+00:00",
   "categories": [
     "desktop-ui-2",
     "isolation-teams",
-    "mcp-security"
+    "notifications"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

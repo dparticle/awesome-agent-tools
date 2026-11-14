@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 488 |
-| Star velocity | 0.4/day (history basis, 5d span) |
+| Stars | 489 |
+| Star velocity | 0.6/day (history basis, 5d span) |
 | Health score | 49/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-11-02 (11 days ago) |
+| Last push | 2026-11-02 (12 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)** — Superseded by kitfunso/hippo-memory: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** — Superseded by HKUDS/DeepTutor: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -72,7 +72,7 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.8 |
-| momentum | 0.3 |
+| momentum | 0.5 |
 | maintenance | 92.0 |
 | documentation | 61.0 |
 | accessibility | 49.0 |

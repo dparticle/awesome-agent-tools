@@ -6,7 +6,7 @@
   "url": "https://github.com/shx2005/codex-account-switcher",
   "description": "你是否厌倦了 Codex 多个账号之间来回切换？本地账号管理、官方登录、额度查询、快速切换与跨设备导入导出。Local Codex account profiles, login, usage, switching, and export/import.",
   "homepage": "",
-  "stars": 970,
+  "stars": 971,
   "forks": 67,
   "open_issues": 0,
   "language": "Python",
@@ -19,27 +19,27 @@
     "python"
   ],
   "created_at": "2026-10-03T14:38:55Z",
-  "updated_at": "2026-11-13T07:01:16Z",
+  "updated_at": "2026-11-14T03:56:07Z",
   "pushed_at": "2026-10-20T06:11:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 40,
-  "days_since_push": 24,
+  "age_days": 41,
+  "days_since_push": 25,
   "health_score": 48,
   "health_components": {
     "popularity": 59.7,
-    "momentum": 2.7,
+    "momentum": 1.3,
     "maintenance": 92.0,
     "documentation": 59.0,
     "accessibility": 25.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 24.25,
+    "stars_per_day": 1.6,
+    "lifetime_stars_per_day": 23.68,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -138,80 +138,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:04+00:00",
+  "fetched_at": "2026-11-14T11:31:26+00:00",
   "categories": [
-    "analytics-3",
     "billing",
     "failover"
   ],
   "primary_category": "billing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by ardeyouxipianyi/workbuddy2api-hub: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 ardeyouxipianyi/workbuddy2api-hub 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "ardeyouxipianyi/workbuddy2api-hub",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "shx2005/codex-account-switcher",
-      "challenger": "ardeyouxipianyi/workbuddy2api-hub",
-      "incumbent_name": "shx2005/codex-account-switcher",
-      "challenger_name": "ardeyouxipianyi/workbuddy2api-hub",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "billing-metering",
-        "gui-desktop",
-        "multi-account-switching",
-        "quota-management",
-        "security-isolation",
-        "self-hosted"
-      ],
-      "star_ratio": 4.146,
-      "momentum_ratio": 20.25,
-      "setup_delta": -46,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "4.15x the stars (4,022 vs 970)",
-        "20.25x the star velocity (64.8/day vs 3.2/day)",
-        "no harder to set up (29 vs 75 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "billing-metering",
-          "gui-desktop",
-          "multi-account-switching",
-          "quota-management",
-          "security-isolation",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mobile-access",
-          "model-routing",
-          "multi-account-switching",
-          "notifications",
-          "quota-distribution",
-          "quota-management",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "usage-analytics"
-        ],
-        "incumbent_health": 48,
-        "challenger_health": 71,
-        "incumbent_setup_score": 75,
-        "challenger_setup_score": 29
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

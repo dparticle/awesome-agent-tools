@@ -6,8 +6,8 @@
   "url": "https://github.com/savannahfeder/agentbox",
   "description": "A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them like email, or use the board view. Free, open source, on the plan you already pay for.",
   "homepage": "https://agentbox.ac",
-  "stars": 401,
-  "forks": 42,
+  "stars": 414,
+  "forks": 44,
   "open_issues": 18,
   "language": "TypeScript",
   "license": "GPL-3.0",
@@ -34,27 +34,27 @@
     "worktree-manager"
   ],
   "created_at": "2026-09-28T02:35:07Z",
-  "updated_at": "2026-11-13T12:01:49Z",
-  "pushed_at": "2026-11-13T08:50:23Z",
+  "updated_at": "2026-11-13T23:26:27Z",
+  "pushed_at": "2026-11-14T05:42:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 46,
+  "age_days": 47,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
-    "popularity": 52.1,
-    "momentum": 4.2,
+    "popularity": 52.3,
+    "momentum": 5.3,
     "maintenance": 100.0,
     "documentation": 37.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 32,
     "days_span": 5,
-    "stars_per_day": 5.0,
-    "lifetime_stars_per_day": 8.72,
+    "stars_per_day": 6.4,
+    "lifetime_stars_per_day": 8.81,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -148,11 +148,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:24+00:00",
+  "fetched_at": "2026-11-14T11:31:53+00:00",
   "categories": [
     "desktop-ui",
-    "isolation-teams",
-    "model-routing"
+    "isolation-teams"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
@@ -178,14 +177,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 85.439,
-      "momentum_ratio": 6.16,
+      "star_ratio": 82.773,
+      "momentum_ratio": 3.719,
       "setup_delta": -28,
-      "dominance": 1.0,
+      "dominance": 0.963,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "85.44x the stars (34,261 vs 401)",
-        "6.16x the star velocity (30.8/day vs 5.0/day)",
+        "82.77x the stars (34,268 vs 414)",
+        "3.72x the star velocity (23.8/day vs 6.4/day)",
         "no harder to set up (2 vs 30 friction)"
       ],
       "reasons_zh": [],
@@ -213,7 +212,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 72,
+        "challenger_health": 70,
         "incumbent_setup_score": 30,
         "challenger_setup_score": 2
       }

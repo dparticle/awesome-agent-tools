@@ -6,8 +6,8 @@
   "url": "https://github.com/JuneYaooo/rea-video",
   "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
   "homepage": "https://www.reavideo.ai/",
-  "stars": 7740,
-  "forks": 1144,
+  "stars": 8229,
+  "forks": 1219,
   "open_issues": 4,
   "language": "Python",
   "license": "Apache-2.0",
@@ -32,16 +32,16 @@
     "vlm"
   ],
   "created_at": "2026-10-29T16:15:01Z",
-  "updated_at": "2026-11-13T12:10:20Z",
-  "pushed_at": "2026-11-13T08:19:51Z",
+  "updated_at": "2026-11-14T11:28:54Z",
+  "pushed_at": "2026-11-14T10:22:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 14,
+  "age_days": 15,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
-    "popularity": 77.8,
+    "popularity": 78.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 49.0,
@@ -49,10 +49,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7740,
-    "days_span": 14,
-    "stars_per_day": 552.86,
-    "lifetime_stars_per_day": 552.86,
+    "stars_gained": 8229,
+    "days_span": 15,
+    "stars_per_day": 548.6,
+    "lifetime_stars_per_day": 548.6,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:19+00:00",
+  "fetched_at": "2026-11-14T11:30:22+00:00",
   "categories": [
     "sharing"
   ],

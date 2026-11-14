@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 624 |
-| Star velocity | 4.0/day (history basis, 5d span) |
+| Stars | 627 |
+| Star velocity | 3.4/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-02-27 |
-| Last push | 2026-11-13 (0 days ago) |
-| Analyzed README | 43,140 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 44,016 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -54,7 +54,7 @@
 
 ### Self-hostable
 
-> ude, Codex, Cursor, or OpenCode across repositories, panes, tabs, worktrees, and review loops.
+> Codex, Cursor, OpenCode, or Pi across repositories, panes, tabs, worktrees, and review loops.
 
 ### GUI / desktop app
 
@@ -108,7 +108,7 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.9 |
-| momentum | 3.3 |
+| momentum | 2.8 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 79.0 |

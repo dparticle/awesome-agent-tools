@@ -6,8 +6,8 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 2773,
-  "forks": 207,
+  "stars": 2856,
+  "forks": 213,
   "open_issues": 40,
   "language": "TypeScript",
   "license": "MIT",
@@ -16,33 +16,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-11-13T11:58:59Z",
-  "pushed_at": "2026-11-13T09:46:42Z",
+  "updated_at": "2026-11-14T11:18:22Z",
+  "pushed_at": "2026-11-14T10:40:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 90,
+  "age_days": 91,
   "days_since_push": 0,
-  "health_score": 78,
+  "health_score": 76,
   "health_components": {
-    "popularity": 68.9,
-    "momentum": 89.0,
+    "popularity": 69.1,
+    "momentum": 77.2,
     "maintenance": 100.0,
     "documentation": 61.0,
-    "accessibility": 63.0
+    "accessibility": 72.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 534,
+    "stars_gained": 463,
     "days_span": 5,
-    "stars_per_day": 106.8,
-    "lifetime_stars_per_day": 30.81,
+    "stars_per_day": 92.6,
+    "lifetime_stars_per_day": 31.38,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 21528,
+    "readme_chars": 20710,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -64,7 +64,7 @@
       "security-isolation": "onversation models with the same smooth workflow as local use.",
       "self-hosted": "s at once, and use Bot mode, powered by Fei2411/DS-Bot.",
       "team-collaboration": "Agent keeps its own workspaces and sessions; only session translation for DSH is performed, without writing to Harness storage.",
-      "gui-desktop": "bar Supported Install ds-harness-remote@0.6.5; this computer can also be the Host",
+      "gui-desktop": "ote sidebar Supported Control other devices or act as a Host—the choice is yours!",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
@@ -80,16 +80,14 @@
       "cross-agent-support": 4
     },
     "friction": {
-      "level": "moderate",
-      "score": 37,
+      "level": "low",
+      "score": 28,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "native installer / package"
       ],
-      "hard_signals": [
-        "go build"
-      ],
+      "hard_signals": [],
       "config_signals": [
         "sign-in required",
         "process manager"
@@ -103,8 +101,8 @@
         "Android",
         "Web"
       ],
-      "note_en": "Some setup. install via native installer / package; needs go build; configure sign-in required, process manager",
-      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 go build；需配置 sign-in required、process manager"
+      "note_en": "Easy. install via native installer / package; configure sign-in required, process manager",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需配置 sign-in required、process manager"
     },
     "doc_score": 61,
     "doc_signals": [
@@ -134,7 +132,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.883
+      "external_link_ratio": 0.917
     },
     "highlights": [
       "The current development baseline is dsh-v0.2.2-rc.1; validation scope is documented in the compatibility guide.",
@@ -156,11 +154,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:52+00:00",
+  "fetched_at": "2026-11-14T11:31:07+00:00",
   "categories": [
     "failover",
     "mobile",
-    "sharing"
+    "providers-2"
   ],
   "primary_category": "mobile",
   "lifecycle": {

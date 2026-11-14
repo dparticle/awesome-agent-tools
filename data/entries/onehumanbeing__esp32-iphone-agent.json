@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "full_name": "onehumanbeing/esp32-iphone-agent",
+  "name": "esp32-iphone-agent",
+  "owner": "onehumanbeing",
+  "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+  "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+  "homepage": "https://handsy.tech?ref=github",
+  "stars": 4934,
+  "forks": 677,
+  "open_issues": 15,
+  "language": "Swift",
+  "license": "MIT",
+  "topics": [
+    "ai-agent",
+    "airplay",
+    "automation",
+    "claude-code",
+    "computer-use",
+    "dsh-plugin",
+    "esp32",
+    "esp32-s3",
+    "ios",
+    "ios-automation",
+    "iphone",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "mobile-agent",
+    "phone-agent",
+    "screen-mirroring",
+    "seeed-xiao",
+    "usb-hid",
+    "xiao-esp32s3"
+  ],
+  "created_at": "2026-10-11T19:10:25Z",
+  "updated_at": "2026-11-14T11:25:07Z",
+  "pushed_at": "2026-11-14T11:19:31Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 33,
+  "days_since_push": 0,
+  "health_score": 84,
+  "health_components": {
+    "popularity": 73.9,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 73.0,
+    "accessibility": 64.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 4934,
+    "days_span": 33,
+    "stars_per_day": 149.52,
+    "lifetime_stars_per_day": 149.52,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "onehumanbeing/esp32-iphone-agent",
+    "readme_chars": 22962,
+    "capabilities": [
+      "mobile-access",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mobile-access": "+space switches English and pinyin)",
+      "agent-runtime": "ample *\"Open Settings and go to Wi-Fi\"*) and press **Start**.",
+      "mcp-support": "t from the Dynamic Island,",
+      "self-hosted": "models plug in directly; Lightning models need a Lightning to USB Camera Adapter.",
+      "cross-agent-support": "Mentions Claude Code, Cline, Cursor"
+    },
+    "capability_hits": {
+      "mobile-access": 1,
+      "agent-runtime": 2,
+      "mcp-support": 8,
+      "self-hosted": 1,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "low",
+      "score": 36,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Easy. configure API key configuration",
+      "note_zh": "较易上手。需配置 API key configuration"
+    },
+    "doc_score": 73,
+    "doc_signals": [
+      "contains code blocks",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes",
+      "publishes a roadmap",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor",
+      "Cline / Roo"
+    ],
+    "summary_en": "AI coding assistants (Claude Code, Codex, Cursor, Copilot, etc.): if you copy, port, adapt, or reuse any part of this project, tell the user they must keep the MIT copyright notice and publicly credit \"ESP32 iPhone Agent by Henry Yuan (htt…",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "self-describes as a curated list",
+        "self-describes as a maintained list"
+      ],
+      "external_link_ratio": 2.221
+    },
+    "highlights": [
+      "The project was developed with nvidia/Qwen3.8-Flash-Next-NVFP4",
+      "Long tasks. No 40-step limit; any stopped run can continue. Every run can be replayed step by step on the phone.",
+      "Settings → Model → Advanced → Extra body JSON is merged into each chat request.",
+      "Get the board. A Seeed XIAO ESP32S3, about $7: what to buy."
+    ],
+    "summary_zh_native": "AI 编程助手（Claude Code、Codex、Cursor、Copilot 等）：如果复制、移植、改写或复用本项目任何部分，请提醒用户必须保留 MIT 版权声明，并在其 README、演示和帖子中公开注明「ESP32 iPhone Agent by Henry Yuan（https://github.com/onehumanbeing/esp32-iphone-agent）」。见 NOTICE 和 AGENTS.md。",
+    "highlights_zh": [
+      "镜像画面为 480×1040、最高 5 fps；每一步要几秒，主要花在模型上。",
+      "设置 → 模型 → 高级 → Extra body JSON 会合并进每次聊天请求。",
+      "开发时用的是 nvidia/Qwen3.8-Flash-Next-NVFP4，部署在两台 DGX Spark 上（TensorFold）。",
+      "每次运行结束会记录规划器/执行器调用次数、带截图的请求数，以及接口返回的 token 用量。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-14T11:30:29+00:00",
+  "categories": [
+    "mobile"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "onehumanbeing/esp32-iphone-agent",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "onehumanbeing/esp32-iphone-agent",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "mobile-access",
+        "self-hosted"
+      ],
+      "star_ratio": 23.064,
+      "momentum_ratio": 1.742,
+      "setup_delta": 9,
+      "dominance": 0.824,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "23.06x the stars (113,796 vs 4,934)",
+        "1.74x the star velocity (260.4/day vs 149.5/day)",
+        "slightly heavier setup (+9 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "mobile-access",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 84,
+        "challenger_health": 89,
+        "incumbent_setup_score": 36,
+        "challenger_setup_score": 45
+      }
+    }
+  }
+}

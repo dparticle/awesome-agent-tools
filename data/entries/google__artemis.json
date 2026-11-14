@@ -6,8 +6,8 @@
   "url": "https://github.com/google/artemis",
   "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
   "homepage": "",
-  "stars": 17374,
-  "forks": 1933,
+  "stars": 17431,
+  "forks": 1942,
   "open_issues": 190,
   "language": "Python",
   "license": "Apache-2.0",
@@ -19,27 +19,27 @@
     "testing"
   ],
   "created_at": "2026-08-13T17:59:37Z",
-  "updated_at": "2026-11-13T11:44:38Z",
+  "updated_at": "2026-11-14T11:03:44Z",
   "pushed_at": "2026-10-01T21:37:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 91,
-  "days_since_push": 42,
-  "health_score": 71,
+  "age_days": 92,
+  "days_since_push": 43,
+  "health_score": 70,
   "health_components": {
     "popularity": 84.8,
-    "momentum": 65.5,
+    "momentum": 58.8,
     "maintenance": 78.0,
     "documentation": 68.0,
     "accessibility": 44.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 393,
+    "stars_gained": 353,
     "days_span": 5,
-    "stars_per_day": 78.6,
-    "lifetime_stars_per_day": 190.92,
+    "stars_per_day": 70.6,
+    "lifetime_stars_per_day": 189.47,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -148,78 +148,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:14+00:00",
+  "fetched_at": "2026-11-14T11:30:15+00:00",
   "categories": [
-    "mcp-security",
-    "mobile"
+    "desktop-ui-2",
+    "notifications"
   ],
-  "primary_category": "mobile",
+  "primary_category": "notifications",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 msitarzewski/agency-agents 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "msitarzewski/agency-agents",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "google/artemis",
-      "challenger": "msitarzewski/agency-agents",
-      "incumbent_name": "google/artemis",
-      "challenger_name": "msitarzewski/agency-agents",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "mobile-access",
-        "multi-agent-orchestration",
-        "notifications"
-      ],
-      "star_ratio": 9.671,
-      "momentum_ratio": 2.132,
-      "setup_delta": -55,
-      "dominance": 0.894,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "9.67x the stars (168,031 vs 17,374)",
-        "2.13x the star velocity (167.6/day vs 78.6/day)",
-        "no harder to set up (1 vs 56 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "mobile-access",
-          "multi-agent-orchestration",
-          "notifications"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "team-collaboration",
-          "voice-input"
-        ],
-        "incumbent_health": 71,
-        "challenger_health": 98,
-        "incumbent_setup_score": 56,
-        "challenger_setup_score": 1
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

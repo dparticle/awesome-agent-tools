@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 11,980 |
-| Star velocity | 309.6/day (history basis, 5d span) |
+| Stars | 12,182 |
+| Star velocity | 330.4/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 78/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-11-13 (0 days ago) |
-| Analyzed README | 46,440 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 46,751 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (9/9).
 
@@ -56,7 +56,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 58/100)
+- **Difficulty:** 🔴 Involved (friction score 64/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx --yes copilotkit@latest login`
@@ -65,9 +65,9 @@
 
 **Signals that add work:** docker run, helm install, git clone (build from source)
 
-**Configuration required:** sign-in required, database dependency, server/reverse-proxy setup, process manager
+**Configuration required:** .env file, sign-in required, database dependency, server/reverse-proxy setup, process manager
 
-*Some setup. install via npx one-liner, native installer / package; needs docker run, helm install; configure sign-in required, database dependency*
+*Involved setup. install via npx one-liner, native installer / package; needs docker run, helm install; configure .env file, sign-in required*
 
 ## Documentation quality
 
@@ -91,11 +91,11 @@ Score **78/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.6 |
+| popularity | 81.7 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 78.0 |
-| accessibility | 42.0 |
+| accessibility | 36.0 |
 
 ---
 

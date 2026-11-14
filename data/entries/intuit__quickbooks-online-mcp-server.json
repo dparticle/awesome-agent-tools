@@ -6,33 +6,33 @@
   "url": "https://github.com/intuit/quickbooks-online-mcp-server",
   "description": "The QuickBooks MCP Server lets AI assistants access QuickBooks data via a standard interface. It uses the Model Context Protocol to expose QBO features as callable tools, enabling developers to build AI apps that fetch real-time QBO data through MCP.",
   "homepage": "",
-  "stars": 450,
+  "stars": 451,
   "forks": 270,
   "open_issues": 45,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2025-10-06T17:17:39Z",
-  "updated_at": "2026-11-12T18:37:29Z",
+  "updated_at": "2026-11-13T22:21:09Z",
   "pushed_at": "2026-09-15T17:56:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 402,
-  "days_since_push": 58,
+  "age_days": 403,
+  "days_since_push": 59,
   "health_score": 43,
   "health_components": {
     "popularity": 53.1,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 78.0,
     "documentation": 63.0,
     "accessibility": 22.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.8,
     "lifetime_stars_per_day": 1.12,
     "basis": "history",
     "is_fast_riser": false
@@ -116,11 +116,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:19+00:00",
+  "fetched_at": "2026-11-14T11:31:48+00:00",
   "categories": [
-    "analytics-3"
+    "billing-2"
   ],
-  "primary_category": "analytics-3",
+  "primary_category": "billing-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

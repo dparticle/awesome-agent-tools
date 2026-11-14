@@ -6,8 +6,8 @@
   "url": "https://github.com/slopus/happy",
   "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
   "homepage": "https://happy.engineering/",
-  "stars": 24619,
-  "forks": 2118,
+  "stars": 24636,
+  "forks": 2120,
   "open_issues": 1107,
   "language": "Swift",
   "license": "MIT",
@@ -23,12 +23,12 @@
     "hacktoberfest"
   ],
   "created_at": "2025-07-18T05:53:18Z",
-  "updated_at": "2026-11-13T12:11:34Z",
-  "pushed_at": "2026-11-13T12:08:50Z",
+  "updated_at": "2026-11-14T10:58:55Z",
+  "pushed_at": "2026-11-14T08:11:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 483,
+  "age_days": 484,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
@@ -43,7 +43,7 @@
     "stars_gained": 81,
     "days_span": 5,
     "stars_per_day": 16.2,
-    "lifetime_stars_per_day": 50.97,
+    "lifetime_stars_per_day": 50.9,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -143,11 +143,10 @@
     "seed_reason": "Drive Claude Code / Codex from a phone with end-to-end encryption.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-13T12:14:07+00:00",
+  "fetched_at": "2026-11-14T11:30:06+00:00",
   "categories": [
-    "desktop-ui",
-    "mcp-security",
-    "mobile"
+    "mobile",
+    "notifications"
   ],
   "primary_category": "mobile",
   "lifecycle": {

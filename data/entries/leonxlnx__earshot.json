@@ -6,9 +6,9 @@
   "url": "https://github.com/Leonxlnx/earshot",
   "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
   "homepage": "",
-  "stars": 4705,
-  "forks": 304,
-  "open_issues": 11,
+  "stars": 4786,
+  "forks": 310,
+  "open_issues": 13,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -19,27 +19,27 @@
     "sound-design"
   ],
   "created_at": "2026-10-15T06:52:46Z",
-  "updated_at": "2026-11-13T12:10:06Z",
+  "updated_at": "2026-11-14T11:20:06Z",
   "pushed_at": "2026-11-06T17:24:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 29,
-  "days_since_push": 6,
-  "health_score": 76,
+  "age_days": 30,
+  "days_since_push": 7,
+  "health_score": 75,
   "health_components": {
-    "popularity": 73.5,
-    "momentum": 80.8,
+    "popularity": 73.6,
+    "momentum": 77.5,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 48.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 485,
+    "stars_gained": 465,
     "days_span": 5,
-    "stars_per_day": 97.0,
-    "lifetime_stars_per_day": 162.24,
+    "stars_per_day": 93.0,
+    "lifetime_stars_per_day": 159.53,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -129,17 +129,70 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:25+00:00",
+  "fetched_at": "2026-11-14T11:30:30+00:00",
   "categories": [
     "desktop-ui-2",
-    "mcp-security"
+    "model-routing",
+    "notifications"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "notifications",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 garrytan/gstack 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "garrytan/gstack",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "leonxlnx/earshot",
+      "challenger": "garrytan/gstack",
+      "incumbent_name": "Leonxlnx/earshot",
+      "challenger_name": "garrytan/gstack",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "mcp-support",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 29.566,
+      "momentum_ratio": 1.327,
+      "setup_delta": -13,
+      "dominance": 0.835,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "29.57x the stars (141,501 vs 4,786)",
+        "1.33x the star velocity (123.4/day vs 93.0/day)",
+        "no harder to set up (39 vs 52 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "mcp-support",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 75,
+        "challenger_health": 91,
+        "incumbent_setup_score": 52,
+        "challenger_setup_score": 39
+      }
+    }
   }
 }

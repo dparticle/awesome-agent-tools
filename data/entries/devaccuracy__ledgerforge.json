@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "full_name": "devaccuracy/ledgerforge",
+  "name": "ledgerforge",
+  "owner": "devaccuracy",
+  "url": "https://github.com/devaccuracy/ledgerforge",
+  "description": "The ledger for AI-native money movement. An open-source double-entry ledger for wallets, payouts, marketplaces and billing, with exact integer money, a verifiable audit chain, server-enforced spending limits and approvals for AI agents, and an MCP server. Apache 2.0.",
+  "homepage": "https://ledgerforge.io",
+  "stars": 294,
+  "forks": 32,
+  "open_issues": 11,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-tools",
+    "billing",
+    "double-entry-accounting",
+    "fintech",
+    "ledger",
+    "payout",
+    "wallet"
+  ],
+  "created_at": "2026-05-10T09:41:41Z",
+  "updated_at": "2026-11-13T18:41:53Z",
+  "pushed_at": "2026-10-16T14:24:54Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 188,
+  "days_since_push": 28,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 49.4,
+    "momentum": 1.3,
+    "maintenance": 92.0,
+    "documentation": 55.0,
+    "accessibility": 48.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 294,
+    "days_span": 188,
+    "stars_per_day": 1.56,
+    "lifetime_stars_per_day": 1.56,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "devaccuracy/ledgerforge",
+    "readme_chars": 12267,
+    "capabilities": [
+      "billing-metering",
+      "mcp-support",
+      "security-isolation",
+      "notifications"
+    ],
+    "capability_evidence": {
+      "billing-metering": "The ledger for AI-native money movement",
+      "mcp-support": "What it is The software in this repository Managed LedgerForge deployments, operated per customer Contracted deployment, support and review services Ledger, verification, agent policies, MCP server Included Same open-so…",
+      "security-isolation": "The ledger for AI-native money movement",
+      "notifications": "Request access Contact sales"
+    },
+    "capability_hits": {
+      "billing-metering": 3,
+      "mcp-support": 6,
+      "security-isolation": 1,
+      "notifications": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 52,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "go install"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Some setup. install via go install; needs docker compose up, git clone (build from source); configure API key configuration, database dependency",
+      "note_zh": "需要一些配置。可通过 go install 安装；需要 docker compose up、git clone (build from source)；需配置 API key configuration、database dependency"
+    },
+    "doc_score": 55,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "The system of record for fintech wallets, payouts, marketplaces and billing — with spending limits that keep AI agents in check and an audit trail you can prove.",
+    "summary_zh": "",
+    "install_hint": "docker compose up -d",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.489
+    },
+    "highlights": [
+      "Traceable releases: binaries for Linux, macOS and Windows, multi-platform",
+      "A hardened API: owner-bound key management, constrained delegation,",
+      "Deployment: secrets, TLS, limits and webhook verification",
+      "Security operations: API keys, delegation and rotation"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-14T11:32:07+00:00",
+  "categories": [
+    "billing-2",
+    "mcp-security",
+    "notifications"
+  ],
+  "primary_category": "billing-2",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by aipoch/open-science: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 aipoch/open-science 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "aipoch/open-science",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "devaccuracy/ledgerforge",
+      "challenger": "aipoch/open-science",
+      "incumbent_name": "devaccuracy/ledgerforge",
+      "challenger_name": "aipoch/open-science",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "billing-metering",
+        "mcp-support",
+        "notifications",
+        "security-isolation"
+      ],
+      "star_ratio": 18.796,
+      "momentum_ratio": 3.205,
+      "setup_delta": -31,
+      "dominance": 0.945,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "18.80x the stars (5,526 vs 294)",
+        "3.21x the star velocity (5.0/day vs 1.6/day)",
+        "no harder to set up (21 vs 52 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "billing-metering",
+          "mcp-support",
+          "notifications",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "billing-metering",
+          "gui-desktop",
+          "mcp-support",
+          "notifications",
+          "security-isolation",
+          "skills-plugins"
+        ],
+        "incumbent_health": 47,
+        "challenger_health": 64,
+        "incumbent_setup_score": 52,
+        "challenger_setup_score": 21
+      }
+    }
+  }
+}

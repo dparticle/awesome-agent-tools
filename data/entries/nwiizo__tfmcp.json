@@ -6,7 +6,7 @@
   "url": "https://github.com/nwiizo/tfmcp",
   "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️",
   "homepage": "https://crates.io/crates/tfmcp",
-  "stars": 371,
+  "stars": 372,
   "forks": 31,
   "open_issues": 8,
   "language": "Rust",
@@ -17,26 +17,26 @@
     "terraform"
   ],
   "created_at": "2025-03-08T14:10:29Z",
-  "updated_at": "2026-10-30T15:06:30Z",
+  "updated_at": "2026-11-13T13:42:03Z",
   "pushed_at": "2026-11-12T13:24:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 614,
-  "days_since_push": 0,
+  "age_days": 615,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 48.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.6,
     "basis": "history",
     "is_fast_riser": false
@@ -134,10 +134,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:25+00:00",
+  "fetched_at": "2026-11-14T11:31:55+00:00",
   "categories": [
-    "mcp-security",
-    "model-routing"
+    "desktop-ui-2",
+    "failover",
+    "mcp-security"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

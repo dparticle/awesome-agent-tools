@@ -6,7 +6,7 @@
   "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
   "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
   "homepage": "",
-  "stars": 370,
+  "stars": 371,
   "forks": 43,
   "open_issues": 17,
   "language": "Python",
@@ -31,26 +31,26 @@
     "typescript"
   ],
   "created_at": "2025-10-21T08:08:21Z",
-  "updated_at": "2026-11-10T09:47:22Z",
+  "updated_at": "2026-11-13T22:44:56Z",
   "pushed_at": "2026-09-10T11:05:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 388,
-  "days_since_push": 64,
+  "age_days": 389,
+  "days_since_push": 65,
   "health_score": 44,
   "health_components": {
     "popularity": 51.4,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 78.0,
     "documentation": 59.0,
     "accessibility": 34.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.8,
     "lifetime_stars_per_day": 0.95,
     "basis": "history",
     "is_fast_riser": false
@@ -147,10 +147,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:25+00:00",
+  "fetched_at": "2026-11-14T11:31:55+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "model-routing"
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {
@@ -175,14 +175,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 134.146,
-      "momentum_ratio": 96.0,
+      "star_ratio": 133.919,
+      "momentum_ratio": 72.75,
       "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "134.15x the stars (49,634 vs 370)",
-        "96.00x the star velocity (57.6/day vs 0.6/day)",
+        "133.92x the stars (49,684 vs 371)",
+        "72.75x the star velocity (58.2/day vs 0.8/day)",
         "no harder to set up (39 vs 66 friction)"
       ],
       "reasons_zh": [],

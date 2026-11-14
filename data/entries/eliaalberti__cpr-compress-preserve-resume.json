@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
-  "days_since_push": 65,
+  "age_days": 253,
+  "days_since_push": 66,
   "health_score": 43,
   "health_components": {
     "popularity": 54.4,
@@ -118,9 +118,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:15+00:00",
+  "fetched_at": "2026-11-14T11:31:42+00:00",
   "categories": [
-    "failover",
     "memory-failover"
   ],
   "primary_category": "memory-failover",

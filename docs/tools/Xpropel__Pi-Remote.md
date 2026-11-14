@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 328 |
-| Star velocity | 3.0/day (history basis, 5d span) |
-| Health score | 53/100 |
+| Stars | 329 |
+| Star velocity | 1.0/day (history basis, 5d span) |
+| Health score | 52/100 |
 | Documentation | 62/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-28 |
-| Last push | 2026-11-09 (3 days ago) |
-| Analyzed README | 8,316 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 8,328 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -39,10 +39,6 @@
 ### GUI / desktop app
 
 > , token management, troubleshooting), see deploy/README.md.
-
-### Cross-agent support
-
-> Mentions Codex, Cursor
 
 ## Setup reality check
 
@@ -79,7 +75,7 @@ Score **62/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 50.3 |
-| momentum | 2.5 |
+| momentum | 0.8 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 66.0 |

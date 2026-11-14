@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
-| Last push | 2026-10-16 (27 days ago) |
+| Last push | 2026-10-16 (28 days ago) |
 | Analyzed README | 5,623 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [Gentleman-Programming/gentle-shell](https://github.com/Gentleman-Programming/gentle-shell)** — Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (4/4).
 
 ## What it solves
 

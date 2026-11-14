@@ -2,7 +2,7 @@
 
 # GizClaw/flowcraft
 
-> A modular Go toolkit for extensible AI applications, long-term memory, provider backends, and local interactive workflows.
+> A Go platform for building AI agents: model calls, tools, sandboxed execution, and declarative graphs — assembled from YAML and owned by your process.
 
 [Repository](https://github.com/GizClaw/flowcraft) · [Back to index](../../README.md) · Category: **None**
 
@@ -14,29 +14,35 @@
 | --- | --- |
 | Stars | 411 |
 | Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 54/100 |
-| Documentation | 69/100 |
+| Health score | 53/100 |
+| Documentation | 62/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Go |
 | Created | 2026-04-14 |
-| Last push | 2026-11-13 (0 days ago) |
-| Analyzed README | 21,853 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 15,730 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** — Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (5/5).
 
 ## What it solves
 
+### Workspace isolation
+
 ### Memory & context
 
-> ssembly: craft.yaml, capabilities, plugin host, host primitives, manager Versioned Go module
+> s core, driver and examples/forge.
 
 ### Skills & plugins
 
-> et, the plugin manifest and permissions, the
-
 ### MCP support
 
-> rkspace, sandbox, deployment/resource assembly, runtime, sessions, and
+> re/agent-graph: the frontier loop,
+
+### Cross-agent support
+
+> Mentions Codex, Cursor
 
 ## Setup reality check
 
@@ -54,7 +60,7 @@
 
 ## Documentation quality
 
-Score **69/100**, based on these detected signals:
+Score **62/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -62,12 +68,10 @@ Score **69/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
-- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - documents changes
 - explains architecture
-- long, detailed README
 
 ## Score breakdown
 
@@ -76,7 +80,7 @@ Score **69/100**, based on these detected signals:
 | popularity | 52.3 |
 | momentum | 0.2 |
 | maintenance | 100.0 |
-| documentation | 69.0 |
+| documentation | 62.0 |
 | accessibility | 72.0 |
 
 ---

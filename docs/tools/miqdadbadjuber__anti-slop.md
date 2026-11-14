@@ -2,7 +2,7 @@
 
 # miqdadbadjuber/anti-slop
 
-> A filter, not a style guide.
+> antislop is a rulebook an AI coding agent reads every session.
 
 [Repository](https://github.com/miqdadbadjuber/anti-slop) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,088 |
-| Star velocity | 92.4/day (history basis, 5d span) |
-| Health score | 81/100 |
-| Documentation | 55/100 |
+| Stars | 9,183 |
+| Star velocity | 90.6/day (history basis, 5d span) |
+| Health score | 80/100 |
+| Documentation | 49/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-08-07 |
 | Last push | 2026-11-13 (0 days ago) |
-| Analyzed README | 15,046 chars from `raw:HEAD/README.md` |
+| Analyzed README | 13,798 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,6 +31,8 @@
 > ll them (this project or everywhere), and which agents you use, then copies the folders and writes the pointer that reloads antislop every session.
 
 ### Agent runtime
+
+> # Anti Slop: Rules for AI Coding Agents
 
 ### MCP support
 
@@ -53,13 +55,12 @@
 
 ## Documentation quality
 
-Score **55/100**, based on these detected signals:
+Score **49/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - documents installation
-- documents configuration
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
@@ -69,10 +70,10 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.2 |
-| momentum | 77.0 |
+| popularity | 79.3 |
+| momentum | 75.5 |
 | maintenance | 100.0 |
-| documentation | 55.0 |
+| documentation | 49.0 |
 | accessibility | 100.0 |
 
 ---

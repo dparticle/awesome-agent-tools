@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,972 |
-| Star velocity | 1.0/day (history basis, 5d span) |
+| Stars | 4,975 |
+| Star velocity | 1.4/day (history basis, 5d span) |
 | Health score | 63/100 |
 | Documentation | 72/100 |
 | Tier | ✅ Recommended |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-14 |
-| Last push | 2026-10-26 (17 days ago) |
+| Last push | 2026-10-26 (18 days ago) |
 | Analyzed README | 30,172 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -73,7 +73,7 @@ Score **72/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 73.9 |
-| momentum | 0.8 |
+| momentum | 1.2 |
 | maintenance | 92.0 |
 | documentation | 72.0 |
 | accessibility | 100.0 |

@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/TokenEconomizer",
   "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
   "homepage": "",
-  "stars": 5997,
-  "forks": 379,
-  "open_issues": 27,
+  "stars": 6082,
+  "forks": 386,
+  "open_issues": 29,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -33,16 +33,16 @@
     "token-optimization"
   ],
   "created_at": "2026-10-13T04:16:50Z",
-  "updated_at": "2026-11-13T12:06:14Z",
+  "updated_at": "2026-11-14T11:22:39Z",
   "pushed_at": "2026-11-12T21:48:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 31,
-  "days_since_push": 0,
+  "age_days": 32,
+  "days_since_push": 1,
   "health_score": 84,
   "health_components": {
-    "popularity": 75.6,
+    "popularity": 75.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
@@ -50,10 +50,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1024,
+    "stars_gained": 669,
     "days_span": 5,
-    "stars_per_day": 204.8,
-    "lifetime_stars_per_day": 193.45,
+    "stars_per_day": 133.8,
+    "lifetime_stars_per_day": 190.06,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -164,13 +164,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:22+00:00",
+  "fetched_at": "2026-11-14T11:30:27+00:00",
   "categories": [
     "desktop-ui",
     "mcp-security",
-    "memory-failover"
+    "notifications"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "notifications",
   "lifecycle": {
     "state": "active",
     "note_en": "",

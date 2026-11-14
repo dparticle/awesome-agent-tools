@@ -6,8 +6,8 @@
   "url": "https://github.com/JSONbored/awesome-claude",
   "description": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
   "homepage": "https://heyclau.de",
-  "stars": 309,
-  "forks": 188,
+  "stars": 310,
+  "forks": 189,
   "open_issues": 79,
   "language": "MDX",
   "license": "MIT",
@@ -34,26 +34,26 @@
     "openclaw-skills"
   ],
   "created_at": "2025-09-15T04:40:32Z",
-  "updated_at": "2026-11-10T09:19:12Z",
+  "updated_at": "2026-11-13T13:43:06Z",
   "pushed_at": "2026-11-03T00:45:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 424,
-  "days_since_push": 10,
+  "age_days": 425,
+  "days_since_push": 11,
   "health_score": 52,
   "health_components": {
     "popularity": 49.8,
-    "momentum": 0.2,
+    "momentum": 0.5,
     "maintenance": 92.0,
     "documentation": 64.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 0.73,
     "basis": "history",
     "is_fast_riser": false
@@ -240,7 +240,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:32+00:00",
+  "fetched_at": "2026-11-14T11:32:04+00:00",
   "categories": [
     "isolation-teams",
     "mobile",

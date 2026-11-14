@@ -6,9 +6,9 @@
   "url": "https://github.com/KKKKhazix/agent-autoloop",
   "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
   "homepage": "",
-  "stars": 5050,
-  "forks": 915,
-  "open_issues": 5,
+  "stars": 5256,
+  "forks": 959,
+  "open_issues": 4,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -25,16 +25,16 @@
     "workflow"
   ],
   "created_at": "2026-11-03T08:02:11Z",
-  "updated_at": "2026-11-13T12:11:12Z",
-  "pushed_at": "2026-11-13T01:07:32Z",
+  "updated_at": "2026-11-14T11:14:03Z",
+  "pushed_at": "2026-11-14T02:01:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 10,
+  "age_days": 11,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 74.1,
+    "popularity": 74.4,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 59.0,
@@ -42,10 +42,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1010,
+    "stars_gained": 1017,
     "days_span": 5,
-    "stars_per_day": 202.0,
-    "lifetime_stars_per_day": 505.0,
+    "stars_per_day": 203.4,
+    "lifetime_stars_per_day": 477.82,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -150,11 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:24+00:00",
+  "fetched_at": "2026-11-14T11:30:28+00:00",
   "categories": [
     "billing",
-    "mcp-security",
-    "memory-failover"
+    "mcp-security"
   ],
   "primary_category": "billing",
   "lifecycle": {

@@ -34,27 +34,27 @@
     "spinabot"
   ],
   "created_at": "2026-06-19T15:18:17Z",
-  "updated_at": "2026-11-13T05:59:40Z",
+  "updated_at": "2026-11-14T03:13:34Z",
   "pushed_at": "2026-11-13T04:10:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
-  "days_since_push": 0,
+  "age_days": 147,
+  "days_since_push": 1,
   "health_score": 60,
   "health_components": {
     "popularity": 81.1,
-    "momentum": 0.5,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 61.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 77.91,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 77.38,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -193,9 +193,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:16+00:00",
+  "fetched_at": "2026-11-14T11:30:18+00:00",
   "categories": [
-    "analytics-3",
+    "desktop-ui-2",
     "memory-failover",
     "sharing"
   ],

@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,773 |
-| Star velocity | 106.8/day (history basis, 5d span) |
-| Health score | 78/100 |
+| Stars | 2,856 |
+| Star velocity | 92.6/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 61/100 |
-| Tier | 🏆 Flagship |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-11-13 (0 days ago) |
-| Analyzed README | 21,528 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 20,710 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -60,7 +60,7 @@
 
 ### GUI / desktop app
 
-> bar Supported Install ds-harness-remote@0.6.5; this computer can also be the Host
+> ote sidebar Supported Control other devices or act as a Host—the choice is yours!
 
 ### Cross-agent support
 
@@ -68,17 +68,15 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 37/100)
+- **Difficulty:** 🟢 Easy (friction score 28/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
 **Signals that make it easy:** native installer / package
 
-**Signals that add work:** go build
-
 **Configuration required:** sign-in required, process manager
 
-*Some setup. install via native installer / package; needs go build; configure sign-in required, process manager*
+*Easy. install via native installer / package; configure sign-in required, process manager*
 
 ## Documentation quality
 
@@ -100,11 +98,11 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 68.9 |
-| momentum | 89.0 |
+| popularity | 69.1 |
+| momentum | 77.2 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
-| accessibility | 63.0 |
+| accessibility | 72.0 |
 
 ---
 

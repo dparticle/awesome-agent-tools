@@ -12,11 +12,11 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,772 |
-| Star velocity | 82.0/day (history basis, 5d span) |
-| Health score | 78/100 |
+| Stars | 15,831 |
+| Star velocity | 73.8/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 71/100 |
-| Tier | 🏆 Flagship |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
@@ -103,7 +103,7 @@ Score **71/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 84.0 |
-| momentum | 68.3 |
+| momentum | 61.5 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 54.0 |

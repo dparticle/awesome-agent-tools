@@ -2,7 +2,7 @@
 
 # tonhowtf/omniget
 
-> OmniGet is a free, open source (GPL-3.0) desktop app for Windows, macOS and Linux.
+> · Português (Brasil)
 
 [Repository](https://github.com/tonhowtf/omniget) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,89 +12,75 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,393 |
-| Star velocity | 52.5/day (lifetime basis, 274d span) |
-| Health score | 69/100 |
-| Documentation | 62/100 |
+| Stars | 14,423 |
+| Star velocity | 52.5/day (lifetime basis, 275d span) |
+| Health score | 71/100 |
+| Documentation | 44/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | GPL-3.0 |
 | Language | Rust |
 | Created | 2026-02-11 |
-| Last push | 2026-09-27 (47 days ago) |
-| Analyzed README | 36,547 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-13 (0 days ago) |
+| Analyzed README | 15,233 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (5/5).
 
 ## What it solves
-
-### Quota & usage management
-
-> el, and its permission requests show up in OmniGet.
-
-### Automatic failover
-
-> opy the Pairing token from OmniGet and paste it there.
 
 ### Agent runtime
 
 ### MCP support
 
-> Or ask Claude to do it for you.
-
-### Security & isolation
-
-> the terminal: omniget-cli
+> ck as structured data, long ones are cut to a limit and saved to a file, and every error says what to do next.
 
 ### GUI / desktop app
 
-> Every build is on the Releases page.
+> ugin that fetches and transcribes media from a link, with or without the desktop app.
 
-### Notifications
+### Voice input
 
-> k exits 0 or the rounds or minutes run out.
+> sits in your menu bar or tray.
 
 ### Cross-agent support
 
-> Mentions Aider, Claude Code, Cline, Codex
+> Mentions Claude Code, Codex, Cursor, Gemini CLI
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 20/100)
+- **Difficulty:** 🟢 Easy (friction score 23/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 
-**Signals that make it easy:** Homebrew install, winget install, native installer / package
+**Signals that make it easy:** native installer / package
 
-**Signals that add work:** git clone (build from source), pnpm install/build
+**Signals that add work:** pnpm install/build
 
-**Configuration required:** sign-in required, database dependency, server/reverse-proxy setup
+**Configuration required:** config.json/yaml/toml, sign-in required
 
-*Easy. install via Homebrew install, winget install; needs git clone (build from source), pnpm install/build; configure sign-in required, database dependency; one-click setup*
+*Easy. install via native installer / package; needs pnpm install/build; configure config.json/yaml/toml, sign-in required; one-click setup*
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **44/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - documents installation
 - documents configuration
-- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - has a Chinese translation
-- documents changes
-- reports benchmarks
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 83.2 |
-| momentum | 43.8 |
-| maintenance | 78.0 |
-| documentation | 62.0 |
-| accessibility | 80.0 |
+| momentum | 43.7 |
+| maintenance | 100.0 |
+| documentation | 44.0 |
+| accessibility | 85.0 |
 
 ---
 

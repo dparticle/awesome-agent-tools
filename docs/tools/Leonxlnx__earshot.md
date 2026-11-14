@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,705 |
-| Star velocity | 97.0/day (history basis, 5d span) |
-| Health score | 76/100 |
+| Stars | 4,786 |
+| Star velocity | 93.0/day (history basis, 5d span) |
+| Health score | 75/100 |
 | Documentation | 62/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-10-15 |
-| Last push | 2026-11-06 (6 days ago) |
+| Last push | 2026-11-06 (7 days ago) |
 | Analyzed README | 32,598 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -75,8 +77,8 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.5 |
-| momentum | 80.8 |
+| popularity | 73.6 |
+| momentum | 77.5 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 48.0 |

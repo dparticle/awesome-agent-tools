@@ -33,21 +33,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1061,
+  "age_days": 1062,
   "days_since_push": 2,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
-    "momentum": 0.3,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.21,
     "basis": "history",
     "is_fast_riser": false
@@ -146,9 +146,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:00+00:00",
+  "fetched_at": "2026-11-14T11:31:20+00:00",
   "categories": [
-    "analytics-3",
+    "mcp-security",
     "sharing"
   ],
   "primary_category": "sharing",
@@ -174,14 +174,14 @@
         "parallel-execution",
         "self-hosted"
       ],
-      "star_ratio": 9.33,
-      "momentum_ratio": 121.0,
+      "star_ratio": 9.345,
+      "momentum_ratio": 924.0,
       "setup_delta": -41,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "9.33x the stars (12,017 vs 1,288)",
-        "121.00x the star velocity (48.4/day vs 0.4/day)",
+        "9.35x the stars (12,037 vs 1,288)",
+        "924.00x the star velocity (46.2/day vs 0.0/day)",
         "no harder to set up (32 vs 73 friction)"
       ],
       "reasons_zh": [],

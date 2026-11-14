@@ -6,9 +6,9 @@
   "url": "https://github.com/marcusquinn/aidevops",
   "description": "Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, security, and 24/7 results. Open-source first. SOTA everything. The best AI harness for GitHub & teamwork.",
   "homepage": "https://www.aidevops.sh",
-  "stars": 453,
+  "stars": 455,
   "forks": 79,
-  "open_issues": 34,
+  "open_issues": 38,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -33,16 +33,16 @@
     "opencode-plugin"
   ],
   "created_at": "2025-11-09T05:15:11Z",
-  "updated_at": "2026-11-13T09:52:37Z",
-  "pushed_at": "2026-11-13T12:12:19Z",
+  "updated_at": "2026-11-14T04:58:37Z",
+  "pushed_at": "2026-11-14T11:27:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 369,
+  "age_days": 370,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
-    "popularity": 53.1,
+    "popularity": 53.2,
     "momentum": 2.0,
     "maintenance": 100.0,
     "documentation": 76.0,
@@ -186,10 +186,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:19+00:00",
+  "fetched_at": "2026-11-14T11:31:47+00:00",
   "categories": [
-    "analytics-3",
-    "billing",
+    "billing-2",
+    "desktop-ui-2",
     "isolation-teams"
   ],
   "primary_category": "isolation-teams",

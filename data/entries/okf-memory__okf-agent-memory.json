@@ -33,32 +33,32 @@
   ],
   "created_at": "2026-09-05T21:26:04Z",
   "updated_at": "2026-11-13T10:02:50Z",
-  "pushed_at": "2026-11-05T22:45:47Z",
+  "pushed_at": "2026-11-14T10:03:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 68,
-  "days_since_push": 7,
-  "health_score": 55,
+  "age_days": 69,
+  "days_since_push": 0,
+  "health_score": 54,
   "health_components": {
     "popularity": 58.8,
-    "momentum": 1.2,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 12.74,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 12.55,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "okf-memory/okf-agent-memory",
-    "readme_chars": 21324,
+    "readme_chars": 21110,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -129,7 +129,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.375
+      "external_link_ratio": 0.332
     },
     "highlights": [
       "Agent Action Grammar (AAG): Ultra-compact, deterministic ASCII micro-syntax saving ~78–85% tokens compared to natural language prompt instructions.",
@@ -146,27 +146,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:06+00:00",
+  "fetched_at": "2026-11-14T11:31:29+00:00",
   "categories": [
-    "desktop-ui",
     "desktop-ui-2",
     "memory-failover"
   ],
   "primary_category": "memory-failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "huytieu/COG-second-brain",
+    "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 HKUDS/DeepTutor 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "HKUDS/DeepTutor",
     "challenger": "",
     "supersede": {
       "incumbent": "okf-memory/okf-agent-memory",
-      "challenger": "huytieu/cog-second-brain",
+      "challenger": "hkuds/deeptutor",
       "incumbent_name": "okf-memory/okf-agent-memory",
-      "challenger_name": "huytieu/COG-second-brain",
+      "challenger_name": "HKUDS/DeepTutor",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -175,15 +174,15 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 1.647,
-      "momentum_ratio": 11.857,
-      "setup_delta": -14,
-      "dominance": 0.863,
+      "star_ratio": 68.234,
+      "momentum_ratio": 230.825,
+      "setup_delta": 3,
+      "dominance": 0.985,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.65x the stars (1,426 vs 866)",
-        "11.86x the star velocity (16.6/day vs 1.4/day)",
-        "no harder to set up (31 vs 45 friction)"
+        "68.23x the stars (59,091 vs 866)",
+        "230.82x the star velocity (184.7/day vs 0.8/day)",
+        "slightly heavier setup (+3 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -196,19 +195,26 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
+          "multi-account-switching",
           "multi-agent-orchestration",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
           "skills-plugins",
-          "team-collaboration"
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
         ],
-        "incumbent_health": 55,
-        "challenger_health": 59,
+        "incumbent_health": 54,
+        "challenger_health": 90,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 31
+        "challenger_setup_score": 48
       }
     }
   }

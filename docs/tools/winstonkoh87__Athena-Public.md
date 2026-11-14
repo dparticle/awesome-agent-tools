@@ -2,7 +2,7 @@
 
 # winstonkoh87/Athena-Public
 
-> Turn stateless LLMs into a stateful, compounding AI agent — portable across any IDE.
+> Local-first memory, decision engine, and governance harness for AI agents — portable across any IDE.
 
 [Repository](https://github.com/winstonkoh87/Athena-Public) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 622 |
-| Star velocity | 1.9/day (lifetime basis, 329d span) |
+| Stars | 624 |
+| Star velocity | 1.9/day (lifetime basis, 330d span) |
 | Health score | 56/100 |
-| Documentation | 72/100 |
+| Documentation | 73/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-12-18 |
-| Last push | 2026-11-12 (0 days ago) |
-| Analyzed README | 14,599 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-14 (0 days ago) |
+| Analyzed README | 17,421 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,7 +30,7 @@
 
 ### MCP support
 
-> Claude Code, Antigravity, Cursor, Gemini CLI, and VS Code.
+> aude Code, Antigravity, Cursor, Gemini CLI, and VS Code.
 
 ### Cross-agent support
 
@@ -53,7 +53,7 @@
 
 ## Documentation quality
 
-Score **72/100**, based on these detected signals:
+Score **73/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -76,7 +76,7 @@ Score **72/100**, based on these detected signals:
 | popularity | 55.9 |
 | momentum | 1.6 |
 | maintenance | 100.0 |
-| documentation | 72.0 |
+| documentation | 73.0 |
 | accessibility | 69.0 |
 
 ---

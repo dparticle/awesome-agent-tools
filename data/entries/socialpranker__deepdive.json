@@ -30,12 +30,12 @@
   ],
   "created_at": "2026-05-21T11:43:13Z",
   "updated_at": "2026-11-12T10:34:14Z",
-  "pushed_at": "2026-11-09T13:24:20Z",
+  "pushed_at": "2026-11-13T18:06:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 176,
-  "days_since_push": 3,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 51.3,
@@ -55,7 +55,7 @@
   },
   "analysis": {
     "full_name": "Socialpranker/deepdive",
-    "readme_chars": 32031,
+    "readme_chars": 32103,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -119,7 +119,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.468
+      "external_link_ratio": 0.467
     },
     "highlights": [
       "Evidence-фильтр (фаза 5.5) — CRAG-классификатор keep/drop по паре (тезис, источник) перед синтезом: наивная подача всего найденного снижает качество (Search-o1 33%→24%), в синтез идут тольк…",
@@ -136,9 +136,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:26+00:00",
+  "fetched_at": "2026-11-14T11:31:56+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "model-routing"
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {
@@ -162,14 +163,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 135.243,
-      "momentum_ratio": 144.0,
+      "star_ratio": 135.379,
+      "momentum_ratio": 145.5,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "135.24x the stars (49,634 vs 367)",
-        "144.00x the star velocity (57.6/day vs 0.4/day)",
+        "135.38x the stars (49,684 vs 367)",
+        "145.50x the star velocity (58.2/day vs 0.4/day)",
         "no harder to set up (39 vs 51 friction)"
       ],
       "reasons_zh": [],

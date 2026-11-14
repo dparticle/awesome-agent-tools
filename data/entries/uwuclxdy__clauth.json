@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 328,
   "forks": 54,
-  "open_issues": 37,
+  "open_issues": 33,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -30,33 +30,33 @@
     "vibecoded"
   ],
   "created_at": "2026-04-28T12:20:42Z",
-  "updated_at": "2026-11-12T23:05:28Z",
-  "pushed_at": "2026-11-13T11:22:44Z",
+  "updated_at": "2026-11-14T10:49:00Z",
+  "pushed_at": "2026-11-14T11:11:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "mommy",
-  "age_days": 198,
+  "age_days": 199,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 50.3,
-    "momentum": 2.8,
+    "momentum": 2.3,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 3.4,
-    "lifetime_stars_per_day": 1.66,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 1.65,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "uwuclxdy/clauth",
-    "readme_chars": 16152,
+    "readme_chars": 16155,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -164,10 +164,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:15:27+00:00",
+  "fetched_at": "2026-11-14T11:31:59+00:00",
   "categories": [
-    "analytics",
     "billing",
+    "isolation-teams",
     "mobile"
   ],
   "primary_category": "billing",

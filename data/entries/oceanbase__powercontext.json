@@ -6,8 +6,8 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1640,
-  "forks": 646,
+  "stars": 1649,
+  "forks": 651,
   "open_issues": 137,
   "language": "Python",
   "license": "Apache-2.0",
@@ -29,27 +29,27 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-13T09:31:10Z",
-  "pushed_at": "2026-11-13T10:03:03Z",
+  "updated_at": "2026-11-14T09:44:46Z",
+  "pushed_at": "2026-11-14T11:23:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 368,
+  "age_days": 369,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 56,
   "health_components": {
     "popularity": 64.3,
-    "momentum": 19.3,
+    "momentum": 16.2,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 31.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 116,
+    "stars_gained": 97,
     "days_span": 5,
-    "stars_per_day": 23.2,
-    "lifetime_stars_per_day": 4.46,
+    "stars_per_day": 19.4,
+    "lifetime_stars_per_day": 4.47,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -150,22 +150,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-13T12:14:56+00:00",
+  "fetched_at": "2026-11-14T11:31:14+00:00",
   "categories": [
     "memory-failover"
   ],
   "primary_category": "memory-failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 xerj-org/xerj 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "xerj-org/xerj",
+    "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 HKUDS/DeepTutor 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "HKUDS/DeepTutor",
     "challenger": "",
     "supersede": {
       "incumbent": "oceanbase/powercontext",
-      "challenger": "xerj-org/xerj",
+      "challenger": "hkuds/deeptutor",
       "incumbent_name": "oceanbase/powercontext",
-      "challenger_name": "xerj-org/xerj",
+      "challenger_name": "HKUDS/DeepTutor",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -176,15 +176,15 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 11.59,
-      "momentum_ratio": 3.517,
-      "setup_delta": -36,
-      "dominance": 0.956,
+      "star_ratio": 35.834,
+      "momentum_ratio": 9.519,
+      "setup_delta": -21,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "11.59x the stars (19,008 vs 1,640)",
-        "3.52x the star velocity (81.6/day vs 23.2/day)",
-        "no harder to set up (33 vs 69 friction)"
+        "35.83x the stars (59,091 vs 1,649)",
+        "9.52x the star velocity (184.7/day vs 19.4/day)",
+        "no harder to set up (48 vs 69 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -196,15 +196,26 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context"
+          "memory-context",
+          "model-routing",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
         ],
-        "incumbent_health": 57,
-        "challenger_health": 80,
+        "incumbent_health": 56,
+        "challenger_health": 90,
         "incumbent_setup_score": 69,
-        "challenger_setup_score": 33
+        "challenger_setup_score": 48
       }
     }
   }

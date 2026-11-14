@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 352 |
-| Star velocity | 0.8/day (lifetime basis, 469d span) |
+| Stars | 353 |
+| Star velocity | 0.8/day (lifetime basis, 470d span) |
 | Health score | 55/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -22,9 +22,9 @@
 | Language | TypeScript |
 | Created | 2025-08-01 |
 | Last push | 2026-11-13 (0 days ago) |
-| Analyzed README | 17,495 chars from `raw:HEAD/README.md` |
+| Analyzed README | 17,488 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -83,7 +83,7 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.9 |
+| popularity | 51.0 |
 | momentum | 0.6 |
 | maintenance | 100.0 |
 | documentation | 55.0 |

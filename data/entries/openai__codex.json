@@ -6,19 +6,19 @@
   "url": "https://github.com/openai/codex",
   "description": "Lightweight coding agent that runs in your terminal",
   "homepage": "",
-  "stars": 135157,
-  "forks": 21433,
-  "open_issues": 27513,
+  "stars": 135241,
+  "forks": 21449,
+  "open_issues": 27612,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2025-04-13T05:37:54Z",
-  "updated_at": "2026-11-13T12:05:36Z",
-  "pushed_at": "2026-11-13T08:26:17Z",
+  "updated_at": "2026-11-14T11:26:48Z",
+  "pushed_at": "2026-11-14T09:44:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 579,
+  "age_days": 580,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1531,
+    "stars_gained": 1042,
     "days_span": 5,
-    "stars_per_day": 306.2,
-    "lifetime_stars_per_day": 233.43,
+    "stars_per_day": 208.4,
+    "lifetime_stars_per_day": 233.17,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -126,11 +126,10 @@
     "seed_reason": "OpenAI's local coding agent.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-13T12:14:11+00:00",
+  "fetched_at": "2026-11-14T11:30:11+00:00",
   "categories": [
     "desktop-ui",
-    "failover",
-    "model-routing"
+    "failover"
   ],
   "primary_category": "failover",
   "lifecycle": {
