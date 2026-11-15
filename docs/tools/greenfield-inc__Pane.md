@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 627 |
-| Star velocity | 3.4/day (history basis, 5d span) |
+| Stars | 629 |
+| Star velocity | 3.2/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
@@ -21,14 +21,14 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-02-27 |
-| Last push | 2026-11-14 (0 days ago) |
-| Analyzed README | 44,016 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-15 (0 days ago) |
+| Analyzed README | 45,976 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Mobile access
 
-> beside the agent; the preview is that Pane's tab, so it follows the Pane.
+> -hosted and open source: the host machine runs the repos, terminals, git state, files, agent credentials, and compute.
 
 ### Multi-agent orchestration
 
@@ -41,6 +41,10 @@
 ### Workspace isolation
 
 > ack of which agent is on which branch.
+
+### Model / provider routing
+
+> estions and exits reach this computer's runpane watch, Approvals and phone, and your answers go back to its tab.
 
 ### Session persistence
 
@@ -107,8 +111,8 @@ Score **65/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.9 |
-| momentum | 2.8 |
+| popularity | 56.0 |
+| momentum | 2.7 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 79.0 |

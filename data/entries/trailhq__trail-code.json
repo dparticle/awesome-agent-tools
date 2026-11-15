@@ -6,9 +6,9 @@
   "url": "https://github.com/trailhq/Trail-Code",
   "description": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.",
   "homepage": "https://trailhq.com/trail-code",
-  "stars": 11266,
-  "forks": 1005,
-  "open_issues": 228,
+  "stars": 11283,
+  "forks": 1010,
+  "open_issues": 229,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,27 +31,27 @@
     "tree-sitter"
   ],
   "created_at": "2026-07-03T13:44:21Z",
-  "updated_at": "2026-11-14T10:19:29Z",
-  "pushed_at": "2026-11-14T10:33:27Z",
+  "updated_at": "2026-11-15T10:08:07Z",
+  "pushed_at": "2026-11-15T06:04:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 133,
+  "age_days": 134,
   "days_since_push": 0,
   "health_score": 62,
   "health_components": {
     "popularity": 81.0,
-    "momentum": 17.7,
+    "momentum": 17.5,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 42.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 106,
+    "stars_gained": 105,
     "days_span": 5,
-    "stars_per_day": 21.2,
-    "lifetime_stars_per_day": 84.71,
+    "stars_per_day": 21.0,
+    "lifetime_stars_per_day": 84.2,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -162,10 +162,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:19+00:00",
+  "fetched_at": "2026-11-15T11:58:46+00:00",
   "categories": [
     "billing-2",
-    "mcp-security",
+    "desktop-ui-2",
     "model-routing"
   ],
   "primary_category": "billing-2",

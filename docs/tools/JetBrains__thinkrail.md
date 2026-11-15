@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,240 |
-| Star velocity | 41.6/day (history basis, 5d span) |
-| Health score | 71/100 |
+| Stars | 8,261 |
+| Star velocity | 38.6/day (history basis, 5d span) |
+| Health score | 69/100 |
 | Documentation | 55/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-08 |
-| Last push | 2026-11-14 (0 days ago) |
-| Analyzed README | 21,061 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-15 (0 days ago) |
+| Analyzed README | 21,772 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> r group, and ⌃ to the terminal.
+> → Keyboard lists them all too.
 
 ### Workspace isolation
 
@@ -62,7 +62,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 11/100)
+- **Difficulty:** 🟢 Turnkey (friction score 18/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/JetBrains/thinkrail/main/install.sh | bash`
@@ -73,7 +73,7 @@
 
 **Configuration required:** environment variables, OAuth login flow, sign-in required
 
-*Turnkey. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source); configure environment variables, OAuth login flow; one-click setup*
+*Turnkey. install via curl | sh installer, PowerShell irm | iex installer; needs git clone (build from source); configure environment variables, OAuth login flow; GUI application*
 
 ## Documentation quality
 
@@ -95,10 +95,10 @@ Score **55/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 78.3 |
-| momentum | 34.7 |
+| momentum | 32.2 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
-| accessibility | 97.0 |
+| accessibility | 90.0 |
 
 ---
 

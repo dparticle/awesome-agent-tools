@@ -6,8 +6,8 @@
   "url": "https://github.com/vAPI-Network/vapi-network",
   "description": "Buyer-controlled client for x402 API payments in USDC on Base.",
   "homepage": "https://vapinetwork.ai",
-  "stars": 4491,
-  "forks": 157,
+  "stars": 4656,
+  "forks": 161,
   "open_issues": 10,
   "language": "TypeScript",
   "license": "Apache-2.0",
@@ -20,28 +20,28 @@
     "x402"
   ],
   "created_at": "2026-10-02T13:05:19Z",
-  "updated_at": "2026-11-14T11:28:32Z",
+  "updated_at": "2026-11-15T11:56:04Z",
   "pushed_at": "2026-11-10T12:02:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 42,
-  "days_since_push": 3,
-  "health_score": 79,
+  "age_days": 43,
+  "days_since_push": 4,
+  "health_score": 82,
   "health_components": {
-    "popularity": 73.0,
-    "momentum": 89.1,
+    "popularity": 73.4,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 60.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4491,
-    "days_span": 42,
-    "stars_per_day": 106.93,
-    "lifetime_stars_per_day": 106.93,
-    "basis": "lifetime",
+    "stars_gained": 818,
+    "days_span": 5,
+    "stars_per_day": 163.6,
+    "lifetime_stars_per_day": 108.28,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -140,10 +140,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:31+00:00",
+  "fetched_at": "2026-11-15T11:58:58+00:00",
   "categories": [
     "billing-2",
-    "failover"
+    "failover",
+    "mcp-security"
   ],
   "primary_category": "billing-2",
   "lifecycle": {

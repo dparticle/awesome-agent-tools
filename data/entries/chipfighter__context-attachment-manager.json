@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "full_name": "chipfighter/context-attachment-manager",
+  "name": "context-attachment-manager",
+  "owner": "chipfighter",
+  "url": "https://github.com/chipfighter/context-attachment-manager",
+  "description": "A local plugin for image-heavy chats in Codex, Claude Code and other AI agents: earlier images become short placeholders instead of going out with every message, the model fetches the original back by its ID (also after compaction), and the prompt cache keeps working.",
+  "homepage": "",
+  "stars": 803,
+  "forks": 74,
+  "open_issues": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "codex",
+    "codex-cli",
+    "codex-plugin",
+    "coding-agent",
+    "context-engineering",
+    "context-management",
+    "developer-tools",
+    "gemini-cli",
+    "image-generation",
+    "llm",
+    "mcp",
+    "multimodal",
+    "openai-codex",
+    "opencode",
+    "prompt-caching",
+    "token-optimization"
+  ],
+  "created_at": "2026-09-24T05:00:09Z",
+  "updated_at": "2026-11-14T14:28:30Z",
+  "pushed_at": "2026-11-14T22:12:19Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 52,
+  "days_since_push": 0,
+  "health_score": 55,
+  "health_components": {
+    "popularity": 58.1,
+    "momentum": 12.9,
+    "maintenance": 100.0,
+    "documentation": 46.0,
+    "accessibility": 70.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 803,
+    "days_span": 52,
+    "stars_per_day": 15.44,
+    "lifetime_stars_per_day": 15.44,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "chipfighter/context-attachment-manager",
+    "readme_chars": 10711,
+    "capabilities": [
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "agent-runtime": "r code and docs, but we have not tested them live yet.",
+      "mcp-support": "",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Gemini CLI"
+    },
+    "capability_hits": {
+      "agent-runtime": 1,
+      "mcp-support": 1,
+      "cross-agent-support": 8
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Web"
+      ],
+      "note_en": "Easy. No setup signals found in the README.",
+      "note_zh": "较易上手。README 中没有找到安装/配置说明。"
+    },
+    "doc_score": 46,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "documents changes"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cline / Roo",
+      "Qwen Code",
+      "Goose"
+    ],
+    "summary_en": "An agent normally sends every earlier image again with each message, so a long chat with many images gets slow and can stop going through.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.214
+    },
+    "highlights": [
+      "Nothing is deleted: your original images and chat history stay as they are.",
+      "The model fetches what it needs: when it has to look at an earlier image again, it gets the original back by its ID.",
+      "The cache keeps working: a placeholder is written once and then stays the same, so the earlier chat is still read from the model's prompt cache.",
+      "It can tell images apart: the model notes one line on what each image shows, plus your comments on it."
+    ],
+    "summary_zh_native": "Agent 每发一条消息，通常会把之前所有的图再发一遍，图一多，对话就越来越慢，最后可能发不出去。这个插件给每张图编号（IMG-001、IMG-002……），之前的图改成发一段简短的占位：",
+    "highlights_zh": [
+      "凭印象找图：搜“雨夜”或“脸最好”，按记得的特征和评价找回来。",
+      "占位符只写一次：图片在它出现的下一轮换成占位符，只有那一轮剩下的内容重新处理一次。",
+      "取图不动前面的内容：原图加在当前这一轮的末尾，占位符留在原处。",
+      "尽量不打断缓存：占位符只写一次，之后不再变，之前的对话照常从模型服务的缓存（prompt cache）读取。"
+    ],
+    "chinese_readme": "README_CN.md"
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-15T11:59:54+00:00",
+  "categories": [
+    "model-routing"
+  ],
+  "primary_category": "model-routing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

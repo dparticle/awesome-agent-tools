@@ -8,7 +8,7 @@
   "homepage": "https://thememoria.ai/",
   "stars": 627,
   "forks": 80,
-  "open_issues": 59,
+  "open_issues": 60,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -25,8 +25,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 249,
-  "days_since_push": 0,
+  "age_days": 250,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 55.9,
@@ -40,7 +40,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 2.52,
+    "lifetime_stars_per_day": 2.51,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -139,7 +139,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:36+00:00",
+  "fetched_at": "2026-11-15T12:00:01+00:00",
   "categories": [
     "mcp-security",
     "sharing"
@@ -168,14 +168,14 @@
         "self-hosted",
         "worktree-isolation"
       ],
-      "star_ratio": 482.671,
-      "momentum_ratio": 898.0,
+      "star_ratio": 484.01,
+      "momentum_ratio": 993.667,
       "setup_delta": -6,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "482.67x the stars (302,635 vs 627)",
-        "898.00x the star velocity (538.8/day vs 0.6/day)",
+        "484.01x the stars (303,474 vs 627)",
+        "993.67x the star velocity (596.2/day vs 0.6/day)",
         "no harder to set up (57 vs 63 friction)"
       ],
       "reasons_zh": [],

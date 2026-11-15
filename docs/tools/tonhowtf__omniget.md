@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,423 |
-| Star velocity | 52.5/day (lifetime basis, 275d span) |
+| Stars | 14,446 |
+| Star velocity | 52.3/day (lifetime basis, 276d span) |
 | Health score | 71/100 |
 | Documentation | 44/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | GPL-3.0 |
 | Language | Rust |
 | Created | 2026-02-11 |
-| Last push | 2026-11-13 (0 days ago) |
+| Last push | 2026-11-13 (1 days ago) |
 | Analyzed README | 15,233 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (5/5).
@@ -77,7 +77,7 @@ Score **44/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.2 |
-| momentum | 43.7 |
+| momentum | 43.6 |
 | maintenance | 100.0 |
 | documentation | 44.0 |
 | accessibility | 85.0 |

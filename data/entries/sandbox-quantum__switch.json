@@ -6,9 +6,9 @@
   "url": "https://github.com/sandbox-quantum/switch",
   "description": "Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.",
   "homepage": "https://www.switchagents.ai",
-  "stars": 4521,
+  "stars": 4532,
   "forks": 353,
-  "open_issues": 656,
+  "open_issues": 652,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -27,27 +27,27 @@
     "slack"
   ],
   "created_at": "2026-07-16T09:52:46Z",
-  "updated_at": "2026-11-14T11:16:25Z",
-  "pushed_at": "2026-11-14T10:49:24Z",
+  "updated_at": "2026-11-15T09:53:13Z",
+  "pushed_at": "2026-11-15T10:38:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 121,
+  "age_days": 122,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 69,
   "health_components": {
     "popularity": 73.1,
-    "momentum": 43.7,
+    "momentum": 32.2,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 262,
+    "stars_gained": 193,
     "days_span": 5,
-    "stars_per_day": 52.4,
-    "lifetime_stars_per_day": 37.36,
+    "stars_per_day": 38.6,
+    "lifetime_stars_per_day": 37.15,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:30+00:00",
+  "fetched_at": "2026-11-15T11:58:58+00:00",
   "categories": [
     "desktop-ui",
     "sharing"
@@ -172,14 +172,14 @@
         "self-hosted",
         "usage-analytics"
       ],
-      "star_ratio": 2.728,
-      "momentum_ratio": 1.244,
+      "star_ratio": 2.731,
+      "momentum_ratio": 1.539,
       "setup_delta": 11,
-      "dominance": 0.751,
+      "dominance": 0.777,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.73x the stars (12,332 vs 4,521)",
-        "1.24x the star velocity (65.2/day vs 52.4/day)",
+        "2.73x the stars (12,379 vs 4,532)",
+        "1.54x the star velocity (59.4/day vs 38.6/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -206,8 +206,8 @@
           "skills-plugins",
           "usage-analytics"
         ],
-        "incumbent_health": 72,
-        "challenger_health": 75,
+        "incumbent_health": 69,
+        "challenger_health": 74,
         "incumbent_setup_score": 9,
         "challenger_setup_score": 20
       }

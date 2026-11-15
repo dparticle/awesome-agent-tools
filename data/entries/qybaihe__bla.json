@@ -6,9 +6,9 @@
   "url": "https://github.com/qybaihe/bla",
   "description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
   "homepage": "https://bla.tools",
-  "stars": 5619,
-  "forks": 688,
-  "open_issues": 2,
+  "stars": 5741,
+  "forks": 707,
+  "open_issues": 7,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -33,16 +33,16 @@
     "webassembly"
   ],
   "created_at": "2026-10-25T05:25:45Z",
-  "updated_at": "2026-11-14T11:13:08Z",
-  "pushed_at": "2026-11-14T11:03:35Z",
+  "updated_at": "2026-11-15T11:41:56Z",
+  "pushed_at": "2026-11-14T18:26:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 20,
+  "age_days": 21,
   "days_since_push": 0,
-  "health_score": 85,
+  "health_score": 86,
   "health_components": {
-    "popularity": 75.0,
+    "popularity": 75.2,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 77.0,
@@ -50,10 +50,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1509,
+    "stars_gained": 976,
     "days_span": 5,
-    "stars_per_day": 301.8,
-    "lifetime_stars_per_day": 280.95,
+    "stars_per_day": 195.2,
+    "lifetime_stars_per_day": 273.38,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -156,13 +156,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:27+00:00",
+  "fetched_at": "2026-11-15T11:58:55+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "mcp-security"
+    "model-routing"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

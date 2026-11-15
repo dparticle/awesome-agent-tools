@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 165,
-  "days_since_push": 28,
+  "age_days": 166,
+  "days_since_push": 29,
   "health_score": 47,
   "health_components": {
     "popularity": 54.1,
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.08,
+    "lifetime_stars_per_day": 3.06,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,27 +134,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:43+00:00",
+  "fetched_at": "2026-11-15T12:00:12+00:00",
   "categories": [
     "desktop-ui-2",
-    "model-routing",
-    "notifications"
+    "mcp-security",
+    "model-routing"
   ],
-  "primary_category": "notifications",
+  "primary_category": "mcp-security",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 Gentleman-Programming/gentle-shell 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "Gentleman-Programming/gentle-shell",
+    "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 garrytan/gstack 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "garrytan/gstack",
     "challenger": "",
     "supersede": {
       "incumbent": "deuz-ai/deuz-sdk",
-      "challenger": "gentleman-programming/gentle-shell",
+      "challenger": "garrytan/gstack",
       "incumbent_name": "Deuz-AI/Deuz-SDK",
-      "challenger_name": "Gentleman-Programming/gentle-shell",
+      "challenger_name": "garrytan/gstack",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -162,15 +162,15 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 5.102,
-      "momentum_ratio": 2004.0,
-      "setup_delta": -7,
-      "dominance": 1.0,
+      "star_ratio": 278.776,
+      "momentum_ratio": 2348.0,
+      "setup_delta": 2,
+      "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "5.10x the stars (2,592 vs 508)",
-        "2004.00x the star velocity (100.2/day vs 0.0/day)",
-        "no harder to set up (30 vs 37 friction)"
+        "278.78x the stars (141,618 vs 508)",
+        "2348.00x the star velocity (117.4/day vs 0.0/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -183,22 +183,20 @@
         "challenger_capabilities": [
           "agent-runtime",
           "auto-failover",
-          "gui-desktop",
+          "cross-agent-support",
           "mcp-support",
           "memory-context",
           "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "parallel-execution",
-          "remote-control",
+          "security-isolation",
           "skills-plugins",
-          "voice-input",
           "worktree-isolation"
         ],
         "incumbent_health": 47,
-        "challenger_health": 78,
+        "challenger_health": 90,
         "incumbent_setup_score": 37,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 39
       }
     }
   }

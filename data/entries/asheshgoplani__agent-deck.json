@@ -6,9 +6,9 @@
   "url": "https://github.com/asheshgoplani/agent-deck",
   "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
   "homepage": "https://discord.gg/e4xSs6NBN8",
-  "stars": 1256,
+  "stars": 1260,
   "forks": 226,
-  "open_issues": 8,
+  "open_issues": 3,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -32,134 +32,88 @@
     "tui"
   ],
   "created_at": "2025-12-03T17:08:12Z",
-  "updated_at": "2026-11-14T08:56:39Z",
-  "pushed_at": "2026-11-14T11:26:22Z",
+  "updated_at": "2026-11-15T04:42:59Z",
+  "pushed_at": "2026-11-15T08:26:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 345,
+  "age_days": 346,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 60,
   "health_components": {
     "popularity": 62.0,
-    "momentum": 3.5,
+    "momentum": 2.7,
     "maintenance": 100.0,
-    "documentation": 81.0,
-    "accessibility": 52.0
+    "documentation": 60.0,
+    "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 4.2,
+    "stars_per_day": 3.2,
     "lifetime_stars_per_day": 3.64,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "asheshgoplani/agent-deck",
-    "readme_chars": 100530,
+    "readme_chars": 5251,
     "capabilities": [
-      "multi-account-switching",
-      "quota-management",
-      "auto-failover",
       "remote-control",
-      "multi-agent-orchestration",
-      "parallel-execution",
+      "mobile-access",
       "worktree-isolation",
-      "model-routing",
       "usage-analytics",
       "session-persistence",
-      "skills-plugins",
       "agent-runtime",
       "mcp-support",
-      "security-isolation",
-      "self-hosted",
       "gui-desktop",
-      "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "conductor/group/env chain), so a session can be created straight onto the right login.",
-      "quota-management": "nt-deck accounts --json) to list named slots",
-      "auto-failover": "ctor's proactive /clear (clearoncompact) only arms on an established window — that variable, or a size the harness reported.",
-      "remote-control": "account, and the session card's",
-      "multi-agent-orchestration": "tion in iTerm2) to bypass it, or use the c / B / V / Y",
-      "parallel-execution": "late to an empty string explicitly disables the segment.",
-      "worktree-isolation": "OpenCode on five more, another agent somewhere in the background? One terminal shows every session — running, waiting, or done — and one keystroke switches between them.",
-      "model-routing": "s no network request: it reads the",
-      "usage-analytics": "n five more, another agent somewhere in the background? One terminal shows every session — running, waiting, or done — and one keystroke switches between them.",
-      "session-persistence": "ersation, metadata, worktree, and parent linkage are all preserved.",
-      "skills-plugins": "install opens a Welcome that shows which agents you have (Claude Code, Codex, Gemini CLI, Pi), whether Claude and Codex are signed in (from their own claude auth status / codex login status), and the install command for…",
+      "remote-control": "groups and config: MCP and skills managers, groups, accounts, search, status, forking, archive, feedback",
+      "mobile-access": "groups and config: MCP and skills managers, groups, accounts, search, status, forking, archive, feedback",
+      "worktree-isolation": "very guide and reference in one list",
+      "usage-analytics": "search, status, forking, archive, feedback",
+      "session-persistence": "ways to install, updates, uninstall and shell completion: Install and update.",
       "agent-runtime": "",
-      "mcp-support": "rbells\" so the outside world",
-      "security-isolation": "Permission prompts during automation: if a conductor keeps pausing on permission requests, set [claude].allowdangerousmode = true (or dangerousmode = true) in $XDGCONFIGHOME/agent-deck/config.toml, then run agent-deck",
-      "self-hosted": "",
-      "gui-desktop": "config.toml (default: \"waiting\").",
-      "notifications": "**Built-in status-driven notifications**: conductor setup also installs a transition notifier daemon (agent-deck notify-daemon) that watches status transitions and sends parent nudges when child sessions move running ->…",
-      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Crush"
+      "mcp-support": "",
+      "gui-desktop": "sandboxes: git worktrees, Docker sandbox",
+      "cross-agent-support": "Mentions Claude Code, Codex, Gemini CLI, OpenCode"
     },
     "capability_hits": {
-      "multi-account-switching": 1,
-      "quota-management": 1,
-      "auto-failover": 2,
-      "remote-control": 4,
-      "multi-agent-orchestration": 3,
-      "parallel-execution": 1,
-      "worktree-isolation": 67,
-      "model-routing": 1,
-      "usage-analytics": 4,
+      "remote-control": 1,
+      "mobile-access": 1,
+      "worktree-isolation": 2,
+      "usage-analytics": 1,
       "session-persistence": 1,
-      "skills-plugins": 3,
       "agent-runtime": 1,
-      "mcp-support": 12,
-      "security-isolation": 3,
-      "self-hosted": 1,
-      "gui-desktop": 8,
-      "notifications": 7,
-      "cross-agent-support": 7
+      "mcp-support": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 4
     },
     "friction": {
-      "level": "moderate",
-      "score": 48,
-      "out_of_the_box": false,
+      "level": "turnkey",
+      "score": 7,
+      "out_of_the_box": true,
       "non_programmer_friendly": false,
       "easy_signals": [
         "Homebrew install",
-        "go install",
-        "curl | sh installer",
-        "global npm install",
-        "native installer / package"
+        "curl | sh installer"
       ],
-      "hard_signals": [
-        "git clone (build from source)",
-        "npm install/build",
-        "make build"
-      ],
-      "config_signals": [
-        "environment variables",
-        "API key configuration",
-        "config file",
-        "config.json/yaml/toml",
-        "OAuth login flow",
-        "sign-in required",
-        "database dependency",
-        "database migration",
-        "server/reverse-proxy setup"
-      ],
-      "friendliness_signals": [
-        "GUI application"
-      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
       "platforms": [
         "macOS",
         "Windows",
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via Homebrew install, go install; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; GUI application",
-      "note_zh": "需要一些配置。可通过 Homebrew install、go install 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、API key configuration；GUI application"
+      "note_en": "Turnkey. install via Homebrew install, curl | sh installer",
+      "note_zh": "开箱即用。可通过 Homebrew install、curl | sh installer 安装"
     },
-    "doc_score": 81,
+    "doc_score": 60,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -170,22 +124,15 @@
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
-      "links to dedicated docs",
-      "documents changes",
-      "publishes a roadmap",
-      "explains architecture",
-      "long, detailed README"
+      "documents changes"
     ],
     "agents": [
       "Claude Code",
       "Codex",
       "Gemini CLI",
-      "OpenCode",
-      "Cursor",
-      "Copilot",
-      "Crush"
+      "OpenCode"
     ],
-    "summary_en": "Your AI agent command center",
+    "summary_en": "Agent Deck runs all your AI coding agents (Claude Code, Codex, Gemini CLI, OpenCode and more) in one terminal and shows which ones are working, waiting, or done.",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://raw.githubusercontent.com/asheshgoplani/agent-deck/main/install.sh | bash",
     "source": "raw:HEAD/README.md",
@@ -193,13 +140,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.279
+      "external_link_ratio": 2.666
     },
     "highlights": [
-      "Nothing is sent until you explicitly type y at the confirmation prompt.",
-      "Or run agent-deck feedback from the CLI (rating 1-5)",
-      "Budget limits — configurable daily/weekly/monthly/per-group/per-session limits with 80% warning and 100% hard stop (untested)",
-      "Run agent-deck conductor setup and enter your bot token (xoxb-...), app token (xapp-...), and channel ID (C01234...)"
+      "Worktrees and sandboxes: git worktrees, Docker sandbox"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -210,13 +154,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:21+00:00",
+  "fetched_at": "2026-11-15T11:59:45+00:00",
   "categories": [
-    "failover",
+    "desktop-ui",
     "isolation-teams",
-    "notifications"
+    "mobile"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

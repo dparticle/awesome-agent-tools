@@ -8,7 +8,7 @@
   "homepage": "https://gizclaw.github.io/flowcraft/",
   "stars": 411,
   "forks": 12,
-  "open_issues": 6,
+  "open_issues": 5,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -30,26 +30,26 @@
   ],
   "created_at": "2026-04-14T07:49:44Z",
   "updated_at": "2026-11-09T19:57:54Z",
-  "pushed_at": "2026-11-14T11:25:39Z",
+  "pushed_at": "2026-11-14T11:34:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 214,
-  "days_since_push": 0,
+  "age_days": 215,
+  "days_since_push": 1,
   "health_score": 53,
   "health_components": {
     "popularity": 52.3,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.92,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.91,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:54+00:00",
+  "fetched_at": "2026-11-15T12:00:24+00:00",
   "categories": [
     "desktop-ui-2",
     "isolation-teams"
@@ -169,14 +169,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 4.156,
-      "momentum_ratio": 22.0,
+      "star_ratio": 4.161,
+      "momentum_ratio": 72.0,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "4.16x the stars (1,708 vs 411)",
-        "22.00x the star velocity (4.4/day vs 0.2/day)",
+        "4.16x the stars (1,710 vs 411)",
+        "72.00x the star velocity (3.6/day vs 0.0/day)",
         "no harder to set up (8 vs 28 friction)"
       ],
       "reasons_zh": [],

@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "homepage": "https://usemagpie.ai",
-  "stars": 36354,
-  "forks": 3251,
-  "open_issues": 4185,
+  "stars": 36744,
+  "forks": 3294,
+  "open_issues": 4266,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -20,16 +20,16 @@
     "macos"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-11-14T11:29:00Z",
-  "pushed_at": "2026-11-14T11:29:50Z",
+  "updated_at": "2026-11-15T11:57:54Z",
+  "pushed_at": "2026-11-15T11:53:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 51,
+  "age_days": 52,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
-    "popularity": 91.2,
+    "popularity": 91.3,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 63.0,
@@ -37,16 +37,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3443,
+    "stars_gained": 3059,
     "days_span": 5,
-    "stars_per_day": 688.6,
-    "lifetime_stars_per_day": 712.82,
+    "stars_per_day": 611.8,
+    "lifetime_stars_per_day": 706.62,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 24418,
+    "readme_chars": 24381,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -139,19 +139,19 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.474
+      "external_link_ratio": 1.477
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
-      "Use one provider everywhere: an API key, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to.",
-      "GitHub Copilot, Gemini (Code Assist), Antigravity, Grok (SuperGrok) and more"
+      "GitHub Copilot, Gemini (Code Assist), Antigravity (through your own agy CLI), Grok (SuperGrok) and more",
+      "Use one provider everywhere: an API key, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to."
     ],
     "summary_zh_native": "Claude Code 跑 Kimi，Codex 跑 DeepSeek，Gemini CLI 跑 GLM，OpenCode 用你的 ChatGPT 订阅。",
     "highlights_zh": [
       "任何模型都能联网搜索：不能搜索的模型由 magpie 代为搜索，用能搜索的 provider 或搜索 API（Tavily、Brave、Exa、Firecrawl、You.com、DeepSeek、火山引擎豆包搜索、腾讯云元宝搜索、TinyFish、SearXNG），按你拖好的顺序调用，每个都能单独关闭而不删除密钥。",
       "WSL：在 Windows 上，WSL 发行版里的 Agent 一样能配置，会话也一样统计。",
       "一个 provider 处处能用：API key、本地模型，或者你登录着的 Claude、ChatGPT、Copilot、Gemini、Grok 订阅。",
-      "图片和视频：通过 MCP 给任何 Agent 一个生图工具，用你选的模型；有 Grok 订阅或 MiniMax API Key（MiniMax H3）还能生成视频。"
+      "GitHub Copilot、Gemini（Code Assist）、Antigravity（经你自己的 agy CLI）、Grok（SuperGrok） 等等"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -160,11 +160,11 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-14T11:30:08+00:00",
+  "fetched_at": "2026-11-15T11:58:36+00:00",
   "categories": [
     "billing",
-    "failover",
-    "mcp-security"
+    "desktop-ui",
+    "desktop-ui-2"
   ],
   "primary_category": "billing",
   "lifecycle": {

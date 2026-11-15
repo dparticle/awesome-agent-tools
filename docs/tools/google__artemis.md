@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 17,431 |
-| Star velocity | 70.6/day (history basis, 5d span) |
-| Health score | 70/100 |
+| Stars | 17,463 |
+| Star velocity | 60.0/day (history basis, 5d span) |
+| Health score | 68/100 |
 | Documentation | 68/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-08-13 |
-| Last push | 2026-10-01 (43 days ago) |
+| Last push | 2026-10-01 (44 days ago) |
 | Analyzed README | 17,747 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -80,7 +80,7 @@ Score **68/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 84.8 |
-| momentum | 58.8 |
+| momentum | 50.0 |
 | maintenance | 78.0 |
 | documentation | 68.0 |
 | accessibility | 44.0 |

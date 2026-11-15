@@ -6,7 +6,7 @@
   "url": "https://github.com/darrenhinde/OpenAgentsControl",
   "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
   "homepage": "",
-  "stars": 4975,
+  "stars": 4976,
   "forks": 404,
   "open_issues": 70,
   "language": "TypeScript",
@@ -23,27 +23,27 @@
     "prompt-engineering"
   ],
   "created_at": "2025-08-14T21:44:01Z",
-  "updated_at": "2026-11-13T22:44:59Z",
+  "updated_at": "2026-11-15T10:53:36Z",
   "pushed_at": "2026-10-26T19:00:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 456,
-  "days_since_push": 18,
+  "age_days": 457,
+  "days_since_push": 19,
   "health_score": 63,
   "health_components": {
     "popularity": 73.9,
-    "momentum": 1.2,
+    "momentum": 0.8,
     "maintenance": 92.0,
     "documentation": 72.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 10.91,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 10.89,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:02+00:00",
+  "fetched_at": "2026-11-15T11:59:28+00:00",
   "categories": [
     "isolation-teams"
   ],
@@ -156,14 +156,14 @@
         "multi-agent-orchestration",
         "worktree-isolation"
       ],
-      "star_ratio": 5.638,
-      "momentum_ratio": 12.429,
+      "star_ratio": 5.64,
+      "momentum_ratio": 17.2,
       "setup_delta": -23,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "5.64x the stars (28,051 vs 4,975)",
-        "12.43x the star velocity (17.4/day vs 1.4/day)",
+        "5.64x the stars (28,067 vs 4,976)",
+        "17.20x the star velocity (17.2/day vs 1.0/day)",
         "no harder to set up (27 vs 50 friction)"
       ],
       "reasons_zh": [],

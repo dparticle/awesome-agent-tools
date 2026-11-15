@@ -6,9 +6,9 @@
   "url": "https://github.com/phuryn/pm-skills",
   "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
   "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
-  "stars": 27982,
-  "forks": 2885,
-  "open_issues": 51,
+  "stars": 27997,
+  "forks": 2886,
+  "open_issues": 52,
   "language": "",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "product-management"
   ],
   "created_at": "2026-03-01T23:33:44Z",
-  "updated_at": "2026-11-14T10:29:46Z",
+  "updated_at": "2026-11-15T11:20:57Z",
   "pushed_at": "2026-11-08T23:10:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 257,
-  "days_since_push": 5,
+  "age_days": 258,
+  "days_since_push": 6,
   "health_score": 69,
   "health_components": {
     "popularity": 88.9,
-    "momentum": 29.8,
+    "momentum": 27.0,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 179,
+    "stars_gained": 162,
     "days_span": 5,
-    "stars_per_day": 35.8,
-    "lifetime_stars_per_day": 108.88,
+    "stars_per_day": 32.4,
+    "lifetime_stars_per_day": 108.52,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -134,7 +134,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:55+00:00",
+  "fetched_at": "2026-11-15T11:59:22+00:00",
   "categories": [
     "desktop-ui-2"
   ],
@@ -160,14 +160,14 @@
         "skills-plugins",
         "usage-analytics"
       ],
-      "star_ratio": 1.776,
-      "momentum_ratio": 1.626,
+      "star_ratio": 1.777,
+      "momentum_ratio": 1.71,
       "setup_delta": 12,
-      "dominance": 0.681,
+      "dominance": 0.687,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.78x the stars (49,684 vs 27,982)",
-        "1.63x the star velocity (58.2/day vs 35.8/day)",
+        "1.78x the stars (49,737 vs 27,997)",
+        "1.71x the star velocity (55.4/day vs 32.4/day)",
         "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],

@@ -6,40 +6,40 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 141501,
-  "forks": 20902,
-  "open_issues": 132,
+  "stars": 141618,
+  "forks": 20921,
+  "open_issues": 144,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-14T11:15:02Z",
-  "pushed_at": "2026-11-14T09:50:18Z",
+  "updated_at": "2026-11-15T11:41:58Z",
+  "pushed_at": "2026-11-15T06:54:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
+  "age_days": 248,
   "days_since_push": 0,
-  "health_score": 91,
+  "health_score": 90,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 100.0,
+    "momentum": 97.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 61.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 617,
+    "stars_gained": 587,
     "days_span": 5,
-    "stars_per_day": 123.4,
-    "lifetime_stars_per_day": 572.88,
+    "stars_per_day": 117.4,
+    "lifetime_stars_per_day": 571.04,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 40795,
+    "readme_chars": 40912,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.343
+      "external_link_ratio": 0.342
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -153,13 +153,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:40+00:00",
+  "fetched_at": "2026-11-15T11:59:07+00:00",
   "categories": [
-    "desktop-ui-2",
-    "model-routing",
-    "notifications"
+    "failover",
+    "mcp-security",
+    "model-routing"
   ],
-  "primary_category": "notifications",
+  "primary_category": "mcp-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

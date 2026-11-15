@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 353 |
-| Star velocity | 0.8/day (lifetime basis, 470d span) |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-08-01 |
-| Last push | 2026-11-13 (0 days ago) |
+| Last push | 2026-11-15 (0 days ago) |
 | Analyzed README | 17,488 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).
@@ -84,7 +84,7 @@ Score **55/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.0 |
-| momentum | 0.6 |
+| momentum | 0.2 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 100.0 |

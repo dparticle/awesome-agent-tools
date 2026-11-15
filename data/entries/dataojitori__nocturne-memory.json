@@ -6,7 +6,7 @@
   "url": "https://github.com/Dataojitori/nocturne_memory",
   "description": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw.",
   "homepage": "https://misaligned.top/memory",
-  "stars": 1427,
+  "stars": 1428,
   "forks": 175,
   "open_issues": 5,
   "language": "Python",
@@ -31,13 +31,13 @@
     "sqlite"
   ],
   "created_at": "2025-12-25T08:45:54Z",
-  "updated_at": "2026-11-13T13:43:46Z",
+  "updated_at": "2026-11-15T01:56:55Z",
   "pushed_at": "2026-11-03T20:01:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 324,
-  "days_since_push": 10,
+  "age_days": 325,
+  "days_since_push": 11,
   "health_score": 52,
   "health_components": {
     "popularity": 63.1,
@@ -51,7 +51,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 4.4,
+    "lifetime_stars_per_day": 4.39,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,10 +165,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:15+00:00",
+  "fetched_at": "2026-11-15T11:59:40+00:00",
   "categories": [
-    "memory-failover",
-    "notifications"
+    "mcp-security",
+    "memory-failover"
   ],
   "primary_category": "memory-failover",
   "lifecycle": {

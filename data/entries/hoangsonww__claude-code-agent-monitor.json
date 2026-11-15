@@ -39,24 +39,24 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 253,
-  "days_since_push": 1,
+  "age_days": 254,
+  "days_since_push": 2,
   "health_score": 56,
   "health_components": {
     "popularity": 61.5,
-    "momentum": 4.0,
+    "momentum": 3.0,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 24,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 4.68,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 4.66,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "hoangsonww/Claude-Code-Agent-Monitor",
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:21+00:00",
+  "fetched_at": "2026-11-15T11:59:46+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "notifications"
+    "mcp-security"
   ],
-  "primary_category": "notifications",
+  "primary_category": "mcp-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

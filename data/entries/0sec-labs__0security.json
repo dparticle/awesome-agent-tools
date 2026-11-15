@@ -1,0 +1,205 @@
+{
+  "schema": 1,
+  "full_name": "0sec-labs/0security",
+  "name": "0security",
+  "owner": "0sec-labs",
+  "url": "https://github.com/0sec-labs/0security",
+  "description": "Open-source AI cybersecurity harness. Build & deploy continuous security agents that find, prove, fix and monitor vulnerabilities across code, binaries, dependencies, infrastructure and AI agents. Web UI, CLI, CI and MCP.",
+  "homepage": "https://0.security",
+  "stars": 1363,
+  "forks": 181,
+  "open_issues": 5,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-agents",
+    "application-security",
+    "binary-analysis",
+    "code-review",
+    "cybersecurity",
+    "llm-agents",
+    "mcp",
+    "penetration-testing",
+    "security-research",
+    "security-tools",
+    "vulnerability-detection",
+    "vulnerability-scanner"
+  ],
+  "created_at": "2026-08-19T07:54:37Z",
+  "updated_at": "2026-11-15T10:34:41Z",
+  "pushed_at": "2026-11-15T09:16:50Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 88,
+  "days_since_push": 0,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 62.7,
+    "momentum": 12.9,
+    "maintenance": 100.0,
+    "documentation": 43.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1363,
+    "days_span": 88,
+    "stars_per_day": 15.49,
+    "lifetime_stars_per_day": 15.49,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "0sec-labs/0security",
+    "readme_chars": 7321,
+    "capabilities": [
+      "api-gateway",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "api-gateway": "MIT or Apache-2.0, built in the open",
+      "agent-runtime": "A-ready advisory drafts from saved findings",
+      "mcp-support": "_DIR to change the location.",
+      "self-hosted": "ing and deploying security agents.",
+      "gui-desktop": "nstead (Anthropic, OpenRouter, DeepSeek and more, see Models and keys), or connect one in the browser with 0."
+    },
+    "capability_hits": {
+      "api-gateway": 1,
+      "agent-runtime": 3,
+      "mcp-support": 5,
+      "self-hosted": 1,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker run",
+        "pnpm install/build"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Easy. install via curl | sh installer, native installer / package; needs docker run, pnpm install/build",
+      "note_zh": "较易上手。可通过 curl | sh installer、native installer / package 安装；需要 docker run、pnpm install/build"
+    },
+    "doc_score": 43,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs"
+    ],
+    "agents": [],
+    "summary_en": "0security is an open-source framework for building and deploying security agents.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/0sec-labs/0security/main/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 2.732
+    },
+    "highlights": [
+      "Check dependencies with 0 scan deps scan and 0 scan deps fix for npm, pnpm, Cargo and PyPI",
+      "Find vulnerabilities in source code, web apps and APIs, MCP endpoints and packages"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-15T11:59:43+00:00",
+  "categories": [
+    "desktop-ui",
+    "sharing"
+  ],
+  "primary_category": "sharing",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "genspark-ai/genoffice",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "0sec-labs/0security",
+      "challenger": "genspark-ai/genoffice",
+      "incumbent_name": "0sec-labs/0security",
+      "challenger_name": "genspark-ai/genoffice",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "api-gateway",
+        "gui-desktop",
+        "mcp-support",
+        "self-hosted"
+      ],
+      "star_ratio": 9.082,
+      "momentum_ratio": 3.835,
+      "setup_delta": -5,
+      "dominance": 0.967,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "9.08x the stars (12,379 vs 1,363)",
+        "3.83x the star velocity (59.4/day vs 15.5/day)",
+        "no harder to set up (20 vs 25 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "gui-desktop",
+          "mcp-support",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 57,
+        "challenger_health": 74,
+        "incumbent_setup_score": 25,
+        "challenger_setup_score": 20
+      }
+    }
+  }
+}

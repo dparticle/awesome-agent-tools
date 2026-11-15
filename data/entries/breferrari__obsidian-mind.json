@@ -24,27 +24,27 @@
     "template"
   ],
   "created_at": "2026-02-28T21:41:41Z",
-  "updated_at": "2026-11-14T04:06:27Z",
+  "updated_at": "2026-11-15T10:51:49Z",
   "pushed_at": "2026-10-17T23:34:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 258,
-  "days_since_push": 27,
+  "age_days": 259,
+  "days_since_push": 28,
   "health_score": 58,
   "health_components": {
     "popularity": 74.9,
-    "momentum": 2.8,
+    "momentum": 1.7,
     "maintenance": 92.0,
     "documentation": 81.0,
     "accessibility": 42.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 3.4,
-    "lifetime_stars_per_day": 21.45,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 21.37,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,8 +152,8 @@
     "highlights_zh": [
       "Node 22+ LTS（用于钩子脚本 — 通常与 Claude Code / Codex / Gemini CLI 一起已安装）",
       "/om-review-brief 通过汇总所有内容生成完整的评估简报：成就记录、决策、事件、能力证据和 1:1 反馈",
-      "展示迁移计划——你可以确切看到哪些内容将被复制、转换和跳过",
-      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/"
+      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/",
+      "Competency Note（能力项笔记） — date、description、current-level、target-level、熟练度表格"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:00+00:00",
+  "fetched_at": "2026-11-15T11:59:26+00:00",
   "categories": [
     "desktop-ui-2",
     "failover",

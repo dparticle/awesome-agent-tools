@@ -6,9 +6,9 @@
   "url": "https://github.com/greenfield-inc/Pane",
   "description": "Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.",
   "homepage": "https://runpane.com/",
-  "stars": 627,
+  "stars": 629,
   "forks": 238,
-  "open_issues": 228,
+  "open_issues": 226,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -34,38 +34,39 @@
     "worktree-manager"
   ],
   "created_at": "2026-02-27T01:34:13Z",
-  "updated_at": "2026-11-14T06:27:21Z",
-  "pushed_at": "2026-11-14T11:16:52Z",
+  "updated_at": "2026-11-15T07:08:42Z",
+  "pushed_at": "2026-11-15T11:38:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 260,
+  "age_days": 261,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 55.9,
-    "momentum": 2.8,
+    "popularity": 56.0,
+    "momentum": 2.7,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 3.4,
+    "stars_per_day": 3.2,
     "lifetime_stars_per_day": 2.41,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "greenfield-inc/Pane",
-    "readme_chars": 44016,
+    "readme_chars": 45976,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
       "parallel-execution",
       "worktree-isolation",
+      "model-routing",
       "session-persistence",
       "agent-runtime",
       "mcp-support",
@@ -76,10 +77,11 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "mobile-access": "beside the agent; the preview is that Pane's tab, so it follows the Pane.",
+      "mobile-access": "-hosted and open source: the host machine runs the repos, terminals, git state, files, agent credentials, and compute.",
       "multi-agent-orchestration": "es opens the Onboarding Session, which brings them in, groups them into Sessions, and opens a Start here page.",
       "parallel-execution": "know how git worktrees work?\"",
       "worktree-isolation": "ack of which agent is on which branch.",
+      "model-routing": "estions and exits reach this computer's runpane watch, Approvals and phone, and your answers go back to its tab.",
       "session-persistence": "",
       "agent-runtime": "Run any coding agent, on any OS, from desktop or phone .",
       "mcp-support": "s only command names, arguments, and safe usage notes.",
@@ -94,6 +96,7 @@
       "multi-agent-orchestration": 8,
       "parallel-execution": 1,
       "worktree-isolation": 19,
+      "model-routing": 2,
       "session-persistence": 1,
       "agent-runtime": 5,
       "mcp-support": 6,
@@ -172,7 +175,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.636
+      "external_link_ratio": 0.609
     },
     "highlights": [
       "Developers on any OS: Mac, Windows, and Linux are all first-class citizens, with no \"Mac-first with a Windows waitlist\"",
@@ -189,7 +192,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:36+00:00",
+  "fetched_at": "2026-11-15T12:00:00+00:00",
   "categories": [
     "desktop-ui",
     "isolation-teams",

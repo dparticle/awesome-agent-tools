@@ -6,9 +6,9 @@
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
   "homepage": "https://paperclip.ing",
-  "stars": 113796,
-  "forks": 18884,
-  "open_issues": 6644,
+  "stars": 114029,
+  "forks": 18913,
+  "open_issues": 6692,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "workflow-automation"
   ],
   "created_at": "2026-03-02T15:01:51Z",
-  "updated_at": "2026-11-14T11:24:55Z",
-  "pushed_at": "2026-11-14T11:24:04Z",
+  "updated_at": "2026-11-15T11:49:05Z",
+  "pushed_at": "2026-11-15T11:54:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 256,
+  "age_days": 257,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1302,
+    "stars_gained": 1243,
     "days_span": 5,
-    "stars_per_day": 260.4,
-    "lifetime_stars_per_day": 444.52,
+    "stars_per_day": 248.6,
+    "lifetime_stars_per_day": 443.69,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -192,11 +192,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:41+00:00",
+  "fetched_at": "2026-11-15T11:59:08+00:00",
   "categories": [
+    "mcp-security",
     "memory-failover",
-    "mobile",
-    "notifications"
+    "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {

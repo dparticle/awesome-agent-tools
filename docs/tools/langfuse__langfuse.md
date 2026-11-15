@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 37,418 |
-| Star velocity | 29.4/day (lifetime basis, 1275d span) |
+| Stars | 37,448 |
+| Star velocity | 29.4/day (lifetime basis, 1276d span) |
 | Health score | 75/100 |
 | Documentation | 81/100 |
 | Tier | ✅ Recommended |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2023-05-18 |
-| Last push | 2026-11-14 (0 days ago) |
+| Last push | 2026-11-15 (0 days ago) |
 | Analyzed README | 58,254 chars from `raw:HEAD/README.md` |
 
 ## What it solves

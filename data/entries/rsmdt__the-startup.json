@@ -6,7 +6,7 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 580,
+  "stars": 582,
   "forks": 71,
   "open_issues": 0,
   "language": "TypeScript",
@@ -18,13 +18,13 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-11-12T05:56:48Z",
+  "updated_at": "2026-11-15T06:38:43Z",
   "pushed_at": "2026-10-26T22:43:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 459,
-  "days_since_push": 18,
+  "age_days": 460,
+  "days_since_push": 19,
   "health_score": 51,
   "health_components": {
     "popularity": 55.3,
@@ -38,7 +38,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.26,
+    "lifetime_stars_per_day": 1.27,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:37+00:00",
+  "fetched_at": "2026-11-15T12:00:02+00:00",
   "categories": [
     "desktop-ui-2",
     "isolation-teams"
@@ -151,14 +151,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 2.945,
-      "momentum_ratio": 11.0,
+      "star_ratio": 2.938,
+      "momentum_ratio": 9.0,
       "setup_delta": -17,
-      "dominance": 0.996,
+      "dominance": 0.995,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.94x the stars (1,708 vs 580)",
-        "11.00x the star velocity (4.4/day vs 0.4/day)",
+        "2.94x the stars (1,710 vs 582)",
+        "9.00x the star velocity (3.6/day vs 0.4/day)",
         "no harder to set up (8 vs 25 friction)"
       ],
       "reasons_zh": [],

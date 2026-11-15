@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 759 |
-| Star velocity | 0.4/day (history basis, 5d span) |
+| Star velocity | 0.3/day (history basis, 6d span) |
 | Health score | 46/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2026-06-30 |
-| Last push | 2026-07-14 (122 days ago) |
+| Last push | 2026-07-14 (123 days ago) |
 | Analyzed README | 15,078 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [thedivergentai/Game-Dev-Agentic-Skills](https://github.com/thedivergentai/Game-Dev-Agentic-Skills)** — Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).

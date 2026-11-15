@@ -8,7 +8,7 @@
   "homepage": "https://docs.automagik.dev/genie",
   "stars": 353,
   "forks": 58,
-  "open_issues": 24,
+  "open_issues": 27,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -35,27 +35,27 @@
   ],
   "created_at": "2025-08-01T02:00:02Z",
   "updated_at": "2026-11-13T14:13:28Z",
-  "pushed_at": "2026-11-13T15:03:17Z",
+  "pushed_at": "2026-11-15T11:27:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 470,
+  "age_days": 471,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 51.0,
-    "momentum": 0.6,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 353,
-    "days_span": 470,
-    "stars_per_day": 0.75,
+    "stars_gained": 1,
+    "days_span": 5,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.75,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:57+00:00",
+  "fetched_at": "2026-11-15T12:00:27+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -184,14 +184,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 97.076,
-      "momentum_ratio": 31.733,
+      "star_ratio": 97.13,
+      "momentum_ratio": 101.0,
       "setup_delta": -48,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "97.08x the stars (34,268 vs 353)",
-        "31.73x the star velocity (23.8/day vs 0.8/day)",
+        "97.13x the stars (34,287 vs 353)",
+        "101.00x the star velocity (20.2/day vs 0.2/day)",
         "no harder to set up (2 vs 50 friction)"
       ],
       "reasons_zh": [],

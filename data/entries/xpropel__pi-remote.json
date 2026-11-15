@@ -6,8 +6,8 @@
   "url": "https://github.com/Xpropel/Pi-Remote",
   "description": "Remote control for your pi coding agent. Pi-Remote mirrors live pi terminal sessions to any browser, so you can watch runs, answer prompts, and send commands from your phone — end-to-end encrypted over a self-hosted relay.",
   "homepage": "",
-  "stars": 329,
-  "forks": 11,
+  "stars": 331,
+  "forks": 10,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
@@ -28,27 +28,27 @@
     "websocket"
   ],
   "created_at": "2026-10-28T10:46:22Z",
-  "updated_at": "2026-11-14T03:26:23Z",
+  "updated_at": "2026-11-15T03:28:08Z",
   "pushed_at": "2026-11-14T07:25:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 17,
-  "days_since_push": 0,
+  "age_days": 18,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
-    "popularity": 50.3,
-    "momentum": 0.8,
+    "popularity": 50.4,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 19.35,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 18.39,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:58+00:00",
+  "fetched_at": "2026-11-15T12:00:28+00:00",
   "categories": [
     "desktop-ui",
     "isolation-teams",
@@ -154,10 +154,64 @@
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 Gentleman-Programming/gentle-shell 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "Gentleman-Programming/gentle-shell",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "xpropel/pi-remote",
+      "challenger": "gentleman-programming/gentle-shell",
+      "incumbent_name": "Xpropel/Pi-Remote",
+      "challenger_name": "Gentleman-Programming/gentle-shell",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "gui-desktop",
+        "model-routing",
+        "parallel-execution"
+      ],
+      "star_ratio": 8.024,
+      "momentum_ratio": 123.0,
+      "setup_delta": -4,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "8.02x the stars (2,656 vs 331)",
+        "123.00x the star velocity (98.4/day vs 0.8/day)",
+        "no harder to set up (30 vs 34 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "gui-desktop",
+          "model-routing",
+          "parallel-execution"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "skills-plugins",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 52,
+        "challenger_health": 78,
+        "incumbent_setup_score": 34,
+        "challenger_setup_score": 30
+      }
+    }
   }
 }

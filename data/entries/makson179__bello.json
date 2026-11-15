@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "full_name": "Makson179/Bello",
+  "name": "Bello",
+  "owner": "Makson179",
+  "url": "https://github.com/Makson179/Bello",
+  "description": "3x more usage on your coding agent, same quality. Have an multi-agent setup in mind? Bello already supports it. Mix models, run agents in parallel, have them check each other’s work, and reduce unnecessary model calls and noisy tool output. Turn on only what you need.",
+  "homepage": "",
+  "stars": 307,
+  "forks": 36,
+  "open_issues": 5,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agentic-ai",
+    "agentic-workflow",
+    "ai-agents",
+    "ai-coding",
+    "automation",
+    "autonomous-agents",
+    "cli",
+    "codex",
+    "codex-cli",
+    "coding-agent",
+    "developer-tools",
+    "generative-ai",
+    "guardrails",
+    "llm",
+    "multi-agent",
+    "openai-codex",
+    "python",
+    "sandbox",
+    "security",
+    "software-engineering"
+  ],
+  "created_at": "2026-05-24T12:11:37Z",
+  "updated_at": "2026-11-15T11:10:03Z",
+  "pushed_at": "2026-11-07T15:19:57Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 174,
+  "days_since_push": 7,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 49.7,
+    "momentum": 1.5,
+    "maintenance": 100.0,
+    "documentation": 52.0,
+    "accessibility": 72.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 307,
+    "days_span": 174,
+    "stars_per_day": 1.76,
+    "lifetime_stars_per_day": 1.76,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "Makson179/Bello",
+    "readme_chars": 20401,
+    "capabilities": [
+      "quota-management",
+      "multi-agent-orchestration",
+      "session-persistence",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "quota-management": "inst 15.63% for Raw, which is 66.3% less.",
+      "multi-agent-orchestration": ". A separate check confirms its findings before they go back to",
+      "session-persistence": "n returns, or as soon as the reviewer accepts, and completion",
+      "agent-runtime": "ng agent, add the plugin, which includes the",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "quota-management": 1,
+      "multi-agent-orchestration": 4,
+      "session-persistence": 1,
+      "agent-runtime": 2,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 28,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install"
+      ],
+      "hard_signals": [],
+      "config_signals": [
+        "sign-in required",
+        "process manager"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. install via pip install; configure sign-in required, process manager",
+      "note_zh": "较易上手。可通过 pip install 安装；需配置 sign-in required、process manager"
+    },
+    "doc_score": 52,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Codex, Claude Code, OpenAI, Anthropic, OpenRouter, in any mix.",
+    "summary_zh": "",
+    "install_hint": "pipx install bello",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.343
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-15T12:00:38+00:00",
+  "categories": [
+    "billing",
+    "desktop-ui"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

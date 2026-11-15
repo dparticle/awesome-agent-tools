@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,972 |
-| Star velocity | 26.0/day (history basis, 5d span) |
+| Stars | 20,007 |
+| Star velocity | 27.4/day (history basis, 5d span) |
 | Health score | 68/100 |
 | Documentation | 64/100 |
 | Tier | ✅ Recommended |
@@ -21,18 +21,18 @@
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-11-14 (0 days ago) |
-| Analyzed README | 19,197 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-15 (0 days ago) |
+| Analyzed README | 19,714 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> ndsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed 和 ZCode，并支持多账号多实例并行运行。
+> ursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed、ZCode 和 WorkBuddy AI，并支持多账号多实例并行运行。
 
 ### Quota & usage management
 
-> 具，目前支持 Antigravity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed 和 ZCode，并支持多账号多实例并行运行。
+> avity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed、ZCode 和 WorkBuddy AI，并支持多账号多实例并行运行。
 
 ### Automatic failover
 
@@ -42,7 +42,7 @@
 
 ### Parallel execution
 
-> vity IDE、Codex、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed 和 ZCode，并支持多账号多实例并行运行。
+> x、GitHub Copilot、Windsurf、Kiro、Cursor、Grok CLI、CodeBuddy、CodeBuddy CN、Qoder、Trae、TraeWork、Trae CN、TraeWork CN、Zed、ZCode 和 WorkBuddy AI，并支持多账号多实例并行运行。
 
 ### Workspace isolation
 
@@ -122,7 +122,7 @@ Score **64/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 86.0 |
-| momentum | 21.7 |
+| momentum | 22.8 |
 | maintenance | 100.0 |
 | documentation | 64.0 |
 | accessibility | 68.0 |

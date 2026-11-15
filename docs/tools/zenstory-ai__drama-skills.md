@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,223 |
-| Star velocity | 47.0/day (history basis, 5d span) |
+| Stars | 4,274 |
+| Star velocity | 44.2/day (history basis, 5d span) |
 | Health score | 68/100 |
 | Documentation | 59/100 |
 | Tier | ✅ Recommended |
@@ -21,20 +21,22 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-07-16 |
-| Last push | 2026-11-10 (3 days ago) |
-| Analyzed README | 15,315 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-15 (0 days ago) |
+| Analyzed README | 15,759 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Billing & metering
 
+> 失败、没有结果可取回后，再重新预览和确认重投；若只是轮询或下载中断，先排查取回环节。
+
 ### Agent runtime
 
-> /user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e
+> b.com/user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e
 
 ### Self-hostable
 
-> 提交后可能已产生费用，内置 adapter 拿到供应商任务 ID 就会立刻写入本地文件。
+> 提交后可能已经扣费，内置生成接口拿到平台任务 ID 就会立刻写入本地文件。
 
 ### Cross-agent support
 
@@ -72,8 +74,8 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 72.5 |
-| momentum | 39.2 |
+| popularity | 72.6 |
+| momentum | 36.8 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
 | accessibility | 75.0 |

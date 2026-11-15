@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,426 |
-| Star velocity | 12.0/day (history basis, 5d span) |
-| Health score | 63/100 |
+| Stars | 15,445 |
+| Star velocity | 14.4/day (history basis, 5d span) |
+| Health score | 64/100 |
 | Documentation | 51/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-03-31 |
-| Last push | 2026-11-14 (0 days ago) |
-| Analyzed README | 10,448 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-15 (0 days ago) |
+| Analyzed README | 10,092 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,8 +40,6 @@
 
 ### Multi-agent orchestration
 
-> 特惠活动： 单笔充值 US$20 即可解锁 0.015 倍价格倍率的 GPT 特惠分组，单笔充值 US$50 即可解锁 0.03 倍价格倍率的 Claude 特惠分组。
-
 ### Workspace isolation
 
 > cc-haha 是一个桌面端 Claude Code 工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、手机…
@@ -56,7 +54,7 @@
 
 ### Session persistence
 
-> / Agent 定制需求，请联系作者 NanmiCoder。
+> 发布可信度与隐私：Code signing policy · 隐私与联网说明
 
 ### Memory & context
 
@@ -75,6 +73,8 @@
 > 物、手机 App 与 H5 远程访问、IM 接入和定时任务，集中在一个 macOS / Windows / Linux APP 里。
 
 ### Self-hostable
+
+> · Skills 系统 · 记忆系统 · Computer Use 架构 · 本地 Server 与 API · Channel 系统 · 项目结构 · 参与贡献与质量门禁
 
 ### GUI / desktop app
 
@@ -110,7 +110,7 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.8 |
-| momentum | 10.0 |
+| momentum | 12.0 |
 | maintenance | 100.0 |
 | documentation | 51.0 |
 | accessibility | 79.0 |

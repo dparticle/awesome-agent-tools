@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,674 |
-| Star velocity | 28.2/day (history basis, 5d span) |
+| Stars | 4,697 |
+| Star velocity | 28.0/day (history basis, 5d span) |
 | Health score | 69/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,12 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-08-28 |
-| Last push | 2026-11-12 (2 days ago) |
-| Analyzed README | 20,060 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-15 (0 days ago) |
+| Analyzed README | 20,093 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Quota & usage management
-
-> 平台适配的成品直接到对应平台，再通过**归因**分析表现并把有效经验沉淀回账号画像。
 
 ### Model / provider routing
 
@@ -91,7 +89,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 73.4 |
-| momentum | 23.5 |
+| momentum | 23.3 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 85.0 |

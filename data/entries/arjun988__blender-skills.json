@@ -1,0 +1,197 @@
+{
+  "schema": 1,
+  "full_name": "arjun988/blender-skills",
+  "name": "blender-skills",
+  "owner": "arjun988",
+  "url": "https://github.com/arjun988/blender-skills",
+  "description": "94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.",
+  "homepage": "https://blender-skills.vercel.app",
+  "stars": 3468,
+  "forks": 301,
+  "open_issues": 7,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "3d-models",
+    "agent",
+    "agent-skills",
+    "blender",
+    "blender-addon",
+    "blender-mcp",
+    "claude-code",
+    "claude-skills",
+    "cursor-ai",
+    "game-development",
+    "mcp"
+  ],
+  "created_at": "2026-07-05T08:36:06Z",
+  "updated_at": "2026-11-15T11:56:39Z",
+  "pushed_at": "2026-11-06T08:42:41Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 133,
+  "days_since_push": 9,
+  "health_score": 59,
+  "health_components": {
+    "popularity": 70.8,
+    "momentum": 21.7,
+    "maintenance": 92.0,
+    "documentation": 62.0,
+    "accessibility": 49.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 3468,
+    "days_span": 133,
+    "stars_per_day": 26.08,
+    "lifetime_stars_per_day": 26.08,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "arjun988/blender-skills",
+    "readme_chars": 10091,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "art styles, horror packs, worlds, moods, and gameplay genre direction.",
+      "skills-plugins": "Website --- ## Quick Start > Marketplace listing is currently under review by Anthropic. > Install directly from GitHub in the meantime. Works with Cursor, Claude Code, Kiro, and Codex — same skill pack, Blender MCP exe…",
+      "mcp-support": "# Blender Skills 94 Specialized Skills for Blender Artists. Transform Cursor, Claude Code, Kiro, and Codex into your Senior Technical Art team — not a tutorial bot. Version License Skills Blender MCP Cursor Claude Code…",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "skills-plugins": 4,
+      "mcp-support": 9,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 51,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows"
+      ],
+      "note_en": "Some setup. needs git clone (build from source)",
+      "note_zh": "需要一些配置。需要 git clone (build from source)"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "documents changes"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "94 Specialized Skills for Blender Artists.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.784
+    },
+    "highlights": [
+      "Executes via MCP — Uses Blender MCP tools when connected, never narrates UI steps"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-15T11:59:01+00:00",
+  "categories": [
+    "desktop-ui-2"
+  ],
+  "primary_category": "desktop-ui-2",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "arjun988/blender-skills",
+      "challenger": "sickn33/agentic-awesome-skills",
+      "incumbent_name": "arjun988/blender-skills",
+      "challenger_name": "sickn33/agentic-awesome-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 14.342,
+      "momentum_ratio": 2.124,
+      "setup_delta": -12,
+      "dominance": 0.894,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "14.34x the stars (49,737 vs 3,468)",
+        "2.12x the star velocity (55.4/day vs 26.1/day)",
+        "no harder to set up (39 vs 51 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
+        ],
+        "incumbent_health": 59,
+        "challenger_health": 78,
+        "incumbent_setup_score": 51,
+        "challenger_setup_score": 39
+      }
+    }
+  }
+}

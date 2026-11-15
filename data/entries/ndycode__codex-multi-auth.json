@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 264,
-  "days_since_push": 1,
+  "age_days": 265,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
     "popularity": 55.1,
@@ -151,78 +151,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:38+00:00",
+  "fetched_at": "2026-11-15T12:00:07+00:00",
   "categories": [
-    "billing",
-    "failover"
+    "accounts"
   ],
-  "primary_category": "billing",
+  "primary_category": "accounts",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (6/6).",
-    "note_zh": "已被 jlcodes99/cockpit-tools 取代：covers 100% of capabilities (6/6)。",
-    "superseded_by": "jlcodes99/cockpit-tools",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "ndycode/codex-multi-auth",
-      "challenger": "jlcodes99/cockpit-tools",
-      "incumbent_name": "ndycode/codex-multi-auth",
-      "challenger_name": "jlcodes99/cockpit-tools",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "auto-failover",
-        "cross-agent-support",
-        "gui-desktop",
-        "multi-account-switching",
-        "voice-input"
-      ],
-      "star_ratio": 35.286,
-      "momentum_ratio": 520.0,
-      "setup_delta": -9,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (6/6)",
-        "35.29x the stars (19,972 vs 566)",
-        "520.00x the star velocity (26.0/day vs 0.0/day)",
-        "no harder to set up (32 vs 41 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "multi-account-switching",
-          "voice-input"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "auto-failover",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "model-routing",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "provider-aggregation",
-          "quota-management",
-          "security-isolation",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 68,
-        "incumbent_setup_score": 41,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

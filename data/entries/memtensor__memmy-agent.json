@@ -34,27 +34,27 @@
     "tui"
   ],
   "created_at": "2026-07-16T07:57:45Z",
-  "updated_at": "2026-11-14T06:23:42Z",
+  "updated_at": "2026-11-15T06:47:35Z",
   "pushed_at": "2026-11-13T07:40:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 121,
-  "days_since_push": 1,
+  "age_days": 122,
+  "days_since_push": 2,
   "health_score": 56,
   "health_components": {
     "popularity": 66.9,
-    "momentum": 2.0,
+    "momentum": 1.3,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 18.32,
+    "stars_per_day": 1.6,
+    "lifetime_stars_per_day": 18.17,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:09+00:00",
+  "fetched_at": "2026-11-15T11:59:35+00:00",
   "categories": [
     "desktop-ui",
     "memory-failover",
@@ -193,14 +193,14 @@
         "model-routing",
         "team-collaboration"
       ],
-      "star_ratio": 7.141,
-      "momentum_ratio": 30.75,
+      "star_ratio": 7.181,
+      "momentum_ratio": 46.125,
       "setup_delta": 4,
       "dominance": 0.98,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "7.14x the stars (15,831 vs 2,217)",
-        "30.75x the star velocity (73.8/day vs 2.4/day)",
+        "7.18x the stars (15,920 vs 2,217)",
+        "46.12x the star velocity (73.8/day vs 1.6/day)",
         "slightly heavier setup (+4 friction, within tolerance)"
       ],
       "reasons_zh": [],

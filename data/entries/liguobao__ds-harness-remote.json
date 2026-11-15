@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 2856,
-  "forks": 213,
-  "open_issues": 40,
+  "stars": 2944,
+  "forks": 221,
+  "open_issues": 43,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -16,33 +16,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-11-14T11:18:22Z",
-  "pushed_at": "2026-11-14T10:40:20Z",
+  "updated_at": "2026-11-15T11:44:09Z",
+  "pushed_at": "2026-11-15T03:08:15Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 91,
+  "age_days": 92,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
-    "popularity": 69.1,
-    "momentum": 77.2,
+    "popularity": 69.4,
+    "momentum": 74.2,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 463,
+    "stars_gained": 445,
     "days_span": 5,
-    "stars_per_day": 92.6,
-    "lifetime_stars_per_day": 31.38,
+    "stars_per_day": 89.0,
+    "lifetime_stars_per_day": 32.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 20710,
+    "readme_chars": 20774,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -132,7 +132,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.917
+      "external_link_ratio": 0.915
     },
     "highlights": [
       "The current development baseline is dsh-v0.2.2-rc.1; validation scope is documented in the compatibility guide.",
@@ -154,7 +154,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:07+00:00",
+  "fetched_at": "2026-11-15T11:59:32+00:00",
   "categories": [
     "failover",
     "mobile",

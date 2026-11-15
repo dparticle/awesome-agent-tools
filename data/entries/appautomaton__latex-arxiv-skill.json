@@ -39,21 +39,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 605,
-  "days_since_push": 61,
+  "age_days": 606,
+  "days_since_push": 62,
   "health_score": 45,
   "health_components": {
     "popularity": 53.8,
-    "momentum": 0.7,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 43.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.8,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.8,
     "basis": "history",
     "is_fast_riser": false
@@ -133,8 +133,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:31:45+00:00",
+  "fetched_at": "2026-11-15T12:00:15+00:00",
   "categories": [
+    "failover",
     "model-routing"
   ],
   "primary_category": "model-routing",

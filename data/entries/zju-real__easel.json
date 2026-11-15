@@ -6,9 +6,9 @@
   "url": "https://github.com/ZJU-REAL/Easel",
   "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
   "homepage": "https://zju-real.github.io/Easel/",
-  "stars": 4674,
-  "forks": 780,
-  "open_issues": 19,
+  "stars": 4697,
+  "forks": 781,
+  "open_issues": 16,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -23,33 +23,33 @@
     "social-media-management"
   ],
   "created_at": "2026-08-28T02:22:27Z",
-  "updated_at": "2026-11-14T10:42:26Z",
-  "pushed_at": "2026-11-12T05:23:31Z",
+  "updated_at": "2026-11-15T11:11:49Z",
+  "pushed_at": "2026-11-15T08:08:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 78,
-  "days_since_push": 2,
+  "age_days": 79,
+  "days_since_push": 0,
   "health_score": 69,
   "health_components": {
     "popularity": 73.4,
-    "momentum": 23.5,
+    "momentum": 23.3,
     "maintenance": 100.0,
     "documentation": 80.0,
     "accessibility": 85.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 141,
+    "stars_gained": 140,
     "days_span": 5,
-    "stars_per_day": 28.2,
-    "lifetime_stars_per_day": 59.92,
+    "stars_per_day": 28.0,
+    "lifetime_stars_per_day": 59.46,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "ZJU-REAL/Easel",
-    "readme_chars": 20060,
+    "readme_chars": 20093,
     "capabilities": [
       "quota-management",
       "model-routing",
@@ -61,7 +61,7 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "quota-management": "平台适配的成品直接到对应平台，再通过**归因**分析表现并把有效经验沉淀回账号画像。",
+      "quota-management": "",
       "model-routing": "",
       "provider-aggregation": "",
       "api-gateway": "API 不提供向量模型，请单独配置 Embedding API；否则 OpenClaw 会默认请求 text-embedding-3-small，可能得到“模型不可用”。",
@@ -156,9 +156,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:30+00:00",
+  "fetched_at": "2026-11-15T11:58:57+00:00",
   "categories": [
-    "failover",
     "model-routing",
     "providers-2"
   ],

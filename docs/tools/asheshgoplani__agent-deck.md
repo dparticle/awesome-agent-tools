@@ -2,7 +2,7 @@
 
 # asheshgoplani/agent-deck
 
-> Your AI agent command center
+> Agent Deck runs all your AI coding agents (Claude Code, Codex, Gemini CLI, OpenCode and more) in one terminal and shows which ones are working, waiting, or done.
 
 [Repository](https://github.com/asheshgoplani/agent-deck) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,106 +12,66 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,256 |
-| Star velocity | 4.2/day (history basis, 5d span) |
-| Health score | 57/100 |
-| Documentation | 81/100 |
+| Stars | 1,260 |
+| Star velocity | 3.2/day (history basis, 5d span) |
+| Health score | 60/100 |
+| Documentation | 60/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2025-12-03 |
-| Last push | 2026-11-14 (0 days ago) |
-| Analyzed README | 100,530 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-15 (0 days ago) |
+| Analyzed README | 5,251 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Multi-account switching
-
-> conductor/group/env chain), so a session can be created straight onto the right login.
-
-### Quota & usage management
-
-> nt-deck accounts --json) to list named slots
-
-### Automatic failover
-
-> ctor's proactive /clear (clearoncompact) only arms on an established window — that variable, or a size the harness reported.
-
 ### Remote control
 
-> account, and the session card's
+> groups and config: MCP and skills managers, groups, accounts, search, status, forking, archive, feedback
 
-### Multi-agent orchestration
+### Mobile access
 
-> tion in iTerm2) to bypass it, or use the c / B / V / Y
-
-### Parallel execution
-
-> late to an empty string explicitly disables the segment.
+> groups and config: MCP and skills managers, groups, accounts, search, status, forking, archive, feedback
 
 ### Workspace isolation
 
-> OpenCode on five more, another agent somewhere in the background? One terminal shows every session — running, waiting, or done — and one keystroke switches between them.
-
-### Model / provider routing
-
-> s no network request: it reads the
+> very guide and reference in one list
 
 ### Usage analytics
 
-> n five more, another agent somewhere in the background? One terminal shows every session — running, waiting, or done — and one keystroke switches between them.
+> search, status, forking, archive, feedback
 
 ### Session persistence
 
-> ersation, metadata, worktree, and parent linkage are all preserved.
-
-### Skills & plugins
-
-> install opens a Welcome that shows which agents you have (Claude Code, Codex, Gemini CLI, Pi), whether Claude and Codex are signed in (from their own claude auth status / codex login status), and the install command for…
+> ways to install, updates, uninstall and shell completion: Install and update.
 
 ### Agent runtime
 
 ### MCP support
 
-> rbells" so the outside world
-
-### Security & isolation
-
-> Permission prompts during automation: if a conductor keeps pausing on permission requests, set [claude].allowdangerousmode = true (or dangerousmode = true) in $XDGCONFIGHOME/agent-deck/config.toml, then run agent-deck
-
-### Self-hostable
-
 ### GUI / desktop app
 
-> config.toml (default: "waiting").
-
-### Notifications
-
-> **Built-in status-driven notifications**: conductor setup also installs a transition notifier daemon (agent-deck notify-daemon) that watches status transitions and sends parent nudges when child sessions move running ->…
+> sandboxes: git worktrees, Docker sandbox
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Copilot, Crush
+> Mentions Claude Code, Codex, Gemini CLI, OpenCode
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 48/100)
-- **Out of the box:** no
+- **Difficulty:** 🟢 Turnkey (friction score 7/100)
+- **Out of the box:** yes
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/asheshgoplani/agent-deck/main/install.sh | bash`
 
-**Signals that make it easy:** Homebrew install, go install, curl | sh installer, global npm install, native installer / package
+**Signals that make it easy:** Homebrew install, curl | sh installer
 
-**Signals that add work:** git clone (build from source), npm install/build, make build
-
-**Configuration required:** environment variables, API key configuration, config file, config.json/yaml/toml, OAuth login flow, sign-in required, database dependency, database migration, server/reverse-proxy setup
-
-*Some setup. install via Homebrew install, go install; needs git clone (build from source), npm install/build; configure environment variables, API key configuration; GUI application*
+*Turnkey. install via Homebrew install, curl | sh installer*
 
 ## Documentation quality
 
-Score **81/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -122,21 +82,17 @@ Score **81/100**, based on these detected signals:
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
-- links to dedicated docs
 - documents changes
-- publishes a roadmap
-- explains architecture
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 62.0 |
-| momentum | 3.5 |
+| momentum | 2.7 |
 | maintenance | 100.0 |
-| documentation | 81.0 |
-| accessibility | 52.0 |
+| documentation | 60.0 |
+| accessibility | 100.0 |
 
 ---
 

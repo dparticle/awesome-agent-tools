@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 866 |
-| Star velocity | 0.8/day (history basis, 5d span) |
+| Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 70/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-05 |
-| Last push | 2026-11-14 (0 days ago) |
+| Last push | 2026-11-14 (1 days ago) |
 | Analyzed README | 21,110 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** — Superseded by HKUDS/DeepTutor: covers 100% of capabilities (5/5).
@@ -79,7 +79,7 @@ Score **70/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 58.8 |
-| momentum | 0.7 |
+| momentum | 0.3 |
 | maintenance | 100.0 |
 | documentation | 70.0 |
 | accessibility | 55.0 |

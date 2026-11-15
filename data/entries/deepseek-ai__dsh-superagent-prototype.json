@@ -6,20 +6,20 @@
   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
   "description": "Towards a More Autonomous Agent System",
   "homepage": "",
-  "stars": 23092,
-  "forks": 2817,
+  "stars": 23207,
+  "forks": 2835,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-10-31T09:32:46Z",
-  "updated_at": "2026-11-14T11:28:13Z",
+  "updated_at": "2026-11-15T11:50:50Z",
   "pushed_at": "2026-11-03T09:29:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 14,
-  "days_since_push": 11,
+  "age_days": 15,
+  "days_since_push": 12,
   "health_score": 78,
   "health_components": {
     "popularity": 87.3,
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1493,
+    "stars_gained": 1159,
     "days_span": 5,
-    "stars_per_day": 298.6,
-    "lifetime_stars_per_day": 1649.43,
+    "stars_per_day": 231.8,
+    "lifetime_stars_per_day": 1547.13,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -96,7 +96,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:13+00:00",
+  "fetched_at": "2026-11-15T11:58:40+00:00",
   "categories": [
     "model-routing"
   ],

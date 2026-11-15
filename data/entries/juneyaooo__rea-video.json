@@ -6,9 +6,9 @@
   "url": "https://github.com/JuneYaooo/rea-video",
   "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
   "homepage": "https://www.reavideo.ai/",
-  "stars": 8229,
-  "forks": 1219,
-  "open_issues": 4,
+  "stars": 8851,
+  "forks": 1307,
+  "open_issues": 5,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -32,16 +32,16 @@
     "vlm"
   ],
   "created_at": "2026-10-29T16:15:01Z",
-  "updated_at": "2026-11-14T11:28:54Z",
-  "pushed_at": "2026-11-14T10:22:32Z",
+  "updated_at": "2026-11-15T11:57:11Z",
+  "pushed_at": "2026-11-15T08:45:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 15,
+  "age_days": 16,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
-    "popularity": 78.3,
+    "popularity": 78.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 49.0,
@@ -49,16 +49,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 8229,
-    "days_span": 15,
-    "stars_per_day": 548.6,
-    "lifetime_stars_per_day": 548.6,
-    "basis": "lifetime",
+    "stars_gained": 2823,
+    "days_span": 5,
+    "stars_per_day": 564.6,
+    "lifetime_stars_per_day": 553.19,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "JuneYaooo/rea-video",
-    "readme_chars": 16849,
+    "readme_chars": 17087,
     "capabilities": [
       "self-hosted",
       "cross-agent-support"
@@ -112,7 +112,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.484
+      "external_link_ratio": 1.522
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-14T11:30:22+00:00",
+  "fetched_at": "2026-11-15T11:58:49+00:00",
   "categories": [
     "sharing"
   ],

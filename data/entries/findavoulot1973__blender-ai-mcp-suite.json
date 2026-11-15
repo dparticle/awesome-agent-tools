@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "full_name": "findavoulot1973/Blender-AI-MCP-Suite",
+  "name": "Blender-AI-MCP-Suite",
+  "owner": "findavoulot1973",
+  "url": "https://github.com/findavoulot1973/Blender-AI-MCP-Suite",
+  "description": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender",
+  "homepage": "",
+  "stars": 438,
+  "forks": 8,
+  "open_issues": 44,
+  "language": "",
+  "license": "MIT",
+  "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai",
+    "blender-assistant",
+    "blender-automation",
+    "blender-chatgpt",
+    "blender-copilot",
+    "blender-extension",
+    "blender-llm",
+    "blender-mcp",
+    "blender-plugin",
+    "blender-scripting",
+    "blender3d",
+    "bpy",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol"
+  ],
+  "created_at": "2026-11-12T19:26:22Z",
+  "updated_at": "2026-11-15T11:10:13Z",
+  "pushed_at": "2026-11-15T11:12:44Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 2,
+  "days_since_push": 0,
+  "health_score": 75,
+  "health_components": {
+    "popularity": 52.8,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 47.0,
+    "accessibility": 70.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 438,
+    "days_span": 2,
+    "stars_per_day": 219.0,
+    "lifetime_stars_per_day": 219.0,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "findavoulot1973/Blender-AI-MCP-Suite",
+    "readme_chars": 8638,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "I assistant and built-in Model Context Protocol (MCP) server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams,…",
+      "model-routing": "a full team — manager, workers and reviewers with individual instructions and models.",
+      "mcp-support": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol (MCP) server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Stud",
+      "cross-agent-support": "Mentions Copilot, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 2,
+      "model-routing": 1,
+      "mcp-support": 21,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 30,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "note_en": "Easy. No setup signals found in the README.",
+      "note_zh": "较易上手。README 中没有找到安装/配置说明。"
+    },
+    "doc_score": 47,
+    "doc_signals": [
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing"
+    ],
+    "agents": [
+      "OpenCode",
+      "Copilot"
+    ],
+    "summary_en": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol (MCP) server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent…",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.81
+    },
+    "highlights": [
+      "Automate and export — bpy API lookups, node descriptions, validated Python execution and scene export, all reversible via named undo checkpoints.",
+      "Run one assistant or a full team — manager, workers and reviewers with individual instructions and models.",
+      "Search and import assets in chat — Poly Haven, Sketchfab and Poly Pizza results with import approval.",
+      "Inspect the scene before acting — objects, transforms, materials and modifiers give the assistant real context."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-15T12:00:20+00:00",
+  "categories": [
+    "desktop-ui-2",
+    "mcp-security"
+  ],
+  "primary_category": "mcp-security",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}
