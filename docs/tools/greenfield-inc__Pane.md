@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 629 |
-| Star velocity | 3.2/day (history basis, 5d span) |
-| Health score | 56/100 |
+| Stars | 646 |
+| Star velocity | 6.2/day (history basis, 5d span) |
+| Health score | 57/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-02-27 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 45,976 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 47,262 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Mobile access
 
-> -hosted and open source: the host machine runs the repos, terminals, git state, files, agent credentials, and compute.
+> On your phone, the Pane app opens the same ports and HTML pages through the computer's own address (QR pairing) or over Tailscale (how), and its Explorer tab browses, edits and previews the worktree's files (how).
 
 ### Multi-agent orchestration
 
@@ -36,7 +36,7 @@
 
 ### Parallel execution
 
-> know how git worktrees work?"
+> how git worktrees work?"**
 
 ### Workspace isolation
 
@@ -47,6 +47,8 @@
 > estions and exits reach this computer's runpane watch, Approvals and phone, and your answers go back to its tab.
 
 ### Session persistence
+
+> **"Isn't this just tmux with extra steps?"** tmux is from 2007.
 
 ### Agent runtime
 
@@ -111,8 +113,8 @@ Score **65/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 56.0 |
-| momentum | 2.7 |
+| popularity | 56.2 |
+| momentum | 5.2 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 79.0 |

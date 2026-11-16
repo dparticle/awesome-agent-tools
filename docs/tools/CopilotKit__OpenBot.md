@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,343 |
-| Star velocity | 346.0/day (history basis, 5d span) |
+| Stars | 12,519 |
+| Star velocity | 322.8/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 78/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 50,532 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 50,969 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (9/9).
 
@@ -30,7 +30,7 @@
 
 ### Automatic failover
 
-> et responses and the rest get chat.
+> ater) get responses and the rest get chat.
 
 ### Model / provider routing
 
@@ -40,15 +40,13 @@
 
 ### MCP support
 
-> - **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account (Arcade can be the bro
+> ere is no path that acts without the record existing first.
 
 ### Security & isolation
 
-> who gets in**: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.
+> e who gets in: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.
 
 ### Self-hostable
-
-> Defaults to ../examples/fintech.
 
 ### GUI / desktop app
 
@@ -91,7 +89,7 @@ Score **78/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.8 |
+| popularity | 82.0 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 78.0 |

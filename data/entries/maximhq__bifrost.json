@@ -6,9 +6,9 @@
   "url": "https://github.com/maximhq/bifrost",
   "description": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing, semantic caching, virtual keys, budgets and MCP Code Mode. Works with any SDK or agent and adds under 200µs of overhead at 5k RPS.",
   "homepage": "https://www.getmaxim.ai/bifrost",
-  "stars": 9565,
-  "forks": 1596,
-  "open_issues": 1581,
+  "stars": 9579,
+  "forks": 1597,
+  "open_issues": 1586,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,26 +34,26 @@
     "semantic-cache"
   ],
   "created_at": "2025-03-19T07:21:26Z",
-  "updated_at": "2026-11-15T11:06:48Z",
-  "pushed_at": "2026-11-15T11:39:21Z",
+  "updated_at": "2026-11-16T11:33:13Z",
+  "pushed_at": "2026-11-16T12:39:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 606,
+  "age_days": 607,
   "days_since_push": 0,
   "health_score": 63,
   "health_components": {
     "popularity": 79.6,
-    "momentum": 15.3,
+    "momentum": 13.8,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 51.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 92,
+    "stars_gained": 83,
     "days_span": 5,
-    "stars_per_day": 18.4,
+    "stars_per_day": 16.6,
     "lifetime_stars_per_day": 15.78,
     "basis": "history",
     "is_fast_riser": true
@@ -156,18 +156,78 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:24+00:00",
+  "fetched_at": "2026-11-16T12:46:44+00:00",
   "categories": [
-    "desktop-ui-2",
     "failover",
-    "sharing"
+    "mcp-security",
+    "sharing-model-routing"
   ],
   "primary_category": "failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by farion1231/cc-switch: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 farion1231/cc-switch 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "farion1231/cc-switch",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "maximhq/bifrost",
+      "challenger": "farion1231/cc-switch",
+      "incumbent_name": "maximhq/bifrost",
+      "challenger_name": "farion1231/cc-switch",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "auto-failover",
+        "gui-desktop",
+        "mcp-support",
+        "model-routing",
+        "skills-plugins",
+        "usage-analytics"
+      ],
+      "star_ratio": 16.167,
+      "momentum_ratio": 15.639,
+      "setup_delta": -26,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "16.17x the stars (154,860 vs 9,579)",
+        "15.64x the star velocity (259.6/day vs 16.6/day)",
+        "no harder to set up (23 vs 49 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-account-switching",
+          "parallel-execution",
+          "provider-aggregation",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 63,
+        "challenger_health": 94,
+        "incumbent_setup_score": 49,
+        "challenger_setup_score": 23
+      }
+    }
   }
 }

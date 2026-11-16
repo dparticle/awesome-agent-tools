@@ -6,9 +6,9 @@
   "url": "https://github.com/topoteretes/cognee",
   "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
   "homepage": "https://www.cognee.ai",
-  "stars": 33324,
-  "forks": 3515,
-  "open_issues": 1123,
+  "stars": 33346,
+  "forks": 3522,
+  "open_issues": 1132,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -33,27 +33,27 @@
     "vector-database"
   ],
   "created_at": "2023-08-16T16:16:33Z",
-  "updated_at": "2026-11-15T11:55:51Z",
-  "pushed_at": "2026-11-14T20:53:03Z",
+  "updated_at": "2026-11-16T12:18:43Z",
+  "pushed_at": "2026-11-16T12:30:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1186,
+  "age_days": 1187,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
     "popularity": 90.5,
-    "momentum": 19.2,
+    "momentum": 17.8,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 60.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 115,
+    "stars_gained": 107,
     "days_span": 5,
-    "stars_per_day": 23.0,
-    "lifetime_stars_per_day": 28.1,
+    "stars_per_day": 21.4,
+    "lifetime_stars_per_day": 28.09,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -150,11 +150,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:20+00:00",
+  "fetched_at": "2026-11-16T12:46:40+00:00",
   "categories": [
-    "memory-failover"
+    "sessions-memory"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (5/5).",
@@ -177,14 +177,14 @@
         "model-routing",
         "self-hosted"
       ],
-      "star_ratio": 1.781,
-      "momentum_ratio": 8.04,
+      "star_ratio": 1.789,
+      "momentum_ratio": 14.047,
       "setup_delta": 8,
-      "dominance": 0.841,
+      "dominance": 0.842,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.78x the stars (59,360 vs 33,324)",
-        "8.04x the star velocity (184.9/day vs 23.0/day)",
+        "1.79x the stars (59,665 vs 33,346)",
+        "14.05x the star velocity (300.6/day vs 21.4/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],

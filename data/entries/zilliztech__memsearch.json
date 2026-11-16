@@ -6,9 +6,9 @@
   "url": "https://github.com/zilliztech/memsearch",
   "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
   "homepage": "https://zilliztech.github.io/memsearch/",
-  "stars": 2881,
+  "stars": 2889,
   "forks": 289,
-  "open_issues": 268,
+  "open_issues": 270,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "skills"
   ],
   "created_at": "2026-02-09T02:29:16Z",
-  "updated_at": "2026-11-15T10:11:32Z",
+  "updated_at": "2026-11-16T09:58:04Z",
   "pushed_at": "2026-11-13T09:22:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 279,
-  "days_since_push": 2,
-  "health_score": 57,
+  "age_days": 280,
+  "days_since_push": 3,
+  "health_score": 58,
   "health_components": {
     "popularity": 69.2,
-    "momentum": 4.3,
+    "momentum": 5.0,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 26,
+    "stars_gained": 30,
     "days_span": 5,
-    "stars_per_day": 5.2,
-    "lifetime_stars_per_day": 10.33,
+    "stars_per_day": 6.0,
+    "lifetime_stars_per_day": 10.32,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -156,13 +156,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:33+00:00",
+  "fetched_at": "2026-11-16T12:46:52+00:00",
   "categories": [
-    "failover",
-    "memory-failover",
-    "model-routing"
+    "desktop-ui-2",
+    "sessions-memory"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (7/7).",
@@ -187,14 +186,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 20.604,
-      "momentum_ratio": 35.562,
+      "star_ratio": 20.652,
+      "momentum_ratio": 50.1,
       "setup_delta": -1,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "20.60x the stars (59,360 vs 2,881)",
-        "35.56x the star velocity (184.9/day vs 5.2/day)",
+        "20.65x the stars (59,665 vs 2,889)",
+        "50.10x the star velocity (300.6/day vs 6.0/day)",
         "no harder to set up (48 vs 49 friction)"
       ],
       "reasons_zh": [],
@@ -226,7 +225,7 @@
           "usage-analytics",
           "worktree-isolation"
         ],
-        "incumbent_health": 57,
+        "incumbent_health": 58,
         "challenger_health": 90,
         "incumbent_setup_score": 49,
         "challenger_setup_score": 48

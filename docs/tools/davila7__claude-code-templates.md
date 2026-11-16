@@ -2,7 +2,7 @@
 
 # davila7/claude-code-templates
 
-> An open catalog of components for Claude Code, installable with one command.
+> Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods
 
 [Repository](https://github.com/davila7/claude-code-templates) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 33,703 |
-| Star velocity | 89.8/day (history basis, 5d span) |
-| Health score | 82/100 |
-| Documentation | 61/100 |
+| Stars | 33,826 |
+| Star velocity | 104.6/day (history basis, 5d span) |
+| Health score | 85/100 |
+| Documentation | 62/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-07-04 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 9,616 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 10,870 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -73,7 +73,7 @@
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **62/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -91,9 +91,9 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 90.6 |
-| momentum | 74.8 |
+| momentum | 87.2 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
+| documentation | 62.0 |
 | accessibility | 72.0 |
 
 ---

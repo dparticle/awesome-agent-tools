@@ -13,22 +13,22 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 563 |
-| Star velocity | 1.6/day (history basis, 5d span) |
+| Star velocity | 0.8/day (history basis, 5d span) |
 | Health score | 54/100 |
-| Documentation | 44/100 |
+| Documentation | 43/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
-| Language | JavaScript |
+| Language | Python |
 | Created | 2026-03-01 |
-| Last push | 2026-11-13 (2 days ago) |
-| Analyzed README | 28,851 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-15 (0 days ago) |
+| Analyzed README | 27,064 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> ge well enough that a coauthor could defend it.
+> ht is for a quick read of the argument while the paper is still moving.
 
 ### Parallel execution
 
@@ -40,19 +40,19 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 18/100)
+- **Difficulty:** 🟢 Turnkey (friction score 9/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
 
-**Signals that make it easy:** Homebrew install
+**Signals that make it easy:** Homebrew install, native installer / package
 
 **Signals that add work:** git clone (build from source)
 
-*Turnkey. install via Homebrew install; needs git clone (build from source); no-code positioning*
+*Turnkey. install via Homebrew install, native installer / package; needs git clone (build from source); no-code positioning*
 
 ## Documentation quality
 
-Score **44/100**, based on these detected signals:
+Score **43/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -67,10 +67,10 @@ Score **44/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.0 |
-| momentum | 1.3 |
+| momentum | 0.7 |
 | maintenance | 100.0 |
-| documentation | 44.0 |
-| accessibility | 90.0 |
+| documentation | 43.0 |
+| accessibility | 99.0 |
 
 ---
 

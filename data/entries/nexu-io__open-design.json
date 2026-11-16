@@ -6,9 +6,9 @@
   "url": "https://github.com/nexu-io/open-design",
   "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
   "homepage": "https://open-design.ai",
-  "stars": 107707,
-  "forks": 12245,
-  "open_issues": 1404,
+  "stars": 107857,
+  "forks": 12255,
+  "open_issues": 1396,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,12 +34,12 @@
     "vibe-coding"
   ],
   "created_at": "2026-04-28T04:25:20Z",
-  "updated_at": "2026-11-15T11:54:28Z",
-  "pushed_at": "2026-11-15T04:31:27Z",
+  "updated_at": "2026-11-16T12:37:03Z",
+  "pushed_at": "2026-11-16T12:26:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 201,
+  "age_days": 202,
   "days_since_push": 0,
   "health_score": 95,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 740,
+    "stars_gained": 720,
     "days_span": 5,
-    "stars_per_day": 148.0,
-    "lifetime_stars_per_day": 535.86,
+    "stars_per_day": 144.0,
+    "lifetime_stars_per_day": 533.95,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nexu-io/open-design",
-    "readme_chars": 53955,
+    "readme_chars": 54481,
     "capabilities": [
       "mobile-access",
       "model-routing",
@@ -80,9 +80,9 @@
       "api-gateway": "udio}/stream gives you the same loop (no process spawn) — paste baseUrl + apiKey + model, with presets for OpenAI, Atlas Cloud, Anthropic, Azure OpenAI, Google Gemini, Ollama, LM Studio, vLLM, or any OpenAI-compatible e…",
       "quota-distribution": "",
       "session-persistence": "ive runtime adapters for agents that OD launches directly.",
-      "skills-plugins": "cial plugins plus 183 remixable reference examples live in plugins/official/.",
-      "agent-runtime": "then download or open it.",
-      "mcp-support": "s — create motion graphics with your agent and export to MP4.",
+      "skills-plugins": "reuse it for your next release, campaign, or update.",
+      "agent-runtime": "the generated project, then reuse it for your next release, campaign, or update.",
+      "mcp-support": "r next release, campaign, or update.",
       "self-hosted": "one can author and publish.",
       "gui-desktop": "may be DESIGN.md-only, while newer packages can add manifest.json, tokens.css, components, assets, and provenance.",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
@@ -169,7 +169,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.927
+      "external_link_ratio": 0.918
     },
     "highlights": [
       "🤖 Agent-native, model-agnostic.",
@@ -185,13 +185,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:08+00:00",
+  "fetched_at": "2026-11-16T12:46:30+00:00",
   "categories": [
-    "model-routing",
-    "sharing",
-    "sharing-2"
+    "mcp-security",
+    "sessions-memory",
+    "sharing-model-routing"
   ],
-  "primary_category": "sharing-2",
+  "primary_category": "sharing-model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

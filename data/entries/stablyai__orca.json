@@ -6,9 +6,9 @@
   "url": "https://github.com/stablyai/orca",
   "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
   "homepage": "https://orca.dev",
-  "stars": 125374,
-  "forks": 7948,
-  "open_issues": 8496,
+  "stars": 126336,
+  "forks": 8011,
+  "open_issues": 8449,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-11-15T11:58:35Z",
-  "pushed_at": "2026-11-15T11:57:38Z",
+  "updated_at": "2026-11-16T12:43:39Z",
+  "pushed_at": "2026-11-16T12:42:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 243,
+  "age_days": 244,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4364,
+    "stars_gained": 4395,
     "days_span": 5,
-    "stars_per_day": 872.8,
-    "lifetime_stars_per_day": 515.94,
+    "stars_per_day": 879.0,
+    "lifetime_stars_per_day": 517.77,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "stablyai/orca",
-    "readme_chars": 20270,
+    "readme_chars": 20422,
     "capabilities": [
       "multi-account-switching",
       "remote-control",
@@ -158,7 +158,7 @@
       "signals": [
         "list-maintenance framing"
       ],
-      "external_link_ratio": 1.924
+      "external_link_ratio": 2.008
     },
     "highlights": [
       "Mobile Emulator: run an iOS Simulator or Android emulator beside your agent, and let it tap, type, and check its own work.",
@@ -174,7 +174,7 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-15T11:58:36+00:00",
+  "fetched_at": "2026-11-16T12:45:58+00:00",
   "categories": [
     "desktop-ui",
     "isolation-teams",

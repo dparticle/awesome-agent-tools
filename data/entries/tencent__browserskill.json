@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/BrowserSkill",
   "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
   "homepage": "",
-  "stars": 10417,
-  "forks": 752,
-  "open_issues": 122,
+  "stars": 10463,
+  "forks": 755,
+  "open_issues": 126,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -17,27 +17,27 @@
     "dsh-plugin"
   ],
   "created_at": "2026-06-22T07:24:40Z",
-  "updated_at": "2026-11-15T08:51:35Z",
-  "pushed_at": "2026-11-15T11:04:10Z",
+  "updated_at": "2026-11-16T12:26:49Z",
+  "pushed_at": "2026-11-16T09:22:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
+  "age_days": 147,
   "days_since_push": 0,
-  "health_score": 65,
+  "health_score": 66,
   "health_components": {
     "popularity": 80.4,
-    "momentum": 22.8,
+    "momentum": 24.8,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 137,
+    "stars_gained": 149,
     "days_span": 5,
-    "stars_per_day": 27.4,
-    "lifetime_stars_per_day": 71.35,
+    "stars_per_day": 29.8,
+    "lifetime_stars_per_day": 71.18,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -135,17 +135,72 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:58:47+00:00",
+  "fetched_at": "2026-11-16T12:46:09+00:00",
   "categories": [
-    "desktop-ui-2",
-    "mcp-security"
+    "failover"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "failover",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by farion1231/cc-switch: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 farion1231/cc-switch 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "farion1231/cc-switch",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "tencent/browserskill",
+      "challenger": "farion1231/cc-switch",
+      "incumbent_name": "Tencent/BrowserSkill",
+      "challenger_name": "farion1231/cc-switch",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "skills-plugins"
+      ],
+      "star_ratio": 14.801,
+      "momentum_ratio": 8.711,
+      "setup_delta": -5,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "14.80x the stars (154,860 vs 10,463)",
+        "8.71x the star velocity (259.6/day vs 29.8/day)",
+        "no harder to set up (23 vs 28 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-account-switching",
+          "parallel-execution",
+          "provider-aggregation",
+          "session-persistence",
+          "skills-plugins",
+          "usage-analytics"
+        ],
+        "incumbent_health": 66,
+        "challenger_health": 94,
+        "incumbent_setup_score": 28,
+        "challenger_setup_score": 23
+      }
+    }
   }
 }

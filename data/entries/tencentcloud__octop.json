@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 12051,
-  "forks": 1692,
-  "open_issues": 685,
+  "stars": 12113,
+  "forks": 1708,
+  "open_issues": 678,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-11-15T10:07:53Z",
-  "pushed_at": "2026-11-15T11:22:07Z",
+  "updated_at": "2026-11-16T11:39:56Z",
+  "pushed_at": "2026-11-16T12:07:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 129,
+  "age_days": 130,
   "days_since_push": 0,
   "health_score": 72,
   "health_components": {
-    "popularity": 81.6,
-    "momentum": 34.5,
+    "popularity": 81.7,
+    "momentum": 33.7,
     "maintenance": 100.0,
     "documentation": 79.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 207,
+    "stars_gained": 202,
     "days_span": 5,
-    "stars_per_day": 41.4,
-    "lifetime_stars_per_day": 93.42,
+    "stars_per_day": 40.4,
+    "lifetime_stars_per_day": 93.18,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "TencentCloud/Octop",
-    "readme_chars": 30932,
+    "readme_chars": 31193,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -69,10 +69,10 @@
       "mobile-access": "Linux alongside the web dashboard and IM channels.",
       "multi-agent-orchestration": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "parallel-execution": "",
-      "worktree-isolation": "PyPI Any pip install octop (optional extras such as local-embedding)",
+      "worktree-isolation": "pip install octop (optional extras such as local-embedding)",
       "model-routing": "ild / quality** hatchling · ruff · mypy · pytest",
       "api-gateway": "ays back up first (octop backup) before a cross-version upgrade.",
-      "billing-metering": "hina mirror: docker/docker-compose.cn.yml",
+      "billing-metering": "rror: deploy/docker/docker-compose.cn.yml",
       "memory-context": "e notes, and manage your schedule; memory persists with the workspace.",
       "skills-plugins": "",
       "agent-runtime": "",
@@ -168,7 +168,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.517
+      "external_link_ratio": 0.513
     },
     "highlights": [
       "Desktop client — native apps for Windows / macOS / Linux; FnOS packages for NAS",
@@ -190,13 +190,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:58:45+00:00",
+  "fetched_at": "2026-11-16T12:46:08+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "sharing"
+    "isolation-teams"
   ],
-  "primary_category": "sharing",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

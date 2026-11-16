@@ -6,8 +6,8 @@
   "url": "https://github.com/Socialpranker/deepdive",
   "description": "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints.",
   "homepage": "https://socialpranker.github.io/deepdive/",
-  "stars": 368,
-  "forks": 6,
+  "stars": 372,
+  "forks": 5,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -29,27 +29,27 @@
     "research-methodology"
   ],
   "created_at": "2026-05-21T11:43:13Z",
-  "updated_at": "2026-11-14T16:59:52Z",
+  "updated_at": "2026-11-16T10:39:58Z",
   "pushed_at": "2026-11-15T11:34:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 178,
-  "days_since_push": 0,
+  "age_days": 179,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
-    "popularity": 51.3,
-    "momentum": 0.3,
+    "popularity": 51.4,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.07,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 2.08,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,12 +136,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:26+00:00",
+  "fetched_at": "2026-11-16T12:47:43+00:00",
   "categories": [
     "desktop-ui-2",
-    "model-routing"
+    "skills"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
@@ -163,14 +163,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 135.155,
-      "momentum_ratio": 138.5,
+      "star_ratio": 133.833,
+      "momentum_ratio": 43.833,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "135.15x the stars (49,737 vs 368)",
-        "138.50x the star velocity (55.4/day vs 0.4/day)",
+        "133.83x the stars (49,786 vs 372)",
+        "43.83x the star velocity (52.6/day vs 1.2/day)",
         "no harder to set up (39 vs 51 friction)"
       ],
       "reasons_zh": [],
@@ -198,7 +198,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 52,
-        "challenger_health": 78,
+        "challenger_health": 77,
         "incumbent_setup_score": 51,
         "challenger_setup_score": 39
       }

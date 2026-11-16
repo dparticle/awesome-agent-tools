@@ -6,7 +6,7 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 866,
+  "stars": 865,
   "forks": 72,
   "open_issues": 2,
   "language": "Go",
@@ -32,16 +32,16 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-11-13T10:02:50Z",
+  "updated_at": "2026-11-15T20:14:58Z",
   "pushed_at": "2026-11-14T10:03:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 70,
-  "days_since_push": 1,
+  "age_days": 71,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
-    "popularity": 58.8,
+    "popularity": 58.7,
     "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 70.0,
@@ -52,7 +52,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 12.37,
+    "lifetime_stars_per_day": 12.18,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,13 +146,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:54+00:00",
+  "fetched_at": "2026-11-16T12:47:12+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "memory-failover"
+    "sessions-memory"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (5/5).",
@@ -175,14 +175,14 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 68.545,
-      "momentum_ratio": 462.3,
+      "star_ratio": 68.977,
+      "momentum_ratio": 751.5,
       "setup_delta": 3,
       "dominance": 0.985,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "68.55x the stars (59,360 vs 866)",
-        "462.30x the star velocity (184.9/day vs 0.4/day)",
+        "68.98x the stars (59,665 vs 865)",
+        "751.50x the star velocity (300.6/day vs 0.4/day)",
         "slightly heavier setup (+3 friction, within tolerance)"
       ],
       "reasons_zh": [],

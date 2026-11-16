@@ -14,21 +14,21 @@
 | --- | --- |
 | Stars | 310 |
 | Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 48/100 |
-| Documentation | 59/100 |
+| Health score | 53/100 |
+| Documentation | 60/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-03-09 |
-| Last push | 2026-10-08 (37 days ago) |
-| Analyzed README | 13,792 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 16,744 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
 
-> (/verify-prd), plus several we had missed.
+> ds, so decisions outlive the chat session.
 
 ### Agent runtime
 
@@ -43,7 +43,7 @@
 - **Difficulty:** 🟢 Easy (friction score 25/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/nurettincoban/ai-prd-workflow/main/install.sh | bash -s -- /path…`
+- **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/nurettincoban/ai-prd-workflow/main/install.sh | bash -s -- .`
 
 **Signals that make it easy:** curl | sh installer
 
@@ -53,7 +53,7 @@
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -71,8 +71,8 @@ Score **59/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 49.8 |
 | momentum | 0.0 |
-| maintenance | 78.0 |
-| documentation | 59.0 |
+| maintenance | 100.0 |
+| documentation | 60.0 |
 | accessibility | 75.0 |
 
 ---

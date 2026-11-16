@@ -6,9 +6,9 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 5758,
-  "forks": 502,
-  "open_issues": 24,
+  "stars": 6135,
+  "forks": 544,
+  "open_issues": 32,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-11-15T11:56:49Z",
-  "pushed_at": "2026-11-15T11:00:07Z",
+  "updated_at": "2026-11-16T12:44:29Z",
+  "pushed_at": "2026-11-16T01:08:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 72,
+  "age_days": 73,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 75.2,
+    "popularity": 75.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 843,
+    "stars_gained": 1081,
     "days_span": 5,
-    "stars_per_day": 168.6,
-    "lifetime_stars_per_day": 79.97,
+    "stars_per_day": 216.2,
+    "lifetime_stars_per_day": 84.04,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kajisho5/ffmpeg-skill",
-    "readme_chars": 117533,
+    "readme_chars": 118347,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -79,7 +79,7 @@
       "skills-plugins": ". The footage is synthetic (FFmpeg's own test sources) except in three demos, reframetalk, filleren and pausesen, which use two AI-generated clips of people who do not exist (demos/footage/).",
       "agent-runtime": "Give your coding agent a video editor.",
       "mcp-support": "Give your coding agent a video editor.",
-      "security-isolation": "re recorded in diagnostics and on stderr (codes: jsonoutput.diagnosticcodes); tools that draw text name the font they drew with (fontused).",
+      "security-isolation": "ticcodes); tools that draw text name the font face they drew with (fontused; libass draws a glyph that face lacks from another, not named).",
       "voice-input": "",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
     },
@@ -148,7 +148,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.196
+      "external_link_ratio": 0.194
     },
     "highlights": [
       "Loudness targets. −14 LUFS / −1 dBTP for YouTube and social platforms (the loudness.py default), -I -16 --tp -1.5 for podcasts, -I -23 for broadcast. A clip measured at −40 LUFS or below is…",
@@ -165,11 +165,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:58:55+00:00",
+  "fetched_at": "2026-11-16T12:46:17+00:00",
   "categories": [
     "desktop-ui-2",
-    "failover",
-    "mcp-security"
+    "mcp-security",
+    "skills"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

@@ -6,9 +6,9 @@
   "url": "https://github.com/davila7/claude-code-templates",
   "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
   "homepage": "https://aitmpl.com",
-  "stars": 33703,
-  "forks": 3977,
-  "open_issues": 520,
+  "stars": 33826,
+  "forks": 3992,
+  "open_issues": 518,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "registry"
   ],
   "created_at": "2025-07-04T01:26:26Z",
-  "updated_at": "2026-11-15T11:46:16Z",
-  "pushed_at": "2026-11-15T03:34:56Z",
+  "updated_at": "2026-11-16T12:18:45Z",
+  "pushed_at": "2026-11-16T04:20:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 499,
+  "age_days": 500,
   "days_since_push": 0,
-  "health_score": 82,
+  "health_score": 85,
   "health_components": {
     "popularity": 90.6,
-    "momentum": 74.8,
+    "momentum": 87.2,
     "maintenance": 100.0,
-    "documentation": 61.0,
+    "documentation": 62.0,
     "accessibility": 72.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 449,
+    "stars_gained": 523,
     "days_span": 5,
-    "stars_per_day": 89.8,
-    "lifetime_stars_per_day": 67.54,
+    "stars_per_day": 104.6,
+    "lifetime_stars_per_day": 67.65,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "davila7/claude-code-templates",
-    "readme_chars": 9616,
+    "readme_chars": 10870,
     "capabilities": [
       "remote-control",
       "multi-agent-orchestration",
@@ -102,7 +102,7 @@
       "note_en": "Easy. install via npx one-liner; configure database dependency, server/reverse-proxy setup",
       "note_zh": "较易上手。可通过 npx one-liner 安装；需配置 database dependency、server/reverse-proxy setup"
     },
-    "doc_score": 61,
+    "doc_score": 62,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -118,7 +118,7 @@
     "agents": [
       "Claude Code"
     ],
-    "summary_en": "An open catalog of components for Claude Code, installable with one command.",
+    "summary_en": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
     "summary_zh": "",
     "install_hint": "npx claude-code-templates@latest",
     "source": "raw:HEAD/README.md",
@@ -126,7 +126,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.352
+      "external_link_ratio": 1.196
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -138,10 +138,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:20+00:00",
+  "fetched_at": "2026-11-16T12:46:40+00:00",
   "categories": [
-    "desktop-ui-2",
-    "mcp-security"
+    "mcp-security",
+    "sessions-memory",
+    "skills"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

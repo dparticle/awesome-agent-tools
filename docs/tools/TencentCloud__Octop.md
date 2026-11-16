@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,051 |
-| Star velocity | 41.4/day (history basis, 5d span) |
+| Stars | 12,113 |
+| Star velocity | 40.4/day (history basis, 5d span) |
 | Health score | 72/100 |
 | Documentation | 79/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-07-08 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 30,932 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 31,193 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ### Workspace isolation
 
-> PyPI Any pip install octop (optional extras such as local-embedding)
+> pip install octop (optional extras such as local-embedding)
 
 ### Model / provider routing
 
@@ -50,7 +50,7 @@
 
 ### Billing & metering
 
-> hina mirror: docker/docker-compose.cn.yml
+> rror: deploy/docker/docker-compose.cn.yml
 
 ### Memory & context
 
@@ -118,8 +118,8 @@ Score **79/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 81.6 |
-| momentum | 34.5 |
+| popularity | 81.7 |
+| momentum | 33.7 |
 | maintenance | 100.0 |
 | documentation | 79.0 |
 | accessibility | 68.0 |

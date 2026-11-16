@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1889,
-  "days_since_push": 13,
+  "age_days": 1890,
+  "days_since_push": 14,
   "health_score": 47,
   "health_components": {
     "popularity": 50.2,
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:32+00:00",
+  "fetched_at": "2026-11-16T12:47:48+00:00",
   "categories": [
     "isolation-teams"
   ],

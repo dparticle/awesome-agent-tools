@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 390,
-  "days_since_push": 66,
+  "age_days": 391,
+  "days_since_push": 67,
   "health_score": 44,
   "health_components": {
     "popularity": 51.4,
@@ -147,13 +147,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:26+00:00",
+  "fetched_at": "2026-11-16T12:47:43+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "model-routing"
+    "skills"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
@@ -176,14 +176,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 134.062,
-      "momentum_ratio": 277.0,
+      "star_ratio": 134.194,
+      "momentum_ratio": 263.0,
       "setup_delta": -27,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "134.06x the stars (49,737 vs 371)",
-        "277.00x the star velocity (55.4/day vs 0.2/day)",
+        "134.19x the stars (49,786 vs 371)",
+        "263.00x the star velocity (52.6/day vs 0.2/day)",
         "no harder to set up (39 vs 66 friction)"
       ],
       "reasons_zh": [],
@@ -212,7 +212,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 44,
-        "challenger_health": 78,
+        "challenger_health": 77,
         "incumbent_setup_score": 66,
         "challenger_setup_score": 39
       }

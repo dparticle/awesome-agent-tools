@@ -35,11 +35,11 @@
   ],
   "created_at": "2026-01-11T16:56:02Z",
   "updated_at": "2026-11-15T00:05:41Z",
-  "pushed_at": "2026-11-15T11:57:21Z",
+  "pushed_at": "2026-11-16T11:05:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 307,
+  "age_days": 308,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
@@ -60,12 +60,11 @@
   },
   "analysis": {
     "full_name": "cordum-io/cordum",
-    "readme_chars": 34745,
+    "readme_chars": 35626,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
       "worktree-isolation",
-      "provider-aggregation",
       "api-gateway",
       "mcp-support",
       "security-isolation",
@@ -74,13 +73,12 @@
       "notifications"
     ],
     "capability_evidence": {
-      "auto-failover": "",
-      "multi-agent-orchestration": "",
+      "auto-failover": "unity defaults in core/licensing/tiers.go:",
+      "multi-agent-orchestration": "— it defines how a model calls local tools.",
       "worktree-isolation": "cheduler pre-dispatch safety checks, the MCP server policy pipeline, and the Cordum Edge hook.",
-      "provider-aggregation": "",
       "api-gateway": "pre-built images? docker compose pull && docker compose up -d (Option B below)",
       "mcp-support": "kthrough: docs/quickstart-edge.md.",
-      "security-isolation": "",
+      "security-isolation": "Monitor Cordum jobs and workflow runs, handle step-level approvals, and apply timeouts or circuit breakers.",
       "self-hosted": "cap-sdk-node on npm) cordum-io/cap Apache-2.0",
       "team-collaboration": "- Email: See SECURITY.md for contact details ## Enterprise Cordum Enterprise features (shipped in core, unlocked by license entitlement): - SSO/SAML/OIDC integration + SCIM provisioning - Advanced RBAC with role hierarc…",
       "notifications": ""
@@ -89,7 +87,6 @@
       "auto-failover": 1,
       "multi-agent-orchestration": 1,
       "worktree-isolation": 1,
-      "provider-aggregation": 1,
       "api-gateway": 1,
       "mcp-support": 14,
       "security-isolation": 1,
@@ -146,7 +143,7 @@
     "agents": [
       "Claude Code"
     ],
-    "summary_en": "The Source-Available Agent Control Plane for Governance, Safety, and Trust.",
+    "summary_en": "The Source-Available Agent Control Plane for policy checks, approvals, and audit of the agent actions it mediates.",
     "summary_zh": "",
     "install_hint": "docker compose up -d        # starts the stack — no image build needed",
     "source": "raw:HEAD/README.md",
@@ -154,7 +151,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.036
+      "external_link_ratio": 1.01
     },
     "highlights": [
       "Gateway HTTP/SSE mode via /mcp/message and /mcp/sse (when mcp.enabled=true)",
@@ -171,13 +168,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:12+00:00",
+  "fetched_at": "2026-11-16T12:47:27+00:00",
   "categories": [
-    "mcp-security",
-    "providers-2",
-    "sharing"
+    "billing-2",
+    "isolation-teams",
+    "mcp-security"
   ],
-  "primary_category": "providers-2",
+  "primary_category": "mcp-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

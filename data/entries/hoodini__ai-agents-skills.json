@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 311,
-  "days_since_push": 12,
+  "age_days": 312,
+  "days_since_push": 13,
   "health_score": 51,
   "health_components": {
     "popularity": 49.5,
@@ -150,13 +150,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:40+00:00",
+  "fetched_at": "2026-11-16T12:47:53+00:00",
   "categories": [
     "billing-2",
     "desktop-ui-2",
-    "model-routing"
+    "skills"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",

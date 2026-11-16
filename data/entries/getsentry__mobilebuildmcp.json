@@ -6,9 +6,9 @@
   "url": "https://github.com/getsentry/MobileBuildMCP",
   "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
   "homepage": "",
-  "stars": 6576,
+  "stars": 6577,
   "forks": 328,
-  "open_issues": 30,
+  "open_issues": 29,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "xcodebuild"
   ],
   "created_at": "2025-03-09T17:31:18Z",
-  "updated_at": "2026-11-15T07:44:00Z",
-  "pushed_at": "2026-11-13T11:42:17Z",
+  "updated_at": "2026-11-15T18:02:38Z",
+  "pushed_at": "2026-11-16T03:39:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 615,
-  "days_since_push": 2,
+  "age_days": 616,
+  "days_since_push": 0,
   "health_score": 62,
   "health_components": {
     "popularity": 76.4,
-    "momentum": 2.8,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 48.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 17,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 3.4,
-    "lifetime_stars_per_day": 10.69,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 10.68,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:26+00:00",
+  "fetched_at": "2026-11-16T12:46:46+00:00",
   "categories": [
     "mcp-security"
   ],

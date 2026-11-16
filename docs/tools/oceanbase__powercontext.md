@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,660 |
-| Star velocity | 17.4/day (history basis, 5d span) |
-| Health score | 56/100 |
+| Stars | 1,704 |
+| Star velocity | 22.0/day (history basis, 5d span) |
+| Health score | 57/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-11-15 (0 days ago) |
+| Last push | 2026-11-16 (0 days ago) |
 | Analyzed README | 24,260 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** — Superseded by HKUDS/DeepTutor: covers 100% of capabilities (4/4).
@@ -74,8 +74,8 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 64.4 |
-| momentum | 14.5 |
+| popularity | 64.6 |
+| momentum | 18.3 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
 | accessibility | 31.0 |

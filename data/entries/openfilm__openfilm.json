@@ -6,9 +6,9 @@
   "url": "https://github.com/openfilm/openfilm",
   "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
   "homepage": "https://openfilm.dev",
-  "stars": 7316,
-  "forks": 704,
-  "open_issues": 21,
+  "stars": 7761,
+  "forks": 753,
+  "open_issues": 24,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -22,16 +22,16 @@
     "video-editor"
   ],
   "created_at": "2026-10-04T09:29:07Z",
-  "updated_at": "2026-11-15T11:56:15Z",
-  "pushed_at": "2026-11-15T04:15:03Z",
+  "updated_at": "2026-11-16T12:39:47Z",
+  "pushed_at": "2026-11-16T12:28:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 42,
+  "age_days": 43,
   "days_since_push": 0,
   "health_score": 81,
   "health_components": {
-    "popularity": 77.3,
+    "popularity": 77.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 37.0,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1700,
+    "stars_gained": 2022,
     "days_span": 5,
-    "stars_per_day": 340.0,
-    "lifetime_stars_per_day": 174.19,
+    "stars_per_day": 404.4,
+    "lifetime_stars_per_day": 180.49,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openfilm/openfilm",
-    "readme_chars": 10232,
+    "readme_chars": 10268,
     "capabilities": [
       "agent-runtime",
       "gui-desktop",
@@ -112,7 +112,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.586
+      "external_link_ratio": 0.584
     },
     "highlights": [],
     "summary_zh_native": "OpenFilm 让你的编程智能体来做视频，也让你亲手修改。",
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:58:51+00:00",
+  "fetched_at": "2026-11-16T12:46:13+00:00",
   "categories": [
     "desktop-ui"
   ],

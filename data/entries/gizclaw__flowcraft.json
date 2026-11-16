@@ -8,7 +8,7 @@
   "homepage": "https://gizclaw.github.io/flowcraft/",
   "stars": 411,
   "forks": 12,
-  "open_issues": 5,
+  "open_issues": 4,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -30,18 +30,18 @@
   ],
   "created_at": "2026-04-14T07:49:44Z",
   "updated_at": "2026-11-09T19:57:54Z",
-  "pushed_at": "2026-11-14T11:34:27Z",
+  "pushed_at": "2026-11-16T09:45:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 215,
-  "days_since_push": 1,
+  "age_days": 216,
+  "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 52.3,
     "momentum": 0.0,
     "maintenance": 100.0,
-    "documentation": 62.0,
+    "documentation": 63.0,
     "accessibility": 72.0
   },
   "tier": "notable",
@@ -49,13 +49,13 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.91,
+    "lifetime_stars_per_day": 1.9,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "GizClaw/flowcraft",
-    "readme_chars": 15730,
+    "readme_chars": 17837,
     "capabilities": [
       "worktree-isolation",
       "memory-context",
@@ -74,7 +74,7 @@
       "worktree-isolation": 1,
       "memory-context": 1,
       "skills-plugins": 1,
-      "mcp-support": 1,
+      "mcp-support": 2,
       "cross-agent-support": 2
     },
     "friction": {
@@ -102,7 +102,7 @@
       "note_en": "Easy. install via npx one-liner, native installer / package; needs git clone (build from source); configure database dependency, database migration",
       "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)；需配置 database dependency、database migration"
     },
-    "doc_score": 62,
+    "doc_score": 63,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -129,9 +129,11 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.381
+      "external_link_ratio": 0.336
     },
-    "highlights": [],
+    "highlights": [
+      "examples/parallel — a standalone consumer: the HTTP MCP source bridged to"
+    ],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -141,10 +143,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:24+00:00",
+  "fetched_at": "2026-11-16T12:47:41+00:00",
   "categories": [
-    "desktop-ui-2",
-    "isolation-teams"
+    "isolation-teams",
+    "sessions-memory"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
@@ -169,14 +171,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 4.161,
-      "momentum_ratio": 72.0,
+      "star_ratio": 4.168,
+      "momentum_ratio": 60.0,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "4.16x the stars (1,710 vs 411)",
-        "72.00x the star velocity (3.6/day vs 0.0/day)",
+        "4.17x the stars (1,713 vs 411)",
+        "60.00x the star velocity (3.0/day vs 0.0/day)",
         "no harder to set up (8 vs 28 friction)"
       ],
       "reasons_zh": [],
@@ -201,7 +203,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 53,
-        "challenger_health": 62,
+        "challenger_health": 60,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 8
       }

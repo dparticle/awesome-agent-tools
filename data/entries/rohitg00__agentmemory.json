@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://www.agent-memory.dev/docs",
-  "stars": 30374,
-  "forks": 2701,
-  "open_issues": 477,
+  "stars": 30401,
+  "forks": 2705,
+  "open_issues": 460,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -30,33 +30,33 @@
     "pi"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-11-15T11:47:52Z",
-  "pushed_at": "2026-11-13T06:39:42Z",
+  "updated_at": "2026-11-16T12:15:34Z",
+  "pushed_at": "2026-11-16T11:49:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 263,
-  "days_since_push": 2,
+  "age_days": 264,
+  "days_since_push": 0,
   "health_score": 70,
   "health_components": {
     "popularity": 89.7,
-    "momentum": 20.3,
+    "momentum": 19.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 122,
+    "stars_gained": 115,
     "days_span": 5,
-    "stars_per_day": 24.4,
-    "lifetime_stars_per_day": 115.49,
+    "stars_per_day": 23.0,
+    "lifetime_stars_per_day": 115.16,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rohitg00/agentmemory",
-    "readme_chars": 94149,
+    "readme_chars": 94821,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -187,7 +187,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.191
+      "external_link_ratio": 0.19
     },
     "highlights": [
       "Large stores keep working: state reads page, so scopes above 64 MiB no longer fail, on iii 0.25.1.",
@@ -202,10 +202,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:21+00:00",
+  "fetched_at": "2026-11-16T12:46:41+00:00",
   "categories": [
     "mcp-security",
-    "memory-failover",
+    "sessions-memory",
     "sharing"
   ],
   "primary_category": "sharing",

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 107,707 |
-| Star velocity | 148.0/day (history basis, 5d span) |
+| Stars | 107,857 |
+| Star velocity | 144.0/day (history basis, 5d span) |
 | Health score | 95/100 |
 | Documentation | 92/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-04-28 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 53,955 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 54,481 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,15 +46,15 @@
 
 ### Skills & plugins
 
-> cial plugins plus 183 remixable reference examples live in plugins/official/.
+> reuse it for your next release, campaign, or update.
 
 ### Agent runtime
 
-> then download or open it.
+> the generated project, then reuse it for your next release, campaign, or update.
 
 ### MCP support
 
-> s — create motion graphics with your agent and export to MP4.
+> r next release, campaign, or update.
 
 ### Self-hostable
 

@@ -33,22 +33,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 18,
-  "days_since_push": 1,
+  "age_days": 19,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 50.4,
-    "momentum": 0.7,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 18.39,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 17.42,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,24 +146,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:28+00:00",
+  "fetched_at": "2026-11-16T12:47:46+00:00",
   "categories": [
     "desktop-ui",
-    "isolation-teams",
-    "model-routing"
+    "failover",
+    "sharing-model-routing"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "sharing-model-routing",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 Gentleman-Programming/gentle-shell 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "Gentleman-Programming/gentle-shell",
+    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "genspark-ai/genoffice",
     "challenger": "",
     "supersede": {
       "incumbent": "xpropel/pi-remote",
-      "challenger": "gentleman-programming/gentle-shell",
+      "challenger": "genspark-ai/genoffice",
       "incumbent_name": "Xpropel/Pi-Remote",
-      "challenger_name": "Gentleman-Programming/gentle-shell",
+      "challenger_name": "genspark-ai/genoffice",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -174,15 +174,15 @@
         "model-routing",
         "parallel-execution"
       ],
-      "star_ratio": 8.024,
-      "momentum_ratio": 123.0,
-      "setup_delta": -4,
+      "star_ratio": 37.565,
+      "momentum_ratio": 95.667,
+      "setup_delta": -14,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "8.02x the stars (2,656 vs 331)",
-        "123.00x the star velocity (98.4/day vs 0.8/day)",
-        "no harder to set up (30 vs 34 friction)"
+        "37.56x the stars (12,434 vs 331)",
+        "95.67x the star velocity (57.4/day vs 0.6/day)",
+        "no harder to set up (20 vs 34 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -194,23 +194,22 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "auto-failover",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
           "parallel-execution",
-          "remote-control",
+          "self-hosted",
           "skills-plugins",
-          "voice-input",
-          "worktree-isolation"
+          "usage-analytics"
         ],
         "incumbent_health": 52,
-        "challenger_health": 78,
+        "challenger_health": 73,
         "incumbent_setup_score": 34,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 20
       }
     }
   }

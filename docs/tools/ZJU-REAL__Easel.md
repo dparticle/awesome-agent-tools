@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,697 |
-| Star velocity | 28.0/day (history basis, 5d span) |
+| Stars | 4,721 |
+| Star velocity | 25.4/day (history basis, 5d span) |
 | Health score | 69/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
@@ -22,11 +22,15 @@
 | Language | Python |
 | Created | 2026-08-28 |
 | Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 20,093 chars from `raw:HEAD/README.md` |
+| Analyzed README | 20,633 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Quota & usage management
+
+### Workspace isolation
+
+> asel --no-skills，随后用 hermes --profile easel setup 配置。
 
 ### Model / provider routing
 
@@ -88,8 +92,8 @@ Score **80/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.4 |
-| momentum | 23.3 |
+| popularity | 73.5 |
+| momentum | 21.2 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 85.0 |

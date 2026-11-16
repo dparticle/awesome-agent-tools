@@ -6,8 +6,8 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
   "homepage": "https://theaioperator.io",
-  "stars": 5329,
-  "forks": 652,
+  "stars": 5345,
+  "forks": 655,
   "open_issues": 8,
   "language": "Python",
   "license": "MIT",
@@ -34,33 +34,33 @@
     "second-brain"
   ],
   "created_at": "2026-03-24T11:58:12Z",
-  "updated_at": "2026-11-15T10:56:01Z",
-  "pushed_at": "2026-11-14T23:57:23Z",
+  "updated_at": "2026-11-16T11:47:05Z",
+  "pushed_at": "2026-11-15T18:28:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 236,
+  "age_days": 237,
   "days_since_push": 0,
-  "health_score": 65,
+  "health_score": 64,
   "health_components": {
-    "popularity": 74.5,
-    "momentum": 12.3,
+    "popularity": 74.6,
+    "momentum": 10.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 76.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 74,
+    "stars_gained": 65,
     "days_span": 5,
-    "stars_per_day": 14.8,
-    "lifetime_stars_per_day": 22.58,
+    "stars_per_day": 13.0,
+    "lifetime_stars_per_day": 22.55,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "eugeniughelbur/obsidian-second-brain",
-    "readme_chars": 85799,
+    "readme_chars": 86206,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -173,7 +173,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.361
+      "external_link_ratio": 0.371
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -185,13 +185,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:27+00:00",
+  "fetched_at": "2026-11-16T12:46:47+00:00",
   "categories": [
-    "desktop-ui-2",
-    "mcp-security",
-    "sharing-2"
+    "mobile",
+    "sharing-model-routing",
+    "skills"
   ],
-  "primary_category": "sharing-2",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

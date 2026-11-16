@@ -6,7 +6,7 @@
   "url": "https://github.com/umutxyp/Seo-Promt-Master",
   "description": "Open-source SEO & GEO audit: a zero-dependency CLI (npx), an agent skill for Claude Code, Cursor, Codex, Gemini & Copilot, 47 SEO prompts and a cited Google/Bing/AI-search knowledge base. Checks robots.txt, sitemaps, canonicals, hreflang, structured data, Core Web Vitals and AI crawlers — then fixes them.",
   "homepage": "https://codeshare.me",
-  "stars": 585,
+  "stars": 587,
   "forks": 317,
   "open_issues": 0,
   "language": "JavaScript",
@@ -34,28 +34,28 @@
     "technical-seo"
   ],
   "created_at": "2022-03-18T13:08:50Z",
-  "updated_at": "2026-11-15T09:51:57Z",
+  "updated_at": "2026-11-16T00:58:18Z",
   "pushed_at": "2026-11-11T04:35:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1702,
-  "days_since_push": 4,
+  "age_days": 1703,
+  "days_since_push": 5,
   "health_score": 54,
   "health_components": {
-    "popularity": 55.3,
-    "momentum": 0.3,
+    "popularity": 55.4,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 585,
-    "days_span": 1702,
-    "stars_per_day": 0.34,
+    "stars_gained": 9,
+    "days_span": 5,
+    "stars_per_day": 1.8,
     "lifetime_stars_per_day": 0.34,
-    "basis": "lifetime",
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -148,12 +148,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:02+00:00",
+  "fetched_at": "2026-11-16T12:47:20+00:00",
   "categories": [
     "desktop-ui",
-    "memory-failover"
+    "sessions-memory"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).",
@@ -175,14 +175,14 @@
         "gui-desktop",
         "memory-context"
       ],
-      "star_ratio": 32.653,
-      "momentum_ratio": 219.412,
+      "star_ratio": 32.603,
+      "momentum_ratio": 35.222,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "32.65x the stars (19,102 vs 585)",
-        "219.41x the star velocity (74.6/day vs 0.3/day)",
+        "32.60x the stars (19,138 vs 587)",
+        "35.22x the star velocity (63.4/day vs 1.8/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -201,7 +201,7 @@
           "memory-context"
         ],
         "incumbent_health": 54,
-        "challenger_health": 79,
+        "challenger_health": 77,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 33
       }

@@ -12,21 +12,25 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 418 |
-| Star velocity | 6.0/day (history basis, 5d span) |
-| Health score | 50/100 |
+| Stars | 420 |
+| Star velocity | 5.8/day (history basis, 5d span) |
+| Health score | 49/100 |
 | Documentation | 37/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | GPL-3.0 |
 | Language | TypeScript |
 | Created | 2026-09-28 |
-| Last push | 2026-11-14 (0 days ago) |
-| Analyzed README | 17,636 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 18,899 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (6/6).
+> ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (8/8).
 
 ## What it solves
+
+### Remote control
+
+### Mobile access
 
 ### Parallel execution
 
@@ -48,7 +52,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 30/100)
+- **Difficulty:** 🟢 Easy (friction score 36/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install`
@@ -57,9 +61,9 @@
 
 **Signals that add work:** git clone (build from source), npm install/build
 
-**Configuration required:** config.json/yaml/toml, process manager
+**Configuration required:** config.json/yaml/toml, sign-in required, process manager
 
-*Easy. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, process manager; GUI application*
+*Easy. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required; GUI application*
 
 ## Documentation quality
 
@@ -75,11 +79,11 @@ Score **37/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 52.4 |
-| momentum | 5.0 |
+| popularity | 52.5 |
+| momentum | 4.8 |
 | maintenance | 100.0 |
 | documentation | 37.0 |
-| accessibility | 70.0 |
+| accessibility | 64.0 |
 
 ---
 

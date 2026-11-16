@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-08-01 |
-| Last push | 2026-11-15 (0 days ago) |
+| Last push | 2026-11-16 (0 days ago) |
 | Analyzed README | 17,488 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).
 
 ## What it solves
 

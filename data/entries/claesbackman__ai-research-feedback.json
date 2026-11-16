@@ -9,59 +9,60 @@
   "stars": 563,
   "forks": 107,
   "open_issues": 0,
-  "language": "JavaScript",
+  "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-01T11:37:44Z",
-  "updated_at": "2026-11-15T09:52:03Z",
-  "pushed_at": "2026-11-13T09:06:44Z",
+  "updated_at": "2026-11-15T21:58:41Z",
+  "pushed_at": "2026-11-15T21:44:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 259,
-  "days_since_push": 2,
+  "age_days": 260,
+  "days_since_push": 0,
   "health_score": 54,
   "health_components": {
     "popularity": 55.0,
-    "momentum": 1.3,
+    "momentum": 0.7,
     "maintenance": 100.0,
-    "documentation": 44.0,
-    "accessibility": 90.0
+    "documentation": 43.0,
+    "accessibility": 99.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.6,
+    "stars_per_day": 0.8,
     "lifetime_stars_per_day": 2.17,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "claesbackman/AI-research-feedback",
-    "readme_chars": 28851,
+    "readme_chars": 27064,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
       "skills-plugins"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "ge well enough that a coauthor could defend it.",
+      "multi-agent-orchestration": "ht is for a quick read of the argument while the paper is still moving.",
       "parallel-execution": "the old ~/.claude/commands/ .md file after installing the skill version.",
       "skills-plugins": "rkdown: Convert a PDF to readable markdown, trimmed at the references."
     },
     "capability_hits": {
-      "multi-agent-orchestration": 9,
+      "multi-agent-orchestration": 5,
       "parallel-execution": 1,
       "skills-plugins": 6
     },
     "friction": {
       "level": "turnkey",
-      "score": 18,
+      "score": 9,
       "out_of_the_box": false,
       "non_programmer_friendly": true,
       "easy_signals": [
-        "Homebrew install"
+        "Homebrew install",
+        "native installer / package"
       ],
       "hard_signals": [
         "git clone (build from source)"
@@ -76,10 +77,10 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Turnkey. install via Homebrew install; needs git clone (build from source); no-code positioning",
-      "note_zh": "开箱即用。可通过 Homebrew install 安装；需要 git clone (build from source)；no-code positioning"
+      "note_en": "Turnkey. install via Homebrew install, native installer / package; needs git clone (build from source); no-code positioning",
+      "note_zh": "开箱即用。可通过 Homebrew install、native installer / package 安装；需要 git clone (build from source)；no-code positioning"
     },
-    "doc_score": 44,
+    "doc_score": 43,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -100,10 +101,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.381
+      "external_link_ratio": 0.48
     },
     "highlights": [
-      "audit-analysis: Adversarial audit of changed analysis code, run by an isolated subagent.",
+      "Python 3.8 or later. No extra packages.",
       "Python 3 and Google Chrome, for the screenshot check.",
       "Claude Code with the general-purpose subagent for the optional review passes.",
       "pdf-to-markdown: Convert a PDF to readable markdown, trimmed at the references."
@@ -117,11 +118,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:07+00:00",
+  "fetched_at": "2026-11-16T12:47:21+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "skills"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",

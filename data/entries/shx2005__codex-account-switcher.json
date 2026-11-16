@@ -7,7 +7,7 @@
   "description": "你是否厌倦了 Codex 多个账号之间来回切换？本地账号管理、官方登录、额度查询、快速切换与跨设备导入导出。Local Codex account profiles, login, usage, switching, and export/import.",
   "homepage": "",
   "stars": 970,
-  "forks": 73,
+  "forks": 76,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -19,27 +19,27 @@
     "python"
   ],
   "created_at": "2026-10-03T14:38:55Z",
-  "updated_at": "2026-11-15T02:57:15Z",
+  "updated_at": "2026-11-15T20:37:31Z",
   "pushed_at": "2026-10-20T06:11:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 42,
-  "days_since_push": 26,
+  "age_days": 43,
+  "days_since_push": 27,
   "health_score": 48,
   "health_components": {
     "popularity": 59.7,
-    "momentum": 0.2,
+    "momentum": 0.7,
     "maintenance": 92.0,
     "documentation": 59.0,
     "accessibility": 25.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 23.1,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 22.56,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -138,10 +138,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:50+00:00",
+  "fetched_at": "2026-11-16T12:47:09+00:00",
   "categories": [
     "accounts",
-    "billing"
+    "billing",
+    "sharing"
   ],
   "primary_category": "billing",
   "lifecycle": {

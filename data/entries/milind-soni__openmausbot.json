@@ -6,9 +6,9 @@
   "url": "https://github.com/milind-soni/OpenMausBot",
   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "homepage": "https://www.mausbot.com/",
-  "stars": 23011,
-  "forks": 3204,
-  "open_issues": 1096,
+  "stars": 23934,
+  "forks": 3326,
+  "open_issues": 1113,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -25,16 +25,16 @@
     "typescript"
   ],
   "created_at": "2026-08-11T18:58:55Z",
-  "updated_at": "2026-11-15T11:54:52Z",
-  "pushed_at": "2026-11-15T11:44:52Z",
+  "updated_at": "2026-11-16T12:44:25Z",
+  "pushed_at": "2026-11-16T12:45:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 95,
+  "age_days": 96,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 87.2,
+    "popularity": 87.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 71.0,
@@ -42,16 +42,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2645,
+    "stars_gained": 2943,
     "days_span": 5,
-    "stars_per_day": 529.0,
-    "lifetime_stars_per_day": 242.22,
+    "stars_per_day": 588.6,
+    "lifetime_stars_per_day": 249.31,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "milind-soni/OpenMausBot",
-    "readme_chars": 34329,
+    "readme_chars": 34343,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -164,7 +164,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.515
+      "external_link_ratio": 1.514
     },
     "highlights": [
       "Local first. One small harness server on 127.0.0.1 owns every agent process. Transcripts, keys, and",
@@ -180,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:58:41+00:00",
+  "fetched_at": "2026-11-16T12:46:03+00:00",
   "categories": [
     "mcp-security",
     "mobile",
-    "sharing"
+    "skills"
   ],
   "primary_category": "mobile",
   "lifecycle": {

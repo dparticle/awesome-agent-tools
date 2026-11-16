@@ -6,9 +6,9 @@
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
   "homepage": "https://diagramdesign.dev",
-  "stars": 67272,
-  "forks": 4498,
-  "open_issues": 35,
+  "stars": 67533,
+  "forks": 4521,
+  "open_issues": 37,
   "language": "HTML",
   "license": "MIT",
   "topics": [
@@ -22,13 +22,13 @@
     "svg"
   ],
   "created_at": "2026-04-16T18:01:16Z",
-  "updated_at": "2026-11-15T11:52:35Z",
+  "updated_at": "2026-11-16T12:43:32Z",
   "pushed_at": "2026-11-12T21:14:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 212,
-  "days_since_push": 2,
+  "age_days": 213,
+  "days_since_push": 3,
   "health_score": 91,
   "health_components": {
     "popularity": 96.6,
@@ -39,10 +39,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1040,
+    "stars_gained": 1097,
     "days_span": 5,
-    "stars_per_day": 208.0,
-    "lifetime_stars_per_day": 317.32,
+    "stars_per_day": 219.4,
+    "lifetime_stars_per_day": 317.06,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -148,9 +148,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:15+00:00",
+  "fetched_at": "2026-11-16T12:46:35+00:00",
   "categories": [
-    "billing-2"
+    "billing-2",
+    "isolation-teams"
   ],
   "primary_category": "billing-2",
   "lifecycle": {

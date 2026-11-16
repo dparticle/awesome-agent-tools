@@ -6,8 +6,8 @@
   "url": "https://github.com/totec448-spec/chat-on-steroids",
   "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
   "homepage": "",
-  "stars": 5192,
-  "forks": 677,
+  "stars": 5196,
+  "forks": 678,
   "open_issues": 32,
   "language": "TypeScript",
   "license": "MIT",
@@ -24,27 +24,27 @@
     "windows"
   ],
   "created_at": "2026-08-22T14:16:24Z",
-  "updated_at": "2026-11-15T10:54:48Z",
-  "pushed_at": "2026-11-14T22:25:14Z",
+  "updated_at": "2026-11-16T11:04:27Z",
+  "pushed_at": "2026-11-16T06:39:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 84,
+  "age_days": 85,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 74.3,
-    "momentum": 7.5,
+    "momentum": 7.3,
     "maintenance": 100.0,
     "documentation": 26.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 45,
+    "stars_gained": 44,
     "days_span": 5,
-    "stars_per_day": 9.0,
-    "lifetime_stars_per_day": 61.81,
+    "stars_per_day": 8.8,
+    "lifetime_stars_per_day": 61.13,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -124,8 +124,8 @@
     "highlights": [
       "Connect Core (steps 4–7): create a tunnel and a restricted API key at OpenAI, press Connect, then add the app in ChatGPT under Plugins → Add → Add custom MCP server.",
       "Share a folder and choose access (steps 2–3): the folder ChatGPT may work in, and what it may do there.",
-      "Skills, plugins and pets, 13 languages, light and dark.",
-      "Respect limits and access decisions."
+      "Respect limits and access decisions.",
+      "Skills, plugins and pets, 13 languages, light and dark."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -136,9 +136,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:58:56+00:00",
+  "fetched_at": "2026-11-16T12:46:19+00:00",
   "categories": [
-    "mcp-security",
+    "failover",
     "mobile"
   ],
   "primary_category": "mobile",

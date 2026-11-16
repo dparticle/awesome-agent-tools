@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 680,
-  "days_since_push": 30,
-  "health_score": 51,
+  "age_days": 681,
+  "days_since_push": 31,
+  "health_score": 49,
   "health_components": {
     "popularity": 53.0,
     "momentum": 0.0,
-    "maintenance": 92.0,
+    "maintenance": 78.0,
     "documentation": 64.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 24,
+    "days_span": 25,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 0.66,
+    "lifetime_stars_per_day": 0.65,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -127,71 +127,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:18+00:00",
+  "fetched_at": "2026-11-16T12:47:35+00:00",
   "categories": [
-    "desktop-ui-2",
-    "mcp-security"
+    "skills"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "skills",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 garrytan/gstack 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "garrytan/gstack",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "delorenj/mcp-server-trello",
-      "challenger": "garrytan/gstack",
-      "incumbent_name": "delorenj/mcp-server-trello",
-      "challenger_name": "garrytan/gstack",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "auto-failover",
-        "cross-agent-support",
-        "mcp-support",
-        "notifications",
-        "skills-plugins"
-      ],
-      "star_ratio": 317.529,
-      "momentum_ratio": 2348.0,
-      "setup_delta": 5,
-      "dominance": 0.975,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "317.53x the stars (141,618 vs 446)",
-        "2348.00x the star velocity (117.4/day vs 0.0/day)",
-        "slightly heavier setup (+5 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "notifications",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 90,
-        "incumbent_setup_score": 34,
-        "challenger_setup_score": 39
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

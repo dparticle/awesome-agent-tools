@@ -34,22 +34,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 246,
-  "days_since_push": 3,
+  "age_days": 247,
+  "days_since_push": 4,
   "health_score": 53,
   "health_components": {
     "popularity": 54.8,
-    "momentum": 1.8,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 2.23,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 2.22,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -143,12 +143,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:09+00:00",
+  "fetched_at": "2026-11-16T12:47:23+00:00",
   "categories": [
     "desktop-ui-2",
-    "memory-failover"
+    "sessions-memory",
+    "skills"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
@@ -171,14 +172,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.683,
-      "momentum_ratio": 8.182,
+      "star_ratio": 2.712,
+      "momentum_ratio": 9.222,
       "setup_delta": -6,
-      "dominance": 0.975,
+      "dominance": 0.977,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.68x the stars (1,473 vs 549)",
-        "8.18x the star velocity (18.0/day vs 2.2/day)",
+        "2.71x the stars (1,489 vs 549)",
+        "9.22x the star velocity (16.6/day vs 1.8/day)",
         "no harder to set up (31 vs 37 friction)"
       ],
       "reasons_zh": [],

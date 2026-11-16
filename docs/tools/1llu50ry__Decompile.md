@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — do not edit by hand. Run `python scripts/agentindex.py build` (or wait for the daily workflow). -->
 
-# 1llu50ry/mcp-reverse
+# 1llu50ry/Decompile
 
 > 180+ MCP tools · 56 RE/debug backends · 9 host-side plugins · 4,200+ skills · multi-agent mesh · native x86-64 + ARM64 emulators
 
-[Repository](https://github.com/1llu50ry/mcp-reverse) · [Back to index](../../README.md) · Category: **None**
+[Repository](https://github.com/1llu50ry/Decompile) · [Back to index](../../README.md) · Category: **None**
 
 ---
 
@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 573 |
-| Star velocity | 2.4/day (history basis, 5d span) |
-| Health score | 56/100 |
+| Stars | 574 |
+| Star velocity | 13.7/day (lifetime basis, 42d span) |
+| Health score | 58/100 |
 | Documentation | 72/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-05 |
-| Last push | 2026-11-13 (1 days ago) |
+| Last push | 2026-11-13 (2 days ago) |
 | Analyzed README | 29,673 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -89,7 +89,7 @@ Score **72/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.2 |
-| momentum | 2.0 |
+| momentum | 11.4 |
 | maintenance | 100.0 |
 | documentation | 72.0 |
 | accessibility | 68.0 |

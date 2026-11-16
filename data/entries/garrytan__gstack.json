@@ -6,40 +6,40 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 141618,
-  "forks": 20921,
-  "open_issues": 144,
+  "stars": 141760,
+  "forks": 20933,
+  "open_issues": 113,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-15T11:41:58Z",
-  "pushed_at": "2026-11-15T06:54:54Z",
+  "updated_at": "2026-11-16T12:39:49Z",
+  "pushed_at": "2026-11-16T08:52:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 248,
+  "age_days": 249,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 97.8,
+    "momentum": 97.7,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 61.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 587,
+    "stars_gained": 586,
     "days_span": 5,
-    "stars_per_day": 117.4,
-    "lifetime_stars_per_day": 571.04,
+    "stars_per_day": 117.2,
+    "lifetime_stars_per_day": 569.32,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 40912,
+    "readme_chars": 41339,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.342
+      "external_link_ratio": 0.339
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -153,13 +153,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:07+00:00",
+  "fetched_at": "2026-11-16T12:46:28+00:00",
   "categories": [
-    "failover",
-    "mcp-security",
-    "model-routing"
+    "desktop-ui-2",
+    "isolation-teams",
+    "skills"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "isolation-teams",
   "lifecycle": {
     "state": "active",
     "note_en": "",

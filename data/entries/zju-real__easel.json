@@ -6,9 +6,9 @@
   "url": "https://github.com/ZJU-REAL/Easel",
   "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
   "homepage": "https://zju-real.github.io/Easel/",
-  "stars": 4697,
-  "forks": 781,
-  "open_issues": 16,
+  "stars": 4721,
+  "forks": 788,
+  "open_issues": 12,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -23,35 +23,36 @@
     "social-media-management"
   ],
   "created_at": "2026-08-28T02:22:27Z",
-  "updated_at": "2026-11-15T11:11:49Z",
-  "pushed_at": "2026-11-15T08:08:12Z",
+  "updated_at": "2026-11-16T10:22:44Z",
+  "pushed_at": "2026-11-15T18:07:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 79,
+  "age_days": 80,
   "days_since_push": 0,
   "health_score": 69,
   "health_components": {
-    "popularity": 73.4,
-    "momentum": 23.3,
+    "popularity": 73.5,
+    "momentum": 21.2,
     "maintenance": 100.0,
     "documentation": 80.0,
     "accessibility": 85.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 140,
+    "stars_gained": 127,
     "days_span": 5,
-    "stars_per_day": 28.0,
-    "lifetime_stars_per_day": 59.46,
+    "stars_per_day": 25.4,
+    "lifetime_stars_per_day": 59.01,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "ZJU-REAL/Easel",
-    "readme_chars": 20093,
+    "readme_chars": 20633,
     "capabilities": [
       "quota-management",
+      "worktree-isolation",
       "model-routing",
       "provider-aggregation",
       "api-gateway",
@@ -62,6 +63,7 @@
     ],
     "capability_evidence": {
       "quota-management": "",
+      "worktree-isolation": "asel --no-skills，随后用 hermes --profile easel setup 配置。",
       "model-routing": "",
       "provider-aggregation": "",
       "api-gateway": "API 不提供向量模型，请单独配置 Embedding API；否则 OpenClaw 会默认请求 text-embedding-3-small，可能得到“模型不可用”。",
@@ -72,6 +74,7 @@
     },
     "capability_hits": {
       "quota-management": 1,
+      "worktree-isolation": 1,
       "model-routing": 2,
       "provider-aggregation": 1,
       "api-gateway": 1,
@@ -156,10 +159,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:58:57+00:00",
+  "fetched_at": "2026-11-16T12:46:20+00:00",
   "categories": [
-    "model-routing",
-    "providers-2"
+    "failover",
+    "providers-2",
+    "sharing-model-routing"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

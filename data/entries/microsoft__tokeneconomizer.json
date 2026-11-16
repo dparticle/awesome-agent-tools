@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/TokenEconomizer",
   "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
   "homepage": "",
-  "stars": 6148,
-  "forks": 395,
-  "open_issues": 41,
+  "stars": 6902,
+  "forks": 446,
+  "open_issues": 23,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -33,33 +33,33 @@
     "token-optimization"
   ],
   "created_at": "2026-10-13T04:16:50Z",
-  "updated_at": "2026-11-15T11:55:10Z",
-  "pushed_at": "2026-11-12T21:48:20Z",
+  "updated_at": "2026-11-16T12:44:17Z",
+  "pushed_at": "2026-11-16T05:32:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 33,
-  "days_since_push": 2,
-  "health_score": 82,
+  "age_days": 34,
+  "days_since_push": 0,
+  "health_score": 84,
   "health_components": {
-    "popularity": 75.8,
-    "momentum": 92.7,
+    "popularity": 76.8,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 72.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 556,
+    "stars_gained": 1213,
     "days_span": 5,
-    "stars_per_day": 111.2,
-    "lifetime_stars_per_day": 186.3,
+    "stars_per_day": 242.6,
+    "lifetime_stars_per_day": 203.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "microsoft/TokenEconomizer",
-    "readme_chars": 31949,
+    "readme_chars": 32585,
     "capabilities": [
       "multi-agent-orchestration",
       "session-persistence",
@@ -150,10 +150,10 @@
       "external_link_ratio": 0.031
     },
     "highlights": [
+      "Antigravity CLI support is experimental: it was tested against agy 1.5.1 and 1.5.2 on Windows 11,",
       "opencode support is experimental: it was tested on 1.19.5 and 2.2.0 only, and not in the",
       "Cursor Agent support is experimental.",
-      "Codex before 0.141.0 does not run plugin hooks at all.",
-      "Factory Droid support is experimental: it was tested on 0.233.0 only, on macOS."
+      "Codex before 0.141.0 does not run plugin hooks at all."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -164,13 +164,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:58:54+00:00",
+  "fetched_at": "2026-11-16T12:46:15+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "mcp-security"
+    "sessions-memory"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

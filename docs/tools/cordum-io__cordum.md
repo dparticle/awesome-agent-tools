@@ -2,7 +2,7 @@
 
 # cordum-io/cordum
 
-> The Source-Available Agent Control Plane for Governance, Safety, and Trust.
+> The Source-Available Agent Control Plane for policy checks, approvals, and audit of the agent actions it mediates.
 
 [Repository](https://github.com/cordum-io/cordum) · [Back to index](../../README.md) · Category: **None**
 
@@ -21,20 +21,22 @@
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-01-11 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 34,745 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 35,626 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
+> unity defaults in core/licensing/tiers.go:
+
 ### Multi-agent orchestration
+
+> — it defines how a model calls local tools.
 
 ### Workspace isolation
 
 > cheduler pre-dispatch safety checks, the MCP server policy pipeline, and the Cordum Edge hook.
-
-### Multi-provider aggregation
 
 ### API gateway / proxy
 
@@ -45,6 +47,8 @@
 > kthrough: docs/quickstart-edge.md.
 
 ### Security & isolation
+
+> Monitor Cordum jobs and workflow runs, handle step-level approvals, and apply timeouts or circuit breakers.
 
 ### Self-hostable
 

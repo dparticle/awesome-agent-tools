@@ -7,7 +7,7 @@
   "description": "Model-agnostic agent-skills platform with a harness-free canonical layer, verified adapters, and the ccpi package manager. Explore at tonsofskills.com.",
   "homepage": "https://tonsofskills.com",
   "stars": 2924,
-  "forks": 430,
+  "forks": 432,
   "open_issues": 57,
   "language": "Python",
   "license": "MIT",
@@ -30,27 +30,27 @@
     "skills"
   ],
   "created_at": "2025-10-10T01:01:00Z",
-  "updated_at": "2026-11-15T02:55:25Z",
-  "pushed_at": "2026-11-15T11:42:35Z",
+  "updated_at": "2026-11-16T12:02:21Z",
+  "pushed_at": "2026-11-16T11:40:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 401,
+  "age_days": 402,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 69.3,
-    "momentum": 2.3,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 41.0,
     "accessibility": 71.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 7.29,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 7.27,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -125,11 +125,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:32+00:00",
+  "fetched_at": "2026-11-16T12:46:52+00:00",
   "categories": [
-    "desktop-ui-2"
+    "desktop-ui-2",
+    "skills"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "skills",
   "lifecycle": {
     "state": "active",
     "note_en": "",

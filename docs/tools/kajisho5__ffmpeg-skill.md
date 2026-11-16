@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,758 |
-| Star velocity | 168.6/day (history basis, 5d span) |
+| Stars | 6,135 |
+| Star velocity | 216.2/day (history basis, 5d span) |
 | Health score | 88/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-03 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 117,533 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 118,347 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,7 @@
 
 ### Security & isolation
 
-> re recorded in diagnostics and on stderr (codes: jsonoutput.diagnosticcodes); tools that draw text name the font they drew with (fontused).
+> ticcodes); tools that draw text name the font face they drew with (fontused; libass draws a glyph that face lacks from another, not named).
 
 ### Voice input
 
@@ -92,7 +92,7 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.2 |
+| popularity | 75.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 68.0 |

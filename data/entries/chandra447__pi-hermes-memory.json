@@ -7,7 +7,7 @@
   "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
   "homepage": "",
   "stars": 535,
-  "forks": 137,
+  "forks": 136,
   "open_issues": 40,
   "language": "TypeScript",
   "license": "MIT",
@@ -24,22 +24,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 205,
-  "days_since_push": 4,
+  "age_days": 207,
+  "days_since_push": 5,
   "health_score": 49,
   "health_components": {
     "popularity": 54.6,
-    "momentum": 1.5,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 16.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 2.61,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 2.58,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,13 +141,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:10+00:00",
+  "fetched_at": "2026-11-16T12:47:24+00:00",
   "categories": [
-    "desktop-ui-2",
     "failover",
-    "memory-failover"
+    "sessions-memory",
+    "skills"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

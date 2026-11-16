@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "homepage": "open.bot",
-  "stars": 12343,
-  "forks": 1524,
-  "open_issues": 111,
+  "stars": 12519,
+  "forks": 1551,
+  "open_issues": 110,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-15T11:57:45Z",
-  "pushed_at": "2026-11-15T11:36:43Z",
+  "updated_at": "2026-11-16T12:43:04Z",
+  "pushed_at": "2026-11-16T11:18:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 90,
+  "age_days": 91,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 81.8,
+    "popularity": 82.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 78.0,
@@ -38,16 +38,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1730,
+    "stars_gained": 1614,
     "days_span": 5,
-    "stars_per_day": 346.0,
-    "lifetime_stars_per_day": 137.14,
+    "stars_per_day": 322.8,
+    "lifetime_stars_per_day": 137.57,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 50532,
+    "readme_chars": 50969,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -60,13 +60,13 @@
       "notifications"
     ],
     "capability_evidence": {
-      "auto-failover": "et responses and the rest get chat.",
+      "auto-failover": "ater) get responses and the rest get chat.",
       "model-routing": "",
       "api-gateway": "",
       "session-persistence": "",
-      "mcp-support": "- **Governed MCP**: Google Drive, Notion and the public-web research providers Parallel, Exa and Firecrawl ship in the catalogue, and Composio brokers a few hundred more apps behind one account (Arcade can be the bro",
-      "security-isolation": "who gets in**: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.",
-      "self-hosted": "Defaults to ../examples/fintech.",
+      "mcp-support": "ere is no path that acts without the record existing first.",
+      "security-isolation": "e who gets in: /admin/people lists everybody who has signed in, promotes and demotes them, and removes access, which ends the session they are using and stops the next sign-in.",
+      "self-hosted": "",
       "gui-desktop": "",
       "notifications": ""
     },
@@ -145,7 +145,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.792
+      "external_link_ratio": 0.785
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:58:45+00:00",
+  "fetched_at": "2026-11-16T12:46:07+00:00",
   "categories": [
     "failover",
     "mcp-security",
@@ -195,14 +195,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 24.587,
-      "momentum_ratio": 1.723,
+      "star_ratio": 24.297,
+      "momentum_ratio": 1.946,
       "setup_delta": -7,
-      "dominance": 0.868,
+      "dominance": 0.883,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "24.59x the stars (303,474 vs 12,343)",
-        "1.72x the star velocity (596.2/day vs 346.0/day)",
+        "24.30x the stars (304,171 vs 12,519)",
+        "1.95x the star velocity (628.2/day vs 322.8/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],

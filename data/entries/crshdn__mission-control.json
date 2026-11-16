@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 287,
-  "days_since_push": 59,
+  "age_days": 288,
+  "days_since_push": 60,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
@@ -37,7 +37,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 7.53,
+    "lifetime_stars_per_day": 7.5,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,11 +149,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:36+00:00",
+  "fetched_at": "2026-11-16T12:46:56+00:00",
   "categories": [
     "isolation-teams",
-    "mcp-security",
-    "sharing"
+    "sharing",
+    "skills"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

@@ -7,8 +7,8 @@
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
   "stars": 1288,
-  "forks": 199,
-  "open_issues": 17,
+  "forks": 200,
+  "open_issues": 18,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -33,21 +33,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1063,
-  "days_since_push": 4,
+  "age_days": 1064,
+  "days_since_push": 5,
   "health_score": 51,
   "health_components": {
     "popularity": 62.2,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.21,
     "basis": "history",
     "is_fast_riser": false
@@ -146,22 +146,24 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:45+00:00",
+  "fetched_at": "2026-11-16T12:47:04+00:00",
   "categories": [
-    "sharing"
+    "mcp-security",
+    "sharing",
+    "sharing-model-routing"
   ],
   "primary_category": "sharing",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "affaan-m/ECC",
     "challenger": "",
     "supersede": {
       "incumbent": "fatwang2/search2ai",
-      "challenger": "tencentcloud/octop",
+      "challenger": "affaan-m/ecc",
       "incumbent_name": "fatwang2/search2ai",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "affaan-m/ECC",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -173,15 +175,15 @@
         "parallel-execution",
         "self-hosted"
       ],
-      "star_ratio": 9.356,
-      "momentum_ratio": 207.0,
-      "setup_delta": -41,
+      "star_ratio": 236.158,
+      "momentum_ratio": 12564.0,
+      "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "9.36x the stars (12,051 vs 1,288)",
-        "207.00x the star velocity (41.4/day vs 0.2/day)",
-        "no harder to set up (32 vs 73 friction)"
+        "236.16x the stars (304,171 vs 1,288)",
+        "12564.00x the star velocity (628.2/day vs 0.0/day)",
+        "no harder to set up (57 vs 73 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -195,24 +197,25 @@
         "challenger_capabilities": [
           "agent-runtime",
           "api-gateway",
-          "billing-metering",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
           "multi-agent-orchestration",
+          "notifications",
           "parallel-execution",
+          "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
-          "team-collaboration",
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 72,
+        "challenger_health": 89,
         "incumbent_setup_score": 73,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 57
       }
     }
   }

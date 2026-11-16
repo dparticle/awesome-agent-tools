@@ -1,44 +1,44 @@
 {
   "schema": 1,
-  "full_name": "1llu50ry/mcp-reverse",
-  "name": "mcp-reverse",
+  "full_name": "1llu50ry/Decompile",
+  "name": "Decompile",
   "owner": "1llu50ry",
-  "url": "https://github.com/1llu50ry/mcp-reverse",
+  "url": "https://github.com/1llu50ry/Decompile",
   "description": "MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools -- designed to be plugged into Claude, Cursor, or any MCP-compatible client.",
   "homepage": "",
-  "stars": 573,
+  "stars": 574,
   "forks": 106,
   "open_issues": 9,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-10-05T06:07:53Z",
-  "updated_at": "2026-11-14T14:57:03Z",
+  "updated_at": "2026-11-15T17:25:27Z",
   "pushed_at": "2026-11-13T15:57:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 41,
-  "days_since_push": 1,
-  "health_score": 56,
+  "age_days": 42,
+  "days_since_push": 2,
+  "health_score": 58,
   "health_components": {
     "popularity": 55.2,
-    "momentum": 2.0,
+    "momentum": 11.4,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 68.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
-    "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 13.98,
-    "basis": "history",
-    "is_fast_riser": false
+    "stars_gained": 574,
+    "days_span": 42,
+    "stars_per_day": 13.67,
+    "lifetime_stars_per_day": 13.67,
+    "basis": "lifetime",
+    "is_fast_riser": true
   },
   "analysis": {
-    "full_name": "1llu50ry/mcp-reverse",
+    "full_name": "1llu50ry/Decompile",
     "readme_chars": 29673,
     "capabilities": [
       "auto-failover",
@@ -146,11 +146,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:07+00:00",
+  "fetched_at": "2026-11-16T12:47:21+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2",
-    "mcp-security"
+    "failover",
+    "mcp-security",
+    "sessions-memory"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

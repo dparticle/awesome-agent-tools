@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,261 |
-| Star velocity | 38.6/day (history basis, 5d span) |
-| Health score | 69/100 |
-| Documentation | 55/100 |
+| Stars | 8,302 |
+| Star velocity | 30.2/day (history basis, 5d span) |
+| Health score | 68/100 |
+| Documentation | 56/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-08 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 21,772 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 22,900 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-agent orchestration
 
-> → Keyboard lists them all too.
+> cuts, which you can rebind too.
 
 ### Workspace isolation
 
@@ -60,6 +60,10 @@
 
 > 4 / ARM64: extract the setup tarball and run installer.
 
+### Cross-agent support
+
+> Mentions Codex, Cursor
+
 ## Setup reality check
 
 - **Difficulty:** 🟢 Turnkey (friction score 18/100)
@@ -77,7 +81,7 @@
 
 ## Documentation quality
 
-Score **55/100**, based on these detected signals:
+Score **56/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -94,10 +98,10 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.3 |
-| momentum | 32.2 |
+| popularity | 78.4 |
+| momentum | 25.2 |
 | maintenance | 100.0 |
-| documentation | 55.0 |
+| documentation | 56.0 |
 | accessibility | 90.0 |
 
 ---

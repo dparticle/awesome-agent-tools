@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
-| Last push | 2026-10-16 (29 days ago) |
+| Last push | 2026-10-16 (30 days ago) |
 | Analyzed README | 5,623 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [garrytan/gstack](https://github.com/garrytan/gstack)** — Superseded by garrytan/gstack: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/LeoYeAI/agent-master-skills",
   "description": "🧠 Curated collection of 2700+ best agent skills — AI, coding, marketing, design, finance and more. Harness-agnostic: works with Claude Code, Codex, Cursor, Gemini CLI, OpenClaw, Hermes and any Agent Skills runtime. Refreshed daily by MyClaw.ai — Powered by MyClaw.ai",
   "homepage": "https://myclaw.ai",
-  "stars": 2192,
-  "forks": 332,
-  "open_issues": 33,
+  "stars": 2195,
+  "forks": 334,
+  "open_issues": 34,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -29,27 +29,27 @@
     "skills"
   ],
   "created_at": "2026-03-02T02:02:25Z",
-  "updated_at": "2026-11-13T17:14:57Z",
+  "updated_at": "2026-11-16T08:30:16Z",
   "pushed_at": "2026-11-13T02:01:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 258,
-  "days_since_push": 2,
-  "health_score": 50,
+  "age_days": 259,
+  "days_since_push": 3,
+  "health_score": 51,
   "health_components": {
     "popularity": 66.8,
-    "momentum": 1.0,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 26.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 8.5,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 8.47,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -171,11 +171,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:35+00:00",
+  "fetched_at": "2026-11-16T12:46:55+00:00",
   "categories": [
-    "billing-2",
-    "desktop-ui-2",
-    "mobile"
+    "failover",
+    "mobile",
+    "skills"
   ],
   "primary_category": "mobile",
   "lifecycle": {

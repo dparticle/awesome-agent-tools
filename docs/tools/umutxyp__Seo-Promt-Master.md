@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 585 |
-| Star velocity | 0.3/day (lifetime basis, 1702d span) |
+| Stars | 587 |
+| Star velocity | 1.8/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2022-03-18 |
-| Last push | 2026-11-11 (4 days ago) |
+| Last push | 2026-11-11 (5 days ago) |
 | Analyzed README | 21,696 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
@@ -78,8 +78,8 @@ Score **61/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.3 |
-| momentum | 0.3 |
+| popularity | 55.4 |
+| momentum | 1.5 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 72.0 |

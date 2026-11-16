@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 248,
-  "days_since_push": 59,
+  "age_days": 249,
+  "days_since_push": 60,
   "health_score": 42,
   "health_components": {
     "popularity": 50.2,
@@ -118,7 +118,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:32+00:00",
+  "fetched_at": "2026-11-16T12:47:48+00:00",
   "categories": [
     "billing"
   ],
@@ -144,14 +144,14 @@
         "multi-account-switching",
         "quota-management"
       ],
-      "star_ratio": 61.941,
-      "momentum_ratio": 548.0,
+      "star_ratio": 62.053,
+      "momentum_ratio": 572.0,
       "setup_delta": -9,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "61.94x the stars (20,007 vs 323)",
-        "548.00x the star velocity (27.4/day vs 0.0/day)",
+        "62.05x the stars (20,043 vs 323)",
+        "572.00x the star velocity (28.6/day vs 0.0/day)",
         "no harder to set up (32 vs 41 friction)"
       ],
       "reasons_zh": [],

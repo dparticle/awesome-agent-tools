@@ -12,56 +12,55 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,905 |
-| Star velocity | 6.4/day (history basis, 5d span) |
+| Stars | 6,912 |
+| Star velocity | 5.8/day (history basis, 5d span) |
 | Health score | 54/100 |
-| Documentation | 52/100 |
+| Documentation | 47/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
-| Language | Python |
+| Language | Go |
 | Created | 2026-04-19 |
-| Last push | 2026-11-13 (2 days ago) |
-| Analyzed README | 9,739 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 11,094 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [decolua/9router](https://github.com/decolua/9router)** — Superseded by decolua/9router: covers 100% of capabilities (4/4).
 
 ## What it solves
 
 ### Multi-account switching
 
-> 、codex-gpt-image-2、auto、gpt-5、gpt-5-1、gpt-5-2、gpt-5-3、gpt-5-3-mini、gpt-5-mini 模型选择
+> 两份生图额度；Codex 线路默认主控模型 gpt-6-luna、画图工具模型 gpt-image-2.6，可在设置页调整
 
 ### Quota & usage management
 
-> gpt-5-mini - 支持通过 n 返回多张生成结果 - 支持生成可编辑 PPT 文件 - 支持生成可编辑 PSD 文件 - 支持 Codex 中的画图接口逆向，仅 Plus / Team / Pro 订阅可用，模型别名为 codex-gpt-image-2，如有需要可自行在其他场景映射回 gpt-image-2，用于和官网画图区分；也就意味着同一账号会同时有官网和 Codex 两份生图额度 ### 在线画图功能 - 内置在线画图…
+> terra-wm、gpt-5.6-luna-wm、research，以及生图别名 gpt-image-2.6
 
-### Model / provider routing
-
-### Session persistence
+### Billing & metering
 
 ### Self-hostable
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 78/100)
+- **Difficulty:** 🔴 Involved (friction score 72/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `docker compose up -d`
 
 **Signals that add work:** docker compose up, git clone (build from source)
 
-**Configuration required:** config.json/yaml/toml, OAuth login flow, database dependency
+**Configuration required:** config.json/yaml/toml, OAuth login flow
 
 *Involved setup. needs docker compose up, git clone (build from source); configure config.json/yaml/toml, OAuth login flow*
 
 ## Documentation quality
 
-Score **52/100**, based on these detected signals:
+Score **47/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - has a quick-start section
-- documents installation
 - documents configuration
 - has contribution guidance
 - has a table of contents
@@ -71,10 +70,10 @@ Score **52/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 76.8 |
-| momentum | 5.3 |
+| momentum | 4.8 |
 | maintenance | 100.0 |
-| documentation | 52.0 |
-| accessibility | 22.0 |
+| documentation | 47.0 |
+| accessibility | 28.0 |
 
 ---
 

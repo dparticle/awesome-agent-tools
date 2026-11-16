@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 331 |
-| Star velocity | 0.8/day (history basis, 5d span) |
+| Star velocity | 0.6/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 62/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-28 |
-| Last push | 2026-11-14 (1 days ago) |
+| Last push | 2026-11-14 (2 days ago) |
 | Analyzed README | 8,328 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [Gentleman-Programming/gentle-shell](https://github.com/Gentleman-Programming/gentle-shell)** — Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** — Superseded by genspark-ai/genoffice: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -77,7 +77,7 @@ Score **62/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 50.4 |
-| momentum | 0.7 |
+| momentum | 0.5 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 66.0 |

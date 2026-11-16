@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 17,463 |
-| Star velocity | 60.0/day (history basis, 5d span) |
-| Health score | 68/100 |
+| Stars | 17,510 |
+| Star velocity | 55.8/day (history basis, 5d span) |
+| Health score | 67/100 |
 | Documentation | 68/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-08-13 |
-| Last push | 2026-10-01 (44 days ago) |
+| Last push | 2026-10-01 (45 days ago) |
 | Analyzed README | 17,747 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -79,8 +81,8 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 84.8 |
-| momentum | 50.0 |
+| popularity | 84.9 |
+| momentum | 46.5 |
 | maintenance | 78.0 |
 | documentation | 68.0 |
 | accessibility | 44.0 |

@@ -6,9 +6,9 @@
   "url": "https://github.com/findavoulot1973/Blender-AI-MCP-Suite",
   "description": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender",
   "homepage": "",
-  "stars": 438,
-  "forks": 8,
-  "open_issues": 44,
+  "stars": 497,
+  "forks": 12,
+  "open_issues": 47,
   "language": "",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "model-context-protocol"
   ],
   "created_at": "2026-11-12T19:26:22Z",
-  "updated_at": "2026-11-15T11:10:13Z",
-  "pushed_at": "2026-11-15T11:12:44Z",
+  "updated_at": "2026-11-15T19:16:08Z",
+  "pushed_at": "2026-11-15T13:26:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 2,
+  "age_days": 3,
   "days_since_push": 0,
   "health_score": 75,
   "health_components": {
-    "popularity": 52.8,
+    "popularity": 53.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 47.0,
@@ -51,10 +51,10 @@
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 438,
-    "days_span": 2,
-    "stars_per_day": 219.0,
-    "lifetime_stars_per_day": 219.0,
+    "stars_gained": 497,
+    "days_span": 3,
+    "stars_per_day": 165.67,
+    "lifetime_stars_per_day": 165.67,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -135,9 +135,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:20+00:00",
+  "fetched_at": "2026-11-16T12:47:28+00:00",
   "categories": [
-    "desktop-ui-2",
     "mcp-security"
   ],
   "primary_category": "mcp-security",

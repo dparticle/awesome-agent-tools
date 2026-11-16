@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,749 |
+| Stars | 3,752 |
 | Star velocity | 2.4/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 63/100 |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-07-25 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 6,917 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-16 (0 days ago) |
+| Analyzed README | 6,990 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).
 

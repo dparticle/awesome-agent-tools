@@ -6,7 +6,7 @@
   "url": "https://github.com/styler-ai/ProjectAtlas",
   "description": "Every file not opened. Every folder not explored. Tokens saved. A local repository map for coding agents: purposes, source, symbols, and dependencies. Native Rust CLI and MCP, isolated worktrees, and subagent hooks.",
   "homepage": "https://styler-ai.github.io/ProjectAtlas/",
-  "stars": 507,
+  "stars": 508,
   "forks": 14,
   "open_issues": 15,
   "language": "Rust",
@@ -24,26 +24,26 @@
     "sqlite"
   ],
   "created_at": "2026-01-01T14:15:37Z",
-  "updated_at": "2026-11-13T18:13:23Z",
+  "updated_at": "2026-11-16T11:21:55Z",
   "pushed_at": "2026-11-10T19:36:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 317,
-  "days_since_push": 4,
+  "age_days": 318,
+  "days_since_push": 5,
   "health_score": 56,
   "health_components": {
     "popularity": 54.1,
-    "momentum": 2.2,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 99.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 2.6,
+    "stars_per_day": 1.8,
     "lifetime_stars_per_day": 1.6,
     "basis": "history",
     "is_fast_riser": false
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:13+00:00",
+  "fetched_at": "2026-11-16T12:47:27+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -144,10 +144,65 @@
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by JetBrains/thinkrail: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 JetBrains/thinkrail 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "JetBrains/thinkrail",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "styler-ai/projectatlas",
+      "challenger": "jetbrains/thinkrail",
+      "incumbent_name": "styler-ai/ProjectAtlas",
+      "challenger_name": "JetBrains/thinkrail",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "usage-analytics",
+        "worktree-isolation"
+      ],
+      "star_ratio": 16.343,
+      "momentum_ratio": 16.778,
+      "setup_delta": 5,
+      "dominance": 0.975,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "16.34x the stars (8,302 vs 508)",
+        "16.78x the star velocity (30.2/day vs 1.8/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "notifications",
+          "skills-plugins",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 56,
+        "challenger_health": 68,
+        "incumbent_setup_score": 13,
+        "challenger_setup_score": 18
+      }
+    }
   }
 }

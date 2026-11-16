@@ -6,7 +6,7 @@
   "url": "https://github.com/AVIDS2/memorix",
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
-  "stars": 937,
+  "stars": 939,
   "forks": 78,
   "open_issues": 8,
   "language": "TypeScript",
@@ -34,27 +34,27 @@
     "windsurf"
   ],
   "created_at": "2026-02-14T06:53:17Z",
-  "updated_at": "2026-11-15T10:05:02Z",
+  "updated_at": "2026-11-16T08:44:30Z",
   "pushed_at": "2026-11-11T15:24:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 274,
-  "days_since_push": 3,
+  "age_days": 275,
+  "days_since_push": 4,
   "health_score": 52,
   "health_components": {
-    "popularity": 59.4,
-    "momentum": 2.1,
+    "popularity": 59.5,
+    "momentum": 2.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
-    "days_span": 7,
-    "stars_per_day": 2.57,
-    "lifetime_stars_per_day": 3.42,
+    "stars_gained": 13,
+    "days_span": 5,
+    "stars_per_day": 2.6,
+    "lifetime_stars_per_day": 3.41,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -182,13 +182,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:51+00:00",
+  "fetched_at": "2026-11-16T12:47:10+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
-    "memory-failover",
-    "model-routing"
+    "sessions-memory"
   ],
-  "primary_category": "memory-failover",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (10/10).",
@@ -216,14 +216,14 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 63.351,
-      "momentum_ratio": 71.953,
+      "star_ratio": 63.541,
+      "momentum_ratio": 115.615,
       "setup_delta": -25,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (10/10)",
-        "63.35x the stars (59,360 vs 937)",
-        "71.95x the star velocity (184.9/day vs 2.6/day)",
+        "63.54x the stars (59,665 vs 939)",
+        "115.62x the star velocity (300.6/day vs 2.6/day)",
         "no harder to set up (48 vs 73 friction)"
       ],
       "reasons_zh": [],

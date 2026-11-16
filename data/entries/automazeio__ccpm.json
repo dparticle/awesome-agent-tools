@@ -6,7 +6,7 @@
   "url": "https://github.com/automazeio/ccpm",
   "description": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
   "homepage": "https://automaze.io",
-  "stars": 8449,
+  "stars": 8451,
   "forks": 838,
   "open_issues": 1,
   "language": "Shell",
@@ -20,27 +20,27 @@
     "vibe-coding"
   ],
   "created_at": "2025-08-18T23:20:08Z",
-  "updated_at": "2026-11-14T21:09:08Z",
+  "updated_at": "2026-11-15T22:48:48Z",
   "pushed_at": "2026-11-04T13:13:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 453,
-  "days_since_push": 10,
+  "age_days": 454,
+  "days_since_push": 11,
   "health_score": 53,
   "health_components": {
     "popularity": 78.5,
-    "momentum": 1.5,
+    "momentum": 1.7,
     "maintenance": 92.0,
     "documentation": 48.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 18.65,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 18.61,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,11 +142,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T11:59:25+00:00",
+  "fetched_at": "2026-11-16T12:46:44+00:00",
   "categories": [
     "billing-2",
     "isolation-teams",
-    "mcp-security"
+    "skills"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

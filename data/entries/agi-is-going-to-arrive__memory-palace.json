@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 269,
-  "days_since_push": 178,
+  "age_days": 270,
+  "days_since_push": 179,
   "health_score": 44,
   "health_components": {
     "popularity": 50.0,
@@ -160,11 +160,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-15T12:00:33+00:00",
+  "fetched_at": "2026-11-16T12:47:49+00:00",
   "categories": [
-    "desktop-ui-2",
     "failover",
-    "sharing"
+    "sessions-memory",
+    "sharing-model-routing"
   ],
   "primary_category": "failover",
   "lifecycle": {
