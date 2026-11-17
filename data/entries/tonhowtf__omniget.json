@@ -6,9 +6,9 @@
   "url": "https://github.com/tonhowtf/omniget",
   "description": "A local MCP server that gives your coding agent a desktop toolbox: downloads from YouTube, torrents and every site yt-dlp supports, media conversion, files, chats and system cleanup. One line connects Claude Code, Codex, Cursor or Gemini CLI, and sensitive actions wait for your click. Free and open source for Windows, macOS and Linux.",
   "homepage": "https://getomniget.com/",
-  "stars": 14464,
-  "forks": 1248,
-  "open_issues": 5,
+  "stars": 14480,
+  "forks": 1250,
+  "open_issues": 4,
   "language": "Rust",
   "license": "GPL-3.0",
   "topics": [
@@ -34,27 +34,27 @@
     "yt-dlp-gui"
   ],
   "created_at": "2026-02-11T22:44:56Z",
-  "updated_at": "2026-11-16T11:56:31Z",
+  "updated_at": "2026-11-17T11:12:52Z",
   "pushed_at": "2026-11-13T20:37:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 277,
-  "days_since_push": 2,
+  "age_days": 278,
+  "days_since_push": 3,
   "health_score": 71,
   "health_components": {
     "popularity": 83.2,
-    "momentum": 43.5,
+    "momentum": 43.4,
     "maintenance": 100.0,
     "documentation": 44.0,
     "accessibility": 85.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 14464,
-    "days_span": 277,
-    "stars_per_day": 52.22,
-    "lifetime_stars_per_day": 52.22,
+    "stars_gained": 14480,
+    "days_span": 278,
+    "stars_per_day": 52.09,
+    "lifetime_stars_per_day": 52.09,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -157,12 +157,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:43+00:00",
+  "fetched_at": "2026-11-17T13:26:58+00:00",
   "categories": [
     "desktop-ui",
-    "mobile"
+    "sharing"
   ],
-  "primary_category": "mobile",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by msitarzewski/agency-agents: covers 100% of capabilities (5/5).",
@@ -185,14 +185,14 @@
         "mcp-support",
         "voice-input"
       ],
-      "star_ratio": 11.663,
-      "momentum_ratio": 3.696,
+      "star_ratio": 11.667,
+      "momentum_ratio": 4.108,
       "setup_delta": -22,
-      "dominance": 0.962,
+      "dominance": 0.976,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "11.66x the stars (168,688 vs 14,464)",
-        "3.70x the star velocity (193.0/day vs 52.2/day)",
+        "11.67x the stars (168,934 vs 14,480)",
+        "4.11x the star velocity (214.0/day vs 52.1/day)",
         "no harder to set up (1 vs 23 friction)"
       ],
       "reasons_zh": [],
@@ -223,7 +223,7 @@
           "voice-input"
         ],
         "incumbent_health": 71,
-        "challenger_health": 98,
+        "challenger_health": 96,
         "incumbent_setup_score": 23,
         "challenger_setup_score": 1
       }

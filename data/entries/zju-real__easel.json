@@ -6,9 +6,9 @@
   "url": "https://github.com/ZJU-REAL/Easel",
   "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
   "homepage": "https://zju-real.github.io/Easel/",
-  "stars": 4721,
-  "forks": 788,
-  "open_issues": 12,
+  "stars": 4742,
+  "forks": 790,
+  "open_issues": 8,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -23,33 +23,33 @@
     "social-media-management"
   ],
   "created_at": "2026-08-28T02:22:27Z",
-  "updated_at": "2026-11-16T10:22:44Z",
-  "pushed_at": "2026-11-15T18:07:22Z",
+  "updated_at": "2026-11-17T12:44:39Z",
+  "pushed_at": "2026-11-17T12:23:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 80,
+  "age_days": 81,
   "days_since_push": 0,
-  "health_score": 69,
+  "health_score": 68,
   "health_components": {
     "popularity": 73.5,
-    "momentum": 21.2,
+    "momentum": 19.8,
     "maintenance": 100.0,
     "documentation": 80.0,
     "accessibility": 85.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 127,
+    "stars_gained": 119,
     "days_span": 5,
-    "stars_per_day": 25.4,
-    "lifetime_stars_per_day": 59.01,
+    "stars_per_day": 23.8,
+    "lifetime_stars_per_day": 58.54,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "ZJU-REAL/Easel",
-    "readme_chars": 20633,
+    "readme_chars": 20679,
     "capabilities": [
       "quota-management",
       "worktree-isolation",
@@ -70,7 +70,7 @@
       "memory-context": "",
       "skills-plugins": "list、多平台格式适配；小红书、抖音、快手、知乎、B 站、微信视频号、微信公众号、推特 X、掘金、今日头条登录与发布；内容日历回写、账号数据、评论洞察（掘金走公开 JSON 接口、X 走网页 DOM 采集）、内容复盘、ROI 与画像记忆",
       "gui-desktop": "后安装器会创建项目内 .venv，安装 Python/Node 依赖、前端生产包和 Playwright Chromium，并使用独立的 easel OpenClaw profile。",
-      "cross-agent-support": "Mentions Claude Code, Codex"
+      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
       "quota-management": 1,
@@ -81,7 +81,7 @@
       "memory-context": 1,
       "skills-plugins": 2,
       "gui-desktop": 3,
-      "cross-agent-support": 2
+      "cross-agent-support": 3
     },
     "friction": {
       "level": "turnkey",
@@ -130,7 +130,8 @@
     ],
     "agents": [
       "Claude Code",
-      "Codex"
+      "Codex",
+      "OpenCode"
     ],
     "summary_en": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔…",
     "summary_zh": "",
@@ -159,11 +160,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:20+00:00",
+  "fetched_at": "2026-11-17T13:26:38+00:00",
   "categories": [
     "failover",
-    "providers-2",
-    "sharing-model-routing"
+    "providers-2"
   ],
   "primary_category": "providers-2",
   "lifecycle": {

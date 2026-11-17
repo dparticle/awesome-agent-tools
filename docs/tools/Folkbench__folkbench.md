@@ -12,21 +12,31 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,901 |
-| Star velocity | 27.8/day (history basis, 5d span) |
-| Health score | 59/100 |
-| Documentation | 36/100 |
-| Tier | 🔹 Notable |
+| Stars | 3,943 |
+| Star velocity | 35.8/day (history basis, 5d span) |
+| Health score | 62/100 |
+| Documentation | 41/100 |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
-| Language | Rust |
+| Language | TypeScript |
 | Created | 2026-10-02 |
-| Last push | 2026-11-16 (0 days ago) |
-| Analyzed README | 5,352 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 18,121 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
+### Quota & usage management
+
 ### Model / provider routing
+
+### API gateway / proxy
+
+> 含评测方法、模型资料和读者投稿，现有内容覆盖 12 种语言。
+
+### Billing & metering
+
+> 型与分组，用相同任务比较回答、长文本处理和工具调用表现；能返回内容不代表模型符合预期。
 
 ### GUI / desktop app
 
@@ -48,7 +58,7 @@
 
 ## Documentation quality
 
-Score **36/100**, based on these detected signals:
+Score **41/100**, based on these detected signals:
 
 - contains screenshots/diagrams
 - has section headings
@@ -62,10 +72,10 @@ Score **36/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.8 |
-| momentum | 23.2 |
+| popularity | 71.9 |
+| momentum | 29.8 |
 | maintenance | 100.0 |
-| documentation | 36.0 |
+| documentation | 41.0 |
 | accessibility | 67.0 |
 
 ---

@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 334 |
+| Stars | 336 |
 | Star velocity | 2.2/day (history basis, 5d span) |
 | Health score | 53/100 |
 | Documentation | 57/100 |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-04-28 |
-| Last push | 2026-11-16 (0 days ago) |
+| Last push | 2026-11-17 (0 days ago) |
 | Analyzed README | 16,155 chars from `raw:HEAD/README.md` |
 
 ## What it solves

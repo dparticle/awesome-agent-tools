@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 139,
-  "days_since_push": 124,
+  "age_days": 140,
+  "days_since_push": 125,
   "health_score": 45,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.46,
+    "lifetime_stars_per_day": 5.42,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,69 +128,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:15+00:00",
+  "fetched_at": "2026-11-17T13:27:24+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "skills"
+    "failover"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "archive228/loopkit",
-      "challenger": "thedivergentai/game-dev-agentic-skills",
-      "incumbent_name": "Archive228/loopkit",
-      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 1.277,
-      "momentum_ratio": 68.0,
-      "setup_delta": 2,
-      "dominance": 0.796,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "1.28x the stars (969 vs 759)",
-        "68.00x the star velocity (3.4/day vs 0.0/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "skills-plugins"
-        ],
-        "incumbent_health": 45,
-        "challenger_health": 56,
-        "incumbent_setup_score": 19,
-        "challenger_setup_score": 21
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

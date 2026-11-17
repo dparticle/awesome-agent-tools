@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 12113,
-  "forks": 1708,
-  "open_issues": 678,
+  "stars": 12160,
+  "forks": 1720,
+  "open_issues": 675,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-11-16T11:39:56Z",
-  "pushed_at": "2026-11-16T12:07:59Z",
+  "updated_at": "2026-11-17T13:09:23Z",
+  "pushed_at": "2026-11-17T13:03:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 130,
+  "age_days": 132,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 71,
   "health_components": {
     "popularity": 81.7,
-    "momentum": 33.7,
+    "momentum": 29.8,
     "maintenance": 100.0,
     "documentation": 79.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 202,
+    "stars_gained": 179,
     "days_span": 5,
-    "stars_per_day": 40.4,
-    "lifetime_stars_per_day": 93.18,
+    "stars_per_day": 35.8,
+    "lifetime_stars_per_day": 92.12,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -190,13 +190,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:08+00:00",
+  "fetched_at": "2026-11-17T13:26:28+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "isolation-teams"
+    "parallelism",
+    "teams-self-hosting"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

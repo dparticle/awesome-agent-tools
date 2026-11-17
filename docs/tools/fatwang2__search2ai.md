@@ -14,17 +14,15 @@
 | --- | --- |
 | Stars | 1,288 |
 | Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 51/100 |
-| Documentation | 64/100 |
+| Health score | 53/100 |
+| Documentation | 72/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2023-12-18 |
-| Last push | 2026-11-11 (5 days ago) |
-| Analyzed README | 26,706 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 27,287 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -50,7 +48,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 73/100)
+- **Difficulty:** 🔴 Involved (friction score 66/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx -y search2ai serve --host 127.0.0.1`
@@ -61,13 +59,14 @@
 
 **Configuration required:** environment variables, API key configuration, database dependency, database migration, server/reverse-proxy setup
 
-*Involved setup. install via npx one-liner; needs docker run, git clone (build from source); configure environment variables, API key configuration*
+*Involved setup. install via npx one-liner; needs docker run, git clone (build from source); configure environment variables, API key configuration; one-click setup*
 
 ## Documentation quality
 
-Score **64/100**, based on these detected signals:
+Score **72/100**, based on these detected signals:
 
 - contains code blocks
+- contains screenshots/diagrams
 - has section headings
 - has a quick-start section
 - documents installation
@@ -86,8 +85,8 @@ Score **64/100**, based on these detected signals:
 | popularity | 62.2 |
 | momentum | 0.0 |
 | maintenance | 100.0 |
-| documentation | 64.0 |
-| accessibility | 27.0 |
+| documentation | 72.0 |
+| accessibility | 34.0 |
 
 ---
 

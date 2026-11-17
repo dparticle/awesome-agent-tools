@@ -6,9 +6,9 @@
   "url": "https://github.com/milind-soni/OpenMausBot",
   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "homepage": "https://www.mausbot.com/",
-  "stars": 23934,
-  "forks": 3326,
-  "open_issues": 1113,
+  "stars": 24573,
+  "forks": 3436,
+  "open_issues": 1155,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -25,16 +25,16 @@
     "typescript"
   ],
   "created_at": "2026-08-11T18:58:55Z",
-  "updated_at": "2026-11-16T12:44:25Z",
-  "pushed_at": "2026-11-16T12:45:02Z",
+  "updated_at": "2026-11-17T13:25:21Z",
+  "pushed_at": "2026-11-17T13:24:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 96,
+  "age_days": 97,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 87.6,
+    "popularity": 87.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 71.0,
@@ -42,16 +42,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2943,
+    "stars_gained": 3035,
     "days_span": 5,
-    "stars_per_day": 588.6,
-    "lifetime_stars_per_day": 249.31,
+    "stars_per_day": 607.0,
+    "lifetime_stars_per_day": 253.33,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "milind-soni/OpenMausBot",
-    "readme_chars": 34343,
+    "readme_chars": 34041,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -73,7 +73,7 @@
       "model-routing": "configuration switches, defaults and model-call implications, see Feature switches.",
       "api-gateway": "via docs/custom-mcp-servers.md.",
       "usage-analytics": "d model-call implications, see Feature switches.",
-      "skills-plugins": "skills switched off and routines paused.",
+      "skills-plugins": "",
       "mcp-support": "ure bots/channels/tasks, send work, wait for completion, switch models, and interrupt turns.",
       "security-isolation": "MCP header values in plaintext (a key a bot set from a secret card is kept",
       "self-hosted": "",
@@ -164,7 +164,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.514
+      "external_link_ratio": 1.528
     },
     "highlights": [
       "Local first. One small harness server on 127.0.0.1 owns every agent process. Transcripts, keys, and",
@@ -180,13 +180,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:03+00:00",
+  "fetched_at": "2026-11-17T13:26:24+00:00",
   "categories": [
+    "desktop-ui-2",
     "mcp-security",
-    "mobile",
-    "skills"
+    "sharing"
   ],
-  "primary_category": "mobile",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

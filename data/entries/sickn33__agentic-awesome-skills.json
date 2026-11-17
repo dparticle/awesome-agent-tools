@@ -6,9 +6,9 @@
   "url": "https://github.com/sickn33/agentic-awesome-skills",
   "description": "2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
   "homepage": "https://aaskills.tech/",
-  "stars": 49786,
-  "forks": 7211,
-  "open_issues": 17,
+  "stars": 49860,
+  "forks": 7226,
+  "open_issues": 9,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "skill-library"
   ],
   "created_at": "2026-01-14T17:48:09Z",
-  "updated_at": "2026-11-16T12:16:38Z",
-  "pushed_at": "2026-11-15T18:45:22Z",
+  "updated_at": "2026-11-17T13:22:35Z",
+  "pushed_at": "2026-11-17T07:58:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 305,
+  "age_days": 306,
   "days_since_push": 0,
-  "health_score": 77,
+  "health_score": 78,
   "health_components": {
-    "popularity": 93.9,
-    "momentum": 43.8,
+    "popularity": 94.0,
+    "momentum": 45.3,
     "maintenance": 100.0,
     "documentation": 82.0,
-    "accessibility": 61.0
+    "accessibility": 68.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 263,
+    "stars_gained": 272,
     "days_span": 5,
-    "stars_per_day": 52.6,
-    "lifetime_stars_per_day": 163.23,
+    "stars_per_day": 54.4,
+    "lifetime_stars_per_day": 162.94,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sickn33/agentic-awesome-skills",
-    "readme_chars": 125717,
+    "readme_chars": 126909,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -101,7 +101,7 @@
       "memory-context": 5,
       "skills-plugins": 175,
       "agent-runtime": 7,
-      "mcp-support": 71,
+      "mcp-support": 75,
       "security-isolation": 1,
       "self-hosted": 1,
       "team-collaboration": 1,
@@ -110,8 +110,8 @@
       "cross-agent-support": 8
     },
     "friction": {
-      "level": "moderate",
-      "score": 39,
+      "level": "low",
+      "score": 32,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -129,6 +129,7 @@
         "server/reverse-proxy setup"
       ],
       "friendliness_signals": [
+        "one-click setup",
         "GUI application"
       ],
       "platforms": [
@@ -139,8 +140,8 @@
         "Android",
         "Web"
       ],
-      "note_en": "Some setup. install via npx one-liner, native installer / package; needs npm install/build; configure API key configuration, OAuth login flow; GUI application",
-      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 npm install/build；需配置 API key configuration、OAuth login flow；GUI application"
+      "note_en": "Easy. install via npx one-liner, native installer / package; needs npm install/build; configure API key configuration, OAuth login flow; one-click setup",
+      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 npm install/build；需配置 API key configuration、OAuth login flow；one-click setup"
     },
     "doc_score": 82,
     "doc_signals": [
@@ -170,7 +171,7 @@
       "Cline / Roo",
       "Goose"
     ],
-    "summary_en": "Agentic Awesome Skills is a library of 2,960+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.",
+    "summary_en": "Agentic Awesome Skills is a library of 2,981+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -181,13 +182,13 @@
         "bullet list of external links",
         "link-directory table of contents"
       ],
-      "external_link_ratio": 3.993
+      "external_link_ratio": 3.987
     },
     "highlights": [
       "sandbaseai/cli: Official source for the sandbase-mcp skill - discover, inspect, and invoke 2,000+ AI models and APIs through a local MCP bridge with explicit schema and cost checks (Apache-…",
+      "Senrelay (ContextCore): Local-first macOS workbench and Streamable HTTP MCP server for cross-agent session relay (/contextcore full-transcript paging), source-linked SQLite FTS5 memory, and…",
       "beatra-ai/ai-image-generator-skill: Official Beatra source for the ai-image-generation-studio skill - paid, hosted work installed from a digest-pinned 0.1.4 archive byte-identical to commit…",
-      "beatra-ai/ai-voiceover-generator-skill: Official Beatra source for the voiceover-narration-studio skill - paid, hosted work installed from a digest-pinned 0.1.9 archive byte-identical to co…",
-      "beatra-ai/beatra-skills: Official Beatra source for the beatra-ai-video-studio skill - paid, hosted AI video generation, editing, and extension, installed from a digest-pinned 1.2.5 archive…"
+      "beatra-ai/ai-voiceover-generator-skill: Official Beatra source for the voiceover-narration-studio skill - paid, hosted work installed from a digest-pinned 0.1.9 archive byte-identical to co…"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -198,13 +199,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:38+00:00",
+  "fetched_at": "2026-11-17T13:26:53+00:00",
   "categories": [
-    "desktop-ui",
     "desktop-ui-2",
-    "skills"
+    "failover",
+    "teams-self-hosting"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

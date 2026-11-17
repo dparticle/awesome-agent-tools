@@ -6,9 +6,9 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 6135,
-  "forks": 544,
-  "open_issues": 32,
+  "stars": 7534,
+  "forks": 693,
+  "open_issues": 35,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-11-16T12:44:29Z",
+  "updated_at": "2026-11-17T13:25:23Z",
   "pushed_at": "2026-11-16T01:08:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 73,
-  "days_since_push": 0,
-  "health_score": 88,
+  "age_days": 74,
+  "days_since_push": 1,
+  "health_score": 89,
   "health_components": {
-    "popularity": 75.8,
+    "popularity": 77.5,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1081,
+    "stars_gained": 2370,
     "days_span": 5,
-    "stars_per_day": 216.2,
-    "lifetime_stars_per_day": 84.04,
+    "stars_per_day": 474.0,
+    "lifetime_stars_per_day": 101.81,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -165,13 +165,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:17+00:00",
+  "fetched_at": "2026-11-17T13:26:33+00:00",
   "categories": [
     "desktop-ui-2",
     "mcp-security",
-    "skills"
+    "sharing"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "sharing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

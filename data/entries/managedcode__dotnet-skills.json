@@ -26,22 +26,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 246,
-  "days_since_push": 2,
+  "age_days": 247,
+  "days_since_push": 3,
   "health_score": 56,
   "health_components": {
     "popularity": 54.3,
-    "momentum": 1.0,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 2.11,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 2.1,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,13 +133,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:27+00:00",
+  "fetched_at": "2026-11-17T13:27:32+00:00",
   "categories": [
-    "desktop-ui",
     "desktop-ui-2",
-    "skills"
+    "failover",
+    "failover-2"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by data-goblin/power-bi-agentic-development: covers 100% of capabilities (6/6).",
@@ -163,14 +163,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.114,
-      "momentum_ratio": 1.167,
+      "star_ratio": 2.116,
+      "momentum_ratio": 1.4,
       "setup_delta": 12,
-      "dominance": 0.679,
+      "dominance": 0.702,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.11x the stars (1,095 vs 518)",
-        "1.17x the star velocity (1.4/day vs 1.2/day)",
+        "2.12x the stars (1,096 vs 518)",
+        "1.40x the star velocity (1.4/day vs 1.0/day)",
         "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],

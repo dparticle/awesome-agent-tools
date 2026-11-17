@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2025-08-01 |
-| Last push | 2026-11-16 (0 days ago) |
+| Last push | 2026-11-16 (1 days ago) |
 | Analyzed README | 17,488 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).
+> ⚠️ **Superseded by [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)** — Superseded by JetBrains/thinkrail: covers 100% of capabilities (7/7).
 
 ## What it solves
 

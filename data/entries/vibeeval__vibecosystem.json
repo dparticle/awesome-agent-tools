@@ -6,7 +6,7 @@
   "url": "https://github.com/vibeeval/vibecosystem",
   "description": "Profile-based coding runtime for Claude Code and Codex. Lean core; opt-in quality, context, memory, orchestration and dashboard.",
   "homepage": "",
-  "stars": 549,
+  "stars": 550,
   "forks": 45,
   "open_issues": 13,
   "language": "C#",
@@ -29,26 +29,26 @@
     "vibecoding"
   ],
   "created_at": "2026-03-14T11:57:55Z",
-  "updated_at": "2026-11-13T15:31:45Z",
+  "updated_at": "2026-11-16T12:59:03Z",
   "pushed_at": "2026-11-11T23:44:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
-  "days_since_push": 4,
+  "age_days": 248,
+  "days_since_push": 5,
   "health_score": 53,
   "health_components": {
     "popularity": 54.8,
-    "momentum": 1.5,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 1.8,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 2.22,
     "basis": "history",
     "is_fast_riser": false
@@ -143,11 +143,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:23+00:00",
+  "fetched_at": "2026-11-17T13:27:30+00:00",
   "categories": [
     "desktop-ui-2",
-    "sessions-memory",
-    "skills"
+    "sessions-memory"
   ],
   "primary_category": "sessions-memory",
   "lifecycle": {
@@ -172,14 +171,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.712,
-      "momentum_ratio": 9.222,
+      "star_ratio": 2.722,
+      "momentum_ratio": 27.667,
       "setup_delta": -6,
-      "dominance": 0.977,
+      "dominance": 0.978,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.71x the stars (1,489 vs 549)",
-        "9.22x the star velocity (16.6/day vs 1.8/day)",
+        "2.72x the stars (1,497 vs 550)",
+        "27.67x the star velocity (16.6/day vs 0.6/day)",
         "no harder to set up (31 vs 37 friction)"
       ],
       "reasons_zh": [],

@@ -6,7 +6,7 @@
   "url": "https://github.com/LeoYeAI/talewell",
   "description": "Plugin-first long-term memory for agent platforms — reference implementation of AMP (Agent Memory Protocol).",
   "homepage": "https://myclaw.ai",
-  "stars": 549,
+  "stars": 550,
   "forks": 28,
   "open_issues": 0,
   "language": "JavaScript",
@@ -21,13 +21,13 @@
     "openclaw"
   ],
   "created_at": "2026-03-28T06:38:18Z",
-  "updated_at": "2026-11-16T09:55:01Z",
+  "updated_at": "2026-11-16T13:37:19Z",
   "pushed_at": "2026-10-01T16:15:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 233,
-  "days_since_push": 45,
+  "age_days": 234,
+  "days_since_push": 46,
   "health_score": 47,
   "health_components": {
     "popularity": 54.8,
@@ -39,9 +39,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 7,
+    "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.36,
+    "lifetime_stars_per_day": 2.35,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,9 +131,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:23+00:00",
+  "fetched_at": "2026-11-17T13:27:30+00:00",
   "categories": [
     "desktop-ui-2",
+    "failover",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",
@@ -159,13 +160,13 @@
         "memory-context",
         "skills-plugins"
       ],
-      "star_ratio": 2.712,
+      "star_ratio": 2.722,
       "momentum_ratio": 332.0,
       "setup_delta": 8,
-      "dominance": 0.937,
+      "dominance": 0.938,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.71x the stars (1,489 vs 549)",
+        "2.72x the stars (1,497 vs 550)",
         "332.00x the star velocity (16.6/day vs 0.0/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
   "homepage": "https://ecc.tools",
-  "stars": 304171,
-  "forks": 44815,
-  "open_issues": 274,
+  "stars": 305037,
+  "forks": 44920,
+  "open_issues": 149,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -22,12 +22,12 @@
     "productivity"
   ],
   "created_at": "2026-01-18T00:51:51Z",
-  "updated_at": "2026-11-16T12:43:02Z",
-  "pushed_at": "2026-11-16T04:55:46Z",
+  "updated_at": "2026-11-17T13:21:41Z",
+  "pushed_at": "2026-11-17T06:41:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 302,
+  "age_days": 303,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3141,
+    "stars_gained": 3350,
     "days_span": 5,
-    "stars_per_day": 628.2,
-    "lifetime_stars_per_day": 1007.19,
+    "stars_per_day": 670.0,
+    "lifetime_stars_per_day": 1006.72,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "affaan-m/ECC",
-    "readme_chars": 116553,
+    "readme_chars": 117561,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -174,7 +174,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.369
+      "external_link_ratio": 0.366
     },
     "highlights": [
       "Skills format (SKILL.md with YAML frontmatter) works across Claude Code, Codex, OpenCode, and GitHub Copilot CLI",
@@ -196,13 +196,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:26+00:00",
+  "fetched_at": "2026-11-17T13:26:42+00:00",
   "categories": [
     "mcp-security",
     "sessions-memory",
-    "sharing"
+    "teams-self-hosting"
   ],
-  "primary_category": "sharing",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

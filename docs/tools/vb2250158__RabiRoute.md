@@ -14,41 +14,57 @@
 | --- | --- |
 | Stars | 493 |
 | Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 54/100 |
-| Documentation | 59/100 |
+| Health score | 56/100 |
+| Documentation | 63/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
-| Last push | 2026-11-16 (0 days ago) |
-| Analyzed README | 10,012 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 13,477 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Remote control
+
+### Mobile access
+
+### MCP support
+
+> ### One directory, not a fixed API
 
 ### Self-hostable
 
 > esktop automation to Agents
 
+### GUI / desktop app
+
+> ersonal Weixin is an experimental prototype, and Feishu is implemented but still waiting on real-credential acceptance.
+
 ### Notifications
 
-> rity and setup requirements; see integration status.
+> o continue a desktop agent task from your phone or from a chat app
+
+### Cross-agent support
+
+> Mentions Codex, Copilot
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 25/100)
+- **Difficulty:** 🟢 Turnkey (friction score 18/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 
 **Signals that make it easy:** native installer / package
 
 **Signals that add work:** git clone (build from source)
 
-*Easy. install via native installer / package; needs git clone (build from source)*
+*Turnkey. install via native installer / package; needs git clone (build from source); GUI application*
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **63/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -56,6 +72,7 @@ Score **59/100**, based on these detected signals:
 - documents installation
 - documents configuration
 - has troubleshooting/FAQ
+- has contribution guidance
 - mentions licensing
 - has a Chinese translation
 - documents changes
@@ -68,8 +85,8 @@ Score **59/100**, based on these detected signals:
 | popularity | 53.9 |
 | momentum | 0.0 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
-| accessibility | 75.0 |
+| documentation | 63.0 |
+| accessibility | 90.0 |
 
 ---
 

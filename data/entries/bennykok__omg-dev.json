@@ -6,9 +6,9 @@
   "url": "https://github.com/BennyKok/omg.dev",
   "description": "omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcode with mobile client",
   "homepage": "https://omg.dev",
-  "stars": 558,
+  "stars": 559,
   "forks": 42,
-  "open_issues": 3,
+  "open_issues": 1,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,27 +24,27 @@
     "self-hosted"
   ],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-11-14T04:37:36Z",
-  "pushed_at": "2026-11-16T11:14:27Z",
+  "updated_at": "2026-11-17T13:06:39Z",
+  "pushed_at": "2026-11-17T10:40:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 152,
+  "age_days": 153,
   "days_since_push": 0,
-  "health_score": 50,
+  "health_score": 51,
   "health_components": {
     "popularity": 54.9,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 3.67,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 3.65,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,8 +134,8 @@
     "highlights": [
       "Managed sessions keep running when the UI disconnects.",
       "Your existing agent subscriptions or API keys.",
-      "For Claude and Codex, the agent's plan beside the chat: its to-do steps,",
-      "Linked devices: an agent can ask another computer to run an action, and you"
+      "Linked devices: an agent can ask another computer to run an action, and you",
+      "For Claude and Codex, the agent's plan beside the chat: its to-do steps,"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -146,10 +146,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:22+00:00",
+  "fetched_at": "2026-11-17T13:27:30+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
     "mobile"
   ],
   "primary_category": "mobile",

@@ -6,19 +6,19 @@
   "url": "https://github.com/anomalyco/opencode",
   "description": "The open source coding agent.",
   "homepage": "https://opencode.ai",
-  "stars": 227198,
-  "forks": 30773,
-  "open_issues": 4040,
+  "stars": 227467,
+  "forks": 30836,
+  "open_issues": 4060,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2025-04-30T20:08:00Z",
-  "updated_at": "2026-11-16T12:41:51Z",
-  "pushed_at": "2026-11-16T12:42:53Z",
+  "updated_at": "2026-11-17T13:18:19Z",
+  "pushed_at": "2026-11-17T13:18:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 564,
+  "age_days": 565,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -30,10 +30,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1163,
+    "stars_gained": 1162,
     "days_span": 5,
-    "stars_per_day": 232.6,
-    "lifetime_stars_per_day": 402.83,
+    "stars_per_day": 232.4,
+    "lifetime_stars_per_day": 402.6,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -110,10 +110,9 @@
     "seed_reason": "Open-source terminal agent with broad provider support.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-16T12:46:01+00:00",
+  "fetched_at": "2026-11-17T13:26:22+00:00",
   "categories": [
-    "desktop-ui",
-    "desktop-ui-2"
+    "desktop-ui"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

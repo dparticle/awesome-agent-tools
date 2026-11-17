@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,721 |
-| Star velocity | 25.4/day (history basis, 5d span) |
-| Health score | 69/100 |
+| Stars | 4,742 |
+| Star velocity | 23.8/day (history basis, 5d span) |
+| Health score | 68/100 |
 | Documentation | 80/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2026-08-28 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 20,633 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 20,679 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex
+> Mentions Claude Code, Codex, OpenCode
 
 ## Setup reality check
 
@@ -93,7 +93,7 @@ Score **80/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 73.5 |
-| momentum | 21.2 |
+| momentum | 19.8 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 85.0 |

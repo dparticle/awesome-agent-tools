@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 497 |
-| Star velocity | 165.7/day (lifetime basis, 3d span) |
+| Stars | 498 |
+| Star velocity | 124.5/day (lifetime basis, 4d span) |
 | Health score | 75/100 |
 | Documentation | 47/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | n/a |
 | Created | 2026-11-12 |
-| Last push | 2026-11-15 (0 days ago) |
+| Last push | 2026-11-15 (2 days ago) |
 | Analyzed README | 8,638 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [ruvnet/ruflo](https://github.com/ruvnet/ruflo)** — Superseded by ruvnet/ruflo: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -7,7 +7,7 @@
   "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
   "homepage": "",
   "stars": 4322,
-  "forks": 210,
+  "forks": 213,
   "open_issues": 11,
   "language": "Python",
   "license": "MIT",
@@ -26,27 +26,27 @@
     "sqlite"
   ],
   "created_at": "2026-09-01T21:52:29Z",
-  "updated_at": "2026-11-16T12:25:33Z",
+  "updated_at": "2026-11-17T12:49:27Z",
   "pushed_at": "2026-11-12T08:13:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 75,
-  "days_since_push": 4,
+  "age_days": 76,
+  "days_since_push": 5,
   "health_score": 57,
   "health_components": {
     "popularity": 72.7,
-    "momentum": 1.8,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 57.63,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 56.87,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -140,11 +140,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:48+00:00",
+  "fetched_at": "2026-11-17T13:27:03+00:00",
   "categories": [
     "mcp-security",
-    "sessions-memory",
-    "sharing-model-routing"
+    "sessions-memory"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

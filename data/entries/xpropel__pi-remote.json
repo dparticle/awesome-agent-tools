@@ -6,7 +6,7 @@
   "url": "https://github.com/Xpropel/Pi-Remote",
   "description": "Remote control for your pi coding agent. Pi-Remote mirrors live pi terminal sessions to any browser, so you can watch runs, answer prompts, and send commands from your phone — end-to-end encrypted over a self-hosted relay.",
   "homepage": "",
-  "stars": 331,
+  "stars": 333,
   "forks": 10,
   "open_issues": 0,
   "language": "TypeScript",
@@ -28,27 +28,27 @@
     "websocket"
   ],
   "created_at": "2026-10-28T10:46:22Z",
-  "updated_at": "2026-11-15T03:28:08Z",
+  "updated_at": "2026-11-17T12:28:39Z",
   "pushed_at": "2026-11-14T07:25:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 19,
-  "days_since_push": 2,
+  "age_days": 20,
+  "days_since_push": 3,
   "health_score": 52,
   "health_components": {
     "popularity": 50.4,
-    "momentum": 0.5,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 17.42,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 16.65,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,71 +146,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:46+00:00",
+  "fetched_at": "2026-11-17T13:27:45+00:00",
   "categories": [
     "desktop-ui",
     "failover",
-    "sharing-model-routing"
+    "parallelism"
   ],
-  "primary_category": "sharing-model-routing",
+  "primary_category": "parallelism",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by genspark-ai/genoffice: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 genspark-ai/genoffice 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "genspark-ai/genoffice",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "xpropel/pi-remote",
-      "challenger": "genspark-ai/genoffice",
-      "incumbent_name": "Xpropel/Pi-Remote",
-      "challenger_name": "genspark-ai/genoffice",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "gui-desktop",
-        "model-routing",
-        "parallel-execution"
-      ],
-      "star_ratio": 37.565,
-      "momentum_ratio": 95.667,
-      "setup_delta": -14,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "37.56x the stars (12,434 vs 331)",
-        "95.67x the star velocity (57.4/day vs 0.6/day)",
-        "no harder to set up (20 vs 34 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "gui-desktop",
-          "model-routing",
-          "parallel-execution"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "parallel-execution",
-          "self-hosted",
-          "skills-plugins",
-          "usage-analytics"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 73,
-        "incumbent_setup_score": 34,
-        "challenger_setup_score": 20
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

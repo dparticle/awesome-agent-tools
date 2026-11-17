@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-29 |
-| Last push | 2026-11-13 (3 days ago) |
+| Last push | 2026-11-17 (0 days ago) |
 | Analyzed README | 28,904 chars from `raw:HEAD/README.md` |
 
 ## What it solves

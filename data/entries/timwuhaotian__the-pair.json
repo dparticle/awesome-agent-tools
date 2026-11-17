@@ -39,23 +39,23 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 238,
-  "days_since_push": 1,
+  "age_days": 239,
+  "days_since_push": 2,
   "health_score": 57,
   "health_components": {
     "popularity": 51.8,
-    "momentum": 1.4,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 88.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 390,
-    "days_span": 238,
-    "stars_per_day": 1.64,
-    "lifetime_stars_per_day": 1.64,
-    "basis": "lifetime",
+    "stars_gained": 2,
+    "days_span": 5,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 1.63,
+    "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
@@ -173,11 +173,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:42+00:00",
+  "fetched_at": "2026-11-17T13:27:43+00:00",
   "categories": [
     "desktop-ui",
-    "isolation-teams",
-    "sharing"
+    "isolation-teams"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

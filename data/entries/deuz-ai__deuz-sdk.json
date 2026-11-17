@@ -39,13 +39,13 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 167,
-  "days_since_push": 30,
-  "health_score": 47,
+  "age_days": 168,
+  "days_since_push": 31,
+  "health_score": 45,
   "health_components": {
     "popularity": 54.1,
     "momentum": 0.0,
-    "maintenance": 92.0,
+    "maintenance": 78.0,
     "documentation": 39.0,
     "accessibility": 63.0
   },
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.04,
+    "lifetime_stars_per_day": 3.02,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,72 +134,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:27+00:00",
+  "fetched_at": "2026-11-17T13:27:33+00:00",
   "categories": [
     "desktop-ui-2",
-    "skills"
+    "failover",
+    "mcp-security"
   ],
-  "primary_category": "skills",
+  "primary_category": "mcp-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "deuz-ai/deuz-sdk",
-      "challenger": "sickn33/agentic-awesome-skills",
-      "incumbent_name": "Deuz-AI/Deuz-SDK",
-      "challenger_name": "sickn33/agentic-awesome-skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "mcp-support",
-        "notifications",
-        "skills-plugins"
-      ],
-      "star_ratio": 98.004,
-      "momentum_ratio": 1052.0,
-      "setup_delta": 2,
-      "dominance": 0.99,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "98.00x the stars (49,786 vs 508)",
-        "1052.00x the star velocity (52.6/day vs 0.0/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "mcp-support",
-          "notifications",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
-        ],
-        "incumbent_health": 47,
-        "challenger_health": 77,
-        "incumbent_setup_score": 37,
-        "challenger_setup_score": 39
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

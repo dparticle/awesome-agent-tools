@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 393,
-  "days_since_push": 8,
+  "age_days": 394,
+  "days_since_push": 9,
   "health_score": 54,
   "health_components": {
     "popularity": 61.1,
@@ -158,13 +158,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:06+00:00",
+  "fetched_at": "2026-11-17T13:27:18+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
-    "skills"
+    "mobile"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

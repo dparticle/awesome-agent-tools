@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 13,668 |
-| Star velocity | 454.0/day (history basis, 5d span) |
+| Stars | 13,878 |
+| Star velocity | 358.4/day (history basis, 5d span) |
 | Health score | 81/100 |
-| Documentation | 41/100 |
+| Documentation | 42/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-13 |
-| Last push | 2026-11-16 (0 days ago) |
-| Analyzed README | 9,871 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 10,274 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -49,7 +49,7 @@
 
 ## Documentation quality
 
-Score **41/100**, based on these detected signals:
+Score **42/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -62,10 +62,10 @@ Score **41/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.7 |
+| popularity | 82.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 41.0 |
+| documentation | 42.0 |
 | accessibility | 63.0 |
 
 ---

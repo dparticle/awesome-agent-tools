@@ -12,19 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,704 |
-| Star velocity | 22.0/day (history basis, 5d span) |
-| Health score | 57/100 |
+| Stars | 1,724 |
+| Star velocity | 19.8/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 66/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-11-16 (0 days ago) |
+| Last push | 2026-11-17 (0 days ago) |
 | Analyzed README | 24,260 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** — Superseded by HKUDS/DeepTutor: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram)** — Superseded by Gentleman-Programming/engram: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -74,8 +74,8 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 64.6 |
-| momentum | 18.3 |
+| popularity | 64.7 |
+| momentum | 16.5 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
 | accessibility | 31.0 |

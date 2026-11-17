@@ -6,7 +6,7 @@
   "url": "https://github.com/Socialpranker/deepdive",
   "description": "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints.",
   "homepage": "https://socialpranker.github.io/deepdive/",
-  "stars": 372,
+  "stars": 373,
   "forks": 5,
   "open_issues": 0,
   "language": "Python",
@@ -29,13 +29,13 @@
     "research-methodology"
   ],
   "created_at": "2026-05-21T11:43:13Z",
-  "updated_at": "2026-11-16T10:39:58Z",
-  "pushed_at": "2026-11-15T11:34:40Z",
+  "updated_at": "2026-11-16T21:00:15Z",
+  "pushed_at": "2026-11-17T05:11:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 179,
-  "days_since_push": 1,
+  "age_days": 180,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -49,7 +49,7 @@
     "stars_gained": 6,
     "days_span": 5,
     "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 2.08,
+    "lifetime_stars_per_day": 2.07,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -125,7 +125,7 @@
       "Evidence-фильтр (фаза 5.5) — CRAG-классификатор keep/drop по паре (тезис, источник) перед синтезом: наивная подача всего найденного снижает качество (Search-o1 33%→24%), в синтез идут тольк…",
       "Evidence filter (5.5) — a CRAG-style relevance classifier runs on every (claim, source) pair before synthesis and keeps only the quotes that actually support that specific claim.",
       "Plan-review gate (фаза 3.7) — единственная human-in-the-loop точка перед дорогой Фазой 4: план (гипотезы, жанр, каналы) показывается и утверждается ДО поиска; жёсткость по режиму (deep — жд…",
-      "29 каналов поиска с paywall fallback протоколом (включая api-direct)"
+      "No-progress circuit breaker (фаза 4) — 2 раунда подряд без новой информации → стоп, нерешённое уходит в Open Questions вместо сжигания бюджета"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -136,12 +136,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:43+00:00",
+  "fetched_at": "2026-11-17T13:27:43+00:00",
   "categories": [
     "desktop-ui-2",
-    "skills"
+    "failover"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
@@ -163,15 +163,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 133.833,
-      "momentum_ratio": 43.833,
-      "setup_delta": -12,
+      "star_ratio": 133.673,
+      "momentum_ratio": 45.333,
+      "setup_delta": -19,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "133.83x the stars (49,786 vs 372)",
-        "43.83x the star velocity (52.6/day vs 1.2/day)",
-        "no harder to set up (39 vs 51 friction)"
+        "133.67x the stars (49,860 vs 373)",
+        "45.33x the star velocity (54.4/day vs 1.2/day)",
+        "no harder to set up (32 vs 51 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -198,9 +198,9 @@
           "usage-analytics"
         ],
         "incumbent_health": 52,
-        "challenger_health": 77,
+        "challenger_health": 78,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 39
+        "challenger_setup_score": 32
       }
     }
   }

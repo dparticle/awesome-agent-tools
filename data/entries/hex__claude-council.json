@@ -6,9 +6,9 @@
   "url": "https://github.com/hex/claude-council",
   "description": "Claude Code plugin that asks several AI coding agents the same question and shows their answers side by side. Gemini, OpenAI, Grok, Perplexity, Kimi and any model OpenRouter routes to over API; codex, antigravity, grok, kimi and cursor CLIs on subscription auth; ollama locally. Codex specialists take coding tasks on their own branch (experimental).",
   "homepage": "",
-  "stars": 942,
+  "stars": 945,
   "forks": 107,
-  "open_issues": 2,
+  "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -31,20 +31,20 @@
     "tmux"
   ],
   "created_at": "2025-12-17T20:05:12Z",
-  "updated_at": "2026-11-15T23:11:41Z",
-  "pushed_at": "2026-11-08T19:33:00Z",
+  "updated_at": "2026-11-17T09:33:04Z",
+  "pushed_at": "2026-11-17T12:40:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 333,
-  "days_since_push": 7,
+  "age_days": 334,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 59.5,
     "momentum": 2.2,
     "maintenance": 100.0,
-    "documentation": 48.0,
-    "accessibility": 52.0
+    "documentation": 51.0,
+    "accessibility": 47.0
   },
   "tier": "notable",
   "momentum": {
@@ -57,7 +57,7 @@
   },
   "analysis": {
     "full_name": "hex/claude-council",
-    "readme_chars": 12614,
+    "readme_chars": 20334,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -65,6 +65,7 @@
       "memory-context",
       "agent-runtime",
       "mcp-support",
+      "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
@@ -72,8 +73,9 @@
       "model-routing": "",
       "session-persistence": "conversations On Linux: everything under ~/.gemini, because where agy keeps its login there is not confirmed",
       "memory-context": ".agents, Cursor and Claude hooks, ~/.cursor/mcp.json Team commands from your Cursor dashboard (read from the CLI's bundle, not seen in a run)",
-      "agent-runtime": "",
+      "agent-runtime": ", xAI, Perplexity, Kimi, OpenRouter.",
       "mcp-support": "del and effort, a link to your auth.json so a token",
+      "gui-desktop": "place of one your shell exports.",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
@@ -81,32 +83,37 @@
       "model-routing": 1,
       "session-persistence": 1,
       "memory-context": 1,
-      "agent-runtime": 1,
+      "agent-runtime": 4,
       "mcp-support": 2,
+      "gui-desktop": 1,
       "cross-agent-support": 5
     },
     "friction": {
       "level": "moderate",
-      "score": 48,
+      "score": 53,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [],
       "hard_signals": [],
       "config_signals": [
+        "environment variables",
+        "API key configuration",
         "config.json/yaml/toml",
         "sign-in required",
         "database dependency"
       ],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
       "platforms": [
         "macOS",
         "Windows",
         "Linux"
       ],
-      "note_en": "Some setup. configure config.json/yaml/toml, sign-in required",
-      "note_zh": "需要一些配置。需配置 config.json/yaml/toml、sign-in required"
+      "note_en": "Some setup. configure environment variables, API key configuration; GUI application",
+      "note_zh": "需要一些配置。需配置 environment variables、API key configuration；GUI application"
     },
-    "doc_score": 48,
+    "doc_score": 51,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -114,7 +121,8 @@
       "documents installation",
       "documents configuration",
       "has troubleshooting/FAQ",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -131,10 +139,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.079
+      "external_link_ratio": 0.098
     },
     "highlights": [
       "kill -0 to check a council run is still alive.",
+      "Desktop puts \"Synthesise the council's answers (run 3f9a2c).\" in the",
+      "The extension keeps the last 5 runs in which a seat answered; after that,",
       "codex debug models during /heads-up setup with the codex seat, to list"
     ],
     "summary_zh_native": "",
@@ -146,81 +156,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:10+00:00",
+  "fetched_at": "2026-11-17T13:27:21+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
+    "failover",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 HKUDS/DeepTutor 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "HKUDS/DeepTutor",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "hex/claude-council",
-      "challenger": "hkuds/deeptutor",
-      "incumbent_name": "hex/claude-council",
-      "challenger_name": "HKUDS/DeepTutor",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "model-routing",
-        "multi-agent-orchestration",
-        "session-persistence"
-      ],
-      "star_ratio": 63.339,
-      "momentum_ratio": 115.615,
-      "setup_delta": 0,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (7/7)",
-        "63.34x the stars (59,665 vs 942)",
-        "115.62x the star velocity (300.6/day vs 2.6/day)",
-        "no harder to set up (48 vs 48 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "billing-metering",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-account-switching",
-          "multi-agent-orchestration",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 90,
-        "incumbent_setup_score": 48,
-        "challenger_setup_score": 48
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

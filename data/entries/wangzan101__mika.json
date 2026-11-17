@@ -6,9 +6,9 @@
   "url": "https://github.com/wangzan101/Mika",
   "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
   "homepage": "https://mikaphone.com",
-  "stars": 8813,
-  "forks": 2006,
-  "open_issues": 128,
+  "stars": 8935,
+  "forks": 2026,
+  "open_issues": 134,
   "language": "Kotlin",
   "license": "Apache-2.0",
   "topics": [
@@ -22,27 +22,27 @@
     "mobile-agent"
   ],
   "created_at": "2026-10-29T14:34:07Z",
-  "updated_at": "2026-11-16T12:41:53Z",
-  "pushed_at": "2026-11-16T09:48:07Z",
+  "updated_at": "2026-11-17T13:00:49Z",
+  "pushed_at": "2026-11-17T12:31:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 17,
+  "age_days": 18,
   "days_since_push": 0,
   "health_score": 81,
   "health_components": {
-    "popularity": 78.9,
-    "momentum": 100.0,
+    "popularity": 79.0,
+    "momentum": 99.7,
     "maintenance": 100.0,
     "documentation": 33.0,
     "accessibility": 80.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 632,
+    "stars_gained": 598,
     "days_span": 5,
-    "stars_per_day": 126.4,
-    "lifetime_stars_per_day": 518.41,
+    "stars_per_day": 119.6,
+    "lifetime_stars_per_day": 496.39,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -124,11 +124,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:11+00:00",
+  "fetched_at": "2026-11-17T13:26:31+00:00",
   "categories": [
-    "mobile"
+    "billing-2"
   ],
-  "primary_category": "mobile",
+  "primary_category": "billing-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

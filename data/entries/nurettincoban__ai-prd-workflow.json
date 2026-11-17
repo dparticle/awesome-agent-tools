@@ -6,8 +6,8 @@
   "url": "https://github.com/nurettincoban/ai-prd-workflow",
   "description": "RFC-driven development for AI coding agents: idea or existing codebase → verified PRD → features → rules → sequenced RFCs → reviewed code. Agent Skills for Claude Code, Codex, Copilot, Cursor, Gemini CLI, OpenCode, Devin.",
   "homepage": "https://nurettincoban.github.io/ai-prd-workflow/",
-  "stars": 310,
-  "forks": 34,
+  "stars": 311,
+  "forks": 35,
   "open_issues": 1,
   "language": "Python",
   "license": "MIT",
@@ -31,26 +31,26 @@
     "vibe-coding"
   ],
   "created_at": "2025-03-09T19:23:57Z",
-  "updated_at": "2026-11-09T22:12:30Z",
+  "updated_at": "2026-11-16T18:58:47Z",
   "pushed_at": "2026-11-16T01:07:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 616,
-  "days_since_push": 0,
+  "age_days": 617,
+  "days_since_push": 1,
   "health_score": 53,
   "health_components": {
-    "popularity": 49.8,
-    "momentum": 0.0,
+    "popularity": 49.9,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.5,
     "basis": "history",
     "is_fast_riser": false
@@ -142,11 +142,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:51+00:00",
+  "fetched_at": "2026-11-17T13:27:48+00:00",
   "categories": [
-    "desktop-ui-2"
+    "failover"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

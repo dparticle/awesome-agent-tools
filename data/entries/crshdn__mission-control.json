@@ -7,7 +7,7 @@
   "description": "The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted via OpenClaw Gateway.",
   "homepage": "https://autensa.com",
   "stars": 2160,
-  "forks": 435,
+  "forks": 436,
   "open_issues": 21,
   "language": "TypeScript",
   "license": "MIT",
@@ -22,22 +22,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 288,
-  "days_since_push": 60,
+  "age_days": 289,
+  "days_since_push": 61,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 73.0,
     "accessibility": 33.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 7.5,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 7.47,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,11 +149,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:56+00:00",
+  "fetched_at": "2026-11-17T13:27:09+00:00",
   "categories": [
     "isolation-teams",
-    "sharing",
-    "skills"
+    "parallelism",
+    "teams-self-hosting"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

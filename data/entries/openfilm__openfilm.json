@@ -6,9 +6,9 @@
   "url": "https://github.com/openfilm/openfilm",
   "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
   "homepage": "https://openfilm.dev",
-  "stars": 7761,
-  "forks": 753,
-  "open_issues": 24,
+  "stars": 8039,
+  "forks": 781,
+  "open_issues": 32,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -22,16 +22,16 @@
     "video-editor"
   ],
   "created_at": "2026-10-04T09:29:07Z",
-  "updated_at": "2026-11-16T12:39:47Z",
-  "pushed_at": "2026-11-16T12:28:56Z",
+  "updated_at": "2026-11-17T13:24:40Z",
+  "pushed_at": "2026-11-16T12:49:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 43,
-  "days_since_push": 0,
+  "age_days": 44,
+  "days_since_push": 1,
   "health_score": 81,
   "health_components": {
-    "popularity": 77.8,
+    "popularity": 78.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 37.0,
@@ -39,10 +39,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2022,
+    "stars_gained": 2164,
     "days_span": 5,
-    "stars_per_day": 404.4,
-    "lifetime_stars_per_day": 180.49,
+    "stars_per_day": 432.8,
+    "lifetime_stars_per_day": 182.7,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:13+00:00",
+  "fetched_at": "2026-11-17T13:26:32+00:00",
   "categories": [
     "desktop-ui"
   ],

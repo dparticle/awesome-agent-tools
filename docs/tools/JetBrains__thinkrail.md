@@ -12,19 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,302 |
-| Star velocity | 30.2/day (history basis, 5d span) |
-| Health score | 68/100 |
+| Stars | 8,322 |
+| Star velocity | 26.4/day (history basis, 5d span) |
+| Health score | 67/100 |
 | Documentation | 56/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-08 |
-| Last push | 2026-11-16 (0 days ago) |
-| Analyzed README | 22,900 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 23,744 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Remote control
+
+> (or ⌘; anywhere) for hint mode: every button, tab, row and field gets a short label, and typing it presses that element (Shift on the last letter only focuses it); Esc leaves a text field, so F works from anywhere.
 
 ### Multi-agent orchestration
 
@@ -99,7 +103,7 @@ Score **56/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 78.4 |
-| momentum | 25.2 |
+| momentum | 22.0 |
 | maintenance | 100.0 |
 | documentation | 56.0 |
 | accessibility | 90.0 |

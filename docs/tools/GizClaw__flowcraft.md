@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-04-14 |
-| Last push | 2026-11-16 (0 days ago) |
-| Analyzed README | 17,837 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 17,864 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** — Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (5/5).
 

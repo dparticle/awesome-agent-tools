@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "full_name": "ruvnet/ruflo",
+  "name": "ruflo",
+  "owner": "ruvnet",
+  "url": "https://github.com/ruvnet/ruflo",
+  "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+  "homepage": "https://cognitum.one/ruPro",
+  "stars": 81925,
+  "forks": 9667,
+  "open_issues": 613,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "agent-memory",
+    "agent-orchestration",
+    "agentic-ai",
+    "agentic-workflow",
+    "ai-agents",
+    "autonomous-agents",
+    "claude",
+    "claude-code",
+    "codex",
+    "hnsw",
+    "mcp",
+    "mcp-server",
+    "multi-agent",
+    "multi-agent-systems",
+    "plugins",
+    "rvf",
+    "swarm",
+    "swarm-intelligence",
+    "typescript",
+    "vector-search"
+  ],
+  "created_at": "2025-06-02T21:24:20Z",
+  "updated_at": "2026-11-17T13:16:45Z",
+  "pushed_at": "2026-11-17T06:45:00Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 532,
+  "days_since_push": 0,
+  "health_score": 93,
+  "health_components": {
+    "popularity": 98.3,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 72.0,
+    "accessibility": 82.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 81925,
+    "days_span": 532,
+    "stars_per_day": 153.99,
+    "lifetime_stars_per_day": 153.99,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "ruvnet/ruflo",
+    "readme_chars": 38801,
+    "capabilities": [
+      "auto-failover",
+      "multi-agent-orchestration",
+      "model-routing",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "auto-failover": "",
+      "multi-agent-orchestration": "ooks system automatically routes tasks, learns from successful patterns, and coordinates agents in the background.",
+      "model-routing": "",
+      "memory-context": "",
+      "skills-plugins": "10 ~0.99); ANN wins above the crossover, ties/loses at small N.",
+      "mcp-support": "## Get started in one command Run this in your project folder: Then open Claude Code in the same folder and give it a real task, for example: init adds ruflo's agents, hooks, memory and MCP server to the project, and Cl…",
+      "security-isolation": "or full, with ask or auto approval.",
+      "team-collaboration": "rovider Claude, GPT, Gemini, Cohere, Ollama with smart routing",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "auto-failover": 1,
+      "multi-agent-orchestration": 4,
+      "model-routing": 1,
+      "memory-context": 1,
+      "skills-plugins": 1,
+      "mcp-support": 11,
+      "security-isolation": 1,
+      "team-collaboration": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 18,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "curl | sh installer",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "environment variables",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via npx one-liner, curl | sh installer; needs npm install/build; configure environment variables, database dependency; GUI application",
+      "note_zh": "开箱即用。可通过 npx one-liner、curl | sh installer 安装；需要 npm install/build；需配置 environment variables、database dependency；GUI application"
+    },
+    "doc_score": 72,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a Chinese translation",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "Explore ruPro interactive demo · Manage agents and projects across desktop, mobile, and cloud.",
+    "summary_zh": "",
+    "install_hint": "npx ruflo@latest init",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.619
+    },
+    "highlights": [],
+    "summary_zh_native": "面向 Claude Code 与 Codex 的智能体元基座（meta-harness）。",
+    "highlights_zh": [],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-17T13:26:49+00:00",
+  "categories": [
+    "desktop-ui-2",
+    "mcp-security",
+    "teams-self-hosting"
+  ],
+  "primary_category": "mcp-security",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

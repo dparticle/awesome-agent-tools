@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 574 |
-| Star velocity | 13.7/day (lifetime basis, 42d span) |
+| Stars | 578 |
+| Star velocity | 13.4/day (lifetime basis, 43d span) |
 | Health score | 58/100 |
 | Documentation | 72/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-05 |
-| Last push | 2026-11-13 (2 days ago) |
+| Last push | 2026-11-13 (3 days ago) |
 | Analyzed README | 29,673 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [ruvnet/ruflo](https://github.com/ruvnet/ruflo)** — Superseded by ruvnet/ruflo: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -89,7 +91,7 @@ Score **72/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.2 |
-| momentum | 11.4 |
+| momentum | 11.2 |
 | maintenance | 100.0 |
 | documentation | 72.0 |
 | accessibility | 68.0 |

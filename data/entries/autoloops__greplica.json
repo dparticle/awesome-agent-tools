@@ -6,34 +6,34 @@
   "url": "https://github.com/Autoloops/greplica",
   "description": "Persistent, searchable engineering memory for AI coding agents. Saves ~50% tokens and ~30% time while planning",
   "homepage": "https://autoloops.ai/greplica",
-  "stars": 442,
+  "stars": 443,
   "forks": 73,
   "open_issues": 50,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-21T17:34:38Z",
-  "updated_at": "2026-11-09T14:52:07Z",
+  "updated_at": "2026-11-16T20:15:46Z",
   "pushed_at": "2026-07-30T06:54:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 178,
-  "days_since_push": 109,
+  "age_days": 179,
+  "days_since_push": 110,
   "health_score": 41,
   "health_components": {
     "popularity": 52.9,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 50.0,
     "accessibility": 63.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.48,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.47,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -124,16 +124,75 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:35+00:00",
+  "fetched_at": "2026-11-17T13:27:37+00:00",
   "categories": [
-    "desktop-ui-2"
+    "failover",
+    "teams-self-hosting"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "autoloops/greplica",
+      "challenger": "tencentcloud/octop",
+      "incumbent_name": "Autoloops/greplica",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "memory-context",
+        "self-hosted",
+        "skills-plugins"
+      ],
+      "star_ratio": 27.449,
+      "momentum_ratio": 179.0,
+      "setup_delta": -5,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "27.45x the stars (12,160 vs 443)",
+        "179.00x the star velocity (35.8/day vs 0.2/day)",
+        "no harder to set up (32 vs 37 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "memory-context",
+          "self-hosted",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 41,
+        "challenger_health": 71,
+        "incumbent_setup_score": 37,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

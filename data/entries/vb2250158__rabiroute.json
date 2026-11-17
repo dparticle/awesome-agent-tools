@@ -4,8 +4,8 @@
   "name": "RabiRoute",
   "owner": "vb2250158",
   "url": "https://github.com/vb2250158/RabiRoute",
-  "description": "Self-hosted message gateway for AI agents: Codex, QQ, WeChat/WeCom, Feishu, smart devices and desktop automation. | AI 消息网关：连接聊天、智能设备与 Agent，支持定时任务和角色上下文。",
-  "homepage": "",
+  "description": "Self-hosted gateway that bridges QQ, WeChat/WeCom and Feishu chat to your existing Codex or agent task — remote control from your phone, schedules and role context. | 自托管 AI 消息网关：把 QQ、微信、飞书接到你已有的 Codex / Agent 任务，支持手机远程、定时任务和角色上下文。",
+  "homepage": "https://vb2250158.github.io/RabiRoute/",
   "stars": 493,
   "forks": 0,
   "open_issues": 0,
@@ -13,69 +13,86 @@
   "license": "MIT",
   "topics": [
     "agent-orchestration",
+    "agent-tools",
     "ai-agents",
-    "chatbot",
-    "chatops",
+    "ai-gateway",
     "codex",
     "deepseek-harness",
-    "desktop-automation",
+    "event-driven",
     "feishu",
-    "home-assistant",
+    "gateway",
+    "mcp",
     "message-routing",
     "napcat",
     "onebot",
+    "plugin-system",
     "qq-bot",
+    "remote-control",
     "self-hosted",
     "typescript",
     "wechat",
-    "wecom",
-    "workflow-automation"
+    "wecom"
   ],
   "created_at": "2026-06-01T09:40:16Z",
-  "updated_at": "2026-11-11T03:01:49Z",
-  "pushed_at": "2026-11-16T12:40:07Z",
+  "updated_at": "2026-11-17T09:44:07Z",
+  "pushed_at": "2026-11-17T12:47:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 168,
+  "age_days": 169,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 56,
   "health_components": {
     "popularity": 53.9,
     "momentum": 0.0,
     "maintenance": 100.0,
-    "documentation": 59.0,
-    "accessibility": 75.0
+    "documentation": 63.0,
+    "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.93,
+    "lifetime_stars_per_day": 2.92,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "vb2250158/RabiRoute",
-    "readme_chars": 10012,
+    "readme_chars": 13477,
     "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "mcp-support",
       "self-hosted",
-      "notifications"
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
     ],
     "capability_evidence": {
+      "remote-control": "",
+      "mobile-access": "",
+      "mcp-support": "### One directory, not a fixed API",
       "self-hosted": "esktop automation to Agents",
-      "notifications": "rity and setup requirements; see integration status."
+      "gui-desktop": "ersonal Weixin is an experimental prototype, and Feishu is implemented but still waiting on real-credential acceptance.",
+      "notifications": "o continue a desktop agent task from your phone or from a chat app",
+      "cross-agent-support": "Mentions Codex, Copilot"
     },
     "capability_hits": {
+      "remote-control": 1,
+      "mobile-access": 1,
+      "mcp-support": 4,
       "self-hosted": 1,
-      "notifications": 1
+      "gui-desktop": 1,
+      "notifications": 1,
+      "cross-agent-support": 2
     },
     "friction": {
-      "level": "low",
-      "score": 25,
+      "level": "turnkey",
+      "score": 18,
       "out_of_the_box": false,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [
         "native installer / package"
       ],
@@ -83,16 +100,18 @@
         "git clone (build from source)"
       ],
       "config_signals": [],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
       "platforms": [
         "Windows",
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via native installer / package; needs git clone (build from source)",
-      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)"
+      "note_en": "Turnkey. install via native installer / package; needs git clone (build from source); GUI application",
+      "note_zh": "开箱即用。可通过 native installer / package 安装；需要 git clone (build from source)；GUI application"
     },
-    "doc_score": 59,
+    "doc_score": 63,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -100,13 +119,15 @@
       "documents installation",
       "documents configuration",
       "has troubleshooting/FAQ",
+      "has contribution guidance",
       "mentions licensing",
       "has a Chinese translation",
       "documents changes",
       "explains architecture"
     ],
     "agents": [
-      "Codex"
+      "Codex",
+      "Copilot"
     ],
     "summary_en": "English | 简体中文 | 日本語",
     "summary_zh": "",
@@ -116,9 +137,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.1
+      "external_link_ratio": 0.074
     },
-    "highlights": [],
+    "highlights": [
+      "keep an always-on box — a Windows desktop, a NAS or a mini PC",
+      "already run Codex, DSH or WorkBuddy on a machine you control"
+    ],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -128,11 +152,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:29+00:00",
+  "fetched_at": "2026-11-17T13:27:34+00:00",
   "categories": [
-    "sharing"
+    "mobile"
   ],
-  "primary_category": "sharing",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

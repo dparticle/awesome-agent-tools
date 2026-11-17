@@ -6,7 +6,7 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 865,
+  "stars": 867,
   "forks": 72,
   "open_issues": 2,
   "language": "Go",
@@ -32,16 +32,16 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-11-15T20:14:58Z",
+  "updated_at": "2026-11-17T11:26:33Z",
   "pushed_at": "2026-11-14T10:03:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 71,
-  "days_since_push": 2,
+  "age_days": 72,
+  "days_since_push": 3,
   "health_score": 54,
   "health_components": {
-    "popularity": 58.7,
+    "popularity": 58.8,
     "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 70.0,
@@ -52,7 +52,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 12.18,
+    "lifetime_stars_per_day": 12.04,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:12+00:00",
+  "fetched_at": "2026-11-17T13:27:22+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -155,18 +155,18 @@
   "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 HKUDS/DeepTutor 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "HKUDS/DeepTutor",
+    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "huytieu/COG-second-brain",
     "challenger": "",
     "supersede": {
       "incumbent": "okf-memory/okf-agent-memory",
-      "challenger": "hkuds/deeptutor",
+      "challenger": "huytieu/cog-second-brain",
       "incumbent_name": "okf-memory/okf-agent-memory",
-      "challenger_name": "HKUDS/DeepTutor",
+      "challenger_name": "huytieu/COG-second-brain",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -175,15 +175,15 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 68.977,
-      "momentum_ratio": 751.5,
-      "setup_delta": 3,
-      "dominance": 0.985,
+      "star_ratio": 1.727,
+      "momentum_ratio": 41.5,
+      "setup_delta": -14,
+      "dominance": 0.874,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "68.98x the stars (59,665 vs 865)",
-        "751.50x the star velocity (300.6/day vs 0.4/day)",
-        "slightly heavier setup (+3 friction, within tolerance)"
+        "1.73x the stars (1,497 vs 867)",
+        "41.50x the star velocity (16.6/day vs 0.4/day)",
+        "no harder to set up (31 vs 45 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -196,26 +196,19 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "model-routing",
-          "multi-account-switching",
           "multi-agent-orchestration",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
+          "team-collaboration"
         ],
         "incumbent_health": 54,
-        "challenger_health": 90,
+        "challenger_health": 59,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 48
+        "challenger_setup_score": 31
       }
     }
   }

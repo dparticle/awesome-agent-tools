@@ -6,9 +6,9 @@
   "url": "https://github.com/makecindy/cindy",
   "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
   "homepage": "https://cindy.app",
-  "stars": 10214,
-  "forks": 1284,
-  "open_issues": 3402,
+  "stars": 10251,
+  "forks": 1291,
+  "open_issues": 3466,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,27 +27,27 @@
     "windows"
   ],
   "created_at": "2026-07-22T17:49:34Z",
-  "updated_at": "2026-11-16T12:44:58Z",
-  "pushed_at": "2026-11-16T12:45:15Z",
+  "updated_at": "2026-11-17T13:11:50Z",
+  "pushed_at": "2026-11-17T13:14:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
+  "age_days": 117,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 68,
   "health_components": {
     "popularity": 80.2,
-    "momentum": 68.0,
+    "momentum": 53.7,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 35.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 408,
+    "stars_gained": 322,
     "days_span": 5,
-    "stars_per_day": 81.6,
-    "lifetime_stars_per_day": 88.05,
+    "stars_per_day": 64.4,
+    "lifetime_stars_per_day": 87.62,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -161,13 +161,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:09+00:00",
+  "fetched_at": "2026-11-17T13:26:29+00:00",
   "categories": [
+    "billing-2",
     "desktop-ui",
-    "mobile",
-    "sharing"
+    "mobile"
   ],
-  "primary_category": "sharing",
+  "primary_category": "billing-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

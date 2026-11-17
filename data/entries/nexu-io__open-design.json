@@ -6,9 +6,9 @@
   "url": "https://github.com/nexu-io/open-design",
   "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
   "homepage": "https://open-design.ai",
-  "stars": 107857,
-  "forks": 12255,
-  "open_issues": 1396,
+  "stars": 108047,
+  "forks": 12268,
+  "open_issues": 1409,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,12 +34,12 @@
     "vibe-coding"
   ],
   "created_at": "2026-04-28T04:25:20Z",
-  "updated_at": "2026-11-16T12:37:03Z",
-  "pushed_at": "2026-11-16T12:26:12Z",
+  "updated_at": "2026-11-17T13:18:19Z",
+  "pushed_at": "2026-11-17T09:41:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 202,
+  "age_days": 203,
   "days_since_push": 0,
   "health_score": 95,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 720,
+    "stars_gained": 733,
     "days_span": 5,
-    "stars_per_day": 144.0,
-    "lifetime_stars_per_day": 533.95,
+    "stars_per_day": 146.6,
+    "lifetime_stars_per_day": 532.25,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -185,13 +185,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:30+00:00",
+  "fetched_at": "2026-11-17T13:26:46+00:00",
   "categories": [
+    "failover",
     "mcp-security",
-    "sessions-memory",
-    "sharing-model-routing"
+    "sharing-2"
   ],
-  "primary_category": "sharing-model-routing",
+  "primary_category": "sharing-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 865 |
+| Stars | 867 |
 | Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 70/100 |
@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-05 |
-| Last push | 2026-11-14 (2 days ago) |
+| Last push | 2026-11-14 (3 days ago) |
 | Analyzed README | 21,110 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** — Superseded by HKUDS/DeepTutor: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -78,7 +78,7 @@ Score **70/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 58.7 |
+| popularity | 58.8 |
 | momentum | 0.3 |
 | maintenance | 100.0 |
 | documentation | 70.0 |

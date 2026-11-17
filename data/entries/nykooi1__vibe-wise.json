@@ -6,34 +6,34 @@
   "url": "https://github.com/nykooi1/vibe-wise",
   "description": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
   "homepage": "",
-  "stars": 4393,
+  "stars": 4404,
   "forks": 175,
   "open_issues": 24,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-09-29T01:29:57Z",
-  "updated_at": "2026-11-16T12:01:57Z",
+  "updated_at": "2026-11-17T08:06:56Z",
   "pushed_at": "2026-10-09T09:37:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 48,
-  "days_since_push": 38,
+  "age_days": 49,
+  "days_since_push": 39,
   "health_score": 54,
   "health_components": {
     "popularity": 72.9,
-    "momentum": 13.7,
+    "momentum": 11.2,
     "maintenance": 78.0,
     "documentation": 35.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 82,
+    "stars_gained": 67,
     "days_span": 5,
-    "stars_per_day": 16.4,
-    "lifetime_stars_per_day": 91.52,
+    "stars_per_day": 13.4,
+    "lifetime_stars_per_day": 89.88,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -103,11 +103,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:21+00:00",
+  "fetched_at": "2026-11-17T13:26:38+00:00",
   "categories": [
-    "isolation-teams"
+    "desktop-ui-2"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

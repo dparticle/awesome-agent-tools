@@ -7,8 +7,8 @@
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
   "stars": 1288,
-  "forks": 200,
-  "open_issues": 18,
+  "forks": 201,
+  "open_issues": 16,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -28,20 +28,20 @@
     "web-search"
   ],
   "created_at": "2023-12-18T02:02:46Z",
-  "updated_at": "2026-11-11T12:47:42Z",
-  "pushed_at": "2026-11-11T11:47:36Z",
+  "updated_at": "2026-11-17T00:00:51Z",
+  "pushed_at": "2026-11-17T07:41:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1064,
-  "days_since_push": 5,
-  "health_score": 51,
+  "age_days": 1065,
+  "days_since_push": 0,
+  "health_score": 53,
   "health_components": {
     "popularity": 62.2,
     "momentum": 0.0,
     "maintenance": 100.0,
-    "documentation": 64.0,
-    "accessibility": 27.0
+    "documentation": 72.0,
+    "accessibility": 34.0
   },
   "tier": "notable",
   "momentum": {
@@ -54,7 +54,7 @@
   },
   "analysis": {
     "full_name": "fatwang2/search2ai",
-    "readme_chars": 26706,
+    "readme_chars": 27287,
     "capabilities": [
       "parallel-execution",
       "model-routing",
@@ -78,7 +78,7 @@
     },
     "friction": {
       "level": "high",
-      "score": 73,
+      "score": 66,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -96,17 +96,20 @@
         "database migration",
         "server/reverse-proxy setup"
       ],
-      "friendliness_signals": [],
+      "friendliness_signals": [
+        "one-click setup"
+      ],
       "platforms": [
         "Linux",
         "Web"
       ],
-      "note_en": "Involved setup. install via npx one-liner; needs docker run, git clone (build from source); configure environment variables, API key configuration",
-      "note_zh": "配置较重。可通过 npx one-liner 安装；需要 docker run、git clone (build from source)；需配置 environment variables、API key configuration"
+      "note_en": "Involved setup. install via npx one-liner; needs docker run, git clone (build from source); configure environment variables, API key configuration; one-click setup",
+      "note_zh": "配置较重。可通过 npx one-liner 安装；需要 docker run、git clone (build from source)；需配置 environment variables、API key configuration；one-click setup"
     },
-    "doc_score": 64,
+    "doc_score": 72,
     "doc_signals": [
       "contains code blocks",
+      "contains screenshots/diagrams",
       "has section headings",
       "has a quick-start section",
       "documents installation",
@@ -129,10 +132,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.225
+      "external_link_ratio": 0.257
     },
     "highlights": [
-      "Google returns at most 10 results per query; the current Brave, Tavily and Outcrawl adapters cap results at 20, the cloro adapter at 20 (two pages), or 10 (one page) when a time filter is s…",
+      "Google returns at most 10 results per query; the current Brave, Tavily, Outcrawl and Sofya adapters cap results at 20, the cloro adapter at 20 (two pages), or 10 (one page) when a time filt…",
       "Client API compatibility: v0.3.1 includes the first SearXNG, Exa, Tavily, Search1API and Firecrawl single-page adapters.",
       "Existing API clients: supported Exa, Tavily, Search1API, SearXNG and Firecrawl single-page calls can use dedicated HTTP API / SDK compatibility endpoints.",
       "API Base URL to http://localhost:3014/v1, or your deployment URL plus /v1."
@@ -146,77 +149,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:04+00:00",
+  "fetched_at": "2026-11-17T13:27:16+00:00",
   "categories": [
-    "mcp-security",
-    "sharing",
-    "sharing-model-routing"
+    "mcp-security"
   ],
-  "primary_category": "sharing",
+  "primary_category": "mcp-security",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by affaan-m/ECC: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 affaan-m/ECC 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "affaan-m/ECC",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "fatwang2/search2ai",
-      "challenger": "affaan-m/ecc",
-      "incumbent_name": "fatwang2/search2ai",
-      "challenger_name": "affaan-m/ECC",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "api-gateway",
-        "mcp-support",
-        "model-routing",
-        "parallel-execution",
-        "self-hosted"
-      ],
-      "star_ratio": 236.158,
-      "momentum_ratio": 12564.0,
-      "setup_delta": -16,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "236.16x the stars (304,171 vs 1,288)",
-        "12564.00x the star velocity (628.2/day vs 0.0/day)",
-        "no harder to set up (57 vs 73 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "api-gateway",
-          "mcp-support",
-          "model-routing",
-          "parallel-execution",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 51,
-        "challenger_health": 89,
-        "incumbent_setup_score": 73,
-        "challenger_setup_score": 57
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

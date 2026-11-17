@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,813 |
-| Star velocity | 126.4/day (history basis, 5d span) |
+| Stars | 8,935 |
+| Star velocity | 119.6/day (history basis, 5d span) |
 | Health score | 81/100 |
 | Documentation | 33/100 |
 | Tier | 🏆 Flagship |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Kotlin |
 | Created | 2026-10-29 |
-| Last push | 2026-11-16 (0 days ago) |
+| Last push | 2026-11-17 (0 days ago) |
 | Analyzed README | 13,944 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -65,8 +65,8 @@ Score **33/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.9 |
-| momentum | 100.0 |
+| popularity | 79.0 |
+| momentum | 99.7 |
 | maintenance | 100.0 |
 | documentation | 33.0 |
 | accessibility | 80.0 |

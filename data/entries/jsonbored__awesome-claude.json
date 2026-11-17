@@ -7,8 +7,8 @@
   "description": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
   "homepage": "https://heyclau.de",
   "stars": 310,
-  "forks": 189,
-  "open_issues": 79,
+  "forks": 191,
+  "open_issues": 80,
   "language": "MDX",
   "license": "MIT",
   "topics": [
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 427,
-  "days_since_push": 13,
+  "age_days": 428,
+  "days_since_push": 14,
   "health_score": 52,
   "health_components": {
     "popularity": 49.8,
@@ -54,7 +54,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 0.73,
+    "lifetime_stars_per_day": 0.72,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -240,13 +240,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:51+00:00",
+  "fetched_at": "2026-11-17T13:27:50+00:00",
   "categories": [
     "isolation-teams",
     "mobile",
-    "sharing"
+    "teams-self-hosting"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

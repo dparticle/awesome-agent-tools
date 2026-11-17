@@ -6,9 +6,9 @@
   "url": "https://github.com/davepoon/buildwithclaude",
   "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
   "homepage": "https://www.buildwithclaude.com",
-  "stars": 3752,
-  "forks": 737,
-  "open_issues": 31,
+  "stars": 3755,
+  "forks": 745,
+  "open_issues": 23,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -26,27 +26,27 @@
     "subagents"
   ],
   "created_at": "2025-07-25T02:26:45Z",
-  "updated_at": "2026-11-15T21:52:01Z",
-  "pushed_at": "2026-11-16T03:44:41Z",
+  "updated_at": "2026-11-17T12:23:08Z",
+  "pushed_at": "2026-11-17T13:05:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 479,
+  "age_days": 480,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 71.5,
-    "momentum": 2.0,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 50.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 7.83,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 7.82,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,13 +136,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:50+00:00",
+  "fetched_at": "2026-11-17T13:27:03+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "skills"
+    "desktop-ui-2"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
@@ -165,15 +164,15 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 13.269,
-      "momentum_ratio": 21.917,
-      "setup_delta": -11,
+      "star_ratio": 13.278,
+      "momentum_ratio": 18.133,
+      "setup_delta": -18,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.27x the stars (49,786 vs 3,752)",
-        "21.92x the star velocity (52.6/day vs 2.4/day)",
-        "no harder to set up (39 vs 50 friction)"
+        "13.28x the stars (49,860 vs 3,755)",
+        "18.13x the star velocity (54.4/day vs 3.0/day)",
+        "no harder to set up (32 vs 50 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -201,9 +200,9 @@
           "usage-analytics"
         ],
         "incumbent_health": 57,
-        "challenger_health": 77,
+        "challenger_health": 78,
         "incumbent_setup_score": 50,
-        "challenger_setup_score": 39
+        "challenger_setup_score": 32
       }
     }
   }

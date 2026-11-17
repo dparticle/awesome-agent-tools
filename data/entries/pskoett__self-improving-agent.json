@@ -7,7 +7,7 @@
   "description": "Self-improvement skill for OpenClaw. It captures learnings, errors, and feature requests to support continuous improvement across sessions. It is a agent knowledge skill made for the skill marketplace",
   "homepage": "https://clawhub.ai/pskoett/skills/self-improving-agent",
   "stars": 792,
-  "forks": 116,
+  "forks": 117,
   "open_issues": 1,
   "language": "JavaScript",
   "license": "",
@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 289,
-  "days_since_push": 25,
+  "age_days": 290,
+  "days_since_push": 26,
   "health_score": 47,
   "health_components": {
     "popularity": 58.0,
@@ -41,7 +41,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 2.74,
+    "lifetime_stars_per_day": 2.73,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -114,12 +114,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:13+00:00",
+  "fetched_at": "2026-11-17T13:27:23+00:00",
   "categories": [
-    "desktop-ui-2",
-    "skills"
+    "desktop-ui-2"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

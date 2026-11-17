@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1890,
-  "days_since_push": 14,
+  "age_days": 1892,
+  "days_since_push": 15,
   "health_score": 47,
   "health_components": {
     "popularity": 50.2,
@@ -148,11 +148,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:48+00:00",
+  "fetched_at": "2026-11-17T13:27:47+00:00",
   "categories": [
-    "isolation-teams"
+    "isolation-teams",
+    "parallelism",
+    "teams-self-hosting"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

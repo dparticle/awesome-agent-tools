@@ -6,7 +6,7 @@
   "url": "https://github.com/Arvincreator/project-golem",
   "description": "OS-level autonomous AI agent with long-term memory, multi-agent coordination, Titan Chronos scheduler & Moltbot Social Core",
   "homepage": "",
-  "stars": 642,
+  "stars": 643,
   "forks": 103,
   "open_issues": 6,
   "language": "JavaScript",
@@ -24,26 +24,26 @@
     "telegram-bot-ai-assistant"
   ],
   "created_at": "2026-01-30T10:33:16Z",
-  "updated_at": "2026-11-09T22:21:19Z",
+  "updated_at": "2026-11-16T13:37:09Z",
   "pushed_at": "2026-06-22T05:35:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 290,
-  "days_since_push": 147,
+  "age_days": 291,
+  "days_since_push": 148,
   "health_score": 38,
   "health_components": {
     "popularity": 56.2,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 30.0,
     "accessibility": 55.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 2.21,
     "basis": "history",
     "is_fast_riser": false
@@ -119,11 +119,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:19+00:00",
+  "fetched_at": "2026-11-17T13:27:27+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "skills"
+    "desktop-ui-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

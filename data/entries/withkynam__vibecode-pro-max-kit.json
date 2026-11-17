@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 173,
-  "days_since_push": 148,
+  "age_days": 174,
+  "days_since_push": 149,
   "health_score": 48,
   "health_components": {
     "popularity": 61.4,
-    "momentum": 0.3,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 60.0,
     "accessibility": 81.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 6.77,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 6.74,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -177,13 +177,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:05+00:00",
+  "fetched_at": "2026-11-17T13:27:17+00:00",
   "categories": [
-    "billing-2",
-    "isolation-teams",
-    "skills"
+    "failover",
+    "parallelism",
+    "teams-self-hosting"
   ],
-  "primary_category": "billing-2",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

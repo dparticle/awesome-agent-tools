@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,140 |
-| Star velocity | 66.8/day (history basis, 5d span) |
+| Stars | 8,209 |
+| Star velocity | 66.4/day (history basis, 5d span) |
 | Health score | 76/100 |
 | Documentation | 72/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,14 @@
 | License | NOASSERTION |
 | Language | Python |
 | Created | 2026-07-15 |
-| Last push | 2026-11-16 (0 days ago) |
-| Analyzed README | 33,683 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 34,789 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> secrets won't survive a restart)
+> reads credentials has TREGKMSKEYID
 
 ### Model / provider routing
 
@@ -92,8 +92,8 @@ Score **72/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.2 |
-| momentum | 55.7 |
+| popularity | 78.3 |
+| momentum | 55.3 |
 | maintenance | 100.0 |
 | documentation | 72.0 |
 | accessibility | 79.0 |

@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "full_name": "johannesjo/parallel-code",
+  "name": "parallel-code",
+  "owner": "johannesjo",
+  "url": "https://github.com/johannesjo/parallel-code",
+  "description": "Run Claude Code, Codex, Copilot and other agent CLIs in parallel worktrees, then check what each one did before you merge.",
+  "homepage": "https://parallelcode.app",
+  "stars": 1094,
+  "forks": 151,
+  "open_issues": 68,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "ai-coding",
+    "ai-tools",
+    "claude-code",
+    "codex-cli",
+    "coding-agent",
+    "developer-tools",
+    "gemini-cli",
+    "git-worktree",
+    "terminal"
+  ],
+  "created_at": "2026-02-18T09:53:27Z",
+  "updated_at": "2026-11-17T11:53:41Z",
+  "pushed_at": "2026-11-16T09:09:27Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 272,
+  "days_since_push": 1,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 60.8,
+    "momentum": 3.4,
+    "maintenance": 100.0,
+    "documentation": 57.0,
+    "accessibility": 75.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1094,
+    "days_span": 272,
+    "stars_per_day": 4.02,
+    "lifetime_stars_per_day": 4.02,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "johannesjo/parallel-code",
+    "readme_chars": 9031,
+    "capabilities": [
+      "remote-control",
+      "mobile-access",
+      "parallel-execution",
+      "worktree-isolation",
+      "agent-runtime",
+      "gui-desktop",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "remote-control": "",
+      "mobile-access": "our local app, per-project Docker sandboxes (not for Antigravity), direct mode without a worktree, folders without git, and importing existing worktrees",
+      "parallel-execution": "",
+      "worktree-isolation": "n parallel, each in its own worktree.",
+      "agent-runtime": "l, or read the shortcut list.",
+      "gui-desktop": "s that keep working in the cloud while your laptop is off.",
+      "notifications": "r-project Docker sandboxes (not for Antigravity), direct mode without a worktree, folders without git, and importing existing worktrees",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, OpenCode"
+    },
+    "capability_hits": {
+      "remote-control": 1,
+      "mobile-access": 1,
+      "parallel-execution": 1,
+      "worktree-isolation": 5,
+      "agent-runtime": 2,
+      "gui-desktop": 4,
+      "notifications": 2,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "low",
+      "score": 33,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Easy. install via native installer / package; needs git clone (build from source), npm install/build; configure sign-in required; GUI application",
+      "note_zh": "较易上手。可通过 native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 sign-in required；GUI application"
+    },
+    "doc_score": 57,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Copilot"
+    ],
+    "summary_en": "Dispatch AI coding agents in parallel, each in its own worktree.",
+    "summary_zh": "",
+    "install_hint": "npm install",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.218
+    },
+    "highlights": [
+      "Mix the agents you already use — Claude Code, Codex CLI, OpenCode, Copilot CLI, Antigravity CLI, or any other terminal agent, side by side on one board.",
+      "Customization — Focus, Tiles and Board layouts, configurable shortcuts, custom agents, and 10 themes",
+      "Running code — shell terminals per task, a browser preview of your local app, per-project Docker sandboxes (not for Antigravity), direct mode without a worktree, folders without git, and im…",
+      "Phone — a phone UI in any mobile browser, an Android app, and notifications when a task needs you."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-17T13:27:18+00:00",
+  "categories": [
+    "desktop-ui",
+    "isolation-teams",
+    "mobile"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

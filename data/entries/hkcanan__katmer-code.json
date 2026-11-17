@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 239,
-  "days_since_push": 62,
+  "age_days": 240,
+  "days_since_push": 63,
   "health_score": 46,
   "health_components": {
     "popularity": 53.6,
@@ -44,7 +44,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.0,
+    "lifetime_stars_per_day": 1.99,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,12 +150,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:47:31+00:00",
+  "fetched_at": "2026-11-17T13:27:35+00:00",
   "categories": [
-    "mcp-security",
-    "skills"
+    "desktop-ui-2",
+    "parallelism"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

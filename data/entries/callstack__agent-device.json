@@ -6,9 +6,9 @@
   "url": "https://github.com/callstack/agent-device",
   "description": "Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.",
   "homepage": "https://agent-device.dev",
-  "stars": 5412,
-  "forks": 407,
-  "open_issues": 137,
+  "stars": 5421,
+  "forks": 409,
+  "open_issues": 148,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -31,33 +31,33 @@
     "xcuitest"
   ],
   "created_at": "2026-01-30T18:41:54Z",
-  "updated_at": "2026-11-16T11:15:39Z",
-  "pushed_at": "2026-11-16T12:43:46Z",
+  "updated_at": "2026-11-17T13:15:27Z",
+  "pushed_at": "2026-11-17T13:24:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 289,
+  "age_days": 290,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 65,
   "health_components": {
     "popularity": 74.7,
-    "momentum": 14.0,
+    "momentum": 12.8,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 84,
+    "stars_gained": 77,
     "days_span": 5,
-    "stars_per_day": 16.8,
-    "lifetime_stars_per_day": 18.73,
+    "stars_per_day": 15.4,
+    "lifetime_stars_per_day": 18.69,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "callstack/agent-device",
-    "readme_chars": 14377,
+    "readme_chars": 14236,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -145,7 +145,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.921
+      "external_link_ratio": 2.95
     },
     "highlights": [
       "\"Implement the onboarding screen, run it on the iOS simulator and Android emulator, and attach screenshots.\"",
@@ -160,7 +160,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:46+00:00",
+  "fetched_at": "2026-11-17T13:27:01+00:00",
   "categories": [
     "desktop-ui",
     "isolation-teams",
@@ -193,14 +193,14 @@
         "remote-control",
         "worktree-isolation"
       ],
-      "star_ratio": 4.465,
-      "momentum_ratio": 4.536,
+      "star_ratio": 4.47,
+      "momentum_ratio": 4.597,
       "setup_delta": 6,
-      "dominance": 0.958,
+      "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "4.46x the stars (24,164 vs 5,412)",
-        "4.54x the star velocity (76.2/day vs 16.8/day)",
+        "4.47x the stars (24,233 vs 5,421)",
+        "4.60x the star velocity (70.8/day vs 15.4/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -230,8 +230,8 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 66,
-        "challenger_health": 78,
+        "incumbent_health": 65,
+        "challenger_health": 77,
         "incumbent_setup_score": 18,
         "challenger_setup_score": 24
       }

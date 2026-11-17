@@ -21,13 +21,13 @@
     "xai"
   ],
   "created_at": "2025-07-14T07:57:39Z",
-  "updated_at": "2026-11-16T11:21:46Z",
+  "updated_at": "2026-11-16T18:42:57Z",
   "pushed_at": "2026-07-06T14:05:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 490,
-  "days_since_push": 132,
+  "age_days": 491,
+  "days_since_push": 133,
   "health_score": 51,
   "health_components": {
     "popularity": 70.9,
@@ -41,7 +41,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 7.17,
+    "lifetime_stars_per_day": 7.15,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,11 +144,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:50+00:00",
+  "fetched_at": "2026-11-17T13:27:04+00:00",
   "categories": [
-    "desktop-ui-2",
+    "failover",
     "mobile",
-    "sessions-memory"
+    "sharing"
   ],
   "primary_category": "mobile",
   "lifecycle": {

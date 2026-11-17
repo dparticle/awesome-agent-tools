@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 23,934 |
-| Star velocity | 588.6/day (history basis, 5d span) |
+| Stars | 24,573 |
+| Star velocity | 607.0/day (history basis, 5d span) |
 | Health score | 88/100 |
 | Documentation | 71/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-08-11 |
-| Last push | 2026-11-16 (0 days ago) |
-| Analyzed README | 34,343 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 34,041 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -47,8 +47,6 @@
 > d model-call implications, see Feature switches.
 
 ### Skills & plugins
-
-> skills switched off and routines paused.
 
 ### MCP support
 
@@ -111,7 +109,7 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 87.6 |
+| popularity | 87.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 71.0 |

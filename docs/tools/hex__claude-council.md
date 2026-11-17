@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 942 |
+| Stars | 945 |
 | Star velocity | 2.6/day (history basis, 5d span) |
 | Health score | 51/100 |
-| Documentation | 48/100 |
+| Documentation | 51/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Shell |
 | Created | 2025-12-17 |
-| Last push | 2026-11-08 (7 days ago) |
-| Analyzed README | 12,614 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** — Superseded by HKUDS/DeepTutor: covers 100% of capabilities (7/7).
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 20,334 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,9 +40,15 @@
 
 ### Agent runtime
 
+> , xAI, Perplexity, Kimi, OpenRouter.
+
 ### MCP support
 
 > del and effort, a link to your auth.json so a token
+
+### GUI / desktop app
+
+> place of one your shell exports.
 
 ### Cross-agent support
 
@@ -52,17 +56,17 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 48/100)
+- **Difficulty:** 🟡 Some setup (friction score 53/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Configuration required:** config.json/yaml/toml, sign-in required, database dependency
+**Configuration required:** environment variables, API key configuration, config.json/yaml/toml, sign-in required, database dependency
 
-*Some setup. configure config.json/yaml/toml, sign-in required*
+*Some setup. configure environment variables, API key configuration; GUI application*
 
 ## Documentation quality
 
-Score **48/100**, based on these detected signals:
+Score **51/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -71,6 +75,7 @@ Score **48/100**, based on these detected signals:
 - documents configuration
 - has troubleshooting/FAQ
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
@@ -79,8 +84,8 @@ Score **48/100**, based on these detected signals:
 | popularity | 59.5 |
 | momentum | 2.2 |
 | maintenance | 100.0 |
-| documentation | 48.0 |
-| accessibility | 52.0 |
+| documentation | 51.0 |
+| accessibility | 47.0 |
 
 ---
 

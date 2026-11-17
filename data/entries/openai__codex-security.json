@@ -6,9 +6,9 @@
   "url": "https://github.com/openai/codex-security",
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "homepage": "https://developers.openai.com/codex/security",
-  "stars": 13668,
-  "forks": 1068,
-  "open_issues": 192,
+  "stars": 13878,
+  "forks": 1088,
+  "open_issues": 180,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "vulnerability-scanning"
   ],
   "created_at": "2026-07-13T22:00:13Z",
-  "updated_at": "2026-11-16T12:44:37Z",
-  "pushed_at": "2026-11-16T11:02:06Z",
+  "updated_at": "2026-11-17T13:16:41Z",
+  "pushed_at": "2026-11-17T09:18:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 125,
+  "age_days": 126,
   "days_since_push": 0,
   "health_score": 81,
   "health_components": {
-    "popularity": 82.7,
+    "popularity": 82.8,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 41.0,
+    "documentation": 42.0,
     "accessibility": 63.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2270,
+    "stars_gained": 1792,
     "days_span": 5,
-    "stars_per_day": 454.0,
-    "lifetime_stars_per_day": 109.34,
+    "stars_per_day": 358.4,
+    "lifetime_stars_per_day": 110.14,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openai/codex-security",
-    "readme_chars": 9871,
+    "readme_chars": 10274,
     "capabilities": [
       "worktree-isolation",
       "model-routing"
@@ -91,7 +91,7 @@
       "note_en": "Some setup. install via npx one-liner; needs npm install/build; configure API key configuration, sign-in required",
       "note_zh": "需要一些配置。可通过 npx one-liner 安装；需要 npm install/build；需配置 API key configuration、sign-in required"
     },
-    "doc_score": 41,
+    "doc_score": 42,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -113,7 +113,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.203
+      "external_link_ratio": 0.292
     },
     "highlights": [
       "Track findings in Linear, Jira, or GitHub, publish completed scans, or export SARIF, JSON, and CSV.",
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:07+00:00",
+  "fetched_at": "2026-11-17T13:26:27+00:00",
   "categories": [
     "isolation-teams"
   ],

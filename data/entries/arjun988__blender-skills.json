@@ -6,9 +6,9 @@
   "url": "https://github.com/arjun988/blender-skills",
   "description": "94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.",
   "homepage": "https://blender-skills.vercel.app",
-  "stars": 3839,
-  "forks": 342,
-  "open_issues": 7,
+  "stars": 4046,
+  "forks": 359,
+  "open_issues": 5,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -25,27 +25,27 @@
     "mcp"
   ],
   "created_at": "2026-07-05T08:36:06Z",
-  "updated_at": "2026-11-16T12:45:15Z",
+  "updated_at": "2026-11-17T13:25:10Z",
   "pushed_at": "2026-11-06T08:42:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 134,
-  "days_since_push": 10,
+  "age_days": 135,
+  "days_since_push": 11,
   "health_score": 60,
   "health_components": {
-    "popularity": 71.7,
-    "momentum": 23.9,
+    "popularity": 72.1,
+    "momentum": 25.0,
     "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3839,
-    "days_span": 134,
-    "stars_per_day": 28.65,
-    "lifetime_stars_per_day": 28.65,
+    "stars_gained": 4046,
+    "days_span": 135,
+    "stars_per_day": 29.97,
+    "lifetime_stars_per_day": 29.97,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -127,12 +127,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:23+00:00",
+  "fetched_at": "2026-11-17T13:26:39+00:00",
   "categories": [
-    "desktop-ui-2",
-    "skills"
+    "desktop-ui-2"
   ],
-  "primary_category": "skills",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
@@ -154,15 +153,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 12.968,
-      "momentum_ratio": 1.836,
-      "setup_delta": -12,
-      "dominance": 0.875,
+      "star_ratio": 12.323,
+      "momentum_ratio": 1.815,
+      "setup_delta": -19,
+      "dominance": 0.874,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "12.97x the stars (49,786 vs 3,839)",
-        "1.84x the star velocity (52.6/day vs 28.6/day)",
-        "no harder to set up (39 vs 51 friction)"
+        "12.32x the stars (49,860 vs 4,046)",
+        "1.82x the star velocity (54.4/day vs 30.0/day)",
+        "no harder to set up (32 vs 51 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -189,9 +188,9 @@
           "usage-analytics"
         ],
         "incumbent_health": 60,
-        "challenger_health": 77,
+        "challenger_health": 78,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 39
+        "challenger_setup_score": 32
       }
     }
   }

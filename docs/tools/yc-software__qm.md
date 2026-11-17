@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,713 |
-| Star velocity | 6.0/day (history basis, 5d span) |
+| Stars | 15,723 |
+| Star velocity | 6.4/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 54/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-29 |
-| Last push | 2026-11-15 (0 days ago) |
-| Analyzed README | 13,568 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 13,676 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -39,6 +37,8 @@
 > e with an explicit surface command.
 
 ### Skills & plugins
+
+> Create an organization-owned deployment repository that depends on @yc-software/qm: Render also needs --repo and --branch; see docs/getting-started.md. Initialization materializes a deployment skill for an agent and wal…
 
 ### Agent runtime
 
@@ -94,7 +94,7 @@ Score **54/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.9 |
-| momentum | 5.0 |
+| momentum | 5.3 |
 | maintenance | 100.0 |
 | documentation | 54.0 |
 | accessibility | 28.0 |

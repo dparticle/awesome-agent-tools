@@ -6,9 +6,9 @@
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
   "homepage": "https://www.agent-memory.dev/docs",
-  "stars": 30401,
-  "forks": 2705,
-  "open_issues": 460,
+  "stars": 30422,
+  "forks": 2710,
+  "open_issues": 465,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -30,33 +30,33 @@
     "pi"
   ],
   "created_at": "2026-02-25T07:32:52Z",
-  "updated_at": "2026-11-16T12:15:34Z",
-  "pushed_at": "2026-11-16T11:49:23Z",
+  "updated_at": "2026-11-17T12:12:53Z",
+  "pushed_at": "2026-11-17T06:01:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 264,
+  "age_days": 265,
   "days_since_push": 0,
-  "health_score": 70,
+  "health_score": 69,
   "health_components": {
     "popularity": 89.7,
-    "momentum": 19.2,
+    "momentum": 17.7,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 115,
+    "stars_gained": 106,
     "days_span": 5,
-    "stars_per_day": 23.0,
-    "lifetime_stars_per_day": 115.16,
+    "stars_per_day": 21.2,
+    "lifetime_stars_per_day": 114.8,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "rohitg00/agentmemory",
-    "readme_chars": 94821,
+    "readme_chars": 96116,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -187,7 +187,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.19
+      "external_link_ratio": 0.187
     },
     "highlights": [
       "Large stores keep working: state reads page, so scopes above 64 MiB no longer fail, on iii 0.25.1.",
@@ -202,13 +202,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:41+00:00",
+  "fetched_at": "2026-11-17T13:26:56+00:00",
   "categories": [
     "mcp-security",
     "sessions-memory",
-    "sharing"
+    "teams-self-hosting"
   ],
-  "primary_category": "sharing",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

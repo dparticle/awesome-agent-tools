@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,521 |
-| Star velocity | 9.8/day (history basis, 5d span) |
+| Stars | 1,524 |
+| Star velocity | 9.2/day (history basis, 5d span) |
 | Health score | 53/100 |
 | Documentation | 39/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | not declared |
 | Language | Python |
 | Created | 2026-03-05 |
-| Last push | 2026-11-05 (10 days ago) |
+| Last push | 2026-11-05 (11 days ago) |
 | Analyzed README | 8,490 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
+> ⚠️ **Superseded by [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)** — Superseded by JetBrains/thinkrail: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -72,8 +72,8 @@ Score **39/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 63.6 |
-| momentum | 8.2 |
+| popularity | 63.7 |
+| momentum | 7.7 |
 | maintenance | 92.0 |
 | documentation | 39.0 |
 | accessibility | 75.0 |

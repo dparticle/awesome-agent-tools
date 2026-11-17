@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,463 |
-| Star velocity | 29.8/day (history basis, 5d span) |
-| Health score | 66/100 |
-| Documentation | 55/100 |
+| Stars | 10,499 |
+| Star velocity | 31.0/day (history basis, 5d span) |
+| Health score | 67/100 |
+| Documentation | 60/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-22 |
-| Last push | 2026-11-16 (0 days ago) |
-| Analyzed README | 36,295 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [farion1231/cc-switch](https://github.com/farion1231/cc-switch)** — Superseded by farion1231/cc-switch: covers 100% of capabilities (5/5).
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 37,925 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +34,7 @@
 
 ### MCP support
 
-> k Harness are also supported as skill targets (bsk install-skill --harness qoder, --harness qoder-cn, and --harness dsh).
+> a lightweight plugin (@wxg-prc-cpg/browser-skill-dsh-plugin) with bundled skill registration and on-demand bsk CLI setup.
 
 ### GUI / desktop app
 
@@ -63,12 +61,13 @@
 
 ## Documentation quality
 
-Score **55/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - has a quick-start section
 - documents installation
+- documents configuration
 - has contribution guidance
 - mentions licensing
 - documents changes
@@ -80,9 +79,9 @@ Score **55/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.4 |
-| momentum | 24.8 |
+| momentum | 25.8 |
 | maintenance | 100.0 |
-| documentation | 55.0 |
+| documentation | 60.0 |
 | accessibility | 72.0 |
 
 ---

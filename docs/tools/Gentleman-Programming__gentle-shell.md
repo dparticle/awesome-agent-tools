@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,686 |
-| Star velocity | 90.4/day (history basis, 5d span) |
+| Stars | 2,737 |
+| Star velocity | 88.2/day (history basis, 5d span) |
 | Health score | 77/100 |
-| Documentation | 62/100 |
+| Documentation | 67/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-10 |
-| Last push | 2026-11-16 (0 days ago) |
-| Analyzed README | 62,194 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 67,544 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,11 +36,11 @@
 
 ### Multi-agent orchestration
 
-> Understanding that outgrows one inline batch (about 3 calls and 10k tokens) gets one read-only explorer; two or more independent units of behavior, each big enough to outweigh a subagent's start-up and with disjoint edi…
+> ### gentle-shell — Your coding agent, in the workspace you lead
 
 ### Parallel execution
 
-> creen two-pane viewer with per-file line counts and lazy diffs, F hides the file list to read the diff at full width, and o drops the real file into your editor.
+> a floor's permissions applies at once; raising them asks for confirmation in that session's terminal.
 
 ### Workspace isolation
 
@@ -95,13 +95,14 @@
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **67/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - has a quick-start section
 - documents installation
 - documents configuration
+- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - publishes a roadmap
@@ -113,10 +114,10 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 68.6 |
-| momentum | 75.3 |
+| popularity | 68.7 |
+| momentum | 73.5 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
+| documentation | 67.0 |
 | accessibility | 78.0 |
 
 ---

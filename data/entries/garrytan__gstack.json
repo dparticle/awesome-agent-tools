@@ -6,40 +6,40 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 141760,
-  "forks": 20933,
-  "open_issues": 113,
+  "stars": 141870,
+  "forks": 20951,
+  "open_issues": 118,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-16T12:39:49Z",
-  "pushed_at": "2026-11-16T08:52:10Z",
+  "updated_at": "2026-11-17T13:05:44Z",
+  "pushed_at": "2026-11-17T13:22:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 249,
+  "age_days": 250,
   "days_since_push": 0,
-  "health_score": 90,
+  "health_score": 88,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 97.7,
+    "momentum": 89.3,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 61.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 586,
+    "stars_gained": 536,
     "days_span": 5,
-    "stars_per_day": 117.2,
-    "lifetime_stars_per_day": 569.32,
+    "stars_per_day": 107.2,
+    "lifetime_stars_per_day": 567.48,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 41339,
+    "readme_chars": 41438,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.339
+      "external_link_ratio": 0.338
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -153,13 +153,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:28+00:00",
+  "fetched_at": "2026-11-17T13:26:45+00:00",
   "categories": [
-    "desktop-ui-2",
-    "isolation-teams",
-    "skills"
+    "failover",
+    "failover-2",
+    "mobile"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

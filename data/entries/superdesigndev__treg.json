@@ -6,9 +6,9 @@
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
   "homepage": "https://treg.to",
-  "stars": 8140,
-  "forks": 768,
-  "open_issues": 331,
+  "stars": 8209,
+  "forks": 785,
+  "open_issues": 339,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -25,33 +25,33 @@
     "secrets"
   ],
   "created_at": "2026-07-15T13:38:07Z",
-  "updated_at": "2026-11-16T12:20:38Z",
-  "pushed_at": "2026-11-16T12:40:22Z",
+  "updated_at": "2026-11-17T12:59:21Z",
+  "pushed_at": "2026-11-17T13:24:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 123,
+  "age_days": 124,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
-    "popularity": 78.2,
-    "momentum": 55.7,
+    "popularity": 78.3,
+    "momentum": 55.3,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 334,
+    "stars_gained": 332,
     "days_span": 5,
-    "stars_per_day": 66.8,
-    "lifetime_stars_per_day": 66.18,
+    "stars_per_day": 66.4,
+    "lifetime_stars_per_day": 66.2,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "superdesigndev/treg",
-    "readme_chars": 33683,
+    "readme_chars": 34789,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -63,7 +63,7 @@
       "notifications"
     ],
     "capability_evidence": {
-      "auto-failover": "secrets won't survive a restart)",
+      "auto-failover": "reads credentials has TREGKMSKEYID",
       "model-routing": "# Treg (OpenRouter for Tools)",
       "billing-metering": "e code to third parties as a competing hosted/managed registry service without written",
       "skills-plugins": "e treg skill and treg's tools with no token and no configuration.",
@@ -74,7 +74,7 @@
     },
     "capability_hits": {
       "auto-failover": 1,
-      "model-routing": 3,
+      "model-routing": 5,
       "billing-metering": 1,
       "skills-plugins": 3,
       "mcp-support": 5,
@@ -140,7 +140,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.356
+      "external_link_ratio": 0.345
     },
     "highlights": [
       "The API — everything the CLI does is plain HTTP; interactive OpenAPI docs live at /docs.",
@@ -156,13 +156,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-16T12:46:12+00:00",
+  "fetched_at": "2026-11-17T13:26:32+00:00",
   "categories": [
-    "billing-2",
-    "failover",
-    "sharing"
+    "failover-2",
+    "mcp-security",
+    "teams-self-hosting"
   ],
-  "primary_category": "sharing",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 376 |
-| Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 52/100 |
+| Stars | 401 |
+| Star velocity | 5.2/day (history basis, 5d span) |
+| Health score | 53/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Elixir |
 | Created | 2026-05-19 |
-| Last push | 2026-11-13 (3 days ago) |
+| Last push | 2026-11-13 (4 days ago) |
 | Analyzed README | 10,701 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -71,8 +71,8 @@ Score **53/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 51.5 |
-| momentum | 0.2 |
+| popularity | 52.1 |
+| momentum | 4.3 |
 | maintenance | 100.0 |
 | documentation | 53.0 |
 | accessibility | 75.0 |
