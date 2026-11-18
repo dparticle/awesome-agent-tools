@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,411 |
-| Star velocity | 78.8/day (history basis, 5d span) |
-| Health score | 78/100 |
+| Stars | 9,472 |
+| Star velocity | 76.8/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 49/100 |
-| Tier | 🏆 Flagship |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-08-07 |
-| Last push | 2026-11-17 (0 days ago) |
-| Analyzed README | 13,798 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 14,515 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
 
-> ll them (this project or everywhere), and which agents you use, then copies the folders and writes the pointer that reloads antislop every session.
+> approve antislop to enable the contrast MCP server.
 
 ### Agent runtime
 
@@ -44,14 +44,16 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 7/100)
-- **Out of the box:** yes
+- **Difficulty:** 🟢 Turnkey (friction score 16/100)
+- **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npx antislop-ai`
 
 **Signals that make it easy:** npx one-liner, native installer / package
 
-*Turnkey. install via npx one-liner, native installer / package*
+**Signals that add work:** git clone (build from source)
+
+*Turnkey. install via npx one-liner, native installer / package; needs git clone (build from source)*
 
 ## Documentation quality
 
@@ -71,10 +73,10 @@ Score **49/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 79.5 |
-| momentum | 65.7 |
+| momentum | 64.0 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
-| accessibility | 100.0 |
+| accessibility | 84.0 |
 
 ---
 

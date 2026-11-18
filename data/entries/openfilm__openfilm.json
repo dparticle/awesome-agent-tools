@@ -6,9 +6,9 @@
   "url": "https://github.com/openfilm/openfilm",
   "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
   "homepage": "https://openfilm.dev",
-  "stars": 8039,
-  "forks": 781,
-  "open_issues": 32,
+  "stars": 8235,
+  "forks": 805,
+  "open_issues": 19,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -22,89 +22,85 @@
     "video-editor"
   ],
   "created_at": "2026-10-04T09:29:07Z",
-  "updated_at": "2026-11-17T13:24:40Z",
-  "pushed_at": "2026-11-16T12:49:58Z",
+  "updated_at": "2026-11-18T12:55:47Z",
+  "pushed_at": "2026-11-18T10:07:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 44,
-  "days_since_push": 1,
-  "health_score": 81,
+  "age_days": 45,
+  "days_since_push": 0,
+  "health_score": 85,
   "health_components": {
-    "popularity": 78.1,
+    "popularity": 78.3,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 37.0,
-    "accessibility": 75.0
+    "documentation": 47.0,
+    "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2164,
+    "stars_gained": 2033,
     "days_span": 5,
-    "stars_per_day": 432.8,
-    "lifetime_stars_per_day": 182.7,
+    "stars_per_day": 406.6,
+    "lifetime_stars_per_day": 183.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "openfilm/openfilm",
-    "readme_chars": 10268,
+    "readme_chars": 7883,
     "capabilities": [
       "agent-runtime",
       "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "agent-runtime": "The open source AI video agent.",
-      "gui-desktop": "video for my CLI, with music.",
+      "agent-runtime": "",
+      "gui-desktop": "",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
       "agent-runtime": 3,
-      "gui-desktop": 4,
+      "gui-desktop": 1,
       "cross-agent-support": 2
     },
     "friction": {
-      "level": "low",
-      "score": 33,
-      "out_of_the_box": false,
+      "level": "turnkey",
+      "score": 9,
+      "out_of_the_box": true,
       "non_programmer_friendly": true,
       "easy_signals": [
         "npx one-liner"
       ],
-      "hard_signals": [
-        "git clone (build from source)",
-        "pnpm install/build"
-      ],
-      "config_signals": [
-        "sign-in required"
-      ],
+      "hard_signals": [],
+      "config_signals": [],
       "friendliness_signals": [
         "GUI application"
       ],
       "platforms": [
         "macOS",
         "Windows",
-        "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via npx one-liner; needs git clone (build from source), pnpm install/build; configure sign-in required; GUI application",
-      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)、pnpm install/build；需配置 sign-in required；GUI application"
+      "note_en": "Turnkey. install via npx one-liner; GUI application",
+      "note_zh": "开箱即用。可通过 npx one-liner 安装；GUI application"
     },
-    "doc_score": 37,
+    "doc_score": 47,
     "doc_signals": [
       "contains code blocks",
+      "contains screenshots/diagrams",
       "has section headings",
       "documents installation",
       "has contribution guidance",
       "mentions licensing",
-      "has a Chinese translation"
+      "has a Chinese translation",
+      "reports benchmarks"
     ],
     "agents": [
       "Claude Code",
       "Codex"
     ],
-    "summary_en": "OpenFilm lets your coding agent make videos, and lets you edit them.",
+    "summary_en": "OpenFilm turns any coding agent into a video agent, with editors to change anything it makes.",
     "summary_zh": "",
     "install_hint": "npx skills add openfilm/openfilm",
     "source": "raw:HEAD/README.md",
@@ -112,14 +108,18 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.584
+      "external_link_ratio": 0.381
     },
-    "highlights": [],
-    "summary_zh_native": "OpenFilm 让你的编程智能体来做视频，也让你亲手修改。",
+    "highlights": [
+      "Canvas: a board for planning, with notes, images, clips and voices side by side.",
+      "Color: grade every clip with scopes, color wheels and curves, from camera log footage or with .cube LUTs."
+    ],
+    "summary_zh_native": "OpenFilm 让任何编程智能体都能做视频，再配上编辑器，它做出的一切你都能改。",
     "highlights_zh": [
-      "一个真正的剪辑器。 可以移动、缩放、旋转页面里的任何元素，改它的文字、颜色和样式；摆放、裁剪、调整每个片段的",
-      "一个 HTML 文件。 film.html 把动画网页、视频素材、图片和声音按轨道剪在一起，样式用 CSS 写。不用学新东西：",
-      "一个函数。 每个镜头都是一个网页，用 frame(t) 画出任意时刻，浏览器能画的都能用：three.js、WebGL、canvas、"
+      "调色：用示波器、色轮和曲线给每个片段调色，支持相机 Log 素材和 .cube LUT。",
+      "智能体来做。 用 Claude Code、Codex、其他编程智能体，或桌面版自带的智能体。它找素材、音乐和配音，写好每个镜头再剪到一起，你在旁边看着片子成形。",
+      "剪辑：完整的时间线，放片段、文字、字幕、配音和声音。",
+      "指着说。 一个片段、某一刻、时间线上的一段、画面里的一块、一句字幕、画布上的一张卡片。指给它，说你想怎么改，智能体就知道你说的是哪里。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -128,11 +128,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:32+00:00",
+  "fetched_at": "2026-11-18T13:03:51+00:00",
   "categories": [
-    "desktop-ui"
+    "desktop-ui",
+    "failover"
   ],
-  "primary_category": "desktop-ui",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

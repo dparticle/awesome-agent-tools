@@ -2,7 +2,7 @@
 
 # alchaincyf/huashu-art-motion
 
-> 让你的coding agent，把艺术风格写成会动的画。
+> 简体中文 | English | Bahasa Indonesia
 
 [Repository](https://github.com/alchaincyf/huashu-art-motion) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,102 |
-| Star velocity | 61.4/day (history basis, 5d span) |
-| Health score | 75/100 |
+| Stars | 7,189 |
+| Star velocity | 67.2/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 58/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-10-06 |
-| Last push | 2026-11-15 (2 days ago) |
-| Analyzed README | 12,132 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 12,167 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Agent runtime
 
-> ；《Clawd 博物馆奇妙夜》是非官方的同人示范，与 Anthropic 无关，GIF 与成片同样不随 MIT 授权。
+> 简体中文 English Bahasa Indonesia
 
 ## Setup reality check
 
@@ -68,8 +68,8 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 77.0 |
-| momentum | 51.2 |
+| popularity | 77.1 |
+| momentum | 56.0 |
 | maintenance | 100.0 |
 | documentation | 58.0 |
 | accessibility | 96.0 |

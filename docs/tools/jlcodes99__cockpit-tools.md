@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 20,070 |
-| Star velocity | 29.0/day (history basis, 5d span) |
-| Health score | 68/100 |
-| Documentation | 64/100 |
+| Stars | 20,106 |
+| Star velocity | 30.2/day (history basis, 5d span) |
+| Health score | 69/100 |
+| Documentation | 65/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | Rust |
 | Created | 2026-01-16 |
-| Last push | 2026-11-15 (2 days ago) |
-| Analyzed README | 19,714 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 20,662 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -50,6 +50,8 @@
 
 ### Model / provider routing
 
+> Codex API 服务**：在 **Grok CLI** 页面完成 OAuth 授权，再打开 **Codex → API 服务 → 添加账号**，按 **Grok** 筛选、勾选账号并保存。
+
 ### Multi-provider aggregation
 
 > 어 · 🇧🇷 Português · 🇷🇺 Русский · 🇹🇷 Türkçe · 🇵🇱 Polski · 🇨🇿 Čeština · 🇸🇦 العربية · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia
@@ -68,11 +70,11 @@
 
 ### Security & isolation
 
-> .jlcodes.cockpit-tools：宿主应用的 WebView 状态等；历史 com.antigravity.cockpit-tools 目录仅用于旧数据兼容导入
+> 加账号**，按 **Grok** 筛选、勾选账号并保存。
 
 ### GUI / desktop app
 
-> s: .msi（推荐）、.exe，或 x64-portable.zip（解压即用，无需安装）
+> WebSocket 关闭 + 不共享用户目录 + 定期清理不再使用的账号。
 
 ### Notifications
 
@@ -103,7 +105,7 @@
 
 ## Documentation quality
 
-Score **64/100**, based on these detected signals:
+Score **65/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -116,15 +118,16 @@ Score **64/100**, based on these detected signals:
 - has a table of contents
 - has a Chinese translation
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 86.1 |
-| momentum | 24.2 |
+| momentum | 25.2 |
 | maintenance | 100.0 |
-| documentation | 64.0 |
+| documentation | 65.0 |
 | accessibility | 68.0 |
 
 ---

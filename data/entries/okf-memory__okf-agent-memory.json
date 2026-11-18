@@ -6,7 +6,7 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 867,
+  "stars": 868,
   "forks": 72,
   "open_issues": 2,
   "language": "Go",
@@ -32,13 +32,13 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-11-17T11:26:33Z",
+  "updated_at": "2026-11-18T07:46:13Z",
   "pushed_at": "2026-11-14T10:03:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 72,
-  "days_since_push": 3,
+  "age_days": 73,
+  "days_since_push": 4,
   "health_score": 54,
   "health_components": {
     "popularity": 58.8,
@@ -52,7 +52,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 12.04,
+    "lifetime_stars_per_day": 11.89,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:22+00:00",
+  "fetched_at": "2026-11-18T13:05:07+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -175,14 +175,14 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 1.727,
-      "momentum_ratio": 41.5,
+      "star_ratio": 1.729,
+      "momentum_ratio": 37.5,
       "setup_delta": -14,
-      "dominance": 0.874,
+      "dominance": 0.875,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.73x the stars (1,497 vs 867)",
-        "41.50x the star velocity (16.6/day vs 0.4/day)",
+        "1.73x the stars (1,501 vs 868)",
+        "37.50x the star velocity (15.0/day vs 0.4/day)",
         "no harder to set up (31 vs 45 friction)"
       ],
       "reasons_zh": [],

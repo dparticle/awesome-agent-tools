@@ -6,9 +6,9 @@
   "url": "https://github.com/sandbox-quantum/switch",
   "description": "Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.",
   "homepage": "https://www.switchagents.ai",
-  "stars": 4544,
-  "forks": 353,
-  "open_issues": 690,
+  "stars": 4546,
+  "forks": 354,
+  "open_issues": 695,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -27,33 +27,33 @@
     "slack"
   ],
   "created_at": "2026-07-16T09:52:46Z",
-  "updated_at": "2026-11-17T07:50:50Z",
-  "pushed_at": "2026-11-17T13:22:05Z",
+  "updated_at": "2026-11-18T07:05:16Z",
+  "pushed_at": "2026-11-18T13:00:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 124,
+  "age_days": 125,
   "days_since_push": 0,
-  "health_score": 65,
+  "health_score": 64,
   "health_components": {
-    "popularity": 73.1,
-    "momentum": 16.7,
+    "popularity": 73.2,
+    "momentum": 9.5,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 100,
+    "stars_gained": 57,
     "days_span": 5,
-    "stars_per_day": 20.0,
-    "lifetime_stars_per_day": 36.65,
+    "stars_per_day": 11.4,
+    "lifetime_stars_per_day": 36.37,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sandbox-quantum/switch",
-    "readme_chars": 15024,
+    "readme_chars": 15350,
     "capabilities": [
       "usage-analytics",
       "agent-runtime",
@@ -63,11 +63,11 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "usage-analytics": "Run your team with confidence**.",
+      "usage-analytics": "",
       "agent-runtime": "logs and versions, and either files the ticket or tells the reporter what is still missing.",
       "mcp-support": "rough the documentation yourself, connect an agent to it",
       "self-hosted": "Open-source AI teammates, working alongside your team in Slack, Teams, Discord, Telegram and Mattermost.",
-      "gui-desktop": "gets, choose which connectors are on, and control who has access.",
+      "gui-desktop": "dmins choose which connectors are on, and control who has access.",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
@@ -126,7 +126,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.797
+      "external_link_ratio": 1.759
     },
     "highlights": [
       "Stand up a Codex agent that knows one slice of the system well, and let any colleague ask it questions directly.",
@@ -143,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:38+00:00",
+  "fetched_at": "2026-11-18T13:04:00+00:00",
   "categories": [
     "desktop-ui",
     "teams-self-hosting"
@@ -172,14 +172,14 @@
         "self-hosted",
         "usage-analytics"
       ],
-      "star_ratio": 2.749,
-      "momentum_ratio": 2.69,
+      "star_ratio": 2.767,
+      "momentum_ratio": 5.158,
       "setup_delta": 11,
-      "dominance": 0.848,
+      "dominance": 0.927,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.75x the stars (12,490 vs 4,544)",
-        "2.69x the star velocity (53.8/day vs 20.0/day)",
+        "2.77x the stars (12,578 vs 4,546)",
+        "5.16x the star velocity (58.8/day vs 11.4/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -206,8 +206,8 @@
           "skills-plugins",
           "usage-analytics"
         ],
-        "incumbent_health": 65,
-        "challenger_health": 73,
+        "incumbent_health": 64,
+        "challenger_health": 74,
         "incumbent_setup_score": 9,
         "challenger_setup_score": 20
       }

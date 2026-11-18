@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
   "homepage": "https://open.bot",
-  "stars": 12678,
-  "forks": 1569,
-  "open_issues": 120,
+  "stars": 12817,
+  "forks": 1590,
+  "open_issues": 127,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,16 +21,16 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-17T13:19:08Z",
-  "pushed_at": "2026-11-17T12:21:17Z",
+  "updated_at": "2026-11-18T12:58:42Z",
+  "pushed_at": "2026-11-18T13:02:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 92,
+  "age_days": 93,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 82.1,
+    "popularity": 82.2,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 78.0,
@@ -38,16 +38,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1441,
+    "stars_gained": 837,
     "days_span": 5,
-    "stars_per_day": 288.2,
-    "lifetime_stars_per_day": 137.8,
+    "stars_per_day": 167.4,
+    "lifetime_stars_per_day": 137.82,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 53167,
+    "readme_chars": 53704,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -145,7 +145,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.752
+      "external_link_ratio": 0.745
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:27+00:00",
+  "fetched_at": "2026-11-18T13:03:45+00:00",
   "categories": [
     "failover-2",
     "mcp-security",
@@ -195,14 +195,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 24.06,
-      "momentum_ratio": 2.325,
+      "star_ratio": 23.88,
+      "momentum_ratio": 4.593,
       "setup_delta": -7,
-      "dominance": 0.905,
+      "dominance": 0.989,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "24.06x the stars (305,037 vs 12,678)",
-        "2.32x the star velocity (670.0/day vs 288.2/day)",
+        "23.88x the stars (306,070 vs 12,817)",
+        "4.59x the star velocity (768.8/day vs 167.4/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],

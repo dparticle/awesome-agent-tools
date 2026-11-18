@@ -8,7 +8,7 @@
   "homepage": "https://nurettincoban.github.io/ai-prd-workflow/",
   "stars": 311,
   "forks": 35,
-  "open_issues": 1,
+  "open_issues": 0,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -32,18 +32,18 @@
   ],
   "created_at": "2025-03-09T19:23:57Z",
   "updated_at": "2026-11-16T18:58:47Z",
-  "pushed_at": "2026-11-16T01:07:16Z",
+  "pushed_at": "2026-11-17T19:43:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 617,
-  "days_since_push": 1,
+  "age_days": 618,
+  "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 49.9,
     "momentum": 0.2,
     "maintenance": 100.0,
-    "documentation": 60.0,
+    "documentation": 61.0,
     "accessibility": 75.0
   },
   "tier": "notable",
@@ -57,7 +57,7 @@
   },
   "analysis": {
     "full_name": "nurettincoban/ai-prd-workflow",
-    "readme_chars": 16744,
+    "readme_chars": 18781,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -65,7 +65,7 @@
     ],
     "capability_evidence": {
       "skills-plugins": "ds, so decisions outlive the chat session.",
-      "agent-runtime": "- When files disagree, PRD.md wins over FEATURES.md, which wins over RULES.md, then the RFCs.",
+      "agent-runtime": "License: MIT GitHub stars Claude Code Agent Skills 🌐 Website · See a real run · Quick start · How it works · Why · Evidence · Install options English · 简体中文 · Türkçe · 日本語 · 한국어 · Español --- AI coding agents write code…",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
@@ -93,7 +93,7 @@
       "note_en": "Easy. install via curl | sh installer; needs git clone (build from source)",
       "note_zh": "较易上手。可通过 curl | sh installer 安装；需要 git clone (build from source)"
     },
-    "doc_score": 60,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -121,18 +121,17 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.418
+      "external_link_ratio": 0.479
     },
     "highlights": [
-      "The todo-cli example — a ten-line idea for a terminal to-do list, taken all the way to 386 lines of reviewed code and 66 passing tests, every step on Claude Sonnet 5.5 with nobody answering…",
       "Keep the rules in context. Reference RULES.md from your agent config (CLAUDE.md, AGENTS.md, or .cursor/rules/). /generate-rules suggests how.",
       "Review with fresh eyes. /review-rfc will not review code written in the same conversation. In Claude Code it runs in a separate context automatically."
     ],
     "summary_zh_native": "想法或现有代码 → 经过验证的 PRD → 功能 → 规则 → 有序的 RFC → 经过评审和测试的代码",
     "highlights_zh": [
-      "url-shortener 示例：v2.0 规格、我们人工在其中找到的问题，以及用当前命令对它完整运行的一次结果。",
-      "todo-cli 示例：一个十行的终端待办清单想法，一路做到 386 行经过评审的代码和 66 个通过的测试，每一步都在 Claude Sonnet 5.5 上运行，过程中没有人回答问题。",
+      "url-shortener 示例：v2.0 规格、我们人工在其中找到的问题，以及用 3.1.0 版命令对它完整运行的一次结果（此后提示词已有变化，示例中有说明）。",
       "评测套件：在启用和不启用该工作流的两种情况下运行同样的检查，用的是你自己的账户，所以你可以亲自测量差异。",
+      "todo-cli 示例：一个十行的终端待办清单想法，一路做到经过评审的代码和 91 个通过的测试，每一步都在 Claude Sonnet 5.5 上运行，过程中没有人回答问题。",
       "用新的眼光评审。 /review-rfc 不会评审在同一个对话中写出的代码；在 Claude Code 中，它会自动在独立的上下文里运行。"
     ],
     "chinese_readme": "README.zh-CN.md"
@@ -142,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:48+00:00",
+  "fetched_at": "2026-11-18T13:05:48+00:00",
   "categories": [
     "failover"
   ],

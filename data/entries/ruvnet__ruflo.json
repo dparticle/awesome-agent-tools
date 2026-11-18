@@ -6,9 +6,9 @@
   "url": "https://github.com/ruvnet/ruflo",
   "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
   "homepage": "https://cognitum.one/ruPro",
-  "stars": 81925,
-  "forks": 9667,
-  "open_issues": 613,
+  "stars": 82011,
+  "forks": 9675,
+  "open_issues": 587,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "vector-search"
   ],
   "created_at": "2025-06-02T21:24:20Z",
-  "updated_at": "2026-11-17T13:16:45Z",
-  "pushed_at": "2026-11-17T06:45:00Z",
+  "updated_at": "2026-11-18T12:53:36Z",
+  "pushed_at": "2026-11-18T06:42:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 532,
+  "age_days": 533,
   "days_since_push": 0,
   "health_score": 93,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 81925,
-    "days_span": 532,
-    "stars_per_day": 153.99,
-    "lifetime_stars_per_day": 153.99,
+    "stars_gained": 82011,
+    "days_span": 533,
+    "stars_per_day": 153.87,
+    "lifetime_stars_per_day": 153.87,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "ruvnet/ruflo",
-    "readme_chars": 38801,
+    "readme_chars": 39277,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -91,7 +91,7 @@
       "model-routing": 1,
       "memory-context": 1,
       "skills-plugins": 1,
-      "mcp-support": 11,
+      "mcp-support": 12,
       "security-isolation": 1,
       "team-collaboration": 1,
       "gui-desktop": 1,
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.619
+      "external_link_ratio": 0.637
     },
     "highlights": [],
     "summary_zh_native": "面向 Claude Code 与 Codex 的智能体元基座（meta-harness）。",
@@ -166,11 +166,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:49+00:00",
+  "fetched_at": "2026-11-18T13:04:19+00:00",
   "categories": [
     "desktop-ui-2",
     "mcp-security",
-    "teams-self-hosting"
+    "sessions-memory"
   ],
   "primary_category": "mcp-security",
   "lifecycle": {

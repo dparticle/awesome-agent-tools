@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5541,
+  "stars": 5545,
   "forks": 556,
-  "open_issues": 46,
+  "open_issues": 29,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-17T12:49:54Z",
-  "pushed_at": "2026-11-17T12:40:50Z",
+  "updated_at": "2026-11-18T10:34:32Z",
+  "pushed_at": "2026-11-18T12:58:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 137,
+  "age_days": 138,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 74.9,
-    "momentum": 3.5,
+    "momentum": 3.7,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 87.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 22,
     "days_span": 5,
-    "stars_per_day": 4.2,
-    "lifetime_stars_per_day": 40.45,
+    "stars_per_day": 4.4,
+    "lifetime_stars_per_day": 40.18,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 25235,
+    "readme_chars": 25246,
     "capabilities": [
       "billing-metering",
       "skills-plugins",
@@ -143,8 +143,7 @@
       "external_link_ratio": 0.832
     },
     "highlights": [
-      "Automation · CLI · Node.js SDK · Connect an MCP client",
-      "Provider updates: Qwen4 Max Preview joins Bailian Token Plans in Beijing and Singapore, and default models for official connections are refreshed."
+      "Automation · CLI · Node.js SDK · Connect an MCP client"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -155,10 +154,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:36+00:00",
+  "fetched_at": "2026-11-18T13:03:57+00:00",
   "categories": [
     "billing-2",
-    "desktop-ui-2",
+    "desktop-ui",
     "mcp-security"
   ],
   "primary_category": "billing-2",

@@ -6,8 +6,8 @@
   "url": "https://github.com/zenstory-ai/drama-skills",
   "description": "AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for AI short dramas & motion comics",
   "homepage": "https://zenstory.ai/zh/drama-skills",
-  "stars": 4389,
-  "forks": 764,
+  "stars": 4446,
+  "forks": 767,
   "open_issues": 3,
   "language": "Python",
   "license": "MIT",
@@ -32,27 +32,27 @@
     "zenstory"
   ],
   "created_at": "2026-07-16T16:11:19Z",
-  "updated_at": "2026-11-17T12:43:03Z",
+  "updated_at": "2026-11-18T12:48:03Z",
   "pushed_at": "2026-11-16T07:17:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 123,
-  "days_since_push": 1,
+  "age_days": 124,
+  "days_since_push": 2,
   "health_score": 69,
   "health_components": {
-    "popularity": 72.8,
-    "momentum": 40.8,
+    "popularity": 73.0,
+    "momentum": 43.5,
     "maintenance": 100.0,
     "documentation": 59.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 245,
+    "stars_gained": 261,
     "days_span": 5,
-    "stars_per_day": 49.0,
-    "lifetime_stars_per_day": 35.68,
+    "stars_per_day": 52.2,
+    "lifetime_stars_per_day": 35.85,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:38+00:00",
+  "fetched_at": "2026-11-18T13:04:00+00:00",
   "categories": [
     "billing-2"
   ],

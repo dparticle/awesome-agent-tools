@@ -7,8 +7,8 @@
   "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
   "homepage": "https://futureagi.com",
   "stars": 2282,
-  "forks": 720,
-  "open_issues": 988,
+  "forks": 721,
+  "open_issues": 943,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "tracing"
   ],
   "created_at": "2026-04-23T14:11:31Z",
-  "updated_at": "2026-11-16T23:09:10Z",
-  "pushed_at": "2026-11-17T13:00:03Z",
+  "updated_at": "2026-11-18T10:56:51Z",
+  "pushed_at": "2026-11-18T13:00:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 207,
+  "age_days": 208,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
     "popularity": 67.2,
-    "momentum": 2.7,
+    "momentum": 2.2,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 13,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 11.02,
+    "stars_per_day": 2.6,
+    "lifetime_stars_per_day": 10.97,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "future-agi/future-agi",
-    "readme_chars": 30333,
+    "readme_chars": 31240,
     "capabilities": [
       "api-gateway",
       "billing-metering",
@@ -140,7 +140,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.286
+      "external_link_ratio": 1.248
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -152,7 +152,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:07+00:00",
+  "fetched_at": "2026-11-18T13:04:46+00:00",
   "categories": [
     "mcp-security",
     "sessions-memory",
@@ -182,14 +182,14 @@
         "memory-context",
         "self-hosted"
       ],
-      "star_ratio": 5.329,
-      "momentum_ratio": 11.187,
+      "star_ratio": 5.351,
+      "momentum_ratio": 14.923,
       "setup_delta": -13,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.33x the stars (12,160 vs 2,282)",
-        "11.19x the star velocity (35.8/day vs 3.2/day)",
+        "5.35x the stars (12,211 vs 2,282)",
+        "14.92x the star velocity (38.8/day vs 2.6/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
       "reasons_zh": [],

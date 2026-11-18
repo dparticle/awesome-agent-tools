@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 141,870 |
-| Star velocity | 107.2/day (history basis, 5d span) |
-| Health score | 88/100 |
+| Stars | 141,974 |
+| Star velocity | 109.4/day (history basis, 5d span) |
+| Health score | 89/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-11-17 (0 days ago) |
-| Analyzed README | 41,438 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 41,718 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Model / provider routing
 
-> deterministic aside repl scripts.
+> t moments and where people would stop, and why a back-to-back pick between two builds measures the order, not the build
 
 ### Memory & context
 
@@ -107,7 +107,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 100.0 |
-| momentum | 89.3 |
+| momentum | 91.2 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 61.0 |

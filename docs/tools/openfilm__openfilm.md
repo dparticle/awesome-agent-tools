@@ -2,7 +2,7 @@
 
 # openfilm/openfilm
 
-> OpenFilm lets your coding agent make videos, and lets you edit them.
+> OpenFilm turns any coding agent into a video agent, with editors to change anything it makes.
 
 [Repository](https://github.com/openfilm/openfilm) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,27 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,039 |
-| Star velocity | 432.8/day (history basis, 5d span) |
-| Health score | 81/100 |
-| Documentation | 37/100 |
+| Stars | 8,235 |
+| Star velocity | 406.6/day (history basis, 5d span) |
+| Health score | 85/100 |
+| Documentation | 47/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-04 |
-| Last push | 2026-11-16 (1 days ago) |
-| Analyzed README | 10,268 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 7,883 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Agent runtime
 
-> The open source AI video agent.
-
 ### GUI / desktop app
-
-> video for my CLI, with music.
 
 ### Cross-agent support
 
@@ -40,39 +36,37 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 33/100)
-- **Out of the box:** no
+- **Difficulty:** 🟢 Turnkey (friction score 9/100)
+- **Out of the box:** yes
 - **Non-programmer friendly:** yes
 - **Quickest install:** `npx skills add openfilm/openfilm`
 
 **Signals that make it easy:** npx one-liner
 
-**Signals that add work:** git clone (build from source), pnpm install/build
-
-**Configuration required:** sign-in required
-
-*Easy. install via npx one-liner; needs git clone (build from source), pnpm install/build; configure sign-in required; GUI application*
+*Turnkey. install via npx one-liner; GUI application*
 
 ## Documentation quality
 
-Score **37/100**, based on these detected signals:
+Score **47/100**, based on these detected signals:
 
 - contains code blocks
+- contains screenshots/diagrams
 - has section headings
 - documents installation
 - has contribution guidance
 - mentions licensing
 - has a Chinese translation
+- reports benchmarks
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.1 |
+| popularity | 78.3 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 37.0 |
-| accessibility | 75.0 |
+| documentation | 47.0 |
+| accessibility | 100.0 |
 
 ---
 

@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-06-10 |
-| Last push | 2026-11-12 (5 days ago) |
+| Last push | 2026-11-12 (6 days ago) |
 | Analyzed README | 117,052 chars from `raw:HEAD/README.md` |
 
 ## What it solves

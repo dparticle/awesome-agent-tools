@@ -6,9 +6,9 @@
   "url": "https://github.com/sickn33/agentic-awesome-skills",
   "description": "2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
   "homepage": "https://aaskills.tech/",
-  "stars": 49860,
-  "forks": 7226,
-  "open_issues": 9,
+  "stars": 49932,
+  "forks": 7234,
+  "open_issues": 1,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "skill-library"
   ],
   "created_at": "2026-01-14T17:48:09Z",
-  "updated_at": "2026-11-17T13:22:35Z",
-  "pushed_at": "2026-11-17T07:58:42Z",
+  "updated_at": "2026-11-18T12:39:59Z",
+  "pushed_at": "2026-11-17T21:22:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 306,
+  "age_days": 307,
   "days_since_push": 0,
-  "health_score": 78,
+  "health_score": 80,
   "health_components": {
     "popularity": 94.0,
-    "momentum": 45.3,
+    "momentum": 49.7,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 68.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 272,
+    "stars_gained": 298,
     "days_span": 5,
-    "stars_per_day": 54.4,
-    "lifetime_stars_per_day": 162.94,
+    "stars_per_day": 59.6,
+    "lifetime_stars_per_day": 162.64,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sickn33/agentic-awesome-skills",
-    "readme_chars": 126909,
+    "readme_chars": 130871,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -99,14 +99,14 @@
       "model-routing": 1,
       "usage-analytics": 1,
       "memory-context": 5,
-      "skills-plugins": 175,
+      "skills-plugins": 182,
       "agent-runtime": 7,
-      "mcp-support": 75,
+      "mcp-support": 83,
       "security-isolation": 1,
       "self-hosted": 1,
       "team-collaboration": 1,
       "gui-desktop": 4,
-      "notifications": 3,
+      "notifications": 4,
       "cross-agent-support": 8
     },
     "friction": {
@@ -171,7 +171,7 @@
       "Cline / Roo",
       "Goose"
     ],
-    "summary_en": "Agentic Awesome Skills is a library of 2,981+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.",
+    "summary_en": "Agentic Awesome Skills is a library of 3,017+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -182,13 +182,13 @@
         "bullet list of external links",
         "link-directory table of contents"
       ],
-      "external_link_ratio": 3.987
+      "external_link_ratio": 3.943
     },
     "highlights": [
       "sandbaseai/cli: Official source for the sandbase-mcp skill - discover, inspect, and invoke 2,000+ AI models and APIs through a local MCP bridge with explicit schema and cost checks (Apache-…",
       "Senrelay (ContextCore): Local-first macOS workbench and Streamable HTTP MCP server for cross-agent session relay (/contextcore full-transcript paging), source-linked SQLite FTS5 memory, and…",
-      "beatra-ai/ai-image-generator-skill: Official Beatra source for the ai-image-generation-studio skill - paid, hosted work installed from a digest-pinned 0.1.4 archive byte-identical to commit…",
-      "beatra-ai/ai-voiceover-generator-skill: Official Beatra source for the voiceover-narration-studio skill - paid, hosted work installed from a digest-pinned 0.1.9 archive byte-identical to co…"
+      "MCP Write Safety: Two Agent Skills for MCP tools that create, update or delete state: build rules for server authors and call rules for agents (conflicts, retries with idempotency keys, unk…",
+      "beatra-ai/ai-image-generator-skill: Official Beatra source for the ai-image-generation-studio skill - paid, hosted work installed from a digest-pinned 0.1.4 archive byte-identical to commit…"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -199,11 +199,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:53+00:00",
+  "fetched_at": "2026-11-18T13:04:26+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
-    "failover",
-    "teams-self-hosting"
+    "failover"
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {

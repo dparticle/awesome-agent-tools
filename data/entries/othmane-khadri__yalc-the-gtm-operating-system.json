@@ -6,7 +6,7 @@
   "url": "https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system",
   "description": "YALC 1.0, the open-source Clay alternative. MIT, CLI-first, self-hosted, runs in Claude Code. Yalc today is an intelligent orchestration layer that runs pre configured GTM agents on your existing tech stack (CRM, sequencer and call recorder) → yalc.ai",
   "homepage": "https://www.yalc.ai",
-  "stars": 329,
+  "stars": 330,
   "forks": 91,
   "open_issues": 10,
   "language": "TypeScript",
@@ -22,26 +22,26 @@
     "typescript"
   ],
   "created_at": "2026-01-04T10:21:22Z",
-  "updated_at": "2026-11-15T11:31:04Z",
+  "updated_at": "2026-11-18T05:03:12Z",
   "pushed_at": "2026-08-20T16:57:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 317,
-  "days_since_push": 88,
+  "age_days": 318,
+  "days_since_push": 89,
   "health_score": 46,
   "health_components": {
-    "popularity": 50.3,
-    "momentum": 0.3,
+    "popularity": 50.4,
+    "momentum": 0.5,
     "maintenance": 78.0,
     "documentation": 73.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.04,
     "basis": "history",
     "is_fast_riser": false
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:46+00:00",
+  "fetched_at": "2026-11-18T13:05:44+00:00",
   "categories": [
     "desktop-ui-2"
   ],
@@ -171,14 +171,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 151.55,
-      "momentum_ratio": 136.0,
+      "star_ratio": 151.309,
+      "momentum_ratio": 99.333,
       "setup_delta": -32,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "151.55x the stars (49,860 vs 329)",
-        "136.00x the star velocity (54.4/day vs 0.4/day)",
+        "151.31x the stars (49,932 vs 330)",
+        "99.33x the star velocity (59.6/day vs 0.6/day)",
         "no harder to set up (32 vs 64 friction)"
       ],
       "reasons_zh": [],
@@ -207,7 +207,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 46,
-        "challenger_health": 78,
+        "challenger_health": 80,
         "incumbent_setup_score": 64,
         "challenger_setup_score": 32
       }

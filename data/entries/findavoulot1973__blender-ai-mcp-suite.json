@@ -39,12 +39,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 4,
+  "age_days": 5,
   "days_since_push": 2,
-  "health_score": 75,
+  "health_score": 71,
   "health_components": {
     "popularity": 53.9,
-    "momentum": 100.0,
+    "momentum": 83.0,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 70.0
@@ -52,9 +52,9 @@
   "tier": "recommended",
   "momentum": {
     "stars_gained": 498,
-    "days_span": 4,
-    "stars_per_day": 124.5,
-    "lifetime_stars_per_day": 124.5,
+    "days_span": 5,
+    "stars_per_day": 99.6,
+    "lifetime_stars_per_day": 99.6,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:33+00:00",
+  "fetched_at": "2026-11-18T13:05:27+00:00",
   "categories": [
     "desktop-ui-2",
     "mcp-security"
@@ -162,14 +162,14 @@
         "model-routing",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 164.508,
-      "momentum_ratio": 1.237,
+      "star_ratio": 164.681,
+      "momentum_ratio": 1.545,
       "setup_delta": -12,
-      "dominance": 0.826,
+      "dominance": 0.854,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "164.51x the stars (81,925 vs 498)",
-        "1.24x the star velocity (154.0/day vs 124.5/day)",
+        "164.68x the stars (82,011 vs 498)",
+        "1.54x the star velocity (153.9/day vs 99.6/day)",
         "no harder to set up (18 vs 30 friction)"
       ],
       "reasons_zh": [],
@@ -192,7 +192,7 @@
           "skills-plugins",
           "team-collaboration"
         ],
-        "incumbent_health": 75,
+        "incumbent_health": 71,
         "challenger_health": 93,
         "incumbent_setup_score": 30,
         "challenger_setup_score": 18

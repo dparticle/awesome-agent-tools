@@ -12,21 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 801 |
+| Stars | 802 |
 | Star velocity | 0.8/day (history basis, 5d span) |
-| Health score | 53/100 |
+| Health score | 54/100 |
 | Documentation | 49/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-04-10 |
-| Last push | 2026-10-20 (28 days ago) |
-| Analyzed README | 7,869 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 7,586 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Multi-agent orchestration
 
 ### Agent runtime
 
@@ -70,7 +68,7 @@ Score **49/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 58.1 |
 | momentum | 0.7 |
-| maintenance | 92.0 |
+| maintenance | 100.0 |
 | documentation | 49.0 |
 | accessibility | 82.0 |
 

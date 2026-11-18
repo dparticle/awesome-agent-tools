@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,049 |
-| Star velocity | 140.2/day (lifetime basis, 36d span) |
+| Stars | 5,056 |
+| Star velocity | 136.7/day (lifetime basis, 37d span) |
 | Health score | 84/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Swift |
 | Created | 2026-10-11 |
-| Last push | 2026-11-16 (1 days ago) |
-| Analyzed README | 23,126 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (5/5).
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 23,068 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

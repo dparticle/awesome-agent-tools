@@ -6,9 +6,9 @@
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
   "homepage": "https://treg.to",
-  "stars": 8209,
-  "forks": 785,
-  "open_issues": 339,
+  "stars": 8405,
+  "forks": 809,
+  "open_issues": 330,
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [
@@ -25,33 +25,33 @@
     "secrets"
   ],
   "created_at": "2026-07-15T13:38:07Z",
-  "updated_at": "2026-11-17T12:59:21Z",
-  "pushed_at": "2026-11-17T13:24:42Z",
+  "updated_at": "2026-11-18T12:38:23Z",
+  "pushed_at": "2026-11-18T12:13:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 124,
+  "age_days": 125,
   "days_since_push": 0,
-  "health_score": 76,
+  "health_score": 83,
   "health_components": {
-    "popularity": 78.3,
-    "momentum": 55.3,
+    "popularity": 78.5,
+    "momentum": 83.5,
     "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 79.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 332,
+    "stars_gained": 501,
     "days_span": 5,
-    "stars_per_day": 66.4,
-    "lifetime_stars_per_day": 66.2,
+    "stars_per_day": 100.2,
+    "lifetime_stars_per_day": 67.24,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "superdesigndev/treg",
-    "readme_chars": 34789,
+    "readme_chars": 35779,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -140,7 +140,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.345
+      "external_link_ratio": 0.335
     },
     "highlights": [
       "The API — everything the CLI does is plain HTTP; interactive OpenAPI docs live at /docs.",
@@ -156,9 +156,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:32+00:00",
+  "fetched_at": "2026-11-18T13:03:51+00:00",
   "categories": [
-    "failover-2",
+    "billing-2",
     "mcp-security",
     "teams-self-hosting"
   ],

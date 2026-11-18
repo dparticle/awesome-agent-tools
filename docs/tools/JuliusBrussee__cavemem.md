@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 678 |
-| Star velocity | 0.0/day (history basis, 6d span) |
-| Health score | 46/100 |
+| Stars | 679 |
+| Star velocity | 0.0/day (history basis, 5d span) |
+| Health score | 55/100 |
 | Documentation | 43/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-04-18 |
-| Last push | 2026-08-14 (94 days ago) |
-| Analyzed README | 13,207 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 13,159 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ### MCP support
 
-> n boundaries, compress observations with the caveman grammar (~75% fewer prose tokens, code and paths preserved byte-for-byte), and write to local SQLite.
+> s observations with the caveman grammar (at least 30% fewer tokens on the test corpus, code and paths preserved byte-for-byte), and write to local SQLite.
 
 ### GUI / desktop app
 
@@ -80,7 +80,7 @@ Score **43/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 56.6 |
 | momentum | 0.0 |
-| maintenance | 55.0 |
+| maintenance | 100.0 |
 | documentation | 43.0 |
 | accessibility | 99.0 |
 

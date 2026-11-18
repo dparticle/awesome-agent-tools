@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,242 |
+| Stars | 9,244 |
 | Star velocity | 1.8/day (history basis, 5d span) |
 | Health score | 58/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Go |
 | Created | 2024-11-27 |
-| Last push | 2026-11-17 (0 days ago) |
+| Last push | 2026-11-18 (0 days ago) |
 | Analyzed README | 37,334 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (4/4).
 
 ## What it solves
 

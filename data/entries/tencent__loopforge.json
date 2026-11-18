@@ -1,0 +1,258 @@
+{
+  "schema": 1,
+  "full_name": "Tencent/LoopForge",
+  "name": "LoopForge",
+  "owner": "Tencent",
+  "url": "https://github.com/Tencent/LoopForge",
+  "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+  "homepage": "https://loopforge.cn",
+  "stars": 3717,
+  "forks": 511,
+  "open_issues": 221,
+  "language": "Go",
+  "license": "NOASSERTION",
+  "topics": [
+    "agent-orchestration",
+    "agentic-workflow",
+    "ai-agents",
+    "ai-coding",
+    "claude-code",
+    "code-review",
+    "codebuddy",
+    "codex",
+    "coding-agents",
+    "cursor",
+    "developer-tools",
+    "human-on-the-loop",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "sdlc",
+    "self-hosted",
+    "sop",
+    "workflow-automation",
+    "workflow-engine"
+  ],
+  "created_at": "2026-07-28T03:51:01Z",
+  "updated_at": "2026-11-18T13:01:36Z",
+  "pushed_at": "2026-11-18T10:04:56Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 113,
+  "days_since_push": 0,
+  "health_score": 63,
+  "health_components": {
+    "popularity": 71.4,
+    "momentum": 27.4,
+    "maintenance": 100.0,
+    "documentation": 71.0,
+    "accessibility": 45.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3717,
+    "days_span": 113,
+    "stars_per_day": 32.89,
+    "lifetime_stars_per_day": 32.89,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "Tencent/LoopForge",
+    "readme_chars": 22594,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "worktree-isolation",
+      "model-routing",
+      "usage-analytics",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "notifications",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ories, GitHub delivery, human acceptance gates and run evidence.",
+      "worktree-isolation": "n machine), then either run a project SOP or ask Main Bot to change the code and submit a PR/MR.",
+      "model-routing": "or execution machine PATH",
+      "usage-analytics": "r a PR, plus per-node artifacts and logs",
+      "agent-runtime": "ttps://github.com/user-attachments/assets/8af401d9-1aae-427c-b4bc-455c12d17beb",
+      "mcp-support": "retry a failed step, or rerun from any node.",
+      "self-hosted": "",
+      "notifications": "Requirement clarification, AI notification summaries, Bot replies and run evals currently use CodeBuddy, so their model pickers list CodeBuddy models only and the server refuses a model of another CLI instead of switchi…",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "worktree-isolation": 1,
+      "model-routing": 1,
+      "usage-analytics": 1,
+      "agent-runtime": 3,
+      "mcp-support": 4,
+      "self-hosted": 1,
+      "notifications": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 55,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "OAuth login flow",
+        "sign-in required",
+        "API token/secret",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, OAuth login flow",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration、OAuth login flow"
+    },
+    "doc_score": 71,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "LoopForge is a self-hosted workspace where your team ships software with coding agents.",
+    "summary_zh": "",
+    "install_hint": "npx -y loopforge-cli@latest install claude",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.044
+    },
+    "highlights": [
+      "Hacking on LoopForge itself? bash scripts/dev.sh runs it natively (Go 1.26.11+).",
+      "Your stack, your servers. Ten coding-agent CLIs as executors, from CodeBuddy, Codex and Claude Code to OpenCode, Cursor CLI and more. GitHub, Skills and MCP as tools. Docker sandboxes or yo…",
+      "Click Run SOP. A real script writes a report, then the run waits for you at the approval step."
+    ],
+    "summary_zh_native": "LoopForge 是一个可自主部署的团队工作台，让你和编程 Agent 一起交付软件。在对话里把需求告诉 Main Bot：它会按需打开 Docker 沙箱、检出项目仓库、把任务分派给项目角色，最后提交 PR。某种做法被验证有效后，把它存成 SOP（由 Agent、脚本和人工关口组成的标准交付流程），下一个需求就按同样的方式交付，评审和验收都在流程里。",
+    "highlights_zh": [
+      "技术栈和服务器都是你的。 执行器支持 10 种编程 Agent CLI，从 CodeBuddy、Codex、Claude Code 到 OpenCode、Cursor CLI 等；工具接入 GitHub、Skills、MCP；运行环境可选 Docker 沙箱或你自己的机器。",
+      "参与 LoopForge 本身的开发？ 用 bash scripts/dev.sh 原生运行（需要 Go 1.26.11+）。",
+      "沙箱。 默认 Compose 安装中，SOP 运行和对话工作区都使用 Docker 沙箱容器，由平台通过宿主机 Docker socket 启动；默认沙箱复用已安装的运行镜像，安装后无需再构建；自定义 Dockerfile 仍单独构建。Docker socket 赋予平台控制宿主机 Docker 的权限，因此只适用于可信团队，不构成不可信多租户隔离边界；详见部署边界。重复执行…",
+      "执行器。 在首页输入框旁从 10 种 CLI 中选择一种，再选择模型。每个 SOP 角色都可以独立选择执行器（内置角色默认 CodeBuddy）。需求澄清、通知 AI 汇总、Bot 回复和运行评测目前使用 CodeBuddy，这些入口的模型列表只列 CodeBuddy 模型，服务端收到其他 CLI 的模型会直接拒绝并说明原因，不会悄悄换成 CodeBuddy；定时助手任务使用…"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-18T13:04:03+00:00",
+  "categories": [
+    "failover",
+    "isolation-teams",
+    "teams-self-hosting"
+  ],
+  "primary_category": "teams-self-hosting",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (9/9).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (9/9)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "tencent/loopforge",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "Tencent/LoopForge",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "model-routing",
+        "multi-agent-orchestration",
+        "notifications",
+        "self-hosted",
+        "usage-analytics",
+        "worktree-isolation"
+      ],
+      "star_ratio": 30.86,
+      "momentum_ratio": 7.2,
+      "setup_delta": -10,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (9/9)",
+        "30.86x the stars (114,706 vs 3,717)",
+        "7.20x the star velocity (236.8/day vs 32.9/day)",
+        "no harder to set up (45 vs 55 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "self-hosted",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 63,
+        "challenger_health": 89,
+        "incumbent_setup_score": 55,
+        "challenger_setup_score": 45
+      }
+    }
+  }
+}

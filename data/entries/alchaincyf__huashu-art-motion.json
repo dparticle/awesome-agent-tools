@@ -6,8 +6,8 @@
   "url": "https://github.com/alchaincyf/huashu-art-motion",
   "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
   "homepage": "",
-  "stars": 7102,
-  "forks": 700,
+  "stars": 7189,
+  "forks": 705,
   "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
@@ -26,33 +26,33 @@
     "video"
   ],
   "created_at": "2026-10-06T04:49:37Z",
-  "updated_at": "2026-11-17T12:48:25Z",
-  "pushed_at": "2026-11-15T08:20:05Z",
+  "updated_at": "2026-11-18T12:45:42Z",
+  "pushed_at": "2026-11-18T06:14:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 42,
-  "days_since_push": 2,
-  "health_score": 75,
+  "age_days": 43,
+  "days_since_push": 0,
+  "health_score": 76,
   "health_components": {
-    "popularity": 77.0,
-    "momentum": 51.2,
+    "popularity": 77.1,
+    "momentum": 56.0,
     "maintenance": 100.0,
     "documentation": 58.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 307,
+    "stars_gained": 336,
     "days_span": 5,
-    "stars_per_day": 61.4,
-    "lifetime_stars_per_day": 169.1,
+    "stars_per_day": 67.2,
+    "lifetime_stars_per_day": 167.19,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "alchaincyf/huashu-art-motion",
-    "readme_chars": 12132,
+    "readme_chars": 12167,
     "capabilities": [
       "auto-failover",
       "skills-plugins",
@@ -61,7 +61,7 @@
     "capability_evidence": {
       "auto-failover": "dex在线回归通过，Claude Code/Kimi在线回归受测试账户条件阻塞，待补验。",
       "skills-plugins": "e glad to see this approach to art animation used in another open-source project, and thank the Open Design team.",
-      "agent-runtime": "；《Clawd 博物馆奇妙夜》是非官方的同人示范，与 Anthropic 无关，GIF 与成片同样不随 MIT 授权。"
+      "agent-runtime": "简体中文 English Bahasa Indonesia"
     },
     "capability_hits": {
       "auto-failover": 1,
@@ -99,7 +99,7 @@
     "agents": [
       "Claude Code"
     ],
-    "summary_en": "让你的coding agent，把艺术风格写成会动的画。",
+    "summary_en": "简体中文 | English | Bahasa Indonesia",
     "summary_zh": "",
     "install_hint": "npx skills add alchaincyf/huashu-art-motion",
     "source": "raw:HEAD/README.md",
@@ -109,7 +109,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 2.143
+      "external_link_ratio": 2.137
     },
     "highlights": [
       "兼容性与验证范围：三家安装重装通过；Codex在线回归通过，Claude Code/Kimi在线回归受测试账户条件阻塞，待补验。",
@@ -126,7 +126,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:35+00:00",
+  "fetched_at": "2026-11-18T13:03:55+00:00",
   "categories": [
     "failover",
     "failover-2"

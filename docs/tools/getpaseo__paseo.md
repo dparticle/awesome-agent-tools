@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 24,233 |
-| Star velocity | 70.8/day (history basis, 5d span) |
-| Health score | 77/100 |
+| Stars | 24,335 |
+| Star velocity | 74.2/day (history basis, 5d span) |
+| Health score | 78/100 |
 | Documentation | 51/100 |
-| Tier | ✅ Recommended |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2025-10-13 |
-| Last push | 2026-11-17 (0 days ago) |
-| Analyzed README | 8,981 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 9,281 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -70,7 +70,7 @@
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Copilot, OpenCode
+> Mentions Claude Code, Codex, Copilot, Cursor
 
 ## Setup reality check
 
@@ -105,7 +105,7 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 87.7 |
-| momentum | 59.0 |
+| momentum | 61.8 |
 | maintenance | 100.0 |
 | documentation | 51.0 |
 | accessibility | 84.0 |

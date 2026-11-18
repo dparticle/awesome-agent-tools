@@ -6,7 +6,7 @@
   "url": "https://github.com/Folkbench/folkbench",
   "description": "AI API 中转站推荐与评测：中转站排行榜、中转站检测、Claude / GPT / Gemini 中转站对比 · AI API relay rankings · Folkbench Switch for Claude Code, Codex & Gemini CLI",
   "homepage": "https://folkbench.com",
-  "stars": 3943,
+  "stars": 3966,
   "forks": 19,
   "open_issues": 0,
   "language": "TypeScript",
@@ -34,54 +34,57 @@
     "tauri"
   ],
   "created_at": "2026-10-02T09:50:45Z",
-  "updated_at": "2026-11-17T13:18:56Z",
-  "pushed_at": "2026-11-17T07:58:21Z",
+  "updated_at": "2026-11-18T11:47:09Z",
+  "pushed_at": "2026-11-18T07:15:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 46,
+  "age_days": 47,
   "days_since_push": 0,
-  "health_score": 62,
+  "health_score": 63,
   "health_components": {
-    "popularity": 71.9,
-    "momentum": 29.8,
+    "popularity": 72.0,
+    "momentum": 33.5,
     "maintenance": 100.0,
-    "documentation": 41.0,
+    "documentation": 42.0,
     "accessibility": 67.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 179,
+    "stars_gained": 201,
     "days_span": 5,
-    "stars_per_day": 35.8,
-    "lifetime_stars_per_day": 85.72,
+    "stars_per_day": 40.2,
+    "lifetime_stars_per_day": 84.38,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Folkbench/folkbench",
-    "readme_chars": 18121,
+    "readme_chars": 20214,
     "capabilities": [
       "quota-management",
       "model-routing",
       "api-gateway",
       "billing-metering",
+      "security-isolation",
       "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "quota-management": "",
+      "quota-management": "是一个面向开发者与团队的 AI API 网关：提供满血且稳定的全球模型，支持 GPT、Claude、Gemini、Deepseek、GLM 等主流模型和全球主流模型厂商协议，平台提供策略路由与多线路容灾，方便国内团队长期接入与成本核算。",
       "model-routing": "",
-      "api-gateway": "含评测方法、模型资料和读者投稿，现有内容覆盖 12 种语言。",
-      "billing-metering": "型与分组，用相同任务比较回答、长文本处理和工具调用表现；能返回内容不代表模型符合预期。",
+      "api-gateway": "",
+      "billing-metering": "I Key 可以配置有序回退，一把 API Key 可以调用多个模型，Key 还可以设置备用分组，并且从请求日志里能看到状态、延迟、Token 和实际费用。",
+      "security-isolation": "",
       "gui-desktop": "Switch 是基于 Tauri + Rust 的开源桌面客户端。",
       "cross-agent-support": "Mentions Aider, Claude Code, Codex, Gemini CLI"
     },
     "capability_hits": {
-      "quota-management": 1,
+      "quota-management": 2,
       "model-routing": 1,
       "api-gateway": 1,
-      "billing-metering": 5,
+      "billing-metering": 8,
+      "security-isolation": 1,
       "gui-desktop": 2,
       "cross-agent-support": 6
     },
@@ -107,7 +110,7 @@
       "note_en": "Some setup. configure API key configuration, config.json/yaml/toml; GUI application",
       "note_zh": "需要一些配置。需配置 API key configuration、config.json/yaml/toml；GUI application"
     },
-    "doc_score": 41,
+    "doc_score": 42,
     "doc_signals": [
       "contains screenshots/diagrams",
       "has section headings",
@@ -115,7 +118,8 @@
       "documents configuration",
       "mentions licensing",
       "has a table of contents",
-      "reports benchmarks"
+      "reports benchmarks",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -136,13 +140,13 @@
         "bullet list of external links",
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 3.146
+      "external_link_ratio": 3.512
     },
     "highlights": [
+      "一键切换配置： 选好线路后，用 Folkbench Switch 在 Claude Code、Codex 和 Gemini CLI 之间切换中转站配置。",
       "阅读与投稿：Folkbench 博客，包含评测方法、模型资料和读者投稿，现有内容覆盖 12 种语言。",
-      "不要外贴 Key：向中转站反馈故障或在 GitHub 提交问题时，遮盖 API Key、令牌和含凭据的截图。",
-      "反馈问题：提交 Issue，附上复现步骤与版本信息；不要粘贴 API Key 或包含凭据的配置。",
-      "不要大额充值：按近期用量控制中转站余额，避免为了折扣长期囤款。"
+      "Claude Code 中转站： 先看 Claude 中转站测评，对比可用率、首字延迟和会话成本。",
+      "Codex 中转站： 先看 GPT / Codex 中转站测评。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -153,10 +157,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:39+00:00",
+  "fetched_at": "2026-11-18T13:04:02+00:00",
   "categories": [
     "billing",
-    "billing-2"
+    "billing-2",
+    "mcp-security"
   ],
   "primary_category": "billing-2",
   "lifecycle": {

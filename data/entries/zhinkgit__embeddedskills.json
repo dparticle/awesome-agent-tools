@@ -6,9 +6,9 @@
   "url": "https://github.com/zhinkgit/embeddedskills",
   "description": "An open-source collection of embedded development and debugging skills for Claude Code, Copilot, TRAE, and other AI coding assistants that support the Skill protocol. Once installed, the AI assistant can directly operate compilers, debuggers, and communication buses, automating the full workflow from code generation to hardware verification.",
   "homepage": "",
-  "stars": 801,
+  "stars": 802,
   "forks": 100,
-  "open_issues": 1,
+  "open_issues": 2,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -33,18 +33,18 @@
     "workflow"
   ],
   "created_at": "2026-04-10T09:27:48Z",
-  "updated_at": "2026-11-17T01:24:00Z",
-  "pushed_at": "2026-10-20T02:23:22Z",
+  "updated_at": "2026-11-18T01:21:42Z",
+  "pushed_at": "2026-11-18T09:01:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 221,
-  "days_since_push": 28,
-  "health_score": 53,
+  "age_days": 222,
+  "days_since_push": 0,
+  "health_score": 54,
   "health_components": {
     "popularity": 58.1,
     "momentum": 0.7,
-    "maintenance": 92.0,
+    "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 82.0
   },
@@ -53,27 +53,24 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 3.62,
+    "lifetime_stars_per_day": 3.61,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "zhinkgit/embeddedskills",
-    "readme_chars": 7869,
+    "readme_chars": 7586,
     "capabilities": [
-      "multi-agent-orchestration",
       "agent-runtime",
       "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-agent-orchestration": "",
       "agent-runtime": "",
       "gui-desktop": "be-rs 可自由正交组合，六种搭配均可开箱即用。",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
     },
     "capability_hits": {
-      "multi-agent-orchestration": 1,
       "agent-runtime": 1,
       "gui-desktop": 2,
       "cross-agent-support": 3
@@ -126,7 +123,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.271
+      "external_link_ratio": 1.318
     },
     "highlights": [
       "Cursor、Kiro、Windsurf 等其他支持 Skill 协议的工具"
@@ -140,7 +137,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:23+00:00",
+  "fetched_at": "2026-11-18T13:05:08+00:00",
   "categories": [
     "desktop-ui"
   ],

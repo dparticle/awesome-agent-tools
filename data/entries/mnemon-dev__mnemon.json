@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 270,
-  "days_since_push": 0,
+  "age_days": 271,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 57.1,
@@ -51,7 +51,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 2.67,
+    "lifetime_stars_per_day": 2.66,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -158,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:25+00:00",
+  "fetched_at": "2026-11-18T13:05:12+00:00",
   "categories": [
     "desktop-ui-2",
     "mcp-security",

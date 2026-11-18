@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 16,039 |
-| Star velocity | 66.2/day (history basis, 5d span) |
-| Health score | 75/100 |
+| Stars | 16,095 |
+| Star velocity | 64.6/day (history basis, 5d span) |
+| Health score | 74/100 |
 | Documentation | 71/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-05-21 |
-| Last push | 2026-11-17 (0 days ago) |
-| Analyzed README | 47,344 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 47,488 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,11 +32,7 @@
 
 ### Model / provider routing
 
-> s session summaries and enables semantic search.
-
 ### API gateway / proxy
-
-> s session summaries and enables semantic search.
 
 ### Memory & context
 
@@ -103,7 +99,7 @@ Score **71/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 84.1 |
-| momentum | 55.2 |
+| momentum | 53.8 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 54.0 |

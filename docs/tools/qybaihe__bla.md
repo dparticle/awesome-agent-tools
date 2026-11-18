@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,021 |
-| Star velocity | 123.4/day (history basis, 5d span) |
+| Stars | 6,108 |
+| Star velocity | 119.0/day (history basis, 5d span) |
 | Health score | 86/100 |
-| Documentation | 77/100 |
+| Documentation | 79/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-25 |
-| Last push | 2026-11-17 (0 days ago) |
-| Analyzed README | 21,957 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 25,919 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### GUI / desktop app
 
-> et Breakers) Trips exact analyzer limits (primitive-candidates, alias-selections, ASAR 16 MiB header, WASM Wabt representation, SQLite virtual column eval, Model 32-level nesting, PCAP tshark JSON, Electron 32 fuse sent…
+> lyzer's default limits (primitive-candidates, alias-selections, ASAR 16 MiB header, WASM Wabt representation, SQLite virtual column eval, Model 32-level nesting, PCAP tshark field pass (fixed 8 MiB), Electron 32 fuse se…
 
 ### Cross-agent support
 
@@ -51,7 +51,7 @@
 - **Difficulty:** 🟢 Easy (friction score 32/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx bla-agents harden .`
+- **Quickest install:** `npx bla-agents harden .            # writes a partial mirror to .bla-hardened/ — nothing ships yet`
 
 **Signals that make it easy:** npx one-liner
 
@@ -63,7 +63,7 @@
 
 ## Documentation quality
 
-Score **77/100**, based on these detected signals:
+Score **79/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -84,10 +84,10 @@ Score **77/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.6 |
-| momentum | 100.0 |
+| popularity | 75.7 |
+| momentum | 99.2 |
 | maintenance | 100.0 |
-| documentation | 77.0 |
+| documentation | 79.0 |
 | accessibility | 68.0 |
 
 ---

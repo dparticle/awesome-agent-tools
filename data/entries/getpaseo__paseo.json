@@ -6,9 +6,9 @@
   "url": "https://github.com/getpaseo/paseo",
   "description": "Orchestrate multiple coding agents from desktop and mobile",
   "homepage": "https://paseo.sh",
-  "stars": 24233,
-  "forks": 3000,
-  "open_issues": 2145,
+  "stars": 24335,
+  "forks": 3020,
+  "open_issues": 2174,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -29,33 +29,33 @@
     "windows"
   ],
   "created_at": "2025-10-13T12:27:02Z",
-  "updated_at": "2026-11-17T12:36:57Z",
-  "pushed_at": "2026-11-17T12:53:58Z",
+  "updated_at": "2026-11-18T12:53:12Z",
+  "pushed_at": "2026-11-18T12:55:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 400,
+  "age_days": 401,
   "days_since_push": 0,
-  "health_score": 77,
+  "health_score": 78,
   "health_components": {
     "popularity": 87.7,
-    "momentum": 59.0,
+    "momentum": 61.8,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 84.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 354,
+    "stars_gained": 371,
     "days_span": 5,
-    "stars_per_day": 70.8,
-    "lifetime_stars_per_day": 60.58,
+    "stars_per_day": 74.2,
+    "lifetime_stars_per_day": 60.69,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "getpaseo/paseo",
-    "readme_chars": 8981,
+    "readme_chars": 9281,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -82,7 +82,7 @@
       "self-hosted": ", launch other agents, and talk to them, across providers.",
       "gui-desktop": "e for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code agents.",
       "voice-input": "Use your tools, your configs, and your skills.",
-      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, OpenCode"
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
       "remote-control": 2,
@@ -96,7 +96,7 @@
       "self-hosted": 2,
       "gui-desktop": 4,
       "voice-input": 1,
-      "cross-agent-support": 4
+      "cross-agent-support": 6
     },
     "friction": {
       "level": "low",
@@ -139,7 +139,9 @@
     "agents": [
       "Claude Code",
       "Codex",
+      "Gemini CLI",
       "OpenCode",
+      "Cursor",
       "Copilot"
     ],
     "summary_en": "Paseo is an open source agentic development environment for desktop, mobile, web, and CLI.",
@@ -152,7 +154,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.561
+      "external_link_ratio": 2.801
     },
     "highlights": [
       "Cross-device: iOS, Android, desktop, web, and CLI.",
@@ -174,9 +176,9 @@
     "seed_reason": "Orchestrate several coding agents from desktop and mobile; easier on-ramp than Orca.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-17T13:26:19+00:00",
+  "fetched_at": "2026-11-18T13:03:33+00:00",
   "categories": [
-    "desktop-ui",
+    "isolation-teams",
     "mobile",
     "sharing"
   ],

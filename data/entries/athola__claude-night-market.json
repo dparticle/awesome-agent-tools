@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 359,
-  "days_since_push": 0,
+  "age_days": 360,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 50.9,
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:45+00:00",
+  "fetched_at": "2026-11-18T13:05:43+00:00",
   "categories": [
     "desktop-ui-2"
   ],
@@ -168,14 +168,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 142.457,
-      "momentum_ratio": 1088.0,
+      "star_ratio": 142.663,
+      "momentum_ratio": 1192.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "142.46x the stars (49,860 vs 350)",
-        "1088.00x the star velocity (54.4/day vs 0.0/day)",
+        "142.66x the stars (49,932 vs 350)",
+        "1192.00x the star velocity (59.6/day vs 0.0/day)",
         "no harder to set up (32 vs 42 friction)"
       ],
       "reasons_zh": [],
@@ -203,7 +203,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 52,
-        "challenger_health": 78,
+        "challenger_health": 80,
         "incumbent_setup_score": 42,
         "challenger_setup_score": 32
       }

@@ -6,9 +6,9 @@
   "url": "https://github.com/qybaihe/bla",
   "description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
   "homepage": "https://bla.tools",
-  "stars": 6021,
-  "forks": 746,
-  "open_issues": 1,
+  "stars": 6108,
+  "forks": 760,
+  "open_issues": 6,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -33,33 +33,33 @@
     "webassembly"
   ],
   "created_at": "2026-10-25T05:25:45Z",
-  "updated_at": "2026-11-17T12:56:18Z",
-  "pushed_at": "2026-11-17T06:43:37Z",
+  "updated_at": "2026-11-18T12:50:23Z",
+  "pushed_at": "2026-11-18T08:12:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 23,
+  "age_days": 24,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
-    "popularity": 75.6,
-    "momentum": 100.0,
+    "popularity": 75.7,
+    "momentum": 99.2,
     "maintenance": 100.0,
-    "documentation": 77.0,
+    "documentation": 79.0,
     "accessibility": 68.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 617,
+    "stars_gained": 595,
     "days_span": 5,
-    "stars_per_day": 123.4,
-    "lifetime_stars_per_day": 261.78,
+    "stars_per_day": 119.0,
+    "lifetime_stars_per_day": 254.5,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "qybaihe/bla",
-    "readme_chars": 21957,
+    "readme_chars": 25919,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
@@ -71,7 +71,7 @@
       "multi-agent-orchestration": "ur coding agent (**Claude Code, Cursor, Codex, Windsurf, Gemini CLI, GitHub Copilot CLI, VS Code, OpenCode, Antigravity**):",
       "agent-runtime": "al property and release artifacts.",
       "mcp-support": "aliano · Ελληνικά · മലയാളം · Roman Urdu · Română",
-      "gui-desktop": "et Breakers) Trips exact analyzer limits (primitive-candidates, alias-selections, ASAR 16 MiB header, WASM Wabt representation, SQLite virtual column eval, Model 32-level nesting, PCAP tshark JSON, Electron 32 fuse sent…",
+      "gui-desktop": "lyzer's default limits (primitive-candidates, alias-selections, ASAR 16 MiB header, WASM Wabt representation, SQLite virtual column eval, Model 32-level nesting, PCAP tshark field pass (fixed 8 MiB), Electron 32 fuse se…",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
@@ -102,6 +102,7 @@
         "GUI application"
       ],
       "platforms": [
+        "macOS",
         "Windows",
         "Linux",
         "Android"
@@ -109,7 +110,7 @@
       "note_en": "Easy. install via npx one-liner; needs npm install/build, go build; configure config.json/yaml/toml, database dependency; one-click setup",
       "note_zh": "较易上手。可通过 npx one-liner 安装；需要 npm install/build、go build；需配置 config.json/yaml/toml、database dependency；one-click setup"
     },
-    "doc_score": 77,
+    "doc_score": 79,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -136,13 +137,13 @@
     ],
     "summary_en": "English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu · Română",
     "summary_zh": "",
-    "install_hint": "npx bla-agents harden .",
+    "install_hint": "npx bla-agents harden .            # writes a partial mirror to .bla-hardened/ — nothing ships yet",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.774
+      "external_link_ratio": 0.656
     },
     "highlights": [
       "🛠️ CLI & 31-Tool MCP Catalog"
@@ -156,7 +157,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:36+00:00",
+  "fetched_at": "2026-11-18T13:03:57+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",

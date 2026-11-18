@@ -6,8 +6,8 @@
   "url": "https://github.com/crshdn/mission-control",
   "description": "The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted via OpenClaw Gateway.",
   "homepage": "https://autensa.com",
-  "stars": 2160,
-  "forks": 436,
+  "stars": 2162,
+  "forks": 435,
   "open_issues": 21,
   "language": "TypeScript",
   "license": "MIT",
@@ -17,27 +17,27 @@
     "openclaw"
   ],
   "created_at": "2026-01-31T13:27:48Z",
-  "updated_at": "2026-11-12T00:57:05Z",
+  "updated_at": "2026-11-17T18:38:41Z",
   "pushed_at": "2026-09-16T14:49:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 289,
-  "days_since_push": 61,
+  "age_days": 290,
+  "days_since_push": 62,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
-    "momentum": 0.0,
+    "momentum": 0.3,
     "maintenance": 78.0,
     "documentation": 73.0,
     "accessibility": 33.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 7.47,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 7.46,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,11 +149,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:09+00:00",
+  "fetched_at": "2026-11-18T13:04:47+00:00",
   "categories": [
-    "isolation-teams",
-    "parallelism",
-    "teams-self-hosting"
+    "isolation-teams"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

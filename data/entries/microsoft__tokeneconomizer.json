@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/TokenEconomizer",
   "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
   "homepage": "",
-  "stars": 7405,
-  "forks": 497,
-  "open_issues": 35,
+  "stars": 7612,
+  "forks": 520,
+  "open_issues": 30,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -33,16 +33,16 @@
     "token-optimization"
   ],
   "created_at": "2026-10-13T04:16:50Z",
-  "updated_at": "2026-11-17T13:17:02Z",
-  "pushed_at": "2026-11-17T07:56:35Z",
+  "updated_at": "2026-11-18T13:01:42Z",
+  "pushed_at": "2026-11-18T05:47:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 35,
+  "age_days": 36,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 77.4,
+    "popularity": 77.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 61.0,
@@ -50,16 +50,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1572,
+    "stars_gained": 1615,
     "days_span": 5,
-    "stars_per_day": 314.4,
-    "lifetime_stars_per_day": 211.57,
+    "stars_per_day": 323.0,
+    "lifetime_stars_per_day": 211.44,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "microsoft/TokenEconomizer",
-    "readme_chars": 32779,
+    "readme_chars": 32763,
     "capabilities": [
       "multi-agent-orchestration",
       "session-persistence",
@@ -164,7 +164,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:34+00:00",
+  "fetched_at": "2026-11-18T13:03:53+00:00",
   "categories": [
     "desktop-ui",
     "mobile",

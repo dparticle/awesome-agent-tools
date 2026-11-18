@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 180,
-  "days_since_push": 0,
+  "age_days": 181,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 51.4,
@@ -49,7 +49,7 @@
     "stars_gained": 6,
     "days_span": 5,
     "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 2.07,
+    "lifetime_stars_per_day": 2.06,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -125,7 +125,7 @@
       "Evidence-фильтр (фаза 5.5) — CRAG-классификатор keep/drop по паре (тезис, источник) перед синтезом: наивная подача всего найденного снижает качество (Search-o1 33%→24%), в синтез идут тольк…",
       "Evidence filter (5.5) — a CRAG-style relevance classifier runs on every (claim, source) pair before synthesis and keeps only the quotes that actually support that specific claim.",
       "Plan-review gate (фаза 3.7) — единственная human-in-the-loop точка перед дорогой Фазой 4: план (гипотезы, жанр, каналы) показывается и утверждается ДО поиска; жёсткость по режиму (deep — жд…",
-      "No-progress circuit breaker (фаза 4) — 2 раунда подряд без новой информации → стоп, нерешённое уходит в Open Questions вместо сжигания бюджета"
+      "29 каналов поиска с paywall fallback протоколом (включая api-direct)"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:43+00:00",
+  "fetched_at": "2026-11-18T13:05:40+00:00",
   "categories": [
     "desktop-ui-2",
     "failover"
@@ -163,14 +163,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 133.673,
-      "momentum_ratio": 45.333,
+      "star_ratio": 133.866,
+      "momentum_ratio": 49.667,
       "setup_delta": -19,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "133.67x the stars (49,860 vs 373)",
-        "45.33x the star velocity (54.4/day vs 1.2/day)",
+        "133.87x the stars (49,932 vs 373)",
+        "49.67x the star velocity (59.6/day vs 1.2/day)",
         "no harder to set up (32 vs 51 friction)"
       ],
       "reasons_zh": [],
@@ -198,7 +198,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 52,
-        "challenger_health": 78,
+        "challenger_health": 80,
         "incumbent_setup_score": 51,
         "challenger_setup_score": 32
       }

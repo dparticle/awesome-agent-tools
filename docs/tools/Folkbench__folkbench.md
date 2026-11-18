@@ -12,31 +12,33 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,943 |
-| Star velocity | 35.8/day (history basis, 5d span) |
-| Health score | 62/100 |
-| Documentation | 41/100 |
+| Stars | 3,966 |
+| Star velocity | 40.2/day (history basis, 5d span) |
+| Health score | 63/100 |
+| Documentation | 42/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-10-02 |
-| Last push | 2026-11-17 (0 days ago) |
-| Analyzed README | 18,121 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 20,214 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Quota & usage management
 
+> 是一个面向开发者与团队的 AI API 网关：提供满血且稳定的全球模型，支持 GPT、Claude、Gemini、Deepseek、GLM 等主流模型和全球主流模型厂商协议，平台提供策略路由与多线路容灾，方便国内团队长期接入与成本核算。
+
 ### Model / provider routing
 
 ### API gateway / proxy
 
-> 含评测方法、模型资料和读者投稿，现有内容覆盖 12 种语言。
-
 ### Billing & metering
 
-> 型与分组，用相同任务比较回答、长文本处理和工具调用表现；能返回内容不代表模型符合预期。
+> I Key 可以配置有序回退，一把 API Key 可以调用多个模型，Key 还可以设置备用分组，并且从请求日志里能看到状态、延迟、Token 和实际费用。
+
+### Security & isolation
 
 ### GUI / desktop app
 
@@ -58,7 +60,7 @@
 
 ## Documentation quality
 
-Score **41/100**, based on these detected signals:
+Score **42/100**, based on these detected signals:
 
 - contains screenshots/diagrams
 - has section headings
@@ -67,15 +69,16 @@ Score **41/100**, based on these detected signals:
 - mentions licensing
 - has a table of contents
 - reports benchmarks
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.9 |
-| momentum | 29.8 |
+| popularity | 72.0 |
+| momentum | 33.5 |
 | maintenance | 100.0 |
-| documentation | 41.0 |
+| documentation | 42.0 |
 | accessibility | 67.0 |
 
 ---

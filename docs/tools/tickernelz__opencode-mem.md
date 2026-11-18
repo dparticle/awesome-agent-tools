@@ -2,7 +2,7 @@
 
 # tickernelz/opencode-mem
 
-> Languages: 🇬🇧 | 🇩🇪 | 🇨🇳 | 🇸🇦 | 🇹🇷 | 🇳🇱
+> Languages: 🇬🇧 | 🇩🇪 | 🇨🇳 | 🇸🇦 | 🇹🇷 | 🇳🇱 | 🇫🇷
 
 [Repository](https://github.com/tickernelz/opencode-mem) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,869 |
-| Star velocity | 2.4/day (history basis, 5d span) |
-| Health score | 55/100 |
+| Stars | 1,872 |
+| Star velocity | 3.0/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 74/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-01-10 |
-| Last push | 2026-11-16 (1 days ago) |
-| Analyzed README | 70,077 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-18 (0 days ago) |
+| Analyzed README | 70,129 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -106,7 +106,7 @@ Score **74/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 65.4 |
-| momentum | 2.0 |
+| momentum | 2.5 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
 | accessibility | 40.0 |

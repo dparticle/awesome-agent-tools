@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 7720,
   "forks": 708,
-  "open_issues": 21,
+  "open_issues": 22,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -20,29 +20,29 @@
     "oauth"
   ],
   "created_at": "2026-08-28T12:57:24Z",
-  "updated_at": "2026-11-17T12:36:21Z",
+  "updated_at": "2026-11-18T10:31:51Z",
   "pushed_at": "2026-10-01T05:19:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 81,
-  "days_since_push": 47,
+  "age_days": 82,
+  "days_since_push": 48,
   "health_score": 51,
   "health_components": {
     "popularity": 77.8,
-    "momentum": 3.7,
+    "momentum": 3.2,
     "maintenance": 78.0,
     "documentation": 50.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 22,
+    "stars_gained": 19,
     "days_span": 5,
-    "stars_per_day": 4.4,
-    "lifetime_stars_per_day": 95.31,
+    "stars_per_day": 3.8,
+    "lifetime_stars_per_day": 94.15,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "XiaoDuoYa/codex-with-chatgpt",
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:32+00:00",
+  "fetched_at": "2026-11-18T13:03:53+00:00",
   "categories": [
     "billing",
     "desktop-ui-2",

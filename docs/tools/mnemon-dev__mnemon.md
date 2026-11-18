@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-02-20 |
-| Last push | 2026-11-17 (0 days ago) |
+| Last push | 2026-11-17 (1 days ago) |
 | Analyzed README | 29,821 chars from `raw:HEAD/README.md` |
 
 ## What it solves

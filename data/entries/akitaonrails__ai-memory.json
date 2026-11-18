@@ -6,40 +6,40 @@
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
   "homepage": "",
-  "stars": 16039,
-  "forks": 1203,
-  "open_issues": 26,
+  "stars": 16095,
+  "forks": 1204,
+  "open_issues": 24,
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-21T23:23:51Z",
-  "updated_at": "2026-11-17T12:40:58Z",
-  "pushed_at": "2026-11-17T02:21:42Z",
+  "updated_at": "2026-11-18T12:43:05Z",
+  "pushed_at": "2026-11-18T03:00:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 179,
+  "age_days": 180,
   "days_since_push": 0,
-  "health_score": 75,
+  "health_score": 74,
   "health_components": {
     "popularity": 84.1,
-    "momentum": 55.2,
+    "momentum": 53.8,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 54.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 331,
+    "stars_gained": 323,
     "days_span": 5,
-    "stars_per_day": 66.2,
-    "lifetime_stars_per_day": 89.6,
+    "stars_per_day": 64.6,
+    "lifetime_stars_per_day": 89.42,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "akitaonrails/ai-memory",
-    "readme_chars": 47344,
+    "readme_chars": 47488,
     "capabilities": [
       "worktree-isolation",
       "model-routing",
@@ -55,8 +55,8 @@
     ],
     "capability_evidence": {
       "worktree-isolation": "box/queue plus the on-start \"you have mail\" notice.",
-      "model-routing": "s session summaries and enables semantic search.",
-      "api-gateway": "s session summaries and enables semantic search.",
+      "model-routing": "",
+      "api-gateway": "",
       "memory-context": "> Long-term memory for AI coding agents.",
       "skills-plugins": "",
       "agent-runtime": "> Long-term memory for AI coding agents.",
@@ -151,7 +151,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.317
+      "external_link_ratio": 0.316
     },
     "highlights": [
       "Investigate Claude Code and Codex response-token usage in the project"
@@ -165,9 +165,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:58+00:00",
+  "fetched_at": "2026-11-18T13:04:32+00:00",
   "categories": [
-    "failover",
+    "desktop-ui",
     "mcp-security",
     "teams-self-hosting"
   ],

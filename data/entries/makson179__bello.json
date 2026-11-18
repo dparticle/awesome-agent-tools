@@ -6,8 +6,8 @@
   "url": "https://github.com/Makson179/Bello",
   "description": "3x more usage on your coding agent, same quality. Have an multi-agent setup in mind? Bello already supports it. Mix models, run agents in parallel, have them check each other’s work, and reduce unnecessary model calls and noisy tool output. Turn on only what you need.",
   "homepage": "",
-  "stars": 364,
-  "forks": 39,
+  "stars": 388,
+  "forks": 47,
   "open_issues": 5,
   "language": "Python",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "software-engineering"
   ],
   "created_at": "2026-05-24T12:11:37Z",
-  "updated_at": "2026-11-17T13:02:28Z",
+  "updated_at": "2026-11-18T12:06:12Z",
   "pushed_at": "2026-11-07T15:19:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 177,
-  "days_since_push": 9,
+  "age_days": 178,
+  "days_since_push": 10,
   "health_score": 50,
   "health_components": {
-    "popularity": 51.2,
-    "momentum": 1.7,
+    "popularity": 51.8,
+    "momentum": 1.8,
     "maintenance": 92.0,
     "documentation": 52.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 364,
-    "days_span": 177,
-    "stars_per_day": 2.06,
-    "lifetime_stars_per_day": 2.06,
+    "stars_gained": 388,
+    "days_span": 178,
+    "stars_per_day": 2.18,
+    "lifetime_stars_per_day": 2.18,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -142,10 +142,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:44+00:00",
+  "fetched_at": "2026-11-18T13:05:40+00:00",
   "categories": [
-    "billing",
-    "desktop-ui"
+    "billing"
   ],
   "primary_category": "billing",
   "lifecycle": {

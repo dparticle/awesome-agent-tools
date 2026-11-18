@@ -7,7 +7,7 @@
   "description": "Enterprise Distributed Automation Platform for massive concurrent workload execution. Unifies elastic cluster orchestration, multi-channel identity verification messaging, real-time ops telemetry, and multi-warehouse lifecycle control (CPA / Sub2API / Image2API) in one high-throughput control plane.",
   "homepage": "",
   "stars": 1405,
-  "forks": 436,
+  "forks": 435,
   "open_issues": 12,
   "language": "",
   "license": "NOASSERTION",
@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 239,
-  "days_since_push": 0,
+  "age_days": 240,
+  "days_since_push": 1,
   "health_score": 54,
   "health_components": {
     "popularity": 63.0,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 43.0
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 2,
-    "days_span": 6,
-    "stars_per_day": 0.33,
-    "lifetime_stars_per_day": 5.88,
+    "days_span": 7,
+    "stars_per_day": 0.29,
+    "lifetime_stars_per_day": 5.85,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:14+00:00",
+  "fetched_at": "2026-11-18T13:04:55+00:00",
   "categories": [
     "desktop-ui-2",
     "mobile"
@@ -158,14 +158,14 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 100.975,
-      "momentum_ratio": 324.848,
+      "star_ratio": 101.049,
+      "momentum_ratio": 377.241,
       "setup_delta": -18,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "100.98x the stars (141,870 vs 1,405)",
-        "324.85x the star velocity (107.2/day vs 0.3/day)",
+        "101.05x the stars (141,974 vs 1,405)",
+        "377.24x the star velocity (109.4/day vs 0.3/day)",
         "no harder to set up (39 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -190,7 +190,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 54,
-        "challenger_health": 88,
+        "challenger_health": 89,
         "incumbent_setup_score": 57,
         "challenger_setup_score": 39
       }

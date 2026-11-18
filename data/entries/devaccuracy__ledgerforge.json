@@ -6,8 +6,8 @@
   "url": "https://github.com/devaccuracy/ledgerforge",
   "description": "The ledger for AI-native money movement. An open-source double-entry ledger for wallets, payouts, marketplaces and billing, with exact integer money, a verifiable audit chain, server-enforced spending limits and approvals for AI agents, and an MCP server. Apache 2.0.",
   "homepage": "https://ledgerforge.io",
-  "stars": 311,
-  "forks": 32,
+  "stars": 336,
+  "forks": 34,
   "open_issues": 11,
   "language": "Go",
   "license": "Apache-2.0",
@@ -21,27 +21,27 @@
     "wallet"
   ],
   "created_at": "2026-05-10T09:41:41Z",
-  "updated_at": "2026-11-14T22:37:35Z",
+  "updated_at": "2026-11-18T04:25:19Z",
   "pushed_at": "2026-10-16T14:24:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 191,
-  "days_since_push": 31,
-  "health_score": 44,
+  "age_days": 192,
+  "days_since_push": 32,
+  "health_score": 45,
   "health_components": {
-    "popularity": 49.9,
-    "momentum": 1.4,
+    "popularity": 50.5,
+    "momentum": 1.5,
     "maintenance": 78.0,
     "documentation": 55.0,
     "accessibility": 48.0
   },
-  "tier": "watchlist",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 311,
-    "days_span": 191,
-    "stars_per_day": 1.63,
-    "lifetime_stars_per_day": 1.63,
+    "stars_gained": 336,
+    "days_span": 192,
+    "stars_per_day": 1.75,
+    "lifetime_stars_per_day": 1.75,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:48+00:00",
+  "fetched_at": "2026-11-18T13:05:43+00:00",
   "categories": [
     "billing-2",
     "mcp-security"
@@ -158,14 +158,14 @@
         "notifications",
         "security-isolation"
       ],
-      "star_ratio": 17.817,
-      "momentum_ratio": 2.577,
+      "star_ratio": 16.503,
+      "momentum_ratio": 2.514,
       "setup_delta": -31,
-      "dominance": 0.918,
+      "dominance": 0.915,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "17.82x the stars (5,541 vs 311)",
-        "2.58x the star velocity (4.2/day vs 1.6/day)",
+        "16.50x the stars (5,545 vs 336)",
+        "2.51x the star velocity (4.4/day vs 1.8/day)",
         "no harder to set up (21 vs 52 friction)"
       ],
       "reasons_zh": [],
@@ -184,7 +184,7 @@
           "security-isolation",
           "skills-plugins"
         ],
-        "incumbent_health": 44,
+        "incumbent_health": 45,
         "challenger_health": 64,
         "incumbent_setup_score": 52,
         "challenger_setup_score": 21

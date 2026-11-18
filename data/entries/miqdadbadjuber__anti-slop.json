@@ -6,9 +6,9 @@
   "url": "https://github.com/miqdadbadjuber/anti-slop",
   "description": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
   "homepage": "https://antislop.ai.id",
-  "stars": 9411,
-  "forks": 642,
-  "open_issues": 2,
+  "stars": 9472,
+  "forks": 649,
+  "open_issues": 1,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "ui-design"
   ],
   "created_at": "2026-08-07T10:29:56Z",
-  "updated_at": "2026-11-17T13:16:06Z",
-  "pushed_at": "2026-11-17T11:36:52Z",
+  "updated_at": "2026-11-18T12:57:07Z",
+  "pushed_at": "2026-11-18T13:00:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 102,
+  "age_days": 103,
   "days_since_push": 0,
-  "health_score": 78,
+  "health_score": 76,
   "health_components": {
     "popularity": 79.5,
-    "momentum": 65.7,
+    "momentum": 64.0,
     "maintenance": 100.0,
     "documentation": 49.0,
-    "accessibility": 100.0
+    "accessibility": 84.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 394,
+    "stars_gained": 384,
     "days_span": 5,
-    "stars_per_day": 78.8,
-    "lifetime_stars_per_day": 92.26,
+    "stars_per_day": 76.8,
+    "lifetime_stars_per_day": 91.96,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "miqdadbadjuber/anti-slop",
-    "readme_chars": 13798,
+    "readme_chars": 14515,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -58,27 +58,29 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "skills-plugins": "ll them (this project or everywhere), and which agents you use, then copies the folders and writes the pointer that reloads antislop every session.",
+      "skills-plugins": "approve antislop to enable the contrast MCP server.",
       "agent-runtime": "# Anti Slop: Rules for AI Coding Agents",
       "mcp-support": "Windows, set $env:MUSEEXPERIMENTALPLUGINS = \"1\" in PowerShell first, then run the two muse lines unchanged.",
       "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
     },
     "capability_hits": {
-      "skills-plugins": 1,
+      "skills-plugins": 2,
       "agent-runtime": 2,
       "mcp-support": 1,
       "cross-agent-support": 9
     },
     "friction": {
       "level": "turnkey",
-      "score": 7,
-      "out_of_the_box": true,
+      "score": 16,
+      "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "npx one-liner",
         "native installer / package"
       ],
-      "hard_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
       "config_signals": [],
       "friendliness_signals": [],
       "platforms": [
@@ -86,8 +88,8 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Turnkey. install via npx one-liner, native installer / package",
-      "note_zh": "开箱即用。可通过 npx one-liner、native installer / package 安装"
+      "note_en": "Turnkey. install via npx one-liner, native installer / package; needs git clone (build from source)",
+      "note_zh": "开箱即用。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)"
     },
     "doc_score": 49,
     "doc_signals": [
@@ -117,7 +119,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.942
+      "external_link_ratio": 0.896
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -129,8 +131,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:30+00:00",
+  "fetched_at": "2026-11-18T13:03:49+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
     "failover"
   ],

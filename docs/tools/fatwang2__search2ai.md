@@ -17,12 +17,14 @@
 | Health score | 53/100 |
 | Documentation | 72/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2023-12-18 |
-| Last push | 2026-11-17 (0 days ago) |
+| Last push | 2026-11-17 (1 days ago) |
 | Analyzed README | 27,287 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).
 
 ## What it solves
 

@@ -6,8 +6,8 @@
   "url": "https://github.com/arjun988/blender-skills",
   "description": "94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.",
   "homepage": "https://blender-skills.vercel.app",
-  "stars": 4046,
-  "forks": 359,
+  "stars": 4215,
+  "forks": 382,
   "open_issues": 5,
   "language": "TypeScript",
   "license": "MIT",
@@ -25,27 +25,27 @@
     "mcp"
   ],
   "created_at": "2026-07-05T08:36:06Z",
-  "updated_at": "2026-11-17T13:25:10Z",
+  "updated_at": "2026-11-18T12:45:34Z",
   "pushed_at": "2026-11-06T08:42:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 135,
-  "days_since_push": 11,
-  "health_score": 60,
+  "age_days": 136,
+  "days_since_push": 12,
+  "health_score": 61,
   "health_components": {
-    "popularity": 72.1,
-    "momentum": 25.0,
+    "popularity": 72.5,
+    "momentum": 25.8,
     "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4046,
-    "days_span": 135,
-    "stars_per_day": 29.97,
-    "lifetime_stars_per_day": 29.97,
+    "stars_gained": 4215,
+    "days_span": 136,
+    "stars_per_day": 30.99,
+    "lifetime_stars_per_day": 30.99,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -127,7 +127,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:39+00:00",
+  "fetched_at": "2026-11-18T13:04:02+00:00",
   "categories": [
     "desktop-ui-2"
   ],
@@ -153,14 +153,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 12.323,
-      "momentum_ratio": 1.815,
+      "star_ratio": 11.846,
+      "momentum_ratio": 1.923,
       "setup_delta": -19,
-      "dominance": 0.874,
+      "dominance": 0.881,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "12.32x the stars (49,860 vs 4,046)",
-        "1.82x the star velocity (54.4/day vs 30.0/day)",
+        "11.85x the stars (49,932 vs 4,215)",
+        "1.92x the star velocity (59.6/day vs 31.0/day)",
         "no harder to set up (32 vs 51 friction)"
       ],
       "reasons_zh": [],
@@ -187,8 +187,8 @@
           "team-collaboration",
           "usage-analytics"
         ],
-        "incumbent_health": 60,
-        "challenger_health": 78,
+        "incumbent_health": 61,
+        "challenger_health": 80,
         "incumbent_setup_score": 51,
         "challenger_setup_score": 32
       }

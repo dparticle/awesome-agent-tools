@@ -6,9 +6,9 @@
   "url": "https://github.com/leepokai/Codync",
   "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
   "homepage": "https://www.codync.dev",
-  "stars": 2207,
-  "forks": 225,
-  "open_issues": 128,
+  "stars": 2243,
+  "forks": 229,
+  "open_issues": 125,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "self-hosted"
   ],
   "created_at": "2026-03-18T11:11:05Z",
-  "updated_at": "2026-11-17T12:57:26Z",
-  "pushed_at": "2026-11-17T13:07:54Z",
+  "updated_at": "2026-11-18T13:01:05Z",
+  "pushed_at": "2026-11-18T12:28:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 244,
+  "age_days": 245,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 67,
   "health_components": {
-    "popularity": 66.9,
-    "momentum": 25.2,
+    "popularity": 67.0,
+    "momentum": 28.3,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 91.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 151,
+    "stars_gained": 170,
     "days_span": 5,
-    "stars_per_day": 30.2,
-    "lifetime_stars_per_day": 9.05,
+    "stars_per_day": 34.0,
+    "lifetime_stars_per_day": 9.16,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -171,7 +171,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:08+00:00",
+  "fetched_at": "2026-11-18T13:04:46+00:00",
   "categories": [
     "desktop-ui",
     "mobile",

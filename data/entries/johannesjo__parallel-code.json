@@ -6,7 +6,7 @@
   "url": "https://github.com/johannesjo/parallel-code",
   "description": "Run Claude Code, Codex, Copilot and other agent CLIs in parallel worktrees, then check what each one did before you merge.",
   "homepage": "https://parallelcode.app",
-  "stars": 1094,
+  "stars": 1095,
   "forks": 151,
   "open_issues": 68,
   "language": "TypeScript",
@@ -24,33 +24,33 @@
     "terminal"
   ],
   "created_at": "2026-02-18T09:53:27Z",
-  "updated_at": "2026-11-17T11:53:41Z",
-  "pushed_at": "2026-11-16T09:09:27Z",
+  "updated_at": "2026-11-18T08:02:54Z",
+  "pushed_at": "2026-11-18T11:25:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 272,
-  "days_since_push": 1,
+  "age_days": 273,
+  "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 60.8,
-    "momentum": 3.4,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1094,
-    "days_span": 272,
-    "stars_per_day": 4.02,
-    "lifetime_stars_per_day": 4.02,
+    "stars_gained": 1095,
+    "days_span": 273,
+    "stars_per_day": 4.01,
+    "lifetime_stars_per_day": 4.01,
     "basis": "lifetime",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "johannesjo/parallel-code",
-    "readme_chars": 9031,
+    "readme_chars": 9012,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -135,7 +135,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.218
+      "external_link_ratio": 1.221
     },
     "highlights": [
       "Mix the agents you already use — Claude Code, Codex CLI, OpenCode, Copilot CLI, Antigravity CLI, or any other terminal agent, side by side on one board.",
@@ -152,7 +152,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:18+00:00",
+  "fetched_at": "2026-11-18T13:05:01+00:00",
   "categories": [
     "desktop-ui",
     "isolation-teams",

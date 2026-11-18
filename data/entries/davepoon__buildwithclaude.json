@@ -6,8 +6,8 @@
   "url": "https://github.com/davepoon/buildwithclaude",
   "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
   "homepage": "https://www.buildwithclaude.com",
-  "stars": 3755,
-  "forks": 745,
+  "stars": 3759,
+  "forks": 754,
   "open_issues": 23,
   "language": "Python",
   "license": "MIT",
@@ -26,27 +26,27 @@
     "subagents"
   ],
   "created_at": "2025-07-25T02:26:45Z",
-  "updated_at": "2026-11-17T12:23:08Z",
-  "pushed_at": "2026-11-17T13:05:17Z",
+  "updated_at": "2026-11-18T07:44:29Z",
+  "pushed_at": "2026-11-18T11:10:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 480,
+  "age_days": 481,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 71.5,
-    "momentum": 2.5,
+    "momentum": 3.0,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 50.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 18,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 7.82,
+    "stars_per_day": 3.6,
+    "lifetime_stars_per_day": 7.81,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:03+00:00",
+  "fetched_at": "2026-11-18T13:04:40+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2"
@@ -164,14 +164,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 13.278,
-      "momentum_ratio": 18.133,
+      "star_ratio": 13.283,
+      "momentum_ratio": 16.556,
       "setup_delta": -18,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "13.28x the stars (49,860 vs 3,755)",
-        "18.13x the star velocity (54.4/day vs 3.0/day)",
+        "13.28x the stars (49,932 vs 3,759)",
+        "16.56x the star velocity (59.6/day vs 3.6/day)",
         "no harder to set up (32 vs 50 friction)"
       ],
       "reasons_zh": [],
@@ -200,7 +200,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 57,
-        "challenger_health": 78,
+        "challenger_health": 80,
         "incumbent_setup_score": 50,
         "challenger_setup_score": 32
       }

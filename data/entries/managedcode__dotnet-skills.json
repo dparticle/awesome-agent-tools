@@ -8,7 +8,7 @@
   "homepage": "https://skills.managed-code.com",
   "stars": 518,
   "forks": 41,
-  "open_issues": 4,
+  "open_issues": 5,
   "language": "C#",
   "license": "MIT",
   "topics": [
@@ -26,22 +26,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
-  "days_since_push": 3,
+  "age_days": 248,
+  "days_since_push": 4,
   "health_score": 56,
   "health_components": {
     "popularity": 54.3,
-    "momentum": 0.8,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 2.1,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 2.09,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:27:32+00:00",
+  "fetched_at": "2026-11-18T13:05:25+00:00",
   "categories": [
     "desktop-ui-2",
     "failover",
@@ -163,14 +163,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 2.116,
-      "momentum_ratio": 1.4,
+      "star_ratio": 2.12,
+      "momentum_ratio": 1.5,
       "setup_delta": 12,
-      "dominance": 0.702,
+      "dominance": 0.711,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "2.12x the stars (1,096 vs 518)",
-        "1.40x the star velocity (1.4/day vs 1.0/day)",
+        "2.12x the stars (1,098 vs 518)",
+        "1.50x the star velocity (1.2/day vs 0.8/day)",
         "slightly heavier setup (+12 friction, within tolerance)"
       ],
       "reasons_zh": [],

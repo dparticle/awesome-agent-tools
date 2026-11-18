@@ -15,14 +15,14 @@
 | Stars | 311 |
 | Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 53/100 |
-| Documentation | 60/100 |
+| Documentation | 61/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-03-09 |
-| Last push | 2026-11-16 (1 days ago) |
-| Analyzed README | 16,744 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-17 (0 days ago) |
+| Analyzed README | 18,781 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Agent runtime
 
-> - When files disagree, PRD.md wins over FEATURES.md, which wins over RULES.md, then the RFCs.
+> License: MIT GitHub stars Claude Code Agent Skills 🌐 Website · See a real run · Quick start · How it works · Why · Evidence · Install options English · 简体中文 · Türkçe · 日本語 · 한국어 · Español --- AI coding agents write code…
 
 ### Cross-agent support
 
@@ -53,7 +53,7 @@
 
 ## Documentation quality
 
-Score **60/100**, based on these detected signals:
+Score **61/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -72,7 +72,7 @@ Score **60/100**, based on these detected signals:
 | popularity | 49.9 |
 | momentum | 0.2 |
 | maintenance | 100.0 |
-| documentation | 60.0 |
+| documentation | 61.0 |
 | accessibility | 75.0 |
 
 ---

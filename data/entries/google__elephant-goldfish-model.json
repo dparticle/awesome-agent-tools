@@ -6,9 +6,9 @@
   "url": "https://github.com/google/elephant-goldfish-model",
   "description": "Open-source plugin for designing and reviewing software with agents",
   "homepage": "https://egm.dev",
-  "stars": 20625,
-  "forks": 1526,
-  "open_issues": 123,
+  "stars": 20992,
+  "forks": 1553,
+  "open_issues": 118,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -30,16 +30,16 @@
     "spec-driven-development"
   ],
   "created_at": "2026-09-13T16:31:06Z",
-  "updated_at": "2026-11-17T13:22:42Z",
-  "pushed_at": "2026-11-17T05:18:35Z",
+  "updated_at": "2026-11-18T12:58:57Z",
+  "pushed_at": "2026-11-18T11:01:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 64,
+  "age_days": 65,
   "days_since_push": 0,
   "health_score": 85,
   "health_components": {
-    "popularity": 86.3,
+    "popularity": 86.4,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 42.0,
@@ -47,16 +47,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2745,
+    "stars_gained": 2612,
     "days_span": 5,
-    "stars_per_day": 549.0,
-    "lifetime_stars_per_day": 322.27,
+    "stars_per_day": 522.4,
+    "lifetime_stars_per_day": 322.95,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "google/elephant-goldfish-model",
-    "readme_chars": 9492,
+    "readme_chars": 9766,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
@@ -117,7 +117,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.632
+      "external_link_ratio": 0.614
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-17T13:26:25+00:00",
+  "fetched_at": "2026-11-18T13:03:41+00:00",
   "categories": [
     "desktop-ui",
     "failover"

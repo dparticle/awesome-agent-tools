@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 578 |
-| Star velocity | 13.4/day (lifetime basis, 43d span) |
+| Stars | 580 |
+| Star velocity | 13.2/day (lifetime basis, 44d span) |
 | Health score | 58/100 |
 | Documentation | 72/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-05 |
-| Last push | 2026-11-13 (3 days ago) |
+| Last push | 2026-11-13 (4 days ago) |
 | Analyzed README | 29,673 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [ruvnet/ruflo](https://github.com/ruvnet/ruflo)** — Superseded by ruvnet/ruflo: covers 100% of capabilities (7/7).
@@ -90,8 +90,8 @@ Score **72/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.2 |
-| momentum | 11.2 |
+| popularity | 55.3 |
+| momentum | 11.0 |
 | maintenance | 100.0 |
 | documentation | 72.0 |
 | accessibility | 68.0 |
