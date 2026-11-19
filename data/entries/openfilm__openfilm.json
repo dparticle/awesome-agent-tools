@@ -4,11 +4,11 @@
   "name": "openfilm",
   "owner": "openfilm",
   "url": "https://github.com/openfilm/openfilm",
-  "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
+  "description": "The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.",
   "homepage": "https://openfilm.dev",
-  "stars": 8235,
-  "forks": 805,
-  "open_issues": 19,
+  "stars": 8453,
+  "forks": 830,
+  "open_issues": 23,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -22,16 +22,16 @@
     "video-editor"
   ],
   "created_at": "2026-10-04T09:29:07Z",
-  "updated_at": "2026-11-18T12:55:47Z",
+  "updated_at": "2026-11-19T13:04:07Z",
   "pushed_at": "2026-11-18T10:07:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 45,
-  "days_since_push": 0,
-  "health_score": 85,
+  "age_days": 46,
+  "days_since_push": 1,
+  "health_score": 86,
   "health_components": {
-    "popularity": 78.3,
+    "popularity": 78.5,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 47.0,
@@ -39,10 +39,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2033,
+    "stars_gained": 1611,
     "days_span": 5,
-    "stars_per_day": 406.6,
-    "lifetime_stars_per_day": 183.0,
+    "stars_per_day": 322.2,
+    "lifetime_stars_per_day": 183.76,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -116,8 +116,8 @@
     ],
     "summary_zh_native": "OpenFilm 让任何编程智能体都能做视频，再配上编辑器，它做出的一切你都能改。",
     "highlights_zh": [
-      "调色：用示波器、色轮和曲线给每个片段调色，支持相机 Log 素材和 .cube LUT。",
       "智能体来做。 用 Claude Code、Codex、其他编程智能体，或桌面版自带的智能体。它找素材、音乐和配音，写好每个镜头再剪到一起，你在旁边看着片子成形。",
+      "调色：用示波器、色轮和曲线给每个片段调色，支持相机 Log 素材和 .cube LUT。",
       "剪辑：完整的时间线，放片段、文字、字幕、配音和声音。",
       "指着说。 一个片段、某一刻、时间线上的一段、画面里的一块、一句字幕、画布上的一张卡片。指给它，说你想怎么改，智能体就知道你说的是哪里。"
     ],
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:03:51+00:00",
+  "fetched_at": "2026-11-19T13:06:02+00:00",
   "categories": [
     "desktop-ui",
     "failover"

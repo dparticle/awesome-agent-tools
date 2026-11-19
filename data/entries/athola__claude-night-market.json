@@ -7,8 +7,8 @@
   "description": "23 Claude Code plugins: TDD enforcement hooks, git/PR workflows, spec-driven development, code review, project lifecycle, fix-from-error, maintenance automation, context optimization, research, and multi-LLM delegation. 186 skills, 128 commands, 54 agents.",
   "homepage": "https://athola.github.io/claude-night-market",
   "stars": 350,
-  "forks": 42,
-  "open_issues": 20,
+  "forks": 43,
+  "open_issues": 21,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -35,12 +35,12 @@
   ],
   "created_at": "2025-11-23T06:45:40Z",
   "updated_at": "2026-11-10T02:46:03Z",
-  "pushed_at": "2026-11-17T05:21:23Z",
+  "pushed_at": "2026-11-19T09:20:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 360,
-  "days_since_push": 1,
+  "age_days": 361,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 50.9,
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:43+00:00",
+  "fetched_at": "2026-11-19T13:07:20+00:00",
   "categories": [
     "desktop-ui-2"
   ],
@@ -168,14 +168,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 142.663,
-      "momentum_ratio": 1192.0,
+      "star_ratio": 142.811,
+      "momentum_ratio": 1200.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "142.66x the stars (49,932 vs 350)",
-        "1192.00x the star velocity (59.6/day vs 0.0/day)",
+        "142.81x the stars (49,984 vs 350)",
+        "1200.00x the star velocity (60.0/day vs 0.0/day)",
         "no harder to set up (32 vs 42 friction)"
       ],
       "reasons_zh": [],

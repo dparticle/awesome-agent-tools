@@ -6,7 +6,7 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 583,
+  "stars": 584,
   "forks": 71,
   "open_issues": 0,
   "language": "TypeScript",
@@ -18,26 +18,26 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-11-17T21:01:29Z",
+  "updated_at": "2026-11-19T08:06:03Z",
   "pushed_at": "2026-10-26T22:43:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 463,
-  "days_since_push": 22,
+  "age_days": 464,
+  "days_since_push": 23,
   "health_score": 51,
   "health_components": {
     "popularity": 55.3,
-    "momentum": 0.5,
+    "momentum": 0.7,
     "maintenance": 92.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.8,
     "lifetime_stars_per_day": 1.26,
     "basis": "history",
     "is_fast_riser": false
@@ -124,12 +124,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:16+00:00",
+  "fetched_at": "2026-11-19T13:07:02+00:00",
   "categories": [
     "desktop-ui-2",
-    "isolation-teams"
+    "isolation-teams",
+    "parallelism"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
@@ -151,14 +152,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.237,
-      "momentum_ratio": 28.333,
+      "star_ratio": 48.182,
+      "momentum_ratio": 21.75,
       "setup_delta": 2,
       "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.24x the stars (28,122 vs 583)",
-        "28.33x the star velocity (17.0/day vs 0.6/day)",
+        "48.18x the stars (28,138 vs 584)",
+        "21.75x the star velocity (17.4/day vs 0.8/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],

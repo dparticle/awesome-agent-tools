@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1731,
+  "stars": 1741,
   "forks": 680,
-  "open_issues": 136,
+  "open_issues": 140,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,27 +29,27 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-18T10:46:21Z",
-  "pushed_at": "2026-11-18T11:55:56Z",
+  "updated_at": "2026-11-19T12:30:57Z",
+  "pushed_at": "2026-11-19T12:57:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 373,
+  "age_days": 374,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 64.8,
-    "momentum": 15.2,
+    "momentum": 15.3,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 31.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 91,
+    "stars_gained": 92,
     "days_span": 5,
-    "stars_per_day": 18.2,
-    "lifetime_stars_per_day": 4.64,
+    "stars_per_day": 18.4,
+    "lifetime_stars_per_day": 4.66,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:50+00:00",
+  "fetched_at": "2026-11-19T13:06:43+00:00",
   "categories": [
     "desktop-ui",
     "sessions-memory"
@@ -177,14 +177,14 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 11.107,
-      "momentum_ratio": 2.407,
+      "star_ratio": 11.064,
+      "momentum_ratio": 2.261,
       "setup_delta": -36,
-      "dominance": 0.909,
+      "dominance": 0.901,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "11.11x the stars (19,227 vs 1,731)",
-        "2.41x the star velocity (43.8/day vs 18.2/day)",
+        "11.06x the stars (19,262 vs 1,741)",
+        "2.26x the star velocity (41.6/day vs 18.4/day)",
         "no harder to set up (33 vs 69 friction)"
       ],
       "reasons_zh": [],

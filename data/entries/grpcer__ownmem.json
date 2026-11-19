@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 94,
-  "days_since_push": 35,
+  "age_days": 95,
+  "days_since_push": 36,
   "health_score": 52,
   "health_components": {
     "popularity": 52.6,
@@ -54,7 +54,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 4.54,
+    "lifetime_stars_per_day": 4.49,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:36+00:00",
+  "fetched_at": "2026-11-19T13:07:15+00:00",
   "categories": [
     "desktop-ui",
     "sessions-memory"
@@ -171,14 +171,14 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 3.515,
-      "momentum_ratio": 75.0,
+      "star_ratio": 3.522,
+      "momentum_ratio": 70.0,
       "setup_delta": 6,
       "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "3.52x the stars (1,501 vs 427)",
-        "75.00x the star velocity (15.0/day vs 0.2/day)",
+        "3.52x the stars (1,504 vs 427)",
+        "70.00x the star velocity (14.0/day vs 0.2/day)",
         "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -201,7 +201,7 @@
           "team-collaboration"
         ],
         "incumbent_health": 52,
-        "challenger_health": 59,
+        "challenger_health": 58,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 31
       }

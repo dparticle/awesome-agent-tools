@@ -29,26 +29,26 @@
   ],
   "created_at": "2026-10-28T10:46:22Z",
   "updated_at": "2026-11-17T12:28:39Z",
-  "pushed_at": "2026-11-14T07:25:21Z",
+  "pushed_at": "2026-11-19T12:39:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 21,
-  "days_since_push": 4,
+  "age_days": 22,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 50.4,
-    "momentum": 0.8,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 66.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 15.86,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 15.14,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,73 +146,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:43+00:00",
+  "fetched_at": "2026-11-19T13:07:20+00:00",
   "categories": [
     "desktop-ui",
     "failover",
-    "isolation-teams"
+    "parallelism"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "parallelism",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by greenfield-inc/Pane: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 greenfield-inc/Pane 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "greenfield-inc/Pane",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "xpropel/pi-remote",
-      "challenger": "greenfield-inc/pane",
-      "incumbent_name": "Xpropel/Pi-Remote",
-      "challenger_name": "greenfield-inc/Pane",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "gui-desktop",
-        "model-routing",
-        "parallel-execution"
-      ],
-      "star_ratio": 1.985,
-      "momentum_ratio": 7.4,
-      "setup_delta": -5,
-      "dominance": 0.906,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "1.98x the stars (661 vs 333)",
-        "7.40x the star velocity (7.4/day vs 1.0/day)",
-        "no harder to set up (29 vs 34 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "gui-desktop",
-          "model-routing",
-          "parallel-execution"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "self-hosted",
-          "session-persistence",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 57,
-        "incumbent_setup_score": 34,
-        "challenger_setup_score": 29
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

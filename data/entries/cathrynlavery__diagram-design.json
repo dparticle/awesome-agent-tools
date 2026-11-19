@@ -6,9 +6,9 @@
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
   "homepage": "https://diagramdesign.dev",
-  "stars": 68109,
-  "forks": 4572,
-  "open_issues": 39,
+  "stars": 68371,
+  "forks": 4601,
+  "open_issues": 38,
   "language": "HTML",
   "license": "MIT",
   "topics": [
@@ -22,13 +22,13 @@
     "svg"
   ],
   "created_at": "2026-04-16T18:01:16Z",
-  "updated_at": "2026-11-18T12:57:38Z",
-  "pushed_at": "2026-11-12T21:14:19Z",
+  "updated_at": "2026-11-19T13:02:53Z",
+  "pushed_at": "2026-11-19T00:17:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 215,
-  "days_since_push": 5,
+  "age_days": 216,
+  "days_since_push": 0,
   "health_score": 91,
   "health_components": {
     "popularity": 96.7,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1284,
+    "stars_gained": 1413,
     "days_span": 5,
-    "stars_per_day": 256.8,
-    "lifetime_stars_per_day": 316.79,
+    "stars_per_day": 282.6,
+    "lifetime_stars_per_day": 316.53,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "cathrynlavery/diagram-design",
-    "readme_chars": 55897,
+    "readme_chars": 56142,
     "capabilities": [
       "parallel-execution",
       "billing-metering",
@@ -133,7 +133,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.322
+      "external_link_ratio": 0.321
     },
     "highlights": [
       "BestSelf.co: the SELF Journal and other paper tools for getting things done.",
@@ -148,11 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:22+00:00",
+  "fetched_at": "2026-11-19T13:06:23+00:00",
   "categories": [
-    "billing-2"
+    "parallelism"
   ],
-  "primary_category": "billing-2",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

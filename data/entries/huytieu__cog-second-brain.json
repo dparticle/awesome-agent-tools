@@ -6,8 +6,8 @@
   "url": "https://github.com/huytieu/COG-second-brain",
   "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
   "homepage": "",
-  "stars": 1501,
-  "forks": 184,
+  "stars": 1504,
+  "forks": 183,
   "open_issues": 13,
   "language": "Python",
   "license": "MIT",
@@ -34,26 +34,26 @@
     "worker-agents"
   ],
   "created_at": "2025-10-15T03:50:52Z",
-  "updated_at": "2026-11-18T09:29:03Z",
+  "updated_at": "2026-11-19T09:37:01Z",
   "pushed_at": "2026-10-23T02:52:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 399,
-  "days_since_push": 26,
-  "health_score": 59,
+  "age_days": 400,
+  "days_since_push": 27,
+  "health_score": 58,
   "health_components": {
     "popularity": 63.5,
-    "momentum": 12.5,
+    "momentum": 11.7,
     "maintenance": 92.0,
     "documentation": 70.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 75,
+    "stars_gained": 70,
     "days_span": 5,
-    "stars_per_day": 15.0,
+    "stars_per_day": 14.0,
     "lifetime_stars_per_day": 3.76,
     "basis": "history",
     "is_fast_riser": true
@@ -167,9 +167,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:51+00:00",
+  "fetched_at": "2026-11-19T13:06:44+00:00",
   "categories": [
-    "desktop-ui-2",
+    "desktop-ui",
     "failover",
     "sessions-memory"
   ],

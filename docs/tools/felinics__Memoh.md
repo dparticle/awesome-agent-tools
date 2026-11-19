@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 2,822 |
-| Star velocity | 4.8/day (history basis, 5d span) |
+| Star velocity | 4.6/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 53/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-01-12 |
-| Last push | 2026-11-18 (0 days ago) |
+| Last push | 2026-11-19 (0 days ago) |
 | Analyzed README | 6,228 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (9/9).
@@ -92,7 +92,7 @@ Score **53/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 69.0 |
-| momentum | 4.0 |
+| momentum | 3.8 |
 | maintenance | 100.0 |
 | documentation | 53.0 |
 | accessibility | 63.0 |

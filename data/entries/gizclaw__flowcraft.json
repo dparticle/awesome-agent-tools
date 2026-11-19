@@ -7,8 +7,8 @@
   "description": "Production-grade Go SDK for building AI agents with long-term memory, knowledge retrieval, and voice — runnable as a library, a daemon, or a real-time pipeline.",
   "homepage": "https://gizclaw.github.io/flowcraft/",
   "stars": 411,
-  "forks": 12,
-  "open_issues": 1,
+  "forks": 13,
+  "open_issues": 0,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -30,11 +30,11 @@
   ],
   "created_at": "2026-04-14T07:49:44Z",
   "updated_at": "2026-11-09T19:57:54Z",
-  "pushed_at": "2026-11-18T10:45:49Z",
+  "pushed_at": "2026-11-19T03:37:59Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 218,
+  "age_days": 219,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
@@ -49,7 +49,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.89,
+    "lifetime_stars_per_day": 1.88,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -143,9 +143,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:38+00:00",
+  "fetched_at": "2026-11-19T13:07:16+00:00",
   "categories": [
-    "desktop-ui-2",
     "isolation-teams",
     "sessions-memory"
   ],
@@ -172,13 +171,13 @@
         "skills-plugins",
         "worktree-isolation"
       ],
-      "star_ratio": 4.178,
+      "star_ratio": 4.185,
       "momentum_ratio": 48.0,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "4.18x the stars (1,717 vs 411)",
+        "4.18x the stars (1,720 vs 411)",
         "48.00x the star velocity (2.4/day vs 0.0/day)",
         "no harder to set up (8 vs 28 friction)"
       ],

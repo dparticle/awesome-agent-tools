@@ -6,8 +6,8 @@
   "url": "https://github.com/simonlin1212/Vibe-Research",
   "description": "Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A research workbench for China A-shares, US and HK stocks.",
   "homepage": "https://viberesearch.wiki",
-  "stars": 3786,
-  "forks": 711,
+  "stars": 3811,
+  "forks": 714,
   "open_issues": 5,
   "language": "TypeScript",
   "license": "MIT",
@@ -32,27 +32,27 @@
     "workbuddy"
   ],
   "created_at": "2026-07-05T06:30:55Z",
-  "updated_at": "2026-11-18T12:45:02Z",
+  "updated_at": "2026-11-19T12:44:31Z",
   "pushed_at": "2026-11-12T14:50:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 136,
-  "days_since_push": 5,
-  "health_score": 65,
+  "age_days": 137,
+  "days_since_push": 6,
+  "health_score": 63,
   "health_components": {
     "popularity": 71.6,
-    "momentum": 27.8,
+    "momentum": 18.5,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 57.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 167,
+    "stars_gained": 111,
     "days_span": 5,
-    "stars_per_day": 33.4,
-    "lifetime_stars_per_day": 27.84,
+    "stars_per_day": 22.2,
+    "lifetime_stars_per_day": 27.82,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -166,11 +166,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:03+00:00",
+  "fetched_at": "2026-11-19T13:06:12+00:00",
   "categories": [
     "billing",
     "billing-2",
-    "mobile"
+    "mcp-security"
   ],
   "primary_category": "billing",
   "lifecycle": {

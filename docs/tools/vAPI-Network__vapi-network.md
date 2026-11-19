@@ -2,7 +2,7 @@
 
 # vAPI-Network/vapi-network
 
-> vAPI Network builds payment and trust infrastructure for AI agents on Base, with x402 API payments in USDC.
+> One wallet, every x402 API.
 
 [Repository](https://github.com/vAPI-Network/vapi-network) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,79 +12,66 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,134 |
-| Star velocity | 166.4/day (history basis, 5d span) |
-| Health score | 82/100 |
-| Documentation | 62/100 |
+| Stars | 5,243 |
+| Star velocity | 150.4/day (history basis, 5d span) |
+| Health score | 86/100 |
+| Documentation | 66/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-10-02 |
-| Last push | 2026-11-17 (0 days ago) |
-| Analyzed README | 73,355 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-19 (0 days ago) |
+| Analyzed README | 9,290 chars from `raw:HEAD/README.md` |
 
 ## What it solves
-
-### Automatic failover
-
-### Model / provider routing
-
-### Billing & metering
-
-> link; --yes skips task policy prompts
 
 ### MCP support
 
 > package as SKILL.md, with the
 
-### Notifications
-
-> party only confirms the existing local binding.
-
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Cursor
+> Mentions Claude Code, Codex
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 40/100)
-- **Out of the box:** no
+- **Difficulty:** 🟢 Easy (friction score 25/100)
+- **Out of the box:** yes
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm i -g vapi-network`
 
-**Signals that make it easy:** npx one-liner, native installer / package
+**Signals that make it easy:** npx one-liner
 
 **Signals that add work:** pnpm install/build
 
-**Configuration required:** API key configuration, config.json/yaml/toml, OAuth login flow, sign-in required
-
-*Some setup. install via npx one-liner, native installer / package; needs pnpm install/build; configure API key configuration, config.json/yaml/toml*
+*Easy. install via npx one-liner; needs pnpm install/build*
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **66/100**, based on these detected signals:
 
 - contains code blocks
+- contains screenshots/diagrams
 - has section headings
 - has a quick-start section
 - documents installation
 - documents configuration
+- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
 - documents changes
-- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.2 |
+| popularity | 74.4 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
-| accessibility | 60.0 |
+| documentation | 66.0 |
+| accessibility | 87.0 |
 
 ---
 

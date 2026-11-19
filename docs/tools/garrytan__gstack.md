@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 141,974 |
-| Star velocity | 109.4/day (history basis, 5d span) |
-| Health score | 89/100 |
+| Stars | 142,070 |
+| Star velocity | 113.8/day (history basis, 5d span) |
+| Health score | 90/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-11-18 (0 days ago) |
-| Analyzed README | 41,718 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-19 (0 days ago) |
+| Analyzed README | 41,915 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Memory & context
 
-> e-input aliases many skills carry, have their own pages.
+> voice-input aliases many skills carry, have their own pages.
 
 ### Skills & plugins
 
@@ -107,7 +107,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 100.0 |
-| momentum | 91.2 |
+| momentum | 94.8 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 61.0 |

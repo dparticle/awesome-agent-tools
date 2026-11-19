@@ -6,23 +6,23 @@
   "url": "https://github.com/harishkotra/agent-office",
   "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
   "homepage": "",
-  "stars": 424,
+  "stars": 425,
   "forks": 113,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-02-25T04:43:02Z",
-  "updated_at": "2026-11-18T09:38:38Z",
+  "updated_at": "2026-11-18T16:23:29Z",
   "pushed_at": "2026-09-25T04:17:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
-  "days_since_push": 54,
+  "age_days": 267,
+  "days_since_push": 55,
   "health_score": 43,
   "health_components": {
-    "popularity": 52.5,
+    "popularity": 52.6,
     "momentum": 1.0,
     "maintenance": 78.0,
     "documentation": 57.0,
@@ -128,10 +128,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:36+00:00",
+  "fetched_at": "2026-11-19T13:07:15+00:00",
   "categories": [
-    "desktop-ui-2",
     "isolation-teams",
+    "parallelism",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",
@@ -160,14 +160,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 28.8,
-      "momentum_ratio": 32.333,
+      "star_ratio": 28.831,
+      "momentum_ratio": 36.0,
       "setup_delta": -43,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "28.80x the stars (12,211 vs 424)",
-        "32.33x the star velocity (38.8/day vs 1.2/day)",
+        "28.83x the stars (12,253 vs 425)",
+        "36.00x the star velocity (43.2/day vs 1.2/day)",
         "no harder to set up (32 vs 75 friction)"
       ],
       "reasons_zh": [],
@@ -200,7 +200,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 43,
-        "challenger_health": 71,
+        "challenger_health": 72,
         "incumbent_setup_score": 75,
         "challenger_setup_score": 32
       }

@@ -12,19 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,545 |
+| Stars | 5,548 |
 | Star velocity | 4.4/day (history basis, 5d span) |
 | Health score | 64/100 |
-| Documentation | 74/100 |
+| Documentation | 76/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-18 (0 days ago) |
-| Analyzed README | 25,246 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-19 (0 days ago) |
+| Analyzed README | 30,668 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Multi-account switching
+
+> he app: Connecting an external agent through MCP starts the Open-Science service for you, with setup options for more than 30 agents and clients.
 
 ### Billing & metering
 
@@ -32,9 +36,11 @@
 
 ### Skills & plugins
 
-> , resources, and permissions yourself; cloud jobs may incur charges.
+> resources, and permissions yourself; cloud jobs may incur charges.
 
 ### MCP support
+
+> ard, and cited sources stay with the conversation.
 
 ### Security & isolation
 
@@ -45,6 +51,10 @@
 ### Notifications
 
 > untime checks and test your model connection.
+
+### Cross-agent support
+
+> Mentions Amp, Cline, Codex
 
 ## Setup reality check
 
@@ -63,7 +73,7 @@
 
 ## Documentation quality
 
-Score **74/100**, based on these detected signals:
+Score **76/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -86,7 +96,7 @@ Score **74/100**, based on these detected signals:
 | popularity | 74.9 |
 | momentum | 3.7 |
 | maintenance | 100.0 |
-| documentation | 74.0 |
+| documentation | 76.0 |
 | accessibility | 87.0 |
 
 ---

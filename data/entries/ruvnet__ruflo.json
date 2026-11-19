@@ -6,9 +6,9 @@
   "url": "https://github.com/ruvnet/ruflo",
   "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
   "homepage": "https://cognitum.one/ruPro",
-  "stars": 82011,
-  "forks": 9675,
-  "open_issues": 587,
+  "stars": 82077,
+  "forks": 9686,
+  "open_issues": 558,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "vector-search"
   ],
   "created_at": "2025-06-02T21:24:20Z",
-  "updated_at": "2026-11-18T12:53:36Z",
-  "pushed_at": "2026-11-18T06:42:49Z",
+  "updated_at": "2026-11-19T12:45:58Z",
+  "pushed_at": "2026-11-19T07:32:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 533,
+  "age_days": 534,
   "days_since_push": 0,
   "health_score": 93,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 82011,
-    "days_span": 533,
-    "stars_per_day": 153.87,
-    "lifetime_stars_per_day": 153.87,
+    "stars_gained": 82077,
+    "days_span": 534,
+    "stars_per_day": 153.7,
+    "lifetime_stars_per_day": 153.7,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -166,9 +166,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:19+00:00",
+  "fetched_at": "2026-11-19T13:06:21+00:00",
   "categories": [
-    "desktop-ui-2",
+    "failover-2",
     "mcp-security",
     "sessions-memory"
   ],

@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,717 |
-| Star velocity | 32.9/day (lifetime basis, 113d span) |
-| Health score | 63/100 |
+| Stars | 4,001 |
+| Star velocity | 35.1/day (lifetime basis, 114d span) |
+| Health score | 64/100 |
 | Documentation | 71/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-07-28 |
-| Last push | 2026-11-18 (0 days ago) |
-| Analyzed README | 22,594 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (9/9).
+| Last push | 2026-11-19 (0 days ago) |
+| Analyzed README | 22,588 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +36,11 @@
 
 ### Model / provider routing
 
-> or execution machine PATH
+> s the credential copy, and the Runner saves the refreshed login back to its original local store.
+
+### Billing & metering
+
+> kspaces and native or Docker SOP sandboxes.
 
 ### Usage analytics
 
@@ -67,7 +69,6 @@
 - **Difficulty:** 🟡 Some setup (friction score 55/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx -y loopforge-cli@latest install claude`
 
 **Signals that make it easy:** native installer / package
 
@@ -99,8 +100,8 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.4 |
-| momentum | 27.4 |
+| popularity | 72.0 |
+| momentum | 29.2 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 45.0 |

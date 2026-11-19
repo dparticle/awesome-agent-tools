@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,318 |
-| Star velocity | 31.0/day (history basis, 5d span) |
+| Stars | 7,341 |
+| Star velocity | 31.6/day (history basis, 5d span) |
 | Health score | 67/100 |
 | Documentation | 67/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-09-27 |
-| Last push | 2026-11-13 (4 days ago) |
-| Analyzed README | 55,939 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-19 (0 days ago) |
+| Analyzed README | 57,712 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Remote control
 
-> hooting and build-it-yourself: docs/IPHONE.md.
+> too? That's Botan: the founders list is open.
 
 ### Mobile access
 
@@ -58,7 +58,7 @@
 
 ### Voice input
 
-> pops out of your notch, waves hello, follows your cursor with its eyes, gets annoyed when you poke it (and dizzy if you insist), and tells you the moment Claude Code needs you.
+> it snaps onto the back of your iPhone, and I'm building it in public.
 
 ### Cross-agent support
 
@@ -100,7 +100,7 @@ Score **67/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 77.3 |
-| momentum | 25.8 |
+| momentum | 26.3 |
 | maintenance | 100.0 |
 | documentation | 67.0 |
 | accessibility | 71.0 |

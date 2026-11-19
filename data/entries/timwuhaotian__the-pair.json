@@ -8,7 +8,7 @@
   "homepage": "https://apps.timwuhaotian.dev/apps/the-pair",
   "stars": 391,
   "forks": 33,
-  "open_issues": 2,
+  "open_issues": 4,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 240,
-  "days_since_push": 3,
+  "age_days": 241,
+  "days_since_push": 4,
   "health_score": 57,
   "health_components": {
     "popularity": 51.8,
@@ -54,7 +54,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.63,
+    "lifetime_stars_per_day": 1.62,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -173,9 +173,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:39+00:00",
+  "fetched_at": "2026-11-19T13:07:17+00:00",
   "categories": [
-    "isolation-teams"
+    "isolation-teams",
+    "teams-self-hosting"
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {

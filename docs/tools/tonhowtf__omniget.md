@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,494 |
-| Star velocity | 20.2/day (history basis, 5d span) |
-| Health score | 65/100 |
-| Documentation | 44/100 |
+| Stars | 14,503 |
+| Star velocity | 16.0/day (history basis, 5d span) |
+| Health score | 66/100 |
+| Documentation | 53/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🔻 Superseded |
 | License | GPL-3.0 |
 | Language | Rust |
 | Created | 2026-02-11 |
-| Last push | 2026-11-18 (0 days ago) |
-| Analyzed README | 15,288 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-19 (0 days ago) |
+| Analyzed README | 18,664 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — Superseded by msitarzewski/agency-agents: covers 100% of capabilities (5/5).
 
@@ -48,39 +48,41 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 23/100)
+- **Difficulty:** 🟢 Turnkey (friction score 14/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
 
-**Signals that make it easy:** native installer / package
+**Signals that make it easy:** Homebrew install, native installer / package
 
 **Signals that add work:** pnpm install/build
 
 **Configuration required:** config.json/yaml/toml, sign-in required
 
-*Easy. install via native installer / package; needs pnpm install/build; configure config.json/yaml/toml, sign-in required; one-click setup*
+*Turnkey. install via Homebrew install, native installer / package; needs pnpm install/build; configure config.json/yaml/toml, sign-in required; one-click setup*
 
 ## Documentation quality
 
-Score **44/100**, based on these detected signals:
+Score **53/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - documents installation
 - documents configuration
+- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - has a Chinese translation
+- explains architecture
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 83.2 |
-| momentum | 16.8 |
+| momentum | 13.3 |
 | maintenance | 100.0 |
-| documentation | 44.0 |
-| accessibility | 85.0 |
+| documentation | 53.0 |
+| accessibility | 94.0 |
 
 ---
 

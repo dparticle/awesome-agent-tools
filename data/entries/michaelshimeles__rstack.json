@@ -6,7 +6,7 @@
   "url": "https://github.com/michaelshimeles/rstack",
   "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
   "homepage": "",
-  "stars": 1525,
+  "stars": 1530,
   "forks": 257,
   "open_issues": 6,
   "language": "Python",
@@ -22,26 +22,26 @@
     "greptile"
   ],
   "created_at": "2026-03-05T17:40:23Z",
-  "updated_at": "2026-11-17T16:26:08Z",
+  "updated_at": "2026-11-18T20:55:12Z",
   "pushed_at": "2026-11-05T15:04:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 257,
-  "days_since_push": 12,
-  "health_score": 53,
+  "age_days": 258,
+  "days_since_push": 13,
+  "health_score": 52,
   "health_components": {
     "popularity": 63.7,
-    "momentum": 7.3,
+    "momentum": 4.2,
     "maintenance": 92.0,
     "documentation": 39.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 44,
+    "stars_gained": 25,
     "days_span": 5,
-    "stars_per_day": 8.8,
+    "stars_per_day": 5.0,
     "lifetime_stars_per_day": 5.93,
     "basis": "history",
     "is_fast_riser": true
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:51+00:00",
+  "fetched_at": "2026-11-19T13:06:43+00:00",
   "categories": [
     "desktop-ui-2",
     "failover",
@@ -136,65 +136,10 @@
   ],
   "primary_category": "isolation-teams",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 iOfficeAI/AionUi 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "iOfficeAI/AionUi",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "michaelshimeles/rstack",
-      "challenger": "iofficeai/aionui",
-      "incumbent_name": "michaelshimeles/rstack",
-      "challenger_name": "iOfficeAI/AionUi",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "multi-agent-orchestration",
-        "skills-plugins",
-        "worktree-isolation"
-      ],
-      "star_ratio": 22.531,
-      "momentum_ratio": 2.25,
-      "setup_delta": -23,
-      "dominance": 0.901,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "22.53x the stars (34,360 vs 1,525)",
-        "2.25x the star velocity (19.8/day vs 8.8/day)",
-        "no harder to set up (2 vs 25 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "multi-agent-orchestration",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 53,
-        "challenger_health": 70,
-        "incumbent_setup_score": 25,
-        "challenger_setup_score": 2
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

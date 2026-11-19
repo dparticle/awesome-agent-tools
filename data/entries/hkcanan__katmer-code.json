@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 241,
-  "days_since_push": 64,
+  "age_days": 242,
+  "days_since_push": 65,
   "health_score": 46,
   "health_components": {
     "popularity": 53.6,
@@ -150,18 +150,76 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:29+00:00",
+  "fetched_at": "2026-11-19T13:07:10+00:00",
   "categories": [
+    "billing-2",
     "desktop-ui-2",
-    "isolation-teams",
-    "mcp-security"
+    "parallelism"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "parallelism",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by rohitg00/pro-workflow: covers 100% of capabilities (6/6).",
+    "note_zh": "已被 rohitg00/pro-workflow 取代：covers 100% of capabilities (6/6)。",
+    "superseded_by": "rohitg00/pro-workflow",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "hkcanan/katmer-code",
+      "challenger": "rohitg00/pro-workflow",
+      "incumbent_name": "hkcanan/katmer-code",
+      "challenger_name": "rohitg00/pro-workflow",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "model-routing",
+        "multi-agent-orchestration",
+        "notifications",
+        "parallel-execution"
+      ],
+      "star_ratio": 6.201,
+      "momentum_ratio": 36.0,
+      "setup_delta": 1,
+      "dominance": 0.995,
+      "reasons": [
+        "covers 100% of capabilities (6/6)",
+        "6.20x the stars (2,964 vs 478)",
+        "36.00x the star velocity (1.8/day vs 0.0/day)",
+        "slightly heavier setup (+1 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "security-isolation",
+          "skills-plugins",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 46,
+        "challenger_health": 49,
+        "incumbent_setup_score": 48,
+        "challenger_setup_score": 49
+      }
+    }
   }
 }

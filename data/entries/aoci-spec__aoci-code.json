@@ -6,9 +6,9 @@
   "url": "https://github.com/aoci-spec/aoci-code",
   "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
   "homepage": "www.aoci.ai",
-  "stars": 1935,
-  "forks": 226,
-  "open_issues": 17,
+  "stars": 2543,
+  "forks": 244,
+  "open_issues": 20,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,27 +34,27 @@
     "repo-map"
   ],
   "created_at": "2026-08-08T11:33:08Z",
-  "updated_at": "2026-11-18T03:05:18Z",
-  "pushed_at": "2026-11-17T18:06:34Z",
+  "updated_at": "2026-11-19T12:58:35Z",
+  "pushed_at": "2026-11-19T12:08:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 102,
+  "age_days": 103,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 78,
   "health_components": {
-    "popularity": 65.7,
-    "momentum": 4.0,
+    "popularity": 68.1,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 27.0
   },
-  "tier": "notable",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 24,
+    "stars_gained": 629,
     "days_span": 5,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 18.97,
+    "stars_per_day": 125.8,
+    "lifetime_stars_per_day": 24.69,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -153,7 +153,7 @@
       "external_link_ratio": 0.09
     },
     "highlights": [
-      "Fault-injection scenarios — 101 scenarios covering cursor tampering,",
+      "Fault-injection scenarios — 104 scenarios covering cursor tampering,",
       "Protocol conformance — 62 read-only checks of the MCP wire surface,",
       "generating a deterministic plan, target set, and source SHA-256 values;",
       "A — API: which interfaces, commands, formats, or observable contracts it exposes."
@@ -163,7 +163,7 @@
       "一个受支持的 MCP 宿主，例如 Codex、Claude Code、Cursor 或 OpenCode；",
       "协议一致性 —— 62 项只读检查，覆盖 MCP 线协议表面，locale 相关语句另在",
       "AI Agent 必须沿 next_cursor 自动读取到最后一个 Chunk；",
-      "故障注入场景 —— 101 个场景，在一次性夹具仓库上检验游标篡改、崩溃恢复、"
+      "升级轴 —— 每个已发布版本 80 项检查，覆盖十种仓库形状：每个公开发布版本"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -172,7 +172,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:49+00:00",
+  "fetched_at": "2026-11-19T13:06:40+00:00",
   "categories": [
     "desktop-ui",
     "failover-2",

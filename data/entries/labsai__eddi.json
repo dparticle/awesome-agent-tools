@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "full_name": "labsai/EDDI",
+  "name": "EDDI",
+  "owner": "labsai",
+  "url": "https://github.com/labsai/EDDI",
+  "description": "Open-source AI agent management: run agents on your own servers, limit what they may do, require human approval, audit every step. Works with Claude, Cursor or any MCP client, A2A peers and OpenAI-compatible apps. 19 LLM providers, RAG, memory, multi-agent groups. Java/Quarkus, Apache-2.0.",
+  "homepage": "https://eddi.technology",
+  "stars": 393,
+  "forks": 132,
+  "open_issues": 126,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "topics": [
+    "a2a",
+    "ai-agents",
+    "ai-orchestration",
+    "chatbot",
+    "conversation-memory",
+    "conversational-ai",
+    "docker",
+    "enterprise-ai",
+    "java",
+    "langchain4j",
+    "llm",
+    "mcp-client",
+    "mcp-server",
+    "mongodb",
+    "multi-agent",
+    "postgres",
+    "quarkus",
+    "rag"
+  ],
+  "created_at": "2016-10-13T13:29:22Z",
+  "updated_at": "2026-11-19T13:04:50Z",
+  "pushed_at": "2026-11-19T13:03:10Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 3688,
+  "days_since_push": 0,
+  "health_score": 53,
+  "health_components": {
+    "popularity": 51.9,
+    "momentum": 0.1,
+    "maintenance": 100.0,
+    "documentation": 74.0,
+    "accessibility": 51.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 393,
+    "days_span": 3688,
+    "stars_per_day": 0.11,
+    "lifetime_stars_per_day": 0.11,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "labsai/EDDI",
+    "readme_chars": 31497,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "usage-analytics",
+      "session-persistence",
+      "memory-context",
+      "skills-plugins",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "model-routing": ". This one answers every message with Claude and may call three of the built-in tools:",
+      "api-gateway": "tions; capability matching Groups · Managed agents · Capabilities",
+      "usage-analytics": "e:** jsonResponseFormat (auto, on, off) negotiates structured output per provider.",
+      "session-persistence": "es can need sign-off per phase or per task.",
+      "memory-context": ", and there are deployment guides (guides, not certifications) for HIPAA and the EU AI Act.",
+      "skills-plugins": "",
+      "mcp-support": "An agent holds only the tools its configuration grants, within rate limits and cost budgets.",
+      "security-isolation": "- Workforce at /workforce: the end-user app for chats with agents and teams of agents.",
+      "self-hosted": "est Practices OpenSSF Scorecard Codacy Badge",
+      "team-collaboration": "e addresses, internal hostnames and non-HTTP schemes.",
+      "gui-desktop": "s, use .\\mvnw.cmd in place of ./mvnw.",
+      "cross-agent-support": "Mentions Claude Code, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "model-routing": 2,
+      "api-gateway": 1,
+      "usage-analytics": 1,
+      "session-persistence": 1,
+      "memory-context": 3,
+      "skills-plugins": 1,
+      "mcp-support": 11,
+      "security-isolation": 1,
+      "self-hosted": 2,
+      "team-collaboration": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 49,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "curl | sh installer",
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "docker compose up",
+        "docker run"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config file",
+        "OAuth login flow",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via curl | sh installer, native installer / package; needs docker compose up, docker run; configure API key configuration, config file",
+      "note_zh": "需要一些配置。可通过 curl | sh installer、native installer / package 安装；需要 docker compose up、docker run；需配置 API key configuration、config file"
+    },
+    "doc_score": 74,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Cursor"
+    ],
+    "summary_en": "The open-source AI agent management system.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSL https://raw.githubusercontent.com/labsai/EDDI/main/install.sh | bash",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.667
+    },
+    "highlights": [
+      "Authentication: OAuth 2.0 with Keycloak, role-based access, and enforced token audience.",
+      "Open protocols. EDDI is an MCP server (120 tools) and an MCP client, speaks A2A, and can serve deployed agents through an OpenAI-compatible /v1 API (off by default).",
+      "Secrets vault: envelope encryption (PBKDF2 and AES-256-GCM) with key rotation.",
+      "Run. Agents work alone or as a team, with any of 19 model providers, local models included, on your own servers. It installs with one Docker command or on Kubernetes and OpenShift, on Mongo…"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-19T13:07:17+00:00",
+  "categories": [
+    "mcp-security",
+    "sessions-memory",
+    "teams-self-hosting"
+  ],
+  "primary_category": "teams-self-hosting",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

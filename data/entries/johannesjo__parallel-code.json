@@ -6,8 +6,8 @@
   "url": "https://github.com/johannesjo/parallel-code",
   "description": "Run Claude Code, Codex, Copilot and other agent CLIs in parallel worktrees, then check what each one did before you merge.",
   "homepage": "https://parallelcode.app",
-  "stars": 1095,
-  "forks": 151,
+  "stars": 1098,
+  "forks": 152,
   "open_issues": 68,
   "language": "TypeScript",
   "license": "MIT",
@@ -24,12 +24,12 @@
     "terminal"
   ],
   "created_at": "2026-02-18T09:53:27Z",
-  "updated_at": "2026-11-18T08:02:54Z",
-  "pushed_at": "2026-11-18T11:25:46Z",
+  "updated_at": "2026-11-19T01:17:44Z",
+  "pushed_at": "2026-11-19T12:59:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 273,
+  "age_days": 274,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
@@ -41,8 +41,8 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1095,
-    "days_span": 273,
+    "stars_gained": 1098,
+    "days_span": 274,
     "stars_per_day": 4.01,
     "lifetime_stars_per_day": 4.01,
     "basis": "lifetime",
@@ -152,10 +152,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:01+00:00",
+  "fetched_at": "2026-11-19T13:06:50+00:00",
   "categories": [
     "desktop-ui",
-    "isolation-teams",
     "mobile"
   ],
   "primary_category": "mobile",

@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 537,
   "forks": 138,
-  "open_issues": 40,
+  "open_issues": 42,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,22 +24,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 209,
-  "days_since_push": 7,
-  "health_score": 49,
+  "age_days": 210,
+  "days_since_push": 8,
+  "health_score": 48,
   "health_components": {
     "popularity": 54.6,
-    "momentum": 1.2,
-    "maintenance": 100.0,
+    "momentum": 0.7,
+    "maintenance": 92.0,
     "documentation": 74.0,
     "accessibility": 16.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 2.57,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 2.56,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:23+00:00",
+  "fetched_at": "2026-11-19T13:07:06+00:00",
   "categories": [
     "desktop-ui-2",
     "failover-2",

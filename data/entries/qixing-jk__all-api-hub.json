@@ -8,7 +8,7 @@
   "homepage": "https://all-api-hub.qixing1217.top/",
   "stars": 5076,
   "forks": 348,
-  "open_issues": 83,
+  "open_issues": 86,
   "language": "TypeScript",
   "license": "AGPL-3.0",
   "topics": [
@@ -30,27 +30,27 @@
     "voapi"
   ],
   "created_at": "2025-09-08T15:51:38Z",
-  "updated_at": "2026-11-18T11:30:00Z",
-  "pushed_at": "2026-11-18T08:08:48Z",
+  "updated_at": "2026-11-19T10:13:45Z",
+  "pushed_at": "2026-11-19T11:43:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 435,
+  "age_days": 436,
   "days_since_push": 0,
   "health_score": 60,
   "health_components": {
     "popularity": 74.1,
-    "momentum": 2.7,
+    "momentum": 2.2,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 13,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 11.67,
+    "stars_per_day": 2.6,
+    "lifetime_stars_per_day": 11.64,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -161,11 +161,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:38+00:00",
+  "fetched_at": "2026-11-19T13:06:34+00:00",
   "categories": [
     "accounts",
     "billing",
-    "billing-2"
+    "teams-self-hosting"
   ],
   "primary_category": "accounts",
   "lifecycle": {

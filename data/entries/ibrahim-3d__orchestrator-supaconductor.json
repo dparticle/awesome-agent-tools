@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 273,
-  "days_since_push": 51,
+  "age_days": 274,
+  "days_since_push": 52,
   "health_score": 45,
   "health_components": {
     "popularity": 51.7,
@@ -43,7 +43,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.41,
+    "lifetime_stars_per_day": 1.4,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -136,11 +136,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:40+00:00",
+  "fetched_at": "2026-11-19T13:07:17+00:00",
   "categories": [
-    "isolation-teams"
+    "isolation-teams",
+    "parallelism"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).",
@@ -163,14 +164,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 89.479,
-      "momentum_ratio": 99.0,
+      "star_ratio": 89.529,
+      "momentum_ratio": 111.0,
       "setup_delta": -70,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "89.48x the stars (34,360 vs 384)",
-        "99.00x the star velocity (19.8/day vs 0.2/day)",
+        "89.53x the stars (34,379 vs 384)",
+        "111.00x the star velocity (22.2/day vs 0.2/day)",
         "no harder to set up (2 vs 72 friction)"
       ],
       "reasons_zh": [],

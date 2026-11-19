@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 683,
-  "days_since_push": 33,
+  "age_days": 684,
+  "days_since_push": 34,
   "health_score": 49,
   "health_components": {
     "popularity": 53.0,
@@ -127,8 +127,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:32+00:00",
+  "fetched_at": "2026-11-19T13:07:12+00:00",
   "categories": [
+    "billing-2",
     "desktop-ui-2",
     "mcp-security"
   ],

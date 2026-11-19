@@ -6,9 +6,9 @@
   "url": "https://github.com/langfuse/langfuse",
   "description": "🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.",
   "homepage": "https://langfuse.com",
-  "stars": 37588,
-  "forks": 4258,
-  "open_issues": 1167,
+  "stars": 37624,
+  "forks": 4262,
+  "open_issues": 1184,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -34,26 +34,26 @@
     "self-hosted"
   ],
   "created_at": "2023-05-18T17:47:09Z",
-  "updated_at": "2026-11-18T12:42:52Z",
-  "pushed_at": "2026-11-18T13:01:55Z",
+  "updated_at": "2026-11-19T12:46:09Z",
+  "pushed_at": "2026-11-19T13:04:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1279,
+  "age_days": 1280,
   "days_since_push": 0,
   "health_score": 77,
   "health_components": {
     "popularity": 91.5,
-    "momentum": 33.3,
+    "momentum": 34.3,
     "maintenance": 100.0,
     "documentation": 81.0,
     "accessibility": 84.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 200,
+    "stars_gained": 206,
     "days_span": 5,
-    "stars_per_day": 40.0,
+    "stars_per_day": 41.2,
     "lifetime_stars_per_day": 29.39,
     "basis": "history",
     "is_fast_riser": true
@@ -173,9 +173,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:27+00:00",
+  "fetched_at": "2026-11-19T13:06:26+00:00",
   "categories": [
-    "desktop-ui-2",
+    "desktop-ui",
     "failover",
     "teams-self-hosting"
   ],

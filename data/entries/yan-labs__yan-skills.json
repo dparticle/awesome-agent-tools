@@ -6,7 +6,7 @@
   "url": "https://github.com/yan-labs/yan-skills",
   "description": "Yan's agent skills collection — Google Trends SEO workflows, AI news, autopilot, and more. For Claude Code / Codex / Cursor.",
   "homepage": "",
-  "stars": 312,
+  "stars": 313,
   "forks": 117,
   "open_issues": 0,
   "language": "JavaScript",
@@ -19,27 +19,27 @@
     "skills"
   ],
   "created_at": "2026-07-05T07:14:39Z",
-  "updated_at": "2026-11-18T09:36:56Z",
-  "pushed_at": "2026-11-18T07:20:46Z",
+  "updated_at": "2026-11-19T02:30:19Z",
+  "pushed_at": "2026-11-18T19:58:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 136,
+  "age_days": 137,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 49.9,
-    "momentum": 1.3,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 2.29,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 2.28,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,11 +150,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:47+00:00",
+  "fetched_at": "2026-11-19T13:07:23+00:00",
   "categories": [
     "billing",
     "billing-2",
-    "teams-self-hosting"
+    "isolation-teams"
   ],
   "primary_category": "billing",
   "lifecycle": {

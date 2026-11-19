@@ -6,9 +6,9 @@
   "url": "https://github.com/lexmount/moli",
   "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
   "homepage": "https://browser.lexmount.com",
-  "stars": 23993,
-  "forks": 688,
-  "open_issues": 728,
+  "stars": 24058,
+  "forks": 690,
+  "open_issues": 736,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -30,33 +30,33 @@
     "web-scraping"
   ],
   "created_at": "2026-08-10T13:20:30Z",
-  "updated_at": "2026-11-18T13:01:10Z",
-  "pushed_at": "2026-11-18T13:00:23Z",
+  "updated_at": "2026-11-19T13:01:58Z",
+  "pushed_at": "2026-11-19T13:01:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 99,
+  "age_days": 100,
   "days_since_push": 0,
-  "health_score": 79,
+  "health_score": 78,
   "health_components": {
     "popularity": 87.6,
-    "momentum": 60.3,
+    "momentum": 56.3,
     "maintenance": 100.0,
-    "documentation": 52.0,
+    "documentation": 49.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 362,
+    "stars_gained": 338,
     "days_span": 5,
-    "stars_per_day": 72.4,
-    "lifetime_stars_per_day": 242.35,
+    "stars_per_day": 67.6,
+    "lifetime_stars_per_day": 240.58,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "lexmount/moli",
-    "readme_chars": 21571,
+    "readme_chars": 21248,
     "capabilities": [
       "mcp-support"
     ],
@@ -91,13 +91,12 @@
       "note_en": "Turnkey. install via PowerShell irm | iex installer, native installer / package; configure sign-in required; GUI application",
       "note_zh": "开箱即用。可通过 PowerShell irm | iex installer、native installer / package 安装；需配置 sign-in required；GUI application"
     },
-    "doc_score": 52,
+    "doc_score": 49,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
       "has a quick-start section",
       "documents installation",
-      "mentions licensing",
       "has a Chinese translation",
       "reports benchmarks",
       "explains architecture",
@@ -112,7 +111,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.232
+      "external_link_ratio": 0.282
     },
     "highlights": [
       "Extraction-optimized outputs — the CLI directly produces HTML, Markdown,",
@@ -129,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:03:40+00:00",
+  "fetched_at": "2026-11-19T13:05:54+00:00",
   "categories": [
     "mcp-security"
   ],

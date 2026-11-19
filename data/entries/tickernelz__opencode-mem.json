@@ -6,9 +6,9 @@
   "url": "https://github.com/tickernelz/opencode-mem",
   "description": "OpenCode plugin that gives coding agents persistent memory using local vector database",
   "homepage": "https://opencode-mem.zhafron.my.id",
-  "stars": 1872,
-  "forks": 189,
-  "open_issues": 5,
+  "stars": 1880,
+  "forks": 190,
+  "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "vector-database"
   ],
   "created_at": "2026-01-10T08:13:56Z",
-  "updated_at": "2026-11-18T12:06:18Z",
-  "pushed_at": "2026-11-18T09:59:35Z",
+  "updated_at": "2026-11-19T11:51:49Z",
+  "pushed_at": "2026-11-18T13:46:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 312,
+  "age_days": 313,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 65.4,
-    "momentum": 2.5,
+    "popularity": 65.5,
+    "momentum": 3.7,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 22,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 6.0,
+    "stars_per_day": 4.4,
+    "lifetime_stars_per_day": 6.01,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tickernelz/opencode-mem",
-    "readme_chars": 70129,
+    "readme_chars": 71193,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -86,7 +86,7 @@
       "skills-plugins": 4,
       "agent-runtime": 2,
       "security-isolation": 1,
-      "gui-desktop": 14,
+      "gui-desktop": 15,
       "notifications": 1,
       "cross-agent-support": 3
     },
@@ -142,7 +142,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.271
+      "external_link_ratio": 0.281
     },
     "highlights": [
       "In later sessions, relevant memories are injected into context (see chatMessage / compaction settings).",
@@ -159,11 +159,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:50+00:00",
+  "fetched_at": "2026-11-19T13:06:42+00:00",
   "categories": [
+    "desktop-ui-2",
     "failover",
-    "failover-2",
-    "sessions-memory"
+    "failover-2"
   ],
   "primary_category": "failover-2",
   "lifecycle": {

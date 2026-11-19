@@ -6,9 +6,9 @@
   "url": "https://github.com/ai-driven-dev/framework",
   "description": "Marketplace Framework AI-Driven Dev : Context Engineering, Plugins, Agents, Skills, Hooks, Templates, SDLC",
   "homepage": "https://www.ai-driven-dev.fr/",
-  "stars": 563,
+  "stars": 567,
   "forks": 65,
-  "open_issues": 148,
+  "open_issues": 153,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -28,27 +28,27 @@
     "skills"
   ],
   "created_at": "2026-02-06T20:59:32Z",
-  "updated_at": "2026-11-18T00:39:38Z",
-  "pushed_at": "2026-11-18T12:02:59Z",
+  "updated_at": "2026-11-19T11:34:00Z",
+  "pushed_at": "2026-11-19T10:53:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 284,
+  "age_days": 285,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
-    "popularity": 55.0,
-    "momentum": 1.2,
+    "popularity": 55.1,
+    "momentum": 1.7,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 96.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 1.98,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 1.99,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -129,9 +129,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:18+00:00",
+  "fetched_at": "2026-11-19T13:07:03+00:00",
   "categories": [
     "desktop-ui-2",
+    "isolation-teams",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",

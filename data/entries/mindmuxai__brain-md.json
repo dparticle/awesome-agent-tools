@@ -32,24 +32,24 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 153,
-  "days_since_push": 5,
-  "health_score": 58,
+  "age_days": 154,
+  "days_since_push": 6,
+  "health_score": 57,
   "health_components": {
     "popularity": 57.2,
-    "momentum": 5.0,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 30,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 6.0,
-    "lifetime_stars_per_day": 4.71,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 4.68,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "mindmuxai/brain.md",
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:11+00:00",
+  "fetched_at": "2026-11-19T13:06:58+00:00",
   "categories": [
     "desktop-ui",
     "failover",

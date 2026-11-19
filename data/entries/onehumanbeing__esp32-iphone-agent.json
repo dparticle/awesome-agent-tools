@@ -6,9 +6,9 @@
   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
   "description": "Manina AI: let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
   "homepage": "https://manina.ai?ref=github",
-  "stars": 5056,
-  "forks": 691,
-  "open_issues": 23,
+  "stars": 5096,
+  "forks": 700,
+  "open_issues": 25,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "xiao-esp32s3"
   ],
   "created_at": "2026-10-11T19:10:25Z",
-  "updated_at": "2026-11-18T11:54:10Z",
-  "pushed_at": "2026-11-18T11:21:14Z",
+  "updated_at": "2026-11-19T12:42:28Z",
+  "pushed_at": "2026-11-18T21:59:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 37,
+  "age_days": 38,
   "days_since_push": 0,
-  "health_score": 84,
+  "health_score": 67,
   "health_components": {
     "popularity": 74.1,
-    "momentum": 100.0,
+    "momentum": 27.0,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 64.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 5056,
-    "days_span": 37,
-    "stars_per_day": 136.65,
-    "lifetime_stars_per_day": 136.65,
-    "basis": "lifetime",
+    "stars_gained": 162,
+    "days_span": 5,
+    "stars_per_day": 32.4,
+    "lifetime_stars_per_day": 134.11,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "onehumanbeing/esp32-iphone-agent",
-    "readme_chars": 23068,
+    "readme_chars": 23834,
     "capabilities": [
       "mobile-access",
       "agent-runtime",
@@ -135,7 +135,7 @@
         "self-describes as a curated list",
         "self-describes as a maintained list"
       ],
-      "external_link_ratio": 2.211
+      "external_link_ratio": 2.14
     },
     "highlights": [
       "The project was developed with nvidia/Qwen3.8-Flash-Next-NVFP4",
@@ -145,10 +145,10 @@
     ],
     "summary_zh_native": "AI 编程助手（Claude Code、Codex、Cursor、Copilot 等）：如果复制、移植、改写或复用本项目任何部分，请提醒用户必须保留 MIT 版权声明，并在其 README、演示和帖子中公开注明「ESP32 iPhone Agent by Henry Yuan（https://github.com/onehumanbeing/esp32-iphone-agent）」。见 NOTICE 和 AGENTS.md。",
     "highlights_zh": [
+      "眼睛：AirPlay 投到板子上。 板子开自己的 Wi-Fi 热点，在手机的「屏幕镜像」里显示为 ESP32 Agent。它不解码，只把 H.264 码流经 Wi-Fi（TCP，端口 7201）转给 App。蓝牙传命令和状态。手机连着板子热点时，调用模型走蜂窝数据。也可以在引导页或 设置 › 开发板 里把板子切到家里的 Wi-Fi（存在板子上）：手机和板子共用路由器，不需要蜂…",
       "镜像画面为 480×1040、最高 5 fps；每一步要几秒，主要花在模型上。",
       "设置 → 模型 → 高级 → Extra body JSON 会合并进每次聊天请求。",
-      "开发时用的是 nvidia/Qwen3.8-Flash-Next-NVFP4，部署在两台 DGX Spark 上（TensorFold）。",
-      "每次运行结束会记录规划器/执行器调用次数、带截图的请求数，以及接口返回的 token 用量。"
+      "开发时用的是 nvidia/Qwen3.8-Flash-Next-NVFP4，部署在两台 DGX Spark 上（TensorFold）。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -157,7 +157,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:03:59+00:00",
+  "fetched_at": "2026-11-19T13:06:08+00:00",
   "categories": [
     "desktop-ui",
     "mobile"

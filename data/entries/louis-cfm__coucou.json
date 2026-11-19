@@ -6,9 +6,9 @@
   "url": "https://github.com/Louis-CFM/coucou",
   "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
   "homepage": "https://louis-cfm.github.io/coucou/",
-  "stars": 7318,
-  "forks": 1209,
-  "open_issues": 457,
+  "stars": 7341,
+  "forks": 1215,
+  "open_issues": 444,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windows"
   ],
   "created_at": "2026-09-27T21:54:12Z",
-  "updated_at": "2026-11-18T12:22:58Z",
-  "pushed_at": "2026-11-13T19:38:48Z",
+  "updated_at": "2026-11-19T13:01:23Z",
+  "pushed_at": "2026-11-19T12:05:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 51,
-  "days_since_push": 4,
+  "age_days": 52,
+  "days_since_push": 0,
   "health_score": 67,
   "health_components": {
     "popularity": 77.3,
-    "momentum": 25.8,
+    "momentum": 26.3,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 71.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 155,
+    "stars_gained": 158,
     "days_span": 5,
-    "stars_per_day": 31.0,
-    "lifetime_stars_per_day": 143.49,
+    "stars_per_day": 31.6,
+    "lifetime_stars_per_day": 141.17,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Louis-CFM/coucou",
-    "readme_chars": 55939,
+    "readme_chars": 57712,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -75,14 +75,14 @@
     ],
     "capability_evidence": {
       "auto-failover": "e permission requests show up with Allow / Deny / Always; AskUserQuestion prompts show the choices right in the notch (single or multi-select, up to 4 questions).",
-      "remote-control": "hooting and build-it-yourself: docs/IPHONE.md.",
+      "remote-control": "too? That's Botan: the founders list is open.",
       "mobile-access": "ries, no hook files, no recap history.",
       "model-routing": "open the exact terminal window of a session (macOS).",
       "agent-runtime": "",
       "security-isolation": "See what Claude is editing, live in the notch: each file modification shows the file name and +N −M counts in the ticker, tap to read the full diff",
       "gui-desktop": "Coucou on the iPhone, allow notifications, and start a Claude Code session on the Mac.",
       "notifications": "your iPhone's Lock Screen and Dynamic Island with the agent's state, then comes back to the notch when you unlock.",
-      "voice-input": "pops out of your notch, waves hello, follows your cursor with its eyes, gets annoyed when you poke it (and dizzy if you insist), and tells you the moment Claude Code needs you.",
+      "voice-input": "it snaps onto the back of your iPhone, and I'm building it in public.",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Copilot"
     },
     "capability_hits": {
@@ -160,7 +160,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.788
+      "external_link_ratio": 1.889
     },
     "highlights": [
       "📋 Declare the tools you use — open Settings → Active pills and pick your main workspace tool (VS Code, Cursor, Codex or Antigravity), then toggle up to 4 more: Gemini CLI, Anthropic, Google…",
@@ -177,7 +177,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:03:54+00:00",
+  "fetched_at": "2026-11-19T13:06:04+00:00",
   "categories": [
     "failover-2",
     "mobile",

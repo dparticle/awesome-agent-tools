@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "full_name": "nejib1/Free-LLM",
+  "name": "Free-LLM",
+  "owner": "nejib1",
+  "url": "https://github.com/nejib1/Free-LLM",
+  "description": "74 free LLM API providers & 450+ free models (limits, no-card options) + Free-LLM Router: all of them behind one OpenAI/Anthropic-compatible endpoint with instant failover. Run Claude Code, Codex, Cursor, Aider on free models. Gemini, Groq, Mistral, DeepSeek, Qwen & more. Synced daily.",
+  "homepage": "https://free-llm.com",
+  "stars": 1066,
+  "forks": 138,
+  "open_issues": 18,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "ai-gateway",
+    "awesome-list",
+    "cerebras",
+    "claude-code",
+    "coding-agents",
+    "cursor",
+    "deepseek",
+    "free-ai-api",
+    "free-api",
+    "free-llm",
+    "free-llm-api",
+    "gemini-api",
+    "groq",
+    "llm",
+    "llm-api",
+    "llm-router",
+    "mistral",
+    "openai-compatible",
+    "openrouter",
+    "qwen"
+  ],
+  "created_at": "2026-02-13T14:11:27Z",
+  "updated_at": "2026-11-19T12:43:08Z",
+  "pushed_at": "2026-11-19T03:00:04Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 278,
+  "days_since_push": 0,
+  "health_score": 57,
+  "health_components": {
+    "popularity": 60.6,
+    "momentum": 3.2,
+    "maintenance": 100.0,
+    "documentation": 80.0,
+    "accessibility": 58.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 1066,
+    "days_span": 278,
+    "stars_per_day": 3.83,
+    "lifetime_stars_per_day": 3.83,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "nejib1/Free-LLM",
+    "readme_chars": 49870,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "model-routing",
+      "api-gateway",
+      "billing-metering",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "ron 3.5 Lightning (free), Llama 3.3 70B, MiniMax M3.1 Flash, GLM-4.7 Flash",
+      "quota-management": ", Codex, Cursor, your own code…) talks to **one** OpenAI/Anthropic-compatible address, and the router always sends the request to a free model that is up — switching **instantly** when one is busy or out of quota.",
+      "model-routing": "uests per day per model, free forever).",
+      "api-gateway": "notes for each provider live on its page at **free-llm.com/provider/<slug>** (e.g.",
+      "billing-metering": "**Hetzner Inference API** 💳 Card required ⏱️ 10 requests, 4M input / 100K output tokens per 60s (per API key) 📅 No daily cap published (free while the API is experimental); a Hetzner account with billing de… 🗓️ Free dur…",
+      "agent-runtime": "g free plan that never goes down — and the list of providers updates itself the same day from free-llm.com, for everyone, free.",
+      "mcp-support": "updates itself the same day from free-llm.com, for everyone, free.",
+      "self-hosted": "Free-LLM — Open Directory of Free AI & LLM APIs",
+      "gui-desktop": "acceleration, OpenAI-compatible endpoint",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
+    },
+    "capability_hits": {
+      "multi-account-switching": 1,
+      "quota-management": 1,
+      "model-routing": 4,
+      "api-gateway": 1,
+      "billing-metering": 1,
+      "agent-runtime": 2,
+      "mcp-support": 1,
+      "self-hosted": 3,
+      "gui-desktop": 1,
+      "cross-agent-support": 4
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 42,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs npm install/build; configure API key configuration, sign-in required; GUI application",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 API key configuration、sign-in required；GUI application"
+    },
+    "doc_score": 80,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "has a Chinese translation",
+      "documents changes",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "🌐 English · 简体中文 · 繁體中文 · 日本語 · 한국어",
+    "summary_zh": "",
+    "install_hint": "npm install -g github:nejib1/Free-LLM   # installs the `free-llm` command",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 2,
+      "signals": [
+        "invites project submissions"
+      ],
+      "external_link_ratio": 5.234
+    },
+    "highlights": [
+      "Claude Code — speaks the Anthropic API, so use a provider with a native Anthropic endpoint (OpenRouter, Z.AI, FreeInference, Ollama) or a LiteLLM proxy.",
+      "Codex CLI — set OPENAIBASEURL + OPENAIAPIKEY.",
+      "Best Free LLM APIs in 2026 — side-by-side comparison of top picks",
+      "OpenRouter Alternatives — other aggregators worth trying"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-19T13:06:51+00:00",
+  "categories": [
+    "billing",
+    "desktop-ui",
+    "failover"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

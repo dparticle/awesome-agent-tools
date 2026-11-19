@@ -6,9 +6,9 @@
   "url": "https://github.com/leepokai/Codync",
   "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
   "homepage": "https://www.codync.dev",
-  "stars": 2243,
-  "forks": 229,
-  "open_issues": 125,
+  "stars": 2274,
+  "forks": 232,
+  "open_issues": 117,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "self-hosted"
   ],
   "created_at": "2026-03-18T11:11:05Z",
-  "updated_at": "2026-11-18T13:01:05Z",
-  "pushed_at": "2026-11-18T12:28:55Z",
+  "updated_at": "2026-11-19T12:14:20Z",
+  "pushed_at": "2026-11-19T11:33:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
+  "age_days": 246,
   "days_since_push": 0,
   "health_score": 67,
   "health_components": {
-    "popularity": 67.0,
-    "momentum": 28.3,
+    "popularity": 67.1,
+    "momentum": 30.5,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 91.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 170,
+    "stars_gained": 183,
     "days_span": 5,
-    "stars_per_day": 34.0,
-    "lifetime_stars_per_day": 9.16,
+    "stars_per_day": 36.6,
+    "lifetime_stars_per_day": 9.24,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "leepokai/Codync",
-    "readme_chars": 25202,
+    "readme_chars": 25589,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -85,7 +85,7 @@
     },
     "capability_hits": {
       "remote-control": 2,
-      "mobile-access": 4,
+      "mobile-access": 3,
       "multi-agent-orchestration": 1,
       "agent-runtime": 4,
       "mcp-support": 1,
@@ -119,6 +119,7 @@
         "Windows",
         "Linux",
         "iOS",
+        "Android",
         "Web"
       ],
       "note_en": "Turnkey. install via uvx one-liner, Homebrew install; configure sign-in required, database dependency; GUI application",
@@ -154,7 +155,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.984
+      "external_link_ratio": 1.993
     },
     "highlights": [
       "codync-host (Rust, macOS, Windows and Linux) runs on your computer.",
@@ -171,7 +172,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:46+00:00",
+  "fetched_at": "2026-11-19T13:06:40+00:00",
   "categories": [
     "desktop-ui",
     "mobile",

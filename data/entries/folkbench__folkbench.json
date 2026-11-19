@@ -6,7 +6,7 @@
   "url": "https://github.com/Folkbench/folkbench",
   "description": "AI API 中转站推荐与评测：中转站排行榜、中转站检测、Claude / GPT / Gemini 中转站对比 · AI API relay rankings · Folkbench Switch for Claude Code, Codex & Gemini CLI",
   "homepage": "https://folkbench.com",
-  "stars": 3966,
+  "stars": 3982,
   "forks": 19,
   "open_issues": 0,
   "language": "TypeScript",
@@ -34,33 +34,33 @@
     "tauri"
   ],
   "created_at": "2026-10-02T09:50:45Z",
-  "updated_at": "2026-11-18T11:47:09Z",
-  "pushed_at": "2026-11-18T07:15:01Z",
+  "updated_at": "2026-11-19T10:52:26Z",
+  "pushed_at": "2026-11-19T04:32:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 47,
+  "age_days": 48,
   "days_since_push": 0,
-  "health_score": 63,
+  "health_score": 64,
   "health_components": {
     "popularity": 72.0,
-    "momentum": 33.5,
+    "momentum": 36.0,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 67.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 201,
+    "stars_gained": 216,
     "days_span": 5,
-    "stars_per_day": 40.2,
-    "lifetime_stars_per_day": 84.38,
+    "stars_per_day": 43.2,
+    "lifetime_stars_per_day": 82.96,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Folkbench/folkbench",
-    "readme_chars": 20214,
+    "readme_chars": 21166,
     "capabilities": [
       "quota-management",
       "model-routing",
@@ -140,7 +140,7 @@
         "bullet list of external links",
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 3.512
+      "external_link_ratio": 3.449
     },
     "highlights": [
       "一键切换配置： 选好线路后，用 Folkbench Switch 在 Claude Code、Codex 和 Gemini CLI 之间切换中转站配置。",
@@ -157,13 +157,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:02+00:00",
+  "fetched_at": "2026-11-19T13:06:11+00:00",
   "categories": [
     "billing",
-    "billing-2",
     "mcp-security"
   ],
-  "primary_category": "billing-2",
+  "primary_category": "billing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -6,9 +6,9 @@
   "url": "https://github.com/AVIDS2/memorix",
   "description": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
   "homepage": "https://mem.rglens.com",
-  "stars": 941,
+  "stars": 942,
   "forks": 77,
-  "open_issues": 4,
+  "open_issues": 3,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "windsurf"
   ],
   "created_at": "2026-02-14T06:53:17Z",
-  "updated_at": "2026-11-18T12:28:12Z",
-  "pushed_at": "2026-11-18T11:19:30Z",
+  "updated_at": "2026-11-19T12:24:06Z",
+  "pushed_at": "2026-11-19T04:42:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 277,
+  "age_days": 278,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 59.5,
-    "momentum": 1.8,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 27.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 11,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 2.2,
-    "lifetime_stars_per_day": 3.4,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 3.39,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -182,10 +182,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:05+00:00",
+  "fetched_at": "2026-11-19T13:06:53+00:00",
   "categories": [
-    "desktop-ui-2",
     "failover",
+    "isolation-teams",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",

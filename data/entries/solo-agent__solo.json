@@ -31,8 +31,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 159,
-  "days_since_push": 66,
+  "age_days": 160,
+  "days_since_push": 67,
   "health_score": 45,
   "health_components": {
     "popularity": 55.6,
@@ -46,7 +46,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.81,
+    "lifetime_stars_per_day": 3.78,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,8 +133,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:15+00:00",
+  "fetched_at": "2026-11-19T13:07:01+00:00",
   "categories": [
+    "isolation-teams",
+    "parallelism",
     "providers-2"
   ],
   "primary_category": "providers-2",

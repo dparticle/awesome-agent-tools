@@ -6,119 +6,105 @@
   "url": "https://github.com/vAPI-Network/vapi-network",
   "description": "Buyer-controlled client for x402 API payments in USDC on Base.",
   "homepage": "https://vapinetwork.ai",
-  "stars": 5134,
-  "forks": 180,
-  "open_issues": 14,
+  "stars": 5243,
+  "forks": 181,
+  "open_issues": 11,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
     "agent-payments",
+    "agentic-payments",
     "ai-agents",
     "base",
+    "cli",
     "mcp",
+    "model-context-protocol",
+    "payments",
+    "sdk",
+    "stablecoins",
+    "typescript",
     "usdc",
     "x402"
   ],
   "created_at": "2026-10-02T13:05:19Z",
-  "updated_at": "2026-11-18T13:03:11Z",
-  "pushed_at": "2026-11-17T14:21:53Z",
+  "updated_at": "2026-11-19T12:48:18Z",
+  "pushed_at": "2026-11-19T13:03:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 46,
+  "age_days": 48,
   "days_since_push": 0,
-  "health_score": 82,
+  "health_score": 86,
   "health_components": {
-    "popularity": 74.2,
+    "popularity": 74.4,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 62.0,
-    "accessibility": 60.0
+    "documentation": 66.0,
+    "accessibility": 87.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 832,
+    "stars_gained": 752,
     "days_span": 5,
-    "stars_per_day": 166.4,
-    "lifetime_stars_per_day": 111.61,
+    "stars_per_day": 150.4,
+    "lifetime_stars_per_day": 109.23,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "vAPI-Network/vapi-network",
-    "readme_chars": 73355,
+    "readme_chars": 9290,
     "capabilities": [
-      "auto-failover",
-      "model-routing",
-      "billing-metering",
       "mcp-support",
-      "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "auto-failover": "",
-      "model-routing": "",
-      "billing-metering": "link; --yes skips task policy prompts",
       "mcp-support": "package as SKILL.md, with the",
-      "notifications": "party only confirms the existing local binding.",
-      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+      "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
-      "auto-failover": 1,
-      "model-routing": 1,
-      "billing-metering": 1,
-      "mcp-support": 8,
-      "notifications": 1,
-      "cross-agent-support": 3
+      "mcp-support": 7,
+      "cross-agent-support": 2
     },
     "friction": {
-      "level": "moderate",
-      "score": 40,
-      "out_of_the_box": false,
+      "level": "low",
+      "score": 25,
+      "out_of_the_box": true,
       "non_programmer_friendly": false,
       "easy_signals": [
-        "npx one-liner",
-        "native installer / package"
+        "npx one-liner"
       ],
       "hard_signals": [
         "pnpm install/build"
       ],
-      "config_signals": [
-        "API key configuration",
-        "config.json/yaml/toml",
-        "OAuth login flow",
-        "sign-in required"
-      ],
+      "config_signals": [],
       "friendliness_signals": [],
       "platforms": [
         "macOS",
-        "Windows",
-        "Linux",
-        "Web"
+        "Linux"
       ],
-      "note_en": "Some setup. install via npx one-liner, native installer / package; needs pnpm install/build; configure API key configuration, config.json/yaml/toml",
-      "note_zh": "需要一些配置。可通过 npx one-liner、native installer / package 安装；需要 pnpm install/build；需配置 API key configuration、config.json/yaml/toml"
+      "note_en": "Easy. install via npx one-liner; needs pnpm install/build",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 pnpm install/build"
     },
-    "doc_score": 62,
+    "doc_score": 66,
     "doc_signals": [
       "contains code blocks",
+      "contains screenshots/diagrams",
       "has section headings",
       "has a quick-start section",
       "documents installation",
       "documents configuration",
+      "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
-      "documents changes",
-      "long, detailed README"
+      "documents changes"
     ],
     "agents": [
       "Claude Code",
-      "Codex",
-      "Cursor",
-      "Droid"
+      "Codex"
     ],
-    "summary_en": "vAPI Network builds payment and trust infrastructure for AI agents on Base, with x402 API payments in USDC.",
+    "summary_en": "One wallet, every x402 API.",
     "summary_zh": "",
     "install_hint": "npm i -g vapi-network",
     "source": "raw:HEAD/README.md",
@@ -126,11 +112,9 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.027
+      "external_link_ratio": 1.076
     },
-    "highlights": [
-      "swarm.run runs the lead, which may delegate one level deep using treasury-funded budgets bounded by a per-run draw (default $2.00), or runs every member independently on its own capital."
-    ],
+    "highlights": [],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -140,12 +124,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:03:59+00:00",
+  "fetched_at": "2026-11-19T13:06:08+00:00",
   "categories": [
-    "billing-2",
-    "failover-2"
+    "mcp-security"
   ],
-  "primary_category": "billing-2",
+  "primary_category": "mcp-security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

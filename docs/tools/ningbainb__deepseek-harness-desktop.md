@@ -2,7 +2,7 @@
 
 # ningbainb/deepseek-harness-desktop
 
-> Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, skills, SSH, mobile remote access, and 11 skins.
+> DeepSeek Harness Desktop 是社区维护的开源 AI 桌面工作台。它基于官方 DSH Runtime 和 Web UI，提供对话、项目、插件、技能和任务自动化。
 
 [Repository](https://github.com/ningbainb/deepseek-harness-desktop) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 936 |
-| Star velocity | 1.2/day (history basis, 5d span) |
+| Stars | 940 |
+| Star velocity | 1.6/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 44/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | BSD-3-Clause |
 | Language | JavaScript |
 | Created | 2026-08-13 |
-| Last push | 2026-11-18 (0 days ago) |
-| Analyzed README | 15,101 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-19 (0 days ago) |
+| Analyzed README | 15,567 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -61,10 +61,6 @@
 ### Skills & plugins
 
 > eb Surface，并由桌面宿主管理本地 DSH Runtime。
-
-### Agent runtime
-
-> QQ 群：1105158177 点击一键加入 QQ 群 欢迎加入社群交流： - 使用与配置交流 - 插件与 Skills 分享 - 模型配置与使用经验 - 自动化玩法 - 主题与桌宠 - 新版本体验与功能建议 > GitHub 下载速度较慢？ > 群内会同步提供最新版安装包，也可以直接交流安装与使用问题。
 
 ### MCP support
 
@@ -113,8 +109,8 @@ Score **44/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 59.4 |
-| momentum | 1.0 |
+| popularity | 59.5 |
+| momentum | 1.3 |
 | maintenance | 100.0 |
 | documentation | 44.0 |
 | accessibility | 100.0 |

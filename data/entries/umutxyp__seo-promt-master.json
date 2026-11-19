@@ -6,7 +6,7 @@
   "url": "https://github.com/umutxyp/Seo-Promt-Master",
   "description": "Open-source SEO & GEO audit: a zero-dependency CLI (npx), an agent skill for Claude Code, Cursor, Codex, Gemini & Copilot, 47 SEO prompts and a cited Google/Bing/AI-search knowledge base. Checks robots.txt, sitemaps, canonicals, hreflang, structured data, Core Web Vitals and AI crawlers — then fixes them.",
   "homepage": "https://codeshare.me",
-  "stars": 591,
+  "stars": 593,
   "forks": 318,
   "open_issues": 0,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "technical-seo"
   ],
   "created_at": "2022-03-18T13:08:50Z",
-  "updated_at": "2026-11-17T23:04:38Z",
+  "updated_at": "2026-11-19T08:18:25Z",
   "pushed_at": "2026-11-11T04:35:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1705,
-  "days_since_push": 7,
-  "health_score": 54,
+  "age_days": 1706,
+  "days_since_push": 8,
+  "health_score": 53,
   "health_components": {
-    "popularity": 55.4,
-    "momentum": 1.7,
-    "maintenance": 100.0,
+    "popularity": 55.5,
+    "momentum": 2.0,
+    "maintenance": 92.0,
     "documentation": 61.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.0,
+    "stars_per_day": 2.4,
     "lifetime_stars_per_day": 0.35,
     "basis": "history",
     "is_fast_riser": false
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:16+00:00",
+  "fetched_at": "2026-11-19T13:07:02+00:00",
   "categories": [
     "desktop-ui",
     "sessions-memory"
@@ -175,14 +175,14 @@
         "gui-desktop",
         "memory-context"
       ],
-      "star_ratio": 32.533,
-      "momentum_ratio": 21.9,
+      "star_ratio": 32.482,
+      "momentum_ratio": 17.333,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "32.53x the stars (19,227 vs 591)",
-        "21.90x the star velocity (43.8/day vs 2.0/day)",
+        "32.48x the stars (19,262 vs 593)",
+        "17.33x the star velocity (41.6/day vs 2.4/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -200,7 +200,7 @@
           "mcp-support",
           "memory-context"
         ],
-        "incumbent_health": 54,
+        "incumbent_health": 53,
         "challenger_health": 73,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 33

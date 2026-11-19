@@ -12,19 +12,21 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,552 |
-| Star velocity | 22.4/day (history basis, 5d span) |
+| Stars | 4,561 |
+| Star velocity | 22.0/day (history basis, 5d span) |
 | Health score | 59/100 |
-| Documentation | 38/100 |
+| Documentation | 41/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-07-04 |
-| Last push | 2026-11-14 (3 days ago) |
-| Analyzed README | 12,933 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-19 (0 days ago) |
+| Analyzed README | 13,430 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Automatic failover
 
 ### Multi-agent orchestration
 
@@ -40,11 +42,13 @@
 
 ### MCP support
 
-> Codex 桌面端 / Codex CLI 的跨平台桌面工具。
+> 词模板、自定义 Prompt、第三方 API 供应商、会话同步、Skills / MCP 和 TOML 配置都放进可视化界面里，不用反复手改文件。
 
 ### Team collaboration
 
 ### GUI / desktop app
+
+> 官方配置可和第三方 Provider 在 UI 中统一管理
 
 ## Setup reality check
 
@@ -62,7 +66,7 @@
 
 ## Documentation quality
 
-Score **38/100**, based on these detected signals:
+Score **41/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -70,15 +74,16 @@ Score **38/100**, based on these detected signals:
 - documents configuration
 - mentions licensing
 - has a table of contents
+- explains architecture
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 73.2 |
-| momentum | 18.7 |
+| momentum | 18.3 |
 | maintenance | 100.0 |
-| documentation | 38.0 |
+| documentation | 41.0 |
 | accessibility | 64.0 |
 
 ---

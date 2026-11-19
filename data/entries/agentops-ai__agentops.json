@@ -6,8 +6,8 @@
   "url": "https://github.com/AgentOps-AI/agentops",
   "description": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI",
   "homepage": "https://agentops.ai",
-  "stars": 5963,
-  "forks": 665,
+  "stars": 5965,
+  "forks": 666,
   "open_issues": 208,
   "language": "Python",
   "license": "MIT",
@@ -31,13 +31,13 @@
     "openai-agents"
   ],
   "created_at": "2023-08-15T23:26:23Z",
-  "updated_at": "2026-11-18T09:49:28Z",
+  "updated_at": "2026-11-19T10:42:41Z",
   "pushed_at": "2026-06-25T08:25:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1190,
-  "days_since_push": 146,
+  "age_days": 1191,
+  "days_since_push": 147,
   "health_score": 51,
   "health_components": {
     "popularity": 75.5,
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:36+00:00",
+  "fetched_at": "2026-11-19T13:06:33+00:00",
   "categories": [
     "teams-self-hosting"
   ],

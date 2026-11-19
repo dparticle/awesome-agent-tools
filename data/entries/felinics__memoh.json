@@ -7,8 +7,8 @@
   "description": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory.  You can bring your own key, or host your coding agent like Claude Code, Codex and so on.",
   "homepage": "https://memoh.ai",
   "stars": 2822,
-  "forks": 267,
-  "open_issues": 44,
+  "forks": 268,
+  "open_issues": 43,
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [
@@ -20,26 +20,26 @@
   ],
   "created_at": "2026-01-12T09:27:39Z",
   "updated_at": "2026-11-18T09:12:31Z",
-  "pushed_at": "2026-11-18T10:06:38Z",
+  "pushed_at": "2026-11-19T09:52:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 310,
+  "age_days": 311,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 69.0,
-    "momentum": 4.0,
+    "momentum": 3.8,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 24,
+    "stars_gained": 23,
     "days_span": 5,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 9.1,
+    "stars_per_day": 4.6,
+    "lifetime_stars_per_day": 9.07,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -149,7 +149,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:44+00:00",
+  "fetched_at": "2026-11-19T13:06:39+00:00",
   "categories": [
     "isolation-teams",
     "sessions-memory",
@@ -182,14 +182,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 40.647,
-      "momentum_ratio": 49.333,
+      "star_ratio": 40.743,
+      "momentum_ratio": 51.348,
       "setup_delta": 8,
       "dominance": 0.96,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "40.65x the stars (114,706 vs 2,822)",
-        "49.33x the star velocity (236.8/day vs 4.8/day)",
+        "40.74x the stars (114,977 vs 2,822)",
+        "51.35x the star velocity (236.2/day vs 4.6/day)",
         "slightly heavier setup (+8 friction, within tolerance)"
       ],
       "reasons_zh": [],

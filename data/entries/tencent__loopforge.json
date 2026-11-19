@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/LoopForge",
   "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
   "homepage": "https://loopforge.cn",
-  "stars": 3717,
-  "forks": 511,
-  "open_issues": 221,
+  "stars": 4001,
+  "forks": 578,
+  "open_issues": 246,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,37 +34,38 @@
     "workflow-engine"
   ],
   "created_at": "2026-07-28T03:51:01Z",
-  "updated_at": "2026-11-18T13:01:36Z",
-  "pushed_at": "2026-11-18T10:04:56Z",
+  "updated_at": "2026-11-19T13:01:45Z",
+  "pushed_at": "2026-11-19T12:53:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 113,
+  "age_days": 114,
   "days_since_push": 0,
-  "health_score": 63,
+  "health_score": 64,
   "health_components": {
-    "popularity": 71.4,
-    "momentum": 27.4,
+    "popularity": 72.0,
+    "momentum": 29.2,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 45.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3717,
-    "days_span": 113,
-    "stars_per_day": 32.89,
-    "lifetime_stars_per_day": 32.89,
+    "stars_gained": 4001,
+    "days_span": 114,
+    "stars_per_day": 35.1,
+    "lifetime_stars_per_day": 35.1,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Tencent/LoopForge",
-    "readme_chars": 22594,
+    "readme_chars": 22588,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
       "model-routing",
+      "billing-metering",
       "usage-analytics",
       "agent-runtime",
       "mcp-support",
@@ -75,7 +76,8 @@
     "capability_evidence": {
       "multi-agent-orchestration": "ories, GitHub delivery, human acceptance gates and run evidence.",
       "worktree-isolation": "n machine), then either run a project SOP or ask Main Bot to change the code and submit a PR/MR.",
-      "model-routing": "or execution machine PATH",
+      "model-routing": "s the credential copy, and the Runner saves the refreshed login back to its original local store.",
+      "billing-metering": "kspaces and native or Docker SOP sandboxes.",
       "usage-analytics": "r a PR, plus per-node artifacts and logs",
       "agent-runtime": "ttps://github.com/user-attachments/assets/8af401d9-1aae-427c-b4bc-455c12d17beb",
       "mcp-support": "retry a failed step, or rerun from any node.",
@@ -87,9 +89,10 @@
       "multi-agent-orchestration": 1,
       "worktree-isolation": 1,
       "model-routing": 1,
+      "billing-metering": 1,
       "usage-analytics": 1,
       "agent-runtime": 3,
-      "mcp-support": 4,
+      "mcp-support": 5,
       "self-hosted": 1,
       "notifications": 1,
       "cross-agent-support": 4
@@ -146,7 +149,7 @@
     ],
     "summary_en": "LoopForge is a self-hosted workspace where your team ships software with coding agents.",
     "summary_zh": "",
-    "install_hint": "npx -y loopforge-cli@latest install claude",
+    "install_hint": "",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
@@ -173,86 +176,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:04:03+00:00",
+  "fetched_at": "2026-11-19T13:06:11+00:00",
   "categories": [
-    "failover",
+    "billing-2",
     "isolation-teams",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (9/9).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (9/9)。",
-    "superseded_by": "paperclipai/paperclip",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "tencent/loopforge",
-      "challenger": "paperclipai/paperclip",
-      "incumbent_name": "Tencent/LoopForge",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "model-routing",
-        "multi-agent-orchestration",
-        "notifications",
-        "self-hosted",
-        "usage-analytics",
-        "worktree-isolation"
-      ],
-      "star_ratio": 30.86,
-      "momentum_ratio": 7.2,
-      "setup_delta": -10,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (9/9)",
-        "30.86x the stars (114,706 vs 3,717)",
-        "7.20x the star velocity (236.8/day vs 32.9/day)",
-        "no harder to set up (45 vs 55 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "self-hosted",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 63,
-        "challenger_health": 89,
-        "incumbent_setup_score": 55,
-        "challenger_setup_score": 45
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

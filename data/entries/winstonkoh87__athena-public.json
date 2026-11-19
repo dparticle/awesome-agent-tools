@@ -6,8 +6,8 @@
   "url": "https://github.com/winstonkoh87/Athena-Public",
   "description": "Turn stateless LLMs into a stateful, compounding AI agent. Local-first persistent memory, quantitative decision screens, and governance harness across Claude Code, Antigravity, Cursor, and VS Code. Own the state. Rent the intelligence.",
   "homepage": "https://winstonkoh87.com/athena/",
-  "stars": 625,
-  "forks": 84,
+  "stars": 629,
+  "forks": 85,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -33,27 +33,27 @@
     "vector-search"
   ],
   "created_at": "2025-12-18T19:47:38Z",
-  "updated_at": "2026-11-17T23:35:23Z",
-  "pushed_at": "2026-11-18T10:14:17Z",
+  "updated_at": "2026-11-18T23:49:48Z",
+  "pushed_at": "2026-11-19T05:02:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 334,
+  "age_days": 335,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 55.9,
-    "momentum": 0.5,
+    "popularity": 56.0,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 1.87,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 1.88,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-18T13:05:15+00:00",
+  "fetched_at": "2026-11-19T13:07:01+00:00",
   "categories": [
     "sessions-memory"
   ],
