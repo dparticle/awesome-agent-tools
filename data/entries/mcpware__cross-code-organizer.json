@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 245,
-  "days_since_push": 5,
+  "age_days": 246,
+  "days_since_push": 6,
   "health_score": 55,
   "health_components": {
     "popularity": 51.9,
@@ -163,13 +163,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:17+00:00",
+  "fetched_at": "2026-11-20T12:56:13+00:00",
   "categories": [
     "desktop-ui",
     "failover",
-    "mcp-security"
+    "sessions-memory"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

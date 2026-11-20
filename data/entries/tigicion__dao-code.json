@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 164,
-  "days_since_push": 22,
+  "age_days": 165,
+  "days_since_push": 23,
   "health_score": 52,
   "health_components": {
     "popularity": 57.9,
@@ -41,7 +41,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 4.8,
+    "lifetime_stars_per_day": 4.77,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -176,13 +176,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:57+00:00",
+  "fetched_at": "2026-11-20T12:55:49+00:00",
   "categories": [
     "desktop-ui-2",
     "failover",
-    "isolation-teams"
+    "parallelism"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

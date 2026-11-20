@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-27 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 11,450 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 12,112 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).
 
@@ -37,6 +37,8 @@
 > alongside classic built-in and custom themes.
 
 ### API gateway / proxy
+
+> vers, pass --cors apexo://renderer to allow connections from the updated Desktop app.
 
 ### Session persistence
 

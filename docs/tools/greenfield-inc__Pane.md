@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 665 |
-| Star velocity | 7.6/day (history basis, 5d span) |
+| Stars | 668 |
+| Star velocity | 7.8/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
@@ -21,18 +21,14 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-02-27 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 49,461 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 50,044 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Remote control
 
 > n its approval; again (or Esc) goes back with your draft kept
-
-### Mobile access
-
-> On your phone, the Pane app opens the same ports and HTML pages through the computer's own address (QR pairing) or over Tailscale (how), and its Explorer tab browses, edits and previews the worktree's files (how).
 
 ### Multi-agent orchestration
 
@@ -116,7 +112,7 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 56.5 |
-| momentum | 6.3 |
+| momentum | 6.5 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 79.0 |

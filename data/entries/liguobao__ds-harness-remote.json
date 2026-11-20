@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 3310,
-  "forks": 247,
-  "open_issues": 35,
+  "stars": 3401,
+  "forks": 251,
+  "open_issues": 31,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -16,27 +16,27 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-11-19T13:02:04Z",
-  "pushed_at": "2026-11-19T11:27:52Z",
+  "updated_at": "2026-11-20T12:46:45Z",
+  "pushed_at": "2026-11-20T12:26:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 96,
+  "age_days": 97,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
-    "popularity": 70.4,
-    "momentum": 75.7,
+    "popularity": 70.6,
+    "momentum": 76.2,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 454,
+    "stars_gained": 457,
     "days_span": 5,
-    "stars_per_day": 90.8,
-    "lifetime_stars_per_day": 34.48,
+    "stars_per_day": 91.4,
+    "lifetime_stars_per_day": 35.06,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -154,13 +154,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:37+00:00",
+  "fetched_at": "2026-11-20T12:55:25+00:00",
   "categories": [
-    "failover-2",
     "mobile",
+    "security",
     "teams-self-hosting"
   ],
-  "primary_category": "mobile",
+  "primary_category": "security",
   "lifecycle": {
     "state": "active",
     "note_en": "",

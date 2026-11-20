@@ -7,39 +7,39 @@
   "description": "Repository containing MCP (Model Context Protocol) servers that provides a suite of tools for managing and interacting with Oracle products.",
   "homepage": "",
   "stars": 485,
-  "forks": 157,
-  "open_issues": 58,
+  "forks": 158,
+  "open_issues": 71,
   "language": "Python",
   "license": "UPL-1.0",
   "topics": [],
   "created_at": "2025-07-27T08:02:34Z",
-  "updated_at": "2026-11-19T06:12:08Z",
-  "pushed_at": "2026-11-18T21:58:37Z",
+  "updated_at": "2026-11-19T20:59:19Z",
+  "pushed_at": "2026-11-19T15:13:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 480,
+  "age_days": 481,
   "days_since_push": 0,
-  "health_score": 55,
+  "health_score": 54,
   "health_components": {
     "popularity": 53.7,
-    "momentum": 1.2,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 59.0,
-    "accessibility": 84.0
+    "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.4,
+    "stars_per_day": 1.2,
     "lifetime_stars_per_day": 1.01,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "oracle/mcp",
-    "readme_chars": 25079,
+    "readme_chars": 26128,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -62,8 +62,8 @@
       "cross-agent-support": 2
     },
     "friction": {
-      "level": "turnkey",
-      "score": 16,
+      "level": "low",
+      "score": 22,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -77,6 +77,7 @@
       "config_signals": [
         "API key configuration",
         "config file",
+        "database migration",
         "server/reverse-proxy setup"
       ],
       "friendliness_signals": [],
@@ -85,8 +86,8 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Turnkey. install via npx one-liner, uvx one-liner; configure API key configuration, config file",
-      "note_zh": "开箱即用。可通过 npx one-liner、uvx one-liner 安装；需配置 API key configuration、config file"
+      "note_en": "Easy. install via npx one-liner, uvx one-liner; configure API key configuration, config file",
+      "note_zh": "较易上手。可通过 npx one-liner、uvx one-liner 安装；需配置 API key configuration、config file"
     },
     "doc_score": 59,
     "doc_signals": [
@@ -115,7 +116,7 @@
       "signals": [
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.638
+      "external_link_ratio": 0.612
     },
     "highlights": [
       "Verify the ollama server has started with curl http://localhost:11434.",
@@ -132,69 +133,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:10+00:00",
+  "fetched_at": "2026-11-20T12:56:04+00:00",
   "categories": [
-    "mcp-security"
+    "sessions-memory"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by ruvnet/ruflo: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 ruvnet/ruflo 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "ruvnet/ruflo",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "oracle/mcp",
-      "challenger": "ruvnet/ruflo",
-      "incumbent_name": "oracle/mcp",
-      "challenger_name": "ruvnet/ruflo",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "model-routing",
-        "multi-agent-orchestration",
-        "security-isolation"
-      ],
-      "star_ratio": 169.231,
-      "momentum_ratio": 109.786,
-      "setup_delta": 2,
-      "dominance": 0.99,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "169.23x the stars (82,077 vs 485)",
-        "109.79x the star velocity (153.7/day vs 1.4/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "model-routing",
-          "multi-agent-orchestration",
-          "security-isolation"
-        ],
-        "challenger_capabilities": [
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "security-isolation",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 55,
-        "challenger_health": 93,
-        "incumbent_setup_score": 16,
-        "challenger_setup_score": 18
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

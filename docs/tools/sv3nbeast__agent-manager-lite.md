@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-10-04 |
-| Last push | 2026-11-18 (0 days ago) |
-| Analyzed README | 10,721 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 11,503 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### API gateway / proxy
 
-> 受管 Claude CLI 实例可使用管理器刷新后的订阅访问凭据；刷新令牌留在管理器安全存储，不写入实例。
+> 载，不携带 API 密钥或继承环境代理，限制访问其他私有地址，并校验大小与格式；下载需要代理的网络应使用 Base64 返回。
 
 ### Billing & metering
 
@@ -50,7 +50,7 @@
 
 ### MCP support
 
-> ock / Vertex / Foundry 等云模式和 npm 包装启动器尚未接入。
+> 它与本地 API 的图片编辑、流式转发能力范围不同。
 
 ### Team collaboration
 
@@ -58,7 +58,7 @@
 
 ### GUI / desktop app
 
-> OpenAI 与 Anthropic Messages 密钥均可查询各自额度。
+> enAI 与 Anthropic Messages 密钥均可查询各自额度。
 
 ### Cross-agent support
 

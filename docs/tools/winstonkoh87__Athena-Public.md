@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 629 |
-| Star velocity | 1.0/day (history basis, 5d span) |
-| Health score | 56/100 |
-| Documentation | 73/100 |
+| Stars | 643 |
+| Star velocity | 3.8/day (history basis, 5d span) |
+| Health score | 57/100 |
+| Documentation | 74/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-12-18 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 17,499 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 18,078 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -41,7 +41,7 @@
 - **Difficulty:** 🟢 Easy (friction score 31/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `pip install -e ".[local]"               # lightweight — no cloud deps`
+- **Quickest install:** `pip install -e ".[local]"               # local install (no cloud API keys required)`
 
 **Signals that make it easy:** pip install
 
@@ -53,7 +53,7 @@
 
 ## Documentation quality
 
-Score **73/100**, based on these detected signals:
+Score **74/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -73,10 +73,10 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 56.0 |
-| momentum | 0.8 |
+| popularity | 56.2 |
+| momentum | 3.2 |
 | maintenance | 100.0 |
-| documentation | 73.0 |
+| documentation | 74.0 |
 | accessibility | 69.0 |
 
 ---

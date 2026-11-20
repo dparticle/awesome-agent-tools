@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "full_name": "mdiri-ai/SoduWork",
+  "name": "SoduWork",
+  "owner": "mdiri-ai",
+  "url": "https://github.com/mdiri-ai/SoduWork",
+  "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+  "homepage": "https://www.soduwork.ai",
+  "stars": 5315,
+  "forks": 418,
+  "open_issues": 182,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-harness",
+    "agent-orchestration",
+    "agent-workflows",
+    "ai-agents",
+    "ai-workflows",
+    "anti-slop",
+    "claude-code",
+    "codex",
+    "deepseek",
+    "electron",
+    "fastapi",
+    "harness",
+    "human-in-the-loop",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "opencode",
+    "plugin-system",
+    "self-hosted",
+    "team-collaboration"
+  ],
+  "created_at": "2026-10-29T02:43:14Z",
+  "updated_at": "2026-11-20T12:54:05Z",
+  "pushed_at": "2026-11-20T12:28:22Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 22,
+  "days_since_push": 0,
+  "health_score": 85,
+  "health_components": {
+    "popularity": 74.5,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 84.0,
+    "accessibility": 58.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 5315,
+    "days_span": 22,
+    "stars_per_day": 241.59,
+    "lifetime_stars_per_day": 241.59,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "mdiri-ai/SoduWork",
+    "readme_chars": 24428,
+    "capabilities": [
+      "mobile-access",
+      "multi-agent-orchestration",
+      "parallel-execution",
+      "billing-metering",
+      "skills-plugins",
+      "agent-runtime",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mobile-access": "",
+      "multi-agent-orchestration": "ide a team workspace and adds what they don't have: issues that flow from request to execution to sign-off, independent AI review, plugin review and distribution, and access control with audit.",
+      "parallel-execution": "The requester and the assignee or their agent A request goes to a colleague, their agent does the work, the requester signs off",
+      "billing-metering": "ose requests to its operator.",
+      "skills-plugins": "n sets the method, process, rules and what counts as done A review plugin tells the agent which checks to run and what evidence to attach",
+      "agent-runtime": "sn't stay in one person's chat history.",
+      "security-isolation": "and adds the layer they don't have: one shared issue pool from request to sign-off, acceptance criteria built into every issue, an independent AI review step, plugin review with scoped grants, and an audit trail.",
+      "self-hosted": "Runners and skills are not a general-purpose sandbox: actual isolation depends on the harness and your environment.",
+      "team-collaboration": "task and save it as a plugin.",
+      "gui-desktop": "h --desktop on macOS/Linux, .\\start.cmd --desktop in Windows PowerShell, or start.cmd --desktop in Command Prompt.",
+      "cross-agent-support": "Mentions Codex, OpenCode, Qwen Code"
+    },
+    "capability_hits": {
+      "mobile-access": 1,
+      "multi-agent-orchestration": 3,
+      "parallel-execution": 1,
+      "billing-metering": 1,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "security-isolation": 2,
+      "self-hosted": 5,
+      "team-collaboration": 1,
+      "gui-desktop": 3,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 42,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "native installer / package"
+      ],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "sign-in required",
+        "database dependency",
+        "server/reverse-proxy setup"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via native installer / package; needs git clone (build from source); configure API key configuration, sign-in required; GUI application",
+      "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)；需配置 API key configuration、sign-in required；GUI application"
+    },
+    "doc_score": 84,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Codex",
+      "OpenCode",
+      "Qwen Code"
+    ],
+    "summary_en": "A chat ends with an answer.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.146
+    },
+    "highlights": [],
+    "summary_zh_native": "数字 AI 员工，先有数字方法论：沉淀团队最佳实践，驱动多岗位、多 Agent 接力与协同。",
+    "highlights_zh": [
+      "常规步骤用经济型或本地模型，关键步骤用能力更强的模型",
+      "点「新对话」，选择 Pi 和刚添加的模型。",
+      "企业合作：私有化部署、系统集成与技术支持，请发邮件至 contact@soduwork.ai",
+      "再添加一个对话模型。 在管理端「能力配置 → 模型目录」找到刚接入的服务，点「加模型」，填写服务商给出的准确模型 ID，选择「对话模型」并保存。API Key 是服务凭据，单独保存它不会创建可用模型。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-20T12:54:47+00:00",
+  "categories": [
+    "desktop-ui",
+    "security",
+    "teams-self-hosting"
+  ],
+  "primary_category": "security",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

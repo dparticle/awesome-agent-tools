@@ -22,11 +22,11 @@
   ],
   "created_at": "2026-10-04T05:59:16Z",
   "updated_at": "2026-11-16T16:24:20Z",
-  "pushed_at": "2026-11-18T17:28:46Z",
+  "pushed_at": "2026-11-20T08:43:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 46,
+  "age_days": 47,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
@@ -41,13 +41,13 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 11.89,
+    "lifetime_stars_per_day": 11.64,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "sv3nbeast/agent-manager-lite",
-    "readme_chars": 10721,
+    "readme_chars": 11503,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -66,12 +66,12 @@
       "quota-management": "Responses 的 imagegeneration 工具，两种上游路径独立。",
       "worktree-isolation": "",
       "provider-aggregation": "",
-      "api-gateway": "受管 Claude CLI 实例可使用管理器刷新后的订阅访问凭据；刷新令牌留在管理器安全存储，不写入实例。",
+      "api-gateway": "载，不携带 API 密钥或继承环境代理，限制访问其他私有地址，并校验大小与格式；下载需要代理的网络应使用 Base64 返回。",
       "billing-metering": "CLI 实例时，自动补齐本机 ~/.codex/skills 中的个人技能入口，已有实例和会话副本同样适用。",
       "agent-runtime": "",
-      "mcp-support": "ock / Vertex / Foundry 等云模式和 npm 包装启动器尚未接入。",
+      "mcp-support": "它与本地 API 的图片编辑、流式转发能力范围不同。",
       "team-collaboration": "oundry 等云模式和 npm 包装启动器尚未接入。",
-      "gui-desktop": "OpenAI 与 Anthropic Messages 密钥均可查询各自额度。",
+      "gui-desktop": "enAI 与 Anthropic Messages 密钥均可查询各自额度。",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
@@ -79,10 +79,10 @@
       "quota-management": 3,
       "worktree-isolation": 2,
       "provider-aggregation": 2,
-      "api-gateway": 5,
+      "api-gateway": 6,
       "billing-metering": 5,
       "agent-runtime": 1,
-      "mcp-support": 1,
+      "mcp-support": 3,
       "team-collaboration": 1,
       "gui-desktop": 5,
       "cross-agent-support": 6
@@ -144,7 +144,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.399
+      "external_link_ratio": 1.304
     },
     "highlights": [
       "本地 API：为 Codex 连接提供多账号、调度策略及独立访问密钥，支持模型范围和 Token 上限控制。",
@@ -161,11 +161,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:05+00:00",
+  "fetched_at": "2026-11-20T12:55:58+00:00",
   "categories": [
     "billing",
-    "desktop-ui",
-    "providers-2"
+    "providers-2",
+    "teams-self-hosting"
   ],
   "primary_category": "billing",
   "lifecycle": {

@@ -4,10 +4,10 @@
   "name": "drama-skills",
   "owner": "zenstory-ai",
   "url": "https://github.com/zenstory-ai/drama-skills",
-  "description": "AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for AI short dramas & motion comics",
+  "description": "AI 短剧与漫剧制作 Agent 技能包：小说改剧本、视觉设定、分镜、生图/生视频提示词与剪辑成片，适配 Claude Code / Codex 等 ｜ Agent skills for AI short dramas & motion comics",
   "homepage": "https://zenstory.ai/zh/drama-skills",
-  "stars": 4504,
-  "forks": 772,
+  "stars": 4560,
+  "forks": 781,
   "open_issues": 3,
   "language": "Python",
   "license": "MIT",
@@ -32,49 +32,49 @@
     "zenstory"
   ],
   "created_at": "2026-07-16T16:11:19Z",
-  "updated_at": "2026-11-19T12:32:26Z",
-  "pushed_at": "2026-11-16T07:17:05Z",
+  "updated_at": "2026-11-20T12:17:32Z",
+  "pushed_at": "2026-11-20T04:48:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 125,
-  "days_since_push": 3,
+  "age_days": 126,
+  "days_since_push": 0,
   "health_score": 70,
   "health_components": {
-    "popularity": 73.1,
-    "momentum": 46.8,
+    "popularity": 73.2,
+    "momentum": 47.7,
     "maintenance": 100.0,
-    "documentation": 59.0,
+    "documentation": 54.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 281,
+    "stars_gained": 286,
     "days_span": 5,
-    "stars_per_day": 56.2,
-    "lifetime_stars_per_day": 36.03,
+    "stars_per_day": 57.2,
+    "lifetime_stars_per_day": 36.19,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zenstory-ai/drama-skills",
-    "readme_chars": 15759,
+    "readme_chars": 12020,
     "capabilities": [
       "billing-metering",
+      "skills-plugins",
       "agent-runtime",
-      "self-hosted",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "billing-metering": "失败、没有结果可取回后，再重新预览和确认重投；若只是轮询或下载中断，先排查取回环节。",
-      "agent-runtime": "b.com/user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e",
-      "self-hosted": "提交后可能已经扣费，内置生成接口拿到平台任务 ID 就会立刻写入本地文件。",
+      "billing-metering": "",
+      "skills-plugins": "eck.py（已剪辑剧集再跑一次 edit_tool.py check）核对即可。",
+      "agent-runtime": "github.com/user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
-      "billing-metering": 1,
+      "billing-metering": 2,
+      "skills-plugins": 1,
       "agent-runtime": 3,
-      "self-hosted": 1,
       "cross-agent-support": 2
     },
     "friction": {
@@ -98,7 +98,7 @@
       "note_en": "Easy. install via npx one-liner; needs git clone (build from source)",
       "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)"
     },
-    "doc_score": 59,
+    "doc_score": 54,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -106,7 +106,6 @@
       "documents installation",
       "documents configuration",
       "has troubleshooting/FAQ",
-      "has contribution guidance",
       "mentions licensing",
       "has a table of contents",
       "documents changes"
@@ -115,7 +114,7 @@
       "Claude Code",
       "Codex"
     ],
-    "summary_en": "上面这段 68 秒竖屏样片是《让你管账号》第 1 集开头：从一部 20 章的原著改编，分镜 20 镜，逐镜生成后剪成成片， 字幕、系统面板与音效在剪辑时叠加。视频生成成本约 40 元。",
+    "summary_en": "上面这段 68 秒竖屏样片是《让你管账号》第 1 集开头：由一部 20 章小说改编，拆成 20 镜逐镜生成后剪成成片，字幕、系统面板与音效在剪辑阶段叠加。视频生成成本约 40 元。",
     "summary_zh": "",
     "install_hint": "npx skills add zenstory-ai/drama-skills -y -g",
     "source": "raw:HEAD/README.md",
@@ -125,13 +124,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 1.015
+      "external_link_ratio": 0.998
     },
     "highlights": [
-      "Seedance 提示词怎么写：起点、动作顺序、终点，以及 2.5 与 2.0 的写法差别。",
       "连戏锁：LOCK-JIANGCHEN-DRESS《江晨松枝绿常服》（镜头：SHOT-EP001-002、SHOT-EP001-003、SHOT-EP001-007、……；",
-      "An open-source AI short-drama pipeline：英文读者的分阶段说明。",
-      "GitHub Issues：Bug、输出质量 Case、功能请求，请按结构化表单附上复现材料或具体输出。"
+      "先看预览、确认后再花钱生成 — 图片、视频（支持单镜与 GROUP-* 多镜合生）、配音和配乐任务均支持整批预览，在文件里列清数量、内容、参考图与参数，明确确认后再批量调用外部接口；平台密钥留在项目外，文档与前置技能不绑定特定平台。",
+      "五份 Markdown 记录创作决定 — 按阶段维护 剧本.md、视觉设定.md、分镜.md、图片提示词.md、视频提示词.md，剪辑时加一份 剪辑单.md；只做部分阶段就交付对应文档。",
+      "成片剪辑也在套件里 — 剪辑技能逐段写明入出点取舍，字幕逐字取自剧本，统一响度后导出成片；检查与测量脚本只列核对结果和实测数据，不替人做创作判断。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -142,9 +141,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:09+00:00",
+  "fetched_at": "2026-11-20T12:54:49+00:00",
   "categories": [
-    "billing-2"
+    "billing-2",
+    "failover"
   ],
   "primary_category": "billing-2",
   "lifecycle": {

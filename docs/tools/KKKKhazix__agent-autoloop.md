@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,999 |
-| Star velocity | 148.6/day (history basis, 5d span) |
+| Stars | 6,100 |
+| Star velocity | 134.0/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 59/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-11-03 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 11,200 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 11,698 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,7 +30,7 @@
 
 ### API gateway / proxy
 
-> CP（官方 Codex ACP 适配器）跑通了多轮问答和跨进程会话续接；ZCode 跑通了提问、回答后接回原会话；飞书跑通了发送、按钮回调和卡片更新；四种 Webhook 模板只在本地模拟服务上验证过，GitLab Webhook 按官方文档的格式测试，没连过真实 GitLab。
+> 了提问、回答后接回原会话；Agentica 1.6.1 用 use: "acp" 跑通了多轮问答和跨进程会话续接；飞书跑通了发送、按钮回调和卡片更新；四种 Webhook 模板只在本地模拟服务上验证过，GitLab Webhook 按官方文档的格式测试，没连过真实 GitLab。
 
 ### Usage analytics
 
@@ -46,7 +46,7 @@
 
 ### Notifications
 
-> 认开新会话；规则写 "resume": true 就接着上一轮的会话。
+> 也失败时，保留原结论并通知你回执没有生效（通用命令没有会话，直接走这一步）。
 
 ### Cross-agent support
 
@@ -85,7 +85,7 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.6 |
+| popularity | 75.7 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 59.0 |

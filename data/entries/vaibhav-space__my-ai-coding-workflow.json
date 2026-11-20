@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "full_name": "vaibhav-space/my-ai-coding-workflow",
+  "name": "my-ai-coding-workflow",
+  "owner": "vaibhav-space",
+  "url": "https://github.com/vaibhav-space/my-ai-coding-workflow",
+  "description": "Production-grade AI coding instructions, curated skills, and a 3-stage review pipeline (Planning → Critical Review → Diff Audit) built after 4,500+ hours with AI agents. Agent-agnostic.",
+  "homepage": "",
+  "stars": 303,
+  "forks": 44,
+  "open_issues": 1,
+  "language": "HTML",
+  "license": "",
+  "topics": [
+    "agentic-workflows",
+    "ai-agents",
+    "claude-code",
+    "code-review",
+    "developer-tools"
+  ],
+  "created_at": "2026-11-14T13:34:16Z",
+  "updated_at": "2026-11-20T12:48:31Z",
+  "pushed_at": "2026-11-18T18:30:28Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 5,
+  "days_since_push": 1,
+  "health_score": 60,
+  "health_components": {
+    "popularity": 49.6,
+    "momentum": 50.5,
+    "maintenance": 100.0,
+    "documentation": 52.0,
+    "accessibility": 50.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 303,
+    "days_span": 5,
+    "stars_per_day": 60.6,
+    "lifetime_stars_per_day": 60.6,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "vaibhav-space/my-ai-coding-workflow",
+    "readme_chars": 22084,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": ": Critical Plan Review (prompts/critical-plan-review.md)",
+      "skills-plugins": "Metacontroller establishing workflow discipline at session start.",
+      "agent-runtime": "s repository is not a speculative prompt collection.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 3,
+      "skills-plugins": 1,
+      "agent-runtime": 3,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 50,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "no-code positioning"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "note_en": "Some setup. needs git clone (build from source); configure database dependency; no-code positioning",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；需配置 database dependency；no-code positioning"
+    },
+    "doc_score": 52,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a table of contents",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Droid"
+    ],
+    "summary_en": "What it is: one global rules file (CLAUDE.md) and three prompts: plan, critique the plan, audit the result.",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.453
+    },
+    "highlights": [
+      "Bounded: Covers isolated repairs and 1-3 file non-breaking enhancements.",
+      "Spike: 1 cheap probe command -> 2-sentence finding.",
+      "Gemini CLI / Antigravity: Add these directives to your global ~/.gemini/GEMINI.md.",
+      "Chunked Information: Caps bullet lists at 5 items to avoid cognitive overload."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-20T12:56:24+00:00",
+  "categories": [
+    "desktop-ui",
+    "desktop-ui-2",
+    "failover"
+  ],
+  "primary_category": "failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

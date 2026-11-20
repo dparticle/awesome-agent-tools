@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1741,
+  "stars": 1756,
   "forks": 680,
-  "open_issues": 140,
+  "open_issues": 153,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-19T12:30:57Z",
-  "pushed_at": "2026-11-19T12:57:52Z",
+  "updated_at": "2026-11-20T10:36:32Z",
+  "pushed_at": "2026-11-20T11:07:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 374,
+  "age_days": 375,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 64.8,
-    "momentum": 15.3,
+    "popularity": 64.9,
+    "momentum": 16.0,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 31.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 92,
+    "stars_gained": 96,
     "days_span": 5,
-    "stars_per_day": 18.4,
-    "lifetime_stars_per_day": 4.66,
+    "stars_per_day": 19.2,
+    "lifetime_stars_per_day": 4.68,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "oceanbase/powercontext",
-    "readme_chars": 24260,
+    "readme_chars": 24594,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -128,7 +128,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.69
+      "external_link_ratio": 1.667
     },
     "highlights": [
       "Coding tasks (SWE-bench Pro paired comparison): approximately 225.32 million input tokens per 100 tasks with PowerContext on, versus 302.18 million with it off — approximately 25.4% fewer i…",
@@ -150,26 +150,25 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:43+00:00",
+  "fetched_at": "2026-11-20T12:55:32+00:00",
   "categories": [
-    "desktop-ui",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 xerj-org/xerj 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "xerj-org/xerj",
+    "note_en": "Superseded by aoci-spec/aoci-code: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 aoci-spec/aoci-code 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "aoci-spec/aoci-code",
     "challenger": "",
     "supersede": {
       "incumbent": "oceanbase/powercontext",
-      "challenger": "xerj-org/xerj",
+      "challenger": "aoci-spec/aoci-code",
       "incumbent_name": "oceanbase/powercontext",
-      "challenger_name": "xerj-org/xerj",
+      "challenger_name": "aoci-spec/aoci-code",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -177,15 +176,15 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 11.064,
-      "momentum_ratio": 2.261,
-      "setup_delta": -36,
-      "dominance": 0.901,
+      "star_ratio": 1.562,
+      "momentum_ratio": 8.573,
+      "setup_delta": 4,
+      "dominance": 0.831,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "11.06x the stars (19,262 vs 1,741)",
-        "2.26x the star velocity (41.6/day vs 18.4/day)",
-        "no harder to set up (33 vs 69 friction)"
+        "1.56x the stars (2,743 vs 1,756)",
+        "8.57x the star velocity (164.6/day vs 19.2/day)",
+        "slightly heavier setup (+4 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -197,15 +196,18 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "auto-failover",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context"
+          "memory-context",
+          "model-routing",
+          "session-persistence"
         ],
         "incumbent_health": 56,
-        "challenger_health": 73,
+        "challenger_health": 78,
         "incumbent_setup_score": 69,
-        "challenger_setup_score": 33
+        "challenger_setup_score": 73
       }
     }
   }

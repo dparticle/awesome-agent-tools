@@ -2,7 +2,7 @@
 
 # zenstory-ai/drama-skills
 
-> 上面这段 68 秒竖屏样片是《让你管账号》第 1 集开头：从一部 20 章的原著改编，分镜 20 镜，逐镜生成后剪成成片， 字幕、系统面板与音效在剪辑时叠加。视频生成成本约 40 元。
+> 上面这段 68 秒竖屏样片是《让你管账号》第 1 集开头：由一部 20 章小说改编，拆成 20 镜逐镜生成后剪成成片，字幕、系统面板与音效在剪辑阶段叠加。视频生成成本约 40 元。
 
 [Repository](https://github.com/zenstory-ai/drama-skills) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,31 +12,29 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,504 |
-| Star velocity | 56.2/day (history basis, 5d span) |
+| Stars | 4,560 |
+| Star velocity | 57.2/day (history basis, 5d span) |
 | Health score | 70/100 |
-| Documentation | 59/100 |
+| Documentation | 54/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-07-16 |
-| Last push | 2026-11-16 (3 days ago) |
-| Analyzed README | 15,759 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 12,020 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Billing & metering
 
-> 失败、没有结果可取回后，再重新预览和确认重投；若只是轮询或下载中断，先排查取回环节。
+### Skills & plugins
+
+> eck.py（已剪辑剧集再跑一次 edit_tool.py check）核对即可。
 
 ### Agent runtime
 
-> b.com/user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e
-
-### Self-hostable
-
-> 提交后可能已经扣费，内置生成接口拿到平台任务 ID 就会立刻写入本地文件。
+> github.com/user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e
 
 ### Cross-agent support
 
@@ -57,7 +55,7 @@
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **54/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -65,7 +63,6 @@ Score **59/100**, based on these detected signals:
 - documents installation
 - documents configuration
 - has troubleshooting/FAQ
-- has contribution guidance
 - mentions licensing
 - has a table of contents
 - documents changes
@@ -74,10 +71,10 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.1 |
-| momentum | 46.8 |
+| popularity | 73.2 |
+| momentum | 47.7 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
+| documentation | 54.0 |
 | accessibility | 75.0 |
 
 ---

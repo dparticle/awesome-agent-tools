@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 478 |
-| Star velocity | 0.0/day (history basis, 5d span) |
+| Stars | 479 |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 46/100 |
 | Documentation | 56/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-22 |
-| Last push | 2026-09-15 (65 days ago) |
+| Last push | 2026-09-15 (66 days ago) |
 | Analyzed README | 18,239 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow)** — Superseded by rohitg00/pro-workflow: covers 100% of capabilities (6/6).
@@ -83,7 +83,7 @@ Score **56/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.6 |
-| momentum | 0.0 |
+| momentum | 0.2 |
 | maintenance | 78.0 |
 | documentation | 56.0 |
 | accessibility | 52.0 |

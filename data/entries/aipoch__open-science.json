@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5548,
-  "forks": 557,
-  "open_issues": 30,
+  "stars": 5553,
+  "forks": 560,
+  "open_issues": 34,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,35 +34,34 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-19T10:46:51Z",
-  "pushed_at": "2026-11-19T13:01:32Z",
+  "updated_at": "2026-11-20T01:01:08Z",
+  "pushed_at": "2026-11-20T10:47:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 139,
+  "age_days": 140,
   "days_since_push": 0,
-  "health_score": 64,
+  "health_score": 65,
   "health_components": {
     "popularity": 74.9,
-    "momentum": 3.7,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 87.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 22,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 4.4,
-    "lifetime_stars_per_day": 39.91,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 39.66,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 30668,
+    "readme_chars": 31250,
     "capabilities": [
-      "multi-account-switching",
       "billing-metering",
       "skills-plugins",
       "mcp-support",
@@ -72,24 +71,22 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "he app: Connecting an external agent through MCP starts the Open-Science service for you, with setup options for more than 30 agents and clients.",
       "billing-metering": "Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.",
-      "skills-plugins": "resources, and permissions yourself; cloud jobs may incur charges.",
-      "mcp-support": "ard, and cited sources stay with the conversation.",
+      "skills-plugins": ", resources, and permissions yourself; cloud jobs may incur charges.",
+      "mcp-support": "this README illustrate the workflow.",
       "security-isolation": "",
       "gui-desktop": "figure or table back to its inputs.",
       "notifications": "untime checks and test your model connection.",
-      "cross-agent-support": "Mentions Amp, Cline, Codex"
+      "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
     },
     "capability_hits": {
-      "multi-account-switching": 1,
       "billing-metering": 1,
       "skills-plugins": 1,
-      "mcp-support": 8,
+      "mcp-support": 7,
       "security-isolation": 1,
       "gui-desktop": 4,
       "notifications": 1,
-      "cross-agent-support": 3
+      "cross-agent-support": 4
     },
     "friction": {
       "level": "low",
@@ -136,6 +133,7 @@
       "long, detailed README"
     ],
     "agents": [
+      "Claude Code",
       "Codex",
       "Cline / Roo"
     ],
@@ -147,11 +145,10 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.685
+      "external_link_ratio": 0.704
     },
     "highlights": [
-      "Automation · CLI · Node.js SDK · Connect an MCP client",
-      "MCP without opening the app: Connecting an external agent through MCP starts the Open-Science service for you, with setup options for more than 30 agents and clients."
+      "Automation · CLI · Node.js SDK · Connect an MCP client"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -162,13 +159,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:07+00:00",
+  "fetched_at": "2026-11-20T12:54:47+00:00",
   "categories": [
-    "accounts",
-    "billing",
-    "billing-2"
+    "billing-2",
+    "desktop-ui-2"
   ],
-  "primary_category": "accounts",
+  "primary_category": "billing-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "full_name": "kaomei/stickman-video-director",
+  "name": "stickman-video-director",
+  "owner": "kaomei",
+  "url": "https://github.com/kaomei/stickman-video-director",
+  "description": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube, Shorts & TikTok. 14+ styles with voiceover, captions & SFX. Free & open-source (MIT).",
+  "homepage": "https://telegram.me/stickmanskill",
+  "stars": 7144,
+  "forks": 1254,
+  "open_issues": 3,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-animation-generator",
+    "ai-video-production",
+    "animation",
+    "claude-code",
+    "claude-skills",
+    "codex-skill",
+    "content-creation",
+    "creator-tools",
+    "explainer-video",
+    "faceless-youtube",
+    "generative-ai",
+    "stick-figure",
+    "stickman",
+    "storytelling",
+    "text-to-video",
+    "tiktok",
+    "video-generation",
+    "youtube-automation",
+    "youtube-shorts"
+  ],
+  "created_at": "2026-08-03T07:44:33Z",
+  "updated_at": "2026-11-20T12:39:30Z",
+  "pushed_at": "2026-11-20T09:37:32Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 109,
+  "days_since_push": 0,
+  "health_score": 76,
+  "health_components": {
+    "popularity": 77.1,
+    "momentum": 54.6,
+    "maintenance": 100.0,
+    "documentation": 70.0,
+    "accessibility": 85.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 7144,
+    "days_span": 109,
+    "stars_per_day": 65.54,
+    "lifetime_stars_per_day": 65.54,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "kaomei/stickman-video-director",
+    "readme_chars": 52947,
+    "capabilities": [
+      "mobile-access",
+      "multi-agent-orchestration",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "mobile-access": "n language—it writes prompts, breaks your idea into shots, and generates videos in batches, keeping the same character or product consistent across shots.",
+      "multi-agent-orchestration": "al animations are in preparation.",
+      "mcp-support": "erates videos in batches, keeping the same character or product consistent across shots.",
+      "self-hosted": "with reusable assets; precise timeline pacing, layout control, and easy local fine-tuning.",
+      "gui-desktop": "",
+      "cross-agent-support": "Mentions Claude Code, Codex"
+    },
+    "capability_hits": {
+      "mobile-access": 1,
+      "multi-agent-orchestration": 1,
+      "mcp-support": 1,
+      "self-hosted": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "low",
+      "score": 23,
+      "out_of_the_box": false,
+      "non_programmer_friendly": true,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [
+        "GUI application"
+      ],
+      "platforms": [
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "note_en": "Easy. GUI application",
+      "note_zh": "较易上手。GUI application"
+    },
+    "doc_score": 70,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has a task checklist",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "publishes a roadmap",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex"
+    ],
+    "summary_en": "🇺🇸 EN · 🇨🇳 简中 · 🇯🇵 日本語 · 🇰🇷 한국어 · 🇫🇷 FR · 🇧🇷 PT-BR · 🇹🇷 TR · 🇮🇩 ID",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.283
+    },
+    "highlights": [
+      "B sound library — already available: 774 sound effects and transitions, 31 music tracks and 85 short musical stingers, licensed and ready to use",
+      "1 landscape 16:9 thumbnail image matching the approved art style",
+      "1,000+ YouTube script prompts shared by modes A and B",
+      "Dark Psychology & Stoic Noir — Moody silhouettes, glowing eyes & 48-Laws-of-Power storytelling"
+    ],
+    "summary_zh_native": "🇺🇸 EN · 🇨🇳 简中 · 🇯🇵 日本語 · 🇰🇷 한국어 · 🇫🇷 FR · 🇧🇷 PT-BR · 🇹🇷 TR · 🇮🇩 ID",
+    "highlights_zh": [
+      "B 模式声音素材库：已上线，含 774 款音效/声音转场、31 首背景乐和 85 条短音乐句，附授权，可直接使用",
+      "封面图片: 1 张匹配已确认角色、画风、配色与核心冲突的 16:9 横版封面。",
+      "提供 A/B 模式通用的 1,000+ 条 YouTube 脚本提示词库",
+      "推出 Stickman AI 视频工作台——开源桌面应用：粘贴脚本、选择画风，在可视化时间线上预览和调整每个镜头，然后渲染成片，无需使用终端"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-20T12:54:44+00:00",
+  "categories": [
+    "desktop-ui",
+    "mobile"
+  ],
+  "primary_category": "mobile",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

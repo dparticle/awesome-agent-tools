@@ -21,7 +21,7 @@
 | License | MPL-2.0 |
 | Language | Python |
 | Created | 2025-03-22 |
-| Last push | 2026-11-15 (4 days ago) |
+| Last push | 2026-11-15 (5 days ago) |
 | Analyzed README | 43,173 chars from `raw:HEAD/README.md` |
 
 ## What it solves

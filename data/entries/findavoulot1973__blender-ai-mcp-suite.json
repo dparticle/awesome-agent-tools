@@ -6,7 +6,7 @@
   "url": "https://github.com/findavoulot1973/Blender-AI-MCP-Suite",
   "description": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender",
   "homepage": "",
-  "stars": 498,
+  "stars": 497,
   "forks": 12,
   "open_issues": 47,
   "language": "",
@@ -34,28 +34,28 @@
     "model-context-protocol"
   ],
   "created_at": "2026-11-12T19:26:22Z",
-  "updated_at": "2026-11-16T18:16:44Z",
+  "updated_at": "2026-11-20T08:24:43Z",
   "pushed_at": "2026-11-15T13:26:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 6,
-  "days_since_push": 3,
-  "health_score": 68,
+  "age_days": 7,
+  "days_since_push": 4,
+  "health_score": 53,
   "health_components": {
     "popularity": 53.9,
-    "momentum": 69.2,
+    "momentum": 9.8,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 70.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 498,
-    "days_span": 6,
-    "stars_per_day": 83.0,
-    "lifetime_stars_per_day": 83.0,
-    "basis": "lifetime",
+    "stars_gained": 59,
+    "days_span": 5,
+    "stars_per_day": 11.8,
+    "lifetime_stars_per_day": 71.0,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -135,67 +135,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:09+00:00",
+  "fetched_at": "2026-11-20T12:56:03+00:00",
   "categories": [
-    "mcp-security"
+    "sessions-memory"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by ruvnet/ruflo: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 ruvnet/ruflo 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "ruvnet/ruflo",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "findavoulot1973/blender-ai-mcp-suite",
-      "challenger": "ruvnet/ruflo",
-      "incumbent_name": "findavoulot1973/Blender-AI-MCP-Suite",
-      "challenger_name": "ruvnet/ruflo",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "model-routing",
-        "multi-agent-orchestration"
-      ],
-      "star_ratio": 164.813,
-      "momentum_ratio": 1.852,
-      "setup_delta": -12,
-      "dominance": 0.877,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "164.81x the stars (82,077 vs 498)",
-        "1.85x the star velocity (153.7/day vs 83.0/day)",
-        "no harder to set up (18 vs 30 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "model-routing",
-          "multi-agent-orchestration"
-        ],
-        "challenger_capabilities": [
-          "auto-failover",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "security-isolation",
-          "skills-plugins",
-          "team-collaboration"
-        ],
-        "incumbent_health": 68,
-        "challenger_health": 93,
-        "incumbent_setup_score": 30,
-        "challenger_setup_score": 18
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

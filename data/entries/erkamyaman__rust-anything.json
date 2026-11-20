@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "full_name": "erkamyaman/rust-anything",
+  "name": "rust-anything",
+  "owner": "erkamyaman",
+  "url": "https://github.com/erkamyaman/rust-anything",
+  "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+  "homepage": "https://www.npmjs.com/package/rust-anything",
+  "stars": 6002,
+  "forks": 474,
+  "open_issues": 0,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "claude-code",
+    "cli",
+    "code-migration",
+    "codex",
+    "ffi",
+    "golang",
+    "java",
+    "javascript",
+    "mcp",
+    "migration",
+    "napi",
+    "performance",
+    "porting",
+    "pyo3",
+    "python",
+    "rewrite",
+    "ruby",
+    "rust",
+    "typescript"
+  ],
+  "created_at": "2026-11-16T12:10:36Z",
+  "updated_at": "2026-11-20T12:53:25Z",
+  "pushed_at": "2026-11-20T12:44:06Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 4,
+  "days_since_push": 0,
+  "health_score": 83,
+  "health_components": {
+    "popularity": 75.6,
+    "momentum": 100.0,
+    "maintenance": 100.0,
+    "documentation": 61.0,
+    "accessibility": 66.0
+  },
+  "tier": "flagship",
+  "momentum": {
+    "stars_gained": 6002,
+    "days_span": 4,
+    "stars_per_day": 1500.5,
+    "lifetime_stars_per_day": 1500.5,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "erkamyaman/rust-anything",
+    "readme_chars": 18238,
+    "capabilities": [
+      "agent-runtime",
+      "mcp-support",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "agent-runtime": "а · Кыргызча · Türkmençe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt",
+      "mcp-support": "cOS, Linux and Windows are attached to each",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
+    },
+    "capability_hits": {
+      "agent-runtime": 2,
+      "mcp-support": 4,
+      "cross-agent-support": 5
+    },
+    "friction": {
+      "level": "low",
+      "score": 34,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "cargo install",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "config.json/yaml/toml",
+        "database dependency",
+        "database migration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Android"
+      ],
+      "note_en": "Easy. install via cargo install, global npm install; needs npm install/build; configure config.json/yaml/toml, database dependency",
+      "note_zh": "较易上手。可通过 cargo install、global npm install 安装；需要 npm install/build；需配置 config.json/yaml/toml、database dependency"
+    },
+    "doc_score": 61,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "has a Chinese translation",
+      "reports benchmarks"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor"
+    ],
+    "summary_en": "Point it at your app: it records what the original does, your coding agent writes the Rust one piece at a time, and every piece is checked against that recording before it moves on.",
+    "summary_zh": "",
+    "install_hint": "cargo install rust-anything   # from crates.io",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.164
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-20T12:54:46+00:00",
+  "categories": [
+    "failover"
+  ],
+  "primary_category": "failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

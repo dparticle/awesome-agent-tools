@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 306,943 |
-| Star velocity | 861.6/day (history basis, 5d span) |
+| Stars | 307,529 |
+| Star velocity | 811.0/day (history basis, 5d span) |
 | Health score | 89/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-01-18 |
-| Last push | 2026-11-17 (2 days ago) |
-| Analyzed README | 117,561 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 118,348 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -66,7 +66,7 @@
 
 ### Security & isolation
 
-> reSubmitPrompt: Detects secrets (sk-, ghp, AKIA patterns) in prompts
+> **beforeSubmitPrompt**: Detects secrets (sk-, ghp, AKIA patterns) in prompts
 
 ### Self-hostable
 
@@ -76,7 +76,7 @@
 
 ### Notifications
 
-> uded in the repo and legacy configuration layer
+> ded in the repo and legacy configuration layer
 
 ### Cross-agent support
 

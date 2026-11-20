@@ -6,20 +6,20 @@
   "url": "https://github.com/mark3labs/mcp-go",
   "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
   "homepage": "http://mcp-go.dev/",
-  "stars": 9244,
-  "forks": 955,
-  "open_issues": 60,
+  "stars": 9245,
+  "forks": 958,
+  "open_issues": 75,
   "language": "Go",
   "license": "MIT",
   "topics": [],
   "created_at": "2024-11-27T12:38:33Z",
-  "updated_at": "2026-11-18T09:09:38Z",
-  "pushed_at": "2026-11-18T12:47:08Z",
+  "updated_at": "2026-11-19T18:03:30Z",
+  "pushed_at": "2026-11-19T14:48:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 722,
-  "days_since_push": 1,
+  "age_days": 723,
+  "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 79.3,
@@ -33,7 +33,7 @@
     "stars_gained": 7,
     "days_span": 5,
     "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 12.8,
+    "lifetime_stars_per_day": 12.79,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -115,17 +115,73 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:31+00:00",
+  "fetched_at": "2026-11-20T12:55:17+00:00",
   "categories": [
-    "billing-2",
-    "parallelism"
+    "billing"
   ],
-  "primary_category": "parallelism",
+  "primary_category": "billing",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 jlcodes99/cockpit-tools 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "jlcodes99/cockpit-tools",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "mark3labs/mcp-go",
+      "challenger": "jlcodes99/cockpit-tools",
+      "incumbent_name": "mark3labs/mcp-go",
+      "challenger_name": "jlcodes99/cockpit-tools",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "mcp-support",
+        "notifications",
+        "parallel-execution",
+        "quota-management"
+      ],
+      "star_ratio": 2.185,
+      "momentum_ratio": 27.286,
+      "setup_delta": -16,
+      "dominance": 0.928,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "2.18x the stars (20,198 vs 9,245)",
+        "27.29x the star velocity (38.2/day vs 1.4/day)",
+        "no harder to set up (32 vs 48 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "mcp-support",
+          "notifications",
+          "parallel-execution",
+          "quota-management"
+        ],
+        "challenger_capabilities": [
+          "api-gateway",
+          "auto-failover",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "model-routing",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "provider-aggregation",
+          "quota-management",
+          "security-isolation",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 58,
+        "challenger_health": 70,
+        "incumbent_setup_score": 48,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

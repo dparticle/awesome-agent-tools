@@ -39,21 +39,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 241,
-  "days_since_push": 4,
+  "age_days": 242,
+  "days_since_push": 5,
   "health_score": 57,
   "health_components": {
     "popularity": 51.8,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 88.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.62,
     "basis": "history",
     "is_fast_riser": false
@@ -173,12 +173,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:17+00:00",
+  "fetched_at": "2026-11-20T12:56:14+00:00",
   "categories": [
-    "isolation-teams",
-    "teams-self-hosting"
+    "desktop-ui",
+    "parallelism"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

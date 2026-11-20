@@ -6,9 +6,9 @@
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
   "homepage": "https://openbot.run/",
-  "stars": 9116,
-  "forks": 877,
-  "open_issues": 3370,
+  "stars": 9339,
+  "forks": 897,
+  "open_issues": 3702,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -22,16 +22,16 @@
     "typescript"
   ],
   "created_at": "2026-08-12T21:32:03Z",
-  "updated_at": "2026-11-19T13:05:19Z",
-  "pushed_at": "2026-11-19T13:05:01Z",
+  "updated_at": "2026-11-20T12:49:46Z",
+  "pushed_at": "2026-11-20T12:53:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 98,
+  "age_days": 99,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 79.2,
+    "popularity": 79.4,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -42,7 +42,7 @@
     "stars_gained": 1488,
     "days_span": 5,
     "stars_per_day": 297.6,
-    "lifetime_stars_per_day": 93.02,
+    "lifetime_stars_per_day": 94.33,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -180,10 +180,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:01+00:00",
+  "fetched_at": "2026-11-20T12:54:39+00:00",
   "categories": [
-    "billing-2",
     "mobile",
+    "providers-2",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

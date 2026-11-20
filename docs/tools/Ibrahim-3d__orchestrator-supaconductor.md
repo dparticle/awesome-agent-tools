@@ -13,15 +13,15 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 384 |
-| Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 45/100 |
+| Star velocity | 0.0/day (history basis, 5d span) |
+| Health score | 44/100 |
 | Documentation | 69/100 |
-| Tier | 🔹 Notable |
+| Tier | 👀 Watchlist |
 | Lifecycle | 🔻 Superseded |
 | License | AGPL-3.0 |
 | Language | Python |
 | Created | 2026-02-17 |
-| Last push | 2026-09-27 (52 days ago) |
+| Last push | 2026-09-27 (53 days ago) |
 | Analyzed README | 20,137 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — Superseded by iOfficeAI/AionUi: covers 100% of capabilities (5/5).
@@ -81,7 +81,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 51.7 |
-| momentum | 0.2 |
+| momentum | 0.0 |
 | maintenance | 78.0 |
 | documentation | 69.0 |
 | accessibility | 28.0 |

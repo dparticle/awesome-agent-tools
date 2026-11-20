@@ -6,9 +6,9 @@
   "url": "https://github.com/vAPI-Network/vapi-network",
   "description": "Buyer-controlled client for x402 API payments in USDC on Base.",
   "homepage": "https://vapinetwork.ai",
-  "stars": 5243,
-  "forks": 181,
-  "open_issues": 11,
+  "stars": 5329,
+  "forks": 182,
+  "open_issues": 9,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,66 +27,73 @@
     "x402"
   ],
   "created_at": "2026-10-02T13:05:19Z",
-  "updated_at": "2026-11-19T12:48:18Z",
-  "pushed_at": "2026-11-19T13:03:50Z",
+  "updated_at": "2026-11-20T12:53:45Z",
+  "pushed_at": "2026-11-19T20:43:02Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 48,
   "days_since_push": 0,
-  "health_score": 86,
+  "health_score": 87,
   "health_components": {
-    "popularity": 74.4,
+    "popularity": 74.5,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 66.0,
-    "accessibility": 87.0
+    "documentation": 68.0,
+    "accessibility": 96.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 752,
+    "stars_gained": 673,
     "days_span": 5,
-    "stars_per_day": 150.4,
-    "lifetime_stars_per_day": 109.23,
+    "stars_per_day": 134.6,
+    "lifetime_stars_per_day": 111.02,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "vAPI-Network/vapi-network",
-    "readme_chars": 9290,
+    "readme_chars": 13386,
     "capabilities": [
       "mcp-support",
+      "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "mcp-support": "package as SKILL.md, with the",
+      "gui-desktop": "our machine is in this repository under the Apache-2.0",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
-      "mcp-support": 7,
+      "mcp-support": 8,
+      "gui-desktop": 1,
       "cross-agent-support": 2
     },
     "friction": {
       "level": "low",
-      "score": 25,
+      "score": 24,
       "out_of_the_box": true,
-      "non_programmer_friendly": false,
+      "non_programmer_friendly": true,
       "easy_signals": [
         "npx one-liner"
       ],
       "hard_signals": [
         "pnpm install/build"
       ],
-      "config_signals": [],
-      "friendliness_signals": [],
+      "config_signals": [
+        "sign-in required"
+      ],
+      "friendliness_signals": [
+        "GUI application"
+      ],
       "platforms": [
         "macOS",
         "Linux"
       ],
-      "note_en": "Easy. install via npx one-liner; needs pnpm install/build",
-      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 pnpm install/build"
+      "note_en": "Easy. install via npx one-liner; needs pnpm install/build; configure sign-in required; GUI application",
+      "note_zh": "较易上手。可通过 npx one-liner 安装；需要 pnpm install/build；需配置 sign-in required；GUI application"
     },
-    "doc_score": 66,
+    "doc_score": 68,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -112,7 +119,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.076
+      "external_link_ratio": 0.747
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -124,11 +131,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:08+00:00",
+  "fetched_at": "2026-11-20T12:54:47+00:00",
   "categories": [
-    "mcp-security"
+    "sessions-memory"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

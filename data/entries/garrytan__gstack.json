@@ -6,40 +6,40 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 142070,
-  "forks": 20970,
-  "open_issues": 114,
+  "stars": 142186,
+  "forks": 20994,
+  "open_issues": 110,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-19T12:58:23Z",
-  "pushed_at": "2026-11-19T12:57:40Z",
+  "updated_at": "2026-11-20T12:46:21Z",
+  "pushed_at": "2026-11-20T10:03:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
+  "age_days": 253,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 94.8,
+    "momentum": 94.7,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 61.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 569,
+    "stars_gained": 568,
     "days_span": 5,
-    "stars_per_day": 113.8,
-    "lifetime_stars_per_day": 563.77,
+    "stars_per_day": 113.6,
+    "lifetime_stars_per_day": 562.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 41915,
+    "readme_chars": 41901,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -153,13 +153,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:17+00:00",
+  "fetched_at": "2026-11-20T12:54:58+00:00",
   "categories": [
     "failover",
     "failover-2",
-    "isolation-teams"
+    "parallelism"
   ],
-  "primary_category": "failover-2",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

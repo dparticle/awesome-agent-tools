@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 394,
-  "days_since_push": 70,
+  "age_days": 395,
+  "days_since_push": 71,
   "health_score": 44,
   "health_components": {
     "popularity": 51.4,
@@ -147,11 +147,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:18+00:00",
+  "fetched_at": "2026-11-20T12:56:15+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
-    "failover",
-    "isolation-teams"
+    "failover"
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {
@@ -176,14 +176,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 134.366,
-      "momentum_ratio": 300.0,
+      "star_ratio": 134.484,
+      "momentum_ratio": 291.0,
       "setup_delta": -34,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "134.37x the stars (49,984 vs 372)",
-        "300.00x the star velocity (60.0/day vs 0.2/day)",
+        "134.48x the stars (50,028 vs 372)",
+        "291.00x the star velocity (58.2/day vs 0.2/day)",
         "no harder to set up (32 vs 66 friction)"
       ],
       "reasons_zh": [],
@@ -212,7 +212,7 @@
           "usage-analytics"
         ],
         "incumbent_health": 44,
-        "challenger_health": 80,
+        "challenger_health": 79,
         "incumbent_setup_score": 66,
         "challenger_setup_score": 32
       }

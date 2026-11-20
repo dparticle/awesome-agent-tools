@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 425 |
-| Star velocity | 1.2/day (history basis, 5d span) |
+| Star velocity | 1.0/day (history basis, 5d span) |
 | Health score | 43/100 |
 | Documentation | 57/100 |
 | Tier | 👀 Watchlist |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-02-25 |
-| Last push | 2026-09-25 (55 days ago) |
+| Last push | 2026-09-25 (56 days ago) |
 | Analyzed README | 9,768 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (8/8).
@@ -87,7 +87,7 @@ Score **57/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 52.6 |
-| momentum | 1.0 |
+| momentum | 0.8 |
 | maintenance | 78.0 |
 | documentation | 57.0 |
 | accessibility | 25.0 |

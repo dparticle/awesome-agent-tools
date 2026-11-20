@@ -6,8 +6,8 @@
   "url": "https://github.com/Leonxlnx/earshot",
   "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
   "homepage": "",
-  "stars": 5200,
-  "forks": 347,
+  "stars": 5290,
+  "forks": 355,
   "open_issues": 21,
   "language": "Python",
   "license": "MIT",
@@ -19,27 +19,27 @@
     "sound-design"
   ],
   "created_at": "2026-10-15T06:52:46Z",
-  "updated_at": "2026-11-19T12:34:57Z",
-  "pushed_at": "2026-11-19T12:48:55Z",
+  "updated_at": "2026-11-20T12:40:51Z",
+  "pushed_at": "2026-11-19T23:24:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 35,
+  "age_days": 36,
   "days_since_push": 0,
-  "health_score": 73,
+  "health_score": 74,
   "health_components": {
-    "popularity": 74.3,
-    "momentum": 69.0,
+    "popularity": 74.5,
+    "momentum": 72.0,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 48.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 414,
+    "stars_gained": 432,
     "days_span": 5,
-    "stars_per_day": 82.8,
-    "lifetime_stars_per_day": 148.57,
+    "stars_per_day": 86.4,
+    "lifetime_stars_per_day": 146.94,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -129,13 +129,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:08+00:00",
+  "fetched_at": "2026-11-20T12:54:48+00:00",
   "categories": [
     "desktop-ui-2",
-    "failover",
-    "mcp-security"
+    "failover"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

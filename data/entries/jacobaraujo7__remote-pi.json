@@ -7,8 +7,8 @@
   "description": "Control your Pi coding agent from your phone. Pair with a one-time QR code and chat with your local agent, even when you're away from your computer.",
   "homepage": "https://cockpit.jacobmoura.work",
   "stars": 499,
-  "forks": 146,
-  "open_issues": 114,
+  "forks": 145,
+  "open_issues": 115,
   "language": "Dart",
   "license": "MIT",
   "topics": [
@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 181,
-  "days_since_push": 2,
+  "age_days": 182,
+  "days_since_push": 3,
   "health_score": 50,
   "health_components": {
     "popularity": 54.0,
@@ -41,7 +41,7 @@
     "stars_gained": 6,
     "days_span": 5,
     "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 2.76,
+    "lifetime_stars_per_day": 2.74,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -119,8 +119,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:09+00:00",
+  "fetched_at": "2026-11-20T12:56:02+00:00",
   "categories": [
+    "desktop-ui",
     "mobile"
   ],
   "primary_category": "mobile",
@@ -146,14 +147,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 48.99,
-      "momentum_ratio": 69.5,
+      "star_ratio": 49.122,
+      "momentum_ratio": 69.667,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "48.99x the stars (24,446 vs 499)",
-        "69.50x the star velocity (83.4/day vs 1.2/day)",
+        "49.12x the stars (24,512 vs 499)",
+        "69.67x the star velocity (83.6/day vs 1.2/day)",
         "no harder to set up (24 vs 36 friction)"
       ],
       "reasons_zh": [],
@@ -180,7 +181,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 50,
-        "challenger_health": 79,
+        "challenger_health": 80,
         "incumbent_setup_score": 36,
         "challenger_setup_score": 24
       }

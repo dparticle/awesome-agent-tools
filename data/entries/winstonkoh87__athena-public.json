@@ -6,8 +6,8 @@
   "url": "https://github.com/winstonkoh87/Athena-Public",
   "description": "Turn stateless LLMs into a stateful, compounding AI agent. Local-first persistent memory, quantitative decision screens, and governance harness across Claude Code, Antigravity, Cursor, and VS Code. Own the state. Rent the intelligence.",
   "homepage": "https://winstonkoh87.com/athena/",
-  "stars": 629,
-  "forks": 85,
+  "stars": 643,
+  "forks": 86,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -33,33 +33,33 @@
     "vector-search"
   ],
   "created_at": "2025-12-18T19:47:38Z",
-  "updated_at": "2026-11-18T23:49:48Z",
-  "pushed_at": "2026-11-19T05:02:02Z",
+  "updated_at": "2026-11-20T07:32:10Z",
+  "pushed_at": "2026-11-20T06:32:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 335,
+  "age_days": 336,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 57,
   "health_components": {
-    "popularity": 56.0,
-    "momentum": 0.8,
+    "popularity": 56.2,
+    "momentum": 3.2,
     "maintenance": 100.0,
-    "documentation": 73.0,
+    "documentation": 74.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 19,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 1.88,
+    "stars_per_day": 3.8,
+    "lifetime_stars_per_day": 1.91,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "winstonkoh87/Athena-Public",
-    "readme_chars": 17499,
+    "readme_chars": 18078,
     "capabilities": [
       "memory-context",
       "mcp-support",
@@ -97,7 +97,7 @@
       "note_en": "Easy. install via pip install; needs git clone (build from source); configure config file",
       "note_zh": "较易上手。可通过 pip install 安装；需要 git clone (build from source)；需配置 config file"
     },
-    "doc_score": 73,
+    "doc_score": 74,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -122,13 +122,13 @@
     ],
     "summary_en": "Local-first memory, decision engine, and governance harness for AI agents — portable across any IDE.",
     "summary_zh": "",
-    "install_hint": "pip install -e \".[local]\"               # lightweight — no cloud deps",
+    "install_hint": "pip install -e \".[local]\"               # local install (no cloud API keys required)",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.286
+      "external_link_ratio": 0.277
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -140,7 +140,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:01+00:00",
+  "fetched_at": "2026-11-20T12:55:54+00:00",
   "categories": [
     "sessions-memory"
   ],

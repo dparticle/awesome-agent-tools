@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 33,993 |
-| Star velocity | 94.4/day (history basis, 5d span) |
-| Health score | 83/100 |
+| Stars | 34,024 |
+| Star velocity | 64.2/day (history basis, 5d span) |
+| Health score | 77/100 |
 | Documentation | 62/100 |
-| Tier | 🏆 Flagship |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-07-04 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 10,870 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 10,781 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,15 +32,9 @@
 
 ### Multi-agent orchestration
 
-> 90M+ residential IPs across 220+ locations, rotating and static residential proxies, with HTTP(S) and SOCKS5 support.
-
 ### Workspace isolation
 
 > ndition Docs sweep, build-test-fix, adversarial review
-
-### API gateway / proxy
-
-> &nbsp;·&nbsp; Discussions &nbsp;·&nbsp; Changelog SPONSORED BY Swiftproxy proudly supports this project.
 
 ### Session persistence
 
@@ -52,7 +46,7 @@
 
 ### MCP support
 
-> ocations, rotating and static residential proxies, with HTTP(S) and SOCKS5 support.
+> al IPs across 220+ locations, targeting by country, city, or ISP, and 24/7 support.
 
 ### Security & isolation
 
@@ -91,7 +85,7 @@ Score **62/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 90.6 |
-| momentum | 78.7 |
+| momentum | 53.5 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 72.0 |

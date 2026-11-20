@@ -6,7 +6,7 @@
   "url": "https://github.com/mnemon-dev/mnemon",
   "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
   "homepage": "https://mnemon.dev",
-  "stars": 724,
+  "stars": 731,
   "forks": 83,
   "open_issues": 13,
   "language": "Go",
@@ -31,33 +31,33 @@
     "persistent-memory"
   ],
   "created_at": "2026-02-20T02:26:17Z",
-  "updated_at": "2026-11-19T11:05:53Z",
-  "pushed_at": "2026-11-17T03:19:18Z",
+  "updated_at": "2026-11-20T08:26:50Z",
+  "pushed_at": "2026-11-19T19:00:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 272,
-  "days_since_push": 2,
+  "age_days": 273,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 57.2,
-    "momentum": 1.2,
+    "popularity": 57.3,
+    "momentum": 2.0,
     "maintenance": 100.0,
-    "documentation": 65.0,
+    "documentation": 66.0,
     "accessibility": 36.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 1.4,
-    "lifetime_stars_per_day": 2.66,
+    "stars_per_day": 2.4,
+    "lifetime_stars_per_day": 2.68,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "mnemon-dev/mnemon",
-    "readme_chars": 29821,
+    "readme_chars": 30155,
     "capabilities": [
       "multi-agent-orchestration",
       "api-gateway",
@@ -113,7 +113,7 @@
       "note_en": "Involved setup. install via Homebrew install, go install; needs git clone (build from source), npm install/build; configure environment variables, config.json/yaml/toml",
       "note_zh": "配置较重。可通过 Homebrew install、go install 安装；需要 git clone (build from source)、npm install/build；需配置 environment variables、config.json/yaml/toml"
     },
-    "doc_score": 65,
+    "doc_score": 66,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.838
+      "external_link_ratio": 0.829
     },
     "highlights": [
       "Runtime-native integration — runtime-specific SKILL.md, shared guide.md, and supported hooks or extensions",
@@ -158,10 +158,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:58+00:00",
+  "fetched_at": "2026-11-20T12:55:51+00:00",
   "categories": [
     "desktop-ui-2",
-    "mcp-security",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",

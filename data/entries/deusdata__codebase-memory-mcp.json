@@ -6,9 +6,9 @@
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
   "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
-  "stars": 48860,
-  "forks": 4062,
-  "open_issues": 575,
+  "stars": 48914,
+  "forks": 4066,
+  "open_issues": 581,
   "language": "C",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "windsurf"
   ],
   "created_at": "2026-02-24T22:01:00Z",
-  "updated_at": "2026-11-19T12:55:55Z",
-  "pushed_at": "2026-11-19T01:37:03Z",
+  "updated_at": "2026-11-20T12:52:06Z",
+  "pushed_at": "2026-11-19T18:54:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 267,
+  "age_days": 268,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 73,
   "health_components": {
     "popularity": 93.8,
-    "momentum": 39.7,
+    "momentum": 42.0,
     "maintenance": 100.0,
     "documentation": 76.0,
     "accessibility": 36.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 238,
+    "stars_gained": 252,
     "days_span": 5,
-    "stars_per_day": 47.6,
-    "lifetime_stars_per_day": 183.0,
+    "stars_per_day": 50.4,
+    "lifetime_stars_per_day": 182.51,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -188,13 +188,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:26+00:00",
+  "fetched_at": "2026-11-20T12:55:10+00:00",
   "categories": [
     "desktop-ui-2",
-    "isolation-teams",
+    "parallelism",
     "sessions-memory"
   ],
-  "primary_category": "isolation-teams",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

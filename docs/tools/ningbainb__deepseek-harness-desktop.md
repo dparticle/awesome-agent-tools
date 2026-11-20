@@ -2,7 +2,7 @@
 
 # ningbainb/deepseek-harness-desktop
 
-> DeepSeek Harness Desktop 是社区维护的开源 AI 桌面工作台。它基于官方 DSH Runtime 和 Web UI，提供对话、项目、插件、技能和任务自动化。
+> DeepSeek Harness Desktop 是基于官方 DSH 的社区开源桌面工作台，用于对话、项目、插件和任务自动化。
 
 [Repository](https://github.com/ningbainb/deepseek-harness-desktop) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 940 |
-| Star velocity | 1.6/day (history basis, 5d span) |
+| Stars | 946 |
+| Star velocity | 2.4/day (history basis, 5d span) |
 | Health score | 56/100 |
 | Documentation | 44/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | BSD-3-Clause |
 | Language | JavaScript |
 | Created | 2026-08-13 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 15,567 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 15,731 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -110,7 +110,7 @@ Score **44/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 59.5 |
-| momentum | 1.3 |
+| momentum | 2.0 |
 | maintenance | 100.0 |
 | documentation | 44.0 |
 | accessibility | 100.0 |

@@ -12,19 +12,21 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,302 |
-| Star velocity | 40.8/day (history basis, 5d span) |
-| Health score | 64/100 |
+| Stars | 10,327 |
+| Star velocity | 36.6/day (history basis, 5d span) |
+| Health score | 63/100 |
 | Documentation | 55/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-22 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 15,071 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 15,472 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Multi-account switching
 
 ### Remote control
 
@@ -44,7 +46,7 @@
 
 ### Usage analytics
 
-> this is not fully anonymous.
+> cords may be able to link the new
 
 ### MCP support
 
@@ -93,7 +95,7 @@ Score **55/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.3 |
-| momentum | 34.0 |
+| momentum | 30.5 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 35.0 |

@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 303,
   "forks": 8,
-  "open_issues": 1,
+  "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -27,11 +27,11 @@
   ],
   "created_at": "2026-05-27T00:41:03Z",
   "updated_at": "2026-11-13T18:15:47Z",
-  "pushed_at": "2026-11-19T11:43:10Z",
+  "pushed_at": "2026-11-20T08:30:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 176,
+  "age_days": 177,
   "days_since_push": 0,
   "health_score": 47,
   "health_components": {
@@ -46,13 +46,13 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.72,
+    "lifetime_stars_per_day": 1.71,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "cluster1900/apexo-code",
-    "readme_chars": 11450,
+    "readme_chars": 12112,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
@@ -66,7 +66,7 @@
     "capability_evidence": {
       "multi-agent-orchestration": "as a thin wrapper, Apexo provides its own deeply engineered agent architecture — including a durable session runtime, autonomous goals (/goal), multi-session workflows (/workflow), background task & subagent orchestrati…",
       "model-routing": "alongside classic built-in and custom themes.",
-      "api-gateway": "",
+      "api-gateway": "vers, pass --cors apexo://renderer to allow connections from the updated Desktop app.",
       "session-persistence": "ur machine and communicates directly with the providers you configure.",
       "memory-context": "eeply engineered agent architecture — including a durable session runtime, autonomous goals (/goal), multi-session workflows (/workflow), background task & subagent orchestration (/tasks), persistent project memory (/me…",
       "agent-runtime": "An open-source, general-purpose coding agent for the terminal, the browser, and the desktop.",
@@ -81,7 +81,7 @@
       "memory-context": 2,
       "agent-runtime": 2,
       "self-hosted": 2,
-      "gui-desktop": 6
+      "gui-desktop": 7
     },
     "friction": {
       "level": "moderate",
@@ -125,7 +125,9 @@
       "has a Chinese translation",
       "explains architecture"
     ],
-    "agents": [],
+    "agents": [
+      "OpenCode"
+    ],
     "summary_en": "Apexo is a general-purpose coding agent with a unified terminal UI (TUI), web UI, and Electron desktop app powered by a single local agent runtime.",
     "summary_zh": "",
     "install_hint": "npm install -g apexo-code",
@@ -134,7 +136,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.349
+      "external_link_ratio": 0.33
     },
     "highlights": [
       "xAI Grok & Grok Build workflows.",
@@ -156,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:26+00:00",
+  "fetched_at": "2026-11-20T12:56:24+00:00",
   "categories": [
     "desktop-ui",
     "sessions-memory",
@@ -188,14 +190,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 100.535,
-      "momentum_ratio": 420.0,
+      "star_ratio": 100.647,
+      "momentum_ratio": 488.0,
       "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "100.53x the stars (30,462 vs 303)",
-        "420.00x the star velocity (21.0/day vs 0.0/day)",
+        "100.65x the stars (30,496 vs 303)",
+        "488.00x the star velocity (24.4/day vs 0.0/day)",
         "no harder to set up (32 vs 48 friction)"
       ],
       "reasons_zh": [],
@@ -230,7 +232,7 @@
           "team-collaboration"
         ],
         "incumbent_health": 47,
-        "challenger_health": 69,
+        "challenger_health": 70,
         "incumbent_setup_score": 48,
         "challenger_setup_score": 32
       }

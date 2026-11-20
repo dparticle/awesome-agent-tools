@@ -6,9 +6,9 @@
   "url": "https://github.com/yc-software/qm",
   "description": "Multiplayer agent harness for teams",
   "homepage": "https://labs.ycombinator.com/qm",
-  "stars": 15744,
+  "stars": 15749,
   "forks": 1964,
-  "open_issues": 1103,
+  "open_issues": 1112,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -18,27 +18,27 @@
     "qm"
   ],
   "created_at": "2026-07-29T20:03:08Z",
-  "updated_at": "2026-11-19T11:53:13Z",
-  "pushed_at": "2026-11-19T12:54:50Z",
+  "updated_at": "2026-11-20T10:37:01Z",
+  "pushed_at": "2026-11-20T11:52:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 112,
+  "age_days": 113,
   "days_since_push": 0,
   "health_score": 57,
   "health_components": {
     "popularity": 83.9,
-    "momentum": 7.7,
+    "momentum": 7.0,
     "maintenance": 100.0,
     "documentation": 54.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 46,
+    "stars_gained": 42,
     "days_span": 5,
-    "stars_per_day": 9.2,
-    "lifetime_stars_per_day": 140.57,
+    "stars_per_day": 8.4,
+    "lifetime_stars_per_day": 139.37,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -147,88 +147,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:05:57+00:00",
+  "fetched_at": "2026-11-20T12:54:34+00:00",
   "categories": [
-    "desktop-ui",
     "failover",
+    "security",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (10/10).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (10/10)。",
-    "superseded_by": "paperclipai/paperclip",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "yc-software/qm",
-      "challenger": "paperclipai/paperclip",
-      "incumbent_name": "yc-software/qm",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "model-routing",
-        "notifications",
-        "security-isolation",
-        "session-persistence",
-        "skills-plugins",
-        "team-collaboration",
-        "worktree-isolation"
-      ],
-      "star_ratio": 7.303,
-      "momentum_ratio": 25.674,
-      "setup_delta": -27,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (10/10)",
-        "7.30x the stars (114,977 vs 15,744)",
-        "25.67x the star velocity (236.2/day vs 9.2/day)",
-        "no harder to set up (45 vs 72 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "model-routing",
-          "notifications",
-          "security-isolation",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 57,
-        "challenger_health": 89,
-        "incumbent_setup_score": 72,
-        "challenger_setup_score": 45
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

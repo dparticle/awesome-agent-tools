@@ -6,8 +6,8 @@
   "url": "https://github.com/wheresryan22/anatomy",
   "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
   "homepage": "https://skills.wheresryan.sh/anatomy",
-  "stars": 28204,
-  "forks": 2385,
+  "stars": 28346,
+  "forks": 2397,
   "open_issues": 78,
   "language": "JavaScript",
   "license": "MIT",
@@ -18,13 +18,13 @@
     "vizualization"
   ],
   "created_at": "2026-10-08T10:12:49Z",
-  "updated_at": "2026-11-19T12:49:19Z",
+  "updated_at": "2026-11-20T12:41:24Z",
   "pushed_at": "2026-10-18T20:20:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 42,
-  "days_since_push": 31,
+  "age_days": 43,
+  "days_since_push": 32,
   "health_score": 81,
   "health_components": {
     "popularity": 89.0,
@@ -35,10 +35,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 992,
+    "stars_gained": 946,
     "days_span": 5,
-    "stars_per_day": 198.4,
-    "lifetime_stars_per_day": 671.52,
+    "stars_per_day": 189.2,
+    "lifetime_stars_per_day": 659.21,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -125,7 +125,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:05:53+00:00",
+  "fetched_at": "2026-11-20T12:54:30+00:00",
   "categories": [
     "desktop-ui-2"
   ],

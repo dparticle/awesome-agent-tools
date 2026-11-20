@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
-  "days_since_push": 127,
+  "age_days": 143,
+  "days_since_push": 128,
   "health_score": 45,
   "health_components": {
     "popularity": 57.6,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.35,
+    "lifetime_stars_per_day": 5.31,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:57+00:00",
+  "fetched_at": "2026-11-20T12:55:50+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -136,10 +136,58 @@
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by numman-ali/n-skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 numman-ali/n-skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "numman-ali/n-skills",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "archive228/loopkit",
+      "challenger": "numman-ali/n-skills",
+      "incumbent_name": "Archive228/loopkit",
+      "challenger_name": "numman-ali/n-skills",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "mcp-support",
+        "multi-agent-orchestration",
+        "skills-plugins"
+      ],
+      "star_ratio": 1.386,
+      "momentum_ratio": 4.0,
+      "setup_delta": -3,
+      "dominance": 0.797,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "1.39x the stars (1,052 vs 759)",
+        "4.00x the star velocity (0.2/day vs 0.0/day)",
+        "no harder to set up (16 vs 19 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "mcp-support",
+          "multi-agent-orchestration",
+          "skills-plugins"
+        ],
+        "incumbent_health": 45,
+        "challenger_health": 52,
+        "incumbent_setup_score": 19,
+        "challenger_setup_score": 16
+      }
+    }
   }
 }

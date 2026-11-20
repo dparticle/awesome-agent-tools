@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 1,405 |
-| Star velocity | 0.2/day (history basis, 8d span) |
+| Star velocity | 0.2/day (history basis, 9d span) |
 | Health score | 54/100 |
 | Documentation | 67/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-03-23 |
-| Last push | 2026-11-17 (2 days ago) |
+| Last push | 2026-11-17 (3 days ago) |
 | Analyzed README | 25,979 chars from `raw:main/README.md` |
 
 > ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).

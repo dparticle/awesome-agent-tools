@@ -6,9 +6,9 @@
   "url": "https://github.com/stablyai/orca",
   "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
   "homepage": "https://orca.dev",
-  "stars": 129423,
-  "forks": 8226,
-  "open_issues": 8524,
+  "stars": 130512,
+  "forks": 8307,
+  "open_issues": 8735,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-11-19T13:03:24Z",
-  "pushed_at": "2026-11-19T13:04:42Z",
+  "updated_at": "2026-11-20T12:53:38Z",
+  "pushed_at": "2026-11-20T12:54:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
+  "age_days": 248,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4801,
+    "stars_gained": 5138,
     "days_span": 5,
-    "stars_per_day": 960.2,
-    "lifetime_stars_per_day": 523.98,
+    "stars_per_day": 1027.6,
+    "lifetime_stars_per_day": 526.26,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -174,11 +174,11 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-19T13:05:49+00:00",
+  "fetched_at": "2026-11-20T12:54:25+00:00",
   "categories": [
-    "isolation-teams",
+    "desktop-ui",
     "mobile",
-    "sharing"
+    "parallelism"
   ],
   "primary_category": "mobile",
   "lifecycle": {

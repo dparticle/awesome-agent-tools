@@ -6,8 +6,8 @@
   "url": "https://github.com/shx2005/codex-account-switcher",
   "description": "你是否厌倦了 Codex 多个账号之间来回切换？本地账号管理、官方登录、额度查询、快速切换与跨设备导入导出。Local Codex account profiles, login, usage, switching, and export/import.",
   "homepage": "",
-  "stars": 976,
-  "forks": 79,
+  "stars": 977,
+  "forks": 83,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -19,27 +19,27 @@
     "python"
   ],
   "created_at": "2026-10-03T14:38:55Z",
-  "updated_at": "2026-11-19T08:32:41Z",
+  "updated_at": "2026-11-20T11:31:36Z",
   "pushed_at": "2026-10-20T06:11:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 46,
-  "days_since_push": 30,
-  "health_score": 48,
+  "age_days": 47,
+  "days_since_push": 31,
+  "health_score": 45,
   "health_components": {
     "popularity": 59.8,
-    "momentum": 0.8,
-    "maintenance": 92.0,
+    "momentum": 1.2,
+    "maintenance": 78.0,
     "documentation": 59.0,
     "accessibility": 25.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.0,
-    "lifetime_stars_per_day": 21.22,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 20.79,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -138,9 +138,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:53+00:00",
+  "fetched_at": "2026-11-20T12:55:45+00:00",
   "categories": [
-    "billing"
+    "accounts",
+    "billing",
+    "billing-2"
   ],
   "primary_category": "billing",
   "lifecycle": {

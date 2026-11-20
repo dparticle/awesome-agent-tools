@@ -2,7 +2,7 @@
 
 # yan-labs/yan-skills
 
-> 给做 SEO 和独立开发的人用的 Agent Skills。建站、选词、发外链、查数据、复盘迭代，一整条链路都在这个仓库里，装完就能跑。
+> 安装前在本机设置 SKILLSSOURCE（仓库的 GitHub owner/repository）、SKILLSREPOURL（克隆地址）、RANKUPPACKAGE（发布的 npm 包名）和 OPENCLIPACKAGEURL（OpenCLI 安装包地址）。示例中的 example-owner 和 proxy.example.com 是占位符，按本机配置替换。
 
 [Repository](https://github.com/yan-labs/yan-skills) · [Back to index](../../README.md) · Category: **None**
 
@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 313 |
-| Star velocity | 1.8/day (history basis, 5d span) |
+| Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-07-05 |
-| Last push | 2026-11-18 (0 days ago) |
-| Analyzed README | 28,893 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 28,957 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Workspace isolation
 
-> up 和 backlink 的浏览器动作全部落在这一层，规则集中在这里，那两个 Skill 只留判据和指针。
+> 的浏览器动作全部落在这一层，规则集中在这里，那两个 Skill 只留判据和指针。
 
 ### API gateway / proxy
 
@@ -63,7 +63,7 @@
 - **Difficulty:** 🟢 Easy (friction score 36/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npx skills add yan-labs/yan-skills -g --all`
+- **Quickest install:** `npx skills add $SKILLS_SOURCE -g --all`
 
 **Signals that make it easy:** npx one-liner
 
@@ -93,7 +93,7 @@ Score **55/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 49.9 |
-| momentum | 1.5 |
+| momentum | 1.0 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 64.0 |

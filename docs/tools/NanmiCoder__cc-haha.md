@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,497 |
-| Star velocity | 14.2/day (history basis, 5d span) |
-| Health score | 64/100 |
+| Stars | 15,501 |
+| Star velocity | 11.2/day (history basis, 5d span) |
+| Health score | 63/100 |
 | Documentation | 51/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-03-31 |
-| Last push | 2026-11-18 (0 days ago) |
-| Analyzed README | 10,092 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 10,106 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
 
-> 图片生成：聊天中直接生成和编辑图片——ChatGPT / Grok 授权登录即可使用，也支持接入任意 OpenAI 兼容的 Images API。
+> 生成：聊天中直接生成和编辑图片——ChatGPT / Grok 授权登录即可使用，也支持接入任意 OpenAI 兼容的 Images API。
 
 ### Remote control
 
@@ -46,11 +46,11 @@
 
 ### Billing & metering
 
-> GPT、Claude、Gemini、Grok 等主流模型和常用兼容协议，还支持 40 多种图片和视频模型。
+> LLC 主体 Havenbyte LLC 运营，支持 GPT、Claude、Gemini、Grok 等主流模型和常用兼容协议，还支持 40 多种图片和视频模型，支持大陆正规商务合作。
 
 ### Usage analytics
 
-> ：满血稳定不掺水，低成本享受全球 SOTA 模型。
+> - 手机 App 与 H5：Android / iPhone App 扫码连上电脑，在手机上审批工具调用、回答提问、派新任务、查看改动、随时停止；也可以直接用手机浏览器接入。
 
 ### Session persistence
 
@@ -110,7 +110,7 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 83.8 |
-| momentum | 11.8 |
+| momentum | 9.3 |
 | maintenance | 100.0 |
 | documentation | 51.0 |
 | accessibility | 79.0 |

@@ -6,9 +6,9 @@
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
   "homepage": "https://ecc.tools",
-  "stars": 306943,
-  "forks": 45189,
-  "open_issues": 183,
+  "stars": 307529,
+  "forks": 45269,
+  "open_issues": 137,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -22,13 +22,13 @@
     "productivity"
   ],
   "created_at": "2026-01-18T00:51:51Z",
-  "updated_at": "2026-11-19T13:03:08Z",
-  "pushed_at": "2026-11-17T06:41:46Z",
+  "updated_at": "2026-11-20T12:50:50Z",
+  "pushed_at": "2026-11-20T01:13:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 305,
-  "days_since_push": 2,
+  "age_days": 306,
+  "days_since_push": 0,
   "health_score": 89,
   "health_components": {
     "popularity": 100.0,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 4308,
+    "stars_gained": 4055,
     "days_span": 5,
-    "stars_per_day": 861.6,
-    "lifetime_stars_per_day": 1006.37,
+    "stars_per_day": 811.0,
+    "lifetime_stars_per_day": 1005.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "affaan-m/ECC",
-    "readme_chars": 117561,
+    "readme_chars": 118348,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -79,10 +79,10 @@
       "skills-plugins": "tokens use macOS Keychain by default; explicit file fallback must retain owner-only directory/file permissions.",
       "agent-runtime": "te ECC, change scope, or change its hook profile.",
       "mcp-support": "Current Codex releases can install ECC as a native repo-marketplace plugin.",
-      "security-isolation": "reSubmitPrompt: Detects secrets (sk-, ghp, AKIA patterns) in prompts",
+      "security-isolation": "**beforeSubmitPrompt**: Detects secrets (sk-, ghp, AKIA patterns) in prompts",
       "self-hosted": ". ECC's hooks, skills, commands, and rules are model-provider agnostic once the claude CLI is already working. See Anthropic's LLM gateway documentation and model configuration documentation.",
       "gui-desktop": "",
-      "notifications": "uded in the repo and legacy configuration layer",
+      "notifications": "ded in the repo and legacy configuration layer",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
@@ -96,7 +96,7 @@
       "memory-context": 1,
       "skills-plugins": 8,
       "agent-runtime": 1,
-      "mcp-support": 45,
+      "mcp-support": 46,
       "security-isolation": 1,
       "self-hosted": 5,
       "gui-desktop": 1,
@@ -174,7 +174,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.366
+      "external_link_ratio": 0.363
     },
     "highlights": [
       "Skills format (SKILL.md with YAML frontmatter) works across Claude Code, Codex, OpenCode, and GitHub Copilot CLI",
@@ -196,10 +196,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:15+00:00",
+  "fetched_at": "2026-11-20T12:54:55+00:00",
   "categories": [
-    "isolation-teams",
-    "mcp-security",
+    "parallelism",
+    "sessions-memory",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

@@ -7,7 +7,7 @@
   "description": "The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted via OpenClaw Gateway.",
   "homepage": "https://autensa.com",
   "stars": 2162,
-  "forks": 435,
+  "forks": 434,
   "open_issues": 21,
   "language": "TypeScript",
   "license": "MIT",
@@ -22,8 +22,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 291,
-  "days_since_push": 63,
+  "age_days": 292,
+  "days_since_push": 64,
   "health_score": 50,
   "health_components": {
     "popularity": 66.7,
@@ -37,7 +37,7 @@
     "stars_gained": 2,
     "days_span": 5,
     "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 7.43,
+    "lifetime_stars_per_day": 7.4,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -138,7 +138,7 @@
       "Gateway catalog sync — Local agent role assignments are now preserved during gateway sync instead of being overwritten every 60 seconds.",
       "🔒 Bearer token auth, HMAC webhooks, Zod validation",
       "🔀 Workspace isolation (git worktrees + task sandboxes)",
-      "🎯 Kanban board with drag-and-drop across 7 status columns"
+      "v2.2.x — Preference learning, token tracking, health check endpoints, backup API"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -149,13 +149,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:41+00:00",
+  "fetched_at": "2026-11-20T12:55:30+00:00",
   "categories": [
-    "isolation-teams",
-    "parallelism",
-    "teams-self-hosting"
+    "billing-2",
+    "desktop-ui-2",
+    "parallelism"
   ],
-  "primary_category": "teams-self-hosting",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

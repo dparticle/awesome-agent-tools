@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,151 |
-| Star velocity | 528.4/day (history basis, 5d span) |
+| Stars | 8,615 |
+| Star velocity | 571.4/day (history basis, 5d span) |
 | Health score | 89/100 |
 | Documentation | 68/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-03 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 123,207 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 131,191 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,9 +38,13 @@
 
 > -pass encode and measures it ; --preset copy --repair remuxes a damaged file (timestamps regenerated, corrupt packets dropped) and counts the errors before and after
 
+### Memory & context
+
+> ly selected material, trim before reframing, adding
+
 ### Skills & plugins
 
-> . The footage is synthetic (FFmpeg's own test sources) except in three demos, reframetalk, filleren and pausesen, which use two AI-generated clips of people who do not exist (demos/footage/).
+> otage/: clips AI-generated with Google Veo (the people and places do not exist) and a few shot on a phone.
 
 ### Agent runtime
 
@@ -53,6 +57,8 @@
 ### Security & isolation
 
 > ticcodes); tools that draw text name the font face they drew with (fontused; libass draws a glyph that face lacks from another, not named).
+
+### Notifications
 
 ### Voice input
 
@@ -92,7 +98,7 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.2 |
+| popularity | 78.7 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 68.0 |

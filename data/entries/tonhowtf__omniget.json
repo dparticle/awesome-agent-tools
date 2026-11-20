@@ -6,9 +6,9 @@
   "url": "https://github.com/tonhowtf/omniget",
   "description": "A local MCP server that gives your coding agent a desktop toolbox: downloads from YouTube, torrents and every site yt-dlp supports, media conversion, files, chats and system cleanup. One line connects Claude Code, Codex, Cursor or Gemini CLI, and sensitive actions wait for your click. Free and open source for Windows, macOS and Linux.",
   "homepage": "https://getomniget.com/",
-  "stars": 14503,
-  "forks": 1252,
-  "open_issues": 20,
+  "stars": 14509,
+  "forks": 1254,
+  "open_issues": 21,
   "language": "Rust",
   "license": "GPL-3.0",
   "topics": [
@@ -34,27 +34,27 @@
     "yt-dlp-gui"
   ],
   "created_at": "2026-02-11T22:44:56Z",
-  "updated_at": "2026-11-19T12:50:48Z",
-  "pushed_at": "2026-11-19T12:41:15Z",
+  "updated_at": "2026-11-20T12:14:15Z",
+  "pushed_at": "2026-11-20T12:44:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 280,
+  "age_days": 281,
   "days_since_push": 0,
   "health_score": 66,
   "health_components": {
     "popularity": 83.2,
-    "momentum": 13.3,
+    "momentum": 10.5,
     "maintenance": 100.0,
     "documentation": 53.0,
     "accessibility": 94.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 80,
+    "stars_gained": 63,
     "days_span": 5,
-    "stars_per_day": 16.0,
-    "lifetime_stars_per_day": 51.8,
+    "stars_per_day": 12.6,
+    "lifetime_stars_per_day": 51.63,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -160,7 +160,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:30+00:00",
+  "fetched_at": "2026-11-20T12:55:16+00:00",
   "categories": [
     "desktop-ui",
     "sharing"
@@ -188,14 +188,14 @@
         "mcp-support",
         "voice-input"
       ],
-      "star_ratio": 11.674,
-      "momentum_ratio": 13.588,
+      "star_ratio": 11.679,
+      "momentum_ratio": 16.032,
       "setup_delta": -13,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "11.67x the stars (169,308 vs 14,503)",
-        "13.59x the star velocity (217.4/day vs 16.0/day)",
+        "11.68x the stars (169,449 vs 14,509)",
+        "16.03x the star velocity (202.0/day vs 12.6/day)",
         "no harder to set up (1 vs 14 friction)"
       ],
       "reasons_zh": [],

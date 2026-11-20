@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2025-12-26 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 15,768 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 15,909 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 

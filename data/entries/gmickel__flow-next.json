@@ -8,7 +8,7 @@
   "homepage": "https://flow-next.dev",
   "stars": 727,
   "forks": 64,
-  "open_issues": 8,
+  "open_issues": 3,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -35,11 +35,11 @@
   ],
   "created_at": "2025-12-26T22:27:07Z",
   "updated_at": "2026-11-18T14:41:51Z",
-  "pushed_at": "2026-11-19T11:52:11Z",
+  "pushed_at": "2026-11-20T12:52:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 327,
+  "age_days": 328,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
@@ -60,7 +60,7 @@
   },
   "analysis": {
     "full_name": "gmickel/flow-next",
-    "readme_chars": 15768,
+    "readme_chars": 15909,
     "capabilities": [
       "model-routing",
       "agent-runtime",
@@ -127,7 +127,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.347
+      "external_link_ratio": 2.326
     },
     "highlights": [
       "Review backends: Codex, Copilot, Cursor, Claude and host review, and why the reviewer must come from another family."
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:58+00:00",
+  "fetched_at": "2026-11-20T12:55:51+00:00",
   "categories": [
     "failover",
     "failover-2"

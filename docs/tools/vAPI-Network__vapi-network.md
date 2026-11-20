@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,243 |
-| Star velocity | 150.4/day (history basis, 5d span) |
-| Health score | 86/100 |
-| Documentation | 66/100 |
+| Stars | 5,329 |
+| Star velocity | 134.6/day (history basis, 5d span) |
+| Health score | 87/100 |
+| Documentation | 68/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-10-02 |
 | Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 9,290 chars from `raw:HEAD/README.md` |
+| Analyzed README | 13,386 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,26 +30,32 @@
 
 > package as SKILL.md, with the
 
+### GUI / desktop app
+
+> our machine is in this repository under the Apache-2.0
+
 ### Cross-agent support
 
 > Mentions Claude Code, Codex
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 25/100)
+- **Difficulty:** 🟢 Easy (friction score 24/100)
 - **Out of the box:** yes
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 - **Quickest install:** `npm i -g vapi-network`
 
 **Signals that make it easy:** npx one-liner
 
 **Signals that add work:** pnpm install/build
 
-*Easy. install via npx one-liner; needs pnpm install/build*
+**Configuration required:** sign-in required
+
+*Easy. install via npx one-liner; needs pnpm install/build; configure sign-in required; GUI application*
 
 ## Documentation quality
 
-Score **66/100**, based on these detected signals:
+Score **68/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -67,11 +73,11 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.4 |
+| popularity | 74.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 66.0 |
-| accessibility | 87.0 |
+| documentation | 68.0 |
+| accessibility | 96.0 |
 
 ---
 

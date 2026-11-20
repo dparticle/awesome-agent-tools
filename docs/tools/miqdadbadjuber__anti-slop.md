@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,556 |
-| Star velocity | 74.6/day (history basis, 5d span) |
+| Stars | 9,656 |
+| Star velocity | 76.0/day (history basis, 5d span) |
 | Health score | 75/100 |
 | Documentation | 49/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,14 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-08-07 |
-| Last push | 2026-11-18 (1 days ago) |
-| Analyzed README | 14,515 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 14,798 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Skills & plugins
 
-> approve antislop to enable the contrast MCP server.
+> ll them (this project or everywhere), and which agents you use, then copies the folders and writes the pointer that reloads antislop every session.
 
 ### Agent runtime
 
@@ -72,8 +72,8 @@ Score **49/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.6 |
-| momentum | 62.2 |
+| popularity | 79.7 |
+| momentum | 63.3 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
 | accessibility | 84.0 |

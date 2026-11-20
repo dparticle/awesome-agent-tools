@@ -13,18 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 485 |
-| Star velocity | 1.4/day (history basis, 5d span) |
-| Health score | 55/100 |
+| Star velocity | 1.2/day (history basis, 5d span) |
+| Health score | 54/100 |
 | Documentation | 59/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | UPL-1.0 |
 | Language | Python |
 | Created | 2025-07-27 |
-| Last push | 2026-11-18 (0 days ago) |
-| Analyzed README | 25,079 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [ruvnet/ruflo](https://github.com/ruvnet/ruflo)** — Superseded by ruvnet/ruflo: covers 100% of capabilities (5/5).
+| Last push | 2026-11-19 (0 days ago) |
+| Analyzed README | 26,128 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,16 +44,16 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Turnkey (friction score 16/100)
+- **Difficulty:** 🟢 Easy (friction score 22/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `uvx oracle.oci-cloud-mcp-server@latest`
 
 **Signals that make it easy:** npx one-liner, uvx one-liner, Homebrew install, go install, native installer / package
 
-**Configuration required:** API key configuration, config file, server/reverse-proxy setup
+**Configuration required:** API key configuration, config file, database migration, server/reverse-proxy setup
 
-*Turnkey. install via npx one-liner, uvx one-liner; configure API key configuration, config file*
+*Easy. install via npx one-liner, uvx one-liner; configure API key configuration, config file*
 
 ## Documentation quality
 
@@ -77,10 +75,10 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.7 |
-| momentum | 1.2 |
+| momentum | 1.0 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
-| accessibility | 84.0 |
+| accessibility | 78.0 |
 
 ---
 

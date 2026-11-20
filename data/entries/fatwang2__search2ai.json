@@ -6,7 +6,7 @@
   "url": "https://github.com/fatwang2/search2ai",
   "description": "Self-hosted search gateway for AI agents. Unified search, news and page extraction with provider fallback. REST API, MCP server and TypeScript library.",
   "homepage": "https://s1.dev/open-source/search2ai",
-  "stars": 1288,
+  "stars": 1286,
   "forks": 201,
   "open_issues": 16,
   "language": "TypeScript",
@@ -28,13 +28,13 @@
     "web-search"
   ],
   "created_at": "2023-12-18T02:02:46Z",
-  "updated_at": "2026-11-19T12:17:11Z",
+  "updated_at": "2026-11-19T23:30:02Z",
   "pushed_at": "2026-11-17T07:41:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1067,
-  "days_since_push": 2,
+  "age_days": 1068,
+  "days_since_push": 3,
   "health_score": 53,
   "health_components": {
     "popularity": 62.2,
@@ -46,9 +46,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 12,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.21,
+    "lifetime_stars_per_day": 1.2,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,16 +149,74 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:48+00:00",
+  "fetched_at": "2026-11-20T12:55:39+00:00",
   "categories": [
-    "mcp-security"
+    "teams-self-hosting"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "fatwang2/search2ai",
+      "challenger": "tencentcloud/octop",
+      "incumbent_name": "fatwang2/search2ai",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "api-gateway",
+        "mcp-support",
+        "model-routing",
+        "parallel-execution",
+        "self-hosted"
+      ],
+      "star_ratio": 9.564,
+      "momentum_ratio": 992.0,
+      "setup_delta": -34,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "9.56x the stars (12,299 vs 1,286)",
+        "992.00x the star velocity (49.6/day vs 0.0/day)",
+        "no harder to set up (32 vs 66 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "api-gateway",
+          "mcp-support",
+          "model-routing",
+          "parallel-execution",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 53,
+        "challenger_health": 74,
+        "incumbent_setup_score": 66,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

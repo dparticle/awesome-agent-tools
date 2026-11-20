@@ -6,9 +6,9 @@
   "url": "https://github.com/tickernelz/opencode-mem",
   "description": "OpenCode plugin that gives coding agents persistent memory using local vector database",
   "homepage": "https://opencode-mem.zhafron.my.id",
-  "stars": 1880,
+  "stars": 1879,
   "forks": 190,
-  "open_issues": 2,
+  "open_issues": 5,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,29 +21,29 @@
     "vector-database"
   ],
   "created_at": "2026-01-10T08:13:56Z",
-  "updated_at": "2026-11-19T11:51:49Z",
+  "updated_at": "2026-11-20T01:44:43Z",
   "pushed_at": "2026-11-18T13:46:57Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 313,
-  "days_since_push": 0,
+  "age_days": 314,
+  "days_since_push": 1,
   "health_score": 56,
   "health_components": {
     "popularity": 65.5,
-    "momentum": 3.7,
+    "momentum": 2.7,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 22,
+    "stars_gained": 16,
     "days_span": 5,
-    "stars_per_day": 4.4,
-    "lifetime_stars_per_day": 6.01,
+    "stars_per_day": 3.2,
+    "lifetime_stars_per_day": 5.98,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tickernelz/opencode-mem",
@@ -159,10 +159,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:42+00:00",
+  "fetched_at": "2026-11-20T12:55:32+00:00",
   "categories": [
+    "desktop-ui",
     "desktop-ui-2",
-    "failover",
     "failover-2"
   ],
   "primary_category": "failover-2",

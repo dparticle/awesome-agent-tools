@@ -7,7 +7,7 @@
   "description": "Watch AI agents walk to desks, think, collaborate, hire interns, assign tasks to each other, execute code, search the web, and grow their team - all rendered in real-time pixel art with persistent memory across sessions.",
   "homepage": "",
   "stars": 425,
-  "forks": 113,
+  "forks": 114,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
@@ -18,21 +18,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 267,
-  "days_since_push": 55,
+  "age_days": 268,
+  "days_since_push": 56,
   "health_score": 43,
   "health_components": {
     "popularity": 52.6,
-    "momentum": 1.0,
+    "momentum": 0.8,
     "maintenance": 78.0,
     "documentation": 57.0,
     "accessibility": 25.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.2,
+    "stars_per_day": 1.0,
     "lifetime_stars_per_day": 1.59,
     "basis": "history",
     "is_fast_riser": false
@@ -128,10 +128,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:15+00:00",
+  "fetched_at": "2026-11-20T12:56:12+00:00",
   "categories": [
-    "isolation-teams",
     "parallelism",
+    "sharing",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",
@@ -160,14 +160,14 @@
         "team-collaboration",
         "worktree-isolation"
       ],
-      "star_ratio": 28.831,
-      "momentum_ratio": 36.0,
+      "star_ratio": 28.939,
+      "momentum_ratio": 49.6,
       "setup_delta": -43,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "28.83x the stars (12,253 vs 425)",
-        "36.00x the star velocity (43.2/day vs 1.2/day)",
+        "28.94x the stars (12,299 vs 425)",
+        "49.60x the star velocity (49.6/day vs 1.0/day)",
         "no harder to set up (32 vs 75 friction)"
       ],
       "reasons_zh": [],
@@ -200,7 +200,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 43,
-        "challenger_health": 72,
+        "challenger_health": 74,
         "incumbent_setup_score": 75,
         "challenger_setup_score": 32
       }

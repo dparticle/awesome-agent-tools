@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,537 |
-| Star velocity | 7.8/day (history basis, 5d span) |
+| Stars | 2,545 |
+| Star velocity | 8.0/day (history basis, 5d span) |
 | Health score | 55/100 |
 | Documentation | 60/100 |
 | Tier | 🔹 Notable |
@@ -21,10 +21,10 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2025-11-29 |
-| Last push | 2026-11-16 (3 days ago) |
-| Analyzed README | 18,559 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 19,168 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (8/8).
+> ⚠️ **Superseded by [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** — Superseded by jlcodes99/cockpit-tools: covers 100% of capabilities (7/7).
 
 ## What it solves
 
@@ -40,23 +40,17 @@
 
 ### Model / provider routing
 
-> warning when starting the service for the first time.
-
 ### API gateway / proxy
 
-> ssic, Antigravity IDE and agy CLI).
+> ing the Google accounts used by Antigravity clients (including Classic, Antigravity IDE and agy CLI).
 
 ### GUI / desktop app
 
-> Gemini and Claude entries describe models available through those Google accounts.
+> e installer family when updating an existing installation.
 
 ### Notifications
 
 > filters (no model requests)
-
-### Cross-agent support
-
-> Mentions Claude Code, Codex, OpenCode
 
 ## Setup reality check
 
@@ -93,7 +87,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 68.1 |
-| momentum | 6.5 |
+| momentum | 6.7 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 43.0 |

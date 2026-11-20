@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/LoopForge",
   "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
   "homepage": "https://loopforge.cn",
-  "stars": 4001,
-  "forks": 578,
-  "open_issues": 246,
+  "stars": 5214,
+  "forks": 721,
+  "open_issues": 273,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,27 +34,27 @@
     "workflow-engine"
   ],
   "created_at": "2026-07-28T03:51:01Z",
-  "updated_at": "2026-11-19T13:01:45Z",
-  "pushed_at": "2026-11-19T12:53:55Z",
+  "updated_at": "2026-11-20T12:52:18Z",
+  "pushed_at": "2026-11-20T12:37:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
+  "age_days": 115,
   "days_since_push": 0,
-  "health_score": 64,
+  "health_score": 67,
   "health_components": {
-    "popularity": 72.0,
-    "momentum": 29.2,
+    "popularity": 74.3,
+    "momentum": 37.8,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 45.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4001,
-    "days_span": 114,
-    "stars_per_day": 35.1,
-    "lifetime_stars_per_day": 35.1,
+    "stars_gained": 5214,
+    "days_span": 115,
+    "stars_per_day": 45.34,
+    "lifetime_stars_per_day": 45.34,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -176,10 +176,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:06:11+00:00",
+  "fetched_at": "2026-11-20T12:54:48+00:00",
   "categories": [
     "billing-2",
-    "isolation-teams",
+    "parallelism",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

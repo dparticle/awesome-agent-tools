@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 706,
-  "days_since_push": 21,
+  "age_days": 707,
+  "days_since_push": 22,
   "health_score": 47,
   "health_components": {
     "popularity": 55.1,
@@ -120,11 +120,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-19T13:07:03+00:00",
+  "fetched_at": "2026-11-20T12:55:56+00:00",
   "categories": [
-    "mcp-security"
+    "teams-self-hosting"
   ],
-  "primary_category": "mcp-security",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",
