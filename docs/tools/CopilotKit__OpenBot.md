@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 13,025 |
-| Star velocity | 136.4/day (history basis, 5d span) |
-| Health score | 84/100 |
+| Stars | 13,108 |
+| Star velocity | 117.8/day (history basis, 5d span) |
+| Health score | 83/100 |
 | Documentation | 78/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-17 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 53,704 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 55,540 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (9/9).
 
@@ -63,7 +63,7 @@
 
 **Signals that add work:** docker run, helm install, git clone (build from source)
 
-**Configuration required:** API key configuration, .env file, OAuth login flow, sign-in required, database dependency, server/reverse-proxy setup, process manager
+**Configuration required:** API key configuration, .env file, OAuth login flow, sign-in required, database dependency, database migration, server/reverse-proxy setup, process manager
 
 *Involved setup. install via npx one-liner, native installer / package; needs docker run, helm install; configure API key configuration, .env file*
 
@@ -89,8 +89,8 @@ Score **78/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.3 |
-| momentum | 100.0 |
+| popularity | 82.4 |
+| momentum | 98.2 |
 | maintenance | 100.0 |
 | documentation | 78.0 |
 | accessibility | 36.0 |

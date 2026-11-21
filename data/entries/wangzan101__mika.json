@@ -6,9 +6,9 @@
   "url": "https://github.com/wangzan101/Mika",
   "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
   "homepage": "https://mikaphone.com",
-  "stars": 9258,
-  "forks": 2084,
-  "open_issues": 89,
+  "stars": 9350,
+  "forks": 2097,
+  "open_issues": 92,
   "language": "Kotlin",
   "license": "Apache-2.0",
   "topics": [
@@ -22,33 +22,33 @@
     "mobile-agent"
   ],
   "created_at": "2026-10-29T14:34:07Z",
-  "updated_at": "2026-11-20T12:36:59Z",
-  "pushed_at": "2026-11-20T12:53:41Z",
+  "updated_at": "2026-11-21T12:26:30Z",
+  "pushed_at": "2026-11-21T07:48:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 21,
+  "age_days": 22,
   "days_since_push": 0,
-  "health_score": 80,
+  "health_score": 79,
   "health_components": {
-    "popularity": 79.3,
-    "momentum": 97.5,
+    "popularity": 79.4,
+    "momentum": 89.5,
     "maintenance": 100.0,
     "documentation": 33.0,
     "accessibility": 80.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 585,
+    "stars_gained": 537,
     "days_span": 5,
-    "stars_per_day": 117.0,
-    "lifetime_stars_per_day": 440.86,
+    "stars_per_day": 107.4,
+    "lifetime_stars_per_day": 425.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "wangzan101/Mika",
-    "readme_chars": 13934,
+    "readme_chars": 14097,
     "capabilities": [
       "mobile-access",
       "model-routing",
@@ -57,8 +57,8 @@
     ],
     "capability_evidence": {
       "mobile-access": "Several demos use apps popular in China: WeChat is the main messaging app there, and Xiaohongshu (RED) is a lifestyle and social platform.",
-      "model-routing": "resets for DeepSeek, 通义千问, Kimi, 智谱, 智谱 Coding Plan, 硅基流动, 火山方舟, MiniMax, 阶跃星辰, 腾讯混元, 百度千帆, OpenRouter, OpenCode Go, Anthropic, Gemini, OpenAI, xAI, Mistral, Groq, Ollama, LM Studio and more; for any other provider pick…",
-      "billing-metering": "",
+      "model-routing": "谱 Coding Plan, 硅基流动, 火山方舟, MiniMax, 阶跃星辰, 腾讯混元, 百度千帆, OpenRouter, OpenDesign Go, OpenCode Go, Anthropic, Gemini, OpenAI, xAI, Mistral, Groq, Cloudflare Workers AI, Ollama, LM Studio and more; for any other provider pick…",
+      "billing-metering": "Apps 阿里巴巴, 支付宝, Amazon, Android 设置, 百度, 百家号, 哔哩哔哩, BOSS直聘, ChatGPT, Chrome, 得到, 大众点评, Discord, 抖音, 飞书, GitHub, Gmail, Google Calendar, Google Maps, Instagram, 京东, 即刻, 快手, 领英, 美团, 美团外卖, Netflix, 拼多多, QQ, QQ邮箱, QQ音乐",
       "mcp-support": "nd computing A Linux sandbox per conversation runs Python, Node and shell on the files you send (arm64)"
     },
     "capability_hits": {
@@ -110,7 +110,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.431
+      "external_link_ratio": 0.426
     },
     "highlights": [
       "API keys and memories are stored encrypted on the phone; conversations and run records stay on the device; update checks only contact GitHub."
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:39+00:00",
+  "fetched_at": "2026-11-21T12:41:14+00:00",
   "categories": [
     "mobile"
   ],

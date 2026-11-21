@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 284,
-  "days_since_push": 18,
+  "age_days": 285,
+  "days_since_push": 19,
   "health_score": 49,
   "health_components": {
     "popularity": 53.8,
@@ -52,7 +52,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 6,
+    "days_span": 7,
     "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.72,
     "basis": "history",
@@ -135,22 +135,22 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:56:03+00:00",
+  "fetched_at": "2026-11-21T12:42:52+00:00",
   "categories": [
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
+    "note_en": "Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 microsoft/TokenEconomizer 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "microsoft/TokenEconomizer",
     "challenger": "",
     "supersede": {
       "incumbent": "josstei/maestro-orchestrate",
-      "challenger": "hoangsonww/claude-code-agent-monitor",
+      "challenger": "microsoft/tokeneconomizer",
       "incumbent_name": "josstei/maestro-orchestrate",
-      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
+      "challenger_name": "microsoft/TokenEconomizer",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -161,15 +161,15 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 2.444,
-      "momentum_ratio": 44.0,
-      "setup_delta": -21,
-      "dominance": 0.953,
+      "star_ratio": 16.098,
+      "momentum_ratio": 3880.0,
+      "setup_delta": -15,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.44x the stars (1,195 vs 489)",
-        "44.00x the star velocity (2.2/day vs 0.0/day)",
-        "no harder to set up (30 vs 51 friction)"
+        "16.10x the stars (7,872 vs 489)",
+        "3880.00x the star velocity (194.0/day vs 0.0/day)",
+        "no harder to set up (36 vs 51 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -186,13 +186,13 @@
           "mcp-support",
           "multi-agent-orchestration",
           "notifications",
-          "session-persistence",
-          "skills-plugins"
+          "security-isolation",
+          "session-persistence"
         ],
         "incumbent_health": 49,
-        "challenger_health": 55,
+        "challenger_health": 84,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 36
       }
     }
   }

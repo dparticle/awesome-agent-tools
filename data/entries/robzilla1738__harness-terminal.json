@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 176,
-  "days_since_push": 37,
+  "age_days": 177,
+  "days_since_push": 38,
   "health_score": 49,
   "health_components": {
     "popularity": 49.8,
@@ -49,7 +49,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.76,
+    "lifetime_stars_per_day": 1.75,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,11 +160,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:56:22+00:00",
+  "fetched_at": "2026-11-21T12:43:16+00:00",
   "categories": [
+    "billing-2",
     "desktop-ui",
-    "mobile",
-    "security"
+    "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {

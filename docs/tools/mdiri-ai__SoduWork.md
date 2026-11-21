@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,315 |
-| Star velocity | 241.6/day (lifetime basis, 22d span) |
-| Health score | 85/100 |
-| Documentation | 84/100 |
+| Stars | 6,260 |
+| Star velocity | 272.2/day (lifetime basis, 23d span) |
+| Health score | 86/100 |
+| Documentation | 85/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-10-29 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 24,428 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 25,449 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -62,7 +62,7 @@
 
 ### GUI / desktop app
 
-> h --desktop on macOS/Linux, .\start.cmd --desktop in Windows PowerShell, or start.cmd --desktop in Command Prompt.
+> heck that the corresponding tool is installed and on PATH, then reopen Command Prompt.
 
 ### Cross-agent support
 
@@ -84,7 +84,7 @@
 
 ## Documentation quality
 
-Score **84/100**, based on these detected signals:
+Score **85/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -107,10 +107,10 @@ Score **84/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.5 |
+| popularity | 75.9 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 84.0 |
+| documentation | 85.0 |
 | accessibility | 58.0 |
 
 ---

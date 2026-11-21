@@ -6,40 +6,40 @@
   "url": "https://github.com/garrytan/gstack",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
   "homepage": "",
-  "stars": 142186,
-  "forks": 20994,
-  "open_issues": 110,
+  "stars": 142247,
+  "forks": 20987,
+  "open_issues": 115,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-03-11T21:22:45Z",
-  "updated_at": "2026-11-20T12:46:21Z",
-  "pushed_at": "2026-11-20T10:03:57Z",
+  "updated_at": "2026-11-21T12:25:27Z",
+  "pushed_at": "2026-11-21T12:23:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 253,
+  "age_days": 254,
   "days_since_push": 0,
-  "health_score": 90,
+  "health_score": 86,
   "health_components": {
     "popularity": 100.0,
-    "momentum": 94.7,
+    "momentum": 81.2,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 61.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 568,
+    "stars_gained": 487,
     "days_span": 5,
-    "stars_per_day": 113.6,
-    "lifetime_stars_per_day": 562.0,
+    "stars_per_day": 97.4,
+    "lifetime_stars_per_day": 560.03,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "garrytan/gstack",
-    "readme_chars": 41901,
+    "readme_chars": 43040,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -60,7 +60,7 @@
       "model-routing": "t moments and where people would stop, and why a back-to-back pick between two builds measures the order, not the build",
       "memory-context": "voice-input aliases many skills carry, have their own pages.",
       "skills-plugins": "--single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack f…",
-      "agent-runtime": "gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production…",
+      "agent-runtime": "gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who looks for product…",
       "mcp-support": "/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup then add a \"gstack\" section to CLAUDE.md that says to use the /browse skill from gstack for all web browsing and never use mcp\\\\claude-in-chro…",
       "security-isolation": "HTTP-capable agent on your Tailscale tailnet so remote agents can run iOS QA without ever touching the hardware.",
       "notifications": "a fake clock, and exports an MP4 for X, a website GIF and an 800×500 GIF once the seam, empty-beat, rest and overflow checks pass.",
@@ -133,7 +133,7 @@
       "Copilot",
       "Droid"
     ],
-    "summary_en": "gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who…",
+    "summary_en": "gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who looks for production bugs, a QA lead…",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -141,7 +141,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.334
+      "external_link_ratio": 0.325
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -153,13 +153,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:58+00:00",
+  "fetched_at": "2026-11-21T12:41:39+00:00",
   "categories": [
+    "desktop-ui-2",
     "failover",
-    "failover-2",
-    "parallelism"
+    "failover-2"
   ],
-  "primary_category": "parallelism",
+  "primary_category": "failover-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

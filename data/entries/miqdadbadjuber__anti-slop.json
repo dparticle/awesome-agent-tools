@@ -6,8 +6,8 @@
   "url": "https://github.com/miqdadbadjuber/anti-slop",
   "description": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
   "homepage": "https://antislop.ai.id",
-  "stars": 9656,
-  "forks": 662,
+  "stars": 9736,
+  "forks": 670,
   "open_issues": 1,
   "language": "JavaScript",
   "license": "MIT",
@@ -24,33 +24,33 @@
     "ui-design"
   ],
   "created_at": "2026-08-07T10:29:56Z",
-  "updated_at": "2026-11-20T12:42:47Z",
-  "pushed_at": "2026-11-20T11:56:28Z",
+  "updated_at": "2026-11-21T11:54:21Z",
+  "pushed_at": "2026-11-21T01:16:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 105,
+  "age_days": 106,
   "days_since_push": 0,
-  "health_score": 75,
+  "health_score": 76,
   "health_components": {
-    "popularity": 79.7,
-    "momentum": 63.3,
+    "popularity": 79.8,
+    "momentum": 66.3,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 84.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 380,
+    "stars_gained": 398,
     "days_span": 5,
-    "stars_per_day": 76.0,
-    "lifetime_stars_per_day": 91.96,
+    "stars_per_day": 79.6,
+    "lifetime_stars_per_day": 91.85,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "miqdadbadjuber/anti-slop",
-    "readme_chars": 14798,
+    "readme_chars": 14787,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -59,7 +59,7 @@
     ],
     "capability_evidence": {
       "skills-plugins": "ll them (this project or everywhere), and which agents you use, then copies the folders and writes the pointer that reloads antislop every session.",
-      "agent-runtime": "# Anti Slop: Rules for AI Coding Agents",
+      "agent-runtime": "# Rules for AI Coding Agents",
       "mcp-support": "Windows, set $env:MUSEEXPERIMENTALPLUGINS = \"1\" in PowerShell first, then run the two muse lines unchanged.",
       "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
     },
@@ -120,7 +120,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.946
+      "external_link_ratio": 0.947
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -132,7 +132,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:39+00:00",
+  "fetched_at": "2026-11-21T12:41:14+00:00",
   "categories": [
     "failover"
   ],

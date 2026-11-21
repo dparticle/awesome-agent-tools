@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,910 |
-| Star velocity | 307.4/day (lifetime basis, 42d span) |
-| Health score | 78/100 |
-| Documentation | 68/100 |
+| Stars | 14,373 |
+| Star velocity | 334.3/day (lifetime basis, 43d span) |
+| Health score | 79/100 |
+| Documentation | 73/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-10-08 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 37,351 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 38,443 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Multi-agent orchestration
 
-> all CI checks locally: ./scripts/verify.sh (add --full for -race and the static web build)
+> e all CI checks locally: ./scripts/verify.sh (add --full for -race and the static web build)
 
 ### Model / provider routing
 
@@ -81,7 +81,7 @@
 
 ## Documentation quality
 
-Score **68/100**, based on these detected signals:
+Score **73/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -89,6 +89,7 @@ Score **68/100**, based on these detected signals:
 - has a quick-start section
 - documents installation
 - documents configuration
+- has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
 - documents changes
@@ -99,10 +100,10 @@ Score **68/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 82.2 |
+| popularity | 83.2 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 68.0 |
+| documentation | 73.0 |
 | accessibility | 0.0 |
 
 ---

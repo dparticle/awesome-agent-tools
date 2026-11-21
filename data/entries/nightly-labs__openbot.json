@@ -6,9 +6,9 @@
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
   "homepage": "https://openbot.run/",
-  "stars": 9339,
-  "forks": 897,
-  "open_issues": 3702,
+  "stars": 9554,
+  "forks": 925,
+  "open_issues": 4031,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -22,16 +22,16 @@
     "typescript"
   ],
   "created_at": "2026-08-12T21:32:03Z",
-  "updated_at": "2026-11-20T12:49:46Z",
-  "pushed_at": "2026-11-20T12:53:18Z",
+  "updated_at": "2026-11-21T12:37:26Z",
+  "pushed_at": "2026-11-21T12:37:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 99,
+  "age_days": 100,
   "days_since_push": 0,
   "health_score": 84,
   "health_components": {
-    "popularity": 79.4,
+    "popularity": 79.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1488,
+    "stars_gained": 1471,
     "days_span": 5,
-    "stars_per_day": 297.6,
-    "lifetime_stars_per_day": 94.33,
+    "stars_per_day": 294.2,
+    "lifetime_stars_per_day": 95.54,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nightly-labs/openbot",
-    "readme_chars": 68185,
+    "readme_chars": 68566,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -163,11 +163,11 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.279
+      "external_link_ratio": 0.277
     },
     "highlights": [
-      "~/.cursor — login and session history managed exclusively by the Cursor CLI.",
       "~/.kimi (or $KIMISHAREDIR) — login and session history managed exclusively by the Kimi Code CLI.",
+      "~/.cursor — login and session history managed exclusively by the Cursor CLI.",
       "~/.cline (or $CLINE_DIR) — login and session history managed exclusively by the Cline CLI.",
       "~/.codex — login and thread history managed exclusively by Codex CLI."
     ],
@@ -180,10 +180,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:39+00:00",
+  "fetched_at": "2026-11-21T12:41:14+00:00",
   "categories": [
     "mobile",
-    "providers-2",
+    "parallelism",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

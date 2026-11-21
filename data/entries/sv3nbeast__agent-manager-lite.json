@@ -26,8 +26,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 47,
-  "days_since_push": 0,
+  "age_days": 48,
+  "days_since_push": 1,
   "health_score": 51,
   "health_components": {
     "popularity": 54.8,
@@ -41,7 +41,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 11.64,
+    "lifetime_stars_per_day": 11.4,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -161,7 +161,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:55:58+00:00",
+  "fetched_at": "2026-11-21T12:42:47+00:00",
   "categories": [
     "billing",
     "providers-2",

@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 130,
-  "days_since_push": 29,
+  "age_days": 131,
+  "days_since_push": 30,
   "health_score": 56,
   "health_components": {
     "popularity": 78.5,
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 10,
+    "days_span": 11,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 65.05,
+    "lifetime_stars_per_day": 64.56,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -107,11 +107,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:42+00:00",
+  "fetched_at": "2026-11-21T12:41:17+00:00",
   "categories": [
-    "security"
+    "sessions-memory"
   ],
-  "primary_category": "security",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

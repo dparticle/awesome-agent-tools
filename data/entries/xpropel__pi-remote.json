@@ -7,8 +7,8 @@
   "description": "Remote control for your pi coding agent. Pi-Remote mirrors live pi terminal sessions to any browser, so you can watch runs, answer prompts, and send commands from your phone — end-to-end encrypted over a self-hosted relay.",
   "homepage": "",
   "stars": 334,
-  "forks": 9,
-  "open_issues": 0,
+  "forks": 10,
+  "open_issues": 1,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 23,
-  "days_since_push": 1,
+  "age_days": 24,
+  "days_since_push": 2,
   "health_score": 52,
   "health_components": {
     "popularity": 50.5,
@@ -48,7 +48,7 @@
     "stars_gained": 3,
     "days_span": 5,
     "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 14.52,
+    "lifetime_stars_per_day": 13.92,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:56:17+00:00",
+  "fetched_at": "2026-11-21T12:43:08+00:00",
   "categories": [
     "desktop-ui",
     "failover",
@@ -154,64 +154,10 @@
   ],
   "primary_category": "parallelism",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 Gentleman-Programming/gentle-shell 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "Gentleman-Programming/gentle-shell",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "xpropel/pi-remote",
-      "challenger": "gentleman-programming/gentle-shell",
-      "incumbent_name": "Xpropel/Pi-Remote",
-      "challenger_name": "Gentleman-Programming/gentle-shell",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "gui-desktop",
-        "model-routing",
-        "parallel-execution"
-      ],
-      "star_ratio": 8.497,
-      "momentum_ratio": 60.667,
-      "setup_delta": -4,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "8.50x the stars (2,838 vs 334)",
-        "60.67x the star velocity (36.4/day vs 0.6/day)",
-        "no harder to set up (30 vs 34 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "gui-desktop",
-          "model-routing",
-          "parallel-execution"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "auto-failover",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "parallel-execution",
-          "remote-control",
-          "skills-plugins",
-          "voice-input",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 52,
-        "challenger_health": 67,
-        "incumbent_setup_score": 34,
-        "challenger_setup_score": 30
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

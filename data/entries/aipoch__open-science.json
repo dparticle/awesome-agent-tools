@@ -6,9 +6,9 @@
   "url": "https://github.com/aipoch/open-science",
   "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
   "homepage": "https://aipoch.com/open-science",
-  "stars": 5553,
-  "forks": 560,
-  "open_issues": 34,
+  "stars": 5557,
+  "forks": 561,
+  "open_issues": 33,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -34,33 +34,33 @@
     "scientific-research"
   ],
   "created_at": "2026-07-03T02:50:10Z",
-  "updated_at": "2026-11-20T01:01:08Z",
-  "pushed_at": "2026-11-20T10:47:50Z",
+  "updated_at": "2026-11-21T10:41:49Z",
+  "pushed_at": "2026-11-21T12:35:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 140,
+  "age_days": 141,
   "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 74.9,
-    "momentum": 4.0,
+    "momentum": 3.5,
     "maintenance": 100.0,
     "documentation": 76.0,
-    "accessibility": 87.0
+    "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 24,
+    "stars_gained": 21,
     "days_span": 5,
-    "stars_per_day": 4.8,
-    "lifetime_stars_per_day": 39.66,
+    "stars_per_day": 4.2,
+    "lifetime_stars_per_day": 39.41,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "aipoch/open-science",
-    "readme_chars": 31250,
+    "readme_chars": 31637,
     "capabilities": [
       "billing-metering",
       "skills-plugins",
@@ -84,17 +84,18 @@
       "skills-plugins": 1,
       "mcp-support": 7,
       "security-isolation": 1,
-      "gui-desktop": 4,
+      "gui-desktop": 5,
       "notifications": 1,
       "cross-agent-support": 4
     },
     "friction": {
-      "level": "low",
-      "score": 21,
+      "level": "turnkey",
+      "score": 12,
       "out_of_the_box": false,
       "non_programmer_friendly": true,
       "easy_signals": [
         "Homebrew install",
+        "winget install",
         "native installer / package"
       ],
       "hard_signals": [
@@ -113,8 +114,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, sign-in required; GUI application",
-      "note_zh": "较易上手。可通过 Homebrew install、native installer / package 安装；需要 npm install/build；需配置 API key configuration、sign-in required；GUI application"
+      "note_en": "Turnkey. install via Homebrew install, winget install; needs npm install/build; configure API key configuration, sign-in required; GUI application",
+      "note_zh": "开箱即用。可通过 Homebrew install、winget install 安装；需要 npm install/build；需配置 API key configuration、sign-in required；GUI application"
     },
     "doc_score": 76,
     "doc_signals": [
@@ -139,13 +140,13 @@
     ],
     "summary_en": "AIPOCH Open-Science is a local-first open-source AI research workbench for reproducible science, with flexible model backends.",
     "summary_zh": "",
-    "install_hint": "brew install --cask open-science",
+    "install_hint": "winget install --id AIPOCH.Open-Science --exact --source winget",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.704
+      "external_link_ratio": 0.759
     },
     "highlights": [
       "Automation · CLI · Node.js SDK · Connect an MCP client"
@@ -159,7 +160,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:47+00:00",
+  "fetched_at": "2026-11-21T12:41:26+00:00",
   "categories": [
     "billing-2",
     "desktop-ui-2"

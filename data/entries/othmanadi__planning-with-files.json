@@ -6,9 +6,9 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
   "homepage": "https://planningwithfiles.tech/",
-  "stars": 28155,
-  "forks": 2320,
-  "open_issues": 13,
+  "stars": 28168,
+  "forks": 2323,
+  "open_issues": 16,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -34,37 +34,38 @@
     "session-recovery"
   ],
   "created_at": "2026-01-03T07:37:28Z",
-  "updated_at": "2026-11-20T11:34:21Z",
-  "pushed_at": "2026-11-11T20:55:30Z",
+  "updated_at": "2026-11-21T12:17:07Z",
+  "pushed_at": "2026-11-21T08:34:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 321,
-  "days_since_push": 8,
-  "health_score": 67,
+  "age_days": 322,
+  "days_since_push": 0,
+  "health_score": 68,
   "health_components": {
     "popularity": 89.0,
-    "momentum": 14.7,
-    "maintenance": 92.0,
+    "momentum": 12.8,
+    "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 88,
+    "stars_gained": 77,
     "days_span": 5,
-    "stars_per_day": 17.6,
-    "lifetime_stars_per_day": 87.71,
+    "stars_per_day": 15.4,
+    "lifetime_stars_per_day": 87.48,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "OthmanAdi/planning-with-files",
-    "readme_chars": 109627,
+    "readme_chars": 114867,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
       "worktree-isolation",
+      "api-gateway",
       "session-persistence",
       "memory-context",
       "skills-plugins",
@@ -76,10 +77,11 @@
       "multi-agent-orchestration": "collapsible sections below First-class hosts: native plugins.",
       "parallel-execution": "ry mechanism below is a file on disk plus a hook, so it works the same on hour ten as on turn one.",
       "worktree-isolation": "** One orchestrator owns taskplan.md and the shared summaries; every worker appends to its own ledger or assigned file.",
-      "session-persistence": "s and contributor-reported measurements (PRs #331, #333, #334).",
+      "api-gateway": "",
+      "session-persistence": "d contributor-reported measurements (PRs #331, #333, #334).",
       "memory-context": "",
-      "skills-plugins": "ackage, wired up for you (skill, extension, status bar):",
-      "agent-runtime": "ndow as the conversation grows.",
+      "skills-plugins": "laude plugin route, startup, resume, clear, and post-compaction lifecycle events restore selected active-plan context from project files automatically.",
+      "agent-runtime": "## Quick Install All install methods: docs/installation.md. --- ## Before and after /clear Every coding agent loses its working memory when the context window resets.",
       "security-isolation": "",
       "cross-agent-support": "Mentions Amp, Claude Code, Codex, Continue"
     },
@@ -87,6 +89,7 @@
       "multi-agent-orchestration": 2,
       "parallel-execution": 1,
       "worktree-isolation": 1,
+      "api-gateway": 2,
       "session-persistence": 1,
       "memory-context": 1,
       "skills-plugins": 3,
@@ -156,12 +159,12 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.383
+      "external_link_ratio": 0.366
     },
     "highlights": [
+      "SHA-256 plan attestation (/plan-attest): locks task_plan.md; a tampered plan body is refused at injection.",
       "Host capability tiers: hard block on Claude Code, Codex, and Continue; follow-up injection on Cursor, Pi, Kiro, Hermes Agent, and OpenCode; notify-only elsewhere.",
       "Absolute plan-root pin (PWFPLANROOT, v3.9.0): binds a thread to a project root by absolute path, for agent threads whose cwd is a shared parent of the project they are actually working in.",
-      "SHA-256 plan attestation (/plan-attest): locks task_plan.md; a tampered plan body is refused at injection.",
       "Run ledger: an append-only JSONL record of phase transitions that replaces the raw progress.md tail in v3 modes with a fixed-shape summary."
     ],
     "summary_zh_native": "",
@@ -173,10 +176,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:55:14+00:00",
+  "fetched_at": "2026-11-21T12:41:59+00:00",
   "categories": [
-    "desktop-ui-2",
     "failover",
+    "isolation",
     "parallelism"
   ],
   "primary_category": "parallelism",

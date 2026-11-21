@@ -6,34 +6,34 @@
   "url": "https://github.com/t3dotgg/tstack",
   "description": "The agent skills I use every day. Works with Claude Code and Codex.",
   "homepage": "",
-  "stars": 4219,
-  "forks": 330,
-  "open_issues": 20,
+  "stars": 4259,
+  "forks": 335,
+  "open_issues": 21,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-10-24T05:00:20Z",
-  "updated_at": "2026-11-20T12:49:50Z",
+  "updated_at": "2026-11-21T12:33:42Z",
   "pushed_at": "2026-11-11T11:33:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 27,
-  "days_since_push": 9,
-  "health_score": 65,
+  "age_days": 28,
+  "days_since_push": 10,
+  "health_score": 60,
   "health_components": {
-    "popularity": 72.5,
-    "momentum": 67.0,
+    "popularity": 72.6,
+    "momentum": 49.0,
     "maintenance": 92.0,
     "documentation": 25.0,
     "accessibility": 49.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 402,
+    "stars_gained": 294,
     "days_span": 5,
-    "stars_per_day": 80.4,
-    "lifetime_stars_per_day": 156.26,
+    "stars_per_day": 58.8,
+    "lifetime_stars_per_day": 152.11,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -104,16 +104,68 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:51+00:00",
+  "fetched_at": "2026-11-21T12:41:30+00:00",
   "categories": [
     "failover-2"
   ],
   "primary_category": "failover-2",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 garrytan/gstack 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "garrytan/gstack",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "t3dotgg/tstack",
+      "challenger": "garrytan/gstack",
+      "incumbent_name": "t3dotgg/tstack",
+      "challenger_name": "garrytan/gstack",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "auto-failover",
+        "cross-agent-support",
+        "model-routing",
+        "multi-agent-orchestration"
+      ],
+      "star_ratio": 33.399,
+      "momentum_ratio": 1.656,
+      "setup_delta": -12,
+      "dominance": 0.863,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "33.40x the stars (142,247 vs 4,259)",
+        "1.66x the star velocity (97.4/day vs 58.8/day)",
+        "no harder to set up (39 vs 51 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "auto-failover",
+          "cross-agent-support",
+          "model-routing",
+          "multi-agent-orchestration"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 60,
+        "challenger_health": 86,
+        "incumbent_setup_score": 51,
+        "challenger_setup_score": 39
+      }
+    }
   }
 }

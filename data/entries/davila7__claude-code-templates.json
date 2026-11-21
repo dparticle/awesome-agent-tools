@@ -6,9 +6,9 @@
   "url": "https://github.com/davila7/claude-code-templates",
   "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
   "homepage": "https://www.aitmpl.com",
-  "stars": 34024,
-  "forks": 4063,
-  "open_issues": 543,
+  "stars": 34053,
+  "forks": 4075,
+  "open_issues": 551,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -24,27 +24,27 @@
     "registry"
   ],
   "created_at": "2025-07-04T01:26:26Z",
-  "updated_at": "2026-11-20T12:48:09Z",
-  "pushed_at": "2026-11-20T03:10:29Z",
+  "updated_at": "2026-11-21T12:19:20Z",
+  "pushed_at": "2026-11-21T05:26:34Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 504,
+  "age_days": 505,
   "days_since_push": 0,
-  "health_score": 77,
+  "health_score": 73,
   "health_components": {
     "popularity": 90.6,
-    "momentum": 53.5,
+    "momentum": 37.8,
     "maintenance": 100.0,
     "documentation": 62.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 321,
+    "stars_gained": 227,
     "days_span": 5,
-    "stars_per_day": 64.2,
-    "lifetime_stars_per_day": 67.51,
+    "stars_per_day": 45.4,
+    "lifetime_stars_per_day": 67.43,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -135,13 +135,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:55:12+00:00",
+  "fetched_at": "2026-11-21T12:41:56+00:00",
   "categories": [
     "desktop-ui-2",
-    "parallelism",
-    "security"
+    "isolation",
+    "sessions-memory"
   ],
-  "primary_category": "parallelism",
+  "primary_category": "isolation",
   "lifecycle": {
     "state": "active",
     "note_en": "",

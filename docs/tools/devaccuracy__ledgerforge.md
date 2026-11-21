@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-05-10 |
-| Last push | 2026-10-16 (34 days ago) |
+| Last push | 2026-10-16 (35 days ago) |
 | Analyzed README | 12,267 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [aipoch/open-science](https://github.com/aipoch/open-science)** — Superseded by aipoch/open-science: covers 100% of capabilities (4/4).

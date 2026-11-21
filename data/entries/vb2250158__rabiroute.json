@@ -35,11 +35,11 @@
   ],
   "created_at": "2026-06-01T09:40:16Z",
   "updated_at": "2026-11-17T09:44:07Z",
-  "pushed_at": "2026-11-20T11:38:56Z",
+  "pushed_at": "2026-11-21T09:04:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 172,
+  "age_days": 173,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.87,
+    "lifetime_stars_per_day": 2.85,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,16 +152,77 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:56:03+00:00",
+  "fetched_at": "2026-11-21T12:42:52+00:00",
   "categories": [
     "mobile"
   ],
   "primary_category": "mobile",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by greenfield-inc/Pane: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 greenfield-inc/Pane 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "greenfield-inc/Pane",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "vb2250158/rabiroute",
+      "challenger": "greenfield-inc/pane",
+      "incumbent_name": "vb2250158/RabiRoute",
+      "challenger_name": "greenfield-inc/Pane",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "mobile-access",
+        "notifications",
+        "remote-control",
+        "self-hosted"
+      ],
+      "star_ratio": 1.355,
+      "momentum_ratio": 88.0,
+      "setup_delta": 11,
+      "dominance": 0.764,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "1.35x the stars (668 vs 493)",
+        "88.00x the star velocity (4.4/day vs 0.0/day)",
+        "slightly heavier setup (+11 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "notifications",
+          "remote-control",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "parallel-execution",
+          "remote-control",
+          "self-hosted",
+          "session-persistence",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 56,
+        "challenger_health": 57,
+        "incumbent_setup_score": 18,
+        "challenger_setup_score": 29
+      }
+    }
   }
 }

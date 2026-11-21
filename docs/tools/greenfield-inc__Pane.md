@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 668 |
-| Star velocity | 7.8/day (history basis, 5d span) |
+| Star velocity | 4.4/day (history basis, 5d span) |
 | Health score | 57/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
@@ -21,14 +21,18 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-02-27 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 50,044 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 50,292 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Remote control
 
 > n its approval; again (or Esc) goes back with your draft kept
+
+### Mobile access
+
+> Pane and choose Pair a device on Home, or Add a device in Settings › Remote Access.
 
 ### Multi-agent orchestration
 
@@ -112,7 +116,7 @@ Score **65/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 56.5 |
-| momentum | 6.5 |
+| momentum | 3.7 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 79.0 |

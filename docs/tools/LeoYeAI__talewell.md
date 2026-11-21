@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 550 |
-| Star velocity | 0.0/day (history basis, 5d span) |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 47/100 |
 | Documentation | 36/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-03-28 |
-| Last push | 2026-10-01 (49 days ago) |
+| Last push | 2026-10-01 (50 days ago) |
 | Analyzed README | 8,208 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).
@@ -72,7 +72,7 @@ Score **36/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.8 |
-| momentum | 0.0 |
+| momentum | 0.2 |
 | maintenance | 78.0 |
 | documentation | 36.0 |
 | accessibility | 85.0 |

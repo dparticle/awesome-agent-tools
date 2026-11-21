@@ -13,16 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 485 |
-| Star velocity | 1.2/day (history basis, 5d span) |
-| Health score | 54/100 |
-| Documentation | 59/100 |
+| Star velocity | 0.6/day (history basis, 5d span) |
+| Health score | 53/100 |
+| Documentation | 60/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | UPL-1.0 |
 | Language | Python |
 | Created | 2025-07-27 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 26,128 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 29,993 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -31,6 +31,10 @@
 ### Model / provider routing
 
 > CLI-backed option when you specifically need OCI CLI commands:
+
+### Agent runtime
+
+> phost configuration json file that you made above
 
 ### MCP support
 
@@ -44,20 +48,20 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 22/100)
+- **Difficulty:** 🟢 Easy (friction score 28/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `uvx oracle.oci-cloud-mcp-server@latest`
 
-**Signals that make it easy:** npx one-liner, uvx one-liner, Homebrew install, go install, native installer / package
+**Signals that make it easy:** npx one-liner, uvx one-liner, Homebrew install, go install, curl | sh installer, native installer / package
 
-**Configuration required:** API key configuration, config file, database migration, server/reverse-proxy setup
+**Configuration required:** API key configuration, config file, OAuth login flow, sign-in required, database migration, server/reverse-proxy setup
 
 *Easy. install via npx one-liner, uvx one-liner; configure API key configuration, config file*
 
 ## Documentation quality
 
-Score **59/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -75,10 +79,10 @@ Score **59/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.7 |
-| momentum | 1.0 |
+| momentum | 0.5 |
 | maintenance | 100.0 |
-| documentation | 59.0 |
-| accessibility | 78.0 |
+| documentation | 60.0 |
+| accessibility | 72.0 |
 
 ---
 

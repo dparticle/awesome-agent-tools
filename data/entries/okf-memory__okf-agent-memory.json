@@ -33,32 +33,32 @@
   ],
   "created_at": "2026-09-05T21:26:04Z",
   "updated_at": "2026-11-20T11:12:08Z",
-  "pushed_at": "2026-11-14T10:03:14Z",
+  "pushed_at": "2026-11-21T11:25:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 75,
-  "days_since_push": 6,
+  "age_days": 76,
+  "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 58.8,
-    "momentum": 1.0,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 11.63,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 11.47,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "okf-memory/okf-agent-memory",
-    "readme_chars": 21110,
+    "readme_chars": 21493,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -129,7 +129,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.332
+      "external_link_ratio": 0.326
     },
     "highlights": [
       "Agent Action Grammar (AAG): Ultra-compact, deterministic ASCII micro-syntax saving ~78–85% tokens compared to natural language prompt instructions.",
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:55:47+00:00",
+  "fetched_at": "2026-11-21T12:42:35+00:00",
   "categories": [
     "desktop-ui",
     "sessions-memory"
@@ -174,14 +174,14 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 1.727,
-      "momentum_ratio": 5.5,
+      "star_ratio": 1.731,
+      "momentum_ratio": 2.857,
       "setup_delta": -14,
-      "dominance": 0.874,
+      "dominance": 0.805,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.73x the stars (1,506 vs 872)",
-        "5.50x the star velocity (6.6/day vs 1.2/day)",
+        "1.73x the stars (1,509 vs 872)",
+        "2.86x the star velocity (4.0/day vs 1.4/day)",
         "no harder to set up (31 vs 45 friction)"
       ],
       "reasons_zh": [],
@@ -205,7 +205,7 @@
           "team-collaboration"
         ],
         "incumbent_health": 55,
-        "challenger_health": 57,
+        "challenger_health": 56,
         "incumbent_setup_score": 45,
         "challenger_setup_score": 31
       }

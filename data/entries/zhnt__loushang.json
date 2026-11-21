@@ -7,7 +7,7 @@
   "description": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance,   traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
   "homepage": "",
   "stars": 2104,
-  "forks": 324,
+  "forks": 326,
   "open_issues": 51,
   "language": "Python",
   "license": "Apache-2.0",
@@ -35,26 +35,26 @@
   ],
   "created_at": "2026-05-29T17:25:11Z",
   "updated_at": "2026-11-18T07:19:21Z",
-  "pushed_at": "2026-11-20T10:03:18Z",
+  "pushed_at": "2026-11-21T07:30:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 174,
+  "age_days": 175,
   "days_since_push": 0,
   "health_score": 53,
   "health_components": {
     "popularity": 66.5,
-    "momentum": 2.7,
+    "momentum": 1.3,
     "maintenance": 100.0,
     "documentation": 47.0,
     "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 12.09,
+    "stars_per_day": 1.6,
+    "lifetime_stars_per_day": 12.02,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -137,11 +137,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:55:30+00:00",
+  "fetched_at": "2026-11-21T12:42:16+00:00",
   "categories": [
-    "teams-self-hosting"
+    "sessions-memory"
   ],
-  "primary_category": "teams-self-hosting",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

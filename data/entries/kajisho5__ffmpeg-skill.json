@@ -6,9 +6,9 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 8615,
-  "forks": 795,
-  "open_issues": 42,
+  "stars": 9090,
+  "forks": 827,
+  "open_issues": 32,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-11-20T12:39:41Z",
-  "pushed_at": "2026-11-20T11:32:40Z",
+  "updated_at": "2026-11-21T12:37:57Z",
+  "pushed_at": "2026-11-21T12:29:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 77,
+  "age_days": 78,
   "days_since_push": 0,
   "health_score": 89,
   "health_components": {
-    "popularity": 78.7,
+    "popularity": 79.2,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2857,
+    "stars_gained": 2955,
     "days_span": 5,
-    "stars_per_day": 571.4,
-    "lifetime_stars_per_day": 111.88,
+    "stars_per_day": 591.0,
+    "lifetime_stars_per_day": 116.54,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kajisho5/ffmpeg-skill",
-    "readme_chars": 131191,
+    "readme_chars": 133144,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -154,7 +154,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.183
+      "external_link_ratio": 0.18
     },
     "highlights": [
       "Loudness targets. −14 LUFS / −1 dBTP for YouTube and social platforms (the loudness.py default), -I -16 --tp -1.5 for podcasts, -I -23 for broadcast. A clip measured at −40 LUFS or below is…",
@@ -171,13 +171,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:41+00:00",
+  "fetched_at": "2026-11-21T12:41:16+00:00",
   "categories": [
     "desktop-ui-2",
-    "sessions-memory",
-    "sharing"
+    "failover-2",
+    "sessions-memory"
   ],
-  "primary_category": "sharing",
+  "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

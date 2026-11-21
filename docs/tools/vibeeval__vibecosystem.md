@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | C# |
 | Created | 2026-03-14 |
-| Last push | 2026-11-11 (8 days ago) |
+| Last push | 2026-11-11 (9 days ago) |
 | Analyzed README | 12,425 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).

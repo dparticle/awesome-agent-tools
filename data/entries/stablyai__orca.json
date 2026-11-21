@@ -4,11 +4,11 @@
   "name": "orca",
   "owner": "stablyai",
   "url": "https://github.com/stablyai/orca",
-  "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+  "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
   "homepage": "https://orca.dev",
-  "stars": 130512,
-  "forks": 8307,
-  "open_issues": 8735,
+  "stars": 131520,
+  "forks": 8361,
+  "open_issues": 8959,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-11-20T12:53:38Z",
-  "pushed_at": "2026-11-20T12:54:08Z",
+  "updated_at": "2026-11-21T12:40:42Z",
+  "pushed_at": "2026-11-21T12:40:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 248,
+  "age_days": 249,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5138,
+    "stars_gained": 5184,
     "days_span": 5,
-    "stars_per_day": 1027.6,
-    "lifetime_stars_per_day": 526.26,
+    "stars_per_day": 1036.8,
+    "lifetime_stars_per_day": 528.19,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "stablyai/orca",
-    "readme_chars": 20422,
+    "readme_chars": 21502,
     "capabilities": [
       "multi-account-switching",
       "remote-control",
@@ -71,6 +71,7 @@
       "agent-runtime",
       "self-hosted",
       "gui-desktop",
+      "notifications",
       "voice-input",
       "cross-agent-support"
     ],
@@ -79,11 +80,12 @@
       "remote-control": "S Apple Silicon · macOS Intel · Windows (.exe) · Linux AppImage · All builds",
       "mobile-access": "",
       "multi-agent-orchestration": "",
-      "parallel-execution": "",
-      "worktree-isolation": "中文 · 日本語 · 한국어 · Español · Français · Português · Türkçe · Русский The AI Orchestrator for 100x builders.",
+      "parallel-execution": "Docs → ### Git Integration Draft commit messages and pull requests from the diff, then send failing checks or PR review comments back to an agent to fix. Docs → ### Parallel Worktrees Quickly split tasks into isolated e…",
+      "worktree-isolation": "lits the work, starts worker agents in their own workspaces, and brings their results back to you.",
       "agent-runtime": "e desktop apps and external browsers.",
       "self-hosted": "rivacy & telemetry docs for what anonymous usage data Orca collects and how to opt out.",
       "gui-desktop": "tart a workspace for each when you're ready to build.",
+      "notifications": "e in split panes shaped to the task.",
       "voice-input": "Markdown right in the workspace, next to the agent that made them.",
       "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
     },
@@ -91,12 +93,13 @@
       "multi-account-switching": 1,
       "remote-control": 1,
       "mobile-access": 3,
-      "multi-agent-orchestration": 2,
+      "multi-agent-orchestration": 1,
       "parallel-execution": 1,
       "worktree-isolation": 4,
       "agent-runtime": 2,
       "self-hosted": 1,
       "gui-desktop": 2,
+      "notifications": 1,
       "voice-input": 1,
       "cross-agent-support": 10
     },
@@ -148,7 +151,7 @@
       "Goose",
       "Droid"
     ],
-    "summary_en": "Run Claude Code, Codex, and any other coding agent in parallel, each in its own worktree.",
+    "summary_en": "Most bots end in a chat thread.",
     "summary_zh": "",
     "install_hint": "brew install --cask stablyai/orca/orca",
     "source": "raw:HEAD/README.md",
@@ -158,9 +161,10 @@
       "signals": [
         "list-maintenance framing"
       ],
-      "external_link_ratio": 2.008
+      "external_link_ratio": 2.139
     },
     "highlights": [
+      "Bot Schedules & Triggers: ask a bot to run every weekday at 9, or when a pull request opens, a check fails, or a webhook fires.",
       "Mobile Emulator: run an iOS Simulator or Android emulator beside your agent, and let it tap, type, and check its own work.",
       "Computer Use: when there's no CLI or API, agents can see and drive desktop apps and external browsers.",
       "Automations: schedule prompts to run on any repo: nightly dependency bumps, weekly triage, flaky-test sweeps."
@@ -174,7 +178,7 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-20T12:54:25+00:00",
+  "fetched_at": "2026-11-21T12:40:54+00:00",
   "categories": [
     "desktop-ui",
     "mobile",

@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/TokenEconomizer",
   "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
   "homepage": "",
-  "stars": 7819,
-  "forks": 536,
-  "open_issues": 21,
+  "stars": 7872,
+  "forks": 543,
+  "open_issues": 37,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -33,13 +33,13 @@
     "token-optimization"
   ],
   "created_at": "2026-10-13T04:16:50Z",
-  "updated_at": "2026-11-20T12:48:36Z",
+  "updated_at": "2026-11-21T12:31:55Z",
   "pushed_at": "2026-11-20T02:36:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 38,
-  "days_since_push": 0,
+  "age_days": 39,
+  "days_since_push": 1,
   "health_score": 84,
   "health_components": {
     "popularity": 77.9,
@@ -50,10 +50,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1671,
+    "stars_gained": 970,
     "days_span": 5,
-    "stars_per_day": 334.2,
-    "lifetime_stars_per_day": 205.76,
+    "stars_per_day": 194.0,
+    "lifetime_stars_per_day": 201.85,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -164,13 +164,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:42+00:00",
+  "fetched_at": "2026-11-21T12:41:18+00:00",
   "categories": [
     "desktop-ui",
-    "security",
+    "desktop-ui-2",
     "sessions-memory"
   ],
-  "primary_category": "security",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

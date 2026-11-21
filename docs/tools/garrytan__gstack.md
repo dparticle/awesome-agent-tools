@@ -2,7 +2,7 @@
 
 # garrytan/gstack
 
-> gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who…
+> gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who looks for production bugs, a QA lead…
 
 [Repository](https://github.com/garrytan/gstack) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 142,186 |
-| Star velocity | 113.6/day (history basis, 5d span) |
-| Health score | 90/100 |
+| Stars | 142,247 |
+| Star velocity | 97.4/day (history basis, 5d span) |
+| Health score | 86/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 41,901 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 43,040 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -52,7 +52,7 @@
 
 ### Agent runtime
 
-> gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production…
+> gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who looks for product…
 
 ### MCP support
 
@@ -107,7 +107,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 100.0 |
-| momentum | 94.7 |
+| momentum | 81.2 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 61.0 |

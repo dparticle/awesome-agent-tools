@@ -2,7 +2,7 @@
 
 # Leonxlnx/earshot
 
-> Ears for coding agents.
+> earshot makes sound effects for a coding agent, which cannot hear them.
 
 [Repository](https://github.com/Leonxlnx/earshot) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,53 +12,54 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,290 |
-| Star velocity | 86.4/day (history basis, 5d span) |
+| Stars | 5,417 |
+| Star velocity | 90.4/day (history basis, 5d span) |
 | Health score | 74/100 |
-| Documentation | 62/100 |
+| Documentation | 57/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-10-15 |
-| Last push | 2026-11-19 (0 days ago) |
-| Analyzed README | 32,598 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-20 (0 days ago) |
+| Analyzed README | 40,209 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)** — Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).
 
 ## What it solves
 
 ### Skills & plugins
 
-> /skills/ (or a project's .claude/skills/).
+> al Gemini critique (earshot llm, your own API key)
 
 ### Agent runtime
 
-> placed with the launch kit, plus the one CC0 recording it shows being re-made, over a
-
 ### MCP support
 
-> one line on stderr (earshot : error: ..., exit 1).
+> for agents such as Claude Code, which write the code of interfaces, games and films, and for the people
 
 ### Notifications
 
-> pes come as families of named characters: 34 motion-design categories (whooshes, swishes,
+> key for a tap, a page for next and
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 52/100)
+- **Difficulty:** 🟡 Some setup (friction score 49/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
+- **Quickest install:** `npx skills add Leonxlnx/earshot                                   # the agent skills`
 
-**Signals that make it easy:** pip install
+**Signals that make it easy:** npx one-liner, pip install
 
 **Signals that add work:** git clone (build from source), create a Python venv
 
-**Configuration required:** environment variables, config.json/yaml/toml, server/reverse-proxy setup
+**Configuration required:** environment variables, API key configuration, config.json/yaml/toml, server/reverse-proxy setup
 
-*Some setup. install via pip install; needs git clone (build from source), create a Python venv; configure environment variables, config.json/yaml/toml*
+*Some setup. install via npx one-liner, pip install; needs git clone (build from source), create a Python venv; configure environment variables, API key configuration*
 
 ## Documentation quality
 
-Score **62/100**, based on these detected signals:
+Score **57/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -66,7 +67,6 @@ Score **62/100**, based on these detected signals:
 - documents installation
 - documents configuration
 - mentions licensing
-- links to dedicated docs
 - documents changes
 - reports benchmarks
 - long, detailed README
@@ -75,11 +75,11 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.5 |
-| momentum | 72.0 |
+| popularity | 74.7 |
+| momentum | 75.3 |
 | maintenance | 100.0 |
-| documentation | 62.0 |
-| accessibility | 48.0 |
+| documentation | 57.0 |
+| accessibility | 51.0 |
 
 ---
 

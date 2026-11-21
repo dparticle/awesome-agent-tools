@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,656 |
-| Star velocity | 76.0/day (history basis, 5d span) |
-| Health score | 75/100 |
+| Stars | 9,736 |
+| Star velocity | 79.6/day (history basis, 5d span) |
+| Health score | 76/100 |
 | Documentation | 49/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-08-07 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 14,798 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 14,787 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Agent runtime
 
-> # Anti Slop: Rules for AI Coding Agents
+> # Rules for AI Coding Agents
 
 ### MCP support
 
@@ -72,8 +72,8 @@ Score **49/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.7 |
-| momentum | 63.3 |
+| popularity | 79.8 |
+| momentum | 66.3 |
 | maintenance | 100.0 |
 | documentation | 49.0 |
 | accessibility | 84.0 |

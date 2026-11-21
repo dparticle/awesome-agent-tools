@@ -2,7 +2,7 @@
 
 # johannesjo/parallel-code
 
-> Dispatch AI coding agents in parallel, each in its own worktree.
+> Run coding agents from any vendor in their own worktrees.
 
 [Repository](https://github.com/johannesjo/parallel-code) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,100 |
-| Star velocity | 4.0/day (lifetime basis, 275d span) |
+| Stars | 1,101 |
+| Star velocity | 4.0/day (lifetime basis, 276d span) |
 | Health score | 56/100 |
 | Documentation | 57/100 |
 | Tier | 🔹 Notable |
@@ -22,7 +22,7 @@
 | Language | TypeScript |
 | Created | 2026-02-18 |
 | Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 9,012 chars from `raw:HEAD/README.md` |
+| Analyzed README | 9,028 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,11 +32,9 @@
 
 > our local app, per-project Docker sandboxes (not for Antigravity), direct mode without a worktree, folders without git, and importing existing worktrees
 
-### Parallel execution
-
 ### Workspace isolation
 
-> n parallel, each in its own worktree.
+> n git worktree · Free, open source, no extra platform fee
 
 ### Agent runtime
 

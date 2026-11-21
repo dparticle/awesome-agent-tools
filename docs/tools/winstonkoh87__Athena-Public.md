@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 643 |
-| Star velocity | 3.8/day (history basis, 5d span) |
-| Health score | 57/100 |
-| Documentation | 74/100 |
+| Stars | 648 |
+| Star velocity | 4.8/day (history basis, 5d span) |
+| Health score | 56/100 |
+| Documentation | 75/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2025-12-18 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 18,078 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 20,668 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -38,7 +38,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 31/100)
+- **Difficulty:** 🟡 Some setup (friction score 37/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `pip install -e ".[local]"               # local install (no cloud API keys required)`
@@ -47,13 +47,13 @@
 
 **Signals that add work:** git clone (build from source)
 
-**Configuration required:** config file
+**Configuration required:** config file, database dependency
 
-*Easy. install via pip install; needs git clone (build from source); configure config file*
+*Some setup. install via pip install; needs git clone (build from source); configure config file, database dependency*
 
 ## Documentation quality
 
-Score **74/100**, based on these detected signals:
+Score **75/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -68,16 +68,17 @@ Score **74/100**, based on these detected signals:
 - publishes a roadmap
 - reports benchmarks
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 56.2 |
-| momentum | 3.2 |
+| momentum | 4.0 |
 | maintenance | 100.0 |
-| documentation | 74.0 |
-| accessibility | 69.0 |
+| documentation | 75.0 |
+| accessibility | 63.0 |
 
 ---
 

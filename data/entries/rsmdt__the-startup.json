@@ -6,7 +6,7 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 586,
+  "stars": 587,
   "forks": 72,
   "open_issues": 0,
   "language": "TypeScript",
@@ -18,26 +18,26 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-11-20T02:35:59Z",
+  "updated_at": "2026-11-21T01:30:47Z",
   "pushed_at": "2026-10-26T22:43:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 465,
-  "days_since_push": 24,
+  "age_days": 466,
+  "days_since_push": 25,
   "health_score": 51,
   "health_components": {
     "popularity": 55.4,
-    "momentum": 0.7,
+    "momentum": 0.8,
     "maintenance": 92.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.8,
+    "stars_per_day": 1.0,
     "lifetime_stars_per_day": 1.26,
     "basis": "history",
     "is_fast_riser": false
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:55:55+00:00",
+  "fetched_at": "2026-11-21T12:42:43+00:00",
   "categories": [
     "desktop-ui-2",
     "parallelism"
@@ -151,14 +151,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.046,
-      "momentum_ratio": 22.0,
+      "star_ratio": 47.986,
+      "momentum_ratio": 15.4,
       "setup_delta": 2,
       "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.05x the stars (28,155 vs 586)",
-        "22.00x the star velocity (17.6/day vs 0.8/day)",
+        "47.99x the stars (28,168 vs 587)",
+        "15.40x the star velocity (15.4/day vs 1.0/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -171,6 +171,7 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
           "cross-agent-support",
           "memory-context",
           "multi-agent-orchestration",
@@ -181,7 +182,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 67,
+        "challenger_health": 68,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 27
       }

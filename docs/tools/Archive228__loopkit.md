@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Shell |
 | Created | 2026-06-30 |
-| Last push | 2026-07-14 (128 days ago) |
+| Last push | 2026-07-14 (129 days ago) |
 | Analyzed README | 15,078 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [numman-ali/n-skills](https://github.com/numman-ali/n-skills)** — Superseded by numman-ali/n-skills: covers 100% of capabilities (5/5).

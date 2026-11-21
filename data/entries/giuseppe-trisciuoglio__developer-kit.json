@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 395,
-  "days_since_push": 71,
+  "age_days": 396,
+  "days_since_push": 72,
   "health_score": 44,
   "health_components": {
     "popularity": 51.4,
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:56:15+00:00",
+  "fetched_at": "2026-11-21T12:43:05+00:00",
   "categories": [
     "desktop-ui",
     "desktop-ui-2",
@@ -156,15 +156,15 @@
   "primary_category": "desktop-ui-2",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
+    "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "kajisho5/ffmpeg-skill",
     "challenger": "",
     "supersede": {
       "incumbent": "giuseppe-trisciuoglio/developer-kit",
-      "challenger": "sickn33/agentic-awesome-skills",
+      "challenger": "kajisho5/ffmpeg-skill",
       "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
-      "challenger_name": "sickn33/agentic-awesome-skills",
+      "challenger_name": "kajisho5/ffmpeg-skill",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -176,15 +176,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 134.484,
-      "momentum_ratio": 291.0,
-      "setup_delta": -34,
+      "star_ratio": 24.435,
+      "momentum_ratio": 2955.0,
+      "setup_delta": -16,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "134.48x the stars (50,028 vs 372)",
-        "291.00x the star velocity (58.2/day vs 0.2/day)",
-        "no harder to set up (32 vs 66 friction)"
+        "24.44x the stars (9,090 vs 372)",
+        "2955.00x the star velocity (591.0/day vs 0.2/day)",
+        "no harder to set up (50 vs 66 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -197,24 +197,21 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
           "notifications",
           "security-isolation",
-          "self-hosted",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
+          "voice-input"
         ],
         "incumbent_health": 44,
-        "challenger_health": 79,
+        "challenger_health": 89,
         "incumbent_setup_score": 66,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 50
       }
     }
   }

@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-10-04 |
-| Last push | 2026-11-20 (0 days ago) |
+| Last push | 2026-11-20 (1 days ago) |
 | Analyzed README | 11,503 chars from `raw:HEAD/README.md` |
 
 ## What it solves

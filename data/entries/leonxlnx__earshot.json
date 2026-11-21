@@ -4,10 +4,10 @@
   "name": "earshot",
   "owner": "Leonxlnx",
   "url": "https://github.com/Leonxlnx/earshot",
-  "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-  "homepage": "",
-  "stars": 5290,
-  "forks": 355,
+  "description": "Sound effects for coding agents: ask in plain words and earshot renders the sound in code. CPU-only, no audio model, open source.",
+  "homepage": "https://leonxlnx.github.io/earshot-site/",
+  "stars": 5417,
+  "forks": 372,
   "open_issues": 21,
   "language": "Python",
   "license": "MIT",
@@ -16,36 +16,38 @@
     "audio",
     "claude-code",
     "mcp",
-    "sound-design"
+    "sfx",
+    "sound-design",
+    "sound-effects"
   ],
   "created_at": "2026-10-15T06:52:46Z",
-  "updated_at": "2026-11-20T12:40:51Z",
-  "pushed_at": "2026-11-19T23:24:26Z",
+  "updated_at": "2026-11-21T12:39:54Z",
+  "pushed_at": "2026-11-20T21:33:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 36,
+  "age_days": 37,
   "days_since_push": 0,
   "health_score": 74,
   "health_components": {
-    "popularity": 74.5,
-    "momentum": 72.0,
+    "popularity": 74.7,
+    "momentum": 75.3,
     "maintenance": 100.0,
-    "documentation": 62.0,
-    "accessibility": 48.0
+    "documentation": 57.0,
+    "accessibility": 51.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 432,
+    "stars_gained": 452,
     "days_span": 5,
-    "stars_per_day": 86.4,
-    "lifetime_stars_per_day": 146.94,
+    "stars_per_day": 90.4,
+    "lifetime_stars_per_day": 146.41,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Leonxlnx/earshot",
-    "readme_chars": 32598,
+    "readme_chars": 40209,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -53,23 +55,24 @@
       "notifications"
     ],
     "capability_evidence": {
-      "skills-plugins": "/skills/ (or a project's .claude/skills/).",
-      "agent-runtime": "placed with the launch kit, plus the one CC0 recording it shows being re-made, over a",
-      "mcp-support": "one line on stderr (earshot : error: ..., exit 1).",
-      "notifications": "pes come as families of named characters: 34 motion-design categories (whooshes, swishes,"
+      "skills-plugins": "al Gemini critique (earshot llm, your own API key)",
+      "agent-runtime": "",
+      "mcp-support": "for agents such as Claude Code, which write the code of interfaces, games and films, and for the people",
+      "notifications": "key for a tap, a page for next and"
     },
     "capability_hits": {
-      "skills-plugins": 1,
-      "agent-runtime": 2,
-      "mcp-support": 8,
+      "skills-plugins": 2,
+      "agent-runtime": 1,
+      "mcp-support": 16,
       "notifications": 2
     },
     "friction": {
       "level": "moderate",
-      "score": 52,
+      "score": 49,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
+        "npx one-liner",
         "pip install"
       ],
       "hard_signals": [
@@ -78,17 +81,19 @@
       ],
       "config_signals": [
         "environment variables",
+        "API key configuration",
         "config.json/yaml/toml",
         "server/reverse-proxy setup"
       ],
       "friendliness_signals": [],
       "platforms": [
-        "Linux"
+        "Linux",
+        "Web"
       ],
-      "note_en": "Some setup. install via pip install; needs git clone (build from source), create a Python venv; configure environment variables, config.json/yaml/toml",
-      "note_zh": "需要一些配置。可通过 pip install 安装；需要 git clone (build from source)、create a Python venv；需配置 environment variables、config.json/yaml/toml"
+      "note_en": "Some setup. install via npx one-liner, pip install; needs git clone (build from source), create a Python venv; configure environment variables, API key configuration",
+      "note_zh": "需要一些配置。可通过 npx one-liner、pip install 安装；需要 git clone (build from source)、create a Python venv；需配置 environment variables、API key configuration"
     },
-    "doc_score": 62,
+    "doc_score": 57,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -96,7 +101,6 @@
       "documents installation",
       "documents configuration",
       "mentions licensing",
-      "links to dedicated docs",
       "documents changes",
       "reports benchmarks",
       "long, detailed README"
@@ -104,21 +108,23 @@
     "agents": [
       "Claude Code"
     ],
-    "summary_en": "Ears for coding agents.",
+    "summary_en": "earshot makes sound effects for a coding agent, which cannot hear them.",
     "summary_zh": "",
-    "install_hint": "",
+    "install_hint": "npx skills add Leonxlnx/earshot                                   # the agent skills",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
-      "score": 0,
-      "signals": [],
-      "external_link_ratio": 0.092
+      "score": 1,
+      "signals": [
+        "link-directory table of contents"
+      ],
+      "external_link_ratio": 0.05
     },
     "highlights": [
-      "Real vs code-synthesized: held-out ROC-AUC 0.92 with whole sound families held out.",
-      "Listening through a soundtrack: 93% of the sound effects placed in a 60 s film mix are detected as events (89%",
-      "The launch preset (0.4) is for films cut to music.",
-      "Finding the moment: on a recording of 17 single key presses the found trims land on real key presses; in a"
+      "Understanding requests. On five development sets the first pick is right for 91.8 to 96.8 % of the requests",
+      "Loudness: a single sound peaks at -1 dBFS true peak and no louder than -14 LUFS momentary (ambience beds -22,",
+      "0.4 added the sound of music-led launch films to the bank (51 sounds, the launch kit preset) and re-made fit",
+      "Listening through a soundtrack: 93 % of the sound effects in a 60 s film mix are found as events (89 % of the"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -129,17 +135,69 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:48+00:00",
+  "fetched_at": "2026-11-21T12:41:27+00:00",
   "categories": [
     "desktop-ui-2",
     "failover"
   ],
   "primary_category": "desktop-ui-2",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "kajisho5/ffmpeg-skill",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "leonxlnx/earshot",
+      "challenger": "kajisho5/ffmpeg-skill",
+      "incumbent_name": "Leonxlnx/earshot",
+      "challenger_name": "kajisho5/ffmpeg-skill",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "mcp-support",
+        "notifications",
+        "skills-plugins"
+      ],
+      "star_ratio": 1.678,
+      "momentum_ratio": 6.538,
+      "setup_delta": 1,
+      "dominance": 0.863,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "1.68x the stars (9,090 vs 5,417)",
+        "6.54x the star velocity (591.0/day vs 90.4/day)",
+        "slightly heavier setup (+1 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "mcp-support",
+          "notifications",
+          "skills-plugins"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "skills-plugins",
+          "voice-input"
+        ],
+        "incumbent_health": 74,
+        "challenger_health": 89,
+        "incumbent_setup_score": 49,
+        "challenger_setup_score": 50
+      }
+    }
   }
 }

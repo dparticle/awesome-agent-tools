@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
   "homepage": "https://open.bot",
-  "stars": 13025,
-  "forks": 1624,
-  "open_issues": 166,
+  "stars": 13108,
+  "forks": 1636,
+  "open_issues": 162,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-20T12:51:30Z",
-  "pushed_at": "2026-11-20T12:46:12Z",
+  "updated_at": "2026-11-21T12:17:45Z",
+  "pushed_at": "2026-11-21T06:55:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 95,
+  "age_days": 96,
   "days_since_push": 0,
-  "health_score": 84,
+  "health_score": 83,
   "health_components": {
-    "popularity": 82.3,
-    "momentum": 100.0,
+    "popularity": 82.4,
+    "momentum": 98.2,
     "maintenance": 100.0,
     "documentation": 78.0,
     "accessibility": 36.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 682,
+    "stars_gained": 589,
     "days_span": 5,
-    "stars_per_day": 136.4,
-    "lifetime_stars_per_day": 137.11,
+    "stars_per_day": 117.8,
+    "lifetime_stars_per_day": 136.54,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 53704,
+    "readme_chars": 55540,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -101,6 +101,7 @@
         "OAuth login flow",
         "sign-in required",
         "database dependency",
+        "database migration",
         "server/reverse-proxy setup",
         "process manager"
       ],
@@ -145,7 +146,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.745
+      "external_link_ratio": 0.72
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -162,7 +163,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:35+00:00",
+  "fetched_at": "2026-11-21T12:41:08+00:00",
   "categories": [
     "failover-2",
     "sessions-memory",
@@ -195,14 +196,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 23.611,
-      "momentum_ratio": 5.946,
+      "star_ratio": 23.505,
+      "momentum_ratio": 6.669,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "23.61x the stars (307,529 vs 13,025)",
-        "5.95x the star velocity (811.0/day vs 136.4/day)",
+        "23.50x the stars (308,099 vs 13,108)",
+        "6.67x the star velocity (785.6/day vs 117.8/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],
@@ -236,7 +237,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 84,
+        "incumbent_health": 83,
         "challenger_health": 89,
         "incumbent_setup_score": 64,
         "challenger_setup_score": 57

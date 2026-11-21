@@ -21,22 +21,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 283,
-  "days_since_push": 1,
+  "age_days": 284,
+  "days_since_push": 2,
   "health_score": 56,
   "health_components": {
     "popularity": 69.2,
-    "momentum": 2.0,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 38.0,
     "accessibility": 87.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 10.18,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 10.14,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -101,8 +101,8 @@
     },
     "highlights": [
       "Local-only: With per-command --skip-api, the tool scans local ~/.codex/sessions//rollout-.jsonl files for usage data and skips team name refresh API calls.",
-      "Restoring or resuming an existing conversation",
-      "API (default): The tool makes direct HTTPS requests to OpenAI's endpoints using your account's access token."
+      "API (default): The tool makes direct HTTPS requests to OpenAI's endpoints using your account's access token.",
+      "Restoring or resuming an existing conversation"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -113,7 +113,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:55:26+00:00",
+  "fetched_at": "2026-11-21T12:42:12+00:00",
   "categories": [
     "accounts"
   ],

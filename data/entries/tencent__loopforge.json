@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/LoopForge",
   "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
   "homepage": "https://loopforge.cn",
-  "stars": 5214,
-  "forks": 721,
-  "open_issues": 273,
+  "stars": 5376,
+  "forks": 740,
+  "open_issues": 280,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,33 +34,33 @@
     "workflow-engine"
   ],
   "created_at": "2026-07-28T03:51:01Z",
-  "updated_at": "2026-11-20T12:52:18Z",
-  "pushed_at": "2026-11-20T12:37:54Z",
+  "updated_at": "2026-11-21T12:05:40Z",
+  "pushed_at": "2026-11-21T11:49:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 115,
+  "age_days": 116,
   "days_since_push": 0,
   "health_score": 67,
   "health_components": {
-    "popularity": 74.3,
-    "momentum": 37.8,
+    "popularity": 74.6,
+    "momentum": 38.6,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 45.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5214,
-    "days_span": 115,
-    "stars_per_day": 45.34,
-    "lifetime_stars_per_day": 45.34,
+    "stars_gained": 5376,
+    "days_span": 116,
+    "stars_per_day": 46.34,
+    "lifetime_stars_per_day": 46.34,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Tencent/LoopForge",
-    "readme_chars": 22588,
+    "readme_chars": 23032,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -94,7 +94,7 @@
       "agent-runtime": 3,
       "mcp-support": 5,
       "self-hosted": 1,
-      "notifications": 1,
+      "notifications": 2,
       "cross-agent-support": 4
     },
     "friction": {
@@ -155,7 +155,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.044
+      "external_link_ratio": 0.043
     },
     "highlights": [
       "Hacking on LoopForge itself? bash scripts/dev.sh runs it natively (Go 1.26.11+).",
@@ -176,10 +176,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:48+00:00",
+  "fetched_at": "2026-11-21T12:41:27+00:00",
   "categories": [
     "billing-2",
-    "parallelism",
+    "isolation",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

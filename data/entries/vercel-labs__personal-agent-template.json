@@ -6,9 +6,9 @@
   "url": "https://github.com/vercel-labs/personal-agent-template",
   "description": "Open-source template for a durable personal AI agent — web chat, Slack, Linear, and long-term memory with user-approved saves. Eve, Nuxt, Better Auth, Vercel Connect.",
   "homepage": "https://personal-agent-template.vercel.app",
-  "stars": 497,
+  "stars": 498,
   "forks": 88,
-  "open_issues": 0,
+  "open_issues": 1,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -23,27 +23,27 @@
     "vercel-connect"
   ],
   "created_at": "2026-06-11T13:59:55Z",
-  "updated_at": "2026-11-19T20:13:26Z",
-  "pushed_at": "2026-11-16T11:29:59Z",
+  "updated_at": "2026-11-21T01:57:20Z",
+  "pushed_at": "2026-11-20T19:15:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 161,
-  "days_since_push": 4,
+  "age_days": 162,
+  "days_since_push": 0,
   "health_score": 46,
   "health_components": {
     "popularity": 53.9,
-    "momentum": 0.7,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 50.0,
     "accessibility": 22.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 3.09,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 3.07,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -132,7 +132,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:56:03+00:00",
+  "fetched_at": "2026-11-21T12:42:51+00:00",
   "categories": [
     "sessions-memory"
   ],

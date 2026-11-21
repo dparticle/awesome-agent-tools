@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,553 |
-| Star velocity | 4.8/day (history basis, 5d span) |
+| Stars | 5,557 |
+| Star velocity | 4.2/day (history basis, 5d span) |
 | Health score | 65/100 |
 | Documentation | 76/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 31,250 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 31,637 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -54,18 +54,18 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 21/100)
+- **Difficulty:** 🟢 Turnkey (friction score 12/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** yes
-- **Quickest install:** `brew install --cask open-science`
+- **Quickest install:** `winget install --id AIPOCH.Open-Science --exact --source winget`
 
-**Signals that make it easy:** Homebrew install, native installer / package
+**Signals that make it easy:** Homebrew install, winget install, native installer / package
 
 **Signals that add work:** npm install/build
 
 **Configuration required:** API key configuration, sign-in required
 
-*Easy. install via Homebrew install, native installer / package; needs npm install/build; configure API key configuration, sign-in required; GUI application*
+*Turnkey. install via Homebrew install, winget install; needs npm install/build; configure API key configuration, sign-in required; GUI application*
 
 ## Documentation quality
 
@@ -90,10 +90,10 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.9 |
-| momentum | 4.0 |
+| momentum | 3.5 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
-| accessibility | 87.0 |
+| accessibility | 96.0 |
 
 ---
 

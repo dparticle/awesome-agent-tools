@@ -6,8 +6,8 @@
   "url": "https://github.com/nateherkai/scroll-craft",
   "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
   "homepage": "https://github.com/nateherkai/scroll-craft",
-  "stars": 5279,
-  "forks": 739,
+  "stars": 5309,
+  "forks": 741,
   "open_issues": 12,
   "language": "JavaScript",
   "license": "MIT",
@@ -29,27 +29,27 @@
     "web-design"
   ],
   "created_at": "2026-08-22T15:25:08Z",
-  "updated_at": "2026-11-20T12:39:22Z",
+  "updated_at": "2026-11-21T12:11:23Z",
   "pushed_at": "2026-09-30T13:31:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 89,
-  "days_since_push": 50,
+  "age_days": 90,
+  "days_since_push": 51,
   "health_score": 60,
   "health_components": {
     "popularity": 74.5,
-    "momentum": 32.0,
+    "momentum": 30.8,
     "maintenance": 78.0,
     "documentation": 47.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 192,
+    "stars_gained": 185,
     "days_span": 5,
-    "stars_per_day": 38.4,
-    "lifetime_stars_per_day": 59.31,
+    "stars_per_day": 37.0,
+    "lifetime_stars_per_day": 58.99,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:54:48+00:00",
+  "fetched_at": "2026-11-21T12:41:27+00:00",
   "categories": [
     "failover"
   ],

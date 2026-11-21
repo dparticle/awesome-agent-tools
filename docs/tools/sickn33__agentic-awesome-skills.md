@@ -2,7 +2,7 @@
 
 # sickn33/agentic-awesome-skills
 
-> Agentic Awesome Skills is a library of 3,022+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.
+> Agentic Awesome Skills is a library of 3,055+ installable SKILL.md playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents.
 
 [Repository](https://github.com/sickn33/agentic-awesome-skills) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 50,028 |
-| Star velocity | 58.2/day (history basis, 5d span) |
+| Stars | 50,075 |
+| Star velocity | 57.8/day (history basis, 5d span) |
 | Health score | 79/100 |
 | Documentation | 82/100 |
 | Tier | 🏆 Flagship |
@@ -22,7 +22,7 @@
 | Language | Python |
 | Created | 2026-01-14 |
 | Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 130,864 chars from `raw:HEAD/README.md` |
+| Analyzed README | 132,500 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -121,7 +121,7 @@ Score **82/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 94.0 |
-| momentum | 48.5 |
+| momentum | 48.2 |
 | maintenance | 100.0 |
 | documentation | 82.0 |
 | accessibility | 68.0 |

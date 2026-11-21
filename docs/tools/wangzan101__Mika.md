@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,258 |
-| Star velocity | 117.0/day (history basis, 5d span) |
-| Health score | 80/100 |
+| Stars | 9,350 |
+| Star velocity | 107.4/day (history basis, 5d span) |
+| Health score | 79/100 |
 | Documentation | 33/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Kotlin |
 | Created | 2026-10-29 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 13,934 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 14,097 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,9 +32,11 @@
 
 ### Model / provider routing
 
-> resets for DeepSeek, 通义千问, Kimi, 智谱, 智谱 Coding Plan, 硅基流动, 火山方舟, MiniMax, 阶跃星辰, 腾讯混元, 百度千帆, OpenRouter, OpenCode Go, Anthropic, Gemini, OpenAI, xAI, Mistral, Groq, Ollama, LM Studio and more; for any other provider pick…
+> 谱 Coding Plan, 硅基流动, 火山方舟, MiniMax, 阶跃星辰, 腾讯混元, 百度千帆, OpenRouter, OpenDesign Go, OpenCode Go, Anthropic, Gemini, OpenAI, xAI, Mistral, Groq, Cloudflare Workers AI, Ollama, LM Studio and more; for any other provider pick…
 
 ### Billing & metering
+
+> Apps 阿里巴巴, 支付宝, Amazon, Android 设置, 百度, 百家号, 哔哩哔哩, BOSS直聘, ChatGPT, Chrome, 得到, 大众点评, Discord, 抖音, 飞书, GitHub, Gmail, Google Calendar, Google Maps, Instagram, 京东, 即刻, 快手, 领英, 美团, 美团外卖, Netflix, 拼多多, QQ, QQ邮箱, QQ音乐
 
 ### MCP support
 
@@ -65,8 +67,8 @@ Score **33/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.3 |
-| momentum | 97.5 |
+| popularity | 79.4 |
+| momentum | 89.5 |
 | maintenance | 100.0 |
 | documentation | 33.0 |
 | accessibility | 80.0 |

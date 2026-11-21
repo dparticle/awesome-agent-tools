@@ -6,7 +6,7 @@
   "url": "https://github.com/winstonkoh87/Athena-Public",
   "description": "Turn stateless LLMs into a stateful, compounding AI agent. Local-first persistent memory, quantitative decision screens, and governance harness across Claude Code, Antigravity, Cursor, and VS Code. Own the state. Rent the intelligence.",
   "homepage": "https://winstonkoh87.com/athena/",
-  "stars": 643,
+  "stars": 648,
   "forks": 86,
   "open_issues": 0,
   "language": "Python",
@@ -33,33 +33,33 @@
     "vector-search"
   ],
   "created_at": "2025-12-18T19:47:38Z",
-  "updated_at": "2026-11-20T07:32:10Z",
-  "pushed_at": "2026-11-20T06:32:03Z",
+  "updated_at": "2026-11-20T21:49:26Z",
+  "pushed_at": "2026-11-21T04:48:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 336,
+  "age_days": 337,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 56,
   "health_components": {
     "popularity": 56.2,
-    "momentum": 3.2,
+    "momentum": 4.0,
     "maintenance": 100.0,
-    "documentation": 74.0,
-    "accessibility": 69.0
+    "documentation": 75.0,
+    "accessibility": 63.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 19,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 3.8,
-    "lifetime_stars_per_day": 1.91,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 1.92,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "winstonkoh87/Athena-Public",
-    "readme_chars": 18078,
+    "readme_chars": 20668,
     "capabilities": [
       "memory-context",
       "mcp-support",
@@ -76,8 +76,8 @@
       "cross-agent-support": 6
     },
     "friction": {
-      "level": "low",
-      "score": 31,
+      "level": "moderate",
+      "score": 37,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -87,17 +87,19 @@
         "git clone (build from source)"
       ],
       "config_signals": [
-        "config file"
+        "config file",
+        "database dependency"
       ],
       "friendliness_signals": [],
       "platforms": [
         "Windows",
-        "Linux"
+        "Linux",
+        "Web"
       ],
-      "note_en": "Easy. install via pip install; needs git clone (build from source); configure config file",
-      "note_zh": "较易上手。可通过 pip install 安装；需要 git clone (build from source)；需配置 config file"
+      "note_en": "Some setup. install via pip install; needs git clone (build from source); configure config file, database dependency",
+      "note_zh": "需要一些配置。可通过 pip install 安装；需要 git clone (build from source)；需配置 config file、database dependency"
     },
-    "doc_score": 74,
+    "doc_score": 75,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -111,7 +113,8 @@
       "documents changes",
       "publishes a roadmap",
       "reports benchmarks",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -128,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.277
+      "external_link_ratio": 0.242
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -140,7 +143,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:55:54+00:00",
+  "fetched_at": "2026-11-21T12:42:41+00:00",
   "categories": [
     "sessions-memory"
   ],

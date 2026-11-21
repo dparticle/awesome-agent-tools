@@ -6,8 +6,8 @@
   "url": "https://github.com/kenryu42/cc-safety-net",
   "description": "A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to access sensitive files, before a tool call runs. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Cursor, DeepSeek Harness, Devin CLI, GitHub Copilot CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
   "homepage": "https://ccsafetynet.com",
-  "stars": 2080,
-  "forks": 98,
+  "stars": 2086,
+  "forks": 100,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
@@ -34,26 +34,26 @@
     "security"
   ],
   "created_at": "2025-12-25T17:52:57Z",
-  "updated_at": "2026-11-20T12:34:15Z",
+  "updated_at": "2026-11-21T12:25:37Z",
   "pushed_at": "2026-11-20T05:19:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 329,
-  "days_since_push": 0,
+  "age_days": 330,
+  "days_since_push": 1,
   "health_score": 61,
   "health_components": {
     "popularity": 66.4,
-    "momentum": 6.0,
+    "momentum": 5.2,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 36,
+    "stars_gained": 31,
     "days_span": 5,
-    "stars_per_day": 7.2,
+    "stars_per_day": 6.2,
     "lifetime_stars_per_day": 6.32,
     "basis": "history",
     "is_fast_riser": true
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:55:30+00:00",
+  "fetched_at": "2026-11-21T12:42:17+00:00",
   "categories": [
     "desktop-ui",
     "failover-2"

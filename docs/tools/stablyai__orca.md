@@ -2,7 +2,7 @@
 
 # stablyai/orca
 
-> Run Claude Code, Codex, and any other coding agent in parallel, each in its own worktree.
+> Most bots end in a chat thread.
 
 [Repository](https://github.com/stablyai/orca) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 130,512 |
-| Star velocity | 1027.6/day (history basis, 5d span) |
+| Stars | 131,520 |
+| Star velocity | 1036.8/day (history basis, 5d span) |
 | Health score | 92/100 |
 | Documentation | 53/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-17 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 20,422 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 21,502 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,9 +40,11 @@
 
 ### Parallel execution
 
+> Docs → ### Git Integration Draft commit messages and pull requests from the diff, then send failing checks or PR review comments back to an agent to fix. Docs → ### Parallel Worktrees Quickly split tasks into isolated e…
+
 ### Workspace isolation
 
-> 中文 · 日本語 · 한국어 · Español · Français · Português · Türkçe · Русский The AI Orchestrator for 100x builders.
+> lits the work, starts worker agents in their own workspaces, and brings their results back to you.
 
 ### Agent runtime
 
@@ -55,6 +57,10 @@
 ### GUI / desktop app
 
 > tart a workspace for each when you're ready to build.
+
+### Notifications
+
+> e in split panes shaped to the task.
 
 ### Voice input
 

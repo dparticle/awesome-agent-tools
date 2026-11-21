@@ -13,36 +13,37 @@
   "license": "UPL-1.0",
   "topics": [],
   "created_at": "2025-07-27T08:02:34Z",
-  "updated_at": "2026-11-19T20:59:19Z",
-  "pushed_at": "2026-11-19T15:13:01Z",
+  "updated_at": "2026-11-21T01:18:47Z",
+  "pushed_at": "2026-11-20T19:08:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 481,
+  "age_days": 482,
   "days_since_push": 0,
-  "health_score": 54,
+  "health_score": 53,
   "health_components": {
     "popularity": 53.7,
-    "momentum": 1.0,
+    "momentum": 0.5,
     "maintenance": 100.0,
-    "documentation": 59.0,
-    "accessibility": 78.0
+    "documentation": 60.0,
+    "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 1.2,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.01,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "oracle/mcp",
-    "readme_chars": 26128,
+    "readme_chars": 29993,
     "capabilities": [
       "multi-agent-orchestration",
       "model-routing",
+      "agent-runtime",
       "mcp-support",
       "security-isolation",
       "cross-agent-support"
@@ -50,6 +51,7 @@
     "capability_evidence": {
       "multi-agent-orchestration": "",
       "model-routing": "CLI-backed option when you specifically need OCI CLI commands:",
+      "agent-runtime": "phost configuration json file that you made above",
       "mcp-support": "# Oracle MCP Server Repository",
       "security-isolation": "",
       "cross-agent-support": "Mentions Cline, Cursor"
@@ -57,13 +59,14 @@
     "capability_hits": {
       "multi-agent-orchestration": 1,
       "model-routing": 3,
-      "mcp-support": 65,
+      "agent-runtime": 1,
+      "mcp-support": 77,
       "security-isolation": 1,
       "cross-agent-support": 2
     },
     "friction": {
       "level": "low",
-      "score": 22,
+      "score": 28,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -71,12 +74,15 @@
         "uvx one-liner",
         "Homebrew install",
         "go install",
+        "curl | sh installer",
         "native installer / package"
       ],
       "hard_signals": [],
       "config_signals": [
         "API key configuration",
         "config file",
+        "OAuth login flow",
+        "sign-in required",
         "database migration",
         "server/reverse-proxy setup"
       ],
@@ -89,7 +95,7 @@
       "note_en": "Easy. install via npx one-liner, uvx one-liner; configure API key configuration, config file",
       "note_zh": "较易上手。可通过 npx one-liner、uvx one-liner 安装；需配置 API key configuration、config file"
     },
-    "doc_score": 59,
+    "doc_score": 60,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -116,13 +122,13 @@
       "signals": [
         "has an index/catalogue section"
       ],
-      "external_link_ratio": 0.612
+      "external_link_ratio": 0.567
     },
     "highlights": [
       "Verify the ollama server has started with curl http://localhost:11434.",
+      "Muse Code also accepts the snakecase spelling from Meta's docs (mcpservers, transport, streamable_http); muse mcp add writes the camelCase form shown above, which matches the other clients…",
       "Fetch the large language model, where is the name of your desired model (e.g.",
-      "Add your desired server to the mcpServers object.",
-      "Click the MCP Servers button near the top of the the extension's panel."
+      "Add your desired server to the mcpServers object."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -133,8 +139,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:56:04+00:00",
+  "fetched_at": "2026-11-21T12:42:52+00:00",
   "categories": [
+    "desktop-ui",
+    "failover",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",

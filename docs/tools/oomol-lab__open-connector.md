@@ -12,27 +12,41 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,275 |
-| Star velocity | 6.0/day (history basis, 5d span) |
+| Stars | 6,279 |
+| Star velocity | 5.4/day (history basis, 5d span) |
 | Health score | 56/100 |
-| Documentation | 61/100 |
+| Documentation | 64/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-06-29 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 17,884 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 18,667 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [affaan-m/ECC](https://github.com/affaan-m/ECC)** — Superseded by affaan-m/ECC: covers 100% of capabilities (8/8).
 
 ## What it solves
+
+### Multi-agent orchestration
+
+> nt details, response envelopes, auth headers, MCP tools, and Action guide examples are in
 
 ### Model / provider routing
 
 > ecent run review, and access to the
 
 ### Memory & context
+
+> top of OpenConnector for teams that do not want to build their own agent or chat frontend.
+
+### Skills & plugins
+
+> nt built on top of OpenConnector for teams that do not want to build their own agent or chat frontend.
+
+### Agent runtime
+
+> branching, and human approval—Open Flow handles the workflow execution while delegating app integrations and credentials to OpenConnector.
 
 ### MCP support
 
@@ -41,6 +55,10 @@
 ### Self-hostable
 
 > ly or on your own infrastructure with Docker or Node.js.
+
+### Cross-agent support
+
+> Mentions Claude Code, Codex
 
 ## Setup reality check
 
@@ -57,7 +75,7 @@
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **64/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -68,15 +86,16 @@ Score **61/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - has a Chinese translation
+- reports benchmarks
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 76.0 |
-| momentum | 5.0 |
+| momentum | 4.5 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
+| documentation | 64.0 |
 | accessibility | 28.0 |
 
 ---

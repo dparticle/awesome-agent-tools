@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,450 |
-| Star velocity | 196.4/day (history basis, 5d span) |
+| Stars | 4,539 |
+| Star velocity | 140.0/day (history basis, 5d span) |
 | Health score | 79/100 |
 | Documentation | 62/100 |
 | Tier | 🏆 Flagship |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-07-05 |
-| Last push | 2026-11-06 (14 days ago) |
+| Last push | 2026-11-06 (15 days ago) |
 | Analyzed README | 10,091 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)** — Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -71,7 +73,7 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.0 |
+| popularity | 73.1 |
 | momentum | 100.0 |
 | maintenance | 92.0 |
 | documentation | 62.0 |

@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 243,
-  "days_since_push": 66,
+  "age_days": 244,
+  "days_since_push": 67,
   "health_score": 46,
   "health_components": {
     "popularity": 53.6,
@@ -44,7 +44,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.97,
+    "lifetime_stars_per_day": 1.96,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,7 +150,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-20T12:56:04+00:00",
+  "fetched_at": "2026-11-21T12:42:53+00:00",
   "categories": [
     "desktop-ui-2",
     "parallelism"
@@ -180,13 +180,13 @@
         "parallel-execution"
       ],
       "star_ratio": 6.192,
-      "momentum_ratio": 9.0,
+      "momentum_ratio": 7.0,
       "setup_delta": 1,
       "dominance": 0.995,
       "reasons": [
         "covers 100% of capabilities (6/6)",
         "6.19x the stars (2,966 vs 479)",
-        "9.00x the star velocity (1.8/day vs 0.2/day)",
+        "7.00x the star velocity (1.4/day vs 0.2/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
       "reasons_zh": [],
