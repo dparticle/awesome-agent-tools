@@ -6,7 +6,7 @@
   "url": "https://github.com/nurettincoban/ai-prd-workflow",
   "description": "RFC-driven development for AI coding agents: idea or existing codebase → verified PRD → features → rules → sequenced RFCs → reviewed code. Agent Skills for Claude Code, Codex, Copilot, Cursor, Gemini CLI, OpenCode, Devin.",
   "homepage": "https://nurettincoban.github.io/ai-prd-workflow/",
-  "stars": 316,
+  "stars": 317,
   "forks": 35,
   "open_issues": 0,
   "language": "Python",
@@ -31,13 +31,13 @@
     "vibe-coding"
   ],
   "created_at": "2025-03-09T19:23:57Z",
-  "updated_at": "2026-11-21T11:20:12Z",
+  "updated_at": "2026-11-21T20:53:12Z",
   "pushed_at": "2026-11-17T19:43:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 621,
-  "days_since_push": 3,
+  "age_days": 622,
+  "days_since_push": 4,
   "health_score": 53,
   "health_components": {
     "popularity": 50.0,
@@ -141,7 +141,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:43:14+00:00",
+  "fetched_at": "2026-11-22T12:38:10+00:00",
   "categories": [
     "failover"
   ],

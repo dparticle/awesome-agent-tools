@@ -6,9 +6,9 @@
   "url": "https://github.com/BaaRai/ARTEX",
   "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
   "homepage": "",
-  "stars": 14373,
-  "forks": 5565,
-  "open_issues": 27,
+  "stars": 15650,
+  "forks": 5957,
+  "open_issues": 29,
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [
@@ -34,16 +34,16 @@
     "typescript"
   ],
   "created_at": "2026-10-08T21:14:39Z",
-  "updated_at": "2026-11-21T12:40:42Z",
-  "pushed_at": "2026-11-21T08:41:47Z",
+  "updated_at": "2026-11-22T12:35:50Z",
+  "pushed_at": "2026-11-22T10:00:46Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 43,
+  "age_days": 44,
   "days_since_push": 0,
   "health_score": 79,
   "health_components": {
-    "popularity": 83.2,
+    "popularity": 83.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 14373,
-    "days_span": 43,
-    "stars_per_day": 334.26,
-    "lifetime_stars_per_day": 334.26,
+    "stars_gained": 15650,
+    "days_span": 44,
+    "stars_per_day": 355.68,
+    "lifetime_stars_per_day": 355.68,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "BaaRai/ARTEX",
-    "readme_chars": 38443,
+    "readme_chars": 45367,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -77,10 +77,10 @@
     "capability_evidence": {
       "auto-failover": "nt providers; each intent",
       "multi-agent-orchestration": "e all CI checks locally: ./scripts/verify.sh (add --full for -race and the static web build)",
-      "model-routing": "Ollama server as a keyless provider (format",
+      "model-routing": "*LLM**: export ANTHROPICAPIKEY=sk-...",
       "api-gateway": "",
       "billing-metering": "rchives for repeatable engagements.",
-      "skills-plugins": "ofiles per task with automatic failover.",
+      "skills-plugins": "",
       "mcp-support": "tible relays and keyless Ollama;",
       "security-isolation": "oxies, custom-tool execution specs, capture-proxy rewrite rules and traffic",
       "self-hosted": "",
@@ -108,6 +108,7 @@
       "easy_signals": [],
       "hard_signals": [
         "docker compose up",
+        "docker run",
         "git clone (build from source)",
         "npm install/build",
         "go build"
@@ -130,8 +131,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Involved setup. needs docker compose up, git clone (build from source); configure environment variables, API key configuration; one-click setup",
-      "note_zh": "配置较重。需要 docker compose up、git clone (build from source)；需配置 environment variables、API key configuration；one-click setup"
+      "note_en": "Involved setup. needs docker compose up, docker run; configure environment variables, API key configuration; one-click setup",
+      "note_zh": "配置较重。需要 docker compose up、docker run；需配置 environment variables、API key configuration；one-click setup"
     },
     "doc_score": 73,
     "doc_signals": [
@@ -161,7 +162,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.312
+      "external_link_ratio": 0.265
     },
     "highlights": [
       "nginx and ARTEX both on the host (binary, ./start.sh): the peer is 127.0.0.1; start ARTEX",
@@ -178,10 +179,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:41:07+00:00",
+  "fetched_at": "2026-11-22T12:36:53+00:00",
   "categories": [
-    "billing-2",
-    "desktop-ui-2",
+    "accounts",
+    "mcp",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

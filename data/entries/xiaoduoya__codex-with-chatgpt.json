@@ -6,7 +6,7 @@
   "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
   "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
   "homepage": "",
-  "stars": 7723,
+  "stars": 7725,
   "forks": 710,
   "open_issues": 22,
   "language": "TypeScript",
@@ -20,27 +20,27 @@
     "oauth"
   ],
   "created_at": "2026-08-28T12:57:24Z",
-  "updated_at": "2026-11-21T09:17:43Z",
+  "updated_at": "2026-11-22T06:55:30Z",
   "pushed_at": "2026-10-01T05:19:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 84,
-  "days_since_push": 51,
+  "age_days": 85,
+  "days_since_push": 52,
   "health_score": 50,
   "health_components": {
     "popularity": 77.8,
-    "momentum": 1.0,
+    "momentum": 0.8,
     "maintenance": 78.0,
     "documentation": 50.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 91.94,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 90.88,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:41:19+00:00",
+  "fetched_at": "2026-11-22T12:36:59+00:00",
   "categories": [
     "billing",
     "failover"

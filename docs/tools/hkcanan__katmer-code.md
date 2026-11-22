@@ -17,14 +17,12 @@
 | Health score | 46/100 |
 | Documentation | 56/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-22 |
-| Last push | 2026-09-15 (67 days ago) |
+| Last push | 2026-09-15 (68 days ago) |
 | Analyzed README | 18,239 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow)** — Superseded by rohitg00/pro-workflow: covers 100% of capabilities (6/6).
 
 ## What it solves
 

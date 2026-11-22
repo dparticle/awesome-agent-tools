@@ -6,7 +6,7 @@
   "url": "https://github.com/chandra447/pi-hermes-memory",
   "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
   "homepage": "",
-  "stars": 535,
+  "stars": 536,
   "forks": 138,
   "open_issues": 42,
   "language": "TypeScript",
@@ -19,26 +19,26 @@
     "pi"
   ],
   "created_at": "2026-04-23T12:03:56Z",
-  "updated_at": "2026-11-21T07:46:48Z",
+  "updated_at": "2026-11-22T09:28:58Z",
   "pushed_at": "2026-11-10T22:58:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 212,
-  "days_since_push": 10,
+  "age_days": 213,
+  "days_since_push": 11,
   "health_score": 47,
   "health_components": {
     "popularity": 54.6,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 74.0,
     "accessibility": 16.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 2.52,
     "basis": "history",
     "is_fast_riser": false
@@ -141,10 +141,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:42:47+00:00",
+  "fetched_at": "2026-11-22T12:37:55+00:00",
   "categories": [
-    "desktop-ui-2",
-    "failover-2",
+    "accounts",
+    "failover",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",

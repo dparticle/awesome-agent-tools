@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,075 |
+| Stars | 5,078 |
 | Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 60/100 |
 | Documentation | 68/100 |
@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | TypeScript |
 | Created | 2025-09-08 |
-| Last push | 2026-11-20 (0 days ago) |
+| Last push | 2026-11-22 (0 days ago) |
 | Analyzed README | 23,319 chars from `raw:HEAD/README.md` |
 
 ## What it solves

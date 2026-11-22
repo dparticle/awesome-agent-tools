@@ -6,40 +6,40 @@
   "url": "https://github.com/wwwzhouhui/skills_collection",
   "description": "本项目是个人开发的 Claude Code Skills 集合，提供实用的技能工具，助力提升开发效率和内容创作。  分享一些好用的 Claude Code Skills，自用、学习两相宜，适用于 Claude Code v2.0 及以上版本。",
   "homepage": "",
-  "stars": 297,
+  "stars": 298,
   "forks": 62,
   "open_issues": 11,
   "language": "HTML",
   "license": "",
   "topics": [],
   "created_at": "2025-11-12T09:46:18Z",
-  "updated_at": "2026-11-16T11:23:30Z",
-  "pushed_at": "2026-11-11T16:04:32Z",
+  "updated_at": "2026-11-22T08:42:08Z",
+  "pushed_at": "2026-11-22T04:07:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 374,
-  "days_since_push": 9,
-  "health_score": 54,
+  "age_days": 375,
+  "days_since_push": 0,
+  "health_score": 56,
   "health_components": {
     "popularity": 49.5,
-    "momentum": 0.0,
-    "maintenance": 92.0,
+    "momentum": 0.2,
+    "maintenance": 100.0,
     "documentation": 91.0,
     "accessibility": 59.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 0.79,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "wwwzhouhui/skills_collection",
-    "readme_chars": 112862,
+    "readme_chars": 114552,
     "capabilities": [
       "quota-management",
       "auto-failover",
@@ -58,19 +58,19 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "quota-management": "ion.mp3、.srt、.narrated.mp4、.final.mp4",
+      "quota-management": "✅ **音画同步不拍时间轴**：TTS 返回的逐字时间戳同时驱动画面排期与字幕切句（6~20 字），改一句旁白只重配那一段",
       "auto-failover": "KEY 是 DashScope API 密钥，用于翻译和 Wan 2.7 生图",
       "mobile-access": "参考链**：主视觉文生图定调，后续每张图都以它作图生图参考，人物、地理、服饰、色彩与镜头语言整套锁死",
       "multi-agent-orchestration": "播 = 一个动画场景，底部字幕逐词卡拉OK高亮——声音念到哪，画面切到哪",
       "model-routing": "",
       "provider-aggregation": "",
       "api-gateway": "**核心功能：** - ✅ **文学分镜**：按空间/时间/人物/动作/修辞/情绪转折拆 5–8 个视觉段落，不是机械地每两句配一张图 - ✅ **统一视觉圣经 + 参考链**：主视觉文生图定调，后续每张图都以它作图生图参考，人物、地理、服饰、色彩与镜头语言整套锁死 - ✅ **双服务商四档位**：火山引擎方舟 Doubao Seedream 5.0（pro/lite）与 GPT-Image 网关（gpt-2/gpt-2.5），可按段…",
-      "billing-metering": "高风险 诱导分享/关注 \"白嫖\"、\"薅羊毛\"、\"速转\"、\"分享给朋友\"等",
+      "billing-metering": "测，末行输出机器可读 JSON（path/width/height/taskid/provider/model）",
       "session-persistence": "",
       "memory-context": "",
       "skills-plugins": "Markdown 结构行、时间线/字幕/短场景淡入淡出健壮性加固，并新增 check-env.mjs 一键环境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）",
       "mcp-support": "一键环境自检；视觉优先的程序化视频生产流水线（Remotion + React 代码绘制图形动画 · edge-tts 自动测长配音 · 三层音频 · 确定性渲染 · 双版本交付）",
-      "gui-desktop": "API Key 走技能根目录 .env 零硬编码，缺配置时报可照抄指引，零 npm 依赖 Node.js（≥18，内置 fetch）、gpt-image-2.5 中转站 API 2026年10月25日 wwwzhouhui 1.0.0",
+      "gui-desktop": "env，零 npm 依赖 Node.js（≥18，内置 fetch）、gpt-image-2.5 中转站 API、ModelScope MiniMax-H3-Image API 2026年11月17日 wwwzhouhui 1.1.0",
       "notifications": "纯文本配置文件，无需构建部署，直接复制到 Claude Code 的 skills 目录即可使用。",
       "cross-agent-support": "Mentions Claude Code, Cline, Codex, Cursor"
     },
@@ -161,7 +161,7 @@
         "bullet list of external links",
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.372
+      "external_link_ratio": 0.367
     },
     "highlights": [
       "✅ 输入文章标题 + 内容，自动提炼视觉符号并按实测模板撰写中文提示词，调用第三方中转站 gpt-image-2.5 文生图生成文章封面并下载本地；支持 16:9 / 9:16 / 3:4 / 4:3 / 1:1 五种比例（比例精确匹配，出图像素允许缩放），中文大标题直出实测无错别字",
@@ -178,10 +178,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:43:21+00:00",
+  "fetched_at": "2026-11-22T12:38:15+00:00",
   "categories": [
     "billing",
-    "desktop-ui-2",
+    "providers-2",
     "sessions-memory"
   ],
   "primary_category": "billing",

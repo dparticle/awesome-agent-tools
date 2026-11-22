@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 276,
-  "days_since_push": 54,
+  "age_days": 277,
+  "days_since_push": 55,
   "health_score": 44,
   "health_components": {
     "popularity": 51.7,
@@ -136,9 +136,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:43:04+00:00",
+  "fetched_at": "2026-11-22T12:38:06+00:00",
   "categories": [
     "desktop-ui",
+    "failover",
     "parallelism"
   ],
   "primary_category": "parallelism",
@@ -164,14 +165,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 89.63,
-      "momentum_ratio": 400.0,
+      "star_ratio": 89.664,
+      "momentum_ratio": 372.0,
       "setup_delta": -70,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "89.63x the stars (34,418 vs 384)",
-        "400.00x the star velocity (20.0/day vs 0.0/day)",
+        "89.66x the stars (34,431 vs 384)",
+        "372.00x the star velocity (18.6/day vs 0.0/day)",
         "no harder to set up (2 vs 72 friction)"
       ],
       "reasons_zh": [],
@@ -198,7 +199,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 44,
-        "challenger_health": 70,
+        "challenger_health": 69,
         "incumbent_setup_score": 72,
         "challenger_setup_score": 2
       }

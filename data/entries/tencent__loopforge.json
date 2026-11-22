@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/LoopForge",
   "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
   "homepage": "https://loopforge.cn",
-  "stars": 5376,
-  "forks": 740,
-  "open_issues": 280,
+  "stars": 5592,
+  "forks": 778,
+  "open_issues": 305,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,33 +34,33 @@
     "workflow-engine"
   ],
   "created_at": "2026-07-28T03:51:01Z",
-  "updated_at": "2026-11-21T12:05:40Z",
-  "pushed_at": "2026-11-21T11:49:20Z",
+  "updated_at": "2026-11-22T12:26:19Z",
+  "pushed_at": "2026-11-22T12:35:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 116,
+  "age_days": 117,
   "days_since_push": 0,
   "health_score": 67,
   "health_components": {
-    "popularity": 74.6,
-    "momentum": 38.6,
+    "popularity": 75.0,
+    "momentum": 39.8,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 45.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 5376,
-    "days_span": 116,
-    "stars_per_day": 46.34,
-    "lifetime_stars_per_day": 46.34,
+    "stars_gained": 5592,
+    "days_span": 117,
+    "stars_per_day": 47.79,
+    "lifetime_stars_per_day": 47.79,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Tencent/LoopForge",
-    "readme_chars": 23032,
+    "readme_chars": 23044,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -82,7 +82,7 @@
       "agent-runtime": "ttps://github.com/user-attachments/assets/8af401d9-1aae-427c-b4bc-455c12d17beb",
       "mcp-support": "retry a failed step, or rerun from any node.",
       "self-hosted": "",
-      "notifications": "Requirement clarification, AI notification summaries, Bot replies and run evals currently use CodeBuddy, so their model pickers list CodeBuddy models only and the server refuses a model of another CLI instead of switchi…",
+      "notifications": "y and Base URL from personal settings, including on a connected execution machine.",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
@@ -167,7 +167,7 @@
       "技术栈和服务器都是你的。 执行器支持 10 种编程 Agent CLI，从 CodeBuddy、Codex、Claude Code 到 OpenCode、Cursor CLI 等；工具接入 GitHub、Skills、MCP；运行环境可选 Docker 沙箱或你自己的机器。",
       "参与 LoopForge 本身的开发？ 用 bash scripts/dev.sh 原生运行（需要 Go 1.26.11+）。",
       "沙箱。 默认 Compose 安装中，SOP 运行和对话工作区都使用 Docker 沙箱容器，由平台通过宿主机 Docker socket 启动；默认沙箱复用已安装的运行镜像，安装后无需再构建；自定义 Dockerfile 仍单独构建。Docker socket 赋予平台控制宿主机 Docker 的权限，因此只适用于可信团队，不构成不可信多租户隔离边界；详见部署边界。重复执行…",
-      "执行器。 在首页输入框旁从 10 种 CLI 中选择一种，再选择模型。每个 SOP 角色都可以独立选择执行器（内置角色默认 CodeBuddy）。需求澄清、通知 AI 汇总、Bot 回复和运行评测目前使用 CodeBuddy，这些入口的模型列表只列 CodeBuddy 模型，服务端收到其他 CLI 的模型会直接拒绝并说明原因，不会悄悄换成 CodeBuddy；定时助手任务使用…"
+      "执行器。 首页对话、需求澄清、Bot 回复、通知汇报、运行评测和静态预览均可选择 CLI 与模型。每个 SOP 角色可以独立选择 CLI，内置模板仍默认使用 CodeBuddy。定时提示词使用任务所选的 CLI。将使用中的流程配置为其他 CLI 后，平台可在未安装 CodeBuddy、未配置其 Key 的环境中运行。部署与升级说明"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -176,10 +176,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:41:27+00:00",
+  "fetched_at": "2026-11-22T12:37:02+00:00",
   "categories": [
     "billing-2",
-    "isolation",
+    "mcp",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 328 |
-| Star velocity | 3.4/day (history basis, 5d span) |
+| Stars | 330 |
+| Star velocity | 3.8/day (history basis, 5d span) |
 | Health score | 45/100 |
 | Documentation | 55/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Go |
 | Created | 2026-05-10 |
-| Last push | 2026-10-16 (35 days ago) |
+| Last push | 2026-10-16 (36 days ago) |
 | Analyzed README | 12,267 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [aipoch/open-science](https://github.com/aipoch/open-science)** — Superseded by aipoch/open-science: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -78,8 +76,8 @@ Score **55/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.3 |
-| momentum | 2.8 |
+| popularity | 50.4 |
+| momentum | 3.2 |
 | maintenance | 78.0 |
 | documentation | 55.0 |
 | accessibility | 48.0 |

@@ -7,7 +7,7 @@
   "description": "A ready-to-fork Claude Code template for academic research — papers, data analysis (R, Stata, Python), slides and teaching — with multi-agent review, enforced quality gates and replication protocols. Codex and Antigravity can use it too.",
   "homepage": "https://psantanna.com/claude-code-my-workflow/",
   "stars": 1729,
-  "forks": 3158,
+  "forks": 3159,
   "open_issues": 1,
   "language": "HTML",
   "license": "MIT",
@@ -32,22 +32,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 287,
-  "days_since_push": 13,
+  "age_days": 288,
+  "days_since_push": 14,
   "health_score": 60,
   "health_components": {
     "popularity": 64.8,
-    "momentum": 2.7,
+    "momentum": 2.3,
     "maintenance": 92.0,
     "documentation": 76.0,
     "accessibility": 92.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 6.02,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 6.0,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -165,13 +165,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:42:19+00:00",
+  "fetched_at": "2026-11-22T12:37:36+00:00",
   "categories": [
-    "desktop-ui-2",
-    "isolation",
-    "parallelism"
+    "failover",
+    "parallelism",
+    "sessions-memory"
   ],
-  "primary_category": "isolation",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

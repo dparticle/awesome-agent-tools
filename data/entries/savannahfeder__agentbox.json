@@ -6,9 +6,9 @@
   "url": "https://github.com/savannahfeder/agentbox",
   "description": "A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them like email, or use the board view. Free, open source, on the plan you already pay for.",
   "homepage": "https://agentbox.ac",
-  "stars": 450,
+  "stars": 454,
   "forks": 44,
-  "open_issues": 15,
+  "open_issues": 14,
   "language": "TypeScript",
   "license": "GPL-3.0",
   "topics": [
@@ -34,33 +34,33 @@
     "worktree-manager"
   ],
   "created_at": "2026-09-28T02:35:07Z",
-  "updated_at": "2026-11-21T11:18:38Z",
-  "pushed_at": "2026-11-21T08:55:09Z",
+  "updated_at": "2026-11-22T11:59:55Z",
+  "pushed_at": "2026-11-22T03:17:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 54,
+  "age_days": 55,
   "days_since_push": 0,
-  "health_score": 50,
+  "health_score": 51,
   "health_components": {
     "popularity": 53.1,
-    "momentum": 5.0,
+    "momentum": 4.2,
     "maintenance": 100.0,
     "documentation": 37.0,
-    "accessibility": 64.0
+    "accessibility": 73.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 30,
+    "stars_gained": 25,
     "days_span": 5,
-    "stars_per_day": 6.0,
-    "lifetime_stars_per_day": 8.33,
+    "stars_per_day": 5.0,
+    "lifetime_stars_per_day": 8.25,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "savannahfeder/agentbox",
-    "readme_chars": 19058,
+    "readme_chars": 19915,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -78,7 +78,7 @@
       "worktree-isolation": "",
       "agent-runtime": "how many of a thing there were,",
       "mcp-support": "",
-      "gui-desktop": "s the terminal and is the one optional dependency here, and esbuild.",
+      "gui-desktop": "ich is the terminal, and esbuild need their install scripts to work.",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
@@ -93,11 +93,12 @@
     },
     "friction": {
       "level": "low",
-      "score": 36,
+      "score": 27,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "npx one-liner",
+        "winget install",
         "native installer / package"
       ],
       "hard_signals": [
@@ -118,8 +119,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Easy. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required; GUI application",
-      "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、sign-in required；GUI application"
+      "note_en": "Easy. install via npx one-liner, winget install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required; GUI application",
+      "note_zh": "较易上手。可通过 npx one-liner、winget install 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、sign-in required；GUI application"
     },
     "doc_score": 37,
     "doc_signals": [
@@ -141,7 +142,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.052
+      "external_link_ratio": 0.1
     },
     "highlights": [
       "One key answers it. 1 2 3 take an option, E approves the",
@@ -156,7 +157,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:42:55+00:00",
+  "fetched_at": "2026-11-22T12:38:00+00:00",
   "categories": [
     "desktop-ui",
     "mobile",
@@ -188,15 +189,15 @@
         "remote-control",
         "worktree-isolation"
       ],
-      "star_ratio": 54.613,
-      "momentum_ratio": 13.733,
-      "setup_delta": -12,
+      "star_ratio": 54.319,
+      "momentum_ratio": 17.12,
+      "setup_delta": -3,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "54.61x the stars (24,576 vs 450)",
-        "13.73x the star velocity (82.4/day vs 6.0/day)",
-        "no harder to set up (24 vs 36 friction)"
+        "54.32x the stars (24,661 vs 454)",
+        "17.12x the star velocity (85.6/day vs 5.0/day)",
+        "no harder to set up (24 vs 27 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -224,9 +225,9 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 50,
-        "challenger_health": 79,
-        "incumbent_setup_score": 36,
+        "incumbent_health": 51,
+        "challenger_health": 80,
+        "incumbent_setup_score": 27,
         "challenger_setup_score": 24
       }
     }

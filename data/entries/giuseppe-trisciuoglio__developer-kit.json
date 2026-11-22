@@ -36,21 +36,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 396,
-  "days_since_push": 72,
+  "age_days": 397,
+  "days_since_push": 73,
   "health_score": 44,
   "health_components": {
     "popularity": 51.4,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 78.0,
     "documentation": 59.0,
     "accessibility": 34.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 0.94,
     "basis": "history",
     "is_fast_riser": false
@@ -147,24 +147,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:43:05+00:00",
+  "fetched_at": "2026-11-22T12:38:06+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
     "failover"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "kajisho5/ffmpeg-skill",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
     "challenger": "",
     "supersede": {
       "incumbent": "giuseppe-trisciuoglio/developer-kit",
-      "challenger": "kajisho5/ffmpeg-skill",
+      "challenger": "sickn33/agentic-awesome-skills",
       "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
-      "challenger_name": "kajisho5/ffmpeg-skill",
+      "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -176,15 +175,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 24.435,
-      "momentum_ratio": 2955.0,
-      "setup_delta": -16,
+      "star_ratio": 134.769,
+      "momentum_ratio": 1096.0,
+      "setup_delta": -34,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "24.44x the stars (9,090 vs 372)",
-        "2955.00x the star velocity (591.0/day vs 0.2/day)",
-        "no harder to set up (50 vs 66 friction)"
+        "134.77x the stars (50,134 vs 372)",
+        "1096.00x the star velocity (54.8/day vs 0.0/day)",
+        "no harder to set up (32 vs 66 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -197,21 +196,24 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
-          "auto-failover",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
           "memory-context",
+          "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
           "notifications",
           "security-isolation",
+          "self-hosted",
           "skills-plugins",
-          "voice-input"
+          "team-collaboration",
+          "usage-analytics"
         ],
         "incumbent_health": 44,
-        "challenger_health": 89,
+        "challenger_health": 79,
         "incumbent_setup_score": 66,
-        "challenger_setup_score": 50
+        "challenger_setup_score": 32
       }
     }
   }

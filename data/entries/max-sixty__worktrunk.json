@@ -6,9 +6,9 @@
   "url": "https://github.com/max-sixty/worktrunk",
   "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
   "homepage": "https://worktrunk.dev",
-  "stars": 12679,
-  "forks": 507,
-  "open_issues": 46,
+  "stars": 12693,
+  "forks": 511,
+  "open_issues": 44,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -20,33 +20,33 @@
     "worktrees"
   ],
   "created_at": "2025-10-17T22:13:14Z",
-  "updated_at": "2026-11-21T11:47:01Z",
-  "pushed_at": "2026-11-21T07:21:25Z",
+  "updated_at": "2026-11-22T12:31:54Z",
+  "pushed_at": "2026-11-22T10:54:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 399,
+  "age_days": 400,
   "days_since_push": 0,
   "health_score": 68,
   "health_components": {
     "popularity": 82.1,
-    "momentum": 19.3,
+    "momentum": 17.8,
     "maintenance": 100.0,
-    "documentation": 54.0,
+    "documentation": 55.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 116,
+    "stars_gained": 107,
     "days_span": 5,
-    "stars_per_day": 23.2,
-    "lifetime_stars_per_day": 31.78,
+    "stars_per_day": 21.4,
+    "lifetime_stars_per_day": 31.73,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "max-sixty/worktrunk",
-    "readme_chars": 14938,
+    "readme_chars": 15156,
     "capabilities": [
       "parallel-execution",
       "worktree-isolation",
@@ -83,7 +83,7 @@
       "note_en": "Turnkey. install via Homebrew install, winget install",
       "note_zh": "开箱即用。可通过 Homebrew install、winget install 安装"
     },
-    "doc_score": 54,
+    "doc_score": 55,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -108,7 +108,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 3.213
+      "external_link_ratio": 3.167
     },
     "highlights": [
       "PR checkout — wt switch pr:123 to jump straight to a PR's branch",
@@ -123,12 +123,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:42:01+00:00",
+  "fetched_at": "2026-11-22T12:37:24+00:00",
   "categories": [
-    "isolation",
     "parallelism"
   ],
-  "primary_category": "isolation",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

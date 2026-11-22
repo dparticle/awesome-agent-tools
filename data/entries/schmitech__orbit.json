@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "full_name": "schmitech/orbit",
+  "name": "orbit",
+  "owner": "schmitech",
+  "url": "https://github.com/schmitech/orbit",
+  "description": "Self-hosted AI gateway for private RAG, natural-language data access, and tool-calling agents.",
+  "homepage": "https://schmitech.ai",
+  "stars": 366,
+  "forks": 61,
+  "open_issues": 0,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai-assistant",
+    "ai-gateway",
+    "ai-safety",
+    "anthropic",
+    "chatbot",
+    "developer-tools",
+    "elasticsearch",
+    "llm",
+    "mongodb",
+    "natural-language-to-sql",
+    "ollama-client",
+    "openai",
+    "python",
+    "rag",
+    "retrieval-augmented-generation",
+    "self-hosted",
+    "speech-to-text",
+    "text-to-speech",
+    "vector-database"
+  ],
+  "created_at": "2025-03-10T02:30:21Z",
+  "updated_at": "2026-11-20T21:39:48Z",
+  "pushed_at": "2026-11-22T11:12:44Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 622,
+  "days_since_push": 0,
+  "health_score": 47,
+  "health_components": {
+    "popularity": 51.3,
+    "momentum": 0.3,
+    "maintenance": 100.0,
+    "documentation": 49.0,
+    "accessibility": 42.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 11,
+    "days_span": 33,
+    "stars_per_day": 0.33,
+    "lifetime_stars_per_day": 0.59,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "schmitech/orbit",
+    "readme_chars": 14000,
+    "capabilities": [
+      "model-routing",
+      "api-gateway",
+      "usage-analytics",
+      "mcp-support",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration",
+      "gui-desktop"
+    ],
+    "capability_evidence": {
+      "model-routing": "cted** Query files, SQL, NoSQL, vector stores, and APIs through YAML-configured adapters, with hybrid retrieval and reranking.",
+      "api-gateway": "cted** Query files, SQL, NoSQL, vector stores, and APIs through YAML-configured adapters, with hybrid retrieval and reranking.",
+      "usage-analytics": "tomatic skill routing · A2A · Adapter creation",
+      "mcp-support": "See who ORBIT is for for organization types, needs, relevant features, and pilot ideas. ORBIT control plane Monitor resources, manage API keys and users, review audit logs, and configure MCP tools—all in one place.",
+      "security-isolation": "h Open WebUI and LiteLLM.",
+      "self-hosted": "nerate images, audio, and video.",
+      "team-collaboration": "",
+      "gui-desktop": "Try with Docker With Docker installed and running, use a prebuilt flavor image to try ORBIT without downloading a tarball or cloning the repo."
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "api-gateway": 1,
+      "usage-analytics": 1,
+      "mcp-support": 5,
+      "security-isolation": 1,
+      "self-hosted": 1,
+      "team-collaboration": 1,
+      "gui-desktop": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 58,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "global npm install"
+      ],
+      "hard_signals": [
+        "docker run",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via global npm install; needs docker run, npm install/build; configure API key configuration, config.json/yaml/toml",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 docker run、npm install/build；需配置 API key configuration、config.json/yaml/toml"
+    },
+    "doc_score": 49,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "Open Retrieval-Based Inference Toolkit",
+    "summary_zh": "",
+    "install_hint": "docker run -d --name orbit \\",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.143
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-22T12:38:07+00:00",
+  "categories": [
+    "failover-2",
+    "mcp",
+    "teams-self-hosting"
+  ],
+  "primary_category": "teams-self-hosting",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

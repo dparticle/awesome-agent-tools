@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 297 |
-| Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 54/100 |
+| Stars | 298 |
+| Star velocity | 0.2/day (history basis, 5d span) |
+| Health score | 56/100 |
 | Documentation | 91/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | not declared |
 | Language | HTML |
 | Created | 2025-11-12 |
-| Last push | 2026-11-11 (9 days ago) |
-| Analyzed README | 112,862 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 114,552 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Quota & usage management
 
-> ion.mp3、.srt、.narrated.mp4、.final.mp4
+> ✅ **音画同步不拍时间轴**：TTS 返回的逐字时间戳同时驱动画面排期与字幕切句（6~20 字），改一句旁白只重配那一段
 
 ### Automatic failover
 
@@ -52,7 +52,7 @@
 
 ### Billing & metering
 
-> 高风险 诱导分享/关注 "白嫖"、"薅羊毛"、"速转"、"分享给朋友"等
+> 测，末行输出机器可读 JSON（path/width/height/taskid/provider/model）
 
 ### Session persistence
 
@@ -68,7 +68,7 @@
 
 ### GUI / desktop app
 
-> API Key 走技能根目录 .env 零硬编码，缺配置时报可照抄指引，零 npm 依赖 Node.js（≥18，内置 fetch）、gpt-image-2.5 中转站 API 2026年10月25日 wwwzhouhui 1.0.0
+> env，零 npm 依赖 Node.js（≥18，内置 fetch）、gpt-image-2.5 中转站 API、ModelScope MiniMax-H3-Image API 2026年11月17日 wwwzhouhui 1.1.0
 
 ### Notifications
 
@@ -118,8 +118,8 @@ Score **91/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 49.5 |
-| momentum | 0.0 |
-| maintenance | 92.0 |
+| momentum | 0.2 |
+| maintenance | 100.0 |
 | documentation | 91.0 |
 | accessibility | 59.0 |
 

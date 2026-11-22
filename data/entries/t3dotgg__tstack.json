@@ -6,34 +6,34 @@
   "url": "https://github.com/t3dotgg/tstack",
   "description": "The agent skills I use every day. Works with Claude Code and Codex.",
   "homepage": "",
-  "stars": 4259,
-  "forks": 335,
-  "open_issues": 21,
+  "stars": 4286,
+  "forks": 340,
+  "open_issues": 22,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-10-24T05:00:20Z",
-  "updated_at": "2026-11-21T12:33:42Z",
+  "updated_at": "2026-11-22T11:29:18Z",
   "pushed_at": "2026-11-11T11:33:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 28,
-  "days_since_push": 10,
-  "health_score": 60,
+  "age_days": 29,
+  "days_since_push": 11,
+  "health_score": 56,
   "health_components": {
     "popularity": 72.6,
-    "momentum": 49.0,
+    "momentum": 32.7,
     "maintenance": 92.0,
     "documentation": 25.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 294,
+    "stars_gained": 196,
     "days_span": 5,
-    "stars_per_day": 58.8,
-    "lifetime_stars_per_day": 152.11,
+    "stars_per_day": 39.2,
+    "lifetime_stars_per_day": 147.79,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -104,11 +104,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:41:30+00:00",
+  "fetched_at": "2026-11-22T12:37:05+00:00",
   "categories": [
-    "failover-2"
+    "accounts"
   ],
-  "primary_category": "failover-2",
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (4/4).",
@@ -130,14 +130,14 @@
         "model-routing",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 33.399,
-      "momentum_ratio": 1.656,
+      "star_ratio": 33.208,
+      "momentum_ratio": 2.342,
       "setup_delta": -12,
-      "dominance": 0.863,
+      "dominance": 0.906,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "33.40x the stars (142,247 vs 4,259)",
-        "1.66x the star velocity (97.4/day vs 58.8/day)",
+        "33.21x the stars (142,329 vs 4,286)",
+        "2.34x the star velocity (91.8/day vs 39.2/day)",
         "no harder to set up (39 vs 51 friction)"
       ],
       "reasons_zh": [],
@@ -161,8 +161,8 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 60,
-        "challenger_health": 86,
+        "incumbent_health": 56,
+        "challenger_health": 85,
         "incumbent_setup_score": 51,
         "challenger_setup_score": 39
       }

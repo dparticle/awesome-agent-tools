@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,376 |
-| Star velocity | 46.3/day (lifetime basis, 116d span) |
+| Stars | 5,592 |
+| Star velocity | 47.8/day (lifetime basis, 117d span) |
 | Health score | 67/100 |
 | Documentation | 71/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-07-28 |
-| Last push | 2026-11-21 (0 days ago) |
-| Analyzed README | 23,032 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 23,044 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -58,7 +58,7 @@
 
 ### Notifications
 
-> Requirement clarification, AI notification summaries, Bot replies and run evals currently use CodeBuddy, so their model pickers list CodeBuddy models only and the server refuses a model of another CLI instead of switchi…
+> y and Base URL from personal settings, including on a connected execution machine.
 
 ### Cross-agent support
 
@@ -100,8 +100,8 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.6 |
-| momentum | 38.6 |
+| popularity | 75.0 |
+| momentum | 39.8 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 45.0 |

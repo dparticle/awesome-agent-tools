@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 19,181 |
-| Star velocity | 8.6/day (history basis, 5d span) |
-| Health score | 66/100 |
+| Stars | 19,341 |
+| Star velocity | 32.0/day (history basis, 5d span) |
+| Health score | 71/100 |
 | Documentation | 76/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Rust |
 | Created | 2026-06-30 |
-| Last push | 2026-11-21 (0 days ago) |
-| Analyzed README | 54,575 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 56,726 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### MCP support
 
-> on BEIR, on SearchTome and on our 160-question test, the latency split and every data
+> 160-question test, the latency split and every data
 
 ### GUI / desktop app
 
@@ -84,7 +84,7 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 85.7 |
-| momentum | 7.2 |
+| momentum | 26.7 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
 | accessibility | 67.0 |

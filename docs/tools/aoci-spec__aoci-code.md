@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 2,836 |
-| Star velocity | 181.6/day (history basis, 5d span) |
+| Stars | 2,890 |
+| Star velocity | 191.4/day (history basis, 5d span) |
 | Health score | 78/100 |
 | Documentation | 74/100 |
 | Tier | 🏆 Flagship |
@@ -21,12 +21,14 @@
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-08-08 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 78,110 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 78,496 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Automatic failover
+
+> a repetition of F, R, and A.** It adds important information the first three fields do not cover and that affects understanding or engineering correctness, for example:
 
 ### Model / provider routing
 
@@ -89,7 +91,7 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 69.1 |
+| popularity | 69.2 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 74.0 |

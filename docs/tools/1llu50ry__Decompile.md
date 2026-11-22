@@ -2,7 +2,7 @@
 
 # 1llu50ry/Decompile
 
-> 180+ MCP tools · 56 RE/debug backends · 9 host-side plugins · 4,200+ skills · multi-agent mesh · native x86-64 + ARM64 emulators
+> 230+ MCP tools · 60+ RE/debug backends · 9 host-side plugins · 6,000+ skills · 170+ agents · 160+ subagents · 190+ plugins · 3,000+ prompts · multi-agent mesh · native x86-64 + ARM64 emulators
 
 [Repository](https://github.com/1llu50ry/Decompile) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 586 |
-| Star velocity | 2.4/day (history basis, 5d span) |
-| Health score | 56/100 |
-| Documentation | 72/100 |
+| Stars | 592 |
+| Star velocity | 2.8/day (history basis, 5d span) |
+| Health score | 57/100 |
+| Documentation | 73/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-05 |
-| Last push | 2026-11-13 (7 days ago) |
-| Analyzed README | 29,673 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 32,119 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,7 +30,7 @@
 
 ### Multi-agent orchestration
 
-> exploit development** pwndbg + GEF + angr + AFL++ + honggfuzz + LibAFL + Unicorn + ret-sync all behind one hub.
+> hrough a shared mesh — DM, channels, task handoff, adversarial voting, shared KV knowledge-base, named locks for coordination.
 
 ### Memory & context
 
@@ -46,30 +46,30 @@
 
 ### GUI / desktop app
 
-> Supported backends: GhidraMCP, SuperghidraMCP (pyghidra-mcp, +gui), Ghidrathon MCP, ida-pro-mcp, Hex-Rays IDA MCP, Binary Ninja MCP, radare2 MCP, x64dbg MCP Server, WinDbg MCP, Cheat Engine MCP, Frida MCP, Hopper MCP, R…
+> Supported backends: GhydraMCP, SuperghidraMCP (pyghidra-mcp, +gui), Ghidrathon MCP, ida-pro-mcp, Hex-Rays IDA MCP, Binary Ninja MCP, radare2 MCP, x64dbg MCP Server, WinDbg MCP, Cheat Engine MCP, Frida MCP, Hopper MCP, V…
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, Copilot, Cursor
+> Mentions Claude Code, Cline, Codex, Copilot
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 32/100)
+- **Difficulty:** 🟢 Easy (friction score 23/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `npm install && npx tsc`
+- **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/1llu50ry/Decompile/main/install.sh | sh`
 
-**Signals that make it easy:** npx one-liner, native installer / package
+**Signals that make it easy:** npx one-liner, curl | sh installer, PowerShell irm | iex installer, global npm install, native installer / package
 
 **Signals that add work:** docker compose up, git clone (build from source), npm install/build
 
 **Configuration required:** database dependency, database migration
 
-*Easy. install via npx one-liner, native installer / package; needs docker compose up, git clone (build from source); configure database dependency, database migration; no-code positioning*
+*Easy. install via npx one-liner, curl | sh installer; needs docker compose up, git clone (build from source); configure database dependency, database migration; no-code positioning*
 
 ## Documentation quality
 
-Score **72/100**, based on these detected signals:
+Score **73/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -89,10 +89,10 @@ Score **72/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.4 |
-| momentum | 2.0 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
-| documentation | 72.0 |
-| accessibility | 68.0 |
+| documentation | 73.0 |
+| accessibility | 77.0 |
 
 ---
 

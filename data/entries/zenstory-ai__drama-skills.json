@@ -6,8 +6,8 @@
   "url": "https://github.com/zenstory-ai/drama-skills",
   "description": "AI 短剧与漫剧制作 Agent 技能包：小说改剧本、视觉设定、分镜、生图/生视频提示词与剪辑成片，适配 Claude Code / Codex 等 ｜ Agent skills for AI short dramas & motion comics",
   "homepage": "https://zenstory.ai/zh/drama-skills",
-  "stars": 4591,
-  "forks": 786,
+  "stars": 4632,
+  "forks": 794,
   "open_issues": 3,
   "language": "Python",
   "license": "MIT",
@@ -32,49 +32,52 @@
     "zenstory"
   ],
   "created_at": "2026-07-16T16:11:19Z",
-  "updated_at": "2026-11-21T12:34:39Z",
-  "pushed_at": "2026-11-20T04:48:06Z",
+  "updated_at": "2026-11-22T12:35:05Z",
+  "pushed_at": "2026-11-22T07:28:17Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 127,
-  "days_since_push": 1,
-  "health_score": 68,
+  "age_days": 128,
+  "days_since_push": 0,
+  "health_score": 69,
   "health_components": {
-    "popularity": 73.2,
-    "momentum": 42.7,
+    "popularity": 73.3,
+    "momentum": 40.5,
     "maintenance": 100.0,
-    "documentation": 54.0,
+    "documentation": 60.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 256,
+    "stars_gained": 243,
     "days_span": 5,
-    "stars_per_day": 51.2,
-    "lifetime_stars_per_day": 36.15,
+    "stars_per_day": 48.6,
+    "lifetime_stars_per_day": 36.19,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zenstory-ai/drama-skills",
-    "readme_chars": 12020,
+    "readme_chars": 12596,
     "capabilities": [
       "billing-metering",
       "skills-plugins",
       "agent-runtime",
+      "notifications",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "billing-metering": "",
-      "skills-plugins": "eck.py（已剪辑剧集再跑一次 edit_tool.py check）核对即可。",
+      "skills-plugins": "heck.py（已剪辑剧集再跑一次 edittool.py check）核对即可。",
       "agent-runtime": "github.com/user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e",
+      "notifications": "",
       "cross-agent-support": "Mentions Claude Code, Codex"
     },
     "capability_hits": {
       "billing-metering": 2,
       "skills-plugins": 1,
       "agent-runtime": 3,
+      "notifications": 1,
       "cross-agent-support": 2
     },
     "friction": {
@@ -98,7 +101,7 @@
       "note_en": "Easy. install via npx one-liner; needs git clone (build from source)",
       "note_zh": "较易上手。可通过 npx one-liner 安装；需要 git clone (build from source)"
     },
-    "doc_score": 54,
+    "doc_score": 60,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -108,6 +111,7 @@
       "has troubleshooting/FAQ",
       "mentions licensing",
       "has a table of contents",
+      "has a Chinese translation",
       "documents changes"
     ],
     "agents": [
@@ -124,7 +128,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.998
+      "external_link_ratio": 0.953
     },
     "highlights": [
       "连戏锁：LOCK-JIANGCHEN-DRESS《江晨松枝绿常服》（镜头：SHOT-EP001-002、SHOT-EP001-003、SHOT-EP001-007、……；",
@@ -141,7 +145,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:41:29+00:00",
+  "fetched_at": "2026-11-22T12:37:04+00:00",
   "categories": [
     "billing-2",
     "failover"

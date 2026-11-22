@@ -6,8 +6,8 @@
   "url": "https://github.com/Oldcircle/geo-sleuth",
   "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
   "homepage": "",
-  "stars": 7368,
-  "forks": 922,
+  "stars": 7403,
+  "forks": 923,
   "open_issues": 25,
   "language": "Python",
   "license": "MIT",
@@ -32,27 +32,27 @@
     "satellite-imagery"
   ],
   "created_at": "2026-09-18T08:51:34Z",
-  "updated_at": "2026-11-21T12:36:31Z",
+  "updated_at": "2026-11-22T12:21:26Z",
   "pushed_at": "2026-11-19T17:48:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 64,
-  "days_since_push": 1,
-  "health_score": 75,
+  "age_days": 65,
+  "days_since_push": 2,
+  "health_score": 73,
   "health_components": {
-    "popularity": 77.3,
-    "momentum": 43.2,
+    "popularity": 77.4,
+    "momentum": 35.7,
     "maintenance": 100.0,
     "documentation": 75.0,
     "accessibility": 93.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 259,
+    "stars_gained": 214,
     "days_span": 5,
-    "stars_per_day": 51.8,
-    "lifetime_stars_per_day": 115.12,
+    "stars_per_day": 42.8,
+    "lifetime_stars_per_day": 113.89,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -152,11 +152,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:41:21+00:00",
+  "fetched_at": "2026-11-22T12:37:00+00:00",
   "categories": [
-    "failover-2"
+    "accounts"
   ],
-  "primary_category": "failover-2",
+  "primary_category": "accounts",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 331 |
-| Star velocity | 55.2/day (lifetime basis, 6d span) |
-| Health score | 59/100 |
+| Stars | 339 |
+| Star velocity | 48.4/day (lifetime basis, 7d span) |
+| Health score | 58/100 |
 | Documentation | 52/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | not declared |
 | Language | HTML |
 | Created | 2026-11-14 |
-| Last push | 2026-11-18 (2 days ago) |
+| Last push | 2026-11-18 (3 days ago) |
 | Analyzed README | 22,084 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -72,8 +74,8 @@ Score **52/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.4 |
-| momentum | 46.0 |
+| popularity | 50.6 |
+| momentum | 40.4 |
 | maintenance | 100.0 |
 | documentation | 52.0 |
 | accessibility | 50.0 |

@@ -7,7 +7,7 @@
   "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
   "homepage": "https://francyjglisboa.github.io/agent-skills-platform/",
   "stars": 2417,
-  "forks": 266,
+  "forks": 265,
   "open_issues": 3,
   "language": "Python",
   "license": "MIT",
@@ -29,22 +29,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 398,
-  "days_since_push": 66,
+  "age_days": 399,
+  "days_since_push": 67,
   "health_score": 52,
   "health_components": {
     "popularity": 67.7,
-    "momentum": 0.2,
+    "momentum": 0.3,
     "maintenance": 78.0,
     "documentation": 42.0,
     "accessibility": 85.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 6.07,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 6.06,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,13 +131,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:42:14+00:00",
+  "fetched_at": "2026-11-22T12:37:33+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
+    "failover",
     "sessions-memory"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

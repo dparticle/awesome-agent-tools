@@ -6,7 +6,7 @@
   "url": "https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system",
   "description": "YALC 1.0, the open-source Clay alternative. MIT, CLI-first, self-hosted, runs in Claude Code. Yalc today is an intelligent orchestration layer that runs pre configured GTM agents on your existing tech stack (CRM, sequencer and call recorder) → yalc.ai",
   "homepage": "https://www.yalc.ai",
-  "stars": 331,
+  "stars": 330,
   "forks": 91,
   "open_issues": 10,
   "language": "TypeScript",
@@ -22,27 +22,27 @@
     "typescript"
   ],
   "created_at": "2026-01-04T10:21:22Z",
-  "updated_at": "2026-11-20T13:08:05Z",
+  "updated_at": "2026-11-22T02:51:58Z",
   "pushed_at": "2026-08-20T16:57:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 321,
-  "days_since_push": 92,
+  "age_days": 322,
+  "days_since_push": 93,
   "health_score": 41,
   "health_components": {
     "popularity": 50.4,
-    "momentum": 0.3,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 73.0,
     "accessibility": 36.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.4,
-    "lifetime_stars_per_day": 1.03,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.02,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,73 +144,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:43:08+00:00",
+  "fetched_at": "2026-11-22T12:38:08+00:00",
   "categories": [
-    "desktop-ui-2"
+    "failover",
+    "mcp"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "mcp",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "othmane-khadri/yalc-the-gtm-operating-system",
-      "challenger": "sickn33/agentic-awesome-skills",
-      "incumbent_name": "Othmane-Khadri/YALC-the-GTM-operating-system",
-      "challenger_name": "sickn33/agentic-awesome-skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "self-hosted",
-        "skills-plugins"
-      ],
-      "star_ratio": 151.284,
-      "momentum_ratio": 144.5,
-      "setup_delta": -32,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "151.28x the stars (50,075 vs 331)",
-        "144.50x the star velocity (57.8/day vs 0.4/day)",
-        "no harder to set up (32 vs 64 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "self-hosted",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
-        ],
-        "incumbent_health": 41,
-        "challenger_health": 79,
-        "incumbent_setup_score": 64,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

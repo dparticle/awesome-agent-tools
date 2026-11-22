@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,079 |
-| Star velocity | 3.9/day (lifetime basis, 280d span) |
+| Stars | 1,084 |
+| Star velocity | 3.9/day (lifetime basis, 281d span) |
 | Health score | 58/100 |
 | Documentation | 80/100 |
 | Tier | 🔹 Notable |
@@ -21,14 +21,14 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-02-13 |
-| Last push | 2026-11-21 (0 days ago) |
+| Last push | 2026-11-22 (0 days ago) |
 | Analyzed README | 51,938 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> ron 3.5 Lightning (free), Llama 3.3 70B, MiniMax M3.1 Flash, GLM-4.7 Flash
+> free core model GPT-6 Luna, DeepSeek V4.1 Flash 1017, Clef Flash (decision endpoint, free promo)
 
 ### Quota & usage management
 

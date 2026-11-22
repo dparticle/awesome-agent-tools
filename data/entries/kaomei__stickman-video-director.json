@@ -6,9 +6,9 @@
   "url": "https://github.com/kaomei/stickman-video-director",
   "description": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube, Shorts & TikTok. 14+ styles with voiceover, captions & SFX. Free & open-source (MIT).",
   "homepage": "https://telegram.me/stickmanskill",
-  "stars": 7284,
-  "forks": 1275,
-  "open_issues": 4,
+  "stars": 7417,
+  "forks": 1297,
+  "open_issues": 5,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "youtube-shorts"
   ],
   "created_at": "2026-08-03T07:44:33Z",
-  "updated_at": "2026-11-21T12:37:07Z",
-  "pushed_at": "2026-11-21T10:05:50Z",
+  "updated_at": "2026-11-22T12:30:08Z",
+  "pushed_at": "2026-11-22T05:20:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 110,
+  "age_days": 111,
   "days_since_push": 0,
   "health_score": 76,
   "health_components": {
-    "popularity": 77.2,
-    "momentum": 55.2,
+    "popularity": 77.4,
+    "momentum": 55.7,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 85.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 7284,
-    "days_span": 110,
-    "stars_per_day": 66.22,
-    "lifetime_stars_per_day": 66.22,
+    "stars_gained": 7417,
+    "days_span": 111,
+    "stars_per_day": 66.82,
+    "lifetime_stars_per_day": 66.82,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kaomei/stickman-video-director",
-    "readme_chars": 52947,
+    "readme_chars": 55091,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -131,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.283
+      "external_link_ratio": 0.272
     },
     "highlights": [
       "B sound library — already available: 774 sound effects and transitions, 31 music tracks and 85 short musical stingers, licensed and ready to use",
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:41:21+00:00",
+  "fetched_at": "2026-11-22T12:37:00+00:00",
   "categories": [
     "desktop-ui",
     "mobile"
@@ -182,14 +182,14 @@
         "multi-agent-orchestration",
         "self-hosted"
       ],
-      "star_ratio": 3.62,
-      "momentum_ratio": 7.342,
+      "star_ratio": 3.597,
+      "momentum_ratio": 6.309,
       "setup_delta": 11,
       "dominance": 0.945,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "3.62x the stars (26,365 vs 7,284)",
-        "7.34x the star velocity (486.2/day vs 66.2/day)",
+        "3.60x the stars (26,681 vs 7,417)",
+        "6.31x the star velocity (421.6/day vs 66.8/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],

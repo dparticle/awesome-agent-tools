@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 450 |
-| Star velocity | 6.0/day (history basis, 5d span) |
-| Health score | 50/100 |
+| Stars | 454 |
+| Star velocity | 5.0/day (history basis, 5d span) |
+| Health score | 51/100 |
 | Documentation | 37/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | GPL-3.0 |
 | Language | TypeScript |
 | Created | 2026-09-28 |
-| Last push | 2026-11-21 (0 days ago) |
-| Analyzed README | 19,058 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 19,915 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (8/8).
 
@@ -44,7 +44,7 @@
 
 ### GUI / desktop app
 
-> s the terminal and is the one optional dependency here, and esbuild.
+> ich is the terminal, and esbuild need their install scripts to work.
 
 ### Cross-agent support
 
@@ -52,18 +52,18 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 36/100)
+- **Difficulty:** 🟢 Easy (friction score 27/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install`
 
-**Signals that make it easy:** npx one-liner, native installer / package
+**Signals that make it easy:** npx one-liner, winget install, native installer / package
 
 **Signals that add work:** git clone (build from source), npm install/build
 
 **Configuration required:** config.json/yaml/toml, sign-in required, process manager
 
-*Easy. install via npx one-liner, native installer / package; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required; GUI application*
+*Easy. install via npx one-liner, winget install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required; GUI application*
 
 ## Documentation quality
 
@@ -80,10 +80,10 @@ Score **37/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.1 |
-| momentum | 5.0 |
+| momentum | 4.2 |
 | maintenance | 100.0 |
 | documentation | 37.0 |
-| accessibility | 64.0 |
+| accessibility | 73.0 |
 
 ---
 

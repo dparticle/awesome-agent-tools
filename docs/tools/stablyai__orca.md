@@ -2,7 +2,7 @@
 
 # stablyai/orca
 
-> Most bots end in a chat thread.
+> Open source.
 
 [Repository](https://github.com/stablyai/orca) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 131,520 |
-| Star velocity | 1036.8/day (history basis, 5d span) |
+| Stars | 132,483 |
+| Star velocity | 1019.0/day (history basis, 5d span) |
 | Health score | 92/100 |
 | Documentation | 53/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-17 |
-| Last push | 2026-11-21 (0 days ago) |
-| Analyzed README | 21,502 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 21,579 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -60,7 +60,7 @@
 
 ### Notifications
 
-> e in split panes shaped to the task.
+> by side in split panes shaped to the task.
 
 ### Voice input
 

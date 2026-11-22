@@ -6,8 +6,8 @@
   "url": "https://github.com/sickn33/agentic-awesome-skills",
   "description": "3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
   "homepage": "https://aaskills.tech/",
-  "stars": 50075,
-  "forks": 7260,
+  "stars": 50134,
+  "forks": 7265,
   "open_issues": 5,
   "language": "Python",
   "license": "MIT",
@@ -34,33 +34,33 @@
     "skill-library"
   ],
   "created_at": "2026-01-14T17:48:09Z",
-  "updated_at": "2026-11-21T12:15:39Z",
-  "pushed_at": "2026-11-20T18:52:00Z",
+  "updated_at": "2026-11-22T12:18:09Z",
+  "pushed_at": "2026-11-21T17:54:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 310,
+  "age_days": 311,
   "days_since_push": 0,
   "health_score": 79,
   "health_components": {
     "popularity": 94.0,
-    "momentum": 48.2,
+    "momentum": 45.7,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 68.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 289,
+    "stars_gained": 274,
     "days_span": 5,
-    "stars_per_day": 57.8,
-    "lifetime_stars_per_day": 161.53,
+    "stars_per_day": 54.8,
+    "lifetime_stars_per_day": 161.2,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "sickn33/agentic-awesome-skills",
-    "readme_chars": 132500,
+    "readme_chars": 132414,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -85,7 +85,7 @@
       "memory-context": "tomic, interlinked knowledge stores with explicit hygiene, provenance, expiry, and secret-handling boundaries (MIT).",
       "skills-plugins": "Agentic Awesome Skills — AI Skills & AAS Core",
       "agent-runtime": "plete files, and keep an exact skill set you can review and reuse.**",
-      "mcp-support": "uptime-monitoring) - content checks confirmed from a second location, heartbeats for scheduled jobs, certificate and domain expiry, status pages and a tested alert route, through the hosted Staygreen MCP server; the sam…",
+      "mcp-support": "uct-engineering: Pawel Huryn’s MIT collection of 45 product discovery, agent coordination, shipping and application operations workflows.",
       "security-isolation": "-AI/aident-skill: MIT official source for the aident-loadout skill - search actions across apps the user connected in Aident Loadout, read live schemas, check connections and cost before running, and require approval fo…",
       "self-hosted": "stors, or a jury) that stress-tests an idea.",
       "team-collaboration": "— local-first memory lifecycle guidance for recall, evidence, audit, forgetting, consolidation, and privacy-safe agent memory operations (MIT).",
@@ -99,9 +99,9 @@
       "model-routing": 1,
       "usage-analytics": 1,
       "memory-context": 5,
-      "skills-plugins": 184,
+      "skills-plugins": 185,
       "agent-runtime": 7,
-      "mcp-support": 84,
+      "mcp-support": 83,
       "security-isolation": 1,
       "self-hosted": 1,
       "team-collaboration": 1,
@@ -182,7 +182,7 @@
         "bullet list of external links",
         "link-directory table of contents"
       ],
-      "external_link_ratio": 3.955
+      "external_link_ratio": 3.972
     },
     "highlights": [
       "sandbaseai/cli: Official source for the sandbase-mcp skill - discover, inspect, and invoke 2,000+ AI models and APIs through a local MCP bridge with explicit schema and cost checks (Apache-…",
@@ -199,13 +199,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:41:53+00:00",
+  "fetched_at": "2026-11-22T12:37:19+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
-    "failover"
+    "failover",
+    "mcp"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

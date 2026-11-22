@@ -18,22 +18,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 131,
-  "days_since_push": 30,
-  "health_score": 56,
+  "age_days": 132,
+  "days_since_push": 31,
+  "health_score": 53,
   "health_components": {
     "popularity": 78.5,
     "momentum": 0.0,
-    "maintenance": 92.0,
+    "maintenance": 78.0,
     "documentation": 28.0,
     "accessibility": 90.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 11,
+    "days_span": 12,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 64.56,
+    "lifetime_stars_per_day": 64.07,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -107,11 +107,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:41:17+00:00",
+  "fetched_at": "2026-11-22T12:36:58+00:00",
   "categories": [
-    "sessions-memory"
+    "mcp"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

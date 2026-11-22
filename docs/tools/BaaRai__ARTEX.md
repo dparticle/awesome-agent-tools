@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 14,373 |
-| Star velocity | 334.3/day (lifetime basis, 43d span) |
+| Stars | 15,650 |
+| Star velocity | 355.7/day (lifetime basis, 44d span) |
 | Health score | 79/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-10-08 |
-| Last push | 2026-11-21 (0 days ago) |
-| Analyzed README | 38,443 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 45,367 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### Model / provider routing
 
-> Ollama server as a keyless provider (format
+> *LLM**: export ANTHROPICAPIKEY=sk-...
 
 ### API gateway / proxy
 
@@ -45,8 +45,6 @@
 > rchives for repeatable engagements.
 
 ### Skills & plugins
-
-> ofiles per task with automatic failover.
 
 ### MCP support
 
@@ -73,11 +71,11 @@
 - **Non-programmer friendly:** no
 - **Quickest install:** `docker compose up -d --build    # builds from this checkout, starts PostgreSQL`
 
-**Signals that add work:** docker compose up, git clone (build from source), npm install/build, go build
+**Signals that add work:** docker compose up, docker run, git clone (build from source), npm install/build, go build
 
 **Configuration required:** environment variables, API key configuration, config.json/yaml/toml, sign-in required, database dependency, database migration, server/reverse-proxy setup
 
-*Involved setup. needs docker compose up, git clone (build from source); configure environment variables, API key configuration; one-click setup*
+*Involved setup. needs docker compose up, docker run; configure environment variables, API key configuration; one-click setup*
 
 ## Documentation quality
 
@@ -100,7 +98,7 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 83.2 |
+| popularity | 83.9 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 73.0 |

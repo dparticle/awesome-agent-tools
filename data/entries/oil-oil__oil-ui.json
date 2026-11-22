@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "full_name": "oil-oil/oil-ui",
+  "name": "oil-ui",
+  "owner": "oil-oil",
+  "url": "https://github.com/oil-oil/oil-ui",
+  "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
+  "homepage": "https://ui.oiloil.org",
+  "stars": 3831,
+  "forks": 224,
+  "open_issues": 3,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-design",
+    "claude-code",
+    "claude-code-skill",
+    "claude-skills",
+    "codex",
+    "cursor",
+    "design",
+    "design-system",
+    "frontend",
+    "ui",
+    "ui-design",
+    "ux-design"
+  ],
+  "created_at": "2026-09-30T03:55:35Z",
+  "updated_at": "2026-11-22T12:29:23Z",
+  "pushed_at": "2026-11-22T05:10:06Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 53,
+  "days_since_push": 0,
+  "health_score": 73,
+  "health_components": {
+    "popularity": 71.7,
+    "momentum": 60.2,
+    "maintenance": 100.0,
+    "documentation": 46.0,
+    "accessibility": 96.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 3831,
+    "days_span": 53,
+    "stars_per_day": 72.28,
+    "lifetime_stars_per_day": 72.28,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "oil-oil/oil-ui",
+    "readme_chars": 14123,
+    "capabilities": [
+      "skills-plugins",
+      "agent-runtime",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "skills-plugins": "English · 中文 · 日本語 · 한국어 · Deutsch · Español",
+      "agent-runtime": "English · 中文 · 日本語 · 한국어 · Deutsch · Español",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
+    },
+    "capability_hits": {
+      "skills-plugins": 2,
+      "agent-runtime": 1,
+      "cross-agent-support": 7
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 16,
+      "out_of_the_box": true,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner"
+      ],
+      "hard_signals": [],
+      "config_signals": [],
+      "friendliness_signals": [],
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via npx one-liner",
+      "note_zh": "开箱即用。可通过 npx one-liner 安装"
+    },
+    "doc_score": 46,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "reports benchmarks"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Cline / Roo"
+    ],
+    "summary_en": "English · 中文 · 日本語 · 한국어 · Deutsch · Español",
+    "summary_zh": "",
+    "install_hint": "npx skills add oil-oil/oil-ui",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 1.699
+    },
+    "highlights": [],
+    "summary_zh_native": "English · 中文 · 日本語 · 한국어 · Deutsch · Español",
+    "highlights_zh": [
+      "4 款 UI 设计 Skill 实测对比（15 次独立生成 + 在线 Demo）：同模型同题测试 Oil UI、frontend-design、UI UX Pro Max、Impeccable 与无 Skill 对照，公开 15 次匿名视觉评分、功能验收细节与真机演示。",
+      "Agent 与场景实战：Claude Code 指南 · OpenAI Codex 指南 · 官网与落地页实战 · 后台与桌面工作台实战 · 交互式方法与实样展厅",
+      "留一处让人记住的地方。 不把整页塞满装饰，只把一两处关键时刻做到位，比如点按反馈、付款完成、AI 运行状态或 404 页面，其余保持安静。",
+      "每个方向都从具体的东西出发。 可以是一种材质和它所在的环境、一个场景，也可以借用另一个领域的表现方式，不从“简约”“大气”这类空泛形容词出发。"
+    ],
+    "chinese_readme": "README.zh-CN.md"
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-22T12:37:06+00:00",
+  "categories": [
+    "failover"
+  ],
+  "primary_category": "failover",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

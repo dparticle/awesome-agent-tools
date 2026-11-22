@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "full_name": "codecoradev/uteke",
+  "name": "uteke",
+  "owner": "codecoradev",
+  "url": "https://github.com/codecoradev/uteke",
+  "description": "Long-term memory for AI agents (MCP). One Rust binary, offline, 98.2% recall@5 on LongMemEval-S. Works with Claude Code, Cursor, Codex. Self-host free or use Uteke Cloud.",
+  "homepage": "https://uteke.app",
+  "stars": 291,
+  "forks": 31,
+  "open_issues": 19,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-memory",
+    "ai-agents",
+    "ai-memory",
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli-extension",
+    "llm",
+    "llm-memory",
+    "local-first",
+    "long-term-memory",
+    "longmemeval",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "offline-first",
+    "rust",
+    "semantic-search",
+    "sqlite",
+    "vector-database"
+  ],
+  "created_at": "2026-05-29T00:27:31Z",
+  "updated_at": "2026-11-21T15:20:53Z",
+  "pushed_at": "2026-11-17T18:54:31Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "develop",
+  "age_days": 177,
+  "days_since_push": 4,
+  "health_score": 51,
+  "health_components": {
+    "popularity": 49.3,
+    "momentum": 0.4,
+    "maintenance": 100.0,
+    "documentation": 62.0,
+    "accessibility": 63.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 5,
+    "days_span": 11,
+    "stars_per_day": 0.45,
+    "lifetime_stars_per_day": 1.64,
+    "basis": "history",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "codecoradev/uteke",
+    "readme_chars": 25647,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "memory-context",
+      "mcp-support",
+      "self-hosted",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "ch, merged by Reciprocal Rank Fusion (RRF).",
+      "memory-context": "web, desktop or mobile add https://uteke.app/mcp as a connector, sign in (Uteke Cloud)",
+      "mcp-support": "Self-host (this repo) Uteke Cloud",
+      "self-hosted": "nt engine, and decay for stale memories.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "memory-context": 3,
+      "mcp-support": 1,
+      "self-hosted": 2,
+      "cross-agent-support": 3
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 37,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "Homebrew install",
+        "cargo install"
+      ],
+      "hard_signals": [
+        "docker run",
+        "cargo build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Some setup. install via Homebrew install, cargo install; needs docker run, cargo build; configure sign-in required, database dependency",
+      "note_zh": "需要一些配置。可通过 Homebrew install、cargo install 安装；需要 docker run、cargo build；需配置 sign-in required、database dependency"
+    },
+    "doc_score": 62,
+    "doc_signals": [
+      "contains code blocks",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "summary_en": "One Rust binary, runs offline, no API key.",
+    "summary_zh": "",
+    "install_hint": "curl -sSL codecora.dev/uteke/install | sh",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.312
+    },
+    "highlights": [
+      "Fusion merges the vector ranking (weight 1.7) with the hybrid ranking (weight 1), then adds small salience and recency boosts.",
+      "Verifiable recall. 98.2% recall@5 on LongMemEval-S, with the stricter numbers shown next to it and the raw outputs in this repo.",
+      "One binary. No Python, no Docker, no vector database, no API key. The embedding model (~200 MB) downloads once.",
+      "Fast and cheap to query. ~45 ms warm recall, 0 LLM tokens per query, CPU only."
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-22T12:38:15+00:00",
+  "categories": [
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

@@ -6,34 +6,34 @@
   "url": "https://github.com/Archive228/loopkit",
   "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
   "homepage": "",
-  "stars": 759,
+  "stars": 760,
   "forks": 126,
   "open_issues": 0,
   "language": "Shell",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-06-30T08:46:55Z",
-  "updated_at": "2026-11-11T03:27:55Z",
+  "updated_at": "2026-11-22T09:58:56Z",
   "pushed_at": "2026-07-14T21:10:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 144,
-  "days_since_push": 129,
-  "health_score": 45,
+  "age_days": 145,
+  "days_since_push": 130,
+  "health_score": 46,
   "health_components": {
     "popularity": 57.6,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 54.0,
     "accessibility": 81.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.27,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 5.24,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,24 +128,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:42:37+00:00",
+  "fetched_at": "2026-11-22T12:37:48+00:00",
   "categories": [
     "desktop-ui",
-    "desktop-ui-2",
     "failover"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by numman-ali/n-skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 numman-ali/n-skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "numman-ali/n-skills",
+    "note_en": "Superseded by thedivergentai/Game-Dev-Agentic-Skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 thedivergentai/Game-Dev-Agentic-Skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "thedivergentai/Game-Dev-Agentic-Skills",
     "challenger": "",
     "supersede": {
       "incumbent": "archive228/loopkit",
-      "challenger": "numman-ali/n-skills",
+      "challenger": "thedivergentai/game-dev-agentic-skills",
       "incumbent_name": "Archive228/loopkit",
-      "challenger_name": "numman-ali/n-skills",
+      "challenger_name": "thedivergentai/Game-Dev-Agentic-Skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -157,15 +156,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.386,
-      "momentum_ratio": 4.0,
-      "setup_delta": -3,
-      "dominance": 0.797,
+      "star_ratio": 1.295,
+      "momentum_ratio": 10.0,
+      "setup_delta": 2,
+      "dominance": 0.799,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.39x the stars (1,052 vs 759)",
-        "4.00x the star velocity (0.2/day vs 0.0/day)",
-        "no harder to set up (16 vs 19 friction)"
+        "1.29x the stars (984 vs 760)",
+        "10.00x the star velocity (2.0/day vs 0.2/day)",
+        "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -179,14 +178,17 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
+          "memory-context",
           "multi-agent-orchestration",
+          "parallel-execution",
           "skills-plugins"
         ],
-        "incumbent_health": 45,
-        "challenger_health": 52,
+        "incumbent_health": 46,
+        "challenger_health": 53,
         "incumbent_setup_score": 19,
-        "challenger_setup_score": 16
+        "challenger_setup_score": 21
       }
     }
   }

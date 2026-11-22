@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 221,
-  "days_since_push": 1,
+  "age_days": 222,
+  "days_since_push": 2,
   "health_score": 53,
   "health_components": {
     "popularity": 52.3,
@@ -47,9 +47,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 12,
+    "days_span": 13,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.86,
+    "lifetime_stars_per_day": 1.85,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -143,12 +143,12 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:43:02+00:00",
+  "fetched_at": "2026-11-22T12:38:05+00:00",
   "categories": [
-    "isolation",
+    "parallelism",
     "sessions-memory"
   ],
-  "primary_category": "isolation",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (5/5).",
@@ -172,13 +172,13 @@
         "worktree-isolation"
       ],
       "star_ratio": 4.217,
-      "momentum_ratio": 64.0,
+      "momentum_ratio": 56.0,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "4.22x the stars (1,729 vs 410)",
-        "64.00x the star velocity (3.2/day vs 0.0/day)",
+        "56.00x the star velocity (2.8/day vs 0.0/day)",
         "no harder to set up (8 vs 28 friction)"
       ],
       "reasons_zh": [],

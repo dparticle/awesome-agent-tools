@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 489 |
-| Star velocity | 0.0/day (history basis, 7d span) |
+| Star velocity | 0.0/day (history basis, 5d span) |
 | Health score | 49/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-11-02 (19 days ago) |
+| Last push | 2026-11-02 (20 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer)** — Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).

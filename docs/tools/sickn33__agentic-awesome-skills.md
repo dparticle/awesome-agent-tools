@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 50,075 |
-| Star velocity | 57.8/day (history basis, 5d span) |
+| Stars | 50,134 |
+| Star velocity | 54.8/day (history basis, 5d span) |
 | Health score | 79/100 |
 | Documentation | 82/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-01-14 |
-| Last push | 2026-11-20 (0 days ago) |
-| Analyzed README | 132,500 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-21 (0 days ago) |
+| Analyzed README | 132,414 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@
 
 ### MCP support
 
-> uptime-monitoring) - content checks confirmed from a second location, heartbeats for scheduled jobs, certificate and domain expiry, status pages and a tested alert route, through the hosted Staygreen MCP server; the sam…
+> uct-engineering: Pawel Huryn’s MIT collection of 45 product discovery, agent coordination, shipping and application operations workflows.
 
 ### Security & isolation
 
@@ -121,7 +121,7 @@ Score **82/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 94.0 |
-| momentum | 48.2 |
+| momentum | 45.7 |
 | maintenance | 100.0 |
 | documentation | 82.0 |
 | accessibility | 68.0 |

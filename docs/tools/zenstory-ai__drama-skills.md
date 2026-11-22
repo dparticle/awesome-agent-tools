@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 4,591 |
-| Star velocity | 51.2/day (history basis, 5d span) |
-| Health score | 68/100 |
-| Documentation | 54/100 |
+| Stars | 4,632 |
+| Star velocity | 48.6/day (history basis, 5d span) |
+| Health score | 69/100 |
+| Documentation | 60/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-07-16 |
-| Last push | 2026-11-20 (1 days ago) |
-| Analyzed README | 12,020 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 12,596 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,11 +30,13 @@
 
 ### Skills & plugins
 
-> eck.py（已剪辑剧集再跑一次 edit_tool.py check）核对即可。
+> heck.py（已剪辑剧集再跑一次 edittool.py check）核对即可。
 
 ### Agent runtime
 
 > github.com/user-attachments/assets/f67e2e04-52e7-42a9-a4a0-e2864ff0f51e
+
+### Notifications
 
 ### Cross-agent support
 
@@ -55,7 +57,7 @@
 
 ## Documentation quality
 
-Score **54/100**, based on these detected signals:
+Score **60/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -65,16 +67,17 @@ Score **54/100**, based on these detected signals:
 - has troubleshooting/FAQ
 - mentions licensing
 - has a table of contents
+- has a Chinese translation
 - documents changes
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 73.2 |
-| momentum | 42.7 |
+| popularity | 73.3 |
+| momentum | 40.5 |
 | maintenance | 100.0 |
-| documentation | 54.0 |
+| documentation | 60.0 |
 | accessibility | 75.0 |
 
 ---

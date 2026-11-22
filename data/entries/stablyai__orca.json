@@ -6,9 +6,9 @@
   "url": "https://github.com/stablyai/orca",
   "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
   "homepage": "https://orca.dev",
-  "stars": 131520,
-  "forks": 8361,
-  "open_issues": 8959,
+  "stars": 132483,
+  "forks": 8459,
+  "open_issues": 8956,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "yc-backed"
   ],
   "created_at": "2026-03-17T03:28:57Z",
-  "updated_at": "2026-11-21T12:40:42Z",
-  "pushed_at": "2026-11-21T12:40:08Z",
+  "updated_at": "2026-11-22T12:36:00Z",
+  "pushed_at": "2026-11-22T12:34:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 249,
+  "age_days": 250,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 5184,
+    "stars_gained": 5095,
     "days_span": 5,
-    "stars_per_day": 1036.8,
-    "lifetime_stars_per_day": 528.19,
+    "stars_per_day": 1019.0,
+    "lifetime_stars_per_day": 529.93,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "stablyai/orca",
-    "readme_chars": 21502,
+    "readme_chars": 21579,
     "capabilities": [
       "multi-account-switching",
       "remote-control",
@@ -85,7 +85,7 @@
       "agent-runtime": "e desktop apps and external browsers.",
       "self-hosted": "rivacy & telemetry docs for what anonymous usage data Orca collects and how to opt out.",
       "gui-desktop": "tart a workspace for each when you're ready to build.",
-      "notifications": "e in split panes shaped to the task.",
+      "notifications": "by side in split panes shaped to the task.",
       "voice-input": "Markdown right in the workspace, next to the agent that made them.",
       "cross-agent-support": "Mentions Amp, Claude Code, Cline, Codex"
     },
@@ -95,7 +95,7 @@
       "mobile-access": 3,
       "multi-agent-orchestration": 1,
       "parallel-execution": 1,
-      "worktree-isolation": 4,
+      "worktree-isolation": 3,
       "agent-runtime": 2,
       "self-hosted": 1,
       "gui-desktop": 2,
@@ -151,7 +151,7 @@
       "Goose",
       "Droid"
     ],
-    "summary_en": "Most bots end in a chat thread.",
+    "summary_en": "Open source.",
     "summary_zh": "",
     "install_hint": "brew install --cask stablyai/orca/orca",
     "source": "raw:HEAD/README.md",
@@ -161,10 +161,10 @@
       "signals": [
         "list-maintenance framing"
       ],
-      "external_link_ratio": 2.139
+      "external_link_ratio": 2.132
     },
     "highlights": [
-      "Bot Schedules & Triggers: ask a bot to run every weekday at 9, or when a pull request opens, a check fails, or a webhook fires.",
+      "Bot Schedules & Triggers: run a bot every weekday at 9, or when a pull request opens, a check fails, or a webhook fires.",
       "Mobile Emulator: run an iOS Simulator or Android emulator beside your agent, and let it tap, type, and check its own work.",
       "Computer Use: when there's no CLI or API, agents can see and drive desktop apps and external browsers.",
       "Automations: schedule prompts to run on any repo: nightly dependency bumps, weekly triage, flaky-test sweeps."
@@ -178,7 +178,7 @@
     "seed_reason": "Run a fleet of parallel agents, each on your own subscription.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-21T12:40:54+00:00",
+  "fetched_at": "2026-11-22T12:36:46+00:00",
   "categories": [
     "desktop-ui",
     "mobile",

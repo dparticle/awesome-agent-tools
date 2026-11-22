@@ -6,9 +6,9 @@
   "url": "https://github.com/Gentleman-Programming/gentle-ai",
   "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
   "homepage": "https://gentlemanprogramming.com/",
-  "stars": 9446,
+  "stars": 9461,
   "forks": 904,
-  "open_issues": 300,
+  "open_issues": 305,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -31,33 +31,33 @@
     "spec-driven-development"
   ],
   "created_at": "2026-02-27T23:28:01Z",
-  "updated_at": "2026-11-21T05:12:53Z",
-  "pushed_at": "2026-11-21T12:25:50Z",
+  "updated_at": "2026-11-22T07:13:36Z",
+  "pushed_at": "2026-11-22T10:54:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
+  "age_days": 267,
   "days_since_push": 0,
-  "health_score": 73,
+  "health_score": 71,
   "health_components": {
     "popularity": 79.5,
-    "momentum": 33.3,
+    "momentum": 25.3,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 200,
+    "stars_gained": 152,
     "days_span": 5,
-    "stars_per_day": 40.0,
-    "lifetime_stars_per_day": 35.51,
+    "stars_per_day": 30.4,
+    "lifetime_stars_per_day": 35.43,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Gentleman-Programming/gentle-ai",
-    "readme_chars": 26361,
+    "readme_chars": 26462,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -131,7 +131,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.303
+      "external_link_ratio": 0.302
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -143,11 +143,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:42:01+00:00",
+  "fetched_at": "2026-11-22T12:37:24+00:00",
   "categories": [
-    "desktop-ui-2"
+    "failover"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "active",
     "note_en": "",

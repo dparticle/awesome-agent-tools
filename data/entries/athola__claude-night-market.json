@@ -34,13 +34,13 @@
     "test-driven-development"
   ],
   "created_at": "2025-11-23T06:45:40Z",
-  "updated_at": "2026-11-20T16:45:41Z",
+  "updated_at": "2026-11-22T02:00:45Z",
   "pushed_at": "2026-11-20T20:15:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 363,
-  "days_since_push": 0,
+  "age_days": 364,
+  "days_since_push": 1,
   "health_score": 52,
   "health_components": {
     "popularity": 50.9,
@@ -142,11 +142,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-21T12:43:07+00:00",
+  "fetched_at": "2026-11-22T12:38:07+00:00",
   "categories": [
-    "desktop-ui-2"
+    "failover"
   ],
-  "primary_category": "desktop-ui-2",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
@@ -168,14 +168,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 143.071,
-      "momentum_ratio": 1156.0,
+      "star_ratio": 143.24,
+      "momentum_ratio": 1096.0,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "143.07x the stars (50,075 vs 350)",
-        "1156.00x the star velocity (57.8/day vs 0.0/day)",
+        "143.24x the stars (50,134 vs 350)",
+        "1096.00x the star velocity (54.8/day vs 0.0/day)",
         "no harder to set up (32 vs 42 friction)"
       ],
       "reasons_zh": [],

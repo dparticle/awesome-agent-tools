@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 3,877 |
-| Star velocity | 13.9/day (lifetime basis, 279d span) |
+| Star velocity | 13.8/day (lifetime basis, 280d span) |
 | Health score | 58/100 |
 | Documentation | 29/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | Rust |
 | Created | 2026-02-15 |
-| Last push | 2026-11-19 (2 days ago) |
+| Last push | 2026-11-19 (3 days ago) |
 | Analyzed README | 16,297 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -87,7 +87,7 @@ Score **29/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 71.8 |
-| momentum | 11.6 |
+| momentum | 11.5 |
 | maintenance | 100.0 |
 | documentation | 29.0 |
 | accessibility | 86.0 |

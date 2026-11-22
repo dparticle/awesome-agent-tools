@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,557 |
-| Star velocity | 4.2/day (history basis, 5d span) |
+| Stars | 5,559 |
+| Star velocity | 3.6/day (history basis, 5d span) |
 | Health score | 65/100 |
 | Documentation | 76/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-21 (0 days ago) |
-| Analyzed README | 31,637 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 31,556 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -50,7 +50,7 @@
 
 ### Cross-agent support
 
-> Mentions Amp, Claude Code, Cline, Codex
+> Mentions Amp, Cline, Codex
 
 ## Setup reality check
 
@@ -90,7 +90,7 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.9 |
-| momentum | 3.5 |
+| momentum | 3.0 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
 | accessibility | 96.0 |

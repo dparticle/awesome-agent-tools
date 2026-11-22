@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,040 |
-| Star velocity | 1408.0/day (lifetime basis, 5d span) |
-| Health score | 83/100 |
-| Documentation | 61/100 |
+| Stars | 7,717 |
+| Star velocity | 1286.2/day (lifetime basis, 6d span) |
+| Health score | 84/100 |
+| Documentation | 63/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-11-16 |
-| Last push | 2026-11-21 (0 days ago) |
-| Analyzed README | 19,534 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 23,167 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Agent runtime
 
-> а · Кыргызча · Türkmençe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt
+> nçe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt · Español · Italiano
 
 ### MCP support
 
@@ -43,7 +43,7 @@
 - **Difficulty:** 🟢 Easy (friction score 34/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
-- **Quickest install:** `cargo install rust-anything   # from crates.io`
+- **Quickest install:** `npm install -g eslint-rs     # ESLint 10.15.0`
 
 **Signals that make it easy:** cargo install, global npm install
 
@@ -55,7 +55,7 @@
 
 ## Documentation quality
 
-Score **61/100**, based on these detected signals:
+Score **63/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -67,15 +67,16 @@ Score **61/100**, based on these detected signals:
 - mentions licensing
 - has a Chinese translation
 - reports benchmarks
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 77.0 |
+| popularity | 77.7 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 61.0 |
+| documentation | 63.0 |
 | accessibility | 66.0 |
 
 ---
