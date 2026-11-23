@@ -12,23 +12,25 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,782 |
-| Star velocity | 11.6/day (history basis, 5d span) |
-| Health score | 55/100 |
-| Documentation | 66/100 |
+| Stars | 1,794 |
+| Star velocity | 12.6/day (history basis, 5d span) |
+| Health score | 56/100 |
+| Documentation | 71/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-11-22 (0 days ago) |
-| Analyzed README | 24,594 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-23 (0 days ago) |
+| Analyzed README | 26,545 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
 
 ## What it solves
 
 ### Memory & context
+
+> ssions, agents, and people.
 
 ### Agent runtime
 
@@ -56,7 +58,7 @@
 
 ## Documentation quality
 
-Score **66/100**, based on these detected signals:
+Score **71/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -67,6 +69,7 @@ Score **66/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - links to dedicated docs
+- documents changes
 - reports benchmarks
 - long, detailed README
 
@@ -74,10 +77,10 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 65.0 |
-| momentum | 9.7 |
+| popularity | 65.1 |
+| momentum | 10.5 |
 | maintenance | 100.0 |
-| documentation | 66.0 |
+| documentation | 71.0 |
 | accessibility | 31.0 |
 
 ---

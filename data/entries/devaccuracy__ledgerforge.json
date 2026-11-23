@@ -6,8 +6,8 @@
   "url": "https://github.com/devaccuracy/ledgerforge",
   "description": "The ledger for AI-native money movement. An open-source double-entry ledger for wallets, payouts, marketplaces and billing, with exact integer money, a verifiable audit chain, server-enforced spending limits and approvals for AI agents, and an MCP server. Apache 2.0.",
   "homepage": "https://ledgerforge.io",
-  "stars": 330,
-  "forks": 34,
+  "stars": 379,
+  "forks": 37,
   "open_issues": 11,
   "language": "Go",
   "license": "Apache-2.0",
@@ -21,29 +21,29 @@
     "wallet"
   ],
   "created_at": "2026-05-10T09:41:41Z",
-  "updated_at": "2026-11-21T18:59:53Z",
+  "updated_at": "2026-11-23T06:02:46Z",
   "pushed_at": "2026-10-16T14:24:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 196,
-  "days_since_push": 36,
-  "health_score": 45,
+  "age_days": 197,
+  "days_since_push": 38,
+  "health_score": 46,
   "health_components": {
-    "popularity": 50.4,
-    "momentum": 3.2,
+    "popularity": 51.6,
+    "momentum": 7.2,
     "maintenance": 78.0,
     "documentation": 55.0,
     "accessibility": 48.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 19,
+    "stars_gained": 43,
     "days_span": 5,
-    "stars_per_day": 3.8,
-    "lifetime_stars_per_day": 1.68,
+    "stars_per_day": 8.6,
+    "lifetime_stars_per_day": 1.92,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "devaccuracy/ledgerforge",
@@ -131,7 +131,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:38:08+00:00",
+  "fetched_at": "2026-11-23T14:41:22+00:00",
   "categories": [
     "billing-2",
     "mcp"

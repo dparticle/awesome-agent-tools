@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 485 |
+| Stars | 486 |
 | Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 53/100 |
 | Documentation | 60/100 |
@@ -21,7 +21,7 @@
 | License | UPL-1.0 |
 | Language | Python |
 | Created | 2025-07-27 |
-| Last push | 2026-11-20 (1 days ago) |
+| Last push | 2026-11-20 (2 days ago) |
 | Analyzed README | 29,993 chars from `raw:HEAD/README.md` |
 
 ## What it solves

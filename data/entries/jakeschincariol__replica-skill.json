@@ -6,8 +6,8 @@
   "url": "https://github.com/Jakeschincariol/replica-skill",
   "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
   "homepage": "https://opusjake.ai",
-  "stars": 10291,
-  "forks": 1888,
+  "stars": 10395,
+  "forks": 1913,
   "open_issues": 45,
   "language": "Python",
   "license": "MIT",
@@ -23,27 +23,27 @@
     "saas"
   ],
   "created_at": "2026-10-03T12:07:49Z",
-  "updated_at": "2026-11-22T12:12:03Z",
+  "updated_at": "2026-11-23T14:37:10Z",
   "pushed_at": "2026-10-03T12:07:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 50,
-  "days_since_push": 50,
+  "age_days": 51,
+  "days_since_push": 51,
   "health_score": 72,
   "health_components": {
-    "popularity": 80.2,
-    "momentum": 100.0,
+    "popularity": 80.3,
+    "momentum": 99.8,
     "maintenance": 78.0,
     "documentation": 32.0,
     "accessibility": 37.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 631,
+    "stars_gained": 599,
     "days_span": 5,
-    "stars_per_day": 126.2,
-    "lifetime_stars_per_day": 205.82,
+    "stars_per_day": 119.8,
+    "lifetime_stars_per_day": 203.82,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -110,7 +110,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:36:55+00:00",
+  "fetched_at": "2026-11-23T14:39:19+00:00",
   "categories": [
     "failover"
   ],

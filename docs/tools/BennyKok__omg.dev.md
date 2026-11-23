@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 560 |
-| Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 50/100 |
+| Stars | 561 |
+| Star velocity | 0.6/day (history basis, 5d span) |
+| Health score | 51/100 |
 | Documentation | 42/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-17 |
-| Last push | 2026-11-21 (0 days ago) |
+| Last push | 2026-11-23 (0 days ago) |
 | Analyzed README | 4,007 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [greenfield-inc/Pane](https://github.com/greenfield-inc/Pane)** — Superseded by greenfield-inc/Pane: covers 100% of capabilities (8/8).
@@ -84,7 +84,7 @@ Score **42/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.0 |
-| momentum | 0.2 |
+| momentum | 0.5 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
 | accessibility | 69.0 |

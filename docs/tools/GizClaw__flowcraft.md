@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 410 |
-| Star velocity | 0.0/day (history basis, 13d span) |
+| Star velocity | 0.0/day (history basis, 14d span) |
 | Health score | 53/100 |
 | Documentation | 63/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-04-14 |
-| Last push | 2026-11-20 (2 days ago) |
+| Last push | 2026-11-20 (3 days ago) |
 | Analyzed README | 18,309 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** — Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (5/5).

@@ -6,9 +6,9 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
   "homepage": "https://planningwithfiles.tech/",
-  "stars": 28191,
-  "forks": 2323,
-  "open_issues": 17,
+  "stars": 28203,
+  "forks": 2330,
+  "open_issues": 14,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "session-recovery"
   ],
   "created_at": "2026-01-03T07:37:28Z",
-  "updated_at": "2026-11-22T11:45:54Z",
-  "pushed_at": "2026-11-21T18:19:19Z",
+  "updated_at": "2026-11-23T11:52:09Z",
+  "pushed_at": "2026-11-23T11:57:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 323,
+  "age_days": 324,
   "days_since_push": 0,
   "health_score": 69,
   "health_components": {
     "popularity": 89.0,
-    "momentum": 14.2,
+    "momentum": 13.5,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 85,
+    "stars_gained": 81,
     "days_span": 5,
-    "stars_per_day": 17.0,
-    "lifetime_stars_per_day": 87.28,
+    "stars_per_day": 16.2,
+    "lifetime_stars_per_day": 87.05,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "OthmanAdi/planning-with-files",
-    "readme_chars": 115184,
+    "readme_chars": 115869,
     "capabilities": [
       "multi-agent-orchestration",
       "parallel-execution",
@@ -78,7 +78,7 @@
       "parallel-execution": "ry mechanism below is a file on disk plus a hook, so it works the same on hour ten as on turn one.",
       "worktree-isolation": "** One orchestrator owns taskplan.md and the shared summaries; every worker appends to its own ledger or assigned file.",
       "api-gateway": "",
-      "session-persistence": "d contributor-reported measurements (PRs #331, #333, #334).",
+      "session-persistence": "s and contributor-reported measurements (PRs #331, #333, #334).",
       "memory-context": "",
       "skills-plugins": "laude plugin route, startup, resume, clear, and post-compaction lifecycle events restore selected active-plan context from project files automatically.",
       "agent-runtime": "## Quick Install All install methods: docs/installation.md. --- ## Before and after /clear Every coding agent loses its working memory when the context window resets.",
@@ -93,7 +93,7 @@
       "session-persistence": 1,
       "memory-context": 1,
       "skills-plugins": 3,
-      "agent-runtime": 4,
+      "agent-runtime": 5,
       "security-isolation": 1,
       "cross-agent-support": 9
     },
@@ -159,7 +159,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.365
+      "external_link_ratio": 0.362
     },
     "highlights": [
       "SHA-256 plan attestation (/plan-attest): locks task_plan.md; a tampered plan body is refused at injection.",
@@ -176,7 +176,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:23+00:00",
+  "fetched_at": "2026-11-23T14:39:59+00:00",
   "categories": [
     "failover",
     "parallelism",

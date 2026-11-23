@@ -7,8 +7,8 @@
   "description": "A Desktop Application for Managing Multiple OpenAI Codex CLI Accounts",
   "homepage": "",
   "stars": 934,
-  "forks": 165,
-  "open_issues": 74,
+  "forks": 166,
+  "open_issues": 75,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -26,22 +26,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 312,
-  "days_since_push": 4,
+  "age_days": 313,
+  "days_since_push": 5,
   "health_score": 51,
   "health_components": {
     "popularity": 59.4,
-    "momentum": 0.7,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 34.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.99,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 2.98,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:46+00:00",
+  "fetched_at": "2026-11-23T14:40:43+00:00",
   "categories": [
     "billing",
     "desktop-ui"
@@ -160,14 +160,14 @@
         "multi-agent-orchestration",
         "quota-management"
       ],
-      "star_ratio": 42.747,
-      "momentum_ratio": 487.25,
+      "star_ratio": 43.245,
+      "momentum_ratio": 624.333,
       "setup_delta": -25,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "42.75x the stars (39,926 vs 934)",
-        "487.25x the star velocity (389.8/day vs 0.8/day)",
+        "43.25x the stars (40,391 vs 934)",
+        "624.33x the star velocity (374.6/day vs 0.6/day)",
         "no harder to set up (11 vs 36 friction)"
       ],
       "reasons_zh": [],
@@ -189,7 +189,7 @@
           "quota-management"
         ],
         "incumbent_health": 51,
-        "challenger_health": 91,
+        "challenger_health": 92,
         "incumbent_setup_score": 36,
         "challenger_setup_score": 11
       }

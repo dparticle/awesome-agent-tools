@@ -6,8 +6,8 @@
   "url": "https://github.com/Leonxlnx/earshot",
   "description": "Sound effects for coding agents: ask in plain words and earshot renders the sound in code. CPU-only, no audio model, open source.",
   "homepage": "https://leonxlnx.github.io/earshot-site/",
-  "stars": 5513,
-  "forks": 383,
+  "stars": 5612,
+  "forks": 389,
   "open_issues": 1,
   "language": "Python",
   "license": "MIT",
@@ -21,27 +21,27 @@
     "sound-effects"
   ],
   "created_at": "2026-10-15T06:52:46Z",
-  "updated_at": "2026-11-22T12:03:34Z",
+  "updated_at": "2026-11-23T14:23:32Z",
   "pushed_at": "2026-11-22T00:30:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 38,
-  "days_since_push": 0,
-  "health_score": 74,
+  "age_days": 39,
+  "days_since_push": 1,
+  "health_score": 75,
   "health_components": {
-    "popularity": 74.8,
-    "momentum": 75.0,
+    "popularity": 75.0,
+    "momentum": 79.3,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 51.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 450,
+    "stars_gained": 476,
     "days_span": 5,
-    "stars_per_day": 90.0,
-    "lifetime_stars_per_day": 145.08,
+    "stars_per_day": 95.2,
+    "lifetime_stars_per_day": 143.9,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:03+00:00",
+  "fetched_at": "2026-11-23T14:39:33+00:00",
   "categories": [
     "failover",
     "mcp"
@@ -162,14 +162,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 1.72,
-      "momentum_ratio": 4.327,
+      "star_ratio": 1.792,
+      "momentum_ratio": 4.502,
       "setup_delta": 1,
-      "dominance": 0.85,
+      "dominance": 0.865,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.72x the stars (9,481 vs 5,513)",
-        "4.33x the star velocity (389.4/day vs 90.0/day)",
+        "1.79x the stars (10,059 vs 5,612)",
+        "4.50x the star velocity (428.6/day vs 95.2/day)",
         "slightly heavier setup (+1 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -193,7 +193,7 @@
           "skills-plugins",
           "voice-input"
         ],
-        "incumbent_health": 74,
+        "incumbent_health": 75,
         "challenger_health": 89,
         "incumbent_setup_score": 49,
         "challenger_setup_score": 50

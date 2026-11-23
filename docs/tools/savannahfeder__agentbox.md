@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 454 |
-| Star velocity | 5.0/day (history basis, 5d span) |
+| Stars | 455 |
+| Star velocity | 4.2/day (history basis, 5d span) |
 | Health score | 51/100 |
-| Documentation | 37/100 |
+| Documentation | 38/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | GPL-3.0 |
 | Language | TypeScript |
 | Created | 2026-09-28 |
-| Last push | 2026-11-22 (0 days ago) |
-| Analyzed README | 19,915 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-23 (0 days ago) |
+| Analyzed README | 20,390 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (8/8).
 
@@ -67,22 +67,23 @@
 
 ## Documentation quality
 
-Score **37/100**, based on these detected signals:
+Score **38/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - documents installation
 - documents configuration
 - mentions licensing
+- long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 53.1 |
-| momentum | 4.2 |
+| popularity | 53.2 |
+| momentum | 3.5 |
 | maintenance | 100.0 |
-| documentation | 37.0 |
+| documentation | 38.0 |
 | accessibility | 73.0 |
 
 ---

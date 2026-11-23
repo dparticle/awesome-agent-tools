@@ -6,9 +6,9 @@
   "url": "https://github.com/Licoy/Quosparr",
   "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude, Gemini (Antigravity) and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude、Gemini（Antigravity）、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
   "homepage": "https://quosparr.com",
-  "stars": 334,
+  "stars": 335,
   "forks": 26,
-  "open_issues": 1,
+  "open_issues": 0,
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [
@@ -34,33 +34,33 @@
     "windows"
   ],
   "created_at": "2026-06-29T00:39:56Z",
-  "updated_at": "2026-11-22T10:59:22Z",
-  "pushed_at": "2026-11-18T08:53:25Z",
+  "updated_at": "2026-11-22T19:09:14Z",
+  "pushed_at": "2026-11-23T09:25:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 146,
-  "days_since_push": 4,
+  "age_days": 147,
+  "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 50.5,
-    "momentum": 0.7,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 68.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 2.29,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 2.28,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Licoy/Quosparr",
-    "readme_chars": 28904,
+    "readme_chars": 28934,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -156,7 +156,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.208
+      "external_link_ratio": 0.207
     },
     "highlights": [
       "Quota of the Google Antigravity clients (the new desktop App and the agy CLI): remaining share and reset time of the 5-hour and weekly windows for Gemini models and for Claude models, and o…",
@@ -173,9 +173,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:38:08+00:00",
+  "fetched_at": "2026-11-23T14:41:26+00:00",
   "categories": [
     "billing",
+    "model-routing",
     "sessions-memory"
   ],
   "primary_category": "billing",

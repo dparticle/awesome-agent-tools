@@ -6,9 +6,9 @@
   "url": "https://github.com/BaaRai/ARTEX",
   "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
   "homepage": "",
-  "stars": 15650,
-  "forks": 5957,
-  "open_issues": 29,
+  "stars": 17139,
+  "forks": 6356,
+  "open_issues": 36,
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [
@@ -34,16 +34,16 @@
     "typescript"
   ],
   "created_at": "2026-10-08T21:14:39Z",
-  "updated_at": "2026-11-22T12:35:50Z",
-  "pushed_at": "2026-11-22T10:00:46Z",
+  "updated_at": "2026-11-23T14:37:48Z",
+  "pushed_at": "2026-11-23T14:26:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 44,
+  "age_days": 45,
   "days_since_push": 0,
   "health_score": 79,
   "health_components": {
-    "popularity": 83.9,
+    "popularity": 84.7,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 15650,
-    "days_span": 44,
-    "stars_per_day": 355.68,
-    "lifetime_stars_per_day": 355.68,
+    "stars_gained": 17139,
+    "days_span": 45,
+    "stars_per_day": 380.87,
+    "lifetime_stars_per_day": 380.87,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "BaaRai/ARTEX",
-    "readme_chars": 45367,
+    "readme_chars": 48020,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -80,17 +80,17 @@
       "model-routing": "*LLM**: export ANTHROPICAPIKEY=sk-...",
       "api-gateway": "",
       "billing-metering": "rchives for repeatable engagements.",
-      "skills-plugins": "",
+      "skills-plugins": "rst image is published, download",
       "mcp-support": "tible relays and keyless Ollama;",
       "security-isolation": "oxies, custom-tool execution specs, capture-proxy rewrite rules and traffic",
       "self-hosted": "",
       "gui-desktop": "XUPDATECHECK=1 to ask the",
-      "notifications": "Postgres database (and optionally the data directory) with"
+      "notifications": "optionally the data directory) with"
     },
     "capability_hits": {
       "auto-failover": 3,
       "multi-agent-orchestration": 2,
-      "model-routing": 5,
+      "model-routing": 7,
       "api-gateway": 1,
       "billing-metering": 1,
       "skills-plugins": 1,
@@ -162,7 +162,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.265
+      "external_link_ratio": 0.229
     },
     "highlights": [
       "nginx and ARTEX both on the host (binary, ./start.sh): the peer is 127.0.0.1; start ARTEX",
@@ -179,13 +179,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:36:53+00:00",
+  "fetched_at": "2026-11-23T14:39:14+00:00",
   "categories": [
-    "accounts",
+    "failover-2",
     "mcp",
     "teams-self-hosting"
   ],
-  "primary_category": "teams-self-hosting",
+  "primary_category": "failover-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

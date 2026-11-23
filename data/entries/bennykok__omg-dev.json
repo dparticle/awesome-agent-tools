@@ -6,7 +6,7 @@
   "url": "https://github.com/BennyKok/omg.dev",
   "description": "omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcode with mobile client",
   "homepage": "https://omg.dev",
-  "stars": 560,
+  "stars": 561,
   "forks": 43,
   "open_issues": 1,
   "language": "TypeScript",
@@ -24,27 +24,27 @@
     "self-hosted"
   ],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-11-20T10:58:57Z",
-  "pushed_at": "2026-11-21T20:03:38Z",
+  "updated_at": "2026-11-23T00:45:10Z",
+  "pushed_at": "2026-11-23T04:59:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 158,
+  "age_days": 159,
   "days_since_push": 0,
-  "health_score": 50,
+  "health_score": 51,
   "health_components": {
     "popularity": 55.0,
-    "momentum": 0.2,
+    "momentum": 0.5,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 3.54,
+    "stars_per_day": 0.6,
+    "lifetime_stars_per_day": 3.53,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:54+00:00",
+  "fetched_at": "2026-11-23T14:41:00+00:00",
   "categories": [
     "desktop-ui",
     "failover",
@@ -178,14 +178,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 1.198,
-      "momentum_ratio": 12.0,
+      "star_ratio": 1.205,
+      "momentum_ratio": 5.0,
       "setup_delta": -2,
-      "dominance": 0.791,
+      "dominance": 0.792,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "1.20x the stars (671 vs 560)",
-        "12.00x the star velocity (2.4/day vs 0.2/day)",
+        "1.20x the stars (676 vs 561)",
+        "5.00x the star velocity (3.0/day vs 0.6/day)",
         "no harder to set up (29 vs 31 friction)"
       ],
       "reasons_zh": [],
@@ -216,7 +216,7 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 50,
+        "incumbent_health": 51,
         "challenger_health": 56,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 29

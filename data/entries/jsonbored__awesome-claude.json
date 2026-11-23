@@ -7,8 +7,8 @@
   "description": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
   "homepage": "https://heyclau.de",
   "stars": 310,
-  "forks": 197,
-  "open_issues": 87,
+  "forks": 198,
+  "open_issues": 88,
   "language": "MDX",
   "license": "MIT",
   "topics": [
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 433,
-  "days_since_push": 19,
+  "age_days": 434,
+  "days_since_push": 20,
   "health_score": 52,
   "health_components": {
     "popularity": 49.8,
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 0.72,
+    "lifetime_stars_per_day": 0.71,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -240,7 +240,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:38:12+00:00",
+  "fetched_at": "2026-11-23T14:41:34+00:00",
   "categories": [
     "mobile",
     "parallelism",

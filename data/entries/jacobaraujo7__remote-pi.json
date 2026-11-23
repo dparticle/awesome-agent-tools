@@ -6,9 +6,9 @@
   "url": "https://github.com/jacobaraujo7/remote_pi",
   "description": "Control your Pi coding agent from your phone. Pair with a one-time QR code and chat with your local agent, even when you're away from your computer.",
   "homepage": "https://cockpit.jacobmoura.work",
-  "stars": 502,
-  "forks": 145,
-  "open_issues": 116,
+  "stars": 503,
+  "forks": 146,
+  "open_issues": 118,
   "language": "Dart",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "rust"
   ],
   "created_at": "2026-05-22T04:59:59Z",
-  "updated_at": "2026-11-22T09:04:47Z",
-  "pushed_at": "2026-11-20T15:21:34Z",
+  "updated_at": "2026-11-23T12:29:25Z",
+  "pushed_at": "2026-11-22T19:36:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 184,
-  "days_since_push": 1,
-  "health_score": 51,
+  "age_days": 185,
+  "days_since_push": 0,
+  "health_score": 50,
   "health_components": {
     "popularity": 54.0,
-    "momentum": 1.5,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 64.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 2.73,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 2.72,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -119,7 +119,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:57+00:00",
+  "fetched_at": "2026-11-23T14:41:06+00:00",
   "categories": [
     "desktop-ui",
     "failover",
@@ -148,14 +148,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 49.125,
-      "momentum_ratio": 47.556,
+      "star_ratio": 49.235,
+      "momentum_ratio": 71.667,
       "setup_delta": -12,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "49.13x the stars (24,661 vs 502)",
-        "47.56x the star velocity (85.6/day vs 1.8/day)",
+        "49.23x the stars (24,765 vs 503)",
+        "71.67x the star velocity (86.0/day vs 1.2/day)",
         "no harder to set up (24 vs 36 friction)"
       ],
       "reasons_zh": [],
@@ -181,7 +181,7 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 51,
+        "incumbent_health": 50,
         "challenger_health": 80,
         "incumbent_setup_score": 36,
         "challenger_setup_score": 24

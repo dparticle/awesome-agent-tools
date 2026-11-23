@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 15,650 |
-| Star velocity | 355.7/day (lifetime basis, 44d span) |
+| Stars | 17,139 |
+| Star velocity | 380.9/day (lifetime basis, 45d span) |
 | Health score | 79/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-10-08 |
-| Last push | 2026-11-22 (0 days ago) |
-| Analyzed README | 45,367 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-23 (0 days ago) |
+| Analyzed README | 48,020 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,6 +46,8 @@
 
 ### Skills & plugins
 
+> rst image is published, download
+
 ### MCP support
 
 > tible relays and keyless Ollama;
@@ -62,7 +64,7 @@
 
 ### Notifications
 
-> Postgres database (and optionally the data directory) with
+> optionally the data directory) with
 
 ## Setup reality check
 
@@ -98,7 +100,7 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 83.9 |
+| popularity | 84.7 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 73.0 |

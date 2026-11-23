@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,084 |
-| Star velocity | 3.9/day (lifetime basis, 281d span) |
+| Stars | 1,096 |
+| Star velocity | 3.9/day (lifetime basis, 283d span) |
 | Health score | 58/100 |
 | Documentation | 80/100 |
 | Tier | 🔹 Notable |
@@ -21,38 +21,38 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-02-13 |
-| Last push | 2026-11-22 (0 days ago) |
-| Analyzed README | 51,938 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-23 (0 days ago) |
+| Analyzed README | 56,026 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> free core model GPT-6 Luna, DeepSeek V4.1 Flash 1017, Clef Flash (decision endpoint, free promo)
+> per free core model GPT-6 Luna, DeepSeek V4.1 Flash 1017, Clef Flash (decision endpoint, free promo)
 
 ### Quota & usage management
 
-> , Codex, Cursor, your own code…) talks to **one** OpenAI/Anthropic-compatible address, and the router always sends the request to a free model that is up — switching **instantly** when one is busy or out of quota.
+> ude Code, Codex, Cursor, your own code…) talks to one OpenAI/Anthropic-compatible address, and the router always sends the request to a free model that is up — switching instantly when one is busy or out of quota.
 
 ### Model / provider routing
 
-> uests per day per model, free forever).
+> ,000 requests per day per model, free forever).
 
 ### API gateway / proxy
 
-> notes for each provider live on its page at **free-llm.com/provider/<slug>** (e.g.
+> notes for each provider live on its page at free-llm.com/provider/<slug> (e.g.
 
 ### Billing & metering
 
-> **Hetzner Inference API** 💳 Card required ⏱️ 10 requests, 4M input / 100K output tokens per 60s (per API key) 📅 No daily cap published (free while the API is experimental); a Hetzner account with billing de… 🗓️ Free dur…
+> 0 requests, 4M input / 100K output tokens per 60s (per API key) 📅 No daily cap published (free while the API is experimental); a Hetzner account with billing de… 🗓️ Free during experimental phase, no billing system yet…
 
 ### Agent runtime
 
-> g free plan that never goes down — and the list of providers updates itself the same day from free-llm.com, for everyone, free.
+> ehave like one big free plan that never goes down — and the list of providers updates itself the same day from free-llm.com, for everyone, free.
 
 ### MCP support
 
-> updates itself the same day from free-llm.com, for everyone, free.
+> ist of providers updates itself the same day from free-llm.com, for everyone, free.
 
 ### Self-hostable
 
@@ -103,7 +103,7 @@ Score **80/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 60.7 |
+| popularity | 60.8 |
 | momentum | 3.2 |
 | maintenance | 100.0 |
 | documentation | 80.0 |

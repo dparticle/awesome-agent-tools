@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
   "homepage": "https://career-ops.org",
-  "stars": 84121,
-  "forks": 15395,
-  "open_issues": 439,
+  "stars": 84348,
+  "forks": 15431,
+  "open_issues": 418,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,12 +34,12 @@
     "resume"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-11-22T12:31:34Z",
-  "pushed_at": "2026-11-22T11:49:56Z",
+  "updated_at": "2026-11-23T14:32:32Z",
+  "pushed_at": "2026-11-23T14:35:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 231,
+  "age_days": 232,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 903,
+    "stars_gained": 883,
     "days_span": 5,
-    "stars_per_day": 180.6,
-    "lifetime_stars_per_day": 364.16,
+    "stars_per_day": 176.6,
+    "lifetime_stars_per_day": 363.57,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "career-ops-hq/career-ops",
-    "readme_chars": 45638,
+    "readme_chars": 45789,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -140,7 +140,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 0.482
+      "external_link_ratio": 0.48
     },
     "highlights": [
       "Push you to apply below 4.0/5. It will tell you not to. You can override it, and it will say so.",
@@ -157,11 +157,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:14+00:00",
+  "fetched_at": "2026-11-23T14:39:49+00:00",
   "categories": [
-    "failover-2"
+    "model-routing"
   ],
-  "primary_category": "failover-2",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

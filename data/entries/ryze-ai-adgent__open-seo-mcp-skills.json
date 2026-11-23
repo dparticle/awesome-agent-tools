@@ -6,8 +6,8 @@
   "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
   "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
   "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
-  "stars": 10640,
-  "forks": 397,
+  "stars": 10644,
+  "forks": 400,
   "open_issues": 4,
   "language": "Shell",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "seo-mcp-server"
   ],
   "created_at": "2026-08-29T23:37:01Z",
-  "updated_at": "2026-11-22T11:40:30Z",
+  "updated_at": "2026-11-23T14:17:42Z",
   "pushed_at": "2026-10-27T08:57:55Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 84,
-  "days_since_push": 26,
-  "health_score": 65,
+  "age_days": 85,
+  "days_since_push": 27,
+  "health_score": 58,
   "health_components": {
     "popularity": 80.5,
-    "momentum": 46.8,
+    "momentum": 16.5,
     "maintenance": 92.0,
     "documentation": 43.0,
     "accessibility": 50.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 281,
+    "stars_gained": 99,
     "days_span": 5,
-    "stars_per_day": 56.2,
-    "lifetime_stars_per_day": 126.67,
+    "stars_per_day": 19.8,
+    "lifetime_stars_per_day": 125.22,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:36:55+00:00",
+  "fetched_at": "2026-11-23T14:39:18+00:00",
   "categories": [
     "mcp"
   ],

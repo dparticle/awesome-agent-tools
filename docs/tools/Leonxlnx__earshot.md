@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,513 |
-| Star velocity | 90.0/day (history basis, 5d span) |
-| Health score | 74/100 |
+| Stars | 5,612 |
+| Star velocity | 95.2/day (history basis, 5d span) |
+| Health score | 75/100 |
 | Documentation | 57/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-10-15 |
-| Last push | 2026-11-22 (0 days ago) |
+| Last push | 2026-11-22 (1 days ago) |
 | Analyzed README | 40,209 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)** — Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).
@@ -75,8 +75,8 @@ Score **57/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.8 |
-| momentum | 75.0 |
+| popularity | 75.0 |
+| momentum | 79.3 |
 | maintenance | 100.0 |
 | documentation | 57.0 |
 | accessibility | 51.0 |

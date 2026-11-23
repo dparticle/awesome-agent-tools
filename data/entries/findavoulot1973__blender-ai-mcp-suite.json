@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 9,
-  "days_since_push": 6,
-  "health_score": 53,
+  "age_days": 10,
+  "days_since_push": 8,
+  "health_score": 51,
   "health_components": {
     "popularity": 53.9,
-    "momentum": 6.8,
-    "maintenance": 100.0,
+    "momentum": 5.9,
+    "maintenance": 92.0,
     "documentation": 47.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 57,
-    "days_span": 7,
-    "stars_per_day": 8.14,
-    "lifetime_stars_per_day": 55.0,
+    "days_span": 8,
+    "stars_per_day": 7.12,
+    "lifetime_stars_per_day": 49.5,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -135,7 +135,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:57+00:00",
+  "fetched_at": "2026-11-23T14:41:08+00:00",
   "categories": [
     "mcp"
   ],

@@ -6,8 +6,8 @@
   "url": "https://github.com/breferrari/obsidian-mind",
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
   "homepage": "",
-  "stars": 5555,
-  "forks": 617,
+  "stars": 5559,
+  "forks": 618,
   "open_issues": 17,
   "language": "TypeScript",
   "license": "MIT",
@@ -24,27 +24,27 @@
     "template"
   ],
   "created_at": "2026-02-28T21:41:41Z",
-  "updated_at": "2026-11-22T10:46:43Z",
+  "updated_at": "2026-11-23T08:34:07Z",
   "pushed_at": "2026-10-17T23:34:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 266,
-  "days_since_push": 35,
+  "age_days": 267,
+  "days_since_push": 36,
   "health_score": 55,
   "health_components": {
     "popularity": 74.9,
-    "momentum": 2.2,
+    "momentum": 2.3,
     "maintenance": 78.0,
     "documentation": 81.0,
     "accessibility": 42.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 2.6,
-    "lifetime_stars_per_day": 20.88,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 20.82,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,8 +152,8 @@
     "highlights_zh": [
       "Node 22+ LTS（用于钩子脚本 — 通常与 Claude Code / Codex / Gemini CLI 一起已安装）",
       "/om-review-brief 通过汇总所有内容生成完整的评估简报：成就记录、决策、事件、能力证据和 1:1 反馈",
-      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/",
-      "Competency Note（能力项笔记） — date、description、current-level、target-level、熟练度表格"
+      "展示迁移计划——你可以确切看到哪些内容将被复制、转换和跳过",
+      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -162,13 +162,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:26+00:00",
+  "fetched_at": "2026-11-23T14:40:04+00:00",
   "categories": [
-    "accounts",
     "failover",
+    "failover-2",
     "sessions-memory"
   ],
-  "primary_category": "accounts",
+  "primary_category": "failover-2",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (7/7).",
@@ -193,14 +193,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 25.622,
-      "momentum_ratio": 35.308,
+      "star_ratio": 25.624,
+      "momentum_ratio": 33.571,
       "setup_delta": -19,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "25.62x the stars (142,329 vs 5,555)",
-        "35.31x the star velocity (91.8/day vs 2.6/day)",
+        "25.62x the stars (142,444 vs 5,559)",
+        "33.57x the star velocity (94.0/day vs 2.8/day)",
         "no harder to set up (39 vs 58 friction)"
       ],
       "reasons_zh": [],
@@ -228,7 +228,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 55,
-        "challenger_health": 85,
+        "challenger_health": 86,
         "incumbent_setup_score": 58,
         "challenger_setup_score": 39
       }

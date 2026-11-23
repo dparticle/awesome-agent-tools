@@ -14,15 +14,15 @@
 | --- | --- |
 | Stars | 334 |
 | Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 52/100 |
+| Health score | 51/100 |
 | Documentation | 62/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-28 |
-| Last push | 2026-11-21 (0 days ago) |
-| Analyzed README | 8,741 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-22 (0 days ago) |
+| Analyzed README | 8,943 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -42,7 +42,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 34/100)
+- **Difficulty:** 🟡 Some setup (friction score 40/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install -g @earendil-works/pi-coding-agent`
@@ -51,9 +51,9 @@
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** sign-in required, server/reverse-proxy setup, process manager
+**Configuration required:** environment variables, sign-in required, server/reverse-proxy setup, process manager
 
-*Easy. install via npx one-liner, global npm install; needs npm install/build; configure sign-in required, server/reverse-proxy setup*
+*Some setup. install via npx one-liner, global npm install; needs npm install/build; configure environment variables, sign-in required*
 
 ## Documentation quality
 
@@ -78,7 +78,7 @@ Score **62/100**, based on these detected signals:
 | momentum | 0.2 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
-| accessibility | 66.0 |
+| accessibility | 60.0 |
 
 ---
 

@@ -6,7 +6,7 @@
   "url": "https://github.com/savannahfeder/agentbox",
   "description": "A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them like email, or use the board view. Free, open source, on the plan you already pay for.",
   "homepage": "https://agentbox.ac",
-  "stars": 454,
+  "stars": 455,
   "forks": 44,
   "open_issues": 14,
   "language": "TypeScript",
@@ -34,33 +34,33 @@
     "worktree-manager"
   ],
   "created_at": "2026-09-28T02:35:07Z",
-  "updated_at": "2026-11-22T11:59:55Z",
-  "pushed_at": "2026-11-22T03:17:53Z",
+  "updated_at": "2026-11-22T22:16:36Z",
+  "pushed_at": "2026-11-23T08:30:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 55,
+  "age_days": 56,
   "days_since_push": 0,
   "health_score": 51,
   "health_components": {
-    "popularity": 53.1,
-    "momentum": 4.2,
+    "popularity": 53.2,
+    "momentum": 3.5,
     "maintenance": 100.0,
-    "documentation": 37.0,
+    "documentation": 38.0,
     "accessibility": 73.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 25,
+    "stars_gained": 21,
     "days_span": 5,
-    "stars_per_day": 5.0,
-    "lifetime_stars_per_day": 8.25,
+    "stars_per_day": 4.2,
+    "lifetime_stars_per_day": 8.12,
     "basis": "history",
-    "is_fast_riser": true
+    "is_fast_riser": false
   },
   "analysis": {
     "full_name": "savannahfeder/agentbox",
-    "readme_chars": 19915,
+    "readme_chars": 20390,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -122,13 +122,14 @@
       "note_en": "Easy. install via npx one-liner, winget install; needs git clone (build from source), npm install/build; configure config.json/yaml/toml, sign-in required; GUI application",
       "note_zh": "较易上手。可通过 npx one-liner、winget install 安装；需要 git clone (build from source)、npm install/build；需配置 config.json/yaml/toml、sign-in required；GUI application"
     },
-    "doc_score": 37,
+    "doc_score": 38,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
       "documents installation",
       "documents configuration",
-      "mentions licensing"
+      "mentions licensing",
+      "long, detailed README"
     ],
     "agents": [
       "Claude Code",
@@ -142,7 +143,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.1
+      "external_link_ratio": 0.098
     },
     "highlights": [
       "One key answers it. 1 2 3 take an option, E approves the",
@@ -157,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:38:00+00:00",
+  "fetched_at": "2026-11-23T14:41:12+00:00",
   "categories": [
     "desktop-ui",
     "mobile",
@@ -189,14 +190,14 @@
         "remote-control",
         "worktree-isolation"
       ],
-      "star_ratio": 54.319,
-      "momentum_ratio": 17.12,
+      "star_ratio": 54.429,
+      "momentum_ratio": 20.476,
       "setup_delta": -3,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "54.32x the stars (24,661 vs 454)",
-        "17.12x the star velocity (85.6/day vs 5.0/day)",
+        "54.43x the stars (24,765 vs 455)",
+        "20.48x the star velocity (86.0/day vs 4.2/day)",
         "no harder to set up (24 vs 27 friction)"
       ],
       "reasons_zh": [],

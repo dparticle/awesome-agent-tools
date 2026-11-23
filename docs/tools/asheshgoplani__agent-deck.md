@@ -2,7 +2,7 @@
 
 # asheshgoplani/agent-deck
 
-> Agent Deck runs all your AI coding agents (Claude Code, Codex, Gemini CLI, OpenCode and more) in one terminal and shows which ones are working, waiting, or done.
+> Agent Deck runs all your AI coding agents (Claude Code, Codex, Gemini CLI, Antigravity CLI, OpenCode and more) in one terminal and shows which ones are working, waiting, or done.
 
 [Repository](https://github.com/asheshgoplani/agent-deck) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,291 |
-| Star velocity | 4.2/day (history basis, 5d span) |
+| Stars | 1,294 |
+| Star velocity | 3.6/day (history basis, 5d span) |
 | Health score | 60/100 |
 | Documentation | 60/100 |
 | Tier | 🔹 Notable |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Go |
 | Created | 2025-12-03 |
-| Last push | 2026-11-20 (1 days ago) |
-| Analyzed README | 5,251 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-23 (0 days ago) |
+| Analyzed README | 5,284 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -89,7 +89,7 @@ Score **60/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 62.2 |
-| momentum | 3.5 |
+| momentum | 3.0 |
 | maintenance | 100.0 |
 | documentation | 60.0 |
 | accessibility | 100.0 |

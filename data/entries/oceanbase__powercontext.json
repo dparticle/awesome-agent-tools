@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1782,
+  "stars": 1794,
   "forks": 682,
-  "open_issues": 159,
+  "open_issues": 148,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,33 +29,33 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-22T12:26:54Z",
-  "pushed_at": "2026-11-22T12:09:21Z",
+  "updated_at": "2026-11-23T14:06:20Z",
+  "pushed_at": "2026-11-23T14:13:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 377,
+  "age_days": 378,
   "days_since_push": 0,
-  "health_score": 55,
+  "health_score": 56,
   "health_components": {
-    "popularity": 65.0,
-    "momentum": 9.7,
+    "popularity": 65.1,
+    "momentum": 10.5,
     "maintenance": 100.0,
-    "documentation": 66.0,
+    "documentation": 71.0,
     "accessibility": 31.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 58,
+    "stars_gained": 63,
     "days_span": 5,
-    "stars_per_day": 11.6,
-    "lifetime_stars_per_day": 4.73,
+    "stars_per_day": 12.6,
+    "lifetime_stars_per_day": 4.75,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "oceanbase/powercontext",
-    "readme_chars": 24594,
+    "readme_chars": 26545,
     "capabilities": [
       "memory-context",
       "agent-runtime",
@@ -63,13 +63,13 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "memory-context": "",
+      "memory-context": "ssions, agents, and people.",
       "agent-runtime": "ity matrix records which hosts are qualified, along with their supported features and availability.",
       "mcp-support": "istinct identities and permissions when a person must decide.",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
-      "memory-context": 1,
+      "memory-context": 3,
       "agent-runtime": 1,
       "mcp-support": 2,
       "cross-agent-support": 3
@@ -99,7 +99,7 @@
       "note_en": "Involved setup. needs make build; configure environment variables, sign-in required",
       "note_zh": "配置较重。需要 make build；需配置 environment variables、sign-in required"
     },
-    "doc_score": 66,
+    "doc_score": 71,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -110,6 +110,7 @@
       "has contribution guidance",
       "mentions licensing",
       "links to dedicated docs",
+      "documents changes",
       "reports benchmarks",
       "long, detailed README"
     ],
@@ -128,7 +129,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.667
+      "external_link_ratio": 1.695
     },
     "highlights": [
       "Coding tasks (SWE-bench Pro paired comparison): approximately 225.32 million input tokens per 100 tasks with PowerContext on, versus 302.18 million with it off — approximately 25.4% fewer i…",
@@ -141,7 +142,7 @@
       "编码任务（SWE-bench Pro 配对对照）：开启 PowerContext 后每 100 题约消耗 2.2532 亿输入 token，关闭时约为 3.0218 亿 —— 输入 token 约减少 25.4%，即每 100 题约少用 7,686 万。",
       "长对话记忆（LoCoMo；类别 1–4 的 1,540 个计分问题）：准确率 90.78%，全量上下文重放为 52.9% —— 相对后者 +37.88 个百分点。",
       "召回质量（LoCoMo Plus）：原生 PowerContext 对比检索后用 Jev 做候选筛选。",
-      "一个 Server，同一份契约的多个视图。"
+      "Gateway 节省 token 成本：可选的前缀提取在 Agent 精确的对话前缀后追加记忆指令，让供应商复用提示词缓存。"
     ],
     "chinese_readme": "README_CN.md"
   },
@@ -150,7 +151,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:36+00:00",
+  "fetched_at": "2026-11-23T14:40:21+00:00",
   "categories": [
     "sessions-memory"
   ],
@@ -176,14 +177,14 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 10.854,
-      "momentum_ratio": 2.759,
+      "star_ratio": 11.247,
+      "momentum_ratio": 15.079,
       "setup_delta": -36,
-      "dominance": 0.926,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "10.85x the stars (19,341 vs 1,782)",
-        "2.76x the star velocity (32.0/day vs 11.6/day)",
+        "11.25x the stars (20,177 vs 1,794)",
+        "15.08x the star velocity (190.0/day vs 12.6/day)",
         "no harder to set up (33 vs 69 friction)"
       ],
       "reasons_zh": [],
@@ -201,8 +202,8 @@
           "mcp-support",
           "memory-context"
         ],
-        "incumbent_health": 55,
-        "challenger_health": 71,
+        "incumbent_health": 56,
+        "challenger_health": 88,
         "incumbent_setup_score": 69,
         "challenger_setup_score": 33
       }

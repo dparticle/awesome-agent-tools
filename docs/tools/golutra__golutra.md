@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,877 |
-| Star velocity | 13.8/day (lifetime basis, 280d span) |
+| Stars | 3,879 |
+| Star velocity | 13.8/day (lifetime basis, 281d span) |
 | Health score | 58/100 |
 | Documentation | 29/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | Rust |
 | Created | 2026-02-15 |
-| Last push | 2026-11-19 (3 days ago) |
+| Last push | 2026-11-19 (4 days ago) |
 | Analyzed README | 16,297 chars from `raw:HEAD/README.md` |
 
 ## What it solves

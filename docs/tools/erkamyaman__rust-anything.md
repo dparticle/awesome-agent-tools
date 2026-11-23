@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,717 |
-| Star velocity | 1286.2/day (lifetime basis, 6d span) |
-| Health score | 84/100 |
-| Documentation | 63/100 |
+| Stars | 8,524 |
+| Star velocity | 1217.7/day (lifetime basis, 7d span) |
+| Health score | 85/100 |
+| Documentation | 64/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-11-16 |
-| Last push | 2026-11-22 (0 days ago) |
-| Analyzed README | 23,167 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-23 (0 days ago) |
+| Analyzed README | 25,864 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,11 @@
 
 ### MCP support
 
-> cOS, Linux and Windows are attached to each
+> d every piece is checked against that recording before it moves on.
+
+### GUI / desktop app
+
+> re for arrays and hashtables, so only functions that do more work than
 
 ### Cross-agent support
 
@@ -40,12 +44,12 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 34/100)
+- **Difficulty:** 🟢 Easy (friction score 25/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install -g eslint-rs     # ESLint 10.15.0`
 
-**Signals that make it easy:** cargo install, global npm install
+**Signals that make it easy:** cargo install, global npm install, native installer / package
 
 **Signals that add work:** npm install/build
 
@@ -55,7 +59,7 @@
 
 ## Documentation quality
 
-Score **63/100**, based on these detected signals:
+Score **64/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -73,11 +77,11 @@ Score **63/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 77.7 |
+| popularity | 78.6 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 63.0 |
-| accessibility | 66.0 |
+| documentation | 64.0 |
+| accessibility | 75.0 |
 
 ---
 

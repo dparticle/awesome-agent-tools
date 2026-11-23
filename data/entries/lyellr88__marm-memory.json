@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 530,
-  "days_since_push": 10,
+  "age_days": 531,
+  "days_since_push": 11,
   "health_score": 53,
   "health_components": {
     "popularity": 52.8,
@@ -52,7 +52,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 11,
+    "days_span": 12,
     "stars_per_day": 0.0,
     "lifetime_stars_per_day": 0.82,
     "basis": "history",
@@ -196,7 +196,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:38:02+00:00",
+  "fetched_at": "2026-11-23T14:41:15+00:00",
   "categories": [
     "mcp",
     "sessions-memory",

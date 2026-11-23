@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 442 |
 | Star velocity | 0.2/day (history basis, 5d span) |
-| Health score | 50/100 |
+| Health score | 54/100 |
 | Documentation | 56/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Java |
 | Created | 2024-08-17 |
-| Last push | 2026-10-13 (39 days ago) |
+| Last push | 2026-11-23 (0 days ago) |
 | Analyzed README | 10,270 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -98,7 +98,7 @@ Score **56/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 52.9 |
 | momentum | 0.2 |
-| maintenance | 78.0 |
+| maintenance | 100.0 |
 | documentation | 56.0 |
 | accessibility | 88.0 |
 

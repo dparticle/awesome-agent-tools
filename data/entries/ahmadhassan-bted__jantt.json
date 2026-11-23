@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "full_name": "AhmadHassan-BTed/Jantt",
+  "name": "Jantt",
+  "owner": "AhmadHassan-BTed",
+  "url": "https://github.com/AhmadHassan-BTed/Jantt",
+  "description": "Create interactive Gantt charts with AI — no code required, free forever. Built-in BYOK AI Copilot (10 providers + Ollama), free cloud rooms, working-calendar CPM, 6 views, React/Vue/Svelte/Python/MCP.",
+  "homepage": "https://ahmadhassan-bted.github.io/Jantt/",
+  "stars": 6239,
+  "forks": 23,
+  "open_issues": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-gantt-chart",
+    "ai-tools",
+    "critical-path",
+    "dag",
+    "data-visualization",
+    "gantt",
+    "gantt-chart",
+    "json",
+    "json-schema",
+    "kanban",
+    "mcp-server",
+    "no-code",
+    "ollama",
+    "productivity",
+    "project-management",
+    "react",
+    "roadmap",
+    "student-planner",
+    "timeline",
+    "typescript"
+  ],
+  "created_at": "2026-08-28T07:32:35Z",
+  "updated_at": "2026-11-23T09:03:42Z",
+  "pushed_at": "2026-11-23T11:50:33Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 87,
+  "days_since_push": 0,
+  "health_score": 77,
+  "health_components": {
+    "popularity": 75.9,
+    "momentum": 59.8,
+    "maintenance": 100.0,
+    "documentation": 69.0,
+    "accessibility": 87.0
+  },
+  "tier": "recommended",
+  "momentum": {
+    "stars_gained": 6239,
+    "days_span": 87,
+    "stars_per_day": 71.71,
+    "lifetime_stars_per_day": 71.71,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "AhmadHassan-BTed/Jantt",
+    "readme_chars": 41220,
+    "capabilities": [
+      "model-routing",
+      "mcp-support",
+      "team-collaboration",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "model-routing": "with zero sign-up, or sign in free with GitHub for real-time multi-user cloud rooms, shareable links, and unlimited exports.",
+      "mcp-support": "- **Official MCP Server (@jantt/mcp):** Connect Claude Desktop, Cursor, Gemini, or custom AI agents directly to 6 deterministic scheduling tools (janttinspectplan, janttaddtask, janttrescheduletask, janttauditschedul",
+      "team-collaboration": "a single line of code or JSON unless you want to.",
+      "cross-agent-support": "Mentions Copilot, Cursor"
+    },
+    "capability_hits": {
+      "model-routing": 1,
+      "mcp-support": 5,
+      "team-collaboration": 1,
+      "cross-agent-support": 2
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 13,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "npx one-liner",
+        "pip install",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "git clone (build from source)",
+        "npm install/build"
+      ],
+      "config_signals": [
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "explicitly no coding required",
+        "no-code positioning",
+        "one-click setup"
+      ],
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via npx one-liner, pip install; needs git clone (build from source), npm install/build; configure OAuth login flow, sign-in required; explicitly no coding required",
+      "note_zh": "开箱即用。可通过 npx one-liner、pip install 安装；需要 git clone (build from source)、npm install/build；需配置 OAuth login flow、sign-in required；explicitly no coding required"
+    },
+    "doc_score": 69,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "publishes a roadmap",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "Simple enough to organize your semester, wedding, or team meeting in 60 seconds.",
+    "summary_zh": "",
+    "install_hint": "npm install @jantt/react @jantt/core",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "bullet list of external links"
+      ],
+      "external_link_ratio": 0.291
+    },
+    "highlights": [
+      "Executive Analytics Built In: Earned Value Management (EVM: ANSI/EIA-748), DCMA-14 schedule health grading (A-F), PERT 3-point estimates, 5,000-run Monte Carlo risk simulation, and automate…",
+      "Embed Anywhere: First-class packages for React, Vue 3, Svelte 4/5, Web Components, Plain HTML, Python / Jupyter / Streamlit, Yjs CRDT, 60 FPS Canvas, and a two-way live-sync CLI.",
+      "PROGRESS: Decimal float from 0.0 to 1.0.",
+      "Working-Calendar-Aware Critical Path (CPM): Schedule cascades, Critical Path, float calculations, Resource Leveling, and DCMA-14 audits all honor the same working calendars: Mon-Fri (standa…"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "rising",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-23T14:39:31+00:00",
+  "categories": [
+    "teams-self-hosting"
+  ],
+  "primary_category": "teams-self-hosting",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

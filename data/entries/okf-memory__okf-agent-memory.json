@@ -6,7 +6,7 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 871,
+  "stars": 872,
   "forks": 72,
   "open_issues": 2,
   "language": "Go",
@@ -32,13 +32,13 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-11-22T09:37:28Z",
+  "updated_at": "2026-11-23T08:31:15Z",
   "pushed_at": "2026-11-21T11:25:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 77,
-  "days_since_push": 1,
+  "age_days": 78,
+  "days_since_push": 2,
   "health_score": 54,
   "health_components": {
     "popularity": 58.8,
@@ -52,7 +52,7 @@
     "stars_gained": 4,
     "days_span": 5,
     "stars_per_day": 0.8,
-    "lifetime_stars_per_day": 11.31,
+    "lifetime_stars_per_day": 11.18,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:47+00:00",
+  "fetched_at": "2026-11-23T14:40:45+00:00",
   "categories": [
     "desktop-ui",
     "failover",
@@ -175,14 +175,14 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 1.734,
-      "momentum_ratio": 3.25,
+      "star_ratio": 1.737,
+      "momentum_ratio": 3.5,
       "setup_delta": -14,
-      "dominance": 0.822,
+      "dominance": 0.801,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.73x the stars (1,510 vs 871)",
-        "3.25x the star velocity (2.6/day vs 0.8/day)",
+        "1.74x the stars (1,515 vs 872)",
+        "3.50x the star velocity (2.8/day vs 0.8/day)",
         "no harder to set up (31 vs 45 friction)"
       ],
       "reasons_zh": [],
@@ -206,7 +206,7 @@
           "team-collaboration"
         ],
         "incumbent_health": 54,
-        "challenger_health": 56,
+        "challenger_health": 53,
         "incumbent_setup_score": 45,
         "challenger_setup_score": 31
       }

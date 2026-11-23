@@ -8,7 +8,7 @@
   "homepage": "",
   "stars": 460,
   "forks": 270,
-  "open_issues": 45,
+  "open_issues": 46,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [],
@@ -18,21 +18,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 411,
-  "days_since_push": 67,
-  "health_score": 44,
+  "age_days": 412,
+  "days_since_push": 68,
+  "health_score": 43,
   "health_components": {
     "popularity": 53.3,
-    "momentum": 1.2,
+    "momentum": 1.0,
     "maintenance": 78.0,
     "documentation": 63.0,
     "accessibility": 22.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.4,
+    "stars_per_day": 1.2,
     "lifetime_stars_per_day": 1.12,
     "basis": "history",
     "is_fast_riser": false
@@ -116,7 +116,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:38:00+00:00",
+  "fetched_at": "2026-11-23T14:41:12+00:00",
   "categories": [
     "billing-2"
   ],

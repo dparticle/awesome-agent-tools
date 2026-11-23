@@ -6,9 +6,9 @@
   "url": "https://github.com/erkamyaman/rust-anything",
   "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
   "homepage": "https://www.npmjs.com/package/rust-anything",
-  "stars": 7717,
-  "forks": 616,
-  "open_issues": 1,
+  "stars": 8524,
+  "forks": 680,
+  "open_issues": 27,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -34,56 +34,60 @@
     "typescript"
   ],
   "created_at": "2026-11-16T12:10:36Z",
-  "updated_at": "2026-11-22T12:35:31Z",
-  "pushed_at": "2026-11-22T12:26:06Z",
+  "updated_at": "2026-11-23T14:34:50Z",
+  "pushed_at": "2026-11-23T14:35:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 6,
+  "age_days": 7,
   "days_since_push": 0,
-  "health_score": 84,
+  "health_score": 85,
   "health_components": {
-    "popularity": 77.7,
+    "popularity": 78.6,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 63.0,
-    "accessibility": 66.0
+    "documentation": 64.0,
+    "accessibility": 75.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7717,
-    "days_span": 6,
-    "stars_per_day": 1286.17,
-    "lifetime_stars_per_day": 1286.17,
+    "stars_gained": 8524,
+    "days_span": 7,
+    "stars_per_day": 1217.71,
+    "lifetime_stars_per_day": 1217.71,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "erkamyaman/rust-anything",
-    "readme_chars": 23167,
+    "readme_chars": 25864,
     "capabilities": [
       "agent-runtime",
       "mcp-support",
+      "gui-desktop",
       "cross-agent-support"
     ],
     "capability_evidence": {
       "agent-runtime": "nçe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt · Español · Italiano",
-      "mcp-support": "cOS, Linux and Windows are attached to each",
+      "mcp-support": "d every piece is checked against that recording before it moves on.",
+      "gui-desktop": "re for arrays and hashtables, so only functions that do more work than",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
     },
     "capability_hits": {
       "agent-runtime": 2,
       "mcp-support": 5,
+      "gui-desktop": 1,
       "cross-agent-support": 5
     },
     "friction": {
       "level": "low",
-      "score": 34,
+      "score": 25,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
         "cargo install",
-        "global npm install"
+        "global npm install",
+        "native installer / package"
       ],
       "hard_signals": [
         "npm install/build"
@@ -103,7 +107,7 @@
       "note_en": "Easy. install via cargo install, global npm install; needs npm install/build; configure config.json/yaml/toml, database dependency",
       "note_zh": "较易上手。可通过 cargo install、global npm install 安装；需要 npm install/build；需配置 config.json/yaml/toml、database dependency"
     },
-    "doc_score": 63,
+    "doc_score": 64,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -132,7 +136,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.302
+      "external_link_ratio": 0.271
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -144,9 +148,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:36:59+00:00",
+  "fetched_at": "2026-11-23T14:39:23+00:00",
   "categories": [
-    "mcp"
+    "desktop-ui",
+    "mcp",
+    "model-routing"
   ],
   "primary_category": "mcp",
   "lifecycle": {

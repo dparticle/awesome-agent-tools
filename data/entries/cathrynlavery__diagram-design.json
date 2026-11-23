@@ -4,11 +4,11 @@
   "name": "diagram-design",
   "owner": "cathrynlavery",
   "url": "https://github.com/cathrynlavery/diagram-design",
-  "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+  "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
   "homepage": "https://diagramdesign.dev",
-  "stars": 70054,
-  "forks": 4697,
-  "open_issues": 44,
+  "stars": 70743,
+  "forks": 4740,
+  "open_issues": 39,
   "language": "HTML",
   "license": "MIT",
   "topics": [
@@ -22,16 +22,16 @@
     "svg"
   ],
   "created_at": "2026-04-16T18:01:16Z",
-  "updated_at": "2026-11-22T12:34:26Z",
-  "pushed_at": "2026-11-22T01:44:54Z",
+  "updated_at": "2026-11-23T14:36:32Z",
+  "pushed_at": "2026-11-23T11:00:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 219,
+  "age_days": 220,
   "days_since_push": 0,
   "health_score": 91,
   "health_components": {
-    "popularity": 96.9,
+    "popularity": 97.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 68.0,
@@ -39,16 +39,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2261,
+    "stars_gained": 2634,
     "days_span": 5,
-    "stars_per_day": 452.2,
-    "lifetime_stars_per_day": 319.88,
+    "stars_per_day": 526.8,
+    "lifetime_stars_per_day": 321.56,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "cathrynlavery/diagram-design",
-    "readme_chars": 56142,
+    "readme_chars": 57307,
     "capabilities": [
       "parallel-execution",
       "billing-metering",
@@ -133,7 +133,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.321
+      "external_link_ratio": 0.314
     },
     "highlights": [
       "BestSelf.co: the SELF Journal and other paper tools for getting things done.",
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-22T12:37:16+00:00",
+  "fetched_at": "2026-11-23T14:39:51+00:00",
   "categories": [
     "billing-2"
   ],
