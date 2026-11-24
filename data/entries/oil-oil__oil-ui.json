@@ -6,8 +6,8 @@
   "url": "https://github.com/oil-oil/oil-ui",
   "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
   "homepage": "https://ui.oiloil.org",
-  "stars": 3912,
-  "forks": 230,
+  "stars": 3951,
+  "forks": 232,
   "open_issues": 3,
   "language": "Python",
   "license": "MIT",
@@ -27,33 +27,33 @@
     "ux-design"
   ],
   "created_at": "2026-09-30T03:55:35Z",
-  "updated_at": "2026-11-23T14:18:44Z",
-  "pushed_at": "2026-11-23T04:26:56Z",
+  "updated_at": "2026-11-24T14:46:48Z",
+  "pushed_at": "2026-11-24T05:40:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 54,
+  "age_days": 55,
   "days_since_push": 0,
   "health_score": 73,
   "health_components": {
-    "popularity": 71.8,
-    "momentum": 60.4,
+    "popularity": 71.9,
+    "momentum": 59.9,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 3912,
-    "days_span": 54,
-    "stars_per_day": 72.44,
-    "lifetime_stars_per_day": 72.44,
+    "stars_gained": 3951,
+    "days_span": 55,
+    "stars_per_day": 71.84,
+    "lifetime_stars_per_day": 71.84,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "oil-oil/oil-ui",
-    "readme_chars": 14123,
+    "readme_chars": 14191,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -115,7 +115,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 1.699
+      "external_link_ratio": 1.691
     },
     "highlights": [],
     "summary_zh_native": "English · 中文 · 日本語 · 한국어 · Deutsch · Español",
@@ -132,7 +132,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:37+00:00",
+  "fetched_at": "2026-11-24T14:53:56+00:00",
   "categories": [
     "failover"
   ],

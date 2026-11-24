@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 473,
-  "days_since_push": 142,
+  "age_days": 474,
+  "days_since_push": 143,
   "health_score": 45,
   "health_components": {
     "popularity": 72.7,
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1,
-    "days_span": 27,
+    "days_span": 28,
     "stars_per_day": 0.04,
-    "lifetime_stars_per_day": 9.1,
+    "lifetime_stars_per_day": 9.08,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:07+00:00",
+  "fetched_at": "2026-11-24T14:54:19+00:00",
   "categories": [
     "mcp"
   ],

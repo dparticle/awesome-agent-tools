@@ -6,8 +6,8 @@
   "url": "https://github.com/umutxyp/Seo-Promt-Master",
   "description": "Open-source SEO & GEO audit: a zero-dependency CLI (npx), an agent skill for Claude Code, Cursor, Codex, Gemini & Copilot, 47 SEO prompts and a cited Google/Bing/AI-search knowledge base. Checks robots.txt, sitemaps, canonicals, hreflang, structured data, Core Web Vitals and AI crawlers — then fixes them.",
   "homepage": "https://codeshare.me",
-  "stars": 596,
-  "forks": 321,
+  "stars": 600,
+  "forks": 322,
   "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
@@ -34,26 +34,26 @@
     "technical-seo"
   ],
   "created_at": "2022-03-18T13:08:50Z",
-  "updated_at": "2026-11-22T21:05:33Z",
+  "updated_at": "2026-11-24T13:25:54Z",
   "pushed_at": "2026-11-21T13:02:37Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1711,
-  "days_since_push": 2,
+  "age_days": 1712,
+  "days_since_push": 3,
   "health_score": 54,
   "health_components": {
-    "popularity": 55.5,
-    "momentum": 0.8,
+    "popularity": 55.6,
+    "momentum": 1.2,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 5,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.0,
+    "stars_per_day": 1.4,
     "lifetime_stars_per_day": 0.35,
     "basis": "history",
     "is_fast_riser": false
@@ -148,10 +148,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:57+00:00",
+  "fetched_at": "2026-11-24T14:54:48+00:00",
   "categories": [
     "desktop-ui",
-    "model-routing",
+    "model-routing-2",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",
@@ -176,14 +176,14 @@
         "gui-desktop",
         "memory-context"
       ],
-      "star_ratio": 33.854,
-      "momentum_ratio": 190.0,
+      "star_ratio": 35.507,
+      "momentum_ratio": 291.714,
       "setup_delta": 5,
       "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "33.85x the stars (20,177 vs 596)",
-        "190.00x the star velocity (190.0/day vs 1.0/day)",
+        "35.51x the stars (21,304 vs 600)",
+        "291.71x the star velocity (408.4/day vs 1.4/day)",
         "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],

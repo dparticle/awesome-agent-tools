@@ -6,7 +6,7 @@
   "url": "https://github.com/johannesjo/parallel-code",
   "description": "Run Claude Code, Codex, Copilot and other agent CLIs in parallel worktrees, then check what each one did before you merge.",
   "homepage": "https://parallelcode.app",
-  "stars": 1105,
+  "stars": 1104,
   "forks": 152,
   "open_issues": 64,
   "language": "TypeScript",
@@ -24,27 +24,27 @@
     "terminal"
   ],
   "created_at": "2026-02-18T09:53:27Z",
-  "updated_at": "2026-11-23T06:59:01Z",
-  "pushed_at": "2026-11-21T15:36:21Z",
+  "updated_at": "2026-11-24T11:29:39Z",
+  "pushed_at": "2026-11-24T11:49:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 278,
-  "days_since_push": 1,
-  "health_score": 56,
+  "age_days": 279,
+  "days_since_push": 0,
+  "health_score": 55,
   "health_components": {
     "popularity": 60.9,
-    "momentum": 1.7,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 57.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 2.0,
-    "lifetime_stars_per_day": 3.97,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 3.96,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,18 +149,82 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:36+00:00",
+  "fetched_at": "2026-11-24T14:54:36+00:00",
   "categories": [
     "desktop-ui",
     "mobile",
-    "model-routing"
+    "model-routing-2"
   ],
   "primary_category": "mobile",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "paperclipai/paperclip",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "johannesjo/parallel-code",
+      "challenger": "paperclipai/paperclip",
+      "incumbent_name": "johannesjo/parallel-code",
+      "challenger_name": "paperclipai/paperclip",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "medium",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mobile-access",
+        "notifications",
+        "remote-control",
+        "worktree-isolation"
+      ],
+      "star_ratio": 105.616,
+      "momentum_ratio": 270.5,
+      "setup_delta": 12,
+      "dominance": 0.94,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "105.62x the stars (116,600 vs 1,104)",
+        "270.50x the star velocity (324.6/day vs 1.2/day)",
+        "slightly heavier setup (+12 friction, within tolerance)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mobile-access",
+          "notifications",
+          "remote-control",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 55,
+        "challenger_health": 89,
+        "incumbent_setup_score": 33,
+        "challenger_setup_score": 45
+      }
+    }
   }
 }

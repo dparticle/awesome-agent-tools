@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 315,
-  "days_since_push": 3,
+  "age_days": 316,
+  "days_since_push": 4,
   "health_score": 52,
   "health_components": {
     "popularity": 54.1,
@@ -52,7 +52,7 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 508,
-    "days_span": 315,
+    "days_span": 316,
     "stars_per_day": 1.61,
     "lifetime_stars_per_day": 1.61,
     "basis": "lifetime",
@@ -168,10 +168,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:41:06+00:00",
+  "fetched_at": "2026-11-24T14:54:53+00:00",
   "categories": [
-    "failover-2",
     "mcp",
+    "parallelism",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

@@ -6,27 +6,27 @@
   "url": "https://github.com/kagisearch/kagimcp",
   "description": "The Official Model Context Protocol (MCP) server for Kagi Search & other tools.",
   "homepage": "",
-  "stars": 574,
+  "stars": 575,
   "forks": 53,
   "open_issues": 8,
   "language": "Python",
   "license": "MIT",
   "topics": [],
   "created_at": "2024-12-13T02:41:16Z",
-  "updated_at": "2026-11-21T05:28:28Z",
-  "pushed_at": "2026-10-28T13:39:24Z",
+  "updated_at": "2026-11-24T13:26:15Z",
+  "pushed_at": "2026-11-24T01:20:49Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 710,
-  "days_since_push": 26,
-  "health_score": 47,
+  "age_days": 711,
+  "days_since_push": 0,
+  "health_score": 48,
   "health_components": {
     "popularity": 55.2,
     "momentum": 0.5,
-    "maintenance": 92.0,
-    "documentation": 37.0,
-    "accessibility": 60.0
+    "maintenance": 100.0,
+    "documentation": 35.0,
+    "accessibility": 54.0
   },
   "tier": "notable",
   "momentum": {
@@ -39,25 +39,28 @@
   },
   "analysis": {
     "full_name": "kagisearch/kagimcp",
-    "readme_chars": 5823,
+    "readme_chars": 7685,
     "capabilities": [
+      "model-routing",
       "mcp-support",
       "self-hosted",
       "cross-agent-support"
     ],
     "capability_evidence": {
+      "model-routing": "search params to hide from the LLM-facing schema.",
       "mcp-support": "tch a page's full content as markdown.",
-      "self-hosted": "), so for now grab your API key from the dashboard and pass it via Bearer HTTP authentication.",
+      "self-hosted": "API's own markdown, passed through as-is).",
       "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
     },
     "capability_hits": {
-      "mcp-support": 12,
-      "self-hosted": 2,
+      "model-routing": 2,
+      "mcp-support": 19,
+      "self-hosted": 3,
       "cross-agent-support": 3
     },
     "friction": {
       "level": "moderate",
-      "score": 40,
+      "score": 46,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -74,7 +77,9 @@
         "environment variables",
         "API key configuration",
         "config file",
-        "config.json/yaml/toml"
+        "config.json/yaml/toml",
+        "OAuth login flow",
+        "sign-in required"
       ],
       "friendliness_signals": [],
       "platforms": [
@@ -86,14 +91,13 @@
       "note_en": "Some setup. install via npx one-liner, uvx one-liner; needs docker run, git clone (build from source); configure environment variables, API key configuration",
       "note_zh": "需要一些配置。可通过 npx one-liner、uvx one-liner 安装；需要 docker run、git clone (build from source)；需配置 environment variables、API key configuration"
     },
-    "doc_score": 37,
+    "doc_score": 35,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
       "documents installation",
       "documents configuration",
-      "links to dedicated docs",
-      "publishes a roadmap"
+      "links to dedicated docs"
     ],
     "agents": [
       "Claude Code",
@@ -108,7 +112,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.687
+      "external_link_ratio": 0.52
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -120,16 +124,72 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:58+00:00",
+  "fetched_at": "2026-11-24T14:54:49+00:00",
   "categories": [
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "TencentCloud/Octop",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "kagisearch/kagimcp",
+      "challenger": "tencentcloud/octop",
+      "incumbent_name": "kagisearch/kagimcp",
+      "challenger_name": "TencentCloud/Octop",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "mcp-support",
+        "model-routing",
+        "self-hosted"
+      ],
+      "star_ratio": 21.647,
+      "momentum_ratio": 64.667,
+      "setup_delta": -14,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "21.65x the stars (12,447 vs 575)",
+        "64.67x the star velocity (38.8/day vs 0.6/day)",
+        "no harder to set up (32 vs 46 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "mcp-support",
+          "model-routing",
+          "self-hosted"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "api-gateway",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 48,
+        "challenger_health": 71,
+        "incumbent_setup_score": 46,
+        "challenger_setup_score": 32
+      }
+    }
   }
 }

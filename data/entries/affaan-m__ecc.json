@@ -6,9 +6,9 @@
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
   "homepage": "https://ecc.tools",
-  "stars": 309339,
-  "forks": 45506,
-  "open_issues": 196,
+  "stars": 309966,
+  "forks": 45575,
+  "open_issues": 205,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -22,13 +22,13 @@
     "productivity"
   ],
   "created_at": "2026-01-18T00:51:51Z",
-  "updated_at": "2026-11-23T14:33:13Z",
+  "updated_at": "2026-11-24T14:49:33Z",
   "pushed_at": "2026-11-23T04:55:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 309,
-  "days_since_push": 0,
+  "age_days": 310,
+  "days_since_push": 1,
   "health_score": 89,
   "health_components": {
     "popularity": 100.0,
@@ -39,10 +39,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3269,
+    "stars_gained": 3023,
     "days_span": 5,
-    "stars_per_day": 653.8,
-    "lifetime_stars_per_day": 1001.1,
+    "stars_per_day": 604.6,
+    "lifetime_stars_per_day": 999.89,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -196,10 +196,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:41+00:00",
+  "fetched_at": "2026-11-24T14:53:59+00:00",
   "categories": [
     "mcp",
-    "parallelism",
+    "sessions-memory",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

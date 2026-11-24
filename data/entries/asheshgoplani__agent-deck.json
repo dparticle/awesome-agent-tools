@@ -6,9 +6,9 @@
   "url": "https://github.com/asheshgoplani/agent-deck",
   "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
   "homepage": "https://discord.gg/e4xSs6NBN8",
-  "stars": 1294,
-  "forks": 236,
-  "open_issues": 29,
+  "stars": 1298,
+  "forks": 237,
+  "open_issues": 36,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -32,26 +32,26 @@
     "tui"
   ],
   "created_at": "2025-12-03T17:08:12Z",
-  "updated_at": "2026-11-23T07:46:31Z",
-  "pushed_at": "2026-11-23T14:07:57Z",
+  "updated_at": "2026-11-24T11:04:27Z",
+  "pushed_at": "2026-11-23T21:55:47Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 354,
+  "age_days": 355,
   "days_since_push": 0,
   "health_score": 60,
   "health_components": {
-    "popularity": 62.2,
-    "momentum": 3.0,
+    "popularity": 62.3,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 18,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 3.6,
+    "stars_per_day": 4.0,
     "lifetime_stars_per_day": 3.66,
     "basis": "history",
     "is_fast_riser": false
@@ -154,9 +154,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:32+00:00",
+  "fetched_at": "2026-11-24T14:54:33+00:00",
   "categories": [
-    "desktop-ui",
+    "isolation",
     "mobile",
     "sessions-memory"
   ],

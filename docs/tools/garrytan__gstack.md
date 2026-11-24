@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 142,444 |
-| Star velocity | 94.0/day (history basis, 5d span) |
+| Stars | 142,534 |
+| Star velocity | 92.8/day (history basis, 5d span) |
 | Health score | 86/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-03-11 |
-| Last push | 2026-11-23 (0 days ago) |
-| Analyzed README | 43,045 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 43,086 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -40,7 +40,7 @@
 
 ### Model / provider routing
 
-> t moments and where people would stop, and why a back-to-back pick between two builds measures the order, not the build
+> k between two builds measures the order, not the build
 
 ### Memory & context
 
@@ -107,7 +107,7 @@ Score **73/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 100.0 |
-| momentum | 78.3 |
+| momentum | 77.3 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
 | accessibility | 61.0 |

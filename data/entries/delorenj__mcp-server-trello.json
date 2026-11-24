@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 688,
-  "days_since_push": 3,
+  "age_days": 690,
+  "days_since_push": 4,
   "health_score": 53,
   "health_components": {
     "popularity": 53.0,
@@ -127,8 +127,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:41:14+00:00",
+  "fetched_at": "2026-11-24T14:54:58+00:00",
   "categories": [
+    "billing-2",
     "mcp"
   ],
   "primary_category": "mcp",

@@ -26,22 +26,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 296,
-  "days_since_push": 32,
+  "age_days": 297,
+  "days_since_push": 33,
   "health_score": 44,
   "health_components": {
     "popularity": 58.0,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 78.0,
     "documentation": 27.0,
     "accessibility": 69.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.68,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 2.67,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -114,7 +114,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:46+00:00",
+  "fetched_at": "2026-11-24T14:54:42+00:00",
   "categories": [
     "failover"
   ],

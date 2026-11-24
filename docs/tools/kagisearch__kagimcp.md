@@ -12,19 +12,25 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 574 |
+| Stars | 575 |
 | Star velocity | 0.6/day (history basis, 5d span) |
-| Health score | 47/100 |
-| Documentation | 37/100 |
+| Health score | 48/100 |
+| Documentation | 35/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2024-12-13 |
-| Last push | 2026-10-28 (26 days ago) |
-| Analyzed README | 5,823 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 7,685 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [TencentCloud/Octop](https://github.com/TencentCloud/Octop)** — Superseded by TencentCloud/Octop: covers 100% of capabilities (4/4).
 
 ## What it solves
+
+### Model / provider routing
+
+> search params to hide from the LLM-facing schema.
 
 ### MCP support
 
@@ -32,7 +38,7 @@
 
 ### Self-hostable
 
-> ), so for now grab your API key from the dashboard and pass it via Bearer HTTP authentication.
+> API's own markdown, passed through as-is).
 
 ### Cross-agent support
 
@@ -40,7 +46,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 40/100)
+- **Difficulty:** 🟡 Some setup (friction score 46/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -LsSf https://astral.sh/uv/install.sh | sh`
@@ -49,20 +55,19 @@
 
 **Signals that add work:** docker run, git clone (build from source)
 
-**Configuration required:** environment variables, API key configuration, config file, config.json/yaml/toml
+**Configuration required:** environment variables, API key configuration, config file, config.json/yaml/toml, OAuth login flow, sign-in required
 
 *Some setup. install via npx one-liner, uvx one-liner; needs docker run, git clone (build from source); configure environment variables, API key configuration*
 
 ## Documentation quality
 
-Score **37/100**, based on these detected signals:
+Score **35/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
 - documents installation
 - documents configuration
 - links to dedicated docs
-- publishes a roadmap
 
 ## Score breakdown
 
@@ -70,9 +75,9 @@ Score **37/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 55.2 |
 | momentum | 0.5 |
-| maintenance | 92.0 |
-| documentation | 37.0 |
-| accessibility | 60.0 |
+| maintenance | 100.0 |
+| documentation | 35.0 |
+| accessibility | 54.0 |
 
 ---
 

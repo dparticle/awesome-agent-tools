@@ -7,7 +7,7 @@
   "description": "Model Context Protocol (MCP) server that enables AI assistants to securely interact with Odoo ERP systems through standardized resources and tools for data retrieval and manipulation.",
   "homepage": "",
   "stars": 420,
-  "forks": 190,
+  "forks": 189,
   "open_issues": 14,
   "language": "Python",
   "license": "MPL-2.0",
@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 610,
-  "days_since_push": 1,
+  "age_days": 611,
+  "days_since_push": 2,
   "health_score": 51,
   "health_components": {
     "popularity": 52.5,
@@ -155,10 +155,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:41:19+00:00",
+  "fetched_at": "2026-11-24T14:55:01+00:00",
   "categories": [
     "billing-2",
-    "mcp"
+    "model-routing"
   ],
   "primary_category": "billing-2",
   "lifecycle": {

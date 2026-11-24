@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,569 |
+| Stars | 5,572 |
 | Star velocity | 4.8/day (history basis, 5d span) |
 | Health score | 66/100 |
 | Documentation | 76/100 |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-23 (0 days ago) |
-| Analyzed README | 31,154 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 32,804 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Skills & plugins
 
-> , resources, and permissions yourself; cloud jobs may incur charges.
+> resources, and permissions yourself; cloud jobs may incur charges.
 
 ### MCP support
 

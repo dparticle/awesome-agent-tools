@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,599 |
-| Star velocity | 67.8/day (lifetime basis, 112d span) |
-| Health score | 77/100 |
-| Documentation | 70/100 |
-| Tier | ✅ Recommended |
+| Stars | 7,957 |
+| Star velocity | 70.4/day (lifetime basis, 113d span) |
+| Health score | 78/100 |
+| Documentation | 73/100 |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-08-03 |
-| Last push | 2026-11-23 (0 days ago) |
-| Analyzed README | 55,128 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 57,509 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)** — Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (6/6).
 
@@ -60,7 +60,7 @@
 
 ## Documentation quality
 
-Score **70/100**, based on these detected signals:
+Score **73/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -72,16 +72,17 @@ Score **70/100**, based on these detected signals:
 - has contribution guidance
 - mentions licensing
 - publishes a roadmap
+- explains architecture
 - long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 77.6 |
-| momentum | 56.5 |
+| popularity | 78.0 |
+| momentum | 58.7 |
 | maintenance | 100.0 |
-| documentation | 70.0 |
+| documentation | 73.0 |
 | accessibility | 85.0 |
 
 ---

@@ -6,7 +6,7 @@
   "url": "https://github.com/Othmane-Khadri/YALC-the-GTM-operating-system",
   "description": "YALC 1.0, the open-source Clay alternative. MIT, CLI-first, self-hosted, runs in Claude Code. Yalc today is an intelligent orchestration layer that runs pre configured GTM agents on your existing tech stack (CRM, sequencer and call recorder) → yalc.ai",
   "homepage": "https://www.yalc.ai",
-  "stars": 330,
+  "stars": 331,
   "forks": 89,
   "open_issues": 10,
   "language": "TypeScript",
@@ -22,26 +22,26 @@
     "typescript"
   ],
   "created_at": "2026-01-04T10:21:22Z",
-  "updated_at": "2026-11-22T02:51:58Z",
+  "updated_at": "2026-11-24T11:16:57Z",
   "pushed_at": "2026-08-20T16:57:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 323,
-  "days_since_push": 94,
+  "age_days": 324,
+  "days_since_push": 95,
   "health_score": 41,
   "health_components": {
     "popularity": 50.4,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 73.0,
     "accessibility": 36.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.02,
     "basis": "history",
     "is_fast_riser": false
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:41:27+00:00",
+  "fetched_at": "2026-11-24T14:55:06+00:00",
   "categories": [
     "failover",
     "mcp"

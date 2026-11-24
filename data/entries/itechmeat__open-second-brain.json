@@ -6,96 +6,84 @@
   "url": "https://github.com/itechmeat/open-second-brain",
   "description": "Local-first 🧠 memory for Hermes Agent that lives in your Obsidian vault and remembers project context. Nightly 😴 dream passes turn repeat corrections into confirmed preferences with measurable confidence. Adapters ship for Claude Code, Codex, and OpenClaw, with an MCP server for anything else.",
   "homepage": "https://dark-factory.techmeat.dev",
-  "stars": 615,
+  "stars": 616,
   "forks": 85,
   "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-05-06T07:40:41Z",
-  "updated_at": "2026-11-22T20:07:25Z",
-  "pushed_at": "2026-11-23T11:23:14Z",
+  "updated_at": "2026-11-23T23:28:34Z",
+  "pushed_at": "2026-11-24T14:30:48Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 201,
+  "age_days": 202,
   "days_since_push": 0,
-  "health_score": 52,
+  "health_score": 51,
   "health_components": {
     "popularity": 55.8,
-    "momentum": 2.0,
+    "momentum": 1.7,
     "maintenance": 100.0,
-    "documentation": 55.0,
-    "accessibility": 58.0
+    "documentation": 42.0,
+    "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 10,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 3.06,
+    "stars_per_day": 2.0,
+    "lifetime_stars_per_day": 3.05,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "itechmeat/open-second-brain",
-    "readme_chars": 17862,
+    "readme_chars": 6213,
     "capabilities": [
-      "memory-context",
+      "agent-runtime",
       "mcp-support",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "memory-context": "",
-      "mcp-support": "inistic dream pass turns repeated signals into rules and retires the ones nothing uses; no model runs inside that algorithm.",
-      "cross-agent-support": "Mentions Aider, Claude Code, Codex, Copilot"
+      "agent-runtime": "",
+      "mcp-support": "g; add --apply to carry out the plan it printed.",
+      "cross-agent-support": "Mentions Aider, Claude Code, Codex"
     },
     "capability_hits": {
-      "memory-context": 1,
-      "mcp-support": 8,
-      "cross-agent-support": 7
+      "agent-runtime": 1,
+      "mcp-support": 2,
+      "cross-agent-support": 3
     },
     "friction": {
-      "level": "moderate",
-      "score": 42,
+      "level": "low",
+      "score": 30,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [],
       "hard_signals": [],
-      "config_signals": [
-        "database dependency",
-        "database migration"
-      ],
+      "config_signals": [],
       "friendliness_signals": [],
-      "platforms": [
-        "Windows",
-        "Linux"
-      ],
-      "note_en": "Some setup. configure database dependency, database migration",
-      "note_zh": "需要一些配置。需配置 database dependency、database migration"
+      "platforms": [],
+      "note_en": "Easy. No setup signals found in the README.",
+      "note_zh": "较易上手。README 中没有找到安装/配置说明。"
     },
-    "doc_score": 55,
+    "doc_score": 42,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
       "has section headings",
       "documents installation",
-      "documents configuration",
+      "has contribution guidance",
       "mentions licensing",
-      "documents changes",
-      "reports benchmarks",
-      "explains architecture"
+      "documents changes"
     ],
     "agents": [
       "Claude Code",
       "Codex",
-      "Gemini CLI",
-      "OpenCode",
-      "Cursor",
-      "Copilot",
       "Aider"
     ],
-    "summary_en": "Open Second Brain is a memory layer for AI agents that lives in an Obsidian vault.",
+    "summary_en": "Open Second Brain is a program that runs on your machine and connects to the AI coding agents you use: Claude Code, Codex, Grok and others.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
@@ -103,14 +91,9 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.168
+      "external_link_ratio": 0.483
     },
-    "highlights": [
-      "Secret custody. Credentials live encrypted in the vault's state dir behind a capability-gated store; $secret:NAME references resolve at the use sites, o2b brain secret unlock wraps the keyf…",
-      "MCP surface. Tools, tool profiles for hosts with tool limits, and the always-loaded writer server: docs/mcp.md.",
-      "Sharing and backup. Knowledge packs export a chosen subset; o2b brain bank-export writes a one-file backup bundle: knowledge packs.",
-      "Today view and note markers. o2b brain today, @osb loop and @osb set markers: Brain CLI."
-    ],
+    "highlights": [],
     "summary_zh_native": "",
     "highlights_zh": [],
     "chinese_readme": ""
@@ -120,11 +103,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:55+00:00",
+  "fetched_at": "2026-11-24T14:54:47+00:00",
   "categories": [
-    "sessions-memory"
+    "mcp"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "mcp",
   "lifecycle": {
     "state": "active",
     "note_en": "",

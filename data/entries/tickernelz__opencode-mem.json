@@ -8,7 +8,7 @@
   "homepage": "https://opencode-mem.zhafron.my.id",
   "stars": 1884,
   "forks": 191,
-  "open_issues": 9,
+  "open_issues": 2,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "vector-database"
   ],
   "created_at": "2026-01-10T08:13:56Z",
-  "updated_at": "2026-11-22T19:26:49Z",
-  "pushed_at": "2026-11-23T06:26:17Z",
+  "updated_at": "2026-11-24T12:17:12Z",
+  "pushed_at": "2026-11-24T11:43:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 317,
+  "age_days": 318,
   "days_since_push": 0,
   "health_score": 55,
   "health_components": {
     "popularity": 65.5,
-    "momentum": 2.0,
+    "momentum": 0.7,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 40.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 4,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 5.94,
+    "stars_per_day": 0.8,
+    "lifetime_stars_per_day": 5.92,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "tickernelz/opencode-mem",
-    "readme_chars": 71193,
+    "readme_chars": 73149,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -142,13 +142,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.281
+      "external_link_ratio": 0.328
     },
     "highlights": [
+      "aigrow: OpenAI-compatible Chat Completions preset for AIGROW.",
       "In later sessions, relevant memories are injected into context (see chatMessage / compaction settings).",
       "api-route: OpenAI-compatible Chat Completions preset for API Route.",
-      "cloudgpu: OpenAI-compatible Chat Completions preset for CloudGPU.",
-      "orcarouter: OpenAI-compatible model gateway with namespaced model IDs."
+      "cloudgpu: OpenAI-compatible Chat Completions preset for CloudGPU."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -159,13 +159,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:20+00:00",
+  "fetched_at": "2026-11-24T14:54:27+00:00",
   "categories": [
     "desktop-ui",
     "failover",
-    "failover-2"
+    "model-routing"
   ],
-  "primary_category": "failover-2",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

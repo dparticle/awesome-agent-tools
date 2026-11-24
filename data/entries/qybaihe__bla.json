@@ -6,8 +6,8 @@
   "url": "https://github.com/qybaihe/bla",
   "description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
   "homepage": "https://bla.tools",
-  "stars": 6460,
-  "forks": 800,
+  "stars": 6691,
+  "forks": 825,
   "open_issues": 9,
   "language": "TypeScript",
   "license": "MIT",
@@ -33,34 +33,35 @@
     "webassembly"
   ],
   "created_at": "2026-10-25T05:25:45Z",
-  "updated_at": "2026-11-23T14:38:19Z",
-  "pushed_at": "2026-11-22T05:06:27Z",
+  "updated_at": "2026-11-24T14:43:15Z",
+  "pushed_at": "2026-11-24T12:21:00Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 29,
-  "days_since_push": 1,
-  "health_score": 76,
+  "age_days": 30,
+  "days_since_push": 0,
+  "health_score": 83,
   "health_components": {
-    "popularity": 76.2,
-    "momentum": 58.7,
+    "popularity": 76.5,
+    "momentum": 85.3,
     "maintenance": 100.0,
     "documentation": 79.0,
     "accessibility": 68.0
   },
-  "tier": "recommended",
+  "tier": "flagship",
   "momentum": {
-    "stars_gained": 352,
+    "stars_gained": 512,
     "days_span": 5,
-    "stars_per_day": 70.4,
-    "lifetime_stars_per_day": 222.76,
+    "stars_per_day": 102.4,
+    "lifetime_stars_per_day": 223.03,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "qybaihe/bla",
-    "readme_chars": 25997,
+    "readme_chars": 26497,
     "capabilities": [
+      "multi-account-switching",
       "multi-agent-orchestration",
       "agent-runtime",
       "mcp-support",
@@ -68,6 +69,7 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
+      "multi-account-switching": "",
       "multi-agent-orchestration": "ur coding agent (**Claude Code, Cursor, Codex, Windsurf, Gemini CLI, GitHub Copilot CLI, VS Code, OpenCode, Antigravity**):",
       "agent-runtime": "al property and release artifacts.",
       "mcp-support": "aliano · Ελληνικά · മലയാളം · Roman Urdu · Română",
@@ -75,9 +77,10 @@
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
+      "multi-account-switching": 1,
       "multi-agent-orchestration": 1,
-      "agent-runtime": 5,
-      "mcp-support": 7,
+      "agent-runtime": 6,
+      "mcp-support": 8,
       "gui-desktop": 1,
       "cross-agent-support": 6
     },
@@ -105,6 +108,7 @@
         "macOS",
         "Windows",
         "Linux",
+        "iOS",
         "Android"
       ],
       "note_en": "Easy. install via npx one-liner; needs npm install/build, go build; configure config.json/yaml/toml, database dependency; one-click setup",
@@ -143,9 +147,11 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.654
+      "external_link_ratio": 0.755
     },
     "highlights": [
+      "🧠 mu (μ) — Coding agent harness with a tiny judgment kernel (+9.5pp on Terminal-Bench 2.1).",
+      "🤖 BotArk — Native macOS, Windows, iOS & Android workspace unifying Grok Bot, Google Antigravity, ChatGPT Dot, Meta Muse, Hark, Cue, and Hermes with multi-agent collaboration rooms, per-acco…",
       "🛠️ CLI & 31-Tool MCP Catalog"
     ],
     "summary_zh_native": "",
@@ -157,13 +163,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:30+00:00",
+  "fetched_at": "2026-11-24T14:53:52+00:00",
   "categories": [
     "desktop-ui",
     "failover",
-    "mcp"
+    "failover-2"
   ],
-  "primary_category": "mcp",
+  "primary_category": "failover-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

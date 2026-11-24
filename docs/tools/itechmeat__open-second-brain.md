@@ -2,7 +2,7 @@
 
 # itechmeat/open-second-brain
 
-> Open Second Brain is a memory layer for AI agents that lives in an Obsidian vault.
+> Open Second Brain is a program that runs on your machine and connects to the AI coding agents you use: Claude Code, Codex, Grok and others.
 
 [Repository](https://github.com/itechmeat/open-second-brain) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,63 +12,59 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 615 |
-| Star velocity | 2.4/day (history basis, 5d span) |
-| Health score | 52/100 |
-| Documentation | 55/100 |
+| Stars | 616 |
+| Star velocity | 2.0/day (history basis, 5d span) |
+| Health score | 51/100 |
+| Documentation | 42/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-05-06 |
-| Last push | 2026-11-23 (0 days ago) |
-| Analyzed README | 17,862 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 6,213 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Memory & context
+### Agent runtime
 
 ### MCP support
 
-> inistic dream pass turns repeated signals into rules and retires the ones nothing uses; no model runs inside that algorithm.
+> g; add --apply to carry out the plan it printed.
 
 ### Cross-agent support
 
-> Mentions Aider, Claude Code, Codex, Copilot
+> Mentions Aider, Claude Code, Codex
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 42/100)
+- **Difficulty:** 🟢 Easy (friction score 30/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Configuration required:** database dependency, database migration
-
-*Some setup. configure database dependency, database migration*
+*Easy. No setup signals found in the README.*
 
 ## Documentation quality
 
-Score **55/100**, based on these detected signals:
+Score **42/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
 - has section headings
 - documents installation
-- documents configuration
+- has contribution guidance
 - mentions licensing
 - documents changes
-- reports benchmarks
-- explains architecture
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
 | popularity | 55.8 |
-| momentum | 2.0 |
+| momentum | 1.7 |
 | maintenance | 100.0 |
-| documentation | 55.0 |
-| accessibility | 58.0 |
+| documentation | 42.0 |
+| accessibility | 70.0 |
 
 ---
 

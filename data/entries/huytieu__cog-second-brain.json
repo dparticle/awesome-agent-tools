@@ -7,7 +7,7 @@
   "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
   "homepage": "",
   "stars": 1515,
-  "forks": 190,
+  "forks": 189,
   "open_issues": 13,
   "language": "Python",
   "license": "MIT",
@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 404,
-  "days_since_push": 31,
+  "age_days": 405,
+  "days_since_push": 32,
   "health_score": 53,
   "health_components": {
     "popularity": 63.6,
-    "momentum": 2.3,
+    "momentum": 1.8,
     "maintenance": 78.0,
     "documentation": 70.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 3.75,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 3.74,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -167,10 +167,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:22+00:00",
+  "fetched_at": "2026-11-24T14:54:29+00:00",
   "categories": [
     "failover",
-    "model-routing",
+    "model-routing-2",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",

@@ -6,9 +6,9 @@
   "url": "https://github.com/career-ops-hq/career-ops",
   "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
   "homepage": "https://career-ops.org",
-  "stars": 84348,
-  "forks": 15431,
-  "open_issues": 418,
+  "stars": 84558,
+  "forks": 15467,
+  "open_issues": 445,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -23,9 +23,9 @@
     "claude-plugin",
     "cover-letter",
     "cv",
+    "gemini-cli-extension",
     "good-first-issue",
     "interview-preparation",
-    "interview-questions",
     "job-application",
     "job-hunting",
     "job-search",
@@ -34,12 +34,12 @@
     "resume"
   ],
   "created_at": "2026-04-04T18:21:18Z",
-  "updated_at": "2026-11-23T14:32:32Z",
-  "pushed_at": "2026-11-23T14:35:05Z",
+  "updated_at": "2026-11-24T14:51:17Z",
+  "pushed_at": "2026-11-24T14:51:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 232,
+  "age_days": 233,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 883,
+    "stars_gained": 867,
     "days_span": 5,
-    "stars_per_day": 176.6,
-    "lifetime_stars_per_day": 363.57,
+    "stars_per_day": 173.4,
+    "lifetime_stars_per_day": 362.91,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -157,11 +157,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:49+00:00",
+  "fetched_at": "2026-11-24T14:54:05+00:00",
   "categories": [
-    "model-routing"
+    "model-routing-2"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "model-routing-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

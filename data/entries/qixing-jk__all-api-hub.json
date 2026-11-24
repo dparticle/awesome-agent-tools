@@ -6,8 +6,8 @@
   "url": "https://github.com/qixing-jk/all-api-hub",
   "description": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
   "homepage": "https://all-api-hub.qixing1217.top/",
-  "stars": 5085,
-  "forks": 348,
+  "stars": 5084,
+  "forks": 349,
   "open_issues": 101,
   "language": "TypeScript",
   "license": "AGPL-3.0",
@@ -30,33 +30,33 @@
     "voapi"
   ],
   "created_at": "2025-09-08T15:51:38Z",
-  "updated_at": "2026-11-23T14:15:01Z",
-  "pushed_at": "2026-11-23T10:15:22Z",
+  "updated_at": "2026-11-24T06:53:56Z",
+  "pushed_at": "2026-11-24T10:36:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 440,
+  "age_days": 441,
   "days_since_push": 0,
   "health_score": 60,
   "health_components": {
     "popularity": 74.1,
-    "momentum": 1.5,
+    "momentum": 1.3,
     "maintenance": 100.0,
     "documentation": 68.0,
     "accessibility": 67.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 11.56,
+    "stars_per_day": 1.6,
+    "lifetime_stars_per_day": 11.53,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "qixing-jk/all-api-hub",
-    "readme_chars": 23319,
+    "readme_chars": 23373,
     "capabilities": [
       "multi-account-switching",
       "model-routing",
@@ -139,7 +139,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.745
+      "external_link_ratio": 2.781
     },
     "highlights": [
       "Quickly Create Gateway Channels: Turn saved site accounts or credentials from the API Credential Library into self-hosted AI gateway channels, then call models through the gateway and switc…",
@@ -150,7 +150,7 @@
     "summary_zh_native": "简体中文 | English | 日本語",
     "highlights_zh": [
       "独立账号平台与中转站：OpenRouter、Kimi 开放平台（国内/国际版）、AnyRouter、AgentRouter、AIHubMix、老张 API、Dahl、FoxCode、肖恩 AI、Cubence、RightCode、Grsai、FreeModel、SharedChat、WONG公益站、Krill AI、EMRank、RelayFor、Daya API、Verce…",
-      "账号站点兼容架构：New API、Sub2API、One API、one-hub、Veloera、VoAPI / VoAPI v2、DoneHub、Super-API、API易、ModelFlare、v-api 以及 Neo-API、RIX_API 等变体。",
+      "账号站点兼容架构：New API、Sub2API、One API、one-hub、Veloera、VoAPI / VoAPI v2、DoneHub、Shell API、Super-API、API易、ModelFlare、v-api 以及 Neo-API、RIX_API 等变体。",
       "API 凭据库：无需绑定站点账号，把别人分享或平时零散收集的 Base URL 与 API Key 集中收好；查余额、看模型、测连接或导出，打开就能用。",
       "客户端与开发工具一键导出：CC Switch、Cherry Studio、Claude Code Router、Kilo Code、Roo Code、Kelivo、AI Toolbox、Cursor++ 等，详见 支持的导出工具"
     ],
@@ -161,7 +161,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:06+00:00",
+  "fetched_at": "2026-11-24T14:54:18+00:00",
   "categories": [
     "billing",
     "billing-2"

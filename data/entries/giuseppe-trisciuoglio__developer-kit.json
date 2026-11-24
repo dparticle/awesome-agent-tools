@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 398,
-  "days_since_push": 74,
+  "age_days": 399,
+  "days_since_push": 75,
   "health_score": 44,
   "health_components": {
     "popularity": 51.4,
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:41:23+00:00",
+  "fetched_at": "2026-11-24T14:55:03+00:00",
   "categories": [
     "desktop-ui",
     "failover"
@@ -175,14 +175,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 134.919,
-      "momentum_ratio": 1032.0,
+      "star_ratio": 135.065,
+      "momentum_ratio": 1040.0,
       "setup_delta": -34,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "134.92x the stars (50,190 vs 372)",
-        "1032.00x the star velocity (51.6/day vs 0.0/day)",
+        "135.06x the stars (50,244 vs 372)",
+        "1040.00x the star velocity (52.0/day vs 0.0/day)",
         "no harder to set up (32 vs 66 friction)"
       ],
       "reasons_zh": [],

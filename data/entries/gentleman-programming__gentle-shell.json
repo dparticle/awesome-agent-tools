@@ -6,9 +6,9 @@
   "url": "https://github.com/Gentleman-Programming/gentle-shell",
   "description": "Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel coding agents, live tasks, Git diffs, persistent memory, and permission controls into one terminal interface. Powered by Gentle AI and Organic Driven Development (ODD).",
   "homepage": "https://gentle-ai.gentlemanprogramming.com/",
-  "stars": 2901,
-  "forks": 301,
-  "open_issues": 454,
+  "stars": 2937,
+  "forks": 303,
+  "open_issues": 446,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "tdd"
   ],
   "created_at": "2026-05-10T10:11:33Z",
-  "updated_at": "2026-11-23T14:25:14Z",
-  "pushed_at": "2026-11-23T14:31:59Z",
+  "updated_at": "2026-11-24T13:58:05Z",
+  "pushed_at": "2026-11-24T14:05:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 197,
+  "age_days": 198,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
-    "popularity": 69.3,
-    "momentum": 20.8,
+    "popularity": 69.4,
+    "momentum": 20.2,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 78.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 125,
+    "stars_gained": 121,
     "days_span": 5,
-    "stars_per_day": 25.0,
-    "lifetime_stars_per_day": 14.73,
+    "stars_per_day": 24.2,
+    "lifetime_stars_per_day": 14.83,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Gentleman-Programming/gentle-shell",
-    "readme_chars": 67599,
+    "readme_chars": 67719,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -178,13 +178,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:14+00:00",
+  "fetched_at": "2026-11-24T14:54:23+00:00",
   "categories": [
     "failover",
-    "failover-2",
-    "parallelism"
+    "mobile",
+    "model-routing"
   ],
-  "primary_category": "failover-2",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "active",
     "note_en": "",

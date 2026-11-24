@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
   "homepage": "https://open.bot",
-  "stars": 13272,
-  "forks": 1654,
-  "open_issues": 162,
+  "stars": 13375,
+  "forks": 1665,
+  "open_issues": 168,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-23T14:25:39Z",
-  "pushed_at": "2026-11-23T13:55:02Z",
+  "updated_at": "2026-11-24T14:52:17Z",
+  "pushed_at": "2026-11-24T14:42:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 98,
+  "age_days": 99,
   "days_since_push": 0,
   "health_score": 78,
   "health_components": {
     "popularity": 82.5,
-    "momentum": 75.8,
+    "momentum": 74.5,
     "maintenance": 100.0,
     "documentation": 78.0,
     "accessibility": 36.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 455,
+    "stars_gained": 447,
     "days_span": 5,
-    "stars_per_day": 91.0,
-    "lifetime_stars_per_day": 135.43,
+    "stars_per_day": 89.4,
+    "lifetime_stars_per_day": 135.1,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -163,10 +163,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:15+00:00",
+  "fetched_at": "2026-11-24T14:53:43+00:00",
   "categories": [
-    "failover-2",
     "mcp",
+    "model-routing",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",
@@ -196,14 +196,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 23.308,
-      "momentum_ratio": 7.185,
+      "star_ratio": 23.175,
+      "momentum_ratio": 6.763,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "23.31x the stars (309,339 vs 13,272)",
-        "7.18x the star velocity (653.8/day vs 91.0/day)",
+        "23.18x the stars (309,966 vs 13,375)",
+        "6.76x the star velocity (604.6/day vs 89.4/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],

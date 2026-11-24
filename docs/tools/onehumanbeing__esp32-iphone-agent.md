@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,261 |
-| Star velocity | 41.0/day (history basis, 5d span) |
+| Stars | 5,304 |
+| Star velocity | 41.6/day (history basis, 5d span) |
 | Health score | 69/100 |
 | Documentation | 74/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Swift |
 | Created | 2026-10-11 |
-| Last push | 2026-11-23 (0 days ago) |
-| Analyzed README | 25,947 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 26,368 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -36,7 +36,7 @@
 
 ### MCP support
 
-> t from the Dynamic Island,
+> · Digital Trends · Ruanyf Weekly #415 · Seeed Studio
 
 ### Self-hostable
 
@@ -76,8 +76,8 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.4 |
-| momentum | 34.2 |
+| popularity | 74.5 |
+| momentum | 34.7 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
 | accessibility | 64.0 |

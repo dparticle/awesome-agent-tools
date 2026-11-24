@@ -6,9 +6,9 @@
   "url": "https://github.com/lexmount/moli",
   "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
   "homepage": "https://browser.lexmount.com",
-  "stars": 24337,
-  "forks": 701,
-  "open_issues": 829,
+  "stars": 24418,
+  "forks": 707,
+  "open_issues": 902,
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [
@@ -30,27 +30,27 @@
     "web-scraping"
   ],
   "created_at": "2026-08-10T13:20:30Z",
-  "updated_at": "2026-11-23T14:27:30Z",
-  "pushed_at": "2026-11-23T14:35:40Z",
+  "updated_at": "2026-11-24T14:49:53Z",
+  "pushed_at": "2026-11-24T14:49:32Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 105,
+  "age_days": 106,
   "days_since_push": 0,
-  "health_score": 78,
+  "health_score": 79,
   "health_components": {
-    "popularity": 87.7,
-    "momentum": 57.3,
+    "popularity": 87.8,
+    "momentum": 60.0,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 100.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 344,
+    "stars_gained": 360,
     "days_span": 5,
-    "stars_per_day": 68.8,
-    "lifetime_stars_per_day": 231.78,
+    "stars_per_day": 72.0,
+    "lifetime_stars_per_day": 230.36,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:10+00:00",
+  "fetched_at": "2026-11-24T14:53:39+00:00",
   "categories": [
     "mcp"
   ],

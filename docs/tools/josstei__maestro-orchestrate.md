@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 490 |
-| Star velocity | 0.2/day (history basis, 5d span) |
+| Stars | 491 |
+| Star velocity | 0.4/day (history basis, 5d span) |
 | Health score | 49/100 |
 | Documentation | 61/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-11-02 (21 days ago) |
+| Last push | 2026-11-02 (22 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [hex/claude-council](https://github.com/hex/claude-council)** — Superseded by hex/claude-council: covers 100% of capabilities (4/4).
@@ -72,7 +72,7 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.8 |
-| momentum | 0.2 |
+| momentum | 0.3 |
 | maintenance | 92.0 |
 | documentation | 61.0 |
 | accessibility | 49.0 |

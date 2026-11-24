@@ -6,9 +6,9 @@
   "url": "https://github.com/patch-gg/pixelfx",
   "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
   "homepage": "https://patch-gg.github.io/pixelfx/",
-  "stars": 8843,
-  "forks": 1162,
-  "open_issues": 16,
+  "stars": 8997,
+  "forks": 1181,
+  "open_issues": 17,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -22,16 +22,16 @@
     "vfx"
   ],
   "created_at": "2026-10-30T06:43:25Z",
-  "updated_at": "2026-11-23T14:33:32Z",
+  "updated_at": "2026-11-24T14:49:14Z",
   "pushed_at": "2026-11-13T08:43:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 24,
-  "days_since_push": 10,
+  "age_days": 25,
+  "days_since_push": 11,
   "health_score": 83,
   "health_components": {
-    "popularity": 78.9,
+    "popularity": 79.1,
     "momentum": 100.0,
     "maintenance": 92.0,
     "documentation": 42.0,
@@ -39,10 +39,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 759,
+    "stars_gained": 758,
     "days_span": 5,
-    "stars_per_day": 151.8,
-    "lifetime_stars_per_day": 368.46,
+    "stars_per_day": 151.6,
+    "lifetime_stars_per_day": 359.88,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -116,7 +116,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:22+00:00",
+  "fetched_at": "2026-11-24T14:53:47+00:00",
   "categories": [
     "billing-2",
     "failover"

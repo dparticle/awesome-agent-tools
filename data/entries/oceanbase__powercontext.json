@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1794,
-  "forks": 682,
-  "open_issues": 148,
+  "stars": 1810,
+  "forks": 681,
+  "open_issues": 167,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,27 +29,27 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-23T14:06:20Z",
-  "pushed_at": "2026-11-23T14:13:30Z",
+  "updated_at": "2026-11-24T13:29:54Z",
+  "pushed_at": "2026-11-24T07:23:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 378,
+  "age_days": 379,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 65.1,
-    "momentum": 10.5,
+    "popularity": 65.2,
+    "momentum": 11.5,
     "maintenance": 100.0,
     "documentation": 71.0,
     "accessibility": 31.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 63,
+    "stars_gained": 69,
     "days_span": 5,
-    "stars_per_day": 12.6,
-    "lifetime_stars_per_day": 4.75,
+    "stars_per_day": 13.8,
+    "lifetime_stars_per_day": 4.78,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -151,7 +151,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:21+00:00",
+  "fetched_at": "2026-11-24T14:54:28+00:00",
   "categories": [
     "sessions-memory"
   ],
@@ -177,14 +177,14 @@
         "mcp-support",
         "memory-context"
       ],
-      "star_ratio": 11.247,
-      "momentum_ratio": 15.079,
+      "star_ratio": 11.77,
+      "momentum_ratio": 29.594,
       "setup_delta": -36,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "11.25x the stars (20,177 vs 1,794)",
-        "15.08x the star velocity (190.0/day vs 12.6/day)",
+        "11.77x the stars (21,304 vs 1,810)",
+        "29.59x the star velocity (408.4/day vs 13.8/day)",
         "no harder to set up (33 vs 69 friction)"
       ],
       "reasons_zh": [],

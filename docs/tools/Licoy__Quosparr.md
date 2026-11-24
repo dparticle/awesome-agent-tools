@@ -13,7 +13,7 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 335 |
-| Star velocity | 1.2/day (history basis, 5d span) |
+| Star velocity | 1.0/day (history basis, 5d span) |
 | Health score | 52/100 |
 | Documentation | 57/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-06-29 |
-| Last push | 2026-11-23 (0 days ago) |
+| Last push | 2026-11-23 (1 days ago) |
 | Analyzed README | 28,934 chars from `raw:HEAD/README.md` |
 
 ## What it solves
@@ -101,7 +101,7 @@ Score **57/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 50.5 |
-| momentum | 1.0 |
+| momentum | 0.8 |
 | maintenance | 100.0 |
 | documentation | 57.0 |
 | accessibility | 68.0 |

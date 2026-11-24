@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 16,288 |
-| Star velocity | 38.6/day (history basis, 5d span) |
+| Stars | 16,339 |
+| Star velocity | 38.2/day (history basis, 5d span) |
 | Health score | 69/100 |
 | Documentation | 71/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-05-21 |
-| Last push | 2026-11-22 (0 days ago) |
-| Analyzed README | 47,512 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-23 (0 days ago) |
+| Analyzed README | 48,157 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,11 @@
 
 ### Model / provider routing
 
+> vLLM, with optional rotating
+
 ### API gateway / proxy
+
+> vLLM, with optional rotating
 
 ### Memory & context
 
@@ -98,8 +102,8 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 84.2 |
-| momentum | 32.2 |
+| popularity | 84.3 |
+| momentum | 31.8 |
 | maintenance | 100.0 |
 | documentation | 71.0 |
 | accessibility | 54.0 |

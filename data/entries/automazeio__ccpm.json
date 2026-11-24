@@ -6,7 +6,7 @@
   "url": "https://github.com/automazeio/ccpm",
   "description": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
   "homepage": "https://automaze.io",
-  "stars": 8463,
+  "stars": 8466,
   "forks": 839,
   "open_issues": 1,
   "language": "Shell",
@@ -20,27 +20,27 @@
     "vibe-coding"
   ],
   "created_at": "2025-08-18T23:20:08Z",
-  "updated_at": "2026-11-23T09:03:40Z",
+  "updated_at": "2026-11-24T07:34:56Z",
   "pushed_at": "2026-11-04T13:13:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 461,
-  "days_since_push": 19,
+  "age_days": 462,
+  "days_since_push": 20,
   "health_score": 53,
   "health_components": {
     "popularity": 78.6,
-    "momentum": 1.5,
+    "momentum": 1.0,
     "maintenance": 92.0,
     "documentation": 48.0,
     "accessibility": 37.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 18.36,
+    "stars_per_day": 1.2,
+    "lifetime_stars_per_day": 18.32,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -142,10 +142,8 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:02+00:00",
+  "fetched_at": "2026-11-24T14:54:16+00:00",
   "categories": [
-    "billing-2",
-    "mcp",
     "parallelism"
   ],
   "primary_category": "parallelism",

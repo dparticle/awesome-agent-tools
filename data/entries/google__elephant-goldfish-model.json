@@ -6,9 +6,9 @@
   "url": "https://github.com/google/elephant-goldfish-model",
   "description": "Open-source plugin for designing and reviewing software with agents",
   "homepage": "https://egm.dev",
-  "stars": 22335,
-  "forks": 1646,
-  "open_issues": 168,
+  "stars": 22560,
+  "forks": 1666,
+  "open_issues": 164,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -30,16 +30,16 @@
     "spec-driven-development"
   ],
   "created_at": "2026-09-13T16:31:06Z",
-  "updated_at": "2026-11-23T14:36:35Z",
-  "pushed_at": "2026-11-23T14:32:35Z",
+  "updated_at": "2026-11-24T14:49:55Z",
+  "pushed_at": "2026-11-24T14:24:56Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 70,
+  "age_days": 71,
   "days_since_push": 0,
   "health_score": 85,
   "health_components": {
-    "popularity": 87.0,
+    "popularity": 87.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 42.0,
@@ -47,16 +47,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1343,
+    "stars_gained": 1250,
     "days_span": 5,
-    "stars_per_day": 268.6,
-    "lifetime_stars_per_day": 319.07,
+    "stars_per_day": 250.0,
+    "lifetime_stars_per_day": 317.75,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "google/elephant-goldfish-model",
-    "readme_chars": 9766,
+    "readme_chars": 9926,
     "capabilities": [
       "multi-agent-orchestration",
       "agent-runtime",
@@ -117,7 +117,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.614
+      "external_link_ratio": 0.705
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -129,11 +129,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:11+00:00",
+  "fetched_at": "2026-11-24T14:53:40+00:00",
   "categories": [
     "desktop-ui",
     "failover",
-    "model-routing"
+    "model-routing-2"
   ],
   "primary_category": "desktop-ui",
   "lifecycle": {

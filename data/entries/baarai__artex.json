@@ -6,9 +6,9 @@
   "url": "https://github.com/BaaRai/ARTEX",
   "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
   "homepage": "",
-  "stars": 17139,
-  "forks": 6356,
-  "open_issues": 36,
+  "stars": 18661,
+  "forks": 6972,
+  "open_issues": 33,
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [
@@ -34,33 +34,33 @@
     "typescript"
   ],
   "created_at": "2026-10-08T21:14:39Z",
-  "updated_at": "2026-11-23T14:37:48Z",
-  "pushed_at": "2026-11-23T14:26:51Z",
+  "updated_at": "2026-11-24T14:52:59Z",
+  "pushed_at": "2026-11-24T00:19:23Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 45,
+  "age_days": 46,
   "days_since_push": 0,
-  "health_score": 79,
+  "health_score": 83,
   "health_components": {
-    "popularity": 84.7,
+    "popularity": 85.4,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
-    "accessibility": 0.0
+    "accessibility": 25.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 17139,
-    "days_span": 45,
-    "stars_per_day": 380.87,
-    "lifetime_stars_per_day": 380.87,
+    "stars_gained": 18661,
+    "days_span": 46,
+    "stars_per_day": 405.67,
+    "lifetime_stars_per_day": 405.67,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "BaaRai/ARTEX",
-    "readme_chars": 48020,
+    "readme_chars": 48566,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -76,7 +76,7 @@
     ],
     "capability_evidence": {
       "auto-failover": "nt providers; each intent",
-      "multi-agent-orchestration": "e all CI checks locally: ./scripts/verify.sh (add --full for -race and the static web build)",
+      "multi-agent-orchestration": "lncheck and run ./scripts/verify.sh --security (CI runs this on every push and pull request)",
       "model-routing": "*LLM**: export ANTHROPICAPIKEY=sk-...",
       "api-gateway": "",
       "billing-metering": "rchives for repeatable engagements.",
@@ -102,10 +102,12 @@
     },
     "friction": {
       "level": "high",
-      "score": 100,
+      "score": 75,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
-      "easy_signals": [],
+      "easy_signals": [
+        "Homebrew install"
+      ],
       "hard_signals": [
         "docker compose up",
         "docker run",
@@ -131,8 +133,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Involved setup. needs docker compose up, docker run; configure environment variables, API key configuration; one-click setup",
-      "note_zh": "配置较重。需要 docker compose up、docker run；需配置 environment variables、API key configuration；one-click setup"
+      "note_en": "Involved setup. install via Homebrew install; needs docker compose up, docker run; configure environment variables, API key configuration; one-click setup",
+      "note_zh": "配置较重。可通过 Homebrew install 安装；需要 docker compose up、docker run；需配置 environment variables、API key configuration；one-click setup"
     },
     "doc_score": 73,
     "doc_signals": [
@@ -162,7 +164,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.229
+      "external_link_ratio": 0.226
     },
     "highlights": [
       "nginx and ARTEX both on the host (binary, ./start.sh): the peer is 127.0.0.1; start ARTEX",
@@ -179,13 +181,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:14+00:00",
+  "fetched_at": "2026-11-24T14:53:41+00:00",
   "categories": [
-    "failover-2",
+    "billing-2",
     "mcp",
     "teams-self-hosting"
   ],
-  "primary_category": "failover-2",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

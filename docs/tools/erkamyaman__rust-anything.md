@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,524 |
-| Star velocity | 1217.7/day (lifetime basis, 7d span) |
+| Stars | 9,082 |
+| Star velocity | 1135.2/day (lifetime basis, 8d span) |
 | Health score | 85/100 |
 | Documentation | 64/100 |
 | Tier | 🏆 Flagship |
@@ -21,18 +21,18 @@
 | License | MIT |
 | Language | Rust |
 | Created | 2026-11-16 |
-| Last push | 2026-11-23 (0 days ago) |
-| Analyzed README | 25,864 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 27,305 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Agent runtime
 
-> nçe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt · Español · Italiano
+> iệt · Español · Italiano · Bahasa Indonesia · العربية · فارسی · हिन्दी
 
 ### MCP support
 
-> d every piece is checked against that recording before it moves on.
+> cOS, Linux and Windows are attached to each
 
 ### GUI / desktop app
 
@@ -77,7 +77,7 @@ Score **64/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 78.6 |
+| popularity | 79.2 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 64.0 |

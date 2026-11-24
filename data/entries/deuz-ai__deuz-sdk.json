@@ -8,7 +8,7 @@
   "homepage": "https://deuz-sdk.tech",
   "stars": 508,
   "forks": 4,
-  "open_issues": 12,
+  "open_issues": 13,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -35,17 +35,17 @@
   ],
   "created_at": "2026-06-01T19:18:59Z",
   "updated_at": "2026-11-10T09:40:15Z",
-  "pushed_at": "2026-10-16T21:43:10Z",
+  "pushed_at": "2026-11-24T13:14:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 174,
-  "days_since_push": 37,
-  "health_score": 45,
+  "age_days": 175,
+  "days_since_push": 0,
+  "health_score": 49,
   "health_components": {
     "popularity": 54.1,
     "momentum": 0.0,
-    "maintenance": 78.0,
+    "maintenance": 100.0,
     "documentation": 39.0,
     "accessibility": 63.0
   },
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.92,
+    "lifetime_stars_per_day": 2.9,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -134,8 +134,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:41:05+00:00",
+  "fetched_at": "2026-11-24T14:54:53+00:00",
   "categories": [
+    "billing-2",
     "failover",
     "mcp"
   ],
@@ -161,14 +162,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 2.37,
-      "momentum_ratio": 68.0,
+      "star_ratio": 2.378,
+      "momentum_ratio": 60.0,
       "setup_delta": -7,
-      "dominance": 0.946,
+      "dominance": 0.947,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.37x the stars (1,204 vs 508)",
-        "68.00x the star velocity (3.4/day vs 0.0/day)",
+        "2.38x the stars (1,208 vs 508)",
+        "60.00x the star velocity (3.0/day vs 0.0/day)",
         "no harder to set up (30 vs 37 friction)"
       ],
       "reasons_zh": [],
@@ -189,7 +190,7 @@
           "session-persistence",
           "skills-plugins"
         ],
-        "incumbent_health": 45,
+        "incumbent_health": 49,
         "challenger_health": 56,
         "incumbent_setup_score": 37,
         "challenger_setup_score": 30

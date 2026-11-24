@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 8,783 |
+| Stars | 8,850 |
 | Star velocity | 75.6/day (history basis, 5d span) |
 | Health score | 78/100 |
 | Documentation | 72/100 |
@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | Python |
 | Created | 2026-07-15 |
-| Last push | 2026-11-23 (0 days ago) |
+| Last push | 2026-11-24 (0 days ago) |
 | Analyzed README | 36,127 chars from `raw:HEAD/README.md` |
 
 ## What it solves

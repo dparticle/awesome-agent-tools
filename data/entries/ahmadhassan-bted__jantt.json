@@ -4,9 +4,9 @@
   "name": "Jantt",
   "owner": "AhmadHassan-BTed",
   "url": "https://github.com/AhmadHassan-BTed/Jantt",
-  "description": "Create interactive Gantt charts with AI — no code required, free forever. Built-in BYOK AI Copilot (10 providers + Ollama), free cloud rooms, working-calendar CPM, 6 views, React/Vue/Svelte/Python/MCP.",
+  "description": "Create interactive Gantt charts with AI : no code required, free forever. Built-in BYOK AI Copilot (10 providers + Ollama), free cloud rooms, working-calendar CPM, 6 views, React/Vue/Svelte/Python/MCP.",
   "homepage": "https://ahmadhassan-bted.github.io/Jantt/",
-  "stars": 6239,
+  "stars": 6242,
   "forks": 23,
   "open_issues": 0,
   "language": "TypeScript",
@@ -34,27 +34,27 @@
     "typescript"
   ],
   "created_at": "2026-08-28T07:32:35Z",
-  "updated_at": "2026-11-23T09:03:42Z",
-  "pushed_at": "2026-11-23T11:50:33Z",
+  "updated_at": "2026-11-24T09:57:52Z",
+  "pushed_at": "2026-11-24T12:00:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 87,
+  "age_days": 88,
   "days_since_push": 0,
   "health_score": 77,
   "health_components": {
     "popularity": 75.9,
-    "momentum": 59.8,
+    "momentum": 59.1,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 87.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 6239,
-    "days_span": 87,
-    "stars_per_day": 71.71,
-    "lifetime_stars_per_day": 71.71,
+    "stars_gained": 6242,
+    "days_span": 88,
+    "stars_per_day": 70.93,
+    "lifetime_stars_per_day": 70.93,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -156,7 +156,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:31+00:00",
+  "fetched_at": "2026-11-24T14:53:52+00:00",
   "categories": [
     "teams-self-hosting"
   ],

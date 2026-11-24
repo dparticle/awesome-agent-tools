@@ -18,26 +18,26 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-11-21T01:30:47Z",
+  "updated_at": "2026-11-24T11:31:03Z",
   "pushed_at": "2026-10-26T22:43:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 468,
-  "days_since_push": 27,
+  "age_days": 469,
+  "days_since_push": 28,
   "health_score": 51,
   "health_components": {
     "popularity": 55.4,
-    "momentum": 0.7,
+    "momentum": 0.5,
     "maintenance": 92.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 4,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.8,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.25,
     "basis": "history",
     "is_fast_riser": false
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:57+00:00",
+  "fetched_at": "2026-11-24T14:54:48+00:00",
   "categories": [
     "failover",
     "parallelism"
@@ -151,14 +151,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.046,
-      "momentum_ratio": 20.25,
+      "star_ratio": 48.072,
+      "momentum_ratio": 26.667,
       "setup_delta": 2,
       "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.05x the stars (28,203 vs 587)",
-        "20.25x the star velocity (16.2/day vs 0.8/day)",
+        "48.07x the stars (28,218 vs 587)",
+        "26.67x the star velocity (16.0/day vs 0.6/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 27,070 |
-| Star velocity | 381.4/day (history basis, 5d span) |
+| Stars | 27,407 |
+| Star velocity | 353.2/day (history basis, 5d span) |
 | Health score | 88/100 |
 | Documentation | 71/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-08-11 |
-| Last push | 2026-11-23 (0 days ago) |
-| Analyzed README | 34,636 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 35,211 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -64,7 +64,7 @@
 
 ### Notifications
 
-> reply" and it sets the trigger up in that turn with
+> ly" and it sets the trigger up in that turn with
 
 ### Voice input
 
@@ -109,7 +109,7 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 88.6 |
+| popularity | 88.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 71.0 |

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 500 |
-| Star velocity | 0.0/day (history basis, 5d span) |
+| Stars | 501 |
+| Star velocity | 0.2/day (history basis, 5d span) |
 | Health score | 41/100 |
 | Documentation | 53/100 |
 | Tier | 👀 Watchlist |
@@ -21,10 +21,10 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-27 |
-| Last push | 2026-07-10 (136 days ago) |
+| Last push | 2026-07-10 (137 days ago) |
 | Analyzed README | 7,017 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer)** — Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)** — Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).
 
 ## What it solves
 
@@ -76,7 +76,7 @@ Score **53/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 54.0 |
-| momentum | 0.0 |
+| momentum | 0.2 |
 | maintenance | 55.0 |
 | documentation | 53.0 |
 | accessibility | 55.0 |

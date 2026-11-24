@@ -6,36 +6,36 @@
   "url": "https://github.com/tamaratran/fast-jev-compaction",
   "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
   "homepage": "",
-  "stars": 8015,
+  "stars": 8023,
   "forks": 591,
   "open_issues": 123,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-09-17T05:57:20Z",
-  "updated_at": "2026-11-23T09:10:49Z",
+  "updated_at": "2026-11-24T14:20:06Z",
   "pushed_at": "2026-09-18T04:45:31Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 67,
-  "days_since_push": 66,
+  "age_days": 68,
+  "days_since_push": 67,
   "health_score": 49,
   "health_components": {
     "popularity": 78.1,
-    "momentum": 3.5,
+    "momentum": 3.8,
     "maintenance": 78.0,
     "documentation": 30.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 23,
     "days_span": 5,
-    "stars_per_day": 4.2,
-    "lifetime_stars_per_day": 119.63,
+    "stars_per_day": 4.6,
+    "lifetime_stars_per_day": 117.99,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "tamaratran/fast-jev-compaction",
@@ -105,11 +105,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:24+00:00",
+  "fetched_at": "2026-11-24T14:53:49+00:00",
   "categories": [
-    "failover-2"
+    "model-routing"
   ],
-  "primary_category": "failover-2",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

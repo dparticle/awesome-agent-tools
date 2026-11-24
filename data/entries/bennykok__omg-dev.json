@@ -25,26 +25,26 @@
   ],
   "created_at": "2026-06-17T07:33:04Z",
   "updated_at": "2026-11-23T00:45:10Z",
-  "pushed_at": "2026-11-23T04:59:08Z",
+  "pushed_at": "2026-11-23T20:04:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 159,
+  "age_days": 160,
   "days_since_push": 0,
-  "health_score": 51,
+  "health_score": 50,
   "health_components": {
     "popularity": 55.0,
-    "momentum": 0.5,
+    "momentum": 0.3,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 2,
     "days_span": 5,
-    "stars_per_day": 0.6,
-    "lifetime_stars_per_day": 3.53,
+    "stars_per_day": 0.4,
+    "lifetime_stars_per_day": 3.51,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:41:00+00:00",
+  "fetched_at": "2026-11-24T14:54:49+00:00",
   "categories": [
     "desktop-ui",
     "failover",
@@ -178,14 +178,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 1.205,
-      "momentum_ratio": 5.0,
+      "star_ratio": 1.209,
+      "momentum_ratio": 6.5,
       "setup_delta": -2,
-      "dominance": 0.792,
+      "dominance": 0.793,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "1.20x the stars (676 vs 561)",
-        "5.00x the star velocity (3.0/day vs 0.6/day)",
+        "1.21x the stars (678 vs 561)",
+        "6.50x the star velocity (2.6/day vs 0.4/day)",
         "no harder to set up (29 vs 31 friction)"
       ],
       "reasons_zh": [],
@@ -216,7 +216,7 @@
           "voice-input",
           "worktree-isolation"
         ],
-        "incumbent_health": 51,
+        "incumbent_health": 50,
         "challenger_health": 56,
         "incumbent_setup_score": 31,
         "challenger_setup_score": 29

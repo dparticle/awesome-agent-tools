@@ -21,10 +21,10 @@
 | License | NOASSERTION |
 | Language | n/a |
 | Created | 2026-03-23 |
-| Last push | 2026-11-17 (6 days ago) |
+| Last push | 2026-11-17 (7 days ago) |
 | Analyzed README | 25,979 chars from `raw:main/README.md` |
 
-> ⚠️ **Superseded by [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)** — Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)** — Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (4/4).
 
 ## What it solves
 

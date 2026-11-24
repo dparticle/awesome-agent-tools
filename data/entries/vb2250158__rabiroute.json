@@ -35,11 +35,11 @@
   ],
   "created_at": "2026-06-01T09:40:16Z",
   "updated_at": "2026-11-17T09:44:07Z",
-  "pushed_at": "2026-11-23T14:31:25Z",
+  "pushed_at": "2026-11-24T14:44:20Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 175,
+  "age_days": 176,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.82,
+    "lifetime_stars_per_day": 2.8,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,9 +152,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:41:08+00:00",
+  "fetched_at": "2026-11-24T14:54:54+00:00",
   "categories": [
-    "mcp",
+    "billing-2",
     "mobile"
   ],
   "primary_category": "mobile",
@@ -182,14 +182,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 1.371,
-      "momentum_ratio": 60.0,
+      "star_ratio": 1.375,
+      "momentum_ratio": 52.0,
       "setup_delta": 11,
-      "dominance": 0.767,
+      "dominance": 0.768,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "1.37x the stars (676 vs 493)",
-        "60.00x the star velocity (3.0/day vs 0.0/day)",
+        "1.38x the stars (678 vs 493)",
+        "52.00x the star velocity (2.6/day vs 0.0/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],

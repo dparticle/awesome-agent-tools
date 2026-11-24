@@ -6,8 +6,8 @@
   "url": "https://github.com/zenstory-ai/drama-skills",
   "description": "AI 短剧与漫剧制作 Agent 技能包：小说改剧本、视觉设定、分镜、生图/生视频提示词与剪辑成片，适配 Claude Code / Codex 等 ｜ Agent skills for AI short dramas & motion comics",
   "homepage": "https://zenstory.ai/zh/drama-skills",
-  "stars": 4831,
-  "forks": 815,
+  "stars": 4923,
+  "forks": 830,
   "open_issues": 3,
   "language": "Python",
   "license": "MIT",
@@ -32,33 +32,33 @@
     "zenstory"
   ],
   "created_at": "2026-07-16T16:11:19Z",
-  "updated_at": "2026-11-23T14:36:26Z",
-  "pushed_at": "2026-11-22T07:28:17Z",
+  "updated_at": "2026-11-24T14:48:51Z",
+  "pushed_at": "2026-11-24T02:56:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 129,
-  "days_since_push": 1,
-  "health_score": 75,
+  "age_days": 130,
+  "days_since_push": 0,
+  "health_score": 76,
   "health_components": {
-    "popularity": 73.7,
-    "momentum": 64.2,
+    "popularity": 73.8,
+    "momentum": 69.8,
     "maintenance": 100.0,
     "documentation": 60.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 385,
+    "stars_gained": 419,
     "days_span": 5,
-    "stars_per_day": 77.0,
-    "lifetime_stars_per_day": 37.45,
+    "stars_per_day": 83.8,
+    "lifetime_stars_per_day": 37.87,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "zenstory-ai/drama-skills",
-    "readme_chars": 12596,
+    "readme_chars": 13023,
     "capabilities": [
       "billing-metering",
       "skills-plugins",
@@ -128,13 +128,13 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.953
+      "external_link_ratio": 0.921
     },
     "highlights": [
       "连戏锁：LOCK-JIANGCHEN-DRESS《江晨松枝绿常服》（镜头：SHOT-EP001-002、SHOT-EP001-003、SHOT-EP001-007、……；",
       "先看预览、确认后再花钱生成 — 图片、视频（支持单镜与 GROUP-* 多镜合生）、配音和配乐任务均支持整批预览，在文件里列清数量、内容、参考图与参数，明确确认后再批量调用外部接口；平台密钥留在项目外，文档与前置技能不绑定特定平台。",
-      "五份 Markdown 记录创作决定 — 按阶段维护 剧本.md、视觉设定.md、分镜.md、图片提示词.md、视频提示词.md，剪辑时加一份 剪辑单.md；只做部分阶段就交付对应文档。",
-      "成片剪辑也在套件里 — 剪辑技能逐段写明入出点取舍，字幕逐字取自剧本，统一响度后导出成片；检查与测量脚本只列核对结果和实测数据，不替人做创作判断。"
+      "成片剪辑也在套件里 — 剪辑技能逐段写明入出点取舍，字幕逐字取自剧本，统一响度后导出成片；检查与测量脚本只列核对结果和实测数据，不替人做创作判断。",
+      "白纸黑字防跨镜穿帮 — 跨镜不变的穿着造型写成可原样贴入提示词的固定短语（连戏锁与锁定词），每镜首帧写明出场设定，检查脚本自动核对跨文档引用。"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -145,7 +145,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:35+00:00",
+  "fetched_at": "2026-11-24T14:53:54+00:00",
   "categories": [
     "billing-2",
     "failover"

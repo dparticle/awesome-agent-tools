@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 245,
-  "days_since_push": 6,
+  "age_days": 246,
+  "days_since_push": 7,
   "health_score": 54,
   "health_components": {
     "popularity": 63.0,
@@ -33,7 +33,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 5.73,
+    "lifetime_stars_per_day": 5.71,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,23 +131,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:30+00:00",
+  "fetched_at": "2026-11-24T14:54:32+00:00",
   "categories": [
     "failover",
-    "mcp"
+    "mobile"
   ],
-  "primary_category": "mcp",
+  "primary_category": "mobile",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "kajisho5/ffmpeg-skill",
+    "note_en": "Superseded by milind-soni/OpenMausBot: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 milind-soni/OpenMausBot 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "milind-soni/OpenMausBot",
     "challenger": "",
     "supersede": {
       "incumbent": "wenfxl/openai-cpa",
-      "challenger": "kajisho5/ffmpeg-skill",
+      "challenger": "milind-soni/openmausbot",
       "incumbent_name": "wenfxl/openai-cpa",
-      "challenger_name": "kajisho5/ffmpeg-skill",
+      "challenger_name": "milind-soni/OpenMausBot",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -158,15 +158,15 @@
         "security-isolation",
         "skills-plugins"
       ],
-      "star_ratio": 7.159,
-      "momentum_ratio": 8572.0,
-      "setup_delta": -7,
+      "star_ratio": 19.507,
+      "momentum_ratio": 7064.0,
+      "setup_delta": -23,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "7.16x the stars (10,059 vs 1,405)",
-        "8572.00x the star velocity (428.6/day vs 0.0/day)",
-        "no harder to set up (50 vs 57 friction)"
+        "19.51x the stars (27,407 vs 1,405)",
+        "7064.00x the star velocity (353.2/day vs 0.0/day)",
+        "no harder to set up (34 vs 57 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -177,22 +177,24 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
           "api-gateway",
-          "auto-failover",
           "cross-agent-support",
+          "gui-desktop",
           "mcp-support",
-          "memory-context",
+          "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
           "notifications",
           "security-isolation",
+          "self-hosted",
           "skills-plugins",
+          "usage-analytics",
           "voice-input"
         ],
         "incumbent_health": 54,
-        "challenger_health": 89,
+        "challenger_health": 88,
         "incumbent_setup_score": 57,
-        "challenger_setup_score": 50
+        "challenger_setup_score": 34
       }
     }
   }

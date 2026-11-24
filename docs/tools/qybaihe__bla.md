@@ -12,19 +12,21 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,460 |
-| Star velocity | 70.4/day (history basis, 5d span) |
-| Health score | 76/100 |
+| Stars | 6,691 |
+| Star velocity | 102.4/day (history basis, 5d span) |
+| Health score | 83/100 |
 | Documentation | 79/100 |
-| Tier | ✅ Recommended |
+| Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-25 |
-| Last push | 2026-11-22 (1 days ago) |
-| Analyzed README | 25,997 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 26,497 chars from `raw:HEAD/README.md` |
 
 ## What it solves
+
+### Multi-account switching
 
 ### Multi-agent orchestration
 
@@ -84,8 +86,8 @@ Score **79/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 76.2 |
-| momentum | 58.7 |
+| popularity | 76.5 |
+| momentum | 85.3 |
 | maintenance | 100.0 |
 | documentation | 79.0 |
 | accessibility | 68.0 |

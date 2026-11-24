@@ -6,9 +6,9 @@
   "url": "https://github.com/mdiri-ai/SoduWork",
   "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
   "homepage": "https://www.soduwork.ai",
-  "stars": 7016,
-  "forks": 583,
-  "open_issues": 271,
+  "stars": 7557,
+  "forks": 654,
+  "open_issues": 218,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "team-collaboration"
   ],
   "created_at": "2026-10-29T02:43:14Z",
-  "updated_at": "2026-11-23T14:30:23Z",
-  "pushed_at": "2026-11-23T14:29:06Z",
+  "updated_at": "2026-11-24T14:47:23Z",
+  "pushed_at": "2026-11-24T13:39:07Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 25,
+  "age_days": 26,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
-    "popularity": 76.9,
+    "popularity": 77.6,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 85.0,
@@ -51,10 +51,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7016,
-    "days_span": 25,
-    "stars_per_day": 280.64,
-    "lifetime_stars_per_day": 280.64,
+    "stars_gained": 7557,
+    "days_span": 26,
+    "stars_per_day": 290.65,
+    "lifetime_stars_per_day": 290.65,
     "basis": "lifetime",
     "is_fast_riser": true
   },
@@ -168,8 +168,8 @@
     "highlights_zh": [
       "常规步骤用经济型或本地模型，关键步骤用能力更强的模型",
       "点「新对话」，选择 Pi 和刚添加的模型。",
-      "相比多 Agent 编排平台：工序和检查点由人设定，交付凭证据、由需求方验收；工作在步骤之间、人与人之间按插件和经办人的安排流转。",
-      "企业合作：私有化部署、系统集成与技术支持，请发邮件至 contact@soduwork.ai"
+      "企业合作：私有化部署、系统集成与技术支持，请发邮件至 contact@soduwork.ai",
+      "再添加一个对话模型。 在管理端「能力配置 → 模型目录」找到刚接入的服务，点「加模型」，填写服务商给出的准确模型 ID，选择「对话模型」并保存。API Key 是服务凭据，单独保存它不会创建可用模型。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -178,7 +178,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:28+00:00",
+  "fetched_at": "2026-11-24T14:53:50+00:00",
   "categories": [
     "desktop-ui",
     "failover",

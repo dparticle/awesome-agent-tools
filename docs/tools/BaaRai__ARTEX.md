@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 17,139 |
-| Star velocity | 380.9/day (lifetime basis, 45d span) |
-| Health score | 79/100 |
+| Stars | 18,661 |
+| Star velocity | 405.7/day (lifetime basis, 46d span) |
+| Health score | 83/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | AGPL-3.0 |
 | Language | Go |
 | Created | 2026-10-08 |
-| Last push | 2026-11-23 (0 days ago) |
-| Analyzed README | 48,020 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-24 (0 days ago) |
+| Analyzed README | 48,566 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Multi-agent orchestration
 
-> e all CI checks locally: ./scripts/verify.sh (add --full for -race and the static web build)
+> lncheck and run ./scripts/verify.sh --security (CI runs this on every push and pull request)
 
 ### Model / provider routing
 
@@ -68,16 +68,18 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 100/100)
+- **Difficulty:** 🔴 Involved (friction score 75/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `docker compose up -d --build    # builds from this checkout, starts PostgreSQL`
+
+**Signals that make it easy:** Homebrew install
 
 **Signals that add work:** docker compose up, docker run, git clone (build from source), npm install/build, go build
 
 **Configuration required:** environment variables, API key configuration, config.json/yaml/toml, sign-in required, database dependency, database migration, server/reverse-proxy setup
 
-*Involved setup. needs docker compose up, docker run; configure environment variables, API key configuration; one-click setup*
+*Involved setup. install via Homebrew install; needs docker compose up, docker run; configure environment variables, API key configuration; one-click setup*
 
 ## Documentation quality
 
@@ -100,11 +102,11 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 84.7 |
+| popularity | 85.4 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 73.0 |
-| accessibility | 0.0 |
+| accessibility | 25.0 |
 
 ---
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/miuuyy/codex-chatgpt-web",
   "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
   "homepage": "",
-  "stars": 15865,
+  "stars": 15885,
   "forks": 1239,
-  "open_issues": 8,
+  "open_issues": 7,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "typescript"
   ],
   "created_at": "2026-07-26T13:04:44Z",
-  "updated_at": "2026-11-23T14:11:53Z",
-  "pushed_at": "2026-11-19T22:20:47Z",
+  "updated_at": "2026-11-24T14:29:24Z",
+  "pushed_at": "2026-11-23T23:36:38Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
-  "days_since_push": 3,
-  "health_score": 63,
+  "age_days": 121,
+  "days_since_push": 0,
+  "health_score": 64,
   "health_components": {
     "popularity": 84.0,
-    "momentum": 15.0,
+    "momentum": 16.2,
     "maintenance": 100.0,
     "documentation": 45.0,
     "accessibility": 75.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 90,
+    "stars_gained": 97,
     "days_span": 5,
-    "stars_per_day": 18.0,
-    "lifetime_stars_per_day": 132.21,
+    "stars_per_day": 19.4,
+    "lifetime_stars_per_day": 131.28,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "miuuyy/codex-chatgpt-web",
-    "readme_chars": 11774,
+    "readme_chars": 11791,
     "capabilities": [
       "multi-agent-orchestration",
       "api-gateway",
@@ -116,7 +116,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.51
+      "external_link_ratio": 0.509
     },
     "highlights": [
       "Run Verify runtime to confirm that Codex Native2 is attached and available.",
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:14+00:00",
+  "fetched_at": "2026-11-24T14:53:42+00:00",
   "categories": [
     "mcp"
   ],

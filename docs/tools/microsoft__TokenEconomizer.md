@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 7,999 |
-| Star velocity | 77.4/day (history basis, 5d span) |
-| Health score | 76/100 |
+| Stars | 8,068 |
+| Star velocity | 66.8/day (history basis, 5d span) |
+| Health score | 74/100 |
 | Documentation | 61/100 |
 | Tier | ✅ Recommended |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-10-13 |
-| Last push | 2026-11-20 (3 days ago) |
+| Last push | 2026-11-24 (0 days ago) |
 | Analyzed README | 32,763 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — Superseded by paperclipai/paperclip: covers 100% of capabilities (8/8).
 
 ## What it solves
 
@@ -88,7 +90,7 @@ Score **61/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 78.1 |
-| momentum | 64.5 |
+| momentum | 55.7 |
 | maintenance | 100.0 |
 | documentation | 61.0 |
 | accessibility | 72.0 |

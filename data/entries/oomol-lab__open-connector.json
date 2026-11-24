@@ -6,9 +6,9 @@
   "url": "https://github.com/oomol-lab/open-connector",
   "description": "Open-source auth gateway connecting 1700+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
   "homepage": "https://oomol.com",
-  "stars": 6281,
+  "stars": 6293,
   "forks": 622,
-  "open_issues": 5,
+  "open_issues": 2,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -32,27 +32,27 @@
     "typescript"
   ],
   "created_at": "2026-06-29T10:49:36Z",
-  "updated_at": "2026-11-23T11:39:30Z",
-  "pushed_at": "2026-11-23T06:52:20Z",
+  "updated_at": "2026-11-24T14:50:20Z",
+  "pushed_at": "2026-11-24T03:58:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 147,
+  "age_days": 148,
   "days_since_push": 0,
-  "health_score": 55,
+  "health_score": 56,
   "health_components": {
     "popularity": 76.0,
-    "momentum": 2.3,
+    "momentum": 3.3,
     "maintenance": 100.0,
     "documentation": 64.0,
     "accessibility": 28.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 14,
+    "stars_gained": 20,
     "days_span": 5,
-    "stars_per_day": 2.8,
-    "lifetime_stars_per_day": 42.73,
+    "stars_per_day": 4.0,
+    "lifetime_stars_per_day": 42.52,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -155,7 +155,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:39:30+00:00",
+  "fetched_at": "2026-11-24T14:53:52+00:00",
   "categories": [
     "failover",
     "sessions-memory",
@@ -187,14 +187,14 @@
         "self-hosted",
         "skills-plugins"
       ],
-      "star_ratio": 49.25,
-      "momentum_ratio": 233.5,
+      "star_ratio": 49.256,
+      "momentum_ratio": 151.15,
       "setup_delta": -15,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "49.25x the stars (309,339 vs 6,281)",
-        "233.50x the star velocity (653.8/day vs 2.8/day)",
+        "49.26x the stars (309,966 vs 6,293)",
+        "151.15x the star velocity (604.6/day vs 4.0/day)",
         "no harder to set up (57 vs 72 friction)"
       ],
       "reasons_zh": [],
@@ -227,7 +227,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 55,
+        "incumbent_health": 56,
         "challenger_health": 89,
         "incumbent_setup_score": 72,
         "challenger_setup_score": 57

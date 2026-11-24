@@ -7,7 +7,7 @@
   "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
   "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
   "stars": 691,
-  "forks": 47,
+  "forks": 48,
   "open_issues": 2,
   "language": "Python",
   "license": "MIT",
@@ -39,22 +39,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 211,
-  "days_since_push": 4,
+  "age_days": 212,
+  "days_since_push": 5,
   "health_score": 56,
   "health_components": {
     "popularity": 56.8,
-    "momentum": 2.5,
+    "momentum": 2.3,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 3.27,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 3.26,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -153,24 +153,23 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-23T14:40:52+00:00",
+  "fetched_at": "2026-11-24T14:54:45+00:00",
   "categories": [
     "desktop-ui",
-    "failover",
-    "mcp"
+    "failover"
   ],
-  "primary_category": "mcp",
+  "primary_category": "failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 hoangsonww/Claude-Code-Agent-Monitor 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "hoangsonww/Claude-Code-Agent-Monitor",
+    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "sickn33/agentic-awesome-skills",
     "challenger": "",
     "supersede": {
       "incumbent": "wenyuchiou/ai-research-skills",
-      "challenger": "hoangsonww/claude-code-agent-monitor",
+      "challenger": "sickn33/agentic-awesome-skills",
       "incumbent_name": "WenyuChiou/ai-research-skills",
-      "challenger_name": "hoangsonww/Claude-Code-Agent-Monitor",
+      "challenger_name": "sickn33/agentic-awesome-skills",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -182,15 +181,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 1.742,
-      "momentum_ratio": 1.133,
-      "setup_delta": 8,
-      "dominance": 0.652,
+      "star_ratio": 72.712,
+      "momentum_ratio": 18.571,
+      "setup_delta": 10,
+      "dominance": 0.95,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.74x the stars (1,204 vs 691)",
-        "1.13x the star velocity (3.4/day vs 3.0/day)",
-        "slightly heavier setup (+8 friction, within tolerance)"
+        "72.71x the stars (50,244 vs 691)",
+        "18.57x the star velocity (52.0/day vs 2.8/day)",
+        "slightly heavier setup (+10 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -206,15 +205,21 @@
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
+          "memory-context",
+          "mobile-access",
+          "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "session-persistence",
-          "skills-plugins"
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics"
         ],
         "incumbent_health": 56,
-        "challenger_health": 56,
+        "challenger_health": 78,
         "incumbent_setup_score": 22,
-        "challenger_setup_score": 30
+        "challenger_setup_score": 32
       }
     }
   }

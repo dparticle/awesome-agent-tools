@@ -14,14 +14,14 @@
 | --- | --- |
 | Stars | 508 |
 | Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 45/100 |
+| Health score | 49/100 |
 | Documentation | 39/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
-| Last push | 2026-10-16 (37 days ago) |
+| Last push | 2026-11-24 (0 days ago) |
 | Analyzed README | 5,623 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
@@ -74,7 +74,7 @@ Score **39/100**, based on these detected signals:
 | --- | ---: |
 | popularity | 54.1 |
 | momentum | 0.0 |
-| maintenance | 78.0 |
+| maintenance | 100.0 |
 | documentation | 39.0 |
 | accessibility | 63.0 |
 
