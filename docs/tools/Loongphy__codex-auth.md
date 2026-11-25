@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | Zig |
 | Created | 2026-02-10 |
-| Last push | 2026-11-18 (6 days ago) |
+| Last push | 2026-11-18 (7 days ago) |
 | Analyzed README | 8,622 chars from `raw:HEAD/README.md` |
 
 ## What it solves

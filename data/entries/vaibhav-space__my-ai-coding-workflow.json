@@ -6,7 +6,7 @@
   "url": "https://github.com/vaibhav-space/my-ai-coding-workflow",
   "description": "Production-grade AI coding instructions, curated skills, and a 3-stage review pipeline (Planning → Critical Review → Diff Audit) built after 4,500+ hours with AI agents. Agent-agnostic.",
   "homepage": "",
-  "stars": 343,
+  "stars": 344,
   "forks": 48,
   "open_issues": 1,
   "language": "HTML",
@@ -19,28 +19,28 @@
     "developer-tools"
   ],
   "created_at": "2026-11-14T13:34:16Z",
-  "updated_at": "2026-11-24T00:17:01Z",
+  "updated_at": "2026-11-24T22:25:50Z",
   "pushed_at": "2026-11-18T18:30:28Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 10,
-  "days_since_push": 5,
-  "health_score": 55,
+  "age_days": 11,
+  "days_since_push": 6,
+  "health_score": 50,
   "health_components": {
     "popularity": 50.7,
-    "momentum": 28.6,
+    "momentum": 6.8,
     "maintenance": 100.0,
     "documentation": 52.0,
     "accessibility": 50.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 343,
-    "days_span": 10,
-    "stars_per_day": 34.3,
-    "lifetime_stars_per_day": 34.3,
-    "basis": "lifetime",
+    "stars_gained": 41,
+    "days_span": 5,
+    "stars_per_day": 8.2,
+    "lifetime_stars_per_day": 31.27,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -132,72 +132,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:55:05+00:00",
+  "fetched_at": "2026-11-25T14:23:38+00:00",
   "categories": [
-    "desktop-ui",
-    "failover"
+    "failover",
+    "model-routing"
   ],
-  "primary_category": "failover",
+  "primary_category": "model-routing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "vaibhav-space/my-ai-coding-workflow",
-      "challenger": "sickn33/agentic-awesome-skills",
-      "incumbent_name": "vaibhav-space/my-ai-coding-workflow",
-      "challenger_name": "sickn33/agentic-awesome-skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "multi-agent-orchestration",
-        "skills-plugins"
-      ],
-      "star_ratio": 146.484,
-      "momentum_ratio": 1.516,
-      "setup_delta": -18,
-      "dominance": 0.852,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "146.48x the stars (50,244 vs 343)",
-        "1.52x the star velocity (52.0/day vs 34.3/day)",
-        "no harder to set up (32 vs 50 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "multi-agent-orchestration",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
-        ],
-        "incumbent_health": 55,
-        "challenger_health": 78,
-        "incumbent_setup_score": 50,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

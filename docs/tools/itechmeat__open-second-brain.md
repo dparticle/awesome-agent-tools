@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 616 |
-| Star velocity | 2.0/day (history basis, 5d span) |
+| Stars | 622 |
+| Star velocity | 2.8/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 42/100 |
 | Tier | 🔹 Notable |
@@ -22,7 +22,7 @@
 | Language | TypeScript |
 | Created | 2026-05-06 |
 | Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 6,213 chars from `raw:HEAD/README.md` |
+| Analyzed README | 6,858 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -30,7 +30,7 @@
 
 ### MCP support
 
-> g; add --apply to carry out the plan it printed.
+> dd --apply to carry out the plan it printed.
 
 ### Cross-agent support
 
@@ -60,8 +60,8 @@ Score **42/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 55.8 |
-| momentum | 1.7 |
+| popularity | 55.9 |
+| momentum | 2.3 |
 | maintenance | 100.0 |
 | documentation | 42.0 |
 | accessibility | 70.0 |

@@ -6,20 +6,20 @@
   "url": "https://github.com/caveman-ai/caveman-code",
   "description": "Caveman Code: Desktop, CLI (@caveman-ai/code), Web, and Mobile coding agent built on Harness v4.",
   "homepage": "https://caveman.so",
-  "stars": 955,
+  "stars": 957,
   "forks": 111,
   "open_issues": 21,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [],
   "created_at": "2026-04-08T13:20:38Z",
-  "updated_at": "2026-11-24T09:19:04Z",
+  "updated_at": "2026-11-25T14:12:26Z",
   "pushed_at": "2026-11-24T06:57:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 230,
-  "days_since_push": 0,
+  "age_days": 231,
+  "days_since_push": 1,
   "health_score": 55,
   "health_components": {
     "popularity": 59.6,
@@ -30,10 +30,10 @@
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 955,
-    "days_span": 230,
-    "stars_per_day": 4.15,
-    "lifetime_stars_per_day": 4.15,
+    "stars_gained": 957,
+    "days_span": 231,
+    "stars_per_day": 4.14,
+    "lifetime_stars_per_day": 4.14,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -128,18 +128,77 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:39+00:00",
+  "fetched_at": "2026-11-25T14:23:13+00:00",
   "categories": [
     "desktop-ui",
-    "model-routing-2",
+    "mobile",
     "parallelism"
   ],
-  "primary_category": "parallelism",
+  "primary_category": "mobile",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by getpaseo/paseo: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 getpaseo/paseo 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "getpaseo/paseo",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "caveman-ai/caveman-code",
+      "challenger": "getpaseo/paseo",
+      "incumbent_name": "caveman-ai/caveman-code",
+      "challenger_name": "getpaseo/paseo",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "agent-runtime",
+        "cross-agent-support",
+        "gui-desktop",
+        "mcp-support",
+        "mobile-access",
+        "parallel-execution",
+        "worktree-isolation"
+      ],
+      "star_ratio": 26.456,
+      "momentum_ratio": 38.937,
+      "setup_delta": -3,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (7/7)",
+        "26.46x the stars (25,318 vs 957)",
+        "38.94x the star velocity (161.2/day vs 4.1/day)",
+        "no harder to set up (24 vs 27 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "parallel-execution",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "mobile-access",
+          "multi-agent-orchestration",
+          "parallel-execution",
+          "remote-control",
+          "security-isolation",
+          "self-hosted",
+          "voice-input",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 55,
+        "challenger_health": 87,
+        "incumbent_setup_score": 27,
+        "challenger_setup_score": 24
+      }
+    }
   }
 }

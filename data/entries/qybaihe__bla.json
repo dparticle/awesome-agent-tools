@@ -6,9 +6,9 @@
   "url": "https://github.com/qybaihe/bla",
   "description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
   "homepage": "https://bla.tools",
-  "stars": 6691,
-  "forks": 825,
-  "open_issues": 9,
+  "stars": 6821,
+  "forks": 837,
+  "open_issues": 6,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -33,33 +33,33 @@
     "webassembly"
   ],
   "created_at": "2026-10-25T05:25:45Z",
-  "updated_at": "2026-11-24T14:43:15Z",
-  "pushed_at": "2026-11-24T12:21:00Z",
+  "updated_at": "2026-11-25T14:15:21Z",
+  "pushed_at": "2026-11-25T03:40:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 30,
+  "age_days": 31,
   "days_since_push": 0,
-  "health_score": 83,
+  "health_score": 84,
   "health_components": {
-    "popularity": 76.5,
-    "momentum": 85.3,
+    "popularity": 76.7,
+    "momentum": 89.0,
     "maintenance": 100.0,
     "documentation": 79.0,
     "accessibility": 68.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 512,
+    "stars_gained": 534,
     "days_span": 5,
-    "stars_per_day": 102.4,
-    "lifetime_stars_per_day": 223.03,
+    "stars_per_day": 106.8,
+    "lifetime_stars_per_day": 220.03,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "qybaihe/bla",
-    "readme_chars": 26497,
+    "readme_chars": 26774,
     "capabilities": [
       "multi-account-switching",
       "multi-agent-orchestration",
@@ -147,7 +147,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.755
+      "external_link_ratio": 0.747
     },
     "highlights": [
       "🧠 mu (μ) — Coding agent harness with a tiny judgment kernel (+9.5pp on Terminal-Bench 2.1).",
@@ -163,7 +163,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:53:52+00:00",
+  "fetched_at": "2026-11-25T14:22:28+00:00",
   "categories": [
     "desktop-ui",
     "failover",

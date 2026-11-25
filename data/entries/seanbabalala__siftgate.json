@@ -7,7 +7,7 @@
   "description": "Self-hosted AI gateway for enterprise AI governance: scoped keys and policy, metadata-only audit, budgets and chargeback, smart routing and failover for apps, coding agents and MCP tools.",
   "homepage": "https://github.com/seanbabalala/SiftGate/blob/main/docs/enterprise-overview.md",
   "stars": 680,
-  "forks": 47,
+  "forks": 48,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 208,
-  "days_since_push": 1,
+  "age_days": 209,
+  "days_since_push": 2,
   "health_score": 50,
   "health_components": {
     "popularity": 56.7,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 680,
-    "days_span": 208,
-    "stars_per_day": 3.27,
-    "lifetime_stars_per_day": 3.27,
+    "days_span": 209,
+    "stars_per_day": 3.25,
+    "lifetime_stars_per_day": 3.25,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -162,10 +162,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:46+00:00",
+  "fetched_at": "2026-11-25T14:23:20+00:00",
   "categories": [
-    "billing-2",
     "mcp",
+    "model-routing-2",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

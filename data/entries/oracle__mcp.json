@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 485,
-  "days_since_push": 0,
+  "age_days": 486,
+  "days_since_push": 1,
   "health_score": 53,
   "health_components": {
     "popularity": 53.7,
@@ -139,11 +139,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:55+00:00",
+  "fetched_at": "2026-11-25T14:23:28+00:00",
   "categories": [
     "failover",
     "mcp",
-    "model-routing-2"
+    "model-routing"
   ],
   "primary_category": "mcp",
   "lifecycle": {

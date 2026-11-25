@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 9,082 |
-| Star velocity | 1135.2/day (lifetime basis, 8d span) |
-| Health score | 85/100 |
-| Documentation | 64/100 |
+| Stars | 9,470 |
+| Star velocity | 693.6/day (history basis, 5d span) |
+| Health score | 86/100 |
+| Documentation | 65/100 |
 | Tier | 🏆 Flagship |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Rust |
 | Created | 2026-11-16 |
-| Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 27,305 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-25 (0 days ago) |
+| Analyzed README | 27,645 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Agent runtime
 
-> iệt · Español · Italiano · Bahasa Indonesia · العربية · فارسی · हिन्दी
+> iano · Bahasa Indonesia · العربية · فارسی · हिन्दी · ไทย · + add yours
 
 ### MCP support
 
@@ -59,7 +59,7 @@
 
 ## Documentation quality
 
-Score **64/100**, based on these detected signals:
+Score **65/100**, based on these detected signals:
 
 - contains code blocks
 - has section headings
@@ -77,10 +77,10 @@ Score **64/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 79.2 |
+| popularity | 79.5 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
-| documentation | 64.0 |
+| documentation | 65.0 |
 | accessibility | 75.0 |
 
 ---

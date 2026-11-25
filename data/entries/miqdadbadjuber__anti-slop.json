@@ -6,8 +6,8 @@
   "url": "https://github.com/miqdadbadjuber/anti-slop",
   "description": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
   "homepage": "https://antislop.ai.id",
-  "stars": 10025,
-  "forks": 689,
+  "stars": 10133,
+  "forks": 694,
   "open_issues": 3,
   "language": "JavaScript",
   "license": "MIT",
@@ -24,27 +24,27 @@
     "ui-design"
   ],
   "created_at": "2026-08-07T10:29:56Z",
-  "updated_at": "2026-11-24T14:50:45Z",
+  "updated_at": "2026-11-25T14:19:42Z",
   "pushed_at": "2026-11-21T01:16:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 109,
-  "days_since_push": 3,
+  "age_days": 110,
+  "days_since_push": 4,
   "health_score": 79,
   "health_components": {
-    "popularity": 80.0,
-    "momentum": 78.2,
+    "popularity": 80.1,
+    "momentum": 79.5,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 84.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 469,
+    "stars_gained": 477,
     "days_span": 5,
-    "stars_per_day": 93.8,
-    "lifetime_stars_per_day": 91.97,
+    "stars_per_day": 95.4,
+    "lifetime_stars_per_day": 92.12,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -132,11 +132,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:53:47+00:00",
+  "fetched_at": "2026-11-25T14:22:23+00:00",
   "categories": [
-    "failover"
+    "desktop-ui",
+    "failover",
+    "model-routing"
   ],
-  "primary_category": "failover",
+  "primary_category": "model-routing",
   "lifecycle": {
     "state": "active",
     "note_en": "",

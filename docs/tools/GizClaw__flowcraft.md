@@ -13,16 +13,16 @@
 | Metric | Value |
 | --- | --- |
 | Stars | 410 |
-| Star velocity | 0.0/day (history basis, 15d span) |
-| Health score | 53/100 |
-| Documentation | 63/100 |
+| Star velocity | 0.0/day (history basis, 5d span) |
+| Health score | 54/100 |
+| Documentation | 64/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Go |
 | Created | 2026-04-14 |
-| Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 18,309 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-25 (0 days ago) |
+| Analyzed README | 20,365 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** — Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (5/5).
 
@@ -32,13 +32,11 @@
 
 ### Memory & context
 
-> s core, driver and examples/forge.
-
 ### Skills & plugins
 
 ### MCP support
 
-> re/agent-graph: the frontier loop,
+> aph (nodes, script kinds, Starlark), a2a (client
 
 ### Cross-agent support
 
@@ -60,7 +58,7 @@
 
 ## Documentation quality
 
-Score **63/100**, based on these detected signals:
+Score **64/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -72,6 +70,7 @@ Score **63/100**, based on these detected signals:
 - mentions licensing
 - documents changes
 - explains architecture
+- long, detailed README
 
 ## Score breakdown
 
@@ -80,7 +79,7 @@ Score **63/100**, based on these detected signals:
 | popularity | 52.3 |
 | momentum | 0.0 |
 | maintenance | 100.0 |
-| documentation | 63.0 |
+| documentation | 64.0 |
 | accessibility | 72.0 |
 
 ---

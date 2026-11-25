@@ -6,7 +6,7 @@
   "url": "https://github.com/shengjidaguai-china/goutoujunshi",
   "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
   "homepage": "",
-  "stars": 10196,
+  "stars": 10222,
   "forks": 1041,
   "open_issues": 13,
   "language": "Python",
@@ -21,27 +21,27 @@
     "relationship-advice"
   ],
   "created_at": "2026-07-20T14:58:48Z",
-  "updated_at": "2026-11-24T14:36:52Z",
+  "updated_at": "2026-11-25T14:21:13Z",
   "pushed_at": "2026-09-20T12:23:53Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 126,
-  "days_since_push": 65,
-  "health_score": 63,
+  "age_days": 127,
+  "days_since_push": 66,
+  "health_score": 61,
   "health_components": {
     "popularity": 80.2,
-    "momentum": 41.7,
+    "momentum": 32.8,
     "maintenance": 78.0,
     "documentation": 42.0,
     "accessibility": 70.0
   },
-  "tier": "recommended",
+  "tier": "notable",
   "momentum": {
-    "stars_gained": 250,
+    "stars_gained": 197,
     "days_span": 5,
-    "stars_per_day": 50.0,
-    "lifetime_stars_per_day": 80.92,
+    "stars_per_day": 39.4,
+    "lifetime_stars_per_day": 80.49,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -114,7 +114,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:53:46+00:00",
+  "fetched_at": "2026-11-25T14:22:23+00:00",
   "categories": [
     "sessions-memory"
   ],

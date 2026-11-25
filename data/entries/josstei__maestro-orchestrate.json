@@ -6,7 +6,7 @@
   "url": "https://github.com/josstei/maestro-orchestrate",
   "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
   "homepage": "https://josstei.github.io/maestro-orchestrate/",
-  "stars": 491,
+  "stars": 492,
   "forks": 38,
   "open_issues": 6,
   "language": "JavaScript",
@@ -34,26 +34,26 @@
     "subagents"
   ],
   "created_at": "2026-02-09T06:49:37Z",
-  "updated_at": "2026-11-24T09:35:52Z",
+  "updated_at": "2026-11-25T00:37:34Z",
   "pushed_at": "2026-11-02T04:41:58Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 288,
-  "days_since_push": 22,
+  "age_days": 289,
+  "days_since_push": 23,
   "health_score": 49,
   "health_components": {
     "popularity": 53.8,
-    "momentum": 0.3,
+    "momentum": 0.5,
     "maintenance": 92.0,
     "documentation": 61.0,
     "accessibility": 49.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 2,
+    "stars_gained": 3,
     "days_span": 5,
-    "stars_per_day": 0.4,
+    "stars_per_day": 0.6,
     "lifetime_stars_per_day": 1.7,
     "basis": "history",
     "is_fast_riser": false
@@ -135,25 +135,26 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:54+00:00",
+  "fetched_at": "2026-11-25T14:23:28+00:00",
   "categories": [
+    "failover",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by hex/claude-council: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 hex/claude-council 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "hex/claude-council",
+    "note_en": "Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 microsoft/TokenEconomizer 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "microsoft/TokenEconomizer",
     "challenger": "",
     "supersede": {
       "incumbent": "josstei/maestro-orchestrate",
-      "challenger": "hex/claude-council",
+      "challenger": "microsoft/tokeneconomizer",
       "incumbent_name": "josstei/maestro-orchestrate",
-      "challenger_name": "hex/claude-council",
+      "challenger_name": "microsoft/TokenEconomizer",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "cross-agent-support",
@@ -161,15 +162,15 @@
         "multi-agent-orchestration",
         "session-persistence"
       ],
-      "star_ratio": 1.955,
-      "momentum_ratio": 6.5,
-      "setup_delta": 2,
-      "dominance": 0.893,
+      "star_ratio": 16.474,
+      "momentum_ratio": 95.333,
+      "setup_delta": -15,
+      "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "1.96x the stars (960 vs 491)",
-        "6.50x the star velocity (2.6/day vs 0.4/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "16.47x the stars (8,105 vs 492)",
+        "95.33x the star velocity (57.2/day vs 0.6/day)",
+        "no harder to set up (36 vs 51 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -184,15 +185,15 @@
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
-          "memory-context",
-          "model-routing",
           "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
           "session-persistence"
         ],
         "incumbent_health": 49,
-        "challenger_health": 51,
+        "challenger_health": 72,
         "incumbent_setup_score": 51,
-        "challenger_setup_score": 53
+        "challenger_setup_score": 36
       }
     }
   }

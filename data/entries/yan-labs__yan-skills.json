@@ -20,12 +20,12 @@
   ],
   "created_at": "2026-07-05T07:14:39Z",
   "updated_at": "2026-11-24T09:11:30Z",
-  "pushed_at": "2026-11-22T15:50:51Z",
+  "pushed_at": "2026-11-25T03:43:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
-  "days_since_push": 1,
+  "age_days": 143,
+  "days_since_push": 0,
   "health_score": 51,
   "health_components": {
     "popularity": 50.1,
@@ -39,7 +39,7 @@
     "stars_gained": 6,
     "days_span": 5,
     "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 2.25,
+    "lifetime_stars_per_day": 2.23,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -150,10 +150,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:55:09+00:00",
+  "fetched_at": "2026-11-25T14:23:41+00:00",
   "categories": [
     "billing",
-    "billing-2",
+    "parallelism",
     "teams-self-hosting"
   ],
   "primary_category": "billing",

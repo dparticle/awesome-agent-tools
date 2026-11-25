@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,951 |
-| Star velocity | 71.8/day (lifetime basis, 55d span) |
+| Stars | 3,983 |
+| Star velocity | 71.1/day (lifetime basis, 56d span) |
 | Health score | 73/100 |
 | Documentation | 46/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-09-30 |
-| Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 14,191 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-25 (0 days ago) |
+| Analyzed README | 14,552 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -33,6 +33,10 @@
 ### Agent runtime
 
 > English · 中文 · 日本語 · 한국어 · Deutsch · Español
+
+### GUI / desktop app
+
+> ling or dragging, such as product teardowns or camera fly-throughs.
 
 ### Cross-agent support
 
@@ -65,8 +69,8 @@ Score **46/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.9 |
-| momentum | 59.9 |
+| popularity | 72.0 |
+| momentum | 59.3 |
 | maintenance | 100.0 |
 | documentation | 46.0 |
 | accessibility | 96.0 |

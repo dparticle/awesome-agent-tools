@@ -6,9 +6,9 @@
   "url": "https://github.com/Louis-CFM/coucou",
   "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
   "homepage": "https://louis-cfm.github.io/coucou/",
-  "stars": 7435,
-  "forks": 1228,
-  "open_issues": 463,
+  "stars": 7455,
+  "forks": 1230,
+  "open_issues": 465,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "windows"
   ],
   "created_at": "2026-09-27T21:54:12Z",
-  "updated_at": "2026-11-24T13:53:40Z",
-  "pushed_at": "2026-11-23T01:07:56Z",
+  "updated_at": "2026-11-25T12:49:53Z",
+  "pushed_at": "2026-11-24T17:41:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 57,
-  "days_since_push": 1,
+  "age_days": 58,
+  "days_since_push": 0,
   "health_score": 65,
   "health_components": {
     "popularity": 77.4,
-    "momentum": 15.7,
+    "momentum": 16.2,
     "maintenance": 100.0,
     "documentation": 67.0,
     "accessibility": 71.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 94,
+    "stars_gained": 97,
     "days_span": 5,
-    "stars_per_day": 18.8,
-    "lifetime_stars_per_day": 130.44,
+    "stars_per_day": 19.4,
+    "lifetime_stars_per_day": 128.53,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Louis-CFM/coucou",
-    "readme_chars": 58651,
+    "readme_chars": 59870,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -160,7 +160,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.91
+      "external_link_ratio": 1.887
     },
     "highlights": [
       "📋 Declare the tools you use — open Settings → Active pills and pick your main workspace tool (VS Code, Cursor, Codex or Antigravity), then toggle up to 4 more: Gemini CLI, Anthropic, Google…",
@@ -177,10 +177,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:53:51+00:00",
+  "fetched_at": "2026-11-25T14:22:27+00:00",
   "categories": [
+    "failover-2",
     "mobile",
-    "model-routing",
     "model-routing-2"
   ],
   "primary_category": "mobile",

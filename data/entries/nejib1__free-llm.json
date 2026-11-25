@@ -4,10 +4,10 @@
   "name": "Free-LLM",
   "owner": "nejib1",
   "url": "https://github.com/nejib1/Free-LLM",
-  "description": "79 free LLM API providers & 460+ free models (limits, no-card options) + Free-LLM Router: all of them behind one OpenAI/Anthropic-compatible endpoint with instant failover. Run Claude Code, Codex, Cursor, Aider on free models. Gemini, Groq, Mistral, DeepSeek, Qwen & more. Synced daily.",
+  "description": "78 free LLM API providers & 450+ free models (limits, no-card options) + Free-LLM Router: all of them behind one OpenAI/Anthropic-compatible endpoint with instant failover. Run Claude Code, Codex, Cursor, Aider on free models. Gemini, Groq, Mistral, DeepSeek, Qwen & more. Synced daily.",
   "homepage": "https://free-llm.com",
-  "stars": 1106,
-  "forks": 145,
+  "stars": 1117,
+  "forks": 146,
   "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
@@ -34,33 +34,33 @@
     "qwen"
   ],
   "created_at": "2026-02-13T14:11:27Z",
-  "updated_at": "2026-11-24T13:55:28Z",
-  "pushed_at": "2026-11-24T03:00:05Z",
+  "updated_at": "2026-11-25T13:13:29Z",
+  "pushed_at": "2026-11-25T03:00:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 284,
+  "age_days": 285,
   "days_since_push": 0,
-  "health_score": 58,
+  "health_score": 59,
   "health_components": {
-    "popularity": 60.9,
-    "momentum": 6.7,
+    "popularity": 61.0,
+    "momentum": 7.5,
     "maintenance": 100.0,
     "documentation": 80.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 40,
+    "stars_gained": 45,
     "days_span": 5,
-    "stars_per_day": 8.0,
-    "lifetime_stars_per_day": 3.89,
+    "stars_per_day": 9.0,
+    "lifetime_stars_per_day": 3.92,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nejib1/Free-LLM",
-    "readme_chars": 56026,
+    "readme_chars": 55589,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -74,7 +74,7 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "per free core model GPT-6 Luna, DeepSeek V4.1 Flash 1017, Clef Flash (decision endpoint, free promo)",
+      "multi-account-switching": "ts/minute Gemma 4 31B IT, NVIDIA Nemotron 3 Ultra, Recursive Flint v1.0 (free), Nemotron 3.5 Super VL",
       "quota-management": "ude Code, Codex, Cursor, your own code…) talks to one OpenAI/Anthropic-compatible address, and the router always sends the request to a free model that is up — switching instantly when one is busy or out of quota.",
       "model-routing": ",000 requests per day per model, free forever).",
       "api-gateway": "notes for each provider live on its page at free-llm.com/provider/<slug> (e.g.",
@@ -157,7 +157,7 @@
       "signals": [
         "invites project submissions"
       ],
-      "external_link_ratio": 5.408
+      "external_link_ratio": 5.397
     },
     "highlights": [
       "2026-11-23 ➖ Google AI Studio — no longer free: Gemini 2.5 Flash-Lite, Gemini 2.5 Flash",
@@ -174,10 +174,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:36+00:00",
+  "fetched_at": "2026-11-25T14:23:10+00:00",
   "categories": [
     "billing",
-    "model-routing-2",
+    "desktop-ui",
     "teams-self-hosting"
   ],
   "primary_category": "billing",

@@ -12,9 +12,9 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,304 |
-| Star velocity | 41.6/day (history basis, 5d span) |
-| Health score | 69/100 |
+| Stars | 5,335 |
+| Star velocity | 38.8/day (history basis, 5d span) |
+| Health score | 70/100 |
 | Documentation | 74/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
@@ -22,7 +22,7 @@
 | Language | Swift |
 | Created | 2026-10-11 |
 | Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 26,368 chars from `raw:HEAD/README.md` |
+| Analyzed README | 27,103 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -46,13 +46,13 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 36/100)
+- **Difficulty:** 🟢 Easy (friction score 29/100)
 - **Out of the box:** no
-- **Non-programmer friendly:** no
+- **Non-programmer friendly:** yes
 
 **Configuration required:** API key configuration
 
-*Easy. configure API key configuration*
+*Easy. configure API key configuration; one-click setup*
 
 ## Documentation quality
 
@@ -77,10 +77,10 @@ Score **74/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.5 |
-| momentum | 34.7 |
+| momentum | 32.3 |
 | maintenance | 100.0 |
 | documentation | 74.0 |
-| accessibility | 64.0 |
+| accessibility | 79.0 |
 
 ---
 

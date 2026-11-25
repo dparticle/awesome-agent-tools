@@ -6,9 +6,9 @@
   "url": "https://github.com/MemTensor/memmy-agent",
   "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
   "homepage": "https://memmy.bot",
-  "stars": 2238,
-  "forks": 221,
-  "open_issues": 44,
+  "stars": 2321,
+  "forks": 229,
+  "open_issues": 46,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,29 +34,29 @@
     "tui"
   ],
   "created_at": "2026-07-16T07:57:45Z",
-  "updated_at": "2026-11-24T14:46:45Z",
-  "pushed_at": "2026-11-24T04:13:21Z",
+  "updated_at": "2026-11-25T14:19:32Z",
+  "pushed_at": "2026-11-25T13:50:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 131,
+  "age_days": 132,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 59,
   "health_components": {
-    "popularity": 67.0,
-    "momentum": 2.2,
+    "popularity": 67.3,
+    "momentum": 15.7,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 13,
+    "stars_gained": 94,
     "days_span": 5,
-    "stars_per_day": 2.6,
-    "lifetime_stars_per_day": 17.08,
+    "stars_per_day": 18.8,
+    "lifetime_stars_per_day": 17.58,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "MemTensor/memmy-agent",
@@ -162,27 +162,27 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:25+00:00",
+  "fetched_at": "2026-11-25T14:23:00+00:00",
   "categories": [
-    "model-routing-2",
+    "desktop-ui",
     "sessions-memory",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by TencentCloud/Octop: covers 100% of capabilities (7/7).",
-    "note_zh": "已被 TencentCloud/Octop 取代：covers 100% of capabilities (7/7)。",
-    "superseded_by": "TencentCloud/Octop",
+    "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (7/7).",
+    "note_zh": "已被 HKUDS/DeepTutor 取代：covers 100% of capabilities (7/7)。",
+    "superseded_by": "HKUDS/DeepTutor",
     "challenger": "",
     "supersede": {
       "incumbent": "memtensor/memmy-agent",
-      "challenger": "tencentcloud/octop",
+      "challenger": "hkuds/deeptutor",
       "incumbent_name": "MemTensor/memmy-agent",
-      "challenger_name": "TencentCloud/Octop",
+      "challenger_name": "HKUDS/DeepTutor",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -193,15 +193,15 @@
         "model-routing",
         "team-collaboration"
       ],
-      "star_ratio": 5.562,
-      "momentum_ratio": 14.923,
-      "setup_delta": -10,
-      "dominance": 1.0,
+      "star_ratio": 26.995,
+      "momentum_ratio": 17.798,
+      "setup_delta": 6,
+      "dominance": 0.97,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "5.56x the stars (12,447 vs 2,238)",
-        "14.92x the star velocity (38.8/day vs 2.6/day)",
-        "no harder to set up (32 vs 42 friction)"
+        "26.99x the stars (62,655 vs 2,321)",
+        "17.80x the star velocity (334.6/day vs 18.8/day)",
+        "slightly heavier setup (+6 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -216,25 +216,26 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
-          "api-gateway",
           "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
-          "mobile-access",
           "model-routing",
+          "multi-account-switching",
           "multi-agent-orchestration",
-          "parallel-execution",
+          "security-isolation",
           "self-hosted",
+          "session-persistence",
           "skills-plugins",
           "team-collaboration",
+          "usage-analytics",
           "worktree-isolation"
         ],
-        "incumbent_health": 56,
-        "challenger_health": 71,
+        "incumbent_health": 59,
+        "challenger_health": 90,
         "incumbent_setup_score": 42,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 48
       }
     }
   }

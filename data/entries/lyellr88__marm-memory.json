@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "MARM-main",
-  "age_days": 532,
-  "days_since_push": 12,
+  "age_days": 533,
+  "days_since_push": 13,
   "health_score": 53,
   "health_components": {
     "popularity": 52.8,
@@ -196,10 +196,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:59+00:00",
+  "fetched_at": "2026-11-25T14:23:33+00:00",
   "categories": [
     "mcp",
-    "model-routing",
+    "model-routing-2",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",

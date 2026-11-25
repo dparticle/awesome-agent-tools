@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,572 |
-| Star velocity | 4.8/day (history basis, 5d span) |
+| Stars | 5,575 |
+| Star velocity | 4.4/day (history basis, 5d span) |
 | Health score | 66/100 |
 | Documentation | 76/100 |
 | Tier | ✅ Recommended |
@@ -21,14 +21,18 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-03 |
-| Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 32,804 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-25 (0 days ago) |
+| Analyzed README | 32,785 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Billing & metering
 
 > Why does the model connection test fail? A: Check the API Key for missing characters or spaces, verify the Base URL and region, use the provider's exact model ID, and confirm network access and account balance.
+
+### Session persistence
+
+> , vLLM) join the provider catalog.
 
 ### Skills & plugins
 
@@ -90,7 +94,7 @@ Score **76/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 74.9 |
-| momentum | 4.0 |
+| momentum | 3.7 |
 | maintenance | 100.0 |
 | documentation | 76.0 |
 | accessibility | 96.0 |

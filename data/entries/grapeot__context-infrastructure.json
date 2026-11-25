@@ -14,26 +14,26 @@
   "topics": [],
   "created_at": "2026-03-16T05:12:45Z",
   "updated_at": "2026-11-24T13:05:19Z",
-  "pushed_at": "2026-11-19T00:21:20Z",
+  "pushed_at": "2026-11-24T18:54:33Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 253,
-  "days_since_push": 5,
-  "health_score": 51,
+  "age_days": 254,
+  "days_since_push": 0,
+  "health_score": 50,
   "health_components": {
     "popularity": 58.8,
-    "momentum": 2.5,
+    "momentum": 1.8,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 56.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 15,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 3.0,
-    "lifetime_stars_per_day": 3.45,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 3.43,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -105,7 +105,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:41+00:00",
+  "fetched_at": "2026-11-25T14:23:15+00:00",
   "categories": [
     "billing-2"
   ],

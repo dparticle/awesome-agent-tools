@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 18,661 |
-| Star velocity | 405.7/day (lifetime basis, 46d span) |
+| Stars | 20,135 |
+| Star velocity | 1445.0/day (history basis, 5d span) |
 | Health score | 83/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -22,7 +22,7 @@
 | Language | Go |
 | Created | 2026-10-08 |
 | Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 48,566 chars from `raw:HEAD/README.md` |
+| Analyzed README | 48,916 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -57,6 +57,8 @@
 > oxies, custom-tool execution specs, capture-proxy rewrite rules and traffic
 
 ### Self-hostable
+
+> und to the assets and HTTP traffic that prove it.
 
 ### GUI / desktop app
 
@@ -102,7 +104,7 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 85.4 |
+| popularity | 86.1 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 73.0 |

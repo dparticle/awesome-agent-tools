@@ -6,9 +6,9 @@
   "url": "https://github.com/getpaseo/paseo",
   "description": "Orchestrate multiple coding agents from desktop and mobile",
   "homepage": "https://paseo.sh",
-  "stars": 24928,
-  "forks": 3099,
-  "open_issues": 2207,
+  "stars": 25318,
+  "forks": 3143,
+  "open_issues": 2204,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -29,33 +29,33 @@
     "windows"
   ],
   "created_at": "2025-10-13T12:27:02Z",
-  "updated_at": "2026-11-24T14:51:22Z",
-  "pushed_at": "2026-11-24T14:52:58Z",
+  "updated_at": "2026-11-25T14:20:15Z",
+  "pushed_at": "2026-11-25T14:17:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 407,
+  "age_days": 408,
   "days_since_push": 0,
-  "health_score": 82,
+  "health_score": 87,
   "health_components": {
-    "popularity": 87.9,
-    "momentum": 80.3,
+    "popularity": 88.1,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 51.0,
     "accessibility": 84.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 482,
+    "stars_gained": 806,
     "days_span": 5,
-    "stars_per_day": 96.4,
-    "lifetime_stars_per_day": 61.25,
+    "stars_per_day": 161.2,
+    "lifetime_stars_per_day": 62.05,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "getpaseo/paseo",
-    "readme_chars": 9281,
+    "readme_chars": 9318,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -78,7 +78,7 @@
       "worktree-isolation": "nt environment for desktop, mobile, web, and CLI.",
       "agent-runtime": ", composer pills, attachment sources, timeline items, themes.",
       "mcp-support": ": screens, sidebar items, workspace panels, Command Center items, slash commands, composer pills, attachment sources, timeline items, themes.",
-      "security-isolation": "en Settings → your host → Pair Device.",
+      "security-isolation": "ndroid, desktop, web, and CLI.",
       "self-hosted": ", launch other agents, and talk to them, across providers.",
       "gui-desktop": "e for Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code agents.",
       "voice-input": "Use your tools, your configs, and your skills.",
@@ -92,7 +92,7 @@
       "worktree-isolation": 4,
       "agent-runtime": 2,
       "mcp-support": 2,
-      "security-isolation": 1,
+      "security-isolation": 2,
       "self-hosted": 2,
       "gui-desktop": 4,
       "voice-input": 1,
@@ -154,12 +154,12 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 2.801
+      "external_link_ratio": 2.79
     },
     "highlights": [
       "Cross-device: iOS, Android, desktop, web, and CLI.",
+      "Privacy-first: No telemetry, tracking, or forced login.",
       "Built-in orchestration: Agents in Paseo can create worktrees, launch other agents, and talk to them, across providers.",
-      "Privacy-first: Paseo doesn't have any telemetry, tracking, or forced log-ins.",
       "Parallel agents: Run many agents at once, each in its own worktree."
     ],
     "summary_zh_native": "在你自己的机器上并行运行 agents。无论在手机上还是桌前，都能推进交付。",
@@ -176,7 +176,7 @@
     "seed_reason": "Orchestrate several coding agents from desktop and mobile; easier on-ramp than Orca.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-24T14:53:33+00:00",
+  "fetched_at": "2026-11-25T14:22:12+00:00",
   "categories": [
     "desktop-ui",
     "mobile",

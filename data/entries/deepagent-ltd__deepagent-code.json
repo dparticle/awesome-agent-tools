@@ -23,8 +23,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 154,
-  "days_since_push": 19,
+  "age_days": 155,
+  "days_since_push": 20,
   "health_score": 49,
   "health_components": {
     "popularity": 52.6,
@@ -38,7 +38,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.79,
+    "lifetime_stars_per_day": 2.77,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -149,13 +149,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:55:01+00:00",
+  "fetched_at": "2026-11-25T14:23:34+00:00",
   "categories": [
     "desktop-ui",
-    "sessions-memory",
-    "teams-self-hosting"
+    "model-routing",
+    "sessions-memory"
   ],
-  "primary_category": "teams-self-hosting",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

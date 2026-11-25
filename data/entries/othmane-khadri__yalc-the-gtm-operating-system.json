@@ -27,8 +27,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 324,
-  "days_since_push": 95,
+  "age_days": 325,
+  "days_since_push": 96,
   "health_score": 41,
   "health_components": {
     "popularity": 50.4,
@@ -144,7 +144,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:55:06+00:00",
+  "fetched_at": "2026-11-25T14:23:39+00:00",
   "categories": [
     "failover",
     "mcp"

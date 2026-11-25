@@ -6,9 +6,9 @@
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
   "homepage": "https://open.bot",
-  "stars": 13375,
-  "forks": 1665,
-  "open_issues": 168,
+  "stars": 13487,
+  "forks": 1681,
+  "open_issues": 173,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "mcp"
   ],
   "created_at": "2026-08-17T00:44:59Z",
-  "updated_at": "2026-11-24T14:52:17Z",
-  "pushed_at": "2026-11-24T14:42:56Z",
+  "updated_at": "2026-11-25T14:20:28Z",
+  "pushed_at": "2026-11-25T14:20:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 99,
+  "age_days": 100,
   "days_since_push": 0,
   "health_score": 78,
   "health_components": {
-    "popularity": 82.5,
-    "momentum": 74.5,
+    "popularity": 82.6,
+    "momentum": 77.0,
     "maintenance": 100.0,
     "documentation": 78.0,
     "accessibility": 36.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 447,
+    "stars_gained": 462,
     "days_span": 5,
-    "stars_per_day": 89.4,
-    "lifetime_stars_per_day": 135.1,
+    "stars_per_day": 92.4,
+    "lifetime_stars_per_day": 134.87,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "CopilotKit/OpenBot",
-    "readme_chars": 55540,
+    "readme_chars": 55973,
     "capabilities": [
       "auto-failover",
       "model-routing",
@@ -146,7 +146,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.72
+      "external_link_ratio": 0.715
     },
     "highlights": [
       "Loopback by default: computers bind to 127.0.0.1 and require a per-container token, so nothing reaches a logged-in browser by knowing its port.",
@@ -163,10 +163,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:53:43+00:00",
+  "fetched_at": "2026-11-25T14:22:20+00:00",
   "categories": [
     "mcp",
-    "model-routing",
+    "sessions-memory",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",
@@ -196,14 +196,14 @@
         "self-hosted",
         "session-persistence"
       ],
-      "star_ratio": 23.175,
-      "momentum_ratio": 6.763,
+      "star_ratio": 23.023,
+      "momentum_ratio": 6.455,
       "setup_delta": -7,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (9/9)",
-        "23.18x the stars (309,966 vs 13,375)",
-        "6.76x the star velocity (604.6/day vs 89.4/day)",
+        "23.02x the stars (310,511 vs 13,487)",
+        "6.45x the star velocity (596.4/day vs 92.4/day)",
         "no harder to set up (57 vs 64 friction)"
       ],
       "reasons_zh": [],

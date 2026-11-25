@@ -6,9 +6,9 @@
   "url": "https://github.com/Oldcircle/geo-sleuth",
   "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
   "homepage": "",
-  "stars": 7491,
-  "forks": 935,
-  "open_issues": 28,
+  "stars": 7536,
+  "forks": 940,
+  "open_issues": 24,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -32,33 +32,33 @@
     "satellite-imagery"
   ],
   "created_at": "2026-09-18T08:51:34Z",
-  "updated_at": "2026-11-24T14:44:10Z",
-  "pushed_at": "2026-11-19T17:48:38Z",
+  "updated_at": "2026-11-25T14:09:33Z",
+  "pushed_at": "2026-11-25T12:50:24Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 67,
-  "days_since_push": 4,
-  "health_score": 74,
+  "age_days": 68,
+  "days_since_push": 0,
+  "health_score": 73,
   "health_components": {
     "popularity": 77.5,
-    "momentum": 36.8,
+    "momentum": 33.7,
     "maintenance": 100.0,
     "documentation": 75.0,
     "accessibility": 93.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 221,
+    "stars_gained": 202,
     "days_span": 5,
-    "stars_per_day": 44.2,
-    "lifetime_stars_per_day": 111.81,
+    "stars_per_day": 40.4,
+    "lifetime_stars_per_day": 110.82,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Oldcircle/geo-sleuth",
-    "readme_chars": 35453,
+    "readme_chars": 36071,
     "capabilities": [
       "auto-failover",
       "skills-plugins",
@@ -66,7 +66,7 @@
     ],
     "capability_evidence": {
       "auto-failover": "the complete skill folder, including data/ and the helper modules in scripts/.",
-      "skills-plugins": "Agent Skill: one folder holding SKILL.md, scripts/, references/ and data/.",
+      "skills-plugins": "dard Agent Skill: one folder holding SKILL.md, scripts/, references/ and data/.",
       "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
     },
     "capability_hits": {
@@ -130,7 +130,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.31
+      "external_link_ratio": 0.305
     },
     "highlights": [
       "Checkpoints: the 171 sites that pass the horizon test should include intercity bridge segments near the answer; the skyline fit covers 14,372 camera positions, the top 20 lie within 0.1°, a…",
@@ -152,11 +152,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:53:50+00:00",
+  "fetched_at": "2026-11-25T14:22:27+00:00",
   "categories": [
-    "model-routing"
+    "model-routing-2"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "model-routing-2",
   "lifecycle": {
     "state": "active",
     "note_en": "",

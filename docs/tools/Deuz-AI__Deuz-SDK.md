@@ -14,37 +14,47 @@
 | --- | --- |
 | Stars | 508 |
 | Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 49/100 |
-| Documentation | 39/100 |
+| Health score | 48/100 |
+| Documentation | 41/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
 | Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 5,623 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
+| Analyzed README | 11,983 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
-### Skills & plugins
+### Multi-agent orchestration
+
+> view) is the short way to start it:
+
+### Model / provider routing
+
+### API gateway / proxy
 
 ### Agent runtime
 
-> er to native runs, an MCP server and A2A, realtime voice, batch requests and Redis backends: What's new in 2.3.
+> and a local Docker runner; 2.3 added an MCP server, A2A, realtime voice, batch requests and Redis backends.
 
 ### MCP support
 
-> Evolve — evolutionary program search with a mandatory budget and zero-call resume.
+> d the AI SDK provider have no runtime dependencies, and the libraries core's integrations use are optional peer dependencies.
+
+### Security & isolation
+
+> The budget stays in memory for that run unless you pass --store . - Harness runner (preview) — runHarness runs Claude Code, Codex, OpenCode or Gemini CLI as a sub-agent, applies your policy to the permission requests th…
 
 ### Notifications
 
-> the goal, constraints and decisions.
+### Cross-agent support
+
+> Mentions Claude Code, Codex, Gemini CLI, OpenCode
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 37/100)
+- **Difficulty:** 🟡 Some setup (friction score 49/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install @deuz-sdk/core`
@@ -53,13 +63,13 @@
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** database dependency, process manager
+**Configuration required:** sign-in required, database dependency, database migration, process manager
 
-*Some setup. install via npx one-liner; needs npm install/build; configure database dependency, process manager*
+*Some setup. install via npx one-liner; needs npm install/build; configure sign-in required, database dependency*
 
 ## Documentation quality
 
-Score **39/100**, based on these detected signals:
+Score **41/100**, based on these detected signals:
 
 - contains code blocks
 - contains screenshots/diagrams
@@ -75,8 +85,8 @@ Score **39/100**, based on these detected signals:
 | popularity | 54.1 |
 | momentum | 0.0 |
 | maintenance | 100.0 |
-| documentation | 39.0 |
-| accessibility | 63.0 |
+| documentation | 41.0 |
+| accessibility | 51.0 |
 
 ---
 

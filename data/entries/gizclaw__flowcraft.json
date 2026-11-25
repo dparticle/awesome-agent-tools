@@ -8,7 +8,7 @@
   "homepage": "https://gizclaw.github.io/flowcraft/",
   "stars": 410,
   "forks": 13,
-  "open_issues": 0,
+  "open_issues": 1,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -30,32 +30,32 @@
   ],
   "created_at": "2026-04-14T07:49:44Z",
   "updated_at": "2026-11-19T18:25:16Z",
-  "pushed_at": "2026-11-24T14:47:25Z",
+  "pushed_at": "2026-11-25T14:06:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 224,
+  "age_days": 225,
   "days_since_push": 0,
-  "health_score": 53,
+  "health_score": 54,
   "health_components": {
     "popularity": 52.3,
     "momentum": 0.0,
     "maintenance": 100.0,
-    "documentation": 63.0,
+    "documentation": 64.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 15,
+    "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.83,
+    "lifetime_stars_per_day": 1.82,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "GizClaw/flowcraft",
-    "readme_chars": 18309,
+    "readme_chars": 20365,
     "capabilities": [
       "worktree-isolation",
       "memory-context",
@@ -65,16 +65,16 @@
     ],
     "capability_evidence": {
       "worktree-isolation": "",
-      "memory-context": "s core, driver and examples/forge.",
+      "memory-context": "",
       "skills-plugins": "",
-      "mcp-support": "re/agent-graph: the frontier loop,",
+      "mcp-support": "aph (nodes, script kinds, Starlark), a2a (client",
       "cross-agent-support": "Mentions Codex, Cursor"
     },
     "capability_hits": {
       "worktree-isolation": 1,
       "memory-context": 1,
       "skills-plugins": 1,
-      "mcp-support": 2,
+      "mcp-support": 3,
       "cross-agent-support": 2
     },
     "friction": {
@@ -95,14 +95,12 @@
       ],
       "friendliness_signals": [],
       "platforms": [
-        "macOS",
-        "Windows",
         "Linux"
       ],
       "note_en": "Easy. install via npx one-liner, native installer / package; needs git clone (build from source); configure database dependency, database migration",
       "note_zh": "较易上手。可通过 npx one-liner、native installer / package 安装；需要 git clone (build from source)；需配置 database dependency、database migration"
     },
-    "doc_score": 63,
+    "doc_score": 64,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -113,7 +111,8 @@
       "has contribution guidance",
       "mentions licensing",
       "documents changes",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [
       "Codex",
@@ -129,7 +128,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.328
+      "external_link_ratio": 0.442
     },
     "highlights": [
       "examples/parallel — a standalone consumer: the HTTP MCP source bridged to"
@@ -143,12 +142,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:55:01+00:00",
+  "fetched_at": "2026-11-25T14:23:35+00:00",
   "categories": [
-    "isolation",
+    "failover",
+    "parallelism",
     "sessions-memory"
   ],
-  "primary_category": "isolation",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "superseded",
     "note_en": "Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (5/5).",
@@ -172,13 +172,13 @@
         "worktree-isolation"
       ],
       "star_ratio": 4.232,
-      "momentum_ratio": 60.0,
+      "momentum_ratio": 40.0,
       "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
         "4.23x the stars (1,735 vs 410)",
-        "60.00x the star velocity (3.0/day vs 0.0/day)",
+        "40.00x the star velocity (2.0/day vs 0.0/day)",
         "no harder to set up (8 vs 28 friction)"
       ],
       "reasons_zh": [],
@@ -202,7 +202,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 53,
+        "incumbent_health": 54,
         "challenger_health": 60,
         "incumbent_setup_score": 28,
         "challenger_setup_score": 8

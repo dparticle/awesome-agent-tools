@@ -7,7 +7,7 @@
   "description": "Open-source AI pair programming desktop app: a read-only Mentor and an Executor agent cross-check each other's code to catch AI mistakes before they land. Bring any model — Claude, GPT, Gemini, Kimi, GLM, Qwen or local Ollama. No agent CLI needed. macOS / Windows / Linux.",
   "homepage": "https://apps.timwuhaotian.dev/apps/the-pair",
   "stars": 391,
-  "forks": 33,
+  "forks": 34,
   "open_issues": 4,
   "language": "Rust",
   "license": "Apache-2.0",
@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 246,
-  "days_since_push": 0,
+  "age_days": 247,
+  "days_since_push": 1,
   "health_score": 57,
   "health_components": {
     "popularity": 51.8,
@@ -54,7 +54,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.59,
+    "lifetime_stars_per_day": 1.58,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -173,13 +173,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:55:03+00:00",
+  "fetched_at": "2026-11-25T14:23:36+00:00",
   "categories": [
-    "desktop-ui",
-    "isolation",
-    "model-routing-2"
+    "parallelism"
   ],
-  "primary_category": "isolation",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

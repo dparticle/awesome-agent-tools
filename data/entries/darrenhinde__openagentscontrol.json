@@ -6,7 +6,7 @@
   "url": "https://github.com/darrenhinde/OpenAgentsControl",
   "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
   "homepage": "",
-  "stars": 4987,
+  "stars": 4989,
   "forks": 399,
   "open_issues": 70,
   "language": "TypeScript",
@@ -23,27 +23,27 @@
     "prompt-engineering"
   ],
   "created_at": "2025-08-14T21:44:01Z",
-  "updated_at": "2026-11-24T03:19:10Z",
-  "pushed_at": "2026-10-26T19:00:10Z",
+  "updated_at": "2026-11-25T10:47:16Z",
+  "pushed_at": "2026-11-24T23:27:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 466,
-  "days_since_push": 28,
-  "health_score": 63,
+  "age_days": 467,
+  "days_since_push": 0,
+  "health_score": 65,
   "health_components": {
     "popularity": 74.0,
-    "momentum": 1.0,
-    "maintenance": 92.0,
+    "momentum": 1.5,
+    "maintenance": 100.0,
     "documentation": 72.0,
     "accessibility": 100.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 6,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 10.7,
+    "stars_per_day": 1.8,
+    "lifetime_stars_per_day": 10.68,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -130,16 +130,68 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:18+00:00",
+  "fetched_at": "2026-11-25T14:22:54+00:00",
   "categories": [
-    "isolation"
+    "parallelism"
   ],
-  "primary_category": "isolation",
+  "primary_category": "parallelism",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by garrytan/gstack: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 garrytan/gstack 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "garrytan/gstack",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "darrenhinde/openagentscontrol",
+      "challenger": "garrytan/gstack",
+      "incumbent_name": "darrenhinde/OpenAgentsControl",
+      "challenger_name": "garrytan/gstack",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "cross-agent-support",
+        "memory-context",
+        "multi-agent-orchestration",
+        "worktree-isolation"
+      ],
+      "star_ratio": 28.587,
+      "momentum_ratio": 48.556,
+      "setup_delta": -11,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "28.59x the stars (142,623 vs 4,989)",
+        "48.56x the star velocity (87.4/day vs 1.8/day)",
+        "no harder to set up (39 vs 50 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "cross-agent-support",
+          "memory-context",
+          "multi-agent-orchestration",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "auto-failover",
+          "cross-agent-support",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "skills-plugins",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 65,
+        "challenger_health": 84,
+        "incumbent_setup_score": 50,
+        "challenger_setup_score": 39
+      }
+    }
   }
 }

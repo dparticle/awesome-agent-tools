@@ -12,23 +12,23 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,106 |
-| Star velocity | 8.0/day (history basis, 5d span) |
-| Health score | 58/100 |
+| Stars | 1,117 |
+| Star velocity | 9.0/day (history basis, 5d span) |
+| Health score | 59/100 |
 | Documentation | 80/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-02-13 |
-| Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 56,026 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-25 (0 days ago) |
+| Analyzed README | 55,589 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> per free core model GPT-6 Luna, DeepSeek V4.1 Flash 1017, Clef Flash (decision endpoint, free promo)
+> ts/minute Gemma 4 31B IT, NVIDIA Nemotron 3 Ultra, Recursive Flint v1.0 (free), Nemotron 3.5 Super VL
 
 ### Quota & usage management
 
@@ -103,8 +103,8 @@ Score **80/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 60.9 |
-| momentum | 6.7 |
+| popularity | 61.0 |
+| momentum | 7.5 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
 | accessibility | 58.0 |

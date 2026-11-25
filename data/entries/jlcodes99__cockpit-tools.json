@@ -6,9 +6,9 @@
   "url": "https://github.com/jlcodes99/cockpit-tools",
   "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
   "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-  "stars": 20394,
-  "forks": 1850,
-  "open_issues": 64,
+  "stars": 20462,
+  "forks": 1859,
+  "open_issues": 62,
   "language": "Rust",
   "license": "",
   "topics": [
@@ -23,33 +23,33 @@
     "windsurf"
   ],
   "created_at": "2026-01-16T07:09:32Z",
-  "updated_at": "2026-11-24T14:47:07Z",
-  "pushed_at": "2026-11-23T14:59:55Z",
+  "updated_at": "2026-11-25T14:00:52Z",
+  "pushed_at": "2026-11-25T09:17:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 312,
+  "age_days": 313,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 73,
   "health_components": {
     "popularity": 86.2,
-    "momentum": 40.5,
+    "momentum": 44.0,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 243,
+    "stars_gained": 264,
     "days_span": 5,
-    "stars_per_day": 48.6,
+    "stars_per_day": 52.8,
     "lifetime_stars_per_day": 65.37,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "jlcodes99/cockpit-tools",
-    "readme_chars": 21823,
+    "readme_chars": 21835,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -167,7 +167,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.733
+      "external_link_ratio": 0.687
     },
     "highlights": [
       "Codex API 服务集成 CLIProxyAPI，Codex Live WebRTC/sideband、Responses WebSocket 状态安全、canonical token accounting v2、Multi-Agent V2 兼容、Grok CLI 账号与 OAuth、Grok apply_patch 协议兼容，以及账号池错误分类与状态恢复边界参考其开源…",
@@ -184,11 +184,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:14+00:00",
+  "fetched_at": "2026-11-25T14:22:49+00:00",
   "categories": [
     "billing",
-    "billing-2",
-    "failover-2"
+    "failover-2",
+    "parallelism"
   ],
   "primary_category": "billing",
   "lifecycle": {

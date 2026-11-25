@@ -6,8 +6,8 @@
   "url": "https://github.com/kaomei/stickman-video-director",
   "description": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube, Shorts & TikTok. 20+ styles with voiceover, captions & SFX. Free & open-source (MIT).",
   "homepage": "https://telegram.me/stickmanskill",
-  "stars": 7957,
-  "forks": 1388,
+  "stars": 8249,
+  "forks": 1436,
   "open_issues": 5,
   "language": "JavaScript",
   "license": "MIT",
@@ -34,28 +34,28 @@
     "youtube-shorts"
   ],
   "created_at": "2026-08-03T07:44:33Z",
-  "updated_at": "2026-11-24T14:51:23Z",
+  "updated_at": "2026-11-25T14:20:09Z",
   "pushed_at": "2026-11-24T05:48:03Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 113,
-  "days_since_push": 0,
-  "health_score": 78,
+  "age_days": 114,
+  "days_since_push": 1,
+  "health_score": 88,
   "health_components": {
-    "popularity": 78.0,
-    "momentum": 58.7,
+    "popularity": 78.3,
+    "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 85.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 7957,
-    "days_span": 113,
-    "stars_per_day": 70.42,
-    "lifetime_stars_per_day": 70.42,
-    "basis": "lifetime",
+    "stars_gained": 1105,
+    "days_span": 5,
+    "stars_per_day": 221.0,
+    "lifetime_stars_per_day": 72.36,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -154,9 +154,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:53:49+00:00",
+  "fetched_at": "2026-11-25T14:22:25+00:00",
   "categories": [
     "desktop-ui",
+    "failover",
     "mobile"
   ],
   "primary_category": "mobile",
@@ -183,14 +184,14 @@
         "multi-agent-orchestration",
         "self-hosted"
       ],
-      "star_ratio": 3.444,
-      "momentum_ratio": 5.016,
+      "star_ratio": 3.364,
+      "momentum_ratio": 1.545,
       "setup_delta": 11,
-      "dominance": 0.945,
+      "dominance": 0.799,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "3.44x the stars (27,407 vs 7,957)",
-        "5.02x the star velocity (353.2/day vs 70.4/day)",
+        "3.36x the stars (27,753 vs 8,249)",
+        "1.54x the star velocity (341.4/day vs 221.0/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -218,7 +219,7 @@
           "usage-analytics",
           "voice-input"
         ],
-        "incumbent_health": 78,
+        "incumbent_health": 88,
         "challenger_health": 88,
         "incumbent_setup_score": 23,
         "challenger_setup_score": 34

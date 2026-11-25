@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,336 |
-| Star velocity | 244.0/day (history basis, 5d span) |
+| Stars | 10,689 |
+| Star velocity | 270.0/day (history basis, 5d span) |
 | Health score | 84/100 |
 | Documentation | 73/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | TypeScript |
 | Created | 2026-08-12 |
-| Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 69,821 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-25 (0 days ago) |
+| Analyzed README | 70,173 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -115,7 +115,7 @@ Score **73/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 80.3 |
+| popularity | 80.6 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 73.0 |

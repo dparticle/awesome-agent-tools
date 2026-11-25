@@ -23,21 +23,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 469,
-  "days_since_push": 28,
+  "age_days": 470,
+  "days_since_push": 29,
   "health_score": 51,
   "health_components": {
     "popularity": 55.4,
-    "momentum": 0.5,
+    "momentum": 0.2,
     "maintenance": 92.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 3,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.6,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.25,
     "basis": "history",
     "is_fast_riser": false
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:48+00:00",
+  "fetched_at": "2026-11-25T14:23:22+00:00",
   "categories": [
     "failover",
     "parallelism"
@@ -132,18 +132,18 @@
   "primary_category": "parallelism",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by OthmanAdi/planning-with-files: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 OthmanAdi/planning-with-files 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "OthmanAdi/planning-with-files",
+    "note_en": "Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 pedrohcgs/claude-code-my-workflow 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "pedrohcgs/claude-code-my-workflow",
     "challenger": "",
     "supersede": {
       "incumbent": "rsmdt/the-startup",
-      "challenger": "othmanadi/planning-with-files",
+      "challenger": "pedrohcgs/claude-code-my-workflow",
       "incumbent_name": "rsmdt/the-startup",
-      "challenger_name": "OthmanAdi/planning-with-files",
+      "challenger_name": "pedrohcgs/claude-code-my-workflow",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "medium",
+      "confidence": "high",
       "coverage": 1.0,
       "covered": [
         "memory-context",
@@ -151,15 +151,15 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 48.072,
-      "momentum_ratio": 26.667,
-      "setup_delta": 2,
-      "dominance": 0.99,
+      "star_ratio": 2.956,
+      "momentum_ratio": 10.0,
+      "setup_delta": -17,
+      "dominance": 0.997,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "48.07x the stars (28,218 vs 587)",
-        "26.67x the star velocity (16.0/day vs 0.6/day)",
-        "slightly heavier setup (+2 friction, within tolerance)"
+        "2.96x the stars (1,735 vs 587)",
+        "10.00x the star velocity (2.0/day vs 0.2/day)",
+        "no harder to set up (8 vs 25 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -170,21 +170,21 @@
           "skills-plugins"
         ],
         "challenger_capabilities": [
-          "agent-runtime",
-          "api-gateway",
           "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
           "memory-context",
+          "model-routing",
           "multi-agent-orchestration",
           "parallel-execution",
           "security-isolation",
-          "session-persistence",
           "skills-plugins",
           "worktree-isolation"
         ],
         "incumbent_health": 51,
-        "challenger_health": 69,
+        "challenger_health": 60,
         "incumbent_setup_score": 25,
-        "challenger_setup_score": 27
+        "challenger_setup_score": 8
       }
     }
   }

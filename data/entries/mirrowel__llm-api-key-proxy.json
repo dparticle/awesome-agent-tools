@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 531,
-  "days_since_push": 22,
+  "age_days": 532,
+  "days_since_push": 23,
   "health_score": 49,
   "health_components": {
     "popularity": 55.0,
@@ -167,13 +167,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:49+00:00",
+  "fetched_at": "2026-11-25T14:23:23+00:00",
   "categories": [
-    "model-routing",
+    "mcp",
     "model-routing-2",
     "teams-self-hosting"
   ],
-  "primary_category": "model-routing",
+  "primary_category": "teams-self-hosting",
   "lifecycle": {
     "state": "active",
     "note_en": "",

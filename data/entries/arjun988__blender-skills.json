@@ -6,8 +6,8 @@
   "url": "https://github.com/arjun988/blender-skills",
   "description": "94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.",
   "homepage": "https://blender-skills.vercel.app",
-  "stars": 4819,
-  "forks": 441,
+  "stars": 4901,
+  "forks": 452,
   "open_issues": 6,
   "language": "TypeScript",
   "license": "MIT",
@@ -25,27 +25,27 @@
     "mcp"
   ],
   "created_at": "2026-07-05T08:36:06Z",
-  "updated_at": "2026-11-24T14:48:44Z",
+  "updated_at": "2026-11-25T14:11:59Z",
   "pushed_at": "2026-11-06T08:42:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 142,
-  "days_since_push": 18,
-  "health_score": 74,
+  "age_days": 143,
+  "days_since_push": 19,
+  "health_score": 73,
   "health_components": {
-    "popularity": 73.7,
-    "momentum": 78.2,
+    "popularity": 73.8,
+    "momentum": 75.2,
     "maintenance": 92.0,
     "documentation": 62.0,
     "accessibility": 49.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 469,
+    "stars_gained": 451,
     "days_span": 5,
-    "stars_per_day": 93.8,
-    "lifetime_stars_per_day": 33.94,
+    "stars_per_day": 90.2,
+    "lifetime_stars_per_day": 34.27,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -127,7 +127,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:53:55+00:00",
+  "fetched_at": "2026-11-25T14:22:31+00:00",
   "categories": [
     "failover"
   ],

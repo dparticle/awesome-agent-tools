@@ -6,9 +6,9 @@
   "url": "https://github.com/microsoft/TokenEconomizer",
   "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
   "homepage": "",
-  "stars": 8068,
-  "forks": 573,
-  "open_issues": 54,
+  "stars": 8105,
+  "forks": 575,
+  "open_issues": 44,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -33,27 +33,27 @@
     "token-optimization"
   ],
   "created_at": "2026-10-13T04:16:50Z",
-  "updated_at": "2026-11-24T14:48:29Z",
-  "pushed_at": "2026-11-24T01:47:14Z",
+  "updated_at": "2026-11-25T13:20:25Z",
+  "pushed_at": "2026-11-25T06:10:29Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 42,
+  "age_days": 43,
   "days_since_push": 0,
-  "health_score": 74,
+  "health_score": 72,
   "health_components": {
-    "popularity": 78.1,
-    "momentum": 55.7,
+    "popularity": 78.2,
+    "momentum": 47.7,
     "maintenance": 100.0,
     "documentation": 61.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 334,
+    "stars_gained": 286,
     "days_span": 5,
-    "stars_per_day": 66.8,
-    "lifetime_stars_per_day": 192.1,
+    "stars_per_day": 57.2,
+    "lifetime_stars_per_day": 188.49,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -164,84 +164,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:53:48+00:00",
+  "fetched_at": "2026-11-25T14:22:26+00:00",
   "categories": [
     "desktop-ui",
-    "mobile",
+    "mcp",
     "sessions-memory"
   ],
-  "primary_category": "mobile",
+  "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by paperclipai/paperclip: covers 100% of capabilities (8/8).",
-    "note_zh": "已被 paperclipai/paperclip 取代：covers 100% of capabilities (8/8)。",
-    "superseded_by": "paperclipai/paperclip",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "microsoft/tokeneconomizer",
-      "challenger": "paperclipai/paperclip",
-      "incumbent_name": "microsoft/TokenEconomizer",
-      "challenger_name": "paperclipai/paperclip",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "gui-desktop",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "notifications",
-        "security-isolation",
-        "session-persistence"
-      ],
-      "star_ratio": 14.452,
-      "momentum_ratio": 4.859,
-      "setup_delta": 9,
-      "dominance": 0.951,
-      "reasons": [
-        "covers 100% of capabilities (8/8)",
-        "14.45x the stars (116,600 vs 8,068)",
-        "4.86x the star velocity (324.6/day vs 66.8/day)",
-        "slightly heavier setup (+9 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "session-persistence"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "remote-control",
-          "security-isolation",
-          "self-hosted",
-          "session-persistence",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 74,
-        "challenger_health": 89,
-        "incumbent_setup_score": 36,
-        "challenger_setup_score": 45
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

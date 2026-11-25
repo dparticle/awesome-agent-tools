@@ -6,9 +6,9 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
   "homepage": "https://planningwithfiles.tech/",
-  "stars": 28218,
-  "forks": 2331,
-  "open_issues": 16,
+  "stars": 28230,
+  "forks": 2333,
+  "open_issues": 13,
   "language": "Shell",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "session-recovery"
   ],
   "created_at": "2026-01-03T07:37:28Z",
-  "updated_at": "2026-11-24T14:33:15Z",
-  "pushed_at": "2026-11-23T11:57:04Z",
+  "updated_at": "2026-11-25T13:32:03Z",
+  "pushed_at": "2026-11-25T07:04:43Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 325,
-  "days_since_push": 1,
-  "health_score": 69,
+  "age_days": 326,
+  "days_since_push": 0,
+  "health_score": 68,
   "health_components": {
     "popularity": 89.0,
-    "momentum": 13.3,
+    "momentum": 12.5,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 73.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 80,
+    "stars_gained": 75,
     "days_span": 5,
-    "stars_per_day": 16.0,
-    "lifetime_stars_per_day": 86.82,
+    "stars_per_day": 15.0,
+    "lifetime_stars_per_day": 86.6,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -176,9 +176,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-24T14:54:13+00:00",
+  "fetched_at": "2026-11-25T14:22:49+00:00",
   "categories": [
-    "failover",
+    "model-routing",
     "parallelism",
     "sessions-memory"
   ],

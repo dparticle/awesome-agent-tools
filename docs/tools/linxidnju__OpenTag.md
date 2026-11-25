@@ -21,7 +21,7 @@
 | License | NOASSERTION |
 | Language | JavaScript |
 | Created | 2026-06-27 |
-| Last push | 2026-07-10 (137 days ago) |
+| Last push | 2026-07-10 (138 days ago) |
 | Analyzed README | 7,017 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)** — Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (4/4).
