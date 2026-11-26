@@ -6,7 +6,7 @@
   "url": "https://github.com/WenyuChiou/ai-research-skills",
   "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
   "homepage": "https://github.com/WenyuChiou/ai-research-skills/blob/main/README.md",
-  "stars": 693,
+  "stars": 696,
   "forks": 48,
   "open_issues": 0,
   "language": "Python",
@@ -34,33 +34,33 @@
     "zotero"
   ],
   "created_at": "2026-04-25T17:46:37Z",
-  "updated_at": "2026-11-25T13:16:20Z",
-  "pushed_at": "2026-11-25T14:02:03Z",
+  "updated_at": "2026-11-26T12:52:10Z",
+  "pushed_at": "2026-11-26T06:12:05Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 213,
+  "age_days": 214,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
-    "popularity": 56.8,
-    "momentum": 2.0,
+    "popularity": 56.9,
+    "momentum": 1.5,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 78.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 9,
     "days_span": 5,
-    "stars_per_day": 2.4,
+    "stars_per_day": 1.8,
     "lifetime_stars_per_day": 3.25,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "WenyuChiou/ai-research-skills",
-    "readme_chars": 31149,
+    "readme_chars": 31463,
     "capabilities": [
       "multi-agent-orchestration",
       "skills-plugins",
@@ -71,7 +71,7 @@
     "capability_evidence": {
       "multi-agent-orchestration": "formed handoff — and does, when the schema",
       "skills-plugins": ". The pipeline — what each stage delivers to the next",
-      "mcp-support": "chever subset you have (or even none, in",
+      "mcp-support": "— research-hub adapts to whichever subset",
       "gui-desktop": "KILL.md when supported; not release-verified here yet.",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, Gemini CLI"
     },
@@ -136,7 +136,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.096
+      "external_link_ratio": 0.095
     },
     "highlights": [
       "codex-delegate — Claude → Codex CLI handoff for code-heavy / mechanical work.",
@@ -153,7 +153,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:19+00:00",
+  "fetched_at": "2026-11-26T13:56:31+00:00",
   "categories": [
     "desktop-ui",
     "failover"
@@ -181,14 +181,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 72.592,
-      "momentum_ratio": 23.167,
+      "star_ratio": 72.374,
+      "momentum_ratio": 33.0,
       "setup_delta": 10,
       "dominance": 0.95,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "72.59x the stars (50,306 vs 693)",
-        "23.17x the star velocity (55.6/day vs 2.4/day)",
+        "72.37x the stars (50,372 vs 696)",
+        "33.00x the star velocity (59.4/day vs 1.8/day)",
         "slightly heavier setup (+10 friction, within tolerance)"
       ],
       "reasons_zh": [],

@@ -38,7 +38,7 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 625,
+  "age_days": 626,
   "days_since_push": 1,
   "health_score": 47,
   "health_components": {
@@ -51,8 +51,8 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 12,
-    "days_span": 36,
-    "stars_per_day": 0.33,
+    "days_span": 37,
+    "stars_per_day": 0.32,
     "lifetime_stars_per_day": 0.59,
     "basis": "history",
     "is_fast_riser": false
@@ -151,9 +151,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:37+00:00",
+  "fetched_at": "2026-11-26T13:56:51+00:00",
   "categories": [
-    "desktop-ui",
+    "analytics",
     "mcp",
     "teams-self-hosting"
   ],

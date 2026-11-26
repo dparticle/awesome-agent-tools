@@ -6,9 +6,9 @@
   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
   "description": "Manina AI: let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
   "homepage": "https://manina.ai?ref=github",
-  "stars": 5335,
-  "forks": 747,
-  "open_issues": 15,
+  "stars": 5355,
+  "forks": 750,
+  "open_issues": 18,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "xiao-esp32s3"
   ],
   "created_at": "2026-10-11T19:10:25Z",
-  "updated_at": "2026-11-25T13:15:00Z",
-  "pushed_at": "2026-11-24T18:34:30Z",
+  "updated_at": "2026-11-26T13:19:55Z",
+  "pushed_at": "2026-11-26T12:11:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 44,
+  "age_days": 45,
   "days_since_push": 0,
-  "health_score": 70,
+  "health_score": 68,
   "health_components": {
-    "popularity": 74.5,
-    "momentum": 32.3,
+    "popularity": 74.6,
+    "momentum": 28.2,
     "maintenance": 100.0,
-    "documentation": 74.0,
+    "documentation": 70.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 194,
+    "stars_gained": 169,
     "days_span": 5,
-    "stars_per_day": 38.8,
-    "lifetime_stars_per_day": 121.25,
+    "stars_per_day": 33.8,
+    "lifetime_stars_per_day": 119.0,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "onehumanbeing/esp32-iphone-agent",
-    "readme_chars": 27103,
+    "readme_chars": 27513,
     "capabilities": [
       "mobile-access",
       "agent-runtime",
@@ -105,7 +105,7 @@
       "note_en": "Easy. configure API key configuration; one-click setup",
       "note_zh": "较易上手。需配置 API key configuration；one-click setup"
     },
-    "doc_score": 74,
+    "doc_score": 70,
     "doc_signals": [
       "contains code blocks",
       "has a task checklist",
@@ -116,7 +116,6 @@
       "has troubleshooting/FAQ",
       "has contribution guidance",
       "mentions licensing",
-      "has a Chinese translation",
       "documents changes",
       "publishes a roadmap",
       "long, detailed README"
@@ -137,7 +136,7 @@
         "self-describes as a curated list",
         "self-describes as a maintained list"
       ],
-      "external_link_ratio": 2.288
+      "external_link_ratio": 2.253
     },
     "highlights": [
       "Bluetooth mode (1.0.8, firmware v0.2.7).",
@@ -159,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:22:30+00:00",
+  "fetched_at": "2026-11-26T13:55:39+00:00",
   "categories": [
     "desktop-ui",
     "mobile"

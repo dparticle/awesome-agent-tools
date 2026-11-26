@@ -8,7 +8,7 @@
   "homepage": "https://athola.github.io/claude-night-market",
   "stars": 356,
   "forks": 43,
-  "open_issues": 26,
+  "open_issues": 27,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -35,25 +35,25 @@
   ],
   "created_at": "2025-11-23T06:45:40Z",
   "updated_at": "2026-11-24T16:47:31Z",
-  "pushed_at": "2026-11-25T07:12:48Z",
+  "pushed_at": "2026-11-25T16:45:16Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 367,
+  "age_days": 368,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 51.0,
-    "momentum": 1.2,
+    "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 65.0,
     "accessibility": 58.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 7,
+    "stars_gained": 6,
     "days_span": 5,
-    "stars_per_day": 1.4,
+    "stars_per_day": 1.2,
     "lifetime_stars_per_day": 0.97,
     "basis": "history",
     "is_fast_riser": false
@@ -142,7 +142,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:37+00:00",
+  "fetched_at": "2026-11-26T13:56:52+00:00",
   "categories": [
     "failover"
   ],
@@ -168,14 +168,14 @@
         "notifications",
         "skills-plugins"
       ],
-      "star_ratio": 141.309,
-      "momentum_ratio": 39.714,
+      "star_ratio": 141.494,
+      "momentum_ratio": 49.5,
       "setup_delta": -10,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "141.31x the stars (50,306 vs 356)",
-        "39.71x the star velocity (55.6/day vs 1.4/day)",
+        "141.49x the stars (50,372 vs 356)",
+        "49.50x the star velocity (59.4/day vs 1.2/day)",
         "no harder to set up (32 vs 42 friction)"
       ],
       "reasons_zh": [],

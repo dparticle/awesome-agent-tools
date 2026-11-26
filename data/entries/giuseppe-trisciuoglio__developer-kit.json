@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 400,
-  "days_since_push": 76,
+  "age_days": 401,
+  "days_since_push": 77,
   "health_score": 44,
   "health_components": {
     "popularity": 51.4,
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:36+00:00",
+  "fetched_at": "2026-11-26T13:56:51+00:00",
   "categories": [
     "failover",
     "model-routing"
@@ -175,14 +175,14 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 135.231,
-      "momentum_ratio": 1112.0,
+      "star_ratio": 135.409,
+      "momentum_ratio": 1188.0,
       "setup_delta": -34,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "135.23x the stars (50,306 vs 372)",
-        "1112.00x the star velocity (55.6/day vs 0.0/day)",
+        "135.41x the stars (50,372 vs 372)",
+        "1188.00x the star velocity (59.4/day vs 0.0/day)",
         "no harder to set up (32 vs 66 friction)"
       ],
       "reasons_zh": [],

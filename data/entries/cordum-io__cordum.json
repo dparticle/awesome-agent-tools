@@ -6,9 +6,9 @@
   "url": "https://github.com/cordum-io/cordum",
   "description": "The action firewall for AI agents. Enforce policy and human approval before risky tool calls, shell commands, workflows, and production changes, with auditable evidence.",
   "homepage": "",
-  "stars": 508,
+  "stars": 507,
   "forks": 34,
-  "open_issues": 18,
+  "open_issues": 19,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,33 +34,33 @@
     "workflow-engine"
   ],
   "created_at": "2026-01-11T16:56:02Z",
-  "updated_at": "2026-11-21T15:37:00Z",
-  "pushed_at": "2026-11-25T14:19:33Z",
+  "updated_at": "2026-11-25T20:57:41Z",
+  "pushed_at": "2026-11-26T13:45:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 317,
+  "age_days": 318,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
     "popularity": 54.1,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 81.0,
     "accessibility": 30.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 1.6,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 1.59,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "cordum-io/cordum",
-    "readme_chars": 36911,
+    "readme_chars": 37299,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -151,7 +151,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.002
+      "external_link_ratio": 0.992
     },
     "highlights": [
       "Gateway HTTP/SSE mode via /mcp/message and /mcp/sse (when mcp.enabled=true)",
@@ -168,7 +168,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:26+00:00",
+  "fetched_at": "2026-11-26T13:56:40+00:00",
   "categories": [
     "mcp",
     "parallelism",

@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "full_name": "skyelan1999/aide",
+  "name": "aide",
+  "owner": "skyelan1999",
+  "url": "https://github.com/skyelan1999/aide",
+  "description": "Self-hosted AI workspace for developers and engineers. Bring your own models, work with local or SSH projects, and automate coding and project workflows with AI agents, plugins, skills, and MCP. Keep your files, tools, and reviewable changes in one place.",
+  "homepage": "",
+  "stars": 304,
+  "forks": 3,
+  "open_issues": 27,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "ai-agent",
+    "ai-workspaces",
+    "aide",
+    "developer-tools",
+    "docker",
+    "golang",
+    "mcp",
+    "plugins",
+    "self-hosted",
+    "skills",
+    "workflow-automation"
+  ],
+  "created_at": "2026-09-23T11:56:05Z",
+  "updated_at": "2026-11-26T13:02:42Z",
+  "pushed_at": "2026-11-26T09:25:07Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 64,
+  "days_since_push": 0,
+  "health_score": 49,
+  "health_components": {
+    "popularity": 49.7,
+    "momentum": 4.0,
+    "maintenance": 100.0,
+    "documentation": 58.0,
+    "accessibility": 43.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 304,
+    "days_span": 64,
+    "stars_per_day": 4.75,
+    "lifetime_stars_per_day": 4.75,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "skyelan1999/aide",
+    "readme_chars": 4533,
+    "capabilities": [
+      "worktree-isolation",
+      "skills-plugins",
+      "security-isolation",
+      "self-hosted",
+      "team-collaboration"
+    ],
+    "capability_evidence": {
+      "worktree-isolation": "",
+      "skills-plugins": "文件与资料 本地与 SSH/SFTP 工作区、引用的可见/只读/可写控制、Markdown 编辑与历史、可解析文档和图片附件",
+      "security-isolation": "/可写控制、Markdown 编辑与历史、可解析文档和图片附件",
+      "self-hosted": "DE：把项目、模型、工具与执行过程放进同一个工作台。",
+      "team-collaboration": ""
+    },
+    "capability_hits": {
+      "worktree-isolation": 1,
+      "skills-plugins": 1,
+      "security-isolation": 3,
+      "self-hosted": 1,
+      "team-collaboration": 1
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 57,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [
+        "git clone (build from source)"
+      ],
+      "config_signals": [
+        "API key configuration"
+      ],
+      "friendliness_signals": [],
+      "platforms": [
+        "macOS"
+      ],
+      "note_en": "Some setup. needs git clone (build from source); configure API key configuration",
+      "note_zh": "需要一些配置。需要 git clone (build from source)；需配置 API key configuration"
+    },
+    "doc_score": 58,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "mentions licensing",
+      "has a table of contents",
+      "has a Chinese translation",
+      "explains architecture"
+    ],
+    "agents": [],
+    "summary_en": "连接本地或 SSH 项目，用自选模型理解资料、编写与修改文件、调用工具、检查结果。文件提案、审批、执行回执和运行轨迹围绕同一个任务保存。",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 1,
+      "signals": [
+        "Chinese: directory framing"
+      ],
+      "external_link_ratio": 1.324
+    },
+    "highlights": [],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-26T13:56:59+00:00",
+  "categories": [
+    "teams-self-hosting"
+  ],
+  "primary_category": "teams-self-hosting",
+  "lifecycle": {
+    "state": "superseded",
+    "note_en": "Superseded by HKUDS/DeepTutor: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 HKUDS/DeepTutor 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "HKUDS/DeepTutor",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "skyelan1999/aide",
+      "challenger": "hkuds/deeptutor",
+      "incumbent_name": "skyelan1999/aide",
+      "challenger_name": "HKUDS/DeepTutor",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "security-isolation",
+        "self-hosted",
+        "skills-plugins",
+        "team-collaboration",
+        "worktree-isolation"
+      ],
+      "star_ratio": 207.586,
+      "momentum_ratio": 78.905,
+      "setup_delta": -9,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (5/5)",
+        "207.59x the stars (63,106 vs 304)",
+        "78.91x the star velocity (374.8/day vs 4.8/day)",
+        "no harder to set up (48 vs 57 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "security-isolation",
+          "self-hosted",
+          "skills-plugins",
+          "team-collaboration",
+          "worktree-isolation"
+        ],
+        "challenger_capabilities": [
+          "agent-runtime",
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "memory-context",
+          "model-routing",
+          "multi-account-switching",
+          "multi-agent-orchestration",
+          "security-isolation",
+          "self-hosted",
+          "session-persistence",
+          "skills-plugins",
+          "team-collaboration",
+          "usage-analytics",
+          "worktree-isolation"
+        ],
+        "incumbent_health": 49,
+        "challenger_health": 90,
+        "incumbent_setup_score": 57,
+        "challenger_setup_score": 48
+      }
+    }
+  }
+}

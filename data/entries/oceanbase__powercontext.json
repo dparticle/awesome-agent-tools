@@ -6,9 +6,9 @@
   "url": "https://github.com/oceanbase/powercontext",
   "description": "Agent memory: long-term memory & agent memory handoff. Claude Code & Codex.",
   "homepage": "https://powercontext.oceanbase.io",
-  "stars": 1819,
-  "forks": 683,
-  "open_issues": 142,
+  "stars": 1831,
+  "forks": 685,
+  "open_issues": 159,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -29,64 +29,63 @@
     "self-evolving"
   ],
   "created_at": "2025-11-10T02:46:06Z",
-  "updated_at": "2026-11-25T13:47:38Z",
-  "pushed_at": "2026-11-25T13:12:21Z",
+  "updated_at": "2026-11-26T12:42:15Z",
+  "pushed_at": "2026-11-26T12:48:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 380,
+  "age_days": 381,
   "days_since_push": 0,
-  "health_score": 56,
+  "health_score": 58,
   "health_components": {
-    "popularity": 65.2,
-    "momentum": 10.5,
+    "popularity": 65.3,
+    "momentum": 10.8,
     "maintenance": 100.0,
-    "documentation": 71.0,
-    "accessibility": 31.0
+    "documentation": 65.0,
+    "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 63,
+    "stars_gained": 65,
     "days_span": 5,
-    "stars_per_day": 12.6,
-    "lifetime_stars_per_day": 4.79,
+    "stars_per_day": 13.0,
+    "lifetime_stars_per_day": 4.81,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "oceanbase/powercontext",
-    "readme_chars": 26545,
+    "readme_chars": 24248,
     "capabilities": [
+      "multi-agent-orchestration",
       "memory-context",
       "agent-runtime",
       "mcp-support",
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "memory-context": "ssions, agents, and people.",
-      "agent-runtime": "ity matrix records which hosts are qualified, along with their supported features and availability.",
-      "mcp-support": "istinct identities and permissions when a person must decide.",
-      "cross-agent-support": "Mentions Claude Code, Codex, OpenCode"
+      "multi-agent-orchestration": "raced to its sources, and brings it to the agent when needed:",
+      "memory-context": "The open-source context service for AI agents",
+      "agent-runtime": "ear boundaries: Scopes isolate data and access; operational telemetry excludes prompts, content, and model responses.",
+      "mcp-support": "ry rules, with revisions.",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, OpenCode"
     },
     "capability_hits": {
-      "memory-context": 3,
-      "agent-runtime": 1,
-      "mcp-support": 2,
-      "cross-agent-support": 3
+      "multi-agent-orchestration": 1,
+      "memory-context": 2,
+      "agent-runtime": 4,
+      "mcp-support": 5,
+      "cross-agent-support": 5
     },
     "friction": {
-      "level": "high",
-      "score": 69,
+      "level": "moderate",
+      "score": 48,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [],
-      "hard_signals": [
-        "make build"
-      ],
+      "hard_signals": [],
       "config_signals": [
-        "environment variables",
-        "sign-in required",
-        "API token/secret",
+        "OAuth login flow",
         "database dependency",
         "process manager"
       ],
@@ -96,13 +95,12 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Involved setup. needs make build; configure environment variables, sign-in required",
-      "note_zh": "配置较重。需要 make build；需配置 environment variables、sign-in required"
+      "note_en": "Some setup. configure OAuth login flow, database dependency",
+      "note_zh": "需要一些配置。需配置 OAuth login flow、database dependency"
     },
-    "doc_score": 71,
+    "doc_score": 65,
     "doc_signals": [
       "contains code blocks",
-      "contains screenshots/diagrams",
       "has section headings",
       "has a quick-start section",
       "documents installation",
@@ -112,37 +110,38 @@
       "links to dedicated docs",
       "documents changes",
       "reports benchmarks",
+      "explains architecture",
       "long, detailed README"
     ],
     "agents": [
       "Claude Code",
       "Codex",
-      "OpenCode"
+      "OpenCode",
+      "Copilot",
+      "Qwen Code"
     ],
-    "summary_en": "Context that stays with the work — across sessions, agents, and people.",
+    "summary_en": "Fewer detours.",
     "summary_zh": "",
     "install_hint": "",
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
-      "score": 1,
-      "signals": [
-        "bullet list of external links"
-      ],
-      "external_link_ratio": 1.695
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 1.526
     },
     "highlights": [
-      "Coding tasks (SWE-bench Pro paired comparison): approximately 225.32 million input tokens per 100 tasks with PowerContext on, versus 302.18 million with it off — approximately 25.4% fewer i…",
-      "Long-conversation memory (LoCoMo; 1,540 scored questions across categories 1–4): 90.78% accuracy, against 52.9% for full-context replay — +37.88 points over full context.",
-      "Retrieval quality (LoCoMo Plus), native PowerContext against PowerContext with Jev candidate filtering after retrieval.",
-      "For a Server on another machine, use HTTPS or follow the remote connection guide."
+      "Same 24 tasks, memory generation included: 32.57% fewer tokens and 15.42% lower estimated model cost, with both groups solving the same 16 tasks.",
+      "2026-11-16 · v1.5.2 — Batched writes and query optimizations: maintainer measurements report about 190% higher write throughput and 171% higher query throughput than v1.5.1.",
+      "2026-11-09 · v1.5.1 — Trace memories to precise source locations, plus an optional monitoring stack for metrics, logs, and traces.",
+      "2026-11-23 · v1.6.0 — Knowledge bases debut: import Markdown and images, search with hybrid retrieval, and manage revisioned chunks in the Dashboard."
     ],
-    "summary_zh_native": "让上下文跟着工作走 —— 跨越会话、跨 Agent、跨人。",
+    "summary_zh_native": "让 Agent 少走弯路、少花 Token。",
     "highlights_zh": [
-      "编码任务（SWE-bench Pro 配对对照）：开启 PowerContext 后每 100 题约消耗 2.2532 亿输入 token，关闭时约为 3.0218 亿 —— 输入 token 约减少 25.4%，即每 100 题约少用 7,686 万。",
-      "长对话记忆（LoCoMo；类别 1–4 的 1,540 个计分问题）：准确率 90.78%，全量上下文重放为 52.9% —— 相对后者 +37.88 个百分点。",
-      "召回质量（LoCoMo Plus）：原生 PowerContext 对比检索后用 Jev 做候选筛选。",
-      "Gateway 节省 token 成本：可选的前缀提取在 Agent 精确的对话前缀后追加记忆指令，让供应商复用提示词缓存。"
+      "同 24 题，计入记忆生成： Token 减少 32.57%，估算模型成本降低 15.42%，两组解出相同的 16 题。",
+      "2026-11-16 · v1.5.2 — 批量写入和查询优化：维护者实测写入吞吐提升约 190%、查询吞吐提升约 171%（对比 v1.5.1）；Dashboard 原生展示处理进度、失败诊断和 Token 用量。",
+      "2026-11-03 · v1.5.0 — Source 与 Artifact 插件，可扩展数据接入和自定义制品；用可逆编码减少模型输入中的重复证据。",
+      "2026-11-09 · v1.5.1 — 记忆可追溯到来源中的精确位置；新增可选的监控栈，覆盖指标、日志和链路追踪。"
     ],
     "chinese_readme": "README_CN.md"
   },
@@ -151,63 +150,18 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:03+00:00",
+  "fetched_at": "2026-11-26T13:56:13+00:00",
   "categories": [
     "desktop-ui",
+    "failover",
     "sessions-memory"
   ],
   "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 xerj-org/xerj 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "xerj-org/xerj",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "oceanbase/powercontext",
-      "challenger": "xerj-org/xerj",
-      "incumbent_name": "oceanbase/powercontext",
-      "challenger_name": "xerj-org/xerj",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "agent-runtime",
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context"
-      ],
-      "star_ratio": 11.798,
-      "momentum_ratio": 38.778,
-      "setup_delta": -36,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "11.80x the stars (21,460 vs 1,819)",
-        "38.78x the star velocity (488.6/day vs 12.6/day)",
-        "no harder to set up (33 vs 69 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context"
-        ],
-        "incumbent_health": 56,
-        "challenger_health": 88,
-        "incumbent_setup_score": 69,
-        "challenger_setup_score": 33
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 182,
-  "days_since_push": 157,
+  "age_days": 183,
+  "days_since_push": 158,
   "health_score": 48,
   "health_components": {
     "popularity": 61.4,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 12,
+    "days_span": 13,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 6.43,
+    "lifetime_stars_per_day": 6.4,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -177,7 +177,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:09+00:00",
+  "fetched_at": "2026-11-26T13:56:20+00:00",
   "categories": [
     "billing-2",
     "model-routing",

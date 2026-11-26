@@ -6,9 +6,9 @@
   "url": "https://github.com/AhmadHassan-BTed/Jantt",
   "description": "Create interactive Gantt charts with AI : no code required, free forever. Built-in BYOK AI Copilot (10 providers + Ollama), free cloud rooms, working-calendar CPM, 6 views, React/Vue/Svelte/Python/MCP.",
   "homepage": "https://ahmadhassan-bted.github.io/Jantt/",
-  "stars": 6239,
+  "stars": 6238,
   "forks": 23,
-  "open_issues": 0,
+  "open_issues": 1,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "typescript"
   ],
   "created_at": "2026-08-28T07:32:35Z",
-  "updated_at": "2026-11-25T13:33:32Z",
-  "pushed_at": "2026-11-24T15:10:22Z",
+  "updated_at": "2026-11-26T08:33:39Z",
+  "pushed_at": "2026-11-26T10:32:50Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 89,
+  "age_days": 90,
   "days_since_push": 0,
   "health_score": 77,
   "health_components": {
     "popularity": 75.9,
-    "momentum": 58.4,
+    "momentum": 57.8,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 87.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 6239,
-    "days_span": 89,
-    "stars_per_day": 70.1,
-    "lifetime_stars_per_day": 70.1,
+    "stars_gained": 6238,
+    "days_span": 90,
+    "stars_per_day": 69.31,
+    "lifetime_stars_per_day": 69.31,
     "basis": "lifetime",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "AhmadHassan-BTed/Jantt",
-    "readme_chars": 41220,
+    "readme_chars": 41365,
     "capabilities": [
       "model-routing",
       "mcp-support",
@@ -139,7 +139,7 @@
       "signals": [
         "bullet list of external links"
       ],
-      "external_link_ratio": 0.291
+      "external_link_ratio": 0.314
     },
     "highlights": [
       "Executive Analytics Built In: Earned Value Management (EVM: ANSI/EIA-748), DCMA-14 schedule health grading (A-F), PERT 3-point estimates, 5,000-run Monte Carlo risk simulation, and automate…",
@@ -156,7 +156,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:22:29+00:00",
+  "fetched_at": "2026-11-26T13:55:37+00:00",
   "categories": [
     "teams-self-hosting"
   ],

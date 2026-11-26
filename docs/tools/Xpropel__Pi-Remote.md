@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-28 |
-| Last push | 2026-11-22 (2 days ago) |
+| Last push | 2026-11-22 (3 days ago) |
 | Analyzed README | 8,943 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [Gentleman-Programming/gentle-shell](https://github.com/Gentleman-Programming/gentle-shell)** — Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (4/4).

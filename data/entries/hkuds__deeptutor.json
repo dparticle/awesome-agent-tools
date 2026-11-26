@@ -6,9 +6,9 @@
   "url": "https://github.com/HKUDS/DeepTutor",
   "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
   "homepage": "http://arxiv.org/abs/2604.26962",
-  "stars": 62655,
-  "forks": 7549,
-  "open_issues": 496,
+  "stars": 63106,
+  "forks": 7607,
+  "open_issues": 514,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -23,16 +23,16 @@
     "rag"
   ],
   "created_at": "2025-12-28T15:35:54Z",
-  "updated_at": "2026-11-25T14:18:45Z",
-  "pushed_at": "2026-11-24T06:57:44Z",
+  "updated_at": "2026-11-26T13:53:01Z",
+  "pushed_at": "2026-11-26T12:18:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 331,
-  "days_since_push": 1,
+  "age_days": 332,
+  "days_since_push": 0,
   "health_score": 90,
   "health_components": {
-    "popularity": 95.9,
+    "popularity": 96.0,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 81.0,
@@ -40,10 +40,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1673,
+    "stars_gained": 1874,
     "days_span": 5,
-    "stars_per_day": 334.6,
-    "lifetime_stars_per_day": 189.29,
+    "stars_per_day": 374.8,
+    "lifetime_stars_per_day": 190.08,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -188,9 +188,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:22:43+00:00",
+  "fetched_at": "2026-11-26T13:55:53+00:00",
   "categories": [
-    "failover",
+    "analytics",
     "sessions-memory",
     "teams-self-hosting"
   ],

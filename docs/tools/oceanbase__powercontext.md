@@ -2,7 +2,7 @@
 
 # oceanbase/powercontext
 
-> Context that stays with the work — across sessions, agents, and people.
+> Fewer detours.
 
 [Repository](https://github.com/oceanbase/powercontext) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,56 +12,55 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,819 |
-| Star velocity | 12.6/day (history basis, 5d span) |
-| Health score | 56/100 |
-| Documentation | 71/100 |
+| Stars | 1,831 |
+| Star velocity | 13.0/day (history basis, 5d span) |
+| Health score | 58/100 |
+| Documentation | 65/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
-| Last push | 2026-11-25 (0 days ago) |
-| Analyzed README | 26,545 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
+| Last push | 2026-11-26 (0 days ago) |
+| Analyzed README | 24,248 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
+### Multi-agent orchestration
+
+> raced to its sources, and brings it to the agent when needed:
+
 ### Memory & context
 
-> ssions, agents, and people.
+> The open-source context service for AI agents
 
 ### Agent runtime
 
-> ity matrix records which hosts are qualified, along with their supported features and availability.
+> ear boundaries: Scopes isolate data and access; operational telemetry excludes prompts, content, and model responses.
 
 ### MCP support
 
-> istinct identities and permissions when a person must decide.
+> ry rules, with revisions.
 
 ### Cross-agent support
 
-> Mentions Claude Code, Codex, OpenCode
+> Mentions Claude Code, Codex, Copilot, OpenCode
 
 ## Setup reality check
 
-- **Difficulty:** 🔴 Involved (friction score 69/100)
+- **Difficulty:** 🟡 Some setup (friction score 48/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 
-**Signals that add work:** make build
+**Configuration required:** OAuth login flow, database dependency, process manager
 
-**Configuration required:** environment variables, sign-in required, API token/secret, database dependency, process manager
-
-*Involved setup. needs make build; configure environment variables, sign-in required*
+*Some setup. configure OAuth login flow, database dependency*
 
 ## Documentation quality
 
-Score **71/100**, based on these detected signals:
+Score **65/100**, based on these detected signals:
 
 - contains code blocks
-- contains screenshots/diagrams
 - has section headings
 - has a quick-start section
 - documents installation
@@ -71,17 +70,18 @@ Score **71/100**, based on these detected signals:
 - links to dedicated docs
 - documents changes
 - reports benchmarks
+- explains architecture
 - long, detailed README
 
 ## Score breakdown
 
 | Component | Score |
 | --- | ---: |
-| popularity | 65.2 |
-| momentum | 10.5 |
+| popularity | 65.3 |
+| momentum | 10.8 |
 | maintenance | 100.0 |
-| documentation | 71.0 |
-| accessibility | 31.0 |
+| documentation | 65.0 |
+| accessibility | 52.0 |
 
 ---
 

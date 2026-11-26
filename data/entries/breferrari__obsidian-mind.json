@@ -6,8 +6,8 @@
   "url": "https://github.com/breferrari/obsidian-mind",
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
   "homepage": "",
-  "stars": 5564,
-  "forks": 619,
+  "stars": 5566,
+  "forks": 620,
   "open_issues": 17,
   "language": "TypeScript",
   "license": "MIT",
@@ -24,27 +24,27 @@
     "template"
   ],
   "created_at": "2026-02-28T21:41:41Z",
-  "updated_at": "2026-11-25T06:30:49Z",
+  "updated_at": "2026-11-26T06:55:43Z",
   "pushed_at": "2026-10-17T23:34:40Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 269,
-  "days_since_push": 38,
+  "age_days": 270,
+  "days_since_push": 39,
   "health_score": 55,
   "health_components": {
     "popularity": 74.9,
-    "momentum": 2.0,
+    "momentum": 2.3,
     "maintenance": 78.0,
     "documentation": 81.0,
     "accessibility": 42.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 12,
+    "stars_gained": 14,
     "days_span": 5,
-    "stars_per_day": 2.4,
-    "lifetime_stars_per_day": 20.68,
+    "stars_per_day": 2.8,
+    "lifetime_stars_per_day": 20.61,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,8 +152,8 @@
     "highlights_zh": [
       "Node 22+ LTS（用于钩子脚本 — 通常与 Claude Code / Codex / Gemini CLI 一起已安装）",
       "/om-review-brief 通过汇总所有内容生成完整的评估简报：成就记录、决策、事件、能力证据和 1:1 反馈",
-      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/",
-      "Competency Note（能力项笔记） — date、description、current-level、target-level、熟练度表格"
+      "展示迁移计划——你可以确切看到哪些内容将被复制、转换和跳过",
+      "/om-peer-scan 深度扫描同事的 GitHub PR，并将结构化证据写入 perf/evidence/"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -162,7 +162,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:22:53+00:00",
+  "fetched_at": "2026-11-26T13:56:02+00:00",
   "categories": [
     "failover",
     "model-routing-2",

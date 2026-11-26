@@ -18,12 +18,12 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 148,
-  "days_since_push": 133,
+  "age_days": 149,
+  "days_since_push": 134,
   "health_score": 45,
   "health_components": {
     "popularity": 57.6,
-    "momentum": 0.1,
+    "momentum": 0.0,
     "maintenance": 55.0,
     "documentation": 54.0,
     "accessibility": 81.0
@@ -31,9 +31,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1,
-    "days_span": 16,
+    "days_span": 17,
     "stars_per_day": 0.06,
-    "lifetime_stars_per_day": 5.12,
+    "lifetime_stars_per_day": 5.09,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:17+00:00",
+  "fetched_at": "2026-11-26T13:56:30+00:00",
   "categories": [
     "desktop-ui",
     "failover",

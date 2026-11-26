@@ -12,51 +12,53 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,117 |
-| Star velocity | 9.0/day (history basis, 5d span) |
-| Health score | 59/100 |
+| Stars | 1,132 |
+| Star velocity | 10.6/day (history basis, 5d span) |
+| Health score | 58/100 |
 | Documentation | 80/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | JavaScript |
 | Created | 2026-02-13 |
-| Last push | 2026-11-25 (0 days ago) |
-| Analyzed README | 55,589 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-26 (0 days ago) |
+| Analyzed README | 74,503 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Multi-account switching
 
-> ts/minute Gemma 4 31B IT, NVIDIA Nemotron 3 Ultra, Recursive Flint v1.0 (free), Nemotron 3.5 Super VL
+> request: sealion@aisingapore.org) Qwen SEA-LION v4.5 27B Instruct, Llama SEA-LION v3.5 70B Reasoning, SEA-Guard (safety), SEA-LION Embedding 600M
 
 ### Quota & usage management
 
-> ude Code, Codex, Cursor, your own code…) talks to one OpenAI/Anthropic-compatible address, and the router always sends the request to a free model that is up — switching instantly when one is busy or out of quota.
+> ks them: your app or coding agent talks to **one** OpenAI- and Anthropic-compatible address on your computer, and every request goes to a free model that is up right now.
+
+### Automatic failover
+
+> ider** = change baseurl, the key and the model ID.
 
 ### Model / provider routing
 
-> ,000 requests per day per model, free forever).
+> nd**: which providers give free access, to which models, with what limits
 
 ### API gateway / proxy
 
-> notes for each provider live on its page at free-llm.com/provider/<slug> (e.g.
+> their own provider, no account, no telemetry, zero dependencies
 
 ### Billing & metering
 
-> 0 requests, 4M input / 100K output tokens per 60s (per API key) 📅 No daily cap published (free while the API is experimental); a Hetzner account with billing de… 🗓️ Free during experimental phase, no billing system yet…
+> , GPT-OSS 20B, DeepSeek V4 Flash, Mistral Large 3
 
 ### Agent runtime
 
-> ehave like one big free plan that never goes down — and the list of providers updates itself the same day from free-llm.com, for everyone, free.
-
 ### MCP support
 
-> ist of providers updates itself the same day from free-llm.com, for everyone, free.
+> ut an account (shown on free-llm.com/router) it works with no API key at all.
 
 ### Self-hostable
 
-> Free-LLM — Open Directory of Free AI & LLM APIs
+> Free-LLM — Every Free LLM API in One Place
 
 ### GUI / desktop app
 
@@ -68,7 +70,7 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟡 Some setup (friction score 42/100)
+- **Difficulty:** 🟡 Some setup (friction score 48/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `npm install -g github:nejib1/Free-LLM   # installs the `free-llm` command`
@@ -77,9 +79,9 @@
 
 **Signals that add work:** npm install/build
 
-**Configuration required:** API key configuration, sign-in required, database dependency, server/reverse-proxy setup
+**Configuration required:** environment variables, API key configuration, config.json/yaml/toml, sign-in required, database dependency, server/reverse-proxy setup
 
-*Some setup. install via global npm install; needs npm install/build; configure API key configuration, sign-in required; GUI application*
+*Some setup. install via global npm install; needs npm install/build; configure environment variables, API key configuration; GUI application*
 
 ## Documentation quality
 
@@ -103,11 +105,11 @@ Score **80/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 61.0 |
-| momentum | 7.5 |
+| popularity | 61.1 |
+| momentum | 8.8 |
 | maintenance | 100.0 |
 | documentation | 80.0 |
-| accessibility | 58.0 |
+| accessibility | 52.0 |
 
 ---
 

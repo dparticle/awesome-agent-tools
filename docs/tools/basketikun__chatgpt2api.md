@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,995 |
+| Stars | 6,997 |
 | Star velocity | 5.6/day (history basis, 5d span) |
 | Health score | 54/100 |
 | Documentation | 47/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-04-19 |
-| Last push | 2026-11-22 (3 days ago) |
+| Last push | 2026-11-22 (4 days ago) |
 | Analyzed README | 11,094 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [decolua/9router](https://github.com/decolua/9router)** — Superseded by decolua/9router: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -6,9 +6,9 @@
   "url": "https://github.com/nejib1/Free-LLM",
   "description": "78 free LLM API providers & 450+ free models (limits, no-card options) + Free-LLM Router: all of them behind one OpenAI/Anthropic-compatible endpoint with instant failover. Run Claude Code, Codex, Cursor, Aider on free models. Gemini, Groq, Mistral, DeepSeek, Qwen & more. Synced daily.",
   "homepage": "https://free-llm.com",
-  "stars": 1117,
-  "forks": 146,
-  "open_issues": 0,
+  "stars": 1132,
+  "forks": 150,
+  "open_issues": 4,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -34,36 +34,37 @@
     "qwen"
   ],
   "created_at": "2026-02-13T14:11:27Z",
-  "updated_at": "2026-11-25T13:13:29Z",
-  "pushed_at": "2026-11-25T03:00:06Z",
+  "updated_at": "2026-11-26T13:25:50Z",
+  "pushed_at": "2026-11-26T13:17:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
   "age_days": 285,
   "days_since_push": 0,
-  "health_score": 59,
+  "health_score": 58,
   "health_components": {
-    "popularity": 61.0,
-    "momentum": 7.5,
+    "popularity": 61.1,
+    "momentum": 8.8,
     "maintenance": 100.0,
     "documentation": 80.0,
-    "accessibility": 58.0
+    "accessibility": 52.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 45,
+    "stars_gained": 53,
     "days_span": 5,
-    "stars_per_day": 9.0,
-    "lifetime_stars_per_day": 3.92,
+    "stars_per_day": 10.6,
+    "lifetime_stars_per_day": 3.97,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "nejib1/Free-LLM",
-    "readme_chars": 55589,
+    "readme_chars": 74503,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
+      "auto-failover",
       "model-routing",
       "api-gateway",
       "billing-metering",
@@ -74,24 +75,26 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "multi-account-switching": "ts/minute Gemma 4 31B IT, NVIDIA Nemotron 3 Ultra, Recursive Flint v1.0 (free), Nemotron 3.5 Super VL",
-      "quota-management": "ude Code, Codex, Cursor, your own code…) talks to one OpenAI/Anthropic-compatible address, and the router always sends the request to a free model that is up — switching instantly when one is busy or out of quota.",
-      "model-routing": ",000 requests per day per model, free forever).",
-      "api-gateway": "notes for each provider live on its page at free-llm.com/provider/<slug> (e.g.",
-      "billing-metering": "0 requests, 4M input / 100K output tokens per 60s (per API key) 📅 No daily cap published (free while the API is experimental); a Hetzner account with billing de… 🗓️ Free during experimental phase, no billing system yet…",
-      "agent-runtime": "ehave like one big free plan that never goes down — and the list of providers updates itself the same day from free-llm.com, for everyone, free.",
-      "mcp-support": "ist of providers updates itself the same day from free-llm.com, for everyone, free.",
-      "self-hosted": "Free-LLM — Open Directory of Free AI & LLM APIs",
+      "multi-account-switching": "request: sealion@aisingapore.org) Qwen SEA-LION v4.5 27B Instruct, Llama SEA-LION v3.5 70B Reasoning, SEA-Guard (safety), SEA-LION Embedding 600M",
+      "quota-management": "ks them: your app or coding agent talks to **one** OpenAI- and Anthropic-compatible address on your computer, and every request goes to a free model that is up right now.",
+      "auto-failover": "ider** = change baseurl, the key and the model ID.",
+      "model-routing": "nd**: which providers give free access, to which models, with what limits",
+      "api-gateway": "their own provider, no account, no telemetry, zero dependencies",
+      "billing-metering": ", GPT-OSS 20B, DeepSeek V4 Flash, Mistral Large 3",
+      "agent-runtime": "",
+      "mcp-support": "ut an account (shown on free-llm.com/router) it works with no API key at all.",
+      "self-hosted": "Free-LLM — Every Free LLM API in One Place",
       "gui-desktop": "acceleration, OpenAI-compatible endpoint",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
     "capability_hits": {
       "multi-account-switching": 1,
       "quota-management": 1,
-      "model-routing": 5,
+      "auto-failover": 1,
+      "model-routing": 7,
       "api-gateway": 1,
       "billing-metering": 1,
-      "agent-runtime": 2,
+      "agent-runtime": 1,
       "mcp-support": 1,
       "self-hosted": 3,
       "gui-desktop": 1,
@@ -99,7 +102,7 @@
     },
     "friction": {
       "level": "moderate",
-      "score": 42,
+      "score": 48,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
@@ -109,7 +112,9 @@
         "npm install/build"
       ],
       "config_signals": [
+        "environment variables",
         "API key configuration",
+        "config.json/yaml/toml",
         "sign-in required",
         "database dependency",
         "server/reverse-proxy setup"
@@ -121,8 +126,8 @@
         "Linux",
         "Web"
       ],
-      "note_en": "Some setup. install via global npm install; needs npm install/build; configure API key configuration, sign-in required; GUI application",
-      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 API key configuration、sign-in required；GUI application"
+      "note_en": "Some setup. install via global npm install; needs npm install/build; configure environment variables, API key configuration; GUI application",
+      "note_zh": "需要一些配置。可通过 global npm install 安装；需要 npm install/build；需配置 environment variables、API key configuration；GUI application"
     },
     "doc_score": 80,
     "doc_signals": [
@@ -153,11 +158,9 @@
     "source": "raw:HEAD/README.md",
     "list_assessment": {
       "is_list": false,
-      "score": 2,
-      "signals": [
-        "invites project submissions"
-      ],
-      "external_link_ratio": 5.397
+      "score": 1,
+      "signals": [],
+      "external_link_ratio": 5.114
     },
     "highlights": [
       "2026-11-23 ➖ Google AI Studio — no longer free: Gemini 2.5 Flash-Lite, Gemini 2.5 Flash",
@@ -165,20 +168,25 @@
       "2026-11-23 ➖ Routeway — no longer free: DeepSeek V4.1 Flash (free)",
       "2026-11-23 ➖ Kilo AI Gateway — no longer free: Dots3-Note Preview, Cohere North Mini Code"
     ],
-    "summary_zh_native": "",
-    "highlights_zh": [],
-    "chinese_readme": ""
+    "summary_zh_native": "🌐 English · 简体中文 · 繁體中文 · 日本語 · 한국어",
+    "highlights_zh": [
+      "一个地址，所有免费密钥：支持 OpenAI、Anthropic Messages、Codex Responses、Ollama 和 MCP 接口",
+      "⚡ 直接上手：Base URL、每个提供商的可运行代码，以及 Claude Code、Codex、Cursor、OpenCode 的配置",
+      "试用无需任何注册：无需账号、无需信用卡；只要还有提供商支持免账号访问（见 free-llm.com/router），完全不需要 API 密钥也能用。",
+      "本地且私密：在你的电脑上运行，密钥加密保存，只发送给对应的提供商；无需账号、无遥测、零依赖"
+    ],
+    "chinese_readme": "README.zh-CN.md"
   },
   "discovery": {
     "source": "search",
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:10+00:00",
+  "fetched_at": "2026-11-26T13:56:21+00:00",
   "categories": [
     "billing",
     "desktop-ui",
-    "teams-self-hosting"
+    "model-routing-2"
   ],
   "primary_category": "billing",
   "lifecycle": {

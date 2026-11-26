@@ -6,20 +6,20 @@
   "url": "https://github.com/basketikun/chatgpt2api",
   "description": "ChatGPT 官网接口纯协议逆向实现，Go 语言编写，高并发、低内存、高性能。指纹级请求还原，支持 GPT-Image-2.6 生图/改图、GIF 动图、文本模型与语音合成/转写，兼容 OpenAI 接口协议，在线批量生图，号池管理，支持导入 CPA、sub2api 号池，可接入 Cherry Studio、New API 等软件",
   "homepage": "https://linux.do",
-  "stars": 6995,
+  "stars": 6997,
   "forks": 1772,
-  "open_issues": 2,
+  "open_issues": 1,
   "language": "Go",
   "license": "MIT",
   "topics": [],
   "created_at": "2026-04-19T14:53:01Z",
-  "updated_at": "2026-11-25T14:12:38Z",
+  "updated_at": "2026-11-26T02:41:03Z",
   "pushed_at": "2026-11-22T07:47:06Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 219,
-  "days_since_push": 3,
+  "age_days": 220,
+  "days_since_push": 4,
   "health_score": 54,
   "health_components": {
     "popularity": 76.9,
@@ -33,7 +33,7 @@
     "stars_gained": 28,
     "days_span": 5,
     "stars_per_day": 5.6,
-    "lifetime_stars_per_day": 31.94,
+    "lifetime_stars_per_day": 31.8,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -120,66 +120,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:22:52+00:00",
+  "fetched_at": "2026-11-26T13:56:01+00:00",
   "categories": [
+    "analytics",
     "billing"
   ],
   "primary_category": "billing",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by decolua/9router: covers 100% of capabilities (4/4).",
-    "note_zh": "已被 decolua/9router 取代：covers 100% of capabilities (4/4)。",
-    "superseded_by": "decolua/9router",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "basketikun/chatgpt2api",
-      "challenger": "decolua/9router",
-      "incumbent_name": "basketikun/chatgpt2api",
-      "challenger_name": "decolua/9router",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "medium",
-      "coverage": 1.0,
-      "covered": [
-        "billing-metering",
-        "multi-account-switching",
-        "quota-management",
-        "self-hosted"
-      ],
-      "star_ratio": 4.694,
-      "momentum_ratio": 6.321,
-      "setup_delta": 1,
-      "dominance": 0.995,
-      "reasons": [
-        "covers 100% of capabilities (4/4)",
-        "4.69x the stars (32,838 vs 6,995)",
-        "6.32x the star velocity (35.4/day vs 5.6/day)",
-        "slightly heavier setup (+1 friction, within tolerance)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "billing-metering",
-          "multi-account-switching",
-          "quota-management",
-          "self-hosted"
-        ],
-        "challenger_capabilities": [
-          "api-gateway",
-          "billing-metering",
-          "cross-agent-support",
-          "model-routing",
-          "multi-account-switching",
-          "quota-management",
-          "remote-control",
-          "self-hosted",
-          "usage-analytics"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 67,
-        "incumbent_setup_score": 72,
-        "challenger_setup_score": 73
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

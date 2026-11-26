@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 532,
-  "days_since_push": 23,
+  "age_days": 533,
+  "days_since_push": 24,
   "health_score": 49,
   "health_components": {
     "popularity": 55.0,
@@ -167,9 +167,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:23+00:00",
+  "fetched_at": "2026-11-26T13:56:36+00:00",
   "categories": [
-    "mcp",
+    "analytics",
     "model-routing-2",
     "teams-self-hosting"
   ],

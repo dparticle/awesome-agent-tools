@@ -6,9 +6,9 @@
   "url": "https://github.com/Tencent/LoopForge",
   "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
   "homepage": "https://loopforge.cn",
-  "stars": 6078,
-  "forks": 857,
-  "open_issues": 377,
+  "stars": 6161,
+  "forks": 876,
+  "open_issues": 445,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,16 +34,16 @@
     "workflow-engine"
   ],
   "created_at": "2026-07-28T03:51:01Z",
-  "updated_at": "2026-11-25T14:21:16Z",
-  "pushed_at": "2026-11-25T14:19:19Z",
+  "updated_at": "2026-11-26T13:50:01Z",
+  "pushed_at": "2026-11-26T13:45:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 120,
+  "age_days": 121,
   "days_since_push": 0,
   "health_score": 82,
   "health_components": {
-    "popularity": 75.7,
+    "popularity": 75.8,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 71.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 864,
+    "stars_gained": 785,
     "days_span": 5,
-    "stars_per_day": 172.8,
-    "lifetime_stars_per_day": 50.65,
+    "stars_per_day": 157.0,
+    "lifetime_stars_per_day": 50.92,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Tencent/LoopForge",
-    "readme_chars": 23044,
+    "readme_chars": 23162,
     "capabilities": [
       "multi-agent-orchestration",
       "worktree-isolation",
@@ -75,13 +75,13 @@
     ],
     "capability_evidence": {
       "multi-agent-orchestration": "ories, GitHub delivery, human acceptance gates and run evidence.",
-      "worktree-isolation": "n machine), then either run a project SOP or ask Main Bot to change the code and submit a PR/MR.",
+      "worktree-isolation": "machine), then either run a project LOOP or ask Main Bot to change the code and submit a PR/MR.",
       "model-routing": "s the credential copy, and the Runner saves the refreshed login back to its original local store.",
-      "billing-metering": "kspaces and native or Docker SOP sandboxes.",
+      "billing-metering": "spaces and native or Docker LOOP sandboxes.",
       "usage-analytics": "r a PR, plus per-node artifacts and logs",
       "agent-runtime": "ttps://github.com/user-attachments/assets/8af401d9-1aae-427c-b4bc-455c12d17beb",
       "mcp-support": "retry a failed step, or rerun from any node.",
-      "self-hosted": "",
+      "self-hosted": "LOOPs · Features · Local (Legacy) · FAQ · Docs https://github.com/user-attachments/assets/8af401d9-1aae-427c-b4bc-455c12d17beb 80-second product tour (1080p, with sound).",
       "notifications": "y and Base URL from personal settings, including on a connected execution machine.",
       "cross-agent-support": "Mentions Claude Code, Codex, Cursor, OpenCode"
     },
@@ -160,14 +160,14 @@
     "highlights": [
       "Hacking on LoopForge itself? bash scripts/dev.sh runs it natively (Go 1.26.11+).",
       "Your stack, your servers. Ten coding-agent CLIs as executors, from CodeBuddy, Codex and Claude Code to OpenCode, Cursor CLI and more. GitHub, Skills and MCP as tools. Docker sandboxes or yo…",
-      "Click Run SOP. A real script writes a report, then the run waits for you at the approval step."
+      "Click Run LOOP. A real script writes a report, then the run waits for you at the approval step."
     ],
-    "summary_zh_native": "LoopForge 是一个可自主部署的团队工作台，让你和编程 Agent 一起交付软件。在对话里把需求告诉 Main Bot：它会按需打开 Docker 沙箱、检出项目仓库、把任务分派给项目角色，最后提交 PR。某种做法被验证有效后，把它存成 SOP（由 Agent、脚本和人工关口组成的标准交付流程），下一个需求就按同样的方式交付，评审和验收都在流程里。",
+    "summary_zh_native": "LoopForge 是一个可自主部署的团队工作台，让你和编程 Agent 一起交付软件。在对话里把需求告诉 Main Bot：它会按需打开 Docker 沙箱、检出项目仓库、把任务分派给项目角色，最后提交 PR。某种做法被验证有效后，把它存成 LOOP（由 Agent、脚本和人工关口组成的可复用交付流程），下一个需求就按同样的方式交付，评审和验收都在流程里。",
     "highlights_zh": [
       "技术栈和服务器都是你的。 执行器支持 10 种编程 Agent CLI，从 CodeBuddy、Codex、Claude Code 到 OpenCode、Cursor CLI 等；工具接入 GitHub、Skills、MCP；运行环境可选 Docker 沙箱或你自己的机器。",
       "参与 LoopForge 本身的开发？ 用 bash scripts/dev.sh 原生运行（需要 Go 1.26.11+）。",
-      "沙箱。 默认 Compose 安装中，SOP 运行和对话工作区都使用 Docker 沙箱容器，由平台通过宿主机 Docker socket 启动；默认沙箱复用已安装的运行镜像，安装后无需再构建；自定义 Dockerfile 仍单独构建。Docker socket 赋予平台控制宿主机 Docker 的权限，因此只适用于可信团队，不构成不可信多租户隔离边界；详见部署边界。重复执行…",
-      "执行器。 首页对话、需求澄清、Bot 回复、通知汇报、运行评测和静态预览均可选择 CLI 与模型。每个 SOP 角色可以独立选择 CLI，内置模板仍默认使用 CodeBuddy。定时提示词使用任务所选的 CLI。将使用中的流程配置为其他 CLI 后，平台可在未安装 CodeBuddy、未配置其 Key 的环境中运行。部署与升级说明"
+      "沙箱。 默认 Compose 安装中，LOOP 运行和对话工作区都使用 Docker 沙箱容器，由平台通过宿主机 Docker socket 启动；默认沙箱复用已安装的运行镜像，安装后无需再构建；自定义 Dockerfile 仍单独构建。Docker socket 赋予平台控制宿主机 Docker 的权限，因此只适用于可信团队，不构成不可信多租户隔离边界；详见部署边界。重复执…",
+      "执行器。 首页对话、需求澄清、Bot 回复、通知汇报、运行评测和静态预览均可选择 CLI 与模型。每个 LOOP 角色可以独立选择 CLI，内置模板仍默认使用 CodeBuddy。定时提示词使用任务所选的 CLI。将使用中的流程配置为其他 CLI 后，平台可在未安装 CodeBuddy、未配置其 Key 的环境中运行。部署与升级说明"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -176,13 +176,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:22:29+00:00",
+  "fetched_at": "2026-11-26T13:55:37+00:00",
   "categories": [
-    "failover",
+    "analytics",
     "model-routing",
     "parallelism"
   ],
-  "primary_category": "parallelism",
+  "primary_category": "analytics",
   "lifecycle": {
     "state": "active",
     "note_en": "",

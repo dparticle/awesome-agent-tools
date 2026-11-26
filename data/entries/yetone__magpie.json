@@ -4,32 +4,41 @@
   "name": "magpie",
   "owner": "yetone",
   "url": "https://github.com/yetone/magpie",
-  "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+  "description": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
   "homepage": "https://usemagpie.ai",
-  "stars": 41376,
-  "forks": 3796,
-  "open_issues": 5126,
+  "stars": 41905,
+  "forks": 3841,
+  "open_issues": 5234,
   "language": "Go",
   "license": "MIT",
   "topics": [
+    "ai-agents",
+    "chatgpt",
+    "claude",
     "claude-code",
     "codex",
     "deepseek",
     "gemini-cli",
+    "github-copilot",
+    "glm",
+    "kimi",
+    "linux",
     "llm",
-    "macos"
+    "llm-gateway",
+    "macos",
+    "windows"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-11-25T14:21:00Z",
-  "pushed_at": "2026-11-25T14:19:44Z",
+  "updated_at": "2026-11-26T13:52:42Z",
+  "pushed_at": "2026-11-26T13:51:22Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 62,
+  "age_days": 63,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
-    "popularity": 92.3,
+    "popularity": 92.4,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 63.0,
@@ -37,16 +46,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1952,
+    "stars_gained": 2225,
     "days_span": 5,
-    "stars_per_day": 390.4,
-    "lifetime_stars_per_day": 667.35,
+    "stars_per_day": 445.0,
+    "lifetime_stars_per_day": 665.16,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 24798,
+    "readme_chars": 24959,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -59,9 +68,9 @@
     ],
     "capability_evidence": {
       "multi-account-switching": "count can go through a proxy of its own.",
-      "quota-management": "one key that matters in the agent's own config.",
+      "quota-management": "you-go keys and local models.",
       "multi-agent-orchestration": "**Sync** Back up to a file, or sync machines over WebDAV (Nutstore, Nextcloud…), S3, or an encrypted GitHub repository backup",
-      "model-routing": "y, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to.",
+      "model-routing": "r any agent from one list.",
       "api-gateway": "e AI · Groq · Nous Portal · xAI · OpenRouter · Vercel AI Gateway · GMI Cloud · Together · Fireworks · Fireworks Nexus · SiliconFlow · NVIDIA NIM · ModelScope · Ollama · LM Studio … and any OpenAI- or Anthropic-compatibl…",
       "mcp-support": "ers it as a provider to every other agent.",
       "gui-desktop": "f you use more than one agent, more than one provider, or more than one account.",
@@ -69,7 +78,7 @@
     },
     "capability_hits": {
       "multi-account-switching": 1,
-      "quota-management": 2,
+      "quota-management": 1,
       "multi-agent-orchestration": 1,
       "model-routing": 2,
       "api-gateway": 1,
@@ -131,7 +140,7 @@
       "Crush",
       "Droid"
     ],
-    "summary_en": "Claude Code on Kimi.",
+    "summary_en": "Claude Code on your ChatGPT Pro.",
     "summary_zh": "",
     "install_hint": "curl -fsSL https://usemagpie.ai/install.sh | sh",
     "source": "raw:HEAD/README.md",
@@ -139,19 +148,18 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.452
+      "external_link_ratio": 1.442
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
-      "GitHub Copilot, Gemini (Code Assist), Antigravity (through your own agy CLI), Grok (SuperGrok) and more",
-      "Use one provider everywhere: an API key, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to."
+      "GitHub Copilot, Gemini (Code Assist), Antigravity (through your own agy CLI), Grok (SuperGrok) and more"
     ],
-    "summary_zh_native": "Claude Code 跑 Kimi，Codex 跑 DeepSeek，Gemini CLI 跑 GLM，OpenCode 用你的 ChatGPT 订阅。",
+    "summary_zh_native": "Claude Code 用你的 ChatGPT Pro，Codex 用你的 Claude Max，Claude Desktop 用你的 GLM Coding Plan。",
     "highlights_zh": [
       "任何模型都能联网搜索：不能搜索的模型由 magpie 代为搜索，用能搜索的 provider 或搜索 API（Tavily、Brave、Exa、Firecrawl、You.com、DeepSeek、火山引擎豆包搜索、腾讯云元宝搜索、TinyFish、SearXNG），按你拖好的顺序调用，每个都能单独关闭而不删除密钥。",
+      "GitHub Copilot、Gemini（Code Assist）、Antigravity（经你自己的 agy CLI）、Grok（SuperGrok） 等等",
       "WSL：在 Windows 上，WSL 发行版里的 Agent 一样能配置，会话也一样统计。",
-      "一个 provider 处处能用：API key、本地模型，或者你登录着的 Claude、ChatGPT、Copilot、Gemini、Grok 订阅。",
-      "GitHub Copilot、Gemini（Code Assist）、Antigravity（经你自己的 agy CLI）、Grok（SuperGrok） 等等"
+      "买过的套餐汇成一池：你登录着的 Claude、ChatGPT、Copilot、Gemini、Grok 订阅，按 key 卖的 Coding Plan（GLM、Kimi Code、火山方舟、百炼、阶跃星辰），按量付费的 key 和本地模型。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -160,7 +168,7 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-25T14:22:13+00:00",
+  "fetched_at": "2026-11-26T13:55:20+00:00",
   "categories": [
     "billing",
     "desktop-ui",

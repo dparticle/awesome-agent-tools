@@ -6,7 +6,7 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 872,
+  "stars": 873,
   "forks": 70,
   "open_issues": 4,
   "language": "Go",
@@ -32,27 +32,27 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-11-25T01:54:33Z",
+  "updated_at": "2026-11-26T06:49:58Z",
   "pushed_at": "2026-11-21T11:25:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 80,
-  "days_since_push": 4,
+  "age_days": 81,
+  "days_since_push": 5,
   "health_score": 54,
   "health_components": {
     "popularity": 58.8,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 10.9,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 10.78,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:15+00:00",
+  "fetched_at": "2026-11-26T13:56:27+00:00",
   "categories": [
     "desktop-ui",
     "failover",
@@ -155,18 +155,18 @@
   "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by huytieu/COG-second-brain: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 huytieu/COG-second-brain 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "huytieu/COG-second-brain",
+    "note_en": "Superseded by oceanbase/powercontext: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 oceanbase/powercontext 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "oceanbase/powercontext",
     "challenger": "",
     "supersede": {
       "incumbent": "okf-memory/okf-agent-memory",
-      "challenger": "huytieu/cog-second-brain",
+      "challenger": "oceanbase/powercontext",
       "incumbent_name": "okf-memory/okf-agent-memory",
-      "challenger_name": "huytieu/COG-second-brain",
+      "challenger_name": "oceanbase/powercontext",
       "kind": "supersede",
       "source": "auto",
-      "confidence": "high",
+      "confidence": "medium",
       "coverage": 1.0,
       "covered": [
         "agent-runtime",
@@ -175,15 +175,15 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 1.745,
-      "momentum_ratio": 64.0,
-      "setup_delta": -14,
-      "dominance": 0.877,
+      "star_ratio": 2.097,
+      "momentum_ratio": 65.0,
+      "setup_delta": 3,
+      "dominance": 0.904,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "1.75x the stars (1,522 vs 872)",
-        "64.00x the star velocity (3.2/day vs 0.0/day)",
-        "no harder to set up (31 vs 45 friction)"
+        "2.10x the stars (1,831 vs 873)",
+        "65.00x the star velocity (13.0/day vs 0.2/day)",
+        "slightly heavier setup (+3 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -197,18 +197,14 @@
         "challenger_capabilities": [
           "agent-runtime",
           "cross-agent-support",
-          "gui-desktop",
           "mcp-support",
           "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "skills-plugins",
-          "team-collaboration"
+          "multi-agent-orchestration"
         ],
         "incumbent_health": 54,
-        "challenger_health": 54,
+        "challenger_health": 58,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 31
+        "challenger_setup_score": 48
       }
     }
   }

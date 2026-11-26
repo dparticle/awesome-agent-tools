@@ -6,8 +6,8 @@
   "url": "https://github.com/BennyKok/omg.dev",
   "description": "omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcode with mobile client",
   "homepage": "https://omg.dev",
-  "stars": 561,
-  "forks": 43,
+  "stars": 560,
+  "forks": 42,
   "open_issues": 1,
   "language": "TypeScript",
   "license": "MIT",
@@ -24,27 +24,27 @@
     "self-hosted"
   ],
   "created_at": "2026-06-17T07:33:04Z",
-  "updated_at": "2026-11-23T00:45:10Z",
-  "pushed_at": "2026-11-24T20:04:15Z",
+  "updated_at": "2026-11-25T21:03:36Z",
+  "pushed_at": "2026-11-25T20:03:44Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 161,
+  "age_days": 162,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
     "popularity": 55.0,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 100.0,
     "documentation": 42.0,
     "accessibility": 69.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 3.48,
+    "stars_per_day": 0.0,
+    "lifetime_stars_per_day": 3.46,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:23+00:00",
+  "fetched_at": "2026-11-26T13:56:37+00:00",
   "categories": [
     "desktop-ui",
     "mobile"
@@ -177,14 +177,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 1.214,
-      "momentum_ratio": 13.0,
+      "star_ratio": 1.22,
+      "momentum_ratio": 60.0,
       "setup_delta": -2,
-      "dominance": 0.794,
+      "dominance": 0.795,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "1.21x the stars (681 vs 561)",
-        "13.00x the star velocity (2.6/day vs 0.2/day)",
+        "1.22x the stars (683 vs 560)",
+        "60.00x the star velocity (3.0/day vs 0.0/day)",
         "no harder to set up (29 vs 31 friction)"
       ],
       "reasons_zh": [],

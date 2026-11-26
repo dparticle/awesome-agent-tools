@@ -18,8 +18,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 378,
-  "days_since_push": 3,
+  "age_days": 379,
+  "days_since_push": 4,
   "health_score": 56,
   "health_components": {
     "popularity": 49.5,
@@ -178,7 +178,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:45+00:00",
+  "fetched_at": "2026-11-26T13:57:01+00:00",
   "categories": [
     "billing",
     "failover",

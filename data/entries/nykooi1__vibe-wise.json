@@ -6,8 +6,8 @@
   "url": "https://github.com/nykooi1/vibe-wise",
   "description": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
   "homepage": "",
-  "stars": 4449,
-  "forks": 180,
+  "stars": 4453,
+  "forks": 179,
   "open_issues": 24,
   "language": "Python",
   "license": "MIT",
@@ -16,27 +16,27 @@
     "codex-plugin"
   ],
   "created_at": "2026-09-29T01:29:57Z",
-  "updated_at": "2026-11-25T11:38:37Z",
+  "updated_at": "2026-11-26T13:22:52Z",
   "pushed_at": "2026-10-09T09:37:21Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 57,
-  "days_since_push": 47,
+  "age_days": 58,
+  "days_since_push": 48,
   "health_score": 52,
   "health_components": {
     "popularity": 73.0,
-    "momentum": 4.7,
+    "momentum": 4.0,
     "maintenance": 78.0,
     "documentation": 35.0,
     "accessibility": 79.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 28,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 5.6,
-    "lifetime_stars_per_day": 78.05,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 76.78,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -106,7 +106,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:22:31+00:00",
+  "fetched_at": "2026-11-26T13:55:41+00:00",
   "categories": [
     "teams-self-hosting"
   ],

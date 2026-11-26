@@ -23,21 +23,21 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 470,
-  "days_since_push": 29,
+  "age_days": 471,
+  "days_since_push": 30,
   "health_score": 51,
   "health_components": {
     "popularity": 55.4,
-    "momentum": 0.2,
+    "momentum": 0.0,
     "maintenance": 92.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 0,
     "days_span": 5,
-    "stars_per_day": 0.2,
+    "stars_per_day": 0.0,
     "lifetime_stars_per_day": 1.25,
     "basis": "history",
     "is_fast_riser": false
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:22+00:00",
+  "fetched_at": "2026-11-26T13:56:36+00:00",
   "categories": [
     "failover",
     "parallelism"
@@ -151,14 +151,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 2.956,
-      "momentum_ratio": 10.0,
+      "star_ratio": 2.961,
+      "momentum_ratio": 36.0,
       "setup_delta": -17,
       "dominance": 0.997,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.96x the stars (1,735 vs 587)",
-        "10.00x the star velocity (2.0/day vs 0.2/day)",
+        "2.96x the stars (1,738 vs 587)",
+        "36.00x the star velocity (1.8/day vs 0.0/day)",
         "no harder to set up (8 vs 25 friction)"
       ],
       "reasons_zh": [],

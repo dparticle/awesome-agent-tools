@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "full_name": "NerverDevs/nervecenter",
+  "name": "nervecenter",
+  "owner": "NerverDevs",
+  "url": "https://github.com/NerverDevs/nervecenter",
+  "description": "new-api / sub2api 中转站账号管理中心：余额、API Key、用量、倍率、模型比价 | https://nvcenter.cc",
+  "homepage": "https://nvcenter.cc",
+  "stars": 679,
+  "forks": 1,
+  "open_issues": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "api-key-management",
+    "api-relay",
+    "claude",
+    "dashboard",
+    "llm",
+    "new-api",
+    "openai",
+    "sub2api"
+  ],
+  "created_at": "2026-10-23T15:07:06Z",
+  "updated_at": "2026-11-26T13:21:32Z",
+  "pushed_at": "2026-11-26T13:17:17Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 33,
+  "days_since_push": 0,
+  "health_score": 54,
+  "health_components": {
+    "popularity": 56.6,
+    "momentum": 17.1,
+    "maintenance": 100.0,
+    "documentation": 45.0,
+    "accessibility": 54.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 679,
+    "days_span": 33,
+    "stars_per_day": 20.58,
+    "lifetime_stars_per_day": 20.58,
+    "basis": "lifetime",
+    "is_fast_riser": true
+  },
+  "analysis": {
+    "full_name": "NerverDevs/nervecenter",
+    "readme_chars": 22786,
+    "capabilities": [
+      "multi-account-switching",
+      "quota-management",
+      "auto-failover",
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "usage-analytics",
+      "agent-runtime",
+      "mcp-support",
+      "self-hosted",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-account-switching": "ltiple accounts with round-robin load balancing (Gemini, OpenAI, Claude, Grok)",
+      "quota-management": "models (Gemini, Codex, Antigravity) via CLIProxyAPI OAuth - no API keys needed",
+      "auto-failover": "vity) via CLIProxyAPI OAuth - no API keys needed",
+      "multi-agent-orchestration": "tas in CLIProxyAPI pools.",
+      "model-routing": "yment, and one-click OMC/CPA updates.",
+      "api-gateway": "mmend our EasyCLIProxyAPI desktop client.",
+      "usage-analytics": "azonquick on your server to manage Amazon Quick sign-in, imports, quota, and proxies.",
+      "agent-runtime": "Scraper from a single interface, inspired by Quotio and VibeProxy.",
+      "mcp-support": "ns, with comprehensive request records (latency, TTFT, tokens, diagnostics, and model substitutions), live routing, multi-dimensional pricing analytics, quota window warmup and forecasting, and Agent/MCP tools.",
+      "self-hosted": "Standalone persistence and visualization service for CLIProxyAPI, with periodic data sync, SQLite storage, aggregate APIs, and a built-in dashboard for usage and statistics. ### CPA-Manager-Plus A self-hosted CLIProxyAP…",
+      "gui-desktop": "Native macOS menu bar app that unifies Claude, Gemini, OpenAI, and Antigravity subscriptions with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid - no API keys…",
+      "cross-agent-support": "Mentions Claude Code, Cline, Codex, Copilot"
+    },
+    "capability_hits": {
+      "multi-account-switching": 7,
+      "quota-management": 2,
+      "auto-failover": 1,
+      "multi-agent-orchestration": 1,
+      "model-routing": 4,
+      "api-gateway": 3,
+      "usage-analytics": 7,
+      "agent-runtime": 1,
+      "mcp-support": 4,
+      "self-hosted": 2,
+      "gui-desktop": 8,
+      "cross-agent-support": 8
+    },
+    "friction": {
+      "level": "moderate",
+      "score": 46,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [],
+      "hard_signals": [],
+      "config_signals": [
+        "API key configuration",
+        "config.json/yaml/toml",
+        "config file",
+        "OAuth login flow",
+        "sign-in required",
+        "database dependency",
+        "process manager"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Web"
+      ],
+      "note_en": "Some setup. configure API key configuration, config.json/yaml/toml; one-click setup",
+      "note_zh": "需要一些配置。需配置 API key configuration、config.json/yaml/toml；one-click setup"
+    },
+    "doc_score": 45,
+    "doc_signals": [
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has contribution guidance",
+      "mentions licensing",
+      "links to dedicated docs",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot",
+      "Cline / Roo",
+      "Droid"
+    ],
+    "summary_en": "new-api / sub2api 中转站账号管理中心：余额、API Key、用量、倍率、模型比价 | https://nvcenter.cc",
+    "summary_zh": "",
+    "install_hint": "",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 2.107
+    },
+    "highlights": [
+      "Reusable Go SDK for embedding the proxy (see docs/sdk-usage.md)",
+      "OpenAI/Gemini/Claude/Grok compatible API endpoints for CLI models",
+      "Advanced (executors & translators): docs/sdk-advanced.md",
+      "OpenAI Codex support (GPT models) via OAuth login"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [
+      "为 CLI 模型提供 OpenAI/Gemini/Claude/Codex/Grok 兼容的 API 端点",
+      "支持流式、非流式响应，以及受支持场景下的 WebSocket 响应",
+      "新增 OpenAI Codex（GPT 系列）支持（OAuth 登录）",
+      "新增 Claude Code 支持（OAuth 登录）"
+    ],
+    "chinese_readme": "README_CN.md"
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-26T13:56:32+00:00",
+  "categories": [
+    "analytics",
+    "billing",
+    "desktop-ui"
+  ],
+  "primary_category": "billing",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

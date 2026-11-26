@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 5,335 |
-| Star velocity | 38.8/day (history basis, 5d span) |
-| Health score | 70/100 |
-| Documentation | 74/100 |
+| Stars | 5,355 |
+| Star velocity | 33.8/day (history basis, 5d span) |
+| Health score | 68/100 |
+| Documentation | 70/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Swift |
 | Created | 2026-10-11 |
-| Last push | 2026-11-24 (0 days ago) |
-| Analyzed README | 27,103 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-26 (0 days ago) |
+| Analyzed README | 27,513 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -56,7 +56,7 @@
 
 ## Documentation quality
 
-Score **74/100**, based on these detected signals:
+Score **70/100**, based on these detected signals:
 
 - contains code blocks
 - has a task checklist
@@ -67,7 +67,6 @@ Score **74/100**, based on these detected signals:
 - has troubleshooting/FAQ
 - has contribution guidance
 - mentions licensing
-- has a Chinese translation
 - documents changes
 - publishes a roadmap
 - long, detailed README
@@ -76,10 +75,10 @@ Score **74/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 74.5 |
-| momentum | 32.3 |
+| popularity | 74.6 |
+| momentum | 28.2 |
 | maintenance | 100.0 |
-| documentation | 74.0 |
+| documentation | 70.0 |
 | accessibility | 79.0 |
 
 ---

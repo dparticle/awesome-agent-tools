@@ -21,7 +21,7 @@
 | License | UPL-1.0 |
 | Language | Python |
 | Created | 2025-07-27 |
-| Last push | 2026-11-23 (1 days ago) |
+| Last push | 2026-11-25 (0 days ago) |
 | Analyzed README | 29,993 chars from `raw:HEAD/README.md` |
 
 ## What it solves

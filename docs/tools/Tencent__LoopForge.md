@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,078 |
-| Star velocity | 172.8/day (history basis, 5d span) |
+| Stars | 6,161 |
+| Star velocity | 157.0/day (history basis, 5d span) |
 | Health score | 82/100 |
 | Documentation | 71/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | NOASSERTION |
 | Language | Go |
 | Created | 2026-07-28 |
-| Last push | 2026-11-25 (0 days ago) |
-| Analyzed README | 23,044 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-26 (0 days ago) |
+| Analyzed README | 23,162 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Workspace isolation
 
-> n machine), then either run a project SOP or ask Main Bot to change the code and submit a PR/MR.
+> machine), then either run a project LOOP or ask Main Bot to change the code and submit a PR/MR.
 
 ### Model / provider routing
 
@@ -40,7 +40,7 @@
 
 ### Billing & metering
 
-> kspaces and native or Docker SOP sandboxes.
+> spaces and native or Docker LOOP sandboxes.
 
 ### Usage analytics
 
@@ -55,6 +55,8 @@
 > retry a failed step, or rerun from any node.
 
 ### Self-hostable
+
+> LOOPs · Features · Local (Legacy) · FAQ · Docs https://github.com/user-attachments/assets/8af401d9-1aae-427c-b4bc-455c12d17beb 80-second product tour (1080p, with sound).
 
 ### Notifications
 
@@ -100,7 +102,7 @@ Score **71/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 75.7 |
+| popularity | 75.8 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 71.0 |

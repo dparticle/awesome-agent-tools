@@ -28,8 +28,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 280,
-  "days_since_push": 58,
+  "age_days": 281,
+  "days_since_push": 59,
   "health_score": 44,
   "health_components": {
     "popularity": 51.7,
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:36+00:00",
+  "fetched_at": "2026-11-26T13:56:51+00:00",
   "categories": [
     "parallelism"
   ],
@@ -163,14 +163,14 @@
         "parallel-execution",
         "worktree-isolation"
       ],
-      "star_ratio": 89.844,
-      "momentum_ratio": 388.0,
+      "star_ratio": 89.893,
+      "momentum_ratio": 404.0,
       "setup_delta": -70,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "89.84x the stars (34,500 vs 384)",
-        "388.00x the star velocity (19.4/day vs 0.0/day)",
+        "89.89x the stars (34,519 vs 384)",
+        "404.00x the star velocity (20.2/day vs 0.0/day)",
         "no harder to set up (2 vs 72 friction)"
       ],
       "reasons_zh": [],

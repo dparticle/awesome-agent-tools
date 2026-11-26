@@ -2,7 +2,7 @@
 
 # yetone/magpie
 
-> Claude Code on Kimi.
+> Claude Code on your ChatGPT Pro.
 
 [Repository](https://github.com/yetone/magpie) · [Back to index](../../README.md) · Category: **None**
 
@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 41,376 |
-| Star velocity | 390.4/day (history basis, 5d span) |
+| Stars | 41,905 |
+| Star velocity | 445.0/day (history basis, 5d span) |
 | Health score | 92/100 |
 | Documentation | 63/100 |
 | Tier | 🏆 Flagship |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-23 |
-| Last push | 2026-11-25 (0 days ago) |
-| Analyzed README | 24,798 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-26 (0 days ago) |
+| Analyzed README | 24,959 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Quota & usage management
 
-> one key that matters in the agent's own config.
+> you-go keys and local models.
 
 ### Multi-agent orchestration
 
@@ -40,7 +40,7 @@
 
 ### Model / provider routing
 
-> y, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to.
+> r any agent from one list.
 
 ### API gateway / proxy
 
@@ -90,7 +90,7 @@ Score **63/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 92.3 |
+| popularity | 92.4 |
 | momentum | 100.0 |
 | maintenance | 100.0 |
 | documentation | 63.0 |

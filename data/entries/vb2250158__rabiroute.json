@@ -7,7 +7,7 @@
   "description": "Self-hosted gateway that bridges QQ, WeChat/WeCom and Feishu chat to your existing Codex or agent task — remote control from your phone, schedules and role context. | 自托管 AI 消息网关：把 QQ、微信、飞书接到你已有的 Codex / Agent 任务，支持手机远程、定时任务和角色上下文。",
   "homepage": "https://vb2250158.github.io/RabiRoute/",
   "stars": 494,
-  "forks": 0,
+  "forks": 1,
   "open_issues": 0,
   "language": "TypeScript",
   "license": "MIT",
@@ -35,11 +35,11 @@
   ],
   "created_at": "2026-06-01T09:40:16Z",
   "updated_at": "2026-11-25T12:08:17Z",
-  "pushed_at": "2026-11-25T13:56:54Z",
+  "pushed_at": "2026-11-26T13:47:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 177,
+  "age_days": 178,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
@@ -54,7 +54,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.79,
+    "lifetime_stars_per_day": 2.78,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,7 +152,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:28+00:00",
+  "fetched_at": "2026-11-26T13:56:42+00:00",
   "categories": [
     "desktop-ui",
     "mobile"
@@ -182,14 +182,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 1.379,
-      "momentum_ratio": 13.0,
+      "star_ratio": 1.383,
+      "momentum_ratio": 15.0,
       "setup_delta": 11,
-      "dominance": 0.768,
+      "dominance": 0.769,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "1.38x the stars (681 vs 494)",
-        "13.00x the star velocity (2.6/day vs 0.2/day)",
+        "1.38x the stars (683 vs 494)",
+        "15.00x the star velocity (3.0/day vs 0.2/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],

@@ -5,12 +5,12 @@
   "owner": "erkamyaman",
   "url": "https://github.com/erkamyaman/rust-anything",
   "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-  "homepage": "rust-anything.com",
-  "stars": 9470,
-  "forks": 775,
-  "open_issues": 37,
+  "homepage": "https://rustanything.ai",
+  "stars": 9874,
+  "forks": 805,
+  "open_issues": 11,
   "language": "Rust",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "topics": [
     "agent-skills",
     "claude-code",
@@ -34,16 +34,16 @@
     "typescript"
   ],
   "created_at": "2026-11-16T12:10:36Z",
-  "updated_at": "2026-11-25T14:21:28Z",
-  "pushed_at": "2026-11-25T13:22:27Z",
+  "updated_at": "2026-11-26T13:54:38Z",
+  "pushed_at": "2026-11-26T12:51:35Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 9,
+  "age_days": 10,
   "days_since_push": 0,
   "health_score": 86,
   "health_components": {
-    "popularity": 79.5,
+    "popularity": 79.9,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 65.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 3468,
+    "stars_gained": 2834,
     "days_span": 5,
-    "stars_per_day": 693.6,
-    "lifetime_stars_per_day": 1052.22,
+    "stars_per_day": 566.8,
+    "lifetime_stars_per_day": 987.4,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "erkamyaman/rust-anything",
-    "readme_chars": 27645,
+    "readme_chars": 29597,
     "capabilities": [
       "agent-runtime",
       "mcp-support",
@@ -136,7 +136,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.253
+      "external_link_ratio": 0.237
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -148,7 +148,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:22:24+00:00",
+  "fetched_at": "2026-11-26T13:55:32+00:00",
   "categories": [
     "desktop-ui",
     "mcp"

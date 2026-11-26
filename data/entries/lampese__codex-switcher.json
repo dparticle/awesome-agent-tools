@@ -6,9 +6,9 @@
   "url": "https://github.com/Lampese/codex-switcher",
   "description": "A Desktop Application for Managing Multiple OpenAI Codex CLI Accounts",
   "homepage": "",
-  "stars": 939,
+  "stars": 940,
   "forks": 166,
-  "open_issues": 75,
+  "open_issues": 66,
   "language": "Rust",
   "license": "MIT",
   "topics": [
@@ -21,27 +21,27 @@
     "vibe-coding"
   ],
   "created_at": "2026-01-14T02:44:13Z",
-  "updated_at": "2026-11-25T11:08:58Z",
+  "updated_at": "2026-11-25T23:37:47Z",
   "pushed_at": "2026-11-18T12:05:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 315,
-  "days_since_push": 7,
-  "health_score": 51,
+  "age_days": 316,
+  "days_since_push": 8,
+  "health_score": 49,
   "health_components": {
     "popularity": 59.5,
-    "momentum": 1.3,
-    "maintenance": 100.0,
+    "momentum": 1.2,
+    "maintenance": 92.0,
     "documentation": 34.0,
     "accessibility": 72.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 7,
     "days_span": 5,
-    "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 2.98,
+    "stars_per_day": 1.4,
+    "lifetime_stars_per_day": 2.97,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -133,7 +133,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:23:14+00:00",
+  "fetched_at": "2026-11-26T13:56:26+00:00",
   "categories": [
     "billing"
   ],
@@ -159,14 +159,14 @@
         "multi-agent-orchestration",
         "quota-management"
       ],
-      "star_ratio": 44.064,
-      "momentum_ratio": 244.0,
+      "star_ratio": 44.58,
+      "momentum_ratio": 317.857,
       "setup_delta": -25,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "44.06x the stars (41,376 vs 939)",
-        "244.00x the star velocity (390.4/day vs 1.6/day)",
+        "44.58x the stars (41,905 vs 940)",
+        "317.86x the star velocity (445.0/day vs 1.4/day)",
         "no harder to set up (11 vs 36 friction)"
       ],
       "reasons_zh": [],
@@ -187,7 +187,7 @@
           "multi-agent-orchestration",
           "quota-management"
         ],
-        "incumbent_health": 51,
+        "incumbent_health": 49,
         "challenger_health": 92,
         "incumbent_setup_score": 36,
         "challenger_setup_score": 11

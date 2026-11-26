@@ -6,8 +6,8 @@
   "url": "https://github.com/nateherkai/scroll-craft",
   "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
   "homepage": "https://github.com/nateherkai/scroll-craft",
-  "stars": 5453,
-  "forks": 769,
+  "stars": 5494,
+  "forks": 772,
   "open_issues": 33,
   "language": "JavaScript",
   "license": "MIT",
@@ -29,27 +29,27 @@
     "web-design"
   ],
   "created_at": "2026-08-22T15:25:08Z",
-  "updated_at": "2026-11-25T14:16:37Z",
+  "updated_at": "2026-11-26T11:40:08Z",
   "pushed_at": "2026-09-30T13:31:42Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 94,
-  "days_since_push": 56,
-  "health_score": 59,
+  "age_days": 95,
+  "days_since_push": 57,
+  "health_score": 60,
   "health_components": {
-    "popularity": 74.7,
-    "momentum": 29.0,
+    "popularity": 74.8,
+    "momentum": 30.8,
     "maintenance": 78.0,
     "documentation": 47.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 174,
+    "stars_gained": 185,
     "days_span": 5,
-    "stars_per_day": 34.8,
-    "lifetime_stars_per_day": 58.01,
+    "stars_per_day": 37.0,
+    "lifetime_stars_per_day": 57.83,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -116,8 +116,8 @@
     "highlights": [
       "A typography floor. Two families maximum, tracking that tightens as size grows, 45 to 75ch measure, line height inverse to measure, and light-on-dark compensated on three axes.",
       "A fingerprint gate. A new build must differ from every page you have already made on at least 4 of 6 dimensions: grammar, nav, hero, act shape, close, signature move. Fail it and you change…",
-      "Honor explicit creative delegation without forcing a redundant interview.",
-      "Choose photographic compositing or real 3D rendering to suit the subject."
+      "Choose photographic compositing or real 3D rendering to suit the subject.",
+      "Honor explicit creative delegation without forcing a redundant interview."
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -128,7 +128,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-25T14:22:30+00:00",
+  "fetched_at": "2026-11-26T13:55:39+00:00",
   "categories": [
     "model-routing"
   ],
