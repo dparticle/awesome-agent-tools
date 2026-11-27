@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 764 |
-| Star velocity | 1.2/day (history basis, 5d span) |
-| Health score | 52/100 |
+| Stars | 765 |
+| Star velocity | 1.4/day (history basis, 5d span) |
+| Health score | 53/100 |
 | Documentation | 69/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-13 |
-| Last push | 2026-11-26 (0 days ago) |
+| Last push | 2026-11-27 (0 days ago) |
 | Analyzed README | 34,096 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (6/6).
 
 ## What it solves
 
@@ -87,7 +89,7 @@ Score **69/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 57.7 |
-| momentum | 1.0 |
+| momentum | 1.2 |
 | maintenance | 100.0 |
 | documentation | 69.0 |
 | accessibility | 42.0 |

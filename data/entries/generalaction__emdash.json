@@ -6,9 +6,9 @@
   "url": "https://github.com/generalaction/emdash",
   "description": "Emdash Classic is the open-source desktop app for running coding agents in parallel. Use your favorite agents in isolated Git worktrees, locally or over SSH.",
   "homepage": "https://emdash.com/classic",
-  "stars": 6310,
-  "forks": 679,
-  "open_issues": 94,
+  "stars": 6314,
+  "forks": 680,
+  "open_issues": 93,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -33,29 +33,29 @@
     "terminal"
   ],
   "created_at": "2025-08-28T07:19:57Z",
-  "updated_at": "2026-11-26T01:05:55Z",
+  "updated_at": "2026-11-27T11:35:56Z",
   "pushed_at": "2026-11-23T23:30:26Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 455,
-  "days_since_push": 2,
+  "age_days": 456,
+  "days_since_push": 3,
   "health_score": 61,
   "health_components": {
     "popularity": 76.0,
-    "momentum": 3.5,
+    "momentum": 4.0,
     "maintenance": 100.0,
     "documentation": 43.0,
     "accessibility": 100.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 21,
+    "stars_gained": 24,
     "days_span": 5,
-    "stars_per_day": 4.2,
-    "lifetime_stars_per_day": 13.87,
+    "stars_per_day": 4.8,
+    "lifetime_stars_per_day": 13.85,
     "basis": "history",
-    "is_fast_riser": false
+    "is_fast_riser": true
   },
   "analysis": {
     "full_name": "generalaction/emdash",
@@ -152,7 +152,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:02+00:00",
+  "fetched_at": "2026-11-27T13:53:34+00:00",
   "categories": [
     "desktop-ui",
     "parallelism"

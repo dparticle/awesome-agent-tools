@@ -12,17 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 6,625 |
-| Star velocity | 92.4/day (history basis, 5d span) |
-| Health score | 79/100 |
+| Stars | 6,697 |
+| Star velocity | 89.2/day (history basis, 5d span) |
+| Health score | 77/100 |
 | Documentation | 59/100 |
-| Tier | 🏆 Flagship |
+| Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-11-03 |
-| Last push | 2026-11-26 (0 days ago) |
-| Analyzed README | 11,802 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-27 (0 days ago) |
+| Analyzed README | 11,828 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -54,16 +54,16 @@
 
 ## Setup reality check
 
-- **Difficulty:** 🟢 Easy (friction score 19/100)
+- **Difficulty:** 🟢 Easy (friction score 28/100)
 - **Out of the box:** no
 - **Non-programmer friendly:** no
 - **Quickest install:** `curl -fsSL https://raw.githubusercontent.com/KKKKhazix/agent-autoloop/main/install.sh | sh`
 
-**Signals that make it easy:** curl | sh installer, PowerShell irm | iex installer
+**Signals that make it easy:** curl | sh installer
 
 **Configuration required:** API key configuration, database dependency
 
-*Easy. install via curl | sh installer, PowerShell irm | iex installer; configure API key configuration, database dependency*
+*Easy. install via curl | sh installer; configure API key configuration, database dependency*
 
 ## Documentation quality
 
@@ -85,11 +85,11 @@ Score **59/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 76.4 |
-| momentum | 77.0 |
+| popularity | 76.5 |
+| momentum | 74.3 |
 | maintenance | 100.0 |
 | documentation | 59.0 |
-| accessibility | 81.0 |
+| accessibility | 72.0 |
 
 ---
 

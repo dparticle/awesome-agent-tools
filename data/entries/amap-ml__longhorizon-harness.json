@@ -6,8 +6,8 @@
   "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
   "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
   "homepage": "https://lh-harness.pages.dev",
-  "stars": 1894,
-  "forks": 197,
+  "stars": 1895,
+  "forks": 198,
   "open_issues": 23,
   "language": "Python",
   "license": "MIT",
@@ -31,27 +31,27 @@
     "loop-engineering"
   ],
   "created_at": "2026-08-04T04:30:58Z",
-  "updated_at": "2026-11-26T07:34:54Z",
+  "updated_at": "2026-11-27T10:34:33Z",
   "pushed_at": "2026-11-11T09:40:18Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 114,
-  "days_since_push": 15,
-  "health_score": 58,
+  "age_days": 115,
+  "days_since_push": 16,
+  "health_score": 57,
   "health_components": {
-    "popularity": 65.5,
-    "momentum": 1.5,
+    "popularity": 65.6,
+    "momentum": 1.3,
     "maintenance": 92.0,
     "documentation": 75.0,
     "accessibility": 70.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 9,
+    "stars_gained": 8,
     "days_span": 5,
-    "stars_per_day": 1.8,
-    "lifetime_stars_per_day": 16.61,
+    "stars_per_day": 1.6,
+    "lifetime_stars_per_day": 16.48,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -161,10 +161,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:12+00:00",
+  "fetched_at": "2026-11-27T13:53:47+00:00",
   "categories": [
     "desktop-ui",
-    "mcp",
+    "model-routing-2",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",
@@ -193,14 +193,14 @@
         "security-isolation",
         "self-hosted"
       ],
-      "star_ratio": 16.157,
-      "momentum_ratio": 10.0,
+      "star_ratio": 16.159,
+      "momentum_ratio": 11.375,
       "setup_delta": 2,
       "dominance": 0.99,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "16.16x the stars (30,601 vs 1,894)",
-        "10.00x the star velocity (18.0/day vs 1.8/day)",
+        "16.16x the stars (30,621 vs 1,895)",
+        "11.37x the star velocity (18.2/day vs 1.6/day)",
         "slightly heavier setup (+2 friction, within tolerance)"
       ],
       "reasons_zh": [],
@@ -234,7 +234,7 @@
           "skills-plugins",
           "team-collaboration"
         ],
-        "incumbent_health": 58,
+        "incumbent_health": 57,
         "challenger_health": 69,
         "incumbent_setup_score": 30,
         "challenger_setup_score": 32

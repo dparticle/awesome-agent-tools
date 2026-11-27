@@ -6,9 +6,9 @@
   "url": "https://github.com/aoci-spec/aoci-code",
   "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
   "homepage": "www.aoci.ai",
-  "stars": 3061,
-  "forks": 278,
-  "open_issues": 18,
+  "stars": 3082,
+  "forks": 279,
+  "open_issues": 24,
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [
@@ -34,27 +34,27 @@
     "repo-map"
   ],
   "created_at": "2026-08-08T11:33:08Z",
-  "updated_at": "2026-11-26T13:41:36Z",
-  "pushed_at": "2026-11-26T13:11:05Z",
+  "updated_at": "2026-11-27T10:31:00Z",
+  "pushed_at": "2026-11-27T01:14:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 110,
+  "age_days": 111,
   "days_since_push": 0,
-  "health_score": 64,
+  "health_score": 62,
   "health_components": {
-    "popularity": 69.7,
-    "momentum": 37.5,
+    "popularity": 69.8,
+    "momentum": 32.0,
     "maintenance": 100.0,
     "documentation": 74.0,
     "accessibility": 27.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 225,
+    "stars_gained": 192,
     "days_span": 5,
-    "stars_per_day": 45.0,
-    "lifetime_stars_per_day": 27.83,
+    "stars_per_day": 38.4,
+    "lifetime_stars_per_day": 27.77,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -172,7 +172,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:08+00:00",
+  "fetched_at": "2026-11-27T13:53:42+00:00",
   "categories": [
     "desktop-ui",
     "model-routing-2",

@@ -12,27 +12,27 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 12,522 |
-| Star velocity | 40.6/day (history basis, 5d span) |
-| Health score | 72/100 |
+| Stars | 12,580 |
+| Star velocity | 49.2/day (history basis, 5d span) |
+| Health score | 74/100 |
 | Documentation | 79/100 |
 | Tier | ✅ Recommended |
 | Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Python |
 | Created | 2026-07-08 |
-| Last push | 2026-11-26 (0 days ago) |
-| Analyzed README | 31,193 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-27 (0 days ago) |
+| Analyzed README | 31,792 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
 ### Mobile access
 
-> Linux alongside the web dashboard and IM channels.
+> , and update third-party plugins from within Octop.
 
 ### Multi-agent orchestration
 
-> A smarter, self-hosted AI assistant — multi-user, multi-agent.
+> [x] Plugin marketplace — live on octop.cloud; discover, install, and update third-party plugins from within Octop.
 
 ### Parallel execution
 
@@ -57,6 +57,8 @@
 > e notes, and manage your schedule; memory persists with the workspace.
 
 ### Skills & plugins
+
+> rs in the same deployment, so good configurations are reused instead of recreated.
 
 ### Agent runtime
 
@@ -119,7 +121,7 @@ Score **79/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 82.0 |
-| momentum | 33.8 |
+| momentum | 41.0 |
 | maintenance | 100.0 |
 | documentation | 79.0 |
 | accessibility | 68.0 |

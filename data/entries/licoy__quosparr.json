@@ -6,8 +6,8 @@
   "url": "https://github.com/Licoy/Quosparr",
   "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude, Gemini (Antigravity) and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude、Gemini（Antigravity）、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
   "homepage": "https://quosparr.com",
-  "stars": 336,
-  "forks": 26,
+  "stars": 340,
+  "forks": 27,
   "open_issues": 0,
   "language": "Go",
   "license": "AGPL-3.0",
@@ -34,16 +34,16 @@
     "windows"
   ],
   "created_at": "2026-06-29T00:39:56Z",
-  "updated_at": "2026-11-26T11:08:55Z",
-  "pushed_at": "2026-11-26T13:36:52Z",
+  "updated_at": "2026-11-27T08:38:20Z",
+  "pushed_at": "2026-11-27T11:51:14Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 150,
+  "age_days": 151,
   "days_since_push": 0,
   "health_score": 52,
   "health_components": {
-    "popularity": 50.5,
+    "popularity": 50.6,
     "momentum": 1.0,
     "maintenance": 100.0,
     "documentation": 57.0,
@@ -54,13 +54,13 @@
     "stars_gained": 6,
     "days_span": 5,
     "stars_per_day": 1.2,
-    "lifetime_stars_per_day": 2.24,
+    "lifetime_stars_per_day": 2.25,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "Licoy/Quosparr",
-    "readme_chars": 28934,
+    "readme_chars": 29463,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -156,13 +156,13 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.207
+      "external_link_ratio": 0.204
     },
     "highlights": [
-      "Quota of the Google Antigravity clients (the new desktop App and the agy CLI): remaining share and reset time of the 5-hour and weekly windows for Gemini models and for Claude models, and o…",
       "Local token usage, API-equivalent cost (anthropic-builtin-2026-10-14), recent sessions, and output speed from Claude Code session logs.",
       "Claude API-equivalent cost: local Claude Code session logs priced with anthropic-builtin-2026-10-14.",
-      "Claude subscription usage for the 5-hour window, the 7-day window, per-model weekly windows, and extra usage."
+      "Claude subscription usage for the 5-hour window, the 7-day window, per-model weekly windows, and extra usage.",
+      "API-equivalent costs re-estimate historical local usage at current prices; partially priced totals, days, projects, models and sessions are marked, with a complete list of missing prices or…"
     ],
     "summary_zh_native": "",
     "highlights_zh": [],
@@ -173,7 +173,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:54+00:00",
+  "fetched_at": "2026-11-27T13:54:42+00:00",
   "categories": [
     "analytics",
     "billing",

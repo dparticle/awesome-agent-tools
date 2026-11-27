@@ -21,7 +21,7 @@
 | License | Apache-2.0 |
 | Language | Java |
 | Created | 2016-10-13 |
-| Last push | 2026-11-26 (0 days ago) |
+| Last push | 2026-11-27 (0 days ago) |
 | Analyzed README | 31,497 chars from `raw:HEAD/README.md` |
 
 ## What it solves

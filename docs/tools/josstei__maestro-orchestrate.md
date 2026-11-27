@@ -21,10 +21,10 @@
 | License | Apache-2.0 |
 | Language | JavaScript |
 | Created | 2026-02-09 |
-| Last push | 2026-11-02 (24 days ago) |
+| Last push | 2026-11-02 (25 days ago) |
 | Analyzed README | 12,297 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer)** — Superseded by microsoft/TokenEconomizer: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [hoangsonww/Claude-Code-Agent-Monitor](https://github.com/hoangsonww/Claude-Code-Agent-Monitor)** — Superseded by hoangsonww/Claude-Code-Agent-Monitor: covers 100% of capabilities (4/4).
 
 ## What it solves
 

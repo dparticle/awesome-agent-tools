@@ -6,7 +6,7 @@
   "url": "https://github.com/devaccuracy/ledgerforge",
   "description": "The ledger for AI-native money movement. An open-source double-entry ledger for wallets, payouts, marketplaces and billing, with exact integer money, a verifiable audit chain, server-enforced spending limits and approvals for AI agents, and an MCP server. Apache 2.0.",
   "homepage": "https://ledgerforge.io",
-  "stars": 323,
+  "stars": 320,
   "forks": 30,
   "open_issues": 11,
   "language": "Go",
@@ -21,27 +21,27 @@
     "wallet"
   ],
   "created_at": "2026-05-10T09:41:41Z",
-  "updated_at": "2026-11-26T03:36:56Z",
+  "updated_at": "2026-11-26T18:48:37Z",
   "pushed_at": "2026-10-16T14:24:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 200,
-  "days_since_push": 40,
+  "age_days": 201,
+  "days_since_push": 41,
   "health_score": 44,
   "health_components": {
-    "popularity": 50.2,
-    "momentum": 1.1,
+    "popularity": 50.1,
+    "momentum": 0.8,
     "maintenance": 78.0,
     "documentation": 55.0,
     "accessibility": 48.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 12,
-    "days_span": 9,
-    "stars_per_day": 1.33,
-    "lifetime_stars_per_day": 1.61,
+    "stars_gained": 9,
+    "days_span": 10,
+    "stars_per_day": 0.9,
+    "lifetime_stars_per_day": 1.59,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -131,17 +131,65 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:56+00:00",
+  "fetched_at": "2026-11-27T13:54:46+00:00",
   "categories": [
-    "billing-2",
-    "mcp"
+    "billing-2"
   ],
   "primary_category": "billing-2",
   "lifecycle": {
-    "state": "active",
-    "note_en": "",
-    "note_zh": "",
-    "superseded_by": "",
-    "challenger": ""
+    "state": "superseded",
+    "note_en": "Superseded by aipoch/open-science: covers 100% of capabilities (4/4).",
+    "note_zh": "已被 aipoch/open-science 取代：covers 100% of capabilities (4/4)。",
+    "superseded_by": "aipoch/open-science",
+    "challenger": "",
+    "supersede": {
+      "incumbent": "devaccuracy/ledgerforge",
+      "challenger": "aipoch/open-science",
+      "incumbent_name": "devaccuracy/ledgerforge",
+      "challenger_name": "aipoch/open-science",
+      "kind": "supersede",
+      "source": "auto",
+      "confidence": "high",
+      "coverage": 1.0,
+      "covered": [
+        "billing-metering",
+        "mcp-support",
+        "notifications",
+        "security-isolation"
+      ],
+      "star_ratio": 17.447,
+      "momentum_ratio": 5.333,
+      "setup_delta": -40,
+      "dominance": 1.0,
+      "reasons": [
+        "covers 100% of capabilities (4/4)",
+        "17.45x the stars (5,583 vs 320)",
+        "5.33x the star velocity (4.8/day vs 0.9/day)",
+        "no harder to set up (12 vs 52 friction)"
+      ],
+      "reasons_zh": [],
+      "evidence": {
+        "incumbent_capabilities": [
+          "billing-metering",
+          "mcp-support",
+          "notifications",
+          "security-isolation"
+        ],
+        "challenger_capabilities": [
+          "billing-metering",
+          "cross-agent-support",
+          "gui-desktop",
+          "mcp-support",
+          "notifications",
+          "security-isolation",
+          "session-persistence",
+          "skills-plugins"
+        ],
+        "incumbent_health": 44,
+        "challenger_health": 66,
+        "incumbent_setup_score": 52,
+        "challenger_setup_score": 12
+      }
+    }
   }
 }

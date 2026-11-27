@@ -6,7 +6,7 @@
   "url": "https://github.com/golutra/golutra",
   "description": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
   "homepage": "https://www.golutra.com",
-  "stars": 3887,
+  "stars": 3889,
   "forks": 444,
   "open_issues": 46,
   "language": "Rust",
@@ -34,27 +34,27 @@
     "workflows"
   ],
   "created_at": "2026-02-15T11:49:39Z",
-  "updated_at": "2026-11-26T10:38:30Z",
+  "updated_at": "2026-11-27T13:25:25Z",
   "pushed_at": "2026-11-19T11:42:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 284,
-  "days_since_push": 7,
-  "health_score": 55,
+  "age_days": 285,
+  "days_since_push": 8,
+  "health_score": 54,
   "health_components": {
     "popularity": 71.8,
-    "momentum": 1.7,
-    "maintenance": 100.0,
+    "momentum": 2.0,
+    "maintenance": 92.0,
     "documentation": 29.0,
     "accessibility": 86.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 10,
+    "stars_gained": 12,
     "days_span": 5,
-    "stars_per_day": 2.0,
-    "lifetime_stars_per_day": 13.69,
+    "stars_per_day": 2.4,
+    "lifetime_stars_per_day": 13.65,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -160,13 +160,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:06+00:00",
+  "fetched_at": "2026-11-27T13:53:40+00:00",
   "categories": [
-    "desktop-ui",
     "mobile",
+    "parallelism",
     "sessions-memory"
   ],
-  "primary_category": "sessions-memory",
+  "primary_category": "parallelism",
   "lifecycle": {
     "state": "active",
     "note_en": "",

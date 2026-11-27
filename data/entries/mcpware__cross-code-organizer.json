@@ -39,8 +39,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 252,
-  "days_since_push": 5,
+  "age_days": 253,
+  "days_since_push": 6,
   "health_score": 54,
   "health_components": {
     "popularity": 51.9,
@@ -52,9 +52,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 0,
-    "days_span": 5,
+    "days_span": 6,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.57,
+    "lifetime_stars_per_day": 1.56,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -163,13 +163,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:50+00:00",
+  "fetched_at": "2026-11-27T13:54:37+00:00",
   "categories": [
     "desktop-ui",
     "failover",
-    "mcp"
+    "sessions-memory"
   ],
-  "primary_category": "mcp",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

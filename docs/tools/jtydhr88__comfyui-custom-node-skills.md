@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | Python |
 | Created | 2026-03-05 |
-| Last push | 2026-10-17 (40 days ago) |
+| Last push | 2026-10-17 (41 days ago) |
 | Analyzed README | 6,433 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** — Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills)** — Superseded by WenyuChiou/ai-research-skills: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 10,683 |
-| Star velocity | 66.8/day (history basis, 5d span) |
+| Stars | 10,727 |
+| Star velocity | 68.6/day (history basis, 5d span) |
 | Health score | 69/100 |
 | Documentation | 55/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Created | 2026-07-22 |
-| Last push | 2026-11-26 (0 days ago) |
-| Analyzed README | 15,495 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-27 (0 days ago) |
+| Analyzed README | 16,932 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -32,7 +32,7 @@
 
 ### Mobile access
 
-> up and migration from a manual install.
+> offline is not zero-inference setup.
 
 ### Multi-agent orchestration
 
@@ -95,7 +95,7 @@ Score **55/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 80.6 |
-| momentum | 55.7 |
+| momentum | 57.2 |
 | maintenance | 100.0 |
 | documentation | 55.0 |
 | accessibility | 35.0 |

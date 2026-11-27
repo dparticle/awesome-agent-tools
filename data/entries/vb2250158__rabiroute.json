@@ -35,11 +35,11 @@
   ],
   "created_at": "2026-06-01T09:40:16Z",
   "updated_at": "2026-11-25T12:08:17Z",
-  "pushed_at": "2026-11-26T13:47:41Z",
+  "pushed_at": "2026-11-27T05:57:51Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 178,
+  "age_days": 179,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
@@ -54,13 +54,13 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 2.78,
+    "lifetime_stars_per_day": 2.76,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "vb2250158/RabiRoute",
-    "readme_chars": 13477,
+    "readme_chars": 13480,
     "capabilities": [
       "remote-control",
       "mobile-access",
@@ -152,7 +152,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:42+00:00",
+  "fetched_at": "2026-11-27T13:54:25+00:00",
   "categories": [
     "desktop-ui",
     "mobile"
@@ -182,14 +182,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 1.383,
-      "momentum_ratio": 15.0,
+      "star_ratio": 1.387,
+      "momentum_ratio": 14.0,
       "setup_delta": 11,
       "dominance": 0.769,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "1.38x the stars (683 vs 494)",
-        "15.00x the star velocity (3.0/day vs 0.2/day)",
+        "1.39x the stars (685 vs 494)",
+        "14.00x the star velocity (2.8/day vs 0.2/day)",
         "slightly heavier setup (+11 friction, within tolerance)"
       ],
       "reasons_zh": [],

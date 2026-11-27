@@ -21,10 +21,10 @@
 | License | MIT |
 | Language | JavaScript |
 | Created | 2022-03-18 |
-| Last push | 2026-11-21 (5 days ago) |
+| Last push | 2026-11-21 (6 days ago) |
 | Analyzed README | 22,059 chars from `raw:HEAD/README.md` |
 
-> ⚠️ **Superseded by [xerj-org/xerj](https://github.com/xerj-org/xerj)** — Superseded by xerj-org/xerj: covers 100% of capabilities (4/4).
+> ⚠️ **Superseded by [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain)** — Superseded by huytieu/COG-second-brain: covers 100% of capabilities (4/4).
 
 ## What it solves
 

@@ -17,26 +17,26 @@ Capabilities claimed by more than 60% of tools are excluded from clustering: the
 
 | Category | Tools | Also in | Cohesion | Defining capabilities |
 | --- | ---: | ---: | ---: | --- |
-| **Teams & Self-hosting** | 44 | 4 | 0.69 | Team collaboration, Self-hostable, API gateway / proxy, Security & isolation |
-| **Failover** | 33 | 65 | 0.83 | Skills & plugins, Multi-agent orchestration, MCP support, GUI / desktop app |
-| **Parallelism** | 32 | 24 | 0.67 | Parallel execution, Workspace isolation, Notifications, Multi-agent orchestration |
-| **Sessions & Memory** | 32 | 33 | 0.71 | Session persistence, Memory & context, MCP support, Multi-agent orchestration |
-| **Mobile** | 30 | 6 | 0.71 | Voice input, Mobile access, Remote control, Workspace isolation |
-| **MCP** | 25 | 29 | 0.74 | MCP support, Security & isolation, API gateway / proxy, Automatic failover |
-| **Billing** | 19 | 6 | 0.74 | Quota & usage management, Multi-account switching, Billing & metering, Multi-provider aggregation |
-| **Model Routing** | 15 | 44 | 0.76 | Agent runtime, Model / provider routing, Skills & plugins, Multi-agent orchestration |
-| **Billing** | 11 | 7 | 0.81 | Billing & metering, Team collaboration, Parallel execution, Notifications |
-| **Analytics** | 8 | 13 | 0.79 | Usage analytics, Multi-account switching, Self-hostable, Remote control |
-| **Desktop UI** | 8 | 80 | 0.89 | GUI / desktop app, Agent runtime, MCP support, Multi-agent orchestration |
-| **Model Routing** | 8 | 24 | 0.88 | Automatic failover, Agent runtime, Model / provider routing, Skills & plugins |
-| **Providers** | 8 | 1 | 0.79 | Multi-provider aggregation, Session persistence, Team collaboration, Security & isolation |
-| **Failover** | 4 | 8 | 0.87 | Multi-account switching, Voice input, Automatic failover, GUI / desktop app |
+| **Sessions & Memory** | 50 | 31 | 0.67 | Memory & context, Session persistence, MCP support, Multi-agent orchestration |
+| **Teams & Self-hosting** | 36 | 7 | 0.69 | Team collaboration, Self-hostable, API gateway / proxy, Security & isolation |
+| **Failover** | 32 | 69 | 0.83 | Skills & plugins, Multi-agent orchestration, MCP support, GUI / desktop app |
+| **Mobile** | 31 | 6 | 0.71 | Voice input, Mobile access, Remote control, Workspace isolation |
+| **Parallelism** | 31 | 25 | 0.67 | Parallel execution, Workspace isolation, Notifications, Multi-agent orchestration |
+| **Billing** | 20 | 5 | 0.74 | Quota & usage management, Multi-account switching, Billing & metering, Multi-provider aggregation |
+| **Model Routing** | 15 | 46 | 0.76 | Agent runtime, Model / provider routing, Skills & plugins, Multi-agent orchestration |
+| **Billing** | 13 | 5 | 0.81 | Billing & metering, Team collaboration, Parallel execution, Notifications |
+| **Model Routing** | 10 | 28 | 0.88 | Automatic failover, Agent runtime, Model / provider routing, Skills & plugins |
+| **Analytics** | 8 | 14 | 0.76 | Usage analytics, Self-hostable, Multi-account switching, Remote control |
+| **Desktop UI** | 8 | 81 | 0.89 | GUI / desktop app, Agent runtime, MCP support, Multi-agent orchestration |
+| **Providers** | 8 | 1 | 0.78 | Multi-provider aggregation, Session persistence, Team collaboration, Security & isolation |
+| **Security** | 7 | 11 | 0.80 | Security & isolation, Remote control, Team collaboration, Session persistence |
+| **Failover** | 4 | 7 | 0.87 | Multi-account switching, Voice input, Automatic failover, GUI / desktop app |
 
 *Cohesion* is the mean cosine similarity of a category's members to its centroid: higher means a tighter, more coherent group.
 
 ## Multi-category membership
 
-202 of 277 tools belong to more than one category. A tool is cross-listed when it shares at least two of another category's defining capabilities, capped at three categories so the signal stays meaningful. It is described in full only under its primary category — the one whose centroid it is closest to.
+199 of 273 tools belong to more than one category. A tool is cross-listed when it shares at least two of another category's defining capabilities, capped at three categories so the signal stays meaningful. It is described in full only under its primary category — the one whose centroid it is closest to.
 
 ## Capabilities
 
@@ -46,25 +46,25 @@ Capabilities claimed by more than 60% of tools are excluded from clustering: the
 | **Quota & usage management** / 额度与用量管理 | You cannot see how much quota is left, so you get blocked mid-task. | 16 | 26 |
 | **Automatic failover** / 自动故障转移 | When one account or provider dies, work should continue on the next one instead of stopping. | 13 | 58 |
 | **Remote control** / 远程控制 | Your agent runs on a desktop, but you want to drive it from somewhere else. | 11 | 37 |
-| **Mobile access** / 手机端访问 | You are away from the desk and want to keep the agent working from a phone. | 14 | 46 |
-| **Multi-agent orchestration** / 多智能体编排 | One agent is not enough; several must be planned, dispatched and supervised together. | 16 | 128 |
+| **Mobile access** / 手机端访问 | You are away from the desk and want to keep the agent working from a phone. | 14 | 45 |
+| **Multi-agent orchestration** / 多智能体编排 | One agent is not enough; several must be planned, dispatched and supervised together. | 16 | 127 |
 | **Parallel execution** / 并行执行 | Tasks run one at a time and you wait; parallelism cuts wall-clock time. | 10 | 42 |
 | **Workspace isolation** / 工作区隔离 | Parallel agents overwrite each other's files unless each gets its own checkout. | 12 | 70 |
-| **Model / provider routing** / 模型与供应商路由 | You want one agent to run on a different model or provider than its default. | 13 | 103 |
+| **Model / provider routing** / 模型与供应商路由 | You want one agent to run on a different model or provider than its default. | 13 | 102 |
 | **Multi-provider aggregation** / 多供应商聚合 | Many subscriptions and API keys are scattered; you want one endpoint for all of them. | 11 | 13 |
 | **API gateway / proxy** / API 网关与中转 | Client tools speak one protocol but the upstream speaks another, or you must hide keys. | 14 | 54 |
 | **Quota sharing / splitting** / 配额共享与分发 | A subscription's capacity is larger than one person needs; share it safely with others. | 14 | 3 |
-| **Billing & metering** / 计费与计量 | When several people share capacity, usage must be measured and charged accurately. | 17 | 48 |
-| **Usage analytics** / 用量分析 | You want to know where tokens and money actually went. | 11 | 41 |
-| **Session persistence** / 会话持久化 | Closing the laptop or losing connection kills a long-running agent session. | 12 | 45 |
-| **Memory & context** / 记忆与上下文 | Every new session starts from zero and forgets your project's conventions. | 12 | 87 |
+| **Billing & metering** / 计费与计量 | When several people share capacity, usage must be measured and charged accurately. | 17 | 49 |
+| **Usage analytics** / 用量分析 | You want to know where tokens and money actually went. | 11 | 40 |
+| **Session persistence** / 会话持久化 | Closing the laptop or losing connection kills a long-running agent session. | 12 | 44 |
+| **Memory & context** / 记忆与上下文 | Every new session starts from zero and forgets your project's conventions. | 12 | 85 |
 | **Skills & plugins** / 技能与插件 | The base agent lacks your workflows; you need to extend it. | 11 | 130 |
-| **Agent runtime** / Agent 运行时 | This IS the agent — the thing you run and talk to — rather than an add-on bolted onto somebody else's agent. | 12 | 130 |
-| **MCP support** / MCP 支持 | The agent needs access to external tools and data through a standard protocol. | 3 | 166 |
-| **Security & isolation** / 安全与隔离 | Agents run arbitrary code and hold credentials; blast radius must be contained. | 16 | 64 |
-| **Self-hostable** / 可自托管 | You do not want your code or keys flowing through someone else's server. | 14 | 71 |
-| **Team collaboration** / 团队协作 | Several people must share one agent setup, with roles and boundaries. | 13 | 37 |
-| **GUI / desktop app** / 图形界面与桌面端 | Terminal-only tools shut out people who do not live in a shell. | 12 | 129 |
-| **Notifications** / 通知提醒 | A long task finishes or blocks, and nobody notices. | 13 | 76 |
+| **Agent runtime** / Agent 运行时 | This IS the agent — the thing you run and talk to — rather than an add-on bolted onto somebody else's agent. | 12 | 127 |
+| **MCP support** / MCP 支持 | The agent needs access to external tools and data through a standard protocol. | 3 | 163 |
+| **Security & isolation** / 安全与隔离 | Agents run arbitrary code and hold credentials; blast radius must be contained. | 16 | 63 |
+| **Self-hostable** / 可自托管 | You do not want your code or keys flowing through someone else's server. | 14 | 69 |
+| **Team collaboration** / 团队协作 | Several people must share one agent setup, with roles and boundaries. | 13 | 36 |
+| **GUI / desktop app** / 图形界面与桌面端 | Terminal-only tools shut out people who do not live in a shell. | 12 | 127 |
+| **Notifications** / 通知提醒 | A long task finishes or blocks, and nobody notices. | 13 | 75 |
 | **Voice input** / 语音输入 | Typing long prompts on a phone is painful. | 6 | 16 |
-| **Cross-agent support** / 跨 Agent 支持 | You use more than one agent and refuse to keep separate setups for each. | 22 | 204 |
+| **Cross-agent support** / 跨 Agent 支持 | You use more than one agent and refuse to keep separate setups for each. | 22 | 200 |

@@ -6,8 +6,8 @@
   "url": "https://github.com/patch-gg/pixelfx",
   "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
   "homepage": "https://patch-gg.github.io/pixelfx/",
-  "stars": 9369,
-  "forks": 1225,
+  "stars": 9604,
+  "forks": 1238,
   "open_issues": 19,
   "language": "JavaScript",
   "license": "MIT",
@@ -22,16 +22,16 @@
     "vfx"
   ],
   "created_at": "2026-10-30T06:43:25Z",
-  "updated_at": "2026-11-26T13:50:42Z",
+  "updated_at": "2026-11-27T13:47:07Z",
   "pushed_at": "2026-11-13T08:43:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 27,
-  "days_since_push": 13,
+  "age_days": 28,
+  "days_since_push": 14,
   "health_score": 83,
   "health_components": {
-    "popularity": 79.4,
+    "popularity": 79.6,
     "momentum": 100.0,
     "maintenance": 92.0,
     "documentation": 42.0,
@@ -39,10 +39,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 795,
+    "stars_gained": 898,
     "days_span": 5,
-    "stars_per_day": 159.0,
-    "lifetime_stars_per_day": 347.0,
+    "stars_per_day": 179.6,
+    "lifetime_stars_per_day": 343.0,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -116,7 +116,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:33+00:00",
+  "fetched_at": "2026-11-27T13:52:57+00:00",
   "categories": [
     "billing-2",
     "model-routing"

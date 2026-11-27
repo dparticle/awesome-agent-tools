@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 462 |
-| Star velocity | 2.4/day (history basis, 5d span) |
+| Stars | 463 |
+| Star velocity | 1.8/day (history basis, 5d span) |
 | Health score | 50/100 |
 | Documentation | 38/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | GPL-3.0 |
 | Language | TypeScript |
 | Created | 2026-09-28 |
-| Last push | 2026-11-26 (0 days ago) |
+| Last push | 2026-11-27 (0 days ago) |
 | Analyzed README | 20,390 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [getpaseo/paseo](https://github.com/getpaseo/paseo)** — Superseded by getpaseo/paseo: covers 100% of capabilities (8/8).
@@ -81,7 +81,7 @@ Score **38/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 53.3 |
-| momentum | 2.0 |
+| momentum | 1.5 |
 | maintenance | 100.0 |
 | documentation | 38.0 |
 | accessibility | 73.0 |

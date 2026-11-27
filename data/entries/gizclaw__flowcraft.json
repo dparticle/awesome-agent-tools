@@ -34,8 +34,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 226,
-  "days_since_push": 0,
+  "age_days": 227,
+  "days_since_push": 1,
   "health_score": 54,
   "health_components": {
     "popularity": 52.3,
@@ -142,71 +142,17 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:50+00:00",
+  "fetched_at": "2026-11-27T13:54:36+00:00",
   "categories": [
     "failover",
-    "parallelism",
     "sessions-memory"
   ],
-  "primary_category": "parallelism",
+  "primary_category": "sessions-memory",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 pedrohcgs/claude-code-my-workflow 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "pedrohcgs/claude-code-my-workflow",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "gizclaw/flowcraft",
-      "challenger": "pedrohcgs/claude-code-my-workflow",
-      "incumbent_name": "GizClaw/flowcraft",
-      "challenger_name": "pedrohcgs/claude-code-my-workflow",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "memory-context",
-        "skills-plugins",
-        "worktree-isolation"
-      ],
-      "star_ratio": 4.239,
-      "momentum_ratio": 36.0,
-      "setup_delta": -20,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "4.24x the stars (1,738 vs 410)",
-        "36.00x the star velocity (1.8/day vs 0.0/day)",
-        "no harder to set up (8 vs 28 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "memory-context",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "challenger_capabilities": [
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "model-routing",
-          "multi-agent-orchestration",
-          "parallel-execution",
-          "security-isolation",
-          "skills-plugins",
-          "worktree-isolation"
-        ],
-        "incumbent_health": 54,
-        "challenger_health": 60,
-        "incumbent_setup_score": 28,
-        "challenger_setup_score": 8
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

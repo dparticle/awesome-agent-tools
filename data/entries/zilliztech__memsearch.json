@@ -6,9 +6,9 @@
   "url": "https://github.com/zilliztech/memsearch",
   "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.",
   "homepage": "https://zilliztech.github.io/memsearch/",
-  "stars": 2945,
-  "forks": 296,
-  "open_issues": 248,
+  "stars": 2950,
+  "forks": 297,
+  "open_issues": 255,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "skills"
   ],
   "created_at": "2026-02-09T02:29:16Z",
-  "updated_at": "2026-11-26T12:45:38Z",
-  "pushed_at": "2026-11-25T09:10:36Z",
+  "updated_at": "2026-11-27T13:19:39Z",
+  "pushed_at": "2026-11-27T03:46:27Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 290,
-  "days_since_push": 1,
+  "age_days": 291,
+  "days_since_push": 0,
   "health_score": 58,
   "health_components": {
     "popularity": 69.4,
-    "momentum": 4.7,
+    "momentum": 5.0,
     "maintenance": 100.0,
     "documentation": 69.0,
     "accessibility": 51.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 28,
+    "stars_gained": 30,
     "days_span": 5,
-    "stars_per_day": 5.6,
-    "lifetime_stars_per_day": 10.16,
+    "stars_per_day": 6.0,
+    "lifetime_stars_per_day": 10.14,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -156,7 +156,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:09+00:00",
+  "fetched_at": "2026-11-27T13:53:44+00:00",
   "categories": [
     "model-routing",
     "model-routing-2",
@@ -187,14 +187,14 @@
         "skills-plugins",
         "team-collaboration"
       ],
-      "star_ratio": 4.252,
-      "momentum_ratio": 7.25,
+      "star_ratio": 4.264,
+      "momentum_ratio": 8.2,
       "setup_delta": -17,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "4.25x the stars (12,522 vs 2,945)",
-        "7.25x the star velocity (40.6/day vs 5.6/day)",
+        "4.26x the stars (12,580 vs 2,950)",
+        "8.20x the star velocity (49.2/day vs 6.0/day)",
         "no harder to set up (32 vs 49 friction)"
       ],
       "reasons_zh": [],
@@ -226,7 +226,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 58,
-        "challenger_health": 72,
+        "challenger_health": 74,
         "incumbent_setup_score": 49,
         "challenger_setup_score": 32
       }

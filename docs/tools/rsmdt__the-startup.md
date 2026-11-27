@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 587 |
-| Star velocity | 0.0/day (history basis, 5d span) |
-| Health score | 51/100 |
+| Stars | 588 |
+| Star velocity | 0.2/day (history basis, 5d span) |
+| Health score | 48/100 |
 | Documentation | 51/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | TypeScript |
 | Created | 2025-08-12 |
-| Last push | 2026-10-26 (30 days ago) |
+| Last push | 2026-10-26 (31 days ago) |
 | Analyzed README | 26,375 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow)** — Superseded by pedrohcgs/claude-code-my-workflow: covers 100% of capabilities (4/4).
@@ -73,8 +73,8 @@ Score **51/100**, based on these detected signals:
 | Component | Score |
 | --- | ---: |
 | popularity | 55.4 |
-| momentum | 0.0 |
-| maintenance | 92.0 |
+| momentum | 0.2 |
+| maintenance | 78.0 |
 | documentation | 51.0 |
 | accessibility | 75.0 |
 

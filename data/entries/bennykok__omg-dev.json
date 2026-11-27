@@ -25,11 +25,11 @@
   ],
   "created_at": "2026-06-17T07:33:04Z",
   "updated_at": "2026-11-25T21:03:36Z",
-  "pushed_at": "2026-11-25T20:03:44Z",
+  "pushed_at": "2026-11-27T10:27:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 162,
+  "age_days": 163,
   "days_since_push": 0,
   "health_score": 50,
   "health_components": {
@@ -44,7 +44,7 @@
     "stars_gained": 0,
     "days_span": 5,
     "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 3.46,
+    "lifetime_stars_per_day": 3.44,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:37+00:00",
+  "fetched_at": "2026-11-27T13:54:16+00:00",
   "categories": [
     "desktop-ui",
     "mobile"
@@ -177,14 +177,14 @@
         "remote-control",
         "self-hosted"
       ],
-      "star_ratio": 1.22,
-      "momentum_ratio": 60.0,
+      "star_ratio": 1.223,
+      "momentum_ratio": 56.0,
       "setup_delta": -2,
-      "dominance": 0.795,
+      "dominance": 0.796,
       "reasons": [
         "covers 100% of capabilities (8/8)",
-        "1.22x the stars (683 vs 560)",
-        "60.00x the star velocity (3.0/day vs 0.0/day)",
+        "1.22x the stars (685 vs 560)",
+        "56.00x the star velocity (2.8/day vs 0.0/day)",
         "no harder to set up (29 vs 31 friction)"
       ],
       "reasons_zh": [],

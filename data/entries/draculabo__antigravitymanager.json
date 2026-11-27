@@ -6,9 +6,9 @@
   "url": "https://github.com/Draculabo/AntigravityManager",
   "description": "Antigravity Manager is a desktop application for managing the Google accounts used by Antigravity clients (including Classic, Antigravity IDE and agy CLI). View model quota in real time, switch client accounts seamlessly, and connect AI coding tools like Claude Code, Codex and OpenCode through a high-performance local API gateway.",
   "homepage": "",
-  "stars": 2598,
+  "stars": 2609,
   "forks": 307,
-  "open_issues": 21,
+  "open_issues": 20,
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [
@@ -24,19 +24,19 @@
     "gemini-pro"
   ],
   "created_at": "2025-11-29T15:50:32Z",
-  "updated_at": "2026-11-26T13:31:55Z",
-  "pushed_at": "2026-11-26T09:47:37Z",
+  "updated_at": "2026-11-27T10:26:53Z",
+  "pushed_at": "2026-11-27T08:57:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 361,
+  "age_days": 362,
   "days_since_push": 0,
   "health_score": 56,
   "health_components": {
     "popularity": 68.3,
     "momentum": 7.5,
     "maintenance": 100.0,
-    "documentation": 60.0,
+    "documentation": 61.0,
     "accessibility": 43.0
   },
   "tier": "notable",
@@ -44,13 +44,13 @@
     "stars_gained": 45,
     "days_span": 5,
     "stars_per_day": 9.0,
-    "lifetime_stars_per_day": 7.2,
+    "lifetime_stars_per_day": 7.21,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "Draculabo/AntigravityManager",
-    "readme_chars": 19090,
+    "readme_chars": 20123,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -61,7 +61,7 @@
       "notifications"
     ],
     "capability_evidence": {
-      "multi-account-switching": "or source builds, follow the development prerequisites.",
+      "multi-account-switching": "or launch when reporting it.",
       "quota-management": "",
       "auto-failover": "tup or terms confirmation shown there.",
       "model-routing": "",
@@ -110,7 +110,7 @@
       "note_en": "Some setup. install via native installer / package; needs git clone (build from source), pnpm install/build; configure environment variables, API key configuration; GUI application",
       "note_zh": "需要一些配置。可通过 native installer / package 安装；需要 git clone (build from source)、pnpm install/build；需配置 environment variables、API key configuration；GUI application"
     },
-    "doc_score": 60,
+    "doc_score": 61,
     "doc_signals": [
       "contains code blocks",
       "has section headings",
@@ -122,7 +122,8 @@
       "has a Chinese translation",
       "documents changes",
       "reports benchmarks",
-      "explains architecture"
+      "explains architecture",
+      "long, detailed README"
     ],
     "agents": [],
     "summary_en": "Antigravity Manager is a desktop application for managing the Google accounts used by Antigravity clients (including Classic, Antigravity IDE and agy CLI).",
@@ -135,7 +136,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.157
+      "external_link_ratio": 0.149
     },
     "highlights": [
       "Choose your client on the API Proxy page, select an available model and review the settings before applying them.",
@@ -157,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:10+00:00",
+  "fetched_at": "2026-11-27T13:53:45+00:00",
   "categories": [
     "billing",
     "failover-2",
@@ -188,14 +189,14 @@
         "notifications",
         "quota-management"
       ],
-      "star_ratio": 7.905,
-      "momentum_ratio": 6.489,
+      "star_ratio": 7.903,
+      "momentum_ratio": 7.778,
       "setup_delta": -25,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (7/7)",
-        "7.90x the stars (20,537 vs 2,598)",
-        "6.49x the star velocity (58.4/day vs 9.0/day)",
+        "7.90x the stars (20,620 vs 2,609)",
+        "7.78x the star velocity (70.0/day vs 9.0/day)",
         "no harder to set up (32 vs 57 friction)"
       ],
       "reasons_zh": [],
@@ -228,7 +229,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 56,
-        "challenger_health": 74,
+        "challenger_health": 77,
         "incumbent_setup_score": 57,
         "challenger_setup_score": 32
       }

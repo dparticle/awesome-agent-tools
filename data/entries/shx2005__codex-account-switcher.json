@@ -7,7 +7,7 @@
   "description": "你是否厌倦了 Codex 多个账号之间来回切换？本地账号管理、官方登录、额度查询、快速切换与跨设备导入导出。Local Codex account profiles, login, usage, switching, and export/import.",
   "homepage": "",
   "stars": 978,
-  "forks": 108,
+  "forks": 113,
   "open_issues": 0,
   "language": "Python",
   "license": "MIT",
@@ -24,8 +24,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 53,
-  "days_since_push": 37,
+  "age_days": 54,
+  "days_since_push": 38,
   "health_score": 45,
   "health_components": {
     "popularity": 59.8,
@@ -39,7 +39,7 @@
     "stars_gained": 1,
     "days_span": 5,
     "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 18.45,
+    "lifetime_stars_per_day": 18.11,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -138,7 +138,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:24+00:00",
+  "fetched_at": "2026-11-27T13:54:03+00:00",
   "categories": [
     "analytics",
     "billing",

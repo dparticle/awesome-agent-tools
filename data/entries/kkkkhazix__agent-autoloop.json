@@ -6,9 +6,9 @@
   "url": "https://github.com/KKKKhazix/agent-autoloop",
   "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
   "homepage": "",
-  "stars": 6625,
-  "forks": 1237,
-  "open_issues": 4,
+  "stars": 6697,
+  "forks": 1245,
+  "open_issues": 5,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -25,33 +25,33 @@
     "workflow"
   ],
   "created_at": "2026-11-03T08:02:11Z",
-  "updated_at": "2026-11-26T13:43:27Z",
-  "pushed_at": "2026-11-26T01:12:28Z",
+  "updated_at": "2026-11-27T13:20:34Z",
+  "pushed_at": "2026-11-27T01:22:19Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 23,
+  "age_days": 24,
   "days_since_push": 0,
-  "health_score": 79,
+  "health_score": 77,
   "health_components": {
-    "popularity": 76.4,
-    "momentum": 77.0,
+    "popularity": 76.5,
+    "momentum": 74.3,
     "maintenance": 100.0,
     "documentation": 59.0,
-    "accessibility": 81.0
+    "accessibility": 72.0
   },
-  "tier": "flagship",
+  "tier": "recommended",
   "momentum": {
-    "stars_gained": 462,
+    "stars_gained": 446,
     "days_span": 5,
-    "stars_per_day": 92.4,
-    "lifetime_stars_per_day": 288.04,
+    "stars_per_day": 89.2,
+    "lifetime_stars_per_day": 279.04,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "KKKKhazix/agent-autoloop",
-    "readme_chars": 11802,
+    "readme_chars": 11828,
     "capabilities": [
       "quota-management",
       "api-gateway",
@@ -81,12 +81,11 @@
     },
     "friction": {
       "level": "low",
-      "score": 19,
+      "score": 28,
       "out_of_the_box": false,
       "non_programmer_friendly": false,
       "easy_signals": [
-        "curl | sh installer",
-        "PowerShell irm | iex installer"
+        "curl | sh installer"
       ],
       "hard_signals": [],
       "config_signals": [
@@ -99,8 +98,8 @@
         "Windows",
         "Linux"
       ],
-      "note_en": "Easy. install via curl | sh installer, PowerShell irm | iex installer; configure API key configuration, database dependency",
-      "note_zh": "较易上手。可通过 curl | sh installer、PowerShell irm | iex installer 安装；需配置 API key configuration、database dependency"
+      "note_en": "Easy. install via curl | sh installer; configure API key configuration, database dependency",
+      "note_zh": "较易上手。可通过 curl | sh installer 安装；需配置 API key configuration、database dependency"
     },
     "doc_score": 59,
     "doc_signals": [
@@ -133,7 +132,7 @@
       "signals": [
         "Chinese: directory framing"
       ],
-      "external_link_ratio": 0.932
+      "external_link_ratio": 0.93
     },
     "highlights": [
       "一台电脑、一条命令就能跑。 装在你的 Windows、Mac 或 Linux 上，不用买云服务器，也不用开放公网端口。",
@@ -150,10 +149,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:37+00:00",
+  "fetched_at": "2026-11-27T13:53:03+00:00",
   "categories": [
     "billing",
-    "mcp",
     "sessions-memory"
   ],
   "primary_category": "billing",

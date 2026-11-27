@@ -6,8 +6,8 @@
   "url": "https://github.com/1llu50ry/Decompile",
   "description": "MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 6.000+ skills with full source code archives, specialized agents, and workflow tools - designed to be plugged into Claude, Codex, Cursor, or any MCP-compatible client.",
   "homepage": "https://github.com/1llu50ry/Decompile",
-  "stars": 615,
-  "forks": 112,
+  "stars": 619,
+  "forks": 113,
   "open_issues": 3,
   "language": "TypeScript",
   "license": "MIT",
@@ -34,27 +34,27 @@
     "static-analysis"
   ],
   "created_at": "2026-10-05T06:07:53Z",
-  "updated_at": "2026-11-26T08:02:11Z",
+  "updated_at": "2026-11-27T13:16:08Z",
   "pushed_at": "2026-11-23T06:41:30Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 52,
-  "days_since_push": 3,
+  "age_days": 53,
+  "days_since_push": 4,
   "health_score": 58,
   "health_components": {
     "popularity": 55.8,
-    "momentum": 4.8,
+    "momentum": 4.5,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 77.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 29,
+    "stars_gained": 27,
     "days_span": 5,
-    "stars_per_day": 5.8,
-    "lifetime_stars_per_day": 11.83,
+    "stars_per_day": 5.4,
+    "lifetime_stars_per_day": 11.68,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -173,13 +173,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:34+00:00",
+  "fetched_at": "2026-11-27T13:54:13+00:00",
   "categories": [
+    "desktop-ui",
     "failover",
-    "mcp",
     "sessions-memory"
   ],
-  "primary_category": "mcp",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

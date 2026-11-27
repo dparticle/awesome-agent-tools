@@ -36,8 +36,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 401,
-  "days_since_push": 77,
+  "age_days": 402,
+  "days_since_push": 78,
   "health_score": 44,
   "health_components": {
     "popularity": 51.4,
@@ -147,7 +147,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:51+00:00",
+  "fetched_at": "2026-11-27T13:54:38+00:00",
   "categories": [
     "failover",
     "model-routing"
@@ -155,15 +155,15 @@
   "primary_category": "failover",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
+    "note_en": "Superseded by abubakarsiddik31/claude-skills-collection: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 abubakarsiddik31/claude-skills-collection 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "abubakarsiddik31/claude-skills-collection",
     "challenger": "",
     "supersede": {
       "incumbent": "giuseppe-trisciuoglio/developer-kit",
-      "challenger": "sickn33/agentic-awesome-skills",
+      "challenger": "abubakarsiddik31/claude-skills-collection",
       "incumbent_name": "giuseppe-trisciuoglio/developer-kit",
-      "challenger_name": "sickn33/agentic-awesome-skills",
+      "challenger_name": "abubakarsiddik31/claude-skills-collection",
       "kind": "supersede",
       "source": "auto",
       "confidence": "high",
@@ -175,15 +175,15 @@
         "multi-agent-orchestration",
         "skills-plugins"
       ],
-      "star_ratio": 135.409,
-      "momentum_ratio": 1188.0,
-      "setup_delta": -34,
+      "star_ratio": 3.062,
+      "momentum_ratio": 20.0,
+      "setup_delta": -20,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "135.41x the stars (50,372 vs 372)",
-        "1188.00x the star velocity (59.4/day vs 0.0/day)",
-        "no harder to set up (32 vs 66 friction)"
+        "3.06x the stars (1,139 vs 372)",
+        "20.00x the star velocity (1.0/day vs 0.0/day)",
+        "no harder to set up (46 vs 66 friction)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -196,24 +196,21 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "billing-metering",
           "cross-agent-support",
           "gui-desktop",
           "mcp-support",
           "memory-context",
           "mobile-access",
-          "model-routing",
           "multi-agent-orchestration",
           "notifications",
-          "security-isolation",
-          "self-hosted",
           "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
+          "worktree-isolation"
         ],
         "incumbent_health": 44,
-        "challenger_health": 79,
+        "challenger_health": 54,
         "incumbent_setup_score": 66,
-        "challenger_setup_score": 32
+        "challenger_setup_score": 46
       }
     }
   }

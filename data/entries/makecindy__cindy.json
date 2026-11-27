@@ -6,9 +6,9 @@
   "url": "https://github.com/makecindy/cindy",
   "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
   "homepage": "https://cindy.app",
-  "stars": 10683,
-  "forks": 1366,
-  "open_issues": 4132,
+  "stars": 10727,
+  "forks": 1374,
+  "open_issues": 4127,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -27,33 +27,33 @@
     "windows"
   ],
   "created_at": "2026-07-22T17:49:34Z",
-  "updated_at": "2026-11-26T13:53:52Z",
-  "pushed_at": "2026-11-26T13:53:20Z",
+  "updated_at": "2026-11-27T13:48:17Z",
+  "pushed_at": "2026-11-27T13:47:12Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 126,
+  "age_days": 127,
   "days_since_push": 0,
   "health_score": 69,
   "health_components": {
     "popularity": 80.6,
-    "momentum": 55.7,
+    "momentum": 57.2,
     "maintenance": 100.0,
     "documentation": 55.0,
     "accessibility": 35.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 334,
+    "stars_gained": 343,
     "days_span": 5,
-    "stars_per_day": 66.8,
-    "lifetime_stars_per_day": 84.79,
+    "stars_per_day": 68.6,
+    "lifetime_stars_per_day": 84.46,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "makecindy/cindy",
-    "readme_chars": 15495,
+    "readme_chars": 16932,
     "capabilities": [
       "multi-account-switching",
       "remote-control",
@@ -70,7 +70,7 @@
     "capability_evidence": {
       "multi-account-switching": "",
       "remote-control": "",
-      "mobile-access": "up and migration from a manual install.",
+      "mobile-access": "offline is not zero-inference setup.",
       "multi-agent-orchestration": "utor setup, validation, and submission workflow",
       "model-routing": "",
       "billing-metering": "supported subscription you already pay for,",
@@ -145,17 +145,17 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.323
+      "external_link_ratio": 0.295
     },
     "highlights": [
       "Mobile does not initialize the SDK without injected TapDB configuration"
     ],
     "summary_zh_native": "Cindy 是一个开源、开箱即用的 AI Agent。连接你的多台电脑与手机，把熟悉的 Agent、模型和已有订阅放在一起，培养一个懂你工作方式的伙伴。",
     "highlights_zh": [
+      "目前没有受支持的手写声明／零推理建档入口，Linux 国际版 0.1.143 也不支持：",
       "移动端未注入 TapDB 配置（clientId / clientToken）时不会初始化 SDK。",
       "不只共享画面，也共享模型。 其他电脑上配置好的订阅、API 供应商和本地模型，开启远程访问后也能调用。",
-      "移动端关闭后立即解绑账号并停止 Cindy 主动触发的上报；已初始化的原生 SDK",
-      "培养自己的伙伴。 给她角色、指令、Skill 和日常工作：代码审阅、资料研究、项目跟进，都可以有专门的搭档。"
+      "兼容且实际可用的本地模型仍会推理，包括普通新建伙伴的首次问候；离线不等于零推理建档。"
     ],
     "chinese_readme": "README.zh-CN.md"
   },
@@ -164,7 +164,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:31+00:00",
+  "fetched_at": "2026-11-27T13:52:55+00:00",
   "categories": [
     "analytics",
     "billing",

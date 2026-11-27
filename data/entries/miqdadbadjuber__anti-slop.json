@@ -6,9 +6,9 @@
   "url": "https://github.com/miqdadbadjuber/anti-slop",
   "description": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
   "homepage": "https://antislop.ai.id",
-  "stars": 10208,
-  "forks": 697,
-  "open_issues": 3,
+  "stars": 10279,
+  "forks": 696,
+  "open_issues": 0,
   "language": "JavaScript",
   "license": "MIT",
   "topics": [
@@ -24,33 +24,33 @@
     "ui-design"
   ],
   "created_at": "2026-08-07T10:29:56Z",
-  "updated_at": "2026-11-26T13:03:00Z",
-  "pushed_at": "2026-11-21T01:16:39Z",
+  "updated_at": "2026-11-27T13:35:05Z",
+  "pushed_at": "2026-11-26T21:23:39Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 111,
-  "days_since_push": 5,
-  "health_score": 79,
+  "age_days": 112,
+  "days_since_push": 0,
+  "health_score": 78,
   "health_components": {
     "popularity": 80.2,
-    "momentum": 78.7,
+    "momentum": 74.8,
     "maintenance": 100.0,
     "documentation": 49.0,
     "accessibility": 84.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 472,
+    "stars_gained": 449,
     "days_span": 5,
-    "stars_per_day": 94.4,
-    "lifetime_stars_per_day": 91.96,
+    "stars_per_day": 89.8,
+    "lifetime_stars_per_day": 91.78,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "miqdadbadjuber/anti-slop",
-    "readme_chars": 14787,
+    "readme_chars": 14992,
     "capabilities": [
       "skills-plugins",
       "agent-runtime",
@@ -66,7 +66,7 @@
     "capability_hits": {
       "skills-plugins": 2,
       "agent-runtime": 2,
-      "mcp-support": 1,
+      "mcp-support": 2,
       "cross-agent-support": 10
     },
     "friction": {
@@ -120,7 +120,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.947
+      "external_link_ratio": 0.934
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -132,7 +132,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:31+00:00",
+  "fetched_at": "2026-11-27T13:52:55+00:00",
   "categories": [
     "desktop-ui",
     "failover",

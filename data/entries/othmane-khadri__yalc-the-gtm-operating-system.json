@@ -27,22 +27,22 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 326,
-  "days_since_push": 97,
+  "age_days": 327,
+  "days_since_push": 98,
   "health_score": 41,
   "health_components": {
     "popularity": 50.4,
-    "momentum": 0.0,
+    "momentum": 0.2,
     "maintenance": 55.0,
     "documentation": 73.0,
     "accessibility": 36.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 1.02,
+    "stars_per_day": 0.2,
+    "lifetime_stars_per_day": 1.01,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -144,73 +144,16 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:54+00:00",
+  "fetched_at": "2026-11-27T13:54:42+00:00",
   "categories": [
     "failover"
   ],
   "primary_category": "failover",
   "lifecycle": {
-    "state": "superseded",
-    "note_en": "Superseded by sickn33/agentic-awesome-skills: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 sickn33/agentic-awesome-skills 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "sickn33/agentic-awesome-skills",
-    "challenger": "",
-    "supersede": {
-      "incumbent": "othmane-khadri/yalc-the-gtm-operating-system",
-      "challenger": "sickn33/agentic-awesome-skills",
-      "incumbent_name": "Othmane-Khadri/YALC-the-GTM-operating-system",
-      "challenger_name": "sickn33/agentic-awesome-skills",
-      "kind": "supersede",
-      "source": "auto",
-      "confidence": "high",
-      "coverage": 1.0,
-      "covered": [
-        "cross-agent-support",
-        "mcp-support",
-        "multi-agent-orchestration",
-        "self-hosted",
-        "skills-plugins"
-      ],
-      "star_ratio": 152.181,
-      "momentum_ratio": 1188.0,
-      "setup_delta": -32,
-      "dominance": 1.0,
-      "reasons": [
-        "covers 100% of capabilities (5/5)",
-        "152.18x the stars (50,372 vs 331)",
-        "1188.00x the star velocity (59.4/day vs 0.0/day)",
-        "no harder to set up (32 vs 64 friction)"
-      ],
-      "reasons_zh": [],
-      "evidence": {
-        "incumbent_capabilities": [
-          "cross-agent-support",
-          "mcp-support",
-          "multi-agent-orchestration",
-          "self-hosted",
-          "skills-plugins"
-        ],
-        "challenger_capabilities": [
-          "agent-runtime",
-          "cross-agent-support",
-          "gui-desktop",
-          "mcp-support",
-          "memory-context",
-          "mobile-access",
-          "model-routing",
-          "multi-agent-orchestration",
-          "notifications",
-          "security-isolation",
-          "self-hosted",
-          "skills-plugins",
-          "team-collaboration",
-          "usage-analytics"
-        ],
-        "incumbent_health": 41,
-        "challenger_health": 79,
-        "incumbent_setup_score": 64,
-        "challenger_setup_score": 32
-      }
-    }
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
   }
 }

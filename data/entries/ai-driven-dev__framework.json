@@ -6,9 +6,9 @@
   "url": "https://github.com/ai-driven-dev/framework",
   "description": "Marketplace Framework AI-Driven Dev : Context Engineering, Plugins, Agents, Skills, Hooks, Templates, SDLC",
   "homepage": "https://www.ai-driven-development.org",
-  "stars": 579,
-  "forks": 66,
-  "open_issues": 96,
+  "stars": 582,
+  "forks": 67,
+  "open_issues": 94,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -28,33 +28,33 @@
     "skills"
   ],
   "created_at": "2026-02-06T20:59:32Z",
-  "updated_at": "2026-11-26T05:26:43Z",
-  "pushed_at": "2026-11-26T12:56:54Z",
+  "updated_at": "2026-11-27T05:59:07Z",
+  "pushed_at": "2026-11-27T13:21:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 292,
+  "age_days": 293,
   "days_since_push": 0,
-  "health_score": 57,
+  "health_score": 58,
   "health_components": {
     "popularity": 55.3,
-    "momentum": 1.3,
+    "momentum": 1.8,
     "maintenance": 100.0,
     "documentation": 63.0,
     "accessibility": 96.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 8,
+    "stars_gained": 11,
     "days_span": 5,
-    "stars_per_day": 1.6,
-    "lifetime_stars_per_day": 1.98,
+    "stars_per_day": 2.2,
+    "lifetime_stars_per_day": 1.99,
     "basis": "history",
     "is_fast_riser": false
   },
   "analysis": {
     "full_name": "ai-driven-dev/framework",
-    "readme_chars": 11038,
+    "readme_chars": 11068,
     "capabilities": [
       "multi-agent-orchestration",
       "memory-context",
@@ -117,7 +117,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.178
+      "external_link_ratio": 1.175
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -129,7 +129,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:36+00:00",
+  "fetched_at": "2026-11-27T13:54:15+00:00",
   "categories": [
     "failover",
     "sessions-memory"

@@ -6,9 +6,9 @@
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "homepage": "https://octop.cloud",
-  "stars": 12522,
-  "forks": 1800,
-  "open_issues": 639,
+  "stars": 12580,
+  "forks": 1806,
+  "open_issues": 646,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -21,33 +21,33 @@
     "long-term-memory"
   ],
   "created_at": "2026-07-08T12:54:20Z",
-  "updated_at": "2026-11-26T13:25:07Z",
-  "pushed_at": "2026-11-26T13:53:35Z",
+  "updated_at": "2026-11-27T13:42:42Z",
+  "pushed_at": "2026-11-27T09:20:09Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 141,
+  "age_days": 142,
   "days_since_push": 0,
-  "health_score": 72,
+  "health_score": 74,
   "health_components": {
     "popularity": 82.0,
-    "momentum": 33.8,
+    "momentum": 41.0,
     "maintenance": 100.0,
     "documentation": 79.0,
     "accessibility": 68.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 203,
+    "stars_gained": 246,
     "days_span": 5,
-    "stars_per_day": 40.6,
-    "lifetime_stars_per_day": 88.81,
+    "stars_per_day": 49.2,
+    "lifetime_stars_per_day": 88.59,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "TencentCloud/Octop",
-    "readme_chars": 31193,
+    "readme_chars": 31792,
     "capabilities": [
       "mobile-access",
       "multi-agent-orchestration",
@@ -66,15 +66,15 @@
       "cross-agent-support"
     ],
     "capability_evidence": {
-      "mobile-access": "Linux alongside the web dashboard and IM channels.",
-      "multi-agent-orchestration": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "mobile-access": ", and update third-party plugins from within Octop.",
+      "multi-agent-orchestration": "[x] Plugin marketplace — live on octop.cloud; discover, install, and update third-party plugins from within Octop.",
       "parallel-execution": "",
       "worktree-isolation": "pip install octop (optional extras such as local-embedding)",
       "model-routing": "ild / quality** hatchling · ruff · mypy · pytest",
       "api-gateway": "ays back up first (octop backup) before a cross-version upgrade.",
       "billing-metering": "rror: deploy/docker/docker-compose.cn.yml",
       "memory-context": "e notes, and manage your schedule; memory persists with the workspace.",
-      "skills-plugins": "",
+      "skills-plugins": "rs in the same deployment, so good configurations are reused instead of recreated.",
       "agent-runtime": "",
       "mcp-support": "Docs, Tencent Meeting, Notion, TickTick, OpenAlex, Feishu CLI, WeCom CLI, Agent Mail, Obsidian, WeKnora, Dify, and more.",
       "self-hosted": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
@@ -131,6 +131,8 @@
         "macOS",
         "Windows",
         "Linux",
+        "iOS",
+        "Android",
         "Web"
       ],
       "note_en": "Easy. install via npx one-liner, pip install; needs docker run, make build; configure config.json/yaml/toml, OAuth login flow; one-click setup",
@@ -168,7 +170,7 @@
       "signals": [
         "link-directory table of contents"
       ],
-      "external_link_ratio": 0.513
+      "external_link_ratio": 0.629
     },
     "highlights": [
       "Desktop client — native apps for Windows / macOS / Linux; FnOS packages for NAS",
@@ -190,7 +192,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:28+00:00",
+  "fetched_at": "2026-11-27T13:52:51+00:00",
   "categories": [
     "billing-2",
     "desktop-ui",

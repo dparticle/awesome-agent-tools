@@ -6,9 +6,9 @@
   "url": "https://github.com/maximhq/bifrost",
   "description": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing, semantic caching, virtual keys, budgets and MCP Code Mode. Works with any SDK or agent and adds under 200µs of overhead at 5k RPS.",
   "homepage": "https://www.getmaxim.ai/bifrost",
-  "stars": 10045,
-  "forks": 1656,
-  "open_issues": 1653,
+  "stars": 10066,
+  "forks": 1661,
+  "open_issues": 1666,
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "semantic-cache"
   ],
   "created_at": "2025-03-19T07:21:26Z",
-  "updated_at": "2026-11-26T08:45:35Z",
-  "pushed_at": "2026-11-26T13:31:26Z",
+  "updated_at": "2026-11-27T13:43:48Z",
+  "pushed_at": "2026-11-27T12:10:11Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "dev",
-  "age_days": 617,
+  "age_days": 618,
   "days_since_push": 0,
-  "health_score": 66,
+  "health_score": 65,
   "health_components": {
-    "popularity": 80.0,
-    "momentum": 27.0,
+    "popularity": 80.1,
+    "momentum": 20.2,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 51.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 162,
+    "stars_gained": 121,
     "days_span": 5,
-    "stars_per_day": 32.4,
-    "lifetime_stars_per_day": 16.28,
+    "stars_per_day": 24.2,
+    "lifetime_stars_per_day": 16.29,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -156,10 +156,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:00+00:00",
+  "fetched_at": "2026-11-27T13:53:31+00:00",
   "categories": [
     "desktop-ui",
-    "mcp",
+    "failover",
     "model-routing-2"
   ],
   "primary_category": "model-routing-2",

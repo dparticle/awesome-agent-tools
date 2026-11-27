@@ -6,9 +6,9 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
-  "stars": 11360,
-  "forks": 955,
-  "open_issues": 41,
+  "stars": 11755,
+  "forks": 976,
+  "open_issues": 51,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,16 +34,16 @@
     "whisper"
   ],
   "created_at": "2026-09-03T14:33:38Z",
-  "updated_at": "2026-11-26T13:48:21Z",
-  "pushed_at": "2026-11-26T13:25:39Z",
+  "updated_at": "2026-11-27T13:46:51Z",
+  "pushed_at": "2026-11-27T12:53:54Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 83,
+  "age_days": 84,
   "days_since_push": 0,
   "health_score": 90,
   "health_components": {
-    "popularity": 81.1,
+    "popularity": 81.4,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 73.0,
@@ -51,16 +51,16 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2270,
+    "stars_gained": 2274,
     "days_span": 5,
-    "stars_per_day": 454.0,
-    "lifetime_stars_per_day": 136.87,
+    "stars_per_day": 454.8,
+    "lifetime_stars_per_day": 139.94,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "kajisho5/ffmpeg-skill",
-    "readme_chars": 135990,
+    "readme_chars": 137401,
     "capabilities": [
       "auto-failover",
       "multi-agent-orchestration",
@@ -94,7 +94,7 @@
       "memory-context": 1,
       "skills-plugins": 6,
       "agent-runtime": 1,
-      "mcp-support": 25,
+      "mcp-support": 26,
       "security-isolation": 1,
       "notifications": 1,
       "voice-input": 1,
@@ -155,7 +155,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.176
+      "external_link_ratio": 0.175
     },
     "highlights": [
       "Loudness targets. −14 LUFS / −1 dBTP for YouTube and social platforms (the loudness.py default), -I -16 --tp -1.5 for podcasts, -I -23 for broadcast. A clip measured at −40 LUFS or below is…",
@@ -172,13 +172,13 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:30+00:00",
+  "fetched_at": "2026-11-27T13:52:53+00:00",
   "categories": [
     "failover",
-    "mcp",
+    "model-routing-2",
     "sessions-memory"
   ],
-  "primary_category": "mcp",
+  "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "active",
     "note_en": "",

@@ -29,8 +29,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 305,
-  "days_since_push": 112,
+  "age_days": 306,
+  "days_since_push": 113,
   "health_score": 48,
   "health_components": {
     "popularity": 63.0,
@@ -42,9 +42,9 @@
   "tier": "notable",
   "momentum": {
     "stars_gained": 1418,
-    "days_span": 305,
-    "stars_per_day": 4.65,
-    "lifetime_stars_per_day": 4.65,
+    "days_span": 306,
+    "stars_per_day": 4.63,
+    "lifetime_stars_per_day": 4.63,
     "basis": "lifetime",
     "is_fast_riser": false
   },
@@ -192,7 +192,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:15+00:00",
+  "fetched_at": "2026-11-27T13:53:51+00:00",
   "categories": [
     "mobile",
     "parallelism",

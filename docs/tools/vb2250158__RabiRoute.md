@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-06-01 |
-| Last push | 2026-11-26 (0 days ago) |
-| Analyzed README | 13,477 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-27 (0 days ago) |
+| Analyzed README | 13,480 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [greenfield-inc/Pane](https://github.com/greenfield-inc/Pane)** — Superseded by greenfield-inc/Pane: covers 100% of capabilities (7/7).
 

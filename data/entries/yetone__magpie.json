@@ -6,9 +6,9 @@
   "url": "https://github.com/yetone/magpie",
   "description": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
   "homepage": "https://usemagpie.ai",
-  "stars": 41905,
-  "forks": 3841,
-  "open_issues": 5234,
+  "stars": 42408,
+  "forks": 3895,
+  "open_issues": 5336,
   "language": "Go",
   "license": "MIT",
   "topics": [
@@ -29,33 +29,33 @@
     "windows"
   ],
   "created_at": "2026-09-23T16:22:35Z",
-  "updated_at": "2026-11-26T13:52:42Z",
-  "pushed_at": "2026-11-26T13:51:22Z",
+  "updated_at": "2026-11-27T13:48:46Z",
+  "pushed_at": "2026-11-27T13:45:13Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 63,
+  "age_days": 64,
   "days_since_push": 0,
   "health_score": 92,
   "health_components": {
-    "popularity": 92.4,
+    "popularity": 92.5,
     "momentum": 100.0,
     "maintenance": 100.0,
-    "documentation": 63.0,
+    "documentation": 64.0,
     "accessibility": 97.0
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 2225,
+    "stars_gained": 2482,
     "days_span": 5,
-    "stars_per_day": 445.0,
-    "lifetime_stars_per_day": 665.16,
+    "stars_per_day": 496.4,
+    "lifetime_stars_per_day": 662.62,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "yetone/magpie",
-    "readme_chars": 24959,
+    "readme_chars": 25144,
     "capabilities": [
       "multi-account-switching",
       "quota-management",
@@ -114,7 +114,7 @@
       "note_en": "Turnkey. install via go install, curl | sh installer; configure API key configuration, config file; one-click setup",
       "note_zh": "开箱即用。可通过 go install、curl | sh installer 安装；需配置 API key configuration、config file；one-click setup"
     },
-    "doc_score": 63,
+    "doc_score": 64,
     "doc_signals": [
       "contains code blocks",
       "contains screenshots/diagrams",
@@ -148,7 +148,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.442
+      "external_link_ratio": 1.432
     },
     "highlights": [
       "WSL: on Windows, agents inside WSL distros are wired too, and their sessions counted.",
@@ -168,11 +168,11 @@
     "seed_reason": "One place for every agent's model; pools accounts and reroutes models.",
     "metadata_source": "api"
   },
-  "fetched_at": "2026-11-26T13:55:20+00:00",
+  "fetched_at": "2026-11-27T13:52:40+00:00",
   "categories": [
     "billing",
     "desktop-ui",
-    "mcp"
+    "failover"
   ],
   "primary_category": "billing",
   "lifecycle": {

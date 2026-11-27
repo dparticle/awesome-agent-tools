@@ -7,8 +7,8 @@
   "description": "Mission control for the One Person Studio — run a fleet of AI coding agents in parallel without losing your mind. Kanban + git worktrees + tmux for Claude Code, Codex, Gemini CLI, OpenCode and any shell agent. Not an IDE.",
   "homepage": "https://dev3.h0x91b.com/",
   "stars": 337,
-  "forks": 44,
-  "open_issues": 42,
+  "forks": 46,
+  "open_issues": 48,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -33,8 +33,8 @@
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 281,
-  "days_since_push": 0,
+  "age_days": 282,
+  "days_since_push": 1,
   "health_score": 55,
   "health_components": {
     "popularity": 50.6,
@@ -178,7 +178,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:53+00:00",
+  "fetched_at": "2026-11-27T13:54:42+00:00",
   "categories": [
     "desktop-ui",
     "failover",

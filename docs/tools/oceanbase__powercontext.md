@@ -12,17 +12,19 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,831 |
-| Star velocity | 13.0/day (history basis, 5d span) |
-| Health score | 58/100 |
+| Stars | 1,888 |
+| Star velocity | 21.2/day (history basis, 5d span) |
+| Health score | 59/100 |
 | Documentation | 65/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🟢 Active |
+| Lifecycle | 🔻 Superseded |
 | License | Apache-2.0 |
 | Language | Python |
 | Created | 2025-11-10 |
 | Last push | 2026-11-26 (0 days ago) |
 | Analyzed README | 24,248 chars from `raw:HEAD/README.md` |
+
+> ⚠️ **Superseded by [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)** — Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (5/5).
 
 ## What it solves
 
@@ -77,8 +79,8 @@ Score **65/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 65.3 |
-| momentum | 10.8 |
+| popularity | 65.5 |
+| momentum | 17.7 |
 | maintenance | 100.0 |
 | documentation | 65.0 |
 | accessibility | 52.0 |

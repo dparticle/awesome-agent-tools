@@ -12,16 +12,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 1,894 |
-| Star velocity | 1.8/day (history basis, 5d span) |
-| Health score | 58/100 |
+| Stars | 1,895 |
+| Star velocity | 1.6/day (history basis, 5d span) |
+| Health score | 57/100 |
 | Documentation | 75/100 |
 | Tier | 🔹 Notable |
 | Lifecycle | 🔻 Superseded |
 | License | MIT |
 | Language | Python |
 | Created | 2026-08-04 |
-| Last push | 2026-11-11 (15 days ago) |
+| Last push | 2026-11-11 (16 days ago) |
 | Analyzed README | 33,442 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — Superseded by rohitg00/agentmemory: covers 100% of capabilities (8/8).
@@ -90,8 +90,8 @@ Score **75/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 65.5 |
-| momentum | 1.5 |
+| popularity | 65.6 |
+| momentum | 1.3 |
 | maintenance | 92.0 |
 | documentation | 75.0 |
 | accessibility | 70.0 |

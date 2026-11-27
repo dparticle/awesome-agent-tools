@@ -12,7 +12,7 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 941 |
+| Stars | 942 |
 | Star velocity | 1.2/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 32/100 |
@@ -21,7 +21,7 @@
 | License | MPL-2.0 |
 | Language | HCL |
 | Created | 2025-11-08 |
-| Last push | 2026-11-04 (22 days ago) |
+| Last push | 2026-11-04 (23 days ago) |
 | Analyzed README | 3,987 chars from `raw:HEAD/README.md` |
 
 ## What it solves

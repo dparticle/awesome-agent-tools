@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "full_name": "qualixar/superlocalmemory",
+  "name": "superlocalmemory",
+  "owner": "qualixar",
+  "url": "https://github.com/qualixar/superlocalmemory",
+  "description": "Persistent local memory for AI agents. MCP server and plugins for Claude Code, Codex, Cursor, VS Code Copilot, Antigravity and more: your agents remember across sessions, on your machine. arXiv:2608.08253",
+  "homepage": "https://www.superlocalmemory.com",
+  "stars": 292,
+  "forks": 37,
+  "open_issues": 3,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "topics": [
+    "agent-memory",
+    "agent-reliability",
+    "ai-agents",
+    "ai-memory",
+    "claude-code",
+    "codex",
+    "cursor",
+    "github-copilot",
+    "knowledge-graph",
+    "llm-memory",
+    "local-first",
+    "long-term-memory",
+    "mcp",
+    "mcp-server",
+    "memory",
+    "persistent-memory",
+    "qualixar",
+    "semantic-search",
+    "vector-search",
+    "windsurf"
+  ],
+  "created_at": "2026-02-05T12:07:55Z",
+  "updated_at": "2026-11-26T09:19:47Z",
+  "pushed_at": "2026-11-21T12:28:32Z",
+  "archived": false,
+  "is_fork": false,
+  "default_branch": "main",
+  "age_days": 295,
+  "days_since_push": 6,
+  "health_score": 56,
+  "health_components": {
+    "popularity": 49.3,
+    "momentum": 0.8,
+    "maintenance": 100.0,
+    "documentation": 76.0,
+    "accessibility": 86.0
+  },
+  "tier": "notable",
+  "momentum": {
+    "stars_gained": 292,
+    "days_span": 295,
+    "stars_per_day": 0.99,
+    "lifetime_stars_per_day": 0.99,
+    "basis": "lifetime",
+    "is_fast_riser": false
+  },
+  "analysis": {
+    "full_name": "qualixar/superlocalmemory",
+    "readme_chars": 54506,
+    "capabilities": [
+      "multi-agent-orchestration",
+      "model-routing",
+      "api-gateway",
+      "memory-context",
+      "skills-plugins",
+      "agent-runtime",
+      "mcp-support",
+      "security-isolation",
+      "gui-desktop",
+      "cross-agent-support"
+    ],
+    "capability_evidence": {
+      "multi-agent-orchestration": "",
+      "model-routing": "",
+      "api-gateway": "",
+      "memory-context": "text, a repository or a date, and it comes back right before or after that step.",
+      "skills-plugins": "hon virtual environment you activate:",
+      "agent-runtime": "",
+      "mcp-support": "what, when, which project), keeps it true over time, governs who may see it, and refuses to bluff.",
+      "security-isolation": "read respects roles, workspaces and scopes.",
+      "gui-desktop": "-g superlocalmemory (or pipx install superlocalmemory).",
+      "cross-agent-support": "Mentions Claude Code, Codex, Copilot, Cursor"
+    },
+    "capability_hits": {
+      "multi-agent-orchestration": 1,
+      "model-routing": 1,
+      "api-gateway": 1,
+      "memory-context": 5,
+      "skills-plugins": 1,
+      "agent-runtime": 1,
+      "mcp-support": 13,
+      "security-isolation": 1,
+      "gui-desktop": 1,
+      "cross-agent-support": 6
+    },
+    "friction": {
+      "level": "turnkey",
+      "score": 14,
+      "out_of_the_box": false,
+      "non_programmer_friendly": false,
+      "easy_signals": [
+        "pip install",
+        "global npm install"
+      ],
+      "hard_signals": [
+        "npm install/build"
+      ],
+      "config_signals": [
+        "sign-in required",
+        "database dependency"
+      ],
+      "friendliness_signals": [
+        "one-click setup",
+        "GUI application"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "note_en": "Turnkey. install via pip install, global npm install; needs npm install/build; configure sign-in required, database dependency; one-click setup",
+      "note_zh": "开箱即用。可通过 pip install、global npm install 安装；需要 npm install/build；需配置 sign-in required、database dependency；one-click setup"
+    },
+    "doc_score": 76,
+    "doc_signals": [
+      "contains code blocks",
+      "contains screenshots/diagrams",
+      "has section headings",
+      "has a quick-start section",
+      "documents installation",
+      "documents configuration",
+      "has troubleshooting/FAQ",
+      "has contribution guidance",
+      "mentions licensing",
+      "documents changes",
+      "reports benchmarks",
+      "explains architecture",
+      "long, detailed README"
+    ],
+    "agents": [
+      "Claude Code",
+      "Codex",
+      "Gemini CLI",
+      "OpenCode",
+      "Cursor",
+      "Copilot"
+    ],
+    "summary_en": "One memory for every agent you and your team use — Claude Code, Codex, Cursor, Copilot, Antigravity, Hermes, ChatGPT, Claude on the web, Grok Bot, Muse and any harness that speaks MCP or runs a command.",
+    "summary_zh": "",
+    "install_hint": "curl -fsSLo get-slm.sh https://raw.githubusercontent.com/qualixar/superlocalmemory/main/scripts/get-slm.sh &&…",
+    "source": "raw:HEAD/README.md",
+    "list_assessment": {
+      "is_list": false,
+      "score": 0,
+      "signals": [],
+      "external_link_ratio": 0.716
+    },
+    "highlights": [
+      "Faster, and it says why. On a real 45,295-memory store, an agent's recall took a median of 0.98 s against 2.2 to 2.4 s on 4.2.19, and the per-prompt hook 0.53 s. Every result says which cha…",
+      "SuperLocalMemory 4.0: The Governed Memory Operating System for AI Agents, with Garima Singh and Arun Pratap Bhardwaj.",
+      "SuperLocalMemory V3.3: The Living Brain, arXiv:2604.04514",
+      "SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory, arXiv:2603.14588"
+    ],
+    "summary_zh_native": "",
+    "highlights_zh": [],
+    "chinese_readme": ""
+  },
+  "discovery": {
+    "source": "search",
+    "seed_reason": "",
+    "metadata_source": "search"
+  },
+  "fetched_at": "2026-11-27T13:54:52+00:00",
+  "categories": [
+    "desktop-ui",
+    "failover",
+    "sessions-memory"
+  ],
+  "primary_category": "sessions-memory",
+  "lifecycle": {
+    "state": "active",
+    "note_en": "",
+    "note_zh": "",
+    "superseded_by": "",
+    "challenger": ""
+  }
+}

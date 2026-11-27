@@ -6,7 +6,7 @@
   "url": "https://github.com/oil-oil/oil-ui",
   "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
   "homepage": "https://ui.oiloil.org",
-  "stars": 4010,
+  "stars": 4030,
   "forks": 237,
   "open_issues": 3,
   "language": "Python",
@@ -27,28 +27,28 @@
     "ux-design"
   ],
   "created_at": "2026-09-30T03:55:35Z",
-  "updated_at": "2026-11-26T13:42:06Z",
+  "updated_at": "2026-11-27T13:24:06Z",
   "pushed_at": "2026-11-25T00:36:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 57,
-  "days_since_push": 1,
-  "health_score": 73,
+  "age_days": 58,
+  "days_since_push": 2,
+  "health_score": 67,
   "health_components": {
     "popularity": 72.1,
-    "momentum": 58.6,
+    "momentum": 33.2,
     "maintenance": 100.0,
     "documentation": 46.0,
     "accessibility": 96.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 4010,
-    "days_span": 57,
-    "stars_per_day": 70.35,
-    "lifetime_stars_per_day": 70.35,
-    "basis": "lifetime",
+    "stars_gained": 199,
+    "days_span": 5,
+    "stars_per_day": 39.8,
+    "lifetime_stars_per_day": 69.48,
+    "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
@@ -136,7 +136,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:41+00:00",
+  "fetched_at": "2026-11-27T13:53:08+00:00",
   "categories": [
     "desktop-ui",
     "failover",

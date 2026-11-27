@@ -6,7 +6,7 @@
   "url": "https://github.com/rsmdt/the-startup",
   "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
   "homepage": "https://www.r16t.com/agentic-startup",
-  "stars": 587,
+  "stars": 588,
   "forks": 71,
   "open_issues": 0,
   "language": "TypeScript",
@@ -18,26 +18,26 @@
     "claude-plugin"
   ],
   "created_at": "2025-08-12T10:54:59Z",
-  "updated_at": "2026-11-24T11:31:03Z",
+  "updated_at": "2026-11-27T09:39:36Z",
   "pushed_at": "2026-10-26T22:43:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 471,
-  "days_since_push": 30,
-  "health_score": 51,
+  "age_days": 472,
+  "days_since_push": 31,
+  "health_score": 48,
   "health_components": {
     "popularity": 55.4,
-    "momentum": 0.0,
-    "maintenance": 92.0,
+    "momentum": 0.2,
+    "maintenance": 78.0,
     "documentation": 51.0,
     "accessibility": 75.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 0,
+    "stars_gained": 1,
     "days_span": 5,
-    "stars_per_day": 0.0,
+    "stars_per_day": 0.2,
     "lifetime_stars_per_day": 1.25,
     "basis": "history",
     "is_fast_riser": false
@@ -124,7 +124,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:36+00:00",
+  "fetched_at": "2026-11-27T13:54:14+00:00",
   "categories": [
     "failover",
     "parallelism"
@@ -151,14 +151,14 @@
         "parallel-execution",
         "skills-plugins"
       ],
-      "star_ratio": 2.961,
-      "momentum_ratio": 36.0,
+      "star_ratio": 2.959,
+      "momentum_ratio": 11.0,
       "setup_delta": -17,
       "dominance": 0.997,
       "reasons": [
         "covers 100% of capabilities (4/4)",
-        "2.96x the stars (1,738 vs 587)",
-        "36.00x the star velocity (1.8/day vs 0.0/day)",
+        "2.96x the stars (1,740 vs 588)",
+        "11.00x the star velocity (2.2/day vs 0.2/day)",
         "no harder to set up (8 vs 25 friction)"
       ],
       "reasons_zh": [],
@@ -181,7 +181,7 @@
           "skills-plugins",
           "worktree-isolation"
         ],
-        "incumbent_health": 51,
+        "incumbent_health": 48,
         "challenger_health": 60,
         "incumbent_setup_score": 25,
         "challenger_setup_score": 8

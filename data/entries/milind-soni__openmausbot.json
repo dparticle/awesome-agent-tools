@@ -6,9 +6,9 @@
   "url": "https://github.com/milind-soni/OpenMausBot",
   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "homepage": "https://www.mausbot.com/",
-  "stars": 28021,
-  "forks": 3993,
-  "open_issues": 1385,
+  "stars": 28430,
+  "forks": 4041,
+  "open_issues": 1394,
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [
@@ -25,16 +25,16 @@
     "typescript"
   ],
   "created_at": "2026-08-11T18:58:55Z",
-  "updated_at": "2026-11-26T13:48:04Z",
-  "pushed_at": "2026-11-26T13:21:16Z",
+  "updated_at": "2026-11-27T13:49:06Z",
+  "pushed_at": "2026-11-27T13:47:41Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 106,
+  "age_days": 107,
   "days_since_push": 0,
   "health_score": 88,
   "health_components": {
-    "popularity": 88.9,
+    "popularity": 89.1,
     "momentum": 100.0,
     "maintenance": 100.0,
     "documentation": 71.0,
@@ -42,10 +42,10 @@
   },
   "tier": "flagship",
   "momentum": {
-    "stars_gained": 1656,
+    "stars_gained": 1749,
     "days_span": 5,
-    "stars_per_day": 331.2,
-    "lifetime_stars_per_day": 264.35,
+    "stars_per_day": 349.8,
+    "lifetime_stars_per_day": 265.7,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -180,11 +180,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:24+00:00",
+  "fetched_at": "2026-11-27T13:52:45+00:00",
   "categories": [
     "failover",
-    "mcp",
-    "mobile"
+    "mobile",
+    "teams-self-hosting"
   ],
   "primary_category": "mobile",
   "lifecycle": {

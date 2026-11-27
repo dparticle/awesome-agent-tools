@@ -6,22 +6,22 @@
   "url": "https://github.com/Gentleman-Programming/engram",
   "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
   "homepage": "https://engram.gentlemanprogramming.com/",
-  "stars": 8321,
-  "forks": 835,
-  "open_issues": 56,
+  "stars": 8331,
+  "forks": 839,
+  "open_issues": 58,
   "language": "Go",
   "license": "MIT",
   "topics": [
     "gentle-shell-package"
   ],
   "created_at": "2026-02-16T13:38:41Z",
-  "updated_at": "2026-11-26T10:28:02Z",
+  "updated_at": "2026-11-27T11:50:26Z",
   "pushed_at": "2026-11-24T07:41:10Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 283,
-  "days_since_push": 2,
+  "age_days": 284,
+  "days_since_push": 3,
   "health_score": 63,
   "health_components": {
     "popularity": 78.4,
@@ -35,7 +35,7 @@
     "stars_gained": 70,
     "days_span": 5,
     "stars_per_day": 14.0,
-    "lifetime_stars_per_day": 29.4,
+    "lifetime_stars_per_day": 29.33,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -130,7 +130,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:01+00:00",
+  "fetched_at": "2026-11-27T13:53:33+00:00",
   "categories": [
     "desktop-ui",
     "sessions-memory"

@@ -6,9 +6,9 @@
   "url": "https://github.com/future-agi/future-agi",
   "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
   "homepage": "https://futureagi.com",
-  "stars": 2300,
+  "stars": 2301,
   "forks": 725,
-  "open_issues": 913,
+  "open_issues": 905,
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [
@@ -34,27 +34,27 @@
     "tracing"
   ],
   "created_at": "2026-04-23T14:11:31Z",
-  "updated_at": "2026-11-26T10:16:09Z",
-  "pushed_at": "2026-11-26T13:49:02Z",
+  "updated_at": "2026-11-27T06:46:22Z",
+  "pushed_at": "2026-11-27T13:47:52Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 216,
+  "age_days": 217,
   "days_since_push": 0,
   "health_score": 59,
   "health_components": {
     "popularity": 67.2,
-    "momentum": 2.7,
+    "momentum": 2.5,
     "maintenance": 100.0,
     "documentation": 82.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 16,
+    "stars_gained": 15,
     "days_span": 5,
-    "stars_per_day": 3.2,
-    "lifetime_stars_per_day": 10.65,
+    "stars_per_day": 3.0,
+    "lifetime_stars_per_day": 10.6,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -152,9 +152,9 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:11+00:00",
+  "fetched_at": "2026-11-27T13:53:46+00:00",
   "categories": [
-    "mcp",
+    "desktop-ui",
     "sessions-memory",
     "teams-self-hosting"
   ],
@@ -182,14 +182,14 @@
         "memory-context",
         "self-hosted"
       ],
-      "star_ratio": 5.444,
-      "momentum_ratio": 12.688,
+      "star_ratio": 5.467,
+      "momentum_ratio": 16.4,
       "setup_delta": -13,
       "dominance": 1.0,
       "reasons": [
         "covers 100% of capabilities (6/6)",
-        "5.44x the stars (12,522 vs 2,300)",
-        "12.69x the star velocity (40.6/day vs 3.2/day)",
+        "5.47x the stars (12,580 vs 2,301)",
+        "16.40x the star velocity (49.2/day vs 3.0/day)",
         "no harder to set up (32 vs 45 friction)"
       ],
       "reasons_zh": [],
@@ -220,7 +220,7 @@
           "worktree-isolation"
         ],
         "incumbent_health": 59,
-        "challenger_health": 72,
+        "challenger_health": 74,
         "incumbent_setup_score": 45,
         "challenger_setup_score": 32
       }

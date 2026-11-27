@@ -6,9 +6,9 @@
   "url": "https://github.com/liguobao/ds-harness-remote",
   "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
   "homepage": "https://dsh.r2049.cn/",
-  "stars": 3810,
-  "forks": 269,
-  "open_issues": 41,
+  "stars": 3876,
+  "forks": 276,
+  "open_issues": 31,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -16,33 +16,33 @@
     "dsh-plugin"
   ],
   "created_at": "2026-08-14T15:33:53Z",
-  "updated_at": "2026-11-26T11:48:24Z",
-  "pushed_at": "2026-11-26T09:35:54Z",
+  "updated_at": "2026-11-27T13:44:40Z",
+  "pushed_at": "2026-11-27T11:07:01Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 103,
+  "age_days": 104,
   "days_since_push": 0,
   "health_score": 73,
   "health_components": {
-    "popularity": 71.6,
-    "momentum": 57.7,
+    "popularity": 71.8,
+    "momentum": 56.8,
     "maintenance": 100.0,
     "documentation": 66.0,
     "accessibility": 72.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 346,
+    "stars_gained": 341,
     "days_span": 5,
-    "stars_per_day": 69.2,
-    "lifetime_stars_per_day": 36.99,
+    "stars_per_day": 68.2,
+    "lifetime_stars_per_day": 37.27,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "liguobao/ds-harness-remote",
-    "readme_chars": 21472,
+    "readme_chars": 21636,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -60,7 +60,7 @@
       "remote-control": "while preserving messages and tool status.",
       "mobile-access": "**Bot mode**, powered by Fei2411/DS-Bot.",
       "parallel-execution": "ther tools through ACP integrations, with remote file browsing and terminals.",
-      "model-routing": "Claude and Hermes also support direct file and terminal access, subject to the Host's workspace boundaries and terminal settings. Setup and adapter development: Agent workspace integration guide. Model selection for Cur…",
+      "model-routing": "e, Hermes, and Kimi also support direct file and terminal access, subject to the Host's workspace boundaries and terminal settings.",
       "security-isolation": "onversation models with the same smooth workflow as local use.",
       "self-hosted": "once, and use **Bot mode**, powered by Fei2411/DS-Bot.",
       "team-collaboration": "nt keeps its own workspaces and sessions; only session translation for DSH is performed, without writing to Harness storage.",
@@ -133,7 +133,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.978
+      "external_link_ratio": 0.971
     },
     "highlights": [
       "The current development baseline is dsh-v0.2.3-alpha.2; validation scope is documented in the compatibility guide.",
@@ -155,10 +155,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:06+00:00",
+  "fetched_at": "2026-11-27T13:53:40+00:00",
   "categories": [
     "mobile",
-    "model-routing-2",
+    "security",
     "teams-self-hosting"
   ],
   "primary_category": "mobile",

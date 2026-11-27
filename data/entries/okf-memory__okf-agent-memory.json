@@ -6,7 +6,7 @@
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
   "homepage": "https://okf-memory.dev",
-  "stars": 873,
+  "stars": 876,
   "forks": 70,
   "open_issues": 4,
   "language": "Go",
@@ -32,27 +32,27 @@
     "persistent-memory"
   ],
   "created_at": "2026-09-05T21:26:04Z",
-  "updated_at": "2026-11-26T06:49:58Z",
+  "updated_at": "2026-11-27T06:10:20Z",
   "pushed_at": "2026-11-21T11:25:25Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "develop",
-  "age_days": 81,
-  "days_since_push": 5,
+  "age_days": 82,
+  "days_since_push": 6,
   "health_score": 54,
   "health_components": {
-    "popularity": 58.8,
-    "momentum": 0.2,
+    "popularity": 58.9,
+    "momentum": 0.8,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 55.0
   },
   "tier": "notable",
   "momentum": {
-    "stars_gained": 1,
+    "stars_gained": 5,
     "days_span": 5,
-    "stars_per_day": 0.2,
-    "lifetime_stars_per_day": 10.78,
+    "stars_per_day": 1.0,
+    "lifetime_stars_per_day": 10.68,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -146,7 +146,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:27+00:00",
+  "fetched_at": "2026-11-27T13:54:06+00:00",
   "categories": [
     "desktop-ui",
     "failover",
@@ -155,15 +155,15 @@
   "primary_category": "sessions-memory",
   "lifecycle": {
     "state": "superseded",
-    "note_en": "Superseded by oceanbase/powercontext: covers 100% of capabilities (5/5).",
-    "note_zh": "已被 oceanbase/powercontext 取代：covers 100% of capabilities (5/5)。",
-    "superseded_by": "oceanbase/powercontext",
+    "note_en": "Superseded by kajisho5/ffmpeg-skill: covers 100% of capabilities (5/5).",
+    "note_zh": "已被 kajisho5/ffmpeg-skill 取代：covers 100% of capabilities (5/5)。",
+    "superseded_by": "kajisho5/ffmpeg-skill",
     "challenger": "",
     "supersede": {
       "incumbent": "okf-memory/okf-agent-memory",
-      "challenger": "oceanbase/powercontext",
+      "challenger": "kajisho5/ffmpeg-skill",
       "incumbent_name": "okf-memory/okf-agent-memory",
-      "challenger_name": "oceanbase/powercontext",
+      "challenger_name": "kajisho5/ffmpeg-skill",
       "kind": "supersede",
       "source": "auto",
       "confidence": "medium",
@@ -175,15 +175,15 @@
         "memory-context",
         "multi-agent-orchestration"
       ],
-      "star_ratio": 2.097,
-      "momentum_ratio": 65.0,
-      "setup_delta": 3,
-      "dominance": 0.904,
+      "star_ratio": 13.419,
+      "momentum_ratio": 454.8,
+      "setup_delta": 5,
+      "dominance": 0.975,
       "reasons": [
         "covers 100% of capabilities (5/5)",
-        "2.10x the stars (1,831 vs 873)",
-        "65.00x the star velocity (13.0/day vs 0.2/day)",
-        "slightly heavier setup (+3 friction, within tolerance)"
+        "13.42x the stars (11,755 vs 876)",
+        "454.80x the star velocity (454.8/day vs 1.0/day)",
+        "slightly heavier setup (+5 friction, within tolerance)"
       ],
       "reasons_zh": [],
       "evidence": {
@@ -196,15 +196,21 @@
         ],
         "challenger_capabilities": [
           "agent-runtime",
+          "api-gateway",
+          "auto-failover",
           "cross-agent-support",
           "mcp-support",
           "memory-context",
-          "multi-agent-orchestration"
+          "multi-agent-orchestration",
+          "notifications",
+          "security-isolation",
+          "skills-plugins",
+          "voice-input"
         ],
         "incumbent_health": 54,
-        "challenger_health": 58,
+        "challenger_health": 90,
         "incumbent_setup_score": 45,
-        "challenger_setup_score": 48
+        "challenger_setup_score": 50
       }
     }
   }

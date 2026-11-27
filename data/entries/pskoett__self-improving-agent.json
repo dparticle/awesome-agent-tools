@@ -6,7 +6,7 @@
   "url": "https://github.com/pskoett/self-improving-agent",
   "description": "Self-improvement skill for OpenClaw. It captures learnings, errors, and feature requests to support continuous improvement across sessions. It is a agent knowledge skill made for the skill marketplace",
   "homepage": "https://clawhub.ai/pskoett/skills/self-improving-agent",
-  "stars": 792,
+  "stars": 793,
   "forks": 116,
   "open_issues": 1,
   "language": "JavaScript",
@@ -21,27 +21,27 @@
     "openclaw-skills"
   ],
   "created_at": "2026-01-31T10:11:52Z",
-  "updated_at": "2026-11-25T13:05:49Z",
+  "updated_at": "2026-11-27T13:15:01Z",
   "pushed_at": "2026-10-22T12:32:45Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "master",
-  "age_days": 299,
-  "days_since_push": 35,
+  "age_days": 300,
+  "days_since_push": 36,
   "health_score": 44,
   "health_components": {
     "popularity": 58.0,
-    "momentum": 0.0,
+    "momentum": 0.1,
     "maintenance": 78.0,
     "documentation": 27.0,
     "accessibility": 69.0
   },
   "tier": "watchlist",
   "momentum": {
-    "stars_gained": 0,
-    "days_span": 6,
-    "stars_per_day": 0.0,
-    "lifetime_stars_per_day": 2.65,
+    "stars_gained": 1,
+    "days_span": 7,
+    "stars_per_day": 0.14,
+    "lifetime_stars_per_day": 2.64,
     "basis": "history",
     "is_fast_riser": false
   },
@@ -114,7 +114,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:28+00:00",
+  "fetched_at": "2026-11-27T13:54:07+00:00",
   "categories": [
     "failover"
   ],

@@ -6,9 +6,9 @@
   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
   "description": "Manina AI: let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
   "homepage": "https://manina.ai?ref=github",
-  "stars": 5355,
-  "forks": 750,
-  "open_issues": 18,
+  "stars": 5406,
+  "forks": 755,
+  "open_issues": 17,
   "language": "Swift",
   "license": "MIT",
   "topics": [
@@ -34,27 +34,27 @@
     "xiao-esp32s3"
   ],
   "created_at": "2026-10-11T19:10:25Z",
-  "updated_at": "2026-11-26T13:19:55Z",
+  "updated_at": "2026-11-27T13:35:32Z",
   "pushed_at": "2026-11-26T12:11:04Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 45,
-  "days_since_push": 0,
-  "health_score": 68,
+  "age_days": 46,
+  "days_since_push": 1,
+  "health_score": 69,
   "health_components": {
-    "popularity": 74.6,
-    "momentum": 28.2,
+    "popularity": 74.7,
+    "momentum": 32.8,
     "maintenance": 100.0,
     "documentation": 70.0,
     "accessibility": 79.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 169,
+    "stars_gained": 197,
     "days_span": 5,
-    "stars_per_day": 33.8,
-    "lifetime_stars_per_day": 119.0,
+    "stars_per_day": 39.4,
+    "lifetime_stars_per_day": 117.52,
     "basis": "history",
     "is_fast_riser": true
   },
@@ -158,7 +158,7 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:39+00:00",
+  "fetched_at": "2026-11-27T13:53:05+00:00",
   "categories": [
     "desktop-ui",
     "mobile"

@@ -6,9 +6,9 @@
   "url": "https://github.com/QuantumNous/new-api",
   "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
   "homepage": "https://www.newapi.ai",
-  "stars": 52592,
-  "forks": 12866,
-  "open_issues": 1509,
+  "stars": 52646,
+  "forks": 12886,
+  "open_issues": 1501,
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [
@@ -25,33 +25,33 @@
     "self-hosted"
   ],
   "created_at": "2023-11-10T19:33:36Z",
-  "updated_at": "2026-11-26T13:36:14Z",
-  "pushed_at": "2026-11-26T05:51:27Z",
+  "updated_at": "2026-11-27T13:41:14Z",
+  "pushed_at": "2026-11-27T13:47:08Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 1111,
+  "age_days": 1112,
   "days_since_push": 0,
-  "health_score": 70,
+  "health_score": 71,
   "health_components": {
     "popularity": 94.4,
-    "momentum": 48.2,
+    "momentum": 52.2,
     "maintenance": 100.0,
     "documentation": 75.0,
     "accessibility": 0.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 289,
+    "stars_gained": 313,
     "days_span": 5,
-    "stars_per_day": 57.8,
+    "stars_per_day": 62.6,
     "lifetime_stars_per_day": 47.34,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "QuantumNous/new-api",
-    "readme_chars": 17632,
+    "readme_chars": 17626,
     "capabilities": [
       "model-routing",
       "api-gateway",
@@ -132,7 +132,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 1.134
+      "external_link_ratio": 1.135
     },
     "highlights": [
       "Set your client's base URL to http://localhost:3000/v1 for OpenAI-compatible clients and use the New API-issued key.",
@@ -147,10 +147,10 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:55:54+00:00",
+  "fetched_at": "2026-11-27T13:53:24+00:00",
   "categories": [
     "analytics",
-    "mcp",
+    "model-routing",
     "teams-self-hosting"
   ],
   "primary_category": "teams-self-hosting",

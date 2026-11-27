@@ -6,9 +6,9 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
   "homepage": "https://theaioperator.io",
-  "stars": 5474,
-  "forks": 664,
-  "open_issues": 15,
+  "stars": 5480,
+  "forks": 665,
+  "open_issues": 16,
   "language": "Python",
   "license": "MIT",
   "topics": [
@@ -34,33 +34,33 @@
     "second-brain"
   ],
   "created_at": "2026-03-24T11:58:12Z",
-  "updated_at": "2026-11-26T12:59:22Z",
-  "pushed_at": "2026-11-25T23:44:34Z",
+  "updated_at": "2026-11-27T06:27:10Z",
+  "pushed_at": "2026-11-26T22:33:36Z",
   "archived": false,
   "is_fork": false,
   "default_branch": "main",
-  "age_days": 247,
+  "age_days": 248,
   "days_since_push": 0,
   "health_score": 64,
   "health_components": {
     "popularity": 74.8,
-    "momentum": 11.5,
+    "momentum": 9.8,
     "maintenance": 100.0,
     "documentation": 73.0,
     "accessibility": 76.0
   },
   "tier": "recommended",
   "momentum": {
-    "stars_gained": 69,
+    "stars_gained": 59,
     "days_span": 5,
-    "stars_per_day": 13.8,
-    "lifetime_stars_per_day": 22.16,
+    "stars_per_day": 11.8,
+    "lifetime_stars_per_day": 22.1,
     "basis": "history",
     "is_fast_riser": true
   },
   "analysis": {
     "full_name": "eugeniughelbur/obsidian-second-brain",
-    "readme_chars": 86823,
+    "readme_chars": 86957,
     "capabilities": [
       "auto-failover",
       "remote-control",
@@ -173,7 +173,7 @@
       "is_list": false,
       "score": 0,
       "signals": [],
-      "external_link_ratio": 0.369
+      "external_link_ratio": 0.368
     },
     "highlights": [],
     "summary_zh_native": "",
@@ -185,11 +185,11 @@
     "seed_reason": "",
     "metadata_source": "search"
   },
-  "fetched_at": "2026-11-26T13:56:03+00:00",
+  "fetched_at": "2026-11-27T13:53:35+00:00",
   "categories": [
     "failover",
-    "mcp",
-    "mobile"
+    "mobile",
+    "model-routing-2"
   ],
   "primary_category": "mobile",
   "lifecycle": {

@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 3,810 |
-| Star velocity | 69.2/day (history basis, 5d span) |
+| Stars | 3,876 |
+| Star velocity | 68.2/day (history basis, 5d span) |
 | Health score | 73/100 |
 | Documentation | 66/100 |
 | Tier | ✅ Recommended |
@@ -21,8 +21,8 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-08-14 |
-| Last push | 2026-11-26 (0 days ago) |
-| Analyzed README | 21,472 chars from `raw:HEAD/README.md` |
+| Last push | 2026-11-27 (0 days ago) |
+| Analyzed README | 21,636 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -44,7 +44,7 @@
 
 ### Model / provider routing
 
-> Claude and Hermes also support direct file and terminal access, subject to the Host's workspace boundaries and terminal settings. Setup and adapter development: Agent workspace integration guide. Model selection for Cur…
+> e, Hermes, and Kimi also support direct file and terminal access, subject to the Host's workspace boundaries and terminal settings.
 
 ### Security & isolation
 
@@ -99,8 +99,8 @@ Score **66/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 71.6 |
-| momentum | 57.7 |
+| popularity | 71.8 |
+| momentum | 56.8 |
 | maintenance | 100.0 |
 | documentation | 66.0 |
 | accessibility | 72.0 |

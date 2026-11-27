@@ -12,8 +12,8 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 336 |
-| Star velocity | 0.4/day (history basis, 5d span) |
+| Stars | 338 |
+| Star velocity | 0.8/day (history basis, 5d span) |
 | Health score | 51/100 |
 | Documentation | 62/100 |
 | Tier | 🔹 Notable |
@@ -21,7 +21,7 @@
 | License | MIT |
 | Language | TypeScript |
 | Created | 2026-10-28 |
-| Last push | 2026-11-22 (3 days ago) |
+| Last push | 2026-11-22 (4 days ago) |
 | Analyzed README | 8,943 chars from `raw:HEAD/README.md` |
 
 > ⚠️ **Superseded by [Gentleman-Programming/gentle-shell](https://github.com/Gentleman-Programming/gentle-shell)** — Superseded by Gentleman-Programming/gentle-shell: covers 100% of capabilities (4/4).
@@ -76,8 +76,8 @@ Score **62/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 50.5 |
-| momentum | 0.3 |
+| popularity | 50.6 |
+| momentum | 0.7 |
 | maintenance | 100.0 |
 | documentation | 62.0 |
 | accessibility | 60.0 |

@@ -12,19 +12,17 @@
 
 | Metric | Value |
 | --- | --- |
-| Stars | 304 |
-| Star velocity | 4.8/day (lifetime basis, 64d span) |
-| Health score | 49/100 |
+| Stars | 326 |
+| Star velocity | 5.0/day (lifetime basis, 65d span) |
+| Health score | 50/100 |
 | Documentation | 58/100 |
 | Tier | 🔹 Notable |
-| Lifecycle | 🔻 Superseded |
+| Lifecycle | 🟢 Active |
 | License | MIT |
 | Language | Go |
 | Created | 2026-09-23 |
 | Last push | 2026-11-26 (0 days ago) |
-| Analyzed README | 4,533 chars from `raw:HEAD/README.md` |
-
-> ⚠️ **Superseded by [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** — Superseded by HKUDS/DeepTutor: covers 100% of capabilities (5/5).
+| Analyzed README | 4,541 chars from `raw:HEAD/README.md` |
 
 ## What it solves
 
@@ -39,8 +37,6 @@
 > /可写控制、Markdown 编辑与历史、可解析文档和图片附件
 
 ### Self-hostable
-
-> DE：把项目、模型、工具与执行过程放进同一个工作台。
 
 ### Team collaboration
 
@@ -75,8 +71,8 @@ Score **58/100**, based on these detected signals:
 
 | Component | Score |
 | --- | ---: |
-| popularity | 49.7 |
-| momentum | 4.0 |
+| popularity | 50.3 |
+| momentum | 4.2 |
 | maintenance | 100.0 |
 | documentation | 58.0 |
 | accessibility | 43.0 |
